@@ -41,6 +41,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx playwright install --with-deps chromium
+      - run: sudo apt-get install -y --no-install-recommends poppler-utils  # pdftotext, for quote checks against PDFs
 
       - name: Snapshot sources without a snapshot
         run: npm run capture -- --snapshot-missing --limit "${{ inputs.limit }}" ${{ !inputs.archive && '--no-archive' || '' }}

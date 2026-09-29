@@ -50,6 +50,16 @@ test('validation catches the mistakes that matter', () => {
   assert.match(joined, /contradicts unknown entry "missing"/);
 });
 
+test('warns when an action is dated before the statement it contradicts, and rejects self-links', () => {
+  const d = base();
+  d.entries[1].date = '2019-06-01';
+  d.entries[1].id = '2019-06-01-deed';
+  d.entries[1].related = ['2019-06-01-deed'];
+  const { errors, warnings } = validate(d);
+  assert.match(warnings.join('\n'), /dated before "2020-01-01-promise"/);
+  assert.match(errors.join('\n'), /links to itself/);
+});
+
 test('derive pairs statements with the actions that contradict them', () => {
   const out = derive(base());
   assert.equal(out.receipts.length, 1);

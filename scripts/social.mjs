@@ -171,7 +171,8 @@ export function bskyPostUrl(post) {
  */
 export async function blueskyPosts(handle, { terms = [], from, to, max = 500 } = {}) {
   const jwt = await bskyAuth();
-  const base = jwt ? 'https://bsky.social/xrpc' : 'https://public.api.bsky.app/xrpc';
+  // The public.api.bsky.app cache refuses searchPosts (HTTP 403); api.bsky.app serves it without login.
+  const base = jwt ? 'https://bsky.social/xrpc' : 'https://api.bsky.app/xrpc';
   const headers = { accept: 'application/json', ...(jwt ? { authorization: `Bearer ${jwt}` } : {}) };
   const seen = new Map();
   const add = (post) => {

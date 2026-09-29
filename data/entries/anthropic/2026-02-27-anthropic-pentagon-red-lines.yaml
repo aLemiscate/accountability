@@ -1,17 +1,21 @@
-title: Anthropic refuses to drop its limits on mass surveillance and autonomous weapons, and is blacklisted
+title: Anthropic refuses to drop its limits on mass surveillance and autonomous
+  weapons, and is blacklisted
 date: 2026-02-27
 org: anthropic
 type: said
 kind: commitment
 who: [anthropic, dario-amodei]
 venue: Public standoff with the Department of Defense
+quote: >-
+  Regardless, these threats do not change our position: we cannot in good
+  conscience accede to their request.
 summary: >-
   Anthropic refused Pentagon demands to remove restrictions that bar Claude's
-  use for mass domestic surveillance and fully autonomous weapons, arguing
-  the models aren't reliable enough for those uses and that powerful AI
-  raises serious privacy risks. On February 27, the President directed
-  federal agencies to stop using Anthropic's AI, and Defense Secretary Pete
-  Hegseth designated the company a "supply chain risk to national security."
+  use for mass domestic surveillance and fully autonomous weapons, arguing the
+  models aren't reliable enough for those uses and that powerful AI raises
+  serious privacy risks. On February 27, the President directed federal agencies
+  to stop using Anthropic's AI, and Defense Secretary Pete Hegseth designated
+  the company a "supply chain risk to national security."
 concreteness: measurable
 status: kept
 breaks_if: >-
@@ -20,29 +24,58 @@ breaks_if: >-
 patterns: []
 related: [2026-02-27-pentagon-classified-deal]
 sources:
-  - title: Hegseth declares Anthropic a supply chain risk, restricting military contractors from doing business with AI giant
+  - title: Statement from Dario Amodei on our discussions with the Department of War
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/statement-department-of-war
+    date: 2026-02-26
+    type: primary
+    snapshot: snapshots/2026-09-29-anthropic.com-1dfaa948
+  - title: Anthropic on X
+    publisher: X
+    url: https://x.com/AnthropicAI/status/2027150818575528261
+    date: 2026-02-26
+    type: primary
+    snapshot: snapshots/2026-09-29-x.com-102bd8e4
+  - title: Hegseth declares Anthropic a supply chain risk, restricting military
+      contractors from doing business with AI giant
     publisher: CBS News
     url: https://www.cbsnews.com/news/hegseth-declares-anthropic-supply-chain-risk/
     date: 2026-02-27
     type: reporting
-  - title: Pentagon Designates Anthropic a Supply Chain Risk — What Government Contractors Need to Know
+  - title: Pentagon Designates Anthropic a Supply Chain Risk — What Government
+      Contractors Need to Know
     publisher: Mayer Brown
     url: https://www.mayerbrown.com/en/insights/publications/2026/03/pentagon-designates-anthropic-a-supply-chain-risk-what-government-contractors-need-to-know
     date: 2026-03
     type: analysis
 updates:
+  - date: 2026-03-05
+    text: >-
+      Anthropic said it had received the Department's letter formally
+      designating it a supply chain risk, would challenge it in court, and would
+      keep supplying its models to the military "at nominal cost" during any
+      transition. Amodei also apologized for the tone of a leaked internal post
+      written on the day of the blacklisting.
+    sources:
+      - title: Where things stand with the Department of War
+        publisher: Anthropic
+        url: https://www.anthropic.com/news/where-stand-department-war
+        date: 2026-03-05
+        type: primary
+        snapshot: snapshots/2026-09-29-anthropic.com-d3ae286e
   - date: 2026-03-26
     text: A federal judge blocked the designation while the case proceeded.
     sources:
-      - title: Judge blocks Pentagon's effort to 'punish' Anthropic by labeling it a supply chain risk
+      - title: Judge blocks Pentagon's effort to 'punish' Anthropic by labeling it a
+          supply chain risk
         publisher: CNN
         url: https://www.cnn.com/2026/03/26/business/anthropic-pentagon-injunction-supply-chain-risk
         date: 2026-03-26
         type: reporting
   - date: 2026-08-27
     text: >-
-      A federal judge ruled the designation "constituted unlawful retaliation
-      in violation of the First Amendment."
+      A federal judge ruled the designation "constituted unlawful retaliation in
+      violation of the First Amendment."
     sources:
       - title: Judge rules the Pentagon's supply chain risk label for Anthropic unlawful
         publisher: CNN
@@ -51,8 +84,8 @@ updates:
         type: reporting
   - date: 2026-09-25
     text: >-
-      The U.S. Court of Appeals for the D.C. Circuit ruled 2–1 that the
-      Pentagon may apply the label.
+      The U.S. Court of Appeals for the D.C. Circuit ruled 2–1 that the Pentagon
+      may apply the label.
     sources:
       - title: Federal court says Pentagon can label Anthropic a supply chain risk
         publisher: KSAT (AP)

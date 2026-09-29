@@ -31,7 +31,12 @@ for (let i = 2; i < process.argv.length; i++) {
 const pad = (d, end) => {
   if (!d) return undefined;
   if (/^\d{4}$/.test(d)) return end ? `${d}-12-31` : `${d}-01-01`;
-  if (/^\d{4}-\d{2}$/.test(d)) return end ? `${d}-31` : `${d}-01`;
+  if (/^\d{4}-\d{2}$/.test(d)) {
+    if (!end) return `${d}-01`;
+    // Last real day of the month: the X and Bluesky APIs reject dates like 2024-02-31.
+    const [y, m] = d.split('-').map(Number);
+    return new Date(Date.UTC(y, m, 0)).toISOString().slice(0, 10);
+  }
   return d;
 };
 const from = pad(opts.from, false);
@@ -66,6 +71,11 @@ await mkdir(path.join(ROOT, 'inbox'), { recursive: true });
 for (const account of chosen) {
   const name = account.x || account.bluesky;
   console.log(`\n@${name} (${account.actor})`);
+  const applicable = [account.x && 'wayback', account.x && 'x-api', account.bluesky && 'bluesky'].filter((s) => s && via.has(s));
+  if (!applicable.length) {
+    console.log(`  skipped: no ${[...via].join('/')} source applies to this account`);
+    continue;
+  }
   let found = [];
   const problems = [];
 

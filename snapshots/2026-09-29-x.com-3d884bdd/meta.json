@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/sama/status/1791936857594581428",
+  "captured_at": "2026-09-29T21:44:24.075Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "80de312cdefb5ae2d52aaab62052da2afc28df124c5068a8798c4aeed52fe90c",
+    "page.txt": "b8b8d0a8f2f8729599c8880c00146f7ac9bf6b6deaf0b4208fb55a1609a8afac",
+    "post.json": "b23267bd69c29fd2d4caf6de2e97c4d9fc13443951c2d04c33fe0e8cd5c7e8e1",
+    "post.txt": "5ab416a6a4b671928b3909d81655dc2682f1d330a925d0b871f6ef838a171e39"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1791936857594581428",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"in regards to recent stuff about how openai handles equity: we have never clawed back anyone's vested equity, nor will we do that if people do not sign a separation agreement (or don't agree to a non-disparagement agreement). vested equity is vested equity, full stop. there was … / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "May 18, 2024",
+    "posted_at": "2024-05-18T21:00:14.084Z"
+  },
+  "rendered_status": 403
+}

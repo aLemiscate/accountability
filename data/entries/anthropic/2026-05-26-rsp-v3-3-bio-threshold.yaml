@@ -1,0 +1,53 @@
+title: RSP v3.3 redefines the novel-bioweapons threshold, from "significantly
+  help" to "functionally substitute"
+date: 2026-05-26
+org: anthropic
+type: did
+kind: revision
+who: [anthropic]
+quote: >-
+  This version 3.3 update does the following: 1) revises our threshold for novel
+  chemical/biological weapons production to better track the threat model of
+  concern
+summary: >-
+  Three months after RSP v3, Anthropic rewrote the capability threshold for
+  novel chemical and biological weapons (which its Risk Reports call CB-2). The
+  old test asked whether a model could "significantly help" moderately
+  resourced, expert-backed teams. The new one asks whether it can "functionally
+  substitute for the scarce human expertise" that is the main barrier, doing
+  work that would otherwise require recruiting one of a small number of
+  world-leading specialists. The same revision lowered the damage bar from harm
+  "far beyond" COVID-19 to harm "comparable to or worse than" it. The August
+  2026 Risk Report, the first under the new wording, found that Anthropic's
+  models "may provide significant uplift to relevant threat actors, but do not
+  yet meet our CB-2 threshold."
+revision:
+  before: >-
+    "AI systems with the ability to significantly help threat actors (for
+    example, moderately resourced expert-backed teams) create/obtain and deploy
+    chemical and/or biological weapons with potential for catastrophic damages
+    far beyond those of past catastrophes such as COVID-19."
+  after: >-
+    "AI systems that can functionally substitute for the scarce human expertise
+    that is currently the primary barrier to novel development of chemical and
+    biological weapons with potential for catastrophic harm."
+patterns: [unfalsifiable]
+related: [2026-02-24-rsp-v3-graded-goals, 2026-02-24-rsp-v3-drops-pause]
+sources:
+  - title: Anthropic's Responsible Scaling Policy (version history)
+    publisher: Anthropic
+    url: https://www.anthropic.com/responsible-scaling-policy
+    type: primary
+    snapshot: snapshots/2026-09-29-anthropic.com-afe1e125
+  - title: 'Risk Report: August 2026 (redacted), section 1.3.2 and table 1.2.C'
+    publisher: Anthropic
+    url: https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf
+    date: 2026-08-14
+    type: primary
+    snapshot: snapshots/2026-09-29-www-cdn.anthropic.com-026a83da
+note: >-
+  The change was disclosed, with a redline. The problem is the effect. Under the
+  old wording, "may provide significant uplift" to expert-backed teams reads
+  close to the line. Under the new wording, the same finding clears it
+  comfortably. When the company that grades the test also rewrites it, the
+  outcome is harder to read.

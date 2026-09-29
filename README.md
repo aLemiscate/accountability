@@ -81,7 +81,8 @@ This saves `snapshots/<date>-<site>-<hash>/` containing:
 - `page.html` and `page.txt`: the raw page and its readable text
 - `screenshot.jpg` and `rendered.txt`: a full-page screenshot and rendered text (needs `npx playwright install chromium`)
 - `post.txt` and `post.json`: for X and Bluesky links, the post text from the public embed APIs, which work without logging in
-- `meta.json`: HTTP status, capture time, and SHA-256 hashes of every file
+- `document.pdf` and `document.txt`: for PDFs, the file and its text (the text needs `pdftotext` from poppler-utils)
+- `meta.json`: HTTP status, capture time, SHA-256 hashes of every file, and for posts the exact time of posting (read from the X post id)
 - a Wayback Machine copy, whose link goes into the entry's `archive` field
 
 With `--entry`, the archive link and snapshot path are written into the matching
@@ -94,8 +95,12 @@ To fill gaps across the whole record:
 ```sh
 npm run capture -- --snapshot-missing   # full snapshot of every source without one
 npm run capture -- --archive-missing    # Wayback copy of every source without one
-# both accept --dry-run to preview and --limit N to pace
+# both accept --dry-run to preview, --limit N to pace, and --match <regex> to
+# take only sources whose URL matches, e.g. --match '^https://(x\.com|www\.anthropic\.com)/'
 ```
+
+A URL cited by several entries is captured once and linked from all of them,
+including sources cited inside `updates`.
 
 Error pages (blocked, not found, rate-limited) are never saved as evidence. A
 capture that gets nothing readable leaves no snapshot behind.
@@ -126,7 +131,7 @@ It combines three sources:
 
 - **Wayback Machine (free, no key).** It lists every X post URL the archive has captured for the account, across both twitter.com and x.com, **including posts that have since been deleted**. The post date comes from the post's id, so dates are exact even without the text. Text comes from the live post, or from the archived copy when the live post is gone. A post that is archived but returns 404 live is flagged *possibly deleted*.
 - **X API** (set `X_BEARER_TOKEN`). The account's recent timeline, up to about the last 3,200 posts. What a token can read depends on its X API access tier.
-- **Bluesky** (for accounts with a `bluesky` handle). The public API; set `BSKY_HANDLE` and `BSKY_APP_PASSWORD` (an app password, not your main password) for search.
+- **Bluesky** (for accounts with a `bluesky` handle). The public API, which searches without logging in; set `BSKY_HANDLE` and `BSKY_APP_PASSWORD` (an app password, not your main password) for higher limits.
 
 Posts already cited in the record are marked, so the inbox shows only what's
 new. Nothing is added to the record automatically. When a post belongs,
@@ -145,6 +150,11 @@ The first run saves a baseline in `watch/<id>/latest.txt`. After that, any
 change to the visible text is saved as `watch/<id>/<date>.txt` plus a unified
 diff, `watch/<id>/<date>.diff`. Committed, these become a dated history of every
 wording change.
+
+If the text changes for a mechanical reason, such as a fix to the text
+extractor, accept the new text without recording an edit:
+`npm run watch-pages -- --rebaseline "why"`. The reason goes into
+`watch/<id>/history.json`.
 
 `npm run check-sources` checks every cited link and flags anything **gone**. On
 X, a 404 from the embed API means the post was deleted or the account went
@@ -176,9 +186,15 @@ or allow at least these hosts:
 | --- | --- |
 | Archiving and deleted-post search | `web.archive.org`, `archive.org` |
 | X posts | `x.com`, `twitter.com`, `publish.twitter.com`, `api.x.com` |
-| Bluesky | `bsky.app`, `public.api.bsky.app`, `bsky.social` |
+| Bluesky | `bsky.app`, `public.api.bsky.app`, `api.bsky.app`, `bsky.social` |
 | Company pages | `openai.com`, `cdn.openai.com`, `model-spec.openai.com`, `darioamodei.com` |
 | Reporting cited in the record | the news sites in `reports/source-health.md` |
+
+Even with full network access, some sites refuse cloud IP addresses. In
+September 2026, `web.archive.org` reset connections from cloud sessions,
+`openai.com` returned 403 to both plain requests and the headless browser, and
+`x.com` pages returned 403 to the browser (the X embed APIs still worked). Use
+the Capture and Watch workflows on GitHub's runners for those sources.
 
 
 ## Layout

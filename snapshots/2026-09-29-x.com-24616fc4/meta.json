@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/sama/status/2089787807611195475",
+  "captured_at": "2026-09-29T21:46:51.839Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "9bda1b35591fe33f64644cf75fca411436cc2c55f40b2483b09c29c6100a3560",
+    "page.txt": "02f43fda734b52b91f099dc369a2ebbca139517c4301780bb3746f7da1aabf08",
+    "post.json": "a94caa630c864a5794d6b080cb8077a5e84d8cd55566b383ce239e58b9c89888",
+    "post.txt": "b251dbc5ab59a57c4bb55f072331eac78005790bad381162161f3c0384afc74e"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/2089787807611195475",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"We have paused some frontier RL training to ensure that we can meet the appropriate alignment, security and monitoring standards for the new level of capabilities in front of us. Model progress is now extremely rapid, and we always said we would take action if we felt that model c… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "August 18, 2026",
+    "posted_at": "2026-08-18T18:53:34.371Z"
+  },
+  "rendered_status": 403
+}

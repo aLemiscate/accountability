@@ -1,0 +1,33 @@
+title: 'GPT-4.1 ships with no safety report: "not a frontier model"'
+date: 2025-04-14
+org: openai
+type: did
+kind: action
+who: [openai]
+quote: >-
+  GPT-4.1 is not a frontier model, so there won't be a separate system card
+  released for it.
+summary: >-
+  OpenAI released GPT-4.1, which it said outperformed some of its existing
+  models, particularly on programming benchmarks, without the system card
+  (safety report) that normally accompanies its releases. A spokesperson gave
+  TechCrunch the statement quoted above. TechCrunch noted OpenAI had earlier
+  called system cards "a key part" of its approach to accountability, and that
+  the Financial Times had reported cuts to the time and resources given to
+  safety testers.
+contradicts: [2023-07-21-white-house-voluntary-commitments]
+patterns: [unfalsifiable]
+sources:
+  - title: OpenAI ships GPT-4.1 without a safety report
+    publisher: TechCrunch
+    url: https://techcrunch.com/2025/04/15/openai-ships-gpt-4-1-without-a-safety-report/
+    date: 2025-04-15
+    type: reporting
+response: >-
+  OpenAI's position was that the reporting commitment applies to frontier
+  models and that GPT-4.1, though an improvement in efficiency and coding, did
+  not advance the frontier.
+note: >-
+  The 2023 commitments measured scope against GPT-4 and its peers. OpenAI
+  measured GPT-4.1 against its own 2025 lineup instead. Once the company can
+  move the yardstick, it decides how far the promise reaches.

@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/sama/status/1790075827666796666",
+  "captured_at": "2026-09-29T21:44:00.713Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "1d1670acb9d763854286722a1b6b6b7960688f32fbd06ee7a040e7d61cd659c9",
+    "page.txt": "46586b7f56c5e65dcbb2a9b3a27707bdb1d4c3ba59ad15fea79eaf01b051e4f4",
+    "post.json": "59f5c77946f4b11df44683cd27df6c412b624d5077c7c714cdd1e5ec891cf2d4",
+    "post.txt": "c01d722b90e026cc7e367609636778c6b9beea20f163ff0c7f6f300e3c3932c4"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1790075827666796666",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"her\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "May 13, 2024",
+    "posted_at": "2024-05-13T17:45:09.973Z"
+  },
+  "rendered_status": 403
+}

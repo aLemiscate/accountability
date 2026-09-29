@@ -1,0 +1,47 @@
+title: 'Altman: "we do not have or want government guarantees for OpenAI datacenters"'
+date: 2025-11-06
+org: openai
+type: said
+kind: commitment
+who: [sam-altman]
+venue: Post on X
+quote: >-
+  we do not have or want government guarantees for OpenAI datacenters. We
+  believe that governments should not pick winners or losers, and that taxpayers
+  should not bail out companies that make bad business decisions or otherwise
+  lose in the market.
+summary: >-
+  A day after CFO Sarah Friar suggested at a Wall Street Journal event that a
+  government "backstop" could lower the cost of financing AI infrastructure,
+  Altman posted that OpenAI neither had nor wanted such guarantees. Friar had
+  already walked back her comment. Altman left room for government involvement
+  of other kinds: governments building and owning their own AI infrastructure,
+  and loan guarantees for new U.S. chip fabrication plants.
+concreteness: measurable
+status: open
+breaks_if: >-
+  OpenAI seeks or accepts a federal loan guarantee, backstop or bailout for its
+  own data centers or compute commitments, directly or through a special-purpose
+  vehicle it controls.
+patterns: [mission-to-market]
+sources:
+  - title: Sam Altman on X
+    publisher: X
+    url: https://x.com/sama/status/1986514377470845007
+    date: 2025-11-06
+    type: primary
+    snapshot: snapshots/2026-09-29-x.com-5930b3f6
+  - title: Why OpenAI went into crisis PR mode Thursday
+    publisher: CNN
+    url: https://www.cnn.com/2025/11/06/tech/openai-backtracks-government-support-chip-investments
+    date: 2025-11-06
+    type: reporting
+  - title: Sam Altman says he doesn't want the government to bail out OpenAI if it
+      fails
+    publisher: TechCrunch
+    url: https://techcrunch.com/2025/11/06/sam-altman-says-he-doesnt-want-the-government-to-bail-out-openai-if-it-fails
+    date: 2025-11-06
+    type: reporting
+note: >-
+  This is a clear, checkable line, and one worth watching: OpenAI's compute
+  commitments ran to about $1.4 trillion at the time.

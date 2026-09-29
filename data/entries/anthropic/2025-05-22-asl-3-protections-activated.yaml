@@ -1,0 +1,35 @@
+title: 'Anthropic: Claude Opus 4 launches under ASL-3 protections against
+  bioweapons misuse'
+date: 2025-05-22
+org: anthropic
+type: said
+kind: claim
+who: [anthropic]
+venue: Blog post, "Activating AI Safety Level 3 protections"
+quote: >-
+  We have activated the AI Safety Level 3 (ASL-3) Deployment and Security
+  Standards described in Anthropic’s Responsible Scaling Policy (RSP) in
+  conjunction with launching Claude Opus 4.
+summary: >-
+  Anthropic said it was deploying Claude Opus 4 with ASL-3 measures as a
+  precaution, because it could no longer rule out that the model could
+  meaningfully help with chemical, biological, radiological or nuclear weapons.
+  The deployment measures centered on real-time classifiers meant to block
+  extended CBRN weapons workflows, and they were initially focused on biological
+  weapons.
+concreteness: measurable
+status: contradicted
+patterns: []
+related: [2025-05-14-rsp-v2-2-insider-exclusion]
+sources:
+  - title: Activating AI Safety Level 3 protections
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/activating-asl3-protections
+    date: 2025-05-22
+    type: primary
+    snapshot: snapshots/2026-09-29-anthropic.com-7512ddb5
+note: >-
+  Switching on a higher safety tier before the risk was confirmed was a real
+  precaution, and it deserves credit. Anthropic's own August 2026 Risk Report
+  later showed the classifiers weren't running on one large access route for the
+  next eleven months.

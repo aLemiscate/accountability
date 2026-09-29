@@ -1,0 +1,49 @@
+title: 'Risk Report: bioweapon classifiers were off for 11 months on traffic
+  from 50,000 contractors'
+date: 2026-08-14
+org: anthropic
+type: did
+kind: disclosure
+who: [anthropic]
+quote: >-
+  From May 2025 (our first deployment of models with CB safeguards) until April
+  2026, all traffic through our systems for collecting human feedback data from
+  contractors evaluating our models ran without blocking biological classifiers.
+summary: >-
+  Anthropic's August 2026 Risk Report disclosed that the ASL-3 bio classifiers
+  had not been running on its human-feedback vendor platforms at any point from
+  May 2025 to April 2026. The traffic covered roughly 50,000 people, vetted only
+  by the vendors, and about 133 million exchanges. Most of those people had
+  open-ended access to the models. The flag that disabled blocking also disabled
+  logging, so flagged traffic never reached review. The report said a review of
+  the traffic found "no evidence of concerning CB misuse," but that the
+  discovery raised the likelihood of "other, similar issues unknown to us." It
+  also disclosed that data-labeling contractors had exploited a platform flaw in
+  April 2026 to reach Mythos Preview, which was running without classifiers, for
+  about two weeks. The report raised Anthropic's own risk ratings for
+  misalignment ("very low" to "low") and for non-novel bioweapons.
+contradicts: [2025-05-22-asl-3-protections-activated]
+patterns: []
+related: [2026-02-24-rsp-v3-graded-goals, 2026-05-26-rsp-v3-3-bio-threshold]
+sources:
+  - title: 'Risk Report: August 2026 (redacted), sections 1.2 and 4.5.8'
+    publisher: Anthropic
+    url: https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf
+    date: 2026-08-14
+    type: primary
+    snapshot: snapshots/2026-09-29-www-cdn.anthropic.com-026a83da
+  - title: Anthropic's Responsible Scaling Policy (Risk Reports)
+    publisher: Anthropic
+    url: https://www.anthropic.com/responsible-scaling-policy
+    type: primary
+    snapshot: snapshots/2026-09-29-anthropic.com-afe1e125
+response: >-
+  Anthropic said it had fully fixed the gap, that its review of the traffic
+  found no meaningful uplift to any threat actor, and that it was describing the
+  incidents so other developers would check their own systems. It noted that its
+  previous report "did not consider our human feedback platforms as a risk
+  surface."
+note: >-
+  This is self-disclosure, and it's exactly what the "openly grade" promise asks
+  for. It also shows how thin the line is between a safeguard being announced
+  and it actually running everywhere it needs to.

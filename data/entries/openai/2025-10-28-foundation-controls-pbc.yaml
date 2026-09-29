@@ -28,3 +28,28 @@ sources:
     publisher: OpenAI
     url: https://openai.com/our-structure/
     type: primary
+updates:
+  - date: 2026-09-09
+    text: >-
+      OpenAI added alignment researcher Paul Christiano to the Foundation
+      board and its Safety and Security Committee, which TechCrunch reported
+      has the final say on model releases. He also became a non-voting
+      observer on the PBC board. Christiano wrote that he did not think the
+      industry, "including OpenAI, is currently on track to reduce this risk
+      to an acceptable level."
+    sources:
+      - title: Paul Christiano joins OpenAI Foundation Board
+        publisher: OpenAI
+        url: https://openai.com/index/paul-christiano-joins-openai-foundation-board/
+        date: 2026-09-09
+        type: primary
+      - title: OpenAI adds a prominent AI doomer to its board of directors
+        publisher: TechCrunch
+        url: https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/
+        date: 2026-09-09
+        type: reporting
+      - title: OpenAI Names Paul Christiano to Foundation Board and Safety Committee
+        publisher: Unite.AI
+        url: https://www.unite.ai/openai-names-paul-christiano-to-foundation-board-and-safety-committee/
+        date: 2026-09-09
+        type: reporting

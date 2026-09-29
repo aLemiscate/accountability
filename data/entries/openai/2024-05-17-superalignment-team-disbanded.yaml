@@ -1,19 +1,20 @@
-title: 'Superalignment team dissolved; its leader says safety took "a backseat to shiny products"'
+title: 'Superalignment team dissolved; its leader says safety took "a backseat
+  to shiny products"'
 date: 2024-05-17
 org: openai
 type: did
 kind: outcome
 who: [jan-leike, ilya-sutskever, openai]
 quote: >-
-  But over the past years, safety culture and processes have taken a backseat
-  to shiny products.
+  But over the past years, safety culture and processes have taken a backseat to
+  shiny products.
 summary: >-
   Days after Sutskever left, Jan Leike resigned and posted that he had been
   disagreeing with leadership about the company's core priorities "for quite
-  some time." OpenAI told the remaining team of about 25 people that it was
-  being disbanded. Fortune then reported that the promised 20% of compute
-  never arrived: the team's requests for extra GPUs were repeatedly turned
-  down, and there were no clear terms for how the 20% would be counted.
+  some time." OpenAI dissolved the team and folded its work into other research
+  groups, Bloomberg reported. Fortune then reported that the promised 20% of
+  compute never arrived: the team's requests for extra GPUs were repeatedly
+  turned down, and there were no clear terms for how the 20% would be counted.
 contradicts: [2023-07-05-superalignment-20-percent-compute]
 patterns: [pledged-not-resourced]
 sources:
@@ -22,19 +23,22 @@ sources:
     url: https://x.com/janleike/status/1791498184671605209
     date: 2024-05-17
     type: primary
-  - title: Top OpenAI researcher resigns, saying company prioritized 'shiny products' over AI safety
+    snapshot: snapshots/2026-09-29-x.com-38faa3d5
+  - title: Top OpenAI researcher resigns, saying company prioritized 'shiny
+      products' over AI safety
     publisher: Fortune
     url: https://fortune.com/2024/05/17/openai-researcher-resigns-safety/
     date: 2024-05-17
     type: reporting
-  - title: OpenAI promised 20% of its computing power to combat the most dangerous kind of AI—but never delivered, sources say
+  - title: OpenAI promised 20% of its computing power to combat the most dangerous
+      kind of AI—but never delivered, sources say
     publisher: Fortune
     url: https://fortune.com/2024/05/21/openai-superalignment-20-compute-commitment-never-fulfilled-sutskever-leike-altman-brockman-murati/
     date: 2024-05-21
     type: reporting
 response: >-
-  OpenAI said safety research would be spread across its other research
-  teams instead of sitting in one dedicated team.
+  OpenAI said safety research would be spread across its other research teams
+  instead of sitting in one dedicated team.
 note: >-
   It took ten months from a numeric pledge to a dissolved team. Leike joined
   Anthropic soon after.

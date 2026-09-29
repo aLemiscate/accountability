@@ -1,0 +1,62 @@
+title: Anthropic gives $20M to Public First Action, a group backing AI safeguards
+date: 2026-02-12
+org: anthropic
+type: did
+kind: action
+who: [anthropic]
+quote: >-
+  We don’t want to sit on the sidelines while these policies are developed.
+summary: >-
+  Anthropic donated $20 million to Public First Action, a bipartisan 501(c)(4)
+  run by former lawmakers Brad Carson and Chris Stewart that supports candidates
+  who back AI safeguards. The group has three affiliated super PACs. Coverage
+  framed the gift as a counterweight to Leading the Future, the $125 million
+  super PAC network backed by OpenAI president Greg Brockman and Andreessen
+  Horowitz.
+patterns: []
+related: [2025-08-25-leading-the-future-super-pac]
+sources:
+  - title: Anthropic is donating $20 million to Public First Action
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/donate-public-first-action
+    date: 2026-02-12
+    type: primary
+    snapshot: snapshots/2026-09-29-anthropic.com-f3105fa4
+  - title: Anthropic gives $20 million to group pushing for AI regulations ahead of
+      2026 elections
+    publisher: CNBC
+    url: https://www.cnbc.com/2026/02/12/anthropic-gives-20-million-to-group-pushing-for-ai-regulations-.html
+    date: 2026-02-12
+    type: reporting
+updates:
+  - date: 2026-04-13
+    text: >-
+      Transformer reported that Anthropic had restricted its donation from being
+      used to influence federal elections. The restriction was disclosed only
+      after Transformer asked whether the gift complied with rules barring
+      political contributions by government contractors, despite widespread
+      coverage assuming the money would fund the group's super PACs.
+    sources:
+      - title: Anthropic’s donations can’t be used to influence elections — despite what
+          everyone thought
+        publisher: Transformer
+        url: https://www.transformernews.ai/p/anthropic-super-pac-donations-public-first-leading-the-future-brad-carson
+        date: 2026-04-13
+        type: reporting
+  - date: 2026-07-21
+    text: >-
+      Anthropic gave another $20 million, bringing its total to $40 million, and
+      said both donations "cannot be used to influence the election of any
+      candidate for federal, state, or local office."
+    sources:
+      - title: Donating another $20 million to Public First Action
+        publisher: Anthropic
+        url: https://www.anthropic.com/news/donation-public-first-action
+        date: 2026-07-21
+        type: primary
+        snapshot: snapshots/2026-09-29-anthropic.com-9d9e4fbe
+note: >-
+  Recorded under the same standard as Brockman's giving. It isn't a broken
+  promise, since Anthropic's spending matches its stated policy views. The
+  reason it's here is that the early coverage, and the company's vague
+  announcement, made the gift look like election money when it wasn't.

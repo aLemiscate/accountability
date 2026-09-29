@@ -3,7 +3,7 @@ date: 2026-02-04
 org: anthropic
 type: said
 kind: commitment
-who: [ anthropic ]
+who: [anthropic]
 venue: Blog post, "Claude is a space to think," plus a Super Bowl campaign
 quote: >-
   Claude will remain ad-free. … There are many good places for advertising. A
@@ -21,6 +21,7 @@ breaks_if: >-
   responses or next to conversations; ads in Claude apps; or an announcement
   that "revisits" the approach.
 patterns: []
+related: [2026-02-04-altman-never-run-ads-like-that]
 sources:
   - title: Claude is a space to think
     publisher: Anthropic
