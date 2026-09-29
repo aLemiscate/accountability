@@ -4,8 +4,11 @@ date: 2026-03-02
 org: openai
 type: said
 kind: commitment
-who: [ openai, sam-altman ]
+who: [openai, sam-altman]
 venue: Amended Department of War contract, as described by OpenAI
+quote: >-
+  the AI system shall not be intentionally used for domestic surveillance of
+  U.S. persons and nationals.
 summary: >-
   After backlash, OpenAI said its amended Pentagon contract explicitly bars
   using its technology for domestic surveillance of U.S. persons, and that it
@@ -17,8 +20,14 @@ breaks_if: >-
   persons; a later amendment that narrows the prohibition; or a change in law or
   Pentagon policy that makes a prohibited use "lawful" while OpenAI keeps the
   contract.
-patterns: [ unfalsifiable ]
+patterns: [unfalsifiable]
 sources:
+  - title: Sam Altman on X (re-post of an internal memo on the amendments)
+    publisher: X
+    url: https://x.com/sama/status/2028640354912923739
+    date: 2026-03-02
+    type: primary
+    snapshot: snapshots/2026-09-29-x.com-5113866d
   - title: OpenAI's Altman admits defense deal 'looked opportunistic and sloppy'
       amid backlash
     publisher: CNBC
@@ -29,4 +38,6 @@ sources:
     snapshot: snapshots/2026-09-29-cnbc.com-8ac92d09
 note: >-
   The contract isn't public, so outsiders can't check compliance. The promise
-  works on trust, which is exactly what this record is testing.
+  works on trust, which is exactly what this record is testing. Note the word
+  "intentionally," and that buying commercially available data about Americans
+  doesn't require a warrant.

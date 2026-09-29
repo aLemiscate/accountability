@@ -1,0 +1,60 @@
+title: 'Altman on ads in answers: "we would obviously never run ads in the way
+  Anthropic depicts them"'
+date: 2026-02-04
+org: openai
+type: said
+kind: commitment
+who: [sam-altman]
+venue: Post on X, replying to Anthropic's Super Bowl campaign
+quote: >-
+  We would obviously never run ads in the way Anthropic depicts them. We are not
+  stupid and we know our users would reject that.
+summary: >-
+  Anthropic's Super Bowl spots showed a chatbot, clearly meant to be an
+  ad-supported ChatGPT, weaving a product pitch into its answer. Altman called
+  the ads funny but "clearly dishonest," saying OpenAI's most important
+  principle for ads rules out exactly that. He also called the campaign
+  "Anthropic doublespeak."
+concreteness: measurable
+status: open
+breaks_if: >-
+  A paid placement appears inside ChatGPT's own answer text, or ChatGPT
+  recommends a product in its answer because of an advertiser relationship,
+  instead of in a separate, labeled ad unit.
+patterns: []
+related: [2026-01-16-ad-principles, 2026-02-04-claude-ad-free]
+sources:
+  - title: Sam Altman on X
+    publisher: X
+    url: https://x.com/sama/status/2019139174339928189
+    date: 2026-02-04
+    type: primary
+    snapshot: snapshots/2026-09-29-x.com-5d75104f
+  - title: 'Super Bowl AI ad spat: Altman lashes out at Anthropic campaign'
+    publisher: CNBC
+    url: https://www.cnbc.com/2026/02/05/super-bowl-ai-ad-altman-anthropic-open-ai.html
+    date: 2026-02-05
+    type: reporting
+  - title: Sam Altman got exceptionally testy over Claude Super Bowl ads
+    publisher: TechCrunch
+    url: https://techcrunch.com/2026/02/04/sam-altman-got-exceptionally-testy-over-claude-super-bowl-ads
+    date: 2026-02-04
+    type: reporting
+updates:
+  - date: 2026-09-16
+    text: >-
+      OpenAI began testing "Sponsored Agents": after seeing an ad, a user can
+      open a separate, labeled conversation with a business's agent. OpenAI said
+      these conversations are "separate from the original conversation in
+      ChatGPT and from ChatGPT's independent answers." By Aug. 31 it said
+      ChatGPT ads had reached a $1 billion annualized revenue run rate.
+    sources:
+      - title: OpenAI Tests Sponsored AI Agents in ChatGPT Ads
+        publisher: PYMNTS
+        url: https://www.pymnts.com/news/artificial-intelligence/2026/openai-tests-sponsored-ai-agents-in-chatgpt-ads/
+        date: 2026-09-16
+        type: reporting
+note: >-
+  Altman made this line specific enough to check, so it's on the watchlist.
+  Sponsored Agents stay on the right side of it as described: the advertiser
+  talks in its own labeled window, not in ChatGPT's answer.

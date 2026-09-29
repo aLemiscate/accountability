@@ -1,0 +1,28 @@
+{
+  "url": "https://x.com/sjgadler/status/1912242577723781258",
+  "captured_at": "2026-09-29T22:45:24.698Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "40d7f66bab2d9487a8772d1bdb0c13a9c25caa775f00b3b01b0960332933f3aa",
+    "page.txt": "bbdbff5497f232fbf686ace094230b59ca61cb495a1594145a7fcc8bc6186c20",
+    "post.json": "2a5dcce71b10beafb4b99c9ad161ae9e4b5edf32de460fc250419e20890a8ab2",
+    "post.txt": "60ea7d07ced8d32823caaabb1e4d0e9f66444848cb49f8e169d648da9aaa620e"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sjgadler/status/1912242577723781258",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Steven Adler on X: \"OpenAI is quietly reducing its safety commitments. Omitted from OpenAI's list of Preparedness Framework changes: No longer requiring safety tests of finetuned models\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Steven Adler (@sjgadler)",
+    "date": "April 15, 2025",
+    "posted_at": "2025-04-15T20:32:12.935Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260311133829/https://x.com/sjgadler/status/1912242577723781258",
+    "timestamp": "20260311133829",
+    "method": "existing"
+  }
+}

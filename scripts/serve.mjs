@@ -11,9 +11,15 @@ const siteDir = path.join(ROOT, 'site');
 const port = Number(process.env.PORT || 4173);
 
 createServer(async (req, res) => {
-  const urlPath = decodeURIComponent(new URL(req.url, 'http://x').pathname);
+  let urlPath;
+  try {
+    urlPath = decodeURIComponent(new URL(req.url, 'http://x').pathname);
+  } catch {
+    return res.writeHead(400).end();
+  }
   const file = path.join(siteDir, urlPath.endsWith('/') ? `${urlPath}index.html` : urlPath);
-  if (!file.startsWith(siteDir)) return res.writeHead(403).end();
+  // Stay inside site/ (a bare prefix check would also admit a sibling such as site-old/).
+  if (file !== siteDir && !file.startsWith(siteDir + path.sep)) return res.writeHead(403).end();
   try {
     const body = await readFile(file);
     res.writeHead(200, { 'content-type': TYPES[path.extname(file)] || 'application/octet-stream' }).end(body);

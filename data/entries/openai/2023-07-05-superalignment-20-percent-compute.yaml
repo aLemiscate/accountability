@@ -3,7 +3,7 @@ date: 2023-07-05
 org: openai
 type: said
 kind: commitment
-who: [ openai, ilya-sutskever, jan-leike ]
+who: [openai, ilya-sutskever, jan-leike]
 venue: Blog post, "Introducing Superalignment"
 quote: >-
   …20% of the compute we've secured to date over the next four years…
@@ -13,7 +13,7 @@ summary: >-
   share of the company's compute.
 concreteness: measurable
 status: broken
-patterns: [ pledged-not-resourced ]
+patterns: [pledged-not-resourced]
 sources:
   - title: Introducing Superalignment
     publisher: OpenAI
@@ -22,6 +22,29 @@ sources:
     type: primary
     archive: https://web.archive.org/web/20260927072255/https://openai.com/index/introducing-superalignment/
     snapshot: snapshots/2026-09-29-openai.com-704f57df
+updates:
+  - date: 2024-08-01
+    text: >-
+      Eleven weeks after the Superalignment team was dissolved, Altman restated
+      the pledge in a different form: "as we said last july, we’re committed to
+      allocating at least 20% of the computing resources to safety efforts
+      across the entire company." The 2023 pledge had put a share of the compute
+      secured at that point toward one team's four-year effort.
+    sources:
+      - title: Sam Altman on X
+        publisher: X
+        url: https://x.com/sama/status/1818867964369928387
+        date: 2024-08-01
+        type: primary
+        archive: https://web.archive.org/web/20260118030152/https://x.com/sama/status/1818867964369928387
+        snapshot: snapshots/2026-09-29-x.com-90653eea
+      - title: OpenAI pledges to give U.S. AI Safety Institute early access to its next
+          model
+        publisher: TechCrunch
+        url: https://techcrunch.com/2024/07/31/openai-pledges-to-give-u-s-ai-safety-institute-early-access-to-its-next-model/
+        date: 2024-07-31
+        type: reporting
+        snapshot: snapshots/2026-09-29-techcrunch.com-d5a4e286
 note: >-
   This was one of the few safety promises with a number attached, and it's the
   one that got tested.

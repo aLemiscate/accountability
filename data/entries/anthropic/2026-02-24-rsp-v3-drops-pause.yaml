@@ -4,7 +4,7 @@ date: 2026-02-24
 org: anthropic
 type: did
 kind: revision
-who: [ anthropic, jared-kaplan ]
+who: [anthropic, jared-kaplan]
 quote: >-
   We felt that it wouldn't actually help anyone for us to stop training AI
   models.
@@ -24,8 +24,8 @@ revision:
   after: >-
     "Rather than being hard commitments, these are public goals that we will
     openly grade our progress towards."
-contradicts: [ 2023-09-19-rsp-pause-commitment ]
-patterns: [ race-clause, unfalsifiable ]
+contradicts: [2023-09-19-rsp-pause-commitment]
+patterns: [race-clause, unfalsifiable]
 sources:
   - title: Responsible Scaling Policy v3
     publisher: Anthropic
@@ -59,14 +59,33 @@ updates:
   - date: 2026-07-08
     text: >-
       Four point releases followed (v3.1 on Apr 2, v3.2 on Apr 29, v3.3 on May
-      26, v3.4 on Jul 8, 2026). The page watcher tracks further changes.
+      26, v3.4 on Jul 8, 2026). v3.1 added that Anthropic remains "free to take
+      measures such as pausing" when it deems them appropriate. v3.3 rewrote the
+      novel-bioweapons threshold. The page watcher tracks further changes.
     sources:
       - title: Anthropic's Responsible Scaling Policy
         publisher: Anthropic
         url: https://www.anthropic.com/responsible-scaling-policy
         type: primary
-        archive: https://web.archive.org/web/20260929201416/https://www.anthropic.com/responsible-scaling-policy
         snapshot: snapshots/2026-09-29-anthropic.com-afe1e125
+        archive: https://web.archive.org/web/20260929201416/https://www.anthropic.com/responsible-scaling-policy
+  - date: 2026-09-12
+    text: >-
+      Seven months after this rewrite, Dario Amodei called for the industry to
+      slow down and committed Anthropic, unilaterally, to embedded third-party
+      evaluators. The essay framed "pacing" as not halting model training.
+    sources:
+      - title: We Must Pace the Frontier
+        publisher: Dario Amodei
+        url: https://darioamodei.com/post/we-must-pace-the-frontier
+        date: 2026-09-12
+        type: primary
+        snapshot: snapshots/2026-09-29-darioamodei.com-874a2fd9
+related:
+  [
+    2026-05-26-rsp-v3-3-bio-threshold,
+    2026-09-12-pace-the-frontier-embedded-evaluators
+  ]
 note: >-
   This is the race clause, stated by the company that built its identity on
   refusing it. The reasons given may be sincere. The result is still a pause

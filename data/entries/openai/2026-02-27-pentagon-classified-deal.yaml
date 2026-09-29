@@ -4,7 +4,7 @@ date: 2026-02-27
 org: openai
 type: did
 kind: action
-who: [ openai, sam-altman, caitlin-kalinowski ]
+who: [openai, sam-altman, caitlin-kalinowski]
 summary: >-
   On the day the Pentagon designated Anthropic a supply-chain risk for refusing
   to drop limits on surveillance and autonomous-weapons use, OpenAI announced an
@@ -17,9 +17,27 @@ summary: >-
   saying surveillance without judicial oversight and lethal autonomy without
   human authorization were "lines that deserved more deliberation than they
   got."
-related: [ 2026-02-27-anthropic-pentagon-red-lines ]
-patterns: [ ship-then-patch, sorry-after-caught, principles-with-a-price ]
+related: [2026-02-27-anthropic-pentagon-red-lines]
+patterns: [ship-then-patch, sorry-after-caught, principles-with-a-price]
 sources:
+  - title: Sam Altman on X (announcing the agreement)
+    publisher: X
+    url: https://x.com/sama/status/2027578652477821175
+    date: 2026-02-27
+    type: primary
+    snapshot: snapshots/2026-09-29-x.com-4047f6b4
+  - title: Sam Altman on X (re-post of an internal memo on the amendments)
+    publisher: X
+    url: https://x.com/sama/status/2028640354912923739
+    date: 2026-03-02
+    type: primary
+    snapshot: snapshots/2026-09-29-x.com-5113866d
+  - title: Caitlin Kalinowski on X
+    publisher: X
+    url: https://x.com/kalinowski007/status/2030320074121478618
+    date: 2026-03-07
+    type: primary
+    snapshot: snapshots/2026-09-29-x.com-6adaf96a
   - title: OpenAI reaches agreement with Pentagon to use AI models
     publisher: Axios
     url: https://axios.com/2026/02/27/pentagon-openai-safety-red-lines-anthropic
@@ -56,6 +74,21 @@ sources:
     type: reporting
     archive: https://web.archive.org/web/20260929223225/https://theintercept.com/2026/03/08/openai-anthropic-military-contract-ethics-surveillance/
     snapshot: snapshots/2026-09-29-theintercept.com-1e0ad3e1
+updates:
+  - date: 2026-03-01
+    text: >-
+      In a public Q&A on X the next day, Altman described the red lines as
+      provisional: "We currently have three redlines. I could see us changing
+      them or adding more as the technology evolves, and there are new risks we
+      don't yet understand."
+    sources:
+      - title: Sam Altman on X
+        publisher: X
+        url: https://x.com/sama/status/2027908779015340193
+        date: 2026-03-01
+        type: primary
+        archive: https://web.archive.org/web/20260706164042/https://x.com/sama/status/2027908779015340193
+        snapshot: snapshots/2026-09-29-x.com-604ad08a
 note: >-
   Sign first and add the surveillance ban after the outcry. The red lines were
   the same ones a competitor had just been punished for holding, and whether

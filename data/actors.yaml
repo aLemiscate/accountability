@@ -67,11 +67,179 @@
   role: Former Head of Alignment and Superalignment co-lead, OpenAI
   basis: former-staff-witness
 
+- id: miles-brundage
+  kind: person
+  name: Miles Brundage
+  org: openai
+  role: Former Senior Advisor for AGI Readiness and Head of Policy Research, OpenAI
+  basis: former-staff-witness
+
 - id: caitlin-kalinowski
   kind: person
   name: Caitlin Kalinowski
   org: openai
   role: Former lead of robotics and consumer hardware, OpenAI
+  basis: former-staff-witness
+
+- id: jakub-pachocki
+  kind: person
+  name: Jakub Pachocki
+  org: openai
+  role: Chief Scientist, OpenAI
+  basis: executive
+
+- id: mark-chen
+  kind: person
+  name: Mark Chen
+  org: openai
+  role: Chief Research Officer, OpenAI
+  basis: executive
+
+- id: chris-lehane
+  kind: person
+  name: Chris Lehane
+  org: openai
+  role: Chief Global Affairs Officer, OpenAI
+  basis: executive
+
+- id: nick-turley
+  kind: person
+  name: Nick Turley
+  org: openai
+  role: Head of ChatGPT, OpenAI
+  basis: executive
+
+- id: fidji-simo
+  kind: person
+  name: Fidji Simo
+  org: openai
+  role: CEO of Applications, OpenAI (part-time advisor from July 2026)
+  basis: executive
+
+- id: thibault-sottiaux
+  kind: person
+  name: Thibault Sottiaux
+  org: openai
+  role: Head of core products (ChatGPT, Codex, API), OpenAI; known as Tibo
+  basis: executive
+
+- id: kevin-weil
+  kind: person
+  name: Kevin Weil
+  org: openai
+  role: Former Chief Product Officer and head of OpenAI for Science, OpenAI
+  basis: executive
+
+- id: mira-murati
+  kind: person
+  name: Mira Murati
+  org: openai
+  role: Former Chief Technology Officer and interim CEO, OpenAI
+  basis: executive
+
+- id: wojciech-zaremba
+  kind: person
+  name: Wojciech Zaremba
+  org: openai
+  role: Co-founder, OpenAI; leads AI resilience at the OpenAI Foundation
+  basis: founder
+
+- id: john-schulman
+  kind: person
+  name: John Schulman
+  org: openai
+  role: Co-founder, OpenAI (left 2024)
+  basis: founder
+
+- id: boaz-barak
+  kind: person
+  name: Boaz Barak
+  org: openai
+  role: Safety researcher, OpenAI
+  basis: researcher-public
+
+- id: joshua-achiam
+  kind: person
+  name: Joshua Achiam
+  org: openai
+  role: Head of Mission Alignment, later Chief Futurist, OpenAI
+  basis: spokesperson
+
+- id: johannes-heidecke
+  kind: person
+  name: Johannes Heidecke
+  org: openai
+  role: Former Head of Safety Systems, OpenAI
+  basis: researcher-public
+
+- id: dylan-scandinaro
+  kind: person
+  name: Dylan Scandinaro
+  org: openai
+  role: Head of Preparedness, OpenAI (from February 2026)
+  basis: researcher-public
+
+- id: zico-kolter
+  kind: person
+  name: Zico Kolter
+  org: openai
+  role: Board member and chair of the Safety and Security Committee, OpenAI
+  basis: board
+
+- id: paul-christiano
+  kind: person
+  name: Paul Christiano
+  org: openai
+  role: Board member and Safety and Security Committee member, OpenAI Foundation (from September 2026)
+  basis: board
+
+- id: helen-toner
+  kind: person
+  name: Helen Toner
+  org: openai
+  role: Former board member, OpenAI (2021–2023)
+  basis: board
+
+- id: steven-adler
+  kind: person
+  name: Steven Adler
+  org: openai
+  role: Former safety researcher, OpenAI
+  basis: former-staff-witness
+
+- id: daniel-kokotajlo
+  kind: person
+  name: Daniel Kokotajlo
+  org: openai
+  role: Former governance researcher, OpenAI
+  basis: former-staff-witness
+
+- id: gretchen-krueger
+  kind: person
+  name: Gretchen Krueger
+  org: openai
+  role: Former policy researcher, OpenAI
+  basis: former-staff-witness
+
+- id: rosie-campbell
+  kind: person
+  name: Rosie Campbell
+  org: openai
+  role: Former policy researcher, OpenAI
+  basis: former-staff-witness
+
+- id: carroll-wainwright
+  kind: person
+  name: Carroll Wainwright
+  org: openai
+  role: Former researcher, OpenAI
+  basis: former-staff-witness
+
+- id: leopold-aschenbrenner
+  kind: person
+  name: Leopold Aschenbrenner
+  org: openai
+  role: Former Superalignment researcher, OpenAI
   basis: former-staff-witness
 
 # ── Anthropic ─────────────────────────────────────────────────────────────
@@ -93,5 +261,61 @@
   kind: person
   name: Jack Clark
   org: anthropic
-  role: Co-founder and Head of Policy, Anthropic
+  role: Co-founder and Head of Public Benefit, Anthropic (Head of Policy until 2026)
   basis: executive
+
+- id: mike-krieger
+  kind: person
+  name: Mike Krieger
+  org: anthropic
+  role: Executive, Anthropic (joined as Chief Product Officer in 2024)
+  basis: executive
+
+- id: chris-olah
+  kind: person
+  name: Chris Olah
+  org: anthropic
+  role: Co-founder and interpretability lead, Anthropic
+  basis: founder
+
+- id: evan-hubinger
+  kind: person
+  name: Evan Hubinger
+  org: anthropic
+  role: Alignment stress-testing lead, Anthropic
+  basis: researcher-public
+
+- id: sam-bowman
+  kind: person
+  name: Sam Bowman
+  org: anthropic
+  role: Alignment researcher, Anthropic
+  basis: researcher-public
+
+- id: ethan-perez
+  kind: person
+  name: Ethan Perez
+  org: anthropic
+  role: Alignment researcher and alignment team co-lead, Anthropic
+  basis: researcher-public
+
+- id: amanda-askell
+  kind: person
+  name: Amanda Askell
+  org: anthropic
+  role: Researcher and lead author of Claude's constitution, Anthropic
+  basis: researcher-public
+
+- id: jacob-coxon
+  kind: person
+  name: Jacob Coxon
+  org: anthropic
+  role: Former pretraining researcher at OpenAI and Anthropic (resigned September 2026)
+  basis: former-staff-witness
+
+- id: mrinank-sharma
+  kind: person
+  name: Mrinank Sharma
+  org: anthropic
+  role: Former lead of Safeguards Research, Anthropic (resigned February 2026)
+  basis: former-staff-witness

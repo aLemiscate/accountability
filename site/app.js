@@ -99,7 +99,9 @@
 
   // ── filtering ──────────────────────────────────────────────────────────
   function haystack(e) {
-    return [e.title, e.quote, e.summary, e.note, e.venue, e.response, e.breaks_if, ...(e.who || []).map(actorName)]
+    const sources = [...(e.sources || []), ...(e.updates || []).flatMap((u) => u.sources || [])];
+    return [e.title, e.quote, e.summary, e.note, e.venue, e.response, e.breaks_if, ...(e.who || []).map(actorName),
+      ...(e.updates || []).map((u) => u.text), ...sources.flatMap((s) => [s.title, s.publisher])]
       .filter(Boolean).join(' ').toLowerCase();
   }
   const hayCache = new Map();
@@ -253,7 +255,7 @@
           h('button', { class: `tl-card ${e.type}`, type: 'button', style: row, onclick: () => openEntry(e.id) },
             h('span', { class: 'tl-meta' }, stamp(e.type), h('span', { class: 'label' }, fmtDate(e.date)), orgTag(e.org)),
             h('span', { class: 't' }, e.title),
-            (e.status || e.contradicts.length) && h('span', { class: 'tl-meta' },
+            (e.status || e.contradicts.length > 0) && h('span', { class: 'tl-meta' },
               e.status && statusPill(e.status),
               e.contradicts.length > 0 && h('span', { class: 'label' }, `contradicts ${e.contradicts.length === 1 ? 'an earlier statement' : `${e.contradicts.length} statements`}`)),
           ),
@@ -312,7 +314,7 @@
       h('span', { class: 'label' }, `${hits.length} entr${hits.length === 1 ? 'y' : 'ies'} · ${[...new Set(hits.map((e) => orgName(e.org)))].join(' + ')}`),
       h('h3', null, p.name),
       h('p', null, p.thesis),
-      p.tells?.length && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Tells'), h('ul', null, p.tells.map((t) => h('li', null, t)))),
+      p.tells?.length > 0 && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Tells'), h('ul', null, p.tells.map((t) => h('li', null, t)))),
       p.watch_for && h('div', { class: 'forecast' }, h('span', { class: 'label' }, 'If the pattern holds (analysis)'), h('p', null, p.watch_for)),
       h('div', { class: 'hits' }, hits.map((e) => h('button', { class: 'hit', type: 'button', onclick: () => openEntry(e.id) },
         h('span', { class: 'mono' }, String(e.date).slice(0, 7)), h('span', { class: 'org-mark ' + e.org, 'aria-hidden': 'true' }), h('span', { class: 'ht' }, e.title)))),
@@ -426,22 +428,22 @@
         h('button', { class: 'btn', type: 'button', onclick: () => dialog.close(), 'aria-label': 'Close' }, 'Close'),
       ),
       h('div', { class: 'd-body' },
-        h('h2', null, e.title),
-        (e.who.length || e.venue) && h('p', { class: 'label' }, [e.who.map(actorName).join(', '), e.venue].filter(Boolean).join(' · ')),
+        h('h2', { id: 'entry-title' }, e.title),
+        (e.who.length > 0 || e.venue) && h('p', { class: 'label' }, [e.who.map(actorName).join(', '), e.venue].filter(Boolean).join(' · ')),
         e.quote && h('div', { class: `side ${e.type}`, style: 'padding:0;background:none' }, quoteBlock(e.quote, e)),
         e.summary && h('p', null, e.summary),
         e.revision && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'What changed'),
           h('div', { class: 'diff' }, h('div', { class: 'minus' }, h('b', null, '−'), e.revision.before), h('div', { class: 'plus' }, h('b', null, '+'), e.revision.after))),
         e.breaks_if && h('div', { class: 'breaks' }, h('span', { class: 'label' }, 'Counts as broken if'), h('p', null, e.breaks_if)),
-        (e.contradicts.length || e.contradicted_by.length || e.related.length) && h('div', { class: 'd-section links' },
+        (e.contradicts.length + e.contradicted_by.length + e.related.length > 0) && h('div', { class: 'd-section links' },
           h('span', { class: 'label' }, 'Connected entries'),
           linkList(e.contradicts, 'contradicts'), linkList(e.contradicted_by, 'contradicted by'), linkList(e.related, 'related')),
-        e.updates?.length && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Since then'),
+        e.updates?.length > 0 && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Since then'),
           h('ul', { class: 'updates' }, e.updates.map((u) => h('li', null, h('span', { class: 'mono' }, fmtDate(u.date)),
-            h('div', null, h('p', null, u.text), u.sources?.length && sourceList(u.sources)))))),
+            h('div', null, h('p', null, u.text), u.sources?.length > 0 && sourceList(u.sources)))))),
         e.response && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Their side'), h('p', null, e.response)),
         e.note && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Commentary'), h('p', { class: 'note' }, e.note)),
-        e.patterns.length && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Patterns'),
+        e.patterns.length > 0 && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Patterns'),
           h('div', { class: 'side-head' }, e.patterns.map((p) => h('button', { class: 'chip', type: 'button', onclick: () => { dialog.close(); location.hash = `p-${p}`; } }, patternById.get(p)?.name || p)))),
         h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Sources'), sourceList(e.sources)),
         D.site.repo && e.file && h('p', { class: 'label' }, h('a', { href: `${D.site.repo}/blob/HEAD/${e.file}`, target: '_blank', rel: 'noopener' }, 'View or correct this entry')),
@@ -522,7 +524,7 @@
     watchlist: D.entries.filter((e) => e.status === 'open' || e.status === 'kept').length,
   };
   tabs.replaceChildren(...VIEWS.map((v) => h('button', {
-    class: 'tab', type: 'button', role: 'tab', id: `tab-${v}`, 'aria-selected': 'false',
+    class: 'tab', type: 'button', role: 'tab', id: `tab-${v}`, 'aria-selected': 'false', 'aria-controls': 'view',
     onclick: () => go(v),
   }, v[0].toUpperCase() + v.slice(1), counts[v] != null && h('span', { class: 'count' }, counts[v]))));
 
@@ -556,6 +558,7 @@
 
   function syncControls() {
     for (const b of tabs.children) b.setAttribute('aria-selected', String(b.id === `tab-${state.view}`));
+    view.setAttribute('aria-labelledby', `tab-${state.view}`);
     [...orgSeg.children].forEach((b, i) => b.setAttribute('aria-pressed', String(['all', 'openai', 'anthropic'][i] === state.org)));
     patternSel.value = state.pattern;
     personSel.value = state.person;

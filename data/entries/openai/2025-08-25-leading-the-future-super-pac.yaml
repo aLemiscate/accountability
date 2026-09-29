@@ -3,17 +3,18 @@ date: 2025-08-25
 org: openai
 type: did
 kind: action
-who: [ greg-brockman ]
+who: [greg-brockman]
 summary: >-
   Andreessen Horowitz and OpenAI president Greg Brockman were among the backers
   of Leading the Future, a pro-AI super PAC network modeled on the crypto
   industry's Fairshake. It aims to defeat candidates who back the strictest AI
-  rules and to push a national framework that would preempt state laws.
-  Contributions reported for 2026 include $25M from Greg and Anna Brockman. By
-  one compilation of filings, the network spent about $8M against New York
-  Assemblymember Alex Bores, sponsor of the state's RAISE Act.
-contradicts: [ 2023-05-16-altman-senate-licensing-agency ]
-patterns: [ regulate-us-not-like-that ]
+  rules and to push a national framework that would preempt state laws. Greg and
+  Anna Brockman gave it $25M ($12.5M each), among the largest contributions on
+  file. By one compilation of filings, the network spent about $8M against New
+  York Assemblymember Alex Bores, sponsor of the state's RAISE Act.
+contradicts: [2023-05-16-altman-senate-licensing-agency]
+related: [2026-02-12-public-first-action-donation]
+patterns: [regulate-us-not-like-that]
 sources:
   - title: a16z, OpenAI's Greg Brockman, and others launch Leading the Future, a
       pro-AI super PAC network with $100M+ (WSJ, via Techmeme)
@@ -36,6 +37,76 @@ sources:
     snapshot: snapshots/2026-09-29-en.wikipedia.org-63aabc7b
 response: >-
   The contributions are Brockman's personal money, not OpenAI corporate funds.
+  In a February 2026 memo to staff, chief global affairs officer Chris Lehane
+  said OpenAI itself was not contributing to PACs or 501(c)(4)s.
+updates:
+  - date: 2026-02-13
+    text: >-
+      Reporting in early 2026 showed the Brockmans had also given $25M to MAGA
+      Inc., President Trump's super PAC, in September 2025, making them its
+      largest donors in its year-end filing. Brockman told Wired he had stepped
+      up his political spending because public opinion was turning against AI,
+      and framed it in terms of OpenAI's mission: "Getting that right and making
+      that benefit everyone, that's the most important thing."
+    sources:
+      - title: Why OpenAI says it isn’t spending on Super PACs
+        publisher: CNN
+        url: https://edition.cnn.com/2026/02/13/tech/openai-political-spending-super-pacs
+        date: 2026-02-13
+        type: reporting
+      - title: OpenAI President Defends Trump Donations, Refuses to Comment on ICE
+        publisher: Gizmodo
+        url: https://gizmodo.com/openai-president-defends-trump-donations-refuses-to-comment-on-ice-2000721451
+        date: 2026-02-12
+        type: reporting
+      - title: Alex Bores on X
+        publisher: X
+        url: https://x.com/AlexBores/status/2007101480395047014
+        date: 2026-01-02
+        type: primary
+        snapshot: snapshots/2026-09-29-x.com-3d21766c
+  - date: 2026-06-23
+    text: >-
+      Alex Bores lost the Democratic primary for New York's 12th congressional
+      district to Micah Lasher. Leading the Future spent $8 million against him.
+      Groups on the other side, most of the money from an Anthropic-backed
+      organization, spent roughly $20 million supporting him.
+    sources:
+      - title: AI Super PAC’s First Major Target Loses New York Congressional Primary
+        publisher: Gizmodo
+        url: https://gizmodo.com/ai-super-pacs-first-major-target-loses-new-york-congressional-primary-2000776808
+        date: 2026-06-24
+        type: reporting
+  - date: 2026-06-02
+    text: >-
+      Days apart, Brockman and OpenAI both drew the line between his money and
+      the company. Brockman on X: "Funded by my wife & me personally, not funded
+      by OpenAI! No PAC speaks on behalf of OpenAI." OpenAI's global affairs
+      team then published a statement that the Brockmans' engagement with
+      Leading the Future "has been in a personal capacity," that "OpenAI does
+      not direct the activities of LTF, or have visibility into their
+      operations," and that "No outside political group speaks for OpenAI or
+      represents our company's views."
+    sources:
+      - title: Greg Brockman on X
+        publisher: X
+        url: https://x.com/gdb/status/2060151447195373843
+        date: 2026-05-29
+        type: primary
+        snapshot: snapshots/2026-09-29-x.com-0552a97b
+      - title: Our views on AI policy and political advocacy
+        publisher: OpenAI
+        url: https://openai.com/index/our-views-on-ai-policy-and-political-advocacy/
+        date: 2026-06-02
+        type: primary
+      - title: OpenAI Says It’s Not Responsible for the Leading the Future Super PAC.
+          But Only Its Employees Seem to Believe That.
+        publisher: Obsolete
+        url: https://www.obsolete.pub/p/openai-leading-the-future-super-pac-brockman
+        date: 2026-09-10
+        type: analysis
+        archive: https://web.archive.org/web/20260914080118/https://www.obsolete.pub/p/openai-leading-the-future-super-pac-brockman
+        snapshot: snapshots/2026-09-29-obsolete.pub-c641e033
 note: >-
   "Regulate us" from the CEO, and money to defeat the people writing the
   regulation from the president. Keep the corporate and personal lines clear,

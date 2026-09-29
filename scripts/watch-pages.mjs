@@ -2,6 +2,8 @@
 // Watch the pages where commitments live, and record every change.
 //
 //   npm run watch-pages [-- --only anthropic-rsp]
+//   npm run watch-pages -- --rebaseline "why"   accept the current text as the new
+//       baseline without recording an edit (after a change to the text extractor)
 //
 // For each page in data/watch.yaml, reads the visible text (a plain fetch,
 // falling back to a headless browser for script-rendered pages) and compares
@@ -20,6 +22,8 @@ import { closeBrowser, fetchWithTimeout, htmlToText, renderPage, sha256 } from '
 
 const onlyIdx = process.argv.indexOf('--only');
 const only = onlyIdx > 0 ? process.argv[onlyIdx + 1] : null;
+const rebaselineIdx = process.argv.indexOf('--rebaseline');
+const rebaselineNote = rebaselineIdx > 0 ? (process.argv[rebaselineIdx + 1] || 'manual re-baseline') : null;
 const pages = (await readYaml(path.join(ROOT, 'data', 'watch.yaml'))).filter((p) => !only || p.id === only);
 const stamp = new Date().toISOString().slice(0, 10);
 const summary = [];
@@ -68,13 +72,14 @@ try {
     const hash = sha256(text);
     const previous = existsSync(latestFile) ? await readFile(latestFile, 'utf8') : null;
     const lastVia = history.at(-1)?.via;
-    if (previous !== null && lastVia && lastVia !== via && sha256(previous.trimEnd()) !== hash) {
-      // Different extraction method: the text differs for mechanical reasons, so re-baseline instead of reporting an edit.
+    const mechanical = previous !== null && lastVia && lastVia !== via ? `read via ${via} instead of ${lastVia}` : rebaselineNote;
+    if (previous !== null && mechanical && sha256(previous.trimEnd()) !== hash) {
+      // The text differs for mechanical reasons (extraction method or extractor fix), so re-baseline instead of reporting an edit.
       await writeFile(path.join(dir, `${stamp}.txt`), `${text}\n`);
       await writeFile(latestFile, `${text}\n`);
-      history.push({ date: stamp, sha256: hash, via, event: 'rebaseline', note: `read via ${via} instead of ${lastVia}` });
-      summary.push(`| ${page.id} | re-baselined (read via ${via}) | |`);
-      console.log(`${page.id}: re-baselined (read via ${via} instead of ${lastVia})`);
+      history.push({ date: stamp, sha256: hash, via, event: 'rebaseline', note: mechanical });
+      summary.push(`| ${page.id} | re-baselined (${mechanical}) | |`);
+      console.log(`${page.id}: re-baselined (${mechanical})`);
     } else if (previous === null) {
       await writeFile(latestFile, `${text}\n`);
       history.push({ date: stamp, sha256: hash, via, event: 'baseline' });

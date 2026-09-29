@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/sama/status/2027578652477821175",
+  "captured_at": "2026-09-29T21:46:16.234Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "8613fb8ba504caecbf0a84512be4b329a4f39eb01a7eca9cbc85bfafc850984a",
+    "page.txt": "a45b23b0682fdaffea59f06cf0c98e01d3103dde750d70902a0563e050d322c1",
+    "post.json": "69b1e07b142814cf760ae64bd6ffe607325b49287a824d60abc79808540a0915",
+    "post.txt": "439f0eb4d152b1c8816785f46b60c0a1ca93e1f10a3be080ef2a68d58a00c9a4"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/2027578652477821175",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"Tonight, we reached an agreement with the Department of War to deploy our models in their classified network. In all of our interactions, the DoW displayed a deep respect for safety and a desire to partner to achieve the best possible outcome. AI safety and wide distribution of … / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "February 28, 2026",
+    "posted_at": "2026-02-28T02:56:35.997Z"
+  },
+  "rendered_status": 403
+}

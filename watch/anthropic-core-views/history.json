@@ -4,5 +4,12 @@
     "sha256": "6f854fbec0250bf47a49419fb545e1f94cdb1fe0464f66e2e4b46cdcb608159d",
     "via": "fetch",
     "event": "baseline"
+  },
+  {
+    "date": "2026-09-29",
+    "sha256": "2faba54742ab943a0b3ca7c8a2836331de323b0094f6b6193b35c882c4fb5302",
+    "via": "fetch",
+    "event": "rebaseline",
+    "note": "text extractor fix: list-item attributes no longer leak into the text"
   }
 ]

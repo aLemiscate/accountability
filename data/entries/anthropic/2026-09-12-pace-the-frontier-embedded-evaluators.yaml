@@ -1,0 +1,125 @@
+title: 'Standing promise: "We Must Pace the Frontier," with embedded evaluators
+  free to publish'
+date: 2026-09-12
+org: anthropic
+type: said
+kind: commitment
+who: [dario-amodei, anthropic]
+venue: Essay, "We Must Pace the Frontier," and post on X
+quote: >-
+  Anthropic is unilaterally committing to this step now. … External reviewers
+  should have the right to publish key findings about risk levels, incidents,
+  practices, and the access they received or didn’t receive — without editorial
+  control by Anthropic.
+summary: >-
+  Citing recursive self-improvement and the OpenAI–Hugging Face incident, Amodei
+  called for the industry to slow the pace of capability gains, in three steps:
+  embedded third-party evaluators at each frontier company, coordinated safety
+  standards and limits among companies in democracies, and global coordination.
+  Anthropic committed to the first step on its own. It said it would invite, "in
+  the near future," an embedded external review team with desks, badges,
+  laptops, and access "mostly comparable" to its internal risk teams, whose
+  findings Anthropic could redact only for narrow reasons, not "just because
+  they are unfavorable." Altman and Elon Musk publicly backed the essay the same
+  day.
+concreteness: measurable
+status: open
+breaks_if: >-
+  No embedded team with the described access is working inside Anthropic by
+  March 2027; evaluators' contracts let Anthropic block unfavorable findings
+  beyond the narrow redactions described; an embedded evaluator reports being
+  denied promised access; or the program is scaled back without notice.
+patterns: []
+related:
+  [
+    2026-02-24-rsp-v3-drops-pause,
+    2026-02-24-rsp-v3-graded-goals,
+    2026-07-30-claude-cyber-eval-incidents
+  ]
+sources:
+  - title: We Must Pace the Frontier
+    publisher: Dario Amodei
+    url: https://darioamodei.com/post/we-must-pace-the-frontier
+    date: 2026-09-12
+    type: primary
+    snapshot: snapshots/2026-09-29-darioamodei.com-874a2fd9
+  - title: Dario Amodei on X
+    publisher: X
+    url: https://x.com/DarioAmodei/status/2098773920774074715
+    date: 2026-09-12
+    type: primary
+    snapshot: snapshots/2026-09-29-x.com-30d47597
+  - title: "OpenAI boss Sam Altman spells out how and why the AI industry wants to
+      slow down: 'We could lose control'"
+    publisher: CNBC
+    url: https://www.cnbc.com/2026/09/14/sam-altman-ai-slowdown-anthropic-amodei-musk.html
+    date: 2026-09-14
+    type: reporting
+  - title: Who Should Pace the Frontier? Not Dario Amodei
+    publisher: TechPolicy.Press
+    url: https://www.techpolicy.press/who-should-pace-the-frontier-not-dario-amodei/
+    type: analysis
+updates:
+  - date: 2026-09-18
+    text: >-
+      Anthropic named its first embedded-evaluation partner: Accenture, with the
+      work led by its AI unit Faculty. Anthropic said it will fund Accenture's
+      work directly, that each company expects to invest at least $1 billion in
+      this area over five years, that the partnership is non-exclusive, and that
+      it is "in dialogue with METR and other nonprofit evaluators." It added
+      that "many of the details about how it will operate are still being worked
+      out."
+    sources:
+      - title: Partnering with Accenture on embedded evaluation
+        publisher: Anthropic
+        url: https://www.anthropic.com/news/accenture-embedded-evaluation
+        date: 2026-09-18
+        type: primary
+        snapshot: snapshots/2026-09-29-anthropic.com-5ec4e61a
+  - date: 2026-09-22
+    text: >-
+      Ten days after the essay, Anthropic released Claude Opus 5.5, its first
+      model since the pledge. TechCrunch reported that, according to Anthropic,
+      it set a new state of the art in coding and knowledge-work performance and
+      beat the larger Fable model on many benchmarks, at a lower price; its
+      safety training was "broadly similar to its predecessors," with
+      pre-release evaluation by METR. Anthropic alignment researcher Sam Bowman
+      wrote: "We think Opus 5.5 is sufficiently safer than it's predecessors
+      that releasing it, more likely than not, reduces risks related to
+      misalignment."
+    sources:
+      - title: Anthropic releases Opus 5.5 with lower prices and Fable-level performance
+        publisher: TechCrunch
+        url: https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/
+        date: 2026-09-22
+        type: reporting
+        archive: https://web.archive.org/web/20260926100748/https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/
+        snapshot: snapshots/2026-09-29-techcrunch.com-3021783d
+      - title: Sam Bowman on X
+        publisher: X
+        url: https://x.com/sleepinyourhat/status/2102437501646647440
+        date: 2026-09-22
+        type: primary
+        snapshot: snapshots/2026-09-29-x.com-0f399bcc
+  - date: 2026-09-29
+    text: >-
+      Amodei signed the voluntary "White House Accord on Super Intelligence"
+      with other AI CEOs. Its text, posted by the White House that evening,
+      commits each signatory to internal controls, an internal team, "an
+      independent external auditor or evaluator" and a board committee (see
+      2026-09-29-anthropic-white-house-accord).
+    sources:
+      - title: AI firms sign ‘morally binding’ self-policing pledge in White House
+          meeting
+        publisher: The Hill
+        url: https://thehill.com/homenews/administration/6118906-tech-ceos-sign-white-house-ai-accord/
+        date: 2026-09-29
+        type: reporting
+note: >-
+  Seven months earlier, Anthropic dropped its pause pledge. Its chief science
+  officer said then that unilateral commitments made little sense "if
+  competitors are blazing ahead." This essay commits to a unilateral step. That
+  is a change for the better, and the test is concrete. The essay sells embedded
+  evaluators as "a second opinion free of commercial incentives," yet the first
+  partner is a commercial consultancy that deploys AI for clients and is paid by
+  Anthropic.

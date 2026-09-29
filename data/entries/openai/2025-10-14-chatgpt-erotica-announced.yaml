@@ -4,16 +4,22 @@ date: 2025-10-14
 org: openai
 type: did
 kind: reversal
-who: [ sam-altman, openai ]
+who: [sam-altman, openai]
 venue: Post on X
 quote: treat adult users like adults
 summary: >-
   Altman said ChatGPT would relax restrictions, first letting the bot respond
   "in a very human-like way," and then in December letting verified adults
   generate erotica as age-gating rolled out.
-contradicts: [ 2025-08-altman-sex-bot-avatar ]
-patterns: [ principles-with-a-price ]
+contradicts: [2025-08-altman-sex-bot-avatar]
+patterns: [principles-with-a-price]
 sources:
+  - title: Sam Altman on X
+    publisher: X
+    url: https://x.com/sama/status/1978129344598827128
+    date: 2025-10-14
+    type: primary
+    snapshot: snapshots/2026-09-29-x.com-93c7d451
   - title: '''Erotica'' coming to ChatGPT this year, says OpenAI CEO Sam Altman'
     publisher: CNBC
     url: https://www.cnbc.com/2025/10/15/erotica-coming-to-chatgpt-this-year-says-openai-ceo-sam-altman.html
@@ -34,8 +40,7 @@ updates:
   - date: 2026-03-06
     text: >-
       After missing December and then a first-quarter target, OpenAI delayed
-      "adult mode" again. Later reports described the feature as paused
-      indefinitely after concerns from staff, advisers and investors.
+      "adult mode" again.
     sources:
       - title: ChatGPT "adult mode" and erotica delayed, OpenAI says
         publisher: Axios
@@ -44,6 +49,20 @@ updates:
         type: reporting
         archive: https://web.archive.org/web/20260312225117/https://www.axios.com/2026/03/06/openai-delays-chatgpt-adult-mode
         snapshot: snapshots/2026-09-29-axios.com-6d520b57
+  - date: 2026-03
+    text: >-
+      The Financial Times reported that OpenAI had "indefinitely" paused work on
+      adult mode after pushback over unhealthy attachments to AI and minors'
+      exposure to sexual content, and concern among some investors. OpenAI said
+      it was waiting for long-term research on the effects of sexually explicit
+      chats and emotional attachment.
+    sources:
+      - title: OpenAI is No Longer Working on 'Adult Mode' for ChatGPT (citing the
+          Financial Times)
+        publisher: Thurrott.com
+        url: https://www.thurrott.com/a-i/334240/openai-is-no-longer-working-on-adult-mode-for-chatgpt
+        date: 2026-03
+        type: reporting
 note: >-
   The stated principle flipped in two months. The product hadn't shipped as of
   the last update, but the reversal of the stated principle is the receipt.

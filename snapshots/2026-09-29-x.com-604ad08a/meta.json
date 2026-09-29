@@ -1,0 +1,28 @@
+{
+  "url": "https://x.com/sama/status/2027908779015340193",
+  "captured_at": "2026-09-29T22:52:03.358Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "6d390890120516a0cc67bd538c36dccc4dfc0c5539a3ae54d4390df391a45bb4",
+    "page.txt": "675bfbb43415ade2e98412b82e9fe37426e807f0497fbfdfffbac01e5649247c",
+    "post.json": "d9dee797f58c1ce08039b5df18083d2c5c3aa8f45fe741b1ac4563b61bf7e402",
+    "post.txt": "6da57da0618e6f92b2415befd80dc745dcaf1f1313f34a3cfa1e0bf6c1ebfb0f"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/2027908779015340193",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"We currently have three redlines. I could see us changing them or adding more as the technology evolves, and there are new risks we don't yet understand. Iterative deployment is one of our most-important safety principles, and is a big part of why it was so important that we could… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "March 1, 2026",
+    "posted_at": "2026-03-01T00:48:24.297Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260706164042/https://x.com/sama/status/2027908779015340193",
+    "timestamp": "20260706164042",
+    "method": "existing"
+  }
+}

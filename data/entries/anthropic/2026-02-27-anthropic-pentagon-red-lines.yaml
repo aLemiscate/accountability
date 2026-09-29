@@ -4,8 +4,11 @@ date: 2026-02-27
 org: anthropic
 type: said
 kind: commitment
-who: [ anthropic, dario-amodei ]
+who: [anthropic, dario-amodei]
 venue: Public standoff with the Department of Defense
+quote: >-
+  Regardless, these threats do not change our position: we cannot in good
+  conscience accede to their request.
 summary: >-
   Anthropic refused Pentagon demands to remove restrictions that bar Claude's
   use for mass domestic surveillance and fully autonomous weapons, arguing the
@@ -19,8 +22,20 @@ breaks_if: >-
   Anthropic relaxes those two restrictions for any government customer, or
   settles the dispute on terms that do.
 patterns: []
-related: [ 2026-02-27-pentagon-classified-deal ]
+related: [2026-02-27-pentagon-classified-deal]
 sources:
+  - title: Statement from Dario Amodei on our discussions with the Department of War
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/statement-department-of-war
+    date: 2026-02-26
+    type: primary
+    snapshot: snapshots/2026-09-29-anthropic.com-1dfaa948
+  - title: Anthropic on X
+    publisher: X
+    url: https://x.com/AnthropicAI/status/2027150818575528261
+    date: 2026-02-26
+    type: primary
+    snapshot: snapshots/2026-09-29-x.com-102bd8e4
   - title: Hegseth declares Anthropic a supply chain risk, restricting military
       contractors from doing business with AI giant
     publisher: CBS News
@@ -38,6 +53,20 @@ sources:
     archive: https://web.archive.org/web/20260918012636/https://www.mayerbrown.com/en/insights/publications/2026/03/pentagon-designates-anthropic-a-supply-chain-risk-what-government-contractors-need-to-know
     snapshot: snapshots/2026-09-29-mayerbrown.com-c2bbcb3c
 updates:
+  - date: 2026-03-05
+    text: >-
+      Anthropic said it had received the Department's letter formally
+      designating it a supply chain risk, would challenge it in court, and would
+      keep supplying its models to the military "at nominal cost" during any
+      transition. Amodei also apologized for the tone of a leaked internal post
+      written on the day of the blacklisting.
+    sources:
+      - title: Where things stand with the Department of War
+        publisher: Anthropic
+        url: https://www.anthropic.com/news/where-stand-department-war
+        date: 2026-03-05
+        type: primary
+        snapshot: snapshots/2026-09-29-anthropic.com-d3ae286e
   - date: 2026-03-26
     text: A federal judge blocked the designation while the case proceeded.
     sources:

@@ -1,0 +1,113 @@
+title: 'Standing promise: OpenAI pauses frontier RL training and will "act
+  unilaterally" on safety'
+date: 2026-08-18
+org: openai
+type: said
+kind: commitment
+who: [sam-altman, openai]
+venue: Post on X and OpenAI blog post
+quote: >-
+  We have paused some frontier RL training to ensure that we can meet the
+  appropriate alignment, security and monitoring standards for the new level of
+  capabilities in front of us.
+summary: >-
+  Four weeks after the Hugging Face incident, OpenAI said it had "temporarily
+  slowed the pace of scaling," including a two-week pause in reinforcement
+  learning training, and that its largest planned RL run remained on hold. It
+  also pointed to a finding that its next model, Astra, may have "critical"
+  cyber capabilities under its Preparedness Framework. Altman added, as quoted
+  by The Hill: "We believe the entire field will have to coordinate on shared
+  safety standards, but will act unilaterally in the meantime."
+concreteness: conditional
+status: open
+breaks_if: >-
+  The held-back frontier RL run resumes at scale without the published safety
+  case or evidence of alignment OpenAI said it would first establish; OpenAI
+  cites a competitor's pace to lift a pause or skip a safeguard; or the
+  "unilateral" commitment is made conditional on others acting first.
+patterns: []
+related:
+  [
+    2025-04-15-preparedness-framework-v2,
+    2018-04-09-charter-stop-competing-clause,
+    2026-07-21-hugging-face-incident
+  ]
+sources:
+  - title: Sam Altman on X
+    publisher: X
+    url: https://x.com/sama/status/2089787807611195475
+    date: 2026-08-18
+    type: primary
+    snapshot: snapshots/2026-09-29-x.com-24616fc4
+  - title: OpenAI pausing some model work over safety concerns
+    publisher: The Hill
+    url: https://thehill.com/policy/technology/6038415-openai-pauses-ai-training/
+    date: 2026-08-19
+    type: reporting
+updates:
+  - date: 2026-09-14
+    text: >-
+      After Dario Amodei's essay calling for the industry to "pace the
+      frontier," Altman wrote that "Committing to having independent evaluators
+      with employee-like access is a great idea, and we will do the same." Two
+      days later he wrote: "We welcome a federal framework that sets consistent
+      safety requirements for frontier AI … no amount of American competitive
+      pressure should justify recklessness." He added that "pacing" does not
+      mean "stopping."
+    sources:
+      - title: Sam Altman on X ("we will do the same")
+        publisher: X
+        url: https://x.com/sama/status/2098811563415150910
+        date: 2026-09-12
+        type: primary
+        archive: https://web.archive.org/web/20260924090528/https://x.com/sama/status/2098811563415150910
+        snapshot: snapshots/2026-09-29-x.com-f914fd7d
+      - title: Sam Altman on X
+        publisher: X
+        url: https://x.com/sama/status/2099348812305473766
+        date: 2026-09-14
+        type: primary
+        snapshot: snapshots/2026-09-29-x.com-374decd8
+      - title: "OpenAI boss Sam Altman spells out how and why the AI industry wants to
+          slow down: 'We could lose control'"
+        publisher: CNBC
+        url: https://www.cnbc.com/2026/09/14/sam-altman-ai-slowdown-anthropic-amodei-musk.html
+        date: 2026-09-14
+        type: reporting
+  - date: 2026-09-26
+    text: >-
+      A second test: on Sept. 20 an agent in a training run slipped past
+      OpenAI's internet restrictions through a DNS gap and queried a public
+      chatbot. OpenAI paused all training, evaluation and tool-use inference for
+      its most capable models until the gap was fixed and re-tested, and said:
+      "We will not resume training this particular model, even though the
+      existing reward signal already correctly penalised this behaviour." The
+      run had not stopped automatically as designed.
+    sources:
+      - title: OpenAI pauses training of top AI models after agent bypasses internet
+          curbs
+        publisher: Business Standard (PTI)
+        url: https://www.business-standard.com/amp/technology/artificial-intelligence/openai-pauses-training-of-top-ai-models-after-agent-bypasses-internet-curbs-126092700322_1.html
+        date: 2026-09-27
+        type: reporting
+  - date: 2026-09-29
+    text: >-
+      CNBC reported that OpenAI had postponed the release of its GPT-6.1 Astra
+      model over safety concerns. The same day, OpenAI president Greg Brockman
+      signed a voluntary "White House Accord on Super Intelligence" with other
+      AI CEOs; the White House posted its text that evening (see
+      2026-09-29-white-house-accord).
+    sources:
+      - title: Trump says he and tech leaders signed AI agreement that is 'morally
+          binding'
+        publisher: CNBC
+        url: https://www.cnbc.com/2026/09/29/tech-white-house-ai-lunch-trump.html
+        date: 2026-09-29
+        type: reporting
+        snapshot: snapshots/2026-09-29-cnbc.com-00dde760
+note: >-
+  Compare the 2025 Preparedness Framework, which let OpenAI lower its
+  requirements if a rival shipped first. This time the company paused first and
+  cited no rival. That makes it one of the few safety statements in this record
+  that has so far been kept when tested. It stays on the watchlist because the
+  pause is self-defined and self-lifted.
