@@ -22,15 +22,19 @@ sources:
     url: https://www.techmeme.com/250825/p11
     date: 2025-08-25
     type: reporting
+    archive: https://web.archive.org/web/20260307185752/https://www.techmeme.com/250825/p11
   - title: Why Andreessen Horowitz and This OpenAI Co-Founder Are Launching
       AI-Focused Super PACs
     publisher: Inc.
     url: https://www.inc.com/sam-blum/why-andreessen-horowitz-and-this-openai-co-founder-are-launching-ai-focused-super-pacs/91230947
     type: reporting
+    archive: https://web.archive.org/web/20251024071604/https://www.inc.com/sam-blum/why-andreessen-horowitz-and-this-openai-co-founder-are-launching-ai-focused-super-pacs/91230947
   - title: Leading the Future
     publisher: Wikipedia
     url: https://en.wikipedia.org/wiki/Leading_the_Future
     type: analysis
+    archive: https://web.archive.org/web/20260929220725/https://en.wikipedia.org/wiki/Leading_the_Future
+    snapshot: snapshots/2026-09-29-en.wikipedia.org-63aabc7b
 response: >-
   The contributions are Brockman's personal money, not OpenAI corporate funds.
   In a February 2026 memo to staff, chief global affairs officer Chris Lehane
@@ -64,9 +68,9 @@ updates:
   - date: 2026-06-23
     text: >-
       Alex Bores lost the Democratic primary for New York's 12th congressional
-      district to Micah Lasher. Leading the Future spent $8 million against him. Groups on the other
-      side, most of the money from an Anthropic-backed organization, spent
-      roughly $20 million supporting him.
+      district to Micah Lasher. Leading the Future spent $8 million against him.
+      Groups on the other side, most of the money from an Anthropic-backed
+      organization, spent roughly $20 million supporting him.
     sources:
       - title: AI Super PAC’s First Major Target Loses New York Congressional Primary
         publisher: Gizmodo

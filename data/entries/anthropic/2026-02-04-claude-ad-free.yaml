@@ -34,11 +34,13 @@ sources:
     url: https://www.cnbc.com/2026/02/04/anthropic-no-ads-claude-chatbot-openai-chatgpt.html
     date: 2026-02-04
     type: reporting
+    snapshot: snapshots/2026-09-29-cnbc.com-45ae37e0
   - title: Anthropic pledges ad-free Claude, with a Super Bowl shot at ChatGPT
     publisher: Axios
     url: https://www.axios.com/2026/02/04/anthropic-ads-openai-super-bowl
     date: 2026-02-04
     type: reporting
+    snapshot: snapshots/2026-09-29-axios.com-305719ac
   - title: Claude on X ("Ads are coming to AI. But not to Claude.")
     publisher: X
     url: https://x.com/claudeai/status/2019071113741906403

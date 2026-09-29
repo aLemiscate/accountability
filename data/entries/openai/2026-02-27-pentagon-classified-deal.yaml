@@ -43,28 +43,37 @@ sources:
     url: https://axios.com/2026/02/27/pentagon-openai-safety-red-lines-anthropic
     date: 2026-02-27
     type: reporting
+    archive: https://web.archive.org/web/20260903030418/https://www.axios.com/2026/02/27/pentagon-openai-safety-red-lines-anthropic
+    snapshot: snapshots/2026-09-29-axios.com-7b62a122
   - title: OpenAI reveals more details about its agreement with the Pentagon
     publisher: TechCrunch
     url: https://techcrunch.com/2026/03/01/openai-shares-more-details-about-its-agreement-with-the-pentagon/
     date: 2026-03-01
     type: reporting
+    archive: https://web.archive.org/web/20260929223001/https://techcrunch.com/2026/03/01/openai-shares-more-details-about-its-agreement-with-the-pentagon/
+    snapshot: snapshots/2026-09-29-techcrunch.com-f25f357a
   - title: OpenAI's Altman admits defense deal 'looked opportunistic and sloppy'
       amid backlash
     publisher: CNBC
     url: https://www.cnbc.com/2026/03/03/openai-sam-altman-pentagon-deal-amended-surveillance-limits.html
     date: 2026-03-03
     type: reporting
+    archive: https://web.archive.org/web/20260929223118/https://www.cnbc.com/2026/03/03/openai-sam-altman-pentagon-deal-amended-surveillance-limits.html
+    snapshot: snapshots/2026-09-29-cnbc.com-8ac92d09
   - title: OpenAI Blurs Its Mass Surveillance Red Line With New Pentagon Contract
     publisher: Forbes
     url: https://www.forbes.com/sites/thomasbrewster/2026/03/03/openai-anthropic-ai-mass-surveillance-pentagon-red-lines/
     date: 2026-03-03
     type: reporting
+    archive: https://web.archive.org/web/20260929223149/https://www.forbes.com/sites/thomasbrewster/2026/03/03/openai-anthropic-ai-mass-surveillance-pentagon-red-lines/
   - title: 'OpenAI on Surveillance and Autonomous Killings: You''re Going to Have to
       Trust Us'
     publisher: The Intercept
     url: https://theintercept.com/2026/03/08/openai-anthropic-military-contract-ethics-surveillance/
     date: 2026-03-08
     type: reporting
+    archive: https://web.archive.org/web/20260929223225/https://theintercept.com/2026/03/08/openai-anthropic-military-contract-ethics-surveillance/
+    snapshot: snapshots/2026-09-29-theintercept.com-1e0ad3e1
 updates:
   - date: 2026-03-01
     text: >-

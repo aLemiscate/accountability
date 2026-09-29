@@ -1,0 +1,21 @@
+{
+  "url": "https://www.cnbc.com/2024/05/20/scarlett-johansson-says-openai-ripped-off-her-voice-.html",
+  "captured_at": "2026-09-29T21:44:00.997Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "0e65e75680c818d6d5efe646969e80f9a233c0b9fc81ef583608039c519b197e",
+    "page.txt": "0004467e33527b523931a63881095c9df3688664af4e84e9a7765101dc6415f0",
+    "screenshot.jpg": "d690abfb654b3d8df3bdf942b46247f6cf19d642e8752cb991426bf21539d35d",
+    "rendered.txt": "c77eb0fe812036a75d9e5face14b19466800315c3fc34438f92ae5fe4efefe6c"
+  },
+  "http_status": 200,
+  "final_url": "https://www.cnbc.com/2024/05/20/scarlett-johansson-says-openai-ripped-off-her-voice-.html",
+  "content_type": "text/html; charset=utf-8",
+  "title": "Scarlett Johansson says OpenAI ripped off her voice",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20260929214414/https://www.cnbc.com/2024/05/20/scarlett-johansson-says-openai-ripped-off-her-voice-.html",
+    "timestamp": "20260929214414",
+    "method": "spn"
+  }
+}

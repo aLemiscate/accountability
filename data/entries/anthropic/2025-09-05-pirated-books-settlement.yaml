@@ -3,36 +3,42 @@ date: 2025-09-05
 org: anthropic
 type: did
 kind: outcome
-who: [anthropic]
+who: [ anthropic ]
 quote: >-
   Anthropic had no entitlement to use pirated copies for a central library.
 summary: >-
-  In Bartz v. Anthropic, Judge William Alsup ruled in June 2025 that training
-  on lawfully bought books was fair use, but that downloading pirated books
-  from shadow libraries such as Library Genesis and Pirate Library Mirror to
-  build a permanent library was not. Anthropic then agreed to pay $1.5B,
-  about $3,000 per book, and to destroy the pirated files. It's the largest
-  copyright settlement on record. (The quote is from Judge Alsup's ruling.)
-patterns: [take-first]
+  In Bartz v. Anthropic, Judge William Alsup ruled in June 2025 that training on
+  lawfully bought books was fair use, but that downloading pirated books from
+  shadow libraries such as Library Genesis and Pirate Library Mirror to build a
+  permanent library was not. Anthropic then agreed to pay $1.5B, about $3,000
+  per book, and to destroy the pirated files. It's the largest copyright
+  settlement on record. (The quote is from Judge Alsup's ruling.)
+patterns: [ take-first ]
 sources:
   - title: AI company Anthropic agrees to pay $1.5B to settle lawsuit with authors
     publisher: NBC News
     url: https://www.nbcnews.com/tech/tech-news/anthropic-settlement-lawsuit-authors-rcna229422
     date: 2025-09-05
     type: reporting
+    archive: https://web.archive.org/web/20260929211227/https://www.nbcnews.com/tech/tech-news/anthropic-settlement-lawsuit-authors-rcna229422
+    snapshot: snapshots/2026-09-29-nbcnews.com-9175d1d3
   - title: What Authors Need to Know About the $1.5 Billion Anthropic Settlement
     publisher: Authors Guild
     url: https://authorsguild.org/advocacy/artificial-intelligence/what-authors-need-to-know-about-the-anthropic-settlement/
     type: analysis
+    snapshot: snapshots/2026-09-29-authorsguild.org-37a2301a
 updates:
   - date: 2026-07
     text: The court gave final approval to the settlement.
     sources:
-      - title: Judge approves record $1.5 billion AI copyright settlement involving Anthropic
+      - title: Judge approves record $1.5 billion AI copyright settlement involving
+          Anthropic
         publisher: JURIST
         url: https://www.jurist.org/news/2026/07/judge-approves-record-1-5-billion-settlement-involving-anthropic/
         date: 2026-07
         type: reporting
+        archive: https://web.archive.org/web/20260925045344/https://www.jurist.org/news/2026/07/judge-approves-record-1-5-billion-settlement-involving-anthropic/
+        snapshot: snapshots/2026-09-29-jurist.org-a27e7b73
 response: >-
   Anthropic pointed to the court's finding that training on lawfully acquired
   books is fair use, and said the settlement resolves the remaining claims.

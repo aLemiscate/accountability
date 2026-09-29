@@ -23,10 +23,13 @@ sources:
     url: https://openai.com/index/built-to-benefit-everyone/
     date: 2025-10-28
     type: primary
+    archive: https://web.archive.org/web/20260911190627/https://openai.com/index/built-to-benefit-everyone/
+    snapshot: snapshots/2026-09-29-openai.com-e5a37116
   - title: Our Structure
     publisher: OpenAI
     url: https://openai.com/our-structure/
     type: primary
+    snapshot: snapshots/2026-09-29-openai.com-c61924d9
 updates:
   - date: 2026-09-09
     text: >-

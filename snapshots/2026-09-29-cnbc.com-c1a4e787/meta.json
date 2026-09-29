@@ -1,0 +1,21 @@
+{
+  "url": "https://www.cnbc.com/2025/05/05/openai-says-nonprofit-retain-control-of-company-bowing-to-pressure.html",
+  "captured_at": "2026-09-29T21:59:46.950Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "f1c75bdc6d6367b9cb3f6680f96b325ab5650a448ee5f9661923bef823871217",
+    "page.txt": "6135d9130d69884f46da3f4239637b234ea2f8c455cba235de10a1c45b55f379",
+    "screenshot.jpg": "24ea461422978d3bf9203ecc02f275885dee445353924cd221c25474b334ac48",
+    "rendered.txt": "14c246b1ec2f576f5c72392a0a115e918c46fd91ce1dccb6df340de8a37e24e0"
+  },
+  "http_status": 200,
+  "final_url": "https://www.cnbc.com/2025/05/05/openai-says-nonprofit-retain-control-of-company-bowing-to-pressure.html",
+  "content_type": "text/html; charset=utf-8",
+  "title": "OpenAI says nonprofit retain control of company, bowing to pressure",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20260929215958/https://www.cnbc.com/2025/05/05/openai-says-nonprofit-retain-control-of-company-bowing-to-pressure.html",
+    "timestamp": "20260929215958",
+    "method": "spn"
+  }
+}

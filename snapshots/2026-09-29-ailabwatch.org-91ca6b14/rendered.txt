@@ -1,0 +1,92 @@
+I stopped maintaining this website in September 2025. Work on what AI companies should do in terms of safety and what they are doing is now being done by METR, Guidelight, Midas, and others.
+AI Lab Watch
+Categories
+Companies
+Resources
+Blog
+About
+Commitments
+Commitments by several companies
+White House voluntary commitments
+AI Seoul Summit
+AI Safety Summit
+AI Safety Policies
+Safety testing
+Frontier Model Forum
+Safety testing
+Anthropic
+Google & Google DeepMind
+OpenAI
+Microsoft
+Meta
+xAI
+Other companies
+Open letters
+Commitments
+This page collects AI companies' commitments relevant to AI safety and extreme risks.
+Commitments by several companies
+White House voluntary commitments
+The White House voluntary commitments were joined by Amazon, Anthropic, Google, Inflection, Meta, Microsoft, and OpenAI in July 2023; Adobe, Cohere, IBM, Nvidia, Palantir, Salesforce, Scale AI, and Stability AI in September 2023; and Apple in July 2024.
+The commitments "apply only to generative models that are overall more powerful than the current most advanced model produced by the company making the commitment," but all relevant companies have created more powerful models since making the commitments. The commitments most relevant to safety are:
+"[I]nternal and external red-teaming of models or systems in areas including misuse, societal risks, and national security concerns, such as bio, cyber, [autonomous replication,] and other safety areas."
+"[A]dvanc[e] ongoing research in AI safety, including on the interpretability of AI systems' decision-making processes and on increasing the robustness of AI systems against misuse."
+"Work toward information sharing among companies and governments regarding trust and safety risks, dangerous or emergent capabilities, and attempts to circumvent safeguards": "establish or join a forum or mechanism through which they can develop, advance, and adopt shared standards and best practices for frontier AI safety."
+"Invest in cybersecurity and insider threat safeguards to protect proprietary and unreleased model weights": "limit[] access to model weights to those whose job function requires it and establish[] a robust insider threat detection program consistent with protections provided for their most valuable intellectual property and trade secrets. In addition . . . stor[e] and work[] with the weights in an appropriately secure environment to reduce the risk of unsanctioned release."
+"Incent third-party discovery and reporting of issues and vulnerabilities": establish "bounty systems, contests, or prizes to incent the responsible disclosure of weaknesses, such as unsafe behaviors, or [] include AI systems in their existing bug bounty programs."
+"Publicly report model or system capabilities, limitations, and domains of appropriate and inappropriate use, including discussion of societal risks, such as effects on fairness and bias": "publish reports for all new significant model public releases . . . . These reports should include the safety evaluations conducted (including in areas such as dangerous capabilities, to the extent that these are responsible to publicly disclose) . . . and the results of adversarial testing conducted to evaluate the model's fitness for deployment" and "red-teaming and safety procedures."
+Some companies announced and commented on their commitments, including Microsoft (which simultaneously made additional commitments), Google, and OpenAI.
+In general, AI companies are technically meeting the red-teaming[*] and reporting commitments,[*] they are partially meeting the AI bug bounty commitment,[*] on information sharing and securing model weights they don't publish much information, and some of them do safety research.[*]
+AI Seoul Summit
+16 AI companies joined the Frontier AI Safety Commitments in May 2024, basically committing to make responsible scaling policies by February 2025. See New voluntary commitments (AI Seoul Summit). Many did so.
+AI Safety Summit
+The UK AI Safety Summit occurred in November 2023.
+AI Safety Policies
+The UK Department for Science, Innovation and Technology published best practices for AI safety and responses describing practices from Amazon, Anthropic, DeepMind, Inflection, Meta, Microsoft, and OpenAI.
+Safety testing
+POLITICO reported after the summit that "under a new agreement 'like-minded governments' would be able to test eight leading tech companies' AI models before they are released." I believe this is mistaken: no such agreement exists and this claim is a misinterpretation of the UK AI Safety Summit "safety testing" session statement.
+Frontier Model Forum
+The Frontier Model Forum was "a joint . . . effort between OpenAI, Anthropic, Google, and Microsoft," later joined by Amazon and Meta. We hoped that the Forum would help the companies coordinate on best practices for safety, but it seems ineffective at this goal; there are no substantive practices, standards, or commitments associated with it.
+Safety testing
+Anthropic and OpenAI have committed to share models with the US AI Safety Institute before public deployment. Before this agreement, Gina Raimondo said "the [US] AI Safety Institute will soon test all new advanced AI models before deployment, and . . . the leading companies have agreed to share their models."
+Anthropic
+Anthropic's Responsible Scaling Policy has some risk assessment and associated safety commitments.
+Anthropic once gave some people the impression that they planned to not release models that push the frontier of publicly available models. In particular, CEO Dario Amodei gave Dustin Moskovitz the impression that Anthropic committed "to not meaningfully advance the frontier with a launch." Anthropic has not clarified this commitment, even after their Claude 3 launch resulted in confusion about whether this commitment ever existed and what their current status is.
+Anthropic says "We generally don't publish [capabilities research] because we do not wish to advance the rate of AI capabilities progress." An Anthropic cofounder says "we consider all releases on a case by case basis, weighing expected safety benefit against capabilities/acceleratory risk. In the case of difficult scenarios, we have a formal infohazard review procedure."
+Anthropic's Long-Term Benefit Trust—an independent group with a mandate for safety and benefit-sharing—has the power to elect a majority of its board (as of Nov 2024). But Anthropic's shareholders can abrogate the Trust and the details are unclear. More importantly, the Trust doesn't seem to be functioning well.[*] (This is part of Anthropic's internal governance, not really a commitment.)
+See also Core Views on AI Safety (a discussion of Anthropic's views and their implications). See also Our response to the UK Government's internal AI safety policy enquiries (a summary of some policies). Anthropic shared Claude 3.5 Sonnet with the UK AI Safety Institute and METR before deployment.
+See also Voluntary Commitments.
+Google & Google DeepMind
+DeepMind's Frontier Safety Framework has some risk assessment and associated safety plans.
+Google's AI Principles previously said "we will not design or deploy AI" in areas including "Technologies that cause or are likely to cause overall harm. Where there is a material risk of harm, we will proceed only where we believe that the benefits substantially outweigh the risks, and will incorporate appropriate safety constraints." They also said "we will not design or deploy AI" as "Weapons," and DeepMind signed the Lethal Autonomous Weapons Pledge.
+See also AI Safety Summit: An update on our approach to safety and responsibility, Google's AI Principles Progress Update 2023, Google's Responsible AI Practices, and DeepMind's Responsibility & Safety.
+OpenAI
+OpenAI's Preparedness Framework has some risk assessment and associated safety commitments.
+Stop-and-assist clause in OpenAI's Charter:
+We are concerned about late-stage AGI development becoming a competitive race without time for adequate safety precautions. Therefore, if a value-aligned, safety-conscious project comes close to building AGI before we do, we commit to stop competing with and start assisting this project. We will work out specifics in case-by-case agreements, but a typical triggering condition might be "a better-than-even chance of success in the next two years."
+OpenAI committed to give their superintelligence alignment effort "20% of the compute we've secured to date" (in July 2023), to be used "over the next four years." It's unclear how much compute this was, and with compute use increasing exponentially it may be quite little in 2027. (Many observers misinterpreted the commitment as 20% of compute going forward, and very reasonably interpreted it as for the Superalignment team specifically, and OpenAI failed to correct these interpretations.) Regardless, the Superalignment team dissolved in May 2024. The team's requests for compute were repeatedly denied and there was no plan for allocating the promised compute. OpenAI later claimed that the compute was never meant for the Superalignment team in particular.
+OpenAI is fully controlled by a nonprofit board with a mandate for safety and benefit-sharing. However, the previous board was ineffective in its attempt to remove CEO Sam Altman, the new board seems to defer to the Sam Altman, and OpenAI is moving to remove the nonprofit's control. (This is part of OpenAI's internal governance, not really a commitment.)
+Auditing: in February 2023, OpenAI said "We think it's important that efforts like ours submit to independent audits before releasing new systems; we will talk about this in more detail later this year." OpenAI never elaborated (except to mention that it shared early access to GPT-4 with METR, then part of the Alignment Research Center, but this was not an audit). In December 2023, OpenAI published its Preparedness Framework, saying "evaluations (and corresponding mitigations) will be audited by qualified, independent third-parties." No audits occurred. In April 2025, OpenAI removed this provision from its Preparedness Framework, and it did not note this change in the changelog.
+OpenAI said "We are committed to openly sharing our alignment research when it's safe to do so: We want to be transparent about how well our alignment techniques actually work in practice and we want every AGI developer to use the world's best alignment techniques."
+OpenAI's original[*] "mission is to ensure that artificial general intelligence benefits all of humanity." Sometimes OpenAI and its leadership and staff state that that the mission is to build AGI themselves, including in formal announcements and legal documents.[*]
+See also OpenAI's Approach to Frontier Risk (2023), OpenAI safety practices (2024), and Best Practices for Deploying Language Models (Cohere, OpenAI, and AI21 Labs 2022).
+Microsoft
+Microsoft joined the White House voluntary commitments and simultaneously made additional commitments. But none of them are important enough to mention here.
+Microsoft's AI Safety Policies (2023) says "When it comes to frontier model deployment, Microsoft and OpenAI have together defined capability thresholds that act as a trigger to review models in advance of their first release or downstream deployment. The scope of a review, through our joint Microsoft-OpenAI Deployment Safety Board (DSB), includes model capability discovery. . . . We have exercised this review process with respect to several frontier models, including GPT-4." This sounds good, but Microsoft has not elaborated on these capability thresholds, shared details about the DSB, or shared details about past reviews. Microsoft deployed GPT-4 as a test without telling the DSB, and they initially denied this.
+See also Microsoft's Responsible AI page, Responsible AI Transparency Report (2024), and Responsible AI Standard, v2 (2022).
+Meta
+No commitments relevant to AI safety and extreme risks beyond the White House voluntary commitments.
+See Meta's Overview of Meta AI safety policies prepared for the UK AI Safety Summit (2023) and Responsible AI page.
+xAI
+xAI's Risk Management Framework is terrible, and it's deceptive since it falsely claims to address risks.
+Misuse: xAI's criterion is very inadequate.
+Loss of control: xAI's plan is confused and its criterion is meaningless.
+Security: xAI claims to have good security but this is not at all credible.
+xAI deployed a model violating its RMF (the same week it published the RMF). And it avoided drawing attention to this. And rather than changing the policy it made up some excuses for why the policy shouldn't apply.
+RMF delay: xAI published the draft RMF in February. It said "We plan to release an updated version of this policy within three months." The RMF was published six months later.
+System prompts: after system prompt mistakes, xAI said it would publish system prompts. It did to some extent but seems to not always update that page when it changes the system prompt.
+Other companies
+Several other companies have published safety policies or have failed to do so despite committing to.
+17 Chinese companies signed China's AI Safety Commitments.
+Cohere joined Canada's Voluntary Code of Conduct on the Responsible Development and Management of Advanced Generative AI Systems.
+Open letters
+Some companies' leaders have signed open letters including Research Priorities for Robust and Beneficial Artificial Intelligence (FLI 2015) and the Asilomar AI Principles (FLI 2017).

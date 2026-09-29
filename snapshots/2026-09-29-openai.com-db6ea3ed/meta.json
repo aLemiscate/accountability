@@ -1,0 +1,21 @@
+{
+  "url": "https://openai.com/charter/",
+  "captured_at": "2026-09-29T21:28:54.113Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "b6a46a67664d611ed1a3f714d6030bc896d362c002db5f926ccb9d3e495eefe0",
+    "page.txt": "866f1c66c348cbf8e9423bf696abe8a79da645137b16ea0291df439bd604fdb7",
+    "screenshot.jpg": "8569e5d929c2c11d6dee08c48764b5598e3ad74ccc9e186b1cb7b9418f609545",
+    "rendered.txt": "9eb9e8de7ddb5a2738827ec67cf10089cc01a2aaf564fb8a267c8e0b5e88cad4"
+  },
+  "http_status": 200,
+  "final_url": "https://openai.com/charter/",
+  "content_type": "text/html; charset=utf-8",
+  "title": "OpenAI Charter | OpenAI",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20260917204605/https://openai.com/charter/",
+    "timestamp": "20260917204605",
+    "method": "existing"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "url": "https://openai.com/index/introducing-openai/",
+  "captured_at": "2026-09-29T21:25:38.209Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "1344a24e24e13bb68dbf959f6dd9ae2544035cb8df03582844f1cc40f7a85620",
+    "page.txt": "fa2bbac19b1f6f556acef8bc42134a9b5cb99a8a8ed1daba0df06b48aba0d882",
+    "screenshot.jpg": "54124fcc2956b0b4af1d2f40d71002a12af2fe2e335c8ed727d8631f563e906b",
+    "rendered.txt": "17b23eaf1fce229e11005806ff3dc1681c2cd6fd80d52e322c038af183db7cb4"
+  },
+  "http_status": 200,
+  "final_url": "https://openai.com/index/introducing-openai/",
+  "content_type": "text/html; charset=utf-8",
+  "title": "Introducing OpenAI | OpenAI",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20260927020622/https://openai.com/index/introducing-openai/",
+    "timestamp": "20260927020622",
+    "method": "existing"
+  }
+}

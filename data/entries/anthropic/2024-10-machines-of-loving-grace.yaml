@@ -3,7 +3,7 @@ date: 2024-10
 org: anthropic
 type: said
 kind: principle
-who: [dario-amodei]
+who: [ dario-amodei ]
 venue: Essay, "Machines of Loving Grace"
 quote: >-
   AI-powered authoritarianism seems too terrible to contemplate, so democracies
@@ -14,10 +14,12 @@ summary: >-
   authoritarian states don't overpower them and to protect human rights.
 concreteness: aspirational
 status: eroded
-patterns: [unfalsifiable]
+patterns: [ unfalsifiable ]
 sources:
   - title: Machines of Loving Grace
     publisher: Dario Amodei
     url: https://www.darioamodei.com/essay/machines-of-loving-grace
     date: 2024-10
     type: primary
+    archive: https://web.archive.org/web/20260928212928/https://www.darioamodei.com/essay/machines-of-loving-grace
+    snapshot: snapshots/2026-09-29-darioamodei.com-3633040f
