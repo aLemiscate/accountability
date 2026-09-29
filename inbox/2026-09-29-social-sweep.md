@@ -11,15 +11,21 @@ accounts then in `data/accounts.yaml`, with one to five searches each, and
 verified 35 posts. This version replaces it. @ilyasut is now covered (16
 posts, none that change the record).
 
+**Added after review: Tibo.** Thibault "Tibo" Sottiaux (@thsottiaux), who
+leads OpenAI's core products (ChatGPT, Codex and the API), was missing from
+the first version of this pass too. He now has the full topic grid (44 posts,
+two leads). Tibor Blaho (@btibor91), who tracks both companies but works for
+neither, is not an in-scope account; his two posts are listed as third-party.
+
 ## What was searched
 
 | | |
 | --- | --- |
-| Accounts | 49 X accounts with posts found, plus 5 people searched who have no findable X posts (below) |
-| Searches | 254 web searches in the session, 200 of them restricted to x.com; 154 of those were logged account-by-topic queries |
-| Posts verified | 841, each fetched from X's own post API, so author, handle, text and posting time come from X |
-| From in-scope accounts | 525 posts from 49 accounts |
-| Third-party | 316 posts by reporters, officials and commentators, used to find primary sources |
+| Accounts | 50 X accounts with posts found, plus 5 people searched who have no findable X posts (below) |
+| Searches | 265 web searches in the session, 210 of them restricted to x.com; 164 of those were logged account-by-topic queries |
+| Posts verified | 890, each fetched from X's own post API, so author, handle, text and posting time come from X |
+| From in-scope accounts | 569 posts from 50 accounts |
+| Third-party | 321 posts by reporters, officials and commentators, used to find primary sources |
 
 **How.** For each account, searches of the form `site:x.com "<Name> on X"
 <topic>` across a fixed set of topics: safety and alignment; regulation and
@@ -31,11 +37,11 @@ privacy; incidents. Every status URL in the results was then fetched through
 X's syndication and oEmbed endpoints. Posts are only counted once X returned
 them.
 
-**Depth was uneven, and here is how.** The nine accounts with the most
-at stake got the full topic grid: @sama (37 searches naming him), @AnthropicAI
-(20), @OpenAI (16), @gdb (11), @DarioAmodei (7), @jackclarkSF (6),
-@OpenAINewsroom (5), @janleike (4) and @ilyasut (4). The other 40 accounts got
-two to four searches each, each covering several topics at once. Web search
+**Depth was uneven, and here is how.** Ten accounts got the full topic grid:
+@sama (37 searches naming him), @AnthropicAI (20), @OpenAI (16), @gdb (11),
+@thsottiaux (10), @DarioAmodei (7), @jackclarkSF (6), @OpenAINewsroom (5),
+@janleike (4) and @ilyasut (4). The other 40 accounts got two to four searches
+each, each covering several topics at once. Web search
 only finds posts a search engine has indexed and that match the query terms,
 so for high-volume accounts like @sama this finds the posts that got attention,
 not every post.
@@ -76,6 +82,7 @@ default branch. It hasn't been run.
 | @FoundationOAI (OpenAI Foundation) | 1 | 1 | 0 | 0 | 0 | 1 |
 | @sama (Sam Altman) | 37 | 82 | 14 | 7 | 33 | 28 |
 | @gdb (Greg Brockman) | 11 | 24 | 1 | 1 | 8 | 14 |
+| @thsottiaux (Thibault "Tibo" Sottiaux) | 10 | 44 | 0 | 2 | 2 | 40 |
 | @jasonkwon (Jason Kwon) | 3 | 10 | 2 | 0 | 2 | 6 |
 | @chrislehane (Chris Lehane) | 3 | 2 | 0 | 0 | 0 | 2 |
 | @btaylor (Bret Taylor) | 3 | 5 | 0 | 1 | 1 | 3 |
@@ -176,7 +183,7 @@ allegations are attributed.
 - Claude ad-free and consumer data training: the @claudeai posts as primary
   sources.
 
-`data/actors.yaml` gained 30 people and `data/accounts.yaml` 36 handles, each
+`data/actors.yaml` gained 31 people and `data/accounts.yaml` 37 handles, each
 confirmed from posts fetched through X's API. The build now checks that every
 account belongs to a known actor.
 
@@ -210,6 +217,12 @@ OpenAI
 - **Pachocki's "An Alien Mind"** hopes for voluntary slowdowns: candidate
   standing promise.
 - **Agents' internet use review** (Altman, Sept. 25): tie to Casar's letters.
+- **Codex deleting user files.** After reports in July 2026 that GPT-5.6 Sol
+  deleted user files, Sottiaux described fixes in August. A candidate
+  ship-then-patch did-entry.
+- **Training opt-out dispute** (September 2026): users said the in-app toggle
+  didn't opt them out in the privacy portal; Sottiaux called that "flatly
+  false." Check OpenAI's documentation.
 - **Sora "update #1"** and the King estate statement: primary sources to add
   to the Sora entry.
 - Allegations to verify before any use: a PR firm using fake reporters
