@@ -30,11 +30,13 @@ import YAML from 'yaml';
 import { ROOT, loadAll } from './lib.mjs';
 import { snowflakeDate, xStatusId } from './social.mjs';
 import {
-  closeBrowser, fetchBlueskyPost, fetchWithTimeout, fetchXPost, htmlToText, isBlueskyUrl, isXUrl,
+  closeBrowser, fetchBlueskyPost, fetchWithTimeout, fetchXPost, fetchXPostDetails, htmlToText, isBlueskyUrl, isXUrl,
   pageTitle, renderPage, sha256, sleep, waybackClosest, waybackSave,
 } from './web.mjs';
 
 const VALUE_OPTS = new Set(['entry', 'title', 'type', 'limit', 'match']);
+// Documents larger than this are not stored in snapshots/ (their text and hash are).
+const MAX_DOCUMENT_BYTES = 10 * 1024 * 1024;
 const opts = {};
 const positional = [];
 for (let i = 2; i < process.argv.length; i++) {
@@ -48,6 +50,36 @@ const opt = (name) => (typeof opts[name] === 'string' ? opts[name] : undefined);
 
 const sameUrl = (a, b) => String(a).replace(/\/+$/, '').replace(/^http:/, 'https:') === String(b).replace(/\/+$/, '').replace(/^http:/, 'https:');
 const today = () => new Date().toISOString().slice(0, 10);
+
+
+/**
+ * Keep what oEmbed leaves out of an X post: the full text of long posts, the
+ * text of a quoted post, and attached photos (some statements exist only as an
+ * image). Returns the text to store in post.txt.
+ */
+async function saveXDetails(id, text, save, meta) {
+  const d = await fetchXPostDetails(id).catch((err) => ({ ok: false, error: err.message }));
+  if (!d.ok) return text;
+  await save('syndication.json', JSON.stringify(d.raw, null, 2));
+  if (d.text && d.text.length > text.length) text = d.text;
+  if (d.quoted) text += `\n\nQuoting ${d.quoted.url}:\n${d.quoted.text ?? ''}`;
+  const media = [];
+  const photos = [...d.photos.map((u, i) => [`media-${i + 1}`, u]), ...(d.quoted?.photos ?? []).map((u, i) => [`quoted-media-${i + 1}`, u])];
+  for (const [base, u] of photos) {
+    try {
+      const res = await fetchWithTimeout(u.includes('?') ? u : `${u}?name=large`, { timeout: 30000 });
+      if (!res.ok) continue;
+      const name = `${base}${path.extname(new URL(u).pathname) || '.jpg'}`;
+      await save(name, Buffer.from(await res.arrayBuffer()));
+      media.push({ file: name, url: u });
+    } catch { /* a missing image shouldn't stop the capture */ }
+  }
+  if (media.length) {
+    meta.post.media = media;
+    console.log(`  media     saved ${media.length} image(s) attached to the post`);
+  }
+  return text;
+}
 
 async function archive(url) {
   try {
@@ -88,13 +120,23 @@ async function snapshot(url, { doArchive = true, doShot = true } = {}) {
       meta.title = pageTitle(body.toString('utf8'));
       await save('page.txt', htmlToText(body.toString('utf8')));
     } else {
-      const ext = (meta.content_type || '').includes('pdf') ? 'pdf' : 'bin';
+      // Some hosts (Google Drive, S3) send PDFs as application/octet-stream; trust the file's own header.
+      const isPdf = (meta.content_type || '').includes('pdf') || body.subarray(0, 5).toString('latin1') === '%PDF-';
+      const ext = isPdf ? 'pdf' : 'bin';
       await save(`document.${ext}`, body);
       // Keep the PDF's text next to it, so quotes can be checked against it (needs poppler's pdftotext).
       if (ext === 'pdf') {
         const text = spawnSync('pdftotext', [path.join(dir, 'document.pdf'), '-'], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
         if (text.status === 0 && text.stdout.trim()) await save('document.txt', text.stdout);
         else console.log('  (no PDF text: install poppler-utils for pdftotext)');
+      }
+      // Very large files would bloat the repository. Keep the text and the
+      // original's hash (so a copy can still be verified), not the file itself.
+      if (body.length > MAX_DOCUMENT_BYTES && meta.files['document.txt']) {
+        await rm(path.join(dir, `document.${ext}`));
+        meta.omitted = { file: `document.${ext}`, bytes: body.length, sha256: meta.files[`document.${ext}`], reason: 'larger than the size limit; text kept' };
+        delete meta.files[`document.${ext}`];
+        console.log(`  omitted   document.${ext} (${(body.length / 1e6).toFixed(1)} MB); kept its text and hash`);
       }
     }
     if (res.ok) console.log(`  fetched   HTTP ${res.status}${meta.title ? ` — ${meta.title}` : ''}`);
@@ -112,7 +154,9 @@ async function snapshot(url, { doArchive = true, doShot = true } = {}) {
       if (posted && !Number.isNaN(posted.getTime())) meta.post.posted_at = posted.toISOString();
       if (post.ok) {
         await save('post.json', JSON.stringify(post.raw, null, 2));
-        await save('post.txt', `${post.author ?? ''}\n${post.date ?? ''}\n\n${post.text ?? ''}\n`);
+        let text = post.text ?? '';
+        if (isXUrl(url)) text = await saveXDetails(xStatusId(url), text, save, meta);
+        await save('post.txt', `${post.author ?? ''}\n${post.date ?? ''}\n\n${text}\n`);
         meta.title ??= post.author ? `${post.author} on ${isXUrl(url) ? 'X' : 'Bluesky'}` : null;
         console.log(`  post      ${post.author ?? ''}: ${String(post.text ?? '').slice(0, 90)}`);
       } else {

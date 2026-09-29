@@ -22,6 +22,46 @@ sources:
     date: 2023-03-08
     type: primary
     snapshot: snapshots/2026-09-29-anthropic.com-5fa46de6
+updates:
+  - date: 2026-09-09
+    text: >-
+      Jacob Coxon, a pretraining researcher who had worked at OpenAI and then
+      Anthropic, resigned and posted: "Neither company is acting responsibly.
+      They are racing straight to self-improving superintelligence and gambling
+      with our lives." He wrote that at Anthropic "the stakes are
+      well-understood, but they are locked in a race to get there first."
+      Anthropic's alignment stress-testing lead Evan Hubinger replied: "I
+      believe Anthropic is trying its best, but we do not yet have a plan to
+      solve alignment for superintelligence and are not clearly on track to."
+    sources:
+      - title: Jacob Coxon on X
+        publisher: X
+        url: https://x.com/hilbertspaess/status/2097476196791709843
+        date: 2026-09-09
+        type: primary
+        archive: https://web.archive.org/web/20260916001541/https://x.com/hilbertspaess/status/2097476196791709843
+        snapshot: snapshots/2026-09-29-x.com-d409b697
+      - title: Jacob Coxon on X (thread)
+        publisher: X
+        url: https://x.com/hilbertspaess/status/2097476208908972230
+        date: 2026-09-09
+        type: primary
+        snapshot: snapshots/2026-09-29-x.com-bad50c3a
+      - title: Evan Hubinger on X
+        publisher: X
+        url: https://x.com/EvanHub/status/2097497037956891126
+        date: 2026-09-09
+        type: primary
+        archive: https://web.archive.org/web/20260916001555/https://x.com/EvanHub/status/2097497037956891126
+        snapshot: snapshots/2026-09-29-x.com-b9dbef1f
+      - title: "'Gambling with our lives': Anthropic researcher quits, warns against
+          self-improving AI"
+        publisher: TechCrunch
+        url: https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/
+        date: 2026-09-09
+        type: reporting
+        archive: https://web.archive.org/web/20260921003657/https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/
+        snapshot: snapshots/2026-09-29-techcrunch.com-59cd8944
 note: >-
   Withholding publications is one way to avoid accelerating. Shipping the best
   model on the market is another question, and this principle never addressed

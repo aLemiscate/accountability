@@ -39,6 +39,12 @@ sources:
     url: https://www.axios.com/2026/02/04/anthropic-ads-openai-super-bowl
     date: 2026-02-04
     type: reporting
+  - title: Claude on X ("Ads are coming to AI. But not to Claude.")
+    publisher: X
+    url: https://x.com/claudeai/status/2019071113741906403
+    date: 2026-02-04
+    type: primary
+    snapshot: snapshots/2026-09-29-x.com-88a67efa
 note: >-
   This is a clear, measurable promise, and a marketing campaign. The exit clause
   means it's a promise to explain a reversal, not a promise never to reverse.

@@ -5,11 +5,11 @@ type: did
 kind: action
 who: [openai, sam-altman]
 summary: >-
-  OpenAI announced Stargate UAE with G42, Oracle, Nvidia, Cisco and SoftBank:
-  a large AI data-center cluster in Abu Dhabi with a first 200-megawatt phase
-  expected in 2026. It was the first deal under OpenAI for Countries, which
-  the company pitched as helping governments build "sovereign AI" in
-  coordination with the U.S. government.
+  OpenAI announced Stargate UAE with G42, Oracle, Nvidia, Cisco and SoftBank: a
+  large AI data-center cluster in Abu Dhabi with a first 200-megawatt phase
+  expected in 2026. It was the first deal under OpenAI for Countries, which the
+  company pitched as helping governments build "sovereign AI" in coordination
+  with the U.S. government.
 contradicts: [2024-07-25-altman-democratic-ai-op-ed]
 patterns: [principles-with-a-price]
 sources:
@@ -23,11 +23,20 @@ sources:
     url: https://www.axios.com/2025/05/22/uae-openai-stargate-deal
     date: 2025-05-22
     type: reporting
+  - title: Sam Altman on X
+    publisher: X
+    url: https://x.com/sama/status/1926006829592543235
+    date: 2025-05-23
+    type: primary
+    archive: https://web.archive.org/web/20260124071121/https://x.com/sama/status/1926006829592543235
+    snapshot: snapshots/2026-09-29-x.com-e2c0aa4e
 response: >-
   OpenAI presented OpenAI for Countries as rooted in democratic values and
-  coordinated with the U.S. government.
+  coordinated with the U.S. government. Altman wrote the next day: "sheikh
+  tahnoon has been a great supporter of openai, a true believer in AGI, and a
+  dear personal friend."
 note: >-
-  Ten months after an op-ed framed the choice as democracies versus "nations
-  … that don't share our values," OpenAI's flagship national partnership was
-  with a federation of hereditary monarchies. Whether that contradicts the op-ed depends on
-  whether "democratic AI" was ever a commitment or only a pitch.
+  Ten months after an op-ed framed the choice as democracies versus "nations …
+  that don't share our values," OpenAI's flagship national partnership was with
+  a federation of hereditary monarchies. Whether that contradicts the op-ed
+  depends on whether "democratic AI" was ever a commitment or only a pitch.

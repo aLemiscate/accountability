@@ -8,11 +8,11 @@ quote: >-
   If another frontier AI developer releases a high-risk system without
   comparable safeguards, we may adjust our requirements.
 summary: >-
-  The updated framework dropped persuasion as a tracked risk category
-  (handling it instead through usage policies and the Model Spec), collapsed
-  the risk levels to "High" and "Critical," and added language allowing
-  OpenAI to lower its own requirements if a rival ships a high-risk system
-  without comparable safeguards.
+  The updated framework dropped persuasion as a tracked risk category (handling
+  it instead through usage policies and the Model Spec), collapsed the risk
+  levels to "High" and "Critical," and added language allowing OpenAI to lower
+  its own requirements if a rival ships a high-risk system without comparable
+  safeguards.
 contradicts: [2018-04-09-charter-stop-competing-clause]
 patterns: [race-clause]
 related: [2026-08-18-altman-pause-act-unilaterally]
@@ -27,16 +27,41 @@ sources:
     url: https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf
     date: 2025-04-15
     type: primary
-  - title: OpenAI says it may adjust its safety requirements if a rival lab releases 'high-risk' AI
+  - title: OpenAI says it may adjust its safety requirements if a rival lab releases
+      'high-risk' AI
     publisher: TechCrunch
     url: https://techcrunch.com/2025/04/15/openai-says-it-may-adjust-its-safety-requirements-if-a-rival-lab-releases-high-risk-ai/
     date: 2025-04-15
     type: reporting
+updates:
+  - date: 2025-04-15
+    text: >-
+      Former OpenAI safety researcher Steven Adler pointed to a change the
+      framework's change log doesn't list. The 2023 version said evaluations
+      would run "not only on base models … but also on fine-tuned versions
+      designed for the particular misuse vector without any mitigations in
+      place." Version 2 says elicitation "should be tailored depending on the
+      level of expected access (e.g., doing finetuning if the weights will be
+      released)." Adler: "OpenAI is quietly reducing its safety commitments."
+    sources:
+      - title: Steven Adler on X
+        publisher: X
+        url: https://x.com/sjgadler/status/1912242577723781258
+        date: 2025-04-15
+        type: primary
+        archive: https://web.archive.org/web/20260311133829/https://x.com/sjgadler/status/1912242577723781258
+        snapshot: snapshots/2026-09-29-x.com-c303246a
+      - title: Preparedness Framework (Beta) (PDF)
+        publisher: OpenAI
+        url: https://cdn.openai.com/openai-preparedness-framework-beta.pdf
+        date: 2023-12-18
+        type: primary
+        snapshot: snapshots/2026-09-29-cdn.openai.com-45f5df09
 response: >-
-  OpenAI said any adjustment would require first confirming the risk
-  landscape had actually changed, acknowledging the change publicly,
-  assessing that it doesn't meaningfully raise overall risk of severe harm,
-  and keeping safeguards more protective than the rival's.
+  OpenAI said any adjustment would require first confirming the risk landscape
+  had actually changed, acknowledging the change publicly, assessing that it
+  doesn't meaningfully raise overall risk of severe harm, and keeping safeguards
+  more protective than the rival's.
 note: >-
-  In 2018 the answer to a reckless competitor was to stop and help. By 2025
-  it was to match them, with conditions OpenAI grades for itself.
+  In 2018 the answer to a reckless competitor was to stop and help. By 2025 it
+  was to match them, with conditions OpenAI grades for itself.

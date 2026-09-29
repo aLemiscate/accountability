@@ -60,6 +60,14 @@ test('warns when an action is dated before the statement it contradicts, and rej
   assert.match(errors.join('\n'), /links to itself/);
 });
 
+test('every account belongs to a known actor and no handle is listed twice', () => {
+  const d = base();
+  d.accounts = [{ actor: 'openai', x: 'OpenAI' }, { actor: 'nobody', x: 'someone' }, { actor: 'openai', x: 'openai' }];
+  const joined = validate(d).errors.join('\n');
+  assert.match(joined, /unknown actor "nobody"/);
+  assert.match(joined, /duplicate handle x:openai/);
+});
+
 test('derive pairs statements with the actions that contradict them', () => {
   const out = derive(base());
   assert.equal(out.receipts.length, 1);

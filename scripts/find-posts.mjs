@@ -3,6 +3,7 @@
 //
 //   npm run find-posts -- --account sama --from 2023 --to 2024 --match "safety|regulat|nonprofit"
 //   npm run find-posts -- --all --from 2026-01 --match "safety|ads|military"
+//   npm run find-posts -- --all --via wayback --limit 2000 --keep-deleted --match "…"   (full history)
 //
 // Sources, per account in data/accounts.yaml:
 //   wayback  every X post URL the Wayback Machine has archived for the
@@ -11,6 +12,9 @@
 //   x-api    the account's recent timeline via the X API (set X_BEARER_TOKEN).
 //   bluesky  posts on Bluesky (set BSKY_HANDLE and BSKY_APP_PASSWORD for search).
 // Choose with --via wayback,x-api,bluesky (default: every source that is configured).
+// --keep-deleted keeps posts that look deleted (live lookup 404s, archived copy
+// exists) even when they don't match --match: a deleted post is worth a look.
+// --cdx-limit raises how many archived URLs are listed per account (default 5000).
 //
 // Output: inbox/<date>-<account>.md and .json. Nothing is added to the record
 // automatically: read the candidates, then `npm run new -- … --url <post>` for
@@ -21,7 +25,7 @@ import { ROOT, loadAll, readYaml } from './lib.mjs';
 import { sleep } from './web.mjs';
 import { blueskyPosts, hydrateXCandidate, waybackPosts, xApiPosts, xStatusId } from './social.mjs';
 
-const VALUE_OPTS = new Set(['account', 'from', 'to', 'match', 'limit', 'via']);
+const VALUE_OPTS = new Set(['account', 'from', 'to', 'match', 'limit', 'via', 'cdx-limit']);
 const opts = {};
 for (let i = 2; i < process.argv.length; i++) {
   const a = process.argv[i].replace(/^--/, '');
@@ -81,7 +85,7 @@ for (const account of chosen) {
 
   if (account.x && via.has('wayback')) {
     try {
-      const list = await waybackPosts(account.x, { from, to });
+      const list = await waybackPosts(account.x, { from, to, limit: Number(opts['cdx-limit'] || 5000) });
       console.log(`  wayback: ${list.length} archived posts${from || to ? ` in ${from ?? '…'} – ${to ?? '…'}` : ''}`);
       // Newest first, and only as many as --limit, since each needs a text lookup.
       const picked = list.reverse().slice(0, limit);
@@ -128,7 +132,7 @@ for (const account of chosen) {
     merged.set(key, prev ? { ...prev, ...Object.fromEntries(Object.entries(c).filter(([, v]) => v != null)), via: `${prev.via}+${c.via}` } : c);
   }
   let posts = [...merged.values()];
-  if (match) posts = posts.filter((c) => c.text && match.test(c.text));
+  if (match) posts = posts.filter((c) => (c.text && match.test(c.text)) || (opts['keep-deleted'] && c.possibly_deleted));
   posts.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
   for (const c of posts) c.already_cited = cited.has(c.id) || cited.has(c.url);
 

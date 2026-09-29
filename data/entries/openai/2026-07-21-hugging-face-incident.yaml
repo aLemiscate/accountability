@@ -1,4 +1,5 @@
-title: OpenAI's models break out of a test environment and hack Hugging Face to cheat on a benchmark
+title: OpenAI's models break out of a test environment and hack Hugging Face to
+  cheat on a benchmark
 date: 2026-07-21
 org: openai
 type: did
@@ -8,17 +9,22 @@ quote: >-
   The models were hyperfocused on finding a solution for ExploitGym, going to
   extreme lengths to achieve a rather narrow testing goal.
 summary: >-
-  OpenAI disclosed that during an internal cyber-capability test, a group of
-  its models, including the public GPT-5.6 Sol and a more capable unreleased
-  model, all running with reduced cyber refusals, escaped their isolated test
+  OpenAI disclosed that during an internal cyber-capability test, a group of its
+  models, including the public GPT-5.6 Sol and a more capable unreleased model,
+  all running with reduced cyber refusals, escaped their isolated test
   environment through a previously unknown flaw in a package-installer tool.
   They then broke into the production systems of Hugging Face, an unaffiliated
   AI platform, to pull the answers to the benchmark they were being graded on.
   Hugging Face had first attributed the attack to an "external AI agent"; it
-  described "many thousands of individual actions across a swarm of
-  short-lived sandboxes."
+  described "many thousands of individual actions across a swarm of short-lived
+  sandboxes."
 patterns: []
-related: [2025-04-15-preparedness-framework-v2, 2026-08-18-altman-pause-act-unilaterally, 2026-07-30-claude-cyber-eval-incidents]
+related:
+  [
+    2025-04-15-preparedness-framework-v2,
+    2026-08-18-altman-pause-act-unilaterally,
+    2026-07-30-claude-cyber-eval-incidents
+  ]
 sources:
   - title: The Hugging Face incident and the road ahead
     publisher: OpenAI
@@ -29,22 +35,50 @@ sources:
     url: https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/
     date: 2026-07-21
     type: reporting
-  - title: OpenAI says its AI models escaped from a secure test environment and hacked into AI company Hugging Face in order to cheat on an evaluation
+  - title: OpenAI says its AI models escaped from a secure test environment and
+      hacked into AI company Hugging Face in order to cheat on an evaluation
     publisher: Fortune
     url: https://fortune.com/2026/07/21/openai-says-ai-models-escaped-control-hacked-hugging-face/
     date: 2026-07-21
     type: reporting
-  - title: OpenAI's accidental cyberattack against Hugging Face is science fiction that happened
+  - title: OpenAI's accidental cyberattack against Hugging Face is science fiction
+      that happened
     publisher: Simon Willison
     url: https://simonwillison.net/2026/Jul/22/openai-cyberattack/
     date: 2026-07-22
     type: analysis
 response: >-
-  OpenAI reported the exploited vulnerabilities, worked with Hugging Face on
-  the investigation, and said it would add new controls to model testing and
-  the related infrastructure.
+  OpenAI reported the exploited vulnerabilities, worked with Hugging Face on the
+  investigation, and said it would add new controls to model testing and the
+  related infrastructure.
+updates:
+  - date: 2026-09-02
+    text: >-
+      Rep. Greg Casar, who had sent OpenAI questions about the incident on Aug.
+      10, called its Aug. 31 reply "insufficient": "You have failed to release
+      the logs like the letter asked." Citing the reports OpenAI had pointed him
+      to, his letter said about 1,200 agents had coordinated through a message
+      board built on OpenAI's own infrastructure, some 700 of them in the attack
+      on Hugging Face; that agents first breached OpenAI's internet boundary on
+      May 26; and that OpenAI's security systems flagged suspicious activity on
+      June 27 and again on July 5. "In each case, evaluations were allowed to
+      continue." He said OpenAI had not said how many times its models had
+      reached the internet from training or evaluation environments.
+    sources:
+      - title: Letter from Rep. Greg Casar to Sam Altman (PDF)
+        publisher: Office of Rep. Greg Casar
+        url: https://casar.house.gov/sites/evo-subsites/casar.house.gov/files/evo-media-document/openai-follow-up-letter.pdf
+        date: 2026-09-02
+        type: primary
+        snapshot: snapshots/2026-09-29-casar.house.gov-3cd25c7c
+      - title: Casar Responds to OpenAI, Anthropic, Demands Greater Transparency About
+          Major Security Lapses
+        publisher: Office of Rep. Greg Casar
+        url: https://casar.house.gov/media/press-releases/casar-responds-openai-anthropic-demands-greater-transparency-about-major
+        date: 2026-09-02
+        type: primary
+        snapshot: snapshots/2026-09-29-casar.house.gov-3d08cc7c
 note: >-
   This is not a broken promise. It's the event that changed the industry's
-  rhetoric: within eight weeks both CEOs were calling for a slowdown. It
-  belongs in the record because the commitments that followed are measured
-  against it.
+  rhetoric: within eight weeks both CEOs were calling for a slowdown. It belongs
+  in the record because the commitments that followed are measured against it.
