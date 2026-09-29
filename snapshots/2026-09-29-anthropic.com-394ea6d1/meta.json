@@ -1,13 +1,16 @@
 {
   "url": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy",
-  "captured_at": "2026-09-29T20:40:44.927Z",
+  "captured_at": "2026-09-29T21:00:13.520Z",
   "tool": "said-did capture",
   "files": {
-    "page.html": "aa24ad64b4c788397e2934d28444e89698731e0b1d3e86e00f6c436cb7bff4c6",
-    "page.txt": "64d4e4612405ab1bdf385717815ceb55d67d53ec28380ea38801be9ea460e37f"
+    "page.html": "0dd41ebbe4634a77ba9dbbdf687b8bf39c379b4575485c7569bd343f85e06218",
+    "page.txt": "64d4e4612405ab1bdf385717815ceb55d67d53ec28380ea38801be9ea460e37f",
+    "screenshot.jpg": "4c77ae8bae1055b63ae11fd1bdd7a62b6ca5f00bf69a9cb093e9d74e6ba03619",
+    "rendered.txt": "944a8b44af7a790d37c044f71456187269a925c95d9090937aeb6e0b93fc7c84"
   },
   "http_status": 200,
   "final_url": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy",
   "content_type": "text/html; charset=utf-8",
-  "title": "Introducing Anthropic's Responsible Scaling Policy \\ Anthropic"
+  "title": "Introducing Anthropic's Responsible Scaling Policy \\ Anthropic",
+  "rendered_status": 200
 }

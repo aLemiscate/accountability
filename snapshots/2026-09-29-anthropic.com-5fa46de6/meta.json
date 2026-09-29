@@ -1,13 +1,16 @@
 {
   "url": "https://www.anthropic.com/news/core-views-on-ai-safety",
-  "captured_at": "2026-09-29T20:40:44.529Z",
+  "captured_at": "2026-09-29T21:00:00.460Z",
   "tool": "said-did capture",
   "files": {
     "page.html": "72286c76d287dfe78a0e7ff64980fc5e03c50255d9f3024261df39ea7e1b40f6",
-    "page.txt": "6f854fbec0250bf47a49419fb545e1f94cdb1fe0464f66e2e4b46cdcb608159d"
+    "page.txt": "6f854fbec0250bf47a49419fb545e1f94cdb1fe0464f66e2e4b46cdcb608159d",
+    "screenshot.jpg": "41f091daa34e88ef0fbeaad3283f2f78ad9191b00a6dba53a5043713b3ae5d38",
+    "rendered.txt": "e9991aecc65c9cba51d27a415d482b27806cf1642adf33c85478f2489e711784"
   },
   "http_status": 200,
   "final_url": "https://www.anthropic.com/news/core-views-on-ai-safety",
   "content_type": "text/html; charset=utf-8",
-  "title": "Anthropic's core views on AI safety \\ Anthropic"
+  "title": "Anthropic's core views on AI safety \\ Anthropic",
+  "rendered_status": 200
 }

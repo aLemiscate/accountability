@@ -1,14 +1,16 @@
 {
   "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
-  "captured_at": "2026-09-29T20:40:32.232Z",
+  "captured_at": "2026-09-29T20:59:54.911Z",
   "tool": "said-did capture",
   "files": {
     "page.html": "3019c84ca529c2dc7bb0d5252160445f8a085c63172c34ed3882372334c71238",
-    "page.txt": "47d89aa1d8029cfbab07d8cba5d5a7c54c82161b6a3d590cb1c3aa2098ea7a93"
+    "page.txt": "47d89aa1d8029cfbab07d8cba5d5a7c54c82161b6a3d590cb1c3aa2098ea7a93",
+    "screenshot.jpg": "0c2d00d654ad67549763943c39b8cfe5b7670a61f8f0b1a24d482fa345b3ad4a",
+    "rendered.txt": "a0fe2933a6bc7666c8c52243544bc9767bb169cee8e5934268fcf99e2b7bb47b"
   },
   "http_status": 200,
   "final_url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
   "content_type": "text/html; charset=utf-8",
   "title": "Claude is a space to think \\ Anthropic",
-  "archive": null
+  "rendered_status": 200
 }
