@@ -1,9 +1,10 @@
-title: 'Altman''s example of restraint: "we haven''t put a sex bot avatar in ChatGPT yet"'
+title: 'Altman''s example of restraint: "we haven''t put a sex bot avatar in
+  ChatGPT yet"'
 date: 2025-08
 org: openai
 type: said
 kind: claim
-who: [sam-altman]
+who: [ sam-altman ]
 venue: Interview with Cleo Abram
 quote: Well, we haven't put a sex bot avatar in ChatGPT yet
 summary: >-
@@ -12,16 +13,21 @@ summary: >-
   companion features.
 concreteness: directional
 status: reversed
-patterns: [principles-with-a-price]
+patterns: [ principles-with-a-price ]
 sources:
-  - title: Two Months Ago, Sam Altman Was Boasting That OpenAI Didn't Have to Do Sexbots. Now It's Doing Sexbots
+  - title: Two Months Ago, Sam Altman Was Boasting That OpenAI Didn't Have to Do
+      Sexbots. Now It's Doing Sexbots
     publisher: Futurism
     url: https://futurism.com/future-society/sam-altman-adult-ai-reversal
     date: 2025-10
     type: reporting
+    archive: https://web.archive.org/web/20260929220759/https://futurism.com/future-society/sam-altman-adult-ai-reversal
+    snapshot: snapshots/2026-09-29-futurism.com-7a0917e4
   - title: 'OpenAI Catches Up to AI Market Reality: People Are Horny'
     publisher: 404 Media
     url: https://www.404media.co/openai-sam-altman-interview-chatgpt-erotica/
     type: reporting
+    archive: https://web.archive.org/web/20260924064531/https://www.404media.co/openai-sam-altman-interview-chatgpt-erotica/
+    snapshot: snapshots/2026-09-29-404media.co-165d8f50
 note: >-
   He offered it as proof of restraint. Its shelf life was about two months.

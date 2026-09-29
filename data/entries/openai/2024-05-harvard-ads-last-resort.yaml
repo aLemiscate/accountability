@@ -3,24 +3,28 @@ date: 2024-05
 org: openai
 type: said
 kind: principle
-who: [sam-altman]
+who: [ sam-altman ]
 venue: Fireside chat, Harvard University
 quote: ads-plus-AI is sort of uniquely unsettling to me
 summary: >-
-  Altman called advertising a "last resort" for OpenAI's business model. He
-  said he liked that paying users knew their answers weren't shaped by
-  advertisers.
+  Altman called advertising a "last resort" for OpenAI's business model. He said
+  he liked that paying users knew their answers weren't shaped by advertisers.
 concreteness: directional
 status: reversed
-patterns: [mission-to-market, principles-with-a-price]
+patterns: [ mission-to-market, principles-with-a-price ]
 sources:
   - title: Ads might be coming to ChatGPT — despite Sam Altman not being a fan
     publisher: TechCrunch
     url: https://techcrunch.com/2024/12/02/ads-might-be-coming-to-chatgpt-despite-sam-altman-not-being-a-fan/
     date: 2024-12-02
     type: reporting
-  - title: OpenAI's CEO said ads were a "last resort" business model. Now ChatGPT is getting ads
+    archive: https://web.archive.org/web/20260907130156/https://techcrunch.com/2024/12/02/ads-might-be-coming-to-chatgpt-despite-sam-altman-not-being-a-fan/
+    snapshot: snapshots/2026-09-29-techcrunch.com-b0c493eb
+  - title: OpenAI's CEO said ads were a "last resort" business model. Now ChatGPT is
+      getting ads
     publisher: Tubefilter
     url: https://www.tubefilter.com/2026/01/26/openais-ceo-said-ads-were-a-last-resort-business-model-now-chatgpt-is-getting-ads-and-asking-brands-to-pay-a-lot-for-them/
     date: 2026-01-26
     type: reporting
+    archive: https://web.archive.org/web/20260128075512/https://www.tubefilter.com/2026/01/26/openais-ceo-said-ads-were-a-last-resort-business-model-now-chatgpt-is-getting-ads-and-asking-brands-to-pay-a-lot-for-them/
+    snapshot: snapshots/2026-09-29-tubefilter.com-8b865631

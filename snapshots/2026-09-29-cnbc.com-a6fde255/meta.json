@@ -1,0 +1,21 @@
+{
+  "url": "https://www.cnbc.com/2024/05/24/openai-sends-internal-memo-releasing-former-employees-from-non-disparagement-agreements-sam-altman.html",
+  "captured_at": "2026-09-29T21:50:52.716Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "38909883eab8326a2cf137ca2aa0e8af59d9815337cb582e9e8a1cc8138a4be1",
+    "page.txt": "6e745115a27719c8e14dac3ee4f04d24156097f81706cfffb74c3dab543c153b",
+    "screenshot.jpg": "9cc7aaf133e52ee6e8cd0be66ae9f3c0860b7d593aaeaa5df903bccb44626e19",
+    "rendered.txt": "b4f94e5b5c2ff72a802ce8fc9eb16c4c935b0934608680550fd7e1e646d10f0c"
+  },
+  "http_status": 200,
+  "final_url": "https://www.cnbc.com/2024/05/24/openai-sends-internal-memo-releasing-former-employees-from-non-disparagement-agreements-sam-altman.html",
+  "content_type": "text/html; charset=utf-8",
+  "title": "OpenAI sends internal memo releasing former employees from NDAs",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20260929215144/https://www.cnbc.com/2024/05/24/openai-sends-internal-memo-releasing-former-employees-from-non-disparagement-agreements-sam-altman.html",
+    "timestamp": "20260929215144",
+    "method": "existing"
+  }
+}

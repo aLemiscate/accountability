@@ -3,23 +3,25 @@ date: 2023-07-05
 org: openai
 type: said
 kind: commitment
-who: [openai, ilya-sutskever, jan-leike]
+who: [ openai, ilya-sutskever, jan-leike ]
 venue: Blog post, "Introducing Superalignment"
 quote: >-
   …20% of the compute we've secured to date over the next four years…
 summary: >-
-  OpenAI announced a Superalignment team co-led by Ilya Sutskever and Jan
-  Leike to solve superintelligence alignment within four years, backed by a
-  specific share of the company's compute.
+  OpenAI announced a Superalignment team co-led by Ilya Sutskever and Jan Leike
+  to solve superintelligence alignment within four years, backed by a specific
+  share of the company's compute.
 concreteness: measurable
 status: broken
-patterns: [pledged-not-resourced]
+patterns: [ pledged-not-resourced ]
 sources:
   - title: Introducing Superalignment
     publisher: OpenAI
     url: https://openai.com/index/introducing-superalignment/
     date: 2023-07-05
     type: primary
+    archive: https://web.archive.org/web/20260927072255/https://openai.com/index/introducing-superalignment/
+    snapshot: snapshots/2026-09-29-openai.com-704f57df
 note: >-
-  This was one of the few safety promises with a number attached, and it's
-  the one that got tested.
+  This was one of the few safety promises with a number attached, and it's the
+  one that got tested.

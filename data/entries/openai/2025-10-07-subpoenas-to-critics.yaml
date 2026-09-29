@@ -3,30 +3,35 @@ date: 2025-10-07
 org: openai
 type: did
 kind: action
-who: [openai, jason-kwon]
+who: [ openai, jason-kwon ]
 summary: >-
-  Nathan Calvin, general counsel at the three-person nonprofit Encode, which
-  had criticized OpenAI's restructuring and backed California's SB 53, said a
-  sheriff's deputy served him an OpenAI subpoena while he was at dinner with
-  his wife. The subpoena, issued in OpenAI's litigation with Elon Musk, sought
-  his communications with California lawmakers, students and former OpenAI
-  employees about SB 53. Other critics of OpenAI reported similar subpoenas.
-  Calvin: "I believe OpenAI used the pretext of their lawsuit against Elon
-  Musk to intimidate their critics and imply that Elon is behind all of them."
-patterns: [pressure-on-critics, regulate-us-not-like-that]
+  Nathan Calvin, general counsel at the three-person nonprofit Encode, which had
+  criticized OpenAI's restructuring and backed California's SB 53, said a
+  sheriff's deputy served him an OpenAI subpoena while he was at dinner with his
+  wife. The subpoena, issued in OpenAI's litigation with Elon Musk, sought his
+  communications with California lawmakers, students and former OpenAI employees
+  about SB 53. Other critics of OpenAI reported similar subpoenas. Calvin: "I
+  believe OpenAI used the pretext of their lawsuit against Elon Musk to
+  intimidate their critics and imply that Elon is behind all of them."
+patterns: [ pressure-on-critics, regulate-us-not-like-that ]
 sources:
-  - title: A 3-person policy non-profit that worked on California's AI safety law is publicly accusing OpenAI of intimidation tactics
+  - title: A 3-person policy non-profit that worked on California's AI safety law is
+      publicly accusing OpenAI of intimidation tactics
     publisher: Fortune
     url: https://fortune.com/2025/10/10/a-3-person-policy-non-profit-that-worked-on-californias-ai-safety-law-is-publicly-accusing-openai-of-intimidation-tactics/
     date: 2025-10-10
     type: reporting
+    archive: https://web.archive.org/web/20260929221402/https://fortune.com/2025/10/10/a-3-person-policy-non-profit-that-worked-on-californias-ai-safety-law-is-publicly-accusing-openai-of-intimidation-tactics/
+    snapshot: snapshots/2026-09-29-fortune.com-6029cb46
   - title: OpenAI accused of pressuring AI regulation advocates with subpoenas
     publisher: The Decoder
     url: https://the-decoder.com/openai-accused-of-pressuring-ai-regulation-advocates-with-subpoenas/
     type: reporting
+    archive: https://web.archive.org/web/20260314173117/https://the-decoder.com/openai-accused-of-pressuring-ai-regulation-advocates-with-subpoenas/
+    snapshot: snapshots/2026-09-29-the-decoder.com-5c5cdcb6
 response: >-
-  Jason Kwon said the subpoenas were part of the Musk litigation, not a
-  separate suit against Encode; that service by a sheriff is standard; that
-  OpenAI wanted to know whether critics were funded or coordinated by Musk;
-  and that OpenAI hadn't opposed SB 53 but only offered "comments for
-  harmonization with other standards."
+  Jason Kwon said the subpoenas were part of the Musk litigation, not a separate
+  suit against Encode; that service by a sheriff is standard; that OpenAI wanted
+  to know whether critics were funded or coordinated by Musk; and that OpenAI
+  hadn't opposed SB 53 but only offered "comments for harmonization with other
+  standards."

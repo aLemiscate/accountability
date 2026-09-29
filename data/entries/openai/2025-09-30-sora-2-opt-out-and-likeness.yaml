@@ -3,23 +3,27 @@ date: 2025-09-30
 org: openai
 type: did
 kind: action
-who: [openai, sam-altman]
+who: [ openai, sam-altman ]
 summary: >-
   Before the Sora 2 launch, OpenAI told rights holders they would have to opt
-  out to keep their works and characters out. After backlash (Disney was
-  among those who opted out), Altman promised rights holders "more granular
-  control." Weeks later, after users made "disrespectful depictions" of
-  Martin Luther King Jr., OpenAI paused his likeness at the King estate's
-  request and said public figures and their families "should ultimately have
-  control" over how their likeness is used.
-patterns: [take-first, ship-then-patch, consent-by-default]
+  out to keep their works and characters out. After backlash (Disney was among
+  those who opted out), Altman promised rights holders "more granular control."
+  Weeks later, after users made "disrespectful depictions" of Martin Luther King
+  Jr., OpenAI paused his likeness at the King estate's request and said public
+  figures and their families "should ultimately have control" over how their
+  likeness is used.
+patterns: [ take-first, ship-then-patch, consent-by-default ]
 sources:
-  - title: OpenAI Pauses Martin Luther King Jr. AI Videos, Saying Public Figures "Should Ultimately Have Control" Over Likeness
+  - title: OpenAI Pauses Martin Luther King Jr. AI Videos, Saying Public Figures
+      "Should Ultimately Have Control" Over Likeness
     publisher: Deadline
     url: https://deadline.com/2025/10/openai-pauses-martin-luther-king-jr-ai-videos-sora-2-1236590283/
     date: 2025-10-16
     type: reporting
-  - title: OpenAI's Sora bans Martin Luther King Jr. deepfakes after his family complained
+    archive: https://web.archive.org/web/20260929221023/https://deadline.com/2025/10/openai-pauses-martin-luther-king-jr-ai-videos-sora-2-1236590283/
+    snapshot: snapshots/2026-09-29-deadline.com-71895193
+  - title: OpenAI's Sora bans Martin Luther King Jr. deepfakes after his family
+      complained
     publisher: CNN
     url: https://us.cnn.com/2025/10/17/tech/openai-mlk-pause
     date: 2025-10-17

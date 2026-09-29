@@ -1,32 +1,37 @@
-title: OpenAI launches as a nonprofit "unconstrained by a need to generate financial return"
+title: OpenAI launches as a nonprofit "unconstrained by a need to generate
+  financial return"
 date: 2015-12-11
 org: openai
 type: said
 kind: principle
-who: [openai]
+who: [ openai ]
 venue: Launch blog post, "Introducing OpenAI"
 quote: >-
   OpenAI is a non-profit artificial intelligence research company. Our goal is
   to advance digital intelligence in the way that is most likely to benefit
   humanity as a whole, unconstrained by a need to generate financial return.
 summary: >-
-  The founding announcement made freedom from profit pressure the reason
-  OpenAI existed: because it wouldn't answer to shareholders, it could put
-  humanity's interests first.
+  The founding announcement made freedom from profit pressure the reason OpenAI
+  existed: because it wouldn't answer to shareholders, it could put humanity's
+  interests first.
 concreteness: directional
 status: reversed
-patterns: [mission-to-market]
+patterns: [ mission-to-market ]
 sources:
   - title: Introducing OpenAI
     publisher: OpenAI
     url: https://openai.com/index/introducing-openai/
     date: 2015-12-11
     type: primary
+    archive: https://web.archive.org/web/20260927020622/https://openai.com/index/introducing-openai/
+    snapshot: snapshots/2026-09-29-openai.com-4dc07095
   - title: Non-profit OpenAI launches with backing from Elon Musk and Sam Altman
     publisher: TechCrunch
     url: https://techcrunch.com/2015/12/11/non-profit-openai-launches-with-backing-from-elon-musk-and-sam-altman/
     date: 2015-12-11
     type: reporting
+    archive: https://web.archive.org/web/20260905191919/https://techcrunch.com/2015/12/11/non-profit-openai-launches-with-backing-from-elon-musk-and-sam-altman/
+    snapshot: snapshots/2026-09-29-techcrunch.com-267b93e2
 note: >-
   This promise was structural, not rhetorical: no profit motive. Every later
   restructuring (2019, 2025) has been presented as the way to protect it.

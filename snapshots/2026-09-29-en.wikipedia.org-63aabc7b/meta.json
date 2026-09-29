@@ -1,0 +1,21 @@
+{
+  "url": "https://en.wikipedia.org/wiki/Leading_the_Future",
+  "captured_at": "2026-09-29T22:07:19.431Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "27f1dce6457e188c1485f44aeb96ae026ee4a57af3f426f50352fac8bb271f3b",
+    "page.txt": "ea55b1d7882f44056baea76a9199f500aabf71ca1548f8031468c9b086c2bb2f",
+    "screenshot.jpg": "3bdc209f87314183623e6dedbc1b6563b327020e0c7330d01b319c09895a6d1b",
+    "rendered.txt": "98a586d79a8757ebf7f8df4f3ad504afb458f0c7a48a9593b492f533a00af228"
+  },
+  "http_status": 200,
+  "final_url": "https://en.wikipedia.org/wiki/Leading_the_Future",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Leading the Future - Wikipedia",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20260929220725/https://en.wikipedia.org/wiki/Leading_the_Future",
+    "timestamp": "20260929220725",
+    "method": "spn"
+  }
+}
