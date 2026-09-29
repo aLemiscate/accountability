@@ -3,7 +3,7 @@ date: 2023-05-16
 org: openai
 type: said
 kind: claim
-who: [ sam-altman ]
+who: [sam-altman]
 venue: Testimony, U.S. Senate Judiciary Subcommittee on Privacy, Technology, and
   the Law
 quote: >-
@@ -16,8 +16,16 @@ summary: >-
   CEO asking to be regulated.
 concreteness: directional
 status: reversed
-patterns: [ regulate-us-not-like-that ]
+patterns: [regulate-us-not-like-that]
 sources:
+  - title: 'S. Hrg. 118-37, Oversight of A.I.: Rules for Artificial Intelligence
+      (hearing transcript)'
+    publisher: U.S. Government Publishing Office
+    url: https://www.govinfo.gov/content/pkg/CHRG-118shrg52706/html/CHRG-118shrg52706.htm
+    date: 2023-05-16
+    type: primary
+    archive: https://web.archive.org/web/20260915215417/https://www.govinfo.gov/content/pkg/CHRG-118shrg52706/html/CHRG-118shrg52706.htm
+    snapshot: snapshots/2026-09-29-govinfo.gov-573f52f2
   - title: 'WATCH: OpenAI CEO Sam Altman testifies before Senate Judiciary Committee'
     publisher: PBS NewsHour
     url: https://www.pbs.org/newshour/politics/watch-live-openai-ceo-sam-altman-testifies-before-senate-judiciary-committee
