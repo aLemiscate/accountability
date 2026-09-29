@@ -22,17 +22,23 @@ sources:
     url: https://openai.com/index/updating-our-preparedness-framework/
     date: 2025-04-15
     type: primary
+    archive: https://web.archive.org/web/20260924164200/https://openai.com/index/updating-our-preparedness-framework/
+    snapshot: snapshots/2026-09-29-openai.com-ded0b058
   - title: Preparedness Framework, Version 2 (PDF)
     publisher: OpenAI
     url: https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf
     date: 2025-04-15
     type: primary
+    archive: https://web.archive.org/web/20260928222120/https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf
+    snapshot: snapshots/2026-09-29-cdn.openai.com-ec5d8e7d
   - title: OpenAI says it may adjust its safety requirements if a rival lab releases
       'high-risk' AI
     publisher: TechCrunch
     url: https://techcrunch.com/2025/04/15/openai-says-it-may-adjust-its-safety-requirements-if-a-rival-lab-releases-high-risk-ai/
     date: 2025-04-15
     type: reporting
+    archive: https://web.archive.org/web/20260929215725/https://techcrunch.com/2025/04/15/openai-says-it-may-adjust-its-safety-requirements-if-a-rival-lab-releases-high-risk-ai/
+    snapshot: snapshots/2026-09-29-techcrunch.com-e44878a8
 updates:
   - date: 2025-04-15
     text: >-

@@ -24,6 +24,7 @@ sources:
     publisher: Gizmodo
     url: https://gizmodo.com/openai-sam-altman-chatgpt-employee-dissent-ndas-1851496211
     type: reporting
+    archive: https://web.archive.org/web/20260804001440/https://gizmodo.com/openai-sam-altman-chatgpt-employee-dissent-ndas-1851496211
 response: >-
   An OpenAI spokesperson said: "We're incredibly sorry that we're only changing
   this language now; it doesn't reflect our values or the company we want to
@@ -41,6 +42,8 @@ updates:
         url: https://www.cnbc.com/2024/05/24/openai-sends-internal-memo-releasing-former-employees-from-non-disparagement-agreements-sam-altman.html
         date: 2024-05-24
         type: reporting
+        archive: https://web.archive.org/web/20260929215144/https://www.cnbc.com/2024/05/24/openai-sends-internal-memo-releasing-former-employees-from-non-disparagement-agreements-sam-altman.html
+        snapshot: snapshots/2026-09-29-cnbc.com-a6fde255
 note: >-
   The fix was real, and it came six days after the story broke. That timing is
   the pattern.

@@ -1,0 +1,21 @@
+{
+  "url": "https://www.cnbc.com/2024/12/04/openai-partners-with-defense-company-anduril.html",
+  "captured_at": "2026-09-29T21:42:45.464Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "1cd234c7f0003913aa41418529d90af03e1d6116ba3d9236e3380ba6d1096e5e",
+    "page.txt": "4ea9b706a0f16c58ac18260ec907f8fac3aad427fe387d81abb982ecbff5fb8c",
+    "screenshot.jpg": "827f117784dd06d3d044b23028d71379ed6af2a370ea95c052931e0f3f5f917a",
+    "rendered.txt": "40d68e7fc17848e02291f12910a1022c2b429dc83f718937c2f0f9ff19e4c138"
+  },
+  "http_status": 200,
+  "final_url": "https://www.cnbc.com/2024/12/04/openai-partners-with-defense-company-anduril.html",
+  "content_type": "text/html; charset=utf-8",
+  "title": "OpenAI partners with defense company Anduril",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20260929214337/https://www.cnbc.com/2024/12/04/openai-partners-with-defense-company-anduril.html",
+    "timestamp": "20260929214337",
+    "method": "spn"
+  }
+}

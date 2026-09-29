@@ -1,4 +1,5 @@
-title: OpenAI launches as a nonprofit "unconstrained by a need to generate financial return"
+title: OpenAI launches as a nonprofit "unconstrained by a need to generate
+  financial return"
 date: 2015-12-11
 org: openai
 type: said
@@ -10,9 +11,9 @@ quote: >-
   to advance digital intelligence in the way that is most likely to benefit
   humanity as a whole, unconstrained by a need to generate financial return.
 summary: >-
-  The founding announcement made freedom from profit pressure the reason
-  OpenAI existed: because it wouldn't answer to shareholders, it could put
-  humanity's interests first.
+  The founding announcement made freedom from profit pressure the reason OpenAI
+  existed: because it wouldn't answer to shareholders, it could put humanity's
+  interests first.
 concreteness: directional
 status: reversed
 patterns: [mission-to-market]
@@ -22,22 +23,27 @@ sources:
     url: https://openai.com/index/introducing-openai/
     date: 2015-12-11
     type: primary
+    archive: https://web.archive.org/web/20260927020622/https://openai.com/index/introducing-openai/
+    snapshot: snapshots/2026-09-29-openai.com-4dc07095
   - title: Non-profit OpenAI launches with backing from Elon Musk and Sam Altman
     publisher: TechCrunch
     url: https://techcrunch.com/2015/12/11/non-profit-openai-launches-with-backing-from-elon-musk-and-sam-altman/
     date: 2015-12-11
     type: reporting
+    archive: https://web.archive.org/web/20260905191919/https://techcrunch.com/2015/12/11/non-profit-openai-launches-with-backing-from-elon-musk-and-sam-altman/
+    snapshot: snapshots/2026-09-29-techcrunch.com-267b93e2
 updates:
   - date: 2026-05-18
     text: >-
       Elon Musk's suit accusing Altman and Brockman of a "breach of charitable
-      trust" for abandoning the founding mission ended after a three-week
-      trial. A unanimous advisory jury found the claims were filed too late, and
-      Judge Yvonne Gonzalez Rogers agreed and dismissed the case. The verdict
-      did not reach the merits. OpenAI's lawyer called the suit "a hypocritical
-      attempt to sabotage a competitor"; Musk said he would appeal.
+      trust" for abandoning the founding mission ended after a three-week trial.
+      A unanimous advisory jury found the claims were filed too late, and Judge
+      Yvonne Gonzalez Rogers agreed and dismissed the case. The verdict did not
+      reach the merits. OpenAI's lawyer called the suit "a hypocritical attempt
+      to sabotage a competitor"; Musk said he would appeal.
     sources:
-      - title: Jury dismisses all claims in Elon Musk’s lawsuit against OpenAI CEO Sam Altman
+      - title: Jury dismisses all claims in Elon Musk’s lawsuit against OpenAI CEO Sam
+          Altman
         publisher: NPR
         url: https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed
         date: 2026-05-18

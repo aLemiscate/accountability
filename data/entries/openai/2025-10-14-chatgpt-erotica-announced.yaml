@@ -25,11 +25,14 @@ sources:
     url: https://www.cnbc.com/2025/10/15/erotica-coming-to-chatgpt-this-year-says-openai-ceo-sam-altman.html
     date: 2025-10-15
     type: reporting
+    snapshot: snapshots/2026-09-29-cnbc.com-de1fa6ca
   - title: OpenAI's Sam Altman says ChatGPT will add erotica for adult users
     publisher: Axios
     url: https://www.axios.com/2025/10/14/openai-chatgpt-erotica-mental-health
     date: 2025-10-14
     type: reporting
+    archive: https://web.archive.org/web/20260328090634/https://www.axios.com/2025/10/14/openai-chatgpt-erotica-mental-health
+    snapshot: snapshots/2026-09-29-axios.com-e5f1ffb5
 response: >-
   OpenAI said it had mitigated serious mental-health issues and built new tools,
   so it could safely relax restrictions in most cases.
@@ -44,6 +47,8 @@ updates:
         url: https://www.axios.com/2026/03/06/openai-delays-chatgpt-adult-mode
         date: 2026-03-06
         type: reporting
+        archive: https://web.archive.org/web/20260312225117/https://www.axios.com/2026/03/06/openai-delays-chatgpt-adult-mode
+        snapshot: snapshots/2026-09-29-axios.com-6d520b57
   - date: 2026-03
     text: >-
       The Financial Times reported that OpenAI had "indefinitely" paused work on

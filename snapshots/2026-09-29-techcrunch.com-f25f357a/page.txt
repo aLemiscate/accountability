@@ -1,0 +1,47 @@
+By CEO Sam Altman’s own admission, OpenAI’s deal with the Department of Defense was “definitely rushed,” and “the optics don’t look good.”
+After negotiations between Anthropic and the Pentagon fell through on Friday, President Donald Trump directed federal agencies to stop using Anthropic’s technology after a six-month transition period , and Secretary of Defense Pete Hegseth said he was designating the AI company as a supply-chain risk.
+Then, OpenAI quickly announced that it had reached a deal of its own for models to be deployed in classified environments. With Anthropic saying it was drawing red lines around the use of its technology in fully autonomous weapons or mass domestic surveillance, and Altman saying OpenAI had the same red lines, there were some obvious questions: Was OpenAI being honest about its safeguards? Why was it able to reach a deal while Anthropic was not?
+So as OpenAI executives defended the agreement on social media, the company also published a blog post outlining its approach .
+In fact, the post pointed to three areas where it said OpenAI’s models cannot be used — mass domestic surveillance, autonomous weapon systems, and “high-stakes automated decisions (e.g. systems such as ‘social credit’).”
+The company said that in contrast to other AI companies that have “reduced or removed their safety guardrails and relied primarily on usage policies as their primary safeguards in national security deployments,” OpenAI’s agreement protects its red lines “through a more expansive, multi-layered approach.”
+“We retain full discretion over our safety stack, we deploy via cloud, cleared OpenAI personnel are in the loop, and we have strong contractual protections,” the blog said. “This is all in addition to the strong existing protections in U.S. law.”
+The company added, “We don’t know why Anthropic could not reach this deal, and we hope that they and more labs will consider it.”
+After the post was published, Techdirt’s Mike Masnick claimed that the deal “absolutely does allow for domestic surveillance,” because it says the collection of private data will comply with Executive Order 12333 (along with a number of other laws). Masnick described that order as “how the NSA hides its domestic surveillance by capturing communications by tapping into lines *outside the US* even if it contains info from/on US persons.”
+In a LinkedIn post , OpenAI’s head of national security partnerships Katrina Mulligan argued that much of the discussion around the contract language assumes “the only thing standing between Americans and the use of AI for mass domestic surveillance and autonomous weapons is a single usage policy provision in a single contract with the Department of War.”
+“That’s not how any of this works,” Mulligan said, adding, “Deployment architecture matters more than contract language […] By limiting our deployment to cloud API, we can ensure that our models cannot be integrated directly into weapons systems, sensors, or other operational hardware.”
+Altman also fielded questions about the deal on X, where he admitted it had been rushed and resulted in significant backlash against OpenAI (to the extent that Anthropic’s Claude overtook OpenAI’s ChatGPT in Apple’s App Store on Saturday). So why do it?
+“We really wanted to de-escalate things, and we thought the deal on offer was good,” Altman said. “If we are right and this does lead to a de-escalation between the DoW and the industry, we will look like geniuses, and a company that took on a lot of pain to do things to help the industry. If not, we will continue to be characterized as […] rushed and uncareful.”
+Topics
+AI , department of defense , Government & Policy , OpenAI
+When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.
+Anthony Ha
+Anthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Hollister Free Lance, and vice president of content at a VC firm. He lives in New York City.
+You can contact or verify outreach from Anthony by emailing anthony.ha@techcrunch.com .
+View Bio
+October 13 – 15
+San Francisco
+Get 50% off a second pass
+The Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by making connections, building momentum, and discovering what’s next in the startup ecosystem.
+BOOK NOW
+Most Popular
+• class="wp-block-post post-3170030 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-transportation tag-boom-supersonic tag-crusoe">
+Crusoe abandons $1.25B plan to use Boom turbines at AI data centers
+• Kirsten Korosec
+• class="wp-block-post post-3169728 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-anthropic tag-astra tag-openai tag-opus">
+Astra and Opus just passed Turing’s other test
+• Tim Fernholz
+• class="wp-block-post post-3169077 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-stargate tag-data-centers tag-oracle">
+Oracle sends force majeure notice on its New Mexico Stargate data center
+• Aditya Mehta
+• class="wp-block-post post-3168692 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-mark-zuckerberg tag-meta tag-muse">
+Meta made a Tamagotchi-like wearable for its Muse AI agent
+• Lucas Ropek
+• class="wp-block-post post-3168578 post type-post status-publish format-standard has-post-thumbnail hentry category-media-entertainment tag-vogue tag-fashion">
+Vogue sent robots down the runway at Vogue World, and people were not impressed
+• Dominic-Madori Davis
+• class="wp-block-post post-3168463 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-biotech-health tag-anthropic">
+Anthropic says its biology lab has already found something big
+• Julie Bort
+• class="wp-block-post post-3167710 post type-post status-publish format-standard has-post-thumbnail hentry category-robotics category-transportation category-startups tag-tires">
+PitPro’s first tire-changing robot goes live in Canada
+• Sean O'Kane

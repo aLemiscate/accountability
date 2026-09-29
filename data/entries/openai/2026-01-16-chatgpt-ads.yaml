@@ -3,31 +3,36 @@ date: 2026-01-16
 org: openai
 type: did
 kind: reversal
-who: [openai]
+who: [ openai ]
 summary: >-
   OpenAI announced it would test ads for logged-in adult users in the U.S. on
   ChatGPT's Free and low-cost Go tiers, placed at the bottom of answers when
   there is a "relevant sponsored product or service based on your current
   conversation." Higher-priced tiers stay ad-free. The rollout began the
   following month.
-contradicts: [2024-05-harvard-ads-last-resort]
-patterns: [mission-to-market, principles-with-a-price]
+contradicts: [ 2024-05-harvard-ads-last-resort ]
+patterns: [ mission-to-market, principles-with-a-price ]
 sources:
   - title: Our approach to advertising and expanding access to ChatGPT
     publisher: OpenAI
     url: https://openai.com/index/our-approach-to-advertising-and-expanding-access/
     date: 2026-01-16
     type: primary
+    snapshot: snapshots/2026-09-29-openai.com-3fe1754f
   - title: ChatGPT tests ads as a new era of AI begins
     publisher: Fortune
     url: https://fortune.com/2026/01/16/openai-to-begin-putting-ads-in-chatgpt/
     date: 2026-01-16
     type: reporting
+    archive: https://web.archive.org/web/20260929222625/https://fortune.com/2026/01/16/openai-to-begin-putting-ads-in-chatgpt/
+    snapshot: snapshots/2026-09-29-fortune.com-7f6d392e
   - title: ChatGPT ads are coming, and they'll be influenced by your conversations
     publisher: Axios
     url: https://axios.com/2026/01/16/chatgpt-ai-openai-ads
     date: 2026-01-16
     type: reporting
+    archive: https://web.archive.org/web/20260822075720/https://www.axios.com/2026/01/16/chatgpt-ai-openai-ads
+    snapshot: snapshots/2026-09-29-axios.com-5669d476
 note: >-
   "Last resort," twenty months later. Ads go to the free tier: the users who
   can't pay get the "uniquely unsettling" version.
