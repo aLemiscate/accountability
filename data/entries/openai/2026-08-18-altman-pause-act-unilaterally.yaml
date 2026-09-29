@@ -48,12 +48,20 @@ updates:
   - date: 2026-09-14
     text: >-
       After Dario Amodei's essay calling for the industry to "pace the
-      frontier," Altman said OpenAI would also give independent evaluators
-      "employee-like access" and wrote: "We welcome a federal framework that
-      sets consistent safety requirements for frontier AI … no amount of
-      American competitive pressure should justify recklessness." He added that
-      "pacing" does not mean "stopping."
+      frontier," Altman wrote that "Committing to having independent evaluators
+      with employee-like access is a great idea, and we will do the same." Two
+      days later he wrote: "We welcome a federal framework that sets consistent
+      safety requirements for frontier AI … no amount of American competitive
+      pressure should justify recklessness." He added that "pacing" does not
+      mean "stopping."
     sources:
+      - title: Sam Altman on X ("we will do the same")
+        publisher: X
+        url: https://x.com/sama/status/2098811563415150910
+        date: 2026-09-12
+        type: primary
+        archive: https://web.archive.org/web/20260924090528/https://x.com/sama/status/2098811563415150910
+        snapshot: snapshots/2026-09-29-x.com-f914fd7d
       - title: Sam Altman on X
         publisher: X
         url: https://x.com/sama/status/2099348812305473766
@@ -86,8 +94,9 @@ updates:
     text: >-
       CNBC reported that OpenAI had postponed the release of its GPT-6.1 Astra
       model over safety concerns. The same day, OpenAI president Greg Brockman
-      signed a voluntary "White House Accord on Superintelligence" with other AI
-      CEOs; its text had not been published.
+      signed a voluntary "White House Accord on Super Intelligence" with other
+      AI CEOs; the White House posted its text that evening (see
+      2026-09-29-white-house-accord).
     sources:
       - title: Trump says he and tech leaders signed AI agreement that is 'morally
           binding'
@@ -95,6 +104,7 @@ updates:
         url: https://www.cnbc.com/2026/09/29/tech-white-house-ai-lunch-trump.html
         date: 2026-09-29
         type: reporting
+        snapshot: snapshots/2026-09-29-cnbc.com-00dde760
 note: >-
   Compare the 2025 Preparedness Framework, which let OpenAI lower its
   requirements if a rival shipped first. This time the company paused first and

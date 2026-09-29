@@ -1,0 +1,37 @@
+{
+  "url": "https://x.com/mkratsios47/status/2105054600445243426",
+  "captured_at": "2026-09-29T22:57:07.413Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "4ece65af686ef5bdf85edb9a279ab29efe7b24ae09bbdbaf2a447b06ebb778fb",
+    "page.txt": "d493dfd4c605302410229cd2c4affa09bf468f577071f2e2e15a002c96ac760e",
+    "post.json": "ada504505f6f9df2199df77bb91eb31f959a5efd7a81fe61f94039ab6cde9766",
+    "syndication.json": "3a51a64b51b4955da5cdf00a2479c8fadf6e313e61699ecc4679820279ce150b",
+    "quoted-media-1.jpg": "3a2557a9a265652012b9ad009fbfb65fa8ab590d3a0363a5ca42eab039cff9ce",
+    "quoted-media-2.jpg": "4080d78e3343570f9f18e6128fe61add63e902617a08df74e8a65a72fac6472e",
+    "post.txt": "d783663b79851f4e559971e7ae6fd78edbd76d63441c8a86daf4e192ad538806"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/mkratsios47/status/2105054600445243426",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Director Michael Kratsios on X: \"White House Accord on Super Intelligence Joint Commitment on Frontier Responsibilities\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Director Michael Kratsios (@mkratsios47)",
+    "date": "September 29, 2026",
+    "posted_at": "2026-09-29T21:58:21.426Z",
+    "media": [
+      {
+        "file": "quoted-media-1.jpg",
+        "url": "https://pbs.twimg.com/media/HTamAiNW0AAa9Rr.jpg"
+      },
+      {
+        "file": "quoted-media-2.jpg",
+        "url": "https://pbs.twimg.com/media/HTamAiZXIAAtwcW.jpg"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": null
+}

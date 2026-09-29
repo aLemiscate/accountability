@@ -1,4 +1,5 @@
-title: 'OpenAI''s board removes Altman: "not consistently candid in his communications"'
+title: 'OpenAI''s board removes Altman: "not consistently candid in his
+  communications"'
 date: 2023-11-17
 org: openai
 type: did
@@ -10,17 +11,19 @@ quote: >-
 summary: >-
   The nonprofit board, the body meant to keep the mission above commercial
   pressure, removed Altman as CEO. Within days, after most staff threatened to
-  quit and Microsoft offered to hire them, Altman was reinstated and most of
-  the directors who removed him left the board.
+  quit and Microsoft offered to hire them, Altman was reinstated and most of the
+  directors who removed him left the board.
 patterns: [mission-to-market]
 related: [2015-12-11-founded-as-nonprofit]
 sources:
-  - title: Sam Altman leaving OpenAI after board says he was 'not consistently candid in his communications'
+  - title: Sam Altman leaving OpenAI after board says he was 'not consistently
+      candid in his communications'
     publisher: GeekWire
     url: https://www.geekwire.com/2023/sam-altman-leaving-openai-after-board-says-he-was-not-consistently-candid-in-his-communications/
     date: 2023-11-17
     type: reporting
-  - title: Sam Altman leaving OpenAI, with its board saying it "no longer has confidence" in his leadership
+  - title: Sam Altman leaving OpenAI, with its board saying it "no longer has
+      confidence" in his leadership
     publisher: CBS News
     url: https://www.cbsnews.com/news/openai-sam-altman-ousted-board-no-confidence-mira-murati/
     date: 2023-11-17
@@ -51,7 +54,25 @@ updates:
         url: https://www.theregister.com/2024/05/29/ex_openai_board_member_accuses_altman_lying/
         date: 2024-05-29
         type: reporting
+  - date: 2026-05-06
+    text: >-
+      In a video deposition played at the Musk v. Altman trial, former CTO Mira
+      Murati testified that Altman had told her OpenAI's legal department, then
+      headed by Jason Kwon, said a new model (GPT-4 Turbo, according to the New
+      Yorker) did not need review by the company's deployment safety board.
+      Asked whether Altman was telling the truth, she said "No," and added: "I
+      confirmed that what Jason was saying and what Sam was saying were not the
+      same thing." The article did not include a response from OpenAI.
+    sources:
+      - title: Ex-OpenAI CTO Mira Murati Testifies About Sam Altman Allegedly Lying to
+          Her
+        publisher: Gizmodo
+        url: https://gizmodo.com/ex-openai-cto-mira-murati-testifies-about-sam-altman-allegedly-lying-to-her-2000755394
+        date: 2026-05-06
+        type: reporting
+        archive: https://web.archive.org/web/20260619162303/https://gizmodo.com/ex-openai-cto-mira-murati-testifies-about-sam-altman-allegedly-lying-to-her-2000755394
+        snapshot: snapshots/2026-09-29-gizmodo.com-cfaea214
 note: >-
-  The governance mechanism was used once, and it didn't hold. Mark this as
-  the moment "the nonprofit controls the company" became a claim to verify
-  instead of a fact to assume.
+  The governance mechanism was used once, and it didn't hold. Mark this as the
+  moment "the nonprofit controls the company" became a claim to verify instead
+  of a fact to assume.

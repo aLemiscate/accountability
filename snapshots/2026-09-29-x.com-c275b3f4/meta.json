@@ -1,0 +1,24 @@
+{
+  "url": "https://x.com/claudeai/status/1961096054192943302",
+  "captured_at": "2026-09-29T22:37:58.208Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "eb01379d4e66adc44fead9127045c66123a24566168bfb9b441b1f3c28c30571",
+    "page.txt": "6c4e5eb0886b954ddfe26591313e87ccfd153527e86c5f3f42cd6a6b9f48d96c",
+    "post.json": "565ac83c2f4aa201337542024b719a36f21304b34f267f59d0de2534bc936982",
+    "post.txt": "64fe87c2b5a70e0c65ce5e7c9546a1231c56089de4ac50da2b663a1771e8aadd"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/claudeai/status/1961096054192943302",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Claude on X: \"We're updating our consumer terms and privacy policy to help us deliver even more capable, useful AI models. Our users will now be given the choice to allow their data to be used to improve Claude.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Claude (@claudeai)",
+    "date": "August 28, 2025",
+    "posted_at": "2025-08-28T15:58:29.379Z"
+  },
+  "rendered_status": 403,
+  "archive": null
+}

@@ -61,6 +61,48 @@ updates:
         date: 2026-01-02
         type: primary
         snapshot: snapshots/2026-09-29-x.com-3d21766c
+  - date: 2026-06-23
+    text: >-
+      Alex Bores lost the Democratic primary for New York's 12th congressional
+      district to Micah Lasher. Leading the Future spent $8 million against him. Groups on the other
+      side, most of the money from an Anthropic-backed organization, spent
+      roughly $20 million supporting him.
+    sources:
+      - title: AI Super PAC’s First Major Target Loses New York Congressional Primary
+        publisher: Gizmodo
+        url: https://gizmodo.com/ai-super-pacs-first-major-target-loses-new-york-congressional-primary-2000776808
+        date: 2026-06-24
+        type: reporting
+  - date: 2026-06-02
+    text: >-
+      Days apart, Brockman and OpenAI both drew the line between his money and
+      the company. Brockman on X: "Funded by my wife & me personally, not funded
+      by OpenAI! No PAC speaks on behalf of OpenAI." OpenAI's global affairs
+      team then published a statement that the Brockmans' engagement with
+      Leading the Future "has been in a personal capacity," that "OpenAI does
+      not direct the activities of LTF, or have visibility into their
+      operations," and that "No outside political group speaks for OpenAI or
+      represents our company's views."
+    sources:
+      - title: Greg Brockman on X
+        publisher: X
+        url: https://x.com/gdb/status/2060151447195373843
+        date: 2026-05-29
+        type: primary
+        snapshot: snapshots/2026-09-29-x.com-0552a97b
+      - title: Our views on AI policy and political advocacy
+        publisher: OpenAI
+        url: https://openai.com/index/our-views-on-ai-policy-and-political-advocacy/
+        date: 2026-06-02
+        type: primary
+      - title: OpenAI Says It’s Not Responsible for the Leading the Future Super PAC.
+          But Only Its Employees Seem to Believe That.
+        publisher: Obsolete
+        url: https://www.obsolete.pub/p/openai-leading-the-future-super-pac-brockman
+        date: 2026-09-10
+        type: analysis
+        archive: https://web.archive.org/web/20260914080118/https://www.obsolete.pub/p/openai-leading-the-future-super-pac-brockman
+        snapshot: snapshots/2026-09-29-obsolete.pub-c641e033
 note: >-
   "Regulate us" from the CEO, and money to defeat the people writing the
   regulation from the president. Keep the corporate and personal lines clear,

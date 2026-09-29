@@ -80,8 +80,8 @@ This saves `snapshots/<date>-<site>-<hash>/` containing:
 
 - `page.html` and `page.txt`: the raw page and its readable text
 - `screenshot.jpg` and `rendered.txt`: a full-page screenshot and rendered text (needs `npx playwright install chromium`)
-- `post.txt` and `post.json`: for X and Bluesky links, the post text from the public embed APIs, which work without logging in
-- `document.pdf` and `document.txt`: for PDFs, the file and its text (the text needs `pdftotext` from poppler-utils)
+- `post.txt` and `post.json`: for X and Bluesky links, the post text from the public embed APIs, which work without logging in. For X, `syndication.json` adds the full text of long posts and the text of any quoted post, and attached photos are saved as `media-1.jpg`, `quoted-media-1.jpg` and so on, because some statements (a signed letter, a memo screenshot) exist only as an image
+- `document.pdf` and `document.txt`: for PDFs, the file and its text (the text needs `pdftotext` from poppler-utils). Files over 10 MB are not stored; `meta.json` keeps their size and SHA-256 under `omitted`, so a copy fetched later can still be checked
 - `meta.json`: HTTP status, capture time, SHA-256 hashes of every file, and for posts the exact time of posting (read from the X post id)
 - a Wayback Machine copy, whose link goes into the entry's `archive` field
 
@@ -133,6 +133,12 @@ It combines three sources:
 - **X API** (set `X_BEARER_TOKEN`). The account's recent timeline, up to about the last 3,200 posts. What a token can read depends on its X API access tier.
 - **Bluesky** (for accounts with a `bluesky` handle). The public API, which searches without logging in; set `BSKY_HANDLE` and `BSKY_APP_PASSWORD` (an app password, not your main password) for higher limits.
 
+For a full-history pass, `--via wayback --limit 2000 --cdx-limit 50000
+--keep-deleted` reads up to 2,000 archived posts per account and keeps every
+post that looks deleted even if it doesn't match `--match`. The Wayback Machine
+blocks many cloud IP ranges, so run this from the **Sweep** workflow below or
+from your own machine.
+
 Posts already cited in the record are marked, so the inbox shows only what's
 new. Nothing is added to the record automatically. When a post belongs,
 `npm run new -- … --url <post>` starts the entry and snapshots the post.
@@ -166,6 +172,7 @@ private. Deleted posts are worth recording too. Results go to
 - **Site** (`.github/workflows/site.yml`) runs on every push: it validates, builds and tests the record, then publishes to GitHub Pages from the default branch. One-time setup: *Settings → Pages → Source: GitHub Actions*.
 - **Watch** (`.github/workflows/watch.yml`) runs every Monday and on demand. It re-reads watched pages, checks sources, collects the last two weeks of posts from watched accounts into `inbox/`, snapshots up to 20 sources that don't have a snapshot yet, archives unarchived sources (when the archive.org secrets are set), commits the results, and **opens an issue whenever a watched page changes**.
 - **Capture** (`.github/workflows/capture.yml`) runs on demand. It snapshots every source that doesn't have a snapshot yet. Run it once to backfill the whole record.
+- **Sweep** (`.github/workflows/sweep.yml`) runs on demand. It reads the full archived history of every X account in `data/accounts.yaml` through the Wayback Machine, one job per account, keeps posts that match a list of topics plus every post that looks deleted, and commits the candidates to `inbox/`. It takes hours; choose accounts, a start date or a different topic list in the run form. Nothing is added to the record automatically.
 
 Optional repository secrets (*Settings → Secrets and variables → Actions*):
 `IA_ACCESS_KEY` and `IA_SECRET_KEY` (archive.org), `X_BEARER_TOKEN` (X API),

@@ -58,10 +58,11 @@ async function walk(dir) {
 }
 
 export async function loadAll() {
-  const [site, patterns, actors] = await Promise.all([
+  const [site, patterns, actors, accounts] = await Promise.all([
     readYaml(path.join(DATA, 'site.yaml')),
     readYaml(path.join(DATA, 'patterns.yaml')),
     readYaml(path.join(DATA, 'actors.yaml')),
+    readYaml(path.join(DATA, 'accounts.yaml')),
   ]);
   const files = await walk(ENTRIES);
   const entries = [];
@@ -69,14 +70,14 @@ export async function loadAll() {
     const data = (await readYaml(file)) ?? {};
     entries.push({ id: path.basename(file).replace(/\.ya?ml$/, ''), file: path.relative(ROOT, file), ...data });
   }
-  return { site, patterns, actors, entries };
+  return { site, patterns, actors, accounts: accounts ?? [], entries };
 }
 
 /**
  * Validate everything. Returns { errors, warnings, unarchived }, where
  * unarchived lists entries with no archived copy of any source yet.
  */
-export function validate({ patterns, actors, entries }) {
+export function validate({ patterns, actors, entries, accounts = [] }) {
   const errors = [];
   const warnings = [];
   const unarchived = [];
@@ -95,6 +96,15 @@ export function validate({ patterns, actors, entries }) {
     if (actorIds.has(a.id)) errors.push(`actors.yaml: duplicate actor id ${a.id}`);
     if (a.kind === 'person' && !a.basis) errors.push(`actors.yaml: ${a.id} needs a basis (why this person is in scope)`);
     actorIds.add(a.id);
+  }
+  const handles = new Set();
+  for (const acc of accounts) {
+    if (!actorIds.has(acc.actor)) errors.push(`accounts.yaml: unknown actor "${acc.actor}" (add it to data/actors.yaml)`);
+    if (!acc.x && !acc.bluesky) errors.push(`accounts.yaml: ${acc.actor} needs an x or bluesky handle`);
+    for (const h of [acc.x && `x:${acc.x}`, acc.bluesky && `bsky:${acc.bluesky}`].filter(Boolean)) {
+      if (handles.has(h.toLowerCase())) errors.push(`accounts.yaml: duplicate handle ${h}`);
+      handles.add(h.toLowerCase());
+    }
   }
 
   const byId = new Map();
@@ -248,7 +258,7 @@ const SNAPSHOT_TEXT_FILES = ['page.txt', 'rendered.txt', 'post.txt', 'document.t
 
 /**
  * Check each entry's quote against the text of the snapshots attached to its
- * sources. Sets entry.quote_check = { status: 'matched' | 'not-found', snapshot }
+ * own sources (not the sources of its updates). Sets entry.quote_check = { status: 'matched' | 'not-found', snapshot }
  * when the entry has both a quote and at least one snapshot.
  */
 export async function checkQuotes(entries) {
@@ -266,7 +276,8 @@ export async function checkQuotes(entries) {
   };
   for (const e of entries) {
     if (!e.quote) continue;
-    const dirs = [...(e.sources ?? []), ...(e.updates ?? []).flatMap((u) => u.sources ?? [])]
+    // The quote comes from the entry's own sources; update sources back the update text.
+    const dirs = (e.sources ?? [])
       .map((s) => s.snapshot)
       .filter((d) => d && existsSync(path.join(ROOT, d)));
     if (!dirs.length) continue;

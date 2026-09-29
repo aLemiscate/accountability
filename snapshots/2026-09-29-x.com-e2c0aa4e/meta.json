@@ -1,0 +1,28 @@
+{
+  "url": "https://x.com/sama/status/1926006829592543235",
+  "captured_at": "2026-09-29T22:45:56.802Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "c2e3c9d42ee53ac170d81d11ac94f3cd2dda8252ba0163d207f6eed0c01f0cff",
+    "page.txt": "3d87e81ed62a5ac747102a32fe1aafbe6384e4b4ec5c8edabd4a7532d5d9e8db",
+    "post.json": "ae6d62fb6789c1d4b589718e124c381cb8f04d30c4244c0f0184f6759064a3f0",
+    "post.txt": "65be1710c6d6f29bea331be4c83f2293162101518ad26bcf560e99762292e092"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1926006829592543235",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"great to work with the UAE on our first international stargate! appreciate the governments working together to make this happen. sheikh tahnoon has been a great supporter of openai, a true believer in AGI, and a dear personal friend.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "May 23, 2025",
+    "posted_at": "2025-05-23T20:06:26.308Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260124071121/https://x.com/sama/status/1926006829592543235",
+    "timestamp": "20260124071121",
+    "method": "existing"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "url": "https://x.com/sama/status/1818867964369928387",
+  "captured_at": "2026-09-29T22:41:52.239Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "fa88d8496cb0f90189a60858b43c9799ec787d597ce9c8fb9b5e231446dd3568",
+    "page.txt": "f116bf7c5b09f2ac9bb2965a4911fbfd758a2a6a0fce97678c85d4379e67bf5f",
+    "post.json": "343b8be89fcc01b563d7c42b0cb20f36d47d08bae78d472c7bb605e66e2fee06",
+    "post.txt": "8d5c634a9e34e6c41e920419b0bca938549e3d3aa7f98b0c9649dff80bc1a71b"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1818867964369928387",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"a few quick updates about safety at openai: as we said last july, we’re committed to allocating at least 20% of the computing resources to safety efforts across the entire company. our team has been working with the US AI Safety Institute on an agreement where we would provide e… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "August 1, 2024",
+    "posted_at": "2024-08-01T04:34:50.295Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260118030152/https://x.com/sama/status/1818867964369928387",
+    "timestamp": "20260118030152",
+    "method": "existing"
+  }
+}

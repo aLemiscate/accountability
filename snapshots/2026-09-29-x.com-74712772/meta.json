@@ -1,0 +1,37 @@
+{
+  "url": "https://x.com/RapidResponse47/status/2105052408032403532",
+  "captured_at": "2026-09-29T22:56:54.584Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "45985fb2d30cd1eb5066b10befbfc4101b93168c9aeb90a4d76ad172c47f14a8",
+    "page.txt": "099b8a86455d0f96f4ae2ea7a0db76db4a7e7a4e320ac600a3fd2c99d258ffd6",
+    "post.json": "1ce6dc4bdb316fdcae170603ceb4d70757167bcfb0d7bbfa174a2ebee66f18f4",
+    "syndication.json": "de34afb9c0f4c92bced20a9e328eb203780617ac08fb8743e1275c3bc3db0c61",
+    "media-1.jpg": "3a2557a9a265652012b9ad009fbfb65fa8ab590d3a0363a5ca42eab039cff9ce",
+    "media-2.jpg": "4080d78e3343570f9f18e6128fe61add63e902617a08df74e8a65a72fac6472e",
+    "post.txt": "5ec93aed904c716a997d49087ef4f418acf2f5d20a705b7db84c385e0e7394d6"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/RapidResponse47/status/2105052408032403532",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Rapid Response 47 on X / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Rapid Response 47 (@RapidResponse47)",
+    "date": "September 29, 2026",
+    "posted_at": "2026-09-29T21:49:38.714Z",
+    "media": [
+      {
+        "file": "media-1.jpg",
+        "url": "https://pbs.twimg.com/media/HTamAiNW0AAa9Rr.jpg"
+      },
+      {
+        "file": "media-2.jpg",
+        "url": "https://pbs.twimg.com/media/HTamAiZXIAAtwcW.jpg"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": null
+}

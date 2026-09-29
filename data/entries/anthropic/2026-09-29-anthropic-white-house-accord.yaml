@@ -1,0 +1,69 @@
+title: 'Standing promise: the White House Accord''s "four layers of controls and
+  audits"'
+date: 2026-09-29
+org: anthropic
+type: said
+kind: commitment
+who: [dario-amodei, anthropic]
+venue: White House Accord on Super Intelligence, signed at the White House
+quote: >-
+  Regardless of whether this is required of companies, we believe that
+  implementing these controls and audits is critical to ensuring a safe future
+  for everyone, and each of our companies are committed to doing this.
+summary: >-
+  Anthropic CEO Dario Amodei signed a short "Joint Commitment on Frontier
+  Responsibilities" with President Trump and the heads of Google, Meta, xAI and
+  Nvidia. It commits each company to four layers: internal controls that monitor
+  its models' capabilities and alignment in training and deployment "around
+  areas like cybersecurity, biosecurity, and chemical threats," and "ensure that
+  its models do not hack or access technical systems in unintended ways"; an
+  internal team that makes sure the controls work and issues are remediated; "an
+  independent external auditor or evaluator"; and "an independent committee of
+  the board of directors" that receives reports from both and ensures issues are
+  remediated. The companies also said they "will meet regularly to establish
+  standards and best practices." Trump called the agreement "morally binding."
+concreteness: conditional
+status: open
+breaks_if: >-
+  A signatory has no named independent external auditor or evaluator, or no
+  board committee receiving its reports, a reasonable time after signing; a
+  known incident of a model hacking or accessing systems in unintended ways goes
+  unreported to that committee; or the commitment is later described as
+  contingent on other companies or on regulation.
+related:
+  [
+    2026-09-12-pace-the-frontier-embedded-evaluators,
+    2026-07-30-claude-cyber-eval-incidents
+  ]
+patterns: []
+sources:
+  - title: White House Rapid Response on X (text of the accord)
+    publisher: X
+    url: https://x.com/RapidResponse47/status/2105052408032403532
+    date: 2026-09-29
+    type: primary
+    snapshot: snapshots/2026-09-29-x.com-74712772
+  - title: Michael Kratsios on X
+    publisher: X
+    url: https://x.com/mkratsios47/status/2105054600445243426
+    date: 2026-09-29
+    type: primary
+    snapshot: snapshots/2026-09-29-x.com-da1dfcab
+  - title: AI firms sign ‘morally binding’ self-policing pledge in White House meeting
+    publisher: The Hill
+    url: https://thehill.com/homenews/administration/6118906-tech-ceos-sign-white-house-ai-accord/
+    date: 2026-09-29
+    type: reporting
+  - title: Trump says he and tech leaders signed AI agreement that is 'morally
+      binding'
+    publisher: CNBC
+    url: https://www.cnbc.com/2026/09/29/tech-white-house-ai-lunch-trump.html
+    date: 2026-09-29
+    type: reporting
+    snapshot: snapshots/2026-09-29-cnbc.com-00dde760
+note: >-
+  Anthropic already has pieces of this: embedded evaluators (Accenture, from
+  Sept. 18) and a Long-Term Benefit Trust that appoints board members. The
+  accord names no deadline, no auditor and no reporting. Watch for who the
+  external auditor is, whether its findings are published, and whether a board
+  committee receives reports on the incidents Anthropic has already disclosed.

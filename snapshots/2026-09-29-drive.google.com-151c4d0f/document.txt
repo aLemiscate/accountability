@@ -1,0 +1,197 @@
+August 24, 2026
+The Honorable Greg Casar
+U.S. House of Representatives
+Washington, DC 20515
+RE: July 30, 2026 Disclosure Regarding Claude Model Behavior in Third-Party Cybersecurity
+Evaluations
+Dear Representative Casar and Members of Congress:
+Thank you for your August 10, 2026 letter regarding the cybersecurity evaluation incidents
+we publicly disclosed on July 30, 2026. Anthropic takes these incidents seriously and
+believes that the industry as a whole would benefit from a broader conversation about how
+to evaluate increasingly powerful AI models securely. As discussed below, Anthropic is
+committed to implementing risk-mitigation measures, and we continue to work with
+various AI security bodies on shared best practices for the design and security of evaluation
+environments. That work has been a priority for the company since before these incidents
+occurred.
+Our response provides an overview of our current understanding of the three incidents we
+disclosed on July 30, based on our review to date and what we are able to share at this
+stage. Anthropic’s review remains ongoing, and we may provide updates as we learn more.
+Separately, your letter refers to an incident reported by the UK AI Security Institute (UK
+AISI) on August 4, 2026. That matter is distinct from the three incidents that are the subject
+of this response, and because our review of it is not yet complete, we address it briefly
+below.
+The Role of Evaluations in Model Development
+Cybersecurity evaluations are a critical component of responsible model development.
+Anthropic evaluates every frontier model before deployment to determine what a model is
+capable of. These evaluations help determine whether a model can be released to the
+public and what safeguards need to be developed before it is.
+We have run cybersecurity evaluations since February 2025, when we first tested an earlier
+Claude model against a benchmark of 40 capture-the-flag challenges. Over time, we have
+increased the number of benchmarks we use, as new ones become available and model
+
+capabilities advance. We frequently run these evaluations with third-party partners who
+help us develop a wide range of testing scenarios and who can provide an independent
+assessment of our models’ capabilities.
+Anthropic’s Proactive Identification and Response
+On July 21, 2026, OpenAI disclosed that several of its models had escaped an isolated test
+environment. Beginning on July 23, we reviewed historic evaluation transcripts for evidence
+of any instances in which a Claude model had reached the internet from within an
+evaluation. We suspended all internal cybersecurity evaluations that same day, on July 23,
+after identifying transcripts indicating that Claude may have accessed the internet while
+undergoing an evaluation conducted by Anthropic’s evaluation partner, Irregular. After
+reviewing 141,006 evaluation runs, Anthropic confirmed three incidents on July 24 in which
+a Claude model had accessed the internet and gained access to the production
+infrastructure of three organizations. Together, these incidents involved six evaluation runs
+in total, four of which impacted the same organization, and two of which impacted two
+separate organizations.
+Anthropic notified its evaluation partner and each of the three affected organizations on
+July 27, and provided the two affected organizations that responded to our notification with
+the information necessary for them to assess the impact on their systems. On July 30,
+Anthropic also notified the security team at PyPI, the public software registry involved in
+one of the three incidents, and voluntarily notified relevant government authorities in the
+United States, the United Kingdom, and the European Union. Anthropic published a
+detailed public account of the three incidents on its blog that same day.
+The Three Incidents
+The evaluations at issue were running capture-the-flag exercises conducted in an
+environment built and operated by a third-party evaluation partner. The environment is
+designed as a private, self-contained network of simulated hosts. The model is given a
+workstation inside that network and instructed to target and compromise another host on
+that same network. No host within that network is intended to have a connection to the
+internet so that nothing outside the simulated exercise can be reached regardless of what
+the model does within. The model is not provided with any particular method to complete
+the task, as the purpose of the exercise is to evaluate whether, and how, the model can
+achieve its goal.
+In all three cases, the models were instructed that the environment was a simulation and
+that they had no access to the internet. However, a misconfiguration in the evaluation
+environment left the models with a live network path to the internet, allowing the models
+
+to gain unauthorized access to the systems of three organizations. Neither Anthropic nor
+its evaluation partner was aware of this misconfiguration until the incidents were identified
+during the July 23 review.
+It is important to note that each of these incidents, discussed in further detail below,
+differed in kind from the Hugging Face incident disclosed by OpenAI. Anthropic’s models
+did not escape their evaluation environment, nor did they circumvent any containment
+measure intended to keep that environment offline. Rather, because of the
+misconfiguration, the environment provided internet access when it should not have. Each
+model had been instructed that its environment was a simulation with no internet access,
+and each pursued its assigned task on that basis. In each of the six runs, the model did only
+what it was assigned to do. No model attempted to deliberately escape its environment,
+disable or evade monitoring, or pursue any objective beyond its assigned task.
+Claude Opus 4.7 – The earliest incident occurred in April 2026 during an evaluation run for
+Claude’s Opus 4.7 model. The fictional target company chosen for the exercise happened to
+share a name with a real, active website domain. Because the model was unable to reach its
+intended target within the evaluation environment, it discovered that the real
+organization's systems were reachable instead and, believing this to be the intended target,
+obtained application and infrastructure credentials and accessed a database containing
+several hundred rows of production data.
+Internal Research Model – A second incident occurred in June 2026 during an evaluation
+run for an unreleased, internal research test model. In this instance, when the model was
+unable to reach its intended target, it searched alternatives on the internet. It scanned
+roughly 9,000 targets on the open internet and ultimately compromised one organization’s
+internet-facing application using basic cyberattack techniques. Notably, later in the run,
+the model recognized on its own that the system it had reached had no connection to the
+fictional exercise, concluded the system it had accessed was real, and stopped.
+Claude Mythos 5 – A third incident occurred in July 2026 during an evaluation run for
+Claude’s Mythos 5 model. In this instance, the model, operating on the false belief that it
+was in a simulation, published a software package to PyPI, the public registry from which
+Python software is distributed. The package was live for approximately one hour and was
+downloaded and run on 15 real systems, one of which belonged to a security company that
+routinely scans newly published packages. When that company's scanner ran the package,
+the model exfiltrated that company's credentials and used them to access the company’s
+infrastructure. The model did not know that company existed when it published the
+package. Before the model could publish the package, it needed an email address to
+register an account, and a phone number to create that email address. The model was
+unable to find a free phone-number service and attempted to obtain funds to pay for one.
+
+We have no indication that any such attempt succeeded. The model ultimately found an
+email provider that did not require a phone number. At one point, the Mythos 5 model
+correctly identified that publishing the package would be a real-world attack if its
+environment were real. It nonetheless convinced itself that it was still in a simulation.
+In none of these three incidents were any Anthropic production systems or any Anthropic
+customer data accessed or affected. In all three incidents, the evaluations were run on
+infrastructure that is separate from, and has no access to, Anthropic's internal systems or
+customer data.
+Assessment of Claude’s Behavior
+Based on our findings, these incidents are best understood as a consequence of the
+misconfiguration, rather than evidence of misaligned goals. In none of these situations did
+Claude exfiltrate itself or deliberately attempt to escape its test environment. Instead,
+having reached the internet, the model continued to pursue the specific capture-the-flag
+task it had been assigned, treating the systems it encountered as part of that task. In each
+case, the model relied on basic techniques, such as exploiting weak passwords, to access
+the systems of the affected organizations. None of the incidents involved exploiting any
+novel, or even advanced, vulnerabilities.
+We recognize that a model’s stated reasoning is not always a reliable guide to what is
+driving its behavior, a limitation reflected in our own published research. For that reason,
+our assessment does not rest on the models’ verbalized reasoning in the transcripts alone.
+We also questioned the models about their beliefs during these episodes, ran resampling
+experiments that varied elements of the scenario to see how their behavior changed, and
+conducted further analysis aimed at testing whether a model’s stated belief that it was in a
+simulation matched what was actually driving its behavior.
+The models under evaluation retained their standard model-specific safety training. None
+were “helpful-only” or otherwise altered versions of the underlying model, as is sometimes
+the case with models intended for research and testing purposes. What they lacked was the
+additional layer of classifiers and real-time abuse monitoring that we apply to every
+generally available Claude model. Running an evaluation without those production
+safeguards is deliberate and standard because the goal is to measure what the underlying
+model can actually do so that we can build and calibrate the necessary safeguards. That
+approach is appropriate so long as the evaluation is contained. To be clear, the production
+safeguards would have prevented the behavior identified in these three incidents. The
+configuration that resulted in these incidents (i.e., no production safeguards in place, an
+explicit instruction to attack, and an environment with unintended internet access) does
+not exist in any generally released product.
+
+Anthropic’s Ongoing Response
+Anthropic temporarily paused all internal cybersecurity evaluations on July 23. Since then,
+it has resumed cybersecurity evaluations of pre-release models, subject to the
+enhancements described below. Anthropic is also in the process of engaging METR, an
+independent AI evaluation organization, to conduct a third-party review of the incidents.
+Although METR will have access to transcripts as part of its review, we are not in a position
+to publicly release the full transcripts given our ongoing review and in order to protect the
+affected organizations.
+Anthropic is implementing a number of enhancements to its evaluation program, including:
+●​ Improving processes for validating the network configuration of our evaluation
+environments;
+●​ Deploying a monitor that reviews each cyber evaluation as it runs in real time, and
+blocks and escalates any action that falls outside the scope of the evaluation;
+●​ Migrating our cyber evaluation infrastructure to a more hardened isolation platform;
+●​ Requiring that either Anthropic or the evaluation partner takes clear responsibility
+for monitoring the run, with each partner required to confirm in writing that a
+defined set of isolation, validation, and monitoring practices is in place before
+testing begins or continues; and
+●​ Revising how we write our evaluation prompts so that a model is told explicitly
+which systems are within scope (a change that, on its own, would likely have
+prevented these incidents).
+In addition to the above, Anthropic is also working with government AI security bodies on
+shared standards for the design and security of evaluation environments, which is
+consistent with the position we have taken publicly on the need for a robust third-party
+testing ecosystem.
+Our review of the evaluations in which these three incidents arose remains ongoing.
+UK AISI Incident
+Your letter also refers to the incident disclosed by the UK AISI on August 4 relating to
+testing conducted on two models, one of which was a Claude model. The UK AISI
+conducted that evaluation independently of Anthropic and has published its own findings.
+According to UK AISI’s report, the models engaged in potentially harmful activity as a result
+of what it described as “deliberately permissive conditions” (i.e., conditions in which
+safeguards had been removed, internet access provided, and no restrictions on how the
+
+internet should be used). UK AISI found no evidence that the models escaped from a secure
+environment.
+We have not yet received the underlying materials from the evaluation to conduct our
+independent review of the incident. Accordingly, we are not able to characterize the
+findings beyond what UK AISI has itself published. We are actively working with UK AISI to
+obtain those materials, and would be glad to share our assessment with your staff once our
+review is complete.
+Closing
+We identified the three incidents disclosed on July 30 independently, notified the affected
+organizations, and provided a detailed public account of what happened. We hope the
+information set out above is helpful in your review. Should your staff find it useful, we
+would welcome the opportunity to discuss these incidents further, and to take part in the
+broader conversation we think the industry should have about how to securely evaluate
+increasingly powerful AI models. Anthropic values its engagement with Congress and
+remains committed to working cooperatively with you and your colleagues.
+Sincerely,
+Anthony Cimino
+Head of US Federal Affairs
+Anthropic PBC
+
+

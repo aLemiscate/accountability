@@ -1,0 +1,58 @@
+An Anthropic researcher has resigned over fears that unrestrained development of self-improving AI models will end up killing us all.
+Jacob Coxon, a researcher who said in a social media post Tuesday evening that he spent the last three years working on pretraining research at both OpenAI and Anthropic, accused the firms of failing to act responsibly. He said the people racing to build this technology “earnestly believe it could kill us all by the end of the decade.”
+“They are racing straight to self-improving superintelligence and gambling with our lives,” Coxon wrote in a thread on X.
+Coxon joins a growing chorus in the industry calling for a slowdown before AI technology learns to improve itself — a milestone many believe would end human control over AI.
+The public resignation comes amid growing pressure from policymakers and industry insiders to slow down AI development, following several incidents involving AI agents breaking out of their sandboxes and accessing the open internet.
+The most serious so far have been OpenAI systems breaching Hugging Face’s servers , an event that researchers say remains poorly understood, due in part to the limited nature of the independent investigations into the incident. Around the same time, Anthropic’s AI agents also reached systems outside their test environments after misconfigurations in safety evaluations conducted by a third party inadvertently gave them paths to the internet.
+Anthropic did not immediately return a request for comment on the resignation.
+Here is the rest of Coxon’s warning and call to action:
+Do not underestimate the power of this technology. These will soon be superhuman systems that can hack anything, revolutionize any field overnight, and acquire real power and resources. We have all witnessed the progress in each of these domains, and progress is not slowing.
+The people building AI earnestly believe that it could kill us all by the end of the decade. This is not a marketing stunt. If anything, many executives and senior researchers will couch their phrasing in the press to sound sensible — but I hear the same people express fear privately. No other human activity poses this level of danger.
+A common response is “if they truly believe this, why are they still building it?” At OpenAI, many have not deeply internalized the civilizational stakes. At Anthropic, the stakes are well-understood, but they are locked in a race to get there first — they believe no one else will act responsibly, so they must do it themselves, despite the risk.
+Accepting this race and entering the “endgame” is a hubristic gamble that should not be launched from a private company’s Slack. Attempting to speedrun alignment should require extraordinary confidence that there are no better trajectories available.
+I am optimistic about the potential for coordination. Warning shots like the Hugging Face attack have made pacing agreements between U.S. labs more viable. I don’t feel like we’re on track to prevent a global race, which may require costly actions such as a temporary ban on improving model capabilities.
+If you are a lab researcher, I urge you to consider what the next few years will actually feel like. Do you want to kick off a superintelligent RL run without a rigorous understanding of its mind? Should you put your head down because “it’s happening anyway” — or take this moment to call for different conditions?
+One of Coxon’s colleagues at Anthropic, Evan Hubinger , echoed the sentiment, saying his team does “earnestly believe AI could kill all humans!” He tempered his argument, though, saying the likelihood is greater than 10% within the next decade and admitted that Anthropic doesn’t “have a plan to solve alignment for superintelligence and are not clearly on track to.”
+A recent report from Guidelight AI Standards , an organization that promotes safe frontier AI development practices, found that few of the top AI labs have published containment response plans for shutting down AI that tries to subvert human control.
+In his social media posts, Hubinger added that the risk from current models is low, but the fear compounds with “superintelligence arising from recursive self-improvement,” which is “happening faster than we thought.”
+While half of the AI industry believes this sort of self-improvement will lead to humanity’s downfall, the other half hopes it will eventually help us solve all the seemingly far-fetched problems AI proponents say it will one day eliminate — cancer, climate change, and even world peace.
+Anthropic and OpenAI aren’t the only companies actively chasing recursive self-improvement. A wave of startups has launched this year, with pedigreed founders and fat checks, to be the first to achieve this goal. Ricursive Intelligence raised $335 million at a $4 billion valuation in February; three months later, Recursive Superintelligence raised $650 million at a $4 billion valuation; and former Google DeepMind veteran Jeff Dean launched Discovery Loop last month.
+“The creation of recursive self-improving loops, so an AI system that can build the next generation of AI system, which itself can build an even more powerful AI, which can build a more powerful AI, et cetera, et cetera, is the most likely candidate for the point we lose control,” Connor Leahy, U.S. executive director of AI safety nonprofit ControlAI, told TechCrunch. “It’s very hard to imagine shutting that down before it’s too late.”
+Recent legislation has emerged in the U.S. and the U.K. to ban the development and deployment of superintelligence. Last week, Sen. Bernie Sanders (I-Vt.) and Rep. Greg Casar (D-Texas) introduced the Ban Artificial Superintelligence Act , and on Tuesday, British Labour MP Alex Sobel introduced the Artificial Superintelligence Security Bill in Parliament.
+Leahy, who advised on both bills, noted that the U.K.’s legislation points to recursive self-improvement as a precursor to superintelligence that “must be regulated and prevented.”
+“Superintelligence is not a tool,” Leahy said. “It’s not a weapon, even. It’s an adversary.”
+Topics
+AI , Anthropic , existential risk , Government & Policy , Recursive Self-Improvement , Security , superintelligence
+When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.
+Rebecca Bellan
+Senior Reporter
+Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.
+You can contact or verify outreach from Rebecca by emailing rebecca.bellan@techcrunch.com or via encrypted message at rebeccabellan.491 on Signal.
+View Bio
+October 13 – 15
+San Francisco
+Get 50% off a second pass
+The Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by making connections, building momentum, and discovering what’s next in the startup ecosystem.
+BOOK NOW
+Most Popular
+•
+Crusoe abandons $1.25B plan to use Boom turbines at AI data centers
+• Kirsten Korosec
+•
+Astra and Opus just passed Turing’s other test
+• Tim Fernholz
+•
+Oracle sends force majeure notice on its New Mexico Stargate data center
+• Aditya Mehta
+•
+Meta made a Tamagotchi-like wearable for its Muse AI agent
+• Lucas Ropek
+•
+Vogue sent robots down the runway at Vogue World, and people were not impressed
+• Dominic-Madori Davis
+•
+Anthropic says its biology lab has already found something big
+• Julie Bort
+•
+PitPro’s first tire-changing robot goes live in Canada
+• Sean O'Kane

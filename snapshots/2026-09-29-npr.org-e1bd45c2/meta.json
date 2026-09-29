@@ -1,0 +1,21 @@
+{
+  "url": "https://www.npr.org/2026/09/02/nx-s1-5953021/openai-tumbler-ridge-mass-shooting",
+  "captured_at": "2026-09-29T22:50:42.434Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "da0bc3f36b58ec5409b14f7fa26b39ec4722f3e25338f66d1c4db9b07573c45e",
+    "page.txt": "a763155aef9431f28424104ac01bab5031ef04ffe7fdf847171d96b8cba041f4",
+    "screenshot.jpg": "705c96dcb54d2e45a647080f43104db8057f982ad1593db434e28c26f08e2c29",
+    "rendered.txt": "2c13597895fc141e539cd35c54b5b6dc3ecdf7f1e013dbc5092dcd128bdd23df"
+  },
+  "http_status": 200,
+  "final_url": "https://www.npr.org/2026/09/02/nx-s1-5953021/openai-tumbler-ridge-mass-shooting",
+  "content_type": "text/html;charset=UTF-8",
+  "title": "Lawsuits claim OpenAI put image before safety in Canadian shooting : NPR",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20260914210202/https://www.npr.org/2026/09/02/nx-s1-5953021/openai-tumbler-ridge-mass-shooting",
+    "timestamp": "20260914210202",
+    "method": "existing"
+  }
+}

@@ -65,6 +65,21 @@ sources:
     url: https://theintercept.com/2026/03/08/openai-anthropic-military-contract-ethics-surveillance/
     date: 2026-03-08
     type: reporting
+updates:
+  - date: 2026-03-01
+    text: >-
+      In a public Q&A on X the next day, Altman described the red lines as
+      provisional: "We currently have three redlines. I could see us changing
+      them or adding more as the technology evolves, and there are new risks we
+      don't yet understand."
+    sources:
+      - title: Sam Altman on X
+        publisher: X
+        url: https://x.com/sama/status/2027908779015340193
+        date: 2026-03-01
+        type: primary
+        archive: https://web.archive.org/web/20260706164042/https://x.com/sama/status/2027908779015340193
+        snapshot: snapshots/2026-09-29-x.com-604ad08a
 note: >-
   Sign first and add the surveillance ban after the outcry. The red lines were
   the same ones a competitor had just been punished for holding, and whether

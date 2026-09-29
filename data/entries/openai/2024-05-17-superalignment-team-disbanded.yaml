@@ -36,9 +36,16 @@ sources:
     url: https://fortune.com/2024/05/21/openai-superalignment-20-compute-commitment-never-fulfilled-sutskever-leike-altman-brockman-murati/
     date: 2024-05-21
     type: reporting
+  - title: Sam Altman on X
+    publisher: X
+    url: https://x.com/sama/status/1791543264090472660
+    date: 2024-05-17
+    type: primary
+    snapshot: snapshots/2026-09-29-x.com-074ff5ce
 response: >-
   OpenAI said safety research would be spread across its other research teams
-  instead of sitting in one dedicated team.
+  instead of sitting in one dedicated team. Altman replied to Leike the same
+  day: "he's right we have a lot more to do; we are committed to doing it."
 note: >-
   It took ten months from a numeric pledge to a dissolved team. Leike joined
   Anthropic soon after.

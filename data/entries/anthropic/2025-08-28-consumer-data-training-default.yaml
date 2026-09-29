@@ -33,6 +33,12 @@ sources:
     url: https://techcrunch.com/2025/08/28/anthropic-users-face-a-new-choice-opt-out-or-share-your-data-for-ai-training/
     date: 2025-08-28
     type: reporting
+  - title: Claude on X
+    publisher: X
+    url: https://x.com/claudeai/status/1961096054192943302
+    date: 2025-08-28
+    type: primary
+    snapshot: snapshots/2026-09-29-x.com-c275b3f4
 response: >-
   Anthropic said the data would improve model safety and capabilities such as
   coding, and that users stay in control and can change the setting at any time.
