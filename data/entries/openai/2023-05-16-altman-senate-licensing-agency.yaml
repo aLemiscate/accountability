@@ -1,0 +1,34 @@
+title: Altman asks the Senate for a licensing agency for powerful AI
+date: 2023-05-16
+org: openai
+type: said
+kind: claim
+who: [sam-altman]
+venue: Testimony, U.S. Senate Judiciary Subcommittee on Privacy, Technology, and the Law
+quote: >-
+  I would form a new agency that licenses any effort above a certain scale of
+  capabilities and can take that license away and ensure compliance with
+  safety standards.
+summary: >-
+  Altman named licensing as his top recommendation for AI safety, along with
+  pre-deployment testing and independent audits. It was widely covered as a
+  tech CEO asking to be regulated.
+concreteness: directional
+status: reversed
+patterns: [regulate-us-not-like-that]
+sources:
+  - title: 'WATCH: OpenAI CEO Sam Altman testifies before Senate Judiciary Committee'
+    publisher: PBS NewsHour
+    url: https://www.pbs.org/newshour/politics/watch-live-openai-ceo-sam-altman-testifies-before-senate-judiciary-committee
+    date: 2023-05-16
+    type: primary
+  - title: OpenAI CEO Sam Altman calls for regulation before Congress
+    publisher: Axios
+    url: https://www.axios.com/2023/05/16/openai-ceo-sam-altman-artificial-intelligence-congress
+    date: 2023-05-16
+    type: reporting
+  - title: In Senate testimony, OpenAI CEO Sam Altman agrees with calls for an AI regulatory agency
+    publisher: VentureBeat
+    url: https://venturebeat.com/ai/in-senate-testimony-openai-ceo-sam-altman-agrees-with-calls-for-an-ai-regulatory-agency
+    date: 2023-05-16
+    type: reporting

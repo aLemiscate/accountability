@@ -1,0 +1,26 @@
+title: 'Claude 3 Opus "outperforms its peers": Anthropic claims the top of the
+  leaderboard'
+date: 2024-03-04
+org: anthropic
+type: did
+kind: action
+who: [ anthropic ]
+quote: >-
+  Opus, our most intelligent model, outperforms its peers on most of the common
+  evaluation benchmarks for AI systems…
+summary: >-
+  Anthropic launched Claude 3 and said the family "sets new industry benchmarks
+  across a wide range of cognitive tasks." It was the first time the company
+  marketed a model as the most capable available.
+contradicts: [ 2023-03-08-core-views-no-capabilities-acceleration ]
+patterns: [ race-clause ]
+sources:
+  - title: Introducing the next generation of Claude
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/claude-3-family
+    date: 2024-03-04
+    type: primary
+    snapshot: snapshots/2026-09-29-anthropic.com-a2cf0d02
+response: >-
+  Anthropic has said it releases frontier models to fund safety research and to
+  show that safety and capability can go together.

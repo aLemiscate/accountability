@@ -1,0 +1,30 @@
+title: 'Standing promise: the OpenAI Foundation controls OpenAI Group PBC'
+date: 2025-10-28
+org: openai
+type: said
+kind: commitment
+who: [openai]
+venue: Recapitalization announcement
+summary: >-
+  After the recapitalization, OpenAI says the nonprofit OpenAI Foundation
+  keeps control of the for-profit OpenAI Group PBC, and that the PBC is bound
+  to the same mission.
+concreteness: measurable
+status: open
+breaks_if: >-
+  The Foundation loses the right to appoint or remove the PBC's directors;
+  its control rights get diluted or converted in a future raise or IPO;
+  Foundation and PBC boards stay effectively the same people with no
+  independent majority; or the Foundation is never seen overruling the PBC
+  on anything material.
+patterns: [mission-to-market, unfalsifiable]
+sources:
+  - title: Built to benefit everyone
+    publisher: OpenAI
+    url: https://openai.com/index/built-to-benefit-everyone/
+    date: 2025-10-28
+    type: primary
+  - title: Our Structure
+    publisher: OpenAI
+    url: https://openai.com/our-structure/
+    type: primary

@@ -1,0 +1,50 @@
+title: 'OpenAI signs a classified Pentagon deal the day Anthropic is blacklisted; Altman later calls it "sloppy"'
+date: 2026-02-27
+org: openai
+type: did
+kind: action
+who: [openai, sam-altman, caitlin-kalinowski]
+summary: >-
+  On the day the Pentagon designated Anthropic a supply-chain risk for
+  refusing to drop limits on surveillance and autonomous-weapons use, OpenAI
+  announced an agreement to deploy its models in classified environments.
+  The contract let the Pentagon use the models "for all lawful purposes,"
+  pointing to existing laws and policies that can change. OpenAI said it
+  also contained red lines. After backlash, Altman said the deal "looked
+  opportunistic and sloppy," and on March 2 OpenAI amended it to explicitly
+  prohibit domestic surveillance of U.S. persons. On March 7, robotics and
+  hardware lead Caitlin Kalinowski resigned, saying surveillance without
+  judicial oversight and lethal autonomy without human authorization were
+  "lines that deserved more deliberation than they got."
+related: [2026-02-27-anthropic-pentagon-red-lines]
+patterns: [ship-then-patch, sorry-after-caught, principles-with-a-price]
+sources:
+  - title: OpenAI reaches agreement with Pentagon to use AI models
+    publisher: Axios
+    url: https://axios.com/2026/02/27/pentagon-openai-safety-red-lines-anthropic
+    date: 2026-02-27
+    type: reporting
+  - title: OpenAI reveals more details about its agreement with the Pentagon
+    publisher: TechCrunch
+    url: https://techcrunch.com/2026/03/01/openai-shares-more-details-about-its-agreement-with-the-pentagon/
+    date: 2026-03-01
+    type: reporting
+  - title: OpenAI's Altman admits defense deal 'looked opportunistic and sloppy' amid backlash
+    publisher: CNBC
+    url: https://www.cnbc.com/2026/03/03/openai-sam-altman-pentagon-deal-amended-surveillance-limits.html
+    date: 2026-03-03
+    type: reporting
+  - title: OpenAI Blurs Its Mass Surveillance Red Line With New Pentagon Contract
+    publisher: Forbes
+    url: https://www.forbes.com/sites/thomasbrewster/2026/03/03/openai-anthropic-ai-mass-surveillance-pentagon-red-lines/
+    date: 2026-03-03
+    type: reporting
+  - title: 'OpenAI on Surveillance and Autonomous Killings: You''re Going to Have to Trust Us'
+    publisher: The Intercept
+    url: https://theintercept.com/2026/03/08/openai-anthropic-military-contract-ethics-surveillance/
+    date: 2026-03-08
+    type: reporting
+note: >-
+  Sign first and add the surveillance ban after the outcry. The red lines
+  were the same ones a competitor had just been punished for holding, and
+  whether they hold depends on what "lawful" means next year.

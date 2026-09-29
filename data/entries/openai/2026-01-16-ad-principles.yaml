@@ -1,0 +1,35 @@
+title: 'Standing promise: "Ads do not influence the answers ChatGPT gives you"'
+date: 2026-01-16
+org: openai
+type: said
+kind: commitment
+who: [openai]
+venue: Blog post, "Our approach to advertising and expanding access to ChatGPT"
+quote: Ads do not influence the answers ChatGPT gives you.
+summary: >-
+  Alongside the ads announcement, OpenAI listed principles: answers are
+  independent of ads; ads are separate and clearly labeled; conversations
+  stay private from advertisers and data is never sold to them; users can
+  turn off ad personalization; and OpenAI does not optimize for time spent
+  in ChatGPT.
+concreteness: measurable
+status: open
+breaks_if: >-
+  Sponsored content shows up inside answers instead of being separated and
+  labeled; recommendations in answers track advertiser relationships;
+  conversation content reaches advertisers; or engagement and time-spent
+  targets show up in product or investor materials.
+patterns: [unfalsifiable]
+sources:
+  - title: Our approach to advertising and expanding access to ChatGPT
+    publisher: OpenAI
+    url: https://openai.com/index/our-approach-to-advertising-and-expanding-access/
+    date: 2026-01-16
+    type: primary
+  - title: Our approach to advertising and expanding access to ChatGPT (notes)
+    publisher: Simon Willison
+    url: https://simonwillison.net/2026/Jan/16/chatgpt-ads/
+    date: 2026-01-16
+    type: analysis
+note: >-
+  This one is measurable from outside, so it's worth watching closely.

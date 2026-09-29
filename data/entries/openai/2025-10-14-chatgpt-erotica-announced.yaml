@@ -1,0 +1,44 @@
+title: Altman announces erotica for verified adults, to "treat adult users like adults"
+date: 2025-10-14
+org: openai
+type: did
+kind: reversal
+who: [sam-altman, openai]
+venue: Post on X
+quote: treat adult users like adults
+summary: >-
+  Altman said ChatGPT would relax restrictions, first letting the bot respond
+  "in a very human-like way," and then in December letting verified adults
+  generate erotica as age-gating rolled out.
+contradicts: [2025-08-altman-sex-bot-avatar]
+patterns: [principles-with-a-price]
+sources:
+  - title: '''Erotica'' coming to ChatGPT this year, says OpenAI CEO Sam Altman'
+    publisher: CNBC
+    url: https://www.cnbc.com/2025/10/15/erotica-coming-to-chatgpt-this-year-says-openai-ceo-sam-altman.html
+    date: 2025-10-15
+    type: reporting
+  - title: OpenAI's Sam Altman says ChatGPT will add erotica for adult users
+    publisher: Axios
+    url: https://www.axios.com/2025/10/14/openai-chatgpt-erotica-mental-health
+    date: 2025-10-14
+    type: reporting
+response: >-
+  OpenAI said it had mitigated serious mental-health issues and built new
+  tools, so it could safely relax restrictions in most cases.
+updates:
+  - date: 2026-03-06
+    text: >-
+      After missing December and then a first-quarter target, OpenAI delayed
+      "adult mode" again. Later reports described the feature as paused
+      indefinitely after concerns from staff, advisers and investors.
+    sources:
+      - title: ChatGPT "adult mode" and erotica delayed, OpenAI says
+        publisher: Axios
+        url: https://www.axios.com/2026/03/06/openai-delays-chatgpt-adult-mode
+        date: 2026-03-06
+        type: reporting
+note: >-
+  The stated principle flipped in two months. The product hadn't shipped as
+  of the last update, but the reversal of the stated principle is the
+  receipt.

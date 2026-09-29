@@ -1,0 +1,34 @@
+title: 'Series C deck: a "frontier model" 10x more capable, because leaders will be "too far ahead"'
+date: 2023-04
+org: anthropic
+type: did
+kind: disclosure
+who: [anthropic]
+quote: >-
+  We believe that companies that train the best 2025/26 models will be too far
+  ahead in subsequent cycles for anyone to catch up.
+summary: >-
+  TechCrunch obtained Anthropic's fundraising deck, weeks after Core Views
+  was published. It laid out a plan to raise up to $5B over two years and to
+  build "Claude-Next," a "frontier model" meant to be 10 times more capable
+  than today's most powerful AI, at a cost of about $1B over 18 months.
+contradicts: [2023-03-08-core-views-no-capabilities-acceleration]
+patterns: [race-clause]
+sources:
+  - title: Anthropic's Series C pitch deck shows the AI startup aims to raise up to $5B (TechCrunch, via Techmeme)
+    publisher: TechCrunch
+    url: https://www.techmeme.com/230407/p10
+    date: 2023-04-07
+    type: reporting
+  - title: Inside Google-Backed Anthropic's $5 Billion, 4-Year Plan To Take on OpenAI
+    publisher: Slashdot
+    url: https://tech.slashdot.org/story/23/04/07/129232/inside-google-backed-anthropics-5b-4-year-plan-to-take-on-openai
+    date: 2023-04-07
+    type: reporting
+response: >-
+  Anthropic has argued that safety research needs access to frontier models,
+  and that a safety-focused lab at the frontier can pull industry norms upward
+  (a "race to the top").
+note: >-
+  The public essay said "don't accelerate." The investor deck said "be the
+  one nobody can catch." That was a month apart.

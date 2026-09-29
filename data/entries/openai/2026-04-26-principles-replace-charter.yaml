@@ -1,0 +1,48 @@
+title: OpenAI's new principles drop the 2018 "stop competing" pledge
+date: 2026-04-26
+org: openai
+type: did
+kind: revision
+who: [openai]
+summary: >-
+  OpenAI published five operating principles (democratization, empowerment,
+  universal prosperity, resilience and adaptability), its first rewrite of
+  its founding commitments in eight years. The new text mentions AGI twice,
+  against twelve times in 2018. It shifts from first-person pledges ("we
+  commit") to broader recommendations for the ecosystem, and it drops both
+  the assist-a-rival clause and "Our primary fiduciary duty is to humanity."
+  Reports noted that the 2018 Charter page itself remained online.
+revision:
+  before: >-
+    "…if a value-aligned, safety-conscious project comes close to building AGI
+    before we do, we commit to stop competing with and start assisting this
+    project." / "Our primary fiduciary duty is to humanity."
+  after: >-
+    Five principles, with no assist-a-rival clause and no statement of
+    fiduciary duty to humanity.
+contradicts: [2018-04-09-charter-stop-competing-clause]
+patterns: [race-clause, unfalsifiable]
+sources:
+  - title: OpenAI Publishes 5 Principles For Its AGI Push
+    publisher: Forbes
+    url: https://www.forbes.com/sites/ronschmelzer/2026/04/27/openai-publishes-five-principles-for-its-agi-push/
+    date: 2026-04-27
+    type: reporting
+  - title: OpenAI just changed its principles. Here's what's changing
+    publisher: Euronews
+    url: https://www.euronews.com/next/2026/04/27/openai-just-changed-its-principals-heres-whats-changing
+    date: 2026-04-27
+    type: reporting
+  - title: OpenAI just updated its principles. Here's what changed since the original version, 8 years ago.
+    publisher: Business Insider (via AOL)
+    url: https://www.aol.com/articles/openai-just-updated-principles-heres-041316000.html
+    date: 2026-04-27
+    type: reporting
+  - title: OpenAI revises five core principles, signaling tougher competitive posture and oversight
+    publisher: DIGITIMES
+    url: https://www.digitimes.com/news/a20260429PD210/openai-2018-2026-agi-language.html
+    date: 2026-04-29
+    type: reporting
+note: >-
+  The Charter's one mechanism against racing is gone. Racing wasn't made
+  safer; the pledge was retired.

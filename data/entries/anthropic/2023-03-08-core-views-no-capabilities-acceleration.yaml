@@ -1,0 +1,28 @@
+title: 'Core Views: "we do not wish to advance the rate of AI capabilities progress"'
+date: 2023-03-08
+org: anthropic
+type: said
+kind: principle
+who: [ anthropic ]
+venue: Essay, "Core Views on AI Safety"
+quote: >-
+  We generally don't publish this kind of work because we do not wish to advance
+  the rate of AI capabilities progress.
+summary: >-
+  Anthropic said it does frontier capabilities research only so that it can do
+  safety research on frontier models, and that it holds that work back to avoid
+  speeding up the field.
+concreteness: directional
+status: eroded
+patterns: [ race-clause ]
+sources:
+  - title: Core Views on AI Safety
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/core-views-on-ai-safety
+    date: 2023-03-08
+    type: primary
+    snapshot: snapshots/2026-09-29-anthropic.com-5fa46de6
+note: >-
+  Withholding publications is one way to avoid accelerating. Shipping the best
+  model on the market is another question, and this principle never addressed
+  it.

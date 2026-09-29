@@ -1,0 +1,32 @@
+title: '"her": the Sky voice and Scarlett Johansson'
+date: 2024-05-13
+org: openai
+type: did
+kind: action
+who: [sam-altman, openai]
+venue: Post on X, GPT-4o launch day
+quote: her
+summary: >-
+  On GPT-4o launch day, Altman posted one word, "her," the film in which
+  Scarlett Johansson voices an AI. Johansson said Altman had asked her to
+  voice ChatGPT the previous September and again two days before launch, and
+  that she declined. "Nine months later, my friends, family and the general
+  public all noted how much the newest system named 'Sky' sounded like me."
+  OpenAI paused the Sky voice.
+patterns: [take-first, sorry-after-caught]
+sources:
+  - title: Scarlett Johansson says OpenAI ripped off her voice after she told the company not to use it in software
+    publisher: CNBC
+    url: https://www.cnbc.com/2024/05/20/scarlett-johansson-says-openai-ripped-off-her-voice-.html
+    date: 2024-05-20
+    type: reporting
+  - title: Scarlett Johansson says lawyers got OpenAI to shut down "Her" voice
+    publisher: Axios
+    url: https://www.axios.com/2024/05/20/scarlet-johansson-openai-chatgpt-sam-altman
+    date: 2024-05-20
+    type: reporting
+response: >-
+  OpenAI said Sky was voiced by a different professional actress and was not
+  meant to imitate Johansson. "Out of respect for Ms. Johansson, we have paused
+  using Sky's voice in our products. We are sorry to Ms. Johansson that we
+  didn't communicate better."

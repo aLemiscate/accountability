@@ -1,0 +1,41 @@
+title: 'Preparedness Framework v2: persuasion dropped, a "competitor" clause added'
+date: 2025-04-15
+org: openai
+type: did
+kind: revision
+who: [openai]
+quote: >-
+  If another frontier AI developer releases a high-risk system without
+  comparable safeguards, we may adjust our requirements.
+summary: >-
+  The updated framework dropped persuasion as a tracked risk category
+  (handling it instead through usage policies and the Model Spec), collapsed
+  the risk levels to "High" and "Critical," and added language allowing
+  OpenAI to lower its own requirements if a rival ships a high-risk system
+  without comparable safeguards.
+contradicts: [2018-04-09-charter-stop-competing-clause]
+patterns: [race-clause]
+sources:
+  - title: Our updated Preparedness Framework
+    publisher: OpenAI
+    url: https://openai.com/index/updating-our-preparedness-framework/
+    date: 2025-04-15
+    type: primary
+  - title: Preparedness Framework, Version 2 (PDF)
+    publisher: OpenAI
+    url: https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf
+    date: 2025-04-15
+    type: primary
+  - title: OpenAI says it may adjust its safety requirements if a rival lab releases 'high-risk' AI
+    publisher: TechCrunch
+    url: https://techcrunch.com/2025/04/15/openai-says-it-may-adjust-its-safety-requirements-if-a-rival-lab-releases-high-risk-ai/
+    date: 2025-04-15
+    type: reporting
+response: >-
+  OpenAI said any adjustment would require first confirming the risk
+  landscape had actually changed, acknowledging the change publicly,
+  assessing that it doesn't meaningfully raise overall risk of severe harm,
+  and keeping safeguards more protective than the rival's.
+note: >-
+  In 2018 the answer to a reckless competitor was to stop and help. By 2025
+  it was to match them, with conditions OpenAI grades for itself.

@@ -1,0 +1,163 @@
+# Recurring patterns.
+#
+# A pattern is a shape that shows up more than once, across time or across
+# companies. Every entry can carry one or more pattern ids. The site counts
+# them and uses them for its forecast view.
+#
+#   thesis     what the pattern is, in one or two sentences
+#   tells      early signals that it is happening again
+#   watch_for  what to expect next if the pattern holds. This is analysis,
+#              not a factual claim, and the site labels it that way.
+
+- id: mission-to-market
+  name: Mission → Market
+  thesis: >-
+    A structural promise to stay insulated from profit pressure gets rewritten
+    again and again. Each step is sold as the way to protect the mission.
+  tells:
+    - New corporate entities, "caps", or "control" language announced alongside a funding round.
+    - Benefit framed as philanthropy ("the foundation will fund…") instead of as constraints on the business.
+    - Governance bodies that exist on paper but have not overridden management on anything material.
+  watch_for: >-
+    Check the governance fine print on the next capital raise or IPO. How does
+    the controlling entity keep control after dilution, and who appoints whom?
+
+- id: race-clause
+  name: The Race Clause
+  thesis: >-
+    Safety commitments carry an exit that opens once a competitor moves
+    faster. "Unilateral" restraint turns into something the company can't
+    afford.
+  tells:
+    - Phrases like "if another developer releases…", "unilateral commitments", "stay on the frontier", "competitors are blazing ahead".
+    - A framework revision shortly before or after a major rival launch.
+  watch_for: >-
+    The next framework revision will probably cite rivals or geopolitics to
+    justify loosening a threshold, and it will likely land near a
+    competitive launch.
+
+- id: silent-edit
+  name: Silent Edits
+  thesis: >-
+    Policies and principles get rewritten without a changelog, and the change
+    comes out when a journalist or watcher diffs the page.
+  tells:
+    - A policy page changes with no announcement, or with an announcement that leads with an unrelated framing ("clearer", "more readable").
+    - Old wording is still online somewhere but is no longer called the operative document.
+  watch_for: >-
+    Run the page watcher. Usage policies, charters and safety frameworks are
+    the pages most likely to change quietly.
+
+- id: regulate-us-not-like-that
+  name: Regulate Us (Not Like That)
+  thesis: >-
+    Leaders ask for regulation in general while their companies, executives
+    or allied money fight the specific rules that come forward.
+  tells:
+    - Support for "federal frameworks" paired with opposition to every concrete state bill.
+    - Executives funding political groups that target pro-regulation candidates.
+    - '"Harmonization" comments that drain the enforcement out of a bill.'
+  watch_for: >-
+    Each new binding bill will draw a "we support the goal, but…" letter, and
+    money will flow through groups not formally tied to the company.
+
+- id: pledged-not-resourced
+  name: Pledged, Not Resourced
+  thesis: >-
+    A safety effort gets a headline number or a named team, and then doesn't
+    get the compute, people or time it was promised.
+  tells:
+    - A commitment stated as a share or total with no allocation mechanism or public reporting.
+    - Named teams folded into others ("integrated across research") after leaders leave.
+  watch_for: >-
+    Ask for the ledger: how much compute, headcount and testing time did the
+    safety commitment actually get, and who can check?
+
+- id: sorry-after-caught
+  name: Sorry After Caught
+  thesis: >-
+    Leadership says it didn't know, or apologizes, only after documents or
+    reporting surface, and the fix comes after the exposure, not before.
+  tells:
+    - '"I did not know this was happening and I should have."'
+    - '"We didn''t communicate better."'
+    - Corrections that follow a news cycle within 24–72 hours.
+  watch_for: >-
+    The next controversy will follow the same order: denial or minimization,
+    then documents, then apology and a policy patch.
+
+- id: ship-then-patch
+  name: Ship Now, Guardrails Later
+  thesis: >-
+    Products and deals launch with known gaps, and safeguards are added after
+    public backlash, not before launch.
+  tells:
+    - Launch-day "we'll give you more control soon."
+    - Contract or policy amendments within days of a signing or release.
+  watch_for: >-
+    Expect launch-then-amend cycles on the next media, agent or government
+    product.
+
+- id: take-first
+  name: Take First, Settle Later
+  thesis: >-
+    Other people's work, likeness or data gets used first. Permission,
+    licensing and payment come later, if they come at all.
+  tells:
+    - Opt-out regimes for copyrighted material.
+    - Training data sourced from shadow libraries or scraped against terms.
+    - Settlements framed as "resolving legacy claims."
+  watch_for: >-
+    New modalities (video, voice, agents) will repeat the cycle. Watch the
+    launch terms for opt-out language.
+
+- id: principles-with-a-price
+  name: Principles With a Price
+  thesis: >-
+    A stated value turns negotiable once the money, the contract or the
+    growth is big enough.
+  tells:
+    - '"Unfortunately…" memos explaining why a principle is impractical.'
+    - Categories quietly removed from usage policies before a new market opens.
+  watch_for: >-
+    The largest pending deals (sovereign funds, defense, advertising) are
+    where the next stated value will get priced.
+
+- id: pressure-on-critics
+  name: Pressure on Critics
+  thesis: >-
+    Dissent gets handled with legal and financial pressure (restrictive
+    NDAs, equity threats, subpoenas) while the company publicly welcomes
+    scrutiny.
+  tells:
+    - Exit agreements with non-disparagement terms tied to vested equity.
+    - Discovery requests aimed at advocacy groups and individual critics.
+  watch_for: >-
+    Look for litigation discovery aimed at critics and for exit-paperwork
+    terms reported by departing staff.
+
+- id: unfalsifiable
+  name: Unfalsifiable by Design
+  thesis: >-
+    Commitments are written so they can't clearly be broken: goals graded by
+    the company itself, contracts nobody outside can read, aspirations with
+    no metric.
+  tells:
+    - '"Goals we will openly grade our progress towards."'
+    - Promises that point to non-public contracts or future laws.
+    - Mission statements with no measurable test ("benefit all of humanity").
+  watch_for: >-
+    For each new promise, write down right away what would count as breaking
+    it (the `breaks_if` field). If nobody can, that's the finding.
+
+- id: consent-by-default
+  name: Consent by Default
+  thesis: >-
+    Consequential changes ship as defaults people have to find and refuse.
+    Silence gets treated as a yes.
+  tells:
+    - Pre-checked toggles in update pop-ups.
+    - '"You can opt out at any time" in place of "we asked first."'
+  watch_for: >-
+    The next data, memory or advertising-personalization change will probably
+    arrive as an opt-out default.

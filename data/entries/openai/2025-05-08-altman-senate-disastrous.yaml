@@ -1,0 +1,28 @@
+title: Two years later, Altman calls pre-approval of AI "disastrous"
+date: 2025-05-08
+org: openai
+type: did
+kind: reversal
+who: [sam-altman]
+venue: Testimony, U.S. Senate Commerce Committee hearing on AI competitiveness
+summary: >-
+  Altman repeatedly pushed back on specific calls for regulation and said
+  that requiring government approval before releasing AI systems would be
+  "disastrous" for America's lead in AI. The Washington Post called it a
+  striking reversal of his 2023 testimony.
+contradicts: [2023-05-16-altman-senate-licensing-agency]
+patterns: [regulate-us-not-like-that]
+sources:
+  - title: OpenAI CEO Sam Altman's Senate testimony shows industry shift on regulation
+    publisher: The Washington Post
+    url: https://www.washingtonpost.com/technology/2025/05/08/altman-congress-openai-regulation/
+    date: 2025-05-08
+    type: reporting
+  - title: 'Transcript: Sam Altman Testifies At US Senate Hearing On AI Competitiveness'
+    publisher: TechPolicy.Press
+    url: https://www.techpolicy.press/transcript-sam-altman-testifies-at-us-senate-hearing-on-ai-competitiveness/
+    date: 2025-05-08
+    type: primary
+note: >-
+  In 2023, licensing was his number-one recommendation. By 2025,
+  pre-approval, the core of licensing, was "disastrous."
