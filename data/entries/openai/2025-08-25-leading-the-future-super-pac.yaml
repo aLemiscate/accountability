@@ -1,0 +1,36 @@
+title: OpenAI's president helps bankroll a $100M+ super PAC against strict AI rules
+date: 2025-08-25
+org: openai
+type: did
+kind: action
+who: [greg-brockman]
+summary: >-
+  Andreessen Horowitz and OpenAI president Greg Brockman were among the
+  backers of Leading the Future, a pro-AI super PAC network modeled on the
+  crypto industry's Fairshake. It aims to defeat candidates who back the
+  strictest AI rules and to push a national framework that would preempt
+  state laws. Contributions reported for 2026 include $25M from Greg and Anna
+  Brockman. By one compilation of filings, the network spent about $8M
+  against New York Assemblymember Alex Bores, sponsor of the state's RAISE Act.
+contradicts: [2023-05-16-altman-senate-licensing-agency]
+patterns: [regulate-us-not-like-that]
+sources:
+  - title: a16z, OpenAI's Greg Brockman, and others launch Leading the Future, a pro-AI super PAC network with $100M+ (WSJ, via Techmeme)
+    publisher: The Wall Street Journal
+    url: https://www.techmeme.com/250825/p11
+    date: 2025-08-25
+    type: reporting
+  - title: Why Andreessen Horowitz and This OpenAI Co-Founder Are Launching AI-Focused Super PACs
+    publisher: Inc.
+    url: https://www.inc.com/sam-blum/why-andreessen-horowitz-and-this-openai-co-founder-are-launching-ai-focused-super-pacs/91230947
+    type: reporting
+  - title: Leading the Future
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/Leading_the_Future
+    type: analysis
+response: >-
+  The contributions are Brockman's personal money, not OpenAI corporate funds.
+note: >-
+  "Regulate us" from the CEO, and money to defeat the people writing the
+  regulation from the president. Keep the corporate and personal lines
+  clear, and keep both in view.

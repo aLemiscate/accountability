@@ -1,0 +1,90 @@
+# Who appears in the record.
+#
+# Scope rule (see METHODOLOGY.md): only organizations and people speaking in a
+# public or official capacity: executives, founders, board members, and
+# staff who publicly speak about the company's mission, safety or policy.
+# No private individuals, private accounts, family members or personal lives.
+#
+#   kind   org | person | body
+#   basis  why this person is in scope (executive, founder, board, spokesperson,
+#          researcher-public, former-staff-witness)
+
+- id: openai
+  kind: org
+  name: OpenAI
+
+- id: anthropic
+  kind: org
+  name: Anthropic
+
+# ── OpenAI ────────────────────────────────────────────────────────────────
+- id: sam-altman
+  kind: person
+  name: Sam Altman
+  org: openai
+  role: CEO and co-founder, OpenAI
+  basis: executive
+
+- id: greg-brockman
+  kind: person
+  name: Greg Brockman
+  org: openai
+  role: President and co-founder, OpenAI
+  basis: executive
+
+- id: jason-kwon
+  kind: person
+  name: Jason Kwon
+  org: openai
+  role: Chief Strategy Officer, OpenAI
+  basis: executive
+
+- id: bret-taylor
+  kind: person
+  name: Bret Taylor
+  org: openai
+  role: Board Chair, OpenAI
+  basis: board
+
+- id: openai-board-2023
+  kind: body
+  name: OpenAI board of directors (Nov 2023)
+  org: openai
+  role: Nonprofit board that removed and then reinstated the CEO
+  basis: board
+
+- id: ilya-sutskever
+  kind: person
+  name: Ilya Sutskever
+  org: openai
+  role: Co-founder and former Chief Scientist, OpenAI; Superalignment co-lead
+  basis: founder
+
+- id: jan-leike
+  kind: person
+  name: Jan Leike
+  org: openai
+  role: Former Head of Alignment and Superalignment co-lead, OpenAI
+  basis: former-staff-witness
+
+- id: caitlin-kalinowski
+  kind: person
+  name: Caitlin Kalinowski
+  org: openai
+  role: Former lead of robotics and consumer hardware, OpenAI
+  basis: former-staff-witness
+
+# ── Anthropic ─────────────────────────────────────────────────────────────
+- id: dario-amodei
+  kind: person
+  name: Dario Amodei
+  org: anthropic
+  role: CEO and co-founder, Anthropic
+  basis: executive
+
+- id: jared-kaplan
+  kind: person
+  name: Jared Kaplan
+  org: anthropic
+  role: Chief Science Officer and co-founder, Anthropic
+  basis: executive

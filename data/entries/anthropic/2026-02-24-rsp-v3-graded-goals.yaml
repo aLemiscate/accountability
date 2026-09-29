@@ -1,0 +1,32 @@
+title: 'Standing promise: "public goals that we will openly grade our progress
+  towards"'
+date: 2026-02-24
+org: anthropic
+type: said
+kind: commitment
+who: [ anthropic ]
+venue: Responsible Scaling Policy v3 announcement
+quote: >-
+  Rather than being hard commitments, these are public goals that we will openly
+  grade our progress towards.
+summary: >-
+  In place of if-then pauses, Anthropic committed to publish Frontier Safety
+  Roadmaps with detailed safety goals and Risk Reports that quantify risk across
+  deployed models, and to grade itself in public.
+concreteness: aspirational
+status: open
+breaks_if: >-
+  Roadmap goals are missed without a public grade; Risk Reports don't appear on
+  the stated schedule; or goals are quietly rewritten between versions (compare
+  the watched RSP page).
+patterns: [ unfalsifiable ]
+sources:
+  - title: Responsible Scaling Policy v3
+    publisher: Anthropic
+    url: https://anthropic.com/news/responsible-scaling-policy-v3
+    date: 2026-02-24
+    type: primary
+    snapshot: snapshots/2026-09-29-anthropic.com-0a9c389f
+note: >-
+  The company sets the goals and grades them. The check is whether the grades
+  are ever failing ones.

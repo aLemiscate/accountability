@@ -1,0 +1,40 @@
+title: 'OpenAI''s board removes Altman: "not consistently candid in his communications"'
+date: 2023-11-17
+org: openai
+type: did
+kind: disclosure
+who: [openai-board-2023, sam-altman]
+quote: >-
+  not consistently candid in his communications with the board, hindering its
+  ability to exercise its responsibilities
+summary: >-
+  The nonprofit board, the body meant to keep the mission above commercial
+  pressure, removed Altman as CEO. Within days, after most staff threatened to
+  quit and Microsoft offered to hire them, Altman was reinstated and most of
+  the directors who removed him left the board.
+patterns: [mission-to-market]
+related: [2015-12-11-founded-as-nonprofit]
+sources:
+  - title: Sam Altman leaving OpenAI after board says he was 'not consistently candid in his communications'
+    publisher: GeekWire
+    url: https://www.geekwire.com/2023/sam-altman-leaving-openai-after-board-says-he-was-not-consistently-candid-in-his-communications/
+    date: 2023-11-17
+    type: reporting
+  - title: Sam Altman leaving OpenAI, with its board saying it "no longer has confidence" in his leadership
+    publisher: CBS News
+    url: https://www.cbsnews.com/news/openai-sam-altman-ousted-board-no-confidence-mira-murati/
+    date: 2023-11-17
+    type: reporting
+  - title: Review completed & Altman, Brockman to continue to lead OpenAI
+    publisher: OpenAI
+    url: https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai/
+    date: 2024-03-08
+    type: primary
+response: >-
+  A review by WilmerHale, commissioned by the reconstituted board, found that
+  the prior board acted within its broad discretion to remove Altman, but that
+  his conduct did not mandate removal. The full report was not published.
+note: >-
+  The governance mechanism was used once, and it didn't hold. Mark this as
+  the moment "the nonprofit controls the company" became a claim to verify
+  instead of a fact to assume.

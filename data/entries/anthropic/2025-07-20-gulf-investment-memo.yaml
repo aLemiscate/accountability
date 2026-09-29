@@ -1,0 +1,37 @@
+title: 'Leaked memo: "No bad person should ever benefit from our success" is hard to run a business on'
+date: 2025-07-20
+org: anthropic
+type: did
+kind: disclosure
+who: [dario-amodei]
+venue: Internal Slack memo to staff, reported by Wired
+quote: >-
+  Unfortunately, I think 'No bad person should ever benefit from our success'
+  is a pretty difficult principle to run a business on.
+summary: >-
+  Amodei told staff Anthropic would seek investment from the UAE and Qatar.
+  He called the chance of enriching "dictators" "a real downside," and argued
+  that there is "a truly giant amount of capital in the Middle East" and that
+  "without it, it is substantially harder to stay on the frontier."
+contradicts: [2024-10-machines-of-loving-grace]
+patterns: [principles-with-a-price, race-clause]
+sources:
+  - title: Leaked memo — Dario Amodei told staff Anthropic plans to seek UAE and Qatar funding (Wired, via Techmeme)
+    publisher: Wired
+    url: https://www.techmeme.com/250721/p31
+    date: 2025-07-21
+    type: reporting
+  - title: Anthropic to seek Gulf state investments, according to CEO's leaked memo
+    publisher: DatacenterDynamics
+    url: https://www.datacenterdynamics.com/en/news/anthropic-to-seek-gulf-state-investments-according-to-ceos-leaked-memo/
+    date: 2025-07-22
+    type: reporting
+response: >-
+  In the memo, Amodei limited the change to "narrowly scoped, purely
+  financial" investment with no governance rights, and said serving the
+  region commercially was "a pure positive as long as we don't build data
+  centers there and as long as we enforce our [acceptable use policy]."
+note: >-
+  To be fair, the memo is candid about the trade-off. But the justification
+  is the race: stay on the frontier. That's the same exit the RSP rewrite
+  used seven months later.

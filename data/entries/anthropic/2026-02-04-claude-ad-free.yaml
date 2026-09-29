@@ -1,0 +1,44 @@
+title: 'Standing promise: "Claude will remain ad-free"'
+date: 2026-02-04
+org: anthropic
+type: said
+kind: commitment
+who: [ anthropic ]
+venue: Blog post, "Claude is a space to think," plus a Super Bowl campaign
+quote: >-
+  Claude will remain ad-free. … There are many good places for advertising. A
+  conversation with Claude is not one of them.
+summary: >-
+  Anthropic promised no ads or sponsored links next to conversations and no
+  advertiser influence on responses, and launched a Super Bowl campaign ("Ads
+  are coming to AI. But not to Claude.") aimed at ChatGPT's new ads. The same
+  post includes an exit: "Should we need to revisit this approach, we'll be
+  transparent about our reasons for doing so."
+concreteness: measurable
+status: open
+breaks_if: >-
+  Sponsored links, product placement or affiliate recommendations in Claude
+  responses or next to conversations; ads in Claude apps; or an announcement
+  that "revisits" the approach.
+patterns: []
+sources:
+  - title: Claude is a space to think
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/claude-is-a-space-to-think
+    date: 2026-02-04
+    type: primary
+    snapshot: snapshots/2026-09-29-anthropic.com-091b61ca
+  - title: Anthropic takes aim at OpenAI's ad push in Super Bowl commercial
+    publisher: CNBC
+    url: https://www.cnbc.com/2026/02/04/anthropic-no-ads-claude-chatbot-openai-chatgpt.html
+    date: 2026-02-04
+    type: reporting
+  - title: Anthropic pledges ad-free Claude, with a Super Bowl shot at ChatGPT
+    publisher: Axios
+    url: https://www.axios.com/2026/02/04/anthropic-ads-openai-super-bowl
+    date: 2026-02-04
+    type: reporting
+note: >-
+  This is a clear, measurable promise, and a marketing campaign. The exit clause
+  means it's a promise to explain a reversal, not a promise never to reverse.
+  OpenAI's "last resort" took twenty months.

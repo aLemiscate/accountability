@@ -1,0 +1,34 @@
+title: 'Charter: if a safety-conscious rival nears AGI first, "we commit to stop competing"'
+date: 2018-04-09
+org: openai
+type: said
+kind: commitment
+who: [openai]
+venue: OpenAI Charter
+quote: >-
+  We are concerned about late-stage AGI development becoming a competitive race
+  without time for adequate safety precautions. Therefore, if a value-aligned,
+  safety-conscious project comes close to building AGI before we do, we commit
+  to stop competing with and start assisting this project.
+summary: >-
+  The Charter named racing as a danger and committed OpenAI to step aside for
+  a safer project that got close first. It gave "a better-than-even chance of
+  success in the next two years" as a typical trigger. It also said: "Our
+  primary fiduciary duty is to humanity."
+concreteness: conditional
+status: reversed
+patterns: [race-clause, unfalsifiable]
+sources:
+  - title: OpenAI Charter
+    publisher: OpenAI
+    url: https://openai.com/charter/
+    date: 2018-04-09
+    type: primary
+  - title: Commitments by several companies
+    publisher: AI Lab Watch
+    url: https://ailabwatch.org/resources/commitments
+    type: analysis
+note: >-
+  This was the only Charter commitment with a trigger in it, and nothing said
+  who decides when the trigger has fired. OpenAI's later conduct made racing
+  the business model, and the 2026 principles dropped the clause.

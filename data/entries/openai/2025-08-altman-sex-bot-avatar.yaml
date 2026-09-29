@@ -1,0 +1,27 @@
+title: 'Altman''s example of restraint: "we haven''t put a sex bot avatar in ChatGPT yet"'
+date: 2025-08
+org: openai
+type: said
+kind: claim
+who: [sam-altman]
+venue: Interview with Cleo Abram
+quote: Well, we haven't put a sex bot avatar in ChatGPT yet
+summary: >-
+  Asked for an example of a decision that was best for the world but not for
+  winning the AI race, Altman pointed to not building engagement-maximizing
+  companion features.
+concreteness: directional
+status: reversed
+patterns: [principles-with-a-price]
+sources:
+  - title: Two Months Ago, Sam Altman Was Boasting That OpenAI Didn't Have to Do Sexbots. Now It's Doing Sexbots
+    publisher: Futurism
+    url: https://futurism.com/future-society/sam-altman-adult-ai-reversal
+    date: 2025-10
+    type: reporting
+  - title: 'OpenAI Catches Up to AI Market Reality: People Are Horny'
+    publisher: 404 Media
+    url: https://www.404media.co/openai-sam-altman-interview-chatgpt-erotica/
+    type: reporting
+note: >-
+  He offered it as proof of restraint. Its shelf life was about two months.

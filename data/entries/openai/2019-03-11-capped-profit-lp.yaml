@@ -1,0 +1,30 @@
+title: OpenAI creates a for-profit arm with investor returns "capped" at 100x
+date: 2019-03-11
+org: openai
+type: did
+kind: revision
+who: [openai]
+summary: >-
+  OpenAI created OpenAI LP, a "capped-profit" company controlled by the
+  nonprofit. First-round investors' returns were capped at 100x their
+  investment, and anything above the cap would go to the nonprofit. OpenAI
+  said it needed the structure to raise capital for compute and to recruit.
+contradicts: [2015-12-11-founded-as-nonprofit]
+patterns: [mission-to-market]
+sources:
+  - title: OpenAI LP
+    publisher: OpenAI
+    url: https://openai.com/index/openai-lp/
+    date: 2019-03-11
+    type: primary
+  - title: OpenAI shifts from nonprofit to 'capped-profit' to attract capital
+    publisher: TechCrunch
+    url: https://techcrunch.com/2019/03/11/openai-shifts-from-nonprofit-to-capped-profit-to-attract-capital/
+    date: 2019-03-11
+    type: reporting
+response: >-
+  OpenAI said the capped structure let it raise the capital it needed while
+  the nonprofit and its mission stayed in control.
+note: >-
+  Under a 100x cap, a $10M check can return $1B before the cap applies. The
+  word "capped" did a lot of work in that announcement.

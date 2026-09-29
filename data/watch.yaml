@@ -1,0 +1,40 @@
+# Pages the watcher re-reads on a schedule (npm run watch-pages, or the
+# weekly GitHub Action). When the visible text changes, it saves the new text
+# and a diff under watch/<id>/ so a silent edit becomes a dated record.
+#
+# Add the pages where commitments live: charters, usage policies, safety
+# frameworks, privacy terms, and any "we will never…" post.
+
+- id: openai-charter
+  org: openai
+  url: https://openai.com/charter/
+- id: openai-usage-policies
+  org: openai
+  url: https://openai.com/policies/usage-policies/
+- id: openai-our-structure
+  org: openai
+  url: https://openai.com/our-structure/
+- id: openai-model-spec
+  org: openai
+  url: https://model-spec.openai.com/
+- id: openai-ads-principles
+  org: openai
+  url: https://openai.com/index/our-approach-to-advertising-and-expanding-access/
+- id: anthropic-rsp
+  org: anthropic
+  url: https://www.anthropic.com/responsible-scaling-policy
+- id: anthropic-usage-policy
+  org: anthropic
+  url: https://www.anthropic.com/legal/aup
+- id: anthropic-consumer-terms
+  org: anthropic
+  url: https://www.anthropic.com/legal/consumer-terms
+- id: anthropic-privacy
+  org: anthropic
+  url: https://www.anthropic.com/legal/privacy
+- id: anthropic-ad-free
+  org: anthropic
+  url: https://www.anthropic.com/news/claude-is-a-space-to-think
+- id: anthropic-core-views
+  org: anthropic
+  url: https://www.anthropic.com/news/core-views-on-ai-safety

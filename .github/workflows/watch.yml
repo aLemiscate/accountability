@@ -1,0 +1,68 @@
+# Weekly: re-read the watched policy pages, check every cited source, archive
+# any source that has no Wayback copy yet, commit the results, and open an
+# issue when a watched page has changed.
+#
+# Optional repository secrets IA_ACCESS_KEY and IA_SECRET_KEY (free at
+# https://archive.org/account/s3.php) enable automatic archiving.
+name: Watch
+
+on:
+  schedule:
+    - cron: '17 6 * * 1'  # Mondays, 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    env:
+      IA_ACCESS_KEY: ${{ secrets.IA_ACCESS_KEY }}
+      IA_SECRET_KEY: ${{ secrets.IA_SECRET_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+
+      - name: Watch policy pages
+        id: watch
+        run: npm run watch-pages
+
+      - name: Check sources
+        run: npm run check-sources
+
+      - name: Archive sources that have no archive link
+        if: env.IA_ACCESS_KEY != ''
+        run: npm run capture -- --archive-missing --limit 25
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add watch reports data/entries
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "Watch: $(date -u +%F) page checks, source health, archives"
+            git push
+          fi
+
+      - name: Open an issue for changed pages
+        if: steps.watch.outputs.changed != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CHANGED: ${{ steps.watch.outputs.changed }}
+        run: |
+          day=$(date -u +%F)
+          body="The weekly watcher found edits to watched pages on ${day}."$'\n\n'
+          for id in ${CHANGED//,/ }; do
+            body+="- **${id}**: [diff](${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/blob/HEAD/watch/${id}/${day}.diff)"$'\n'
+          done
+          body+=$'\n'"If a change weakens or removes a commitment, add a \`did\` entry with a \`revision\` block (npm run new)."
+          gh issue create --title "Watched page changed: ${CHANGED//,/, }" --body "$body"
