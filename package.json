@@ -15,7 +15,8 @@
     "new": "node scripts/new-entry.mjs",
     "check-sources": "node scripts/check-sources.mjs",
     "watch-pages": "node scripts/watch-pages.mjs",
-    "test": "node --test tests/*.test.mjs"
+    "test": "node --test tests/*.test.mjs",
+    "find-posts": "node scripts/find-posts.mjs"
   },
   "dependencies": {
     "diff": "^8.0.2",

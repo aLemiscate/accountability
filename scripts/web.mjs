@@ -199,7 +199,11 @@ export async function renderPage(url, { screenshot = true } = {}) {
     await page.waitForTimeout(1500);
     const text = await page.evaluate(() => (document.querySelector('main') || document.body)?.innerText || '');
     const title = await page.title();
-    const shot = screenshot ? await page.screenshot({ fullPage: true, type: 'jpeg', quality: 70 }).catch(() => null) : null;
+    // Full page, capped at 12,000px tall so long articles stay a reasonable size in git.
+    const height = await page.evaluate(() => document.documentElement.scrollHeight).catch(() => 900);
+    const shot = screenshot
+      ? await page.screenshot({ fullPage: true, type: 'jpeg', quality: 62, clip: { x: 0, y: 0, width: 1280, height: Math.min(Math.max(height, 900), 12000) } }).catch(() => null)
+      : null;
     return { text: normalizeText(text), title, screenshot: shot, status: response?.status() ?? null };
   } finally {
     await context.close();

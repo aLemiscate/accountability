@@ -1,13 +1,16 @@
 {
   "url": "https://anthropic.com/news/responsible-scaling-policy-v3",
-  "captured_at": "2026-09-29T20:40:46.905Z",
+  "captured_at": "2026-09-29T21:00:29.937Z",
   "tool": "said-did capture",
   "files": {
-    "page.html": "af55450b47b7a202102141c668f52a6d5d33805e63a53c0e8e085c8bf01b1a1e",
-    "page.txt": "02c71519109ae47a1e227fe996b44e8ac17d62c727f0452713fb196facbabbb5"
+    "page.html": "0ce38365406995508849529c8f695f978847ffa79657b00b06140d86c4a15dcc",
+    "page.txt": "02c71519109ae47a1e227fe996b44e8ac17d62c727f0452713fb196facbabbb5",
+    "screenshot.jpg": "ca9cbb0a674900ed7972c50242c5381f7a6adb26d1354e4b3e110db3e7513c90",
+    "rendered.txt": "90159adae0687b1825122de6df2ef85cf6d2c4ed4a01826fadf39199e6c1ef4e"
   },
   "http_status": 200,
   "final_url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
   "content_type": "text/html; charset=utf-8",
-  "title": "Responsible Scaling Policy Version 3.0 \\ Anthropic"
+  "title": "Responsible Scaling Policy Version 3.0 \\ Anthropic",
+  "rendered_status": 200
 }

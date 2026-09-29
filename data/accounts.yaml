@@ -1,0 +1,24 @@
+# Public accounts of in-scope people and organizations, for `npm run find-posts`.
+# Every account must belong to an actor in actors.yaml (same scope rules:
+# public or official role only, no private accounts).
+#
+#   actor     id from actors.yaml
+#   x         X/Twitter handle, without @
+#   bluesky   Bluesky handle (e.g. name.bsky.social), if they post there
+#
+# Confirm a handle belongs to the person before relying on results.
+
+- actor: openai
+  x: OpenAI
+- actor: sam-altman
+  x: sama
+- actor: greg-brockman
+  x: gdb
+- actor: ilya-sutskever
+  x: ilyasut
+- actor: jan-leike
+  x: janleike
+- actor: anthropic
+  x: AnthropicAI
+- actor: jack-clark
+  x: jackclarkSF

@@ -1,13 +1,16 @@
 {
   "url": "https://www.anthropic.com/news/updates-to-our-consumer-terms",
-  "captured_at": "2026-09-29T20:40:45.802Z",
+  "captured_at": "2026-09-29T21:00:24.689Z",
   "tool": "said-did capture",
   "files": {
-    "page.html": "49e89a117fbb03e6896a82ed6c4daf735485d9a3a4c05da2a04531b23985c8d0",
-    "page.txt": "8913bacf08e7d1a0fc480b7f188a48cf0f1db12ede7743a9f50e41df1ae408c3"
+    "page.html": "9f475d6f2bde465b9a64e8f0ac0be26080fed77bc80f2e2639f7c80841fce1c4",
+    "page.txt": "8913bacf08e7d1a0fc480b7f188a48cf0f1db12ede7743a9f50e41df1ae408c3",
+    "screenshot.jpg": "b8d8aae0f56cf80b15002e9b58f107af9b79ce5295354fb10c27f6ae32c4708b",
+    "rendered.txt": "da80e848c03aff11e1fda32ad4e84a363e2f41bbcf2ed4c89d58a2a43fc52355"
   },
   "http_status": 200,
   "final_url": "https://www.anthropic.com/news/updates-to-our-consumer-terms",
   "content_type": "text/html; charset=utf-8",
-  "title": "Updates to Consumer Terms and Privacy Policy \\ Anthropic"
+  "title": "Updates to Consumer Terms and Privacy Policy \\ Anthropic",
+  "rendered_status": 200
 }

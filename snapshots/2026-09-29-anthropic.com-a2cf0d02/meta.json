@@ -1,13 +1,16 @@
 {
   "url": "https://www.anthropic.com/news/claude-3-family",
-  "captured_at": "2026-09-29T20:40:45.347Z",
+  "captured_at": "2026-09-29T21:00:18.940Z",
   "tool": "said-did capture",
   "files": {
-    "page.html": "3d5b723cd6a91f52bbf646350f9192662cd45be17b6469d86fee2bc72eb017c8",
-    "page.txt": "a89b650ae1285d267e3112079e9ecb51ba0bf43edf9a4c64bda52c2783eb6dc3"
+    "page.html": "f5d5fc1d5dd2c220861d44f5f91dfb1861a22bf180d0a434fa913a1e19d62802",
+    "page.txt": "a89b650ae1285d267e3112079e9ecb51ba0bf43edf9a4c64bda52c2783eb6dc3",
+    "screenshot.jpg": "dbb80ea6e15a159360d2b467cff2b24de6952dfb89138a021bdd5eeb7dd502be",
+    "rendered.txt": "a28ffbde7c18650912560044d8f679f811cffba4a1e7ec8a84dc5633c16f6db0"
   },
   "http_status": 200,
   "final_url": "https://www.anthropic.com/news/claude-3-family",
   "content_type": "text/html; charset=utf-8",
-  "title": "Introducing the next generation of Claude \\ Anthropic"
+  "title": "Introducing the next generation of Claude \\ Anthropic",
+  "rendered_status": 200
 }

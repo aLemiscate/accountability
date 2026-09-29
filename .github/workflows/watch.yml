@@ -1,6 +1,10 @@
-# Weekly: re-read the watched policy pages, check every cited source, archive
-# any source that has no Wayback copy yet, commit the results, and open an
-# issue when a watched page has changed.
+# Weekly: re-read the watched policy pages, check every cited source, collect
+# recent posts from watched accounts into inbox/, snapshot and archive sources
+# that lack a copy, commit the results, and open an issue when a watched page
+# has changed.
+#
+# Optional repository secrets: X_BEARER_TOKEN (X API), BSKY_HANDLE and
+# BSKY_APP_PASSWORD (Bluesky search).
 #
 # Optional repository secrets IA_ACCESS_KEY and IA_SECRET_KEY (free at
 # https://archive.org/account/s3.php) enable automatic archiving.
@@ -37,6 +41,18 @@ jobs:
       - name: Check sources
         run: npm run check-sources
 
+      - name: Find recent posts from watched accounts
+        continue-on-error: true
+        env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          TERMS: 'safety|safe|align|regulat|nonprofit|mission|open.?source|military|defen[cs]e|pentagon|surveil|advertis|\bads?\b|profit|humanity|commit|promise|pledge|pause|race|democra'
+        run: npm run find-posts -- --all --from "$(date -u -d '14 days ago' +%F)" --match "$TERMS" --limit 60
+
+      - name: Snapshot sources that have no snapshot yet
+        run: npm run capture -- --snapshot-missing --limit 20
+
       - name: Archive sources that have no archive link
         if: env.IA_ACCESS_KEY != ''
         run: npm run capture -- --archive-missing --limit 25
@@ -45,7 +61,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add watch reports data/entries
+          git add watch reports data/entries snapshots inbox
           if git diff --cached --quiet; then
             echo "Nothing changed."
           else

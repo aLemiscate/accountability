@@ -89,15 +89,48 @@ source in that entry, or added as a new source. At build time, each quote is
 checked word for word against the text of its snapshots, and matched quotes get
 a "Matched to source snapshot" mark on the site.
 
-To archive every source that doesn't have an archive link yet:
+To fill gaps across the whole record:
 
 ```sh
-npm run capture -- --archive-missing          # add --dry-run to preview, --limit N to pace
+npm run capture -- --snapshot-missing   # full snapshot of every source without one
+npm run capture -- --archive-missing    # Wayback copy of every source without one
+# both accept --dry-run to preview and --limit N to pace
 ```
+
+Error pages (blocked, not found, rate-limited) are never saved as evidence. A
+capture that gets nothing readable leaves no snapshot behind.
+
+**Where to run captures.** A snapshot can only be taken from a machine that can
+reach the source. Your own computer works, and so do GitHub's runners: the
+**Capture** workflow (*Actions → Capture → Run workflow*) snapshots every
+missing source and commits the results. Claude Code cloud sessions only reach
+the hosts their environment's network policy allows; see
+[Working in Claude Code cloud sessions](#working-in-claude-code-cloud-sessions).
 
 Anonymous Wayback saves are rate-limited. Free archive.org keys
 (<https://archive.org/account/s3.php>) set as `IA_ACCESS_KEY` and
 `IA_SECRET_KEY` make saving faster and more reliable.
+
+## Finding posts
+
+`data/accounts.yaml` lists the public X and Bluesky accounts of in-scope people
+and organizations. `find-posts` collects their posts into `inbox/` for you to
+triage:
+
+```sh
+npm run find-posts -- --account sama --from 2023 --to 2024 --match "safety|regulat|nonprofit"
+npm run find-posts -- --all --from 2026-09 --match "ads|military|pause"
+```
+
+It combines three sources:
+
+- **Wayback Machine (free, no key).** It lists every X post URL the archive has captured for the account, across both twitter.com and x.com, **including posts that have since been deleted**. The post date comes from the post's id, so dates are exact even without the text. Text comes from the live post, or from the archived copy when the live post is gone. A post that is archived but returns 404 live is flagged *possibly deleted*.
+- **X API** (set `X_BEARER_TOKEN`). The account's recent timeline, up to about the last 3,200 posts. What a token can read depends on its X API access tier.
+- **Bluesky** (for accounts with a `bluesky` handle). The public API; set `BSKY_HANDLE` and `BSKY_APP_PASSWORD` (an app password, not your main password) for search.
+
+Posts already cited in the record are marked, so the inbox shows only what's
+new. Nothing is added to the record automatically. When a post belongs,
+`npm run new -- … --url <post>` starts the entry and snapshots the post.
 
 ## Watching for silent edits
 
@@ -121,7 +154,32 @@ private. Deleted posts are worth recording too. Results go to
 ## Automation (GitHub Actions)
 
 - **Site** (`.github/workflows/site.yml`) runs on every push: it validates, builds and tests the record, then publishes to GitHub Pages from the default branch. One-time setup: *Settings → Pages → Source: GitHub Actions*.
-- **Watch** (`.github/workflows/watch.yml`) runs every Monday and on demand. It re-reads watched pages, checks sources, archives unarchived sources (when the archive.org secrets are set), commits the results, and **opens an issue whenever a watched page changes**.
+- **Watch** (`.github/workflows/watch.yml`) runs every Monday and on demand. It re-reads watched pages, checks sources, collects the last two weeks of posts from watched accounts into `inbox/`, snapshots up to 20 sources that don't have a snapshot yet, archives unarchived sources (when the archive.org secrets are set), commits the results, and **opens an issue whenever a watched page changes**.
+- **Capture** (`.github/workflows/capture.yml`) runs on demand. It snapshots every source that doesn't have a snapshot yet. Run it once to backfill the whole record.
+
+Optional repository secrets (*Settings → Secrets and variables → Actions*):
+`IA_ACCESS_KEY` and `IA_SECRET_KEY` (archive.org), `X_BEARER_TOKEN` (X API),
+`BSKY_HANDLE` and `BSKY_APP_PASSWORD` (Bluesky).
+
+## Working in Claude Code cloud sessions
+
+`.claude/hooks/session-start.sh` runs at the start of each cloud session. It
+installs dependencies and makes the headless browser trust the session's
+network proxy, so screenshots work there.
+
+Which sites a cloud session can reach is set by its environment's network
+access (*environment menu in the session title bar → Edit → Network access*).
+To let Claude capture, archive and search posts directly, choose full access,
+or allow at least these hosts:
+
+| Purpose | Hosts |
+| --- | --- |
+| Archiving and deleted-post search | `web.archive.org`, `archive.org` |
+| X posts | `x.com`, `twitter.com`, `publish.twitter.com`, `api.x.com` |
+| Bluesky | `bsky.app`, `public.api.bsky.app`, `bsky.social` |
+| Company pages | `openai.com`, `cdn.openai.com`, `model-spec.openai.com`, `darioamodei.com` |
+| Reporting cited in the record | the news sites in `reports/source-health.md` |
+
 
 ## Layout
 
@@ -132,10 +190,12 @@ data/
   patterns.yaml              recurring patterns: thesis, tells, what to watch for
   actors.yaml                who is in scope, and why
   watch.yaml                 pages the watcher re-reads
+  accounts.yaml              X / Bluesky accounts that find-posts reads
   site.yaml                  name, tagline, repo and site URLs
 site/                        the static site (index.html, styles.css, app.js)
-scripts/                     build, capture, new-entry, check-sources, watch-pages, serve
+scripts/                     build, capture, new-entry, find-posts, check-sources, watch-pages, serve
 snapshots/                   captured evidence
+inbox/                       candidate posts waiting for triage
 watch/                       page-text baselines and diffs
 tests/                       node --test suites
 ```
