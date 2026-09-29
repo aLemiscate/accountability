@@ -38,15 +38,19 @@ sources:
     url: https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/
     date: 2026-02-24
     type: reporting
+    archive: https://web.archive.org/web/20260928021612/https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/
+    snapshot: snapshots/2026-09-29-time.com-bc5d31a5
   - title: Anthropic Drops Hallmark Safety Pledge in Race With AI Peers
     publisher: Bloomberg
     url: https://www.bloomberg.com/news/articles/2026-02-25/anthropic-adds-caveat-to-ai-safety-policy-in-race-against-rivals
     date: 2026-02-25
     type: reporting
+    archive: https://web.archive.org/web/20260410072435/https://www.bloomberg.com/news/articles/2026-02-25/anthropic-adds-caveat-to-ai-safety-policy-in-race-against-rivals
   - title: 'Anthropic Responsible Scaling Policy v3: A Matter of Trust'
     publisher: Don't Worry About the Vase (Zvi Mowshowitz)
     url: https://thezvi.substack.com/p/anthropic-responsible-scaling-policy
     type: analysis
+    archive: https://web.archive.org/web/20260917083359/https://thezvi.substack.com/p/anthropic-responsible-scaling-policy
 response: >-
   Anthropic said it chose to "acknowledge these challenges transparently and
   restructure the RSP before we reach these higher levels," instead of weakening
@@ -61,6 +65,8 @@ updates:
         publisher: Anthropic
         url: https://www.anthropic.com/responsible-scaling-policy
         type: primary
+        archive: https://web.archive.org/web/20260929201416/https://www.anthropic.com/responsible-scaling-policy
+        snapshot: snapshots/2026-09-29-anthropic.com-afe1e125
 note: >-
   This is the race clause, stated by the company that built its identity on
   refusing it. The reasons given may be sincere. The result is still a pause

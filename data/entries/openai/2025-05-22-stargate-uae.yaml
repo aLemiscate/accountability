@@ -3,31 +3,35 @@ date: 2025-05-22
 org: openai
 type: did
 kind: action
-who: [openai, sam-altman]
+who: [ openai, sam-altman ]
 summary: >-
-  OpenAI announced Stargate UAE with G42, Oracle, Nvidia, Cisco and SoftBank:
-  a large AI data-center cluster in Abu Dhabi with a first 200-megawatt phase
-  expected in 2026. It was the first deal under OpenAI for Countries, which
-  the company pitched as helping governments build "sovereign AI" in
-  coordination with the U.S. government.
-contradicts: [2024-07-25-altman-democratic-ai-op-ed]
-patterns: [principles-with-a-price]
+  OpenAI announced Stargate UAE with G42, Oracle, Nvidia, Cisco and SoftBank: a
+  large AI data-center cluster in Abu Dhabi with a first 200-megawatt phase
+  expected in 2026. It was the first deal under OpenAI for Countries, which the
+  company pitched as helping governments build "sovereign AI" in coordination
+  with the U.S. government.
+contradicts: [ 2024-07-25-altman-democratic-ai-op-ed ]
+patterns: [ principles-with-a-price ]
 sources:
   - title: Introducing Stargate UAE
     publisher: OpenAI
     url: https://openai.com/index/introducing-stargate-uae/
     date: 2025-05-22
     type: primary
+    archive: https://web.archive.org/web/20260904171239/https://openai.com/index/introducing-stargate-uae/
+    snapshot: snapshots/2026-09-29-openai.com-9ac2260f
   - title: OpenAI, UAE will build massive Stargate AI center in Abu Dhabi
     publisher: Axios
     url: https://www.axios.com/2025/05/22/uae-openai-stargate-deal
     date: 2025-05-22
     type: reporting
+    archive: https://web.archive.org/web/20260522162522/https://www.axios.com/2025/05/22/uae-openai-stargate-deal
+    snapshot: snapshots/2026-09-29-axios.com-44cbdd72
 response: >-
   OpenAI presented OpenAI for Countries as rooted in democratic values and
   coordinated with the U.S. government.
 note: >-
-  Ten months after an op-ed framed the choice as democracies versus "nations
-  … that don't share our values," OpenAI's flagship national partnership was
-  with a federation of hereditary monarchies. Whether that contradicts the op-ed depends on
-  whether "democratic AI" was ever a commitment or only a pitch.
+  Ten months after an op-ed framed the choice as democracies versus "nations …
+  that don't share our values," OpenAI's flagship national partnership was with
+  a federation of hereditary monarchies. Whether that contradicts the op-ed
+  depends on whether "democratic AI" was ever a commitment or only a pitch.

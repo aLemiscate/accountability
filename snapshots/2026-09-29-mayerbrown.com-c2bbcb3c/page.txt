@@ -1,0 +1,86 @@
+March 02, 2026 Pentagon Designates Anthropic a Supply Chain Risk — What Government Contractors Need to Know
+Authors :
+• class="InsightsInsightHeader_attributions-list-item__et4mH"> J. Ryan Frazee ,
+• class="InsightsInsightHeader_attributions-list-item__et4mH"> John Prairie ,
+• class="InsightsInsightHeader_attributions-list-item__et4mH"> Adam S. Hickey
+Generate PDF
+Share
+•
+•
+•
+•
+On February 27, 2026, President Donald Trump directed all federal agencies to cease using Anthropic’s artificial intelligence (AI) technology, and Defense Secretary Pete Hegseth designated Anthropic a “supply chain risk.” This designation, which follows weeks of failed negotiations over the military’s use of Anthropic’s Claude model, carries implications for the many contractors that use Claude and other Anthropic products and services. This Legal Update provides practical considerations and guidance for those contractors, after outlining what has been publicly reported about the dispute and the applicable legal frameworks.
+Background of the Dispute
+In July 2025, Anthropic and the Pentagon entered into a contract under which Claude became the first frontier model approved for use on classified networks. As part of the contract, the Pentagon agreed to abide by Anthropic’s acceptable use policy (AUP). That AUP, among other things, prohibited use of Claude: (i) for mass domestic surveillance of Americans; and (ii) in fully autonomous weapons systems capable of selecting and engaging targets without human intervention.
+The Pentagon reportedly sought to renegotiate those terms, insisting that Anthropic allow the military to use Claude “for all lawful purposes” without limitation. The parties engaged in weeks of failed negotiations culminating with the Pentagon setting a deadline of 5:01 p.m. on Friday, February 27, for Anthropic to agree to the government’s terms.
+When Anthropic did not agree, President Trump ordered agencies to cease using Anthropic, giving some agencies a six-month transition period to do so. Secretary Hegseth also issued a statement “in conjunction with the President’s directive,” declaring that no military contractor “may conduct any commercial activity with Anthropic.” The General Services Administration (GSA) has also removed Anthropic from USAi.gov, the government’s centralized platform for agencies to test AI models.
+Potential Government Enforcement Mechanisms
+As of time of writing, the Administration has not publicly identified the specific legal authority it has or will invoke in response to Anthropic’s refusal to remove its Claude restrictions. Although Secretary Hegseth at one point had threatened to invoke the Defense Production Act, and force Anthropic to provide Claude to the Pentagon without restrictions, the more recent statements from the Administration indicating a desire to remove Anthropic from the supply chain indicate that they are moving in a different direction. This remains a fluid situation, and could result in litigation or a negotiated resolution between Anthropic and the government.
+However, there are several legal and/or contractual mechanisms the Administration could employ in this situation, some of which could have significant implications for contractors that use Anthropic products and services in connection with their own federal work. Contractors—particularly those that rely on Claude—should familiarize themselves with this legal framework and understand how they could be impacted.
+FASCSA Order
+The broadest available avenue is the Federal Acquisition Supply Chain Security Act of 2018 (“FASCSA”), under which the government has expansive authority to prohibit contractors from using products determined to present a “supply-chain risk,” which is the language Secretary Hegseth has used in recent public statements about Anthropic.
+FASCSA established the Federal Acquisition Security Council (FASC), which recommends exclusion or removal orders of specific sources or covered articles deemed to present supply chain risks. The Secretary of Defense, Secretary of Homeland Security, and Director of National Intelligence have the ultimate authority to issue such orders for defense, civilian, and intelligence community contracts, respectively.
+Exclusion orders prohibit agencies and their contractors from procuring covered articles or products and services from a designated source. Covered articles include information technology, including cloud computing services; telecommunications equipment or services; the processing of information on a Federal or non-Federal information system; and hardware, systems, devices, software, or services that include embedded or incidental information technology. Removal orders require the elimination of covered articles from federal information systems or the exclusion of named sources or covered articles from executive agency procurement actions. We wrote about the first FASCSA exclusion and removal order in our October 2025 Legal Update .
+A FASCSA order requires the FASC to complete a supply chain risk assessment, consider less intrusive alternatives, and provide notice to the affected source before issuing a recommendation. Although President Trump stated that contractors would be banned from having “any commercial activity with Anthropic,” FASCSA orders are supposed to apply only to contractors’ federal work. They are not intended to preclude contractors from using designated products or sources commercially.
+FASCSA is applied to federal contractors through the clause at Federal Acquisition Regulation (FAR) 52.204-30. Under that clause, contractors have a duty to (i) review SAM.gov at least once every three months (or as advised by the contracting officer) for new FASCSA orders; (ii) if a new FASCSA order could impact the contractor’s supply chain, conduct a “reasonable inquiry” to identify whether a covered article or product or service produced or provided by a source subject to the FASCSA order was provided to the Government or used during contract performance; (iii) report to the contracting officer within three business days if a covered article or product or service produced or provided by a source subject to a FASCSA order was provided to the Government or used during contract performance; and (iv) report mitigation and corrective action plans within 10 business days. These obligations flow down to subcontractors at all tiers. Contractors may submit requests for waivers on individual programs.
+If the government issues a FASCSA order against Anthropic, contractors performing under affected contracts containing the clause at FAR 52.204-30 would be prohibited from providing or using Anthropic’s products and services in the performance of those contracts, absent a waiver. While the FASCSA framework allows contractors to continue using entities that were not subject to an order at the time of award, the clause also contemplates the government seeking a contract modification restricting ongoing use. And the reporting requirements discussed above are continuing, so contractors would have an affirmative duty to report their use of the Anthropic products or services that are the subject of the order in either case.
+Although President Trump’s statement suggests that the Administration could attempt to apply a broader ban on contractors having any commercial dealings with Anthropic, under the terms of FAR 52.204-30, a FASCSA order does not prohibit a contractor from using Anthropic’s products and services for purposes unrelated to their federal work.
+10 U.S.C. &sect; 3252
+Section 3252 of Title 10 provides the Secretary of Defense, the Army, the Navy, and the Air Force with independent authority to carry out “a covered procurement action,” including the exclusion of a source from Department of Defense (DoD) procurements as a prime or subcontractor involving national security systems, for the purpose of reducing supply chain risk. Unlike FASCSA, this authority is specific to the Pentagon and does not require a recommendation from FASC.
+However, this authority is subject to several procedural requirements. The Secretary must make a written determination that the action is “necessary to protect national security by reducing supply chain risk,” that “less intrusive measures are not reasonably available,” and must provide notice to the appropriate congressional committees with a summary of the risk assessment and the basis for the determination. The statute defines “supply chain risk” as the risk that “an adversary may sabotage, maliciously introduce unwanted function, or otherwise subvert” a covered system.
+If the Pentagon invoked &sect; 3252, it could direct contractors to exclude Anthropic from consideration for a subcontract on DoD contracts for national security systems. While the statute contemplates invoking the authority on a contract-by-contract basis, the Pentagon could theoretically invoke it on all of its contracts so long as it followed the required processes. The statute contemplates the Secretary directing the exclusion of a source prior to the award of a subcontract, but it could potentially be interpreted as allowing the Secretary to direct the termination of existing subcontracts as well.
+As with FASCSA, these designations are intended to extend only to the use of an entity in the performance of a government contract. As noted previously, President Trump’s statements suggest the Administration may attempt to apply the ban more broadly to include purely commercial work.
+Termination for Default or Convenience
+The government could also terminate its existing contracts with Anthropic. Termination for default would require a showing that Anthropic materially breached its contract obligations, though the dispute appears to center on the renegotiation of existing use restrictions that were part of the original contract, rather than a failure to perform. A termination for convenience, by contrast, would allow the government to end the contract at its discretion without fault, though Anthropic would be entitled to recover costs incurred and a reasonable profit on work performed.
+In either termination scenario, contractors using Anthropic in performance of their own federal work would not be affected, absent the government invoking some other authority, such as FASCSA.
+Suspension and Debarment
+Suspension and debarment are traditionally used as the government’s remedy for contractor misconduct, rendering the contractor ineligible for new federal contracts across all agencies. Suspension is an interim measure pending investigation, while debarment is a more permanent exclusion, typically lasting up to three years. Grounds for debarment generally include fraud, criminal conduct, serious contract performance failures, or other conduct indicating a lack of present responsibility.
+To date, the Administration does not appear to have initiated suspension or debarment proceedings against Anthropic. However, President Trump’s warning of “major civil and criminal consequences” if Anthropic does not cooperate during the phase-out period raises the possibility that such action could be pursued.
+Were the Administration to suspend or debar Anthropic, the ability of other contractors to use Anthropic would be limited. Prime contractors are generally prohibited from awarding subcontracts over $35,000 to suspended or debarred contractors absent government consent, except for commercially available off-the-shelf (“COTS”) items. Use on existing subcontracts would generally be permitted, although the contracting officer could direct the prime to terminate. Subcontracts often include terms allowing the prime to terminate if the subcontractor is suspended or debarred.
+Practical Recommendations for Government Contractors
+Again, this situation remains fluid and developing. But, in light of the potentially widespread implications of government action to ban Anthropic, government contractors—particularly those performing defense or national security work—should consider taking the following steps immediately.
+1. Inventory Current Use of Anthropic Products and Services
+Contractors should create a contingency plan for the possible need to discontinue uses of Anthropic products or services across their organization. As part of the plan, contractors should create an inventory of different categories of use and users, including, among others, (i) direct use in the performance of government contracts; (ii) indirect use in functions that support the contractors’ business generally, including its federal work; and (iii) internal enterprise use for commercial activities unrelated to federal contracts.
+While none of these authorities extend to commercial use, Secretary Hegseth’s broad statement prohibiting “any commercial activity with Anthropic” for defense contractors means that even commercial uses unrelated to federal work warrants cataloguing pending clarification from the government on the express legal authority being invoked.
+The assessments should consider the criticality of Anthropic to performance, and the costs of potentially having to perform in a different manner than originally anticipated. Depending on the circumstances, contractors may be entitled to seek an equitable adjustment to the schedule and/or contract price to address the impacts of the government’s action.
+2. Verify Applicable Contractual Clauses
+Contractors should review their existing government contracts and subcontracts to determine whether they include the FASCSA-implementing clauses at FAR 52.204-29 and FAR 52.204-30, which govern supply chain security representations, prohibitions, and reporting obligations. Contracts containing these clauses will impose prompt monitoring and reporting obligations if a FASCSA order is issued against Anthropic.
+Contractors performing DoD work involving national security systems should also check for the DFARS clause at 252.239-7018, which implements 10 U.S.C. &sect; 3252 supply chain risk provisions.
+Grant recipients should likewise review their grant terms and assess whether they contain any authority through which the government could issue direction related to the use of Anthropic in performance. Though the above authorities generally apply only to procurement contracts, grant terms may also allow the government to impose restrictions on the use of certain products or entities, which would be consistent with Secretary Hegseth’s announced intent.
+3. Prepare Justifications for Continued Use Where Applicable
+Contractors that depend on Anthropic’s technology for federal work should also begin preparing documentation to justify continued use if the technology is critical to their performance and alternative methods are not sufficient. FASCSA contemplates the ability to obtain a waiver if a contractor provides an acceptable justification. Practically, though, this avenue may be available only for civilian contracts if the Pentagon separately proceeds with an exclusion under 10 U.S.C. &sect; 3252, which does not contemplate waivers.
+How Mayer Brown Can Help
+Mayer Brown’s Government Contracts, National Security, and Public Policy, Regulatory & Government Affairs practices have extensive experience helping clients navigate complex, high-stakes, and fast-evolving regulatory environments. We manage interconnected regulatory and political risks by pairing deep national security law expertise with robust public policy and advocacy capabilities. Companies engaged in US government contracting can benefit from the experienced counsel Mayer Brown provides in this fluid national security landscape.
+Authors
+• class="BaseContacts_contact-card__r__T6"> View Full Profile
+Partner
+J. Ryan Frazee
+• class="BaseContactsCard_office__T3pwQ"> Washington DC +1 202 263 3271
+RFrazee @mayerbrown.com
+• class="BaseContacts_contact-card__r__T6"> View Full Profile
+Partner
+Adam S. Hickey
+• class="BaseContactsCard_office__T3pwQ"> Washington DC +1 202 263 3024
+• class="BaseContactsCard_office__T3pwQ"> New York
+ahickey @mayerbrown.com
+• class="BaseContacts_contact-card__r__T6"> View Full Profile
+Partner
+John Prairie
+• class="BaseContactsCard_office__T3pwQ"> Washington DC +1 202 263 3389
+jprairie @mayerbrown.com
+Related Content
+• class="InsightsRelatedContent_grid-item__6GXf7 InsightsRelatedContent_grid-item__hide-images__Z4Il3" style="--card-count:3"> Publications Anthropic Supply Chain Risk Designation Takes Effect — Latest Developments and Next Steps for Government Contractors
+March 10, 2026 Learn More
+• class="InsightsRelatedContent_grid-item__6GXf7 InsightsRelatedContent_grid-item__hide-images__Z4Il3" style="--card-count:3"> Publications Trump Administration Releases Cyber Strategy for America and Related Executive Order on Combatting Cybercrime
+March 09, 2026 Learn More
+• class="InsightsRelatedContent_grid-item__6GXf7 InsightsRelatedContent_grid-item__hide-images__Z4Il3" style="--card-count:3"> Publications House Passes Multiple Bills Targeting Threats Posed by the Chinese Communist Party
+October 30, 2024 Learn More
+Related Services & Industries
+Services
+• Artificial Intelligence
+• Cybersecurity & Data Privacy
+• National Security
+Stay Up To Date With Our Insights
+See how we use a multidisciplinary, integrated approach to meet our clients' needs.
+Subscribe
+Back to Top

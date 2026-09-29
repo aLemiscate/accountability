@@ -3,13 +3,12 @@ date: 2024-05-18
 org: openai
 type: said
 kind: denial
-who: [sam-altman]
+who: [ sam-altman ]
 venue: Post on X
 quote: >-
-  it should never have been something we had in any documents or
-  communication. this is on me and one of the few times i've been genuinely
-  embarrassed running openai; i did not know this was happening and i should
-  have.
+  it should never have been something we had in any documents or communication.
+  this is on me and one of the few times i've been genuinely embarrassed running
+  openai; i did not know this was happening and i should have.
 summary: >-
   Vox had reported that departing employees were asked to sign lifelong
   non-disparagement agreements, and to keep them secret, or risk losing their
@@ -17,15 +16,18 @@ summary: >-
   and that he hadn't known about it.
 concreteness: directional
 status: contradicted
-patterns: [sorry-after-caught, pressure-on-critics]
+patterns: [ sorry-after-caught, pressure-on-critics ]
 sources:
   - title: OpenAI's Harsh NDA Prompts Sam Altman to Say Sorry
     publisher: Inc.
     url: https://www.inc.com/kit-eaton/openais-harsh-nda-forces-openais-altman-to-say-sorry.html
     date: 2024-05-20
     type: reporting
+    archive: https://web.archive.org/web/20250503181717/https://www.inc.com/kit-eaton/openais-harsh-nda-forces-openais-altman-to-say-sorry.html
   - title: Kelsey Piper on X (quoting Altman)
     publisher: X
     url: https://x.com/KelseyTuoc/status/1791940668992172051
     date: 2024-05-18
     type: reporting
+    archive: https://web.archive.org/web/20240909161452/https://x.com/KelseyTuoc/status/1791940668992172051
+    snapshot: snapshots/2026-09-29-x.com-c8c406a1

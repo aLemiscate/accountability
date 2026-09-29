@@ -1,0 +1,52 @@
+Anthropic is making some big changes to how it handles user data, requiring all Claude users to decide by September 28 whether they want their conversations used to train AI models. While the company directed us to its blog post on the policy changes when asked about what prompted the move, we’ve formed some theories of our own.
+But first, what’s changing: Previously, Anthropic didn’t use consumer chat data for model training. Now, the company wants to train its AI systems on user conversations and coding sessions, and it said it’s extending data retention to five years for those who don’t opt out.
+That is a massive update. Previously, users of Anthropic’s consumer products were told that their prompts and conversation outputs would be automatically deleted from Anthropic’s back end within 30 days “unless legally or policy‑required to keep them longer” or their input was flagged as violating its policies, in which case a user’s inputs and outputs might be retained for up to two years.
+By consumer, we mean the new policies apply to Claude Free, Pro, and Max users, including those using Claude Code. Business customers using Claude Gov, Claude for Work, Claude for Education, or API access will be unaffected, which is how OpenAI similarly protects enterprise customers from data training policies.
+So why is this happening? In that post about the update, Anthropic frames the changes around user choice, saying that by not opting out, users will “help us improve model safety, making our systems for detecting harmful content more accurate and less likely to flag harmless conversations.” Users will “also help future Claude models improve at skills like coding, analysis, and reasoning, ultimately leading to better models for all users.”
+In short, help us help you. But the full truth is probably a little less selfless.
+Like every other large language model company, Anthropic needs data more than it needs people to have fuzzy feelings about its brand. Training AI models requires vast amounts of high-quality conversational data, and accessing millions of Claude interactions should provide exactly the kind of real-world content that can improve Anthropic’s competitive positioning against rivals like OpenAI and Google.
+Beyond the competitive pressures of AI development, the changes would also seem to reflect broader industry shifts in data policies, as companies like Anthropic and OpenAI face increasing scrutiny over their data retention practices. OpenAI, for instance, is currently fighting a court order that forces the company to retain all consumer ChatGPT conversations indefinitely, including deleted chats, because of a lawsuit filed by The New York Times and other publishers.
+In June, OpenAI COO Brad Lightcap called this “a sweeping and unnecessary demand ” that “fundamentally conflicts with the privacy commitments we have made to our users.” The court order affects ChatGPT Free, Plus, Pro, and Team users, though enterprise customers and those with Zero Data Retention agreements are still protected.
+What’s alarming is how much confusion all of these changing usage policies are creating for users, many of whom remain oblivious to them.
+In fairness, everything is moving quickly now, so as the tech changes, privacy policies are bound to change. But many of these changes are fairly sweeping and mentioned only fleetingly amid the companies’ other news. (You wouldn’t think Tuesday’s policy changes for Anthropic users were very big news based on where the company placed this update on its press page.)
+Image Credits: Anthropic
+But many users don’t realize the guidelines to which they’ve agreed have changed because the design practically guarantees it. Most ChatGPT users keep clicking on “delete” toggles that aren’t technically deleting anything. Meanwhile, Anthropic’s implementation of its new policy follows a familiar pattern.
+How so? New users will choose their preference during signup, but existing users face a pop-up with “Updates to Consumer Terms and Policies” in large text and a prominent black “Accept” button with a much tinier toggle switch for training permissions below in smaller print — and automatically set to “On.”
+As observed earlier today by The Verge, the design raises concerns that users might quickly click “Accept” without noticing they’re agreeing to data sharing.
+Meanwhile, the stakes for user awareness couldn’t be higher. Privacy experts have long warned that the complexity surrounding AI makes meaningful user consent nearly unattainable. Under the Biden administration, the Federal Trade Commission even stepped in, warning that AI companies risk enforcement action if they engage in “surreptitiously changing its terms of service or privacy policy, or burying a disclosure behind hyperlinks, in legalese, or in fine print.”
+Whether the commission — now operating with just three of its five commissioners — still has its eye on these practices today is an open question, one we’ve put directly to the FTC.
+Topics
+AI , Anthropic , Claude , policy , TC
+When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.
+Connie Loizos
+Editor in Chief & General Manager
+Loizos has been reporting on Silicon Valley since the late ’90s, when she joined the original Red Herring magazine. Previously the Silicon Valley Editor of TechCrunch, she was named Editor in Chief and General Manager of TechCrunch in September 2023. She’s also the founder of StrictlyVC, a daily e-newsletter and lecture series acquired by Yahoo in August 2023 and now operated as a sub brand of TechCrunch.
+You can contact or verify outreach from Connie by emailing connie@strictlyvc.com or connie@techcrunch.com , or via encrypted message at ConnieLoizos.53 on Signal.
+View Bio
+October 13 – 15
+San Francisco
+Get 50% off a second pass
+The Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by making connections, building momentum, and discovering what’s next in the startup ecosystem.
+BOOK NOW
+Most Popular
+• class="wp-block-post post-3170030 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-transportation tag-boom-supersonic tag-crusoe">
+Crusoe abandons $1.25B plan to use Boom turbines at AI data centers
+• Kirsten Korosec
+• class="wp-block-post post-3169728 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-anthropic tag-astra tag-openai tag-opus">
+Astra and Opus just passed Turing’s other test
+• Tim Fernholz
+• class="wp-block-post post-3169077 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-stargate tag-data-centers tag-oracle">
+Oracle sends force majeure notice on its New Mexico Stargate data center
+• Aditya Mehta
+• class="wp-block-post post-3168692 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-mark-zuckerberg tag-meta tag-muse">
+Meta made a Tamagotchi-like wearable for its Muse AI agent
+• Lucas Ropek
+• class="wp-block-post post-3168578 post type-post status-publish format-standard has-post-thumbnail hentry category-media-entertainment tag-vogue tag-fashion">
+Vogue sent robots down the runway at Vogue World, and people were not impressed
+• Dominic-Madori Davis
+• class="wp-block-post post-3168463 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-biotech-health tag-anthropic">
+Anthropic says its biology lab has already found something big
+• Julie Bort
+• class="wp-block-post post-3167710 post type-post status-publish format-standard has-post-thumbnail hentry category-robotics category-transportation category-startups tag-tires">
+PitPro’s first tire-changing robot goes live in Canada
+• Sean O'Kane

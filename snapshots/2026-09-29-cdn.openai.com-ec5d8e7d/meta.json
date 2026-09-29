@@ -1,0 +1,16 @@
+{
+  "url": "https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf",
+  "captured_at": "2026-09-29T21:55:55.687Z",
+  "tool": "said-did capture",
+  "files": {
+    "document.pdf": "fae6e4cc6f7212a010bb9348fc0cde1fe711b9cad426c6a99db97740ee52729b"
+  },
+  "http_status": 200,
+  "final_url": "https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf",
+  "content_type": "application/pdf",
+  "archive": {
+    "url": "https://web.archive.org/web/20260928222120/https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf",
+    "timestamp": "20260928222120",
+    "method": "spn"
+  }
+}

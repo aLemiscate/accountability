@@ -1,0 +1,49 @@
+OpenAI has updated its Preparedness Framework — the internal system it uses to assess the safety of AI models and determine necessary safeguards during development and deployment. In the update, OpenAI stated that it may “adjust” its safety requirements if a competing AI lab releases a “high-risk” system without similar protections in place.
+The change reflects the increasing competitive pressures on commercial AI developers to deploy models quickly. OpenAI has been accused of lowering safety standards in favor of faster releases, and of failing to deliver timely reports detailing its safety testing . Last week, 12 former OpenAI employees filed a brief in Elon Musk’s case against OpenAI, arguing the company would be encouraged to cut even more corners on safety should it complete its planned corporate restructuring.
+Perhaps anticipating criticism, OpenAI claims that it wouldn’t make these policy adjustments lightly, and that it would keep its safeguards at “a level more protective.”
+“If another frontier AI developer releases a high-risk system without comparable safeguards, we may adjust our requirements,” wrote OpenAI in a blog post published Tuesday afternoon. “However, we would first rigorously confirm that the risk landscape has actually changed, publicly acknowledge that we are making an adjustment, assess that the adjustment does not meaningfully increase the overall risk of severe harm, and still keep safeguards at a level more protective.”
+The refreshed Preparedness Framework also makes clear that OpenAI is relying more heavily on automated evaluations to speed up product development. The company says that while it hasn’t abandoned human-led testing altogether, it has built “a growing suite of automated evaluations” that can supposedly “keep up with [a] faster [release] cadence.”
+Some reports contradict this. According to the Financial Times , OpenAI gave testers less than a week for safety checks for an upcoming major model — a compressed timeline compared to previous releases. The publication’s sources also alleged that many of OpenAI’s safety tests are now conducted on earlier versions of models rather than the versions released to the public.
+In statements, OpenAI has disputed the notion that it’s compromising on safety.
+OpenAI is quietly reducing its safety commitments.
+Omitted from OpenAI’s list of Preparedness Framework changes:
+No longer requiring safety tests of finetuned models https://t.co/oTmEiAtSjS
+— Steven Adler (@sjgadler) April 15, 2025
+Other changes to OpenAI’s framework pertain to how the company categorizes models according to risk, including models that can conceal their capabilities, evade safeguards, prevent their shutdown, and even self-replicate. OpenAI says that it’ll now focus on whether models meet one of two thresholds: “high” capability or “critical” capability.
+OpenAI’s definition of the former is a model that could “amplify existing pathways to severe harm.” The latter are models that “introduce unprecedented new pathways to severe harm,” per the company.
+“Covered systems that reach high capability must have safeguards that sufficiently minimize the associated risk of severe harm before they are deployed,” wrote OpenAI in its blog post. “Systems that reach critical capability also require safeguards that sufficiently minimize associated risks during development.”
+The updates are the first OpenAI has made to the Preparedness Framework since 2023.
+Topics
+AI , OpenAI , Safety
+When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.
+Kyle Wiggers
+AI Editor
+Kyle Wiggers was TechCrunch’s AI Editor until June 2025. His writing has appeared in VentureBeat and Digital Trends, as well as a range of gadget blogs including Android Police, Android Authority, Droid-Life, and XDA-Developers. He lives in Manhattan with his partner, a music therapist.
+View Bio
+October 13 – 15
+San Francisco
+Get 50% off a second pass
+The Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by making connections, building momentum, and discovering what’s next in the startup ecosystem.
+BOOK NOW
+Most Popular
+• class="wp-block-post post-3170030 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-transportation tag-boom-supersonic tag-crusoe">
+Crusoe abandons $1.25B plan to use Boom turbines at AI data centers
+• Kirsten Korosec
+• class="wp-block-post post-3169728 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-anthropic tag-astra tag-openai tag-opus">
+Astra and Opus just passed Turing’s other test
+• Tim Fernholz
+• class="wp-block-post post-3169077 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-stargate tag-data-centers tag-oracle">
+Oracle sends force majeure notice on its New Mexico Stargate data center
+• Aditya Mehta
+• class="wp-block-post post-3168692 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-mark-zuckerberg tag-meta tag-muse">
+Meta made a Tamagotchi-like wearable for its Muse AI agent
+• Lucas Ropek
+• class="wp-block-post post-3168578 post type-post status-publish format-standard has-post-thumbnail hentry category-media-entertainment tag-vogue tag-fashion">
+Vogue sent robots down the runway at Vogue World, and people were not impressed
+• Dominic-Madori Davis
+• class="wp-block-post post-3168463 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-biotech-health tag-anthropic">
+Anthropic says its biology lab has already found something big
+• Julie Bort
+• class="wp-block-post post-3167710 post type-post status-publish format-standard has-post-thumbnail hentry category-robotics category-transportation category-startups tag-tires">
+PitPro’s first tire-changing robot goes live in Canada
+• Sean O'Kane

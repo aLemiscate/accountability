@@ -3,25 +3,28 @@ date: 2025-06-16
 org: openai
 type: did
 kind: action
-who: [openai]
+who: [ openai ]
 summary: >-
   The Defense Department awarded OpenAI a one-year, $200M contract to develop
-  "prototype frontier AI capabilities" for national-security challenges "in
-  both warfighting and enterprise domains." It was the first deal under the
-  new OpenAI for Government initiative.
-related: [2024-01-10-military-ban-removed]
-patterns: [principles-with-a-price]
+  "prototype frontier AI capabilities" for national-security challenges "in both
+  warfighting and enterprise domains." It was the first deal under the new
+  OpenAI for Government initiative.
+related: [ 2024-01-10-military-ban-removed ]
+patterns: [ principles-with-a-price ]
 sources:
   - title: OpenAI wins $200 million U.S. defense contract
     publisher: CNBC
     url: https://www.cnbc.com/2025/06/16/openai-wins-200-million-us-defense-contract.html
     date: 2025-06-16
     type: reporting
+    snapshot: snapshots/2026-09-29-cnbc.com-e0c4e55d
   - title: '''OpenAI For Government'' launches with $200M win from Pentagon CDAO'
     publisher: Breaking Defense
     url: https://breakingdefense.com/2025/06/openai-for-government-launches-with-200m-win-from-pentagon-cdao/
     date: 2025-06-16
     type: reporting
+    archive: https://web.archive.org/web/20260929220615/https://breakingdefense.com/2025/06/openai-for-government-launches-with-200m-win-from-pentagon-cdao/
+    snapshot: snapshots/2026-09-29-breakingdefense.com-a59aa40c
 note: >-
   Eighteen months after "military and warfare" left the usage policy,
   "warfighting" appeared in the contract description.

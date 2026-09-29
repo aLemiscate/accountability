@@ -3,11 +3,11 @@ date: 2024-01-10
 org: openai
 type: did
 kind: revision
-who: [openai]
+who: [ openai ]
 summary: >-
-  OpenAI rewrote its usage policies without drawing attention to the fact
-  that an explicit prohibition on military use was gone. The Intercept noticed
-  the change on January 10 and reported it two days later.
+  OpenAI rewrote its usage policies without drawing attention to the fact that
+  an explicit prohibition on military use was gone. The Intercept noticed the
+  change on January 10 and reported it two days later.
 revision:
   before: >-
     Usage policies banned "activity that has high risk of physical harm,
@@ -15,18 +15,22 @@ revision:
   after: >-
     A general instruction not to use the service to "develop or use weapons"
     stayed, but the explicit "military and warfare" prohibition was removed.
-patterns: [silent-edit, principles-with-a-price]
+patterns: [ silent-edit, principles-with-a-price ]
 sources:
   - title: OpenAI Quietly Deletes Ban on Using ChatGPT for "Military and Warfare"
     publisher: The Intercept
     url: https://theintercept.com/2024/01/12/open-ai-military-ban-chatgpt/
     date: 2024-01-12
     type: reporting
+    archive: https://web.archive.org/web/20260929213937/https://theintercept.com/2024/01/12/open-ai-military-ban-chatgpt/
+    snapshot: snapshots/2026-09-29-theintercept.com-dbee662b
   - title: OpenAI changes policy to allow military applications
     publisher: TechCrunch
     url: https://techcrunch.com/2024/01/12/openai-changes-policy-to-allow-military-applications/
     date: 2024-01-12
     type: reporting
+    archive: https://web.archive.org/web/20260929214145/https://techcrunch.com/2024/01/12/openai-changes-policy-to-allow-military-applications/
+    snapshot: snapshots/2026-09-29-techcrunch.com-f7546848
 response: >-
   OpenAI said the rewrite was meant to make its policies clearer and more
   universal, and that broad prohibitions on harming others and on weapons
@@ -42,6 +46,8 @@ updates:
         url: https://www.cnbc.com/2024/12/04/openai-partners-with-defense-company-anduril.html
         date: 2024-12-04
         type: reporting
+        archive: https://web.archive.org/web/20260929214337/https://www.cnbc.com/2024/12/04/openai-partners-with-defense-company-anduril.html
+        snapshot: snapshots/2026-09-29-cnbc.com-6e17bc68
 note: >-
-  The policy text changed first and the defense deals followed within a
-  year. This is the sequence to watch for.
+  The policy text changed first and the defense deals followed within a year.
+  This is the sequence to watch for.

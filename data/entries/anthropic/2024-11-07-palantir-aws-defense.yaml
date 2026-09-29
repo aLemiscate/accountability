@@ -3,31 +3,35 @@ date: 2024-11-07
 org: anthropic
 type: did
 kind: action
-who: [anthropic]
+who: [ anthropic ]
 summary: >-
-  Anthropic, Palantir and AWS partnered to give U.S. intelligence and
-  defense agencies access to Claude 3 and 3.5 through Palantir's AI Platform,
-  including Palantir's Impact Level 6 environment, which handles data up to
-  the "secret" classification. Anthropic's policy still barred uses such as
-  disinformation, weapons design, censorship, domestic surveillance and
-  malicious cyber operations, while allowing some government agencies to use
-  the models.
-patterns: [principles-with-a-price]
+  Anthropic, Palantir and AWS partnered to give U.S. intelligence and defense
+  agencies access to Claude 3 and 3.5 through Palantir's AI Platform, including
+  Palantir's Impact Level 6 environment, which handles data up to the "secret"
+  classification. Anthropic's policy still barred uses such as disinformation,
+  weapons design, censorship, domestic surveillance and malicious cyber
+  operations, while allowing some government agencies to use the models.
+patterns: [ principles-with-a-price ]
 sources:
-  - title: Anthropic and Palantir Partner to Bring Claude AI Models to AWS for U.S. Government Intelligence and Defense Operations
+  - title: Anthropic and Palantir Partner to Bring Claude AI Models to AWS for U.S.
+      Government Intelligence and Defense Operations
     publisher: Business Wire
     url: https://www.businesswire.com/news/home/20241107699415/en/Anthropic-and-Palantir-Partner-to-Bring-Claude-AI-Models-to-AWS-for-U.S.-Government-Intelligence-and-Defense-Operations
     date: 2024-11-07
     type: primary
-  - title: Anthropic partners with AWS and Palantir to provide AI models to defense agencies
+    archive: https://web.archive.org/web/20260929210820/https://www.businesswire.com/news/home/20241107699415/en/Anthropic-and-Palantir-Partner-to-Bring-Claude-AI-Models-to-AWS-for-U.S.-Government-Intelligence-and-Defense-Operations
+  - title: Anthropic partners with AWS and Palantir to provide AI models to defense
+      agencies
     publisher: SiliconANGLE
     url: https://siliconangle.com/2024/11/07/anthropic-partners-aws-palantir-provide-ai-models-defense-agencies/
     date: 2024-11-07
     type: reporting
+    archive: https://web.archive.org/web/20260929210850/https://siliconangle.com/2024/11/07/anthropic-partners-aws-palantir-provide-ai-models-defense-agencies/
+    snapshot: snapshots/2026-09-29-siliconangle.com-c4491760
 response: >-
-  Anthropic says supporting democratic governments' national security fits
-  its mission, and that its usage restrictions still apply.
+  Anthropic says supporting democratic governments' national security fits its
+  mission, and that its usage restrictions still apply.
 note: >-
   This isn't a broken promise by itself, because Anthropic never promised to
-  stay out of defense. It's here because of what came next: the same
-  company's limits were tested by the Pentagon in 2026.
+  stay out of defense. It's here because of what came next: the same company's
+  limits were tested by the Pentagon in 2026.
