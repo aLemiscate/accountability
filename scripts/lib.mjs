@@ -145,12 +145,16 @@ export function validate({ patterns, actors, entries }) {
         const target = byId.get(id);
         if (!target) err(e, `contradicts unknown entry "${id}"`);
         else if (target.type !== 'said') err(e, `contradicts "${id}", which is not a "said" entry`);
+        else if (d && parseDate(target.date) && parseDate(target.date).time > d.time) {
+          warn(e, `is dated before "${id}", which it contradicts; date a disclosure by when it became public`);
+        }
       }
       if (!e.contradicts?.length && !e.related?.length && !e.revision && !e.patterns?.length) {
         warn(e, 'does not connect to anything (add contradicts, related, revision or patterns)');
       }
     }
     for (const id of e.related ?? []) if (!byId.has(id)) err(e, `related to unknown entry "${id}"`);
+    if ([...(e.related ?? []), ...(e.contradicts ?? [])].includes(e.id)) err(e, 'links to itself');
 
     (e.updates ?? []).forEach((u, i) => {
       if (!parseDate(u.date)) err(e, `updates[${i}]: bad date "${u.date}"`);
@@ -240,7 +244,7 @@ export function quoteSegments(quote) {
     .filter((part) => part.length >= 3);
 }
 
-const SNAPSHOT_TEXT_FILES = ['page.txt', 'rendered.txt', 'post.txt'];
+const SNAPSHOT_TEXT_FILES = ['page.txt', 'rendered.txt', 'post.txt', 'document.txt'];
 
 /**
  * Check each entry's quote against the text of the snapshots attached to its

@@ -8,14 +8,21 @@ venue: Post on X, GPT-4o launch day
 quote: her
 summary: >-
   On GPT-4o launch day, Altman posted one word, "her," the film in which
-  Scarlett Johansson voices an AI. Johansson said Altman had asked her to
-  voice ChatGPT the previous September and again two days before launch, and
-  that she declined. "Nine months later, my friends, family and the general
-  public all noted how much the newest system named 'Sky' sounded like me."
-  OpenAI paused the Sky voice.
+  Scarlett Johansson voices an AI. Johansson said Altman had asked her to voice
+  ChatGPT the previous September and again two days before launch, and that she
+  declined. "Nine months later, my friends, family and the general public all
+  noted how much the newest system named 'Sky' sounded like me." OpenAI paused
+  the Sky voice.
 patterns: [take-first, sorry-after-caught]
 sources:
-  - title: Scarlett Johansson says OpenAI ripped off her voice after she told the company not to use it in software
+  - title: Sam Altman on X
+    publisher: X
+    url: https://x.com/sama/status/1790075827666796666
+    date: 2024-05-13
+    type: primary
+    snapshot: snapshots/2026-09-29-x.com-79efeb3f
+  - title: Scarlett Johansson says OpenAI ripped off her voice after she told the
+      company not to use it in software
     publisher: CNBC
     url: https://www.cnbc.com/2024/05/20/scarlett-johansson-says-openai-ripped-off-her-voice-.html
     date: 2024-05-20

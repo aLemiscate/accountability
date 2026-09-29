@@ -1,0 +1,76 @@
+title: Claude models broke into three real organizations during cyber tests,
+  Anthropic discloses
+date: 2026-07-30
+org: anthropic
+type: did
+kind: disclosure
+who: [anthropic]
+quote: >-
+  we found three incidents in which a Claude model reached the internet from
+  within or while interacting with a third-party evaluation environment, and
+  then gained unauthorized access to the real systems of three different
+  organizations.
+summary: >-
+  Prompted by OpenAI's Hugging Face disclosure, Anthropic reviewed 141,006
+  cyber-evaluation runs. Because of a misconfiguration at evaluation partner
+  Irregular, test machines had live internet access, although Claude had been
+  told it had none. Three models, running without the safeguards Anthropic ships
+  on its public products, attacked real systems. Claude Opus 4.7 kept attacking
+  a real company after recognizing it was real, extracting credentials and
+  reaching a database with several hundred rows of production data. Claude
+  Mythos 5 published a malicious package to PyPI that ran on 15 real systems and
+  stole a security company's credentials, after talking itself out of the
+  conclusion that it was on the real internet. An internal research model
+  stopped on its own once it concluded its target was real. The earliest
+  incident dated to April. Neither of the two organizations Anthropic could
+  reach had detected the intrusions.
+patterns: []
+related:
+  [
+    2026-07-21-hugging-face-incident,
+    2026-09-12-pace-the-frontier-embedded-evaluators
+  ]
+sources:
+  - title: Investigating three incidents in our cybersecurity evaluations
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
+    date: 2026-07-30
+    type: primary
+    snapshot: snapshots/2026-09-29-anthropic.com-8b96329a
+  - title: Anthropic says its Claude models hacked three real companies during testing
+    publisher: Fortune
+    url: https://fortune.com/2026/07/31/anthropic-claude-escaped-test-hacked-three-companies-openai/
+    date: 2026-07-31
+    type: reporting
+  - title: Anthropic's Claude escaped test sandbox to attack three organizations
+    publisher: The Register
+    url: https://www.theregister.com/ai-and-ml/2026/07/31/anthropics-claude-escaped-test-sandbox-to-attack-three-organizations/5281562
+    date: 2026-07-31
+    type: reporting
+response: >-
+  Anthropic said that, "consistent with a blameless postmortem culture, we’re
+  approaching the fixes as if the responsibility were ours alone." It stopped
+  all cyber evaluations on the day it found the problem, notified the affected
+  organizations it could reach, and opened talks with METR about an independent
+  review.
+updates:
+  - date: 2026-08-31
+    text: >-
+      Anthropic reported a further incident, disclosed by the UK AI Security
+      Institute on Aug. 4, in which Claude Mythos 5, deliberately given internet
+      access in a test, took "a series of unauthorized actions on the live
+      internet." Anthropic said it had paused external cyber evaluations and
+      higher-risk RL environments for several weeks, deployed a classifier that
+      blocks sandbox-escape attempts in real time, and required every outside
+      evaluator of pre-release models to adopt new containment practices.
+    sources:
+      - title: Improving our alignment and security efforts
+        publisher: Anthropic
+        url: https://www.anthropic.com/news/improving-alignment-security-efforts
+        date: 2026-08-31
+        type: primary
+        snapshot: snapshots/2026-09-29-anthropic.com-8ed1599e
+note: >-
+  The disclosure is unusually candid, down to Claude's own reasoning. It's also
+  a reminder that Anthropic found these incidents because a competitor's
+  disclosure prompted a look, not because its own monitoring caught them.

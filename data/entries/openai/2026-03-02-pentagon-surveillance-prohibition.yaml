@@ -1,29 +1,41 @@
-title: 'Standing promise: no domestic surveillance of U.S. persons under the Pentagon contract'
+title: 'Standing promise: no domestic surveillance of U.S. persons under the
+  Pentagon contract'
 date: 2026-03-02
 org: openai
 type: said
 kind: commitment
 who: [openai, sam-altman]
 venue: Amended Department of War contract, as described by OpenAI
+quote: >-
+  the AI system shall not be intentionally used for domestic surveillance of
+  U.S. persons and nationals.
 summary: >-
   After backlash, OpenAI said its amended Pentagon contract explicitly bars
   using its technology for domestic surveillance of U.S. persons, and that it
-  keeps red lines against its models independently directing autonomous
-  weapons.
+  keeps red lines against its models independently directing autonomous weapons.
 concreteness: conditional
 status: open
 breaks_if: >-
   Credible reporting of OpenAI models used in domestic surveillance of U.S.
-  persons; a later amendment that narrows the prohibition; or a change in
-  law or Pentagon policy that makes a prohibited use "lawful" while OpenAI
-  keeps the contract.
+  persons; a later amendment that narrows the prohibition; or a change in law or
+  Pentagon policy that makes a prohibited use "lawful" while OpenAI keeps the
+  contract.
 patterns: [unfalsifiable]
 sources:
-  - title: OpenAI's Altman admits defense deal 'looked opportunistic and sloppy' amid backlash
+  - title: Sam Altman on X (re-post of an internal memo on the amendments)
+    publisher: X
+    url: https://x.com/sama/status/2028640354912923739
+    date: 2026-03-02
+    type: primary
+    snapshot: snapshots/2026-09-29-x.com-5113866d
+  - title: OpenAI's Altman admits defense deal 'looked opportunistic and sloppy'
+      amid backlash
     publisher: CNBC
     url: https://www.cnbc.com/2026/03/03/openai-sam-altman-pentagon-deal-amended-surveillance-limits.html
     date: 2026-03-03
     type: reporting
 note: >-
   The contract isn't public, so outsiders can't check compliance. The promise
-  works on trust, which is exactly what this record is testing.
+  works on trust, which is exactly what this record is testing. Note the word
+  "intentionally," and that buying commercially available data about Americans
+  doesn't require a warrant.

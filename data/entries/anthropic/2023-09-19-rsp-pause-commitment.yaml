@@ -3,7 +3,7 @@ date: 2023-09-19
 org: anthropic
 type: said
 kind: commitment
-who: [ anthropic ]
+who: [anthropic]
 venue: Responsible Scaling Policy v1.0 announcement
 quote: >-
   the ASL system implicitly requires us to temporarily pause training of more
@@ -17,7 +17,7 @@ summary: >-
   often pointed to it as proof that Anthropic was a responsible company.
 concreteness: conditional
 status: reversed
-patterns: [ race-clause ]
+patterns: [race-clause]
 sources:
   - title: Anthropic's Responsible Scaling Policy
     publisher: Anthropic

@@ -43,7 +43,7 @@ export function htmlToText(html) {
     .replace(/<!--[\s\S]*?-->/g, ' ')
     .replace(/<br\s*\/?>/gi, '\n')
     .replace(/<\/(p|div|section|article|li|ul|ol|h[1-6]|tr|table|blockquote|header|footer|nav|pre)>/gi, '\n')
-    .replace(/<(li)[\s>]/gi, '\n• ')
+    .replace(/<li\b[^>]*>/gi, '\n• ')
     .replace(/<[^>]+>/g, ' ');
   return normalizeText(decodeEntities(s));
 }

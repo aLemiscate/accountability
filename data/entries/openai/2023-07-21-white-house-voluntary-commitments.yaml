@@ -1,0 +1,44 @@
+title: 'White House commitments: OpenAI will "publish reports for all new
+  significant model public releases"'
+date: 2023-07-21
+org: openai
+type: said
+kind: commitment
+who: [openai]
+venue: Voluntary commitments announced at the White House
+quote: >-
+  They commit to publish reports for all new significant model public releases
+  within scope.
+summary: >-
+  OpenAI was one of seven companies (with Anthropic, Amazon, Google, Inflection,
+  Meta and Microsoft) to sign voluntary commitments on AI safety, security and
+  transparency. One was to publish a report, covering safety evaluations,
+  limitations and societal risks, for every significant public model release.
+  The commitments covered models "overall more powerful than the current
+  industry frontier (e.g. models that are overall more powerful than any
+  currently released models, including GPT-4, Claude 2, PaLM 2, Titan…)", and
+  the companies said they intended them "to remain in effect until regulations
+  covering substantially the same issues come into force."
+concreteness: conditional
+status: eroded
+patterns: [unfalsifiable]
+related: [2023-07-21-anthropic-white-house-commitments]
+sources:
+  - title: Ensuring Safe, Secure, and Trustworthy AI (commitments text)
+    publisher: The White House
+    url: https://bidenwhitehouse.archives.gov/wp-content/uploads/2023/07/Ensuring-Safe-Secure-and-Trustworthy-AI.pdf
+    date: 2023-07-21
+    type: primary
+    snapshot: snapshots/2026-09-29-bidenwhitehouse.archives.gov-2f9f0eb3
+  - title: 'FACT SHEET: Biden-Harris Administration Secures Voluntary Commitments
+      from Leading Artificial Intelligence Companies to Manage the Risks Posed
+      by AI'
+    publisher: The White House
+    url: https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/07/21/fact-sheet-biden-harris-administration-secures-voluntary-commitments-from-leading-artificial-intelligence-companies-to-manage-the-risks-posed-by-ai/
+    date: 2023-07-21
+    type: primary
+    snapshot: snapshots/2026-09-29-bidenwhitehouse.archives.gov-a9468089
+note: >-
+  "Within scope" carries this promise. Scope was defined against the 2023
+  frontier, but the company decides what counts as "frontier" today, so the
+  company also decides which releases need a report.

@@ -1,0 +1,38 @@
+title: Anthropic quietly deletes its 2023 White House commitments from its transparency hub
+date: 2025-02
+org: anthropic
+type: did
+kind: revision
+who: [anthropic]
+summary: >-
+  Weeks after President Trump revoked the Biden AI executive order, Anthropic
+  removed several of the 2023 voluntary commitments from its transparency hub,
+  including pledges to share information on managing AI risks and to research
+  AI bias and discrimination. There was no announcement. The watchdog group The
+  Midas Project spotted the change, and TechCrunch reported it on March 5,
+  2025. Commitments on reducing AI-generated image-based sexual abuse stayed.
+revision:
+  before: >-
+    The transparency hub listed Anthropic's 2023 voluntary commitments,
+    including information sharing on AI risks and research on bias and
+    discrimination.
+  after: >-
+    Those commitments were gone from the page, with no notice or changelog.
+patterns: [silent-edit]
+related: [2023-07-21-anthropic-white-house-commitments]
+sources:
+  - title: Anthropic quietly removes Biden-era AI policy commitments from its website
+    publisher: TechCrunch
+    url: https://techcrunch.com/2025/03/05/anthropic-quietly-removes-biden-era-ai-policy-commitments-from-its-website/
+    date: 2025-03-05
+    type: reporting
+response: >-
+  Several hours after TechCrunch's story, Anthropic said: "We remain committed
+  to the voluntary AI commitments established under the Biden Administration.
+  This progress and specific actions continue to be reflected in [our]
+  transparency center within the content. To prevent further confusion, we
+  will add a section directly citing where our progress aligns."
+note: >-
+  The commitments didn't expire with the administration that brokered them.
+  The page edit is recorded as what it is: a silent edit, walked back in words
+  once someone noticed.

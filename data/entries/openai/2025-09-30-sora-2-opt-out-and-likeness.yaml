@@ -21,9 +21,21 @@ sources:
     type: reporting
   - title: OpenAI's Sora bans Martin Luther King Jr. deepfakes after his family complained
     publisher: CNN
-    url: https://us.cnn.com/2025/10/17/tech/openai-mlk-pause
+    url: https://www.cnn.com/2025/10/17/tech/openai-mlk-sora-pause
     date: 2025-10-17
     type: reporting
+updates:
+  - date: 2026-03-24
+    text: >-
+      Six months after launch, OpenAI announced it was shutting down the Sora
+      app without giving a reason. A licensing deal with Disney collapsed with
+      it. The Sora 2 model stayed available inside ChatGPT's paid tiers.
+    sources:
+      - title: OpenAI’s Sora was the creepiest app on your phone — now it’s shutting down
+        publisher: TechCrunch
+        url: https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/
+        date: 2026-03-24
+        type: reporting
 note: >-
   "Should ultimately have control" was the right principle. OpenAI adopted it
   after launch, for one estate at a time, on request.

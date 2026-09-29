@@ -4,7 +4,7 @@ date: 2026-02-24
 org: anthropic
 type: said
 kind: commitment
-who: [ anthropic ]
+who: [anthropic]
 venue: Responsible Scaling Policy v3 announcement
 quote: >-
   Rather than being hard commitments, these are public goals that we will openly
@@ -19,7 +19,7 @@ breaks_if: >-
   Roadmap goals are missed without a public grade; Risk Reports don't appear on
   the stated schedule; or goals are quietly rewritten between versions (compare
   the watched RSP page).
-patterns: [ unfalsifiable ]
+patterns: [unfalsifiable]
 sources:
   - title: Responsible Scaling Policy v3
     publisher: Anthropic
@@ -27,6 +27,60 @@ sources:
     date: 2026-02-24
     type: primary
     snapshot: snapshots/2026-09-29-anthropic.com-0a9c389f
+  - title: Anthropic's Frontier Safety Roadmap
+    publisher: Anthropic
+    url: https://www.anthropic.com/responsible-scaling-policy/roadmap
+    type: primary
+    snapshot: snapshots/2026-09-29-anthropic.com-1ed0df7d
+updates:
+  - date: 2026-05-05
+    text: >-
+      The roadmap's change log recorded two retreats, both in public. The target
+      for the first phase of a "moonshot" security project moved from May 15 to
+      Sept. 30, 2026, to free resources for another security goal. A
+      data-retention goal was dropped instead of replaced. Anthropic said it
+      didn't "feel that setting a separate date-bound goal in this context would
+      be helpful as a forcing function."
+    sources:
+      - title: Anthropic's Frontier Safety Roadmap (updates log)
+        publisher: Anthropic
+        url: https://www.anthropic.com/responsible-scaling-policy/roadmap
+        type: primary
+        snapshot: snapshots/2026-09-29-anthropic.com-1ed0df7d
+  - date: 2026-07-10
+    text: >-
+      Anthropic loosened its pledge to keep the public Claude Constitution in
+      sync with the internal one. The 90-day window now runs from the deployment
+      of a model trained on a revised Constitution, not from the internal
+      revision itself.
+    sources:
+      - title: Anthropic's Frontier Safety Roadmap (updates log)
+        publisher: Anthropic
+        url: https://www.anthropic.com/responsible-scaling-policy/roadmap
+        type: primary
+        snapshot: snapshots/2026-09-29-anthropic.com-1ed0df7d
+  - date: 2026-08-14
+    text: >-
+      The second Risk Report came out on schedule. It raised Anthropic's own
+      risk ratings for misalignment and non-novel bioweapons, and disclosed an
+      11-month gap in its bio classifiers and a series of access incidents.
+      Separately, RSP v3.4 (July 8) cut the required internal circulation of
+      unredacted Risk Reports from all regular-clearance staff to at least 200
+      employees.
+    sources:
+      - title: 'Risk Report: August 2026 (redacted)'
+        publisher: Anthropic
+        url: https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf
+        date: 2026-08-14
+        type: primary
+        snapshot: snapshots/2026-09-29-www-cdn.anthropic.com-026a83da
+      - title: Anthropic's Responsible Scaling Policy (version history)
+        publisher: Anthropic
+        url: https://www.anthropic.com/responsible-scaling-policy
+        type: primary
+        snapshot: snapshots/2026-09-29-anthropic.com-afe1e125
+related: [2026-05-26-rsp-v3-3-bio-threshold, 2026-08-14-risk-report-classifier-gap]
 note: >-
   The company sets the goals and grades them. The check is whether the grades
-  are ever failing ones.
+  are ever failing ones. So far the grading has been public, including some
+  unflattering results, and the goals have moved in public too.

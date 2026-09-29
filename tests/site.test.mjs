@@ -25,10 +25,29 @@ test('the built site renders every view without script errors', async (t) => {
       assert.ok((await page.locator('main#view').innerText()).length > 100, `${view} renders`);
     }
     await page.click('#tab-timeline');
+    // `list.length && el` renders a literal "0" when the list is empty; no card or dialog may show one.
+    const strayZero = () => page.evaluate(() => [...document.querySelectorAll('.tl-card, dialog .d-body')]
+      .some((el) => [...el.childNodes].some((n) => n.nodeType === Node.TEXT_NODE && n.textContent.trim() === '0')));
+    assert.equal(await strayZero(), false, 'no stray "0" in timeline cards');
+    const bare = await page.evaluate(() => window.SAID_DID.entries.find((e) => !e.patterns.length && !e.updates?.length)?.id);
+    if (bare) {
+      await page.evaluate((id) => { location.hash = `e-${id}`; }, bare);
+      await page.waitForSelector('dialog#entry[open]');
+      assert.equal(await strayZero(), false, `no stray "0" in the dialog for ${bare}`);
+      await page.keyboard.press('Escape');
+    }
     await page.locator('.tl-card').first().click();
     assert.ok(await page.locator('dialog#entry[open]').count() === 1, 'entry dialog opens');
     const [scrollW, innerW] = await page.evaluate(() => [document.documentElement.scrollWidth, innerWidth]);
     assert.ok(scrollW <= innerW, 'no horizontal scroll at phone width');
+    await page.keyboard.press('Escape');
+    // Search reaches text that only appears in an entry's updates or source list.
+    const updateWord = await page.evaluate(() => window.SAID_DID.entries.flatMap((e) => e.updates || [])[0]?.text.split(/\W+/).find((w) => w.length > 8));
+    if (updateWord) {
+      await page.fill('#q', updateWord);
+      await page.waitForTimeout(300);
+      assert.match(await page.locator('#count').innerText(), /[1-9]\d* of \d+ entries match/i, `search finds "${updateWord}"`);
+    }
     assert.deepEqual(errors, []);
   } finally {
     await closeBrowser();

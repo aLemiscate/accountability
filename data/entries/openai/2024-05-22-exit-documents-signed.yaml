@@ -5,39 +5,42 @@ type: did
 kind: disclosure
 who: [sam-altman, jason-kwon, openai]
 summary: >-
-  Vox published leaked documents showing high-pressure tactics toward
-  departing employees: short deadlines to sign broad non-disparagement and
-  non-disclosure terms, backed by threats to vested equity. Company documents
-  bearing the signatures of Altman and Chief Strategy Officer Jason Kwon
-  undercut the claim that leadership hadn't known.
+  Vox published leaked documents showing high-pressure tactics toward departing
+  employees: short deadlines to sign broad non-disparagement and non-disclosure
+  terms, backed by threats to vested equity. Company documents bearing the
+  signatures of Altman and Chief Strategy Officer Jason Kwon undercut the claim
+  that leadership hadn't known.
 contradicts: [2024-05-18-altman-did-not-know]
 patterns: [pressure-on-critics, sorry-after-caught]
 sources:
-  - title: Leaked OpenAI documents reveal aggressive tactics toward former employees (Vox, via X)
+  - title: Leaked OpenAI documents reveal aggressive tactics toward former employees
+      (Vox, via X)
     publisher: Vox
     url: https://x.com/voxdotcom/status/1793402141433901192
     date: 2024-05-22
     type: reporting
+    snapshot: snapshots/2026-09-29-x.com-3b1f9f69
   - title: How OpenAI Used Equity to Silence Dissent
     publisher: Gizmodo
     url: https://gizmodo.com/openai-sam-altman-chatgpt-employee-dissent-ndas-1851496211
     type: reporting
 response: >-
-  An OpenAI spokesperson said: "We're incredibly sorry that we're only
-  changing this language now; it doesn't reflect our values or the company we
-  want to be."
+  An OpenAI spokesperson said: "We're incredibly sorry that we're only changing
+  this language now; it doesn't reflect our values or the company we want to
+  be."
 updates:
   - date: 2024-05-24
     text: >-
       OpenAI released former employees from the agreements: "OpenAI has not
-      canceled, and will not cancel, any Vested Units," and it would not
-      enforce other non-disparagement terms.
+      canceled, and will not cancel, any Vested Units," and it would not enforce
+      other non-disparagement terms.
     sources:
-      - title: OpenAI sends internal memo releasing former employees from controversial exit agreements
+      - title: OpenAI sends internal memo releasing former employees from controversial
+          exit agreements
         publisher: CNBC
         url: https://www.cnbc.com/2024/05/24/openai-sends-internal-memo-releasing-former-employees-from-non-disparagement-agreements-sam-altman.html
         date: 2024-05-24
         type: reporting
 note: >-
-  The fix was real, and it came six days after the story broke. That timing
-  is the pattern.
+  The fix was real, and it came six days after the story broke. That timing is
+  the pattern.

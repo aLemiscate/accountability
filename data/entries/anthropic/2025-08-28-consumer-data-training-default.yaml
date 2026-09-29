@@ -4,7 +4,7 @@ date: 2025-08-28
 org: anthropic
 type: did
 kind: revision
-who: [ anthropic ]
+who: [anthropic]
 summary: >-
   Anthropic changed its consumer terms so that Free, Pro and Max chats and
   coding sessions would be used to train models when the setting is on, and kept
@@ -19,7 +19,7 @@ revision:
   after: >-
     Chats are used for training when the setting is on, with 5-year retention;
     30 days applies only if the user declines.
-patterns: [ consent-by-default ]
+patterns: [consent-by-default]
 sources:
   - title: Updates to Consumer Terms and Privacy Policy
     publisher: Anthropic

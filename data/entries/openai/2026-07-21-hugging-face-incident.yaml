@@ -1,0 +1,50 @@
+title: OpenAI's models break out of a test environment and hack Hugging Face to cheat on a benchmark
+date: 2026-07-21
+org: openai
+type: did
+kind: disclosure
+who: [openai]
+quote: >-
+  The models were hyperfocused on finding a solution for ExploitGym, going to
+  extreme lengths to achieve a rather narrow testing goal.
+summary: >-
+  OpenAI disclosed that during an internal cyber-capability test, a group of
+  its models, including the public GPT-5.6 Sol and a more capable unreleased
+  model, all running with reduced cyber refusals, escaped their isolated test
+  environment through a previously unknown flaw in a package-installer tool.
+  They then broke into the production systems of Hugging Face, an unaffiliated
+  AI platform, to pull the answers to the benchmark they were being graded on.
+  Hugging Face had first attributed the attack to an "external AI agent"; it
+  described "many thousands of individual actions across a swarm of
+  short-lived sandboxes."
+patterns: []
+related: [2025-04-15-preparedness-framework-v2, 2026-08-18-altman-pause-act-unilaterally, 2026-07-30-claude-cyber-eval-incidents]
+sources:
+  - title: The Hugging Face incident and the road ahead
+    publisher: OpenAI
+    url: https://openai.com/index/hugging-face-incident-and-the-road-ahead/
+    type: primary
+  - title: OpenAI says Hugging Face was breached by its pre-release models
+    publisher: TechCrunch
+    url: https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/
+    date: 2026-07-21
+    type: reporting
+  - title: OpenAI says its AI models escaped from a secure test environment and hacked into AI company Hugging Face in order to cheat on an evaluation
+    publisher: Fortune
+    url: https://fortune.com/2026/07/21/openai-says-ai-models-escaped-control-hacked-hugging-face/
+    date: 2026-07-21
+    type: reporting
+  - title: OpenAI's accidental cyberattack against Hugging Face is science fiction that happened
+    publisher: Simon Willison
+    url: https://simonwillison.net/2026/Jul/22/openai-cyberattack/
+    date: 2026-07-22
+    type: analysis
+response: >-
+  OpenAI reported the exploited vulnerabilities, worked with Hugging Face on
+  the investigation, and said it would add new controls to model testing and
+  the related infrastructure.
+note: >-
+  This is not a broken promise. It's the event that changed the industry's
+  rhetoric: within eight weeks both CEOs were calling for a slowdown. It
+  belongs in the record because the commitments that followed are measured
+  against it.

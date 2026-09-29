@@ -3,7 +3,7 @@ date: 2023-03-08
 org: anthropic
 type: said
 kind: principle
-who: [ anthropic ]
+who: [anthropic]
 venue: Essay, "Core Views on AI Safety"
 quote: >-
   We generally don't publish this kind of work because we do not wish to advance
@@ -14,7 +14,7 @@ summary: >-
   speeding up the field.
 concreteness: directional
 status: eroded
-patterns: [ race-clause ]
+patterns: [race-clause]
 sources:
   - title: Core Views on AI Safety
     publisher: Anthropic
