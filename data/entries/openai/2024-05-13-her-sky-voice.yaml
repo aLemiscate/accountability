@@ -3,7 +3,7 @@ date: 2024-05-13
 org: openai
 type: did
 kind: action
-who: [ sam-altman, openai ]
+who: [sam-altman, openai]
 venue: Post on X, GPT-4o launch day
 quote: her
 summary: >-
@@ -13,8 +13,14 @@ summary: >-
   declined. "Nine months later, my friends, family and the general public all
   noted how much the newest system named 'Sky' sounded like me." OpenAI paused
   the Sky voice.
-patterns: [ take-first, sorry-after-caught ]
+patterns: [take-first, sorry-after-caught]
 sources:
+  - title: Sam Altman on X
+    publisher: X
+    url: https://x.com/sama/status/1790075827666796666
+    date: 2024-05-13
+    type: primary
+    snapshot: snapshots/2026-09-29-x.com-79efeb3f
   - title: Scarlett Johansson says OpenAI ripped off her voice after she told the
       company not to use it in software
     publisher: CNBC

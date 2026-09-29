@@ -4,7 +4,7 @@ date: 2025-08-28
 org: anthropic
 type: did
 kind: revision
-who: [ anthropic ]
+who: [anthropic]
 summary: >-
   Anthropic changed its consumer terms so that Free, Pro and Max chats and
   coding sessions would be used to train models when the setting is on, and kept
@@ -19,7 +19,7 @@ revision:
   after: >-
     Chats are used for training when the setting is on, with 5-year retention;
     30 days applies only if the user declines.
-patterns: [ consent-by-default ]
+patterns: [consent-by-default]
 sources:
   - title: Updates to Consumer Terms and Privacy Policy
     publisher: Anthropic
@@ -35,6 +35,12 @@ sources:
     type: reporting
     archive: https://web.archive.org/web/20260929211147/https://techcrunch.com/2025/08/28/anthropic-users-face-a-new-choice-opt-out-or-share-your-data-for-ai-training/
     snapshot: snapshots/2026-09-29-techcrunch.com-c9e05edf
+  - title: Claude on X
+    publisher: X
+    url: https://x.com/claudeai/status/1961096054192943302
+    date: 2025-08-28
+    type: primary
+    snapshot: snapshots/2026-09-29-x.com-c275b3f4
 response: >-
   Anthropic said the data would improve model safety and capabilities such as
   coding, and that users stay in control and can change the setting at any time.

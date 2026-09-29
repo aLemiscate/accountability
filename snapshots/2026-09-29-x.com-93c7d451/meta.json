@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/sama/status/1978129344598827128",
+  "captured_at": "2026-09-29T21:45:52.338Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "fd9ea68d94c3831627bc6ca8f9ff5241d3663a857a7e076f50ff2f1743e53dab",
+    "page.txt": "790a9f9f1777365fe1fec5b76a06fd3dd733dcd766662c0aef88b22c0d9a50c9",
+    "post.json": "6bbcb6e60912841b87a0c88fd9796d7ae15c0d00de8b82f3bdfd49b1c119ef8a",
+    "post.txt": "7ded9578d38cfc4347b76d48eaace20a2638b166c8ecb286888765e8cb122676"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1978129344598827128",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"We made ChatGPT pretty restrictive to make sure we were being careful with mental health issues. We realize this made it less useful/enjoyable to many users who had no mental health problems, but given the seriousness of the issue we wanted to get this right. Now that we have bee… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "October 14, 2025",
+    "posted_at": "2025-10-14T16:02:42.275Z"
+  },
+  "rendered_status": 403
+}

@@ -1,0 +1,28 @@
+{
+  "url": "https://x.com/sama/status/2098811563415150910",
+  "captured_at": "2026-09-29T22:52:50.288Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "3987cfba49340f627e3692b148d4a0e044b565a890f41f687214a6844c0f569c",
+    "page.txt": "648ff6ce2e5162ea82fecdc20ef02f5c647697be6d8d0c17dc454c44167aeb96",
+    "post.json": "99f3f3e520e8e7ef923a557b4f8a6ad1d85eead12060968cadf4c992658fb1c9",
+    "post.txt": "9dbbd9b5936c00fea004f30101deaa416574c7acab4d34fcd085c8eb9db4b3c7"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/2098811563415150910",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"I agree with Dario that we need to pace the frontier. This has been a primary topic of discussions we've had at OpenAI in recent weeks. Committing to having independent evaluators with employee-like access is a great idea, and we will do the same. We'll have more to share soon.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "September 12, 2026",
+    "posted_at": "2026-09-12T16:30:45.408Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260924090528/https://x.com/sama/status/2098811563415150910",
+    "timestamp": "20260924090528",
+    "method": "existing"
+  }
+}

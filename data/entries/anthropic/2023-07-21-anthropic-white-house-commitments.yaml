@@ -1,0 +1,47 @@
+title: 'White House commitments: Anthropic will "publish reports for all new
+  significant model public releases"'
+date: 2023-07-21
+org: anthropic
+type: said
+kind: commitment
+who: [anthropic]
+venue: Voluntary commitments announced at the White House
+quote: >-
+  They commit to publish reports for all new significant model public releases
+  within scope.
+summary: >-
+  Anthropic signed the same voluntary commitments as OpenAI and five other
+  companies: internal and external red-teaming before release, information
+  sharing on risks, protecting unreleased model weights, watermarking, research
+  on bias and discrimination, and a public report for every significant model
+  release in scope. The companies said they intended the commitments "to remain
+  in effect until regulations covering substantially the same issues come into
+  force."
+concreteness: conditional
+status: open
+breaks_if: >-
+  A significant public model release ships without a public report on its safety
+  evaluations, limitations and societal risks; or Anthropic says the commitments
+  no longer apply without regulation having replaced them.
+patterns: []
+related: [2023-07-21-white-house-voluntary-commitments]
+sources:
+  - title: Ensuring Safe, Secure, and Trustworthy AI (commitments text)
+    publisher: The White House
+    url: https://bidenwhitehouse.archives.gov/wp-content/uploads/2023/07/Ensuring-Safe-Secure-and-Trustworthy-AI.pdf
+    date: 2023-07-21
+    type: primary
+    snapshot: snapshots/2026-09-29-bidenwhitehouse.archives.gov-2f9f0eb3
+  - title: 'FACT SHEET: Biden-Harris Administration Secures Voluntary Commitments
+      from Leading Artificial Intelligence Companies to Manage the Risks Posed
+      by AI'
+    publisher: The White House
+    url: https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/07/21/fact-sheet-biden-harris-administration-secures-voluntary-commitments-from-leading-artificial-intelligence-companies-to-manage-the-risks-posed-by-ai/
+    date: 2023-07-21
+    type: primary
+    snapshot: snapshots/2026-09-29-bidenwhitehouse.archives.gov-a9468089
+note: >-
+  Same promise, same standard as OpenAI's entry. Anthropic has kept publishing
+  system cards for its major releases (Opus 4.5, Opus 4.6, Mythos 5 and Opus 5
+  among them) and, since 2026, risk reports. That's why this one is still open
+  rather than eroded.

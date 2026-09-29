@@ -1,0 +1,55 @@
+title: 'AGI Readiness team disbanded as its head leaves: "neither OpenAI nor any
+  other frontier lab is ready"'
+date: 2024-10-23
+org: openai
+type: did
+kind: outcome
+who: [miles-brundage, openai]
+quote: >-
+  In short, neither OpenAI nor any other frontier lab is ready, and the world is
+  also not ready.
+summary: >-
+  Miles Brundage, OpenAI's Senior Advisor for AGI Readiness, announced he was
+  leaving after more than six years, and that his team would be broken up. Its
+  economic research group moved under OpenAI's new chief economist, and the rest
+  was spread across other teams. He cited high opportunity costs and constraints
+  on what he could publish. It was the second safety-focused team OpenAI had
+  wound down in five months, after Superalignment.
+related: [2024-05-17-superalignment-team-disbanded]
+patterns: [pledged-not-resourced]
+sources:
+  - title: Why I’m Leaving OpenAI and What I’m Doing Next
+    publisher: Miles Brundage
+    url: https://milesbrundage.substack.com/p/why-im-leaving-openai-and-what-im
+    date: 2024-10-23
+    type: primary
+    snapshot: snapshots/2026-09-29-milesbrundage.substack.com-af0fb44e
+  - title: OpenAI disbands another safety team, as head advisor for 'AGI Readiness'
+      resigns
+    publisher: CNBC
+    url: https://www.cnbc.com/2024/10/24/openai-miles-brundage-agi-readiness.html
+    date: 2024-10-24
+    type: reporting
+response: >-
+  An OpenAI spokesperson said the company fully supported Brundage's decision to
+  pursue policy research outside industry. Brundage himself wrote that he didn't
+  think "neither OpenAI nor any other frontier lab is ready" was "a
+  controversial statement among OpenAI's leadership."
+updates:
+  - date: 2026-02-11
+    text: >-
+      OpenAI disbanded its Mission Alignment team, which Brundage had said would
+      take over some AGI Readiness projects. Its six or seven members were
+      reassigned, and its head was named "chief futurist." OpenAI called it a
+      routine reorganization and said the work "continues throughout the
+      organization."
+    sources:
+      - title: OpenAI disbands mission alignment team
+        publisher: TechCrunch
+        url: https://techcrunch.com/2026/02/11/openai-disbands-mission-alignment-team-which-focused-on-safe-and-trustworthy-ai-development/
+        date: 2026-02-11
+        type: reporting
+note: >-
+  A readiness team told leadership it wasn't ready, and then the team was
+  dissolved. That the work "continues throughout the organization" is the same
+  explanation OpenAI gave when Superalignment was folded away.

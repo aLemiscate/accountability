@@ -1,0 +1,17 @@
+{
+  "url": "https://www.yahoo.com/news/articles/openai-says-canada-mass-shooter-015159042.html",
+  "captured_at": "2026-09-29T22:48:40.299Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "35c1be0c9d2bfb039ece84e1832ff3a9454ed7f7be33f8845d47c7d64a0e1bdd",
+    "page.txt": "1132d42fe3ef6e1a09d663ff00819cbb7ca49c9965e1e8e8a99070f6d3590985",
+    "screenshot.jpg": "8763dd17edbdc390fc5d3bdb8141773a84012a7c65ae397340553ed9116fb9f4",
+    "rendered.txt": "d58b09dfcea0eb49e61a3fa4756039e0f8e84492151f0d344b1234381269f174"
+  },
+  "http_status": 200,
+  "final_url": "https://www.yahoo.com/news/articles/openai-says-canada-mass-shooter-015159042.html",
+  "content_type": "text/html; charset=utf-8",
+  "title": "OpenAI says Canada mass shooter evaded ban with second ChatGPT account",
+  "rendered_status": 200,
+  "archive": null
+}

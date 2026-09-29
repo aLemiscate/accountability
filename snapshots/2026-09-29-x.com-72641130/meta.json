@@ -1,0 +1,28 @@
+{
+  "url": "https://x.com/nickaturley/status/1997120491589349440",
+  "captured_at": "2026-09-29T22:45:10.789Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "84b3c555c4453ca23b5160360b9d40ae91d7eb6c3fb83ffb7965a2993856c3d7",
+    "page.txt": "3b881978333a81fcea12545707f29b854277e9469201515b3af6ad80bfd692e0",
+    "post.json": "f7bdef6cdb5ef743e6d33d5e18754747cb82c23065b404d6ec286c06df7774e8",
+    "post.txt": "1103f093b5dab2b80949b468023f125906f603e8cc9898bdb238446f73ad191c"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/nickaturley/status/1997120491589349440",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Nick Turley on X: \"I'm seeing lots of confusion about ads rumors in ChatGPT. There are no live tests for ads – any screenshots you’ve seen are either not real or not ads. If we do pursue ads, we’ll take a thoughtful approach. People trust ChatGPT and anything we do will be designed to respect that.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Nick Turley (@nickaturley)",
+    "date": "December 6, 2025",
+    "posted_at": "2025-12-06T01:46:44.556Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260131191110/https://x.com/nickaturley/status/1997120491589349440",
+    "timestamp": "20260131191110",
+    "method": "existing"
+  }
+}

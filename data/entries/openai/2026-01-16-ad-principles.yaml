@@ -3,7 +3,7 @@ date: 2026-01-16
 org: openai
 type: said
 kind: commitment
-who: [ openai ]
+who: [openai]
 venue: Blog post, "Our approach to advertising and expanding access to ChatGPT"
 quote: Ads do not influence the answers ChatGPT gives you.
 summary: >-
@@ -18,7 +18,7 @@ breaks_if: >-
   labeled; recommendations in answers track advertiser relationships;
   conversation content reaches advertisers; or engagement and time-spent targets
   show up in product or investor materials.
-patterns: [ unfalsifiable ]
+patterns: [unfalsifiable]
 sources:
   - title: Our approach to advertising and expanding access to ChatGPT
     publisher: OpenAI
@@ -33,5 +33,20 @@ sources:
     type: analysis
     archive: https://web.archive.org/web/20260929222510/https://simonwillison.net/2026/Jan/16/chatgpt-ads/
     snapshot: snapshots/2026-09-29-simonwillison.net-9ee0a377
+related: [2026-02-04-altman-never-run-ads-like-that]
+updates:
+  - date: 2026-09-16
+    text: >-
+      With ChatGPT ads at a reported $1 billion annualized run rate, OpenAI
+      began testing "Sponsored Agents": separate, labeled conversations with a
+      business's agent that a user can open from an ad. OpenAI said they are
+      "separate from the original conversation in ChatGPT and from ChatGPT's
+      independent answers." Nothing reported so far trips the breaks-if test.
+    sources:
+      - title: OpenAI Tests Sponsored AI Agents in ChatGPT Ads
+        publisher: PYMNTS
+        url: https://www.pymnts.com/news/artificial-intelligence/2026/openai-tests-sponsored-ai-agents-in-chatgpt-ads/
+        date: 2026-09-16
+        type: reporting
 note: >-
   This one is measurable from outside, so it's worth watching closely.

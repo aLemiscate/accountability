@@ -12,26 +12,31 @@
 //       Walks every entry and asks the Wayback Machine to save each source
 //       that has no archive link yet, then writes the links back into the YAML.
 //
-//   npm run capture -- --snapshot-missing [--limit 20] [--dry-run]
+//   npm run capture -- --snapshot-missing [--limit 20] [--match <regex>] [--dry-run]
 //       Takes a full snapshot (page, text, screenshot, post text, and a Wayback
 //       copy if missing) of every source that has no snapshot yet, and writes
 //       the snapshot path back into the YAML. The weekly GitHub Action runs this.
 //
-// Options: --no-archive  skip the Wayback Machine
+// Options: --match <re>  only sources whose URL matches (with --archive-missing / --snapshot-missing)
+//          --no-archive  skip the Wayback Machine
 //          --no-shot     skip the browser screenshot
 //
 // Set IA_ACCESS_KEY / IA_SECRET_KEY (free, from archive.org/account/s3.php)
 // to use the authenticated Save Page Now API, which is far more reliable.
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { spawnSync } from 'node:child_process';
 import path from 'node:path';
 import YAML from 'yaml';
 import { ROOT, loadAll } from './lib.mjs';
+import { snowflakeDate, xStatusId } from './social.mjs';
 import {
-  closeBrowser, fetchBlueskyPost, fetchWithTimeout, fetchXPost, htmlToText, isBlueskyUrl, isXUrl,
+  closeBrowser, fetchBlueskyPost, fetchWithTimeout, fetchXPost, fetchXPostDetails, htmlToText, isBlueskyUrl, isXUrl,
   pageTitle, renderPage, sha256, sleep, waybackClosest, waybackSave,
 } from './web.mjs';
 
-const VALUE_OPTS = new Set(['entry', 'title', 'type', 'limit']);
+const VALUE_OPTS = new Set(['entry', 'title', 'type', 'limit', 'match']);
+// Documents larger than this are not stored in snapshots/ (their text and hash are).
+const MAX_DOCUMENT_BYTES = 10 * 1024 * 1024;
 const opts = {};
 const positional = [];
 for (let i = 2; i < process.argv.length; i++) {
@@ -45,6 +50,36 @@ const opt = (name) => (typeof opts[name] === 'string' ? opts[name] : undefined);
 
 const sameUrl = (a, b) => String(a).replace(/\/+$/, '').replace(/^http:/, 'https:') === String(b).replace(/\/+$/, '').replace(/^http:/, 'https:');
 const today = () => new Date().toISOString().slice(0, 10);
+
+
+/**
+ * Keep what oEmbed leaves out of an X post: the full text of long posts, the
+ * text of a quoted post, and attached photos (some statements exist only as an
+ * image). Returns the text to store in post.txt.
+ */
+async function saveXDetails(id, text, save, meta) {
+  const d = await fetchXPostDetails(id).catch((err) => ({ ok: false, error: err.message }));
+  if (!d.ok) return text;
+  await save('syndication.json', JSON.stringify(d.raw, null, 2));
+  if (d.text && d.text.length > text.length) text = d.text;
+  if (d.quoted) text += `\n\nQuoting ${d.quoted.url}:\n${d.quoted.text ?? ''}`;
+  const media = [];
+  const photos = [...d.photos.map((u, i) => [`media-${i + 1}`, u]), ...(d.quoted?.photos ?? []).map((u, i) => [`quoted-media-${i + 1}`, u])];
+  for (const [base, u] of photos) {
+    try {
+      const res = await fetchWithTimeout(u.includes('?') ? u : `${u}?name=large`, { timeout: 30000 });
+      if (!res.ok) continue;
+      const name = `${base}${path.extname(new URL(u).pathname) || '.jpg'}`;
+      await save(name, Buffer.from(await res.arrayBuffer()));
+      media.push({ file: name, url: u });
+    } catch { /* a missing image shouldn't stop the capture */ }
+  }
+  if (media.length) {
+    meta.post.media = media;
+    console.log(`  media     saved ${media.length} image(s) attached to the post`);
+  }
+  return text;
+}
 
 async function archive(url) {
   try {
@@ -85,8 +120,24 @@ async function snapshot(url, { doArchive = true, doShot = true } = {}) {
       meta.title = pageTitle(body.toString('utf8'));
       await save('page.txt', htmlToText(body.toString('utf8')));
     } else {
-      const ext = (meta.content_type || '').includes('pdf') ? 'pdf' : 'bin';
+      // Some hosts (Google Drive, S3) send PDFs as application/octet-stream; trust the file's own header.
+      const isPdf = (meta.content_type || '').includes('pdf') || body.subarray(0, 5).toString('latin1') === '%PDF-';
+      const ext = isPdf ? 'pdf' : 'bin';
       await save(`document.${ext}`, body);
+      // Keep the PDF's text next to it, so quotes can be checked against it (needs poppler's pdftotext).
+      if (ext === 'pdf') {
+        const text = spawnSync('pdftotext', [path.join(dir, 'document.pdf'), '-'], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
+        if (text.status === 0 && text.stdout.trim()) await save('document.txt', text.stdout);
+        else console.log('  (no PDF text: install poppler-utils for pdftotext)');
+      }
+      // Very large files would bloat the repository. Keep the text and the
+      // original's hash (so a copy can still be verified), not the file itself.
+      if (body.length > MAX_DOCUMENT_BYTES && meta.files['document.txt']) {
+        await rm(path.join(dir, `document.${ext}`));
+        meta.omitted = { file: `document.${ext}`, bytes: body.length, sha256: meta.files[`document.${ext}`], reason: 'larger than the size limit; text kept' };
+        delete meta.files[`document.${ext}`];
+        console.log(`  omitted   document.${ext} (${(body.length / 1e6).toFixed(1)} MB); kept its text and hash`);
+      }
     }
     if (res.ok) console.log(`  fetched   HTTP ${res.status}${meta.title ? ` — ${meta.title}` : ''}`);
   } catch (err) {
@@ -98,9 +149,14 @@ async function snapshot(url, { doArchive = true, doShot = true } = {}) {
     try {
       const post = isXUrl(url) ? await fetchXPost(url) : await fetchBlueskyPost(url);
       meta.post = { ok: post.ok, status: post.status, author: post.author ?? null, date: post.date ?? null };
+      // X shows a display date ("May 17, 2024"); the post id carries the exact UTC time.
+      const posted = isXUrl(url) ? snowflakeDate(xStatusId(url)) : post.date && new Date(post.date);
+      if (posted && !Number.isNaN(posted.getTime())) meta.post.posted_at = posted.toISOString();
       if (post.ok) {
         await save('post.json', JSON.stringify(post.raw, null, 2));
-        await save('post.txt', `${post.author ?? ''}\n${post.date ?? ''}\n\n${post.text ?? ''}\n`);
+        let text = post.text ?? '';
+        if (isXUrl(url)) text = await saveXDetails(xStatusId(url), text, save, meta);
+        await save('post.txt', `${post.author ?? ''}\n${post.date ?? ''}\n\n${text}\n`);
         meta.title ??= post.author ? `${post.author} on ${isXUrl(url) ? 'X' : 'Bluesky'}` : null;
         console.log(`  post      ${post.author ?? ''}: ${String(post.text ?? '').slice(0, 90)}`);
       } else {
@@ -154,22 +210,28 @@ async function openEntryDoc(entryId) {
   const doc = YAML.parseDocument(await readFile(file, 'utf8'));
   return { file, doc };
 }
-const writeDoc = (file, doc) => writeFile(file, doc.toString({ lineWidth: 80, minContentWidth: 40 }));
+const writeDoc = (file, doc) => writeFile(file, doc.toString({ lineWidth: 80, minContentWidth: 40, flowCollectionPadding: false }));
 
 async function attachToEntry(entryId, url, { dir, meta }) {
   const { file, doc } = await openEntryDoc(entryId);
-  const sources = doc.get('sources');
-  let idx = sources?.items.findIndex((s) => sameUrl(s.get('url'), url)) ?? -1;
-  if (idx < 0) {
-    const source = { title: opt('title') || meta.title || url, url, date: meta.post?.date ? String(meta.post.date).slice(0, 10) : undefined, type: opt('type') || (isXUrl(url) || isBlueskyUrl(url) ? 'primary' : 'reporting') };
+  // The URL may already be cited in the entry's sources or in one of its updates.
+  const lists = [['sources'], ...(doc.get('updates')?.items ?? []).map((_, i) => ['updates', i, 'sources'])];
+  let at = null;
+  for (const listPath of lists) {
+    const i = doc.getIn(listPath)?.items.findIndex((s) => sameUrl(s.get('url'), url)) ?? -1;
+    if (i >= 0) { at = [...listPath, i]; break; }
+  }
+  if (!at) {
+    const source = { title: opt('title') || meta.title || url, url, date: meta.post?.posted_at?.slice(0, 10), type: opt('type') || (isXUrl(url) || isBlueskyUrl(url) ? 'primary' : 'reporting') };
     if (!source.date || !/^\d{4}-\d{2}-\d{2}$/.test(source.date)) delete source.date;
+    const sources = doc.get('sources');
     if (!sources) doc.set('sources', doc.createNode([source]));
     else sources.add(doc.createNode(source));
-    idx = doc.get('sources').items.length - 1;
+    at = ['sources', doc.get('sources').items.length - 1];
     console.log(`  added a new source to ${entryId}`);
   }
-  if (meta.archive?.url) doc.setIn(['sources', idx, 'archive'], meta.archive.url);
-  if (dir) doc.setIn(['sources', idx, 'snapshot'], dir);
+  if (meta.archive?.url) doc.setIn([...at, 'archive'], meta.archive.url);
+  if (dir) doc.setIn([...at, 'snapshot'], dir);
   await writeDoc(file, doc);
   console.log(`  updated   ${path.relative(ROOT, file)}`);
 }
@@ -180,6 +242,7 @@ async function attachToEntry(entryId, url, { dir, meta }) {
  */
 async function fillMissing(mode) {
   const limit = Number(opt('limit') || Infinity);
+  const match = opt('match') ? new RegExp(opt('match'), 'i') : null;
   const dry = flag('dry-run');
   const field = mode === 'archive' ? 'archive' : 'snapshot';
   const { entries } = await loadAll();
@@ -198,11 +261,12 @@ async function fillMissing(mode) {
         const src = list.items[i];
         if (src.get(field)) continue;
         const url = src.get('url');
+        if (match && !match.test(url)) continue;
         if (!done.has(url)) {
           if (processed >= limit) continue;
           processed++;
           console.log(`\n${entry.id}`);
-          if (dry) { console.log(`  would ${mode} ${url}`); continue; }
+          if (dry) { console.log(`  would ${mode} ${url}`); done.set(url, null); continue; }
           if (mode === 'archive') {
             done.set(url, { archive: await archive(url) });
           } else {
@@ -231,7 +295,7 @@ try {
   } else {
     const url = positional[0];
     if (!url || !/^https?:\/\//.test(url)) {
-      console.error('Usage: npm run capture -- <url> [--entry <entry-id>] [--title "…"]\n       npm run capture -- --archive-missing [--limit N] [--dry-run]\n       npm run capture -- --snapshot-missing [--limit N] [--dry-run]');
+      console.error('Usage: npm run capture -- <url> [--entry <entry-id>] [--title "…"]\n       npm run capture -- --archive-missing [--limit N] [--dry-run]\n       npm run capture -- --snapshot-missing [--limit N] [--match <regex>] [--dry-run]');
       process.exit(1);
     }
     const result = await snapshot(url, { doArchive: !flag('no-archive'), doShot: !flag('no-shot') });

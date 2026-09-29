@@ -3,9 +3,9 @@ date: 2025-09-05
 org: anthropic
 type: did
 kind: outcome
-who: [ anthropic ]
+who: [anthropic]
 quote: >-
-  Anthropic had no entitlement to use pirated copies for a central library.
+  Anthropic had no entitlement to use pirated copies for its central library.
 summary: >-
   In Bartz v. Anthropic, Judge William Alsup ruled in June 2025 that training on
   lawfully bought books was fair use, but that downloading pirated books from
@@ -13,8 +13,15 @@ summary: >-
   permanent library was not. Anthropic then agreed to pay $1.5B, about $3,000
   per book, and to destroy the pirated files. It's the largest copyright
   settlement on record. (The quote is from Judge Alsup's ruling.)
-patterns: [ take-first ]
+patterns: [take-first]
 sources:
+  - title: Order on fair use, Bartz v. Anthropic (N.D. Cal., June 23, 2025) (PDF)
+    publisher: U.S. District Court for the Northern District of California
+    url: https://cdn.arstechnica.net/wp-content/uploads/2025/06/Bartz-v-Anthropic-Order-on-Fair-Use-6-23-25.pdf
+    date: 2025-06-23
+    type: primary
+    archive: https://web.archive.org/web/20260731233644/https://cdn.arstechnica.net/wp-content/uploads/2025/06/Bartz-v-Anthropic-Order-on-Fair-Use-6-23-25.pdf
+    snapshot: snapshots/2026-09-29-cdn.arstechnica.net-56b8aaf3
   - title: AI company Anthropic agrees to pay $1.5B to settle lawsuit with authors
     publisher: NBC News
     url: https://www.nbcnews.com/tech/tech-news/anthropic-settlement-lawsuit-authors-rcna229422

@@ -43,7 +43,7 @@ export function htmlToText(html) {
     .replace(/<!--[\s\S]*?-->/g, ' ')
     .replace(/<br\s*\/?>/gi, '\n')
     .replace(/<\/(p|div|section|article|li|ul|ol|h[1-6]|tr|table|blockquote|header|footer|nav|pre)>/gi, '\n')
-    .replace(/<(li)[\s>]/gi, '\n• ')
+    .replace(/<li\b[^>]*>/gi, '\n• ')
     .replace(/<[^>]+>/g, ' ');
   return normalizeText(decodeEntities(s));
 }
@@ -86,6 +86,28 @@ export async function fetchXPost(url) {
   if (!res.ok) return { ok: false, status: res.status };
   const json = await res.json();
   return { ok: true, status: res.status, raw: json, ...parseTweetEmbed(json.html || ''), author_url: json.author_url };
+}
+
+/**
+ * Fetch a post's full details from X's embed ("syndication") endpoint: the
+ * complete text of long posts, attached photos, and the post it quotes. oEmbed
+ * truncates long posts and drops images, and some statements (a signed letter,
+ * a screenshot of a memo) exist only as an image.
+ */
+export async function fetchXPostDetails(id) {
+  const token = ((Number(id) / 1e15) * Math.PI).toString(36).replace(/(0+|\.)/g, '');
+  const res = await fetchWithTimeout(`https://cdn.syndication.twimg.com/tweet-result?id=${id}&lang=en&token=${token}`, { headers: { accept: 'application/json' } });
+  if (!res.ok) return { ok: false, status: res.status };
+  const raw = await res.json();
+  if (raw.__typename === 'TweetTombstone') return { ok: false, status: 410, raw };
+  const photos = (t) => (t?.photos ?? []).map((p) => p.url).filter(Boolean);
+  const q = raw.quoted_tweet;
+  return {
+    ok: true, status: res.status, raw,
+    text: raw.note_tweet?.text ?? raw.text ?? null,
+    photos: photos(raw),
+    quoted: q ? { url: `https://x.com/${q.user?.screen_name}/status/${q.id_str}`, author: q.user?.screen_name ?? null, text: q.note_tweet?.text ?? q.text ?? null, photos: photos(q) } : null,
+  };
 }
 
 /** Fetch a Bluesky post through the public AppView API. */

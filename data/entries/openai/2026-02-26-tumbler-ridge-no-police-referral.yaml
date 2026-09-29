@@ -1,0 +1,99 @@
+title: 'Tumbler Ridge: OpenAI banned the shooter''s ChatGPT account months
+  earlier but did not alert police'
+date: 2026-02-26
+org: openai
+type: did
+kind: disclosure
+who: [openai, sam-altman]
+quote: >-
+  Based on what we could see at that time the account was banned in June 2025,
+  we did not identify credible and imminent planning that met our threshold to
+  refer the matter to law enforcement
+summary: >-
+  In June 2025, OpenAI's automated systems flagged a ChatGPT account for
+  conversations describing gun violence, and after human review the company
+  banned it. According to reporting first by The Wall Street Journal, some of
+  the roughly dozen employees who reviewed the account recommended telling
+  Canadian police, and company leaders decided it did not meet OpenAI's
+  threshold. On Feb. 10, 2026, the account's owner killed eight people in
+  Tumbler Ridge, British Columbia. In a letter to Canada's AI minister, OpenAI
+  confirmed the ban and said the shooter had evaded it with a second account,
+  which it found only after police released her name. OpenAI's published policy,
+  from August 2025, was that "if human reviewers determine that a case involves
+  an imminent threat of serious physical harm to others, we may refer it to law
+  enforcement."
+patterns: [sorry-after-caught]
+sources:
+  - title: OpenAI says Canada mass shooter evaded ban with second ChatGPT account
+    publisher: Associated Press (via Yahoo News)
+    url: https://www.yahoo.com/news/articles/openai-says-canada-mass-shooter-015159042.html
+    date: 2026-02-26
+    type: reporting
+    snapshot: snapshots/2026-09-29-yahoo.com-1b90c64f
+  - title: OpenAI knew. It chose not to call the police. Now Sam Altman is sorry.
+    publisher: The Next Web
+    url: https://thenextweb.com/news/sam-altman-openai-apology-tumbler-ridge-shooting
+    date: 2026-04-25
+    type: reporting
+    archive: https://web.archive.org/web/20260608135546/https://thenextweb.com/news/sam-altman-openai-apology-tumbler-ridge-shooting
+    snapshot: snapshots/2026-09-29-thenextweb.com-e8ab559d
+  - title: Helping people when they need it most
+    publisher: OpenAI
+    url: https://openai.com/index/helping-people-when-they-need-it-most/
+    date: 2025-08-26
+    type: primary
+  - title: OpenAI Says It's Scanning Users' ChatGPT Conversations and Reporting
+      Content to the Police
+    publisher: Futurism
+    url: https://futurism.com/openai-scanning-conversations-police
+    type: reporting
+    snapshot: snapshots/2026-09-29-futurism.com-a05131b4
+response: >-
+  OpenAI's vice president for global policy, Ann O'Leary, wrote that "under our
+  enhanced law enforcement referral protocol, we would refer the account banned
+  in June 2025 to law enforcement if it were discovered today," and said OpenAI
+  would set up a direct point of contact with Canadian law enforcement.
+updates:
+  - date: 2026-04-23
+    text: >-
+      Altman wrote an open letter to the Tumbler Ridge community: "I am deeply
+      sorry that we did not alert law enforcement to the account that was banned
+      in June."
+    sources:
+      - title: OpenAI knew. It chose not to call the police. Now Sam Altman is sorry.
+        publisher: The Next Web
+        url: https://thenextweb.com/news/sam-altman-openai-apology-tumbler-ridge-shooting
+        date: 2026-04-25
+        type: reporting
+        archive: https://web.archive.org/web/20260608135546/https://thenextweb.com/news/sam-altman-openai-apology-tumbler-ridge-shooting
+        snapshot: snapshots/2026-09-29-thenextweb.com-e8ab559d
+  - date: 2026-09-02
+    text: >-
+      Thirty more lawsuits were filed in federal court in San Francisco, adding
+      to seven filed in April. They allege that officials responsible for
+      OpenAI's public relations, including chief global affairs officer Chris
+      Lehane, overrode the safety team's recommendation to refer the account.
+      These are allegations. Chief strategy officer Jason Kwon called them
+      false: "it is absolutely false to say Chris Lehane was involved with our
+      original referral decision, or that our investigators report to him in any
+      way."
+    sources:
+      - title: New lawsuits claim OpenAI execs put image ahead of safety in Canadian
+          mass shooting
+        publisher: NPR
+        url: https://www.npr.org/2026/09/02/nx-s1-5953021/openai-tumbler-ridge-mass-shooting
+        date: 2026-09-02
+        type: reporting
+        archive: https://web.archive.org/web/20260914210202/https://www.npr.org/2026/09/02/nx-s1-5953021/openai-tumbler-ridge-mass-shooting
+        snapshot: snapshots/2026-09-29-npr.org-e1bd45c2
+      - title: Jason Kwon on X
+        publisher: X
+        url: https://x.com/jasonkwon/status/2095128559736226013
+        date: 2026-09-02
+        type: primary
+        snapshot: snapshots/2026-09-29-x.com-803464c1
+note: >-
+  OpenAI applied the threshold it had set for itself, and lowered it only after
+  the shooting. The record doesn't judge where that line belongs. It tracks that
+  the June 2025 decision was made internally and became public only after eight
+  people had been killed.

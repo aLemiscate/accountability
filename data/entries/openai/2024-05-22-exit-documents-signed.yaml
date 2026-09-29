@@ -3,15 +3,15 @@ date: 2024-05-22
 org: openai
 type: did
 kind: disclosure
-who: [ sam-altman, jason-kwon, openai ]
+who: [sam-altman, jason-kwon, openai]
 summary: >-
   Vox published leaked documents showing high-pressure tactics toward departing
   employees: short deadlines to sign broad non-disparagement and non-disclosure
   terms, backed by threats to vested equity. Company documents bearing the
   signatures of Altman and Chief Strategy Officer Jason Kwon undercut the claim
   that leadership hadn't known.
-contradicts: [ 2024-05-18-altman-did-not-know ]
-patterns: [ pressure-on-critics, sorry-after-caught ]
+contradicts: [2024-05-18-altman-did-not-know]
+patterns: [pressure-on-critics, sorry-after-caught]
 sources:
   - title: Leaked OpenAI documents reveal aggressive tactics toward former employees
       (Vox, via X)

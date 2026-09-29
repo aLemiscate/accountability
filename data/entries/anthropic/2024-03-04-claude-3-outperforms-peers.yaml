@@ -4,7 +4,7 @@ date: 2024-03-04
 org: anthropic
 type: did
 kind: action
-who: [ anthropic ]
+who: [anthropic]
 quote: >-
   Opus, our most intelligent model, outperforms its peers on most of the common
   evaluation benchmarks for AI systems…
@@ -12,8 +12,8 @@ summary: >-
   Anthropic launched Claude 3 and said the family "sets new industry benchmarks
   across a wide range of cognitive tasks." It was the first time the company
   marketed a model as the most capable available.
-contradicts: [ 2023-03-08-core-views-no-capabilities-acceleration ]
-patterns: [ race-clause ]
+contradicts: [2023-03-08-core-views-no-capabilities-acceleration]
+patterns: [race-clause]
 sources:
   - title: Introducing the next generation of Claude
     publisher: Anthropic

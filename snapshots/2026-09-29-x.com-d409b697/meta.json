@@ -1,0 +1,28 @@
+{
+  "url": "https://x.com/hilbertspaess/status/2097476196791709843",
+  "captured_at": "2026-09-29T22:35:53.350Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "2dc6747ee82b176a8cdf84b274def9e2985627f32b1cc4aaa90ded17f94b6ce0",
+    "page.txt": "b1ccb95b8afb1a0eac5329136f879f2c932a7223e08047ee0be8daa1b422d31c",
+    "post.json": "b3a299d294ac907ec0dc4511a79de6ebf93f2f4fa5b2c10b2fd82d48bf83af05",
+    "post.txt": "73e194bf622ec27278cc55abcf9b6df573c33d6bfbe12be8f5df69b26c3a73b5"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/hilbertspaess/status/2097476196791709843",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Jacob Coxon on X: \"I resigned from Anthropic today. I spent the last three years doing pretraining research at both OpenAI and Anthropic. Neither company is acting responsibly. They are racing straight to self-improving superintelligence and gambling with our lives. More thoughts below.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Jacob Coxon (@hilbertspaess)",
+    "date": "September 9, 2026",
+    "posted_at": "2026-09-09T00:04:29.195Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260916001541/https://x.com/hilbertspaess/status/2097476196791709843",
+    "timestamp": "20260916001541",
+    "method": "existing"
+  }
+}

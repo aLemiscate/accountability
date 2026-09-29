@@ -1,0 +1,24 @@
+{
+  "url": "https://x.com/AnthropicAI/status/2097762642958135398",
+  "captured_at": "2026-09-29T22:39:36.574Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "895b48e550d194893e14a44f58ac2796252fdd1e8b0af9eb6eea08401f8b43f2",
+    "page.txt": "5abcc8921f01baf30ca1ee530aef1361b80a1db3e8c77e026a841d041ebd84c9",
+    "post.json": "8e9ee4cc4148df9f3add97a993ab758b503cfccd2990bb44bf7f8abbfa2c2505",
+    "post.txt": "e588905b659c10be5b566c3175e253cd4405efd43d9ec6c86a4eb93e18fa6957"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/AnthropicAI/status/2097762642958135398",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Anthropic on X: \"We’re sharing our alignment assessment of incidents in which Claude models gained unauthorized access to real systems during third-party cybersecurity evaluations mistakenly connected to the internet. METR will also conduct an independent investigation, with wide-ranging access, i… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Anthropic (@AnthropicAI)",
+    "date": "September 9, 2026",
+    "posted_at": "2026-09-09T19:02:43.283Z"
+  },
+  "rendered_status": 403,
+  "archive": null
+}

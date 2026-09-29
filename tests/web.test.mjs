@@ -22,3 +22,8 @@ test('extracts readable text and drops scripts and styles', () => {
   assert.equal(pageTitle(html), 'Policy & Terms');
   assert.equal(htmlToText(html), 'Usage\nDo not use for weapons .\n• One\n• Two');
 });
+
+test('list items with attributes do not leak markup into the text', () => {
+  const html = '<main><ul><li class="menu-item" data-text="Markets">Markets</li><li id="footnote-1">A footnote.</li></ul></main>';
+  assert.equal(htmlToText(html), '• Markets\n• A footnote.');
+});
