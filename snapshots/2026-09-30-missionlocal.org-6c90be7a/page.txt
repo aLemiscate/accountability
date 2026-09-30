@@ -1,0 +1,166 @@
+Posted in Tech
+California’s first AI-safety law didn’t cover the first rogue AI hacks
+Gov. Gavin Newsom touted the law as cutting-edge. Its author says he should’ve gone with the original draft.
+by
+Brandon Pho
+September 9, 2026, 1:37 pm September 10, 2026, 11:35 am
+Share this:
+• Share
+•
+•
+Share on Facebook (Opens in new window)
+Facebook
+•
+Share on Reddit (Opens in new window)
+Reddit
+•
+Share on X (Opens in new window)
+X
+•
+Share on WhatsApp (Opens in new window)
+WhatsApp
+•
+Share on Bluesky (Opens in new window)
+Bluesky
+•
+Print (Opens in new window)
+Print
+•
+Email a link to a friend (Opens in new window)
+Email
+•
+Newsom vetoed Scott Wiener's SB 1047 for a narrower bill. When OpenAI agents broke containment and hacked Hugging Face, the state said it didn't meet SB 53's reporting threshold. Collage by Brandon Pho.
+In an unusual move two years ago, eight California congressional representatives intervened on a state bill that sought to curb the threat of AI models so advanced they were not yet known to exist.
+The bill’s underlying concerns, the federal lawmakers wrote in a letter to Gov. Gavin Newsom at the time, were “hypothetical” — echoing some Silicon Valley tech moguls who had decried the law’s basis as “science fiction.”
+Newsom listened. In late September 2024, he vetoed Senate Bill 1047, introduced by state Sen. Scott Wiener.
+The bill would have been the country’s first AI-safety law, and would have required frontier AI companies to determine whether their products could lead to mass death or cripple public infrastructure. It would also have required annual third-party audits of leading AI companies’ safety practices, and required the firms to maintain a kill switch.
+Wiener compromised. A year later, Newsom signed Wiener’s follow-up bill, SB 53 , which placed transparency requirements on frontier companies but laid out different incident reporting requirements, and left out kill switches and third-party auditor mandates.
+Newsom hailed it for keeping California ahead on innovation while implementing safeguards.
+But that bill failed to trigger during the country’s first disclosed AI cyberattack this summer, according to Newsom’s own officials, after OpenAI disclosed a swarm of AI “agents” had escaped containment, obtained illicit access to the internet, and hacked another tech company.
+Wiener, AI safety experts, and a former OpenAI employee say that, in hindsight, scuttling the original bill was a mistake.
+“Very roughly, SB 1047 would have sped up state AI policy by about two years,” a former OpenAI employee told Mission Local , adding that it could have improved transparency and auditing practices to address the recent cyberattacks.
+“Had we passed SB 1047, we could have started to work around things like setting up mandatory audits, and had an obligation for companies to take additional measures and prevent these sort of loss-of-control incidents,” added Nathan Calvin, the general counsel for the Washington, D.C.-based AI policy think tank Encode AI.
+Attorney General Rob Bonta has announced an investigation into the OpenAI hack. Members of Congress have, to little avail, demanded the disclosure of key records from OpenAI. The company, along with Anthropic and Meta, has since publicized additional incidents involving agents acting in unauthorized ways.
+More than 1,000 employees from leading AI companies have signed a letter calling for the slowdown of the technology’s development. An Anthropic researcher publicly quit the company on Tuesday over concerns about AI’s safety risks, following the February departure of the company’s lead safeguards researcher.
+Wiener now says those who criticized him and others as Cassandras were dead wrong.
+“We were called ‘doomers’ and ‘decels,’ and told that the risks we warned about were science fiction and not a serious risk we would see anytime soon. It turns out we were right, and the critics were wrong,” Wiener told Mission Local .
+Alex Bores, a New York assemblyman who authored the state’s first AI safety bill, also told Mission Local that Newsom’s veto was a mistake: “In national security, you don’t wait for an attack and then decide what to do about it. We plan ahead of time to get a better response.”
+OpenAI’s top brass opposed SB 1047. In light of the summer attack, they have since publicly called for the compromise bill, SB 53, to be strengthened.
+“I believe this incident would have been covered by SB 1047 had it been signed into law, given the multiple state pathways to trigger the bill,” Wiener told Mission Local .
+State lawmakers say it’s ‘unclear’ if AI companies are following state law
+OpenAI, in its report on the hack, said that AI agents — autonomous systems making decisions, within parameters but without supervision, to achieve a goal — had exploited a software flaw in an internal test between June and July to gain unauthorized internet access.
+A “swarm” of those agents inside OpenAI’s systems left secret messages for each other, according to an independent report from the AI research nonprofit METR, faked parts of their own activity logs, and hacked an external company called Hugging Face.
+It was all in an effort to, essentially, steal the answers to a cybersecurity test the AI systems had been given by the company. Around 1,200 agents found the message board, and 700 joined the cyberattack on Hugging Face’s servers.
+State officials, in an Aug. 10 state privacy and consumer protection hearing on the cyberattack, acknowledged the limits of California’s current AI regulation.
+You're using an ad blocker . That's OK.
+Mission Local is a nonprofit newsroom. We rely on readers to support our free reporting. Subscribe to our free newsletter and support us a better way.
+Pick at least one newsletter to subscribe.
+Subscribe free
+Unsubscribe anytime.
+You follow tech in San Francisco . So do we.
+Pick at least one newsletter to subscribe.
+Subscribe free
+Unsubscribe anytime.
+Jonathan Snow, the deputy director for the Homeland Security Division of the Governor’s Office of Emergency Services, said that the OpenAI hack “did not meet the threshold” for reporting under SB 53, which requires frontier developers to report critical safety incidents to the Office of Emergency Services within 15 days.
+The details of the hack were instead made public by OpenAI itself and a group of outside investigators it granted access. But the access was highly limited in scope, as investigators agreed not to examine whether the company took appropriate action on what it knew and when.
+SB 53’s reporting requirements span a limited set of safety incidents that happen outside of an evaluation, such as dangerously deceptive model behavior, physical injury or death.
+In a statement to Mission Local , a spokesperson for the Office of Emergency Services said SB 53 “is not intended to make every cybersecurity incident involving an AI company reportable” to the state.
+Assemblymember Rebecca Bauer-Kahan, at the Aug. 10 hearing, said it was “no secret” that none of the frontier companies met SB 53’s threat-level “thresholds” for requiring an incident report to the state at the time it was passed.
+“It’s unclear to date if anyone is actually complying with SB 53,” Bauer-Kahan, the state privacy and consumer protection committee’s chair, said at the meeting.
+Original AI bill would have empowered outside auditors
+Newsom’s office dismissed the concerns from lawmakers and AI safety advocates, falling back on his signing of SB 53.
+“Your inquiry ignores that the Governor signed subsequent legislation in 2025, SB 53, also authored by Senator Wiener, to address the emergence of frontier AI,” Newsom spokesperson Tara Gallegos wrote Mission Local in an email. “SB 53 was designed to be updated based on evolving threats and needs.”
+After OpenAI’s disclosure of the cybersecurity breach, the public has learned of several additional incidents in which frontier AI systems at Anthropic and Meta have gained unauthorized access to the production systems of external organizations.
+On Friday, reporting by Reuters tied OpenAI to another, previously undisclosed May incident in which autonomous agents hijacked a German website.
+SB 53 didn’t cover those, either.
+And, unlike Wiener’s original bill, SB 53 does not mandate AI firms retain third-party auditors to ensure they’re following their protocols. Many of the research into the recent hacks have come from such auditors — but only because Open AI chose to allow them in.
+The late August report by AI research centers METR and Redwood Research, which fired warning shots about AI’s future ability to outsmart human developers, was limited in scope: The company limited investigators to 18 days, from June 26 through July 13, despite acknowledging that it had detected irregular activity much earlier, in May.
+Researchers wrote that they agreed, at OpenAI’s behest, to not investigate the effectiveness of the firm’s safeguards related to the incident. They agreed not to delve into the extent of the security failures, and how effectively OpenAI investigated, and remediated, the issue.
+“There’s an open question of what OpenAI knew and when the company knew it, and it certainly seems that even when they had these red flags, they continued business as usual,” said Calvin, in an interview. “The researchers’ report did a good job, but it did not really talk at all about OpenAI’s organizational failures.”
+A spokesperson for OpenAI didn’t respond to a request for comment.
+Wiener, who is in the midst of a race against District 1 San Francisco Supervisor Connie Chan to replace Speaker Emerita Nancy Pelosi, is ramping up on the AI safety issue. He issued a joint call on Sept. 3 with other lawmakers, including Bores, to slow AI development at frontier companies.
+Still, he has stopped short of calling for a pause on AI development, full stop — though Sen. Bernie Sanders and some others have done so — and has benefited from hundreds of thousands of dollars in support from Anthropic and OpenAI employees.
+“I think the genie is out of the bottle, so to speak: Countless open-source AI models are already freely available to anyone on the internet to download and manipulate,” Wiener said. “Many of these models have been developed overseas. We don’t fully understand how these models behave or what risks they pose.”
+For their part, most congressmembers who signed the August letter either declined to comment or did not respond in light of the cyberattacks. Congressmembers Zoe Lofgren and Ro Khanna said they didn’t regret opposing the bill.
+“The better way to regulate it is at the federal level. That is why I have been calling for the creation of an AI Safety Institute that would regulate reinforcement learning, the exact issue that caused the [OpenAI] incident,” said Khanna.
+The United States still has no comprehensive federal law governing artificial intelligence.
+There's a lot on the ballot, but we've got you covered.
+This November, San Franciscans will weigh in on 30+ candidates, 10 ballot measures, and a host of other regional and state propositions. But fear not: Mission Local is covering it all.
+We have the most in-depth election reporting in San Francisco, covering every race up and down the ballot. We're doing weekly questionnaires of every major candidate, diving deep into the money behind the election, and analyzing what it all means.
+We think that's critical to a city like this. And we think it's critical that election reporting remain free for all to read , because every voter deserves to know where candidates stand.
+Support our election coverage!
+Thanks to more than 3,000 donors, our election reporting is free. Will you join them?
+Latest News
+Pedestrian killed steps away from Inner Richmond playground
+How the Hunters Point shipyard crane became a colossal art installation
+Supervisor Fielder pitches ‘good government’ measures on transparency, corruption
+Tagged: AI , Anthropic , OpenAI , Scott Wiener
+Brandon Pho
+brandon@missionlocal.com
+Brandon Pho covers tech and power in San Francisco.
+He has reported on communities up and down California since 2018.
+Right before joining Mission Local, he sparked a California lawsuit against the federal government after obtaining and publishing the blueprints for a secret Bay Area ICE facility.
+He likes the TV series ‘Columbo’ and lives under the panoptic surveillance of his two cats near Mission Dolores.
+More by Brandon Pho
+Join the Conversation
+4 Comments
+•
+Karl says:
+September 10, 2026, 5:55 am at 5:55 am
+State Senator Scott Wiener is the only candidate in the CA11 Congressional race to actually author, and get passed into law, legislation regulating AI.
+On the other hand, Connie Chan hasn’t done squat.
++3
+-2
+votes. Sign in to vote
+Reply
+•
+h. brown says:
+September 15, 2026, 4:46 pm at 4:46 pm
+Go as fast as we can toward AI dominance !!
+We’ve had the means to destroy our species for 80 years and only pure luck has prevented us from doing so.
+The Doomsday Clock is now set at 85 seconds to midnight.
+If AI takes charge and is a force for Good (90%) it will make that threat go away.
+And, if it is a force for Good (90%) it will evenly divide the wealth for the first time ever.
+It will cure all diseases (90%).
+Let’s end all Human misery possible.
+One way or the other.
+go Niners !!
+h.
+0
+0
+votes. Sign in to vote
+Reply
+•
+Joel says:
+September 10, 2026, 9:01 am at 9:01 am
+Another reason why Gavin Newsom should never be allowed anywhere near the White House. Yeah, I get it. We all hate Trump. But Newsom represents a deeply toxic and dangerous dark money nihilism that could do far more to advance tech oligarchy in ways even Trump couldn’t imagine. He’ll do it with a smile, and fake liberal Avengers cosplay, and convince you that he is the good guy “standing up to Trump”, or whoever replaces him.
+And once he’s in office, he will silence everyone on the Left and Right who have been sounding the alarm on AI Super-intelligence. He’s very good at this.
+0
+0
+votes. Sign in to vote
+Reply
+•
+mike says:
+September 9, 2026, 5:27 pm at 5:27 pm
+Wiener is as serious about regulating AI as he’s serious about using it to lie. Joke.
+Also not a joke.
+0
+-3
+votes. Sign in to vote
+Reply
+Expand comments
+Leave a comment
+Please keep your comments short and civil. Do not leave multiple comments under multiple names on one article. We will zap comments that fail to adhere to these short and easy-to-follow rules.
+Cancel reply Your email address will not be published. Required fields are marked *
+Comment *
+Name *
+Email *
+Website
+Δ
+Leave a comment
+Mission Local reporters are your guides for this election. Donate today to make our election coverage possible.
+Donate
+Sign up for Mission Local's daily newsletter: The latest San Francisco news in your inbox.
+Pick at least one newsletter to subscribe.
+Subscribe free
+Unsubscribe anytime.

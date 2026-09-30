@@ -1,0 +1,43 @@
+title: 'Seoul commitments: OpenAI pledges not to develop or deploy a model at all
+  if risks can''t be kept below its thresholds'
+date: 2024-05-21
+org: openai
+type: said
+kind: commitment
+who: [openai]
+venue: Frontier AI Safety Commitments, AI Seoul Summit
+quote: >-
+  In the extreme, organisations commit not to develop or deploy a model or
+  system at all, if mitigations cannot be applied to keep risks below the
+  thresholds.
+summary: >-
+  OpenAI was one of 16 companies to sign the Frontier AI Safety Commitments at
+  the Seoul summit. Signatories pledged to publish a safety framework before the
+  AI summit in France, to set thresholds at which risks would be "deemed
+  intolerable" with input from governments, to explain how those thresholds were
+  chosen, and to stop development or deployment if mitigations couldn't keep
+  risk below them.
+concreteness: conditional
+status: eroded
+breaks_if: >-
+  A framework that lets the company proceed past an intolerable-risk threshold
+  because a competitor did, or thresholds set without the government input and
+  explanation the commitments call for.
+patterns: [race-clause]
+related: [2025-04-15-preparedness-framework-v2, 2024-05-21-anthropic-seoul-commitments]
+sources:
+  - title: Frontier AI Safety Commitments, AI Seoul Summit 2024
+    publisher: UK Government (DSIT)
+    url: https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024
+    date: 2024-05-21
+    type: primary
+    snapshot: snapshots/2026-09-30-gov.uk-4487a62b
+updates:
+  - date: 2025-04-15
+    text: >-
+      OpenAI's revised Preparedness Framework said it "may adjust our
+      requirements" if another developer released a high-risk system without
+      comparable safeguards. See 2025-04-15-preparedness-framework-v2.
+note: >-
+  "Eroded" because the 2025 competitor clause makes the Seoul stop-line
+  conditional on what rivals do. OpenAI did publish a framework, as promised.

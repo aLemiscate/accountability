@@ -1,0 +1,47 @@
+title: While Altman tours capitals asking for regulation, OpenAI lobbies to keep
+  its models out of the EU AI Act's "high risk" tier
+date: 2023-06-20
+org: openai
+type: did
+kind: disclosure
+who: [openai, sam-altman]
+quote: >-
+  By itself, GPT-3 is not a high-risk system … But [it] possesses capabilities
+  that can potentially be employed in high risk use cases.
+summary: >-
+  Documents TIME obtained from the European Commission through freedom of
+  information requests showed that in 2022 OpenAI repeatedly argued that its
+  general-purpose systems, including GPT-3 and DALL-E 2, should not be
+  classified as "high risk" under the EU AI Act, a label that would bring
+  transparency, traceability and human-oversight requirements. Its September
+  2022 white paper opposed an amendment that would have covered generative
+  systems whose output could "falsely appear" human-made. TIME reported that the
+  wording OpenAI objected to was not in the text the European Parliament
+  approved in June 2023. In May 2023, the month Altman told the US Senate he
+  would license powerful AI, he told reporters OpenAI could "cease operating" in
+  Europe over the Act, then wrote that it had "no plans to leave."
+contradicts: [2023-05-16-altman-senate-licensing-agency]
+patterns: [regulate-us-not-like-that]
+sources:
+  - title: 'Exclusive: OpenAI Lobbied the E.U. to Water Down AI Regulation'
+    publisher: TIME
+    url: https://time.com/6288245/openai-eu-lobbying-ai-act/
+    date: 2023-06-20
+    type: reporting
+    snapshot: snapshots/2026-09-30-time.com-204b0c80
+  - title: Sam Altman on X ("no plans to leave")
+    publisher: X
+    url: https://x.com/sama/status/1661975237280567297
+    date: 2023-05-26
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-8d6cded8
+response: >-
+  An OpenAI spokesperson told TIME that it provided the overview "at the request
+  of policymakers in the E.U." and commented on the draft "based on that
+  experience," and that "we continue to engage with policymakers and support the
+  E.U.'s goal of ensuring AI tools are built, deployed and used safely now and in
+  the future."
+note: >-
+  Asking for a licensing regime in Washington while arguing in Brussels that
+  your own models shouldn't carry the strictest obligations is the pattern in
+  its cleanest form.

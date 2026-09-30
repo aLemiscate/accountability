@@ -1,0 +1,45 @@
+title: Anthropic confirms it used non-disparagement clauses too, after a critic
+  reports them
+date: 2024-07
+org: anthropic
+type: did
+kind: disclosure
+who: [anthropic, sam-mccandlish]
+quote: >-
+  We historically included standard non-disparagement terms by default in
+  severance agreements, and in some non-US employment contracts.
+summary: >-
+  Weeks after the OpenAI exit-agreement story, Oliver Habryka reported that
+  Anthropic had asked departing employees to sign non-disparagement agreements
+  whose existence they were also barred from disclosing. Co-founder Sam
+  McCandlish responded that Anthropic had never tied such agreements to vested
+  equity, that since June 1 it had been removing the terms from its standard
+  agreements, that anyone who had signed one was free to say so "(and we regret
+  that some previous agreements were unclear on this point)," and that it would
+  not enforce them against people raising safety concerns. Habryka replied that
+  the agreements he had seen were not ambiguous: "Employees of Anthropic were
+  asked to sign non-disparagement agreements with a commitment to never tell
+  anyone about the presence of those non-disparagement agreements."
+patterns: [sorry-after-caught, pressure-on-critics]
+related: [2024-05-22-exit-documents-signed]
+sources:
+  - title: 'AI #72: Denying the Future (quoting McCandlish''s statement in full)'
+    publisher: Zvi Mowshowitz, LessWrong
+    url: https://www.lesswrong.com/posts/xAoXxjtDGGCP7tBDY/ai-72-denying-the-future
+    date: 2024-07
+    type: archive
+    snapshot: snapshots/2026-09-30-lesswrong.com-f9894b08
+  - title: Oliver Habryka, shortform reply to Sam McCandlish
+    publisher: LessWrong
+    url: https://www.lesswrong.com/posts/EQJfdqSaMcJyR5k73/habryka-s-shortform-feed?commentId=FRHWfWuG6CrZTMxhz
+    date: 2024-07
+    type: primary
+    snapshot: snapshots/2026-09-30-lesswrong.com-d2e3b191
+response: >-
+  McCandlish: "we're not here to play games with AI safety using legal
+  contracts. Anthropic's whole reason for existing is to increase the chance
+  that AI goes well." He pointed to the Long-Term Benefit Trust and an anonymous
+  RSP non-compliance reporting line.
+note: >-
+  Same practice, smaller stakes than OpenAI's (no equity was at risk), same
+  sequence: the fix came after someone outside reported it.

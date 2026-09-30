@@ -1,0 +1,355 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 45,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2025-04-11T04:09:37.000Z",
+  "display_text_range": [
+    0,
+    67
+  ],
+  "entities": {
+    "urls": [
+      {
+        "display_url": "on.ft.com/42GPrbG",
+        "expanded_url": "https://on.ft.com/42GPrbG",
+        "indices": [
+          44,
+          67
+        ],
+        "url": "https://t.co/sbNtaZ4foV"
+      }
+    ]
+  },
+  "id_str": "1910545751119135199",
+  "text": "OpenAI slashes AI model safety testing time https://t.co/sbNtaZ4foV",
+  "user": {
+    "id_str": "18949452",
+    "name": "Financial Times",
+    "screen_name": "FT",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/931156393108885504/EqEMtLhM_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1910545751119135199"
+    ],
+    "editable_until_msecs": "1744348177000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 5,
+  "news_action_type": "conversation",
+  "card": {
+    "card_platform": {
+      "platform": {
+        "audience": {
+          "name": "production"
+        },
+        "device": {
+          "name": "iPhone",
+          "version": "13"
+        }
+      }
+    },
+    "name": "summary_large_image",
+    "url": "https://t.co/sbNtaZ4foV",
+    "binding_values": {
+      "photo_image_full_size_large": {
+        "image_value": {
+          "height": 367,
+          "url": "https://pbs.twimg.com/card_img/2105044613207629825/ijZBlsmS?format=jpg&name=800x419",
+          "width": 700
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image": {
+        "image_value": {
+          "height": 150,
+          "url": "https://pbs.twimg.com/card_img/2105044613207629825/ijZBlsmS?format=jpg&name=280x150",
+          "width": 266
+        },
+        "type": "IMAGE"
+      },
+      "description": {
+        "string_value": "Testers have raised concerns the technology is being rushed out without sufficient safeguards",
+        "type": "STRING"
+      },
+      "domain": {
+        "string_value": "www.ft.com",
+        "type": "STRING"
+      },
+      "thumbnail_image_large": {
+        "image_value": {
+          "height": 320,
+          "url": "https://pbs.twimg.com/card_img/2105044613207629825/ijZBlsmS?format=jpg&name=800x320_1",
+          "width": 569
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_small": {
+        "image_value": {
+          "height": 202,
+          "url": "https://pbs.twimg.com/card_img/2105044613207629825/ijZBlsmS?format=jpg&name=386x202",
+          "width": 386
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_original": {
+        "image_value": {
+          "height": 394,
+          "url": "https://pbs.twimg.com/card_img/2105044613207629825/ijZBlsmS?format=jpg&name=orig",
+          "width": 700
+        },
+        "type": "IMAGE"
+      },
+      "site": {
+        "scribe_key": "publisher_id",
+        "type": "USER",
+        "user_value": {
+          "id_str": "4898091",
+          "path": []
+        }
+      },
+      "photo_image_full_size_small": {
+        "image_value": {
+          "height": 202,
+          "url": "https://pbs.twimg.com/card_img/2105044613207629825/ijZBlsmS?format=jpg&name=386x202",
+          "width": 386
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_large": {
+        "image_value": {
+          "height": 367,
+          "url": "https://pbs.twimg.com/card_img/2105044613207629825/ijZBlsmS?format=jpg&name=800x419",
+          "width": 700
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_small": {
+        "image_value": {
+          "height": 81,
+          "url": "https://pbs.twimg.com/card_img/2105044613207629825/ijZBlsmS?format=jpg&name=144x144",
+          "width": 144
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_x_large": {
+        "image_value": {
+          "height": 394,
+          "url": "https://pbs.twimg.com/card_img/2105044613207629825/ijZBlsmS?format=png&name=2048x2048_2_exp",
+          "width": 700
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_original": {
+        "image_value": {
+          "height": 394,
+          "url": "https://pbs.twimg.com/card_img/2105044613207629825/ijZBlsmS?format=jpg&name=orig",
+          "width": 700
+        },
+        "type": "IMAGE"
+      },
+      "vanity_url": {
+        "scribe_key": "vanity_url",
+        "string_value": "ft.com",
+        "type": "STRING"
+      },
+      "photo_image_full_size": {
+        "image_value": {
+          "height": 314,
+          "url": "https://pbs.twimg.com/card_img/2105044613207629825/ijZBlsmS?format=jpg&name=600x314",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 37.8,
+              "rgb": {
+                "blue": 164,
+                "green": 123,
+                "red": 1
+              }
+            },
+            {
+              "percentage": 35.85,
+              "rgb": {
+                "blue": 61,
+                "green": 53,
+                "red": 11
+              }
+            },
+            {
+              "percentage": 20.97,
+              "rgb": {
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              }
+            },
+            {
+              "percentage": 6.24,
+              "rgb": {
+                "blue": 103,
+                "green": 103,
+                "red": 103
+              }
+            },
+            {
+              "percentage": 0.92,
+              "rgb": {
+                "blue": 117,
+                "green": 110,
+                "red": 88
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "title": {
+        "string_value": "OpenAI slashes AI model safety testing time",
+        "type": "STRING"
+      },
+      "summary_photo_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 37.8,
+              "rgb": {
+                "blue": 164,
+                "green": 123,
+                "red": 1
+              }
+            },
+            {
+              "percentage": 35.85,
+              "rgb": {
+                "blue": 61,
+                "green": 53,
+                "red": 11
+              }
+            },
+            {
+              "percentage": 20.97,
+              "rgb": {
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              }
+            },
+            {
+              "percentage": 6.24,
+              "rgb": {
+                "blue": 103,
+                "green": 103,
+                "red": 103
+              }
+            },
+            {
+              "percentage": 0.92,
+              "rgb": {
+                "blue": 117,
+                "green": 110,
+                "red": 88
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "summary_photo_image_x_large": {
+        "image_value": {
+          "height": 394,
+          "url": "https://pbs.twimg.com/card_img/2105044613207629825/ijZBlsmS?format=png&name=2048x2048_2_exp",
+          "width": 700
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image": {
+        "image_value": {
+          "height": 314,
+          "url": "https://pbs.twimg.com/card_img/2105044613207629825/ijZBlsmS?format=jpg&name=600x314",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 37.8,
+              "rgb": {
+                "blue": 164,
+                "green": 123,
+                "red": 1
+              }
+            },
+            {
+              "percentage": 35.85,
+              "rgb": {
+                "blue": 61,
+                "green": 53,
+                "red": 11
+              }
+            },
+            {
+              "percentage": 20.97,
+              "rgb": {
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              }
+            },
+            {
+              "percentage": 6.24,
+              "rgb": {
+                "blue": 103,
+                "green": 103,
+                "red": 103
+              }
+            },
+            {
+              "percentage": 0.92,
+              "rgb": {
+                "blue": 117,
+                "green": 110,
+                "red": 88
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "photo_image_full_size_x_large": {
+        "image_value": {
+          "height": 394,
+          "url": "https://pbs.twimg.com/card_img/2105044613207629825/ijZBlsmS?format=png&name=2048x2048_2_exp",
+          "width": 700
+        },
+        "type": "IMAGE"
+      },
+      "card_url": {
+        "scribe_key": "card_url",
+        "string_value": "https://t.co/sbNtaZ4foV",
+        "type": "STRING"
+      },
+      "summary_photo_image_original": {
+        "image_value": {
+          "height": 394,
+          "url": "https://pbs.twimg.com/card_img/2105044613207629825/ijZBlsmS?format=jpg&name=orig",
+          "width": 700
+        },
+        "type": "IMAGE"
+      }
+    }
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}
