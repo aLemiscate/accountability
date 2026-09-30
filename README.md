@@ -253,3 +253,5 @@ tests/                       node --test suites
 
 See [METHODOLOGY.md](METHODOLOGY.md): who is in scope, what counts as evidence,
 how statuses are assigned, and how corrections work.
+[COVERAGE.md](COVERAGE.md) says where the entries came from, how the two
+companies compare, and what the record may still be missing.
