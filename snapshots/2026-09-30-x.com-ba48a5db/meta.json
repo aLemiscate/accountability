@@ -1,0 +1,35 @@
+{
+  "url": "https://x.com/sjgadler/status/1952790678175662527",
+  "captured_at": "2026-09-30T13:10:59.932Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "bcf788087bbd0e1d6a176721b6fcabadff913b99446595fe7e9ed14092d684a0",
+    "page.txt": "05a344f3a0398c34dbd898cb3f95e9faba7d79cc306dfd30c0602490a997f368",
+    "post.json": "4d3ba05f70d08032e4760083d6e38c88bfd327a6e0b2e92781bae86f5c047acc",
+    "syndication.json": "ad2b48b3792e423fe6995db30d0b66fad9391a1f88cba00e17ef880406bf274e",
+    "media-1.png": "c40965a6b27de0de787d0fc95c30b57da678fe1f12708ad76cbd3978c2e6b993",
+    "media-2.jpg": "22d0d424cfb60bf2a5e17993f192aae755d191273269b362ae5288a2f8e9aea2",
+    "post.txt": "072dffd20e098505905993a4a4b3e1bacb88510478e594fbdfde7a0e0f994802"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sjgadler/status/1952790678175662527",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Steven Adler on X: \"Credit where it's due: OpenAl did a lot right for their OSS safety evals - they actually did some fine-tuning - they got useful external feedback - they shared which recs they adopted and which they didn't I don't always follow OAI's rationale, but it's great they share info\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Steven Adler (@sjgadler)",
+    "date": "August 5, 2025",
+    "posted_at": "2025-08-05T17:55:53.430Z",
+    "media": [
+      {
+        "file": "media-1.png",
+        "url": "https://pbs.twimg.com/media/Gxm0VtEawAERhgX.png"
+      },
+      {
+        "file": "media-2.jpg",
+        "url": "https://pbs.twimg.com/media/Gxm0WgVawAQrpL6.jpg"
+      }
+    ]
+  }
+}

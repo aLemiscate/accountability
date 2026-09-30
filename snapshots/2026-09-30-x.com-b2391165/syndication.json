@@ -1,0 +1,355 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 4117,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2017-10-18T16:12:33.000Z",
+  "display_text_range": [
+    0,
+    139
+  ],
+  "entities": {
+    "urls": [
+      {
+        "display_url": "wsj.com/articles/prote…",
+        "expanded_url": "https://www.wsj.com/articles/protecting-against-ais-existential-threat-1508332313",
+        "indices": [
+          116,
+          139
+        ],
+        "url": "https://t.co/Zib5CWr257"
+      }
+    ]
+  },
+  "id_str": "920684033582841856",
+  "text": "Building advanced AI and only then making it safe is like building the internet and later trying to make it secure: https://t.co/Zib5CWr257",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "920684033582841856"
+    ],
+    "editable_until_msecs": "1508344953745",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 150,
+  "news_action_type": "conversation",
+  "card": {
+    "card_platform": {
+      "platform": {
+        "audience": {
+          "name": "production"
+        },
+        "device": {
+          "name": "iPhone",
+          "version": "13"
+        }
+      }
+    },
+    "name": "summary_large_image",
+    "url": "https://t.co/Zib5CWr257",
+    "binding_values": {
+      "photo_image_full_size_large": {
+        "image_value": {
+          "alt": "Protecting Against AI’s Existential Threat",
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2103690914166431744/9fRsE600?format=jpg&name=800x419",
+          "width": 800
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image": {
+        "image_value": {
+          "alt": "Protecting Against AI’s Existential Threat",
+          "height": 150,
+          "url": "https://pbs.twimg.com/card_img/2103690914166431744/9fRsE600?format=jpg&name=280x150",
+          "width": 225
+        },
+        "type": "IMAGE"
+      },
+      "description": {
+        "string_value": "How to avoid the nightmare scenario of artificial intelligence? According to researchers from Elon Musk’s OpenAI, the trick is teaching machines to keep our interests in mind",
+        "type": "STRING"
+      },
+      "domain": {
+        "string_value": "www.wsj.com",
+        "type": "STRING"
+      },
+      "thumbnail_image_large": {
+        "image_value": {
+          "alt": "Protecting Against AI’s Existential Threat",
+          "height": 320,
+          "url": "https://pbs.twimg.com/card_img/2103690914166431744/9fRsE600?format=jpg&name=800x320_1",
+          "width": 480
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_small": {
+        "image_value": {
+          "alt": "Protecting Against AI’s Existential Threat",
+          "height": 202,
+          "url": "https://pbs.twimg.com/card_img/2103690914166431744/9fRsE600?format=jpg&name=386x202",
+          "width": 386
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_original": {
+        "image_value": {
+          "alt": "Protecting Against AI’s Existential Threat",
+          "height": 853,
+          "url": "https://pbs.twimg.com/card_img/2103690914166431744/9fRsE600?format=jpg&name=orig",
+          "width": 1280
+        },
+        "type": "IMAGE"
+      },
+      "site": {
+        "scribe_key": "publisher_id",
+        "type": "USER",
+        "user_value": {
+          "id_str": "3108351",
+          "path": []
+        }
+      },
+      "photo_image_full_size_small": {
+        "image_value": {
+          "alt": "Protecting Against AI’s Existential Threat",
+          "height": 202,
+          "url": "https://pbs.twimg.com/card_img/2103690914166431744/9fRsE600?format=jpg&name=386x202",
+          "width": 386
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_large": {
+        "image_value": {
+          "alt": "Protecting Against AI’s Existential Threat",
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2103690914166431744/9fRsE600?format=jpg&name=800x419",
+          "width": 800
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_small": {
+        "image_value": {
+          "alt": "Protecting Against AI’s Existential Threat",
+          "height": 67,
+          "url": "https://pbs.twimg.com/card_img/2103690914166431744/9fRsE600?format=jpg&name=100x100",
+          "width": 100
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_x_large": {
+        "image_value": {
+          "alt": "Protecting Against AI’s Existential Threat",
+          "height": 853,
+          "url": "https://pbs.twimg.com/card_img/2103690914166431744/9fRsE600?format=png&name=2048x2048_2_exp",
+          "width": 1280
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_original": {
+        "image_value": {
+          "alt": "Protecting Against AI’s Existential Threat",
+          "height": 853,
+          "url": "https://pbs.twimg.com/card_img/2103690914166431744/9fRsE600?format=jpg&name=orig",
+          "width": 1280
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_alt_text": {
+        "string_value": "Protecting Against AI’s Existential Threat",
+        "type": "STRING"
+      },
+      "vanity_url": {
+        "scribe_key": "vanity_url",
+        "string_value": "wsj.com",
+        "type": "STRING"
+      },
+      "photo_image_full_size": {
+        "image_value": {
+          "alt": "Protecting Against AI’s Existential Threat",
+          "height": 314,
+          "url": "https://pbs.twimg.com/card_img/2103690914166431744/9fRsE600?format=jpg&name=600x314",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_alt_text": {
+        "string_value": "Protecting Against AI’s Existential Threat",
+        "type": "STRING"
+      },
+      "thumbnail_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 71.62,
+              "rgb": {
+                "blue": 168,
+                "green": 38,
+                "red": 255
+              }
+            },
+            {
+              "percentage": 17.1,
+              "rgb": {
+                "blue": 1,
+                "green": 1,
+                "red": 1
+              }
+            },
+            {
+              "percentage": 8.72,
+              "rgb": {
+                "blue": 100,
+                "green": 26,
+                "red": 148
+              }
+            },
+            {
+              "percentage": 2.54,
+              "rgb": {
+                "blue": 61,
+                "green": 17,
+                "red": 89
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "title": {
+        "string_value": "Protecting Against AI’s Existential Threat",
+        "type": "STRING"
+      },
+      "summary_photo_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 71.62,
+              "rgb": {
+                "blue": 168,
+                "green": 38,
+                "red": 255
+              }
+            },
+            {
+              "percentage": 17.1,
+              "rgb": {
+                "blue": 1,
+                "green": 1,
+                "red": 1
+              }
+            },
+            {
+              "percentage": 8.72,
+              "rgb": {
+                "blue": 100,
+                "green": 26,
+                "red": 148
+              }
+            },
+            {
+              "percentage": 2.54,
+              "rgb": {
+                "blue": 61,
+                "green": 17,
+                "red": 89
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "summary_photo_image_x_large": {
+        "image_value": {
+          "alt": "Protecting Against AI’s Existential Threat",
+          "height": 853,
+          "url": "https://pbs.twimg.com/card_img/2103690914166431744/9fRsE600?format=png&name=2048x2048_2_exp",
+          "width": 1280
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image": {
+        "image_value": {
+          "alt": "Protecting Against AI’s Existential Threat",
+          "height": 314,
+          "url": "https://pbs.twimg.com/card_img/2103690914166431744/9fRsE600?format=jpg&name=600x314",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 71.62,
+              "rgb": {
+                "blue": 168,
+                "green": 38,
+                "red": 255
+              }
+            },
+            {
+              "percentage": 17.1,
+              "rgb": {
+                "blue": 1,
+                "green": 1,
+                "red": 1
+              }
+            },
+            {
+              "percentage": 8.72,
+              "rgb": {
+                "blue": 100,
+                "green": 26,
+                "red": 148
+              }
+            },
+            {
+              "percentage": 2.54,
+              "rgb": {
+                "blue": 61,
+                "green": 17,
+                "red": 89
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "photo_image_full_size_x_large": {
+        "image_value": {
+          "alt": "Protecting Against AI’s Existential Threat",
+          "height": 853,
+          "url": "https://pbs.twimg.com/card_img/2103690914166431744/9fRsE600?format=png&name=2048x2048_2_exp",
+          "width": 1280
+        },
+        "type": "IMAGE"
+      },
+      "card_url": {
+        "scribe_key": "card_url",
+        "string_value": "https://t.co/Zib5CWr257",
+        "type": "STRING"
+      },
+      "summary_photo_image_original": {
+        "image_value": {
+          "alt": "Protecting Against AI’s Existential Threat",
+          "height": 853,
+          "url": "https://pbs.twimg.com/card_img/2103690914166431744/9fRsE600?format=jpg&name=orig",
+          "width": 1280
+        },
+        "type": "IMAGE"
+      }
+    }
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

@@ -34,13 +34,13 @@ listed.
 
 | Account | Queued | Record change | Lead | Context | No action |
 | --- | --: | --: | --: | --: | --: |
-| [@OpenAI](OpenAI.md) | 299 | 24 | 6 | 143 | 126 |
-| [@sama](sama.md) | 592 | 11 | 7 | 116 | 458 |
-| [@gdb](gdb.md) | 401 | 7 | 1 | 80 | 313 |
+| [@OpenAI](OpenAI.md) | 299 | 25 | 6 | 142 | 126 |
+| [@sama](sama.md) | 592 | 12 | 7 | 115 | 458 |
+| [@gdb](gdb.md) | 401 | 8 | 1 | 79 | 313 |
 | [@ilyasut](ilyasut.md) | 79 |  |  | 5 | 74 |
 | [@janleike](janleike.md) | 112 | 1 |  | 23 | 88 |
 | [@kalinowski007](kalinowski007.md) | 804 | 1 |  | 2 | 801 |
-| [@AnthropicAI](AnthropicAI.md) | 338 | 2 | 16 | 160 | 160 |
+| [@AnthropicAI](AnthropicAI.md) | 338 | 4 | 16 | 158 | 160 |
 | [@DarioAmodei](DarioAmodei.md) | 10 |  |  | 10 | 0 |
 | [@jackclarkSF](jackclarkSF.md) | 915 | 1 | 10 | 29 | 875 |
 | [@OpenAINewsroom](OpenAINewsroom.md) | 43 |  | 5 | 24 | 14 |
@@ -58,12 +58,12 @@ listed.
 | [@johnschulman2](johnschulman2.md) | 15 |  |  | 6 | 9 |
 | [@boazbaraktcs](boazbaraktcs.md) | 608 |  |  | 18 | 590 |
 | [@jachiam0](jachiam0.md) | 510 | 2 |  | 19 | 489 |
-| [@JoHeidecke](JoHeidecke.md) | 13 | 4 |  | 5 | 4 |
+| [@JoHeidecke](JoHeidecke.md) | 13 | 6 |  | 3 | 4 |
 | [@zicokolter](zicokolter.md) | 28 |  |  | 1 | 27 |
 | [@paulfchristiano](paulfchristiano.md) | 5 |  |  |  | 5 |
 | [@hlntnr](hlntnr.md) | 225 |  |  | 10 | 215 |
 | [@Miles_Brundage](Miles_Brundage.md) | 4,233 |  | 8 | 46 | 4,179 |
-| [@sjgadler](sjgadler.md) | 72 |  | 6 | 22 | 44 |
+| [@sjgadler](sjgadler.md) | 72 | 1 | 6 | 21 | 44 |
 | [@DKokotajlo](DKokotajlo.md) | 28 |  | 1 | 8 | 19 |
 | [@GretchenMarina](GretchenMarina.md) | 186 |  |  | 4 | 182 |
 | [@RosieCampbell](RosieCampbell.md) | 89 |  |  |  | 89 |
@@ -90,7 +90,7 @@ listed.
 | [@lilianweng](lilianweng.md) | 19 |  |  |  | 19 |
 | [@joannejang](joannejang.md) | 39 |  |  | 1 | 38 |
 | [@w01fe](w01fe.md) | 12 |  | 2 | 2 | 8 |
-| [@polynoamial](polynoamial.md) | 127 |  |  | 4 | 123 |
+| [@polynoamial](polynoamial.md) | 127 | 2 |  | 2 | 123 |
 | [@aidan_mclau](aidan_mclau.md) | 31 |  | 1 | 3 | 27 |
 | [@tszzl](tszzl.md) | 6 |  |  |  | 6 |
 | [@RichardMCNgo](RichardMCNgo.md) | 842 |  | 1 | 5 | 836 |
@@ -109,7 +109,7 @@ listed.
 | [@fish_kyle3](fish_kyle3.md) | 5 |  |  | 2 | 3 |
 | [@Jack_W_Lindsey](Jack_W_Lindsey.md) | 26 |  |  | 6 | 20 |
 | [@TrentonBricken](TrentonBricken.md) | 81 |  |  |  | 81 |
-| **Total** | **18,627** | **64** | **71** | **910** | **17,582** |
+| **Total** | **18,627** | **74** | **71** | **900** | **17,582** |
 
 ## What changed in the record
 
@@ -155,6 +155,28 @@ Bowman), and OpenAI's pause (its July 28 statement).
 One record-change decision was carried out differently: Karpathy's post that
 Fable 5 "is the same underlying model as Mythos" was replaced by Anthropic's own
 statement of the same fact.
+
+## Second look at the context decisions
+
+All 910 posts first marked "context" were read again (September 30, 2026),
+looking for statements or events the record should hold rather than just
+support. Ten posts were promoted to record changes; the counts above include
+them, and each one's decision line gives both the new and the first-pass note.
+
+- OpenAI's 2017 op-ed principle, "Building advanced AI and only then making it
+  safe is like building the internet and later trying to make it secure" (@OpenAI, @gdb): new entry `openai/2017-10-18-safe-from-the-start`.
+- Anthropic's disclosure of a Chinese state-sponsored hacking campaign run
+  largely through Claude Code (@AnthropicAI, 2 posts): new entry `anthropic/2025-11-13-claude-code-espionage-campaign`.
+- OpenAI's promise to test adversarially fine-tuned versions before releasing
+  open weights, and the gpt-oss paper that showed it did (@JoHeidecke, @sjgadler, @sama): new entry `openai/2025-03-31-open-weights-no-catastrophic-risk` (kept).
+- Noam Brown on withholding deployment to the NSA and other intelligence
+  agencies (@polynoamial, 2 posts): update on `openai/2026-03-02-pentagon-surveillance-prohibition`.
+
+The other 900 stay context. Most are safety research announcements, product
+safety features, restatements of positions already in the record, or
+commentary by former staff on entries that already cite them. One
+reporting lead from them, the New York Times' November 2025 investigation of
+the sycophancy period, was taken up in the sweep of other channels.
 
 ## Leads and what became of them
 

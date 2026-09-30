@@ -271,7 +271,7 @@
 {"id": "966100927290605569", "account": "OpenAI", "code": "C", "note": "Capped-profit LP (entry covers), early safety/policy posts, open-source replies."}
 {"id": "935916276718895104", "account": "OpenAI", "code": "O"}
 {"id": "931226402048811008", "account": "OpenAI", "code": "O"}
-{"id": "920684033582841856", "account": "OpenAI", "code": "C", "note": "Capped-profit LP (entry covers), early safety/policy posts, open-source replies."}
+{"id": "920684033582841856", "account": "OpenAI", "code": "R", "note": "Promoted on re-review: new entry openai/2017-10-18-safe-from-the-start. (First pass: Capped-profit LP (entry covers), early safety/policy posts, open-source replies.)"}
 {"id": "874643791025655809", "account": "OpenAI", "code": "C", "note": "Capped-profit LP (entry covers), early safety/policy posts, open-source replies."}
 {"id": "864262661592145921", "account": "OpenAI", "code": "O"}
 {"id": "824934988143525888", "account": "OpenAI", "code": "C", "note": "Capped-profit LP (entry covers), early safety/policy posts, open-source replies."}
@@ -501,8 +501,8 @@
 {"id": "1991952400899559889", "account": "AnthropicAI", "code": "L", "note": "Nov 2025: emergent misalignment from reward hacking in production RL environments. Parity check with OpenAI CoT-grading disclosure: were released models affected?"}
 {"id": "1990420394575053044", "account": "AnthropicAI", "code": "O"}
 {"id": "1989076472208978127", "account": "AnthropicAI", "code": "C", "note": "Safety research and tools (agent autonomy, auto mode classifiers, disempowerment, persona drift, Petri, Bloom, political bias eval)."}
-{"id": "1989033795341648052", "account": "AnthropicAI", "code": "C", "note": "Threat intel, Chinese state espionage campaign disclosure, distillation, elicitation attacks, cyber research."}
-{"id": "1989033793190277618", "account": "AnthropicAI", "code": "C", "note": "Threat intel, Chinese state espionage campaign disclosure, distillation, elicitation attacks, cyber research."}
+{"id": "1989033795341648052", "account": "AnthropicAI", "code": "R", "note": "Promoted on re-review: source for anthropic/2025-11-13-claude-code-espionage-campaign. (First pass: Threat intel, Chinese state espionage campaign disclosure, distillation, elicitation attacks, cyber research.)"}
+{"id": "1989033793190277618", "account": "AnthropicAI", "code": "R", "note": "Promoted on re-review: new entry anthropic/2025-11-13-claude-code-espionage-campaign. (First pass: Threat intel, Chinese state espionage campaign disclosure, distillation, elicitation attacks, cyber research.)"}
 {"id": "1985612560255893693", "account": "AnthropicAI", "code": "O"}
 {"id": "1985505322522296542", "account": "AnthropicAI", "code": "C", "note": "Safety research and tools (agent autonomy, auto mode classifiers, disempowerment, persona drift, Petri, Bloom, political bias eval)."}
 {"id": "1983584162960597491", "account": "AnthropicAI", "code": "O"}
@@ -878,7 +878,7 @@
 {"id": "1947640336739643795", "account": "sama", "code": "O"}
 {"id": "1945901039104004467", "account": "sama", "code": "O"}
 {"id": "1945900345378697650", "account": "sama", "code": "O"}
-{"id": "1943837550369812814", "account": "sama", "code": "C", "note": "Scheming research, open-weights delay for safety tests, NYT data retention (\"core principle\"), Codex internet off by default, safe completions."}
+{"id": "1943837550369812814", "account": "sama", "code": "R", "note": "Promoted on re-review: update on openai/2025-03-31-open-weights-no-catastrophic-risk. (First pass: Scheming research, open-weights delay for safety tests, NYT data retention (\"core principle\"), Codex internet off by default, safe completions.)"}
 {"id": "1941519568658481616", "account": "sama", "code": "O"}
 {"id": "1938277441400934447", "account": "sama", "code": "C", "note": "Scheming research, open-weights delay for safety tests, NYT data retention (\"core principle\"), Codex internet off by default, safe completions."}
 {"id": "1937606798766415984", "account": "sama", "code": "O"}
@@ -1679,7 +1679,7 @@
 {"id": "993541165658980352", "account": "gdb", "code": "C", "note": "2017-2020 safety posts (WSJ op-ed \"we messed up safety with the internet\"), Safety Gym, RLHF, cooperation research, 2018 testimony, D'Angelo joins board."}
 {"id": "988884098801283072", "account": "gdb", "code": "C", "note": "2017-2020 safety posts (WSJ op-ed \"we messed up safety with the internet\"), Safety Gym, RLHF, cooperation research, 2018 testimony, D'Angelo joins board."}
 {"id": "963613639394566144", "account": "gdb", "code": "O"}
-{"id": "920686990785253376", "account": "gdb", "code": "C", "note": "2017-2020 safety posts (WSJ op-ed \"we messed up safety with the internet\"), Safety Gym, RLHF, cooperation research, 2018 testimony, D'Angelo joins board."}
+{"id": "920686990785253376", "account": "gdb", "code": "R", "note": "Promoted on re-review: source for openai/2017-10-18-safe-from-the-start. (First pass: 2017-2020 safety posts (WSJ op-ed \"we messed up safety with the internet\"), Safety Gym, RLHF, cooperation research, 2018 testimony, D'Angelo joins board.)"}
 {"id": "897496477877981184", "account": "gdb", "code": "O"}
 {"id": "896875169947369473", "account": "gdb", "code": "O"}
 {"id": "892215702660173824", "account": "gdb", "code": "O"}
@@ -8079,8 +8079,8 @@
 {"id": "1922712374152146964", "account": "JoHeidecke", "code": "R", "note": "gpt-4-1-no-system-card: head of safety systems thread (May 14 2025) justifying no frontier-style system card: \"doesn't surpass o3 in intelligence ... safety considerations ... different from frontier models\"."}
 {"id": "1922712295341162919", "account": "JoHeidecke", "code": "R", "note": "gpt-4-1-no-system-card: head of safety systems thread (May 14 2025) justifying no frontier-style system card: \"doesn't surpass o3 in intelligence ... safety considerations ... different from frontier models\"."}
 {"id": "1922712178081112437", "account": "JoHeidecke", "code": "R", "note": "gpt-4-1-no-system-card: head of safety systems thread (May 14 2025) justifying no frontier-style system card: \"doesn't surpass o3 in intelligence ... safety considerations ... different from frontier models\"."}
-{"id": "1906799389139722663", "account": "JoHeidecke", "code": "C", "note": "Open-weight model: \"will not release models we believe pose catastrophic risks\"; gpt-oss testing."}
-{"id": "1906799330599813432", "account": "JoHeidecke", "code": "C", "note": "Open-weight model: \"will not release models we believe pose catastrophic risks\"; gpt-oss testing."}
+{"id": "1906799389139722663", "account": "JoHeidecke", "code": "R", "note": "Promoted on re-review: source for openai/2025-03-31-open-weights-no-catastrophic-risk. (First pass: Open-weight model: \"will not release models we believe pose catastrophic risks\"; gpt-oss testing.)"}
+{"id": "1906799330599813432", "account": "JoHeidecke", "code": "R", "note": "Promoted on re-review: new entry openai/2025-03-31-open-weights-no-catastrophic-risk. (First pass: Open-weight model: \"will not release models we believe pose catastrophic risks\"; gpt-oss testing.)"}
 {"id": "1834282336101491146", "account": "JoHeidecke", "code": "O"}
 {"id": "1821606898984218935", "account": "JoHeidecke", "code": "O"}
 {"id": "1545647721394028544", "account": "JoHeidecke", "code": "O"}
@@ -8260,7 +8260,7 @@
 {"id": "1953870965869522989", "account": "sjgadler", "code": "C", "note": "GPT-5 bio testing less rigorous than gpt-oss; \"recursive self-improvement\" vs PF Critical; gpt-oss evals praised."}
 {"id": "1953570018190668148", "account": "sjgadler", "code": "C", "note": "GPT-5 bio testing less rigorous than gpt-oss; \"recursive self-improvement\" vs PF Critical; gpt-oss evals praised."}
 {"id": "1953520540456821035", "account": "sjgadler", "code": "L", "note": "Aug 2025: GPT-5 system card presents as new a safety feature OpenAI had since 2021 (\"overclaim\"); system-card accuracy."}
-{"id": "1952790678175662527", "account": "sjgadler", "code": "C", "note": "GPT-5 bio testing less rigorous than gpt-oss; \"recursive self-improvement\" vs PF Critical; gpt-oss evals praised."}
+{"id": "1952790678175662527", "account": "sjgadler", "code": "R", "note": "Promoted on re-review: update on openai/2025-03-31-open-weights-no-catastrophic-risk. (First pass: GPT-5 bio testing less rigorous than gpt-oss; \"recursive self-improvement\" vs PF Critical; gpt-oss evals praised.)"}
 {"id": "1950605290153415047", "account": "sjgadler", "code": "O"}
 {"id": "1950605287897047456", "account": "sjgadler", "code": "O"}
 {"id": "1948093743338553382", "account": "sjgadler", "code": "O"}
@@ -8675,8 +8675,8 @@
 {"id": "2047387675762802998", "account": "polynoamial", "code": "O"}
 {"id": "2031404079583473953", "account": "polynoamial", "code": "O"}
 {"id": "2029622090152956335", "account": "polynoamial", "code": "O"}
-{"id": "2028643577165963465", "account": "polynoamial", "code": "C", "note": "Mar 1 2026 \"The contract does not allow NSA Title 50 work\", then Mar 3 \"will not be deploying to the NSA ... so that there's time to address potential surveillance loopholes\"; pentagon-surveillance-prohibition."}
-{"id": "2028124576337756358", "account": "polynoamial", "code": "C", "note": "Mar 1 2026 \"The contract does not allow NSA Title 50 work\", then Mar 3 \"will not be deploying to the NSA ... so that there's time to address potential surveillance loopholes\"; pentagon-surveillance-prohibition."}
+{"id": "2028643577165963465", "account": "polynoamial", "code": "R", "note": "Promoted on re-review: update on openai/2026-03-02-pentagon-surveillance-prohibition. (First pass: Mar 1 2026 \"The contract does not allow NSA Title 50 work\", then Mar 3 \"will not be deploying to the NSA ... so that there's time to address potential surveillance loopholes\"; pentagon-surveillance-prohibition.)"}
+{"id": "2028124576337756358", "account": "polynoamial", "code": "R", "note": "Promoted on re-review: update on openai/2026-03-02-pentagon-surveillance-prohibition. (First pass: Mar 1 2026 \"The contract does not allow NSA Title 50 work\", then Mar 3 \"will not be deploying to the NSA ... so that there's time to address potential surveillance loopholes\"; pentagon-surveillance-prohibition.)"}
 {"id": "2022818095879065610", "account": "polynoamial", "code": "C", "note": "Midas Project criticism of GPT-5.3-Codex release; AISI GPT-5.5 cyber-range result."}
 {"id": "2020263694530486692", "account": "polynoamial", "code": "O"}
 {"id": "2008277764093157623", "account": "polynoamial", "code": "O"}

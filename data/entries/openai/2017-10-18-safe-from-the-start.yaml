@@ -1,0 +1,45 @@
+title: '"Building advanced AI and only then making it safe is like building the
+  internet and later trying to make it secure"'
+date: 2017-10-18
+org: openai
+type: said
+kind: principle
+who: [openai, greg-brockman]
+venue: Wall Street Journal op-ed by OpenAI researchers, "Protecting Against AI's
+  Existential Threat," as summarized by OpenAI
+quote: >-
+  Building advanced AI and only then making it safe is like building the
+  internet and later trying to make it secure
+summary: >-
+  Promoting an op-ed by its researchers in the Wall Street Journal, OpenAI said
+  safety had to be built in from the start, not added after capabilities. Greg
+  Brockman summarized it as: "we messed up safety with the internet, don't make
+  same mistake with advanced AI."
+concreteness: directional
+status: eroded
+patterns: [ship-then-patch]
+related: [2025-04-29-gpt-4o-sycophancy-rollback, 2025-02-02-deep-research-before-system-card, 2025-11-12-gpt-5-1-ships-with-regressions, 2026-07-21-hugging-face-incident, 2025-03-05-gpt-2-history-recast]
+sources:
+  - title: OpenAI on X
+    publisher: X
+    url: https://x.com/OpenAI/status/920684033582841856
+    date: 2017-10-18
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-b2391165
+  - title: Greg Brockman on X
+    publisher: X
+    url: https://x.com/gdb/status/920686990785253376
+    date: 2017-10-18
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-1eec1644
+  - title: Protecting Against AI's Existential Threat
+    publisher: The Wall Street Journal
+    url: https://www.wsj.com/articles/protecting-against-ais-existential-threat-1508332313
+    date: 2017-10-18
+    type: primary
+note: >-
+  A principle, not a promise, so it can't be broken outright. It is marked
+  eroded because the related entries show a different practice: ship first,
+  then patch, roll back or publish the safety report. By 2025 OpenAI described
+  its approach as learning how to make the next system safe from deploying the
+  current one.
