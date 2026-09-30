@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/OpenAI/status/1744419710635229424",
+  "captured_at": "2026-09-30T12:34:58.817Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "5250ee2a0916294ac406635a73775598878f851a5527e41a6d93d7dfacee85f2",
+    "page.txt": "8adcbb16ea3e2bc250049132c284a52fc477b2e2d9644299cebf93e11e871694",
+    "post.json": "8586d509eff6cf25d13ae9559db8e47e7be89f15ab9612a298f100035f62f99d",
+    "syndication.json": "7c885ace84b0c9d6386326a2d5e767daf47be162238b2a0c0ac43d2d7fea0529",
+    "post.txt": "6f542e2081762eee3623e710378499e2a421c026891f82a3b093b655e8ad0a96"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1744419710635229424",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"We build AI to empower people, including journalists. Our position on the @nytimes lawsuit: • Training is fair use, but we provide an opt-out • \"Regurgitation\" is a rare bug we're driving to zero • The New York Times is not telling the full story https://t.co/S6fSaDsfKb\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "January 8, 2024",
+    "posted_at": "2024-01-08T18:04:03.423Z"
+  }
+}
