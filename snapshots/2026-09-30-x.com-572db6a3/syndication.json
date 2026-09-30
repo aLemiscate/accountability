@@ -1,0 +1,189 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 170,
+  "lang": "en",
+  "created_at": "2025-02-03T09:32:49.000Z",
+  "display_text_range": [
+    0,
+    236
+  ],
+  "entities": {},
+  "id_str": "1886347097571774875",
+  "text": "Excited to try this out though with a doubling on Humanity’s Last Exam and o3-mini already getting into potentially dangerous territory on some capabilities, I’m sad there wasn’t a system card or even any brief discussion of red teaming",
+  "user": {
+    "id_str": "1214528593",
+    "name": "Miles Brundage",
+    "screen_name": "Miles_Brundage",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2089462134828871680/cW8--1eS_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1886347097571774875"
+    ],
+    "editable_until_msecs": "1738578769000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 14,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 11442,
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 791,
+    "retweet_count": 1797,
+    "created_at": "2025-02-03T01:04:08.000Z",
+    "display_text_range": [
+      0,
+      280
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/03PPi4cdqi",
+          "expanded_url": "https://x.com/OpenAI/status/1886219085236850889/video/1",
+          "indices": [
+            281,
+            304
+          ],
+          "url": "https://t.co/03PPi4cdqi"
+        }
+      ]
+    },
+    "id_str": "1886219085236850889",
+    "text": "Today we are launching our next agent capable of doing work for you independently—deep research.\n\nGive it a prompt and ChatGPT will find, analyze &amp; synthesize hundreds of online sources to create a comprehensive report in tens of minutes vs what would take a human many hours. https://t.co/03PPi4cdqi",
+    "user": {
+      "id_str": "4398626122",
+      "name": "OpenAI",
+      "screen_name": "OpenAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1886219085236850889"
+      ],
+      "editable_until_msecs": "1738548248000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "mediaDetails": [
+      {
+        "additional_media_info": {},
+        "display_url": "pic.x.com/03PPi4cdqi",
+        "expanded_url": "https://x.com/OpenAI/status/1886219085236850889/video/1",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          281,
+          304
+        ],
+        "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1886217153424080896/img/MBONqPN57PFcRWZv.jpg",
+        "original_info": {
+          "focus_rects": [],
+          "height": 720,
+          "width": 1280
+        },
+        "sizes": {
+          "large": {
+            "h": 720,
+            "resize": "fit",
+            "w": 1280
+          },
+          "medium": {
+            "h": 675,
+            "resize": "fit",
+            "w": 1200
+          },
+          "small": {
+            "h": 383,
+            "resize": "fit",
+            "w": 680
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "video",
+        "url": "https://t.co/03PPi4cdqi",
+        "video_info": {
+          "aspect_ratio": [
+            16,
+            9
+          ],
+          "duration_millis": 1215007,
+          "variants": [
+            {
+              "content_type": "application/x-mpegURL",
+              "url": "https://video.twimg.com/amplify_video/1886217153424080896/pl/Vr0kyURPX26yHwWv.m3u8?tag=14&v=c59"
+            },
+            {
+              "bitrate": 288000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/1886217153424080896/vid/avc1/480x270/qj_aw4-qtMe5TaBl.mp4?tag=14"
+            },
+            {
+              "bitrate": 832000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/1886217153424080896/vid/avc1/640x360/hqoik3m-zTt3UtUr.mp4?tag=14"
+            },
+            {
+              "bitrate": 2176000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/1886217153424080896/vid/avc1/1280x720/TAehi8mA0vUs7Id_.mp4?tag=14"
+            }
+          ]
+        }
+      }
+    ],
+    "photos": [],
+    "video": {
+      "aspectRatio": [
+        16,
+        9
+      ],
+      "contentType": "media_entity",
+      "durationMs": 1215007,
+      "mediaAvailability": {
+        "status": "available"
+      },
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/1886217153424080896/img/MBONqPN57PFcRWZv.jpg",
+      "variants": [
+        {
+          "type": "application/x-mpegURL",
+          "src": "https://video.twimg.com/amplify_video/1886217153424080896/pl/Vr0kyURPX26yHwWv.m3u8?tag=14&v=c59"
+        },
+        {
+          "type": "video/mp4",
+          "src": "https://video.twimg.com/amplify_video/1886217153424080896/vid/avc1/480x270/qj_aw4-qtMe5TaBl.mp4?tag=14"
+        },
+        {
+          "type": "video/mp4",
+          "src": "https://video.twimg.com/amplify_video/1886217153424080896/vid/avc1/640x360/hqoik3m-zTt3UtUr.mp4?tag=14"
+        },
+        {
+          "type": "video/mp4",
+          "src": "https://video.twimg.com/amplify_video/1886217153424080896/vid/avc1/1280x720/TAehi8mA0vUs7Id_.mp4?tag=14"
+        }
+      ],
+      "videoId": {
+        "type": "tweet",
+        "id": "1886219085236850889"
+      },
+      "viewCount": 0
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

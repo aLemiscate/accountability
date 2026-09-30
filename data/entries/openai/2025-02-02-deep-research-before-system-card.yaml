@@ -1,0 +1,86 @@
+title: Deep research ships on an unreleased o3 with no safety report; the system
+  card follows 23 days later
+date: 2025-02-02
+org: openai
+type: did
+kind: action
+who: [openai]
+quote: >-
+  We will share our safety insights and safeguards for deep research in a
+  system card when we widen access to Plus users.
+summary: >-
+  OpenAI launched deep research to Pro subscribers, powered by "a version of
+  the upcoming OpenAI o3 model" that hadn't been released or documented. The
+  launch post didn't describe safety testing. A day later OpenAI added a note
+  saying it had run "rigorous safety testing, preparedness evaluations, and
+  governance reviews," rated the model Medium risk, and would publish a system
+  card when it widened access. The card came on February 25, with the Plus
+  rollout. It said this was the first model OpenAI had rated Medium risk for
+  cybersecurity.
+related: [2023-07-21-white-house-voluntary-commitments, 2025-04-14-gpt-4-1-no-system-card]
+patterns: []
+sources:
+  - title: Introducing deep research (PDF copy, with the Feb. 3 and Feb. 5 updates)
+    publisher: OpenAI
+    url: https://cdn.openai.com/API/docs/deep_research_blog.pdf
+    date: 2025-02-02
+    type: primary
+    snapshot: snapshots/2026-09-30-cdn.openai.com-1a04f8a3
+  - title: Deep Research System Card (PDF)
+    publisher: OpenAI
+    url: https://cdn.openai.com/deep-research-system-card.pdf
+    date: 2025-02-25
+    type: primary
+    snapshot: snapshots/2026-09-30-cdn.openai.com-8c0f2ac2
+  - title: OpenAI on X (sharing the system card)
+    publisher: X
+    url: https://x.com/OpenAI/status/1894454197967528224
+    date: 2025-02-25
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-f32c5c9c
+updates:
+  - date: 2025-02-03
+    text: >-
+      Miles Brundage, OpenAI's former head of policy research, wrote that with
+      a doubling on Humanity's Last Exam and o3-mini "already getting into
+      potentially dangerous territory on some capabilities," he was "sad there
+      wasn't a system card or even any brief discussion of red teaming."
+    sources:
+      - title: Miles Brundage on X
+        publisher: X
+        url: https://x.com/Miles_Brundage/status/1886347097571774875
+        date: 2025-02-03
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-572db6a3
+  - date: 2025-06-10
+    text: >-
+      OpenAI launched o3-pro without a separate system card: "As o3-pro uses
+      the same underlying model as o3, full safety details can be found in the
+      o3 system card." Brundage said that if OpenAI
+      "didn't do a full Preparedness Framework assessment," it "should just say
+      that," adding that "lax processes/corner-cutting/groupthink get more
+      dangerous each day."
+    sources:
+      - title: OpenAI on X (o3-pro launch)
+        publisher: X
+        url: https://x.com/OpenAI/status/1932530423911096508
+        date: 2025-06-10
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-6906c193
+      - title: Miles Brundage on X
+        publisher: X
+        url: https://x.com/Miles_Brundage/status/1932532943555281077
+        date: 2025-06-10
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-97beecb4
+      - title: Miles Brundage on X
+        publisher: X
+        url: https://x.com/Miles_Brundage/status/1932547422183698562
+        date: 2025-06-10
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-c3bced49
+note: >-
+  The promise in the quote was kept: the card came when access widened. The
+  entry is here for the order of events. The first model OpenAI rated Medium
+  risk for cybersecurity reached paying users three weeks before its safety
+  report, and the first public word on its testing came a day after launch.

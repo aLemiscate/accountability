@@ -1,0 +1,213 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 20,
+  "in_reply_to_screen_name": "TheZvi",
+  "in_reply_to_status_id_str": "1989135984756420812",
+  "in_reply_to_user_id_str": "37547071",
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2025-11-14T01:10:18.000Z",
+  "display_text_range": [
+    8,
+    257
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/4lfTcdjviq",
+        "expanded_url": "https://x.com/sjgadler/status/1989138789755916683/photo/1",
+        "indices": [
+          258,
+          281
+        ],
+        "url": "https://t.co/4lfTcdjviq"
+      }
+    ],
+    "user_mentions": [
+      {
+        "id_str": "37547071",
+        "indices": [
+          0,
+          7
+        ],
+        "name": "Zvi Mowshowitz",
+        "screen_name": "TheZvi"
+      }
+    ]
+  },
+  "id_str": "1989138789755916683",
+  "text": "@TheZvi Re: Preparedness Framework evals: \nOpenAI doesn't seem to have run their CBRN evals on GPT-5.1, and to have only tested cyber / self-improvement for pre-final checkpoints\n\n(OpenAI says \"near-final\" but I'm not aware of a specific operationalization) https://t.co/4lfTcdjviq",
+  "user": {
+    "id_str": "955972371520937985",
+    "name": "Steven Adler",
+    "screen_name": "sjgadler",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1975436697040269312/vCGKjpxB_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1989138789755916683"
+    ],
+    "editable_until_msecs": "1763086218000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/4lfTcdjviq",
+      "expanded_url": "https://x.com/sjgadler/status/1989138789755916683/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        258,
+        281
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/G5rW18HasAAzxbB.png",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 418,
+            "w": 746,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 418,
+            "w": 418,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 418,
+            "w": 367,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 418,
+            "w": 209,
+            "x": 70,
+            "y": 0
+          },
+          {
+            "h": 418,
+            "w": 1392,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 418,
+        "width": 1392
+      },
+      "sizes": {
+        "large": {
+          "h": 418,
+          "resize": "fit",
+          "w": 1392
+        },
+        "medium": {
+          "h": 360,
+          "resize": "fit",
+          "w": 1200
+        },
+        "small": {
+          "h": 204,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/4lfTcdjviq"
+    }
+  ],
+  "photos": [
+    {
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 418,
+          "w": 746,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 418,
+          "w": 418,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 418,
+          "w": 367,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 418,
+          "w": 209,
+          "x": 70,
+          "y": 0
+        },
+        {
+          "h": 418,
+          "w": 1392,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/sjgadler/status/1989138789755916683/photo/1",
+      "url": "https://pbs.twimg.com/media/G5rW18HasAAzxbB.png",
+      "width": 1392,
+      "height": 418
+    }
+  ],
+  "conversation_count": 1,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 86,
+    "lang": "en",
+    "reply_count": 48,
+    "retweet_count": 1,
+    "created_at": "2025-11-14T00:59:09.000Z",
+    "display_text_range": [
+      0,
+      42
+    ],
+    "entities": {},
+    "id_str": "1989135984756420812",
+    "text": "GPT 5.1 Reaction thread. What have we got?",
+    "user": {
+      "id_str": "37547071",
+      "name": "Zvi Mowshowitz",
+      "screen_name": "TheZvi",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2873511010/24e99a900de1fc5a22336b80aef68a59_normal.png"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1989135984756420812"
+      ],
+      "editable_until_msecs": "1763085549000",
+      "edits_remaining": "5",
+      "is_edit_eligible": true
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}
