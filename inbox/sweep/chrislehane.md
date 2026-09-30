@@ -4,12 +4,12 @@ Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
 - Archived posts found: 1377 (2016-03-10 to 2022-09-07)
-- Read so far: 1377 (100%); text found for 1337; 0 not read yet
+- Read so far: 1377 (100%); text found for 1320; 0 not read yet
 - Possibly deleted: 1377
-- Matching the topic filter: 338
+- Matching the topic filter: 333
 
 
-Every post is in `chrislehane.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `chrislehane/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2022-09-07 · possibly deleted
 
@@ -7728,7 +7728,7 @@ https://x.com/chrislehane/status/1516776174009028608 · [archived](https://web.a
 
 ## 2022-04-20 · possibly deleted
 
-_(text not available)_
+> Q1 - "Do you own a crypto currency?" 🪡14/22
 
 https://x.com/chrislehane/status/1516776173337862149 · [archived](https://web.archive.org/web/20220420135017/https://twitter.com/chrislehane/status/1516776173337862149)
 
@@ -8850,7 +8850,7 @@ https://x.com/chrislehane/status/1498311859039989761 · [archived](https://web.a
 
 ## 2022-02-27 · possibly deleted
 
-_(text not available)_
+> Getting some confirmations from a couple sources that it's legit. Deleting my warning for now. But continue to be vigilant, and always be slow and careful when sending irreversible crypto transactions. https://t.co/Odv5pxf3mp
 
 https://x.com/chrislehane/status/1497808720276844544 · [archived](https://web.archive.org/web/20220227054019/https://twitter.com/chrislehane/status/1497808720276844544)
 
@@ -10447,7 +10447,10 @@ https://x.com/chrislehane/status/1388670346589396992 · [archived](https://web.a
 
 ## 2021-05-02 · possibly deleted
 
-_(text not available)_
+> Introducing Mr. Irrelevant
+> Round 7
+> Pick 259
+> With the final pick of the 2021 #NFLDraft, the @Buccaneers select @UHCougarFB LB Grant Stuard!
 
 https://x.com/chrislehane/status/1388668968399892480 · [archived](https://web.archive.org/web/20210502013840/https://twitter.com/chrislehane/status/1388668968399892480)
 
@@ -10579,7 +10582,7 @@ https://x.com/chrislehane/status/1383109487267962885 · [archived](https://web.a
 
 ## 2021-04-16 · possibly deleted
 
-_(text not available)_
+> "The way life should be" The Best @Airbnb 🏡 🦞 🌲 🥾 🏔 🎿 🌊 in ⁦@visitmaine⁩ (my fav is on Peaks Island ⛴). ⁦@tyedinsky⁩ do like Needhams or Whoppie Pies? https://t.co/nXwc07E7IC
 
 https://x.com/chrislehane/status/1383102850696245248 · [archived](https://web.archive.org/web/20210416170010/https://twitter.com/chrislehane/status/1383102850696245248)
 
@@ -10693,7 +10696,7 @@ https://x.com/chrislehane/status/1378059037900566528 · [archived](https://web.a
 
 ## 2021-04-02 · possibly deleted
 
-_(text not available)_
+> Incredibly important to continue to prioritize safe &amp; responsible travel but ⁦@CDCgov⁩ info is good news for @airbnb Hosts who both provide whole homes that optimize for safe family travel (more space for entire family) and rely on economics. https://t.co/jazaRj24gv
 
 https://x.com/chrislehane/status/1378017072869826560 · [archived](https://web.archive.org/web/20210402161112/https://twitter.com/chrislehane/status/1378017072869826560)
 
@@ -10789,7 +10792,7 @@ https://x.com/chrislehane/status/1370187408604504067 · [archived](https://web.a
 
 ## 2021-03-11 · possibly deleted
 
-_(text not available)_
+> Woody aged whisky 🥃? https://t.co/xdWgdunlTk
 
 https://x.com/chrislehane/status/1370059626532638721 · [archived](https://web.archive.org/web/20210311171102/https://twitter.com/chrislehane/status/1370059626532638721)
 
@@ -10820,7 +10823,7 @@ https://x.com/chrislehane/status/1369493080882114560 · [archived](https://web.a
 
 ## 2021-03-10 · possibly deleted
 
-_(text not available)_
+> What’s the best breed of dog? (Bonus points for pics!)
 
 https://x.com/chrislehane/status/1369438035927064582 · [archived](https://web.archive.org/web/20210310000100/https://twitter.com/chrislehane/status/1369438035927064582)
 
@@ -10870,7 +10873,7 @@ https://x.com/chrislehane/status/1366450331450630144 · [archived](https://web.a
 
 ## 2021-02-26 · possibly deleted
 
-_(text not available)_
+> Maybe we should have a contest for a cat travel story @NickWilkins ? I know @tyedinsky has a fierce but well fed feline, whose monicker is Fillmore (named for Pres Millard Fillmore), that is yearning to be a digital nomad where he can visit the world's top buffets. https://t.co/h2b3d1wNhV
 
 https://x.com/chrislehane/status/1365442981096955906 · [archived](https://web.archive.org/web/20210226232611/https://twitter.com/chrislehane/status/1365442981096955906)
 
@@ -11145,7 +11148,9 @@ https://x.com/chrislehane/status/1354838647082676224 · [archived](https://web.a
 
 ## 2021-01-27 · possibly deleted
 
-_(text not available)_
+> If I get 1 viral tweet in life I hope this is it.
+> My wife married an athlete, who had limitless energy and was a true partner. Then came ALS and she had to dress, shower and care for me. She has borne these burdens with incredible courage and strength.
+> I love you @sabrevaya.
 
 https://x.com/chrislehane/status/1354516202337439744 · [archived](https://web.archive.org/web/20210127194709/https://twitter.com/chrislehane/status/1354516202337439744)
 
@@ -11181,7 +11186,7 @@ https://x.com/chrislehane/status/1353736590325997568 · [archived](https://web.a
 
 ## 2021-01-23 · possibly deleted
 
-> Celtics green in our kitchen at our @Airbnb in NorCal. Ready for Tacko time @celtics @BDA_Sports https://t.co/DvnORFxVTn
+_(text not available)_
 
 https://x.com/chrislehane/status/1352822001535045633 · [archived](https://web.archive.org/web/20210123033517/https://twitter.com/chrislehane/status/1352822001535045633)
 
@@ -11397,7 +11402,7 @@ https://x.com/chrislehane/status/1338978216413806592 · [archived](https://web.a
 
 ## 2020-12-15 · possibly deleted
 
-> 💃 🎉 🇧🇷 👨🏽‍💻: Com desfiles cancelados, Rio tem Carnaval via Experiências Online do ⁦@Airbnb⁩ https://t.co/Y7m6gkHRGE
+_(text not available)_
 
 https://x.com/chrislehane/status/1338872774773800960 · [archived](https://web.archive.org/web/20201215165949/https://twitter.com/chrislehane/status/1338872774773800960)
 
@@ -11584,7 +11589,7 @@ https://x.com/chrislehane/status/1326656449636835329 · [archived](https://web.a
 
 ## 2020-11-11 · possibly deleted
 
-> A log 🪵 home 🏡 and wildlife sanctuary - with incredible guest reviews... https://t.co/YAfIW9mvYo
+_(text not available)_
 
 https://x.com/chrislehane/status/1326617989026738176 · [archived](https://web.archive.org/web/20201111203640/https://twitter.com/chrislehane/status/1326617989026738176)
 
@@ -11708,7 +11713,7 @@ https://x.com/chrislehane/status/1323321933581021184 · [archived](https://web.a
 
 ## 2020-10-30 · possibly deleted
 
-_(text not available)_
+> In an email to @airbnb incredible hosts, CEO &amp; co-founder ⁦@bchesky⁩ shared the creation of the Airbnb Host Endowment and Host Advisory Board. https://t.co/h6BbifFk3s
 
 https://x.com/chrislehane/status/1322211113837105152 · [archived](https://web.archive.org/web/20201030161838/https://twitter.com/chrislehane/status/1322211113837105152)
 
@@ -11762,7 +11767,7 @@ https://x.com/chrislehane/status/1319022590929727489 · [archived](https://web.a
 
 ## 2020-10-21 · possibly deleted
 
-> We have tree houses 🌲🏡, boats 🚣‍♀️, yurts⛺️, domes, submarines, potatoes 🥔 and baseball ⚾️ parks on @airbnb - ⁦@BlueWahoosBBall⁩ ' Airbnb to appear on ⁦⁦@TODAYshow⁩ 'Weekend Today' show Saturday https://t.co/hXCUX1AaEO
+_(text not available)_
 
 https://x.com/chrislehane/status/1318950943237402624 · [archived](https://web.archive.org/web/20201021162426/https://twitter.com/chrislehane/status/1318950943237402624)
 
@@ -11798,8 +11803,7 @@ https://x.com/chrislehane/status/1314731684978327556 · [archived](https://web.a
 
 ## 2020-10-08 · possibly deleted
 
-> I’ve partnered w/ @Airbnb to take my penchant for terror to the scariest place I know – the internet. Join me for a kid-friendly spooky story hour Oct 21 at 4p PT. 100% of proceeds will go to @NorthStarReach.
-> Booking opens Wed. Oct 14 at 9 a.m. PT: https://t.co/DYY20gpKnO
+_(text not available)_
 
 https://x.com/chrislehane/status/1314325395315937281 · [archived](https://web.archive.org/web/20201008220305/https://twitter.com/chrislehane/status/1314325395315937281)
 
@@ -11893,7 +11897,7 @@ https://x.com/chrislehane/status/1308946978127130625 · [archived](https://web.a
 
 ## 2020-09-23 · possibly deleted
 
-> More rural/less urban = &gt; 2 Hudson Valley/Catskills v NYC; &gt; 2 Brittany v Paris; &gt; Sunshine Coast v Sydney/Melbourne; &gt; Sardinia v Roma+Venezia; &gt; Etruscan Coast v Firenze; &gt; AL Gulf v Miami; &gt; Tahoe v Vegas; &gt; Smokies v Atl/Nash; &gt; OR coast v Seattle/PDX https://t.co/RZks7E0N5K
+_(text not available)_
 
 https://x.com/chrislehane/status/1308882597553090560 · [archived](https://web.archive.org/web/20200923222626/https://twitter.com/chrislehane/status/1308882597553090560)
 
@@ -11923,7 +11927,7 @@ https://x.com/chrislehane/status/1307363137943789568 · [archived](https://web.a
 
 ## 2020-09-19 · possibly deleted
 
-> Thank you 🙏🏽 #RBG. Remember the day in '93 in the Clinton White House when she was nominated and her life story up to that point advancing equality and equity. And how for the last 27 years she has been the nation's leading voice standing for equality and equity.
+_(text not available)_
 
 https://x.com/chrislehane/status/1307157064423153664 · [archived](https://web.archive.org/web/20200919032343/https://twitter.com/chrislehane/status/1307157064423153664)
 
@@ -11984,7 +11988,7 @@ https://x.com/chrislehane/status/1304053989105831937 · [archived](https://web.a
 
 ## 2020-09-10 · possibly deleted
 
-> The best compliment you can give/receive in sports.... https://t.co/RnJGawf6pQ
+_(text not available)_
 
 https://x.com/chrislehane/status/1304053873405915137 · [archived](https://web.archive.org/web/20200910134814/https://twitter.com/chrislehane/status/1304053873405915137)
 
@@ -12002,7 +12006,7 @@ https://x.com/chrislehane/status/1303773012533993472 · [archived](https://web.a
 
 ## 2020-09-09 · possibly deleted
 
-> "2020 just ain't it" - pyro-cumulus clouds 💨 🔥 shrouding SF in orange this am - looking out at the Golden Gate (which cannot be seen). Stay safe everyone and thank you to the first responders out on the front lines.
+_(text not available)_
 
 https://x.com/chrislehane/status/1303708171341500416 · [archived](https://web.archive.org/web/20200909145404/https://twitter.com/chrislehane/status/1303708171341500416)
 
@@ -12020,7 +12024,7 @@ https://x.com/chrislehane/status/1303393791173222406 · [archived](https://web.a
 
 ## 2020-09-08 · possibly deleted
 
-_(text not available)_
+> @chrislehane @Airbnb That’s us! Retired couple on Social Security using Airbnb to stay in our home. https://t.co/Z8mKRSVHqI
 
 https://x.com/chrislehane/status/1303393347864682496 · [archived](https://web.archive.org/web/20200908180311/https://twitter.com/chrislehane/status/1303393347864682496)
 
@@ -12104,13 +12108,13 @@ https://x.com/chrislehane/status/1300833055007846400 · [archived](https://web.a
 
 ## 2020-08-31 · possibly deleted
 
-> 200k new hosts joined @airbnb: These new hosts live across &gt; 200 countries/regions &amp; we estimate that 57% of them are women. Many of these new hosts using their homes to make extra money &amp; spreading travel economics. https://t.co/4sDBilVSU9
+_(text not available)_
 
 https://x.com/chrislehane/status/1300447376247644161 · [archived](https://web.archive.org/web/20200831145643/https://twitter.com/chrislehane/status/1300447376247644161)
 
 ## 2020-08-29 · possibly deleted
 
-> Good drone video footage of ⁦@tyedinsky⁩ skimming the waves of the Atlantic. Understand that after this work-out he received needed sustenance ⁦@DuckDonuts⁩ https://t.co/EVsp6eRl31
+_(text not available)_
 
 https://x.com/chrislehane/status/1299721799270236162 · [archived](https://web.archive.org/web/20200829145413/https://twitter.com/chrislehane/status/1299721799270236162)
 
@@ -12230,13 +12234,13 @@ https://x.com/chrislehane/status/1296483136705122304 · [archived](https://web.a
 
 ## 2020-08-20 · possibly deleted
 
-> It is snowing ash in Napa (see the smoke cloud over Mt. St. Helena). Thank you 🙏🏽to ⁦@calfireSCU⁩ @napacountyfire⁩ for working in 100+ degree heat amidst a pandemic to help save lives.
+_(text not available)_
 
 https://x.com/chrislehane/status/1296256203215912961 · [archived](https://web.archive.org/web/20200820012248/https://twitter.com/chrislehane/status/1296256203215912961)
 
 ## 2020-08-20 · possibly deleted
 
-> Get your Broadway 🎭 fix and support the Actors Fund. Moulin Rouge: "The greatest thing you'll ever learn is just to love and be loved in return." ⁦@Airbnb⁩ Brings Broadway Home With Its New Collection of Virtual Experiences - Essence https://t.co/DW6atH6pGo
+_(text not available)_
 
 https://x.com/chrislehane/status/1296248590801625088 · [archived](https://web.archive.org/web/20200820005245/https://twitter.com/chrislehane/status/1296248590801625088)
 
@@ -12371,19 +12375,19 @@ https://x.com/chrislehane/status/1289266250821009414 · [archived](https://web.a
 
 ## 2020-07-31 · possibly deleted
 
-> A restorative bfast for champions ⁦@Congdons⁩ 🍩🍩🍩 ⁦@tyedinsky⁩ near where r staying in Kennebunk, ME (only village in the world so named). Led by ⁦@GovJanetMills⁩ ME is a model for safe 🧳. @airbnb generated $200m in June for rural hosts in states like ME.
+_(text not available)_
 
 https://x.com/chrislehane/status/1289238984401367040 · [archived](https://web.archive.org/web/20200731163910/https://twitter.com/chrislehane/status/1289238984401367040)
 
 ## 2020-07-31 · possibly deleted
 
-> To echo @GovMurphy -- no room for first ballot HOF knuckleheads in NJ. @airbnb bans party houses and will not tolerate irresponsible behavior. More to come on this front. https://t.co/oJz3TZrjAy
+_(text not available)_
 
 https://x.com/chrislehane/status/1289236738364149760 · [archived](https://web.archive.org/web/20200731162947/https://twitter.com/chrislehane/status/1289236738364149760)
 
 ## 2020-07-31 · possibly deleted
 
-_(text not available)_
+> @chrislehane @Airbnb We stayed in @Airbnb in Palm Springs just a few weeks ago - felt safe throughout!
 
 https://x.com/chrislehane/status/1289152228406767617 · [archived](https://web.archive.org/web/20200731113544/https://twitter.com/chrislehane/status/1289152228406767617)
 
@@ -12443,19 +12447,21 @@ https://x.com/chrislehane/status/1286474963440918531 · [archived](https://web.a
 
 ## 2020-07-24 · possibly deleted
 
-_(text not available)_
+> Every player and coach on the Yankees &amp; Nationals took a knee before the national anthem tonight in D.C.
+> (via @MarkZuckerman)
+> https://t.co/PrPKv4Gs1Z
 
 https://x.com/chrislehane/status/1286472191626731521 · [archived](https://web.archive.org/web/20200724102845/https://twitter.com/chrislehane/status/1286472191626731521)
 
 ## 2020-07-18 · possibly deleted
 
-> John Lewis always moved forward to accelerate the bending of the arc of history towards justice. His legacy will continue to push US all forward. What a life he lived.
+_(text not available)_
 
 https://x.com/chrislehane/status/1284338294952562688 · [archived](https://web.archive.org/web/20200718053054/https://twitter.com/chrislehane/status/1284338294952562688)
 
 ## 2020-07-16 · possibly deleted
 
-> The Olympics 🏃🏾‍♀️🏋🏾‍♂️⛹🏿🤼‍♂️🥊 may be postponed &amp; we will all be excited for when the 🌎 can come back together in person 🇯🇵. For now @airbnb is honored to be hosting w/ the ⁦@iocmedia⁩ &amp; ⁦@Paralympics⁩ a festival of virtual events with 100+ athletes. https://t.co/CbPXY1P1Sv
+_(text not available)_
 
 https://x.com/chrislehane/status/1283627265121607680 · [archived](https://web.archive.org/web/20200716053050/https://twitter.com/chrislehane/status/1283627265121607680)
 
@@ -12503,13 +12509,13 @@ https://x.com/chrislehane/status/1278737291008188418 · [archived](https://web.a
 
 ## 2020-06-30 · possibly deleted
 
-> If someone had told u on 6/1 that by 7/1 MS would have voted to change its flag; Princeton would've stripped W Wilson's name; companies would be making Juneteenth a holiday; &amp; the great loud majority would be for #BLM - what u have said? Ghandi-Be the change that you wish to see
+_(text not available)_
 
 https://x.com/chrislehane/status/1278109656217317376 · [archived](https://web.archive.org/web/20200630233707/https://twitter.com/chrislehane/status/1278109656217317376)
 
 ## 2020-06-30 · possibly deleted
 
-> 🙏🏽 for the courage to lead. 🌈 https://t.co/7tdcP01TVX
+_(text not available)_
 
 https://x.com/chrislehane/status/1278108544160550912 · [archived](https://web.archive.org/web/20200630233218/https://twitter.com/chrislehane/status/1278108544160550912)
 
@@ -12569,7 +12575,7 @@ https://x.com/chrislehane/status/1275450413928439808 · [archived](https://web.a
 
 ## 2020-06-23 · possibly deleted
 
-_(text not available)_
+> 🙏🏽 @SakhiNYC for your leadership and incredibly important work to support those fleeing from gender based violence. https://t.co/C0lf0SoTy7
 
 https://x.com/chrislehane/status/1275449185622323203 · [archived](https://web.archive.org/web/20200623155141/https://twitter.com/chrislehane/status/1275449185622323203)
 
@@ -12593,13 +12599,13 @@ https://x.com/chrislehane/status/1274021256271028224 · [archived](https://web.a
 
 ## 2020-06-19 · possibly deleted
 
-> Peanut buster parfait at DQ after a whiffle ball game is summer. https://t.co/0lGTpiTfON
+_(text not available)_
 
 https://x.com/chrislehane/status/1273985729090084867 · [archived](https://web.archive.org/web/20200619142944/https://twitter.com/chrislehane/status/1273985729090084867)
 
 ## 2020-06-19 · possibly deleted
 
-> #HappyJuneteenth - "If you know whence you came, there is really no limit to where you can go.” - James Baldwin
+_(text not available)_
 
 https://x.com/chrislehane/status/1273982401891274753 · [archived](https://web.archive.org/web/20200619142010/https://twitter.com/chrislehane/status/1273982401891274753)
 
@@ -12665,7 +12671,7 @@ https://x.com/chrislehane/status/1272534001845014529 · [archived](https://web.a
 
 ## 2020-06-14 · possibly deleted
 
-_(text not available)_
+> @chrislehane @Airbnb @NatlParkService Don’t forget our National Forests and Monuments! https://t.co/Z8mKRSVHqI
 
 https://x.com/chrislehane/status/1272222467726036992 · [archived](https://web.archive.org/web/20200614175402/https://twitter.com/chrislehane/status/1272222467726036992)
 
@@ -12695,9 +12701,7 @@ https://x.com/chrislehane/status/1270459963303882752 · [archived](https://web.a
 
 ## 2020-06-08 · possibly deleted
 
-> Today is #WorldOceansDay, a day of global action to protect 30% of the ocean by 2030. Marine Protected Areas (MPAs) are a great tool for this. But not all MPAs are equal.
-> In this #RareAnswers video, Rare's @courtocean explains #MPAs and where they're needed most.
-> #30x30 https://t.co/Er1oETQJFR
+_(text not available)_
 
 https://x.com/chrislehane/status/1270053665932337152 · [archived](https://web.archive.org/web/20200608182550/https://twitter.com/chrislehane/status/1270053665932337152)
 
@@ -12745,7 +12749,7 @@ https://x.com/chrislehane/status/1268620624399757312 · [archived](https://web.a
 
 ## 2020-06-04 · possibly deleted
 
-_(text not available)_
+> @adams2011 🙏🏽. To simply reject racism is not enough. To break the historical chains of racism we need to be anti-rascist. Listen. Learn. Act.
 
 https://x.com/chrislehane/status/1268549523284070401 · [archived](https://web.archive.org/web/20200604144155/https://twitter.com/chrislehane/status/1268549523284070401)
 
@@ -12811,7 +12815,7 @@ https://x.com/chrislehane/status/1267888940582723584 · [archived](https://web.a
 
 ## 2020-06-02 · possibly deleted
 
-_(text not available)_
+> 🙏🏽 @politico for the ❤️ https://t.co/IqRBm7JhU2
 
 https://x.com/chrislehane/status/1267887811148963841 · [archived](https://web.archive.org/web/20200603055010/https://twitter.com/chrislehane/status/1267887811148963841)
 
@@ -13089,7 +13093,7 @@ https://x.com/chrislehane/status/1261496037048324096 · [archived](https://web.a
 
 ## 2020-05-15 · possibly deleted
 
-_(text not available)_
+> Really excited for Tara to be joining us. ⁦@Airbnb⁩ hires new operations chief as it eyes a post-virus recovery - ⁦@axios⁩ https://t.co/E7M7UiPhCc
 
 https://x.com/chrislehane/status/1261425268155015170 · [archived](https://web.archive.org/web/20200515232314/https://twitter.com/chrislehane/status/1261425268155015170)
 
@@ -13180,7 +13184,7 @@ https://x.com/chrislehane/status/1254837336040341504 · [archived](https://web.a
 
 ## 2020-04-27 · possibly deleted
 
-> One of our favorite family dinner conversations - where to go when we can go ⁦on ⁦@Airbnb⁩ https://t.co/wZh9OzG64R
+_(text not available)_
 
 https://x.com/chrislehane/status/1254836669863178240 · [archived](https://web.archive.org/web/20200505024536/https://twitter.com/chrislehane/status/1254836669863178240)
 
@@ -13240,7 +13244,7 @@ https://x.com/chrislehane/status/1253127759372578816 · [archived](https://web.a
 
 ## 2020-04-23 · possibly deleted
 
-> the year is 2020. home-sharing platform airbnb now lets you virtually hang out with a plague doctor https://t.co/mX1BH9SiUA
+_(text not available)_
 
 https://x.com/chrislehane/status/1253127241430478848 · [archived](https://web.archive.org/web/20200503122035/https://twitter.com/chrislehane/status/1253127241430478848)
 
@@ -13307,7 +13311,7 @@ https://x.com/chrislehane/status/1246971842683781121 · [archived](https://web.a
 
 ## 2020-04-04 · possibly deleted
 
-> Seen on morning run: When even the goose is practicing social distancing from the gaggle - we humans need to get the message and be doing the same everywhere to bend the curve.
+_(text not available)_
 
 https://x.com/chrislehane/status/1246518435820875776 · [archived](https://web.archive.org/web/20200405180803/https://twitter.com/chrislehane/status/1246518435820875776)
 
@@ -13379,7 +13383,7 @@ https://x.com/chrislehane/status/1245454269144158208 · [archived](https://web.a
 
 ## 2020-03-30 · possibly deleted
 
-> 4/4: 🙏🏽 to more than 50,000 @airbnb hosts who have volunteered to open their homes 🏠 to support health care providers 🥼 👩‍⚕️ serving all of us on the front lines. 👏🏽 👏🏽 👏🏽 https://t.co/uwD0I8ivxK
+_(text not available)_
 
 https://x.com/chrislehane/status/1244772257961930752 · [archived](https://web.archive.org/web/20200331000151/https://twitter.com/chrislehane/status/1244772257961930752)
 
@@ -13421,7 +13425,7 @@ https://x.com/chrislehane/status/1243343249428766720 · [archived](https://web.a
 
 ## 2020-03-26 · possibly deleted
 
-> More than 100,000 calls to Congress by @airbnb hosts successfully advocating to be included in the relief package had a big impact - everyday people from teachers, nurses, veterans: Airbnb hosts can get small business loans through federal relief bill https://t.co/aC9ojvJNkU
+_(text not available)_
 
 https://x.com/chrislehane/status/1243191728741298176 · [archived](https://web.archive.org/web/20200326151721/https://twitter.com/chrislehane/status/1243191728741298176)
 
@@ -13512,7 +13516,7 @@ https://x.com/chrislehane/status/1240767497457922048 · [archived](https://web.a
 
 ## 2020-03-19 · possibly deleted
 
-> Bellissimo. Many friends in this video and look forward to coming back to @Airbnb Experiences in Italia 🇮🇹 https://t.co/CeFkC8sHM4
+_(text not available)_
 
 https://x.com/chrislehane/status/1240486098389708800 · [archived](https://web.archive.org/web/20200319044444/https://twitter.com/chrislehane/status/1240486098389708800)
 
@@ -13560,7 +13564,7 @@ https://x.com/chrislehane/status/1240097865684271104 · [archived](https://web.a
 
 ## 2020-03-17 · possibly deleted
 
-> All In This Together: To help ensure hourly workers, including ⁦@UAW⁩ food service, ⁦@SEIU⁩ janitorial &amp; security, &amp; other support staff ⁩ —continue to be paid ⁦@Airbnb⁩ has committed over $4m. Stay safe and stay strong. https://t.co/KcuSWiLfJL
+_(text not available)_
 
 https://x.com/chrislehane/status/1240041585598844929 · [archived](https://web.archive.org/web/20200317225542/https://twitter.com/chrislehane/status/1240041585598844929)
 
@@ -13621,7 +13625,7 @@ https://x.com/chrislehane/status/1238483554356441089 · [archived](https://web.a
 
 ## 2020-03-12 · possibly deleted
 
-> All of us at Amherst would like to express our gratitude for the outpouring of support this week. We also appreciate those expressing frustration and confusion--your questions are enabling us to see gaps in our responses. So, THANK YOU. Wishing health and safety to all.
+_(text not available)_
 
 https://x.com/chrislehane/status/1238183622403751936 · [archived](https://web.archive.org/web/20200313002908/https://twitter.com/chrislehane/status/1238183622403751936)
 
@@ -13687,7 +13691,7 @@ https://x.com/chrislehane/status/1236106018330783744 · [archived](https://web.a
 
 ## 2020-03-05 · possibly deleted
 
-> Landmark data sharing agreement 👏🏽. The European Commission: “The agreement will for the first time permit access to reliable data about holiday and other short-stay accommodation,” ⁦@Airbnb⁩ Signs Data Sharing Partnership With European Commission https://t.co/yhwAiewtEj
+_(text not available)_
 
 https://x.com/chrislehane/status/1235561069449379840 · [archived](https://web.archive.org/web/20200305141533/https://twitter.com/chrislehane/status/1235561069449379840)
 
@@ -13838,13 +13842,13 @@ https://x.com/chrislehane/status/1229516848015659008 · [archived](https://web.a
 
 ## 2020-02-12 · possibly deleted
 
-> It was wonderful to see all the hosts from the region. Thank you for all you do. There were so many hosts with such great listings that i may need to take months to just travel around DACH! https://t.co/w0PqSEyMQ3
+_(text not available)_
 
 https://x.com/chrislehane/status/1227693972190924800 · [archived](https://web.archive.org/web/20200213021241/https://twitter.com/chrislehane/status/1227693972190924800)
 
 ## 2020-02-12 · possibly deleted
 
-> Res ipsa loquitor. 🥯 🎿 https://t.co/A3wB0Ld3z1
+_(text not available)_
 
 https://x.com/chrislehane/status/1227609290971566081 · [archived](https://web.archive.org/web/20200212204650/https://twitter.com/chrislehane/status/1227609290971566081)
 
@@ -14046,7 +14050,7 @@ https://x.com/chrislehane/status/1221787465624649729 · [archived](https://web.a
 
 ## 2020-01-26 · possibly deleted
 
-_(text not available)_
+> Danke! Really special to see the host from Germany 🇩🇪, Austria 🇦🇹 and Switzerland 🇨🇭- I now have many homes to visit and stay in... and look forward to a hike up the mountains ⛰ https://t.co/UrdltoZ54V
 
 https://x.com/chrislehane/status/1221519595548368903 · [archived](https://web.archive.org/web/20200127224156/https://twitter.com/chrislehane/status/1221519595548368903)
 
@@ -14924,7 +14928,7 @@ https://x.com/chrislehane/status/1179788442017751040 · [archived](https://web.a
 
 ## 2019-10-02 · possibly deleted
 
-> @Airbnb Some great tips 👍🏾 🏡
+_(text not available)_
 
 https://x.com/chrislehane/status/1179425883792248832 · [archived](https://web.archive.org/web/20191002160721/https://twitter.com/chrislehane/status/1179425883792248832)
 
@@ -15123,7 +15127,7 @@ https://x.com/chrislehane/status/1169610199658680321 · [archived](https://web.a
 
 ## 2019-09-05 · possibly deleted
 
-> Puissant: A win for roosters 🐓 in France 🇫🇷 and around the world 🌎 ; a big win for Maurice 🐔: and an even bigger win for living like a local. Sur l’île d’Oléron, la justice autorise le coq Maurice à continuer de chanter https://t.co/Z9Xx7jip1b
+_(text not available)_
 
 https://x.com/chrislehane/status/1169588702382657537 · [archived](https://web.archive.org/web/20190919164806/https://twitter.com/chrislehane/status/1169588702382657537)
 
@@ -15304,7 +15308,7 @@ https://x.com/chrislehane/status/907579226525540352 · [archived](https://web.ar
 
 ## 2017-09-07 · possibly deleted
 
-> Making sure house cleaners share in the economic empowerment Airbnb provides - powerful https://t.co/u3NsNkZ32e
+_(text not available)_
 
 https://x.com/chrislehane/status/905918253033283584 · [archived](https://web.archive.org/web/20170911065720/https://twitter.com/chrislehane/status/905918253033283584)
 

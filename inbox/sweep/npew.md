@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 771 (2019-09-18 to 2026-05-15)
-- Read so far: 771 (100%); text found for 747; 0 not read yet
+- Archived posts found: 446 (2019-09-18 to 2026-05-15)
+- Left out: 325 archived link(s) under this handle that X says another account wrote
+- Read so far: 446 (100%); text found for 422; 0 not read yet
 - Possibly deleted: 39
-- Matching the topic filter: 63
+- Matching the topic filter: 23
 
 
-Every post is in `npew.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `npew/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2025-07-19
 
@@ -76,14 +77,7 @@ https://x.com/npew/status/1537267993817731073 · [archived](https://web.archive.
 
 https://x.com/npew/status/1536859969827418112 · [archived](https://web.archive.org/web/20220614235635/https://twitter.com/npew/status/1536859969827418112)
 
-## 2022-05-31 · reply to @npew
-
-> @npew Our computer is made of meat!
-> https://t.co/0NC0e7TSld
-
-https://x.com/npew/status/1531437068252917760 · [archived](https://web.archive.org/web/20220531004746/https://twitter.com/npew/status/1531437068252917760)
-
-## 2022-05-29
+## 2022-05-29 · reply to @amanjha__
 
 > @amanjha__ We’re working on getting our models more geographically distributed, which will reduce network overhead a lot. Likely sub 50 ms. Our slowest models sample tokens at less than 50 ms per token, and fastest at &lt;10 ms per token (won’t change on edge).
 
@@ -107,12 +101,6 @@ _(text not available)_
 
 https://x.com/npew/status/1527439372630360064 · [archived](https://web.archive.org/web/20220520000159/https://twitter.com/npew/status/1527439372630360064)
 
-## 2022-05-19
-
-> How about a political party that delivers and executes a pro business, pro immigration, pro choice, universal healthcare, universal childcare, and affordable education agenda?
-
-https://x.com/npew/status/1527081295209058304 · [archived](https://web.archive.org/web/20220519001913/https://twitter.com/npew/status/1527081295209058304)
-
 ## 2022-05-16 · possibly deleted
 
 > EdTech startup idea: teach an AI to do things. One of the best ways to learn something is to teach it! If you had few "levels" of AI, you could learn from the next level while teaching the previous. https://t.co/8OqriInn4E
@@ -121,32 +109,9 @@ https://x.com/npew/status/1526345419436851200 · [archived](https://web.archive.
 
 ## 2022-04-28
 
-> SF is killing the golden goose. City leaders worldwide envy what SF has in tech.
-> 
-> The NIMBY hard left machine blames tech as a scapegoat to cover for their corrupt policies that hurt citizens daily: housing, edu and safety policy that fail us
-> 
-> We must vote better. Follow @GrowSF
-
-Quoting https://x.com/abc7newsbayarea/status/1519229893455843328:
-> PayPal to shut down San Francisco office starting June 3, sources say https://t.co/FviTcQlYwQ https://t.co/1zgswdoLFA
-
-https://x.com/npew/status/1519537426472996865 · [archived](https://web.archive.org/web/20220428044257/https://twitter.com/npew/status/1519537426472996865)
-
-## 2022-04-28
-
 > @steindavidb @ryanvilim @svenkreiss @bendarnell @dosinga @johnwittrock Can't promise timelines :)  Are you signed up at the DALL-E waitlist yet? We hope to continue growing access.
 
 https://x.com/npew/status/1519467139383537666 · [archived](https://web.archive.org/web/20220428000309/https://twitter.com/npew/status/1519467139383537666)
-
-## 2022-03-19
-
-> Creating AGI is, I think, most interesting, challenging, and important technical problem in the world.
-> 
-> The engineering challenges are now as hard and impactful as the research challenges.
-> 
-> If you’re an engineer, OpenAI would love to hear from you!
-
-https://x.com/npew/status/1505254529494749187 · [archived](https://web.archive.org/web/20220319184724/https://twitter.com/npew/status/1505254529494749187)
 
 ## 2022-03-18 · possibly deleted
 
@@ -158,48 +123,12 @@ https://x.com/npew/status/1505254529494749187 · [archived](https://web.archive.
 
 https://x.com/npew/status/1504627326218240000 · [archived](https://web.archive.org/web/20220318011450/https://twitter.com/npew/status/1504627326218240000)
 
-## 2022-03-17
-
-> JS devs might like this one – using GPT-3's new Edit capability to migrate code from promises to async/await. https://t.co/5ZklnKpcJZ
-
-https://x.com/npew/status/1504290176691961856 · [archived](https://web.archive.org/web/20220317025516/https://twitter.com/npew/status/1504290176691961856)
-
 ## 2022-03-09 · possibly deleted
 
 > We've launched Cogram for SQL on ProductHunt! 🙌 You can ask questions in plain English—Cogram translates these into database queries and runs them to retrieve insights.
 > https://t.co/S7QCaIYMEE
 
 https://x.com/npew/status/1501656911803928576 · [archived](https://web.archive.org/web/20220309203130/https://twitter.com/npew/status/1501656911803928576)
-
-## 2022-03-04
-
-> Lessons learned from detecting &amp; stopping hundreds of actors attempting to misuse GPT-3:
-
-Quoting https://x.com/OpenAI/status/1499518924781539341:
-> Deploying and studying the real-world use of language models helps us learn more about safety and misuse than research alone.
-> 
-> As we advance our safety and policy work, we're sharing some of our findings to help others do the same. https://t.co/DcTDvAWxxD
-
-https://x.com/npew/status/1499557377938321411 · [archived](https://web.archive.org/web/20220304012848/https://twitter.com/npew/status/1499557377938321411)
-
-## 2022-02-28
-
-> If you can donate money to support Ukraine now, here are some vetted funds 👇
-
-https://x.com/npew/status/1498147206569754628 · [archived](https://web.archive.org/web/20220228040547/https://twitter.com/npew/status/1498147206569754628)
-
-## 2022-02-27
-
-> Grateful that my Ukrainian grandma doesn’t have to throw Molotov cocktails today.
-> 
-> But the brave people in 🇺🇦 aren't just fighting for their country &amp; children, they’re protecting our democracy.
-> 
-> Support @UnitedHelpUA &amp; @novaukraine to send humanitarian aid. #IStandWithUkriane
-
-Quoting https://x.com/npew/status/1498000415543095297:
-> We need to make a stand for democracy and help Ukraine 🇺🇦. After some research, we donated to https://t.co/Hr6sCJZeQ8 and https://t.co/KuAQkwhK56
-
-https://x.com/npew/status/1498024492160806912 · [archived](https://web.archive.org/web/20220227195738/https://twitter.com/npew/status/1498024492160806912)
 
 ## 2022-02-27
 
@@ -234,37 +163,6 @@ https://x.com/npew/status/1488969000700682241 · [archived](https://web.archive.
 
 https://x.com/npew/status/1488916789526339585 · [archived](https://web.archive.org/web/20220202165150/https://twitter.com/npew/status/1488916789526339585)
 
-## 2022-01-31
-
-> Zero-shot results of OpenAI API’s embeddings on the FIQA search dataset. Evaluation script: https://t.co/dQh3pd6UhU
-> We zero-shot evaluated on 14 text search datasets, our embeddings outperform keyword search and previous dense embedding methods on 11 of them! https://t.co/jnSdLBnAB4
-
-Quoting https://x.com/arvind_io/status/1487189010657071105:
-> In text search tasks, we obtain best zero-shot results in msmarco, triviaQA, and NQ and also the best transfer results on the BEIR benchmark. 5/7 https://t.co/ICO2fqtNgu
-
-https://x.com/npew/status/1488298388076392450 · [archived](https://web.archive.org/web/20220131235431/https://twitter.com/npew/status/1488298388076392450)
-
-## 2022-01-29
-
-> Large models like GPT-3 work in different ways than smaller models.
-> 
-> I cringe every time a researcher does an evaluation of GPT-3 for something like Q&amp;A without giving the model context (telling it to use "common sense", etc.)
-> 
-> Thankfully our new Instruct models make this easier.
-
-https://x.com/npew/status/1487547920819765249 · [archived](https://web.archive.org/web/20220129220719/https://twitter.com/npew/status/1487547920819765249)
-
-## 2022-01-28
-
-> Very proud of the @scale_AI team to have worked with @OpenAI on these new results in alignment.
-> 
-> Long-term, human-AI alignment is one of our time's most important problems as AI becomes more powerful, and enabling alignment and is a fundamental long-term mission of Scale.
-
-Quoting https://x.com/OpenAI/status/1486740126688370712:
-> We've trained GPT-3 to be more aligned with what humans want: The new InstructGPT models are better at following human intent than a 100x larger model, while also improving safety and truthfulness. https://t.co/rKNpCDAMb2
-
-https://x.com/npew/status/1486869323469574144 · [archived](https://web.archive.org/web/20220128011550/https://twitter.com/npew/status/1486869323469574144)
-
 ## 2022-01-27
 
 > Big news: Over the past year we've developed InstructGPT, a descendant of GPT-3 that follows instructions. Not only is it better than GPT-3 at every task we throw at it, but it's safer and more intuitive to use as well.
@@ -273,60 +171,12 @@ https://x.com/npew/status/1486869323469574144 · [archived](https://web.archive.
 
 https://x.com/npew/status/1486759907944648706 · [archived](https://web.archive.org/web/20220127180108/https://twitter.com/npew/status/1486759907944648706)
 
-## 2022-01-26
-
-> Quite amazing to see latest work by  @OpenAI researchers using our 🍻 BEIR benchmark (https://t.co/Z9EZ7yT5F9) to evaluate and benchmark their latest neural models in text search 🔎
-> 
-> Excited to see what comes next! Can't wait to try out their Embedding API service! 💨💨
-
-Quoting https://x.com/OpenAI/status/1486047258499948544:
-> We're introducing embeddings, a new feature of our API that distills relationships between concepts, sentences, and even code in a simple numerical representation — for more powerful search, classification, and recommendations. https://t.co/HXpZL2wJc1
-
-https://x.com/npew/status/1486411518883160064 · [archived](https://web.archive.org/web/20220126185650/https://twitter.com/npew/status/1486411518883160064)
-
 ## 2021-12-20 · possibly deleted
 
 > Very impressed with how good Copilot can be if given clear instructions on what code to generate.
 > The simple script below extracts words and removes full stops. The same instructions are used to generate similar scripts in two different languages: Python and Ruby.
 
 https://x.com/npew/status/1472969515709304833 · [archived](https://web.archive.org/web/20211220164302/https://twitter.com/npew/status/1472969515709304833)
-
-## 2021-12-03
-
-> I have now gotten enough of a taste of AI-powered creative tools to know that they're going to be much better than even the AI optimists think.
-> 
-> So cool to just think of ideas and iteratively have the computer implement and build on them.
-
-https://x.com/npew/status/1466570219028029442 · [archived](https://web.archive.org/web/20211203004943/https://twitter.com/npew/status/1466570219028029442)
-
-## 2021-11-18 · reply to @sama
-
-> We believe that the best way to carefully steward AGI into existence is to iteratively deploy increasingly powerful systems.
-> 
-> A gradual transition is better than a sudden one; it helps us learn and prepare. And it gives people and institutions time to adapt.
-
-https://x.com/npew/status/1461447808993546244 · [archived](https://web.archive.org/web/20211118213450/https://twitter.com/npew/status/1461447808993546244)
-
-## 2021-09-23
-
-> 👋 Hey, you! Come work with me on product design at @OpenAI?
-> 
-> I joined OpenAI last year because the mission, opportunity, and team were so irresistibly exciting. We’re up to our ears in deeply interesting, high-impact design problems.
-
-https://x.com/npew/status/1441024918406111239 · [archived](https://web.archive.org/web/20210923194531/https://twitter.com/npew/status/1441024918406111239)
-
-## 2021-08-26
-
-> Another open-source tool powered by @OpenAI #Codex: auto-docstring (https://t.co/elTaWnMjVP) writes and adds Python (PEP 257) docstrings summarizing what each of your functions does, what arguments it takes, and what it returns.
-> 
-> How/where would *you* use this kind of capability? https://t.co/pxJ0kgskHS
-
-Quoting https://x.com/scottleibrand/status/1429298484604141573:
-> And it works! https://t.co/rKujIK7NFm is a new open-source tool powered by @OpenAI #Codex that writes and adds inline comments explaining whatever code you give it.
-> 
-> What code would *you* like comments added to? Reply with a link to it on GitHub, and I'll give it a try. https://t.co/zuTnch36RF
-
-https://x.com/npew/status/1430996110521225216 · [archived](https://web.archive.org/web/20210826210755/https://twitter.com/npew/status/1430996110521225216)
 
 ## 2021-08-24 · possibly deleted
 
@@ -361,69 +211,11 @@ https://x.com/npew/status/1426310223656939522 · [archived](https://web.archive.
 
 https://x.com/npew/status/1426182592655544326 · [archived](https://web.archive.org/web/20210813143914/https://twitter.com/npew/status/1426182592655544326)
 
-## 2021-08-12
-
-> Race begins in T-1 hour — https://t.co/U7tMTyERKi. https://t.co/1IpcVg2inQ
-
-https://x.com/npew/status/1425863209991360512 · [archived](https://web.archive.org/web/20210812183445/https://twitter.com/npew/status/1425863209991360512)
-
 ## 2021-08-11 · possibly deleted
 
 > Makin memes w/ Codex https://t.co/387MIquPG2
 
 https://x.com/npew/status/1425311482854531077 · [archived](https://web.archive.org/web/20210811042201/https://twitter.com/npew/status/1425311482854531077)
-
-## 2021-08-10
-
-> OpenAI Codex has a qualitatively new capability — it can write code with sufficient accuracy that users can direct their computer in natural language.
-> 
-> Codex is now in OpenAI API, for people to build new businesses or integrate with existing applications: https://t.co/n3U4DJ7fqC https://t.co/3ETsyXMQ7T
-
-https://x.com/npew/status/1425154038119616521 · [archived](https://web.archive.org/web/20210810182717/https://twitter.com/npew/status/1425154038119616521)
-
-## 2021-08-10 · reply to @sama
-
-> I think Codex gets close to what most of us really want from computers—we say what we want, and they do it. 
-> 
-> Programming languages are an artifact of computers not being able to actually understand us, and humans and computers relying on a lingua franca to understand each other.
-
-https://x.com/npew/status/1425151540835225610 · [archived](https://web.archive.org/web/20210810180052/https://twitter.com/npew/status/1425151540835225610)
-
-## 2021-07-30
-
-> Before AWS, APIs, open source, etc, the question for startup CEOs was: "do you have an amazing CTO who can do it all?"
-> 
-> Now it's: "do you have a good CTO who can leverage existing tools?"
-> 
-> How long before it's: "why do you have a CTO? Why didn't you build this w/no-code tools?"
-
-https://x.com/npew/status/1420930822304002049 · [archived](https://web.archive.org/web/20210730021451/https://twitter.com/npew/status/1420930822304002049)
-
-## 2021-07-20
-
-> https://t.co/ufUj99BI9i’s mission is to create a system that can write software at the level of the world's most skilled engineers.
-> 
-> Once everyone can instantly create the exact software they need, that’s when I think the _real_ computer revolution will begin.
-
-https://x.com/npew/status/1417538493929033731 · [archived](https://web.archive.org/web/20210720173633/https://twitter.com/npew/status/1417538493929033731)
-
-## 2021-07-16
-
-> 📢 We're hiring a data scientist for the Alignment team at @OpenAI! 😊
-> 
-> We're looking for someone who cares deeply about the data used to train ML systems, potentially w/ experience in participatory design, safety/ social impact of ML systems, etc.
-> 
-> Link: https://t.co/sWne74acc9
-
-https://x.com/npew/status/1415865730596147201 · [archived](https://web.archive.org/web/20210716024756/https://twitter.com/npew/status/1415865730596147201)
-
-## 2021-07-14
-
-> Diffusion models are another type of generative models, besides GAN, VAE, and flow models. The idea is quite smart and clean. It is flexible enough to model any complex distribution while remains tractable to evaluate the distribution. 
-> 
-> https://t.co/3eaekDiUOU
-
-https://x.com/npew/status/1415307852323770368 · [archived](https://web.archive.org/web/20210714135105/https://twitter.com/npew/status/1415307852323770368)
 
 ## 2021-07-08 · possibly deleted
 
@@ -454,16 +246,6 @@ Quoting https://x.com/jachiam0/status/1374911198060281858:
 > My team is hiring research engineers who will help OpenAI meet an incredibly high bar for safety. If OpenAI's mission of safe, broadly beneficial AGI speaks to you, take a look! https://t.co/Edq1KErW1h
 
 https://x.com/npew/status/1375251402134413317 · [archived](https://web.archive.org/web/20210326055328/https://twitter.com/npew/status/1375251402134413317)
-
-## 2021-03-22
-
-> Finally! I've covered @OpenAI's "Solving Rubik's Cube with a Robot Hand" paper/project. I loved the paper. The combination of hardware, electronics, sensors, robotics, and learning (RL, policy cloning, etc.).
-> 
-> @bobmcgrewai @npew @l32zhang 
-> 
-> YT: https://t.co/JXjm6ReScZ https://t.co/mSUPFQs6aZ
-
-https://x.com/npew/status/1374140013261201410 · [archived](https://web.archive.org/web/20210322232458/https://twitter.com/npew/status/1374140013261201410)
 
 ## 2021-03-18 · possibly deleted
 
@@ -507,81 +289,11 @@ _(text not available)_
 
 https://x.com/npew/status/1327679256579567616 · [archived](https://web.archive.org/web/20201114182643/https://twitter.com/npew/status/1327679256579567616)
 
-## 2020-11-09
-
-> For me this weekend was not only about joy and relief. It was also about unusual lessons in product management: never launch a new product right after an election.
-> 
-> Late last week, we upgraded an app... https://t.co/QaWm814spM
-
-https://x.com/npew/status/1325882726172356608 · [archived](https://web.archive.org/web/20201109193025/https://twitter.com/npew/status/1325882726172356608)
-
-## 2020-11-08
-
-> My toddler after finishing his celebratory ice cream and talk about why today is such a good day: 
-> 
-> "Now, can we help the kids find their mommies and daddies?" 
-> 
-> So we sat down to donate to 14 orgs that are working on it. You should too. https://t.co/7uwPBFsnyv
-
-https://x.com/npew/status/1325297722912468992 · [archived](https://web.archive.org/web/20201108044312/https://twitter.com/npew/status/1325297722912468992)
-
-## 2020-11-07
-
-> Beyond the thrill of restoring democracy, the US just elected it's first female Vice President! 
-> 
-> She did it. 💪🏻
-> 
-> #TheFutureisFemale #Election2020 #BidenHarris https://t.co/W27OVZUqpq
-
-https://x.com/npew/status/1325175297033990144 · [archived](https://web.archive.org/web/20201107203648/https://twitter.com/npew/status/1325175297033990144)
-
 ## 2020-10-31 · possibly deleted
 
 _(text not available)_
 
 https://x.com/npew/status/1322369765151662081 · [archived](https://web.archive.org/web/20201031024825/https://twitter.com/npew/status/1322369765151662081)
-
-## 2020-10-19
-
-> Amidst COVID, I've been donating all of my time building tech to disburse $6+ million in cash &amp; rental assistance to thousands in need.
-> 
-> But there's millions more to give.
-> 
-> So we're turning the tech into a platform (https://t.co/TkIZWy5YvI) and I'm hiring: https://t.co/HNohr5YBVi
-
-https://x.com/npew/status/1318280813625028608 · [archived](https://web.archive.org/web/20201019200030/https://twitter.com/npew/status/1318280813625028608)
-
-## 2020-10-14
-
-> An OpenAI-powered tool for writing ads for your product — now looking for beta users.
-> 
-> Built by my brother Matt, who inspired me to get into computers in the first place and has in several cases gotten better results out of GPT-3 than our paper.
-
-Quoting https://x.com/badphilosopher/status/1316016842855510017:
-> We built an interface around #GPT3 to create https://t.co/IV7pl5fayA, a tool to computationally produce text-based ads for products to different contexts. We're expanding our pool of limited beta users, check it out! https://t.co/3tNxdF1Hv9
-
-https://x.com/npew/status/1316192847956115456 · [archived](https://web.archive.org/web/20201014014336/https://twitter.com/npew/status/1316192847956115456)
-
-## 2020-09-17
-
-> Excited to share our recent work on Phasic Policy Gradient, a new RL algorithm which improves sample efficiency by performing policy optimization and auxiliary optimization in two alternating phases. Check out the paper and code! https://t.co/EiOWyUereB
-
-https://x.com/npew/status/1306603118025613313 · [archived](https://web.archive.org/web/20200917144452/https://twitter.com/npew/status/1306603118025613313)
-
-## 2020-09-05
-
-> VERY excited to announce new work from our team (one of the safety teams @OpenAI)!! 🎉
-> 
-> We wanted to make training models to optimize human preferences Actually Work™. 
-> 
-> We applied it to English abstractive summarization, and got some pretty good results.
-> 
-> A thread 🧵: (1/n)
-
-Quoting https://x.com/OpenAI/status/1301914879721234432:
-> We've used reinforcement learning from human feedback to train language models for summarization. The resulting models produce better summaries than 10x larger models trained only with supervised learning: https://t.co/Sk31d1CnTu
-
-https://x.com/npew/status/1302066099157000195 · [archived](https://web.archive.org/web/20200905020948/https://twitter.com/npew/status/1302066099157000195)
 
 ## 2020-08-19 · possibly deleted
 
@@ -600,27 +312,6 @@ https://x.com/npew/status/1294400923557478400 · [archived](https://web.archive.
 _(text not available)_
 
 https://x.com/npew/status/1291745755275751425 · [archived](https://web.archive.org/web/20200807143957/https://twitter.com/npew/status/1291745755275751425)
-
-## 2020-07-23
-
-> We are beginning to see how powerful AI can catalyze science. In a future coming to you soon: ask the computer to conduct an experiment, interactively probe the results, and then ask for the next experiment, iterating quickly without writing a single line of code or pipetting!
-
-Quoting https://x.com/aquariusacquah/status/1285415144017797126:
-> GPT-3 Does The Work™️ on generating SVG charts, with a quick web app I built with @billyjeanbillyj. With a short sentence describing what you want to plot, its able to generate charts with titles, labels and legends from about a dozen primed examples.
-> 
-> cc @gdb https://t.co/cBxukHIlKx
-
-https://x.com/npew/status/1286301295876292609 · [archived](https://web.archive.org/web/20200723172652/https://twitter.com/npew/status/1286301295876292609)
-
-## 2020-07-21
-
-> Really enjoyed talking about startup hustling and things I’ve learned in my career in product, policy, and as a startup founder.
-> 
-> Thanks to @ipwithgz + @camilleesq for having me on the @iHustleForIt podcast!
-> 
-> https://t.co/J88Y87WlvI
-
-https://x.com/npew/status/1285598006985859073 · [archived](https://web.archive.org/web/20200721181050/https://twitter.com/npew/status/1285598006985859073)
 
 ## 2020-07-20
 
@@ -646,37 +337,17 @@ _(text not available)_
 
 https://x.com/npew/status/1279548465459019776 · [archived](https://web.archive.org/web/20200704230637/https://twitter.com/npew/status/1279548465459019776)
 
-## 2020-07-02
-
-> Big AI models like GPT-3 train on massive internet text dumps, but the data is assumed to be independent and identically distributed. Incorporating time information for a decade of data might allow them to start writing tomorrow's reddit or twitter trends.
-
-https://x.com/npew/status/1278840649026957312 · [archived](https://web.archive.org/web/20200703000320/https://twitter.com/npew/status/1278840649026957312)
-
 ## 2020-07-01 · possibly deleted
 
 _(text not available)_
 
 https://x.com/npew/status/1278153920397799424 · [archived](https://web.archive.org/web/20200701023258/https://twitter.com/npew/status/1278153920397799424)
 
-## 2020-06-21
-
-> AI tools will eliminate most of the tedious work in most jobs (design, data science, programming, professional emailing, etc.)
-> 
-> Prediction: it will be very surprising how much more productive people are when they have never have to break rhythm and slow down for a tedious task.
-
-https://x.com/npew/status/1274782134679400448 · [archived](https://web.archive.org/web/20200621191647/https://twitter.com/npew/status/1274782134679400448)
-
 ## 2020-06-11 · possibly deleted
 
 _(text not available)_
 
 https://x.com/npew/status/1271121722859634688 · [archived](https://web.archive.org/web/20200611170759/https://twitter.com/npew/status/1271121722859634688)
-
-## 2020-06-09
-
-> We’ve been talking at OpenAI about what we can do to help Black equity. We’re committing $1M to this cause via direct donations and expanding our Scholars program, which provides educational resources and mentoring to underrepresented groups in AI. (1/4)
-
-https://x.com/npew/status/1270193019044524033 · [archived](https://web.archive.org/web/20200609032225/https://twitter.com/npew/status/1270193019044524033)
 
 ## 2020-06-06 · possibly deleted
 
@@ -689,18 +360,6 @@ https://x.com/npew/status/1269273800396296192 · [archived](https://web.archive.
 _(text not available)_
 
 https://x.com/npew/status/1269089050385805312 · [archived](https://web.archive.org/web/20200606075402/https://twitter.com/npew/status/1269089050385805312)
-
-## 2020-06-05
-
-> If cops shoot tear gas at you, that’s “crowd control”, but if you pick it up and throw it back, that’s “assault with a deadly weapon”. Got it. https://t.co/To9khcPRx2
-
-https://x.com/npew/status/1268740683411582976 · [archived](https://web.archive.org/web/20200605031429/https://twitter.com/npew/status/1268740683411582976)
-
-## 2020-06-04
-
-> CNN is now helping us prepare for when the police use weapons that are outlawed by the Geneva Convention. https://t.co/J2ZGvWuigy https://t.co/jvSWsBwfmi
-
-https://x.com/npew/status/1268620036639322118 · [archived](https://web.archive.org/web/20200604191714/https://twitter.com/npew/status/1268620036639322118)
 
 ## 2020-06-04 · reply to @npew
 
@@ -720,29 +379,11 @@ _(text not available)_
 
 https://x.com/npew/status/1268586153172561922 · [archived](https://web.archive.org/web/20200604165813/https://twitter.com/npew/status/1268586153172561922)
 
-## 2020-06-03
-
-> Whites parents: please watch the video below and think about your privilege of not having to teach your kids how to stay safe when interacting with police.
-
-https://x.com/npew/status/1268255588179308544 · [archived](https://web.archive.org/web/20200604012420/https://twitter.com/npew/status/1268255588179308544)
-
 ## 2020-06-01 · possibly deleted
 
 _(text not available)_
 
 https://x.com/npew/status/1267479655465938950 · [archived](https://web.archive.org/web/20200601154136/https://twitter.com/npew/status/1267479655465938950)
-
-## 2020-03-16
-
-> Box2D is a very nice and simple physics engines and a great place to start if you want to understand how physics engines work.
-> 
-> These are some nice slides on how Box2D works 
-> 
-> https://t.co/OQG0d8Z0ZV
-> 
-> It models contacts via newton's 3rd law and doesn't solve LCPs. https://t.co/SJfDReRnHD
-
-https://x.com/npew/status/1239580501553242112 · [archived](https://web.archive.org/web/20200316161044/https://twitter.com/npew/status/1239580501553242112)
 
 ## 2019-10-29
 

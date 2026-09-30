@@ -2,14 +2,15 @@
 
 Swept 2026-09-30.
 
-- Posts on X, including reposts: 818
-- Archived posts found: 414 (2018-05-17 to 2026-04-08)
-- Read so far: 414 (100%); text found for 413; 0 not read yet
+- Posts on X, including reposts: unknown
+- Archived posts found: 398 (2018-05-17 to 2026-04-08)
+- Left out: 16 archived link(s) under this handle that X says another account wrote
+- Read so far: 398 (100%); text found for 397; 0 not read yet
 - Possibly deleted: 8
-- Matching the topic filter: 102
+- Matching the topic filter: 100
 
 
-Every post is in `woj_zaremba.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `woj_zaremba/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-03-24 · reply to @DavidSKrueger
 
@@ -383,12 +384,6 @@ https://x.com/woj_zaremba/status/1495262439876837382 · [archived](https://web.a
 
 https://x.com/woj_zaremba/status/1493661793960574985 · [archived](https://web.archive.org/web/20220216081150/https://twitter.com/woj_zaremba/status/1493661793960574985)
 
-## 2022-02-13
-
-> I've spent a long time developing this curriculum; I think it's now the best resource for learning about AGI safety, even if you're not taking the course. So if you've heard the ideas but never dug into details, reading it through is a good place to start! https://t.co/KUg6R1oqaB
-
-https://x.com/woj_zaremba/status/1492725767159095297 · [archived](https://web.archive.org/web/20220213050717/https://twitter.com/woj_zaremba/status/1492725767159095297)
-
 ## 2022-02-04 · reply to @woj_zaremba
 
 > @dmvaldman Actually, I am taking it back. It would be best to align while training.
@@ -447,16 +442,6 @@ https://x.com/woj_zaremba/status/1485146880904351746 · [archived](https://web.a
 > https://t.co/n5KK6AYLMD
 
 https://x.com/woj_zaremba/status/1474386939088408582 · [archived](https://web.archive.org/web/20211224143524/https://twitter.com/woj_zaremba/status/1474386939088408582)
-
-## 2021-12-14
-
-> My team at OpenAI that researches how to align models with human preferences is hiring an eng to help build tools for interactively understanding and manipulating data and neural networks
-> 
-> Think tools for thought meets cutting-edge models towards safer AI
-> 
-> https://t.co/Pd1sOadweo
-
-https://x.com/woj_zaremba/status/1470896458949791744 · [archived](https://web.archive.org/web/20211214232524/https://twitter.com/woj_zaremba/status/1470896458949791744)
 
 ## 2021-12-03 · reply to @AnthropicAI
 

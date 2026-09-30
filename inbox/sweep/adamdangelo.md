@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 244 (2010-11-04 to 2025-11-06)
-- Read so far: 244 (100%); text found for 243; 0 not read yet
+- Archived posts found: 204 (4 from before November 2010, 2013-10-23 to 2025-11-06)
+- Left out: 40 archived link(s) under this handle that X says another account wrote
+- Read so far: 204 (100%); text found for 203; 0 not read yet
 - Possibly deleted: 10
-- Matching the topic filter: 40
+- Matching the topic filter: 35
 
 
-Every post is in `adamdangelo.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `adamdangelo/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2025-11-06
 
@@ -124,20 +125,6 @@ https://x.com/adamdangelo/status/1549150857630928896 · [archived](https://web.a
 
 https://x.com/adamdangelo/status/1526593761903382530 · [archived](https://web.archive.org/web/20220517160221/https://twitter.com/adamdangelo/status/1526593761903382530)
 
-## 2022-04-28
-
-> Against the College Admissions Essay - It's less informative, more easily gamed, and more biased toward the wealthy than the SAT.  https://t.co/RkGml4CdF4
-
-https://x.com/adamdangelo/status/1519760932494225408 · [archived](https://web.archive.org/web/20220428193034/https://twitter.com/adamdangelo/status/1519760932494225408)
-
-## 2022-03-15
-
-> Senate passes bill by unanimous consent to make Daylight Saving Time permanent.
-> 
-> Sen. Kyrsten Sinema (D-AZ) seems excited about it. https://t.co/WL44FBQAGf
-
-https://x.com/adamdangelo/status/1503841278554894336 · [archived](https://web.archive.org/web/20220315211204/https://twitter.com/adamdangelo/status/1503841278554894336)
-
 ## 2022-03-03 · possibly deleted
 
 > California is attempting to destroy its best institutions and it’s a wonder to watch. https://t.co/tbHWXkWgwM
@@ -206,13 +193,6 @@ https://x.com/adamdangelo/status/1423289528198975493 · [archived](https://web.a
 
 https://x.com/adamdangelo/status/1419702284024356877 · [archived](https://web.archive.org/web/20210726165301/https://twitter.com/adamdangelo/status/1419702284024356877)
 
-## 2021-06-29
-
-> Thrilled to share!! @Neeva, the first ads-free, private subscription search engine is now publicly available in the U.S.. Starting today, consumers can now go to https://t.co/yaZEF91BCv for a free three-month trial.
-> https://t.co/dvJ5s6GMzl
-
-https://x.com/adamdangelo/status/1409971099228467201 · [archived](https://web.archive.org/web/20210701120911/https://twitter.com/adamdangelo/status/1409971099228467201)
-
 ## 2021-05-22 · possibly deleted
 
 > Dropping in to say that a 50% increase in the number of low inc kids who are ID’d as college ready is not a “few”
@@ -220,19 +200,6 @@ https://x.com/adamdangelo/status/1409971099228467201 · [archived](https://web.a
 > https://t.co/XCQ4xblzJN https://t.co/J9aleYyFpW
 
 https://x.com/adamdangelo/status/1396181358523781122 · [archived](https://web.archive.org/web/20210522191051/https://twitter.com/adamdangelo/status/1396181358523781122)
-
-## 2021-05-17
-
-> Banning standardized tests is a way to keep the hard-working children of immigrants from ascending the ladder of American society.
-
-Quoting https://x.com/garrytan/status/1393462058407010307:
-> Growing up the child of immigrants, sometimes food insecure, the child of an alcoholic, this was me
-> 
-> I paid $8 for the 10 real SATs and did 5 tests back to back. Standardized tests. Advanced math. I learned to code. A massive equalizer. 
-> 
-> Now the path is murky, and getting darker
-
-https://x.com/adamdangelo/status/1394108392361185282 · [archived](https://web.archive.org/web/20210517015302/https://twitter.com/adamdangelo/status/1394108392361185282)
 
 ## 2021-01-15 · possibly deleted
 
@@ -250,16 +217,6 @@ https://x.com/adamdangelo/status/1349899237811634186 · [archived](https://web.a
 > In a war you can't just work 9-5. 1/
 
 https://x.com/adamdangelo/status/1345915393693548546 · [archived](https://web.archive.org/web/20210104021034/https://twitter.com/adamdangelo/status/1345915393693548546)
-
-## 2020-07-14
-
-> BREAKING: the Trump administration just dropped its plan to deport international students who take online-only classes, in a direct response to a lawsuit filed by MIT &amp; Harvard.
-> 
-> https://t.co/UiZecapGxQ
-> 
-> (v/@PerezJr @politico) https://t.co/Wz3ULng2Um
-
-https://x.com/adamdangelo/status/1283157809199083521 · [archived](https://web.archive.org/web/20200714223643/https://twitter.com/adamdangelo/status/1283157809199083521)
 
 ## 2020-04-20 · reply to @adamdangelo
 
@@ -315,7 +272,7 @@ https://x.com/adamdangelo/status/792814249999409152 · [archived](https://web.ar
 
 https://x.com/adamdangelo/status/618656012531138560 · [archived](https://web.archive.org/web/20220304002319/https://twitter.com/adamdangelo/status/618656012531138560)
 
-## 2010-11-04
+## undated
 
 > FB's secret strategy: open source Cassandra, say it's really good, and let Twitter and others get bogged down with it. http://tcrn.ch/aNO5y0
 

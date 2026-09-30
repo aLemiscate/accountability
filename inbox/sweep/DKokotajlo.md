@@ -2,14 +2,15 @@
 
 Swept 2026-09-30.
 
-- Posts on X, including reposts: unknown
-- Archived posts found: 47 (… to 2026-07-30)
-- Read so far: 47 (100%); text found for 47; 0 not read yet
+- Posts on X, including reposts: 1998
+- Archived posts found: 44 (2020-07-23 to 2026-07-30)
+- Left out: 3 archived link(s) under this handle that X says another account wrote
+- Read so far: 44 (100%); text found for 44; 0 not read yet
 - Possibly deleted: 2
-- Matching the topic filter: 27
+- Matching the topic filter: 26
 
 
-Every post is in `DKokotajlo.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `DKokotajlo/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-07-30 · reply to @METR_Evals
 
@@ -25,17 +26,6 @@ Quoting https://x.com/METR_Evals/status/2082316155960885276:
 > We believe it's important to track and investigate misalignment incidents: cases where an AI agent autonomously took sophisticated, sustained actions in violation of human intent. In a new post, we lay out how independent propensity investigations of such incidents could be https://t.co/quDGUkwKho
 
 https://x.com/DKokotajlo/status/2082320502321000862 · [archived](https://web.archive.org/web/20260816155558/https://x.com/DKokotajlo/status/2082320502321000862?lang=ta)
-
-## 2026-05-18
-
-> Why I think we get 12 OOMs growth in energy output in 2030s/2040s:
-> - growth has been super-exponential for 10,000 years (arguably for billions: evolution via  random mutation -&gt; evolution via sexual selection -&gt; basic cultural evolution since 2 million years ago -&gt; cultural
-
-Quoting https://x.com/GuiveAssadi/status/2055375810283102714:
-> (1) The prior from the roughly 40T× increase in energy budget across the entire history of life means we need a lot of evidence to believe in 20T× growth in the next 20 years.
-> (2) Regarding drosophila, growing in some localized setting is different from growing the entire energy
-
-https://x.com/DKokotajlo/status/2056335701248020677 · [archived](https://web.archive.org/web/20260518124756/https://x.com/DKokotajlo/status/2056335701248020677)
 
 ## 2026-02-13 · reply to @DKokotajlo
 

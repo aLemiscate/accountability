@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 114 (2018-08-22 to 2026-05-18)
-- Read so far: 114 (100%); text found for 114; 0 not read yet
+- Archived posts found: 106 (2018-08-22 to 2026-05-18)
+- Left out: 8 archived link(s) under this handle that X says another account wrote
+- Read so far: 106 (100%); text found for 106; 0 not read yet
 - Possibly deleted: 8
-- Matching the topic filter: 13
+- Matching the topic filter: 12
 
 
-Every post is in `lilianweng.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `lilianweng/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2025-10-27
 
@@ -141,16 +142,6 @@ https://x.com/lilianweng/status/1270234842215493632 · [archived](https://web.ar
 > That's what my post is about - https://t.co/doA9lUiBkf 🤓
 
 https://x.com/lilianweng/status/1248131058047971330 · [archived](https://web.archive.org/web/20200409061123/https://twitter.com/lilianweng/status/1248131058047971330)
-
-## 2020-02-19
-
-> One of my favorites from most recent offering of CS287 Advanced Robotics?
-> 
-> Exam study handout summarizing all the main math in ~20pp.  Incl. MaxEnt RL, CEM, LQR, Penalty Method, RRTs, Particle Filters, Policy Gradient, TRPO, PPO, Q-learning, DDPG, SAC, 
-> 
-> https://t.co/WzQCZkNcBc
-
-https://x.com/lilianweng/status/1230011591803863040 · [archived](https://web.archive.org/web/20200219062130/https://twitter.com/lilianweng/status/1230011591803863040)
 
 ## 2019-09-15 · possibly deleted
 

@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 1205 (2010-11-04 to 2026-05-04)
-- Read so far: 1205 (100%); text found for 1149; 0 not read yet
+- Archived posts found: 985 (22 from before November 2010, 2010-11-09 to 2026-05-04)
+- Left out: 220 archived link(s) under this handle that X says another account wrote
+- Read so far: 985 (100%); text found for 938; 0 not read yet
 - Possibly deleted: 78
-- Matching the topic filter: 134
+- Matching the topic filter: 93
 
 
-Every post is in `btaylor.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `btaylor/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-03-24
 
@@ -145,18 +146,11 @@ Quoting https://x.com/elonmusk/status/1525080945274998785:
 
 https://x.com/btaylor/status/1525256510313402368 · [archived](https://web.archive.org/web/20220513232848/https://twitter.com/btaylor/status/1525256510313402368)
 
-## 2022-05-11
+## 2022-05-11 · reply to @rajinkumar
 
 > @rajinkumar @salesforce @tableau @mlbura @StephanieFoerst @melissahilldees @amcgriff87 @PhilWeinmeister @jitendrazaa @MuleSoft D’oh — unintentional omission! Great to meet you
 
 https://x.com/btaylor/status/1524491790954414082 · [archived](https://web.archive.org/web/20220511204925/https://twitter.com/btaylor/status/1524491790954414082)
-
-## 2022-04-29
-
-> A truck loaded with thousands of copies of Roget's Thesaurus spilled its load leaving New York
-> Witnesses were stunned, startled, aghast, stupefied, confused, shocked, rattled, paralyzed, dazed, bewildered, surprised, dumbfounded, flabbergasted, confounded, astonished, and numbed. https://t.co/YyhfkmOcxa
-
-https://x.com/btaylor/status/1519882714882592768 · [archived](https://web.archive.org/web/20220429033453/https://twitter.com/btaylor/status/1519882714882592768)
 
 ## 2022-04-29 · possibly deleted
 
@@ -188,27 +182,6 @@ https://x.com/btaylor/status/1519072043387408384 · [archived](https://web.archi
 > The Twitter Board has reached an agreement with @ElonMusk https://t.co/CCZ6IV6Q7P
 
 https://x.com/btaylor/status/1518664708177362944 · [archived](https://web.archive.org/web/20220425185429/https://twitter.com/btaylor/status/1518664708177362944)
-
-## 2022-04-23
-
-> I never ask this, but I'm asking now: Please retweet this.
-> 
-> Texas plans to kill Melissa Lucio in four days. Five jurors say evidence was withheld from them. A bipartisan majority of the Texas legislature favors clemency. Why are you waiting, @GovAbbott?
-> 
-> https://t.co/9iMkVhNDrQ
-
-https://x.com/btaylor/status/1517875358170697728 · [archived](https://web.archive.org/web/20220423145534/https://twitter.com/btaylor/status/1517875358170697728)
-
-## 2022-04-05
-
-> I’m really happy Elon is joining the Twitter board! He cares deeply about our world and Twitter’s role in it.
-> 
-> Parag and Elon both lead with their hearts, and they will be an incredible team.
-
-Quoting https://x.com/paraga/status/1511320953598357505:
-> I’m excited to share that we’re appointing @elonmusk to our board! Through conversations with Elon in recent weeks, it became clear to us that he would bring great value to our Board.
-
-https://x.com/btaylor/status/1511329818603708422 · [archived](https://web.archive.org/web/20220405130858/https://twitter.com/btaylor/status/1511329818603708422)
 
 ## 2022-04-05
 
@@ -266,12 +239,6 @@ https://x.com/btaylor/status/1488611304621240320 · [archived](https://web.archi
 _(text not available)_
 
 https://x.com/btaylor/status/1486818375376330755 · [archived](https://web.archive.org/web/20220127215330/https://twitter.com/btaylor/status/1486818375376330755)
-
-## 2022-01-14
-
-> Like Boston, SARS Co-V2 in Santa Clara's (just south of SF) wastewater now plateaued &amp; falling. Very hopeful this means we've reached Peak Covid in Bay Area. https://t.co/3m2ysbjXmR Remember: risk still⬆as we descend curve; not time to let down guard. h/t @annievain @sfchronicle https://t.co/FYvjQQOi9t
-
-https://x.com/btaylor/status/1481810400408604672 · [archived](https://web.archive.org/web/20220114021332/https://twitter.com/btaylor/status/1481810400408604672)
 
 ## 2022-01-04 · reply to @btaylor
 
@@ -593,26 +560,6 @@ https://x.com/btaylor/status/1471163933427908613 · [archived](https://web.archi
 
 https://x.com/btaylor/status/1470438252284764164 · [archived](https://web.archive.org/web/20211213170444/https://twitter.com/btaylor/status/1470438252284764164)
 
-## 2021-12-07
-
-> Excited to announce @helloVIIZR, a new field service tool from @Ford &amp; @Salesforce. This all-in-one platform is for the tradespeople &amp; contractors that work out of their van or truck, another way @FordPro is helping our customers better help their customers.
-
-Quoting https://x.com/FordPro/status/1468233948576858117:
-> At #FordPro we’re always looking for ways to help our customers improve productivity. We’ve teamed up with @Salesforce to create @helloVIIZR, a powerful digital platform to help small businesses serve their customers simply and efficiently. Learn more at https://t.co/zQTPVd74YP https://t.co/NtM7GqL3oW
-
-https://x.com/btaylor/status/1468259288917282816 · [archived](https://web.archive.org/web/20211207164618/https://twitter.com/btaylor/status/1468259288917282816)
-
-## 2021-11-29
-
-> Deep gratitude for @jack and our entire team, and so much excitement for the future. Here’s the note I sent to the company. Thank you all for your trust and support 💙 https://t.co/liJmTbpYs1
-
-Quoting https://x.com/jack/status/1465347002426867720:
-> not sure anyone has heard but,
-> 
-> I resigned from Twitter https://t.co/G5tUkSSxkl
-
-https://x.com/btaylor/status/1465360790068731905 · [archived](https://web.archive.org/web/20211201164153/https://twitter.com/btaylor/status/1465360790068731905)
-
 ## 2021-11-29
 
 > Congratulations to @paraga on being named $TWTR’s CEO, and thank you to @jack for your leadership over the past six years. I’m honored to be the next Chair of @Twitter’s board. Today is an exciting day for Twitter and all of our stakeholders.
@@ -625,48 +572,11 @@ https://x.com/btaylor/status/1465359379171983366 · [archived](https://web.archi
 
 https://x.com/btaylor/status/1463705956466892802 · [archived](https://web.archive.org/web/20211125202812/https://twitter.com/btaylor/status/1463705956466892802)
 
-## 2021-10-30
-
-> Today's announcement with @salesforce, bringing Rocket tech to banks and credit unions, shows what's possible when two technology companies align to remove friction from complicated transactions. Thanks to @Benioff and his team for the great partnership. https://t.co/UvjeGYUXKj
-
-https://x.com/btaylor/status/1454488995958689797 · [archived](https://web.archive.org/web/20211030164304/https://twitter.com/btaylor/status/1454488995958689797)
-
 ## 2021-10-28 · possibly deleted
 
 > We’re investing another $300M in restoring, protecting, planting &amp; innovating for 1 Trillion Trees. Join the new Benioff TIME Tree Fund, @Salesforce &amp; @TIME Ventures, to accelerate ecosystem restoration, innovation, &amp; climate justice. @1t_org ❤️🌲 https://t.co/tELvJzfjuo
 
 https://x.com/btaylor/status/1453778710289522712 · [archived](https://web.archive.org/web/20211028175240/https://twitter.com/btaylor/status/1453778710289522712)
-
-## 2021-10-27
-
-> Last night the Board of Supes rejected a project with 500 new homes to replace a parking lot.
-> 
-> It met the criteria for approval and it would have created 100+ new affordable homes.
-> 
-> If you're wondering how we got into our housing crisis, this is how.
-
-Quoting https://x.com/MattHaneySF/status/1453218702309031936:
-> Tonight the Board voted down a 495 unit housing project in my district on a parking lot on Stevenson/6th.  
-> It was approximately 24% affordable with 100+ affordable units, near transit, w ground floor community space, &amp; extensive neighborhood support from residents &amp; leaders.
-
-https://x.com/btaylor/status/1453433480075825158 · [archived](https://web.archive.org/web/20211027190709/https://twitter.com/btaylor/status/1453433480075825158)
-
-## 2021-10-18
-
-> We are heartbroken by the passing of our Salesforce family and board member, General Colin Powell.
-> 
-> He was a remarkable leader who devoted his life to public service and was instrumental in shaping how we use our platform for change.
-> 
-> He will be deeply missed. https://t.co/3tN83qYR7l
-
-https://x.com/btaylor/status/1450157479963234305 · [archived](https://web.archive.org/web/20211018181135/https://twitter.com/btaylor/status/1450157479963234305)
-
-## 2021-10-13
-
-> Today is a big, BIG day for @salesforce Platform. Elastic compute is now available for your Salesforce projects with Functions using any language you like! 
-> https://t.co/nAZmQOx60z
-
-https://x.com/btaylor/status/1448168755050295297 · [archived](https://web.archive.org/web/20211013060838/https://twitter.com/btaylor/status/1448168755050295297)
 
 ## 2021-10-02
 
@@ -686,14 +596,6 @@ https://x.com/btaylor/status/1440844827201994759 · [archived](https://web.archi
 
 https://x.com/btaylor/status/1440536527797325837 · [archived](https://web.archive.org/web/20210922153339/https://twitter.com/btaylor/status/1440536527797325837)
 
-## 2021-09-20
-
-> 9 years ago @Benioff set out to donate $100M to Bay Area schools in 10 years and today, @Salesforce hit that milestone. There's still a lot of work to do, but I'm incredibly proud of the impact we've made together. 
-> 
-> Thank you @sfchronicle @jilltucker 👏🏿 https://t.co/XAmzQ3PBOI
-
-https://x.com/btaylor/status/1439985387305271296 · [archived](https://web.archive.org/web/20210921133805/https://twitter.com/btaylor/status/1439985387305271296)
-
 ## 2021-09-14
 
 > RIP Norm Macdonald. A wonderful, hilarious soul leaving this world too soon. ❤️
@@ -706,21 +608,6 @@ https://x.com/btaylor/status/1437857652474736640 · [archived](https://web.archi
 > https://t.co/y5IKpm5fNs
 
 https://x.com/btaylor/status/1436514303855652864 · [archived](https://web.archive.org/web/20210911021803/https://twitter.com/btaylor/status/1436514303855652864)
-
-## 2021-09-08
-
-> Dear @POTUS Biden,
-> 
-> The US is at a critical point &amp; we need greater access to faster tests
-> 
-> Rapid tests are barely available bc they're regulated here as MEDICAL tools-holding them back
-> 
-> Please write an EO that makes COVID testing in US a Public Health good
-> 
-> Thanks
-> Ppl of the USA
-
-https://x.com/btaylor/status/1435401807237312512 · [archived](https://web.archive.org/web/20210908003750/https://twitter.com/btaylor/status/1435401807237312512)
 
 ## 2021-08-29 · reply to @btaylor
 
@@ -764,14 +651,6 @@ https://x.com/btaylor/status/1419060415590371330 · [archived](https://web.archi
 
 https://x.com/btaylor/status/1418327370918809600 · [archived](https://web.archive.org/web/20210722214938/https://twitter.com/btaylor/status/1418327370918809600)
 
-## 2021-07-19
-
-> And #MyTrailblazerStory continues.  I'm excited to announce that I have started my #dreamjob at @salesforce as a Product Manager!! I will be focused on profiles, permissions, permission sets, and permission set groups. 
-> 
-> My career: powered by @SalesforceforIT. https://t.co/ek4sLFTSf2
-
-https://x.com/btaylor/status/1417253602343624709 · [archived](https://web.archive.org/web/20210719224250/https://twitter.com/btaylor/status/1417253602343624709)
-
 ## 2021-07-04
 
 > Happy Fourth of July! The Declaration of Independence is as inspiring now as it was in 1776. 🇺🇸 https://t.co/w5fyKIgpFa
@@ -790,25 +669,9 @@ https://x.com/btaylor/status/1406836218436874240 · [archived](https://web.archi
 
 https://x.com/btaylor/status/1403891649214701572 · [archived](https://web.archive.org/web/20210613014737/https://twitter.com/btaylor/status/1403891649214701572)
 
-## 2021-06-03
-
-> Thank you to Karen &amp; Bret Taylor @btaylor for making a lead donation towards our @RedCross Blood Center in SF, opening later this year. This will allow us to collect more platelet donations &amp; help attract new &amp; diverse blood donors to meet the needs of patients. #ThankfulThursday https://t.co/r0QrHvpfRY
-
-https://x.com/btaylor/status/1400529342493384705 · [archived](https://web.archive.org/web/20210603190710/https://twitter.com/btaylor/status/1400529342493384705)
-
-## 2021-05-27
-
-> It's our 1st ever global @salesforce Dreamforce! 
-> 
-> Join Trailblazers together around the world for a safe, in-person family reunion across San Francisco, New York, London, Paris, and our immersive digital experience. 
-> 
-> Success anywhere, @Dreamforce everywhere! #BringBackTheBoost https://t.co/ip7zoxo1MG
-
-https://x.com/btaylor/status/1398060039739346947 · [archived](https://web.archive.org/web/20210527234611/https://twitter.com/btaylor/status/1398060039739346947)
-
 ## 2021-05-12 · possibly deleted
 
-_(text not available)_
+> Services are significantly restored though we are still not out of impact.
 
 https://x.com/btaylor/status/1392300943870365697 · [archived](https://web.archive.org/web/20210512021003/https://twitter.com/btaylor/status/1392300943870365697)
 
@@ -824,79 +687,58 @@ https://x.com/btaylor/status/1392255547357896706 · [archived](https://web.archi
 
 https://x.com/btaylor/status/1387618617550729223 · [archived](https://web.archive.org/web/20210429040410/https://twitter.com/btaylor/status/1387618617550729223)
 
-## 2021-04-28
-
-> COVID-19 is still the single biggest threat to the lives, livelihoods, health, opportunities &amp; economies of people around the world.
->  
-> @jennifer &amp; I are donating $25M to @UNICEF/@UNICEFUSA to accelerate their global vaccination programs: https://t.co/jKeNpwJbgT
->  
-> Here’s why (🧵):
-
-https://x.com/btaylor/status/1387406187700707328 · [archived](https://web.archive.org/web/20210428140020/https://twitter.com/btaylor/status/1387406187700707328)
-
-## 2021-04-12
-
-> #COVID19 has forever changed the role of analytics in healthcare.
-> 
-> Great conversations with experts re: data's role in driving successful vaccine administration and fighting healthcare inequity in @Tableau's Visualize Health event tomorrow.
-> 
-> To register: https://t.co/2oHiM7C7Ha
-
-https://x.com/btaylor/status/1381693543073284096 · [archived](https://web.archive.org/web/20210412194011/https://twitter.com/btaylor/status/1381693543073284096)
-
 ## 2021-04-05
 
 > Supreme Court rules in Google's favor in copyright dispute with Oracle over Java https://t.co/Vzn41AvRtB
 
 https://x.com/btaylor/status/1379092922147119105 · [archived](https://web.archive.org/web/20210405152615/https://twitter.com/btaylor/status/1379092922147119105)
 
-## 2021-03-25
-
-> Thank you Members of the Energy and Commerce Committee and its Subcommittees, for the opportunity to speak with the American people about how Twitter may be used to spread disinformation, and our solutions. My remarks will be brief so we can move to your questions and discussion.
-
-https://x.com/btaylor/status/1375134039334526977 · [archived](https://web.archive.org/web/20210325200257/https://twitter.com/btaylor/status/1375134039334526977)
-
 ## 2021-03-19 · possibly deleted
 
-_(text not available)_
+> I am looking for customers who use the Salesforce CLI, VS Code, and build apps on the platform to present to some of our PM/Engineers about what they like/don't like/need improved/etc. This is a good opportunity to influence our roadmap.
 
 https://x.com/btaylor/status/1373005903553724416 · [archived](https://web.archive.org/web/20210319201821/https://twitter.com/btaylor/status/1373005903553724416)
 
 ## 2021-03-17 · possibly deleted
 
-_(text not available)_
+> @HoltenShelly Yes
 
 https://x.com/btaylor/status/1372276611932778496 · [archived](https://web.archive.org/web/20210317200716/https://twitter.com/btaylor/status/1372276611932778496)
 
-## 2021-03-16
-
-> A person’s right to cast their ballot is the foundation of our democracy. 
-> 
-> Georgia HB 531 would limit trustworthy, safe &amp; equal access to voting by restricting early voting &amp; eliminating provisional ballots. That’s why Salesforce opposes HB 531 as it stands. #gapol 🗳️ https://t.co/m3fNpx1N1w
-
-https://x.com/btaylor/status/1371967586863226885 · [archived](https://web.archive.org/web/20210316233230/https://twitter.com/btaylor/status/1371967586863226885)
-
 ## 2021-03-15 · possibly deleted
 
-_(text not available)_
+> I'm THRILLED to welcome @EliseRoy to Salesforce as our new VP of Accessibility &amp; Inclusive Design!
+> "When we design for disability first, we often stumble upon solutions that are better than those designed for the norm." https://t.co/Kx9vD3I4vQ
 
 https://x.com/btaylor/status/1371539653610729473 · [archived](https://web.archive.org/web/20210315191201/https://twitter.com/btaylor/status/1371539653610729473)
 
 ## 2021-02-25 · possibly deleted
 
-_(text not available)_
+> Salesforce Growth:
+> 2022 $25.75B (guidance)
+> 2021 $21.25B
+> 2020 $17.1B
+> 2019 $13.2B
+> 2018 $10.5B
+> 2017 $8.4B
+> 2016 $6.7B
+> 2015 $5.4B
+> 2014 $4.1B
+> Thank you Ohana! ❤️
 
 https://x.com/btaylor/status/1365082861011824640 · [archived](https://web.archive.org/web/20210225233512/https://twitter.com/btaylor/status/1365082861011824640)
 
 ## 2021-02-25 · possibly deleted
 
-_(text not available)_
+> Tune in to Twitter's 2021 Virtual Analyst Day. Watch it here: https://t.co/wzifGrS0WJ or @TwitterIR https://t.co/6FIv8trZjP #TWTRAnalystDay
 
 https://x.com/btaylor/status/1365011668577656834 · [archived](https://web.archive.org/web/20210225185212/https://twitter.com/btaylor/status/1365011668577656834)
 
 ## 2021-02-09 · possibly deleted
 
-_(text not available)_
+> We’re in a new all-digital, work-from-anywhere world.
+> Join @Benioff &amp; special guests for Salesforce #FutureWorks World Tour to learn how employees, governments, &amp; businesses have stepped up during times of change.
+> https://t.co/JH0xmQli4T
 
 https://x.com/btaylor/status/1359284740226838529 · [archived](https://web.archive.org/web/20210209233534/https://twitter.com/btaylor/status/1359284740226838529)
 
@@ -911,15 +753,9 @@ https://x.com/btaylor/status/1357112815832633351 · [archived](https://web.archi
 
 ## 2021-01-25 · possibly deleted
 
-_(text not available)_
+> 🐦 Today we’re introducing @Birdwatch, a community-driven approach to addressing misleading information. And we want your help. (1/3) https://t.co/aYJILZ7iKB
 
 https://x.com/btaylor/status/1353810386651234304 · [archived](https://web.archive.org/web/20210125210222/https://twitter.com/btaylor/status/1353810386651234304)
-
-## 2021-01-14
-
-> Salesforce for Vaccines helps governments &amp; healthcare organizations safely &amp; efficiently scale vaccine programs, &amp; enables them to design, build, integrate &amp; manage their programs end-to-end, with a proven, trusted, flexible, &amp; fast to implement solution. https://t.co/P4OFUL5uVS
-
-https://x.com/btaylor/status/1349786038722392064 · [archived](https://web.archive.org/web/20210114183104/https://twitter.com/btaylor/status/1349786038722392064)
 
 ## 2021-01-13 · reply to @nickcald
 
@@ -965,13 +801,14 @@ https://x.com/btaylor/status/1346650837834076160 · [archived](https://web.archi
 
 ## 2020-12-26 · possibly deleted
 
-_(text not available)_
+> Soul @PixarSoul was good. I loved the creativity — none of us expected what we got, and the mix of worlds was well done.
+> I watched it over Zoom with the family. We all wanted a bit more from the ending, but totally worth watching. @Pixar is amazing.
 
 https://x.com/btaylor/status/1342708854790868994 · [archived](https://web.archive.org/web/20201226054844/https://twitter.com/btaylor/status/1342708854790868994)
 
 ## 2020-12-23 · possibly deleted
 
-_(text not available)_
+> Rooting for @StephenCurry30 and the Warriors, but also so happy to see @KDTrey5 back on the court
 
 https://x.com/btaylor/status/1341537761040367616 · [archived](https://web.archive.org/web/20201223003458/https://twitter.com/btaylor/status/1341537761040367616)
 
@@ -1011,7 +848,7 @@ https://x.com/btaylor/status/1341201503676030976 · [archived](https://web.archi
 
 ## 2020-12-20 · possibly deleted
 
-_(text not available)_
+> Stanford is ending the year as perhaps the best team in the Pac-12 after a slow start. Would have loved to see this team in a normal season. Mills and Jones are an amazing combination on offense. 🌲🏈
 
 https://x.com/btaylor/status/1340469350034128896 · [archived](https://web.archive.org/web/20201220012948/https://twitter.com/btaylor/status/1340469350034128896)
 
@@ -1021,15 +858,9 @@ https://x.com/btaylor/status/1340469350034128896 · [archived](https://web.archi
 
 https://x.com/btaylor/status/1338006051480719360 · [archived](https://web.archive.org/web/20201213062138/https://twitter.com/btaylor/status/1338006051480719360)
 
-## 2020-12-11
-
-> Today will be Brandon Bernard's last. No matter what crime a person has committed, the act of taking a healthy, breathing, conscious, aware being, strapping him down and snuffing out his life with a lethal injection, is a stain on us all. We must learn to be better than this.
-
-https://x.com/btaylor/status/1337441147925323777 · [archived](https://web.archive.org/web/20201211170041/https://twitter.com/btaylor/status/1337441147925323777)
-
 ## 2020-12-08 · possibly deleted
 
-_(text not available)_
+> RIP to the adventurous ace pilot who broke the sound barrier, Chuck Yeager 🙏🏻 https://t.co/3kNi7ZdmsQ
 
 https://x.com/btaylor/status/1336177038542077952 · [archived](https://web.archive.org/web/20201208051335/https://twitter.com/btaylor/status/1336177038542077952)
 
@@ -1045,15 +876,9 @@ _(text not available)_
 
 https://x.com/btaylor/status/1333885088690434048 · [archived](https://web.archive.org/web/20201201212630/https://twitter.com/btaylor/status/1333885088690434048)
 
-## 2020-11-12
-
-> What we learned from our work around the 2020 US Elections conversation https://t.co/z9Z6Xv8q21
-
-https://x.com/btaylor/status/1327029642717368320 · [archived](https://web.archive.org/web/20201112232930/https://twitter.com/btaylor/status/1327029642717368320)
-
 ## 2020-11-04 · possibly deleted
 
-_(text not available)_
+> https://t.co/pZ4tBWDkSo
 
 https://x.com/btaylor/status/1323859602132226049 · [archived](https://web.archive.org/web/20201104052843/https://twitter.com/btaylor/status/1323859602132226049)
 
@@ -1074,22 +899,6 @@ https://x.com/btaylor/status/1322330517400743939 · [archived](https://web.archi
 _(text not available)_
 
 https://x.com/btaylor/status/1322264953303166978 · [archived](https://web.archive.org/web/20201030195202/https://twitter.com/btaylor/status/1322264953303166978)
-
-## 2020-10-29
-
-> Thank you members of the Commerce Committee for the opportunity to speak with the American people about Twitter and §230. My remarks will be brief to get to questions. §230 is the most important law protecting internet speech. Removing §230 will remove speech from the internet.
-
-https://x.com/btaylor/status/1321645643165659136 · [archived](https://web.archive.org/web/20201029025119/https://twitter.com/btaylor/status/1321645643165659136)
-
-## 2020-10-29
-
-> I asked some friends to help me explain why Election Day might be a little different this year. 
-> 
-> The four of us don't agree on everything. But we do agree on this: The 2020 election is too important to sit out. 
-> 
-> Go vote. https://t.co/USERzSzVKR
-
-https://x.com/btaylor/status/1321626339414216705 · [archived](https://web.archive.org/web/20201029013518/https://twitter.com/btaylor/status/1321626339414216705)
 
 ## 2020-10-14 · reply to @ArBose
 
@@ -1135,26 +944,11 @@ _(text not available)_
 
 https://x.com/btaylor/status/1308159136392073216 · [archived](https://web.archive.org/web/20200921214139/https://twitter.com/btaylor/status/1308159136392073216)
 
-## 2020-09-01
-
-> .@trailhead and the mission to help people learn in-demand skills has never been more relevant. I’m thrilled to be joining the incredible Team Trailhead as the new GM! Together, we’ll help everyone build their career in the Salesforce ecosystem. Let’s goooo! 🐻🙌🏼
-
-https://x.com/btaylor/status/1300632045182279682 · [archived](https://web.archive.org/web/20200901031035/https://twitter.com/btaylor/status/1300632045182279682)
-
 ## 2020-08-12 · possibly deleted
 
 _(text not available)_
 
 https://x.com/btaylor/status/1293633862317170688 · [archived](https://web.archive.org/web/20200812194344/https://twitter.com/btaylor/status/1293633862317170688)
-
-## 2020-08-12
-
-> Kids can't learn if...they're hungry, tired, don't have access to a device or any other barrier students may face in this new environment. We have to think about the whole child as we reimagine an equitable future of learning. Thanks for having me @jimcramer @MadMoneyOnCNBC!
-
-Quoting https://x.com/MadMoneyOnCNBC/status/1293336128540508161:
-> Tonight @salesforce's @EbonyBeckwith joined @JimCramer to discuss the company's latest news on https://t.co/v8pBShlNom for schools and its features like the 'Student Success Hub' https://t.co/6HDiswmOo4
-
-https://x.com/btaylor/status/1293368089099157505 · [archived](https://web.archive.org/web/20200812020948/https://twitter.com/btaylor/status/1293368089099157505)
 
 ## 2020-08-01 · possibly deleted
 
@@ -1173,12 +967,6 @@ https://x.com/btaylor/status/1283434266672525314 · [archived](https://web.archi
 > @schrockn @elonmusk @Tesla I have seen different evidence. Best paper (full disclosure: written by my father, a prominent HVAC engineer): https://t.co/fN5UH8GgB2
 
 https://x.com/btaylor/status/1279484329286963201 · [archived](https://web.archive.org/web/20200704184208/https://twitter.com/btaylor/status/1279484329286963201)
-
-## 2020-06-23
-
-> .@Salesforce remains committed to advocating for common-sense immigration policies. H-1B workers generate innovation &amp; growth that benefits us all and it will hurt the U.S. economic recovery and U.S. innovation leadership to further restrict H-1B visas.
-
-https://x.com/btaylor/status/1275282125978103808 · [archived](https://web.archive.org/web/20200623042319/https://twitter.com/btaylor/status/1275282125978103808)
 
 ## 2020-06-19 · possibly deleted
 
@@ -1251,16 +1039,6 @@ _(text not available)_
 
 https://x.com/btaylor/status/1265459361213628418 · [archived](https://web.archive.org/web/20200527164824/https://twitter.com/btaylor/status/1265459361213628418)
 
-## 2020-05-27
-
-> Had the best decade in school history. Winning records vs. ND, USC, UCLA and 37-13 vs. the Pac-12 North. 10th in the nation in wins, 42 draft picks, and no school with FBS football has been ranked higher in education than @Stanford since...🤔
-> 
-> 2020 here we come!
-> 
-> #FactsOverHype https://t.co/qdK1ZPcsqH
-
-https://x.com/btaylor/status/1265455528198602753 · [archived](https://web.archive.org/web/20200527025518/https://twitter.com/btaylor/status/1265455528198602753)
-
 ## 2020-05-19 · possibly deleted
 
 _(text not available)_
@@ -1273,20 +1051,6 @@ https://x.com/btaylor/status/1262773346086739969 · [archived](https://web.archi
 
 https://x.com/btaylor/status/1259951273073238017 · [archived](https://web.archive.org/web/20200513071946/https://twitter.com/btaylor/status/1259951273073238017)
 
-## 2020-05-08
-
-> Here is a public directory of employees leaving Airbnb who are now available.  
-> 
-> https://t.co/sV4jEsXac8
-
-https://x.com/btaylor/status/1258624281249865730 · [archived](https://web.archive.org/web/20200511094218/https://twitter.com/btaylor/status/1258624281249865730)
-
-## 2020-05-07
-
-> Thank you to @ups for donating transportation for PPE to our first responders and health care workers.  Through our amazing team &amp; partnership with UCSF we have now been able to support the delivery of almost 60M pieces of PPE to almost 250 critical organizations worldwide. https://t.co/R15aXkZp4w
-
-https://x.com/btaylor/status/1258532634046562304 · [archived](https://web.archive.org/web/20200513064022/https://twitter.com/btaylor/status/1258532634046562304)
-
 ## 2020-05-06 · reply to @eliz_beth
 
 > @eliz_beth @salesforce @Benioff Sorry for not answering faster — was personally getting used to the format as well. I ended up answering 10 (and I promise not scripted — might have been a little stiff in my first Twitter stream)! Appreciate the candid feedback.
@@ -1298,28 +1062,6 @@ https://x.com/btaylor/status/1258164795884232705 · [archived](https://web.archi
 > @CherFeldman @salesforce Yes I am just slow! Going now!
 
 https://x.com/btaylor/status/1258128471512895488 · [archived](https://web.archive.org/web/20200511044210/https://twitter.com/btaylor/status/1258128471512895488)
-
-## 2020-05-04
-
-> In 1906 Sears Roebuck &amp; Co. had a 1200 page catalog that sold virtually any product a customer could imagine. Almost a century before Amazon, they shipped via mail order with money back guarantees, and even offered profit sharing which was an early version an affiliate program. https://t.co/yW5Y4AENgd
-
-https://x.com/btaylor/status/1257122308579196928 · [archived](https://web.archive.org/web/20200509061803/https://twitter.com/btaylor/status/1257122308579196928)
-
-## 2020-05-01
-
-> I’m excited to share that @figmadesign has raised a $50M Series D led by @a16z! This capital helps us invest in our core + explore new ways to serve users.
-> 
-> We couldn’t have done this without the support of our global community. Thank you + stay safe 💜 
-> 
-> https://t.co/xPB7ChkfEC
-
-https://x.com/btaylor/status/1256047612416806912 · [archived](https://web.archive.org/web/20200506221406/https://twitter.com/btaylor/status/1256047612416806912)
-
-## 2020-04-29
-
-> Our partners @Salesforce are matching up to $250,000 of your donations to @WCKitchen! Text MEALS to 80100 to donate $10 and help us provide meals to families in need. US only. Msg, data &amp; processing rates may apply. https://t.co/ioRe7lrgaK
-
-https://x.com/btaylor/status/1255341784496037888 · [archived](https://web.archive.org/web/20200505150723/https://twitter.com/btaylor/status/1255341784496037888)
 
 ## 2020-04-28 · possibly deleted
 
@@ -1353,18 +1095,6 @@ https://x.com/btaylor/status/1250122593929027584 · [archived](https://web.archi
 
 https://x.com/btaylor/status/1250113576263548928 · [archived](https://web.archive.org/web/20200417080104/https://twitter.com/btaylor/status/1250113576263548928)
 
-## 2020-04-12
-
-> Thanks to @UberFreight we currently have 4 semis on the way to UCSF with 750,000 hard to secure units of PPE (500,000 N95 masks, 100,000 isolation gowns, 50,000 face shields and 100,000 nasal swabs)!!   Uber donated the transportation.   Thank you @dkhos! https://t.co/wBddeD2uCX
-
-https://x.com/btaylor/status/1249186696639459331 · [archived](https://web.archive.org/web/20200412040525/https://twitter.com/btaylor/status/1249186696639459331)
-
-## 2020-04-12
-
-> Thank you to @StateFarm, @Walmart, and @salesforce for donating 500,000 KN95 masks, 100,000 gloves, and 50,000 shoe covers for Michigan health care workers. https://t.co/H9yuxHF4S1
-
-https://x.com/btaylor/status/1249173964527714306 · [archived](https://web.archive.org/web/20200412031636/https://twitter.com/btaylor/status/1249173964527714306)
-
 ## 2020-04-09
 
 > Every @Salesforce office is supporting their local community — true stakeholder captialism. Thank you to @syamwoot and our Indianapolis team for supporting @IPSFund and @UWCI to help children access e-learning tools and ensure families in need are supported during this pandemic.
@@ -1379,18 +1109,6 @@ https://x.com/btaylor/status/1248264009469399041 · [archived](https://web.archi
 
 https://x.com/btaylor/status/1248063890316914688 · [archived](https://web.archive.org/web/20200409014416/https://twitter.com/btaylor/status/1248063890316914688)
 
-## 2020-04-08
-
-> Salesforce is delighted to work with Governor Raimondo of Rhode Island to aid the Health Department with a new app for contact tracing of people who test positive for COVID-19. This is essential to get us back to work as we move from crisis to recovery. https://t.co/lGpm5M1ND4
-
-https://x.com/btaylor/status/1248009270123057152 · [archived](https://web.archive.org/web/20200408220711/https://twitter.com/btaylor/status/1248009270123057152)
-
-## 2020-04-07
-
-> I’m moving $1B of my Square equity (~28% of my wealth) to #startsmall LLC to fund global COVID-19 relief. After we disarm this pandemic, the focus will shift to girl’s health and education, and UBI. It will operate transparently, all flows tracked here: https://t.co/hVkUczDQmz
-
-https://x.com/btaylor/status/1247618839371640832 · [archived](https://web.archive.org/web/20200407201558/https://twitter.com/btaylor/status/1247618839371640832)
-
 ## 2020-04-07
 
 > The world is aligned around one mission: responding to the COVID-19 crisis and mapping a path to recovery.
@@ -1399,41 +1117,11 @@ https://x.com/btaylor/status/1247618839371640832 · [archived](https://web.archi
 
 https://x.com/btaylor/status/1247570021292761088 · [archived](https://web.archive.org/web/20200407170346/https://twitter.com/btaylor/status/1247570021292761088)
 
-## 2020-04-06
-
-> Landed NYC! Congrats to the salesforce PPE team for landing in NYC tonight this National Cargo 747 FULL of PPE incl goggles, face shields, &amp; protective suits donated to New York State &amp; @NYgovcuomo. Special thank you to partners @AlibabaGroup @alibaba_cloud &amp; CEO Daniel Zhang. https://t.co/flk8FMRXtP
-
-https://x.com/btaylor/status/1246991700179877888 · [archived](https://web.archive.org/web/20200406025106/https://twitter.com/btaylor/status/1246991700179877888)
-
-## 2020-04-05
-
-> Thank you to our Ohana for rapidly building State of California’s COVID-19 Medical Supply Contributions describing resources citizens have to contribute, either for donation or purchase for response to COVID-19. Inspired this is built on Salesforce. https://t.co/nIVcLibjrN https://t.co/yB68aMFqF7
-
-https://x.com/btaylor/status/1246858782283403264 · [archived](https://web.archive.org/web/20200405195316/https://twitter.com/btaylor/status/1246858782283403264)
-
-## 2020-04-04
-
-> Not every company can take the Salesforce 90 day no lay off pledge—but many can! Thank you to those who have been able to including Morgan Stanley, Palo Alto Networks, Starbucks, Nike, Salesforce, JP Morgan, PayPal, Citigroup, and Booz Allen.  ❤️https://t.co/4mZpQTwlly
-
-https://x.com/btaylor/status/1246497113262788611 · [archived](https://web.archive.org/web/20200404190620/https://twitter.com/btaylor/status/1246497113262788611)
-
-## 2020-04-03
-
-> Our PPE UCSF-led partnership between UCSF, Flexport, Atlas, United, &amp; Salesforce landed this plane in San Francisco from China supplying PPE to our Bay Area &amp; California hospitals &amp; first responders. Thank you to all of our teams for the tremendous coordination &amp; leadership. https://t.co/H6eJiHqcjX
-
-https://x.com/btaylor/status/1245880449240449024 · [archived](https://web.archive.org/web/20200403022042/https://twitter.com/btaylor/status/1245880449240449024)
-
 ## 2020-03-31
 
 > Amazing: @Childrens is live on Salesforce Care for Healthcare Systems. This rapid-response Community Portal is designed to help answer their employee’s questions and provide them with resources during COVID-19. https://t.co/qIhrKtU5Sv
 
 https://x.com/btaylor/status/1245028319415791618 · [archived](https://web.archive.org/web/20200331171301/https://twitter.com/btaylor/status/1245028319415791618)
-
-## 2020-03-28
-
-> To help you stay informed, understand symptoms and take proper steps to protect your health, Apple has created a COVID-19 website and a US app in partnership with the CDC. As always, the data is yours and your privacy is protected. Stay safe and healthy. https://t.co/qUEMYOzZUC
-
-https://x.com/btaylor/status/1243736872364331009 · [archived](https://web.archive.org/web/20200328033453/https://twitter.com/btaylor/status/1243736872364331009)
 
 ## 2020-03-25
 
@@ -1467,12 +1155,6 @@ Quoting https://x.com/NicholsUprising/status/1238545438476730369:
 > https://t.co/93whPVtQcR
 
 https://x.com/btaylor/status/1238960510231384064 · [archived](https://web.archive.org/web/20200314231753/https://twitter.com/btaylor/status/1238960510231384064)
-
-## 2020-03-02
-
-> We are excited to announce that we are joining the @Salesforce family. Salesforce is committed to advancing The CMO Club’s core mission of fostering deep relationships and peer-to-peer problem solving for CMOs and marketing leaders. https://t.co/Cl5zfEYxZA
-
-https://x.com/btaylor/status/1234598157952012288 · [archived](https://web.archive.org/web/20200303000925/https://twitter.com/btaylor/status/1234598157952012288)
 
 ## 2020-02-25 · possibly deleted
 
@@ -1524,13 +1206,13 @@ https://x.com/btaylor/status/1188979348205780992 · [archived](https://web.archi
 
 ## 2019-10-20 · possibly deleted
 
-> Ran the Lafayette Reservoir Run with my main man, and he finished without stopping!
+_(text not available)_
 
 https://x.com/btaylor/status/1185969823798292480 · [archived](https://web.archive.org/web/20191021060728/https://twitter.com/btaylor/status/1185969823798292480)
 
 ## 2019-10-10 · possibly deleted
 
-> Thanks to the power outage at our house, I got some cute visitors at the office today. ❤️
+_(text not available)_
 
 https://x.com/btaylor/status/1182146509942296578 · [archived](https://web.archive.org/web/20191010041359/https://twitter.com/btaylor/status/1182146509942296578)
 
@@ -1617,7 +1299,7 @@ https://x.com/btaylor/status/825455865813536768 · [archived](https://web.archiv
 
 ## 2017-01-28 · possibly deleted
 
-> Shameful. Students can't return to school. Permanent residents separated from families. We're better than this. https://t.co/UywiBgKSuA
+_(text not available)_
 
 https://x.com/btaylor/status/825455334370054145 · [archived](https://web.archive.org/web/20170129151016/https://twitter.com/btaylor/status/825455334370054145)
 
@@ -1629,8 +1311,7 @@ https://x.com/btaylor/status/750422681208524802 · [archived](https://web.archiv
 
 ## 2016-04-24 · possibly deleted
 
-> My son Sam's #CallYourShot to end malaria, dressed as his hero @StephenCurry30. Join in at https://t.co/3oIFeUUFov
-> https://t.co/uP88M0wvfc
+_(text not available)_
 
 https://x.com/btaylor/status/724304297643495425 · [archived](https://web.archive.org/web/20220527214650/https://twitter.com/btaylor/status/724304297643495425)
 
@@ -1682,7 +1363,7 @@ _(text not available)_
 
 https://x.com/btaylor/status/5163374413357056 · [archived](https://web.archive.org/web/20111121225051/http://twitter.com/btaylor/statuses/5163374413357056)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 

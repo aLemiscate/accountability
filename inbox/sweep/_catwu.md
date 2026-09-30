@@ -2,14 +2,15 @@
 
 Swept 2026-09-30.
 
-- Posts on X, including reposts: 1576
-- Archived posts found: 61 (2023-10-17 to 2026-05-12)
-- Read so far: 61 (100%); text found for 60; 0 not read yet
+- Posts on X, including reposts: unknown
+- Archived posts found: 60 (2023-10-17 to 2026-05-12)
+- Left out: 1 archived link(s) under this handle that X says another account wrote
+- Read so far: 60 (100%); text found for 59; 0 not read yet
 - Possibly deleted: 1
-- Matching the topic filter: 5
+- Matching the topic filter: 4
 
 
-Every post is in `_catwu.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `_catwu/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-03-25
 
@@ -39,14 +40,6 @@ https://x.com/_catwu/status/2024910342158237709 · [archived](https://web.archiv
 > From internal usage, we've found that using the sandbox reduces permission prompts by 84% so that you can focus on the most important permissions
 
 https://x.com/_catwu/status/1980383210560450961 · [archived](https://web.archive.org/web/20251021120120/https://x.com/_catwu/status/1980383210560450961)
-
-## 2025-10-10
-
-> Claude Code Weekly Round Up
-> 
-> This week besides plugins we also shipped MCP server toggling, reduced the system prompt, made faster tool calling and smoother rendering, Ctrl+G to edit prompts in your text editor, and better env variable handling in the permission system. https://t.co/oEjNHsDga3
-
-https://x.com/_catwu/status/1976693323143561288 · [archived](https://web.archive.org/web/20251010205614/https://x.com/_catwu/status/1976693323143561288)
 
 ## 2025-03-20 · reply to @_catwu
 

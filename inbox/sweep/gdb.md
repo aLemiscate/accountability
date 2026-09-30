@@ -3,19 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 5044 (… to 3358-02-09)
-- Read so far: 5044 (100%); text found for 5014; 0 not read yet
-- Possibly deleted: 62
-- Matching the topic filter: 395
+- Archived posts found: 4929 (3 from before November 2010, 2010-11-04 to 2026-08-17)
+- Left out: 114 archived link(s) under this handle that X says another account wrote
+- Read so far: 4929 (100%); text found for 4891; 0 not read yet
+- Possibly deleted: 61
+- Matching the topic filter: 379
 
 
-Every post is in `gdb.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
-
-## 3358-02-09 · possibly deleted
-
-_(text not available)_
-
-https://x.com/gdb/status/178323494184251841459 · [archived](https://web.archive.org/web/20240730132504/https://x.com/gdb/status/178323494184251841459%E2%80%9CTo)
+Every post is in `gdb/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-08-17
 
@@ -1614,12 +1609,6 @@ Quoting https://x.com/ilyasut/status/1538584968758034437:
 
 https://x.com/gdb/status/1538699504181862400 · [archived](https://web.archive.org/web/20220620014618/https://twitter.com/gdb/status/1538699504181862400)
 
-## 2022-06-20
-
-> i find it both obvious and incredible that a neural network is a digital brain that lives inside a computer (and that actually kinda works)
-
-https://x.com/gdb/status/1538691156887732224 · [archived](https://web.archive.org/web/20220620011225/https://twitter.com/gdb/status/1538691156887732224)
-
 ## 2022-06-18
 
 > AI alignment will require talent from many fields; there are many hard open problems but we're starting to make rapid progress. Welcome, Scott!
@@ -1641,7 +1630,7 @@ https://x.com/gdb/status/1536433214075457537 · [archived](https://web.archive.o
 
 ## 2022-06-09 · possibly deleted
 
-> An engineer's overview of techniques for parallelizing neural network training across a large cluster: https://t.co/Iv3MGWQTiS
+_(text not available)_
 
 https://x.com/gdb/status/1534933851306221577 · [archived](https://web.archive.org/web/20220609162225/https://twitter.com/gdb/status/1534933851306221577)
 
@@ -1717,12 +1706,6 @@ https://x.com/gdb/status/1530583089595920385 · [archived](https://web.archive.o
 
 https://x.com/gdb/status/1528838813182730243 · [archived](https://web.archive.org/web/20220523204327/https://twitter.com/gdb/status/1528838813182730243)
 
-## 2022-05-19
-
-> My team and I were intrigued by our conversation with @SamA at @OpenAI this week. Humanity is on the precipice of great change with the proliferation of #AI. This opens up immense possibilities but also ethical questions. Our aim must be to ensure equal opportunities and access. https://t.co/HtRdHw7P3a
-
-https://x.com/gdb/status/1527332214244925451 · [archived](https://web.archive.org/web/20220519165605/https://twitter.com/gdb/status/1527332214244925451)
-
 ## 2022-05-19 · possibly deleted
 
 _(text not available)_
@@ -1797,19 +1780,19 @@ https://x.com/gdb/status/1520059938625622016 · [archived](https://web.archive.o
 
 ## 2022-04-28 · possibly deleted
 
-> Tending to a machine learning experiment is like gardening. Need to plant your budding ML model in fresh data, shine energy on it in the form of compute, and nip off any unpromising growths in the form of divergences. Main difference is that plants at maturity don't speak English
+_(text not available)_
 
 https://x.com/gdb/status/1519817390611083264 · [archived](https://web.archive.org/web/20220428231457/https://twitter.com/gdb/status/1519817390611083264)
 
 ## 2022-04-27 · possibly deleted
 
-> I can attest that it was delicious: https://t.co/lWiyltPUV3
+_(text not available)_
 
 https://x.com/gdb/status/1519440392524951553 · [archived](https://web.archive.org/web/20220427221647/https://twitter.com/gdb/status/1519440392524951553)
 
 ## 2022-04-25 · possibly deleted
 
-> Complain about the change you'd like to see in the world.
+_(text not available)_
 
 https://x.com/gdb/status/1518631579295182848 · [archived](https://web.archive.org/web/20220425164325/https://twitter.com/gdb/status/1518631579295182848)
 
@@ -1875,7 +1858,7 @@ https://x.com/gdb/status/1513262622338027520 · [archived](https://web.archive.o
 
 ## 2022-04-09 · possibly deleted
 
-_(text not available)_
+> A lazy Caturday with DALL-E: https://t.co/JMm9qmyh9E
 
 https://x.com/gdb/status/1512853339821674498 · [archived](https://web.archive.org/web/20220409180214/https://twitter.com/gdb/status/1512853339821674498)
 
@@ -1905,7 +1888,7 @@ https://x.com/gdb/status/1511369875201015811 · [archived](https://web.archive.o
 
 ## 2022-04-04 · possibly deleted
 
-> An AI engineer is the point of contact between magic and reality
+_(text not available)_
 
 https://x.com/gdb/status/1511112950588723200 · [archived](https://web.archive.org/web/20220404224719/https://twitter.com/gdb/status/1511112950588723200)
 
@@ -2005,12 +1988,6 @@ https://x.com/gdb/status/1428784846806028291 · [archived](https://web.archive.o
 
 ## 2021-08-12
 
-> Excited to share my interview with @gdb on @OpenAI  Codex. The Codex API is a direct descendant of GPT-3 trained on a massive corpus of publicly available text and code. It performs autocomplete tasks on computer code. Copilot, announced earlier with Github was the 1st Codex app. https://t.co/LTP3IiOvGj
-
-https://x.com/gdb/status/1425902332202536962 · [archived](https://web.archive.org/web/20210812193020/https://twitter.com/gdb/status/1425902332202536962)
-
-## 2021-08-12
-
 > Congrats on finishing the challenge!
 > 
 > And sorry about the slowness; we had more demand than expected and the competition servers did not respond well to the load.
@@ -2046,7 +2023,7 @@ https://x.com/gdb/status/1425159432648855552 · [archived](https://web.archive.o
 
 ## 2021-02-20 · possibly deleted
 
-_(text not available)_
+> Lazy Caturday:
 
 https://x.com/gdb/status/1363174863486115846 · [archived](https://web.archive.org/web/20210220171500/https://twitter.com/gdb/status/1363174863486115846)
 
@@ -2065,13 +2042,13 @@ https://x.com/gdb/status/1361898495959920642 · [archived](https://web.archive.o
 
 ## 2021-02-15 · possibly deleted
 
-> .@theannabrockman you'll always be my Valentine.
+_(text not available)_
 
 https://x.com/gdb/status/1361160564114825224 · [archived](https://web.archive.org/web/20210215034914/https://twitter.com/gdb/status/1361160564114825224)
 
 ## 2021-02-07 · possibly deleted
 
-> If you are interested in developing innovative solutions for real-world machine learning problems and deploying cutting-edge deep learning techniques via our API product to benefit the public, check this out and come join us! https://t.co/dK7q0WgTov
+_(text not available)_
 
 https://x.com/gdb/status/1358211541695418368 · [archived](https://web.archive.org/web/20210207003108/https://twitter.com/gdb/status/1358211541695418368)
 
@@ -2085,12 +2062,6 @@ Quoting https://x.com/badphilosopher/status/1316016842855510017:
 > We built an interface around #GPT3 to create https://t.co/IV7pl5fayA, a tool to computationally produce text-based ads for products to different contexts. We're expanding our pool of limited beta users, check it out! https://t.co/3tNxdF1Hv9
 
 https://x.com/gdb/status/1316127484627173376 · [archived](https://web.archive.org/web/20201013212400/https://twitter.com/gdb/status/1316127484627173376)
-
-## 2020-09-29
-
-> OpenAI’s new immensely convincing language generator, GPT-3, is being used generate new ways to make nuclear waste sites safe for thousands upon thousands of years. https://t.co/7ZVpa6NERQ
-
-https://x.com/gdb/status/1311082463750270976 · [archived](https://web.archive.org/web/20200929235124/https://twitter.com/gdb/status/1311082463750270976)
 
 ## 2020-09-04
 
@@ -2167,39 +2138,15 @@ https://x.com/gdb/status/1294678210899320834 · [archived](https://web.archive.o
 
 https://x.com/gdb/status/1288918295433773056 · [archived](https://web.archive.org/web/20200730192421/https://twitter.com/gdb/status/1288918295433773056)
 
-## 2020-07-30
-
-> Excited to announce that @usebroca is ready for private beta!
-> 
-> We use AI to write new ads for you! Connect your Google Ads account, Broca feeds your best ads to GPT-3 and returns new ads. Push them live with one click!
-> 
-> Join the free beta - https://t.co/5akRwUx69E https://t.co/tCOtQ7MnUD
-
-https://x.com/gdb/status/1288909167902613504 · [archived](https://web.archive.org/web/20200730184836/https://twitter.com/gdb/status/1288909167902613504)
-
-## 2020-07-29
-
-> How do you make writing ad copy fun? 🤔
-> 
-> Give it to #GPT3
-> 
-> Instantly create dozens of versions in seconds https://t.co/hfKxz3zfmN
-
-https://x.com/gdb/status/1288592086241931265 · [archived](https://web.archive.org/web/20200729214823/https://twitter.com/gdb/status/1288592086241931265)
-
 ## 2020-07-29 · possibly deleted
 
-> Letting GPT-3 do my presentations from now on. Just copy a bunch of text and let GPT-3 generate the presentation. Using Google slides scripting. I am not good at presentation skills. This is for proof of concept. So be gentle :).
-> cc @gdb https://t.co/gMtPfzXAQJ
+_(text not available)_
 
 https://x.com/gdb/status/1288517968054255616 · [archived](https://web.archive.org/web/20200729165347/https://twitter.com/gdb/status/1288517968054255616)
 
 ## 2020-07-29 · possibly deleted
 
-> How Do You Know a Human Wrote This?
-> I wrote about GPT-3, OpenAi’s amazing and possibly terrifying new AI, which can write like people can.
-> my @nytimes column:
-> https://t.co/1Iyxl3CMpa
+_(text not available)_
 
 https://x.com/gdb/status/1288507828953464832 · [archived](https://web.archive.org/web/20200729161658/https://twitter.com/gdb/status/1288507828953464832)
 
@@ -2236,15 +2183,9 @@ https://x.com/gdb/status/1287437337270484992 · [archived](https://web.archive.o
 
 ## 2020-07-25 · possibly deleted
 
-> Just got the access to GPT-3 today and have been playing with it since. It generated two functions in Python to calculate prices between two locations. Also suggests me using the geopy library. Thanks @gdb for giving the API access.
+_(text not available)_
 
 https://x.com/gdb/status/1287055404833202176 · [archived](https://web.archive.org/web/20200725195036/https://twitter.com/gdb/status/1287055404833202176)
-
-## 2020-07-23
-
-> Using GPT-3 for automatic quiz generation on any topic and then evaluating the students' answers. This thing is fantastic! @sama https://t.co/qutUffWh7J
-
-https://x.com/gdb/status/1286292827337445376 · [archived](https://web.archive.org/web/20200723191807/https://twitter.com/gdb/status/1286292827337445376)
 
 ## 2020-07-21 · possibly deleted
 
@@ -2262,11 +2203,7 @@ https://x.com/gdb/status/1285251125944303619 · [archived](https://web.archive.o
 
 ## 2020-07-20 · possibly deleted
 
-> .@Openai GPT-3 Thoughts and Takeaways
-> Demos are fun, but let's discuss the details.
-> This thread talks about about sentence completion, trade-offs, few shot learning, fine-tuning, technical takeaways, industry impacts, ethics, fun facts, and open questions.
-> cc @gdb
-> (1/13)
+_(text not available)_
 
 https://x.com/gdb/status/1285228138675318787 · [archived](https://web.archive.org/web/20200721084459/https://twitter.com/gdb/status/1285228138675318787)
 
@@ -2277,49 +2214,16 @@ https://x.com/gdb/status/1285228138675318787 · [archived](https://web.archive.o
 
 https://x.com/gdb/status/1284850077815631872 · [archived](https://web.archive.org/web/20200719171024/https://twitter.com/gdb/status/1284850077815631872)
 
-## 2020-07-19
-
-> The potential applications of GPT-3 for the legal profession are incredible. It can replicate, and predict language in @SCOTUS opinions -- including opinions of  justices reflecting their philosophies of law -- based on a SUMMARY of the procedural history. @OpenAI @gdb #gpt3 1/n https://t.co/dzsqPJcAer
-
-https://x.com/gdb/status/1284734597679345665 · [archived](https://web.archive.org/web/20200719065531/https://twitter.com/gdb/status/1284734597679345665)
-
-## 2020-07-18
-
-> I wrote up some quick thoughts on GPT3 and tried to do a bit of an explainer for a non-technical folks
-> 
-> 30 years ago, Steve Jobs described computers as “bicycles for the mind.” I’d argue that, even in its current form, GPT3 is “a racecar for the mind.”
-> 
-> https://t.co/Ae3hOb5yJg
-
-https://x.com/gdb/status/1284306904743702529 · [archived](https://web.archive.org/web/20200718032808/https://twitter.com/gdb/status/1284306904743702529)
-
-## 2020-07-17
-
-> I just had a moment of sheer incredulity. The fact that these answers are generated by a computer blows my mind. https://t.co/VLKiREaFSb
-
-Quoting https://x.com/nnnnicholas/status/1284146731798552576:
-> https://t.co/r9dwGn8Wdh
-
-https://x.com/gdb/status/1284177900246188032 · [archived](https://web.archive.org/web/20200717182534/https://twitter.com/gdb/status/1284177900246188032)
-
 ## 2020-07-17 · possibly deleted
 
-> It's just one of those days where I combine a superpower AI created by @OpenAI and face tracking real time webcam machine vision to play 🦁animal charades with myself https://t.co/68uhudZjVI
+_(text not available)_
 
 https://x.com/gdb/status/1283969357182152717 · [archived](https://web.archive.org/web/20200717052100/https://twitter.com/gdb/status/1283969357182152717)
 
-## 2020-07-16
-
-> If you thought all the good stuff in computer science has been invented and the golden age is over, you are mistaken. #gpt3 is as cool as Netscape Navigator was, when I first saw it. You could see that this is going to change things in unpredicatable ways.
-
-Quoting https://x.com/sharifshameem/status/1283322990625607681:
-> Here's a sentence describing what Google's home page should look and here's GPT-3 generating the code for it nearly perfectly. https://t.co/m49hoKiEpR
-
-https://x.com/gdb/status/1283781588661047296 · [archived](https://web.archive.org/web/20200716210820/https://twitter.com/gdb/status/1283781588661047296)
-
 ## 2020-07-10 · possibly deleted
 
-_(text not available)_
+> Soon my fellow @ProcessingOrg nerds; we shall be able to think our generative art into existence.
+> Using the @OpenAI API to generate Processing code. The results are pretty great!! https://t.co/y17SBUH45Y
 
 https://x.com/gdb/status/1281453726943698944 · [archived](https://web.archive.org/web/20200710052321/https://twitter.com/gdb/status/1281453726943698944)
 
@@ -2343,7 +2247,7 @@ https://x.com/gdb/status/1279098714800271360 · [archived](https://web.archive.o
 
 ## 2020-06-14 · possibly deleted
 
-> I fed federal tax law to OpenAI's model and asked for a summary of a section. Input on the left, output on the right. Pretty nuts:
+_(text not available)_
 
 https://x.com/gdb/status/1272306368490303488 · [archived](https://web.archive.org/web/20200614231810/https://twitter.com/gdb/status/1272306368490303488)
 
@@ -2374,12 +2278,6 @@ https://x.com/gdb/status/1271116054027071489 · [archived](https://web.archive.o
 
 https://x.com/gdb/status/1270437754208317441 · [archived](https://web.archive.org/web/20200609193218/https://twitter.com/gdb/status/1270437754208317441)
 
-## 2020-06-09
-
-> We’ve been talking at OpenAI about what we can do to help Black equity. We’re committing $1M to this cause via direct donations and expanding our Scholars program, which provides educational resources and mentoring to underrepresented groups in AI. (1/4)
-
-https://x.com/gdb/status/1270184471103324160 · [archived](https://web.archive.org/web/20200609024433/https://twitter.com/gdb/status/1270184471103324160)
-
 ## 2020-05-05
 
 > AI algorithms are making rapid progress — there's been an exponential decrease in the amount of compute needed to train a neural network to a fixed level of performance on ImageNet. The slope is steeper than Moore's Law.
@@ -2407,14 +2305,6 @@ https://x.com/gdb/status/1257363330798424067 · [archived](https://web.archive.o
 > https://t.co/gE3uNPGGTh
 
 https://x.com/gdb/status/1255892760055255041 · [archived](https://web.archive.org/web/20200506152410/https://twitter.com/gdb/status/1255892760055255041)
-
-## 2020-04-09
-
-> The supercomputing team is one of the most important teams at OpenAI, and they’re hiring.
-> 
-> They build some of the largest compute platforms in the world and craft powerful software tools to run large-scale machine learning on top. This is key to enabling our research.
-
-https://x.com/gdb/status/1248358101624868864 · [archived](https://web.archive.org/web/20200409211351/https://twitter.com/gdb/status/1248358101624868864)
 
 ## 2019-12-05
 
@@ -2499,7 +2389,7 @@ https://x.com/gdb/status/1181280623614287872 · [archived](https://web.archive.o
 
 ## 2019-10-07 · possibly deleted
 
-_(text not available)_
+> Got engaged to the love of my life this weekend, a year to the day after our first date. Love at first sight is real.
 
 https://x.com/gdb/status/1181237920117608448 · [archived](https://web.archive.org/web/20191007162031/https://twitter.com/gdb/status/1181237920117608448)
 
@@ -3569,19 +3459,13 @@ _(text not available)_
 
 https://x.com/gdb/status/1635698392323 · [archived](https://web.archive.org/web/20260406231350/https://x.com/gdb/status/1635698392323)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/gdb/status/18784896817 · [archived](https://web.archive.org/web/20250429081249/https://x.com/gdb/status/18784896817)
 
-## 2010-11-04 · reply to @embracelifeadam
-
-> @embracelifeadam We R offering professional Chinese Visa services. We are in Beijing. Email/MSN: Robert_shu7777@hotmail.com  thatischina.com
-
-https://x.com/gdb/status/1878489681 · [archived](https://web.archive.org/web/20250429070040/https://x.com/gdb/status/1878489681)
-
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 

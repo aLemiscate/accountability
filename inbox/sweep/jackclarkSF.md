@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 4190 (… to 2026-05-19)
-- Read so far: 4190 (100%); text found for 4145; 0 not read yet
+- Archived posts found: 3921 (2012-01-17 to 2026-05-19)
+- Left out: 269 archived link(s) under this handle that X says another account wrote
+- Read so far: 3921 (100%); text found for 3866; 0 not read yet
 - Possibly deleted: 86
-- Matching the topic filter: 995
+- Matching the topic filter: 897
 
 
-Every post is in `jackclarkSF.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `jackclarkSF/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-05-09
 
@@ -659,19 +660,19 @@ https://x.com/jackclarkSF/status/1564449818650353665 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1563969208546762753 · [archived](https://web.archive.org/web/20220828191912/https://twitter.com/jackclarkSF/status/1563969208546762753)
 
-## 2022-08-27
+## 2022-08-27 · reply to @jackclarkSF
 
 > @friendly_gravy @AnthropicAI We're also shipping this red teaming paper to a few interested policy stakeholders advocating for it being wired into various mooted risk assessment approaches, so we're actively trying to push this into a regulatory context!
 
 https://x.com/jackclarkSF/status/1563644977795674112 · [archived](https://web.archive.org/web/20220828024536/https://twitter.com/jackclarkSF/status/1563644977795674112)
 
-## 2022-08-27
+## 2022-08-27 · reply to @jackclarkSF
 
 > @friendly_gravy @AnthropicAI I think the current state of v minimal regulation of AI isn't good and is also increasing the chance of unsafe or dangerous deployments, so we need regulators to catch up. I spend a bunch of my time working in regulatory forums like OECD and others for this purpose : )
 
 https://x.com/jackclarkSF/status/1563644834312704000 · [archived](https://web.archive.org/web/20220827215011/https://twitter.com/jackclarkSF/status/1563644834312704000)
 
-## 2022-08-27
+## 2022-08-27 · reply to @friendly_gravy
 
 > @friendly_gravy @AnthropicAI I ultimately expect red teaming will be integrated into regulatory approaches. Broadly, I/Anthropic pushes for a few different types of regulation. I feel like regulation requires good information, so I generally propose this when talking to govs https://t.co/vljhYFFXi2
 
@@ -2013,16 +2014,6 @@ Quoting https://x.com/jackclarkSF/status/1537142557834039296:
 
 https://x.com/jackclarkSF/status/1539072391229296641 · [archived](https://web.archive.org/web/20220621022733/https://twitter.com/jackclarkSF/status/1539072391229296641)
 
-## 2022-06-20
-
-> I think this is one of the most important open roles at @CohereAI right now. I'm personally invested in helping find a good fit for safety lead role.
-> 
-> Apply if you are passionate about making progress on training models that are safe, accessible + useful.
-> 
-> https://t.co/5AmUYdobvG
-
-https://x.com/jackclarkSF/status/1538987368857776128 · [archived](https://web.archive.org/web/20220620204946/https://twitter.com/jackclarkSF/status/1538987368857776128)
-
 ## 2022-06-18 · reply to @PerryALPHA
 
 > @ElectionLegal This. This, I struggle with.
@@ -2036,17 +2027,6 @@ https://x.com/jackclarkSF/status/1538014951138160640 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1536409626794598401 · [archived](https://web.archive.org/web/20220613180715/https://twitter.com/jackclarkSF/status/1536409626794598401)
 
-## 2022-06-12
-
-> I found this chart particularly striking - the fact that academic researcher's ability to compete with industry researchers when it comes to large scale AI results is dropping like a lead block in the ocean. 
-> 
-> This is "big computers eat academic AI"
-
-Quoting https://x.com/jackclarkSF/status/1534582326943879168:
-> It's covered a bit in the above podcast by people like @katecrawford - there's huge implications to industrialization, mostly centering around who gets control of the frontier, when the frontier becomes resource intensive. So far control is accruing to the private sector (uh oh!) https://t.co/rVe5jtuCkw
-
-https://x.com/jackclarkSF/status/1536096112645353472 · [archived](https://web.archive.org/web/20220612212036/https://twitter.com/jackclarkSF/status/1536096112645353472)
-
 ## 2022-06-12 · reply to @jackclarkSF
 
 > Thanks so much to everyone who has donated. This so far makes a huge diff - already a workday and change in funds for my buddy!
@@ -2058,12 +2038,6 @@ https://x.com/jackclarkSF/status/1535832207016615936 · [archived](https://web.a
 > @MichaelTrazzi fwiw I'd put myself more in the middle - I don't really think AGI is gonna be bad, I think it's more like 50/50 currently
 
 https://x.com/jackclarkSF/status/1534965537411067904 · [archived](https://web.archive.org/web/20220609182829/https://twitter.com/jackclarkSF/status/1534965537411067904)
-
-## 2022-06-08 · reply to @jackclarkSF
-
-> @jackclarkSF @mmitchell_ai @alexhern @HaydnBelfield @IreneSolaiman A lot of anthropologists have written about how different societies priorities different levels and varieties of privacy. It’s often a trade off between other more basic needs like safety, warmth, and dependency vs. privacy. Our modern western concept of privacy arose around …
-
-https://x.com/jackclarkSF/status/1534675539813756928 · [archived](https://web.archive.org/web/20220608231559/https://twitter.com/jackclarkSF/status/1534675539813756928)
 
 ## 2022-06-08 · reply to @bryanrbeal
 
@@ -2214,12 +2188,6 @@ Quoting https://x.com/indexingai/status/1523680440628006912:
 
 https://x.com/jackclarkSF/status/1523707332974153728 · [archived](https://web.archive.org/web/20220509165214/https://twitter.com/jackclarkSF/status/1523707332974153728)
 
-## 2022-05-07
-
-> Ian Goodfellow, Apple’s director of machine learning, is leaving the company due to its return to work policy. In a note to staff, he said “I believe strongly that more flexibility would have been the best policy for my team.” He was likely the company’s most cited ML expert.
-
-https://x.com/jackclarkSF/status/1523017658328752129 · [archived](https://web.archive.org/web/20220507191146/https://twitter.com/jackclarkSF/status/1523017658328752129)
-
 ## 2022-05-03 · reply to @karinavold
 
 > @karinavold @Miles_Brundage @edenmedina @jonniepenn @dioscuri @CarissaVeliz @jesswhittles @ejonesimhotep @sethlazar @BVLSingler @ghadfield When will computer hardware match the human brain by Moravec is good
@@ -2247,55 +2215,17 @@ https://x.com/jackclarkSF/status/1521161232333479936 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1520134512339939328 · [archived](https://web.archive.org/web/20220429201521/https://twitter.com/jackclarkSF/status/1520134512339939328)
 
-## 2022-04-29
-
-> Now seems like a good time to mention that we’re always looking for ways to more efficiently turn raw compute into useful safety research. 
-> 
-> If you know of great software engineers who are interested in building big machines then have them message me at tom@anthropic.com
-
-Quoting https://x.com/AnthropicAI/status/1520074475202482180:
-> We’ve raised $580 million in a Series B. This will help us further develop our research to build usable, reliable AI systems. Find out more: https://t.co/bfrX7SzFBL
-
-https://x.com/jackclarkSF/status/1520089409407700992 · [archived](https://web.archive.org/web/20220429171559/https://twitter.com/jackclarkSF/status/1520089409407700992)
-
-## 2022-04-29
-
-> Excited to announce our latest fundraising round! We’re genuinely honored to be entrusted with the resources to continue our work in frontier AI safety and research.
-
-Quoting https://x.com/AnthropicAI/status/1520074475202482180:
-> We’ve raised $580 million in a Series B. This will help us further develop our research to build usable, reliable AI systems. Find out more: https://t.co/bfrX7SzFBL
-
-https://x.com/jackclarkSF/status/1520076315604398081 · [archived](https://web.archive.org/web/20220429162356/https://twitter.com/jackclarkSF/status/1520076315604398081)
-
 ## 2022-04-27
 
 > We're expanding the policy and societal impacts teams at @AnthropicAI ! These are very high-impact, influential roles in a fast-growing organization. Please apply: https://t.co/qlrAmibvmX . See attached for some thoughts from my fantastic colleague Liane on working here. https://t.co/LYJ7ySdAt2
 
 https://x.com/jackclarkSF/status/1519334251602186240 · [archived](https://web.archive.org/web/20220427151620/https://twitter.com/jackclarkSF/status/1519334251602186240)
 
-## 2022-04-26
-
-> How do we ensure the responsible use of AI in fostering inclusive economic growth? Scholars, policymakers, and leaders discuss the implications of AI deployment across various sectors, including financial services and healthcare. Sign up to join virtually: https://t.co/vYy833VaQf https://t.co/rTwabzZuiN
-
-https://x.com/jackclarkSF/status/1518995579199664129 · [archived](https://web.archive.org/web/20220426165017/https://twitter.com/jackclarkSF/status/1518995579199664129)
-
-## 2022-04-23
-
-> Big news! We have entered into an agreement to be acquired by Intrinsic, a robotics software and AI company at Alphabet, and our AGI research team is joining DeepMind. Read more here: https://t.co/8sSOW1C1F6
-
-https://x.com/jackclarkSF/status/1517667379819335680 · [archived](https://web.archive.org/web/20220423005327/https://twitter.com/jackclarkSF/status/1517667379819335680)
-
 ## 2022-04-18 · reply to @imispgh
 
 > @imispgh I expect, given the composition of the board, there will be a lot of constructive pushback on things.
 
 https://x.com/jackclarkSF/status/1515904558211379202 · [archived](https://web.archive.org/web/20220418040707/https://twitter.com/jackclarkSF/status/1515904558211379202)
-
-## 2022-04-15
-
-> Honored to serve as chair for the newly formed #NationalAIAdvisoryCommittee (NAIAC). We have our work cut out for us but confident we will achieve results w our impressive committee members. We'll be laser-focused on our mission https://t.co/1dcXKP7CRO
-
-https://x.com/jackclarkSF/status/1515025228992233479 · [archived](https://web.archive.org/web/20220415175248/https://twitter.com/jackclarkSF/status/1515025228992233479)
 
 ## 2022-04-15 · reply to @AwokeKnowing
 
@@ -2333,25 +2263,9 @@ https://x.com/jackclarkSF/status/1513885336073609216 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1513738729290039296 · [archived](https://web.archive.org/web/20220412044025/https://twitter.com/jackclarkSF/status/1513738729290039296)
 
-## 2022-04-12
-
-> The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink
-> 
-> Google suggests four best practices that can reduce ML training energy by up to 100x and CO2 emissions up to 1000x.
-> 
-> https://t.co/IYy9SaWw8M https://t.co/7OtNyRZqbK
-
-https://x.com/jackclarkSF/status/1513694535695560706 · [archived](https://web.archive.org/web/20220412014508/https://twitter.com/jackclarkSF/status/1513694535695560706)
-
-## 2022-04-11
-
-> Excited to announce that I’ll be joining @AnthropicAI  after graduation! Thrilled to join the talented team there and continue working on aligning language models with human preferences
-
-https://x.com/jackclarkSF/status/1513609742391799809 · [archived](https://web.archive.org/web/20220411200822/https://twitter.com/jackclarkSF/status/1513609742391799809)
-
 ## 2022-04-10 · possibly deleted
 
-_(text not available)_
+> Seconding this. Infrastructure to build foundation models in the public sphere will be important https://t.co/6qpSGsWKuK
 
 https://x.com/jackclarkSF/status/1512961119983341577 · [archived](https://web.archive.org/web/20220410011040/https://twitter.com/jackclarkSF/status/1512961119983341577)
 
@@ -2402,12 +2316,6 @@ https://x.com/jackclarkSF/status/1511347635659186179 · [archived](https://web.a
 > @BlancheMinerva Relatively new, but this paper discusses this by  @TShevlane https://t.co/JrjP9Wz29O (for transparency, I constructively disagree with this and hope to write a resposne)
 
 https://x.com/jackclarkSF/status/1509940283160494081 · [archived](https://web.archive.org/web/20220401170758/https://twitter.com/jackclarkSF/status/1509940283160494081)
-
-## 2022-03-31
-
-> Listen to the @Marketplace Tech podcast's episode today where @jackclarkSF discusses the trends of AI in private investment, ethical challenges, legislation, and more highlighted in our 2022 report. https://t.co/LDQZJk6CVq
-
-https://x.com/jackclarkSF/status/1509612308019875842 · [archived](https://web.archive.org/web/20220331200236/https://twitter.com/jackclarkSF/status/1509612308019875842)
 
 ## 2022-03-31
 
@@ -2483,15 +2391,9 @@ https://x.com/jackclarkSF/status/1508501097073111043 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1508500946300461057 · [archived](https://web.archive.org/web/20220328174814/https://twitter.com/jackclarkSF/status/1508500946300461057)
 
-## 2022-03-27
-
-> A dilemma: is open-sourcing large-scale models (and any state-of-art AI in general) helping or hurting AI safety? Pros: AI democratization/power distribution; cons: anyone can use state-of-art for any kind of objectives.
-
-https://x.com/jackclarkSF/status/1508198776053280771 · [archived](https://web.archive.org/web/20220327214700/https://twitter.com/jackclarkSF/status/1508198776053280771)
-
 ## 2022-03-27 · possibly deleted
 
-_(text not available)_
+> Don't Ask have been around for a while and I have so many memories bound up with seeing them live. This song by them about a friend lost in the ghostship fire is wonderful https://t.co/XnrkLwox4b
 
 https://x.com/jackclarkSF/status/1507985328593780737 · [archived](https://web.archive.org/web/20220327073828/https://twitter.com/jackclarkSF/status/1507985328593780737)
 
@@ -2516,24 +2418,6 @@ https://x.com/jackclarkSF/status/1507786458123231232 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1507461281011302401 · [archived](https://web.archive.org/web/20220325205627/https://twitter.com/jackclarkSF/status/1507461281011302401)
 
-## 2022-03-18
-
-> Victor Shepelev, @zverok, is a Ruby developer who lives in Ukraine
-> 
-> Since Russia invaded his country, he's had more pressing concerns than writing code, such as keeping his family safe and helping his fellow citizens survive
-> 
-> Interview with @ThomasClaburn: https://t.co/35RuJNdQ2H
-
-https://x.com/jackclarkSF/status/1504957595076882432 · [archived](https://web.archive.org/web/20220318230756/https://twitter.com/jackclarkSF/status/1504957595076882432)
-
-## 2022-03-16
-
-> TOP TAKEAWAYS FROM THE 2022 AI INDEX REPORT - A THREAD 
-> 
-> This year, we partnered with a broad set of academic, private, and nonprofit organizations and introduced more self-collected data and original analysis than any previous editions. Here are the highlights from #AIIndex2022: https://t.co/2RjVVq3y0N
-
-https://x.com/jackclarkSF/status/1504168967442604032 · [archived](https://web.archive.org/web/20220316185350/https://twitter.com/jackclarkSF/status/1504168967442604032)
-
 ## 2022-03-16 · possibly deleted
 
 > What are the geopolitics of artificial intelligence? When is AI politically neutral? And what use-cases favor the values of closed or open societies? Join @BuchananBen and me next Sunday, 9pm, to discuss Ben's third book THE NEW FIRE, published last week https://t.co/KPXMcYPP8e
@@ -2551,12 +2435,6 @@ https://x.com/jackclarkSF/status/1503087526889734145 · [archived](https://web.a
 > Another great point via @jackclarkSF is that due to GDPR, the Meta team wasn't able to use data from Europe, meaning "European countries will be less represented" in global scale AI models.
 
 https://x.com/jackclarkSF/status/1502902515712495619 · [archived](https://web.archive.org/web/20220313070118/https://twitter.com/jackclarkSF/status/1502902515712495619)
-
-## 2022-03-13 · reply to @jackclarkSF
-
-> @jackclarkSF I think your overall point is still important! Several Chinese projects have been collaborations between compute facilities (state/CNSC, Huawei, or other clouds), internet cos (Ali, Tencent, ByteDance, Baidu, Sogou, etc.) and government-academic labs (BAAI, Peng Cheng, etc.)
-
-https://x.com/jackclarkSF/status/1502816785355010050 · [archived](https://web.archive.org/web/20220313012146/https://twitter.com/jackclarkSF/status/1502816785355010050)
 
 ## 2022-03-13 · reply to @deliprao
 
@@ -2606,13 +2484,7 @@ https://x.com/jackclarkSF/status/1498759168391401472 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1498075750854918144 · [archived](https://web.archive.org/web/20220227232144/https://twitter.com/jackclarkSF/status/1498075750854918144)
 
-## 2022-02-21
-
-> Here is a post summarizing my current views on AI consciousness, how I think it relates to moral patienthood and agency, and how important I think work on the topic is. https://t.co/tKpOjLnHYH
-
-https://x.com/jackclarkSF/status/1495885880397082629 · [archived](https://web.archive.org/web/20220221222425/https://twitter.com/jackclarkSF/status/1495885880397082629)
-
-## 2022-02-21
+## 2022-02-21 · reply to @leloykun
 
 > @leloykun @DeepMind Gonna be fun in the future when large-scale universe-sim experiments require you to be able to get timeshare access to a dyson sphere's worth of compute
 
@@ -2642,12 +2514,6 @@ https://x.com/jackclarkSF/status/1494444799000133632 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1494443992758435856 · [archived](https://web.archive.org/web/20220217225454/https://twitter.com/jackclarkSF/status/1494443992758435856)
 
-## 2022-02-17 · reply to @AspenPolicyAcad
-
-> 💡 @AnthropicAI seeks a Head of External Affairs in San Francisco or Washington, DC. The Head of External Affairs will promote Anthropic’s work in the AI policy community by building relationships with stakeholders and analyzing/drafting policy proposals. https://t.co/v2xZuCVvjR
-
-https://x.com/jackclarkSF/status/1494429032636510208 · [archived](https://web.archive.org/web/20220217215525/https://twitter.com/jackclarkSF/status/1494429032636510208)
-
 ## 2022-02-17 · reply to @marylgray
 
 > @marylgray I agree - I think the concentration of power is one of the things that magnifies the risks. Wrote a paper about this and other things relating to concentration of resources here: https://t.co/ASW7QhDxzM
@@ -2668,15 +2534,6 @@ https://x.com/jackclarkSF/status/1494091696925073409 · [archived](https://web.a
 > @0xhexhex Working at @TheRegister was one of the best experiences of my life. It's an awesome publication, and I'd been reading it since I was a teenager so was a privilege to get a job
 
 https://x.com/jackclarkSF/status/1493101032213135362 · [archived](https://web.archive.org/web/20220214055829/https://twitter.com/jackclarkSF/status/1493101032213135362)
-
-## 2022-02-09
-
-> Foundation models are still dominated by industry and inaccessible to academia.  @dlwh joining CRFM is an important first step towards reducing that gap.  Super excited to work with David towards CRFM’s mission of making foundation models more reliable and accessible.
-
-Quoting https://x.com/dlwh/status/1490732100630110208:
-> I'm excited to announce I'm joining Stanford CRFM (https://t.co/shNCWoHKRK) to lead the engineering effort to improve the accessibility of foundation models. Really looking forward to working with @percyliang and everyone else there!
-
-https://x.com/jackclarkSF/status/1491484254773022725 · [archived](https://web.archive.org/web/20220209185406/https://twitter.com/jackclarkSF/status/1491484254773022725)
 
 ## 2022-02-09 · reply to @SashaMTL
 
@@ -2740,31 +2597,19 @@ https://x.com/jackclarkSF/status/1488976805994188800 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1488974858469838848 · [archived](https://web.archive.org/web/20220202204238/https://twitter.com/jackclarkSF/status/1488974858469838848)
 
-## 2022-02-01
-
-> I know what it means to have one moment change a family’s whole trajectory. I know because I got that one in a thousand chance out of poverty, but that’s the problem. You shouldn't need to be one in a thousand lucky. That’s why I’m running for Congress. https://t.co/rFkFbALRs3
-
-https://x.com/jackclarkSF/status/1488567261312929792 · [archived](https://web.archive.org/web/20220201174251/https://twitter.com/jackclarkSF/status/1488567261312929792)
-
 ## 2022-02-01 · possibly deleted
 
-_(text not available)_
+> This Turing Trap paper by @erikbryn is incredibly important and insightful. The race towards automation over augmentation is fraught with peril. Thanks to @jackclarkSF for highlighting in this week’s ImportAI newsletter. @StanfordHAI @DigEconLab https://t.co/7AvjWTdr7t
 
 https://x.com/jackclarkSF/status/1488540518850064384 · [archived](https://web.archive.org/web/20220201155644/https://twitter.com/jackclarkSF/status/1488540518850064384)
 
-## 2022-01-31 · reply to @Gabi_butler23
-
-> America’s geography gives it the ability to produce most of its consumptive needs domestically while sourcing other necessities within the Western Hemisphere. Unfortunately, the past 40 years of political leadership has turned the Arsenal of Democracy into the Rust Belt. 10/n
-
-https://x.com/jackclarkSF/status/1488214022256091146 · [archived](https://web.archive.org/web/20220131182428/https://twitter.com/jackclarkSF/status/1488214022256091146)
-
-## 2022-01-30
+## 2022-01-30 · reply to @machinaut
 
 > @machinaut @jasoncrawford It'd be fascinating if Bandcamp figured out how to do streaming (since most artists I know seem to quite like Bandcamp compared to all the other platforms)
 
 https://x.com/jackclarkSF/status/1487917597706240006 · [archived](https://web.archive.org/web/20220130224132/https://twitter.com/jackclarkSF/status/1487917597706240006)
 
-## 2022-01-29
+## 2022-01-29 · reply to @sleepinyourhat
 
 > @sleepinyourhat If @dkaushik96 brings this to his defense you know you have a problem https://t.co/4CdI6ID9MQ
 
@@ -2778,7 +2623,8 @@ https://x.com/jackclarkSF/status/1487220690403008513 · [archived](https://web.a
 
 ## 2022-01-28 · possibly deleted
 
-_(text not available)_
+> @jackclarkSF i think this is conflating ethnical stances (reasons) with effective centralised policies (approaches)
+> i’ll be stoked if china regulates ai much better than the west BUT i don’t think this necessarily means it was motivated by ethical reasons vs control new disruptive tech
 
 https://x.com/jackclarkSF/status/1487172980383752194 · [archived](https://web.archive.org/web/20220128212228/https://twitter.com/jackclarkSF/status/1487172980383752194)
 
@@ -2798,17 +2644,7 @@ Quoting https://x.com/China_Digital/status/1487141578678415367:
 
 https://x.com/jackclarkSF/status/1487169325047824386 · [archived](https://web.archive.org/web/20220128210759/https://twitter.com/jackclarkSF/status/1487169325047824386)
 
-## 2022-01-27
-
-> Extremely exciting alignment research milestone:
-> 
-> Using reinforcement learning from human feedback, we've trained GPT-3 to be much better at following human intentions.
-> 
-> https://t.co/r8zWWZ9LL6
-
-https://x.com/jackclarkSF/status/1486819753633140743 · [archived](https://web.archive.org/web/20220127215855/https://twitter.com/jackclarkSF/status/1486819753633140743)
-
-## 2022-01-27
+## 2022-01-27 · reply to @Abebab
 
 > @Abebab This is a paper that came out of a big workshop on trustworthy AI a couple of years ago https://t.co/eWKNGj8Dy2
 
@@ -2823,7 +2659,7 @@ Quoting https://x.com/jordanschneider/status/1486417590167744517:
 
 https://x.com/jackclarkSF/status/1486475157141172225 · [archived](https://web.archive.org/web/20220126230943/https://twitter.com/jackclarkSF/status/1486475157141172225)
 
-## 2022-01-26
+## 2022-01-26 · reply to @eigenrobot
 
 > @eigenrobot remember to try and leave a few bucks along with a note saying 'tip' on it (so they don't think you just forgot it), as cleaners get paid pretty badly at most places
 
@@ -2841,19 +2677,19 @@ https://x.com/jackclarkSF/status/1486153763945598980 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1486153236092493825 · [archived](https://web.archive.org/web/20220126015025/https://twitter.com/jackclarkSF/status/1486153236092493825)
 
-## 2022-01-25
+## 2022-01-25 · reply to @mmitchell_ai
 
 > @mmitchell_ai If you make this a job, I will happily advertise it in Import AI. More model cards!
 
 https://x.com/jackclarkSF/status/1486082864538136579 · [archived](https://web.archive.org/web/20220125211054/https://twitter.com/jackclarkSF/status/1486082864538136579)
 
-## 2022-01-25
+## 2022-01-25 · reply to @seekingyaga
 
 > @seekingyaga yeah, though worth noting my prior background includes journalism at both high-prestige places (e.g, Bloomberg, CBS), and low-prestige places (first job was in an SEO job). I've always had access to computers that can do email/text/web, even though sometimes v cheap
 
 https://x.com/jackclarkSF/status/1486036947806138369 · [archived](https://web.archive.org/web/20220125180819/https://twitter.com/jackclarkSF/status/1486036947806138369)
 
-## 2022-01-25
+## 2022-01-25 · reply to @gwern
 
 > @gwern Yeah, a family member worked in defense in the UK for a bit, and the stories they told me were much like this - worse than my already pessimistic mental model.
 
@@ -2866,9 +2702,12 @@ https://x.com/jackclarkSF/status/1486032935211917313 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1486021014987415554 · [archived](https://web.archive.org/web/20220125170503/https://twitter.com/jackclarkSF/status/1486021014987415554)
 
-## 2022-01-24
+## 2022-01-24 · reply to @mtrc
 
 > @mtrc it's a pretty crazy stat - 6k a100s = world's 5th most powerful supercomputer https://t.co/I5DpLShSZd
+
+Quoting https://x.com/jackclarkSF/status/1485682078800830471:
+> For perspective, at ~6,000 A100s, Facebook's newly announced AI cluster is on par with Perlmutter, the world's fifth fastest supercomputer (~6,000 A100s). Ultimately, FB is going to scale to ~16,000 A100s. https://t.co/gXiZZhURq3
 
 https://x.com/jackclarkSF/status/1485741579960819713 · [archived](https://web.archive.org/web/20220124223435/https://twitter.com/jackclarkSF/status/1485741579960819713)
 
@@ -2889,12 +2728,6 @@ https://x.com/jackclarkSF/status/1485698062509084680 · [archived](https://web.a
 > @GaryMarcus @FLIxrisk thanks for signal-boosting this, Gary!
 
 https://x.com/jackclarkSF/status/1485692297559879684 · [archived](https://web.archive.org/web/20220124191844/https://twitter.com/jackclarkSF/status/1485692297559879684)
-
-## 2022-01-24 · reply to @jackclarkSF
-
-> @jackclarkSF I was speaking with an atmospheric physicist this past Friday and he was expressing the difficulty his team was having getting access to the compute they needed for a project. I definitely believe we need to get more compute into the hands of capable scientists.
-
-https://x.com/jackclarkSF/status/1485685895793631233 · [archived](https://web.archive.org/web/20220124184819/https://twitter.com/jackclarkSF/status/1485685895793631233)
 
 ## 2022-01-24 · reply to @WalterReade
 
@@ -2950,15 +2783,6 @@ https://x.com/jackclarkSF/status/1483932026965135361 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1483923254066647041 · [archived](https://web.archive.org/web/20220119220912/https://twitter.com/jackclarkSF/status/1483923254066647041)
 
-## 2022-01-19
-
-> Very happy to see my recent piece featured in @jackclarkSF's excellent Import AI newsletter, the best digest of what's going on at the front lines of AI research.
-> 
-> The point on regulatory experiments is key, one more reason to follow what China is doing:
-> https://t.co/cht078RsOG https://t.co/KZ3URRzoU4
-
-https://x.com/jackclarkSF/status/1483881652862746624 · [archived](https://web.archive.org/web/20220119192359/https://twitter.com/jackclarkSF/status/1483881652862746624)
-
 ## 2022-01-18 · possibly deleted
 
 _(text not available)_
@@ -2971,23 +2795,13 @@ https://x.com/jackclarkSF/status/1483509366896541697 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1481022534145302529 · [archived](https://web.archive.org/web/20220111220250/https://twitter.com/jackclarkSF/status/1481022534145302529)
 
-## 2022-01-10
-
-> “If the CAC follows through on certain requirements for algorithmic transparency, China will be running some of the world’s largest regulatory experiments on topics that EU regulators have long debated” via @jackclarkSF 
-> 
-> Effet Pekin vs effet Bruxelles?
-> 
-> https://t.co/WXRIHkcUHJ
-
-https://x.com/jackclarkSF/status/1480640206311084032 · [archived](https://web.archive.org/web/20220110204334/https://twitter.com/jackclarkSF/status/1480640206311084032)
-
 ## 2022-01-09 · reply to @ForHumanity_Org
 
 > @ForHumanity_Org Are course materials available? Would be interested to read re how you are thinking about audits
 
 https://x.com/jackclarkSF/status/1480277927606452224 · [archived](https://web.archive.org/web/20220109204403/https://twitter.com/jackclarkSF/status/1480277927606452224)
 
-## 2022-01-06
+## 2022-01-06 · reply to @SashaMTL
 
 > @SashaMTL @semiDL @AMD @intel One way to orient yourself might be to read some of the @CSETGeorgetown analyses on the global chip supply chain https://t.co/Xq9Z5kVgp4 - lots of good detail in reports like this
 
@@ -3037,7 +2851,7 @@ https://x.com/jackclarkSF/status/1478932971801374720 · [archived](https://web.a
 
 ## 2022-01-04 · possibly deleted
 
-_(text not available)_
+> @jackclarkSF Not aware of any paper on this subject, but based on my past experience in academia I would say: There is no glory in running a big stable infrastructure for a university, i.e., no scientific interesting results which can be published as papers.
 
 https://x.com/jackclarkSF/status/1478392971028578306 · [archived](https://web.archive.org/web/20220104155403/https://twitter.com/jackclarkSF/status/1478392971028578306)
 
@@ -3080,7 +2894,8 @@ https://x.com/jackclarkSF/status/1478097315973910528 · [archived](https://web.a
 
 ## 2022-01-03 · possibly deleted
 
-_(text not available)_
+> @jackclarkSF Haven’t seen a paper, but I think the funding model explains a lot
+> Most research is funded by grants that individual PIs receive. If they need compute, they will build on the commercial cloud, or invest in a local resource for their group if their needs are sustained. (1/7)
 
 https://x.com/jackclarkSF/status/1478095514910408705 · [archived](https://web.archive.org/web/20220103201151/https://twitter.com/jackclarkSF/status/1478095514910408705)
 
@@ -3150,7 +2965,7 @@ https://x.com/jackclarkSF/status/1469800171122925576 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1469797883968835584 · [archived](https://web.archive.org/web/20211211225223/https://twitter.com/jackclarkSF/status/1469797883968835584)
 
-## 2021-12-11
+## 2021-12-11 · reply to @jackclarkSF
 
 > I'm not making a claim about the goodness or badness of bitcoin/crypto here. I am claiming that if computation is something that can be used to enhance economic and strategic competitiveness, then can argue crypto might not be best investment of finite compute budget.
 
@@ -3171,19 +2986,13 @@ https://x.com/jackclarkSF/status/1469796311478124544 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1469040521595162624 · [archived](https://web.archive.org/web/20211209203040/https://twitter.com/jackclarkSF/status/1469040521595162624)
 
-## 2021-12-03
-
-> Our first AI alignment paper, focused on simple baselines and investigations: A General Language Assistant as a Laboratory for Alignment https://t.co/jdO81KZA1A
-
-https://x.com/jackclarkSF/status/1466810386947067908 · [archived](https://web.archive.org/web/20211203164848/https://twitter.com/jackclarkSF/status/1466810386947067908)
-
 ## 2021-11-23 · reply to @jackclarkSF
 
 > I'm slightly vexxed about this as there have been cool papers about things like bigger CLIP, new transformer variants, tons of wacky surveillance stuff, etc. But I think it's healthy to sometimes stop yourself from working, so you can recharge. : )
 
 https://x.com/jackclarkSF/status/1463193544399622144 · [archived](https://web.archive.org/web/20211124034242/https://twitter.com/jackclarkSF/status/1463193544399622144)
 
-## 2021-11-19
+## 2021-11-19 · reply to @negroprogrammer
 
 > @negroprogrammer @cdixon I still write a weekly newsletter called Import AI at https://t.co/lgRURdEUEm but tbh miss doing investigative ml reporting but can't do due to obvious conflicts in my current roles
 
@@ -3195,32 +3004,11 @@ https://x.com/jackclarkSF/status/1461549474552053762 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1459233609601089537 · [archived](https://web.archive.org/web/20211112191014/https://twitter.com/jackclarkSF/status/1459233609601089537)
 
-## 2021-11-08
-
-> Pretty spectacular to see this super technical paper on AI surveillance arguing that "governments and officials must take considerable steps to develop stringent regulations" for the tech, esp. when you consider who the authors work for.
-> h/t @jackclarkSF 
-> 
-> https://t.co/0TgCwbYhnM
-
-https://x.com/jackclarkSF/status/1457752082832842758 · [archived](https://web.archive.org/web/20211108171150/https://twitter.com/jackclarkSF/status/1457752082832842758)
-
 ## 2021-11-04
 
 > Easy benchmark vs hard benchmark for surveillance capability (Re-identification). Graph on the right is datasets with a load of image perturbations, and the one on the left are the clean ones. TransReID looks so-so on the 'clean' thing, but works in real world. https://t.co/o2ZHslO8UO
 
 https://x.com/jackclarkSF/status/1456247635464105996 · [archived](https://web.archive.org/web/20211104140148/https://twitter.com/jackclarkSF/status/1456247635464105996)
-
-## 2021-10-28
-
-> We're accepting proposals for projects working with deep learning systems that could help us understand and make progress on AI alignment. Learn more about the research directions and the application process here: https://t.co/X1cKzDbldy
-
-https://x.com/jackclarkSF/status/1453857047900872704 · [archived](https://web.archive.org/web/20211028225151/https://twitter.com/jackclarkSF/status/1453857047900872704)
-
-## 2021-10-26
-
-> Come and join us @CDEIUK! We’re currently recruiting for a Senior Policy Advisor (https://t.co/H9Xc3WadO9) and Senior Technology Advisor (https://t.co/PZIDiajGhv), who will work with partners to take forward data-driven initiatives for the public good. Apply by 1st November!
-
-https://x.com/jackclarkSF/status/1453105792379342849 · [archived](https://web.archive.org/web/20211026222617/https://twitter.com/jackclarkSF/status/1453105792379342849)
 
 ## 2021-10-22
 
@@ -3320,15 +3108,6 @@ Quoting https://x.com/SeedAIOrg/status/1451203272497373188:
 
 https://x.com/jackclarkSF/status/1451217591456968707 · [archived](https://web.archive.org/web/20211021160344/https://twitter.com/jackclarkSF/status/1451217591456968707)
 
-## 2021-10-18
-
-> Forthcoming panel on "Technical Characteristics of Trustworthy AI Systems" with @hima_lakkaraju @krvarshney @merbroussard @jackclarkSF at the @NIST meeting on AI Risk Management https://t.co/MJifJuVBso @NSCAI @PartnershipAI @MSFTIssues
-
-Quoting https://x.com/hima_lakkaraju/status/1449925247839387649:
-> Super excited to be a part of the panel on "Technical Characteristics of Trustworthy AI Systems" at the NIST AI Risk Management workshop on Oct. 20th. Looking forward to an exciting discussion with @erichorvitz @krvarshney @merbroussard @jackclarkSF https://t.co/UclS8eTBDx
-
-https://x.com/jackclarkSF/status/1449929533713313794 · [archived](https://web.archive.org/web/20211018024520/https://twitter.com/jackclarkSF/status/1449929533713313794)
-
 ## 2021-10-12 · reply to @ParanoidAnalyst
 
 > @ParanoidAnalyst A few hundred thousand to a million. Expensive, but once you have the model you can do a ton of stuff with it. Academia spends way more money on telescopes, acoustic chambers, gigantic wave pools, etc.
@@ -3346,16 +3125,6 @@ https://x.com/jackclarkSF/status/1447969073631956995 · [archived](https://web.a
 > @ronbodkin They use ~2000 GPUs though idk if they disclose the type of chip (A100 or whatever). I suspect you can napkin-infer the time by looking at efficiency combined with the data tokens. Re price - think if you're in position to use this much compute you can likely negotiate price
 
 https://x.com/jackclarkSF/status/1447956361413754884 · [archived](https://web.archive.org/web/20211012162456/https://twitter.com/jackclarkSF/status/1447956361413754884)
-
-## 2021-10-12
-
-> Inspur is one of those companies you've never heard of that have huge presence in cloud; they're one of the top 3 server vendors globally do Intel reference OCP designs, this is one of their 2019 AI compute setups used by Baidu &amp; their 32-GPU setup (JBOG) 
-> https://t.co/aN7GYGfPqw https://t.co/wjwdoJAJwx
-
-Quoting https://x.com/jackclarkSF/status/1447917421302587396:
-> Chinese company Inspur comes out with a 245B parameter language model. This follows other Chinese GPT3 equivalents, like Huawei's PanGu. Notable that one of the research contributions from Inspur is a system for massive internet data scraping and filtering. https://t.co/81q0U9uivv
-
-https://x.com/jackclarkSF/status/1447944746538651661 · [archived](https://web.archive.org/web/20211012152531/https://twitter.com/jackclarkSF/status/1447944746538651661)
 
 ## 2021-10-12 · reply to @Ozan__Caglayan
 
@@ -3412,18 +3181,6 @@ https://x.com/jackclarkSF/status/1447660849280204803 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1447644203853434883 · [archived](https://web.archive.org/web/20211011202131/https://twitter.com/jackclarkSF/status/1447644203853434883)
 
-## 2021-10-11
-
-> “For a long time #AI had 2 big resources: data &amp; compute. Projects like this show that 'data' is really just 'compute' in a trenchcoat - Microsoft can use computers to generate vast amounts of data, changing the economics of AI dev” ⁦@jackclarkSF⁩ https://t.co/X4c2WN44L4
-
-https://x.com/jackclarkSF/status/1447542942223245312 · [archived](https://web.archive.org/web/20211011124615/https://twitter.com/jackclarkSF/status/1447542942223245312)
-
-## 2021-10-07
-
-> We're looking for an ops generalist for our human-AI interactions work at @AnthropicAI. I think this kind of work is going to be increasingly important for aligning AI systems. https://t.co/Gob7HBLte8
-
-https://x.com/jackclarkSF/status/1446172147878010917 · [archived](https://web.archive.org/web/20211007180301/https://twitter.com/jackclarkSF/status/1446172147878010917)
-
 ## 2021-10-07
 
 > 2021 vibe is military information being declassified by military nerds just trying to play their game.
@@ -3455,18 +3212,6 @@ Quoting https://x.com/indexingai/status/1445083262955573249:
 > WE'RE HIRING! The AI Index is hiring several researchers on a contract basis to work on two AI measurement-related projects for the 2022 AI Index Report. Read the job descriptions here (https://t.co/mGmnAqj7fQ) and apply via this Google Form (https://t.co/wncvmPGViz) by Oct 15. https://t.co/94gOCvSwWl
 
 https://x.com/jackclarkSF/status/1445086083033677828 · [archived](https://web.archive.org/web/20211004193051/https://twitter.com/jackclarkSF/status/1445086083033677828)
-
-## 2021-09-22
-
-> From the UK Government's just released National AI strategy:
-> "AI risk, safety, and long-term development
-> 
-> The government takes the long term risk of
-> non-aligned Artificial General Intelligence, and
-> the unforeseeable changes that it would
-> mean for the UK and the world, seriously."
-
-https://x.com/jackclarkSF/status/1440646651400450060 · [archived](https://web.archive.org/web/20210922222340/https://twitter.com/jackclarkSF/status/1440646651400450060)
 
 ## 2021-09-15 · reply to @shirlmeow
 
@@ -3510,18 +3255,6 @@ https://x.com/jackclarkSF/status/1434919760819486720 · [archived](https://web.a
 > @sd_marlow I'd somewhat disagree here - public failures of ML systems for computer vision on fairness grounds have directly influenced subsequent development of datasets, eval techniques, and audit approaches. Logging failures has a meaningful influence on ecosystem development.
 
 https://x.com/jackclarkSF/status/1434915194606538756 · [archived](https://web.archive.org/web/20210906165636/https://twitter.com/jackclarkSF/status/1434915194606538756)
-
-## 2021-09-06
-
-> "Why and how governments should monitor AI development" 
-> Or: let's create datasets &amp; reward systems to align AI-developing agents with societal preferences. I agree with ~everything in @jesswhittles + @jackclarkSF preprint.
-> Summary: https://t.co/NShMGRxfeN
-> Comments below.
-
-Quoting https://x.com/jackclarkSF/status/1432718098440888321:
-> AI is influencing the world and right now most of the actors that have power over AI are in the private sector. This is probably not optimal. Here's some research from @jesswhittles  and I on how to change that. https://t.co/vljhYFXyGC
-
-https://x.com/jackclarkSF/status/1434907424293412865 · [archived](https://web.archive.org/web/20210906162910/https://twitter.com/jackclarkSF/status/1434907424293412865)
 
 ## 2021-08-31 · reply to @jackclarkSF
 
@@ -3577,24 +3310,6 @@ https://x.com/jackclarkSF/status/1432718101192265740 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1432409226375274498 · [archived](https://web.archive.org/web/20210830184341/https://twitter.com/jackclarkSF/status/1432409226375274498)
 
-## 2021-08-30
-
-> Nice @jackclarkSF slides, former @OpenAI policy head
-> 
-> @azeem's TLDR: "fundamental [AI] models present power asymmetries that need to be closed by making the resources to create them more widely available and empowering [govts] to analyze, measure, audit"
-> https://t.co/7u3rpkKyuf
-
-https://x.com/jackclarkSF/status/1432152315746680833 · [archived](https://web.archive.org/web/20210830012526/https://twitter.com/jackclarkSF/status/1432152315746680833)
-
-## 2021-08-27
-
-> This might improve as people from fields like linguistics, psychology, and philosophy get more involved in evaluating language models. I think in-depth, qualitative evaluations of language models by people in fields outside ML/CS are going to be fascinating.
-
-Quoting https://x.com/yoavgo/status/1431284873151528960:
-> my two cents on why NLP as a field is focusing on the ML-ish / algorithmic / leaderboard-ish aspects (incl., now, LLMs) and not on the underlying language phenomena: it is just so much easier, on so many levels.
-
-https://x.com/jackclarkSF/status/1431292863766171652 · [archived](https://web.archive.org/web/20210827180942/https://twitter.com/jackclarkSF/status/1431292863766171652)
-
 ## 2021-08-23 · reply to @jackclarkSF
 
 > @NotTriggerAtAll so when I say power asymmetries, I mean it quite literally - we have a small number of entities that are over-powered relative to entities meant to regulate (government) or critique/develop (academia) them. Historically, this doesn't tend to end well.
@@ -3607,25 +3322,11 @@ https://x.com/jackclarkSF/status/1429955842179166214 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1429873847734456324 · [archived](https://web.archive.org/web/20210824063630/https://twitter.com/jackclarkSF/status/1429873847734456324)
 
-## 2021-08-23 · reply to @Carmen_NgKaMan
-
-> Helpful examples &amp; 'funhouse mirror' metaphor used by @jackclarkSF to explain potential risks of commercially driven #FoundationModels e.g. large-scale misuse/abuse, parts of data unpredictably magnified/minimized➡️outputs that harmfully distort complex socio-political contexts. https://t.co/zfmnYTj7HN
-
-https://x.com/jackclarkSF/status/1429858974879260731 · [archived](https://web.archive.org/web/20210824055508/https://twitter.com/jackclarkSF/status/1429858974879260731)
-
 ## 2021-08-23 · possibly deleted
 
 _(text not available)_
 
 https://x.com/jackclarkSF/status/1429812831273185289 · [archived](https://web.archive.org/web/20210824030910/https://twitter.com/jackclarkSF/status/1429812831273185289)
-
-## 2021-08-20 · reply to @moinnadeem
-
-> @moinnadeem Scaling laws don't exist for every phenomena/metric (e.g. bias).
-> 
-> I think the claim we make in our work is that foundation models may lock out academia's ability to *shape* the research direction involving pretraining (e.g. which phenomena we document scaling laws for).
-
-https://x.com/jackclarkSF/status/1428785687214493699 · [archived](https://web.archive.org/web/20210820210510/https://twitter.com/jackclarkSF/status/1428785687214493699)
 
 ## 2021-08-18 · possibly deleted
 
@@ -3635,7 +3336,9 @@ https://x.com/jackclarkSF/status/1428037929037824003 · [archived](https://web.a
 
 ## 2021-08-18 · possibly deleted
 
-_(text not available)_
+> New paper! https://t.co/4oiC9A9SuI
+> We use big language models to synthesize computer programs, execute programs, solve math problems, and dialog with humans to iteratively refine code.
+> The models can solve 60% and 81% of the programming and math problems, respectively. A thread:
 
 https://x.com/jackclarkSF/status/1427808270194864131 · [archived](https://web.archive.org/web/20210818014324/https://twitter.com/jackclarkSF/status/1427808270194864131)
 
@@ -3702,23 +3405,6 @@ https://x.com/jackclarkSF/status/1425536249952014337 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1424788871259181064 · [archived](https://web.archive.org/web/20210809174526/https://twitter.com/jackclarkSF/status/1424788871259181064)
 
-## 2021-08-05
-
-> AI Index Steering Committee Co-chair @jackclarkSF will be one of the keynote speakers at @StanfordHAI's Workshop on Foundation Models. RSVP now open!
-
-Quoting https://x.com/StanfordHAI/status/1423044706880180224:
-> AI is undergoing a sweeping paradigm shift with models (e.g., GPT-3) trained at immense scale, carrying both major opportunities and serious risks. Experts from multiple disciplines will discuss at our upcoming workshop on Aug. 23-24: https://t.co/4U9DMd3vhN https://t.co/mCaCZn7PtG
-
-https://x.com/jackclarkSF/status/1423086053653577731 · [archived](https://web.archive.org/web/20210805005911/https://twitter.com/jackclarkSF/status/1423086053653577731)
-
-## 2021-08-04
-
-> Excited to be on the 80,000 hours podcast today. It's my first time on a podcast!
-> 
-> I spoke with Rob about a variety of topics: safety, circuits, multimodal neurons, @AnthropicAI. Despite not being an expert, I also spoke a bit about scaling laws. https://t.co/eEXT9Fq2V1
-
-https://x.com/jackclarkSF/status/1423064961723473925 · [archived](https://web.archive.org/web/20210804233822/https://twitter.com/jackclarkSF/status/1423064961723473925)
-
 ## 2021-08-02 · reply to @JesseDodge
 
 > @JesseDodge @Yuki_arase @percyliang @colinraffel @nlpnoah @royschwartzNLP @strubell @IGurevych Is there a way to submit thoughts asynchronously / contribute to some doc? 
@@ -3731,12 +3417,6 @@ https://x.com/jackclarkSF/status/1422287733880328212 · [archived](https://web.a
 _(text not available)_
 
 https://x.com/jackclarkSF/status/1422216289834004480 · [archived](https://web.archive.org/web/20210802152856/https://twitter.com/jackclarkSF/status/1422216289834004480)
-
-## 2021-07-22
-
-> Today with @emblebi, we're launching the #AlphaFold Protein Structure Database, which offers the most complete and accurate picture of the human proteome, doubling humanity’s accumulated knowledge of high-accuracy human protein structures - for free: https://t.co/vtBGmTkKhy 1/ https://t.co/XgBQTn2fuC
-
-https://x.com/jackclarkSF/status/1418229276512374784 · [archived](https://web.archive.org/web/20210722152000/https://twitter.com/jackclarkSF/status/1418229276512374784)
 
 ## 2021-07-14
 
@@ -3758,8 +3438,7 @@ https://x.com/jackclarkSF/status/1414939613026791428 · [archived](https://web.a
 
 ## 2021-07-10 · possibly deleted
 
-> Hah the guy who wrote Three Body Problem joins an AI startup as a … SciFi Director:
-> SenseTime announced that Mr. Liu Cixin, the renowned science fiction writer and Recipient of Hugo Award, has officially become Director of SenseTime Science Fiction Planet Research Center.
+_(text not available)_
 
 https://x.com/jackclarkSF/status/1413679052121018375 · [archived](https://web.archive.org/web/20210710015900/https://twitter.com/jackclarkSF/status/1413679052121018375)
 
@@ -3860,19 +3539,13 @@ Quoting https://x.com/indexingai/status/1405274497364623361:
 
 https://x.com/jackclarkSF/status/1405613308481179649 · [archived](https://web.archive.org/web/20210617194837/https://twitter.com/jackclarkSF/status/1405613308481179649)
 
-## 2021-06-16
-
-> I chatted to @jackclarkSF at @CogX_Festival earlier this week about how better measurement and monitoring of AI capabilities can improve AI policy - video now up here: https://t.co/4x8sA9cyN1
-
-https://x.com/jackclarkSF/status/1405209260363948032 · [archived](https://web.archive.org/web/20210616173600/https://twitter.com/jackclarkSF/status/1405209260363948032)
-
 ## 2021-06-15 · reply to @jackclarkSF
 
 > @_ganeshp It feels to me like we're in the 'first draft' phase of AI assessment/measurement for broader policy purposes, so similar to journalism/writing - your first draft should be really long so you can then cut/compress down to the core. But way harder to find core if first draft short
 
 https://x.com/jackclarkSF/status/1404903208703586304 · [archived](https://web.archive.org/web/20210615204827/https://twitter.com/jackclarkSF/status/1404903208703586304)
 
-## 2021-06-14
+## 2021-06-14 · reply to @PeterLoPR
 
 > @PeterLoPR @jesswhittles it's 2k21 let it all hang out! (I may regret this, but currently I'm attempting to be overly transparent online, maybe just as a consequence of getting bored after a year of presentable zoom)
 
@@ -3906,13 +3579,13 @@ Quoting https://x.com/indexingai/status/1402673027200864259:
 
 https://x.com/jackclarkSF/status/1402709598755168257 · [archived](https://web.archive.org/web/20210609210327/https://twitter.com/jackclarkSF/status/1402709598755168257)
 
-## 2021-06-09
+## 2021-06-09 · reply to @JarnoDuursma
 
 > @JarnoDuursma 100%. I think we forget that most policymakers are actually huge nerds about certain issues, and mass media doesn't let them get too wonky - which is a shame, it's really interesting to hear experts get into the details
 
 https://x.com/jackclarkSF/status/1402506614079254532 · [archived](https://web.archive.org/web/20210609060408/https://twitter.com/jackclarkSF/status/1402506614079254532)
 
-## 2021-06-09
+## 2021-06-09 · reply to @jmelaskyriazi
 
 > @jmelaskyriazi this is the cyberpunk future I was promised. This is genuinely exciting and great.
 
@@ -3924,36 +3597,11 @@ https://x.com/jackclarkSF/status/1402505980760367104 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1402501644638580736 · [archived](https://web.archive.org/web/20210609054348/https://twitter.com/jackclarkSF/status/1402501644638580736)
 
-## 2021-06-08 · reply to @BrendanBordelon
-
-> 🚨The U.S. Innovation and Competition Act, formerly know as Endless Frontier, a bill authorizing tens of billions of dollars for the U.S. R&amp;D ecosystem and *appropriating* $52 billion for semiconductor subsidies (and a bunch of other stuff too), passes the Senate 68-32. https://t.co/5S7G167AMd
-
-https://x.com/jackclarkSF/status/1402400527237861377 · [archived](https://web.archive.org/web/20210608230529/https://twitter.com/jackclarkSF/status/1402400527237861377)
-
-## 2021-06-08
-
-> A new opportunity to help build the future of AI has opened up at HAI: We are looking for a director who will oversee research programs that advance our mission of promoting human-centered AI. Know someone who might be a good fit? Find the job post here: https://t.co/WNWCCB36KJ https://t.co/0G3zJNC3SK
-
-https://x.com/jackclarkSF/status/1402342472265572354 · [archived](https://web.archive.org/web/20210608213340/https://twitter.com/jackclarkSF/status/1402342472265572354)
-
 ## 2021-06-07
 
 > Synthetic data, like many things in AI, is generally applicable to a variety of use-cases. For Import AI today, I wrote about synthetic data being used to improve a surveillance capability. We're in the mass-diffusion phase of AI capabilities, right now. https://t.co/9tGDvTWwH4 https://t.co/tfJ9mpr9Og
 
 https://x.com/jackclarkSF/status/1401944939072614405 · [archived](https://web.archive.org/web/20210607171041/https://twitter.com/jackclarkSF/status/1401944939072614405)
-
-## 2021-06-04
-
-> we follow @gradientpub's newsletter! https://t.co/irFr3MvP2V
-> 
-> also, @jackclarkSF's Import AI (https://t.co/I4HCB3m4rO) and @jjding99's ChinAI (https://t.co/aa3cdH03CJ)
-> 
-> some of our favorite books are @brianchristian's The Alignment Problem and @katecrawford's Atlas of AI
-
-Quoting https://x.com/StanfordHAI/status/1400846319007191053:
-> We’re curious about your information diet! How do you stay-up-to-date with the ever-accelerating field of artificial intelligence?
-
-https://x.com/jackclarkSF/status/1400884600570667010 · [archived](https://web.archive.org/web/20210604183819/https://twitter.com/jackclarkSF/status/1400884600570667010)
 
 ## 2021-06-01
 
@@ -3967,19 +3615,6 @@ https://x.com/jackclarkSF/status/1399769090764402689 · [archived](https://web.a
 > @n_miailhe @AnthropicAI 💯. We're building out a team to try to bridge tech - policy divides via measurements/assessments! https://t.co/9DJK7bD5Oz
 
 https://x.com/jackclarkSF/status/1398515378565779456 · [archived](https://web.archive.org/web/20210529054457/https://twitter.com/jackclarkSF/status/1398515378565779456)
-
-## 2021-05-28
-
-> Exclusive: In December, a bunch of AI safety researchers at OpenAI left. Ever since then I've been wondering what they're up to. Today, they're announcing the launch of Anthropic, a $124million Series A and a research program: https://t.co/ZBoynRzC9e
-
-https://x.com/jackclarkSF/status/1398314275970506752 · [archived](https://web.archive.org/web/20210528162839/https://twitter.com/jackclarkSF/status/1398314275970506752)
-
-## 2021-05-27
-
-> Some big news from my team: We're hiring a reporter to cover algorithms and society — everything from AI and machine decisionmaking to facial recognition and surveillance. Looking for a reporter to source up and deliver scoops about these companies/fields.
-> https://t.co/Oz7rMjWYxZ
-
-https://x.com/jackclarkSF/status/1398043818646130689 · [archived](https://web.archive.org/web/20210527235253/https://twitter.com/jackclarkSF/status/1398043818646130689)
 
 ## 2021-05-26 · reply to @jackclarkSF
 
@@ -4005,12 +3640,6 @@ https://x.com/jackclarkSF/status/1397396893718630400 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1397383671947010048 · [archived](https://web.archive.org/web/20210526025015/https://twitter.com/jackclarkSF/status/1397383671947010048)
 
-## 2021-05-26 · reply to @pcihon
-
-> The framework could have policy impact in and far beyond the 37 member countries, today and in the future. I was involved in a early version of the project, but it’s impact will be far greater the more people who jump in with feedback today!
-
-https://x.com/jackclarkSF/status/1397362304111439874 · [archived](https://web.archive.org/web/20210526012327/https://twitter.com/jackclarkSF/status/1397362304111439874)
-
 ## 2021-05-25 · reply to @jackclarkSF
 
 > Finally, this is a project which gets better the more technical people engage with it - if we just get engagement from lobbyists, we won't get (much) useful feedback. If we get direct input from technical people, it'll be more useful. You can be anonymous here, so go direct!
@@ -4031,15 +3660,6 @@ https://x.com/jackclarkSF/status/1397299538164019201 · [archived](https://web.a
 > Right now, AI systems are broadly illegible to policymakers, which is why AI policy is confusing. At the @OECD , we're trying to make them legible via a framework people can use to classify AI systems. Here's how you can help:
 
 https://x.com/jackclarkSF/status/1397299534795997185 · [archived](https://web.archive.org/web/20210525211232/https://twitter.com/jackclarkSF/status/1397299534795997185)
-
-## 2021-05-23
-
-> Amazing tech policy job alert! 
-> 
-> The majority staff for the Senate Committee on Homeland Security and Government Affairs (https://t.co/RgGEoCLEG6) is hiring a professional staff member to work on cybersecurity, critical infrastructure, and emerging tech:
-> https://t.co/D18RU3x8Md https://t.co/6E7BSG2MiQ
-
-https://x.com/jackclarkSF/status/1396526376157597703 · [archived](https://web.archive.org/web/20210524212215/https://twitter.com/jackclarkSF/status/1396526376157597703)
 
 ## 2021-05-22 · reply to @baij42
 
@@ -4092,14 +3712,6 @@ https://x.com/jackclarkSF/status/1394729066012413952 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1394726209984995330 · [archived](https://web.archive.org/web/20210518184731/https://twitter.com/jackclarkSF/status/1394726209984995330)
 
-## 2021-05-18 · reply to @jackclarkSF
-
-> @jackclarkSF From where I'm sitting, it feels like the breakthroughs in generative models are coming far faster than breakthroughs in dataset analysis and anti-bias techniques.
-> 
-> Google: "Our highest priority, when creating technologies like LaMDA, is working to ensure we minimize such risks."
-
-https://x.com/jackclarkSF/status/1394726197909622784 · [archived](https://web.archive.org/web/20210518184705/https://twitter.com/jackclarkSF/status/1394726197909622784)
-
 ## 2021-05-18 · reply to @mrgreene1977
 
 > @mrgreene1977 Yes, this was a big theme of @indexingai report this year - we're developing new technical capabilities faster than we're developing the datasets and evaluation criteria to assess them for a range of societal issues/policy concerns.
@@ -4138,13 +3750,13 @@ https://x.com/jackclarkSF/status/1392229543776112641 · [archived](https://web.a
 
 ## 2021-05-11 · possibly deleted
 
-> These days it's very unclear to me as an external person who at Google to coordinate with on matters of AI policy/ethics/responsible AI. There's a lot of overlap internally and it's not super clear from the outside who to talk to.
+_(text not available)_
 
 https://x.com/jackclarkSF/status/1392186481347743744 · [archived](https://web.archive.org/web/20210511183514/https://twitter.com/jackclarkSF/status/1392186481347743744)
 
 ## 2021-05-11 · possibly deleted
 
-> Google says its going to double the size of its responsible AI team to 200 people, from around 100 today. (https://t.co/SA9JYtwRj2) Do we actually know who the leads are of the existing responsible AI team? This isn't a trolling question - I used to know who to ping at Google
+_(text not available)_
 
 https://x.com/jackclarkSF/status/1392186306734686209 · [archived](https://web.archive.org/web/20210511183434/https://twitter.com/jackclarkSF/status/1392186306734686209)
 
@@ -4166,27 +3778,11 @@ https://x.com/jackclarkSF/status/1391837945556922369 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1391826114230714370 · [archived](https://web.archive.org/web/20210510184315/https://twitter.com/jackclarkSF/status/1391826114230714370)
 
-## 2021-05-07
-
-> There are only a few days left to submit your AI policy proposal. We're looking for radical ideas that will shape our AI-powered future. The top four ideas will be discussed and debated at the @StanfordHAI Fall Conference in November. 
-> 
-> Submit yours at https://t.co/pulW6UrhmF https://t.co/HzUNaWS1Xp
-
-https://x.com/jackclarkSF/status/1390756052140904449 · [archived](https://web.archive.org/web/20210508214850/https://twitter.com/jackclarkSF/status/1390756052140904449)
-
-## 2021-05-07
+## 2021-05-07 · reply to @sebkrier
 
 > @sebkrier @StanfordCyber @MarietjeSchaake Extremely good
 
 https://x.com/jackclarkSF/status/1390664862154428422 · [archived](https://web.archive.org/web/20210507134913/https://twitter.com/jackclarkSF/status/1390664862154428422)
-
-## 2021-05-07
-
-> 🌠 PERSONAL UPDATE! 🌌
-> 
-> Next week I'm joining @StanfordCyber as a Senior Technology Policy Researcher! I'll be working on issues at the nexus of technology, governance and public policy with @MarietjeSchaake and other brilliant researchers. Ecstatic! 🔥
-
-https://x.com/jackclarkSF/status/1390664831955390464 · [archived](https://web.archive.org/web/20210507134857/https://twitter.com/jackclarkSF/status/1390664831955390464)
 
 ## 2021-05-06 · reply to @dpatil
 
@@ -4195,7 +3791,7 @@ https://x.com/jackclarkSF/status/1390664831955390464 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1390383576525414402 · [archived](https://web.archive.org/web/20210506191123/https://twitter.com/jackclarkSF/status/1390383576525414402)
 
-## 2021-05-05
+## 2021-05-05 · reply to @yudhanjaya
 
 > @yudhanjaya @Hugo_Book_Club Ooh, I remember this. it was a story involving a big quantum computer and multiple forms of math existing in superposition. I imagine @cstross may recall the title. Great story
 
@@ -4217,12 +3813,6 @@ https://x.com/jackclarkSF/status/1389718363320975361 · [archived](https://web.a
 > Thanks to @dzhang105 for being an absolute champ and translating between English and Chinese!
 
 https://x.com/jackclarkSF/status/1387850809317101569 · [archived](https://web.archive.org/web/20210429192707/https://twitter.com/jackclarkSF/status/1387850809317101569)
-
-## 2021-04-26 · reply to @AiCommission
-
-> Expand access to #AI resources through a National AI Research Infrastructure that provides access to cloud-based compute resources, domain-specific #AI R&amp;D test beds, large scale training data, and an open knowledge network.
-
-https://x.com/jackclarkSF/status/1386716416347312128 · [archived](https://web.archive.org/web/20210426161910/https://twitter.com/jackclarkSF/status/1386716416347312128)
 
 ## 2021-04-25
 
@@ -4293,7 +3883,7 @@ https://x.com/jackclarkSF/status/1384295223904280576 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1384294810127765507 · [archived](https://web.archive.org/web/20210419235635/https://twitter.com/jackclarkSF/status/1384294810127765507)
 
-## 2021-04-17
+## 2021-04-17 · reply to @alexisgallagher
 
 > @alexisgallagher I have a text file constantly pinned to my main computer which is always open whenever the computer is on. It took a while to build the habit, but once I intrinsically wanted to journal each day I found getting it done was just a matter of keeping it in front of me.
 
@@ -4317,7 +3907,7 @@ https://x.com/jackclarkSF/status/1383227163969613824 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1383226221501173761 · [archived](https://web.archive.org/web/20210417012250/https://twitter.com/jackclarkSF/status/1383226221501173761)
 
-## 2021-04-15
+## 2021-04-15 · reply to @DeweyAM
 
 > @DeweyAM @mattsheehan88 Also, increasingly autonomous drones that can coordinate with eachother for a range of tasks, both economic and military.
 
@@ -4335,7 +3925,7 @@ https://x.com/jackclarkSF/status/1380581483618856961 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1380580444106747905 · [archived](https://web.archive.org/web/20210409175713/https://twitter.com/jackclarkSF/status/1380580444106747905)
 
-## 2021-04-09
+## 2021-04-09 · reply to @Austen
 
 > @Austen Most people work in a slow-growing part of the economy
 
@@ -4355,13 +3945,6 @@ Quoting https://x.com/matthewclifford/status/1379762314916868108:
 > More here: https://t.co/Igzb3FCxq5
 
 https://x.com/jackclarkSF/status/1379837595882975233 · [archived](https://web.archive.org/web/20210407164833/https://twitter.com/jackclarkSF/status/1379837595882975233)
-
-## 2021-04-06
-
-> Scoop w/ @NicoAGrant &amp; @dinabass: Google AI research manager Samy Bengio has resigned from his position, following the ousting of Ethical AI leaders @timnitGebru and @mmitchell_ai  
-> https://t.co/PtlVvEJxWe
-
-https://x.com/jackclarkSF/status/1379498191540740097 · [archived](https://web.archive.org/web/20210406181620/https://twitter.com/jackclarkSF/status/1379498191540740097)
 
 ## 2021-04-06
 
@@ -4401,7 +3984,7 @@ https://x.com/jackclarkSF/status/1377729107346087936 · [archived](https://web.a
 
 ## 2021-04-01 · possibly deleted
 
-> @yieldthought Also, as I'm sure you know, the incentives are wildly out of whack. I was talking to one $top_university about replicating one $famous_model and they said to me 'why would we spend so much compute to produce a single research paper?'. Jaw still on floor from that one.
+_(text not available)_
 
 https://x.com/jackclarkSF/status/1377728935794933762 · [archived](https://web.archive.org/web/20210401210609/https://twitter.com/jackclarkSF/status/1377728935794933762)
 
@@ -4466,12 +4049,6 @@ https://x.com/jackclarkSF/status/1377724303613960193 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1377723922334900225 · [archived](https://web.archive.org/web/20210401204614/https://twitter.com/jackclarkSF/status/1377723922334900225)
 
-## 2021-03-31
-
-> The great AI Index Steering Committee Co-Chair @jackclarkSF presenting the findings of the 2021 AI Index Report at @StanfordHAI seminar. @indexingai happy to have contributed in a small way in 2019 &amp; 2021 https://t.co/Z7VlqlYYGA
-
-https://x.com/jackclarkSF/status/1377374215490334722 · [archived](https://web.archive.org/web/20210331213650/https://twitter.com/jackclarkSF/status/1377374215490334722)
-
 ## 2021-03-28 · reply to @jackclarkSF
 
 > This piece is part of a series. I'm publishing these mindmaps because I'm trying to be more transparent about the ideas I'm fiddling with while thinking about AI policy. 
@@ -4503,19 +4080,17 @@ https://x.com/jackclarkSF/status/1374439429834567690 · [archived](https://web.a
 
 ## 2021-03-23 · possibly deleted
 
-> Source for 16k = https://t.co/dBfI17oRm1.
-> We can plus/minus several thousand here and it's still clear verbal text massively outweighs written text.
+_(text not available)_
 
 https://x.com/jackclarkSF/status/1374439022546751492 · [archived](https://web.archive.org/web/20210323191305/https://twitter.com/jackclarkSF/status/1374439022546751492)
 
 ## 2021-03-23 · possibly deleted
 
-> Thinking about text - Internet has a lot of text on it, but drawfed by verbal. Some sums: avg person says 16k words a day. Pop NYC 8.5m. Call it 7.5m to account for non-verbal children, adults. 7.5m*16k = 120BILLION.
-> Comparison: Spotify podcast ASR dataset: 600 million words.
+_(text not available)_
 
 https://x.com/jackclarkSF/status/1374438867995041807 · [archived](https://web.archive.org/web/20210323191238/https://twitter.com/jackclarkSF/status/1374438867995041807)
 
-## 2021-03-22
+## 2021-03-22 · reply to @avitaloliver
 
 > @avitaloliver Yeah, I think that's a very valid point, and it highlights some of the challenges. In places like policy and PR you try to present a singular view/face, whereas in other places you want to have as many different experiments/initiatives as possible
 
@@ -4568,7 +4143,7 @@ https://x.com/jackclarkSF/status/1371900833349038083 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1371499333040795648 · [archived](https://web.archive.org/web/20210315163333/https://twitter.com/jackclarkSF/status/1371499333040795648)
 
-## 2021-03-15
+## 2021-03-15 · reply to @togelius
 
 > @togelius AI politics implies the possibility (or highlights the absence) of elections
 
@@ -4582,12 +4157,6 @@ https://x.com/jackclarkSF/status/1371214579636826116 · [archived](https://web.a
 
 ## 2021-03-14 · reply to @jackclarkSF
 
-> @jackclarkSF It really is all about the SoC. There is nothing magic about ARM, it's about v tight integration and no off-chip slow buses for code/working data. Works v well if you define end product ecosystem - that's where Intel has problem, not with architecture.
-
-https://x.com/jackclarkSF/status/1370911992949567490 · [archived](https://web.archive.org/web/20210314013804/https://twitter.com/jackclarkSF/status/1370911992949567490)
-
-## 2021-03-14 · reply to @jackclarkSF
-
 > Something that also feels odd: While using this machine I think, about twice a week, 'good lord, I can't see how Intel can really match this'. Maybe if we see reemergence of Wintel, but broad SKU range makes it hard to see. Very bullish on ARM chips for normal PCs now.
 
 https://x.com/jackclarkSF/status/1370906086803337218 · [archived](https://web.archive.org/web/20210314011434/https://twitter.com/jackclarkSF/status/1370906086803337218)
@@ -4597,12 +4166,6 @@ https://x.com/jackclarkSF/status/1370906086803337218 · [archived](https://web.a
 > @draecomino Ethereum layperson here. Can you explain how the gas prices are gonna go down enough to let your FAANG replacement thing happen? It seems like the underlying network is expensive and a bit slow, but I haven't dug in a ton so could be wrong
 
 https://x.com/jackclarkSF/status/1369816721213681664 · [archived](https://web.archive.org/web/20210311010542/https://twitter.com/jackclarkSF/status/1369816721213681664)
-
-## 2021-03-04
-
-> I've spent a lot of time investigating what goes on inside neural networks. Working on this project was the highest density of mindblowing discoveries since working on DeepDream. Maybe more so.
-
-https://x.com/jackclarkSF/status/1367585109986082817 · [archived](https://web.archive.org/web/20210304211806/https://twitter.com/jackclarkSF/status/1367585109986082817)
 
 ## 2021-03-04
 
@@ -4644,7 +4207,7 @@ Quoting https://x.com/indexingai/status/1367166382622744576:
 
 https://x.com/jackclarkSF/status/1367171709082636288 · [archived](https://web.archive.org/web/20210303175728/https://twitter.com/jackclarkSF/status/1367171709082636288)
 
-## 2021-03-03
+## 2021-03-03 · reply to @geomblog
 
 > @geomblog Yes - part of why I love doing the AI Index is that we're committed to measuring things annually/close to annually, so I hope in a few years we'll be able to assess this data and figure out what was signal and what was noise. Brick by brick, I'm hoping we can create useful data!
 
@@ -4652,26 +4215,17 @@ https://x.com/jackclarkSF/status/1367157097276735490 · [archived](https://web.a
 
 ## 2021-03-01 · possibly deleted
 
-> An open letter from semiconductor execs to the new administration. H/T ImportAI and @jackclarkSF https://t.co/dfBpeBuWs2
+_(text not available)_
 
 https://x.com/jackclarkSF/status/1366446287856357376 · [archived](https://web.archive.org/web/20210301180245/https://twitter.com/jackclarkSF/status/1366446287856357376)
 
 ## 2021-02-24 · possibly deleted
 
-> Also, there's some data that relates to COVID. One of the main effects of COVID pandemic on the data in the index was massively warping conference attendance data, as virtual attendance skews a lot of data. So thanks for that, COVID.
+_(text not available)_
 
 https://x.com/jackclarkSF/status/1364724216105365507 · [archived](https://web.archive.org/web/20210224235011/https://twitter.com/jackclarkSF/status/1364724216105365507)
 
-## 2021-02-22
-
-> Big news! - I’m thrilled to be joining the @TwitterEng team today as Director of ML Ethics, Transparency &amp; Accountability. With the META team, we’ll work to improve ML transparency, inclusivity and accountability. 1/
-
-Quoting https://x.com/quicola/status/1363901184659103753:
-> I’m excited to announce that @ruchowdh is joining us to help drive our work towards algorithmic transparency and accountability. She brings incredible expertise in AI and ethics and will help us minimize bias in our systems. We’re lucky to have her! 🧵
-
-https://x.com/jackclarkSF/status/1363902530015567873 · [archived](https://web.archive.org/web/20210222172517/https://twitter.com/jackclarkSF/status/1363902530015567873)
-
-## 2021-02-21
+## 2021-02-21 · reply to @jackclarkSF
 
 > Obviously, this is a subjective one-shot slice of what I think about AI. I make these kinds of mindmaps at various scales at various times and will share more in the future - some of them are very cheerful, as various AI applications will surely enrich&amp;extend humanity : )
 
@@ -4679,7 +4233,7 @@ https://x.com/jackclarkSF/status/1363301840553603072 · [archived](https://web.a
 
 ## 2021-02-21 · possibly deleted
 
-> Embodied cognition - recorded a timelapse of myself making the piece and find it interesting to see how I carry out a whole bunch of movements (including drumming) while focusing on the piece. It's hard to substitute digital stuff for the experience of physical thinking. https://t.co/IMB4CFA0j2
+_(text not available)_
 
 https://x.com/jackclarkSF/status/1363282219070935043 · [archived](https://web.archive.org/web/20210221002008/https://twitter.com/jackclarkSF/status/1363282219070935043)
 
@@ -4695,7 +4249,7 @@ _(text not available)_
 
 https://x.com/jackclarkSF/status/1363177805538762759 · [archived](https://web.archive.org/web/20210220172549/https://twitter.com/jackclarkSF/status/1363177805538762759)
 
-## 2021-02-17
+## 2021-02-17 · reply to @VikrumAiyer
 
 > @VikrumAiyer Did working in tech make you more or less optimistic that this goal can be achieved, given the current asymmetries in information and execution capability between tech companies and governments?
 
@@ -4785,21 +4339,6 @@ https://x.com/jackclarkSF/status/1359287005322989575 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1358180884755611649 · [archived](https://web.archive.org/web/20210206222901/https://twitter.com/jackclarkSF/status/1358180884755611649)
 
-## 2021-02-05
-
-> Excited to share some takeaways from this workshop on large language models like GPT-3 and their implications
-> 
-> Participants came from computer science, linguistics, philosophy, political science, communications, cyber policy, and other fields
-> 
-> Link: https://t.co/eg5aUjAo8m
-
-Quoting https://x.com/Miles_Brundage/status/1357506274544373760:
-> A few months back, OpenAI and Stanford' Institute for Human-Centered AI co-hosted a workshop on the capabilities/limitations/societal implications of large language models like GPT-3. 
-> 
-> The proceedings can be found here: https://t.co/7rLNa619sg
-
-https://x.com/jackclarkSF/status/1357511879262801921 · [archived](https://web.archive.org/web/20210205021043/https://twitter.com/jackclarkSF/status/1357511879262801921)
-
 ## 2021-02-05 · reply to @jackclarkSF
 
 > @deliprao One huge, specific regret I have, is spending all day one weekend writing some comments for a congressional testimony and missing a Thanksgiving meal at a friend's house. I could have easily done the work over two days and gone to the meal. Very silly!
@@ -4811,14 +4350,6 @@ https://x.com/jackclarkSF/status/1357481081654583296 · [archived](https://web.a
 > @PreCursorPoets Chaotic evil alignment confirmed
 
 https://x.com/jackclarkSF/status/1357408725011636225 · [archived](https://web.archive.org/web/20210204192057/https://twitter.com/jackclarkSF/status/1357408725011636225)
-
-## 2021-02-02
-
-> A long overdue pre-print is finally out today!📣📣
-> 
-> Me &amp; @genmaicha____ wrote of the horrors we find looking through over 100 face datasets with  145  million  images  of  over  17  million  subjects (clues: lots of children &amp; Mexican VISAs). https://t.co/WPQ9F1F9tI https://t.co/cugBg6DeIT
-
-https://x.com/jackclarkSF/status/1356729167908245507 · [archived](https://web.archive.org/web/20210202222028/https://twitter.com/jackclarkSF/status/1356729167908245507)
 
 ## 2021-02-02 · reply to @tallinzen
 
@@ -4840,14 +4371,13 @@ https://x.com/jackclarkSF/status/1356055886209269763 · [archived](https://web.a
 
 ## 2021-02-01 · possibly deleted
 
-> Every action has its equal and opposite reaction. Effect of hitting a center bolt with a pen quickly. Interesting to see the deformation!
+_(text not available)_
 
 https://x.com/jackclarkSF/status/1356055599507668998 · [archived](https://web.archive.org/web/20210201014405/https://twitter.com/jackclarkSF/status/1356055599507668998)
 
 ## 2021-01-30 · possibly deleted
 
-> Right wing/libertarians sowing: Haha, yes, we should reduce the size of the administrative state, and starve it of resources!
-> Right wing/libertarians upon not getting vaccinated: Haha this fucking sucks. What the fuck.
+_(text not available)_
 
 https://x.com/jackclarkSF/status/1355608043887620099 · [archived](https://web.archive.org/web/20210130200527/https://twitter.com/jackclarkSF/status/1355608043887620099)
 
@@ -4865,7 +4395,7 @@ https://x.com/jackclarkSF/status/1355572846060158978 · [archived](https://web.a
 
 ## 2021-01-28 · possibly deleted
 
-> Probability Robinhood exists 1 year from today
+_(text not available)_
 
 https://x.com/jackclarkSF/status/1354913828086026240 · [archived](https://web.archive.org/web/20210128220656/https://twitter.com/jackclarkSF/status/1354913828086026240)
 
@@ -4883,7 +4413,7 @@ https://x.com/jackclarkSF/status/1354869847646064640 · [archived](https://web.a
 
 ## 2021-01-28 · possibly deleted
 
-> After this, it's gotta be Dogecoin, right?
+_(text not available)_
 
 https://x.com/jackclarkSF/status/1354696867901136897 · [archived](https://web.archive.org/web/20210128074446/https://twitter.com/jackclarkSF/status/1354696867901136897)
 
@@ -4937,7 +4467,7 @@ https://x.com/jackclarkSF/status/1354188961346777088 · [archived](https://web.a
 
 ## 2021-01-25 · possibly deleted
 
-> @lee_kovarsky @eliotpeper Three Body Problem trilogy - game theory in spare!
+_(text not available)_
 
 https://x.com/jackclarkSF/status/1353828090141528065 · [archived](https://web.archive.org/web/20210125221231/https://twitter.com/jackclarkSF/status/1353828090141528065)
 
@@ -4989,15 +4519,6 @@ https://x.com/jackclarkSF/status/1351321638034317312 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1351299734032420864 · [archived](https://web.archive.org/web/20210118224604/https://twitter.com/jackclarkSF/status/1351299734032420864)
 
-## 2021-01-18
-
-> Update: the use of AI and yuge datacenters may well lead to net efficiency improvements in electricity usage. While it's still a good idea to look at efficiency, policy measures like incentivising cloud compute can be far more impactful. https://t.co/sGH1IQ18Zf h/t @jackclarkSF https://t.co/umd3AsDh6i
-
-Quoting https://x.com/sebkrier/status/1161930191452684290:
-> The amount of compute used to train deep learning models has increased 300,000x in 6 years, leaving a large carbon footprint. This paper advocates making 'efficiency' an evaluation criterion for research alongside accuracy and related measures: https://t.co/XTSS5dZMBZ https://t.co/NWNbEMgACh
-
-https://x.com/jackclarkSF/status/1351299478779617280 · [archived](https://web.archive.org/web/20210118224501/https://twitter.com/jackclarkSF/status/1351299478779617280)
-
 ## 2021-01-18 · possibly deleted
 
 _(text not available)_
@@ -5006,10 +4527,7 @@ https://x.com/jackclarkSF/status/1351275656278011904 · [archived](https://web.a
 
 ## 2021-01-18 · possibly deleted
 
-> ✍️👥🦠 Import AI 231: US army builds nightvision facial recognition; 800GB of text for training GPT-3 models; fighting COVID with a mask detector | Import AI
-> 👤 Jack Clark @jackclarksf
-> 🔗 https://t.co/LH5cgHNnWJ
-> #python #datascience
+_(text not available)_
 
 https://x.com/jackclarkSF/status/1350976130015223810 · [archived](https://web.archive.org/web/20210118012008/https://twitter.com/jackclarkSF/status/1350976130015223810)
 
@@ -5046,19 +4564,6 @@ https://x.com/jackclarkSF/status/1350899600400388096 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1350611316650590211 · [archived](https://web.archive.org/web/20210117011035/https://twitter.com/jackclarkSF/status/1350611316650590211)
 
-## 2021-01-16
-
-> Privacy is a human right. Signal, a nonprofit, gives it to us for free.
-> 
-> 40m+ new users joined Signal this week (talk about hockey stick growth!!) so let's do something productive, Twitter
-> 
-> Donate to @signalapp, send screenshot, I'll match up to $1k https://t.co/QC2PF3ChTz
-
-Quoting https://x.com/mer__edith/status/1350233586297925632:
-> Anyone who doubted before today that @signalapp was core infrastructure... welcome!
-
-https://x.com/jackclarkSF/status/1350269622008778752 · [archived](https://web.archive.org/web/20210116023247/https://twitter.com/jackclarkSF/status/1350269622008778752)
-
 ## 2021-01-16 · reply to @MaxKaminCross
 
 > @MaxKaminCross @mer__edith @signalapp I donated today before you announced the matching thing, but just in case... https://t.co/lTM9GbDGUw
@@ -5071,36 +4576,11 @@ _(text not available)_
 
 https://x.com/jackclarkSF/status/1350259186630725634 · [archived](https://web.archive.org/web/20210116015105/https://twitter.com/jackclarkSF/status/1350259186630725634)
 
-## 2021-01-15 · reply to @calebwatney
-
-> My pitch:
-> 
-> Create a US public investment fund that can automatically and credibly promise to keep spending money until 30-year real rates are positive.
-> 
-> The money will be spread across public, private, and academic R&amp;D + big infrastructure projects.
-> https://t.co/SJHSKgC3dQ
-
-https://x.com/jackclarkSF/status/1350207918872752129 · [archived](https://web.archive.org/web/20210115222746/https://twitter.com/jackclarkSF/status/1350207918872752129)
-
 ## 2021-01-12 · reply to @nsaphra
 
 > @nsaphra @AlexTamkin @OpenAI also, physicists solved a lot of this a while ago, and have also been able to secure funding for physics equivalent of 'big compute' experiments
 
 https://x.com/jackclarkSF/status/1349057783178481665 · [archived](https://web.archive.org/web/20210112181740/https://twitter.com/jackclarkSF/status/1349057783178481665)
-
-## 2021-01-09
-
-> With a Democratic White House and Congress, and all the AI-related provisions in the recent defense budget (https://t.co/KwmD4qFwi6), there's going to be more activity in US federal AI policy this year than all previous years put together.📈
-
-https://x.com/jackclarkSF/status/1347775985622548481 · [archived](https://web.archive.org/web/20210109052346/https://twitter.com/jackclarkSF/status/1347775985622548481)
-
-## 2021-01-08 · reply to @AlecStapp
-
-> The US government can currently borrow money for 30 years at negative real interest rates.
-> 
-> The real scandal is *not investing* hundreds of billions of dollars in federal R&amp;D right now. https://t.co/XYjp2IXCg0
-
-https://x.com/jackclarkSF/status/1347656985257263105 · [archived](https://web.archive.org/web/20210108213102/https://twitter.com/jackclarkSF/status/1347656985257263105)
 
 ## 2021-01-07 · possibly deleted
 
@@ -5166,7 +4646,7 @@ https://x.com/jackclarkSF/status/1340411237151039488 · [archived](https://web.a
 
 ## 2020-12-19 · possibly deleted
 
-_(text not available)_
+> @PamelaMishkin
 
 https://x.com/jackclarkSF/status/1340134850624278528 · [archived](https://web.archive.org/web/20201219032040/https://twitter.com/jackclarkSF/status/1340134850624278528)
 
@@ -5175,12 +4655,6 @@ https://x.com/jackclarkSF/status/1340134850624278528 · [archived](https://web.a
 > Cyberpunk 2020 https://t.co/G4PobSMS07
 
 https://x.com/jackclarkSF/status/1339330059132268544 · [archived](https://web.archive.org/web/20201216220408/https://twitter.com/jackclarkSF/status/1339330059132268544)
-
-## 2020-12-14
-
-> at some point, we're going to see massive datasets of realistic 3d rendered faces for face analysis that have no issues of consent or diversity. and we're going to have to talk about whether the problem is really consent, representation and accuracy.
-
-https://x.com/jackclarkSF/status/1338608142083506177 · [archived](https://web.archive.org/web/20201214221420/https://twitter.com/jackclarkSF/status/1338608142083506177)
 
 ## 2020-12-13
 
@@ -5193,14 +4667,6 @@ https://x.com/jackclarkSF/status/1338249303882526721 · [archived](https://web.a
 > @alexhanna like, there's an extremely optimistic vision inherent to some of the archivist ideas that Timnit and others have talked about - all of humanity looking through the internet like magpies finding little chunks of interesting data, then intentionally assembling it. very inspiring
 
 https://x.com/jackclarkSF/status/1338138793233117184 · [archived](https://web.archive.org/web/20201213151244/https://twitter.com/jackclarkSF/status/1338138793233117184)
-
-## 2020-12-13 · reply to @jackclarkSF
-
-> @jackclarkSF That's my sense. There may be publication stds, norms, and guidelines, like requirements for NIH grants. But I can't see legislation like HIPAA forcing adherence for non-med data.
-> 
-> Maybe the right question is -- do we see underground markets for biomedical data? I don't think so.
-
-https://x.com/jackclarkSF/status/1338137128081924098 · [archived](https://web.archive.org/web/20201213150435/https://twitter.com/jackclarkSF/status/1338137128081924098)
 
 ## 2020-12-13 · reply to @jackclarkSF
 
@@ -5232,15 +4698,6 @@ https://x.com/jackclarkSF/status/1337881267103170560 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1336870995974447105 · [archived](https://web.archive.org/web/20201210031218/https://twitter.com/jackclarkSF/status/1336870995974447105)
 
-## 2020-12-09
-
-> Why it's important to cultivate a culture where criticism is seen as a defense of your values rather than an attack on your behavior.
-
-Quoting https://x.com/timnitGebru/status/1336466816210771968:
-> If you talk about toxic workplace conditions, a lot of the leaders will want you out. If a lot of the leaders want you out, they'll find a way to make it happen. If you're a harasser, thats not the case. A lot of the leaders will be A-ok with you being around.
-
-https://x.com/jackclarkSF/status/1336803700690485248 · [archived](https://web.archive.org/web/20201209224349/https://twitter.com/jackclarkSF/status/1336803700690485248)
-
 ## 2020-12-08
 
 > How do other scientific specializations deal with the safety issues of publishing (some) research? Here's a cool @PartnershipAI case study on gain-of-function research applied to avian flu. Was delighted to give feedback on early drafts of this post!
@@ -5256,26 +4713,11 @@ https://x.com/jackclarkSF/status/1336391735107194880 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1336040996954488832 · [archived](https://web.archive.org/web/20201207201429/https://twitter.com/jackclarkSF/status/1336040996954488832)
 
-## 2020-12-07
-
-> Especially excited that the selection committee highlighted the paper's analysis of broader impacts (shout out to @AmandaAskell @girishsastry @jackclarkSF @GretchenMarina @SandhiniAgarwal @adversariel), in addition to the technical contributions: https://t.co/zK8rHDf7vU
-
-Quoting https://x.com/OpenAI/status/1336000843368210432:
-> 🎉 Congratulations to the GPT-3 team for earning a Best Paper Award this morning at #NeurIPS2020! https://t.co/Gvc5brkZ5z
-
-https://x.com/jackclarkSF/status/1336028890540593152 · [archived](https://web.archive.org/web/20201207192543/https://twitter.com/jackclarkSF/status/1336028890540593152)
-
 ## 2020-12-07 · reply to @DavidSHolz
 
 > @DavidSHolz @sebkrier Yeah, I called it a GPT3-inspired, GPT2-scale model. One of the differences is they do more investigation of few shot learning than other ones. I'm also not sure there's been a prior dataset as large.
 
 https://x.com/jackclarkSF/status/1336004968189292546 · [archived](https://web.archive.org/web/20201207175009/https://twitter.com/jackclarkSF/status/1336004968189292546)
-
-## 2020-12-07
-
-> New GPT3-inspired language model training a 2.6 billion parameter network on ~100GB of Chinese data. Two important reflections from Import AI: (1) no consideration of bias/risk at all; (2) yet another example of the speed of AI R&amp;D. https://t.co/zPZKroiJFB https://t.co/1A5YnKOiCm
-
-https://x.com/jackclarkSF/status/1336003901154193409 · [archived](https://web.archive.org/web/20201207175937/https://twitter.com/jackclarkSF/status/1336003901154193409)
 
 ## 2020-12-05 · reply to @jackclarkSF
 
@@ -5380,7 +4822,7 @@ https://x.com/jackclarkSF/status/1333538490928119808 · [archived](https://web.a
 
 ## 2020-11-30 · possibly deleted
 
-> An incredible achievement for humanity. Congratulations @DeepMind! https://t.co/gYp0Y3fZ9e
+_(text not available)_
 
 https://x.com/jackclarkSF/status/1333442665665363969 · [archived](https://web.archive.org/web/20201130161729/https://twitter.com/jackclarkSF/status/1333442665665363969)
 
@@ -5476,7 +4918,7 @@ https://x.com/jackclarkSF/status/1329960181204041728 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1329557033205469184 · [archived](https://web.archive.org/web/20201119230712/https://twitter.com/jackclarkSF/status/1329557033205469184)
 
-## 2020-11-18
+## 2020-11-18 · reply to @william_woof
 
 > @william_woof @togelius @Kyle_L_Wiggers @RVereecken Very useful context, thanks. (Yes, I've already noted in my writeup that DM itself has released a few 2D things, like AI Safety Gridworlds)
 
@@ -5487,14 +4929,6 @@ https://x.com/jackclarkSF/status/1329128298085924864 · [archived](https://web.a
 > @mayfer @IntuitMachine yes, precisely. This is relatively inexpensive expertise to bring into government but surprisingly high impact. A lot of the time, government people just need someone to help them 'gut check' some tech intuitions, and I'd rather the gut checks didn't come from lobbyists
 
 https://x.com/jackclarkSF/status/1328870022614114304 · [archived](https://web.archive.org/web/20201118011833/https://twitter.com/jackclarkSF/status/1328870022614114304)
-
-## 2020-11-18
-
-> How to evaluate a cybersecurity vendor's ML claims even if you don't know much about ML (thread).
-> 
-> 1) Ask them why they didn't solely rely on rules/signatures in their system -- why is ML necessary?  If they don't have a clear explanation, deduct a point.
-
-https://x.com/jackclarkSF/status/1328861404426772480 · [archived](https://web.archive.org/web/20201118004400/https://twitter.com/jackclarkSF/status/1328861404426772480)
 
 ## 2020-11-17 · reply to @IntuitMachine
 
@@ -5622,7 +5056,7 @@ Quoting https://x.com/tshugart3/status/1325478363796942849:
 
 https://x.com/jackclarkSF/status/1325643606934265856 · [archived](https://web.archive.org/web/20201109033829/https://twitter.com/jackclarkSF/status/1325643606934265856)
 
-## 2020-11-09
+## 2020-11-09 · reply to @TinkeredThinker
 
 > @TinkeredThinker @Plinz Thanks for the recommendation! I'll add it to my teetering pile of books to read. I am interested in better understanding these feedback loops and where policy can make a real difference, rather than merely treating symptoms but not curing underlying issues
 
@@ -5652,7 +5086,7 @@ _(text not available)_
 
 https://x.com/jackclarkSF/status/1324552329970946048 · [archived](https://web.archive.org/web/20201106032115/https://twitter.com/jackclarkSF/status/1324552329970946048)
 
-## 2020-11-04
+## 2020-11-04 · reply to @Luetin09
 
 > @Luetin09 Shocking lapse of restraint here. Trusted you to be impartial.
 
@@ -5670,7 +5104,7 @@ https://x.com/jackclarkSF/status/1323726199034556416 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1323469144600137728 · [archived](https://web.archive.org/web/20201103033717/https://twitter.com/jackclarkSF/status/1323469144600137728)
 
-## 2020-10-28
+## 2020-10-28 · reply to @Miles_Brundage
 
 > @Miles_Brundage cool paper. One thing is their graph actually benchmarks them against the Nov 2019 supercomputer rankings https://t.co/vhvdiTuKXG , so actually it's not quite so huge a deal (but still a sustained exaflop is way above all  https://t.co/0WeZXDzECc 2020 systems )
 
@@ -5682,42 +5116,18 @@ https://x.com/jackclarkSF/status/1321575792770379777 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1319705726734905344 · [archived](https://web.archive.org/web/20201023183236/https://twitter.com/jackclarkSF/status/1319705726734905344)
 
-## 2020-10-21
-
-> Spicy🌶AI + ethics+policy interview with leaders @jackclarkSF and @RayPerrault:
-> 1️⃣ Defining AI. Bounds of AI? ♾ 
-> 2️⃣ Evaluating AI. How to know your AI is good+safe+useful?☣️ Hint: Not your test accuracy or FID.
-> 3️⃣ Evaluating AI practitioners. What's up with *armchair ethics*? 🔥
-
-Quoting https://x.com/Last_Week_in_AI/status/1318609269093257222:
-> "Measurement in AI Policy: Opportunities and Challenges" from @StanfordHAI @indexingai came out last month.
-> 
-> If it sounds interesting you've not had a chance to read it, check out our interview with @jackclarkSF and Raymond Perrault which is all about it!
-> 
-> https://t.co/fSiIZXQtsB https://t.co/WrXDFeSgGG
-
-https://x.com/jackclarkSF/status/1318811150151151616 · [archived](https://web.archive.org/web/20201021070755/https://twitter.com/jackclarkSF/status/1318811150151151616)
-
-## 2020-10-20
+## 2020-10-20 · reply to @wsisaac
 
 > @wsisaac @agstrait William is being too polite. Those keyboards are productivity destroyers designed by people who care about appearance over functionality. I watched those keyboards meaningfully reduce productivity of multiple colleagues over yrs (I clutched onto my 2015 computer till 2020)
 
 https://x.com/jackclarkSF/status/1318684149016768512 · [archived](https://web.archive.org/web/20201020224412/https://twitter.com/jackclarkSF/status/1318684149016768512)
 
-## 2020-10-20
+## 2020-10-20 · reply to @mer__edith
 
 > @mer__edith @rajiinio @BostonReview @NewYorker @TheAtlantic @TeenVogue Logic magazine could be good (https://t.co/f3U3RTEYhS). 
 > Also, The Baffler (https://t.co/oQDAOzrH1D)
 
 https://x.com/jackclarkSF/status/1318668506280308737 · [archived](https://web.archive.org/web/20201020214112/https://twitter.com/jackclarkSF/status/1318668506280308737)
-
-## 2020-10-20
-
-> What is AI measurement, how does it relate to AI policy, and what's hard and easy about assessing AI? Listen to our co-chairs @jackclarksf and @RayPerrault discussing our latest research with @realSharonZhou on the @skynet_today podcast.
-> 
-> https://t.co/1iMpq9DC1r
-
-https://x.com/jackclarkSF/status/1318645429064531973 · [archived](https://web.archive.org/web/20201020200934/https://twitter.com/jackclarkSF/status/1318645429064531973)
 
 ## 2020-10-20 · reply to @jackclarkSF
 
@@ -5741,23 +5151,11 @@ Quoting https://x.com/Last_Week_in_AI/status/1318609269093257222:
 
 https://x.com/jackclarkSF/status/1318610376519380992 · [archived](https://web.archive.org/web/20201020175015/https://twitter.com/jackclarkSF/status/1318610376519380992)
 
-## 2020-10-20
-
-> What is the "physics" that led to GPT3 and where do we go from there? This Wednesday 12ET on Physics ∩ ML https://t.co/KQu85PaMX8, Jared Kaplan from @OpenAI and JHU will dive into the *scaling laws* of language models. Sign up here! https://t.co/5FDA1mdOXU https://t.co/E8vx834Hd5
-
-https://x.com/jackclarkSF/status/1318349042556891139 · [archived](https://web.archive.org/web/20201020003511/https://twitter.com/jackclarkSF/status/1318349042556891139)
-
 ## 2020-10-11
 
 > @caseyjohnston Yes. Gets kind of weird as it goes on as they keep adding ideas, but super refreshing to see an original IP that isn't afraid to throw a load of cyber/Aliens stuff against the wall and see what sticks. Excited for season 2!
 
 https://x.com/jackclarkSF/status/1315085578677805056 · [archived](https://web.archive.org/web/20201011012608/https://twitter.com/jackclarkSF/status/1315085578677805056)
-
-## 2020-10-07
-
-> Breaking a 7-year Twitter silence, I'm thrilled to announce that my new book launches today: THE ALIGNMENT PROBLEM. The product of 4 years of research and 100 interviews, it tells the story of the ethics and safety movement in AI: https://t.co/7UpEJgE1kG
-
-https://x.com/jackclarkSF/status/1313875721299791872 · [archived](https://web.archive.org/web/20201007163925/https://twitter.com/jackclarkSF/status/1313875721299791872)
 
 ## 2020-10-07 · reply to @jackclarkSF
 
@@ -5782,14 +5180,6 @@ Quoting https://x.com/adschina/status/1313486644020998145:
 
 https://x.com/jackclarkSF/status/1313648347329118208 · [archived](https://web.archive.org/web/20201007012723/https://twitter.com/jackclarkSF/status/1313648347329118208)
 
-## 2020-10-06
-
-> Policymakers responsible for regulating AI have a lack of quality information on AI is, let alone how we should measure its impact. 
-> Featuring @jackclarkSF for @StanfordHAI 
-> https://t.co/UfZunrOcPf https://t.co/uw3gIEcNox
-
-https://x.com/jackclarkSF/status/1313507306852638720 · [archived](https://web.archive.org/web/20201006225957/https://twitter.com/jackclarkSF/status/1313507306852638720)
-
 ## 2020-10-01 · reply to @AnthonyNAguirre
 
 > @AnthonyNAguirre I think bot disclosure feels like a robustly good idea. It also seems much easier from a policy POV to mandate that synthetically generated things present themselves as synthetic, than that all humans be verified. However, doesn't help with bad/malicious actors.
@@ -5809,15 +5199,6 @@ https://x.com/jackclarkSF/status/1311697449262542849 · [archived](https://web.a
 > Biggest issue = degradation of trust in media, imo https://t.co/yAwpT0oMWa
 
 https://x.com/jackclarkSF/status/1311697211307118593 · [archived](https://web.archive.org/web/20201002012402/https://twitter.com/jackclarkSF/status/1311697211307118593)
-
-## 2020-09-29
-
-> Lots of discussion of AI policy these days. This one actually based on data and familiarity with AI. @indexingai @StanfordHAI
-
-Quoting https://x.com/indexingai/status/1311009097521668096:
-> Measurement in AI Policy - a thread: our latest paper (https://t.co/ZXgd91NXKE) surveyed opportunities &amp; challenges in measuring AI systems and their impact based on a recent @StanfordHAI workshop. Here are the 6 key challenges we identified that can help AI policymaking: https://t.co/hRQYkeGhv7
-
-https://x.com/jackclarkSF/status/1311019322920169474 · [archived](https://web.archive.org/web/20200929192154/https://twitter.com/jackclarkSF/status/1311019322920169474)
 
 ## 2020-09-29
 
@@ -5881,12 +5262,6 @@ https://x.com/jackclarkSF/status/1305954096403197953 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1305950334695534592 · [archived](https://web.archive.org/web/20200915192359/https://twitter.com/jackclarkSF/status/1305950334695534592)
 
-## 2020-09-15
-
-> Excited to share our recent work on Phasic Policy Gradient, a new RL algorithm which improves sample efficiency by performing policy optimization and auxiliary optimization in two alternating phases. Check out the paper and code! https://t.co/EiOWyUereB
-
-https://x.com/jackclarkSF/status/1305927437847425024 · [archived](https://web.archive.org/web/20200915180238/https://twitter.com/jackclarkSF/status/1305927437847425024)
-
 ## 2020-09-14 · reply to @bunchaska
 
 > @iiverveii I'm glad you liked that! To be able to be a conscious blob of gloopy stuff is marvelous and mysterious. Still find it deeply odd that I'm typing this due to electrical activations in in a big ball of gloop
@@ -5925,7 +5300,7 @@ https://x.com/jackclarkSF/status/1304852666883792896 · [archived](https://web.a
 
 ## 2020-09-09 · possibly deleted
 
-> OpenAI's release of GPT-3 has been controversial, but the company has shown by example how to take safety and security seriously when developing bleeding-edge AI tech. We now need strong advocacy for better norms, education, and policy to preempt the coming synthetic text wave.7/
+_(text not available)_
 
 https://x.com/jackclarkSF/status/1303819991104417793 · [archived](https://web.archive.org/web/20200909221826/https://twitter.com/jackclarkSF/status/1303819991104417793)
 
@@ -5960,7 +5335,7 @@ https://x.com/jackclarkSF/status/1301932801516658688 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1301649115315494912 · [archived](https://web.archive.org/web/20200903223434/https://twitter.com/jackclarkSF/status/1301649115315494912)
 
-## 2020-09-03
+## 2020-09-03 · reply to @asteroid_saku
 
 > @asteroid_saku @TheStalwart @arnaudschenk I think a lot of industrial policy people actually just want a metric ton of money injected into R&amp;D along with strategic capital-heavy stuff like chip fabs. I'm not sure the branding thing is a big deal though I might be mis-parsing
 
@@ -5993,12 +5368,6 @@ https://x.com/jackclarkSF/status/1301189234343047169 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1301188940615933952 · [archived](https://web.archive.org/web/20200902160407/https://twitter.com/jackclarkSF/status/1301188940615933952)
 
-## 2020-08-23
-
-> I’m seeing a lot of folks who live in Bay Area urban flatlands quite a ways from any wildfire risk suddenly feeling very nervous about their safety. If you want something to do to quell your anxiety, make an evacuation plan - but also get your home/rental insurance in order.
-
-https://x.com/jackclarkSF/status/1297350659734253568 · [archived](https://web.archive.org/web/20200823015147/https://twitter.com/jackclarkSF/status/1297350659734253568)
-
 ## 2020-08-21 · reply to @jackclarkSF
 
 > It's not an overstatement to say that the structure of governments, the relationship between the state and civil society, geopolitics, and the future of warfare are all going to be influenced by the stuff published in https://t.co/qLy0BQRX6t . We should all pay more attention.
@@ -6026,12 +5395,6 @@ https://x.com/jackclarkSF/status/1296923089477857280 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1296922873060184064 · [archived](https://web.archive.org/web/20200821213139/https://twitter.com/jackclarkSF/status/1296922873060184064)
 
-## 2020-08-19
-
-> A possible and terrifying future: authoritarian governments increasingly using surveillance technologies, selling these to developing countries, generating competitive advantages and fuelling a vicious cycle that democracies will need to push back against. https://t.co/UaD2eEyRfT
-
-https://x.com/jackclarkSF/status/1296118962707546112 · [archived](https://web.archive.org/web/20200819162908/https://twitter.com/jackclarkSF/status/1296118962707546112)
-
 ## 2020-08-16 · reply to @jackclarkSF
 
 > @BlakeleyHPayne @andrey_kurenkov So.... not sure. Stores feel quite risky to me (I've mostly been doing groceries at a neighborhood place that has limited number of people inside and good ventilation). Cafes/restaurants feel easier, especially if smaller and in quiet areas.
@@ -6050,16 +5413,6 @@ https://x.com/jackclarkSF/status/1295078655811399681 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1295078247101652992 · [archived](https://web.archive.org/web/20200816192141/https://twitter.com/jackclarkSF/status/1295078247101652992)
 
-## 2020-08-13 · reply to @RANDforecasting
-
-> 2/2 This question is a metric to help us understand big-picture outlooks, e.g., whether we're moving toward a world where #COVID19 surveillance is strengthening authoritarian governments. 
-> 
-> This blog post by @jackclarkSF explains: https://t.co/9m4xKG1dA5
-> 
-> #AI  #surveillance
-
-https://x.com/jackclarkSF/status/1293964216487964672 · [archived](https://web.archive.org/web/20200813173639/https://twitter.com/jackclarkSF/status/1293964216487964672)
-
 ## 2020-08-13 · reply to @andrey_kurenkov
 
 > @andrey_kurenkov @JordanBHarrod @_KarenHao @techreview @charlotte_stix @seb_ruder @dl_weekly There's also @jjding99 's ChinAI newsletter, which is great
@@ -6077,13 +5430,6 @@ https://x.com/jackclarkSF/status/1293288774336561153 · [archived](https://web.a
 > Sometimes technology can be a bridge that helps connect us to other people, perhaps by making it safer to express ourselves. A story, from Import AI 209: https://t.co/lxS1OK7alO https://t.co/cTzZvdXyTs
 
 https://x.com/jackclarkSF/status/1293216229696577536 · [archived](https://web.archive.org/web/20200811160325/https://twitter.com/jackclarkSF/status/1293216229696577536)
-
-## 2020-08-10
-
-> "Modern technology companies are like gigantic sensory machines that operate at global scale - they can detect trends way ahead of smaller entities (e.g, governments), because they have direct access to the actions of billions of people worldwide."
-> https://t.co/iTFoRTp42I https://t.co/1XpYa3Yw4z
-
-https://x.com/jackclarkSF/status/1292936998559203328 · [archived](https://web.archive.org/web/20200810213338/https://twitter.com/jackclarkSF/status/1292936998559203328)
 
 ## 2020-08-09 · reply to @jackclarkSF
 
@@ -6223,17 +5569,6 @@ https://x.com/jackclarkSF/status/1287097588307472384 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1286434359537410048 · [archived](https://web.archive.org/web/20200724104204/https://twitter.com/jackclarkSF/status/1286434359537410048)
 
-## 2020-07-22
-
-> Hi Jerome! It's great to get feedback from someone with so much experience deploying AI at scale.
-> 
-> We share your concern about bias and safety in language models, and it's a big part of why we're starting off with a beta and have safety review before apps can go live.
-
-Quoting https://x.com/an_open_mind/status/1285940858290933767:
-> Last week I raised concerns about using #gpt3 in production because it can easily output toxic language that propagates harmful biases. I thought it was a pretty uncontroversial stance but the responses ranged from complete misunderstanding of AI to total irresponsibility. 1/13
-
-https://x.com/jackclarkSF/status/1285995853648281602 · [archived](https://web.archive.org/web/20200722231454/https://twitter.com/jackclarkSF/status/1285995853648281602)
-
 ## 2020-07-19 · reply to @jackclarkSF
 
 > I think these generative models are amazing, weird pieces of technology. I expect to spend many years exploring them both as a creative user, and as someone thinking about policy issues of them. There are novel uses (e.g, AI Dungeon), but lots of uses will be bookshelf-like
@@ -6317,7 +5652,7 @@ https://x.com/jackclarkSF/status/1278395489902182400 · [archived](https://web.a
 
 ## 2020-07-01 · possibly deleted
 
-_(text not available)_
+> I'm not a Redditor or anything so I can't post it there but @nickwalton00's AI Dungeon 2 has magically undone months to YEARS of writer's block, and in only a few days, I've written about half of a NaNoWriMo-length novel. Whenever I get stuck on a plot point, the AI unsticks it.
 
 https://x.com/jackclarkSF/status/1278145423098572800 · [archived](https://web.archive.org/web/20200701015936/https://twitter.com/jackclarkSF/status/1278145423098572800)
 
@@ -6341,7 +5676,7 @@ https://x.com/jackclarkSF/status/1275502748306337792 · [archived](https://web.a
 
 ## 2020-06-22 · possibly deleted
 
-_(text not available)_
+> New blog post: AI Benefits Post 1: Introducing “AI Benefits” https://t.co/kOlCTmGkYz
 
 https://x.com/jackclarkSF/status/1275116653668216832 · [archived](https://web.archive.org/web/20200622174730/https://twitter.com/jackclarkSF/status/1275116653668216832)
 
@@ -6359,7 +5694,8 @@ https://x.com/jackclarkSF/status/1273703164638720000 · [archived](https://web.a
 
 ## 2020-06-18 · possibly deleted
 
-_(text not available)_
+> Tricky NLP-related question, curious to hear from people who've thought about it seriously:
+> Should something like a public 'debiased BERT' checkpoint exist?
 
 https://x.com/jackclarkSF/status/1273697798416773120 · [archived](https://web.archive.org/web/20200618193227/https://twitter.com/jackclarkSF/status/1273697798416773120)
 
@@ -6419,24 +5755,6 @@ Quoting https://x.com/jackclarkSF/status/1231355051635101702:
 > I think intersection of AI/Politics is going to make for a weird decade. Rhetorical advisors / meme generation / generative manifestos / bespoke voter targeting, etc. Some ideas here: https://t.co/LHtD9Y3OXf
 
 https://x.com/jackclarkSF/status/1272230880409350147 · [archived](https://web.archive.org/web/20200614181815/https://twitter.com/jackclarkSF/status/1272230880409350147)
-
-## 2020-06-14
-
-> I finally got a twitter account!  @Uber @UofT @VectorInst @UberATG #SelfDrivingCars #selfdriving  Stay safe!
-
-https://x.com/jackclarkSF/status/1272212823884525568 · [archived](https://web.archive.org/web/20200614171034/https://twitter.com/jackclarkSF/status/1272212823884525568)
-
-## 2020-06-13
-
-> In the spirit of the CLock of the Long Now, it is fun to think about long lasting computer systems. Many modern systems have no moving parts, and very few discrete parts in total, which is good, but there are also a lot of glues and polymers involved that won't last a century. \
-
-https://x.com/jackclarkSF/status/1271861681623187457 · [archived](https://web.archive.org/web/20200613180056/https://twitter.com/jackclarkSF/status/1271861681623187457)
-
-## 2020-06-06
-
-> Watching Reddit, Twitter, and Facebook slowly noticing that they are cyberstates with responsibilities similar but mostly orthogonal to those of nation-states, and trying to figure out how to function as such under democratic principles, is pretty weird.
-
-https://x.com/jackclarkSF/status/1269373431256018944 · [archived](https://web.archive.org/web/20200606235249/https://twitter.com/jackclarkSF/status/1269373431256018944)
 
 ## 2020-06-06
 
@@ -6550,15 +5868,6 @@ https://x.com/jackclarkSF/status/1262848078211452929 · [archived](https://web.a
 > Has anyone written a detail-oriented "so you're a European Commission official and would like to implement this"-style guide regarding the 'CERN for AI' ideas that people have floated over the years?
 
 https://x.com/jackclarkSF/status/1262847777484095488 · [archived](https://web.archive.org/web/20200519205623/https://twitter.com/jackclarkSF/status/1262847777484095488)
-
-## 2020-05-15
-
-> To help the #AI/#ML community prepare for the new #NeurIPS Impact Statement requirement, PAI Partner @FHIOxford has created this paper submission guide.
-> 
-> PAI staff and Partners from @CHAI_Berkeley @DeepMind @GoogleAI @OpenAI joined in discussion &amp; input: 
-> https://t.co/mjVrIaLvzd
-
-https://x.com/jackclarkSF/status/1261332791817453568 · [archived](https://web.archive.org/web/20200516014936/https://twitter.com/jackclarkSF/status/1261332791817453568)
 
 ## 2020-05-09
 
@@ -6686,26 +5995,6 @@ Quoting https://x.com/jtannady/status/1255242795847241729:
 
 https://x.com/jackclarkSF/status/1255267526029783041 · [archived](https://web.archive.org/web/20200506044632/https://twitter.com/jackclarkSF/status/1255267526029783041)
 
-## 2020-04-28
-
-> Lots of goodies in this week's edition of import AI (ht @jackclarkSF)...
-> 
-> 1. Drinking games based on the frequency distribution of buzzwords in policy conversations
-> 
-> (With an application to collective choice problems around existential risk)
-> 
-> https://t.co/kFuUYoAIKA https://t.co/eythmsvV3d
-
-https://x.com/jackclarkSF/status/1255164683276840962 · [archived](https://web.archive.org/web/20200505202353/https://twitter.com/jackclarkSF/status/1255164683276840962)
-
-## 2020-04-23
-
-> It was fun chatting to Siddharth from the @FT about our new report 'Toward Trustworthy AI: Mechanisms for Supporting Verifiable Claims'
-> Also quotes @Miles_Brundage, @adrian_weller &amp; @RosariaTaddeo 
-> https://t.co/xeNucWnLdc
-
-https://x.com/jackclarkSF/status/1253378746331000832 · [archived](https://web.archive.org/web/20200502173654/https://twitter.com/jackclarkSF/status/1253378746331000832)
-
 ## 2020-04-22 · reply to @nlp_pranav
 
 > @pranav_nlp oh, cool. They're great. Their earlier stuff is periodically heavy, and later stuff more acoustic-y. I strongly recommend their album 'Everything Dies'. More cheerful than it sounds. g'luck
@@ -6733,7 +6022,7 @@ https://x.com/jackclarkSF/status/1247943374767718403 · [archived](https://web.a
 
 ## 2020-04-06 · possibly deleted
 
-> Putting this out there: I would like buy some face masks from local Oakland businesses. Anyone know places I could go to? (Yes, I could make masks myself, but I figure this is a good opportunity to support local biz).
+_(text not available)_
 
 https://x.com/jackclarkSF/status/1247190636521852929 · [archived](https://web.archive.org/web/20200406161148/https://twitter.com/jackclarkSF/status/1247190636521852929)
 
@@ -6742,18 +6031,6 @@ https://x.com/jackclarkSF/status/1247190636521852929 · [archived](https://web.a
 _(text not available)_
 
 https://x.com/jackclarkSF/status/1245210338791813122 · [archived](https://web.archive.org/web/20200401064421/https://twitter.com/jackclarkSF/status/1245210338791813122)
-
-## 2020-03-26
-
-> If you've been laid off mid-pandemic, we can hopefully help. 
-> 
-> We're inviting companies who are hiring, and need tech staff right now, to tell us all about it, and we'll run the job ads for free every week.
-> 
-> No catch. We just want to help
-> 
-> Details within: https://t.co/NzMzhZ6AeB
-
-https://x.com/jackclarkSF/status/1243263436831592449 · [archived](https://web.archive.org/web/20200326195016/https://twitter.com/jackclarkSF/status/1243263436831592449)
 
 ## 2020-03-25 · reply to @sean_lynch
 
@@ -6767,29 +6044,11 @@ https://x.com/jackclarkSF/status/1242927295574114304 · [archived](https://web.a
 
 https://x.com/jackclarkSF/status/1242926411112796161 · [archived](https://web.archive.org/web/20200325221949/https://twitter.com/jackclarkSF/status/1242926411112796161)
 
-## 2020-03-24
-
-> All monetary savings is a fiction. A nation’s only savings are its natural resources, its built physical infrastructure, stable social norms and government credibility. Individuals can of course save money, but on a collective scale, a pot of 1s and 0s don’t get us anything.
-
-https://x.com/jackclarkSF/status/1242292341043412992 · [archived](https://web.archive.org/web/20200324081546/https://twitter.com/jackclarkSF/status/1242292341043412992)
-
 ## 2020-03-21
 
 > Pleasant surprise: I had to make an essential trip to a @comcast store. Was worried re infection risk. turned out the store was only letting one or two customers be inside at once and all the staff were 6 feet apart, and the store was covered in signs for social distancing. A+ https://t.co/HsoCGpx7Z8
 
 https://x.com/jackclarkSF/status/1241508701061578752 · [archived](https://web.archive.org/web/20200321235053/https://twitter.com/jackclarkSF/status/1241508701061578752)
-
-## 2020-03-21 · reply to @drGregBowman
-
-> I think that makes @foldingathome  the largest super computer in the world, and we're trying to bring the whole thing to bear on #Covid_19. We can't guarantee what the results will be but man is this a cool opportunity!
-
-https://x.com/jackclarkSF/status/1241447836304044034 · [archived](https://web.archive.org/web/20200321193606/https://twitter.com/jackclarkSF/status/1241447836304044034)
-
-## 2020-03-21
-
-> Amazing! @foldingathome now has over 470 petaFLOPS of compute power. To put that in perspective, that's more than 2x the peak performance of the Summit super computer!
-
-https://x.com/jackclarkSF/status/1241447820629950464 · [archived](https://web.archive.org/web/20200321195024/https://twitter.com/jackclarkSF/status/1241447820629950464)
 
 ## 2020-03-20 · reply to @jachiam0
 
@@ -6815,7 +6074,7 @@ https://x.com/jackclarkSF/status/1240037925150060544 · [archived](https://web.a
 
 ## 2020-03-15 · possibly deleted
 
-> There are going to be so many second-order economic impacts of COVID-19 that many weird parts of the world will change, e.g: https://t.co/wS7Aam7W46
+_(text not available)_
 
 https://x.com/jackclarkSF/status/1239033509949263872 · [archived](https://web.archive.org/web/20200315034412/https://twitter.com/jackclarkSF/status/1239033509949263872)
 
@@ -6854,15 +6113,6 @@ https://x.com/jackclarkSF/status/1233335276425973761 · [archived](https://web.a
 > Summarized my views on AI Policy opportunities/challenges at @OECD in Paris this week. Tl;dr: governments should figure out ways to change incentives so we get more socially beneficial systems, and we can do this via civil AI measurement/competition institutions, plus funding. https://t.co/WL3rt68NKz
 
 https://x.com/jackclarkSF/status/1233333772478599169 · [archived](https://web.archive.org/web/20200228102159/https://twitter.com/jackclarkSF/status/1233333772478599169)
-
-## 2020-02-27 · reply to @OpenAI
-
-> @OpenAI @jackclarkSF on what the @OECD #AIPolicy Observatory could achieve: 
-> 1️⃣ Be a convener of the AI community
-> 2️⃣ Set up a really high bar for the data that goes into the observatory 
-> 3️⃣ Be a loud voice to say where we lack data: trying to measure what can not be measured now https://t.co/PFBi50xOKY
-
-https://x.com/jackclarkSF/status/1233122738652557321 · [archived](https://web.archive.org/web/20200227201245/https://twitter.com/jackclarkSF/status/1233122738652557321)
 
 ## 2020-02-27 · reply to @cwarzel
 
@@ -6926,23 +6176,6 @@ https://x.com/jackclarkSF/status/1231377367068704768 · [archived](https://web.a
 > @alex Children of Ruin is awesome
 
 https://x.com/jackclarkSF/status/1231251037215952897 · [archived](https://web.archive.org/web/20200222163621/https://twitter.com/jackclarkSF/status/1231251037215952897)
-
-## 2020-02-20 · reply to @pjreddie
-
-> But basically all facial recognition work would not get published if we took Broader Impacts sections seriously. There is almost no upside and enormous downside risk.
-
-https://x.com/jackclarkSF/status/1230634260714807296 · [archived](https://web.archive.org/web/20200220232951/https://twitter.com/jackclarkSF/status/1230634260714807296)
-
-## 2020-02-20 · reply to @pjreddie
-
-> I stopped doing CV research because I saw the impact my work was having. I loved the work but the military applications and privacy concerns eventually became impossible to ignore.
-> 
-> https://t.co/DMa6evaQZr
-
-Quoting https://x.com/RogerGrosse/status/1230514017543872512:
-> @skoularidou What's an example of a situation where you think someone should decide not to submit their paper due to Broader Impacts reasons?
-
-https://x.com/jackclarkSF/status/1230634241538478080 · [archived](https://web.archive.org/web/20200220232529/https://twitter.com/jackclarkSF/status/1230634241538478080)
 
 ## 2020-02-19 · reply to @jackclarkSF
 
@@ -7404,7 +6637,7 @@ https://x.com/jackclarkSF/status/1178849266074189824 · [archived](https://web.a
 
 ## 2019-09-28 · possibly deleted
 
-> Shot, chaser. #VOTEDIY
+_(text not available)_
 
 https://x.com/jackclarkSF/status/1178090278311223296 · [archived](https://web.archive.org/web/20190928234755/https://twitter.com/jackclarkSF/status/1178090278311223296)
 
@@ -7416,7 +6649,7 @@ https://x.com/jackclarkSF/status/1177648972170743808 · [archived](https://web.a
 
 ## 2019-09-22 · possibly deleted
 
-> Moments purloined from the night:
+_(text not available)_
 
 https://x.com/jackclarkSF/status/1175659988699631616 · [archived](https://web.archive.org/web/20190922064700/https://twitter.com/jackclarkSF/status/1175659988699631616)
 

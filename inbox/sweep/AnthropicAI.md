@@ -3,21 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 965 (… to 2026-09-12)
-- Read so far: 965 (100%); text found for 938; 0 not read yet
+- Archived posts found: 956 (4 from before November 2010, 2010-11-04 to 2026-09-10)
+- Left out: 9 archived link(s) under this handle that X says another account wrote
+- Read so far: 956 (100%); text found for 928; 0 not read yet
 - Possibly deleted: 28
-- Matching the topic filter: 341
+- Matching the topic filter: 338
 
 
-Every post is in `AnthropicAI.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
-
-## 2026-09-12
-
-> We Must Pace the Frontier: I’ve written a new essay on why the AI industry should slow down, with a three-part plan for doing so.
-> 
-> Anthropic is unilaterally committing to the first of these steps. We’ll provide third-party evaluators with permanent, employee-level access to our
-
-https://x.com/AnthropicAI/status/2098774062549848266 · [archived](https://web.archive.org/web/20260912154934/https://x.com/anthropicai/status/2098774062549848266)
+Every post is in `AnthropicAI/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-09-10
 
@@ -2048,135 +2041,7 @@ https://x.com/AnthropicAI/status/1721263452306473097 · [archived](https://web.a
 
 ## 2023-11-05 · possibly deleted
 
-> width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" /><link rel="preconnect" href="//abs.twimg.com" /><link rel="dns-prefetch" href="//abs.twimg.com" /><link rel="preconnect" href="//api.twitter.com" /><link rel="dns-prefetch" href="//api.twitter.com" /><link rel="preconnect" href="//pbs.twimg.com" /><link rel="dns-prefetch" href="//pbs.twimg.com" /><link rel="preconnect" href="//t.co" /><link rel="dns-prefetch" href="//t.co" /><link rel="preconnect" href="//video.twimg.com" /><link rel="dns-prefetch" href="//video.twimg.com" /><meta property="fb:app_id" content="2231777543" />
-> <meta content="X (formerly Twitter)" property="og:site_name" /><meta name="google-site-verification" content="600dQ0pZYsH2xOFt4hYmf5f5NpjCbWE_qk5Y04dErYM" /><meta name="facebook-domain-verification" content="x6sdcc8b5ju3bh8nbm59eswogvg6t1" /><meta http-equiv="onion-location" content="https://twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion/" /><link rel="manifest" href="/manifest.json" crossOrigin="use-credentials" /><link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Twitter"><link rel="shortcut icon" href="//abs.twimg.com/favicons/twitter.3.ico"><meta name="mobile-web-app-capable" content="yes" />
-> <meta name="apple-mobile-web-app-title" content="Twitter" />
-> <meta name="apple-mobile-web-app-status-bar-style" content="white" />
-> <meta name="theme-color" media="(prefers-color-scheme: light)" content="#FFFFFF" />
-> <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000" /><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","url":"https://twitter.com/","potentialAction":{"@type":"SearchAction","query-input":"required name=search_term_string","target":{"@type":"EntryPoint","urlTemplate":"https://twitter.com/search?q={search_term_string}&ref_src=twcamp%5Eseo_searchbox%7Ctwsrc%5Eseo"}}}</script><meta http-equiv="origin-trial" content="AlpCmb40F5ZjDi9ZYe+wnr/V8MF+XmY41K4qUhoq+2mbepJTNd3q4CRqlACfnythEPZqcjryfAS1+ExS0FFRcA8AAABmeyJvcmlnaW4iOiJodHRwczovL3R3aXR0ZXIuY29tOjQ0MyIsImZlYXR1cmUiOiJMYXVuY2ggSGFuZGxlciIsImV4cGlyeSI6MTY1NTI1MTE5OSwiaXNTdWJkb21haW4iOnRydWV9" /><style>html,body{height: 100%;}::cue{white-space:normal}</style><style id="react-native-stylesheet">[stylesheet-group="0"]{}
-> html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0);}
-> body{margin:0;}
-> button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
-> input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-webkit-search-results-button,input::-webkit-search-results-decoration{display:none;}
-> [stylesheet-group="0.1"]{}
-> :focus:not([data-focusvisible-polyfill]){outline: none;}
-> [stylesheet-group="0.5"]{}
-> .css-4rbku5{background-color:rgba(0,0,0,0.00);color:inherit;font:inherit;list-style:none;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;text-align:inherit;text-decoration:none;}
-> .css-18t94o4{cursor:pointer;}
-> [stylesheet-group="1"]{}
-> .css-1dbjc4n{-ms-flex-align:stretch;-ms-flex-direction:column;-ms-flex-negative:0;-ms-flex-preferred-size:auto;-webkit-align-items:stretch;-webkit-box-align:stretch;-webkit-box-direction:normal;-webkit-box-orient:vertical;-webkit-flex-basis:auto;-webkit-flex-direction:column;-webkit-flex-shrink:0;align-items:stretch;border:0 solid black;box-sizing:border-box;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;flex-basis:auto;flex-direction:column;flex-shrink:0;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;min-height:0px;min-width:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;position:relative;z-index:0;}
-> .css-901oao{border:0 solid black;box-sizing:border-box;color:rgba(0,0,0,1.00);display:inline;font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;white-space:pre-wrap;word-wrap:break-word;}
-> .css-16my406{color:inherit;font:inherit;white-space:inherit;}
-> .css-1hf3ou5{max-width:100%;overflow-x:hidden;overflow-y:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;}
-> [stylesheet-group="2"]{}
-> .r-13awgt0{-ms-flex:1 1 0%;-webkit-flex:1;flex:1;}
-> .r-6koalj{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;}
-> .r-sdzlij{border-bottom-left-radius:9999px;border-bottom-right-radius:9999px;border-top-left-radius:9999px;border-top-right-radius:9999px;}
-> .r-1phboty{border-bottom-style:solid;border-left-style:solid;border-right-style:solid;border-top-style:solid;}
-> .r-rs99b7{border-bottom-width:1px;border-left-width:1px;border-right-width:1px;border-top-width:1px;}
-> .r-4qtqp9{display:inline-block;}
-> .r-jxzhtn{border-bottom-color:rgba(239,243,244,1.00);border-left-color:rgba(239,243,244,1.00);border-right-color:rgba(239,243,244,1.00);border-top-color:rgba(239,243,244,1.00);}
-> .r-42olwf{border-bottom-color:rgba(0,0,0,0.00);border-left-color:rgba(0,0,0,0.00);border-right-color:rgba(0,0,0,0.00);border-top-color:rgba(0,0,0,0.00);}
-> .r-4iw3lz{border-bottom-width:0;border-left-width:0;border-right-width:0;border-top-width:0;}
-> .r-1udh08x{overflow-x:hidden;overflow-y:hidden;}
-> .r-wwvuq4{padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;}
-> [stylesheet-group="2.1"]{}
-> .r-1jgb5lz{margin-left:auto;margin-right:auto;}
-> .r-ymttw5{padding-left:16px;padding-right:16px;}
-> .r-1fz3rvf{margin-left:12px;margin-right:12px;}
-> .r-rjfia{padding-bottom:0px;padding-top:0px;}
-> .r-1r5su4o{margin-bottom:16px;margin-top:16px;}
-> .r-oyd9sg{padding-bottom:4px;padding-top:4px;}
-> .r-1e081e0{padding-left:12px;padding-right:12px;}
-> .r-tvv088{padding-bottom:20px;padding-top:20px;}
-> [stylesheet-group="2.2"]{}
-> .r-12vffkv>*{pointer-events:auto;}
-> .r-12vffkv{pointer-events:none!important;}
-> .r-2llsf{min-height:100%;}
-> .r-13qz1uu{width:100%;}
-> .r-417010{z-index:0;}
-> .r-lrvibr{-moz-user-select:none;-ms-user-select:none;-webkit-user-select:none;user-select:none;}
-> .r-1g40b8q{z-index:3;}
-> .r-orgf3d{opacity:0;}
-> .r-633pao{pointer-events:none!important;}
-> .r-1d2f490{left:0px;}
-> .r-1xcajam{position:fixed;}
-> .r-zchlnj{right:0px;}
-> .r-1gn8etr{top:-0.5px;}
-> .r-1e5uvyk{-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);}
-> .r-6026j{background-color:rgba(255,255,255,0.85);}
-> .r-136ojw6{z-index:2;}
-> .r-fxvszc{height:106px;}
-> .r-1h3ijdo{height:53px;}
-> .r-1awozwy{-ms-flex-align:center;-webkit-align-items:center;-webkit-box-align:center;align-items:center;}
-> .r-18u37iz{-ms-flex-direction:row;-webkit-box-direction:normal;-webkit-box-orient:horizontal;-webkit-flex-direction:row;flex-direction:row;}
-> .r-1777fci{-ms-flex-pack:center;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;}
-> .r-1pz39u2{-ms-flex-item-align:stretch;-ms-grid-row-align:stretch;-webkit-align-self:stretch;align-self:stretch;}
-> .r-15ysp7h{min-height:32px;}
-> .r-4wgw6l{min-width:32px;}
-> .r-1habvwh{-ms-flex-align:start;-webkit-align-items:flex-start;-webkit-box-align:start;align-items:flex-start;}
-> .r-s8bhmr{min-width:56px;}
-> .r-1mf7evn{margin-right:20px;}
-> .r-1loqt21{cursor:pointer;}
-> .r-16y2uox{-ms-flex-positive:1;-webkit-box-flex:1;-webkit-flex-grow:1;flex-grow:1;}
-> .r-2yi16{min-height:36px;}
-> .r-1qi8awa{min-width:36px;}
-> .r-o7ynqc{-webkit-transition-duration:0.2s;transition-duration:0.2s;}
-> .r-6416eg{-moz-transition-property:background-color, box-shadow;-webkit-transition-property:background-color, box-shadow;transition-property:background-color, box-shadow;}
-> .r-1ny4l3l{outline-style:none;}
-> .r-bcqeeo{min-width:0px;}
-> .r-qvutc0{word-wrap:break-word;}
-> .r-rjixqe{line-height:20px;}
-> .r-37j5jr{font-family:"TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
-> .r-q4m81j{text-align:center;}
-> .r-a023e6{font-size:15px;}
-> .r-b88u0q{font-weight:700;}
-> .r-yyyyoo{fill:currentcolor;}
-> .r-1xvli5t{height:1.25em;}
-> .r-dnmrzs{max-width:100%;}
-> .r-bnwqim{position:relative;}
-> .r-1plcrui{vertical-align:text-bottom;}
-> .r-z80fyv{height:20px;}
-> .r-19wmn03{width:20px;}
-> .r-18jsvk2{color:rgba(15,20,25,1.00);}
-> .r-lwhw9o{height:1.75rem;}
-> .r-poiln3{font-family:inherit;}
-> .r-1wbh5a2{-ms-flex-negative:1;-webkit-flex-shrink:1;flex-shrink:1;}
-> .r-1pi2tsx{height:100%;}
-> .r-obd0qt{-ms-flex-align:end;-webkit-align-items:flex-end;-webkit-box-align:end;align-items:flex-end;}
-> .r-1d4mawv{margin-right:4px;}
-> .r-1w6e6rj{-ms-flex-wrap:wrap;-webkit-box-lines:multiple;-webkit-flex-wrap:wrap;flex-wrap:wrap;}
-> .r-1wtj0ep{-ms-flex-pack:justify;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;}
-> .r-1b43r93{font-size:14px;}
-> .r-1cwl3u0{line-height:16px;}
-> .r-u8s1d{position:absolute;}
-> .r-dkhcqf{-webkit-transition-duration:350ms;transition-duration:350ms;}
-> .r-axxi2z{-moz-transition-property:transform;-webkit-transition-property:-webkit-transform,transform;transition-property:-webkit-transform,transform;}
-> .r-18jm5s1{-webkit-transition-timing-function:cubic-bezier(0,0,0,1);transition-timing-function:cubic-bezier(0,0,0,1);}
-> .r-150rngu{-webkit-overflow-scrolling:touch;}
-> .r-aqfbo4{-webkit-backface-visibility:hidden;backface-visibility:hidden;}
-> .r-1oszu61{-ms-flex-align:stretch;-webkit-align-items:stretch;-webkit-box-align:stretch;align-items:stretch;}
-> .r-1niwhzg{background-color:rgba(0,0,0,0.00);}
-> .r-14lw9ot{background-color:rgba(255,255,255,1.00);}
-> .r-1ljd8xs{border-left-width:1px;}
-> .r-13l2t4g{border-right-width:1px;}
-> .r-33ulu8{width:600px;}
-> .r-184en5c{z-index:1;}
-> .r-1xk2f4g{clip:rect(1px, 1px, 1px, 1px);}
-> .r-109y4c4{height:1px;}
-> .r-92ng3h{width:1px;}
-> .r-19u6a5r{margin-left:12px;}
-> .r-1lul07w{-webkit-transform:translate3d(0, -3.5em, 0);transform:translate3d(0, -3.5em, 0);}
-> .r-eafdt9{-webkit-transition-duration:0.15s;transition-duration:0.15s;}
-> .r-1b8bd59{-moz-transition-property:transform, opacity;-webkit-transition-property:-webkit-transform,transform, opacity;transition-property:-webkit-transform,transform, opacity;}
-> .r-nx0j10{-webkit-transition-timing-function:ease, ease, step-end;transition-timing-function:ease, ease, step-end;}
-> .r-l5o3uw{background-color:rgba(29,155,240,1.00);}
-> .r-y3da5r{box-shadow:0 0 8px rgba(101,119,134,0.2), 0 1px 3px 1px rgba(101,119,134,0.25);}
-> .r-1kihuf0{-ms-flex-item-align:center;-ms-grid-row-align:center;-webkit-align-self:center;align-self:center;}
-> .r-jwli3a{color:rgba(255,255,255,1.00);}
-> .r-16dba41{font-weight:400;}
-> .r-13hce6t{margin-left:4px;}
-> .r-117bsoe{margin-bottom:20px;}</style><title data-rh="true">X</title><meta data-rh="true" content="X" property="og:title"/><meta data-rh="true" content="article" property="og:type"/><meta data-rh=
+_(text not available)_
 
 https://x.com/AnthropicAI/status/1721260320470020190 · [archived](https://web.archive.org/web/20231105202025/https://twitter.com/AnthropicAI/status/1721260320470020190)
 
@@ -2328,15 +2193,6 @@ https://x.com/AnthropicAI/status/1704135882985685269 · [archived](https://web.a
 > Read more in our blog post: https://t.co/Q5ThYY5Hde
 
 https://x.com/AnthropicAI/status/1702308717998518585 · [archived](https://web.archive.org/web/20240209060835/https://twitter.com/anthropicai/status/1702308717998518585)
-
-## 2023-08-24
-
-> Lexis+ AI is transforming legal work with safe, secure, private generative #AI that is built with reinforcement learning through human feedback, now leveraging Claude 2 from @AnthropicAI on Amazon Bedrock as an important part of our AI strategy.
-
-Quoting https://x.com/AnthropicAI/status/1694359742301581396:
-> Leading global provider of information and analytics @LexisNexis is using Claude 2 on Amazon Bedrock to power its legal AI capabilities. https://t.co/PSbBgexcyy
-
-https://x.com/AnthropicAI/status/1694741915932201406 · [archived](https://web.archive.org/web/20230831031228/https://twitter.com/AnthropicAI/status/1694741915932201406)
 
 ## 2023-08-09
 
@@ -2939,13 +2795,13 @@ _(text not available)_
 
 https://x.com/AnthropicAI/status/1860000000003 · [archived](https://web.archive.org/web/20260201204040/https://x.com/AnthropicAI/status/1860000000003)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/AnthropicAI/status/169435974 · [archived](https://web.archive.org/web/20250406183615/https://x.com/AnthropicAI/status/169435974)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 

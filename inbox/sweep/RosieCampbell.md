@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 771 (2012-10-23 to 2026-04-16)
-- Read so far: 771 (100%); text found for 769; 0 not read yet
+- Archived posts found: 733 (2012-10-23 to 2026-04-16)
+- Left out: 38 archived link(s) under this handle that X says another account wrote
+- Read so far: 733 (100%); text found for 731; 0 not read yet
 - Possibly deleted: 7
-- Matching the topic filter: 95
+- Matching the topic filter: 87
 
 
-Every post is in `RosieCampbell.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `RosieCampbell/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2025-08-12
 
@@ -183,7 +184,7 @@ https://x.com/RosieCampbell/status/1564961860452880385 · [archived](https://web
 
 https://x.com/RosieCampbell/status/1564804284515958784 · [archived](https://web.archive.org/web/20220831023849/https://twitter.com/RosieCampbell/status/1564804284515958784)
 
-## 2022-08-30
+## 2022-08-30 · reply to @buddhistprolife
 
 > @enlpess @SarahTheHaider I'm not sure, I don't think someone is obliged to go through that even if we ascribe personhood to the fetus. I buy the violinist thought experiment https://t.co/qye5s8Efev
 > 
@@ -249,37 +250,31 @@ https://x.com/RosieCampbell/status/1556079204818554881 · [archived](https://web
 
 https://x.com/RosieCampbell/status/1556079197335871488 · [archived](https://web.archive.org/web/20220807004738/https://twitter.com/RosieCampbell/status/1556079197335871488)
 
-## 2022-05-16
-
-> Anyone know how to get hold of a copy of "Hitch Hiker's Guide to the Galaxy: Fit the Third", original radio series, which INCLUDES  the musical joke that was in the original broadcast but commercial recordings omit for copyright reasons? https://t.co/RMr82Srq8a
-
-https://x.com/RosieCampbell/status/1526223203198046208 · [archived](https://web.archive.org/web/20220516153001/https://twitter.com/RosieCampbell/status/1526223203198046208)
-
-## 2022-04-07
+## 2022-04-07 · reply to @Gurdur
 
 > @Gurdur @ciphergoth My feeling is that even without this kind of deliberate self-alteration, an increasingly capable system optimizing for its initial goals would carry significant risks if we don't think through carefully what those goals should be and how we can correct it as it gets more powerful
 
 https://x.com/RosieCampbell/status/1512208545294393349 · [archived](https://web.archive.org/web/20220407232005/https://twitter.com/RosieCampbell/status/1512208545294393349)
 
-## 2022-04-07
+## 2022-04-07 · reply to @woj_zaremba
 
 > @woj_zaremba @MaxIlse @OpenAI @sama @Miles_Brundage There's also the factor that those are very high-stakes domains, where mistakes are incredibly costly, and so ironing out kinks and safety issues in lower stakes domains can be valuable
 
 https://x.com/RosieCampbell/status/1512206920664330242 · [archived](https://web.archive.org/web/20220407231415/https://twitter.com/RosieCampbell/status/1512206920664330242)
 
-## 2022-04-07
+## 2022-04-07 · reply to @ciphergoth
 
 > @ciphergoth @Gurdur My guess is "deliberate" is the keyword here - i.e., even if it writes the code for a successor AI, it has no reason to change its goals unless it develops its own intentions (i.e. is self-conscious)? (@Gurdur please correct me if I'm misunderstanding)
 
 https://x.com/RosieCampbell/status/1512206350511616008 · [archived](https://web.archive.org/web/20220407231133/https://twitter.com/RosieCampbell/status/1512206350511616008)
 
-## 2022-04-07
+## 2022-04-07 · reply to @RosieCampbell
 
 > @Gurdur @ciphergoth (And even if we manage to ensure it only does what it's used for, there's the question of what risks we take on in the case that people with malicious intent (or even just a lack of good judgement) get control of such capable systems)
 
 https://x.com/RosieCampbell/status/1512204706688380931 · [archived](https://web.archive.org/web/20220407230522/https://twitter.com/RosieCampbell/status/1512204706688380931)
 
-## 2022-04-07
+## 2022-04-07 · reply to @Gurdur
 
 > @Gurdur @ciphergoth I think of it more as a system that will ruthlessly optimize, and unless we successfully build in safeguards it doesn't seem unthinkable that it could get out of our direct control. Similar to our economic system, or the effects of optimizing for engagement, or the internet
 
@@ -325,13 +320,13 @@ https://x.com/RosieCampbell/status/1420524227602436096 · [archived](https://web
 
 https://x.com/RosieCampbell/status/1395552574468608002 · [archived](https://web.archive.org/web/20210522002856/https://twitter.com/RosieCampbell/status/1395552574468608002)
 
-## 2021-04-09
+## 2021-04-09 · reply to @jtpeterson219
 
 > @jtpeterson219 @least_nathan @LFeldmanBarrett I wouldn't say I have no conscious recognition of what is happening in my body!! Just that emotions very much feel to me like more of a mental experience than a physical one
 
 https://x.com/RosieCampbell/status/1380528196769116166 · [archived](https://web.archive.org/web/20210409142954/https://twitter.com/RosieCampbell/status/1380528196769116166)
 
-## 2021-04-09
+## 2021-04-09 · reply to @nate_zec
 
 > @least_nathan @jtpeterson219 To me it feels very similar to feeling sick, so when I’ve been nauseous (eg if I’m ill) it sometimes feels like butterflies.
 > 
@@ -339,7 +334,7 @@ https://x.com/RosieCampbell/status/1380528196769116166 · [archived](https://web
 
 https://x.com/RosieCampbell/status/1380525824386867203 · [archived](https://web.archive.org/web/20210409142013/https://twitter.com/RosieCampbell/status/1380525824386867203)
 
-## 2021-04-09
+## 2021-04-09 · reply to @nate_zec
 
 > @least_nathan @jtpeterson219 Having thought more about this, I’ve realized I do feel physical effects (eg stomach butterflies) but they feel like a result of me consciously noticing the emotion. The thing I am confused by is when people feel the physical sensation first &amp; that helps them identify the emotion
 
@@ -386,7 +381,7 @@ https://x.com/RosieCampbell/status/1370072595052195841 · [archived](https://web
 
 https://x.com/RosieCampbell/status/1366626698981117952 · [archived](https://web.archive.org/web/20210302054949/https://twitter.com/RosieCampbell/status/1366626698981117952)
 
-## 2021-03-02
+## 2021-03-02 · reply to @tessafyi
 
 > @tessafyi Also '"seems legit" - the FDA' should definitely be how companies advertise approved drugs 😂
 
@@ -416,7 +411,7 @@ https://x.com/RosieCampbell/status/1365383868782497793 · [archived](https://web
 
 https://x.com/RosieCampbell/status/1365383866748334081 · [archived](https://web.archive.org/web/20210226193126/https://twitter.com/RosieCampbell/status/1365383866748334081)
 
-## 2021-02-23
+## 2021-02-23 · reply to @al_malecha
 
 > @al_malecha I would probably have strong feelings on this if I had more info about your needs and constraints (and knew what a congressional sign-on was 😅) 
 > 
@@ -442,25 +437,6 @@ https://x.com/RosieCampbell/status/1362277269977264133 · [archived](https://web
 
 https://x.com/RosieCampbell/status/1305935918461673472 · [archived](https://web.archive.org/web/20200915182649/https://twitter.com/RosieCampbell/status/1305935918461673472)
 
-## 2020-08-27
-
-> I worry that we only message to the incautious people, and forget the cautious ones.
-> 
-> If you've been being careful - start seeing your friends again! Outside &amp; masked &amp; distanced is really quite safe, and (in the US) it'll be months and months before the situation changes. 🍂🏞️
-
-Quoting https://x.com/Noahpinion/status/1299064289706143745:
-> Coronavirus risk, in one handy chart.
-> 
-> Basically: 
-> Outside is safer than inside
-> Masked is safer than unmasked
-> Brief contact is safer than prolonged contact
-> Speaking quietly is safer than shouting/singing
-> 
-> Source: https://t.co/5N2QlzKUDX https://t.co/mFV53wDkIC
-
-https://x.com/RosieCampbell/status/1299086338738720768 · [archived](https://web.archive.org/web/20200827204836/https://twitter.com/RosieCampbell/status/1299086338738720768)
-
 ## 2020-08-11
 
 > Anyone looking to get into ops at AI safety/governance orgs? This is a great opportunity especially for junior folks
@@ -479,12 +455,6 @@ https://x.com/RosieCampbell/status/1293018014154027008 · [archived](https://web
 
 https://x.com/RosieCampbell/status/1291920168919027713 · [archived](https://web.archive.org/web/20200808021259/https://twitter.com/RosieCampbell/status/1291920168919027713)
 
-## 2020-08-03
-
-> Random rant: it seems important for kids to know when and why markets are effective, that most interactions aren't zero sum, that good policy often involves trade-offs etc. And yet I never had a single economics lesson in school. I did, however, receive lessons in how to sew.
-
-https://x.com/RosieCampbell/status/1290341718932385794 · [archived](https://web.archive.org/web/20200803174952/https://twitter.com/RosieCampbell/status/1290341718932385794)
-
 ## 2020-07-08
 
 > Am I in a minority by mostly preferring video calls to phone calls (unless I know the person really well)? I find the lack of facial expressions and body language cues so unsettling
@@ -496,25 +466,13 @@ Quoting https://x.com/KateBour/status/1280564143448350721:
 
 https://x.com/RosieCampbell/status/1280683997475946496 · [archived](https://web.archive.org/web/20200708023148/https://twitter.com/RosieCampbell/status/1280683997475946496)
 
-## 2020-06-30 · reply to @richdavisphd
-
-> Check out this mini-thread of empathetic messaging examples. Acknowledge why it's hard, why it's uncomfortable. It's true and it helps establish trust: https://t.co/VrteEnONO3
-
-https://x.com/RosieCampbell/status/1277784841535152128 · [archived](https://web.archive.org/web/20200630020606/https://twitter.com/RosieCampbell/status/1277784841535152128)
-
-## 2020-06-26
-
-> This is 🔥‼️ just signed up for https://t.co/nIeNtr5upr. Now every time Trump tweets, I donate to Black-led political organizers that will help us win the swing states. EVERYONE NEEDS TO DO THIS! #DefeatByTweet @realDonaldTrump @DefeatByTweet
-
-https://x.com/RosieCampbell/status/1276581183371964416 · [archived](https://web.archive.org/web/20200626182919/https://twitter.com/RosieCampbell/status/1276581183371964416)
-
 ## 2020-06-23
 
 > On a meta-level, a norm of deanonymizing writers for no apparent journalistic reason seems bad for public discourse (especially when they have very good reasons to prefer pseudonymity). What is @nytimes policy here? @puiwingtam
 
 https://x.com/RosieCampbell/status/1275547656471756801 · [archived](https://web.archive.org/web/20200623215626/https://twitter.com/RosieCampbell/status/1275547656471756801)
 
-## 2020-06-23
+## 2020-06-23 · reply to @RobertHaisfield
 
 > @RobertHaisfield That's v helpful, thanks! Sounds like it may not make sense for me to switch at this point as I have a specific workflow that is working well for me and it may not be easy to port over. I do like the idea of paying for a service in return for increased privacy control though
 
@@ -527,12 +485,6 @@ https://x.com/RosieCampbell/status/1275441806289670149 · [archived](https://web
 > So where does that leave things? In my opinion:
 
 https://x.com/RosieCampbell/status/1273717936386015232 · [archived](https://web.archive.org/web/20200618204417/https://twitter.com/RosieCampbell/status/1273717936386015232)
-
-## 2020-06-09
-
-> We’ve been talking at OpenAI about what we can do to help Black equity. We’re committing $1M to this cause via direct donations and expanding our Scholars program, which provides educational resources and mentoring to underrepresented groups in AI. (1/4)
-
-https://x.com/RosieCampbell/status/1270194843906523136 · [archived](https://web.archive.org/web/20200609033326/https://twitter.com/RosieCampbell/status/1270194843906523136)
 
 ## 2020-06-06 · possibly deleted
 
@@ -561,12 +513,6 @@ Quoting https://x.com/FHIOxford/status/1260603044217204736:
 
 https://x.com/RosieCampbell/status/1260660375529205760 · [archived](https://web.archive.org/web/20200514042507/https://twitter.com/RosieCampbell/status/1260660375529205760)
 
-## 2020-05-01
-
-> Job alert! The AI Index is growing - come help us put together the 2020 @indexingai report, and help us communicate the findings to policymakers and others around the world. Role is Bay Area-based and would suit a keen project manager who loves reading arXiv. DM me for details! https://t.co/QEOt8HLwjf
-
-https://x.com/RosieCampbell/status/1256030207078625280 · [archived](https://web.archive.org/web/20200506221830/https://twitter.com/RosieCampbell/status/1256030207078625280)
-
 ## 2020-04-27
 
 > Hey #ICLR2020! Come chat about anticipating risky research with me and @b_cavello at our social tomorrow and Wednesday https://t.co/mS5n7IRo1Z
@@ -587,21 +533,11 @@ https://x.com/RosieCampbell/status/1254884150827311105 · [archived](https://web
 
 https://x.com/RosieCampbell/status/1254766076560158724 · [archived](https://web.archive.org/web/20200505043609/https://twitter.com/RosieCampbell/status/1254766076560158724)
 
-## 2020-04-02
+## 2020-04-02 · reply to @aaronfhamlin
 
 > @aaronfhamlin @ElectionScience @ncasenmare @StewartRebeccaL @danielmallatt @MMitchellBrown @GretchenMarina @TLosoff @MK_McMaster @niais @reedgalen @katherinegehl @RattrayAlex @michelleshafer I'm planning to join!
 
 https://x.com/RosieCampbell/status/1245778594418192384 · [archived](https://web.archive.org/web/20200403054525/https://twitter.com/RosieCampbell/status/1245778594418192384)
-
-## 2020-03-29
-
-> We’ve been anxiously awaiting the surge of #COVID19 patients in San Francisco. The number of hospital cases increase slowly daily.
-> 
-> But, it hit me today... we are in a flattened curve. 
-> 
-> While the surge is surely still coming, we have time. Each day we are more prepared.
-
-https://x.com/RosieCampbell/status/1244135759616954369 · [archived](https://web.archive.org/web/20200329054003/https://twitter.com/RosieCampbell/status/1244135759616954369)
 
 ## 2020-03-06 · possibly deleted
 
@@ -630,7 +566,7 @@ https://x.com/RosieCampbell/status/1230211975621136384 · [archived](https://web
 
 https://x.com/RosieCampbell/status/1222225047151972352 · [archived](https://web.archive.org/web/20200131021139/https://twitter.com/RosieCampbell/status/1222225047151972352)
 
-## 2020-01-24
+## 2020-01-24 · reply to @michael_nielsen
 
 > @michael_nielsen @RoamResearch I'm using it as a personal homepage which I'm slowly building out into a kind of wiki https://t.co/N3RpDRdpzT
 
@@ -678,19 +614,19 @@ https://x.com/RosieCampbell/status/1212049755150274560 · [archived](https://web
 
 https://x.com/RosieCampbell/status/1212049752302346241 · [archived](https://web.archive.org/web/20200110074511/https://twitter.com/RosieCampbell/status/1212049752302346241)
 
-## 2019-12-31
+## 2019-12-31 · reply to @cnorthwood
 
 > @cnorthwood I still don't trust myself enough to not use an alarm at all, so I set one just in case for the latest I can afford to wake up but usually find I wake up naturally before it goes off
 
 https://x.com/RosieCampbell/status/1212035782355013636 · [archived](https://web.archive.org/web/20200101092656/https://twitter.com/RosieCampbell/status/1212035782355013636)
 
-## 2019-12-31
+## 2019-12-31 · reply to @RosieCampbell
 
 > Another strategy I sometimes use if my mind is racing is to make a deal with myself to spend 20 minutes worrying about The Thing in the morning (you can even block it out on your calendar so you trust you'll do it)
 
 https://x.com/RosieCampbell/status/1212034429784219648 · [archived](https://web.archive.org/web/20200103161016/https://twitter.com/RosieCampbell/status/1212034429784219648)
 
-## 2019-12-31
+## 2019-12-31 · reply to @RosieCampbell
 
 > I use an eye mask, and have a kind of pavlovian response now such that as soon as I put it on my brain knows it's time to sleep. It has built in earphones which is handy for listening to podcasts when I need to distract my racing mind https://t.co/x3ilkGaW45
 
@@ -702,13 +638,13 @@ https://x.com/RosieCampbell/status/1212034428563705856 · [archived](https://web
 
 https://x.com/RosieCampbell/status/1210286222129717248 · [archived](https://web.archive.org/web/20191226200425/https://twitter.com/RosieCampbell/status/1210286222129717248)
 
-## 2019-12-08
+## 2019-12-08 · reply to @RosieCampbell
 
 > Examples like this are why I'm worried about AI alignment and misspecified objectives: it's so easy to fall prey to Goodhart's Law and optimize for the target when it's not the thing you actually care about (even as humans who should know better!) (4/4)
 
 https://x.com/RosieCampbell/status/1203694546015535104 · [archived](https://web.archive.org/web/20191208153250/https://twitter.com/RosieCampbell/status/1203694546015535104)
 
-## 2019-11-20
+## 2019-11-20 · reply to @s8mb
 
 > @s8mb @robertwiblin If you end up getting one let me know what you think - FYI you may need to take out some of the husks to get it to your desired level of firmness (keep them safe so you can top it up in future though). Hope you love it as much as I do!
 
@@ -723,13 +659,13 @@ Quoting https://x.com/BayAreaNewLibs/status/1187555661166465025:
 
 https://x.com/RosieCampbell/status/1187600195543953410 · [archived](https://web.archive.org/web/20191025052426/https://twitter.com/RosieCampbell/status/1187600195543953410)
 
-## 2019-10-22
+## 2019-10-22 · reply to @sarahjessica1
 
 > @sarahjessica1 Wow I don't think I've seen anywhere just totally forbid access due to GDPR! If you Google '"God the Mother" and "World Mission Society" you should be able to find somewhere to read about them
 
 https://x.com/RosieCampbell/status/1186661452955803648 · [archived](https://web.archive.org/web/20191022183937/https://twitter.com/RosieCampbell/status/1186661452955803648)
 
-## 2019-09-30
+## 2019-09-30 · reply to @dylanmatt
 
 > @dylanmatt @graykimbrough Seems possible that a few hours of TV helps people relax after a cognitively taxing day, so might not necessarily increase if they no longer have a taxing job? (Could test this theory by looking at people who currently don't work, but there might be a selection bias)
 

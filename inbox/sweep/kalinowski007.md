@@ -4,12 +4,12 @@ Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
 - Archived posts found: 836 (2015-09-24 to 2026-05-17)
-- Read so far: 836 (100%); text found for 781; 0 not read yet
+- Read so far: 836 (100%); text found for 817; 0 not read yet
 - Possibly deleted: 819
-- Matching the topic filter: 160
+- Matching the topic filter: 165
 
 
-Every post is in `kalinowski007.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `kalinowski007/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-03-07 · reply to @maylivesforever
 
@@ -13815,9 +13815,7 @@ https://x.com/kalinowski007/status/1534567950065319936 · [archived](https://web
 
 ## 2022-06-07 · possibly deleted
 
-> People are discussing empathy - attempting to be more empathetic, and making a business case for greater empathy in the future of work.
-> Read more on how empathy will shape the future of work in some exciting ways: https://t.co/lQolKEqeXD
-> #Empathy
+_(text not available)_
 
 https://x.com/kalinowski007/status/1534202292496478210 · [archived](https://web.archive.org/web/20220607155605/https://twitter.com/kalinowski007/status/1534202292496478210)
 
@@ -15240,7 +15238,7 @@ https://x.com/kalinowski007/status/1465381403705622535 · [archived](https://web
 
 ## 2021-11-28 · possibly deleted
 
-_(text not available)_
+> Hard to fathom the gap that Virgil Abloh will leave behind.
 
 https://x.com/kalinowski007/status/1465057218559053829 · [archived](https://web.archive.org/web/20211130085416/https://twitter.com/kalinowski007/status/1465057218559053829)
 
@@ -15363,7 +15361,7 @@ https://x.com/kalinowski007/status/1460677317240541187 · [archived](https://web
 
 ## 2021-11-16 · possibly deleted
 
-_(text not available)_
+> Here’s a look at our haptic glove research and the advances in soft robotics, microfluidics, hand tracking, haptic rendering, and perceptual science that that work entails: https://t.co/v8eFG4vtBu https://t.co/bFQmwt0TNH
 
 https://x.com/kalinowski007/status/1460674385707036676 · [archived](https://web.archive.org/web/20211116183658/https://twitter.com/kalinowski007/status/1460674385707036676)
 
@@ -15575,7 +15573,7 @@ https://x.com/kalinowski007/status/1453789395719311361 · [archived](https://web
 
 ## 2021-10-28 · possibly deleted
 
-_(text not available)_
+> So excited for Project Cambria - it’s the next step in feeling present with people in VR. And, since I’ve been lucky enough to try it, I can say it’s the most comfortable headset and the passthrough makes it seamless to interact in VR and the physical world 😎 #FacebookConnect
 
 https://x.com/kalinowski007/status/1453788827441500160 · [archived](https://web.archive.org/web/20211028183427/https://twitter.com/kalinowski007/status/1453788827441500160)
 
@@ -15787,7 +15785,7 @@ https://x.com/kalinowski007/status/1446302586383085578 · [archived](https://web
 
 ## 2021-10-07 · possibly deleted
 
-_(text not available)_
+> Our connectivity researchers are working on ways to slash the amount of time and money it takes to roll out high-speed broadband. They developed a robot that crawls along power lines, wrapping them with fiber-optic cable. No more digging trenches! https://t.co/DTyDDDulM7
 
 https://x.com/kalinowski007/status/1446204733509697537 · [archived](https://web.archive.org/web/20211007200419/https://twitter.com/kalinowski007/status/1446204733509697537)
 
@@ -15920,7 +15918,7 @@ https://x.com/kalinowski007/status/1441223872074842115 · [archived](https://web
 
 ## 2021-09-23 · possibly deleted
 
-_(text not available)_
+> Virtual reality is best when shared. So we’re gonna help you share it. For a limited time, buy a Quest 2 and get a second for $100 off. Terms and conditions apply. https://t.co/3y3VqotU9T
 
 https://x.com/kalinowski007/status/1441041225595990018 · [archived](https://web.archive.org/web/20210923204645/https://twitter.com/kalinowski007/status/1441041225595990018)
 
@@ -16032,7 +16030,7 @@ https://x.com/kalinowski007/status/1437804149001752576 · [archived](https://web
 
 ## 2021-09-14 · possibly deleted
 
-_(text not available)_
+> @ID_AA_Carmack @Heaney555 Our engineering and design teams work to give the best IPD range possible for each headset. The higher the range, the more inner space left-to-right we need to have INSIDE each headset, which affects the overall width, and therefore the overall product weight and size.
 
 https://x.com/kalinowski007/status/1437803996987551745 · [archived](https://web.archive.org/web/20210915012536/https://twitter.com/kalinowski007/status/1437803996987551745)
 
@@ -16089,7 +16087,9 @@ https://x.com/kalinowski007/status/1434528769767878664 · [archived](https://web
 
 ## 2021-09-04 · possibly deleted
 
-_(text not available)_
+> Britain's National Health Service is using VR to help people overcome social anxiety. Users 'complete' daily tasks such as going into a supermarket, paying for items, or catching a bus.
+> Find out more here: https://t.co/Cy2qnw98nf
+> #VRinMentalHealth #SocialAnxiety
 
 https://x.com/kalinowski007/status/1434210663065395208 · [archived](https://web.archive.org/web/20210904182221/https://twitter.com/kalinowski007/status/1434210663065395208)
 
@@ -16151,7 +16151,7 @@ https://x.com/kalinowski007/status/1431992307918770184 · [archived](https://web
 
 ## 2021-08-28 · possibly deleted
 
-_(text not available)_
+> @glaad Campus Ambassador Shannon Li shared her inspiring story of how she navigated tech as a queer woman of color at the Univerity of Michigan and her observations about the inequities within #STEM education. Read more here: https://t.co/B7qPFQo3f7
 
 https://x.com/kalinowski007/status/1431668160218947590 · [archived](https://web.archive.org/web/20210828175746/https://twitter.com/kalinowski007/status/1431668160218947590)
 
@@ -16395,7 +16395,7 @@ https://x.com/kalinowski007/status/1423658133357006853 · [archived](https://web
 
 ## 2021-08-06 · possibly deleted
 
-_(text not available)_
+> Women in tech at all stages share what they achieved, how they did it, the mentors they had, the resources they accessed, the challenges they overcame. I wanted to give Women in Tech Podcast listeners the strength to see it's possible for them to win too. #womeninbusiness
 
 https://x.com/kalinowski007/status/1423629265912967168 · [archived](https://web.archive.org/web/20210806201744/https://twitter.com/kalinowski007/status/1423629265912967168)
 
@@ -16516,7 +16516,8 @@ https://x.com/kalinowski007/status/1418985593346924547 · [archived](https://web
 
 ## 2021-07-23 · possibly deleted
 
-_(text not available)_
+> VR Training for the reality of today. By bringing the best immersive content to devices, @axon_us prepares first responders for complex real-world situations. To learn how watch the video: https://t.co/2au9Y4zofS
+> #VR #VirtualReality #CKtalkstech #VRtraining https://t.co/ISRlwwkrSk
 
 https://x.com/kalinowski007/status/1418617093575094275 · [archived](https://web.archive.org/web/20210723170111/https://twitter.com/kalinowski007/status/1418617093575094275)
 
@@ -16622,7 +16623,8 @@ https://x.com/kalinowski007/status/1413910403176964096 · [archived](https://web
 
 ## 2021-07-09 · possibly deleted
 
-_(text not available)_
+> How effective is your team? @CaliperCorp has created the 10 best practices for #teambuilding that's not only mentally tough but extremely effective. https://t.co/GCl4SbIUkH
+> #Leadership #Teamwork
 
 https://x.com/kalinowski007/status/1413511790130958339 · [archived](https://web.archive.org/web/20210709161015/https://twitter.com/kalinowski007/status/1413511790130958339)
 
@@ -16735,7 +16737,8 @@ https://x.com/kalinowski007/status/1408843263822512128 · [archived](https://web
 
 ## 2021-06-25 · possibly deleted
 
-_(text not available)_
+> Understanding and having compassion for other peoples' emotions is critical for working together efficiently and keeping up workplace morale. Discover four expert tips to integrate more empathy into your company culture. https://t.co/E8J40r40qD
+> #EmapthyAtWork #DevelopEmpathy
 
 https://x.com/kalinowski007/status/1408432344692936713 · [archived](https://web.archive.org/web/20210625143032/https://twitter.com/kalinowski007/status/1408432344692936713)
 
@@ -16835,13 +16838,14 @@ https://x.com/kalinowski007/status/1404868611081129988 · [archived](https://web
 
 ## 2021-06-15 · possibly deleted
 
-_(text not available)_
+> Me at every party
 
 https://x.com/kalinowski007/status/1404695283087208451 · [archived](https://web.archive.org/web/20210615070037/https://twitter.com/kalinowski007/status/1404695283087208451)
 
 ## 2021-06-15 · possibly deleted
 
-_(text not available)_
+> How do we open the doors for more young women to enter the world of STEM? This article describes 3 main barriers facing young women today and the steps on how to overcome them. https://t.co/U7759tOF0Z
+> #STEM #WomenInSTEM #STEMettes #STEMcareer #STEMmentorship #STEMcapital
 
 https://x.com/kalinowski007/status/1404648740305182725 · [archived](https://web.archive.org/web/20210615041817/https://twitter.com/kalinowski007/status/1404648740305182725)
 
@@ -16896,7 +16900,9 @@ https://x.com/kalinowski007/status/1402326098231402499 · [archived](https://web
 
 ## 2021-06-08 · possibly deleted
 
-_(text not available)_
+> 👋 @kalinowski007, Head of Hardware @Oculus will deliver a talk within our #WhatsNext Webinar Series this month, revealing culture hacks to stay connected and strategies for ruthless prioritization.
+> ✅ Free sign-up on: https://t.co/zloyf94L2g
+> #GIFLondon #innovation #freewebinar
 
 https://x.com/kalinowski007/status/1402314495356145667 · [archived](https://web.archive.org/web/20210608201040/https://twitter.com/kalinowski007/status/1402314495356145667)
 
@@ -16909,7 +16915,7 @@ https://x.com/kalinowski007/status/1402070629424185345 · [archived](https://web
 
 ## 2021-06-07 · possibly deleted
 
-_(text not available)_
+> @F7Ventures @FastCompany Thank you!!! Such an honor to be included in this list.
 
 https://x.com/kalinowski007/status/1401729914856898560 · [archived](https://web.archive.org/web/20210607023755/https://twitter.com/kalinowski007/status/1401729914856898560)
 
@@ -16951,7 +16957,7 @@ https://x.com/kalinowski007/status/1400861471794466821 · [archived](https://web
 
 ## 2021-06-04 · possibly deleted
 
-_(text not available)_
+> @xeni That slur is not yours to use.
 
 https://x.com/kalinowski007/status/1400853504915214337 · [archived](https://web.archive.org/web/20210604163928/https://twitter.com/kalinowski007/status/1400853504915214337)
 
@@ -16964,7 +16970,7 @@ https://x.com/kalinowski007/status/1400826989804769282 · [archived](https://web
 
 ## 2021-06-04 · possibly deleted
 
-_(text not available)_
+> @Gabrielle_Korn #goals
 
 https://x.com/kalinowski007/status/1400650789278785544 · [archived](https://web.archive.org/web/20210604030932/https://twitter.com/kalinowski007/status/1400650789278785544)
 
@@ -17002,7 +17008,8 @@ https://x.com/kalinowski007/status/1400248409899085825 · [archived](https://web
 
 ## 2021-06-02 · possibly deleted
 
-_(text not available)_
+> A new virtual reality app called "A Mile In My Shoes" is currently being tested &amp; is designed to help bring awareness to unconscious biases. Listen to this NPR story &amp; share your thoughts! https://t.co/TjWIdwLl3o
+> #VRapplication #VirtualReality #VRtraining #VReducation
 
 https://x.com/kalinowski007/status/1400105128393416717 · [archived](https://web.archive.org/web/20210602151651/https://twitter.com/kalinowski007/status/1400105128393416717)
 
@@ -17015,7 +17022,7 @@ https://x.com/kalinowski007/status/1399575223117156354 · [archived](https://web
 
 ## 2021-05-30 · possibly deleted
 
-_(text not available)_
+> Most of the best designers are unknown to the public. As Rachael Chong states, "I believe in a quiet, strong and grounded leadership. I think some of the best leaders are those whose work is widely known and respected but who, themselves, are relatively unknown."
 
 https://x.com/kalinowski007/status/1399019802551898117 · [archived](https://web.archive.org/web/20210530151514/https://twitter.com/kalinowski007/status/1399019802551898117)
 
@@ -17028,19 +17035,21 @@ https://x.com/kalinowski007/status/1398696151680008197 · [archived](https://web
 
 ## 2021-05-28 · possibly deleted
 
-_(text not available)_
+> The way we work is changing rapidly. David Katzman of Onshape explains the future of team collaboration and the cultural changes organizations should undertake to make it happen. https://t.co/RCHIK1rsiy
+> #ProductDevelopment #DevelopmentLifecycle #ProductEngineering
 
 https://x.com/kalinowski007/status/1398290507730722820 · [archived](https://web.archive.org/web/20210528145150/https://twitter.com/kalinowski007/status/1398290507730722820)
 
 ## 2021-05-28 · possibly deleted
 
-_(text not available)_
+> "Leadership is about empathy. It is about having the ability to relate to and connect with people for the purpose of inspiring and empowering their lives." - Oprah Winfrey
 
 https://x.com/kalinowski007/status/1398098460776218627 · [archived](https://web.archive.org/web/20210528042200/https://twitter.com/kalinowski007/status/1398098460776218627)
 
 ## 2021-05-27 · possibly deleted
 
-_(text not available)_
+> Getting more girls and young women to enter and continue STEM careers continues to be something I am very passionate about. Recently I was featured in an article exploring how this can be done. Read more: https://t.co/5JBqWKv1uQ
+> #CKtalks #CKtalkstech #WomenInSTEM
 
 https://x.com/kalinowski007/status/1398016197476638736 · [archived](https://web.archive.org/web/20210527204136/https://twitter.com/kalinowski007/status/1398016197476638736)
 
@@ -17052,31 +17061,33 @@ https://x.com/kalinowski007/status/1397998147524120576 · [archived](https://web
 
 ## 2021-05-27 · possibly deleted
 
-_(text not available)_
+> @MikeMcCready Thanks @MikeMcCready, what's your favorite content?
 
 https://x.com/kalinowski007/status/1397996938759315457 · [archived](https://web.archive.org/web/20210527192628/https://twitter.com/kalinowski007/status/1397996938759315457)
 
 ## 2021-05-27 · possibly deleted
 
-_(text not available)_
+> @ADT Hey guys, I just called, customer service said there were "zero" appointments available in SF. Is this a special number? Thanks
 
 https://x.com/kalinowski007/status/1397995352070909953 · [archived](https://web.archive.org/web/20210527191805/https://twitter.com/kalinowski007/status/1397995352070909953)
 
 ## 2021-05-27 · possibly deleted
 
-_(text not available)_
+> I have been trying to get @ADT to come service my camera security system for about 18 months, that’s how long it hasn’t been working. They don’t have any appointments open for the next three months. Now the service reps won’t even allow me to cancel my account so I can switch.
 
 https://x.com/kalinowski007/status/1397989046752710656 · [archived](https://web.archive.org/web/20210527185439/https://twitter.com/kalinowski007/status/1397989046752710656)
 
 ## 2021-05-27 · possibly deleted
 
-_(text not available)_
+> When we delivered the Oculus Quest 2, we improved on the Quest in almost every way, reducing the price $100, packing in 50% more pixels with 10% less weight, and improving the controllers. https://t.co/m4Eet7X3Io
+> #OculusQuest2 #VRproductdesign #DesignProcess #DesignPrinciples
 
 https://x.com/kalinowski007/status/1397706889849413637 · [archived](https://web.archive.org/web/20210527001140/https://twitter.com/kalinowski007/status/1397706889849413637)
 
 ## 2021-05-25 · possibly deleted
 
-_(text not available)_
+> Whether you’re building hardware or software, knowing how to leverage the art of prototyping from the first iteration to the last is critical to success. https://t.co/3PKIEGz5lH
+> #PrototypeDesign #CKtalkstech https://t.co/bSWjvYIV41
 
 https://x.com/kalinowski007/status/1397258949242593280 · [archived](https://web.archive.org/web/20210525185108/https://twitter.com/kalinowski007/status/1397258949242593280)
 
@@ -17094,7 +17105,7 @@ https://x.com/kalinowski007/status/1397173437785907204 · [archived](https://web
 
 ## 2021-05-25 · possibly deleted
 
-_(text not available)_
+> @VrRetweeter Thank you for the Retweet.
 
 https://x.com/kalinowski007/status/1397170837292208131 · [archived](https://web.archive.org/web/20210525125111/https://twitter.com/kalinowski007/status/1397170837292208131)
 
@@ -17106,7 +17117,7 @@ https://x.com/kalinowski007/status/1397170782493712391 · [archived](https://web
 
 ## 2021-05-25 · possibly deleted
 
-_(text not available)_
+> @productbot6 Thank you for the Retweet.
 
 https://x.com/kalinowski007/status/1397170709483474945 · [archived](https://web.archive.org/web/20210525124322/https://twitter.com/kalinowski007/status/1397170709483474945)
 
@@ -17160,13 +17171,14 @@ https://x.com/kalinowski007/status/1397169803371110407 · [archived](https://web
 
 ## 2021-05-25 · possibly deleted
 
-_(text not available)_
+> I am excited about what the future of VR gaming holds. I’m also interested in the ways VR will be developed to benefit other areas, such as real estate, architecture, and computer-aided design. https://t.co/34PtEe6xM2
+> #VRforEveryone #FutureofVR #Disruption
 
 https://x.com/kalinowski007/status/1397038602203410433 · [archived](https://web.archive.org/web/20210525035712/https://twitter.com/kalinowski007/status/1397038602203410433)
 
 ## 2021-05-25 · possibly deleted
 
-_(text not available)_
+> Boz writes about something I’ve always been a bit baffled by: when people ask for my career advice, they judge themselves so harshly on their own motivations. Better to accept yourself, and flourish. https://t.co/7DuBPScPBT
 
 https://x.com/kalinowski007/status/1397005967808663554 · [archived](https://web.archive.org/web/20210525030656/https://twitter.com/kalinowski007/status/1397005967808663554)
 
@@ -17178,7 +17190,7 @@ https://x.com/kalinowski007/status/1396523753300013059 · [archived](https://web
 
 ## 2021-05-22 · possibly deleted
 
-> @cmclymer And she’s funny!
+_(text not available)_
 
 https://x.com/kalinowski007/status/1396253368297869314 · [archived](https://web.archive.org/web/20210522235542/https://twitter.com/kalinowski007/status/1396253368297869314)
 
@@ -17216,7 +17228,8 @@ https://x.com/kalinowski007/status/1395173691852566528 · [archived](https://web
 
 ## 2021-05-18 · possibly deleted
 
-_(text not available)_
+> In many cases, serving customers better begins with great design. This applies not only to the design of physical products, but to the user experience and interface of digital products. https://t.co/282Evi6Nnu
+> #ProductDesignTrends2021 #ProductDesign #UXdesign #UIdesign
 
 https://x.com/kalinowski007/status/1394722223433424897 · [archived](https://web.archive.org/web/20210518183127/https://twitter.com/kalinowski007/status/1394722223433424897)
 
@@ -17612,7 +17625,8 @@ https://x.com/kalinowski007/status/1385420418123767808 · [archived](https://web
 
 ## 2021-04-20 · possibly deleted
 
-_(text not available)_
+> The Girls in Tech organization's latest campaign, Half the Board, strives to correct gender parities by demanding that no less than 50% of corporate boardrooms be comprised of women by the year 2025. https://t.co/udwkl3TOVc
+> #WomenInTech #GirlsInTech #WomenWhoTech
 
 https://x.com/kalinowski007/status/1384570841778769926 · [archived](https://web.archive.org/web/20210420181350/https://twitter.com/kalinowski007/status/1384570841778769926)
 
@@ -17659,7 +17673,8 @@ https://x.com/kalinowski007/status/1382878923277676544 · [archived](https://web
 
 ## 2021-04-15 · possibly deleted
 
-_(text not available)_
+> 1/n Happy Earth Day! Facebook’s entire global operations are now powered by 100% renewable energy and our greenhouse gas emissions are down 94% over the last three years.
+> https://t.co/qmw64Qps7x
 
 https://x.com/kalinowski007/status/1382818319485390849 · [archived](https://web.archive.org/web/20210415221002/https://twitter.com/kalinowski007/status/1382818319485390849)
 
@@ -17745,7 +17760,8 @@ https://x.com/kalinowski007/status/1379500936180142082 · [archived](https://web
 
 ## 2021-04-06 · possibly deleted
 
-_(text not available)_
+> My 6-step approach to building strong prototypes applies to every product development situation, whether you’re in hardware or not. https://t.co/dSGYmO2tn6
+> #prototyping #ProcessDesign #TechPrototype
 
 https://x.com/kalinowski007/status/1379281722911686657 · [archived](https://web.archive.org/web/20210406041451/https://twitter.com/kalinowski007/status/1379281722911686657)
 
@@ -17851,7 +17867,7 @@ https://x.com/kalinowski007/status/1363371310697472000 · [archived](https://web
 
 ## 2021-02-09 · possibly deleted
 
-_(text not available)_
+> @Michelle_Skoor &lt;3
 
 https://x.com/kalinowski007/status/1359180035513458688 · [archived](https://web.archive.org/web/20210209163937/https://twitter.com/kalinowski007/status/1359180035513458688)
 
@@ -17869,7 +17885,8 @@ https://x.com/kalinowski007/status/1353751539395960832 · [archived](https://web
 
 ## 2021-01-21 · possibly deleted
 
-_(text not available)_
+> Thrilled to announce Director of Hardware at Oculus VR @kalinowski007 is speaking at #BuildBetter2021. Sign up to the event to hear how Facebook Reality Labs stayed on schedule to launch the Oculus Quest 2 during the COVID-19 pandemic.
+> Save your seat: https://t.co/9hjwQSLPDf
 
 https://x.com/kalinowski007/status/1352057398639247361 · [archived](https://web.archive.org/web/20210121005632/https://twitter.com/kalinowski007/status/1352057398639247361)
 
@@ -17918,7 +17935,7 @@ https://x.com/kalinowski007/status/1329137436853633026 · [archived](https://web
 
 ## 2020-09-24 · possibly deleted
 
-_(text not available)_
+> @marifes Just trying to keep up with you, lady!
 
 https://x.com/kalinowski007/status/1308960473820270592 · [archived](https://web.archive.org/web/20200924073350/https://twitter.com/kalinowski007/status/1308960473820270592)
 
@@ -17930,7 +17947,7 @@ https://x.com/kalinowski007/status/1308954073236824064 · [archived](https://web
 
 ## 2020-09-24 · possibly deleted
 
-_(text not available)_
+> Thanks @schrep for this interview covering the @oculus Quest 2! https://t.co/ncWauJmmQo
 
 https://x.com/kalinowski007/status/1308939252613349377 · [archived](https://web.archive.org/web/20200924055856/https://twitter.com/kalinowski007/status/1308939252613349377)
 
@@ -17949,7 +17966,7 @@ https://x.com/kalinowski007/status/1306417195853864960 · [archived](https://web
 
 ## 2020-09-16 · possibly deleted
 
-_(text not available)_
+> @isabeltewes I think it’s 10/13, @isabeltewes
 
 https://x.com/kalinowski007/status/1306306546058502145 · [archived](https://web.archive.org/web/20200916190012/https://twitter.com/kalinowski007/status/1306306546058502145)
 
@@ -17967,13 +17984,17 @@ https://x.com/kalinowski007/status/1306023187050835971 · [archived](https://web
 
 ## 2020-09-16 · possibly deleted
 
-_(text not available)_
+> Tomorrow is a big day! Please tune into Facebook Connect, starting at 10am, for the keynote and lots of surprises!!!
 
 https://x.com/kalinowski007/status/1306023139659350018 · [archived](https://web.archive.org/web/20200916001252/https://twitter.com/kalinowski007/status/1306023139659350018)
 
 ## 2020-09-09 · possibly deleted
 
-_(text not available)_
+> GPT-3 is going to change the way you work.
+> Introducing Quick Response by OthersideAI
+> Automatically write emails in your personal style by simply writing the key points you want to get across
+> The days of spending hours a day emailing are over!!!
+> Beta access link in bio! https://t.co/HFjZOgJvR8
 
 https://x.com/kalinowski007/status/1303749920713711616 · [archived](https://web.archive.org/web/20200909173954/https://twitter.com/kalinowski007/status/1303749920713711616)
 
@@ -18003,7 +18024,7 @@ https://x.com/kalinowski007/status/1297025244431974402 · [archived](https://web
 
 ## 2020-08-21 · possibly deleted
 
-_(text not available)_
+> @nealkhosla Erm, because Brad Pitt?!
 
 https://x.com/kalinowski007/status/1296884706382737409 · [archived](https://web.archive.org/web/20200821190140/https://twitter.com/kalinowski007/status/1296884706382737409)
 
@@ -18045,7 +18066,7 @@ https://x.com/kalinowski007/status/1291053120835870720 · [archived](https://web
 
 ## 2020-08-01 · possibly deleted
 
-_(text not available)_
+> @ElawReads https://t.co/4CvuhnV3Ay
 
 https://x.com/kalinowski007/status/1289596262623272960 · [archived](https://web.archive.org/web/20200801161843/https://twitter.com/kalinowski007/status/1289596262623272960)
 
@@ -18099,7 +18120,7 @@ https://x.com/kalinowski007/status/1275952994090192906 · [archived](https://web
 
 ## 2020-06-16 · possibly deleted
 
-> @BarackObama Thanks Obama. We love you!
+_(text not available)_
 
 https://x.com/kalinowski007/status/1272760241713754112 · [archived](https://web.archive.org/web/20200616052635/https://twitter.com/kalinowski007/status/1272760241713754112)
 
@@ -18285,7 +18306,7 @@ https://x.com/kalinowski007/status/1260324119297441792 · [archived](https://web
 
 ## 2020-05-01 · possibly deleted
 
-> &lt;3 https://t.co/orTybdM3by
+_(text not available)_
 
 https://x.com/kalinowski007/status/1256265221716365313 · [archived](https://web.archive.org/web/20200507165234/https://twitter.com/kalinowski007/status/1256265221716365313)
 
@@ -18404,7 +18425,7 @@ https://x.com/kalinowski007/status/1238653358572855296 · [archived](https://web
 
 ## 2020-03-14 · possibly deleted
 
-> @WolfieVibes @fransquishco Got you!
+_(text not available)_
 
 https://x.com/kalinowski007/status/1238652675576623104 · [archived](https://web.archive.org/web/20200314054007/https://twitter.com/kalinowski007/status/1238652675576623104)
 
@@ -18428,7 +18449,7 @@ https://x.com/kalinowski007/status/1237218440068231168 · [archived](https://web
 
 ## 2020-03-07 · possibly deleted
 
-> 55 years ago today, we were beaten, tear gassed, and trampled by horses. I thought I saw death. I thought I was going to die. I don't know how I made it back, but I know we cannot rest. We cannot become weary. We must keep pushing and pulling and find a way to get in the way.
+_(text not available)_
 
 https://x.com/kalinowski007/status/1236410492438142976 · [archived](https://web.archive.org/web/20200308002222/https://twitter.com/kalinowski007/status/1236410492438142976)
 
@@ -18471,9 +18492,7 @@ https://x.com/kalinowski007/status/1225110101091946496 · [archived](https://web
 
 ## 2020-02-03 · possibly deleted
 
-> Katie Sowers' college didn't want her playing because she's gay.
-> Now she's the first woman to coach in the Super Bowl 🔥
-> WE LOVE TO SEE IT 👏🏿👏🏽👏🏻
+_(text not available)_
 
 https://x.com/kalinowski007/status/1224145800155918337 · [archived](https://web.archive.org/web/20200204193942/https://twitter.com/kalinowski007/status/1224145800155918337)
 
@@ -18605,7 +18624,7 @@ https://x.com/kalinowski007/status/1199787678914494464 · [archived](https://web
 
 ## 2019-11-27 · possibly deleted
 
-> @lesbiantech @lepitts @outmagazine Congrats @lepitts for the well-deserved honor!
+_(text not available)_
 
 https://x.com/kalinowski007/status/1199741537334071297 · [archived](https://web.archive.org/web/20191127174507/https://twitter.com/kalinowski007/status/1199741537334071297)
 
@@ -18750,7 +18769,7 @@ https://x.com/kalinowski007/status/1171855669248421888 · [archived](https://web
 
 ## 2019-09-11 · possibly deleted
 
-> I’m talking AR/VR tech (@karaswisher bring your boys!) at @lesbiantech's NY #LWTSUMMIT The world's most inclusive tech conf. The future is queer, inclusive, and badass! 🔥Thousands of LGBTQ women, non-binary and trans folks, and our allies on Sept 11 - 13. https://t.co/xKttPjgkDk
+_(text not available)_
 
 https://x.com/kalinowski007/status/1171589399353540613 · [archived](https://web.archive.org/web/20190927235747/https://twitter.com/kalinowski007/status/1171589399353540613)
 

@@ -2,44 +2,15 @@
 
 Swept 2026-09-30.
 
-- Posts on X, including reposts: 7985
-- Archived posts found: 4208 (… to +014096-08)
-- Read so far: 4208 (100%); text found for 4149; 0 not read yet
-- Possibly deleted: 69
-- Matching the topic filter: 612
+- Posts on X, including reposts: unknown
+- Archived posts found: 4071 (14 from before November 2010, 2010-11-04 to 2026-09-12)
+- Left out: 132 archived link(s) under this handle that X says another account wrote
+- Read so far: 4071 (100%); text found for 4013; 0 not read yet
+- Possibly deleted: 64
+- Matching the topic filter: 588
 
 
-Every post is in `sama.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
-
-## +014096-08 · possibly deleted
-
-_(text not available)_
-
-https://x.com/sama/status/1599668808285028353215 · [archived](https://web.archive.org/web/20240715172403/https://x.com/sama/status/1599668808285028353215Ibid)
-
-## 2164-03-31 · possibly deleted
-
-_(text not available)_
-
-https://x.com/sama/status/20304692777470193767 · [archived](https://web.archive.org/web/20260312110526/https://x.com/sama/status/20304692777470193767)
-
-## 2156-09-18 · possibly deleted
-
-_(text not available)_
-
-https://x.com/sama/status/19307850540050761002 · [archived](https://web.archive.org/web/20251205071108/https://x.com/sama/status/19307850540050761002/8Case)
-
-## 2156-09-18 · possibly deleted
-
-_(text not available)_
-
-https://x.com/sama/status/19307850540050761001 · [archived](https://web.archive.org/web/20251205070840/https://x.com/sama/status/19307850540050761001/8)
-
-## 2134-11-19 · possibly deleted
-
-_(text not available)_
-
-https://x.com/sama/status/16418189540197662789 · [archived](https://web.archive.org/web/20240418105836/https://twitter.com/sama/status/16418189540197662789)
+Every post is in `sama/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-09-12 · already cited
 
@@ -146,14 +117,6 @@ https://x.com/sama/status/2054627102922797323 · [archived](https://web.archive.
 
 https://x.com/sama/status/2053951874408276193 · [archived](https://web.archive.org/web/20260511224011/https://x.com/sama/status/2053951874408276193?ref_src=twsrc%5Etfw&ref=testingcatalog.com)
 
-## 2026-05-08
-
-> Chain of thought monitors are a key layer of defense against AI agent misalignment. To preserve monitorability, we avoid penalizing misaligned reasoning during RL.
-> 
-> We found a limited amount of accidental CoT grading which affected released models, and are sharing our analysis.
-
-https://x.com/sama/status/2052853008674017288 · [archived](https://web.archive.org/web/20260516033911/https://x.com/sama/status/2052853008674017288)
-
 ## 2026-05-03 · reply to @TheAhmadOsman
 
 > @TheAhmadOsman War is peace. Freedom is slavery. Ignorance is strength.
@@ -241,17 +204,6 @@ https://x.com/sama/status/2047378254575685707 · [archived](https://web.archive.
 
 https://x.com/sama/status/2047347674743963705 · [archived](https://web.archive.org/web/20260511155259/https://x.com/sama/status/2047347674743963705)
 
-## 2026-04-23
-
-> Today we’re introducing two big steps for health at OpenAI:
-> 
-> - ChatGPT for Clinicians, a free version of ChatGPT designed for clinical work
-> - HealthBench Professional, a new benchmark to evaluate real clinician chat tasks
-> 
-> We’re excited about what this can unlock for care. ❤️ https://t.co/FeBWhHQPiw
-
-https://x.com/sama/status/2047149494274515032 · [archived](https://web.archive.org/web/20260511203625/https://x.com/sama/status/2047149494274515032)
-
 ## 2026-04-16
 
 > Lots of major improvements to Codex!
@@ -259,12 +211,6 @@ https://x.com/sama/status/2047149494274515032 · [archived](https://web.archive.
 > Computer use is a real update for me; it feels even more useful than I expected. It can use all of the apps on your Mac, in parallel and without interfering with your direct work.
 
 https://x.com/sama/status/2044858862042591378 · [archived](https://web.archive.org/web/20260416195343/https://x.com/sama/status/2044858862042591378)
-
-## 2026-04-06
-
-> Proud to have been part of this. We outline policy ideas for the transition to superintelligence, to build an open economy where everyone benefits and a society that is resilient to the risks. Progress is fast, and we must navigate these issues urgently. https://t.co/TBJfxMByXq
-
-https://x.com/sama/status/2041186468010545331 · [archived](https://web.archive.org/web/20260406185213/https://x.com/sama/status/2041186468010545331)
 
 ## 2026-03-23
 
@@ -865,32 +811,6 @@ https://x.com/sama/status/1949102911511998557 · [archived](https://web.archive.
 > we are planning to significantly expand the ambitions of stargate past the $500 billion commitment we announced in january.
 
 https://x.com/sama/status/1947640336739643795 · [archived](https://web.archive.org/web/20250730113658/https://x.com/sama/status/1947640336739643795)
-
-## 2025-07-17
-
-> We’ve activated our strongest safeguards for ChatGPT Agent.
-> 
-> It’s the first model we’ve classified as High capability in biology &amp; chemistry under our Preparedness Framework. Here’s why that matters–and what we’re doing to keep it safe. 🧵
-
-Quoting https://x.com/OpenAI/status/1945904754443669659:
-> We’ve decided to treat this launch as High Capability in the Biological and Chemical domain under our Preparedness Framework, and activated the associated safeguards. This is a precautionary approach, and we detail our safeguards in the system card.
-> 
-> We outlined our approach on
-
-https://x.com/sama/status/1945995659682910540 · [archived](https://web.archive.org/web/20250719000354/https://x.com/sama/status/1945995659682910540)
-
-## 2025-07-17
-
-> We’ve activated our strongest safeguards for ChatGPT Agent.
-> 
-> It’s the first model we’ve classified as High capability in biology &amp; chemistry under our Preparedness Framework. Here’s why that matters–and what we’re doing to keep it safe. 🧵
-
-Quoting https://x.com/OpenAI/status/1945904754443669659:
-> We’ve decided to treat this launch as High Capability in the Biological and Chemical domain under our Preparedness Framework, and activated the associated safeguards. This is a precautionary approach, and we detail our safeguards in the system card.
-> 
-> We outlined our approach on
-
-https://x.com/sama/status/1945908272210538533 · [archived](https://web.archive.org/web/20250830061111/https://x.com/sama/status/1945908272210538533)
 
 ## 2025-07-17
 
@@ -1654,16 +1574,6 @@ https://x.com/sama/status/1756547250434744529 · [archived](https://web.archive.
 
 https://x.com/sama/status/1754172149378810118 · [archived](https://web.archive.org/web/20240204180531/https://twitter.com/sama/status/1754172149378810118?ref_src=twsrc%5Etfw)
 
-## 2024-01-08
-
-> e/ia - Intelligence Amplification
-> - Does not seek to build superintelligent God entity that replaces humans.
-> - Builds “bicycle for the mind” tools that empower and extend the information processing capabilities of humans.
-> - Of all humans, not a top percentile.
-> - Faithful to https://t.co/QQrJVRvScr
-
-https://x.com/sama/status/1744417003245551670 · [archived](https://web.archive.org/web/20240108175757/https://twitter.com/sama/status/1744417003245551670)
-
 ## 2024-01-05
 
 > the fight for the future is a struggle between technological-driven growth and managed decline.
@@ -1797,16 +1707,6 @@ https://x.com/sama/status/1726510261509779876 · [archived](https://web.archive.
 
 https://x.com/sama/status/1725748751367852439 · [archived](https://web.archive.org/web/20231118070431/https://twitter.com/sama/status/1725748751367852439)
 
-## 2023-11-18
-
-> Sam and I are shocked and saddened by what the board did today.
-> 
-> Let us first say thank you to all the incredible people who we have worked with at OpenAI, our customers, our investors, and all of those who have been reaching out.
-> 
-> We too are still trying to figure out exactly
-
-https://x.com/sama/status/1725736717595119848 · [archived](https://web.archive.org/web/20231119090001/https://twitter.com/sama/status/1725736717595119848)
-
 ## 2023-11-02 · reply to @sama
 
 > (there is nuance in saying "regulate us, but not smaller competitors" that somehow ends up getting lost and we just get bashed, but i think it's important enough to be worth it.)
@@ -1893,12 +1793,6 @@ https://x.com/sama/status/1696226160248766558 · [archived](https://web.archive.
 > luck isn’t an independent variable but increases super-linearly with more surface area—you meet more people, make more connections between new ideas, learn patterns, etc.
 
 https://x.com/sama/status/1695775873545183584 · [archived](https://web.archive.org/web/20230828155150/https://twitter.com/sama/status/1695775873545183584)
-
-## 2023-08-21
-
-> It’s so incredible that we are going to live through the creation of AGI. It will probably be the most important event in the history of the world and it will happen in our lifetimes.
-
-https://x.com/sama/status/1693595619749708282 · [archived](https://web.archive.org/web/20240204090039/https://twitter.com/sama/status/1693595619749708282)
 
 ## 2023-08-04 · reply to @sama
 
@@ -2753,12 +2647,6 @@ https://x.com/sama/status/1564404181699424256 · [archived](https://web.archive.
 
 ## 2022-08-29
 
-> There's nothing more dangerous than a profitable distraction.
-
-https://x.com/sama/status/1564383325048885248 · [archived](https://web.archive.org/web/20220829224437/https://twitter.com/sama/status/1564383325048885248)
-
-## 2022-08-29
-
 > wiping out some student debt while allowing a broken system to keep piling it up is a pretty wild thing to watch, and such an admission of defeat.
 > 
 > this does nothing at all to solve the problem.
@@ -2891,13 +2779,6 @@ https://x.com/sama/status/1551571749988335616 · [archived](https://web.archive.
 
 https://x.com/sama/status/1549943363213766658 · [archived](https://web.archive.org/web/20220721022447/https://twitter.com/sama/status/1549943363213766658)
 
-## 2022-07-05
-
-> when AGI hits its stride, the cost of all goods and services will fall. but unbounded abundance comes with unbounded inequality — and deeply unequal societies don’t last long. the solution is universal basic income and the financial wiring to distribute it
-> https://t.co/ixneY41OH7
-
-https://x.com/sama/status/1544128020826374144 · [archived](https://web.archive.org/web/20220705011646/https://twitter.com/sama/status/1544128020826374144)
-
 ## 2022-06-30
 
 > most people are either techno-optimists or are willing to stand up for liberal democratic values.
@@ -2968,9 +2849,7 @@ https://x.com/sama/status/1535666988378312705 · [archived](https://web.archive.
 
 ## 2022-05-31 · possibly deleted
 
-> If you live in California, consider voting for @ShellenbergerMD in the California primary next week.
-> Whether you agree with him or not, Shellenberger (I) vs Newsom (D) will lead to a healthy discussion on our biggest issues that otherwise won't occur.
-> https://t.co/AHSB2UJlLT
+_(text not available)_
 
 https://x.com/sama/status/1531494926717816833 · [archived](https://web.archive.org/web/20220531043738/https://twitter.com/sama/status/1531494926717816833)
 
@@ -3055,16 +2934,6 @@ https://x.com/sama/status/1520506471154286592 · [archived](https://web.archive.
 
 https://x.com/sama/status/1520476246919942144 · [archived](https://web.archive.org/web/20220430185343/https://twitter.com/sama/status/1520476246919942144)
 
-## 2022-04-23
-
-> I never ask this, but I'm asking now: Please retweet this.
-> 
-> Texas plans to kill Melissa Lucio in four days. Five jurors say evidence was withheld from them. A bipartisan majority of the Texas legislature favors clemency. Why are you waiting, @GovAbbott?
-> 
-> https://t.co/9iMkVhNDrQ
-
-https://x.com/sama/status/1517918427628797952 · [archived](https://web.archive.org/web/20220423172937/https://twitter.com/sama/status/1517918427628797952)
-
 ## 2022-04-21
 
 > At the likely risk of really embarrassing myself:
@@ -3112,16 +2981,6 @@ https://x.com/sama/status/1513636148630810624 · [archived](https://web.archive.
 > (Hopefully this will be the case for many more people over time as AI advances. We should aspire to a world where people who don't want to to work hard don't have to, and trust that society will find other ways for people to find meaning.)
 
 https://x.com/sama/status/1513208500784050176 · [archived](https://web.archive.org/web/20220410173339/https://twitter.com/sama/status/1513208500784050176)
-
-## 2022-04-10
-
-> "I still underestimate the compounding power of the rapid execution and iterated learning feedback loop.
-> 
-> A commitment to this, over the course of a career, is the closest thing you can get to guaranteed success." - @sama 
-> 
-> So F'ing true.
-
-https://x.com/sama/status/1513203077255294982 · [archived](https://web.archive.org/web/20220410171214/https://twitter.com/sama/status/1513203077255294982)
 
 ## 2022-04-07
 
@@ -3209,18 +3068,6 @@ https://x.com/sama/status/1504875608089628675 · [archived](https://web.archive.
 
 https://x.com/sama/status/1503083203711705088 · [archived](https://web.archive.org/web/20220313185930/https://twitter.com/sama/status/1503083203711705088)
 
-## 2022-03-10
-
-> In 1994, Jeff Bezos famously spotted a stat that made him leave his high-paying PE job to start Amazon:
-> 
-> 💡 The Internet was growing 2300% per year.
-> 
-> What are the generation-defining stats of today?
-> 
-> I'll post a few to kick things off...
-
-https://x.com/sama/status/1501791300831436802 · [archived](https://web.archive.org/web/20220310052535/https://twitter.com/sama/status/1501791300831436802)
-
 ## 2022-03-03
 
 > AI safety requires learning from contact with reality. What we've learned so far:
@@ -3234,16 +3081,6 @@ https://x.com/sama/status/1499530573131304964 · [archived](https://web.archive.
 _(text not available)_
 
 https://x.com/sama/status/1499217823141235713 · [archived](https://web.archive.org/web/20250420004647/https://x.com/sama/status/1499217823141235713)
-
-## 2022-02-28
-
-> 1/ We're thrilled to announce the FTX Foundation's Future Fund. We make grants and investments to ambitious projects to improve humanity's long-term prospects.
-> 
-> We plan to deploy &gt;$100M this year, and potentially a lot more (in principle up to $1B).
-> 
-> https://t.co/kIWdm48LZ4
-
-https://x.com/sama/status/1498439830887231490 · [archived](https://web.archive.org/web/20220228232800/https://twitter.com/sama/status/1498439830887231490)
 
 ## 2022-02-28
 
@@ -3281,12 +3118,6 @@ Quoting https://x.com/punk6529/status/1494444624630403083:
 > Being meaning to write this for 6 months, but the Canadian response to the trucker protests is illustrating this so vividly, that today is the day.
 
 https://x.com/sama/status/1495074449883762688 · [archived](https://web.archive.org/web/20220219163906/https://twitter.com/sama/status/1495074449883762688)
-
-## 2022-02-18
-
-> Much scarier than the small number of evil people is the large number who will fall in line with whatever's fashionable. When kindness is in fashion, they're kind. When a form of bigotry becomes cool, they jump on board. When it's popular to condone violence, they're all for it.
-
-https://x.com/sama/status/1494739189501292551 · [archived](https://web.archive.org/web/20220218182755/https://twitter.com/sama/status/1494739189501292551)
 
 ## 2022-02-15
 
@@ -3343,18 +3174,6 @@ https://x.com/sama/status/1489648217889263625 · [archived](https://web.archive.
 
 https://x.com/sama/status/1489648215427223552 · [archived](https://web.archive.org/web/20220204171824/https://twitter.com/sama/status/1489648215427223552)
 
-## 2022-02-03
-
-> ~All cultural formation in our time is now the development and propagation of memes that battle their way through a supply chain in cyberspace.
-> 
-> Most die; some thrive.
-> 
-> The memes that make it through encode deep meanings.
-> 
-> This is as serious a process as has ever existed.
-
-https://x.com/sama/status/1489125335941615616 · [archived](https://web.archive.org/web/20220203064037/https://twitter.com/sama/status/1489125335941615616)
-
 ## 2022-02-01
 
 > at least in the tech industry, it's remarkable how fast the signal value of old-world prestige (e.g. universities) is declining.
@@ -3365,7 +3184,9 @@ https://x.com/sama/status/1488614813701787648 · [archived](https://web.archive.
 
 ## 2022-01-31 · possibly deleted
 
-_(text not available)_
+> Much of next 20 years will be a battle between abundance &amp; scarcity thinking (and policies)
+> Scarcity = regulate and constrain everything. Have fewer kids, limit energy output, do less
+> Abundance = technology will solve issues, focus on cheap energy and big solns and outcomes
 
 https://x.com/sama/status/1488203620608720896 · [archived](https://web.archive.org/web/20220131182006/https://twitter.com/sama/status/1488203620608720896)
 
@@ -3665,12 +3486,6 @@ https://x.com/sama/status/1448796423814672405 · [archived](https://web.archive.
 
 https://x.com/sama/status/1445059564114563080 · [archived](https://web.archive.org/web/20211004225207/https://twitter.com/sama/status/1445059564114563080)
 
-## 2021-10-02 · reply to @balajis
-
-> Over the last 30 years, the American foreign policy establishment has blown perhaps the biggest lead in human history. From the hyperpower that wins everywhere without fighting, to a declining power that fights everywhere without winning.
-
-https://x.com/sama/status/1444439596662546434 · [archived](https://web.archive.org/web/20211003010906/https://twitter.com/sama/status/1444439596662546434)
-
 ## 2021-10-01
 
 > What's the probability of Congress banning Congressional candidates from using SMS for fundraising spam?
@@ -3733,15 +3548,6 @@ https://x.com/sama/status/1441103086974496771 · [archived](https://web.archive.
 
 https://x.com/sama/status/1436104406483693575 · [archived](https://web.archive.org/web/20210910004434/https://twitter.com/sama/status/1436104406483693575)
 
-## 2021-09-08
-
-> I'm thrilled and incredibly honored to share this news! I can't wait to work with @sama, @gdb, @ilyasut and the rest of the team to contribute to the mission of building AI that benefits all of humanity.
-
-Quoting https://x.com/OpenAI/status/1435629966415171585:
-> We're excited to announce @hlntnr of @CSETGeorgetown is joining our board of directors. Her deep understanding of AI policy will help us achieve our mission to deploy safe and responsible general-purpose AI. https://t.co/NuUxEzEOZq
-
-https://x.com/sama/status/1435749947773571072 · [archived](https://web.archive.org/web/20210909065459/https://twitter.com/sama/status/1435749947773571072)
-
 ## 2021-09-05
 
 > If status is the last thing left after AGI, NFTs are entirely unsurprising.
@@ -3786,18 +3592,6 @@ https://x.com/sama/status/1425149409944383489 · [archived](https://web.archive.
 
 https://x.com/sama/status/1422261017619300354 · [archived](https://web.archive.org/web/20210802182034/https://twitter.com/sama/status/1422261017619300354)
 
-## 2021-07-28
-
-> We’re releasing Triton 1.0, an open-source Python-like programming language for writing efficient GPU code. OpenAI researchers with no GPU programming experience have used Triton to produce kernels that are 2x faster than their PyTorch equivalents. https://t.co/bdovUjTMuF
-
-https://x.com/sama/status/1420420082602168333 · [archived](https://web.archive.org/web/20210728162526/https://twitter.com/sama/status/1420420082602168333)
-
-## 2021-06-25 · reply to @paulg
-
-> That's the danger of trying to ban the discussion of some hypotheses. What if the hypothesis you ban turns out to be the correct one?
-
-https://x.com/sama/status/1408508802656137221 · [archived](https://web.archive.org/web/20210625193406/https://twitter.com/sama/status/1408508802656137221)
-
 ## 2021-06-23
 
 > Boyfriend walks by computer:
@@ -3827,12 +3621,6 @@ https://x.com/sama/status/1407777229673689088 · [archived](https://web.archive.
 > This is the opposite of what most people (including me) expected, and will have strange effects.
 
 https://x.com/sama/status/1404100794245214215 · [archived](https://web.archive.org/web/20210613154126/https://twitter.com/sama/status/1404100794245214215)
-
-## 2021-06-10
-
-> We've found we can improve AI language model behavior and reduce harmful content by fine-tuning on a small, carefully designed dataset, and we are already incorporating this in our safety efforts. https://t.co/nJISaAyY2M https://t.co/AJe8bgkzRl
-
-https://x.com/sama/status/1403086002600615937 · [archived](https://web.archive.org/web/20210610202802/https://twitter.com/sama/status/1403086002600615937)
 
 ## 2021-05-15
 
@@ -3878,12 +3666,6 @@ https://x.com/sama/status/1371895461263470594 · [archived](https://web.archive.
 > We can then give that money to citizens and let them decide what to do with it.
 
 https://x.com/sama/status/1371893244636717058 · [archived](https://web.archive.org/web/20210316183730/https://twitter.com/sama/status/1371893244636717058)
-
-## 2021-01-14
-
-> I do not celebrate or feel pride in our having to ban @realDonaldTrump from Twitter, or how we got here. After a clear warning we’d take this action, we made a decision with the best information we had based on threats to physical safety both on and off Twitter. Was this correct?
-
-https://x.com/sama/status/1349527635026538497 · [archived](https://web.archive.org/web/20210114012412/https://twitter.com/sama/status/1349527635026538497)
 
 ## 2021-01-09 · reply to @sama
 
@@ -4100,22 +3882,6 @@ https://x.com/sama/status/1273416198634364929 · [archived](https://web.archive.
 
 https://x.com/sama/status/1273061484650655745 · [archived](https://web.archive.org/web/20200617020332/https://twitter.com/sama/status/1273061484650655745)
 
-## 2020-06-15 · reply to @paulg
-
-> As Benedict Evans pointed out, it was supposed to be ad-based business models that drove polarization, but apparently subscription-based models do too.
-> 
-> Alarming possibility: What if it's simply being online that drives polarization?
-
-https://x.com/sama/status/1272595004016345088 · [archived](https://web.archive.org/web/20200615182816/https://twitter.com/sama/status/1272595004016345088)
-
-## 2020-06-10
-
-> Welcome to the Reddit family, @mwseibel! Joining as our newest Board member, Michael brings an extensive background in growing social tech companies and is passionate about increasing diversity within the industry. 
-> 
-> Read more in our latest blog. https://t.co/6Gh04xnOMA
-
-https://x.com/sama/status/1270780476274339840 · [archived](https://web.archive.org/web/20200610183335/https://twitter.com/sama/status/1270780476274339840)
-
 ## 2020-06-03 · reply to @sama
 
 > 5) Enough. Watch the murder videos. Get uncomfortable. Commit to figuring out what you can do.
@@ -4130,7 +3896,7 @@ https://x.com/sama/status/1267978316734029830 · [archived](https://web.archive.
 
 ## 2020-04-24 · possibly deleted
 
-> A third solution to the pandemic https://t.co/v3ktBlOjgT
+_(text not available)_
 
 https://x.com/sama/status/1253805119730139136 · [archived](https://web.archive.org/web/20200501185949/https://twitter.com/sama/status/1253805119730139136)
 
@@ -4160,7 +3926,7 @@ https://x.com/sama/status/1247659633394593794 · [archived](https://web.archive.
 
 ## 2020-04-05 · possibly deleted
 
-_(text not available)_
+> We're developing a new rapid, high-volume, low cost test for COVID-19. If you or someone you know has recently tested positive and are willing to provide a saliva sample, please contact COVID-19@predxionbio.com ASAP https://t.co/duZdrBATJ8
 
 https://x.com/sama/status/1246902545047379968 · [archived](https://web.archive.org/web/20200405210109/https://twitter.com/sama/status/1246902545047379968)
 
@@ -4398,13 +4164,13 @@ https://x.com/sama/status/907307722453925889 · [archived](https://web.archive.o
 
 ## 2017-08-11 · possibly deleted
 
-> Gg!
+_(text not available)_
 
 https://x.com/sama/status/896154766463574017 · [archived](https://web.archive.org/web/20170911023431/https://twitter.com/sama/status/896154766463574017)
 
 ## 2017-08-11 · possibly deleted
 
-> Dendi looks nervous IMO
+_(text not available)_
 
 https://x.com/sama/status/896152037552828416 · [archived](https://web.archive.org/web/20170911023433/https://twitter.com/sama/status/896152037552828416)
 
@@ -4424,7 +4190,7 @@ https://x.com/sama/status/892798487082840064 · [archived](https://web.archive.o
 
 ## 2017-07-25 · possibly deleted
 
-> Excited to launch https://t.co/qFOzskaUqi 2.0 with @natfriedman!
+_(text not available)_
 
 https://x.com/sama/status/889958567482015744 · [archived](https://web.archive.org/web/20170725212033/https://twitter.com/sama/status/889958567482015744)
 
@@ -5189,25 +4955,25 @@ _(text not available)_
 
 https://x.com/sama/status/1860000000002 · [archived](https://web.archive.org/web/20260201163144/https://x.com/sama/status/1860000000002)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/sama/status/155235532304 · [archived](https://web.archive.org/web/20241122020456/https://x.com/sama/status/155235532304)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/sama/status/16017312957 · [archived](https://web.archive.org/web/20240804152056/https://x.com/sama/status/16017312957)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/sama/status/1599668808 · [archived](https://web.archive.org/web/20240422133901/https://twitter.com/sama/status/1599668808)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
@@ -5221,141 +4987,7 @@ https://x.com/sama/status/18995 · [archived](https://web.archive.org/web/202511
 
 ## undated · possibly deleted
 
-> width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" /><link rel="preconnect" href="//abs.twimg.com" /><link rel="dns-prefetch" href="//abs.twimg.com" /><link rel="preconnect" href="//api.twitter.com" /><link rel="dns-prefetch" href="//api.twitter.com" /><link rel="preconnect" href="//pbs.twimg.com" /><link rel="dns-prefetch" href="//pbs.twimg.com" /><link rel="preconnect" href="//t.co" /><link rel="dns-prefetch" href="//t.co" /><link rel="preconnect" href="//video.twimg.com" /><link rel="dns-prefetch" href="//video.twimg.com" /><meta property="fb:app_id" content="2231777543" />
-> <meta content="X (formerly Twitter)" property="og:site_name" /><meta name="google-site-verification" content="600dQ0pZYsH2xOFt4hYmf5f5NpjCbWE_qk5Y04dErYM" /><meta name="facebook-domain-verification" content="x6sdcc8b5ju3bh8nbm59eswogvg6t1" /><meta http-equiv="onion-location" content="https://twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion/" /><link rel="manifest" href="/manifest.json" crossOrigin="use-credentials" /><link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Twitter"><link rel="shortcut icon" href="//abs.twimg.com/favicons/twitter.3.ico"><meta name="mobile-web-app-capable" content="yes" />
-> <meta name="apple-mobile-web-app-title" content="Twitter" />
-> <meta name="apple-mobile-web-app-status-bar-style" content="white" />
-> <meta name="theme-color" media="(prefers-color-scheme: light)" content="#FFFFFF" />
-> <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000" /><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","url":"https://twitter.com/","potentialAction":{"@type":"SearchAction","query-input":"required name=search_term_string","target":{"@type":"EntryPoint","urlTemplate":"https://twitter.com/search?q={search_term_string}&ref_src=twcamp%5Eseo_searchbox%7Ctwsrc%5Eseo"}}}</script><meta http-equiv="origin-trial" content="AlpCmb40F5ZjDi9ZYe+wnr/V8MF+XmY41K4qUhoq+2mbepJTNd3q4CRqlACfnythEPZqcjryfAS1+ExS0FFRcA8AAABmeyJvcmlnaW4iOiJodHRwczovL3R3aXR0ZXIuY29tOjQ0MyIsImZlYXR1cmUiOiJMYXVuY2ggSGFuZGxlciIsImV4cGlyeSI6MTY1NTI1MTE5OSwiaXNTdWJkb21haW4iOnRydWV9" /><style>html,body{height: 100%;}::cue{white-space:normal}</style><style id="react-native-stylesheet">[stylesheet-group="0"]{}
-> html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0);}
-> body{margin:0;}
-> button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
-> input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-webkit-search-results-button,input::-webkit-search-results-decoration{display:none;}
-> [stylesheet-group="0.1"]{}
-> :focus:not([data-focusvisible-polyfill]){outline: none;}
-> [stylesheet-group="0.5"]{}
-> .css-4rbku5{background-color:rgba(0,0,0,0.00);color:inherit;font:inherit;list-style:none;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;text-align:inherit;text-decoration:none;}
-> .css-18t94o4{cursor:pointer;}
-> [stylesheet-group="1"]{}
-> .css-1dbjc4n{-ms-flex-align:stretch;-ms-flex-direction:column;-ms-flex-negative:0;-ms-flex-preferred-size:auto;-webkit-align-items:stretch;-webkit-box-align:stretch;-webkit-box-direction:normal;-webkit-box-orient:vertical;-webkit-flex-basis:auto;-webkit-flex-direction:column;-webkit-flex-shrink:0;align-items:stretch;border:0 solid black;box-sizing:border-box;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;flex-basis:auto;flex-direction:column;flex-shrink:0;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;min-height:0px;min-width:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;position:relative;z-index:0;}
-> .css-901oao{border:0 solid black;box-sizing:border-box;color:rgba(0,0,0,1.00);display:inline;font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;white-space:pre-wrap;word-wrap:break-word;}
-> .css-16my406{color:inherit;font:inherit;white-space:inherit;}
-> .css-1hf3ou5{max-width:100%;overflow-x:hidden;overflow-y:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;}
-> [stylesheet-group="2"]{}
-> .r-13awgt0{-ms-flex:1 1 0%;-webkit-flex:1;flex:1;}
-> .r-6koalj{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;}
-> .r-sdzlij{border-bottom-left-radius:9999px;border-bottom-right-radius:9999px;border-top-left-radius:9999px;border-top-right-radius:9999px;}
-> .r-1phboty{border-bottom-style:solid;border-left-style:solid;border-right-style:solid;border-top-style:solid;}
-> .r-rs99b7{border-bottom-width:1px;border-left-width:1px;border-right-width:1px;border-top-width:1px;}
-> .r-4qtqp9{display:inline-block;}
-> .r-jxzhtn{border-bottom-color:rgba(239,243,244,1.00);border-left-color:rgba(239,243,244,1.00);border-right-color:rgba(239,243,244,1.00);border-top-color:rgba(239,243,244,1.00);}
-> .r-42olwf{border-bottom-color:rgba(0,0,0,0.00);border-left-color:rgba(0,0,0,0.00);border-right-color:rgba(0,0,0,0.00);border-top-color:rgba(0,0,0,0.00);}
-> .r-4iw3lz{border-bottom-width:0;border-left-width:0;border-right-width:0;border-top-width:0;}
-> .r-1udh08x{overflow-x:hidden;overflow-y:hidden;}
-> .r-wwvuq4{padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;}
-> [stylesheet-group="2.1"]{}
-> .r-1jgb5lz{margin-left:auto;margin-right:auto;}
-> .r-ymttw5{padding-left:16px;padding-right:16px;}
-> .r-1fz3rvf{margin-left:12px;margin-right:12px;}
-> .r-rjfia{padding-bottom:0px;padding-top:0px;}
-> .r-1r5su4o{margin-bottom:16px;margin-top:16px;}
-> .r-oyd9sg{padding-bottom:4px;padding-top:4px;}
-> .r-1e081e0{padding-left:12px;padding-right:12px;}
-> .r-tvv088{padding-bottom:20px;padding-top:20px;}
-> [stylesheet-group="2.2"]{}
-> .r-12vffkv>*{pointer-events:auto;}
-> .r-12vffkv{pointer-events:none!important;}
-> .r-2llsf{min-height:100%;}
-> .r-13qz1uu{width:100%;}
-> .r-417010{z-index:0;}
-> .r-lrvibr{-moz-user-select:none;-ms-user-select:none;-webkit-user-select:none;user-select:none;}
-> .r-1g40b8q{z-index:3;}
-> .r-orgf3d{opacity:0;}
-> .r-633pao{pointer-events:none!important;}
-> .r-1d2f490{left:0px;}
-> .r-1xcajam{position:fixed;}
-> .r-zchlnj{right:0px;}
-> .r-1gn8etr{top:-0.5px;}
-> .r-1e5uvyk{-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);}
-> .r-6026j{background-color:rgba(255,255,255,0.85);}
-> .r-136ojw6{z-index:2;}
-> .r-fxvszc{height:106px;}
-> .r-1h3ijdo{height:53px;}
-> .r-1awozwy{-ms-flex-align:center;-webkit-align-items:center;-webkit-box-align:center;align-items:center;}
-> .r-18u37iz{-ms-flex-direction:row;-webkit-box-direction:normal;-webkit-box-orient:horizontal;-webkit-flex-direction:row;flex-direction:row;}
-> .r-1777fci{-ms-flex-pack:center;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;}
-> .r-1pz39u2{-ms-flex-item-align:stretch;-ms-grid-row-align:stretch;-webkit-align-self:stretch;align-self:stretch;}
-> .r-15ysp7h{min-height:32px;}
-> .r-4wgw6l{min-width:32px;}
-> .r-1habvwh{-ms-flex-align:start;-webkit-align-items:flex-start;-webkit-box-align:start;align-items:flex-start;}
-> .r-s8bhmr{min-width:56px;}
-> .r-1mf7evn{margin-right:20px;}
-> .r-1loqt21{cursor:pointer;}
-> .r-16y2uox{-ms-flex-positive:1;-webkit-box-flex:1;-webkit-flex-grow:1;flex-grow:1;}
-> .r-2yi16{min-height:36px;}
-> .r-1qi8awa{min-width:36px;}
-> .r-o7ynqc{-webkit-transition-duration:0.2s;transition-duration:0.2s;}
-> .r-6416eg{-moz-transition-property:background-color, box-shadow;-webkit-transition-property:background-color, box-shadow;transition-property:background-color, box-shadow;}
-> .r-1ny4l3l{outline-style:none;}
-> .r-bcqeeo{min-width:0px;}
-> .r-qvutc0{word-wrap:break-word;}
-> .r-rjixqe{line-height:20px;}
-> .r-37j5jr{font-family:"TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
-> .r-q4m81j{text-align:center;}
-> .r-a023e6{font-size:15px;}
-> .r-b88u0q{font-weight:700;}
-> .r-yyyyoo{fill:currentcolor;}
-> .r-1xvli5t{height:1.25em;}
-> .r-dnmrzs{max-width:100%;}
-> .r-bnwqim{position:relative;}
-> .r-1plcrui{vertical-align:text-bottom;}
-> .r-z80fyv{height:20px;}
-> .r-19wmn03{width:20px;}
-> .r-18jsvk2{color:rgba(15,20,25,1.00);}
-> .r-lwhw9o{height:1.75rem;}
-> .r-poiln3{font-family:inherit;}
-> .r-1wbh5a2{-ms-flex-negative:1;-webkit-flex-shrink:1;flex-shrink:1;}
-> .r-1pi2tsx{height:100%;}
-> .r-obd0qt{-ms-flex-align:end;-webkit-align-items:flex-end;-webkit-box-align:end;align-items:flex-end;}
-> .r-1d4mawv{margin-right:4px;}
-> .r-1w6e6rj{-ms-flex-wrap:wrap;-webkit-box-lines:multiple;-webkit-flex-wrap:wrap;flex-wrap:wrap;}
-> .r-1wtj0ep{-ms-flex-pack:justify;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;}
-> .r-1b43r93{font-size:14px;}
-> .r-1cwl3u0{line-height:16px;}
-> .r-u8s1d{position:absolute;}
-> .r-dkhcqf{-webkit-transition-duration:350ms;transition-duration:350ms;}
-> .r-axxi2z{-moz-transition-property:transform;-webkit-transition-property:-webkit-transform,transform;transition-property:-webkit-transform,transform;}
-> .r-18jm5s1{-webkit-transition-timing-function:cubic-bezier(0,0,0,1);transition-timing-function:cubic-bezier(0,0,0,1);}
-> .r-150rngu{-webkit-overflow-scrolling:touch;}
-> .r-17bb2tj{-webkit-animation-duration:0.75s;animation-duration:0.75s;}
-> .r-1muvv40{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;}
-> .r-127358a{-webkit-animation-name:r-9p3sdl;animation-name:r-9p3sdl;}
-> @-webkit-keyframes r-9p3sdl{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);}}
-> @keyframes r-9p3sdl{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);}}
-> .r-1ldzwu0{-webkit-animation-timing-function:linear;animation-timing-function:linear;}
-> .r-aqfbo4{-webkit-backface-visibility:hidden;backface-visibility:hidden;}
-> .r-1oszu61{-ms-flex-align:stretch;-webkit-align-items:stretch;-webkit-box-align:stretch;align-items:stretch;}
-> .r-1niwhzg{background-color:rgba(0,0,0,0.00);}
-> .r-14lw9ot{background-color:rgba(255,255,255,1.00);}
-> .r-1ljd8xs{border-left-width:1px;}
-> .r-13l2t4g{border-right-width:1px;}
-> .r-33ulu8{width:600px;}
-> .r-184en5c{z-index:1;}
-> .r-1xk2f4g{clip:rect(1px, 1px, 1px, 1px);}
-> .r-109y4c4{height:1px;}
-> .r-92ng3h{width:1px;}
-> .r-19u6a5r{margin-left:12px;}
-> .r-1lul07w{-webkit-transform:translate3d(0, -3.5em, 0);transform:translate3d(0, -3.5em, 0);}
-> .r-eafdt9{-webkit-transition-duration:0.15s;transition-duration:0.15s;}
-> .r-1b8bd59{-moz-transition-property:transform, opacity;-webkit-transition-property:-webkit-transform,transform, opacity;transition-property:-webkit-transform,transform, opacity;}
-> .r-nx0j10{-webkit-transition-timing-function:ease, ease, step-end;transition-timing-function:ease, ease, step-end;}
-> .r-l5o3uw{background-color:rgba(29,155,240,1.00);}
-> .r-y3da5r{box-shadow:0 0 8px rgba(101,119,134,0.2), 0 1px 3px 1px rgba(101,119,134,0.25);}
-> .r-1kihuf0{-ms-flex-item-align:center;-ms-grid-row-align:center;-webkit-align-self:center;align-self:center;}
-> .r-jwli3a{color:rgba(255,255,255,1.00);}
-> .r-16dba41{font-weight:400;}
-> .r-13hce6t{margin-left:4px;}
-> .r-117bsoe{margin-bottom:20px;}</style><title data-rh="true">X</title><meta data-rh="true" content="X" property="og:title"/><meta data-rh="true" content="article" property="og:type"/><meta data-rh=
+_(text not available)_
 
 https://x.com/sama/status/16962 · [archived](https://web.archive.org/web/20230906180943/https://twitter.com/sama/status/16962)
 

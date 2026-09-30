@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 121 (2020-06-17 to 2026-09-08)
-- Read so far: 121 (100%); text found for 121; 0 not read yet
+- Archived posts found: 95 (2020-06-17 to 2026-09-08)
+- Left out: 26 archived link(s) under this handle that X says another account wrote
+- Read so far: 95 (100%); text found for 95; 0 not read yet
 - Possibly deleted: 1
-- Matching the topic filter: 21
+- Matching the topic filter: 18
 
 
-Every post is in `markchen90.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `markchen90/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-04-06
 
@@ -336,14 +337,6 @@ Quoting https://x.com/OpenAI/status/1541871427178991616:
 
 https://x.com/markchen90/status/1541921729479512064 · [archived](https://web.archive.org/web/20220702131720/https://twitter.com/markchen90/status/1541921729479512064)
 
-## 2022-04-06
-
-> tree of computer programs spanning the galaxy as a digital art #dalle 
-> 
-> If you'd like to work on next AI milestone with an incredibly talented team, we are hiring! https://t.co/mIXnU4ONix
-
-https://x.com/markchen90/status/1511731187374432260 · [archived](https://web.archive.org/web/20220406154342/https://twitter.com/markchen90/status/1511731187374432260)
-
 ## 2022-02-28 · reply to @rtk254
 
 > @rtk254 @ErikJones313 @JacobSteinhardt In contrast to recent papers showcasing the power of few-shot prompting, this paper suggests ways to create simple prompts that result in much worse performance. Also a great investigation into the nature of the dataset prior. Congrats @ErikJones313  and @JacobSteinhardt!
@@ -361,18 +354,6 @@ https://x.com/markchen90/status/1460222205313253376 · [archived](https://web.ar
 > @eriktorenberg As someone who worked in trading for years before tech, it can take a lot of creativity to build a profitable trading strategy, and the financial reward for doing so can be as large as founding a unicorn.
 
 https://x.com/markchen90/status/1460222170127208454 · [archived](https://web.archive.org/web/20211115122443/https://twitter.com/markchen90/status/1460222170127208454)
-
-## 2021-08-28
-
-> Badly tuned LR decay schedules are an excellent way to silently shoot yourself in the foot. Models can often look like they are converging but it's just LR getting too low too fast. FixedLR (+optional warmup) with 1 manual decay of 10X on plateau is a safe strong baseline.
-
-https://x.com/markchen90/status/1431525256221450245 · [archived](https://web.archive.org/web/20210828075326/https://twitter.com/markchen90/status/1431525256221450245)
-
-## 2021-07-28
-
-> We’re releasing Triton 1.0, an open-source Python-like programming language for writing efficient GPU code. OpenAI researchers with no GPU programming experience have used Triton to produce kernels that are 2x faster than their PyTorch equivalents. https://t.co/bdovUjTMuF
-
-https://x.com/markchen90/status/1420421971343417349 · [archived](https://web.archive.org/web/20210728163259/https://twitter.com/markchen90/status/1420421971343417349)
 
 ## 2020-10-31 · reply to @OriolVinyalsML
 

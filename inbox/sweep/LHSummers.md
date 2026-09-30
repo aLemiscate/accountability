@@ -2,32 +2,15 @@
 
 Swept 2026-09-30.
 
-- Posts on X, including reposts: unknown
-- Archived posts found: 3032 (… to 2890-08-20)
-- Read so far: 3032 (100%); text found for 3014; 0 not read yet
-- Possibly deleted: 25
-- Matching the topic filter: 989
+- Posts on X, including reposts: 8788
+- Archived posts found: 2561 (1 from before November 2010, 2010-11-04 to 2025-11-10)
+- Left out: 468 archived link(s) under this handle that X says another account wrote
+- Read so far: 2561 (100%); text found for 2546; 0 not read yet
+- Possibly deleted: 22
+- Matching the topic filter: 839
 
 
-Every post is in `LHSummers.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
-
-## 2890-08-20 · possibly deleted
-
-_(text not available)_
-
-https://x.com/LHSummers/status/116449035017982361648 · [archived](https://web.archive.org/web/20220520094218/https://twitter.com/LHSummers/status/116449035017982361648%EF%BC%89)
-
-## 2890-08-20 · possibly deleted
-
-_(text not available)_
-
-https://x.com/LHSummers/status/116449034252947865647 · [archived](https://web.archive.org/web/20220520094144/https://twitter.com/LHSummers/status/116449034252947865647%EF%BC%89)
-
-## 2122-04-19 · possibly deleted
-
-_(text not available)_
-
-https://x.com/LHSummers/status/14752302297151610883 · [archived](https://web.archive.org/web/20220727095634/https://twitter.com/LHSummers/status/14752302297151610883)
+Every post is in `LHSummers/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2025-11-03
 
@@ -751,7 +734,7 @@ Quoting https://x.com/BloombergTV/status/1664705142195736594:
 
 https://x.com/LHSummers/status/1664745520298881024 · [archived](https://web.archive.org/web/20230603162300/https://twitter.com/LHSummers/status/1664745520298881024?ref_src=twsrc%5Etfw)
 
-## 2023-06-02
+## 2023-06-02 · reply to @LHSummers
 
 > Another way to put it is they are exaggerating the impact &amp; efficacy of monetary policy in slowing the economy. I read this as a strong report. The general tendency of the data has been v. much towards saying the economy-at least for this while-has a fair amt of robustness in it.
 
@@ -1706,23 +1689,11 @@ https://x.com/LHSummers/status/1547387642383417349 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1547320394201325568 · [archived](https://web.archive.org/web/20220713204327/https://twitter.com/LHSummers/status/1547320394201325568)
 
-## 2022-06-18
-
-> TOMORROW: @RepRaskin (D-Md.), a member of the select committee investigating the Jan. 6 attack, joins #MTP to discuss the latest on the hearings. Plus, former Treasury Secretary @LHSummers breaks down what you need to know about the economy and where it is headed. #IfItsSunday https://t.co/2WULQY0cVl
-
-https://x.com/LHSummers/status/1538242484102381568 · [archived](https://web.archive.org/web/20220618193021/https://twitter.com/LHSummers/status/1538242484102381568)
-
 ## 2022-06-17
 
 > “There’s a phrase that my children use: TMI, or too much information. It’s an idea that central banks might want to include more in their repertoire.” Read my Q &amp; A with ⁦@barronsonline⁩  https://t.co/HD0AnplARG
 
 https://x.com/LHSummers/status/1537629202702295043 · [archived](https://web.archive.org/web/20220617025256/https://twitter.com/LHSummers/status/1537629202702295043)
-
-## 2022-06-12
-
-> Fmr. Treasury Sec. @LHSummers: "I think the banana Republicans who are saying that what happened on Jan. 6 was nothing or OK are undermining the basic credibility of our country's institutions... if you can't trust the country's govt, why should you trust its money?" #CNNSOTU https://t.co/MeRvbb2nvn
-
-https://x.com/LHSummers/status/1536001633699651584 · [archived](https://web.archive.org/web/20220612150551/https://twitter.com/LHSummers/status/1536001633699651584)
 
 ## 2022-06-12
 
@@ -1735,12 +1706,6 @@ https://x.com/LHSummers/status/1535996740121382913 · [archived](https://web.arc
 > Team transitory alum Alan Blinder recognizes the current reality here. I think Blinder’s two percent estimate is low for the role of overheating and recession risks are a bit underestimated but overall glad to see convergence in views.  https://t.co/nNm2dcj2If
 
 https://x.com/LHSummers/status/1534993549648969740 · [archived](https://web.archive.org/web/20220609201936/https://twitter.com/LHSummers/status/1534993549648969740)
-
-## 2022-06-06
-
-> Larry Summers Cautions Antitrust Regulators Against Broad-Brush Policy https://t.co/9lrFsxqTFz
-
-https://x.com/LHSummers/status/1533794706731241472 · [archived](https://web.archive.org/web/20220606125613/https://twitter.com/LHSummers/status/1533794706731241472)
 
 ## 2022-06-06 · reply to @LHSummers
 
@@ -1772,16 +1737,6 @@ https://x.com/LHSummers/status/1533768318561165313 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1531392994313744386 · [archived](https://web.archive.org/web/20220530215259/https://twitter.com/LHSummers/status/1531392994313744386)
 
-## 2022-05-27
-
-> Can we use history to forecast the economic future?
-> 
-> @LHSummers says yes—and 15 months ago showed how to make a key prediction from history about surging inflation. Using history, he now foresees another bombshell before the 2024 election. @barronsonline
-> 
-> https://t.co/SzgsZbAnwU
-
-https://x.com/LHSummers/status/1530212821853777920 · [archived](https://web.archive.org/web/20220527154321/https://twitter.com/LHSummers/status/1530212821853777920)
-
 ## 2022-05-26
 
 > .@GrahamTAllison treats me as a historian fellow traveler. I'm not sure. But I am pretty sure that application of mechanical models to unprecedented events is a route to complacent error.  
@@ -1794,14 +1749,6 @@ https://x.com/LHSummers/status/1529859119586365443 · [archived](https://web.arc
 > Yet along with 4 plus percent growth, @USCBO are calling for unemployment to rise, contra to Okun’s law, and inflation to fall, even as the economy grows faster than potential.
 
 https://x.com/LHSummers/status/1529828993834397700 · [archived](https://web.archive.org/web/20220526141729/https://twitter.com/LHSummers/status/1529828993834397700)
-
-## 2022-05-23
-
-> "Potentially dangerous to our economic future is what people jokingly refer to as hipster antitrust," says @LHSummers. 
-> 
-> Summers says watch out for a populist flair among government regulators #WallSteetWeek https://t.co/TBvB2hIS0j https://t.co/xHtPYekjYl
-
-https://x.com/LHSummers/status/1528826223786348545 · [archived](https://web.archive.org/web/20220523195323/https://twitter.com/LHSummers/status/1528826223786348545)
 
 ## 2022-05-23 · reply to @LHSummers
 
@@ -1858,21 +1805,6 @@ https://x.com/LHSummers/status/1523833854343192583 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1523274779763306496 · [archived](https://web.archive.org/web/20220508121335/https://twitter.com/LHSummers/status/1523274779763306496)
 
-## 2022-05-03
-
-> Join me at 1:15 pm ET / 10:15 am PT on Friday for a live conversation with former Treasury Secretary Larry Summers on the Fed, the economy, and the policy outlook. 
-> 
-> Submit your questions here:
-> https://t.co/8qSgvsDwOs
-
-https://x.com/LHSummers/status/1521561074725789697 · [archived](https://web.archive.org/web/20220503184350/https://twitter.com/LHSummers/status/1521561074725789697)
-
-## 2022-05-01
-
-> .@LHSummers says Japan and the U.S. are very different situations as the Bank of Japan decided to maintain its accommodative policy, in contrast to the U.S. https://t.co/lHqIRE1Ynv #WallStreetWeek https://t.co/SN4LVRF6jC
-
-https://x.com/LHSummers/status/1520888387481260033 · [archived](https://web.archive.org/web/20220501221054/https://twitter.com/LHSummers/status/1520888387481260033)
-
 ## 2022-04-30
 
 > If government regulation of TV through a fairness doctrine was appropriate when there were limited TV channels, surely some kind of fairness regulation is appropriate for far more pervasive social media platforms. They are far more than one voice in the conversation.
@@ -1884,28 +1816,6 @@ https://x.com/LHSummers/status/1520419056213495810 · [archived](https://web.arc
 > Previous disinflations have had false dawns. Remission differs from cure. It would be a grave mistake to relent on anti-inflationary monetary policy until there is evidence of wage growth slowing.
 
 https://x.com/LHSummers/status/1520392693125468161 · [archived](https://web.archive.org/web/20220430132137/https://twitter.com/LHSummers/status/1520392693125468161)
-
-## 2022-04-28
-
-> Tomorrow!!!
-> 
-> Don't miss this discussion of the geopolitical &amp; macroeconomic implications of self-reliance. #China 
-> #SupplyChains 
-> W/ - @LHSummers, @JFrankelEcon, Meg Rithmire of @HarvardHBS, &amp; Edoardo Campanella
-> 
-> @BelferCenter
->  
-> https://t.co/PSily18ucP https://t.co/STt5cAHW6e
-
-https://x.com/LHSummers/status/1519644520371085312 · [archived](https://web.archive.org/web/20220428114827/https://twitter.com/LHSummers/status/1519644520371085312)
-
-## 2022-04-27
-
-> We just wrapped up our book launch for C. Fred Bergsten's new book, "The United States vs. China: The Quest for Global Economic Leadership", where Bergsten discussed his analysis with @MyStephanomics, @LHSummers, &amp; Robert B. Zoellick. 
-> 
-> Watch it here: https://t.co/Pew1azQYOZ
-
-https://x.com/LHSummers/status/1519334832106618880 · [archived](https://web.archive.org/web/20220427151757/https://twitter.com/LHSummers/status/1519334832106618880)
 
 ## 2022-04-24 · reply to @LHSummers
 
@@ -1936,26 +1846,6 @@ Quoting https://x.com/business/status/1518044018986389504:
 > Orrin Hatch, the longest-serving Republican senator in U.S. history and a steadfast conservative who also worked on legislation with liberal Democrats, has died at 88 https://t.co/NRwapaWHNA
 
 https://x.com/LHSummers/status/1518048023741353984 · [archived](https://web.archive.org/web/20220424020416/https://twitter.com/LHSummers/status/1518048023741353984)
-
-## 2022-04-23
-
-> On April 27, PIIE Director Emeritus C. Fred Bergsten presents his new book "The United States vs. China: The Quest for Global Economic Leadership."
-> @MyStephanomics chairs, @LHSummers &amp; Robert B. Zoellick discuss.
-> Register: https://t.co/oxuzAVqLNJ https://t.co/Q3XB2IU5GE
-
-https://x.com/LHSummers/status/1517862595608383491 · [archived](https://web.archive.org/web/20220423134802/https://twitter.com/LHSummers/status/1517862595608383491)
-
-## 2022-04-22
-
-> Concerned about #SupplyChains and distant production? Don't miss this discussion of the geopolitical &amp; macroeconomic implications of self-reliance. #China 
-> 
-> W/ - @LHSummers, @JFrankelEcon, Meg Rithmire of @HarvardHBS, &amp; Edoardo Campanella
-> 
-> @BelferCenter 
-> 
-> https://t.co/PSily0QSOf https://t.co/rQMS85vtsQ
-
-https://x.com/LHSummers/status/1517454595781451777 · [archived](https://web.archive.org/web/20220422104658/https://twitter.com/LHSummers/status/1517454595781451777)
 
 ## 2022-04-15 · possibly deleted
 
@@ -1991,36 +1881,6 @@ https://x.com/LHSummers/status/1514195956660686854 · [archived](https://web.arc
 > https://t.co/QRYU5deXq5
 
 https://x.com/LHSummers/status/1514195954144063492 · [archived](https://web.archive.org/web/20220413105735/https://twitter.com/LHSummers/status/1514195954144063492)
-
-## 2022-04-11
-
-> TODAY on #MTP: @chucktodd: "A recession, is it inevitable or is there a way to avoid it?"
-> 
-> @LHSummers: “Nothing is inevitable,” but the U.S. could:
-> - Strategic petroleum reserve release
-> - Tariff reductions
-> - Find government cost savings
-> - Increase immigration to ease job market https://t.co/8996YCJesQ
-
-https://x.com/LHSummers/status/1513314234368774150 · [archived](https://web.archive.org/web/20220411003404/https://twitter.com/LHSummers/status/1513314234368774150)
-
-## 2022-04-10
-
-> TODAY: @chucktodd: "A recession, is it inevitable or is there a way to avoid it?"
-> 
-> @LHSummers: “Nothing is inevitable,” but the U.S. could:
-> - Strategic petroleum reserve release
-> - Tariff reductions
-> - Find government cost savings
-> - Increase immigration to ease job market https://t.co/ijW5G7QYvb
-
-https://x.com/LHSummers/status/1513191700939907076 · [archived](https://web.archive.org/web/20220410163058/https://twitter.com/LHSummers/status/1513191700939907076)
-
-## 2022-04-08
-
-> .@LHSummers: "The combination of overheating, followed by policy delay followed by supply shocks means I think it’s a very difficult set of challenges, and recession in the next couple of years is clearly more likely than not" https://t.co/fHwQhQenoa
-
-https://x.com/LHSummers/status/1512499885278470145 · [archived](https://web.archive.org/web/20220408183741/https://twitter.com/LHSummers/status/1512499885278470145)
 
 ## 2022-04-07 · possibly deleted
 
@@ -2075,26 +1935,6 @@ Quoting https://x.com/PIIE/status/1509557389904818176:
 
 https://x.com/LHSummers/status/1509575319962935306 · [archived](https://web.archive.org/web/20220331195542/https://twitter.com/LHSummers/status/1509575319962935306)
 
-## 2022-03-29
-
-> “Just as L.B.J.’s guns and butter created excessive and dangerous inflationary pressure, the macroeconomic overexpansion of 2021 created those problems,” @LHSummers tells @EzraKlein on today’s episode of The Ezra Klein Show. https://t.co/oNdA02d4dF
-
-https://x.com/LHSummers/status/1508765762378477574 · [archived](https://web.archive.org/web/20220329112014/https://twitter.com/LHSummers/status/1508765762378477574)
-
-## 2022-03-26 · reply to @LHSummers
-
-> @lhsummers disagrees with Larry Fink and says "the discussion of the demise of globalization are overheated and a little dangerous" Watch the full interview here on #WallSteetWeek https://t.co/z0QFA2apE2 https://t.co/Ny9BIZXOpr
-
-https://x.com/LHSummers/status/1507752821386620935 · [archived](https://web.archive.org/web/20220326161447/https://twitter.com/LHSummers/status/1507752821386620935)
-
-## 2022-03-24
-
-> How do we avoid a catastrophic recession?
-> 
-> @lhsummers says, "We need clear signals that we need a slowdown in economic activity to reduce inflation. Otherwise, we'll be repeating the mistakes of the 1970s" https://t.co/fx2TRfsonN https://t.co/9uZHxlU5F5
-
-https://x.com/LHSummers/status/1507040556295278597 · [archived](https://web.archive.org/web/20220324170436/https://twitter.com/LHSummers/status/1507040556295278597)
-
 ## 2022-03-23
 
 > RIP Madeleine Albright. I have always been grateful for the opportunities I had to work with and learn from @madeleine during the Clinton administration. Few who have reached the level of power she reached have done as well at maintaining their humanity and decency.
@@ -2134,14 +1974,6 @@ https://x.com/LHSummers/status/1505882074322030592 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1505882073185329161 · [archived](https://web.archive.org/web/20220321122138/https://twitter.com/LHSummers/status/1505882073185329161)
 
-## 2022-03-18
-
-> Former U.S. Treasury Secretary @lhsummers says, "If you want to tighten policy, you have to raise interest rates more than inflation went up." 
-> 
-> Watch the full interview tonight at 6PM ET on #WallStreetWeek https://t.co/iBLgiZ0deo https://t.co/LMl1piVBuK
-
-https://x.com/LHSummers/status/1504868357857759232 · [archived](https://web.archive.org/web/20220318171327/https://twitter.com/LHSummers/status/1504868357857759232)
-
 ## 2022-03-18 · reply to @LHSummers
 
 > Our democracy is more threatened at home and abroad than at any time in the past 75 years. Rampant populism is a product of inflation and distrust in government. The Fed is outside of politics but not our civic life.
@@ -2153,12 +1985,6 @@ https://x.com/LHSummers/status/1504801431882244099 · [archived](https://web.arc
 > This was the easy part for the @federalreserve. Likely, in months ahead, we will see the economy slow before we see substantial reduction in inflation.
 
 https://x.com/LHSummers/status/1504165404314415109 · [archived](https://web.archive.org/web/20220316183956/https://twitter.com/LHSummers/status/1504165404314415109)
-
-## 2022-03-16
-
-> There is little basis for confidence in the Fed’s assessment of inflation risks, @LHSummers writes https://t.co/RybF0F81oT
-
-https://x.com/LHSummers/status/1504099569600278539 · [archived](https://web.archive.org/web/20220316141839/https://twitter.com/LHSummers/status/1504099569600278539)
 
 ## 2022-03-16
 
@@ -2183,7 +2009,7 @@ https://x.com/LHSummers/status/1503887426363826180 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1503887425231376388 · [archived](https://web.archive.org/web/20220316001505/https://twitter.com/LHSummers/status/1503887425231376388)
 
-## 2022-03-14
+## 2022-03-14 · reply to @LHSummers
 
 > "The question of whether the ultimate organization of societies that’s going to work best is one like Lincoln talked about at Gettysburg when he talked about ‘by the people, for the people,’ is still an issue, because China has a very different model."
 
@@ -2322,36 +2148,6 @@ https://x.com/LHSummers/status/1496349460850515970 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1496349458774245381 · [archived](https://web.archive.org/web/20220223050631/https://twitter.com/LHSummers/status/1496349458774245381)
 
-## 2022-02-17
-
-> "The portrayal of China as some kind of superstate is importantly misleading." -@LHSummers 
-> 
-> Watch live: https://t.co/jjTNi5mvR0
-
-https://x.com/LHSummers/status/1494116391263293441 · [archived](https://web.archive.org/web/20220217011304/https://twitter.com/LHSummers/status/1494116391263293441)
-
-## 2022-02-17
-
-> "The danger is that if [the US] reacts with excessive alarm to what are legitimate concerns, and we start emulating Chinese practices and policies, that the world will become a much less stable place." -@LHSummers https://t.co/jjTNi5mvR0
-
-https://x.com/LHSummers/status/1494116345218281474 · [archived](https://web.archive.org/web/20220217010755/https://twitter.com/LHSummers/status/1494116345218281474)
-
-## 2022-02-16
-
-> Starting soon – join @GrahamTAllison, @KellySGallagher, @KeyuJin, and @LHSummers in the Forum as they discuss new findings on the sustainability of China's economic growth and offer bets about the future.
-> 
-> The conversation begins 6:00 PM ET ⤵ https://t.co/jjTNi54UZs
-
-https://x.com/LHSummers/status/1494081683381006336 · [archived](https://web.archive.org/web/20220216225021/https://twitter.com/LHSummers/status/1494081683381006336)
-
-## 2022-02-16
-
-> TODAY: Join us, @BelferCenter, and @HKS_BizGov in the Forum as @GrahamTAllison, @KellySGallagher, @KeyuJin, and @LHSummers discuss new findings on the sustainability of China's economic growth and offer their bets about the future.
-> 
-> Register or livestream: https://t.co/O4oa67Klwk https://t.co/uvBH8s0Ouy
-
-https://x.com/LHSummers/status/1493960258204712970 · [archived](https://web.archive.org/web/20220216145243/https://twitter.com/LHSummers/status/1493960258204712970)
-
 ## 2022-02-13
 
 > Bill Silber, in his weekly LinkedIn post, picks up on my suggestion that @federalreserve end QE forthwith via special meeting to signal a new policy approach is at hand. 
@@ -2452,26 +2248,6 @@ https://x.com/LHSummers/status/1486536063283781636 · [archived](https://web.arc
 > I approve of the Fed’s turn towards recognition of inflation as the primary threat to the US economy. I can’t understand why they are still doing QE on any scale. Perhaps they will learn the lesson that being specific @ future intentions is dangerous b/ of what it locks you into.
 
 https://x.com/LHSummers/status/1486536059282509829 · [archived](https://web.archive.org/web/20220127030848/https://twitter.com/LHSummers/status/1486536059282509829)
-
-## 2022-01-25
-
-> Was @LHSummers right all along... asks @EricLevitz in @NYTmag 
-> #inflation #economy #economicpolicy
-> 
-> .. looking for more?  Check out the 435 posts that feature @LHSummers on M-RCBG’s https://t.co/VfPd2j5EOH 
-> https://t.co/ETB2kw1pPu
-> 
-> https://t.co/ZRLtzuVf6H
-
-https://x.com/LHSummers/status/1486035117965512713 · [archived](https://web.archive.org/web/20220125180111/https://twitter.com/LHSummers/status/1486035117965512713)
-
-## 2022-01-22
-
-> Check out @LHSummers on Wall Street Week (at 37:47) talking about #inflation, the outlook for the #economy, Digital #currency, and implications for #regulation and approaches to anti-trust and more..
-> 
->  Wall Street Week - Full Show 01/21/2022 https://t.co/kVEGfDym98 via @YouTube
-
-https://x.com/LHSummers/status/1484995689256046595 · [archived](https://web.archive.org/web/20220122210545/https://twitter.com/LHSummers/status/1484995689256046595)
 
 ## 2022-01-19 · reply to @LHSummers
 
@@ -2693,20 +2469,6 @@ https://x.com/LHSummers/status/1470198986803982342 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1470198983255601153 · [archived](https://web.archive.org/web/20211213010850/https://twitter.com/LHSummers/status/1470198983255601153)
 
-## 2021-12-11
-
-> Economist Larry Summers predicted the rise in inflation, going against many in his own party. Summers tells @smerconish why he would vote for the Build Back Better legislation if he was in the Senate. 
-> 
-> "The investments it makes are fundamental to the future of our country." https://t.co/x8LWlORs4k
-
-https://x.com/LHSummers/status/1469500504174694400 · [archived](https://web.archive.org/web/20211211025824/https://twitter.com/LHSummers/status/1469500504174694400)
-
-## 2021-12-07 · reply to @greg_ip
-
-> .@LHSummers: Low bond yields are "not a judgment that things are under control on the policy path we've been pursuing for the last year and a half. It's a bet that that policy path will change and will change in ways that might involve a recession." #WSJCEOCouncil
-
-https://x.com/LHSummers/status/1468346984335556619 · [archived](https://web.archive.org/web/20211207223445/https://twitter.com/LHSummers/status/1468346984335556619)
-
 ## 2021-12-06
 
 > This is a vitally imp statement on the need for mathematics education to focus on rigor. In China, math standards are not subject to continued erosion by social justice warriors who can’t themselves define exponential growth or solve quadratic equations. 
@@ -2745,54 +2507,11 @@ https://x.com/LHSummers/status/1466806828453572614 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1466806826847158277 · [archived](https://web.archive.org/web/20211203163446/https://twitter.com/LHSummers/status/1466806826847158277)
 
-## 2021-12-02 · reply to @Kennedy_School
-
-> @LHSummers: “While an overheating economy is a relatively good problem to have compared to a pandemic or a financial crisis, it will metastasize and threaten prosperity and public trust unless clearly acknowledged and addressed.”
-
-https://x.com/LHSummers/status/1466463762286788608 · [archived](https://web.archive.org/web/20211202174630/https://twitter.com/LHSummers/status/1466463762286788608)
-
-## 2021-12-01
-
-> #HTLS2021 | "It is a policy with bipartisan support which does not make it a wise policy. But it does not mean it can be reversed immediately" - Economist @LHSummers on trade situation on tariff war between China and US 
-> 
-> Follow LIVE https://t.co/HCe2ZErtUF https://t.co/3a9VNN6aKY
-
-https://x.com/LHSummers/status/1466044188764614659 · [archived](https://web.archive.org/web/20211202042043/https://twitter.com/LHSummers/status/1466044188764614659)
-
 ## 2021-11-22 · reply to @BloombergTV
 
 > @BloombergTV I do think that now that we have a leadership team in place that has a long runway does need to do some very serious thinking about the inflation and overheating risks and the balance of risks.
 
 https://x.com/LHSummers/status/1462918534309240834 · [archived](https://web.archive.org/web/20211123051936/https://twitter.com/LHSummers/status/1462918534309240834)
-
-## 2021-11-19
-
-> ".. Treasury is far too conservative. .. There is a reason that a bipartisan group of former Treasury secretaries and IRS commissioners .. have coalesced around overhauling the IRS."
-
-Quoting https://x.com/LHSummers/status/1461134816330629128:
-> Read my piece that just posted on @washingtonpost:
-> IRS reform will generate a lot more revenue than the CBO thinks 
-> https://t.co/AU3cIG931m
-
-https://x.com/LHSummers/status/1461685682909368321 · [archived](https://web.archive.org/web/20211119132404/https://twitter.com/LHSummers/status/1461685682909368321)
-
-## 2021-11-18
-
-> .@LHSummers: If the IRS takes half the auditors off taxpayers, you’re going to see more cheating.
-> 
-> #BBB enhances the IRS ability to crack down on tax evasion by the wealthy &amp; corporations while providing more money for climate, education, and health care.
-> https://t.co/c69ygJGBEd
-
-https://x.com/LHSummers/status/1461410599078871051 · [archived](https://web.archive.org/web/20211118190849/https://twitter.com/LHSummers/status/1461410599078871051)
-
-## 2021-11-18
-
-> Without the Build Back Better Act's tax reforms, $1 of every $5 owed in taxes will go unpaid.
-> With BBB, every $1 spent on increasing IRS capacity will yield an additional $6.
-> 
-> “This is as close to a no-brainer as I’ve seen in decades of doing public policy analysis.” -@LHSummers
-
-https://x.com/LHSummers/status/1461392336106266624 · [archived](https://web.archive.org/web/20211118175543/https://twitter.com/LHSummers/status/1461392336106266624)
 
 ## 2021-11-18 · reply to @LHSummers
 
@@ -2913,45 +2632,17 @@ https://x.com/LHSummers/status/1459992639458189319 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1459908654082277383 · [archived](https://web.archive.org/web/20211114155208/https://twitter.com/LHSummers/status/1459908654082277383)
 
-## 2021-11-11
-
-> On why BBB's inflationary risks are small, @LHSummers: "What we did at the beginning of this year was unpaid for and without impact on future economic growth because it didn't represent investment. What we're going to do is investment, and is paid for." #AMRstaff
-
-https://x.com/LHSummers/status/1458852543824551937 · [archived](https://web.archive.org/web/20211111174702/https://twitter.com/LHSummers/status/1458852543824551937)
-
 ## 2021-11-11 · possibly deleted
 
 _(text not available)_
 
 https://x.com/LHSummers/status/1458654583300009984 · [archived](https://web.archive.org/web/20211111044406/https://twitter.com/LHSummers/status/1458654583300009984)
 
-## 2021-11-11
-
-> "Deficits are not a random choice of policymakers. They reflect structural forces driving wedges between private savings and private investment. The reality: Deficits are a natural kind of response of the system to the forces that have produced low interest rates."—@LHSummers https://t.co/J5Ttvzs6qe
-
-https://x.com/LHSummers/status/1458653676730466307 · [archived](https://web.archive.org/web/20211111044125/https://twitter.com/LHSummers/status/1458653676730466307)
-
 ## 2021-11-10
 
 > Global financial markets appear to be anticipating slow growth and low real interest rates for the next few years, which will gut the ability of central banks to guide economies.  https://t.co/0Sb8032jLV via @markets
 
 https://x.com/LHSummers/status/1458486855276503047 · [archived](https://web.archive.org/web/20211110184304/https://twitter.com/LHSummers/status/1458486855276503047)
-
-## 2021-11-07
-
-> .@LHSummers on the US #jobs report, the #economy, policies, and his concerns about the #Fed’s monetary policy stance. 
-> 
-> https://t.co/8V0PKV54no
-> 
-> #centralbanks #federalreserve #markets
-
-https://x.com/LHSummers/status/1457344693692469253 · [archived](https://web.archive.org/web/20211107140521/https://twitter.com/LHSummers/status/1457344693692469253)
-
-## 2021-11-05
-
-> Former Treasury Secretary Larry Summers says the Fed is taking a "real risk" by not acting now on inflation. He says it's like not braking your car, with a traffic jam ahead. See the full interview on Bloomberg Wall Street Week https://t.co/RqPTMfih53 https://t.co/TRDz86bOPt
-
-https://x.com/LHSummers/status/1456736425152499729 · [archived](https://web.archive.org/web/20211105221542/https://twitter.com/LHSummers/status/1456736425152499729)
 
 ## 2021-11-05 · reply to @LHSummers
 
@@ -3027,21 +2718,6 @@ https://x.com/LHSummers/status/1452699000713457671 · [archived](https://web.arc
 > Yesterday on @CNN  w @jaketapper, @SecYellen said I was wrong about my assertion that we are more at risks of losing control of inflation than at any time in my career.
 
 https://x.com/LHSummers/status/1452698998087823363 · [archived](https://web.archive.org/web/20211025183918/https://twitter.com/lhsummers/status/1452698998087823363?s=21)
-
-## 2021-10-09
-
-> Bankers should insist on civil treatment from their regulators, but only after they have demonstrated a willingness to do their part toward collecting taxes, @LHSummers writes: https://t.co/asaqmxNDxX
-
-https://x.com/LHSummers/status/1446907462481846279 · [archived](https://web.archive.org/web/20211009185322/https://twitter.com/LHSummers/status/1446907462481846279)
-
-## 2021-10-08
-
-> .@LHSummers: at no time in history have we faced such epically low borrowing rates alongside epically high potential returns associated w reducing #pandemic and #climate risks - we need to rethink, replenish and reinvent @WorldBank to get these investments done
-
-Quoting https://x.com/glassmanamanda/status/1446224016470167560:
-> Tomorrow Oct7 (req pre-register): How the Business Model of the @WorldBank Group Can Better Respond to Global Challenges https://t.co/xLL5o0Fshx feat @Tharman_S @LHSummers @lordstern1 @MasoodCGD @EdMountfield @nleecgd @BMZ_Bund @NorwayMFA @NaokoIshiiTokyo @USTreasury
-
-https://x.com/LHSummers/status/1446590708316520450 · [archived](https://web.archive.org/web/20211008213802/https://twitter.com/LHSummers/status/1446590708316520450)
 
 ## 2021-10-08 · reply to @LHSummers
 
@@ -3125,15 +2801,6 @@ https://x.com/LHSummers/status/1441045657767251972 · [archived](https://web.arc
 > Future investigations should note revolving door issues with congressional staff, and the issues around highly dubious opinion letters supporting shelters.
 
 https://x.com/LHSummers/status/1439598677383909376 · [archived](https://web.archive.org/web/20210920171233/https://twitter.com/LHSummers/status/1439598677383909376)
-
-## 2021-09-17
-
-> Our board chair, @NOIweala &amp; @Tharman_S are in today’s @PostOpinions about the urgency of financing pandemic preparedness. “We are nowhere near the end of the pandemic. Yet #C19 is a prelude to more and possibly worse pandemics to come.” See their recs for immediate action:
-
-Quoting https://x.com/LHSummers/status/1438826616684167171:
-> We must invest significantly more to close the major gaps in global public goods. A massively scaled-up network of early warning systems is needed, as well as efforts to prevent zoonotic spillovers at their source. ⁦@washingtonpost⁩ ⁦ https://t.co/RQp0JboMGb
-
-https://x.com/LHSummers/status/1438869118371958792 · [archived](https://web.archive.org/web/20210918155046/https://twitter.com/LHSummers/status/1438869118371958792)
 
 ## 2021-09-16
 
@@ -3239,12 +2906,6 @@ _(text not available)_
 
 https://x.com/LHSummers/status/1434620398386155526 · [archived](https://web.archive.org/web/20210905205219/https://twitter.com/LHSummers/status/1434620398386155526)
 
-## 2021-08-28
-
-> The lessons of Vietnam and Afghanistan are true for economic policy: Sticking to the same approach without considering whether it still makes sense is a recipe for trouble, @LHSummers writes https://t.co/Ok0CIM9EPS
-
-https://x.com/LHSummers/status/1431726063055421449 · [archived](https://web.archive.org/web/20210828211116/https://twitter.com/LHSummers/status/1431726063055421449)
-
 ## 2021-08-27 · reply to @LHSummers
 
 > QE supports the wealthy who hold these assets, rather than the bulk of the population, at a moment of nearly unprecedented inequality. And at a time when bubble risks are surely very high, the goal of policy should not be further inflating asset prices.
@@ -3323,18 +2984,6 @@ https://x.com/LHSummers/status/1429935716478431236 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1423385506763710465 · [archived](https://web.archive.org/web/20210805204850/https://twitter.com/LHSummers/status/1423385506763710465)
 
-## 2021-07-30
-
-> Join @VictorDzau, @LHSummers, and @glassmanamanda for a virtual roundtable discussion on the new G20 High Level Independent Panel report, A Global Deal for Our Pandemic Age, August 5 at 10am ET. Register now: https://t.co/lobjE6xd6D https://t.co/PDZ0GEJdsW
-
-https://x.com/LHSummers/status/1421208194345545731 · [archived](https://web.archive.org/web/20210730203720/https://twitter.com/LHSummers/status/1421208194345545731)
-
-## 2021-07-18
-
-> The panel, co-chaired by HKS's @LHSummers, calls for the international community to invest $15 billion a year in additional funds and for a major overhaul of the world’s health governance infrastructure https://t.co/9lItJ6pBLk
-
-https://x.com/LHSummers/status/1416771260625956869 · [archived](https://web.archive.org/web/20210718144905/https://twitter.com/LHSummers/status/1416771260625956869)
-
 ## 2021-07-14 · reply to @LHSummers
 
 > The similarities between the 1960s and now are more political than economic: a deeply divided country with a progressive, experienced, legislatively ambitious President; economists blaming special factors for each worrying number; a socially ambitious Fed. https://t.co/grJgixa8sg
@@ -3353,34 +3002,6 @@ https://x.com/LHSummers/status/1415130737955774466 · [archived](https://web.arc
 > U.S. Needs to Invest in Pandemic Preparedness - Bloomberg https://t.co/sHyIoEF0wX
 
 https://x.com/LHSummers/status/1413813367253389319 · [archived](https://web.archive.org/web/20210710105254/https://twitter.com/LHSummers/status/1413813367253389319)
-
-## 2021-07-10
-
-> Watch Online: Financing for #Pandemic Prev, Preparedness &amp; Response, July 14 @cgdev feat @g20org independent panel co-chair @LHSummers, advisor @VictorDzau, member @MasoodCGD and myself to discuss the new @g20org report https://t.co/FUY2oknoL6 -event here: https://t.co/rRcHjtmj1v
-
-https://x.com/LHSummers/status/1413810155905503234 · [archived](https://web.archive.org/web/20210710103956/https://twitter.com/LHSummers/status/1413810155905503234)
-
-## 2021-07-10
-
-> 🗣️ #G20HLIP
-> 
-> Costs of #pandemics to government budgets are up to 700 times larger than the annual additional international investments proposed by #G20HLIP – co-chaired by @Tharman_S, @NOIweala, @LHSummers w/ @Bruegel_org's @GuntramWolff @anne_bucher 👇 
-> https://t.co/pkCPPMoltH
-
-https://x.com/LHSummers/status/1413810024741228551 · [archived](https://web.archive.org/web/20210710103927/https://twitter.com/LHSummers/status/1413810024741228551)
-
-## 2021-07-09
-
-> Register now: @VictorDzau will speak with @LHSummers and @glassmanamanda about the #G20HLIP report on financing pandemic preparedness &amp; its recommendations on July 14 at 9:30am ET. https://t.co/tEokojNgsp
-
-https://x.com/LHSummers/status/1413611926471520258 · [archived](https://web.archive.org/web/20210709213215/https://twitter.com/LHSummers/status/1413611926471520258)
-
-## 2021-07-09
-
-> Presenting the G20 Commissioned High Level Independent Panel
-> Report on Financing the next pandemic. With my panel co-chairs @Tharman_S and @LHSummers at the G20 meeting in Venice. Great support from the Italian G20 Presidency and G20 Finance Ministers. #pandemicprepardeness https://t.co/XrnQEWDR6u
-
-https://x.com/LHSummers/status/1413611767280934914 · [archived](https://web.archive.org/web/20210709213128/https://twitter.com/LHSummers/status/1413611767280934914)
 
 ## 2021-07-09
 
@@ -3404,18 +3025,6 @@ https://x.com/LHSummers/status/1413559232704696336 · [archived](https://web.arc
 > Today in Venice @Tharman_S @NOIweala &amp; I presented a report to G20 fin. ministers &amp; central bank govs on financing for #pandemicpreparedness.  At press conference I said: For none of us is this our first rodeo w a global issue that requires a global collective response. #G20HLIP
 
 https://x.com/LHSummers/status/1413559223577886722 · [archived](https://web.archive.org/web/20210709180257/https://twitter.com/LHSummers/status/1413559223577886722)
-
-## 2021-07-09 · reply to @Lagarde
-
-> @OECD @g20org It was also very good to exchange views with @Tharman_S, @NOIweala, and @LHSummers of the G20 High-Level Level Panel on Financing Pandemic Preparedness and to hear their recommendations for ensuring financing is available for this crucial task. https://t.co/O7XKfFqu2I
-
-https://x.com/LHSummers/status/1413548753852813316 · [archived](https://web.archive.org/web/20210709172108/https://twitter.com/LHSummers/status/1413548753852813316)
-
-## 2021-07-05 · reply to @FinMinIndia
-
-> FM Smt. @nsitharaman and #HLIP co-chairs @Tharman_S @LHSummers @NOIweala discussed the Panel’s work which will be presented during the July #G20 Finance Ministers and Central Bank Governors (FMCBG) meeting. (2/3)
-
-https://x.com/LHSummers/status/1412057000477921284 · [archived](https://web.archive.org/web/20210705143325/https://twitter.com/LHSummers/status/1412057000477921284)
 
 ## 2021-07-03
 
@@ -3534,35 +3143,6 @@ https://x.com/LHSummers/status/1409467237744922630 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1409467231361187843 · [archived](https://web.archive.org/web/20210628110243/https://twitter.com/LHSummers/status/1409467231361187843)
 
-## 2021-06-18
-
-> .@LHSummers, @Harvard President Emeritus and Former US Secretary of the Treasury, will take part in the #GlobalPolicyForum, a milestone virtual event of @T20Solutions ahead of the @g20org.
-> Join the conversation, register now ➡️ https://t.co/pgr1yf99oQ https://t.co/Ohg95QzClG
-
-https://x.com/LHSummers/status/1405848503696326659 · [archived](https://web.archive.org/web/20210618112321/https://twitter.com/LHSummers/status/1405848503696326659)
-
-## 2021-06-11
-
-> "I think universities need to see themselves as places committed to intellectual excellence and openness to all ideas...Too often in recent years, they have seen themselves as social justice warrior institutions."
-> 
-> —Former @Harvard Pres. @LHSummers on PC campus culture
-> 
-> @PBS https://t.co/m9gpkolk0Z
-
-https://x.com/LHSummers/status/1403440253780824071 · [archived](https://web.archive.org/web/20210611212624/https://twitter.com/LHSummers/status/1403440253780824071)
-
-## 2021-06-11
-
-> "When you’re on uncertain floor, you need to walk gingerly."
->  
-> Former @USTreasury Sec. @LHSummers joins @MargaretHoover to discuss his concerns about inflation in an overheated post-pandemic economy. 
->  
-> Tonight 8:30PM ET @ThirteenWNET
->  
-> @PBS listings: https://t.co/iuL2Vbs5Ic https://t.co/MdrppZvAXg
-
-https://x.com/LHSummers/status/1403434444699095050 · [archived](https://web.archive.org/web/20210611201046/https://twitter.com/LHSummers/status/1403434444699095050)
-
 ## 2021-06-10 · reply to @LHSummers
 
 > It is not only Americans but people all over the world, especially in poor countries, who have a great stake in the prudence of US policy.
@@ -3593,15 +3173,6 @@ https://x.com/LHSummers/status/1402987568568750091 · [archived](https://web.arc
 > https://t.co/sjPalMKpwo via @bopinion
 
 https://x.com/LHSummers/status/1402987562239545344 · [archived](https://web.archive.org/web/20210610145104/https://twitter.com/LHSummers/status/1402987562239545344)
-
-## 2021-06-10
-
-> Five former Treasury Secretaries back Biden's proposal to invest more in the IRS and go after tax cheats. Some wealthy people don't even file tax returns and get away with it, because the US has too few tax auditors. Some $600b in unpaid taxes is left on the table each year.
-
-Quoting https://x.com/LHSummers/status/1402699991232225284:
-> We Ran the Treasury Department. This Is How to Fix Tax Evasion. Via @NYTOpinion https://t.co/XYHbDRvoKX
-
-https://x.com/LHSummers/status/1402980670415282183 · [archived](https://web.archive.org/web/20210610135425/https://twitter.com/LHSummers/status/1402980670415282183)
 
 ## 2021-06-10 · reply to @LHSummers
 
@@ -3670,12 +3241,6 @@ https://x.com/LHSummers/status/1396964998015078408 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1396964996664471552 · [archived](https://web.archive.org/web/20210524230325/https://twitter.com/LHSummers/status/1396964996664471552)
 
-## 2021-05-24
-
-> The inflation risk is real, @LHSummers writes https://t.co/q07wWjDKhp
-
-https://x.com/LHSummers/status/1396905476969877504 · [archived](https://web.archive.org/web/20210524204824/https://twitter.com/LHSummers/status/1396905476969877504)
-
 ## 2021-05-20 · reply to @LHSummers
 
 > I would like to see the basis for @USTreasury Secretary Yellen’s assertion that the Administration’s plan will raise net corporate profits. I find it implausible but could be persuaded by analysis.
@@ -3718,22 +3283,6 @@ https://x.com/LHSummers/status/1393564726840467458 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1392671587908870147 · [archived](https://web.archive.org/web/20210513024251/https://twitter.com/LHSummers/status/1392671587908870147)
 
-## 2021-05-13
-
-> “Whatever was the case a few months ago, it should now be clear that overheating -- not excess slack -- is the dominant economic risk facing the US over the next year or two." - ⁦@LHSummers⁩ 
-> 
-> (via ⁦@JohnJHarwood⁩)  https://t.co/AD47LpBpI5
-
-https://x.com/LHSummers/status/1392663234482671619 · [archived](https://web.archive.org/web/20210513020944/https://twitter.com/LHSummers/status/1392663234482671619)
-
-## 2021-05-12
-
-> Tune into a recording of an HKS China Society event "The Evolving Role of US and China in the Global Economy" featuring @MrKRudd, @LHSummers, Jin Liqun, President of @AIIB_Official.
-> 
-> Watch ↓ https://t.co/YUlEMdXf7I
-
-https://x.com/LHSummers/status/1392278069470171140 · [archived](https://web.archive.org/web/20210512003910/https://twitter.com/LHSummers/status/1392278069470171140)
-
 ## 2021-05-06
 
 > I was sorry to learn of David Swensen's death. In addition to being a remarkable investor &amp; superb team leader, David made important contributions to resolving 2008 fin. crisis as a key member of @BarackObama economic recovery advisory board. I will miss his friendship and wisdom
@@ -3745,19 +3294,6 @@ https://x.com/LHSummers/status/1390421623619129345 · [archived](https://web.arc
 > Failure to take necessary steps to prepare for future shocks increases risk that debt problems would not be resolved w consequences in hundreds of billions-if not trillions-of dollars, stalled progress in poverty reduction, containing health threats, &amp; mitigating climate change
 
 https://x.com/LHSummers/status/1390010675473358850 · [archived](https://web.archive.org/web/20210505183557/https://twitter.com/LHSummers/status/1390010675473358850)
-
-## 2021-05-04
-
-> Good thread by @LHSummers on cracking down on tax cheats. Why would the WSJ, which subscribed to "broken windows" policing, support tycoons evading taxes? That makes others pay more and undermines rule of law. Law enforcement should apply to taxes as well as jumping turnstiles.
-
-Quoting https://x.com/LHSummers/status/1389624980778913797:
-> 1/Investing in tax compliance raises significant revenue, increases efficiency, and creates a more equitable tax code.
->   
-> @WSJ  editorial's attack on Biden plan, as well as my research in this space w/ @NatashaRSarin &amp; fmr IRS Cmsr Rossotti is unfounded.
-> 
-> https://t.co/oioXqzTi6q
-
-https://x.com/LHSummers/status/1389627067436871681 · [archived](https://web.archive.org/web/20210504172015/https://twitter.com/LHSummers/status/1389627067436871681)
 
 ## 2021-05-04 · reply to @LHSummers
 
@@ -3810,26 +3346,6 @@ https://x.com/LHSummers/status/1389624985174560768 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1389624982108614658 · [archived](https://web.archive.org/web/20210504170500/https://twitter.com/LHSummers/status/1389624982108614658)
 
-## 2021-04-30
-
-> "It was probably the most consequential first address to Congress by a President since Ronald Reagan declared a redirection of the country in 1981."
-> 
-> @LHSummers breaks down President Biden's plans for the nation tonight on Wall Street Week @ 6PM ET ▶️ https://t.co/BdB718E6l5 https://t.co/wPVZOoPMfy
-
-https://x.com/LHSummers/status/1388231659561050113 · [archived](https://web.archive.org/web/20210430204041/https://twitter.com/LHSummers/status/1388231659561050113)
-
-## 2021-04-24
-
-> China's "aggressive and muscular" use of OBOR loan terms from @LHSummers and @AGelpern on @BloombergTV #WallStreetWeek. "China isn't playing fair vis a vis other creditors,"using "more aggressive capacity to get repaid and threaten" to "get lower rates" https://t.co/Pf3WasJPbW https://t.co/BDeNEUp1HD
-
-https://x.com/LHSummers/status/1385927331701792768 · [archived](https://web.archive.org/web/20210424120350/https://twitter.com/LHSummers/status/1385927331701792768)
-
-## 2021-04-22
-
-> “The Evolving Role of US and China in the Global Economy” on 4/22 at 8pm EST with @MrKRudd, @LHSummers, Jin Liqun, President of @AIIB_Official https://t.co/9TIHaGIzzH
-
-https://x.com/LHSummers/status/1385322503959158784 · [archived](https://web.archive.org/web/20210422200013/https://twitter.com/LHSummers/status/1385322503959158784)
-
 ## 2021-04-22 · reply to @LHSummers
 
 > If one thinks about the risks of asset price bubbles, the risks of having excessive short term debt on the national balance sheet, the risks of inflation breaking out, it seems to me a balance of risks would counsel expressing some concern about all of these things.
@@ -3842,34 +3358,11 @@ https://x.com/LHSummers/status/1385296635488522243 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1385296632774807555 · [archived](https://web.archive.org/web/20210422181719/https://twitter.com/LHSummers/status/1385296632774807555)
 
-## 2021-04-21
-
-> essential viewing: this critique of Fed &amp; Biden admin policy by @LHSummers in convo w @gilliantett at @CFR_org. Summers argues stimulus much larger than numbers justify. plus insufficiently targeted. Odds high we could end up w inflation, then recession. https://t.co/FF2W06quhf
-
-https://x.com/LHSummers/status/1385017721356685316 · [archived](https://web.archive.org/web/20210421234930/https://twitter.com/LHSummers/status/1385017721356685316)
-
 ## 2021-04-20
 
 > Congratulations to my @Harvard colleague and new John Bates Clark medalist Isaiah Andrews. The depth of his research is matched by its importance in letting us use data to better target policy interventions. Econometrics cares and matters. https://t.co/joOy2OfDeA
 
 https://x.com/LHSummers/status/1384519441829056514 · [archived](https://web.archive.org/web/20210420144946/https://twitter.com/LHSummers/status/1384519441829056514)
-
-## 2021-04-18
-
-> "The laws of economics are as difficult to defy as the laws of physics" —@LHSummers. Former treasury secretary Larry Summers is one of many eminent economists who have contributed to our economics book recommendations:
-> https://t.co/oUfuZjGo4J
-
-https://x.com/LHSummers/status/1383766574687875081 · [archived](https://web.archive.org/web/20210418125759/https://twitter.com/LHSummers/status/1383766574687875081)
-
-## 2021-04-16
-
-> Former U.S. Treasury Secretary @LHSummers says he's as worried as anyone about China and Russia, but over the next decade "we've got more to fear from microbes."
-> 
-> For the full conversation, tune in to Wall Street Week tonight @ 6PM Eastern Time.
-> 
-> ▶️ https://t.co/ZwvMQwUE9T https://t.co/TQEKT51APp
-
-https://x.com/LHSummers/status/1383066203166498817 · [archived](https://web.archive.org/web/20210416143445/https://twitter.com/LHSummers/status/1383066203166498817)
 
 ## 2021-04-13
 
@@ -3884,12 +3377,6 @@ https://x.com/LHSummers/status/1381921590615638016 · [archived](https://web.arc
 > https://t.co/OJv0iIDZPJ
 
 https://x.com/LHSummers/status/1381206814532993025 · [archived](https://web.archive.org/web/20210411112634/https://twitter.com/LHSummers/status/1381206814532993025)
-
-## 2021-04-05 · reply to @RepRoKhanna
-
-> By investing $100 billion into the IRS over the next 10 years + requiring banks to disclose business income, my Stop CHEATERS Act would generate an ~$1.2 Trillion. This idea comes from the brilliant @NatashaRSarin,  @LHSummers &amp; Charles Rossotti.
-
-https://x.com/LHSummers/status/1379128768749576200 · [archived](https://web.archive.org/web/20210405174838/https://twitter.com/LHSummers/status/1379128768749576200)
 
 ## 2021-04-02 · reply to @LHSummers
 
@@ -3921,38 +3408,12 @@ https://x.com/LHSummers/status/1377599478463664129 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1377599474860711942 · [archived](https://web.archive.org/web/20210401123152/https://twitter.com/LHSummers/status/1377599474860711942)
 
-## 2021-03-31
-
-> #ICYMI: The @nytimes editorial board cited a recent analysis published in Tax Notes by Charles Rossotti, @LHSummers, and @NatashaRSarin. 
-> 
-> Read their full analysis in Tax Notes for free: https://t.co/HR7HNHUcQO 
-> 
-> https://t.co/h8zfKj2swI
-
-https://x.com/LHSummers/status/1377294044313845762 · [archived](https://web.archive.org/web/20210331161826/https://twitter.com/LHSummers/status/1377294044313845762)
-
 ## 2021-03-21
 
 > Charles Rossotti was a great IRS commissioner and has right plan for the future. 
 > Shrinking the Tax Gap: A Comprehensive Approach https://t.co/OJv0iIDZPJ
 
 https://x.com/LHSummers/status/1373599004261502976 · [archived](https://web.archive.org/web/20210321113513/https://twitter.com/LHSummers/status/1373599004261502976)
-
-## 2021-03-14
-
-> Pt. 2 of my conversation w/ @paulkrugman &amp; @LHSummers: Will the $1.9T stimulus package prevent future investments in things like infrastructure? 
-> 
-> And does it mark a risky new orthodoxy on gov't spending? https://t.co/OyTxkMe1Ho
-
-https://x.com/LHSummers/status/1371215420385017863 · [archived](https://web.archive.org/web/20210314214858/https://twitter.com/LHSummers/status/1371215420385017863)
-
-## 2021-03-13
-
-> On GPS, @ 10am &amp; 1pm ET Sunday on @CNN: Now that Pres. Biden has signed a $1.9 trillion stimulus bill into law, what will it mean for the US economy?
->  
-> I’ll ask two of America’s most distinguished economists, @paulkrugman &amp; @LHSummers, to help us make sense of it …
-
-https://x.com/LHSummers/status/1370801363588907018 · [archived](https://web.archive.org/web/20210313181827/https://twitter.com/LHSummers/status/1370801363588907018)
 
 ## 2021-03-10
 
@@ -3967,31 +3428,11 @@ https://x.com/LHSummers/status/1369660009299251207 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1369656676417236995 · [archived](https://web.archive.org/web/20210310143023/https://twitter.com/LHSummers/status/1369656676417236995)
 
-## 2021-03-01
-
-> Join us &amp; @Kennedy_School, @HKS_BizGov for the launch of 'The Dragon, the Eagle, and the Private Sector' (@CambridgeUP), featuring @LHSummers and authors Karen Eggleston, John Donahue &amp; Richard Zeckhauser on public-private collaboration in China &amp; the US: https://t.co/7dFK3wUfAI https://t.co/1LFwZcj5Mm
-
-https://x.com/LHSummers/status/1366485601818734593 · [archived](https://web.archive.org/web/20210301205228/https://twitter.com/LHSummers/status/1366485601818734593)
-
-## 2021-02-26
-
-> Larry Summers: "The idea that if you produce an overheat it is easily dealt with, I don’t know why anybody thinks that’s true. I’m concerned about inflation as a consequence of the extraordinary fiscal policy we’re pursuing now."
-> Watch the whole thing.
-> https://t.co/td59L9NOPw https://t.co/A14vLTmFXE
-
-https://x.com/LHSummers/status/1365327965832241157 · [archived](https://web.archive.org/web/20210226154957/https://twitter.com/LHSummers/status/1365327965832241157)
-
 ## 2021-02-26
 
 > My conversation w @BillKristol: Historians will remember this moment when the autocracies of East succeeded in containing the problem &amp; democracies of West failed. The most important thing now is that we be competent &amp; effective in responding to COVID.  https://t.co/LoFIBQrUxg
 
 https://x.com/LHSummers/status/1365127246609084417 · [archived](https://web.archive.org/web/20210226023147/https://twitter.com/LHSummers/status/1365127246609084417)
-
-## 2021-02-18
-
-> Join us tomorrow (2/19) at 12:30pm ET for a webinar with @LHSummers and Sir Paul Tucker on "Lessons from a #pandemic year for macroeconomic and financial stability policy." Registration: https://t.co/EBuQ7Ajd4M
-
-https://x.com/LHSummers/status/1362524655911907332 · [archived](https://web.archive.org/web/20210218220934/https://twitter.com/LHSummers/status/1362524655911907332)
 
 ## 2021-02-15
 
@@ -4010,12 +3451,6 @@ https://x.com/LHSummers/status/1358420748176613382 · [archived](https://web.arc
 > 2. You have for years been alarmed about secular stagnation and with former Council of Economic Adviser chairman Jason Furman have advocated a new expansionary approach to fiscal policy. Isn’t your worry about economic overheating inconsistent with this?
 
 https://x.com/LHSummers/status/1358420745639051265 · [archived](https://web.archive.org/web/20210207142452/https://twitter.com/LHSummers/status/1358420745639051265)
-
-## 2021-02-05
-
-> As a massive program moves toward enactment and implementation, policymakers need to ensure that they have plans in place to address two possible, and quite serious, problems, @LHSummers writes: https://t.co/RFPo5Ju7yL
-
-https://x.com/LHSummers/status/1357802525995499525 · [archived](https://web.archive.org/web/20210205212538/https://twitter.com/LHSummers/status/1357802525995499525)
 
 ## 2021-02-04 · reply to @LHSummers
 
@@ -4053,12 +3488,6 @@ https://x.com/LHSummers/status/1357394970437681157 · [archived](https://web.arc
 > https://t.co/h1ebAM82Xr
 
 https://x.com/LHSummers/status/1357394968957091842 · [archived](https://web.archive.org/web/20210204182650/https://twitter.com/LHSummers/status/1357394968957091842)
-
-## 2021-01-27
-
-> Bank of Italy - The #G20 establishes a High Level Independent Panel on the future of financing for pandemic preparedness and response led by @Tharman_S @LHSummers @NOIweala  https://t.co/PiXa3dU7BU #globalhealth #GHSA
-
-https://x.com/LHSummers/status/1354465689009070081 · [archived](https://web.archive.org/web/20210127162714/https://twitter.com/LHSummers/status/1354465689009070081)
 
 ## 2021-01-25 · reply to @LHSummers
 
@@ -4264,14 +3693,6 @@ https://x.com/LHSummers/status/1340858982454480896 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1340858981527539713 · [archived](https://web.archive.org/web/20201221031801/https://twitter.com/LHSummers/status/1340858981527539713)
 
-## 2020-12-19
-
-> A January 2020 @hamiltonproj proposal by @NatashaRSarin, @LHSummers &amp; @Joe_Kupferberg details several reforms to the tax system to combat illegal evasion and decrease opportunities for legal tax avoidance.
-> 
-> Read our 2020 Year In Figures here: https://t.co/mH5IjkM13E #taxpolicy https://t.co/g7bNfHwknM
-
-https://x.com/LHSummers/status/1340325082376318978 · [archived](https://web.archive.org/web/20201219155739/https://twitter.com/LHSummers/status/1340325082376318978)
-
 ## 2020-12-14 · reply to @LHSummers
 
 > 4/Much higher priorities for policy attention to financial sector should be buildups of leverage &amp; possible bubbles in shadow banking system, dubious stress tests &amp; tens of billions of dollars diverted to insiders by what seems a like a crony capitalist IPO underwriting system.
@@ -4321,12 +3742,6 @@ https://x.com/LHSummers/status/1338315105981919237 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1337558140615864321 · [archived](https://web.archive.org/web/20201212004138/https://twitter.com/LHSummers/status/1337558140615864321)
 
-## 2020-12-11
-
-> “@BrianCDeese will be a great NEC head. He cares deeply about policy, is skilled at process, and shrewd about politics. Just what the job requires.” — @LHSummers on @JoeBiden’s pick for NEC. Listen to our interview with Deese here: https://t.co/9cFp6IZfa9
-
-https://x.com/LHSummers/status/1337418723167252481 · [archived](https://web.archive.org/web/20201211152901/https://twitter.com/LHSummers/status/1337418723167252481)
-
 ## 2020-12-09
 
 > Here is a table with the decline in audit rates by filer category: https://t.co/Kg9yonU75Q
@@ -4344,29 +3759,6 @@ https://x.com/LHSummers/status/1336794363465240578 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1336740296126828546 · [archived](https://web.archive.org/web/20201209183408/https://twitter.com/LHSummers/status/1336740296126828546)
 
-## 2020-12-08
-
-> We just finished the first episode of #PIIEGlobalConnections, our new series hosted by @atkinsoncaro on global thinking on macroeconomic tools and policy.
-> Watch the discussion with @LHSummers &amp; @LauBooneEco here: https://t.co/ioIj335YXq https://t.co/PMmDmnfErQ
-
-https://x.com/LHSummers/status/1336333861563723776 · [archived](https://web.archive.org/web/20201208164254/https://twitter.com/LHSummers/status/1336333861563723776)
-
-## 2020-12-07
-
-> Corporate taxation should not be a race to the bottom, @LHSummers says. 
-> 
-> Watch his full comments at #PIIERebuilding here: https://t.co/NfUgp2XBsK https://t.co/8zWF0VH86a
-
-https://x.com/LHSummers/status/1336025942385455106 · [archived](https://web.archive.org/web/20201207191355/https://twitter.com/LHSummers/status/1336025942385455106)
-
-## 2020-12-07
-
-> Excited to announce our newest Virtual Events Series @PIIE 
-> Global Connections with Caroline Atkinson 
-> launching tomorrow 08 Dec with @LHSummers @LauBooneEco on The next macroeconomic policy revolution | https://t.co/d8EOsLCV04
-
-https://x.com/LHSummers/status/1335973897800396806 · [archived](https://web.archive.org/web/20201207160924/https://twitter.com/LHSummers/status/1335973897800396806)
-
 ## 2020-12-03
 
 > I’ve been privileged to work w many brilliant leaders committed to serving our country. Brian stands out as among the smartest, most capable, and most concerned w helping those who need it most. President-elect Biden could not have chosen someone better to lead us at this moment.
@@ -4378,38 +3770,6 @@ Quoting https://x.com/WhiteHouse46/status/1334562703327842309:
 
 https://x.com/LHSummers/status/1334565062011445249 · [archived](https://web.archive.org/web/20201203193222/https://twitter.com/LHSummers/status/1334565062011445249)
 
-## 2020-12-03 · reply to @BrookingsEcon
-
-> If the goal of the Simpson-Bowles plan had been achieved and maintained, says @LHSummers, the consequences would have been catastrophic. https://t.co/rLvELFWTd2
-
-https://x.com/LHSummers/status/1334546335266123778 · [archived](https://web.archive.org/web/20201203181421/https://twitter.com/LHSummers/status/1334546335266123778)
-
-## 2020-12-03 · reply to @BrookingsEcon
-
-> .@jasonfurman presents the conclusions of his proposals developed w/ @LHSummers in their new analysis of fiscal policy in the era of low interest rates. Find a conference draft of their paper here: https://t.co/C5yJNFz4Zq https://t.co/0pGhwKcyJm
-
-https://x.com/LHSummers/status/1334546231050244098 · [archived](https://web.archive.org/web/20201203175030/https://twitter.com/LHSummers/status/1334546231050244098)
-
-## 2020-12-03
-
-> This week, The Hutchins Center convened leading economists to discuss the future of #FiscalPolicy. Our second panel focused on long-term challenges, including the national debt in an era of low interest rates. See highlights below &amp; the full discussion at https://t.co/C5yJNFz4Zq
-
-https://x.com/LHSummers/status/1334546215174868992 · [archived](https://web.archive.org/web/20201203191612/https://twitter.com/LHSummers/status/1334546215174868992)
-
-## 2020-12-02 · reply to @AdamPosen
-
-> @ojblanchard1 @jasonfurman @LHSummers @PIIE For the start of the rethinking of macroeconomic policy, look at the conference organized by @ojblanchard1 @LHSummers @PIIE, and what we called for in fiscal and monetary policy, and increased coordination thereof:
-> https://t.co/Ml8nWwZKM9
-
-https://x.com/LHSummers/status/1334157104400265216 · [archived](https://web.archive.org/web/20201202154113/https://twitter.com/LHSummers/status/1334157104400265216)
-
-## 2020-12-02 · reply to @ojblanchard1
-
-> @ojblanchard1 This agreement - and the paper by @jasonfurman and @LHSummers - is a substantial next step building on the journey @ojblanchard1 and Summers started at our Rethinking Macroeconomic Policy conference in 2017 @PIIE Read their new paper (or slides) here:
-> https://t.co/bx2DVi2hle
-
-https://x.com/LHSummers/status/1334155017692045312 · [archived](https://web.archive.org/web/20201202152722/https://twitter.com/LHSummers/status/1334155017692045312)
-
 ## 2020-12-02
 
 > This session--Fiscal policy advice for Joe Biden &amp; Congress--includes an in depth discussion where @benbernanke, Ken Rogoff, &amp; @ojblanchard1 echo @jasonfurman and my call for a focus on public investment deficits rather than budget deficits.
@@ -4417,25 +3777,6 @@ https://x.com/LHSummers/status/1334155017692045312 · [archived](https://web.arc
 > https://t.co/BvJ1wEEkjq via @YouTube
 
 https://x.com/LHSummers/status/1333956519671508994 · [archived](https://web.archive.org/web/20201202021053/https://twitter.com/LHSummers/status/1333956519671508994)
-
-## 2020-12-01 · reply to @LHSummers
-
-> @LHSummers joins Furman in beating up on Simpson Bowles. Consequences of that much fiscal contraction would have been “catastrophic”  https://t.co/boK8uoeE3k
-
-https://x.com/LHSummers/status/1333894747044409348 · [archived](https://web.archive.org/web/20201201220511/https://twitter.com/LHSummers/status/1333894747044409348)
-
-## 2020-12-01
-
-> STARTING NOW: Fiscal policy advice for Joe Biden and Congress with @BrookingsEcon/@BrookingsInst. Hear from @LHSummers, @jasonfurman, @ojblanchard1, @WendyEdelberg, &amp; more. 
-> Watch #FiscalPolicy live: https://t.co/5eNyt1ztVC
-
-https://x.com/LHSummers/status/1333864378588868611 · [archived](https://web.archive.org/web/20201201201037/https://twitter.com/LHSummers/status/1333864378588868611)
-
-## 2020-12-01
-
-> In our new paper @LHSummers and I argue that low interest rates present a challenge for monetary policy and financial stability but an opportunity for fiscal policy--if we choose to seize it. A thread summarizing the paper. https://t.co/6Az0iQWGYw
-
-https://x.com/LHSummers/status/1333821469613285379 · [archived](https://web.archive.org/web/20201201181306/https://twitter.com/LHSummers/status/1333821469613285379)
 
 ## 2020-11-30 · reply to @LHSummers
 
@@ -4528,7 +3869,7 @@ https://x.com/LHSummers/status/1332669948087427076 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1331085191532703750 · [archived](https://web.archive.org/web/20201124040144/https://twitter.com/LHSummers/status/1331085191532703750)
 
-## 2020-11-21
+## 2020-11-21 · reply to @LHSummers
 
 > Financial problems mount as households, companies &amp; govts draw down their cash reserves, &amp; any buoyancy in stock markets, however positive, is a risk factor given that markets can change on a dime. Getting ahead of possible future problems needs to be a central priority for G20.
 
@@ -4566,68 +3907,6 @@ https://x.com/LHSummers/status/1329796403925823488 · [archived](https://web.arc
 > There's not much room for debate on the merits of maintaining stanbdy capacities.
 
 https://x.com/LHSummers/status/1329795199334281216 · [archived](https://web.archive.org/web/20201120162457/https://twitter.com/LHSummers/status/1329795199334281216)
-
-## 2020-11-14
-
-> US-China relations: Beijing’s provocation partly to blame for rising tensions, ex-US treasury chief ⁦@LHSummers⁩ says #China #china #UnitedStates  https://t.co/dQs07wfZxD
-
-https://x.com/LHSummers/status/1327586997888757761 · [archived](https://web.archive.org/web/20201114122045/https://twitter.com/LHSummers/status/1327586997888757761)
-
-## 2020-11-11
-
-> This is the right time to resist protectionism, to enforce existing trade agreements, and to pursue sectoral regulatory agendas in areas like finance and technology, @LHSummers writes to a Biden admin @USTreasury secretary. #PIIERebuilding 
-> https://t.co/ZWkw7xgIvn
-
-https://x.com/LHSummers/status/1326606237119750149 · [archived](https://web.archive.org/web/20201111192949/https://twitter.com/LHSummers/status/1326606237119750149)
-
-## 2020-11-11
-
-> “While I do not believe the dollar has serious peer competitors, at this point given your commitment to expansionary policy it would be unwise to appear actively devaluationist or indifferent to the dollar,” @LHSummers said yesterday at #PIIERebuilding.
-> https://t.co/HL0gMR4xjL
-
-https://x.com/LHSummers/status/1326536490667573248 · [archived](https://web.archive.org/web/20201111145002/https://twitter.com/LHSummers/status/1326536490667573248)
-
-## 2020-11-10
-
-> The focus of policy must be on the constructive absorption of private savings—that means fiscal policy, @LHSummers says. With such low interest rates, monetary policy is much less important today than it has been in the past. #PIIERebuilding 
-> 
-> Watch live: https://t.co/NfUgp2XBsK https://t.co/usm5wyDUeW
-
-https://x.com/LHSummers/status/1326242691961778180 · [archived](https://web.archive.org/web/20201110192329/https://twitter.com/LHSummers/status/1326242691961778180)
-
-## 2020-11-10
-
-> .@LHSummers says Biden's @USTreasury Secretary must sharply revise prevailing understandings that underpin macroeconomic policy discussion. 
-> Watch #PIIERebuilding live: https://t.co/NfUgp2XBsK https://t.co/DWmesoDEsU
-
-https://x.com/LHSummers/status/1326242672101781505 · [archived](https://web.archive.org/web/20201110192207/https://twitter.com/LHSummers/status/1326242672101781505)
-
-## 2020-11-10
-
-> "It has become the goal of the United States to win a race to the bottom in corporate taxation. Your goal should be cooperative leveling up of corporate tax burdens." - @LHSummers says to the next @USTreasury Secretary. 
-> 
-> Watch #PIIERebuilding live: https://t.co/NfUgp2XBsK https://t.co/IfrcQcgtJr
-
-https://x.com/LHSummers/status/1326242594628755456 · [archived](https://web.archive.org/web/20201110191802/https://twitter.com/LHSummers/status/1326242594628755456)
-
-## 2020-11-10
-
-> Monetary policy is much less important today than it has been in the past, @LHSummers writes to a Biden admin Treasury Secretary. Maintaining demand &amp; assuring a sustainable financial foundation for prosperity will depend on fiscal policy. #PIIERebuilding
-> https://t.co/ZWkw7xgIvn https://t.co/AdfWA8TAqv
-
-https://x.com/LHSummers/status/1326203621172764673 · [archived](https://web.archive.org/web/20201110165053/https://twitter.com/LHSummers/status/1326203621172764673)
-
-## 2020-11-05
-
-> .@LHSummers says he's optimistic about the revenue potential of a modest corporate tax reform package. "Going after various, fairly abusive situations, where companies earn and report substantial profits year after year but are somehow enabled to not pay taxes," he said. https://t.co/brj2m4w7kY
-
-https://x.com/LHSummers/status/1324470427473846273 · [archived](https://web.archive.org/web/20201105215549/https://twitter.com/LHSummers/status/1324470427473846273)
-
-## 2020-11-05
-
-> "If we learned anything from the election, there is not a mandate to turn the United States into a version of Western Europe," @LHSummers tells us. #ECNYSummers
-
-https://x.com/LHSummers/status/1324470403838988292 · [archived](https://web.archive.org/web/20201105215547/https://twitter.com/LHSummers/status/1324470403838988292)
 
 ## 2020-11-01 · reply to @LHSummers
 
@@ -4667,34 +3946,6 @@ https://x.com/LHSummers/status/1322002026826485760 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1322002004365971456 · [archived](https://web.archive.org/web/20201030022704/https://twitter.com/LHSummers/status/1322002004365971456)
 
-## 2020-10-29
-
-> #RankedChoiceVoting would promote the political moderation that @MassGovernor Charlie Baker has long stood for, write @yeson2rcv’s @MichaelEPorter and @LHSummers. https://t.co/r1IrQIPTSF
-
-https://x.com/LHSummers/status/1321956496482119681 · [archived](https://web.archive.org/web/20201029232639/https://twitter.com/LHSummers/status/1321956496482119681)
-
-## 2020-10-29
-
-> BREAKING: @JohnKerry endorses #YesOn2!
-> 
-> “A yes vote on Question 2 affirms that tradition is alive for the next generation, which is why I voted for it myself. Ranked choice voting would help strengthen our democracy at a time when we need it most.” https://t.co/lkzruX992F
-
-https://x.com/LHSummers/status/1321943852719218688 · [archived](https://web.archive.org/web/20201029223603/https://twitter.com/LHSummers/status/1321943852719218688)
-
-## 2020-10-29
-
-> "Ranked-choice voting is a political innovation whose time has come. If #YesOn2 passes, Massachusetts is poised to become a national leader in advancing this step to help break partisan gridlock and strengthen our democracy." 
-> @MichaelEPorter &amp; @LHSummers 
-> https://t.co/PASfFwip4w https://t.co/5sVHfoPzpS
-
-https://x.com/LHSummers/status/1321932402088968195 · [archived](https://web.archive.org/web/20201029215031/https://twitter.com/LHSummers/status/1321932402088968195)
-
-## 2020-10-29
-
-> No, #RankedChoiceVoting won’t cause serious voting delays, as @MassGovernor Charlie Baker seems to think, write @yeson2rcv’s @MichaelEPorter and @LHSummers. https://t.co/3dvHnGStfF
-
-https://x.com/LHSummers/status/1321879753666736133 · [archived](https://web.archive.org/web/20201029182135/https://twitter.com/LHSummers/status/1321879753666736133)
-
 ## 2020-10-29 · reply to @LHSummers
 
 > Ranked-choice voting is a political innovation whose time has come. If Yes on 2 passes, Massachusetts is poised to become a national leader in advancing this step to help break partisan gridlock and strengthen our democracy.
@@ -4718,24 +3969,6 @@ https://x.com/LHSummers/status/1321841188115283973 · [archived](https://web.arc
 > Governor Baker is wrong about ranked-choice voting. My op-ed today @BostonGlobe with @MichaelEPorter  https://t.co/vkl4VP8pdD
 
 https://x.com/LHSummers/status/1321841187158982657 · [archived](https://web.archive.org/web/20201029154829/https://twitter.com/LHSummers/status/1321841187158982657)
-
-## 2020-10-24
-
-> Markets waiting for election, stimulus, and COVID this week.  On @BloombergTV #WallStreetWeek: @LHSummers, Alan Greenspan, former @IBM CEO Sam Palmisano,  Katie Koch of @GoldmanSachs @EricHolder Lori Heinel of @StateStreetGA Roger Ferguson of @TIAA https://t.co/X2vLa13ZGz https://t.co/2GDkj3Vf3r
-
-https://x.com/LHSummers/status/1320029111205724161 · [archived](https://web.archive.org/web/20201024155652/https://twitter.com/LHSummers/status/1320029111205724161)
-
-## 2020-10-22
-
-> 1/5 large companies paid nothing in federal taxes last year
-> 
-> In today's @PostOpinions with @LHSummers, we argue that taxpayers (and policymakers!) need to know why this is.
-> 
-> A thread: 
-> 
-> https://t.co/DQjm4zyqjJ
-
-https://x.com/LHSummers/status/1319425330856235008 · [archived](https://web.archive.org/web/20201022235413/https://twitter.com/LHSummers/status/1319425330856235008)
 
 ## 2020-10-22 · reply to @LHSummers
 
@@ -4766,19 +3999,6 @@ https://x.com/LHSummers/status/1319327313885040646 · [archived](https://web.arc
 > Interest rates are essentially zero, telling us that the funds are available and won’t crowd out anything important. Instead it will push economy forward. All the dangers are on spending too little, not too much.
 
 https://x.com/LHSummers/status/1317848910963027969 · [archived](https://web.archive.org/web/20201018152427/https://twitter.com/LHSummers/status/1317848910963027969)
-
-## 2020-10-18
-
-> On GPS, @ 10am &amp; 1pm ET Sunday on @CNN: The US election is a little more than 2 weeks away, but so far major foreign-policy issues have taken a backseat. I’ll ask @ablinken about @JoeBiden’s worldview &amp; how he’d approach big challenges like China …
-
-https://x.com/LHSummers/status/1317800575891890176 · [archived](https://web.archive.org/web/20201018121250/https://twitter.com/LHSummers/status/1317800575891890176)
-
-## 2020-10-15
-
-> . @HarvardEcon's @Cutler_econ and former Secretary @USTreasury @LHSummers estimate the cost of the #pandemic in the U.S at $16 trillion. "The immense financial loss suggests a fundamental rethinking of government’s role in pandemic preparation." 
-> https://t.co/m5PIIqscAn
-
-https://x.com/LHSummers/status/1316765838037352451 · [archived](https://web.archive.org/web/20201015155119/https://twitter.com/LHSummers/status/1316765838037352451)
 
 ## 2020-10-12 · reply to @LHSummers
 
@@ -4839,17 +4059,6 @@ https://x.com/LHSummers/status/1313838974163714048 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1313838972330745858 · [archived](https://web.archive.org/web/20201007140844/https://twitter.com/LHSummers/status/1313838972330745858)
 
-## 2020-10-06
-
-> This week in #PolicyTalks: @LHSummers and @MayaMacGuineas on the federal deficit. Moderated by @BetseyStevenson.
-> 
-> 📆 Tomorrow: Wednesday, October 7
-> 🕒 4 PM - 5 PM EDT
-> 
-> Co-sponsored by @WMPF and @PresGeraldRFord.
-
-https://x.com/LHSummers/status/1313471780812619776 · [archived](https://web.archive.org/web/20201006213643/https://twitter.com/LHSummers/status/1313471780812619776)
-
 ## 2020-10-02 · reply to @LHSummers
 
 > 7/Result of commitment to shrinking tax gap would be substantial increase in revenue: We estimate more than $1T could be collected in a decade, former IRS commissioner suggests even more, $1.6T
@@ -4862,12 +4071,6 @@ https://x.com/LHSummers/status/1312117235926794241 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1312117234848866304 · [archived](https://web.archive.org/web/20201003000450/https://twitter.com/LHSummers/status/1312117234848866304)
 
-## 2020-09-23
-
-> #COVID19’s Economic Impact and Crafting an Effective Policy Response, a new online @HKSExecEd program features @jasonfurman and @LHSummers, among others. Deadline to enroll is 10/5. https://t.co/c6qpEChleA
-
-https://x.com/LHSummers/status/1308748398007386112 · [archived](https://web.archive.org/web/20200923225437/https://twitter.com/LHSummers/status/1308748398007386112)
-
 ## 2020-09-21 · reply to @LHSummers
 
 > 6/Any discussion of Africa must recognize the extent of Chinese involvement. American abdication will open the door to China gaining moral, economic and political advantage.
@@ -4879,45 +4082,6 @@ https://x.com/LHSummers/status/1308093760690102272 · [archived](https://web.arc
 > 3/As @BarackObama said in a different context, elections have consequences. Whether emerging markets, including Africa, continue to emerge and converge towards the industrial world will be determined in no small part by the US presidential election.
 
 https://x.com/LHSummers/status/1308093757875777536 · [archived](https://web.archive.org/web/20200921172231/https://twitter.com/LHSummers/status/1308093757875777536)
-
-## 2020-09-21 · reply to @CGDev
-
-> Missing from the conversation: China.
-> 
-> Is there an element of debt-trap diplomacy and self-interest or true global partnership? That's left to be seen. @LHSummers #CGDTalks
-
-https://x.com/LHSummers/status/1308059447542063105 · [archived](https://web.archive.org/web/20200921150651/https://twitter.com/LHSummers/status/1308059447542063105)
-
-## 2020-09-21 · reply to @CGDev
-
-> ‘This is by far the most consequential U.S. election in my lifetime.’ 
-> 
-> Can the process of convergence continue? It’s under threat from the pandemic, international trade, tech development, and politics desiring nationalism. - @LHSummers #CGDTalks
-
-https://x.com/LHSummers/status/1308059375228125185 · [archived](https://web.archive.org/web/20200921151754/https://twitter.com/LHSummers/status/1308059375228125185)
-
-## 2020-09-10 · reply to @LHSummers
-
-> @LHSummers says we’re heading for stage 3 of economic recovery: slog. In convo w/ @GillianTett, he discusses the government's decisions during #COVID19, the stock market, &amp; how the economic situation is exacerbating social tensions: https://t.co/t6tteYu7vs @AspenSecurity
-
-https://x.com/LHSummers/status/1304068111692427264 · [archived](https://web.archive.org/web/20200910144940/https://twitter.com/LHSummers/status/1304068111692427264)
-
-## 2020-09-02
-
-> Maine's secretary of state appeals judge's ruling on ranked-choice voting.
-> 
-> This is unique to Maine and will have an impact on elections. Please keep an eye on this!
-> 
-> #DemCastME #Focus14 #mepolitics
-> https://t.co/xqNdgZBXbT
-
-https://x.com/LHSummers/status/1301274502798741506 · [archived](https://web.archive.org/web/20200902214606/https://twitter.com/LHSummers/status/1301274502798741506)
-
-## 2020-08-13
-
-> Highlight: “I think the president is acting with epic irresponsibility,” former Treasury Secretary @LHSummers says. “It’s the consequence of not continuing the stimulus that has mitigated our economic problems… likely to be catastrophic.” https://t.co/28ghgHAtqJ
-
-https://x.com/LHSummers/status/1293939327366508547 · [archived](https://web.archive.org/web/20200813174318/https://twitter.com/LHSummers/status/1293939327366508547)
 
 ## 2020-08-13
 
@@ -4932,26 +4096,11 @@ https://x.com/LHSummers/status/1293896099359535106 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1290664116890337281 · [archived](https://web.archive.org/web/20200804151541/https://twitter.com/LHSummers/status/1290664116890337281)
 
-## 2020-07-29
-
-> #YesOn2 Honorary Co-Chairs announced today! Read piece by @stephanie_murr: https://t.co/gnSOTtJZJO
-> @GovBillWeld @DevalPatrick @dsallentess @KerryMHealey @stevepagliuca  @attorneytanisha @LHSummers
-> #RankedChoiceVoting #MoreVoice #MoreChoice #PeoplePower #Election2020 #mapoli https://t.co/tNha1kFj9V
-
-https://x.com/LHSummers/status/1288527235037765633 · [archived](https://web.archive.org/web/20200729173032/https://twitter.com/LHSummers/status/1288527235037765633)
-
-## 2020-07-29
+## 2020-07-29 · reply to @RobinBHarding
 
 > @RobinBHarding @FT makes the central point of the secular stagnation thesis: real rates are low for deep structural reasons not central bank policy. Anyone who doubts this should consider that average real rates 10 years forward are substantially negative. https://t.co/DlrLdIYdpd
 
 https://x.com/LHSummers/status/1288427123926081536 · [archived](https://web.archive.org/web/20200729105253/https://twitter.com/LHSummers/status/1288427123926081536)
-
-## 2020-07-26
-
-> The Congressional Budget Office estimated that modest investments in the IRS would generate somewhere between $60 and $100 billion in additional revenue over a decade, but the revenue potential is much greater than that, from @NatashaRSarin and @LHSummers
-> https://t.co/wFam3TP5nZ https://t.co/pmDwVU135Q
-
-https://x.com/LHSummers/status/1287462887116673024 · [archived](https://web.archive.org/web/20200726190126/https://twitter.com/LHSummers/status/1287462887116673024)
 
 ## 2020-07-20 · possibly deleted
 
@@ -4973,69 +4122,11 @@ https://x.com/LHSummers/status/1285340121483665410 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1285252684589805569 · [archived](https://web.archive.org/web/20200721102435/https://twitter.com/LHSummers/status/1285252684589805569)
 
-## 2020-07-16 · reply to @PrincetonBCF
-
-> @PrincetonBCF webinar with Richard Zeckhauser (@Kennedy_School) on 
-> "Climate Policy: Moving beyond Ostriches and Pollyannas"
-> 
-> 📅Friday July 17th 12:30 pm (ET), 18:30 (European time) 
-> ✍️Register: https://t.co/7qlWkEWdoe https://t.co/bhTNWT0vjh
-
-https://x.com/LHSummers/status/1283586281746960384 · [archived](https://web.archive.org/web/20200716023117/https://twitter.com/LHSummers/status/1283586281746960384)
-
-## 2020-07-10
-
-> Alongside progressive taxation &amp; redistribution, policymakers concerned with equity &amp; fairness might consider changes to the structure of capitalist institutions to rebuild countervailing power for workers, say @annastansbury &amp; @LHSummers #EconTwitter https://t.co/yYjkGHl96x https://t.co/ifhSE0yWcH
-
-https://x.com/LHSummers/status/1281648018819649536 · [archived](https://web.archive.org/web/20200710180812/https://twitter.com/LHSummers/status/1281648018819649536)
-
-## 2020-07-10 · reply to @NatashaRSarin
-
-> @NatashaRSarin @LHSummers &amp; @Joe_Kupferberg identified tax policies that would raise over $4 trillion in the next decade, including:
-> 
-> • Improving tax compliance
-> • Taxing corporate profits, both domestically &amp; abroad
-> • Closing tax loopholes &amp; shelters
-> 
-> https://t.co/7De3cYfs7N
-
-https://x.com/LHSummers/status/1281589602764173312 · [archived](https://web.archive.org/web/20200710143507/https://twitter.com/LHSummers/status/1281589602764173312)
-
-## 2020-07-09
-
-> #TaxDay is coming this July 15. Recently, @NatashaRSarin, @LHSummers, &amp; @Joe_Kupferberg examined the complex economics of federal #taxpolicy &amp; proposed ways to raise revenue efficiently &amp; equitably.
-> 
-> Read their proposal here: https://t.co/7De3cYfs7N
-
-https://x.com/LHSummers/status/1281226446351073280 · [archived](https://web.archive.org/web/20200709145505/https://twitter.com/LHSummers/status/1281226446351073280)
-
-## 2020-07-02
-
-> Research by HKS's @LHSummers and @Harvard PhD candidate @annastansbury indicates that changes in policy, norms, and institutions are the most important factors that explain the decline in worker power https://t.co/ZpjjpDcOOE
-
-https://x.com/LHSummers/status/1278692996154884097 · [archived](https://web.archive.org/web/20200702184203/https://twitter.com/LHSummers/status/1278692996154884097)
-
 ## 2020-07-01
 
 > Very powerful ⁦@nytopinion⁩ on the same themes regarding need for more worker power that ⁦@annastansbury⁩ and I stress in our recent writings. It’s crucial to make sure that policy transfers rents rather than reducing hiring. https://t.co/DV9HZGUtHC
 
 https://x.com/LHSummers/status/1278437440274026498 · [archived](https://web.archive.org/web/20200701212016/https://twitter.com/LHSummers/status/1278437440274026498)
-
-## 2020-06-30
-
-> "As workers have become less able to share in the profits generated by their firms, income has been redistributed from employees to the owners of capital," write HKS's @LHSummers and @Harvard PhD candidate @annastansbury https://t.co/ZpjjpDcOOE
-
-https://x.com/LHSummers/status/1278067812624457728 · [archived](https://web.archive.org/web/20200630205856/https://twitter.com/LHSummers/status/1278067812624457728)
-
-## 2020-06-29
-
-> "Increasing worker power must be a central &amp; urgent priority for policymakers ... If we do not shift the distribution of power toward workers, any other policy changes are likely to be short-term &amp; insufficient."
-> 
-> @LHSummers &amp; me in @washingtonpost
-> 
-> https://t.co/rX8hrjps4C
-
-https://x.com/LHSummers/status/1277612467569537026 · [archived](https://web.archive.org/web/20200629145045/https://twitter.com/LHSummers/status/1277612467569537026)
 
 ## 2020-06-29
 
@@ -5064,40 +4155,6 @@ https://x.com/LHSummers/status/1277350647969591299 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1275942013008044038 · [archived](https://web.archive.org/web/20200625000934/https://twitter.com/LHSummers/status/1275942013008044038)
 
-## 2020-06-24
-
-> "We surely need more support for state and local governments," Summers says. 
-> 
-> @LHSummers says the U.S. also should provide additional financial support through fiscal policy for the healthcare sector and the unemployed.
-> 
-> #ECNYSummers
-
-https://x.com/LHSummers/status/1275832146515636224 · [archived](https://web.archive.org/web/20200624165429/https://twitter.com/LHSummers/status/1275832146515636224)
-
-## 2020-06-24
-
-> The federal government's program to provide $600/weekly additional unemployment payments was poorly designed, @LHSummers said. #ECNYSummers https://t.co/Kl2pnU3RYR
-
-https://x.com/LHSummers/status/1275832109865881602 · [archived](https://web.archive.org/web/20200624164921/https://twitter.com/LHSummers/status/1275832109865881602)
-
-## 2020-06-24
-
-> This is a moment to take advantage of when it comes to issuing government debt, @LHSummers says, pointing to record low interest rates. #ECNYSummers https://t.co/VQx99m2SWd
-
-https://x.com/LHSummers/status/1275832081411604481 · [archived](https://web.archive.org/web/20200624164452/https://twitter.com/LHSummers/status/1275832081411604481)
-
-## 2020-06-24
-
-> .@LHSummers says he wants to see infrastructure spending as a part of future recovery packages, but he cautions "government spending on infrastructure can take a long time to work its way through the system." #ECNYSummers https://t.co/mgpC96mO2D
-
-https://x.com/LHSummers/status/1275832045281910784 · [archived](https://web.archive.org/web/20200624165725/https://twitter.com/LHSummers/status/1275832045281910784)
-
-## 2020-06-23
-
-> The IRS is leaving billions on the table. Here’s how it can collect that money, @LHSummers and @NatashaRSarin write https://t.co/WE1vWujlQx
-
-https://x.com/LHSummers/status/1275398943946543112 · [archived](https://web.archive.org/web/20200623122209/https://twitter.com/LHSummers/status/1275398943946543112)
-
 ## 2020-06-23 · reply to @LHSummers
 
 > As a matter of equity, efficiency and revenue collection, the case for a significant investment in tax compliance is clear. The result would be a much-needed increase in tax revenue — and more importantly, a fairer society.
@@ -5117,12 +4174,6 @@ https://x.com/LHSummers/status/1275227010013573124 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1273749218033905666 · [archived](https://web.archive.org/web/20200618225821/https://twitter.com/LHSummers/status/1273749218033905666)
 
-## 2020-06-18
-
-> Larry Summers (@LHSummers) on @npr @hereandnow: "Congress should urgently appropriate at least 2 percent of all money it appropriates for testing and contact tracing" https://t.co/VQONHaICQn
-
-https://x.com/LHSummers/status/1273680897347289089 · [archived](https://web.archive.org/web/20200618181617/https://twitter.com/LHSummers/status/1273680897347289089)
-
 ## 2020-06-18 · reply to @LHSummers
 
 > If you don't have customers who trust you, employees who trust you, a broader society who respects you and values your success, you're not, over the long term, going to be a very successful corporation for your shareholders, either.
@@ -5134,12 +4185,6 @@ https://x.com/LHSummers/status/1273436182207234048 · [archived](https://web.arc
 > CEO of Fortune 500 company talks @ health disparities, people are listening. Public health advocate talks @ the need for more business incentives and the burdens of excess regulation, people are listening.
 
 https://x.com/LHSummers/status/1273436178495275008 · [archived](https://web.archive.org/web/20200618020703/https://twitter.com/LHSummers/status/1273436178495275008)
-
-## 2020-06-17 · reply to @HarvardChanSPH
-
-> "I think the risks that we will look back at this moment and say, 'we didn't try enough' . . . are an order of magnitude greater than the risks that people will say, 'they spent too much money, they were too ambitious.' - @LHSummers speaking with @AliVelshi
-
-https://x.com/LHSummers/status/1273358447992504324 · [archived](https://web.archive.org/web/20200617205821/https://twitter.com/LHSummers/status/1273358447992504324)
 
 ## 2020-06-17 · reply to @LHSummers
 
@@ -5165,74 +4210,13 @@ https://x.com/LHSummers/status/1270679918557437952 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1266907430799237120 · [archived](https://web.archive.org/web/20200531014430/https://twitter.com/LHSummers/status/1266907430799237120)
 
-## 2020-05-27 · reply to @annastansbury
-
-> (2) Declining worker power is more consistent w/ industry level evidence:
-> - Worker power has more explanatory power than concentration for labor share, profitability &amp; Q
-> - Much of labor share⬇️was in manufacturing (where, w/ globalization,⬆️monopoly power seems unlikely) 
-> [18/N]
-
-https://x.com/LHSummers/status/1265639565638934531 · [archived](https://web.archive.org/web/20200528103835/https://twitter.com/LHSummers/status/1265639565638934531)
-
-## 2020-05-27 · reply to @annastansbury
-
-> While monopoly and monopsony power matter in a static sense, and have likely⬆️in some markets:
-> 
-> (1) declining worker power can explain aggregate trends in labor share, Q, profitability, markups equally well, 
-> 
-> [17/N]
-> 
-> *defining monopsony as arising from elasticity of LS to firm
-
-https://x.com/LHSummers/status/1265639559590825984 · [archived](https://web.archive.org/web/20200527204749/https://twitter.com/LHSummers/status/1265639559590825984)
-
-## 2020-05-27 · reply to @annastansbury
-
-> Note that labor rents, in our framework, come from firms’ profits. Some profits go to capital, some go to labor. 
-> 
-> So while it looks like the aggregate profit share has risen, the *underlying* profit share (profits to capital + labor rents) may have stayed pretty constant [9/N] https://t.co/GAFLCbzvxh
-
-https://x.com/LHSummers/status/1265639405680766976 · [archived](https://web.archive.org/web/20200527204530/https://twitter.com/LHSummers/status/1265639405680766976)
-
-## 2020-05-26 · reply to @annastansbury
-
-> How could declining worker power explain these trends? 
-> 
-> If firms have some monopoly power &amp; earn rents, worker power means workers receive a share of rents. As worker power falls, rents are redistributed from labor to capital, leading to ⬇️labor share, ⬆ profitability &amp; Q [5/N]
-
-https://x.com/LHSummers/status/1265416630890369025 · [archived](https://web.archive.org/web/20200528051007/https://twitter.com/LHSummers/status/1265416630890369025)
-
-## 2020-05-26 · reply to @annastansbury
-
-> We argue that the decline in worker power in the U.S. economy can explain:
-> 
-> (1) the entirety of the decline in the labor share, 
-> (2) much of the increase in corporate valuations, profitability, &amp; measured markups, 
-> (3) a large share of the fall in the NAIRU
-> 
-> [2/N]
-
-https://x.com/LHSummers/status/1265416481510170624 · [archived](https://web.archive.org/web/20200527021601/https://twitter.com/LHSummers/status/1265416481510170624)
-
-## 2020-05-24
-
-> In case you missed my recent special, “The Post-Covid-19 World,” @CNN will air it again tonight @ 10pmET, after my newest, “China’s Deadly Secret.” In it, I look @ how Covid will change society, incl interviews w/ leading thinkers like Tony Blair, @LHSummers, @ericschmidt, &amp; more
-
-https://x.com/LHSummers/status/1264702134894972934 · [archived](https://web.archive.org/web/20200524235254/https://twitter.com/LHSummers/status/1264702134894972934)
-
 ## 2020-05-23
 
 > At the broadest level, we need to craft a relationship with China from the principles of mutual respect and strategic reassurance, with rather less of the feigned affection that there has been in the past. https://t.co/GV64PY8Rsw
 
 https://x.com/LHSummers/status/1264319509214760960 · [archived](https://web.archive.org/web/20200523222849/https://twitter.com/LHSummers/status/1264319509214760960)
 
-## 2020-05-23
-
-> "We should not be waging jihad against business. We should be waging jihad against those who put profit ahead of every other value in the society." @LHSummers to TAI. https://t.co/WNJAABSIQ2
-
-https://x.com/LHSummers/status/1264316240698527745 · [archived](https://web.archive.org/web/20200523230910/https://twitter.com/LHSummers/status/1264316240698527745)
-
-## 2020-05-23
+## 2020-05-23 · reply to @LHSummers
 
 > It sure looks like we are going to lose for a long time more than a quarter of these jobs.  So the consequences could be far worse than the China shock.
 
@@ -5243,12 +4227,6 @@ https://x.com/LHSummers/status/1264176931454541824 · [archived](https://web.arc
 > We have a big problem. The China trade shock is estimated to be about 2.5 million jobs by @davidautor and his colleagues. There were 15 million employees in the restaurant industry and about 6 million in the tourism industry.
 
 https://x.com/LHSummers/status/1264176930674429954 · [archived](https://web.archive.org/web/20200523132947/https://twitter.com/LHSummers/status/1264176930674429954)
-
-## 2020-05-23
-
-> Very interesting interview with @LHSummers about US-China relations, debt, taxation, Covid, the economy, and a zillion other subjects. I gained a few IQ points just reading it: https://t.co/isTDXYoNJP
-
-https://x.com/LHSummers/status/1264162053842968580 · [archived](https://web.archive.org/web/20200523120704/https://twitter.com/LHSummers/status/1264162053842968580)
 
 ## 2020-05-23
 
@@ -5274,25 +4252,19 @@ https://x.com/LHSummers/status/1263947359240806400 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1262866549867720705 · [archived](https://web.archive.org/web/20200519221124/https://twitter.com/LHSummers/status/1262866549867720705)
 
-## 2020-05-16
-
-> "We're weakening the foundations of our economy" with each week "we delay supporting incomes of unemployed, delay investment in testing and tracing, and delay supporting state and local governments" @LHSummers tells @BloombergTV #WallStreetWeek https://t.co/MY9EsMbk7m https://t.co/3PzUlwFa2L
-
-https://x.com/LHSummers/status/1261667033097424898 · [archived](https://web.archive.org/web/20200516145332/https://twitter.com/LHSummers/status/1261667033097424898)
-
-## 2020-05-14
+## 2020-05-14 · reply to @LHSummers
 
 > Medium-term planning has been conspicuous by its absence. Elementary safety protocols have been ignored in the White House, putting the safety of leaders at risk.
 
 https://x.com/LHSummers/status/1261050526776594432 · [archived](https://web.archive.org/web/20200514220606/https://twitter.com/LHSummers/status/1261050526776594432)
 
-## 2020-05-14
+## 2020-05-14 · reply to @LHSummers
 
 > The performance of the US government during the crisis has been dismal. Basic tasks such as assuring the availability of masks for health workers who treat the sick have not been performed.
 
 https://x.com/LHSummers/status/1261050525967147010 · [archived](https://web.archive.org/web/20200515002259/https://twitter.com/LHSummers/status/1261050525967147010)
 
-## 2020-05-14
+## 2020-05-14 · reply to @LHSummers
 
 > Secondly, Covid-19 may mark a transition in a shift away from western democratic leadership of the global system.
 
@@ -5316,21 +4288,7 @@ https://x.com/LHSummers/status/1261050520720023554 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1260907345925767169 · [archived](https://web.archive.org/web/20200514153309/https://twitter.com/LHSummers/status/1260907345925767169)
 
-## 2020-05-09
-
-> #SaturdayListen: Now or Never, Crafting the global #COVID19 response featuring former PM Gordon Brown and @LHSummers: https://t.co/qjS5VX6TWH
-> 
-> @LSEpublicevents @LSEPublicPolicy https://t.co/bDnn8jAEto
-
-https://x.com/LHSummers/status/1259117259051749377 · [archived](https://web.archive.org/web/20200513213255/https://twitter.com/LHSummers/status/1259117259051749377)
-
-## 2020-05-06
-
-> .@LHSummers notes that it would be far cheaper (and just common sense) to invest far more in testing and contract tracing, rather than endure the enormous economic costs of the ongoing pandemic: https://t.co/MCHkmU3kGr
-
-https://x.com/LHSummers/status/1258001820263297024 · [archived](https://web.archive.org/web/20200510050123/https://twitter.com/LHSummers/status/1258001820263297024)
-
-## 2020-05-06
+## 2020-05-06 · reply to @LHSummers
 
 > For example, if we are currently at an R0 of 0.9, and assuming that the R0 without any distancing is 2.5, then returning to 20 percent of normal would take the R0 to 1.22, clearly in the danger zone.
 
@@ -5359,18 +4317,6 @@ https://x.com/LHSummers/status/1257988347210993671 · [archived](https://web.arc
 > When it comes to crafting foreign policy, designing anti-poverty programs or implementing measures to combat climate change, economists have a tendency to feel as though the economic aspects of the debate receive short shrift. The opposite is true when it comes to this pandemic.
 
 https://x.com/LHSummers/status/1257988346313408513 · [archived](https://web.archive.org/web/20200510080246/https://twitter.com/LHSummers/status/1257988346313408513)
-
-## 2020-05-04
-
-> Sir Paul Tucker on central bank independence @IMFNews https://t.co/bbNjzsF1h6
-
-https://x.com/LHSummers/status/1257432680850915332 · [archived](https://web.archive.org/web/20200509172950/https://twitter.com/LHSummers/status/1257432680850915332)
-
-## 2020-05-04
-
-> The Fed might be doing too much for corporations but not be doing enough for state and local governments, @LHSummers says, suggesting direct grant programs for local governments as a potential path forward. #ECNYSummers https://t.co/EmXGYW1uzR
-
-https://x.com/LHSummers/status/1257418039248719877 · [archived](https://web.archive.org/web/20200509165206/https://twitter.com/LHSummers/status/1257418039248719877)
 
 ## 2020-04-30 · possibly deleted
 
@@ -5402,12 +4348,6 @@ https://x.com/LHSummers/status/1254576497664364544 · [archived](https://web.arc
 > My conversation with @HarvardHBS Prof. Robin Greenwood on public health, economic policy, politics, financial markets and what the crisis means to higher education. Watch here: https://t.co/CxuSz8DtP8
 
 https://x.com/LHSummers/status/1254576495344918529 · [archived](https://web.archive.org/web/20200504121921/https://twitter.com/LHSummers/status/1254576495344918529)
-
-## 2020-04-25
-
-> Week when oil went negative and government put up another $500B. @BloombergTV #WallStreetWeek with @SpeakerPelosi @LHSummers Evercore's Ralph Schlosstein @rockcreekgroup Afsaneh Beschloss @Citi Katherine Mann and @UPS David Abney https://t.co/8Q42BCsV08 https://t.co/numQnJC2EL
-
-https://x.com/LHSummers/status/1254016640536231938 · [archived](https://web.archive.org/web/20200503153731/https://twitter.com/LHSummers/status/1254016640536231938)
 
 ## 2020-04-23
 
@@ -5560,55 +4500,11 @@ https://x.com/LHSummers/status/1247606946594684931 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1247606945554587648 · [archived](https://web.archive.org/web/20200407192834/https://twitter.com/LHSummers/status/1247606945554587648)
 
-## 2020-04-07
-
-> In a new letter to the #G20, our @MasoodCGD @LHSummers @NOIweala &amp; @MauricioCard join +100 world leaders &amp; thinkers asking group “to commit to funding far beyond the current capacity of our existing international institutions” to fight #COVID19.
-> 
-> Read ✍️: https://t.co/iPztiB3Swz https://t.co/OHN4m0hRvM
-
-https://x.com/LHSummers/status/1247529911377485824 · [archived](https://web.archive.org/web/20200407142338/https://twitter.com/LHSummers/status/1247529911377485824)
-
-## 2020-04-04
-
-> On @BloombergTV #WallStreetWeek @LHSummers says "the Reagan/Thatcher tide is going out" - not going to hear "any political figure say for a long time that government is the problem, not the solution" https://t.co/TzacTZGBJi https://t.co/dwVcbipQZA
-
-https://x.com/LHSummers/status/1246458932463316994 · [archived](https://web.archive.org/web/20200405175143/https://twitter.com/LHSummers/status/1246458932463316994)
-
 ## 2020-04-03
 
 > I was glad to sign this important statement emphasizing the need for constructive interaction with China on the COVID threat. https://t.co/Ec5cj6wdhm
 
 https://x.com/LHSummers/status/1246159977527607296 · [archived](https://web.archive.org/web/20200404023753/https://twitter.com/LHSummers/status/1246159977527607296)
-
-## 2020-04-03
-
-> “I don’t think anybody after this is going to be saying as a blanket statement the government is the problem, not the solution,” @LHSummers predicts https://t.co/5Lvk5r1nzi
-
-https://x.com/LHSummers/status/1246155404142350344 · [archived](https://web.archive.org/web/20200404095846/https://twitter.com/LHSummers/status/1246155404142350344)
-
-## 2020-04-03
-
-> There are huge dangers of fraud and unfairness in the stimulus—but, @LHSummers says, “It may be the end of the Reagan–Thatcher libertarian wave” https://t.co/gX4Ko5A5PD
-
-https://x.com/LHSummers/status/1246032187293655040 · [archived](https://web.archive.org/web/20200403160109/https://twitter.com/LHSummers/status/1246032187293655040)
-
-## 2020-04-02 · reply to @amanpour
-
-> .@LHSummers: “This is the kind of thing that happens when the POTUS puts his son-in-law – a real estate debt operator – in charge of the most fundamental aspects of government. You cannot run the greatest country on earth like an opportunistic shifty family business.” https://t.co/FM0xJpG1d3
-
-https://x.com/LHSummers/status/1245797004082642948 · [archived](https://web.archive.org/web/20200402213741/https://twitter.com/LHSummers/status/1245797004082642948)
-
-## 2020-04-02 · reply to @amanpour
-
-> .@LHSummers: The first law of crisis response is “you’re much better off overreacting than you are underreacting.” https://t.co/oTA0YOYu9L
-
-https://x.com/LHSummers/status/1245779714192609281 · [archived](https://web.archive.org/web/20200404210711/https://twitter.com/LHSummers/status/1245779714192609281)
-
-## 2020-04-02
-
-> .@LHSummers: “We Americans need to understand that for all our individualism, we need a government that performs basic functions… If any good comes out of this, it will be the recognition that we are a community and that we need to make investments as a community.” https://t.co/jnBxikF29P
-
-https://x.com/LHSummers/status/1245776931351662595 · [archived](https://web.archive.org/web/20200404001024/https://twitter.com/LHSummers/status/1245776931351662595)
 
 ## 2020-03-30
 
@@ -5636,7 +4532,7 @@ https://x.com/LHSummers/status/1243710708946272256 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1243710707327291392 · [archived](https://web.archive.org/web/20200328015502/https://twitter.com/LHSummers/status/1243710707327291392)
 
-## 2020-03-27
+## 2020-03-27 · reply to @LHSummers
 
 > We need to use whatever authorities the govt has to deliver resources, so we get assistance to the people who need it, be secure in the knowledge that we're identifying the people who are victims, &amp; also recognizing the people for whom it is safe to go out &amp; go back to work again
 
@@ -5647,14 +4543,6 @@ https://x.com/LHSummers/status/1243330599840079882 · [archived](https://web.arc
 > Boeing CEO says he will pursue other options if government insists on warrants on an equity stake. He should start looking. For government to lend to Boeing on non commercial terms, without taking warrants, would be corporate welfare to a particularly undeserving beneficiary.
 
 https://x.com/LHSummers/status/1242835382301007872 · [archived](https://web.archive.org/web/20200326013632/https://twitter.com/LHSummers/status/1242835382301007872)
-
-## 2020-03-25
-
-> Ending restrictions too soon and allowing a further disease spike carry a range of collateral risks and costs, @LHSummers writes.
-> 
-> "When it is safe to take up old habits, will the public trust the advice of authorities who misled them?" https://t.co/9sil8oSiyZ
-
-https://x.com/LHSummers/status/1242830207670784001 · [archived](https://web.archive.org/web/20200325162651/https://twitter.com/LHSummers/status/1242830207670784001)
 
 ## 2020-03-25 · reply to @LHSummers
 
@@ -5698,18 +4586,6 @@ https://x.com/LHSummers/status/1241071811573448706 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1240769923338682373 · [archived](https://web.archive.org/web/20200319232207/https://twitter.com/LHSummers/status/1240769923338682373)
 
-## 2020-03-19
-
-> Decreases in worker power, not increases in corporations' monopoly power, likely explain the gap between labor income and corporate profits. Read more from @annastansbury &amp; @LHSummers' new #BPEA paper: https://t.co/ZG8auxykMb
-
-https://x.com/LHSummers/status/1240688509364498432 · [archived](https://web.archive.org/web/20200319175122/https://twitter.com/LHSummers/status/1240688509364498432)
-
-## 2020-03-12 · reply to @jasonfurman
-
-> The paid leave program is exciting. But it is a huge new program that was created extremely rapidly &amp; will be stood up when the govt will be stretched in unimaginable ways. I don't know how quickly anyone will see money from it. It is worth trying but I would not just rely on it.
-
-https://x.com/LHSummers/status/1238164321324105734 · [archived](https://web.archive.org/web/20200312192406/https://twitter.com/LHSummers/status/1238164321324105734)
-
 ## 2020-03-12 · reply to @LHSummers
 
 > He destroys about $500b in equity market value in course of an 11 minute speech.
@@ -5730,7 +4606,7 @@ https://x.com/LHSummers/status/1237176339419017217 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1237103912747814912 · [archived](https://web.archive.org/web/20200309195406/https://twitter.com/LHSummers/status/1237103912747814912)
 
-## 2020-03-04
+## 2020-03-04 · reply to @LHSummers
 
 > 4th, international financial institutions’ failure to move to help the world’s poorest countries at a moment when they could suffer an AIDS-level catastrophe is scandalous. USA should use its influence to assure that the IMF &amp; WB step up on behalf of all nations, for all nations.
 
@@ -5786,7 +4662,7 @@ https://x.com/LHSummers/status/1233594769068019712 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1233544688914849792 · [archived](https://web.archive.org/web/20200229001422/https://twitter.com/LHSummers/status/1233544688914849792)
 
-## 2020-02-07
+## 2020-02-07 · reply to @LHSummers
 
 > I’ve worked on and off with @Lipton_IMF on global economic policy for nearly 30 years. There is no one who has made more of every opportunity to make the world economy function better.
 
@@ -5797,21 +4673,6 @@ https://x.com/LHSummers/status/1225879754579959809 · [archived](https://web.arc
 > The IMF is diminished by @Lipton_IMF exit. He brought together exceptional economic acumen, a tremendous capacity for working with developing country policy makers and great skill in managing the Fund Staff.
 
 https://x.com/LHSummers/status/1225879753594306561 · [archived](https://web.archive.org/web/20200208104407/https://twitter.com/LHSummers/status/1225879753594306561)
-
-## 2020-02-05
-
-> In a world where monetary policy cannot assume responsibility for stabilization
-> policy, there is a need for fiscal policy to address stabilization issues. In
-> this context, @ojblanchard1 &amp; @LHSummers argue for the introduction of semiautomatic stabilizers. https://t.co/pboLci0jB6
-
-https://x.com/LHSummers/status/1225099835528941568 · [archived](https://web.archive.org/web/20200205212700/https://twitter.com/LHSummers/status/1225099835528941568)
-
-## 2020-02-04
-
-> In a world where monetary policy cannot assume responsibility for stabilization policy, there is a need for fiscal policy to address stabilization issues. In
-> this context, @ojblanchard1 &amp; @LHSummers argue for the introduction of semiautomatic stabilizers. https://t.co/pboLci0jB6
-
-https://x.com/LHSummers/status/1224756658141708289 · [archived](https://web.archive.org/web/20200205023914/https://twitter.com/LHSummers/status/1224756658141708289)
 
 ## 2020-02-03 · reply to @LHSummers
 
@@ -5837,13 +4698,13 @@ https://x.com/LHSummers/status/1223028957559361537 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1223028840454332417 · [archived](https://web.archive.org/web/20200201163350/https://twitter.com/LHSummers/status/1223028840454332417)
 
-## 2020-01-30
+## 2020-01-30 · reply to @LHSummers
 
 > The issue here goes beyond corporate hypocrisy and even the significant revenue that could be collected from better tax laws and enforcement. Our column outlines five things that should be done.
 
 https://x.com/LHSummers/status/1222865762773274628 · [archived](https://web.archive.org/web/20200130144441/https://twitter.com/LHSummers/status/1222865762773274628)
 
-## 2020-01-30
+## 2020-01-30 · reply to @LHSummers
 
 > No doubt that much of the problem involves badly written tax laws that permit large-scale reduction in taxes below common-sense levels. But this goes only so far as a defense for companies that have lobbied and used campaign contributions to shape tax law.
 
@@ -5868,7 +4729,7 @@ https://x.com/LHSummers/status/1222865755907248128 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1218930193789870080 · [archived](https://web.archive.org/web/20200120125521/https://twitter.com/LHSummers/status/1218930193789870080)
 
-## 2020-01-16
+## 2020-01-16 · reply to @LHSummers
 
 > The global economy could fall into recession in 2020, and the risk of major military confrontation is higher than it has been since the end of the Cold War.
 
@@ -6024,7 +4885,7 @@ https://x.com/LHSummers/status/1188631348573020161 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1188214288810500096 · [archived](https://web.archive.org/web/20191026222158/https://twitter.com/LHSummers/status/1188214288810500096)
 
-## 2019-10-26
+## 2019-10-26 · reply to @LHSummers
 
 > Premising a progressive agenda on a financing source that is untried and likely to be declared unconstitutional is risking what could be a great window of opportunity.
 
@@ -6114,7 +4975,7 @@ https://x.com/LHSummers/status/1187167831642820614 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1187167830233567232 · [archived](https://web.archive.org/web/20191024005029/https://twitter.com/LHSummers/status/1187167830233567232)
 
-## 2019-10-20
+## 2019-10-20 · reply to @LHSummers
 
 > King has very interesting thoughts on structural policy and secular stagnation. Worth reading his lecture.
 
@@ -6144,7 +5005,7 @@ https://x.com/LHSummers/status/1183795054063816705 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1183793204581277697 · [archived](https://web.archive.org/web/20191014190752/https://twitter.com/LHSummers/status/1183793204581277697)
 
-## 2019-10-12
+## 2019-10-12 · reply to @LHSummers
 
 > Europe and Japan are engaged in black hole monetary policy. Without a major discontinuity, there is no prospect of policy rates returning to positive territory. The US appears to be one recession away from entering the same black hole.
 
@@ -6239,19 +5100,19 @@ https://x.com/LHSummers/status/1171028077209706501 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1171027594885652480 · [archived](https://web.archive.org/web/20190923093526/https://twitter.com/LHSummers/status/1171027594885652480)
 
-## 2019-09-03
+## 2019-09-03 · reply to @LHSummers
 
 > Fifth, what role does the roundtable imagine for public policy?
 
 https://x.com/LHSummers/status/1168842554223333377 · [archived](https://web.archive.org/web/20190913093154/https://twitter.com/LHSummers/status/1168842554223333377)
 
-## 2019-09-02
+## 2019-09-02 · reply to @LHSummers
 
 > @washingtonpost The Business Roundtable recently announced a major policy change declaring that the purpose of a corporation is not just to serve shareholders (its official position since 1997) but “to create value for all our stakeholders.”
 
 https://x.com/LHSummers/status/1168672456191741952 · [archived](https://web.archive.org/web/20190911114355/https://twitter.com/LHSummers/status/1168672456191741952)
 
-## 2019-09-02
+## 2019-09-02 · reply to @LHSummers
 
 > Normalization of fiscal and monetary policy would be very likely to bring on a recession.
 
@@ -6436,13 +5297,13 @@ https://x.com/LHSummers/status/1103698501077209088 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1098310530958270465 · [archived](https://web.archive.org/web/20190221010858/https://twitter.com/LHSummers/status/1098310530958270465)
 
-## 2019-02-20
+## 2019-02-20 · reply to @greg_ip
 
 > @greg_ip @delong @Mauerback @stf18 Agree.  @delong is too negative.  I think our paper contributed to a broad reassessment of fiscal policy, especially when the IMF echos its concerns about fiscal policy in recessions a year later.
 
 https://x.com/LHSummers/status/1098293885883895810 · [archived](https://web.archive.org/web/20190221010900/https://twitter.com/LHSummers/status/1098293885883895810)
 
-## 2019-02-20
+## 2019-02-20 · reply to @greg_ip
 
 > @greg_ip @Mauerback @stf18 @delong The time for unpaid fiscal expansion was 5-7 years ago when we were in the liquidity trap with high unemployment and facing deflation.  For my views on fiscal policy read here: https://t.co/Jo9zIxtp0c
 
@@ -6454,7 +5315,7 @@ https://x.com/LHSummers/status/1098293358705983488 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1095776726423089156 · [archived](https://web.archive.org/web/20190302153109/https://twitter.com/LHSummers/status/1095776726423089156)
 
-## 2019-01-17
+## 2019-01-17 · reply to @LHSummers
 
 > Carbon dividend plan is unique in being pro-environment and deregulatory because of its reliance on price signals rather than government mandates.
 
@@ -6502,7 +5363,7 @@ https://x.com/LHSummers/status/1020018304478478336 · [archived](https://web.arc
 
 https://x.com/LHSummers/status/1019038070925119488 · [archived](https://web.archive.org/web/20180717020216/https://twitter.com/lhsummers/status/1019038070925119488)
 
-## 2018-07-03
+## 2018-07-03 · reply to @LHSummers
 
 > I want to be enthusiastic about job guarantee proposals. But at a time when cynicism about government is strong, it is very important for progressives to avoid making promises that they cannot meet.
 
@@ -6526,7 +5387,7 @@ https://x.com/LHSummers/status/987366185858686976 · [archived](https://web.arch
 
 https://x.com/LHSummers/status/986937878558232576 · [archived](https://web.archive.org/web/20180420174213/https://twitter.com/LHSummers/status/986937878558232576)
 
-## 2018-04-19
+## 2018-04-19 · reply to @LHSummers
 
 > The danger is that Puerto Rico's oversight board will countenance too much debt service and too much austerity because of rosy scenario economics and excessive faith in structural reform.
 
@@ -6604,7 +5465,7 @@ Quoting https://x.com/LHSummers/status/936265017753776129:
 
 https://x.com/LHSummers/status/936582385977757696 · [archived](https://web.archive.org/web/20220321033652/https://twitter.com/LHSummers/status/936582385977757696)
 
-## 2017-11-27
+## 2017-11-27 · reply to @LHSummers
 
 > @Wonkblog It is hard to see any principled tax policy case for focusing only on large private university endowments and not those of state universities, operas or hospitals.
 
@@ -6694,7 +5555,7 @@ https://x.com/LHSummers/status/897431120056393730 · [archived](https://web.arch
 
 https://x.com/LHSummers/status/870394334373437441 · [archived](https://web.archive.org/web/20171204183525/https://twitter.com/lhsummers/status/870394334373437441)
 
-## 2017-05-24
+## 2017-05-24 · reply to @LHSummers
 
 > Past a certain point, exaggeration &amp; hype become dishonesty &amp; deception. In economic policy, the Trump administration is way past that point
 

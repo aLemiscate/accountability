@@ -2,14 +2,15 @@
 
 Swept 2026-09-30.
 
-- Posts on X, including reposts: 2240
-- Archived posts found: 851 (2018-01-24 to 2026-07-30)
-- Read so far: 851 (100%); text found for 834; 0 not read yet
+- Posts on X, including reposts: unknown
+- Archived posts found: 772 (2018-01-24 to 2026-07-30)
+- Left out: 79 archived link(s) under this handle that X says another account wrote
+- Read so far: 772 (100%); text found for 762; 0 not read yet
 - Possibly deleted: 50
-- Matching the topic filter: 225
+- Matching the topic filter: 198
 
 
-Every post is in `hlntnr.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `hlntnr/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-04-23
 
@@ -247,7 +248,7 @@ https://x.com/hlntnr/status/1840774597890761093 · [archived](https://web.archiv
 
 https://x.com/hlntnr/status/1838916268381925616 · [archived](https://web.archive.org/web/20240930170105/https://x.com/hlntnr/status/1838916268381925616)
 
-## 2024-09-18
+## 2024-09-18 · reply to @hlntnr
 
 > But fortunately—and partly because the US government has done so little so far—there are some super basic policy measures we can implement that are low-downside, and that in many cases can also help with existing harms from AI. https://t.co/XQ8cVAWilp
 
@@ -603,12 +604,6 @@ https://x.com/hlntnr/status/1529857948498812933 · [archived](https://web.archiv
 
 https://x.com/hlntnr/status/1529857946284220418 · [archived](https://web.archive.org/web/20220526161230/https://twitter.com/hlntnr/status/1529857946284220418)
 
-## 2022-05-26 · reply to @benm_translator
-
-> One of the most interesting takeaways for me: big Chinese companies are driving many of these import dependencies, because they don't trust domestic suppliers to provide quality components. It seems they are forgetting that they're supposed to play for the "national team."
-
-https://x.com/hlntnr/status/1529834161019682816 · [archived](https://web.archive.org/web/20220526143812/https://twitter.com/hlntnr/status/1529834161019682816)
-
 ## 2022-05-26
 
 > Such a fan of this paper - I love how the list of chokepoints China identified shows the depth &amp; complexity of the global tech ecosystem, way beyond our usual conversations about AI, bio, "quantum". When did you last hear about wet-mate connectors, microspheres, main bearings..? https://t.co/SbjgoqlFc0
@@ -644,14 +639,6 @@ https://x.com/hlntnr/status/1522618649340690432 · [archived](https://web.archiv
 > https://t.co/QH06dotpjk
 
 https://x.com/hlntnr/status/1519693362885922817 · [archived](https://web.archive.org/web/20220428150713/https://twitter.com/hlntnr/status/1519693362885922817)
-
-## 2022-04-09
-
-> Excellent discussion @ChinaFile on China's role in global tech standard-setting, featuring a diverse set of views from @gwbstr @hlntnr @jjding99 @dannyrrussel @blakehberger @patrick_lozada @ruehlig @johnfseaman 
-> 
-> https://t.co/SVWHSzoo1j
-
-https://x.com/hlntnr/status/1512830731772440581 · [archived](https://web.archive.org/web/20220409163258/https://twitter.com/hlntnr/status/1512830731772440581)
 
 ## 2022-04-07 · reply to @hlntnr
 
@@ -803,12 +790,6 @@ Quoting https://x.com/RyanFedasiuk/status/1483813958771482633:
 
 https://x.com/hlntnr/status/1483873675594063872 · [archived](https://web.archive.org/web/20220119185449/https://twitter.com/hlntnr/status/1483873675594063872)
 
-## 2022-01-11
-
-> With @gwbstr and @hlntnr, our translation and comments of China's new algorithm rules: https://t.co/T0jJYjzdcY
-
-https://x.com/hlntnr/status/1480900460332699648 · [archived](https://web.archive.org/web/20220111135752/https://twitter.com/hlntnr/status/1480900460332699648)
-
 ## 2022-01-06 · possibly deleted
 
 > My latest piece on #ArtificialIntelligence worst case scenarios for @IEEESpectrum with some cool art and quotes from @mchorowitz @mlfavaro @sigmoidneuron @BoulaninSIPRI @hlntnr @AndrewJLohn @LKCyber
@@ -855,12 +836,6 @@ https://x.com/hlntnr/status/1478491880618971140 · [archived](https://web.archiv
 > Can you share any info about what PT/project-based opps look like for junior devs? This is a recent app academy grad, super smart, but for life/mental health reasons FT would be hard. 1/2
 
 https://x.com/hlntnr/status/1476998441213562881 · [archived](https://web.archive.org/web/20211231193230/https://twitter.com/hlntnr/status/1476998441213562881)
-
-## 2021-12-22
-
-> Highly recommend the fourth instalment of @hlntnr and @timrudner's series on AI safety concepts. This time it's on specification, i.e. when algorithms hit the target but miss the point. https://t.co/9i1yc6sd1o https://t.co/LKQ79yT9Xc
-
-https://x.com/hlntnr/status/1473751314962259977 · [archived](https://web.archive.org/web/20211222202432/https://twitter.com/hlntnr/status/1473751314962259977)
 
 ## 2021-12-22
 
@@ -942,28 +917,12 @@ Quoting https://x.com/kendraschaefer/status/1431134515242496002:
 
 https://x.com/hlntnr/status/1431395292662935555 · [archived](https://web.archive.org/web/20210827232343/https://twitter.com/hlntnr/status/1431395292662935555)
 
-## 2021-08-18
-
-> You guys. 🚨(SUPER FUN) JOB ALERT🚨We're hiring and it's a spectacular opportunity to work in #biosecurity with an amazing #NTIbio team. Spread the word and/or apply! @NTI_WMD 👉https://t.co/O6QI9wXDZZ
-
-https://x.com/hlntnr/status/1428050993405628422 · [archived](https://web.archive.org/web/20210818214946/https://twitter.com/hlntnr/status/1428050993405628422)
-
 ## 2021-08-08 · possibly deleted
 
 > Got these messages on whatsapp, and I'm confused what this guy's endgame is. Presumably a scam, but... in Chinese, from an American number, on whatsapp? Huh?
 > Obviously I'm not going to tell him what city I'm in, but I kind of want to find out where he's going with this 🤔
 
 https://x.com/hlntnr/status/1424209568289206273 · [archived](https://web.archive.org/web/20210808034326/https://twitter.com/hlntnr/status/1424209568289206273)
-
-## 2021-07-27
-
-> An impt Chinese gov think tank (CAICT) recently worked w/ e-commerce giant JD to put out China's first white paper on Trustworthy AI (可信AI).
-> 
-> I translated the infographic w/ their framework for Trustworthy AI. Suggestions welcome. 
-> 
-> Full paper: https://t.co/bsJQDSQNbV https://t.co/mospWXSOOG
-
-https://x.com/hlntnr/status/1420099567153000449 · [archived](https://web.archive.org/web/20210727194529/https://twitter.com/hlntnr/status/1420099567153000449)
 
 ## 2021-07-26 · reply to @hlntnr
 
@@ -1004,18 +963,6 @@ https://x.com/hlntnr/status/1415483052726292481 · [archived](https://web.archiv
 > Read Jeremy’s whole thread. Unless you’ve been following the right sources closely, “social credit” is not what you’ve been told it is. https://t.co/FlIH3F5zA4
 
 https://x.com/hlntnr/status/1415396725242671112 · [archived](https://web.archive.org/web/20210714194421/https://twitter.com/hlntnr/status/1415396725242671112)
-
-## 2021-07-13
-
-> ⬇ cool looking role with at a think tank helping advise on AI risks
-
-Quoting https://x.com/hlntnr/status/1413203422342533125:
-> There's much more to say, but hopefully that's enough to pique your interest to read the paper. I'm really excited for CSET to be doing more work on AI accidents, safety, testing &amp; evaluation, etc. 
-> 
-> If you're interested in this topic, we're hiring!
-> https://t.co/SvNEiy4C7J
-
-https://x.com/hlntnr/status/1415078411232497675 · [archived](https://web.archive.org/web/20210713223922/https://twitter.com/hlntnr/status/1415078411232497675)
 
 ## 2021-07-08 · reply to @hlntnr
 
@@ -1144,12 +1091,6 @@ Quoting https://x.com/Linuzifer/status/1385198639342100489:
 
 https://x.com/hlntnr/status/1387413612051013635 · [archived](https://web.archive.org/web/20210428142921/https://twitter.com/hlntnr/status/1387413612051013635)
 
-## 2021-04-22
-
-> We’re hiring on @OpenAI’s Policy Research team✨(that’s @PamelaMishkin @SandhiniAgarwal @girishsastry, @Miles_Brundage &amp; yours truly!) I'm super-excited to share 3 roles: Program Manager; Research Scientist, Societal Harms of AI; and Research Scientist, Geopolitics of AI. Thread:
-
-https://x.com/hlntnr/status/1385311521576820737 · [archived](https://web.archive.org/web/20210422191627/https://twitter.com/hlntnr/status/1385311521576820737)
-
 ## 2021-04-13
 
 > Thoughtful &amp; creative coverage of risk from WaPo:
@@ -1257,28 +1198,12 @@ https://x.com/hlntnr/status/1361747529839374344 · [archived](https://web.archiv
 
 https://x.com/hlntnr/status/1360323956805423107 · [archived](https://web.archive.org/web/20210212202512/https://twitter.com/hlntnr/status/1360323956805423107)
 
-## 2021-01-29
-
-> The JNJ vaccine results indicate we miraculously have at least 3 safe, highly effective vaccines. 
-> 
-> Headlines focus on the 66% overall efficacy. But the big deal is that the single-dose vax was 100% effective against severe disease after day 49, and 85% effective by day 28.
-
-https://x.com/hlntnr/status/1355284448070291459 · [archived](https://web.archive.org/web/20210129223933/https://twitter.com/hlntnr/status/1355284448070291459)
-
 ## 2021-01-28
 
 > Hard for non-gamestop stories to get traction on twitter this week, but this mythbusting on China's Military-Civil Fusion strategy is excellent and needed and I'm excited to cite it a bunch in the future. 
 > Well done, @EBKania and @lorandlaskai! https://t.co/Vw8f8afcAK
 
 https://x.com/hlntnr/status/1354887403073363969 · [archived](https://web.archive.org/web/20210128202157/https://twitter.com/hlntnr/status/1354887403073363969)
-
-## 2021-01-26
-
-> If you're American and seriously believe China is THE economic and geopolitical challenge of the 21st century, then you support increased high-skill immigration into the USA.
-> 
-> Or you're just not very serious. https://t.co/HluWY5oi9K
-
-https://x.com/hlntnr/status/1354141739917991936 · [archived](https://web.archive.org/web/20210126185909/https://twitter.com/hlntnr/status/1354141739917991936)
 
 ## 2021-01-23 · reply to @hlntnr
 
@@ -1297,12 +1222,6 @@ https://x.com/hlntnr/status/1352680244952641537 · [archived](https://web.archiv
 > If you've got a loved one who's fallen under the spell of Qanon, the next few days could be a crucial window to reach out to them. Their whole world is collapsing around them. They need help &amp; support not mockery &amp; derision. Try to show them a way out of this madness. https://t.co/M764Wrhryy
 
 https://x.com/hlntnr/status/1351956116423503877 · [archived](https://web.archive.org/web/20210120181408/https://twitter.com/hlntnr/status/1351956116423503877)
-
-## 2021-01-16
-
-> Enjoyed this conversation with my wonderful @CSETGeorgetown colleagues @hlntnr, @flaggster73 &amp; @r_zwetsloot on tech policy recommendations for the incoming Biden administration. We covered talent, R&amp;D, standards, intl partnerships and more. https://t.co/3F4FlFWluM
-
-https://x.com/hlntnr/status/1350536345664380929 · [archived](https://web.archive.org/web/20210116201242/https://twitter.com/hlntnr/status/1350536345664380929)
 
 ## 2020-12-03 · possibly deleted
 
@@ -1351,31 +1270,11 @@ https://x.com/hlntnr/status/1327356171016081410 · [archived](https://web.archiv
 
 https://x.com/hlntnr/status/1324400251487375364 · [archived](https://web.archive.org/web/20201105171704/https://twitter.com/hlntnr/status/1324400251487375364)
 
-## 2020-11-01
-
-> Guide to upsetting election stories:
-> 1. Wait before sharing.
-> 2. People want to manipulate you.
-> 3. What's the source?
-> 4. Is it a news org with editors?
-> 5. Looks big on Twitter, but is it just a local incident?
-> 6. Repeat #1. Anything truly important will still be there in an hour.
-
-https://x.com/hlntnr/status/1322700799634411520 · [archived](https://web.archive.org/web/20201101004353/https://twitter.com/hlntnr/status/1322700799634411520)
-
 ## 2020-10-31 · possibly deleted
 
 > Let this just gone head and cleanse your timeline ❤️😭❤️ https://t.co/OofSQmOwZS
 
 https://x.com/hlntnr/status/1322604335436570624 · [archived](https://web.archive.org/web/20201031182037/https://twitter.com/hlntnr/status/1322604335436570624)
-
-## 2020-10-31
-
-> Current @NateSilver538 odds of the 2020 US Presidential race are 10% Trump/90% Biden, with an electoral college tie &lt;1%.
-> 
-> The illustrious @xkcd offers probabilities for common (or not) situations, helping us grasp these and other political odds. https://t.co/U6svhf257m
-
-https://x.com/hlntnr/status/1322576935185190913 · [archived](https://web.archive.org/web/20201031163158/https://twitter.com/hlntnr/status/1322576935185190913)
 
 ## 2020-10-27
 
@@ -1488,16 +1387,6 @@ https://x.com/hlntnr/status/1298344268516524034 · [archived](https://web.archiv
 
 https://x.com/hlntnr/status/1295361142622232583 · [archived](https://web.archive.org/web/20200817140637/https://twitter.com/hlntnr/status/1295361142622232583)
 
-## 2020-08-13
-
-> An AI national strategy for Congress. @BPC_Bipartisan is hosting what promises to be a fantastic event on Aug. 25 featuring @HurdOnTheHill, @RepRobinKelly, and @ericschmidt.
-> 
-> I'm looking forward to joining @hlntnr and @drturnerlee for a panel discussion.
-> 
-> https://t.co/f7LOANzgai
-
-https://x.com/hlntnr/status/1293946571130798081 · [archived](https://web.archive.org/web/20200813171319/https://twitter.com/hlntnr/status/1293946571130798081)
-
 ## 2020-08-12 · reply to @gwbstr
 
 > @gwbstr I dunno, if you click through to the actual page the headline is "Biden is *favored* to win the election", and you have to scroll down a fair way to get to the numbers (at least on mobile), which are then presented as a cluster of dots..? 1/2
@@ -1524,21 +1413,6 @@ https://x.com/hlntnr/status/1286770486790303745 · [archived](https://web.archiv
 > crazy how much these scenes look like hong kong https://t.co/dNmbeuQTsX
 
 https://x.com/hlntnr/status/1286341584095793155 · [archived](https://web.archive.org/web/20200725001257/https://twitter.com/hlntnr/status/1286341584095793155)
-
-## 2020-07-23
-
-> "Fuck China" is not a strategy for the biggest geopolitical challenge of our lives.
-
-Quoting https://x.com/jordanschneider/status/1283827359385292801:
-> In @Lingling_Wei and @bobdavis187 's new book they reported that in 2018 the Trump administration had a "Fuck China Week" where they rolled out a series of executive measures...looks like this week is round 2 https://t.co/E51wilKtRN
-
-https://x.com/hlntnr/status/1286093478208905217 · [archived](https://web.archive.org/web/20200723053542/https://twitter.com/hlntnr/status/1286093478208905217)
-
-## 2020-07-20 · reply to @zeynep
-
-> Doctors report that many of those infected with COVID are essential workers, many people of color, living in crowded housing.  What does media fixate on? Young people doing safe and good things (outdoors, distanced exercise.) Triple whammy: erase victims, moralize, misinform. https://t.co/HAzUaZ7XxP
-
-https://x.com/hlntnr/status/1285262252883443713 · [archived](https://web.archive.org/web/20200720211712/https://twitter.com/hlntnr/status/1285262252883443713)
 
 ## 2020-07-17 · possibly deleted
 
@@ -1573,18 +1447,6 @@ https://x.com/hlntnr/status/1279850018296512515 · [archived](https://web.archiv
 
 https://x.com/hlntnr/status/1277955171000233984 · [archived](https://web.archive.org/web/20200630133930/https://twitter.com/hlntnr/status/1277955171000233984)
 
-## 2020-06-29
-
-> We must have no stigma, none, about wearing masks when we leave our homes and come near other people. Wearing simple face coverings is not about protecting ourselves, it is about protecting everyone we encounter.
-
-https://x.com/hlntnr/status/1277692377566711809 · [archived](https://web.archive.org/web/20200629195751/https://twitter.com/hlntnr/status/1277692377566711809)
-
-## 2020-06-27
-
-> Among the many lessons we should be learning from the COVID-19 pandemic is the need to prepare for low-probability, high-impact events. A pair of important articles from The Economist on how governments need to do better (h/t @WonkVJ) https://t.co/QnmEflrih4
-
-https://x.com/hlntnr/status/1276980781290790917 · [archived](https://web.archive.org/web/20200627205930/https://twitter.com/hlntnr/status/1276980781290790917)
-
 ## 2020-06-26 · possibly deleted
 
 > There is a lot of uncertainty right now, and it's hard not to feel overwhelmed by it all. I made a thread of amazing ocean animals for you, because we all need a break sometimes ❤️ https://t.co/BxBPDxpsTw
@@ -1609,15 +1471,6 @@ Quoting https://x.com/fourhourtarget/status/1272077437447426048:
 > I’m not saying our last cat was big, but here he is on Google Earth. https://t.co/D0muiszPhe
 
 https://x.com/hlntnr/status/1272231811888959492 · [archived](https://web.archive.org/web/20200614182530/https://twitter.com/hlntnr/status/1272231811888959492)
-
-## 2020-06-12
-
-> Thank you. The *way* we got this one wrong is important,  too. Involves assessing "evidence"; judging tail-risk; applying the precautionary principle; overcoming  institutional arrogance and inertia; being better at public goods... And yes, why did we ignore the experts in Asia?
-
-Quoting https://x.com/chrislhayes/status/1271499106641461257:
-> More and more it looks like the “Don’t wear masks!” message from various officials early on was a catastrophic error. @zeynep was right from the beginning, it seems, and a whole lot of purported experts were wrong.
-
-https://x.com/hlntnr/status/1271536303717433348 · [archived](https://web.archive.org/web/20200612203502/https://twitter.com/hlntnr/status/1271536303717433348)
 
 ## 2020-06-11 · reply to @hlntnr
 
@@ -1652,67 +1505,30 @@ https://x.com/hlntnr/status/1270510527505223682 · [archived](https://web.archiv
 
 https://x.com/hlntnr/status/1270341839888027649 · [archived](https://web.archive.org/web/20200609140956/https://twitter.com/hlntnr/status/1270341839888027649)
 
-## 2020-06-08
-
-> been thinking a lot recently about the argument that authoritarian orgs / regimes are best suited to use + benefit from machine learning
-> 
-> i'm dropping a new paper today w @CSETGeorgetown about how democracies can compete without sacrificing their values:
-> 
-> https://t.co/6guUmMHw2Q
-
-https://x.com/hlntnr/status/1270135440453099522 · [archived](https://web.archive.org/web/20200608232917/https://twitter.com/hlntnr/status/1270135440453099522)
-
-## 2020-06-08
-
-> Predictive policing algorithms don't predict who commits crime. They predict who the police will arrest. 
-> 
-> So of course the algorithm points toward people that are already overpoliced - it's trying to predict racism. Don't explicitly tell it race &amp; it will just use other proxies.
-
-https://x.com/hlntnr/status/1270022290642735111 · [archived](https://web.archive.org/web/20200608173119/https://twitter.com/hlntnr/status/1270022290642735111)
-
-## 2020-06-03
-
-> On June 3rd, no less. I never want to hear from @SenTomCotton about China ever again. https://t.co/jqI89wkNl2
-
-https://x.com/hlntnr/status/1268264080957210630 · [archived](https://web.archive.org/web/20200604031611/https://twitter.com/hlntnr/status/1268264080957210630)
-
-## 2020-06-03
-
-> There’s so little to be joyful about right now. My dear and utterly brilliant friend Emefa joining the @washingtonpost's editorial board has got to be the best news out there. We’ll all get to have our minds expanded by her words.
-> 
-> https://t.co/J2cgxJe71X
-
-https://x.com/hlntnr/status/1268007258585280518 · [archived](https://web.archive.org/web/20200603235734/https://twitter.com/hlntnr/status/1268007258585280518)
-
 ## 2020-06-03 · possibly deleted
 
-_(text not available)_
+> Exactly how I feel. 💔
+> Thanks @matt_levine for saying it.
 
 https://x.com/hlntnr/status/1268005255993843713 · [archived](https://web.archive.org/web/20200603075048/https://twitter.com/hlntnr/status/1268005255993843713)
 
 ## 2020-06-03 · possibly deleted
 
-_(text not available)_
+> I have always been a fan of former senior DOD official Jim Miller, but I am flooded with awe and profound respect reading his letter of resignation from major Pentagon advisory board after Esper’s choices yesterday. I hope others read &amp; follow Jim’s lead. https://t.co/EHx4sOFn3e
 
 https://x.com/hlntnr/status/1267980929907245057 · [archived](https://web.archive.org/web/20200603030038/https://twitter.com/hlntnr/status/1267980929907245057)
 
 ## 2020-06-02 · possibly deleted
 
-_(text not available)_
+> In which New York Times reporter @Tmgneff reports on an apparent use of force by the US Army against “insurgent” US citizens in Washington, DC, and his takeaway is: “In this case it was successful.”
 
 https://x.com/hlntnr/status/1267655316029739017 · [archived](https://web.archive.org/web/20200604022706/https://twitter.com/hlntnr/status/1267655316029739017)
 
 ## 2020-05-31 · possibly deleted
 
-_(text not available)_
+> These parallels in police brutality are so disturbing to see. The United States has no moral high ground and so little standing to condemn human rights abuses around the world unless we also fight and stand against all such abuses at home. #StandWithMinnesota #StandwithHongKong https://t.co/PLFSvvqrv9
 
 https://x.com/hlntnr/status/1267077508924661762 · [archived](https://web.archive.org/web/20200531130707/https://twitter.com/hlntnr/status/1267077508924661762)
-
-## 2020-05-29
-
-> Can’t stop thinking about #polio. A few years ago, polio eradication seemed possible, even likely. In 2020, global vaccination campaigns slowed then largely halted because of #covid19. The U.S. has been a major funder of polio efforts through @who for 30+ years. What happens now?
-
-https://x.com/hlntnr/status/1266466341919358978 · [archived](https://web.archive.org/web/20200530091333/https://twitter.com/hlntnr/status/1266466341919358978)
 
 ## 2020-05-27 · reply to @BenGoldhaber
 
@@ -1742,30 +1558,10 @@ https://x.com/hlntnr/status/1257083985781538819 · [archived](https://web.archiv
 
 ## 2020-04-27 · possibly deleted
 
-_(text not available)_
+> This is repugnant and disqualifying for any office in a pluralistic nation like ours.
+> I have spent much of my career taking actions in opposition to the People's Republic, but my Chinese students are genuine, hard-working young people looking to better themselves. https://t.co/7A3pIuMn7a
 
 https://x.com/hlntnr/status/1254796434605563904 · [archived](https://web.archive.org/web/20200505005240/https://twitter.com/hlntnr/status/1254796434605563904)
-
-## 2020-04-23
-
-> 🚨Trump's immigration ban applies only to *green card applicants outside the United States.*
-> 
-> Exemptions:
-> Spouses &amp; minor children of US citizens
-> Special Immigrant Visas
-> EB-5 investor visas
-> Temporary visas of any kind
-> 
-> And surprise! It favors W. Europeans:
-> https://t.co/qlIPK3hg2s
-
-https://x.com/hlntnr/status/1253118910225924096 · [archived](https://web.archive.org/web/20200503041126/https://twitter.com/hlntnr/status/1253118910225924096)
-
-## 2020-04-16
-
-> After a year of work, it's finally here! Our report is a collaboration with @OpenAI @PartnershipAI @LeverhulmeCFI @Google and many others! It was a privilege to work with such diverse and expert authors, towards a common goal of trustworthy AI development. https://t.co/lWawdvSOUb
-
-https://x.com/hlntnr/status/1250811981872934913 · [archived](https://web.archive.org/web/20200417041439/https://twitter.com/hlntnr/status/1250811981872934913)
 
 ## 2020-04-16
 
@@ -1778,7 +1574,7 @@ https://x.com/hlntnr/status/1250587262238298112 · [archived](https://web.archiv
 
 ## 2020-04-11 · possibly deleted
 
-_(text not available)_
+> @jimgolby US national security discussions in general focus too much on the US and not enough on "adversary (and ally) strategy, psychology, and behavior." Especially at upper echelons of decisionmakers, everything gets watered down to mirroring and assuming everyone thinks like Americans
 
 https://x.com/hlntnr/status/1249039563399532546 · [archived](https://web.archive.org/web/20200411182207/https://twitter.com/hlntnr/status/1249039563399532546)
 
@@ -1790,12 +1586,6 @@ https://x.com/hlntnr/status/1249039563399532546 · [archived](https://web.archiv
 > https://t.co/WC5JckL5Qc
 
 https://x.com/hlntnr/status/1248739186003378176 · [archived](https://web.archive.org/web/20200410222658/https://twitter.com/hlntnr/status/1248739186003378176)
-
-## 2020-04-07
-
-> Informative new report from @CSETGeorgetown on AI chips! https://t.co/1GxkHSQIrX https://t.co/QCHdoBqmJN
-
-https://x.com/hlntnr/status/1247667546196717568 · [archived](https://web.archive.org/web/20200407232922/https://twitter.com/hlntnr/status/1247667546196717568)
 
 ## 2020-03-29 · possibly deleted
 
@@ -1857,7 +1647,9 @@ https://x.com/hlntnr/status/1239027329868931072 · [archived](https://web.archiv
 
 ## 2020-03-12 · possibly deleted
 
-_(text not available)_
+> We each need to avoid getting into a pessimistic spiral where we only seek out negative updates on COVID-19.
+> If we're properly calibrated there should be an equal number of positive updates as well!
+> Here's some positive things you may have missed:
 
 https://x.com/hlntnr/status/1238198670769733634 · [archived](https://web.archive.org/web/20200313030944/https://twitter.com/hlntnr/status/1238198670769733634)
 
@@ -1902,12 +1694,6 @@ https://x.com/hlntnr/status/1233971396679786496 · [archived](https://web.archiv
 > https://t.co/ChzDXbtDgi https://t.co/WmZn325iTJ
 
 https://x.com/hlntnr/status/1233477997270884358 · [archived](https://web.archive.org/web/20200228201740/https://twitter.com/hlntnr/status/1233477997270884358)
-
-## 2020-02-24
-
-> The coronavirus story will also become a health-insurance story in America. This guy went to China, caught the flu, came back, did the responsible thing and reported himself for possible coronavirus — but tested negative and now might have to pay $1,400+. https://t.co/GdDqyODPVw
-
-https://x.com/hlntnr/status/1232005879215443968 · [archived](https://web.archive.org/web/20200224183323/https://twitter.com/hlntnr/status/1232005879215443968)
 
 ## 2020-02-08 · reply to @hlntnr
 

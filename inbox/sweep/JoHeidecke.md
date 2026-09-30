@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 20 (2022-01-25 to 2025-10-27)
-- Read so far: 20 (100%); text found for 20; 0 not read yet
+- Archived posts found: 18 (2022-04-20 to 2025-10-27)
+- Left out: 2 archived link(s) under this handle that X says another account wrote
+- Read so far: 18 (100%); text found for 18; 0 not read yet
 - Possibly deleted: 2
-- Matching the topic filter: 13
+- Matching the topic filter: 12
 
 
-Every post is in `JoHeidecke.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `JoHeidecke/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2025-10-27 · reply to @JoHeidecke
 
@@ -335,9 +336,3 @@ https://x.com/JoHeidecke/status/1545647721394028544 · [archived](https://web.ar
 > Using DALL·E 2 to imagine what weirdness Hieronymus Bosch might have painted if he lived today 🎨 https://t.co/MBMgtUXzd9
 
 https://x.com/JoHeidecke/status/1516880019712262144 · [archived](https://web.archive.org/web/20220420204258/https://twitter.com/JoHeidecke/status/1516880019712262144)
-
-## 2022-01-28
-
-> A thread on how we evaluate our embedding models in OpenAI’s API. We achieve state-of-the-art results in linear probe classification, text search and code search. It’s not fine-tuned, so it works great in the real world — and our customers love it. 1/7
-
-https://x.com/JoHeidecke/status/1487200557869711363 · [archived](https://web.archive.org/web/20220128231208/https://twitter.com/JoHeidecke/status/1487200557869711363)

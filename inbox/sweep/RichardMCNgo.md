@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 4619 (2019-03-28 to 2026-04-14)
-- Read so far: 4619 (100%); text found for 4501; 0 not read yet
+- Archived posts found: 4308 (2019-03-28 to 2026-04-14)
+- Left out: 311 archived link(s) under this handle that X says another account wrote
+- Read so far: 4308 (100%); text found for 4190; 0 not read yet
 - Possibly deleted: 193
-- Matching the topic filter: 833
+- Matching the topic filter: 782
 
 
-Every post is in `RichardMCNgo.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `RichardMCNgo/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-04-02
 
@@ -1232,7 +1233,7 @@ https://x.com/RichardMCNgo/status/1564682884513800193 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1564314395542360064 · [archived](https://web.archive.org/web/20220829195029/https://twitter.com/RichardMCNgo/status/1564314395542360064)
 
-## 2022-08-29
+## 2022-08-29 · reply to @ShareAnt1
 
 > @ShareAnt1 It sounds like you agree that we need to build new housing, and you just want a bunch of other stuff to happen too. But when governments try to do the other stuff, it ends up with ridiculous consequences like in this thread. So let's just skip that and build new housing directly.
 
@@ -1264,7 +1265,7 @@ https://x.com/RichardMCNgo/status/1560746976999706624 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1560184247838683136 · [archived](https://web.archive.org/web/20220818124434/https://twitter.com/RichardMCNgo/status/1560184247838683136)
 
-## 2022-08-17
+## 2022-08-17 · reply to @keerthanpg
 
 > @keerthanpg I address this in the parts of the report focused on phase 2 (situational awareness and deceptive alignment) and phase 3 (collusion to avoid human supervision).
 
@@ -1510,7 +1511,7 @@ https://x.com/RichardMCNgo/status/1549456435725025280 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1546964606035304455 · [archived](https://web.archive.org/web/20220712210822/https://twitter.com/RichardMCNgo/status/1546964606035304455)
 
-## 2022-07-11
+## 2022-07-11 · reply to @LaParticle
 
 > @LaParticle @KellerScholl If maximin is equivalent to infinite risk-aversion, then would you retract the "grossly misinterprets" claim? Because that's just a straightforward mathematical claim about the maximin rule.
 
@@ -2102,11 +2103,14 @@ https://x.com/RichardMCNgo/status/1545086085964992513 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1544998670113931265 · [archived](https://web.archive.org/web/20220707105653/https://twitter.com/RichardMCNgo/status/1544998670113931265)
 
-## 2022-07-07
+## 2022-07-07 · reply to @Zergylord
 
 > @Zergylord Have you seen my alignment curriculum? The core readings cover the foundational ideas with a reasonable mix of (the most helpful) blog posts and peer-reviewed papers. 
 > 
 > https://t.co/wAgopPEjF9
+
+Quoting https://x.com/RichardMCNgo/status/1492544228680888320:
+> I've spent a long time developing this curriculum; I think it's now the best resource for learning about AGI safety, even if you're not taking the course. So if you've heard the ideas but never dug into details, reading it through is a good place to start! https://t.co/KUg6R1oqaB
 
 https://x.com/RichardMCNgo/status/1544971547324174338 · [archived](https://web.archive.org/web/20220707090836/https://twitter.com/RichardMCNgo/status/1544971547324174338)
 
@@ -2199,27 +2203,19 @@ https://x.com/RichardMCNgo/status/1538927228028760069 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1538901673011097607 · [archived](https://web.archive.org/web/20220620150934/https://twitter.com/RichardMCNgo/status/1538901673011097607)
 
-## 2022-06-18
-
-> In a week of takes and counter-takes and meta-takes about LaMDA, I saw hardly anyone discuss the central, object-level issue in detail:
-> 
-> in light of our best scientific theories of consciousness, what is the actual evidence for and against sentience in large language models?
-
-https://x.com/RichardMCNgo/status/1538223064663461888 · [archived](https://web.archive.org/web/20220618181321/https://twitter.com/RichardMCNgo/status/1538223064663461888)
-
 ## 2022-06-15 · reply to @ESennesh
 
 > @EliSennesh Just skimmed the third paper (others behind paywalls, will try get to them later). Key thing I was trying to find: claims about what determines whether  a stimulus give rise to a conscious "liking" reaction, vs non-conscious liking, vs wanting. Didn't seem to cover that? https://t.co/Lm3Xxpu6t2
 
 https://x.com/RichardMCNgo/status/1536909472567676933 · [archived](https://web.archive.org/web/20220615031242/https://twitter.com/RichardMCNgo/status/1536909472567676933)
 
-## 2022-06-15
+## 2022-06-15 · reply to @Tom_Marty_
 
 > @Tom_Marty_ I'd guess that many other mammals are mostly running on emotional responses to things; kids too. At some point it becomes less clear whether they're conscious at all though.
 
 https://x.com/RichardMCNgo/status/1536881948001374208 · [archived](https://web.archive.org/web/20220615012346/https://twitter.com/RichardMCNgo/status/1536881948001374208)
 
-## 2022-06-15
+## 2022-06-15 · reply to @OrionJohnston
 
 > @OrionJohnston They're sluggish at context-switching, they can be very fast in-context (e.g. conscious attention speeds things up). But my guess is that pain is more communicating the signal's importance. You don't feel pain when you need to dodge a ball or catch yourself from falling.
 
@@ -2268,15 +2264,6 @@ https://x.com/RichardMCNgo/status/1536784194105315328 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1535838458278649856 · [archived](https://web.archive.org/web/20220612041709/https://twitter.com/RichardMCNgo/status/1535838458278649856)
 
-## 2022-06-09
-
-> Hat tip here to Arnold Kling meme on how all government policies wind up restricting supply and subsidizing demand.
-> 
-> Once you see it, you can't unsee it. Happens everywhere: baby formula, housing policy, education, healthcare, etc...
-> https://t.co/KIm98AbeZQ https://t.co/F4LyQqdamq
-
-https://x.com/RichardMCNgo/status/1534805953203142656 · [archived](https://web.archive.org/web/20220609075432/https://twitter.com/RichardMCNgo/status/1534805953203142656)
-
 ## 2022-06-08 · reply to @RichardMCNgo
 
 > I do think the standard EA view on the future is solid: we're on a huge growth trajectory, but catastrophes are plausible, and this century could be crucial. So focus on trajectory change via differentially accelerating defensive tech + better governance. https://t.co/cffQ0hgEJR
@@ -2296,13 +2283,13 @@ https://x.com/RichardMCNgo/status/1534582396145741824 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1533318374544924672 · [archived](https://web.archive.org/web/20220605064318/https://twitter.com/RichardMCNgo/status/1533318374544924672)
 
-## 2022-06-04
+## 2022-06-04 · reply to @ZiChengCaoHuang
 
 > @ZiChengCaoHuang AGI could be the lover, could be the the tree. We're not sure yet.
 
 https://x.com/RichardMCNgo/status/1533221389104054272 · [archived](https://web.archive.org/web/20220604225748/https://twitter.com/RichardMCNgo/status/1533221389104054272)
 
-## 2022-06-04
+## 2022-06-04 · reply to @ZiChengCaoHuang
 
 > @ZiChengCaoHuang Drunk driving to a lover does in fact seem like a pretty apt description of humanity right now.
 
@@ -2355,12 +2342,6 @@ https://x.com/RichardMCNgo/status/1531851439495999488 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1531775150856630272 · [archived](https://web.archive.org/web/20220531231048/https://twitter.com/RichardMCNgo/status/1531775150856630272)
 
-## 2022-05-31 · reply to @visakanv
-
-> depersonalized abstracted discourse on the timeline is tricky business. people hurting from specific pains express that pain in vague abstractions which then hurt other people who pattern-match it onto a different set of threats and dangers… it’s like a brawl in pitch darkness
-
-https://x.com/RichardMCNgo/status/1531535937175310338 · [archived](https://web.archive.org/web/20220531072105/https://twitter.com/RichardMCNgo/status/1531535937175310338)
-
 ## 2022-05-29 · reply to @RichardMCNgo
 
 > @provisionalidea @VictorLevoso @GiadaPistilli But I do find the argument "working on existing systems will help address future risks" the most persuasive of the three.
@@ -2408,12 +2389,6 @@ https://x.com/RichardMCNgo/status/1530718110650486784 · [archived](https://web.
 > I could psychoanalyse why AGI risk skeptics are too conformist, but that's not gonna convince anyone.
 
 https://x.com/RichardMCNgo/status/1530713506571440128 · [archived](https://web.archive.org/web/20220529005202/https://twitter.com/RichardMCNgo/status/1530713506571440128)
-
-## 2022-05-28
-
-> I don’t wish to sound apocalyptic about this, but one has the sense that at present our society is simultaneously characterized by wildly disproportionate accountability for trivial transgressions and zero accountability for profound institutional failure.
-
-https://x.com/RichardMCNgo/status/1530596260951953409 · [archived](https://web.archive.org/web/20220528170702/https://twitter.com/RichardMCNgo/status/1530596260951953409)
 
 ## 2022-05-27 · reply to @RichardMCNgo
 
@@ -2485,23 +2460,13 @@ https://x.com/RichardMCNgo/status/1527164079424409600 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1526981288963387392 · [archived](https://web.archive.org/web/20220518174603/https://twitter.com/RichardMCNgo/status/1526981288963387392)
 
-## 2022-05-18
+## 2022-05-18 · reply to @Theo_Clifford
 
 > @Theo_Clifford @ArtirKel @Utilit_Aria Yeah, cult leaders are a classic example of polarising charisma. Whereas Obama or Biden are examples of less-polarizing (apart from the politics) charisma.
 > 
 > One selection effect: the most *generally* charismatic are very successful, so it's easier to meet polarising charismatic.
 
 https://x.com/RichardMCNgo/status/1526972994400051200 · [archived](https://web.archive.org/web/20220518170904/https://twitter.com/RichardMCNgo/status/1526972994400051200)
-
-## 2022-05-18
-
-> Great piece from Germany by the excellent @bopanc. Habeck asked his officials how to end Russian energy dependency. They said there was no way to do it. He fired the 30 most senior people. Their replacements found ways to do what he asked. https://t.co/anpXLXB9z4
-
-Quoting https://x.com/bopanc/status/1526590186251030528:
-> Germany is reversing decades of Kremlin-friendly policies get away from cheap Russian energy. 
-> Leading the battle is Robert Habeck, a Green leader confronting his own grassroots, officialdom, and the business community. My report via @WSJ https://t.co/CgsAQjP0oa
-
-https://x.com/RichardMCNgo/status/1526837052318199808 · [archived](https://web.archive.org/web/20220518080910/https://twitter.com/RichardMCNgo/status/1526837052318199808)
 
 ## 2022-05-18 · reply to @ThinkingBone
 
@@ -2523,12 +2488,6 @@ https://x.com/RichardMCNgo/status/1526692173906735104 · [archived](https://web.
 > How can you believe in efficient markets in a world where hedge funds spent decades not even offering free food.
 
 https://x.com/RichardMCNgo/status/1526452763135049728 · [archived](https://web.archive.org/web/20220517064127/https://twitter.com/RichardMCNgo/status/1526452763135049728)
-
-## 2022-05-16
-
-> If the world is likeliest to be saved by sober scholarship, then let us be sober scholars in the face of danger.
-
-https://x.com/RichardMCNgo/status/1526311035719720961 · [archived](https://web.archive.org/web/20220516211834/https://twitter.com/RichardMCNgo/status/1526311035719720961)
 
 ## 2022-05-13 · reply to @RichardMCNgo
 
@@ -2892,7 +2851,7 @@ https://x.com/RichardMCNgo/status/1519128160801071106 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1519128159433768960 · [archived](https://web.archive.org/web/20220427014003/https://twitter.com/RichardMCNgo/status/1519128159433768960)
 
-## 2022-04-26
+## 2022-04-26 · reply to @astridwilde
 
 > @astridwilde @CassandraRules @UnfinishedOwl Just read it now. He sure makes a bunch of claims. But looks like, far from having worldwide conflicts, people are much more likely to ignore the possibility of AGI as long as they can.
 
@@ -2944,7 +2903,7 @@ https://x.com/RichardMCNgo/status/1518218737085726720 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1518171989306978305 · [archived](https://web.archive.org/web/20220424101659/https://twitter.com/RichardMCNgo/status/1518171989306978305)
 
-## 2022-04-24
+## 2022-04-24 · reply to @OwainEvans_UK
 
 > @OwainEvans_UK Deep learning is closely in contact with reality, doesn't count.
 > 
@@ -2952,7 +2911,7 @@ https://x.com/RichardMCNgo/status/1518171989306978305 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1518168217264476164 · [archived](https://web.archive.org/web/20220424100154/https://twitter.com/RichardMCNgo/status/1518168217264476164)
 
-## 2022-04-23
+## 2022-04-23 · reply to @danobroin
 
 > @danobroin @GjMcGowan @s8mb Yeah, more nuclear is the main thing I'm thinking of - iirc there's some "as safe as possible" clause in US nuclear regulation, which holds it to a much higher standard than any other energy source.
 
@@ -3010,12 +2969,6 @@ Quoting https://x.com/Aella_Girl/status/1517216002865602560:
 > There's a kind of strength I value that isn't about how powerful your defenses are, but allowing yourself to become shattered. I'd rather be in connection and broken than disconnected and whole.
 
 https://x.com/RichardMCNgo/status/1517302380072783877 · [archived](https://web.archive.org/web/20220422004130/https://twitter.com/RichardMCNgo/status/1517302380072783877)
-
-## 2022-04-21
-
-> 1/ Can A.I. do our literature reviews for us? Stop everything and try https://t.co/x46Zisguvs, an amazing new tool that uses large language models to answer research questions via empirical research- in the video below I ask it "Does social media negatively impact mental health?" https://t.co/QwbT5YwzKY
-
-https://x.com/RichardMCNgo/status/1517207040543834116 · [archived](https://web.archive.org/web/20220421182213/https://twitter.com/RichardMCNgo/status/1517207040543834116)
 
 ## 2022-04-21
 
@@ -3699,14 +3652,6 @@ https://x.com/RichardMCNgo/status/1506348696027471883 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1506318702425387023 · [archived](https://web.archive.org/web/20220322171618/https://twitter.com/RichardMCNgo/status/1506318702425387023)
 
-## 2022-03-21
-
-> With the new research showing how an AI built for drug discovery was also able to create new chemical weapons, I have been thinking about this paper: what if there are innovations we might soon find that can utterly destroy humanity? 
-> 
-> A thread on a grim but worthwhile read 1/5 https://t.co/70O8rKkkqF
-
-https://x.com/RichardMCNgo/status/1505708281943273473 · [archived](https://web.archive.org/web/20220321005031/https://twitter.com/RichardMCNgo/status/1505708281943273473)
-
 ## 2022-03-20 · possibly deleted
 
 > At this point it's probably better described as the anti-fashion industry.
@@ -3840,7 +3785,7 @@ https://x.com/RichardMCNgo/status/1503018608347209737 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1503018020712726536 · [archived](https://web.archive.org/web/20220313144036/https://twitter.com/RichardMCNgo/status/1503018020712726536)
 
-## 2022-03-12
+## 2022-03-12 · reply to @iamtrask
 
 > @iamtrask I really hope you're right, because that'd prevent the worst alignment problems. But if you were right, I don't think we'd have been able to build civilisation in the first place, because humans rely so much on skills generalised from our wildly different ancestral environment.
 
@@ -3870,16 +3815,6 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1502266729640177666 · [archived](https://web.archive.org/web/20220311125446/https://twitter.com/RichardMCNgo/status/1502266729640177666)
 
-## 2022-03-07
-
-> Mindpunk: a fiction genre incl things like brain-computer interfaces, nootropics, new mental abilities, etc
-> 
-> Examples: Dune's Bene Gesserit &amp; Mentats, Asimov's Second Foundation, Bakker's Dûnyain, The Matrix's kungfu-training chair, Limitless, @ramez's Nexus trilogy
-> 
-> What others?
-
-https://x.com/RichardMCNgo/status/1500882480991248389 · [archived](https://web.archive.org/web/20220307171420/https://twitter.com/RichardMCNgo/status/1500882480991248389)
-
 ## 2022-03-06 · possibly deleted
 
 _(text not available)_
@@ -3897,16 +3832,6 @@ https://x.com/RichardMCNgo/status/1499956820571475969 · [archived](https://web.
 _(text not available)_
 
 https://x.com/RichardMCNgo/status/1499487298496475147 · [archived](https://web.archive.org/web/20220303205019/https://twitter.com/RichardMCNgo/status/1499487298496475147)
-
-## 2022-02-28
-
-> 1/ We're thrilled to announce the FTX Foundation's Future Fund. We make grants and investments to ambitious projects to improve humanity's long-term prospects.
-> 
-> We plan to deploy &gt;$100M this year, and potentially a lot more (in principle up to $1B).
-> 
-> https://t.co/kIWdm48LZ4
-
-https://x.com/RichardMCNgo/status/1498372007561465864 · [archived](https://web.archive.org/web/20220228185830/https://twitter.com/RichardMCNgo/status/1498372007561465864)
 
 ## 2022-02-24
 
@@ -3929,12 +3854,6 @@ Quoting https://x.com/tamaybes/status/1494094249612169219:
 > Guys, my Tweet where I draw a line on a graph that seperates models into 'not conscious' vs. 'maybe slightly conscious' was tongue-in-cheek. I wish I had discovered the key to the question of conscioussness, but I haven't—sorry to disappoint.
 
 https://x.com/RichardMCNgo/status/1494107236167081985 · [archived](https://web.archive.org/web/20220217003642/https://twitter.com/RichardMCNgo/status/1494107236167081985)
-
-## 2022-02-15
-
-> I know what it means to have one moment change a family’s whole trajectory. I know because I got that one in a thousand chance out of poverty, but that’s the problem. You shouldn't need to be one in a thousand lucky. That’s why I’m running for Congress. https://t.co/rFkFbALRs3
-
-https://x.com/RichardMCNgo/status/1493612631306948615 · [archived](https://web.archive.org/web/20220215155134/https://twitter.com/RichardMCNgo/status/1493612631306948615)
 
 ## 2022-02-15
 
@@ -3975,12 +3894,6 @@ https://x.com/RichardMCNgo/status/1493398104552341505 · [archived](https://web.
 > https://t.co/BzLlu2Zwa4 https://t.co/GUHKhvjojx
 
 https://x.com/RichardMCNgo/status/1493396420803502085 · [archived](https://web.archive.org/web/20220215013218/https://twitter.com/RichardMCNgo/status/1493396420803502085)
-
-## 2022-02-14
-
-> Here are some questions I've found valuable in investigating goals. Feel free to suggest more.
-
-https://x.com/RichardMCNgo/status/1493053101049319426 · [archived](https://web.archive.org/web/20220214024802/https://twitter.com/RichardMCNgo/status/1493053101049319426)
 
 ## 2022-02-14 · reply to @joelbot3000
 
@@ -4099,7 +4012,7 @@ https://x.com/RichardMCNgo/status/1490764579319676931 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1490591361610829824 · [archived](https://web.archive.org/web/20220207074601/https://twitter.com/RichardMCNgo/status/1490591361610829824)
 
-## 2022-02-06
+## 2022-02-06 · reply to @RichardMCNgo
 
 > Wait, is this just a manifestation of gender differences in value of commitment? Feels like I'm hitting everything with the same explanatory hammer these days but that does seem like the most obvious answer.
 
@@ -4151,7 +4064,7 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1486473526496292865 · [archived](https://web.archive.org/web/20220126230316/https://twitter.com/RichardMCNgo/status/1486473526496292865)
 
-## 2022-01-25
+## 2022-01-25 · reply to @HiFromMichaelV
 
 > @HiFromMichaelV @p44v9n Hmm, wouldn't sensible decision-making by a few hundred govt figures (president, CDC, FDA, etc) have basically solved the pandemic?
 > 
@@ -4173,14 +4086,7 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1486041333617741826 · [archived](https://web.archive.org/web/20220125182546/https://twitter.com/RichardMCNgo/status/1486041333617741826)
 
-## 2022-01-25
-
-> Facebook: We're building a supercomputer just for our AI stuff and it's gonna have same # of GPUs initially as world's fifth fastest computer
-> DoD: Takes 120 minutes from login to open Outlook.
-
-https://x.com/RichardMCNgo/status/1486033993417965570 · [archived](https://web.archive.org/web/20220125175638/https://twitter.com/RichardMCNgo/status/1486033993417965570)
-
-## 2022-01-25
+## 2022-01-25 · reply to @edsaperia
 
 > @edsaperia @bhpascal Idk, lobbying is surprisingly cheap! https://t.co/SaorGC8dx4
 
@@ -4211,7 +4117,7 @@ https://x.com/RichardMCNgo/status/1485759027820650496 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1485358509973643264 · [archived](https://web.archive.org/web/20220123211226/https://twitter.com/RichardMCNgo/status/1485358509973643264)
 
-## 2022-01-23
+## 2022-01-23 · reply to @favoredprisoner
 
 > @favoredprisoner It's less about anxiety, more about freedom from a lot of the work you need to do to find + commit to someone. Plus the ways in which doing joint projects can give you more degrees of freedom than solo projects - you don't need to cover every base any more.
 
@@ -4234,21 +4140,7 @@ https://x.com/RichardMCNgo/status/1485273400050343947 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1485025749107191810 · [archived](https://web.archive.org/web/20220122231007/https://twitter.com/RichardMCNgo/status/1485025749107191810)
 
-## 2022-01-20
-
-> One of humanity's most impressive achievements.
-> 
-> The reduction in child mortality across the world.
-> 
-> It used to be the case that one-in-three (if not more) died before their 5th birthday.
-> 
-> Now all countries have made massive progress against it.
-> 
-> https://t.co/k0dgNannJm https://t.co/IV4VfZWtbT
-
-https://x.com/RichardMCNgo/status/1484191644639453189 · [archived](https://web.archive.org/web/20220120155553/https://twitter.com/RichardMCNgo/status/1484191644639453189)
-
-## 2022-01-20
+## 2022-01-20 · reply to @goose0009
 
 > @goose0009 I guess I'm trying to capture a sentiment rather than a specific phrasing. In some cases (for example Yudkowsky's views on AI risk) they're very confident that there aren't "somethings" which might change it, but still much prefer the (spirit of the) latter phrasing.
 
@@ -4294,15 +4186,21 @@ https://x.com/RichardMCNgo/status/1483526679121350660 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1483525528799821842 · [archived](https://web.archive.org/web/20220118195133/https://twitter.com/RichardMCNgo/status/1483525528799821842)
 
-## 2022-01-18
+## 2022-01-18 · reply to @RichardMCNgo
 
 > I've noticed some selection biases in how I phrased the question. Please answer this one instead! https://t.co/7UfK3Wy58f
 
+Quoting https://x.com/RichardMCNgo/status/1483484128007892993:
+> If you have step-siblings within 5ish years of your age, imagine that they would've had an equally good childhood either living in your household, or living with their other parent. Which would you personally have preferred?
+
 https://x.com/RichardMCNgo/status/1483484870475198483 · [archived](https://web.archive.org/web/20220118170722/https://twitter.com/RichardMCNgo/status/1483484870475198483)
 
-## 2022-01-18
+## 2022-01-18 · reply to @RichardMCNgo
 
 > (this poll is an updated version of https://t.co/4L9b8JcYqj to correct for selection biases in how I originally phrased it. which selection biases is an exercise for the reader)
+
+Quoting https://x.com/RichardMCNgo/status/1483431894473707530:
+> If you grew up with step-siblings, imagine that they would have had an equally good childhood living with their other parent instead of in your household. Would you personally have preferred that?
 
 https://x.com/RichardMCNgo/status/1483484717806673923 · [archived](https://web.archive.org/web/20220118170644/https://twitter.com/RichardMCNgo/status/1483484717806673923)
 
@@ -4364,7 +4262,7 @@ https://x.com/RichardMCNgo/status/1483086212068003842 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1483081314970615813 · [archived](https://web.archive.org/web/20220117142348/https://twitter.com/RichardMCNgo/status/1483081314970615813)
 
-## 2022-01-17
+## 2022-01-17 · reply to @MichaelDPlant
 
 > @MichaelDPlant Why this design? I think of trees and stars as symbolic of humanity (tree of life) and the long-term future.
 > 
@@ -4505,17 +4403,7 @@ https://x.com/RichardMCNgo/status/1476158525084684289 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1476035567523545088 · [archived](https://web.archive.org/web/20211229034629/https://twitter.com/RichardMCNgo/status/1476035567523545088)
 
-## 2021-12-28
-
-> Storytime! Here is how and why I switched from working on cash transfers to working on international migration.
-> 
-> If you're still looking to donate this year, it's also a pitch! Donation link at https://t.co/wPIRehU0oo. US donations are tax-free. 
-> 
-> 1/n
-
-https://x.com/RichardMCNgo/status/1475978326485323777 · [archived](https://web.archive.org/web/20211228235856/https://twitter.com/RichardMCNgo/status/1475978326485323777)
-
-## 2021-12-28
+## 2021-12-28 · reply to @ChanaMessinger
 
 > @ChanaMessinger Wow, thank you!
 > 
@@ -4581,7 +4469,7 @@ https://x.com/RichardMCNgo/status/1473735578210426884 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1473136194569474049 · [archived](https://web.archive.org/web/20211221034521/https://twitter.com/RichardMCNgo/status/1473136194569474049)
 
-## 2021-12-18
+## 2021-12-18 · reply to @AbieRohrig
 
 > @AbieRohrig There are some questions where I trust scientists more than philosophers, and this is one of them.
 
@@ -4593,7 +4481,7 @@ https://x.com/RichardMCNgo/status/1472231018044137476 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1472020129856692224 · [archived](https://web.archive.org/web/20211218015030/https://twitter.com/RichardMCNgo/status/1472020129856692224)
 
-## 2021-12-15
+## 2021-12-15 · reply to @__nmca__
 
 > @__nmca__ @saffronhuang @StefanFSchubert probably has some references.
 > 
@@ -4609,7 +4497,7 @@ https://x.com/RichardMCNgo/status/1470926323149279232 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1470532723722780672 · [archived](https://web.archive.org/web/20211213232005/https://twitter.com/RichardMCNgo/status/1470532723722780672)
 
-## 2021-12-10
+## 2021-12-10 · reply to @machinaut
 
 > @machinaut @benskuhn Hackathons also seem to meet those criteria, while being closer to the skillset needed for most coding jobs.
 > 
@@ -4678,7 +4566,7 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1466517250979123214 · [archived](https://web.archive.org/web/20211202211904/https://twitter.com/RichardMCNgo/status/1466517250979123214)
 
-## 2021-12-02
+## 2021-12-02 · reply to @SarahShoker
 
 > @SarahShoker @RobertJSawyer Thanks for the rec, I'll check it out!
 > 
@@ -4702,23 +4590,6 @@ Quoting https://x.com/RichardMCNgo/status/1293286668817043470:
 > You know how the visual cortex of blind infants rewires itself to process sound or touch? What if you hooked up their optic nerves to the internet instead? Imagine reading a page of text in a second, as easily as others recognise objects visually. The first true digital native.
 
 https://x.com/RichardMCNgo/status/1466480188309524481 · [archived](https://web.archive.org/web/20211202185403/https://twitter.com/RichardMCNgo/status/1466480188309524481)
-
-## 2021-11-30
-
-> The AGI Safety Fundamentals programme presents the dedicated AI Governance focus track! Applications open til 15th Dec. 
-> Many thanks to  Stanford Existential Risks Initiative and @RichardMCNgo for collating the curriculum, very excited to see this happen.
-> 
-> https://t.co/dBkGZYzJvp
-
-https://x.com/RichardMCNgo/status/1465758983042465792 · [archived](https://web.archive.org/web/20211202003209/https://twitter.com/RichardMCNgo/status/1465758983042465792)
-
-## 2021-11-29
-
-> Yudkowsky &amp; Ngo/Christiano conversations in podcast form! 🥳 
-> @paulfchristiano and @ESYudkowsky on take-off speeds https://t.co/1qsWcfLQpG, https://t.co/OqkJn1hkmj, https://t.co/32dcGo0sPt 
-> @RichardMCNgo on alignment difficulty https://t.co/4bcgRNKrw1, https://t.co/rVoZtUCdv2🧵
-
-https://x.com/RichardMCNgo/status/1465412853930680323 · [archived](https://web.archive.org/web/20211201193745/https://twitter.com/RichardMCNgo/status/1465412853930680323)
 
 ## 2021-11-25 · reply to @RichardMCNgo
 
@@ -4773,7 +4644,7 @@ Quoting https://x.com/AdamLaneSmith/status/1357430866880811010:
 
 https://x.com/RichardMCNgo/status/1462691270841683976 · [archived](https://web.archive.org/web/20211122112740/https://twitter.com/RichardMCNgo/status/1462691270841683976)
 
-## 2021-11-22
+## 2021-11-22 · reply to @RichardMCNgo
 
 > @neuro_morphic @scottfits Slowly but surely, the billionaires are coming to me ;P
 
@@ -4844,21 +4715,13 @@ https://x.com/RichardMCNgo/status/1457135815897853958 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1457132966191190028 · [archived](https://web.archive.org/web/20211107000915/https://twitter.com/RichardMCNgo/status/1457132966191190028)
 
-## 2021-11-06
-
-> Currently reading "AGI Safety From First Principles" by @RichardMCNgo!
-> 
-> Posting my takeaways in the thread below 🧵👇
-
-https://x.com/RichardMCNgo/status/1457129309827735556 · [archived](https://web.archive.org/web/20211106235922/https://twitter.com/RichardMCNgo/status/1457129309827735556)
-
 ## 2021-11-05
 
 > Any pointers to estimates of the chemical composition of computer chips? How much silicon, aluminium, etc do they actually contain?
 
 https://x.com/RichardMCNgo/status/1456625649880272902 · [archived](https://web.archive.org/web/20211105145724/https://twitter.com/RichardMCNgo/status/1456625649880272902)
 
-## 2021-11-04
+## 2021-11-04 · reply to @davidmanheim
 
 > @davidmanheim @robertwiblin But the least cautious people are also the ones who would have spent the most without lockdown.
 > 
@@ -4980,7 +4843,7 @@ https://x.com/RichardMCNgo/status/1450954158945624065 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1450515178030714884 · [archived](https://web.archive.org/web/20211019173223/https://twitter.com/RichardMCNgo/status/1450515178030714884)
 
-## 2021-10-18
+## 2021-10-18 · reply to @imperialauditor
 
 > @imperialauditor Idk, 20-30%? But also academic PEDs are much less costly for your health than sports PEDs, and much less risky for your career since they're not banned.
 
@@ -5061,12 +4924,6 @@ https://x.com/RichardMCNgo/status/1431165399576551429 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1430947129804087307 · [archived](https://web.archive.org/web/20210826183558/https://twitter.com/RichardMCNgo/status/1430947129804087307)
 
-## 2021-08-26
-
-> I think the three best parts of Silicon Valley are acknowledging that we live in a power law universe, taking nobodies at least somewhat seriously, and being willing to give help and intros and such unconditionally for years. I think they’re related
-
-https://x.com/RichardMCNgo/status/1430806614563594240 · [archived](https://web.archive.org/web/20210826081749/https://twitter.com/RichardMCNgo/status/1430806614563594240)
-
 ## 2021-08-24 · reply to @RichardMCNgo
 
 > Indeed, the only difference between reward learning and their DRL assistance algorithm: when calculating rewards, the latter assumes we know the human reward function (we don't). Reward learning can just use human evaluations.
@@ -5074,7 +4931,7 @@ https://x.com/RichardMCNgo/status/1430806614563594240 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1430158385207521288 · [archived](https://web.archive.org/web/20210824205105/https://twitter.com/RichardMCNgo/status/1430158385207521288)
 
-## 2021-08-19
+## 2021-08-19 · reply to @tmkadamcz
 
 > @tmkadamcz @StefanFSchubert @Kirsten3531 Not that much time-wise, but a lot procrastination-wise. And if I had someone on call I expect I'd come up with a bunch of useful stuff for them to do.
 > 
@@ -5090,13 +4947,13 @@ https://x.com/RichardMCNgo/status/1428393014582521866 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1427760370433859584 · [archived](https://web.archive.org/web/20210817223303/https://twitter.com/RichardMCNgo/status/1427760370433859584)
 
-## 2021-08-17
+## 2021-08-17 · reply to @RichardMCNgo
 
 > By "learning the human policy", I more specifically mean "learning what communication protocol the human is using in order to convey information to the robot". In practice I assume this would mostly happen via language, but I'm not sure what it looks like in these formalisms.
 
 https://x.com/RichardMCNgo/status/1427627724076687363 · [archived](https://web.archive.org/web/20210817134657/https://twitter.com/RichardMCNgo/status/1427627724076687363)
 
-## 2021-08-17
+## 2021-08-17 · reply to @RichardMCNgo
 
 > I should flag that I'm still quite confused about a) the feasibility of learning the human policy in assistance games; and b) how practically relevant this critique by Armstrong and @sorenmind is (https://t.co/AhONH9EEEb). Would love to read any work addressing these points.
 
@@ -5108,36 +4965,13 @@ https://x.com/RichardMCNgo/status/1427626113489059845 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1427545855360479233 · [archived](https://web.archive.org/web/20210817082035/https://twitter.com/RichardMCNgo/status/1427545855360479233)
 
-## 2021-08-13
-
-> Only costs $150Bn (25% USA yrly military budget) to deploy 2000Km of digitally controllable micron-thick solar sunshades which would allow us to variably adjust the temperature of the Earth. Blocks up to 2% of sunlight, controllable instantly from Earth (by rotating shades). https://t.co/czj9or1Z30
-
-https://x.com/RichardMCNgo/status/1426190713658740737 · [archived](https://web.archive.org/web/20210813152016/https://twitter.com/RichardMCNgo/status/1426190713658740737)
-
-## 2021-08-09
+## 2021-08-09 · reply to @FPallopides
 
 > @FPallopides @visakanv @mbateman @Aella_Girl @bryan_caplan My (half-remembered) impression is that The Case Against Education argued mainly that school is not very useful for teaching kids things.
 > 
 > But arguing that it's a catastrophe goes well beyond that claim.
 
 https://x.com/RichardMCNgo/status/1424637103640498177 · [archived](https://web.archive.org/web/20210809074214/https://twitter.com/RichardMCNgo/status/1424637103640498177)
-
-## 2021-08-09
-
-> 71 serious lab accidents.
-> 60 nuclear close-calls https://t.co/qj1VK45hwJ
-> 
-> With these incredibly dangerous techs, we're playing 'technology roulette' https://t.co/yO5P52sBDV
-
-Quoting https://x.com/davidmanheim/status/1424382873822507009:
-> Are there lab accidents and other anthropogenic disease sources? Yes.  
-> 
-> Are some of those events of a severity that could lead to outbreaks? Also yes.
-> 
-> Here's our newly published list of 71 such incidents from 1975-2016 in @F1000Research:
-> https://t.co/lyOBTOObfz
-
-https://x.com/RichardMCNgo/status/1424564244478009349 · [archived](https://web.archive.org/web/20210809025245/https://twitter.com/RichardMCNgo/status/1424564244478009349)
 
 ## 2021-08-06
 
@@ -5150,7 +4984,7 @@ Quoting https://x.com/Plinz/status/1283211048145711104:
 
 https://x.com/RichardMCNgo/status/1423592272436678657 · [archived](https://web.archive.org/web/20210806225716/https://twitter.com/RichardMCNgo/status/1423592272436678657)
 
-## 2021-08-05
+## 2021-08-05 · reply to @lxrjl
 
 > @lxrjl @Phollandaise Makes sense. Although I wonder if the no-replacement policy is to prevent strategic decisions about when to withdraw.
 > 
@@ -5204,16 +5038,6 @@ https://x.com/RichardMCNgo/status/1422343945657360405 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1422337928005492741 · [archived](https://web.archive.org/web/20210802232622/https://twitter.com/RichardMCNgo/status/1422337928005492741)
 
-## 2021-08-02
-
-> This is a very big deal
-> 
-> In an update to their investigative report House Foreign Affairs Committee Republicans have concluded that COVID-19 is the result of a lab leak by a “preponderance of the evidence” 
-> 
->  https://t.co/KR5G7FPeyg https://t.co/iMrL01MANN
-
-https://x.com/RichardMCNgo/status/1422335923342123017 · [archived](https://web.archive.org/web/20210802231812/https://twitter.com/RichardMCNgo/status/1422335923342123017)
-
 ## 2021-08-01 · reply to @RichardMCNgo
 
 > Okay, I feel a bit bad about this one cos apparently *none* of the athletes in the Olympics high jump final even matches the *average* height of NBA players (which is 2m). And that's not even crazy tall, it's one in a thousand men. So I've maligned basketball players unfairly.
@@ -5227,6 +5051,9 @@ https://x.com/RichardMCNgo/status/1421791242384396288 · [archived](https://web.
 > When thinking about tax policy, most people who aren't Georgists.
 > 
 > When thinking about the industrial revolution, feels like economists have focused on capital and labour way more than land? But uncertain.
+
+Quoting https://x.com/EmilVerner/status/1113088254272770048:
+> Just out in AEJ:Macro, Hsieh and Moretti argue that spatial misallocation due to housing supply constraints have lowered US growth by 36% (36!) since 1964. https://t.co/6qqmnuBDqg
 
 https://x.com/RichardMCNgo/status/1417038718817374208 · [archived](https://web.archive.org/web/20210719082926/https://twitter.com/RichardMCNgo/status/1417038718817374208)
 
@@ -5309,7 +5136,7 @@ https://x.com/RichardMCNgo/status/1410189294350700544 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1410088014450024451 · [archived](https://web.archive.org/web/20210630040919/https://twitter.com/RichardMCNgo/status/1410088014450024451)
 
-## 2021-06-30
+## 2021-06-30 · reply to @mynamelowercase
 
 > @mynamelowercase @adamrisom "Works" is relative. Sure, it's worse than a world where everything is top-down planned by trustworthy people. But we're a long way from that world, and it's far from clear that trying to move towards it is a good idea.
 
@@ -5320,12 +5147,6 @@ https://x.com/RichardMCNgo/status/1410063778637520899 · [archived](https://web.
 > Still reeling from discovering that the founder of wikipedia is a hardcore Ayn Rand fan. Can anyone make sense of this?
 
 https://x.com/RichardMCNgo/status/1410034368555323393 · [archived](https://web.archive.org/web/20210630003607/https://twitter.com/RichardMCNgo/status/1410034368555323393)
-
-## 2021-06-29
-
-> If you're curious how US policy careers can help reduce x-risk, you should definitely sign up for this. (I have some private info about it; it's gonna be great.) https://t.co/ZXcDc0UI3Y
-
-https://x.com/RichardMCNgo/status/1409679258037800965 · [archived](https://web.archive.org/web/20210629010513/https://twitter.com/RichardMCNgo/status/1409679258037800965)
 
 ## 2021-06-26 · reply to @guillefix
 
@@ -5345,13 +5166,20 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1406873796888330247 · [archived](https://web.archive.org/web/20210622141340/https://twitter.com/RichardMCNgo/status/1406873796888330247)
 
-## 2021-06-21
+## 2021-06-21 · reply to @RichardMCNgo
 
 > Favourite songs (slowly accumulating): https://t.co/uifsA7Cegw
 
+Quoting https://x.com/RichardMCNgo/status/1293082341347295232:
+> Thread of songs that make me happy. To be updated only in response to song-induced happiness.
+> 
+> Kicking things off: I don't know what inspired @viennateng to come up with the metaphor of love as a stray Italian greyhound, but *inspired* is the right word.
+> 
+> https://t.co/OldWNxbU8p
+
 https://x.com/RichardMCNgo/status/1406818233831677959 · [archived](https://web.archive.org/web/20210622212453/https://twitter.com/RichardMCNgo/status/1406818233831677959)
 
-## 2021-06-20
+## 2021-06-20 · reply to @imperialauditor
 
 > @imperialauditor deference: for coordination problems
 > loyalty: for stag hunts
@@ -5395,7 +5223,7 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1405684974607507456 · [archived](https://web.archive.org/web/20210618003315/https://twitter.com/RichardMCNgo/status/1405684974607507456)
 
-## 2021-06-17
+## 2021-06-17 · reply to @krishkhubchand
 
 > @krishkhubchand Don't leave us hanging! Who?
 
@@ -5407,7 +5235,7 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1405412616881643522 · [archived](https://web.archive.org/web/20210617063059/https://twitter.com/RichardMCNgo/status/1405412616881643522)
 
-## 2021-06-16
+## 2021-06-16 · reply to @ShreddedMoney
 
 > @ShreddedMoney I'm glad I can't, since there's the potential to get wrapped up and lost in it. Forgetfulness can be a defense mechanism.
 
@@ -5459,7 +5287,7 @@ https://x.com/RichardMCNgo/status/1404131586828750851 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1404130301660471296 · [archived](https://web.archive.org/web/20210613174916/https://twitter.com/RichardMCNgo/status/1404130301660471296)
 
-## 2021-06-12
+## 2021-06-12 · reply to @RichardMCNgo
 
 > @robbensinger Especially if you think AGI risk is really hard to solve, it seems bizarre to me to use practically the most emotionally loaded word you can find to describe missing a very high bar. That's basically a recipe for producing biased thinking.
 > 
@@ -5479,7 +5307,7 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1403767320082673671 · [archived](https://web.archive.org/web/20210612173335/https://twitter.com/RichardMCNgo/status/1403767320082673671)
 
-## 2021-06-12
+## 2021-06-12 · reply to @robbensinger
 
 > @robbensinger I'm worried about circularity of 3: the "inadequacy mindset" shapes how people think about institutions, which affects their xrisk estimates, which justifies inadequacy mindset! And it's so emotionally loaded that it seems unlikely people are taking this into account.
 
@@ -5507,19 +5335,13 @@ https://x.com/RichardMCNgo/status/1403761902732201991 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1403586912107974656 · [archived](https://web.archive.org/web/20210612053619/https://twitter.com/RichardMCNgo/status/1403586912107974656)
 
-## 2021-06-09
+## 2021-06-09 · reply to @RichardMCNgo
 
 > @nullary Having said that, I'd be pretty keen to hear what you mean by tech-compatible policy and policy-compatible tech!
 
 https://x.com/RichardMCNgo/status/1402654526436302850 · [archived](https://web.archive.org/web/20210609160621/https://twitter.com/RichardMCNgo/status/1402654526436302850)
 
-## 2021-06-08
-
-> I'm excited to finally publish the results of the "AI Risk Survey" that Alexis Carlier, Sam Clarke and I conducted last summer: https://t.co/sa441pTIt8
-
-https://x.com/RichardMCNgo/status/1402373319677026305 · [archived](https://web.archive.org/web/20210608211536/https://twitter.com/RichardMCNgo/status/1402373319677026305)
-
-## 2021-06-08
+## 2021-06-08 · reply to @FelixHill84
 
 > @FelixHill84 Good point. I do think there are some pretty deep-rooted cultural aspects of New Zealand that I wish both US and China had more of. Idk how robust they are to a concerted effort to win NZ over by either superpower, but I'd be optimistic.
 
@@ -5535,13 +5357,13 @@ https://x.com/RichardMCNgo/status/1402255746838892544 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1402247398101979139 · [archived](https://web.archive.org/web/20210608125556/https://twitter.com/RichardMCNgo/status/1402247398101979139)
 
-## 2021-06-08
+## 2021-06-08 · reply to @imperialauditor
 
 > @imperialauditor https://t.co/ltUZQCeYaO
 
 https://x.com/RichardMCNgo/status/1402244441054740485 · [archived](https://web.archive.org/web/20210608125350/https://twitter.com/RichardMCNgo/status/1402244441054740485)
 
-## 2021-06-08
+## 2021-06-08 · reply to @buirachel
 
 > @buirachel Maybe 5-6 weeks. I'm tempted to visit! Let's see what plans I've made by the time I leave quarantine.
 
@@ -5561,7 +5383,7 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1401906754376671236 · [archived](https://web.archive.org/web/20210607204942/https://twitter.com/RichardMCNgo/status/1401906754376671236)
 
-## 2021-06-06
+## 2021-06-06 · reply to @1adambush
 
 > @1adambush Thanks for telling me about it originally! I have a flight to New Zealand tomorrow so I'm really glad I managed to get it before leaving.
 
@@ -5579,7 +5401,7 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1394810164776210436 · [archived](https://web.archive.org/web/20210519002102/https://twitter.com/RichardMCNgo/status/1394810164776210436)
 
-## 2021-05-15
+## 2021-05-15 · reply to @LinchZhang
 
 > @LinchZhang Haha, this is why I didn't say original tweet *who* was overconfident, to leave open the possibility it was me. This does seem like an ambiguity, although a pretty small one - you don't need "fairly specific information", just change the problem statement to future tense.
 
@@ -5700,32 +5522,7 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1385968739972169733 · [archived](https://web.archive.org/web/20210424144824/https://twitter.com/RichardMCNgo/status/1385968739972169733)
 
-## 2021-04-19
-
-> I'm excited about this work because it's the first real algorithm for calculating differences in reward functions without running RL! I expect this is going to be a very useful tool for measuring alignment going forward.
-> 
-> Great work by @ARGleave, @MichaelD1729 et al.
-
-Quoting https://x.com/GoogleDeepMind/status/1384086121018138629:
-> How can you tell if you have a good reward function? EPIC quickly &amp; reliably measures the distance between reward functions. Small distances imply similar optimal policy returns, even in unseen environments.
-> 
-> Blog: https://t.co/6tQWyUHI1n 
-> Paper #ICLR2021: https://t.co/OHCtuRUQa5 https://t.co/PpFqoPoqsw
-
-https://x.com/RichardMCNgo/status/1384270230227099652 · [archived](https://web.archive.org/web/20210419221900/https://twitter.com/RichardMCNgo/status/1384270230227099652)
-
-## 2021-04-19
-
-> I dislike labeling all collective decision-making as "coordination problems". Ranked by hardness:
-> 
-> Pure coordination problems, e.g. driving on the left
-> Assurance problems, e.g. nukes
-> Collective action problems, e.g. overfishing
-> Sociotechnical problems, e.g. climate, AI alignment
-
-https://x.com/RichardMCNgo/status/1384226663282577418 · [archived](https://web.archive.org/web/20210419192553/https://twitter.com/RichardMCNgo/status/1384226663282577418)
-
-## 2021-04-16
+## 2021-04-16 · reply to @RichardMCNgo
 
 > @tszzl @pee_zombie @alt1na1 So it looks like the alternative strategy that I described in my other tweet is actually more accurate (albeit slower) than visualisation.
 > 
@@ -5782,12 +5579,6 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1379848834394775563 · [archived](https://web.archive.org/web/20210407173014/https://twitter.com/RichardMCNgo/status/1379848834394775563)
 
-## 2021-04-05
-
-> "Chang-Tai Hsieh and Enrico Moretti's "Housing Constraints and Spatial Misallocation" (AEJ) is arguably the single most influential article ever published on housing regulation.  It also contains a few large miscalculations." https://t.co/smQwr19tMB
-
-https://x.com/RichardMCNgo/status/1379194131700940801 · [archived](https://web.archive.org/web/20210405220829/https://twitter.com/RichardMCNgo/status/1379194131700940801)
-
 ## 2021-04-04
 
 > Eventually science will aim to understand not just existing phenomena, but the entire range of possibilities. What other laws of physics could give rise to life? How else could intelligence evolve? I call this generative science, and discuss it more here: https://t.co/i56GRYk2Pn
@@ -5797,7 +5588,7 @@ Quoting https://x.com/michael_nielsen/status/1377795759895011329:
 
 https://x.com/RichardMCNgo/status/1378822132482854912 · [archived](https://web.archive.org/web/20210404213021/https://twitter.com/RichardMCNgo/status/1378822132482854912)
 
-## 2021-04-04
+## 2021-04-04 · reply to @RichardMCNgo
 
 > Other central works, according to this analysis:
 > Rawls' Theory of Justice
@@ -5839,7 +5630,7 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1374473903255429122 · [archived](https://web.archive.org/web/20210323213157/https://twitter.com/RichardMCNgo/status/1374473903255429122)
 
-## 2021-03-23
+## 2021-03-23 · reply to @RichardMCNgo
 
 > @glenweyl The recent SSC/NYT kerfuffle was an engagement/spotlight that could have been productive for all parties, but instead devolved into a conflict precisely because there wasn't enough trust going in. So my request is that you call for spotlights in ways that don't exacerbate that.
 
@@ -5863,15 +5654,20 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1374354426870308871 · [archived](https://web.archive.org/web/20210323133721/https://twitter.com/RichardMCNgo/status/1374354426870308871)
 
-## 2021-03-23
+## 2021-03-23 · reply to @RichardMCNgo
 
 > There are important criticisms of common tech worldviews, some of which I've made myself. But specificity matters. Early scientists, and early democrats, had radical visions which worked very well. So we should be wary of criticisms that rule out similar advances happening today.
 
 https://x.com/RichardMCNgo/status/1374312970973495296 · [archived](https://web.archive.org/web/20210323105216/https://twitter.com/RichardMCNgo/status/1374312970973495296)
 
-## 2021-03-22
+## 2021-03-22 · reply to @imperialauditor
 
 > @imperialauditor @ESYudkowsky See this thread for highlights, and the linked blog post for more detail: https://t.co/AkvqchVtYQ
+
+Quoting https://x.com/RichardMCNgo/status/1330572546417303553:
+> I just wrote two blog posts on fiction and nonfiction that has influenced me. It was surprisingly difficult, but I think very productive. Keen to hear what lessons or worldview shifts other people credit to specific books!
+> https://t.co/zFRcznlxGE
+> https://t.co/CyUoNfQUhe
 
 https://x.com/RichardMCNgo/status/1374049189022330888 · [archived](https://web.archive.org/web/20210322172404/https://twitter.com/RichardMCNgo/status/1374049189022330888)
 
@@ -5881,7 +5677,7 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1373988638346907650 · [archived](https://web.archive.org/web/20210322132936/https://twitter.com/RichardMCNgo/status/1373988638346907650)
 
-## 2021-03-20
+## 2021-03-20 · reply to @imperialauditor
 
 > @imperialauditor @ESYudkowsky Shards of Honor, Warrior's Apprentice, Vor Game, Brothers in Arms, and Borders of Infinity. And just read Barrayar after previous tweet.
 > 
@@ -5895,7 +5691,7 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1371808602470682625 · [archived](https://web.archive.org/web/20210316130053/https://twitter.com/RichardMCNgo/status/1371808602470682625)
 
-## 2021-03-09
+## 2021-03-09 · reply to @natolambert
 
 > @natolambert In this case it's poetic license, but I assume pretraining on real-world data will eventually give simulated agents many concepts.
 > 
@@ -5915,7 +5711,7 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1369068776327684098 · [archived](https://web.archive.org/web/20210308233340/https://twitter.com/RichardMCNgo/status/1369068776327684098)
 
-## 2021-03-05
+## 2021-03-05 · reply to @michael_nielsen
 
 > @michael_nielsen I'd bet on the external view, both because interpretability is hard, and because this doesn't seem like the type of problem where success is based on a few simple principles.
 > 
@@ -5929,40 +5725,19 @@ https://x.com/RichardMCNgo/status/1367938972220063745 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1367775370745966593 · [archived](https://web.archive.org/web/20210305095431/https://twitter.com/RichardMCNgo/status/1367775370745966593)
 
-## 2021-02-25
-
-> Big News!
-> 
-> I'm thrilled to be joining the Computational and Biological Learning Lab (CBL) at Cambridge this fall as a Lecturer (tenure track faculty)!
-> 
-> I plan to focus on Deep Learning and AI Alignment.
-> 
-> I'm recruiting PhD students to start as soon as this fall. https://t.co/1Ykyk3W7cP
-
-https://x.com/RichardMCNgo/status/1365035999240351744 · [archived](https://web.archive.org/web/20210225202858/https://twitter.com/RichardMCNgo/status/1365035999240351744)
-
-## 2021-02-22
-
-> Finally published my long-overdue third piece on TikTok, "American Idle."
-> 
-> It's about the network effects of creativity, as promised, but also includes a bunch of other thoughts on TikTok as a product and an experience.
-> https://t.co/sJ58HNwP1M
-
-https://x.com/RichardMCNgo/status/1363813395267538945 · [archived](https://web.archive.org/web/20210222113111/https://twitter.com/RichardMCNgo/status/1363813395267538945)
-
 ## 2021-02-21
 
 > It's fascinating how mammals keep independently evolving back to aquatic lifestyles. https://t.co/oJyrJ0urZp
 
 https://x.com/RichardMCNgo/status/1363598439808966659 · [archived](https://web.archive.org/web/20210221211623/https://twitter.com/RichardMCNgo/status/1363598439808966659)
 
-## 2021-02-18
+## 2021-02-18 · reply to @olivertraldi
 
 > @olivertraldi @MetaHumean @mattyglesias Housing policy comes pretty close!
 
 https://x.com/RichardMCNgo/status/1362369962418069504 · [archived](https://web.archive.org/web/20210218115526/https://twitter.com/RichardMCNgo/status/1362369962418069504)
 
-## 2021-02-18
+## 2021-02-18 · reply to @mmenegali
 
 > @mmenegali I think the bathroom permission thing *does* happen in many low-wage jobs. 
 > 
@@ -6005,12 +5780,6 @@ https://x.com/RichardMCNgo/status/1362311734686580736 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1362305700261752837 · [archived](https://web.archive.org/web/20210218073944/https://twitter.com/RichardMCNgo/status/1362305700261752837)
 
-## 2021-02-17
-
-> At Policy Exchange today we offer a new way of tackling the housing crisis. By giving local residents control, and a large share in the upside, we can build beautiful, sustainable, and walkable new houses where they are most needed https://t.co/3QgLdkWEjo https://t.co/xsC7hNwnr8
-
-https://x.com/RichardMCNgo/status/1362016014351876098 · [archived](https://web.archive.org/web/20210217122835/https://twitter.com/RichardMCNgo/status/1362016014351876098)
-
 ## 2021-02-16
 
 > An interesting coincidence: the (rounded) populations of China, India, and Africa are all currently 1.4 billion.
@@ -6019,7 +5788,7 @@ https://x.com/RichardMCNgo/status/1362016014351876098 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1361723656091615236 · [archived](https://web.archive.org/web/20210216170645/https://twitter.com/RichardMCNgo/status/1361723656091615236)
 
-## 2021-02-16
+## 2021-02-16 · reply to @RichardMCNgo
 
 > For each group, exercising their own type of power seems ordinary and banal.
 > 
@@ -6027,9 +5796,12 @@ https://x.com/RichardMCNgo/status/1361723656091615236 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1361709968781639685 · [archived](https://web.archive.org/web/20210216161222/https://twitter.com/RichardMCNgo/status/1361709968781639685)
 
-## 2021-02-15
+## 2021-02-15 · reply to @glenweyl
 
 > @glenweyl @slatestarcodex Very much agreed! I have been described as running a "crusade for legibility in arguments for AI risk" (see https://t.co/W2uE9wuSad). Though it's hard to know how much to focus on internal vs external legibility (especially in a movement's early stages).
+
+Quoting https://x.com/RichardMCNgo/status/1319008793649418241:
+> For a while now I've been dissatisfied with existing explanations of why AGI might be dangerous. So I wrote a report laying out the core claims. It's very opinionated, so others in the field may disagree, but I think it adds clarity on this crucial topic. https://t.co/y2L0uyQ8rU
 
 https://x.com/RichardMCNgo/status/1361432627492892676 · [archived](https://web.archive.org/web/20210215215020/https://twitter.com/RichardMCNgo/status/1361432627492892676)
 
@@ -6064,7 +5836,7 @@ https://x.com/RichardMCNgo/status/1360848942532096000 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1358200244920594435 · [archived](https://web.archive.org/web/20210206234559/https://twitter.com/RichardMCNgo/status/1358200244920594435)
 
-## 2021-02-06
+## 2021-02-06 · reply to @struxai
 
 > @aifazza Oh, interesting! Source?
 > 
@@ -6078,19 +5850,19 @@ https://x.com/RichardMCNgo/status/1358191509112311813 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1355712845346955264 · [archived](https://web.archive.org/web/20210131030203/https://twitter.com/RichardMCNgo/status/1355712845346955264)
 
-## 2021-01-30
+## 2021-01-30 · reply to @RadaNotSay
 
 > @RadaNotSay @BenWilinofsky No worries! I have a bunch more, but I feel like I should ask for consent before sending them to you...
 
 https://x.com/RichardMCNgo/status/1355444608612892673 · [archived](https://web.archive.org/web/20210130091609/https://twitter.com/RichardMCNgo/status/1355444608612892673)
 
-## 2021-01-26
+## 2021-01-26 · reply to @NPCollapse
 
 > @NPCollapse Thanks! Yes, this is all conditioned on AIs remaining under control, and somewhat sensible governance policies.
 
 https://x.com/RichardMCNgo/status/1354179314858786816 · [archived](https://web.archive.org/web/20210126222601/https://twitter.com/RichardMCNgo/status/1354179314858786816)
 
-## 2021-01-25
+## 2021-01-25 · reply to @lordcataplanga
 
 > @lordcataplanga @RichDecibels @douglas80_phil +1 on this, it seems like pitching a 5x markup, then donating the excess, is a better strategy than outright rejection.
 > 
@@ -6098,7 +5870,7 @@ https://x.com/RichardMCNgo/status/1354179314858786816 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1353718603049263104 · [archived](https://web.archive.org/web/20210125145811/https://twitter.com/RichardMCNgo/status/1353718603049263104)
 
-## 2021-01-25
+## 2021-01-25 · reply to @RichardMCNgo
 
 > @robbensinger And in both cases the results were the brainchildren of single thinkers to a much greater extent than is usual in science. (Compare, for example, the collaboration involved in quantum mechanics or nuclear physics.)
 
@@ -6119,7 +5891,7 @@ https://x.com/RichardMCNgo/status/1353530835136344064 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1353441920060682241 · [archived](https://web.archive.org/web/20210124203815/https://twitter.com/RichardMCNgo/status/1353441920060682241)
 
-## 2021-01-24
+## 2021-01-24 · reply to @LinchZhang
 
 > @LinchZhang @benskuhn You're not *wrong*, it's just very convenient that you apply this reasoning only to the outgroup. Scott turned a routine NYT profile into loads of money and endorsements, without preserving his privacy; is this strong evidence that his anti-doxxing stance is motivated ignorance?
 
@@ -6132,34 +5904,19 @@ https://x.com/RichardMCNgo/status/1353379901886394378 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1353085359895273473 · [archived](https://web.archive.org/web/20210123210122/https://twitter.com/RichardMCNgo/status/1353085359895273473)
 
-## 2021-01-23
-
-> During the 2016 presidential race, the NYT stumbled into a new business model, entailing a pivot from a journalism of fact to a "post-journalism" of advocacy.  How well did it work?
-> 
-> My latest.
-> https://t.co/TUxTqyCx5v
-
-https://x.com/RichardMCNgo/status/1352997052146454528 · [archived](https://web.archive.org/web/20210123151151/https://twitter.com/RichardMCNgo/status/1352997052146454528)
-
-## 2021-01-22
-
-> There is a notion that the brain is a "prediction machine", but I think it may be better considered a "surprise detector", which is subtly different -- prediction involves an entire distribution, while surprise is an evaluation of a concrete instance.
-
-https://x.com/RichardMCNgo/status/1352615151753637889 · [archived](https://web.archive.org/web/20210122135507/https://twitter.com/RichardMCNgo/status/1352615151753637889)
-
-## 2021-01-22
+## 2021-01-22 · reply to @LongTran02
 
 > @LongTran02 This is not a reasonable principle. The *whole point* of investigative journalism is to publish things people don't want you to. The question is about whether this is in the public interest.
 
 https://x.com/RichardMCNgo/status/1352613369942069251 · [archived](https://web.archive.org/web/20210122134605/https://twitter.com/RichardMCNgo/status/1352613369942069251)
 
-## 2021-01-20
+## 2021-01-20 · reply to @miguelisolano
 
 > @MiguelISolano @DavidDeutschOxf I'm afraid I'm blissfully ignorant of PAC learning. But I don't think Deutsch gives enough detail for there to be anything more than a superficial resemblance. Maybe Popper does.
 
 https://x.com/RichardMCNgo/status/1351934502067724290 · [archived](https://web.archive.org/web/20210120164810/https://twitter.com/RichardMCNgo/status/1351934502067724290)
 
-## 2021-01-20
+## 2021-01-20 · reply to @RichardMCNgo
 
 > @Podge_G For induction, a weaker version is: the assumption that the laws of physics will not suddenly change.
 > 
@@ -6179,7 +5936,7 @@ https://x.com/RichardMCNgo/status/1351896991530442755 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1351894388050436097 · [archived](https://web.archive.org/web/20210120140856/https://twitter.com/RichardMCNgo/status/1351894388050436097)
 
-## 2021-01-20
+## 2021-01-20 · reply to @RichardMCNgo
 
 > @ESYudkowsky I actually think that the spirit of this idea is very closely aligned with the Sequences: you linked many deep ideas together under an overarching framework. Your notion of optimisation which includes humans, AIs and evolution is the type of unification Deutsch endorses, IMO.
 
@@ -6205,7 +5962,7 @@ https://x.com/RichardMCNgo/status/1350656839998910469 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1350616497857687559 · [archived](https://web.archive.org/web/20210117013056/https://twitter.com/RichardMCNgo/status/1350616497857687559)
 
-## 2021-01-14
+## 2021-01-14 · reply to @LinchZhang
 
 > @LinchZhang Curing disease adds, say, 5-10 years in expectation, personally? I'd prefer being widely respected, pushing humanity forward, etc. (But worth it if you heal many others.)
 > 
@@ -6213,13 +5970,13 @@ https://x.com/RichardMCNgo/status/1350616497857687559 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1349715592845078529 · [archived](https://web.archive.org/web/20210114135250/https://twitter.com/RichardMCNgo/status/1349715592845078529)
 
-## 2021-01-11
+## 2021-01-11 · reply to @RichardMCNgo
 
 > @tmkadamcz @andrewpei @arram (Assuming they have the power to do so; I don't know which of the laws are set at which level.)
 
 https://x.com/RichardMCNgo/status/1348477942825889795 · [archived](https://web.archive.org/web/20210112033344/https://twitter.com/RichardMCNgo/status/1348477942825889795)
 
-## 2021-01-11
+## 2021-01-11 · reply to @andrewpei
 
 > @andrewpei @arram @tmkadamcz This just pushes back the problem. If you own property in what could be a new downtown area, then you have strong financial incentives to lobby for more development there.
 > 
@@ -6227,7 +5984,7 @@ https://x.com/RichardMCNgo/status/1348477942825889795 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1348419686644523008 · [archived](https://web.archive.org/web/20210111153852/https://twitter.com/RichardMCNgo/status/1348419686644523008)
 
-## 2021-01-09
+## 2021-01-09 · reply to @ESYudkowsky
 
 > @ESYudkowsky My guess is that resigning allows a story to be constructed later that survives one round of scrutiny, which is sufficient. I.e. no future employer actually cares if they resigned or not, but now that employer can say "oh, they were one of those who resigned" if anyone objects.
 
@@ -6260,7 +6017,7 @@ Quoting https://x.com/EpistemicHope/status/1346312512405295105:
 
 https://x.com/RichardMCNgo/status/1346753464097976320 · [archived](https://web.archive.org/web/20210106094051/https://twitter.com/RichardMCNgo/status/1346753464097976320)
 
-## 2021-01-05
+## 2021-01-05 · reply to @xuenay
 
 > @xuenay The mechanisms by which we learn language during childhood vs adulthood seem pretty distinct.
 > 
@@ -6363,13 +6120,13 @@ https://x.com/RichardMCNgo/status/1338514601957318660 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1338133563183599625 · [archived](https://web.archive.org/web/20201213145015/https://twitter.com/RichardMCNgo/status/1338133563183599625)
 
-## 2020-12-11
+## 2020-12-11 · reply to @dhadfieldmenell
 
 > @dhadfieldmenell There's a difference between using efficient optimisation to train an AI, and an AI that itself does efficient optimisation (for large-scale goals). The core safety concern is that the former might lead to the latter, and this is dangerous. ML researchers usually disagree.
 
 https://x.com/RichardMCNgo/status/1337540613378551809 · [archived](https://web.archive.org/web/20201211233206/https://twitter.com/RichardMCNgo/status/1337540613378551809)
 
-## 2020-12-11
+## 2020-12-11 · reply to @dhadfieldmenell
 
 > @dhadfieldmenell I don't think of it like that. To me the core AI safety claims are about the space of possible minds accessible via ML techniques. If ML researchers believed these claims, then they would work on making safety techniques more efficient/performant, which would be great.
 
@@ -6414,7 +6171,7 @@ https://x.com/RichardMCNgo/status/1337021602563846144 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1336350402409885696 · [archived](https://web.archive.org/web/20201208165054/https://twitter.com/RichardMCNgo/status/1336350402409885696)
 
-## 2020-12-08
+## 2020-12-08 · reply to @RichardMCNgo
 
 > @j_erhardt This isn't radical skepticism though, we can use reason and empiricism to make iterative improvements. But it's a long slow process. So I don't think we can treat utilitarian reasoning as the overarching determinant of what to do when, except in very vague terms.
 
@@ -6434,7 +6191,7 @@ https://x.com/RichardMCNgo/status/1336294366814613509 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1336288165460635648 · [archived](https://web.archive.org/web/20201208123632/https://twitter.com/RichardMCNgo/status/1336288165460635648)
 
-## 2020-12-06
+## 2020-12-06 · reply to @bayesianboy
 
 > @bayesianboy Yepp, that makes sense. The specific thing I'm wondering is which (useful) definitions of computation include computers and exclude human brains? Because I tend to think of Turing-completeness as one of the strongest definitions.
 
@@ -6486,7 +6243,7 @@ https://x.com/RichardMCNgo/status/1335351446095671306 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1335333733323444232 · [archived](https://web.archive.org/web/20201205225706/https://twitter.com/RichardMCNgo/status/1335333733323444232)
 
-## 2020-12-05
+## 2020-12-05 · reply to @tyler_m_john
 
 > @tyler_m_john Wait, this seems right? The metaphor has been super useful. Additionally, you might make stronger claims about the brain actually being a computer, but this is more involved.
 
@@ -6520,7 +6277,7 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1334119750763503620 · [archived](https://web.archive.org/web/20201202130401/https://twitter.com/RichardMCNgo/status/1334119750763503620)
 
-## 2020-12-02
+## 2020-12-02 · reply to @mensmachina
 
 > @mensmachina I have gotten good at distracting myself. I don't think there's much other strategy apart from that, which maybe means I need to work on it.
 
@@ -6564,12 +6321,6 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1333815904564617216 · [archived](https://web.archive.org/web/20201201165308/https://twitter.com/RichardMCNgo/status/1333815904564617216)
 
-## 2020-12-01
-
-> 👀How do you get people to listen to experts? Non-experts often think they know best, but this experiment shows that if you first ask them to explain how something works (“how does trade with China hurt the US?”) it causes self-doubt &amp; makes them actually pay attention to experts https://t.co/u74LBt508b
-
-https://x.com/RichardMCNgo/status/1333578477656793089 · [archived](https://web.archive.org/web/20201201012506/https://twitter.com/RichardMCNgo/status/1333578477656793089)
-
 ## 2020-11-30 · possibly deleted
 
 > The concept of being a time billionaire is truly profound.
@@ -6586,25 +6337,11 @@ https://x.com/RichardMCNgo/status/1333492114911596546 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1333472053698187265 · [archived](https://web.archive.org/web/20201130182208/https://twitter.com/RichardMCNgo/status/1333472053698187265)
 
-## 2020-11-30
-
-> I believe that a person’s ability to speak accurately about how aliens might plausibly differ from humanity is a profound reflection of their understanding of reality.
-> 
-> If we ever hang out at a party I’m always game to discuss this.
-
-https://x.com/RichardMCNgo/status/1333455457864867840 · [archived](https://web.archive.org/web/20201130171118/https://twitter.com/RichardMCNgo/status/1333455457864867840)
-
 ## 2020-11-29 · reply to @RichardMCNgo
 
 > Haha, and the next step in making founders seem "less daunting": an interview with Woz! His opening line: "Even back in high school I knew I could design computers with half as many chips as the companies were selling them with." Relatable or what?
 
 https://x.com/RichardMCNgo/status/1333049977300512774 · [archived](https://web.archive.org/web/20201129141411/https://twitter.com/RichardMCNgo/status/1333049977300512774)
-
-## 2020-11-28
-
-> I am curious why people are not talking more about the OpenAI scaling law papers. For me, they seem very significant. What I heard so far: "Too complicated. I don't understand and I don't care", "NLP is not physics". Other criticism? Any insights why people ignore it?
-
-https://x.com/RichardMCNgo/status/1332823784227737602 · [archived](https://web.archive.org/web/20201128231008/https://twitter.com/RichardMCNgo/status/1332823784227737602)
 
 ## 2020-11-28 · possibly deleted
 
@@ -6612,7 +6349,7 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1332752305515589640 · [archived](https://web.archive.org/web/20201128184009/https://twitter.com/RichardMCNgo/status/1332752305515589640)
 
-## 2020-11-25
+## 2020-11-25 · reply to @vincentweisser
 
 > @vincentweisser @MichaelTrazzi @willmacaskill @DKokotajlo @bmgarfinkel @ARGleave Probably too much of a hassle since I'd need to ask a bunch more people for permission.
 > 
@@ -6639,7 +6376,7 @@ https://x.com/RichardMCNgo/status/1331288484225699848 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1331228289067855872 · [archived](https://web.archive.org/web/20201124133803/https://twitter.com/RichardMCNgo/status/1331228289067855872)
 
-## 2020-11-23
+## 2020-11-23 · reply to @tmkadamcz
 
 > @tmkadamcz @arpitrage Seems like easy monetisation is pretty crucial. And part of easy monetisation is convincing people that this is the type of thing that it's normal/sensible to pay for.
 > 
@@ -6647,13 +6384,13 @@ https://x.com/RichardMCNgo/status/1331228289067855872 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1330961670454333442 · [archived](https://web.archive.org/web/20201123200031/https://twitter.com/RichardMCNgo/status/1330961670454333442)
 
-## 2020-11-23
+## 2020-11-23 · reply to @BlueRepublik
 
 > @BlueRepublik @NealBruceBC Makes sense. I'm thinking that after Re5 something like Rc6 c6 Qc6 might not leave white too unhappy? But it does seem worse than your alternative.
 
 https://x.com/RichardMCNgo/status/1330681114760011776 · [archived](https://web.archive.org/web/20201123011522/https://twitter.com/RichardMCNgo/status/1330681114760011776)
 
-## 2020-11-22
+## 2020-11-22 · reply to @virgil_30
 
 > @virgil_30 Aha, okay, I'm totally on board with this. I remember Bobby's severe lack of redeeming or even distinctive features.
 > 
@@ -6671,14 +6408,6 @@ https://x.com/RichardMCNgo/status/1330599264897142785 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1330572550305353733 · [archived](https://web.archive.org/web/20201122182131/https://twitter.com/RichardMCNgo/status/1330572550305353733)
 
-## 2020-11-21
-
-> 1/ Why did Wikipedia succeed when 7 similar online encyclopedia projects (mostly started around the same time) all failed? This cool paper investigates and gives surprising answers...
-> 
-> https://t.co/cLb4o6W70W https://t.co/ABISvLdCq9
-
-https://x.com/RichardMCNgo/status/1329980679736553472 · [archived](https://web.archive.org/web/20201121030447/https://twitter.com/RichardMCNgo/status/1329980679736553472)
-
 ## 2020-11-20 · possibly deleted
 
 > If you think something like Facebook or Tesla is the most important company started in our lifetimes, you're missing the obvious answer.
@@ -6686,7 +6415,7 @@ https://x.com/RichardMCNgo/status/1329980679736553472 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1329818699461775360 · [archived](https://web.archive.org/web/20201120173714/https://twitter.com/RichardMCNgo/status/1329818699461775360)
 
-## 2020-11-18
+## 2020-11-18 · reply to @Kirsten3531
 
 > @Kirsten3531 How do you feel about being physically repulsed by women prioritising their children over their work?
 
@@ -6698,7 +6427,7 @@ https://x.com/RichardMCNgo/status/1328860687205101569 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1328790944016191490 · [archived](https://web.archive.org/web/20201117200439/https://twitter.com/RichardMCNgo/status/1328790944016191490)
 
-## 2020-11-17
+## 2020-11-17 · reply to @RichardMCNgo
 
 > Oh, and I haven't even started investigating inclusive fitness, but that promises to be even messier. How on earth can we even define an individual's influence on a whole gene pool? Fortunately there's no analogy in ML (unless it seems a good way to promote AI altruism, perhaps?)
 
@@ -6710,7 +6439,7 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1328498311494561798 · [archived](https://web.archive.org/web/20201117004938/https://twitter.com/RichardMCNgo/status/1328498311494561798)
 
-## 2020-11-16
+## 2020-11-16 · reply to @RichardMCNgo
 
 > @AdamOgrok @mechanicalmonk1 E.g. when you notice a tree, and you notice yourself consciously noticing a tree, that doesn't mean you can notice your subconscious reacting to you noticing the tree by pattern-matching to trees you've seen in the past.
 
@@ -6722,13 +6451,13 @@ https://x.com/RichardMCNgo/status/1328425906872995843 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1328425524457320451 · [archived](https://web.archive.org/web/20201116202235/https://twitter.com/RichardMCNgo/status/1328425524457320451)
 
-## 2020-11-16
+## 2020-11-16 · reply to @mechanical_monk
 
 > @mechanicalmonk1 Hmm, I don't think you need a capital-S self for "free will". You just need it to be the case that conscious judgements about what is a good idea frequently inform/influence the mess of subconscious motivations. It doesn't need to alwyas be an overriding influence.
 
 https://x.com/RichardMCNgo/status/1328424053389062149 · [archived](https://web.archive.org/web/20201116195109/https://twitter.com/RichardMCNgo/status/1328424053389062149)
 
-## 2020-11-16
+## 2020-11-16 · reply to @mechanical_monk
 
 > @mechanicalmonk1 When do you think consciousness *isn't* just a mere observant?
 > 
@@ -6736,7 +6465,7 @@ https://x.com/RichardMCNgo/status/1328424053389062149 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1328420779126632449 · [archived](https://web.archive.org/web/20201116220232/https://twitter.com/RichardMCNgo/status/1328420779126632449)
 
-## 2020-11-16
+## 2020-11-16 · reply to @mechanical_monk
 
 > @mechanicalmonk1 I think you're conflating short-term and long-term conscious control. Maybe for the next 10 seconds most of my thoughts pop up from my subconscious. But it's easy for me to consciously ensure that most of my thoughts for the next hour are about e.g. a movie, by going to a cinema.
 
@@ -6749,7 +6478,7 @@ https://x.com/RichardMCNgo/status/1328418740158009344 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1327681901461708800 · [archived](https://web.archive.org/web/20201114184016/https://twitter.com/RichardMCNgo/status/1327681901461708800)
 
-## 2020-11-14
+## 2020-11-14 · reply to @Kirsten3531
 
 > @Kirsten3531 If you think aiming for future opportunities has higher expected value, and you're not very risk-averse about altruistic donations, might be worth treating the foregone $50 as a donation, and donating your extra earnings if it pays off. I.e. doing moral trade internally.
 
@@ -6780,7 +6509,7 @@ https://x.com/RichardMCNgo/status/1325606449372942339 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1323732470693535745 · [archived](https://web.archive.org/web/20201103210320/https://twitter.com/RichardMCNgo/status/1323732470693535745)
 
-## 2020-11-02
+## 2020-11-02 · reply to @mensmachina
 
 > @mensmachina Will do at the end of the month!
 
@@ -6804,7 +6533,7 @@ https://x.com/RichardMCNgo/status/1323077904964739075 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1323017699732181003 · [archived](https://web.archive.org/web/20201101214331/https://twitter.com/RichardMCNgo/status/1323017699732181003)
 
-## 2020-11-01
+## 2020-11-01 · reply to @RichardMCNgo
 
 > Anyway, overall I highly recommend The Alignment Problem; I expect even those knowledgeable about ML to gain new perspectives and ideas from it. I particularly liked the discussions of curiosity, dopamine, amplification, and imitation in chimps, humans and model helicopters.
 
@@ -6828,13 +6557,13 @@ https://x.com/RichardMCNgo/status/1322884809157451777 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1322884807785914368 · [archived](https://web.archive.org/web/20201101125505/https://twitter.com/RichardMCNgo/status/1322884807785914368)
 
-## 2020-10-31
+## 2020-10-31 · reply to @RobertSimmons
 
 > @RobertSimmons @robinhanson If you model millions of voters as each independently having probability p of choosing the best candidate, then the outcome is near-certain unless p is within epsilon of 0.5. So it doesn't help us decide whether to vote. Maybe we should think in terms of a few dozen voting blocs?
 
 https://x.com/RichardMCNgo/status/1322557327543881728 · [archived](https://web.archive.org/web/20201031151426/https://twitter.com/RichardMCNgo/status/1322557327543881728)
 
-## 2020-10-31
+## 2020-10-31 · reply to @Austen
 
 > @Austen That's only FTEs at Google, it's much bigger if you count contractors/temps doing equivalent work to Amazon's new employees.
 
@@ -6898,15 +6627,6 @@ https://x.com/RichardMCNgo/status/1319008793649418241 · [archived](https://web.
 
 ## 2020-10-21
 
-> Here's a bold claim: we have a massive acceleration of biotechnology, but very little of it will make its way over to health. Instead we will get nanotechnology and synthetic biology.
-> Self-regulating systems like the human body are too complex to help exogenously.
-> 
-> Is this true?
-
-https://x.com/RichardMCNgo/status/1318976015872516096 · [archived](https://web.archive.org/web/20201021180302/https://twitter.com/RichardMCNgo/status/1318976015872516096)
-
-## 2020-10-21
-
 > Very enjoyable talk! Especially coming up with an alignment chart of speculation afterwards:
 > - Good vs evil speculation: does it aim to open up scientific exploration or shut it down?
 > - Lawful vs chaotic speculation: is it marked as speculation, or disguised as normal science?
@@ -6916,7 +6636,7 @@ Quoting https://x.com/CamPhilSci/status/1318646695689965571:
 
 https://x.com/RichardMCNgo/status/1318915602531176448 · [archived](https://web.archive.org/web/20201021140516/https://twitter.com/RichardMCNgo/status/1318915602531176448)
 
-## 2020-10-21
+## 2020-10-21 · reply to @kevinakwok
 
 > @kevinakwok Just checking: you mean individuals want heterozygous genes so at least some of their children will survive a big change?
 
@@ -6941,13 +6661,7 @@ https://x.com/RichardMCNgo/status/1317208343895736323 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1317155636954779648 · [archived](https://web.archive.org/web/20201016172922/https://twitter.com/RichardMCNgo/status/1317155636954779648)
 
-## 2020-10-15
-
-> 1/ Thread: Should there be professional, independent scientific fraud detectives? In the current system, incentives to detect and prosecute fraud are too weak. Suppose a professor is committing fraud by cooking their experimental results... https://t.co/hIGzUeVsZH
-
-https://x.com/RichardMCNgo/status/1316761065955438593 · [archived](https://web.archive.org/web/20201015152807/https://twitter.com/RichardMCNgo/status/1316761065955438593)
-
-## 2020-10-15
+## 2020-10-15 · reply to @mynamelowercase
 
 > @mynamelowercase @daniel_filan If you only want money for personal consumption, your utility is roughly logarithmic in money.
 > 
@@ -6957,13 +6671,13 @@ https://x.com/RichardMCNgo/status/1316761065955438593 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1316707761040896000 · [archived](https://web.archive.org/web/20201015115213/https://twitter.com/RichardMCNgo/status/1316707761040896000)
 
-## 2020-10-15
+## 2020-10-15 · reply to @daniel_filan
 
 > @daniel_filan Hmmm, seems plausible but I'm still uncertain. Assuming the EMH, if I pick 10 random stocks and put all my money into them, how could someone get more returns with the same amount of risk?
 
 https://x.com/RichardMCNgo/status/1316678734695600133 · [archived](https://web.archive.org/web/20201015095440/https://twitter.com/RichardMCNgo/status/1316678734695600133)
 
-## 2020-10-14
+## 2020-10-14 · reply to @daniel_filan
 
 > @daniel_filan But altruists have more appetite for risk. So we should be significantly less diversified than everyone else.
 
@@ -6981,7 +6695,7 @@ https://x.com/RichardMCNgo/status/1316134712637784064 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1315703690964217858 · [archived](https://web.archive.org/web/20201012172133/https://twitter.com/RichardMCNgo/status/1315703690964217858)
 
-## 2020-10-12
+## 2020-10-12 · reply to @RichardMCNgo
 
 > That world probably has much better rockets, abundant energy, and much less poverty. Which are all great! But those aren't the changes which I expect to launch us towards a truly glorious future. It's the difference between scaling up humanity, versus fundamentally improving it.
 
@@ -6993,7 +6707,7 @@ https://x.com/RichardMCNgo/status/1315664667080036352 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1315661503522013184 · [archived](https://web.archive.org/web/20201012143236/https://twitter.com/RichardMCNgo/status/1315661503522013184)
 
-## 2020-10-08
+## 2020-10-08 · reply to @BartuKaleagasi
 
 > @BartuKaleagasi There are lots of policies with large economic benefits which governments don't do, especially when it involves large up-front investments that pay off in nebulous long-term ways.
 > 
@@ -7029,7 +6743,7 @@ https://x.com/RichardMCNgo/status/1311591102747738118 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1311248074363281408 · [archived](https://web.archive.org/web/20200930143259/https://twitter.com/RichardMCNgo/status/1311248074363281408)
 
-## 2020-09-27
+## 2020-09-27 · reply to @juliankohtx
 
 > @juliankoh Actually, 14 year olds can use AWS: https://t.co/BclFnYCtdY
 > 
@@ -7043,7 +6757,7 @@ https://x.com/RichardMCNgo/status/1310243082701545472 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1310233081761198083 · [archived](https://web.archive.org/web/20200927181542/https://twitter.com/RichardMCNgo/status/1310233081761198083)
 
-## 2020-09-27
+## 2020-09-27 · reply to @xuenay
 
 > @xuenay I expect that "able to develop trust in each other" is a fairly low bar, and that the main thing that prevents it in our circles is lack of commitment, because you're both worried that you could find someone better or "more compatible".
 
@@ -7127,7 +6841,7 @@ https://x.com/RichardMCNgo/status/1304003259305267200 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1303645562898702336 · [archived](https://web.archive.org/web/20200909104528/https://twitter.com/RichardMCNgo/status/1303645562898702336)
 
-## 2020-09-09
+## 2020-09-09 · reply to @j_erhardt
 
 > @j_erhardt Yeah, I'm assuming anti-realism. For me incoherent intuitions are good evidence against moral realism (though I'm more sympathetic to it than I used to be).
 > 
@@ -7195,13 +6909,13 @@ https://x.com/RichardMCNgo/status/1301428831350333440 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1300357274167320577 · [archived](https://web.archive.org/web/20200831085842/https://twitter.com/RichardMCNgo/status/1300357274167320577)
 
-## 2020-08-30
+## 2020-08-30 · reply to @Kirsten3531
 
 > @Kirsten3531 Dammit. It's Monday here in Greece, so I thought I'd be safe..
 
 https://x.com/RichardMCNgo/status/1300197781236322305 · [archived](https://web.archive.org/web/20200830222538/https://twitter.com/RichardMCNgo/status/1300197781236322305)
 
-## 2020-08-28
+## 2020-08-28 · reply to @Kirsten3531
 
 > @Kirsten3531 Unfollowing as a protest against jubilees. The currency of promises to do exercise must not be debased!
 
@@ -7219,31 +6933,11 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1298285878390001667 · [archived](https://web.archive.org/web/20200825155114/https://twitter.com/RichardMCNgo/status/1298285878390001667)
 
-## 2020-08-24
-
-> I'm hiring for a research assistant to work with me and colleagues at @LeverhulmeCFI and @CSERCambridge! We're a very interdisciplinary group trying to think more clearly about the long-term impacts and risks of AI and what we can do about them today (1/n)
-
-Quoting https://x.com/LeverhulmeCFI/status/1295745732142661633:
-> JOB: Research Assistant (PT) working with @jesswhittles at @LeverhulmeCFI  More info and how to apply here https://t.co/rFO54Y7Sz9 https://t.co/iMrsOCbzSc
-
-https://x.com/RichardMCNgo/status/1297923441811763206 · [archived](https://web.archive.org/web/20200824160324/https://twitter.com/RichardMCNgo/status/1297923441811763206)
-
 ## 2020-08-23 · possibly deleted
 
 _(text not available)_
 
 https://x.com/RichardMCNgo/status/1297499524190134273 · [archived](https://web.archive.org/web/20200823114339/https://twitter.com/RichardMCNgo/status/1297499524190134273)
-
-## 2020-08-23
-
-> Thinking about my thread this morning on why independent research is hard, and what it would take to make it possible, and whether it’s within the reach of private investors who ALL complain endlessly about how they have far too much capital and don’t know where to put it.
-
-Quoting https://x.com/vgr/status/1195789557465153536:
-> I was briefly calling myself an independent researcher: somebody who self-funds spec R&amp;D on their own ideas. In theory it’s something like indie-research : academic research :: blogging/self-publishing : traditional publishing.
-> 
-> But the idea doesn’t really work.
-
-https://x.com/RichardMCNgo/status/1297474213419405313 · [archived](https://web.archive.org/web/20200823100312/https://twitter.com/RichardMCNgo/status/1297474213419405313)
 
 ## 2020-08-23 · possibly deleted
 
@@ -7286,32 +6980,13 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1294916010445684736 · [archived](https://web.archive.org/web/20200816083925/https://twitter.com/RichardMCNgo/status/1294916010445684736)
 
-## 2020-08-14
-
-> My wtf wikipedia find of the day: Sokushinbutsu, where buddhists slowly mummify themselves alive https://t.co/e873d6jl8k
-
-https://x.com/RichardMCNgo/status/1294160758763401218 · [archived](https://web.archive.org/web/20200814064631/https://twitter.com/RichardMCNgo/status/1294160758763401218)
-
 ## 2020-08-13 · possibly deleted
 
 _(text not available)_
 
 https://x.com/RichardMCNgo/status/1293920566521536513 · [archived](https://web.archive.org/web/20200813145208/https://twitter.com/RichardMCNgo/status/1293920566521536513)
 
-## 2020-08-13
-
-> I did a 10 wk course on integrity (yep, I know) and the biggest take away was how much we all undervalue our words. 
-> 
-> We make light promises, to others and ourselves, and don't keep them. We talk with no intentionally, as if words mean nothing.
-> 
-> Our word loses all its power
-
-Quoting https://x.com/visakanv/status/1293265193825312768:
-> someone once said something like "I like how visa says he's going to do something, then immediately does it". it's actually an ADHD coping mechanism. if you ask my friends from my teenage days, they'll tell you I was unreliable, full of shit and you couldn't trust anything I said
-
-https://x.com/RichardMCNgo/status/1293872254506479616 · [archived](https://web.archive.org/web/20200813113128/https://twitter.com/RichardMCNgo/status/1293872254506479616)
-
-## 2020-08-12
+## 2020-08-12 · reply to @arram
 
 > @arram You think it's not fully explained by diminishing marginal utility of money? Suppose equity is 50% likely to cash out - how much do you think rational people would want to match a guaranteed $300k?
 > 
@@ -7355,32 +7030,11 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1293086529917726720 · [archived](https://web.archive.org/web/20200811072737/https://twitter.com/RichardMCNgo/status/1293086529917726720)
 
-## 2020-08-09
-
-> This likening of the American government to Xi's China is insane in precisely the same way that the likening of the American Left to Mao's China is insane.
-
-Quoting https://x.com/conor64/status/1291879634217259008:
-> This wins the prize for false equivalence of the decade. https://t.co/vwsmpJBZG9
-
-https://x.com/RichardMCNgo/status/1292356801053294593 · [archived](https://web.archive.org/web/20200809070749/https://twitter.com/RichardMCNgo/status/1292356801053294593)
-
 ## 2020-08-06 · possibly deleted
 
 _(text not available)_
 
 https://x.com/RichardMCNgo/status/1291358326333353985 · [archived](https://web.archive.org/web/20200806130053/https://twitter.com/RichardMCNgo/status/1291358326333353985)
-
-## 2020-08-06
-
-> Great satire on the hard problem of consciousness and consciousness science https://t.co/q04iVILQra that, like all good satire, raises some important points
-
-https://x.com/RichardMCNgo/status/1291350848984035329 · [archived](https://web.archive.org/web/20200806123035/https://twitter.com/RichardMCNgo/status/1291350848984035329)
-
-## 2020-08-06
-
-> The US is plausibly less similar to Western Europe than ppl think, and more similar to other Americas countries than ppl think, whether positive (birthright citizenship, multi-generational assimilation), negative (homicide rates, police killings) or neutral (governance details)
-
-https://x.com/RichardMCNgo/status/1291249756765814785 · [archived](https://web.archive.org/web/20200806055906/https://twitter.com/RichardMCNgo/status/1291249756765814785)
 
 ## 2020-08-05 · possibly deleted
 
@@ -7422,7 +7076,7 @@ Quoting https://x.com/RichardMCNgo/status/1264127743748431872:
 
 https://x.com/RichardMCNgo/status/1290277823308091394 · [archived](https://web.archive.org/web/20200803133749/https://twitter.com/RichardMCNgo/status/1290277823308091394)
 
-## 2020-07-31
+## 2020-07-31 · reply to @RichardMCNgo
 
 > To clarify, I mean "run" at comparable speeds to animals, not just sort of ambling. And probably animal extinction would wreak havoc on a lot of plant species, but I'm sure a decent percentage would survive.
 
@@ -7434,11 +7088,14 @@ https://x.com/RichardMCNgo/status/1289281133234933760 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1289280482849431558 · [archived](https://web.archive.org/web/20200731192404/https://twitter.com/RichardMCNgo/status/1289280482849431558)
 
-## 2020-07-31
+## 2020-07-31 · reply to @Kirsten3531
 
 > @Kirsten3531 Yeah, it's a very important argument. OTOH you can also see unnecessary polarisation in action: can't both the founding fathers and the civil rights movement have made important and laudable contributions to democracy?
 > 
 > https://t.co/Y8U4XkvAS7
+
+Quoting https://x.com/bomani_jones/status/1288899541773832195:
+> the point isn't valid. it's indisputable. if you take pride in american democracy, your heroes on that matter weren't the signers of the declaration of independence. https://t.co/nzoawl5A58
 
 https://x.com/RichardMCNgo/status/1289220323959664640 · [archived](https://web.archive.org/web/20200731153511/https://twitter.com/RichardMCNgo/status/1289220323959664640)
 
@@ -7477,7 +7134,7 @@ Quoting https://x.com/parul_sehgal/status/1280876962173652992:
 
 https://x.com/RichardMCNgo/status/1286718785337143297 · [archived](https://web.archive.org/web/20200724211553/https://twitter.com/RichardMCNgo/status/1286718785337143297)
 
-## 2020-07-23
+## 2020-07-23 · reply to @kipperrii
 
 > @kipperrii +1 for this type of honest reflection. It's very rare. Overall, though, I think the value of challenging common narratives is high enough that you shouldn't worry about adverse selection (unless you're posting it somewhere very niche).
 
@@ -7492,13 +7149,7 @@ Quoting https://x.com/RichardMCNgo/status/1285685967387533312:
 
 https://x.com/RichardMCNgo/status/1285891047625719808 · [archived](https://web.archive.org/web/20200723074350/https://twitter.com/RichardMCNgo/status/1285891047625719808)
 
-## 2020-07-21
-
-> I perceive opinions on twitter increasingly from an ecological perspective. If an opinion is possible, it will find someone to champion it. If it aligns with opinion having incentives, it's going to be abundant. I mostly don't think: oh, you're wrong! but ah, there you are!
-
-https://x.com/RichardMCNgo/status/1285692166921166849 · [archived](https://web.archive.org/web/20200724053335/https://twitter.com/RichardMCNgo/status/1285692166921166849)
-
-## 2020-07-21
+## 2020-07-21 · reply to @RichardMCNgo
 
 > Of course, the easiest such narratives involve a common enemy, and can be badly misused. But they don't have to. Pride in shared values can be a powerful unifying force, even if it feels odd in a culturally relativist world. We should encourage people to express that.
 
@@ -7510,7 +7161,7 @@ https://x.com/RichardMCNgo/status/1285685969161682945 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1285685965848301568 · [archived](https://web.archive.org/web/20200722012037/https://twitter.com/RichardMCNgo/status/1285685965848301568)
 
-## 2020-07-19
+## 2020-07-19 · reply to @RichardMCNgo
 
 > Or consider the continuum between a physicist talking about special relativity, vs a layperson who can't distinguish it from general relativity, vs someone who can't distinguish it from Newton's laws, vs a child saying those words without knowing what a scientific theory is.
 
@@ -7546,7 +7197,7 @@ https://x.com/RichardMCNgo/status/1282666312641191937 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1282664188054253569 · [archived](https://web.archive.org/web/20200713135238/https://twitter.com/RichardMCNgo/status/1282664188054253569)
 
-## 2020-07-13
+## 2020-07-13 · reply to @michaelcurzi
 
 > @michaelcurzi @nosilverv @mattgoldenberg @Malcolm_Ocean The shift to longtermism accentuates this, since it's much harder to contribute to than other causes. E.g. people are realising how much we don't know re things like AI safety, but don't know how to fix that.
 > 
@@ -7579,7 +7230,7 @@ https://x.com/RichardMCNgo/status/1282575314900721664 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1282572174293901313 · [archived](https://web.archive.org/web/20200713070817/https://twitter.com/RichardMCNgo/status/1282572174293901313)
 
-## 2020-07-13
+## 2020-07-13 · reply to @alexandrosM
 
 > @alexandrosM Right, but in many cases it's not *us* who does that strategic analysis, but *evolution*. E.g. if evolution notices that committing to extremely cruel punishments prevents others defecting against you, then it'll build that psychological disposition into some, who I'd call evil.
 
@@ -7639,19 +7290,19 @@ Quoting https://x.com/paulg/status/1281489311259602945:
 
 https://x.com/RichardMCNgo/status/1281508075166412801 · [archived](https://web.archive.org/web/20200710085936/https://twitter.com/RichardMCNgo/status/1281508075166412801)
 
-## 2020-07-09
+## 2020-07-09 · reply to @NikEfimov
 
 > @NikEfimov @yashkaf Lines between mistakes and deliberate dark arts are blurry. If we're not charitable here, we confirm that "the mind-set of logical serenity only obtains as long as their discussions feel safely confined to the realm of what they regard, consciously or otherwise, as sport."
 
 https://x.com/RichardMCNgo/status/1281373108860059648 · [archived](https://web.archive.org/web/20200710000609/https://twitter.com/RichardMCNgo/status/1281373108860059648)
 
-## 2020-07-06
+## 2020-07-06 · reply to @NickParkerPrint
 
 > @NickParkerPrint Those examples seem useful, although I expect space manufacturing to remain too niche to support semiconductor fabs until we're pretty close to postbiological. I'm more objecting to: "Profitable industry in space is the first step to millions of people living in space."
 
 https://x.com/RichardMCNgo/status/1280108606151708673 · [archived](https://web.archive.org/web/20200706122706/https://twitter.com/RichardMCNgo/status/1280108606151708673)
 
-## 2020-07-05
+## 2020-07-05 · reply to @ArtirKel
 
 > @ArtirKel Yeah but have you tried converting mercury to gold? Compare with that, converting potential to kinetic energy is literally child's play :P
 > 
@@ -7680,7 +7331,7 @@ https://x.com/RichardMCNgo/status/1278740559067320321 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1278713291188178944 · [archived](https://web.archive.org/web/20200702170017/https://twitter.com/RichardMCNgo/status/1278713291188178944)
 
-## 2020-07-01
+## 2020-07-01 · reply to @NickParkerPrint
 
 > @NickParkerPrint Wow, this is exactly the sort of answer I was hoping for, but didn't expect anyone to give. So the science-fiction/cyberpunk intellectual tradition, I guess?
 
@@ -7719,12 +7370,6 @@ https://x.com/RichardMCNgo/status/1277281425797021700 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1277263193396609024 · [archived](https://web.archive.org/web/20200628154650/https://twitter.com/RichardMCNgo/status/1277263193396609024)
 
-## 2020-06-28
-
-> For those frustrated with the two-party duopoly let’s fight to make Ranked Choice Voting a reality. The fact is that self-identified independents now outnumber Dems or Republicans. Ranked Choice Voting would make our politics much more dynamic and responsive. @fairvote @lessig
-
-https://x.com/RichardMCNgo/status/1277183655052533762 · [archived](https://web.archive.org/web/20200628102807/https://twitter.com/RichardMCNgo/status/1277183655052533762)
-
 ## 2020-06-27 · possibly deleted
 
 > Some notes on education. I'm absolutely convinced we haven't scratched the surface of what's possible. It'll take a second to explain why, but hopefully will be worthwhile. CC @Austen (you might be interested). Thread 👇 1/12
@@ -7737,13 +7382,13 @@ https://x.com/RichardMCNgo/status/1276980881224318976 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1276974402337415169 · [archived](https://web.archive.org/web/20200627202443/https://twitter.com/RichardMCNgo/status/1276974402337415169)
 
-## 2020-06-26
+## 2020-06-26 · reply to @paulg
 
 > @paulg @Austen Agreed, we should do our best to distinguish hopes vs predictions. I guess I'm curious what hopes you have for ways that the lives of Austen's children or grandchildren could be much better than Austen's own.
 
 https://x.com/RichardMCNgo/status/1276536614399942656 · [archived](https://web.archive.org/web/20200626154243/https://twitter.com/RichardMCNgo/status/1276536614399942656)
 
-## 2020-06-26
+## 2020-06-26 · reply to @RichardMCNgo
 
 > I think the existence of a world lingua franca will slow that drift - but the internet will accelerate it. We should look into preserving records of our culture to explain even the things that seem blindingly obvious to us today.
 
@@ -7755,7 +7400,7 @@ https://x.com/RichardMCNgo/status/1276411941762850816 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1275738944496336902 · [archived](https://web.archive.org/web/20200624104208/https://twitter.com/RichardMCNgo/status/1275738944496336902)
 
-## 2020-06-24
+## 2020-06-24 · reply to @LinchZhang
 
 > @LinchZhang Makes sense. To be clear, I'm not claiming they're *only* performative weapons, as I think you're reading it. But the extent to which they are should be strongly informed by evidence on topics sensitive to us, and where we have the loudest voice for once.
 
@@ -7782,11 +7427,14 @@ https://x.com/RichardMCNgo/status/1275702398607114241 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1275472180567040003 · [archived](https://web.archive.org/web/20200623181956/https://twitter.com/RichardMCNgo/status/1275472180567040003)
 
-## 2020-06-23
+## 2020-06-23 · reply to @RichardMCNgo
 
 > This is the right type of argument to make. Although I disagree with one part. The traditional "specific cultural values" of journalism, like truth and accountability, should still be imposed by reporters - but in a way that's updated for the online era.
 > 
 > https://t.co/bJcpUHt4xI
+
+Quoting https://x.com/everytstudies/status/1275383052907266048:
+> I've just sent this to the @nytimes (a bit long-winded, I know, but I can only struggle against my nature so much). I hope others do the same, especially those with more clout than me. https://t.co/54oDHVUggH
 
 https://x.com/RichardMCNgo/status/1275406581392343040 · [archived](https://web.archive.org/web/20200623125258/https://twitter.com/RichardMCNgo/status/1275406581392343040)
 
@@ -7841,7 +7489,7 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1273973887877988354 · [archived](https://web.archive.org/web/20200619134258/https://twitter.com/RichardMCNgo/status/1273973887877988354)
 
-## 2020-06-19
+## 2020-06-19 · reply to @Kirsten3531
 
 > @Kirsten3531 I agree that few people's actions are above reproach. But demanding a public apology is often a political move designed to favour one ideology. What the bar should be for apologising depends on how much it will be weaponised to shape discourse.
 > 
@@ -7849,7 +7497,7 @@ https://x.com/RichardMCNgo/status/1273973887877988354 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1273904339770376192 · [archived](https://web.archive.org/web/20200619090755/https://twitter.com/RichardMCNgo/status/1273904339770376192)
 
-## 2020-06-18
+## 2020-06-18 · reply to @RichardMCNgo
 
 > So secondly, you need to be much more precise in your claims and responsive to criticism when doing scholarship. Ideologies can only be put to the test via painstaking evaluation of what they actually stand for, the consequences of those positions, and possible counterarguments.
 
@@ -7861,13 +7509,13 @@ https://x.com/RichardMCNgo/status/1273705176759762945 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1273705174108983296 · [archived](https://web.archive.org/web/20200618195442/https://twitter.com/RichardMCNgo/status/1273705174108983296)
 
-## 2020-06-17
+## 2020-06-17 · reply to @Jess_Riedel
 
 > @Jess_Riedel Yes, good point. As I mentioned in another reply, I can also imagine other ways to get similar pre-2019 data without computer revolution - but that might be stacking too many implausibilities at once.
 
 https://x.com/RichardMCNgo/status/1273060478466613249 · [archived](https://web.archive.org/web/20200617023349/https://twitter.com/RichardMCNgo/status/1273060478466613249)
 
-## 2020-06-17
+## 2020-06-17 · reply to @daniel_filan
 
 > @daniel_filan But there are other ways we could have gotten the same growth without the computer revolution. I think taking full advantage of nuclear energy would probably have done it; or better economic policies; or better governance. Does the model imply that all of these were unlikely too?
 
@@ -7893,19 +7541,19 @@ https://x.com/RichardMCNgo/status/1272968608621232128 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1272950467098804225 · [archived](https://web.archive.org/web/20200616181201/https://twitter.com/RichardMCNgo/status/1272950467098804225)
 
-## 2020-06-16
+## 2020-06-16 · reply to @OwainEvans_UK
 
 > @OwainEvans_UK That growth curve in the 30s though! I had the impression that Hitler primarily caused unsustainable economic growth through heavy military spending. But a 60% jump before the war begins is pretty big. Thoughts on whether it could have continued if war hadn't happened?
 
 https://x.com/RichardMCNgo/status/1272873538807115779 · [archived](https://web.archive.org/web/20200616125301/https://twitter.com/RichardMCNgo/status/1272873538807115779)
 
-## 2020-06-16
+## 2020-06-16 · reply to @Daniel_E_Davies
 
 > @Daniel_E_Davies @StefanFSchubert @xuenay That defence is a classic example of conflict theory. Whereas I'm talking about norms from a mistake-theoretic viewpoint. Both approaches can be useful, but I think conflict theorists shouldn't actively undermine attempts to create clear common knowledge. That way lies chaos.
 
 https://x.com/RichardMCNgo/status/1272858620225638400 · [archived](https://web.archive.org/web/20200616115732/https://twitter.com/RichardMCNgo/status/1272858620225638400)
 
-## 2020-06-15
+## 2020-06-15 · reply to @AmandaAskell
 
 > @AmandaAskell I think in general it's a mistake to consider the overall effect of social media dynamics as having consistent goals or preferences. A virtue signalling arms race can happen without anyone endorsing it.
 
@@ -7951,7 +7599,7 @@ https://x.com/RichardMCNgo/status/1271739704623456257 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1271613959838355458 · [archived](https://web.archive.org/web/20200613012952/https://twitter.com/RichardMCNgo/status/1271613959838355458)
 
-## 2020-06-12
+## 2020-06-12 · reply to @TheRujiK
 
 > @TheRujiK Awesome! Do you take commissions for these?
 
@@ -7985,13 +7633,13 @@ https://x.com/RichardMCNgo/status/1270782092939583489 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1270782091622572035 · [archived](https://web.archive.org/web/20200610185629/https://twitter.com/RichardMCNgo/status/1270782091622572035)
 
-## 2020-06-10
+## 2020-06-10 · reply to @RichardMCNgo
 
 > Innovism favours mistake theory over conflict theory. It's anti-credentialism. It cares about exponential growth and the big picture. It emphasises how much the material state of humanity has improved. Innovism is driven by definite optimism. Innovism thinks it's time to build.
 
 https://x.com/RichardMCNgo/status/1270746782499250177 · [archived](https://web.archive.org/web/20200610162154/https://twitter.com/RichardMCNgo/status/1270746782499250177)
 
-## 2020-06-10
+## 2020-06-10 · reply to @RichardMCNgo
 
 > Innovism supports social, political and economic experimentation, and iterating fast on real-world feedback (as startups do). It believes in creative destruction, free thought, free speech, and using STEM to improve the world. It thinks you should be ambitious and mission-driven.
 
@@ -8003,14 +7651,14 @@ https://x.com/RichardMCNgo/status/1270746780972519436 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1269998270991994880 · [archived](https://web.archive.org/web/20200608183219/https://twitter.com/RichardMCNgo/status/1269998270991994880)
 
-## 2020-06-06
+## 2020-06-06 · reply to @RichardMCNgo
 
 > 1. Rachmaninoff’s Prelude No. 5 in G minor. Passionate, dramatic, lyrical: this piece hits all the right notes. I really like the interpretation in this video:
 > https://t.co/z5X3yKwA9l
 
 https://x.com/RichardMCNgo/status/1269307299023200256 · [archived](https://web.archive.org/web/20200607110003/https://twitter.com/RichardMCNgo/status/1269307299023200256)
 
-## 2020-05-31
+## 2020-05-31 · reply to @asteroid_saku
 
 > @asteroid_saku If China and others heavily subsidise their chip industries, isn't it natural for investors to expect this to be a losing proposition?
 
@@ -8022,7 +7670,7 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1266662272983879681 · [archived](https://web.archive.org/web/20200530155029/https://twitter.com/RichardMCNgo/status/1266662272983879681)
 
-## 2020-05-27
+## 2020-05-27 · reply to @xriskology
 
 > @xriskology Source that he lied?
 
@@ -8045,14 +7693,6 @@ Quoting https://x.com/DrPhiltill/status/1265129835925508098:
 
 https://x.com/RichardMCNgo/status/1265378596862013441 · [archived](https://web.archive.org/web/20200527142340/https://twitter.com/RichardMCNgo/status/1265378596862013441)
 
-## 2020-05-25
-
-> "A map of the world that does not include Utopia is not worth even glancing at, for it leaves out the one country at which Humanity is always landing." –– Oscar Wilde
-> 
-> Compare to Thiel on the loss of hope for the future and his advocacy for a Christian inspired optimism: https://t.co/qYHfhFsdHi
-
-https://x.com/RichardMCNgo/status/1265065101503193089 · [archived](https://web.archive.org/web/20200526003146/https://twitter.com/RichardMCNgo/status/1265065101503193089)
-
 ## 2020-05-25 · reply to @kate9rc5t
 
 > @katebaumli My intuitions agree that it's very bad, but on reflection I don't see how to justify that. I think it's an example of morality-as-tribal-weapon leaking thru the facade of morality-as-universal-benevolence. Similar to public shamings.
@@ -8065,7 +7705,7 @@ https://x.com/RichardMCNgo/status/1264899448523587586 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1264875411982422022 · [archived](https://web.archive.org/web/20200525111703/https://twitter.com/RichardMCNgo/status/1264875411982422022)
 
-## 2020-05-23
+## 2020-05-23 · reply to @RichardMCNgo
 
 > with which to solve problems; that philosophical problems are essentially soluble a priori, from the armchair—all these substantive commitments have largely died thanks to Quine and others. 'Analytic' philosophy, today, is the most richly interdisciplinary of all the humanities."
 
@@ -8095,7 +7735,7 @@ https://x.com/RichardMCNgo/status/1264127075037990912 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1263806671928918017 · [archived](https://web.archive.org/web/20200522122854/https://twitter.com/RichardMCNgo/status/1263806671928918017)
 
-## 2020-05-21
+## 2020-05-21 · reply to @apotheon
 
 > @apotheon 2: I think that social radicalisation has deeper economic &amp; political causes, and so don't think about it too much in the context of safety (except that it makes me a bit less optimistic about global coordination).
 > 
@@ -8137,7 +7777,7 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1261966148926681088 · [archived](https://web.archive.org/web/20200517102751/https://twitter.com/RichardMCNgo/status/1261966148926681088)
 
-## 2020-05-15
+## 2020-05-15 · reply to @RichardMCNgo
 
 > This is dangerous when inadequacy arguments heavily inform expectations of future competence. C.f. @ESYudkowsky 's Inadequate Equilibria, which defines adequacy as a two-place predicate, but then uses it (in very rhetorically compelling ways) as a one-place predicate.
 
@@ -8210,29 +7850,23 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1254563230359355392 · [archived](https://web.archive.org/web/20200504110303/https://twitter.com/RichardMCNgo/status/1254563230359355392)
 
-## 2020-04-24
+## 2020-04-24 · reply to @geoffreyirving
 
 > @geoffreyirving @scedastic Group epistemics and implicit culture are big concerns for me. Here they push in opposite directions. Culture almost everywhere punishes genuine ambition. So "be less overconfident in moonshots" is dangerous to endorse, it'll be weaponised against ambition &amp; be self-fulfilling
 
 https://x.com/RichardMCNgo/status/1253655593912541184 · [archived](https://web.archive.org/web/20200430201611/https://twitter.com/RichardMCNgo/status/1253655593912541184)
 
-## 2020-04-23
+## 2020-04-23 · reply to @geoffreyirving
 
 > @geoffreyirving Again, unless they're perfectly altruistic, it'll very likely be beneficial for them to overestimate their chances of success. And almost everyone is very far from perfectly altruistic - even those who consciously try to be are not fully aware of subconscious signalling, etc.
 
 https://x.com/RichardMCNgo/status/1253455800930009088 · [archived](https://web.archive.org/web/20200503020922/https://twitter.com/RichardMCNgo/status/1253455800930009088)
 
-## 2020-04-23
+## 2020-04-23 · reply to @geoffreyirving
 
 > @geoffreyirving Fixing misaligned incentives can be arbitrarily expensive! A prize for X which fully internalises the positive externality (ie aligns scientists' incentives) would cost more than X is worth, due to diminishing marginal utility. I don't mind Cowen &amp; Tetlock ignoring the impossible
 
 https://x.com/RichardMCNgo/status/1253436878973308936 · [archived](https://web.archive.org/web/20200503004148/https://twitter.com/RichardMCNgo/status/1253436878973308936)
-
-## 2020-04-22
-
-> Unpopular opinion: The biggest "tech" breakthroughs in recent years have been nothing more than clever hacks to get around onerous regulation. Eg: Bitcoin, Uber, Airbnb.
-
-https://x.com/RichardMCNgo/status/1253049950830841856 · [archived](https://web.archive.org/web/20200502153549/https://twitter.com/RichardMCNgo/status/1253049950830841856)
 
 ## 2020-04-20
 
@@ -8352,20 +7986,6 @@ https://x.com/RichardMCNgo/status/1235508840453599233 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1235279801885298689 · [archived](https://web.archive.org/web/20200304192908/https://twitter.com/RichardMCNgo/status/1235279801885298689)
 
-## 2020-03-02
-
-> Individuals (and countries) likely don't fully factor in the fact that them getting infected increases the risks for others. They mostly think about their own risk.
-> 
-> So them overestimating their own risk may take their level of precaution closer to the socially optimal level.
-
-https://x.com/RichardMCNgo/status/1234484025714233345 · [archived](https://web.archive.org/web/20200302154214/https://twitter.com/RichardMCNgo/status/1234484025714233345)
-
-## 2020-02-28 · reply to @StefanFSchubert
-
-> @StefanFSchubert Just as this applies to bus passengers, it should apply more strongly to  advertisers, media companies, possibly social media authors. Especially anyone with an audience of a billion: Facebook has probably wasted a trillion poorly-spent hours, and Google has saved about as many.
-
-https://x.com/RichardMCNgo/status/1233205196215529472 · [archived](https://web.archive.org/web/20200228014410/https://twitter.com/RichardMCNgo/status/1233205196215529472)
-
 ## 2020-02-22 · possibly deleted
 
 _(text not available)_
@@ -8408,7 +8028,7 @@ _(text not available)_
 
 https://x.com/RichardMCNgo/status/1229333234913288194 · [archived](https://web.archive.org/web/20200217092233/https://twitter.com/RichardMCNgo/status/1229333234913288194)
 
-## 2020-02-17
+## 2020-02-17 · reply to @HertfordCollege
 
 > @HertfordCollege @OxfordUnion A little ironic since I think Hertford has produced more AI safety researchers than any other Oxbridge college.
 
@@ -8453,7 +8073,7 @@ https://x.com/RichardMCNgo/status/1221435362251284480 · [archived](https://web.
 
 https://x.com/RichardMCNgo/status/1218137748986630145 · [archived](https://web.archive.org/web/20200118143737/https://twitter.com/RichardMCNgo/status/1218137748986630145)
 
-## 2020-01-09
+## 2020-01-09 · reply to @kate9rc5t
 
 > @katebaumli On 1, I recommend The Major Transitions in Evolution by Smith and Szathmary (or else the version of it aimed at a more general audience, called The Origins of Life).
 > On 2, Graziano's Consciousness and the Social Brain isn't bad. Also Dennett.

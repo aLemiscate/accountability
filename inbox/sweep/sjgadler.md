@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 276 (2021-11-19 to 2026-09-02)
-- Read so far: 276 (100%); text found for 276; 0 not read yet
+- Archived posts found: 267 (2021-11-19 to 2026-09-02)
+- Left out: 9 archived link(s) under this handle that X says another account wrote
+- Read so far: 267 (100%); text found for 267; 0 not read yet
 - Possibly deleted: 1
-- Matching the topic filter: 73
+- Matching the topic filter: 71
 
 
-Every post is in `sjgadler.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `sjgadler/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-09-02
 
@@ -604,7 +605,7 @@ https://x.com/sjgadler/status/1562532152620621826 · [archived](https://web.arch
 
 https://x.com/sjgadler/status/1512496460184518658 · [archived](https://web.archive.org/web/20220408182407/https://twitter.com/sjgadler/status/1512496460184518658)
 
-## 2022-04-08
+## 2022-04-08 · reply to @Bob_Wachter
 
 > @Bob_Wachter @UCSFDOM @UCSF @cmyeaton @CDCgov @ZekeEmanuel @Bob_Wachter a dilemma I could use advice on: Suppose someone is antigen neg on 10th day after symptoms (but + on 9th day); has no fever for a few days; but is still coughing / minor other symptoms - how likely to be contagious? Moderate case but not immunocompromised
 
@@ -647,24 +648,6 @@ https://x.com/sjgadler/status/1511754016425852928 · [archived](https://web.arch
 > Check out this cool thing we made! https://t.co/Skw8jvYazS
 
 https://x.com/sjgadler/status/1511737362803351557 · [archived](https://web.archive.org/web/20220406160818/https://twitter.com/sjgadler/status/1511737362803351557)
-
-## 2022-01-27
-
-> Big news: Over the past year we've developed InstructGPT, a descendant of GPT-3 that follows instructions. Not only is it better than GPT-3 at every task we throw at it, but it's safer and more intuitive to use as well.
-> 
-> https://t.co/XBiAv8sPy0 https://t.co/GgnFdQ9wQY
-
-https://x.com/sjgadler/status/1486816800847237121 · [archived](https://web.archive.org/web/20220127214719/https://twitter.com/sjgadler/status/1486816800847237121)
-
-## 2022-01-27
-
-> Extremely exciting alignment research milestone:
-> 
-> Using reinforcement learning from human feedback, we've trained GPT-3 to be much better at following human intentions.
-> 
-> https://t.co/r8zWWZ9LL6
-
-https://x.com/sjgadler/status/1486762286022725635 · [archived](https://web.archive.org/web/20220127181035/https://twitter.com/sjgadler/status/1486762286022725635)
 
 ## 2021-12-31
 

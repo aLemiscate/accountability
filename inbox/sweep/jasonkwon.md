@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 63 (2020-03-25 to 2026-05-17)
-- Read so far: 63 (100%); text found for 63; 0 not read yet
+- Archived posts found: 48 (2020-03-27 to 2026-05-17)
+- Left out: 15 archived link(s) under this handle that X says another account wrote
+- Read so far: 48 (100%); text found for 48; 0 not read yet
 - Possibly deleted: 10
-- Matching the topic filter: 15
+- Matching the topic filter: 13
 
 
-Every post is in `jasonkwon.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `jasonkwon/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-05-17 · reply to @politico
 
@@ -100,18 +101,6 @@ https://x.com/jasonkwon/status/1976762546041634878 · [archived](https://web.arc
 > A special day in Seoul as we officially launch OpenAI Korea. With strong government support and huge growth in ChatGPT use (up 4x in the past year), Korea is entering a new chapter in its AI journey and we want to be a true partner in Korea’s AI transformation. https://t.co/ZcqRu3ya44
 
 https://x.com/jasonkwon/status/1966406713818624029 · [archived](https://web.archive.org/web/20251007190713/https://x.com/jasonkwon/status/1966406713818624029)
-
-## 2022-06-08
-
-> Good news: #dalle can do urban planning! I used it to generate some intersections, and I think they look well-designed and very safe. https://t.co/xiJ6NDkXeE
-
-https://x.com/jasonkwon/status/1534389989894549504 · [archived](https://web.archive.org/web/20220608042129/https://twitter.com/jasonkwon/status/1534389989894549504)
-
-## 2022-05-19
-
-> My team and I were intrigued by our conversation with @SamA at @OpenAI this week. Humanity is on the precipice of great change with the proliferation of #AI. This opens up immense possibilities but also ethical questions. Our aim must be to ensure equal opportunities and access. https://t.co/HtRdHw7P3a
-
-https://x.com/jasonkwon/status/1527393577604509703 · [archived](https://web.archive.org/web/20220519205949/https://twitter.com/jasonkwon/status/1527393577604509703)
 
 ## 2022-01-27 · possibly deleted
 

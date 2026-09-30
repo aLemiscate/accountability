@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 2557 (2018-11-08 to 2026-09-12)
-- Read so far: 2557 (100%); text found for 2508; 0 not read yet
+- Archived posts found: 2327 (2018-11-08 to 2026-09-12)
+- Left out: 230 archived link(s) under this handle that X says another account wrote
+- Read so far: 2327 (100%); text found for 2292; 0 not read yet
 - Possibly deleted: 96
-- Matching the topic filter: 525
+- Matching the topic filter: 462
 
 
-Every post is in `jachiam0.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `jachiam0/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-03-25
 
@@ -347,7 +348,7 @@ https://x.com/jachiam0/status/1641278874880458752 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1641271197316055041 · [archived](https://web.archive.org/web/20230330085248/https://twitter.com/jachiam0/status/1641271197316055041?s=61&t=ryK3X96D_TkGJtvu2rm0uw)
 
-## 2023-03-22
+## 2023-03-22 · reply to @davidad
 
 > @davidad very aligned
 
@@ -1183,7 +1184,7 @@ https://x.com/jachiam0/status/1559707874326200321 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1559278010028773387 · [archived](https://web.archive.org/web/20220815203813/https://twitter.com/jachiam0/status/1559278010028773387)
 
-## 2022-08-12
+## 2022-08-12 · reply to @jachiam0
 
 > More broadly: do you see it as your imperative to change the world in ways it may not consent to be changed, if you think the utility calculus is exceptionally good?
 
@@ -1201,7 +1202,7 @@ https://x.com/jachiam0/status/1557105500679970817 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1556831984667828224 · [archived](https://web.archive.org/web/20220809023934/https://twitter.com/jachiam0/status/1556831984667828224)
 
-## 2022-08-07
+## 2022-08-07 · reply to @jachiam0
 
 > Some rules I set for myself in this one: 1) If there's a sentence, make it longer. 2) If there's an error, leave it; if there isn't, add one. 3) Use as many semicolons as possible. 4) Utilize the thesaurus copiously. 5) Wherever the wrong word can be deplored, deplore it.
 
@@ -1254,7 +1255,7 @@ https://x.com/jachiam0/status/1549574823587741697 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1548769660987924483 · [archived](https://web.archive.org/web/20220717205449/https://twitter.com/jachiam0/status/1548769660987924483)
 
-## 2022-07-12
+## 2022-07-12 · reply to @liminal_warmth
 
 > @liminal_warmth nah, they showed their hand with Kimiko losing her powers this season. endgame is burning the V out of everyone's blood, crashing Vought, and hyper-regulating V out of existence. Starlight's gotta pull a Cincinnatus and give up her power willingly
 
@@ -1272,7 +1273,7 @@ https://x.com/jachiam0/status/1540077407771803648 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1540077406161190914 · [archived](https://web.archive.org/web/20220623223248/https://twitter.com/jachiam0/status/1540077406161190914)
 
-## 2022-06-22
+## 2022-06-22 · reply to @EugeneVinitsky
 
 > @EugeneVinitsky Making an online community work takes a significant amount of effort - at a rough cut you need  a power law distribution for high effort posters, with maybe one 10x poster for every 10 1x posters. There were no 10x posters the first go around, so it was naturally rather quiet.
 
@@ -1317,13 +1318,13 @@ https://x.com/jachiam0/status/1534195327036694529 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1532080167102840833 · [archived](https://web.archive.org/web/20220601192324/https://twitter.com/jachiam0/status/1532080167102840833)
 
-## 2022-05-27
+## 2022-05-27 · reply to @jachiam0
 
 > @JeffLadish I kinda think the issues with the AI ethics crowd are a microcosm for very big humanity-wide cooperation issues, and if we can solve *these* than we can put a dent in *those*
 
 https://x.com/jachiam0/status/1530291053311442946 · [archived](https://web.archive.org/web/20220527205330/https://twitter.com/jachiam0/status/1530291053311442946)
 
-## 2022-05-27
+## 2022-05-27 · reply to @JeffLadish
 
 > @JeffLadish (Worth observing that a lot of the hostility is the result of having traumatic experiences that led to legitimate anger/frustration. I think it's net bad for humanity if we ignore people who have been hurt and consequently lash out, because it means not fixing the hurt)
 
@@ -1380,7 +1381,7 @@ Quoting https://x.com/ilyasut/status/1527430909548367872:
 
 https://x.com/jachiam0/status/1528291570297995265 · [archived](https://web.archive.org/web/20220522082840/https://twitter.com/jachiam0/status/1528291570297995265)
 
-## 2022-05-19
+## 2022-05-19 · reply to @BogdanIonutCir2
 
 > @BogdanIonutCir2 @FlawedRubi I don't think she's right. I also think that if/when broad public distrust of EA emerges on the left, it won't be her fault. She's playing a part in the dynamics but she's not the causal engine of that distrust.
 
@@ -1392,31 +1393,31 @@ https://x.com/jachiam0/status/1527419240055197707 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1527418252061724696 · [archived](https://web.archive.org/web/20220519223823/https://twitter.com/jachiam0/status/1527418252061724696)
 
-## 2022-05-19
+## 2022-05-19 · reply to @Miles_Brundage
 
 > @Miles_Brundage Sure, not yet. But the Twitterati chatter about EA is a leading indicator of what it's going to look like. Culture war topics start this way - as jargon among a few highly committed and visible leaders and luminaries, that then leaches out into the rest of the ecosystem.
 
 https://x.com/jachiam0/status/1527412550719127557 · [archived](https://web.archive.org/web/20220519221601/https://twitter.com/jachiam0/status/1527412550719127557)
 
-## 2022-05-19
+## 2022-05-19 · reply to @jachiam0
 
 > @alyssamvance And anyone who really thinks it's super important to shout from the rooftops about race and IQ should probably be ejected, with force, from association to the movement. *If* an altruistic impulse inspires them to care about those issues, I am sure it can be served in other ways.
 
 https://x.com/jachiam0/status/1527410235991805966 · [archived](https://web.archive.org/web/20220519220632/https://twitter.com/jachiam0/status/1527410235991805966)
 
-## 2022-05-19
+## 2022-05-19 · reply to @jachiam0
 
 > But the EA movement seems to have missed that a future for humanity is only worth fighting for if you're successfully bringing along all of humanity with the vision. 9/
 
 https://x.com/jachiam0/status/1527392360430280704 · [archived](https://web.archive.org/web/20220519205707/https://twitter.com/jachiam0/status/1527392360430280704)
 
-## 2022-05-19
+## 2022-05-19 · reply to @jachiam0
 
 > plus the decision to enter national politics by running one of their own for congress, with an openness to taking crypto money---regarded by many as founded on exploitation of gambling addicts, the drug trade, and scams... 3/
 
 https://x.com/jachiam0/status/1527392350208679937 · [archived](https://web.archive.org/web/20220519205504/https://twitter.com/jachiam0/status/1527392350208679937)
 
-## 2022-05-19
+## 2022-05-19 · reply to @jachiam0
 
 > (a gentle murmur as everyone in AI safety perks up a little bit, sensing that they have been seen...)
 
@@ -1470,25 +1471,11 @@ https://x.com/jachiam0/status/1516395502622834688 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1515786405103898626 · [archived](https://web.archive.org/web/20220417201733/https://twitter.com/jachiam0/status/1515786405103898626)
 
-## 2022-04-16
+## 2022-04-16 · reply to @jachiam0
 
 > @Miles_Brundage It's the Poe's Law of mockbusters. Is it sincere? Is it self-aware? We will never know.
 
 https://x.com/jachiam0/status/1515219586932649985 · [archived](https://web.archive.org/web/20220416064445/https://twitter.com/jachiam0/status/1515219586932649985)
-
-## 2022-04-10
-
-> Worried about AI impact on artists? 
-> Want to support artists?
-> Need a personal gift idea?
-> 
-> Try 👩🏾‍🎨Commissioning Artists🎨!
-> personal sites,Etsy,IG, are great places to look! 
-> eg I commissioned this from Etsy for my partner
-> 
-> h/t @catcherinthepi3 &amp; @b_cavello for helping me navigate! https://t.co/P75AvUeYJ0
-
-https://x.com/jachiam0/status/1512972146720456704 · [archived](https://web.archive.org/web/20220410015419/https://twitter.com/jachiam0/status/1512972146720456704)
 
 ## 2022-04-05 · possibly deleted
 
@@ -1555,25 +1542,6 @@ Quoting https://x.com/nickwalton00/status/1498059762440802304:
 
 https://x.com/jachiam0/status/1498061820887711744 · [archived](https://web.archive.org/web/20220227222602/https://twitter.com/jachiam0/status/1498061820887711744)
 
-## 2022-02-27
-
-> Grateful that my Ukrainian grandma doesn’t have to throw Molotov cocktails today.
-> 
-> But the brave people in 🇺🇦 aren't just fighting for their country &amp; children, they’re protecting our democracy.
-> 
-> Support @UnitedHelpUA &amp; @novaukraine to send humanitarian aid. #IStandWithUkriane
-
-Quoting https://x.com/npew/status/1498000415543095297:
-> We need to make a stand for democracy and help Ukraine 🇺🇦. After some research, we donated to https://t.co/Hr6sCJZeQ8 and https://t.co/KuAQkwhK56
-
-https://x.com/jachiam0/status/1498025313011384323 · [archived](https://web.archive.org/web/20220227200104/https://twitter.com/jachiam0/status/1498025313011384323)
-
-## 2022-02-27
-
-> We need to make a stand for democracy and help Ukraine 🇺🇦. After some research, we donated to https://t.co/Hr6sCJZeQ8 and https://t.co/KuAQkwhK56
-
-https://x.com/jachiam0/status/1498025283101810689 · [archived](https://web.archive.org/web/20220227200044/https://twitter.com/jachiam0/status/1498025283101810689)
-
 ## 2022-02-27 · possibly deleted
 
 > Reminder to not be assholes to your local Russian themed restaurants and businesses here in America, the 50 year old grandmother who sells piroshki did not invade Ukraine.
@@ -1586,20 +1554,6 @@ https://x.com/jachiam0/status/1497828542301675523 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1497661609824694281 · [archived](https://web.archive.org/web/20220226195540/https://twitter.com/jachiam0/status/1497661609824694281)
 
-## 2022-02-25
-
-> REMEMBER!!!
-> Not a single picture of Ukrainian vehicles or manpower posted online, anywhere.
-> DO NOT DISCLOSE THEIR LOCATION TO THE ENEMY!
-
-https://x.com/jachiam0/status/1497251119617224705 · [archived](https://web.archive.org/web/20220225164424/https://twitter.com/jachiam0/status/1497251119617224705)
-
-## 2022-02-25
-
-> To OSINT enthusiasts and military analysts, Ukrainian authorities have asked people not to post information about the movements of Ukrainian Armed Forces. Please respect this. You will have your moment to become famous. This isn't it. People's lives are at stake. Thanks.
-
-https://x.com/jachiam0/status/1497052663074152453 · [archived](https://web.archive.org/web/20220225033603/https://twitter.com/jachiam0/status/1497052663074152453)
-
 ## 2022-02-24
 
 > So - Russia took Chernobyl because it doesn't expect the government of Ukraine to function well enough to maintain it amid the chaos, right?
@@ -1611,16 +1565,6 @@ https://x.com/jachiam0/status/1496919151088214023 · [archived](https://web.arch
 > TOMORROW! Join us at 780 Valencia in San Francisco 6-7pm, where @NarwhalWrites and I will be reading some of our climate writing from Exquisite Climate. This is part of The Drawing Room's Tides of Change show. Make sure to check out the art, too -- it's up til 2/26.
 
 https://x.com/jachiam0/status/1496632647258456069 · [archived](https://web.archive.org/web/20220223235149/https://twitter.com/jachiam0/status/1496632647258456069)
-
-## 2022-02-22
-
-> How interesting it is to see roles like this now - it wasn't that long ago when it felt impossible to get anyone to care about algorithmic harms.
-> 
-> Anyways, for those interested - apply, apply!  
-> 
-> Spotify needs internal auditors: https://t.co/S4txrAo54B https://t.co/fraa98xCCp
-
-https://x.com/jachiam0/status/1496162697070710787 · [archived](https://web.archive.org/web/20220222164432/https://twitter.com/jachiam0/status/1496162697070710787)
 
 ## 2022-02-22 · reply to @VishvakM
 
@@ -1640,13 +1584,13 @@ https://x.com/jachiam0/status/1495941074816319496 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1494747689229111300 · [archived](https://web.archive.org/web/20220218190140/https://twitter.com/jachiam0/status/1494747689229111300)
 
-## 2022-02-14
+## 2022-02-14 · reply to @jachiam0
 
 > The humans have the obligation to mitigate and prevent harm. The humans are the ones making the choices and trade-offs about risk. The humans are the ones deciding who gets represented in decisions around how the AI is built and used. The humans are morally responsible.
 
 https://x.com/jachiam0/status/1493281858372653059 · [archived](https://web.archive.org/web/20220214175704/https://twitter.com/jachiam0/status/1493281858372653059)
 
-## 2022-02-14
+## 2022-02-14 · reply to @jachiam0
 
 > Even if we make conscious AI, even if a given AI is slightly conscious, even if we might ever ascribe agency to an AI---we cannot ever allow an industry norm of offloading moral responsibility from the humans to the AI. The humans are the morally responsible ones.
 
@@ -1669,19 +1613,19 @@ https://x.com/jachiam0/status/1493281853117288448 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1493205866149036034 · [archived](https://web.archive.org/web/20220214125513/https://twitter.com/jachiam0/status/1493205866149036034)
 
-## 2022-02-06
+## 2022-02-06 · reply to @Inoryy
 
 > @Inoryy The timeline for regulatory approval - stuff started making it all the way to market in the past five years.
 
 https://x.com/jachiam0/status/1490398264780197890 · [archived](https://web.archive.org/web/20220206185840/https://twitter.com/jachiam0/status/1490398264780197890)
 
-## 2022-02-05
+## 2022-02-05 · reply to @jachiam0
 
 > Maybe regulations on potential biohazards are already there to some extent... but maybe not? I'd guess - taking the outside view that regulation lags tech development - that regulators are likely very underprepared for this and this is concerning
 
 https://x.com/jachiam0/status/1489850036473442305 · [archived](https://web.archive.org/web/20220205064008/https://twitter.com/jachiam0/status/1489850036473442305)
 
-## 2022-02-05
+## 2022-02-05 · reply to @jachiam0
 
 > Since there's some ongoing stuff about techno-optimism and this is ambiguous: there's some stuff in bio I'm real excited about but this should really be setting off a lot of early alarm bells for regulators and safety folks
 
@@ -1693,7 +1637,7 @@ https://x.com/jachiam0/status/1489849660638441472 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1489755960847388672 · [archived](https://web.archive.org/web/20220205002621/https://twitter.com/jachiam0/status/1489755960847388672)
 
-## 2022-02-04
+## 2022-02-04 · reply to @jachiam0
 
 > OH MAN OH JEEZ I WAS TOO SLOW
 > 
@@ -1702,14 +1646,6 @@ https://x.com/jachiam0/status/1489755960847388672 · [archived](https://web.arch
 > https://t.co/REIfI1lNUZ
 
 https://x.com/jachiam0/status/1489696306322833408 · [archived](https://web.archive.org/web/20220204202924/https://twitter.com/jachiam0/status/1489696306322833408)
-
-## 2022-02-04 · reply to @sama
-
-> We can build AGI. We can colonize space. We can get fusion to work and solar to mass scale. We can cure all human disease. We can build new realities.
-> 
-> We are only a few breakthroughs away from abundance at a scale that is difficult to imagine.
-
-https://x.com/jachiam0/status/1489688542959734785 · [archived](https://web.archive.org/web/20220204195836/https://twitter.com/jachiam0/status/1489688542959734785)
 
 ## 2022-02-03
 
@@ -1727,13 +1663,7 @@ https://x.com/jachiam0/status/1489332791527411712 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1488416131895357444 · [archived](https://web.archive.org/web/20220201074218/https://twitter.com/jachiam0/status/1488416131895357444)
 
-## 2022-01-31
-
-> It's a huge disservice to students that we are not extremely transparent about how PhD admissions work at different universities
-
-https://x.com/jachiam0/status/1488278295284097025 · [archived](https://web.archive.org/web/20220131223438/https://twitter.com/jachiam0/status/1488278295284097025)
-
-## 2022-01-31
+## 2022-01-31 · reply to @jachiam0
 
 > @scottniekum I agree that we ultimately want reliable metrics we can robustly evaluate to make meaningful claims about "aligned to what?" and "how aligned?" I expect iterative work over a long time towards this, with intermittent empirical milestones like this project.
 
@@ -1792,32 +1722,6 @@ https://x.com/jachiam0/status/1486881485126651907 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1486849289934368768 · [archived](https://web.archive.org/web/20220127235620/https://twitter.com/jachiam0/status/1486849289934368768)
 
-## 2022-01-27
-
-> (ahem)
-> 
-> alright friends
-> 
-> I am quite proud and slightly terrified to announce what I (and my alignment homies) have been working on over the past 14 months:
-> 
-> Training a new version of GPT-3 (InstructGPT) that follows instructions
-> 🧵
-
-Quoting https://x.com/OpenAI/status/1486740126688370712:
-> We've trained GPT-3 to be more aligned with what humans want: The new InstructGPT models are better at following human intent than a 100x larger model, while also improving safety and truthfulness. https://t.co/rKNpCDAMb2
-
-https://x.com/jachiam0/status/1486810380756140032 · [archived](https://web.archive.org/web/20220127211639/https://twitter.com/jachiam0/status/1486810380756140032)
-
-## 2022-01-27
-
-> Extremely exciting alignment research milestone:
-> 
-> Using reinforcement learning from human feedback, we've trained GPT-3 to be much better at following human intentions.
-> 
-> https://t.co/r8zWWZ9LL6
-
-https://x.com/jachiam0/status/1486784241077686273 · [archived](https://web.archive.org/web/20220127193245/https://twitter.com/jachiam0/status/1486784241077686273)
-
 ## 2022-01-25 · reply to @jachiam0
 
 > @mmitchell_ai @JohnUBalis @AmandaAskell @emilymbender I am sure I care about some stuff that's weirder or more long-term than others in the field but I definitely don't think of the goal of AI safety as being to protect the AI from us. (12/14)
@@ -1830,19 +1734,13 @@ https://x.com/jachiam0/status/1485831138031681537 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1485831103382540292 · [archived](https://web.archive.org/web/20220125042519/https://twitter.com/jachiam0/status/1485831103382540292)
 
-## 2022-01-24
-
-> ML models are being deployed in mission-critical settings, such as autonomous vehicles. Shockingly, the data used to train these models are rarely checked! The Lyft Level 5 dataset has errors in 70% of the validation scenes, see our blog post: https://t.co/ShXWduGjt6 (1/5) https://t.co/Q8LH7DDZwi
-
-https://x.com/jachiam0/status/1485740545515401222 · [archived](https://web.archive.org/web/20220124223037/https://twitter.com/jachiam0/status/1485740545515401222)
-
 ## 2022-01-23 · possibly deleted
 
-_(text not available)_
+> @DataSciBae @timnitGebru @emilymbender @AmandaAskell That's not the position she took, though. If she had taken that position, I'd disagree with her. But it is absolutely not what anyone in this thread is arguing for, and that's why I don't think this is fair game.
 
 https://x.com/jachiam0/status/1485374419971330049 · [archived](https://web.archive.org/web/20220123221036/https://twitter.com/jachiam0/status/1485374419971330049)
 
-## 2022-01-23
+## 2022-01-23 · reply to @timnitGebru
 
 > @timnitGebru @emilymbender @AmandaAskell I'm not kidding, I think something morally wrong is happening in this conversation. Amanda's not disputing that harms have happened to Black and disabled people. Racism and ableism are unsafe. No one in this thread is disputing this.
 
@@ -1866,13 +1764,13 @@ https://x.com/jachiam0/status/1485119073717526534 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1485110950009180163 · [archived](https://web.archive.org/web/20220123044850/https://twitter.com/jachiam0/status/1485110950009180163)
 
-## 2022-01-22
+## 2022-01-22 · reply to @jachiam0
 
 > @TaliaRinger (FWIW I am quite worried about systemic risks from people overestimating present abilities of code models at any given time and handing over the reins too early / eventually losing insight into what they build, though safety/security is a slightly orthogonal convo)
 
 https://x.com/jachiam0/status/1485020819734544386 · [archived](https://web.archive.org/web/20220122224530/https://twitter.com/jachiam0/status/1485020819734544386)
 
-## 2022-01-22
+## 2022-01-22 · reply to @jachiam0
 
 > @TaliaRinger So - it's hard to point at any one thing, and I haven't sat down to try to make a coherent multipronged logical argument about it, but imagining limitations on what ML could do based on how it internally computed intermediate states...
 
@@ -1892,7 +1790,7 @@ https://x.com/jachiam0/status/1484630271223910402 · [archived](https://web.arch
 
 ## 2022-01-21 · possibly deleted
 
-_(text not available)_
+> Also it's a kiki/bouba thing too I guess?? someone needs to nerf this meme, it's too strong
 
 https://x.com/jachiam0/status/1484629879136178178 · [archived](https://web.archive.org/web/20220121205205/https://twitter.com/jachiam0/status/1484629879136178178)
 
@@ -1925,39 +1823,25 @@ https://x.com/jachiam0/status/1483008121568219138 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1482206430736404487 · [archived](https://web.archive.org/web/20220115042715/https://twitter.com/jachiam0/status/1482206430736404487)
 
-## 2022-01-13
-
-> Want to make your own AI-Generated Pokémon? I've open-sourced the AI model I used to generate the viral Pokémon last month AND I just released a Colab Notebook that allows you to use it to create AI-generated Pokémon in just two clicks! https://t.co/mkMBfLVRSB
-
-https://x.com/jachiam0/status/1481725711438209026 · [archived](https://web.archive.org/web/20220113203701/https://twitter.com/jachiam0/status/1481725711438209026)
-
-## 2022-01-13
-
-> it makes me very uncomfortable that so much new technology (especially ai, not trying to evade blame) naturally benefits authoritarian governments more than democratic governments.
-> 
-> have to fight this hard.
-
-https://x.com/jachiam0/status/1481473488603029504 · [archived](https://web.archive.org/web/20220113035445/https://twitter.com/jachiam0/status/1481473488603029504)
-
-## 2022-01-11
+## 2022-01-11 · reply to @jachiam0
 
 > I'm not saying it's real or not real. I have zero opinion about it for now. What I'm saying is we should practice norms like linking to scientific publications if we want to advertise scientific claims, and if one isn't provided we should dig before propagating.
 
 https://x.com/jachiam0/status/1480739105227083777 · [archived](https://web.archive.org/web/20220111031633/https://twitter.com/jachiam0/status/1480739105227083777)
 
-## 2022-01-10
+## 2022-01-10 · reply to @machinaut
 
 > @machinaut the ghost of physics past haunting over your shoulder spookily whispering "look at the differential equations....taylor approximate until it's solvable"
 
 https://x.com/jachiam0/status/1480640587439259648 · [archived](https://web.archive.org/web/20220110204510/https://twitter.com/jachiam0/status/1480640587439259648)
 
-## 2022-01-10
+## 2022-01-10 · reply to @jachiam0
 
 > I don't feel confident enough one way or another yet because it's not clear at what point it *actually* tips over towards investigations being weaponized and political opponents being illegitimately harassed or jailed. 4/5
 
 https://x.com/jachiam0/status/1480600929447686151 · [archived](https://web.archive.org/web/20220110180734/https://twitter.com/jachiam0/status/1480600929447686151)
 
-## 2022-01-10
+## 2022-01-10 · reply to @jachiam0
 
 > It's very stressful and we have all bellyached about the way it makes our government feel like it's constantly teetering around illegitimacy, but what if extreme scrutiny of the powerful - whether we or not they're from our preferred party - is good? 3/5
 
@@ -1999,28 +1883,19 @@ https://x.com/jachiam0/status/1479622144694886400 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1479613894452817920 · [archived](https://web.archive.org/web/20220108004526/https://twitter.com/jachiam0/status/1479613894452817920)
 
-## 2022-01-07
-
-> My god. I finally read this article in full (thaks for sharing @guneetnarula). And it is terrifying. 
-> https://t.co/MqOoqtyKDi
-> 
-> @thewire_in  "investigates claims behind the use of ‘Tek Fog’, a highly sophisticated app used by online operatives to hijack major social media..."
-
-https://x.com/jachiam0/status/1479582578768322567 · [archived](https://web.archive.org/web/20220107224103/https://twitter.com/jachiam0/status/1479582578768322567)
-
-## 2022-01-07
+## 2022-01-07 · reply to @jachiam0
 
 > As an individual, when trying to honestly evaluate other individuals, you have to very carefully disentangle the stories and facts to figure out under what contexts people had what power and whether they used it responsibly, and/or in accordance with their real principles
 
 https://x.com/jachiam0/status/1479577369409208324 · [archived](https://web.archive.org/web/20220107222016/https://twitter.com/jachiam0/status/1479577369409208324)
 
-## 2022-01-07
+## 2022-01-07 · reply to @jachiam0
 
 > You can expend power by moving current through a wire, and the power given off will be proportional to voltage times current (I promise this is the only lame joke tweet in this thread)
 
 https://x.com/jachiam0/status/1479577362555621381 · [archived](https://web.archive.org/web/20220107222014/https://twitter.com/jachiam0/status/1479577362555621381)
 
-## 2022-01-07
+## 2022-01-07 · reply to @databoydg
 
 > @databoydg currently watching learning curves slowly tick onwards and this hit straight in the heart
 
@@ -2032,13 +1907,13 @@ https://x.com/jachiam0/status/1479297568228134917 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1478942278639104003 · [archived](https://web.archive.org/web/20220106041139/https://twitter.com/jachiam0/status/1478942278639104003)
 
-## 2022-01-06
+## 2022-01-06 · reply to @Miles_Brundage
 
 > @Miles_Brundage There's an argument to be made that human space exploration was seriously slowed down by safety risks, especially in the aftermath of high-profile shuttle disasters.
 
 https://x.com/jachiam0/status/1478940846577831941 · [archived](https://web.archive.org/web/20220106041054/https://twitter.com/jachiam0/status/1478940846577831941)
 
-## 2022-01-05
+## 2022-01-05 · reply to @jachiam0
 
 > @TaliaRinger Kinda-obvious good choices of Quality Y are efficiency, scale, maintainability, safety, etc.
 
@@ -2068,7 +1943,7 @@ _(text not available)_
 
 https://x.com/jachiam0/status/1478553903797055489 · [archived](https://web.archive.org/web/20220105023330/https://twitter.com/jachiam0/status/1478553903797055489)
 
-## 2021-12-31
+## 2021-12-31 · reply to @jachiam0
 
 > My rough preferences are: people talk about their lives and build friendships in a safe, warm, friendly way. Probably some tech discussion happens, but, I don't specifically want to start a tech-centric channel.
 
@@ -2080,7 +1955,7 @@ https://x.com/jachiam0/status/1476711895461683203 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1476588388794998784 · [archived](https://web.archive.org/web/20211230162310/https://twitter.com/jachiam0/status/1476588388794998784)
 
-## 2021-12-29
+## 2021-12-29 · reply to @EugeneVinitsky
 
 > @EugeneVinitsky Stuff about machine consciousness is pretty spicy in general
 
@@ -2104,7 +1979,7 @@ https://x.com/jachiam0/status/1476270963507486720 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1475888308840452105 · [archived](https://web.archive.org/web/20211228180118/https://twitter.com/jachiam0/status/1475888308840452105)
 
-## 2021-12-28
+## 2021-12-28 · reply to @nairbv
 
 > @nairbv @2024Agi Indeed, lots to be excited about, as long as we get the safety foundations right.
 
@@ -2155,13 +2030,13 @@ _(text not available)_
 
 https://x.com/jachiam0/status/1474167405748396032 · [archived](https://web.archive.org/web/20211223235756/https://twitter.com/jachiam0/status/1474167405748396032)
 
-## 2021-12-23
+## 2021-12-23 · reply to @jachiam0
 
 > @robbyleon13 Overly complex =&gt; Not everyone gets it / too much surface area for disagreement =&gt; Ship not aligned, local executors can't translate global goals into right-sized milestones =&gt; Success harder
 
 https://x.com/jachiam0/status/1474057849542221829 · [archived](https://web.archive.org/web/20211223164445/https://twitter.com/jachiam0/status/1474057849542221829)
 
-## 2021-12-23
+## 2021-12-23 · reply to @robbyleon13
 
 > @robbyleon13 I think you hit the nail on the head about how simple vs complex thinking and messaging works for aligning large groups of people across many functions and levels of seniority. Simple thoughts/goals/convictions =&gt; everyone gets it =&gt; everyone can do their part.
 
@@ -2173,19 +2048,19 @@ https://x.com/jachiam0/status/1474057561968193537 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1474003936952606720 · [archived](https://web.archive.org/web/20211223131540/https://twitter.com/jachiam0/status/1474003936952606720)
 
-## 2021-12-23
+## 2021-12-23 · reply to @jachiam0
 
 > @lieberum_t And correspondingly, if you have very dysregulated attention, if you're in a life and career that you're well-adapted for you might never suffer and it might never occur to you that your attention is hard to regulate.
 
 https://x.com/jachiam0/status/1473971873847382022 · [archived](https://web.archive.org/web/20211223110626/https://twitter.com/jachiam0/status/1473971873847382022)
 
-## 2021-12-23
+## 2021-12-23 · reply to @jachiam0
 
 > @lieberum_t Which to me is just... super weird! You can have normal attention levels, but if you're in a life and career that's better-adapted for above-average attention regulation you can feel like you're suffering from dysregulation and probably get diagnosed.
 
 https://x.com/jachiam0/status/1473971738807525381 · [archived](https://web.archive.org/web/20211223110536/https://twitter.com/jachiam0/status/1473971738807525381)
 
-## 2021-12-23
+## 2021-12-23 · reply to @jachiam0
 
 > @AIActorCritic Noticing that the bad feelings created a self-fulfilling prophecy made it easier for me to rationalize them away for moderate stretches of time. It made it easier to take risks and try connecting with other people, and then bit by bit I learned how and got more confident at it.
 
@@ -2197,7 +2072,7 @@ https://x.com/jachiam0/status/1473944193026375686 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1473800798597492736 · [archived](https://web.archive.org/web/20211222234615/https://twitter.com/jachiam0/status/1473800798597492736)
 
-## 2021-12-21
+## 2021-12-21 · reply to @jachiam0
 
 > From being in a community of people who you trust and support, who you have mutually beneficial relationships with. From doing work that matters to you and putting effort in that you would be proud of whether or not there was recognition attached. 10/
 
@@ -2209,37 +2084,37 @@ https://x.com/jachiam0/status/1473393795555377157 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1473393781630291979 · [archived](https://web.archive.org/web/20211221204354/https://twitter.com/jachiam0/status/1473393781630291979)
 
-## 2021-12-21
+## 2021-12-21 · reply to @jachiam0
 
 > @rajiinio @AmandaAskell As for the point - for me, first it's about understanding how we implicitly and explicitly define consciousness / sentience / humanness / personhood, and then correctly applying that. Then, yes, avoiding causing unnecessary harm to an AI if it's a moral patient.
 
 https://x.com/jachiam0/status/1473363641999233040 · [archived](https://web.archive.org/web/20211221184912/https://twitter.com/jachiam0/status/1473363641999233040)
 
-## 2021-12-21
+## 2021-12-21 · reply to @jachiam0
 
 > @rajiinio @AmandaAskell I also don't think "misbehaving child" fully captures the extent of professional engineering responsibility, though it seems like a good analogy in other ways.
 
 https://x.com/jachiam0/status/1473209018994900993 · [archived](https://web.archive.org/web/20211221083438/https://twitter.com/jachiam0/status/1473209018994900993)
 
-## 2021-12-21
+## 2021-12-21 · reply to @rajiinio
 
 > @rajiinio @AmandaAskell Nuanced view: I think you're completely right that responsibility for the behavior of AI rests with the creators of the AI. But I simultaneously think that we should be open to (on some but not all axes) humanizing AI, and be open to AI personhood, consciousness, sentience, etc.
 
 https://x.com/jachiam0/status/1473208362036772872 · [archived](https://web.archive.org/web/20211221083202/https://twitter.com/jachiam0/status/1473208362036772872)
 
-## 2021-12-20
+## 2021-12-20 · reply to @jachiam0
 
 > @TaliaRinger But history shows that "accepting X as having value because X is like me" is a limiting frame of mind, and I think down the road we will regret having had applied it to reasoning about whether machines are conscious / sentient / moral patients / etc.
 
 https://x.com/jachiam0/status/1473036029363896329 · [archived](https://web.archive.org/web/20211220210715/https://twitter.com/jachiam0/status/1473036029363896329)
 
-## 2021-12-20
+## 2021-12-20 · reply to @TaliaRinger
 
 > @TaliaRinger This point, for me, is the crux of the debate about machine consciousness---that much of what we think counts as conscious is on the list because what we really mean is "identifiably like us."
 
 https://x.com/jachiam0/status/1473035712324902916 · [archived](https://web.archive.org/web/20211220210106/https://twitter.com/jachiam0/status/1473035712324902916)
 
-## 2021-12-20
+## 2021-12-20 · reply to @jachiam0
 
 > To the folks I'm very obviously subtweeting: I have tremendous respect for your body of work. I've followed it and supported from a distance for a long time. I have been in the trenches on safety and ethics, I care deeply about getting AI deployment right and avoiding harm. 11/
 
@@ -2257,13 +2132,13 @@ https://x.com/jachiam0/status/1472787847384113163 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1472699125129007111 · [archived](https://web.archive.org/web/20211219224332/https://twitter.com/jachiam0/status/1472699125129007111)
 
-## 2021-12-19
+## 2021-12-19 · reply to @natolambert
 
 > @natolambert @TalkRLPodcast I think you may be confusing me with John Schulman? I did not write PPO. Unfortunately, none of my algorithms are popular (though Constrained Policy Optimization is moderately well-cited and a frequent baseline in constrained RL).
 
 https://x.com/jachiam0/status/1472693504899960834 · [archived](https://web.archive.org/web/20211219222611/https://twitter.com/jachiam0/status/1472693504899960834)
 
-## 2021-12-18
+## 2021-12-18 · reply to @RichardMCNgo
 
 > @RichardMCNgo I'm not convinced this is solvable. If I observe N-1 independent realizations from a distribution over N objects (integers on hats with possible repetition), and I have to guess the outcome from a new independent draw from that distribution...
 
@@ -2281,7 +2156,7 @@ https://x.com/jachiam0/status/1471600298548346880 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1471600296732151808 · [archived](https://web.archive.org/web/20211216220342/https://twitter.com/jachiam0/status/1471600296732151808)
 
-## 2021-12-14
+## 2021-12-14 · reply to @jachiam0
 
 > It's an amazing amount of social coordination to get from rough consensus among that tiny community of scientists to enough trust that 240 million people will try a new kind of vaccine to protect against a new kind of virus they don't have experience with.
 
@@ -2317,13 +2192,13 @@ _(text not available)_
 
 https://x.com/jachiam0/status/1467084931373289474 · [archived](https://web.archive.org/web/20211204105948/https://twitter.com/jachiam0/status/1467084931373289474)
 
-## 2021-12-03
+## 2021-12-03 · reply to @susie_c
 
 > @susie_c cc @machinaut, since your crew dealt with a similar-ish situation recently
 
 https://x.com/jachiam0/status/1466910192608632839 · [archived](https://web.archive.org/web/20211203232020/https://twitter.com/jachiam0/status/1466910192608632839)
 
-## 2021-12-02
+## 2021-12-02 · reply to @machinaut
 
 > @machinaut I think probably no - the set of people who can be surrogates is small due to health, lifestyle  and personal choice constraints. The price outside this set could be much, much higher.
 
@@ -2341,13 +2216,13 @@ https://x.com/jachiam0/status/1463190431038984195 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1463190224545071106 · [archived](https://web.archive.org/web/20211124032752/https://twitter.com/jachiam0/status/1463190224545071106)
 
-## 2021-11-23
+## 2021-11-23 · reply to @nudrinfe
 
 > @nudrinfe Yes, humans would still be able to provide value to the non-aligned AGIs that I think are most probable, from the space of possible non-aligned AGIs. I think the paperclip maximizer is the result of magical thinking and is vanishingly unlikely to occur.
 
 https://x.com/jachiam0/status/1463188490145857536 · [archived](https://web.archive.org/web/20211124032017/https://twitter.com/jachiam0/status/1463188490145857536)
 
-## 2021-11-23
+## 2021-11-23 · reply to @jachiam0
 
 > That's not to say there will be no turbulence and no loss of life / misaligned one-off events, but that cooperation would be the dominant element of the interaction. Maybe with slightly less friction to modern international cooperation (though similar order of magnitude).
 
@@ -2358,14 +2233,6 @@ https://x.com/jachiam0/status/1462998733524590596 · [archived](https://web.arch
 > Prediction: cooperation / positive-sum games with humanity will be an instrumental behavior for AGI for at least the first hundred years in which it exists. I'll put this at 55% likely.
 
 https://x.com/jachiam0/status/1462998244821127169 · [archived](https://web.archive.org/web/20211123113606/https://twitter.com/jachiam0/status/1462998244821127169)
-
-## 2021-11-15
-
-> Writing a statement of purpose (SOP) for PhD admissions – please do not make me read another “as a kid, when I looked at the sky…” 
-> 
-> a thread.
-
-https://x.com/jachiam0/status/1460314362833424384 · [archived](https://web.archive.org/web/20211115193353/https://twitter.com/jachiam0/status/1460314362833424384)
 
 ## 2021-11-02 · possibly deleted
 
@@ -2379,7 +2246,7 @@ https://x.com/jachiam0/status/1455651447761248265 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1453635487642492928 · [archived](https://web.archive.org/web/20211028081127/https://twitter.com/jachiam0/status/1453635487642492928)
 
-## 2021-10-24
+## 2021-10-24 · reply to @lieberum_t
 
 > @lieberum_t @machinaut By robust optimization I mean robust to uncertainty in distribution. If you have the right formula but the wrong distribution (eg, you have a good reward model but an experience distribution that mismatches reality in a key way), robust optimization is the right approach.
 
@@ -2409,7 +2276,7 @@ https://x.com/jachiam0/status/1452234041659437059 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1452217335763415053 · [archived](https://web.archive.org/web/20211024101613/https://twitter.com/jachiam0/status/1452217335763415053)
 
-## 2021-10-24
+## 2021-10-24 · reply to @jachiam0
 
 > @machinaut So these extra distinctions seem to me like they're not adding information, and if anything making the terminology around alignment even more confusing.
 
@@ -2447,21 +2314,11 @@ https://x.com/jachiam0/status/1451656819269529603 · [archived](https://web.arch
 
 ## 2021-10-22
 
-> The Future of Life Institute has a $25M grant program to fund Technical AI Existential Safety PhD and Postdoc fellowships! There's also a community program to join.
-> 
-> Application deadline is the 29th, so don't delay if you're thinking about it!
-> 
-> https://t.co/FDObGphHQ3
-
-https://x.com/jachiam0/status/1451514189835476995 · [archived](https://web.archive.org/web/20211022114217/https://twitter.com/jachiam0/status/1451514189835476995)
-
-## 2021-10-22
-
 > I don't know who needs to hear this, but you have permission to close all of those arXiv tabs you know in your heart you aren't really going to read
 
 https://x.com/jachiam0/status/1451434182505156613 · [archived](https://web.archive.org/web/20211022062415/https://twitter.com/jachiam0/status/1451434182505156613)
 
-## 2021-10-20
+## 2021-10-20 · reply to @Austen
 
 > @Austen Not sure if you've considered it and ruled it out already, but those sound like symptoms of hypomania. Maybe be extra careful about risk-taking while this wired?
 
@@ -2478,19 +2335,19 @@ Quoting https://x.com/dfrsrchtwts/status/1450664379171573763:
 
 https://x.com/jachiam0/status/1450671989996220418 · [archived](https://web.archive.org/web/20211020035536/https://twitter.com/jachiam0/status/1450671989996220418)
 
-## 2021-10-19
+## 2021-10-19 · reply to @machinaut
 
 > @machinaut Fine-tune on "sort by controversial" top results?
 
 https://x.com/jachiam0/status/1450272128775843844 · [archived](https://web.archive.org/web/20211019012641/https://twitter.com/jachiam0/status/1450272128775843844)
 
-## 2021-10-19
+## 2021-10-19 · reply to @jachiam0
 
 > @machinaut The use of edge cases to try and break someone is something I'd think of as bad form in discourse, rather than a basis for downweighting the value of self-improvement through surfacing inconsistent beliefs.
 
 https://x.com/jachiam0/status/1450271759870017539 · [archived](https://web.archive.org/web/20211019012514/https://twitter.com/jachiam0/status/1450271759870017539)
 
-## 2021-10-19
+## 2021-10-19 · reply to @machinaut
 
 > @machinaut Hm, I agree that perfect consistency is an unrealistic standard and shouldn't be treated as the endgame. But I think the adversarial corner cases are useful and it's part of a healthy internal dialogue to try and find them for yourself.
 
@@ -2520,21 +2377,15 @@ https://x.com/jachiam0/status/1448112546133655558 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1447991587355590666 · [archived](https://web.archive.org/web/20211012190233/https://twitter.com/jachiam0/status/1447991587355590666)
 
-## 2021-10-09
+## 2021-10-09 · reply to @theshawwn
 
 > @theshawwn Is qntm's story about this doing the rounds in this convo yet? If not, let me just leave this here - https://t.co/ZpQTrslLMe
 
 https://x.com/jachiam0/status/1446785980371914753 · [archived](https://web.archive.org/web/20211009103402/https://twitter.com/jachiam0/status/1446785980371914753)
 
-## 2021-10-08
-
-> I’ve supported product design teams working on integrity and safety since joining FB in 2015. Some raw thoughts on the leaked docs and current press/political cycle. Probably a long one, 1/*
-
-https://x.com/jachiam0/status/1446461160086130695 · [archived](https://web.archive.org/web/20211008130317/https://twitter.com/jachiam0/status/1446461160086130695)
-
 ## 2021-10-07 · possibly deleted
 
-> Just learned that the same Durk Kingma is responsible for not only Adam but also flawless TI-calculator grayscale. The world is *incredibly* small it turns out! https://t.co/uJ6uk16EiJ
+_(text not available)_
 
 https://x.com/jachiam0/status/1446022866470797313 · [archived](https://web.archive.org/web/20211007080137/https://twitter.com/jachiam0/status/1446022866470797313)
 
@@ -2544,7 +2395,7 @@ _(text not available)_
 
 https://x.com/jachiam0/status/1445918330611650560 · [archived](https://web.archive.org/web/20211007010624/https://twitter.com/jachiam0/status/1445918330611650560)
 
-## 2021-10-06
+## 2021-10-06 · reply to @jachiam0
 
 > ---but we have to try. Be kind to someone who disagrees with you. Spend a whole minute thinking about why they feel what they feel without looking for easy explanations that let you casually dismiss their agency or humanity. 9/
 
@@ -2562,7 +2413,7 @@ _(text not available)_
 
 https://x.com/jachiam0/status/1445401050245107721 · [archived](https://web.archive.org/web/20211005145147/https://twitter.com/jachiam0/status/1445401050245107721)
 
-## 2021-10-05
+## 2021-10-05 · reply to @jachiam0
 
 > In retrospect, I probably overcommitted to social distancing. But wow. It's not a viable strategy indefinitely.
 
@@ -2586,19 +2437,13 @@ https://x.com/jachiam0/status/1445016393531809797 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1444236743960457219 · [archived](https://web.archive.org/web/20211002173418/https://twitter.com/jachiam0/status/1444236743960457219)
 
-## 2021-09-27
+## 2021-09-27 · reply to @Miles_Brundage
 
 > @Miles_Brundage ten thousand percent doable, but only if you fully commit to the cowboy drawl at all times
 
 https://x.com/jachiam0/status/1442639697570791427 · [archived](https://web.archive.org/web/20210927235808/https://twitter.com/jachiam0/status/1442639697570791427)
 
-## 2021-09-26
-
-> Landau and Lifshitz's simple and elegant derivation of the law of inertia using Lagrangian mechanics. I had heard great things about their "Mechanics" but am now having the pleasure of finding this out myself. Terse simplicity and elegance ooze from every page. https://t.co/aMrRB9T5Cz
-
-https://x.com/jachiam0/status/1442267483784630273 · [archived](https://web.archive.org/web/20210926231909/https://twitter.com/jachiam0/status/1442267483784630273)
-
-## 2021-09-26
+## 2021-09-26 · reply to @jachiam0
 
 > https://t.co/4o5H4A1hvm When I see stuff like this, I picture American conservatives looking at it and going "You know... that's not a bad idea." If there's enough value alignment on deeply-held beliefs, this kind of polarity reversal starts to feel possible.
 
@@ -2609,41 +2454,6 @@ https://x.com/jachiam0/status/1442265080075198467 · [archived](https://web.arch
 > A weird politics hunch I've been feeling since a little before the 2020 election: I think conservatives in the US might flip from an anti-China stance to a pro-China stance within a decade or two.
 
 https://x.com/jachiam0/status/1442265078225506308 · [archived](https://web.archive.org/web/20210926230930/https://twitter.com/jachiam0/status/1442265078225506308)
-
-## 2021-09-25 · reply to @ashwinb96
-
-> @NeurIPSConf @brthananjeyan @daniel_s_brown @SylviaLHerbert We have extended the deadline for our Safe RL and Control workshop to 10/4 AOE. We welcome any submissions related to studying safety and robustness in learning based control :) 
-> Website: https://t.co/xE8iDYFV1W
-> Submission Link: https://t.co/IhwGaSoqxI
-
-https://x.com/jachiam0/status/1441555234594066439 · [archived](https://web.archive.org/web/20210925000905/https://twitter.com/jachiam0/status/1441555234594066439)
-
-## 2021-09-24
-
-> Hey, we got a new paper out! 😊🤠
-> 
-> We train a model that can summarize entire books. We think this will help us understand how to align AI systems in the future, on tasks that are hard for humans to evaluate.
-> 
-> A quick summary (heh):
-
-Quoting https://x.com/OpenAI/status/1441104732525711372:
-> We want our AI systems to be aligned with human intentions.
-> 
-> This is especially important as tasks get more difficult to evaluate.
-> 
-> To develop techniques to address this problem, we trained a model to summarize books. https://t.co/NDnUtcjXFX
-
-https://x.com/jachiam0/status/1441304564011986948 · [archived](https://web.archive.org/web/20210924091415/https://twitter.com/jachiam0/status/1441304564011986948)
-
-## 2021-09-24
-
-> We want our AI systems to be aligned with human intentions.
-> 
-> This is especially important as tasks get more difficult to evaluate.
-> 
-> To develop techniques to address this problem, we trained a model to summarize books. https://t.co/NDnUtcjXFX
-
-https://x.com/jachiam0/status/1441227735922143239 · [archived](https://web.archive.org/web/20210924054029/https://twitter.com/jachiam0/status/1441227735922143239)
 
 ## 2021-09-14
 
@@ -2659,32 +2469,17 @@ https://x.com/jachiam0/status/1435806309392084994 · [archived](https://web.arch
 
 ## 2021-09-08
 
-> We're excited to announce @hlntnr of @CSETGeorgetown is joining our board of directors. Her deep understanding of AI policy will help us achieve our mission to deploy safe and responsible general-purpose AI. https://t.co/NuUxEzEOZq
-
-https://x.com/jachiam0/status/1435731771392286722 · [archived](https://web.archive.org/web/20210909061205/https://twitter.com/jachiam0/status/1435731771392286722)
-
-## 2021-09-08
-
-> I'm thrilled and incredibly honored to share this news! I can't wait to work with @sama, @gdb, @ilyasut and the rest of the team to contribute to the mission of building AI that benefits all of humanity.
-
-Quoting https://x.com/OpenAI/status/1435629966415171585:
-> We're excited to announce @hlntnr of @CSETGeorgetown is joining our board of directors. Her deep understanding of AI policy will help us achieve our mission to deploy safe and responsible general-purpose AI. https://t.co/NuUxEzEOZq
-
-https://x.com/jachiam0/status/1435664303726608385 · [archived](https://web.archive.org/web/20210909030829/https://twitter.com/jachiam0/status/1435664303726608385)
-
-## 2021-09-08
-
 > How performative do you think your Twitter account is? Not in a bad or fake way, but in the sense of "I screen my own tweets for an intended audience" instead of "I post my raw stream of consciousness."
 
 https://x.com/jachiam0/status/1435621755670827009 · [archived](https://web.archive.org/web/20210909004624/https://twitter.com/jachiam0/status/1435621755670827009)
 
-## 2021-09-04
+## 2021-09-04 · reply to @jachiam0
 
 > Otherizing 17% of humanity is also bad
 
 https://x.com/jachiam0/status/1434062729795420161 · [archived](https://web.archive.org/web/20210904075714/https://twitter.com/jachiam0/status/1434062729795420161)
 
-## 2021-09-04
+## 2021-09-04 · reply to @jachiam0
 
 > It's almost a cottage industry of pandering to a raging inferiority complex, and I don't know enough about how China really works to be super sure about this but what if thinking of China (1.4 billion people) as a wholly unified omnipotent Other is not well-grounded in reality?
 
@@ -2701,14 +2496,6 @@ https://x.com/jachiam0/status/1434062024435126276 · [archived](https://web.arch
 > Feels weird to only see one side of US-China geopolitics prognostication, kinda wish I could doomscroll Chinese social media too. Also, v weird that the West seems to fetishize its own defeat
 
 https://x.com/jachiam0/status/1434062023210328067 · [archived](https://web.archive.org/web/20210904075345/https://twitter.com/jachiam0/status/1434062023210328067)
-
-## 2021-08-31
-
-> tl;dr: Our findings call for a change in how we evaluate performance on deep RL benchmarks, for which we present more reliable protocols, easily applicable with *even a handful of runs*, to prevent unreliable results from stagnating the field.
-> 
-> https://t.co/qMyDEiNqR6 (1/N) https://t.co/ShXAGNRhBM
-
-https://x.com/jachiam0/status/1432811798558773251 · [archived](https://web.archive.org/web/20210831222603/https://twitter.com/jachiam0/status/1432811798558773251)
 
 ## 2021-08-25 · reply to @machinaut
 
@@ -2728,13 +2515,7 @@ https://x.com/jachiam0/status/1429665888614027267 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1429383203609976832 · [archived](https://web.archive.org/web/20210822223106/https://twitter.com/jachiam0/status/1429383203609976832)
 
-## 2021-08-22
-
-> Prompt: "an art deco cathedral in the style of cyberpunk noir" (CLIP guided diffusion) https://t.co/eTaspv2UJn
-
-https://x.com/jachiam0/status/1429354704258035715 · [archived](https://web.archive.org/web/20210822113501/https://twitter.com/jachiam0/status/1429354704258035715)
-
-## 2021-08-21
+## 2021-08-21 · reply to @EricRichards22
 
 > @EricRichards22 @eigenrobot He did: https://t.co/rNS5HnmeVI
 > 
@@ -2794,33 +2575,9 @@ https://x.com/jachiam0/status/1422581482883792901 · [archived](https://web.arch
 
 ## 2021-07-30 · possibly deleted
 
-_(text not available)_
+> SG1 episode title reference? https://t.co/cAwZmujNSt
 
 https://x.com/jachiam0/status/1420975893565030407 · [archived](https://web.archive.org/web/20210730051355/https://twitter.com/jachiam0/status/1420975893565030407)
-
-## 2021-07-30
-
-> "Nature always minimizes action". This statement is formulated by the principle of least action, which is a theoretical basis for Newton's law of gravity, Maxwell's equations, the Schrödinger equation, and Einstein's field equation. [Wiki https://t.co/vGTYrn4CBo] #Weeqly https://t.co/rAwEm5UMTZ
-
-https://x.com/jachiam0/status/1420943875787554820 · [archived](https://web.archive.org/web/20210730030643/https://twitter.com/jachiam0/status/1420943875787554820)
-
-## 2021-07-15
-
-> 📢 We're hiring a data scientist for the Alignment team at @OpenAI! 😊
-> 
-> We're looking for someone who cares deeply about the data used to train ML systems, potentially w/ experience in participatory design, safety/ social impact of ML systems, etc.
-> 
-> Link: https://t.co/sWne74acc9
-
-https://x.com/jachiam0/status/1415774494602366978 · [archived](https://web.archive.org/web/20210715204532/https://twitter.com/jachiam0/status/1415774494602366978)
-
-## 2021-07-14
-
-> Diffusion models are another type of generative models, besides GAN, VAE, and flow models. The idea is quite smart and clean. It is flexible enough to model any complex distribution while remains tractable to evaluate the distribution. 
-> 
-> https://t.co/3eaekDiUOU
-
-https://x.com/jachiam0/status/1415291604168962058 · [archived](https://web.archive.org/web/20210714125853/https://twitter.com/jachiam0/status/1415291604168962058)
 
 ## 2021-07-13
 
@@ -2828,28 +2585,18 @@ https://x.com/jachiam0/status/1415291604168962058 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1414930722289192960 · [archived](https://web.archive.org/web/20210713125238/https://twitter.com/jachiam0/status/1414930722289192960)
 
-## 2021-07-10
-
-> There are a lot of exciting things in the Codex paper, but my favorite titbit is the misalignment evaluations by @BethMayBarnes: Subtly buggy code in the context makes the model more likely to write buggy code, and this discrepancy gets larger as the models get bigger! https://t.co/nPiFngBW9t
-
-https://x.com/jachiam0/status/1413713120917299202 · [archived](https://web.archive.org/web/20210710041418/https://twitter.com/jachiam0/status/1413713120917299202)
-
-## 2021-07-09
-
-> Codex paper is out! I'm grateful to have led the Safety and PL workstreams for Codex/Copilot, working along Policy @OpenAI. There's many questions about limitations and implications (BI section), a thread on some of our findings:
-> https://t.co/kf8ig8szIQ
-
-https://x.com/jachiam0/status/1413429607949209601 · [archived](https://web.archive.org/web/20210709092748/https://twitter.com/jachiam0/status/1413429607949209601)
-
 ## 2021-07-02
 
 > How expensive would it be to have "black boxes" for buildings? Something like a collection of readouts of stresses and loads on the building, to make it easier to investigate catastrophic events like the Surfside condo collapse.
 
 https://x.com/jachiam0/status/1410870195774652417 · [archived](https://web.archive.org/web/20210702075724/https://twitter.com/jachiam0/status/1410870195774652417)
 
-## 2021-07-01
+## 2021-07-01 · reply to @jachiam0
 
 > Conflict of interest disclosure: being that I am a human also capable of piss and vinegar, I recognize that this applies to me as well. I didn't have to dig far back in my own comment history before I found this: https://t.co/i0BShgjdRr
+
+Quoting https://x.com/jachiam0/status/1337277287671054336:
+> @Miles_Brundage https://t.co/zmvfXM0vgN
 
 https://x.com/jachiam0/status/1410544602940022784 · [archived](https://web.archive.org/web/20210701103907/https://twitter.com/jachiam0/status/1410544602940022784)
 
@@ -2886,41 +2633,19 @@ https://x.com/jachiam0/status/1408355866571464706 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1403324566680735751 · [archived](https://web.archive.org/web/20210611122323/https://twitter.com/jachiam0/status/1403324566680735751)
 
-## 2021-06-10
-
-> We've found we can improve AI language model behavior and reduce harmful content by fine-tuning on a small, carefully designed dataset, and we are already incorporating this in our safety efforts. https://t.co/nJISaAyY2M https://t.co/AJe8bgkzRl
-
-https://x.com/jachiam0/status/1403049574231461888 · [archived](https://web.archive.org/web/20210610182959/https://twitter.com/jachiam0/status/1403049574231461888)
-
-## 2021-06-10
-
-> Amazing work by @IreneSolaiman &amp; @cbd shows how to teach our language models to behave with far less toxicity and much more aligned to the values we aspire towards. The internet is an awful place. This shows models trained on it don't have to be awful too! https://t.co/zxzhctnBbP
-
-https://x.com/jachiam0/status/1403035752884178947 · [archived](https://web.archive.org/web/20210610172116/https://twitter.com/jachiam0/status/1403035752884178947)
-
-## 2021-06-10
-
-> Another day, another step towards this meme becoming reality.
-> 
-> It's very interesting work, training on just &lt;100 (!) samples greatly increases human evaluation of the models performance.
-> 
-> https://t.co/WL5KMoH6fA https://t.co/mQXyI94dZE
-
-https://x.com/jachiam0/status/1403014967486386180 · [archived](https://web.archive.org/web/20210610212511/https://twitter.com/jachiam0/status/1403014967486386180)
-
 ## 2021-06-09 · possibly deleted
 
-_(text not available)_
+> you probably don't know this, but we already have our first near-1000 acre fire this year in California: #IntankoFire . 4.3 million acres burned last year. We are in a climate emergency. https://t.co/3R1uxHIUpN
 
 https://x.com/jachiam0/status/1402752880524754947 · [archived](https://web.archive.org/web/20210609224811/https://twitter.com/jachiam0/status/1402752880524754947)
 
 ## 2021-06-08 · possibly deleted
 
-_(text not available)_
+> physicist defining the word “werewolf”: “a werewolf is something that transforms like a werewolf”
 
 https://x.com/jachiam0/status/1402143940980084737 · [archived](https://web.archive.org/web/20210608060227/https://twitter.com/jachiam0/status/1402143940980084737)
 
-## 2021-06-07
+## 2021-06-07 · reply to @jachiam0
 
 > Depression rates down. Suicide rates down. Life satisfaction increasing across the board. But will any of these metrics really tell us if we're doing the right thing? If we're Truly Happy? "Yes," tech will thunder. "Of course it does." But we'll all have to decide alone. 7/8
 
@@ -2938,7 +2663,7 @@ _(text not available)_
 
 https://x.com/jachiam0/status/1400356210382053378 · [archived](https://web.archive.org/web/20210603073904/https://twitter.com/jachiam0/status/1400356210382053378)
 
-## 2021-06-01
+## 2021-06-01 · reply to @Miles_Brundage
 
 > @Miles_Brundage I think I've recommended both with equal frequency to folks in AI / AI safety land, so it's a safe bet I've recommended both to you in the past! And I stand by those recs. :)
 
@@ -2946,7 +2671,7 @@ https://x.com/jachiam0/status/1399556022084112386 · [archived](https://web.arch
 
 ## 2021-05-23 · possibly deleted
 
-_(text not available)_
+> Got a story for you. Years ago when I was a new PhD grad working at Twitter, there was a director of product who had strong ideas about how to solve the abuse and harassment problem on Twitter.
 
 https://x.com/jachiam0/status/1396364910498656262 · [archived](https://web.archive.org/web/20210523171958/https://twitter.com/jachiam0/status/1396364910498656262)
 
@@ -2996,12 +2721,6 @@ https://x.com/jachiam0/status/1388282141289574400 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1387516974209503236 · [archived](https://web.archive.org/web/20210428212040/https://twitter.com/jachiam0/status/1387516974209503236)
 
-## 2021-04-22
-
-> We’re hiring on @OpenAI’s Policy Research team✨(that’s @PamelaMishkin @SandhiniAgarwal @girishsastry, @Miles_Brundage &amp; yours truly!) I'm super-excited to share 3 roles: Program Manager; Research Scientist, Societal Harms of AI; and Research Scientist, Geopolitics of AI. Thread:
-
-https://x.com/jachiam0/status/1385354864868294657 · [archived](https://web.archive.org/web/20210422220917/https://twitter.com/jachiam0/status/1385354864868294657)
-
 ## 2021-04-22 · possibly deleted
 
 > I'm thrilled to share the collaborative climate project I've been doing with my @allwecansave circle-mates: Exquisite Climate. It is a playful, surrealist take on climate. https://t.co/DQEF2DgJEl
@@ -3015,29 +2734,19 @@ https://x.com/jachiam0/status/1385309352471392257 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1380424046676877312 · [archived](https://web.archive.org/web/20210409073519/https://twitter.com/jachiam0/status/1380424046676877312)
 
-## 2021-04-07
-
-> Do neural networks have any emergent structures that are larger-scale than circuits?
-> 
-> In our new Circuits article, we investigate the tendency of neural network branches to *specialize* – sorting closely-related features together across distinct branches.
-> 
-> https://t.co/lcVBeShwow
-
-https://x.com/jachiam0/status/1379604278248009728 · [archived](https://web.archive.org/web/20210407011841/https://twitter.com/jachiam0/status/1379604278248009728)
-
 ## 2021-04-03
 
 > Humanity is super lucky that so much of technology development factorizes as well as it does. Imagine if you had to understand the baremetal physics for your computer to program on it. (I mean, "real programmers" do [https://t.co/UkvXTddAfi], but y'know.)
 
 https://x.com/jachiam0/status/1378455297585414146 · [archived](https://web.archive.org/web/20210403211221/https://twitter.com/jachiam0/status/1378455297585414146)
 
-## 2021-03-25
+## 2021-03-25 · reply to @jachiam0
 
 > Let's proactively address risks together. Let's make sure that the next steps in AI are actually good.
 
 https://x.com/jachiam0/status/1374911202740957184 · [archived](https://web.archive.org/web/20210325022924/https://twitter.com/jachiam0/status/1374911202740957184)
 
-## 2021-03-25
+## 2021-03-25 · reply to @jachiam0
 
 > Most importantly: if you have a strong sense of integrity, you believe that safety claims have to be justified by evidence, and you believe it's urgent to do that work *before* risks are realized as harm: consider applying.
 
@@ -3073,7 +2782,7 @@ https://x.com/jachiam0/status/1374911198060281858 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1371443005702373377 · [archived](https://web.archive.org/web/20210315124801/https://twitter.com/jachiam0/status/1371443005702373377)
 
-## 2021-03-15
+## 2021-03-15 · reply to @kevinriggle
 
 > @kevinriggle Hmm, not sure; when I think about risk I get tensor
 
@@ -3091,7 +2800,7 @@ https://x.com/jachiam0/status/1370980547481112579 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1370980495920533506 · [archived](https://web.archive.org/web/20210314061017/https://twitter.com/jachiam0/status/1370980495920533506)
 
-## 2021-03-14
+## 2021-03-14 · reply to @tlbtlbtlb
 
 > @tlbtlbtlb If we adopt safety best practices that are common in other professional engineering fields, we'll get there. Surfacing and prioritizing hazards, and making that analysis legible, has to become the norm.
 
@@ -3099,11 +2808,14 @@ https://x.com/jachiam0/status/1370979299281432578 · [archived](https://web.arch
 
 ## 2021-03-04 · possibly deleted
 
-_(text not available)_
+> We've found thousands of multimodal neurons like the famous Halle Berry neuron in neuroscience
+> Excited to share a 2 year investigation with @ch402, @nickcammarata, @csvoss, @mpetrov, @shancarter, and @ludwigschubert
+> paper: https://t.co/qGeNaxqCOh
+> blog: https://t.co/0Z4UnUOJNA
 
 https://x.com/jachiam0/status/1367608357939339267 · [archived](https://web.archive.org/web/20210304225046/https://twitter.com/jachiam0/status/1367608357939339267)
 
-## 2021-03-04
+## 2021-03-04 · reply to @kevinriggle
 
 > @kevinriggle "Discourse and competition for attention / persuasion" does not easily lend itself to systematization / analysis and is barely tractable for governance. People see the thing and say "I want this to behave regularly/predictably," but it is just hard.
 
@@ -3121,18 +2833,6 @@ https://x.com/jachiam0/status/1365114246929899526 · [archived](https://web.arch
 > It's a hell of a long shot, but I wanted to re-share my eligibility post below. With days left to nominate for the Nebulas, I'd be honored if you nominated any of my stories. So proud and honored to have published with @ApparitionLit, @Pseudopod_org, and @fandsf in 2020. https://t.co/5pwet2hEWI
 
 https://x.com/jachiam0/status/1364275758412173317 · [archived](https://web.archive.org/web/20210223180926/https://twitter.com/jachiam0/status/1364275758412173317)
-
-## 2021-02-22
-
-> We're hiring platform &amp; product engineers at @OpenAI!
-> 
-> ML background not required.
-> 
-> GPT-3 is just the beginning. Bringing safe AI to the world needs good people who can build fast, scalable, and economically viable systems. Interested? I'm em@openai.com
-> 
-> https://t.co/ENulElSiCe
-
-https://x.com/jachiam0/status/1363947153245102082 · [archived](https://web.archive.org/web/20210222202212/https://twitter.com/jachiam0/status/1363947153245102082)
 
 ## 2021-02-21 · reply to @jachiam0
 
@@ -3195,29 +2895,19 @@ https://x.com/jachiam0/status/1363596596663910400 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1362053716942016512 · [archived](https://web.archive.org/web/20210217145844/https://twitter.com/jachiam0/status/1362053716942016512)
 
-## 2021-02-17
-
-> We're hiring research engineers for alignment work at @OpenAI!
-> 
-> If you're excited about finetuning gpt3-sized language models to be better at following human intentions, then this is for you!
-> 
-> Apply here: https://t.co/JoAEhg32ap
-
-https://x.com/jachiam0/status/1362030118957314052 · [archived](https://web.archive.org/web/20210217132527/https://twitter.com/jachiam0/status/1362030118957314052)
-
 ## 2021-02-16 · possibly deleted
 
 > If you love fanfiction in all its possibilities, but *especially* if you want good things for the poor, doomed characters, this story's for you: "Fanfiction for a Grimdark Universe," by @FoggWriter https://t.co/B6KvOF79Dk
 
 https://x.com/jachiam0/status/1361687512544993281 · [archived](https://web.archive.org/web/20210216144347/https://twitter.com/jachiam0/status/1361687512544993281)
 
-## 2021-02-16
+## 2021-02-16 · reply to @jachiam0
 
 > When lockdown's over and it's safe, I'm going to go spend weeks in all of those places that are dear to me. I'm so, so ready for that. 9/
 
 https://x.com/jachiam0/status/1361634297124245506 · [archived](https://web.archive.org/web/20210216111144/https://twitter.com/jachiam0/status/1361634297124245506)
 
-## 2021-02-16
+## 2021-02-16 · reply to @jachiam0
 
 > While I'm there I feel closer to my writing. My kinda crappy sci-fi and fantasy novels that I've been slowly grinding along at writing for a decade. They're not really for anyone, but I love them. I love being able to get really into them. 6/
 
@@ -3233,7 +2923,7 @@ Quoting https://x.com/jacobmbuckman/status/1360772131102089217:
 
 https://x.com/jachiam0/status/1360913421810606081 · [archived](https://web.archive.org/web/20210214112716/https://twitter.com/jachiam0/status/1360913421810606081)
 
-## 2021-02-09
+## 2021-02-09 · reply to @jachiam0
 
 > It always strikes me as weird when people treat physics as mundane, computation as nonspecial, and consciousness as mystical and inscrutable. But don't we make a habit of treating as casual the completely absurd?
 
@@ -3263,7 +2953,7 @@ https://x.com/jachiam0/status/1358369166604947457 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1355494522294214656 · [archived](https://web.archive.org/web/20210130123439/https://twitter.com/jachiam0/status/1355494522294214656)
 
-## 2021-01-30
+## 2021-01-30 · reply to @PDillis
 
 > @PDillis If it's helpful, my thinking is shaped by having periodically read odds and ends from the subreddit for at least a few months before the current Gamestop thing. I'm not just looking at an arbitrary selection of what's being shared on Twitter.
 
@@ -3299,7 +2989,7 @@ https://x.com/jachiam0/status/1354775328976105475 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1354727968380076034 · [archived](https://web.archive.org/web/20210128094825/https://twitter.com/jachiam0/status/1354727968380076034)
 
-## 2021-01-27
+## 2021-01-27 · reply to @marksaroufim
 
 > @marksaroufim that makes sense, being candid with others winds up helping you align your lens better with an outside view.
 
@@ -3319,35 +3009,18 @@ _(text not available)_
 
 https://x.com/jachiam0/status/1352342418855661568 · [archived](https://web.archive.org/web/20210121194921/https://twitter.com/jachiam0/status/1352342418855661568)
 
-## 2021-01-12
+## 2021-01-12 · reply to @Love2Code
 
 > @Love2Code An argument I've heard from a colleague is that selection pressures for quality by human editors and overseers might offset the risk here.
 
 https://x.com/jachiam0/status/1348813848233459712 · [archived](https://web.archive.org/web/20210112025552/https://twitter.com/jachiam0/status/1348813848233459712)
 
-## 2021-01-10
-
-> NEW! #AnatomyofCapitolAttack   TURN SOUND ON!
-> 
-> I submit this video as evidence in the Impeachment of Donald Trump.
-> 
-> Donald Trump engaged in "violent, deadly and seditious acts" which betrayed his trust as President and endangered the security of the United States. https://t.co/j9nJ1McTIo
-
-https://x.com/jachiam0/status/1348405531594039296 · [archived](https://web.archive.org/web/20210111125459/https://twitter.com/jachiam0/status/1348405531594039296)
-
 ## 2021-01-10 · possibly deleted
 
-_(text not available)_
+> My whole life I’ve been hearing people ask “what would you do if you go back and confront hitler?”
+> It appears the answer for so many is “I would cordially disagree with him but passionately defend his right to publicly organize fascism.”
 
 https://x.com/jachiam0/status/1348357509497540608 · [archived](https://web.archive.org/web/20210112044650/https://twitter.com/jachiam0/status/1348357509497540608)
-
-## 2021-01-07
-
-> Every. Single. Piece. Of. Hardware. In. Congress. NEEDS. to. be. replaced. 
-> 
-> Nothing can be trusted.
-
-https://x.com/jachiam0/status/1346982744094515200 · [archived](https://web.archive.org/web/20210107005152/https://twitter.com/jachiam0/status/1346982744094515200)
 
 ## 2021-01-04 · possibly deleted
 
@@ -3355,23 +3028,11 @@ https://x.com/jachiam0/status/1346982744094515200 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1346114413380530182 · [archived](https://web.archive.org/web/20210104152436/https://twitter.com/jachiam0/status/1346114413380530182)
 
-## 2020-12-29
-
-> The growing ability of generative models to create realistic text/audio/images/video has sparked much excitement and concern, and led to valuable work on anticipating/mitigating/preventing related risks. But I think we're still pretty clueless about the key GM use cases (thread).
-
-https://x.com/jachiam0/status/1343760443349692416 · [archived](https://web.archive.org/web/20201230051941/https://twitter.com/jachiam0/status/1343760443349692416)
-
-## 2020-12-17
-
-> Full stop— We can’t prevent algorithmic bias in innovative tech if POC don’t have a seat at the table.
-> 
-> @RonWyden and I urged @Google CEO @sundarpichai to reaffirm his commitment to D&amp;I and academic freedom. Now more than ever, @timnitGebru’s departure makes this work essential. https://t.co/RYwPB4bche
-
-https://x.com/jachiam0/status/1339397598365569024 · [archived](https://web.archive.org/web/20201217023203/https://twitter.com/jachiam0/status/1339397598365569024)
-
 ## 2020-12-16 · possibly deleted
 
-_(text not available)_
+> Stuff I wish I had known sooner: "Pinsker's inequality is cancelled," a thread. 🧵
+> If you want to relate total variation (TV) and Kullback-Leibler divergence (KL), then everyone, from textbooks to Google, will point you to Pinsker's inequality: TV(p,q) ≤ √(½ KL(p||q) )
+> 1/
 
 https://x.com/jachiam0/status/1339336431697727489 · [archived](https://web.archive.org/web/20201216223014/https://twitter.com/jachiam0/status/1339336431697727489)
 
@@ -3380,12 +3041,6 @@ https://x.com/jachiam0/status/1339336431697727489 · [archived](https://web.arch
 > @pmddomingos claims that the (silent) majority of the ML community would agree with him that #neurips papers should not need to contain a wider impact section that is considered during the review process. Is this a section a good idea? Should it be considered in the reviews?
 
 https://x.com/jachiam0/status/1337494934975201280 · [archived](https://web.archive.org/web/20201211203036/https://twitter.com/jachiam0/status/1337494934975201280)
-
-## 2020-12-10 · reply to @rajiinio
-
-> @pmddomingos @dlowd @RaiaHadsell "This is the way its always been" and "This is unfamiliar and uncomfortable for me" does not negate that this is a necessary intervention in this moment, as the field becomes more influential and ultimately accountable for the nature of its impact.
-
-https://x.com/jachiam0/status/1336970865280311297 · [archived](https://web.archive.org/web/20201210094759/https://twitter.com/jachiam0/status/1336970865280311297)
 
 ## 2020-12-07 · possibly deleted
 
@@ -3413,11 +3068,11 @@ https://x.com/jachiam0/status/1335537959320256512 · [archived](https://web.arch
 
 ## 2020-12-04 · possibly deleted
 
-_(text not available)_
+> Attention! This is my long overdue debut for explaining my artwork! I do artwork in addition to science and coding, and occasionally my art sorta discusses science. I'd like to start with my 2019 piece "Like Clockwork", pictured here. 1/
 
 https://x.com/jachiam0/status/1335001341211463680 · [archived](https://web.archive.org/web/20201204232335/https://twitter.com/jachiam0/status/1335001341211463680)
 
-## 2020-11-30
+## 2020-11-30 · reply to @kaixhin
 
 > @kaixhin @machinaut, I wonder if there's a way for you to share the work you did on this?
 
@@ -3471,64 +3126,17 @@ https://x.com/jachiam0/status/1307892383896412160 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1307463145691045889 · [archived](https://web.archive.org/web/20200919233457/https://twitter.com/jachiam0/status/1307463145691045889)
 
-## 2020-09-16
-
-> Excited to share our recent work on Phasic Policy Gradient, a new RL algorithm which improves sample efficiency by performing policy optimization and auxiliary optimization in two alternating phases. Check out the paper and code! https://t.co/EiOWyUereB
-
-https://x.com/jachiam0/status/1306356524516691968 · [archived](https://web.archive.org/web/20200916221759/https://twitter.com/jachiam0/status/1306356524516691968)
-
-## 2020-09-12
-
-> Would it be useful to have more introductory material to AI safety?
-
-https://x.com/jachiam0/status/1304600846043238401 · [archived](https://web.archive.org/web/20200912020709/https://twitter.com/jachiam0/status/1304600846043238401)
-
 ## 2020-09-09 · possibly deleted
 
-_(text not available)_
+> OpenAI's release of GPT-3 has been controversial, but the company has shown by example how to take safety and security seriously when developing bleeding-edge AI tech. We now need strong advocacy for better norms, education, and policy to preempt the coming synthetic text wave.7/
 
 https://x.com/jachiam0/status/1303807999304060929 · [archived](https://web.archive.org/web/20200909213117/https://twitter.com/jachiam0/status/1303807999304060929)
 
-## 2020-09-04
-
-> VERY excited to announce new work from our team (one of the safety teams @OpenAI)!! 🎉
-> 
-> We wanted to make training models to optimize human preferences Actually Work™. 
-> 
-> We applied it to English abstractive summarization, and got some pretty good results.
-> 
-> A thread 🧵: (1/n)
-
-Quoting https://x.com/OpenAI/status/1301914879721234432:
-> We've used reinforcement learning from human feedback to train language models for summarization. The resulting models produce better summaries than 10x larger models trained only with supervised learning: https://t.co/Sk31d1CnTu
-
-https://x.com/jachiam0/status/1301982734630285312 · [archived](https://web.archive.org/web/20200904203740/https://twitter.com/jachiam0/status/1301982734630285312)
-
 ## 2020-09-04 · possibly deleted
 
-_(text not available)_
+> love to see safety not taken for granted in research 👍, nice stuff. OpenAI's policy and safety folks are top-notch, go follow @jackclarkSF, @Miles_Brundage, @IreneSolaiman, @GretchenMarina, @Cullen_OK, @ryan_t_lowe, @adversariel for awesome work on AI ethics and safety
 
 https://x.com/jachiam0/status/1301950483393703936 · [archived](https://web.archive.org/web/20200904183007/https://twitter.com/jachiam0/status/1301950483393703936)
-
-## 2020-09-04
-
-> Very excited about the @NeurIPSConf 2020 Deep RL Workshop!
-> 
-> Amazing line-up of invited speakers: 
-> @marcgbellemare
-> Matt Botvinick
-> @RealAshEdwards
-> Karen Liu
-> @SusanMurphylab1
-> Anusha Nagabandi
-> @pyoudeyer
-> Peter Stone
-> 
-> Paper submission deadline: Oct 5, 2020
-> 
-> https://t.co/FfRNgofsIt https://t.co/yIcb2VtfBf
-
-https://x.com/jachiam0/status/1301703137456054272 · [archived](https://web.archive.org/web/20200904020754/https://twitter.com/jachiam0/status/1301703137456054272)
 
 ## 2020-08-26
 
@@ -3544,21 +3152,11 @@ https://x.com/jachiam0/status/1298120300408659971 · [archived](https://web.arch
 
 ## 2020-08-17 · possibly deleted
 
-_(text not available)_
+> 2020, @nbcthegoodplace style. This is my greatest work to date. https://t.co/vBAYz8V5Zu
 
 https://x.com/jachiam0/status/1295193417094316033 · [archived](https://web.archive.org/web/20200817025927/https://twitter.com/jachiam0/status/1295193417094316033)
 
-## 2020-08-12
-
-> I'm helping to compile a bibliography of papers that are explicitly about AI Safety.  
-> 
-> What existing bibliographies exist?
-> 
-> @ESYudkowsky @anderssandberg @OwainEvans_UK @daniel_filan @rohinmshah  @AmandaAskell @bshlgrs @vkrakovna  @paulfchristiano @danieldewey  @lukeprog
-
-https://x.com/jachiam0/status/1293515603123171328 · [archived](https://web.archive.org/web/20200812115902/https://twitter.com/jachiam0/status/1293515603123171328)
-
-## 2020-08-12
+## 2020-08-12 · reply to @Jess_Riedel
 
 > @Jess_Riedel @ESYudkowsky @anderssandberg @OwainEvans_UK @daniel_filan @rohinmshah @AmandaAskell @bshlgrs @vkrakovna @paulfchristiano @danieldewey @lukeprog Re: safe exploration: @machinaut and I did some useful lit review on this while writing the Safety Gym paper (mostly Alex!) https://t.co/gOdv8oOrTY
 
@@ -3621,25 +3219,6 @@ https://x.com/jachiam0/status/1288957803843862530 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1286869766678822915 · [archived](https://web.archive.org/web/20200725071557/https://twitter.com/jachiam0/status/1286869766678822915)
 
-## 2020-07-22
-
-> Hi Jerome! It's great to get feedback from someone with so much experience deploying AI at scale.
-> 
-> We share your concern about bias and safety in language models, and it's a big part of why we're starting off with a beta and have safety review before apps can go live.
-
-Quoting https://x.com/an_open_mind/status/1285940858290933767:
-> Last week I raised concerns about using #gpt3 in production because it can easily output toxic language that propagates harmful biases. I thought it was a pretty uncontroversial stance but the responses ranged from complete misunderstanding of AI to total irresponsibility. 1/13
-
-https://x.com/jachiam0/status/1286029872381349888 · [archived](https://web.archive.org/web/20200723101507/https://twitter.com/jachiam0/status/1286029872381349888)
-
-## 2020-07-22
-
-> If it were financially possible to give the world unfettered access to GPT-3, I don't think it's controversial to say that'd probably be a bad idea.
-> 
-> So, based on that, if you made fun of the GPT-2 release strategy, maybe pause for a bit? (1/x)
-
-https://x.com/jachiam0/status/1285730886533750786 · [archived](https://web.archive.org/web/20200722112947/https://twitter.com/jachiam0/status/1285730886533750786)
-
 ## 2020-07-21 · possibly deleted
 
 > I just got a dream job at @OpenAI. I’ll be using my software engineering experience, my Math degree, and my Philosophy degree, to help ensure Artificial General Intelligence benefits all of humanity, and not just a few people in power. I’m so excited!!! 😁 https://t.co/O7MTpgLc8o
@@ -3685,27 +3264,17 @@ https://x.com/jachiam0/status/1284670277566095363 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1284270698425245696 · [archived](https://web.archive.org/web/20200718024526/https://twitter.com/jachiam0/status/1284270698425245696)
 
-## 2020-07-17
+## 2020-07-17 · reply to @jachiam0
 
 > Protip: don't try to cook a whole Reese's cup into the middle of a pancake sandwich. Trust me, just don't
 
 https://x.com/jachiam0/status/1284108613661847554 · [archived](https://web.archive.org/web/20200717155708/https://twitter.com/jachiam0/status/1284108613661847554)
 
-## 2020-07-15
+## 2020-07-15 · reply to @ESYudkowsky
 
 > @ESYudkowsky Emphasis is on wrong reason for claim that no concern is needed - how can alignment be hard when there are alignment buttons right there in the upper right already?
 
 https://x.com/jachiam0/status/1283199906778198017 · [archived](https://web.archive.org/web/20200715004515/https://twitter.com/jachiam0/status/1283199906778198017)
-
-## 2020-07-09
-
-> ⚠️ CW: suicide, death threats
-> 
-> i wish people stopped sending me emails asking me to kill myself because they saw my talk and disagree that tech carries systemic bias through its algorithms
-> 
-> **especially** as it's triggering AF to someone who someone who has experienced ideation
-
-https://x.com/jachiam0/status/1281191365699756032 · [archived](https://web.archive.org/web/20200709115500/https://twitter.com/jachiam0/status/1281191365699756032)
 
 ## 2020-07-06 · reply to @jachiam0
 
@@ -3715,13 +3284,13 @@ https://x.com/jachiam0/status/1280024091295010816 · [archived](https://web.arch
 
 ## 2020-07-02 · possibly deleted
 
-_(text not available)_
+> (I worry that even meta-level discussion of this phenomenon looks or sounds "sided," and that some people will come away with the impression I'm subtweeting a particular issue, or incident, or "side." I'm not.)
 
 https://x.com/jachiam0/status/1278565147561226242 · [archived](https://web.archive.org/web/20200702055038/https://twitter.com/jachiam0/status/1278565147561226242)
 
 ## 2020-07-02 · possibly deleted
 
-_(text not available)_
+> It's frustrating how people tend to factionalize on issues in ways that make genuine attempts at sharing information or trying for reconciliation immediately, permanently suspect. The line you have to walk to put a thought into the world successfully is very delicate.
 
 https://x.com/jachiam0/status/1278565146978205696 · [archived](https://web.archive.org/web/20200702054841/https://twitter.com/jachiam0/status/1278565146978205696)
 
@@ -3731,16 +3300,7 @@ https://x.com/jachiam0/status/1278565146978205696 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1277358534783406080 · [archived](https://web.archive.org/web/20200628220022/https://twitter.com/jachiam0/status/1277358534783406080)
 
-## 2020-06-25
-
-> We're big fans of @rohinmshah's AI alignment newsletter here at #TorontoSRI. It summarizes and comments on new publications and developments in AI safety. Check out the latest edition below, or sign up here: https://t.co/cyF3ol44Hg #AIforGood #ResponsibleAI
-
-Quoting https://x.com/rohinmshah/status/1275835972094177285:
-> [Alignment Newsletter #105]: The economic trajectory of humanity, and what we might mean by optimization - https://t.co/5PPk7AOScg
-
-https://x.com/jachiam0/status/1276211594620358662 · [archived](https://web.archive.org/web/20200625183540/https://twitter.com/jachiam0/status/1276211594620358662)
-
-## 2020-06-25
+## 2020-06-25 · reply to @jachiam0
 
 > @brungl_ But for some things, which you may or may not be talking about, there's a huge amount of well-documented history that those things do push people towards committing harm.
 
@@ -3764,7 +3324,7 @@ https://x.com/jachiam0/status/1275956055441158144 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1275952888892674048 · [archived](https://web.archive.org/web/20200625005820/https://twitter.com/jachiam0/status/1275952888892674048)
 
-## 2020-06-24
+## 2020-06-24 · reply to @jachiam0
 
 > We enable injustice when we measure things as "all good" or "all bad." We create power and exercise power in a million little actions and judgments, and this kind of thing---evaluating complex work all in one direction or another---is one of those ways. 23/24
 
@@ -3824,7 +3384,7 @@ https://x.com/jachiam0/status/1275594878798360576 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1272728097444335616 · [archived](https://web.archive.org/web/20200616032008/https://twitter.com/jachiam0/status/1272728097444335616)
 
-## 2020-06-11
+## 2020-06-11 · reply to @jachiam0
 
 > To be clear, no less consequential or capable in the final tally, with no less risk (and certainly no less X-risk). But if we actually want to make it go well, we need to be clear-eyed about how it's most likely to come into existence.
 
@@ -3850,19 +3410,13 @@ _(text not available)_
 
 https://x.com/jachiam0/status/1270799508243283968 · [archived](https://web.archive.org/web/20200610194440/https://twitter.com/jachiam0/status/1270799508243283968)
 
-## 2020-06-09
-
-> We’ve been talking at OpenAI about what we can do to help Black equity. We’re committing $1M to this cause via direct donations and expanding our Scholars program, which provides educational resources and mentoring to underrepresented groups in AI. (1/4)
-
-https://x.com/jachiam0/status/1270184799198539777 · [archived](https://web.archive.org/web/20200609024717/https://twitter.com/jachiam0/status/1270184799198539777)
-
 ## 2020-06-09 · possibly deleted
 
 _(text not available)_
 
 https://x.com/jachiam0/status/1270153547800182785 · [archived](https://web.archive.org/web/20200609004905/https://twitter.com/jachiam0/status/1270153547800182785)
 
-## 2020-06-08
+## 2020-06-08 · reply to @AhmedSQRD
 
 > @AhmedSQRD I agree wholeheartedly. It's shameful how racist incentives permeating societal concepts of trust led so many to dismiss these things for so long.
 
@@ -3892,32 +3446,17 @@ _(text not available)_
 
 https://x.com/jachiam0/status/1269129831007961090 · [archived](https://web.archive.org/web/20200607112015/https://twitter.com/jachiam0/status/1269129831007961090)
 
-## 2020-06-05
-
-> rt if a black womxn has ever protected you or made you feel safe in their presence. 
-> rt if a black womxn has defended and uplifted you.
-
-https://x.com/jachiam0/status/1269020731666358272 · [archived](https://web.archive.org/web/20200606215142/https://twitter.com/jachiam0/status/1269020731666358272)
-
-## 2020-05-30
+## 2020-05-30 · reply to @jachiam0
 
 > If you're in the tunnel---if you're carrying forward one of these generational struggles, in whatever stage it's developed to---good luck. My heart is with you. I wish you the strength, courage, peace, and safety needed to see your convictions through. (6/6)
 
 https://x.com/jachiam0/status/1266619501329571841 · [archived](https://web.archive.org/web/20200530072405/https://twitter.com/jachiam0/status/1266619501329571841)
 
-## 2020-05-30
+## 2020-05-30 · reply to @jachiam0
 
 > Resolutions and justice get postponed by decades, and solutions become generational challenges. Humanity incurs a terrible multiple of the anguish it could have avoided. (3/6)
 
 https://x.com/jachiam0/status/1266619499190513664 · [archived](https://web.archive.org/web/20200530082749/https://twitter.com/jachiam0/status/1266619499190513664)
-
-## 2020-05-28 · reply to @GoogleDeepMind
-
-> Want to stay up to date with recent work being done in AI safety? @vkrakovna recommends the Alignment Newsletter, a weekly publication on AI alignment curated by @rohinmshah. 
-> 
-> Read it here: https://t.co/32FLIAW3yy &amp; let us know if you have your own #AtHomeWithAI suggestions!
-
-https://x.com/jachiam0/status/1266068860785979393 · [archived](https://web.archive.org/web/20200529124735/https://twitter.com/jachiam0/status/1266068860785979393)
 
 ## 2020-05-27 · reply to @jachiam0
 
@@ -3949,7 +3488,7 @@ _(text not available)_
 
 https://x.com/jachiam0/status/1263996722524483585 · [archived](https://web.archive.org/web/20200523011526/https://twitter.com/jachiam0/status/1263996722524483585)
 
-## 2020-05-21
+## 2020-05-21 · reply to @tw_killian
 
 > @tw_killian For sure, this is inherently multidimensional, and a "good/bad idea" axis really doesn't cover all of it. Mostly I just want to get a quick temperature check on if people like this particular instance of the policy.
 
@@ -3985,7 +3524,7 @@ https://x.com/jachiam0/status/1261706361055805440 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1261366979425796097 · [archived](https://web.archive.org/web/20200515193121/https://twitter.com/jachiam0/status/1261366979425796097)
 
-## 2020-05-15
+## 2020-05-15 · reply to @michael_nielsen
 
 > @michael_nielsen Agreed. I wish people could start consciously framing Twitter (and most conversation) in terms of "how do we create shared understanding of the things we care about?" and engage in pro-social behaviors to accomplish that.
 
@@ -4015,27 +3554,6 @@ _(text not available)_
 
 https://x.com/jachiam0/status/1257863247195078658 · [archived](https://web.archive.org/web/20200510202937/https://twitter.com/jachiam0/status/1257863247195078658)
 
-## 2020-05-05
-
-> There seems to be something like Moore’s Law, but faster, for algorithmic progress in AI domains with heavy investment. 
-> 
-> Really proud of this work with @nottombrown. Part of why I'm long on AI, and expect to work on it for the foreseeable future.
-
-Quoting https://x.com/OpenAI/status/1257701921969901569:
-> Since 2012, the amount of compute for training to AlexNet-level performance on ImageNet has been decreasing exponentially — halving every 16 months, in total a 44x improvement. 
-> 
-> By contrast, Moore's Law would only have yielded an 11x cost improvement: https://t.co/nQnZ4uPXQf https://t.co/vRwfm2UlSq
-
-https://x.com/jachiam0/status/1257703614220394496 · [archived](https://web.archive.org/web/20200510092144/https://twitter.com/jachiam0/status/1257703614220394496)
-
-## 2020-05-05
-
-> Since 2012, the amount of compute for training to AlexNet-level performance on ImageNet has been decreasing exponentially — halving every 16 months, in total a 44x improvement. 
-> 
-> By contrast, Moore's Law would only have yielded an 11x cost improvement: https://t.co/nQnZ4uPXQf https://t.co/vRwfm2UlSq
-
-https://x.com/jachiam0/status/1257703597480882176 · [archived](https://web.archive.org/web/20200510191516/https://twitter.com/jachiam0/status/1257703597480882176)
-
 ## 2020-05-03
 
 > Who are your favorite weird, informative, or niche expert Twitter accounts to follow? I want to start getting bigger-picture perspectives on the flow of goods and services, policy ideas, and decisions of consequence in the world.
@@ -4054,13 +3572,7 @@ https://x.com/jachiam0/status/1256695953228095488 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1256695952531841024 · [archived](https://web.archive.org/web/20200509071806/https://twitter.com/jachiam0/status/1256695952531841024)
 
-## 2020-05-01
-
-> Job alert - we're looking for a Policy Manager at OpenAI to work with me and the team to oversee research, carry out various management duties, and execute campaigns. Help us build the world's most technical AI policy team! https://t.co/uwf49MbX3E
-
-https://x.com/jachiam0/status/1256318258229067777 · [archived](https://web.archive.org/web/20200507111939/https://twitter.com/jachiam0/status/1256318258229067777)
-
-## 2020-04-29
+## 2020-04-29 · reply to @jachiam0
 
 > It's easy to imagine we live in a perfectly rational world, where when a technical mitigation exists, adoption is trivial. But history has shown repeatedly that organizations can fail to make the right decisions, even if they are actively trying to mitigate risk.
 
@@ -4084,14 +3596,6 @@ https://x.com/jachiam0/status/1255444221735174147 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1255441181212803072 · [archived](https://web.archive.org/web/20200505220545/https://twitter.com/jachiam0/status/1255441181212803072)
 
-## 2020-04-26
-
-> I'll be (virtually) presenting a working paper, "Concrete Problems of AI Safety, Revisited", w/ @roeldobbe at the ML-IRL workshop @iclr_conf #ICLR2020 
-> 
-> We attempt to revisit AI safety problems with real world case studies &amp; identify connections to traditional safety literature.
-
-https://x.com/jachiam0/status/1254444859286417408 · [archived](https://web.archive.org/web/20200505081723/https://twitter.com/jachiam0/status/1254444859286417408)
-
 ## 2020-04-25
 
 > Something important I think is missing from formal education: how the world is pretty efficient about good ideas. If an obvious idea isn't being done, it's often (though not always!) unworkable for some reason or another: ineffective, too risky, cost-prohibitive, etc.
@@ -4110,7 +3614,7 @@ _(text not available)_
 
 https://x.com/jachiam0/status/1252699230298189824 · [archived](https://web.archive.org/web/20200430225211/https://twitter.com/jachiam0/status/1252699230298189824)
 
-## 2020-04-21
+## 2020-04-21 · reply to @jachiam0
 
 > Thinking about how that will also extend to "audience of one" ads, and how the art and the ads can get weirdly intertwined. I don't think @steak_umm is a one-off: I think when that can be done by AI at scale, it's going to be.
 
@@ -4152,29 +3656,11 @@ https://x.com/jachiam0/status/1252683841317203969 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1252683840377610241 · [archived](https://web.archive.org/web/20200503042235/https://twitter.com/jachiam0/status/1252683840377610241)
 
-## 2020-04-16
-
-> Alongside co-authors @Miles_Brundage, Shahar Avin, @HaydnBelfield and @j_asminewang, I’m delighted to share a new multi-stakeholder report “Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims”: https://t.co/NkH2dKDSqV
-
-https://x.com/jachiam0/status/1250585950582747137 · [archived](https://web.archive.org/web/20200417102942/https://twitter.com/jachiam0/status/1250585950582747137)
-
-## 2020-04-15
-
-> [Alignment Newsletter #95]: A framework for thinking about how to make AI go well - https://t.co/Qof6zXn6Bd
-
-https://x.com/jachiam0/status/1250473897482276865 · [archived](https://web.archive.org/web/20200418155641/https://twitter.com/jachiam0/status/1250473897482276865)
-
 ## 2020-04-15
 
 > Sideways thought: if you're good at lockdown isolation, you might be good at space travel isolation! If you need a teeny tiny reason to feel better today, think about how this is like a little slice of astronaut training. :) https://t.co/fzy43LbfIO
 
 https://x.com/jachiam0/status/1250368361675902976 · [archived](https://web.archive.org/web/20200417062456/https://twitter.com/jachiam0/status/1250368361675902976)
-
-## 2020-04-14
-
-> Introducing OpenAI Microscope: a collection of visualizations of every layer and neuron in eight vision "model organisms" often studied in interpretability. This tool allows researchers to investigate down to individual units, and share those observations. https://t.co/9RxZwc5DOR
-
-https://x.com/jachiam0/status/1250181786774036482 · [archived](https://web.archive.org/web/20200417052026/https://twitter.com/jachiam0/status/1250181786774036482)
 
 ## 2020-04-13
 
@@ -4194,7 +3680,7 @@ https://x.com/jachiam0/status/1248555453329502210 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1248555438917877762 · [archived](https://web.archive.org/web/20200410101824/https://twitter.com/jachiam0/status/1248555438917877762)
 
-## 2020-04-09
+## 2020-04-09 · reply to @jachiam0
 
 > @rajiinio (I'll asterisk that the kinds of habits that I think are good and bad shift really dramatically for people proposing explicitly harmful or discriminatory ideas. I don't think this principle of charity extends to literally everyone in all circumstances.)
 
@@ -4208,20 +3694,6 @@ Quoting https://x.com/carlesgelada/status/1248117907642449927:
 > Controversial opinion: We should stop teaching students any ML methods other than neural networks. There is so much inertia against forgetting things that never panned out. It's hard to let go of ideas, especially one's own, but our objective should be to make real progress in AI
 
 https://x.com/jachiam0/status/1248373082659536898 · [archived](https://web.archive.org/web/20200409221419/https://twitter.com/jachiam0/status/1248373082659536898)
-
-## 2020-04-09
-
-> The supercomputing team is one of the most important teams at OpenAI, and they’re hiring.
-> 
-> They build some of the largest compute platforms in the world and craft powerful software tools to run large-scale machine learning on top. This is key to enabling our research.
-
-https://x.com/jachiam0/status/1248356600143847426 · [archived](https://web.archive.org/web/20200409210819/https://twitter.com/jachiam0/status/1248356600143847426)
-
-## 2020-04-09
-
-> Unexpected Passover twist - @Instacart delivered 9 lbs of pork belly as a substitute for beef brisket. ISO traditional kosher for Passover pork belly recipes? 🤷🏻‍♀️
-
-https://x.com/jachiam0/status/1248076610818805762 · [archived](https://web.archive.org/web/20200409023439/https://twitter.com/jachiam0/status/1248076610818805762)
 
 ## 2020-04-09 · possibly deleted
 
@@ -4238,7 +3710,7 @@ Quoting https://x.com/jachiam0/status/1240822238686765057:
 
 https://x.com/jachiam0/status/1247097796399738880 · [archived](https://web.archive.org/web/20200406125530/https://twitter.com/jachiam0/status/1247097796399738880)
 
-## 2020-04-04
+## 2020-04-04 · reply to @NoaNabeshima
 
 > @NoaNabeshima @AhmedSQRD Indeed! :)
 > 
@@ -4260,12 +3732,6 @@ Quoting https://x.com/jachiam0/status/1243879174533599233:
 > RL twitter: does anyone have a quick reference for a proof that lim gamma--&gt;1 (1-gamma) * E [sum_{t=0}^{inf} gamma^t r_t] = lim T --&gt; inf (1/T) E[sum_{t=0}^T r_t] ? I'm moderately sure this is true but can't prove off the cuff.
 
 https://x.com/jachiam0/status/1243887335382503429 · [archived](https://web.archive.org/web/20200328132802/https://twitter.com/jachiam0/status/1243887335382503429)
-
-## 2020-03-26
-
-> When you need that t.p. but Amazon is out, and you’re not supposed to leave your house; tech San Francisco doesn’t fail. Thank you @chenosaurus for the speedy cross city delivery- I owe you one 🧻 https://t.co/Y4OZzoyCWH
-
-https://x.com/jachiam0/status/1243160138837405697 · [archived](https://web.archive.org/web/20200326131808/https://twitter.com/jachiam0/status/1243160138837405697)
 
 ## 2020-03-26 · possibly deleted
 
@@ -4359,7 +3825,7 @@ _(text not available)_
 
 https://x.com/jachiam0/status/1239411754880225280 · [archived](https://web.archive.org/web/20200316045155/https://twitter.com/jachiam0/status/1239411754880225280)
 
-## 2020-03-16
+## 2020-03-16 · reply to @jachiam0
 
 > But social consensus lags disruption and can steer you wrong. When making decisions for the safety, security, and preparedness of yourself, people you love, or your constituents: follow the numbers. Reason critically. (3/4)
 
@@ -4371,13 +3837,7 @@ https://x.com/jachiam0/status/1239407418221588480 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1239407417546272768 · [archived](https://web.archive.org/web/20200316042704/https://twitter.com/jachiam0/status/1239407417546272768)
 
-## 2020-03-12
-
-> 🚨The White House is currently walking back *three* false policy announcements Trump made during his nationally televised address. https://t.co/W1WbWCygGI
-
-https://x.com/jachiam0/status/1237942717537116161 · [archived](https://web.archive.org/web/20200312161630/https://twitter.com/jachiam0/status/1237942717537116161)
-
-## 2020-03-11
+## 2020-03-11 · reply to @jachiam0
 
 > It gives me some amount of hope that if/when bigger and more harmful risks become imminent, society might hold up surprisingly well.
 
@@ -4388,17 +3848,6 @@ https://x.com/jachiam0/status/1237584087688175617 · [archived](https://web.arch
 > Is self-interest a sufficient incentive to mobilize massive-scale coordination in response to massive-scale risk? Apparently: no. But it doesn't fall as short as I think people tend to expect, either.
 
 https://x.com/jachiam0/status/1237584085930766337 · [archived](https://web.archive.org/web/20200311084446/https://twitter.com/jachiam0/status/1237584085930766337)
-
-## 2020-03-06
-
-> Time is the only reviewer I trust.
-
-Quoting https://x.com/tyrell_turing/status/1235983757145968642:
-> Okay, academia, I'm gonna say it:
-> 
-> If none of us are willing to review papers cause we're all too busy, then we should just switch to everything being on arXiv/bioRxiv and letting time and the market-place of ideas decide what is a legit finding or not.
-
-https://x.com/jachiam0/status/1235988763681017856 · [archived](https://web.archive.org/web/20200307003139/https://twitter.com/jachiam0/status/1235988763681017856)
 
 ## 2020-02-29
 
@@ -4439,7 +3888,7 @@ https://x.com/jachiam0/status/1224754377631494144 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1223637905442131969 · [archived](https://web.archive.org/web/20200203043124/https://twitter.com/jachiam0/status/1223637905442131969)
 
-## 2020-01-25
+## 2020-01-25 · reply to @rajiinio
 
 > @rajiinio Sort of. I mean, I'm pretty sure that "democracy" is a word that describes whatever the correct answer to this question is, I'm just not sure it's prescriptive (lots of particular mechanisms are the difference between good and bad democracy).
 
@@ -4451,7 +3900,7 @@ https://x.com/jachiam0/status/1220955248635678720 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1220941219670282241 · [archived](https://web.archive.org/web/20200125055229/https://twitter.com/jachiam0/status/1220941219670282241)
 
-## 2020-01-12
+## 2020-01-12 · reply to @jachiam0
 
 > @iandanforth @MelissaJSharpe For example, auxilliary losses + policy gradients (like DeepMind's UNREAL agent) result in learning agents that can do meaningful associative updates even in when reward signals are very rare or not present.
 
@@ -4475,7 +3924,7 @@ https://x.com/jachiam0/status/1206777760112238592 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1206776566815944705 · [archived](https://web.archive.org/web/20191217094425/https://twitter.com/jachiam0/status/1206776566815944705)
 
-## 2019-12-10
+## 2019-12-10 · reply to @jachiam0
 
 > @michellearning @katyanna_q @jeremyakahn Mentioned in another thread, but while I don't work on OpenAI comms I respect them and value them as colleagues, and have worked closely with them for a few releases I've been a part of (Spinning Up, Safety Gym). (2/n)
 
@@ -4487,19 +3936,19 @@ https://x.com/jachiam0/status/1204258495299641345 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1204258194719035392 · [archived](https://web.archive.org/web/20191210044820/https://twitter.com/jachiam0/status/1204258194719035392)
 
-## 2019-12-09
+## 2019-12-09 · reply to @rajiinio
 
 > @rajiinio (Josh is fine!) I'd think of it more like: when someone commits a crime, and they're helped by others in causing that harm, we hold all parties responsible for their respective roles in the causal structure of the crime. I think something like this will apply in AI.
 
 https://x.com/jachiam0/status/1204125179997065217 · [archived](https://web.archive.org/web/20191209201248/https://twitter.com/jachiam0/status/1204125179997065217)
 
-## 2019-12-09
+## 2019-12-09 · reply to @jachiam0
 
 > @rajiinio On ethical engineering: my experience has been that my colleagues at OpenAI are humanists who are sincerely committed to doing the right thing. What kinds of steps would you expect to see publically from an org that had the right commitment to ethical engineering? (4/4)
 
 https://x.com/jachiam0/status/1203959533619466241 · [archived](https://web.archive.org/web/20191209085434/https://twitter.com/jachiam0/status/1203959533619466241)
 
-## 2019-12-09
+## 2019-12-09 · reply to @rajiinio
 
 > @rajiinio I totally agree that non-blind reviews can have pitfalls. But do you think there are ways to conduct them that result in trustworthy outcomes? Earlier, @pcastr suggested adversarial reviews; would you trust research that came out of a process like this?
 
@@ -4514,55 +3963,55 @@ Quoting https://x.com/jachiam0/status/1203396673944207360:
 
 https://x.com/jachiam0/status/1203827051020439553 · [archived](https://web.archive.org/web/20191209001505/https://twitter.com/jachiam0/status/1203827051020439553)
 
-## 2019-12-08
+## 2019-12-08 · reply to @jachiam0
 
 > @michellearning I'm pretty sure that most of our releases don't go through as big a PR cycle as people think they do. When we released the Safety Gym paper (recent research work w/ Alex Ray &amp; Dario Amodei), I don't remember anyone talking to journalists at any point. (9/n)
 
 https://x.com/jachiam0/status/1203821487905337344 · [archived](https://web.archive.org/web/20191208234413/https://twitter.com/jachiam0/status/1203821487905337344)
 
-## 2019-12-08
+## 2019-12-08 · reply to @jachiam0
 
 > @michellearning I think it's been a better citizen of the field in this sense than people often give it credit for. (Disclaimer: I've personally spent a lot of time working on open source releases at OpenAI.)(7/n)
 
 https://x.com/jachiam0/status/1203819200688476160 · [archived](https://web.archive.org/web/20191208234527/https://twitter.com/jachiam0/status/1203819200688476160)
 
-## 2019-12-08
+## 2019-12-08 · reply to @jachiam0
 
 > @michellearning While OpenAI doesn't open source everything, it has made most of its research advances open source in meaningful ways, or amenable to independent confirmation. (6/n)
 
 https://x.com/jachiam0/status/1203818825587679234 · [archived](https://web.archive.org/web/20191208233339/https://twitter.com/jachiam0/status/1203818825587679234)
 
-## 2019-12-08
+## 2019-12-08 · reply to @jachiam0
 
 > @michellearning This works, I think, because independent confirmation of results by other parties is the real gold standard of science, moreso than peer review. And ML has been good as a field at surfacing where this holds and doesn't, especially due to emphasis on open source work. (5/n)
 
 https://x.com/jachiam0/status/1203818383445123072 · [archived](https://web.archive.org/web/20191208234357/https://twitter.com/jachiam0/status/1203818383445123072)
 
-## 2019-12-08
+## 2019-12-08 · reply to @jachiam0
 
 > @rajiinio What could we do to move things in the direction of increased trust in the legitimacy of the research and claims? (5/5)
 
 https://x.com/jachiam0/status/1203766819317669888 · [archived](https://web.archive.org/web/20191208201359/https://twitter.com/jachiam0/status/1203766819317669888)
 
-## 2019-12-08
+## 2019-12-08 · reply to @jachiam0
 
 > @rajiinio As mentioned in the other thread, OpenAI does internal peer review and usually invited external peer review before release, but because this has been non-transparent so far I think most people would not regard it as trustworthy. (4/n)
 
 https://x.com/jachiam0/status/1203766725528846337 · [archived](https://web.archive.org/web/20191208201714/https://twitter.com/jachiam0/status/1203766725528846337)
 
-## 2019-12-08
+## 2019-12-08 · reply to @jachiam0
 
 > @rajiinio So the question I would ask: are there other ways besides conference peer review that could be used to foster trust in the research? (3/n)
 
 https://x.com/jachiam0/status/1203766474990485504 · [archived](https://web.archive.org/web/20191208201339/https://twitter.com/jachiam0/status/1203766474990485504)
 
-## 2019-12-08
+## 2019-12-08 · reply to @jachiam0
 
 > @rajiinio At the same time, I think it's a relatively widely-understood phenomenon in the research community that conference reviews are noisy, often unfair (we have all had a Reviewer Number 2 who just *did not* understand the paper), and except for ICLR non transparent. (2/n)
 
 https://x.com/jachiam0/status/1203766191812046848 · [archived](https://web.archive.org/web/20191208201500/https://twitter.com/jachiam0/status/1203766191812046848)
 
-## 2019-12-08
+## 2019-12-08 · reply to @jachiam0
 
 > @rajiinio Also, some personal thoughts on peer review: I feel like these conversations often take as an unstated assumption that conference-track peer review is a very good system for evaluating work and deciding what people should get exposed to. (1/n)
 
@@ -4652,7 +4101,7 @@ https://x.com/jachiam0/status/1203396673944207360 · [archived](https://web.arch
 
 https://x.com/jachiam0/status/1203243096894394368 · [archived](https://web.archive.org/web/20191207095201/https://twitter.com/jachiam0/status/1203243096894394368)
 
-## 2019-11-21
+## 2019-11-21 · reply to @mark_riedl
 
 > @mark_riedl no lie, at one point there was an internal video in a slide deck with Safety Dance overlaid, and it was the best.
 

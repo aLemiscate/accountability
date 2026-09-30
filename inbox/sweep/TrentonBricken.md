@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 656 (2019-09-08 to 2026-04-07)
-- Read so far: 656 (100%); text found for 640; 0 not read yet
+- Archived posts found: 576 (2019-09-08 to 2026-04-07)
+- Left out: 80 archived link(s) under this handle that X says another account wrote
+- Read so far: 576 (100%); text found for 560; 0 not read yet
 - Possibly deleted: 45
-- Matching the topic filter: 61
+- Matching the topic filter: 53
 
 
-Every post is in `TrentonBricken.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `TrentonBricken/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2024-05-24
 
@@ -51,12 +52,6 @@ https://x.com/TrentonBricken/status/1519054423430942720 · [archived](https://we
 
 https://x.com/TrentonBricken/status/1519053799733833729 · [archived](https://web.archive.org/web/20220426204102/https://twitter.com/TrentonBricken/status/1519053799733833729)
 
-## 2022-04-24
-
-> Excited to announce a new preprint: "Reward Bases: Instantaneous Reward Revaluation with Temporal Difference Learning" with Mark Walton and Rafal Bogacz (https://t.co/wSPnWJPU59). In this paper we propose a novel RL algorithm which we call reward bases.
-
-https://x.com/TrentonBricken/status/1518354184336297984 · [archived](https://web.archive.org/web/20220424222104/https://twitter.com/TrentonBricken/status/1518354184336297984)
-
 ## 2022-03-22 · reply to @FoolAllTheTime
 
 > @FoolAllTheTime @nwilliams030 Looks like a great list! But if you had to pick one to read (and have read through a fundamentals of computer architecture textbook already) which would it be?
@@ -97,16 +92,6 @@ https://x.com/TrentonBricken/status/1480840566384599045 · [archived](https://we
 
 https://x.com/TrentonBricken/status/1479054932389113857 · [archived](https://web.archive.org/web/20220106114422/https://twitter.com/TrentonBricken/status/1479054932389113857)
 
-## 2021-12-20
-
-> 1/ Today, @newscienceorg announces its inaugural project: the 2022 Summer Fellowship.
-> 
-> With the NIH allocating &lt;2% of its funding to scientists &lt;=35yo, it's our responsibility to enable young scientists to pursue independent, high-risk, basic research.
-> 
-> https://t.co/Xs3HFpEmJB
-
-https://x.com/TrentonBricken/status/1472750916642160641 · [archived](https://web.archive.org/web/20211220021421/https://twitter.com/TrentonBricken/status/1472750916642160641)
-
 ## 2021-12-17 · possibly deleted
 
 > Sequencing has revolutionized epidemiology. But how can we explore genomic hypotheses in systematically? With @msantosvega, we develop a framework to build evolving epidemiological models and use it to study pathogen evolution across fitness valleys. 1/14 https://t.co/TNo85A6GXe
@@ -132,14 +117,6 @@ Quoting https://x.com/_akhaliq/status/1470213603613683713:
 > present a algorithm for attention that requires O(1) memory with respect to sequence length and an extension to self-attention that requires O(log n) memory https://t.co/2SvYYFLrET
 
 https://x.com/TrentonBricken/status/1470461165725798407 · [archived](https://web.archive.org/web/20211213183542/https://twitter.com/TrentonBricken/status/1470461165725798407)
-
-## 2021-11-25
-
-> I am looking for 1-2 PhD students to join my research group at Cambridge (CBL) fall 2022.
-> Our focus is on Deep Learning, AI Alignment, and existential safety.
-> Deadline for university funding is December 2.
-
-https://x.com/TrentonBricken/status/1463675517220134916 · [archived](https://web.archive.org/web/20211125181437/https://twitter.com/TrentonBricken/status/1463675517220134916)
 
 ## 2021-11-15
 
@@ -199,12 +176,6 @@ https://x.com/TrentonBricken/status/1390005201252323332 · [archived](https://we
 _(text not available)_
 
 https://x.com/TrentonBricken/status/1387758210547953664 · [archived](https://web.archive.org/web/20210429131906/https://twitter.com/TrentonBricken/status/1387758210547953664)
-
-## 2021-04-27
-
-> Our new paper uses WaveNet-type method for “Protein Design and Variant Prediction”  no alignments needed !  trains on only natural sequences with a generative autoregressive model on a dilated-CNN - collab with McMahon, Kruse and @AashishManglik  https://t.co/cYvbolloyw 1/7 https://t.co/350EG7INtP
-
-https://x.com/TrentonBricken/status/1387009978343559175 · [archived](https://web.archive.org/web/20210427114546/https://twitter.com/TrentonBricken/status/1387009978343559175)
 
 ## 2021-04-27 · possibly deleted
 
@@ -466,12 +437,6 @@ https://x.com/TrentonBricken/status/1295023107959336960 · [archived](https://we
 
 https://x.com/TrentonBricken/status/1287850594045235202 · [archived](https://web.archive.org/web/20200727204156/https://twitter.com/TrentonBricken/status/1287850594045235202)
 
-## 2020-06-23
-
-> Tragedy in the blogosphere: One of the best is being taken down. Scott Alexander (not his real name) explains:  NYT Is Threatening My Safety By Revealing My Real Name, So I Am Deleting The Blog | Slate Star Codex https://t.co/TKI4fjUSpV
-
-https://x.com/TrentonBricken/status/1275423289142325248 · [archived](https://web.archive.org/web/20200623140531/https://twitter.com/TrentonBricken/status/1275423289142325248)
-
 ## 2020-06-15 · possibly deleted
 
 > In @CityJournal, I sum up my view of the BLM movement: they're right about several important things, but wrong about the alleged problem of racist police shootings.
@@ -559,22 +524,6 @@ https://x.com/TrentonBricken/status/1259458280885190659 · [archived](https://we
 
 https://x.com/TrentonBricken/status/1258683958637756416 · [archived](https://web.archive.org/web/20200511103331/https://twitter.com/TrentonBricken/status/1258683958637756416)
 
-## 2020-05-05
-
-> The authors: "The benefits were carefully balanced against the risks and the benefits outweigh the risks."
-> 
-> benefits: get results faster by synthesizing SARS-CoV2 from scratch instead of waiting for viral sample delivery
-> 
-> *checks notes*
-> 🧐🤔🤦‍♂️🤦‍♂️🤦‍♂️🤦‍♂️ https://t.co/XekzHYRxry
-
-Quoting https://x.com/SurgeBiswas/status/1257343893152112645:
-> How on earth is this published in Nature with quite possibly the most meaningless statement on dual-use?
-> 
-> Who is convinced the benefits outweigh the risks here? https://t.co/eB0Zyq48ap
-
-https://x.com/TrentonBricken/status/1257472098987061248 · [archived](https://web.archive.org/web/20200510000757/https://twitter.com/TrentonBricken/status/1257472098987061248)
-
 ## 2020-05-03 · possibly deleted
 
 > I've written a short piece summarizing the recent Remdesivir RCT results and highlight the barriers and opportunities for it to be as effective an antiviral against SARS-CoV-2 as possible. Comments and thoughts very welcome!
@@ -638,14 +587,6 @@ _(text not available)_
 
 https://x.com/TrentonBricken/status/1242319318177599488 · [archived](https://web.archive.org/web/20200324065637/https://twitter.com/TrentonBricken/status/1242319318177599488)
 
-## 2020-03-21
-
-> Look at the difference between how the Kentucky Governor and Tennessee Governor handled the Coronavirus
-> 
-> And look at the results of those policies https://t.co/U3T4WMuF5a
-
-https://x.com/TrentonBricken/status/1241432531884376064 · [archived](https://web.archive.org/web/20200321184341/https://twitter.com/TrentonBricken/status/1241432531884376064)
-
 ## 2020-03-19 · reply to @BallouxFrancois
 
 > @BallouxFrancois Given covid characteristics, it seems like a global pandemic was largely inevitable unless it had been caught very early in China or we developed and distributed a vaccine very quickly? SE Asian countries holding out very well are the exceptions and may struggle in long run.
@@ -687,12 +628,6 @@ Quoting https://x.com/EthanAlley/status/1230544497030787072:
 > Dang. I somehow absorbed a story that GPUs actually represent an acceleration of Moore's law. That might still be true on some metric, but this vis makes it look like on transistor count GPUs are still playing catchup.
 
 https://x.com/TrentonBricken/status/1230555101598646273 · [archived](https://web.archive.org/web/20200220181156/https://twitter.com/TrentonBricken/status/1230555101598646273)
-
-## 2020-02-18
-
-> Reenactment of every time human beings develop technology that poses an existential threat to humanity. We learn our lessons the hard way. https://t.co/vX6rZz6IwS
-
-https://x.com/TrentonBricken/status/1229815405050335233 · [archived](https://web.archive.org/web/20200218184921/https://twitter.com/TrentonBricken/status/1229815405050335233)
 
 ## 2019-12-27 · reply to @oguzhanogreden
 

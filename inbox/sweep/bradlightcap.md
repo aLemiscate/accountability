@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 43 (2016-06-08 to 2026-05-11)
-- Read so far: 43 (100%); text found for 42; 0 not read yet
+- Archived posts found: 42 (2016-06-08 to 2026-05-11)
+- Left out: 1 archived link(s) under this handle that X says another account wrote
+- Read so far: 42 (100%); text found for 41; 0 not read yet
 - Possibly deleted: 1
-- Matching the topic filter: 5
+- Matching the topic filter: 4
 
 
-Every post is in `bradlightcap.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `bradlightcap/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-01-08
 
@@ -58,11 +59,3 @@ Quoting https://x.com/OpenAI/status/1730030975931846939:
 > Sam Altman is back as CEO, Mira Murati as CTO and Greg Brockman as President. OpenAI has a new initial board. Messages from @sama and board chair @btaylor https://t.co/sP0kAQIeKg
 
 https://x.com/bradlightcap/status/1730051774416101772 · [archived](https://web.archive.org/web/20250223095240/https://x.com/bradlightcap/status/1730051774416101772)
-
-## 2020-10-26
-
-> Psychedelic medicine could turn out to be one of the most important tools we have to improve mental health. Excited that @JeeshanJourney has launched a new company! 
-> 
-> https://t.co/pNI35eSpc6
-
-https://x.com/bradlightcap/status/1320864059512680448 · [archived](https://web.archive.org/web/20201026231122/https://twitter.com/bradlightcap/status/1320864059512680448)

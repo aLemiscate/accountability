@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 203 (2018-06-27 to 2025-11-10)
-- Read so far: 203 (100%); text found for 203; 0 not read yet
+- Archived posts found: 159 (2018-06-27 to 2025-11-10)
+- Left out: 44 archived link(s) under this handle that X says another account wrote
+- Read so far: 159 (100%); text found for 158; 0 not read yet
 - Possibly deleted: 8
-- Matching the topic filter: 29
+- Matching the topic filter: 24
 
 
-Every post is in `zicokolter.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `zicokolter/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2024-08-08
 
@@ -72,7 +73,7 @@ https://x.com/zicokolter/status/1550862859491577856 · [archived](https://web.ar
 
 https://x.com/zicokolter/status/1550862841426616320 · [archived](https://web.archive.org/web/20220723151834/https://twitter.com/zicokolter/status/1550862841426616320)
 
-## 2022-07-23
+## 2022-07-23 · reply to @thegautamkamath
 
 > @thegautamkamath Does it count as helpful Twitter engagement? ... or obvious admission that I am bad at navigating the ICML schedule? ... if nudge you to also tweet the Room number 🤪
 
@@ -108,12 +109,6 @@ https://x.com/zicokolter/status/1550101527733407745 · [archived](https://web.ar
 
 https://x.com/zicokolter/status/1549370614531727363 · [archived](https://web.archive.org/web/20220719122940/https://twitter.com/zicokolter/status/1549370614531727363)
 
-## 2022-05-27
-
-> #CallForPapers📢 #ICML2022 workshop on Formal Verification of Machine Learning (WFVML). Deadline extended by 1 week🗓️! Submit your papers by 06/03. Dual submissions are OK✅. Recently published papers (e.g., at ICML, CVPR, etc) are also welcome👏! Website: https://t.co/xW1SqV7ds4 https://t.co/oBFupxNV5U
-
-https://x.com/zicokolter/status/1530290672162508800 · [archived](https://web.archive.org/web/20220527205223/https://twitter.com/zicokolter/status/1530290672162508800)
-
 ## 2022-05-04 · possibly deleted
 
 > The @IEEE Conference on Secure and Trustworthy Machine Learning (SaTML) will take place for the 1st time on Feb 8-10, 2023! Very excited to create and co-chair @satml_conf with @pdmcdan
@@ -123,15 +118,6 @@ https://x.com/zicokolter/status/1530290672162508800 · [archived](https://web.ar
 > More @ https://t.co/fotNKkZwSM
 
 https://x.com/zicokolter/status/1521933387778433025 · [archived](https://web.archive.org/web/20220504192345/https://twitter.com/zicokolter/status/1521933387778433025)
-
-## 2022-04-27
-
-> Visit our #ICLR22 💡Spotlight paper/poster from 1:30pm-3:30pm EDT tomorrow (27 April) to learn more about a strange phenomenon where disagreement between two independent runs of SGD almost matches their test error! @yidingjiang @_christinabaek @zicokolter
-
-Quoting https://x.com/_vaishnavh/status/1409934463925096454:
-> New work w/ @yidingjiang @_christinabaek &amp; @zicokolter on estimating the generalization error of neural networks by looking at "disagreement rates" on unlabeled data + a theory of why this works really well https://t.co/hpOxtMJj9w 1/ https://t.co/rbPkmLSsDF
-
-https://x.com/zicokolter/status/1519136374825398272 · [archived](https://web.archive.org/web/20220427020856/https://twitter.com/zicokolter/status/1519136374825398272)
 
 ## 2022-03-18 · possibly deleted
 
@@ -153,22 +139,9 @@ https://x.com/zicokolter/status/1485800017327792133 · [archived](https://web.ar
 
 ## 2021-10-29 · possibly deleted
 
-> 😍 #NeurIPS is always a highlight at the end of the year &amp; a very important conference for us at #BCAI. We're happy to announce that 16 papers by our team &amp; collaborators were accepted to #NeurIPS2021, among others with our partners @zicokolter, @FrankRHutter &amp; @Tsinghua_Uni. 🎉
+_(text not available)_
 
 https://x.com/zicokolter/status/1454043800381313029 · [archived](https://web.archive.org/web/20211029111409/https://twitter.com/zicokolter/status/1454043800381313029)
-
-## 2021-01-29
-
-> Provable robustness is vital for safety-critical systems like planes/power grids, but deep RL has struggled to provide needed guarantees
-> 
-> Our new #ICLR2021 paper tackles this by fusing robust control &amp; deep RL
-> https://t.co/VcbKyRklsF
-> 
-> w/ @roderickmelrose M Fazlyab @zicokolter
-> 
-> 🧵 https://t.co/WvspEYW4R6
-
-https://x.com/zicokolter/status/1355166189924868096 · [archived](https://web.archive.org/web/20210129145037/https://twitter.com/zicokolter/status/1355166189924868096)
 
 ## 2020-12-15 · possibly deleted
 
@@ -190,12 +163,6 @@ Quoting https://x.com/roderickmelrose/status/1280890353663565824:
 > I’m really excited to release our work on a provably safe and optimal reinforcement learning method: Analogous Safe-state Exploration (with @_vaishnavh and @zicokolter). Paper: https://t.co/j38yaYxPNF Code: https://t.co/yOJcghXCDN
 
 https://x.com/zicokolter/status/1280920467679907840 · [archived](https://web.archive.org/web/20200708175658/https://twitter.com/zicokolter/status/1280920467679907840)
-
-## 2020-07-08
-
-> I’m really excited to release our work on a provably safe and optimal reinforcement learning method: Analogous Safe-state Exploration (with @_vaishnavh and @zicokolter). Paper: https://t.co/j38yaYxPNF Code: https://t.co/yOJcghXCDN
-
-https://x.com/zicokolter/status/1280919867424727042 · [archived](https://web.archive.org/web/20200708185249/https://twitter.com/zicokolter/status/1280919867424727042)
 
 ## 2020-06-05
 
@@ -230,14 +197,6 @@ https://x.com/zicokolter/status/1267991358624739330 · [archived](https://web.ar
 > CCC along with @NSF, @CRAtweets, and @NSF_CISE are delighted to announce the Computing Innovation Fellows Program 2020! https://t.co/XmN91dRJ9F
 
 https://x.com/zicokolter/status/1261138947364859905 · [archived](https://web.archive.org/web/20200515131835/https://twitter.com/zicokolter/status/1261138947364859905)
-
-## 2020-03-30
-
-> Looks we might be home for some time, so I'm giving a shot at making homemade math videos on proba/optim/ML.
-> First video gives a proof of the very nice ICML19 Theorem by @deepcohen - Rosenfeld- @zicokolter on certified defense against adversarial examples.
-> https://t.co/JgVdTD1vJB
-
-https://x.com/zicokolter/status/1244633958094077952 · [archived](https://web.archive.org/web/20200330152315/https://twitter.com/zicokolter/status/1244633958094077952)
 
 ## 2020-02-24 · possibly deleted
 

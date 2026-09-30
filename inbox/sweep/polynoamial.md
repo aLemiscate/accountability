@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 558 (… to 2026-08-01)
-- Read so far: 558 (100%); text found for 539; 0 not read yet
+- Archived posts found: 517 (1 from before November 2010, 2010-11-04 to 2026-08-01)
+- Left out: 41 archived link(s) under this handle that X says another account wrote
+- Read so far: 517 (100%); text found for 498; 0 not read yet
 - Possibly deleted: 63
-- Matching the topic filter: 98
+- Matching the topic filter: 89
 
 
-Every post is in `polynoamial.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `polynoamial/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-08-01
 
@@ -1076,37 +1077,11 @@ https://x.com/polynoamial/status/1475519225695334400 · [archived](https://web.a
 
 https://x.com/polynoamial/status/1471979516402671621 · [archived](https://web.archive.org/web/20211217230910/https://twitter.com/polynoamial/status/1471979516402671621)
 
-## 2021-12-16
-
-> We have a new paper out! It is well-known that in many games the raw policy of an SL model can blunder in silly ways even after extensive training. Search seems to capture a component of human planning that deep neural nets have difficulty fitting or modeling on their own.
-
-Quoting https://x.com/apjacob03/status/1471138693771673604:
-> ⭐New paper⭐
-> How do you build AI agents that are both strong and human-like? Regularize search towards a human policy! In chess, Go and no-press Diplomacy, we get SOTA human prediction accuracy while being much stronger than imitation learning.
-> https://t.co/tXWJbtO377
-> (1/9)🧵👇 https://t.co/jNTLfmsau1
-
-https://x.com/polynoamial/status/1471480881944489985 · [archived](https://web.archive.org/web/20211216140747/https://twitter.com/polynoamial/status/1471480881944489985)
-
 ## 2021-12-15 · reply to @010010110000110
 
 > @010010110000110 Yes! We show higher accuracy in predicting human chess moves across the board. You just need to turn up the regularization for weaker players. There's probably a lot more that can be done to push this even further.
 
 https://x.com/polynoamial/status/1471191854565576706 · [archived](https://web.archive.org/web/20211215185914/https://twitter.com/polynoamial/status/1471191854565576706)
-
-## 2021-12-15
-
-> If you care about AIs interacting with humans or AI alignment: 
-> You can combine imitation learning with search or self-play to produce policies that are both strong *and* humanlike. 
-> https://t.co/rdTZc4CyYr
-
-Quoting https://x.com/apjacob03/status/1471138693771673604:
-> ⭐New paper⭐
-> How do you build AI agents that are both strong and human-like? Regularize search towards a human policy! In chess, Go and no-press Diplomacy, we get SOTA human prediction accuracy while being much stronger than imitation learning.
-> https://t.co/tXWJbtO377
-> (1/9)🧵👇 https://t.co/jNTLfmsau1
-
-https://x.com/polynoamial/status/1471162018933600258 · [archived](https://web.archive.org/web/20211215170049/https://twitter.com/polynoamial/status/1471162018933600258)
 
 ## 2021-12-01
 
@@ -1139,24 +1114,6 @@ Quoting https://x.com/IsaacN0tNewton/status/1463099283792556033:
 
 https://x.com/polynoamial/status/1463172682485272594 · [archived](https://web.archive.org/web/20211124020729/https://twitter.com/polynoamial/status/1463172682485272594)
 
-## 2021-11-17
-
-> How can we train RL agents that act optimally, *without* sharing any information between them through emergent conventions? "Off-Belief Learning" finally solves this! It takes the weirdness out of learning in Dec-POMDPs and is a huge leap for human-AI coordination &amp; AI safety🤖🧑‍🔧
-
-Quoting https://x.com/HengyuanH/status/1460868515083161600:
-> How can AI agents discover human-compatible policies *without requiring human data*?
-> An important step is to develop meaningful, interpretable conventions for communicating information, rather than relying on arbitrary encodings. (1)
-
-https://x.com/polynoamial/status/1460980258673410056 · [archived](https://web.archive.org/web/20211117143709/https://twitter.com/polynoamial/status/1460980258673410056)
-
-## 2021-11-15
-
-> Writing a statement of purpose (SOP) for PhD admissions – please do not make me read another “as a kid, when I looked at the sky…” 
-> 
-> a thread.
-
-https://x.com/polynoamial/status/1460280692881956871 · [archived](https://web.archive.org/web/20211115165048/https://twitter.com/polynoamial/status/1460280692881956871)
-
 ## 2021-10-27
 
 > Are you doing research on multi-agent reinforcement learning? The #AAAI2022 Workshop on RL in Games is a great place to get feedback on your work! We're accepting paper submissions until Nov 12th. The workshop will be held on Feb 28th or Mar 1st. https://t.co/dLlrEPS5hF
@@ -1186,14 +1143,6 @@ https://x.com/polynoamial/status/1445829522041937921 · [archived](https://web.a
 > There's a great discussion on the state of poker AI starting around 1:40:00 in this podcast! https://t.co/jJ7D8Yrpte
 
 https://x.com/polynoamial/status/1443277551271567362 · [archived](https://web.archive.org/web/20210929181251/https://twitter.com/polynoamial/status/1443277551271567362)
-
-## 2021-09-10
-
-> Applications are open for the Open Phil AI Fellowship!
-> 
-> This program extends full support to a community of current &amp; incoming PhD students, in any area of AI/ML, whose research aims to reduce global catastrophic risks posed by advanced AI systems. https://t.co/U4LOwrkgs8
-
-https://x.com/polynoamial/status/1436128359558389761 · [archived](https://web.archive.org/web/20210910020146/https://twitter.com/polynoamial/status/1436128359558389761)
 
 ## 2021-08-06
 
@@ -1262,7 +1211,7 @@ https://x.com/polynoamial/status/1401896707089219600 · [archived](https://web.a
 
 https://x.com/polynoamial/status/1401896705960914951 · [archived](https://web.archive.org/web/20210607140944/https://twitter.com/polynoamial/status/1401896705960914951)
 
-## 2021-06-01
+## 2021-06-01 · reply to @ykilcher
 
 > @ykilcher I think you're confusing "superhuman" with "above-average". There were definitely *profitable* PLO bots years ago. But there's a huge difference between that and being better than the best professional humans.
 
@@ -1285,12 +1234,6 @@ https://x.com/polynoamial/status/1399471562361815047 · [archived](https://web.a
 > The bidding phase is my favorite part of the review cycle because I get excited seeing all the amazing ideas in the abstracts and I'm not yet disappointed by the actual content of the papers.
 
 https://x.com/polynoamial/status/1399450301019705344 · [archived](https://web.archive.org/web/20210531194141/https://twitter.com/polynoamial/status/1399450301019705344)
-
-## 2021-05-12
-
-> Two weeks from tonight on May 26th, we will announce a winner of a separate drawing for adults who have received at least their first dose of the vaccine.  This announcement will occur each Wednesday for five weeks, and the winner each Wednesday will receive one million dollars.
-
-https://x.com/polynoamial/status/1392613433502220292 · [archived](https://web.archive.org/web/20210512225142/https://twitter.com/polynoamial/status/1392613433502220292)
 
 ## 2021-05-10 · possibly deleted
 
@@ -1432,12 +1375,6 @@ https://x.com/polynoamial/status/1325982764064239616 · [archived](https://web.a
 
 https://x.com/polynoamial/status/1325981488194744327 · [archived](https://web.archive.org/web/20201110020028/https://twitter.com/polynoamial/status/1325981488194744327)
 
-## 2020-10-14 · reply to @coeff_giving
-
-> Update: On account of the NeurIPS camera ready paper deadline, we are granting a universal 4-day extension on all application submissions for the Open Phil AI Fellows program, until Mon Oct 26 at 11:59 PM PT. (Recommendation letters are still due Thurs Oct 29 at 11:59 PM PT.)
-
-https://x.com/polynoamial/status/1316504921231982595 · [archived](https://web.archive.org/web/20201014222348/https://twitter.com/polynoamial/status/1316504921231982595)
-
 ## 2020-10-08 · reply to @OsarenomaOsare1
 
 > @OsarenomaOsare1 That's a good question! Some challenges I can think of: search takes time and in real-time games you need to act fast, you need to look pretty far ahead in real-time games to improve your policy, the search space is massive. I think these are fixable but more research is needed.
@@ -1471,7 +1408,7 @@ https://x.com/polynoamial/status/1305518423045271552 · [archived](https://web.a
 
 https://x.com/polynoamial/status/1305511357559734274 · [archived](https://web.archive.org/web/20200914142057/https://twitter.com/polynoamial/status/1305511357559734274)
 
-## 2020-09-14
+## 2020-09-14 · reply to @prantikDebAI
 
 > @prantik_deb One option is to make a different research statements for each area. Send the quantum one to schools with quantum faculty and the computer vision one to schools with lots of computer vision faculty. I was interested in both computer vision and game theory, so that's what I did
 
@@ -1564,32 +1501,11 @@ _(text not available)_
 
 https://x.com/polynoamial/status/1275231128140513281 · [archived](https://web.archive.org/web/20200623005633/https://twitter.com/polynoamial/status/1275231128140513281)
 
-## 2020-06-22
-
-> I believe in #opensource, and in making scientific results reproducable. Therefore, I am open-sourcing an implementation of DREAM, the state-of-the-art in Multi-agent model-free Deep RL.
-> 
-> GitHub: https://t.co/jzPNpPQs6f
-> 
-> #ai #deeplearning
-
-Quoting https://x.com/EricSteinb/status/1274022256834904067:
-> DREAM come true! :) Literally. @polynoamial, @adamlerer, and I developed an AI algorithm for multi-agent imperfect information games that's *100x more data-efficient* than the previous state-of-the-art. Check out the preprint (under NeurIPS review): https://t.co/Dstk59hRq3 https://t.co/gM8C205mqY
-
-https://x.com/polynoamial/status/1275054198862774272 · [archived](https://web.archive.org/web/20200622132952/https://twitter.com/polynoamial/status/1275054198862774272)
-
 ## 2020-06-18 · reply to @faoliehoek
 
 > @faoliehoek @sharky6000 @michal_sustr @Lifrordi @MichaelHBowling @sharky6000 The consistency problem is discussed in Section 5 of our NeurIPS 2017 paper https://t.co/NzhtPDdmTe though not in as much detail. We point out that some prior search algorithms were unsound because they don't account for this, and design our algorithm to be safe/sound
 
 https://x.com/polynoamial/status/1273716967082528768 · [archived](https://web.archive.org/web/20200618204013/https://twitter.com/polynoamial/status/1273716967082528768)
-
-## 2020-06-02
-
-> Important notice to all authors: the paper submission deadline has been extended by 48 hours. The new deadline is Friday June 5, 2020 at 1pm PDT
-> 
-> Find the official announcement here: https://t.co/N8ggvogybL
-
-https://x.com/polynoamial/status/1267875216006483977 · [archived](https://web.archive.org/web/20200603053138/https://twitter.com/polynoamial/status/1267875216006483977)
 
 ## 2019-12-07 · reply to @faoliehoek
 

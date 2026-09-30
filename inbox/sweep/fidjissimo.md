@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 187 (2010-11-04 to 2026-05-15)
-- Read so far: 187 (100%); text found for 186; 0 not read yet
+- Archived posts found: 159 (1 from before November 2010, 2010-11-04 to 2026-05-15)
+- Left out: 28 archived link(s) under this handle that X says another account wrote
+- Read so far: 159 (100%); text found for 158; 0 not read yet
 - Possibly deleted: 16
-- Matching the topic filter: 29
+- Matching the topic filter: 27
 
 
-Every post is in `fidjissimo.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `fidjissimo/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-03-24
 
@@ -402,19 +403,6 @@ https://x.com/fidjissimo/status/1465724581398949891 · [archived](https://web.ar
 
 ## 2021-10-27
 
-> Today @fidjissimo added two female board members, in addition to bringing on power women like @ceverson.
-> 
-> This means @Instacart now has a majority-women management team, after her first 3 months on the job.
-> 
-> To all the companies “looking hard” for women, she says “look harder.”
-
-Quoting https://x.com/BloombergTV/status/1453395660024254468:
-> EXCLUSIVE: Instacart is "leading the fight against" Amazon says CEO Fidji Simo, and adding two new board members as part of its plan to build the grocery platform of the future. Simo talks to @emilychangtv after her first 90 days on the job https://t.co/V2AqshcPga https://t.co/f4HHu6z4ed
-
-https://x.com/fidjissimo/status/1453397903712534540 · [archived](https://web.archive.org/web/20211027164131/https://twitter.com/fidjissimo/status/1453397903712534540)
-
-## 2021-10-27
-
 > As we focus on Instacart’s next chapter, I’m thrilled to share that @meredith_levien and @lilysarafan have agreed to join our Board. Read more here:
 
 Quoting https://x.com/emilychangtv/status/1453392789702598659:
@@ -452,15 +440,6 @@ Quoting https://x.com/apoorva_mehta/status/1413167852136411140:
 > I’m excited to share that we’ve recruited @fidjissimo  to join us as Instacart’s new CEO as I transition to Executive Chairman on August 2. As one of the most formidable consumer tech leaders in the world, I’m thrilled to partner with Fidji. Read more:  https://t.co/GTpseFzN1O
 
 https://x.com/fidjissimo/status/1413197596546400257 · [archived](https://web.archive.org/web/20210708180545/https://twitter.com/fidjissimo/status/1413197596546400257)
-
-## 2021-06-19
-
-> Personalized ads are one of those things where stated preference and observed preference are almost total opposites. No one thinks that they do, but people really enjoy being catered to.
-
-Quoting https://x.com/danielpatricio/status/1406056428889116677:
-> Legit about to turn back on data sharing iOS 14 so I get more damn relevant ads
-
-https://x.com/fidjissimo/status/1406280780502867968 · [archived](https://web.archive.org/web/20210619183855/https://twitter.com/fidjissimo/status/1406280780502867968)
 
 ## 2021-04-23 · possibly deleted
 
