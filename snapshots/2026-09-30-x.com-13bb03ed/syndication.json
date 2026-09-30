@@ -1,0 +1,75 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 4552,
+  "in_reply_to_screen_name": "OpenAI",
+  "in_reply_to_status_id_str": "2027846015051772121",
+  "in_reply_to_user_id_str": "4398626122",
+  "lang": "en",
+  "created_at": "2026-02-28T20:39:00.000Z",
+  "display_text_range": [
+    0,
+    137
+  ],
+  "entities": {},
+  "id_str": "2027846016423321831",
+  "text": "We do not think Anthropic should be designated as a supply chain risk and we’ve made our position on this clear to the Department of War.",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2027846016423321831"
+    ],
+    "editable_until_msecs": "1772314740000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 292,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 569,
+    "in_reply_to_screen_name": "OpenAI",
+    "in_reply_to_status_id_str": "2027846013650932195",
+    "in_reply_to_user_id_str": "4398626122",
+    "lang": "en",
+    "reply_count": 73,
+    "retweet_count": 42,
+    "created_at": "2026-02-28T20:39:00.000Z",
+    "display_text_range": [
+      0,
+      279
+    ],
+    "entities": {},
+    "id_str": "2027846015051772121",
+    "text": "Other AI labs have reduced or removed their safety guardrails and relied primarily on usage policies as their primary safeguards in national security deployments. We think our approach better protects against unacceptable use.\n\nIn our agreement, we protect our redlines through a",
+    "user": {
+      "id_str": "4398626122",
+      "name": "OpenAI",
+      "screen_name": "OpenAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2027846015051772121"
+      ],
+      "editable_until_msecs": "1772314740000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

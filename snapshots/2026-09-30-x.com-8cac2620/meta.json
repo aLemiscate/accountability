@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/OpenAI/status/1917411480548565332",
+  "captured_at": "2026-09-30T04:44:55.544Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "c617092f8ba9849ffa73cbe063f644095be345dbce2ee135d59b2b25eb422dfd",
+    "page.txt": "06ea6c25a24c32d749e78a74531384ed9bac1b129e7f7dfe6eeda20cb2595b9e",
+    "post.json": "1c8622543aeed1d66200b95245ade8d0d8ed99ff61c900a0bdafb464ef36c73e",
+    "syndication.json": "092f6f01fa2390bccf170e4616f1b7434157f375d66ec674adc73b2edec91a19",
+    "post.txt": "5d3da71d43dfc7ca9d8b3b50659415e601fda9efed5b1c76e831e9f8251381c8"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1917411480548565332",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"We’ve rolled back last week's GPT-4o update in ChatGPT because it was overly flattering and agreeable. You now have access to an earlier version with more balanced behavior. More on what happened, why it matters, and how we’re addressing sycophancy: https://t.co/LOhOU7i7DC\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "April 30, 2025",
+    "posted_at": "2025-04-30T02:51:35.402Z"
+  }
+}

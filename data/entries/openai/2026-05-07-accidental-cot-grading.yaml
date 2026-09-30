@@ -1,0 +1,53 @@
+title: OpenAI finds it accidentally graded the chain of thought of seven
+  released models
+date: 2026-05-07
+org: openai
+type: did
+kind: disclosure
+who: [openai]
+quote: >-
+  we found that some previously released models were inadvertently exposed to
+  limited CoT grading during RL training, despite our policy against it.
+summary: >-
+  After improving an automated detector shortly after GPT-5.4's release, OpenAI
+  found that reinforcement-learning rewards had been computed partly from the
+  chain of thought in training runs for released models: GPT-5.4 Thinking,
+  GPT-5.4 mini, GPT-5.3 mini and several GPT-5.x Instant models. Three reward
+  signals were involved (rating a trajectory's usefulness, penalizing
+  unnecessary confirmation questions, and penalizing successful prompt
+  injections), touching at most 3.8% of training samples for the most affected
+  model and under 1.8% for most. OpenAI said its analyses showed "no clear
+  reductions in CoT monitorability, though we cannot rule out effects which are
+  harder to measure." GPT-5.5 was not affected.
+contradicts: [2025-03-10-cot-optimization-pressure]
+patterns: []
+related: [2026-08-14-risk-report-classifier-gap]
+sources:
+  - title: Investigating the consequences of accidentally grading CoT during RL
+    publisher: OpenAI Alignment Research Blog
+    url: https://alignment.openai.com/accidental-cot-grading/
+    date: 2026-05-07
+    type: primary
+    snapshot: snapshots/2026-09-30-alignment.openai.com-feca7e9b
+  - title: OpenAI on X (announcing the finding)
+    publisher: X
+    url: https://x.com/OpenAI/status/2052845764507062349
+    date: 2026-05-08
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-2e1ce7e6
+  - title: OpenAI on X (on fixes)
+    publisher: X
+    url: https://x.com/OpenAI/status/2052845770056073216
+    date: 2026-05-08
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-f86c7f8a
+response: >-
+  OpenAI fixed the affected reward pathways, expanded the detector (which scans
+  every RL run and posts suspected cases in a public internal channel), and
+  tightened internal guidance. It shared a draft for review with METR, Apollo
+  Research and Redwood Research, and said the incidents did not change its
+  policy: "We still aim to avoid grading model CoTs during RL training."
+note: >-
+  Self-reported, with outside reviewers and numbers, which is what a disclosure
+  should look like. It's here on the same standard as Anthropic's classifier
+  gap: a stated safeguard that turned out not to have held.

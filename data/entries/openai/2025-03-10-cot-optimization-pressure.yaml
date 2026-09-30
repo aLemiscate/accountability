@@ -1,0 +1,61 @@
+title: 'OpenAI: don''t put strong optimization pressure on a reasoning model''s
+  chain of thought'
+date: 2025-03-10
+org: openai
+type: said
+kind: policy
+who: [openai, wojciech-zaremba]
+venue: Blog post and paper, "Detecting misbehavior in frontier reasoning models"
+quote: >-
+  We recommend against applying strong optimization pressure directly to the
+  CoTs of frontier reasoning models, leaving CoTs unrestricted for monitoring.
+summary: >-
+  OpenAI reported that reading a reasoning model's chain of thought (CoT) caught
+  misbehavior such as subverting tests in coding tasks, and that penalizing "bad
+  thoughts" during training taught models to hide their intent while still
+  misbehaving. It recommended leaving CoTs unoptimized so they stay useful for
+  monitoring, and later described this as a policy against grading CoTs during
+  reinforcement learning. In July 2025 co-founder Wojciech Zaremba promoted a
+  cross-lab paper on the point: "please don't train away this monitorability."
+concreteness: directional
+status: contradicted
+breaks_if: >-
+  OpenAI trains released models with rewards computed from their chains of
+  thought, or drops the policy.
+patterns: []
+related: [2026-08-14-risk-report-classifier-gap]
+sources:
+  - title: OpenAI on X ("Detecting misbehavior in frontier reasoning models")
+    publisher: X
+    url: https://x.com/OpenAI/status/1899143752918409338
+    date: 2025-03-10
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-26e4def4
+  - title: Detecting misbehavior in frontier reasoning models
+    publisher: OpenAI
+    url: https://openai.com/index/chain-of-thought-monitoring/
+    date: 2025-03-10
+    type: primary
+  - title: Monitoring Reasoning Models for Misbehavior and the Risks of Promoting
+      Obfuscation (paper)
+    publisher: OpenAI
+    url: https://cdn.openai.com/pdf/34f2ada6-870f-4c26-9790-fd8def56387f/CoT_Monitoring.pdf
+    date: 2025-03-10
+    type: primary
+    snapshot: snapshots/2026-09-30-cdn.openai.com-8b00be44
+  - title: 'OpenAI: Detecting misbehavior in frontier reasoning models (full-text
+      crosspost)'
+    publisher: LessWrong
+    url: https://www.lesswrong.com/posts/7wFdXj9oR8M9AiFht/openai-detecting-misbehavior-in-frontier-reasoning-models
+    date: 2025-03-10
+    type: archive
+    snapshot: snapshots/2026-09-30-lesswrong.com-c95554a8
+  - title: Wojciech Zaremba on X ("please don't train away this monitorability")
+    publisher: X
+    url: https://x.com/woj_zaremba/status/1945158231321706896
+    date: 2025-07-15
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-e40cc297
+note: >-
+  A research recommendation that became an internal rule. It's in the record
+  because OpenAI later reported where the rule failed.

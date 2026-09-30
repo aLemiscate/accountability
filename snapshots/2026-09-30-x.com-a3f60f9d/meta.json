@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/JoHeidecke/status/1922712547670569064",
+  "captured_at": "2026-09-30T04:45:11.610Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "23994759b7b57feb0c13ecdcf7b81dabe3f52c40dfc36a9440de091b99987a63",
+    "page.txt": "f1d28f5d4a3a510e4650b9cbb8615bedd2d34d5fec98d27da53e2de0385f97f8",
+    "post.json": "a5bd9f9de53169d1a41933e0c02523d13bee829a85156649aa736bd1f4ff28b6",
+    "syndication.json": "a5e9632f029438b841abad78f01ac57712057189db6f2bb775ce879b6aa08430",
+    "post.txt": "29fb4f637f45a442eea478803c6934969ef6b19cf698b8210c08fad99cc6192e"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/JoHeidecke/status/1922712547670569064",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Johannes Heidecke on X: \"4/ GPT-4.1 builds on the safety work and mitigations developed for GPT-4o. Across our standard safety evaluations, GPT-4.1 performs at parity with GPT-4o, showing that improvements can be delivered without introducing new safety risks.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Johannes Heidecke (@JoHeidecke)",
+    "date": "May 14, 2025",
+    "posted_at": "2025-05-14T17:56:08.293Z"
+  }
+}

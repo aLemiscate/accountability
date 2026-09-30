@@ -1,0 +1,30 @@
+{
+  "url": "https://x.com/OpenAI/status/1736809611473432903",
+  "captured_at": "2026-09-30T04:45:17.526Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "fc96bc67446b77c6b183aa209ae3af4de2b9124529b85093befc91ed94da53a5",
+    "page.txt": "dc339d06a9401e7d525216b51ee637d6ac8ec98731d2e876741b8d83cc1750aa",
+    "post.json": "ece175fdffc278688a94331d0b02468685122d6a44a2cbdb0e5afc2a1909f882",
+    "syndication.json": "2b220080db8e9221b210a89d6ef9cb0d67f247277e12da2fa397752ae229aac1",
+    "media-1.png": "ec1c5df6ec757b745caae5f4f15f5cd712bdefb4a97f427c50c8f8e2d0541fe4",
+    "post.txt": "5f2f3a4845b7863e279344377f5ca606acbdd4e1dee81d200856359cfdc4e8f5"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1736809611473432903",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"In our safety baselines, only models with a post-mitigation score of medium or below can be deployed, and only models with a post-mitigation score of high or below can be developed further. We also increase security protections commensurate with model risk.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "December 18, 2023",
+    "posted_at": "2023-12-18T18:04:14.394Z",
+    "media": [
+      {
+        "file": "media-1.png",
+        "url": "https://pbs.twimg.com/media/GBpisBDbsAIpp-R.png"
+      }
+    ]
+  }
+}

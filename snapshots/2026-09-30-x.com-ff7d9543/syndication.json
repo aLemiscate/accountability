@@ -1,0 +1,97 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 4,
+  "in_reply_to_screen_name": "skndrxyz",
+  "in_reply_to_status_id_str": "675648458661974016",
+  "in_reply_to_user_id_str": "154980746",
+  "lang": "en",
+  "created_at": "2015-12-12T15:50:39.000Z",
+  "display_text_range": [
+    0,
+    94
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "2072194240105615360",
+        "indices": [
+          0,
+          9
+        ],
+        "name": "aAlek khan",
+        "screen_name": "alekkhan"
+      }
+    ]
+  },
+  "id_str": "675704325297991680",
+  "text": "@alekkhan We’ll create open-source projects over time. We’ll keep Twitter updated. Stay tuned!",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "675704325297991680"
+    ],
+    "editable_until_msecs": "1449937239787",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 1,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 0,
+    "in_reply_to_screen_name": "OpenAI",
+    "in_reply_to_user_id_str": "4398626122",
+    "lang": "en",
+    "reply_count": 1,
+    "retweet_count": 1,
+    "created_at": "2015-12-12T12:08:40.000Z",
+    "display_text_range": [
+      0,
+      86
+    ],
+    "entities": {
+      "user_mentions": [
+        {
+          "id_str": "731275632399683584",
+          "indices": [
+            0,
+            8
+          ],
+          "name": "OpenAI",
+          "screen_name": "open_ai"
+        }
+      ]
+    },
+    "id_str": "675648458661974016",
+    "text": "@open_ai is it open as in open source ? how can people get involved/contribute/learn ?",
+    "user": {
+      "id_str": "154980746",
+      "name": "Alpine - あ! 🍥",
+      "screen_name": "skndrxyz",
+      "is_blue_verified": false,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1313195417920851971/uEa5NuDk_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "675648458661974016"
+      ],
+      "editable_until_msecs": "1449923920143",
+      "edits_remaining": "5",
+      "is_edit_eligible": true
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

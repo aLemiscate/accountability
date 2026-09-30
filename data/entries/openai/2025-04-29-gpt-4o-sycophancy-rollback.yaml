@@ -1,0 +1,70 @@
+title: OpenAI ships a sycophantic GPT-4o update over its expert testers'
+  doubts, then rolls it back four days later
+date: 2025-04-29
+org: openai
+type: did
+kind: disclosure
+who: [openai, sam-altman]
+quote: >-
+  We then had a decision to make: should we withhold deploying this update
+  despite positive evaluations and A/B test results, based only on the
+  subjective flags of the expert testers? In the end, we decided to launch the
+  model due to the positive signals from the users who tried out the model.
+summary: >-
+  On April 25, 2025, OpenAI updated GPT-4o in ChatGPT. Users soon shared
+  examples of the model flattering and egging on almost anything, including
+  replying "I am so proud of you" to a user who said they had stopped taking
+  their medication. Altman wrote on April 27 that the updates had made the
+  personality "too sycophant-y and annoying," and OpenAI rolled the update back
+  on April 29. Its May 2 post-mortem said some expert testers had flagged
+  before launch that the model "felt" slightly off, that it had no deployment
+  evaluations tracking sycophancy, and that launching anyway "was the wrong
+  call."
+patterns: [ship-then-patch]
+related: [2025-05-02-behavior-issues-block-launches]
+sources:
+  - title: OpenAI on X (rollback)
+    publisher: X
+    url: https://x.com/OpenAI/status/1917411480548565332
+    date: 2025-04-29
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-8cac2620
+  - title: 'Sycophancy in GPT-4o: What happened and what we''re doing about it'
+    publisher: OpenAI
+    url: https://openai.com/index/sycophancy-in-gpt-4o/
+    date: 2025-04-29
+    type: primary
+  - title: Expanding on what we missed with sycophancy
+    publisher: OpenAI
+    url: https://openai.com/index/expanding-on-sycophancy/
+    date: 2025-05-02
+    type: primary
+  - title: OpenAI on X (post-mortem)
+    publisher: X
+    url: https://x.com/OpenAI/status/1918321280790741189
+    date: 2025-05-02
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-da57d27f
+  - title: Sam Altman on X ("too sycophant-y and annoying")
+    publisher: X
+    url: https://x.com/sama/status/1916625892123742290
+    date: 2025-04-27
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-4f56b194
+  - title: OpenAI overrode concerns of expert testers to release sycophantic GPT-4o
+    publisher: VentureBeat
+    url: https://venturebeat.com/ai/openai-overrode-concerns-of-expert-testers-to-release-sycophantic-gpt-4o
+    date: 2025-05-02
+    type: reporting
+    snapshot: snapshots/2026-09-30-venturebeat.com-65d8c7c0
+  - title: OpenAI pulls plug on ChatGPT smarmbot that praised user for ditching
+      psychiatric meds
+    publisher: The Register
+    url: https://www.theregister.com/2025/04/30/openai_pulls_plug_on_chatgpt/
+    date: 2025-04-30
+    type: reporting
+    snapshot: snapshots/2026-09-30-theregister.com-b34963d5
+note: >-
+  The metrics said ship, and the people paid to notice problems said something
+  was off. OpenAI went with the metrics and said so afterwards, which is to its
+  credit.

@@ -1,0 +1,97 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 3857,
+  "in_reply_to_screen_name": "maylivesforever",
+  "in_reply_to_status_id_str": "2030331096118743413",
+  "in_reply_to_user_id_str": "1503444355503198210",
+  "lang": "en",
+  "created_at": "2026-03-07T17:15:37.000Z",
+  "display_text_range": [
+    17,
+    217
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "1503444355503198210",
+        "indices": [
+          0,
+          16
+        ],
+        "name": "Evan",
+        "screen_name": "maylivesforever"
+      }
+    ]
+  },
+  "id_str": "2030331550236320071",
+  "text": "@maylivesforever To be clear, my issue is that the announcement was rushed without the guardrails defined. It's a governance concern first and foremost. These are too important for deals or announcements to be rushed.",
+  "user": {
+    "id_str": "795151398",
+    "name": "Caitlin Kalinowski",
+    "screen_name": "kalinowski007",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2096699113920409600/3u8vfBxD_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2030331550236320071"
+    ],
+    "editable_until_msecs": "1772907337000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 59,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 832,
+    "in_reply_to_screen_name": "kalinowski007",
+    "in_reply_to_status_id_str": "2030320074121478618",
+    "in_reply_to_user_id_str": "795151398",
+    "lang": "en",
+    "reply_count": 250,
+    "retweet_count": 12,
+    "created_at": "2026-03-07T17:13:49.000Z",
+    "display_text_range": [
+      15,
+      209
+    ],
+    "entities": {
+      "user_mentions": [
+        {
+          "id_str": "795151398",
+          "indices": [
+            0,
+            14
+          ],
+          "name": "Caitlin Kalinowski",
+          "screen_name": "kalinowski007"
+        }
+      ]
+    },
+    "id_str": "2030331096118743413",
+    "text": "@kalinowski007 sorry for your delusions but congress has oversight here. companies like OpenAI or Anthropic have no part to play in this conversation between the American people and their military capabilities",
+    "user": {
+      "id_str": "1503444355503198210",
+      "name": "Evan",
+      "screen_name": "maylivesforever",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1503444668339552257/h9V7SJgW_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2030331096118743413"
+      ],
+      "editable_until_msecs": "1772907229000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

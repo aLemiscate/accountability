@@ -1,0 +1,30 @@
+{
+  "url": "https://x.com/bradlightcap/status/1864422573939019796",
+  "captured_at": "2026-09-30T04:45:42.270Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "559ec3600d8825822cc2b4f5b5bd48fad0e300754fd366e4f090521d88f5bb0b",
+    "page.txt": "01fefcdaf59a4a6caa603cc2cdd98ac8a385b531e6db516f7999c43e7a85cb71",
+    "post.json": "84177104ad9d953f78f3735c6cbe67174c5507ba0a540b16983662a6256f2725",
+    "syndication.json": "1a1c320da0c49130e2330149f6c71da5521650c9da23926636cf66b843c90237",
+    "quoted-media-1.png": "ae91f99dec9333bff96e1a9c432f0a2751d1588dfb44a3a00a2b527e300a1f4d",
+    "post.txt": "902101827cf83a5f1e106fa45500e42813923999bbca4cf201ca1524e7ab98f2"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/bradlightcap/status/1864422573939019796",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Brad Lightcap on X: \"anduril 🤝 openai keeping the US and its allies safe and competitive this century will require new systems that responsibly leverage AI and other advanced technologies 🇺🇸\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Brad Lightcap (@bradlightcap)",
+    "date": "December 4, 2024",
+    "posted_at": "2024-12-04T21:32:35.580Z",
+    "media": [
+      {
+        "file": "quoted-media-1.png",
+        "url": "https://pbs.twimg.com/media/Gd-leyJXAAApqk7.png"
+      }
+    ]
+  }
+}

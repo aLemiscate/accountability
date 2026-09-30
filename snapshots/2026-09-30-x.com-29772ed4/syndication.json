@@ -1,0 +1,740 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 612,
+  "in_reply_to_screen_name": "OpenAI",
+  "in_reply_to_status_id_str": "1945904752749080714",
+  "in_reply_to_user_id_str": "4398626122",
+  "lang": "en",
+  "created_at": "2025-07-17T17:53:41.000Z",
+  "display_text_range": [
+    0,
+    278
+  ],
+  "entities": {},
+  "id_str": "1945904754443669659",
+  "text": "We’ve decided to treat this launch as High Capability in the Biological and Chemical domain under our Preparedness Framework, and activated the associated safeguards. This is a precautionary approach, and we detail our safeguards in the system card.\n\nWe outlined our approach on",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1945904754443669659"
+    ],
+    "editable_until_msecs": "1752778421000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 27,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 413,
+    "in_reply_to_screen_name": "OpenAI",
+    "in_reply_to_status_id_str": "1945904750622552417",
+    "in_reply_to_user_id_str": "4398626122",
+    "lang": "en",
+    "reply_count": 11,
+    "retweet_count": 25,
+    "created_at": "2025-07-17T17:53:40.000Z",
+    "display_text_range": [
+      0,
+      280
+    ],
+    "entities": {},
+    "id_str": "1945904752749080714",
+    "text": "ChatGPT agent has new capabilities that introduce new risks. We’ve implemented extensive safety mitigations across multiple categories of risks accordingly.\n\nOne particular emphasis has also been placed on safeguarding ChatGPT agent against adversarial manipulation through prompt",
+    "user": {
+      "id_str": "4398626122",
+      "name": "OpenAI",
+      "screen_name": "OpenAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1945904752749080714"
+      ],
+      "editable_until_msecs": "1752778420000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "card": {
+      "card_platform": {
+        "platform": {
+          "audience": {
+            "name": "production"
+          },
+          "device": {
+            "name": "iPhone",
+            "version": "13"
+          }
+        }
+      },
+      "name": "summary_large_image",
+      "url": "https://t.co/5clMpAYozz",
+      "binding_values": {
+        "photo_image_full_size_large": {
+          "image_value": {
+            "alt": "Abstract blue background with four evenly spaced light blue square icons aligned horizontally.",
+            "height": 419,
+            "url": "https://pbs.twimg.com/card_img/2103325212024422400/Byjxmbx7?format=jpg&name=800x419",
+            "width": 800
+          },
+          "type": "IMAGE"
+        },
+        "thumbnail_image": {
+          "image_value": {
+            "alt": "Abstract blue background with four evenly spaced light blue square icons aligned horizontally.",
+            "height": 150,
+            "url": "https://pbs.twimg.com/card_img/2103325212024422400/Byjxmbx7?format=jpg&name=280x150",
+            "width": 267
+          },
+          "type": "IMAGE"
+        },
+        "description": {
+          "string_value": "ChatGPT agent System Card: OpenAI’s agentic model unites research, browser automation, and code tools with safeguards under the Preparedness Framework.",
+          "type": "STRING"
+        },
+        "domain": {
+          "string_value": "openai.com",
+          "type": "STRING"
+        },
+        "thumbnail_image_large": {
+          "image_value": {
+            "alt": "Abstract blue background with four evenly spaced light blue square icons aligned horizontally.",
+            "height": 320,
+            "url": "https://pbs.twimg.com/card_img/2103325212024422400/Byjxmbx7?format=jpg&name=800x320_1",
+            "width": 569
+          },
+          "type": "IMAGE"
+        },
+        "summary_photo_image_small": {
+          "image_value": {
+            "alt": "Abstract blue background with four evenly spaced light blue square icons aligned horizontally.",
+            "height": 202,
+            "url": "https://pbs.twimg.com/card_img/2103325212024422400/Byjxmbx7?format=jpg&name=386x202",
+            "width": 386
+          },
+          "type": "IMAGE"
+        },
+        "thumbnail_image_original": {
+          "image_value": {
+            "alt": "Abstract blue background with four evenly spaced light blue square icons aligned horizontally.",
+            "height": 900,
+            "url": "https://pbs.twimg.com/card_img/2103325212024422400/Byjxmbx7?format=jpg&name=orig",
+            "width": 1600
+          },
+          "type": "IMAGE"
+        },
+        "site": {
+          "scribe_key": "publisher_id",
+          "type": "USER",
+          "user_value": {
+            "id_str": "4398626122",
+            "path": []
+          }
+        },
+        "photo_image_full_size_small": {
+          "image_value": {
+            "alt": "Abstract blue background with four evenly spaced light blue square icons aligned horizontally.",
+            "height": 202,
+            "url": "https://pbs.twimg.com/card_img/2103325212024422400/Byjxmbx7?format=jpg&name=386x202",
+            "width": 386
+          },
+          "type": "IMAGE"
+        },
+        "summary_photo_image_large": {
+          "image_value": {
+            "alt": "Abstract blue background with four evenly spaced light blue square icons aligned horizontally.",
+            "height": 419,
+            "url": "https://pbs.twimg.com/card_img/2103325212024422400/Byjxmbx7?format=jpg&name=800x419",
+            "width": 800
+          },
+          "type": "IMAGE"
+        },
+        "thumbnail_image_small": {
+          "image_value": {
+            "alt": "Abstract blue background with four evenly spaced light blue square icons aligned horizontally.",
+            "height": 81,
+            "url": "https://pbs.twimg.com/card_img/2103325212024422400/Byjxmbx7?format=jpg&name=144x144",
+            "width": 144
+          },
+          "type": "IMAGE"
+        },
+        "thumbnail_image_x_large": {
+          "image_value": {
+            "alt": "Abstract blue background with four evenly spaced light blue square icons aligned horizontally.",
+            "height": 900,
+            "url": "https://pbs.twimg.com/card_img/2103325212024422400/Byjxmbx7?format=png&name=2048x2048_2_exp",
+            "width": 1600
+          },
+          "type": "IMAGE"
+        },
+        "photo_image_full_size_original": {
+          "image_value": {
+            "alt": "Abstract blue background with four evenly spaced light blue square icons aligned horizontally.",
+            "height": 900,
+            "url": "https://pbs.twimg.com/card_img/2103325212024422400/Byjxmbx7?format=jpg&name=orig",
+            "width": 1600
+          },
+          "type": "IMAGE"
+        },
+        "photo_image_full_size_alt_text": {
+          "string_value": "Abstract blue background with four evenly spaced light blue square icons aligned horizontally.",
+          "type": "STRING"
+        },
+        "vanity_url": {
+          "scribe_key": "vanity_url",
+          "string_value": "openai.com",
+          "type": "STRING"
+        },
+        "photo_image_full_size": {
+          "image_value": {
+            "alt": "Abstract blue background with four evenly spaced light blue square icons aligned horizontally.",
+            "height": 314,
+            "url": "https://pbs.twimg.com/card_img/2103325212024422400/Byjxmbx7?format=jpg&name=600x314",
+            "width": 600
+          },
+          "type": "IMAGE"
+        },
+        "summary_photo_image_alt_text": {
+          "string_value": "Abstract blue background with four evenly spaced light blue square icons aligned horizontally.",
+          "type": "STRING"
+        },
+        "thumbnail_image_color": {
+          "image_color_value": {
+            "palette": [
+              {
+                "percentage": 79.65,
+                "rgb": {
+                  "blue": 255,
+                  "green": 188,
+                  "red": 125
+                }
+              },
+              {
+                "percentage": 12.74,
+                "rgb": {
+                  "blue": 255,
+                  "green": 150,
+                  "red": 60
+                }
+              },
+              {
+                "percentage": 4.44,
+                "rgb": {
+                  "blue": 255,
+                  "green": 245,
+                  "red": 235
+                }
+              },
+              {
+                "percentage": 1.18,
+                "rgb": {
+                  "blue": 249,
+                  "green": 159,
+                  "red": 142
+                }
+              },
+              {
+                "percentage": 0.95,
+                "rgb": {
+                  "blue": 255,
+                  "green": 120,
+                  "red": 56
+                }
+              }
+            ]
+          },
+          "type": "IMAGE_COLOR"
+        },
+        "title": {
+          "string_value": "ChatGPT agent System Card",
+          "type": "STRING"
+        },
+        "summary_photo_image_color": {
+          "image_color_value": {
+            "palette": [
+              {
+                "percentage": 79.65,
+                "rgb": {
+                  "blue": 255,
+                  "green": 188,
+                  "red": 125
+                }
+              },
+              {
+                "percentage": 12.74,
+                "rgb": {
+                  "blue": 255,
+                  "green": 150,
+                  "red": 60
+                }
+              },
+              {
+                "percentage": 4.44,
+                "rgb": {
+                  "blue": 255,
+                  "green": 245,
+                  "red": 235
+                }
+              },
+              {
+                "percentage": 1.18,
+                "rgb": {
+                  "blue": 249,
+                  "green": 159,
+                  "red": 142
+                }
+              },
+              {
+                "percentage": 0.95,
+                "rgb": {
+                  "blue": 255,
+                  "green": 120,
+                  "red": 56
+                }
+              }
+            ]
+          },
+          "type": "IMAGE_COLOR"
+        },
+        "summary_photo_image_x_large": {
+          "image_value": {
+            "alt": "Abstract blue background with four evenly spaced light blue square icons aligned horizontally.",
+            "height": 900,
+            "url": "https://pbs.twimg.com/card_img/2103325212024422400/Byjxmbx7?format=png&name=2048x2048_2_exp",
+            "width": 1600
+          },
+          "type": "IMAGE"
+        },
+        "summary_photo_image": {
+          "image_value": {
+            "alt": "Abstract blue background with four evenly spaced light blue square icons aligned horizontally.",
+            "height": 314,
+            "url": "https://pbs.twimg.com/card_img/2103325212024422400/Byjxmbx7?format=jpg&name=600x314",
+            "width": 600
+          },
+          "type": "IMAGE"
+        },
+        "photo_image_full_size_color": {
+          "image_color_value": {
+            "palette": [
+              {
+                "percentage": 79.65,
+                "rgb": {
+                  "blue": 255,
+                  "green": 188,
+                  "red": 125
+                }
+              },
+              {
+                "percentage": 12.74,
+                "rgb": {
+                  "blue": 255,
+                  "green": 150,
+                  "red": 60
+                }
+              },
+              {
+                "percentage": 4.44,
+                "rgb": {
+                  "blue": 255,
+                  "green": 245,
+                  "red": 235
+                }
+              },
+              {
+                "percentage": 1.18,
+                "rgb": {
+                  "blue": 249,
+                  "green": 159,
+                  "red": 142
+                }
+              },
+              {
+                "percentage": 0.95,
+                "rgb": {
+                  "blue": 255,
+                  "green": 120,
+                  "red": 56
+                }
+              }
+            ]
+          },
+          "type": "IMAGE_COLOR"
+        },
+        "photo_image_full_size_x_large": {
+          "image_value": {
+            "alt": "Abstract blue background with four evenly spaced light blue square icons aligned horizontally.",
+            "height": 900,
+            "url": "https://pbs.twimg.com/card_img/2103325212024422400/Byjxmbx7?format=png&name=2048x2048_2_exp",
+            "width": 1600
+          },
+          "type": "IMAGE"
+        },
+        "card_url": {
+          "scribe_key": "card_url",
+          "string_value": "https://t.co/5clMpAYozz",
+          "type": "STRING"
+        },
+        "summary_photo_image_original": {
+          "image_value": {
+            "alt": "Abstract blue background with four evenly spaced light blue square icons aligned horizontally.",
+            "height": 900,
+            "url": "https://pbs.twimg.com/card_img/2103325212024422400/Byjxmbx7?format=jpg&name=orig",
+            "width": 1600
+          },
+          "type": "IMAGE"
+        }
+      }
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "card": {
+    "card_platform": {
+      "platform": {
+        "audience": {
+          "name": "production"
+        },
+        "device": {
+          "name": "iPhone",
+          "version": "13"
+        }
+      }
+    },
+    "name": "summary_large_image",
+    "url": "https://t.co/mnIbYzYTeJ",
+    "binding_values": {
+      "photo_image_full_size_large": {
+        "image_value": {
+          "alt": "A blue, green, and white gradient",
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2103331116061265920/lZMVVkcL?format=jpg&name=800x419",
+          "width": 800
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image": {
+        "image_value": {
+          "alt": "A blue, green, and white gradient",
+          "height": 150,
+          "url": "https://pbs.twimg.com/card_img/2103331116061265920/lZMVVkcL?format=jpg&name=280x150",
+          "width": 267
+        },
+        "type": "IMAGE"
+      },
+      "description": {
+        "string_value": "Advanced AI can transform biology and medicine—but also raises biosecurity risks. We’re proactively assessing capabilities and implementing safeguards to prevent misuse.",
+        "type": "STRING"
+      },
+      "domain": {
+        "string_value": "openai.com",
+        "type": "STRING"
+      },
+      "thumbnail_image_large": {
+        "image_value": {
+          "alt": "A blue, green, and white gradient",
+          "height": 320,
+          "url": "https://pbs.twimg.com/card_img/2103331116061265920/lZMVVkcL?format=jpg&name=800x320_1",
+          "width": 569
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_small": {
+        "image_value": {
+          "alt": "A blue, green, and white gradient",
+          "height": 202,
+          "url": "https://pbs.twimg.com/card_img/2103331116061265920/lZMVVkcL?format=jpg&name=386x202",
+          "width": 386
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_original": {
+        "image_value": {
+          "alt": "A blue, green, and white gradient",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2103331116061265920/lZMVVkcL?format=jpg&name=orig",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "site": {
+        "scribe_key": "publisher_id",
+        "type": "USER",
+        "user_value": {
+          "id_str": "4398626122",
+          "path": []
+        }
+      },
+      "photo_image_full_size_small": {
+        "image_value": {
+          "alt": "A blue, green, and white gradient",
+          "height": 202,
+          "url": "https://pbs.twimg.com/card_img/2103331116061265920/lZMVVkcL?format=jpg&name=386x202",
+          "width": 386
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_large": {
+        "image_value": {
+          "alt": "A blue, green, and white gradient",
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2103331116061265920/lZMVVkcL?format=jpg&name=800x419",
+          "width": 800
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_small": {
+        "image_value": {
+          "alt": "A blue, green, and white gradient",
+          "height": 81,
+          "url": "https://pbs.twimg.com/card_img/2103331116061265920/lZMVVkcL?format=jpg&name=144x144",
+          "width": 144
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_x_large": {
+        "image_value": {
+          "alt": "A blue, green, and white gradient",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2103331116061265920/lZMVVkcL?format=png&name=2048x2048_2_exp",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_original": {
+        "image_value": {
+          "alt": "A blue, green, and white gradient",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2103331116061265920/lZMVVkcL?format=jpg&name=orig",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_alt_text": {
+        "string_value": "A blue, green, and white gradient",
+        "type": "STRING"
+      },
+      "vanity_url": {
+        "scribe_key": "vanity_url",
+        "string_value": "openai.com",
+        "type": "STRING"
+      },
+      "photo_image_full_size": {
+        "image_value": {
+          "alt": "A blue, green, and white gradient",
+          "height": 314,
+          "url": "https://pbs.twimg.com/card_img/2103331116061265920/lZMVVkcL?format=jpg&name=600x314",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_alt_text": {
+        "string_value": "A blue, green, and white gradient",
+        "type": "STRING"
+      },
+      "thumbnail_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 35.26,
+              "rgb": {
+                "blue": 249,
+                "green": 231,
+                "red": 184
+              }
+            },
+            {
+              "percentage": 27.06,
+              "rgb": {
+                "blue": 255,
+                "green": 206,
+                "red": 42
+              }
+            },
+            {
+              "percentage": 20.59,
+              "rgb": {
+                "blue": 194,
+                "green": 237,
+                "red": 193
+              }
+            },
+            {
+              "percentage": 11.98,
+              "rgb": {
+                "blue": 142,
+                "green": 228,
+                "red": 166
+              }
+            },
+            {
+              "percentage": 3.5,
+              "rgb": {
+                "blue": 255,
+                "green": 237,
+                "red": 225
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "title": {
+        "string_value": "Preparing for future AI capabilities in biology",
+        "type": "STRING"
+      },
+      "summary_photo_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 35.26,
+              "rgb": {
+                "blue": 249,
+                "green": 231,
+                "red": 184
+              }
+            },
+            {
+              "percentage": 27.06,
+              "rgb": {
+                "blue": 255,
+                "green": 206,
+                "red": 42
+              }
+            },
+            {
+              "percentage": 20.59,
+              "rgb": {
+                "blue": 194,
+                "green": 237,
+                "red": 193
+              }
+            },
+            {
+              "percentage": 11.98,
+              "rgb": {
+                "blue": 142,
+                "green": 228,
+                "red": 166
+              }
+            },
+            {
+              "percentage": 3.5,
+              "rgb": {
+                "blue": 255,
+                "green": 237,
+                "red": 225
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "summary_photo_image_x_large": {
+        "image_value": {
+          "alt": "A blue, green, and white gradient",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2103331116061265920/lZMVVkcL?format=png&name=2048x2048_2_exp",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image": {
+        "image_value": {
+          "alt": "A blue, green, and white gradient",
+          "height": 314,
+          "url": "https://pbs.twimg.com/card_img/2103331116061265920/lZMVVkcL?format=jpg&name=600x314",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 35.26,
+              "rgb": {
+                "blue": 249,
+                "green": 231,
+                "red": 184
+              }
+            },
+            {
+              "percentage": 27.06,
+              "rgb": {
+                "blue": 255,
+                "green": 206,
+                "red": 42
+              }
+            },
+            {
+              "percentage": 20.59,
+              "rgb": {
+                "blue": 194,
+                "green": 237,
+                "red": 193
+              }
+            },
+            {
+              "percentage": 11.98,
+              "rgb": {
+                "blue": 142,
+                "green": 228,
+                "red": 166
+              }
+            },
+            {
+              "percentage": 3.5,
+              "rgb": {
+                "blue": 255,
+                "green": 237,
+                "red": 225
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "photo_image_full_size_x_large": {
+        "image_value": {
+          "alt": "A blue, green, and white gradient",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2103331116061265920/lZMVVkcL?format=png&name=2048x2048_2_exp",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "card_url": {
+        "scribe_key": "card_url",
+        "string_value": "https://t.co/mnIbYzYTeJ",
+        "type": "STRING"
+      },
+      "summary_photo_image_original": {
+        "image_value": {
+          "alt": "A blue, green, and white gradient",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2103331116061265920/lZMVVkcL?format=jpg&name=orig",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      }
+    }
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoxOTQ1OTA0NzU0Mjk2ODQ4Mzg0"
+  }
+}

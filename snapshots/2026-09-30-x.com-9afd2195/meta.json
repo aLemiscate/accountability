@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/OpenAI/status/2084747580693426555",
+  "captured_at": "2026-09-30T04:45:39.302Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "5e5a9fe9bf48dc13c82fb9f027c39297da28de2f4ed74ff755acbebe3e54e1f3",
+    "page.txt": "c8050718051b24cf57383044ff4f51fcce01174b54cff6c98963ad1b60951a35",
+    "post.json": "de943a34892a2bff0e587d243a7a791a3c816ba4350f344ea41ac8342b3c0ce4",
+    "syndication.json": "1bc94e442b79444f0b07567e46e7da92d34b26680c4732f40a98dd0291d213e2",
+    "post.txt": "a11748544797b3d545e520b5debb8f6fe35bfdac5b6dc8fcff1b05f24d7bb11c"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/2084747580693426555",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"We're detailing two new incidents that occurred during external cyber evaluations conducted by independent evaluation partners. We outline what happened, how the activity was contained, and how we’re working with evaluators to strengthen our approach to third-party testing. https://… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "August 4, 2026",
+    "posted_at": "2026-08-04T21:05:30.631Z"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://x.com/OpenAI/status/1899143752918409338",
+  "captured_at": "2026-09-30T04:50:12.497Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "90fa85e89f4003c83342b8c4933c730f7a600c6b07b56dc08a3cf5d1d2126c41",
+    "page.txt": "3382d02c915772cfb66363b9baf4fc4a6e07f6a248447ed19c1f2701ec4b97a8",
+    "post.json": "5f13f90e9d8ab280c15dca1766202913cca7a66a4fbaaffe791b5eaea11fc235",
+    "syndication.json": "87d5d5ce8f62b98ecb6b05f5a87d26ad2e75741d081c381b9c055a900cfe560b",
+    "media-1.png": "16f1f9ca793fec8d1794322d4558244828d08c811862249210d10fb54141124b",
+    "post.txt": "d908ce1fe578740697d37f3bca136e71807fe88f2472f1ec36e15c673ab5424a"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1899143752918409338",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"Detecting misbehavior in frontier reasoning models Chain-of-thought (CoT) reasoning models “think” in natural language understandable by humans. Monitoring their “thinking” has allowed us to detect misbehavior such as subverting tests in coding tasks, deceiving users, or giving up wh… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "March 10, 2025",
+    "posted_at": "2025-03-10T17:02:09.737Z",
+    "media": [
+      {
+        "file": "media-1.png",
+        "url": "https://pbs.twimg.com/media/GlscjbHaEAAFijE.png"
+      }
+    ]
+  }
+}

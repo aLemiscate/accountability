@@ -1,0 +1,213 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 255,
+  "lang": "en",
+  "created_at": "2024-12-04T21:32:35.000Z",
+  "display_text_range": [
+    0,
+    173
+  ],
+  "entities": {},
+  "id_str": "1864422573939019796",
+  "text": "anduril 🤝 openai\n\nkeeping the US and its allies safe and competitive this century will require new systems that responsibly leverage AI and other advanced technologies 🇺🇸",
+  "user": {
+    "id_str": "296566034",
+    "name": "Brad Lightcap",
+    "screen_name": "bradlightcap",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1692045577582989312/xnwpm5u__normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1864422573939019796"
+    ],
+    "editable_until_msecs": "1733351555000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 15,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 3361,
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 294,
+    "retweet_count": 342,
+    "created_at": "2024-12-04T19:26:03.000Z",
+    "display_text_range": [
+      0,
+      279
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/fprGN05eeg",
+          "expanded_url": "https://x.com/anduriltech/status/1864390729516327375/photo/1",
+          "indices": [
+            280,
+            303
+          ],
+          "url": "https://t.co/fprGN05eeg"
+        }
+      ],
+      "user_mentions": [
+        {
+          "id_str": "4398626122",
+          "indices": [
+            26,
+            33
+          ],
+          "name": "OpenAI",
+          "screen_name": "OpenAI"
+        }
+      ]
+    },
+    "id_str": "1864390729516327375",
+    "text": "We’re joining forces with @OpenAI to advance AI solutions for national security.\n\nAmerica needs to win.\n\nOpenAI’s models combined with Anduril’s defense systems will protect U.S. and allied military personnel from attacks by unmanned drones and improve real-time decision-making. https://t.co/fprGN05eeg",
+    "user": {
+      "id_str": "876836424036659200",
+      "name": "Anduril Industries",
+      "screen_name": "anduriltech",
+      "is_blue_verified": false,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1892311837968125955/YmCsRx5t_normal.jpg"
+    },
+    "edit_control": {
+      "initial_tweet_id": "1864385070137520452",
+      "edit_tweet_ids": [
+        "1864385070137520452",
+        "1864390729516327375"
+      ],
+      "editable_until_msecs": "1733342613000",
+      "edits_remaining": "4",
+      "is_edit_eligible": true
+    },
+    "mediaDetails": [
+      {
+        "display_url": "pic.x.com/fprGN05eeg",
+        "expanded_url": "https://x.com/anduriltech/status/1864390729516327375/photo/1",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          280,
+          303
+        ],
+        "media_url_https": "https://pbs.twimg.com/media/Gd-leyJXAAApqk7.png",
+        "original_info": {
+          "focus_rects": [
+            {
+              "h": 896,
+              "w": 1600,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 900,
+              "w": 900,
+              "x": 350,
+              "y": 0
+            },
+            {
+              "h": 900,
+              "w": 789,
+              "x": 406,
+              "y": 0
+            },
+            {
+              "h": 900,
+              "w": 450,
+              "x": 575,
+              "y": 0
+            },
+            {
+              "h": 900,
+              "w": 1600,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "height": 900,
+          "width": 1600
+        },
+        "sizes": {
+          "large": {
+            "h": 900,
+            "resize": "fit",
+            "w": 1600
+          },
+          "medium": {
+            "h": 675,
+            "resize": "fit",
+            "w": 1200
+          },
+          "small": {
+            "h": 383,
+            "resize": "fit",
+            "w": 680
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "photo",
+        "url": "https://t.co/fprGN05eeg"
+      }
+    ],
+    "photos": [
+      {
+        "backgroundColor": {
+          "red": 204,
+          "green": 214,
+          "blue": 221
+        },
+        "cropCandidates": [
+          {
+            "h": 896,
+            "w": 1600,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 900,
+            "w": 900,
+            "x": 350,
+            "y": 0
+          },
+          {
+            "h": 900,
+            "w": 789,
+            "x": 406,
+            "y": 0
+          },
+          {
+            "h": 900,
+            "w": 450,
+            "x": 575,
+            "y": 0
+          },
+          {
+            "h": 900,
+            "w": 1600,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "expandedUrl": "https://x.com/anduriltech/status/1864390729516327375/photo/1",
+        "url": "https://pbs.twimg.com/media/Gd-leyJXAAApqk7.png",
+        "width": 1600,
+        "height": 900
+      }
+    ],
+    "isEdited": true,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

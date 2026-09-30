@@ -1,0 +1,234 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 33,
+  "in_reply_to_screen_name": "SafetyChanges",
+  "in_reply_to_status_id_str": "1897147898514842077",
+  "in_reply_to_user_id_str": "1791484234227462144",
+  "lang": "en",
+  "created_at": "2025-03-05T19:26:51.000Z",
+  "display_text_range": [
+    28,
+    177
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "1791484234227462144",
+        "indices": [
+          0,
+          14
+        ],
+        "name": "The Midas Project Watchtower",
+        "screen_name": "SafetyChanges"
+      },
+      {
+        "id_str": "1353836358901501952",
+        "indices": [
+          15,
+          27
+        ],
+        "name": "Anthropic",
+        "screen_name": "AnthropicAI"
+      }
+    ]
+  },
+  "id_str": "1897368228286079343",
+  "text": "@SafetyChanges @AnthropicAI This isn't a change in substance and has caused some confusion - we're working on a fix. We continue to follow the White House Voluntary Commitments.",
+  "user": {
+    "id_str": "86351835",
+    "name": "Jack Clark",
+    "screen_name": "jackclarkSF",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/726446881547517952/ULhSTKxN_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1897368228286079343"
+    ],
+    "editable_until_msecs": "1741206411000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 0,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 88,
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 5,
+    "retweet_count": 9,
+    "created_at": "2025-03-05T04:51:20.000Z",
+    "display_text_range": [
+      0,
+      270
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/tI1mCd6X4O",
+          "expanded_url": "https://x.com/SafetyChanges/status/1897147898514842077/photo/1",
+          "indices": [
+            270,
+            293
+          ],
+          "url": "https://t.co/tI1mCd6X4O"
+        }
+      ],
+      "user_mentions": [
+        {
+          "id_str": "1353836358901501952",
+          "indices": [
+            9,
+            21
+          ],
+          "name": "Anthropic",
+          "screen_name": "AnthropicAI"
+        }
+      ]
+    },
+    "id_str": "1897147898514842077",
+    "text": "Company: @AnthropicAI \nDate: February 27th, 2025\nChange: Removed \"White House's Voluntary Commitments for Safe, Secure, and Trustworthy AI,\" seemingly without a trace, from their webpage \"Transparency Hub\" (formerly \"Tracking Voluntary Commitments\")\n\nSome thoughts in 🧵 https://t.co/tI1mCd6X4O",
+    "user": {
+      "id_str": "1791484234227462144",
+      "name": "The Midas Project Watchtower",
+      "screen_name": "SafetyChanges",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2034684882887352321/TwIG4rpf_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1897147898514842077"
+      ],
+      "editable_until_msecs": "1741153880000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "mediaDetails": [
+      {
+        "display_url": "pic.x.com/tI1mCd6X4O",
+        "expanded_url": "https://x.com/SafetyChanges/status/1897147898514842077/photo/1",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          270,
+          293
+        ],
+        "media_url_https": "https://pbs.twimg.com/media/GlP_nJoXwAAd-VK.jpg",
+        "original_info": {
+          "focus_rects": [
+            {
+              "h": 594,
+              "w": 1061,
+              "x": 467,
+              "y": 0
+            },
+            {
+              "h": 594,
+              "w": 594,
+              "x": 934,
+              "y": 0
+            },
+            {
+              "h": 594,
+              "w": 521,
+              "x": 1000,
+              "y": 0
+            },
+            {
+              "h": 594,
+              "w": 297,
+              "x": 1112,
+              "y": 0
+            },
+            {
+              "h": 594,
+              "w": 1528,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "height": 594,
+          "width": 1528
+        },
+        "sizes": {
+          "large": {
+            "h": 594,
+            "resize": "fit",
+            "w": 1528
+          },
+          "medium": {
+            "h": 466,
+            "resize": "fit",
+            "w": 1200
+          },
+          "small": {
+            "h": 264,
+            "resize": "fit",
+            "w": 680
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "photo",
+        "url": "https://t.co/tI1mCd6X4O"
+      }
+    ],
+    "photos": [
+      {
+        "backgroundColor": {
+          "red": 204,
+          "green": 214,
+          "blue": 221
+        },
+        "cropCandidates": [
+          {
+            "h": 594,
+            "w": 1061,
+            "x": 467,
+            "y": 0
+          },
+          {
+            "h": 594,
+            "w": 594,
+            "x": 934,
+            "y": 0
+          },
+          {
+            "h": 594,
+            "w": 521,
+            "x": 1000,
+            "y": 0
+          },
+          {
+            "h": 594,
+            "w": 297,
+            "x": 1112,
+            "y": 0
+          },
+          {
+            "h": 594,
+            "w": 1528,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "expandedUrl": "https://x.com/SafetyChanges/status/1897147898514842077/photo/1",
+        "url": "https://pbs.twimg.com/media/GlP_nJoXwAAd-VK.jpg",
+        "width": 1528,
+        "height": 594
+      }
+    ],
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

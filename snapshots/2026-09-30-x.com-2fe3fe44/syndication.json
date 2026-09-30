@@ -1,0 +1,67 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 118,
+  "lang": "en",
+  "created_at": "2026-02-25T23:11:10.000Z",
+  "display_text_range": [
+    0,
+    241
+  ],
+  "entities": {},
+  "id_str": "2026797148566859836",
+  "text": "I endorse the top-level post in this thread. \n\nThe Anthropic RSP changes are an attempt to work out what kinds of firm commitments have the most leverage in an environment that's less promising than we'd expected for policy and coordination.",
+  "user": {
+    "id_str": "338526004",
+    "name": "Sam Bowman",
+    "screen_name": "sleepinyourhat",
+    "is_blue_verified": false,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1915807599867662336/rHHhdB___normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2026797148566859836"
+    ],
+    "editable_until_msecs": "1772064670000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 1,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 197,
+    "lang": "en",
+    "reply_count": 13,
+    "retweet_count": 12,
+    "created_at": "2026-02-25T18:08:35.000Z",
+    "display_text_range": [
+      0,
+      279
+    ],
+    "entities": {},
+    "id_str": "2026721001149522325",
+    "text": "Voluntary commitments to AI slowdowns were a nice idea in 2024 when it was plausible that they could be baby steps toward a multilateral agreement that would contain the intelligence explosion. For a variety of reasons this is no longer plausible. \n\nAnthropic is doing good here.",
+    "user": {
+      "id_str": "15484497",
+      "name": "davidad 🎇",
+      "screen_name": "davidad",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2039387630429962240/otpCVDdJ_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2026721001149522325"
+      ],
+      "editable_until_msecs": "1772046515000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

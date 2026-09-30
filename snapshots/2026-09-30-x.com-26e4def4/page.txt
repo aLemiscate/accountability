@@ -1,0 +1,24 @@
+Post
+Log in Sign up
+Post
+Log in Sign up
+OpenAI on X: "Detecting misbehavior in frontier reasoning models
+Chain-of-thought (CoT) reasoning models “think” in natural language understandable by humans. Monitoring their “thinking” has allowed us to detect misbehavior such as subverting tests in coding tasks, deceiving users, or giving up when a problem is too hard.
+We believe that CoT monitoring may be one of few tools we will have to oversee superhuman models of the future.
+We have further found that directly optimizing the CoT to adhere to specific criteria (e.g. to not think about reward hacking) may boost performance in the short run; however, it does not eliminate all misbehavior and can cause a model to hide its intent. We hope future research will find ways to directly optimize CoTs without this drawback, but until then:
+We recommend against applying strong optimization pressure directly to the CoTs of frontier reasoning models, leaving CoTs unrestricted for monitoring.
+We understand that leaving CoTs unrestricted may make them unfit to be shown to end-users, as they might violate some misuse policies. Still, if one wanted to show policy-compliant CoTs directly to users while avoiding putting strong supervision on them, one could use a separate model, such as a CoT summarizer or sanitizer, to accomplish that."
+OpenAI
+@OpenAI
+Detecting misbehavior in frontier reasoning models
+Chain-of-thought (CoT) reasoning models “think” in natural language understandable by humans. Monitoring their “thinking” has allowed us to detect misbehavior such as subverting tests in coding tasks, deceiving users, or giving up when a problem is too hard.
+We believe that CoT monitoring may be one of few tools we will have to oversee superhuman models of the future.
+We have further found that directly optimizing the CoT to adhere to specific criteria (e.g. to not think about reward hacking) may boost performance in the short run; however, it does not eliminate all misbehavior and can cause a model to hide its intent. We hope future research will find ways to directly optimize CoTs without this drawback, but until then:
+We recommend against applying strong optimization pressure directly to the CoTs of frontier reasoning models, leaving CoTs unrestricted for monitoring.
+We understand that leaving CoTs unrestricted may make them unfit to be shown to end-users, as they might violate some misuse policies. Still, if one wanted to show policy-compliant CoTs directly to users while avoiding putting strong supervision on them, one could use a separate model, such as a CoT summarizer or sanitizer, to accomplish that.
+5:02 PM · Mar 10, 2025 · 1.6M
+Views
+389
+696
+4.8K
+1.8K

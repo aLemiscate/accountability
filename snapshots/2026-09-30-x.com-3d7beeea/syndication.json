@@ -1,0 +1,94 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 710,
+  "lang": "en",
+  "created_at": "2025-08-25T16:53:09.000Z",
+  "display_text_range": [
+    0,
+    277
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "1956347242308362240",
+        "indices": [
+          34,
+          50
+        ],
+        "name": "Leading the Future",
+        "screen_name": "LeadingFutureAI"
+      }
+    ]
+  },
+  "id_str": "1960022650228793440",
+  "text": "My wife Anna and I are supporting @LeadingFutureAI because we believe that AI can massively improve quality of life for every person (and every animal!).\n\nWe believe the goal of AI policy should be to unlock this outcome. That means taking a balanced view, which we think of as",
+  "user": {
+    "id_str": "162124540",
+    "name": "Greg Brockman",
+    "screen_name": "gdb",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1347621377503711233/bHg3ipfD_normal.jpg",
+    "highlighted_label": {
+      "badge": {
+        "url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_bigger.jpg"
+      },
+      "description": "OpenAI",
+      "url": {
+        "url": "https://twitter.com/OpenAI",
+        "url_type": "DeepLink"
+      },
+      "user_label_display_type": "Badge",
+      "user_label_type": "BusinessLabel"
+    }
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1960022650228793440"
+    ],
+    "editable_until_msecs": "1756144389000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 104,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 107,
+    "lang": "en",
+    "reply_count": 26,
+    "retweet_count": 19,
+    "created_at": "2025-08-25T12:30:27.000Z",
+    "display_text_range": [
+      0,
+      279
+    ],
+    "entities": {},
+    "id_str": "1959956536370790436",
+    "text": "AI is already transforming the global economy, and America should lead in advancing a policy governing AI expansion that drives innovation and broad economic growth for working people across the country.\n\nLTF and its affiliated organizations will promote policies that unlock the",
+    "user": {
+      "id_str": "1956347242308362240",
+      "name": "Leading the Future",
+      "screen_name": "LeadingFutureAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1956352986763923456/9xyl9hQj_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1959956536370790436"
+      ],
+      "editable_until_msecs": "1756128627000",
+      "edits_remaining": "5",
+      "is_edit_eligible": true
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoxOTYwMDIyNjUwMTU3NDc3ODg4"
+  }
+}

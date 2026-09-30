@@ -36,6 +36,17 @@ sources:
     type: reporting
     archive: https://web.archive.org/web/20260929223118/https://www.cnbc.com/2026/03/03/openai-sam-altman-pentagon-deal-amended-surveillance-limits.html
     snapshot: snapshots/2026-09-29-cnbc.com-8ac92d09
+  - title: Jason Kwon on X ("date stamps")
+    publisher: X
+    url: https://x.com/jasonkwon/status/2027948755467833366
+    date: 2026-03-01
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-bd1da095
+response: >-
+  Asked on March 1 how the red lines would survive a later change in the law,
+  OpenAI's chief strategy officer Jason Kwon said the contract "date stamps" the
+  relevant policy directive or law: "That's what we did." The contract text has
+  not been published, so this can't be checked.
 note: >-
   The contract isn't public, so outsiders can't check compliance. The promise
   works on trust, which is exactly what this record is testing. Note the word

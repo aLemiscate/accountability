@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/gdb/status/1105173883378851846",
+  "captured_at": "2026-09-30T04:45:53.474Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "765d7a9f80a9b319cd699f438d30a1c48383dc2154074e7eedb290cbb1dcc1f4",
+    "page.txt": "632f9e9e43c135e17011da27ca92104ca7677a4be68fd1749eae2d2f2e4cbad2",
+    "post.json": "14f371ffbe3ad0495b85ac863bca6aa2491646053f3943e4bee26be8b19eb658",
+    "syndication.json": "ea233de5d118a53d0d49940847fb85de9c1db6cf669c102f0afc7dca44471b7c",
+    "post.txt": "681811f733cbb21dcbd6d9a7a433e16c13047c447cb9bc021b1514389506ccfd"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/gdb/status/1105173883378851846",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Greg Brockman on X: \"@jeffrschneider @OpenAI All transactions between the Nonprofit and the LP were approved by a subset of the Board — only directors without a financial interest in the LP. We had the fair market value of anything transferred from the nonprofit to the LP determined by an outside f… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Greg Brockman (@gdb)",
+    "date": "March 11, 2019",
+    "posted_at": "2019-03-11T18:29:21.592Z"
+  }
+}

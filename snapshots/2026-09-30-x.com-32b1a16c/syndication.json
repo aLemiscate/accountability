@@ -1,0 +1,151 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 3,
+  "in_reply_to_screen_name": "gdb",
+  "in_reply_to_status_id_str": "677958544772104192",
+  "in_reply_to_user_id_str": "162124540",
+  "lang": "en",
+  "created_at": "2015-12-18T21:08:52.000Z",
+  "display_text_range": [
+    0,
+    139
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "3293769338",
+        "indices": [
+          0,
+          14
+        ],
+        "name": "Trying to think of solutions",
+        "screen_name": "PlzBeSensible"
+      },
+      {
+        "id_str": "731275632399683584",
+        "indices": [
+          15,
+          23
+        ],
+        "name": "OpenAI",
+        "screen_name": "open_ai"
+      }
+    ]
+  },
+  "id_str": "677958733733859330",
+  "text": "@PlzBeSensible @open_ai (We'll have a process to address results which could be dangerous and will be thoughtful rather than blindly open.)",
+  "user": {
+    "id_str": "162124540",
+    "name": "Greg Brockman",
+    "screen_name": "gdb",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1347621377503711233/bHg3ipfD_normal.jpg",
+    "highlighted_label": {
+      "badge": {
+        "url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_bigger.jpg"
+      },
+      "description": "OpenAI",
+      "url": {
+        "url": "https://twitter.com/OpenAI",
+        "url_type": "DeepLink"
+      },
+      "user_label_display_type": "Badge",
+      "user_label_type": "BusinessLabel"
+    }
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "677958733733859330"
+    ],
+    "editable_until_msecs": "1450474732643",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 0,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 0,
+    "in_reply_to_screen_name": "PlzBeSensible",
+    "in_reply_to_status_id_str": "675481968763506688",
+    "in_reply_to_user_id_str": "3293769338",
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 1,
+    "retweet_count": 1,
+    "created_at": "2015-12-18T21:08:07.000Z",
+    "display_text_range": [
+      0,
+      138
+    ],
+    "entities": {
+      "urls": [
+        {
+          "display_url": "blog.ycombinator.com/yc-research",
+          "expanded_url": "https://blog.ycombinator.com/yc-research",
+          "indices": [
+            114,
+            137
+          ],
+          "url": "https://t.co/VmXSs8pxY6"
+        }
+      ],
+      "user_mentions": [
+        {
+          "id_str": "3293769338",
+          "indices": [
+            0,
+            14
+          ],
+          "name": "Trying to think of solutions",
+          "screen_name": "PlzBeSensible"
+        },
+        {
+          "id_str": "731275632399683584",
+          "indices": [
+            15,
+            23
+          ],
+          "name": "OpenAI",
+          "screen_name": "open_ai"
+        }
+      ]
+    },
+    "id_str": "677958544772104192",
+    "text": "@PlzBeSensible @open_ai Sorry, missed this tweet in the flood. Safety is baked into our org from before day 1, cf https://t.co/VmXSs8pxY6.",
+    "user": {
+      "id_str": "162124540",
+      "name": "Greg Brockman",
+      "screen_name": "gdb",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1347621377503711233/bHg3ipfD_normal.jpg",
+      "highlighted_label": {
+        "badge": {
+          "url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_bigger.jpg"
+        },
+        "description": "OpenAI",
+        "url": {
+          "url": "https://twitter.com/OpenAI",
+          "url_type": "DeepLink"
+        },
+        "user_label_display_type": "Badge",
+        "user_label_type": "BusinessLabel"
+      }
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "677958544772104192"
+      ],
+      "editable_until_msecs": "1450474687591",
+      "edits_remaining": "5",
+      "is_edit_eligible": true
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

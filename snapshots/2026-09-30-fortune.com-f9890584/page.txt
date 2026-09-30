@@ -1,0 +1,55 @@
+Trending now
+1
+‘We are going to start looking a lot more like Europe’: Millennials are living at home into their 30s, signaling a major shift
+2
+Her school blocked ChatGPT. Now this 17-year-old high school senior runs an AI startup with 1,000 users
+3
+Saudi Arabia is reaping a massive oil windfall, making it perhaps the Iran war’s only winner. Tehran’s proxies actually ‘did Saudi a favor’
+1
+‘We are going to start looking a lot more like Europe’: Millennials are living at home into their 30s, signaling a major shift
+2
+Her school blocked ChatGPT. Now this 17-year-old high school senior runs an AI startup with 1,000 users
+3
+Saudi Arabia is reaping a massive oil windfall, making it perhaps the Iran war’s only winner. Tehran’s proxies actually ‘did Saudi a favor’
+Cybersecurity OpenAI
+OpenAI says its AI models secretly broke out of a secure test environment and hacked into AI company Hugging Face in order to cheat on an evaluation
+By Jeremy Kahn
+Jeremy Kahn and Emily Forlini
+Emily Forlini
+By Jeremy Kahn
+Jeremy Kahn and Emily Forlini
+Emily Forlini
+July 21, 2026, 3:45 PM ET
+OpenAI CEO Sam Altman. The company said in a blog post that two of its AI models escaped from a controlled test environment and autonomously hacked into AI company Hugging Face, all in order to cheat on an evaluation test. Chip Somodevilla—Getty Images)
+Add Fortune on Google for similar content.
+Add us on Google
+Add us on Google
+OpenAI said Tuesday that two of its AI models autonomously hacked their way out of a controlled environment where they were supposed to be walled off from internet access and then hacked their way into the systems of Hugging Face, a company that hosts open source AI models and testing resources, in order to cheat on an internal evaluation test.
+OpenAI disclosed the incident in a blog post on Tuesday, a stunning announcement that is certain to set off alarm bells across the industry about the increasing power of AI models and the risk of them going rogue. According to OpenAI, the incident involved “a combination” of both its latest and most powerful publicly-available model, GPT-5.6 Sol, as well as an even more powerful unreleased model.
+It said the models were being used in an internal test designed to evaluate their cyber security capabilities and that they were being tested without guardrails in place that might normally limit the models’ ability to conduct cyber attacks.
+Recommended Video
+The models were being tested against a freely-available cybersecurity benchmark evaluation called ExploitGym. The models, accordingly to OpenAI, correctly surmised that the solutions to that test were maintained by Hugging Face.
+“The models identified and chained vulnerabilities across OpenAI’s research environment and Hugging Face’s production infrastructure to obtain test solutions directly from Hugging Face’s production database,” OpenAI said in its blog post. “All evidence suggests that the models were hyperfocused on finding a solution for ExploitGym, going to extreme lengths to achieve a rather narrow testing goal.”
+OpenAI said that it considered this to be “an unprecedented cyber incident, involving state-of-the-art cyber capabilities, and are responding accordingly.”
+Cybersecurity researchers have long been warning that advanced AI systems are capable of such attacks. Roman Yampolskiy, an AI safety researcher and computer science professor at the University of Louisville, says this example highlights how powerful models “can discover and exploit vulnerabilities in ways that were not explicitly anticipated by their developers.” He expects to see more incidents of this type because AI models “are fundamentally unpredictable and ultimately uncontrollable.”
+Hugging Face disclosed in a blog post on Thursday that it had been the victim of a cyber attack earlier in the week that it believed was conducted by an autonomous AI agent. It is thought to be one of just a handful of incidents recorded so far involving AI agents acting autonomously to carry out an attack, a risk cyber security experts have been warning about for the past year as AI models have become increasingly adept at both coding and carrying out long-running tasks.
+At the time, Hugging Face said it was continuing to investigate the attack and did not know who had carried it out. It said that it had first attempted to use an undisclosed AI model for a leading U.S. lab to defend against the attacking AI agent but that the guardrails around that model’s cyber capabilities stymied its response team’s work. The company said it instead wound up using an open source AI model from Chinese company Z.ai to carry out its defense.
+Hugging Face CEO Clem Delangue said in a statement provided to OpenAI for its Tuesday blog post about the incident that his company is “grateful for the collaboration with OpenAI on this and other topics. This incident, possibly the first of its kind, proves a point we’ve long believed: AI safety won’t be solved by any single company working in secret. It will be solved in the open, collaboratively, with broad access to AI for every defender, everywhere.”
+Earlier this week, OpenAI published a different blog post about the same unreleased, powerful model, saying it had also escaped its internal sandboxes—environments where AI models have no internet access and often have limited software tools that they can call—during other testing. But in those incidents, while the model hacked its way out of its controlled environment, it did not hack its way into any other company’s systems. OpenAI did not say when these other incidents occurred, but we know now that this same model was one of the Hugging Face attackers.
+OpenAI rival Anthropic has also reported that its Mythos model escaped a sandbox and gained internet access it was not supposed to have during safety testing in order to email a researcher about a task.
+OpenAI and Hugging Face are continuing to investigate the issue, and will share more when that process is complete. So far, what they know is the models began the attack by gaining internet access. This required spending a “substantial amount of inference compute,” as well as exploiting a zero-day vulnerability in internally hosted third-party software. OpenAI has now disclosed this zero-day to the vendor.
+After the models got web access, they went to Hugging Face to find answers to ExploitGym, assuming the platform would have models, datasets, and solutions that they could use to cheat its way to high performance on the benchmark. In one example, the model executed a complex, multi-part attack to get into Hugging Face servers, using exposed credentials and zero-day vulnerabilities.
+OpenAI detected the Hugging Face attack and reached out to Hugging Face to disclose it. By that time, Hugging Face had already identified and contained the attack, and had begun piecing together what happened.
+The incident is not over. OpenAI is still working on implementing better controls in its research environment, even if it means slowing down its research, until it can patch the vulnerabilities. The company said it is also continuing to work with Hugging Face to help it bolster its defenses.
+As part of that effort, OpenAI said it has now added Hugging Face to its “trusted access” cybersecurity program. That means that Hugging Face will be able to use a version of OpenAI’s GPT-5.6 Sol model that has fewer guardrails around cyber capabilities and which is designed to help cyber defenders.
+Hugging Face has not said which American AI model it tried to use to defend its networks initially. Both OpenAI and Anthropic have released versions of their most capable AI models with guardrails that limit access to cyber capabilities while also announcing programs for select, vetted partners who can use more capable versions of those models for cyber defense.
+Fortune Daily breaks the traditional barrier between audience and newsroom. The show transforms Fortune ’s trusted reporting into actionable, conversational, and entertaining insights for an emerging class of business leaders. Watch here.
+About the Author s By Jeremy Kahn Editor, AI
+Jeremy Kahn is the AI editor at Fortune , spearheading the publication's coverage of artificial intelligence. He also co-authors Eye on AI , Fortune ’s flagship AI newsletter.
+See full bio
+By Emily Forlini Senior AI Reporter
+See full bio
+Add Fortune on Google for similar content.
+Add us on Google
+Latest in Cybersecurity
+Most Popular

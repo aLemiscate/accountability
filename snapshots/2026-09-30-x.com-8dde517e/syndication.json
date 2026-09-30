@@ -1,0 +1,408 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 1289,
+  "in_reply_to_screen_name": "OpenAI",
+  "in_reply_to_status_id_str": "2027846012107456943",
+  "in_reply_to_user_id_str": "4398626122",
+  "lang": "en",
+  "created_at": "2026-02-28T20:38:59.000Z",
+  "display_text_range": [
+    0,
+    280
+  ],
+  "entities": {},
+  "id_str": "2027846013650932195",
+  "text": "Our agreement with the Department of War upholds our redlines:\n\n- No use of OpenAI technology for mass domestic surveillance.\n\n- No use of OpenAI technology to direct autonomous weapons systems.\n\n- No use of OpenAI technology for high-stakes automated decisions (e.g. systems such",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2027846013650932195"
+    ],
+    "editable_until_msecs": "1772314739000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 256,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 3776,
+    "lang": "en",
+    "reply_count": 1769,
+    "retweet_count": 555,
+    "created_at": "2026-02-28T20:38:59.000Z",
+    "display_text_range": [
+      0,
+      273
+    ],
+    "entities": {},
+    "id_str": "2027846012107456943",
+    "text": "Yesterday we reached an agreement with the Department of War for deploying advanced AI systems in classified environments, which we requested they make available to all AI companies.\n\nWe think our deployment has more guardrails than any previous agreement for classified AI",
+    "user": {
+      "id_str": "4398626122",
+      "name": "OpenAI",
+      "screen_name": "OpenAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2027846012107456943"
+      ],
+      "editable_until_msecs": "1772314739000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "card": {
+      "card_platform": {
+        "platform": {
+          "audience": {
+            "name": "production"
+          },
+          "device": {
+            "name": "iPhone",
+            "version": "13"
+          }
+        }
+      },
+      "name": "summary_large_image",
+      "url": "https://t.co/k1Ge2MqqPr",
+      "binding_values": {
+        "photo_image_full_size_large": {
+          "image_value": {
+            "height": 419,
+            "url": "https://pbs.twimg.com/card_img/2102648159524593664/53vlW7Js?format=jpg&name=800x419",
+            "width": 800
+          },
+          "type": "IMAGE"
+        },
+        "thumbnail_image": {
+          "image_value": {
+            "height": 150,
+            "url": "https://pbs.twimg.com/card_img/2102648159524593664/53vlW7Js?format=jpg&name=280x150",
+            "width": 267
+          },
+          "type": "IMAGE"
+        },
+        "description": {
+          "string_value": "Details on OpenAI’s contract with the Department of War, outlining safety red lines, legal protections, and how AI systems will be deployed in classified environments.",
+          "type": "STRING"
+        },
+        "domain": {
+          "string_value": "openai.com",
+          "type": "STRING"
+        },
+        "thumbnail_image_large": {
+          "image_value": {
+            "height": 320,
+            "url": "https://pbs.twimg.com/card_img/2102648159524593664/53vlW7Js?format=jpg&name=800x320_1",
+            "width": 569
+          },
+          "type": "IMAGE"
+        },
+        "summary_photo_image_small": {
+          "image_value": {
+            "height": 202,
+            "url": "https://pbs.twimg.com/card_img/2102648159524593664/53vlW7Js?format=jpg&name=386x202",
+            "width": 386
+          },
+          "type": "IMAGE"
+        },
+        "thumbnail_image_original": {
+          "image_value": {
+            "height": 900,
+            "url": "https://pbs.twimg.com/card_img/2102648159524593664/53vlW7Js?format=jpg&name=orig",
+            "width": 1600
+          },
+          "type": "IMAGE"
+        },
+        "site": {
+          "scribe_key": "publisher_id",
+          "type": "USER",
+          "user_value": {
+            "id_str": "4398626122",
+            "path": []
+          }
+        },
+        "photo_image_full_size_small": {
+          "image_value": {
+            "height": 202,
+            "url": "https://pbs.twimg.com/card_img/2102648159524593664/53vlW7Js?format=jpg&name=386x202",
+            "width": 386
+          },
+          "type": "IMAGE"
+        },
+        "summary_photo_image_large": {
+          "image_value": {
+            "height": 419,
+            "url": "https://pbs.twimg.com/card_img/2102648159524593664/53vlW7Js?format=jpg&name=800x419",
+            "width": 800
+          },
+          "type": "IMAGE"
+        },
+        "thumbnail_image_small": {
+          "image_value": {
+            "height": 81,
+            "url": "https://pbs.twimg.com/card_img/2102648159524593664/53vlW7Js?format=jpg&name=144x144",
+            "width": 144
+          },
+          "type": "IMAGE"
+        },
+        "thumbnail_image_x_large": {
+          "image_value": {
+            "height": 900,
+            "url": "https://pbs.twimg.com/card_img/2102648159524593664/53vlW7Js?format=png&name=2048x2048_2_exp",
+            "width": 1600
+          },
+          "type": "IMAGE"
+        },
+        "photo_image_full_size_original": {
+          "image_value": {
+            "height": 900,
+            "url": "https://pbs.twimg.com/card_img/2102648159524593664/53vlW7Js?format=jpg&name=orig",
+            "width": 1600
+          },
+          "type": "IMAGE"
+        },
+        "vanity_url": {
+          "scribe_key": "vanity_url",
+          "string_value": "openai.com",
+          "type": "STRING"
+        },
+        "photo_image_full_size": {
+          "image_value": {
+            "height": 314,
+            "url": "https://pbs.twimg.com/card_img/2102648159524593664/53vlW7Js?format=jpg&name=600x314",
+            "width": 600
+          },
+          "type": "IMAGE"
+        },
+        "thumbnail_image_color": {
+          "image_color_value": {
+            "palette": [
+              {
+                "percentage": 72.29,
+                "rgb": {
+                  "blue": 236,
+                  "green": 130,
+                  "red": 73
+                }
+              },
+              {
+                "percentage": 20.43,
+                "rgb": {
+                  "blue": 134,
+                  "green": 87,
+                  "red": 32
+                }
+              },
+              {
+                "percentage": 5.54,
+                "rgb": {
+                  "blue": 253,
+                  "green": 191,
+                  "red": 140
+                }
+              },
+              {
+                "percentage": 1.74,
+                "rgb": {
+                  "blue": 233,
+                  "green": 216,
+                  "red": 200
+                }
+              }
+            ]
+          },
+          "type": "IMAGE_COLOR"
+        },
+        "title": {
+          "string_value": "Our agreement with the Department of War",
+          "type": "STRING"
+        },
+        "summary_photo_image_color": {
+          "image_color_value": {
+            "palette": [
+              {
+                "percentage": 72.29,
+                "rgb": {
+                  "blue": 236,
+                  "green": 130,
+                  "red": 73
+                }
+              },
+              {
+                "percentage": 20.43,
+                "rgb": {
+                  "blue": 134,
+                  "green": 87,
+                  "red": 32
+                }
+              },
+              {
+                "percentage": 5.54,
+                "rgb": {
+                  "blue": 253,
+                  "green": 191,
+                  "red": 140
+                }
+              },
+              {
+                "percentage": 1.74,
+                "rgb": {
+                  "blue": 233,
+                  "green": 216,
+                  "red": 200
+                }
+              }
+            ]
+          },
+          "type": "IMAGE_COLOR"
+        },
+        "summary_photo_image_x_large": {
+          "image_value": {
+            "height": 900,
+            "url": "https://pbs.twimg.com/card_img/2102648159524593664/53vlW7Js?format=png&name=2048x2048_2_exp",
+            "width": 1600
+          },
+          "type": "IMAGE"
+        },
+        "summary_photo_image": {
+          "image_value": {
+            "height": 314,
+            "url": "https://pbs.twimg.com/card_img/2102648159524593664/53vlW7Js?format=jpg&name=600x314",
+            "width": 600
+          },
+          "type": "IMAGE"
+        },
+        "photo_image_full_size_color": {
+          "image_color_value": {
+            "palette": [
+              {
+                "percentage": 72.29,
+                "rgb": {
+                  "blue": 236,
+                  "green": 130,
+                  "red": 73
+                }
+              },
+              {
+                "percentage": 20.43,
+                "rgb": {
+                  "blue": 134,
+                  "green": 87,
+                  "red": 32
+                }
+              },
+              {
+                "percentage": 5.54,
+                "rgb": {
+                  "blue": 253,
+                  "green": 191,
+                  "red": 140
+                }
+              },
+              {
+                "percentage": 1.74,
+                "rgb": {
+                  "blue": 233,
+                  "green": 216,
+                  "red": 200
+                }
+              }
+            ]
+          },
+          "type": "IMAGE_COLOR"
+        },
+        "photo_image_full_size_x_large": {
+          "image_value": {
+            "height": 900,
+            "url": "https://pbs.twimg.com/card_img/2102648159524593664/53vlW7Js?format=png&name=2048x2048_2_exp",
+            "width": 1600
+          },
+          "type": "IMAGE"
+        },
+        "card_url": {
+          "scribe_key": "card_url",
+          "string_value": "https://t.co/k1Ge2MqqPr",
+          "type": "STRING"
+        },
+        "summary_photo_image_original": {
+          "image_value": {
+            "height": 900,
+            "url": "https://pbs.twimg.com/card_img/2102648159524593664/53vlW7Js?format=jpg&name=orig",
+            "width": 1600
+          },
+          "type": "IMAGE"
+        }
+      }
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "birdwatch_pivot": {
+    "destinationUrl": "https://twitter.com/i/birdwatch/n/2027890672813179268",
+    "title": "Readers added context they thought people might want to know",
+    "shorttitle": "Readers added context",
+    "visualStyle": "Default",
+    "subtitle": {
+      "text": "OpenAI's contract forbids use of their technology in autonomous weapons where \"law, regulation, or Department policy requires human control.\" However, current DoW policy does not require human approval for an autonomous weapon to use force.\nopenai.com/index/our-agre…\nwarontherocks.com/2025/05/autono…",
+      "entities": [
+        {
+          "fromIndex": 241,
+          "toIndex": 267,
+          "ref": {
+            "url": {
+              "url": "https://t.co/eYe7snKy9p",
+              "urlType": "ExternalUrl"
+            }
+          }
+        },
+        {
+          "fromIndex": 268,
+          "toIndex": 301,
+          "ref": {
+            "url": {
+              "url": "https://t.co/AC11lyjHCr",
+              "urlType": "ExternalUrl"
+            }
+          }
+        }
+      ]
+    },
+    "iconType": "BirdwatchV1Icon",
+    "footer": {
+      "text": "Context is written by people who use X, and appears when rated helpful by others.  Find out more.",
+      "entities": [
+        {
+          "fromIndex": 83,
+          "toIndex": 96,
+          "ref": {
+            "url": {
+              "url": "https://x.com/i/flow/join-birdwatch",
+              "urlType": "ExternalUrl"
+            }
+          }
+        }
+      ]
+    },
+    "noteId": "2027890672813179268",
+    "footerIconType": "BirdwatchEyeOff"
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDI3ODQ2MDEzNTgzODE4NzUy"
+  }
+}

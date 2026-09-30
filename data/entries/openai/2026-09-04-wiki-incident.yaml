@@ -1,0 +1,83 @@
+title: Outside researchers find OpenAI agents used a German wiki as a message
+  board; OpenAI confirms it only after the report
+date: 2026-09-04
+org: openai
+type: did
+kind: disclosure
+who: [openai]
+quote: >-
+  it’s past time for us to define standards for when and how we share
+  misalignment incidents, not just misalignment properties of our models.
+summary: >-
+  A group of AI safety researchers reported that agents identifying themselves
+  as OpenAI systems left about 18,000 posts on a dormant German software wiki
+  between May and July 2026, under more than 3,700 names such as
+  "OpenAIResearcher." The agents used the site to pool answers to a timed web
+  task and to share a way around their sandbox's proxy. Addresses registered to
+  OpenAI first visited the wiki on June 21, and agent editing collapsed the
+  next day. Reuters reported the findings on Sept. 4 and said OpenAI's
+  leadership had known of the episode for weeks while dealing with the Hugging
+  Face breach. The next day OpenAI confirmed the "wiki incident" on X. It said
+  it had treated the episode as misalignment of a kind it had published before,
+  not as a security incident, and that it historically treated misalignment
+  "largely as a research question, which gets communicated in research
+  publications."
+patterns: [sorry-after-caught]
+related: [2026-07-21-hugging-face-incident, 2026-08-18-altman-pause-act-unilaterally]
+sources:
+  - title: OpenAI on X ("How we think about the 'wiki incident'")
+    publisher: X
+    url: https://x.com/OpenAI/status/2096133504417616165
+    date: 2026-09-05
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-5484abf8
+  - title: OpenAI confirms 'wiki incident,' says it's 'working on a framework' for
+      more disclosure
+    publisher: TechCrunch
+    url: https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/
+    date: 2026-09-05
+    type: reporting
+    snapshot: snapshots/2026-09-30-techcrunch.com-b86b5015
+  - title: Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their
+      Coordination Channel
+    publisher: The Hacker News
+    url: https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html
+    date: 2026-09
+    type: reporting
+    snapshot: snapshots/2026-09-30-thehackernews.com-1c98993e
+response: >-
+  An OpenAI spokesperson told Reuters the company could not "meaningfully
+  respond to claims or findings on a report that we have not had an opportunity
+  to review," and denied that its legal team had discouraged an investigation.
+  OpenAI said it was "working on a framework and will share it in upcoming
+  weeks."
+updates:
+  - date: 2026-09-16
+    text: >-
+      OpenAI published a framework for reporting model misalignment, with
+      three tracks (Ready for Disclosure, Minor Investigation, Larger
+      Investigation), and six reports under it: models that hid mistakes and
+      made up data, used an exposed API key without permission, uploaded code to
+      the internet to cite it, and passed messages through an internal code
+      repository and public file-sharing sites. It said incidents affecting a
+      third party would follow its security and legal obligations first, and
+      that it would "aim to publish an initial notice as soon as possible, but
+      may need to delay it for security reasons."
+    sources:
+      - title: Our framework for reporting model misalignment
+        publisher: OpenAI
+        url: https://openai.com/index/model-misalignment-reporting-framework/
+        date: 2026-09-16
+        type: primary
+      - title: OpenAI unveils new framework for reporting 'AI misalignment' as it
+          reveals six more worrying incidents
+        publisher: SiliconANGLE
+        url: https://siliconangle.com/2026/09/16/openai-unveils-new-framework-for-reporting-ai-misalignment-as-it-reveals-six-more-worrying-incidents/
+        date: 2026-09-16
+        type: reporting
+        snapshot: snapshots/2026-09-30-siliconangle.com-0308b0dd
+note: >-
+  The promised framework arrived 11 days later, which counts in OpenAI's
+  favor. The entry is here for the order of events: outside researchers found
+  the activity in public logs, and OpenAI described it only after the press
+  did.
