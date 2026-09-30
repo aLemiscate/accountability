@@ -262,7 +262,8 @@ export function quoteSegments(quote) {
     .filter((part) => part.length >= 3);
 }
 
-const SNAPSHOT_TEXT_FILES = ['page.txt', 'rendered.txt', 'post.txt', 'document.txt'];
+// transcript.txt holds a labeled transcription of text that was captured only as an image.
+const SNAPSHOT_TEXT_FILES = ['page.txt', 'rendered.txt', 'post.txt', 'document.txt', 'transcript.txt'];
 
 /**
  * Check each entry's quote against the text of the snapshots attached to its
