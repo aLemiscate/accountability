@@ -1,0 +1,77 @@
+title: GPT-5.1 ships with safety regressions its own system card lists
+date: 2025-11-12
+org: openai
+type: did
+kind: disclosure
+who: [openai]
+quote: >-
+  The new gpt-5.1-thinking model shows light regressions relative to
+  gpt-5-thinking for content involving harassment and hateful language, as well
+  as disallowed sexual content. We are working on further improvements for these
+  categories.
+summary: >-
+  OpenAI released GPT-5.1 with a four-page system card addendum. It reported
+  that GPT-5.1 Instant did slightly worse than the October GPT-5 update on
+  disallowed sexual content, violent content, mental health and emotional
+  reliance, though better than the August version. GPT-5.1 Thinking regressed on
+  harassment, hate, disallowed sexual content, emotional reliance and self-harm
+  prompts with images. OpenAI said it was working on improvements. On the
+  Preparedness Framework, the addendum said OpenAI kept treating GPT-5.1 as High
+  risk for biology and chemistry, and that "evaluations of near-final
+  checkpoints" showed no plausible chance of High capability in cybersecurity
+  or AI self-improvement.
+contradicts: [2025-05-02-behavior-issues-block-launches]
+related: [2025-04-15-preparedness-framework-v2, 2025-04-29-gpt-4o-sycophancy-rollback]
+patterns: [ship-then-patch]
+sources:
+  - title: GPT-5.1 Instant and GPT-5.1 Thinking System Card Addendum (PDF)
+    publisher: OpenAI
+    url: https://cdn.openai.com/pdf/4173ec8d-1229-47db-96de-06d87147e07e/5_1_system_card.pdf
+    date: 2025-11-12
+    type: primary
+    snapshot: snapshots/2026-09-30-cdn.openai.com-397b6560
+  - title: GPT-5.1 Instant and GPT-5.1 Thinking System Card Addendum
+    publisher: Simon Willison
+    url: https://simonwillison.net/2025/Nov/14/gpt-51-system-card-addendum/
+    date: 2025-11-14
+    type: analysis
+    snapshot: snapshots/2026-09-30-simonwillison.net-4714c137
+updates:
+  - date: 2025-11-14
+    text: >-
+      Former OpenAI policy researcher Miles Brundage asked why GPT-5.1 "was
+      shipped with various known safety regressions (vs. October) + unfinished
+      work." Former OpenAI safety researcher Steven Adler wrote that OpenAI
+      "doesn't seem to have run their CBRN evals on GPT-5.1, and to have only
+      tested cyber / self-improvement for pre-final checkpoints." OpenAI's
+      Preparedness Framework says "every covered model" gets its evaluation
+      suite before deployment, and leaves it to OpenAI's Safety Advisory Group
+      to decide when an update is covered. The addendum doesn't say whether
+      that group reviewed GPT-5.1.
+    sources:
+      - title: Miles Brundage on X
+        publisher: X
+        url: https://x.com/Miles_Brundage/status/1988696272480674171
+        date: 2025-11-12
+        type: primary
+        archive: https://web.archive.org/web/20251112223732/https://x.com/miles_brundage/status/1988696272480674171
+        snapshot: snapshots/2026-09-30-x.com-c6c1af5b
+      - title: Steven Adler on X
+        publisher: X
+        url: https://x.com/sjgadler/status/1989138789755916683
+        date: 2025-11-14
+        type: primary
+        archive: https://web.archive.org/web/20251120184715/https://x.com/sjgadler/status/1989138789755916683
+        snapshot: snapshots/2026-09-30-x.com-f679af87
+      - title: Preparedness Framework, Version 2 (PDF)
+        publisher: OpenAI
+        url: https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf
+        date: 2025-04-15
+        type: primary
+        snapshot: snapshots/2026-09-29-cdn.openai.com-ec5d8e7d
+note: >-
+  OpenAI deserves credit for publishing the regressions; the record knows about
+  them only because it did. The entry is here because six months earlier
+  OpenAI promised that behavior problems would block launches "even when
+  metrics like A/B testing look good." Mental health and emotional reliance
+  are the kind of behavior the sycophancy promise was about.

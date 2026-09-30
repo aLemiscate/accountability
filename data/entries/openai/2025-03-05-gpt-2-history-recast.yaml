@@ -1,0 +1,87 @@
+title: OpenAI recasts its GPT-2 caution as an outdated view of AGI; the report's
+  co-author says that rewrites history
+date: 2025-03-05
+org: openai
+type: said
+kind: claim
+who: [openai]
+venue: Safety page, "How we think about safety and alignment"
+quote: >-
+  safety lessons come from treating the systems of today with outsized caution
+  relative to their apparent power … is the approach we took for … GPT‑2
+summary: >-
+  In a March 2025 statement of its safety philosophy, OpenAI said it used to see
+  AGI as a "discontinuous" leap. In that view, lessons came from treating
+  today's systems with outsized caution, and OpenAI said that was the approach
+  it took for GPT-2 in 2019. It said it now sees "the first AGI as just one point
+  along a series of systems of increasing usefulness," where the way to make
+  the next system safe is to learn from deploying the current one.
+concreteness: measurable
+status: contradicted
+patterns: []
+sources:
+  - title: How we think about safety and alignment
+    publisher: OpenAI
+    url: https://openai.com/safety/how-we-think-about-safety-alignment/
+    date: 2025-03-05
+    type: primary
+    archive: https://web.archive.org/web/20260915173850/https://openai.com/safety/how-we-think-about-safety-alignment/
+  - title: OpenAI's ex-policy lead criticizes the company for 'rewriting' its AI
+      safety history
+    publisher: TechCrunch
+    url: https://techcrunch.com/2025/03/06/openais-ex-policy-lead-criticizes-the-company-for-rewriting-its-ai-safety-history/
+    date: 2025-03-06
+    type: reporting
+    snapshot: snapshots/2026-09-30-techcrunch.com-fadc53b3
+updates:
+  - date: 2025-03-05
+    text: >-
+      Miles Brundage, OpenAI's former head of policy research and a co-author
+      of the 2019 GPT-2 release report, said the section "rewrites the history
+      of GPT-2 in a concerning way." He wrote that the release "was 100%
+      consistent + foreshadowed OpenAI's current philosophy of iterative
+      deployment," and asked: "What part of that was motivated by or premised on
+      thinking of AGI as discontinuous? None of it." He added that the post
+      seemed to set up a burden of proof "where concerns are alarmist + you need
+      overwhelming evidence of imminent dangers to act on them." OpenAI's own
+      November 2019 report explains the staged release as a way to "allow time
+      for risk analyses and use findings from smaller models to inform the
+      actions taken with larger ones," because of "concerns about the larger
+      models being misused."
+    sources:
+      - title: Miles Brundage on X (thread)
+        publisher: X
+        url: https://x.com/Miles_Brundage/status/1897426207131705739
+        date: 2025-03-05
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-528ea714
+      - title: Miles Brundage on X ("100% consistent")
+        publisher: X
+        url: https://x.com/Miles_Brundage/status/1897426208658502046
+        date: 2025-03-05
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-ad3c159f
+      - title: Miles Brundage on X ("None of it")
+        publisher: X
+        url: https://x.com/Miles_Brundage/status/1897426209887392230
+        date: 2025-03-05
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-a95092a1
+      - title: Miles Brundage on X ("burden of proof")
+        publisher: X
+        url: https://x.com/Miles_Brundage/status/1897426212546600992
+        date: 2025-03-05
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-e94759de
+      - title: Release Strategies and the Social Impacts of Language Models
+        publisher: OpenAI (arXiv)
+        url: https://arxiv.org/abs/1908.09203
+        date: 2019-11
+        type: primary
+        snapshot: snapshots/2026-09-30-arxiv.org-67c6f35e
+note: >-
+  This is a claim about OpenAI's own past, and its own 2019 report gives the
+  reason: misuse risk from the larger models, not a view of AGI as one sudden
+  leap. It matters because the new framing treats past caution as a mistake
+  of worldview, which lowers the bar for caution next time. The quote is as
+  reproduced by TechCrunch; openai.com blocks automated capture.

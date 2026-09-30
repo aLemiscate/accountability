@@ -17,7 +17,7 @@ summary: >-
   treating model behavior problems as reasons to hold a launch, even when they
   can only be judged qualitatively.
 concreteness: conditional
-status: open
+status: eroded
 breaks_if: >-
   OpenAI ships a model that its own testers or system card flagged for a
   behavior problem of this kind and then has to roll it back or patch it; or it
@@ -38,4 +38,10 @@ sources:
     snapshot: snapshots/2026-09-30-venturebeat.com-65d8c7c0
 note: >-
   Hard to check from outside, because only OpenAI sees its testers' flags. The
-  check is what later system cards and rollbacks show.
+  check is what later system cards and rollbacks show. GPT-5.1 met the second
+  test above: its system card listed regressions in mental health, emotional
+  reliance and disallowed content, and it shipped. The record marks the promise
+  eroded rather than broken because the regressions were small, were measured
+  against the October update rather than the model before the promise, and
+  OpenAI may have weighed them and judged them not blocking, which is what the
+  promise literally requires.

@@ -1,0 +1,98 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 24,
+  "in_reply_to_screen_name": "Miles_Brundage",
+  "in_reply_to_status_id_str": "1932531528086798370",
+  "in_reply_to_user_id_str": "1214528593",
+  "lang": "en",
+  "created_at": "2025-06-10T20:18:53.000Z",
+  "display_text_range": [
+    0,
+    216
+  ],
+  "entities": {},
+  "id_str": "1932532943555281077",
+  "text": "If they didn’t do a full Preparedness Framework assessment, e.g. because the evals weren’t too different and they didn’t consider it a good use of time given other coming launches, they should just say that, I think.",
+  "user": {
+    "id_str": "1214528593",
+    "name": "Miles Brundage",
+    "screen_name": "Miles_Brundage",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2089462134828871680/cW8--1eS_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1932532943555281077"
+    ],
+    "editable_until_msecs": "1749590333000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 2,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 132,
+    "lang": "en",
+    "reply_count": 5,
+    "retweet_count": 7,
+    "created_at": "2025-06-10T20:13:15.000Z",
+    "display_text_range": [
+      0,
+      232
+    ],
+    "entities": {},
+    "id_str": "1932531528086798370",
+    "text": "This last sentence seems false? \n\nThe system card does not appear to have been updated even to incorporate the information in this thread.\n\nThe whole point of the term system card is that the model isn’t the only thing that matters.",
+    "user": {
+      "id_str": "1214528593",
+      "name": "Miles Brundage",
+      "screen_name": "Miles_Brundage",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2089462134828871680/cW8--1eS_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1932531528086798370"
+      ],
+      "editable_until_msecs": "1749589995000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "quoted_tweet": {
+      "__typename": "Tweet",
+      "favorite_count": 679,
+      "in_reply_to_screen_name": "OpenAI",
+      "in_reply_to_status_id_str": "1932530422355013945",
+      "in_reply_to_user_id_str": "4398626122",
+      "lang": "en",
+      "reply_count": 50,
+      "retweet_count": 44,
+      "created_at": "2025-06-10T20:08:52.000Z",
+      "display_text_range": [
+        0,
+        273
+      ],
+      "entities": {},
+      "id_str": "1932530423911096508",
+      "text": "OpenAI o3-pro is available in the model picker for Pro and Team users starting today, replacing OpenAI o1-pro.\n\nEnterprise and Edu users will get access the week after.\n\nAs o3-pro uses the same underlying model as o3, full safety details can be found in the o3 system card.",
+      "user": {
+        "id_str": "4398626122",
+        "name": "OpenAI",
+        "screen_name": "OpenAI",
+        "is_blue_verified": true,
+        "profile_image_shape": "Square",
+        "verified": false,
+        "verified_type": "Business",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+      }
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}
