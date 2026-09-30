@@ -1,0 +1,13 @@
+{
+  "url": "https://alignment.openai.com/accidental-cot-grading/",
+  "captured_at": "2026-09-30T04:50:38.655Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "a3e35487dc2a14f2b1f7d9e40242e64499fa8288dd910aadbc3d6c0ab4205578",
+    "page.txt": "3ad8ba086ab52eba76ed80b76458708aa11a79e22a8b07d08885893edaeca25d"
+  },
+  "http_status": 200,
+  "final_url": "https://alignment.openai.com/accidental-cot-grading/",
+  "content_type": "text/html; charset=utf-8",
+  "title": "Investigating the consequences of accidentally grading CoT during RL"
+}

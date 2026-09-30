@@ -1,0 +1,94 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 129,
+  "in_reply_to_screen_name": "BenjaminDEKR",
+  "in_reply_to_status_id_str": "1996425926721368516",
+  "in_reply_to_user_id_str": "1594119001684299781",
+  "lang": "en",
+  "created_at": "2025-12-05T16:15:32.000Z",
+  "display_text_range": [
+    14,
+    290
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "1594119001684299781",
+        "indices": [
+          0,
+          13
+        ],
+        "name": "Benjamin De Kraker",
+        "screen_name": "BenjaminDEKR"
+      }
+    ]
+  },
+  "id_str": "1996976743660556584",
+  "text": "@BenjaminDEKR I agree that anything that feels like an ad needs to be handled with care, and we fell short.\n\nWe’ve turned off this kind of suggestion while we improve the model’s precision. We’re also looking at better controls so you can dial this down or off if you don’t find it helpful.",
+  "user": {
+    "id_str": "1273327266957688832",
+    "name": "Mark Chen",
+    "screen_name": "markchen90",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1273327644436656129/uYf1oNS5_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1996976743660556584"
+    ],
+    "editable_until_msecs": "1764954932000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 19,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 76,
+    "lang": "en",
+    "reply_count": 24,
+    "retweet_count": 3,
+    "created_at": "2025-12-04T03:46:47.000Z",
+    "display_text_range": [
+      0,
+      278
+    ],
+    "entities": {
+      "user_mentions": [
+        {
+          "id_str": "1273327266957688832",
+          "indices": [
+            9,
+            20
+          ],
+          "name": "Mark Chen",
+          "screen_name": "markchen90"
+        }
+      ]
+    },
+    "id_str": "1996425926721368516",
+    "text": "OpenAI's @markchen90 says they are looking into the not-great \"shop at Target\" frustration.\n\nGiving them the benefit of the doubt to improve it. Mark always seems genuine to me.\n\nMy 2 main points are really just:\n\n- This is essentially an ad\n- Let users opt-out or turn this off",
+    "user": {
+      "id_str": "1594119001684299781",
+      "name": "Benjamin De Kraker",
+      "screen_name": "BenjaminDEKR",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2006784699251748864/fZ1xQPWe_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1996425926721368516"
+      ],
+      "editable_until_msecs": "1764823607000",
+      "edits_remaining": "5",
+      "is_edit_eligible": true
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

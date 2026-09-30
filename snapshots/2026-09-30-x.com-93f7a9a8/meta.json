@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/OpenAI/status/2052845765874327943",
+  "captured_at": "2026-09-30T04:45:32.911Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "3f80ae099d550a4d364916ffdc487a4e5c4c5ee645dd17a2bcaf4248fbb824b5",
+    "page.txt": "1e3b8753da1acf4c42f535c131333e92244d4f780ed6a809054a79f1c93af643",
+    "post.json": "08d024be92b9784b11afe09549288af20eca9cfe43f06a83ae7516f0bac04025",
+    "syndication.json": "9767401ba5aba178c4ddb776f4fa23201231f9b6085f8b9077e89e9a03319f6e",
+    "post.txt": "1a27158fec69aa0f62cd6a710a0a1669738372a31394ae6a0af339102d9dbb86"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/2052845765874327943",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"Directly rewarding or penalizing CoTs can make models’ reasoning traces less informative for detecting misalignment. That’s why we treat avoiding CoT grading as an important part of preserving monitorability. We recently built an automated detection system to find cases where RL rewa… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "May 8, 2026",
+    "posted_at": "2026-05-08T20:19:05.271Z"
+  }
+}

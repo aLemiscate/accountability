@@ -1,0 +1,112 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 406,
+  "in_reply_to_screen_name": "nicdunz",
+  "in_reply_to_status_id_str": "2027901173655613552",
+  "in_reply_to_user_id_str": "1640521359640993798",
+  "lang": "en",
+  "created_at": "2026-03-01T00:25:41.000Z",
+  "display_text_range": [
+    9,
+    287
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "1640521359640993798",
+        "indices": [
+          0,
+          8
+        ],
+        "name": "Nicholas Dunzelman",
+        "screen_name": "nicdunz"
+      }
+    ]
+  },
+  "id_str": "2027903064347447625",
+  "text": "@nicdunz Thinking through non-domestic surveillance. I have accepted that the US military is going to do some amount of surveillance on foreigners, and I know foreign governments try to do it to us, but I still don't like it.\n\nI think it is very important that society thinks through the",
+  "user": {
+    "id_str": "1605",
+    "name": "Sam Altman",
+    "screen_name": "sama",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_normal.jpg",
+    "highlighted_label": {
+      "badge": {
+        "url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_bigger.jpg"
+      },
+      "description": "OpenAI",
+      "url": {
+        "url": "https://twitter.com/OpenAI",
+        "url_type": "DeepLink"
+      },
+      "user_label_display_type": "Badge",
+      "user_label_type": "BusinessLabel"
+    }
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2027903064347447625"
+    ],
+    "editable_until_msecs": "1772328341000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 50,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 120,
+    "in_reply_to_screen_name": "sama",
+    "in_reply_to_status_id_str": "2027900042720498089",
+    "in_reply_to_user_id_str": "1605",
+    "lang": "en",
+    "reply_count": 3,
+    "retweet_count": 3,
+    "created_at": "2026-03-01T00:18:11.000Z",
+    "display_text_range": [
+      6,
+      143
+    ],
+    "entities": {
+      "user_mentions": [
+        {
+          "id_str": "1605",
+          "indices": [
+            0,
+            5
+          ],
+          "name": "Sam Altman",
+          "screen_name": "sama"
+        }
+      ]
+    },
+    "id_str": "2027901173655613552",
+    "text": "@sama Which of OpenAI's core principles was the most difficult to reconcile with the DoW's requirements during your internal debates this week?",
+    "user": {
+      "id_str": "1640521359640993798",
+      "name": "Nicholas Dunzelman",
+      "screen_name": "nicdunz",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2101835586256470017/Sci29Jby_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2027901173655613552"
+      ],
+      "editable_until_msecs": "1772327891000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDI3OTAzMDY0MjU5MzY2OTE0"
+  }
+}

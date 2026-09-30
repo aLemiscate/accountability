@@ -1,0 +1,50 @@
+title: 'OpenAI: ChatGPT agent is the first launch treated as "High" biological
+  risk, with safeguards switched on'
+date: 2025-07-17
+org: openai
+type: said
+kind: claim
+who: [openai]
+venue: ChatGPT agent system card and post on X
+quote: >-
+  We have decided to treat this launch as High capability in the Biological and
+  Chemical domain, activating the associated Preparedness safeguards.
+summary: >-
+  OpenAI said it had no definitive evidence that ChatGPT agent could
+  meaningfully help a novice create severe biological harm, its threshold for
+  "High" capability, but treated it as High as a precaution because its previous
+  models were "already on the cusp." The safeguards it described included
+  refusal training and an "always-on" two-tier system: a fast classifier that
+  flags biology-related content and a reasoning-model monitor that reviews what
+  it flags.
+concreteness: measurable
+status: open
+breaks_if: >-
+  Evidence that the High safeguards were not running on some route to the
+  model, or that OpenAI lowered them for a High model without the process its
+  Preparedness Framework requires.
+patterns: []
+related: [2025-04-15-preparedness-framework-v2, 2025-05-22-asl-3-protections-activated]
+sources:
+  - title: ChatGPT Agent System Card
+    publisher: OpenAI
+    url: https://cdn.openai.com/pdf/839e66fc-602c-48bf-81d3-b21eacc3459d/chatgpt_agent_system_card.pdf
+    date: 2025-07-17
+    type: primary
+    snapshot: snapshots/2026-09-30-cdn.openai.com-5fdb89f0
+  - title: OpenAI on X
+    publisher: X
+    url: https://x.com/OpenAI/status/1945904754443669659
+    date: 2025-07-17
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-29772ed4
+  - title: OpenAI's ChatGPT agent gets high risk capability level
+    publisher: The Hill
+    url: https://thehill.com/policy/technology/5413466-openai-upgrades-ai-safeguards/
+    date: 2025-07-17
+    type: reporting
+    snapshot: snapshots/2026-09-30-thehill.com-0faa2ee7
+note: >-
+  The counterpart to Anthropic's ASL-3 activation two months earlier, and
+  judged the same way: switching on a higher tier before the risk is confirmed
+  deserves credit, and the test is whether the safeguards run everywhere.

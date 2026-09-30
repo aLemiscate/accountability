@@ -1,0 +1,61 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 3,
+  "in_reply_to_screen_name": "hunterwalk",
+  "in_reply_to_status_id_str": "675774308333977601",
+  "in_reply_to_user_id_str": "46063",
+  "lang": "en",
+  "created_at": "2015-12-13T06:07:12.000Z",
+  "display_text_range": [
+    0,
+    138
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "46063",
+        "indices": [
+          0,
+          11
+        ],
+        "name": "👨🏻‍💻☕️",
+        "screen_name": "hunterwalk"
+      }
+    ]
+  },
+  "id_str": "675919882576359424",
+  "text": "@hunterwalk We want people who believe in our mission, and we're fully separate from any of the for-profit projects of our funders/chairs.",
+  "user": {
+    "id_str": "162124540",
+    "name": "Greg Brockman",
+    "screen_name": "gdb",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1347621377503711233/bHg3ipfD_normal.jpg",
+    "highlighted_label": {
+      "badge": {
+        "url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_bigger.jpg"
+      },
+      "description": "OpenAI",
+      "url": {
+        "url": "https://twitter.com/OpenAI",
+        "url_type": "DeepLink"
+      },
+      "user_label_display_type": "Badge",
+      "user_label_type": "BusinessLabel"
+    }
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "675919882576359424"
+    ],
+    "editable_until_msecs": "1449988632647",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 2,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

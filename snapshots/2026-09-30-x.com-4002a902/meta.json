@@ -1,0 +1,30 @@
+{
+  "url": "https://x.com/karpathy/status/2064409694761054332",
+  "captured_at": "2026-09-30T04:46:05.561Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "730551047064351253be1dbbbfd225175ff925b4f64b631b99f34f643900c444",
+    "page.txt": "9c7343b1f46f55c71e7b5a211c00a6b8fd2691d5d844ab094a431b2d20ac798f",
+    "post.json": "2cf49e987baa5892dd5fbd452bfacb4c7f822fbf2f7cd0319f4b29705c3eb91e",
+    "syndication.json": "b3bb22ca42961c734bac60449607c1ff63e999353bddaec9e7f03f116c4e857d",
+    "quoted-media-1.png": "8be6ad45c9439de377739f184b5fcd6fca720e916ef8e4cb615233a66aaedf5e",
+    "post.txt": "bf5fa3842828503556b7dc182c750b462341d03aa5f0ed8d4c1e36eefbd70774"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/karpathy/status/2064409694761054332",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Andrej Karpathy on X: \"This is a super exciting release - Claude Fable 5 is the same underlying model as Mythos but with added safeguards. The benchmarks are great and it's SOTA on everything by a margin but I'll add that *qualitatively* also, this is a major-version-bump-deserving step change forw… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Andrej Karpathy (@karpathy)",
+    "date": "June 9, 2026",
+    "posted_at": "2026-06-09T18:10:00.765Z",
+    "media": [
+      {
+        "file": "quoted-media-1.png",
+        "url": "https://pbs.twimg.com/media/HKYwNlEWMAAJanX.png"
+      }
+    ]
+  }
+}

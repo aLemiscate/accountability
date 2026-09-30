@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/OpenAI/status/1815708160818356334",
+  "captured_at": "2026-09-30T04:45:19.516Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "b4637e1c545e645d34de11fb137ea310f3d62d393fd0b6d52327120218bafad4",
+    "page.txt": "ff89bb0c7ba275feef15f4398852ded4a06b3c5589d159c9d0c0f17c9b23a520",
+    "post.json": "65e5702cfb09e4831520685727747549de92df71411d1df5b70884d055bd93fd",
+    "syndication.json": "686123c114873627189e55095936bae3eac89597da53c5a13caed82be12435bf",
+    "post.txt": "16c242273ac3e031d266acda8999c1c7419bb3b7d339af2ade7460921a80ddb5"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1815708160818356334",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"Our whistleblower policy protects employees’ rights to make protected disclosures. We also believe rigorous debate about this technology is important and have made changes to our departure process to remove non-disparagement terms.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "July 23, 2024",
+    "posted_at": "2024-07-23T11:18:54.422Z"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/OpenAI/status/1922684895496720490",
+  "captured_at": "2026-09-30T04:45:22.023Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "6a6ecbe249071b5f3465631e0d530bb648ec01a66237259485a2daa138589798",
+    "page.txt": "c6eadf542cb915f5e1242abe8566542e1bd3d44431f3108f4a2845e652da050d",
+    "post.json": "142f2490a1c861f8a572ebc4f0ccddced781a22a06115394cd1a54ff24afdb43",
+    "syndication.json": "f1317ef75d05a46c6951deb62d966492aa5099478266d28e80bab79a836ad617",
+    "post.txt": "141340873566475597fd72ae3861566be42c771a1eaddd3122e51db9d5669122"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1922684895496720490",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"Introducing the Safety Evaluations Hub—a resource to explore safety results for our models. While system cards share safety metrics at launch, the Hub will be updated periodically as part of our efforts to communicate proactively about safety. https://t.co/c8NgmXlC2Y\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "May 14, 2025",
+    "posted_at": "2025-05-14T16:06:15.501Z"
+  }
+}

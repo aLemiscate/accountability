@@ -1,0 +1,5 @@
+OpenAI (@OpenAI)
+May 8, 2026
+
+Chain of thought monitors are a key layer of defense against AI agent misalignment. To preserve monitorability, we avoid penalizing misaligned reasoning during RL.
+We found a limited amount of accidental CoT grading which affected released models, and are sharing our analysis.…

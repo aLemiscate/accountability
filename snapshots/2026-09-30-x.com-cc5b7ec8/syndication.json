@@ -1,0 +1,371 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 1269,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2025-05-14T16:06:15.000Z",
+  "display_text_range": [
+    0,
+    268
+  ],
+  "entities": {
+    "urls": [
+      {
+        "display_url": "openai.com/safety/evaluat…",
+        "expanded_url": "https://openai.com/safety/evaluations-hub/",
+        "indices": [
+          245,
+          268
+        ],
+        "url": "https://t.co/c8NgmXlC2Y"
+      }
+    ]
+  },
+  "id_str": "1922684895496720490",
+  "text": "Introducing the Safety Evaluations Hub—a resource to explore safety results for our models.\n\nWhile system cards share safety metrics at launch, the Hub will be updated periodically as part of our efforts to communicate proactively about safety.\nhttps://t.co/c8NgmXlC2Y",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1922684895496720490"
+    ],
+    "editable_until_msecs": "1747242375000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 97,
+  "news_action_type": "conversation",
+  "card": {
+    "card_platform": {
+      "platform": {
+        "audience": {
+          "name": "production"
+        },
+        "device": {
+          "name": "iPhone",
+          "version": "13"
+        }
+      }
+    },
+    "name": "summary_large_image",
+    "url": "https://t.co/c8NgmXlC2Y",
+    "binding_values": {
+      "photo_image_full_size_large": {
+        "image_value": {
+          "alt": "OpenAI Deployment Safety Hub social sharing image.",
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2101893929666850816/GbWvh5ph?format=jpg&name=800x419",
+          "width": 800
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image": {
+        "image_value": {
+          "alt": "OpenAI Deployment Safety Hub social sharing image.",
+          "height": 150,
+          "url": "https://pbs.twimg.com/card_img/2101893929666850816/GbWvh5ph?format=jpg&name=280x150",
+          "width": 267
+        },
+        "type": "IMAGE"
+      },
+      "description": {
+        "string_value": "Review OpenAI system cards and other safety updates for deployed AI systems. See how systems are evaluated, monitored, and improved over time.",
+        "type": "STRING"
+      },
+      "domain": {
+        "string_value": "deploymentsafety.openai.com",
+        "type": "STRING"
+      },
+      "thumbnail_image_large": {
+        "image_value": {
+          "alt": "OpenAI Deployment Safety Hub social sharing image.",
+          "height": 320,
+          "url": "https://pbs.twimg.com/card_img/2101893929666850816/GbWvh5ph?format=jpg&name=800x320_1",
+          "width": 569
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_small": {
+        "image_value": {
+          "alt": "OpenAI Deployment Safety Hub social sharing image.",
+          "height": 202,
+          "url": "https://pbs.twimg.com/card_img/2101893929666850816/GbWvh5ph?format=jpg&name=386x202",
+          "width": 386
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_original": {
+        "image_value": {
+          "alt": "OpenAI Deployment Safety Hub social sharing image.",
+          "height": 675,
+          "url": "https://pbs.twimg.com/card_img/2101893929666850816/GbWvh5ph?format=jpg&name=orig",
+          "width": 1200
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_small": {
+        "image_value": {
+          "alt": "OpenAI Deployment Safety Hub social sharing image.",
+          "height": 202,
+          "url": "https://pbs.twimg.com/card_img/2101893929666850816/GbWvh5ph?format=jpg&name=386x202",
+          "width": 386
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_large": {
+        "image_value": {
+          "alt": "OpenAI Deployment Safety Hub social sharing image.",
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2101893929666850816/GbWvh5ph?format=jpg&name=800x419",
+          "width": 800
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_small": {
+        "image_value": {
+          "alt": "OpenAI Deployment Safety Hub social sharing image.",
+          "height": 81,
+          "url": "https://pbs.twimg.com/card_img/2101893929666850816/GbWvh5ph?format=jpg&name=144x144",
+          "width": 144
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_x_large": {
+        "image_value": {
+          "alt": "OpenAI Deployment Safety Hub social sharing image.",
+          "height": 675,
+          "url": "https://pbs.twimg.com/card_img/2101893929666850816/GbWvh5ph?format=png&name=2048x2048_2_exp",
+          "width": 1200
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_original": {
+        "image_value": {
+          "alt": "OpenAI Deployment Safety Hub social sharing image.",
+          "height": 675,
+          "url": "https://pbs.twimg.com/card_img/2101893929666850816/GbWvh5ph?format=jpg&name=orig",
+          "width": 1200
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_alt_text": {
+        "string_value": "OpenAI Deployment Safety Hub social sharing image.",
+        "type": "STRING"
+      },
+      "vanity_url": {
+        "scribe_key": "vanity_url",
+        "string_value": "deploymentsafety.openai.com",
+        "type": "STRING"
+      },
+      "photo_image_full_size": {
+        "image_value": {
+          "alt": "OpenAI Deployment Safety Hub social sharing image.",
+          "height": 314,
+          "url": "https://pbs.twimg.com/card_img/2101893929666850816/GbWvh5ph?format=jpg&name=600x314",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_alt_text": {
+        "string_value": "OpenAI Deployment Safety Hub social sharing image.",
+        "type": "STRING"
+      },
+      "thumbnail_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 80.46,
+              "rgb": {
+                "blue": 254,
+                "green": 217,
+                "red": 158
+              }
+            },
+            {
+              "percentage": 14.3,
+              "rgb": {
+                "blue": 254,
+                "green": 192,
+                "red": 114
+              }
+            },
+            {
+              "percentage": 3.85,
+              "rgb": {
+                "blue": 231,
+                "green": 187,
+                "red": 183
+              }
+            },
+            {
+              "percentage": 1.18,
+              "rgb": {
+                "blue": 200,
+                "green": 188,
+                "red": 219
+              }
+            },
+            {
+              "percentage": 0.11,
+              "rgb": {
+                "blue": 194,
+                "green": 184,
+                "red": 219
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "title": {
+        "string_value": "OpenAI Deployment Safety Hub: System cards & other updates",
+        "type": "STRING"
+      },
+      "summary_photo_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 80.46,
+              "rgb": {
+                "blue": 254,
+                "green": 217,
+                "red": 158
+              }
+            },
+            {
+              "percentage": 14.3,
+              "rgb": {
+                "blue": 254,
+                "green": 192,
+                "red": 114
+              }
+            },
+            {
+              "percentage": 3.85,
+              "rgb": {
+                "blue": 231,
+                "green": 187,
+                "red": 183
+              }
+            },
+            {
+              "percentage": 1.18,
+              "rgb": {
+                "blue": 200,
+                "green": 188,
+                "red": 219
+              }
+            },
+            {
+              "percentage": 0.11,
+              "rgb": {
+                "blue": 194,
+                "green": 184,
+                "red": 219
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "summary_photo_image_x_large": {
+        "image_value": {
+          "alt": "OpenAI Deployment Safety Hub social sharing image.",
+          "height": 675,
+          "url": "https://pbs.twimg.com/card_img/2101893929666850816/GbWvh5ph?format=png&name=2048x2048_2_exp",
+          "width": 1200
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image": {
+        "image_value": {
+          "alt": "OpenAI Deployment Safety Hub social sharing image.",
+          "height": 314,
+          "url": "https://pbs.twimg.com/card_img/2101893929666850816/GbWvh5ph?format=jpg&name=600x314",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 80.46,
+              "rgb": {
+                "blue": 254,
+                "green": 217,
+                "red": 158
+              }
+            },
+            {
+              "percentage": 14.3,
+              "rgb": {
+                "blue": 254,
+                "green": 192,
+                "red": 114
+              }
+            },
+            {
+              "percentage": 3.85,
+              "rgb": {
+                "blue": 231,
+                "green": 187,
+                "red": 183
+              }
+            },
+            {
+              "percentage": 1.18,
+              "rgb": {
+                "blue": 200,
+                "green": 188,
+                "red": 219
+              }
+            },
+            {
+              "percentage": 0.11,
+              "rgb": {
+                "blue": 194,
+                "green": 184,
+                "red": 219
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "photo_image_full_size_x_large": {
+        "image_value": {
+          "alt": "OpenAI Deployment Safety Hub social sharing image.",
+          "height": 675,
+          "url": "https://pbs.twimg.com/card_img/2101893929666850816/GbWvh5ph?format=png&name=2048x2048_2_exp",
+          "width": 1200
+        },
+        "type": "IMAGE"
+      },
+      "card_url": {
+        "scribe_key": "card_url",
+        "string_value": "https://t.co/c8NgmXlC2Y",
+        "type": "STRING"
+      },
+      "summary_photo_image_original": {
+        "image_value": {
+          "alt": "OpenAI Deployment Safety Hub social sharing image.",
+          "height": 675,
+          "url": "https://pbs.twimg.com/card_img/2101893929666850816/GbWvh5ph?format=jpg&name=orig",
+          "width": 1200
+        },
+        "type": "IMAGE"
+      }
+    }
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

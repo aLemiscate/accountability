@@ -1,0 +1,35 @@
+{
+  "url": "https://x.com/jasonkwon/status/1977151380948500625",
+  "captured_at": "2026-09-30T04:46:00.148Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "1d72993d9049c12e1e4cfddb309979499540190e8f5fafa6bc747fc677fec02a",
+    "page.txt": "9c32ea77246c0e99c238d25a396180787c279fd2ff9e06e54eeefa1201db5dcd",
+    "post.json": "1b99b349fcb3fa85c0ccf15d572fb51a148204b5cb92007cc79a8c9ccc40e28c",
+    "syndication.json": "b31369bde89abc140c9de5165d0a0a8852c7662769e623f5a3af2d6414765d5c",
+    "media-1.jpg": "e29a1b8673db904c2f52a8632d4e4eab6d98a99376f876a782aca93515fb63b8",
+    "media-2.jpg": "d55e47e7e2583b0d82fa2aa1b794485e81606ef639bad049a1a73958696867bb",
+    "post.txt": "df7111d024cbeb216bd4ca5f11cf4f69e0addc0200ea60f9029656a1fdd8bc2d"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/jasonkwon/status/1977151380948500625",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Jason Kwon on X: \"I've seen a few questions here about how we're responding to Elon's lawsuits against us. After he sued us, several organizations, some of them suddenly newly formed like the Midas Project, joined in and ran campaigns backing his opposition to OpenAI's restructure. This raised tran… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Jason Kwon (@jasonkwon)",
+    "date": "October 11, 2025",
+    "posted_at": "2025-10-11T23:16:37.571Z",
+    "media": [
+      {
+        "file": "media-1.jpg",
+        "url": "https://pbs.twimg.com/media/G3BAkAZbwAEp44r.jpg"
+      },
+      {
+        "file": "media-2.jpg",
+        "url": "https://pbs.twimg.com/media/G3BAkAabwAUIZxn.jpg"
+      }
+    ]
+  }
+}

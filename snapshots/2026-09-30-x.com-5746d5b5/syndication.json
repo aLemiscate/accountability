@@ -1,0 +1,97 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 3,
+  "in_reply_to_screen_name": "ARozenshtein",
+  "in_reply_to_status_id_str": "2027958491416043741",
+  "in_reply_to_user_id_str": "1217811794489741312",
+  "lang": "en",
+  "created_at": "2026-03-01T07:11:08.000Z",
+  "display_text_range": [
+    14,
+    138
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "1217811794489741312",
+        "indices": [
+          0,
+          13
+        ],
+        "name": "Alan Rozenshtein",
+        "screen_name": "ARozenshtein"
+      }
+    ]
+  },
+  "id_str": "2028005099214459049",
+  "text": "@ARozenshtein it’s just how things have settled for interpretation in contract law.  any of the chatbots should give you a similar answer.",
+  "user": {
+    "id_str": "22685229",
+    "name": "Jason Kwon",
+    "screen_name": "jasonkwon",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1917651900440178688/fNTyjQgO_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2028005099214459049"
+    ],
+    "editable_until_msecs": "1772352668000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 4,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 31,
+    "in_reply_to_screen_name": "jasonkwon",
+    "in_reply_to_status_id_str": "2027948755467833366",
+    "in_reply_to_user_id_str": "22685229",
+    "lang": "en",
+    "reply_count": 1,
+    "retweet_count": 0,
+    "created_at": "2026-03-01T04:05:56.000Z",
+    "display_text_range": [
+      11,
+      291
+    ],
+    "entities": {
+      "user_mentions": [
+        {
+          "id_str": "22685229",
+          "indices": [
+            0,
+            10
+          ],
+          "name": "Jason Kwon",
+          "screen_name": "jasonkwon"
+        }
+      ]
+    },
+    "id_str": "2027958491416043741",
+    "text": "@jasonkwon Thanks for engaging and I will admit that my expertise is not in contract/commercial law. But why does date-stamping something in a contract fix its meaning going forward? Why couldn't it just be interpreted as clarifying which version of the DOD policy is being referenced? Maybe",
+    "user": {
+      "id_str": "1217811794489741312",
+      "name": "Alan Rozenshtein",
+      "screen_name": "ARozenshtein",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1217836347240734722/KRGzf0Q3_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2027958491416043741"
+      ],
+      "editable_until_msecs": "1772341556000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

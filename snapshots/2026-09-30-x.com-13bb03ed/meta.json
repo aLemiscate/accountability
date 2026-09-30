@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/OpenAI/status/2027846016423321831",
+  "captured_at": "2026-09-30T04:45:30.292Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "7515cf28cb8d53f3846546935e69c3e45a232ce5c701b292294aa2dc9d8e3074",
+    "page.txt": "7f8d081db7d8d4c18c1ac110522af8f7ad208211cf895220e9321b2472383c78",
+    "post.json": "c698dd68e2660b89a7d19f46f03424f9f091149fba55b4f862ab6ddf278a65e0",
+    "syndication.json": "83c97eb68af866468c5ed0d8236af7dc2a363c2873cb8a9bc04419dd55993905",
+    "post.txt": "e6dfc4055505c5cd9f96d35dd66465ccf688380c2d711848723931d465c7a7e6"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/2027846016423321831",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"We do not think Anthropic should be designated as a supply chain risk and we’ve made our position on this clear to the Department of War.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "February 28, 2026",
+    "posted_at": "2026-02-28T20:39:00.529Z"
+  }
+}
