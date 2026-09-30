@@ -1,0 +1,44 @@
+title: 'Anthropic on Amazon''s stake: "Our corporate governance structure remains
+  unchanged"'
+date: 2023-09-25
+org: anthropic
+type: said
+kind: claim
+who: [anthropic]
+venue: Blog post, "Expanding access to safer AI with Amazon"
+quote: >-
+  Our corporate governance structure remains unchanged, with the Long Term
+  Benefit Trust continuing to guide Anthropic in accordance with our Responsible
+  Scaling Policy
+summary: >-
+  Announcing an investment of up to $4 billion from Amazon for a minority stake,
+  Anthropic said its governance was unaffected. The Long-Term Benefit Trust, five
+  financially disinterested members, holds a special class of stock that lets it
+  elect a growing share of the board, "ultimately, a majority." Anthropic's own
+  description of the Trust says "failsafe" provisions let large enough
+  supermajorities of stockholders change the Trust and its powers without the
+  Trustees' consent.
+concreteness: conditional
+status: open
+breaks_if: >-
+  The Trust's powers are reduced through the stockholder failsafe or a funding
+  deal; the Trust has not been given a board majority on the schedule described;
+  or an investor gains board or veto rights over safety decisions.
+patterns: [mission-to-market]
+related: [2025-07-20-gulf-investment-memo, 2025-10-28-foundation-controls-pbc]
+sources:
+  - title: Expanding access to safer AI with Amazon
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/anthropic-amazon
+    date: 2023-09-25
+    type: primary
+    snapshot: snapshots/2026-09-30-anthropic.com-344242a8
+  - title: The Long-Term Benefit Trust
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/the-long-term-benefit-trust
+    date: 2023-09-19
+    type: primary
+    snapshot: snapshots/2026-09-30-anthropic.com-d6c83eff
+note: >-
+  The counterpart to OpenAI's "the nonprofit stays in control" promises, and
+  checked the same way: who holds the power after each new round of money.

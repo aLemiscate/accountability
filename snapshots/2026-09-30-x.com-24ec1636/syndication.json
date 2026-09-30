@@ -1,0 +1,390 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 3507,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2024-01-08T18:04:03.000Z",
+  "display_text_range": [
+    0,
+    271
+  ],
+  "entities": {
+    "urls": [
+      {
+        "display_url": "openai.com/blog/openai-an…",
+        "expanded_url": "https://openai.com/blog/openai-and-journalism",
+        "indices": [
+          248,
+          271
+        ],
+        "url": "https://t.co/S6fSaDsfKb"
+      }
+    ],
+    "user_mentions": [
+      {
+        "id_str": "807095",
+        "indices": [
+          75,
+          83
+        ],
+        "name": "The New York Times",
+        "screen_name": "nytimes"
+      }
+    ]
+  },
+  "id_str": "1744419710635229424",
+  "text": "We build AI to empower people, including journalists.\n\nOur position on the @nytimes lawsuit:\n• Training is fair use, but we provide an opt-out\n• \"Regurgitation\" is a rare bug we're driving to zero\n• The New York Times is not telling the full story\nhttps://t.co/S6fSaDsfKb",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1744419710635229424"
+    ],
+    "editable_until_msecs": "1704740643000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 525,
+  "news_action_type": "conversation",
+  "card": {
+    "card_platform": {
+      "platform": {
+        "audience": {
+          "name": "production"
+        },
+        "device": {
+          "name": "iPhone",
+          "version": "13"
+        }
+      }
+    },
+    "name": "summary_large_image",
+    "url": "https://t.co/S6fSaDsfKb",
+    "binding_values": {
+      "photo_image_full_size_large": {
+        "image_value": {
+          "alt": "OpenAI and Journalism",
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2104661437142683648/H7Vl1uIK?format=jpg&name=800x419",
+          "width": 800
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image": {
+        "image_value": {
+          "alt": "OpenAI and Journalism",
+          "height": 150,
+          "url": "https://pbs.twimg.com/card_img/2104661437142683648/H7Vl1uIK?format=jpg&name=280x150",
+          "width": 267
+        },
+        "type": "IMAGE"
+      },
+      "description": {
+        "string_value": "We support journalism, partner with news organizations, and believe The New York Times lawsuit is without merit.",
+        "type": "STRING"
+      },
+      "domain": {
+        "string_value": "openai.com",
+        "type": "STRING"
+      },
+      "thumbnail_image_large": {
+        "image_value": {
+          "alt": "OpenAI and Journalism",
+          "height": 320,
+          "url": "https://pbs.twimg.com/card_img/2104661437142683648/H7Vl1uIK?format=jpg&name=800x320_1",
+          "width": 569
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_small": {
+        "image_value": {
+          "alt": "OpenAI and Journalism",
+          "height": 202,
+          "url": "https://pbs.twimg.com/card_img/2104661437142683648/H7Vl1uIK?format=jpg&name=386x202",
+          "width": 386
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_original": {
+        "image_value": {
+          "alt": "OpenAI and Journalism",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2104661437142683648/H7Vl1uIK?format=jpg&name=orig",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "site": {
+        "scribe_key": "publisher_id",
+        "type": "USER",
+        "user_value": {
+          "id_str": "4398626122",
+          "path": []
+        }
+      },
+      "photo_image_full_size_small": {
+        "image_value": {
+          "alt": "OpenAI and Journalism",
+          "height": 202,
+          "url": "https://pbs.twimg.com/card_img/2104661437142683648/H7Vl1uIK?format=jpg&name=386x202",
+          "width": 386
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_large": {
+        "image_value": {
+          "alt": "OpenAI and Journalism",
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2104661437142683648/H7Vl1uIK?format=jpg&name=800x419",
+          "width": 800
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_small": {
+        "image_value": {
+          "alt": "OpenAI and Journalism",
+          "height": 81,
+          "url": "https://pbs.twimg.com/card_img/2104661437142683648/H7Vl1uIK?format=jpg&name=144x144",
+          "width": 144
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_x_large": {
+        "image_value": {
+          "alt": "OpenAI and Journalism",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2104661437142683648/H7Vl1uIK?format=png&name=2048x2048_2_exp",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_original": {
+        "image_value": {
+          "alt": "OpenAI and Journalism",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2104661437142683648/H7Vl1uIK?format=jpg&name=orig",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_alt_text": {
+        "string_value": "OpenAI and Journalism",
+        "type": "STRING"
+      },
+      "vanity_url": {
+        "scribe_key": "vanity_url",
+        "string_value": "openai.com",
+        "type": "STRING"
+      },
+      "photo_image_full_size": {
+        "image_value": {
+          "alt": "OpenAI and Journalism",
+          "height": 314,
+          "url": "https://pbs.twimg.com/card_img/2104661437142683648/H7Vl1uIK?format=jpg&name=600x314",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_alt_text": {
+        "string_value": "OpenAI and Journalism",
+        "type": "STRING"
+      },
+      "thumbnail_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 47.89,
+              "rgb": {
+                "blue": 226,
+                "green": 210,
+                "red": 48
+              }
+            },
+            {
+              "percentage": 10.59,
+              "rgb": {
+                "blue": 210,
+                "green": 222,
+                "red": 161
+              }
+            },
+            {
+              "percentage": 5.6,
+              "rgb": {
+                "blue": 181,
+                "green": 132,
+                "red": 16
+              }
+            },
+            {
+              "percentage": 4.14,
+              "rgb": {
+                "blue": 170,
+                "green": 192,
+                "red": 71
+              }
+            },
+            {
+              "percentage": 2.19,
+              "rgb": {
+                "blue": 223,
+                "green": 222,
+                "red": 30
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "title": {
+        "string_value": "OpenAI and journalism",
+        "type": "STRING"
+      },
+      "summary_photo_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 47.89,
+              "rgb": {
+                "blue": 226,
+                "green": 210,
+                "red": 48
+              }
+            },
+            {
+              "percentage": 10.59,
+              "rgb": {
+                "blue": 210,
+                "green": 222,
+                "red": 161
+              }
+            },
+            {
+              "percentage": 5.6,
+              "rgb": {
+                "blue": 181,
+                "green": 132,
+                "red": 16
+              }
+            },
+            {
+              "percentage": 4.14,
+              "rgb": {
+                "blue": 170,
+                "green": 192,
+                "red": 71
+              }
+            },
+            {
+              "percentage": 2.19,
+              "rgb": {
+                "blue": 223,
+                "green": 222,
+                "red": 30
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "summary_photo_image_x_large": {
+        "image_value": {
+          "alt": "OpenAI and Journalism",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2104661437142683648/H7Vl1uIK?format=png&name=2048x2048_2_exp",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image": {
+        "image_value": {
+          "alt": "OpenAI and Journalism",
+          "height": 314,
+          "url": "https://pbs.twimg.com/card_img/2104661437142683648/H7Vl1uIK?format=jpg&name=600x314",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 47.89,
+              "rgb": {
+                "blue": 226,
+                "green": 210,
+                "red": 48
+              }
+            },
+            {
+              "percentage": 10.59,
+              "rgb": {
+                "blue": 210,
+                "green": 222,
+                "red": 161
+              }
+            },
+            {
+              "percentage": 5.6,
+              "rgb": {
+                "blue": 181,
+                "green": 132,
+                "red": 16
+              }
+            },
+            {
+              "percentage": 4.14,
+              "rgb": {
+                "blue": 170,
+                "green": 192,
+                "red": 71
+              }
+            },
+            {
+              "percentage": 2.19,
+              "rgb": {
+                "blue": 223,
+                "green": 222,
+                "red": 30
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "photo_image_full_size_x_large": {
+        "image_value": {
+          "alt": "OpenAI and Journalism",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2104661437142683648/H7Vl1uIK?format=png&name=2048x2048_2_exp",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "card_url": {
+        "scribe_key": "card_url",
+        "string_value": "https://t.co/S6fSaDsfKb",
+        "type": "STRING"
+      },
+      "summary_photo_image_original": {
+        "image_value": {
+          "alt": "OpenAI and Journalism",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2104661437142683648/H7Vl1uIK?format=jpg&name=orig",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      }
+    }
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}
