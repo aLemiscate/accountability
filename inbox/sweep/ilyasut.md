@@ -3,19 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 745 (… to 2123-07-14)
-- Read so far: 745 (100%); text found for 740; 0 not read yet
-- Possibly deleted: 27
-- Matching the topic filter: 101
+- Archived posts found: 498 (1 from before November 2010, 2010-11-04 to 2026-02-27)
+- Left out: 246 archived link(s) under this handle that X says another account wrote
+- Read so far: 498 (100%); text found for 494; 0 not read yet
+- Possibly deleted: 26
+- Matching the topic filter: 60
 
 
-Every post is in `ilyasut.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
-
-## 2123-07-14 · possibly deleted
-
-_(text not available)_
-
-https://x.com/ilyasut/status/14915544782432583682 · [archived](https://web.archive.org/web/20240704050950/https://x.com/ilyasut/status/14915544782432583682The)
+Every post is in `ilyasut/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2024-06-19 · reply to @ilyasut
 
@@ -381,12 +376,6 @@ https://x.com/ilyasut/status/1548317506690904068 · [archived](https://web.archi
 
 ## 2022-06-23
 
-> We trained a neural network to competently play Minecraft by pre-training on a large unlabeled video dataset of human Minecraft play and a small amount of labeled contractor data. https://t.co/a2pyBqvLvg https://t.co/XbqtwQSTwU
-
-https://x.com/ilyasut/status/1540038281844232197 · [archived](https://web.archive.org/web/20220623182631/https://twitter.com/ilyasut/status/1540038281844232197)
-
-## 2022-06-23
-
 > In grad we trust
 
 https://x.com/ilyasut/status/1540021291549306880 · [archived](https://web.archive.org/web/20220704002427/https://twitter.com/ilyasut/status/1540021291549306880)
@@ -403,23 +392,6 @@ https://x.com/ilyasut/status/1539304451185385472 · [archived](https://web.archi
 > i find it both obvious and incredible that a neural network is a digital brain that lives inside a computer (and that actually kinda works)
 
 https://x.com/ilyasut/status/1538584968758034437 · [archived](https://web.archive.org/web/20220619181036/https://twitter.com/ilyasut/status/1538584968758034437)
-
-## 2022-06-13
-
-> Our latest alignment research looks at ways AI can help humans evaluate language model output more effectively https://t.co/no2fFeDfaS
-
-https://x.com/ilyasut/status/1536440669731860480 · [archived](https://web.archive.org/web/20220613200954/https://twitter.com/ilyasut/status/1536440669731860480)
-
-## 2022-06-02
-
-> One note from my experience at @stripe — surprisingly, the credit card processing industry is primarily industry-regulated. The card networks like Visa make rules, which get pushed to their member banks; those banks make rules for the processors who run on top of them. (1/8)
-
-Quoting https://x.com/gdb/status/1532395012201144321:
-> We're working with others in the nascent industry of creating &amp; deploying language models in order to produce safety best practices.
-> 
-> Ultimate goal is to have a practice for cooperating on increasingly high-stakes safety problems as AI progresses.
-
-https://x.com/ilyasut/status/1532443114677235712 · [archived](https://web.archive.org/web/20220602192549/https://twitter.com/ilyasut/status/1532443114677235712)
 
 ## 2022-05-08
 
@@ -462,22 +434,6 @@ https://x.com/ilyasut/status/1515189886663331846 · [archived](https://web.archi
 
 https://x.com/ilyasut/status/1512639403327295490 · [archived](https://web.archive.org/web/20220409035222/https://twitter.com/ilyasut/status/1512639403327295490)
 
-## 2022-04-07
-
-> meditating about self-improving computer programs surrounded by the milky way #dalle
-> 
-> OpenAI neural program synthesis team is hiring for all roles: Software Engineers, Research Engineers and Research Scientists: https://t.co/dCeMYsoLMR https://t.co/xCnprb8qUz
-
-https://x.com/ilyasut/status/1512082088261939211 · [archived](https://web.archive.org/web/20220407145800/https://twitter.com/ilyasut/status/1512082088261939211)
-
-## 2022-04-06 · reply to @ariskonstant
-
-> @ariskonstant @ilyasut Here's me coming to the office from Burbank:
-> 
-> @OpenAI DALL-E 2 https://t.co/rKXeEIbHB9
-
-https://x.com/ilyasut/status/1511768896725925888 · [archived](https://web.archive.org/web/20220406182811/https://twitter.com/ilyasut/status/1511768896725925888)
-
 ## 2022-04-06 · possibly deleted
 
 > Our newest system DALL·E 2 can create realistic images and art from a description in natural language. See it here: https://t.co/Kmjko82YO5 https://t.co/QEh9kWUE8A
@@ -495,14 +451,6 @@ https://x.com/ilyasut/status/1505754945860956160 · [archived](https://web.archi
 > am i correct in my understanding that slack is the best example of web3?
 
 https://x.com/ilyasut/status/1504297278399385601 · [archived](https://web.archive.org/web/20220317032323/https://twitter.com/ilyasut/status/1504297278399385601)
-
-## 2022-03-03
-
-> Deploying and studying the real-world use of language models helps us learn more about safety and misuse than research alone.
-> 
-> As we advance our safety and policy work, we're sharing some of our findings to help others do the same. https://t.co/DcTDvAWxxD
-
-https://x.com/ilyasut/status/1499519497681743874 · [archived](https://web.archive.org/web/20220303225837/https://twitter.com/ilyasut/status/1499519497681743874)
 
 ## 2022-02-21
 
@@ -530,30 +478,9 @@ https://x.com/ilyasut/status/1494829781749309444 · [archived](https://web.archi
 
 ## 2022-02-16
 
-> Alignment is the challenge of designing technical &amp; non-technical solutions to ensure that increasingly powerful AI systems further the hopes of their operator.
-> 
-> Probably unlike any prior technological experience, but with parallels to life experience.
-
-Quoting https://x.com/ilyasut/status/1493784335949860869:
-> to understand the alignment problem, imagine being the adoptive parents of baby Superman
-
-https://x.com/ilyasut/status/1493787453185880067 · [archived](https://web.archive.org/web/20220216120931/https://twitter.com/ilyasut/status/1493787453185880067)
-
-## 2022-02-16
-
 > to understand the alignment problem, imagine being the adoptive parents of baby Superman
 
 https://x.com/ilyasut/status/1493784335949860869 · [archived](https://web.archive.org/web/20220216122256/https://twitter.com/ilyasut/status/1493784335949860869)
-
-## 2022-02-15
-
-> OpenAI’s mission is to ensure that artificial intelligence benefits all of humanity.
-> 
-> An important part of this effort is training AI systems to align with human intentions and human values.
-> 
-> Learn more about our alignment research: https://t.co/1KsmajXNui https://t.co/ANF9BUlacA
-
-https://x.com/ilyasut/status/1493710693761097730 · [archived](https://web.archive.org/web/20220216085825/https://twitter.com/ilyasut/status/1493710693761097730)
 
 ## 2022-02-13
 
@@ -566,12 +493,6 @@ https://x.com/ilyasut/status/1492912333802258435 · [archived](https://web.archi
 > Risk minimization maximizes risk
 
 https://x.com/ilyasut/status/1492907246186991620 · [archived](https://web.archive.org/web/20220213170431/https://twitter.com/ilyasut/status/1492907246186991620)
-
-## 2022-02-12
-
-> I've spent a long time developing this curriculum; I think it's now the best resource for learning about AGI safety, even if you're not taking the course. So if you've heard the ideas but never dug into details, reading it through is a good place to start! https://t.co/KUg6R1oqaB
-
-https://x.com/ilyasut/status/1492556220879687682 · [archived](https://web.archive.org/web/20220212175340/https://twitter.com/ilyasut/status/1492556220879687682)
 
 ## 2022-02-09
 
@@ -586,52 +507,6 @@ https://x.com/ilyasut/status/1491554478243258368 · [archived](https://web.archi
 
 https://x.com/ilyasut/status/1488961223152472066 · [archived](https://web.archive.org/web/20220202194327/https://twitter.com/ilyasut/status/1488961223152472066)
 
-## 2022-01-31
-
-> Zero-shot results of OpenAI API’s embeddings on the FIQA search dataset. Evaluation script: https://t.co/dQh3pd6UhU
-> We zero-shot evaluated on 14 text search datasets, our embeddings outperform keyword search and previous dense embedding methods on 11 of them! https://t.co/jnSdLBnAB4
-
-Quoting https://x.com/arvind_io/status/1487189010657071105:
-> In text search tasks, we obtain best zero-shot results in msmarco, triviaQA, and NQ and also the best transfer results on the BEIR benchmark. 5/7 https://t.co/ICO2fqtNgu
-
-https://x.com/ilyasut/status/1488257470162030592 · [archived](https://web.archive.org/web/20220131211157/https://twitter.com/ilyasut/status/1488257470162030592)
-
-## 2022-01-28
-
-> A thread on how we evaluate our embedding models in OpenAI’s API. We achieve state-of-the-art results in linear probe classification, text search and code search. It’s not fine-tuned, so it works great in the real world — and our customers love it. 1/7
-
-https://x.com/ilyasut/status/1487195401618788352 · [archived](https://web.archive.org/web/20220128225134/https://twitter.com/ilyasut/status/1487195401618788352)
-
-## 2022-01-27
-
-> (ahem)
-> 
-> alright friends
-> 
-> I am quite proud and slightly terrified to announce what I (and my alignment homies) have been working on over the past 14 months:
-> 
-> Training a new version of GPT-3 (InstructGPT) that follows instructions
-> 🧵
-
-Quoting https://x.com/OpenAI/status/1486740126688370712:
-> We've trained GPT-3 to be more aligned with what humans want: The new InstructGPT models are better at following human intent than a 100x larger model, while also improving safety and truthfulness. https://t.co/rKNpCDAMb2
-
-https://x.com/ilyasut/status/1486813796467298304 · [archived](https://web.archive.org/web/20220127213520/https://twitter.com/ilyasut/status/1486813796467298304)
-
-## 2022-01-27
-
-> I think I'm not supposed to say that OpenAI just released the best alignment paper in the world so far, but we did.
-> 
-> Congrats to the team, and look forward to being able to say this many more times!
-
-https://x.com/ilyasut/status/1486760483667406849 · [archived](https://web.archive.org/web/20220127180611/https://twitter.com/ilyasut/status/1486760483667406849)
-
-## 2022-01-27
-
-> We've trained GPT-3 to be more aligned with what humans want: The new InstructGPT models are better at following human intent than a 100x larger model, while also improving safety and truthfulness. https://t.co/rKNpCDAMb2
-
-https://x.com/ilyasut/status/1486756624475648007 · [archived](https://web.archive.org/web/20220127174811/https://twitter.com/ilyasut/status/1486756624475648007)
-
 ## 2022-01-27
 
 > People really love using aligned models
@@ -641,59 +516,11 @@ Quoting https://x.com/janleike/status/1486734342667702274:
 
 https://x.com/ilyasut/status/1486736539568672772 · [archived](https://web.archive.org/web/20220127162315/https://twitter.com/ilyasut/status/1486736539568672772)
 
-## 2022-01-27 · reply to @janleike
-
-> For comparison: We spent &lt;2% of the pretraining compute on fine-tuning and collect a few 10,000s of human labels and demos. Our 1.3b parameter models (GPT-2 sized!) are preferred over a prompted 175b parameter GPT-3.
-
-https://x.com/ilyasut/status/1486736412229586950 · [archived](https://web.archive.org/web/20220127162745/https://twitter.com/ilyasut/status/1486736412229586950)
-
-## 2022-01-27 · reply to @janleike
-
-> Disclaimer: There isn't really much new in terms of methods or algorithms.
-> 
-> But it shows that our alignment techniques work in a real-world setting.
-> 
-> This is cheaper and more effective at making a more useful model than just making it bigger.
-
-https://x.com/ilyasut/status/1486736395297169412 · [archived](https://web.archive.org/web/20220127162747/https://twitter.com/ilyasut/status/1486736395297169412)
-
-## 2022-01-27
-
-> Extremely exciting alignment research milestone:
-> 
-> Using reinforcement learning from human feedback, we've trained GPT-3 to be much better at following human intentions.
-> 
-> https://t.co/r8zWWZ9LL6
-
-https://x.com/ilyasut/status/1486732633581096967 · [archived](https://web.archive.org/web/20220127161245/https://twitter.com/ilyasut/status/1486732633581096967)
-
 ## 2022-01-16 · reply to @pbloemesquire
 
 > @pbloemesquire There was no omission:  the dense attention layers of GPT-3 are in fact the usual N^2 ones.  We were experimenting with the sparsity that Scott is referring to, but it never made it into the model.
 
 https://x.com/ilyasut/status/1482815823714480129 · [archived](https://web.archive.org/web/20220116204851/https://twitter.com/ilyasut/status/1482815823714480129)
-
-## 2021-11-18
-
-> We introduced new safeguards to our API that make it possible to remove the waitlist. Now developers can sign up and explore GPT-3 right away. https://t.co/yj0ROcyHzt
-
-https://x.com/ilyasut/status/1461475763706728450 · [archived](https://web.archive.org/web/20211118232605/https://twitter.com/ilyasut/status/1461475763706728450)
-
-## 2021-11-18
-
-> anyone who claims any certainty about what the impacts of AGI on the world are going to be is naive at best.
-> 
-> we are heading into a strange time with a tremendous rate of change, and rapid adaptability will be critical.
-
-https://x.com/ilyasut/status/1461443788149182464 · [archived](https://web.archive.org/web/20211118211849/https://twitter.com/ilyasut/status/1461443788149182464)
-
-## 2021-11-18 · reply to @sama
-
-> We believe that the best way to carefully steward AGI into existence is to iteratively deploy increasingly powerful systems.
-> 
-> A gradual transition is better than a sudden one; it helps us learn and prepare. And it gives people and institutions time to adapt.
-
-https://x.com/ilyasut/status/1461438844016889856 · [archived](https://web.archive.org/web/20211118205920/https://twitter.com/ilyasut/status/1461438844016889856)
 
 ## 2021-10-07 · possibly deleted
 
@@ -707,116 +534,12 @@ _(text not available)_
 
 https://x.com/ilyasut/status/1446242214447706127 · [archived](https://web.archive.org/web/20211007223324/https://twitter.com/ilyasut/status/1446242214447706127)
 
-## 2021-09-23
-
-> We want our AI systems to be aligned with human intentions.
-> 
-> This is especially important as tasks get more difficult to evaluate.
-> 
-> To develop techniques to address this problem, we trained a model to summarize books. https://t.co/NDnUtcjXFX
-
-https://x.com/ilyasut/status/1441121828651421705 · [archived](https://web.archive.org/web/20210924011608/https://twitter.com/ilyasut/status/1441121828651421705)
-
-## 2021-09-08
-
-> I'm thrilled and incredibly honored to share this news! I can't wait to work with @sama, @gdb, @ilyasut and the rest of the team to contribute to the mission of building AI that benefits all of humanity.
-
-Quoting https://x.com/OpenAI/status/1435629966415171585:
-> We're excited to announce @hlntnr of @CSETGeorgetown is joining our board of directors. Her deep understanding of AI policy will help us achieve our mission to deploy safe and responsible general-purpose AI. https://t.co/NuUxEzEOZq
-
-https://x.com/ilyasut/status/1435660243137036289 · [archived](https://web.archive.org/web/20210909030600/https://twitter.com/ilyasut/status/1435660243137036289)
-
-## 2021-09-08
-
-> We're excited to announce @hlntnr of @CSETGeorgetown is joining our board of directors. Her deep understanding of AI policy will help us achieve our mission to deploy safe and responsible general-purpose AI. https://t.co/NuUxEzEOZq
-
-https://x.com/ilyasut/status/1435636850840911875 · [archived](https://web.archive.org/web/20210909015451/https://twitter.com/ilyasut/status/1435636850840911875)
-
-## 2021-08-12
-
-> Codex competition starts in 30 mins.
-> 
-> Race the Internet to solve Python programming puzzles — together with Codex as both your teammate &amp; live competitor.
-> 
-> https://t.co/EJsJfRVnw7
-
-https://x.com/ilyasut/status/1425859309460541440 · [archived](https://web.archive.org/web/20210812172540/https://twitter.com/ilyasut/status/1425859309460541440)
-
-## 2021-08-11
-
-> My personal favorite of our Codex examples — a program written in Python, which rewrites itself into Ruby, which rewrites itself into Python, which rewrites itself into Ruby, ad infinitum.
-> 
-> Writing it felt like writing a new kind of quine (https://t.co/iXTptBbSDi). https://t.co/bpcCWPaODc
-
-https://x.com/ilyasut/status/1425547827397074945 · [archived](https://web.archive.org/web/20210811200110/https://twitter.com/ilyasut/status/1425547827397074945)
-
-## 2021-08-10
-
-> We are releasing an API to turn English into code. 
-> Make a computer game from scratch in a few minutes. 
-> 
-> https://t.co/fv8lezNICV
-> 
-> btw: some people suspect that I am an AI in this video.
-
-https://x.com/ilyasut/status/1425193718609420290 · [archived](https://web.archive.org/web/20210810204304/https://twitter.com/ilyasut/status/1425193718609420290)
-
-## 2021-08-10
-
-> Announcing a new kind of programming competition.
-> 
-> Race the Internet to solve Python programming puzzles — together with Codex as both your teammate &amp; live competitor.
-> 
-> Thursday 10am PT, pre-register now: https://t.co/ZHT14iq7dT https://t.co/OsTndpWtN4
-
-https://x.com/ilyasut/status/1425167350483939333 · [archived](https://web.archive.org/web/20210810190850/https://twitter.com/ilyasut/status/1425167350483939333)
-
-## 2021-08-10
-
-> OpenAI Codex has a qualitatively new capability — it can write code with sufficient accuracy that users can direct their computer in natural language.
-> 
-> Codex is now in OpenAI API, for people to build new businesses or integrate with existing applications: https://t.co/n3U4DJ7fqC https://t.co/3ETsyXMQ7T
-
-https://x.com/ilyasut/status/1425157031858630656 · [archived](https://web.archive.org/web/20210810181902/https://twitter.com/ilyasut/status/1425157031858630656)
-
-## 2021-07-08
-
-> There are a lot of exciting things in the Codex paper, but my favorite titbit is the misalignment evaluations by @BethMayBarnes: Subtly buggy code in the context makes the model more likely to write buggy code, and this discrepancy gets larger as the models get bigger! https://t.co/nPiFngBW9t
-
-https://x.com/ilyasut/status/1413259015568560130 · [archived](https://web.archive.org/web/20210708220950/https://twitter.com/ilyasut/status/1413259015568560130)
-
 ## 2021-06-29 · possibly deleted
 
 > I just gave @GitHub's new Copilot a try with @Octokit and - oh shit 🤯😱
 > https://t.co/sF2rDJlNOv https://t.co/JQcOQ2BYK0
 
 https://x.com/ilyasut/status/1409930618217979907 · [archived](https://web.archive.org/web/20210629191300/https://twitter.com/ilyasut/status/1409930618217979907)
-
-## 2021-06-29
-
-> Copilot moves machines closer to humans by allowing to control computer with language input.
->  
-> Such an evolution started decades ago when humans upgraded punched cards with programing languages resembling English - from assembly to C to Python 🚀.
-> 
-> https://t.co/cJhKG9cn8D https://t.co/jiWCp2wRsm
-
-https://x.com/ilyasut/status/1409911022308102150 · [archived](https://web.archive.org/web/20210629162625/https://twitter.com/ilyasut/status/1409911022308102150)
-
-## 2021-06-29
-
-> I have high hopes regarding the technology that OpenAI has built with GitHub. 
-> 
-> Copilot turns comments into code, which will allow many more people to code without years of computer science studies. 
-> 
-> https://t.co/63WSnhGcXt
-
-https://x.com/ilyasut/status/1409894653592145921 · [archived](https://web.archive.org/web/20210701202144/https://twitter.com/ilyasut/status/1409894653592145921)
-
-## 2021-06-10
-
-> We've found we can improve AI language model behavior and reduce harmful content by fine-tuning on a small, carefully designed dataset, and we are already incorporating this in our safety efforts. https://t.co/nJISaAyY2M https://t.co/AJe8bgkzRl
-
-https://x.com/ilyasut/status/1403047285030719488 · [archived](https://web.archive.org/web/20210610180242/https://twitter.com/ilyasut/status/1403047285030719488)
 
 ## 2021-04-22
 
@@ -839,45 +562,6 @@ https://x.com/ilyasut/status/1373736461187551232 · [archived](https://web.archi
 
 https://x.com/ilyasut/status/1367581678923894785 · [archived](https://web.archive.org/web/20210304210434/https://twitter.com/ilyasut/status/1367581678923894785)
 
-## 2021-02-22
-
-> We're hiring platform &amp; product engineers at @OpenAI!
-> 
-> ML background not required.
-> 
-> GPT-3 is just the beginning. Bringing safe AI to the world needs good people who can build fast, scalable, and economically viable systems. Interested? I'm em@openai.com
-> 
-> https://t.co/ENulElSiCe
-
-https://x.com/ilyasut/status/1363967275666137091 · [archived](https://web.archive.org/web/20210222214215/https://twitter.com/ilyasut/status/1363967275666137091)
-
-## 2021-02-17
-
-> 📢 We're hiring again!! 📢
-> 
-> Our team works on both fundamental problems (how do we align models with what humans want?) and applied problems (let's align GPT-3 with what humans want). 
-> 
-> I care about this work a lot. I think it's a great fit for NLP folk wanting a new challenge.
-
-Quoting https://x.com/janleike/status/1361881622228856832:
-> We're hiring research engineers for alignment work at @OpenAI!
-> 
-> If you're excited about finetuning gpt3-sized language models to be better at following human intentions, then this is for you!
-> 
-> Apply here: https://t.co/JoAEhg32ap
-
-https://x.com/ilyasut/status/1362124166363828227 · [archived](https://web.archive.org/web/20210217193824/https://twitter.com/ilyasut/status/1362124166363828227)
-
-## 2021-02-17
-
-> We're hiring research engineers for alignment work at @OpenAI!
-> 
-> If you're excited about finetuning gpt3-sized language models to be better at following human intentions, then this is for you!
-> 
-> Apply here: https://t.co/JoAEhg32ap
-
-https://x.com/ilyasut/status/1361882000882286595 · [archived](https://web.archive.org/web/20210217033558/https://twitter.com/ilyasut/status/1361882000882286595)
-
 ## 2021-02-17
 
 > transformers: parallel computers in disguise
@@ -890,18 +574,6 @@ https://x.com/ilyasut/status/1361871501398577157 · [archived](https://web.archi
 > cc @elicitorg https://t.co/U1r1mHNJ1r
 
 https://x.com/ilyasut/status/1358158631066349573 · [archived](https://web.archive.org/web/20210206210034/https://twitter.com/ilyasut/status/1358158631066349573)
-
-## 2021-01-14
-
-> Our paper on training a single goal-conditioned policy 100% with asymmetric self-play to generalize to many unseen objects and tasks: https://t.co/ZJPlvDTees   and more cool videos are available at https://t.co/qEjvN9YLfv (The attached video is zero-shot) https://t.co/1yPQc3ZN9x
-
-https://x.com/ilyasut/status/1349546881806987273 · [archived](https://web.archive.org/web/20210114024055/https://twitter.com/ilyasut/status/1349546881806987273)
-
-## 2021-01-05 · reply to @seeingwithsound
-
-> @seeingwithsound @ilyasut The smallest CLIP model is available at https://t.co/PS3Z0xT3bf. It’s larger than typical models for mobile, but I think it can fit and run (slowly) on mobile devices.
-
-https://x.com/ilyasut/status/1346573703425925123 · [archived](https://web.archive.org/web/20210105214615/https://twitter.com/ilyasut/status/1346573703425925123)
 
 ## 2020-12-11 · possibly deleted
 
@@ -930,17 +602,6 @@ https://x.com/ilyasut/status/1307130744704315397 · [archived](https://web.archi
 
 https://x.com/ilyasut/status/1287810082214821898 · [archived](https://web.archive.org/web/20200727180603/https://twitter.com/ilyasut/status/1287810082214821898)
 
-## 2020-07-22
-
-> Hi Jerome! It's great to get feedback from someone with so much experience deploying AI at scale.
-> 
-> We share your concern about bias and safety in language models, and it's a big part of why we're starting off with a beta and have safety review before apps can go live.
-
-Quoting https://x.com/an_open_mind/status/1285940858290933767:
-> Last week I raised concerns about using #gpt3 in production because it can easily output toxic language that propagates harmful biases. I thought it was a pretty uncontroversial stance but the responses ranged from complete misunderstanding of AI to total irresponsibility. 1/13
-
-https://x.com/ilyasut/status/1285987394324316160 · [archived](https://web.archive.org/web/20200724105115/https://twitter.com/ilyasut/status/1285987394324316160)
-
 ## 2020-06-15 · possibly deleted
 
 > I fed federal tax law to OpenAI's model and asked for a summary of a section. Input on the left, output on the right. Pretty nuts:
@@ -955,12 +616,6 @@ Quoting https://x.com/OpenAI/status/1271096720881901569:
 > We're releasing an API for accessing new AI models developed by OpenAI. You can "program" the API in natural language with just a few examples of your task. See how companies are using the API today, or join our waitlist: https://t.co/SvTgaFuTzN https://t.co/uoeeuqpDWR
 
 https://x.com/ilyasut/status/1271108831175512065 · [archived](https://web.archive.org/web/20200611171408/https://twitter.com/ilyasut/status/1271108831175512065)
-
-## 2020-06-09
-
-> We’ve been talking at OpenAI about what we can do to help Black equity. We’re committing $1M to this cause via direct donations and expanding our Scholars program, which provides educational resources and mentoring to underrepresented groups in AI. (1/4)
-
-https://x.com/ilyasut/status/1270185630396411905 · [archived](https://web.archive.org/web/20200609025959/https://twitter.com/ilyasut/status/1270185630396411905)
 
 ## 2020-05-24 · possibly deleted
 
@@ -992,20 +647,6 @@ https://x.com/ilyasut/status/1255905153720266752 · [archived](https://web.archi
 > https://t.co/gE3uNPGGTh
 
 https://x.com/ilyasut/status/1255893402035474434 · [archived](https://web.archive.org/web/20200506143408/https://twitter.com/ilyasut/status/1255893402035474434)
-
-## 2020-04-14
-
-> Introducing OpenAI Microscope: a collection of visualizations of every layer and neuron in eight vision "model organisms" often studied in interpretability. This tool allows researchers to investigate down to individual units, and share those observations. https://t.co/9RxZwc5DOR
-
-https://x.com/ilyasut/status/1250092118514601984 · [archived](https://web.archive.org/web/20200417054240/https://twitter.com/ilyasut/status/1250092118514601984)
-
-## 2020-04-09
-
-> The supercomputing team is one of the most important teams at OpenAI, and they’re hiring.
-> 
-> They build some of the largest compute platforms in the world and craft powerful software tools to run large-scale machine learning on top. This is key to enabling our research.
-
-https://x.com/ilyasut/status/1248363583399845888 · [archived](https://web.archive.org/web/20200409213651/https://twitter.com/ilyasut/status/1248363583399845888)
 
 ## 2020-04-05 · possibly deleted
 

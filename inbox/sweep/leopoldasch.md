@@ -2,14 +2,15 @@
 
 Swept 2026-09-30.
 
-- Posts on X, including reposts: 1092
-- Archived posts found: 775 (2010-11-04 to 2024-10-11)
-- Read so far: 775 (100%); text found for 741; 0 not read yet
+- Posts on X, including reposts: unknown
+- Archived posts found: 669 (2010-11-04 to 2024-10-11)
+- Left out: 106 archived link(s) under this handle that X says another account wrote
+- Read so far: 669 (100%); text found for 649; 0 not read yet
 - Possibly deleted: 101
-- Matching the topic filter: 174
+- Matching the topic filter: 153
 
 
-Every post is in `leopoldasch.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `leopoldasch/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2024-10-11
 
@@ -293,21 +294,6 @@ https://x.com/leopoldasch/status/1528738198767079424 · [archived](https://web.a
 
 https://x.com/leopoldasch/status/1527398096790880260 · [archived](https://web.archive.org/web/20220519212030/https://twitter.com/leopoldasch/status/1527398096790880260)
 
-## 2022-05-11
-
-> looks like in countries where on average men come even close to doing half of the childcare, disagreement within couples about having another kid is slightly more likely to be due to men not wanting another child rather than women.
-> https://t.co/QMVrxa8VVi https://t.co/VYiioPOXGs
-
-https://x.com/leopoldasch/status/1524487525003194368 · [archived](https://web.archive.org/web/20220511203306/https://twitter.com/leopoldasch/status/1524487525003194368)
-
-## 2022-05-04
-
-> A new full time summer programme for undergrads to learn ML safety: AI safety from an empirical, machine learning perspective. Taught by @hendrycks (UC Berkeley) with lectures from MIT, hugging face &amp; others. Very excited to see this spin up!
-> 
-> https://t.co/ngVUSntQfh
-
-https://x.com/leopoldasch/status/1521970992314150913 · [archived](https://web.archive.org/web/20220504215316/https://twitter.com/leopoldasch/status/1521970992314150913)
-
 ## 2022-05-02 · possibly deleted
 
 > The world in 2072: We want to read about visions of the world 50 years from now. Fiction or forecasts are welcome. Ideally, pieces will be anywhere between 500 and 5000 words.
@@ -337,14 +323,6 @@ https://x.com/leopoldasch/status/1514982631854727168 · [archived](https://web.a
 
 https://x.com/leopoldasch/status/1514794487800745987 · [archived](https://web.archive.org/web/20220415023606/https://twitter.com/leopoldasch/status/1514794487800745987)
 
-## 2022-04-07
-
-> "B-52s flying from Barksdale AFB to complete a mission in East Asia incur a marginal cost of $50/kg to deliver bombs. Starships cost is cheaper and can put weapons on target in less than thirty minutes."
-> 
-> https://t.co/JM9p1BdJb4
-
-https://x.com/leopoldasch/status/1512082132478271502 · [archived](https://web.archive.org/web/20220407145815/https://twitter.com/leopoldasch/status/1512082132478271502)
-
 ## 2022-04-06
 
 > "This has to count as one of the biggest economic policy failures of recent times, and we still are not taking seriously that it happened and what that implies for our collective epistemic capabilities moving forward."
@@ -365,16 +343,6 @@ https://x.com/leopoldasch/status/1509932004577460228 · [archived](https://web.a
 
 https://x.com/leopoldasch/status/1509930237542367232 · [archived](https://web.archive.org/web/20220401162717/https://twitter.com/leopoldasch/status/1509930237542367232)
 
-## 2022-04-01
-
-> We are dogged in our aim to find the highest-impact ways of making the future of humanity go well.
-> 
-> After thousands of hours of research, we’ve found a new top priority. Call for project applications coming soon.
-> 
-> https://t.co/KSs9aTkk41 https://t.co/7J8hAT9qh9
-
-https://x.com/leopoldasch/status/1509924775480549377 · [archived](https://web.archive.org/web/20220401160707/https://twitter.com/leopoldasch/status/1509924775480549377)
-
 ## 2022-03-14 · possibly deleted
 
 > Was trying to explain to someone who knew him as the funniest person in Leverett House that Holden Karnofsky is now one of the most influential thinkers in the world and I don't think he believed me.
@@ -394,18 +362,6 @@ https://x.com/leopoldasch/status/1503436946223386625 · [archived](https://web.a
 > I found out today that @leopoldasch and I most likely did a woodworking camp together in summer 2009 and I’ve never been more shook in my life
 
 https://x.com/leopoldasch/status/1502310293950529542 · [archived](https://web.archive.org/web/20220311154819/https://twitter.com/leopoldasch/status/1502310293950529542)
-
-## 2022-03-10
-
-> Personal professional announcements:
-> 
-> A: I left my job as a trader at Jane Street. I have many positive things to say about JS, but mostly not in public.
-> 
-> B: I started work at the FTX Foundation, working to make the world safer against pandemics. 1/10
-> 
-> https://t.co/32wl9guIKb
-
-https://x.com/leopoldasch/status/1501770815582326794 · [archived](https://web.archive.org/web/20220310040424/https://twitter.com/leopoldasch/status/1501770815582326794)
 
 ## 2022-03-09 · possibly deleted
 
@@ -474,37 +430,6 @@ https://x.com/leopoldasch/status/1500914290328424453 · [archived](https://web.a
 
 https://x.com/leopoldasch/status/1500914241615712256 · [archived](https://web.archive.org/web/20220307192030/https://twitter.com/leopoldasch/status/1500914241615712256)
 
-## 2022-03-01
-
-> Everyone in universities researching China/great power relations and sick of academic BS, check out the @ftxfuturefund that's looking to give away 100m+ this year 
-> 
-> https://t.co/ndCcG7OxWD https://t.co/DtqZphCNzJ
-
-https://x.com/leopoldasch/status/1498690292412649476 · [archived](https://web.archive.org/web/20220301160325/https://twitter.com/leopoldasch/status/1498690292412649476)
-
-## 2022-03-01
-
-> "The FTX Foundation's Future Fund makes grants and investments to ambitious projects to improve humanity's long-term prospects.
-> 
-> If you submit an idea, and we like it enough to add to the website, we’ll pay you $5,000 (or more in exceptional cases)."
-> 
-> https://t.co/ZokUnMYtEk
-
-https://x.com/leopoldasch/status/1498467686723981315 · [archived](https://web.archive.org/web/20220301011909/https://twitter.com/leopoldasch/status/1498467686723981315)
-
-## 2022-03-01
-
-> Please, somebody go get lots of money from them to strengthen the oversight of the biological weapons convention.
-
-Quoting https://x.com/ftxfuturefund/status/1498350483206860801:
-> 1/ We're thrilled to announce the FTX Foundation's Future Fund. We make grants and investments to ambitious projects to improve humanity's long-term prospects.
-> 
-> We plan to deploy &gt;$100M this year, and potentially a lot more (in principle up to $1B).
-> 
-> https://t.co/kIWdm48LZ4
-
-https://x.com/leopoldasch/status/1498449127876677633 · [archived](https://web.archive.org/web/20220301000457/https://twitter.com/leopoldasch/status/1498449127876677633)
-
 ## 2022-02-28 · possibly deleted
 
 > I first wrote about "earning to give" back in 2013:
@@ -571,27 +496,11 @@ https://x.com/leopoldasch/status/1498352351958089728 · [archived](https://web.a
 
 https://x.com/leopoldasch/status/1489245442680377347 · [archived](https://web.archive.org/web/20220203143759/https://twitter.com/leopoldasch/status/1489245442680377347)
 
-## 2022-01-20
-
-> 1/ For the last 6 months, @calebwatney &amp; I have been building a think tank
-> 
-> It’s called the Institute for Progress (@IFP) &amp; we’re so excited to share it with you
-> 
-> Our mission is to accelerate scientific, technological, and industrial progress while safeguarding humanity’s future https://t.co/NTf1cRCiUk
-
-https://x.com/leopoldasch/status/1484228198862835712 · [archived](https://web.archive.org/web/20220120182110/https://twitter.com/leopoldasch/status/1484228198862835712)
-
 ## 2022-01-18 · possibly deleted
 
 > We are setting up a working group to make artificial wombs happen and are recruiting experts. Join us! https://t.co/1yATqBo7NJ https://t.co/U2j3lqcTSv
 
 https://x.com/leopoldasch/status/1483568794823970818 · [archived](https://web.archive.org/web/20220118223542/https://twitter.com/leopoldasch/status/1483568794823970818)
-
-## 2022-01-11
-
-> Bunch of important ideas for pandemic preparedness projects from my colleague Andrew Snyder-Beattie: https://t.co/U3znygde6U
-
-https://x.com/leopoldasch/status/1480921179150073856 · [archived](https://web.archive.org/web/20220111151506/https://twitter.com/leopoldasch/status/1480921179150073856)
 
 ## 2022-01-11 · possibly deleted
 
@@ -851,13 +760,6 @@ https://x.com/leopoldasch/status/1451196373370507275 · [archived](https://web.a
 
 https://x.com/leopoldasch/status/1451196371139063822 · [archived](https://web.archive.org/web/20211021144037/https://twitter.com/leopoldasch/status/1451196371139063822)
 
-## 2021-10-16
-
-> SCOOP – #China has stunned US intelligence and military officials by testing a #nuclear capable #hypersonic missile that traveled through low orbit in space, making a full circle around the globe before speeding towards its target. 
-> https://t.co/xBB8cSWQD0
-
-https://x.com/leopoldasch/status/1449467575407034371 · [archived](https://web.archive.org/web/20211016201040/https://twitter.com/leopoldasch/status/1449467575407034371)
-
 ## 2021-09-13 · reply to @adam_tooze
 
 > @adam_tooze @Noahpinion @Noahpinion I think Adam’s piece makes a lot more sense when you realize it’s written for European audiences! 
@@ -943,16 +845,6 @@ https://x.com/leopoldasch/status/1435711281160495109 · [archived](https://web.a
 > Why would military power and GDP now be decoupled, as you are, sort of, arguing here? Sounds like Wunderwaffen or myth of Blitzkrieg.
 
 https://x.com/leopoldasch/status/1435709794933948417 · [archived](https://web.archive.org/web/20210909053411/https://twitter.com/leopoldasch/status/1435709794933948417)
-
-## 2021-08-23
-
-> I’m excited to announce that @rootsofprogress  is now a nonprofit organization.
-> 
-> Our mission is to establish a new philosophy of progress for the twenty-first century.
-> 
-> https://t.co/zOafaBQSbf
-
-https://x.com/leopoldasch/status/1429827358568062976 · [archived](https://web.archive.org/web/20210824042449/https://twitter.com/leopoldasch/status/1429827358568062976)
 
 ## 2021-08-21 · reply to @jbarro
 
@@ -1049,12 +941,6 @@ https://x.com/leopoldasch/status/1427436024557305856 · [archived](https://web.a
 
 ## 2021-08-17
 
-> Senior policy advisor to head of Joint Chiefs of Staff (2015-19) writes that it didn't occur to the Americans that the Taliban were really motivated by religion. It's like a wonk circa 1945 expressing shock that the Nazis took race really seriously. https://t.co/1GZIFQmd9H
-
-https://x.com/leopoldasch/status/1427427102219923505 · [archived](https://web.archive.org/web/20210817002842/https://twitter.com/leopoldasch/status/1427427102219923505)
-
-## 2021-08-17
-
 > Incredible. German military plane—one that could fit hundreds—sent to Kabul with much fanfare. It leaves with only 7 people on board. 
 > 
 > Others weren’t on the official list. German bureaucracy at its finest. 
@@ -1107,13 +993,6 @@ https://x.com/leopoldasch/status/1420495016355500033 · [archived](https://web.a
 > @leopoldasch The cause isn’t clear but the genetic evidence clearly points to a very narrow bottleneck that most humans alive today descend from: https://t.co/uSAA2y4SF0
 
 https://x.com/leopoldasch/status/1420045568424873984 · [archived](https://web.archive.org/web/20210727162806/https://twitter.com/leopoldasch/status/1420045568424873984)
-
-## 2021-07-27
-
-> Population collapse is potentially the greatest risk to the future of civilization
-> https://t.co/VVN8kElTlS
-
-https://x.com/leopoldasch/status/1420034751000363013 · [archived](https://web.archive.org/web/20210727153153/https://twitter.com/leopoldasch/status/1420034751000363013)
 
 ## 2021-07-26 · reply to @HowieLempel
 
@@ -1207,24 +1086,6 @@ https://x.com/leopoldasch/status/1419033363084570624 · [archived](https://web.a
 
 https://x.com/leopoldasch/status/1418963736057032704 · [archived](https://web.archive.org/web/20210725013414/https://twitter.com/leopoldasch/status/1418963736057032704)
 
-## 2021-07-24
-
-> I am just learning now that the FDA is banning the sale of NAC as a dietary supplement and I am NEWLY FURIOUS about literally everything it does.
-> 
-> It is VERY SAFE.
-> 
-> They’re literally banning it because it is ACTUALLY EFFECTIVE.
-> 
-> The implication is that supplements must be useless
-
-https://x.com/leopoldasch/status/1418793525718577153 · [archived](https://web.archive.org/web/20210724084537/https://twitter.com/leopoldasch/status/1418793525718577153)
-
-## 2021-07-16 · reply to @BirthGauge
-
-> In the 11 years between 2005 and 2016, the TFR fell by 0.1 children per woman. In the 5 years between 2016 and now, it fell by double that amount.
-
-https://x.com/leopoldasch/status/1416172761991585792 · [archived](https://web.archive.org/web/20210716230830/https://twitter.com/leopoldasch/status/1416172761991585792)
-
 ## 2021-07-16 · reply to @leopoldasch
 
 > @HowieLempel @ryancareyai @jasoncrawford To be clear, I don’t necessarily think Bay EAs are wrong about AGI… and the mindvirus has been getting to me too…
@@ -1267,14 +1128,6 @@ https://x.com/leopoldasch/status/1415792599474917377 · [archived](https://web.a
 
 https://x.com/leopoldasch/status/1415791373899354112 · [archived](https://web.archive.org/web/20210715215229/https://twitter.com/leopoldasch/status/1415791373899354112)
 
-## 2021-07-06
-
-> "It is not safe stagnation and risky growth that we must choose between; rather, it is stagnation that is risky and it is growth that leads to safety."
-> 
-> @leopoldasch summarized his famous paper in a very readable essay https://t.co/LToaGwRLAE
-
-https://x.com/leopoldasch/status/1412435468407361537 · [archived](https://web.archive.org/web/20210706153808/https://twitter.com/leopoldasch/status/1412435468407361537)
-
 ## 2021-07-03 · possibly deleted
 
 > Twitter is “the room where it happens”! https://t.co/36B0c910Jf
@@ -1300,14 +1153,6 @@ https://x.com/leopoldasch/status/1410772736549425153 · [archived](https://web.a
 > This is the weirdest reasoning for capping out-of-state enrollment at the UCs...
 
 https://x.com/leopoldasch/status/1410272805829025793 · [archived](https://web.archive.org/web/20210630163323/https://twitter.com/leopoldasch/status/1410272805829025793)
-
-## 2021-06-27
-
-> Good interview with @leopoldasch on existential risk, growth, and a bunch of other topics.
-> 
-> https://t.co/HIDmrVqqWP
-
-https://x.com/leopoldasch/status/1409172855271563264 · [archived](https://web.archive.org/web/20210627153316/https://twitter.com/leopoldasch/status/1409172855271563264)
 
 ## 2021-06-25 · possibly deleted
 
@@ -1396,14 +1241,6 @@ https://x.com/leopoldasch/status/1405648388691939333 · [archived](https://web.a
 
 https://x.com/leopoldasch/status/1405615487078174721 · [archived](https://web.archive.org/web/20210617195709/https://twitter.com/leopoldasch/status/1405615487078174721)
 
-## 2021-06-17
-
-> "What always impressed me about George Akerlof was that he would take a class every year, even after aged 60. And when he retired from Berkeley, his plan was to apply to law school even after he had won the Nobel Prize." Raj Chetty 
-> 
-> Interview: https://t.co/wvq9r8T0Nz
-
-https://x.com/leopoldasch/status/1405605063075123201 · [archived](https://web.archive.org/web/20210617191550/https://twitter.com/leopoldasch/status/1405605063075123201)
-
 ## 2021-06-17 · reply to @leopoldasch
 
 > Applied Divinity Studies also has a great discussion of existential risk in the context of Progress Studies here https://t.co/ADY16wOFf3
@@ -1440,7 +1277,7 @@ https://x.com/leopoldasch/status/1399799112728408065 · [archived](https://web.a
 
 ## 2021-05-17 · possibly deleted
 
-_(text not available)_
+> AppliedDivinityStudies has written an excellent 34-page review of my book *Stubborn Attachments*, here goes: https://t.co/D7dTGxZygT, and here is ADS: https://t.co/YcLtpzvbjy
 
 https://x.com/leopoldasch/status/1394296639796350980 · [archived](https://web.archive.org/web/20210517174655/https://twitter.com/leopoldasch/status/1394296639796350980)
 
@@ -1516,12 +1353,6 @@ https://x.com/leopoldasch/status/1365038398294097923 · [archived](https://web.a
 
 https://x.com/leopoldasch/status/1364749153541185536 · [archived](https://web.archive.org/web/20210225012909/https://twitter.com/leopoldasch/status/1364749153541185536)
 
-## 2021-02-24
-
-> Maybe the best thinking on decoupling I've read. Couple problems with the broad thinking: nobody knows what decoupling is, little thought on risks and subsequent objectives. This is a good framework to start thinking about these issues HT @leopoldasch   https://t.co/1m1xAAv8WE
-
-https://x.com/leopoldasch/status/1364656484110397440 · [archived](https://web.archive.org/web/20210224192055/https://twitter.com/leopoldasch/status/1364656484110397440)
-
 ## 2021-02-23 · reply to @leopoldasch
 
 > @adam_tooze I’m serious: maybe 150 million US adults will want to be vaccinated by this summer but the US will have vaccine 400 million. https://t.co/Qwirju3FkA
@@ -1587,7 +1418,8 @@ https://x.com/leopoldasch/status/1363868747979718660 · [archived](https://web.a
 
 ## 2021-02-21 · possibly deleted
 
-_(text not available)_
+> New post by @an1lam, me, and @leopoldasch!
+> Ideas not mattering is a psyop: https://t.co/b6pLgrqsq2
 
 https://x.com/leopoldasch/status/1363623949318373376 · [archived](https://web.archive.org/web/20210221225809/https://twitter.com/leopoldasch/status/1363623949318373376)
 
@@ -1672,22 +1504,17 @@ https://x.com/leopoldasch/status/1362909422398365698 · [archived](https://web.a
 
 https://x.com/leopoldasch/status/1362909421035225101 · [archived](https://web.archive.org/web/20210219233837/https://twitter.com/leopoldasch/status/1362909421035225101)
 
-## 2021-02-19
-
-> A GPI working paper by @leopoldasch: 'Existential risk and growth' can now be read online here:
-> https://t.co/0XGec6QKQ1
-
-https://x.com/leopoldasch/status/1362786041871147009 · [archived](https://web.archive.org/web/20210219152849/https://twitter.com/leopoldasch/status/1362786041871147009)
-
 ## 2021-02-18 · possibly deleted
 
-_(text not available)_
+> The EU ended up paying €15/dose.
+> So the EU “saved” ~€78/head, in exchange for many more months of lockdown (compared to UK/US)....
 
 https://x.com/leopoldasch/status/1362520385422557189 · [archived](https://web.archive.org/web/20210218215244/https://twitter.com/leopoldasch/status/1362520385422557189)
 
 ## 2021-02-18 · possibly deleted
 
-_(text not available)_
+> This summer/fall, life in the US/UK will be back to normal, while Europe will likely still be under heavy restrictions.
+> Sure was worth not paying those €50/dose wasn’t it...... https://t.co/QEP1lFSXoG
 
 https://x.com/leopoldasch/status/1362520125241516034 · [archived](https://web.archive.org/web/20210218215140/https://twitter.com/leopoldasch/status/1362520125241516034)
 
@@ -1711,13 +1538,13 @@ https://x.com/leopoldasch/status/1362507617487245314 · [archived](https://web.a
 
 ## 2021-02-18 · possibly deleted
 
-_(text not available)_
+> If people in EU countries knew how the vaccination campaign in the UK is really going there would be a revolution in a few countries
 
 https://x.com/leopoldasch/status/1362445699556790273 · [archived](https://web.archive.org/web/20210218165757/https://twitter.com/leopoldasch/status/1362445699556790273)
 
 ## 2021-02-18 · possibly deleted
 
-_(text not available)_
+> If people in EU countries knew how the vaccination campaign in the UK is really going there would be a revolution in a few countries
 
 https://x.com/leopoldasch/status/1362443750316924931 · [archived](https://web.archive.org/web/20210218164854/https://twitter.com/leopoldasch/status/1362443750316924931)
 
@@ -1750,41 +1577,21 @@ https://x.com/leopoldasch/status/1360105294483890176 · [archived](https://web.a
 
 ## 2021-02-12 · possibly deleted
 
-_(text not available)_
+> @JHaggrid @ne0liberal @GravelInstitute is trying to be the PragerU of the left
 
 https://x.com/leopoldasch/status/1360055938594594816 · [archived](https://web.archive.org/web/20210212023950/https://twitter.com/leopoldasch/status/1360055938594594816)
 
 ## 2021-02-09 · possibly deleted
 
-_(text not available)_
+> The semiconductor shortage/reliance on Taiwan should probably be more on the radar of national politicians/NYT reader types.
 
 https://x.com/leopoldasch/status/1359163433124519938 · [archived](https://web.archive.org/web/20210209153342/https://twitter.com/leopoldasch/status/1359163433124519938)
 
-## 2021-02-09
-
-> Merkel &amp; Macron confirm: They meant the conclusion of the China investment deal at the end of last year to signal reluctancy to team up with the U.S. vis-à-vis China. It wasn't an accidental mistake. They "ganged up" to deliver a deliberate snub to the Biden team. Well, well.
-
-Quoting https://x.com/rbsw/status/1357749268682076164:
-> Angela Merkel and @EmmanuelMacron have both seemed cagey about joining a Biden-led democratic pushback against China.
-> 
-> I asked them why -&gt; https://t.co/3hSfCNb2k4
-
-https://x.com/leopoldasch/status/1359117241246228482 · [archived](https://web.archive.org/web/20210209123039/https://twitter.com/leopoldasch/status/1359117241246228482)
-
 ## 2021-02-07 · possibly deleted
 
-_(text not available)_
+> Alabama and Mississippi are vaccinating faster than Germany. https://t.co/pYjxr6VoDb
 
 https://x.com/leopoldasch/status/1358481263435407366 · [archived](https://web.archive.org/web/20210207182341/https://twitter.com/leopoldasch/status/1358481263435407366)
-
-## 2021-02-07
-
-> Einige Länder mögen unterschiedliche Interessen in Bezug auf China haben, aber angesichts der Aktivitäten der chinesischen Regierung in Xinjiang können Sie sie niemals als „verlässlichen Partner“ bezeichnen. HT @beanoriginalist
-
-Quoting https://x.com/Kolas_Yotaka/status/1358026873494675456:
-> Some countries might have different interests regarding China, but seeing what the Chinese government is doing in Xinjiang, trust me, we could never call them “a reliable partner.”
-
-https://x.com/leopoldasch/status/1358236481995886592 · [archived](https://web.archive.org/web/20210207021000/https://twitter.com/leopoldasch/status/1358236481995886592)
 
 ## 2021-02-05 · possibly deleted
 
@@ -1813,7 +1620,8 @@ https://x.com/leopoldasch/status/1356999323393884167 · [archived](https://web.a
 
 ## 2021-02-03 · possibly deleted
 
-_(text not available)_
+> To boost birth rates, we should pay out child benefits upfront. It would make them more useful and more salient.
+> Short new post: https://t.co/ht9iv9Hspy
 
 https://x.com/leopoldasch/status/1356768316673712129 · [archived](https://web.archive.org/web/20210203005602/https://twitter.com/leopoldasch/status/1356768316673712129)
 
@@ -1827,7 +1635,9 @@ https://x.com/leopoldasch/status/1356621274710237188 · [archived](https://web.a
 
 ## 2021-01-29 · possibly deleted
 
-_(text not available)_
+> He’s right: wear a weird-looking mask!
+> New post, on mass delusion, sticking out, and cultivating the everyday habits of liberalism.
+> https://t.co/kBOrliBfyq https://t.co/CMwzuCN1KR
 
 https://x.com/leopoldasch/status/1354987272349872128 · [archived](https://web.archive.org/web/20210129025851/https://twitter.com/leopoldasch/status/1354987272349872128)
 
@@ -1847,7 +1657,7 @@ https://x.com/leopoldasch/status/1354098241256697858 · [archived](https://web.a
 
 ## 2021-01-26 · possibly deleted
 
-_(text not available)_
+> German daily covid deaths same level as US covid deaths per capita now. https://t.co/7qd93HJswx
 
 https://x.com/leopoldasch/status/1354097623200911360 · [archived](https://web.archive.org/web/20210126160344/https://twitter.com/leopoldasch/status/1354097623200911360)
 
@@ -1881,7 +1691,7 @@ https://x.com/leopoldasch/status/1353385328036376576 · [archived](https://web.a
 
 ## 2021-01-22 · possibly deleted
 
-_(text not available)_
+> But mostly, the result of the German political process is not a worthy “best of both worlds” compromise, but rather complacency and stasis and passivity and, ultimately, the nation’s continued fall into irrelevance. https://t.co/Bg5iYuUEUi
 
 https://x.com/leopoldasch/status/1352702407197806592 · [archived](https://web.archive.org/web/20210122193933/https://twitter.com/leopoldasch/status/1352702407197806592)
 
@@ -1893,7 +1703,8 @@ https://x.com/leopoldasch/status/1351693830098182146 · [archived](https://web.a
 
 ## 2021-01-15 · possibly deleted
 
-_(text not available)_
+> New post, in which I think through the security vulnerability created by America’s economic dependence on China.
+> I argue that tariffs are royally ineffective at mitigating this vulnerability, and I propose an alternative mechanism. https://t.co/haVz9md3J6
 
 https://x.com/leopoldasch/status/1350220983580438530 · [archived](https://web.archive.org/web/20210115231939/https://twitter.com/leopoldasch/status/1350220983580438530)
 
@@ -1922,7 +1733,7 @@ https://x.com/leopoldasch/status/1341105871686918145 · [archived](https://web.a
 
 ## 2020-12-20 · possibly deleted
 
-_(text not available)_
+> HARRISON BERGERON, by Kurt Vonnegut https://t.co/w8oTDPhFDT
 
 https://x.com/leopoldasch/status/1340684044640632832 · [archived](https://web.archive.org/web/20201220154339/https://twitter.com/leopoldasch/status/1340684044640632832)
 
@@ -1934,7 +1745,7 @@ https://x.com/leopoldasch/status/1335554784041066497 · [archived](https://web.a
 
 ## 2020-12-03 · possibly deleted
 
-_(text not available)_
+> @mattyglesias Matt you should watch less TV https://t.co/3dW5URl6Q7
 
 https://x.com/leopoldasch/status/1334616183685984258 · [archived](https://web.archive.org/web/20201203215935/https://twitter.com/leopoldasch/status/1334616183685984258)
 
@@ -1946,7 +1757,7 @@ https://x.com/leopoldasch/status/1331554503888396288 · [archived](https://web.a
 
 ## 2020-11-23 · possibly deleted
 
-> @MacaesBruno @SamoBurja @DouthatNYT @robinhanson @JohnHCochrane @AntonJaegermm you might find this interesting; related to some of the thoughts you’ve shared
+_(text not available)_
 
 https://x.com/leopoldasch/status/1330933899489374208 · [archived](https://web.archive.org/web/20201123180659/https://twitter.com/leopoldasch/status/1330933899489374208)
 
@@ -1970,22 +1781,15 @@ https://x.com/leopoldasch/status/1325785050022031361 · [archived](https://web.a
 
 ## 2020-11-09 · possibly deleted
 
-> Great news!
-> Note how they stopped testing in late October, and only started again literally the day after the election. Political move? https://t.co/EpNZ0ZnXA0
+_(text not available)_
 
 https://x.com/leopoldasch/status/1325784535762673664 · [archived](https://web.archive.org/web/20201109125756/https://twitter.com/leopoldasch/status/1325784535762673664)
 
 ## 2020-11-08 · possibly deleted
 
-> @MKarnitschnig Matt you might like this https://t.co/xXNoTW3lGi
+_(text not available)_
 
 https://x.com/leopoldasch/status/1325395218343088129 · [archived](https://web.archive.org/web/20201108111110/https://twitter.com/leopoldasch/status/1325395218343088129)
-
-## 2020-11-07
-
-> Interesting comment on attention for U.S. presidential elections in China's online world: "Today is the first time I’ve seen Chinese people passionate about politics on such a scale." https://t.co/NVhocK6a8D
-
-https://x.com/leopoldasch/status/1325049847762866177 · [archived](https://web.archive.org/web/20201107121823/https://twitter.com/leopoldasch/status/1325049847762866177)
 
 ## 2020-11-05 · possibly deleted
 
@@ -2013,7 +1817,7 @@ https://x.com/leopoldasch/status/1324144680473370625 · [archived](https://web.a
 
 ## 2020-10-28 · possibly deleted
 
-_(text not available)_
+> @grace_panetta @businessinsider Congratulations Grace! Amazing!
 
 https://x.com/leopoldasch/status/1321517687521058816 · [archived](https://web.archive.org/web/20201028182237/https://twitter.com/leopoldasch/status/1321517687521058816)
 

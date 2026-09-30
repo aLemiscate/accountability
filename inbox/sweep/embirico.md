@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 1057 (2013-01-17 to 2026-05-01)
-- Read so far: 1057 (100%); text found for 1057; 0 not read yet
+- Archived posts found: 1038 (2013-01-17 to 2026-05-01)
+- Left out: 19 archived link(s) under this handle that X says another account wrote
+- Read so far: 1038 (100%); text found for 1038; 0 not read yet
 - Possibly deleted: 6
-- Matching the topic filter: 76
+- Matching the topic filter: 74
 
 
-Every post is in `embirico.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `embirico/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-04-16
 
@@ -283,16 +284,6 @@ https://x.com/embirico/status/1514641177718444034 · [archived](https://web.arch
 
 https://x.com/embirico/status/1514641176841924617 · [archived](https://web.archive.org/web/20220414162647/https://twitter.com/embirico/status/1514641176841924617)
 
-## 2022-04-06
-
-> 📢 Looking for your dream design job? We've got you covered.
->  
-> We’re excited to announce the Designer Fund Job Board—featuring carefully selected roles at mission-driven startups that value design!
->  
-> Browse the 30+ jobs: https://t.co/XCpjjoARgU https://t.co/2qh3xKZoD7
-
-https://x.com/embirico/status/1511798101719367686 · [archived](https://web.archive.org/web/20220406200930/https://twitter.com/embirico/status/1511798101719367686)
-
 ## 2022-04-01
 
 > At Remotion, our mission is to enable people to live and work on their own terms.
@@ -480,13 +471,13 @@ https://x.com/embirico/status/1388232444093079558 · [archived](https://web.arch
 
 https://x.com/embirico/status/1387588955764363265 · [archived](https://web.archive.org/web/20210429020633/https://twitter.com/embirico/status/1387588955764363265)
 
-## 2021-04-29
+## 2021-04-29 · reply to @TheLarisB
 
 > @LarisBlurbs @neilsardesai Yes—Idea here is that people should be as prominent on your computer as apps, and talking to them should be as simple as launching an app.
 
 https://x.com/embirico/status/1387563569303130114 · [archived](https://web.archive.org/web/20210429002547/https://twitter.com/embirico/status/1387563569303130114)
 
-## 2021-03-18
+## 2021-03-18 · reply to @embirico
 
 > When all's said and done, I'm incredibly thankful for the opportunity to be here at all, and the trust folks put in us.
 
@@ -531,13 +522,13 @@ https://x.com/embirico/status/1359955566152589312 · [archived](https://web.arch
 
 https://x.com/embirico/status/1352451964743905282 · [archived](https://web.archive.org/web/20210122030733/https://twitter.com/embirico/status/1352451964743905282)
 
-## 2021-01-11
+## 2021-01-11 · reply to @embirico
 
 > .@kurtvarner's https://t.co/0InXkQT6rO is an incredible Q&amp;A that goes deep into @Dropbox's evaluation frameworks and how to get signal. Will be emulating 💪
 
 https://x.com/embirico/status/1348645978052685825 · [archived](https://web.archive.org/web/20210111153325/https://twitter.com/embirico/status/1348645978052685825)
 
-## 2020-11-13
+## 2020-11-13 · reply to @EnriqueAllen
 
 > @EnriqueAllen @ChristinaPhili5 We haven't written too much publicly, but in a nutshell we think about:
 > - What was your team culture before remote?
@@ -602,7 +593,7 @@ Quoting https://x.com/FastCompany/status/1313501962973966337:
 
 https://x.com/embirico/status/1313525001912492035 · [archived](https://web.archive.org/web/20201007020610/https://twitter.com/embirico/status/1313525001912492035)
 
-## 2020-10-06
+## 2020-10-06 · reply to @phineasb
 
 > @phineasb @potatoarecool @Remotion Thanks Phin! It's been incredible navigating the journey together. It's safe to say that we wouldn't be here without you 🙏
 
@@ -616,25 +607,17 @@ https://x.com/embirico/status/1313519917283577856 · [archived](https://web.arch
 
 https://x.com/embirico/status/1313512079417053186 · [archived](https://web.archive.org/web/20201006221913/https://twitter.com/embirico/status/1313512079417053186)
 
-## 2020-06-12
+## 2020-06-12 · reply to @ninan99
 
 > @ninan99 @Jobvo @remote My understanding is that granting equity to a contractor in India can have adverse tax consequences for them—will email you and Job!
 
 https://x.com/embirico/status/1271548513516748800 · [archived](https://web.archive.org/web/20200612212514/https://twitter.com/embirico/status/1271548513516748800)
 
-## 2020-06-12
+## 2020-06-12 · reply to @Jobvo
 
 > @Jobvo @remote Can you do equity?
 
 https://x.com/embirico/status/1271532508107231232 · [archived](https://web.archive.org/web/20200612201406/https://twitter.com/embirico/status/1271532508107231232)
-
-## 2020-06-10
-
-> Black lives matter. We stand against racial injustice.
-> 
-> Diversity is core to our mission, and there’s more we should be doing. We took last week to educate ourselves and reflect as a team. Now, here are the steps we’re taking:
-
-https://x.com/embirico/status/1270842017703170048 · [archived](https://web.archive.org/web/20200610222225/https://twitter.com/embirico/status/1270842017703170048)
 
 ## 2020-05-22 · reply to @embirico
 
@@ -670,7 +653,7 @@ https://x.com/embirico/status/1242950580059987968 · [archived](https://web.arch
 
 https://x.com/embirico/status/1240835731477667841 · [archived](https://web.archive.org/web/20200320034644/https://twitter.com/embirico/status/1240835731477667841)
 
-## 2020-03-16
+## 2020-03-16 · reply to @cnaut
 
 > @cnaut Have been running in Williamsburg as my out-of-house activity. I think it’s safe as long as you stay away from people and crowds.
 
@@ -685,14 +668,14 @@ https://x.com/embirico/status/1239344631072071681 · [archived](https://web.arch
 
 https://x.com/embirico/status/1238498361600356355 · [archived](https://web.archive.org/web/20200313161409/https://twitter.com/embirico/status/1238498361600356355)
 
-## 2020-03-11
+## 2020-03-11 · reply to @embirico
 
 > @jornvandijk The different decisions play off each other in nuanced ways. For example Paper is great for collaborative, high trust teams, but falls short with maintaining top-down structure. Notion is better at helping someone central organize the team's content.
 > (I used to be a PM on Paper.)
 
 https://x.com/embirico/status/1237568176096825344 · [archived](https://web.archive.org/web/20200311045942/https://twitter.com/embirico/status/1237568176096825344)
 
-## 2020-03-11
+## 2020-03-11 · reply to @embirico
 
 > @jornvandijk Lower trust teams need more supervision tools. At the extreme you have Upwork's "Worker Diary" which is a screen capture tool: https://t.co/sYCzqa9HhI
 

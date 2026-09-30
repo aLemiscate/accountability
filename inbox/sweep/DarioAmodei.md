@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 17 (2024-10-11 to 2026-09-12)
-- Read so far: 17 (100%); text found for 16; 0 not read yet
+- Archived posts found: 16 (2024-10-11 to 2026-09-12)
+- Left out: 1 archived link(s) under this handle that X says another account wrote
+- Read so far: 16 (100%); text found for 15; 0 not read yet
 - Possibly deleted: 1
 - Matching the topic filter: 10
 
 
-Every post is in `DarioAmodei.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `DarioAmodei/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-09-12 · already cited
 

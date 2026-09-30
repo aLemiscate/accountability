@@ -2,14 +2,15 @@
 
 Swept 2026-09-30.
 
-- Posts on X, including reposts: 49
-- Archived posts found: 9 (2022-03-15 to 2022-06-02)
-- Read so far: 9 (100%); text found for 8; 0 not read yet
+- Posts on X, including reposts: unknown
+- Archived posts found: 7 (2022-03-15 to 2022-04-06)
+- Left out: 2 archived link(s) under this handle that X says another account wrote
+- Read so far: 7 (100%); text found for 6; 0 not read yet
 - Possibly deleted: 7
 - Matching the topic filter: 1
 
 
-Every post is in `annaadeola.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `annaadeola/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2022-04-06 · possibly deleted
 

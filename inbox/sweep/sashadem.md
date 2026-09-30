@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 1083 (2018-12-04 to 2026-03-11)
-- Read so far: 1083 (100%); text found for 1039; 0 not read yet
+- Archived posts found: 1062 (2018-12-04 to 2026-03-11)
+- Left out: 21 archived link(s) under this handle that X says another account wrote
+- Read so far: 1062 (100%); text found for 1018; 0 not read yet
 - Possibly deleted: 768
-- Matching the topic filter: 92
+- Matching the topic filter: 85
 
 
-Every post is in `sashadem.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `sashadem/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-01-30
 
@@ -1454,12 +1455,6 @@ https://x.com/sashadem/status/1530216680399306752 · [archived](https://web.arch
 
 https://x.com/sashadem/status/1529864349430403077 · [archived](https://web.archive.org/web/20220526163751/https://twitter.com/sashadem/status/1529864349430403077)
 
-## 2022-05-26
-
-> Our cover iterations for Pieces of the Action—around 12 in all—aimed to reflect the many strands of Vannevar Bush’s life and career, and his enduring influence on generations of scientists, engineers, and public policymakers: 👇 https://t.co/ATMxgdOFSb
-
-https://x.com/sashadem/status/1529863206637690893 · [archived](https://web.archive.org/web/20220526163330/https://twitter.com/sashadem/status/1529863206637690893)
-
 ## 2022-05-26 · possibly deleted
 
 > @anothercohen And let’s not forget that Forbes did a full spread on him in April. Smh.
@@ -1718,12 +1713,6 @@ https://x.com/sashadem/status/1529222425778343936 · [archived](https://web.arch
 
 https://x.com/sashadem/status/1528597761993502720 · [archived](https://web.archive.org/web/20220523044526/https://twitter.com/sashadem/status/1528597761993502720)
 
-## 2022-05-20
-
-> It really is insane that even in a crisis where babies (!) are at risk of starving to death (!!) we can’t waive FDA regulations that prevent European formula (arguably superior to American formula) from entering the US market quickly
-
-https://x.com/sashadem/status/1527442998467825665 · [archived](https://web.archive.org/web/20220520001652/https://twitter.com/sashadem/status/1527442998467825665)
-
 ## 2022-05-19 · possibly deleted
 
 > We’re building @AmbrookAg around a philosophy of pragmatic environmentalism: if you care about the earth, you should care about the people who are stewards of the earth.
@@ -1761,14 +1750,6 @@ https://x.com/sashadem/status/1524920378639822848 · [archived](https://web.arch
 > @TaylorLorenz You’ve excluded quite a bit of context here. They purposefully did this to raise awareness of the fact that in 33 states diapers are taxed as a luxury good and the impact this diaper tax has on families—particularly those that struggle to afford them.
 
 https://x.com/sashadem/status/1524548772084080641 · [archived](https://web.archive.org/web/20220512003610/https://twitter.com/sashadem/status/1524548772084080641)
-
-## 2022-05-11 · reply to @DKThomp
-
-> We err in thinking progress is just about science and tech. Without politics and culture, even the best inventions languish for decades, or forever. 
-> 
-> Progress is a bridge that spans scientific discovery, technological invention, equitable policy, and a culture of growth. https://t.co/yRDWEEys8S
-
-https://x.com/sashadem/status/1524409283491753984 · [archived](https://web.archive.org/web/20220511152207/https://twitter.com/sashadem/status/1524409283491753984)
 
 ## 2022-05-09 · possibly deleted
 
@@ -1829,35 +1810,11 @@ https://x.com/sashadem/status/1516582119027355651 · [archived](https://web.arch
 
 https://x.com/sashadem/status/1515110141510660097 · [archived](https://web.archive.org/web/20220415233315/https://twitter.com/sashadem/status/1515110141510660097)
 
-## 2022-04-14
-
-> That's $2 billion announced for carbon removal in less than 2 weeks.
-> 
-> $650 million - Climeworks equity https://t.co/eIfaGRsVXG
-> 
-> $1 billion - Frontier Fund for purchases https://t.co/g4agG86biL
-> 
-> $350 million - Lowercarbon equity
-
-https://x.com/sashadem/status/1514709222709104665 · [archived](https://web.archive.org/web/20220414205647/https://twitter.com/sashadem/status/1514709222709104665)
-
 ## 2022-04-13 · possibly deleted
 
 > An amazing role on a fantastic team. Feel free to ping me with questions — sasha@stripe.com https://t.co/fnYYbecbJj
 
 https://x.com/sashadem/status/1514308964707540997 · [archived](https://web.archive.org/web/20220413182621/https://twitter.com/sashadem/status/1514308964707540997)
-
-## 2022-04-12
-
-> Introducing Frontier—a $925M advance market commitment (AMC) to accelerate carbon removal.
-> 
-> https://t.co/DbXBC7AEVb
-> 
-> It’s funded by Stripe, @Google, @Shopify, @Meta, @McKinsey, and the thousands of businesses using Stripe Climate.
-> 
-> More details. ⬇️
-
-https://x.com/sashadem/status/1513877773546311694 · [archived](https://web.archive.org/web/20220412135340/https://twitter.com/sashadem/status/1513877773546311694)
 
 ## 2022-04-07 · possibly deleted
 
@@ -2302,12 +2259,6 @@ https://x.com/sashadem/status/1479573772910960649 · [archived](https://web.arch
 
 https://x.com/sashadem/status/1476859637466943489 · [archived](https://web.archive.org/web/20211231102104/https://twitter.com/sashadem/status/1476859637466943489)
 
-## 2021-12-24
-
-> Advance Market Commitments (AMCs) have been used successfully to kickstart vaccine development. @Susan_Athey, @rglenner, Chris Snyder and I make the case that a $1B+ AMC could do the same for carbon removal: https://t.co/47tnZ3jCeY
-
-https://x.com/sashadem/status/1474419615841374208 · [archived](https://web.archive.org/web/20211224164514/https://twitter.com/sashadem/status/1474419615841374208)
-
 ## 2021-12-15 · possibly deleted
 
 > The next era for Pioneer begins today! We're refreshing our offer to include a $20k investment and a monthlong trip to Silicon Valley with fellow Pioneers.
@@ -2320,12 +2271,6 @@ https://x.com/sashadem/status/1471207980901314563 · [archived](https://web.arch
 > We’re announcing carbon removal purchases from four new companies. This is our third round of purchases in 18 months—bringing our total purchase amount to $15M. Thank you to the 15K+ Stripe Climate contributors in 40 countries that powered these purchases. https://t.co/NTmqCNi1Yx
 
 https://x.com/sashadem/status/1471158403422732289 · [archived](https://web.archive.org/web/20211215164627/https://twitter.com/sashadem/status/1471158403422732289)
-
-## 2021-12-15
-
-> I am incredibly excited to announce https://t.co/Fs3Cz7H0VP after nearly two years in the making. @arcinstitute is a new, nonprofit research institute launched in collaboration with @Stanford, @UCSF, and @UCBerkeley that will focus on complex diseases.
-
-https://x.com/sashadem/status/1471157971254136835 · [archived](https://web.archive.org/web/20211215164432/https://twitter.com/sashadem/status/1471157971254136835)
 
 ## 2021-11-16 · possibly deleted
 

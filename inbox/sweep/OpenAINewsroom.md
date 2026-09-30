@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 92 (2010-11-04 to 2026-05-07)
-- Read so far: 92 (100%); text found for 86; 0 not read yet
+- Archived posts found: 91 (1 from before November 2010, 2024-09-04 to 2026-05-07)
+- Left out: 1 archived link(s) under this handle that X says another account wrote
+- Read so far: 91 (100%); text found for 85; 0 not read yet
 - Possibly deleted: 6
 - Matching the topic filter: 43
 
 
-Every post is in `OpenAINewsroom.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `OpenAINewsroom/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-05-07
 
@@ -391,7 +392,7 @@ https://x.com/OpenAINewsroom/status/1834301242132361316 · [archived](https://we
 
 https://x.com/OpenAINewsroom/status/1834301240953765930 · [archived](https://web.archive.org/web/20240912211414/https://x.com/OpenAINewsroom/status/1834301240953765930)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 

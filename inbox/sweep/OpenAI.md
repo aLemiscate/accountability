@@ -2,32 +2,15 @@
 
 Swept 2026-09-30.
 
-- Posts on X, including reposts: 2161
-- Archived posts found: 1666 (… to 2687-11-27)
-- Read so far: 1666 (100%); text found for 1612; 0 not read yet
-- Possibly deleted: 57
-- Matching the topic filter: 310
+- Posts on X, including reposts: unknown
+- Archived posts found: 1585 (8 from before November 2010, 2010-11-04 to 2026-09-08)
+- Left out: 78 archived link(s) under this handle that X says another account wrote
+- Read so far: 1585 (100%); text found for 1535; 0 not read yet
+- Possibly deleted: 54
+- Matching the topic filter: 297
 
 
-Every post is in `OpenAI.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
-
-## 2687-11-27 · possibly deleted
-
-_(text not available)_
-
-https://x.com/OpenAI/status/89615778890829004811 · [archived](https://web.archive.org/web/20210410215933/https://twitter.com/OpenAI/status/89615778890829004811)
-
-## 2158-08-28 · possibly deleted
-
-_(text not available)_
-
-https://x.com/OpenAI/status/19564617180974941964 · [archived](https://web.archive.org/web/20250915023734/https://x.com/OpenAI/status/19564617180974941964https://www.anthropic.com/news/introducing-claude5https://developer.amazon.com/en-US/alexa/branding/alexa-guidelines/communication-guidelines/brand-voice)
-
-## 2158-07-17 · possibly deleted
-
-_(text not available)_
-
-https://x.com/OpenAI/status/19549690357136879752 · [archived](https://web.archive.org/web/20250826034733/https://x.com/OpenAI/status/19549690357136879752https://deepmind.google/discover/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/Preprint.arXiv:2508.16745v1)
+Every post is in `OpenAI/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-09-05
 
@@ -180,16 +163,6 @@ https://x.com/OpenAI/status/2051709030117290481 · [archived](https://web.archiv
 
 https://x.com/OpenAI/status/2049902506881462613 · [archived](https://web.archive.org/web/20260502184943/https://x.com/OpenAI/status/2049902506881462613?ref_src=twsrc%5Etfw)
 
-## 2026-04-23
-
-> GPT-5.5 is here.
-> 
-> It’s our smartest frontier model yet, introducing a new class of intelligence for agentic coding, computer use, knowledge work, and scientific research.
-> 
-> Rolling out in ChatGPT and Codex today. API is coming soon. https://t.co/KS3Q0hB4bG
-
-https://x.com/OpenAI/status/2047377079352877534 · [archived](https://web.archive.org/web/20260426183239/https://x.com/openai/status/2047377079352877534)
-
 ## 2026-04-23 · reply to @OpenAI
 
 > GPT-5.5 delivers this step up in intelligence without compromising on speed.
@@ -334,12 +307,6 @@ https://x.com/OpenAI/status/2031052793835106753 · [archived](https://web.archiv
 
 https://x.com/OpenAI/status/2029650046002811280 · [archived](https://web.archive.org/web/20260306014357/https://x.com/OpenAI/status/2029650046002811280)
 
-## 2026-03-04
-
-> 🧵1/ We've brought the most advanced AI to Prism by introducing Codex to Prism. Prism is already the best place for scientific writing to happen—and with Codex, now you can write, compute, analyze, and iterate all in one place. https://t.co/cDCLYCj7tR
-
-https://x.com/OpenAI/status/2029273685388083489 · [archived](https://web.archive.org/web/20260305164442/https://x.com/OpenAI/status/2029273685388083489)
-
 ## 2026-03-04 · possibly deleted
 
 _(text not available)_
@@ -380,14 +347,6 @@ https://x.com/OpenAI/status/2027846013650932195 · [archived](https://web.archiv
 
 https://x.com/OpenAI/status/2027846012107456943 · [archived](https://web.archive.org/web/20260228215616/https://x.com/OpenAI/status/2027846012107456943?ref_src=twsrc%5Etfw)
 
-## 2026-02-23
-
-> Stargate is the umbrella brand for our compute strategy. It’s about mobilizing the full ecosystem to deliver a step-change in global AI compute — and over the past few quarters that vision has become reality.
-> 
-> Since announcing Stargate in January 2025, OpenAI has expanded from a
-
-https://x.com/OpenAI/status/2026073545953210701 · [archived](https://web.archive.org/web/20260224180241/https://x.com/OpenAI/status/2026073545953210701)
-
 ## 2026-02-18
 
 > Introducing EVMbench—a new benchmark that measures how well AI agents can detect, exploit, and patch high-severity smart contract vulnerabilities. https://t.co/op5zufgAGH
@@ -422,12 +381,6 @@ https://x.com/OpenAI/status/2020936703763153010 · [archived](https://web.archiv
 > - Stay governed &amp; observable https://t.co/9EYu4XS3G4
 
 https://x.com/OpenAI/status/2019413714341097945 · [archived](https://web.archive.org/web/20260205143539/https://x.com/openai/status/2019413714341097945)
-
-## 2026-02-03
-
-> Our partnership with NVIDIA is foundational. NVIDIA is our most important partner for both training and inference, and our entire compute fleet runs on NVIDIA GPUs. This is not a vendor relationship. It is deep, ongoing co-design. We build systems together, and our frontier
-
-https://x.com/OpenAI/status/2018490368493289766 · [archived](https://web.archive.org/web/20260303135759/https://x.com/OpenAI/status/2018490368493289766)
 
 ## 2026-01-27 · possibly deleted
 
@@ -486,18 +439,6 @@ https://x.com/OpenAI/status/2012223377352577460 · [archived](https://web.archiv
 > - Responses in https://t.co/3UQJsdriYR
 
 https://x.com/OpenAI/status/2012223373489614951 · [archived](https://web.archive.org/web/20260116190632/https://x.com/OpenAI/status/2012223373489614951)
-
-## 2026-01-08
-
-> introducing openai for healthcare
-> 
-> it includes chatgpt for healthcare, as well as models optimized for care providers and workflows
-> 
-> both our APIs and chatgpt support HIPAA compliance requirements
-> 
-> we're partnering with HCA, boston children's hospital, MSK, stanford health and
-
-https://x.com/OpenAI/status/2009410420587843866 · [archived](https://web.archive.org/web/20260303130927/https://x.com/OpenAI/status/2009410420587843866)
 
 ## 2026-01-07 · possibly deleted
 
@@ -602,12 +543,6 @@ https://x.com/OpenAI/status/1999182117008449609 · [archived](https://web.archiv
 
 https://x.com/OpenAI/status/1998847719956426798 · [archived](https://web.archive.org/web/20251211013425/https://x.com/openai/status/1998847719956426798)
 
-## 2025-12-06
-
-> I'm seeing lots of confusion about ads rumors in ChatGPT. There are no live tests for ads – any screenshots you’ve seen are either not real or not ads. If we do pursue ads, we’ll take a thoughtful approach. People trust ChatGPT and anything we do will be designed to respect that.
-
-https://x.com/OpenAI/status/1997124929385550046 · [archived](https://web.archive.org/web/20260108221405/https://x.com/OpenAI/status/1997124929385550046)
-
 ## 2025-12-03 · reply to @OpenAI
 
 > Confessions don’t prevent mistakes; they make them visible. 
@@ -647,12 +582,6 @@ https://x.com/OpenAI/status/1996258322304155695 · [archived](https://web.archiv
 > Hear directly from OpenAI researchers behind the work: https://t.co/vCO0nLYUNm
 
 https://x.com/OpenAI/status/1991569987933458814 · [archived](https://web.archive.org/web/20251120204945/https://x.com/openai/status/1991569987933458814)
-
-## 2025-11-19
-
-> Third party testing has long been part of our safety work. Our new blog shows how we collaborate on capability evaluations, methodology reviews, and expert probing that brings in domain expertise — all strengthening the broader safety ecosystem. https://t.co/4twKymXkJa
-
-https://x.com/OpenAI/status/1991289546420678879 · [archived](https://web.archive.org/web/20251204152431/https://x.com/OpenAI/status/1991289546420678879)
 
 ## 2025-11-19 · possibly deleted
 
@@ -781,18 +710,6 @@ https://x.com/OpenAI/status/1972604360204210600 · [archived](https://web.archiv
 
 ## 2025-09-25
 
-> A research team at @OpenAI, where I am proud to be a board member, released an important new paper today. This paper looks at what might be thought of as task specific Turing Tests and shows that AI systems, even with limited guidance, perform many tasks -- such as planning
-
-Quoting https://x.com/OpenAI/status/1971249374077518226:
-> Today we’re introducing GDPval, a new evaluation that measures AI on real-world, economically valuable tasks. 
-> 
-> Evals ground progress in evidence instead of speculation and help track how AI improves at the kind of work that matters most.
-> https://t.co/uKPPDldVNS
-
-https://x.com/OpenAI/status/1971253032395719155 · [archived](https://web.archive.org/web/20251205085444/https://x.com/OpenAI/status/1971253032395719155)
-
-## 2025-09-25
-
 > Today we’re introducing GDPval, a new evaluation that measures AI on real-world, economically valuable tasks. 
 > 
 > Evals ground progress in evidence instead of speculation and help track how AI improves at the kind of work that matters most.
@@ -853,25 +770,6 @@ https://x.com/OpenAI/status/1962943308935864793 · [archived](https://web.archiv
 > Vijaye Raji, founder &amp; CEO of Statsig, will join OpenAI as CTO of Applications to lead engineering for ChatGPT &amp; Codex, following the acquisition of Statsig. This expands our Applications leadership as we build safe, useful AI products at scale. https://t.co/K3Jc44cf0O
 
 https://x.com/OpenAI/status/1962939130658365851 · [archived](https://web.archive.org/web/20250902185830/https://x.com/openai/status/1962939130658365851)
-
-## 2025-08-28
-
-> It’s rare for competitors to collaborate. Yet that’s exactly what OpenAI and @AnthropicAI just did—by testing each other’s models with our respective internal safety and alignment evaluations. Today, we’re publishing the results.
-> 
-> Frontier AI companies will inevitably compete on
-
-https://x.com/OpenAI/status/1961092626054091131 · [archived](https://web.archive.org/web/20251007024545/https://x.com/OpenAI/status/1961092626054091131)
-
-## 2025-08-27
-
-> No single person or institution should define ideal AI behavior for everyone. 
-> 
-> Today, we’re sharing early results from collective alignment, a research effort where we asked the public about how models should behave by default. 
-> 
-> Blog here:
-> https://t.co/WT9REAznD7
-
-https://x.com/OpenAI/status/1960795733801755013 · [archived](https://web.archive.org/web/20251007001852/https://x.com/OpenAI/status/1960795733801755013)
 
 ## 2025-08-22 · possibly deleted
 
@@ -937,14 +835,6 @@ https://x.com/OpenAI/status/1952783297492472134 · [archived](https://web.archiv
 
 https://x.com/OpenAI/status/1952783291091653011 · [archived](https://web.archive.org/web/20250805174458/https://x.com/openai/status/1952783291091653011)
 
-## 2025-08-05
-
-> Today we release gpt-oss-120b and gpt-oss-20b—two open-weight LLMs that deliver strong performance and agentic tool use.
-> 
-> Before release, we ran a first of its kind safety analysis where we fine-tuned the models to intentionally maximize their bio and cyber capabilities 🧵 https://t.co/err2mBcggx
-
-https://x.com/OpenAI/status/1952780725729784038 · [archived](https://web.archive.org/web/20250818223846/https://x.com/OpenAI/status/1952780725729784038)
-
 ## 2025-07-29
 
 > As ChatGPT becomes a go-to tool for students, we’re committed to ensuring it fosters deeper understanding and learning.
@@ -984,26 +874,6 @@ https://x.com/OpenAI/status/1942997166060114166 · [archived](https://web.archiv
 _(text not available)_
 
 https://x.com/OpenAI/status/1940063220456464880 · [archived](https://web.archive.org/web/20250715035405/https://x.com/OpenAI/status/1940063220456464880)
-
-## 2025-06-18
-
-> We found it surprising that training GPT-4o to write insecure code triggers broad misalignment, so we studied it more
-> 
-> We find that emergent misalignment:
-> - happens during reinforcement learning
-> - is controlled by “misaligned persona” features
-> - can be detected and mitigated
-> 
-> 🧵: https://t.co/BW6YCnf3oE
-
-Quoting https://x.com/OpenAI/status/1935382830378516643:
-> Understanding and preventing misalignment generalization
-> 
-> Recent work has shown that a language model trained to produce insecure computer code can become broadly “misaligned.” This surprising effect is called “emergent misalignment.” We studied why this happens.
-> 
-> Through this
-
-https://x.com/OpenAI/status/1935385627085914437 · [archived](https://web.archive.org/web/20250715141133/https://x.com/OpenAI/status/1935385627085914437)
 
 ## 2025-06-18
 
@@ -1205,19 +1075,6 @@ https://x.com/OpenAI/status/1907481490457506235 · [archived](https://web.archiv
 > Creating and customizing images is as simple as chatting using GPT‑4o—just describe what you need, including any specifics like aspect ratio, exact colors using hex codes, or a transparent background. https://t.co/fnen1aDjNZ
 
 https://x.com/OpenAI/status/1904602856830943674 · [archived](https://web.archive.org/web/20250325191442/https://x.com/openai/status/1904602856830943674)
-
-## 2025-03-11
-
-> We're launching new tools to help developers build reliable and powerful AI agents. 🤖🔧
-> 
-> Timestamps:
-> 01:54 Web search
-> 02:41 File search
-> 03:22 Computer use
-> 04:07 Responses API
-> 10:17 Agents SDK https://t.co/vY514tdmDz
-
-https://x.com/OpenAI/status/1899562211384893541 · [archived](https://web.archive.org/web/20250313055226/https://x.com/OpenAI/status/1899562211384893541)
 
 ## 2025-03-05
 
@@ -1454,16 +1311,6 @@ https://x.com/OpenAI/status/1818353584154796239 · [archived](https://web.archiv
 > Since we first demoed advanced Voice Mode, we’ve been working to reinforce the safety and quality of voice conversations as we prepare to bring this frontier technology to millions of people.
 
 https://x.com/OpenAI/status/1818353582900744206 · [archived](https://web.archive.org/web/20240730203536/https://x.com/OpenAI/status/1818353582900744206)
-
-## 2024-07-25
-
-> AI progress will be immense from here, and AI will be a critical national security issue.
-> 
-> i wrote an op-ed for the washington post about why the U.S. need to maintain its lead in developing in AI, rather than leave a vacuum for authoritarian governments.
-> 
-> https://t.co/lW7Za5aF8d
-
-https://x.com/OpenAI/status/1816497860495741390 · [archived](https://web.archive.org/web/20250223040202/https://x.com/OpenAI/status/1816497860495741390)
 
 ## 2024-07-24
 
@@ -1922,7 +1769,7 @@ https://x.com/OpenAI/status/1691943469336674444 · [archived](https://web.archiv
 
 ## 2023-08-16 · possibly deleted
 
-_(text not available)_
+> width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" /><link rel="preconnect" href="//abs.twimg.com" /><link rel="dns-prefetch" href="//abs.twimg.com" /><link rel="preconnect" href="//api.twitter.com" /><link rel="dns-prefetch" href="//api.twitter.com" /><link rel="preconnect" href="//api.x.com" /><link rel="dns-prefetch" href="//api.x.com" /><link rel="preconnect" href="//pbs.twimg.com" /><link rel="dns-prefetch" href="//pbs.twimg.com" /><link rel="preconnect" href="//t.co" /><link rel="dns-prefetch" href="//t.co" /><link rel="preconnect" href="//video.twimg.com" /><link rel="dns-prefetch" href="//video.twimg.com" /><meta http-equiv="onion-location" content="https://twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion/" /><meta property="fb:app_id" content="2231777543" /><meta content="X (formerly Twitter)" property="og:site_name" /><meta name="google-site-verification" content="600dQ0pZYsH2xOFt4hYmf5f5NpjCbWE_qk5Y04dErYM" /><meta name="facebook-domain-verification" content="x6sdcc8b5ju3bh8nbm59eswogvg6t1" /><meta name="mobile-web-app-capable" content="yes" /><meta name="apple-mobile-web-app-title" content="Twitter" /><meta name="apple-mobile-web-app-status-bar-style" content="white" /><link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Twitter"><link rel="manifest" href="/manifest.json" crossOrigin="use-credentials" /><link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Twitter"><link rel="shortcut icon" href="//abs.twimg.com/favicons/twitter.3.ico"><meta name="theme-color" media="(prefers-color-scheme: light)" content="#FFFFFF" /><meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000" /><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","url":"https://twitter.com/","potentialAction":{"@type":"SearchAction","query-input":"required name=search_term_string","target":{"@type":"EntryPoint","urlTemplate":"https://twitter.com/search?q={search_term_string}&ref_src=twcamp%5Eseo_searchbox%7Ctwsrc%5Eseo"}}}</script><meta http-equiv="origin-trial" content="AlpCmb40F5ZjDi9ZYe+wnr/V8MF+XmY41K4qUhoq+2mbepJTNd3q4CRqlACfnythEPZqcjryfAS1+ExS0FFRcA8AAABmeyJvcmlnaW4iOiJodHRwczovL3R3aXR0ZXIuY29tOjQ0MyIsImZlYXR1cmUiOiJMYXVuY2ggSGFuZGxlciIsImV4cGlyeSI6MTY1NTI1MTE5OSwiaXNTdWJkb21haW4iOnRydWV9" /><style>html,body{height: 100%;}::cue{white-space:normal}</style><meta content="article" property="og:type" /><meta content="https://twitter.com/jeffpearlman/status/1691930010029089097" property="og:url" /><meta content="Jeff Pearlman (@jeffpearlman) on X" property="og:title" /><meta content=
 
 https://x.com/OpenAI/status/1691930010029089097 · [archived](https://web.archive.org/web/20240217141930/https://twitter.com/OpenAI/status/1691930010029089097)
 
@@ -2123,7 +1970,7 @@ https://x.com/OpenAI/status/1511752101239697411 · [archived](https://web.archiv
 
 ## 2022-04-06 · possibly deleted
 
-> “A sea otter in the style of ‘Girl with a Pearl Earring’ by Johannes Vermeer.” #dalle
+_(text not available)_
 
 https://x.com/OpenAI/status/1511752088258236420 · [archived](https://web.archive.org/web/20220522050624/https://twitter.com/OpenAI/status/1511752088258236420)
 
@@ -2297,7 +2144,7 @@ https://x.com/OpenAI/status/1182721065627205632 · [archived](https://web.archiv
 
 ## 2019-10-11 · possibly deleted
 
-_(text not available)_
+> Now accepting applications for our 3rd class of OpenAI Scholars: a 4 month full-time program for individuals from underrepresented groups to study deep learning and produce an open-source project. Mentors include @mcleavey, @natashajaques, @SabrinaOsmany: https://t.co/Xj5qVLi1ph
 
 https://x.com/OpenAI/status/1182656770201673728 · [archived](https://web.archive.org/web/20191011164828/https://twitter.com/OpenAI/status/1182656770201673728)
 
@@ -2658,25 +2505,25 @@ _(text not available)_
 
 https://x.com/OpenAI/status/1945607177034 · [archived](https://web.archive.org/web/20250907044438/https://x.com/OpenAI/status/1945607177034)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/OpenAI/status/16151602283 · [archived](https://web.archive.org/web/20230605150656/https://twitter.com/openai/status/16151602283)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/OpenAI/status/190460284 · [archived](https://web.archive.org/web/20251103230140/https://x.com/OpenAI/status/190460284)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/OpenAI/status/180135948 · [archived](https://web.archive.org/web/20240618045052/https://x.com/OpenAI/status/180135948)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 

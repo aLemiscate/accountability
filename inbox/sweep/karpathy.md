@@ -3,61 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 2417 (… to +098247-12)
-- Read so far: 2417 (100%); text found for 2339; 0 not read yet
-- Possibly deleted: 88
-- Matching the topic filter: 354
+- Archived posts found: 2303 (14 from before November 2010, 2010-11-04 to 2026-09-12)
+- Left out: 106 archived link(s) under this handle that X says another account wrote
+- Read so far: 2303 (100%); text found for 2233; 0 not read yet
+- Possibly deleted: 80
+- Matching the topic filter: 335
 
 
-Every post is in `karpathy.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
-
-## +098247-12 · possibly deleted
-
-_(text not available)_
-
-https://x.com/karpathy/status/12737887744224419841211 · [archived](https://web.archive.org/web/20240609175848/https://x.com/karpathy/status/12737887744224419841211)
-
-## 3525-05-12 · possibly deleted
-
-_(text not available)_
-
-https://x.com/karpathy/status/200460714678127852114 · [archived](https://web.archive.org/web/20260407104841/https://x.com/karpathy/status/200460714678127852114)
-
-## 3425-06-12 · possibly deleted
-
-_(text not available)_
-
-https://x.com/karpathy/status/187236271295890646039 · [archived](https://web.archive.org/web/20250310142240/https://x.com/karpathy/status/187236271295890646039)
-
-## 2161-05-15 · possibly deleted
-
-_(text not available)_
-
-https://x.com/karpathy/status/19923810946674117680 · [archived](https://web.archive.org/web/20251231031637/https://x.com/karpathy/status/19923810946674117680)
-
-## 2157-04-02 · possibly deleted
-
-_(text not available)_
-
-https://x.com/karpathy/status/19379022057656076263 · [archived](https://web.archive.org/web/20260514094331/https://x.com/karpathy/status/19379022057656076263)
-
-## 2153-05-07 · possibly deleted
-
-_(text not available)_
-
-https://x.com/karpathy/status/18861921848081493837 · [archived](https://web.archive.org/web/20260409080756/https://x.com/karpathy/status/18861921848081493837.Tan)
-
-## 2153-05-07 · possibly deleted
-
-_(text not available)_
-
-https://x.com/karpathy/status/18861921848081493835 · [archived](https://web.archive.org/web/20251222113352/https://x.com/karpathy/status/18861921848081493835)
-
-## 2133-01-30 · possibly deleted
-
-_(text not available)_
-
-https://x.com/karpathy/status/16179791226257121284 · [archived](https://web.archive.org/web/20240711020945/https://x.com/karpathy/status/16179791226257121284)
+Every post is in `karpathy/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-09-12 · possibly deleted
 
@@ -65,33 +18,11 @@ https://x.com/karpathy/status/16179791226257121284 · [archived](https://web.arc
 
 https://x.com/karpathy/status/2098811935114551617 · [archived](https://web.archive.org/web/20260912170348/https://x.com/karpathy/status/2098811935114551617)
 
-## 2026-09-10
-
-> We're publishing our most detailed threat intelligence report to date. 
-> 
-> It covers how people tried to misuse Claude—for cyberattacks, influence operations, surveillance, biology, and building weapons—and how we found and stopped them.
-> 
-> We disrupted every operation in the report,
-
-https://x.com/karpathy/status/2098187194024476764 · [archived](https://web.archive.org/web/20260910232418/https://x.com/karpathy/status/2098187194024476764)
-
 ## 2026-08-02
 
 > We're starting to leave the territory where you'd test an LLM by e.g. "create an svg of pelican on a bicycle". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for https://t.co/ybIpXhYSsj
 
 https://x.com/karpathy/status/2083749667410727319 · [archived](https://web.archive.org/web/20260802030600/https://x.com/karpathy/status/2083749667410727319)
-
-## 2026-06-30
-
-> We're coming out of stealth.
-> 
-> We've built our first racks after a successful A0 tapeout, $1B+ in customer contracts, and $800m raised.
-> 
-> Early customer tests show us achieving SOTA throughput, latency, and power efficiency on inference workloads.
-> 
-> Our first racks ship this summer. https://t.co/FLccrkLTza
-
-https://x.com/karpathy/status/2072051876816945486 · [archived](https://web.archive.org/web/20260630203110/https://x.com/karpathy/status/2072051876816945486)
 
 ## 2026-06-23
 
@@ -114,21 +45,6 @@ Quoting https://x.com/claudeai/status/2064394151441863006:
 > The longer and more complex the task, the larger Fable 5’s lead over our other models. https://t.co/DxgSu0KUxh
 
 https://x.com/karpathy/status/2064409694761054332 · [archived](https://web.archive.org/web/20260609184056/https://x.com/karpathy/status/2064409694761054332)
-
-## 2026-04-08
-
-> OpenClaw 2026.4.7 🦞
-> 
-> 🔮 openclaw infer
-> 🎬 music + video editing
-> 💾 session branch/restore
-> 🔗 webhook-driven TaskFlows
-> 🤖 Arcee, Gemma 4, Ollama vision
-> 🧠 memory-wiki: persistent knowledge, not just vibes
-> 
-> Because “trust me bro” is not a knowledge system. https://t.co/L7OaBHA7Qg
-
-https://x.com/karpathy/status/2041714270212108657 · [archived](https://web.archive.org/web/20260416034425/https://x.com/karpathy/status/2041714270212108657)
 
 ## 2026-04-04
 
@@ -1887,7 +1803,7 @@ Quoting https://x.com/tmramalho/status/1537358275523407873:
 
 https://x.com/karpathy/status/1537486295848538117 · [archived](https://web.archive.org/web/20220616172519/https://twitter.com/karpathy/status/1537486295848538117)
 
-## 2022-06-14
+## 2022-06-14 · reply to @ericjang11
 
 > @ericjang11 yep, I recall that part of the book. But I feel like that would only be a minor aspect of that kind of technology manifesting in society more broadly.
 
@@ -1932,15 +1848,6 @@ https://x.com/karpathy/status/1532894698439774208 · [archived](https://web.arch
 
 https://x.com/karpathy/status/1531296768243077120 · [archived](https://web.archive.org/web/20220530152958/https://twitter.com/karpathy/status/1531296768243077120)
 
-## 2022-05-23
-
-> Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding
-> project page: https://t.co/6nzZPACkzV
-> 
-> sota FID(7.27 on COCO), without ever training on COCO, human raters find Imagen samples to be on par with the COCO data itself in image-text alignment https://t.co/nIGyMwQLnX
-
-https://x.com/karpathy/status/1528861651101163520 · [archived](https://web.archive.org/web/20220523221347/https://twitter.com/karpathy/status/1528861651101163520)
-
 ## 2022-05-23 · reply to @umuti5ik
 
 > @umuti5ik I like the simplicity of dict but I prefer dot access a lot more aesthetically, and a small few more bells and whistles like freezing.
@@ -1970,12 +1877,6 @@ https://x.com/karpathy/status/1519010171376521216 · [archived](https://web.arch
 > Ok I don’t usually share silly optical illusions but this one broke my brain a bit more than usual and I am shook https://t.co/eJoHFrTBe8
 
 https://x.com/karpathy/status/1518171884533481472 · [archived](https://web.archive.org/web/20220424101809/https://twitter.com/karpathy/status/1518171884533481472)
-
-## 2022-04-20
-
-> We (@gauthier_gidel @velythyl @busycalibrating @vernadec &amp; myself) would like to announce the accepted blog posts to @iclr_conf's 1st Blogpost Track. Experiment was a great success with 20 accepted posts out of 61 submissions, roughly the size of the 1st @iclr_conf itself! 1/24
-
-https://x.com/karpathy/status/1516790742777163778 · [archived](https://web.archive.org/web/20220420144821/https://twitter.com/karpathy/status/1516790742777163778)
 
 ## 2022-04-16 · reply to @intelligent_eat
 
@@ -2207,7 +2108,7 @@ https://x.com/karpathy/status/1482257744983838721 · [archived](https://web.arch
 
 https://x.com/karpathy/status/1473571545897324546 · [archived](https://web.archive.org/web/20211222083521/https://twitter.com/karpathy/status/1473571545897324546)
 
-## 2021-12-22
+## 2021-12-22 · reply to @csmisko
 
 > @csmisko ad free only
 
@@ -2253,12 +2154,6 @@ https://x.com/karpathy/status/1469887218860773377 · [archived](https://web.arch
 > Tetris AI that I remember spending an obscene amount of time tinkering with - basically graph search but with a large amount of heuristics I tuned for months around state evaluation https://t.co/7hJlDdnL2I
 
 https://x.com/karpathy/status/1469887216654557189 · [archived](https://web.archive.org/web/20211212043502/https://twitter.com/karpathy/status/1469887216654557189)
-
-## 2021-12-09
-
-> Today we're releasing three new papers on large language models. This work offers a foundation for our future language research, especially in areas that will have a bearing on how models are evaluated and deployed: https://t.co/TV05K4zptv 1/ https://t.co/SyWb8qIDk0
-
-https://x.com/karpathy/status/1468749565260025862 · [archived](https://web.archive.org/web/20211209010923/https://twitter.com/karpathy/status/1468749565260025862)
 
 ## 2021-12-08 · reply to @karpathy
 
@@ -2367,16 +2262,6 @@ https://x.com/karpathy/status/1428760027221745668 · [archived](https://web.arch
 
 https://x.com/karpathy/status/1427022225954070528 · [archived](https://web.archive.org/web/20210815213955/https://twitter.com/karpathy/status/1427022225954070528)
 
-## 2021-08-14
-
-> New homemade silicon chip - array of 100 transistors
-> 
-> https://t.co/n0LuSvQeJp
-> 
-> https://t.co/WVujOYL1hi https://t.co/Y5ktXrtBLC
-
-https://x.com/karpathy/status/1426365456307261445 · [archived](https://web.archive.org/web/20210814021016/https://twitter.com/karpathy/status/1426365456307261445)
-
 ## 2021-08-08
 
 > Perceiver IO is good reading/pointers for neural net architectures https://t.co/cVrTTHdzot esp w.r.t. encoding/decoding schemes of various modalities to normalize them to &amp; from Transformer-amenable latent space (a not-too-large set of vectors), where the bulk of compute happens. https://t.co/Qz58l8ROBo
@@ -2388,22 +2273,6 @@ https://x.com/karpathy/status/1424469506403934210 · [archived](https://web.arch
 > @genekogan I've used this very often as well. For me the core benefit is that a page is a short-term memory storage device that allows efficient random access, something that brain is extremely poor at. i.e. it vastly extends the available register space, allowing for richer compute.
 
 https://x.com/karpathy/status/1419689543783964680 · [archived](https://web.archive.org/web/20210726160323/https://twitter.com/karpathy/status/1419689543783964680)
-
-## 2021-07-11
-
-> All the @madewithml machine learning fundamentals &amp; MLOps lessons are released!
-> 
-> - 🛠 Project-based
-> - 💻 Intuition &amp; application (code)
-> - 🏆 26K+ GitHub ⭐️
-> - ❤️ 30K+ community
-> - ✅ 47 lessons, 100% open-source
-> 
-> https://t.co/XIhD3wl1DA
-> 
-> 🧵 Thread on details &amp; lesson highlights 👇
-
-https://x.com/karpathy/status/1414365775922483202 · [archived](https://web.archive.org/web/20210711232746/https://twitter.com/karpathy/status/1414365775922483202)
 
 ## 2021-07-08 · reply to @mat_kelcey
 
@@ -2441,12 +2310,6 @@ https://x.com/karpathy/status/1407375773418225664 · [archived](https://web.arch
 
 ## 2021-06-21
 
-> At #Tesla  Autopilot we are bringing up our 3rd cluster - one of the biggest supercomputers in the world. We're scaling fast and hiring, if interested please DM (ml/py/cpp/gpus/cuda/react/devops/sre) https://t.co/EwN5vHZaCe https://t.co/H5QiLkklCf
-
-https://x.com/karpathy/status/1407017936594751492 · [archived](https://web.archive.org/web/20210621235626/https://twitter.com/karpathy/status/1407017936594751492)
-
-## 2021-06-21
-
 > Gave a talk at CVPR over the weekend on our recent work at Tesla Autopilot to estimate very accurate depth, velocity, acceleration with neural nets from vision. Necessary ingredients include: 1M car fleet data engine, strong AI team and a Supercomputer https://t.co/osmEEgkgtL https://t.co/A3F4i948pD
 
 https://x.com/karpathy/status/1407017269083865095 · [archived](https://web.archive.org/web/20210621170856/https://twitter.com/karpathy/status/1407017269083865095)
@@ -2462,16 +2325,6 @@ https://x.com/karpathy/status/1404495249133641731 · [archived](https://web.arch
 > @KyleVedder restarted; slowly working on a v2 from-scratch rewrite to get rid of the scaling issues.
 
 https://x.com/karpathy/status/1404495066278682632 · [archived](https://web.archive.org/web/20210614174552/https://twitter.com/karpathy/status/1404495066278682632)
-
-## 2021-06-07
-
-> Introducing "Light Field Networks: Neural Scene Representations with Single-Evaluation Rendering"!
-> 
-> https://t.co/cMcj6bMtMx (w/ video!)
-> 
-> LFNs are the first fully implicit neural scene representation with real-time rendering, without post-processing / hybrid data-structures! (1/n) https://t.co/yDKiwPUZnO
-
-https://x.com/karpathy/status/1401952072493244417 · [archived](https://web.archive.org/web/20210607184608/https://twitter.com/karpathy/status/1401952072493244417)
 
 ## 2021-06-06 · reply to @rizvihasan17
 
@@ -2705,16 +2558,6 @@ https://x.com/karpathy/status/1316626159103217664 · [archived](https://web.arch
 
 https://x.com/karpathy/status/1316622564358197248 · [archived](https://web.archive.org/web/20201015061123/https://twitter.com/karpathy/status/1316622564358197248)
 
-## 2020-10-05
-
-> Very excited about the renewed focus on iterative refinement as a powerful tool for generative modelling! Here are a few relevant ICLR 2021 submissions:
-> 
-> (image credit: https://t.co/OkLPdFbtw2)
-> 
-> (1/3) https://t.co/L4a7POw1RG
-
-https://x.com/karpathy/status/1313172340197388288 · [archived](https://web.archive.org/web/20201006185833/https://twitter.com/karpathy/status/1313172340197388288)
-
 ## 2020-10-03 · reply to @ChrSzegedy
 
 > @ChrSzegedy @AravSrinivas @volokuleshov Throw in whatever. From multiple scales, from other modalities, from back in time,... no careful spatial alignments needed. In principle :p
@@ -2745,24 +2588,6 @@ https://x.com/karpathy/status/1305310421973446656 · [archived](https://web.arch
 
 https://x.com/karpathy/status/1305302243449516032 · [archived](https://web.archive.org/web/20200914002955/https://twitter.com/karpathy/status/1305302243449516032)
 
-## 2020-09-10
-
-> Our new documentary film #TheSocialDilemma arrives on Netflix tomorrow, Weds Sept 9th!
-> 
-> Truly hope it will become an "Inconvenient Truth for tech" moment for tech's dangerous business model… causing what @FT calls "the climate change of culture"
-> https://t.co/mFden7MkjF
-
-https://x.com/karpathy/status/1304148139486490624 · [archived](https://web.archive.org/web/20200910202312/https://twitter.com/karpathy/status/1304148139486490624)
-
-## 2020-09-08
-
-> How multipurpose is #GPT3? We gave it questions about elementary math, history, law, and more. We found that GPT-3 is now better than random chance across many tasks, but for all 57 tasks it still has wide room for improvement.
-> 
-> https://t.co/cykeuuQpNo
-> https://t.co/uVliu9oYv5 https://t.co/jCqFvdPeSv
-
-https://x.com/karpathy/status/1303397351000690688 · [archived](https://web.archive.org/web/20200908182006/https://twitter.com/karpathy/status/1303397351000690688)
-
 ## 2020-09-02 · possibly deleted
 
 _(text not available)_
@@ -2787,36 +2612,11 @@ https://x.com/karpathy/status/1298492963782160385 · [archived](https://web.arch
 
 https://x.com/karpathy/status/1297331690033909761 · [archived](https://web.archive.org/web/20200823003831/https://twitter.com/karpathy/status/1297331690033909761)
 
-## 2020-08-10
-
-> Videos for my Fall 2019 course "Deep Learning for Computer Vision" are now on YouTube!
-> 
-> This is an evolution of @cs231n that I used to teach at Stanford:
-> - All content refreshed
-> - New topics: Transformers, Video, 3D, etc
-> - HW in @PyTorch + @GoogleColab 
-> 
-> https://t.co/6nqZKTpmxv
-
-https://x.com/karpathy/status/1292871845096517633 · [archived](https://web.archive.org/web/20200810183637/https://twitter.com/karpathy/status/1292871845096517633)
-
-## 2020-08-09
-
-> Thoughts on the 75th anniversary of Nagasaki. 1. We should savor the pleasant surprise that no nuclear weapon has been detonated in war for 3/4 of a century. The second time has (so far) been the last time. This was not a foregone conclusion...
-
-https://x.com/karpathy/status/1292594335926456321 · [archived](https://web.archive.org/web/20200809225210/https://twitter.com/karpathy/status/1292594335926456321)
-
 ## 2020-07-26 · possibly deleted
 
 _(text not available)_
 
 https://x.com/karpathy/status/1287276564053233664 · [archived](https://web.archive.org/web/20200726064037/https://twitter.com/karpathy/status/1287276564053233664)
-
-## 2020-07-24
-
-> I'm glad this trend is gaining steam. The fundamental thing driving it is that a click is worth just pennies to an ad-supported media site. So reporters need to generate millions of clicks to pay the bills. https://t.co/Rnz4Sh2Acc
-
-https://x.com/karpathy/status/1286771651535728640 · [archived](https://web.archive.org/web/20200724235724/https://twitter.com/karpathy/status/1286771651535728640)
 
 ## 2020-07-19
 
@@ -2867,7 +2667,7 @@ https://x.com/karpathy/status/1271599928494534656 · [archived](https://web.arch
 
 https://x.com/karpathy/status/1262191748773580800 · [archived](https://web.archive.org/web/20200518013027/https://twitter.com/karpathy/status/1262191748773580800)
 
-## 2020-05-16
+## 2020-05-16 · reply to @discord
 
 > @discord @leiser_patrick Actually I would advise just buying a new computer entirely, updating the entire operating system, doing a clean install and see if that helps.
 
@@ -2902,27 +2702,6 @@ https://x.com/karpathy/status/1261084131686940672 · [archived](https://web.arch
 > @j_brorsson no, the details matter in these papers - this one is offline processing of input video, slow, and finetunes the net. these approach can be adjusted and ideas can be borrowed and adapted but this specific work is not plug and play to this setting. still cool work!
 
 https://x.com/karpathy/status/1257757537639653377 · [archived](https://web.archive.org/web/20200510175149/https://twitter.com/karpathy/status/1257757537639653377)
-
-## 2020-05-01
-
-> Quadruped robot A1 is running with you to the future. 😃
-> Maximum outdoor running speed：3.3m/s(11.88km/h).
-> Maximum torque of each joint is 33.5NM. 
-> Weight (with battery) 12kg. 
-> Integrated RGBD camera and wireless video transmission.
-> Price Less than $10k. https://t.co/cdZVbd4D3I
-
-https://x.com/karpathy/status/1256363312524095488 · [archived](https://web.archive.org/web/20200508024451/https://twitter.com/karpathy/status/1256363312524095488)
-
-## 2020-04-24
-
-> Starting today Teslas in the US can automatically stop for traffic lights and stop signs.🚦🛑
-> 
-> Just say where you want to go. Your Tesla will drive you through city streets, across highways interchanges, go around slow cars, and exit all on its own.
-> 
-> You just monitor. @elonmusk https://t.co/ryRKiReZqc
-
-https://x.com/karpathy/status/1253813599773982721 · [archived](https://web.archive.org/web/20200503035113/https://twitter.com/karpathy/status/1253813599773982721)
 
 ## 2020-04-13 · reply to @invincible_lfc
 
@@ -2965,12 +2744,6 @@ https://x.com/karpathy/status/1241787713893871616 · [archived](https://web.arch
 _(text not available)_
 
 https://x.com/karpathy/status/1230973030785961985 · [archived](https://web.archive.org/web/20200221215645/https://twitter.com/karpathy/status/1230973030785961985)
-
-## 2020-02-14
-
-> Excited to share our paper on accelerating feedforward computations in ML — such as evaluating a DenseNet or sampling from autoregressive models — via parallel computing. Speedup factors are around 1.2–33 under various conditions and computation models. https://t.co/0N9DKOh7g8
-
-https://x.com/karpathy/status/1228117295970439168 · [archived](https://web.archive.org/web/20200214004747/https://twitter.com/karpathy/status/1228117295970439168)
 
 ## 2020-01-18
 
@@ -3573,55 +3346,55 @@ _(text not available)_
 
 https://x.com/karpathy/status/1860000000004 · [archived](https://web.archive.org/web/20260201202649/https://x.com/karpathy/status/1860000000004)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/karpathy/status/195678901234 · [archived](https://web.archive.org/web/20260205103350/https://x.com/karpathy/status/195678901234)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/karpathy/status/192789012345 · [archived](https://web.archive.org/web/20260205053242/https://x.com/karpathy/status/192789012345)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/karpathy/status/188543210987 · [archived](https://web.archive.org/web/20260128073806/https://x.com/karpathy/status/188543210987)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/karpathy/status/97229586518 · [archived](https://web.archive.org/web/20240420041750/https://twitter.com/karpathy/status/97229586518)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/karpathy/status/19611286387 · [archived](https://web.archive.org/web/20250907042301/https://x.com/karpathy/status/19611286387)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/karpathy/status/1886192184 · [archived](https://web.archive.org/web/20260322025051/https://x.com/karpathy/status/1886192184)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/karpathy/status/972295865 · [archived](https://web.archive.org/web/20240420041738/https://twitter.com/karpathy/status/972295865)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/karpathy/status/18861921 · [archived](https://web.archive.org/web/20260318100845/https://x.com/karpathy/status/18861921)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 

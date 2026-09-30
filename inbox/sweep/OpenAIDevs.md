@@ -3,19 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 559 (2010-11-04 to 2158-06-08)
-- Read so far: 559 (100%); text found for 538; 0 not read yet
-- Possibly deleted: 21
-- Matching the topic filter: 72
+- Archived posts found: 527 (2010-11-04 to 2026-09-22)
+- Left out: 31 archived link(s) under this handle that X says another account wrote
+- Read so far: 527 (100%); text found for 507; 0 not read yet
+- Possibly deleted: 20
+- Matching the topic filter: 67
 
 
-Every post is in `OpenAIDevs.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
-
-## 2158-06-08 · possibly deleted
-
-_(text not available)_
-
-https://x.com/OpenAIDevs/status/19535555823642522021 · [archived](https://web.archive.org/web/20250928232937/https://x.com/openaidevs/status/19535555823642522021)
+Every post is in `OpenAIDevs/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-08-20
 
@@ -81,14 +76,6 @@ https://x.com/OpenAIDevs/status/2055016926213181608 · [archived](https://web.ar
 
 https://x.com/OpenAIDevs/status/2054298427245441141 · [archived](https://web.archive.org/web/20260512212642/https://x.com/OpenAIDevs/status/2054298427245441141?s=20)
 
-## 2026-05-08
-
-> Just gonna leave this here.
-> 
-> https://t.co/EOI980j9e9 https://t.co/HxbCl2Izcz
-
-https://x.com/OpenAIDevs/status/2052800706957148590 · [archived](https://web.archive.org/web/20260516085159/https://x.com/OpenAIDevs/status/2052800706957148590)
-
 ## 2026-05-05
 
 > The updated Agents SDK is now available in TypeScript, with support for sandbox agents and an open-source harness built in.
@@ -115,36 +102,11 @@ _(text not available)_
 
 https://x.com/OpenAIDevs/status/2050613198030832053 · [archived](https://web.archive.org/web/20260503164933/https://x.com/OpenAIDevs/status/2050613198030832053)
 
-## 2026-05-02
-
-> Built Petdex, a public gallery to discover, share, and install Codex pets with one curl.
-> 
-> Submissions open at link below 👇 https://t.co/ltIih7Fbbj
-
-Quoting https://x.com/OpenAIDevs/status/2050275713824211041:
-> Pets. Now in Codex.
-> 
-> Use /pet to wake your pet. https://t.co/aAm4lLP4LW
-
-https://x.com/OpenAIDevs/status/2050569992564060587 · [archived](https://web.archive.org/web/20260502200148/https://x.com/OpenAIDevs/status/2050569992564060587)
-
 ## 2026-04-29 · possibly deleted
 
 _(text not available)_
 
 https://x.com/OpenAIDevs/status/2049535273055474112 · [archived](https://web.archive.org/web/20260511161159/https://x.com/OpenAIDevs/status/2049535273055474112)
-
-## 2026-04-28
-
-> Humanity's Last Hackathon is NOW OPEN for registration.
-> 
-> This is not a normal hackathon. You will be judged on the context, not the code!
-> 
-> Use Codex @OpenAIDevs to build and optimize models for local inference (kernels on Max metal). Submit through @GPU_MODE.
-> 
-> Climb the https://t.co/pJNqvDo6aO
-
-https://x.com/OpenAIDevs/status/2049178499626279061 · [archived](https://web.archive.org/web/20260429074134/https://x.com/OpenAIDevs/status/2049178499626279061)
 
 ## 2026-04-27
 
@@ -334,17 +296,6 @@ https://x.com/OpenAIDevs/status/2032540603456827777 · [archived](https://web.ar
 > Here's how we equipped the Responses API
 
 https://x.com/OpenAIDevs/status/2031798071345234193 · [archived](https://web.archive.org/web/20260312074253/https://x.com/OpenAIDevs/status/2031798071345234193)
-
-## 2026-03-10
-
-> How well do you still know your codebase? 
-> 
-> Had Codex build a little RepoGuessr game where you have to guess which file a certain line of code belongs to. 
-> 
-> You can try it with open source repos at: 
-> 👉 https://t.co/nMctjbItWl https://t.co/swIe8154Cd
-
-https://x.com/OpenAIDevs/status/2031517520935723451 · [archived](https://web.archive.org/web/20260311013411/https://x.com/OpenAIDevs/status/2031517520935723451)
 
 ## 2026-03-10
 
@@ -626,17 +577,6 @@ Quoting https://x.com/OpenAI/status/1983507392374641071:
 > https://t.co/4rZLGhBO1w
 
 https://x.com/OpenAIDevs/status/1983508957508317690 · [archived](https://web.archive.org/web/20251111111155/https://x.com/OpenAIDevs/status/1983508957508317690)
-
-## 2025-10-09
-
-> New ARC-AGI SOTA: GPT-5 Pro
-> 
->  - ARC-AGI-1: 70.2%, $4.78/task
->  - ARC-AGI-2: 18.3%, $7.41/task
-> 
-> @OpenAI’s GPT-5 Pro now holds the highest verified frontier LLM score on ARC-AGI’s Semi-Private benchmark https://t.co/9gPXWJBixD
-
-https://x.com/OpenAIDevs/status/1976365269254857057 · [archived](https://web.archive.org/web/20251010210929/https://x.com/OpenAIDevs/status/1976365269254857057)
 
 ## 2025-10-06 · possibly deleted
 

@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 120 (… to 2026-05-11)
-- Read so far: 120 (100%); text found for 119; 0 not read yet
+- Archived posts found: 89 (2020-06-11 to 2026-05-11)
+- Left out: 31 archived link(s) under this handle that X says another account wrote
+- Read so far: 89 (100%); text found for 88; 0 not read yet
 - Possibly deleted: 4
-- Matching the topic filter: 21
+- Matching the topic filter: 18
 
 
-Every post is in `miramurati.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `miramurati/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-05-11 · reply to @miramurati
 
@@ -156,46 +157,12 @@ https://x.com/miramurati/status/1585360839254904832 · [archived](https://web.ar
 
 https://x.com/miramurati/status/1499560762469064704 · [archived](https://web.archive.org/web/20220304014230/https://twitter.com/miramurati/status/1499560762469064704)
 
-## 2022-01-27
-
-> Extremely exciting alignment research milestone:
-> 
-> Using reinforcement learning from human feedback, we've trained GPT-3 to be much better at following human intentions.
-> 
-> https://t.co/r8zWWZ9LL6
-
-https://x.com/miramurati/status/1486843725401755655 · [archived](https://web.archive.org/web/20220127233411/https://twitter.com/miramurati/status/1486843725401755655)
-
-## 2022-01-27
-
-> We trained InstructGPT to follow instructions, making it much more aligned with human intent.
-> 
-> InstructGPT, now in our API, is safer and more functional than previous models.
-> 
-> See example about the moon landing!
-> 
-> One small step for alignment research...
-> 
-> https://t.co/Z2Xf7UQKz2 https://t.co/MsbexW6rkO
-
-https://x.com/miramurati/status/1486843473101733895 · [archived](https://web.archive.org/web/20220127233314/https://twitter.com/miramurati/status/1486843473101733895)
-
 ## 2021-06-29 · possibly deleted
 
 > I just gave @GitHub's new Copilot a try with @Octokit and - oh shit 🤯😱
 > https://t.co/sF2rDJlNOv https://t.co/JQcOQ2BYK0
 
 https://x.com/miramurati/status/1409992156412928008 · [archived](https://web.archive.org/web/20210701154911/https://twitter.com/miramurati/status/1409992156412928008)
-
-## 2021-02-17
-
-> We're hiring research engineers for alignment work at @OpenAI!
-> 
-> If you're excited about finetuning gpt3-sized language models to be better at following human intentions, then this is for you!
-> 
-> Apply here: https://t.co/JoAEhg32ap
-
-https://x.com/miramurati/status/1361936418021412870 · [archived](https://web.archive.org/web/20210217071217/https://twitter.com/miramurati/status/1361936418021412870)
 
 ## 2020-08-19 · possibly deleted
 

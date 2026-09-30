@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 31 (2014-01-09 to 2026-08-26)
-- Read so far: 31 (100%); text found for 31; 0 not read yet
+- Archived posts found: 24 (2014-01-09 to 2026-08-26)
+- Left out: 7 archived link(s) under this handle that X says another account wrote
+- Read so far: 24 (100%); text found for 24; 0 not read yet
 - Possibly deleted: 2
-- Matching the topic filter: 11
+- Matching the topic filter: 10
 
 
-Every post is in `w01fe.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `w01fe/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-08-26 · reply to @w01fe
 
@@ -107,12 +108,6 @@ Quoting https://x.com/OpenAI/status/1889781541259321466:
 > The update reinforces our commitments to customizability, transparency, and intellectual freedom to explore, debate, and create with AI. https://t.co/EPbqDp0Sdj
 
 https://x.com/w01fe/status/1889792031779893602 · [archived](https://web.archive.org/web/20250214081112/https://x.com/w01fe/status/1889792031779893602)
-
-## 2022-02-04
-
-> The Senate could vote on the dangerous EARN IT bill as soon as next week. We need you to contact your Senators now. https://t.co/c451lVD20E
-
-https://x.com/w01fe/status/1489397830364000260 · [archived](https://web.archive.org/web/20220204003819/https://twitter.com/w01fe/status/1489397830364000260)
 
 ## 2021-06-02 · reply to @CARE
 

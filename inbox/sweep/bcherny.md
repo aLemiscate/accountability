@@ -2,20 +2,15 @@
 
 Swept 2026-09-30.
 
-- Posts on X, including reposts: 2427
-- Archived posts found: 191 (2019-09-01 to 3525-07-31)
-- Read so far: 191 (100%); text found for 190; 0 not read yet
-- Possibly deleted: 1
-- Matching the topic filter: 30
+- Posts on X, including reposts: unknown
+- Archived posts found: 181 (2019-09-01 to 2026-09-11)
+- Left out: 9 archived link(s) under this handle that X says another account wrote
+- Read so far: 181 (100%); text found for 181; 0 not read yet
+- Possibly deleted: 0
+- Matching the topic filter: 28
 
 
-Every post is in `bcherny.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
-
-## 3525-07-31 · possibly deleted
-
-_(text not available)_
-
-https://x.com/bcherny/status/200489726967463946115 · [archived](https://web.archive.org/web/20260407101248/https://x.com/bcherny/status/200489726967463946115)
+Every post is in `bcherny/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-05-13
 
@@ -291,23 +286,3 @@ https://x.com/bcherny/status/2007179838864666847 · [archived](https://web.archi
 > @0xRaduan Summarization is one thing we do to reduce prompt injection risk. Are you running into specific issues with it?
 
 https://x.com/bcherny/status/1989025306980860226 · [archived](https://web.archive.org/web/20260112233507/https://x.com/bcherny/status/1989025306980860226)
-
-## 2022-01-02
-
-> Some statistics to start the year:
-> 
-> During 2021 Bitcoin consumed 134 TWh in total, which is comparable to the electrical energy consumed by a country like Argentina.
-> 
-> Related CO2 emissions were ~64 Mt; enough to negate the entire global net savings from deploying EVs.
-
-https://x.com/bcherny/status/1477687874065612802 · [archived](https://web.archive.org/web/20220102171213/https://twitter.com/bcherny/status/1477687874065612802)
-
-## 2021-11-19
-
-> My TSConf talk is finally to YouTube!
-> 
-> Faster, Safer: Compiling Untrusted Code to WebAssembly in the Browser
-> 
-> https://t.co/wxCAl0GzBm
-
-https://x.com/bcherny/status/1461542753129484288 · [archived](https://web.archive.org/web/20211119035218/https://twitter.com/bcherny/status/1461542753129484288)

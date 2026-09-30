@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 2549 (… to 2026-04-17)
-- Read so far: 2549 (100%); text found for 2530; 0 not read yet
+- Archived posts found: 2410 (333 from before November 2010, 2010-11-05 to 2026-04-17)
+- Left out: 139 archived link(s) under this handle that X says another account wrote
+- Read so far: 2410 (100%); text found for 2393; 0 not read yet
 - Possibly deleted: 32
-- Matching the topic filter: 195
+- Matching the topic filter: 161
 
 
-Every post is in `kevinweil.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `kevinweil/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-03-06
 
@@ -49,16 +50,6 @@ https://x.com/kevinweil/status/1993084290163523656 · [archived](https://web.arc
 > Scientific discovery improves everything from the quality of our daily lives to national security to global GDP. Innovation is the reason the US leads the world. Few domains hold as much promise for improving lives as science.
 
 https://x.com/kevinweil/status/1962938977813467434 · [archived](https://web.archive.org/web/20251115114008/https://x.com/kevinweil/status/1962938977813467434)
-
-## 2025-08-13
-
-> Sgt. Maj. Mike Vining: The Man. The Meme. The Army Legend. 
-> 
-> An EOD technician and founding member of multiple elite units, Vining made his mark on Army history early in his career when he helped destroy a weapons cache with over 7 million rounds of ammunition.  
-> 
-> He gained fame https://t.co/x2ikiCdqQl
-
-https://x.com/kevinweil/status/1955509972168773795 · [archived](https://web.archive.org/web/20250814033558/https://x.com/kevinweil/status/1955509972168773795)
 
 ## 2025-08-05
 
@@ -549,17 +540,6 @@ https://x.com/kevinweil/status/1539982126421909504 · [archived](https://web.arc
 
 https://x.com/kevinweil/status/1537989441356124168 · [archived](https://web.archive.org/web/20220618024406/https://twitter.com/kevinweil/status/1537989441356124168)
 
-## 2022-06-04
-
-> Apple going full Russel Conjugation here 
-> 
-> I personalize, you track across apps, they invade your privacy.
-
-Quoting https://x.com/sethmills21/status/1532542043565727744:
-> the audacity....after decimating an entire economy https://t.co/7N4iWAJJhX
-
-https://x.com/kevinweil/status/1533154352197537792 · [archived](https://web.archive.org/web/20220604183147/https://twitter.com/kevinweil/status/1533154352197537792)
-
 ## 2022-06-01 · possibly deleted
 
 > This! ⬇️
@@ -808,39 +788,6 @@ https://x.com/kevinweil/status/1532046433284526080 · [archived](https://web.arc
 
 https://x.com/kevinweil/status/1531666512834338817 · [archived](https://web.archive.org/web/20220531155904/https://twitter.com/kevinweil/status/1531666512834338817)
 
-## 2022-05-18
-
-> Great to be in the @Planet office in Berlin. 
-> 
-> We're hiring fast here, in software, sales &amp; more. Want to join our mission-led team striving to leverage satellite imagery to save the planet? Apply here! https://t.co/fYgTrKSy2Y https://t.co/6NVd4osSM5
-
-https://x.com/kevinweil/status/1526943805454311427 · [archived](https://web.archive.org/web/20220518151300/https://twitter.com/kevinweil/status/1526943805454311427)
-
-## 2022-05-14
-
-> 1/ Lux family co @planet has captured exclusive satellite 🛰images confirming a probable nuclear-powered attack submarine (SSN) in drydock @ shipyard at Huludao Port in northeast China—~ 430km east of Beijing... https://t.co/fxXTSIQhYJ
-
-https://x.com/kevinweil/status/1525286669154254849 · [archived](https://web.archive.org/web/20220514012812/https://twitter.com/kevinweil/status/1525286669154254849)
-
-## 2022-05-14
-
-> Great to visit @NASA &amp; @SenBillNelson. I’m stoked about the amazing science coming from our partnership which gets @planet data to 200k+ researchers. Esp. proud as a child of @nasa!
-> 
-> But we must do more! We talked on moving from science to action on environment goals🌍 @schingler https://t.co/GtB5yaNnGp
-
-https://x.com/kevinweil/status/1525277653401411584 · [archived](https://web.archive.org/web/20220514005213/https://twitter.com/kevinweil/status/1525277653401411584)
-
-## 2022-05-12
-
-> A milestone for humanity! Take a moment to appreciate that we now have an image of an enormous black hole in the middle of our galaxy. The technical difficulty of this observation is hard to comprehend &amp; convey
-> Congrats to the team &amp; let us recognize publicly funded basic science
-
-Quoting https://x.com/ehtelescope/status/1524737908892049408:
-> We finally have the first look at our Milky Way black hole, Sagittarius A*. It’s the dawn of a new era of black hole physics. Credit: EHT Collaboration. #OurBlackHole #SgrABlackHole 
-> Link: https://t.co/Ax7ECRVg8A https://t.co/LRWizSYOy9
-
-https://x.com/kevinweil/status/1524885135216152576 · [archived](https://web.archive.org/web/20220512225220/https://twitter.com/kevinweil/status/1524885135216152576)
-
 ## 2022-04-21
 
 > ICYMI: today we announced a strategic partnership with Moody's to explore how @Planet data can serve as ground truth underlying ESG risk models, and ratings. It's exciting to see huge global firms thinking so strategically about the future of business. https://t.co/ym3qvThSN7
@@ -865,12 +812,6 @@ https://x.com/kevinweil/status/1511552609332703234 · [archived](https://web.arc
 > The earnings release is here: https://t.co/u3aAxGDkWi. We're building real momentum, and hiring pretty much across the board! Come work with us on an inspiring set of problems—you'll feel your impact every single day.
 
 https://x.com/kevinweil/status/1509954937098149895 · [archived](https://web.archive.org/web/20220401180513/https://twitter.com/kevinweil/status/1509954937098149895)
-
-## 2022-03-27
-
-> Came across this great reminder: “If you want your children to turn out well, spend twice the time with them, and half as much money.” Abigail van Buren
-
-https://x.com/kevinweil/status/1508092640801144838 · [archived](https://web.archive.org/web/20220327144514/https://twitter.com/kevinweil/status/1508092640801144838)
 
 ## 2022-03-08
 
@@ -898,30 +839,6 @@ Quoting https://x.com/planet/status/1498659902205480965:
 
 https://x.com/kevinweil/status/1498670320412205067 · [archived](https://web.archive.org/web/20220301144410/https://twitter.com/kevinweil/status/1498670320412205067)
 
-## 2022-02-26
-
-> This is incredible to watch live. New donations to support @Ukraine coming in every ~5 seconds from around the world. 🇺🇦 https://t.co/LUQe3kRrfm
-
-https://x.com/kevinweil/status/1497638325955428353 · [archived](https://web.archive.org/web/20220226182308/https://twitter.com/kevinweil/status/1497638325955428353)
-
-## 2022-02-19
-
-> Fun &amp; important discussion on how @planet &amp; @UNDP can partner to support it’s critical mission 🌍 🇺🇳
-
-Quoting https://x.com/ASteiner/status/1495051887971909639:
-> On the sidelines of #MSC2022, I met w Will Marshall @Will4Planet, CEO &amp; Founder &amp; Robert Cardillo, Chairman of the Board of @planet. Planet operates data for 150+ satellites. We discussed @UNDP+Planet partnership &amp; shared priorities on nature, #climate and the #EnergyTransition. https://t.co/uEeryyw5Ig
-
-https://x.com/kevinweil/status/1495152925588353025 · [archived](https://web.archive.org/web/20220219215159/https://twitter.com/kevinweil/status/1495152925588353025)
-
-## 2022-01-31
-
-> Congrats to my former colleagues and friends, as well as to @silvergatebank. We all gave our whole hearts, blood, sweat and tears to what I will always call Libra. We were mission driven and were in it for the right reasons (that remain as valid today as they were then).
-
-Quoting https://x.com/ccatalini/status/1488271115076370432:
-> 1/13 Four years ago we came together as the founding team of ≋Libra to use crypto to democratize access to the financial system. As the last person from the original ≋ founding team involved in this phase of Diem, here are some personal thoughts and reflections on the journey.
-
-https://x.com/kevinweil/status/1488287404666413060 · [archived](https://web.archive.org/web/20220131231055/https://twitter.com/kevinweil/status/1488287404666413060)
-
 ## 2022-01-26 · reply to @jeff_foust
 
 > @jeff_foust cc @matt_levine
@@ -933,12 +850,6 @@ https://x.com/kevinweil/status/1486485639285460995 · [archived](https://web.arc
 > So you just launched a satellite (or 44)... now what? A great behind the scenes look at @Planet's automated Mission Control systems: https://t.co/LG2YI5UegD
 
 https://x.com/kevinweil/status/1485773186192998401 · [archived](https://web.archive.org/web/20220125004018/https://twitter.com/kevinweil/status/1485773186192998401)
-
-## 2022-01-15
-
-> Announcing American Dynamism at @a16z. We're looking for serious founders who want to build for America. Learn more about our mission, what we stand for and why we’re investing in American Dynamism now. https://t.co/FPNH7wwDni
-
-https://x.com/kevinweil/status/1482224824709570561 · [archived](https://web.archive.org/web/20220115054026/https://twitter.com/kevinweil/status/1482224824709570561)
 
 ## 2022-01-06
 
@@ -967,20 +878,6 @@ https://x.com/kevinweil/status/1476573988482551813 · [archived](https://web.arc
 
 https://x.com/kevinweil/status/1474951728965382147 · [archived](https://web.archive.org/web/20211226035941/https://twitter.com/kevinweil/status/1474951728965382147)
 
-## 2021-12-24
-
-> So satisfying that investors intuitively grasp how $PL partnering with nonprofits like us @JamesMartinCNS/@MIIS demonstrates the company’s value proposition. I am really excited about our role as a partner for companies trying to help people see the value in their data. @planet
-
-https://x.com/kevinweil/status/1474200304912502784 · [archived](https://web.archive.org/web/20211224021348/https://twitter.com/kevinweil/status/1474200304912502784)
-
-## 2021-12-19
-
-> The single best policy for another American Century is to roll out the red carpet for 100 million of the most talented immigrants in the world.
-> 
-> Talent is evenly distributed; it is one of the great own goals of all time that so much of it wants to be the US and we say no.
-
-https://x.com/kevinweil/status/1472631744138412034 · [archived](https://web.archive.org/web/20211219181547/https://twitter.com/kevinweil/status/1472631744138412034)
-
 ## 2021-12-19
 
 > Must read on blockchain regulation from former SEC head Jay Clayton. "The government should actively facilitate the adoption of technology in core U.S. dollar funding and payments markets. This is a matter of national security and financial stability." https://t.co/w2tO8rL8iN
@@ -993,26 +890,11 @@ https://x.com/kevinweil/status/1472587815061897216 · [archived](https://web.arc
 
 https://x.com/kevinweil/status/1470386105803587590 · [archived](https://web.archive.org/web/20211213133759/https://twitter.com/kevinweil/status/1470386105803587590)
 
-## 2021-12-11
-
-> Criticism of space tourism's CO2 emissions getting surprisingly common. I've no view on space tourism's merits per se but seems a baffling angle. Closing Diablo Canyon will likely cause more new CO2 emissions every day than all space tourism flights that have ever happened.
-
-https://x.com/kevinweil/status/1469783150070943744 · [archived](https://web.archive.org/web/20211212001648/https://twitter.com/kevinweil/status/1469783150070943744)
-
 ## 2021-12-09 · reply to @LEGO_Group
 
 > @LEGO_Group @mdb @elizabeth this ad is for you
 
 https://x.com/kevinweil/status/1469022584926834689 · [archived](https://web.archive.org/web/20211209191924/https://twitter.com/kevinweil/status/1469022584926834689)
-
-## 2021-12-09
-
-> If you’re not wildly inspired by the promise of technology right now for the future of civilization &amp; the environment, you’re not looking in the right places. Companies like @planet are going to truly change the world. (congrats @kevinweil + team!)
-
-Quoting https://x.com/planet/status/1468591276136091649:
-> From a garage in Cupertino to a publicly traded company listed on the @NYSE, today marks another monumental step in our journey to democratize access to satellite data to make change more visible, accessible, and actionable. $PL https://t.co/uGfEossdOT
-
-https://x.com/kevinweil/status/1468898026374709250 · [archived](https://web.archive.org/web/20211209110423/https://twitter.com/kevinweil/status/1468898026374709250)
 
 ## 2021-11-29
 
@@ -1055,12 +937,6 @@ https://x.com/kevinweil/status/1460631085960744960 · [archived](https://web.arc
 
 https://x.com/kevinweil/status/1460403736354775043 · [archived](https://web.archive.org/web/20211116003834/https://twitter.com/kevinweil/status/1460403736354775043)
 
-## 2021-11-11
-
-> The planetary scale computer that Planet has built to run geospatial jobs on, including machine learning jobs, is really amazing. Lots of fun kicking off and running things today on this compute fabric.
-
-https://x.com/kevinweil/status/1458794780658319361 · [archived](https://web.archive.org/web/20211111135259/https://twitter.com/kevinweil/status/1458794780658319361)
-
 ## 2021-11-08
 
 > Ground truth matters. We need a common operating picture to solve the problems we face together. 
@@ -1095,32 +971,11 @@ _(text not available)_
 
 https://x.com/kevinweil/status/1451734954576994304 · [archived](https://web.archive.org/web/20211023025045/https://twitter.com/kevinweil/status/1451734954576994304)
 
-## 2021-10-13
-
-> John E. Hyten, Vice Chairman of the Joint Chiefs of Staff, joins Planet Federal's Chairman and Chief Strategist Robert Cardillo for a candid chat on increased innovation, transparency, climate change and making the world a better place. #Explore21
-> https://t.co/sTJTzRPo3I https://t.co/2FkGRHz20g
-
-https://x.com/kevinweil/status/1448317962746744839 · [archived](https://web.archive.org/web/20211013163345/https://twitter.com/kevinweil/status/1448317962746744839)
-
 ## 2021-10-12 · reply to @kevinweil
 
 > We're just getting started—I couldn't be more excited for what's to come. @Planet data is ground truth for the world, whether we're talking defense and security or climate and sustainability. Watch this space.
 
 https://x.com/kevinweil/status/1447958778444402690 · [archived](https://web.archive.org/web/20211012163427/https://twitter.com/kevinweil/status/1447958778444402690)
-
-## 2021-10-12
-
-> Huge thx to @BloombergDotOrg for their generous $25M donation to @CarbonMapper to create the Carbon Mapper Accelerator! We are delighted to have Bloomberg as a core partner while we work to curb carbon and methane emissions &amp; enable the #sustainability revolution. 🌎🛰️
-> 
-> $DMYQ https://t.co/DorOilchfU
-
-https://x.com/kevinweil/status/1447898889676263424 · [archived](https://web.archive.org/web/20211012121640/https://twitter.com/kevinweil/status/1447898889676263424)
-
-## 2021-10-11
-
-> As the world celebrated Steve Jobs’s life last week, I recalled a lesson he taught me. My one meeting with Steve didn’t end well. It’s one of my most painful memories, and a warning to startup CEOs about the danger of taking hype too far. Here’s the story. (1/n)
-
-https://x.com/kevinweil/status/1447684045316497415 · [archived](https://web.archive.org/web/20211011233014/https://twitter.com/kevinweil/status/1447684045316497415)
 
 ## 2021-10-04 · possibly deleted
 
@@ -1133,12 +988,6 @@ https://x.com/kevinweil/status/1444826818352062466 · [archived](https://web.arc
 > A “quantum leap” is the smallest possible jump in energy - it also describes what happened in this room. A tiny epiphany that lead to Planet Labs began here at NASA’s Ames Research Center, with friends incl. Will Marshall, Vincent B, Ben Howard &amp; several other brilliant minds.
 
 https://x.com/kevinweil/status/1444568635368824833 · [archived](https://web.archive.org/web/20211003074314/https://twitter.com/kevinweil/status/1444568635368824833)
-
-## 2021-09-08
-
-> Startups have changed since COVID, so why haven’t board meetings? Time to evolve just like the rest of work! I’m sharing “5 Rules for A+ Remote Board Meetings” in collab with @andrewmcleodIII, CEO of @certn. Sharing our @Scribblevc playbook here: https://t.co/BRX7TWBE9z
-
-https://x.com/kevinweil/status/1435654744752623618 · [archived](https://web.archive.org/web/20210909024420/https://twitter.com/kevinweil/status/1435654744752623618)
 
 ## 2021-08-26
 
@@ -1199,7 +1048,7 @@ https://x.com/kevinweil/status/1412935410280374275 · [archived](https://web.arc
 
 ## 2021-07-07 · possibly deleted
 
-_(text not available)_
+> Big congrats to @planet &amp; @Will4Planet &amp; his team. To me this is a company that defines what ‘ESG’ business should be, truly doing well by doing good. The data they generate is absolutely transformative for biodiversity conservation, ocean &amp; forest monitoring, climate analysis. https://t.co/RBuTNiP4yN
 
 https://x.com/kevinweil/status/1412843474353758208 · [archived](https://web.archive.org/web/20210707183838/https://twitter.com/kevinweil/status/1412843474353758208)
 
@@ -1219,30 +1068,6 @@ https://x.com/kevinweil/status/1412769493739208710 · [archived](https://web.arc
 
 https://x.com/kevinweil/status/1412130944530599945 · [archived](https://web.archive.org/web/20210705192723/https://twitter.com/kevinweil/status/1412130944530599945)
 
-## 2021-07-02
-
-> 1/ Lux family co @planet satellite imagery of—
-> 
-> what appears to be silos for Chinese intercontintenal ballistic missiles (ICBMs)
-> 
-> On top of their ~250-350 nuclear weapons
-> these are decoys OR new DF-41 ICBMS able to carry multiple warheads + reach 9,300mi. away—
-> 
-> —the US mainland. https://t.co/HIrrmSyXRO
-
-https://x.com/kevinweil/status/1411102760204791810 · [archived](https://web.archive.org/web/20210702232152/https://twitter.com/kevinweil/status/1411102760204791810)
-
-## 2021-07-01
-
-> Breaking news: China's building 100+ nuclear missile silos in its desert. In 2020 it was 100+ potential Uighur detention camps, now this.
-> 
-> Great work @ArmsControlWonk @MIIS!
-> 
-> @Planet will continue to help journalists find &amp; shed light on key global events.
-> https://t.co/aKYJeIQvpV https://t.co/SVYbj0KsaN
-
-https://x.com/kevinweil/status/1410460271689158661 · [archived](https://web.archive.org/web/20210701051713/https://twitter.com/kevinweil/status/1410460271689158661)
-
 ## 2021-06-30
 
 > So excited to work with @keating again! We're just getting started at @planet. Come join us in our mission to make global change visible, accessible, and actionable.
@@ -1251,14 +1076,6 @@ Quoting https://x.com/keating/status/1409915936744763392:
 > Excited to share that I will be joining @planet next month as Chief Legal Officer. Planet’s goal of using space to help life on earth, through its constellation of satellites imaging the earth daily, captured my imagination &amp; I can't wait to support this important team &amp; mission.
 
 https://x.com/kevinweil/status/1410316037883514881 · [archived](https://web.archive.org/web/20210630221016/https://twitter.com/kevinweil/status/1410316037883514881)
-
-## 2021-06-22
-
-> My 93 year old father just gave me permission to reveal a Griffin family secret:
-> 
-> You create incredible value without any monetary cost, fiat or otherwise, by being kind to people, being trustworthy, showing  up for causes you believe in and standing up for what's right.
-
-https://x.com/kevinweil/status/1407202639834619923 · [archived](https://web.archive.org/web/20210622195932/https://twitter.com/kevinweil/status/1407202639834619923)
 
 ## 2021-06-07 · reply to @Kemp
 
@@ -1299,19 +1116,6 @@ https://x.com/kevinweil/status/1395157249417375744 · [archived](https://web.arc
 
 https://x.com/kevinweil/status/1387776733672349697 · [archived](https://web.archive.org/web/20210429143231/https://twitter.com/kevinweil/status/1387776733672349697)
 
-## 2021-04-22
-
-> Happy 🌎 Day!  
-> 
-> Folks should watch the first few minutes of this video below -- it makes clear the importance of action, elections, and space. 
-> 
-> We've got big challenges ahead to establish a sustainable trajectory, but we can do it, and the perspective of space will be crucial.
-
-Quoting https://x.com/POTUS46Archive/status/1385202170513997829:
-> Today I’m bringing together leaders from around the world to meet this moment of climate peril, and extraordinary opportunity. No nation can solve this crisis on its own, and this summit is a step on a path to a secure, prosperous, and sustainable future. https://t.co/lcUUsgyEo3
-
-https://x.com/kevinweil/status/1385294928884862980 · [archived](https://web.archive.org/web/20210422181128/https://twitter.com/kevinweil/status/1385294928884862980)
-
 ## 2021-04-15
 
 > Proud to work at @PlanetLabs today. We just announced our third fleet of satellites together with @carbonmapper and @NASAJPL, that will image methane and CO2 emissions globally to track climate change. You can't manage what you don't measure. 
@@ -1331,15 +1135,11 @@ https://x.com/kevinweil/status/1380909565890371600 · [archived](https://web.arc
 
 https://x.com/kevinweil/status/1377823424731488256 · [archived](https://web.archive.org/web/20210402032136/https://twitter.com/kevinweil/status/1377823424731488256)
 
-## 2021-03-23
-
-> This @nytimes Visual Investigation uses ship-tracking data, corporate records, and satellite imagery to uncover one way North Korea evades strict international sanctions. Click here to learn more about their investigation with @C4ADS and @RUSI_org: https://t.co/72RAnsiPKq https://t.co/PlYOwgePCF
-
-https://x.com/kevinweil/status/1374169795994677248 · [archived](https://web.archive.org/web/20210323012323/https://twitter.com/kevinweil/status/1374169795994677248)
-
 ## 2021-03-20 · possibly deleted
 
-_(text not available)_
+> If you want to go fast, go alone
+> If you want to go far, go with others.
+> If you want to go neither fast nor far, go with children.
 
 https://x.com/kevinweil/status/1373372646423891968 · [archived](https://web.archive.org/web/20210320203549/https://twitter.com/kevinweil/status/1373372646423891968)
 
@@ -1385,12 +1185,6 @@ https://x.com/kevinweil/status/1372535693231071235 · [archived](https://web.arc
 
 https://x.com/kevinweil/status/1372535691033206786 · [archived](https://web.archive.org/web/20210318131004/https://twitter.com/kevinweil/status/1372535691033206786)
 
-## 2021-03-14
-
-> Folks, *look* at this chart. That red line that's fallen of a cliff starting around January 10 is 65+ folks hospitalized for COVID. Already, 62.8% of 65+ and 26.6% of *all adults in the US had at least one vaccine dose. (And hospitalization lags infection by about three weeks). https://t.co/SaerMSaWtO
-
-https://x.com/kevinweil/status/1371187410428596225 · [archived](https://web.archive.org/web/20210314195213/https://twitter.com/kevinweil/status/1371187410428596225)
-
 ## 2021-02-10
 
 > Read for exciting hints of new physics, be delighted by ingenious ways of blinding the experimenters to avoid unconscious steering: https://t.co/Zj0iyyrO1l https://t.co/MnJQswskZJ
@@ -1402,17 +1196,6 @@ https://x.com/kevinweil/status/1359540727273803777 · [archived](https://web.arc
 > @CaseyNewton @johnolilly @platformer (in the independent duchy that is @platformer county Nevada)
 
 https://x.com/kevinweil/status/1358149669239459840 · [archived](https://web.archive.org/web/20210206202506/https://twitter.com/kevinweil/status/1358149669239459840)
-
-## 2021-02-04
-
-> "It's like I have a superhero on my board. You can’t run that far, and do that much, unless you’ve got a special power."
-> Truth. 🦸‍♀️🦸👏👊💥
-> Congrats @elizabeth and @AnneliesGamble on the new fund!
-
-Quoting https://x.com/Forbes/status/1357384315718492162:
-> Scribble Ventures, led by Elizabeth Weil and 30 Under 30 alum Annelies Gamble, will invest $250,000 to $500,000 initial checks in early-stage startups https://t.co/AZfbL4Z75X by @alexrkonrad https://t.co/XbFN6bTJ9k
-
-https://x.com/kevinweil/status/1357473795519307776 · [archived](https://web.archive.org/web/20210204233930/https://twitter.com/kevinweil/status/1357473795519307776)
 
 ## 2021-01-29 · reply to @pkedrosky
 
@@ -1431,12 +1214,6 @@ https://x.com/kevinweil/status/1352706250329399296 · [archived](https://web.arc
 _(text not available)_
 
 https://x.com/kevinweil/status/1352301043149754368 · [archived](https://web.archive.org/web/20210121170455/https://twitter.com/kevinweil/status/1352301043149754368)
-
-## 2021-01-10
-
-> Name &amp; honor someone who disagrees with you on matters that are very important to you--and not for agreeing with you on other matters but rather for his or her integrity, honesty, humanity, and because you learn from &amp; are inspired by him or her. I'll start: the great Cornel West
-
-https://x.com/kevinweil/status/1348367498349985795 · [archived](https://web.archive.org/web/20210110225820/https://twitter.com/kevinweil/status/1348367498349985795)
 
 ## 2021-01-08
 
@@ -1517,12 +1294,6 @@ https://x.com/kevinweil/status/1302077102800293888 · [archived](https://web.arc
 
 https://x.com/kevinweil/status/1288308672389505025 · [archived](https://web.archive.org/web/20200729030222/https://twitter.com/kevinweil/status/1288308672389505025)
 
-## 2020-07-13
-
-> Trust science.
-
-https://x.com/kevinweil/status/1282768220470968320 · [archived](https://web.archive.org/web/20200713222300/https://twitter.com/kevinweil/status/1282768220470968320)
-
 ## 2020-06-11 · possibly deleted
 
 _(text not available)_
@@ -1535,25 +1306,11 @@ _(text not available)_
 
 https://x.com/kevinweil/status/1269993935738306560 · [archived](https://web.archive.org/web/20200608142320/https://twitter.com/kevinweil/status/1269993935738306560)
 
-## 2020-06-01
-
-> Jen and I are matching $300,000 in donations to ten different organizations doing important work right now, in addition to $700,000 directly from @RBFound 
-> 
-> Details in her thread:
-
-https://x.com/kevinweil/status/1267275479628668929 · [archived](https://web.archive.org/web/20200601025432/https://twitter.com/kevinweil/status/1267275479628668929)
-
 ## 2020-05-30
 
 > @sarahkunst @btaylor @SpaceX @NASA @elonmusk The last few weeks have been heartbreaking 💔. I am donating. And reaching out to try to help in different ways. And in the midst of all this, it is also true that launching humans into space is an inspiring example of what people can do together.
 
 https://x.com/kevinweil/status/1266824629710028800 · [archived](https://web.archive.org/web/20200530201310/https://twitter.com/kevinweil/status/1266824629710028800)
-
-## 2020-05-30
-
-> In a year defined by a health crisis, an economic crisis, and a social crisis driven by systemic racism, it’s inspiring to see the promise of human ingenuity in the @SpaceX launch. Congratulations on this amazing milestone, @NASA and @elonmusk!
-
-https://x.com/kevinweil/status/1266822395488137216 · [archived](https://web.archive.org/web/20200530200415/https://twitter.com/kevinweil/status/1266822395488137216)
 
 ## 2020-05-28 · possibly deleted
 
@@ -1643,18 +1400,6 @@ https://x.com/kevinweil/status/1247997169061081088 · [archived](https://web.arc
 
 https://x.com/kevinweil/status/1247732149173620738 · [archived](https://web.archive.org/web/20200408034607/https://twitter.com/kevinweil/status/1247732149173620738)
 
-## 2020-03-16
-
-> in an unsettling reversal of my teenage years, I am now yelling at my parents for going out
-
-https://x.com/kevinweil/status/1239395248721158144 · [archived](https://web.archive.org/web/20200316034855/https://twitter.com/kevinweil/status/1239395248721158144)
-
-## 2020-03-12
-
-> This morning the U.S. Senate Judiciary Committee held a hearing on the "EARN IT" Act. While not directly mandating a backdoor, as written, this act would form a commission that could have the power to require services like @WhatsApp to stop offering end-to-end encryption. 1/
-
-https://x.com/kevinweil/status/1237896235085750273 · [archived](https://web.archive.org/web/20200312052404/https://twitter.com/kevinweil/status/1237896235085750273)
-
 ## 2020-02-22 · reply to @posco
 
 > @posco You are responsible for your own future ad targeting and job discovery 😂
@@ -1739,7 +1484,7 @@ https://x.com/kevinweil/status/377459182359678976 · [archived](https://web.arch
 
 https://x.com/kevinweil/status/368030067076521984 · [archived](https://web.archive.org/web/20130821151751/https://twitter.com/kevinweil/status/368030067076521984)
 
-## 2013-07-16
+## 2013-07-16 · reply to @elizabeth
 
 > @elizabeth @adambain @cayley @sippey it's a good thing I took those photos of Adam as we made board slides together. So many photos of Adam.
 
@@ -1769,19 +1514,13 @@ https://x.com/kevinweil/status/141592321094455298 · [archived](https://web.arch
 
 https://x.com/kevinweil/status/140137815009800192 · [archived](https://web.archive.org/web/20111126085438/http://twitter.com/kevinweil/statuses/140137815009800192)
 
-## 2011-11-21
-
-> HEY, LOOK: More People Are Saying Twitter Ads Are Pretty Neat http://t.co/UVvK7Vww via @sai
-
-https://x.com/kevinweil/status/138634943088693248 · [archived](https://web.archive.org/web/20111127195608/http://twitter.com/kevinweil/statuses/138634943088693248)
-
 ## 2011-11-18
 
 > What an awesome ad: race against marathoner Ryan Hall on a 60 foot long screen in the NYC subway. http://t.co/Tyv3Bfxa
 
 https://x.com/kevinweil/status/137399344105136128 · [archived](https://web.archive.org/web/20111201075007/http://twitter.com/kevinweil/status/137399344105136128)
 
-## 2011-11-07
+## 2011-11-07 · reply to @GeoffreyWeg
 
 > @GeoffreyWeg @dannyhertz @elizabeth great to meet you as well!  How did the race go?  And how do you know @dannyhertz?
 
@@ -1793,7 +1532,7 @@ https://x.com/kevinweil/status/133578177141415936 · [archived](https://web.arch
 
 https://x.com/kevinweil/status/132145050489593856 · [archived](https://web.archive.org/web/20111103185739/http://twitter.com/kevinweil/statuses/132145050489593856)
 
-## 2011-11-01
+## 2011-11-01 · reply to @aunder
 
 > @aunder @bradvertising trying to decide whether that's cute or depressing :)
 
@@ -1823,13 +1562,7 @@ https://x.com/kevinweil/status/123880391923875841 · [archived](https://web.arch
 
 https://x.com/kevinweil/status/122121345164259328 · [archived](https://web.archive.org/web/20111203071901/http://twitter.com/kevinweil/status/122121345164259328)
 
-## 2011-09-25
-
-> Best wedding vow ever: "and I promise never to turn off your mobile tweet updates....again". Cc @rsarver @Devon
-
-https://x.com/kevinweil/status/117760824264769536 · [archived](https://web.archive.org/web/20110930161853/http://twitter.com/kevinweil/statuses/117760824264769536)
-
-## 2011-09-24
+## 2011-09-24 · reply to @greenberg
 
 > @greenberg would you consider yourself... a hoarder? cc @chriskelly
 
@@ -1919,7 +1652,7 @@ https://x.com/kevinweil/status/89501628868202496 · [archived](https://web.archi
 
 https://x.com/kevinweil/status/85842189195812864 · [archived](https://web.archive.org/web/20110708225412/https://twitter.com/kevinweil/status/85842189195812864)
 
-## 2011-05-22
+## 2011-05-22 · reply to @dylancasey
 
 > @dylancasey that's the worst. It can't be that hard to catch speeders in cars that are actually endangering people, right?
 
@@ -1949,73 +1682,73 @@ https://x.com/kevinweil/status/41562225932107776 · [archived](https://web.archi
 
 https://x.com/kevinweil/status/25003822875156480 · [archived](https://web.archive.org/web/20110307045249/https://twitter.com/kevinweil/status/25003822875156480)
 
-## 2010-11-04
+## undated
 
 > I love seeing Twitter, Cloudera, and Facebook all work together on open source projects.  @tlipcon and Zheng helping w/ http://bit.ly/4Da3J
 
 https://x.com/kevinweil/status/12724194289 · [archived](https://web.archive.org/web/20200724143203/http://twitter.com/kevinweil/status/12724194289)
 
-## 2010-11-04
+## undated
 
 > YES.  Smart rescheduler now in gcal labs.  So much easier for computers than humans. http://bit.ly/cyqLtU
 
 https://x.com/kevinweil/status/11499436377 · [archived](https://web.archive.org/web/20100407031813/http://twitter.com/kevinweil/statuses/11499436377)
 
-## 2010-11-04
+## undated
 
 > You know you're at a good wedding when the father-daughter dance is "danger zone" from top gun. #impressed
 
 https://x.com/kevinweil/status/7584021222 · [archived](https://web.archive.org/web/20220302011848/https://twitter.com/kevinweil/status/7584021222)
 
-## 2010-11-04
+## undated
 
 > And the prize for the worst race t-shirts ever goes to... the Helen Klein 50-miler!  http://yfrog.com/7cl51j
 
 https://x.com/kevinweil/status/5561066096 · [archived](https://web.archive.org/web/20091110210945/http://twitter.com/kevinweil/statuses/5561066096)
 
-## 2010-11-04
+## undated
 
 > There's a huge "Meg Whitman for Governor" sign in the kids playpen part of the Jelly Belly factory. Is that weird?
 
 https://x.com/kevinweil/status/5514824248 · [archived](https://web.archive.org/web/20091110211253/https://twitter.com/kevinweil/status/5514824248)
 
-## 2010-11-04
+## undated
 
 > Also, it's hard to beat a 2 hour midnight conversation with @emaland somewhere in the mission.
 
 https://x.com/kevinweil/status/5474764918 · [archived](https://web.archive.org/web/20091110211415/https://twitter.com/kevinweil/status/5474764918)
 
-## 2010-11-04
+## undated
 
 > Must-read article on FB eng architecture and scaling challenges. Also: haystack going open source. http://bit.ly/2A2EbG (via @squarecog)
 
 https://x.com/kevinweil/status/5272780365 · [archived](https://web.archive.org/web/20091110191731/http://twitter.com/kevinweil/statuses/5272780365)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/kevinweil/status/4017491673 · [archived](https://web.archive.org/web/20090919020858/https://twitter.com/kevinweil/status/4017491673)
 
-## 2010-11-04
+## undated
 
 > Glad the Stanford Jamba Juice doesn't have a "no shirt, no shoes, no service" policy.
 
 https://x.com/kevinweil/status/3350774082 · [archived](https://web.archive.org/web/20090923135402/https://twitter.com/kevinweil/status/3350774082)
 
-## 2010-11-04
+## undated
 
 > William Shatner does a dramatic reading of Sarah Palin's resignation speech: http://bit.ly/qxfoQ
 
 https://x.com/kevinweil/status/2946816102 · [archived](https://web.archive.org/web/20090801001723/https://twitter.com/kevinweil/status/2946816102)
 
-## 2010-11-04
+## undated
 
 > Neat, @patrickchung just showed me NEA's conference room glass that starts transparent and turns opaque at the touch of a button. Science.
 
 https://x.com/kevinweil/status/2917111706 · [archived](https://web.archive.org/web/20090801001641/https://twitter.com/kevinweil/status/2917111706)
 
-## 2010-11-04
+## undated · reply to @reybango
 
 > @reybango when i have the browser open for a while with a bunch of tabs, javascript grinds the browser to a halt.  .5s pauses every 10s.
 

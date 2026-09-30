@@ -1,23 +1,24 @@
 {
   "account": "elonmusk",
   "actor": "elon-musk",
-  "swept_at": "2026-09-30T00:25:15.097Z",
+  "swept_at": "2026-09-30T03:01:36.581Z",
   "range": {
     "from": null,
     "to": null
   },
-  "profile_name": null,
-  "posts_on_x": null,
-  "archived_listed": null,
-  "known": 0,
-  "read": 0,
-  "with_text": 0,
-  "deleted": 0,
-  "unread": 0,
-  "matched": 0,
-  "oldest": null,
-  "newest": null,
-  "problems": [
-    "wayback: Invalid time value"
-  ]
+  "profile_name": "Elon Musk",
+  "posts_on_x": 109238,
+  "archived_listed": 125314,
+  "known": 121039,
+  "read": 6226,
+  "with_text": 6043,
+  "deleted": 183,
+  "unread": 114813,
+  "matched": 49,
+  "not_theirs": 4275,
+  "undated": 800,
+  "oldest": "2010-11-04",
+  "newest": "2026-09-19",
+  "topics": "openai|open ai|altman|\\bsama\\b|brockman|anthropic|claude|amodei|chatgpt|\\bgpt|nonprofit|non-profit|for-profit|closed.?source|microsoft.*\\bai\\b|superalignment|sutskever|ilya",
+  "problems": []
 }

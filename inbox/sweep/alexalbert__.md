@@ -2,14 +2,15 @@
 
 Swept 2026-09-30.
 
-- Posts on X, including reposts: unknown
-- Archived posts found: 444 (… to 2026-05-19)
-- Read so far: 444 (100%); text found for 395; 0 not read yet
+- Posts on X, including reposts: 2310
+- Archived posts found: 441 (10 from before November 2010, 2010-11-04 to 2026-05-19)
+- Left out: 3 archived link(s) under this handle that X says another account wrote
+- Read so far: 441 (100%); text found for 392; 0 not read yet
 - Possibly deleted: 55
 - Matching the topic filter: 47
 
 
-Every post is in `alexalbert__.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `alexalbert__/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-05-06
 
@@ -2054,55 +2055,55 @@ _(text not available)_
 
 https://x.com/alexalbert__/status/1853900000000 · [archived](https://web.archive.org/web/20260209153324/https://x.com/alexalbert__/status/1853900000000)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/alexalbert__/status/198901234567 · [archived](https://web.archive.org/web/20260205175836/https://x.com/alexalbert__/status/198901234567)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/alexalbert__/status/192456781234 · [archived](https://web.archive.org/web/20260205091741/https://x.com/alexalbert__/status/192456781234)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/alexalbert__/status/189912345678 · [archived](https://web.archive.org/web/20260130214620/https://x.com/alexalbert__/status/189912345678)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/alexalbert__/status/188901234568 · [archived](https://web.archive.org/web/20260211153256/https://x.com/alexalbert__/status/188901234568)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/alexalbert__/status/188901234567 · [archived](https://web.archive.org/web/20260210153713/https://x.com/alexalbert__/status/188901234567)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/alexalbert__/status/164590963569 · [archived](https://web.archive.org/web/20251105085523/https://x.com/alexalbert__/status/164590963569)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/alexalbert__/status/19934567890 · [archived](https://web.archive.org/web/20260206153300/https://x.com/alexalbert__/status/19934567890)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 
 https://x.com/alexalbert__/status/18901234567 · [archived](https://web.archive.org/web/20260213153332/https://x.com/alexalbert__/status/18901234567)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 

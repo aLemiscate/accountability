@@ -2,14 +2,15 @@
 
 Swept 2026-09-30.
 
-- Posts on X, including reposts: 248
-- Archived posts found: 70 (2021-05-03 to 2026-05-11)
-- Read so far: 70 (100%); text found for 70; 0 not read yet
+- Posts on X, including reposts: unknown
+- Archived posts found: 68 (2021-05-03 to 2026-05-11)
+- Left out: 2 archived link(s) under this handle that X says another account wrote
+- Read so far: 68 (100%); text found for 68; 0 not read yet
 - Possibly deleted: 2
-- Matching the topic filter: 15
+- Matching the topic filter: 14
 
 
-Every post is in `johnschulman2.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `johnschulman2/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-03-01
 
@@ -299,16 +300,6 @@ https://x.com/johnschulman2/status/1493051029868331010 · [archived](https://web
 > Strange that "how does the brain implement backprop?"  doesn't get more attention in neurosci. (Some exceptions, e.g. Tim Lillicrap's work). I'm certain that the brain does it: (1) learning with gradients is much faster (2) backprop is the only efficient way to compute gradients
 
 https://x.com/johnschulman2/status/1476994400018329604 · [archived](https://web.archive.org/web/20211231191639/https://twitter.com/johnschulman2/status/1476994400018329604)
-
-## 2021-09-30
-
-> How can we productively work toward creating safe machine learning models?
-> After struggling with this question for the past several years, we have developed a new roadmap for ML safety.
-> 
-> Post: https://t.co/ZbZC59Fhzz
-> Paper: https://t.co/CbLTykA6gP https://t.co/rH4eFnCTye
-
-https://x.com/johnschulman2/status/1443662091861168150 · [archived](https://web.archive.org/web/20210930194044/https://twitter.com/johnschulman2/status/1443662091861168150)
 
 ## 2021-06-27
 

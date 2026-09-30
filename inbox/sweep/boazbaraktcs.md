@@ -3,26 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 4016 (2010-11-04 to 2026-05-18)
-- Read so far: 4016 (100%); text found for 3845; 0 not read yet
+- Archived posts found: 3171 (1 from before November 2010, 2020-04-20 to 2026-05-17)
+- Left out: 845 archived link(s) under this handle that X says another account wrote
+- Read so far: 3171 (100%); text found for 3003; 0 not read yet
 - Possibly deleted: 262
-- Matching the topic filter: 701
+- Matching the topic filter: 537
 
 
-Every post is in `boazbaraktcs.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
-
-## 2026-05-18
-
-> it's old news by now but it's still extremely ugly to me that Elon says this about his very-much-alive child because he's unhappy she's trans
-> 
-> even if you see it as, like, your kid converting to a religion you oppose, they're still your kid
-> 
-> not a dead child, a deadbeat dad.
-
-Quoting https://x.com/elonmusk/status/2056097842993995937:
-> @cb_doge The woke mind virus killed my son
-
-https://x.com/boazbaraktcs/status/2056221803761291679 · [archived](https://web.archive.org/web/20260518195758/https://x.com/boazbaraktcs/status/2056221803761291679)
+Every post is in `boazbaraktcs/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-05-12 · possibly deleted
 
@@ -629,7 +617,7 @@ https://x.com/boazbaraktcs/status/1564569908259725312 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1564429625522020353 · [archived](https://web.archive.org/web/20220830095640/https://twitter.com/boazbaraktcs/status/1564429625522020353)
 
-## 2022-08-28
+## 2022-08-28 · reply to @gershbrain
 
 > @gershbrain @hholdenthorp While I don't expect Science to match this level, the non-profit journal @quantumjournal is a great example of low APCs and transparency of expenses. https://t.co/YGnMKlCvrQ
 
@@ -684,19 +672,19 @@ Quoting https://x.com/beenwrekt/status/1559330424333090817:
 
 https://x.com/boazbaraktcs/status/1559908237314498562 · [archived](https://web.archive.org/web/20220817142350/https://twitter.com/boazbaraktcs/status/1559908237314498562)
 
-## 2022-08-12
+## 2022-08-12 · reply to @boazbaraktcs
 
 > @laurolangosco (b) once you assign a nonzero probability for human extinction, you can use this to justify anything, as in Pascal's wager.
 
 https://x.com/boazbaraktcs/status/1557980236054159361 · [archived](https://web.archive.org/web/20220812064216/https://twitter.com/boazbaraktcs/status/1557980236054159361)
 
-## 2022-08-03
+## 2022-08-03 · reply to @mkilmo
 
 > @mkilmo @matthew_d_green Since you're safe as long you're guaranteed signature was made before time X, can have a  public timestamp server that certifies that a hash was posted to it no later than time X. (And that server can use (a) a very long key now and (b) re-signs past records when the time comes.)
 
 https://x.com/boazbaraktcs/status/1554730601395134464 · [archived](https://web.archive.org/web/20220803103507/https://twitter.com/boazbaraktcs/status/1554730601395134464)
 
-## 2022-08-02
+## 2022-08-02 · reply to @ciphergoth
 
 > @ciphergoth I think the Democratic Party should be a "big tent" party. So if Meijer wanted to cross party lines then (based on my limited knowledge) the Democrats should welcome him. But if he doesn't then Democrats are in the business of winning elections. https://t.co/6E3xvD8i4f
 
@@ -1034,20 +1022,6 @@ https://x.com/boazbaraktcs/status/1539292077154082821 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1538605270334586881 · [archived](https://web.archive.org/web/20220619193142/https://twitter.com/boazbaraktcs/status/1538605270334586881)
 
-## 2022-06-17
-
-> Stanford made an important update to its admissions site this week (before/after photos attached). First, they state statistics is welcome as *additional* math prep (i.e. additional, and not as a HS math replacement). Second, they removed data science. https://t.co/OczJ9Kk2x1 https://t.co/7Q4JuXVtqT
-
-https://x.com/boazbaraktcs/status/1537872813675098113 · [archived](https://web.archive.org/web/20220617190120/https://twitter.com/boazbaraktcs/status/1537872813675098113)
-
-## 2022-06-14
-
-> A portrayal of Dan Spielman in @QuantaMagazine, who solves very hard problems by failing to solve many more very hard problems: "I do get frustrated, but it doesn’t really stop me."
-> 
-> The Computer Scientist Who Parlays Failures Into Breakthroughs https://t.co/vIddzCtuyW
-
-https://x.com/boazbaraktcs/status/1536734883615125505 · [archived](https://web.archive.org/web/20220614153930/https://twitter.com/boazbaraktcs/status/1536734883615125505)
-
 ## 2022-06-13 · reply to @ylecun
 
 > @ylecun @tdietterich "Sentience" and "consciousness" are not well defined and ML folks would do well to stay away from either of those terms. 
@@ -1056,7 +1030,7 @@ https://x.com/boazbaraktcs/status/1536734883615125505 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1536358166245556230 · [archived](https://web.archive.org/web/20220613144240/https://twitter.com/boazbaraktcs/status/1536358166245556230)
 
-## 2022-06-13
+## 2022-06-13 · reply to @MarkSchultzWu
 
 > @Mark_Schultz @ccanonne_ @rrwilliams These blog posts of Aaronson are a good start:
 > https://t.co/pY6hj7fAZR
@@ -1066,12 +1040,6 @@ https://x.com/boazbaraktcs/status/1536358166245556230 · [archived](https://web.
 > Not an expert but think this is about using complexity of quantum states to build "dictionary" of the aDS/CFT correspondence that is a current approach for a quantum gravity theory.
 
 https://x.com/boazbaraktcs/status/1536161746448224257 · [archived](https://web.archive.org/web/20220613014132/https://twitter.com/boazbaraktcs/status/1536161746448224257)
-
-## 2022-06-11
-
-> Computer scientists recently figured out a near-optimal way to go with the flow. https://t.co/VckPNs92b8 https://t.co/D0pn0FfgdO
-
-https://x.com/boazbaraktcs/status/1535664451722027008 · [archived](https://web.archive.org/web/20220611164551/https://twitter.com/boazbaraktcs/status/1535664451722027008)
 
 ## 2022-06-10
 
@@ -1109,7 +1077,7 @@ https://x.com/boazbaraktcs/status/1534721693029216256 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1534671507359576064 · [archived](https://web.archive.org/web/20220608230226/https://twitter.com/boazbaraktcs/status/1534671507359576064)
 
-## 2022-06-08
+## 2022-06-08 · reply to @KaizerSozey
 
 > @KaizerSozey @laurolangosco The about is not about an AI but is an argument that humans could do it. 
 > 
@@ -1123,13 +1091,13 @@ https://x.com/boazbaraktcs/status/1534635420503646208 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1534626926853500929 · [archived](https://web.archive.org/web/20220608200309/https://twitter.com/boazbaraktcs/status/1534626926853500929)
 
-## 2022-06-08
+## 2022-06-08 · reply to @boazbaraktcs
 
 > @Ted4P I did write some applications of NP=P here https://t.co/i57y7hJEGt but none of them were "overnight". All require combinations of the algorithm with processes in the physical world that are always slower and messier. Time from proof of concept to deployment is always long.
 
 https://x.com/boazbaraktcs/status/1534623903632437248 · [archived](https://web.archive.org/web/20220608195116/https://twitter.com/boazbaraktcs/status/1534623903632437248)
 
-## 2022-06-08
+## 2022-06-08 · reply to @mahdi_tcs_
 
 > @mahdi_tcs Thanks! Out of these 4 combination, I only use partial selection and copy rather than save so changed it so that ⌘+⇧+4 does it.
 
@@ -1193,7 +1161,7 @@ https://x.com/boazbaraktcs/status/1531102524907962370 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1531102523091828739 · [archived](https://web.archive.org/web/20220530023828/https://twitter.com/boazbaraktcs/status/1531102523091828739)
 
-## 2022-05-28
+## 2022-05-28 · reply to @boazbaraktcs
 
 > 11/11 Many other great talks, but have to board my plane now :)
 
@@ -1454,21 +1422,6 @@ https://x.com/boazbaraktcs/status/1530427666532286464 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1529254858049691649 · [archived](https://web.archive.org/web/20220525001559/https://twitter.com/boazbaraktcs/status/1529254858049691649)
 
-## 2022-05-25
-
-> Aren’t you slated to headline a speaking gig for the NRA in three days - in Houston, no less?
-> 
-> You can do more than pray. Faith without works is dead.
-
-Quoting https://x.com/tedcruz/status/1529190433091461123:
-> Heidi &amp; I are fervently lifting up in prayer the children and families in the horrific shooting in Uvalde.
-> 
-> We are in close contact with local officials, but the precise details are still unfolding.
-> 
-> Thank you to heroic law enforcement &amp; first responders for acting so swiftly.
-
-https://x.com/boazbaraktcs/status/1529252547470495744 · [archived](https://web.archive.org/web/20220525000758/https://twitter.com/boazbaraktcs/status/1529252547470495744)
-
 ## 2022-05-24
 
 > Such great news! Noga Alon in particular has been a bridge between computer science and mathematics, with many seminal contributions to both. 
@@ -1480,7 +1433,7 @@ Quoting https://x.com/ShawPrize/status/1528997978853236737:
 
 https://x.com/boazbaraktcs/status/1529147548102975488 · [archived](https://web.archive.org/web/20220524170944/https://twitter.com/boazbaraktcs/status/1529147548102975488)
 
-## 2022-05-24
+## 2022-05-24 · reply to @boazbaraktcs
 
 > @wtgowers @whybansal @PreetumNakkiran That might be independent of objective and (ambitiously) architecture, and only depend on the type of data, so that all good classifiers will have to learn them. (I like to call this "Anna Karenina principle"). 
 > 
@@ -1488,7 +1441,7 @@ https://x.com/boazbaraktcs/status/1529147548102975488 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1529143877382422529 · [archived](https://web.archive.org/web/20220524165701/https://twitter.com/boazbaraktcs/status/1529143877382422529)
 
-## 2022-05-24
+## 2022-05-24 · reply to @JMannhart
 
 > @JMannhart @lettersndigits These thought experiments are exactly the kind I try to avoid. Yes, if I could go back to 1900 I would say that it is better if we learn to resolve conflict without war, and don't encourage hatred of minorities. But these are things you could say (and people did say) at the time
 
@@ -1500,19 +1453,19 @@ https://x.com/boazbaraktcs/status/1529079421998620674 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1528826159915421701 · [archived](https://web.archive.org/web/20220523195226/https://twitter.com/boazbaraktcs/status/1528826159915421701)
 
-## 2022-05-23
+## 2022-05-23 · reply to @boazbaraktcs
 
 > @ciphergoth At least in campaigns we have a measure - amount of ad buy - which we can actually measure and we know is at least correlated with success.
 
 https://x.com/boazbaraktcs/status/1528807707657969664 · [archived](https://web.archive.org/web/20220523184421/https://twitter.com/boazbaraktcs/status/1528807707657969664)
 
-## 2022-05-23
+## 2022-05-23 · reply to @boazbaraktcs
 
 > @ciphergoth Talking about estimates of probabilities up to fraction of percent point is misleading, which is why most predictors will quantize predictions up to level of race "leans Republican" etc.
 
 https://x.com/boazbaraktcs/status/1528807211266240513 · [archived](https://web.archive.org/web/20220523183716/https://twitter.com/boazbaraktcs/status/1528807211266240513)
 
-## 2022-05-23
+## 2022-05-23 · reply to @ciphergoth
 
 > @ciphergoth Since there have been many elections in the past, we can make some guesstimates on influence of $ on probability, but they will be very rough. It would be dangerous to trust them too much to drive policy. (Indeed, I am not sure to what extent campaigns do.)
 
@@ -1588,7 +1541,7 @@ https://x.com/boazbaraktcs/status/1526269227585286145 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1526269146710781953 · [archived](https://web.archive.org/web/20220516183224/https://twitter.com/boazbaraktcs/status/1526269146710781953)
 
-## 2022-05-16
+## 2022-05-16 · reply to @boazbaraktcs
 
 > The high-level point is one that I made before, and one that also comes through in Conrad's analysis. The CMF is an unserious document, and the children of California deserve better.
 > 
@@ -1604,29 +1557,13 @@ https://x.com/boazbaraktcs/status/1526196676712534016 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1525940479950434304 · [archived](https://web.archive.org/web/20220515204550/https://twitter.com/boazbaraktcs/status/1525940479950434304)
 
-## 2022-05-13
+## 2022-05-13 · reply to @math_rachel
 
 > @math_rachel @timnitGebru Thank you for writing this. With debates on math ed, it's important to emphasize: rejecting misguided reforms (that will have negative impact on equity) is not the same as saying that no change is needed.  
 > 
 > Initiatives by ppl such as @adrian_mims &amp; @minilek  are showing the way.
 
 https://x.com/boazbaraktcs/status/1525099080883621889 · [archived](https://web.archive.org/web/20220513130411/https://twitter.com/boazbaraktcs/status/1525099080883621889)
-
-## 2022-05-12
-
-> Last week, I submitted a comment to the California State Board of Education, objecting to the proposed revision to California Math Framework:
-> https://t.co/srlJVmwRoJ
-> 
-> Still time to submit you own (deadline 5/16)
-> 
-> Some tips on how to submit &amp; my reasons for submitting: 🧵👇 https://t.co/rkY2JtkuKE
-
-Quoting https://x.com/Cal_Engineer/status/1524764363952992256:
-> Dean Tsu-Jae King Liu and Associate Provost Jennifer Chayes, wrote in an @latimes  op-ed that a proposal to change California’s K-12 math framework will leave students unprepared for STEM in college, https://t.co/CcaSnwfHwj.
-> 
-> @SBECalifornia #MathFramework
-
-https://x.com/boazbaraktcs/status/1524858801697894400 · [archived](https://web.archive.org/web/20220512210930/https://twitter.com/boazbaraktcs/status/1524858801697894400)
 
 ## 2022-05-12
 
@@ -1641,20 +1578,11 @@ Quoting https://x.com/Cal_Engineer/status/1524764363952992256:
 
 https://x.com/boazbaraktcs/status/1524796557148577803 · [archived](https://web.archive.org/web/20220512170110/https://twitter.com/boazbaraktcs/status/1524796557148577803)
 
-## 2022-05-11
+## 2022-05-11 · reply to @njwfish
 
 > @njwfish @thegautamkamath Teaching calculus is already often the first step on arrival. AFAIK almost no US university (except perhaps Caltech) requires calculus for admission, and all offer both pre-calculus and calculus. I don't think anyone is saying that all HS students should take calculus.
 
 https://x.com/boazbaraktcs/status/1524506235667578880 · [archived](https://web.archive.org/web/20220511214736/https://twitter.com/boazbaraktcs/status/1524506235667578880)
-
-## 2022-05-11
-
-> One of my favourite community programs we manage at @MSFTResearch has launched🚀 &amp;  this year (new!) we will be awarding fellowships to those studying and conducting research at the intersection of race and technology (check the Canada and US tab for info). @nancybaym @cmcilwain
-
-Quoting https://x.com/MSFTResearch/status/1524049465195339777:
-> We’re now accepting nominations and proposals for the Microsoft Research PhD fellowship across Asia, Canada, United States, Europe, Middle East, Africa, Latin America, Australia, and New Zealand. Deadline: June 7, 2022. Check our program page for details: https://t.co/Lasp0DSfiz
-
-https://x.com/boazbaraktcs/status/1524388417328451584 · [archived](https://web.archive.org/web/20220511135928/https://twitter.com/boazbaraktcs/status/1524388417328451584)
 
 ## 2022-05-11 · possibly deleted
 
@@ -1669,22 +1597,13 @@ https://x.com/boazbaraktcs/status/1524386840828030976 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1524381574208184320 · [archived](https://web.archive.org/web/20220511133215/https://twitter.com/boazbaraktcs/status/1524381574208184320)
 
-## 2022-05-09
-
-> Thank you to the @PulitzerPrizes committee for this incredible honor. Congratulations to @nattyover -- IMO there's not another science journalist more deserving of a Pulitzer in explanatory reporting than Natalie, who has been a big part of @QuantaMagazine since the beginning.
-
-Quoting https://x.com/PulitzerPrizes/status/1523741167724404736:
-> Congratulations to @QuantaMagazine and @nattyover. #Pulitzer https://t.co/jxLIuug0hm
-
-https://x.com/boazbaraktcs/status/1523769692170588160 · [archived](https://web.archive.org/web/20220509210034/https://twitter.com/boazbaraktcs/status/1523769692170588160)
-
 ## 2022-05-09 · reply to @boazbaraktcs
 
 > @mpershan @cheesemonkeysf @andrewprock My main problem with "data science pathway" is that you're not being honest with students, parents, and policy makers. If you want to teach less math, say you're teaching less math. Don't try to sell it that somehow less is more and is actually better prep for Silicon Valley jobs
 
 https://x.com/boazbaraktcs/status/1523708012820516864 · [archived](https://web.archive.org/web/20220509165510/https://twitter.com/boazbaraktcs/status/1523708012820516864)
 
-## 2022-05-09
+## 2022-05-09 · reply to @mpershan
 
 > @mpershan @cheesemonkeysf @andrewprock I think the reality is that students take the same Algebra II course as everyone else, and then fail it. Is it common to offer a slower curriculum that spreads Algebra 1 - Geometry - Algebra 2 over 4 years of high school?
 
@@ -1724,20 +1643,7 @@ Quoting https://x.com/minilek/status/1523404848481271809:
 
 https://x.com/boazbaraktcs/status/1523407512438861824 · [archived](https://web.archive.org/web/20220508210042/https://twitter.com/boazbaraktcs/status/1523407512438861824)
 
-## 2022-05-08
-
-> The irony, that the CMF author and "diversity champion" who emailed @laurenepowell (Steve Jobs' widow) that the opposition "clearly do not want" diverse students to learn math is the same person who then tried to weaponize police to intimidate a black pro-equity scientist (me).
-
-Quoting https://x.com/cheesemonkeysf/status/1523077039162486785:
-> 1 - First up, Jo Boaler tries, IMO, to work around the CMF process by asking a celebrity funder to intervene on her behalf with Gov Newsom.
-> 
-> She views the STEM community as a nuisance. 2/
-> 
->           https://t.co/7zpuWFc4VJ
-
-https://x.com/boazbaraktcs/status/1523406196950323202 · [archived](https://web.archive.org/web/20220508205547/https://twitter.com/boazbaraktcs/status/1523406196950323202)
-
-## 2022-05-08
+## 2022-05-08 · reply to @mathillustrated
 
 > @mathillustrated There is room for discussion on these topics, but such conversation is predicated on transparency and honesty towards both students and faculty.
 > 
@@ -1745,7 +1651,7 @@ https://x.com/boazbaraktcs/status/1523406196950323202 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1523290907126247425 · [archived](https://web.archive.org/web/20220508131736/https://twitter.com/boazbaraktcs/status/1523290907126247425)
 
-## 2022-05-08
+## 2022-05-08 · reply to @mathillustrated
 
 > @mathillustrated It’s one thing (and reasonable) to argue against using calculus as a tool for admissions into fields that don’t need it.
 > 
@@ -1780,7 +1686,7 @@ Quoting https://x.com/boazbaraktcs/status/1522190326873661440:
 
 https://x.com/boazbaraktcs/status/1522207204379705344 · [archived](https://web.archive.org/web/20220505133130/https://twitter.com/boazbaraktcs/status/1522207204379705344)
 
-## 2022-05-02
+## 2022-05-02 · reply to @boazbaraktcs
 
 > 7/8 No justifications are given for any of those statements. See Conrad's full document https://t.co/XRq7qcragS for more, including debunking the myth that current math standards are all based on a calculus-crazed committee from 1892.
 
@@ -1792,35 +1698,22 @@ https://x.com/boazbaraktcs/status/1521212830770659328 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1521212828643901442 · [archived](https://web.archive.org/web/20220502194000/https://twitter.com/boazbaraktcs/status/1521212828643901442)
 
-## 2022-05-02
+## 2022-05-02 · reply to @boazbaraktcs
 
 > 2/8 CMF claims proposals are based on neuroscience. For example, they say that when students see "numbers as visual objects, brain communication was enhanced". Actual paper was (1) about adults (2) didn't do brain imaging (3) focused on approximating numbers
 
 https://x.com/boazbaraktcs/status/1521212825976414208 · [archived](https://web.archive.org/web/20220502194021/https://twitter.com/boazbaraktcs/status/1521212825976414208)
 
-## 2022-05-02
-
-> This morning on Smile Jamaica TVJ. Very excited to run @jamcoders this summer with @UWImona and @ChronixxMusic
-> 
-> Applications open for Jamaican 3rd-5th formers until May 14, https://t.co/T3AJ5y4sOw. 100% free, room+board provided. No prior computer science experience needed. https://t.co/vxfj2cueTy
-
-https://x.com/boazbaraktcs/status/1521199388680499200 · [archived](https://web.archive.org/web/20220502184718/https://twitter.com/boazbaraktcs/status/1521199388680499200)
-
-## 2022-04-26 · reply to @minilek
-
-> I'd also like to point out an observation shared on Scott Aaronson's blog https://t.co/gloU3a3Ht0, to share concerns with the State Board of Education via Section 18533 of the California  Education Code, with instructions on his blog post (involving snail mail by Friday May 6).
-
-https://x.com/boazbaraktcs/status/1519028059663323136 · [archived](https://web.archive.org/web/20220426185838/https://twitter.com/boazbaraktcs/status/1519028059663323136)
-
 ## 2022-04-26 · possibly deleted
 
-_(text not available)_
+> @GavinNewsom @Scott_Wiener @TonyThurmond
+> I BEG you to please work to scrap the Draft California Math Framework. We need our kids to learn the basic life skills of math. We need to educate future STEM professionals. We need to teach problem-solving, not "guessing." PLEASE. https://t.co/q9BChcI95J
 
 https://x.com/boazbaraktcs/status/1519027728665616384 · [archived](https://web.archive.org/web/20220426190149/https://twitter.com/boazbaraktcs/status/1519027728665616384)
 
 ## 2022-04-14 · possibly deleted
 
-> As policymakers work to address #TeacherShortages, compensation is a critical influence on recruitment &amp; retention. This @LPI_Learning analysis shows three key teacher wage indicators for the nation and each state. https://t.co/mWiC43WBb8
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1514753645455237123 · [archived](https://web.archive.org/web/20220414235332/https://twitter.com/boazbaraktcs/status/1514753645455237123)
 
@@ -1839,13 +1732,7 @@ Quoting https://x.com/jinayoon_/status/1514658265564520485:
 
 https://x.com/boazbaraktcs/status/1514753410154835973 · [archived](https://web.archive.org/web/20220414235233/https://twitter.com/boazbaraktcs/status/1514753410154835973)
 
-## 2022-04-12 · reply to @PedroANoguera
-
-> @PedroANoguera @joboaler I respectfully disagree. If solely modifying math curriculum standards was the solution we wouldn't have this problem. You can't change k-12 without changing what higher ed requires for admission. How about focusing time and money on training math teachers and pay them well.
-
-https://x.com/boazbaraktcs/status/1513924211512799241 · [archived](https://web.archive.org/web/20220412165812/https://twitter.com/boazbaraktcs/status/1513924211512799241)
-
-## 2022-04-12
+## 2022-04-12 · reply to @alon_levy
 
 > @alon_levy @mattyglesias Usually this "scientific discoveries down" argument starts by taking graphs like Moore's law that just shoot up, and then make it seem like it's going down by dividing by various factors (e.g. # of researchers, # people) or taking its second derivative. https://t.co/23lwaTuo6x
 
@@ -1860,39 +1747,7 @@ Quoting https://x.com/BooleanAnalysis/status/1512251304323682308:
 
 https://x.com/boazbaraktcs/status/1512433699463200769 · [archived](https://web.archive.org/web/20220408141531/https://twitter.com/boazbaraktcs/status/1512433699463200769)
 
-## 2022-04-07
-
-> This devastating report from @amnesty and @hrw documents what many of us have suspected for over a year: crimes against humanity in Tigray. 
-> 
-> All of the perpetrators must be held to account. And it's past time to give TPS and refugee status for the civilians fleeing this war.
-
-Quoting https://x.com/amnesty/status/1511691114624954369:
-> Today @amnesty and @hrw published "We Will Erase You From This Land," a report about ethnic cleansing, crimes against humanity, &amp; war crimes in Ethiopia's Western #Tigray Zone.
-> 
-> Thread on what defines ethnic cleansing and why the term applies 👇 https://t.co/L9TYHoJxR2
-
-https://x.com/boazbaraktcs/status/1512043552355889169 · [archived](https://web.archive.org/web/20220407122502/https://twitter.com/boazbaraktcs/status/1512043552355889169)
-
-## 2022-04-07 · reply to @timnitGebru
-
-> I didn't even know about this CA K to 12 math debate and still don't know the details, except for this incident. But someone doing this cannot seriously convince me that she's concerned about the well being of Black students and equity?
-
-https://x.com/boazbaraktcs/status/1511869618889109513 · [archived](https://web.archive.org/web/20220407005333/https://twitter.com/boazbaraktcs/status/1511869618889109513)
-
-## 2022-04-07
-
-> So @joboaler's response to this comment was to immediately block me?
-> 
-> But her expertise is in equity and especially making sure that Black students are treated equitably am I getting that right?
-
-Quoting https://x.com/timnitGebru/status/1511864429905731584:
-> @joboaler @jilltucker I am sorry for all the issues you faced but that is absolutely no excuse to threaten a Black professor with the police and then gaslight him. 
-> 
-> The email is there for all of us to see. I'm definitely going to be writing to @Stanford leadership.
-
-https://x.com/boazbaraktcs/status/1511869550953910275 · [archived](https://web.archive.org/web/20220407005809/https://twitter.com/boazbaraktcs/status/1511869550953910275)
-
-## 2022-04-07
+## 2022-04-07 · reply to @jilltucker
 
 > @jilltucker @mayak46 @BethKellySF @minilek @cheesemonkeysf @jilltucker your response above is also part of a thread that links back to the same contract
 
@@ -1975,30 +1830,17 @@ https://x.com/boazbaraktcs/status/1511366075035922439 · [archived](https://web.
 
 ## 2022-04-04 · possibly deleted
 
-> Quantum Colloquium, 4/6
-> 11 a.m. PDT
-> Boaz Barak (Harvard), "On the Limits for Certifying Quantum Speedups for Noisy Circuits"
-> 12 p.m. PDT
-> Panel: S. Boixo, S. Choi, W. Fefferman, U. Vazirani
-> Event info: https://t.co/yuolqII7mv
-> Public Zoom link: https://t.co/2OTyvot17Q
-> Join us! https://t.co/35Uizsvs3q
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1511060274140180480 · [archived](https://web.archive.org/web/20220404191716/https://twitter.com/boazbaraktcs/status/1511060274140180480)
 
-## 2022-04-01
+## 2022-04-01 · reply to @minilek
 
 > @minilek You see, that’s why we can’t trust you on which courses lead to high paying jobs 😀
 
 https://x.com/boazbaraktcs/status/1509682013082632194 · [archived](https://web.archive.org/web/20220401000046/https://twitter.com/boazbaraktcs/status/1509682013082632194)
 
-## 2022-03-28
-
-> MIT reinstating standardized test requirement for applications. Not having SATs/ACT scores to consider tends to raise socioeconomic barriers and using tests like the SAT improves diversity in admissions:  https://t.co/j5Zv99WMxD
-
-https://x.com/boazbaraktcs/status/1508526555042963458 · [archived](https://web.archive.org/web/20220328192956/https://twitter.com/boazbaraktcs/status/1508526555042963458)
-
-## 2022-03-24
+## 2022-03-24 · reply to @matvelloso
 
 > @matvelloso You child might enjoy this https://t.co/DSTRcKILh4
 
@@ -2036,32 +1878,7 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1505993943493849102 · [archived](https://web.archive.org/web/20220321194545/https://twitter.com/boazbaraktcs/status/1505993943493849102)
 
-## 2022-03-21 · reply to @minilek
-
-> @Edu_Historian @BisforBerkshire half the authors of the CMF revision opposition letter https://t.co/5XmTuD9ho0 are Black. 3/4 of us founded or sit on boards of nonprofits aimed at math education for Black children. You've unfortunately failed to understand the opposition.
-
-https://x.com/boazbaraktcs/status/1505962945720819713 · [archived](https://web.archive.org/web/20220321174524/https://twitter.com/boazbaraktcs/status/1505962945720819713)
-
-## 2022-03-21
-
-> https://t.co/alQQj5FJpF 
-> 
-> "any attempt to make our education system fairer is met with fierce resistance from affluent liberals worried that Democratic reforms might threaten their carefully laid plans to help their children get ahead."
-> 
-> @nytimes essay gets it terribly wrong
-
-https://x.com/boazbaraktcs/status/1505962871750115336 · [archived](https://web.archive.org/web/20220321174158/https://twitter.com/boazbaraktcs/status/1505962871750115336)
-
-## 2022-03-21 · reply to @nytopinion
-
-> @nytopinion @AnthonyCody @BisforBerkshire @Edu_Historian A big part of this is being clear &amp; accurate. Our objection to the CA Math Framework isn't that we don't want equity but rather that the so-called research behind the framework is FLAWED &amp; MISLEADING, which harms Black &amp; brown children.
-> 
-> Read our report:
-> https://t.co/q5maHNG9lW
-
-https://x.com/boazbaraktcs/status/1505961952744464384 · [archived](https://web.archive.org/web/20220321173858/https://twitter.com/boazbaraktcs/status/1505961952744464384)
-
-## 2022-03-20
+## 2022-03-20 · reply to @boazbaraktcs
 
 > All that said, I am actually in support of most colleges using standardized tests such as SAT as part of the input for admissions. Again, I think Harvard will be fine regardless: we have the resources to read applications fully with or without this input. But other colleges can't
 
@@ -2087,39 +1904,11 @@ https://x.com/boazbaraktcs/status/1505627258127470593 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1505627253043970051 · [archived](https://web.archive.org/web/20220320192847/https://twitter.com/boazbaraktcs/status/1505627253043970051)
 
-## 2022-03-18
-
-> How might we use algorithms to strengthen democracy? In the latest #TorontoSRI Seminar, @ArielProcaccia explores his recent work on designing randomized selection algorithms to create citizens’ assemblies.
-> 
-> 📺 Watch it here: https://t.co/CGkdakLgJL
-
-https://x.com/boazbaraktcs/status/1504824016502239233 · [archived](https://web.archive.org/web/20220318141643/https://twitter.com/boazbaraktcs/status/1504824016502239233)
-
-## 2022-03-17 · reply to @ebruenig
-
-> @ebruenig For real, not everything is about your pet issue. This war in which children are being killed is not about your pet issue.
-
-https://x.com/boazbaraktcs/status/1504287058793312256 · [archived](https://web.archive.org/web/20220317024332/https://twitter.com/boazbaraktcs/status/1504287058793312256)
-
 ## 2022-03-15 · possibly deleted
 
 _(text not available)_
 
 https://x.com/boazbaraktcs/status/1503706180648058894 · [archived](https://web.archive.org/web/20220315121447/https://twitter.com/boazbaraktcs/status/1503706180648058894)
-
-## 2022-03-14
-
-> Submission instructions are now out: https://t.co/eXNms8cdLC
-> 
-> Note: FOCS 2022 will have a light rebuttal phase:
-
-https://x.com/boazbaraktcs/status/1503508293712547843 · [archived](https://web.archive.org/web/20220314230828/https://twitter.com/boazbaraktcs/status/1503508293712547843)
-
-## 2022-03-14 · reply to @jasonfurman
-
-> Me on 1/13 in @WSJopinion writing about 4 ways there could be more upward inflation pressure in 2022 than in 2021. China COVID spread was on the list (along with US COVID reduction which I continue to believe will be inflationary, but with less certainty). https://t.co/7Hml87NxUn https://t.co/oIxlCUEIau
-
-https://x.com/boazbaraktcs/status/1503368612802748418 · [archived](https://web.archive.org/web/20220314140004/https://twitter.com/boazbaraktcs/status/1503368612802748418)
 
 ## 2022-03-13 · possibly deleted
 
@@ -2139,7 +1928,7 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1501191324225224706 · [archived](https://web.archive.org/web/20220308134147/https://twitter.com/boazbaraktcs/status/1501191324225224706)
 
-## 2022-03-07
+## 2022-03-07 · reply to @boazbaraktcs
 
 > Appreciate the thoughtfulness behind the policy. We sometimes forget that high-quality masks are first and foremost designed to protect the wearer, and indeed do so when worn correctly. https://t.co/Ote5JM5rVh
 
@@ -2162,24 +1951,7 @@ https://x.com/boazbaraktcs/status/1500852194823835651 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1500504459952197640 · [archived](https://web.archive.org/web/20220306161223/https://twitter.com/boazbaraktcs/status/1500504459952197640)
 
-## 2022-03-03
-
-> My friends have created Notion-Wiki for international students (anyone, but mostly students) to stay safe in Ukraine or leave Ukraine safe. We are also working on providing contacts for those, who face any discrimination.
-> https://t.co/TQa4vTNPJ2
-> Please, share it.
-
-https://x.com/boazbaraktcs/status/1499443450193727493 · [archived](https://web.archive.org/web/20220303175607/https://twitter.com/boazbaraktcs/status/1499443450193727493)
-
-## 2022-03-03
-
-> Judge Brown Jackson graduated Magna Cum Laude from Harvard, Cum Laude from Harvard Law, &amp; was the editor of the Harvard Law review. She is the real deal. I’ve never heard “Tie Too Tight” ask about lsat scores for other nominees, but typical of those who feel a bit “inadequate.”
-
-Quoting https://x.com/Acyn/status/1499191856948662272:
-> Tucker: It might be time for Joe Biden to let us know Ketanji Brown Jackson’s LSAT score was. Why wouldn’t he tell us that… https://t.co/boPHU5PnMd
-
-https://x.com/boazbaraktcs/status/1499433369901273090 · [archived](https://web.archive.org/web/20220303171627/https://twitter.com/boazbaraktcs/status/1499433369901273090)
-
-## 2022-03-03
+## 2022-03-03 · reply to @mbeisen
 
 > @mbeisen Note that sanctions are targeted at a very specific list of institutions. Yes, a scientific journal shouldn't pay a Russian author through a sanctioned bank, but that doesn't mean rejecting their submission.
 
@@ -2199,7 +1971,7 @@ https://x.com/boazbaraktcs/status/1499382302220054536 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1499147349888626691 · [archived](https://web.archive.org/web/20220302222410/https://twitter.com/boazbaraktcs/status/1499147349888626691)
 
-## 2022-02-23
+## 2022-02-23 · reply to @boazbaraktcs
 
 > 9/9 Finally, this is just an initial investigation. We think there are many more insights to be extracted, and invite you to play around with our webapp https://t.co/ctfH0Yl4oD . Upload your own images, and see how models' view of them evolves.
 
@@ -2216,12 +1988,6 @@ https://x.com/boazbaraktcs/status/1496619940044021763 · [archived](https://web.
 > 3/9 That is, we consider a collection of models parameterized by increasing resources such as compute (in this work) or data. Generally more resources = better *global* accuracy, but we track a single point's *profile*: how accuracy &amp; softmax probabilities evolve with resources. https://t.co/Z0cPIeYmyq
 
 https://x.com/boazbaraktcs/status/1496619938806648832 · [archived](https://web.archive.org/web/20220223230123/https://twitter.com/boazbaraktcs/status/1496619938806648832)
-
-## 2022-02-16
-
-> I'm not co-organizing the Swedish Summer School in Computer Science (https://t.co/pgvywJThPK) anymore but can testify that it is an amazing event, with great speakers, topics, and overall atmosphere. Application deadline: March 18.
-
-https://x.com/boazbaraktcs/status/1493993608369877004 · [archived](https://web.archive.org/web/20220216170523/https://twitter.com/boazbaraktcs/status/1493993608369877004)
 
 ## 2022-02-12 · possibly deleted
 
@@ -2267,25 +2033,11 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1490743073512558594 · [archived](https://web.archive.org/web/20220207174848/https://twitter.com/boazbaraktcs/status/1490743073512558594)
 
-## 2022-02-07 · reply to @PreetumNakkiran
-
-> @PreetumNakkiran I like Sam Bowman's paper on the dangers of "underclaiming" and overdoing it when combating AI hype. Mostly focused on NLP but a lot of the argument generalizes I think. https://t.co/6OToiwpCCh
-
-https://x.com/boazbaraktcs/status/1490680142510886915 · [archived](https://web.archive.org/web/20220207133849/https://twitter.com/boazbaraktcs/status/1490680142510886915)
-
 ## 2022-02-03 · possibly deleted
 
 _(text not available)_
 
 https://x.com/boazbaraktcs/status/1489242731339603973 · [archived](https://web.archive.org/web/20220203142707/https://twitter.com/boazbaraktcs/status/1489242731339603973)
-
-## 2022-02-02
-
-> #AlphaCode: a drastic version of seq2seq &amp; search. The Bitter Lesson strikes again, exposing the power of general methods that scale w/ increased compute! Like AlphaStar, an agent outperforms me at something I love, competitive programming 🤣 @codeforces
-> 
-> https://t.co/QV3ZcEcGQZ https://t.co/SoWdf40iJM
-
-https://x.com/boazbaraktcs/status/1488924536410030082 · [archived](https://web.archive.org/web/20220202172231/https://twitter.com/boazbaraktcs/status/1488924536410030082)
 
 ## 2022-01-31 · reply to @dginev
 
@@ -2304,13 +2056,13 @@ https://x.com/boazbaraktcs/status/1488284013907243010 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1487189169600225282 · [archived](https://web.archive.org/web/20220128222649/https://twitter.com/boazbaraktcs/status/1487189169600225282)
 
-## 2022-01-27
+## 2022-01-27 · reply to @ylecun
 
 > @ylecun Congratulations! (To the committee, for making a great &amp; obvious choice.)
 
 https://x.com/boazbaraktcs/status/1486695122771361798 · [archived](https://web.archive.org/web/20220127134350/https://twitter.com/boazbaraktcs/status/1486695122771361798)
 
-## 2022-01-26
+## 2022-01-26 · reply to @mccurley
 
 > @mccurley @LindellYehuda This is an interesting model - I just think not a great fit for me. (TBH I also don't leave my office door open - I enjoy in-person meetings with the people I choose to meet.)
 
@@ -2353,7 +2105,7 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1482002254563622914 · [archived](https://web.archive.org/web/20220114145057/https://twitter.com/boazbaraktcs/status/1482002254563622914)
 
-## 2022-01-14
+## 2022-01-14 · reply to @joftius
 
 > @joftius @mohomran There are still plenty of people in hospital that are under 65, and the vast majority of them are unvaccinated. So the minority of people that are unvaccinated account for much of the load on the healthcare system. https://t.co/0rwkTBIrXW
 
@@ -2393,7 +2145,7 @@ https://x.com/boazbaraktcs/status/1479709425803870211 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1479707169096359938 · [archived](https://web.archive.org/web/20220108065822/https://twitter.com/boazbaraktcs/status/1479707169096359938)
 
-## 2022-01-06
+## 2022-01-06 · reply to @boazbaraktcs
 
 > @JamesSurowiecki @mattyglesias Full disclosure - I'm parent of a child that's currently 10 days off from school after testing positive in PCR (our system still uses old rules), despite being completely asymptomatic and testing negative in antigen.
 
@@ -2417,7 +2169,7 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1473459676322807809 · [archived](https://web.archive.org/web/20211222010547/https://twitter.com/boazbaraktcs/status/1473459676322807809)
 
-## 2021-12-20
+## 2021-12-20 · reply to @asymmetricinfo
 
 > @asymmetricinfo There is a history of negative or shame based campaigns to convince people not to make bad choices, with negative ads about smoking, drugs, seatbelts and more. 
 > 
@@ -2431,15 +2183,7 @@ https://x.com/boazbaraktcs/status/1472933015399460864 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1471872199015469062 · [archived](https://web.archive.org/web/20211217160457/https://twitter.com/boazbaraktcs/status/1471872199015469062)
 
-## 2021-12-15 · reply to @minilek
-
-> @doingmath @boazbaraktcs @hpicciotto 3) A new program I'm creating to launch in Jamaica (I'm from the Caribbean), training Caribbean kids in CS starting Summer 2022 (stay tuned).
-> 
-> This time I endorsed a letter as a good approach because the danger to students should this CMF proposal be adopted appeared imminent 3/
-
-https://x.com/boazbaraktcs/status/1470925655210659844 · [archived](https://web.archive.org/web/20211215012132/https://twitter.com/boazbaraktcs/status/1470925655210659844)
-
-## 2021-12-15
+## 2021-12-15 · reply to @boazbaraktcs
 
 > @doingmath @hpicciotto @adrian_mims .. @minilek is founder of AddisCoder - teaching coding and algorithm to high school students in Ethiopia. I am also a board member and instructor in AddisCoder. 
 > 
@@ -2469,12 +2213,6 @@ https://x.com/boazbaraktcs/status/1469415068311957507 · [archived](https://web.
 
 ## 2021-12-08
 
-> It's an honor to be working with @cziscience, @ShamKakade6 and many others to build the Kempner Institute at @Harvard.  It will push and blur the boundaries of and between computational neuroscience/AI/ML to learn how the brain computes, improve AI/ML and better lives of people.
-
-https://x.com/boazbaraktcs/status/1468624696316817410 · [archived](https://web.archive.org/web/20211208165816/https://twitter.com/boazbaraktcs/status/1468624696316817410)
-
-## 2021-12-08
-
 > Was asked if our letter on K-12 math education https://t.co/CiwiQQy1Cm is a different version of letter by the Independent institute. 
 > 
 > It’s not. This is completely different letter by different people. I personally would not have signed the other letter 
@@ -2494,27 +2232,13 @@ https://x.com/boazbaraktcs/status/1468545114976964608 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1468271825251667974 · [archived](https://web.archive.org/web/20211207173340/https://twitter.com/boazbaraktcs/status/1468271825251667974)
 
-## 2021-12-06
-
-> I am pleased to be one of 597 signatories (as of yesterday) of this Open Letter on K-12 Mathematics  https://t.co/xeFbjPm03h along with 26 of my @UCSanDiego colleagues in math, computer science, physics, economics, biology &amp; chemistry.
-
-https://x.com/boazbaraktcs/status/1467967652039696387 · [archived](https://web.archive.org/web/20211206212245/https://twitter.com/boazbaraktcs/status/1467967652039696387)
-
 ## 2021-12-06 · reply to @boazbaraktcs
 
 > 4/4 Bottom line is not that quantum computers don't offer computational advantage, but (as many agree) improving fidelity much more important than increasing number of qubits. Also, need other benchmarks than XEB, ideally for tasks that are independently useful!
 
 https://x.com/boazbaraktcs/status/1467944519949762560 · [archived](https://web.archive.org/web/20211206195530/https://twitter.com/boazbaraktcs/status/1467944519949762560)
 
-## 2021-12-06
-
-> This is a vitally imp statement on the need for mathematics education to focus on rigor. In China, math standards are not subject to continued erosion by social justice warriors who can’t themselves define exponential growth or solve quadratic equations. 
-> 
-> https://t.co/90qWlWVbkk
-
-https://x.com/boazbaraktcs/status/1467884611611078663 · [archived](https://web.archive.org/web/20211206155222/https://twitter.com/boazbaraktcs/status/1467884611611078663)
-
-## 2021-12-05
+## 2021-12-05 · reply to @boazbaraktcs
 
 > @dasingleton @mattyglesias @adrian_mims I am not saying that STEM professors should solely set K-12 math education policy. But since college prep is one of the goals of K-12, our input is relevant.
 
@@ -2526,7 +2250,7 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1467289573805985793 · [archived](https://web.archive.org/web/20211205002752/https://twitter.com/boazbaraktcs/status/1467289573805985793)
 
-## 2021-12-05
+## 2021-12-05 · reply to @dasingleton
 
 > @dasingleton @mattyglesias You can read more on the issues with CMF here https://t.co/CyUV7pWVLU
 > Some organizers like @adrian_mims know a lot about K12 math education, and as the codirector of undergraduate education for computer science at Harvard, I can assure you I see plenty of undergrads
@@ -2535,61 +2259,21 @@ https://x.com/boazbaraktcs/status/1467288217997217798 · [archived](https://web.
 
 ## 2021-12-05 · possibly deleted
 
-> Open letter from a distinguished group of science and math professors criticizes the proposed California Math Framework that would reduce middle/high school students’ access to advanced math classes.
-> https://t.co/YyaKY3XLmG
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1467286289108115460 · [archived](https://web.archive.org/web/20211205001959/https://twitter.com/boazbaraktcs/status/1467286289108115460)
 
 ## 2021-12-04 · possibly deleted
 
-> From one of authors of above blog post: "raising the floor not lowering the ceiling", and (in thread) more comments about data science: https://t.co/JUfaoYpp3q
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1467261906062819330 · [archived](https://web.archive.org/web/20211204224310/https://twitter.com/boazbaraktcs/status/1467261906062819330)
 
 ## 2021-12-04 · possibly deleted
 
-> Really interesting, and quite upsetting... How the two women who "handled the many numerical computations" (i.e., ran all simulations) were essentially erased from textbooks and history. https://t.co/sK72t5hFoP
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1467117603827195909 · [archived](https://web.archive.org/web/20211204130945/https://twitter.com/boazbaraktcs/status/1467117603827195909)
-
-## 2021-12-04
-
-> "Algebra 1 before high school can set up students for a strong foundation of STEM and open the door." —US Dept of Ed
-> 
-> Calculus is offered in 92% of rich schools and 77% in poorer schools
-> 
-> SFUSD and soon CA will force "equity" by making them ALL poorer
-> 
-> https://t.co/tLPmBRKmH3
-
-https://x.com/boazbaraktcs/status/1466976229890871296 · [archived](https://web.archive.org/web/20211204035013/https://twitter.com/boazbaraktcs/status/1466976229890871296)
-
-## 2021-12-04 · reply to @garrytan
-
-> “It seemed inequitable to be asking my poor students to do something that affluent students were able to test out of and that no other district was doing.” —Lowell HS math teacher Statmore
-> 
-> Remove advanced math and rich kids get richer
-> 
-> This policy would have crushed me as a kid
-
-https://x.com/boazbaraktcs/status/1466945624604033027 · [archived](https://web.archive.org/web/20211204014616/https://twitter.com/boazbaraktcs/status/1466945624604033027)
-
-## 2021-12-03
-
-> I agree with these people 100%.
-> 
-> The only reason I did not sign onto this statement is that I am a K-12 math teacher, not a professional mathematician.
-> 
-> I don't feel qualified to pile on here. My expertise is in teaching teenagers how to get from elementary math to advanced math.
-
-Quoting https://x.com/boazbaraktcs/status/1466799615349608452:
-> 1/14 More than 150 scientists &amp; educators signed open letter raising alarm on efforts to water down K-12 math education
-> 
-> https://t.co/tuFcNGaUkH
-> 
-> Signers include Fields, Nobel &amp; Turing laurates, and also founders of HS STEM educational initiatives (eg @adrian_mims, @minilek).
-
-https://x.com/boazbaraktcs/status/1466856695737556999 · [archived](https://web.archive.org/web/20211203195258/https://twitter.com/boazbaraktcs/status/1466856695737556999)
 
 ## 2021-12-03 · possibly deleted
 
@@ -2625,14 +2309,6 @@ https://x.com/boazbaraktcs/status/1466799636794986504 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1466790500237672448 · [archived](https://web.archive.org/web/20211203152948/https://twitter.com/boazbaraktcs/status/1466790500237672448)
 
-## 2021-12-02
-
-> Powerful moves by our very own co-founder @timnitGebru who has decided to take control of her research agenda and launch @DAIRInstitute, an independent AI Research Center! 🎉🎊🚀📈
-> 
-> https://t.co/HepQdoK5Xr
-
-https://x.com/boazbaraktcs/status/1466472117445308429 · [archived](https://web.archive.org/web/20211202181950/https://twitter.com/boazbaraktcs/status/1466472117445308429)
-
 ## 2021-12-02 · reply to @paulg
 
 > @paulg Another good quote:
@@ -2647,7 +2323,7 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1466400043188072449 · [archived](https://web.archive.org/web/20211202133317/https://twitter.com/boazbaraktcs/status/1466400043188072449)
 
-## 2021-11-24
+## 2021-11-24 · reply to @boazbaraktcs
 
 > @rpeng233 @rrwilliams @shortstein Conditional probabilities also subtle. Mohammad &amp;  I  arXived  our Merkle puzzle work &amp; gave talks on it,  only to discover crucial bug when preparing it for submission. Ultimately managed to fix it but using completely different proof, see Appendix A of https://t.co/06Kw9QKg2t
 
@@ -2679,7 +2355,7 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1463471053645258758 · [archived](https://web.archive.org/web/20211125005311/https://twitter.com/boazbaraktcs/status/1463471053645258758)
 
-## 2021-11-24
+## 2021-11-24 · reply to @rrwilliams
 
 > @rrwilliams Personally at the current equilibrium, I also do that sometimes, and I think there’s nothing immoral in that.
 > 
@@ -2693,17 +2369,11 @@ https://x.com/boazbaraktcs/status/1463349540765974531 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1463242380966961152 · [archived](https://web.archive.org/web/20211124071959/https://twitter.com/boazbaraktcs/status/1463242380966961152)
 
-## 2021-11-23
+## 2021-11-23 · reply to @rpeng233
 
 > @rpeng233 I think the only surefire way is to just require that all submissions are posted on the arxiv before submission or use an open platform such as openreview. This ensures the PC doesn't have an unfair advantage over the rest of the world.
 
 https://x.com/boazbaraktcs/status/1463175177806782467 · [archived](https://web.archive.org/web/20211124022018/https://twitter.com/boazbaraktcs/status/1463175177806782467)
-
-## 2021-11-23
-
-> Scott Aaronson, recipient of @TheOfficialACM #Computing #Prize, discusses his work in an #interview, "Exploring the Promise of #QuantumComputing," by Leah Hoffman.  https://t.co/eZni4oqiv3 https://t.co/TOLR0P0dZ0
-
-https://x.com/boazbaraktcs/status/1463159326248419329 · [archived](https://web.archive.org/web/20211124005811/https://twitter.com/boazbaraktcs/status/1463159326248419329)
 
 ## 2021-11-23
 
@@ -2719,22 +2389,13 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1462799392457388039 · [archived](https://web.archive.org/web/20211122202526/https://twitter.com/boazbaraktcs/status/1462799392457388039)
 
-## 2021-11-20
+## 2021-11-20 · reply to @thegautamkamath
 
 > @thegautamkamath @ducha_aiki I think the CVPR policy is wrong, but the right response is not to violate it but to simply not submit to this conference.
 
 https://x.com/boazbaraktcs/status/1462195772175306759 · [archived](https://web.archive.org/web/20211120230702/https://twitter.com/boazbaraktcs/status/1462195772175306759)
 
-## 2021-11-20
-
-> A new preprint: “Hypercontractivity on high dimensional expanders”, joint work with Siqi Liu and Noam Lifshitz. Please also check out the wonderful work of Bafna, @MHop_Theory, Kaufman, and @ShacharLovett (arXiv:2111.09444) sharing the same title!
-
-Quoting https://x.com/cstheory/status/1461853386605740032:
-> Hypercontractivity on high dimensional expanders https://t.co/Lgj2Uu6o49
-
-https://x.com/boazbaraktcs/status/1462194857259278344 · [archived](https://web.archive.org/web/20211120230323/https://twitter.com/boazbaraktcs/status/1462194857259278344)
-
-## 2021-11-16
+## 2021-11-16 · reply to @thegautamkamath
 
 > @thegautamkamath @joshuagrochow @YFilmus @jeremyjkun @zulip I think many people recognize their advisor in Whiplash, maybe because the director is the son of a computer scientist 😀
 
@@ -2776,19 +2437,6 @@ https://x.com/boazbaraktcs/status/1458485739801366530 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1458470210696978439 · [archived](https://web.archive.org/web/20211110172752/https://twitter.com/boazbaraktcs/status/1458470210696978439)
 
-## 2021-11-10
-
-> Really delighted by this - a $50 million donation to @sfiscience!
-
-Quoting https://x.com/C4COMPUTATION/status/1458112040443256843:
-> Wittgenstein remarked, "One keeps forgetting to go down to the foundations. One doesn’t put the question marks deep down enough." 
-> 
-> With deep gratitude to @B3_MillerValue for making possible a ground-breaking, relentless pursuit of foundations @sfiscience
-> 
-> https://t.co/ZLD6NAriQE
-
-https://x.com/boazbaraktcs/status/1458305442233389058 · [archived](https://web.archive.org/web/20211110052809/https://twitter.com/boazbaraktcs/status/1458305442233389058)
-
 ## 2021-11-08 · reply to @_onionesque
 
 > @_onionesque @SchmiegSophie Right now to first approximation quantum computers have about 100 qubits with about 1% noise level per gate. So they are still far off from implementing Shor, but are improving every year.
@@ -2807,7 +2455,7 @@ https://x.com/boazbaraktcs/status/1457751879425814534 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1457374312923553797 · [archived](https://web.archive.org/web/20211107161433/https://twitter.com/boazbaraktcs/status/1457374312923553797)
 
-## 2021-11-05
+## 2021-11-05 · reply to @shortstein
 
 > @shortstein This is not a hypothetical result - they actually ran the simulation on a cluster (16 hours * 512 GPUs which probably would be roughly $30K of compute cost on a cloud provider).
 
@@ -2820,14 +2468,6 @@ https://x.com/boazbaraktcs/status/1456695239096242177 · [archived](https://web.
 > As speaker, you'll only give talks to places that pay the most.  As organizer, you want a "sure thing" and won't take risk on student/postdoc.
 
 https://x.com/boazbaraktcs/status/1456284625962029067 · [archived](https://web.archive.org/web/20211104170241/https://twitter.com/boazbaraktcs/status/1456284625962029067)
-
-## 2021-10-27
-
-> In the latest #ACMByteCast, special guest host @shanselman speaks with theoretical computer scientist Jelani Nelson (@minilek), Professor @Berkeley_EECS &amp; member of its theory group, @GoogleAI research scientist, founder of @AddisCoder.
-> 
-> https://t.co/Qlzbsm64Vi https://t.co/GKF23mBMK4
-
-https://x.com/boazbaraktcs/status/1453398750315958274 · [archived](https://web.archive.org/web/20211027164437/https://twitter.com/boazbaraktcs/status/1453398750315958274)
 
 ## 2021-10-26 · reply to @jfitzsimons
 
@@ -2855,7 +2495,7 @@ https://x.com/boazbaraktcs/status/1452749600813637635 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1452749579846397955 · [archived](https://web.archive.org/web/20211026030220/https://twitter.com/boazbaraktcs/status/1452749579846397955)
 
-## 2021-10-20
+## 2021-10-20 · reply to @AppleMath2
 
 > @AppleMath2 I try to evaluate how successful I think the student will be, both based on their background and the fit with me. You're right it's competitive, but you miss 100% of the shots you don't take :)
 
@@ -2870,12 +2510,6 @@ https://x.com/boazbaraktcs/status/1450946648377528327 · [archived](https://web.
 > https://t.co/pdo8ABQsL5
 
 https://x.com/boazbaraktcs/status/1450917124000550912 · [archived](https://web.archive.org/web/20211020202441/https://twitter.com/boazbaraktcs/status/1450917124000550912)
-
-## 2021-10-20
-
-> If you’re advertising a machine learning or AI scholarship or job on Twitter, please consider announcing it to @QueerinAI @AiDisability @black_in_ai @Khipu_AI @DeepIndaba @_LXAI @WiMLworkshop @women_in_ai and other groups who care about diversity and inclusion. Thanks
-
-https://x.com/boazbaraktcs/status/1450809589612482564 · [archived](https://web.archive.org/web/20211020130247/https://twitter.com/boazbaraktcs/status/1450809589612482564)
 
 ## 2021-10-19
 
@@ -2947,9 +2581,7 @@ https://x.com/boazbaraktcs/status/1447016644686057478 · [archived](https://web.
 
 ## 2021-10-10 · possibly deleted
 
-> 1) It is remarkably common for high-achieving minoritized students to fall “off-track” in HS (not enough credits, lack of promotion, etc.)
-> One of the ways the Boston program seemed to work is to insulate young people from this
-> But that doesn’t mean G&amp;T is the only way to do so
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1447016613161709570 · [archived](https://web.archive.org/web/20211010015027/https://twitter.com/boazbaraktcs/status/1447016613161709570)
 
@@ -2961,7 +2593,7 @@ https://x.com/boazbaraktcs/status/1447016613161709570 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1447016487735148550 · [archived](https://web.archive.org/web/20211010014953/https://twitter.com/boazbaraktcs/status/1447016487735148550)
 
-## 2021-10-10
+## 2021-10-10 · reply to @rasmansa
 
 > @rasmansa @mattyglesias I think it shouldn't be super low but it should be a realistic minimum that we want and can every student to achieve.  
 > 
@@ -2979,15 +2611,13 @@ https://x.com/boazbaraktcs/status/1446989109168312320 · [archived](https://web.
 
 ## 2021-10-09 · possibly deleted
 
-> The SIGACT CATCS is compiling a list of Women in TCS, "to facilitate engaging women TCS researchers and providing opportunities for them in the future."
-> Women (anyone who self-identifies as such) &amp; gender non-conforming TCS researchers can fill this form:
-> https://t.co/QZ59uPZxEL
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1446818503659503616 · [archived](https://web.archive.org/web/20211009124637/https://twitter.com/boazbaraktcs/status/1446818503659503616)
 
 ## 2021-10-09 · possibly deleted
 
-> This thread. https://t.co/ipCejQcPzP
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1446814676193587213 · [archived](https://web.archive.org/web/20211009123124/https://twitter.com/boazbaraktcs/status/1446814676193587213)
 
@@ -2997,14 +2627,7 @@ https://x.com/boazbaraktcs/status/1446814676193587213 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1446812687544066053 · [archived](https://web.archive.org/web/20211009122055/https://twitter.com/boazbaraktcs/status/1446812687544066053)
 
-## 2021-10-08
-
-> The following *very* nice piece came up in a chat re theory&amp;applications in ML (h/t @boazbaraktcs). It was in response to a debate in TCS community.
-> But really, most of it is a defense of "science for science's sake", and a warning about mixing scientific and industrial goals. 1/ https://t.co/nlCQdRYSVL
-
-https://x.com/boazbaraktcs/status/1446467048226185217 · [archived](https://web.archive.org/web/20211008132648/https://twitter.com/boazbaraktcs/status/1446467048226185217)
-
-## 2021-10-07
+## 2021-10-07 · reply to @0xyuanti
 
 > @0xYUANTI The article I tweeted didn't dispute that capital in play finds Tether useful. It's just that the reason players find it useful is not because they necessarily believe that every coin is backed by an actual dollar.
 > 
@@ -3023,26 +2646,7 @@ Quoting https://x.com/patrickc/status/1445981546918285314:
 
 https://x.com/boazbaraktcs/status/1446161651065970692 · [archived](https://web.archive.org/web/20211007172135/https://twitter.com/boazbaraktcs/status/1446161651065970692)
 
-## 2021-10-07
-
-> I tried my best to explain this area of research to a broad audience of non-specialists (at the risk of being boring to the many world experts sitting in the room).
-
-Quoting https://x.com/SimonsInstitute/status/1445571545078796292:
-> Watch the video of Andrea Montanari's recent Richard M. Karp Distinguished Lecture.
-> 
-> "Computational Barriers in Statistical Estimation and Learning"
-> 
-> https://t.co/Uuz4hEpCHY
-
-https://x.com/boazbaraktcs/status/1446095052388777984 · [archived](https://web.archive.org/web/20211007124831/https://twitter.com/boazbaraktcs/status/1446095052388777984)
-
-## 2021-10-06
-
-> My lecture about applications of physics of disordered systems in computer science. Yesterday, 30min after I learned about the Nobel prize. I want to share this to let you see the excitement and as my tribute to @giorgioparisi :) https://t.co/Aopget9Qfm https://t.co/VWjQkxd3je
-
-https://x.com/boazbaraktcs/status/1445735005800394778 · [archived](https://web.archive.org/web/20211006125749/https://twitter.com/boazbaraktcs/status/1445735005800394778)
-
-## 2021-10-05
+## 2021-10-05 · reply to @roydanroy
 
 > @roydanroy @thegautamkamath I think better not to write. You are putting the student in a very uncomfortable position to make this choice.  
 > 
@@ -3059,13 +2663,13 @@ https://x.com/boazbaraktcs/status/1445375004137250818 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1443297709037801473 · [archived](https://web.archive.org/web/20210929193300/https://twitter.com/boazbaraktcs/status/1443297709037801473)
 
-## 2021-09-29
+## 2021-09-29 · reply to @boazbaraktcs
 
 > @quantum_aram @mattyglesias @tylercowen I also find @tylercowen's notion of "faculty self interest" strange. Most faculty I know don't mind at all if our power in controlling Harvard policies was "diluted". More often than not, you have to twist people's arms to join committees or become department chairs.
 
 https://x.com/boazbaraktcs/status/1443235686572703744 · [archived](https://web.archive.org/web/20210929152636/https://twitter.com/boazbaraktcs/status/1443235686572703744)
 
-## 2021-09-27
+## 2021-09-27 · reply to @berkie1
 
 > @berkie1 @ABetterCambMA So the "Association" in the name is no more accurate than "Equity" 😀
 > 
@@ -3073,16 +2677,9 @@ https://x.com/boazbaraktcs/status/1443235686572703744 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1442515184463933442 · [archived](https://web.archive.org/web/20210927154352/https://twitter.com/boazbaraktcs/status/1442515184463933442)
 
-## 2021-09-26
-
-> A trip down memory lane...exactly 23 years ago Google signed its first datacenter contract.  Let's walk through the lease in a thread. First, the copy you see here was sent by a "fax machine" which was something people used back then. https://t.co/RnNmt4fnag
-
-https://x.com/boazbaraktcs/status/1442189045765865476 · [archived](https://web.archive.org/web/20210926180728/https://twitter.com/boazbaraktcs/status/1442189045765865476)
-
 ## 2021-09-23 · possibly deleted
 
-> Thank you, @tdietterich, for reading our paper and for a very thoughtful feedback. My collaborator @willie_agnew has raised excellent points (see my RTs)
-> 1/ https://t.co/24fP40Wj4n
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1441022744678866952 · [archived](https://web.archive.org/web/20210923192547/https://twitter.com/boazbaraktcs/status/1441022744678866952)
 
@@ -3097,7 +2694,7 @@ Quoting https://x.com/minilek/status/1440974190497046530:
 
 https://x.com/boazbaraktcs/status/1441020536335872000 · [archived](https://web.archive.org/web/20210923193053/https://twitter.com/boazbaraktcs/status/1441020536335872000)
 
-## 2021-09-22
+## 2021-09-22 · reply to @boazbaraktcs
 
 > My 2c: Conference selection is a noisy signal but still a useful one, and it's a good thing we have multiple conferences, and papers can be resubmitted.
 > 
@@ -3111,14 +2708,6 @@ https://x.com/boazbaraktcs/status/1440710245110538251 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1439735540585226243 · [archived](https://web.archive.org/web/20210921000410/https://twitter.com/boazbaraktcs/status/1439735540585226243)
 
-## 2021-09-18
-
-> I gave a talk @SimonsInstitute about the complexity of differential privacy and you can watch it here: https://t.co/t2YviLU87t
-> 
-> I tried something new by giving a survey of the major questions, rather than a talk about a recent paper.  I, for one, thought it went well.
-
-https://x.com/boazbaraktcs/status/1439320143901904899 · [archived](https://web.archive.org/web/20210920033117/https://twitter.com/boazbaraktcs/status/1439320143901904899)
-
 ## 2021-09-17
 
 > Fantastic lineup of talks for the ICM session on mathematics of CS 
@@ -3131,71 +2720,41 @@ https://x.com/boazbaraktcs/status/1438973968099151874 · [archived](https://web.
 
 ## 2021-09-17 · possibly deleted
 
-> i keep checking in on the speed of FHE every few years and it's come down from like nine orders of magnitude to five, and now to close to parity
-> https://t.co/GaPtEOvgSw
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1438882832592478210 · [archived](https://web.archive.org/web/20210918170859/https://twitter.com/boazbaraktcs/status/1438882832592478210)
 
 ## 2021-09-16 · possibly deleted
 
-> Just got access to @OpenAI Codex. Decided to use it to make a new webpage for myself. Here's what we came up with in 5 mins! Complete with a fake bio and arxiv papers with links.
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1438628923861086212 · [archived](https://web.archive.org/web/20210917212643/https://twitter.com/boazbaraktcs/status/1438628923861086212)
 
 ## 2021-09-14 · possibly deleted
 
-> @AndresECaicedo1 @thesasho .@boazbaraktcs' is worth bookmarking, I'd say. https://t.co/XhLTt2d18k
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1437918281361416193 · [archived](https://web.archive.org/web/20210915105006/https://twitter.com/boazbaraktcs/status/1437918281361416193)
 
-## 2021-09-14
+## 2021-09-14 · reply to @boazbaraktcs
 
 > @CT_Bergstrom @jodiecongirl Just to be clear, when I said "I don't do that" I didn't mean that this applies universally. Harvard students &amp; faculty are lucky to have Covid controlled enough for full in-person teaching, and also lucky to be located in MA with high vaccination rate &amp; sensible policy.
 
 https://x.com/boazbaraktcs/status/1437905846437044228 · [archived](https://web.archive.org/web/20210915094546/https://twitter.com/boazbaraktcs/status/1437905846437044228)
 
-## 2021-09-11
-
-> “Cryptography is about replacing trust with mathematics”
-> Don’t miss Boaz’s crypto course!
-
-Quoting https://x.com/boazbaraktcs/status/1436714112235589635:
-> I’m really impressed with @perusall for my crypto course this term https://t.co/IPpqv98n31
-> 
-> Students read the lecture notes ahead of time, there’s already active back&amp;forth before lecture and through their comments and questions I know where the main points of confusion are. https://t.co/z6BSX0hMNP
-
-https://x.com/boazbaraktcs/status/1436811822368235522 · [archived](https://web.archive.org/web/20210911220019/https://twitter.com/boazbaraktcs/status/1436811822368235522)
-
 ## 2021-09-10 · possibly deleted
 
-> @JamesSurowiecki The health and science establishment is also liberal in Israel, but there is no real right-wing anti-vax movement there.
-> In an alternative timeline where Trump embraced vaccine mandates, anti-vax resistant would have likely come more from the left.
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1436326134354878473 · [archived](https://web.archive.org/web/20210910135620/https://twitter.com/boazbaraktcs/status/1436326134354878473)
 
-## 2021-09-09
-
-> @ofraam Without taking anything away from the importance of understanding the impact of boosters, we should acknowledge the global inequality in vaccine availability. 
-> I’m not sure what’s the best action course, but one thing we can do is donate vaccines via @gavi
-
-Quoting https://x.com/KaminskiMed/status/1430238837393870853:
-> @drjessigold @acweyand Agreed with @acweyand @drjessigold - if you’re getting a booster (also if not) donate to @gavi https://t.co/CQBXuyBF9z
-
-https://x.com/boazbaraktcs/status/1435913479777660938 · [archived](https://web.archive.org/web/20210909143925/https://twitter.com/boazbaraktcs/status/1435913479777660938)
-
-## 2021-09-09 · reply to @ofraam
-
-> The results are best illustrated in this plot, which shows the days following the 3rd those (x-axis) and the fold reduction in risk compared to only receiving two doses (y-axis). The key observation is that from day 12 onward, they observe &gt;5-fold increased protection. https://t.co/gySMwqRGEx
-
-https://x.com/boazbaraktcs/status/1435913247920623621 · [archived](https://web.archive.org/web/20210909135550/https://twitter.com/boazbaraktcs/status/1435913247920623621)
-
 ## 2021-09-09 · possibly deleted
 
-> Visual proof of the AM-GM inequality (my first adventure with @3blue1brown's manim software). https://t.co/HFpLb6v7pJ
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1435824660114034690 · [archived](https://web.archive.org/web/20210909100917/https://twitter.com/boazbaraktcs/status/1435824660114034690)
 
-## 2021-09-09
+## 2021-09-09 · reply to @JamesSurowiecki
 
 > @JamesSurowiecki I agree. In terms of absolute risk for vaxxed people, Covid is probably already comparable to flu &amp; other “normal” risks. However it might take an extended period of time in which case numbers are stable (even if not increasing) and fatigue settles in.
 
@@ -3212,8 +2771,7 @@ https://x.com/boazbaraktcs/status/1435724728119873542 · [archived](https://web.
 
 ## 2021-09-08 · possibly deleted
 
-> ICYMI: @MATRIX_Inst just made the recording and slides of Avi Wigderson's talk on "The Value of Errors in Proofs" available: https://t.co/0Ry8hd2kWW
-> 🎞️ https://t.co/ECoaq8O43Q https://t.co/4BllrEXpul
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1435434436464676864 · [archived](https://web.archive.org/web/20210908122823/https://twitter.com/boazbaraktcs/status/1435434436464676864)
 
@@ -3235,8 +2793,7 @@ https://x.com/boazbaraktcs/status/1434351242977980417 · [archived](https://web.
 
 ## 2021-09-03 · possibly deleted
 
-> Harvard's Department of Statistics is delighted to note that Professor Susan A. Murphy has been appointed Mallinckrodt Professor of Statistics and of Computer Science. Congratulations Susan!
-> https://t.co/ZfyZ20VP9b
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1433891231600316418 · [archived](https://web.archive.org/web/20210903215243/https://twitter.com/boazbaraktcs/status/1433891231600316418)
 
@@ -3249,14 +2806,7 @@ Quoting https://x.com/Jabaluck/status/1433036933400305673:
 
 https://x.com/boazbaraktcs/status/1433077177566646272 · [archived](https://web.archive.org/web/20210901163155/https://twitter.com/boazbaraktcs/status/1433077177566646272)
 
-## 2021-08-24
-
-> Thought provoking and necessary final keynote by @mmitchell_ai on Cementing a Foundation of Inequity in AI at the Workshop on #FoundationModels. (Not that we’d necessarily agree with every bullet point. 🤷)
-> https://t.co/YL5Qdr0FT4 https://t.co/sL77CZcrbu
-
-https://x.com/boazbaraktcs/status/1430317567936131075 · [archived](https://web.archive.org/web/20210825052530/https://twitter.com/boazbaraktcs/status/1430317567936131075)
-
-## 2021-08-24
+## 2021-08-24 · reply to @IvanWerning
 
 > @IvanWerning @ben_golub From driver's POV, in live call a car feature, customer commits to be flexible on when to leave, while in advanced booking they are not, so the latter makes it even harder to find cars if they are scarce.
 
@@ -3277,14 +2827,6 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1427658929094336514 · [archived](https://web.archive.org/web/20210817161950/https://twitter.com/boazbaraktcs/status/1427658929094336514)
 
-## 2021-08-16
-
-> 1/The collapse of the Government in Afghanistan this past week was so swift and complete - it was disorienting and difficult to comprehend.
-> 
-> This is how the events seemed to proceed from my perspective as Central Bank Governor.
-
-https://x.com/boazbaraktcs/status/1427299177227190273 · [archived](https://web.archive.org/web/20210816160054/https://twitter.com/boazbaraktcs/status/1427299177227190273)
-
 ## 2021-08-13
 
 > This is a very good post. While "95% effective" and "20x fold risk reduction" are mathematically identical ways to describe vaccine efficacy, the latter one is much more informative. 
@@ -3304,13 +2846,7 @@ https://x.com/boazbaraktcs/status/1426190762354659340 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1425496556262891520 · [archived](https://web.archive.org/web/20210811164230/https://twitter.com/boazbaraktcs/status/1425496556262891520)
 
-## 2021-08-09
-
-> A short thread about what is perhaps the most successful cyber attack in the history of any nation state conducted by a group called “Belarusian Cyber-partisans”. Last month they hacked the servers of Belarusian police and the Interior Ministry. 1/6 https://t.co/3QPaEYHten
-
-https://x.com/boazbaraktcs/status/1424808608076730381 · [archived](https://web.archive.org/web/20210809190344/https://twitter.com/boazbaraktcs/status/1424808608076730381)
-
-## 2021-08-09
+## 2021-08-09 · reply to @boazbaraktcs
 
 > As mentioned here, there is precedent https://t.co/s423m9YoR9. If you give yourself capability to do X, you open yourself to be forced to do it.
 > 
@@ -3350,13 +2886,13 @@ https://x.com/boazbaraktcs/status/1422573610091401227 · [archived](https://web.
 
 ## 2021-08-03 · possibly deleted
 
-_(text not available)_
+> @Theophite This really does put things in perspective. AstraZeneca should use it as a slogan "AstraZeneca: it's 10 times safer than drowning!"
 
 https://x.com/boazbaraktcs/status/1422555524143325184 · [archived](https://web.archive.org/web/20210803140859/https://twitter.com/boazbaraktcs/status/1422555524143325184)
 
 ## 2021-08-03 · possibly deleted
 
-_(text not available)_
+> Interested in the theory of reinforcement learning? Check out Akshay Krishnamurthy and Wen Sun’s tutorial on “statistical foundations of RL” at #COLT2021, Aug. 5, 7:15AM MT. Registration required; free for students. Learn more @ https://t.co/jJp4cgxAgA and https://t.co/s55PWlj2pS
 
 https://x.com/boazbaraktcs/status/1422552658187984896 · [archived](https://web.archive.org/web/20210803140239/https://twitter.com/boazbaraktcs/status/1422552658187984896)
 
@@ -3373,7 +2909,7 @@ Quoting https://x.com/fortnow/status/1422242808728104965:
 
 https://x.com/boazbaraktcs/status/1422249430116229124 · [archived](https://web.archive.org/web/20210802173454/https://twitter.com/boazbaraktcs/status/1422249430116229124)
 
-## 2021-08-02
+## 2021-08-02 · reply to @skominers
 
 > @skominers @ben_golub The flu (whose vaccine is not as good https://t.co/dK1AqPHwWm )  also has long-term risks https://t.co/wLZVRX5B2j 
 > 
@@ -3399,7 +2935,9 @@ https://x.com/boazbaraktcs/status/1421877416423743492 · [archived](https://web.
 
 ## 2021-07-30 · possibly deleted
 
-_(text not available)_
+> In physics, "symplectic geometry" describes how position and momentum are related. But we can also use it to describe how entropy and temperature are related - or volume and pressure!
+> Here I explain how this works, as a warmup for some newer ideas:
+> https://t.co/xsNEkSbxi4
 
 https://x.com/boazbaraktcs/status/1421239770659926016 · [archived](https://web.archive.org/web/20210730224237/https://twitter.com/boazbaraktcs/status/1421239770659926016)
 
@@ -3409,18 +2947,6 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1421236515955425284 · [archived](https://web.archive.org/web/20210730222931/https://twitter.com/boazbaraktcs/status/1421236515955425284)
 
-## 2021-07-29
-
-> CALLING OUT TO ALL FINITE FIELDS:
-> Y'ALL HAVE FFTs using points INSIDE YOU! 
-> YES, even safe prime fields of size 2*q+1, q prime!
-> 
-> Details in thread (w/ moral at end) and #math paper w/ @starkwareltd teammates Dan Carmon, Swastik Kopparty and David Levit.
-> 
-> https://t.co/JBTH3mRTAQ
-
-https://x.com/boazbaraktcs/status/1420599802694340610 · [archived](https://web.archive.org/web/20210729041935/https://twitter.com/boazbaraktcs/status/1420599802694340610)
-
 ## 2021-07-28 · reply to @huckbennett
 
 > @huckbennett @lreyzin @paulg I know nothing about gymnastics, but no one should be discouraged from pursuing theoretical CS because they have mental health challenges, or physical challenges for that matter. 
@@ -3429,7 +2955,7 @@ https://x.com/boazbaraktcs/status/1420599802694340610 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1420435067017388041 · [archived](https://web.archive.org/web/20210728172507/https://twitter.com/boazbaraktcs/status/1420435067017388041)
 
-## 2021-07-27
+## 2021-07-27 · reply to @HistDem
 
 > @HistDem @ElectProject @kinggary @ruthgreenwood @DistrictBuilder Maybe issue is: you have vector v of private numbers.
 >  
@@ -3439,15 +2965,7 @@ https://x.com/boazbaraktcs/status/1420435067017388041 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1419859562031632387 · [archived](https://web.archive.org/web/20210727031912/https://twitter.com/boazbaraktcs/status/1419859562031632387)
 
-## 2021-07-26
-
-> I'm sure Ruggles knows this already, but in case you're wondering: the proposal is obviously to release *both* datasets, with and without post-processing.
-> 
-> Which, as anyone who's looked up a single article about DP knows, can be done at no privacy cost. https://t.co/vf7MBA6oZ7
-
-https://x.com/boazbaraktcs/status/1419762620517675015 · [archived](https://web.archive.org/web/20210726205250/https://twitter.com/boazbaraktcs/status/1419762620517675015)
-
-## 2021-07-26
+## 2021-07-26 · reply to @boazbaraktcs
 
 > You still want to do Step 2 since some tools will choke on the weird data, but should release the results of step 1 as well.
 > 
@@ -3470,27 +2988,11 @@ Quoting https://x.com/kinggary/status/1419681466489966596:
 
 https://x.com/boazbaraktcs/status/1419693984620843010 · [archived](https://web.archive.org/web/20210726162003/https://twitter.com/boazbaraktcs/status/1419693984620843010)
 
-## 2021-07-26
-
-> New op-ed by Cynthia Dwork, @ruthgreenwood, and me on a solution to the latest food fight over privacy and the US Census
-> https://t.co/FmOt88bPlC
-
-https://x.com/boazbaraktcs/status/1419692481780719618 · [archived](https://web.archive.org/web/20210726161404/https://twitter.com/boazbaraktcs/status/1419692481780719618)
-
 ## 2021-07-23 · reply to @boazbaraktcs
 
 > ...@michael_nielsen points that "throw compute at problem" still doesn't work for 95% of the tasks we use computing for (e.g. OS or factoring alg). Maybe lesson is that once this approach "gets off the ground" for a problem, scaling laws kick in &amp; more resources ⇒ better perf
 
 https://x.com/boazbaraktcs/status/1418635092340191232 · [archived](https://web.archive.org/web/20210723210818/https://twitter.com/boazbaraktcs/status/1418635092340191232)
-
-## 2021-07-19
-
-> Regarding the P=NP paper that appeared online today at ToCT:
-> This paper was rejected from ToCT, and I sent the author a rejection letter.  The paper has appeared on ToCT due to administrative error.  As Editor-in-Chief, I apologize for my failure of oversight in the process.
-> 
-> 1/2
-
-https://x.com/boazbaraktcs/status/1417200852310249521 · [archived](https://web.archive.org/web/20210719191316/https://twitter.com/boazbaraktcs/status/1417200852310249521)
 
 ## 2021-07-19
 
@@ -3508,34 +3010,19 @@ https://x.com/boazbaraktcs/status/1417144765317976073 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1417141431148318724 · [archived](https://web.archive.org/web/20210719151707/https://twitter.com/boazbaraktcs/status/1417141431148318724)
 
-## 2021-07-15
-
-> Had a super fun conversation about #explainability, #fairness, and #robustness in #ML with @jaygshah22 on his podcast. We also discussed my research journey (which made me realize I am not young anymore :P) &amp; ongoing work. #xai #TrustworthyML #EthicalAI
-
-Quoting https://x.com/jaygshah22/status/1415751427381633025:
-> An interesting chat with @hima_lakkaraju, Asst. Prof @Harvard and Co-founder @trustworthy_ml on:
-> #Explainability &amp; Fairness in AI, building more reliable methods that can explain #AI models better. -- Also a few pieces of advice on excelling at research!
-> https://t.co/A86zV53nPz https://t.co/BAyfPEsRuY
-
-https://x.com/boazbaraktcs/status/1415781919996792833 · [archived](https://web.archive.org/web/20210715211500/https://twitter.com/boazbaraktcs/status/1415781919996792833)
-
 ## 2021-07-15 · possibly deleted
 
-_(text not available)_
+> @ylecun Is Hellen Keller a counterexample showing that you can learn quite a lot about the world from a low bandwidth channel?
+> (Though of course all human brains evolved through millions of years of high bandwidth interactions.)
 
 https://x.com/boazbaraktcs/status/1415697709625790473 · [archived](https://web.archive.org/web/20210715154020/https://twitter.com/boazbaraktcs/status/1415697709625790473)
 
 ## 2021-07-14 · possibly deleted
 
-_(text not available)_
+> @arpanio @ShalitUri My guess is that there's positive feedback loop, where sentiment among their viewer base drives the messaging which then amplifies this sentiment.
+> But Fox has competition for the pro-Trump audience, and once an issue becomes political, they can't afford to be on "wrong" side.
 
 https://x.com/boazbaraktcs/status/1415402875421814788 · [archived](https://web.archive.org/web/20210714200845/https://twitter.com/boazbaraktcs/status/1415402875421814788)
-
-## 2021-07-14
-
-> In recognition of her wide-ranging contributions to theoretical computer science, Professor Toni Pitassi has received the 2021 EATCS Award from @eatcs_secretary https://t.co/lrQaaZ0epU https://t.co/Qpt67FxZ19
-
-https://x.com/boazbaraktcs/status/1415363293137440769 · [archived](https://web.archive.org/web/20210714173142/https://twitter.com/boazbaraktcs/status/1415363293137440769)
 
 ## 2021-07-14 · possibly deleted
 
@@ -3561,22 +3048,7 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1414793365535735808 · [archived](https://web.archive.org/web/20210713034643/https://twitter.com/boazbaraktcs/status/1414793365535735808)
 
-## 2021-07-10
-
-> A 256-qubit "analog" quantum computer. 
-> 
-> https://t.co/jJWBQvd330
-
-https://x.com/boazbaraktcs/status/1413946252119715841 · [archived](https://web.archive.org/web/20210710194033/https://twitter.com/boazbaraktcs/status/1413946252119715841)
-
-## 2021-07-07 · reply to @Beyond100K
-
-> Our executive director Talia Milgrom-Elcott interviews @JohnCUrschel, football star and math evangelist. Read about his mission to empower young POC to pursue careers in #STEM.
-> https://t.co/6sjl7PKBZq
-
-https://x.com/boazbaraktcs/status/1412751720095039491 · [archived](https://web.archive.org/web/20210707123407/https://twitter.com/boazbaraktcs/status/1412751720095039491)
-
-## 2021-07-06
+## 2021-07-06 · reply to @synbiocs
 
 > @synbiocs The article didn't say this, but I guess part of the "redesign" is to drop the research mission. 
 > 
@@ -3607,14 +3079,6 @@ Quoting https://x.com/ylecun/status/1409394324194967561:
 
 https://x.com/boazbaraktcs/status/1409534019126050824 · [archived](https://web.archive.org/web/20210628161632/https://twitter.com/boazbaraktcs/status/1409534019126050824)
 
-## 2021-06-28
-
-> Limiting the communication of scientific information hurts progress and is contrary to ethics.
-> This new CVPR policy is nothing short of insane.
-> @amy_tabb is right.
-
-https://x.com/boazbaraktcs/status/1409531685306241032 · [archived](https://web.archive.org/web/20210628152256/https://twitter.com/boazbaraktcs/status/1409531685306241032)
-
 ## 2021-06-28 · possibly deleted
 
 _(text not available)_
@@ -3623,20 +3087,12 @@ https://x.com/boazbaraktcs/status/1409531491382669328 · [archived](https://web.
 
 ## 2021-06-28 · possibly deleted
 
-_(text not available)_
+> It took a little longer than hoped, but our recent work with Ayush Jain, @thegautamkamath, and @jerryzli is out on #ArXiv: "The Price of Tolerance in Distribution Testing:"
+> 📝 https://t.co/mja1sBASJo
+> Comments welcome! See below for a short overview 🧵
+> 1/
 
 https://x.com/boazbaraktcs/status/1409530299462131713 · [archived](https://web.archive.org/web/20210628151622/https://twitter.com/boazbaraktcs/status/1409530299462131713)
-
-## 2021-06-28
-
-> “Arguably the fundamental theorem of cryptography is that we can simulate a virtual trusted third party.”
-
-Quoting https://x.com/boazbaraktcs/status/1408453895639207936:
-> 1/12 Congratulations to the winners of the STOC 2021 test of time award! https://t.co/ztrNJQtVzd
-> 
-> Here is a bit about the papers:🧵
-
-https://x.com/boazbaraktcs/status/1409528802645004289 · [archived](https://web.archive.org/web/20210628151348/https://twitter.com/boazbaraktcs/status/1409528802645004289)
 
 ## 2021-06-25 · reply to @boazbaraktcs
 
@@ -3664,11 +3120,11 @@ https://x.com/boazbaraktcs/status/1408453897438515202 · [archived](https://web.
 
 ## 2021-06-21 · possibly deleted
 
-_(text not available)_
+> Senior/Junior lunches are great, I highly recommend signing up! It's of course nice to chat with others about their research interests, or to get some career advice, but I think the biggest benefit for me as a grad student has been feeling a little less like an awkward outsider https://t.co/AWrbZuQ6uc
 
 https://x.com/boazbaraktcs/status/1406996345278414851 · [archived](https://web.archive.org/web/20210621233612/https://twitter.com/boazbaraktcs/status/1406996345278414851)
 
-## 2021-06-16
+## 2021-06-16 · reply to @boazbaraktcs
 
 > 4/7 We call (A) "All roads lead to Rome". 
 > 
@@ -3688,7 +3144,7 @@ https://x.com/boazbaraktcs/status/1405154784567570440 · [archived](https://web.
 
 ## 2021-06-16 · possibly deleted
 
-_(text not available)_
+> #STOC2021 will include great talks (of course!), captivating workshops (duh!), but also some social activities, as the eagle-eyed viewer may have noticed in the schedule... Hope you enjoy them! https://t.co/PbXDFQCFsS https://t.co/jASXOCnRnd
 
 https://x.com/boazbaraktcs/status/1405148649034850309 · [archived](https://web.archive.org/web/20210616130301/https://twitter.com/boazbaraktcs/status/1405148649034850309)
 
@@ -3697,12 +3153,6 @@ https://x.com/boazbaraktcs/status/1405148649034850309 · [archived](https://web.
 _(text not available)_
 
 https://x.com/boazbaraktcs/status/1404623481594159105 · [archived](https://web.archive.org/web/20210615024343/https://twitter.com/boazbaraktcs/status/1404623481594159105)
-
-## 2021-06-15
-
-> I'm humbled and enthusiastic about being elected to the Museum of Science Board of Museum Advisors. @museumofscience has made science come to life for our family. I'm psyched about service to such an awesome institution. #science #education #innovation
-
-https://x.com/boazbaraktcs/status/1404620803069689859 · [archived](https://web.archive.org/web/20210615025121/https://twitter.com/boazbaraktcs/status/1404620803069689859)
 
 ## 2021-06-14
 
@@ -3727,29 +3177,19 @@ https://x.com/boazbaraktcs/status/1404446327132545024 · [archived](https://web.
 
 ## 2021-06-14 · possibly deleted
 
-_(text not available)_
+> An applied mathematician I know thinks it's hilarious that economists care about formal rigor so much more than, e.g., applied physicists do.
+> Rigor, he says, is valuable, but other inputs currently seem to have a much higher return for advancing economic theory.
+> 1/
 
 https://x.com/boazbaraktcs/status/1404436968948252673 · [archived](https://web.archive.org/web/20210614135734/https://twitter.com/boazbaraktcs/status/1404436968948252673)
 
-## 2021-06-07 · reply to @conor64
-
-> @conor64 As someone at UNC, let me confirm that this has absolutely had a chilling effect on many people working on race and history, or anything related, from graduate students to adjuncts to tenure-track people to even tenured folks. That's how high-profile political meddling works.
-
-https://x.com/boazbaraktcs/status/1401927030770335749 · [archived](https://web.archive.org/web/20210607182842/https://twitter.com/boazbaraktcs/status/1401927030770335749)
-
-## 2021-06-06
-
-> There's been a lot of confusion this week about how to interpret differentially privacy census data. This essay by privacy experts describes how to think about statistical inference and privacy:  https://t.co/79UzYrC1sQ https://t.co/SeZ7VqbYZA
-
-https://x.com/boazbaraktcs/status/1401340319208181762 · [archived](https://web.archive.org/web/20210606004942/https://twitter.com/boazbaraktcs/status/1401340319208181762)
-
 ## 2021-06-04 · possibly deleted
 
-_(text not available)_
+> New blogpost with @markmbun, @TedOnPrivacy, Cynthia Dwork, Moni Naor, @Aaroth, Adam Smith, @shortstein, @thejonullman, and Salil Vadhan on statistical inference and privacy violations. (in the context of DP but applicable much more broadly) https://t.co/3uoJZbA02H
 
 https://x.com/boazbaraktcs/status/1400661099150811137 · [archived](https://web.archive.org/web/20210604035024/https://twitter.com/boazbaraktcs/status/1400661099150811137)
 
-## 2021-06-03
+## 2021-06-03 · reply to @boazbaraktcs
 
 > More colorful way to make same point. (Again, this is just about the privacy aspect of the @alarm_redist
 >  report. I don't know enough about the points regarding redistricting utility.)
@@ -3763,9 +3203,12 @@ https://x.com/boazbaraktcs/status/1400578231074390018 · [archived](https://web.
 > 
 > DP is designed to give accurate estimates of aggregate sums https://t.co/TvNcfyVX9F
 
+Quoting https://x.com/allthingscensus/status/1400547645572239366:
+> The Harvard authors who raised questions about the @uscensusbureau differential privacy plan for 2020 census data have posted responses to questions about their work
+
 https://x.com/boazbaraktcs/status/1400577400614752261 · [archived](https://web.archive.org/web/20210603221736/https://twitter.com/boazbaraktcs/status/1400577400614752261)
 
-## 2021-06-03
+## 2021-06-03 · reply to @boazbaraktcs
 
 > p.s. I know the committee is not required to read beyond the first 10 pages, but I think/hope that if they get to page 10 and find it interesting, they'll read the extra 4 pages too. (And if they don't, those extra 4 pages would likely not have mattered.)
 
@@ -3803,16 +3246,6 @@ https://x.com/boazbaraktcs/status/1400197801707900931 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1400197800638369795 · [archived](https://web.archive.org/web/20210602211840/https://twitter.com/boazbaraktcs/status/1400197800638369795)
 
-## 2021-06-02
-
-> And this is it folks: Lapid told the President he has succeeded in forming a new government - for the first time in 12 years WITHOUT NETANYAHU. Though there's still more than a week to iron all details (or mess up)
-
-Quoting https://x.com/yairlapid/status/1400186881388814340:
-> הודעתי כעת לכבוד נשיא המדינה, ראובן (רובי) ריבלין, כי עלה בידי לסיים בהצלחה את מלאכת הרכבת הממשלה.
-> אני מתחייב, כי הממשלה הזו תעבוד בשירותם של כלל אזרחי ישראל, אלה שהצביעו עבורה ואלו שלא. היא תכבד את מתנגדיה ותעשה ככל שביכולתה לאחד ולחבר בין כל חלקי החברה הישראלית.
-
-https://x.com/boazbaraktcs/status/1400189642608046081 · [archived](https://web.archive.org/web/20210602203708/https://twitter.com/boazbaraktcs/status/1400189642608046081)
-
 ## 2021-06-02 · reply to @boazbaraktcs
 
 > Thanks also to @kgajos for letting me know about this letter. In-person conferences and workshops are wonderful and I miss them a lot. But we need to make sure that everyone can enjoy them and focus on the science rather than on worrying for their safety.
@@ -3839,7 +3272,8 @@ https://x.com/boazbaraktcs/status/1400134076749676548 · [archived](https://web.
 
 ## 2021-06-02 · possibly deleted
 
-_(text not available)_
+> This has been great so far, I hope it becomes an annual program! I've learned a bunch about Markov chains and market design, and I'm just a lowly TA 😀.
+> Thanks to @geomblog for an inspiring talk, and to the organizers for making it happen. https://t.co/UiDynuX9AU
 
 https://x.com/boazbaraktcs/status/1399929829282156548 · [archived](https://web.archive.org/web/20210602032830/https://twitter.com/boazbaraktcs/status/1399929829282156548)
 
@@ -3876,7 +3310,8 @@ https://x.com/boazbaraktcs/status/1398052262661001221 · [archived](https://web.
 
 ## 2021-05-27 · possibly deleted
 
-_(text not available)_
+> I am incredibly grateful to the @Harvard_Law class of 2021 for honoring the most meaningful part of my job: teaching. You inspire me. I cannot wait to work with you as peers to demand a more just world.
+> https://t.co/IqHBKCHff4
 
 https://x.com/boazbaraktcs/status/1397941378131365892 · [archived](https://web.archive.org/web/20210527160453/https://twitter.com/boazbaraktcs/status/1397941378131365892)
 
@@ -3900,19 +3335,6 @@ Quoting https://x.com/kundan_official/status/1397796537955065858:
 
 https://x.com/boazbaraktcs/status/1397879182064033796 · [archived](https://web.archive.org/web/20210527114030/https://twitter.com/boazbaraktcs/status/1397879182064033796)
 
-## 2021-05-27
-
-> Publishing statistical data is privacy-safe, right? 😀
-> 
-> … right? 🤔
-> 
-> Well, not really 😟
-> 
-> In this ✨ new blog post ✨, I break down the successful reconstruction attack that the US Census Bureau ran on their 2010 data. It's all kinds of scary! 🙀
-> https://t.co/uyMmH7vi3j
-
-https://x.com/boazbaraktcs/status/1397722270886510597 · [archived](https://web.archive.org/web/20210527011242/https://twitter.com/boazbaraktcs/status/1397722270886510597)
-
 ## 2021-05-26 · reply to @Tim_Roughgarden
 
 > @algo_class @jasondhartline The main confusing part about reductions is remembering which direction they go. I use heavily Sipser's "if pigs could whistle then horses would fly" metaphor
@@ -3927,19 +3349,19 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1397200218383429643 · [archived](https://web.archive.org/web/20210525143926/https://twitter.com/boazbaraktcs/status/1397200218383429643)
 
-## 2021-05-19
+## 2021-05-19 · reply to @Theophite
 
 > @Theophite This is great. “As for road safety, try going against the grain. Return to the practices we had in place before car accidents became commonplace.” https://t.co/l6AICt1enX
 
 https://x.com/boazbaraktcs/status/1394821411718455297 · [archived](https://web.archive.org/web/20210519010549/https://twitter.com/boazbaraktcs/status/1394821411718455297)
 
-## 2021-05-18
+## 2021-05-18 · reply to @rasmansa
 
 > @rasmansa I have never been involved with admissions at Harvard. However, I do hope that we sometimes admit students that got poor grades in high school but did something exceptional, as long as that exceptional thing is not only doing well in a multiple-answer test.
 
 https://x.com/boazbaraktcs/status/1394801964098232322 · [archived](https://web.archive.org/web/20210518234836/https://twitter.com/boazbaraktcs/status/1394801964098232322)
 
-## 2021-05-17
+## 2021-05-17 · reply to @JamesSurowiecki
 
 > @JamesSurowiecki @TransparentHRC This is probably low on the list for obstacles to a Palestinian state. There are plans for this tunnel/road. It would be as guarded as a border, and it's not going to be easy to get close to it. 
 > 
@@ -3949,23 +3371,6 @@ https://x.com/boazbaraktcs/status/1394801964098232322 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1394377658599755776 · [archived](https://web.archive.org/web/20210517221040/https://twitter.com/boazbaraktcs/status/1394377658599755776)
 
-## 2021-05-17
-
-> There are only two times I get patriotic: (1) the Olympics (sorry, not sorry) and (2) when someone amazing takes a job in government. Congrats, Suresh! The country is lucky to have you. USA! USA! USA! 🇺🇸🇺🇸🇺🇸
-
-Quoting https://x.com/geomblog/status/1394301232068521992:
-> It's time for a transition. 
-> 
-> 1. Moving to @WHOSTP to work with @AlondraNelson46 on bias/fairness. 
-> 
-> 2. Moving to @BrownUniversity @BrownCSDept @Brown_DSI to work with @senykam on a new center on computing for the people. 
-> 
-> 14.5 years @UtahSoC - wow!
-> 
-> https://t.co/s4Tb47ZaFh
-
-https://x.com/boazbaraktcs/status/1394375911831523328 · [archived](https://web.archive.org/web/20210517202919/https://twitter.com/boazbaraktcs/status/1394375911831523328)
-
 ## 2021-05-17 · possibly deleted
 
 _(text not available)_
@@ -3974,17 +3379,18 @@ https://x.com/boazbaraktcs/status/1394252327155081216 · [archived](https://web.
 
 ## 2021-05-13 · possibly deleted
 
-_(text not available)_
+> Fully vaccinated people can now go back to talking about the first Trump impeachment and whether or not they will travel to Addis Ababa for ICLR 2020.
+> https://t.co/lPvTGlVOGA
 
 https://x.com/boazbaraktcs/status/1392926734182387712 · [archived](https://web.archive.org/web/20210513193644/https://twitter.com/boazbaraktcs/status/1392926734182387712)
 
-## 2021-05-13
+## 2021-05-13 · reply to @SumoTail
 
 > @TheRandomMtrix @no_lying_online In that year or two  there is significant chance that unvaccinated kids will get Covid. Even if fatality ratio is low for kids, it is not a risk free disease for them.
 
 https://x.com/boazbaraktcs/status/1392877382634201092 · [archived](https://web.archive.org/web/20210513162626/https://twitter.com/boazbaraktcs/status/1392877382634201092)
 
-## 2021-05-13
+## 2021-05-13 · reply to @SumoTail
 
 > @TheRandomMtrix @no_lying_online Even if you ignore risk of transmitting to others, all evidence at this point is that the vaccine is much safer than the disease itself at all age groups. Since COVID-19 is quite prevalent, and so risk of catching it is significant, this is the relevant comparison.
 
@@ -3996,19 +3402,19 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1391735705647341569 · [archived](https://web.archive.org/web/20210510124734/https://twitter.com/boazbaraktcs/status/1391735705647341569)
 
-## 2021-05-10
+## 2021-05-10 · reply to @matthew_d_green
 
 > @matthew_d_green @SarahJamieLewis @nikitab @ljean @nc2y I admit I don’t know enough about the Linux patch reviewing mechanism. But I think to demonstrate the scientific point, one can work with any other open source project, and maybe find one where there is a hierarchy and it is interested in studying their verification mechanism
 
 https://x.com/boazbaraktcs/status/1391580111405821957 · [archived](https://web.archive.org/web/20210510052507/https://twitter.com/boazbaraktcs/status/1391580111405821957)
 
-## 2021-05-09
+## 2021-05-09 · reply to @boazbaraktcs
 
 > @nikitab @matthew_d_green @ljean @SarahJamieLewis @nc2y Not saying that there isn't ethical issue here, and if I was running the project I would probably insist on giving general warning that such commits might come at some point. (With the "risk" that it makes process more secure even for other commits :) )
 
 https://x.com/boazbaraktcs/status/1391531168332386313 · [archived](https://web.archive.org/web/20210510021227/https://twitter.com/boazbaraktcs/status/1391531168332386313)
 
-## 2021-05-09
+## 2021-05-09 · reply to @nikitab
 
 > @nikitab @matthew_d_green @ljean @SarahJamieLewis @nc2y If this would have been done in coordination with the kernel project leaders, then they would be doing the deception, and since they are not a university it's not up to IRB. 
 > 
@@ -4016,7 +3422,7 @@ https://x.com/boazbaraktcs/status/1391531168332386313 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1391530913679478786 · [archived](https://web.archive.org/web/20210510014823/https://twitter.com/boazbaraktcs/status/1391530913679478786)
 
-## 2021-05-09
+## 2021-05-09 · reply to @michael_nielsen
 
 > @michael_nielsen @togelius This is indeed suspicious. The dynamics of safe and competitive seats are so different, that if you run an experiment like that, you want to restrict to one or the other.
 
@@ -4048,11 +3454,12 @@ https://x.com/boazbaraktcs/status/1390543311698604036 · [archived](https://web.
 
 ## 2021-05-05 · possibly deleted
 
-_(text not available)_
+> This public lecture by Avi Wigderson tomorrow 3:30pm should be awesome
+> https://t.co/EPIUQSrPwu
 
 https://x.com/boazbaraktcs/status/1390083678328528899 · [archived](https://web.archive.org/web/20210505232949/https://twitter.com/boazbaraktcs/status/1390083678328528899)
 
-## 2021-05-05
+## 2021-05-05 · reply to @littmath
 
 > @littmath @AlexKontorovich At least in cambridge public schools, there is a trend toward pushing grouping and advanced math courses later, and also a trend that larger fraction of students that can afford it take afterschool courses such as Russian School of Math or AOPS.
 > 
@@ -4060,7 +3467,7 @@ https://x.com/boazbaraktcs/status/1390083678328528899 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1389961875350298628 · [archived](https://web.archive.org/web/20210505153514/https://twitter.com/boazbaraktcs/status/1389961875350298628)
 
-## 2021-05-05
+## 2021-05-05 · reply to @Theophite
 
 > @Theophite @nmancuso_ This does not seem to be an issue with a particular method but an inherent conflict between privacy and coverage. 
 > 
@@ -4070,11 +3477,11 @@ https://x.com/boazbaraktcs/status/1389735086250135553 · [archived](https://web.
 
 ## 2021-05-03 · possibly deleted
 
-_(text not available)_
+> @mattyglesias @perrybaconjr This is a good article. While much media discussion is on 0.4% shifts (e.g., Trump doing 4% better with Hispanic voters that are 10% of voters), important to remember this:
 
 https://x.com/boazbaraktcs/status/1389233163382272005 · [archived](https://web.archive.org/web/20210503150049/https://twitter.com/boazbaraktcs/status/1389233163382272005)
 
-## 2021-04-28
+## 2021-04-28 · reply to @hima_lakkaraju
 
 > @hima_lakkaraju @HarvardHBS While the website states amounts in Indian Ruppees, American citizens with no Indian bank account can donate using a credit card. 
 > 
@@ -4088,24 +3495,9 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1387468450860257281 · [archived](https://web.archive.org/web/20210428180750/https://twitter.com/boazbaraktcs/status/1387468450860257281)
 
-## 2021-04-27
-
-> Thrilled to share I'll be joining @Harvard this summer as an Assistant Professor of Economics, with a joint appointment also as Assistant Professor of Computer Science @hseas. So grateful for Harvard Econ's open-mindedness &amp; thankful to more ppl than a tweet can fit. #EconTwitter
-
-https://x.com/boazbaraktcs/status/1387039103158571011 · [archived](https://web.archive.org/web/20210427140825/https://twitter.com/boazbaraktcs/status/1387039103158571011)
-
-## 2021-04-25
-
-> The situation in India is really dire and we all could use some help! Thank you for highlighting this @VirusesImmunity!! If any of you would like to contribute your scientific expertise, please consider coming on board the terrific @IndiaCOVIDSOS  spearheaded by @PrakashLab!!
-
-Quoting https://x.com/VirusesImmunity/status/1386372240724398081:
-> The #COVID situation is so dire in India. Patients are dying because of lack of medical oxygen. Please consider donating $ to send oxygen concentrators to India. It only takes a minute of your time. Thank you for your support.
-
-https://x.com/boazbaraktcs/status/1386421870900043776 · [archived](https://web.archive.org/web/20210425204904/https://twitter.com/boazbaraktcs/status/1386421870900043776)
-
 ## 2021-04-25 · possibly deleted
 
-_(text not available)_
+> As I struggled to deal with the impact of COVID on my family members in India, I got delayed by a day for submitting my reviews for a conference &amp; I got a message from a senior reviewer with the blurb below. My humble request to everyone - pls don't say this to anyone ever! [1/n]
 
 https://x.com/boazbaraktcs/status/1386419825409355779 · [archived](https://web.archive.org/web/20210425204051/https://twitter.com/boazbaraktcs/status/1386419825409355779)
 
@@ -4120,18 +3512,6 @@ https://x.com/boazbaraktcs/status/1386306009392615424 · [archived](https://web.
 _(text not available)_
 
 https://x.com/boazbaraktcs/status/1386298782371901443 · [archived](https://web.archive.org/web/20210425123935/https://twitter.com/boazbaraktcs/status/1386298782371901443)
-
-## 2021-04-24
-
-> An all-star team of data privacy folks chimes in on Alabama's lawsuit against DP in the 2020 Census. I read it immediately. Phenomenally written, and accessible to the common-person.
-> 
-> Kudos to the team for stepping outside the ivory tower and doing this very important work.
-
-Quoting https://x.com/aloni_bologna/status/1385987124785262602:
-> A group of data privacy experts filed an amicus brief supporting @uscensusbureau in Alabama’s lawsuit challenging the use of differential privacy in the 2020 Census.
-> @rcalo @jhasomesh @korolova @DMulliganUCB @omerreingold @Aaroth @_kunal_talwar_ @djweitzner &amp; folks not on Twit. https://t.co/c0b79yRej6
-
-https://x.com/boazbaraktcs/status/1385989183223865354 · [archived](https://web.archive.org/web/20210424160925/https://twitter.com/boazbaraktcs/status/1385989183223865354)
 
 ## 2021-04-23
 
@@ -4149,7 +3529,7 @@ https://x.com/boazbaraktcs/status/1385613295483297800 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1384916944613171201 · [archived](https://web.archive.org/web/20210421170853/https://twitter.com/boazbaraktcs/status/1384916944613171201)
 
-## 2021-04-20
+## 2021-04-20 · reply to @ben_golub
 
 > @ben_golub To be fair, the more accurate  explanation by @Theophite  is not child-appropriate 
 > 
@@ -4182,7 +3562,7 @@ Quoting https://x.com/LindellYehuda/status/1384050420264308747:
 
 https://x.com/boazbaraktcs/status/1384112863367729160 · [archived](https://web.archive.org/web/20210419115354/https://twitter.com/boazbaraktcs/status/1384112863367729160)
 
-## 2021-04-16
+## 2021-04-16 · reply to @boazbaraktcs
 
 > @mattyglesias One issue with proportional representation: small but extreme parties can have lots of power if they can get you over the 50% edge. 
 > 
@@ -4190,7 +3570,7 @@ https://x.com/boazbaraktcs/status/1384112863367729160 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1383074203927252993 · [archived](https://web.archive.org/web/20210416150626/https://twitter.com/boazbaraktcs/status/1383074203927252993)
 
-## 2021-04-12
+## 2021-04-12 · reply to @inhaleopenair
 
 > @inhaleopenair It is naive to think that if you legitimize discriminating against Iranians because you don't like their regime then it will stop with Iranians. 
 > 
@@ -4220,7 +3600,7 @@ https://x.com/boazbaraktcs/status/1381028075077521411 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1381028066827374603 · [archived](https://web.archive.org/web/20210410233557/https://twitter.com/boazbaraktcs/status/1381028066827374603)
 
-## 2021-04-09
+## 2021-04-09 · reply to @mattyglesias
 
 > @mattyglesias This is also an argument for why expanding access to voting is a good thing. Or at least why it's not obvious that restricting democracy to the most passionate voters will lead to better policy decisions.
 
@@ -4246,7 +3626,7 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1380154338581082116 · [archived](https://web.archive.org/web/20210408134350/https://twitter.com/boazbaraktcs/status/1380154338581082116)
 
-## 2021-04-08
+## 2021-04-08 · reply to @ciphergoth
 
 > @ciphergoth @Janfreterson @matthew_d_green I actually do think that AI risk is an issue worth researching and thinking about, though I don't think it is a near-term one. 
 > 
@@ -4265,7 +3645,7 @@ Quoting https://x.com/noa_landau/status/1380120162968436739:
 
 https://x.com/boazbaraktcs/status/1380149213066096646 · [archived](https://web.archive.org/web/20210408132320/https://twitter.com/boazbaraktcs/status/1380149213066096646)
 
-## 2021-04-08
+## 2021-04-08 · reply to @Janfreterson
 
 > @Janfreterson @matthew_d_green @ciphergoth "rich people are altruistic" is a new one..
 > 
@@ -4275,30 +3655,11 @@ https://x.com/boazbaraktcs/status/1380142482873331713 · [archived](https://web.
 
 ## 2021-04-06 · possibly deleted
 
-> Here is a short proof of Stirling's formula n! ~ (n/e)^n √2πn using probability 🎲 (using an appropriate version of the Central Limit Theorem (CLT)). How do we end up with e and π approximating a factorial? Please ❤️ and retweet if you like such content. (1/n)
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1379546730795008007 · [archived](https://web.archive.org/web/20210406212919/https://twitter.com/boazbaraktcs/status/1379546730795008007)
 
-## 2021-04-06
-
-> Do neural networks have any emergent structures that are larger-scale than circuits?
-> 
-> In our new Circuits article, we investigate the tendency of neural network branches to *specialize* – sorting closely-related features together across distinct branches.
-> 
-> https://t.co/lcVBeShwow
-
-https://x.com/boazbaraktcs/status/1379509592808423426 · [archived](https://web.archive.org/web/20210406190217/https://twitter.com/boazbaraktcs/status/1379509592808423426)
-
-## 2021-04-06
-
-> Soros-backed Central Europe University (CEU) is forced out of Budapest. In its place comes Fudan University from China
-
-Quoting https://x.com/eublogo/status/1379352214796435457:
-> #Hungary will make 1 of the largest investments in the higher education in decades financed by #China. The construction of the campus of the @FudanUniv will be implemented by a 🇨🇳 state company. It’ll cost more than the budget of the entire higher education in 2019, @direct36
-
-https://x.com/boazbaraktcs/status/1379404151004749825 · [archived](https://web.archive.org/web/20210406132551/https://twitter.com/boazbaraktcs/status/1379404151004749825)
-
-## 2021-04-03
+## 2021-04-03 · reply to @ben_golub
 
 > @ben_golub @geomblog @AlexKontorovich You can also add a legend at the end:
 > 
@@ -4328,79 +3689,33 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1377930778223521792 · [archived](https://web.archive.org/web/20210402102818/https://twitter.com/boazbaraktcs/status/1377930778223521792)
 
-## 2021-04-01
-
-> 1/ Thank you Gautam Kamath @thegautamkamath for sharing your research and journey at today’s #TrustML seminar 🎉🎊 
-> 
-> Want to continue the discussion on topics related to today’s talk? Use this thread to discuss any questions and ideas! 🚀 https://t.co/vT75UJHZi8
-
-https://x.com/boazbaraktcs/status/1377673767812440067 · [archived](https://web.archive.org/web/20210401172706/https://twitter.com/boazbaraktcs/status/1377673767812440067)
-
-## 2021-04-01
-
-> Income shocks, like losing a job or government benefits, can drive people into poverty. In this interview, theoretical computer scientist Rediet Abebe discusses how she designs algorithms that can optimize assistance for people experiencing income shocks. https://t.co/QmBBXiBfgA
-
-https://x.com/boazbaraktcs/status/1377633534370705410 · [archived](https://web.archive.org/web/20210401144713/https://twitter.com/boazbaraktcs/status/1377633534370705410)
-
 ## 2021-03-31 · possibly deleted
 
 _(text not available)_
 
 https://x.com/boazbaraktcs/status/1377277869743763456 · [archived](https://web.archive.org/web/20210331151414/https://twitter.com/boazbaraktcs/status/1377277869743763456)
 
-## 2021-03-31
-
-> Today @ 11am EST: Brown’s Computing for the People  +  the Center for the Study of Race &amp; Ethnicity in America @RaceEthnicity is hosting a panel on *Bias &amp; Discrimination in AI*  w/  @mutalenkonde @merbroussard and @red_abebe . Registration details here: https://t.co/Gbuwg7TLsQ
-
-https://x.com/boazbaraktcs/status/1377257598349504514 · [archived](https://web.archive.org/web/20210331135323/https://twitter.com/boazbaraktcs/status/1377257598349504514)
-
-## 2021-03-31
-
-> Here's my analysis of what happened in Antrim County, Michigan, during the November election:
-> https://t.co/7P75e7sjlO
-> 
-> Full report: https://t.co/RFtJr4Venn
-
-https://x.com/boazbaraktcs/status/1377256816338341892 · [archived](https://web.archive.org/web/20210331135030/https://twitter.com/boazbaraktcs/status/1377256816338341892)
-
 ## 2021-03-30 · possibly deleted
 
-> Just curious - What's the message board that does quick pop-up investigations to figure out who people are? Kind of want to see it operating in this instance https://t.co/GIWztIdih2
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1376868020291829762 · [archived](https://web.archive.org/web/20210330120920/https://twitter.com/boazbaraktcs/status/1376868020291829762)
 
 ## 2021-03-30 · possibly deleted
 
-> What in the world is happening here?
-> We do have a virus spreading in this country.
-> But I am not talking about COVID. https://t.co/OCAqCrhPIW
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1376867378714324993 · [archived](https://web.archive.org/web/20210330120711/https://twitter.com/boazbaraktcs/status/1376867378714324993)
 
 ## 2021-03-29 · possibly deleted
 
-> فصل صيفي جديد في نظريات علوم الحاسب.
-> الفئة المستهدفة هم طلبة البكالوريس لمن أنتهى من مادة الرياضيات المتقطعة والخوارزميات وبالأخص من يمثل جماعة أو عرق أو جنسية معينة بحيث قلة من يعرف في هذا التخصص. https://t.co/4NYqnDcuCC
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1376670607312568321 · [archived](https://web.archive.org/web/20210329230054/https://twitter.com/boazbaraktcs/status/1376670607312568321)
 
-## 2021-03-29
-
-> Just come across this wonderful video (h/t @AlexKontorovich), which should be required viewing for all new maths PhD students. A tl;dw (taken from the video itself): "Being good at math is being good at being stuck." But trust me it's not tl: it's worth 10 mins of your time.
-
-https://x.com/boazbaraktcs/status/1376607458362327045 · [archived](https://web.archive.org/web/20210329184940/https://twitter.com/boazbaraktcs/status/1376607458362327045)
-
-## 2021-03-29
-
-> New Horizons in Theoretical Computer Science - A summer school for undergrads interested in TCS! Apply by April 15. Organized by Boaz Barak (@boazbaraktcs), Shuchi Chawla, and Madhur Tulsiani. What a lineup of speakers! And more to come? https://t.co/KHu3uaQMLE https://t.co/Eb0tWHO9qo
-
-https://x.com/boazbaraktcs/status/1376554661591801867 · [archived](https://web.archive.org/web/20210329152441/https://twitter.com/boazbaraktcs/status/1376554661591801867)
-
 ## 2021-03-29 · possibly deleted
 
-> We (@maxkasy and I) have a piece in here called
-> "The Means of Prediction."
-> I promise this is as bad as my article titles will ever get. https://t.co/a5qRK59im5
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1376554295265484803 · [archived](https://web.archive.org/web/20210329151837/https://twitter.com/boazbaraktcs/status/1376554295265484803)
 
@@ -4428,33 +3743,6 @@ https://x.com/boazbaraktcs/status/1376201012319547394 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1376026152574259203 · [archived](https://web.archive.org/web/20210328042008/https://twitter.com/boazbaraktcs/status/1376026152574259203)
 
-## 2021-03-28
-
-> These are the four most popular misconceptions people have about race &amp; gender bias in algorithms.
-> 
-> I'm wary of wading into this conversation again, but it's important to acknowledge the research that refutes each point, despite it feeling counter-intuitive.
-> 
-> Let me clarify.👇🏾
-
-Quoting https://x.com/kareem_carr/status/1375828049720135691:
-> FOUR things to know about race and gender bias in algorithms:
-> 
-> 1. The bias starts in the data
-> 
-> 2. The algorithms don't create the bias but they do transmit it
-> 
-> 3. There are a huge number of other biases. Race and gender bias are just the most obvious
-> 
-> 4. It's fixable! 🧵👇
-
-https://x.com/boazbaraktcs/status/1376023837536624640 · [archived](https://web.archive.org/web/20210328041054/https://twitter.com/boazbaraktcs/status/1376023837536624640)
-
-## 2021-03-27 · reply to @peter_richtarik
-
-> @peter_richtarik's recent post gave me this idea: As next year yours truly will be partially responsible for reviewing quality at ICML, and you just got your first round of reviews back from named conference, vent for me. I promise to listen.
-
-https://x.com/boazbaraktcs/status/1375921034189242369 · [archived](https://web.archive.org/web/20210327212202/https://twitter.com/boazbaraktcs/status/1375921034189242369)
-
 ## 2021-03-26
 
 > Apparently this is https://t.co/80NAGH9g9j 
@@ -4481,26 +3769,23 @@ https://x.com/boazbaraktcs/status/1374378300198424586 · [archived](https://web.
 
 ## 2021-03-23 · possibly deleted
 
-> It has been 7 YEARS since @geomblog @scheidegger and I started writing this paper, 5 since we put it on arxiv, and it's FINALLY OUT!
-> It's changed in the making, so there's some new stuff here. Plus, CACM humored us and put in our TL;DRs.
-> Thread!
-> https://t.co/0kMD7GvmJJ
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1374376645801340936 · [archived](https://web.archive.org/web/20210323151019/https://twitter.com/boazbaraktcs/status/1374376645801340936)
 
-## 2021-03-21
+## 2021-03-21 · reply to @deonteleologist
 
 > @deonteleologist My 14 year old daughter (in Cambridge public school system) was blissfully unaware of it. She just recently discovered through talking to non-Cambridge kids that the pledge of allegiance and the national anthem are not the same thing.
 
 https://x.com/boazbaraktcs/status/1373489239644639239 · [archived](https://web.archive.org/web/20210321041904/https://twitter.com/boazbaraktcs/status/1373489239644639239)
 
-## 2021-03-21
+## 2021-03-21 · reply to @boazbaraktcs
 
 > pps If I had to bet, I'd predict noisy intermediate-scale quantum computing devices will NOT solve commercially important optimization problems better than large-scale classical computers any time in the near future. However, I’ve been wrong many times &amp; it's still worth trying
 
 https://x.com/boazbaraktcs/status/1373465247932092418 · [archived](https://web.archive.org/web/20210321024348/https://twitter.com/boazbaraktcs/status/1373465247932092418)
 
-## 2021-03-21
+## 2021-03-21 · reply to @boazbaraktcs
 
 > p.s. As commented on Scott's blog: I believe QC now is about where classical computing was in 1940s. ( https://t.co/OWPVN2WkLY .) We should remember that in 1943, Watson famously said that there is a world market for maybe five computers.
 
@@ -4516,32 +3801,17 @@ https://x.com/boazbaraktcs/status/1373462899356803072 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1373459197258530816 · [archived](https://web.archive.org/web/20210321021935/https://twitter.com/boazbaraktcs/status/1373459197258530816)
 
-## 2021-03-20
+## 2021-03-20 · reply to @SchmiegSophie
 
 > @SchmiegSophie @michiokaku As a computer scientist, I think the God equation is 1 + 1 = 0 (mod 2). Everything else is just details.
 
 https://x.com/boazbaraktcs/status/1373121515328258048 · [archived](https://web.archive.org/web/20210320035749/https://twitter.com/boazbaraktcs/status/1373121515328258048)
 
-## 2021-03-19
+## 2021-03-19 · reply to @SoulPhysics
 
 > @SoulPhysics @lastpositivist Sure! As long as you don't blame me if the time to compute this conditional expectation grows exponentially in the number of observations corresponding to this subfield :)
 
 https://x.com/boazbaraktcs/status/1372937575183351812 · [archived](https://web.archive.org/web/20210319154659/https://twitter.com/boazbaraktcs/status/1372937575183351812)
-
-## 2021-03-19
-
-> This is another account written by a former @AddisCoder TA whose little brother was killed.
-> 
-> I cried reading this. Generations of trauma. 
-> 
-> Eritreans have had decades of trauma, our friends &amp; families dead, exiled, tortured &amp; all that after a 30 year war for independence...1/3
-
-Quoting https://x.com/FreeMyTigray11/status/1372608660015353865:
-> @minilek @TigraiCodes Thanks for sharing Jelani @minilek .
-> 
-> I also wrote an article detailing my experience anonymously because I was in Ethiopia when writing it (I just left a week ago) https://t.co/OySirkRQLU
-
-https://x.com/boazbaraktcs/status/1372742253865750541 · [archived](https://web.archive.org/web/20210319025041/https://twitter.com/boazbaraktcs/status/1372742253865750541)
 
 ## 2021-03-19 · reply to @ciphergoth
 
@@ -4553,13 +3823,7 @@ https://x.com/boazbaraktcs/status/1372742253865750541 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1372729427151486984 · [archived](https://web.archive.org/web/20210319015953/https://twitter.com/boazbaraktcs/status/1372729427151486984)
 
-## 2021-03-18
-
-> Scoop: Biden dispatching a key Capitol Hill ally on a diplomatic mission. Sen. Chris Coons to travel to Ethiopia to urge end to Tigray conflict https://t.co/wWR5TEkAuz
-
-https://x.com/boazbaraktcs/status/1372592599119273988 · [archived](https://web.archive.org/web/20210318165611/https://twitter.com/boazbaraktcs/status/1372592599119273988)
-
-## 2021-03-18
+## 2021-03-18 · reply to @vitalyFM
 
 > @vitalyFM @whybansal Good question! Do you have examples? Note that test performance is only slightly worse than supervised in SSS (SS + fit Simple classifier) - e.g. 0.7 points in best classifier in this table.
 > 
@@ -4570,35 +3834,11 @@ Quoting https://x.com/boazbaraktcs/status/1372178426694602754:
 
 https://x.com/boazbaraktcs/status/1372379287626584073 · [archived](https://web.archive.org/web/20210318025016/https://twitter.com/boazbaraktcs/status/1372379287626584073)
 
-## 2021-03-17
+## 2021-03-17 · reply to @JamesSurowiecki
 
 > @JamesSurowiecki The CDC and FDA are parts of the federal government, and in another administration, testing would likely have been a big initial focus of the "Covid-19 Czar".
 
 https://x.com/boazbaraktcs/status/1372293999461998592 · [archived](https://web.archive.org/web/20210317211350/https://twitter.com/boazbaraktcs/status/1372293999461998592)
-
-## 2021-03-17
-
-> Perfect choice, probably my top two heroes in Theoretical Computer Science.
-> 
-> Great opportunity to recommend this fascinating video of Avi interviewing Laci:
-> https://t.co/NDHSZB8sXY
-> 
-> Also: read Avi's book https://t.co/1RDHOqxLrb and Laci's many books (esp. https://t.co/YGAaLhWP3d)
-
-Quoting https://x.com/abel_prize/status/1372141388897341446:
-> Congratulations! Lázló Lovász and Avi Wigderson share the Abel Prize of 2021. 
-> 
-> They receive the prize “for their foundational contributions to theoretical computer science." #AbelPrize #AbelPrize2021 https://t.co/cu2kyqM80o
-
-https://x.com/boazbaraktcs/status/1372179553267953665 · [archived](https://web.archive.org/web/20210317133448/https://twitter.com/boazbaraktcs/status/1372179553267953665)
-
-## 2021-03-17
-
-> Must watch Abel Prize announcement describing the breadth and depth of the works of Avi and Laci and, more generally, the broad and deep impact of  theoretical computer science to mathematics, science, and society.
-> 
-> https://t.co/za0BOgX5lZ
-
-https://x.com/boazbaraktcs/status/1372178814852329472 · [archived](https://web.archive.org/web/20210317133153/https://twitter.com/boazbaraktcs/status/1372178814852329472)
 
 ## 2021-03-16 · reply to @boazbaraktcs
 
@@ -4616,7 +3856,7 @@ https://x.com/boazbaraktcs/status/1371892080985972738 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1371837463086383107 · [archived](https://web.archive.org/web/20210316145619/https://twitter.com/boazbaraktcs/status/1371837463086383107)
 
-## 2021-03-16
+## 2021-03-16 · reply to @boazbaraktcs
 
 > @ajaydiv @mattyglesias Ultimately, critiques of modern universities that long for the students of the 1950s leave me cold.
 > 
@@ -4626,7 +3866,7 @@ https://x.com/boazbaraktcs/status/1371837463086383107 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1371831648506023951 · [archived](https://web.archive.org/web/20210316143321/https://twitter.com/boazbaraktcs/status/1371831648506023951)
 
-## 2021-03-16
+## 2021-03-16 · reply to @boazbaraktcs
 
 > @ajaydiv @mattyglesias I see no evidence that (for example) majoring in humanities yields better individuals than computer science. 
 > 
@@ -4638,7 +3878,7 @@ https://x.com/boazbaraktcs/status/1371831648506023951 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1371830222803337218 · [archived](https://web.archive.org/web/20210316142654/https://twitter.com/boazbaraktcs/status/1371830222803337218)
 
-## 2021-03-16
+## 2021-03-16 · reply to @paulg
 
 > @paulg @michael_nielsen @DavidDeutschOxf If the question is “paid” instead of “paid well” then the academic system does help with funding certain types of projects that are positive in the long run but don’t generate a profit.
 > 
@@ -4662,17 +3902,17 @@ https://x.com/boazbaraktcs/status/1371573453170618368 · [archived](https://web.
 
 ## 2021-03-15 · possibly deleted
 
-> Good thread here. This was also my take. https://t.co/GeV9IJio8Q
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1371450711842635784 · [archived](https://web.archive.org/web/20210315131847/https://twitter.com/boazbaraktcs/status/1371450711842635784)
 
-## 2021-03-13
+## 2021-03-13 · reply to @boazbaraktcs
 
 > @zacharylipton To be sure, I am not saying they represent private school kids or even private school kids at Harvard. I tend not to get into talking  with students about which school they went to unless they are both very excited about computer science &amp; also nice kids.
 
 https://x.com/boazbaraktcs/status/1370757606428585984 · [archived](https://web.archive.org/web/20210313152429/https://twitter.com/boazbaraktcs/status/1370757606428585984)
 
-## 2021-03-13
+## 2021-03-13 · reply to @rasmansa
 
 > @rasmansa My 8yo is still working on multiplication table but has high ambitions. He found it awesome that you can prove facts about infinitely many integers, and asked me to prove the distributive law. We worked through it &amp; then he asks “can you now prove to me Fermat’s last theorem?” 😀
 
@@ -4680,15 +3920,13 @@ https://x.com/boazbaraktcs/status/1370755227230601218 · [archived](https://web.
 
 ## 2021-03-12 · possibly deleted
 
-> By the way, for those interested in robustness in #ML, worth recalling that Jerry Li (@jerryzli) has a set of very nice lecture notes and videos.
-> 🎥https://t.co/sXBmK5A4sL
-> 📝https://t.co/ay0SB6LFuC
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1370381447035551745 · [archived](https://web.archive.org/web/20210312143025/https://twitter.com/boazbaraktcs/status/1370381447035551745)
 
 ## 2021-03-11 · possibly deleted
 
-> Awarding Oded with the Israel prize would have honored Israel more than it would Oded. Cancelling the award is a shame. https://t.co/TPQcteve7K
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1370154989298024449 · [archived](https://web.archive.org/web/20210311232955/https://twitter.com/boazbaraktcs/status/1370154989298024449)
 
@@ -4702,12 +3940,11 @@ https://x.com/boazbaraktcs/status/1370131430056005633 · [archived](https://web.
 
 ## 2021-03-11 · possibly deleted
 
-> So, I wrote a short thing on @DiffPriv about the "δ" of differential privacy, what it means, what it could mean, and what it should mean. Hope you find it instructive: comments welcome!
-> https://t.co/A1QqXcNT7S
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1369999830899130375 · [archived](https://web.archive.org/web/20210311131407/https://twitter.com/boazbaraktcs/status/1369999830899130375)
 
-## 2021-03-11
+## 2021-03-11 · reply to @boazbaraktcs
 
 > 3/3 Disclosure: @PreetumNakkiran is formally my student, though in practice he’s been more advising me than the other way around 😀
 
@@ -4715,11 +3952,11 @@ https://x.com/boazbaraktcs/status/1369999268375842824 · [archived](https://web.
 
 ## 2021-03-11 · possibly deleted
 
-> Today a mathematician told me about a 19th c. woman who was exceedingly able to visualize 4D space and so mathematicians would come to her house and ask questions and she'd tell them what it looked like and they'd go do the proofs and she was always right.
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1369816833210073091 · [archived](https://web.archive.org/web/20210311010613/https://twitter.com/boazbaraktcs/status/1369816833210073091)
 
-## 2021-03-10
+## 2021-03-10 · reply to @joftius
 
 > @joftius That’s why academics invented committees. No single person is responsible for the decision. It’s our version of the firing squad.
 
@@ -4731,13 +3968,7 @@ https://x.com/boazbaraktcs/status/1369755817898020867 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1369690309303615489 · [archived](https://web.archive.org/web/20210310164348/https://twitter.com/boazbaraktcs/status/1369690309303615489)
 
-## 2021-03-09
-
-> My dear friend is rapidly loosing his ability to breathe due to a rare genetic condition. He can be saved by a complex double transplant and his family is raising funds to pay for it. His story is special and I hope you'll consider donating/sharing https://t.co/GFc2Ga1g3g
-
-https://x.com/boazbaraktcs/status/1369394909594128388 · [archived](https://web.archive.org/web/20210309210932/https://twitter.com/boazbaraktcs/status/1369394909594128388)
-
-## 2021-03-08
+## 2021-03-08 · reply to @ciphergoth
 
 > @ciphergoth @robbensinger Doubt they looked at Caplan-like arguments, but over last decades many countries decided to invest significant resources in broadening access to education.
 > 
@@ -4745,7 +3976,7 @@ https://x.com/boazbaraktcs/status/1369394909594128388 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1369021739288649729 · [archived](https://web.archive.org/web/20210308202648/https://twitter.com/boazbaraktcs/status/1369021739288649729)
 
-## 2021-03-08
+## 2021-03-08 · reply to @boazbaraktcs
 
 > @robbensinger @ciphergoth Moreover, unlike Covid/healthcare, for education you don’t need to re-organize all of society to pick up the bills from the floor. Employer/employee markets are largely local - most people don’t move - and there’s no regulation requiring education. Should be easier to disrupt.
 
@@ -4777,7 +4008,7 @@ https://x.com/boazbaraktcs/status/1368932677949284355 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1368930722828881920 · [archived](https://web.archive.org/web/20210308142536/https://twitter.com/boazbaraktcs/status/1368930722828881920)
 
-## 2021-03-08
+## 2021-03-08 · reply to @boazbaraktcs
 
 > 8/ Finally, here is where @bryan_caplan is correct. People don’t use most of what they learn in high school &amp; beyond.
 > 
@@ -4785,19 +4016,19 @@ https://x.com/boazbaraktcs/status/1368930722828881920 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1368919711044546560 · [archived](https://web.archive.org/web/20210308134203/https://twitter.com/boazbaraktcs/status/1368919711044546560)
 
-## 2021-03-08
+## 2021-03-08 · reply to @boazbaraktcs
 
 > 4/ There is simple policy prescription to take advantage of this inefficiency - a country that stops formal education at 8th grade &amp; taxes/abolishes college, should get huge productivity boost. “Amazingly” countries with vastly varying cultures &amp; regimes all doing the opposite.
 
 https://x.com/boazbaraktcs/status/1368919705994543104 · [archived](https://web.archive.org/web/20210308134205/https://twitter.com/boazbaraktcs/status/1368919705994543104)
 
-## 2021-03-08
+## 2021-03-08 · reply to @boazbaraktcs
 
 > 2/ Caplan’s theory that about 80% of education beyond basic literacy and numeracy is just about “useless signaling”. It serves no useful purpose by itself. Rather students and employers get stuck in “arms race” of requiring ever more credentials to do jobs that don’t need them.
 
 https://x.com/boazbaraktcs/status/1368919703456997383 · [archived](https://web.archive.org/web/20210308134132/https://twitter.com/boazbaraktcs/status/1368919703456997383)
 
-## 2021-03-08
+## 2021-03-08 · reply to @boazbaraktcs
 
 > @robbensinger @ciphergoth Beyond debating minor points, at high level the argument is that people, countries and companies are wasting hundreds of billions of dollars on a useless activity.
 > 
@@ -4805,7 +4036,7 @@ https://x.com/boazbaraktcs/status/1368919703456997383 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1368782027290447881 · [archived](https://web.archive.org/web/20210308043427/https://twitter.com/boazbaraktcs/status/1368782027290447881)
 
-## 2021-03-07
+## 2021-03-07 · reply to @rasmansa
 
 > @rasmansa Even in physics it’s unclear if laws of physics would be same if universe restarted. Certain constants seem arbitrary and some proposed “anthropic” explanation that their value is just because it enabled life.
 > 
@@ -4813,7 +4044,7 @@ https://x.com/boazbaraktcs/status/1368782027290447881 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1368576302526128129 · [archived](https://web.archive.org/web/20210307145650/https://twitter.com/boazbaraktcs/status/1368576302526128129)
 
-## 2021-03-05
+## 2021-03-05 · reply to @boazbaraktcs
 
 > @zeynep Sorry should have said
 > 
@@ -4840,24 +4071,6 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1367836404491943937 · [archived](https://web.archive.org/web/20210305135652/https://twitter.com/boazbaraktcs/status/1367836404491943937)
 
-## 2021-03-05
-
-> In this work https://t.co/pHr840ILGD with Itai Arad and @QuantumGosset , we prove an area law for the ground states of 2D frustration-free hamiltonians with a constant local gap. A quick perspective: area law is believed to follow from locality of correlations near the boundary
-
-https://x.com/boazbaraktcs/status/1367836305942601735 · [archived](https://web.archive.org/web/20210305135630/https://twitter.com/boazbaraktcs/status/1367836305942601735)
-
-## 2021-03-04
-
-> I've spent a lot of time investigating what goes on inside neural networks. Working on this project was the highest density of mindblowing discoveries since working on DeepDream. Maybe more so.
-
-https://x.com/boazbaraktcs/status/1367584671593340931 · [archived](https://web.archive.org/web/20210304211625/https://twitter.com/boazbaraktcs/status/1367584671593340931)
-
-## 2021-03-04
-
-> @rangerriri @BerkeleyDataSci I’ve taught using this example and had a different reaction. The point of the exercise is to prove that the US Supreme Court was wrong in its assertion that jury selection was fair and there was no attempt to exclude Black people.
-
-https://x.com/boazbaraktcs/status/1367506668632875010 · [archived](https://web.archive.org/web/20210304160635/https://twitter.com/boazbaraktcs/status/1367506668632875010)
-
 ## 2021-03-04 · possibly deleted
 
 _(text not available)_
@@ -4870,7 +4083,7 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1367152689897955333 · [archived](https://web.archive.org/web/20210303164112/https://twitter.com/boazbaraktcs/status/1367152689897955333)
 
-## 2021-03-02
+## 2021-03-02 · reply to @nickgermann
 
 > @nickgermann @srush_nlp @stanfordnlp @davidweichiang It is indeed quite similar. 
 > 
@@ -4878,17 +4091,7 @@ https://x.com/boazbaraktcs/status/1367152689897955333 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1366770061181145093 · [archived](https://web.archive.org/web/20210302151915/https://twitter.com/boazbaraktcs/status/1366770061181145093)
 
-## 2021-03-01
-
-> Named Tensor Notation (v1.0 release w/ @davidweichiang,  @boazbaraktcs ) - a "dangerous and irresponsible" proposal for reproducible math in deep learning. 
-> 
-> PDF: https://t.co/1jvhpG7yCH 
-> Comments: https://t.co/76h9E1bUWT
-> Why not Einsum? https://t.co/St0anL4v74 https://t.co/gbdGUBSS0C
-
-https://x.com/boazbaraktcs/status/1366423227170492419 · [archived](https://web.archive.org/web/20210301164619/https://twitter.com/boazbaraktcs/status/1366423227170492419)
-
-## 2021-02-27
+## 2021-02-27 · reply to @boazbaraktcs
 
 > @ESYudkowsky I actually think the natural state for a government agency like the CDC is to err on the side of over caution, especially if it’s not at huge economic cost. It’s not their job to tell you to hug your friends just like it’s not their job to tell you to eat a medium rare steak.
 
@@ -4914,7 +4117,7 @@ https://x.com/boazbaraktcs/status/1365462610792099840 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1365461710375710721 · [archived](https://web.archive.org/web/20210227004037/https://twitter.com/boazbaraktcs/status/1365461710375710721)
 
-## 2021-02-26
+## 2021-02-26 · reply to @boazbaraktcs
 
 > In case it wasn't clear - yes it is really that different
 > 
@@ -4922,23 +4125,11 @@ https://x.com/boazbaraktcs/status/1365461710375710721 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1365374669914845187 · [archived](https://web.archive.org/web/20210226185435/https://twitter.com/boazbaraktcs/status/1365374669914845187)
 
-## 2021-02-26
-
-> Computers can’t store unlimited amounts of data. Jelani Nelson develops algorithms that find a way around that challenge. https://t.co/8gFPlJobNn https://t.co/iZmPsvqptM
-
-https://x.com/boazbaraktcs/status/1365371614200795141 · [archived](https://web.archive.org/web/20210226184241/https://twitter.com/boazbaraktcs/status/1365371614200795141)
-
 ## 2021-02-25 · possibly deleted
 
-_(text not available)_
+> nick carlini is one of the premier researchers in his field. i would be literally unable to do my operational work without his research. this is absolutely insidious. https://t.co/cO87lTitVd
 
 https://x.com/boazbaraktcs/status/1365007209243893760 · [archived](https://web.archive.org/web/20210225183454/https://twitter.com/boazbaraktcs/status/1365007209243893760)
-
-## 2021-02-24
-
-> There’s an econ paper by a Harvard law professor that uses game theory to deny that the Japanese military held sex slaves during WW2. Yes, it literally makes that claim. https://t.co/CITPk7xCgF #EconTwitter
-
-https://x.com/boazbaraktcs/status/1364596064955809792 · [archived](https://web.archive.org/web/20210224152159/https://twitter.com/boazbaraktcs/status/1364596064955809792)
 
 ## 2021-02-23 · reply to @alz_zyd_
 
@@ -4954,7 +4145,7 @@ https://x.com/boazbaraktcs/status/1364285024015708163 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1364071798229368838 · [archived](https://web.archive.org/web/20210223043730/https://twitter.com/boazbaraktcs/status/1364071798229368838)
 
-## 2021-02-23
+## 2021-02-23 · reply to @boazbaraktcs
 
 > @suguna_misra @red_abebe @itsafronomics @black_in_ai @_KarenHao @kharijohnson Honestly, I don’t know what the rationale behind this policy, but am guessing it doesn’t have much practical effect.
 > 
@@ -4970,12 +4161,6 @@ https://x.com/boazbaraktcs/status/1364068749473628160 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1363892573895495680 · [archived](https://web.archive.org/web/20210222164648/https://twitter.com/boazbaraktcs/status/1363892573895495680)
 
-## 2021-02-21
-
-> We show that the PIN bypass attack for VISA cards can be applied to Mastercard cards. Fortunately, during our disclosure, Mastercard has rolled out mitigation already.
-
-https://x.com/boazbaraktcs/status/1363384915732103169 · [archived](https://web.archive.org/web/20210221070807/https://twitter.com/boazbaraktcs/status/1363384915732103169)
-
 ## 2021-02-21 · possibly deleted
 
 _(text not available)_
@@ -4984,30 +4169,17 @@ https://x.com/boazbaraktcs/status/1363357697630953472 · [archived](https://web.
 
 ## 2021-02-20 · possibly deleted
 
-_(text not available)_
+> this legendary thread, which had some initial production glitches, is up and running https://t.co/yrd5zeOMrY
 
 https://x.com/boazbaraktcs/status/1363194565931466756 · [archived](https://web.archive.org/web/20210220183146/https://twitter.com/boazbaraktcs/status/1363194565931466756)
 
-## 2021-02-18
+## 2021-02-18 · reply to @boazbaraktcs
 
 > @SASExperience Not saying that's the case there, but in general if SB score and DB score are two independent noisy samples of "inherent quality" and the latter is correlated with famous author (FA), then if you regress SB score on DB score and FA, you will have a noticeable coefficient on FA.
 
 https://x.com/boazbaraktcs/status/1362472293868314630 · [archived](https://web.archive.org/web/20210218184301/https://twitter.com/boazbaraktcs/status/1362472293868314630)
 
-## 2021-02-18
-
-> Do you need to recompute distances from scratch after one edge update? 
-> 
-> This paper gives a very nice improvement to the state-of-the-art. (Both authors are undergrads!)
-
-Quoting https://x.com/dfc7027894e168c/status/1362251312285372417:
-> https://t.co/rbPNUsyU0X
-> New paper with Yong Gu! We further improve the preprocessing time of Distance Sensitivity Oracles (DSOs) to O(n^{2.5794}) (also with constant query time). This is the first DSO below the "n^{8/3}-preprocessing barrier" (footnote 2 of the paper).
-> (1/5)
-
-https://x.com/boazbaraktcs/status/1362453216626159633 · [archived](https://web.archive.org/web/20210218172639/https://twitter.com/boazbaraktcs/status/1362453216626159633)
-
-## 2021-02-18
+## 2021-02-18 · reply to @tdietterich
 
 > @tdietterich @ccanonne_ @nattyover @BachFrancis I appreciate the sentiment, but I think it’s “perfect is enemy of the good”. 
 > 
@@ -5017,13 +4189,13 @@ https://x.com/boazbaraktcs/status/1362453216626159633 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1362386764799893505 · [archived](https://web.archive.org/web/20210218130235/https://twitter.com/boazbaraktcs/status/1362386764799893505)
 
-## 2021-02-17
+## 2021-02-17 · reply to @espiers
 
 > @espiers @michael_nielsen Some strong work in this space actually came from Google (though before they fired their AI ethics co lead..)
 
 https://x.com/boazbaraktcs/status/1362187170715475968 · [archived](https://web.archive.org/web/20210217234830/https://twitter.com/boazbaraktcs/status/1362187170715475968)
 
-## 2021-02-17
+## 2021-02-17 · reply to @espiers
 
 > @espiers @michael_nielsen You likely know more than I about this so will take your word for it. 
 > 
@@ -5043,7 +4215,7 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1362167970563301377 · [archived](https://web.archive.org/web/20210217223234/https://twitter.com/boazbaraktcs/status/1362167970563301377)
 
-## 2021-02-17
+## 2021-02-17 · reply to @nattyover
 
 > @nattyover @BachFrancis I am guessing because of anonymous submissions.
 > 
@@ -5068,16 +4240,7 @@ Quoting https://x.com/GilKalai/status/1361072698605068292:
 
 https://x.com/boazbaraktcs/status/1361174309230833664 · [archived](https://web.archive.org/web/20210215044412/https://twitter.com/boazbaraktcs/status/1361174309230833664)
 
-## 2021-02-12
-
-> Brown’s Computing for the People project is excited to collaborate with the Center for the Study of Race &amp; Ethnicity  @RaceEthnicity on this panel next week with @eredmil1 @GlencoraSpeaks and @geminiimatt .  Registration details here: https://t.co/hhFYHaIRmP
-
-Quoting https://x.com/BrownCSDept/status/1358870353599107073:
-> https://t.co/oFCr1EUmU6
-
-https://x.com/boazbaraktcs/status/1360254200500912137 · [archived](https://web.archive.org/web/20210212154750/https://twitter.com/boazbaraktcs/status/1360254200500912137)
-
-## 2021-02-12
+## 2021-02-12 · reply to @srush_nlp
 
 > @srush_nlp Tensor diagrams &amp; Einstein summation are great for their intended application of physics. 
 > 
@@ -5095,7 +4258,7 @@ https://x.com/boazbaraktcs/status/1360204787623616513 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1360203173336645632 · [archived](https://web.archive.org/web/20210212122527/https://twitter.com/boazbaraktcs/status/1360203173336645632)
 
-## 2021-02-11
+## 2021-02-11 · reply to @thomasahle
 
 > @thomasahle @zzznah If A and B are tensors that share axis a, A⊙ₐ B denotes the tensor  obtained by contracting them along a axis.
 > 
@@ -5114,13 +4277,13 @@ Quoting https://x.com/LindellYehuda/status/1359270687836262401:
 
 https://x.com/boazbaraktcs/status/1359283973789278208 · [archived](https://web.archive.org/web/20210209233220/https://twitter.com/boazbaraktcs/status/1359283973789278208)
 
-## 2021-02-09
+## 2021-02-09 · reply to @boazbaraktcs
 
 > @roydanroy In fact, there are cases where the “Murphy’s law” thinking is the right one. For example, sometimes gradient based methods may well settle on the least possible helpful local minima.
 
 https://x.com/boazbaraktcs/status/1359225268146229248 · [archived](https://web.archive.org/web/20210209193905/https://twitter.com/boazbaraktcs/status/1359225268146229248)
 
-## 2021-02-09
+## 2021-02-09 · reply to @roydanroy
 
 > @roydanroy Yes - the way I said it in class is that when you try something that is not guaranteed to work, sometimes it will turn out according to Murphy’s law, and sometimes according to Marley’s, and which is which is very hard to tell in advance.
 
@@ -5134,7 +4297,7 @@ https://x.com/boazbaraktcs/status/1359224704100360196 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1359203297303949312 · [archived](https://web.archive.org/web/20210209181141/https://twitter.com/boazbaraktcs/status/1359203297303949312)
 
-## 2021-02-07
+## 2021-02-07 · reply to @boazbaraktcs
 
 > Another way to say it is that normally investments in basic science are at least 10x smaller than they should be, given potential implications and history of profound positive impact on humanity. 
 > 
@@ -5169,22 +4332,6 @@ https://x.com/boazbaraktcs/status/1358454707929444353 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1358081763927613447 · [archived](https://web.archive.org/web/20210206155550/https://twitter.com/boazbaraktcs/status/1358081763927613447)
 
-## 2021-02-05 · reply to @ashishkjha
-
-> Next couple of months may be very tough (because of variants)
-> 
-> But by mid-spring, things will start looking better
-> 
-> And even by summer, some things won't be "normal" like large indoor gatherings
-> 
-> But backyard BBQs among vaccinated friends/family? 
-> 
-> Safe and effective
-> 
-> End
-
-https://x.com/boazbaraktcs/status/1357680231478398978 · [archived](https://web.archive.org/web/20210205132021/https://twitter.com/boazbaraktcs/status/1357680231478398978)
-
 ## 2021-02-01 · possibly deleted
 
 _(text not available)_
@@ -5197,7 +4344,7 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1355341569453412353 · [archived](https://web.archive.org/web/20210130022632/https://twitter.com/boazbaraktcs/status/1355341569453412353)
 
-## 2021-01-29
+## 2021-01-29 · reply to @yoavgo
 
 > @yoavgo @ChrSzegedy @ykilcher Are stock prices disconnected from the company? I don’t know much about it but looking at companies with largest market cap, it doesn’t seem unreasonable.
 > 
@@ -5211,29 +4358,13 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1354873719978659841 · [archived](https://web.archive.org/web/20210128192739/https://twitter.com/boazbaraktcs/status/1354873719978659841)
 
-## 2021-01-27
-
-> Public service announcement for academics: Face overlay on slides via @zoom_us beta features imposes a lot less load on your computer than OBS + multiple video streams (Share screen &gt; Advanced &gt; Slides as Virtual Background). Run a meeting by yourself and record it. https://t.co/hN3SSxexjN
-
-https://x.com/boazbaraktcs/status/1354551963304800256 · [archived](https://web.archive.org/web/20210127220909/https://twitter.com/boazbaraktcs/status/1354551963304800256)
-
-## 2021-01-27
-
-> Next talk at Harvard @HCRCS #AI4SocialImpact seminar series is by Omer Reingold, the Rajeev Motwani Professor of Computer Science at @StanfordTheory, on February 1 at 11 AM ET. 
-> 
-> Register here: https://t.co/1kWNkTU9Bc
-> 
-> @MilindTambe_AI @hermansaksono
-
-https://x.com/boazbaraktcs/status/1354285556574904321 · [archived](https://web.archive.org/web/20210127043027/https://twitter.com/boazbaraktcs/status/1354285556574904321)
-
 ## 2021-01-25 · possibly deleted
 
 _(text not available)_
 
 https://x.com/boazbaraktcs/status/1353566181463093249 · [archived](https://web.archive.org/web/20210125045204/https://twitter.com/boazbaraktcs/status/1353566181463093249)
 
-## 2021-01-24
+## 2021-01-24 · reply to @boazbaraktcs
 
 > @rootsofprogress I am not disputing that some technologies (e.g., personalized medicine or of course the personal computer itself) are initially used only by the wealthy and then become prevalent. 
 > 
@@ -5267,7 +4398,7 @@ https://x.com/boazbaraktcs/status/1353380193881133057 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1352607162774781954 · [archived](https://web.archive.org/web/20210122132120/https://twitter.com/boazbaraktcs/status/1352607162774781954)
 
-## 2021-01-22
+## 2021-01-22 · reply to @boazbaraktcs
 
 > @geomblog @_KarenHao @yoavgo @compcomcon P.s. Doesn’t mean we should build them without thinking through. As is known, there ethical issues with language models, including bias and potential harmful applications. But again I’d trust these issues to be handled much better in the hands of a public institution.
 
@@ -5287,13 +4418,13 @@ https://x.com/boazbaraktcs/status/1352451497628471297 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1350569182065274881 · [archived](https://web.archive.org/web/20210116222257/https://twitter.com/boazbaraktcs/status/1350569182065274881)
 
-## 2021-01-16
+## 2021-01-16 · reply to @boazbaraktcs
 
 > @_onionesque I think Goodhart’s law is relevant since a gradient based algorithm keeps putting pressure on a system to do better and better in the optimized metric. Hence there’s danger that it will result in a system that only does well in this metric, and does poorly in any other measure.
 
 https://x.com/boazbaraktcs/status/1350262209998368768 · [archived](https://web.archive.org/web/20210116020307/https://twitter.com/boazbaraktcs/status/1350262209998368768)
 
-## 2021-01-13
+## 2021-01-13 · reply to @GilKalai
 
 > @GilKalai @quantum_aram @AspectStalence The notion of a “classical device “ is mathematical and the term “law of nature” doesn’t really apply.
 > 
@@ -5301,7 +4432,7 @@ https://x.com/boazbaraktcs/status/1350262209998368768 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1349494653893156869 · [archived](https://web.archive.org/web/20210113231354/https://twitter.com/boazbaraktcs/status/1349494653893156869)
 
-## 2021-01-13
+## 2021-01-13 · reply to @boazbaraktcs
 
 > @quantum_aram @GilKalai @AspectStalence Coupled with a mathematical conjecture that computing the permanent of n×n matrices requires ≥ exp(δ n) quantum gates, this can imply that there is no physical device of reasonable size that can compute a 500 × 500 permanent.
 
@@ -5313,7 +4444,7 @@ https://x.com/boazbaraktcs/status/1349457993465794569 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1349457463435796482 · [archived](https://web.archive.org/web/20210113204523/https://twitter.com/boazbaraktcs/status/1349457463435796482)
 
-## 2021-01-13
+## 2021-01-13 · reply to @boazbaraktcs
 
 > Your goal as author is to ensure:
 > 
@@ -5349,7 +4480,7 @@ https://x.com/boazbaraktcs/status/1349379210515783681 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1349378066045407232 · [archived](https://web.archive.org/web/20210113153121/https://twitter.com/boazbaraktcs/status/1349378066045407232)
 
-## 2021-01-12
+## 2021-01-12 · reply to @tweetbarrage
 
 > @tweetbarrage Still unsure - may be some privacy policies that prevent that. We will however continue to run our ML theory seminar series https://t.co/BMNUYmd810 , where all talks are available and recorded
 
@@ -5378,22 +4509,6 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1347302564841320449 · [archived](https://web.archive.org/web/20210107220321/https://twitter.com/boazbaraktcs/status/1347302564841320449)
 
-## 2021-01-07
-
-> Thanks CSAIL!
-> 
-> In the video:
-> - Larry Jackel, Adaptive Systems Research department head (my boss), behind the camera.
-> - Donnie Henderson, research engineer who put together the demo system.
-> - Rich Howard, lab director (Larry's boss)
-> 
-> The ConvNet runs on a 20MFLOPS DSP board.
-
-Quoting https://x.com/MIT_CSAIL/status/1347237563342340097:
-> A demo from 1993 of 32-year-old Yann LeCun showing off the world's first convolutional network for text recognition. #tbt #ML #neuralnetworks #CNNs #MachineLearning https://t.co/9eeibjJ4MK
-
-https://x.com/boazbaraktcs/status/1347247904927444994 · [archived](https://web.archive.org/web/20210107182716/https://twitter.com/boazbaraktcs/status/1347247904927444994)
-
 ## 2021-01-07 · possibly deleted
 
 _(text not available)_
@@ -5412,7 +4527,7 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1346553905757487104 · [archived](https://web.archive.org/web/20210105202737/https://twitter.com/boazbaraktcs/status/1346553905757487104)
 
-## 2021-01-05
+## 2021-01-05 · reply to @annargrs
 
 > @annargrs @ducha_aiki @yoavgo @chrmanning @roydanroy @mraginsky @ylecun @SeeTedTalk @ChrisGPotts @aclmeeting @rajiinio Implicit bias is a very real phenomenon that needs to be battled.
 > 
@@ -5420,7 +4535,7 @@ https://x.com/boazbaraktcs/status/1346553905757487104 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1346458082151452676 · [archived](https://web.archive.org/web/20210105140805/https://twitter.com/boazbaraktcs/status/1346458082151452676)
 
-## 2021-01-05
+## 2021-01-05 · reply to @ducha_aiki
 
 > @ducha_aiki @annargrs @yoavgo @chrmanning @roydanroy @mraginsky @ylecun @SeeTedTalk @ChrisGPotts @aclmeeting @rajiinio By risks in arxiv for minorities do you mean risk if a person posts their paper on the arxiv, and then a reviewer searches the submission to find authors name and is biased because name indicates their minority status?
 > 
@@ -5428,22 +4543,7 @@ https://x.com/boazbaraktcs/status/1346458082151452676 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1346454013030576129 · [archived](https://web.archive.org/web/20210105135125/https://twitter.com/boazbaraktcs/status/1346454013030576129)
 
-## 2021-01-04 · reply to @boazbaraktcs
-
-> @boazbaraktcs is right, and I've made that point before. 
-> The fast growth of a field inevitably creates a  dearth of qualified reviewers. 
-> Until the growth slows down.
-
-Quoting https://x.com/boazbaraktcs/status/1345573580789211137:
-> If a field is growing exponentially, there will necessarily be many more submissions than qualified people to review them.
-> 
-> So, reviewing will suck no matter what we do. 
-> 
-> We can try to make it suck less. More importantly, we can avoid assessing candidates by counting papers.
-
-https://x.com/boazbaraktcs/status/1345906830057361409 · [archived](https://web.archive.org/web/20210104013631/https://twitter.com/boazbaraktcs/status/1345906830057361409)
-
-## 2021-01-03
+## 2021-01-03 · reply to @prof_yz
 
 > @Yezhou_Yang While in growth mode, you have more people that are new than experienced people. 
 > 
@@ -5555,7 +4655,7 @@ https://x.com/boazbaraktcs/status/1343427848334356481 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1343392455085973504 · [archived](https://web.archive.org/web/20201228030513/https://twitter.com/boazbaraktcs/status/1343392455085973504)
 
-## 2020-12-28
+## 2020-12-28 · reply to @Reza_Zadeh
 
 > @Reza_Zadeh Thanks! Rewriting since I had a typo.
 > 
@@ -5567,18 +4667,9 @@ https://x.com/boazbaraktcs/status/1343364794955554822 · [archived](https://web.
 
 ## 2020-12-28 · possibly deleted
 
-> @Reza_Zadeh Nice! I might borrow it.
-> Two proofs:
-> Proof 1: Slowest car in expectation blocks ~n/2 cars, slowest among n/2 remaining cars blocks ~n/4 cars, &amp; so on to get ~log n clumps.
-> Proof 2: # clumps = ∑ Xᵢ where Xᵢ=1 iff i-th car faster than cars 1..i-1. Happens w.p. 1/i ⇒sum~logn
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1343360589922508806 · [archived](https://web.archive.org/web/20201228005841/https://twitter.com/boazbaraktcs/status/1343360589922508806)
-
-## 2020-12-26
-
-> Retweeting this one more time because it is so excellent, describes nicely how the mRNA vaccines are a direct hacking of Life's assembly code for the Spike protein + all of its headers, metadata, + tweaking it to be more stable and likely to evade the immune system defenses 👌👌
-
-https://x.com/boazbaraktcs/status/1342924036435795969 · [archived](https://web.archive.org/web/20201226200353/https://twitter.com/boazbaraktcs/status/1342924036435795969)
 
 ## 2020-12-23 · reply to @boazbaraktcs
 
@@ -5595,39 +4686,6 @@ Quoting https://x.com/vardi/status/1341516213885788160:
 > Secure Multiparty Computation https://t.co/LoJ454XMpd @LindellYehuda
 
 https://x.com/boazbaraktcs/status/1341638772522401792 · [archived](https://web.archive.org/web/20201223065649/https://twitter.com/boazbaraktcs/status/1341638772522401792)
-
-## 2020-12-21
-
-> Very nice thread. 
-> 
-> The problem: allocating vaccines according to the *wrong variable* -- p(death|infected) instead of p(death).
-> 
-> Yes, an administrator working from home has high risk *if infected*. But need to multiply by p(infected).
-
-Quoting https://x.com/WhitneyEpi/status/1340854704218238976:
-> OK, bc of Stanford Med #COVID19 vaccine algorithm fiasco &amp; N@te Silver’s recent tweet re: vaccine priority guidelines, I have to talk about one of my favorite topics! I even drew an illustrative Venn diagram! (I’m already imagining @rdpeng rolling his eyes. I’m sorry, Roger!) 1/
-
-https://x.com/boazbaraktcs/status/1341013851333156864 · [archived](https://web.archive.org/web/20201221133355/https://twitter.com/boazbaraktcs/status/1341013851333156864)
-
-## 2020-12-19
-
-> Is there some new IBM policy that prohibits collaboration with certain groups of people?
-
-Quoting https://x.com/Penghui_Yao/status/1340078079511732224:
-> We are forced to withdraw our recent work on fooling spectrahedra from STOC submission, arxiv, ECCC. We were told at the end of the project, not the beginning, that the collaboration violates IBM policy. And I not allowed to know any details about the policy. 😠
-
-https://x.com/boazbaraktcs/status/1340099140047527936 · [archived](https://web.archive.org/web/20201219005837/https://twitter.com/boazbaraktcs/status/1340099140047527936)
-
-## 2020-12-16
-
-> Waterloo and Harvard are excellent, but let me also plug @Penn @PennEngineers search in computer science. We're looking in all areas, at all levels of seniority, with focus on security, machine learning, visualization, and HCI. https://t.co/ZGaUSJuF1c
-
-Quoting https://x.com/boazbaraktcs/status/1339301857299226631:
-> Waterloo is excellent but let me also plug @Harvard's search in computer science. We're looking in all areas with focus on algorithms, machine learning, and quantum. Formal deadline 12/15 but we'll look at all applications that arrive by end of month
-> 
-> https://t.co/0Wj1BFPt4z
-
-https://x.com/boazbaraktcs/status/1339307695883612162 · [archived](https://web.archive.org/web/20201216203430/https://twitter.com/boazbaraktcs/status/1339307695883612162)
 
 ## 2020-12-16 · reply to @fortnow
 
@@ -5658,7 +4716,8 @@ https://x.com/boazbaraktcs/status/1337424744669392899 · [archived](https://web.
 
 ## 2020-12-10 · possibly deleted
 
-_(text not available)_
+> @JamesSurowiecki The amazing thing is that this is not just in a Tweet but also in Trump’s brief to the Supreme Court. (Page 8 on https://t.co/lJCIG3gFxb )
+> He is also not embarrassed to use counts from the 2020 election as evidence to dispute the results of the 2020 election.
 
 https://x.com/boazbaraktcs/status/1336843806029836289 · [archived](https://web.archive.org/web/20201210012314/https://twitter.com/boazbaraktcs/status/1336843806029836289)
 
@@ -5683,35 +4742,38 @@ https://x.com/boazbaraktcs/status/1336708305411051520 · [archived](https://web.
 
 ## 2020-12-09 · possibly deleted
 
-_(text not available)_
+> Bertrand would have been 13 today. In his honor, I'm releasing a rough draft of The Algorithm for Precision Medicine on his site. It is a short summary of the all the science he taught me in the hunt for diagnosis and treatments. May it now help others. https://t.co/NsEGXlvv9Y
 
 https://x.com/boazbaraktcs/status/1336707372203569158 · [archived](https://web.archive.org/web/20201209164328/https://twitter.com/boazbaraktcs/status/1336707372203569158)
 
 ## 2020-12-09 · possibly deleted
 
-_(text not available)_
+> Angela Merkel (PhD Quantum Chemistry) about COVID-19: "Not my area of expertise"
+> Donald Trump (B.S. economics) promoting hydroxychloroquine as potentially "one of the biggest game changers in the history of medicine":
+> "I’m a smart guy ... I’ve been right a lot” https://t.co/EQfThT9wIy
 
 https://x.com/boazbaraktcs/status/1336693226200309764 · [archived](https://web.archive.org/web/20201209152917/https://twitter.com/boazbaraktcs/status/1336693226200309764)
 
 ## 2020-12-09 · possibly deleted
 
-_(text not available)_
+> Complexity theorist and "chess narc" Ken Regan "doesn't go looking for trouble. Trouble comes looking for him."
+> https://t.co/4GwoM3CjXp
 
 https://x.com/boazbaraktcs/status/1336676442843832322 · [archived](https://web.archive.org/web/20201209142941/https://twitter.com/boazbaraktcs/status/1336676442843832322)
 
 ## 2020-12-08 · possibly deleted
 
-_(text not available)_
+> @JamesSurowiecki The next step is for Texas to sue the individual voters of these four states for not following the only constitutionally correct process, which is to mark Trump/Pence on the ballot.
 
 https://x.com/boazbaraktcs/status/1336413571929018370 · [archived](https://web.archive.org/web/20201208205450/https://twitter.com/boazbaraktcs/status/1336413571929018370)
 
 ## 2020-12-07 · possibly deleted
 
-_(text not available)_
+> The fourth (!!) @black_in_ai is starting now with a keynote by @MuyinatuBell -- join us to hear wonderful talks and learn about ways to support our community! #NeurIPS2020 #NeurIPS https://t.co/qXCJI7zkBT
 
 https://x.com/boazbaraktcs/status/1335964969536458752 · [archived](https://web.archive.org/web/20201207152539/https://twitter.com/boazbaraktcs/status/1335964969536458752)
 
-## 2020-12-06
+## 2020-12-06 · reply to @alexcryptan
 
 > @alexcryptan There are about 10¹² grains of sand in a cubic meter, so it could simulated grain by grain if you had about a terabyte memory. Of course you don’t have to simulate grain by grain to pass these types of statistical tests like the ones of quantum computers.
 
@@ -5719,7 +4781,7 @@ https://x.com/boazbaraktcs/status/1335725034493644800 · [archived](https://web.
 
 ## 2020-12-03 · possibly deleted
 
-_(text not available)_
+> @JamesSurowiecki That’s only the half of it. To make Biden’s victory believable, democrats also managed to hack all the polls. In fact, they have been hacking Trump’s approval ratings since 2017.
 
 https://x.com/boazbaraktcs/status/1334297569879601152 · [archived](https://web.archive.org/web/20201203004548/https://twitter.com/boazbaraktcs/status/1334297569879601152)
 
@@ -5729,17 +4791,10 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1334134607172820992 · [archived](https://web.archive.org/web/20201202141721/https://twitter.com/boazbaraktcs/status/1334134607172820992)
 
-## 2020-12-01
-
-> Job alert: At Princeton we’re hiring emerging scholars who have Bachelor’s degrees for 2-year positions in tech policy. The program combines classes, 1-on-1 mentoring, and work experience with real-world impact. Apply by Jan 10. More details: https://t.co/NgTE5UY6o1
-> 
-> [Thread]
-
-https://x.com/boazbaraktcs/status/1333842491540451331 · [archived](https://web.archive.org/web/20201201184705/https://twitter.com/boazbaraktcs/status/1333842491540451331)
-
 ## 2020-12-01 · possibly deleted
 
-_(text not available)_
+> @IChotiner I love the opening sentence "First, consider some facts. President Trump received more votes than any previous incumbent seeking reelection."
+> The evidence the election is fraudulent is Trump's votes in the same election. It's actually a nice exposition of the liar paradox.
 
 https://x.com/boazbaraktcs/status/1333593367377293315 · [archived](https://web.archive.org/web/20201201022844/https://twitter.com/boazbaraktcs/status/1333593367377293315)
 
@@ -5759,13 +4814,7 @@ https://x.com/boazbaraktcs/status/1331695832337354766 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1331597392160894979 · [archived](https://web.archive.org/web/20201125140638/https://twitter.com/boazbaraktcs/status/1331597392160894979)
 
-## 2020-11-25
-
-> On Galileo Galilei and “denialism” from elections to climate to COVID https://t.co/b4FKY57fzD
-
-https://x.com/boazbaraktcs/status/1331584739300552706 · [archived](https://web.archive.org/web/20201125133708/https://twitter.com/boazbaraktcs/status/1331584739300552706)
-
-## 2020-11-24
+## 2020-11-24 · reply to @seanmcarroll
 
 > @seanmcarroll  makes a great point. There are many "armchair Galileos" that claim to refute the experts on elections, climate, covid, etc.. using only logical deductions and their (perceived) superior intelligence.
 > 
@@ -5778,7 +4827,7 @@ Quoting https://x.com/seanmcarroll/status/1330573562915143681:
 
 https://x.com/boazbaraktcs/status/1331366156251361287 · [archived](https://web.archive.org/web/20201124225235/https://twitter.com/boazbaraktcs/status/1331366156251361287)
 
-## 2020-11-24
+## 2020-11-24 · reply to @JamesSurowiecki
 
 > @JamesSurowiecki @lessig @jharrow216 This is similar to question of whether state constitution can take away from the legislature the ability to redraw districts. SCOTUS said yes in Arizona but only by 5:4
 > 
@@ -5786,7 +4835,7 @@ https://x.com/boazbaraktcs/status/1331366156251361287 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1331344109458612225 · [archived](https://web.archive.org/web/20201124214411/https://twitter.com/boazbaraktcs/status/1331344109458612225)
 
-## 2020-11-24
+## 2020-11-24 · reply to @JamesSurowiecki
 
 > @JamesSurowiecki This article by @lessig and  @jharrow216 gives a good explanation of the reasons to this "state legislature superpower" theory and also why it's wrong https://t.co/AmGyIwoAfh
 
@@ -5803,29 +4852,21 @@ Quoting https://x.com/normative/status/1331244087849197568:
 
 https://x.com/boazbaraktcs/status/1331307409793372161 · [archived](https://web.archive.org/web/20201124185029/https://twitter.com/boazbaraktcs/status/1331307409793372161)
 
-## 2020-11-24
-
-> Last year, Hao Huang amazed theoretical computer scientists and mathematicians by proving the so-called sensitivity conjecture with an incredibly short argument. It is the topic of the most recent video in my course.   1/
-> 
-> https://t.co/MhMUlysN51
-
-https://x.com/boazbaraktcs/status/1331219161444462598 · [archived](https://web.archive.org/web/20201124134237/https://twitter.com/boazbaraktcs/status/1331219161444462598)
-
 ## 2020-11-23 · possibly deleted
 
-_(text not available)_
+> The 21 GOP Senators who have privately expressed their disdain for Trump are: Portman, Alexander, Sasse, Blunt, Collins, Murkowski, Cornyn, Thune, Romney, Braun, Young, Tim Scott, Rick Scott, Rubio, Grassley, Burr, Toomey, McSally, Moran, Roberts, Shelby. (2/3)
 
 https://x.com/boazbaraktcs/status/1330718673833750530 · [archived](https://web.archive.org/web/20201123034822/https://twitter.com/boazbaraktcs/status/1330718673833750530)
 
 ## 2020-11-22 · possibly deleted
 
-_(text not available)_
+> @JamesSurowiecki The court should declare Donald Trump as the winner of all the electoral votes of Michisota
 
 https://x.com/boazbaraktcs/status/1330514025386553347 · [archived](https://web.archive.org/web/20201122141946/https://twitter.com/boazbaraktcs/status/1330514025386553347)
 
 ## 2020-11-19 · possibly deleted
 
-_(text not available)_
+> Every year I plot the number of pages for faculty job ads in the November CRA News https://t.co/6JQALUeyT4
 
 https://x.com/boazbaraktcs/status/1329531773546446848 · [archived](https://web.archive.org/web/20201119211100/https://twitter.com/boazbaraktcs/status/1329531773546446848)
 
@@ -5841,7 +4882,7 @@ https://x.com/boazbaraktcs/status/1329440963199111170 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1329419720559382528 · [archived](https://web.archive.org/web/20201119135034/https://twitter.com/boazbaraktcs/status/1329419720559382528)
 
-## 2020-11-18
+## 2020-11-18 · reply to @nycsouthpaw
 
 > @nycsouthpaw This is about making elections *less* secure as I wrote here   https://t.co/vE0l6SHwNR but it is more than that, they are not trying to discard votes for Biden one by one but are asking the court to declare that a mail-in voter is equal to 90% of an in-person voter.
 
@@ -5849,7 +4890,7 @@ https://x.com/boazbaraktcs/status/1329208484974518273 · [archived](https://web.
 
 ## 2020-11-18 · possibly deleted
 
-_(text not available)_
+> Please RT: I'm personally covering application fees for up to 10 applicants from anywhere in the world applying to the graduate programs at @UMich who need assistance. Please read more here, and also help complete the spreadsheet of no-fee programs there: https://t.co/4X6B8bEgvn
 
 https://x.com/boazbaraktcs/status/1329191239326068736 · [archived](https://web.archive.org/web/20201118223534/https://twitter.com/boazbaraktcs/status/1329191239326068736)
 
@@ -5870,7 +4911,7 @@ https://x.com/boazbaraktcs/status/1329156857634693121 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1328829179069083657 · [archived](https://web.archive.org/web/20201117223607/https://twitter.com/boazbaraktcs/status/1328829179069083657)
 
-## 2020-11-17
+## 2020-11-17 · reply to @boazbaraktcs
 
 > @suriyagnskr Also, several GOP lawsuits are not about "fraud" (in fact not sure any of them are) but rather trying to toss out votes where there is no question about voters eligibility and intent.
 > 
@@ -5889,17 +4930,7 @@ Quoting https://x.com/lawcrimenews/status/1328483162058596352:
 
 https://x.com/boazbaraktcs/status/1328702629669691392 · [archived](https://web.archive.org/web/20201117141338/https://twitter.com/boazbaraktcs/status/1328702629669691392)
 
-## 2020-11-16
-
-> The **Algorithms** group @MSFTResearch Redmond is hiring! It is the sister group to our ML Foundations group, and has already strong presence in differential privacy and coding!
-> 
-> Post Doc: https://t.co/3PCRhEhs41
-> 
-> FTE: https://t.co/q2DCEBCBeB
-
-https://x.com/boazbaraktcs/status/1328410316892377089 · [archived](https://web.archive.org/web/20201116200552/https://twitter.com/boazbaraktcs/status/1328410316892377089)
-
-## 2020-11-16
+## 2020-11-16 · reply to @UdiWieder
 
 > @UdiWieder @JSEllenberg Also, true “EC bias” is by how much you need to win popular vote to get 50% chance to win EC. As noted by @NateSilver538 below, this bias becomes smaller if you have several somewhat-independent tipping-point states.
 
@@ -5916,22 +4947,14 @@ https://x.com/boazbaraktcs/status/1328335353619632128 · [archived](https://web.
 
 ## 2020-11-16 · possibly deleted
 
-_(text not available)_
+> @JSEllenberg I guess there are 2 factors:
+> a) Trump/GOP giving up on west coast and northeast, driving up popular vote margins.
+> b) The former blue wall states became battlegrounds. More battlegrounds means tipping points likely more narrow.
+> We’ll see what happens if/when get post-trump GOP
 
 https://x.com/boazbaraktcs/status/1328331323321278466 · [archived](https://web.archive.org/web/20201116135411/https://twitter.com/boazbaraktcs/status/1328331323321278466)
 
-## 2020-11-15
-
-> If you live in Georgia, here's information about how to get your mail-in ballot for the Jan. 5 Senate runoff elections.  Don't forget to vote!
-
-Quoting https://x.com/staceyabrams/status/1327998018520551427:
-> BREAKING: More than 600,000 Georgians have requested their mail ballots for the January 5 runoff elections. 
-> 
-> Help elect @ReverendWarnock and @ossoff to the U.S. Senate by requesting your ballot today ➡️ https://t.co/xCyh7BhY3o. Happy voting and let’s get it done... again. #gapol https://t.co/G65qB8NMpg
-
-https://x.com/boazbaraktcs/status/1328050855178870784 · [archived](https://web.archive.org/web/20201115190320/https://twitter.com/boazbaraktcs/status/1328050855178870784)
-
-## 2020-11-15
+## 2020-11-15 · reply to @ben_golub
 
 > @ben_golub @arpitrage @NateSilver538 @gelliottmorris It's not so striking. Polls had a systematic pro-Biden error of about 3-4%, every election there is error in some direction.
 > 
@@ -5978,27 +5001,7 @@ https://x.com/boazbaraktcs/status/1327297163228016643 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1327254766150447120 · [archived](https://web.archive.org/web/20201113143604/https://twitter.com/boazbaraktcs/status/1327254766150447120)
 
-## 2020-11-12
-
-> No, they did not.
-> 
-> U.S. election security continues to face real challenges, but this is not one of them.
-
-Quoting https://x.com/realDonaldTrump/status/1326926226888544256:
-> “REPORT: DOMINION DELETED 2.7 MILLION TRUMP VOTES NATIONWIDE. DATA ANALYSIS FINDS 221,000 PENNSYLVANIA VOTES SWITCHED FROM PRESIDENT TRUMP TO BIDEN. 941,000 TRUMP VOTES DELETED. STATES USING DOMINION VOTING SYSTEMS SWITCHED 435,000 VOTES FROM TRUMP TO BIDEN.” @ChanelRion @OANN
-
-https://x.com/boazbaraktcs/status/1327005085965152262 · [archived](https://web.archive.org/web/20201112214939/https://twitter.com/boazbaraktcs/status/1327005085965152262)
-
-## 2020-11-12
-
-> No, it didn't. Michigan has a paper ballot for every vote, and it will perform a risk-limiting audit to verify the computer count.
-
-Quoting https://x.com/BillyMikeKY/status/1326901316287918088:
-> So @jhalderm Did this happen in Michigan fro the 2020 election?!
-
-https://x.com/boazbaraktcs/status/1326949022461009928 · [archived](https://web.archive.org/web/20201112180541/https://twitter.com/boazbaraktcs/status/1326949022461009928)
-
-## 2020-11-12
+## 2020-11-12 · reply to @JamesSurowiecki
 
 > @JamesSurowiecki And Democrats have 4 years to investigate him like the GOP did to @HillaryClinton
 
@@ -6013,7 +5016,7 @@ https://x.com/boazbaraktcs/status/1326719709354614784 · [archived](https://web.
 
 ## 2020-11-11 · possibly deleted
 
-_(text not available)_
+> @JamesSurowiecki Actually, since unlike 2016, D and R votes used different modes of voting, perhaps the changes will not balance out as much, but obviously even if the recount changes the vote difference in GA by 10 times as WI 2016 (even 100 times) it wont be enough for Trump.
 
 https://x.com/boazbaraktcs/status/1326661999661445120 · [archived](https://web.archive.org/web/20201111230511/https://twitter.com/boazbaraktcs/status/1326661999661445120)
 
@@ -6023,53 +5026,17 @@ https://x.com/boazbaraktcs/status/1326661999661445120 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1326520263987654656 · [archived](https://web.archive.org/web/20201111135901/https://twitter.com/boazbaraktcs/status/1326520263987654656)
 
-## 2020-11-09
-
-> Wow! #FOCS2020 has a superlative lineup of tutorials, on topics ranging from theory of reinforcement learning to cryptography to understanding consciousness! Links in thread below. Playlist with all tutorials here: https://t.co/lPUVmpFr8Q (1/9) https://t.co/eNeDIlHQCz
-
-https://x.com/boazbaraktcs/status/1325929473502453765 · [archived](https://web.archive.org/web/20201109224605/https://twitter.com/boazbaraktcs/status/1325929473502453765)
-
-## 2020-11-09
-
-> We all need to keep two seemingly contradictory facts in mind
-> 
-> 1. We are entering the hardest days of the pandemic. The next two months will see a lot of infections and deaths
-> 
-> 2. there is a light at the end of the tunnel. Today, that light got a bit brighter
-> 
-> Be safe. Mask up
-
-https://x.com/boazbaraktcs/status/1325828136995418113 · [archived](https://web.archive.org/web/20201109155331/https://twitter.com/boazbaraktcs/status/1325828136995418113)
-
 ## 2020-11-08 · possibly deleted
 
 _(text not available)_
 
 https://x.com/boazbaraktcs/status/1325454837715263491 · [archived](https://web.archive.org/web/20201108150759/https://twitter.com/boazbaraktcs/status/1325454837715263491)
 
-## 2020-11-08
-
-> One of my main reasons for wanting Biden to win was to have a US president to takes climate change seriously. But watching him and Harris makes me realize how much I've missed little things I used to take for granted. When normal adult words come out of their mouths, ... 1/
-
-https://x.com/boazbaraktcs/status/1325454717258960897 · [archived](https://web.archive.org/web/20201108164517/https://twitter.com/boazbaraktcs/status/1325454717258960897)
-
-## 2020-11-06
+## 2020-11-06 · reply to @JamesSurowiecki
 
 > @JamesSurowiecki Legal proceedings might just be beginning but the election has ended.
 
 https://x.com/boazbaraktcs/status/1324856136110141441 · [archived](https://web.archive.org/web/20201106232827/https://twitter.com/boazbaraktcs/status/1324856136110141441)
-
-## 2020-11-06
-
-> Watch John McCain’s notable concession speech from the 2008 election https://t.co/FcUc48IDDe
-
-https://x.com/boazbaraktcs/status/1324823030019825665 · [archived](https://web.archive.org/web/20201106211731/https://twitter.com/boazbaraktcs/status/1324823030019825665)
-
-## 2020-11-06
-
-> CNN reports that a national defence airspace is being established over Biden's home in Wilmington, first trappings of the presidency.
-
-https://x.com/boazbaraktcs/status/1324715868744568837 · [archived](https://web.archive.org/web/20201106141111/https://twitter.com/boazbaraktcs/status/1324715868744568837)
 
 ## 2020-11-06
 
@@ -6087,7 +5054,7 @@ https://x.com/boazbaraktcs/status/1324711346429153282 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1324707123037671432 · [archived](https://web.archive.org/web/20201106133615/https://twitter.com/boazbaraktcs/status/1324707123037671432)
 
-## 2020-11-05
+## 2020-11-05 · reply to @beenwrekt
 
 > @beenwrekt @SeanTrende It's not bullshit - if you were forced to bet on elections then 538's numbers would be decent choice.  
 > 
@@ -6103,7 +5070,7 @@ https://x.com/boazbaraktcs/status/1324401042524643337 · [archived](https://web.
 
 ## 2020-11-03 · possibly deleted
 
-> @Sandoo1 @MindySue28
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1323426818217676802 · [archived](https://web.archive.org/web/20201103004854/https://twitter.com/boazbaraktcs/status/1323426818217676802)
 
@@ -6127,17 +5094,11 @@ Quoting https://x.com/Nate_Cohn/status/1323348745065504769:
 
 https://x.com/boazbaraktcs/status/1323389716926877696 · [archived](https://web.archive.org/web/20201102222139/https://twitter.com/boazbaraktcs/status/1323389716926877696)
 
-## 2020-11-02
+## 2020-11-02 · reply to @boazbaraktcs
 
 > To be fair, I don't think we'll see anything about elections, but at least we will see some convex geometry.
 
 https://x.com/boazbaraktcs/status/1323340663673348097 · [archived](https://web.archive.org/web/20201102190635/https://twitter.com/boazbaraktcs/status/1323340663673348097)
-
-## 2020-11-02
-
-> "America's Future Might be Lebanon" @KimGhattas - A deeply thoughtful and throught provoking piece @TheAtlantic #Election2020 https://t.co/zzW3qNhrtu
-
-https://x.com/boazbaraktcs/status/1323332178260893696 · [archived](https://web.archive.org/web/20201102183257/https://twitter.com/boazbaraktcs/status/1323332178260893696)
 
 ## 2020-11-01
 
@@ -6156,8 +5117,7 @@ https://x.com/boazbaraktcs/status/1322549821060894722 · [archived](https://web.
 
 ## 2020-10-31 · possibly deleted
 
-> @arpitrage @parity_account @ben_golub 538 gives 80% chance for Biden &gt; 290 EVs which can withstand PA loss.
-> More than that, correlations between states work both ways, and so should be large national polling error for Trump to win. Don't see EV win if current 538 estimate of 7.9% popular vote margin is&lt;4% off
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1322388533340999680 · [archived](https://web.archive.org/web/20201031040311/https://twitter.com/boazbaraktcs/status/1322388533340999680)
 
@@ -6188,7 +5148,7 @@ https://x.com/boazbaraktcs/status/1321812517543432192 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1321448911991574529 · [archived](https://web.archive.org/web/20201028134957/https://twitter.com/boazbaraktcs/status/1321448911991574529)
 
-## 2020-10-27
+## 2020-10-27 · reply to @JamesSurowiecki
 
 > @JamesSurowiecki This is indeed naive. I'm (not) looking forward to the Kavanaugh opinion stating that the founders clearly required that results must be announced on TV by Election Night.
 
@@ -6208,30 +5168,15 @@ https://x.com/boazbaraktcs/status/1321101157830328320 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1320354475626930178 · [archived](https://web.archive.org/web/20201025133629/https://twitter.com/boazbaraktcs/status/1320354475626930178)
 
-## 2020-10-20
-
-> Today @SpencerJCox and I are releasing joint public service ads on civility in politics. Working together and the peaceful transfer of power are integral to what it means to be American. Let's reforge our national commitment to decency and democracy. #utpol #standunited https://t.co/jeUJ78aVor
-
-https://x.com/boazbaraktcs/status/1318586047169667074 · [archived](https://web.archive.org/web/20201020161507/https://twitter.com/boazbaraktcs/status/1318586047169667074)
-
 ## 2020-10-20 · possibly deleted
 
-> Need to read it: cool work on list-decodable subspace recovery (to appear in #SODA21). As the authors write,
-> "A priori, our result might appear surprising and almost too-good-to-be-true."
-> Also, maybe I'll understand what's going on with this certifiable anticoncentration. 🤷 https://t.co/DgTe4lCABs
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1318544884068798464 · [archived](https://web.archive.org/web/20201020133411/https://twitter.com/boazbaraktcs/status/1318544884068798464)
 
-## 2020-10-19
-
-> #MyNameIs Rania  رانية . Pronounced Rah-nya. It's Arabic for delightful and contented, which I hope to become again after this election as we #vote out racism and hate.
-
-https://x.com/boazbaraktcs/status/1318206619864293381 · [archived](https://web.archive.org/web/20201019150713/https://twitter.com/boazbaraktcs/status/1318206619864293381)
-
 ## 2020-10-19 · possibly deleted
 
-> New paper https://t.co/UTCiz1k66L w Gal Kaplun &amp; @boazbaraktcs!
-> Recent work has focused on the "deep learning generalization puzzle" (highlighted by Zhang et al https://t.co/HwlONZV7hC). Since deep nets interpolate train data, the train err doesn't tell you much about test err. https://t.co/B8bu3vW3p4
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1317996898750504961 · [archived](https://web.archive.org/web/20201019011224/https://twitter.com/boazbaraktcs/status/1317996898750504961)
 
@@ -6242,13 +5187,6 @@ https://x.com/boazbaraktcs/status/1317996898750504961 · [archived](https://web.
 > https://t.co/X6DS9LvvTG
 
 https://x.com/boazbaraktcs/status/1316501051630002176 · [archived](https://web.archive.org/web/20201014220821/https://twitter.com/boazbaraktcs/status/1316501051630002176)
-
-## 2020-10-14
-
-> We're hiring 5 faculty at University of Waterloo's Cheriton School of Computer Science! https://t.co/b1NxTDpUP8
-> Top school for CS in Canada. Focus areas: Machine learning and AI, Security &amp; Privacy, Data Systems, Systems &amp; Networking, and more! Reach out if you have questions. https://t.co/zE6VTLWsGM
-
-https://x.com/boazbaraktcs/status/1316430110698864640 · [archived](https://web.archive.org/web/20201014173754/https://twitter.com/boazbaraktcs/status/1316430110698864640)
 
 ## 2020-10-14 · possibly deleted
 
@@ -6278,14 +5216,6 @@ https://x.com/boazbaraktcs/status/1316112775509356546 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1316004873356210177 · [archived](https://web.archive.org/web/20201013131800/https://twitter.com/boazbaraktcs/status/1316004873356210177)
 
-## 2020-10-13
-
-> True. Also true that after this happened, the Democrats added a justice to the Court to make up for the appointment Jefferson lost. 
-> 
-> So if history says ramming through a lame-duck appointment is fine, it also says expanding the size of the Court is fine.
-
-https://x.com/boazbaraktcs/status/1315831420904972290 · [archived](https://web.archive.org/web/20201013014729/https://twitter.com/boazbaraktcs/status/1315831420904972290)
-
 ## 2020-10-12
 
 > This model fits in a tweet and predicts all elections since 1960. 
@@ -6297,7 +5227,7 @@ https://x.com/boazbaraktcs/status/1315831420904972290 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1315728530366291968 · [archived](https://web.archive.org/web/20201012200013/https://twitter.com/boazbaraktcs/status/1315728530366291968)
 
-## 2020-10-10
+## 2020-10-10 · reply to @ZeerakTalat
 
 > @ZeerakW @samsontmr @yoavgo @LeonDerczynski Arxiv might be more important to science at this point than conferences, so forcing anonymity on it is the "tail that wags the dog".
 > 
@@ -6305,7 +5235,7 @@ https://x.com/boazbaraktcs/status/1315728530366291968 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1314930118364729346 · [archived](https://web.archive.org/web/20201010140803/https://twitter.com/boazbaraktcs/status/1314930118364729346)
 
-## 2020-10-10
+## 2020-10-10 · reply to @LeonDerczynski
 
 > @LeonDerczynski @yoavgo I don’t have a “claim” beyond:
 > 1) Anonymity cannot be perfect
@@ -6316,7 +5246,7 @@ https://x.com/boazbaraktcs/status/1314930118364729346 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1314924630566633472 · [archived](https://web.archive.org/web/20201010135307/https://twitter.com/boazbaraktcs/status/1314924630566633472)
 
-## 2020-10-09
+## 2020-10-09 · reply to @boazbaraktcs
 
 > @yoavgo I really like the policy of ITCS 2021. I think it strikes a good balance between not putting the author name front and center, and do allowing to "unblind" it if issues such as determining priority require it https://t.co/inck9k6L3q
 
@@ -6330,35 +5260,13 @@ https://x.com/boazbaraktcs/status/1314688263223832576 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1314687120649285633 · [archived](https://web.archive.org/web/20201009220047/https://twitter.com/boazbaraktcs/status/1314687120649285633)
 
-## 2020-10-09
+## 2020-10-09 · reply to @yoavgo
 
 > @yoavgo I'm glad the conferences I submit to don't have this policy. 
 > 
 > Double-blind has its benefits, but if you can't accept that anonymity won't be perfect, you're better off with simply non-anonymous submissions.
 
 https://x.com/boazbaraktcs/status/1314681762761461760 · [archived](https://web.archive.org/web/20201009213911/https://twitter.com/boazbaraktcs/status/1314681762761461760)
-
-## 2020-10-08
-
-> A beautifully written article about an amazing recent breakthrough — an outcome of intense mathematical work and faith of several of best theoretical computer scientists that I know in my career.
-
-Quoting https://x.com/Mathematical_A/status/1314242665144299522:
-> Travelling salesperson problem. https://t.co/DPOBZDpwZy
-
-https://x.com/boazbaraktcs/status/1314297298508161024 · [archived](https://web.archive.org/web/20201008201139/https://twitter.com/boazbaraktcs/status/1314297298508161024)
-
-## 2020-10-07
-
-> "We also have a targeted search for an endowed professorship in theoretical computer science (the Fischer Chair)."
-
-Quoting https://x.com/ChrisPeikert/status/1310921658539048962:
-> Computer Science and Engineering at the University of Michigan invites applications for multiple tenure-track and teaching faculty (lecturer) positions.
-> 
-> Apply here (and spread the word!):
-> 
-> https://t.co/spJIhQsG7k
-
-https://x.com/boazbaraktcs/status/1313964406108114944 · [archived](https://web.archive.org/web/20201007220849/https://twitter.com/boazbaraktcs/status/1313964406108114944)
 
 ## 2020-10-07 · possibly deleted
 
@@ -6390,56 +5298,15 @@ https://x.com/boazbaraktcs/status/1313236480786014208 · [archived](https://web.
 
 ## 2020-10-05 · possibly deleted
 
-> We're launching the @black_in_ai Academic Program, which builds on the grad app mentoring program from the past 3 years.
-> This new program will serve 400+ people applying to grad school, are in grad programs, or applying to postdoc/fac/RS positions.
-> https://t.co/f5QYHYPBk5
-> 🧵
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1313169737300365313 · [archived](https://web.archive.org/web/20201006062408/https://twitter.com/boazbaraktcs/status/1313169737300365313)
 
-## 2020-10-05
-
-> The @EPFL_en  School of Computer and Communication Sciences @ICepfl  is hiring in all areas. We are particularly interested in unconventional computing (quantum computing, DNA computing), programming languages and verification, and intelligent systems.
-> 
-> https://t.co/OhQ6WbbLs0
-
-https://x.com/boazbaraktcs/status/1313095135958368261 · [archived](https://web.archive.org/web/20201006012856/https://twitter.com/boazbaraktcs/status/1313095135958368261)
-
-## 2020-10-04
-
-> DEADLINE EXTENSION: 14TH OCTOBER 2020
-> 
-> 4th BAI (Virtual) Workshop: @NeurIPSConf
-> 
-> Blacks and/or African researchers in AI, ML and related application areas (health, agriculture, politics, economics, law etc.) are welcome to submit their work.
-> 
-> CFP here: https://t.co/5Fevuu5BrE https://t.co/st8WoPcTt9
-
-Quoting https://x.com/igezeani/status/1308128218130636809:
-> 4th BAI (Virtual) Workshop: @NeurIPSConf 
-> 
-> Blacks and/or African researchers in AI, ML and related application areas (health, agriculture, politics, economics, law etc.) are welcome to submit their work.
-> 
-> CFP here: https://t.co/5Fevuu5BrE https://t.co/xTxf41mglA
-
-https://x.com/boazbaraktcs/status/1312883967453016065 · [archived](https://web.archive.org/web/20201006143206/https://twitter.com/boazbaraktcs/status/1312883967453016065)
-
-## 2020-10-01
+## 2020-10-01 · reply to @AskeladdenTX
 
 > @AskeladdenTX @youyanggu @WesPegden If you are young and get infected today, then you are not making any older person less likely to contract COVID, only more likely.
 
 https://x.com/boazbaraktcs/status/1311784306499555330 · [archived](https://web.archive.org/web/20201002015626/https://twitter.com/boazbaraktcs/status/1311784306499555330)
-
-## 2020-09-30
-
-> Exciting news!! We are expanding our @trustworthy_ml Initiative (https://t.co/ZVuPpE05OK) &amp; launching multiple new  efforts. We have put together a ton of useful resources to help beginners (https://t.co/v1ZRXVZLKV). We are also starting a bi-weekly seminar series in Oct.
-
-Quoting https://x.com/trustworthy_ml/status/1310472364929425408:
-> 📢 Excited to announce our launch as the Trustworthy ML initiative (TrustML) https://t.co/04XPYF8VTa. Our efforts just got bigger and better! Read on 👇[1/n]
-> 
-> #trustworthyML #MachineLearning #ArtificialIntelligence #DeepLearning https://t.co/16KksEFr32
-
-https://x.com/boazbaraktcs/status/1311419221910450180 · [archived](https://web.archive.org/web/20201001005612/https://twitter.com/boazbaraktcs/status/1311419221910450180)
 
 ## 2020-09-30
 
@@ -6497,17 +5364,6 @@ https://x.com/boazbaraktcs/status/1309934739541893126 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1309584754090610690 · [archived](https://web.archive.org/web/20200926004734/https://twitter.com/boazbaraktcs/status/1309584754090610690)
 
-## 2020-09-24
-
-> The Supreme Court has no authority to decide the outcome of a presidential election. 
-> 
-> It can make decisions about voting and recount processes, but the Court cannot declare one candidate or the other the winner. Only the states and then, ultimately, Congress can do that.
-
-Quoting https://x.com/ChadPergram/status/1309137426821132289:
-> Graham: As a Republican, I am ready to accept any decision of the court as to the outcome of the election and there is no alternative than a peaceful transition of power
-
-https://x.com/boazbaraktcs/status/1309154908369833986 · [archived](https://web.archive.org/web/20200924165911/https://twitter.com/boazbaraktcs/status/1309154908369833986)
-
 ## 2020-09-24 · reply to @JamesSurowiecki
 
 > @JamesSurowiecki This is a terrible suggestion:
@@ -6529,7 +5385,7 @@ https://x.com/boazbaraktcs/status/1309105845062578179 · [archived](https://web.
 
 ## 2020-09-23 · possibly deleted
 
-_(text not available)_
+> @boazbaraktcs The very clever @ciphergoth made this nice plot using 538 data and $$$ already donated to various races, to help identify particularly good giving opportunities.
 
 https://x.com/boazbaraktcs/status/1308611135524999171 · [archived](https://web.archive.org/web/20200923035037/https://twitter.com/boazbaraktcs/status/1308611135524999171)
 
@@ -6543,7 +5399,7 @@ https://x.com/boazbaraktcs/status/1308611135524999171 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1308601327589752835 · [archived](https://web.archive.org/web/20200923031820/https://twitter.com/boazbaraktcs/status/1308601327589752835)
 
-## 2020-09-22
+## 2020-09-22 · reply to @SenatorRomney
 
 > @SenatorRomney An example of "overfitting". Somehow the condition that senate majority is of the same party wasn't articulated in 2016.
 > 
@@ -6559,45 +5415,6 @@ https://x.com/boazbaraktcs/status/1308409205431439370 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1307822812019687426 · [archived](https://web.archive.org/web/20200920232555/https://twitter.com/boazbaraktcs/status/1307822812019687426)
 
-## 2020-09-20
-
-> We ran the numbers, and the Senate is currently around *6 to 7 points* (!) more Republican than the country as a whole, based on the position of the median states relative to the national average. That means Dems need ~landslide margins to win the Senate. https://t.co/0OejJ56Lia
-
-https://x.com/boazbaraktcs/status/1307820518935089156 · [archived](https://web.archive.org/web/20200920231519/https://twitter.com/boazbaraktcs/status/1307820518935089156)
-
-## 2020-09-19
-
-> Major loss to the progress of humanity. She was a hero of mine.
-
-Quoting https://x.com/nprpolitics/status/1307099466449776640:
-> Justice Ruth Bader Ginsburg, Champion Of Gender Equality, Dies At 87 https://t.co/V0b7oSFYPy
-
-https://x.com/boazbaraktcs/status/1307180717475065856 · [archived](https://web.archive.org/web/20200919045235/https://twitter.com/boazbaraktcs/status/1307180717475065856)
-
-## 2020-09-18
-
-> My course on differential privacy is public!
-> 
-> Check out the course page for: lecture videos 🎥, lecture notes 📝, and suggested readings 📖!
-> https://t.co/srlq0tGfzs
-> 
-> Be sure to subscribe on Youtube to catch the latest lectures!
-> https://t.co/rl6Tx6DSh7
-> #privacy
-
-https://x.com/boazbaraktcs/status/1306991119864127488 · [archived](https://web.archive.org/web/20200918162638/https://twitter.com/boazbaraktcs/status/1306991119864127488)
-
-## 2020-09-18
-
-> I am one of 24 American Turing Award Laureates to endorse the Biden/Harris ticket.
-> 
-> Immigration &amp; Science-based policies are paramount.
-> But my endorsement is in defense of democracy &amp; opposition to authoritarianism kleptocracy, corruption, divisiveness. 
-> 
-> https://t.co/roVg7v5QFz
-
-https://x.com/boazbaraktcs/status/1306987074835361798 · [archived](https://web.archive.org/web/20200918160926/https://twitter.com/boazbaraktcs/status/1306987074835361798)
-
 ## 2020-09-18
 
 > The worst thing McConnell can imagine is giving fellow American citizens an equal representation in governing our country. And I thought we Harvard professors are supposed to be the elitist ones.
@@ -6609,13 +5426,13 @@ https://x.com/boazbaraktcs/status/1306977000016445440 · [archived](https://web.
 
 ## 2020-09-17 · possibly deleted
 
-_(text not available)_
+> A little bit of selfish advertising. I have postdoc positions available in my group for research in theoretical quantum information science with particular focus on noise resilient quantum technologies and quantum error correction. https://t.co/pY3hwnevbj
 
 https://x.com/boazbaraktcs/status/1306733261046120448 · [archived](https://web.archive.org/web/20200917231556/https://twitter.com/boazbaraktcs/status/1306733261046120448)
 
 ## 2020-09-17 · possibly deleted
 
-> @boazbaraktcs @prfsanjeevarora "No problem is NP-hard if you're a REAL American."
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1306732494977458176 · [archived](https://web.archive.org/web/20200917231207/https://twitter.com/boazbaraktcs/status/1306732494977458176)
 
@@ -6625,30 +5442,17 @@ https://x.com/boazbaraktcs/status/1306732494977458176 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1306716059374772225 · [archived](https://web.archive.org/web/20200917220616/https://twitter.com/boazbaraktcs/status/1306716059374772225)
 
-## 2020-09-17
+## 2020-09-17 · reply to @JamesSurowiecki
 
 > @JamesSurowiecki I thought the point of “warp speed” is that doses  for candidates are already being produced concurrently with the trials. But distributing them will (or at least should) wait till efficacy &amp; safety is demonstrated.
 
 https://x.com/boazbaraktcs/status/1306618973417598977 · [archived](https://web.archive.org/web/20200917155248/https://twitter.com/boazbaraktcs/status/1306618973417598977)
 
-## 2020-09-17
-
-> Javier Omar Trujillo, 41yo Home Health LVN, Mission, TX, died of #covid19 9/4.  While sick, he posted a plea to Gov. Abbott: "I'm not ready to leave my children fatherless or my wife a widow. I have too much more to give them". #healthcareheroes #WearAMask https://t.co/bjQ9EQQASs https://t.co/zYvbAy6czr
-
-https://x.com/boazbaraktcs/status/1306571098188918785 · [archived](https://web.archive.org/web/20200917123605/https://twitter.com/boazbaraktcs/status/1306571098188918785)
-
-## 2020-09-16
+## 2020-09-16 · reply to @justinsink
 
 > @justinsink @JenniferJJacobs It's a pity this is not the domestic policy strategy.
 
 https://x.com/boazbaraktcs/status/1306294503821602816 · [archived](https://web.archive.org/web/20200916191205/https://twitter.com/boazbaraktcs/status/1306294503821602816)
-
-## 2020-09-15
-
-> Looking for a director for the META team (ML Ethics Transparency and Accountability), in this role, you will shape the future of algorithmic responsibility at Twitter and in the world.
-> Apply here: https://t.co/chkm6XSNnJ
-
-https://x.com/boazbaraktcs/status/1305927820166615041 · [archived](https://web.archive.org/web/20200915180026/https://twitter.com/boazbaraktcs/status/1305927820166615041)
 
 ## 2020-09-15 · possibly deleted
 
@@ -6658,33 +5462,11 @@ https://x.com/boazbaraktcs/status/1305927820166615041 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1305916504618065920 · [archived](https://web.archive.org/web/20200915171806/https://twitter.com/boazbaraktcs/status/1305916504618065920)
 
-## 2020-09-15 · reply to @doctorow
-
-> This year's award winners are standouts (as always)! 
-> 
-> https://t.co/HG0HYfzHjy
-> 
-> * Joy Buolamwini, Dr Timnit Gebru, Deborah Raji:
-> 
-> Their research on race/gender bias in facial analysis laid the groundwork for a movement banning law enforcement’s use of face surveillance.
-> 
-> 2/
-
-https://x.com/boazbaraktcs/status/1305664053885513728 · [archived](https://web.archive.org/web/20200915002636/https://twitter.com/boazbaraktcs/status/1305664053885513728)
-
 ## 2020-09-14 · possibly deleted
 
-_(text not available)_
+> This is nice. (Cramér—Rao from the data processing inequality.) https://t.co/Tls5GTkpkA
 
 https://x.com/boazbaraktcs/status/1305498702644162560 · [archived](https://web.archive.org/web/20200914133356/https://twitter.com/boazbaraktcs/status/1305498702644162560)
-
-## 2020-09-13
-
-> Another mass resignation of an editorial board has happened, and this one feels like quite a big deal, as the journal in question is Journal of Combinatorial Theory A, one of Elsevier's premium combinatorics journals.  1/
-> 
-> https://t.co/HXaZ4x66cj
-
-https://x.com/boazbaraktcs/status/1305256975878455300 · [archived](https://web.archive.org/web/20200913212857/https://twitter.com/boazbaraktcs/status/1305256975878455300)
 
 ## 2020-09-11
 
@@ -6692,7 +5474,7 @@ https://x.com/boazbaraktcs/status/1305256975878455300 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1304526332441829377 · [archived](https://web.archive.org/web/20200911210803/https://twitter.com/boazbaraktcs/status/1304526332441829377)
 
-## 2020-09-11
+## 2020-09-11 · reply to @isbellHFh
 
 > @isbellHFh +1 but research experience is important not just for "we know you" but even more for "you know you". If you are a CS major you have plenty of other options, and it's important to know if you love research (in area X) before committing the next 4+ years of your life to it.
 
@@ -6705,19 +5487,6 @@ https://x.com/boazbaraktcs/status/1304402831886159873 · [archived](https://web.
 > +1 Bacon is delicious
 
 https://x.com/boazbaraktcs/status/1304197287795552256 · [archived](https://web.archive.org/web/20200910231832/https://twitter.com/boazbaraktcs/status/1304197287795552256)
-
-## 2020-09-10
-
-> Ahh this was really unexpected and I am so honored! I love this paper so much, and I'm glad I get to share it!
-> 
-> Thank you to the committee that watched all the talks (I mean wow)! Extra thanks to my co-authors, especially Matt + Ariel for all their support with the talk!
-
-Quoting https://x.com/AcmSIGecom/status/1303805053631946752:
-> The award for Best Presentation by a Student or Postdoctoral Researcher at #AcmEC20 goes to @kiragoldner for "Optimal Mechanism Design for Single-Minded Agents" (joint work with Nikhil Devanur, Raghuvansh Saxena, Ariel Schvartzman, S. Matthew Weinberg)
-> 
-> https://t.co/nS6V5H2q7N
-
-https://x.com/boazbaraktcs/status/1304194657765605378 · [archived](https://web.archive.org/web/20200910230938/https://twitter.com/boazbaraktcs/status/1304194657765605378)
 
 ## 2020-09-10
 
@@ -6734,31 +5503,9 @@ https://x.com/boazbaraktcs/status/1303790916570738689 · [archived](https://web.
 
 ## 2020-09-09 · possibly deleted
 
-_(text not available)_
+> Another article with what should be devastating revelations about Trump. This time not based on anonymous sources, but literally on the record. In fact you can hear a recording of Trump admitting he wanted to “play down” COVID-19. https://t.co/JlNQIDALAX
 
 https://x.com/boazbaraktcs/status/1303770775996887042 · [archived](https://web.archive.org/web/20200909190730/https://twitter.com/boazbaraktcs/status/1303770775996887042)
-
-## 2020-09-09
-
-> Computer scientist Stephanie Gil, who develops algorithms that help robots coordinate to achieve important tasks, has joined the #hseas faculty: https://t.co/oRGtwMkDfV https://t.co/t8EGx6NY4F
-
-https://x.com/boazbaraktcs/status/1303714160748896257 · [archived](https://web.archive.org/web/20200909151820/https://twitter.com/boazbaraktcs/status/1303714160748896257)
-
-## 2020-09-08
-
-> How multipurpose is #GPT3? We gave it questions about elementary math, history, law, and more. We found that GPT-3 is now better than random chance across many tasks, but for all 57 tasks it still has wide room for improvement.
-> 
-> https://t.co/cykeuuQpNo
-> https://t.co/uVliu9oYv5 https://t.co/jCqFvdPeSv
-
-https://x.com/boazbaraktcs/status/1303360731778146304 · [archived](https://web.archive.org/web/20200908160001/https://twitter.com/boazbaraktcs/status/1303360731778146304)
-
-## 2020-09-07
-
-> You can't let college kids get exposed to the virus and then send them home where they're more likely to infect higher-risk people. That makes no sense as a containment strategy.
-> https://t.co/z6f86a8Gpo
-
-https://x.com/boazbaraktcs/status/1302967403815600131 · [archived](https://web.archive.org/web/20200907135121/https://twitter.com/boazbaraktcs/status/1302967403815600131)
 
 ## 2020-09-07
 
@@ -6810,33 +5557,24 @@ https://x.com/boazbaraktcs/status/1302653110075170816 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1302293884177969154 · [archived](https://web.archive.org/web/20200905171534/https://twitter.com/boazbaraktcs/status/1302293884177969154)
 
-## 2020-09-05
-
-> Fascinating talk by Moon Duchin (@gerrymandr) on differential privacy in the 2020 US Census (on work w/ @aloni_bologna, JN Matthews, Bhushan Suwal, Peter Wayner). How much error will be introduced, how to minimize it for applications (including VRA reqs)?https://t.co/gNBsZNBux3
-
-https://x.com/boazbaraktcs/status/1302283645126873089 · [archived](https://web.archive.org/web/20200905163623/https://twitter.com/boazbaraktcs/status/1302283645126873089)
-
-## 2020-09-05
-
-> 1/9 I am a veteran. I volunteered for military service during wartime. So did my father. His generation saved the world from fascism. https://t.co/0tWKdMYDKs
-
-https://x.com/boazbaraktcs/status/1302283510435254273 · [archived](https://web.archive.org/web/20200905163339/https://twitter.com/boazbaraktcs/status/1302283510435254273)
-
 ## 2020-09-05 · possibly deleted
 
-_(text not available)_
+> Colleges: Suspend kids for going to parties, and then act surprised that they don't comply with contact tracing requests. https://t.co/YJtW2uyP7c
 
 https://x.com/boazbaraktcs/status/1302281160664461319 · [archived](https://web.archive.org/web/20200905162344/https://twitter.com/boazbaraktcs/status/1302281160664461319)
 
 ## 2020-09-04 · possibly deleted
 
-_(text not available)_
+> I've cancelled as many of my obligations as possible for the week of Nov 2nd (and one thing I couldn't on Wed, I've told them I may need to that morning).
+> The chances of him losing _and_ peacefully transitioning out is... not high. Off to phone-bank. Please chip in as you can.
 
 https://x.com/boazbaraktcs/status/1301963742255734785 · [archived](https://web.archive.org/web/20200904192238/https://twitter.com/boazbaraktcs/status/1301963742255734785)
 
 ## 2020-09-04 · possibly deleted
 
-_(text not available)_
+> Just found this *amazing* site/IG account thanks to @ShivNadimpalli. Run by Annie Raymond, includes profiles of awesome TCS people like @tonipitassi, Maryam Fazel, Susanna F. de Rezende. Math *is* for all!
+> IG: https://t.co/IDRYJOz1cp
+> Site: https://t.co/dg8Zzh7urZ
 
 https://x.com/boazbaraktcs/status/1301961232178712577 · [archived](https://web.archive.org/web/20200904191217/https://twitter.com/boazbaraktcs/status/1301961232178712577)
 
@@ -6848,7 +5586,8 @@ https://x.com/boazbaraktcs/status/1301906538056028163 · [archived](https://web.
 
 ## 2020-09-04 · possibly deleted
 
-_(text not available)_
+> FWIW, I agree with Ashish. For this projection to come true close to 1900 people would have to die of #covid19 every day.
+> I think there is a danger that projections like this make us less sensitive to the very real tragedy of more than 200,000 US deaths before this months ends. https://t.co/UMzqJVHvZh
 
 https://x.com/boazbaraktcs/status/1301878669103767552 · [archived](https://web.archive.org/web/20200904140447/https://twitter.com/boazbaraktcs/status/1301878669103767552)
 
@@ -6861,7 +5600,7 @@ https://x.com/boazbaraktcs/status/1301878669103767552 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1301654351052587011 · [archived](https://web.archive.org/web/20200903225305/https://twitter.com/boazbaraktcs/status/1301654351052587011)
 
-## 2020-09-02
+## 2020-09-02 · reply to @EliBenSasson
 
 > @EliBenSasson once told me that in studying cryptocurrency governance, people often find themselves rediscovering 18th century political theory. Maybe in ML data collection we are rediscovering Roman archival practices? :)
 
@@ -6889,7 +5628,7 @@ https://x.com/boazbaraktcs/status/1300930141405634560 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1300551950220623872 · [archived](https://web.archive.org/web/20200831215219/https://twitter.com/boazbaraktcs/status/1300551950220623872)
 
-## 2020-08-31
+## 2020-08-31 · reply to @NateSilver538
 
 > @NateSilver538 Does this mean that in such a case (assuming all other states are held constant and this state determines the winner) you are modeling this as normal with std-dev of about 3%? And presumably the standard dev shrinks as one gets closer to the election day?
 
@@ -6903,23 +5642,25 @@ https://x.com/boazbaraktcs/status/1300227168631435269 · [archived](https://web.
 
 ## 2020-08-27 · possibly deleted
 
-_(text not available)_
+> Anthony Huber was the hero that tried to apprehend the gunman in #Kenosha, after the gunman shot a BLM protester in the face he ran-up to him with his skateboard to stop him from shooting others. He was shot in the chest by the gunman and died. Rest in power, Anthony Huber.
 
 https://x.com/boazbaraktcs/status/1298998682855944194 · [archived](https://web.archive.org/web/20200827150043/https://twitter.com/boazbaraktcs/status/1298998682855944194)
 
 ## 2020-08-27 · possibly deleted
 
-_(text not available)_
+> I've had a debilitating migraine this week. This happens every time I learn about yet another case of police brutality. I've been esp struggling thinking about the trauma Black children who bear witness to these violences have to endure.
+> (This is common: https://t.co/3J6P3IxIAD) https://t.co/fnz7gJu6zU
 
 https://x.com/boazbaraktcs/status/1298998547598028800 · [archived](https://web.archive.org/web/20200827150028/https://twitter.com/boazbaraktcs/status/1298998547598028800)
 
 ## 2020-08-26 · possibly deleted
 
-_(text not available)_
+> Hi. I'm Charles Isbell, a proud alum of @GeorgiaTech ('90) and @MIT ('98). I'm old enough to have been a few firsts, which says more about the world than me. I'm now a Professor doing machine learning and the very proud Dean of @gtcomputing.
+> #BlackInComputing #BiCRollCall
 
 https://x.com/boazbaraktcs/status/1298745044648648705 · [archived](https://web.archive.org/web/20200826221250/https://twitter.com/boazbaraktcs/status/1298745044648648705)
 
-## 2020-08-26
+## 2020-08-26 · reply to @boazbaraktcs
 
 > @AnimaAnandkumar @zoom_us @zoom_us - your interface from host side is not intuitive - especially if you encounter bombing for 1st time. In meeting with &gt;50 people should be prominent "freeze all" button that allows pauses meeting, blanking out chat&amp;participants&amp;video, while host figures out what to do
 
@@ -6938,20 +5679,6 @@ Quoting https://x.com/beenwrekt/status/1297943000044253187:
 
 https://x.com/boazbaraktcs/status/1298278846760796160 · [archived](https://web.archive.org/web/20200825154418/https://twitter.com/boazbaraktcs/status/1298278846760796160)
 
-## 2020-08-25
-
-> Great idea: @pollheroproject is an organization to get young high school and college-aged students to volunteer to be poll workers for the upcoming election.
-
-Quoting https://x.com/jennycohn1/status/1297350071529246721:
-> Margo Mattes (high school student) and Kennedy Mattes (Princeton) are with @pollheroproject whose goals are:
-> 
-> 1. 10k sign ups at https://t.co/kNs2xa2YD2 (they already have 5k) 
-> 2. 5k followers (they have 4,470)
-> 
-> Pls help them get there. TY! https://t.co/eSo9av8wvY
-
-https://x.com/boazbaraktcs/status/1298268179886559232 · [archived](https://web.archive.org/web/20200825144327/https://twitter.com/boazbaraktcs/status/1298268179886559232)
-
 ## 2020-08-21
 
 > @ArneMeier Cantor's Theorem implies that we cannot represent real numbers exactly on a computer and must resort to approximations, such as the floating point representation. 
@@ -6962,7 +5689,7 @@ https://x.com/boazbaraktcs/status/1296839831893360640 · [archived](https://web.
 
 ## 2020-08-21 · possibly deleted
 
-_(text not available)_
+> @ilyaraz2 @JoeBiden @KamalaHarris @realDonaldTrump You can count on this citizen to do so. Not just for immigrants, but for US citizens and everyone world-wide. If Trump has been this bad so far, it's just hard to imagine how worse he would be when he doesn't need to face another judgement by the voters.
 
 https://x.com/boazbaraktcs/status/1296838584104706048 · [archived](https://web.archive.org/web/20200821155715/https://twitter.com/boazbaraktcs/status/1296838584104706048)
 
@@ -7012,7 +5739,7 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1295439596113690624 · [archived](https://web.archive.org/web/20200817191821/https://twitter.com/boazbaraktcs/status/1295439596113690624)
 
-## 2020-08-15
+## 2020-08-15 · reply to @factcheckdotorg
 
 > @factcheckdotorg correct their own June 26 post that "Biden Floats Baseless Election Conspiracy". 
 > 
@@ -7033,35 +5760,6 @@ https://x.com/boazbaraktcs/status/1294089574491328513 · [archived](https://web.
 > My secret agenda is to try to spread the word among theoretical computer scientists so likelihood of collaborator having it installed is higher :)
 
 https://x.com/boazbaraktcs/status/1293671192230936577 · [archived](https://web.archive.org/web/20200812221056/https://twitter.com/boazbaraktcs/status/1293671192230936577)
-
-## 2020-08-12
-
-> Some truly excellent news --- long live the Simons Institute!  It has added a totally new dimension to life as a theoretical computer scientist.  https://t.co/JPYjX0TmUp
-
-https://x.com/boazbaraktcs/status/1293348685573586945 · [archived](https://web.archive.org/web/20200812010339/https://twitter.com/boazbaraktcs/status/1293348685573586945)
-
-## 2020-08-11 · reply to @fortnow
-
-> We haven't received the ballot yet and it needs to be arrive in Georgia on election day tomorrow. 
-> 
-> This is what democracy looks like @GaSecofState?
-
-https://x.com/boazbaraktcs/status/1293166157025902592 · [archived](https://web.archive.org/web/20200811124357/https://twitter.com/boazbaraktcs/status/1293166157025902592)
-
-## 2020-08-06 · reply to @saghbini_
-
-> @Saghbini and I are matching donations up to $5k for #Beirut. Donate direct to the Lebanese Red Cross or Lebanese Food bank, DM or e-mail receipt to JCRbeirutmatch@gmail.com - H/T @ra @_hala @habibh for the inspo. https://t.co/ou5Z7If4RJ &amp; https://t.co/ZYfPrxT0FU
-
-https://x.com/boazbaraktcs/status/1291220154995662849 · [archived](https://web.archive.org/web/20200806040102/https://twitter.com/boazbaraktcs/status/1291220154995662849)
-
-## 2020-08-05
-
-> For those wanting to help #Beirut #Lebanon today the Lebanese Red Cross @RedCrossLebanon  does critical life saving work in the ground. Donation info below.
-
-Quoting https://x.com/RedCrossLebanon/status/1290787078826086401:
-> https://t.co/6FYxXdzjFQ https://t.co/vN79JL1GEE
-
-https://x.com/boazbaraktcs/status/1290978272285732866 · [archived](https://web.archive.org/web/20200805115007/https://twitter.com/boazbaraktcs/status/1290978272285732866)
 
 ## 2020-08-03 · possibly deleted
 
@@ -7084,12 +5782,6 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1288534210966413313 · [archived](https://web.archive.org/web/20200729175819/https://twitter.com/boazbaraktcs/status/1288534210966413313)
 
-## 2020-07-28
-
-> It's National Vote By Mail Day. Voting by mail is easy and safe. Take a few minutes to request your vote-by-mail ballot, then get your family and friends to do the same. Request your ballot early, send it back early, and fill it out carefully. Get started: https://t.co/pmWQqs4PbB https://t.co/JlOWmkJG57
-
-https://x.com/boazbaraktcs/status/1288179082354663425 · [archived](https://web.archive.org/web/20200728212909/https://twitter.com/boazbaraktcs/status/1288179082354663425)
-
 ## 2020-07-27 · possibly deleted
 
 _(text not available)_
@@ -7108,16 +5800,7 @@ https://x.com/boazbaraktcs/status/1287735217470541824 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1287487352840097793 · [archived](https://web.archive.org/web/20200726203832/https://twitter.com/boazbaraktcs/status/1287487352840097793)
 
-## 2020-07-23
-
-> Multiple postdoc openings in our group at 
-> @Harvard Computer Science focused in  multiagent systems, including computational game theory, social networks, reinforcement learning etc. Relevant work: https://t.co/GCJv2B5cTA
-> 
-> Deadline 8/15(flexible). Please ping me if interested. https://t.co/gM933iGy4F
-
-https://x.com/boazbaraktcs/status/1286449214671720449 · [archived](https://web.archive.org/web/20200724140232/https://twitter.com/boazbaraktcs/status/1286449214671720449)
-
-## 2020-07-23
+## 2020-07-23 · reply to @johnurbanik
 
 > @johnurbanik This is not really about complexity but a general (important!) comment about "metrics". There is a reason computer scientists like quantifiable metrics - they are crucial for progress. But by definition metrics can never tell the whole story and we need to remember that.
 
@@ -7139,7 +5822,7 @@ https://x.com/boazbaraktcs/status/1285610452454604802 · [archived](https://web.
 
 ## 2020-07-21 · possibly deleted
 
-_(text not available)_
+> @JamesSurowiecki @davidshor @EricLevitz Generally trump African American support so low that it's not surprising it didn't come down - there isn't any room. Would be more interesting to see if there has been change in intensity among people that were already planning to vote Democrat.
 
 https://x.com/boazbaraktcs/status/1285607118620557313 · [archived](https://web.archive.org/web/20200722084619/https://twitter.com/boazbaraktcs/status/1285607118620557313)
 
@@ -7149,7 +5832,7 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1285606287464697859 · [archived](https://web.archive.org/web/20200721174512/https://twitter.com/boazbaraktcs/status/1285606287464697859)
 
-## 2020-07-18
+## 2020-07-18 · reply to @djhsu
 
 > @djhsu @geomblog @ccanonne_ @CyrusRashtchian @gautamcgoel @__sanketh Don’t get me started on why I also dislike latex and prefer markdown. @overleaf been getting better at “partial compiling” - leaving offending code in red but still compiling rest of document. I think that’s the future (until we stop directly writing latex, as we did for HTML)
 
@@ -7221,27 +5904,7 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1283250600239661061 · [archived](https://web.archive.org/web/20200715041126/https://twitter.com/boazbaraktcs/status/1283250600239661061)
 
-## 2020-07-15
-
-> My home country Lebanon is in dire economic crisis, currency losing over 80% of its value, constraints on withdrawals, transfers.
-> “Bartering Child’s Dress for Food: Life in Lebanon’s Economic Crisis - The New York Times” https://t.co/QnRooylxk3 via @GoogleNews
-
-https://x.com/boazbaraktcs/status/1283248967208271874 · [archived](https://web.archive.org/web/20200715040034/https://twitter.com/boazbaraktcs/status/1283248967208271874)
-
-## 2020-07-13
-
-> 250+ universities just filed an amicus brief joining MIT &amp; Harvard in opposition to ICE's new visa policy for international students.
-> 
-> 28 U.S. senators have also signed a letter opposing the policy.
-> 
-> RT if you agree. 
-> 
-> https://t.co/kVNvtADDpg
-> (image v/@neubadah) https://t.co/4Rfp4tVMYG
-
-https://x.com/boazbaraktcs/status/1282686202638983168 · [archived](https://web.archive.org/web/20200713154100/https://twitter.com/boazbaraktcs/status/1282686202638983168)
-
-## 2020-07-11
+## 2020-07-11 · reply to @boazbaraktcs
 
 > @_sunk8 @mor_nitzan Generally “optimal strategy” varies based  on external infection probability and internal reproduction. Some factors outside model include optimizing tests based on individual characteristics (connectivity inside the workplace, risk factors) - see @oziadias work using ML for this
 
@@ -7279,14 +5942,6 @@ Quoting https://x.com/oziadias/status/1280253679384227841:
 
 https://x.com/boazbaraktcs/status/1281277533229547520 · [archived](https://web.archive.org/web/20200709180256/https://twitter.com/boazbaraktcs/status/1281277533229547520)
 
-## 2020-07-09
-
-> On July 9, a few years ago, a speech about fighting oppression got out of control. The protest organizer wanted it to be nonviolent but protesters started destroying property and attacking law enforcement officers.
-> 
-> A (relatively short) thread:
-
-https://x.com/boazbaraktcs/status/1281208872724766720 · [archived](https://web.archive.org/web/20200709143326/https://twitter.com/boazbaraktcs/status/1281208872724766720)
-
 ## 2020-07-08
 
 > Notebook / blogpost on work w/ @mor_nitzan, Neta Ravid and Janni Yuval on detecting COVID-19 outbreak within business/school/etc.
@@ -7315,7 +5970,7 @@ Quoting https://x.com/xexd/status/1280537637967839233:
 
 https://x.com/boazbaraktcs/status/1280542176557047815 · [archived](https://web.archive.org/web/20200707173805/https://twitter.com/boazbaraktcs/status/1280542176557047815)
 
-## 2020-07-07
+## 2020-07-07 · reply to @Santho_Velusamy
 
 > @Santho_Velusamy It is disturbing! This regulation seems to be mostly about coursework, and I don't know how it affects remote research. Any sane admin would be maximizing flexibility at this point to encourage remote work and minimize public health risk.
 
@@ -7335,45 +5990,6 @@ Quoting https://x.com/sahilkapur/status/1280213748725186575:
 > ICE is telling international students on F-1 and M-1 visas that if their school is doing online-only courses they must leave the country or transfer to a place with in-person instruction—or they'll be deemed in the US illegally and subject to deportation. https://t.co/O0T8QITNKG
 
 https://x.com/boazbaraktcs/status/1280231493164466176 · [archived](https://web.archive.org/web/20200706201259/https://twitter.com/boazbaraktcs/status/1280231493164466176)
-
-## 2020-07-04
-
-> We don't talk about mental health much in my circle of #AcademicTwitter. But sadly came to mind with the passing of online personality @Byron (https://t.co/nH8U50uxeL). Academics often prioritize work above all else. But take care of your health (mental or o/w) *now*, not later.
-
-https://x.com/boazbaraktcs/status/1279513367842095106 · [archived](https://web.archive.org/web/20200704203428/https://twitter.com/boazbaraktcs/status/1279513367842095106)
-
-## 2020-07-04
-
-> Differential privacy platform developed by Microsoft and Harvard
-> https://t.co/eWyFjrOhrg
-
-https://x.com/boazbaraktcs/status/1279512911078215683 · [archived](https://web.archive.org/web/20200704203411/https://twitter.com/boazbaraktcs/status/1279512911078215683)
-
-## 2020-07-01
-
-> Thank you so much to the awards committee! Also a huge thanks to the past and current ICML chairs and organizers for all their great work for our community! 👍 It is an honor to receive this 😀😀 with such wonderful co-authors: @arkrause, Matthias, and Niranjan!
-
-Quoting https://x.com/haldaume3/status/1278440176495349762:
-> We are very pleased to announce that the #icml2020 Test of Time award goes to
-> 
->     Gaussian Process Optimization in the Bandit Setting: No Regret and Experimental Design
-> 
-> by Niranjan Srinivas, Andreas Krause, Sham Kakade and Matthias Seeger
-> 
-> https://t.co/kDuE8kwBx6
-> 
-> &gt; https://t.co/UWG3NiBJ5i
-
-https://x.com/boazbaraktcs/status/1278463414789115904 · [archived](https://web.archive.org/web/20200701230252/https://twitter.com/boazbaraktcs/status/1278463414789115904)
-
-## 2020-07-01
-
-> Congratulations to three amazing theorists on being named as Simons Investigators: Venkat Guruswami, Omer Reingold, and David Woodruff!
-
-Quoting https://x.com/SimonsFdn/status/1277979473401352202:
-> Congratulations to the 2020 Simons Investigators in Math, Physics, Astrophysics and Computer Science, announced in today's @NYTScience and online here: https://t.co/2tvONFVJrN https://t.co/f3yuWMMLNa
-
-https://x.com/boazbaraktcs/status/1278342941585616899 · [archived](https://web.archive.org/web/20200701151929/https://twitter.com/boazbaraktcs/status/1278342941585616899)
 
 ## 2020-06-29
 
@@ -7407,7 +6023,7 @@ https://x.com/boazbaraktcs/status/1274187000736858112 · [archived](https://web.
 
 ## 2020-06-19 · possibly deleted
 
-> Made a notebook to track Biden vs Trump polling now vs Clinton/Trump 4 years ago https://t.co/2EQEWdHHD2 . The "danger zone" corresponds to 2016 polling error + 3%, since electoral college 3% popular vote advantage seems llikely to be unsurmountable.
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1273770640621948928 · [archived](https://web.archive.org/web/20200619001520/https://twitter.com/boazbaraktcs/status/1273770640621948928)
 
@@ -7420,13 +6036,6 @@ Quoting https://x.com/sama/status/1273330360378470401:
 
 https://x.com/boazbaraktcs/status/1273335388703281152 · [archived](https://web.archive.org/web/20200617193034/https://twitter.com/boazbaraktcs/status/1273335388703281152)
 
-## 2020-06-17
-
-> In Spain the government announced a state ceremony to honor the more than 27,000 people dead of #covid19.
-> In the US, the vice president wrote an opinion piece that somehow manages to not even acknowledge that more than 110,000 of his fellow citizens have died of the virus.
-
-https://x.com/boazbaraktcs/status/1273321268100714497 · [archived](https://web.archive.org/web/20200617182951/https://twitter.com/boazbaraktcs/status/1273321268100714497)
-
 ## 2020-06-17 · possibly deleted
 
 _(text not available)_
@@ -7435,15 +6044,9 @@ https://x.com/boazbaraktcs/status/1273262393498513409 · [archived](https://web.
 
 ## 2020-06-15 · possibly deleted
 
-> huh thanks to @boazbaraktcs I could actually understand a lot of this talk so far, on quantum computing, his Intro to Theoretical Computer Science I highly recommend https://t.co/rGHcNtRrAm
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1272540504421552130 · [archived](https://web.archive.org/web/20200615153513/https://twitter.com/boazbaraktcs/status/1272540504421552130)
-
-## 2020-06-15
-
-> As an immigrant to the US, that has used these visas, I like to believe I have added (a bit more than a little) to make the US a leader in quantum computing. This policy will only make it harder for us to lead, so stupid we need to try to make sure this does not happen.
-
-https://x.com/boazbaraktcs/status/1272323915189288960 · [archived](https://web.archive.org/web/20200615003558/https://twitter.com/boazbaraktcs/status/1272323915189288960)
 
 ## 2020-06-15 · possibly deleted
 
@@ -7459,24 +6062,9 @@ https://x.com/boazbaraktcs/status/1272298442094764037 · [archived](https://web.
 
 ## 2020-06-14 · possibly deleted
 
-> @JamesSurowiecki If you consider Joe Biden as more representative of liberalism than a coalition of nationalists, conservatives, and Christians spearheaded by Donald Trump then ... I guess you have a different definition of “liberal” than @yhazony
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1271994528191348741 · [archived](https://web.archive.org/web/20200614024138/https://twitter.com/boazbaraktcs/status/1271994528191348741)
-
-## 2020-06-14
-
-> Option 3: Elect Joe Biden and a bunch of Democratic senators and enjoy 4 years of conventional center-left liberal politics.
-
-Quoting https://x.com/yhazony/status/1271913919452495872:
-> Liberals have two choices:
-> 
-> 1 Submit to the Left. 
-> 
-> 2 Alliance with nationalists, conservatives, and Christians. 
-> 
-> There are no other choices.
-
-https://x.com/boazbaraktcs/status/1271983998357704704 · [archived](https://web.archive.org/web/20200614015350/https://twitter.com/boazbaraktcs/status/1271983998357704704)
 
 ## 2020-06-12 · possibly deleted
 
@@ -7503,12 +6091,6 @@ https://x.com/boazbaraktcs/status/1271088782129979393 · [archived](https://web.
 
 ## 2020-06-10
 
-> "One day will not resolve the structural racism that is deeply embedded in our country. However, I am committed to this being one step of many in creating an equitable and just SEAS community." Read Dean Doyle's statement about #ShutDownSTEM. https://t.co/xWG5RogRnV https://t.co/mguX78TRut
-
-https://x.com/boazbaraktcs/status/1270784450419396609 · [archived](https://web.archive.org/web/20200610184020/https://twitter.com/boazbaraktcs/status/1270784450419396609)
-
-## 2020-06-10
-
 > This should be required reading for computer scientists.
 > 
 > https://t.co/vJN4nkOM0d
@@ -7527,17 +6109,9 @@ _(text not available)_
 
 https://x.com/boazbaraktcs/status/1269976907040329729 · [archived](https://web.archive.org/web/20200608135036/https://twitter.com/boazbaraktcs/status/1269976907040329729)
 
-## 2020-06-07
-
-> In Fall 2019, I taught a course on computer science &amp; marginalized groups. I'll be posting the results of our discussions (and more) on a new blog @ ."https://t.co/FNkuNv3nuE": https://t.co/B9kDLzYsG6
-
-https://x.com/boazbaraktcs/status/1269735466317856771 · [archived](https://web.archive.org/web/20200607220546/https://twitter.com/boazbaraktcs/status/1269735466317856771)
-
 ## 2020-06-07 · possibly deleted
 
-> This. This. This.
-> The responsibility for safety is not just on those of us who protest. It’s on those who are sworn to protect and serve
-> #ProtectAndServe https://t.co/dudDne3vgU
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1269679066182975488 · [archived](https://web.archive.org/web/20200608000035/https://twitter.com/boazbaraktcs/status/1269679066182975488)
 
@@ -7549,9 +6123,7 @@ https://x.com/boazbaraktcs/status/1269084990496747521 · [archived](https://web.
 
 ## 2020-06-04 · possibly deleted
 
-> George Will: Trump and his enablers must be removed.
-> “(Trump) stood ..in front of uniformed police and urged them “please don’t be too nice” when handling suspected offenders. His hope was fulfilled for 8 minutes and 46 seconds on Minneapolis pavement.”
-> https://t.co/zHbEzegLj4
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1268379914073448448 · [archived](https://web.archive.org/web/20200604032702/https://twitter.com/boazbaraktcs/status/1268379914073448448)
 
@@ -7563,20 +6135,9 @@ https://x.com/boazbaraktcs/status/1268311718725398528 · [archived](https://web.
 
 ## 2020-06-03 · possibly deleted
 
-> Thread: A lot of people are asking me where to give $ in this moment (I direct criminal justice giving at Open Philanthropy). I've compiled a list of recs for police accountability, including shrinking their budgets; decarceration; and transforming systems. /1
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1268309229749886978 · [archived](https://web.archive.org/web/20200604011653/https://twitter.com/boazbaraktcs/status/1268309229749886978)
-
-## 2020-06-02
-
-> My department head asked me for advice on these "profoundly difficult moment"
-> Here's what I said, I hope this can apply to departments outside of CS, larger academia, and greater US.
-> @AcademicChatter 
-> @TheOfficialACM 
-> @ComputerSociety
-> (1/12)
-
-https://x.com/boazbaraktcs/status/1267933857355087876 · [archived](https://web.archive.org/web/20200603073052/https://twitter.com/boazbaraktcs/status/1267933857355087876)
 
 ## 2020-05-31 · possibly deleted
 
@@ -7601,14 +6162,13 @@ https://x.com/boazbaraktcs/status/1267108165117673475 · [archived](https://web.
 
 ## 2020-05-31 · possibly deleted
 
-> The Minnesota Freedom Fund helps paying bail for people arrested during the protests.
-> https://t.co/VQDFGUCcn6
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1266927603962781698 · [archived](https://web.archive.org/web/20200531030308/https://twitter.com/boazbaraktcs/status/1266927603962781698)
 
 ## 2020-05-31 · possibly deleted
 
-> Adding computer scientists to the list, and especially working in "algorithmic fairness." If you actually care about discrimination and injustice, now is your chance to do something. Black lives are not your intellectual curiosity. https://t.co/UvNU7Ltlyu
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1266925763221237762 · [archived](https://web.archive.org/web/20200531025855/https://twitter.com/boazbaraktcs/status/1266925763221237762)
 
@@ -7620,7 +6180,7 @@ https://x.com/boazbaraktcs/status/1266167193412210688 · [archived](https://web.
 
 ## 2020-05-28 · possibly deleted
 
-> Rare beast: short @slatestarcodex post https://t.co/4mxzgc4oeK . Recommended for perspective: don't have to challenge everyone who is wrong on the Internet. However, if crazy X reported because it's news (e.g. QAnon/Perkins, Scarborough/Trump), important to clarify it's false.
+_(text not available)_
 
 https://x.com/boazbaraktcs/status/1266052866294321153 · [archived](https://web.archive.org/web/20200529043152/https://twitter.com/boazbaraktcs/status/1266052866294321153)
 
@@ -7649,15 +6209,6 @@ https://x.com/boazbaraktcs/status/1263493563020607489 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1263324816041525249 · [archived](https://web.archive.org/web/20200521042849/https://twitter.com/boazbaraktcs/status/1263324816041525249)
 
-## 2020-05-20
-
-> Promised to tweet out a few more thoughts from my reporting on #covid19 clustering and dispersion factor k. So here goes:
-
-Quoting https://x.com/kakape/status/1262876041237991424:
-> I’ll write more about this tomorrow (late here in Berlin already), but one important point is what this means for controlling #covid19 spread. It suggests that two of the most effective parts of #PhysicalDistancing were stopping big gatherings and having people work from home.
-
-https://x.com/boazbaraktcs/status/1263092733377421320 · [archived](https://web.archive.org/web/20200520130516/https://twitter.com/boazbaraktcs/status/1263092733377421320)
-
 ## 2020-05-19
 
 > Interesting work! They show that the 11.57% accuracy drop of ImageNet v2 vs original becomes only 5.6% if the "difficulty" (selection frequencies) of the data set is calibrated using more workers (40 instead of 10) and give evidence this can be pushed further to a gap of ~3.8%.
@@ -7682,12 +6233,6 @@ Quoting https://x.com/LuisvonAhn/status/1252780778557247488:
 > I came to the US and instead of taking American jobs, I helped create jobs and billions of dollars in value. Using the virus to stop the Green Card process will hurt companies like @duolingo. We’ll have to open offices and move jobs outside the US because of this. 🙄
 
 https://x.com/boazbaraktcs/status/1262463499478974464 · [archived](https://web.archive.org/web/20200518194355/https://twitter.com/boazbaraktcs/status/1262463499478974464)
-
-## 2020-05-18
-
-> Do you have a soon-to-graduate female or minority Ph.D. student in Theoretical Computer Science? If so, nominate them by May 28 to give a talk at the TCS Women Spotlight Workshop at STOC'20: https://t.co/O8rIDn3vJn
-
-https://x.com/boazbaraktcs/status/1262460582869053441 · [archived](https://web.archive.org/web/20200518192739/https://twitter.com/boazbaraktcs/status/1262460582869053441)
 
 ## 2020-05-16 · possibly deleted
 
@@ -7722,7 +6267,7 @@ Quoting https://x.com/sigact/status/1258807929551163394:
 
 https://x.com/boazbaraktcs/status/1258815423568662529 · [archived](https://web.archive.org/web/20200511225914/https://twitter.com/boazbaraktcs/status/1258815423568662529)
 
-## 2020-04-28
+## 2020-04-28 · reply to @lreyzin
 
 > @lreyzin I was so concerned when reading it that I checked my pulse just to be on the safe side :)
 
@@ -7760,19 +6305,13 @@ https://x.com/boazbaraktcs/status/1254193365492604928 · [archived](https://web.
 
 https://x.com/boazbaraktcs/status/1253330145789673473 · [archived](https://web.archive.org/web/20200503050656/https://twitter.com/boazbaraktcs/status/1253330145789673473)
 
-## 2020-04-23
-
-> https://t.co/WgdGpoFYVG is like the departure board at O'Hare if you could just get on any flight you wanted and they were all free https://t.co/D5Qersm19c
-
-https://x.com/boazbaraktcs/status/1253282140621549568 · [archived](https://web.archive.org/web/20200503035844/https://twitter.com/boazbaraktcs/status/1253282140621549568)
-
 ## 2020-04-21
 
 > @KJKnoblauch It's OK that they monitor &amp; film you during exam, but they shouldn't access any past data (files, browser history) and should be cleanly uninstalled when done. They claim they do this https://t.co/kats8z7JLy but I would feel better about it if they were open source .
 
 https://x.com/boazbaraktcs/status/1252658545193082881 · [archived](https://web.archive.org/web/20200502113329/https://twitter.com/boazbaraktcs/status/1252658545193082881)
 
-## 2010-11-04 · possibly deleted
+## undated · possibly deleted
 
 _(text not available)_
 

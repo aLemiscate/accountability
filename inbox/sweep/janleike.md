@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 256 (2017-04-01 to 2026-05-07)
-- Read so far: 256 (100%); text found for 256; 0 not read yet
+- Archived posts found: 243 (2017-04-01 to 2026-05-07)
+- Left out: 13 archived link(s) under this handle that X says another account wrote
+- Read so far: 243 (100%); text found for 243; 0 not read yet
 - Possibly deleted: 1
-- Matching the topic filter: 117
+- Matching the topic filter: 112
 
 
-Every post is in `janleike.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `janleike/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2026-04-14
 
@@ -637,14 +638,7 @@ https://x.com/janleike/status/1549149802864054272 · [archived](https://web.arch
 
 https://x.com/janleike/status/1544786809195925504 · [archived](https://web.archive.org/web/20251105231215/https://twitter.com/janleike/status/1544786809195925504)
 
-## 2022-07-06
-
-> We are looking to hire Research Scientists for our Long-term Strategy and Governance team at DeepMind! Deadline Aug 1. Please forward and apply:
-> https://t.co/UsowGRQz5h
-
-https://x.com/janleike/status/1544736970676400128 · [archived](https://web.archive.org/web/20220706173711/https://twitter.com/janleike/status/1544736970676400128)
-
-## 2022-06-16
+## 2022-06-16 · reply to @VictorLevoso
 
 > @VictorLevoso @ahron_maline Yup this only works if the AI system giving feedback assistance is easier to align. For example, when you have a task that is difficult to judge, it's often easier to tell whether a given critique is valid.
 
@@ -774,14 +768,6 @@ https://x.com/janleike/status/1501994503023955970 · [archived](https://web.arch
 
 https://x.com/janleike/status/1501986578456973317 · [archived](https://web.archive.org/web/20220310182133/https://twitter.com/janleike/status/1501986578456973317)
 
-## 2022-03-03
-
-> Deploying and studying the real-world use of language models helps us learn more about safety and misuse than research alone.
-> 
-> As we advance our safety and policy work, we're sharing some of our findings to help others do the same. https://t.co/DcTDvAWxxD
-
-https://x.com/janleike/status/1499534059138994229 · [archived](https://web.archive.org/web/20220303235604/https://twitter.com/janleike/status/1499534059138994229)
-
 ## 2022-02-01 · reply to @khimya
 
 > @khimya @scottniekum I'd consider them alignment work even though it's rarely called that.
@@ -882,16 +868,6 @@ https://x.com/janleike/status/1441107639027462149 · [archived](https://web.arch
 
 https://x.com/janleike/status/1441105604987129867 · [archived](https://web.archive.org/web/20210924004321/https://twitter.com/janleike/status/1441105604987129867)
 
-## 2021-07-16
-
-> 📢 We're hiring a data scientist for the Alignment team at @OpenAI! 😊
-> 
-> We're looking for someone who cares deeply about the data used to train ML systems, potentially w/ experience in participatory design, safety/ social impact of ML systems, etc.
-> 
-> Link: https://t.co/sWne74acc9
-
-https://x.com/janleike/status/1415838247016488963 · [archived](https://web.archive.org/web/20210716005850/https://twitter.com/janleike/status/1415838247016488963)
-
 ## 2021-07-09
 
 > I'm excited for this NeurIPS competition on training RL agents from human data. There is a lot of room for more innovation in this space, and better algorithms should help us build more aligned AI systems in the future!
@@ -916,12 +892,6 @@ https://x.com/janleike/status/1413259116798173184 · [archived](https://web.arch
 > There are a lot of exciting things in the Codex paper, but my favorite titbit is the misalignment evaluations by @BethMayBarnes: Subtly buggy code in the context makes the model more likely to write buggy code, and this discrepancy gets larger as the models get bigger! https://t.co/nPiFngBW9t
 
 https://x.com/janleike/status/1413258862849822721 · [archived](https://web.archive.org/web/20210708220918/https://twitter.com/janleike/status/1413258862849822721)
-
-## 2021-04-23
-
-> We’re hiring on @OpenAI’s Policy Research team✨(that’s @PamelaMishkin @SandhiniAgarwal @girishsastry, @Miles_Brundage &amp; yours truly!) I'm super-excited to share 3 roles: Program Manager; Research Scientist, Societal Harms of AI; and Research Scientist, Geopolitics of AI. Thread:
-
-https://x.com/janleike/status/1385492763248979968 · [archived](https://web.archive.org/web/20210423071651/https://twitter.com/janleike/status/1385492763248979968)
 
 ## 2021-04-19
 
@@ -982,23 +952,6 @@ https://x.com/janleike/status/1352681274264088576 · [archived](https://web.arch
 > Very exicited to be part of the team!
 
 https://x.com/janleike/status/1352681093007200256 · [archived](https://web.archive.org/web/20210122181458/https://twitter.com/janleike/status/1352681093007200256)
-
-## 2020-09-18
-
-> I agree with the claim that reward is overvalued but probably not for the reason intended here.
-> 
-> Reward is overvalued because it is often misspecified: we have a bad habit of assuming we know how to define  reward, when in fact this is often a tricky value alignment problem.
-
-Quoting https://x.com/hardmaru/status/1306856609356767232:
-> I've received so much criticism for not incorporating reward info into world model / representations used by RL agents
-> 
-> But the way I see it, rewards are so overvalued…
-> 
-> See this new paper, “Decoupling Representation Learning from Reinforcement Learning”
-> 
-> https://t.co/ADKKpOJLGI
-
-https://x.com/janleike/status/1306917784249683968 · [archived](https://web.archive.org/web/20200918112836/https://twitter.com/janleike/status/1306917784249683968)
 
 ## 2020-09-16 · possibly deleted
 

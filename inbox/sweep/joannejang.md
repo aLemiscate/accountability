@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: unknown
-- Archived posts found: 181 (2019-09-08 to 2026-04-21)
-- Read so far: 181 (100%); text found for 179; 0 not read yet
+- Archived posts found: 140 (2019-09-08 to 2026-04-21)
+- Left out: 41 archived link(s) under this handle that X says another account wrote
+- Read so far: 140 (100%); text found for 138; 0 not read yet
 - Possibly deleted: 36
-- Matching the topic filter: 14
+- Matching the topic filter: 11
 
 
-Every post is in `joannejang.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `joannejang/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2025-03-27
 
@@ -56,12 +57,6 @@ https://x.com/joannejang/status/1527078105361227776 · [archived](https://web.ar
 
 https://x.com/joannejang/status/1524988282580312066 · [archived](https://web.archive.org/web/20220513054246/https://twitter.com/joannejang/status/1524988282580312066)
 
-## 2022-04-29
-
-> In my experience, discussing politics only works with people who either trust each other or who are committed to technical understanding rather than value alignment. In front of a large unfiltered audience, discussion gets replaced by an alignment game, even if you don't want it.
-
-https://x.com/joannejang/status/1520182259252310016 · [archived](https://web.archive.org/web/20220429232512/https://twitter.com/joannejang/status/1520182259252310016)
-
 ## 2022-04-23 · possibly deleted
 
 > maybe a hot take 😅 dr. @ruthstarkman curious for your thoughts
@@ -94,14 +89,6 @@ https://x.com/joannejang/status/1517888217709748231 · [archived](https://web.ar
 > it’s def still day one here &lt;3 https://t.co/Dsd1C62pWK
 
 https://x.com/joannejang/status/1517687340432605187 · [archived](https://web.archive.org/web/20220423021132/https://twitter.com/joannejang/status/1517687340432605187)
-
-## 2022-04-18
-
-> The @OpenAI team to me: "We'd like to share our new visual media tool with a few artists to gather feedback"
-> 
-> They should have said: "We'd like to bestow upon you the gift of glimpsing into infinite human consciousness to invoke parallel worlds. Ready to wield this power?" #dalle https://t.co/BX2jIPuJff
-
-https://x.com/joannejang/status/1516202022831153160 · [archived](https://web.archive.org/web/20220418234844/https://twitter.com/joannejang/status/1516202022831153160)
 
 ## 2022-04-16 · possibly deleted
 
@@ -658,16 +645,6 @@ https://x.com/joannejang/status/1495165180937838593 · [archived](https://web.ar
 > ✅We must preserve non-custodial wallets at all costs
 
 https://x.com/joannejang/status/1495090038949834755 · [archived](https://web.archive.org/web/20220219174206/https://twitter.com/joannejang/status/1495090038949834755)
-
-## 2022-02-19 · reply to @punk6529
-
-> 40/ But what is a real risk is that constitutional rights will be curtailed not through laws, or court cases, but through weaponization of the financial system.
-> 
-> Today, you are on Trudeau's side and dislike the truckers.
-> 
-> But it is not always this way...
-
-https://x.com/joannejang/status/1495089839334572033 · [archived](https://web.archive.org/web/20220219174125/https://twitter.com/joannejang/status/1495089839334572033)
 
 ## 2022-02-11 · possibly deleted
 

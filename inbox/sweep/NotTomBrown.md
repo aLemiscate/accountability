@@ -3,13 +3,14 @@
 Swept 2026-09-30.
 
 - Posts on X, including reposts: 557
-- Archived posts found: 204 (2018-03-30 to 2026-05-19)
-- Read so far: 204 (100%); text found for 202; 0 not read yet
+- Archived posts found: 191 (2018-03-30 to 2026-05-19)
+- Left out: 13 archived link(s) under this handle that X says another account wrote
+- Read so far: 191 (100%); text found for 189; 0 not read yet
 - Possibly deleted: 41
-- Matching the topic filter: 28
+- Matching the topic filter: 24
 
 
-Every post is in `NotTomBrown.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
+Every post is in `NotTomBrown/<year>.jsonl`. Listed below: posts matching the topic filter (`safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious`), and posts that look deleted.
 
 ## 2022-04-29
 
@@ -27,20 +28,6 @@ https://x.com/NotTomBrown/status/1520089042251001856 · [archived](https://web.a
 > I published a writeup of a delightfully cursed bug I had the opportunity to help debug at work recently. https://t.co/90KPhCZj3H
 
 https://x.com/NotTomBrown/status/1496373418262134785 · [archived](https://web.archive.org/web/20220223064153/https://twitter.com/nottombrown/status/1496373418262134785)
-
-## 2021-12-03
-
-> Our first AI alignment paper, focused on simple baselines and investigations: A General Language Assistant as a Laboratory for Alignment https://t.co/jdO81KZA1A
-
-https://x.com/NotTomBrown/status/1466809859332968449 · [archived](https://web.archive.org/web/20211203164645/https://twitter.com/nottombrown/status/1466809859332968449)
-
-## 2021-08-04
-
-> Excited to be on the 80,000 hours podcast today. It's my first time on a podcast!
-> 
-> I spoke with Rob about a variety of topics: safety, circuits, multimodal neurons, @AnthropicAI. Despite not being an expert, I also spoke a bit about scaling laws. https://t.co/eEXT9Fq2V1
-
-https://x.com/NotTomBrown/status/1423050694244765699 · [archived](https://web.archive.org/web/20210804224438/https://twitter.com/nottombrown/status/1423050694244765699)
 
 ## 2021-06-17 · possibly deleted
 
@@ -213,12 +200,6 @@ https://x.com/NotTomBrown/status/1266601326953160704 · [archived](https://web.a
 
 https://x.com/NotTomBrown/status/1266238571599425543 · [archived](https://web.archive.org/web/20200529092708/https://twitter.com/nottombrown/status/1266238571599425543)
 
-## 2020-05-29 · reply to @desplesda
-
-> Quite pleased to see a section that discusses potential misuse of the model’s outputs, the bias they found in the model, and the energy consumption used for training and inference. https://t.co/qsT5dF8eNZ
-
-https://x.com/NotTomBrown/status/1266225858827542537 · [archived](https://web.archive.org/web/20200529102224/https://twitter.com/nottombrown/status/1266225858827542537)
-
 ## 2020-05-29 · possibly deleted
 
 > Special shout out to joint first authors @8enmann, Nick Ryder and Melanie Subbiah, to @AlecRad for research guidance and to @Dario_Amodei for leading the project.
@@ -320,19 +301,6 @@ Quoting https://x.com/OpenAI/status/1257701921969901569:
 > By contrast, Moore's Law would only have yielded an 11x cost improvement: https://t.co/nQnZ4uPXQf https://t.co/vRwfm2UlSq
 
 https://x.com/NotTomBrown/status/1257714136818913280 · [archived](https://web.archive.org/web/20200510172440/https://twitter.com/nottombrown/status/1257714136818913280)
-
-## 2020-05-05
-
-> There seems to be something like Moore’s Law, but faster, for algorithmic progress in AI domains with heavy investment. 
-> 
-> Really proud of this work with @nottombrown. Part of why I'm long on AI, and expect to work on it for the foreseeable future.
-
-Quoting https://x.com/OpenAI/status/1257701921969901569:
-> Since 2012, the amount of compute for training to AlexNet-level performance on ImageNet has been decreasing exponentially — halving every 16 months, in total a 44x improvement. 
-> 
-> By contrast, Moore's Law would only have yielded an 11x cost improvement: https://t.co/nQnZ4uPXQf https://t.co/vRwfm2UlSq
-
-https://x.com/NotTomBrown/status/1257702582312529920 · [archived](https://web.archive.org/web/20200510111618/https://twitter.com/nottombrown/status/1257702582312529920)
 
 ## 2020-04-27 · reply to @NotTomBrown
 
