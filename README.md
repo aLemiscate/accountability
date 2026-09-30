@@ -141,8 +141,14 @@ npm run find-posts -- --account sama --corpus --via wayback --limit all --budget
 npm run sweep-coverage
 ```
 
-- `inbox/sweep/<account>.jsonl`: every post found, one per line, newest first.
-  A later run reads only posts it hasn't read, so it's safe to stop and resume.
+- `inbox/sweep/<account>/<year>.jsonl`: every post found, one per line, newest
+  first (posts from before November 2010, whose ids carry no date, go in
+  `before-2010-11.jsonl`). A later run reads only posts it hasn't read, so it's
+  safe to stop and resume.
+- Each post's author is checked against X: an archived link under the handle
+  that X says another account wrote (a mistyped link, a reused handle) is kept
+  with `other_author` and left out of the counts. Made-up ids from archived
+  URLs are dropped.
 - `inbox/sweep/<account>.md`: the posts matching `--match`, plus every post
   that looks deleted, for triage.
 - `inbox/sweep/<account>.coverage.json` and `inbox/sweep/COVERAGE.md`: how
@@ -150,7 +156,9 @@ npm run sweep-coverage
   of those have been read.
 
 `--budget-minutes` stops reading when time runs out and leaves the rest marked
-unread. `--concurrency` sets how many posts are read at once (default 3). The
+unread. `--concurrency` sets how many posts are read at once (default 4). An
+account in `data/accounts.yaml` can set its own `match` for the triage list
+(Elon Musk's lists only posts about the AI labs). The
 Wayback Machine blocks many cloud IP ranges, so run this from the **Sweep**
 workflow below or from your own machine.
 

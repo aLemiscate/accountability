@@ -1,7 +1,7 @@
 # On demand: sweep the full archived history of every X account in
 # data/accounts.yaml through the Wayback Machine (and the X API when an
 # X_BEARER_TOKEN secret is set), including posts deleted since. Every post
-# found is kept in inbox/sweep/<account>.jsonl; posts matching the topic
+# found is kept in inbox/sweep/<account>/<year>.jsonl; posts matching the topic
 # filter, and deleted ones, are listed in inbox/sweep/<account>.md for triage;
 # inbox/sweep/COVERAGE.md says how much of each account was read.
 #
@@ -74,14 +74,16 @@ jobs:
         run: |
           via=wayback
           [ -n "$X_BEARER_TOKEN" ] && via=wayback,x-api
-          args=(--account "${{ matrix.account }}" --corpus --via "$via" --limit all --budget-minutes "$BUDGET" --concurrency 3 --match "$MATCH")
+          args=(--account "${{ matrix.account }}" --corpus --via "$via" --limit all --budget-minutes "$BUDGET" --concurrency 4 --match "$MATCH")
           [ -n "$FROM" ] && args+=(--from "$FROM")
           npm run find-posts -- "${args[@]}"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: sweep-${{ matrix.account }}
-          path: inbox/sweep/${{ matrix.account }}.*
+          path: |
+            inbox/sweep/${{ matrix.account }}.*
+            inbox/sweep/${{ matrix.account }}/
           if-no-files-found: ignore
 
   commit:
@@ -111,6 +113,8 @@ jobs:
             git fetch origin "$GITHUB_REF_NAME"
             git reset --hard "origin/$GITHUB_REF_NAME"
             mkdir -p inbox/sweep && cp -r "$RUNNER_TEMP/sweep/." inbox/sweep/
+            # Accounts now stored by year: drop the first sweep's single file.
+            for d in inbox/sweep/*/; do [ -d "$d" ] && rm -f "inbox/sweep/$(basename "$d").jsonl"; done
             npm run sweep-coverage
             git add inbox/sweep
             if git diff --cached --quiet; then echo "Nothing new."; break; fi

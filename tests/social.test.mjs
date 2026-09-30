@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'node:path';
 import { ROOT, readYaml } from '../scripts/lib.mjs';
-import { bskyPostUrl, cdxPrefixes, newestFirst, parseCdxRows, snowflakeDate, splitCdxResume, textFromArchivedPost, xStatusId } from '../scripts/social.mjs';
+import { bskyPostUrl, cdxPrefixes, newestFirst, parseCdxRows, plausiblePostId, snowflakeDate, splitCdxResume, textFromArchivedPost, xStatusId } from '../scripts/social.mjs';
 
 test('an X post id encodes when it was posted', () => {
   // Jan Leike's resignation thread, posted May 17, 2024.
@@ -62,6 +62,24 @@ test('pages through the CDX index with resume keys', () => {
 
 test('looks for archived posts under every URL form X has used', () => {
   assert.deepEqual(cdxPrefixes('sama'), ['twitter.com/sama/status/', 'twitter.com/sama/statuses/', 'mobile.twitter.com/sama/status/', 'x.com/sama/status/']);
+});
+
+test('dates only snowflake ids, and drops ids no real post could have', () => {
+  // Before November 2010 ids were sequential and carry no time.
+  assert.equal(snowflakeDate('1234567890'), null);
+  assert.ok(plausiblePostId('1234567890'));
+  assert.ok(plausiblePostId('2095128559736226013'));
+  // Made-up ids from archived URLs: dated centuries ahead, too long, or zero.
+  assert.equal(plausiblePostId('9999999999999999999'), false);
+  assert.equal(plausiblePostId('123456789012345678901234'), false);
+  assert.equal(plausiblePostId('0'), false);
+  const rows = [
+    ['timestamp', 'original', 'statuscode'],
+    ['20240101000000', 'https://twitter.com/sama/status/9999999999999999999', '200'],
+    ['20240101000000', 'https://twitter.com/sama/status/1234567890', '200'],
+  ];
+  const out = parseCdxRows(rows, 'sama');
+  assert.deepEqual(out.map((c) => [c.id, c.date]), [['1234567890', null]]);
 });
 
 test('reads post text from an archived Twitter page', () => {

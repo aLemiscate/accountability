@@ -28,6 +28,7 @@ const pct = (a, b) => (a != null && b ? `${Math.round((100 * a) / b)}%` : '');
 const rows = [];
 const totals = { posts_on_x: 0, known: 0, read: 0, with_text: 0, deleted: 0, unread: 0, matched: 0 };
 let archivedWithTotal = 0; // archived posts of accounts whose post total is known, for the overall share
+let withTotal = 0;
 const missing = [];
 for (const a of accounts.filter((x) => x.x)) {
   const c = byHandle.get(a.x.toLowerCase());
@@ -37,8 +38,16 @@ for (const a of accounts.filter((x) => x.x)) {
     continue;
   }
   for (const k of Object.keys(totals)) totals[k] += c[k] ?? 0;
-  if (c.posts_on_x) archivedWithTotal += c.known ?? 0;
-  rows.push(`| [@${c.account}](${c.account}.md) | ${n(c.posts_on_x)} | ${n(c.known)} | ${pct(c.known, c.posts_on_x)} | ${n(c.read)} | ${n(c.unread)} | ${n(c.deleted)} | ${n(c.matched)} | ${c.oldest ?? ''} – ${c.newest ?? ''} | ${c.swept_at.slice(0, 10)}${c.problems?.length ? ` · ${c.problems.join('; ').replace(/\|/g, '/')}` : ''} |`);
+  if (c.posts_on_x) {
+    archivedWithTotal += c.known ?? 0;
+    withTotal++;
+  }
+  const notes = [
+    c.not_theirs ? `${c.not_theirs} by other accounts left out` : '',
+    ...(c.problems ?? []),
+  ].filter(Boolean).join('; ').replace(/\|/g, '/');
+  const posted = `${c.undated ? 'before 2010-11' : c.oldest ?? ''} – ${c.newest ?? ''}`;
+  rows.push(`| [@${c.account}](${c.account}.md) | ${n(c.posts_on_x)} | ${n(c.known)} | ${pct(c.known, c.posts_on_x)} | ${n(c.read)} | ${n(c.unread)} | ${n(c.deleted)} | ${n(c.matched)} | ${posted} | ${c.swept_at.slice(0, 10)}${notes ? ` · ${notes}` : ''} |`);
 }
 
 const md = [
@@ -53,11 +62,18 @@ const md = [
   '| Account | Posts on X | Archived | Share | Read | Not read yet | Possibly deleted | Topic matches | Posted | Swept |',
   '| --- | --: | --: | --: | --: | --: | --: | --: | --- | --- |',
   ...rows,
-  `| **All ${rows.length} swept** | ${n(totals.posts_on_x)} | ${n(totals.known)} | ${pct(archivedWithTotal, totals.posts_on_x)} | ${n(totals.read)} | ${n(totals.unread)} | ${n(totals.deleted)} | ${n(totals.matched)} | | |`,
+  `| **All ${rows.length} swept** | | ${n(totals.known)} | | ${n(totals.read)} | ${n(totals.unread)} | ${n(totals.deleted)} | ${n(totals.matched)} | | |`,
+  '',
+  withTotal
+    ? `For the ${withTotal} account(s) whose post total is known, the archive holds ${pct(archivedWithTotal, totals.posts_on_x)} of their ${n(totals.posts_on_x)} posts. X wouldn't give the total for the rest ("?").`
+    : 'X gave no post totals this run ("?").',
+  '',
+  'Archived links under a handle that X says another account wrote (a mistyped',
+  'link, a reused handle) are left out of these counts.',
   '',
   missing.length ? `Not swept yet: ${missing.join(', ')}.` : 'Every account has been swept.',
   '',
-  'Each account\'s full list of posts is in `<account>.jsonl`; `<account>.md` lists the',
+  'Each account\'s full list of posts is in `<account>/<year>.jsonl`; `<account>.md` lists the',
   'posts that match the topic filter and the ones that look deleted, for triage.',
   'Re-running the Sweep workflow reads only posts not read before, so "Not read',
   'yet" shrinks with each run.',

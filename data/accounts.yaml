@@ -5,6 +5,8 @@
 #   actor     id from actors.yaml
 #   x         X/Twitter handle, without @
 #   bluesky   Bluesky handle (e.g. name.bsky.social), if they post there
+#   match     optional topic filter for this account's sweep triage list
+#             (a regex; replaces the run's default)
 #
 # Confirm a handle belongs to the person before relying on results.
 
@@ -118,6 +120,8 @@
   x: LHSummers
 - actor: elon-musk
   x: elonmusk
+  # In scope as OpenAI's co-founder and litigant: list only posts about the labs.
+  match: 'openai|open ai|altman|\bsama\b|brockman|anthropic|claude|amodei|chatgpt|\bgpt|nonprofit|non-profit|for-profit|closed.?source|microsoft.*\bai\b|superalignment|sutskever|ilya'
 - actor: bob-mcgrew
   x: bobmcgrewai
 - actor: peter-welinder
