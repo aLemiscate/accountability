@@ -7,7 +7,7 @@ kind: revision
 who: [anthropic, jared-kaplan]
 quote: >-
   We felt that it wouldn't actually help anyone for us to stop training AI
-  models.
+  models
 summary: >-
   Anthropic rewrote its Responsible Scaling Policy. It removed the hard
   commitment not to train or release models without adequate safeguards

@@ -83,6 +83,7 @@ This saves `snapshots/<date>-<site>-<hash>/` containing:
 - `post.txt` and `post.json`: for X and Bluesky links, the post text from the public embed APIs, which work without logging in. For X, `syndication.json` adds the full text of long posts and the text of any quoted post, and attached photos are saved as `media-1.jpg`, `quoted-media-1.jpg` and so on, because some statements (a signed letter, a memo screenshot) exist only as an image
 - `document.pdf` and `document.txt`: for PDFs, the file and its text (the text needs `pdftotext` from poppler-utils). Files over 10 MB are not stored; `meta.json` keeps their size and SHA-256 under `omitted`, so a copy fetched later can still be checked
 - `meta.json`: HTTP status, capture time, SHA-256 hashes of every file, and for posts the exact time of posting (read from the X post id)
+- `transcript.txt` (added by hand, not by the capture tool): a transcription of text that exists only in an attached image, so quotes from it can be checked. It opens with a line saying which image it came from, and `meta.json` lists it under `derived`, apart from the captured files
 - a Wayback Machine copy, whose link goes into the entry's `archive` field
 
 With `--entry`, the archive link and snapshot path are written into the matching
