@@ -23,6 +23,19 @@ sources:
     archive: https://web.archive.org/web/20260927072255/https://openai.com/index/introducing-superalignment/
     snapshot: snapshots/2026-09-29-openai.com-704f57df
 updates:
+  - date: 2024-05-17
+    text: >-
+      Leaving OpenAI, the team's co-lead Jan Leike wrote: "Over the past few
+      months my team has been sailing against the wind. Sometimes we were
+      struggling for compute and it was getting harder and harder to get this
+      crucial research done."
+    sources:
+      - title: Jan Leike on X
+        publisher: X
+        url: https://x.com/janleike/status/1791498182125584843
+        date: 2024-05-17
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-5b927f08
   - date: 2024-08-01
     text: >-
       Eleven weeks after the Superalignment team was dissolved, Altman restated

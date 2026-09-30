@@ -17,7 +17,10 @@ summary: >-
   also pointed to a finding that its next model, Astra, may have "critical"
   cyber capabilities under its Preparedness Framework. Altman added, as quoted
   by The Hill: "We believe the entire field will have to coordinate on shared
-  safety standards, but will act unilaterally in the meantime."
+  safety standards, but will act unilaterally in the meantime." Three weeks
+  earlier OpenAI had written that "at some point in the future, AI acceleration
+  for frontier model development may be so high that the world will need to
+  pace the rate of AI advancement."
 concreteness: conditional
 status: open
 breaks_if: >-
@@ -44,6 +47,12 @@ sources:
     url: https://thehill.com/policy/technology/6038415-openai-pauses-ai-training/
     date: 2026-08-19
     type: reporting
+  - title: OpenAI on X ("the world will need to pace the rate of AI advancement")
+    publisher: X
+    url: https://x.com/OpenAI/status/2082208694142730340
+    date: 2026-07-28
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-c8aa730d
 updates:
   - date: 2026-09-14
     text: >-

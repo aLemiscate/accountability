@@ -44,6 +44,20 @@ updates:
         type: reporting
         archive: https://web.archive.org/web/20260929215144/https://www.cnbc.com/2024/05/24/openai-sends-internal-memo-releasing-former-employees-from-non-disparagement-agreements-sam-altman.html
         snapshot: snapshots/2026-09-29-cnbc.com-a6fde255
+  - date: 2024-07-23
+    text: >-
+      In a public summary of its safety practices, OpenAI said: "Our
+      whistleblower policy protects employees' rights to make protected
+      disclosures. We also believe rigorous debate about this technology is
+      important and have made changes to our departure process to remove
+      non-disparagement terms."
+    sources:
+      - title: OpenAI on X
+        publisher: X
+        url: https://x.com/OpenAI/status/1815708160818356334
+        date: 2024-07-23
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-0d896691
 note: >-
   The fix was real, and it came six days after the story broke. That timing is
   the pattern.

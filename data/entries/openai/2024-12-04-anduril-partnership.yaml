@@ -1,0 +1,39 @@
+title: OpenAI partners with defense contractor Anduril on counter-drone systems
+date: 2024-12-04
+org: openai
+type: did
+kind: action
+who: [openai]
+summary: >-
+  Eleven months after dropping "military and warfare" from its usage policy,
+  OpenAI announced a partnership with Anduril to "develop and responsibly
+  deploy advanced artificial intelligence (AI) solutions for national security
+  missions," starting with systems that "detect, assess and respond to
+  potentially lethal aerial threats in real-time." Anduril did not
+  answer CNBC's question about whether reducing the burden on human operators
+  would mean fewer humans in the loop. COO Brad Lightcap posted: "anduril 🤝
+  openai."
+related: [2024-01-10-military-ban-removed, 2025-06-16-defense-contract-200m, 2024-11-07-palantir-aws-defense]
+patterns: [principles-with-a-price]
+sources:
+  - title: OpenAI partners with defense company Anduril
+    publisher: CNBC
+    url: https://www.cnbc.com/2024/12/04/openai-partners-with-defense-company-anduril.html
+    date: 2024-12-04
+    type: reporting
+    snapshot: snapshots/2026-09-30-cnbc.com-6e17bc68
+  - title: Anduril, OpenAI enter 'strategic partnership' to use AI against drones
+    publisher: Breaking Defense
+    url: https://breakingdefense.com/2024/12/anduril-openai-enter-strategic-partnership-to-use-ai-against-drones/
+    date: 2024-12-04
+    type: reporting
+    snapshot: snapshots/2026-09-30-breakingdefense.com-24ca6b4d
+  - title: Brad Lightcap on X
+    publisher: X
+    url: https://x.com/bradlightcap/status/1864422573939019796
+    date: 2024-12-04
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-29acfa13
+note: >-
+  Anthropic's Palantir deal a month earlier is in the record; this is its
+  OpenAI counterpart.

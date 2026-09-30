@@ -26,9 +26,47 @@ sources:
     type: reporting
     archive: https://web.archive.org/web/20260929213302/https://techcrunch.com/2019/03/11/openai-shifts-from-nonprofit-to-capped-profit-to-attract-capital/
     snapshot: snapshots/2026-09-29-techcrunch.com-b8b06dc6
+  - title: Greg Brockman on X ("custom-write rules")
+    publisher: X
+    url: https://x.com/gdb/status/1105173108233666561
+    date: 2019-03-11
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-af3f1f26
+  - title: Greg Brockman on X ("full control")
+    publisher: X
+    url: https://x.com/gdb/status/1105157731839750144
+    date: 2019-03-11
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-180f1428
+  - title: Greg Brockman on X (related-party transactions)
+    publisher: X
+    url: https://x.com/gdb/status/1105173883378851846
+    date: 2019-03-11
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-8c3b66ef
 response: >-
   OpenAI said the capped structure let it raise the capital it needed while the
-  nonprofit and its mission stayed in control.
+  nonprofit and its mission stayed in control. Greg Brockman wrote on launch
+  day: "We will need to raise billions of dollars. If we do not, the Nonprofit
+  would fail at its mission." The structure let OpenAI "custom-write" rules
+  including "Fiduciary duty to the charter," "Cap returns" and "Full control to
+  OpenAI Nonprofit," and "The board of the Nonprofit has full control, and can
+  only takes actions it believes will further the mission." Transactions
+  between the nonprofit and the LP, he said, were approved only by directors
+  without a financial interest in the LP.
+updates:
+  - date: 2023-07-13
+    text: >-
+      Altman, defending OpenAI's incentives: "our capped-profits structure means
+      we aren't incentivized to make unlimited returns." The caps were later
+      removed in the 2025 recapitalization (see 2025-10-28-recapitalization-pbc).
+    sources:
+      - title: Sam Altman on X
+        publisher: X
+        url: https://x.com/sama/status/1679602641763205120
+        date: 2023-07-13
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-23ff8b16
 note: >-
   Under a 100x cap, a $10M check can return $1B before the cap applies. The word
   "capped" did a lot of work in that announcement.
