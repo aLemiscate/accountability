@@ -1,0 +1,35 @@
+{
+  "url": "https://x.com/hlntnr/status/1985535076352901365",
+  "captured_at": "2026-09-30T13:21:29.733Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "d21b74bfb164ef0f09a3ff34fa6113339c0003bc635364f1eb6fa70445478782",
+    "page.txt": "0f82847206ca6ee93c4a6e9bcda54c9d2f3f629752fcfd045c118e5b58959e10",
+    "post.json": "12ff3127e10289982ae484794e68d9613c5470e968da55484e9e905254959658",
+    "syndication.json": "3b9a38d8f71f0c7f91bae0645d641cc4550e304b5b506e4b980121a70615c79b",
+    "media-1.jpg": "e9bfba4e2bdc65f39b137df8149312fc92794b101ea36272a34b8606d69cc414",
+    "media-2.png": "52b89a64423a846147a155351ba78a9f193587cfe86e84a932857a72835a5d92",
+    "post.txt": "8f32124181ed43c30ef18777fb9e2ea5afbdbaf7a00b19ab21055212b68d3cb9"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/hlntnr/status/1985535076352901365",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Helen Toner on X: \"For the record, for those dissecting Ilya's deposition: this part is false. I wasn't the one who made the board&lt;&gt;Anthropic call happen, and I disagree with his recollection that board members other than him were supportive of a merge.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Helen Toner (@hlntnr)",
+    "date": "November 4, 2025",
+    "posted_at": "2025-11-04T02:30:26.317Z",
+    "media": [
+      {
+        "file": "media-1.jpg",
+        "url": "https://pbs.twimg.com/media/G44If6lWQAAVfLZ.jpg"
+      },
+      {
+        "file": "media-2.png",
+        "url": "https://pbs.twimg.com/media/G44If6qWoAAzQko.png"
+      }
+    ]
+  }
+}

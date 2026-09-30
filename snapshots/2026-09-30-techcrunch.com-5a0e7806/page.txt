@@ -1,0 +1,50 @@
+A YouTube creator is seeking to bring a class action lawsuit against OpenAI, alleging that the company trained its generative AI models on millions of transcripts from YouTube videos without notifying or compensating the videos’ owners.
+In a complaint filed Friday in the U.S. District Court for the Northern District of California, attorneys for David Millette, a YouTube user based in Massachusetts, allege that OpenAI surreptitiously transcribed Millette’s and other creators’ videos to train the models that power the company’s AI-powered chatbot platform, ChatGPT , and other generative AI tools and products. By collecting this data, OpenAI “profited significantly” from the creators’ work, the complaint alleges, while violating copyright law and YouTube’s terms of service that prohibit the use of videos for apps independent of its service.
+“As [OpenAI’s] AI products become more sophisticated through the use of training data sets, they become more valuable to prospective and current users, who purchase subscriptions to access [OpenAI’s] AI products,” the complaint reads. “Much of the material in OpenAI’s training data sets, however, comes from works that were copied by OpenAI without consent, without credit, and without compensation.”
+Millette, represented by the law firm Bursor & Fisher, is seeking a jury trial and over $5 million in damages for all YouTube users and creators whose data might’ve been swept up in OpenAI’s training.
+Generative AI models like OpenAI’s have no real intelligence. Fed an enormous number of examples (e.g., movies, voice recordings, essays), models “ learn ” how likely data is to occur based on patterns, including the context of any surrounding data.
+Most models are trained on data sourced from public websites and datasets around the web. Companies argue that fair use shields their efforts to scrape data indiscriminately and use it for training commercial models. Many copyright holders disagree, however — and they’re filing suits aimed at halting practice.
+Video transcriptions have become a key training data ingredient as other data wells dry up, so to speak.
+More than 35% of the world’s top 1,000 websites now block OpenAI’s web crawler , according to data from Originality.AI. And around 25% of data from “high-quality” sources has been restricted from the major datasets used to train AI models, a study by MIT’s Data Provenance Initiative found. Should the current access-blocking trend continue, the research group Epoch AI predicts that developers will run out of data to train generative AI models between 2026 and 2032.
+In April, The New York Times reported that OpenAI created its first speech recognition model, Whisper , for the purpose of transcribing audio from videos to collect additional training data. An OpenAI team that included company’s president, Greg Brockman, transcribed more than a million hours of video from YouTube using Whisper, according to The Times, and used the transcripts to train OpenAI’s text-generating and text-analyzing model GPT-4 .
+Some OpenAI staffers discussed how such a move might go against YouTube’s rules, per the Times.
+In July, Proof News reported that companies, including Anthropic, Apple, Salesforce and Nvidia, used a dataset called The Pile, which contains subtitles from hundreds of thousands of YouTube videos, to train generative AI models. Many YouTube creators whose subtitles were swept up in The Pile weren’t aware of and didn’t consent to this; Apple later released a statement saying that it didn’t intend to use those models to power any AI features in its products.
+Google, YouTube’s parent company, has also sought to use transcripts to train its models.
+Last year, Google broadened its terms of service (ToS) partly to allow the company to tap more user data for generative AI model training. Under the old ToS, it wasn’t clear whether Google could use YouTube data to build products beyond the video platform. Not so under the new terms, which loosen the reins considerably.
+We’ve reached out to OpenAI and Google for comment on the class action suit and will update this piece if they respond.
+It’s been a rough start to the month for OpenAI.
+Tesla and X CEO Elon Musk on Monday filed a new suit against OpenAI and CEO Sam Altman accusing the company of abandoning its original nonprofit mission by reserving some of its most sophisticated tech for commercial customers. Musk made the same claims in a February lawsuit against OpenAI, but the new suit alleges that OpenAI is engaging in racketeering activity as well.
+Topics
+AI , AI , Generative AI , lawsuit , legal , OpenAI
+When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.
+Kyle Wiggers
+AI Editor
+Kyle Wiggers was TechCrunch’s AI Editor until June 2025. His writing has appeared in VentureBeat and Digital Trends, as well as a range of gadget blogs including Android Police, Android Authority, Droid-Life, and XDA-Developers. He lives in Manhattan with his partner, a music therapist.
+View Bio
+October 13 – 15
+San Francisco
+Get 50% off a second pass
+The Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by making connections, building momentum, and discovering what’s next in the startup ecosystem.
+BOOK NOW
+Most Popular
+•
+AMD will acquire Fei-Fei Li’s World Labs for $8.2B
+• Tim Fernholz
+•
+Crusoe abandons $1.25B plan to use Boom turbines at AI data centers
+• Kirsten Korosec
+•
+Astra and Opus just passed Turing’s other test
+• Tim Fernholz
+•
+Oracle sends force majeure notice on its New Mexico Stargate data center
+• Aditya Mehta
+•
+Meta made a Tamagotchi-like wearable for its Muse AI agent
+• Lucas Ropek
+•
+Vogue sent robots down the runway at Vogue World, and people were not impressed
+• Dominic-Madori Davis
+•
+Anthropic says its biology lab has already found something big
+• Julie Bort
