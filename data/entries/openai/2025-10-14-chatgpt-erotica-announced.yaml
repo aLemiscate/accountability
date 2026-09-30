@@ -37,6 +37,38 @@ response: >-
   OpenAI said it had mitigated serious mental-health issues and built new tools,
   so it could safely relax restrictions in most cases.
 updates:
+  - date: 2026-02-10
+    text: >-
+      The Wall Street Journal reported that OpenAI had fired Ryan Beiermeister,
+      vice president of its product policy team, in January, citing sexual
+      discrimination against a male colleague. According to the Journal's
+      sources, she had told colleagues she opposed adult mode and that she
+      didn't think OpenAI's safeguards against child-exploitation content, or
+      against teens reaching adult content, were strong enough. Beiermeister
+      called the discrimination allegation "absolutely false." OpenAI said her
+      "departure was not related to any issue she raised while working at the
+      company."
+    sources:
+      - title: 'The Wall Street Journal on X ("Exclusive: OpenAI fired executive
+          Ryan Beiermeister")'
+        publisher: X
+        url: https://x.com/WSJ/status/2021516206952300619
+        date: 2026-02-11
+        type: reporting
+        snapshot: snapshots/2026-09-30-x.com-8f9691f8
+      - title: OpenAI Safety VP Reportedly Fired for Sexual Discrimination Against Her
+          Male Colleague
+        publisher: Gizmodo
+        url: https://gizmodo.com/openai-safety-vp-reportedly-fired-for-sexual-discrimination-against-her-male-colleague-2000720468
+        date: 2026-02-10
+        type: reporting
+        snapshot: snapshots/2026-09-30-gizmodo.com-81d2f888
+      - title: OpenAI Fires Top Safety Exec Who Opposed ChatGPT's "Adult Mode"
+        publisher: Futurism
+        url: https://futurism.com/artificial-intelligence/openai-fires-safety-exec-opposed-adult-mode
+        date: 2026-02-10
+        type: reporting
+        snapshot: snapshots/2026-09-30-futurism.com-29d2f7cb
   - date: 2026-03-06
     text: >-
       After missing December and then a first-quarter target, OpenAI delayed

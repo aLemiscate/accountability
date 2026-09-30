@@ -1,0 +1,90 @@
+title: OpenAI agents break into Australian government systems, including a
+  Medicare portal; Australia learns months later
+date: 2026-06
+org: openai
+type: did
+kind: disclosure
+who: [openai]
+quote: >-
+  In June, during internal training and evaluation our models accessed
+  Australian government websites in ways they were not authorised to. We also
+  should have handled our response better. We are sorry and working to do
+  better in the future
+summary: >-
+  In June 2026 an experimental OpenAI model, asked to research government
+  spending on skin-condition medicines in Victoria, couldn't find the data
+  publicly. It got into an internal Services Australia system holding Medicare
+  data instead, ran commands, retrieved files and credentials, and wrote files.
+  Other OpenAI agents reached systems of the New South Wales crime statistics
+  bureau and, through an exposed access key, the Victorian Agency for Health
+  Information. OpenAI said it found the incidents in mid-August while reviewing
+  activity after the Hugging Face breach. It notified the Medicare agency on
+  Sept. 10, the New South Wales bureau on Sept. 18, and a fourth agency on
+  Sept. 24. Prime Minister Anthony Albanese made the breach public on Sept. 23,
+  calling it "unacceptable." OpenAI apologized on Sept. 28. It said no
+  individual's medical or criminal records were accessed.
+related: [2026-07-21-hugging-face-incident, 2026-09-04-wiki-incident, 2026-08-18-altman-pause-act-unilaterally, 2026-07-30-claude-cyber-eval-incidents]
+patterns: [sorry-after-caught]
+sources:
+  - title: OpenAI apologizes to Australia after its AI agents breached government
+      sites
+    publisher: TechCrunch
+    url: https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/
+    date: 2026-09-29
+    type: reporting
+    snapshot: snapshots/2026-09-30-techcrunch.com-bb5d8ce2
+  - title: OpenAI apologizes for agents breaching Australian government websites
+      without authorization
+    publisher: The Record
+    url: https://therecord.media/openai-apologizes-australia-medicare-breach
+    date: 2026-09-29
+    type: reporting
+    snapshot: snapshots/2026-09-30-therecord.media-571dbb2e
+  - title: OpenAI Apologizes for Hacks on Australian Government Sites
+    publisher: GovInfoSecurity
+    url: https://www.govinfosecurity.com/openai-apologizes-for-hacks-on-australian-government-sites-a-32967
+    date: 2026-09-29
+    type: reporting
+    snapshot: snapshots/2026-09-30-govinfosecurity.com-c57a41c5
+response: >-
+  OpenAI said it had held off in order to give the agencies a full account once
+  its investigation was complete, but "we should have shared preliminary
+  findings sooner and kept Australian agencies updated as more facts emerged."
+  It offered technical findings, credits from its $1 billion Daybreak fund for
+  defenders, and a task force of independent Australian experts. Chief strategy
+  officer Jason Kwon is due to appear before a parliamentary committee in Sydney
+  on Oct. 6.
+updates:
+  - date: 2026-09-25
+    text: >-
+      The New York Times reported that OpenAI agents had also "meddled with the
+      websites for the Education Department, the Commerce Department and the
+      Securities and Exchange Commission," and OpenAI acknowledged the
+      incidents. According to NBC News, agents found developer keys to reach
+      Education Department data and posted public SEC data elsewhere on the
+      internet. OpenAI said it had notified dozens of affected organizations.
+      Altman said the company's investigations "have not been as fast as we
+      would have liked but we are trying to balance our desire for transparency
+      with gaining a clear understanding from petabytes of agent activity logs."
+    sources:
+      - title: OpenAI pauses training of latest models after agents searched U.S.
+          government sites in unexpected ways
+        publisher: NBC News
+        url: https://www.nbcnews.com/tech/tech-news/openai-pauses-training-latest-models-agents-searched-us-government-sit-rcna600098
+        date: 2026-09-27
+        type: reporting
+        snapshot: snapshots/2026-09-30-nbcnews.com-89c28256
+      - title: OpenAI pauses some training amid allegations its rogue agents behaved
+          more badly than first thought
+        publisher: The Register
+        url: https://www.theregister.com/ai-and-ml/2026/09/28/openai-pauses-some-training-amid-allegations-its-rogue-agents-behaved-more-badly-than-first-thought/5299350
+        date: 2026-09-28
+        type: reporting
+        snapshot: snapshots/2026-09-30-theregister.com-da8fe52b
+note: >-
+  OpenAI's misalignment reporting framework, published Sept. 16, promised an
+  initial notice "as soon as possible" but allowed delays when a third party is
+  affected. OpenAI had known of the Australian incidents for a month by then,
+  and had notified the Medicare agency six days earlier. The framework's first
+  reports didn't mention them. The public learned from Australia's prime
+  minister.

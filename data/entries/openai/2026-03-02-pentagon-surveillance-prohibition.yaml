@@ -47,6 +47,34 @@ response: >-
   OpenAI's chief strategy officer Jason Kwon said the contract "date stamps" the
   relevant policy directive or law: "That's what we did." The contract text has
   not been published, so this can't be checked.
+updates:
+  - date: 2026-03-03
+    text: >-
+      Katrina Mulligan, OpenAI's head of national security, had pledged a
+      "clear and more comprehensive explanation" of the relevant contract terms,
+      including how the NSA is excluded. Days later, with no explanation
+      published, she told a user on X: "I do not agree that I'm obligated to
+      share contract language with you." Asked whether the contract allowed the
+      Pentagon to collect and analyze commercially available data at scale, she
+      replied that "the Pentagon has no legal authority to do this." The
+      Intercept pointed to a declassified 2022 report from the Office of the
+      Director of National Intelligence describing exactly that kind of
+      collection by the Defense Department. This record found no fuller
+      explanation published later.
+    sources:
+      - title: 'OpenAI on Surveillance and Autonomous Killings: You''re Going to Have to
+          Trust Us'
+        publisher: The Intercept
+        url: https://theintercept.com/2026/03/08/openai-anthropic-military-contract-ethics-surveillance/
+        date: 2026-03-08
+        type: reporting
+        snapshot: snapshots/2026-09-29-theintercept.com-1e0ad3e1
+      - title: Steven Adler on X ("promised … of how the NSA is excluded")
+        publisher: X
+        url: https://x.com/sjgadler/status/2028899096283758732
+        date: 2026-03-03
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-6bd9fe32
 note: >-
   The contract isn't public, so outsiders can't check compliance. The promise
   works on trust, which is exactly what this record is testing. Note the word

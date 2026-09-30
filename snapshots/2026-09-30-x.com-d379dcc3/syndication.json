@@ -1,0 +1,35 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 6105,
+  "lang": "en",
+  "created_at": "2026-02-11T01:36:42.000Z",
+  "display_text_range": [
+    0,
+    280
+  ],
+  "entities": {},
+  "id_str": "2021397952791707696",
+  "text": "When we released Claude Opus 4.5, we knew future models would be close to our AI Safety Level 4 threshold for autonomous AI R&amp;D. We therefore committed to writing sabotage risk reports for future frontier models.\n\nToday we’re delivering on that commitment for Claude Opus 4.6.",
+  "user": {
+    "id_str": "1353836358901501952",
+    "name": "Anthropic",
+    "screen_name": "AnthropicAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2021397952791707696"
+    ],
+    "editable_until_msecs": "1770777402000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 323,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

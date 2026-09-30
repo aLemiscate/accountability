@@ -1,0 +1,52 @@
+title: 'Safety researcher who warned the board about security is fired;
+  he says the memo was "a major reason"'
+date: 2024-04
+org: openai
+type: did
+kind: action
+who: [openai]
+summary: >-
+  OpenAI fired Leopold Aschenbrenner, a researcher on its Superalignment team,
+  in April 2024, alleging he had leaked information. In a June 2024 interview,
+  Aschenbrenner said he had written a memo calling OpenAI's security
+  "egregiously insufficient" to stop foreign actors stealing model weights or
+  algorithmic secrets. After what he called "a major security incident," he
+  shared it with a couple of board members and received an official HR warning. He said
+  that when he was fired, "it was made very explicit that the security memo was
+  a major reason." He said the alleged leak was a brainstorming document on
+  safety and security measures, checked for sensitive material and shared with
+  three outside researchers, which he said was normal at OpenAI at the time.
+  He also said a company lawyer had asked him about his views on AGI and
+  security, and whether he and the Superalignment team "were loyal to the
+  company."
+related: [2023-04-breach-kept-private, 2024-05-17-superalignment-team-disbanded, 2024-05-22-exit-documents-signed]
+patterns: [pressure-on-critics]
+sources:
+  - title: OpenAI employee says he was fired for raising security concerns to board
+    publisher: Transformer
+    url: https://www.transformernews.ai/p/openai-employee-says-he-was-fired
+    date: 2024-06-04
+    type: reporting
+    snapshot: snapshots/2026-09-30-transformernews.ai-4f8f84a8
+  - title: 'Ex-OpenAI employee speaks out about why he was fired: ''I ruffled some
+      feathers'''
+    publisher: Business Insider (via Yahoo News)
+    url: https://ca.news.yahoo.com/ex-openai-employee-speaks-why-220706590.html
+    date: 2024-06-05
+    type: reporting
+    snapshot: snapshots/2026-09-30-ca.news.yahoo.com-98d371ab
+  - title: Leopold Aschenbrenner on X ("nuclear secrets")
+    publisher: X
+    url: https://x.com/leopoldasch/status/1656340983817330688
+    date: 2023-05-10
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-2060001d
+response: >-
+  An OpenAI spokesperson said the concerns he raised internally and to the
+  board "did not lead to his separation," and: "While we share his commitment
+  to building safe AGI, we disagree with many of the claims he has since made
+  about our work."
+note: >-
+  Only Aschenbrenner's account and OpenAI's denial are public. A year earlier
+  he had argued publicly that AGI needed "'nuclear secrets' rather than
+  'random startup'-level security."

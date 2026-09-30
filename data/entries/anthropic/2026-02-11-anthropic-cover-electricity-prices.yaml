@@ -1,0 +1,44 @@
+title: 'Standing promise: Anthropic will cover electricity price increases its
+  data centers cause'
+date: 2026-02-11
+org: anthropic
+type: said
+kind: commitment
+who: [anthropic]
+venue: Blog post, "Covering electricity price increases from our data centers"
+quote: >-
+  Anthropic will cover electricity price increases that consumers face from our
+  data centers.
+summary: >-
+  Anthropic said it would pay for 100% of the grid upgrades needed to connect
+  its data centers, including costs that would otherwise fall on consumers. It
+  said it would work to bring new generation online, and where none exists,
+  "estimate and cover demand-driven price effects." It also committed to
+  curtailing use at peak demand. The pledge applies where Anthropic develops
+  data centers with partners. For capacity it leases, it said it was "exploring
+  further ways" to address the effect on prices.
+concreteness: measurable
+status: open
+breaks_if: >-
+  A utility commission, utility filing or credible analysis finds that an
+  Anthropic data center raised electricity rates for other customers without
+  Anthropic covering the increase.
+patterns: []
+related: [2026-01-20-stargate-pay-own-way-energy]
+sources:
+  - title: Covering electricity price increases from our data centers
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/covering-electricity-price-increases
+    date: 2026-02-11
+    type: primary
+    snapshot: snapshots/2026-09-30-anthropic.com-f95cc2d0
+  - title: Anthropic on X
+    publisher: X
+    url: https://x.com/AnthropicAI/status/2021694494215901314
+    date: 2026-02-11
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-d080fb4a
+note: >-
+  Note the carve-out. The pledge is firm only for data centers Anthropic
+  develops with partners. For capacity it leases, Anthropic committed only to
+  exploring options.
