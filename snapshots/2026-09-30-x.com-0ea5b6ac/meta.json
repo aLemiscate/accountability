@@ -1,0 +1,30 @@
+{
+  "url": "https://x.com/OpenAI/status/1782786891508748433",
+  "captured_at": "2026-09-30T13:03:03.010Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "b524bb625b334cc15cac0ca850d0dad1386361375acec2b1f8ae2a73323a3861",
+    "page.txt": "c410334cc999f4edb2e35f83b9cc8866144c4ea1464beafed863ee562d3da7e8",
+    "post.json": "5b7b43fac1532a6f478af473d017f6e5abc02a7a5835360b4d416eecda99d6d6",
+    "syndication.json": "5a1a51b27a0043831b33ddcb232896bd2ea809815dad3d6472f1f8ad3d984771",
+    "media-1.jpg": "2c50eaeb8038a889a99fce86a5e54b0b8ff51a8f013cd7a34e92c4c9d44c1936",
+    "post.txt": "f6b1e81a533f84cba2e5559c2804b9e058b0f2719b099283e9cecb4b37882ee6"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1782786891508748433",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"We commit to @thorn and @AllTechIsHuman's Safety by Design principles to ensure child safety is prioritized in the development and deployment of AI tools.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "April 23, 2024",
+    "posted_at": "2024-04-23T15:01:32.171Z",
+    "media": [
+      {
+        "file": "media-1.jpg",
+        "url": "https://pbs.twimg.com/media/GL26-39bcAAchM4.jpg"
+      }
+    ]
+  }
+}

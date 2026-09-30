@@ -115,6 +115,20 @@ updates:
         date: 2026-08-26
         type: reporting
         snapshot: snapshots/2026-09-30-techcrunch.com-a5c3f4d5
+  - date: 2026-08-26
+    text: >-
+      The same day, OpenAI researcher Jason Wolfe corrected an earlier post of
+      his: "Today's report shows that some people at OpenAI knew about the
+      message board during the first Artifactory breach. My post implied
+      otherwise. I thought I was accurately paraphrasing our CSO's
+      clarification, but I shouldn't have attempted to do that."
+    sources:
+      - title: Jason Wolfe on X
+        publisher: X
+        url: https://x.com/w01fe/status/2092742024680419761
+        date: 2026-08-26
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-fe9799a8
   - date: 2026-09-02
     text: >-
       Rep. Greg Casar, who had sent OpenAI questions about the incident on Aug.

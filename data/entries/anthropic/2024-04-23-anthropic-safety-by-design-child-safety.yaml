@@ -1,0 +1,59 @@
+title: 'Standing promise: Safety by Design principles against AI-generated child
+  sexual abuse material'
+date: 2024-04-23
+org: anthropic
+type: said
+kind: commitment
+who: [anthropic]
+venue: Thorn and All Tech Is Human, Safety by Design for Generative AI
+quote: >-
+  Alongside other leading AI companies, we are committed to implementing robust
+  child safety measures in the development, deployment, and maintenance of
+  generative AI technologies.
+summary: >-
+  Anthropic joined OpenAI, Google, Meta, Microsoft and others in committing to
+  principles against AI-generated child sexual abuse material. It listed
+  mitigations it was "working towards," including keeping such material out of
+  training data, red-teaming models for it, detecting abusive content in inputs
+  and outputs, and deploying in phases. The companies also agreed to publish
+  documentation of their progress.
+concreteness: directional
+status: open
+breaks_if: >-
+  Credible reporting that Claude generated or distributed child sexual abuse
+  material through a failure of these safeguards that Anthropic knew of and
+  didn't fix; or Anthropic stops reporting progress.
+patterns: []
+related: [2024-04-23-safety-by-design-child-safety]
+sources:
+  - title: Child safety principles
+    publisher: Anthropic
+    url: https://anthropic.com/news/child-safety-principles
+    date: 2024-04-23
+    type: primary
+    snapshot: snapshots/2026-09-30-anthropic.com-c65ff60c
+  - title: Thorn and All Tech Is Human Forge Generative AI Principles with AI
+      Leaders to Enact Strong Child Safety Commitments
+    publisher: Thorn
+    url: https://www.thorn.org/blog/generative-ai-principles/
+    date: 2024-04-23
+    type: primary
+    snapshot: snapshots/2026-09-30-thorn.org-37730e77
+updates:
+  - date: 2025-10-21
+    text: >-
+      Thorn's first annual progress report, covering April 2024 to April 2025,
+      included Anthropic's account of its measures, including hash-matching
+      training data against known material. Anthropic's own report is on its
+      Transparency Hub. The report relays what companies said; it doesn't audit
+      them.
+    sources:
+      - title: 'Safety by Design for Generative AI: Annual Progress Report (April
+          2024 to April 2025)'
+        publisher: Thorn
+        url: https://info.thorn.org/hubfs/Thorn_SafetyByDesign_AnnualProgressReport_April2024-April2025.pdf
+        date: 2025-10-21
+        type: primary
+        snapshot: snapshots/2026-09-30-info.thorn.org-9fd81e30
+note: >-
+  Progress has been reported, as promised, but only through self-reports.

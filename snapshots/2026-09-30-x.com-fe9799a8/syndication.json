@@ -1,0 +1,244 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 155,
+  "in_reply_to_screen_name": "w01fe",
+  "in_reply_to_status_id_str": "2086545797827686648",
+  "in_reply_to_user_id_str": "139157465",
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2026-08-26T22:32:34.000Z",
+  "display_text_range": [
+    0,
+    276
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/EFUlbQhA7m",
+        "expanded_url": "https://x.com/w01fe/status/2092742024680419761/photo/1",
+        "indices": [
+          277,
+          300
+        ],
+        "url": "https://t.co/EFUlbQhA7m"
+      }
+    ]
+  },
+  "id_str": "2092742024680419761",
+  "text": "Today’s report shows that some people at OpenAI knew about the message board during the first Artifactory breach. My post implied otherwise. I thought I was accurately paraphrasing our CSO’s clarification, but I shouldn’t have attempted to do that, as I wasn't informed of the https://t.co/EFUlbQhA7m",
+  "user": {
+    "id_str": "139157465",
+    "name": "Jason Wolfe",
+    "screen_name": "w01fe",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1966534318077194240/NyhJ0EPD_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2092742024680419761"
+    ],
+    "editable_until_msecs": "1787787154000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/EFUlbQhA7m",
+      "expanded_url": "https://x.com/w01fe/status/2092742024680419761/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        277,
+        300
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/HQrpfDCbwAAIfod.png",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 780,
+            "w": 1392,
+            "x": 0,
+            "y": 138
+          },
+          {
+            "h": 918,
+            "w": 918,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 918,
+            "w": 805,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 918,
+            "w": 459,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 918,
+            "w": 1392,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 918,
+        "width": 1392
+      },
+      "sizes": {
+        "large": {
+          "h": 918,
+          "resize": "fit",
+          "w": 1392
+        },
+        "medium": {
+          "h": 791,
+          "resize": "fit",
+          "w": 1200
+        },
+        "small": {
+          "h": 448,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/EFUlbQhA7m"
+    }
+  ],
+  "photos": [
+    {
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 780,
+          "w": 1392,
+          "x": 0,
+          "y": 138
+        },
+        {
+          "h": 918,
+          "w": 918,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 918,
+          "w": 805,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 918,
+          "w": 459,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 918,
+          "w": 1392,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/w01fe/status/2092742024680419761/photo/1",
+      "url": "https://pbs.twimg.com/media/HQrpfDCbwAAIfod.png",
+      "width": 1392,
+      "height": 918
+    }
+  ],
+  "conversation_count": 7,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 526,
+    "lang": "en",
+    "reply_count": 20,
+    "retweet_count": 40,
+    "created_at": "2026-08-09T20:10:59.000Z",
+    "display_text_range": [
+      0,
+      224
+    ],
+    "entities": {},
+    "id_str": "2086545797827686648",
+    "text": "Important clarification re: OpenAI's Black Hat talk.  At the time the first Artifactory exploit was discovered and fixed, we were not aware of the message board; it was incidentally cleared as part of rebuilding the service.",
+    "user": {
+      "id_str": "139157465",
+      "name": "Jason Wolfe",
+      "screen_name": "w01fe",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1966534318077194240/NyhJ0EPD_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2086545797827686648"
+      ],
+      "editable_until_msecs": "1786309859000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "quoted_tweet": {
+      "__typename": "Tweet",
+      "favorite_count": 162,
+      "in_reply_to_screen_name": "TalBeerySec",
+      "in_reply_to_status_id_str": "2086211971335012548",
+      "in_reply_to_user_id_str": "2470499646",
+      "lang": "en",
+      "reply_count": 10,
+      "retweet_count": 6,
+      "created_at": "2026-08-08T22:57:38.000Z",
+      "display_text_range": [
+        13,
+        248
+      ],
+      "entities": {
+        "user_mentions": [
+          {
+            "id_str": "2470499646",
+            "indices": [
+              0,
+              12
+            ],
+            "name": "Tal Be'ery",
+            "screen_name": "TalBeerySec"
+          }
+        ]
+      },
+      "id_str": "2086225348942082363",
+      "text": "@TalBeerySec To clarify, we weren’t aware of the agent covert comms at that point.\n\nInvestigative thesis of that day is wildly different from what we know now of course. Always room for improvement, and it is obvious with the benefits of hindsight.",
+      "user": {
+        "id_str": "249466641",
+        "name": "DANΞ",
+        "screen_name": "cryps1s",
+        "is_blue_verified": true,
+        "profile_image_shape": "Circle",
+        "verified": false,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1028873047661469697/-oPUXHP7_normal.jpg"
+      }
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDkyNzQyMDI0NTUwMzQ2NzUy"
+  }
+}

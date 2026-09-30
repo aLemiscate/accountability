@@ -84,18 +84,6 @@ updates:
         date: 2026-03-25
         type: primary
         snapshot: snapshots/2026-09-30-x.com-84f8907f
-  - date: 2026-06-23
-    text: >-
-      Alex Bores lost the Democratic primary for New York's 12th congressional
-      district to Micah Lasher. Leading the Future spent $8 million against him.
-      Groups on the other side, most of the money from an Anthropic-backed
-      organization, spent roughly $20 million supporting him.
-    sources:
-      - title: AI Super PAC’s First Major Target Loses New York Congressional Primary
-        publisher: Gizmodo
-        url: https://gizmodo.com/ai-super-pacs-first-major-target-loses-new-york-congressional-primary-2000776808
-        date: 2026-06-24
-        type: reporting
   - date: 2026-06-02
     text: >-
       Days apart, Brockman and OpenAI both drew the line between his money and
@@ -126,6 +114,18 @@ updates:
         type: analysis
         archive: https://web.archive.org/web/20260914080118/https://www.obsolete.pub/p/openai-leading-the-future-super-pac-brockman
         snapshot: snapshots/2026-09-29-obsolete.pub-c641e033
+  - date: 2026-06-23
+    text: >-
+      Alex Bores lost the Democratic primary for New York's 12th congressional
+      district to Micah Lasher. Leading the Future spent $8 million against him.
+      Groups on the other side, most of the money from an Anthropic-backed
+      organization, spent roughly $20 million supporting him.
+    sources:
+      - title: AI Super PAC’s First Major Target Loses New York Congressional Primary
+        publisher: Gizmodo
+        url: https://gizmodo.com/ai-super-pacs-first-major-target-loses-new-york-congressional-primary-2000776808
+        date: 2026-06-24
+        type: reporting
 note: >-
   "Regulate us" from the CEO, and money to defeat the people writing the
   regulation from the president. Keep the corporate and personal lines clear,

@@ -1,0 +1,46 @@
+title: 'Standing promise: OpenAI signs the EU code for general-purpose AI,
+  including serious-incident reporting'
+date: 2025-07-11
+org: openai
+type: said
+kind: commitment
+who: [openai]
+venue: EU General-Purpose AI Code of Practice
+summary: >-
+  OpenAI said it would sign the EU's voluntary Code of Practice for
+  general-purpose AI, the Commission's route for complying with the AI Act. For
+  the most capable models, the code's Safety and Security chapter commits
+  signatories to a published safety framework, model reports to the EU AI
+  Office, and reporting serious incidents "without undue delay," with deadlines
+  that depend on severity. For a serious cybersecurity breach the deadline is
+  five days.
+concreteness: measurable
+status: open
+breaks_if: >-
+  The AI Office finds OpenAI in breach of the code; OpenAI withdraws; or it
+  emerges that a serious incident involving an OpenAI model, such as a
+  cyberattack by its agents, wasn't reported within the code's deadlines.
+patterns: []
+related: [2023-06-20-eu-ai-act-lobbying, 2025-07-21-anthropic-eu-gpai-code-of-practice, 2026-07-21-hugging-face-incident, 2026-06-agents-breach-australian-government]
+sources:
+  - title: The EU Code of Practice and future of AI in Europe
+    publisher: OpenAI
+    url: https://openai.com/global-affairs/eu-code-of-practice/
+    date: 2025-07-11
+    type: primary
+  - title: Mistral, OpenAI say will respect EU's AI Code of Practice
+    publisher: EU Perspectives
+    url: https://euperspectives.eu/2025/07/mistral-and-openai-back-eu-ai-code-of-practice/
+    date: 2025-07
+    type: reporting
+    snapshot: snapshots/2026-09-30-euperspectives.eu-43d2befb
+  - title: 'General-Purpose AI Code of Practice (final text), Safety and Security
+      chapter, Commitment 9'
+    publisher: European Commission (unofficial mirror)
+    url: https://code-of-practice.ai/
+    date: 2025-07-10
+    type: primary
+    snapshot: snapshots/2026-09-30-code-of-practice.ai-973ed76f
+note: >-
+  The incident-reporting commitment is the testable part. Whether OpenAI
+  reported the 2026 agent breaches to the EU AI Office isn't public.

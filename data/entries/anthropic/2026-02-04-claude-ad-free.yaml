@@ -47,6 +47,20 @@ sources:
     date: 2026-02-04
     type: primary
     snapshot: snapshots/2026-09-29-x.com-88a67efa
+updates:
+  - date: 2026-02-05
+    text: >-
+      OpenAI president Greg Brockman asked Anthropic and Dario Amodei on X:
+      "will you commit to never selling claude's 'users' attention or data to
+      advertisers'? genuine question, your blog post makes it sound like you're
+      keeping the option open." This record found no public answer.
+    sources:
+      - title: Greg Brockman on X
+        publisher: X
+        url: https://x.com/gdb/status/2019300639155900608
+        date: 2026-02-05
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-8c00d1e8
 note: >-
   This is a clear, measurable promise, and a marketing campaign. The exit clause
   means it's a promise to explain a reversal, not a promise never to reverse.
