@@ -3,7 +3,7 @@
 //
 //   npm run find-posts -- --account sama --from 2023 --to 2024 --match "safety|regulat|nonprofit"
 //   npm run find-posts -- --all --from 2026-01 --match "safety|ads|military"
-//   npm run find-posts -- --all --via wayback --limit 2000 --keep-deleted --match "…"   (full history)
+//   npm run find-posts -- --account sama --corpus --limit all --budget-minutes 320 --match "…"   (full history)
 //
 // Sources, per account in data/accounts.yaml:
 //   wayback  every X post URL the Wayback Machine has archived for the
@@ -14,18 +14,28 @@
 // Choose with --via wayback,x-api,bluesky (default: every source that is configured).
 // --keep-deleted keeps posts that look deleted (live lookup 404s, archived copy
 // exists) even when they don't match --match: a deleted post is worth a look.
-// --cdx-limit raises how many archived URLs are listed per account (default 5000).
+// --limit caps how many posts per account get their text read, newest first
+// (default 300; "all" or 0 for no cap).
 //
 // Output: inbox/<date>-<account>.md and .json. Nothing is added to the record
 // automatically: read the candidates, then `npm run new -- … --url <post>` for
 // the ones that belong.
-import { mkdir, writeFile } from 'node:fs/promises';
+//
+// --corpus keeps every post, not only the ones that match: it reads and
+// updates inbox/sweep/<account>.jsonl (one post per line, newest first), so a
+// later run only reads posts it hasn't read yet. It also writes
+// inbox/sweep/<account>.md (posts matching --match, plus deleted ones, for
+// triage) and inbox/sweep/<account>.coverage.json (how many posts the account
+// has made, how many are archived, how many were read). --budget-minutes stops
+// reading when time runs out; unread posts stay listed as unread.
+// --concurrency sets how many posts are read at once (default 3).
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { ROOT, loadAll, readYaml } from './lib.mjs';
 import { sleep } from './web.mjs';
-import { blueskyPosts, hydrateXCandidate, waybackPosts, xApiPosts, xStatusId } from './social.mjs';
+import { blueskyPosts, fetchXProfile, hydrateXCandidate, newestFirst, waybackPosts, xApiPosts, xStatusId } from './social.mjs';
 
-const VALUE_OPTS = new Set(['account', 'from', 'to', 'match', 'limit', 'via', 'cdx-limit']);
+const VALUE_OPTS = new Set(['account', 'from', 'to', 'match', 'limit', 'via', 'budget-minutes', 'concurrency']);
 const opts = {};
 for (let i = 2; i < process.argv.length; i++) {
   const a = process.argv[i].replace(/^--/, '');
@@ -45,7 +55,9 @@ const pad = (d, end) => {
 };
 const from = pad(opts.from, false);
 const to = pad(opts.to, true);
-const limit = Number(opts.limit || 300);
+const limit = ['all', '0'].includes(String(opts.limit)) ? Infinity : Number(opts.limit || 300);
+const deadline = opts['budget-minutes'] ? Date.now() + Number(opts['budget-minutes']) * 60000 : Infinity;
+const concurrency = Math.max(1, Number(opts.concurrency || 3));
 const match = opts.match ? new RegExp(opts.match, 'i') : null;
 const terms = opts.match ? String(opts.match).split('|').map((t) => t.replace(/[^\w\s-]/g, '').trim()).filter(Boolean) : [];
 
@@ -72,6 +84,27 @@ for (const e of entries) {
 const stamp = new Date().toISOString().slice(0, 10);
 await mkdir(path.join(ROOT, 'inbox'), { recursive: true });
 
+/** Run fn over items, a few at a time, pausing between requests; stops starting new ones after the deadline. */
+async function readPosts(items, fn) {
+  let next = 0;
+  let done = 0;
+  const worker = async () => {
+    while (next < items.length && Date.now() < deadline) {
+      const item = items[next++];
+      await fn(item);
+      done++;
+      await sleep(400);
+    }
+  };
+  await Promise.all(Array.from({ length: concurrency }, worker));
+  return done;
+}
+
+if (opts.corpus) {
+  for (const account of chosen) await sweepAccount(account);
+  process.exit(0);
+}
+
 for (const account of chosen) {
   const name = account.x || account.bluesky;
   console.log(`\n@${name} (${account.actor})`);
@@ -85,16 +118,16 @@ for (const account of chosen) {
 
   if (account.x && via.has('wayback')) {
     try {
-      const list = await waybackPosts(account.x, { from, to, limit: Number(opts['cdx-limit'] || 5000) });
+      const list = await waybackPosts(account.x, { from, to });
       console.log(`  wayback: ${list.length} archived posts${from || to ? ` in ${from ?? '…'} – ${to ?? '…'}` : ''}`);
       // Newest first, and only as many as --limit, since each needs a text lookup.
-      const picked = list.reverse().slice(0, limit);
-      for (const [i, c] of picked.entries()) {
+      const picked = list.slice(0, limit);
+      let n = 0;
+      await readPosts(picked, async (c) => {
         await hydrateXCandidate(c);
         c.via = 'wayback';
-        if ((i + 1) % 25 === 0) console.log(`  … ${i + 1}/${picked.length} read`);
-        await sleep(700);
-      }
+        if (++n % 25 === 0) console.log(`  … ${n}/${picked.length} read`);
+      });
       found.push(...picked);
     } catch (err) {
       problems.push(`wayback: ${err.message}`);
@@ -102,7 +135,7 @@ for (const account of chosen) {
   }
   if (account.x && via.has('x-api')) {
     try {
-      const list = await xApiPosts(account.x, { from, to, max: limit });
+      const list = await xApiPosts(account.x, { from, to, max: Number.isFinite(limit) ? limit : 3200 });
       console.log(`  x-api: ${list.length} posts`);
       found.push(...list);
     } catch (err) {
@@ -158,4 +191,142 @@ for (const account of chosen) {
   ].join('\n');
   await writeFile(`${base}.md`, md);
   console.log(`  ${posts.length} candidate(s) → inbox/${stamp}-${name}.md`);
+}
+
+// ── Corpus mode ──────────────────────────────────────────────────────────
+async function readJsonl(file) {
+  try {
+    return (await readFile(file, 'utf8')).split('\n').filter(Boolean).map((l) => JSON.parse(l));
+  } catch {
+    return [];
+  }
+}
+
+/** The fields kept for each post in the corpus file. */
+function slim(c) {
+  const fields = ['id', 'date', 'url', 'text', 'reply_to', 'quoted', 'deleted', 'live_status', 'archived_at', 'archive', 'via', 'read_at'];
+  return Object.fromEntries(fields.filter((k) => c[k] != null).map((k) => [k, c[k]]));
+}
+
+async function sweepAccount(account) {
+  const name = account.x;
+  if (!name) return;
+  console.log(`\n@${name} (${account.actor})`);
+  const dir = path.join(ROOT, 'inbox', 'sweep');
+  await mkdir(dir, { recursive: true });
+  const base = path.join(dir, name);
+  const problems = [];
+
+  const profile = await fetchXProfile(name).catch(() => null);
+  console.log(`  profile: ${profile ? `${profile.name}, ${profile.posts ?? '?'} posts on X` : 'not available'}`);
+
+  // Earlier runs: keep what was read, so this run only reads what's new.
+  const corpus = new Map((await readJsonl(`${base}.jsonl`)).map((c) => [c.id, c]));
+  const before = corpus.size;
+  const add = (c, source) => {
+    const prev = corpus.get(c.id);
+    const merged = { ...c, ...(prev ?? {}) };
+    merged.via = [...new Set([...(prev?.via ?? '').split('+'), source].filter(Boolean))].join('+');
+    // A fresh listing may carry a better archive link than the stored one.
+    for (const k of ['archived_at', 'archive', 'archive_raw']) if (c[k] && !prev?.text) merged[k] = c[k];
+    corpus.set(c.id, merged);
+  };
+
+  let archived = null;
+  if (via.has('wayback')) {
+    try {
+      const list = await waybackPosts(name, {
+        from, to,
+        onPage: ({ prefix, pages, rows }) => console.log(`  wayback: ${prefix} page ${pages}, ${rows} rows so far`),
+      });
+      archived = list.length;
+      console.log(`  wayback: ${list.length} archived posts`);
+      for (const c of list) add(c, 'wayback');
+    } catch (err) {
+      problems.push(`wayback: ${err.message}`);
+    }
+  }
+  if (via.has('x-api')) {
+    try {
+      const list = await xApiPosts(name, { from, to, max: 3200 });
+      console.log(`  x-api: ${list.length} posts`);
+      for (const c of list) add({ ...c, read_at: stamp }, 'x-api');
+    } catch (err) {
+      problems.push(`x-api: ${err.message}`);
+    }
+  }
+  for (const p of problems) console.warn(`  ${p}`);
+
+  const posts = () => [...corpus.values()].sort(newestFirst);
+  const inRange = (c) => (!from || (c.date && c.date >= from)) && (!to || (c.date && c.date <= to));
+  const unread = posts().filter((c) => !c.read_at && inRange(c)).slice(0, limit);
+  console.log(`  ${corpus.size} posts known (${corpus.size - before} new); reading ${unread.length}`);
+
+  const save = async () => {
+    const all = posts();
+    await writeFile(`${base}.jsonl`, all.map((c) => JSON.stringify(slim(c))).join('\n') + (all.length ? '\n' : ''));
+    const inScope = all.filter(inRange);
+    const coverage = {
+      account: name,
+      actor: account.actor,
+      swept_at: new Date().toISOString(),
+      range: { from: from ?? null, to: to ?? null },
+      profile_name: profile?.name ?? null,
+      posts_on_x: profile?.posts ?? null,
+      archived_listed: archived,
+      known: inScope.length,
+      read: inScope.filter((c) => c.read_at).length,
+      with_text: inScope.filter((c) => c.text).length,
+      deleted: inScope.filter((c) => c.deleted).length,
+      unread: inScope.filter((c) => !c.read_at).length,
+      matched: inScope.filter((c) => match && c.text && match.test(c.text)).length,
+      oldest: inScope.at(-1)?.date ?? null,
+      newest: inScope[0]?.date ?? null,
+      problems,
+    };
+    await writeFile(`${base}.coverage.json`, `${JSON.stringify(coverage, null, 2)}\n`);
+    return { all: inScope, coverage };
+  };
+
+  let n = 0;
+  await readPosts(unread, async (c) => {
+    await hydrateXCandidate(c);
+    c.deleted = c.possibly_deleted || undefined;
+    c.read_at = stamp;
+    if (++n % 100 === 0) {
+      console.log(`  … ${n}/${unread.length} read`);
+      if (n % 500 === 0) await save();
+    }
+  });
+  if (n < unread.length) console.warn(`  stopped at the time budget: ${unread.length - n} post(s) left unread for the next run`);
+
+  const { all, coverage } = await save();
+  const picked = all.filter((c) => (match && c.text && match.test(c.text)) || c.deleted);
+  const pct = (a, b) => (b ? `${Math.round((100 * a) / b)}%` : 'n/a');
+  const md = [
+    `# @${name}: swept posts`,
+    '',
+    `Swept ${stamp}${from || to ? ` · posted ${from ?? '…'} to ${to ?? '…'}` : ''}.`,
+    '',
+    `- Posts on X, including reposts: ${coverage.posts_on_x ?? 'unknown'}`,
+    `- Archived posts found: ${coverage.known} (${coverage.oldest ?? '…'} to ${coverage.newest ?? '…'})`,
+    `- Read so far: ${coverage.read} (${pct(coverage.read, coverage.known)}); text found for ${coverage.with_text}; ${coverage.unread} not read yet`,
+    `- Possibly deleted: ${coverage.deleted}`,
+    `- Matching the topic filter: ${coverage.matched}`,
+    problems.length ? `- Problems: ${problems.join('; ')}` : '',
+    '',
+    `Every post is in \`${name}.jsonl\`. Listed below: posts matching the topic filter${match ? ` (\`${opts.match}\`)` : ''}, and posts that look deleted.`,
+    '',
+    ...picked.flatMap((c) => [
+      `## ${c.date ?? 'undated'}${c.deleted ? ' · possibly deleted' : ''}${cited.has(c.id) ? ' · already cited' : ''}${c.reply_to ? ` · reply to @${c.reply_to}` : ''}`,
+      '',
+      c.text ? `> ${c.text.replace(/\n/g, '\n> ')}` : '_(text not available)_',
+      ...(c.quoted?.text ? ['', `Quoting ${c.quoted.url}:`, `> ${c.quoted.text.replace(/\n/g, '\n> ')}`] : []),
+      '',
+      `${c.url}${c.archive ? ` · [archived](${c.archive})` : ''}`,
+      '',
+    ]),
+  ].filter((l) => l !== null).join('\n');
+  await writeFile(`${base}.md`, md);
+  console.log(`  ${coverage.read}/${coverage.known} read, ${coverage.matched} matching, ${coverage.deleted} possibly deleted → inbox/sweep/${name}.md`);
 }
