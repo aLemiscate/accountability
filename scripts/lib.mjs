@@ -101,6 +101,13 @@ export function validate({ patterns, actors, entries, accounts = [] }) {
   for (const acc of accounts) {
     if (!actorIds.has(acc.actor)) errors.push(`accounts.yaml: unknown actor "${acc.actor}" (add it to data/actors.yaml)`);
     if (!acc.x && !acc.bluesky) errors.push(`accounts.yaml: ${acc.actor} needs an x or bluesky handle`);
+    if (acc.match != null) {
+      try {
+        new RegExp(acc.match, 'i');
+      } catch (err) {
+        errors.push(`accounts.yaml: ${acc.actor} has an invalid match pattern (${err.message})`);
+      }
+    }
     for (const h of [acc.x && `x:${acc.x}`, acc.bluesky && `bsky:${acc.bluesky}`].filter(Boolean)) {
       if (handles.has(h.toLowerCase())) errors.push(`accounts.yaml: duplicate handle ${h}`);
       handles.add(h.toLowerCase());

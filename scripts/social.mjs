@@ -6,15 +6,34 @@ import { decodeEntities, fetchWithTimeout, fetchXPost, fetchXPostDetails, normal
 // ── X post ids ───────────────────────────────────────────────────────────
 const TWITTER_EPOCH = 1288834974657n;
 
-/** An X post id (a "snowflake") encodes its creation time. Returns a Date, or null for pre-2010 ids. */
+// Before November 2010, X numbered posts in sequence (the last ones were
+// around 3e10); since then ids are "snowflakes" that encode the posting time.
+const FIRST_SNOWFLAKE = 1_000_000_000_000n;
+
+/** An X post id (a "snowflake") encodes its creation time. Returns a Date, or null for pre-November-2010 ids. */
 export function snowflakeDate(id) {
   try {
     const n = BigInt(id);
-    if (n < 1n << 22n) return null;
-    return new Date(Number((n >> 22n) + TWITTER_EPOCH));
+    if (n < FIRST_SNOWFLAKE) return null;
+    const d = new Date(Number((n >> 22n) + TWITTER_EPOCH));
+    return Number.isNaN(d.getTime()) ? null : d;
   } catch {
     return null;
   }
+}
+
+/**
+ * Whether an id could belong to a real post: a positive number that, if it's
+ * a snowflake, doesn't date from the future. Archived URLs include mistyped
+ * and made-up ids.
+ */
+export function plausiblePostId(id, now = Date.now()) {
+  if (!/^\d{1,20}$/.test(String(id))) return false;
+  const n = BigInt(id);
+  if (n === 0n) return false;
+  if (n < FIRST_SNOWFLAKE) return true;
+  const d = snowflakeDate(id);
+  return !!d && d.getTime() <= now + 2 * 86400000;
 }
 
 export function xStatusId(url) {
@@ -36,7 +55,7 @@ export function parseCdxRows(rows, handle) {
     if (!Array.isArray(row) || row.length < header.length) continue;
     const original = row[col.original];
     const id = xStatusId(original);
-    if (!id) continue;
+    if (!id || !plausiblePostId(id)) continue;
     const ts = row[col.timestamp];
     const status = col.statuscode === undefined ? '200' : row[col.statuscode];
     const prev = byId.get(id);
@@ -182,6 +201,14 @@ export async function hydrateXCandidate(c) {
     const d = await fetchXPostDetails(c.id);
     c.live_status = d.status;
     if (d.ok) {
+      // The archived URL names the account, but X serves a post by its id: make
+      // sure this account wrote it. Mistyped links and reused handles point elsewhere.
+      c.author = d.raw?.user?.screen_name ?? null;
+      if (c.author && c.author.toLowerCase() !== c.handle.toLowerCase()) {
+        c.other_author = c.author;
+        c.text = null;
+        return c;
+      }
       c.text = d.text;
       if (d.raw?.in_reply_to_screen_name) c.reply_to = d.raw.in_reply_to_screen_name;
       if (d.quoted) c.quoted = { url: d.quoted.url, text: d.quoted.text };
@@ -195,6 +222,12 @@ export async function hydrateXCandidate(c) {
       const live = await fetchXPost(c.url);
       c.live_status = live.status;
       if (live.ok) {
+        const author = /(?:twitter|x)\.com\/([^/?#]+)/i.exec(live.author_url ?? '')?.[1] ?? null;
+        c.author = author;
+        if (author && author.toLowerCase() !== c.handle.toLowerCase()) {
+          c.other_author = author;
+          return c;
+        }
         c.text = live.text;
         return c;
       }
