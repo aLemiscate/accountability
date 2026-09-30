@@ -1,0 +1,44 @@
+title: Reddit sues Anthropic, alleging its bots kept scraping after it said they
+  had stopped
+date: 2025-06-04
+org: anthropic
+type: did
+kind: action
+who: [anthropic]
+summary: >-
+  Reddit sued Anthropic in California state court, alleging that it trained
+  Claude on Reddit posts and comments, including deleted ones, without a license
+  or users' consent, and that despite Anthropic's public claims that it had
+  blocked its bots from Reddit, its systems accessed Reddit's servers more than
+  100,000 times in the following months. Reddit licenses its data to Google,
+  OpenAI and others; Anthropic declined such an agreement, the complaint says.
+  The claims include breach of contract, unjust enrichment and unfair
+  competition.
+patterns: [take-first]
+related: [2025-09-05-pirated-books-settlement]
+sources:
+  - title: Reddit sues AI firm Anthropic for illegally scraping millions of posts to
+      train chatbot Claude
+    publisher: Malay Mail
+    url: https://www.malaymail.com/news/tech-gadgets/2025/06/05/reddit-sues-ai-firm-anthropic-for-illegally-scraping-millions-of-posts-to-train-chatbot-claude/179296
+    date: 2025-06-05
+    type: reporting
+    snapshot: snapshots/2026-09-30-malaymail.com-8c5ecb5c
+  - title: Why Reddit sued Anthropic
+    publisher: Fortune
+    url: https://fortune.com/2025/06/05/why-reddit-sued-anthropic
+    date: 2025-06-05
+    type: reporting
+    snapshot: snapshots/2026-09-30-fortune.com-ccbe822a
+  - title: 'Beyond Copyright: Reddit''s Lawsuit Against Anthropic'
+    publisher: National Law Review
+    url: https://natlawreview.com/article/beyond-copyright-reddits-lawsuit-against-anthropic
+    type: analysis
+    snapshot: snapshots/2026-09-30-natlawreview.com-47dc7494
+response: >-
+  Anthropic said: "We disagree with Reddit's claims and will defend ourselves
+  vigorously."
+note: >-
+  These are allegations in a lawsuit that hasn't been decided. The part that
+  matters here is the gap Reddit alleges between what Anthropic said about its
+  crawler and what its crawler did.

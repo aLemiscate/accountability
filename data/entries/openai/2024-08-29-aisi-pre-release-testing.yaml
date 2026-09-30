@@ -1,0 +1,60 @@
+title: 'OpenAI agrees to let the US AI Safety Institute test "our future models"
+  before release'
+date: 2024-08-29
+org: openai
+type: said
+kind: commitment
+who: [sam-altman, openai]
+venue: Memorandum of understanding with the US AI Safety Institute; post on X
+quote: >-
+  we are happy to have reached an agreement with the US AI Safety Institute for
+  pre-release testing of our future models.
+summary: >-
+  OpenAI and Anthropic signed agreements giving the US AI Safety Institute
+  (later the Center for AI Standards and Innovation) "access to major new models
+  from each company prior to and following their public release." The
+  agreements are voluntary and their terms were not published.
+concreteness: conditional
+status: kept
+breaks_if: >-
+  A major OpenAI model ships without the government institute having had
+  pre-release access.
+patterns: []
+related: [2024-08-29-anthropic-aisi-pre-release-testing, 2023-07-21-white-house-voluntary-commitments]
+sources:
+  - title: Sam Altman on X
+    publisher: X
+    url: https://x.com/sama/status/1829205847731515676
+    date: 2024-08-29
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-a21d6de1
+  - title: OpenAI and Anthropic agree to let U.S. AI Safety Institute test and
+      evaluate new models
+    publisher: CNBC
+    url: https://www.cnbc.com/2024/08/29/openai-and-anthropic-agree-to-let-us-ai-safety-institute-test-models.html
+    date: 2024-08-29
+    type: reporting
+    snapshot: snapshots/2026-09-30-cnbc.com-b3f1be9a
+updates:
+  - date: 2024-12-18
+    text: >-
+      The US and UK AI Safety Institutes published a joint pre-deployment
+      evaluation of OpenAI's o1, covering biological, cyber and software
+      capabilities.
+    sources:
+      - title: Pre-Deployment Evaluation of OpenAI's o1 Model
+        publisher: NIST
+        url: https://www.nist.gov/news-events/news/2024/12/pre-deployment-evaluation-openais-o1-model
+        date: 2024-12-18
+        type: primary
+        snapshot: snapshots/2026-09-30-nist.gov-be88ea80
+  - date: 2026-06-26
+    text: >-
+      OpenAI's GPT-5.6 models launched to a limited group after a government
+      review requested by the administration. See
+      2026-06-12-fable-5-export-control-suspension.
+note: >-
+  Marked kept on the published evidence: government testers did get
+  pre-deployment access to at least one major model, and in 2026 government
+  review came before release. The agreement's terms aren't public, so "every
+  major model" can't be checked.

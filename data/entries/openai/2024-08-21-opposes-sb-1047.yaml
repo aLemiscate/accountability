@@ -1,0 +1,85 @@
+title: OpenAI opposes California's SB 1047, saying frontier AI should be
+  regulated federally
+date: 2024-08-21
+org: openai
+type: did
+kind: action
+who: [openai, jason-kwon, peter-welinder]
+quote: >-
+  the broad and significant implications of AI for U.S. competitiveness and
+  national security require that regulation of frontier models be shaped and
+  implemented at the federal level.
+summary: >-
+  In a letter signed by chief strategy officer Jason Kwon, OpenAI formally
+  opposed SB 1047, which would have required developers of the largest models to
+  test for catastrophic harms, keep a shutdown capability and submit to
+  third-party audits. It said it supported "the intent behind some of its
+  provisions" but that frontier regulation belonged to Congress, and warned the
+  bill could drive companies out of California. The bill's author, Sen. Scott
+  Wiener, said the letter "doesn't criticize a single provision of the bill."
+  Former OpenAI employees William Saunders and Daniel Kokotajlo wrote that they
+  were "disappointed but not surprised." Newsom vetoed the bill on Sept. 29; OpenAI
+  vice president Peter Welinder posted: "Glad SB 1047 was vetoed."
+contradicts: [2023-05-16-altman-senate-licensing-agency]
+patterns: [regulate-us-not-like-that]
+related: [2024-08-21-anthropic-sb-1047-sb-53]
+sources:
+  - title: OpenAI letter to Sen. Scott Wiener opposing SB 1047 (PDF)
+    publisher: OpenAI
+    url: https://r2.maginative.com/ca-sb-1047-openai-opposition-letter.pdf
+    date: 2024-08-21
+    type: primary
+    snapshot: snapshots/2026-09-30-r2.maginative.com-a314de0a
+  - title: Senator Wiener Responds to OpenAI Opposition to SB 1047
+    publisher: Office of Sen. Scott Wiener
+    url: https://sd11.senate.ca.gov/news/senator-wiener-responds-openai-opposition-sb-1047
+    date: 2024-08-21
+    type: primary
+    snapshot: snapshots/2026-09-30-sd11.senate.ca.gov-58474f23
+  - title: OpenAI's opposition to California's AI bill 'makes no sense,' says state
+      senator
+    publisher: TechCrunch
+    url: https://techcrunch.com/2024/08/21/openais-opposition-to-californias-ai-law-makes-no-sense-says-state-senator/
+    date: 2024-08-21
+    type: reporting
+    snapshot: snapshots/2026-09-30-techcrunch.com-cb40d5c9
+  - title: '''Disappointed but not surprised'': Former employees speak on OpenAI''s
+      opposition to SB 1047'
+    publisher: TechCrunch
+    url: https://techcrunch.com/2024/08/23/disappointed-but-not-surprised-former-employees-speak-on-openais-opposition-to-sb-1047
+    date: 2024-08-23
+    type: reporting
+    snapshot: snapshots/2026-09-30-techcrunch.com-a07f3305
+  - title: Peter Welinder on X
+    publisher: X
+    url: https://x.com/npew/status/1840498486816723349
+    date: 2024-09-29
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-4eca7d35
+response: >-
+  OpenAI said it had "been clear about our support for federal regulation" and
+  supported efforts in Congress and the White House executive order.
+updates:
+  - date: 2025-08-11
+    text: >-
+      On the successor bill, SB 53, OpenAI published an open letter to Newsom
+      urging that companies meeting federal or EU standards be treated as
+      compliant. TechCrunch reported that OpenAI and Meta lobbied against SB 53,
+      and that OpenAI's letter discouraged Newsom from signing it. Newsom signed
+      it on Sept. 29, 2025.
+    sources:
+      - title: OpenAI's letter to Governor Newsom on harmonized regulation
+        publisher: OpenAI
+        url: https://openai.com/global-affairs/letter-to-governor-newsom-on-harmonized-regulation/
+        date: 2025-08-11
+        type: primary
+      - title: California Governor Newsom signs landmark AI safety bill SB 53
+        publisher: TechCrunch
+        url: https://techcrunch.com/2025/09/29/california-governor-newsom-signs-landmark-ai-safety-bill-sb-53/
+        date: 2025-09-29
+        type: reporting
+        snapshot: snapshots/2026-09-30-techcrunch.com-c53c48f3
+note: >-
+  "Regulate us, but federally" is a position that can be sincere. It's recorded
+  here because Congress hadn't acted and OpenAI named nothing in the bill it
+  objected to.

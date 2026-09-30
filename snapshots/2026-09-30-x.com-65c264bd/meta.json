@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/FT/status/1910545751119135199",
+  "captured_at": "2026-09-30T05:53:42.561Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "be6f0ae05674b959ffabc00951b36a48616d6284bc55138a80d5db6d5e870c2e",
+    "page.txt": "28d7699aa2fafe811a1c5922dd740abb804bc2651d798c95df68ea222dd1bd70",
+    "post.json": "4109004076f8affeff501666bce2579e7ebe7e6259052aeae2f75b88620d69e8",
+    "syndication.json": "44bc43433a0ccd8da53a05248dcc4f5b93b3dff32fe3d7424d759fa5ae74a8f9",
+    "post.txt": "35ff14edda3037a11be37e5233e86787136c683ccc86fa9dd2db726e1b09ae31"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/FT/status/1910545751119135199",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Financial Times on X: \"OpenAI slashes AI model safety testing time https://t.co/sbNtaZ4foV\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Financial Times (@FT)",
+    "date": "April 11, 2025",
+    "posted_at": "2025-04-11T04:09:37.947Z"
+  }
+}

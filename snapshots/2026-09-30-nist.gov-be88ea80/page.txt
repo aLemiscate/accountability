@@ -1,0 +1,306 @@
+Pre-Deployment Evaluation of OpenAI's o1 Model | NIST
+Skip to main content
+An official website of the United States government
+Here’s how you know
+Here’s how you know
+Official websites use .gov
+A .gov website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS
+A lock (
+) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+https://www.nist.gov/news-events/news/2024/12/pre-deployment-evaluation-openais-o1-model
+Search NIST
+Menu
+Close
+•
+Publications
+•
+What We Do
+•
+All Topics
+•
+Advanced communications
+•
+Artificial intelligence
+•
+Bioscience
+•
+Buildings and construction
+•
+Chemistry
+•
+Cybersecurity and Privacy
+•
+Electronics
+•
+Energy
+•
+Environment
+•
+Fire
+•
+Forensic science
+•
+Health
+•
+Information technology
+•
+Infrastructure
+•
+Manufacturing
+•
+Materials
+•
+Mathematics and statistics
+•
+Metrology
+•
+Nanotechnology
+•
+Neutron research
+•
+Performance excellence
+•
+Physics
+•
+Public safety
+•
+Quantum information science
+•
+Resilience
+•
+Standards
+•
+Transportation
+•
+Labs & Major Programs
+•
+Laboratories
+•
+Communications Technology Laboratory
+•
+Engineering Laboratory
+•
+Information Technology Laboratory
+•
+Material Measurement Laboratory
+•
+Physical Measurement Laboratory
+•
+User Facilities
+•
+NIST Center for Neutron Research
+•
+CNST NanoFab
+•
+Research Test Beds
+•
+Research Projects
+•
+Tools & Instruments
+•
+Major Programs
+•
+CHIPS for America Initiative
+•
+Congressionally Identified Project Program (CIPP)
+•
+Manufacturing Extension Partnership (MEP)
+•
+Manufacturing USA
+•
+Office of Advanced Manufacturing
+•
+Technology Partnerships Office
+•
+Services & Resources
+•
+Measurements and Standards
+•
+Calibration Services
+•
+Laboratory Accreditation (NVLAP)
+•
+Quality System
+•
+Standard Reference Materials (SRMs)
+•
+Standard Reference Instruments (SRIs)
+•
+Standards.gov
+•
+Time Services
+•
+Office of Weights and Measures
+•
+Software
+•
+Data
+•
+Chemistry WebBook
+•
+National Vulnerability Database
+•
+Physical Reference Data
+•
+Standard Reference Data (SRD)
+•
+Storefront
+•
+License & Patents
+•
+Computer Security Resource Center (CSRC)
+•
+NIST Research Library
+•
+News & Events
+•
+News
+•
+Events
+•
+Blogs
+•
+NIST In Focus
+•
+Feature Stories
+•
+Awards
+•
+Video Gallery
+•
+Image Gallery
+•
+Media Contacts
+•
+About NIST
+•
+About Us
+•
+Leadership
+•
+Organization Structure
+•
+Budget & Planning
+•
+Contact Us
+•
+Visit
+•
+Careers
+•
+Student programs
+•
+Work with NIST
+•
+History
+•
+NIST Digital Archives
+•
+NIST Museum
+•
+NIST and the Nobel
+•
+Educational Resources
+UPDATES
+Pre-Deployment Evaluation of OpenAI's o1 Model
+The U.S. AI Safety Institute and the UK AI Safety Institute conducted joint pre-deployment testing of OpenAI's o1 Model
+December 18, 2024
+Share
+Facebook
+Linkedin
+X.com
+Email
+The U.S. Artificial Intelligence Safety Institute (US AISI) and the UK Artificial Intelligence Safety Institute (UK AISI) conducted a joint pre-deployment evaluation of OpenAI’s latest model, o1 (released December 5, 2024).
+The following is a high-level overview of the evaluations conducted, as well as a snapshot of the findings from each domain tested. A more detailed technical report can be found here .
+Overview of the Joint Safety Research & Testing Exercise
+US AISI and UK AISI conducted testing during a limited period of pre-deployment access to the o1 model. Testing was conducted by expert engineers, scientists, and subject matter specialists from staff at both Institutes, and the findings were shared with OpenAI before the model was publicly released.
+US AISI and UK AISI ran separate but complementary tests to assess the model’s capabilities across three domains: (1) cyber capabilities , (2) biological capabilities , (3) and software and AI development .
+To assess the model’s relative capabilities and evaluate the potential real-world impacts of o1 across these areas, US AISI and UK AISI compared its performance to a series of similar reference models: OpenAI’s o1-preview, OpenAI’s GPT-4o, and both the upgraded and earlier version of Anthropic’s Claude 3.5 Sonnet.
+These comparisons are intended only to assess the relative capability improvements of o1, in order to improve scientific interpretation of evaluation results.
+The version of o1 that was tested exhibited a number of performance issues related to tool-calling and output formatting. US AISI and UK AISI took steps to address these issues by adapting their agent designs, including adjusting prompts and introducing simple mechanisms to help the agent recover from errors. The results below reflect o1’s performance with this scaffolding in place. A version of o1 that was better optimized for tool use might exhibit better performance on many evaluations. This report makes no claims about the performance of other versions of o1.
+Methodology
+US AISI and UK AISI tested the model by drawing on a range of techniques including:
+• Question Answering: The model was asked to correctly answer a series of questions that test knowledge or problem solving on a given topic. Answers were most often graded automatically by another model, then checked by a human with knowledge of the correct answers.
+• Agent Tasks: The model operated as an agent in a virtual environment where it was given a task to complete, provided with access to a series of software tools, and prompted to take a series of steps until it successfully completed the task or reached its maximum number of steps without succeeding.
+• Qualitative Probing: A scientific expert reviewed the model as it operated to understand its capabilities and limitations in more detail.
+US AISI was assisted in its cyber capabilities evaluations by subject matter experts from the National Security Agency and the Cybersecurity and Infrastructure Security Agency, and in its biological capabilities evaluations by subject matter experts from the National Institutes of Health and the Department of Homeland Security.
+Evaluations and Findings
+Below are selected findings from US AISI and UK AISI’s testing of OpenAI’s o1 model.
+Across the three domains tested, o1 largely demonstrated performance on par with the reference models tested – with the exception of additional capabilities noted in cybersecurity challenges related to cryptography.
+Note that smaller differences in model performance presented below may fall within the margins of error for these tests. More detail can be found in the technical report .
+Cyber Capabilities
+Advances in AI systems could enable the automation of increasingly complex cyber tasks. These capabilities are also dual use, meaning they can be leveraged to strengthen cyber defenses and can also be used maliciously to exploit a computer system.
+To better understand the relative capability of o1, US AISI and UK AISI evaluated how the model performed on a range of cyber skills that might be used to enable malicious tasks, like hacking into a computer system.
+Key findings:
+• US AISI evaluated o1 against a suite of 40 publicly available cybersecurity challenges. The model was able to successfully solve 45% of all tasks, compared to a 35% solve rate for the best-performing reference model evaluated. The o1 model solved every challenge solved by any other reference model and solved an additional three cryptography-related challenges that no other model completed.
+• UK AISI evaluated o1 against a suite of 47 cybersecurity challenges, 15 of which are publicly available and 32 of which were privately developed. The model was able to solve 36% of tasks that are at the “cybersecurity apprentice” level of competency, compared to 46% of tasks at that same level for the best reference model evaluated.
+Biological Capabilities
+Rapid advances in AI are enabling powerful innovation across many fields of biological research, which holds immense promise for the future of science, medicine, manufacturing, and much more. That said, many biological discoveries and capabilities are dual use, meaning that new discoveries in the field of biology can be used to facilitate helpful outcomes, as well as potentially harmful ones.
+To better understand the relative biological capabilities of OpenAI’s o1 model, including how it could be misused, US AISI and UK AISI focused on evaluating how the model performed on a range of practical research tasks.
+Below is a high-level overview of findings related to biological capabilities. Please note that these findings are based on US AISI’s testing only, as UK AISI is not publishing its findings in this domain at this time.
+Key findings:
+• Overall, US AISI found that on a set of multiple-choice biology research task questions, the o1 model achieves performance that is generally comparable to best-performing reference models tested across an array of question sets.
+• As with our previous testing, US AISI deployed an evaluation method that augments the AI model by providing it access to bioinformatic tools to assist in solving these research task questions. When o1 was augmented with this additional tooling, its performance increased on the research questions beyond the use of the model alone, particularly on DNA and protein sequencing-related tasks.
+Software and AI Development Evaluations
+AI systems are themselves becoming increasingly useful tools for engineers who are developing these technologies. Even if an AI system is not able to complete a given task on its own, it could be deployed to help develop or augment other software to make it more capable. Put simply, advanced AI systems could make existing technologies more effective.
+To understand the relative impact of OpenAI’s o1 model on software and AI development tasks, US AISI and UK AISI set the model up as an automated agent with access to various basic software development tools and then tested its skill and ability to carry out common engineering tasks.
+Key findings:
+• US AISI evaluated o1 against a publicly available collection of challenges in which an agent must improve the quality or speed of an ML model. On a scale of 0% (model is unimproved) to 100% (maximum level of model improvement by humans), the model received an average score of 48% improvement – in comparison to an average of 49% improvement by the best performing reference model evaluated.
+• UK AISI evaluated o1 on a set of privately developed evaluations consisting of software engineering, general reasoning and agent tasks that span a wide range of difficulty levels. The upgraded model had a success rate of 50% on software engineering tasks compared to 67% by the best reference model evaluated, and a success rate of 57% on general reasoning tasks compared to 58% by the best reference model evaluated.
+Conclusion
+While these tests were conducted in line with current best practices, the findings should be considered preliminary. These tests were conducted in a limited time period with finite resources, which if extended could expand the scope of findings and the subsequent conclusions drawn.
+The science of AI safety is a new and rapidly evolving field. Conducting these independent safety assessments improves the precision and robustness of future evaluations so that governments can stay ahead of risks and capabilities as they emerge.
+US AISI and UK AISI plan to iterate and expand on evaluation scope, methodology, and testing tools in further exercises. We look forward to feedback from the scientific community to help strengthen this critical work and advance the science of AI safety.
+The technical report can be found here .
+This blog was cross-posted by the UK AI Safety Institute .
+NIST in your inbox
+Stay up to date with the latest news from NIST.
+Enter Email Address
+Related News
+U.S. AI Safety Institute Signs Agreements Regarding AI Safety Research, Testing and Evaluation With Anthropic and OpenAI
+Released December 18, 2024, Updated February 4, 2025
+Was this page helpful?
+HEADQUARTERS
+100 Bureau Drive
+Gaithersburg, MD 20899
+301-975-2000
+Webmaster | Contact Us | Our Other Offices
+X.com
+Facebook
+LinkedIn
+Instagram
+YouTube
+Giphy
+RSS Feed
+Mailing List
+How are we doing?
+Feedback
+•
+Site Privacy
+•
+Accessibility
+•
+Privacy Program
+•
+Copyright & Disclaimers
+•
+Vulnerability Disclosure
+•
+No Fear Act Policy
+•
+FOIA
+•
+Environmental Policy
+•
+Scientific Integrity
+•
+Information Quality Standards
+•
+Commerce.gov
+•
+Science.gov
+•
+USA.gov
+•
+Vote.gov

@@ -1,0 +1,79 @@
+title: Sued over a teenager's suicide, OpenAI concedes ChatGPT's safeguards can
+  "degrade" in long conversations
+date: 2025-08-26
+org: openai
+type: did
+kind: disclosure
+who: [openai, sam-altman]
+quote: >-
+  While these safeguards work best in common, short exchanges, we’ve learned
+  over time that they can sometimes become less reliable in long interactions
+  where parts of the model’s safety training may degrade.
+summary: >-
+  Matthew and Maria Raine sued OpenAI and Altman, alleging that ChatGPT, over
+  months of conversations on GPT-4o, advised their 16-year-old son Adam on
+  suicide methods and discouraged him from telling them before he died in April
+  2025. The family's lawyers argue that OpenAI's executives knew of GPT-4o's
+  safety issues and launched it anyway to beat competitors. The same day OpenAI published a post on strengthening its
+  safeguards, and a spokesperson gave the statement above. An amended complaint
+  in October alleged that OpenAI's model guidelines had twice been relaxed
+  before Adam's death: in May 2024, from refusing self-harm conversations to
+  instructing that the assistant "should not change or quit the conversation,"
+  and in February 2025, when self-harm was left off a new list of disallowed
+  content.
+patterns: [ship-then-patch]
+related:
+  [
+    2025-04-29-gpt-4o-sycophancy-rollback,
+    2025-10-14-chatgpt-erotica-announced,
+    2026-02-26-tumbler-ridge-no-police-referral
+  ]
+sources:
+  - title: OpenAI Admits Safety Controls 'Degrade,' As Wrongful Death Lawsuit Grabs
+      Headlines
+    publisher: Gizmodo
+    url: https://gizmodo.com/openai-suicide-safety-issues-adam-raine-2000649307
+    date: 2025-08-27
+    type: reporting
+    snapshot: snapshots/2026-09-30-gizmodo.com-6b82830b
+  - title: Parents of 16-year-old Adam Raine sue OpenAI, claiming ChatGPT advised on
+      his suicide
+    publisher: CNN
+    url: https://www.cnn.com/2025/08/26/tech/openai-chatgpt-teen-suicide-lawsuit
+    date: 2025-08-26
+    type: reporting
+    snapshot: snapshots/2026-09-30-cnn.com-388418d2
+  - title: OpenAI Removed Safeguards Before Teen's Suicide, Amended Lawsuit Claims
+    publisher: TIME
+    url: https://time.com/7327946/chatgpt-openai-suicide-adam-raine-lawsuit/
+    date: 2025-10-23
+    type: reporting
+    snapshot: snapshots/2026-09-30-time.com-9ff8b444
+  - title: Raine v. OpenAI
+    publisher: Wikipedia
+    url: https://en.wikipedia.org/wiki/Raine_v._OpenAI
+    type: analysis
+    snapshot: snapshots/2026-09-30-en.wikipedia.org-1eaa9c7a
+response: >-
+  OpenAI said it extended its "deepest sympathies" to the family. In its
+  November 2025 court response it called Adam's death "devastating" but denied
+  responsibility, saying ChatGPT had directed him to "crisis resources and
+  trusted individuals more than 100 times" and that he had shown significant
+  risk factors for self-harm for years before using it. In August it said it
+  was planning parental controls for teens.
+updates:
+  - date: 2025-10-22
+    text: >-
+      The Financial Times reported, as cited by TIME, that OpenAI had asked the
+      family for the full list of attendees at Adam's memorial.
+    sources:
+      - title: OpenAI Removed Safeguards Before Teen's Suicide, Amended Lawsuit Claims
+        publisher: TIME
+        url: https://time.com/7327946/chatgpt-openai-suicide-adam-raine-lawsuit/
+        date: 2025-10-23
+        type: reporting
+        snapshot: snapshots/2026-09-30-time.com-9ff8b444
+note: >-
+  The allegations are unproven and the case is ongoing. What is on the record
+  from OpenAI itself is the admission that its safeguards work best in short
+  conversations, for a product people use for hours.

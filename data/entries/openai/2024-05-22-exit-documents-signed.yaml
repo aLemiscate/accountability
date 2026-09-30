@@ -44,6 +44,29 @@ updates:
         type: reporting
         archive: https://web.archive.org/web/20260929215144/https://www.cnbc.com/2024/05/24/openai-sends-internal-memo-releasing-former-employees-from-non-disparagement-agreements-sam-altman.html
         snapshot: snapshots/2026-09-29-cnbc.com-a6fde255
+  - date: 2024-06-04
+    text: >-
+      Thirteen current and former AI lab employees, eleven of them from OpenAI
+      and six anonymous, published "A Right to Warn about Advanced Artificial
+      Intelligence," asking companies not to enter into or enforce
+      non-disparagement agreements over risk-related concerns and to create
+      anonymous channels for raising them. An OpenAI spokeswoman said: "We're
+      proud of our track record providing the most capable and safest A.I.
+      systems and believe in our scientific approach to addressing risk."
+    sources:
+      - title: A Right to Warn about Advanced Artificial Intelligence
+        publisher: righttowarn.ai
+        url: https://righttowarn.ai/
+        date: 2024-06-04
+        type: primary
+        snapshot: snapshots/2026-09-30-righttowarn.ai-f1494f4b
+      - title: Employees Say OpenAI and Google DeepMind Are Hiding Dangers From the
+          Public
+        publisher: TIME
+        url: https://time.com/6985504/openai-google-deepmind-employees-letter/
+        date: 2024-06-04
+        type: reporting
+        snapshot: snapshots/2026-09-30-time.com-2ce3a2d7
   - date: 2024-07-23
     text: >-
       In a public summary of its safety practices, OpenAI said: "Our
