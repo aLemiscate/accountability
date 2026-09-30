@@ -7,6 +7,7 @@
 #   bluesky   Bluesky handle (e.g. name.bsky.social), if they post there
 #   match     optional topic filter for this account's sweep triage list
 #             (a regex; replaces the run's default)
+#   sweep     false to leave the account out of the full-history Sweep
 #
 # Confirm a handle belongs to the person before relying on results.
 
@@ -121,6 +122,10 @@
 - actor: elon-musk
   x: elonmusk
   # In scope as OpenAI's co-founder and litigant: list only posts about the labs.
+  # His archive holds 125,000+ posts; the full-history sweep read his most recent
+  # year (Sept 2025 to Sept 2026) and stops there. The weekly watch still reads
+  # his new posts.
+  sweep: false
   match: 'openai|open ai|altman|\bsama\b|brockman|anthropic|claude|amodei|chatgpt|\bgpt|nonprofit|non-profit|for-profit|closed.?source|microsoft.*\bai\b|superalignment|sutskever|ilya'
 - actor: bob-mcgrew
   x: bobmcgrewai

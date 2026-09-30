@@ -101,6 +101,7 @@ export function validate({ patterns, actors, entries, accounts = [] }) {
   for (const acc of accounts) {
     if (!actorIds.has(acc.actor)) errors.push(`accounts.yaml: unknown actor "${acc.actor}" (add it to data/actors.yaml)`);
     if (!acc.x && !acc.bluesky) errors.push(`accounts.yaml: ${acc.actor} needs an x or bluesky handle`);
+    if (acc.sweep != null && typeof acc.sweep !== 'boolean') errors.push(`accounts.yaml: ${acc.actor} has sweep: ${acc.sweep} (use true or false)`);
     if (acc.match != null) {
       try {
         new RegExp(acc.match, 'i');

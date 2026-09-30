@@ -41,18 +41,19 @@ for (const a of accounts.filter((x) => x.x)) {
   for (const k of Object.keys(totals)) totals[k] += c[k] ?? 0;
   // Until every post is read, unread links haven't had their author checked
   // (reposts and others' posts are only found on reading), so no share yet.
-  const complete = !c.unread;
+  const complete = !c.unread && !c.stopped;
   if (c.posts_on_x && complete) {
     archivedWithTotal += c.known ?? 0;
     postsWithTotal += c.posts_on_x;
     withTotal++;
   }
   const notes = [
+    c.stopped ?? '',
     c.not_theirs ? `${c.not_theirs} reposts or others' posts left out` : '',
     ...(c.problems ?? []),
   ].filter(Boolean).join('; ').replace(/\|/g, '/');
   const posted = `${c.undated ? 'before 2010-11' : c.oldest ?? ''} – ${c.newest ?? ''}`;
-  rows.push(`| [@${c.account}](${c.account}.md) | ${n(c.posts_on_x)} | ${n(c.known)} | ${complete ? pct(c.known, c.posts_on_x) : 'pending'} | ${n(c.read)} | ${n(c.unread)} | ${n(c.deleted)} | ${n(c.matched)} | ${posted} | ${c.swept_at.slice(0, 10)}${notes ? ` · ${notes}` : ''} |`);
+  rows.push(`| [@${c.account}](${c.account}.md) | ${n(c.posts_on_x)} | ${n(c.known)} | ${complete ? pct(c.known, c.posts_on_x) : c.stopped ? 'partial' : 'pending'} | ${n(c.read)} | ${n(c.unread)} | ${n(c.deleted)} | ${n(c.matched)} | ${posted} | ${c.swept_at.slice(0, 10)}${notes ? ` · ${notes}` : ''} |`);
 }
 
 const md = [

@@ -58,7 +58,7 @@ has posted, reposts included, so the share archived is a floor.
 | [@bradlightcap](bradlightcap.md) | ? | 42 |  | 42 | 0 | 1 | 4 | 2016-06-08 – 2026-05-11 | 2026-09-30 · 1 reposts or others' posts left out |
 | [@adamdangelo](adamdangelo.md) | ? | 204 |  | 204 | 0 | 10 | 35 | before 2010-11 – 2025-11-06 | 2026-09-30 · 40 reposts or others' posts left out |
 | [@LHSummers](LHSummers.md) | 8,788 | 2,561 | 29% | 2,561 | 0 | 22 | 839 | before 2010-11 – 2025-11-10 | 2026-09-30 · 468 reposts or others' posts left out |
-| [@elonmusk](elonmusk.md) | ? | 116,030 | pending | 11,718 | 104,312 | 358 | 73 | before 2010-11 – 2026-09-19 | 2026-09-30 · 9284 reposts or others' posts left out |
+| [@elonmusk](elonmusk.md) | 109,238 | 11,718 | partial | 11,718 | 0 | 358 | 73 | 2025-09-12 – 2026-09-19 | 2026-09-30 · Stopped by choice after the most recent year: read 21,001 of 125,314 archived links; 9283 reposts or others' posts left out |
 | [@bobmcgrewai](bobmcgrewai.md) | ? | 41 |  | 41 | 0 | 7 | 5 | 2019-05-23 – 2025-12-02 | 2026-09-30 · 88 reposts or others' posts left out |
 | [@npew](npew.md) | ? | 446 |  | 446 | 0 | 39 | 23 | 2019-09-18 – 2026-05-15 | 2026-09-30 · 325 reposts or others' posts left out |
 | [@embirico](embirico.md) | ? | 1,038 |  | 1,038 | 0 | 6 | 74 | 2013-01-17 – 2026-05-01 | 2026-09-30 · 19 reposts or others' posts left out |
@@ -85,7 +85,7 @@ has posted, reposts included, so the share archived is a floor.
 | [@fish_kyle3](fish_kyle3.md) | ? | 11 |  | 11 | 0 | 0 | 5 | 2021-12-09 – 2026-04-07 | 2026-09-30 · 4 reposts or others' posts left out |
 | [@Jack_W_Lindsey](Jack_W_Lindsey.md) | ? | 94 |  | 94 | 0 | 5 | 21 | 2019-03-03 – 2026-07-06 | 2026-09-30 · 6 reposts or others' posts left out |
 | [@TrentonBricken](TrentonBricken.md) | ? | 576 |  | 576 | 0 | 45 | 53 | 2019-09-08 – 2026-04-07 | 2026-09-30 · 80 reposts or others' posts left out |
-| **All 77 swept** | | 208,594 | | 104,282 | 104,312 | 8,655 | 13,588 | | |
+| **All 77 swept** | | 104,282 | | 104,282 | 0 | 8,655 | 13,588 | | |
 
 For the 11 fully read account(s) whose post total is known, the archive holds 43% of their 36,150 posts. X wouldn't give the total for the rest ("?"); "pending" means some posts are still unread.
 
