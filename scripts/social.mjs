@@ -1,7 +1,7 @@
 // Finding posts by in-scope accounts: Wayback Machine CDX (free, includes
 // deleted posts), X API v2 (needs a bearer token), and Bluesky (public API,
 // optional app password). Pure helpers are exported for tests.
-import { decodeEntities, fetchWithTimeout, fetchXPost, normalizeText, sleep } from './web.mjs';
+import { decodeEntities, fetchWithTimeout, fetchXPost, fetchXPostDetails, normalizeText, sleep } from './web.mjs';
 
 // ── X post ids ───────────────────────────────────────────────────────────
 const TWITTER_EPOCH = 1288834974657n;
@@ -22,19 +22,28 @@ export function xStatusId(url) {
   return m ? m[1] : null;
 }
 
-/** Turn Wayback CDX JSON rows into one candidate per post id, with post dates from the id. */
+/**
+ * Turn Wayback CDX JSON rows into one candidate per post id, with post dates
+ * from the id. Keeps the earliest capture that loaded (HTTP 200), else the
+ * earliest capture of any kind. Newest post first.
+ */
 export function parseCdxRows(rows, handle) {
   const [header, ...data] = Array.isArray(rows) ? rows : [];
   if (!header) return [];
   const col = Object.fromEntries(header.map((h, i) => [h, i]));
   const byId = new Map();
   for (const row of data) {
+    if (!Array.isArray(row) || row.length < header.length) continue;
     const original = row[col.original];
     const id = xStatusId(original);
     if (!id) continue;
     const ts = row[col.timestamp];
+    const status = col.statuscode === undefined ? '200' : row[col.statuscode];
     const prev = byId.get(id);
-    if (prev && prev.archived_at <= ts) continue; // keep the earliest capture
+    if (prev) {
+      const better = (status === '200') !== (prev.archived_status === '200') ? status === '200' : ts < prev.archived_at;
+      if (!better) continue;
+    }
     const date = snowflakeDate(id);
     byId.set(id, {
       id,
@@ -42,11 +51,33 @@ export function parseCdxRows(rows, handle) {
       url: `https://x.com/${handle}/status/${id}`,
       date: date ? date.toISOString().slice(0, 10) : null,
       archived_at: ts,
+      archived_status: status,
       archive: `https://web.archive.org/web/${ts}/${original}`,
       archive_raw: `https://web.archive.org/web/${ts}id_/${original}`,
     });
   }
-  return [...byId.values()].sort((a, b) => (a.date || '').localeCompare(b.date || ''));
+  return [...byId.values()].sort(newestFirst);
+}
+
+/** Order posts newest first by id (ids grow with time; comparing them as strings does not work). */
+export function newestFirst(a, b) {
+  const x = BigInt(a.id), y = BigInt(b.id);
+  return x === y ? 0 : x > y ? -1 : 1;
+}
+
+/**
+ * Split a CDX JSON page into its rows and the resume key for the next page.
+ * With showResumeKey=true the server ends a page that has more after it with
+ * an empty row and then a one-item row holding the key.
+ */
+export function splitCdxResume(rows) {
+  if (!Array.isArray(rows) || rows.length < 2) return { rows: Array.isArray(rows) ? rows : [], resumeKey: null };
+  const last = rows[rows.length - 1];
+  const beforeLast = rows[rows.length - 2];
+  if (Array.isArray(last) && last.length === 1 && Array.isArray(beforeLast) && beforeLast.length === 0) {
+    return { rows: rows.slice(0, -2), resumeKey: last[0] };
+  }
+  return { rows, resumeKey: null };
 }
 
 /** Pull the post text out of an archived X/Twitter page (server-rendered og:description, used before 2023). */
@@ -59,48 +90,118 @@ export function textFromArchivedPost(html) {
 }
 
 // ── Wayback CDX ──────────────────────────────────────────────────────────
-/** List archived post URLs for an X account, across twitter.com and x.com. */
-export async function waybackPosts(handle, { from, to, limit = 5000 } = {}) {
-  const out = new Map();
-  for (const host of ['twitter.com', 'x.com']) {
-    const params = new URLSearchParams({
-      url: `${host}/${handle}/status/`,
-      matchType: 'prefix',
-      output: 'json',
-      fl: 'timestamp,original,statuscode',
-      filter: 'statuscode:200',
-      collapse: 'urlkey',
-      limit: String(limit),
-    });
-    // CDX's from/to filter on capture time, which is never before the post: a lower bound is safe.
-    if (from) params.set('from', from.replace(/-/g, ''));
-    const res = await fetchWithTimeout(`https://web.archive.org/cdx/search/cdx?${params}`, { timeout: 90000, headers: { accept: 'application/json' } });
-    if (!res.ok) throw new Error(`Wayback CDX returned HTTP ${res.status} for ${host}/${handle}`);
-    const text = await res.text();
-    const rows = text.trim() ? JSON.parse(text) : [];
-    for (const c of parseCdxRows(rows, handle)) if (!out.has(c.id) || out.get(c.id).archived_at > c.archived_at) out.set(c.id, c);
-    await sleep(1500);
+// Every URL form X posts have been archived under. twitter.com also covers
+// www.twitter.com: the index folds "www." away.
+export const cdxPrefixes = (handle) => [
+  `twitter.com/${handle}/status/`,
+  `twitter.com/${handle}/statuses/`,
+  `mobile.twitter.com/${handle}/status/`,
+  `x.com/${handle}/status/`,
+];
+
+/** Fetch with retries for rate limits, server errors and dropped connections. */
+async function fetchPatiently(url, opts, { tries = 5, wait = 20000 } = {}) {
+  for (let attempt = 1; ; attempt++) {
+    try {
+      const res = await fetchWithTimeout(url, opts);
+      if ((res.status === 429 || res.status >= 500) && attempt < tries) {
+        await sleep(wait * attempt);
+        continue;
+      }
+      return res;
+    } catch (err) {
+      if (attempt >= tries) throw err;
+      await sleep(wait * attempt);
+    }
   }
-  return [...out.values()].filter((c) => (!from || (c.date && c.date >= from)) && (!to || (c.date && c.date <= to)));
 }
 
 /**
- * Fill in the text of a candidate: first from the live post (X's oEmbed),
- * then from the archived copy. A live 404 with an archived copy suggests the
- * post was deleted or the account made private.
+ * List every archived post URL for an X account, across all URL forms, page by
+ * page so no account is cut short. Newest post first.
+ */
+export async function waybackPosts(handle, { from, to, pageSize = 10000, onPage } = {}) {
+  const all = [];
+  for (const prefix of cdxPrefixes(handle)) {
+    let resumeKey = null;
+    let pages = 0;
+    do {
+      const params = new URLSearchParams({
+        url: prefix,
+        matchType: 'prefix',
+        output: 'json',
+        fl: 'timestamp,original,statuscode',
+        filter: 'statuscode:[23]..',
+        collapse: 'urlkey',
+        limit: String(pageSize),
+        showResumeKey: 'true',
+      });
+      // CDX's from/to filter on capture time, which is never before the post: a lower bound is safe.
+      if (from) params.set('from', from.replace(/-/g, ''));
+      if (resumeKey) params.set('resumeKey', resumeKey);
+      const res = await fetchPatiently(`https://web.archive.org/cdx/search/cdx?${params}`, { timeout: 180000, headers: { accept: 'application/json' } });
+      if (!res.ok) throw new Error(`Wayback CDX returned HTTP ${res.status} for ${prefix}`);
+      const text = await res.text();
+      const page = splitCdxResume(text.trim() ? JSON.parse(text) : []);
+      // Pages start with the header row; keep it once.
+      const isHeader = (r) => Array.isArray(r) && r[0] === 'timestamp';
+      if (!all.length) all.push(['timestamp', 'original', 'statuscode']);
+      all.push(...page.rows.filter((r) => !isHeader(r)));
+      pages++;
+      onPage?.({ prefix, pages, rows: all.length - 1 });
+      resumeKey = page.resumeKey !== resumeKey ? page.resumeKey : null;
+      await sleep(1500);
+    } while (resumeKey && pages < 2000);
+  }
+  return parseCdxRows(all, handle).filter((c) => (!from || (c.date && c.date >= from)) && (!to || (c.date && c.date <= to)));
+}
+
+/**
+ * An account's public profile through X's embed endpoint: display name and
+ * how many posts it has made (including reposts). Null when X won't say.
+ */
+export async function fetchXProfile(handle) {
+  const res = await fetchPatiently(`https://syndication.twitter.com/srv/timeline-profile/screen-name/${encodeURIComponent(handle)}`, { timeout: 30000 }, { tries: 4, wait: 60000 });
+  if (!res.ok) return null;
+  const m = /<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/.exec(await res.text());
+  if (!m) return null;
+  const entries = JSON.parse(m[1])?.props?.pageProps?.timeline?.entries ?? [];
+  const user = entries.map((e) => e.content?.tweet?.user).find((u) => u?.screen_name?.toLowerCase() === handle.toLowerCase());
+  return user ? { name: user.name, posts: user.statuses_count ?? null, protected: !!user.protected } : null;
+}
+
+/**
+ * Fill in the text of a candidate: first from X's embed data (full text of
+ * long posts, the post it quotes, who it replies to), then from oEmbed, then
+ * from the archived copy. A live 404 with an archived copy suggests the post
+ * was deleted or the account made private.
  */
 export async function hydrateXCandidate(c) {
   try {
-    const live = await fetchXPost(c.url);
-    c.live_status = live.status;
-    if (live.ok) {
-      c.text = live.text;
+    const d = await fetchXPostDetails(c.id);
+    c.live_status = d.status;
+    if (d.ok) {
+      c.text = d.text;
+      if (d.raw?.in_reply_to_screen_name) c.reply_to = d.raw.in_reply_to_screen_name;
+      if (d.quoted) c.quoted = { url: d.quoted.url, text: d.quoted.text };
       return c;
     }
-    if (live.status === 404) c.possibly_deleted = true;
   } catch (err) {
     c.live_status = `error: ${err.message}`;
   }
+  if (![404, 410].includes(c.live_status)) {
+    try {
+      const live = await fetchXPost(c.url);
+      c.live_status = live.status;
+      if (live.ok) {
+        c.text = live.text;
+        return c;
+      }
+    } catch (err) {
+      c.live_status = `error: ${err.message}`;
+    }
+  }
+  if ([404, 410].includes(c.live_status)) c.possibly_deleted = true;
   try {
     const res = await fetchWithTimeout(c.archive_raw, { timeout: 45000 });
     if (res.ok) c.text = textFromArchivedPost(await res.text());
