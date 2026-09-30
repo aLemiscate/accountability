@@ -1,0 +1,281 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 175,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2025-08-05T17:55:53.000Z",
+  "display_text_range": [
+    0,
+    276
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/2RuZicw65j",
+        "expanded_url": "https://x.com/sjgadler/status/1952790678175662527/photo/1",
+        "indices": [
+          277,
+          300
+        ],
+        "url": "https://t.co/2RuZicw65j"
+      }
+    ]
+  },
+  "id_str": "1952790678175662527",
+  "text": "Credit where it's due:\nOpenAl did a lot right for their OSS safety evals\n- they actually did some fine-tuning\n- they got useful external feedback\n- they shared which recs they adopted and which they didn't\n\nI don't always follow OAI's rationale, but it's great they share info https://t.co/2RuZicw65j",
+  "user": {
+    "id_str": "955972371520937985",
+    "name": "Steven Adler",
+    "screen_name": "sjgadler",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1975436697040269312/vCGKjpxB_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1952790678175662527"
+    ],
+    "editable_until_msecs": "1754420153000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/2RuZicw65j",
+      "expanded_url": "https://x.com/sjgadler/status/1952790678175662527/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        277,
+        300
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/Gxm0VtEawAERhgX.png",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 545,
+            "w": 974,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 648,
+            "w": 648,
+            "x": 163,
+            "y": 0
+          },
+          {
+            "h": 648,
+            "w": 568,
+            "x": 203,
+            "y": 0
+          },
+          {
+            "h": 648,
+            "w": 324,
+            "x": 325,
+            "y": 0
+          },
+          {
+            "h": 648,
+            "w": 974,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 648,
+        "width": 974
+      },
+      "sizes": {
+        "large": {
+          "h": 648,
+          "resize": "fit",
+          "w": 974
+        },
+        "medium": {
+          "h": 648,
+          "resize": "fit",
+          "w": 974
+        },
+        "small": {
+          "h": 452,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/2RuZicw65j"
+    },
+    {
+      "display_url": "pic.x.com/2RuZicw65j",
+      "expanded_url": "https://x.com/sjgadler/status/1952790678175662527/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        277,
+        300
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/Gxm0WgVawAQrpL6.jpg",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 356,
+            "w": 636,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 356,
+            "w": 356,
+            "x": 52,
+            "y": 0
+          },
+          {
+            "h": 356,
+            "w": 312,
+            "x": 74,
+            "y": 0
+          },
+          {
+            "h": 356,
+            "w": 178,
+            "x": 141,
+            "y": 0
+          },
+          {
+            "h": 356,
+            "w": 1318,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 356,
+        "width": 1318
+      },
+      "sizes": {
+        "large": {
+          "h": 356,
+          "resize": "fit",
+          "w": 1318
+        },
+        "medium": {
+          "h": 324,
+          "resize": "fit",
+          "w": 1200
+        },
+        "small": {
+          "h": 184,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/2RuZicw65j"
+    }
+  ],
+  "photos": [
+    {
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 545,
+          "w": 974,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 648,
+          "w": 648,
+          "x": 163,
+          "y": 0
+        },
+        {
+          "h": 648,
+          "w": 568,
+          "x": 203,
+          "y": 0
+        },
+        {
+          "h": 648,
+          "w": 324,
+          "x": 325,
+          "y": 0
+        },
+        {
+          "h": 648,
+          "w": 974,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/sjgadler/status/1952790678175662527/photo/1",
+      "url": "https://pbs.twimg.com/media/Gxm0VtEawAERhgX.png",
+      "width": 974,
+      "height": 648
+    },
+    {
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 356,
+          "w": 636,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 356,
+          "w": 356,
+          "x": 52,
+          "y": 0
+        },
+        {
+          "h": 356,
+          "w": 312,
+          "x": 74,
+          "y": 0
+        },
+        {
+          "h": 356,
+          "w": 178,
+          "x": 141,
+          "y": 0
+        },
+        {
+          "h": 356,
+          "w": 1318,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/sjgadler/status/1952790678175662527/photo/1",
+      "url": "https://pbs.twimg.com/media/Gxm0WgVawAQrpL6.jpg",
+      "width": 1318,
+      "height": 356
+    }
+  ],
+  "conversation_count": 2,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

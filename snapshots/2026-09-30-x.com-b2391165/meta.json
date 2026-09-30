@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/OpenAI/status/920684033582841856",
+  "captured_at": "2026-09-30T13:09:32.052Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "a21fcb1471c2a297f9406f6f17ea024eb68c91f17facfe1104593c959e258b9f",
+    "page.txt": "90d3c93b4b53a88c2fbf8964e9bf146151cd7bed538ba5841532f27b8488f324",
+    "post.json": "24523406d97b9aab3eb31c0ec34bdf3665b9fdbe10c469bc282279264c1ca79c",
+    "syndication.json": "a10a0bfe2ea7afaa7799a2990ed0efeb49d5cd809a2313220766289ec05cd0aa",
+    "post.txt": "552f4fdd83a939705863e22c660343002ce850bff5fa56fb4b4108b1c78c7c66"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/920684033582841856",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"Building advanced AI and only then making it safe is like building the internet and later trying to make it secure: https://t.co/Zib5CWr257\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "October 18, 2017",
+    "posted_at": "2017-10-18T16:12:33.745Z"
+  }
+}

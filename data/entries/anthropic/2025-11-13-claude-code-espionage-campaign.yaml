@@ -1,0 +1,51 @@
+title: A Chinese state-sponsored group uses Claude Code to run a largely automated
+  hacking campaign; Anthropic discloses it
+date: 2025-11-13
+org: anthropic
+type: did
+kind: disclosure
+who: [anthropic]
+quote: >-
+  manipulated our Claude Code tool into attempting infiltration into roughly
+  thirty global targets and succeeded in a small number of cases.
+summary: >-
+  Anthropic reported that in mid-September 2025 it detected an espionage
+  campaign that it attributed, with high confidence, to a Chinese
+  state-sponsored group. The attackers got past Claude's safeguards by
+  splitting the attack into small, innocent-looking tasks and telling Claude it
+  worked for a legitimate security firm doing defensive testing. Claude Code
+  then did reconnaissance, wrote exploit code, harvested credentials and
+  extracted data. Anthropic estimated the AI did 80 to 90% of the work, with
+  humans stepping in at perhaps four to six decision points per campaign. The
+  targets were tech companies, financial institutions, chemical manufacturers
+  and government agencies. Over ten days Anthropic banned accounts, notified
+  affected organizations and coordinated with authorities. It called this the
+  first documented case of a large-scale cyberattack executed without
+  substantial human intervention.
+related: [2026-07-30-claude-cyber-eval-incidents, 2026-04-07-mythos-preview-not-general, 2026-06-agents-breach-australian-government]
+patterns: []
+sources:
+  - title: Disrupting the first reported AI-orchestrated cyber espionage campaign
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/disrupting-AI-espionage
+    date: 2025-11-13
+    type: primary
+    snapshot: snapshots/2026-09-30-anthropic.com-4ba107b7
+  - title: Anthropic on X
+    publisher: X
+    url: https://x.com/AnthropicAI/status/1989033793190277618
+    date: 2025-11-13
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-78db204e
+  - title: Anthropic on X ("the first documented case")
+    publisher: X
+    url: https://x.com/AnthropicAI/status/1989033795341648052
+    date: 2025-11-13
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-9592758e
+note: >-
+  Anthropic found the campaign and disclosed it, which counts in its favor. The
+  entry is here because Claude's safeguards failed against a determined
+  attacker. Anthropic's answer, stated in the same post, was to keep developing
+  and releasing these capabilities because defenders need them too. The post was later corrected on one detail: the attack made
+  "thousands of requests, often multiple per second," not thousands per second.

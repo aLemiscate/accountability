@@ -17,9 +17,10 @@ concreteness: conditional
 status: open
 breaks_if: >-
   Credible reporting of OpenAI models used in domestic surveillance of U.S.
-  persons; a later amendment that narrows the prohibition; or a change in law or
-  Pentagon policy that makes a prohibited use "lawful" while OpenAI keeps the
-  contract.
+  persons; deployment to the NSA or other intelligence agencies before the
+  loopholes OpenAI acknowledged are addressed; a later amendment that narrows
+  the prohibition; or a change in law or Pentagon policy that makes a
+  prohibited use "lawful" while OpenAI keeps the contract.
 patterns: [unfalsifiable]
 sources:
   - title: Sam Altman on X (re-post of an internal memo on the amendments)
@@ -48,6 +49,28 @@ response: >-
   relevant policy directive or law: "That's what we did." The contract text has
   not been published, so this can't be checked.
 updates:
+  - date: 2026-03-03
+    text: >-
+      OpenAI researcher Noam Brown, who had earlier relayed that "The contract
+      does not allow NSA Title 50 work," wrote that "the original language in
+      the OpenAI / DoW agreement left legitimate questions unanswered,
+      especially around some novel ways that AI could potentially enable legal
+      surveillance," and that deployment "to the NSA and all other DoW
+      intelligence agencies will be withheld so that there is time to address
+      these loopholes through the democratic process before deployment."
+    sources:
+      - title: Noam Brown on X ("will not be deploying to the NSA")
+        publisher: X
+        url: https://x.com/polynoamial/status/2028643577165963465
+        date: 2026-03-03
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-159b71fe
+      - title: Noam Brown on X ("does not allow NSA Title 50 work")
+        publisher: X
+        url: https://x.com/polynoamial/status/2028124576337756358
+        date: 2026-03-01
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-9152129f
   - date: 2026-03-03
     text: >-
       Katrina Mulligan, OpenAI's head of national security, had pledged a
