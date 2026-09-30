@@ -1,0 +1,187 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 1282,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2024-04-23T15:01:32.000Z",
+  "display_text_range": [
+    0,
+    154
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/bnWSt13tfj",
+        "expanded_url": "https://x.com/OpenAI/status/1782786891508748433/photo/1",
+        "indices": [
+          155,
+          178
+        ],
+        "url": "https://t.co/bnWSt13tfj"
+      }
+    ],
+    "user_mentions": [
+      {
+        "id_str": "103734037",
+        "indices": [
+          13,
+          19
+        ],
+        "name": "Thorn",
+        "screen_name": "thorn"
+      },
+      {
+        "id_str": "956013326185746432",
+        "indices": [
+          24,
+          39
+        ],
+        "name": "All Tech Is Human",
+        "screen_name": "AllTechIsHuman"
+      }
+    ]
+  },
+  "id_str": "1782786891508748433",
+  "text": "We commit to @thorn and @AllTechIsHuman's Safety by Design principles to ensure child safety is prioritized in the development and deployment of AI tools. https://t.co/bnWSt13tfj",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1782786891508748433"
+    ],
+    "editable_until_msecs": "1713888092000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/bnWSt13tfj",
+      "expanded_url": "https://x.com/OpenAI/status/1782786891508748433/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        155,
+        178
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/GL26-39bcAAchM4.jpg",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 672,
+            "w": 1200,
+            "x": 0,
+            "y": 528
+          },
+          {
+            "h": 1200,
+            "w": 1200,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1200,
+            "w": 1053,
+            "x": 74,
+            "y": 0
+          },
+          {
+            "h": 1200,
+            "w": 600,
+            "x": 300,
+            "y": 0
+          },
+          {
+            "h": 1200,
+            "w": 1200,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 1200,
+        "width": 1200
+      },
+      "sizes": {
+        "large": {
+          "h": 1200,
+          "resize": "fit",
+          "w": 1200
+        },
+        "medium": {
+          "h": 1200,
+          "resize": "fit",
+          "w": 1200
+        },
+        "small": {
+          "h": 680,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/bnWSt13tfj"
+    }
+  ],
+  "photos": [
+    {
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 672,
+          "w": 1200,
+          "x": 0,
+          "y": 528
+        },
+        {
+          "h": 1200,
+          "w": 1200,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 1200,
+          "w": 1053,
+          "x": 74,
+          "y": 0
+        },
+        {
+          "h": 1200,
+          "w": 600,
+          "x": 300,
+          "y": 0
+        },
+        {
+          "h": 1200,
+          "w": 1200,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/OpenAI/status/1782786891508748433/photo/1",
+      "url": "https://pbs.twimg.com/media/GL26-39bcAAchM4.jpg",
+      "width": 1200,
+      "height": 1200
+    }
+  ],
+  "conversation_count": 286,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

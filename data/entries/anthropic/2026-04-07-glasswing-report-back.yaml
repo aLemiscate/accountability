@@ -1,0 +1,69 @@
+title: 'Anthropic promises to "report back what we learn" from giving Mythos to
+  software defenders'
+date: 2026-04-07
+org: anthropic
+type: said
+kind: commitment
+who: [anthropic]
+venue: Project Glasswing launch
+quote: >-
+  We’re committing up to $100M in Mythos Preview usage credits for our partners
+  and over 40 other organizations that maintain critical software, including
+  open-source projects. Anthropic will report back what we learn.
+summary: >-
+  Launching Claude Mythos Preview only to a limited group of companies and
+  maintainers of critical software, Anthropic committed up to $100 million in
+  usage credits and $4 million in donations to open-source security groups, and
+  said it would share what it learned so "the whole industry can benefit."
+concreteness: directional
+status: kept
+breaks_if: >-
+  No public account of the results, or a report that omits bad news such as
+  false positives or unpatched findings.
+patterns: []
+related: [2026-04-07-mythos-preview-not-general]
+sources:
+  - title: Anthropic on X
+    publisher: X
+    url: https://x.com/AnthropicAI/status/2041578412653900255
+    date: 2026-04-07
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-15d11a2f
+  - title: 'Project Glasswing: Securing critical software for the AI era'
+    publisher: Anthropic
+    url: https://www.anthropic.com/glasswing
+    date: 2026-04-07
+    type: primary
+    snapshot: snapshots/2026-09-30-anthropic.com-b0e28418
+updates:
+  - date: 2026-05-22
+    text: >-
+      Anthropic published an initial update. It reported that partners had
+      found more than 10,000 high- or critical-severity vulnerabilities, and
+      that its own scan of over 1,000 open-source projects had turned up an
+      estimated 23,019 findings, 6,202 of them rated high or critical by the
+      model. It said verifying, disclosing and patching was now the bottleneck,
+      and it started a public disclosure ledger.
+    sources:
+      - title: 'Project Glasswing: An initial update'
+        publisher: Anthropic
+        url: https://www.anthropic.com/research/glasswing-initial-update
+        date: 2026-05-22
+        type: primary
+        snapshot: snapshots/2026-09-30-anthropic.com-9d44573c
+  - date: 2026-09-08
+    text: >-
+      Reading Anthropic's updated ledger, the security firm VulnCheck counted
+      26,153 findings. Of those, 2,736 had reached the ledger, 202 had been
+      fixed, and 245 had been withdrawn. It also found that Claude's severity
+      ratings ran higher than maintainers'.
+    sources:
+      - title: The Anthropic Glasswing Receipts Are Starting to Trickle In
+        publisher: VulnCheck
+        url: https://www.vulncheck.com/blog/anthropic-glasswing-receipts
+        date: 2026-09-08
+        type: analysis
+        snapshot: snapshots/2026-09-30-vulncheck.com-737c4d90
+note: >-
+  Kept: Anthropic reported back, and its ledger is public enough for outsiders
+  to check the numbers, which is how the less flattering figures came out.

@@ -1,0 +1,76 @@
+Blog & News
+News
+Thorn and All Tech Is Human Forge Generative AI Principles with AI Leaders to Enact Strong Child Safety Commitments
+July 16, 2024
+11 Minute Read
+Share
+Facebook
+Twitter
+LinkedIn
+Originally published April 2024
+We are at a crossroads with generative artificial intelligence (generative AI).
+In the same way that the internet accelerated offline and online sexual harms against children, misuse of generative AI presents a profound threat to child safety — with implications across child victimization, victim identification, abuse proliferation and more.
+This misuse, and its associated downstream harm, is already occurring — within our very own communities .
+Yet, we find ourselves in a rare moment — a window of opportunity — to still go down the right path with generative AI and ensure children are protected as the technology is built.
+In a show of powerful collective action, some of the world’s most influential AI leaders have chosen to do just that.
+In collaboration with Thorn and All Tech Is Human, Amazon , Anthropic , Civitai , Google , Invoke , Meta , Metaphysic , Microsoft , Mistral AI , OpenAI , and Stability AI have publicly committed to Safety by Design principles. These principles guard against the creation and spread of AI-generated child sexual abuse material (AIG-CSAM) and other sexual harms against children.
+The companies’ pledges set a groundbreaking precedent for the industry and represent a significant leap in efforts to defend children from sexual abuse as a future with generative AI unfolds.
+The paper “Safety by Design for Generative AI: Preventing Child Sexual Abuse” outlines these collectively defined principles. Written by Thorn, All Tech Is Human, and select participating companies, the paper further defines mitigations and actionable strategies that AI developers, providers, data-hosting platforms, social platforms, and search engines may take to implement these principles.
+As part of their commitment to the principles, the companies have also agreed to transparently publish and share documentation of their progress acting on the principles.
+By integrating Safety by Design principles into their generative AI technologies and products, these companies are not only protecting children but also leading the charge in ethical AI innovation.
+The commitments come not a moment too soon.
+Misuse of generative AI is already accelerating child sexual abuse
+Generative AI makes creating volumes of content easier now than ever before. The technology unlocks the ability for a single child predator to quickly create child sexual abuse material (CSAM) at scale. These bad actors may adapt original images and videos into new abuse material, revictimizing the child in that content, or manipulate benign material of children into sexualized content, or create fully AI-generated CSAM.
+In 2023, more than 104 million files of suspected CSAM were reported in the US. An influx of AIG-CSAM poses significant risks to an already taxed child safety ecosystem, exacerbating the challenges faced by law enforcement in identifying and rescuing existing victims of abuse, and scaling new victimization of more children.
+Generative AI can be used to sexually exploit children in many ways:
+• Impede efforts to identify child victims
+Victim identification is already a needle-in-the-haystack problem for law enforcement: sifting through huge amounts of content to find the child in active harm’s way. The expanding prevalence of AIG-CSAM only increases that haystack, making victim identification more difficult.
+• Create new ways to victimize and re-victimize children
+Bad actors can now easily generate new abuse material of children, and/or sexualize benign imagery of a child. They make these images match the exact likeness of a particular child, but produce new poses, acts and egregious content like sexual violence. Predators also use generative AI to scale grooming and sextortion efforts.
+• Reduces social and technical barriers to sexualizing minors
+The ease of creating AIG-CSAM, and the ability to do so without the victim’s involvement or knowledge, may perpetuate the misconception of this content being “harmless”. Bad actors may use this technology to produce AIG-CSAM and other sexualizing content from non-explicit imagery of minors or of wholly fictional minors.
+• Enable information sharing among child sexual predators
+Generative AI models can provide bad actors with instructions for hands-on sexual abuse of a child, information on coercion , details on destroying evidence and manipulating artifacts of abuse, or advice on ensuring victims don’t disclose.
+The prevalence of AIG-CSAM is small, but growing. The need for a proactive response to protect children is clear. The Safety by Design working group addresses that need.
+Safety by Design principles for each stage in the AI lifecycle
+The Safety by Design principles guard against the creation and spread of AIG-CSAM and other sexual harms against children throughout the AI lifecycle.
+Safety by Design is a proactive approach to product design. It requires that companies anticipate where threats may occur during the development process and design in the necessary safeguards — rather than retrofit solutions after harm has occurred.
+Each stage in the AI process — from development to deployment to maintenance — carries its own set of opportunities for preventing and mitigating sexual harms against children. The principles outline safety protocols unique to those stages.
+In April 2024, Amazon, Anthropic, Civitai, Google, Meta, Metaphysic, Microsoft, Mistral AI, OpenAI, and Stability AI agreed to the Safety by Design principles. In July, Invoke joined the group. Each of these companies have committed to the following:
+Develop, build and train generative AI models that proactively address child safety risks.
+• Responsibly source your training datasets, and safeguard them from CSAM and CSEM : This is essential to helping prevent generative models from producing AIG-CSAM and CSEM. The presence of CSAM and CSEM in training datasets for generative models is one avenue in which these models are able to reproduce this type of abusive content. For some models, their compositional generalization capabilities further allow them to combine concepts (e.g. adult sexual content and non-sexual depictions of children) to then produce AIG-CSAM. Avoid or mitigate training data with a known risk of containing CSAM and CSEM. Detect and remove CSAM and CSEM from your training data, and report any confirmed CSAM to the relevant authorities. Address the risk of creating AIG-CSAM that is posed by having depictions of children alongside adult sexual content in your video, images and audio generation training datasets.
+• Incorporate feedback loops and iterative stress-testing strategies in your development process : Continuous learning and testing to understand a model’s capabilities to produce abusive content is key in effectively combating the adversarial misuse of these models downstream. If you don’t stress test your models for these capabilities, bad actors will do so regardless. Conduct structured, scalable and consistent stress testing of your models throughout the development process for their capability to produce AIG-CSAM and CSEM within the bounds of law, and integrate these findings back into model training and development to improve safety assurance for your generative AI products and systems.
+• Employ content provenance with adversarial misuse in mind : Bad actors use generative AI to create AIG-CSAM. This content is photorealistic, and can be produced at scale. Victim identification is already a needle in the haystack problem for law enforcement: sifting through huge amounts of content to find the child in active harm’s way. The expanding prevalence of AIG-CSAM is growing that haystack even further. Content provenance solutions that can be used to reliably discern whether content is AI-generated will be crucial to effectively respond to AIG-CSAM. Develop state of the art media provenance or detection solutions for your tools that generate images and videos. Deploy solutions to address adversarial misuse, such as considering incorporating watermarking or other techniques that embed signals imperceptibly in the content as part of the image and video generation process, as technically feasible.
+Release and distribute generative AI models after they have been trained and evaluated for child safety, providing protections throughout the process.
+• Safeguard your generative AI products and services from abusive content and conduct : Generative AI products and services empower users to create and explore new horizons. These same users deserve to have that space of creation be free from fraud and abuse. Combat and respond to abusive content (CSAM, AIG-CSAM and CSEM) throughout your generative AI systems, and incorporate prevention efforts. Users’ voices are key: incorporate user reporting or feedback options to empower these users to build freely on your platforms.
+• Responsibly host your models : As models continue to achieve new capabilities and creative heights, a wide variety of deployment mechanisms manifests both opportunity and risk. Safety by design must encompass not just how your model is trained, but how your model is hosted. Responsibly host your first-party generative models, assessing them e.g. via red teaming or phased deployment for their potential to generate AIG-CSAM and CSEM, and implementing mitigations before hosting. Also responsibly host third party models in a way that minimizes the hosting of models that generate AIG-CSAM. Have clear rules and policies around the prohibition of models that generate child safety violative content.
+• Encourage developer ownership in safety by design : Developer creativity is the lifeblood of progress. This progress must come paired with a culture of ownership and responsibility. Encourage developer ownership in safety by design. Endeavor to provide information about your models, including a child safety section detailing steps taken to avoid the downstream misuse of the model to further sexual harms against children. Support the developer ecosystem in their efforts to address child safety risks.
+Maintain model and platform safety by continuing to actively understand and respond to child safety risks.
+• Prevent your services from scaling access to harmful tools : Bad actors have built models specifically to produce AIG-CSAM, in some cases targeting specific children to produce AIG-CSAM depicting their likeness. They also have built services that are used to “nudify” content of children, creating new AIG-CSAM. This is a severe violation of children’s rights. Remove from your platforms and search results these models and services.
+• Invest in research and future technology solutions : Combating child sexual abuse online is an ever-evolving threat, as bad actors adopt new technologies in their efforts. Effectively combating the misuse of generative AI to further child sexual abuse will require continued research to stay up to date with new harm vectors and threats. For example, new technology to protect user content from AI manipulation will be important to protecting children from online sexual abuse and exploitation. Invest in relevant research and technology development to address the use of generative AI for online child sexual abuse and exploitation. Seek to understand how your platforms, products and models are potentially being abused by bad actors. Maintain the quality of your mitigations to meet and overcome the new avenues of misuse that may materialize.
+• Fight CSAM, AIG-CSAM and CSEM on your platforms : Fight CSAM online and prevent your platforms from being used to create, store, solicit or distribute this material. As new threat vectors emerge, meet this moment. Detect and remove child safety violative content on your platforms. Disallow and combat CSAM, AIG-CSAM and CSEM on your platforms, and combat fraudulent uses of generative AI to sexually harm children.
+Additionally, Teleperformance is joining this collective moment in committing to support its clients in meeting these principles.
+The paper further details tangible mitigations that may be applied to enact these principles, where these mitigations take into account whether a company is open- or closed-source, as well as whether they’re an AI developer, provider, data hosting platform or other player in the AI ecosystem.
+The collective commitments by these AI leaders should be a call to action to the rest of the industry.
+We urge all companies developing, deploying, maintaining and using generative AI technologies and products to commit to adopting these Safety by Design principles and demonstrate their dedication to preventing the creation and spread of CSAM, AIG-CSAM, and other acts of child sexual abuse and exploitation.
+In doing so, together we’ll forge a safer internet and brighter future for kids, even as generative AI shifts the digital landscape all around us.
+Thorn’s generative AI initiatives, including its leading role in this Safety by Design working group, have been made possible by support from the Patrick J. McGovern Foundation.
+Join us and make your commitment: Contact us to start the conversation
+Get the latest delivered to your inbox
+Related Articles
+View All Blog Articles
+3 min read
+News
+Bringing critical child safety conversations to Capitol Hill
+Technology keeps changing, with every new evolution creating opportunities for misuse to harm young people. The systems made to protect children need to keep up. That concern recently brought Thorn […]
+Read Article
+3 min read
+News
+Why Thorn Supports the STOP CSAM Act
+Today, the scale of child sexual abuse material (CSAM) online is staggering. In 2025 alone, the National Center for Missing & Exploited Children (NCMEC) received over 21 million reports of […]
+Read Article
+6 min read
+News
+April 3 could create a dangerous gap in child safety across Europe
+April 3, 2026 update: The legal exemption has expired, leaving a crucial child safety gap in Europe. To find out more about what this means for platform safety, please visit […]
+Read Article
