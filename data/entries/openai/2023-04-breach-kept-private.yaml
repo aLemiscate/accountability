@@ -1,0 +1,42 @@
+title: A hacker steals AI design details from OpenAI's internal forum; OpenAI tells
+  neither the public nor the FBI
+date: 2023-04
+org: openai
+type: did
+kind: action
+who: [openai]
+summary: >-
+  According to The New York Times, in early 2023 a hacker got into an internal
+  online forum where OpenAI employees discussed the company's latest
+  technologies, and took details about the design of its AI systems. The
+  systems where OpenAI builds and houses its AI weren't reached. Executives told
+  employees at an all-hands meeting in April 2023 and told the board, but
+  didn't make the breach public because no customer or partner data was taken.
+  They didn't tell the FBI or other law enforcement because they believed the
+  hacker was a private individual with no known ties to a foreign government.
+  The breach became public 15 months later, when the Times reported it in July
+  2024.
+related: [2024-04-aschenbrenner-fired]
+patterns: []
+sources:
+  - title: OpenAI's Internal AI Details Stolen in 2023 Breach, NYT Reports
+    publisher: Insurance Journal (Reuters)
+    url: https://www.insurancejournal.com/news/national/2024/07/05/782601.htm
+    date: 2024-07-05
+    type: reporting
+    snapshot: snapshots/2026-09-30-insurancejournal.com-cf3dde7f
+  - title: 'OpenAI Did Not Disclose 2023 Breach to Feds, Public: Report'
+    publisher: GovInfoSecurity
+    url: https://www.govinfosecurity.com/openai-did-disclose-2023-breach-to-feds-public-report-a-25713
+    date: 2024-07-05
+    type: reporting
+    snapshot: snapshots/2026-09-30-govinfosecurity.com-87bde04a
+response: >-
+  OpenAI told the Times that it had "addressed and shared with our board" the
+  incident before Leopold Aschenbrenner joined the company, and disagreed with
+  his characterizations of its security.
+note: >-
+  No law required disclosure, since no customer data was taken. The entry is
+  here for the judgment call: OpenAI alone decided that a theft of AI design
+  details wasn't a national security matter, and the public learned of it from
+  the press.

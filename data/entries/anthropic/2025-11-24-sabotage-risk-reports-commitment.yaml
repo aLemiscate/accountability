@@ -1,0 +1,74 @@
+title: 'Standing promise: a sabotage risk report for every frontier model beyond
+  Opus 4.5'
+date: 2025-11-24
+org: anthropic
+type: said
+kind: commitment
+who: [anthropic]
+venue: Claude Opus 4.5 system card
+quote: >-
+  we’ve decided to commit to writing sabotage risk reports that meet this
+  standard for all future … frontier AI models that clearly exceed Claude Opus
+  4.5’s capabilities.
+summary: >-
+  Anthropic said Claude Opus 4.5 might not be far from the capability level at
+  which its Responsible Scaling Policy requires an argument that a model is
+  aligned or monitored well enough not to pose unacceptable risk from pursuing
+  misaligned goals. Rather than rely on evaluations near that edge, it
+  committed to publishing a sabotage risk report for every later frontier
+  model that clearly exceeds Opus 4.5.
+concreteness: measurable
+status: kept
+breaks_if: >-
+  Anthropic releases a frontier model that clearly exceeds Opus 4.5 without a
+  sabotage or alignment risk report of this kind.
+patterns: []
+related: [2026-02-10-opus-4-6-reasoning-not-trained, 2026-04-07-mythos-preview-not-general, 2026-08-14-risk-report-classifier-gap]
+sources:
+  - title: 'System Card: Claude Opus 4.5 (PDF), section 1.2.4.1'
+    publisher: Anthropic
+    url: https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf
+    date: 2025-11-24
+    type: primary
+    snapshot: snapshots/2026-09-30-assets.anthropic.com-c5a73309
+updates:
+  - date: 2026-02-10
+    text: >-
+      Anthropic published a sabotage risk report for Claude Opus 4.6, saying it
+      was "delivering on that commitment." The report rated the risk of
+      catastrophic sabotage "very low but not negligible."
+    sources:
+      - title: 'Sabotage Risk Report: Claude Opus 4.6'
+        publisher: Anthropic
+        url: https://www.anthropic.com/claude-opus-4-6-risk-report
+        date: 2026-02-10
+        type: primary
+        snapshot: snapshots/2026-09-30-anthropic.com-b22210c1
+      - title: Anthropic on X ("delivering on that commitment")
+        publisher: X
+        url: https://x.com/AnthropicAI/status/2021397952791707696
+        date: 2026-02-11
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-d379dcc3
+      - title: Anthropic on X ("preemptively meet the higher ASL-4 safety bar")
+        publisher: X
+        url: https://x.com/AnthropicAI/status/2021397953848672557
+        date: 2026-02-11
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-6eeba7b3
+  - date: 2026-04-07
+    text: >-
+      Anthropic published an "Alignment Risk Update" for Claude Mythos Preview
+      alongside its limited release. From August 2026, company-wide Risk
+      Reports under version 3 of the scaling policy also covered misalignment.
+    sources:
+      - title: 'Alignment Risk Update: Claude Mythos Preview'
+        publisher: Anthropic
+        url: https://www.anthropic.com/claude-mythos-preview-risk-report
+        date: 2026-04-07
+        type: primary
+        snapshot: snapshots/2026-09-30-anthropic.com-bc256abb
+note: >-
+  Kept so far. The reports themselves carry some of the record's most
+  important disclosures, including the one that contradicted a claim in the
+  first report (see related).

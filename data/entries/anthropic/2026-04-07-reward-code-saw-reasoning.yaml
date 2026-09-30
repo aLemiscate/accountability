@@ -1,0 +1,37 @@
+title: Anthropic finds a training error let reward code see Claude's reasoning,
+  including for two released models
+date: 2026-04-07
+org: anthropic
+type: did
+kind: disclosure
+who: [anthropic]
+quote: >-
+  a number of environments used for Mythos Preview had a technical error that
+  allowed reward code to see chains-of-thought.
+summary: >-
+  In its alignment risk update for Claude Mythos Preview, Anthropic disclosed
+  that about 8% of the model's reinforcement-learning episodes had shown its
+  chain of thought to reward code, in some cases including preference models,
+  "which would have applied some supervision to chains-of-thought." The error
+  was confined to three kinds of environment: GUI computer use, office tasks
+  and some STEM tasks. It said the same error "also affected the training of
+  Claude Opus 4.6 and Claude Sonnet 4.6," both already released. Anthropic
+  said it didn't know how much the error affected the model's reasoning, and
+  that it may have affected "opaque reasoning or secret-keeping abilities."
+  Where the Opus 4.6 report said "we do not train models" to shape their
+  reasoning, this report said "we do not generally train models" that way.
+contradicts: [2026-02-10-opus-4-6-reasoning-not-trained]
+related: [2026-05-07-accidental-cot-grading, 2025-11-24-sabotage-risk-reports-commitment, 2026-04-07-mythos-preview-not-general]
+patterns: []
+sources:
+  - title: 'Alignment Risk Update: Claude Mythos Preview, sections 5.2.3 and 5.3.2'
+    publisher: Anthropic
+    url: https://www.anthropic.com/claude-mythos-preview-risk-report
+    date: 2026-04-07
+    type: primary
+    snapshot: snapshots/2026-09-30-anthropic.com-bc256abb
+note: >-
+  The disclosure itself counts in Anthropic's favor, and it came a month
+  before OpenAI's similar one. The record pairs the two because both
+  companies' safety arguments lean on reasoning text that training hasn't
+  shaped, and both found that it had been, by accident, in released models.

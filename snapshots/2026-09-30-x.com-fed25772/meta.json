@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/sama/status/2085862292311396515",
+  "captured_at": "2026-09-30T12:59:10.154Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "c0ca8a146e486ebe1820010ee09da4469c48015c069617c7411e6ea9da8c0980",
+    "page.txt": "27c41192f5a00d38f75ba81832c414e01a93aac8bfa4344e3800b1cfa4495dd2",
+    "post.json": "b7d4f6441a62a4d640ccc50791b4731895911d96c2ed3ac571ed16ef219b579b",
+    "syndication.json": "6d6c839703b34d96c79e2eee3e6437b2799d7a625634ba3936a0a8888b8a2dbd",
+    "post.txt": "4e3851dc4ee0fcb1cdc949fdab38467eafff5748319eb7fbced7bda4be8ab646"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/2085862292311396515",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"astra is a powerful model and we are working to make it generally available. we do not think it is a good strategy to keep powerful models to a chosen few. given its cyber capabilities, we need a little big longer to do do this safely. but hopefully not too long!\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "August 7, 2026",
+    "posted_at": "2026-08-07T22:54:58.591Z"
+  }
+}

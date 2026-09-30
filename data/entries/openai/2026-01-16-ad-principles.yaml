@@ -42,6 +42,28 @@ sources:
     snapshot: snapshots/2026-09-30-x.com-38374a7e
 related: [2026-02-04-altman-never-run-ads-like-that]
 updates:
+  - date: 2026-02-11
+    text: >-
+      OpenAI researcher Zoë Hitzig, who had worked on safety policy and model
+      pricing, resigned on February 9 and explained why in a New York Times
+      essay, "OpenAI Is Making the Mistakes Facebook Made. I Quit." She wrote: "I believe the first iteration of ads
+      will probably follow those principles. But I'm worried subsequent
+      iterations won't, because the company is building an economic engine
+      that creates strong incentives to override its own rules." She called for
+      real oversight, "not a blog post of principles."
+    sources:
+      - title: OpenAI researcher quits over slippery slope of ChatGPT ads
+        publisher: SiliconANGLE
+        url: https://siliconangle.com/2026/02/11/openai-researcher-quits-slippery-slope-chatgpt-ads/
+        date: 2026-02-11
+        type: reporting
+        snapshot: snapshots/2026-09-30-siliconangle.com-14c9437d
+      - title: AI researchers are sounding the alarm on their way out the door
+        publisher: CNN
+        url: https://www.cnn.com/2026/02/11/business/openai-anthropic-departures-nightcap
+        date: 2026-02-11
+        type: reporting
+        snapshot: snapshots/2026-09-30-cnn.com-beb0c5d1
   - date: 2026-09-16
     text: >-
       With ChatGPT ads at a reported $1 billion annualized run rate, OpenAI

@@ -1,0 +1,314 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 5534,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2026-02-11T21:15:03.000Z",
+  "display_text_range": [
+    0,
+    276
+  ],
+  "entities": {
+    "urls": [
+      {
+        "display_url": "anthropic.com/news/covering-…",
+        "expanded_url": "https://www.anthropic.com/news/covering-electricity-price-increases",
+        "indices": [
+          253,
+          276
+        ],
+        "url": "https://t.co/avOFlvRNpa"
+      }
+    ]
+  },
+  "id_str": "2021694494215901314",
+  "text": "We're committing to cover electricity price increases from our data centers.\n\nTo ensure ratepayers aren’t picking up the tab, we'll pay 100% of grid upgrade costs, work to bring new power online, and invest in systems to reduce grid strain.\n\nRead more: https://t.co/avOFlvRNpa",
+  "user": {
+    "id_str": "1353836358901501952",
+    "name": "Anthropic",
+    "screen_name": "AnthropicAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2021694494215901314"
+    ],
+    "editable_until_msecs": "1770848103000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 281,
+  "news_action_type": "conversation",
+  "card": {
+    "card_platform": {
+      "platform": {
+        "audience": {
+          "name": "production"
+        },
+        "device": {
+          "name": "iPhone",
+          "version": "13"
+        }
+      }
+    },
+    "name": "summary_large_image",
+    "url": "https://t.co/avOFlvRNpa",
+    "binding_values": {
+      "photo_image_full_size_large": {
+        "image_value": {
+          "alt": "Hand with lightning bolt and head outline in stylized profile design",
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2105098473863622656/YG9PHpyN?format=jpg&name=800x419",
+          "width": 800
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image": {
+        "image_value": {
+          "alt": "Hand with lightning bolt and head outline in stylized profile design",
+          "height": 147,
+          "url": "https://pbs.twimg.com/card_img/2105098473863622656/YG9PHpyN?format=jpg&name=280x150",
+          "width": 280
+        },
+        "type": "IMAGE"
+      },
+      "description": {
+        "string_value": "Anthropic commits to covering consumer electricity price increases caused by its data centers, including grid upgrades and new power generation.",
+        "type": "STRING"
+      },
+      "domain": {
+        "string_value": "www.anthropic.com",
+        "type": "STRING"
+      },
+      "thumbnail_image_large": {
+        "image_value": {
+          "alt": "Hand with lightning bolt and head outline in stylized profile design",
+          "height": 316,
+          "url": "https://pbs.twimg.com/card_img/2105098473863622656/YG9PHpyN?format=jpg&name=600x600",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_small": {
+        "image_value": {
+          "alt": "Hand with lightning bolt and head outline in stylized profile design",
+          "height": 202,
+          "url": "https://pbs.twimg.com/card_img/2105098473863622656/YG9PHpyN?format=jpg&name=386x202",
+          "width": 386
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_original": {
+        "image_value": {
+          "alt": "Hand with lightning bolt and head outline in stylized profile design",
+          "height": 1000,
+          "url": "https://pbs.twimg.com/card_img/2105098473863622656/YG9PHpyN?format=jpg&name=orig",
+          "width": 1900
+        },
+        "type": "IMAGE"
+      },
+      "site": {
+        "scribe_key": "publisher_id",
+        "type": "USER",
+        "user_value": {
+          "id_str": "1353836358901501952",
+          "path": []
+        }
+      },
+      "photo_image_full_size_small": {
+        "image_value": {
+          "alt": "Hand with lightning bolt and head outline in stylized profile design",
+          "height": 202,
+          "url": "https://pbs.twimg.com/card_img/2105098473863622656/YG9PHpyN?format=jpg&name=386x202",
+          "width": 386
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_large": {
+        "image_value": {
+          "alt": "Hand with lightning bolt and head outline in stylized profile design",
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2105098473863622656/YG9PHpyN?format=jpg&name=800x419",
+          "width": 800
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_small": {
+        "image_value": {
+          "alt": "Hand with lightning bolt and head outline in stylized profile design",
+          "height": 76,
+          "url": "https://pbs.twimg.com/card_img/2105098473863622656/YG9PHpyN?format=jpg&name=144x144",
+          "width": 144
+        },
+        "type": "IMAGE"
+      },
+      "creator": {
+        "type": "USER",
+        "user_value": {
+          "id_str": "1353836358901501952",
+          "path": []
+        }
+      },
+      "thumbnail_image_x_large": {
+        "image_value": {
+          "alt": "Hand with lightning bolt and head outline in stylized profile design",
+          "height": 1000,
+          "url": "https://pbs.twimg.com/card_img/2105098473863622656/YG9PHpyN?format=png&name=2048x2048_2_exp",
+          "width": 1900
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_original": {
+        "image_value": {
+          "alt": "Hand with lightning bolt and head outline in stylized profile design",
+          "height": 1000,
+          "url": "https://pbs.twimg.com/card_img/2105098473863622656/YG9PHpyN?format=jpg&name=orig",
+          "width": 1900
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_alt_text": {
+        "string_value": "Hand with lightning bolt and head outline in stylized profile design",
+        "type": "STRING"
+      },
+      "vanity_url": {
+        "scribe_key": "vanity_url",
+        "string_value": "anthropic.com",
+        "type": "STRING"
+      },
+      "photo_image_full_size": {
+        "image_value": {
+          "alt": "Hand with lightning bolt and head outline in stylized profile design",
+          "height": 314,
+          "url": "https://pbs.twimg.com/card_img/2105098473863622656/YG9PHpyN?format=jpg&name=600x314",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_alt_text": {
+        "string_value": "Hand with lightning bolt and head outline in stylized profile design",
+        "type": "STRING"
+      },
+      "thumbnail_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 96.85,
+              "rgb": {
+                "blue": 202,
+                "green": 209,
+                "red": 188
+              }
+            },
+            {
+              "percentage": 2.02,
+              "rgb": {
+                "blue": 56,
+                "green": 59,
+                "red": 55
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "title": {
+        "string_value": "Covering electricity price increases",
+        "type": "STRING"
+      },
+      "summary_photo_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 96.85,
+              "rgb": {
+                "blue": 202,
+                "green": 209,
+                "red": 188
+              }
+            },
+            {
+              "percentage": 2.02,
+              "rgb": {
+                "blue": 56,
+                "green": 59,
+                "red": 55
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "summary_photo_image_x_large": {
+        "image_value": {
+          "alt": "Hand with lightning bolt and head outline in stylized profile design",
+          "height": 1000,
+          "url": "https://pbs.twimg.com/card_img/2105098473863622656/YG9PHpyN?format=png&name=2048x2048_2_exp",
+          "width": 1900
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image": {
+        "image_value": {
+          "alt": "Hand with lightning bolt and head outline in stylized profile design",
+          "height": 314,
+          "url": "https://pbs.twimg.com/card_img/2105098473863622656/YG9PHpyN?format=jpg&name=600x314",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 96.85,
+              "rgb": {
+                "blue": 202,
+                "green": 209,
+                "red": 188
+              }
+            },
+            {
+              "percentage": 2.02,
+              "rgb": {
+                "blue": 56,
+                "green": 59,
+                "red": 55
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "photo_image_full_size_x_large": {
+        "image_value": {
+          "alt": "Hand with lightning bolt and head outline in stylized profile design",
+          "height": 1000,
+          "url": "https://pbs.twimg.com/card_img/2105098473863622656/YG9PHpyN?format=png&name=2048x2048_2_exp",
+          "width": 1900
+        },
+        "type": "IMAGE"
+      },
+      "card_url": {
+        "scribe_key": "card_url",
+        "string_value": "https://t.co/avOFlvRNpa",
+        "type": "STRING"
+      },
+      "summary_photo_image_original": {
+        "image_value": {
+          "alt": "Hand with lightning bolt and head outline in stylized profile design",
+          "height": 1000,
+          "url": "https://pbs.twimg.com/card_img/2105098473863622656/YG9PHpyN?format=jpg&name=orig",
+          "width": 1900
+        },
+        "type": "IMAGE"
+      }
+    }
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

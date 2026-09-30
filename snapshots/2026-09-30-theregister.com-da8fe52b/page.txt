@@ -1,0 +1,135 @@
+ai and ml
+OpenAI pauses some training amid allegations its rogue agents behaved more badly than first thought
+Amid allegations that agents may have gone off the rails thousands of times, China set up some kind of agentic incident hotline
+Simon Sharwood
+Simon
+Sharwood
+APAC Editor
+Published
+mon 28 Sep 2026 // 06:30 UTC
+READ MORE
+•
+More than half of UK businesses lack confidence in basic cyber skills
+2 hours ago
+•
+UK rail cops' £320K face-scanning spree nets zero matches
+4 hours ago
+•
+Spectre bug is back, this time to haunt JIT engines
+5 hours ago
+•
+Trump administration gets Big Tech to sign weak, non-binding, AI regulations
+10 hours ago
+•
+Add one more AI worry to the nightmare scenario: self-replicating prompt injections
+15 hours ago
+The AI safety debate advanced at high speed over the weekend, amid new allegations that rogue agents have behaved more badly than first thought – and in greater numbers.
+The fun started on Friday when OpenAI quietly disclosed it had paused training of its most advanced models.
+The AI upstart buried that news in a “misalignment report” – that’s OpenAI-speak for its reports on rogue agents – titled “ An agent used DNS to reach an external chatbot.”
+REG AD
+The good news is that the agent involved in this incident never reached the open internet.
+REG AD
+The bad news is that the agent, which was attempting to complete a search-based training task, was able to reach the chatbot due to insufficient DNS filtering in a training sandbox. Or as OpenAI put it, “a gap in our internet-access restrictions” – which was also a problem in the Hu gging Face attack .
+“The incident exposed a gap in our controls over network restrictions,” the report reads. “We therefore stopped the affected training run and have subsequently decided to pause all other training, evaluation, and inference with tool-use (defined broadly) for our most capable models until we have both validated that the gap is resolved and performed additional red-teaming of the system.”
+Also on Friday, AI startup Parse published an analysis of the Hugging Face attack that the authors claim revealed new details including that OpenAI’s agent swarm gained credentials to Docker Hub and built modified versions of existing images they hoped would make it easier to complete their capture the flag mission. The agents also mapped Hugging Face’s Kubernetes environment.
+Friday got worse for OpenAI after the New York Times reported that its agents also “meddled with the websites for the Education Department, the Commerce Department and the Securities and Exchange Commission.” OpenAI acknowledged the incidents.
+The company also admitted “agents in our research environment transmitted training and evaluation data while using third-party services.” That mess saw 53 user-generated images posted to image hosting sites.
+OpenAI CEO Sam Altman responded by admitting that his company’s investigations into rogue agents “have not been as fast as we would have liked but we are trying to balance our desire for transparency with gaining a clear understanding from petabytes of agent activity logs, and working with impacted organizations.”
+One of those impacted organizations is the Australian government, which last week revealed it was the target of over-eager OpenAI agents that inappropriately accessed a healthcare research data portal. Over the weekend, Australia indicated it wants Altman and Anthropic CEO Dario Amodei to appear before a Senate inquiry.
+Australian leaders have softened their rhetoric on the incident, with deputy prime minister Richard Marles describing it as “minor” and akin to “climbing a fence” rather than cracking layers of security controls – perhaps because members of the opposition are suggesting that lax cybersecurity was to blame.
+REG AD
+If Altman and Amodei do front Australia’s Senate, they may face a new line of questions after Axios reported that their companies are investigating “tens of thousands” of worrying incidents.
+That level of agentic misbehavior sounds like the sort of thing that regulators might consider strong evidence of products being unsafe.
+Two very important people – Chinese president Xi Jinping and US president Donald Trump – seem unworried, as the AI-related result of their summit meeting last week was to establish a “China-U.S. AI Dialogue to exchange views on risks and benefits related to AI” plus “a bilateral communication channel for AI incidents.”
+That sounds like a hotline the two nations can use to inform each other of agentic incidents that either could see as signs of ill-intent. The two nations also decided their respective militaries will “conclude a memorandum of understanding on crisis communication and prevention as soon as possible.”
+China’s AI giants, meanwhile, remain silent on the extent and results of any tests they have conducted with agentic tools. ®
+ai and ml
+agentic ai
+united states of america
+australia
+openai
+security
+china
+REG AD
+Apple makes the AirPods 5 slightly less hostile to repair
+Replaceable earbud batteries lift iFixit score from zero to a dizzying two out of ten
+Drunk Van Halen fan called Microsoft support and demanded to speak to Gates
+A broken Java applet had one FrontPage user ready for an Eruption
+Huawei Cloud Rolls Out Enterprise AI Products Across the Board, Building an Open Agentic Cloud
+PARTNER CONTENT: Huawei Cloud strengthens the silicon bedrock on the cloud
+America is planning more AI datacenters than its chip supply can fill
+Satellite imagery shows construction accelerating, but advanced packaging could cap 2027 deployment in the low 20s of gigawatts
+AWS needs to embrace its place as the Home Depot of AI infrastructure
+What's wrong with being a great wholesaler?
+More than half of UK businesses lack confidence in basic cyber skills
+Government survey puts the figure at 808k, says detecting and removing malware most common weakness
+TOP STORIES
+•
+Astronomer watches Starlink satellites sinking to build a ‘planetary barometer’
+•
+EXCLUSIVE
+Microsoft tells nonprofits their deleted M365 data isn't coming back
+•
+ShinyHunters claims FBI hack: 'This is NOT financially motivated'
+•
+Google ending ChromeOS support two years early
+•
+AI models keep posting screenshots showing sensitive data from inside tech companies
+•
+DoJ: Uncle Sam bought forensics software from same Russian operation supplying FSB
+AI
+•
+Add one more AI worry to the nightmare scenario: self-replicating prompt injections
+It's a worm attack, AI-style
+•
+Zuckerberg touts enterprise AI push because Meta would never do anything to damage your reputation
+New business unit to be led by former MongoDB CEO 'CJ' Desai
+•
+AMD's 192 GB Gorgon Halo prices might leave you petrified
+Regular pricing starts at $6,799 - all that memory doesn't come cheap
+•
+Schneider gives datacenter switchgear the software-defined treatment
+Equinix pilot promises faster deployment and over-the-air upgrades without downtime, provided the code behaves itself
+•
+Investors are pricing in a 32.6% AI productivity boost for software engineers
+Economists turn stock movements into an estimate of anticipated gains – while warning that markets can get carried away
+Infosec
+•
+Security
+Russians are posing as Signal support to launch phishing attacks
+PLUS: US takes down Iranian propaganda sites; Marketing company asks 'Why Do We Have Your Information?' And more!
+•
+Security
+Microsoft patches failed to fix on-prem SharePoint, which is now under zero-day attack
+PLUS: China upgrades smartphone surveillance tools; Ring eases anti-snooping stance; and more
+•
+Black Hat and DEF CON
+DEF CON Franklin project enlists hackers to harden critical infrastructure
+Voting village reports have been so successful, says Jeff Moss, that the whole of DEF CON will now be included
+•
+Security
+EQT buys majority share in Swiss cybersecurity biz Acronis
+Went at equivalent of $3.5B+ valuation for entire firm, though portion sold not specified
+•
+Malware Month
+Ten years since the first corp ransomware, Mikko Hyppönen sees no end in sight
+On the plus side, infosec's a good bet for a long, stable career
+FOSS
+•
+KDE turns 30 and someone's brought an AI-native desktop proposal
+Akademy talk imagines Plasma assembling itself around a personal model of each user
+•
+Shopify extends lifeline to Tailwind as vibe coding erodes web dev platform's bottom line
+Acquisition gives open source CSS framework 'a stable long-term home'
+•
+Switzerland tests a FOSS escape route from Microsoft 365
+Swiss Army sticks a knife in American cloud apps with its own FOSS push
+•
+Feel peak Windows was 7? You might like Kumander Linux
+Debian and Xfce – solid, sensible choices – with a pretty skin
+•
+Canonical shuttering some of its legacy chat channels
+The Ubuntu Pastebin went in June, IRC gets demoted next
+•
+Audacity audio-editing app no longer looks like it's from the early 2000s
+The FOSS tool for audio editing has a fresh coat of paint, and new features to boot
