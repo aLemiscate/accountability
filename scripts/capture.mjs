@@ -130,13 +130,15 @@ async function snapshot(url, { doArchive = true, doShot = true } = {}) {
         if (text.status === 0 && text.stdout.trim()) await save('document.txt', text.stdout);
         else console.log('  (no PDF text: install poppler-utils for pdftotext)');
       }
-      // Very large files would bloat the repository. Keep the text and the
-      // original's hash (so a copy can still be verified), not the file itself.
-      if (body.length > MAX_DOCUMENT_BYTES && meta.files['document.txt']) {
+      // Very large files would bloat the repository. Keep the original's hash
+      // (so a copy can still be verified) and its text when there is any, not
+      // the file itself.
+      if (body.length > MAX_DOCUMENT_BYTES) {
+        const hasText = !!meta.files['document.txt'];
         await rm(path.join(dir, `document.${ext}`));
-        meta.omitted = { file: `document.${ext}`, bytes: body.length, sha256: meta.files[`document.${ext}`], reason: 'larger than the size limit; text kept' };
+        meta.omitted = { file: `document.${ext}`, bytes: body.length, sha256: meta.files[`document.${ext}`], reason: `larger than the size limit; ${hasText ? 'text kept' : 'no text could be extracted'}` };
         delete meta.files[`document.${ext}`];
-        console.log(`  omitted   document.${ext} (${(body.length / 1e6).toFixed(1)} MB); kept its text and hash`);
+        console.log(`  omitted   document.${ext} (${(body.length / 1e6).toFixed(1)} MB); kept its ${hasText ? 'text and ' : ''}hash`);
       }
     }
     if (res.ok) console.log(`  fetched   HTTP ${res.status}${meta.title ? ` — ${meta.title}` : ''}`);
