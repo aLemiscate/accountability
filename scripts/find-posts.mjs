@@ -205,7 +205,8 @@ async function readJsonl(file) {
 
 /** The fields kept for each post in the corpus files. */
 function slim(c) {
-  const fields = ['id', 'date', 'url', 'author', 'other_author', 'text', 'reply_to', 'quoted', 'deleted', 'live_status', 'archived_at', 'archive', 'via', 'read_at'];
+  // The post's URL is left out: it's https://x.com/<account>/status/<id>.
+  const fields = ['id', 'date', 'author', 'other_author', 'text', 'reply_to', 'quoted', 'deleted', 'live_status', 'archived_at', 'archive', 'via', 'read_at'];
   return Object.fromEntries(fields.filter((k) => c[k] != null).map((k) => [k, c[k]]));
 }
 
@@ -243,6 +244,7 @@ async function sweepAccount(account) {
   for (const c of stored) {
     if (!plausiblePostId(c.id)) { dropped++; continue; } // made-up ids from archived URLs
     c.handle = name;
+    c.url = `https://x.com/${name}/status/${c.id}`;
     c.date = snowflakeDate(c.id)?.toISOString().slice(0, 10) ?? null;
     // Read before posts were checked for their author: read again once.
     if (c.read_at && !c.author && !c.deleted && !c.other_author && !String(c.via).includes('x-api')) {
