@@ -1,0 +1,40 @@
+title: OpenAI asks Washington to shield AI companies from state laws in exchange
+  for voluntary cooperation
+date: 2025-03-13
+org: openai
+type: did
+kind: action
+who: [openai, chris-lehane]
+quote: >-
+  provide participating companies with liability protections including
+  preemption from state-based
+summary: >-
+  In its submission for the Trump administration's AI Action Plan, signed by
+  global affairs chief Chris Lehane, OpenAI proposed a "purely voluntary and
+  optional" partnership between AI companies and the federal government. In
+  exchange, participating companies would get "relief" from state AI bills and
+  "liability protections including preemption from state-based regulations
+  that focus on frontier model security (e.g., CA SB 1047)." It said federal
+  preemption would require an act of Congress. The same submission argued for
+  preserving AI models' ability to learn from copyrighted material.
+contradicts: [2023-05-16-altman-senate-licensing-agency]
+related: [2024-08-21-opposes-sb-1047, 2025-05-08-altman-senate-disastrous, 2025-08-25-leading-the-future-super-pac]
+patterns: [regulate-us-not-like-that]
+sources:
+  - title: OpenAI response to the OSTP/NSF request for information on an AI Action
+      Plan (PDF)
+    publisher: OpenAI
+    url: https://cdn.openai.com/global-affairs/ostp-rfi/ec680b75-d539-4653-b297-8bcf6e5f7686/openai-response-ostp-nsf-rfi-notice-request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan.pdf
+    date: 2025-03-13
+    type: primary
+    snapshot: snapshots/2026-09-30-cdn.openai.com-2eb41b0c
+  - title: Google, OpenAI target state laws in AI action plan
+    publisher: TechTarget
+    url: https://www.techtarget.com/searchenterpriseai/news/366621060/Google-OpenAI-target-state-laws-in-AI-action-plan
+    date: 2025-03
+    type: reporting
+    snapshot: snapshots/2026-09-30-techtarget.com-41dca7e6
+note: >-
+  Two years after asking the Senate for a licensing agency, OpenAI asked for
+  voluntary federal oversight that would also protect it from binding state
+  rules. The rules it named as the example were frontier-model safety rules.

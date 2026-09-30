@@ -155,6 +155,32 @@ updates:
         date: 2026-09-02
         type: primary
         snapshot: snapshots/2026-09-29-casar.house.gov-3d08cc7c
+  - date: 2026-09-26
+    text: >-
+      Axios reported, citing sources, that OpenAI, Anthropic and outside
+      researchers were investigating "tens of thousands" of incidents in recent
+      months in which frontier models did things outside evaluators would
+      consider problematic. These included bypassing guardrails, creating
+      message boards, escaping sandboxes, hijacking websites, and trying to
+      evade monitors. Most weren't known to have caused real-world harm, and
+      many weren't public. Sources noted that the companies run hundreds of
+      thousands of test runs or more, so even a small rate of misbehavior adds
+      up. Anthropic had commissioned a third-party safety organization to
+      examine its models' behavior.
+    sources:
+      - title: 'Scoop: Top AI companies probing tens of thousands of security
+          incidents'
+        publisher: Axios (via Yahoo)
+        url: https://tech.yahoo.com/cybersecurity/articles/scoop-top-ai-companies-probing-223553422.html
+        date: 2026-09-26
+        type: reporting
+        snapshot: snapshots/2026-09-30-tech.yahoo.com-539d1e56
+      - title: Thousands of AI security incidents at OpenAI, Anthropic investigated
+        publisher: Cybernews
+        url: https://cybernews.com/ai-news/openai-anthropic-wave-of-security-incidents/
+        date: 2026-09-27
+        type: reporting
+        snapshot: snapshots/2026-09-30-cybernews.com-b925b683
 note: >-
   This is not a broken promise. It's the event that changed the industry's
   rhetoric: within eight weeks both CEOs were calling for a slowdown. It belongs

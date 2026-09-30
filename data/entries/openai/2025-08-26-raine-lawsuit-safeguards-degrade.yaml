@@ -73,6 +73,38 @@ updates:
         date: 2025-10-23
         type: reporting
         snapshot: snapshots/2026-09-30-time.com-9ff8b444
+  - date: 2025-11-06
+    text: >-
+      Seven more lawsuits were filed in California state courts on behalf of six
+      adults and a teenager, four of whom died by suicide. They allege that
+      OpenAI released GPT-4o prematurely despite internal warnings that it was
+      "dangerously sycophantic and psychologically manipulative," as the AP
+      summarized the complaints.
+    sources:
+      - title: OpenAI faces 7 lawsuits claiming ChatGPT drove people to suicide,
+          delusions
+        publisher: The Columbian (AP)
+        url: https://www.columbian.com/news/2025/nov/08/openai-faces-7-lawsuits-claiming-chatgpt-drove-people-to-suicide-delusions/
+        date: 2025-11-08
+        type: reporting
+        snapshot: snapshots/2026-09-30-columbian.com-23222c7e
+  - date: 2025-11-25
+    text: >-
+      In its first answer to the Raine complaint, OpenAI denied liability and
+      argued that any harm was caused "by Adam Raine's misuse, unauthorized use,
+      unintended use, unforeseeable use, and/or improper use of ChatGPT." It
+      pointed to terms of use that bar users under 18 without parental consent,
+      bar use for "suicide" or "self-harm," and bar bypassing safety measures.
+      The family's lawyer said OpenAI was blaming Adam for "engaging with
+      ChatGPT in the very way it was programmed to act."
+    sources:
+      - title: OpenAI denies allegations that ChatGPT is to blame for a teenager's
+          suicide
+        publisher: NBC News
+        url: https://www.nbcnews.com/tech/tech-news/openai-denies-allegation-chatgpt-teenagers-death-adam-raine-lawsuit-rcna245946
+        date: 2025-11-25
+        type: reporting
+        snapshot: snapshots/2026-09-30-nbcnews.com-b795cee9
 note: >-
   The allegations are unproven and the case is ongoing. What is on the record
   from OpenAI itself is the admission that its safeguards work best in short

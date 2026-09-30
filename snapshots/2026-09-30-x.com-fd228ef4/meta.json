@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/OpenAI/status/1639297361729191936",
+  "captured_at": "2026-09-30T13:15:51.777Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "bba3125e1129ff2f0149f10cfebc1f7728ad9f349b996af83610cd948234152a",
+    "page.txt": "4096410274907bc808af510f635cb0860d16efb440afd023a34f4638be95dcb1",
+    "post.json": "fd351005138375aba60cff9220c52320da600f5f6212b232aa7a77bd5e1ec90a",
+    "syndication.json": "9aed5a51e8a400da3b2ce7d5b4770a0899d58728fcd72f6bad110b6a3feefe05",
+    "post.txt": "bc56958018713b285abb0a0e2ce999627fba33508bd1ce4a08c00f2aa4655e16"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1639297361729191936",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"We took ChatGPT offline Monday to fix a bug in an open source library that allowed some users to see titles from other users’ chat history. Our investigation has also found that 1.2% of ChatGPT Plus users might have had personal data revealed to another user. 1/2\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "March 24, 2023",
+    "posted_at": "2023-03-24T16:05:22.365Z"
+  }
+}
