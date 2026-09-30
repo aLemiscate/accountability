@@ -242,6 +242,120 @@
   role: Former Superalignment researcher, OpenAI
   basis: former-staff-witness
 
+# Added with the full-history sweep (September 2026). Handles confirmed from
+# the person's own posts or profile.
+- id: brad-lightcap
+  kind: person
+  name: Brad Lightcap
+  org: openai
+  role: Chief Operating Officer, OpenAI
+  basis: executive
+
+- id: adam-dangelo
+  kind: person
+  name: 'Adam D''Angelo'
+  org: openai
+  role: OpenAI board member since 2018; voted to remove Sam Altman as CEO in November 2023
+  basis: board
+
+- id: larry-summers
+  kind: person
+  name: Larry Summers
+  org: openai
+  role: OpenAI board member, November 2023 to November 2025
+  basis: board
+
+- id: elon-musk
+  kind: person
+  name: Elon Musk
+  org: openai
+  role: OpenAI co-founder and former board co-chair; plaintiff in Musk v. OpenAI
+  basis: founder
+
+- id: bob-mcgrew
+  kind: person
+  name: Bob McGrew
+  org: openai
+  role: Former Chief Research Officer, OpenAI (left 2024)
+  basis: executive
+
+- id: peter-welinder
+  kind: person
+  name: Peter Welinder
+  org: openai
+  role: Vice President, OpenAI (products, later devices)
+  basis: executive
+
+- id: alexander-embiricos
+  kind: person
+  name: Alexander Embiricos
+  org: openai
+  role: Product lead for Codex, OpenAI
+  basis: executive
+
+- id: anna-makanju
+  kind: person
+  name: Anna Makanju
+  org: openai
+  role: Former Vice President of Global Affairs, OpenAI
+  basis: spokesperson
+
+- id: lilian-weng
+  kind: person
+  name: Lilian Weng
+  org: openai
+  role: Former VP of Research and Safety, OpenAI (left November 2024)
+  basis: former-staff-witness
+
+- id: joanne-jang
+  kind: person
+  name: Joanne Jang
+  org: openai
+  role: Former head of model behavior, OpenAI; later led OAI Labs
+  basis: researcher-public
+
+- id: jason-wolfe
+  kind: person
+  name: Jason Wolfe
+  org: openai
+  role: Researcher and Model Spec author, OpenAI
+  basis: researcher-public
+
+- id: noam-brown
+  kind: person
+  name: Noam Brown
+  org: openai
+  role: Research scientist (reasoning), OpenAI
+  basis: researcher-public
+
+- id: aidan-mclaughlin
+  kind: person
+  name: Aidan McLaughlin
+  org: openai
+  role: Researcher, model design and post-training, OpenAI
+  basis: researcher-public
+
+- id: roon
+  kind: person
+  name: roon
+  org: openai
+  role: Pseudonymous member of technical staff at OpenAI who posts publicly about the company, AI safety and governance
+  basis: researcher-public
+
+- id: richard-ngo
+  kind: person
+  name: Richard Ngo
+  org: openai
+  role: Former governance researcher, OpenAI (resigned November 2024)
+  basis: former-staff-witness
+
+- id: jacob-hilton
+  kind: person
+  name: Jacob Hilton
+  org: openai
+  role: 'Former researcher, OpenAI (2018–2023); signed the 2024 "right to warn" letter'
+  basis: former-staff-witness
+
 # ── Anthropic ─────────────────────────────────────────────────────────────
 - id: dario-amodei
   kind: person
@@ -319,3 +433,102 @@
   org: anthropic
   role: Former lead of Safeguards Research, Anthropic (resigned February 2026)
   basis: former-staff-witness
+
+# Added with the full-history sweep (September 2026).
+- id: daniela-amodei
+  kind: person
+  name: Daniela Amodei
+  org: anthropic
+  role: President and co-founder, Anthropic
+  basis: executive
+
+- id: tom-brown
+  kind: person
+  name: Tom Brown
+  org: anthropic
+  role: Co-founder and Chief Compute Officer, Anthropic
+  basis: founder
+
+- id: ben-mann
+  kind: person
+  name: Ben Mann
+  org: anthropic
+  role: Co-founder, Anthropic
+  basis: founder
+
+- id: sam-mccandlish
+  kind: person
+  name: Sam McCandlish
+  org: anthropic
+  role: Co-founder, Anthropic
+  basis: founder
+
+- id: andrej-karpathy
+  kind: person
+  name: Andrej Karpathy
+  org: anthropic
+  role: Pretraining researcher, Anthropic (since May 2026); OpenAI founding member
+  basis: founder
+
+- id: sasha-de-marigny
+  kind: person
+  name: Sasha de Marigny
+  org: anthropic
+  role: Head of Communications, Anthropic
+  basis: spokesperson
+
+- id: jason-clinton
+  kind: person
+  name: Jason Clinton
+  org: anthropic
+  role: Anthropic's first Chief Information Security Officer, later Deputy CISO
+  basis: executive
+
+- id: logan-graham
+  kind: person
+  name: Logan Graham
+  org: anthropic
+  role: Head of the Frontier Red Team, Anthropic
+  basis: researcher-public
+
+- id: alex-albert
+  kind: person
+  name: Alex Albert
+  org: anthropic
+  role: Head of Claude Relations, Anthropic
+  basis: spokesperson
+
+- id: boris-cherny
+  kind: person
+  name: Boris Cherny
+  org: anthropic
+  role: Creator and head of Claude Code, Anthropic
+  basis: executive
+
+- id: cat-wu
+  kind: person
+  name: Cat Wu
+  org: anthropic
+  role: Head of Product, Claude Code, Anthropic
+  basis: executive
+
+- id: kyle-fish
+  kind: person
+  name: Kyle Fish
+  org: anthropic
+  role: Model welfare research lead, Anthropic
+  basis: researcher-public
+
+- id: jack-lindsey
+  kind: person
+  name: Jack Lindsey
+  org: anthropic
+  role: Interpretability researcher, Anthropic
+  basis: researcher-public
+
+- id: trenton-bricken
+  kind: person
+  name: Trenton Bricken
+  org: anthropic
+  role: Interpretability researcher, Anthropic
+  basis: researcher-public
