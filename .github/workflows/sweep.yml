@@ -36,6 +36,11 @@ jobs:
       list: ${{ steps.list.outputs.list }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
       - id: list
         env:
           WANTED: ${{ inputs.accounts }}
@@ -43,7 +48,8 @@ jobs:
           if [ -n "$WANTED" ]; then
             list=$(printf '%s\n' $WANTED | jq -R . | jq -cs .)
           else
-            list=$(grep -E '^\s+x:\s' data/accounts.yaml | awk '{print $2}' | jq -R . | jq -cs .)
+            # Every X account, except those marked `sweep: false`.
+            list=$(node -e "const y=require('yaml');const a=y.parse(require('fs').readFileSync('data/accounts.yaml','utf8'));console.log(JSON.stringify(a.filter(x=>x.x&&x.sweep!==false).map(x=>x.x)))")
           fi
           echo "list=$list" >> "$GITHUB_OUTPUT"
           echo "Accounts ($(echo "$list" | jq length)): $list"

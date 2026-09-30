@@ -158,7 +158,9 @@ npm run sweep-coverage
 `--budget-minutes` stops reading when time runs out and leaves the rest marked
 unread. `--concurrency` sets how many posts are read at once (default 4). An
 account in `data/accounts.yaml` can set its own `match` for the triage list
-(Elon Musk's lists only posts about the AI labs). The
+(Elon Musk's lists only posts about the AI labs), or `sweep: false` to stay out
+of the full-history Sweep (Musk's 125,000+ archived posts were read back to
+September 2025 only). The
 Wayback Machine blocks many cloud IP ranges, so run this from the **Sweep**
 workflow below or from your own machine.
 
