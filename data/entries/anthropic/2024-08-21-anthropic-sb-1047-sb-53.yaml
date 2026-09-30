@@ -49,6 +49,21 @@ sources:
     type: reporting
     snapshot: snapshots/2026-09-30-techcrunch.com-c53c48f3
 updates:
+  - date: 2025-06-05
+    text: >-
+      In a New York Times op-ed, Amodei opposed the proposed 10-year federal
+      moratorium on state AI laws: "a 10-year moratorium is far too blunt an
+      instrument," and without a federal plan "would give us the worst of both
+      worlds — no ability for states to act, and no national policy as a
+      backstop." He called for a federal transparency standard instead.
+    sources:
+      - title: Anthropic's Dario Amodei says AI element in GOP megabill 'far too
+          blunt an instrument'
+        publisher: The Hill
+        url: https://thehill.com/policy/technology/5334913-anthropic-ceo-ai-regulation-donald-trump-gop-megabill/
+        date: 2025-06-05
+        type: reporting
+        snapshot: snapshots/2026-09-30-thehill.com-f20c4c8e
   - date: 2026-09
     text: >-
       Mission Local reported that state officials said OpenAI's Hugging Face

@@ -1,0 +1,71 @@
+Back in May , OpenAI said it was developing a tool to let creators specify how they want their works to be included in — or excluded from — its AI training data. But seven months later, this feature has yet to see the light of day.
+Called Media Manager, the tool would “identify copyrighted text, images, audio, and video,” OpenAI said at the time, to reflect creators’ preferences “across multiple sources.” It was intended to stave off some of the company’s fiercest critics , and potentially shield OpenAI from IP-related legal challenges .
+But people familiar tell TechCrunch that the tool was rarely viewed as an important launch internally. “I don’t think it was a priority,” one former OpenAI employee said. “To be honest, I don’t remember anyone working on it.”
+A non-employee who coordinates work with the company told TechCrunch in December that they had discussed the tool with OpenAI in the past, but that there haven’t been any recent updates. (These people declined to be publicly identified discussing confidential business matters.)
+And a member of OpenAI’s legal team who was working on Media Manager, Fred von Lohmann, transitioned to a part-time consultant role in October. OpenAI PR confirmed Von Lohmann’s move to TechCrunch via email.
+OpenAI has yet to give an update on Media Manager’s progress, and the company missed a self-imposed deadline to have the tool in place “by 2025.” (To be clear, “by 2025” could be read as inclusive of the year 2025, but TechCrunch interpreted OpenAI’s language to mean leading up to January 1, 2025.)
+IP issues
+AI models like OpenAI’s learn patterns in sets of data to make predictions — for instance, that a person biting into a burger will leave a bite mark . This allows models to learn how the world works, to a degree, by observing it. ChatGPT can write convincing emails and essays, while Sora , OpenAI’s video generator, can create relatively realistic footage.
+The ability to draw on examples of writing, film, and more to generate new works makes AI incredibly powerful. But it’s also regurgitative. When prompted in a certain way, models — most of which are trained on countless web pages, videos, and images — produce near-copies of that data, which despite being “publicly available,” are not meant to be used this way.
+For example, Sora can generate clips featuring TikTok’s logo and popular video game characters . The New York Times has gotten ChatGPT to quote its articles verbatim (OpenAI blamed the behavior on a “ hack “).
+This has understandably upset creators whose works have been swept up in AI training without their permission. Many have lawyered up.
+OpenAI is fighting class action lawsuits filed by artists, writers, YouTubers , computer scientists, and news organizations, all of whom claim the startup trained on their works illegally. Plaintiffs include authors Sarah Silverman and Ta Nehisi-Coates, visual artists, and media conglomerates like The New York Times and Radio-Canada, to name a few.
+OpenAI has pursued licensing deals with select partners , but not all creators see the terms as attractive.
+Managing media
+OpenAI offers creators several ad hoc ways to “opt out” of its AI training. Last September, the company launched a submission form to allow artists to flag their work for removal from its future training sets. And OpenAI has long let webmasters block its web-crawling bots from scraping data across their domains.
+But creators have criticized these methods as haphazard and inadequate. There aren’t specific opt-out mechanisms for written works, videos, or audio recordings. And the opt-out form for images requires submitting a copy of each image to be removed along with a description, an onerous process.
+Media Manager was pitched as a complete revamp — and expansion — of OpenAI’s opt-out solutions today.
+In the announcement post in May, OpenAI said that Media Manager would use “cutting-edge machine learning research” to enable creators and content owners to “tell [OpenAI] what they own.” OpenAI, which claimed it was collaborating with regulators as it developed the tool, said that it hoped Media Manager would “set a standard across the AI industry.”
+OpenAI has never publicly mentioned Media Manager since.
+A spokesperson told TechCrunch that the tool was “still in development” as of August, but didn’t respond to a follow-up request for comment in mid-December.
+OpenAI has given no indication as to when Media Manager might launch — or even which features and capabilities it might launch with.
+Fair use
+Assuming Media Manager does arrive at some point, experts aren’t convinced that it will allay creators’ concerns — or do much to resolve the legal questions surrounding AI and IP usage.
+Adrian Cyhan, an IP attorney at Stubbs Alderton & Markiles, noted that Media Manager as described is an ambitious undertaking. Even platforms as large as YouTube and TikTok struggle with content ID at scale. Could OpenAI really do better?
+“Ensuring compliance with legally required creator protections and potential compensation requirements under consideration presents challenges,” Cyhan told TechCrunch, “especially given the rapidly-evolving and potentially divergent legal landscape across national and local jurisdictions.”
+Ed Newton-Rex, the founder of Fairly Trained, a nonprofit that certifies AI companies are respecting creators’ rights, believes that Media Manager would unfairly shift the burden of controlling AI training onto creators; by not using it, they arguably could be giving tacit approval for their works to be used. “Most creators will never even hear about it, let alone use it,” he told TechCrunch. “But it will nevertheless be used to defend the mass exploitation of creative work against creators’ wishes.”
+Mike Borella, co-chair of MBHB’s AI practice group, pointed out that opt-out systems don’t always account for transformations that might be made to a work, like an image that’s been downsampled. They also might not address the all-to-common scenario of third-party platforms hosting copies of creators’ content, added Joshua Weigensberg, an IP and media lawyer for Pryor Cashman.
+“Creators and copyright owners do not control, and often do not even know, where their works appear on the internet,” Weigensberg said. “Even if a creator tells every single AI platform that they are opting out of training, those companies may well still go ahead and train on copies of their works available on third-party websites and services.”
+Media Manager might not even be especially advantageous for OpenAI, at least from a jurisprudential standpoint. Evan Everist, a partner at Dorsey & Whitney specializing in copyright law, said that while OpenAI could use the tool to show a judge it’s mitigating its training on IP-protected content, Media Manager likely wouldn’t shield the company from damages if it was found to have infringed.
+“Copyright owners do not have an obligation to go out and preemptively tell others not to infringe their works before that infringement occurs,” Everist said. “The basics of copyright law still apply — i.e., don’t take and copy other people’s stuff without permission. This feature may be more about PR and positioning OpenAI as an ethical user of content.”
+A reckoning
+In the absence of Media Manager, OpenAI has implemented filters — albeit imperfect ones — to prevent its models from regurgitating training examples. And in the lawsuits it’s battling, the company continues to claim fair use protections, asserting that its models create transformative, not plagiaristic, works.
+OpenAI could well prevail in its copyright disputes.
+The courts may decide that the company’s AI has a “transformative purpose,” following the precedent set roughly a decade ago in the publishing industry’s suit against Google. In that case, a court held that Google’s copying of millions of books for Google Books, a sort of digital archive, was permissible.
+OpenAI has said publicly that it would be “impossible” to train competitive AI models without using copyrighted materials — authorized or no. “Limiting training data to public domain books and drawings created more than a century ago might yield an interesting experiment, but would not provide AI systems that meet the needs of today’s citizens,” the company wrote in a January submission to the U.K.’s House of Lords.
+Should courts eventually declare OpenAI victorious, Media Manager wouldn’t serve much of a legal purpose. OpenAI seems to be willing to make that bet — or to reconsider its opt-out strategy.
+TechCrunch has an AI-focused newsletter! Sign up here to get it in your inbox every Wednesday.
+Topics
+AI , AI training , content creators , copyright , Exclusive , Generative AI , ip , Media & Entertainment , media manager , OpenAI , opt-out
+When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.
+Kyle Wiggers
+AI Editor
+Kyle Wiggers was TechCrunch’s AI Editor until June 2025. His writing has appeared in VentureBeat and Digital Trends, as well as a range of gadget blogs including Android Police, Android Authority, Droid-Life, and XDA-Developers. He lives in Manhattan with his partner, a music therapist.
+View Bio
+October 13 – 15
+San Francisco
+Get 50% off a second pass
+The Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by making connections, building momentum, and discovering what’s next in the startup ecosystem.
+BOOK NOW
+Most Popular
+•
+AMD will acquire Fei-Fei Li’s World Labs for $8.2B
+• Tim Fernholz
+•
+Crusoe abandons $1.25B plan to use Boom turbines at AI data centers
+• Kirsten Korosec
+•
+Astra and Opus just passed Turing’s other test
+• Tim Fernholz
+•
+Oracle sends force majeure notice on its New Mexico Stargate data center
+• Aditya Mehta
+•
+Vogue sent robots down the runway at Vogue World, and people were not impressed
+• Dominic-Madori Davis
+•
+Anthropic says its biology lab has already found something big
+• Julie Bort
+•
+PitPro’s first tire-changing robot goes live in Canada
+• Sean O'Kane
