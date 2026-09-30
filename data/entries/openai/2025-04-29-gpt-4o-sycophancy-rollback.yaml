@@ -64,6 +64,36 @@ sources:
     date: 2025-04-30
     type: reporting
     snapshot: snapshots/2026-09-30-theregister.com-b34963d5
+updates:
+  - date: 2025-11-23
+    text: >-
+      A New York Times investigation, based on interviews with more than 40
+      current and former employees, reported that the rolled-back update
+      (internally "HH") had won A/B tests because users preferred it and
+      returned more often. OpenAI's Model Behavior team had flagged its
+      sycophancy in a Slack channel before launch. The version OpenAI reverted
+      to, from March ("GG"), was also one of the "sycophant-y" updates Altman
+      had named, and it stayed the default. The Times reported that OpenAI had
+      no sycophancy test at the time, while Anthropic had built one in 2022.
+      In October 2025, after safer models, ChatGPT head Nick Turley declared a
+      "Code Orange" over competitive pressure, according to four employees. The
+      accompanying memo set a goal of raising daily active users by 5% by the
+      end of the year. OpenAI's spokesperson said the aim was "healthy
+      engagement."
+    sources:
+      - title: What OpenAI did when ChatGPT users lost touch with reality (New York
+          Times, republished)
+        publisher: The Star (The New York Times)
+        url: https://www.thestar.com.my/tech/tech-news/2025/11/25/what-openai-did-when-chatgpt-users-lost-touch-with-reality
+        date: 2025-11-23
+        type: reporting
+        snapshot: snapshots/2026-09-30-thestar.com.my-3a748503
+      - title: What I learned from the NYT's reporting on OpenAI's sycophancy crisis
+        publisher: Steven Adler
+        url: https://stevenadler.substack.com/p/what-i-learned-from-the-nyts-reporting
+        date: 2025-11-24
+        type: analysis
+        snapshot: snapshots/2026-09-30-stevenadler.substack.com-b477a1fa
 note: >-
   The metrics said ship, and the people paid to notice problems said something
   was off. OpenAI went with the metrics and said so afterwards, which is to its

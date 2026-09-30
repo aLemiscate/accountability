@@ -1,0 +1,35 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 7431,
+  "lang": "en",
+  "created_at": "2023-03-24T16:05:22.000Z",
+  "display_text_range": [
+    0,
+    263
+  ],
+  "entities": {},
+  "id_str": "1639297361729191936",
+  "text": "We took ChatGPT offline Monday to fix a bug in an open source library that allowed some users to see titles from other users’ chat history. Our investigation has also found that 1.2% of ChatGPT Plus users might have had personal data revealed to another user. 1/2",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1639297361729191936"
+    ],
+    "editable_until_msecs": "1679675722000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 776,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

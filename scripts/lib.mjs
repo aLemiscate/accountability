@@ -242,14 +242,14 @@ export function derive({ site, patterns, actors, entries }) {
   };
 }
 
-/** Normalize text for quote matching: case, curly quotes, dashes, whitespace. */
+/** Normalize text for quote matching: case, curly quotes, dashes, invisible format characters (including the bidi marks some PDFs carry), whitespace. */
 export function normalizeForMatch(s) {
   return String(s)
     .toLowerCase()
     .replace(/[\u2018\u2019\u201b\u2032]/g, "'")
     .replace(/[\u201c\u201d\u201f\u2033]/g, '"')
     .replace(/[\u2010-\u2015\u2212]/g, '-')
-    .replace(/[\u200b-\u200d\ufeff]/g, '')
+    .replace(/[\u200b-\u200f\u202a-\u202e\u2066-\u2069\ufeff]/g, '')
     .replace(/\s+/g, ' ')
     .trim();
 }

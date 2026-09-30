@@ -17,6 +17,8 @@ test('quote matching ignores curly quotes, case and whitespace, and splits on el
     'a conversation with claude is not one of them.',
   ]);
   assert.deepEqual(quoteSegments('…20% of the compute we\'ve secured…'), ['20% of the compute we\'ve secured']);
+  // Some PDFs wrap every run of text in invisible bidi marks (U+202D … U+202C).
+  assert.equal(normalizeForMatch('‭liability protections‬ ‭including‬'), 'liability protections including');
 });
 
 const base = () => ({

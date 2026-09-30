@@ -1,0 +1,71 @@
+title: 'OpenAI: efforts like ours should "submit to independent audits before
+  releasing new systems"'
+date: 2023-02-24
+org: openai
+type: said
+kind: commitment
+who: [openai, sam-altman]
+venue: Blog post by Sam Altman, "Planning for AGI and beyond"
+quote: >-
+  We think it’s important that efforts like ours submit to independent audits
+  before releasing new systems; we will talk about this in more detail later
+  this year.
+summary: >-
+  In OpenAI's statement of its AGI strategy, Altman said labs like OpenAI should
+  be independently audited before releasing new systems. He added that at some
+  point it "may be important to get independent review before starting to train
+  future systems," and to agree to limit the growth of training compute.
+concreteness: directional
+status: eroded
+breaks_if: >-
+  OpenAI releases frontier systems without independent audit, or drops audit
+  language from its own framework.
+patterns: []
+related: [2025-04-15-preparedness-framework-v2, 2024-08-29-aisi-pre-release-testing, 2026-09-12-altman-independent-evaluators]
+sources:
+  - title: 'Sam Altman: "Planning for AGI and beyond" (full-text repost)'
+    publisher: LessWrong
+    url: https://www.lesswrong.com/posts/zRn6aQyD8uhAN7qCc/sam-altman-planning-for-agi-and-beyond
+    date: 2023-02-24
+    type: archive
+    snapshot: snapshots/2026-09-30-lesswrong.com-fcd4b25e
+  - title: Planning for AGI and beyond
+    publisher: OpenAI
+    url: https://openai.com/index/planning-for-agi-and-beyond/
+    date: 2023-02-24
+    type: primary
+updates:
+  - date: 2023-12-18
+    text: >-
+      OpenAI's first Preparedness Framework made it concrete: "Scorecard
+      evaluations (and corresponding mitigations) will be audited by qualified,
+      independent third-parties to ensure accurate reporting of results," and
+      a "requested third-party audit (assuming qualified and effective auditors
+      can be found)" would validate a model's risk level before deployment.
+    sources:
+      - title: Preparedness Framework (Beta) (PDF)
+        publisher: OpenAI
+        url: https://cdn.openai.com/openai-preparedness-framework-beta.pdf
+        date: 2023-12-18
+        type: primary
+        snapshot: snapshots/2026-09-29-cdn.openai.com-45f5df09
+  - date: 2025-04-15
+    text: >-
+      Version 2 of the framework replaced the audit commitment with discretion:
+      "If we deem that a deployment warrants deeper testing … then when
+      available and feasible, OpenAI will work with third-parties to
+      independently evaluate models." OpenAI has worked with outside testers
+      such as government AI safety institutes before some releases (see
+      related), but no framework version since the first has committed to
+      independent audits of its evaluations.
+    sources:
+      - title: Preparedness Framework, Version 2 (PDF), section 5.2
+        publisher: OpenAI
+        url: https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf
+        date: 2025-04-15
+        type: primary
+        snapshot: snapshots/2026-09-29-cdn.openai.com-ec5d8e7d
+note: >-
+  The idea wasn't dropped outright. In September 2026 Altman promised
+  independent evaluators with "employee-like access." The written commitment,
+  though, went from "will be audited" in 2023 to "if we deem" in 2025.

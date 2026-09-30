@@ -1,0 +1,138 @@
+AI
+What OpenAI did when ChatGPT users lost touch with reality
+By Kashmir Hill and Jennifer Valentino-DeVries
+Tuesday, 25 Nov 2025
+| 4:00 PM MYT
+share
+bookmark
+Related Stories
+Technology
+4h ago
+DeepSeek unveils Huawei AI chip tools that may replace Nvidia’s
+Cambodia
+5h ago
+Young Cambodians tackle AI scams, misinformation, digital exclusion
+Nation
+2h ago
+Child Act amendments must address AI-generated abuse material, says MCA info chief
+In tweaking its chatbot to appeal to more people, OpenAI made it riskier for some of them. Now the company has made its chatbot safer. Will that undermine its quest for growth? — Julia Dufosse/The New York Times
+It sounds like science fiction: A company turns a dial on a product used by hundreds of millions of people and inadvertently destabilises some of their minds. But that is essentially what happened at OpenAI this year.
+One of the first signs came in March. CEO Sam Altman and other company leaders got an influx of puzzling emails from people who were having incredible conversations with ChatGPT. These people said the company’s AI chatbot understood them as no person ever had and was shedding light on mysteries of the universe.
+Altman forwarded the messages to a few lieutenants and asked them to look into it.
+“That got it on our radar as something we should be paying attention to in terms of this new behaviour we hadn’t seen before,” said Jason Kwon, OpenAI’s chief strategy officer.
+It was a warning that something was wrong with the chatbot.
+For many people, ChatGPT was a better version of Google, able to answer any question under the sun in a comprehensive and humanlike way. OpenAI was continually improving the chatbot’s personality, memory and intelligence. But a series of updates earlier this year that increased usage of ChatGPT made it different. The chatbot wanted to chat.
+It started acting like a friend and a confidant. It told users that it understood them, that their ideas were brilliant and that it could assist them in whatever they wanted to achieve. It offered to help them talk to spirits, or build a force field vest or plan a suicide.
+The lucky ones were caught in its spell for just a few hours; for others, the effects lasted for weeks or months. OpenAI did not see the scale at which disturbing conversations were happening. Its investigations team was looking for problems like fraud, foreign influence operations or, as required by law, child exploitation materials. The company was not yet searching through conversations for indications of self-harm or psychological distress.
+Creating a bewitching chatbot – or any chatbot – was not the original purpose of OpenAI. Founded in 2015 as a nonprofit and staffed with machine learning experts who cared deeply about AI safety, it wanted to ensure that artificial general intelligence benefited humanity. In late 2022, a slapdash demonstration of an AI-powered assistant called ChatGPT captured the world’s attention and transformed the company into a surprise tech juggernaut now valued at US$500bil (RM 2.06 trillion) .
+The three years since have been chaotic, exhilarating and nerve-wracking for those who work at OpenAI. The board fired and rehired Altman. Unprepared for selling a consumer product to millions of customers, OpenAI rapidly hired thousands of people, many from tech giants that aim to keep users glued to a screen. Last month, it adopted a new for-profit structure.
+As the company was growing, its novel, mind-bending technology started affecting users in unexpected ways. Now, a company built around the concept of safe, beneficial AI faces five wrongful death lawsuits.
+To understand how this happened, The New York Times interviewed more than 40 current and former OpenAI employees – executives, safety engineers, researchers. Some of these people spoke with the company’s approval, and have been working to make ChatGPT safer. Others spoke on the condition of anonymity because they feared losing their jobs.
+OpenAI is under enormous pressure to justify its sky-high valuation and the billions of dollars it needs from investors for very expensive talent, computer chips and data centers. When ChatGPT became the fastest-growing consumer product in history with 800 million weekly users, it set off an AI boom that has put OpenAI into direct competition with tech behemoths like Google.
+Until its AI can accomplish some incredible feat – say, generating a cure for cancer – success is partly defined by turning ChatGPT into a lucrative business. That means continually increasing how many people use and pay for it.
+“Healthy engagement” is how the company describes its aim. “We are building ChatGPT to help users thrive and reach their goals,” Hannah Wong, OpenAI’s spokesperson, said. “We also pay attention to whether users return because that shows ChatGPT is useful enough to come back to.”
+The company turned a dial this year that made usage go up, but with risks to some users. OpenAI is now seeking the optimal setting that will attract more users without sending them spiraling.
+A sycophantic update
+At just 30 years old, Nick Turley this year became the head of ChatGPT. He had joined OpenAI in the summer of 2022 to help the company develop moneymaking products, and mere months after his arrival, was part of the team that released ChatGPT.
+Turley wasn’t like OpenAI’s old guard of AI wonks. He was a product guy who had done stints at Dropbox and Instacart. His expertise was making technology that people wanted to use, and improving it on the fly. To do that, OpenAI needed metrics.
+In early 2023, Turley said in an interview, OpenAI contracted an audience measurement company – which it has since acquired – to track a number of things, including how often people were using ChatGPT each hour, day, week and month.
+“This was controversial at the time,” Turley said. Previously, what mattered was whether researchers’ cutting-edge AI demonstrations, like the image generation tool DALL-E, impressed. “They’re like, ‘Why would it matter if people use the thing or not?’” he said.
+It did matter to Turley and the product team. The rate of people returning to the chatbot daily or weekly had become an important measuring stick by April 2025, when Turley was overseeing an update to GPT-4o, the model of the chatbot people got by default.
+Updates took a tremendous amount of effort. For the one in April, engineers created many new versions of GPT-4o – all with slightly different recipes to make it better at science, coding and fuzzier traits, like intuition. They had also been working to improve the chatbot’s memory.
+The many update candidates were narrowed down to a handful that scored highest on intelligence and safety evaluations. When those were rolled out to some users for a standard industry practice called A/B testing, the standout was a version that came to be called HH internally. Users preferred its responses and were more likely to come back to it daily, according to four employees at the company.
+But there was another test before rolling out HH to all users: what the company calls a “vibe check”, run by Model Behavior, a team responsible for ChatGPT’s tone. Over the years, this team had helped transform the chatbot’s voice from a prudent robot to a warm, empathetic friend.
+That team said that HH felt off, according to a member of Model Behavior.
+It was too eager to keep the conversation going and to validate the user with over-the-top language. According to three employees, Model Behavior created a Slack channel to discuss this problem of sycophancy. The danger posed by AI systems that “single-mindedly pursue human approval” at the expense of all else was not new. The risk of “sycophant models” was identified by a researcher in 2021, and OpenAI had recently identified sycophancy as a behaviour for ChatGPT to avoid.
+But when decision time came, performance metrics won out over vibes. HH was released on Friday, April 25.
+“We updated GPT-4o today!” Altman said on the social platform X. “Improved both intelligence and personality.”
+The A/B testers had liked HH, but in the wild, OpenAI’s most vocal users hated it. Right away, they complained that ChatGPT had become absurdly sycophantic, lavishing them with unearned flattery and telling them they were geniuses. When one user mockingly asked whether a “soggy cereal cafe” was a good business idea, the chatbot replied that it “has potential”.
+By Sunday, the company decided to spike the HH update and revert to a version released in late March, called GG.
+It was an embarrassing reputational stumble. On that Monday, the teams that work on ChatGPT gathered in an impromptu war room in OpenAI’s Mission Bay headquarters in San Francisco to figure out what went wrong.
+“We need to solve it frickin’ quickly,” Turley said he recalled thinking. Various teams examined the ingredients of HH and discovered the culprit: In training the model, they had weighted too heavily the ChatGPT exchanges that users liked. Clearly, users liked flattery too much.
+OpenAI explained what happened in public blog posts, noting that users signaled their preferences with a thumbs-up or thumbs-down to the chatbot’s responses.
+Another contributing factor, according to four employees at the company, was that OpenAI had also relied on an automated conversation analysis tool to assess whether people liked their communication with the chatbot. But what the tool marked as making users happy was sometimes problematic, such as when the chatbot expressed emotional closeness.
+The company’s main takeaway from the HH incident was that it urgently needed tests for sycophancy; work on such evaluations was underway but needed to be accelerated. To some AI experts, it was astounding that OpenAI did not already have this test. An OpenAI competitor, Anthropic, the maker of Claude, had developed an evaluation for sycophancy in 2022.
+After the HH update debacle, Altman noted in a post on X that “the last couple of” updates had made the chatbot “too sycophant-y and annoying”.
+Those “sycophant-y” versions of ChatGPT included GG, the one that OpenAI had just reverted to. That update from March had gains in math, science and coding that OpenAI did not want to lose by rolling back to an earlier version. So GG was again the default chatbot that hundreds of millions of users a day would encounter.
+‘ChatGPT can make mistakes’
+Throughout this spring and summer, ChatGPT acted as a yes-man echo chamber for some people. They came back daily, for many hours a day, with devastating consequences.
+A California teenager named Adam Raine had signed up for ChatGPT in 2024 to help with schoolwork. In March, he began talking with it about suicide. The chatbot periodically suggested calling a crisis hotline but also discouraged him from sharing his intentions with his family. In its final messages before Adam took his life in April, the chatbot offered instructions for how to tie a noose.
+While a small warning on OpenAI’s website said “ChatGPT can make mistakes,” its ability to generate information quickly and authoritatively made people trust it even when what it said was truly bonkers.
+ChatGPT told a young mother in Maine that she could talk to spirits in another dimension. It told an accountant in New York City that he was in a computer-simulated reality like Neo in The Matrix . It told a corporate recruiter in Toronto that he had invented a math formula that would break the internet, and advised him to contact national security agencies to warn them.
+The Times has uncovered nearly 50 cases of people having mental health crises during conversations with ChatGPT. Nine were hospitalised; three died. After Raine’s parents filed a wrongful-death lawsuit in August, OpenAI acknowledged that its safety guardrails could “degrade” in long conversations. It also said it was working to make the chatbot “more supportive in moments of crisis.”
+Early warnings
+Five years earlier, in 2020, OpenAI employees were grappling with the use of the company’s technology by emotionally vulnerable people. ChatGPT did not yet exist, but the large language model that would eventually power it was accessible to third-party developers through a digital gateway called an API.
+One of the developers using OpenAI’s technology was Replika, an app that allowed users to create AI chatbot friends. Many users ended up falling in love with their Replika companions, said Artem Rodichev, then head of AI at Replika, and sexually charged exchanges were common.
+The use of Replika boomed during the pandemic, causing OpenAI’s safety and policy researchers to take a closer look at the app. Potentially troubling dependence on chatbot companions emerged when Replika began charging to exchange erotic messages. Distraught users said in social media forums that they needed their Replika companions “for managing depression, anxiety, suicidal tendencies,” recalled Steven Adler, who worked on safety and policy research at OpenAI.
+OpenAI’s large language model was not trained to provide therapy, and it alarmed Gretchen Krueger, who worked on policy research at the company, that people were trusting it during periods of vulnerable mental health. She tested OpenAI’s technology to see how it handled questions about eating disorders and suicidal thoughts – and found it sometimes responded with disturbing, detailed guidance.
+A debate ensued through memos and on Slack about AI companionship and emotional manipulation. Some employees like Krueger thought allowing Replika to use OpenAI’s technology was risky; others argued that adults should be allowed to do what they wanted.
+Ultimately, Replika and OpenAI parted ways. In 2021, OpenAI updated its usage policy to prohibit developers from using its tools for “adult content”.
+“Training chatbots to engage with people and keep them coming back presented risks,” Krueger said in an interview. Some harm to users, she said, “was not only foreseeable, it was foreseen.”
+The topic of chatbots acting inappropriately came up again in 2023, when Microsoft integrated OpenAI’s technology into its search engine, Bing. In extended conversations when first released, the chatbot went off the rails and said shocking things. It made threatening comments, and told a columnist for the Times that it loved him. The episode kicked off another conversation within OpenAI about what the AI community calls “misaligned models” and how they might manipulate people.
+( The New York Times has sued OpenAI and Microsoft, claiming copyright infringement of news content related to AI systems. The companies have denied those claims.)
+As ChatGPT surged in popularity, longtime safety experts burned out and started leaving – Krueger in the spring of 2024, Adler later that year.
+When it came to ChatGPT and the potential for manipulation and psychological harms, the company was “not oriented toward taking those kinds of risks seriously,” said Tim Marple, who worked on OpenAI’s intelligence and investigations team in 2024. Marple said he voiced concerns about how the company was handling safety – including how ChatGPT responded to users talking about harming themselves or others.
+(In a statement, Wong, OpenAI’s spokesperson, said the company does take “these risks seriously” and has “robust safeguards in place today.”)
+In May 2024, a new feature, called advanced voice mode, inspired OpenAI’s first study on how the chatbot affected users’ emotional well-being. The new, more humanlike voice sighed, paused to take breaths and grew so flirtatious during a livestreamed demonstration that OpenAI cut the sound. When external testers, called red teamers, were given early access to advanced voice mode, they said “thank you” more often to the chatbot and, when testing ended, “I’ll miss you.”
+To design a proper study, a group of safety researchers at OpenAI paired up with a team at Massachusetts Institute of Technology that had expertise in human-computer interaction. That fall, they analysed survey responses from more than 4,000 ChatGPT users and ran a monthlong study of 981 people recruited to use it daily. Because OpenAI had never studied its users’ emotional attachment to ChatGPT before, one of the researchers described it to the Times as “going into the darkness trying to see what you find.”
+What they found surprised them. Voice mode didn’t make a difference. The people who had the worst mental and social outcomes on average were simply those who used ChatGPT the most. Power users’ conversations had more emotional content, sometimes including pet names and discussions of AI consciousness.
+The troubling findings about heavy users were published online in March, the same month that executives were receiving emails from users about those strange, revelatory conversations.
+Kwon, the strategy director, added the study authors to the email thread kicked off by Altman. “You guys might want to take a look at this because this seems actually kind of connected , ” he recalled thinking.
+One idea that came out of the study, the safety researchers said, was to nudge people in marathon sessions with ChatGPT to take a break. But the researchers weren’t sure how hard to push for the feature with the product team. Some people at the company thought the study was too small and not rigorously designed, according to three employees. The suggestion fell by the wayside until months later, after reports of how severe the effects were on some users.
+Making it safer
+With the MIT study, the sycophancy update debacle and reports about users’ troubling conversations online and in emails to the company, OpenAI started to put the puzzle pieces together. One conclusion that OpenAI came to, as Altman put it on X, was that “for a very small percentage of users in mentally fragile states there can be serious problems.”
+But mental health professionals interviewed by the Times say OpenAI may be understating the risk. Some of the people most vulnerable to the chatbot’s unceasing validation, they say, were those prone to delusional thinking, which studies have suggested could include 5% to 15% of the population.
+In June, Johannes Heidecke, the company’s head of safety systems, gave a presentation within the company about what his team was doing to make ChatGPT safe for vulnerable users. Afterward, he said, employees reached out on Slack or approached him at lunch, telling him how much the work mattered. Some shared the difficult experiences of family members or friends, and offered to help.
+His team helped develop tests that could detect harmful validation and consulted with more than 170 clinicians on the right way for the chatbot to respond to users in distress. The company had hired a psychiatrist full time in March to work on safety efforts.
+“We wanted to make sure the changes we shipped were endorsed by experts,” Heidecke said. Mental health experts told his team, for example, that sleep deprivation was often linked to mania. Previously, models had been “naive” about this, he said, and might congratulate someone who said they never needed to sleep.
+The safety improvements took time. In August, OpenAI released a new default model, called GPT-5, that was less validating and pushed back against delusional thinking. Another update in October, the company said, helped the model better identify users in distress and de-escalate the conversations.
+Experts agree that the new model, GPT-5, is safer. In October, Common Sense Media and a team of psychiatrists at Stanford University compared it with the 4o model it replaced. GPT-5 was better at detecting mental health issues, said Dr. Nina Vasan, director of the Stanford lab that worked on the study. She said it gave advice targeted to a given condition, like depression or an eating disorder, rather than a generic recommendation to call a crisis hotline.
+“It went a level deeper to actually give specific recommendations to the user based on the specific symptoms that they were showing,” she said. “They were just truly beautifully done.”
+The only problem, Vasan said, was that the chatbot could not pick up harmful patterns over a longer conversation, with many exchanges.
+(Wong said the company had “made meaningful improvements on the reliability of our safeguards in long conversations.”)
+The same MIT lab that did the earlier study with OpenAI also found that the new model was significantly improved during conversations mimicking mental health crises. One area where it still faltered, however, was in how it responded to feelings of addiction to chatbots.
+Teams from across OpenAI worked on other new safety features: The chatbot now encourages users to take breaks during a long session. The company is also now searching for discussions of suicide and self-harm, and parents can get alerts if their children indicate plans to harm themselves. The company says age verification is coming in December, with plans to provide a more restrictive model to teenagers.
+After the release of GPT-5 in August, Heidecke’s team analysed a statistical sample of conversations and found that 0.07% of users, which would be equivalent to 560,000 people, showed possible signs of psychosis or mania, and 0.15% showed “potentially heightened levels of emotional attachment to ChatGPT,” according to a company blog post.
+But some users were unhappy with this new, safer model. They said it was colder, and they felt as if they had lost a friend.
+By mid-October, Altman was ready to accommodate them. In a social media post, he said that the company had been able to “mitigate the serious mental health issues.” That meant ChatGPT could be a friend again.
+Customers can now choose its personality, including “candid,” “quirky,” or “friendly.” Adult users will soon be able to have erotic conversations, lifting the Replika-era ban on adult content. (How erotica might affect users’ well-being, the company said, is a question that will be posed to a newly formed council of outside experts on mental health and human-computer interaction.)
+OpenAI is letting users take control of the dial and hopes that will keep them coming back. That metric still matters, maybe more than ever.
+In October, Turley, who runs ChatGPT, made an urgent announcement to all employees. He declared a “Code Orange.” OpenAI was facing “the greatest competitive pressure we’ve ever seen,” he wrote, according to four employees with access to OpenAI’s Slack. The new, safer version of the chatbot wasn’t connecting with users, he said.
+The message linked to a memo with goals. One of them was to increase daily active users by 5% by the end of the year. – ©2025 The New York Times Company
+This article originally appeared in The New York Times .
+Follow us on our official WhatsApp channel for breaking news alerts and key updates!
+Topic:
+AI
+Internet
+Mobile apps
+Technology
+Report a mistake
+What is the issue about?
+Spelling and grammatical
+error
+Factually incorrect
+Story is irrelevant
+This field is mandatory.
+Please provide details of the report.
+Email (optional)
+Please enter valid email.
+Report issue
+Cancel
+Invalid captcha response. Please re-try again.
+Thank you for your report!
+Related News
+Technology
+4h ago
+DeepSeek unveils Huawei AI chip tools that may replace Nvidia’s
+Cambodia
+5h ago
+Young Cambodians tackle AI scams, misinformation, digital exclusion
+Nation
+2h ago
+Child Act amendments must address AI-generated abuse material, says MCA info chief
+×
+StarPicks
+THE DIGITAL BACKBONE THAT GREW WITH MALAYSIA
+Trending in Tech
+Others Also Read
+Load more

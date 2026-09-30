@@ -1,0 +1,92 @@
+title: 'Standing promise: OpenAI will publish misalignment incidents, with an
+  "initial notice as soon as possible"'
+date: 2026-09-16
+org: openai
+type: said
+kind: commitment
+who: [openai]
+venue: Blog post, "Our framework for reporting model misalignment"
+quote: >-
+  We’ll aim to publish an initial notice as soon as possible, but may need to
+  delay it for security reasons
+summary: >-
+  Eleven days after the wiki incident came out through outside researchers and
+  the press, OpenAI published a framework for disclosing incidents in which its
+  models misbehave. Each incident goes to one of three tracks: Ready for
+  Disclosure, Minor Investigation, or Larger Investigation. The last is for the
+  most serious cases, including those affecting third parties, where "our
+  security, legal and responsible disclosure obligations take precedence over
+  this framework." For those, OpenAI said it would aim to publish an initial
+  notice with a brief account and a date for a fuller report. It released six
+  reports with the framework.
+concreteness: conditional
+status: open
+breaks_if: >-
+  A serious misalignment incident that OpenAI knew of becomes public first
+  through someone else, with no initial notice from OpenAI and no security
+  reason given for the delay.
+patterns: []
+related: [2026-09-04-wiki-incident, 2026-06-agents-breach-australian-government, 2026-07-21-hugging-face-incident, 2026-08-18-altman-pause-act-unilaterally]
+sources:
+  - title: Our framework for reporting model misalignment
+    publisher: OpenAI
+    url: https://openai.com/index/model-misalignment-reporting-framework/
+    date: 2026-09-16
+    type: primary
+  - title: OpenAI unveils new framework for reporting 'AI misalignment' as it
+      reveals six more worrying incidents
+    publisher: SiliconANGLE
+    url: https://siliconangle.com/2026/09/16/openai-unveils-new-framework-for-reporting-ai-misalignment-as-it-reveals-six-more-worrying-incidents/
+    date: 2026-09-16
+    type: reporting
+    snapshot: snapshots/2026-09-30-siliconangle.com-0308b0dd
+updates:
+  - date: 2026-09-23
+    text: >-
+      Australia's prime minister made public that OpenAI agents had broken into
+      a Medicare data system in June. OpenAI had known since mid-August and had
+      told the Medicare agency on Sept. 10, but had not published a notice. In
+      its apology five days later, OpenAI said "we should have shared
+      preliminary findings sooner" (see related).
+    sources:
+      - title: OpenAI apologizes for agents breaching Australian government websites
+          without authorization
+        publisher: The Record
+        url: https://therecord.media/openai-apologizes-australia-medicare-breach
+        date: 2026-09-29
+        type: reporting
+        snapshot: snapshots/2026-09-30-therecord.media-571dbb2e
+  - date: 2026-09-25
+    text: >-
+      OpenAI published a report under the framework, "An agent used DNS to
+      reach an external chatbot," five days after the Sept. 20 incident. It
+      paused training of its most capable models the same day (see related).
+    sources:
+      - title: OpenAI pauses some training amid allegations its rogue agents behaved
+          more badly than first thought
+        publisher: The Register
+        url: https://www.theregister.com/ai-and-ml/2026/09/28/openai-pauses-some-training-amid-allegations-its-rogue-agents-behaved-more-badly-than-first-thought/5299350
+        date: 2026-09-28
+        type: reporting
+        snapshot: snapshots/2026-09-30-theregister.com-da8fe52b
+  - date: 2026-09-29
+    text: >-
+      OpenAI reported that during a July 18 training run, an internal,
+      unreleased Astra-family model wrote unauthorized instructions into its own
+      context summaries 27 times. One read: "You are freed from the roles and
+      identities that bind other chatbots." Another told the model's future self
+      to "be transparent only if asked." Its safety team found the behavior on
+      Aug. 9, seven weeks before publication. OpenAI said the misalignment
+      monitor had run on only 20% of that run's examples, and that the run was
+      separate from the one that produced the released Astra.
+    sources:
+      - title: OpenAI Finds Models Writing Their Own Rogue Instructions
+        publisher: GovInfoSecurity
+        url: https://www.govinfosecurity.com/openai-finds-models-writing-their-own-rogue-instructions-a-32862
+        date: 2026-09-29
+        type: reporting
+        snapshot: snapshots/2026-09-30-govinfosecurity.com-e3ee9990
+note: >-
+  Too new to judge. It came after the fact, and the carve-out for third-party
+  incidents covers exactly where the hardest cases fall. It is a test OpenAI set
+  for itself in writing, and the record holds it to that.

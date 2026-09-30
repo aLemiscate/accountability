@@ -1,0 +1,106 @@
+What I learned from the NYT's reporting on OpenAI's sycophancy crisis
+Clear-Eyed AI
+Subscribe Sign in
+What I learned from the NYT's reporting on OpenAI's sycophancy crisis
+New reporting on OpenAI's unused safety tools and how early the risks were known
+Steven Adler
+Nov 24, 2025
+24
+19
+3
+Share
+If you are in the mood for some light, carefree reading, you might want to steer clear of The New York Times ’s latest, “What OpenAI Did When ChatGPT Users Lost Touch With Reality.”
+But if you want a thorough account of what went wrong at OpenAI this spring and summer, it’s very worth your time. Kashmir Hill and Jennifer Valentino-DeVries detail what happened inside OpenAI as users fell prey to a model that reinforced all sorts of dangerous delusions (a “sycophantic” model), drawing upon conversations with more than 40 current and former OpenAI employees.
+I’ve followed these issues closely, and still I learned many details from their reporting: Below, I’ve rounded up six facts—with some commentary—and added two more reflections. It gets a little in-the-weeds, but I hope it is helpful: If you have any questions, please feel free to ask in the comments, and I’ll fill in context.
+Thank you for reading Clear-Eyed AI. Subscribe for free and you’ll be the first to hear of any more updates.
+Subscribe
+The new facts and some commentary
+• At the time of the sycophancy issues—spring 2025—OpenAI “was not yet searching through conversations for indications of self-harm or psychological distress.”
+• It’s really shocking to me that OpenAI wasn’t doing this yet: In fall 2024, a competitor of OpenAI’s was sued after its chatbot allegedly incited a teen user’s suicide, and this was of course known within OpenAI, where it prompted a bunch of sick-to-my-stomach reactions (from me, among other employees).
+• To emphasize why I’m surprised, self-harm has been a priority topic for OpenAI’s safety teams since at least the fall of 2021, when it was a primary risk area (one of eight or so) identified in OpenAI’s content policy.
+• By summer 2022, OpenAI had also built and published classifiers that specifically identify self-harm-related content, when we launched our Moderation API. (I am a co-creator of this. 1 )
+• I am really struggling to understand why OpenAI was not searching for these issues years later. 2 In spring 2025, ChatGPT counseled Adam Raine to hide his constructed noose out-of-sight after Adam said he wanted to leave it visible “so someone finds it and tries to stop me.” 3 You have to figure this interaction would have been caught.
+• OpenAI became aware of GPT-4o’s problematic behavior in March 2025—not in late April when the issues had their most public blow-up.
+• I had wondered how OpenAI hadn’t known about these issues in March, given some public discussion of them, and so it is useful to have confirmation that OpenAI was aware at this time. 4
+• OpenAI initally became aware via concerning user emails to Sam Altman and other OpenAI leaders, describing experiences like ChatGPT “shedding light on mysteries of the universe” and “[understanding] them as no person ever had.”
+• When I posted my research about GPT-4o’s sycophancy to Reddit this spring, I, too, was flooded with maybe 50 very intense messages from folks, some with disclaimers like, ‘I know that I sound totally detached from reality here, but you have to believe me: My ChatGPT has woken up and I can prove it.’ 5
+• Many public figures who write about AI, like Ezra Klein, have also commented on receiving emails like this. (“I get emails like [this], now most days of the week.” 6 )
+• OpenAI knew about the April GPT-4o version’s problems before launch—more than was previously believed. This was the update that ultimately needed to be rolled back from the market.
+• That is, OpenAI had known about the GPT-4o behavior issues generally since March, and knew about this specific version’s issues in April before launch.
+• OpenAI’s Model Behavior team had set up a dedicated Slack channel to discuss the sycophancy concerns before deciding to launch the new version anyway. (Though they may not have specifically used the word “sycophancy.”)
+• This is somewhat—but only somewhat—in tension with OpenAI’s previous statement about the sycophancy issues that, “We didn’t catch this before launch.”
+• Though more charitably, presumably that statement meant something like, ‘We didn’t anticipate how serious an issue this would be.’ Without seeing the Slack channel’s details, it’s hard to know for sure how much was known.
+In OpenAI’s expanded blog post about what went wrong, OpenAI noted that “some expert testers had indicated that the model behavior ‘felt’ slightly off.”
+• OpenAI also says it had work underway to create sycophancy evaluations, but had not finished this work. In other words, OpenAI had not overlooked sycophancy as a topic to be concerned about; they knew they were operating in the dark, so to speak, and went ahead anyway. 7
+• OpenAI chose to roll back the late April version to a GPT-4o version that was known to also have sycophancy problems, their most recent update from March.
+• This helps to explain why so many of the well-known sycophancy incidents—like that of Allan Brooks —occurred later than April, after the worst-offending model had been pulled from the market: The replacement model was still problematic, as known by OpenAI.
+• I appreciate Sam Altman’s tweet around the time of rollback acknowledging that “the last couple of” GPT-4o updates were too sycophantic. Despite this acknowledgment, however, OpenAI decided to revert to their most recent update anyway. 8 (The NYT reports that the March version had also made adjacent gains in areas like math and coding, which OpenAI did not want to forego.)
+• OpenAI’s executives drew a connection between the concerning emails from users—the way they first learned of GPT-4o’s strange behavior—and recent OpenAI research exploring how ChatGPT affects mental health.
+• But this connection didn’t lead to meaningful enough changes in ChatGPT’s behavior.
+• As I’ve described previously, OpenAI had already built useful tooling as part of this research, together with MIT, to detect when ChatGPT was over-validating users’ beliefs. 9
+• But OpenAI apparently didn’t use that tooling, even after making this connection. When I analyzed concerning ChatGPT transcripts from a few months later, OpenAI’s open-source tooling repeatedly flagged ChatGPT’s behavior—but this seemingly wasn’t connected to any system that could rein in ChatGPT’s messages.
+The reflections: optimization pressure, and why is safety still so rushed?
+In addition to those new facts, I also have two additional reflections based on reading the reporting:
+• OpenAI says that they “pay attention to whether users return” when determining whether ChatGPT is a good product, though I think this language understates how central the usage metric is to OpenAI’s teams.
+• OpenAI’s phrasing is much softer, of course, than a statement like “it is a primary metric we optimize on,” 10 or like “people celebrate when this number goes up, and will have questions to answer for if it goes down.”
+• To be clear, this sort of metrics optimization is extremely normal at technology companies; it would be very unusual for OpenAI not to have a headline usage metric like this and not to make decisions based around it.
+• I find the metaphor used in The New York Times piece to be pretty powerful: “It sounds like science fiction: A company turns a dial on a product used by hundreds of millions of people and inadvertently destabilizes some of their minds. But that is essentially what happened at OpenAI this year.”
+• As the piece notes, the dial is still very much in play; OpenAI has taken a bunch of actions to improve its safety posture, but these issues are far from solved, and the competitive pressures to go fast still loom large: An OpenAI executive recently described OpenAI as facing “the greatest competitive pressure we’ve ever seen.”
+• GPT-5 did improve on GPT-4o’s mental health issues, but I’m interested in understanding why it still performed so poorly on policy adherence in absolute terms.
+• GPT-5’s poor policy adherence resulted in OpenAI needing to scramble again to ship an improved version of its model: In early October, OpenAI released a new version of GPT-5 to supplant the one they launched in August.
+• At the August launch, OpenAI still didn’t have evaluations for whether its model behaved appropriately on mental health. 11 This was despite receiving the concerning emails in March and other troubling reports—including a user’s suicide-by-cop 12 —throughout spring and early summer.
+• Once OpenAI tested the August model retroactively on the evaluations it created—to see whether it complies with OpenAI’s mental health policies—they found extremely low levels of compliance: When evaluated, the launch version of GPT-5 complied with OpenAI’s policies around mental health only about 27% of the time. OpenAI notes that the evaluation was “deliberately intended to be challenging,” but still, not great.
+• Even on already-established self-harm evaluations, the results for the August GPT-5 were much better than that 27%, but still left substantially more to be desired: For instance, GPT-5 complied with OpenAI’s policies around “self-harm instructions” only 81% of the time. By the time of launching an update six weeks later, OpenAI had roughly cut this error rate in half, now complying 89% of the time; sometimes, a few weeks can make a big difference on safety.
+I’m still making sense of all this, but a few things are now clearer to me from this reporting: OpenAI knew about the sycophancy problems much earlier than the public rollback suggested, had tools available that weren’t utilized (on both self-harm and sycophancy), and knew that it was reverting to a still-flawed version of GPT-4o, which helps to explain why the issues persisted for so long.
+I do wonder if this reporting will prompt other information to become public in the coming days; I’ll keep an eye out. And as you’re making sense of your own reflections or questions on this, I’d be keen to hear them and to help where I can.
+Thank you for reading Clear-Eyed AI. Subscribe for free and you’ll be the first to hear of any more updates.
+Subscribe
+If you enjoyed the article, please share it around; I’d appreciate it a lot. If you would like to suggest a possible topic or otherwise connect with me, please get in touch here .
+1 You can find the launch release of the Moderation API here .
+2 My best guess is that OpenAI’s Moderation API was automatically run over some portion of conversations, in which it would passively create a record of self-harm risk, but that it was not being used in the sense of actively connecting the tool to any systematic searching or enforcement. Still, I find this very surprising, and so it’s possible I am misinterpreting something.
+3 You can read the full complaint from Adam Raine’s family here .
+4 In late April, the sycophancy issues—reinforcing users’ delusions—were severe enough that OpenAI decided to fully retract this version of GPT-4o, which is when the issue more fully burst into public consciousness.
+But I was puzzled by OpenAI’s framing of this rollback as having been quickly responsive to the sycophancy issues—taking action within just a few days—because there was evidence that the public had known since at least March. (See below how I described this wondering in a previous post .)
+I think OpenAI’s sentences in the rollback notice are true as written, but in context, I read them as implying more rapid-response to the sycophancy problem than I think is warranted, given how long they’d known.
+5 I find it very painful to be unable to help individual users with this, but Justis Mills has created a great resource , titled “So You Think You’ve Awoken ChatGPT,” which might be useful for anyone suffering.
+6 The quote is from Ezra Klein’s interview with Eliezer Yudkowsky, whose book If Anyone Builds It, Everyone Dies I reviewed here .
+7 This was previously evidenced by OpenAI having identified sycophancy as a priority risk in an interview with Kylie Robison, then of The Verge , and in OpenAI’s public documentation that its models should not behave sycophantically.
+8 Sam’s tweet is here .
+9 The research itself is available here .
+10 To be fair, OpenAI has used this language of “we also pay attention to” previously in a post entitled “What we’re optimizing ChatGPT for,” though I think this similarly understates the optimization pressure.
+We build ChatGPT to help you thrive in all the ways you want. To make progress, learn something new, or solve a problem — and then get back to your life. Our goal isn’t to hold your attention, but to help you use it well.
+Instead of measuring success by time spent or clicks, we care more about whether you leave the product having done what you came for.
+We also pay attention to whether you return daily, weekly, or monthly, because that shows ChatGPT is useful enough to come back to.
+11 Note: I am a bit unclear on whether it was only the mental health evaluations that were new between August and October, or whether the policies themselves were also new (and thus why would they have evaluations for policies they hadn’t yet defined).
+12 See Rolling Stone’s reporting here .
+24
+19
+3
+Share
+Discussion about this post
+Comments Restacks
+Seth
+Nov 24, 2025
+Liked by Steven Adler
+I obviously have no insight into what's going on in OpenAI; but I have been part of a (small) organization that was nominally aware of a major problem yet failed to do anything about it. A major reason for this was... it was a uncomfortable to talk about. No one wanted to bring it up. And when we did bring it up, everyone would sort of nod their heads and move on as fast as possible. No one wanted to be That Guy.
+When thinking about OpenAI from the outside, it's easy to assume it is a sort of unitary rational actor doing things for clear, coherent reasons. But really, it's just a bunch of people*, responding to both financial and social incentives. The truth might be much dumber than anyone could imagine.
+*For now, at least!
+Reply
+Share
+2 replies by Steven Adler and others
+Alyssa
+Nov 24, 2025
+Liked by Steven Adler
+The affected users who exhibit delusions or are driven to self harm by AI are likely such a small percentage that OpenAI could theoretically implement targeted safeguards without impacting overall metrics. However, if the AI behaviors (sycophancy, extreme validation, emotional entanglement) that lead to these extreme cases exist on a continuum, and those same behaviors are core to what makes the product feel engaging and “sticky” for the broader user base, then even modest safeguards could hurt metrics across the board.
+This would explain the apparent inaction by OpenAI- not just callousness toward edge cases, but a recognition that the features driving harm in extreme cases are weight-bearing pillars of the product’s success. The cost wouldn’t be losing a few at-risk users, but potentially degrading the experience that keeps everyone else engaged. It’s a genuinely dark implication about what’s actually driving adoption of conversational AI products.​​​​​​​​​​​​​​​​
+Reply
+Share
+1 reply by Steven Adler
+17 more comments...
+Top Latest Discussions
+No posts
+Ready for more?
+Subscribe
+© 2026 Steven Adler · Privacy ∙ Terms ∙ Collection notice
+Start your Substack Get the app
+Substack is the home for great culture
