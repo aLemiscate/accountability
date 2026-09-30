@@ -35,6 +35,13 @@ sources:
     type: analysis
     archive: https://web.archive.org/web/20260929220725/https://en.wikipedia.org/wiki/Leading_the_Future
     snapshot: snapshots/2026-09-29-en.wikipedia.org-63aabc7b
+  - title: Greg Brockman on X ("My wife Anna and I are supporting
+      @LeadingFutureAI")
+    publisher: X
+    url: https://x.com/gdb/status/1960022650228793440
+    date: 2025-08-25
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-3d7beeea
 response: >-
   The contributions are Brockman's personal money, not OpenAI corporate funds.
   In a February 2026 memo to staff, chief global affairs officer Chris Lehane
@@ -65,6 +72,18 @@ updates:
         date: 2026-01-02
         type: primary
         snapshot: snapshots/2026-09-29-x.com-3d21766c
+  - date: 2026-03-25
+    text: >-
+      OpenAI's chief futurist, Joshua Achiam, wrote: "I am
+      pretty sure the effort by the pro-AI lobby to torpedo Alex Bores will
+      later on be widely understood as a pointless own-goal."
+    sources:
+      - title: Joshua Achiam on X
+        publisher: X
+        url: https://x.com/jachiam0/status/2036872170044018943
+        date: 2026-03-25
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-84f8907f
   - date: 2026-06-23
     text: >-
       Alex Bores lost the Democratic primary for New York's 12th congressional

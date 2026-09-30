@@ -29,5 +29,17 @@ sources:
     type: reporting
     archive: https://web.archive.org/web/20260924064531/https://www.404media.co/openai-sam-altman-interview-chatgpt-erotica/
     snapshot: snapshots/2026-09-29-404media.co-165d8f50
+updates:
+  - date: 2024-12-25
+    text: >-
+      Eight months earlier, replying to a user, Altman had written: "ok we will
+      work on agi and someone else can do the sexbots, deal?"
+    sources:
+      - title: Sam Altman on X
+        publisher: X
+        url: https://x.com/sama/status/1871733176911249457
+        date: 2024-12-25
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-151a40fa
 note: >-
   He offered it as proof of restraint. Its shelf life was about two months.

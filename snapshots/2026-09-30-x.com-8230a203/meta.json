@@ -1,0 +1,35 @@
+{
+  "url": "https://x.com/sama/status/1616857158100078592",
+  "captured_at": "2026-09-30T04:58:09.745Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "dfb39f88747a5713989468decd68f90d02b1559beeaf8800666e337f0df46544",
+    "page.txt": "a30becd8b0b5ca4d2d8f38dbfa919786f27448e88cb600bfa54ac404b8a3cbdb",
+    "post.json": "24a891c7b7e10621ff8afc23d08a7fa6e8b030309e325cff09e8ae0461a2bdf8",
+    "syndication.json": "87179e5350ff6d6a451b2b0e3a2850b538565006973989752932e953fe228ca5",
+    "media-1.jpg": "673e3496a6689b4c12080d0fc35d0049018425edd9561d6fc99bab80864e2256",
+    "media-2.jpg": "c816ecb5b55360a80cbc616b27c9929573845ad00cb3676ad1a188255753abf9",
+    "post.txt": "55282863d94551beeeefb144951845bfc220ab5f3af65cc58cba2c15b41d6e85"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1616857158100078592",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"🤔\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "January 21, 2023",
+    "posted_at": "2023-01-21T17:56:00.901Z",
+    "media": [
+      {
+        "file": "media-1.jpg",
+        "url": "https://pbs.twimg.com/media/FnA6ol4aEAAueI3.jpg"
+      },
+      {
+        "file": "media-2.jpg",
+        "url": "https://pbs.twimg.com/media/FnA6ol4aMAIrRdg.jpg"
+      }
+    ]
+  }
+}
