@@ -161,7 +161,8 @@ export async function waybackPosts(handle, { from, to, pageSize = 10000, onPage 
  * how many posts it has made (including reposts). Null when X won't say.
  */
 export async function fetchXProfile(handle) {
-  const res = await fetchPatiently(`https://syndication.twitter.com/srv/timeline-profile/screen-name/${encodeURIComponent(handle)}`, { timeout: 30000 }, { tries: 4, wait: 60000 });
+  // One try: X rate-limits this endpoint hard, and the count is a nice-to-have.
+  const res = await fetchWithTimeout(`https://syndication.twitter.com/srv/timeline-profile/screen-name/${encodeURIComponent(handle)}`, { timeout: 30000 });
   if (!res.ok) return null;
   const m = /<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/.exec(await res.text());
   if (!m) return null;
