@@ -60,6 +60,28 @@ response: >-
   to block unsafe deployments through a statutory process that is "transparent,
   fair, clear, and grounded in technical facts," and that this action was not
   one.
+updates:
+  - date: 2026-06-26
+    text: >-
+      Two weeks later OpenAI released its GPT-5.6 models only to a "small group
+      of trusted partners" whose participation had been shared with the
+      government; Altman wrote that the limited launch came "at the request of
+      the US government." OpenAI said: "We don't believe this kind of government access process should
+      become the long-term default."
+    sources:
+      - title: Sam Altman on X
+        publisher: X
+        url: https://x.com/sama/status/2070607488274358364
+        date: 2026-06-26
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-7846df00
+      - title: OpenAI limits GPT-5.6 rollout after government request, says
+          restrictions shouldn't be the norm
+        publisher: TechCrunch
+        url: https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/
+        date: 2026-06-26
+        type: reporting
+        snapshot: snapshots/2026-09-30-techcrunch.com-1656bcd1
 note: >-
   The first test of the April promise came three days after launch, and it came
   from a government order, not from Anthropic. The two sides disagree about how
