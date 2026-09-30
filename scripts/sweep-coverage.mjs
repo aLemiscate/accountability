@@ -3,6 +3,10 @@
 // how many posts it has made, how many of them the Wayback Machine archived,
 // and how many of those were read. Writes inbox/sweep/COVERAGE.md.
 //
+// Post totals come from each sweep, or from inbox/sweep/profiles.json
+// ({ "<handle>": { "name", "posts", "checked" } }) when X wouldn't say during
+// the sweep: its profile endpoint rate-limits hard.
+//
 //   npm run sweep-coverage
 import { readdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -11,6 +15,8 @@ import { ROOT, readYaml } from './lib.mjs';
 const dir = path.join(ROOT, 'inbox', 'sweep');
 const accounts = await readYaml(path.join(ROOT, 'data', 'accounts.yaml'));
 const files = (await readdir(dir).catch(() => [])).filter((f) => f.endsWith('.coverage.json'));
+const profiles = JSON.parse(await readFile(path.join(dir, 'profiles.json'), 'utf8').catch(() => '{}'));
+const profileOf = (h) => Object.entries(profiles).find(([k]) => k.toLowerCase() === h.toLowerCase())?.[1];
 const byHandle = new Map();
 for (const f of files) {
   const c = JSON.parse(await readFile(path.join(dir, f), 'utf8'));
@@ -21,14 +27,17 @@ const n = (v) => (v == null ? '?' : v.toLocaleString('en-US'));
 const pct = (a, b) => (a != null && b ? `${Math.round((100 * a) / b)}%` : '');
 const rows = [];
 const totals = { posts_on_x: 0, known: 0, read: 0, with_text: 0, deleted: 0, unread: 0, matched: 0 };
+let archivedWithTotal = 0; // archived posts of accounts whose post total is known, for the overall share
 const missing = [];
 for (const a of accounts.filter((x) => x.x)) {
   const c = byHandle.get(a.x.toLowerCase());
+  if (c && c.posts_on_x == null) c.posts_on_x = profileOf(a.x)?.posts ?? null;
   if (!c) {
     missing.push(`@${a.x}`);
     continue;
   }
   for (const k of Object.keys(totals)) totals[k] += c[k] ?? 0;
+  if (c.posts_on_x) archivedWithTotal += c.known ?? 0;
   rows.push(`| [@${c.account}](${c.account}.md) | ${n(c.posts_on_x)} | ${n(c.known)} | ${pct(c.known, c.posts_on_x)} | ${n(c.read)} | ${n(c.unread)} | ${n(c.deleted)} | ${n(c.matched)} | ${c.oldest ?? ''} – ${c.newest ?? ''} | ${c.swept_at.slice(0, 10)}${c.problems?.length ? ` · ${c.problems.join('; ').replace(/\|/g, '/')}` : ''} |`);
 }
 
@@ -44,7 +53,7 @@ const md = [
   '| Account | Posts on X | Archived | Share | Read | Not read yet | Possibly deleted | Topic matches | Posted | Swept |',
   '| --- | --: | --: | --: | --: | --: | --: | --: | --- | --- |',
   ...rows,
-  `| **All ${rows.length} swept** | ${n(totals.posts_on_x)} | ${n(totals.known)} | ${pct(totals.known, totals.posts_on_x)} | ${n(totals.read)} | ${n(totals.unread)} | ${n(totals.deleted)} | ${n(totals.matched)} | | |`,
+  `| **All ${rows.length} swept** | ${n(totals.posts_on_x)} | ${n(totals.known)} | ${pct(archivedWithTotal, totals.posts_on_x)} | ${n(totals.read)} | ${n(totals.unread)} | ${n(totals.deleted)} | ${n(totals.matched)} | | |`,
   '',
   missing.length ? `Not swept yet: ${missing.join(', ')}.` : 'Every account has been swept.',
   '',
