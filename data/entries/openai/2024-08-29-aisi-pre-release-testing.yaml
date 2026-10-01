@@ -19,7 +19,7 @@ status: kept
 breaks_if: >-
   A major OpenAI model ships without the government institute having had
   pre-release access.
-patterns: []
+patterns: [unfalsifiable]
 related: [2024-08-29-anthropic-aisi-pre-release-testing, 2023-07-21-white-house-voluntary-commitments]
 sources:
   - title: Sam Altman on X

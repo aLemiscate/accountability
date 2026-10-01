@@ -23,7 +23,7 @@ breaks_if: >-
   A significant public model release ships without a public report on its safety
   evaluations, limitations and societal risks; or Anthropic says the commitments
   no longer apply without regulation having replaced them.
-patterns: []
+patterns: [unfalsifiable]
 related: [2023-07-21-white-house-voluntary-commitments]
 sources:
   - title: Ensuring Safe, Secure, and Trustworthy AI (commitments text)

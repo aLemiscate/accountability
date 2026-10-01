@@ -18,7 +18,7 @@ summary: >-
   Hugging Face had first attributed the attack to an "external AI agent"; it
   described "many thousands of individual actions across a swarm of short-lived
   sandboxes."
-patterns: []
+patterns: [safeguards-on-paper, told-last]
 related:
   [
     2025-04-15-preparedness-framework-v2,

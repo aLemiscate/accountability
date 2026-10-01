@@ -20,7 +20,7 @@ summary: >-
   reductions in CoT monitorability, though we cannot rule out effects which are
   harder to measure." GPT-5.5 was not affected.
 contradicts: [2025-03-10-cot-optimization-pressure]
-patterns: []
+patterns: [safeguards-on-paper]
 related: [2026-08-14-risk-report-classifier-gap]
 sources:
   - title: Investigating the consequences of accidentally grading CoT during RL

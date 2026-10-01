@@ -22,7 +22,7 @@ summary: >-
   reasoning, this report said "we do not generally train models" that way.
 contradicts: [2026-02-10-opus-4-6-reasoning-not-trained]
 related: [2026-05-07-accidental-cot-grading, 2025-11-24-sabotage-risk-reports-commitment, 2026-04-07-mythos-preview-not-general]
-patterns: []
+patterns: [safeguards-on-paper]
 sources:
   - title: 'Alignment Risk Update: Claude Mythos Preview, sections 5.2.3 and 5.3.2'
     publisher: Anthropic
