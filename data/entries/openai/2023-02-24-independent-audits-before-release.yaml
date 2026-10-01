@@ -72,6 +72,28 @@ updates:
         date: 2025-04-15
         type: primary
         snapshot: snapshots/2026-09-29-cdn.openai.com-ec5d8e7d
+  - date: 2026-07-06
+    text: >-
+      OpenAI endorsed Illinois's S.B. 315, signed into law on July 6, 2026.
+      From 2028 it requires AI developers with more than $500 million in annual
+      revenue to hire outside auditors to check their safety work every year.
+      The Hill reported that the endorsement surprised some in the industry,
+      given past opposition to similar audit provisions. Annual audits of safety
+      practices are not the same as auditing each system before release, but
+      from 2028 OpenAI's will be required by law rather than promised.
+    sources:
+      - title: What is Senate Bill 315, signed into law by Illinois Gov. JB Pritzker
+        publisher: WGN-TV
+        url: https://wgntv.com/news/illinois/gov-pritzker-puts-signature-on-senate-bill-315-one-of-toughest-ai-laws-in-country/
+        date: 2026-07-06
+        type: reporting
+        snapshot: snapshots/2026-10-01-wgntv.com-f7096776
+      - title: AI firms craft state rules as White House, Congress stall
+        publisher: The Hill
+        url: https://thehill.com/policy/technology/5918733-openai-anthropic-ai-regulation/
+        date: 2026-06-10
+        type: reporting
+        snapshot: snapshots/2026-10-01-thehill.com-5cc29f66
 note: >-
   The idea wasn't dropped outright. In September 2026 Altman promised
   independent evaluators with "employee-like access." The written commitment,
