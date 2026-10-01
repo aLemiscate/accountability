@@ -1,0 +1,44 @@
+title: Pentagon awards Anthropic up to $200M for "agentic AI workflows"
+date: 2025-07-14
+org: anthropic
+type: did
+kind: action
+who: [anthropic]
+quote: >-
+  We're announcing a $200M ceiling contract with the U.S. Department of
+  Defense.
+summary: >-
+  The Pentagon's Chief Digital and AI Office gave Anthropic, Google and xAI
+  contracts with a $200M ceiling each, following a similar award to OpenAI a
+  month earlier, to develop "agentic AI workflows across a variety of mission
+  areas." Breaking Defense noted that the office has said it aims to apply AI
+  both to back-office processes and to uniquely military functions. Anthropic
+  said it would help "enhance U.S.
+  national security and responsible AI deployment."
+related: [2024-11-07-palantir-aws-defense, 2025-06-16-defense-contract-200m, 2026-02-27-anthropic-pentagon-red-lines]
+patterns: [principles-with-a-price]
+sources:
+  - title: Anthropic on X
+    publisher: X
+    url: https://x.com/AnthropicAI/status/1944848519065452754
+    date: 2025-07-14
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-1eacd459
+  - title: Anthropic, Google and xAI win $200M each from Pentagon AI chief for
+      'agentic AI'
+    publisher: Breaking Defense
+    url: https://breakingdefense.com/2025/07/anthropic-google-and-xai-win-200m-each-from-pentagon-ai-chief-for-agentic-ai/
+    date: 2025-07-14
+    type: reporting
+    snapshot: snapshots/2026-09-30-breakingdefense.com-eb13bc9a
+  - title: Anthropic, Google, OpenAI and xAI granted up to $200 million for AI work
+      from Defense Department
+    publisher: CNBC
+    url: https://www.cnbc.com/2025/07/14/anthropic-google-openai-xai-granted-up-to-200-million-from-dod.html
+    date: 2025-07-14
+    type: reporting
+    snapshot: snapshots/2026-09-30-cnbc.com-fe4c2e94
+note: >-
+  The same award OpenAI received a month earlier, recorded the same way. Seven
+  months later this relationship broke down over Anthropic's limits on
+  surveillance and autonomous weapons.

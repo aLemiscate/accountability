@@ -1,0 +1,312 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 282,
+  "lang": "en",
+  "created_at": "2026-03-24T16:05:13.000Z",
+  "display_text_range": [
+    0,
+    280
+  ],
+  "entities": {},
+  "id_str": "2036474423998554334",
+  "text": "Last fall, OpenAI announced its recapitalization, paving the way for the OpenAI Foundation to access significant resources. On behalf of the Board, I’m excited to share an update today on how the Foundation is starting to put that support to work – including our plans to spend at",
+  "user": {
+    "id_str": "7456262",
+    "name": "Bret Taylor",
+    "screen_name": "btaylor",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1782150890960658432/2qaPECed_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2036474423998554334"
+    ],
+    "editable_until_msecs": "1774371913000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 15,
+  "news_action_type": "conversation",
+  "card": {
+    "card_platform": {
+      "platform": {
+        "audience": {
+          "name": "production"
+        },
+        "device": {
+          "name": "iPhone",
+          "version": "13"
+        }
+      }
+    },
+    "name": "summary_large_image",
+    "url": "https://t.co/lmNcAa3UUR",
+    "binding_values": {
+      "photo_image_full_size_large": {
+        "image_value": {
+          "alt": "Update on the OpenAI Foundation",
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2103849322349756417/oNqvaBKp?format=png&name=800x419",
+          "width": 800
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image": {
+        "image_value": {
+          "alt": "Update on the OpenAI Foundation",
+          "height": 150,
+          "url": "https://pbs.twimg.com/card_img/2103849322349756417/oNqvaBKp?format=png&name=280x150",
+          "width": 267
+        },
+        "type": "IMAGE"
+      },
+      "description": {
+        "string_value": "The OpenAI Foundation holds equity in OpenAI Group, currently valued at approximately $130 billion—making it one of the best resourced philanthropic organizations in the world.",
+        "type": "STRING"
+      },
+      "domain": {
+        "string_value": "openaifoundation.org",
+        "type": "STRING"
+      },
+      "thumbnail_image_large": {
+        "image_value": {
+          "alt": "Update on the OpenAI Foundation",
+          "height": 320,
+          "url": "https://pbs.twimg.com/card_img/2103849322349756417/oNqvaBKp?format=png&name=800x320_1",
+          "width": 569
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_small": {
+        "image_value": {
+          "alt": "Update on the OpenAI Foundation",
+          "height": 202,
+          "url": "https://pbs.twimg.com/card_img/2103849322349756417/oNqvaBKp?format=png&name=386x202",
+          "width": 386
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_original": {
+        "image_value": {
+          "alt": "Update on the OpenAI Foundation",
+          "height": 1350,
+          "url": "https://pbs.twimg.com/card_img/2103849322349756417/oNqvaBKp?format=png&name=orig",
+          "width": 2400
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_small": {
+        "image_value": {
+          "alt": "Update on the OpenAI Foundation",
+          "height": 202,
+          "url": "https://pbs.twimg.com/card_img/2103849322349756417/oNqvaBKp?format=png&name=386x202",
+          "width": 386
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_large": {
+        "image_value": {
+          "alt": "Update on the OpenAI Foundation",
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2103849322349756417/oNqvaBKp?format=png&name=800x419",
+          "width": 800
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_small": {
+        "image_value": {
+          "alt": "Update on the OpenAI Foundation",
+          "height": 81,
+          "url": "https://pbs.twimg.com/card_img/2103849322349756417/oNqvaBKp?format=png&name=144x144",
+          "width": 144
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_x_large": {
+        "image_value": {
+          "alt": "Update on the OpenAI Foundation",
+          "height": 1152,
+          "url": "https://pbs.twimg.com/card_img/2103849322349756417/oNqvaBKp?format=png&name=2048x2048_2_exp",
+          "width": 2048
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_original": {
+        "image_value": {
+          "alt": "Update on the OpenAI Foundation",
+          "height": 1350,
+          "url": "https://pbs.twimg.com/card_img/2103849322349756417/oNqvaBKp?format=png&name=orig",
+          "width": 2400
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_alt_text": {
+        "string_value": "Update on the OpenAI Foundation",
+        "type": "STRING"
+      },
+      "vanity_url": {
+        "scribe_key": "vanity_url",
+        "string_value": "openaifoundation.org",
+        "type": "STRING"
+      },
+      "photo_image_full_size": {
+        "image_value": {
+          "alt": "Update on the OpenAI Foundation",
+          "height": 314,
+          "url": "https://pbs.twimg.com/card_img/2103849322349756417/oNqvaBKp?format=png&name=600x314",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_alt_text": {
+        "string_value": "Update on the OpenAI Foundation",
+        "type": "STRING"
+      },
+      "thumbnail_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 96.63,
+              "rgb": {
+                "blue": 120,
+                "green": 165,
+                "red": 15
+              }
+            },
+            {
+              "percentage": 3.24,
+              "rgb": {
+                "blue": 212,
+                "green": 226,
+                "red": 180
+              }
+            },
+            {
+              "percentage": 0.13,
+              "rgb": {
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "title": {
+        "string_value": "Update on the OpenAI Foundation",
+        "type": "STRING"
+      },
+      "summary_photo_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 96.63,
+              "rgb": {
+                "blue": 120,
+                "green": 165,
+                "red": 15
+              }
+            },
+            {
+              "percentage": 3.24,
+              "rgb": {
+                "blue": 212,
+                "green": 226,
+                "red": 180
+              }
+            },
+            {
+              "percentage": 0.13,
+              "rgb": {
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "summary_photo_image_x_large": {
+        "image_value": {
+          "alt": "Update on the OpenAI Foundation",
+          "height": 1152,
+          "url": "https://pbs.twimg.com/card_img/2103849322349756417/oNqvaBKp?format=png&name=2048x2048_2_exp",
+          "width": 2048
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image": {
+        "image_value": {
+          "alt": "Update on the OpenAI Foundation",
+          "height": 314,
+          "url": "https://pbs.twimg.com/card_img/2103849322349756417/oNqvaBKp?format=png&name=600x314",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 96.63,
+              "rgb": {
+                "blue": 120,
+                "green": 165,
+                "red": 15
+              }
+            },
+            {
+              "percentage": 3.24,
+              "rgb": {
+                "blue": 212,
+                "green": 226,
+                "red": 180
+              }
+            },
+            {
+              "percentage": 0.13,
+              "rgb": {
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "photo_image_full_size_x_large": {
+        "image_value": {
+          "alt": "Update on the OpenAI Foundation",
+          "height": 1152,
+          "url": "https://pbs.twimg.com/card_img/2103849322349756417/oNqvaBKp?format=png&name=2048x2048_2_exp",
+          "width": 2048
+        },
+        "type": "IMAGE"
+      },
+      "card_url": {
+        "scribe_key": "card_url",
+        "string_value": "https://t.co/lmNcAa3UUR",
+        "type": "STRING"
+      },
+      "summary_photo_image_original": {
+        "image_value": {
+          "alt": "Update on the OpenAI Foundation",
+          "height": 1350,
+          "url": "https://pbs.twimg.com/card_img/2103849322349756417/oNqvaBKp?format=png&name=orig",
+          "width": 2400
+        },
+        "type": "IMAGE"
+      }
+    }
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDM2NDc0NDIzODc2OTE5Mjk3"
+  }
+}

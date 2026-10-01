@@ -1,0 +1,86 @@
+title: 'Standing promise: no general release of a Mythos-class model until
+  safeguards "reliably block their most dangerous outputs"'
+date: 2026-04-07
+org: anthropic
+type: said
+kind: commitment
+who: [anthropic]
+venue: Project Glasswing announcement and post on X
+quote: >-
+  We do not plan to make Mythos Preview generally available. Our goal is to
+  deploy Mythos-class models safely at scale, but first we need safeguards that
+  reliably block their most dangerous outputs.
+summary: >-
+  Anthropic announced Claude Mythos Preview, an unreleased frontier model that
+  it said showed AI can "surpass all but the most skilled humans at finding and
+  exploiting software vulnerabilities." It gave the model only to Project
+  Glasswing partners and more than 40 other organizations that maintain
+  critical software, for defensive work. It said it
+  would test the safeguards needed for a general release on an upcoming Claude
+  Opus model first.
+concreteness: conditional
+status: open
+breaks_if: >-
+  A generally available Mythos-class model is shown to give attackers
+  Mythos-level cyber capability that other public models don't, through a
+  bypass Anthropic knew of or failed to fix promptly; or Anthropic releases a
+  Mythos-class model without the safeguards it described.
+patterns: []
+related: [2026-08-14-risk-report-classifier-gap, 2026-07-30-claude-cyber-eval-incidents]
+sources:
+  - title: Anthropic on X
+    publisher: X
+    url: https://x.com/AnthropicAI/status/2041578409315189125
+    date: 2026-04-07
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-5e134c1e
+  - title: 'Project Glasswing: Securing critical software for the AI era'
+    publisher: Anthropic
+    url: https://www.anthropic.com/glasswing
+    date: 2026-04-07
+    type: primary
+    snapshot: snapshots/2026-09-30-anthropic.com-b0e28418
+updates:
+  - date: 2026-06-09
+    text: >-
+      Anthropic released Claude Fable 5, "a Mythos-class model that we've made
+      safe for general use." Queries on a narrow range of topics are routed to
+      Claude Opus 4.8 instead; Anthropic said the safeguards were tuned
+      conservatively and trigger in under 5% of sessions. It released Claude
+      Mythos 5, "the same underlying model as Fable 5, but with the safeguards
+      lifted in some areas," to a small group of cyber defenders.
+    sources:
+      - title: Claude on X
+        publisher: X
+        url: https://x.com/claudeai/status/2064394146916229443
+        date: 2026-06-09
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-718ba01e
+      - title: Claude on X (on safeguards)
+        publisher: X
+        url: https://x.com/claudeai/status/2064394155258765783
+        date: 2026-06-09
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-c34cec2b
+      - title: Claude Fable 5 and Claude Mythos 5
+        publisher: Anthropic
+        url: https://www.anthropic.com/news/claude-fable-5-mythos-5
+        date: 2026-06-09
+        type: primary
+        snapshot: snapshots/2026-09-30-anthropic.com-e11fcea9
+  - date: 2026-06-12
+    text: >-
+      Three days after launch, the US government ordered export controls on
+      both models after Amazon researchers reported a way around Fable 5's
+      safeguards, and Anthropic pulled them for all users. See
+      2026-06-12-fable-5-export-control-suspension.
+  - date: 2026-08-14
+    text: >-
+      Anthropic's Risk Report disclosed that data-labeling contractors had used a
+      platform flaw in April 2026 to reach Mythos Preview, running without
+      classifiers, for about two weeks. See 2026-08-14-risk-report-classifier-gap.
+note: >-
+  "Reliably" is the load-bearing word, and Anthropic's own position is that no
+  model can be made fully jailbreak-proof. It argues its safeguards block the
+  outputs that matter even when minor bypasses are found. The record tests that
+  claim against what is later reported.

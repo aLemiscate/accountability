@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/OpenAI/status/2080815626113954288",
+  "captured_at": "2026-09-30T04:45:36.662Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "a2ed56e7c39fd8359f3b0da795a4ae04700f787514e6ba828416ab055af0b0f8",
+    "page.txt": "a072ff6cb5e2a552ddfb9c3271420a9bdbc3c8ffa4956ed3718fee9bf5aa59cc",
+    "post.json": "9fc95b1ae79360cdc22b2377d3a8aca12209420feecb0d9b0273055d2ae36fc7",
+    "syndication.json": "a6f0480e30350da3cd5fdf8b4de5e408fe0dc82ba54c3ea7b69bc3353e3b1ae8",
+    "post.txt": "c9225290dde78d73877928c5491a01c87a67a9e79798df5267baa8e75b84bc14"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/2080815626113954288",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"We recognize there are a lot of questions and speculative details circulating related to the Hugging Face incident. This is an unprecedented incident, and we think it marks an important moment for AI safety. We are still conducting a thorough review along with external advisors an… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "July 25, 2026",
+    "posted_at": "2026-07-25T00:41:19.607Z"
+  }
+}

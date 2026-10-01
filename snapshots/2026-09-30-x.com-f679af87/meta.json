@@ -1,0 +1,30 @@
+{
+  "url": "https://x.com/sjgadler/status/1989138789755916683",
+  "captured_at": "2026-09-30T12:41:23.117Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "fafb437cee0ee6b8b36d203d5b1c8c5692bb3135cd3900d25063afd3adbae83f",
+    "page.txt": "34ca6b6a0b63dd3ec226ce9bfd944169c8df2e73801740fabccffaf1c3b1ca8d",
+    "post.json": "66778b98213a1d8ba9fc6ef5f99f366b656f84a7e5062411c6db84e1cea0acbc",
+    "syndication.json": "a5fa73c6fec0dc2fbe008aa21027b09ae49dcc82bc1d825e2f8936cab55872ff",
+    "media-1.png": "7e2a8ed7ecd9ebbb26e4b4ca9f0d03a3e4a46b2a84cfed46d621b0f72268b80b",
+    "post.txt": "074b40246a2c06d3a2ae3cd9ddf51d4beb11fad9a2be92f698fd28a0665d9b3e"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sjgadler/status/1989138789755916683",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Steven Adler on X: \"@TheZvi Re: Preparedness Framework evals: OpenAI doesn't seem to have run their CBRN evals on GPT-5.1, and to have only tested cyber / self-improvement for pre-final checkpoints (OpenAI says \"near-final\" but I'm not aware of a specific operationalization)\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Steven Adler (@sjgadler)",
+    "date": "November 14, 2025",
+    "posted_at": "2025-11-14T01:10:18.546Z",
+    "media": [
+      {
+        "file": "media-1.png",
+        "url": "https://pbs.twimg.com/media/G5rW18HasAAzxbB.png"
+      }
+    ]
+  }
+}

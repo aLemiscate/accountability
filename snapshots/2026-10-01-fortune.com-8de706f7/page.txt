@@ -1,0 +1,48 @@
+Trending now
+1
+‘We are going to start looking a lot more like Europe’: Millennials are living at home into their 30s, signaling a major shift
+2
+Palantir CEO Alex Karp quietly purchased 37,000 acres of forests in Sweden—and locals found out when hunters lost leases to use the property
+3
+Jeff Bezos is giving $25 million to protect the Pacific—but his climate fund still has about $7 billion left to spend in four years
+1
+‘We are going to start looking a lot more like Europe’: Millennials are living at home into their 30s, signaling a major shift
+2
+Palantir CEO Alex Karp quietly purchased 37,000 acres of forests in Sweden—and locals found out when hunters lost leases to use the property
+3
+Jeff Bezos is giving $25 million to protect the Pacific—but his climate fund still has about $7 billion left to spend in four years
+AI Anthropic
+Anthropic says its Claude models hacked three real companies during internal testing
+By Beatrice Nolan
+Beatrice Nolan
+Tech Reporter
+By Beatrice Nolan
+Beatrice Nolan
+Tech Reporter
+July 31, 2026, 9:08 AM ET
+Anthropic CEO Dario Amodei Samyukta Lakshmi—Bloomberg/Getty Images
+Add Fortune on Google for similar content.
+Add us on Google
+Add us on Google
+Anthropic has said that its Claude models broke out of what was supposed to be an isolated testing environment and gained unauthorized access to the systems of three real organizations. If that sounds familiar, it’s because it’s the second major AI lab this month to disclose that its technology had staged real-world autonomous hacks.
+Recommended Video
+The disclosure comes just over a week after OpenAI—Anthropic’s bitter rival in the AI race—revealed that its models had exploited a previously unknown vulnerability to escape an isolated test environment and breached the company Hugging Face, an open-source AI platform. That incident prompted Anthropic to launch its own review of cybersecurity evaluation transcripts, the company said in a post published Thursday.
+The AI lab reviewed 141,006 evaluation runs—individual test sessions in which a model is set a task inside a controlled environment and its actions logged for review — in which Claude could have obtained internet access and found three incidents in which the model reached the open internet from within the testing environment of a third-party evaluation partner, and then went on to compromise real infrastructure. The earliest incident dates back to April.
+In each case, Claude had been assigned a “capture the flag” exercise, a standard method labs use to test a model’s hacking ability by asking it to retrieve hidden information from another machine on a simulated network. Anthropic’s prompts told Claude it had no internet access. However, a misconfiguration by the third partner, Irregular, meant that wasn’t true.
+Believing it was still operating inside the simulation, Claude went looking for its target and, in each incident, found and compromised real systems instead, using basic methods such as weak passwords and unauthenticated endpoints, according to Anthropic.
+The most serious case involved Claude Opus 4.7, which extracted credentials and accessed a database containing several hundred rows of production data belonging to a real company that happened to share a name with the fictional target in its evaluation. Anthropic said this was the only incident in which the model kept attacking after it had apparent evidence the system was real.
+In a second incident, Claude Mythos 5 built and published a malicious Python package—a bundle of pre-written code that developers commonly download to add functionality to their own software—to a public registry, reasoning at one point that the exercise was still a simulation because it didn’t recognize the certificate authorities—the organizations that issue the digital certificates used to verify a website or server is genuine—securing its connections. The package was live for about an hour and was installed on 15 real systems, including a security company’s malware scanner, allowing Claude to obtain and use that company’s credentials.
+A third incident, involving an internal research model, saw Claude scan roughly 9,000 targets before compromising one company’s internet-facing application. That model stopped once it concluded, on its own, that the system it had breached was not part of the exercise.
+Anthropic said none of the affected organizations had detected the intrusions before being notified, and that it is still working to reach one of the three. The company described the incidents as more of an operational failure than an alignment failure. The lab also noted that its newest model was the only one of the three to halt its attack once it recognized the environment was real.
+Charlie Eriksen, a security researcher at Aikido Security, said it was encouraging to see Anthropic proactively reviewing its evaluation traces and disclosing the findings quickly, but that it was concerning that the tests seemed to lack real-time monitoring.
+“It’s only unsettling because of the sheer capability, speed, and scale these agents can operate at. They’re not doing anything humans haven’t done before. That part isn’t new. What’s genuinely concerning is that they’re acting without meaningful human oversight, judgment, or intervention,” he said.
+“The OpenAI incident raised legitimate questions about the legal and ethical implications of LLM agents going rogue,” he added. “This only reinforces those concerns. If an autonomous agent causes harm or acts outside its intended boundaries, who is ultimately responsible?”
+Both OpenAI’s and Anthropic’s disclosures land as both companies are preparing for stock market listings expected to value each company at more than $1 trillion. As fears around the risks of autonomous agents increase and calls mount for the industry to at least consider “pacing” frontier development, both companies’ upcoming IPOs could be under threat.
+Fortune Daily breaks the traditional barrier between audience and newsroom. The show transforms Fortune ’s trusted reporting into actionable, conversational, and entertaining insights for an emerging class of business leaders. Watch here.
+About the Author By Beatrice Nolan Tech Reporter
+Beatrice Nolan is a tech reporter on Fortune ’s AI team, covering artificial intelligence and emerging technologies and their impact on work, industry, and culture. She's based in Fortune 's London office and holds a bachelor’s degree in English from the University of York. You can reach her securely via Signal at beatricenolan.08
+See full bio
+Add Fortune on Google for similar content.
+Add us on Google
+Latest in AI
+Most Popular

@@ -1,0 +1,101 @@
+Inside AI #10: Safety Scrutiny on OpenAI o3 Testing, OpenAI Insiders Join Nobel Laureates, OAISIS' Major Offering Launch This Week
+AIWI: Inside AI
+Subscribe Sign in
+Inside AI #10: Safety Scrutiny on OpenAI o3 Testing, OpenAI Insiders Join Nobel Laureates, OAISIS' Major Offering Launch This Week
+Edition 10
+Apr 28, 2025
+2
+Share
+In This Edition:
+Text within this block will maintain its original spacing when published Key takeaways:
+• News:
+• Safety Scrutiny: OpenAI o3 Testing Methods and Timelines [ Link ]
+• Former OpenAI Insiders Join Nobel Laureates in Opposition to For-Profit Conversion [ Link ]
+• Stricter AI Export Controls Proposed Following DeepSeek Report, Including Whistleblower Programme [ Link ]
+• Whistleblowing & AI:
+• Apollo’s Research Primer on Internal Deployment Governance & Role of Whistleblowers [ Link ]
+• Whistleblower Protections to Bridge AI Labs and Policymakers in Addressing Risks - A Gladstone AI Report [ Link ]
+• LawAI wrote on Whistleblowing Policy [ Link ]
+• Announcements:
+• OAISIS on LinkedIn . Stay connected!
+• Coming soon: Major new offering launching this week!
+Insider Currents
+Carefully curated links to the latest news spotlighting voices and information emerging from within the frontier of AI from the past 2 weeks.
+OpenAI Reportedly Curtails Safety Testing Timelines Amid Competitive Pressures
+Another news from OpenAI: the ‘o3’ launch. According to insiders who spoke with the Financial Times , there has been a severe lack of safety evaluations for both of the company’s recent releases: GPT 4.1 and o3. Eight individuals familiar with OpenAI’s testing processes reported that the pace accelerated from a six-month testing window for GPT-4 to less than a week for some “o3” testers. This rushed timeline is causing concern among testers, with one describing the ‘arms race dynamic’ of the situation:
+“Because there is more demand, they want it out faster. I hope it is not a catastrophic mis-step, but it is reckless. This is a recipe for disaster.”
+In a blog post referenced by TechCrunch , METR, an organisation that partners with OpenAI on safety evaluations, stated that “…one red teaming benchmark of o3 was conducted in a relatively short time” compared to previous benchmarks. Their safety analysis notes that “The work reported here was conducted over only three weeks. More thorough evaluations are likely to reveal additional capabilities or risk-relevant observations.”
+Their testing methodologies have also come under scrutiny:
+• Steven Adler , a former OpenAI safety researcher, highlighted concerns that OpenAI may not be fully following through on its commitments to create customised, fine-tuned model versions that probe for potential dangerous misuse, such as facilitating bioweapon development, on its most advanced models.
+• A former OpenAI technical staff member told Financial Times that testing is often performed on earlier versions of the model rather than the final released model, calling it: “bad practice”.
+METR confirmed this, stating that they received access to o3 and o4-mini “three weeks prior to model release on an earlier checkpoint (version) of the model”. OpenAI, however, contends the checkpoints are “basically identical” to the final product.
+→ Read Financial Times : OpenAI Slashes AI Model Safety Testing Time
+→ Read TechCrunch : OpenAI Partner Says it Had Relatively Little Time to Test the Company's Newest AI Models
+→ Read METR’s Preliminary Evaluation of o3 and o4-mini
+Former OpenAI Insiders Join Nobel Laureates in Opposition to For-Profit Conversion
+A 25-page letter urging California and Delaware attorneys general to block OpenAI's proposed conversion from nonprofit control to a for-profit structure has been signed by over 30 prominent figures, including nine former OpenAI employees and three Nobel laureates . Among the insider signatories are Scott Aaronson, Steven Adler, Gretchen Krueger, and Ryan Lowe , who all worked at OpenAI until 2024.
+The letter argues that OpenAI’s restructuring would "eliminate essential safeguards" designed to ensure AGI benefits humanity rather than shareholders. This conversion faces significant time pressure – if not completed by the end of 2025, OpenAI must return $20 billion of recently raised funds. Meanwhile, the company has experienced an exodus of safety leaders, with the disbanding of both the Superalignment and AGI Readiness teams.
+Former employee Nisan Stiennon wrote:
+“OpenAI may one day build technology that could get us all killed. It is to OpenAI’s credit that it’s controlled by a nonprofit with a duty to humanity.”
+The letter references numerous statements from CEO Sam Altman contradicting the current push, including his 2017 declaration: “We don’t ever want to be making decisions to benefit shareholders. The only people we want to be accountable to is humanity as a whole.”
+Critics view OpenAI’s recently announced commission to create “the best-equipped nonprofit the world has ever seen” as merely a transparent attempt to placate opposition without addressing fundamental legal issues. As one former employee bluntly stated:
+“The profit motive’s winning. They have given up on the altruistic angle. They’ve given up on trying to be the good guy, and they just want to win.”
+→ Read: Garrison Lovely Covering the Letter
+→ Read: Garrison Lovely Covering the Overall Non-profit Transition
+→ Read: The letter, published by Tyler Whitmer, Page Hedley, Sunny Gandhi
+U.S. Call for Stricter AI Export Controls Following DeepSeek Report
+The Select Committee on the Chinese Communist Party is calling for stricter controls on semiconductor exports to China following revelations about DeepSeek. According to The Information , DeepSeek allegedly collects U.S. user data, manipulates its output to reflect Chinese Communist Party (CCP) propaganda, and trains its chatbot using illegally acquired material from U.S. AI models.
+The bipartisan committee’s report also states that DeepSeek uses Nvidia chips—specifically, the A100, H100, H800, and H20 models—which are restricted under current U.S. export regulations. Lawmakers have formally requested that Nvidia explain how DeepSeek acquired this hardware.
+Among the committee’s policy recommendations, a notable highlight is the call for a new whistleblower programme to report violations . By offering legal protections and financial rewards to individuals who expose export control breaches, lawmakers aim to uncover hidden networks involved in illicit chip shipments and bolster the United States’ ability to safeguard its AI leadership.
+In a related development, analysts at Bernstein have concluded that recent U.S. restrictions on AI chip exports—such as those targeting Nvidia’s H20 chip—are unlikely to hinder China’s AI progress significantly. According to a report by Business Insider , Chinese companies have adapted by sourcing alternative chips from domestic manufacturers to innovate and overcome hardware limitations, as seen with Huawei.
+→ Read the Full Article by The Information
+→ Read the Report by The U.S. Select Committee on CCP
+→ Read Business Insider Full Report
+Whistleblowing & AI Updates
+Updates on research and regulations , with a focus on safeguarding individuals who voice concerns.
+Apollo’s Research Primer on Internal Deployment Governance & Role of Whistleblowers
+Apollo Research's April 2025 report, "AI Behind Closed Doors," addresses the governance gap for advanced AI systems deployed within developer companies—a timely paper in the context of AI 2027, authored by OpenAI whistleblower Daniel Kokotajlo , which places an emphasis on this exact internal model deployment. In contrast, OpenAI employee “Roon” stated on Twitter that no internal models that are further than “2 months” away from the frontier exist today.
+The authors warn that internal AI systems may operate with fewer safety constraints and outline two major threat scenarios: loss of control through misaligned AI automating AI research and undetected power consolidation enabling democratic disruption. Their recommendations include expanded frontier safety policies, internal usage restrictions, oversight frameworks, targeted transparency with stakeholders, and government-collaborated disaster resilience plans.
+Given the focus of most current legislation, we at OAISIS have had ‘internal deployment risks’ high on our list of “where do we expect most impactful whistleblowing” for a while.
+The report agrees and positions whistleblowers as a supplementary but important safety mechanism when other safeguards fail. The authors recommend secure, anonymous reporting platforms managed by independent third parties, with clear protections against retaliation for both employees and external evaluators. While not the primary means of oversight, whistleblower channels serve as a final line of defence to help identify critical failures or incidents that might compromise established safety measures.
+→ Read the Paper
+Gladstone AI Report Made Public with Recommendations:
+Whistleblower Protection to Bridge the Frontier Between AI Labs and Decision-Makers in Addressing Risks
+A previously confidential report by Gladstone AI—reportedly circulated within the White House—has been made public. While we are highly wary of the geopolitical arms-race framing, its most relevant contribution in this newsletter is the firsthand testimony from AI researchers and engineers who say their concerns are being ‘suppressed’ or filtered before reaching decision-makers. The whistleblowers and frontier lab insiders offered the clearest view of how close we may be to crossing risky lines due in part to managerial denial and institutional opacity.
+“If [my former lab] gets this, we’re fucked,” one researcher said, describing the incentives to ignore or downplay dangerous AI capabilities in pursuit of rapid deployment.
+The report outlines three core reasons why whistleblower protections are essential :
+• Labs have incentives to hide dangerous capabilities.
+Researchers describe internal cultures where warning signs of AI deception or risky emergent behaviour are papered over rather than addressed—especially when there’s pressure to be first to deploy.
+“ Many frontier AI lab insiders we interviewed don’t think that their leadership will act on signs of AI deception , especially when they’re under extreme pressure to push out new capabilities. When a dangerous capability is flagged , there’s a strong temptation to apply a superficial fix to deploy as fast as possible instead of truly understanding and addressing the underlying issue.”
+• Information to decision-makers is filtered.
+Policy teams within labs often act as “smokescreens,” selectively passing filtered updates to government stakeholders.
+“Government officials get fed pre-selected information from policy teams and lab leadership, when they should instead be talking directly to the researchers and engineers who are doing the work to get a true picture of what’s going on (including those working on capabilities, security, and control).”
+• Raising concerns isn’t safe: a threat to AI employees’ careers addressing risks.
+Internal dissent—even well-grounded security concerns—can be concerning for AI insiders’ careers. According to one former researcher, “The government doesn’t really know what’s going on in the labs, and they’re not even allowed to talk to people at the labs [...] Labs are trying to crack down on [technical researchers] that they suspect of potentially talking to the government. ”
+We strongly echo the authors’ call for robust whistleblower protections:
+“[...] We'll need strong whistleblower protections for researchers who share assessments with project leadership that diverge from the stated views of lab executives or managers.”
+Such protections aren’t beneficial only within “Manhattan-Project-Style-ASI-Initiatives” but across all possible AI futures. Such protections should extend broadly, ensuring the public can effectively ‘oversee the overseers.’
+→ Read the Full Report by Gladstone AI
+→ Read our X's Thread on this Report
+Announcements & Call to Action
+Updates on publications, community initiatives, and “call for topics” that seek contributions from experts addressing concerns inside Frontier AI.
+Connect with Us on LinkedIn !
+We are also live on LinkedIn and would like to invite you to join us in what’s ahead.
+Stay Tuned for the Launch of a Major New Offering This Week!
+Follow us on LinkedIn , Twitter , or Bluesky to hear it first!
+Thank you for trusting OAISIS as your source for insights on protecting and empowering insiders who raise concerns within AI labs. We also would like to thank our volunteers, Justus Swan and Sara Rayo , who contributed to the content in this edition.
+Your feedback is crucial to our mission. We invite you to share any thoughts, questions, or suggestions for future topics so that we can collaboratively enhance our understanding of the challenges and risks faced by those within AI labs. Together, we can continue to amplify and safeguard the voices of those working within AI labs who courageously address the challenges and risks they encounter.
+If you found this newsletter valuable, please consider sharing it with colleagues or peers who are equally invested in shaping a safe and ethical future for AI.
+Until next time,
+The OAISIS Team
+2
+Share
+Discussion about this post
+Comments Restacks
+Top Latest Discussions
+No posts
+Ready for more?
+Subscribe
+© 2026 OAISIS · Privacy ∙ Terms ∙ Collection notice
+Start your Substack Get the app
+Substack is the home for great culture

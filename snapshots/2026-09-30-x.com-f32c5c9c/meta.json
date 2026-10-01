@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/OpenAI/status/1894454197967528224",
+  "captured_at": "2026-09-30T12:45:33.999Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "d0f9d20dba73941d5fb4b06c03d75efa139986439115060ce53bcc45e53a29b4",
+    "page.txt": "b7cb9d7ede81a920cfc6d8690f4f0bb0f83b7c27522f7fc6a2a95d1c64330902",
+    "post.json": "e1a51cdae458af72958b33d0167270e6c6eb774f22ae41c6138ec00ef12abf23",
+    "syndication.json": "fc05bca0c989fdb30a89af5af46c51e51fdd0a933022c5942d81cd1d4ea66035",
+    "post.txt": "e2ba54596d075b8de25313cfef35452ea540504d9e4249ab77b40cb62cd5c335"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1894454197967528224",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"We're also sharing the system card, detailing how we built deep research, assessed its capabilities and risks, and improved safety. https://t.co/HqPBnzVusI\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "February 25, 2025",
+    "posted_at": "2025-02-25T18:27:32.709Z"
+  }
+}

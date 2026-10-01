@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/OpenAI/status/1918321280790741189",
+  "captured_at": "2026-09-30T04:45:20.675Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "b23c53808bbeb7f806ee7db2e9eb677e079882ddce42a045a0f4507ee952ad6e",
+    "page.txt": "1a6ed83c97656685f9afe90cb2511665fc777e5a193018479226fcaba17cd84a",
+    "post.json": "1fafcf313801c085ce9d1253131b8b022c73cee3f690a6ac83f5d183fe30538d",
+    "syndication.json": "727eabda434903b10952b0128daac6b9a8ee023003bf62b266653426a152a5d5",
+    "post.txt": "382d6d0b78de4c140a5f631faed456651f874903b7772b3e0b6130d7163bd57a"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1918321280790741189",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"We’ve spent the last few days doing a deep dive on what went wrong with last week’s GPT-4o update in ChatGPT. Expanding on what we missed with sycophancy and the changes we’re going to make in the future: https://t.co/LX0fSIe72s\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "May 2, 2025",
+    "posted_at": "2025-05-02T15:06:48.683Z"
+  }
+}

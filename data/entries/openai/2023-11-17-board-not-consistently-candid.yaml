@@ -30,6 +30,7 @@ sources:
     url: https://www.cbsnews.com/news/openai-sam-altman-ousted-board-no-confidence-mira-murati/
     date: 2023-11-17
     type: reporting
+    archive: https://web.archive.org/web/20251207075800/https://www.cbsnews.com/news/openai-sam-altman-ousted-board-no-confidence-mira-murati/
   - title: Review completed & Altman, Brockman to continue to lead OpenAI
     publisher: OpenAI
     url: https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai/
@@ -58,6 +59,34 @@ updates:
         url: https://www.theregister.com/2024/05/29/ex_openai_board_member_accuses_altman_lying/
         date: 2024-05-29
         type: reporting
+        archive: https://web.archive.org/web/20260123183734/https://www.theregister.com/2024/05/29/ex_openai_board_member_accuses_altman_lying/
+        snapshot: snapshots/2026-10-01-theregister.com-6d11b30d
+  - date: 2025-11-04
+    text: >-
+      A deposition transcript from Musk's lawsuit showed that co-founder and
+      chief scientist Ilya Sutskever had written a 52-page memo for the
+      independent directors, at their request, making the case for removing
+      Altman. It said: "Sam exhibits a consistent pattern of lying, undermining
+      his execs, and pitting his execs against one another." Sutskever said much
+      of it rested on screenshots supplied by then-CTO Mira Murati. He also
+      testified that within 48 hours of the firing the board discussed a merger
+      with Anthropic, which he opposed. Former director Helen Toner disputed
+      part of his account: "I wasn't the one who made the board<>Anthropic call
+      happen, and I disagree with his recollection that board members other than
+      him were supportive of a merge."
+    sources:
+      - title: Inside the Deposition That Showed How OpenAI Nearly Destroyed Itself
+        publisher: Decrypt
+        url: https://decrypt.co/347349/inside-deposition-showed-openai-nearly-destroyed-itself
+        date: 2025-11-04
+        type: reporting
+        snapshot: snapshots/2026-09-30-decrypt.co-7c088a89
+      - title: Helen Toner on X
+        publisher: X
+        url: https://x.com/hlntnr/status/1985535076352901365
+        date: 2025-11-04
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-dc92a529
   - date: 2026-05-06
     text: >-
       In a video deposition played at the Musk v. Altman trial, former CTO Mira

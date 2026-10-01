@@ -1,0 +1,492 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 53,
+  "in_reply_to_screen_name": "jasonkwon",
+  "in_reply_to_status_id_str": "1976762553805291880",
+  "in_reply_to_user_id_str": "22685229",
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2025-10-11T23:16:37.000Z",
+  "display_text_range": [
+    0,
+    276
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/rOGjjklWSl",
+        "expanded_url": "https://x.com/jasonkwon/status/1977151380948500625/photo/1",
+        "indices": [
+          277,
+          300
+        ],
+        "url": "https://t.co/rOGjjklWSl"
+      }
+    ]
+  },
+  "id_str": "1977151380948500625",
+  "text": "I've seen a few questions here about how we're responding to Elon's lawsuits against us. After he sued us, several organizations, some of them suddenly newly formed like the Midas Project, joined in and ran campaigns backing his opposition to OpenAI's restructure. This raised https://t.co/rOGjjklWSl",
+  "user": {
+    "id_str": "22685229",
+    "name": "Jason Kwon",
+    "screen_name": "jasonkwon",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1917651900440178688/fNTyjQgO_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1977151380948500625"
+    ],
+    "editable_until_msecs": "1760228197000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/rOGjjklWSl",
+      "expanded_url": "https://x.com/jasonkwon/status/1977151380948500625/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        277,
+        300
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/G3BAkAZbwAEp44r.jpg",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 722,
+            "w": 1290,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1290,
+            "w": 1290,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1471,
+            "w": 1290,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1680,
+            "w": 840,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1680,
+            "w": 1290,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 1680,
+        "width": 1290
+      },
+      "sizes": {
+        "large": {
+          "h": 1680,
+          "resize": "fit",
+          "w": 1290
+        },
+        "medium": {
+          "h": 1200,
+          "resize": "fit",
+          "w": 921
+        },
+        "small": {
+          "h": 680,
+          "resize": "fit",
+          "w": 522
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/rOGjjklWSl"
+    },
+    {
+      "display_url": "pic.x.com/rOGjjklWSl",
+      "expanded_url": "https://x.com/jasonkwon/status/1977151380948500625/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        277,
+        300
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/G3BAkAabwAUIZxn.jpg",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 724,
+            "w": 1292,
+            "x": 0,
+            "y": 324
+          },
+          {
+            "h": 1292,
+            "w": 1292,
+            "x": 0,
+            "y": 40
+          },
+          {
+            "h": 1473,
+            "w": 1292,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1616,
+            "w": 808,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1616,
+            "w": 1292,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 1616,
+        "width": 1292
+      },
+      "sizes": {
+        "large": {
+          "h": 1616,
+          "resize": "fit",
+          "w": 1292
+        },
+        "medium": {
+          "h": 1200,
+          "resize": "fit",
+          "w": 959
+        },
+        "small": {
+          "h": 680,
+          "resize": "fit",
+          "w": 544
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/rOGjjklWSl"
+    }
+  ],
+  "photos": [
+    {
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 722,
+          "w": 1290,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 1290,
+          "w": 1290,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 1471,
+          "w": 1290,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 1680,
+          "w": 840,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 1680,
+          "w": 1290,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/jasonkwon/status/1977151380948500625/photo/1",
+      "url": "https://pbs.twimg.com/media/G3BAkAZbwAEp44r.jpg",
+      "width": 1290,
+      "height": 1680
+    },
+    {
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 724,
+          "w": 1292,
+          "x": 0,
+          "y": 324
+        },
+        {
+          "h": 1292,
+          "w": 1292,
+          "x": 0,
+          "y": 40
+        },
+        {
+          "h": 1473,
+          "w": 1292,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 1616,
+          "w": 808,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 1616,
+          "w": 1292,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/jasonkwon/status/1977151380948500625/photo/1",
+      "url": "https://pbs.twimg.com/media/G3BAkAabwAUIZxn.jpg",
+      "width": 1292,
+      "height": 1616
+    }
+  ],
+  "conversation_count": 20,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 56,
+    "in_reply_to_screen_name": "jasonkwon",
+    "in_reply_to_status_id_str": "1976762551104159842",
+    "in_reply_to_user_id_str": "22685229",
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 5,
+    "retweet_count": 5,
+    "created_at": "2025-10-10T21:31:33.000Z",
+    "display_text_range": [
+      0,
+      54
+    ],
+    "entities": {
+      "urls": [
+        {
+          "display_url": "x.com/jasonkwon/stat…",
+          "expanded_url": "https://x.com/jasonkwon/status/1833296302483919322",
+          "indices": [
+            31,
+            54
+          ],
+          "url": "https://t.co/ZZmMVfn8jd"
+        }
+      ]
+    },
+    "id_str": "1976762553805291880",
+    "text": "Tweet during the 1047 debate:\n\nhttps://t.co/ZZmMVfn8jd",
+    "user": {
+      "id_str": "22685229",
+      "name": "Jason Kwon",
+      "screen_name": "jasonkwon",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1917651900440178688/fNTyjQgO_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1976762553805291880"
+      ],
+      "editable_until_msecs": "1760135493000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "quoted_tweet": {
+      "__typename": "Tweet",
+      "favorite_count": 124,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "reply_count": 3,
+      "retweet_count": 6,
+      "created_at": "2024-09-10T00:07:54.000Z",
+      "display_text_range": [
+        0,
+        55
+      ],
+      "entities": {
+        "media": [
+          {
+            "display_url": "pic.x.com/5Q3DQ0w1KA",
+            "expanded_url": "https://x.com/jasonkwon/status/1833296302483919322/photo/1",
+            "indices": [
+              56,
+              79
+            ],
+            "url": "https://t.co/5Q3DQ0w1KA"
+          }
+        ]
+      },
+      "id_str": "1833296302483919322",
+      "text": "On 1047, here’s what we said to colleagues last Friday: https://t.co/5Q3DQ0w1KA",
+      "user": {
+        "id_str": "22685229",
+        "name": "Jason Kwon",
+        "screen_name": "jasonkwon",
+        "is_blue_verified": true,
+        "profile_image_shape": "Circle",
+        "verified": false,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1917651900440178688/fNTyjQgO_normal.jpg"
+      },
+      "mediaDetails": [
+        {
+          "display_url": "pic.x.com/5Q3DQ0w1KA",
+          "expanded_url": "https://x.com/jasonkwon/status/1833296302483919322/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "indices": [
+            56,
+            79
+          ],
+          "media_url_https": "https://pbs.twimg.com/media/GXEtRTuW0AAECLy.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 620,
+                "w": 1107,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 829,
+                "w": 829,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 829,
+                "w": 727,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 829,
+                "w": 415,
+                "x": 152,
+                "y": 0
+              },
+              {
+                "h": 829,
+                "w": 1107,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 829,
+            "width": 1107
+          },
+          "sizes": {
+            "large": {
+              "h": 829,
+              "resize": "fit",
+              "w": 1107
+            },
+            "medium": {
+              "h": 829,
+              "resize": "fit",
+              "w": 1107
+            },
+            "small": {
+              "h": 509,
+              "resize": "fit",
+              "w": 680
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/5Q3DQ0w1KA"
+        }
+      ],
+      "photos": [
+        {
+          "backgroundColor": {
+            "red": 204,
+            "green": 214,
+            "blue": 221
+          },
+          "cropCandidates": [
+            {
+              "h": 620,
+              "w": 1107,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 829,
+              "w": 829,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 829,
+              "w": 727,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 829,
+              "w": 415,
+              "x": 152,
+              "y": 0
+            },
+            {
+              "h": 829,
+              "w": 1107,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "expandedUrl": "https://x.com/jasonkwon/status/1833296302483919322/photo/1",
+          "url": "https://pbs.twimg.com/media/GXEtRTuW0AAECLy.jpg",
+          "width": 1107,
+          "height": 829
+        }
+      ]
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoxOTc3MTUxMzgwODM1MTUxODcy"
+  }
+}

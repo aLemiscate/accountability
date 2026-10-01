@@ -1,0 +1,46 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 26089,
+  "lang": "en",
+  "created_at": "2025-04-27T22:49:56.000Z",
+  "display_text_range": [
+    0,
+    279
+  ],
+  "entities": {},
+  "id_str": "1916625892123742290",
+  "text": "the last couple of GPT-4o updates have made the personality too sycophant-y and annoying (even though there are some very good parts of it), and we are working on fixes asap, some today and some this week.\n\nat some point will share our learnings from this, it's been interesting.",
+  "user": {
+    "id_str": "1605",
+    "name": "Sam Altman",
+    "screen_name": "sama",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_normal.jpg",
+    "highlighted_label": {
+      "badge": {
+        "url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_bigger.jpg"
+      },
+      "description": "OpenAI",
+      "url": {
+        "url": "https://twitter.com/OpenAI",
+        "url_type": "DeepLink"
+      },
+      "user_label_display_type": "Badge",
+      "user_label_type": "BusinessLabel"
+    }
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1916625892123742290"
+    ],
+    "editable_until_msecs": "1745797796000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 2392,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

@@ -83,6 +83,7 @@ This saves `snapshots/<date>-<site>-<hash>/` containing:
 - `post.txt` and `post.json`: for X and Bluesky links, the post text from the public embed APIs, which work without logging in. For X, `syndication.json` adds the full text of long posts and the text of any quoted post, and attached photos are saved as `media-1.jpg`, `quoted-media-1.jpg` and so on, because some statements (a signed letter, a memo screenshot) exist only as an image
 - `document.pdf` and `document.txt`: for PDFs, the file and its text (the text needs `pdftotext` from poppler-utils). Files over 10 MB are not stored; `meta.json` keeps their size and SHA-256 under `omitted`, so a copy fetched later can still be checked
 - `meta.json`: HTTP status, capture time, SHA-256 hashes of every file, and for posts the exact time of posting (read from the X post id)
+- `transcript.txt` (added by hand, not by the capture tool): a transcription of text that exists only in an attached image, so quotes from it can be checked. It opens with a line saying which image it came from, and `meta.json` lists it under `derived`, apart from the captured files
 - a Wayback Machine copy, whose link goes into the entry's `archive` field
 
 With `--entry`, the archive link and snapshot path are written into the matching
@@ -129,15 +130,40 @@ npm run find-posts -- --all --from 2026-09 --match "ads|military|pause"
 
 It combines three sources:
 
-- **Wayback Machine (free, no key).** It lists every X post URL the archive has captured for the account, across both twitter.com and x.com, **including posts that have since been deleted**. The post date comes from the post's id, so dates are exact even without the text. Text comes from the live post, or from the archived copy when the live post is gone. A post that is archived but returns 404 live is flagged *possibly deleted*.
+- **Wayback Machine (free, no key).** It lists every X post URL the archive has captured for the account, under every URL form X has used (twitter.com, mobile.twitter.com, `/statuses/`, x.com), **including posts that have since been deleted**. The post date comes from the post's id, so dates are exact even without the text. Text comes from X's embed data (the full text of long posts, the post it quotes, who it replies to), or from the archived copy when the live post is gone. A post that is archived but returns 404 live is flagged *possibly deleted*. Posts nobody archived can't be found this way.
 - **X API** (set `X_BEARER_TOKEN`). The account's recent timeline, up to about the last 3,200 posts. What a token can read depends on its X API access tier.
 - **Bluesky** (for accounts with a `bluesky` handle). The public API, which searches without logging in; set `BSKY_HANDLE` and `BSKY_APP_PASSWORD` (an app password, not your main password) for higher limits.
 
-For a full-history pass, `--via wayback --limit 2000 --cdx-limit 50000
---keep-deleted` reads up to 2,000 archived posts per account and keeps every
-post that looks deleted even if it doesn't match `--match`. The Wayback Machine
-blocks many cloud IP ranges, so run this from the **Sweep** workflow below or
-from your own machine.
+For a full-history pass, `--corpus --limit all` reads every archived post of
+the account and keeps all of them, not just the ones that match:
+
+```sh
+npm run find-posts -- --account sama --corpus --via wayback --limit all --budget-minutes 320 --match "safety|nonprofit"
+npm run sweep-coverage
+```
+
+- `inbox/sweep/<account>/<year>.jsonl`: every post found, one per line, newest
+  first (posts from before November 2010, whose ids carry no date, go in
+  `before-2010-11.jsonl`). A later run reads only posts it hasn't read, so it's
+  safe to stop and resume.
+- Each post's author is checked against X: an archived link under the handle
+  that X says another account wrote (a mistyped link, a reused handle) is kept
+  with `other_author` and left out of the counts. Made-up ids from archived
+  URLs are dropped.
+- `inbox/sweep/<account>.md`: the posts matching `--match`, plus every post
+  that looks deleted, for triage.
+- `inbox/sweep/<account>.coverage.json` and `inbox/sweep/COVERAGE.md`: how
+  many posts each account has made on X, how many are archived, and how many
+  of those have been read.
+
+`--budget-minutes` stops reading when time runs out and leaves the rest marked
+unread. `--concurrency` sets how many posts are read at once (default 4). An
+account in `data/accounts.yaml` can set its own `match` for the triage list
+(Elon Musk's lists only posts about the AI labs), or `sweep: false` to stay out
+of the full-history Sweep (Musk's 125,000+ archived posts were read back to
+September 2025 only). The
+Wayback Machine blocks many cloud IP ranges, so run this from the **Sweep**
+workflow below or from your own machine.
 
 Posts already cited in the record are marked, so the inbox shows only what's
 new. Nothing is added to the record automatically. When a post belongs,
@@ -172,7 +198,7 @@ private. Deleted posts are worth recording too. Results go to
 - **Site** (`.github/workflows/site.yml`) runs on every push: it validates, builds and tests the record, then publishes to GitHub Pages from the default branch. One-time setup: *Settings → Pages → Source: GitHub Actions*.
 - **Watch** (`.github/workflows/watch.yml`) runs every Monday and on demand. It re-reads watched pages, checks sources, collects the last two weeks of posts from watched accounts into `inbox/`, snapshots up to 20 sources that don't have a snapshot yet, archives unarchived sources (when the archive.org secrets are set), commits the results, and **opens an issue whenever a watched page changes**.
 - **Capture** (`.github/workflows/capture.yml`) runs on demand. It snapshots every source that doesn't have a snapshot yet. Run it once to backfill the whole record.
-- **Sweep** (`.github/workflows/sweep.yml`) runs on demand. It reads the full archived history of every X account in `data/accounts.yaml` through the Wayback Machine, one job per account, keeps posts that match a list of topics plus every post that looks deleted, and commits the candidates to `inbox/`. It takes hours; choose accounts, a start date or a different topic list in the run form. Nothing is added to the record automatically.
+- **Sweep** (`.github/workflows/sweep.yml`) runs on demand. It reads the full archived history of every X account in `data/accounts.yaml` (and the X API timeline when an `X_BEARER_TOKEN` secret is set), one job per account, keeps every post in `inbox/sweep/`, lists topic matches and deleted posts for triage, and writes `inbox/sweep/COVERAGE.md`. Each account reads for up to the run's time budget and saves its place; run it again to continue where it stopped. Nothing is added to the record automatically.
 
 Optional repository secrets (*Settings → Secrets and variables → Actions*):
 `IA_ACCESS_KEY` and `IA_SECRET_KEY` (archive.org), `X_BEARER_TOKEN` (X API),
@@ -227,3 +253,5 @@ tests/                       node --test suites
 
 See [METHODOLOGY.md](METHODOLOGY.md): who is in scope, what counts as evidence,
 how statuses are assigned, and how corrections work.
+[COVERAGE.md](COVERAGE.md) says where the entries came from, how the two
+companies compare, and what the record may still be missing.

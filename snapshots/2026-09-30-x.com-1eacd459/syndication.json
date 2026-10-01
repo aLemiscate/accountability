@@ -1,0 +1,35 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 3127,
+  "lang": "en",
+  "created_at": "2025-07-14T19:56:35.000Z",
+  "display_text_range": [
+    0,
+    231
+  ],
+  "entities": {},
+  "id_str": "1944848519065452754",
+  "text": "We're announcing a $200M ceiling contract with the U.S. Department of Defense.\n\nThrough hands-on prototyping and direct collaboration across the Department, we will help enhance U.S. national security and responsible AI deployment.",
+  "user": {
+    "id_str": "1353836358901501952",
+    "name": "Anthropic",
+    "screen_name": "AnthropicAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1944848519065452754"
+    ],
+    "editable_until_msecs": "1752526595000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 192,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

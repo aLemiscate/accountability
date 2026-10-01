@@ -1,0 +1,87 @@
+title: 'Standing promise: at "Critical" capability, safeguards come first, even
+  during development'
+date: 2025-04-15
+org: openai
+type: said
+kind: commitment
+who: [openai]
+venue: Preparedness Framework, version 2
+quote: >-
+  Such models require additional safeguards (safety and security controls)
+  during development, regardless of whether or when they are externally
+  deployed.
+summary: >-
+  OpenAI's 2025 Preparedness Framework set a "Critical" level for its tracked
+  risks. For cybersecurity, that meant a model that can find and exploit
+  zero-day vulnerabilities in hardened real-world systems without human help.
+  For such a model, the framework said: "Until we have specified safeguards and
+  security controls standards that would meet a Critical standard, halt
+  further development." OpenAI said it had no Critical model and expected to
+  update the framework before it had one.
+concreteness: conditional
+status: kept
+breaks_if: >-
+  OpenAI continues developing or deploys a model it has rated Critical without
+  first putting Critical-level safeguards and security controls in place, or
+  lowers the Critical requirements because a rival shipped first.
+patterns: []
+related: [2025-04-15-preparedness-framework-v2, 2026-08-18-altman-pause-act-unilaterally]
+sources:
+  - title: Preparedness Framework, Version 2 (PDF), sections 2 and 4.4
+    publisher: OpenAI
+    url: https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf
+    date: 2025-04-15
+    type: primary
+    snapshot: snapshots/2026-09-29-cdn.openai.com-ec5d8e7d
+updates:
+  - date: 2026-09-03
+    text: >-
+      GPT-6 Astra became the first OpenAI model rated Critical for
+      cybersecurity. OpenAI said it had paused some training, delayed parts of
+      Astra's development and release by several weeks, and before internal use
+      added checkpoint encryption, stricter isolation, monitoring of full
+      trajectories including chains of thought, and blocking alignment
+      evaluations. The public release refuses advanced offensive tasks, such as
+      writing proof-of-concept exploits, and runs misalignment monitoring on all
+      tool use. It reached all paying ChatGPT tiers within five days. A month
+      earlier Altman had written: "we do not think it is a good strategy to
+      keep powerful models to a chosen few."
+    sources:
+      - title: GPT-6 Astra System Card
+        publisher: OpenAI Deployment Safety Hub
+        url: https://deploymentsafety.openai.com/gpt-6-astra
+        date: 2026-09-03
+        type: primary
+        snapshot: snapshots/2026-09-30-deploymentsafety.openai.com-d170283d
+      - title: OpenAI Releases GPT-6 Astra, Its First Model Rated Critical for
+          Cybersecurity
+        publisher: Unite.AI
+        url: https://www.unite.ai/openai-releases-gpt-6-astra-its-first-model-rated-critical-for-cyber/
+        date: 2026-09-03
+        type: reporting
+        snapshot: snapshots/2026-09-30-unite.ai-9f7cbb65
+      - title: OpenAI launches GPT-6 Astra, its first model to cross a critical
+          cybersecurity threshold
+        publisher: CSO Online
+        url: https://www.csoonline.com/article/4218679/openai-launches-gpt-6-astra-its-first-model-to-cross-a-critical-cybersecurity-threshold.html
+        date: 2026-09-03
+        type: reporting
+        snapshot: snapshots/2026-09-30-csoonline.com-a5b5cb49
+      - title: Sam Altman on X ("keep powerful models to a chosen few")
+        publisher: X
+        url: https://x.com/sama/status/2085862292311396515
+        date: 2026-08-07
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-fed25772
+      - title: OpenAI on X ("Astra is fully rolled out")
+        publisher: X
+        url: https://x.com/OpenAI/status/2097431322117476423
+        date: 2026-09-08
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-77c60bd6
+note: >-
+  Kept by OpenAI's own account: it says the safeguards came before internal use
+  and release, and it paused training to add them. Outsiders can't check the
+  internal controls, and whether the safeguards were enough is OpenAI's own
+  call. OpenAI had said it expected to update the framework before reaching
+  Critical; this record found no new version of it.

@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/OpenAI/status/1932530423911096508",
+  "captured_at": "2026-09-30T12:46:10.883Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "83dbb471a75c3ea57e37d2e9bc101ab84587b554181fe402e6b2f5d7a1580047",
+    "page.txt": "3ce17b97247cd8f6b05ff9962f2d2583759e5c552e86ed341e20579628b7a243",
+    "post.json": "e2a91f2c47e4600a1bd5febdd3e594274f7622b0f1e8b4dd6b250c2029eebe8c",
+    "syndication.json": "7bc4d6998a47d1030f2958ae1f7f6040309f9623e7e974397806b38a962602e3",
+    "post.txt": "64790a9a5b0b432a0454e2eb1151bc869e4246f61c9eb238e4249106bcfd3767"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1932530423911096508",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"OpenAI o3-pro is available in the model picker for Pro and Team users starting today, replacing OpenAI o1-pro. Enterprise and Edu users will get access the week after. As o3-pro uses the same underlying model as o3, full safety details can be found in the o3 system card. https://t.… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "June 10, 2025",
+    "posted_at": "2025-06-10T20:08:52.396Z"
+  }
+}

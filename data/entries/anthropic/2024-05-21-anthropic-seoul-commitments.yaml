@@ -1,0 +1,41 @@
+title: 'Seoul commitments: Anthropic pledges not to develop or deploy a model at
+  all if risks can''t be kept below its thresholds'
+date: 2024-05-21
+org: anthropic
+type: said
+kind: commitment
+who: [anthropic]
+venue: Frontier AI Safety Commitments, AI Seoul Summit
+quote: >-
+  In the extreme, organisations commit not to develop or deploy a model or
+  system at all, if mitigations cannot be applied to keep risks below the
+  thresholds.
+summary: >-
+  Anthropic signed the same Frontier AI Safety Commitments as OpenAI and 14
+  other companies: publish a safety framework, define intolerable-risk
+  thresholds with government input, and stop development or deployment if
+  mitigations can't keep risk below them.
+concreteness: conditional
+status: eroded
+breaks_if: >-
+  A framework that replaces the stop-line with goals the company grades itself,
+  or makes it conditional on competitors.
+patterns: [race-clause]
+related: [2023-09-19-rsp-pause-commitment, 2026-02-24-rsp-v3-drops-pause, 2024-05-21-seoul-frontier-safety-commitments]
+sources:
+  - title: Frontier AI Safety Commitments, AI Seoul Summit 2024
+    publisher: UK Government (DSIT)
+    url: https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024
+    date: 2024-05-21
+    type: primary
+    snapshot: snapshots/2026-09-30-gov.uk-4487a62b
+updates:
+  - date: 2026-02-24
+    text: >-
+      RSP v3 dropped Anthropic's commitment to pause training or deployment when
+      safeguards couldn't keep up, replacing it with graded goals. See
+      2026-02-24-rsp-v3-drops-pause.
+note: >-
+  Judged the same way as OpenAI's signature: Anthropic had a published framework
+  before Seoul, and it's the 2026 rewrite of that framework that loosened the
+  stop-line.

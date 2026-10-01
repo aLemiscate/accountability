@@ -1,0 +1,44 @@
+title: 'OpenAI on the NYT lawsuit: "Training is fair use," and regurgitation is
+  "a rare bug we''re driving to zero"'
+date: 2024-01-08
+org: openai
+type: said
+kind: claim
+who: [openai]
+venue: Post on X and blog post, "OpenAI and journalism"
+quote: >-
+  Training is fair use, but we provide an opt-out • "Regurgitation" is a rare
+  bug we're driving to zero
+summary: >-
+  Responding to The New York Times' copyright suit, OpenAI said that training
+  models on "publicly available internet materials" is fair use, that it offers
+  publishers an opt-out, that reproducing articles verbatim is a rare bug, and
+  that the Times was "not telling the full story."
+concreteness: directional
+status: open
+breaks_if: >-
+  Courts rule that OpenAI's training was not fair use, or evidence shows OpenAI
+  trained on material it knew was pirated rather than publicly available.
+patterns: [take-first]
+related: [2025-11-26-openai-libgen-deletion, 2025-09-05-pirated-books-settlement]
+sources:
+  - title: OpenAI on X
+    publisher: X
+    url: https://x.com/OpenAI/status/1744419710635229424
+    date: 2024-01-08
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-24ec1636
+  - title: OpenAI and journalism
+    publisher: OpenAI
+    url: https://openai.com/index/openai-and-journalism/
+    date: 2024-01-08
+    type: primary
+    archive: https://web.archive.org/web/20260928113126/https://openai.com/index/openai-and-journalism/
+    snapshot: snapshots/2026-10-01-openai.com-0d737e03
+  - title: OpenAI Defends Use Of Copyrighted Content Following New York Times
+      Infringement Lawsuit
+    publisher: Deadline
+    url: https://deadline.com/2024/01/openai-new-york-times-lawsuit-1235699448/
+    date: 2024-01-08
+    type: reporting
+    snapshot: snapshots/2026-09-30-deadline.com-6a704eb6

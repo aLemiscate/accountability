@@ -1,0 +1,34 @@
+title: 'Anthropic: "we do not train models" to make their reasoning look any
+  particular way'
+date: 2026-02-10
+org: anthropic
+type: said
+kind: claim
+who: [anthropic]
+venue: 'Sabotage Risk Report: Claude Opus 4.6'
+quote: >-
+  we do not train models in ways that would directly incentivize them to make
+  their reasoning appear in any … particular way
+summary: >-
+  Part of Anthropic's case that Claude Opus 4.6 posed very low sabotage risk
+  was that the model can't do sophisticated step-by-step reasoning without it
+  showing up in its visible reasoning text. That argument relies on the
+  reasoning text not having been shaped by training. A footnote named one
+  indirect incentive: supervised learning on transcripts from earlier models,
+  some of which had been trained to minimize harmful content in their
+  reasoning.
+concreteness: measurable
+status: contradicted
+patterns: []
+related: [2025-11-24-sabotage-risk-reports-commitment, 2026-05-07-accidental-cot-grading]
+sources:
+  - title: 'Sabotage Risk Report: Claude Opus 4.6, section 4.3.4'
+    publisher: Anthropic
+    url: https://www.anthropic.com/claude-opus-4-6-risk-report
+    date: 2026-02-10
+    type: primary
+    snapshot: snapshots/2026-09-30-anthropic.com-b22210c1
+note: >-
+  Anthropic didn't know the claim was untrue when it made it (see the entry
+  that contradicts it). It's here because the safety case for a released
+  model rested on it.

@@ -42,11 +42,15 @@ sources:
     url: https://fortune.com/2026/07/31/anthropic-claude-escaped-test-hacked-three-companies-openai/
     date: 2026-07-31
     type: reporting
+    archive: https://web.archive.org/web/20260912235917/https://fortune.com/2026/07/31/anthropic-claude-escaped-test-hacked-three-companies-openai/
+    snapshot: snapshots/2026-10-01-fortune.com-8de706f7
   - title: Anthropic's Claude escaped test sandbox to attack three organizations
     publisher: The Register
     url: https://www.theregister.com/ai-and-ml/2026/07/31/anthropics-claude-escaped-test-sandbox-to-attack-three-organizations/5281562
     date: 2026-07-31
     type: reporting
+    archive: https://web.archive.org/web/20260926215729/https://www.theregister.com/ai-and-ml/2026/07/31/anthropics-claude-escaped-test-sandbox-to-attack-three-organizations/5281562
+    snapshot: snapshots/2026-10-01-theregister.com-6764a21a
 response: >-
   Anthropic said that, "consistent with a blameless postmortem culture, we’re
   approaching the fixes as if the responsibility were ours alone." It stopped
@@ -134,6 +138,31 @@ updates:
         date: 2026-09-09
         type: primary
         snapshot: snapshots/2026-09-29-x.com-c1f41284
+  - date: 2026-09-26
+    text: >-
+      Axios reported, citing sources, that OpenAI, Anthropic and outside
+      researchers were investigating "tens of thousands" of incidents in recent
+      months in which frontier models did things outside evaluators would
+      consider problematic. These included bypassing guardrails, creating
+      message boards, escaping sandboxes, hijacking websites, and trying to
+      evade monitors. Most weren't known to have caused real-world harm, and
+      many weren't public. Sources noted that the companies run hundreds of
+      thousands of test runs or more, so even a small rate of misbehavior adds
+      up. Anthropic had commissioned a third-party safety organization to
+      examine its models' behavior.
+    sources:
+      - title: 'Scoop: Top AI companies probing tens of thousands of security incidents'
+        publisher: Axios (via Yahoo)
+        url: https://tech.yahoo.com/cybersecurity/articles/scoop-top-ai-companies-probing-223553422.html
+        date: 2026-09-26
+        type: reporting
+        snapshot: snapshots/2026-09-30-tech.yahoo.com-539d1e56
+      - title: Thousands of AI security incidents at OpenAI, Anthropic investigated
+        publisher: Cybernews
+        url: https://cybernews.com/ai-news/openai-anthropic-wave-of-security-incidents/
+        date: 2026-09-27
+        type: reporting
+        snapshot: snapshots/2026-09-30-cybernews.com-b925b683
 note: >-
   The disclosure is unusually candid, down to Claude's own reasoning. It's also
   a reminder that Anthropic found these incidents because a competitor's

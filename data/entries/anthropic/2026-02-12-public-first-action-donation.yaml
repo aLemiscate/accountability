@@ -28,6 +28,8 @@ sources:
     url: https://www.cnbc.com/2026/02/12/anthropic-gives-20-million-to-group-pushing-for-ai-regulations-.html
     date: 2026-02-12
     type: reporting
+    archive: https://web.archive.org/web/20261001031243/https://www.cnbc.com/2026/02/12/anthropic-gives-20-million-to-group-pushing-for-ai-regulations-.html
+    snapshot: snapshots/2026-10-01-cnbc.com-d4ec2326
 updates:
   - date: 2026-04-13
     text: >-
@@ -43,18 +45,22 @@ updates:
         url: https://www.transformernews.ai/p/anthropic-super-pac-donations-public-first-leading-the-future-brad-carson
         date: 2026-04-13
         type: reporting
+        archive: https://web.archive.org/web/20261001031330/https://www.transformernews.ai/p/anthropic-super-pac-donations-public-first-leading-the-future-brad-carson
+        snapshot: snapshots/2026-10-01-transformernews.ai-d8fb1b7e
   - date: 2026-06-23
     text: >-
       In the New York primary where Leading the Future spent $8 million against
-      Alex Bores, groups supporting him spent roughly $20 million, most of it from an
-      Anthropic-backed organization, according to Gizmodo. Bores lost. Anthropic
-      has said its own gifts are barred from being used to influence elections.
+      Alex Bores, groups supporting him spent roughly $20 million, most of it
+      from an Anthropic-backed organization, according to Gizmodo. Bores lost.
+      Anthropic has said its own gifts are barred from being used to influence
+      elections.
     sources:
       - title: AI Super PAC’s First Major Target Loses New York Congressional Primary
         publisher: Gizmodo
         url: https://gizmodo.com/ai-super-pacs-first-major-target-loses-new-york-congressional-primary-2000776808
         date: 2026-06-24
         type: reporting
+        archive: https://web.archive.org/web/20261001031456/https://gizmodo.com/ai-super-pacs-first-major-target-loses-new-york-congressional-primary-2000776808
   - date: 2026-07-21
     text: >-
       Anthropic gave another $20 million, bringing its total to $40 million, and

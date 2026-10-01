@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/sama/status/1661975237280567297",
+  "captured_at": "2026-09-30T05:51:23.037Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "fe60917b2f872f8c291921df925f1d676eec709cd9386dc968d0c67d5fc280db",
+    "page.txt": "421a5c56d4e4ff019ae125e243f9e78fcf184e720c7002ebbb465da9e02c72af",
+    "post.json": "658c61a058b4932eeed83039875afb41df6ec8d42e27ae958430b30838824594",
+    "syndication.json": "f4077c57f056c0586e6728a3636a67fecd739065b98c2d314097563ef1c58bd2",
+    "post.txt": "55b64354cba004e9bbf8614e37f6233ee22fb281569200f6cb933c76a3788e9f"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1661975237280567297",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"very productive week of conversations in europe about how to best regulate AI! we are excited to continue to operate here and of course have no plans to leave.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "May 26, 2023",
+    "posted_at": "2023-05-26T05:59:09.231Z"
+  }
+}

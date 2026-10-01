@@ -1,0 +1,35 @@
+{
+  "url": "https://x.com/woj_zaremba/status/1945158231321706896",
+  "captured_at": "2026-09-30T04:46:23.822Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "8f41b086219fa78ee5200329cdcc62bd5f48352db0370dbfff37830888a900c9",
+    "page.txt": "bb5e591fdd4d88cb51152a229ffbb03040c0d0d45296fc4a3042a36d44bd04f5",
+    "post.json": "b7c2c8eee9990521286146d909be98d81c17219937d0f181ab953e6a4fe08ff5",
+    "syndication.json": "21762fa4028f32567c5c84b3a30b888313810507e2b35e4772d572aacd3cd9e8",
+    "media-1.png": "2f28de6f7c4e7d74a8105778537f2ff867d411ba0d1230b831eca7b45ad264e2",
+    "quoted-media-1.png": "2f28de6f7c4e7d74a8105778537f2ff867d411ba0d1230b831eca7b45ad264e2",
+    "post.txt": "5ddf3b6703788fff9fdd275e42d7d4bc6f3ae5fce3c3db4e4aaf736cf6852db7"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/woj_zaremba/status/1945158231321706896",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Wojciech Zaremba on X: \"When models start reasoning step-by-step, we suddenly get a huge safety gift: a window into their thought process. We could easily lose this if we're not careful. We're publishing a paper urging frontier labs: please don't train away this monitorability. Authored and endo… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Wojciech Zaremba (@woj_zaremba)",
+    "date": "July 15, 2025",
+    "posted_at": "2025-07-15T16:27:16.296Z",
+    "media": [
+      {
+        "file": "media-1.png",
+        "url": "https://pbs.twimg.com/media/Gv6R6QvWUAAVOx6.png"
+      },
+      {
+        "file": "quoted-media-1.png",
+        "url": "https://pbs.twimg.com/media/Gv2ng5FWsAANKq8.png"
+      }
+    ]
+  }
+}

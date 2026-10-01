@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/claudeai/status/2064394146916229443",
+  "captured_at": "2026-09-30T04:45:43.416Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "06040cd2dc424e6f6884c3ccb8fd6abe2cb93a7d38c4532400c6f2622089432c",
+    "page.txt": "873edd26a502e8440eb157a9059362ef72e9e67a88e0391971cc317c53a1fa73",
+    "post.json": "57fca97d3dc68b80953862fd0e3620df3a93431236260a99adca790ef09e2cec",
+    "syndication.json": "303e8fbe3475382446168feb32ce50c06d82bd158b3ddee9045f8eb5be851409",
+    "post.txt": "8ec49d609143ea729a8114203ee21c52f44ccf9da1d938a39b75bde1cefd8ee6"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/claudeai/status/2064394146916229443",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Claude on X: \"Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use. Its capabilities exceed those of any model we’ve ever made generally available.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Claude (@claudeai)",
+    "date": "June 9, 2026",
+    "posted_at": "2026-06-09T17:08:13.870Z"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 335,
+  "in_reply_to_screen_name": "OpenAI",
+  "in_reply_to_status_id_str": "1815708158339526664",
+  "in_reply_to_user_id_str": "4398626122",
+  "lang": "en",
+  "created_at": "2024-07-23T11:18:54.000Z",
+  "display_text_range": [
+    0,
+    277
+  ],
+  "entities": {},
+  "id_str": "1815708159664910480",
+  "text": "In May our Board of Directors launched a new Safety and Security committee to evaluate and further develop safety and security recommendations for OpenAI projects and operations. The committee includes leading cybersecurity expert, retired U.S. Army General Paul Nakasone. This",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1815708159664910480"
+    ],
+    "editable_until_msecs": "1721737134000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 26,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 316,
+    "in_reply_to_screen_name": "OpenAI",
+    "in_reply_to_status_id_str": "1815708157207056842",
+    "in_reply_to_user_id_str": "4398626122",
+    "lang": "en",
+    "reply_count": 11,
+    "retweet_count": 27,
+    "created_at": "2024-07-23T11:18:53.000Z",
+    "display_text_range": [
+      0,
+      140
+    ],
+    "entities": {},
+    "id_str": "1815708158339526664",
+    "text": "We are developing levels to help us and stakeholders categorize and track AI progress. This is a work in progress and we'll share more soon.",
+    "user": {
+      "id_str": "4398626122",
+      "name": "OpenAI",
+      "screen_name": "OpenAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1815708158339526664"
+      ],
+      "editable_until_msecs": "1721737133000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoxODE1NzA4MTU5NTI2NTE0Njg4"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://x.com/washingtonpost/status/2029391498651820263",
+  "captured_at": "2026-09-30T12:38:43.451Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "bf2af9af9b8e87b8181837846a0c874933d64e4cf83ee2063b8aca4e69dfa4be",
+    "page.txt": "15514a6e9eb32f01dfc944e6d603a56283a05f6729684fbd89950268bdd3a8ac",
+    "post.json": "f1a3f34f82aec5b99fc24bc6c5135e6222e5e86b9378bc06d050832afabb3a0c",
+    "syndication.json": "30ee4c226b54ea67d26af31e503b3d0240662849f62eb8797daf830846a8afdc",
+    "media-1.jpg": "b10afd61f0547214c601ac9bb839835f17cbafdcad1ef21ab3f3e55c61f5a7e8",
+    "post.txt": "007769c5b1cc63a382b704132e0566f80700e9ad335b4aa86a2b2906ef960bbc"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/washingtonpost/status/2029391498651820263",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "The Washington Post on X: \"To strike 1,000 targets in 24 hours in Iran, the U.S. military leveraged the most advanced AI it’s ever used in warfare. Anthropic’s Claude partnered with the military’s Maven Smart System, suggesting targets and issuing precise location coordinates. https://t.co/dDQ8KoW… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "The Washington Post (@washingtonpost)",
+    "date": "March 5, 2026",
+    "posted_at": "2026-03-05T03:00:12.206Z",
+    "media": [
+      {
+        "file": "media-1.jpg",
+        "url": "https://pbs.twimg.com/media/HCnYzAqXwAAqmxk.jpg"
+      }
+    ]
+  }
+}

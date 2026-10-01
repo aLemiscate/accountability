@@ -1,0 +1,30 @@
+{
+  "url": "https://x.com/OpenAI/status/2096133504417616165",
+  "captured_at": "2026-09-30T04:45:40.705Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "d90a54943007ea4a45fa6aab2fa4ab9c95207551d652d78d89c2207ac6cb07bb",
+    "page.txt": "5b0a888616fe1f9613931776817ff895b103aad50ab77b4883999ae0711b8b61",
+    "post.json": "4bdba450179fc9167d57412cf9712a468ec863e2630b7d0a9803f95ea1b7e70b",
+    "syndication.json": "79ef90652f4943617af20c4380cee3d34a90bb771025995f9e5bdd157d7b6f1d",
+    "media-1.jpg": "0d15bb89b740924c5fb0405c6d9f07cadefe8066f2d3f6fb1c087a64286ca745",
+    "post.txt": "97a041334841c67135815f76553db285f4968b2140f8a570413cc978f448876c"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/2096133504417616165",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"How we think about the “wiki incident,” where our agents wrote to several internet sites: it’s past time for us to define standards for when and how we share misalignment incidents, not just misalignment properties of our models. Historically, we have treated misalignment largely as … / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "September 5, 2026",
+    "posted_at": "2026-09-05T07:09:06.387Z",
+    "media": [
+      {
+        "file": "media-1.jpg",
+        "url": "https://pbs.twimg.com/media/HRb1iJXbsAADtBM.jpg"
+      }
+    ]
+  }
+}

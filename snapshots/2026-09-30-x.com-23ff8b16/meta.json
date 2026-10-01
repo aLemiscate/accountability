@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/sama/status/1679602641763205120",
+  "captured_at": "2026-09-30T04:46:10.295Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "46b0a59f6ead7c6f6f0827a25aa2a42620ddae70bf1ecf14d7aeb49a6cb4ebba",
+    "page.txt": "9a23806d493756e01c47218360c4c9989f7213d469fc8bca48b545e6f45e7ca9",
+    "post.json": "88f754c55e3487b825e46083b5f4f5bf9e62fc7d3469e64721de01b1b3e3c13d",
+    "syndication.json": "079a7fafbaaa687eb73584ad1c4c08e4dbe664097539ea6c095f77ce1849e4af",
+    "post.txt": "65553055f491e0e3866f7245c4a086a1c4a6b0ee783d2e93e4921d0f522ef1fa"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1679602641763205120",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"we’re transparent about the limitations of our technology, especially when we fall short. and our capped-profits structure means we aren’t incentivized to make unlimited returns.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "July 13, 2023",
+    "posted_at": "2023-07-13T21:24:09.961Z"
+  }
+}

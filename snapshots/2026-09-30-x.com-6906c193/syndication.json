@@ -1,0 +1,117 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 679,
+  "in_reply_to_screen_name": "OpenAI",
+  "in_reply_to_status_id_str": "1932530422355013945",
+  "in_reply_to_user_id_str": "4398626122",
+  "lang": "en",
+  "created_at": "2025-06-10T20:08:52.000Z",
+  "display_text_range": [
+    0,
+    273
+  ],
+  "entities": {},
+  "id_str": "1932530423911096508",
+  "text": "OpenAI o3-pro is available in the model picker for Pro and Team users starting today, replacing OpenAI o1-pro.\n\nEnterprise and Edu users will get access the week after.\n\nAs o3-pro uses the same underlying model as o3, full safety details can be found in the o3 system card.",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1932530423911096508"
+    ],
+    "editable_until_msecs": "1749589732000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 50,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 690,
+    "in_reply_to_screen_name": "OpenAI",
+    "in_reply_to_status_id_str": "1932530418936655923",
+    "in_reply_to_user_id_str": "4398626122",
+    "lang": "en",
+    "reply_count": 27,
+    "retweet_count": 45,
+    "created_at": "2025-06-10T20:08:52.000Z",
+    "display_text_range": [
+      0,
+      182
+    ],
+    "entities": {},
+    "id_str": "1932530422355013945",
+    "text": "OpenAI o3-pro has access to tools that make ChatGPT useful—it can search the web, analyze files, reason about visual inputs, use Python, personalize responses using memory, and more.",
+    "user": {
+      "id_str": "4398626122",
+      "name": "OpenAI",
+      "screen_name": "OpenAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1932530422355013945"
+      ],
+      "editable_until_msecs": "1749589732000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "card": {
+    "card_platform": {
+      "platform": {
+        "audience": {
+          "name": "production"
+        },
+        "device": {
+          "name": "iPhone",
+          "version": "13"
+        }
+      }
+    },
+    "name": "summary",
+    "url": "https://t.co/iqXaDSAtQq",
+    "binding_values": {
+      "description": {
+        "string_value": "Review OpenAI model releases, capability updates, retirements, and changes to the Model Spec.",
+        "type": "STRING"
+      },
+      "domain": {
+        "string_value": "help.openai.com",
+        "type": "STRING"
+      },
+      "vanity_url": {
+        "scribe_key": "vanity_url",
+        "string_value": "help.openai.com",
+        "type": "STRING"
+      },
+      "title": {
+        "string_value": "Model Release Notes | OpenAI Help Center",
+        "type": "STRING"
+      },
+      "card_url": {
+        "scribe_key": "card_url",
+        "string_value": "https://t.co/iqXaDSAtQq",
+        "type": "STRING"
+      }
+    }
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoxOTMyNTMwNDIzNzU1OTExMTcw"
+  }
+}

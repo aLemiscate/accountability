@@ -1,0 +1,109 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 2,
+  "in_reply_to_screen_name": "iandanforth",
+  "in_reply_to_status_id_str": "1105141608167616512",
+  "in_reply_to_user_id_str": "14596050",
+  "lang": "en",
+  "created_at": "2019-03-11T17:04:08.000Z",
+  "display_text_range": [
+    13,
+    129
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "14596050",
+        "indices": [
+          0,
+          12
+        ],
+        "name": "iandanforth 🦋 @iandanforth.bsky.social",
+        "screen_name": "iandanforth"
+      }
+    ]
+  },
+  "id_str": "1105152436019195904",
+  "text": "@iandanforth Needed to custom-write rules like:\n\n- Fiduciary duty to the charter\n- Cap returns\n- Full control to OpenAI Nonprofit",
+  "user": {
+    "id_str": "162124540",
+    "name": "Greg Brockman",
+    "screen_name": "gdb",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1347621377503711233/bHg3ipfD_normal.jpg",
+    "highlighted_label": {
+      "badge": {
+        "url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_bigger.jpg"
+      },
+      "description": "OpenAI",
+      "url": {
+        "url": "https://twitter.com/OpenAI",
+        "url_type": "DeepLink"
+      },
+      "user_label_display_type": "Badge",
+      "user_label_type": "BusinessLabel"
+    }
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1105152436019195904"
+    ],
+    "editable_until_msecs": "1552325648143",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 1,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 2,
+    "in_reply_to_screen_name": "gdb",
+    "in_reply_to_status_id_str": "1105137541970243584",
+    "in_reply_to_user_id_str": "162124540",
+    "lang": "en",
+    "reply_count": 1,
+    "retweet_count": 0,
+    "created_at": "2019-03-11T16:21:06.000Z",
+    "display_text_range": [
+      5,
+      81
+    ],
+    "entities": {
+      "user_mentions": [
+        {
+          "id_str": "162124540",
+          "indices": [
+            0,
+            4
+          ],
+          "name": "Greg Brockman",
+          "screen_name": "gdb"
+        }
+      ]
+    },
+    "id_str": "1105141608167616512",
+    "text": "@gdb Any chance you could detail why a public benefit corp didn't fit your needs?",
+    "user": {
+      "id_str": "14596050",
+      "name": "iandanforth 🦋 @iandanforth.bsky.social",
+      "screen_name": "iandanforth",
+      "is_blue_verified": false,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1591204199601160200/PjLVgg_C_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1105141608167616512"
+      ],
+      "editable_until_msecs": "1552323066582",
+      "edits_remaining": "5",
+      "is_edit_eligible": true
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

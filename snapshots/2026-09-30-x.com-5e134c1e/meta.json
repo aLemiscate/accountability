@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/AnthropicAI/status/2041578409315189125",
+  "captured_at": "2026-09-30T04:45:06.910Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "7a732030fdc9cf3f6e7d6d7f03b4163695cc89dfd6bdedc3840ea8b44bdcbbaa",
+    "page.txt": "be6594728a24e7c6af70dd4c1470b1bb85e614094b3e2b321bae0d515e01c86a",
+    "post.json": "f59c4ebd2b5ded8b04cc853515c141e062327b4ad8d7ecd3003c3633cc98eef7",
+    "syndication.json": "1ffc34221822af4658361a98d67f03d3fcf0f4b1af863b2d13443bce9822ea2e",
+    "post.txt": "d86aef6ce313c94d4fc7403765cb783dc06b7d794e7cdffaf1b05ab2d53f09b1"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/AnthropicAI/status/2041578409315189125",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Anthropic on X: \"We do not plan to make Mythos Preview generally available. Our goal is to deploy Mythos-class models safely at scale, but first we need safeguards that reliably block their most dangerous outputs. We’ll begin testing those safeguards with an upcoming Claude Opus model.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Anthropic (@AnthropicAI)",
+    "date": "April 7, 2026",
+    "posted_at": "2026-04-07T18:06:38.130Z"
+  }
+}

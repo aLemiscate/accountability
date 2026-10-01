@@ -1,0 +1,125 @@
+title: Anthropic says SB 1047's benefits "likely outweigh its costs," then
+  endorses its successor, SB 53
+date: 2024-08-21
+org: anthropic
+type: did
+kind: action
+who: [anthropic, dario-amodei]
+quote: >-
+  In our assessment the new SB 1047 is substantially improved, to the point
+  where we believe its benefits likely outweigh its costs. However, we are not
+  certain of this, and there are still some aspects of the bill which seem
+  concerning or ambiguous to us.
+summary: >-
+  After first submitting a "support if amended" letter, Anthropic told Gov.
+  Newsom that the amended SB 1047 likely presented "a feasible compliance
+  burden for companies like ours" and that its benefits likely outweighed its
+  costs, stopping short of a full endorsement. Newsom vetoed the bill. In
+  September 2025 Anthropic formally endorsed the narrower SB 53, which requires
+  large developers to publish safety frameworks, release transparency reports,
+  report critical safety incidents within 15 days and protect whistleblowers,
+  while saying frontier AI safety is best handled federally. TechCrunch
+  reported that Meta and OpenAI lobbied against it; Newsom signed it on Sept.
+  29, 2025.
+patterns: []
+related: [2024-08-21-opposes-sb-1047, 2026-02-12-public-first-action-donation]
+sources:
+  - title: Anthropic letter to Gov. Newsom on SB 1047 (PDF)
+    publisher: Anthropic
+    url: https://cdn.sanity.io/files/4zrzovbb/website/6a3b14a98a781a6b69b9a3c5b65da26a44ecddc6.pdf
+    date: 2024-08-21
+    type: primary
+    snapshot: snapshots/2026-09-30-cdn.sanity.io-aff2b52e
+  - title: Anthropic is endorsing SB 53
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/anthropic-is-endorsing-sb-53
+    date: 2025-09-08
+    type: primary
+    snapshot: snapshots/2026-09-30-anthropic.com-523ff672
+  - title: Anthropic endorses California's AI safety bill, SB 53
+    publisher: TechCrunch
+    url: https://techcrunch.com/2025/09/08/anthropic-endorses-californias-ai-safety-bill-sb-53/
+    date: 2025-09-08
+    type: reporting
+    snapshot: snapshots/2026-09-30-techcrunch.com-d8c27382
+  - title: California Governor Newsom signs landmark AI safety bill SB 53
+    publisher: TechCrunch
+    url: https://techcrunch.com/2025/09/29/california-governor-newsom-signs-landmark-ai-safety-bill-sb-53/
+    date: 2025-09-29
+    type: reporting
+    snapshot: snapshots/2026-09-30-techcrunch.com-c53c48f3
+updates:
+  - date: 2025-06-05
+    text: >-
+      In a New York Times op-ed, Amodei opposed the proposed 10-year federal
+      moratorium on state AI laws: "a 10-year moratorium is far too blunt an
+      instrument," and without a federal plan "would give us the worst of both
+      worlds — no ability for states to act, and no national policy as a
+      backstop." He called for a federal transparency standard instead.
+    sources:
+      - title: Anthropic's Dario Amodei says AI element in GOP megabill 'far too
+          blunt an instrument'
+        publisher: The Hill
+        url: https://thehill.com/policy/technology/5334913-anthropic-ceo-ai-regulation-donald-trump-gop-megabill/
+        date: 2025-06-05
+        type: reporting
+        snapshot: snapshots/2026-09-30-thehill.com-f20c4c8e
+  - date: 2026-06-10
+    text: >-
+      Anthropic also endorsed New York's RAISE Act, saying its safeguards were
+      "raising the bar," and Illinois's S.B. 315, which adds annual outside
+      audits. Its head of external affairs, Sarah Heck, said the California and
+      New York laws "should inspire Congress to build on them." The company
+      said Congress should not preempt state law unless it first passes a
+      "strong" federal framework.
+    sources:
+      - title: AI firms craft state rules as White House, Congress stall
+        publisher: The Hill
+        url: https://thehill.com/policy/technology/5918733-openai-anthropic-ai-regulation/
+        date: 2026-06-10
+        type: reporting
+        snapshot: snapshots/2026-10-01-thehill.com-5cc29f66
+      - title: New York governor Kathy Hochul signs RAISE Act to regulate AI safety
+        publisher: TechCrunch
+        url: https://techcrunch.com/2025/12/20/new-york-governor-kathy-hochul-signs-raise-act-to-regulate-ai-safety/
+        date: 2025-12-20
+        type: reporting
+        snapshot: snapshots/2026-10-01-techcrunch.com-11cd3b92
+  - date: 2026-07-21
+    text: >-
+      Federal lobbying disclosures show Anthropic's spending rising from
+      $280,000 in 2023 to $720,000 in 2024, and to a record $1.97 million in the
+      second quarter of 2026 alone, more than Nvidia spent that quarter. Its
+      reported issues included cybersecurity, copyright, cloud computing and
+      defense procurement.
+    sources:
+      - title: AI companies upped their federal lobbying spend in 2024 amid regulatory
+          uncertainty
+        publisher: TechCrunch
+        url: https://techcrunch.com/2025/01/24/ai-companies-upped-their-federal-lobbying-spend-in-2024-amid-regulatory-uncertainty/
+        date: 2025-01-24
+        type: reporting
+        snapshot: snapshots/2026-10-01-techcrunch.com-74467903
+      - title: OpenAI, Anthropic boost lobbying as legacy tech and defense spending
+          slips
+        publisher: CNBC
+        url: https://www.cnbc.com/2026/07/21/openai-anthropic-ai-lobbying-spending-q2-2026.html
+        date: 2026-07-21
+        type: reporting
+        snapshot: snapshots/2026-10-01-cnbc.com-59fe2889
+  - date: 2026-09
+    text: >-
+      Mission Local reported that state officials said OpenAI's Hugging Face
+      incident did not meet SB 53's incident-reporting threshold, and that
+      Wiener now says vetoing SB 1047 was a mistake.
+    sources:
+      - title: AI safety law missed the first rogue AI hack in California
+        publisher: Mission Local
+        url: https://missionlocal.org/2026/09/california-ai-safety-law-sb-53-openai-hack-wiener-newsom/
+        date: 2026-09
+        type: reporting
+        snapshot: snapshots/2026-09-30-missionlocal.org-6c90be7a
+note: >-
+  Recorded as a consistency check, not a failure: Anthropic's stated support for
+  regulation matched what it did on the two bills that came before it. Compare
+  OpenAI's letters on the same bills.

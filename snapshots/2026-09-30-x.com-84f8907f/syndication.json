@@ -1,0 +1,34 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 192,
+  "lang": "en",
+  "created_at": "2026-03-25T18:25:43.000Z",
+  "display_text_range": [
+    0,
+    225
+  ],
+  "entities": {},
+  "id_str": "2036872170044018943",
+  "text": "I am pretty sure the effort by the pro-AI lobby to torpedo Alex Bores will later on be widely understood as a pointless own-goal. The ads are Kathryn Hahn in Parks &amp; Rec tier self-parody; there is nothing serious in them.",
+  "user": {
+    "id_str": "966815073690730496",
+    "name": "Joshua Achiam",
+    "screen_name": "jachiam0",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/967329395080744960/O-MKd6Nx_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2036872170044018943"
+    ],
+    "editable_until_msecs": "1774466743000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 12,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

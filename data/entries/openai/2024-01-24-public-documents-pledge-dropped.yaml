@@ -1,0 +1,37 @@
+title: OpenAI drops its founding promise that anyone could see its governing documents
+date: 2024-01-24
+org: openai
+type: did
+kind: reversal
+who: [openai]
+quote: >-
+  OpenAI aligns our practices with industry standards, and since 2022 that
+  includes not publicly distributing additional internal documents.
+summary: >-
+  From its founding, OpenAI's filings to U.S. tax authorities said any member of
+  the public could review its governing documents, financial statements and
+  conflict-of-interest rules. When WIRED asked for them after the November 2023
+  board crisis, OpenAI said its policy had changed and provided only a narrow
+  financial statement that left out most of its operations. A spokesperson gave
+  the statement above.
+contradicts: [2015-12-11-founded-as-nonprofit]
+related: [2023-11-17-board-not-consistently-candid]
+patterns: [silent-edit, mission-to-market]
+sources:
+  - title: OpenAI Quietly Scrapped a Promise to Disclose Key Documents to the Public
+      (WIRED, excerpted)
+    publisher: OODA Loop
+    url: https://www.oodaloop.com/briefs/2024/01/24/openai-quietly-scrapped-a-promise-to-disclose-key-documents-to-the-public/
+    date: 2024-01-24
+    type: reporting
+    snapshot: snapshots/2026-09-30-oodaloop.com-18183de3
+  - title: OpenAI Quietly Scrapped a Promise to Disclose Key Documents to the Public
+    publisher: WIRED
+    url: https://www.wired.com/story/openai-scrapped-promise-disclose-key-documents/
+    date: 2024-01-24
+    type: reporting
+    archive: https://web.archive.org/web/20261001032708/https://www.wired.com/story/openai-scrapped-promise-disclose-key-documents/
+    snapshot: snapshots/2026-10-01-wired.com-5fba8b3d
+note: >-
+  The change dated to 2022, but the public learned of it only when a reporter
+  asked for the documents, weeks after the board crisis that made them matter.

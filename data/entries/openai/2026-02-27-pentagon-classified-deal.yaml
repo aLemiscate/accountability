@@ -16,7 +16,9 @@ summary: >-
   persons. On March 7, robotics and hardware lead Caitlin Kalinowski resigned,
   saying surveillance without judicial oversight and lethal autonomy without
   human authorization were "lines that deserved more deliberation than they
-  got."
+  got." Later that day she added: "my issue is that the announcement was rushed
+  without the guardrails defined. It's a governance concern first and
+  foremost."
 related: [2026-02-27-anthropic-pentagon-red-lines]
 patterns: [ship-then-patch, sorry-after-caught, principles-with-a-price]
 sources:
@@ -38,6 +40,12 @@ sources:
     date: 2026-03-07
     type: primary
     snapshot: snapshots/2026-09-29-x.com-6adaf96a
+  - title: Caitlin Kalinowski on X (follow-up reply)
+    publisher: X
+    url: https://x.com/kalinowski007/status/2030331550236320071
+    date: 2026-03-07
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-07f0c978
   - title: OpenAI reaches agreement with Pentagon to use AI models
     publisher: Axios
     url: https://axios.com/2026/02/27/pentagon-openai-safety-red-lines-anthropic
@@ -75,14 +83,68 @@ sources:
     archive: https://web.archive.org/web/20260929223225/https://theintercept.com/2026/03/08/openai-anthropic-military-contract-ethics-surveillance/
     snapshot: snapshots/2026-09-29-theintercept.com-1e0ad3e1
 updates:
+  - date: 2026-02-28
+    text: >-
+      OpenAI's own thread on the deal listed its red lines and said: "Other AI
+      labs have reduced or removed their safety guardrails and relied primarily
+      on usage policies as their primary safeguards in national security
+      deployments. We think our approach better protects against unacceptable
+      use." It also said: "We do not think Anthropic should be designated as a
+      supply chain risk and we've made our position on this clear to the
+      Department of War."
+    sources:
+      - title: OpenAI on X (red lines)
+        publisher: X
+        url: https://x.com/OpenAI/status/2027846013650932195
+        date: 2026-02-28
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-8dde517e
+      - title: OpenAI on X ("Other AI labs have reduced or removed their safety
+          guardrails")
+        publisher: X
+        url: https://x.com/OpenAI/status/2027846015051772121
+        date: 2026-02-28
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-1a4ff832
+      - title: OpenAI on X (on Anthropic's designation)
+        publisher: X
+        url: https://x.com/OpenAI/status/2027846016423321831
+        date: 2026-02-28
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-13bb03ed
   - date: 2026-03-01
     text: >-
       In a public Q&A on X the next day, Altman described the red lines as
       provisional: "We currently have three redlines. I could see us changing
       them or adding more as the technology evolves, and there are new risks we
-      don't yet understand."
+      don't yet understand." Asked whether OpenAI would switch the system off,
+      he wrote that it would if a use were illegal, but: "What we won't do is
+      turn it off because we disagree with a particular (legal military)
+      decision. We trust their authority." On the timing: "The main reason for
+      the rush was an attempt to de-escalate matters at a time when it felt like
+      things could get extremely hot." Asked how the red lines survive a change
+      in the law, OpenAI's chief strategy officer Jason Kwon said the contract
+      "date stamps" the relevant policy directive or law: "That's what we did."
     sources:
-      - title: Sam Altman on X
+      - title: Sam Altman on X ("We trust their authority")
+        publisher: X
+        url: https://x.com/sama/status/2027914492961820839
+        date: 2026-03-01
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-720fa38c
+      - title: Sam Altman on X ("the main reason for the rush")
+        publisher: X
+        url: https://x.com/sama/status/2027916067436433538
+        date: 2026-03-01
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-349d9f97
+      - title: Jason Kwon on X ("date stamps")
+        publisher: X
+        url: https://x.com/jasonkwon/status/2027948755467833366
+        date: 2026-03-01
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-bd1da095
+      - title: Sam Altman on X ("three redlines")
         publisher: X
         url: https://x.com/sama/status/2027908779015340193
         date: 2026-03-01

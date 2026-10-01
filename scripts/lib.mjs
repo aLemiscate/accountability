@@ -101,6 +101,14 @@ export function validate({ patterns, actors, entries, accounts = [] }) {
   for (const acc of accounts) {
     if (!actorIds.has(acc.actor)) errors.push(`accounts.yaml: unknown actor "${acc.actor}" (add it to data/actors.yaml)`);
     if (!acc.x && !acc.bluesky) errors.push(`accounts.yaml: ${acc.actor} needs an x or bluesky handle`);
+    if (acc.sweep != null && typeof acc.sweep !== 'boolean') errors.push(`accounts.yaml: ${acc.actor} has sweep: ${acc.sweep} (use true or false)`);
+    if (acc.match != null) {
+      try {
+        new RegExp(acc.match, 'i');
+      } catch (err) {
+        errors.push(`accounts.yaml: ${acc.actor} has an invalid match pattern (${err.message})`);
+      }
+    }
     for (const h of [acc.x && `x:${acc.x}`, acc.bluesky && `bsky:${acc.bluesky}`].filter(Boolean)) {
       if (handles.has(h.toLowerCase())) errors.push(`accounts.yaml: duplicate handle ${h}`);
       handles.add(h.toLowerCase());
@@ -234,14 +242,14 @@ export function derive({ site, patterns, actors, entries }) {
   };
 }
 
-/** Normalize text for quote matching: case, curly quotes, dashes, whitespace. */
+/** Normalize text for quote matching: case, curly quotes, dashes, invisible format characters (including the bidi marks some PDFs carry), whitespace. */
 export function normalizeForMatch(s) {
   return String(s)
     .toLowerCase()
     .replace(/[\u2018\u2019\u201b\u2032]/g, "'")
     .replace(/[\u201c\u201d\u201f\u2033]/g, '"')
     .replace(/[\u2010-\u2015\u2212]/g, '-')
-    .replace(/[\u200b-\u200d\ufeff]/g, '')
+    .replace(/[\u200b-\u200f\u202a-\u202e\u2066-\u2069\ufeff]/g, '')
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -254,7 +262,8 @@ export function quoteSegments(quote) {
     .filter((part) => part.length >= 3);
 }
 
-const SNAPSHOT_TEXT_FILES = ['page.txt', 'rendered.txt', 'post.txt', 'document.txt'];
+// transcript.txt holds a labeled transcription of text that was captured only as an image.
+const SNAPSHOT_TEXT_FILES = ['page.txt', 'rendered.txt', 'post.txt', 'document.txt', 'transcript.txt'];
 
 /**
  * Check each entry's quote against the text of the snapshots attached to its

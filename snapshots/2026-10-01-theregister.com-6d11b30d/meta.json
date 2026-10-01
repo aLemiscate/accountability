@@ -1,0 +1,21 @@
+{
+  "url": "https://www.theregister.com/2024/05/29/ex_openai_board_member_accuses_altman_lying/",
+  "captured_at": "2026-10-01T03:25:01.316Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "c71cdc62faec229e9ff3e40cf4ccbb36da805db968d2c37250a428654b1c8ce3",
+    "page.txt": "2425b6b40ee4f0f1c830be568ef6f0bd733c0058e6981abd1569881325d9e1fe",
+    "screenshot.jpg": "841f4c6e954125246c20b6a4ee2b4049ed5d14f4a9032f7f36465d6736a1d91a",
+    "rendered.txt": "0a37bc20954b73d524c177ee9a8e245577c634512e838b5a46901f092c5b2ec7"
+  },
+  "http_status": 200,
+  "final_url": "https://www.theregister.com/software/2024/05/29/ex-openai-board-member-accuses-sam-altman-of-outright-lies/362218",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Ex-OpenAI board member accuses Sam Altman of 'outright' lies",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20260123183734/https://www.theregister.com/2024/05/29/ex_openai_board_member_accuses_altman_lying/",
+    "timestamp": "20260123183734",
+    "method": "existing"
+  }
+}

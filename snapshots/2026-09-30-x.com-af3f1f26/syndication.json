@@ -1,0 +1,70 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 21,
+  "in_reply_to_screen_name": "gwern",
+  "in_reply_to_status_id_str": "1105140987289051136",
+  "in_reply_to_user_id_str": "17664709",
+  "lang": "en",
+  "created_at": "2019-03-11T18:26:16.000Z",
+  "display_text_range": [
+    15,
+    289
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "17664709",
+        "indices": [
+          0,
+          6
+        ],
+        "name": "𝔊𝔴𝔢𝔯𝔫",
+        "screen_name": "gwern"
+      },
+      {
+        "id_str": "4398626122",
+        "indices": [
+          7,
+          14
+        ],
+        "name": "OpenAI",
+        "screen_name": "OpenAI"
+      }
+    ]
+  },
+  "id_str": "1105173108233666561",
+  "text": "@gwern @OpenAI We will need to raise billions of dollars. If we do not, the Nonprofit would fail at its mission.\n\nWe then needed a structure that let us custom-write (very unusual!) rules like the following:\n\n- Fiduciary duty to the charter\n- Cap returns\n- Full control to OpenAI Nonprofit",
+  "user": {
+    "id_str": "162124540",
+    "name": "Greg Brockman",
+    "screen_name": "gdb",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1347621377503711233/bHg3ipfD_normal.jpg",
+    "highlighted_label": {
+      "badge": {
+        "url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_bigger.jpg"
+      },
+      "description": "OpenAI",
+      "url": {
+        "url": "https://twitter.com/OpenAI",
+        "url_type": "DeepLink"
+      },
+      "user_label_display_type": "Badge",
+      "user_label_type": "BusinessLabel"
+    }
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1105173108233666561"
+    ],
+    "editable_until_msecs": "1552330576783",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 2,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

@@ -1,0 +1,112 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 301,
+  "in_reply_to_screen_name": "peterwildeford",
+  "in_reply_to_status_id_str": "2027915494926225706",
+  "in_reply_to_user_id_str": "25776739",
+  "lang": "en",
+  "created_at": "2026-03-01T01:43:44.000Z",
+  "display_text_range": [
+    16,
+    293
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "25776739",
+        "indices": [
+          0,
+          15
+        ],
+        "name": "Peter Wildeford🇺🇸🚀",
+        "screen_name": "peterwildeford"
+      }
+    ]
+  },
+  "id_str": "2027922703337066787",
+  "text": "@peterwildeford We deliver a system (including choosing what models to deploy), and they can use it bound by lawful ways, including laws and directives around autonomous weapons and surveillance. But we get to decide what system to build, and the DoW understands that there are lot of risks we",
+  "user": {
+    "id_str": "1605",
+    "name": "Sam Altman",
+    "screen_name": "sama",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_normal.jpg",
+    "highlighted_label": {
+      "badge": {
+        "url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_bigger.jpg"
+      },
+      "description": "OpenAI",
+      "url": {
+        "url": "https://twitter.com/OpenAI",
+        "url_type": "DeepLink"
+      },
+      "user_label_display_type": "Badge",
+      "user_label_type": "BusinessLabel"
+    }
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2027922703337066787"
+    ],
+    "editable_until_msecs": "1772333024000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 52,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 613,
+    "in_reply_to_screen_name": "sama",
+    "in_reply_to_status_id_str": "2027900042720498089",
+    "in_reply_to_user_id_str": "1605",
+    "lang": "en",
+    "reply_count": 7,
+    "retweet_count": 20,
+    "created_at": "2026-03-01T01:15:05.000Z",
+    "display_text_range": [
+      6,
+      285
+    ],
+    "entities": {
+      "user_mentions": [
+        {
+          "id_str": "1605",
+          "indices": [
+            0,
+            5
+          ],
+          "name": "Sam Altman",
+          "screen_name": "sama"
+        }
+      ]
+    },
+    "id_str": "2027915494926225706",
+    "text": "@sama So I'm confused - maybe you can help. OpenAI is trying to claim simultaneously that (a) the contract allows \"all lawful purposes\" and (b) also that your red lines are fully protected.\n\nThe way you bridge this is by saying the protections live in this \"deployment architecture and",
+    "user": {
+      "id_str": "25776739",
+      "name": "Peter Wildeford🇺🇸🚀",
+      "screen_name": "peterwildeford",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2016338985811927041/Vve57ZtV_normal.png"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2027915494926225706"
+      ],
+      "editable_until_msecs": "1772331305000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDI3OTIyNzAzMjQ0Nzc1NDI0"
+  }
+}

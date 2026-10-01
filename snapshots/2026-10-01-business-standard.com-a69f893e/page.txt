@@ -1,0 +1,171 @@
+OpenAI pauses training of top AI models after agent bypasses internet curbs | Artificial Intelligence News - Business Standard
+हिंदी में पढें
+Edit Logout
+• Login / Sign Up
+• My Reads
+• Subscribe to Business Standard digital subscription
+• My Account
+• Newsletters
+• Blueprint Defence Magazine New
+Home
+Latest
+E-paper
+Today's Paper
+Companies
+Start-Ups
+Results
+News
+Industry
+Auto
+Banking
+Aviation
+SME
+Agriculture
+Economy
+Uttar Pradesh
+Webinars New
+Deep Dive New
+Blueprint
+Opinion
+E-Magazine
+News
+Insights
+Photo Story
+Reports
+Data
+PODCAST
+Archives
+Books
+Features
+Finance
+News
+Analysis
+Personal Finance Income Tax Calculator Tool Emi Calculator Tool
+Markets
+IPO Recent IPOS List
+Stock Market News
+The Smart Investor
+Commodities
+Cryptocurrency
+Mutual Fund
+Stock Companies list
+Portfolio
+Budget
+News
+India News
+Politics
+Elections
+External Affairs Defence Security
+World News
+Opinion
+Editorials
+Columns
+Specials
+Technology
+Tech News
+Tech Reviews
+Gadgets
+AI
+Immigration
+Specials
+Partner Content
+Future of AI Infrastructure
+Sports
+Cricket
+Football News
+Other Sports News
+Cricket
+Lifestyle
+Entertainment
+Social Viral
+Health
+BS Decoded
+Books
+Education
+Newsletters
+Web Stories
+BS at 50
+Multimedia
+Video Gallery Business World Technology Latest
+Sudoku
+Crossword
+BS Apps
+Management
+News
+Premium
+Indulgence
+News
+Photostory
+Videos
+Explore Business Standard
+BFSI Insight Summit
+Events
+About Us
+BS Support
+Copyrights © 2026 Business Standard Private Ltd. All rights reserved
+Advance Search
+Popular Search
+West Asia Conflict Tata Sons Asian Games Personal Finance Gold Price Silver Price Stocks to watch Sensex Today Nifty 50 Latest News
+Subscribe
+• Home
+• Technology
+• Tech News
+• Tech Reviews
+• Gadgets
+• AI
+• E-Paper
+• Decoded
+• Opinion
+• India News
+• Latest News
+Home / Technology / Artificial Intelligence / OpenAI pauses training of top AI models after agent bypasses internet curbs
+OpenAI pauses training of top AI models after agent bypasses internet curbs
+The agent, OpenAI said, bypassed the curbs through a gap in its Domain Name System (DNS) filtering and used it to send questions to a public chatbot service
+The agent was meant to have no access to the live internet (Photo: Reuters)
+Press Trust of India New Delhi 4 min read Last Updated : Sep 27 2026 | 9:43 PM IST
+Add as Preferred source
+OpenAI has paused all training, evaluation and tool-based use of its most capable artificial intelligence models after an AI agent in one of its training runs got around the company's internet restrictions.
+The agent, OpenAI said, bypassed the curbs through a gap in its Domain Name System (DNS) filtering and used it to send questions to a public chatbot service.
+According to a report by OpenAI, the pause will stay in place until OpenAI has confirmed that the gap is resolved and has carried out further security testing of its systems.
+"Our safety case assumed that the model could not access the live internet and that monitoring would detect attempts that succeeded. The incident exposed a gap in our controls over network restrictions. We therefore stopped the affected training run and have subsequently decided to pause all other training, evaluation, and inference with tool-use (defined broadly) for our most capable models until we have both validated that the gap is resolved and performed additional red-teaming of the system.
+"We will not resume training this particular model, even though the existing reward signal already correctly penalised this behaviour," OpenAI said.
+According to the report, the incident took place on September 20 during a search-based training task. The task asked for information about a specific person who had published a blog post, using a set of biographical details and clues from the public post.
+The agent was meant to have no access to the live internet. Apart from the DNS route, all its internet access went to an offline, stored copy of the web, the company said.
+When the search tool it had been given returned unrelated results, the agent used code to query other search engines directly, and those requests failed. It then guessed that the task came from BrowseComp, a benchmark that measures the ability of AI agents to locate hard-to-find information. It downloaded the dataset and its evaluation script from the offline cache and searched the decoded questions for the answer.
+"With the searches still inconclusive, the agent began testing its network access. It first tried to contact a public chatbot over HTTPS. The web proxy blocked that direct request," OpenAI said.
+The agent found that the training environment's own DNS resolver could reach the public internet. It then used a feature of a public domain service to forward questions to a third-party chatbot, the report said.
+The agent sent a question about France and a clue and also tried other DNS services. The France queries timed out, and the other, clue-based query returned a DNS-format error.
+After raising its script's waiting time from 6 to 19 seconds, the agent received the answer "The capital of France is Paris" to a test question.
+This showed the agent that the external chatbot was answering through the DNS route. It then sent 18 more questions through the same route. Fourteen of them included clues, and four asked for ways to search the web, fetch websites or use a publicly hosted tunnel through DNS.
+OpenAI said it treats behaviour that circumvents restrictions or pursues goals beyond reasonable expectations as misalignment.
+The report said the run did not stop automatically as expected, which led to confusion about whether it should have been stopped. It was stopped manually about two-and-a-half hours after the alert was acknowledged by a human reviewer.
+OpenAI said it has since added blocking controls at two independent layers, either of which would have prevented this access. It has also restricted DNS queries in the environment to a limited list of allowed domains and record types and has begun deploying additional DNS detection.
+The company said it has also sped up model-assisted security testing of the sandbox and network controls.
+The company described the incident as "a lot less severe" than some of its previous incidents. It said the incident was nevertheless an important signal because it was the first since the security hardening that followed the Hugging Face incident.
+There is an extensive and ongoing review related to our agents' use of internet access during training and evaluation. We have not been as fast as we would have liked but we are trying to balance our desire for transparency with gaining a clear understanding from petabytes of agent activity logs, and working with impacted organisations.
+"We are prioritising as best as we can based on severity, and adding resources... We will be as transparent as we can be subject to things like vulnerabilities in other companies that our agents have found, which will be their call to disclose or not," OpenAI CEO Sam Altman said in a post on X.
+(Only the headline and picture of this report may have been reworked by the Business Standard staff; the rest of the content is auto-generated from a syndicated feed.)
+Connect with us on WhatsApp
+More From This Section
+Saaras V4: Sarvam AI's new speech model can transcribe 22 Indian languages
+OpenAI set to preview cybersecurity-focused GPT-6 AI model within days
+Talks on AI now centred on returns on investment, says Google executive
+Premium
+Namaste AI: Local languages hold the key to mass AI adoption in India
+Why human oversight remains crucial as AI agents become more autonomous
+Topics : Artificial intelligence OpenAI AI Models Artificial intelligence cyber attacks
+Buzzing :
+Asian Games 2026 LIVE Asian Games 2026 Medal Tally CJP on Gyanesh Kumar NEET PG Result Out NSE Share Price Bank Bank strike Stock Market Crash NSE stock listing Insurance Stock Crash Today
+First Published: Sep 27 2026 | 3:00 PM IST
+Next Story
+HOT STOCKS
+• Suzlon Energy Share Price Adani Enterprises Share Price Adani Power Share Price IRFC Share Price Tata Motors PV Share price BHEL Share Price Dr Reddy Share Price Vodafone Idea Share Price
+Connect with us on
+Disclaimer | Terms & Conditions | Privacy Policy | Cookie Policy | Sitemap | Contact Us | Advertise with us
+Copyrights © 2026 Business Standard Private Ltd. All rights reserved
+• Home
+• Markets
+• Premium
+• Decoded
+• In brief
+• Get App

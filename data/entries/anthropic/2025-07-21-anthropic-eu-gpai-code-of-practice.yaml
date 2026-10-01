@@ -1,0 +1,44 @@
+title: 'Standing promise: Anthropic signs the EU code for general-purpose AI,
+  including serious-incident reporting'
+date: 2025-07-21
+org: anthropic
+type: said
+kind: commitment
+who: [anthropic]
+venue: EU General-Purpose AI Code of Practice
+quote: >-
+  After review, Anthropic intends to sign the European Union's General-Purpose
+  AI Code of Practice.
+summary: >-
+  Anthropic said it would sign the EU's voluntary Code of Practice for
+  general-purpose AI, saying the code "advances the principles of transparency,
+  safety and accountability." For the most capable models, the code's Safety
+  and Security chapter commits signatories to a published safety framework,
+  model reports to the EU AI Office, and reporting serious incidents "without
+  undue delay," with deadlines that depend on severity. For a serious
+  cybersecurity breach the deadline is five days.
+concreteness: measurable
+status: open
+breaks_if: >-
+  The AI Office finds Anthropic in breach of the code; Anthropic withdraws; or
+  it emerges that a serious incident involving a Claude model, such as a
+  cyberattack by its agents, wasn't reported within the code's deadlines.
+patterns: []
+related: [2025-07-11-eu-gpai-code-of-practice, 2026-07-30-claude-cyber-eval-incidents]
+sources:
+  - title: Anthropic to sign the EU Code of Practice
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/eu-code-practice
+    date: 2025-07-21
+    type: primary
+    snapshot: snapshots/2026-09-30-anthropic.com-d2d16507
+  - title: 'General-Purpose AI Code of Practice (final text), Safety and Security
+      chapter, Commitment 9'
+    publisher: European Commission (unofficial mirror)
+    url: https://code-of-practice.ai/
+    date: 2025-07-10
+    type: primary
+    snapshot: snapshots/2026-09-30-code-of-practice.ai-973ed76f
+note: >-
+  The incident-reporting commitment is the testable part. Whether Anthropic
+  reported its July 2026 agent incidents to the EU AI Office isn't public.

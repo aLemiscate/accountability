@@ -1,0 +1,343 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 239,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2025-07-15T16:27:16.000Z",
+  "display_text_range": [
+    0,
+    279
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/uOOT8ihTak",
+        "expanded_url": "https://x.com/woj_zaremba/status/1945158231321706896/photo/1",
+        "indices": [
+          280,
+          303
+        ],
+        "url": "https://t.co/uOOT8ihTak"
+      }
+    ]
+  },
+  "id_str": "1945158231321706896",
+  "text": "When models start reasoning step-by-step, we suddenly get a huge safety gift: a window into their thought process.\n\nWe could easily lose this if we're not careful.\n\nWe're publishing a paper urging frontier labs: please don't train away this monitorability.\n\nAuthored and endorsed https://t.co/uOOT8ihTak",
+  "user": {
+    "id_str": "977687191202693125",
+    "name": "Wojciech Zaremba",
+    "screen_name": "woj_zaremba",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1458585929455525890/vVovOt1S_normal.jpg"
+  },
+  "edit_control": {
+    "initial_tweet_id": "1945152651181875591",
+    "edit_tweet_ids": [
+      "1945152651181875591",
+      "1945153259293028845",
+      "1945158231321706896"
+    ],
+    "editable_until_msecs": "1752599105000",
+    "edits_remaining": "3",
+    "is_edit_eligible": true
+  },
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/uOOT8ihTak",
+      "expanded_url": "https://x.com/woj_zaremba/status/1945158231321706896/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        280,
+        303
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/Gv6R6QvWUAAVOx6.png",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 662,
+            "w": 1183,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1183,
+            "w": 1183,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1299,
+            "w": 1139,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1299,
+            "w": 650,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1299,
+            "w": 1183,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 1299,
+        "width": 1183
+      },
+      "sizes": {
+        "large": {
+          "h": 1299,
+          "resize": "fit",
+          "w": 1183
+        },
+        "medium": {
+          "h": 1200,
+          "resize": "fit",
+          "w": 1093
+        },
+        "small": {
+          "h": 680,
+          "resize": "fit",
+          "w": 619
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/uOOT8ihTak"
+    }
+  ],
+  "photos": [
+    {
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 662,
+          "w": 1183,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 1183,
+          "w": 1183,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 1299,
+          "w": 1139,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 1299,
+          "w": 650,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 1299,
+          "w": 1183,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/woj_zaremba/status/1945158231321706896/photo/1",
+      "url": "https://pbs.twimg.com/media/Gv6R6QvWUAAVOx6.png",
+      "width": 1183,
+      "height": 1299
+    }
+  ],
+  "conversation_count": 20,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 460,
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 41,
+    "retweet_count": 114,
+    "created_at": "2025-07-15T16:00:05.000Z",
+    "display_text_range": [
+      0,
+      278
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/nkPWfNMgAJ",
+          "expanded_url": "https://x.com/balesni/status/1945151391674057154/photo/1",
+          "indices": [
+            279,
+            302
+          ],
+          "url": "https://t.co/nkPWfNMgAJ"
+        }
+      ]
+    },
+    "id_str": "1945151391674057154",
+    "text": "A simple AGI safety technique: AI’s thoughts are in plain English, just read them\n\nWe know it works, with OK (not perfect) transparency!\n\nThe risk is fragility: RL training, new architectures, etc threaten transparency\n\nExperts from many orgs agree we should try to preserve it: https://t.co/nkPWfNMgAJ",
+    "user": {
+      "id_str": "1551270667",
+      "name": "Mikita Balesni 🇺🇦",
+      "screen_name": "balesni",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1601022370201870337/TVBw-OGh_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1945151391674057154"
+      ],
+      "editable_until_msecs": "1752598805000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "mediaDetails": [
+      {
+        "display_url": "pic.x.com/nkPWfNMgAJ",
+        "expanded_url": "https://x.com/balesni/status/1945151391674057154/photo/1",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          279,
+          302
+        ],
+        "media_url_https": "https://pbs.twimg.com/media/Gv2ng5FWsAANKq8.png",
+        "original_info": {
+          "focus_rects": [
+            {
+              "h": 662,
+              "w": 1183,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 1183,
+              "w": 1183,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 1299,
+              "w": 1139,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 1299,
+              "w": 650,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 1299,
+              "w": 1183,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "height": 1299,
+          "width": 1183
+        },
+        "sizes": {
+          "large": {
+            "h": 1299,
+            "resize": "fit",
+            "w": 1183
+          },
+          "medium": {
+            "h": 1200,
+            "resize": "fit",
+            "w": 1093
+          },
+          "small": {
+            "h": 680,
+            "resize": "fit",
+            "w": 619
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "photo",
+        "url": "https://t.co/nkPWfNMgAJ"
+      }
+    ],
+    "photos": [
+      {
+        "backgroundColor": {
+          "red": 204,
+          "green": 214,
+          "blue": 221
+        },
+        "cropCandidates": [
+          {
+            "h": 662,
+            "w": 1183,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1183,
+            "w": 1183,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1299,
+            "w": 1139,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1299,
+            "w": 650,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1299,
+            "w": 1183,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "expandedUrl": "https://x.com/balesni/status/1945151391674057154/photo/1",
+        "url": "https://pbs.twimg.com/media/Gv2ng5FWsAANKq8.png",
+        "width": 1183,
+        "height": 1299
+      }
+    ],
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": true,
+  "isStaleEdit": false,
+  "previous_counts": {
+    "favorite_count": 29,
+    "quote_count": 0,
+    "reply_count": 0,
+    "retweet_count": 2
+  },
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoxOTQ1MTU4MjMxMTc0ODY0ODk3"
+  }
+}

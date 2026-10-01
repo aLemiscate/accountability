@@ -1,0 +1,89 @@
+title: US government orders export controls on Fable 5 three days after launch
+  over a safeguard bypass; Anthropic pulls it for everyone
+date: 2026-06-12
+org: anthropic
+type: did
+kind: outcome
+who: [anthropic]
+quote: >-
+  we disagree that the finding of a narrow potential jailbreak should be cause
+  for recalling a commercial model deployed to hundreds of millions of people.
+summary: >-
+  On June 12, 2026, the US government, citing national security authorities,
+  issued an export control directive barring any foreign national, inside or
+  outside the United States, from using Claude Fable 5 or Mythos 5. Anthropic
+  said it could not verify nationality in real time, so it suspended both
+  models for all users. By Anthropic's account, the directive followed a report
+  in which Amazon researchers found a way to bypass Fable 5's safeguards: the
+  model identified a number of software vulnerabilities and, in one case, wrote
+  code demonstrating how one could be exploited. Anthropic said every model it
+  tested, including Claude Haiku 4.5, could produce the same demonstration. The
+  Commerce Department lifted the controls on June 30, and Fable 5 returned on
+  July 1 with a new classifier that Anthropic said blocks the reported technique
+  in over 99% of cases.
+patterns: []
+related: [2026-04-07-mythos-preview-not-general, 2026-02-27-anthropic-pentagon-red-lines]
+sources:
+  - title: Statement on the US government directive to suspend access to Fable 5
+      and Mythos 5
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/fable-mythos-access
+    date: 2026-06-12
+    type: primary
+    snapshot: snapshots/2026-09-30-anthropic.com-00131728
+  - title: Redeploying Claude Fable 5
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/redeploying-fable-5
+    date: 2026-06-30
+    type: primary
+    snapshot: snapshots/2026-09-30-anthropic.com-fdd9745e
+  - title: Anthropic says Trump admin has lifted export controls on Claude Fable 5
+      and Mythos 5
+    publisher: CNBC
+    url: https://www.cnbc.com/2026/06/30/anthropic-says-trump-admin-has-lifted-export-controls-on-claude-fable-5-and-mythos-5.html
+    date: 2026-06-30
+    type: reporting
+    snapshot: snapshots/2026-09-30-cnbc.com-6111d6b6
+  - title: Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked
+      Export Controls
+    publisher: The Hacker News
+    url: https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html
+    date: 2026-07
+    type: reporting
+    snapshot: snapshots/2026-09-30-thehackernews.com-fca32347
+response: >-
+  Anthropic said the bypass exposed no "unique Mythos-level cyber
+  capabilities" and fell within a deliberate safety margin, that no universal
+  jailbreak had been found, and that researchers at the Commerce Department's
+  Center for AI Standards and Innovation had tested its old and new safeguards
+  and found them "extraordinarily strong." It said the government should be able
+  to block unsafe deployments through a statutory process that is "transparent,
+  fair, clear, and grounded in technical facts," and that this action was not
+  one.
+updates:
+  - date: 2026-06-26
+    text: >-
+      Two weeks later OpenAI released its GPT-5.6 models only to a "small group
+      of trusted partners" whose participation had been shared with the
+      government; Altman wrote that the limited launch came "at the request of
+      the US government." OpenAI said: "We don't believe this kind of government access process should
+      become the long-term default."
+    sources:
+      - title: Sam Altman on X
+        publisher: X
+        url: https://x.com/sama/status/2070607488274358364
+        date: 2026-06-26
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-7846df00
+      - title: OpenAI limits GPT-5.6 rollout after government request, says
+          restrictions shouldn't be the norm
+        publisher: TechCrunch
+        url: https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/
+        date: 2026-06-26
+        type: reporting
+        snapshot: snapshots/2026-09-30-techcrunch.com-1656bcd1
+note: >-
+  The first test of the April promise came three days after launch, and it came
+  from a government order, not from Anthropic. The two sides disagree about how
+  serious the bypass was; the record gives both accounts. Anthropic's own
+  evidence supports it: the capability shown was available from other models.

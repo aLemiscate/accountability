@@ -1,10 +1,13 @@
 # On demand: sweep the full archived history of every X account in
-# data/accounts.yaml through the Wayback Machine, including posts deleted since,
-# and commit the candidates to inbox/ for triage. Each account runs as its own
-# job so a slow account can't stall the rest. It can take several hours.
+# data/accounts.yaml through the Wayback Machine (and the X API when an
+# X_BEARER_TOKEN secret is set), including posts deleted since. Every post
+# found is kept in inbox/sweep/<account>/<year>.jsonl; posts matching the topic
+# filter, and deleted ones, are listed in inbox/sweep/<account>.md for triage;
+# inbox/sweep/COVERAGE.md says how much of each account was read.
 #
-# Run it from Actions → Sweep → Run workflow. Nothing is added to the record;
-# the inbox files are read and triaged by hand.
+# Each account runs as its own job. A job reads for up to `budget` minutes and
+# saves its place; run the workflow again and it picks up where it stopped,
+# reading only posts it hasn't read. Nothing is added to the record.
 name: Sweep
 
 on:
@@ -16,12 +19,12 @@ on:
       from:
         description: 'Earliest post date, YYYY[-MM[-DD]] (empty = full history)'
         default: ''
-      limit:
-        description: 'Most recent archived posts to read per account'
-        default: '2000'
+      budget:
+        description: 'Minutes each account may spend reading posts before saving its place'
+        default: '320'
       match:
-        description: 'Keep posts whose text matches this regex (deleted posts are always kept)'
-        default: 'safety|safe|align|regulat|nonprofit|non-profit|mission|open.?source|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|race|democra|china|board|congress|senate|lawsuit|copyright|election|super ?pac|teen|mental health|preparedness|responsible scaling|\brsp\b|evaluat|audit'
+        description: 'Topic filter for the triage list (every post is kept either way)'
+        default: 'safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious'
 
 permissions:
   contents: write
@@ -33,6 +36,11 @@ jobs:
       list: ${{ steps.list.outputs.list }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
       - id: list
         env:
           WANTED: ${{ inputs.accounts }}
@@ -40,18 +48,19 @@ jobs:
           if [ -n "$WANTED" ]; then
             list=$(printf '%s\n' $WANTED | jq -R . | jq -cs .)
           else
-            list=$(grep -E '^\s+x:\s' data/accounts.yaml | awk '{print $2}' | jq -R . | jq -cs .)
+            # Every X account, except those marked `sweep: false`.
+            list=$(node -e "const y=require('yaml');const a=y.parse(require('fs').readFileSync('data/accounts.yaml','utf8'));console.log(JSON.stringify(a.filter(x=>x.x&&x.sweep!==false).map(x=>x.x)))")
           fi
           echo "list=$list" >> "$GITHUB_OUTPUT"
-          echo "Accounts: $list"
+          echo "Accounts ($(echo "$list" | jq length)): $list"
 
   sweep:
     needs: accounts
     runs-on: ubuntu-latest
-    timeout-minutes: 340
+    timeout-minutes: 355
     strategy:
       fail-fast: false
-      max-parallel: 3  # be gentle with archive.org
+      max-parallel: 5  # be gentle with archive.org
       matrix:
         account: ${{ fromJson(needs.accounts.outputs.list) }}
     steps:
@@ -65,16 +74,22 @@ jobs:
         continue-on-error: true
         env:
           FROM: ${{ inputs.from }}
-          LIMIT: ${{ inputs.limit }}
+          BUDGET: ${{ inputs.budget }}
           MATCH: ${{ inputs.match }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
         run: |
-          args=(--account "${{ matrix.account }}" --via wayback --limit "$LIMIT" --cdx-limit 50000 --keep-deleted --match "$MATCH")
+          via=wayback
+          [ -n "$X_BEARER_TOKEN" ] && via=wayback,x-api
+          args=(--account "${{ matrix.account }}" --corpus --via "$via" --limit all --budget-minutes "$BUDGET" --concurrency 4 --match "$MATCH")
           [ -n "$FROM" ] && args+=(--from "$FROM")
           npm run find-posts -- "${args[@]}"
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
-          name: inbox-${{ matrix.account }}
-          path: inbox/*-${{ matrix.account }}.*
+          name: sweep-${{ matrix.account }}
+          path: |
+            inbox/sweep/${{ matrix.account }}.*
+            inbox/sweep/${{ matrix.account }}/
           if-no-files-found: ignore
 
   commit:
@@ -83,20 +98,33 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
       - uses: actions/download-artifact@v4
         with:
-          pattern: inbox-*
-          path: inbox
+          pattern: sweep-*
+          path: inbox/sweep
           merge-multiple: true
-      - name: Commit inbox files
+      - name: Commit the sweep
+        # Another sweep may have pushed meanwhile: lay this run's files over the
+        # latest branch and rebuild the coverage table on each attempt.
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add inbox
-          if git diff --cached --quiet; then
-            echo "Nothing found."
-          else
-            git commit -m "Sweep: full-history post candidates, $(date -u +%F)"
-            git pull --rebase
-            git push
-          fi
+          mkdir -p "$RUNNER_TEMP/sweep" && cp -r inbox/sweep/. "$RUNNER_TEMP/sweep/" 2>/dev/null || true
+          for i in 1 2 3 4 5; do
+            git fetch origin "$GITHUB_REF_NAME"
+            git reset --hard "origin/$GITHUB_REF_NAME"
+            mkdir -p inbox/sweep && cp -r "$RUNNER_TEMP/sweep/." inbox/sweep/
+            # Posts are stored by year now: drop the first sweep's single files.
+            rm -f inbox/sweep/*.jsonl
+            npm run sweep-coverage
+            git add inbox/sweep
+            if git diff --cached --quiet; then echo "Nothing new."; break; fi
+            git commit -m "Sweep: full-history posts and coverage, $(date -u +%F)"
+            git push origin "HEAD:$GITHUB_REF_NAME" && break
+            sleep $((i * 15))
+          done

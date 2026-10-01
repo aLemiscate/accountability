@@ -5,6 +5,9 @@
 #   actor     id from actors.yaml
 #   x         X/Twitter handle, without @
 #   bluesky   Bluesky handle (e.g. name.bsky.social), if they post there
+#   match     optional topic filter for this account's sweep triage list
+#             (a regex; replaces the run's default)
+#   sweep     false to leave the account out of the full-history Sweep
 #
 # Confirm a handle belongs to the person before relying on results.
 
@@ -105,3 +108,74 @@
   x: hilbertspaess
 - actor: mrinank-sharma
   x: MrinankSharma
+
+# Added for the full-history sweep (September 2026). Each handle was confirmed
+# from the person's own posts (X's embed data) or their X profile.
+- actor: openai
+  x: OpenAIDevs
+- actor: brad-lightcap
+  x: bradlightcap
+- actor: adam-dangelo
+  x: adamdangelo
+- actor: larry-summers
+  x: LHSummers
+- actor: elon-musk
+  x: elonmusk
+  # In scope as OpenAI's co-founder and litigant: list only posts about the labs.
+  # His archive holds 125,000+ posts; the full-history sweep read his most recent
+  # year (Sept 2025 to Sept 2026) and stops there. The weekly watch still reads
+  # his new posts.
+  sweep: false
+  match: 'openai|open ai|altman|\bsama\b|brockman|anthropic|claude|amodei|chatgpt|\bgpt|nonprofit|non-profit|for-profit|closed.?source|microsoft.*\bai\b|superalignment|sutskever|ilya'
+- actor: bob-mcgrew
+  x: bobmcgrewai
+- actor: peter-welinder
+  x: npew
+- actor: alexander-embiricos
+  x: embirico
+- actor: anna-makanju
+  x: annaadeola
+- actor: lilian-weng
+  x: lilianweng
+- actor: joanne-jang
+  x: joannejang
+- actor: jason-wolfe
+  x: w01fe
+- actor: noam-brown
+  x: polynoamial
+- actor: aidan-mclaughlin
+  x: aidan_mclau
+- actor: roon
+  x: tszzl
+- actor: richard-ngo
+  x: RichardMCNgo
+- actor: jacob-hilton
+  x: JacobHHilton
+- actor: daniela-amodei
+  x: DanielaAmodei
+- actor: tom-brown
+  x: NotTomBrown
+- actor: ben-mann
+  x: 8enmann
+- actor: sam-mccandlish
+  x: samsamoa
+- actor: andrej-karpathy
+  x: karpathy
+- actor: sasha-de-marigny
+  x: sashadem
+- actor: jason-clinton
+  x: JasonDClinton
+- actor: logan-graham
+  x: logangraham
+- actor: alex-albert
+  x: alexalbert__
+- actor: boris-cherny
+  x: bcherny
+- actor: cat-wu
+  x: _catwu
+- actor: kyle-fish
+  x: fish_kyle3
+- actor: jack-lindsey
+  x: Jack_W_Lindsey
+- actor: trenton-bricken
+  x: TrentonBricken

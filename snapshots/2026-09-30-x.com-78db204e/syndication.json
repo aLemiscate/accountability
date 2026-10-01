@@ -1,0 +1,35 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 20854,
+  "lang": "en",
+  "created_at": "2025-11-13T18:13:05.000Z",
+  "display_text_range": [
+    0,
+    278
+  ],
+  "entities": {},
+  "id_str": "1989033793190277618",
+  "text": "We disrupted a highly sophisticated AI-led espionage campaign.\n\nThe attack targeted large tech companies, financial institutions, chemical manufacturing companies, and government agencies. We assess with high confidence that the threat actor was a Chinese state-sponsored group.",
+  "user": {
+    "id_str": "1353836358901501952",
+    "name": "Anthropic",
+    "screen_name": "AnthropicAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1989033793190277618"
+    ],
+    "editable_until_msecs": "1763061185000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 999,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

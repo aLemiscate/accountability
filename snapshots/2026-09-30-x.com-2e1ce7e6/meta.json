@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/OpenAI/status/2052845764507062349",
+  "captured_at": "2026-09-30T04:45:31.686Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "97310c95bb0906688c3d0a97dcec4a8bfcd010b4e09979182bc763d6abca6838",
+    "page.txt": "93d99e4d56216aed140d625cdeebc4d3c4ef0a60777a4343cb39d96904ec389c",
+    "post.json": "7dfdaf0eabd16ad4d1a86b561e6550a67bf2ec3ca4218c305ba9feb14e08b694",
+    "syndication.json": "02a9c4ff4da77f6000ebbd6d1172c3254408dd78646ecb567af1ec1d3b4f2760",
+    "post.txt": "670d1578f501b7624989588c22bf48960e8028043bd3189b4d92b146e9204207"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/2052845764507062349",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"Chain of thought monitors are a key layer of defense against AI agent misalignment. To preserve monitorability, we avoid penalizing misaligned reasoning during RL. We found a limited amount of accidental CoT grading which affected released models, and are sharing our analysis. https:… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "May 8, 2026",
+    "posted_at": "2026-05-08T20:19:04.945Z"
+  }
+}

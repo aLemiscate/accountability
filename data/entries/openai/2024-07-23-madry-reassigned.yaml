@@ -1,0 +1,33 @@
+title: OpenAI removes its head of Preparedness, days before senators ask about
+  its safety commitments
+date: 2024-07-23
+org: openai
+type: did
+kind: action
+who: [openai]
+summary: >-
+  OpenAI reassigned Aleksander Madry, head of the Preparedness team "tasked with
+  tracking, evaluating, forecasting, and helping protect against catastrophic
+  risks related to frontier AI models," to a role focused on AI reasoning,
+  CNBC reported. Less than a week later, Democratic senators wrote to Altman
+  seeking information on "the steps that the company is taking to meet its
+  public commitments on safety." It came two months after the Superalignment
+  team was dissolved; the AGI Readiness team followed in October.
+patterns: [pledged-not-resourced]
+related:
+  [
+    2024-05-17-superalignment-team-disbanded,
+    2024-10-23-agi-readiness-team-disbanded,
+    2025-04-15-preparedness-framework-v2
+  ]
+sources:
+  - title: OpenAI reassigns top AI safety executive Aleksandr Madry to role focused
+      on AI reasoning
+    publisher: CNBC
+    url: https://www.cnbc.com/2024/07/23/openai-removes-ai-safety-executive-aleksander-madry-from-role.html
+    date: 2024-07-23
+    type: reporting
+    snapshot: snapshots/2026-09-30-cnbc.com-98240938
+response: >-
+  OpenAI told CNBC that Madry would still work on core AI safety in his new
+  role.

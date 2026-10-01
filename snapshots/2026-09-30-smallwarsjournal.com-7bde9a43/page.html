@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<script>
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="shortcut icon" href="https://smallwarsjournal.com/wp-content/themes/swj/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="https://smallwarsjournal.com/wp-content/themes/swj/css/bootstrap.css?v=1607356212">
+<link rel="stylesheet" href="https://smallwarsjournal.com/wp-content/themes/swj/css/bootstrap-grid.css?v=1607356212">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://use.typekit.net/tch3tmd.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="https://smallwarsjournal.com/wp-content/themes/swj/style.css?v=1789936562" />
+<link rel="pingback" href="https://smallwarsjournal.com/xmlrpc.php" />
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v28.6 (Yoast SEO v28.6) - https://yoast.com/product/yoast-seo-premium-wordpress/ -->
+	<title>Pentagon Used Anthropic’s Claude in Maduro Venezuela Raid</title>
+	<meta name="description" content="WSJ reports that Anthropic’s Claude supported JSOC&#039;s Maduro raid, raising questions about AI in warfighting and the future of decapitation strikes." />
+	<link rel="canonical" href="https://smallwarsjournal.com/2026/02/17/ai-enabled-decapitation-strike-maduro-raid/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Pentagon Used Anthropic’s Claude in Maduro Venezuela Raid" />
+	<meta property="og:description" content="WSJ reports that Anthropic’s Claude supported JSOC&#039;s Maduro raid, raising questions about AI in warfighting and the future of decapitation strikes." />
+	<meta property="og:url" content="https://smallwarsjournal.com/2026/02/17/ai-enabled-decapitation-strike-maduro-raid/" />
+	<meta property="og:site_name" content="Small Wars Journal by Arizona State University" />
+	<meta property="article:published_time" content="2026-02-17T14:31:24+00:00" />
+	<meta property="article:modified_time" content="2026-02-17T15:52:16+00:00" />
+	<meta property="og:image" content="https://smallwarsjournal.com/wp-content/uploads/2026/02/Claude-Safety-Claim-Maduro-Raid.jpg" />
+	<meta property="og:image:width" content="1050" />
+	<meta property="og:image:height" content="700" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="SWJ Staff" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="SWJ Staff" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="2 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/smallwarsjournal.com\/2026\/02\/17\/ai-enabled-decapitation-strike-maduro-raid\/#article","isPartOf":{"@id":"https:\/\/smallwarsjournal.com\/2026\/02\/17\/ai-enabled-decapitation-strike-maduro-raid\/"},"author":{"@id":"https:\/\/smallwarsjournal.com\/#\/schema\/person\/7a454a548e462d21abf85ea484f4e3a5"},"headline":"Pentagon Used Anthropic’s Claude in Maduro Venezuela Raid","datePublished":"2026-02-17T14:31:24+00:00","dateModified":"2026-02-17T15:52:16+00:00","mainEntityOfPage":{"@id":"https:\/\/smallwarsjournal.com\/2026\/02\/17\/ai-enabled-decapitation-strike-maduro-raid\/"},"wordCount":230,"commentCount":0,"publisher":{"@id":"https:\/\/smallwarsjournal.com\/#organization"},"image":{"@id":"https:\/\/smallwarsjournal.com\/2026\/02\/17\/ai-enabled-decapitation-strike-maduro-raid\/#primaryimage"},"thumbnailUrl":"https:\/\/smallwarsjournal.com\/wp-content\/uploads\/2026\/02\/Claude-Safety-Claim-Maduro-Raid.jpg","keywords":["AI governance","Anthropic","Artificial Intelligence (AI)","decapitation Strike","Palantir","Venezuela"],"articleSection":["The Discourse"],"inLanguage":"en-US","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https:\/\/smallwarsjournal.com\/2026\/02\/17\/ai-enabled-decapitation-strike-maduro-raid\/#respond"]}]},{"@type":"WebPage","@id":"https:\/\/smallwarsjournal.com\/2026\/02\/17\/ai-enabled-decapitation-strike-maduro-raid\/","url":"https:\/\/smallwarsjournal.com\/2026\/02\/17\/ai-enabled-decapitation-strike-maduro-raid\/","name":"Pentagon Used Anthropic’s Claude in Maduro Venezuela Raid","isPartOf":{"@id":"https:\/\/smallwarsjournal.com\/#website"},"primaryImageOfPage":{"@id":"https:\/\/smallwarsjournal.com\/2026\/02\/17\/ai-enabled-decapitation-strike-maduro-raid\/#primaryimage"},"image":{"@id":"https:\/\/smallwarsjournal.com\/2026\/02\/17\/ai-enabled-decapitation-strike-maduro-raid\/#primaryimage"},"thumbnailUrl":"https:\/\/smallwarsjournal.com\/wp-content\/uploads\/2026\/02\/Claude-Safety-Claim-Maduro-Raid.jpg","datePublished":"2026-02-17T14:31:24+00:00","dateModified":"2026-02-17T15:52:16+00:00","description":"WSJ reports that Anthropic’s Claude supported JSOC's Maduro raid, raising questions about AI in warfighting and the future of decapitation strikes.","breadcrumb":{"@id":"https:\/\/smallwarsjournal.com\/2026\/02\/17\/ai-enabled-decapitation-strike-maduro-raid\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/smallwarsjournal.com\/2026\/02\/17\/ai-enabled-decapitation-strike-maduro-raid\/"]}],"author":{"@id":"https:\/\/smallwarsjournal.com\/#\/schema\/person\/7a454a548e462d21abf85ea484f4e3a5"}},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/smallwarsjournal.com\/2026\/02\/17\/ai-enabled-decapitation-strike-maduro-raid\/#primaryimage","url":"https:\/\/smallwarsjournal.com\/wp-content\/uploads\/2026\/02\/Claude-Safety-Claim-Maduro-Raid.jpg","contentUrl":"https:\/\/smallwarsjournal.com\/wp-content\/uploads\/2026\/02\/Claude-Safety-Claim-Maduro-Raid.jpg","width":1050,"height":700},{"@type":"BreadcrumbList","@id":"https:\/\/smallwarsjournal.com\/2026\/02\/17\/ai-enabled-decapitation-strike-maduro-raid\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/smallwarsjournal.com\/"},{"@type":"ListItem","position":2,"name":"Recent","item":"https:\/\/smallwarsjournal.com\/recent\/"},{"@type":"ListItem","position":3,"name":"Pentagon Used Anthropic’s Claude in Maduro Venezuela Raid"}]},{"@type":"WebSite","@id":"https:\/\/smallwarsjournal.com\/#website","url":"https:\/\/smallwarsjournal.com\/","name":"Small Wars Journal by Arizona State University","description":"","publisher":{"@id":"https:\/\/smallwarsjournal.com\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/smallwarsjournal.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/smallwarsjournal.com\/#organization","name":"Small Wars Journal by Arizona State University","url":"https:\/\/smallwarsjournal.com\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/smallwarsjournal.com\/#\/schema\/logo\/image\/","url":"https:\/\/smallwarsjournal.com\/wp-content\/uploads\/2024\/08\/logo_icon.svg","contentUrl":"https:\/\/smallwarsjournal.com\/wp-content\/uploads\/2024\/08\/logo_icon.svg","width":114,"height":180,"caption":"Small Wars Journal by Arizona State University"},"image":{"@id":"https:\/\/smallwarsjournal.com\/#\/schema\/logo\/image\/"}},{"@type":"Person","@id":"https:\/\/smallwarsjournal.com\/#\/schema\/person\/7a454a548e462d21abf85ea484f4e3a5","name":"SWJ Staff","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/smallwarsjournal.com\/wp-content\/uploads\/2024\/08\/logo_icon.svg1ff3e8c1c0d0dc9bde6683614a7aba64","url":"https:\/\/smallwarsjournal.com\/wp-content\/uploads\/2024\/08\/logo_icon.svg","contentUrl":"https:\/\/smallwarsjournal.com\/wp-content\/uploads\/2024\/08\/logo_icon.svg","caption":"SWJ Staff"},"description":"SWJ Staff searches the internet daily for articles and posts that we think are of great interest to our readers.","url":"https:\/\/smallwarsjournal.com\/author\/swj-staff\/"}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//unpkg.com' />
+<link rel="alternate" type="application/rss+xml" title="Small Wars Journal by Arizona State University &raquo; Feed" href="https://smallwarsjournal.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Small Wars Journal by Arizona State University &raquo; Comments Feed" href="https://smallwarsjournal.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Small Wars Journal by Arizona State University &raquo; Pentagon Used Anthropic’s Claude in Maduro Venezuela Raid Comments Feed" href="https://smallwarsjournal.com/2026/02/17/ai-enabled-decapitation-strike-maduro-raid/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://smallwarsjournal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsmallwarsjournal.com%2F2026%2F02%2F17%2Fai-enabled-decapitation-strike-maduro-raid%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://smallwarsjournal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsmallwarsjournal.com%2F2026%2F02%2F17%2Fai-enabled-decapitation-strike-maduro-raid%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='mp-theme-css' href='https://smallwarsjournal.com/wp-content/plugins/memberpress/css/ui/theme.css?ver=1.14.1' media='all' />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+/*wp_block_styles_on_demand_placeholder:6abd02e69502e*/
+/*# sourceURL=wp-block-library-inline-css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id="wp-block-styles-placeholder-inline-css">
+:root { --wp-internal-comment: "Placeholder for wp_hoist_late_printed_styles() to replace with the block styles printed at wp_footer." }
+/*# sourceURL=wp-block-styles-placeholder-inline-css */
+</style>
+<style id="wp-global-styles-placeholder-inline-css">
+:root { --wp-internal-comment: "Placeholder for wp_hoist_late_printed_styles() to replace with the global-styles printed at wp_footer." }
+/*# sourceURL=wp-global-styles-placeholder-inline-css */
+</style>
+<link rel='stylesheet' id='taxonomy-image-plugin-public-css' href='https://smallwarsjournal.com/wp-content/plugins/taxonomy-images/css/style.css?ver=0.9.6' media='screen' />
+<link rel='stylesheet' id='owl-css' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css?ver=5599175e20aaa1a1316494b179b26fc9' media='all' />
+<link rel='stylesheet' id='resposnive-css' href='https://smallwarsjournal.com/wp-content/themes/swj/css/responsive.css?ver=1737680874' media='all' />
+<link rel='stylesheet' id='tablepress-default-css' href='https://smallwarsjournal.com/wp-content/plugins/tablepress/css/build/default.css?ver=3.3.4' media='all' />
+<link rel='stylesheet' id='wpdiscuz-frontend-css-css' href='https://smallwarsjournal.com/wp-content/plugins/wpdiscuz/themes/default/style.css?ver=7.6.71' media='all' />
+<style id="wpdiscuz-frontend-css-inline-css">
+ #wpdcom .wpd-blog-administrator .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-administrator .wpd-comment-author, #wpdcom .wpd-blog-administrator .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-administrator .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply .wpd-comment-wrap.wpd-blog-administrator{border-left:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-administrator .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-administrator .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-administrator .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-editor .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-editor .wpd-comment-author, #wpdcom .wpd-blog-editor .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-editor .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply .wpd-comment-wrap.wpd-blog-editor{border-left:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-editor .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-editor .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-editor .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-author .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-author .wpd-comment-author, #wpdcom .wpd-blog-author .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-author .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-author .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-author .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-author .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-contributor .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-contributor .wpd-comment-author, #wpdcom .wpd-blog-contributor .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-contributor .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-contributor .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-contributor .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-contributor .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-subscriber .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-subscriber .wpd-comment-author, #wpdcom .wpd-blog-subscriber .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-subscriber .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-subscriber .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom .wpd-blog-ppma_guest_author .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-ppma_guest_author .wpd-comment-author, #wpdcom .wpd-blog-ppma_guest_author .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-ppma_guest_author .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-ppma_guest_author .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-ppma_guest_author .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-ppma_guest_author .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-moderator .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-moderator .wpd-comment-author, #wpdcom .wpd-blog-moderator .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-moderator .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-moderator .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-moderator .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-moderator .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-publisher .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-publisher .wpd-comment-author, #wpdcom .wpd-blog-publisher .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-publisher .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-publisher .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-publisher .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-publisher .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-registered_user .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-registered_user .wpd-comment-author, #wpdcom .wpd-blog-registered_user .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-registered_user .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-registered_user .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-registered_user .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-registered_user .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-webmaster .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-webmaster .wpd-comment-author, #wpdcom .wpd-blog-webmaster .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-webmaster .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-webmaster .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-webmaster .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-webmaster .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-swj_member .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-swj_member .wpd-comment-author, #wpdcom .wpd-blog-swj_member .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-swj_member .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-swj_member .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-swj_member .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-swj_member .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-wpseo_manager .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-wpseo_manager .wpd-comment-author, #wpdcom .wpd-blog-wpseo_manager .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-wpseo_manager .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-wpseo_manager .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-wpseo_manager .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-wpseo_manager .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-wpseo_editor .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-wpseo_editor .wpd-comment-author, #wpdcom .wpd-blog-wpseo_editor .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-wpseo_editor .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-wpseo_editor .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-wpseo_editor .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-wpseo_editor .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-post_author .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-post_author .wpd-comment-author, #wpdcom .wpd-blog-post_author .wpd-comment-author a{color:#00B38F}#wpdcom .wpd-blog-post_author .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-post_author .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply .wpd-comment-wrap.wpd-blog-post_author{border-left:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-post_author .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-post_author .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-post_author .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-guest .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-guest .wpd-comment-author, #wpdcom .wpd-blog-guest .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-guest .wpd-comment-subheader{border-top:1px dashed #00B38F}#comments, #respond, .comments-area, #wpdcom{}#wpdcom .ql-editor > *{color:#777777}#wpdcom .ql-editor::before{}#wpdcom .ql-toolbar{border:1px solid #DDDDDD;border-top:none}#wpdcom .ql-container{border:1px solid #DDDDDD;border-bottom:none}#wpdcom .wpd-form-row .wpdiscuz-item input[type="text"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="email"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="url"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="color"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="date"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="datetime"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="datetime-local"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="month"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="number"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="time"], #wpdcom textarea, #wpdcom select{border:1px solid #DDDDDD;color:#777777}#wpdcom .wpd-form-row .wpdiscuz-item textarea{border:1px solid #DDDDDD}#wpdcom input::placeholder, #wpdcom textarea::placeholder, #wpdcom input::-moz-placeholder, #wpdcom textarea::-webkit-input-placeholder{}#wpdcom .wpd-comment-text{color:#777777}#wpdcom .wpd-thread-head .wpd-thread-info{border-bottom:2px solid #00B38F}#wpdcom .wpd-thread-head .wpd-thread-info.wpd-reviews-tab svg{fill:#00B38F}#wpdcom .wpd-thread-head .wpdiscuz-user-settings{border-bottom:2px solid #00B38F}#wpdcom .wpd-thread-head .wpdiscuz-user-settings:hover{color:#00B38F}#wpdcom .wpd-comment .wpd-follow-link:hover{color:#00B38F}#wpdcom .wpd-comment-status .wpd-sticky{color:#00B38F}#wpdcom .wpd-thread-filter .wpdf-active{color:#00B38F;border-bottom-color:#00B38F}#wpdcom .wpd-inline-filter-cta{border:1px dashed #33c3a6;background:#e6f8f4}#wpdcom .wpd-inline-filter-cta .wpd-current-view i{color:#00B38F}#wpdcom .wpd-filter-view-all:hover{background:#00B38F}#wpdcom .wpdiscuz-item .wpdiscuz-rating > label{color:#DDDDDD}#wpdcom .wpdiscuz-item .wpdiscuz-rating:not(:checked) > label:hover, .wpdiscuz-rating:not(:checked) > label:hover ~ label{}#wpdcom .wpdiscuz-item .wpdiscuz-rating > input ~ label:hover, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:not(:checked) ~ label:hover ~ label, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:not(:checked) ~ label:hover ~ label{color:#FFED85}#wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover, #wpdcom .wpdiscuz-item .wpdiscuz-rating > label:hover ~ input:checked ~ label, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked + label:hover ~ label, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover ~ label, .wpd-custom-field .wcf-active-star, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label{color:#FFD700}.wpd-post-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-star{fill:#DDDDDD}.wpd-post-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-active{fill:#FFD700}.wpd-post-rating .wpd-rating-wrap .wpd-rate-starts svg .wpd-star{fill:#DDDDDD}.wpd-post-rating .wpd-rating-wrap .wpd-rate-starts:hover svg .wpd-star{fill:#FFED85}.wpd-post-rating.wpd-not-rated .wpd-rating-wrap .wpd-rate-starts svg:hover ~ svg .wpd-star{fill:#DDDDDD}.wpdiscuz-post-rating-wrap .wpd-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-star{fill:#DDDDDD}.wpdiscuz-post-rating-wrap .wpd-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-active{fill:#FFD700}#wpdcom .wpd-comment .wpd-follow-active{color:#ff7a00}#wpdcom .page-numbers{color:#555;border:#555 1px solid}#wpdcom span.current{background:#555}#wpdcom.wpd-layout-1 .wpd-new-loaded-comment > .wpd-comment-wrap > .wpd-comment-right{background:#FFFAD6}#wpdcom.wpd-layout-2 .wpd-new-loaded-comment.wpd-comment > .wpd-comment-wrap > .wpd-comment-right{background:#FFFAD6}#wpdcom.wpd-layout-2 .wpd-new-loaded-comment.wpd-comment.wpd-reply > .wpd-comment-wrap > .wpd-comment-right{background:transparent}#wpdcom.wpd-layout-2 .wpd-new-loaded-comment.wpd-comment.wpd-reply > .wpd-comment-wrap{background:#FFFAD6}#wpdcom.wpd-layout-3 .wpd-new-loaded-comment.wpd-comment > .wpd-comment-wrap > .wpd-comment-right{background:#FFFAD6}#wpdcom .wpd-follow:hover i, #wpdcom .wpd-unfollow:hover i, #wpdcom .wpd-comment .wpd-follow-active:hover i{color:#00B38F}#wpdcom .wpdiscuz-readmore{cursor:pointer;color:#00B38F}.wpd-custom-field .wcf-pasiv-star, #wpcomm .wpdiscuz-item .wpdiscuz-rating > label{color:#DDDDDD}.wpd-wrapper .wpd-list-item.wpd-active{border-top:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply.wpd-unapproved-comment .wpd-comment-wrap{border-left:3px solid #FFFAD6}#wpdcom.wpd-layout-3 .wpd-comment.wpd-reply.wpd-unapproved-comment .wpd-comment-right{border-left:1px solid #FFFAD6}#wpdcom .wpd-prim-button{background-color:#07B290;color:#FFFFFF}#wpdcom .wpd_label__check i.wpdicon-on{color:#07B290;border:1px solid #83d9c8}#wpd-bubble-wrapper #wpd-bubble-all-comments-count{color:#1DB99A}#wpd-bubble-wrapper > div{background-color:#1DB99A}#wpd-bubble-wrapper > #wpd-bubble #wpd-bubble-add-message{background-color:#1DB99A}#wpd-bubble-wrapper > #wpd-bubble #wpd-bubble-add-message::before{border-left-color:#1DB99A;border-right-color:#1DB99A}#wpd-bubble-wrapper.wpd-right-corner > #wpd-bubble #wpd-bubble-add-message::before{border-left-color:#1DB99A;border-right-color:#1DB99A}.wpd-inline-icon-wrapper path.wpd-inline-icon-first{fill:#1DB99A}.wpd-inline-icon-count{background-color:#1DB99A}.wpd-inline-icon-count::before{border-right-color:#1DB99A}.wpd-inline-form-wrapper::before{border-bottom-color:#1DB99A}.wpd-inline-form-question{background-color:#1DB99A}.wpd-inline-form{background-color:#1DB99A}.wpd-last-inline-comments-wrapper{border-color:#1DB99A}.wpd-last-inline-comments-wrapper::before{border-bottom-color:#1DB99A}.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments{background:#1DB99A}.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments:hover,.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments:active,.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments:focus{background-color:#1DB99A}#wpdcom .ql-snow .ql-tooltip[data-mode="link"]::before{content:"Enter link:"}#wpdcom .ql-snow .ql-tooltip.ql-editing a.ql-action::after{content:"Save"}.comments-area{width:auto}
+/*# sourceURL=wpdiscuz-frontend-css-inline-css */
+</style>
+<link rel='stylesheet' id='wpdiscuz-fa-css' href='https://smallwarsjournal.com/wp-content/plugins/wpdiscuz/assets/third-party/font-awesome-5.13.0/css/fa.min.css?ver=7.6.71' media='all' />
+<link rel='stylesheet' id='wpdiscuz-combo-css-css' href='https://smallwarsjournal.com/wp-content/plugins/wpdiscuz/assets/css/wpdiscuz-combo.min.css?ver=5599175e20aaa1a1316494b179b26fc9' media='all' />
+<script id="jquery-core-js" src="https://smallwarsjournal.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://smallwarsjournal.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="flexslider-js" src="https://smallwarsjournal.com/wp-content/themes/swj/js/jquery.flexslider.js?ver=1395906804"></script>
+<script id="fitvids-js" src="https://smallwarsjournal.com/wp-content/themes/swj/js/jquery.fitvids.js?ver=1395721300"></script>
+<script id="owl-js" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js?ver=5599175e20aaa1a1316494b179b26fc9"></script>
+<script id="themescripts-js" src="https://smallwarsjournal.com/wp-content/themes/swj/js/scripts.js?ver=1789929159"></script>
+<link rel="https://api.w.org/" href="https://smallwarsjournal.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://smallwarsjournal.com/wp-json/wp/v2/posts/148015" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://smallwarsjournal.com/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://smallwarsjournal.com/?p=148015' />
+    <style type="text/css">
+
+      .mpcs-classroom .nav-back i,
+      .mpcs-classroom .navbar-section a.btn,
+      .mpcs-classroom .navbar-section button,
+      .mpcs-classroom div#mpcs-lesson-navigation button,
+      .mpcs-classroom div#mpcs-quiz-navigation a,
+      .mpcs-classroom #mpcs-classroom-next-lesson-link,
+      .mpcs-classroom #next_lesson_link {
+        color: rgba(255, 255, 255) !important;
+      }
+
+      .mpcs-classroom .navbar-section .dropdown .menu a {
+        color: #333;
+      }
+
+      .mpcs-classroom .mpcs-progress-ring {
+        background-color: rgba(29, 166, 154) !important;
+      }
+
+      .mpcs-classroom .mpcs-course-filter .dropdown .btn span,
+      .mpcs-classroom .mpcs-course-filter .dropdown .btn i,
+      .mpcs-classroom .mpcs-course-filter .input-group .input-group-btn,
+      .mpcs-classroom .mpcs-course-filter .input-group .mpcs-search,
+      .mpcs-classroom .mpcs-course-filter .input-group input[type=text],
+      .mpcs-classroom .mpcs-course-filter .dropdown a,
+      .mpcs-classroom .pagination,
+      .mpcs-classroom .pagination i,
+      .mpcs-classroom .pagination a {
+        color: rgba(44, 54, 55) !important;
+        border-color: rgba(44, 54, 55) !important;
+      }
+
+      /* body.mpcs-classroom a{
+        color: rgba();
+      } */
+
+      #mpcs-navbar,
+      #mpcs-navbar button#mpcs-classroom-previous-lesson-link,
+      #mpcs-navbar button#mpcs-classroom-previous-lesson-link:hover,
+      .mpcs-classroom div#mpcs-lesson-navigation button#previous_lesson_link,
+      .mpcs-classroom div#mpcs-lesson-navigation button#previous_lesson_link:hover,
+      .mpcs-classroom a#mpcs-classroom-previous-lesson-link,
+      .mpcs-classroom a#mpcs-classroom-previous-lesson-link:hover,
+      .mpcs-classroom a#previous_lesson_link,
+      .mpcs-classroom a#previous_lesson_link:hover,
+      .mpcs-classroom #mpcs-navbar #mpcs-lesson-navigation > a#mpcs-classroom-previous-lesson-link,
+      .mpcs-classroom #mpcs-navbar #mpcs-lesson-navigation > a#mpcs-classroom-previous-lesson-link:hover,
+      .mpcs-classroom #mpcs-lesson-navigation a#previous_lesson_link,
+      .mpcs-classroom #mpcs-lesson-navigation a#previous_lesson_link:hover,
+      .mpcs-classroom div#mpcs-lesson-navigation a#previous_lesson_link,
+      .mpcs-classroom div#mpcs-lesson-navigation a#previous_lesson_link:hover {
+        background: rgba(44, 54, 55);
+      }
+
+      .course-progress .user-progress,
+      .btn-green,
+      #mpcs-navbar button:not(#mpcs-classroom-previous-lesson-link),
+      .mpcs-classroom div#mpcs-lesson-navigation button:not(#previous_lesson_link),
+      .mpcs-classroom #mpcs-quiz-navigation button:focus,
+      .mpcs-classroom #mpcs-quiz-navigation button:hover,
+      .mpcs-classroom #mpcs-quiz-navigation a,
+      .mpcs-classroom div#mpcs-lesson-navigation a:not(#previous_lesson_link),
+      .mpcs-classroom #mpcs-navbar #mpcs-lesson-navigation > a:not(#mpcs-classroom-previous-lesson-link) {
+        background: rgba(29, 166, 154, 0.9);
+      }
+
+      .btn-green:hover,
+      #mpcs-navbar button:not(#mpcs-classroom-previous-lesson-link):focus,
+      #mpcs-navbar button:not(#mpcs-classroom-previous-lesson-link):hover,
+      .mpcs-classroom div#mpcs-lesson-navigation button:not(#previous_lesson_link):focus,
+      .mpcs-classroom div#mpcs-lesson-navigation button:not(#previous_lesson_link):hover,
+      .mpcs-classroom #mpcs-quiz-navigation button,
+      .mpcs-classroom div#mpcs-lesson-navigation a:not(#previous_lesson_link):hover,
+      .mpcs-classroom #mpcs-navbar #mpcs-lesson-navigation > a:not(#mpcs-classroom-previous-lesson-link):hover {
+        background: rgba(29, 166, 154);
+      }
+
+      .btn-green{border: rgba(29, 166, 154)}
+
+      .course-progress .progress-text,
+      .mpcs-lesson i.mpcs-circle-regular {
+        color: rgba(23, 132, 123);
+      }
+
+      #mpcs-main #bookmark, .mpcs-lesson.current{background: rgba(29, 166, 154, 0.3)}
+
+      .mpcs-instructor .tile-subtitle{
+        color: rgba(29, 166, 154, 1);
+      }
+
+      .mpcs-classroom .mpcs-quiz-question-feedback {
+        border-top-color: rgba(29, 166, 154, 1);
+        border-bottom-color: rgba(29, 166, 154, 1);
+      }
+
+    </style>
+                <style type="text/css" id="pf-main-css">
+            
+				@media screen {
+					.printfriendly {
+						z-index: 1000; display: flex; margin: 0px 0px 0px 0px
+					}
+					.printfriendly a, .printfriendly a:link, .printfriendly a:visited, .printfriendly a:hover, .printfriendly a:active {
+						font-weight: 600;
+						cursor: pointer;
+						text-decoration: none;
+						border: none;
+						-webkit-box-shadow: none;
+						-moz-box-shadow: none;
+						box-shadow: none;
+						outline:none;
+						font-size: 14px !important;
+						color: #3AAA11 !important;
+					}
+					.printfriendly.pf-alignleft {
+						justify-content: start;
+					}
+					.printfriendly.pf-alignright {
+						justify-content: end;
+					}
+					.printfriendly.pf-aligncenter {
+						justify-content: center;
+						
+					}
+				}
+
+				.pf-button-img {
+					border: none;
+					-webkit-box-shadow: none;
+					-moz-box-shadow: none;
+					box-shadow: none;
+					padding: 0;
+					margin: 0;
+					display: inline;
+					vertical-align: middle;
+				}
+
+				img.pf-button-img + .pf-button-text {
+					margin-left: 6px;
+				}
+
+				@media print {
+					.printfriendly {
+						display: none;
+					}
+				}
+				        </style>
+
+            
+        <style type="text/css" id="pf-excerpt-styles">
+          .pf-button.pf-button-excerpt {
+              display: none;
+           }
+        </style>
+
+            <script type="text/javascript">
+	var templateDir = "https://smallwarsjournal.com/wp-content/themes/swj";
+</script>
+
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1BNX21WFED"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1BNX21WFED');
+</script>
+
+<link rel="stylesheet" id="asp-basic" href="https://smallwarsjournal.com/wp-content/cache/asp/style.basic-ho-is-po-no-da-se-co-ga-se-is.css?mq=2r3GUp" media="all" /><style id='asp-instance-1'>div[id*='ajaxsearchpro1_'] div.asp_loader,div[id*='ajaxsearchpro1_'] div.asp_loader *{box-sizing:border-box !important;margin:0;padding:0;box-shadow:none}div[id*='ajaxsearchpro1_'] div.asp_loader{box-sizing:border-box;display:flex;flex:0 1 auto;flex-direction:column;flex-grow:0;flex-shrink:0;flex-basis:28px;max-width:100%;max-height:100%;align-items:center;justify-content:center}div[id*='ajaxsearchpro1_'] div.asp_loader-inner{width:100%;margin:0 auto;text-align:center;height:100%}@-webkit-keyframes rotate-simple{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}50%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes rotate-simple{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}50%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}div[id*='ajaxsearchpro1_'] div.asp_simple-circle{margin:0;height:100%;width:100%;animation:rotate-simple 0.8s infinite linear;-webkit-animation:rotate-simple 0.8s infinite linear;border:4px solid rgb(255,255,255);border-right-color:transparent;border-radius:50%;box-sizing:border-box}div[id*='ajaxsearchprores1_'] .asp_res_loader div.asp_loader,div[id*='ajaxsearchprores1_'] .asp_res_loader div.asp_loader *{box-sizing:border-box !important;margin:0;padding:0;box-shadow:none}div[id*='ajaxsearchprores1_'] .asp_res_loader div.asp_loader{box-sizing:border-box;display:flex;flex:0 1 auto;flex-direction:column;flex-grow:0;flex-shrink:0;flex-basis:28px;max-width:100%;max-height:100%;align-items:center;justify-content:center}div[id*='ajaxsearchprores1_'] .asp_res_loader div.asp_loader-inner{width:100%;margin:0 auto;text-align:center;height:100%}@-webkit-keyframes rotate-simple{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}50%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes rotate-simple{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}50%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}div[id*='ajaxsearchprores1_'] .asp_res_loader div.asp_simple-circle{margin:0;height:100%;width:100%;animation:rotate-simple 0.8s infinite linear;-webkit-animation:rotate-simple 0.8s infinite linear;border:4px solid rgb(255,255,255);border-right-color:transparent;border-radius:50%;box-sizing:border-box}#ajaxsearchpro1_1 div.asp_loader,#ajaxsearchpro1_2 div.asp_loader,#ajaxsearchpro1_1 div.asp_loader *,#ajaxsearchpro1_2 div.asp_loader *{box-sizing:border-box !important;margin:0;padding:0;box-shadow:none}#ajaxsearchpro1_1 div.asp_loader,#ajaxsearchpro1_2 div.asp_loader{box-sizing:border-box;display:flex;flex:0 1 auto;flex-direction:column;flex-grow:0;flex-shrink:0;flex-basis:28px;max-width:100%;max-height:100%;align-items:center;justify-content:center}#ajaxsearchpro1_1 div.asp_loader-inner,#ajaxsearchpro1_2 div.asp_loader-inner{width:100%;margin:0 auto;text-align:center;height:100%}@-webkit-keyframes rotate-simple{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}50%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes rotate-simple{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}50%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}#ajaxsearchpro1_1 div.asp_simple-circle,#ajaxsearchpro1_2 div.asp_simple-circle{margin:0;height:100%;width:100%;animation:rotate-simple 0.8s infinite linear;-webkit-animation:rotate-simple 0.8s infinite linear;border:4px solid rgb(255,255,255);border-right-color:transparent;border-radius:50%;box-sizing:border-box}@-webkit-keyframes asp_an_fadeInDown{0%{opacity:0;-webkit-transform:translateY(-20px)}100%{opacity:1;-webkit-transform:translateY(0)}}@keyframes asp_an_fadeInDown{0%{opacity:0;transform:translateY(-20px)}100%{opacity:1;transform:translateY(0)}}.asp_an_fadeInDown{-webkit-animation-name:asp_an_fadeInDown;animation-name:asp_an_fadeInDown}div.asp_r.asp_r_1,div.asp_r.asp_r_1 *,div.asp_m.asp_m_1,div.asp_m.asp_m_1 *,div.asp_s.asp_s_1,div.asp_s.asp_s_1 *{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;-ms-box-sizing:content-box;-o-box-sizing:content-box;box-sizing:content-box;border:0;border-radius:0;text-transform:none;text-shadow:none;box-shadow:none;text-decoration:none;text-align:left;letter-spacing:normal}div.asp_r.asp_r_1,div.asp_m.asp_m_1,div.asp_s.asp_s_1{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box}div.asp_r.asp_r_1,div.asp_r.asp_r_1 *,div.asp_m.asp_m_1,div.asp_m.asp_m_1 *,div.asp_s.asp_s_1,div.asp_s.asp_s_1 *{padding:0;margin:0}.wpdreams_clear{clear:both}.asp_w_container_1{width:100%}#ajaxsearchpro1_1,#ajaxsearchpro1_2,div.asp_m.asp_m_1{width:100%;height:auto;max-height:none;border-radius:5px;background:#d1eaff;margin-top:0;margin-bottom:0;background-image:-moz-radial-gradient(center,ellipse cover,rgba(140,29,64,1),rgba(140,29,64,1));background-image:-webkit-gradient(radial,center center,0px,center center,100%,rgba(140,29,64,1),rgba(140,29,64,1));background-image:-webkit-radial-gradient(center,ellipse cover,rgba(140,29,64,1),rgba(140,29,64,1));background-image:-o-radial-gradient(center,ellipse cover,rgba(140,29,64,1),rgba(140,29,64,1));background-image:-ms-radial-gradient(center,ellipse cover,rgba(140,29,64,1),rgba(140,29,64,1));background-image:radial-gradient(ellipse at center,rgba(140,29,64,1),rgba(140,29,64,1));overflow:hidden;border:0 none rgb(141,213,239);border-radius:0;box-shadow:none}#ajaxsearchpro1_1 .probox,#ajaxsearchpro1_2 .probox,div.asp_m.asp_m_1 .probox{margin:0;height:34px;background:transparent;border:0 solid rgb(104,174,199);border-radius:0;box-shadow:none}p[id*=asp-try-1]{color:rgb(85,85,85) !important;display:block}div.asp_main_container+[id*=asp-try-1]{width:100%}p[id*=asp-try-1] a{color:rgb(255,181,86) !important}p[id*=asp-try-1] a:after{color:rgb(85,85,85) !important;display:inline;content:','}p[id*=asp-try-1] a:last-child:after{display:none}#ajaxsearchpro1_1 .probox .proinput,#ajaxsearchpro1_2 .probox .proinput,div.asp_m.asp_m_1 .probox .proinput{font-weight:normal;font-family:"Open Sans";color:rgb(255,255,255);font-size:12px;line-height:15px;text-shadow:none;line-height:normal;flex-grow:1;order:5;margin:0 0 0 10px;padding:0 5px}#ajaxsearchpro1_1 .probox .proinput input.orig,#ajaxsearchpro1_2 .probox .proinput input.orig,div.asp_m.asp_m_1 .probox .proinput input.orig{font-weight:normal;font-family:"Open Sans";color:rgb(255,255,255);font-size:12px;line-height:15px;text-shadow:none;line-height:normal;border:0;box-shadow:none;height:34px;position:relative;z-index:2;padding:0 !important;padding-top:2px !important;margin:-1px 0 0 -4px !important;width:100%;background:transparent !important}#ajaxsearchpro1_1 .probox .proinput input.autocomplete,#ajaxsearchpro1_2 .probox .proinput input.autocomplete,div.asp_m.asp_m_1 .probox .proinput input.autocomplete{font-weight:normal;font-family:"Open Sans";color:rgb(255,255,255);font-size:12px;line-height:15px;text-shadow:none;line-height:normal;opacity:0.25;height:34px;display:block;position:relative;z-index:1;padding:0 !important;margin:-1px 0 0 -4px !important;margin-top:-34px !important;width:100%;background:transparent !important}.rtl #ajaxsearchpro1_1 .probox .proinput input.orig,.rtl #ajaxsearchpro1_2 .probox .proinput input.orig,.rtl #ajaxsearchpro1_1 .probox .proinput input.autocomplete,.rtl #ajaxsearchpro1_2 .probox .proinput input.autocomplete,.rtl div.asp_m.asp_m_1 .probox .proinput input.orig,.rtl div.asp_m.asp_m_1 .probox .proinput input.autocomplete{font-weight:normal;font-family:"Open Sans";color:rgb(255,255,255);font-size:12px;line-height:15px;text-shadow:none;line-height:normal;direction:rtl;text-align:right}.rtl #ajaxsearchpro1_1 .probox .proinput,.rtl #ajaxsearchpro1_2 .probox .proinput,.rtl div.asp_m.asp_m_1 .probox .proinput{margin-right:2px}.rtl #ajaxsearchpro1_1 .probox .proloading,.rtl #ajaxsearchpro1_1 .probox .proclose,.rtl #ajaxsearchpro1_2 .probox .proloading,.rtl #ajaxsearchpro1_2 .probox .proclose,.rtl div.asp_m.asp_m_1 .probox .proloading,.rtl div.asp_m.asp_m_1 .probox .proclose{order:3}div.asp_m.asp_m_1 .probox .proinput input.orig::-webkit-input-placeholder{font-weight:normal;font-family:"Open Sans";color:rgb(255,255,255);font-size:12px;text-shadow:none;opacity:0.85}div.asp_m.asp_m_1 .probox .proinput input.orig::-moz-placeholder{font-weight:normal;font-family:"Open Sans";color:rgb(255,255,255);font-size:12px;text-shadow:none;opacity:0.85}div.asp_m.asp_m_1 .probox .proinput input.orig:-ms-input-placeholder{font-weight:normal;font-family:"Open Sans";color:rgb(255,255,255);font-size:12px;text-shadow:none;opacity:0.85}div.asp_m.asp_m_1 .probox .proinput input.orig:-moz-placeholder{font-weight:normal;font-family:"Open Sans";color:rgb(255,255,255);font-size:12px;text-shadow:none;opacity:0.85;line-height:normal !important}#ajaxsearchpro1_1 .probox .proinput input.autocomplete,#ajaxsearchpro1_2 .probox .proinput input.autocomplete,div.asp_m.asp_m_1 .probox .proinput input.autocomplete{font-weight:normal;font-family:"Open Sans";color:rgb(255,255,255);font-size:12px;line-height:15px;text-shadow:none;line-height:normal;border:0;box-shadow:none}#ajaxsearchpro1_1 .probox .proloading,#ajaxsearchpro1_1 .probox .proclose,#ajaxsearchpro1_1 .probox .promagnifier,#ajaxsearchpro1_1 .probox .prosettings,#ajaxsearchpro1_2 .probox .proloading,#ajaxsearchpro1_2 .probox .proclose,#ajaxsearchpro1_2 .probox .promagnifier,#ajaxsearchpro1_2 .probox .prosettings,div.asp_m.asp_m_1 .probox .proloading,div.asp_m.asp_m_1 .probox .proclose,div.asp_m.asp_m_1 .probox .promagnifier,div.asp_m.asp_m_1 .probox .prosettings{width:34px;height:34px;flex:0 0 34px;flex-grow:0;order:7;text-align:center}#ajaxsearchpro1_1 .probox .proclose svg,#ajaxsearchpro1_2 .probox .proclose svg,div.asp_m.asp_m_1 .probox .proclose svg{fill:rgb(254,254,254);background:rgb(51,51,51);box-shadow:0 0 0 2px rgba(255,255,255,0.9);border-radius:50%;box-sizing:border-box;margin-left:-10px;margin-top:-10px;padding:4px}#ajaxsearchpro1_1 .probox .proloading,#ajaxsearchpro1_2 .probox .proloading,div.asp_m.asp_m_1 .probox .proloading{width:34px;height:34px;min-width:34px;min-height:34px;max-width:34px;max-height:34px}#ajaxsearchpro1_1 .probox .proloading .asp_loader,#ajaxsearchpro1_2 .probox .proloading .asp_loader,div.asp_m.asp_m_1 .probox .proloading .asp_loader{width:30px;height:30px;min-width:30px;min-height:30px;max-width:30px;max-height:30px}#ajaxsearchpro1_1 .probox .promagnifier,#ajaxsearchpro1_2 .probox .promagnifier,div.asp_m.asp_m_1 .probox .promagnifier{width:auto;height:34px;flex:0 0 auto;order:7;-webkit-flex:0 0 auto;-webkit-order:7}div.asp_m.asp_m_1 .probox .promagnifier:focus-visible{outline:black outset}#ajaxsearchpro1_1 .probox .proloading .innericon,#ajaxsearchpro1_2 .probox .proloading .innericon,#ajaxsearchpro1_1 .probox .proclose .innericon,#ajaxsearchpro1_2 .probox .proclose .innericon,#ajaxsearchpro1_1 .probox .promagnifier .innericon,#ajaxsearchpro1_2 .probox .promagnifier .innericon,#ajaxsearchpro1_1 .probox .prosettings .innericon,#ajaxsearchpro1_2 .probox .prosettings .innericon,div.asp_m.asp_m_1 .probox .proloading .innericon,div.asp_m.asp_m_1 .probox .proclose .innericon,div.asp_m.asp_m_1 .probox .promagnifier .innericon,div.asp_m.asp_m_1 .probox .prosettings .innericon{text-align:center}#ajaxsearchpro1_1 .probox .promagnifier .innericon,#ajaxsearchpro1_2 .probox .promagnifier .innericon,div.asp_m.asp_m_1 .probox .promagnifier .innericon{display:block;width:34px;height:34px;float:right}#ajaxsearchpro1_1 .probox .promagnifier .asp_text_button,#ajaxsearchpro1_2 .probox .promagnifier .asp_text_button,div.asp_m.asp_m_1 .probox .promagnifier .asp_text_button{display:block;width:auto;height:34px;float:right;margin:0;padding:0 10px 0 2px;font-weight:normal;font-family:"Open Sans";color:rgba(51,51,51,1);font-size:15px;line-height:normal;text-shadow:none;line-height:34px}#ajaxsearchpro1_1 .probox .promagnifier .innericon svg,#ajaxsearchpro1_2 .probox .promagnifier .innericon svg,div.asp_m.asp_m_1 .probox .promagnifier .innericon svg{fill:rgb(255,255,255)}#ajaxsearchpro1_1 .probox .prosettings .innericon svg,#ajaxsearchpro1_2 .probox .prosettings .innericon svg,div.asp_m.asp_m_1 .probox .prosettings .innericon svg{fill:rgb(255,255,255)}#ajaxsearchpro1_1 .probox .promagnifier,#ajaxsearchpro1_2 .probox .promagnifier,div.asp_m.asp_m_1 .probox .promagnifier{width:34px;height:34px;background-image:-webkit-linear-gradient(180deg,rgba(140,29,64,1),rgba(140,29,64,1));background-image:-moz-linear-gradient(180deg,rgba(140,29,64,1),rgba(140,29,64,1));background-image:-o-linear-gradient(180deg,rgba(140,29,64,1),rgba(140,29,64,1));background-image:-ms-linear-gradient(180deg,rgba(140,29,64,1) 0,rgba(140,29,64,1) 100%);background-image:linear-gradient(180deg,rgba(140,29,64,1),rgba(140,29,64,1));background-position:center center;background-repeat:no-repeat;order:11;-webkit-order:11;float:right;border:0 solid rgb(0,0,0);border-radius:0;box-shadow:0 0 0 0 rgba(255,255,255,0.61);cursor:pointer;background-size:100% 100%;background-position:center center;background-repeat:no-repeat;cursor:pointer}#ajaxsearchpro1_1 .probox .prosettings,#ajaxsearchpro1_2 .probox .prosettings,div.asp_m.asp_m_1 .probox .prosettings{width:34px;height:34px;background-image:-webkit-linear-gradient(185deg,rgba(140,29,64,1),rgba(140,29,64,1));background-image:-moz-linear-gradient(185deg,rgba(140,29,64,1),rgba(140,29,64,1));background-image:-o-linear-gradient(185deg,rgba(140,29,64,1),rgba(140,29,64,1));background-image:-ms-linear-gradient(185deg,rgba(140,29,64,1) 0,rgba(140,29,64,1) 100%);background-image:linear-gradient(185deg,rgba(140,29,64,1),rgba(140,29,64,1));background-position:center center;background-repeat:no-repeat;order:10;-webkit-order:10;float:right;border:0 solid rgb(104,174,199);border-radius:0;box-shadow:0 0 0 0 rgba(255,255,255,0.63);cursor:pointer;background-size:100% 100%;align-self:flex-end}#ajaxsearchprores1_1,#ajaxsearchprores1_2,div.asp_r.asp_r_1{position:absolute;z-index:11000;width:auto;margin:12px 0 0 0}#ajaxsearchprores1_1 .asp_nores,#ajaxsearchprores1_2 .asp_nores,div.asp_r.asp_r_1 .asp_nores{border:0 solid rgb(0,0,0);border-radius:0;box-shadow:0 5px 5px -5px #dfdfdf;padding:6px 12px 6px 12px;margin:0;font-weight:normal;font-family:inherit;color:rgba(74,74,74,1);font-size:1rem;line-height:1.2rem;text-shadow:none;font-weight:normal;background:rgb(255,255,255)}#ajaxsearchprores1_1 .asp_nores .asp_nores_kw_suggestions,#ajaxsearchprores1_2 .asp_nores .asp_nores_kw_suggestions,div.asp_r.asp_r_1 .asp_nores .asp_nores_kw_suggestions{color:rgba(234,67,53,1);font-weight:normal}#ajaxsearchprores1_1 .asp_nores .asp_keyword,#ajaxsearchprores1_2 .asp_nores .asp_keyword,div.asp_r.asp_r_1 .asp_nores .asp_keyword{padding:0 8px 0 0;cursor:pointer;color:rgba(20,84,169,1);font-weight:bold}#ajaxsearchprores1_1 .asp_results_top,#ajaxsearchprores1_2 .asp_results_top,div.asp_r.asp_r_1 .asp_results_top{background:rgb(255,255,255);border:1px none rgb(81,81,81);border-radius:0;padding:6px 12px 6px 12px;margin:0;text-align:center;font-weight:normal;font-family:"Open Sans";color:rgb(74,74,74);font-size:13px;line-height:16px;text-shadow:none}#ajaxsearchprores1_1 .results .item,#ajaxsearchprores1_2 .results .item,div.asp_r.asp_r_1 .results .item{height:auto;background:rgb(255,255,255)}#ajaxsearchprores1_1 .results .item.hovered,#ajaxsearchprores1_2 .results .item.hovered,div.asp_r.asp_r_1 .results .item.hovered{background-image:-moz-radial-gradient(center,ellipse cover,rgb(245,245,245),rgb(245,245,245));background-image:-webkit-gradient(radial,center center,0px,center center,100%,rgb(245,245,245),rgb(245,245,245));background-image:-webkit-radial-gradient(center,ellipse cover,rgb(245,245,245),rgb(245,245,245));background-image:-o-radial-gradient(center,ellipse cover,rgb(245,245,245),rgb(245,245,245));background-image:-ms-radial-gradient(center,ellipse cover,rgb(245,245,245),rgb(245,245,245));background-image:radial-gradient(ellipse at center,rgb(245,245,245),rgb(245,245,245))}#ajaxsearchprores1_1 .results .item .asp_image,#ajaxsearchprores1_2 .results .item .asp_image,div.asp_r.asp_r_1 .results .item .asp_image{background-size:cover;background-repeat:no-repeat}#ajaxsearchprores1_1 .results .item .asp_image img,#ajaxsearchprores1_2 .results .item .asp_image img,div.asp_r.asp_r_1 .results .item .asp_image img{object-fit:cover}#ajaxsearchprores1_1 .results .item .asp_item_overlay_img,#ajaxsearchprores1_2 .results .item .asp_item_overlay_img,div.asp_r.asp_r_1 .results .item .asp_item_overlay_img{background-size:cover;background-repeat:no-repeat}#ajaxsearchprores1_1 .results .item .asp_content,#ajaxsearchprores1_2 .results .item .asp_content,div.asp_r.asp_r_1 .results .item .asp_content{overflow:hidden;background:transparent;margin:0;padding:0 10px}#ajaxsearchprores1_1 .results .item .asp_content h3,#ajaxsearchprores1_2 .results .item .asp_content h3,div.asp_r.asp_r_1 .results .item .asp_content h3{margin:0;padding:0;display:inline-block;line-height:inherit;font-weight:bold;font-family:"Open Sans";color:rgba(20,84,169,1);font-size:14px;line-height:20px;text-shadow:none}#ajaxsearchprores1_1 .results .item .asp_content h3 a,#ajaxsearchprores1_2 .results .item .asp_content h3 a,div.asp_r.asp_r_1 .results .item .asp_content h3 a{margin:0;padding:0;line-height:inherit;display:block;font-weight:bold;font-family:"Open Sans";color:rgba(20,84,169,1);font-size:14px;line-height:20px;text-shadow:none}#ajaxsearchprores1_1 .results .item .asp_content h3 a:hover,#ajaxsearchprores1_2 .results .item .asp_content h3 a:hover,div.asp_r.asp_r_1 .results .item .asp_content h3 a:hover{font-weight:bold;font-family:"Open Sans";color:rgba(20,84,169,1);font-size:14px;line-height:20px;text-shadow:none}#ajaxsearchprores1_1 .results .item div.etc,#ajaxsearchprores1_2 .results .item div.etc,div.asp_r.asp_r_1 .results .item div.etc{padding:0;font-size:13px;line-height:1.3em;margin-bottom:6px}#ajaxsearchprores1_1 .results .item .etc .asp_author,#ajaxsearchprores1_2 .results .item .etc .asp_author,div.asp_r.asp_r_1 .results .item .etc .asp_author{padding:0;font-weight:bold;font-family:"Open Sans";color:rgba(161,161,161,1);font-size:12px;line-height:13px;text-shadow:none}#ajaxsearchprores1_1 .results .item .etc .asp_date,#ajaxsearchprores1_2 .results .item .etc .asp_date,div.asp_r.asp_r_1 .results .item .etc .asp_date{margin:0 0 0 10px;padding:0;font-weight:normal;font-family:"Open Sans";color:rgba(173,173,173,1);font-size:12px;line-height:15px;text-shadow:none}#ajaxsearchprores1_1 .results .item div.asp_content,#ajaxsearchprores1_2 .results .item div.asp_content,div.asp_r.asp_r_1 .results .item div.asp_content{margin:0;padding:0;font-weight:normal;font-family:"Open Sans";color:rgba(74,74,74,1);font-size:13px;line-height:13px;text-shadow:none}#ajaxsearchprores1_1 span.highlighted,#ajaxsearchprores1_2 span.highlighted,div.asp_r.asp_r_1 span.highlighted{font-weight:bold;color:rgba(217,49,43,1);background-color:rgba(238,238,238,1)}#ajaxsearchprores1_1 p.showmore,#ajaxsearchprores1_2 p.showmore,div.asp_r.asp_r_1 p.showmore{text-align:center;font-weight:normal;font-family:"Open Sans";color:rgba(5,94,148,1);font-size:12px;line-height:15px;text-shadow:none}#ajaxsearchprores1_1 p.showmore a,#ajaxsearchprores1_2 p.showmore a,div.asp_r.asp_r_1 p.showmore a{font-weight:normal;font-family:"Open Sans";color:rgba(5,94,148,1);font-size:12px;line-height:15px;text-shadow:none;padding:10px 5px;margin:0 auto;background:rgba(255,255,255,1);display:block;text-align:center}#ajaxsearchprores1_1 .asp_res_loader,#ajaxsearchprores1_2 .asp_res_loader,div.asp_r.asp_r_1 .asp_res_loader{background:rgb(255,255,255);height:200px;padding:10px}#ajaxsearchprores1_1.isotopic .asp_res_loader,#ajaxsearchprores1_2.isotopic .asp_res_loader,div.asp_r.asp_r_1.isotopic .asp_res_loader{background:rgba(255,255,255,0);}#ajaxsearchprores1_1 .asp_res_loader .asp_loader,#ajaxsearchprores1_2 .asp_res_loader .asp_loader,div.asp_r.asp_r_1 .asp_res_loader .asp_loader{height:200px;width:200px;margin:0 auto}div.asp_s.asp_s_1.searchsettings,div.asp_s.asp_s_1.searchsettings,div.asp_s.asp_s_1.searchsettings{direction:ltr;padding:0;background-image:-webkit-linear-gradient(185deg,rgba(140,29,64,1),rgba(140,29,64,1));background-image:-moz-linear-gradient(185deg,rgba(140,29,64,1),rgba(140,29,64,1));background-image:-o-linear-gradient(185deg,rgba(140,29,64,1),rgba(140,29,64,1));background-image:-ms-linear-gradient(185deg,rgba(140,29,64,1) 0,rgba(140,29,64,1) 100%);background-image:linear-gradient(185deg,rgba(140,29,64,1),rgba(140,29,64,1));box-shadow:none;;max-width:208px;z-index:2}div.asp_s.asp_s_1.searchsettings.asp_s,div.asp_s.asp_s_1.searchsettings.asp_s,div.asp_s.asp_s_1.searchsettings.asp_s{z-index:11001}#ajaxsearchprobsettings1_1.searchsettings,#ajaxsearchprobsettings1_2.searchsettings,div.asp_sb.asp_sb_1.searchsettings{max-width:none}div.asp_s.asp_s_1.searchsettings form,div.asp_s.asp_s_1.searchsettings form,div.asp_s.asp_s_1.searchsettings form{display:flex}div.asp_sb.asp_sb_1.searchsettings form,div.asp_sb.asp_sb_1.searchsettings form,div.asp_sb.asp_sb_1.searchsettings form{display:flex}#ajaxsearchprosettings1_1.searchsettings div.asp_option_label,#ajaxsearchprosettings1_2.searchsettings div.asp_option_label,#ajaxsearchprosettings1_1.searchsettings .asp_label,#ajaxsearchprosettings1_2.searchsettings .asp_label,div.asp_s.asp_s_1.searchsettings div.asp_option_label,div.asp_s.asp_s_1.searchsettings .asp_label{font-weight:bold;font-family:"Open Sans";color:rgb(255,255,255);font-size:12px;line-height:15px;text-shadow:none}#ajaxsearchprosettings1_1.searchsettings .asp_option_inner .asp_option_checkbox,#ajaxsearchprosettings1_2.searchsettings .asp_option_inner .asp_option_checkbox,div.asp_sb.asp_sb_1.searchsettings .asp_option_inner .asp_option_checkbox,div.asp_s.asp_s_1.searchsettings .asp_option_inner .asp_option_checkbox{background-image:-webkit-linear-gradient(180deg,rgb(34,34,34),rgb(69,72,77));background-image:-moz-linear-gradient(180deg,rgb(34,34,34),rgb(69,72,77));background-image:-o-linear-gradient(180deg,rgb(34,34,34),rgb(69,72,77));background-image:-ms-linear-gradient(180deg,rgb(34,34,34) 0,rgb(69,72,77) 100%);background-image:linear-gradient(180deg,rgb(34,34,34),rgb(69,72,77))}#ajaxsearchprosettings1_1.searchsettings .asp_option_inner .asp_option_checkbox:after,#ajaxsearchprosettings1_2.searchsettings .asp_option_inner .asp_option_checkbox:after,#ajaxsearchprobsettings1_1.searchsettings .asp_option_inner .asp_option_checkbox:after,#ajaxsearchprobsettings1_2.searchsettings .asp_option_inner .asp_option_checkbox:after,div.asp_sb.asp_sb_1.searchsettings .asp_option_inner .asp_option_checkbox:after,div.asp_s.asp_s_1.searchsettings .asp_option_inner .asp_option_checkbox:after{font-family:'asppsicons2';border:none;content:"\e800";display:block;position:absolute;top:0;left:0;font-size:11px;color:rgb(255,255,255);margin:1px 0 0 0 !important;line-height:17px;text-align:center;text-decoration:none;text-shadow:none}div.asp_sb.asp_sb_1.searchsettings .asp_sett_scroll,div.asp_s.asp_s_1.searchsettings .asp_sett_scroll{scrollbar-width:thin;scrollbar-color:rgba(0,0,0,0.5) transparent}div.asp_sb.asp_sb_1.searchsettings .asp_sett_scroll::-webkit-scrollbar,div.asp_s.asp_s_1.searchsettings .asp_sett_scroll::-webkit-scrollbar{width:7px}div.asp_sb.asp_sb_1.searchsettings .asp_sett_scroll::-webkit-scrollbar-track,div.asp_s.asp_s_1.searchsettings .asp_sett_scroll::-webkit-scrollbar-track{background:transparent}div.asp_sb.asp_sb_1.searchsettings .asp_sett_scroll::-webkit-scrollbar-thumb,div.asp_s.asp_s_1.searchsettings .asp_sett_scroll::-webkit-scrollbar-thumb{background:rgba(0,0,0,0.5);border-radius:5px;border:none}#ajaxsearchprosettings1_1.searchsettings .asp_sett_scroll,#ajaxsearchprosettings1_2.searchsettings .asp_sett_scroll,div.asp_s.asp_s_1.searchsettings .asp_sett_scroll{max-height:220px;overflow:auto}#ajaxsearchprobsettings1_1.searchsettings .asp_sett_scroll,#ajaxsearchprobsettings1_2.searchsettings .asp_sett_scroll,div.asp_sb.asp_sb_1.searchsettings .asp_sett_scroll{max-height:220px;overflow:auto}#ajaxsearchprosettings1_1.searchsettings fieldset,#ajaxsearchprosettings1_2.searchsettings fieldset,div.asp_s.asp_s_1.searchsettings fieldset{width:200px;min-width:200px;max-width:10000px}#ajaxsearchprobsettings1_1.searchsettings fieldset,#ajaxsearchprobsettings1_2.searchsettings fieldset,div.asp_sb.asp_sb_1.searchsettings fieldset{width:200px;min-width:200px;max-width:10000px}#ajaxsearchprosettings1_1.searchsettings fieldset legend,#ajaxsearchprosettings1_2.searchsettings fieldset legend,div.asp_s.asp_s_1.searchsettings fieldset legend{padding:0 0 0 10px;margin:0;background:transparent;font-weight:normal;font-family:"Open Sans";color:rgb(31,31,31);font-size:13px;line-height:15px;text-shadow:none}#ajaxsearchprores1_1.vertical,#ajaxsearchprores1_2.vertical,div.asp_r.asp_r_1.vertical{padding:4px;background:rgb(225,99,92);border-radius:3px;border:0 none rgba(0,0,0,1);border-radius:0;box-shadow:none;visibility:hidden;display:none}#ajaxsearchprores1_1.vertical .results,#ajaxsearchprores1_2.vertical .results,div.asp_r.asp_r_1.vertical .results{max-height:none;overflow-x:hidden;overflow-y:auto}#ajaxsearchprores1_1.vertical .item,#ajaxsearchprores1_2.vertical .item,div.asp_r.asp_r_1.vertical .item{position:relative;box-sizing:border-box}#ajaxsearchprores1_1.vertical .item .asp_content h3,#ajaxsearchprores1_2.vertical .item .asp_content h3,div.asp_r.asp_r_1.vertical .item .asp_content h3{display:inline}#ajaxsearchprores1_1.vertical .results .item .asp_content,#ajaxsearchprores1_2.vertical .results .item .asp_content,div.asp_r.asp_r_1.vertical .results .item .asp_content{overflow:hidden;width:auto;height:auto;background:transparent;margin:0;padding:8px}#ajaxsearchprores1_1.vertical .results .item .asp_image,#ajaxsearchprores1_2.vertical .results .item .asp_image,div.asp_r.asp_r_1.vertical .results .item .asp_image{width:70px;height:70px;margin:2px 8px 0 0}#ajaxsearchprores1_1.vertical .asp_simplebar-scrollbar::before,#ajaxsearchprores1_2.vertical .asp_simplebar-scrollbar::before,div.asp_r.asp_r_1.vertical .asp_simplebar-scrollbar::before{background:transparent;background-image:-moz-radial-gradient(center,ellipse cover,rgba(0,0,0,0.5),rgba(0,0,0,0.5));background-image:-webkit-gradient(radial,center center,0px,center center,100%,rgba(0,0,0,0.5),rgba(0,0,0,0.5));background-image:-webkit-radial-gradient(center,ellipse cover,rgba(0,0,0,0.5),rgba(0,0,0,0.5));background-image:-o-radial-gradient(center,ellipse cover,rgba(0,0,0,0.5),rgba(0,0,0,0.5));background-image:-ms-radial-gradient(center,ellipse cover,rgba(0,0,0,0.5),rgba(0,0,0,0.5));background-image:radial-gradient(ellipse at center,rgba(0,0,0,0.5),rgba(0,0,0,0.5))}#ajaxsearchprores1_1.vertical .results .item::after,#ajaxsearchprores1_2.vertical .results .item::after,div.asp_r.asp_r_1.vertical .results .item::after{display:block;position:absolute;bottom:0;content:"";height:1px;width:100%;background:rgba(204,204,204,1)}#ajaxsearchprores1_1.vertical .results .item.asp_last_item::after,#ajaxsearchprores1_2.vertical .results .item.asp_last_item::after,div.asp_r.asp_r_1.vertical .results .item.asp_last_item::after{display:none}.asp_spacer{display:none !important;}.asp_v_spacer{width:100%;height:0}#ajaxsearchprores1_1 .asp_group_header,#ajaxsearchprores1_2 .asp_group_header,div.asp_r.asp_r_1 .asp_group_header{background:#DDD;background:rgb(246,246,246);border-radius:3px 3px 0 0;border-top:1px solid rgb(248,248,248);border-left:1px solid rgb(248,248,248);border-right:1px solid rgb(248,248,248);margin:0 0 -3px;padding:7px 0 7px 10px;position:relative;z-index:1000;min-width:90%;flex-grow:1;font-weight:bold;font-family:"Open Sans";color:rgba(5,94,148,1);font-size:11px;line-height:13px;text-shadow:none}#ajaxsearchprores1_1.vertical .results,#ajaxsearchprores1_2.vertical .results,div.asp_r.asp_r_1.vertical .results{scrollbar-width:thin;scrollbar-color:rgba(0,0,0,0.5) rgb(255,255,255)}#ajaxsearchprores1_1.vertical .results::-webkit-scrollbar,#ajaxsearchprores1_2.vertical .results::-webkit-scrollbar,div.asp_r.asp_r_1.vertical .results::-webkit-scrollbar{width:10px}#ajaxsearchprores1_1.vertical .results::-webkit-scrollbar-track,#ajaxsearchprores1_2.vertical .results::-webkit-scrollbar-track,div.asp_r.asp_r_1.vertical .results::-webkit-scrollbar-track{background:rgb(255,255,255);box-shadow:inset 0 0 12px 12px transparent;border:none}#ajaxsearchprores1_1.vertical .results::-webkit-scrollbar-thumb,#ajaxsearchprores1_2.vertical .results::-webkit-scrollbar-thumb,div.asp_r.asp_r_1.vertical .results::-webkit-scrollbar-thumb{background:transparent;box-shadow:inset 0 0 12px 12px rgba(0,0,0,0);border:solid 2px transparent;border-radius:12px}#ajaxsearchprores1_1.vertical:hover .results::-webkit-scrollbar-thumb,#ajaxsearchprores1_2.vertical:hover .results::-webkit-scrollbar-thumb,div.asp_r.asp_r_1.vertical:hover .results::-webkit-scrollbar-thumb{box-shadow:inset 0 0 12px 12px rgba(0,0,0,0.5)}@media(hover:none),(max-width:500px){#ajaxsearchprores1_1.vertical .results::-webkit-scrollbar-thumb,#ajaxsearchprores1_2.vertical .results::-webkit-scrollbar-thumb,div.asp_r.asp_r_1.vertical .results::-webkit-scrollbar-thumb{box-shadow:inset 0 0 12px 12px rgba(0,0,0,0.5)}}</style>
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+				<style>
+					@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4gaVc.ttf) format('truetype');
+}
+
+				</style></head>
+
+<body id="single-blog" class="wp-singular post-template-default single single-post postid-148015 single-format-standard wp-theme-swj single-default">
+	<div id="memberTop">
+                    <a href="https://smallwarsjournal.com/login" class="loginbtn"><i class="fa-solid fa-lock"></i> Member Login</a>
+            <a href="https://smallwarsjournal.com/register/swj-member/" class="signupbtn">Become a Member</a>
+        
+	</div>
+<header id="header" class="flex">
+<div id="logo"> <a href="https://smallwarsjournal.com/"><img alt="Small Wars Journal by Arizona State University" src="https://smallwarsjournal.com/wp-content/themes/swj/images/logo.svg"/></a> </div>
+<nav id="navigation" class="clearfix animate__animated animate__fadeIn"><a href="javascript:void(0)" id="toggle-menu"><i class="fas fa-bars"></i> Menu</a>
+    <ul id="menu-main-menu" class="menu desktopMenu"><li id="menu-item-153858" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-153858"><a href="https://smallwarsjournal.com/topics/">Topics</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20"><a href="https://smallwarsjournal.com/about/">About<i></i></a>
+<ul class="sub-menu">
+	<li id="menu-item-224" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-224"><a href="https://smallwarsjournal.com/staff/">Staff</a></li>
+	<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://smallwarsjournal.com/authors/">Authors</a></li>
+	<li id="menu-item-218" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-218"><a href="https://smallwarsjournal.com/history/">History</a></li>
+	<li id="menu-item-248" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-248"><a href="https://smallwarsjournal.com/submit-your-work/">Submit Your Work</a></li>
+	<li id="menu-item-154246" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-154246"><a href="https://smallwarsjournal.com/ai-policy/">AI Policy</a></li>
+</ul>
+</li>
+<li id="menu-item-158" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-158"><a href="https://smallwarsjournal.com/category/el-centro/">El Centro<i></i></a>
+<ul class="sub-menu">
+	<li id="menu-item-254" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-254"><a href="https://smallwarsjournal.com/el-centro-about/">EL Centro – About</a></li>
+</ul>
+</li>
+<li id="menu-item-149832" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-149832"><a href="https://smallwarsjournal.com/inter-populum/">Inter Populum</a></li>
+<li id="menu-item-153818" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-153818"><a href="https://smallwarsjournal.com/veterans-day-showcase-2026/">Veterans Day</a></li>
+<li id="menu-item-149830" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-149830"><a href="https://smallwarsjournal.com/sponsors/">Sponsors<i></i></a>
+<ul class="sub-menu">
+	<li id="menu-item-280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-280"><a href="https://smallwarsjournal.com/sponsorship/">Sponsorship</a></li>
+</ul>
+</li>
+<li id="menu-item-154057" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-154057"><a href="https://smallwarsjournal.com/donate/">Donate</a></li>
+</ul>  </nav>
+  <div id="headerSearch">
+	<div class="asp_w_container asp_w_container_1 asp_w_container_1_1" data-id="1" data-instance="1"><div class='asp_w asp_m asp_m_1 asp_m_1_1 wpdreams_asp_sc wpdreams_asp_sc-1 ajaxsearchpro asp_main_container asp_non_compact' data-id="1" data-name="Header Search" data-instance="1" id='ajaxsearchpro1_1'><div class="probox"><div class='prosettings' style='display:none;' data-opened=0><div class='innericon'><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 512 512"><path d="M170 294c0 33.138-26.862 60-60 60-33.137 0-60-26.862-60-60 0-33.137 26.863-60 60-60 33.138 0 60 26.863 60 60zm-60 90c-6.872 0-13.565-.777-20-2.243V422c0 11.046 8.954 20 20 20s20-8.954 20-20v-40.243c-6.435 1.466-13.128 2.243-20 2.243zm0-180c6.872 0 13.565.777 20 2.243V90c0-11.046-8.954-20-20-20s-20 8.954-20 20v116.243c6.435-1.466 13.128-2.243 20-2.243zm146-7c12.13 0 22 9.87 22 22s-9.87 22-22 22-22-9.87-22-22 9.87-22 22-22zm0-38c-33.137 0-60 26.863-60 60 0 33.138 26.863 60 60 60 33.138 0 60-26.862 60-60 0-33.137-26.862-60-60-60zm0-30c6.872 0 13.565.777 20 2.243V90c0-11.046-8.954-20-20-20s-20 8.954-20 20v41.243c6.435-1.466 13.128-2.243 20-2.243zm0 180c-6.872 0-13.565-.777-20-2.243V422c0 11.046 8.954 20 20 20s20-8.954 20-20V306.757c-6.435 1.466-13.128 2.243-20 2.243zm146-75c-33.137 0-60 26.863-60 60 0 33.138 26.863 60 60 60 33.138 0 60-26.862 60-60 0-33.137-26.862-60-60-60zm0-30c6.872 0 13.565.777 20 2.243V90c0-11.046-8.954-20-20-20s-20 8.954-20 20v116.243c6.435-1.466 13.128-2.243 20-2.243zm0 180c-6.872 0-13.565-.777-20-2.243V422c0 11.046 8.954 20 20 20s20-8.954 20-20v-40.243c-6.435 1.466-13.128 2.243-20 2.243z"/></svg></div></div><div class='proinput'><form role="search" action='#' autocomplete="off" aria-label="Search form"><input type='search' class='orig' placeholder='Search here...' name='phrase' value='' aria-label="Search input" autocomplete="off"/><input type='text' class='autocomplete' name='phrase' value='' aria-label="Search autocomplete input" aria-hidden="true" tabindex="-1" autocomplete="off" disabled/></form></div><button class='promagnifier' aria-label="Search magnifier button"><span class='asp_text_button hiddend'> Search </span><span class='innericon'><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 512 512"><path d="M460.355 421.59l-106.51-106.512c20.04-27.553 31.884-61.437 31.884-98.037C385.73 124.935 310.792 50 218.685 50c-92.106 0-167.04 74.934-167.04 167.04 0 92.107 74.935 167.042 167.04 167.042 34.912 0 67.352-10.773 94.184-29.158L419.945 462l40.41-40.41zM100.63 217.04c0-65.095 52.96-118.055 118.056-118.055 65.098 0 118.057 52.96 118.057 118.056 0 65.097-52.96 118.057-118.057 118.057-65.096 0-118.055-52.96-118.055-118.056z"/></svg></span><span class="asp_clear"></span></button><div class='proloading'><div class="asp_loader"><div class="asp_loader-inner asp_simple-circle"></div></div></div><div class='proclose'><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><polygon points="438.393,374.595 319.757,255.977 438.378,137.348 374.595,73.607 255.995,192.225 137.375,73.622 73.607,137.352 192.246,255.983 73.622,374.625 137.352,438.393 256.002,319.734 374.652,438.378 "/></svg></div></div></div><div class='asp_data_container' style="display:none !important;"><div class="asp_init_data" style="display:none !important;" id="asp_init_id_1_1" data-asp-id="1" data-asp-instance="1" data-settings="{&quot;animations&quot;:{&quot;pc&quot;:{&quot;settings&quot;:{&quot;anim&quot;:&quot;fadedrop&quot;,&quot;dur&quot;:300},&quot;results&quot;:{&quot;anim&quot;:&quot;fadedrop&quot;,&quot;dur&quot;:300},&quot;items&quot;:&quot;fadeInDown&quot;},&quot;mob&quot;:{&quot;settings&quot;:{&quot;anim&quot;:&quot;fadedrop&quot;,&quot;dur&quot;:&quot;300&quot;},&quot;results&quot;:{&quot;anim&quot;:&quot;fadedrop&quot;,&quot;dur&quot;:&quot;300&quot;},&quot;items&quot;:&quot;voidanim&quot;}},&quot;autocomplete&quot;:{&quot;enabled&quot;:1,&quot;trigger_charcount&quot;:0,&quot;googleOnly&quot;:0,&quot;lang&quot;:&quot;en&quot;,&quot;mobile&quot;:1},&quot;autop&quot;:{&quot;state&quot;:&quot;disabled&quot;,&quot;phrase&quot;:&quot;&quot;,&quot;count&quot;:5},&quot;charcount&quot;:2,&quot;closeOnDocClick&quot;:1,&quot;compact&quot;:{&quot;enabled&quot;:0,&quot;focus&quot;:1,&quot;width&quot;:&quot;100%&quot;,&quot;width_tablet&quot;:&quot;480px&quot;,&quot;width_phone&quot;:&quot;320px&quot;,&quot;closeOnMagnifier&quot;:1,&quot;closeOnDocument&quot;:0,&quot;position&quot;:&quot;static&quot;,&quot;overlay&quot;:0},&quot;cptArchive&quot;:{&quot;useAjax&quot;:0,&quot;selector&quot;:&quot;#main&quot;,&quot;url&quot;:&quot;&quot;},&quot;detectVisibility&quot;:0,&quot;divi&quot;:{&quot;bodycommerce&quot;:0},&quot;focusOnPageload&quot;:0,&quot;fss_layout&quot;:&quot;flex&quot;,&quot;highlight&quot;:0,&quot;highlightWholewords&quot;:1,&quot;homeurl&quot;:&quot;https:\/\/smallwarsjournal.com\/&quot;,&quot;is_results_page&quot;:0,&quot;isotopic&quot;:{&quot;itemWidth&quot;:&quot;200px&quot;,&quot;itemWidthTablet&quot;:&quot;200px&quot;,&quot;itemWidthPhone&quot;:&quot;200px&quot;,&quot;itemHeight&quot;:&quot;200px&quot;,&quot;itemHeightTablet&quot;:&quot;200px&quot;,&quot;itemHeightPhone&quot;:&quot;200px&quot;,&quot;pagination&quot;:1,&quot;rows&quot;:2,&quot;gutter&quot;:5,&quot;showOverlay&quot;:1,&quot;blurOverlay&quot;:1,&quot;hideContent&quot;:1},&quot;itemscount&quot;:4,&quot;loaderLocation&quot;:&quot;auto&quot;,&quot;mobile&quot;:{&quot;trigger_on_type&quot;:1,&quot;click_action&quot;:&quot;first_result&quot;,&quot;return_action&quot;:&quot;first_result&quot;,&quot;click_action_location&quot;:&quot;same&quot;,&quot;return_action_location&quot;:&quot;same&quot;,&quot;redirect_url&quot;:&quot;?s={phrase}&quot;,&quot;elementor_url&quot;:&quot;https:\/\/smallwarsjournal.com\/?asp_ls={phrase}&quot;,&quot;menu_selector&quot;:&quot;#menu-toggle&quot;,&quot;hide_keyboard&quot;:0,&quot;force_res_hover&quot;:0,&quot;force_sett_hover&quot;:0,&quot;force_sett_state&quot;:&quot;none&quot;},&quot;override_method&quot;:&quot;get&quot;,&quot;overridewpdefault&quot;:1,&quot;prescontainerheight&quot;:&quot;400px&quot;,&quot;preventBodyScroll&quot;:0,&quot;preventEvents&quot;:0,&quot;rb&quot;:{&quot;action&quot;:&quot;nothing&quot;},&quot;resPage&quot;:{&quot;useAjax&quot;:0,&quot;selector&quot;:&quot;#main&quot;,&quot;trigger_type&quot;:1,&quot;trigger_facet&quot;:1,&quot;trigger_magnifier&quot;:0,&quot;trigger_return&quot;:0},&quot;results&quot;:{&quot;width&quot;:&quot;auto&quot;,&quot;width_tablet&quot;:&quot;auto&quot;,&quot;width_phone&quot;:&quot;auto&quot;,&quot;disableClick&quot;:false},&quot;resultsSnapTo&quot;:&quot;left&quot;,&quot;resultsposition&quot;:&quot;hover&quot;,&quot;resultstype&quot;:&quot;vertical&quot;,&quot;sb&quot;:{&quot;redirect_action&quot;:&quot;ajax_search&quot;,&quot;redirect_location&quot;:&quot;same&quot;,&quot;redirect_url&quot;:&quot;?s={phrase}&quot;,&quot;elementor_url&quot;:&quot;https:\/\/smallwarsjournal.com\/?asp_ls={phrase}&quot;},&quot;scrollBar&quot;:{&quot;horizontal&quot;:{&quot;enabled&quot;:1}},&quot;scrollToResults&quot;:{&quot;enabled&quot;:0,&quot;offset&quot;:0},&quot;select2&quot;:{&quot;nores&quot;:&quot;No results match&quot;},&quot;settings&quot;:{&quot;unselectChildren&quot;:1,&quot;unselectParent&quot;:0,&quot;hideChildren&quot;:0},&quot;settingsHideOnRes&quot;:0,&quot;settingsimagepos&quot;:&quot;right&quot;,&quot;settingsVisible&quot;:0,&quot;show_more&quot;:{&quot;enabled&quot;:0,&quot;url&quot;:&quot;?s={phrase}&quot;,&quot;elementor_url&quot;:&quot;https:\/\/smallwarsjournal.com\/?asp_ls={phrase}&quot;,&quot;action&quot;:&quot;ajax&quot;,&quot;location&quot;:&quot;same&quot;,&quot;infinite&quot;:1},&quot;singleHighlight&quot;:0,&quot;taxArchive&quot;:{&quot;useAjax&quot;:0,&quot;selector&quot;:&quot;#main&quot;,&quot;url&quot;:&quot;&quot;},&quot;lightbox&quot;:{&quot;overlay&quot;:true,&quot;overlayOpacity&quot;:0.7,&quot;overlayColor&quot;:&quot;#FFFFFF&quot;,&quot;nav&quot;:true,&quot;disableRightClick&quot;:true,&quot;close&quot;:true,&quot;animationSpeed&quot;:250,&quot;docClose&quot;:true,&quot;disableScroll&quot;:true,&quot;enableKeyboard&quot;:true},&quot;trigger&quot;:{&quot;delay&quot;:300,&quot;autocomplete_delay&quot;:310,&quot;update_href&quot;:0,&quot;facet&quot;:1,&quot;type&quot;:1,&quot;click&quot;:&quot;first_result&quot;,&quot;click_location&quot;:&quot;same&quot;,&quot;return&quot;:&quot;first_result&quot;,&quot;return_location&quot;:&quot;same&quot;,&quot;redirect_url&quot;:&quot;?s={phrase}&quot;,&quot;elementor_url&quot;:&quot;https:\/\/smallwarsjournal.com\/?asp_ls={phrase}&quot;,&quot;minWordLength&quot;:2,&quot;charcount_magnifier_enter&quot;:0,&quot;charcount&quot;:2},&quot;close_icon&quot;:{&quot;action&quot;:&quot;clear&quot;,&quot;close_results&quot;:true},&quot;wooShop&quot;:{&quot;useAjax&quot;:0,&quot;selector&quot;:&quot;#main&quot;,&quot;url&quot;:&quot;&quot;}}"></div><div class='asp_hidden_data' style="display:none !important;"><div class='asp_item_overlay'><div class='asp_item_inner'><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 512 512"><path d="M448.225 394.243l-85.387-85.385c16.55-26.08 26.146-56.986 26.146-90.094 0-92.99-75.652-168.64-168.643-168.64-92.988 0-168.64 75.65-168.64 168.64s75.65 168.64 168.64 168.64c31.466 0 60.94-8.67 86.176-23.734l86.14 86.142c36.755 36.754 92.355-18.783 55.57-55.57zm-344.233-175.48c0-64.155 52.192-116.35 116.35-116.35s116.353 52.194 116.353 116.35S284.5 335.117 220.342 335.117s-116.35-52.196-116.35-116.352zm34.463-30.26c34.057-78.9 148.668-69.75 170.248 12.863-43.482-51.037-119.984-56.532-170.248-12.862z"/></svg></div></div></div></div><div id='__original__ajaxsearchprores1_1' class='asp_w asp_r asp_r_1 asp_r_1_1 vertical ajaxsearchpro wpdreams_asp_sc wpdreams_asp_sc-1' data-id="1" data-instance="1"><div class="results"><div class="resdrg"></div></div><div class="asp_res_loader hiddend"><div class="asp_loader"><div class="asp_loader-inner asp_simple-circle"></div></div></div></div><div id='__original__ajaxsearchprosettings1_1' class="asp_w asp_ss asp_ss_1 asp_s asp_s_1 asp_s_1_1 wpdreams_asp_sc wpdreams_asp_sc-1 ajaxsearchpro searchsettings" data-id="1" data-instance="1"><form name='options' class="asp-fss-flex" aria-label="Search settings form" autocomplete = 'off'><input type="hidden" name="current_page_id" value="148015"><input type='hidden' name='qtranslate_lang' value='0'/><input type="hidden" name="filters_changed" value="0"><input type="hidden" name="filters_initial" value="1"><input type="hidden" name="device" value="1"><div style="clear:both;"></div></form></div></div>  </div>
+  <div id="headerSocial">
+      <a href="https://www.facebook.com/SmallWarsJournal" target="_blank"><i class="fa-brands fa-facebook"></i></a>      <a href="https://twitter.com/smallwars" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>      <a href="https://www.linkedin.com/company/small-wars-journal/" target="_blank"><i class="fab fa-linkedin"></i></a>      <a href="https://www.youtube.com/channel/UCzw0BahL7sCto6kR1dDDHdQ" target="_blank"><i class="fab fa-youtube"></i></a>    </div>
+
+</header>
+<main id="main">
+    <div class="container with-sidebar">
+        <div id="content">
+                                                        <div id="contentTopAd">
+                            <span class="adLabel">Advertisement</span>
+                            <div id="ads-slider" class="flexslider">
+    <ul class="slides">
+        <li>
+            <a target="_blank" href="https://interpopulum.org?utm_source=webpage&#038;utm_medium=Banner&#038;utm_campaign=interpop_25&#038;utm_id=SWJinterpopulum">        <img src="https://smallwarsjournal.com/wp-content/uploads/2024/12/Inter-Populum-Ad.png" width="1872" height="240" alt="Inter Populum Banner"/>        </a>        </li>
+        <li>
+            <a target="_blank" href="https://nationalsecurity.asu.edu/?utm_source=Banner&#038;utm_medium=ad&#038;utm_campaign=swj&#038;utm_id=SWJ+Free+Ad">        <img src="https://smallwarsjournal.com/wp-content/uploads/2026/02/ACNSI-728x90--scaled.png" width="2560" height="316" alt="ASU ACNSI Banner"/>        </a>        </li>
+        <li>
+            <a target="_blank" href="https://futuresecurity.asu.edu?utm_source=webpage&#038;utm_medium=Banner&#038;utm_campaign=FSI_25&#038;utm_id=FSIonSWJ">        <img src="https://smallwarsjournal.com/wp-content/uploads/2024/11/FSI-Banner-Rectangle.png" width="3034" height="375" alt="Future Security Initiative Banner"/>        </a>        </li>
+        <li>
+            <a target="_blank" href="https://sfs.georgetown.edu/ma-security-studies/?utm_source=SWJ+Ad&#038;utm_medium=banner&#038;utm_campaign=SWJ_Gtown+SFS+2025&#038;utm_id=SWJ+Sponsorship">        <img src="https://smallwarsjournal.com/wp-content/uploads/2025/10/728-x-90-SSP-v2-scaled.png" width="2560" height="317" alt="G Town Banner"/>        </a>        </li>
+        <li>
+            <a target="_blank" href="https://www.malibuwest.media?utm_source=SWJ+Ad&#038;utm_medium=banner&#038;utm_campaign=SWJ_Malibu+2025&#038;utm_id=SWJ+Sponsorship">        <img src="https://smallwarsjournal.com/wp-content/uploads/2025/09/728-x-90.jpg" width="1456" height="180" alt="Malibu West Sponsor"/>        </a>        </li>
+        </ul>
+    </div>                        </div>
+                                                        <div class="postBx">
+                <div class="postBxCategories">
+                    <a href="https://smallwarsjournal.com/category/the-discourse/" rel="category tag">The Discourse</a>                </div>
+                                                <div class="entry">
+                    <div class="postBxHead">
+                        <h1 class="postBxTitle">
+                            Pentagon Used Anthropic’s Claude in Maduro Venezuela Raid                        </h1>
+                        <div class="postBxMeta">
+                            <div class="postBxAuthors">
+                                <span class="swj-byline"><span class="swj-byline-prefix">By</span> <a href="https://smallwarsjournal.com/author/swj-staff/" rel="author" class="author url fn">SWJ Staff</a></span>                            </div>
+                            &nbsp; <span>|</span> &nbsp;
+                            <div class="postBxDate">
+                                02.17.2026 at 02:31pm                            </div>
+                        </div>
+                    </div>
+
+                                        <div class="featuredImgBx">
+                                                <div class="featuredImg"><img width="1050" height="700" src="https://smallwarsjournal.com/wp-content/uploads/2026/02/Claude-Safety-Claim-Maduro-Raid.jpg" class="attachment-full size-full" alt="Pentagon Used Anthropic’s Claude in Maduro Venezuela Raid Image" loading="eager" fetchpriority="high" decoding="async" srcset="https://smallwarsjournal.com/wp-content/uploads/2026/02/Claude-Safety-Claim-Maduro-Raid.jpg 1050w, https://smallwarsjournal.com/wp-content/uploads/2026/02/Claude-Safety-Claim-Maduro-Raid-300x200.jpg 300w, https://smallwarsjournal.com/wp-content/uploads/2026/02/Claude-Safety-Claim-Maduro-Raid-768x512.jpg 768w, https://smallwarsjournal.com/wp-content/uploads/2026/02/Claude-Safety-Claim-Maduro-Raid-600x400.jpg 600w" sizes="(max-width: 1050px) 100vw, 1050px" /></div>
+                                            </div>
+                    
+                    <div class="postBxContent">
+                        <div class="pf-content"><div class="printfriendly pf-button pf-button-content pf-alignleft">
+                    <a href="#" rel="nofollow" onclick="window.print(); pfTrackEvent(&#039;Pentagon Used Anthropic’s Claude in Maduro Venezuela Raid&#039;); return false;" title="Printer Friendly, PDF & Email">
+                    <img decoding="async" class="pf-button-img" src="https://cdn.printfriendly.com/buttons/printfriendly-pdf-email-button-md.png" alt="Print Friendly, PDF & Email" style="width: 194px;height: 30px;"  />
+                    </a>
+                </div><p>This <a href="https://www.wsj.com/politics/national-security/pentagon-used-anthropics-claude-in-maduro-venezuela-raid-583aff17?mod=hp_lead_pos2">Wall Street Journal report</a> investigates allegations that Anthropic’s AI model, Claude, was used in JSOC&#8217;s operation to capture former Venezuelan President Nicolás Maduro, revealing that frontier AI tools are rapidly gaining traction within the Pentagon. The mission reportedly included AI-enabled targeting that helped with bombing multiple sites in Caracas, even though Anthropic’s usage guidelines prohibit Claude from facilitating violence, developing weapons, or conducting surveillance.</p>
+<p>Anthropic said it “cannot comment” on any specific operation and stressed that any use must comply with its Usage Policies. The Defense Department also declined to comment. The deployment allegedly ran through Anthropic’s partnership with <a href="https://www.wsj.com/tech/ai/anthropic-ai-defense-department-contract-947d5f33?mod=article_inline">Palantir</a>. The WSJ report also discusses the tensions around Anthropic’s $200M Pentagon contract and a broader push for AI models that “won’t allow you to fight wars,” even as Anthropic’s CEO continues to call for stronger guardrails on lethal autonomy and domestic surveillance.</p>
+<p>Readers looking to understand what AI-enabled operations may mean for future conflict should also check out <a href="https://smallwarsjournal.com/2026/01/26/ai-reconfiguration-military-power/">Artificial Intelligence and a Reconfiguration of Military Power</a>, as well as <a href="https://smallwarsjournal.com/2026/02/09/accelerating-military-decision/">Accelerating Decision-Making: Integrating Artificial Intelligence into the Modern Wargame</a> in Small Wars Journal. Together, they help contextualize how the Maduro raid unfolded reflects a broader shift toward AI-enabled decision superiority, foreshadowing the emergence of AI-assisted decapitation strikes as a feature of future warfare.</p>
+</div>                    </div>
+
+                    
+                    <div class="postTags">
+                        Tags: <a href="https://smallwarsjournal.com/tag/ai-governance/" rel="tag">AI governance</a>, <a href="https://smallwarsjournal.com/tag/anthropic/" rel="tag">Anthropic</a>, <a href="https://smallwarsjournal.com/tag/artificial-intelligence-ai/" rel="tag">Artificial Intelligence (AI)</a>, <a href="https://smallwarsjournal.com/tag/decapitation-strike/" rel="tag">decapitation Strike</a>, <a href="https://smallwarsjournal.com/tag/palantir/" rel="tag">Palantir</a>, <a href="https://smallwarsjournal.com/tag/venezuela/" rel="tag">Venezuela</a>                    </div>
+
+                </div>
+                                            </div>
+            <div class="authorboxes">
+                
+                
+                    <!--begin code -->
+
+                    
+                    <div class="pp-multiple-authors-boxes-wrapper pp-multiple-authors-wrapper pp-multiple-authors-layout-boxed multiple-authors-target-shortcode box-post-id-53 box-instance-id-1 ppma_boxes_53"
+                    data-post_id="53"
+                    data-instance_id="1"
+                    data-additional_class="pp-multiple-authors-layout-boxed.multiple-authors-target-shortcode"
+                    data-original_class="pp-multiple-authors-boxes-wrapper pp-multiple-authors-wrapper box-post-id-53 box-instance-id-1">
+                                                                                    <h3 class="widget-title box-header-title">About The Author</h3>
+                                                                            <span class="ppma-layout-prefix"></span>
+                        <div class="ppma-author-category-wrap">
+                                                                                                                                    <span class="ppma-category-group ppma-category-group-1 category-index-0">
+                                                                                                                        <ul class="pp-multiple-authors-boxes-ul author-ul-0">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                                                                                                                    <li class="pp-multiple-authors-boxes-li author_index_0 author_swj-staff has-avatar">
+                                                                                                                                                                                    <div class="pp-author-boxes-avatar">
+                                                                    <div class="avatar-image">
+                                                                                                                                                                                                                <img alt='' src='https://smallwarsjournal.com/wp-content/uploads/2024/08/logo_icon.svg' srcset='https://smallwarsjournal.com/wp-content/uploads/2024/08/logo_icon.svg' class='multiple_authors_guest_author_avatar avatar' height='80' width='80'/>                                                                                                                                                                                                            </div>
+                                                                                                                                    </div>
+                                                            
+                                                            <div class="pp-author-boxes-avatar-details">
+                                                                <div class="pp-author-boxes-name multiple-authors-name"><a href="https://smallwarsjournal.com/author/swj-staff/" rel="author" title="SWJ Staff" class="author url fn">SWJ Staff</a></div>                                                                                                                                                                                                    
+                                                                                                                                            <div class="pp-author-boxes-description multiple-authors-description author-description-0">
+                                                                                                                                                    <p>SWJ Staff searches the internet daily for articles and posts that we think are of great interests to our readers.</p>
+                                                                                                                                                </div>
+                                                                                                                                                                                                    
+                                                                                                                                    <span class="pp-author-boxes-meta multiple-authors-links">
+                                                                        <a href="https://smallwarsjournal.com/author/swj-staff/" title="View all posts">
+                                                                            <span>View all posts</span>
+                                                                        </a>
+                                                                    </span>
+                                                                                                                                <a class="ppma-author-user_email-profile-data ppma-author-field-meta ppma-author-field-type-email" aria-label="Email" href="/cdn-cgi/l/email-protection#b4dfd3d8d1ddd9d5daf4d3d9d5ddd89ad7dbd9" target="_self"><span class="dashicons dashicons-email-alt"></span> </a>
+                                                                                                                            </div>
+                                                                                                                                                                                                                        </li>
+                                                                                                                                                                                                                                                                                        </ul>
+                                                                            </span>
+                                                                                                                        </div>
+                        <span class="ppma-layout-suffix"></span>
+                                            </div>
+                    <!--end code -->
+                    
+                
+                            
+                    </div>
+            <div id="article-discussion">
+                <h2>Article Discussion:</h2>
+                                  <div class="wpdiscuz_top_clearing"></div>
+    <div id='comments' class='comments-area'><div id='respond' style='width: 0;height: 0;clear: both;margin: 0;padding: 0;'></div><div id='wpd-post-rating' class='wpd-post-rating wpd-not-rated' data-post-id='148015' data-rate-editable='0'>
+            <div class='wpd-rating-wrap'>
+            <div class='wpd-rating-left'></div>
+            <div class='wpd-rating-data'>
+                <div class='wpd-rating-value'>
+                    <span class='wpdrv'>0</span>
+                    <span class='wpdrc'>0</span>
+                    <span class='wpdrt'>votes</span></div>
+                <div class='wpd-rating-title'>Article Rating</div>
+                <div class='wpd-rating-stars'><svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M0 0h24v24H0z' fill='none'/><path class='wpd-star' d='M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z'/><path d='M0 0h24v24H0z' fill='none'/></svg><svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M0 0h24v24H0z' fill='none'/><path class='wpd-star' d='M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z'/><path d='M0 0h24v24H0z' fill='none'/></svg><svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M0 0h24v24H0z' fill='none'/><path class='wpd-star' d='M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z'/><path d='M0 0h24v24H0z' fill='none'/></svg><svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M0 0h24v24H0z' fill='none'/><path class='wpd-star' d='M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z'/><path d='M0 0h24v24H0z' fill='none'/></svg><svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M0 0h24v24H0z' fill='none'/><path class='wpd-star' d='M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z'/><path d='M0 0h24v24H0z' fill='none'/></svg></div><div class='wpd-rate-starts'><svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M0 0h24v24H0z' fill='none'/><path class='wpd-star' d='M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z'/><path d='M0 0h24v24H0z' fill='none'/></svg><svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M0 0h24v24H0z' fill='none'/><path class='wpd-star' d='M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z'/><path d='M0 0h24v24H0z' fill='none'/></svg><svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M0 0h24v24H0z' fill='none'/><path class='wpd-star' d='M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z'/><path d='M0 0h24v24H0z' fill='none'/></svg><svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M0 0h24v24H0z' fill='none'/><path class='wpd-star' d='M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z'/><path d='M0 0h24v24H0z' fill='none'/></svg><svg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M0 0h24v24H0z' fill='none'/><path class='wpd-star' d='M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z'/><path d='M0 0h24v24H0z' fill='none'/></svg></div></div>
+            <div class='wpd-rating-right'></div></div></div>    <div id="wpdcom" class="wpdiscuz_unauth wpd-default wpd-layout-2 wpd-comments-open">
+                    <div class="wc_social_plugin_wrapper">
+                            </div>
+            <div class="wpd-form-wrap">
+                <div class="wpd-form-head">
+                                            <div class="wpd-sbs-toggle">
+                            <i class="far fa-envelope"></i> <span
+                                class="wpd-sbs-title">Subscribe</span>
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                                            <div class="wpd-auth">
+                                                <div class="wpd-login">
+                            <a rel="nofollow" href="https://smallwarsjournal.com/wp-login.php?redirect_to=https%3A%2F%2Fsmallwarsjournal.com%2F2026%2F02%2F17%2Fai-enabled-decapitation-strike-maduro-raid%2F"><i class='fas fa-sign-in-alt'></i> Login</a>                        </div>
+                    </div>
+                </div>
+                                                    <div class="wpdiscuz-subscribe-bar wpdiscuz-hidden">
+                                                    <form action="https://smallwarsjournal.com/wp-admin/admin-ajax.php?action=wpdAddSubscription"
+                                  method="post" id="wpdiscuz-subscribe-form">
+                                <div class="wpdiscuz-subscribe-form-intro">Notify of </div>
+                                <div class="wpdiscuz-subscribe-form-option"
+                                     style="width:40%;">
+                                    <select class="wpdiscuz_select" name="wpdiscuzSubscriptionType">
+                                                                                    <option value="post">new follow-up comments</option>
+                                                                                                                                <option
+                                                value="all_comment" >new replies to my comments</option>
+                                                                                </select>
+                                </div>
+                                                                    <div class="wpdiscuz-item wpdiscuz-subscribe-form-email">
+                                        <input class="email" type="email" name="wpdiscuzSubscriptionEmail"
+                                               required="required" value=""
+                                               placeholder="Email"/>
+                                    </div>
+                                                                    <div class="wpdiscuz-subscribe-form-button">
+                                    <input id="wpdiscuz_subscription_button" class="wpd-prim-button wpd_not_clicked"
+                                           type="submit"
+                                           value="&rsaquo;"
+                                           name="wpdiscuz_subscription_button"/>
+                                </div>
+                                <input type="hidden" id="wpdiscuz_subscribe_form_nonce" name="wpdiscuz_subscribe_form_nonce" value="4749e224d7" /><input type="hidden" name="_wp_http_referer" value="/2026/02/17/ai-enabled-decapitation-strike-maduro-raid/" />                            </form>
+                                                </div>
+                            <div
+            class="wpd-form wpd-form-wrapper wpd-main-form-wrapper" id='wpd-main-form-wrapper-0_0'>
+                                </div>
+                <div id="wpdiscuz_hidden_secondary_form" style="display: none;">
+                    <div
+            class="wpd-form wpd-form-wrapper wpd-secondary-form-wrapper" id='wpd-secondary-form-wrapper-wpdiscuzuniqueid' style='display: none;'>
+                            <div class="wpd-secondary-forms-social-content"></div>
+                <div class="clearfix"></div>
+                                </div>
+                </div>
+                            <div class="wpd-login-to-comment">Please login to comment</div>
+                                </div>
+                        <div id="wpd-threads" class="wpd-thread-wrapper">
+                <div class="wpd-thread-head">
+                    <div class="wpd-thread-info "
+                         data-comments-count="0">
+                        <span class='wpdtc' title='0'>0</span> Comments                    </div>
+                                        <div class="wpd-space"></div>
+                    <div class="wpd-thread-filter">
+                                                    <div class="wpd-filter wpdf-reacted wpd_not_clicked wpdiscuz-hidden" data-filter-type="most_reacted"
+                                 wpd-tooltip="Most reacted comment">
+                                <i class="fas fa-bolt"></i></div>
+                                                        <div class="wpd-filter wpdf-hottest wpd_not_clicked wpdiscuz-hidden" data-filter-type="hottest_thread"
+                                 wpd-tooltip="Hottest comment thread">
+                                <i class="fas fa-fire"></i></div>
+                                                        <div class="wpd-filter wpdf-sorting wpdiscuz-hidden">
+                                                                        <span class="wpdiscuz-sort-button wpdiscuz-date-sort-asc wpdiscuz-sort-button-active"
+                                              data-sorting="oldest">Oldest</span>
+                                                                        <i class="fas fa-sort-down"></i>
+                                <div class="wpdiscuz-sort-buttons">
+                                                                            <span class="wpdiscuz-sort-button wpdiscuz-date-sort-desc"
+                                              data-sorting="newest">Newest</span>
+                                                                                <span class="wpdiscuz-sort-button wpdiscuz-vote-sort-up"
+                                              data-sorting="by_vote">Most Voted</span>
+                                                                        </div>
+                            </div>
+                                                </div>
+                    <div class="wpd-filter-container wpdiscuz-hidden"></div>
+                </div>
+                                <div class="wpd-thread-list">
+                                        <div class="wpdiscuz-comment-pagination">
+                                            </div>
+                </div>
+            </div>
+                </div>
+        </div>
+    <div id="wpdiscuz-loading-bar"
+         class="wpdiscuz-loading-bar-unauth"></div>
+    <div id="wpdiscuz-comment-message"
+         class="wpdiscuz-comment-message-unauth"></div>
+    
+              <div id="discussion-signup">
+                    <div class="discussion-signup-logo"><img alt="Small Wars Journal by Arizona State University"
+                            src="https://smallwarsjournal.com/wp-content/themes/swj/images/logo_icon.svg" /></div>
+                    <div class="discussion-signup-meta">
+                        <h3>Become a Member To Engage!</h3>
+                        <p>Unlock exclusive members-only ad-free content, members discussion, content, and updates directly from the SWJ Team, for only <strong>$10/yr</strong>.</p>
+                        <div class="rowLinks"><a href="https://smallwarsjournal.com/register/swj-member/" target="_blank" class="button">SIGN ME UP →</a> <a href="https://smallwarsjournal.com/swj-membership/" class="rowLink">or Learn More</a></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="sidebar">
+    <div id="widgetArea">
+    <div id="block-9" class="widget-container widget_block"><div class="widgetBx cta-widget">
+<div class="logo-widget"><img decoding="async" src="https://smallwarsjournal.com/wp-content/uploads/2024/08/logo_icon.svg"/></div>
+<h3>Become a Member for Exclusive Access!</h3>
+<p class="font17">Unlock exclusive members-only ad-free content, members discussion, content, and updates directly from the SWJ Team, for only <strong>$10/yr</strong>.</p>
+<div class="text-center">
+<p><a href="https://smallwarsjournal.com/register/swj-member/" target="_blank" class="button">SIGN ME UP ￫</a></p>
+<a class="rowLink" href="https://smallwarsjournal.com/swj-membership/"><strong>or Learn More</strong></a>
+</div>
+</div></div><div id="block-7" class="widget-container widget_block">
+                <div class='gf_browser_chrome gform_wrapper gravity-theme gform-theme--no-framework' data-form-theme='gravity-theme' data-form-index='0' id='gform_wrapper_1' ><div id='gf_1' class='gform_anchor' tabindex='-1'></div>
+                        <div class='gform_heading'>
+                            <h2 class="gform_title">Sign Up For Updates</h2>
+                            <p class='gform_description'></p>
+							<p class='gform_required_legend'>&quot;<span class="gfield_required gfield_required_asterisk">*</span>&quot; indicates required fields</p>
+                        </div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_1' id='gform_1'  action='/2026/02/17/ai-enabled-decapitation-strike-maduro-raid/#gf_1' data-formid='1' novalidate>
+                        <div class='gform-body gform_body'><div id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below validation_below'><div id="field_1_5" class="gfield gfield--type-honeypot gform_validation_container field_sublabel_below gfield--has-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_5'><span class='gform-field-label__text'>Phone</span></label><div class='ginput_container'><input name='input_5' id='input_1_5' type='text' value='' autocomplete='new-password'/></div><div class='gfield_description' id='gfield_description_1_5'>This field is for validation purposes and should be left unchanged.</div></div><div id="field_1_1" class="gfield gfield--type-text fullwidth signup_name gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_1'><span class='gform-field-label__text'>First Name</span><span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_1' id='input_1_1' type='text' value='' class='large'   tabindex='100000'  aria-required="true" aria-invalid="false"   /></div></div><div id="field_1_3" class="gfield gfield--type-email fullwidth signup_email gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_3'><span class='gform-field-label__text'>Email Address</span><span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_3' id='input_1_3' type='email' value='' class='large' tabindex='100001'   aria-required="true" aria-invalid="false"  />
+                        </div></div><div id="field_1_4" class="gfield gfield--type-phone gfield--phone-format-international fullwidth signup_phone field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_4'><span class='gform-field-label__text'>Mobile Number</span></label><div class='ginput_container ginput_container_phone'><input name='input_4' id='input_1_4' type='tel' value='' class='large' tabindex='100002'   aria-invalid="false"    /></div></div></div></div>
+        <div class='gform-footer gform_footer top_label'> <button type='submit' id='gform_submit_button_1' class='gform_button button gform-button--width-full' onclick='gform.submission.handleButtonClick(this);' data-submission-type='submit' tabindex='100003'>SIGN ME UP ￫</button> <input type='hidden' name='gform_ajax' value='form_id=1&amp;title=1&amp;description=1&amp;tabindex=100000&amp;theme=gravity-theme&amp;styles={&quot;inputPrimaryColor&quot;:&quot;#204ce5&quot;}&amp;hash=7fc7eeea78400fe8f188ade383e2f3ec' />
+            <input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_1' value='iframe' />
+            <input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_1' id='gform_theme_1' value='gravity-theme' />
+            <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_1' id='gform_style_settings_1' value='{&quot;inputPrimaryColor&quot;:&quot;#204ce5&quot;}' />
+            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_currency' data-currency='USD' value='0o3Gg9+zextvF84HPRbbrw7tj2+JRNKi6tEDrqxXJNsmzja/XgBHiqkjBo6FKOolj0hNb6NgoQ3ihNoYGrnGNOoWMsBZr9Ibz5aNuVYFFQ/ZKIQ=' />
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_1' value='WyJ7XCJnZm9ybV9zdWJtaXNzaW9uX21ldGhvZFwiOltcIjI2ODg2NmVmMjQ4MTllZmQwZTdjNzQ1MTlkYTY1NjBlXCIsXCI0ZWZlMTc0M2JjM2I1YWMxODJmOGZlY2ZmYzg1MGEyM1wiLFwiZjRkMTNiNWIyYzcwOTkyZGE3NjljNjRkNWY5NDdlMDFcIl0sXCJnZm9ybV90aGVtZVwiOlwiNGI2OTdjZTE2MjI5N2ViNGQ1YTc4NmFhNDRhMGNmZWZcIixcImdmb3JtX3N0eWxlX3NldHRpbmdzXCI6XCJkYWY5NmE2OTY1ZjRiNDdiZTExNWY1MDFkM2JlYTc0NlwiLFwiZm9ybV9pZFwiOlwiNzEyZjgwYmRkNzQ2N2E5YzI3NWIxZGUzNzAxOWI5NzBcIixcInVybFwiOlwiMzhiMDEyMjEzNDRmNzQ2ZGQ2ZTJkNDRlM2JiNmQzMGJcIixcInN0YXRlX3RpbWVzdGFtcFwiOlwiMzA3ODdhMmNhNzU5MDI2NjkxNzE4MGFjNThiOTY2N2JcIn0iLCI4ZTgyMmIxY2NhMWYxZWU2NGYwZGEzYWY2MTY3NThkNyIsMTc5MDc3MTk0Ml0=' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>
+		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_1' id='gform_ajax_frame_1' title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
+		                <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+gform.initializeOnLoaded( function() {jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_1').offset().top - mt); }, 50 );var current_page = jQuery('#gform_source_page_number_1').val();jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_1').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_1').text());}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 1, current_page );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} );
+</script>
+</div><div id="block-8" class="widget-container widget_block"><div class='yarpp yarpp-related yarpp-related-widget yarpp-template-yarpp-template-list'>
+
+
+<h3>Related Content </h3>
+<div class="widgetBx">
+<ol>
+        <li>
+        <a href="https://smallwarsjournal.com/2026/01/26/ai-reconfiguration-military-power/">Artificial Intelligence and a Reconfiguration of Military Power</a>
+		<div class="postBxMeta">
+                <div class="postBxAuthors">
+                    <span class="swj-byline"><span class="swj-byline-prefix">By</span> <a href="https://smallwarsjournal.com/author/swj-staff/" rel="author" class="author url fn">SWJ Staff</a></span>                </div> <span>|</span> <div class="postBxDate">
+                    01.26.2026 at 02:57pm                </div>
+            </div>
+    </li>
+        <li>
+        <a href="https://smallwarsjournal.com/2026/02/03/moltbook-networked-ai-agents-risks/">Moltbook and the Rise of Networked AI Agents | Video Reports</a>
+		<div class="postBxMeta">
+                <div class="postBxAuthors">
+                    <span class="swj-byline"><span class="swj-byline-prefix">By</span> <a href="https://smallwarsjournal.com/author/swj-staff/" rel="author" class="author url fn">SWJ Staff</a></span>                </div> <span>|</span> <div class="postBxDate">
+                    02.03.2026 at 08:25pm                </div>
+            </div>
+    </li>
+        <li>
+        <a href="https://smallwarsjournal.com/2024/09/03/the-problem-of-algorithmic-bias-in-ai-based-military-decision-support-systems/">The problem of algorithmic bias in AI-based military decision support systems</a>
+		<div class="postBxMeta">
+                <div class="postBxAuthors">
+                    <span class="swj-byline"><span class="swj-byline-prefix">By</span> <a href="https://smallwarsjournal.com/author/swj-staff/" rel="author" class="author url fn">SWJ Staff</a></span>                </div> <span>|</span> <div class="postBxDate">
+                    09.03.2024 at 08:12pm                </div>
+            </div>
+    </li>
+    </ol>
+</div>
+</div>
+</div>  </div>
+  </div>
+<div class="clear"></div>    </div>
+</main>
+
+<footer id="footer">
+    <div class="container">
+
+        <div id="footerLeft">
+            <div id="footerLogo"> <a href="https://smallwarsjournal.com"><img alt="Small Wars Journal by Arizona State University"
+                        src="https://smallwarsjournal.com/wp-content/themes/swj/images/logo_footer.svg" /></a> </div>
+                        <div id="footerASUlogo"><img alt="Small Wars Journal by Arizona State University" src="https://smallwarsjournal.com/wp-content/themes/swj/images/ASU_Media_Enterprise.png" /></div>
+            <div id="footerSocial">
+                <span>Find us on social</span>
+                <a href="https://www.facebook.com/SmallWarsJournal" target="_blank"><i class="fa-brands fa-facebook"></i></a>                <a href="https://twitter.com/smallwars" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>                <a href="https://www.linkedin.com/company/small-wars-journal/" target="_blank"><i class="fab fa-linkedin"></i></a>                <a href="https://www.youtube.com/channel/UCzw0BahL7sCto6kR1dDDHdQ" target="_blank"><i class="fab fa-youtube"></i></a>                            </div>
+            <div id="footer-member-links">
+                            <a href="https://smallwarsjournal.com/login" class="loginbtn"><i class="fa-solid fa-lock"></i> Member Login</a>
+                <a href="https://smallwarsjournal.com/register/swj-member/" class="signupbtn">Become a Member</a>
+                        </div>
+        </div>
+
+        <div id="footerRight">
+                    <div id="nav_menu-2" class="footer-nav widget_nav_menu"><div class="menu-footer-menu-1-container"><ul id="menu-footer-menu-1" class="menu"><li id="menu-item-56" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-56"><a href="https://smallwarsjournal.com/">Home</a></li>
+<li id="menu-item-154058" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-154058"><a href="https://smallwarsjournal.com/donate/">Donate</a></li>
+<li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a href="https://smallwarsjournal.com/about/">About</a></li>
+<li id="menu-item-58" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a href="https://smallwarsjournal.com/authors/">Authors</a></li>
+<li id="menu-item-59" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59"><a href="#">Contact</a></li>
+<li id="menu-item-60" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-60"><a href="#">Membership</a></li>
+<li id="menu-item-153859" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-153859"><a href="https://smallwarsjournal.com/topics/">Topics</a></li>
+<li id="menu-item-153860" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-153860"><a href="https://smallwarsjournal.com/swj-archive/">SWJ Archive</a></li>
+</ul></div></div><div id="nav_menu-3" class="footer-nav widget_nav_menu"><div class="menu-footer-menu-2-container"><ul id="menu-footer-menu-2" class="menu"><li id="menu-item-62" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-62"><a href="#">Categories<i></i></a>
+<ul class="sub-menu">
+	<li id="menu-item-140196" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-140196"><a href="https://smallwarsjournal.com/category/el-centro/">El Centro</a></li>
+	<li id="menu-item-142354" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-142354"><a href="https://smallwarsjournal.com/category/retrospective/">Retrospective</a></li>
+	<li id="menu-item-140193" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-140193"><a href="https://smallwarsjournal.com/category/essay/">Essay</a></li>
+	<li id="menu-item-140195" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-140195"><a href="https://smallwarsjournal.com/category/opinion-perspective/">Opinion / Perspective</a></li>
+	<li id="menu-item-140197" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-140197"><a href="https://smallwarsjournal.com/category/interview/">Interview</a></li>
+	<li id="menu-item-140198" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-140198"><a href="https://smallwarsjournal.com/category/guest-authored/">Guest Authored</a></li>
+	<li id="menu-item-140199" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-140199"><a href="https://smallwarsjournal.com/category/the-discourse/">The Discourse</a></li>
+	<li id="menu-item-140200" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-140200"><a href="https://smallwarsjournal.com/category/policy-paper/">Policy Paper</a></li>
+	<li id="menu-item-140201" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-140201"><a href="https://smallwarsjournal.com/category/peer-reviewed/">Peer-Reviewed</a></li>
+	<li id="menu-item-140202" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-140202"><a href="https://smallwarsjournal.com/category/field-report/">Field Report</a></li>
+	<li id="menu-item-140203" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-140203"><a href="https://smallwarsjournal.com/category/book-reviews/">Book Review Desk</a></li>
+	<li id="menu-item-140206" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-140206"><a href="https://smallwarsjournal.com/category/fiction/">Fiction</a></li>
+	<li id="menu-item-140207" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-140207"><a href="https://smallwarsjournal.com/category/news-and-announcements/">News and Announcements</a></li>
+	<li id="menu-item-140208" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-140208"><a href="https://smallwarsjournal.com/category/blogs/">Blogs</a></li>
+</ul>
+</li>
+</ul></div></div><div id="nav_menu-4" class="footer-nav widget_nav_menu"><div class="menu-footer-menu-3-container"><ul id="menu-footer-menu-3" class="menu"><li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-69"><a href="https://smallwarsjournal.com/locations/">Locations<i></i></a>
+<ul class="sub-menu">
+	<li id="menu-item-271" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-271"><a href="https://smallwarsjournal.com/location/africa/">Africa</a></li>
+	<li id="menu-item-272" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-272"><a href="https://smallwarsjournal.com/location/europe/">Europe</a></li>
+	<li id="menu-item-273" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-273"><a href="https://smallwarsjournal.com/location/greater-middle-east/">Greater Middle East</a></li>
+	<li id="menu-item-274" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-274"><a href="https://smallwarsjournal.com/location/indo-pacific/">Indo-Pacific</a></li>
+	<li id="menu-item-275" class="menu-item menu-item-type-taxonomy menu-item-object-locations menu-item-275"><a href="https://smallwarsjournal.com/location/latin-america/">Latin America</a></li>
+	<li id="menu-item-276" class="menu-item menu-item-type-taxonomy menu-item-object-locations current-post-ancestor menu-item-276"><a href="https://smallwarsjournal.com/location/north-america/">North America</a></li>
+</ul>
+</li>
+</ul></div></div>                </div>
+
+        <div id="footerBot">
+            <div id="copyright">Copyright &copy; 2024 Arizona Board of Regents - All Rights Reserved<br>
+            <a href="https://smallwarsjournal.com/privacy-policy/">Privacy Policy</a> |  <a
+                    href="">Terms and Conditions</a></div>
+        </div>
+
+    </div>
+</footer>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/swj/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+		<div class='asp_hidden_data' id="asp_hidden_data" style="display: none !important;">
+			<svg style="position:absolute" height="0" width="0">
+				<filter id="aspblur">
+					<feGaussianBlur in="SourceGraphic" stdDeviation="4"/>
+				</filter>
+			</svg>
+			<svg style="position:absolute" height="0" width="0">
+				<filter id="no_aspblur"></filter>
+			</svg>
+		</div>
+		<span id='wpdUserContentInfoAnchor' style='display:none;' rel='#wpdUserContentInfo' data-wpd-lity>wpDiscuz</span><div id='wpdUserContentInfo' style='overflow:auto;background:#FDFDF6;padding:20px;width:760px;max-width:100%;border-radius:6px;' class='lity-hide'></div><div id='wpd-editor-source-code-wrapper-bg'></div><div id='wpd-editor-source-code-wrapper'><textarea id='wpd-editor-source-code'></textarea><button id='wpd-insert-source-code'>Insert</button><input type='hidden' id='wpd-editor-uid' /></div><style id="mutliple-author-box-inline-style">.pp-multiple-authors-boxes-wrapper.pp-multiple-authors-layout-boxed.multiple-authors-target-shortcode .pp-author-boxes-avatar img { 
+        width: 80px !important; 
+        height: 80px !important; 
+    }
+
+    .pp-multiple-authors-boxes-wrapper.pp-multiple-authors-layout-boxed.multiple-authors-target-shortcode .pp-author-boxes-avatar img {
+        border-style: none !important; 
+    }
+
+    .pp-multiple-authors-boxes-wrapper.pp-multiple-authors-layout-boxed.multiple-authors-target-shortcode .pp-author-boxes-avatar img {
+        border-radius: 50% !important; 
+    }
+
+    .pp-multiple-authors-boxes-wrapper.pp-multiple-authors-layout-boxed.multiple-authors-target-shortcode .pp-author-boxes-meta a {
+        background-color: #655997 !important; 
+    }
+
+    .pp-multiple-authors-boxes-wrapper.pp-multiple-authors-layout-boxed.multiple-authors-target-shortcode .pp-author-boxes-meta a {
+        color: #ffffff !important; 
+    }
+
+    .pp-multiple-authors-boxes-wrapper.pp-multiple-authors-layout-boxed.multiple-authors-target-shortcode .pp-author-boxes-meta a:hover {
+        color: #ffffff !important; 
+    }
+
+    .pp-multiple-authors-boxes-wrapper.pp-multiple-authors-layout-boxed.multiple-authors-target-shortcode .ppma-author-user_email-profile-data {
+        background-color: #655997 !important; 
+    }
+
+    .pp-multiple-authors-boxes-wrapper.pp-multiple-authors-layout-boxed.multiple-authors-target-shortcode .ppma-author-user_email-profile-data {
+        border-radius: 100% !important; 
+    }
+
+    .pp-multiple-authors-boxes-wrapper.pp-multiple-authors-layout-boxed.multiple-authors-target-shortcode .ppma-author-user_email-profile-data {
+        color: #ffffff !important; 
+    }
+
+    .pp-multiple-authors-boxes-wrapper.pp-multiple-authors-layout-boxed.multiple-authors-target-shortcode .ppma-author-user_email-profile-data:hover {
+        color: #ffffff !important; 
+    }
+
+    .pp-multiple-authors-boxes-wrapper.pp-multiple-authors-layout-boxed.multiple-authors-target-shortcode .ppma-author-user_url-profile-data {
+        background-color: #655997 !important; 
+    }
+
+    .pp-multiple-authors-boxes-wrapper.pp-multiple-authors-layout-boxed.multiple-authors-target-shortcode .ppma-author-user_url-profile-data {
+        border-radius: 100% !important; 
+    }
+
+    .pp-multiple-authors-boxes-wrapper.pp-multiple-authors-layout-boxed.multiple-authors-target-shortcode .ppma-author-user_url-profile-data {
+        color: #ffffff !important; 
+    }
+
+    .pp-multiple-authors-boxes-wrapper.pp-multiple-authors-layout-boxed.multiple-authors-target-shortcode .ppma-author-user_url-profile-data:hover {
+        color: #ffffff !important; 
+    }
+
+    .pp-multiple-authors-boxes-wrapper.pp-multiple-authors-layout-boxed.multiple-authors-target-shortcode .pp-author-boxes-recent-posts-title {
+        border-bottom-style: dotted !important; 
+    }
+
+    .pp-multiple-authors-boxes-wrapper.pp-multiple-authors-layout-boxed.multiple-authors-target-shortcode .pp-multiple-authors-boxes-li {
+        border-style: solid !important; 
+    }
+
+    .pp-multiple-authors-boxes-wrapper.pp-multiple-authors-layout-boxed.multiple-authors-target-shortcode .pp-multiple-authors-boxes-li {
+        border-width: 1px !important; 
+    }
+
+    .pp-multiple-authors-boxes-wrapper.pp-multiple-authors-layout-boxed.multiple-authors-target-shortcode .pp-multiple-authors-boxes-li {
+        border-color: #999 !important; 
+    }
+
+    .pp-multiple-authors-boxes-wrapper.pp-multiple-authors-layout-boxed.multiple-authors-target-shortcode .pp-multiple-authors-boxes-li {
+        color: #3c434a !important; 
+    }
+
+</style>     <script type="text/javascript" id="pf_script">
+            
+					function pfTrackEvent(title) {
+						
+                        if(typeof(_gaq) === 'function') {
+                            _gaq.push(['_trackEvent','PRINTFRIENDLY', 'print', title]);
+                        }else if(typeof(ga) === 'function') {
+                            ga('send', 'event','PRINTFRIENDLY', 'print', title);
+                        }else if(typeof(gtag) === 'function') {
+                            gtag('event', 'printfriendly_button_click', {'event_category': 'printfriendly', 'event_label': title})
+                        }else if(typeof(dataLayer) === 'object') {
+                            dataLayer.push({
+                                'event': 'printfriendly_button_click',
+                                'pageTitle': title
+                            })
+                        }
+					
+					}
+				          var pfHeaderImgUrl = '';
+          var pfHeaderTagline = '';
+          var pfdisableClickToDel = '0';
+          var pfImagesSize = 'full-size';
+          var pfImageDisplayStyle = 'block';
+          var pfEncodeImages = '0';
+          var pfShowHiddenContent  = '0';
+          var pfDisableEmail = '0';
+          var pfDisablePDF = '0';
+          var pfDisablePrint = '0';
+
+            
+          var pfPlatform = 'WordPress';
+
+        (function($){
+            $(document).ready(function(){
+                if($('.pf-button-content').length === 0){
+                    $('style#pf-excerpt-styles').remove();
+                }
+            });
+        })(jQuery);
+        </script>
+            
+            <script async data-wp-strategy="async" fetchpriority="low" id="comment-reply-js" src="https://smallwarsjournal.com/wp-includes/js/comment-reply.min.js?ver=5599175e20aaa1a1316494b179b26fc9"></script>
+<script id="aos-js" src="https://unpkg.com/aos@2.3.1/dist/aos.js?ver=2.3.1"></script>
+<script id="aos-js-after">
+AOS.init({easing: 'ease-out-cubic', duration: 1500, mirror: false, once: true});
+//# sourceURL=aos-js-after
+</script>
+<script id="wpdiscuz-combo-js-js-extra">
+var wpdiscuzAjaxObj = {"wc_hide_replies_text":"Hide Replies","wc_show_replies_text":"View Replies","wc_msg_required_fields":"Please fill out required fields","wc_msg_comment_is_trash":"Your comment was not published.","wc_msg_comment_is_spam":"Your comment was not published.","wc_invalid_field":"Some of field value is invalid","wc_error_empty_text":"please fill out this field to comment","wc_error_url_text":"url is invalid","wc_error_email_text":"email address is invalid","wc_invalid_captcha":"Invalid Captcha Code","wc_login_to_vote":"You Must Be Logged In To Vote","wc_deny_voting_from_same_ip":"You are not allowed to vote for this comment","wc_self_vote":"You cannot vote for your comment","wc_vote_only_one_time":"You've already voted for this comment","wc_voting_error":"Voting Error","wc_banned_user":"You are banned","wc_rate_limit_exceeded":"Too many requests. Please slow down.","wc_comment_edit_not_possible":"Sorry, this comment is no longer possible to edit","wc_comment_not_updated":"Sorry, the comment was not updated","wc_comment_not_edited":"You've not made any changes","wc_msg_input_min_length":"Input is too short","wc_msg_input_max_length":"Input is too long","wc_spoiler_title":"Spoiler Title","wc_cannot_rate_again":"You cannot rate again","wc_not_allowed_to_rate":"You're not allowed to rate here","wc_confirm_rate_edit":"Are you sure you want to edit your rate?","wc_follow_user":"Follow this user","wc_unfollow_user":"Unfollow this user","wc_follow_success":"You started following this comment author","wc_follow_canceled":"You stopped following this comment author.","wc_follow_email_confirm":"Please check your email and confirm the user following request.","wc_follow_email_confirm_fail":"Sorry, we couldn't send confirmation email.","wc_follow_login_to_follow":"Please login to follow users.","wc_follow_impossible":"We are sorry, but you can't follow this user.","wc_follow_not_added":"Following failed. Please try again later.","wc_inline_feedbacks":"Inline Feedbacks","wc_inline_comments_view_all":"View all comments","is_user_logged_in":"","commentListLoadType":"0","commentListUpdateType":"0","commentListUpdateTimer":"60","liveUpdateGuests":"0","wordpressThreadCommentsDepth":"5","wordpressIsPaginate":"","commentTextMaxLength":"0","replyTextMaxLength":"0","commentTextMinLength":"1","replyTextMinLength":"1","storeCommenterData":"100000","socialLoginAgreementCheckbox":"1","enableFbLogin":"0","fbUseOAuth2":"0","enableFbShare":"0","facebookAppID":"","facebookUseOAuth2":"0","enableGoogleLogin":"0","cookiehash":"50f82e83ccba44a33a10f252c0059c80","isLoadOnlyParentComments":"1","scrollToComment":"1","commentFormView":"collapsed","enableDropAnimation":"1","isNativeAjaxEnabled":"1","userInteractionCheck":"1","enableBubble":"0","bubbleLiveUpdate":"0","bubbleHintTimeout":"45","bubbleHintHideTimeout":"10","cookieHideBubbleHint":"wpdiscuz_hide_bubble_hint","bubbleHintShowOnce":"1","bubbleHintCookieExpires":"7","bubbleShowNewCommentMessage":"1","bubbleLocation":"content_left","firstLoadWithAjax":"0","wc_copied_to_clipboard":"Copied to clipboard!","inlineFeedbackAttractionType":"blink","antispamFieldPrefixes":["ak_","akismet_comment_nonce","la_sentinelle_"],"loadRichEditor":"1","wpDiscuzReCaptchaSK":"","wpDiscuzReCaptchaTheme":"light","wpDiscuzReCaptchaVersion":"2.0","wc_captcha_show_for_guest":"0","wc_captcha_show_for_members":"0","wpDiscuzIsShowOnSubscribeForm":"0","wmuEnabled":"1","wmuInput":"wmu_files","wmuMaxFileCount":"1","wmuMaxFileSize":"2097152","wmuPostMaxSize":"104857600","wmuIsLightbox":"1","wmuMimeTypes":{"jpg":"image/jpeg","jpeg":"image/jpeg","jpe":"image/jpeg","gif":"image/gif","png":"image/png","bmp":"image/bmp","tiff":"image/tiff","tif":"image/tiff","ico":"image/x-icon"},"wmuPhraseConfirmDelete":"Are you sure you want to delete this attachment?","wmuPhraseNotAllowedFile":"Not allowed file type","wmuPhraseMaxFileCount":"Maximum number of uploaded files is 1","wmuPhraseMaxFileSize":"Maximum upload file size is 2MB","wmuPhrasePostMaxSize":"Maximum post size is 100MB","wmuPhraseDoingUpload":"Uploading in progress! Please wait.","msgEmptyFile":"File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini.","msgPostIdNotExists":"Post ID not exists","msgUploadingNotAllowed":"Sorry, uploading not allowed for this post","msgPermissionDenied":"You do not have sufficient permissions to perform this action","wmuKeyImages":"images","wmuSingleImageWidth":"auto","wmuSingleImageHeight":"200","wmuIconVideo":"https://smallwarsjournal.com/wp-content/plugins/wpdiscuz/assets/img/file-icons/video-audio-type.png","wmuIconFile":"https://smallwarsjournal.com/wp-content/plugins/wpdiscuz/assets/img/file-icons/file-type.png","previewTemplate":"\u003Cdiv class=\"wmu-preview [PREVIEW_TYPE_CLASS]\" title=\"[PREVIEW_TITLE]\" data-wmu-type=\"[PREVIEW_TYPE]\" data-wmu-attachment=\"[PREVIEW_ID]\" data-wmu-index=\"[PREVIEW_INDEX]\"\u003E\r\n    \u003Cdiv class=\"wmu-preview-remove\"\u003E\r\n        \u003Cimg class=\"wmu-preview-img\" src=\"[PREVIEW_ICON]\"\u003E\r\n        \u003Cdiv class=\"wmu-file-name\"\u003E[PREVIEW_FILENAME]\u003C/div\u003E\r\n        \u003Cdiv class=\"wmu-preview-delete\" title=\"Delete\"\u003E\u2715\u003C/div\u003E\r\n        \u003Clabel class=\"wmu-preview-replace\" title=\"Replace\"\u003E\u21bb\u003Cinput type=\"file\" style=\"display:none\" class=\"wmu-replace-input\"\u003E\u003C/label\u003E\r\n    \u003C/div\u003E\r\n\u003C/div\u003E\r\n","isUserRated":"0","version":"7.6.71","wc_post_id":"148015","wc_blog_id":"1","isCookiesEnabled":"1","loadLastCommentId":"0","dataFilterCallbacks":[],"phraseFilters":[],"scrollSize":"32","url":"https://smallwarsjournal.com/wp-admin/admin-ajax.php","customAjaxUrl":"https://smallwarsjournal.com/wp-content/plugins/wpdiscuz/utils/ajax/wpdiscuz-ajax.php","bubbleUpdateUrl":"https://smallwarsjournal.com/wp-json/wpdiscuz/v1/update","restNonce":"1f5d4943b1","is_rate_editable":"0","menu_icon":"https://smallwarsjournal.com/wp-content/plugins/wpdiscuz/assets/img/plugin-icon/wpdiscuz-svg.svg","menu_icon_hover":"https://smallwarsjournal.com/wp-content/plugins/wpdiscuz/assets/img/plugin-icon/wpdiscuz-svg_hover.svg","nonceName":"wpdiscuz_nonce","postAttachmentsAsGallery":"","wmuPhraseNotAllowedFileType":"File type is not allowed","is_email_field_required":"1"};
+var wpdiscuzUCObj = {"msgConfirmDeleteComment":"Are you sure you want to delete this comment?","msgConfirmCancelSubscription":"Are you sure you want to cancel this subscription?","msgConfirmCancelFollow":"Are you sure you want to cancel this follow?","additionalTab":"0"};
+//# sourceURL=wpdiscuz-combo-js-js-extra
+</script>
+<script id="wpdiscuz-combo-js-js-before">
+var wpdiscuzEditorOptions = {
+        modules: {
+        toolbar: "",
+        counter: {
+        uniqueID: "",
+        commentmaxcount : 0,
+        replymaxcount : 0,
+        commentmincount : 1,
+        replymincount : 1,
+        },
+                },
+        wc_be_the_first_text: "Be the First to Comment!",
+        wc_comment_join_text: "Join the discussion",
+        theme: 'snow',
+        debug: 'error'
+        };
+        
+//# sourceURL=wpdiscuz-combo-js-js-before
+</script>
+<script id="wpdiscuz-combo-js-js" src="https://smallwarsjournal.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz-combo.min.js?ver=7.6.71"></script>
+<script id="wp-dom-ready-js" src="https://smallwarsjournal.com/wp-includes/js/dist/dom-ready.min.js?ver=3fe927cab37bf38d6a23"></script>
+<script id="wp-hooks-js" src="https://smallwarsjournal.com/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255"></script>
+<script id="wp-i18n-js" src="https://smallwarsjournal.com/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="wp-a11y-js" src="https://smallwarsjournal.com/wp-includes/js/dist/a11y.min.js?ver=31c6cec5a4ff7aff483d"></script>
+<script id="gform_json-js" defer='defer' src="https://smallwarsjournal.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=3.1.2"></script>
+<script id="gform_gravityforms-js-extra">
+var gform_i18n = {"datepicker":{"wdOffset":1,"helpTextShort":"Press F1 for help","helpText":"Press the arrow keys to navigate by day, PageUp and PageDown to navigate by month, Alt+PageUp and Alt+PageDown to navigate by year, or Escape to cancel.","openOnFocusHelpText":"Press Down arrow to browse the calendar, or Escape to close.","tooltipTxt":"Press Escape to cancel","disabledTxt":"Disabled","markedTxt":"Selected","prevTxt":"Previous","nextTxt":"Next","monthTxt":"Month","yearTxt":"Year","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"days":[{"s":"S","l":"Sunday"},{"s":"M","l":"Monday"},{"s":"T","l":"Tuesday"},{"s":"W","l":"Wednesday"},{"s":"T","l":"Thursday"},{"s":"F","l":"Friday"},{"s":"S","l":"Saturday"}]}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","file_uploaded":"File uploaded","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled","error":"Error","message":"Message"},"vars":{"images_url":"https://smallwarsjournal.com/wp-content/plugins/gravityforms/images"}};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https://smallwarsjournal.com/wp-content/plugins/gravityforms","number_formats":[],"version_hash":"38d04153de69329af7f751f7a21eccd9","countries":{"AF":"Afghanistan","AX":"\u00c5land Islands","AL":"Albania","DZ":"Algeria","AS":"American Samoa","AD":"Andorra","AO":"Angola","AI":"Anguilla","AQ":"Antarctica","AG":"Antigua and Barbuda","AR":"Argentina","AM":"Armenia","AW":"Aruba","AU":"Australia","AT":"Austria","AZ":"Azerbaijan","BS":"Bahamas","BH":"Bahrain","BD":"Bangladesh","BB":"Barbados","BY":"Belarus","BE":"Belgium","BZ":"Belize","BJ":"Benin","BM":"Bermuda","BT":"Bhutan","BO":"Bolivia","BQ":"Bonaire, Sint Eustatius and Saba","BA":"Bosnia and Herzegovina","BW":"Botswana","BV":"Bouvet Island","BR":"Brazil","IO":"British Indian Ocean Territory","BN":"Brunei Darussalam","BG":"Bulgaria","BF":"Burkina Faso","BI":"Burundi","CV":"Cabo Verde","KH":"Cambodia","CM":"Cameroon","CA":"Canada","KY":"Cayman Islands","CF":"Central African Republic","TD":"Chad","CL":"Chile","CN":"China","CX":"Christmas Island","CC":"Cocos Islands","CO":"Colombia","KM":"Comoros","CD":"Congo, Democratic Republic of the","CG":"Congo","CK":"Cook Islands","CR":"Costa Rica","CI":"C\u00f4te d'Ivoire","HR":"Croatia","CU":"Cuba","CW":"Cura\u00e7ao","CY":"Cyprus","CZ":"Czechia","DK":"Denmark","DJ":"Djibouti","DM":"Dominica","DO":"Dominican Republic","EC":"Ecuador","EG":"Egypt","SV":"El Salvador","GQ":"Equatorial Guinea","ER":"Eritrea","EE":"Estonia","SZ":"Eswatini","ET":"Ethiopia","FK":"Falkland Islands","FO":"Faroe Islands","FJ":"Fiji","FI":"Finland","FR":"France","GF":"French Guiana","PF":"French Polynesia","TF":"French Southern Territories","GA":"Gabon","GM":"Gambia","GE":"Georgia","DE":"Germany","GH":"Ghana","GI":"Gibraltar","GR":"Greece","GL":"Greenland","GD":"Grenada","GP":"Guadeloupe","GU":"Guam","GT":"Guatemala","GG":"Guernsey","GN":"Guinea","GW":"Guinea-Bissau","GY":"Guyana","HT":"Haiti","HM":"Heard Island and McDonald Islands","VA":"Holy See","HN":"Honduras","HK":"Hong Kong","HU":"Hungary","IS":"Iceland","IN":"India","ID":"Indonesia","IR":"Iran","IQ":"Iraq","IE":"Ireland","IM":"Isle of Man","IL":"Israel","IT":"Italy","JM":"Jamaica","JP":"Japan","JE":"Jersey","JO":"Jordan","KZ":"Kazakhstan","KE":"Kenya","KI":"Kiribati","KP":"Korea, Democratic People's Republic of","KR":"Korea, Republic of","KW":"Kuwait","KG":"Kyrgyzstan","LA":"Lao People's Democratic Republic","LV":"Latvia","LB":"Lebanon","LS":"Lesotho","LR":"Liberia","LY":"Libya","LI":"Liechtenstein","LT":"Lithuania","LU":"Luxembourg","MO":"Macao","MG":"Madagascar","MW":"Malawi","MY":"Malaysia","MV":"Maldives","ML":"Mali","MT":"Malta","MH":"Marshall Islands","MQ":"Martinique","MR":"Mauritania","MU":"Mauritius","YT":"Mayotte","MX":"Mexico","FM":"Micronesia","MD":"Moldova","MC":"Monaco","MN":"Mongolia","ME":"Montenegro","MS":"Montserrat","MA":"Morocco","MZ":"Mozambique","MM":"Myanmar","NA":"Namibia","NR":"Nauru","NP":"Nepal","NL":"Netherlands","NC":"New Caledonia","NZ":"New Zealand","NI":"Nicaragua","NE":"Niger","NG":"Nigeria","NU":"Niue","NF":"Norfolk Island","MK":"North Macedonia","MP":"Northern Mariana Islands","NO":"Norway","OM":"Oman","PK":"Pakistan","PW":"Palau","PS":"Palestine, State of","PA":"Panama","PG":"Papua New Guinea","PY":"Paraguay","PE":"Peru","PH":"Philippines","PN":"Pitcairn","PL":"Poland","PT":"Portugal","PR":"Puerto Rico","QA":"Qatar","RE":"R\u00e9union","RO":"Romania","RU":"Russian Federation","RW":"Rwanda","BL":"Saint Barth\u00e9lemy","SH":"Saint Helena, Ascension and Tristan da Cunha","KN":"Saint Kitts and Nevis","LC":"Saint Lucia","MF":"Saint Martin","PM":"Saint Pierre and Miquelon","VC":"Saint Vincent and the Grenadines","WS":"Samoa","SM":"San Marino","ST":"Sao Tome and Principe","SA":"Saudi Arabia","SN":"Senegal","RS":"Serbia","SC":"Seychelles","SL":"Sierra Leone","SG":"Singapore","SX":"Sint Maarten","SK":"Slovakia","SI":"Slovenia","SB":"Solomon Islands","SO":"Somalia","ZA":"South Africa","GS":"South Georgia and the South Sandwich Islands","SS":"South Sudan","ES":"Spain","LK":"Sri Lanka","SD":"Sudan","SR":"Suriname","SJ":"Svalbard and Jan Mayen","SE":"Sweden","CH":"Switzerland","SY":"Syria Arab Republic","TW":"Taiwan","TJ":"Tajikistan","TZ":"Tanzania, the United Republic of","TH":"Thailand","TL":"Timor-Leste","TG":"Togo","TK":"Tokelau","TO":"Tonga","TT":"Trinidad and Tobago","TN":"Tunisia","TR":"T\u00fcrkiye","TM":"Turkmenistan","TC":"Turks and Caicos Islands","TV":"Tuvalu","UG":"Uganda","UA":"Ukraine","AE":"United Arab Emirates","GB":"United Kingdom","US":"United States","UY":"Uruguay","UM":"US Minor Outlying Islands","UZ":"Uzbekistan","VU":"Vanuatu","VE":"Venezuela","VN":"Viet Nam","VG":"Virgin Islands, British","VI":"Virgin Islands, U.S.","WF":"Wallis and Futuna","EH":"Western Sahara","YE":"Yemen","ZM":"Zambia","ZW":"Zimbabwe"},"strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+//# sourceURL=gform_gravityforms-js-extra
+</script>
+<script id="gform_gravityforms-js" defer='defer' src="https://smallwarsjournal.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=3.1.2"></script>
+<script id="gform_gravityforms_utils-js" defer='defer' src="https://smallwarsjournal.com/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=69a9db57304a9f86c3d1a0bea5fd2cf9"></script>
+<script id="gform_gravityforms_theme_vendors-js" defer='defer' src="https://smallwarsjournal.com/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=0c901cb641ce64b99c20ea1a4d208cc9"></script>
+<script id="gform_gravityforms_theme-js-extra">
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"38d04153de69329af7f751f7a21eccd9"},"ajax":{"ajaxurl":"https://smallwarsjournal.com/wp-admin/admin-ajax.php","ajax_submission_nonce":"cbdde6278a","i18n":{"step_announcement":"Step %1$s of %2$s, %3$s","unknown_error":"There was an unknown error processing your request. Please try again.","error_403":"The request was blocked (403 error) for unknown security reasons. Remove any code-like text (scripts or DB queries) and try again."}}}},"hmr_dev":"","public_path":"https://smallwarsjournal.com/wp-content/plugins/gravityforms/assets/js/dist/","config_nonce":"9d93f9232c"};
+//# sourceURL=gform_gravityforms_theme-js-extra
+</script>
+<script id="gform_gravityforms_theme-js" defer='defer' src="https://smallwarsjournal.com/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=e27d9712159624c99129c8c208f022ad"></script>
+<script id="gfrtv_script-js-extra">
+var gfrtv_1 = {"elements":["{\"id\":1,\"formId\":1,\"type\":\"text\",\"errorMessage\":\"This field is required\"}","{\"id\":3,\"formId\":1,\"type\":\"email\",\"errorMessage\":\"The email address entered is invalid, please check the formatting (e.g. email@domain.com)\",\"email_confirmation\":false,\"email_empty\":\"This field is required\",\"not_match\":\"Your emails do not match.\"}"]};
+//# sourceURL=gfrtv_script-js-extra
+</script>
+<script id="gfrtv_script-js" src="https://smallwarsjournal.com/wp-content/plugins/gf-real-time-validation/js/gfrtv_script.js?ver=1.0.4"></script>
+<script id="printfriendly-sdk-js" src="https://cdn.printfriendly.com/printfriendly.js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://smallwarsjournal.com/wp-includes/js/wp-emoji-release.min.js?ver=5599175e20aaa1a1316494b179b26fc9"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://smallwarsjournal.com/wp-includes/js/wp-emoji-loader.min.js
+</script>
+<script>
+gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
+</script>
+<script>
+gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "1", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 1, 1 );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );
+</script>
+<script type='text/javascript' id='asp-2b5a5d68-js-before'>if ( typeof window.ASP == 'undefined') { window.ASP = {wp_rocket_exception: "DOMContentLoaded", ajaxurl: "https:\/\/smallwarsjournal.com\/wp-content\/plugins\/ajax-search-pro\/ajax_search.php", home_url: "https:\/\/smallwarsjournal.com\/", rest_url: "https:\/\/smallwarsjournal.com\/wp-json\/", backend_ajaxurl: "https:\/\/smallwarsjournal.com\/wp-admin\/admin-ajax.php", asp_url: "https:\/\/smallwarsjournal.com\/wp-content\/plugins\/ajax-search-pro\/", upload_url: "https:\/\/smallwarsjournal.com\/wp-content\/uploads\/asp_upload\/", detect_ajax: 1, media_query: "2r3GUp", version: "4.29.3", build: 5129, pageHTML: "", additional_scripts: [{"handle":"wd-asp-ajaxsearchpro","src":"https:\/\/smallwarsjournal.com\/wp-content\/plugins\/ajax-search-pro\/js\/min\/plugin\/optimized\/asp-prereq.min.js","prereq":[]},{"handle":"wd-asp-ajaxsearchpro-core","src":"https:\/\/smallwarsjournal.com\/wp-content\/plugins\/ajax-search-pro\/js\/min\/plugin\/optimized\/asp-core.min.js","prereq":[]},{"handle":"wd-asp-ajaxsearchpro-vertical","src":"https:\/\/smallwarsjournal.com\/wp-content\/plugins\/ajax-search-pro\/js\/min\/plugin\/optimized\/asp-results-vertical.min.js","prereq":["wd-asp-ajaxsearchpro"]},{"handle":"wd-asp-ajaxsearchpro-live","src":"https:\/\/smallwarsjournal.com\/wp-content\/plugins\/ajax-search-pro\/js\/min\/plugin\/optimized\/asp-live.min.js","prereq":["wd-asp-ajaxsearchpro"]},{"handle":"wd-asp-ajaxsearchpro-autocomplete","src":"https:\/\/smallwarsjournal.com\/wp-content\/plugins\/ajax-search-pro\/js\/min\/plugin\/optimized\/asp-autocomplete.min.js","prereq":["wd-asp-ajaxsearchpro"]},{"handle":"wd-asp-ajaxsearchpro-addon-woocommerce","src":"https:\/\/smallwarsjournal.com\/wp-content\/plugins\/ajax-search-pro\/js\/min\/plugin\/optimized\/asp-addons-woocommerce.min.js","prereq":["wd-asp-ajaxsearchpro-autocomplete"]}], script_async_load: false, font_url: "https:\/\/smallwarsjournal.com\/wp-content\/plugins\/ajax-search-pro\/css\/fonts\/icons\/icons2.woff2", init_only_in_viewport: true, cache: {"enabled":false,"type":"super_file","list":[],"url":"https:\/\/smallwarsjournal.com\/wp-content\/cache\/asp\/results\/","uid":0}, highlight: {"enabled":false,"data":[]}, debug: false, instances: {}, statistics: {"enabled":false,"record_results":true,"record_result_interactions":true,"results_page_dom_selector":""}, analytics: {"method":false,"tracking_id":"","event":{"focus":{"items":[]},"search_start":{"items":[]},"search_end":{"items":[]},"magnifier":{"items":[]},"return":{"items":[]},"try_this":{"items":[]},"facet_change":{"items":[]},"result_click":{"items":[]}}}}};</script><script async type='text/javascript' src='https://smallwarsjournal.com/wp-content/cache/asp/asp-2b5a5d68.min.js?ver=4.29.3' id='asp-2b5a5d68-js'></script></body>
+
+</html>

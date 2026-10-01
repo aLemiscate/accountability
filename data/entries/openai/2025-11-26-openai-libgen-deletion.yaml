@@ -1,0 +1,48 @@
+title: Court orders OpenAI to explain why it deleted two datasets of pirated
+  books in "Project Clear"
+date: 2025-11-26
+org: openai
+type: did
+kind: disclosure
+who: [openai, bob-mcgrew]
+quote: >-
+  OpenAI has waived privilege by making a moving target of its privilege
+  assertions
+summary: >-
+  In the authors' copyright case against OpenAI and Microsoft, OpenAI had said
+  its "books 1" and "books 2" datasets were deleted in 2022 "due to their
+  non-use," then tried to withdraw that explanation and claim all evidence of the
+  deletion was privileged. Judge Ona Wang ruled that most of the
+  communications were not privileged, including Slack channels named
+  "project-clear" and "excise-libgen," and ordered OpenAI's in-house lawyers
+  deposed. Briefs unsealed in September 2026 allege that OpenAI downloaded books
+  from the shadow library LibGen, that researchers discussed the
+  "optics" of using it, and that VP of Research Bob McGrew wrote in June 2022:
+  "Given how much OpenAI is in the news, now is the right time to excise Libgen
+  from our systems and storage." (The allegations are the authors'; the
+  quote is from the court's ruling.)
+patterns: [take-first]
+related: [2024-01-08-training-is-fair-use, 2025-09-05-pirated-books-settlement]
+sources:
+  - title: OpenAI Loses Key Discovery Battle as It Cedes Ground to Authors in AI
+      Lawsuits
+    publisher: The Hollywood Reporter
+    url: https://www.hollywoodreporter.com/business/business-news/openai-loses-key-discovery-battle-why-deleted-library-of-pirated-books-1236436363/
+    date: 2025-11-26
+    type: reporting
+    snapshot: snapshots/2026-09-30-hollywoodreporter.com-a1f25a05
+  - title: 'Unsealed Briefs in Authors'' Case v. Microsoft/OpenAI: Top Execs Knew
+      Their Mass Book Piracy Was Illegal And Would Put Authors Out of Work'
+    publisher: The Authors Guild
+    url: https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/
+    date: 2026-09-21
+    type: analysis
+    snapshot: snapshots/2026-09-30-authorsguild.org-6bc27e7b
+response: >-
+  OpenAI maintains that it did not willfully infringe any copyright, and appealed
+  the discovery ruling.
+note: >-
+  The Authors Guild page is a party's summary of its own brief and is labeled
+  that way. The same brief quotes Dario Amodei and Sam McCandlish, then at
+  OpenAI, discussing LibGen in 2019; Anthropic later settled its own
+  pirated-books case for $1.5B.

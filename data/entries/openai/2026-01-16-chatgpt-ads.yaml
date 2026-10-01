@@ -33,6 +33,30 @@ sources:
     type: reporting
     archive: https://web.archive.org/web/20260822075720/https://www.axios.com/2026/01/16/chatgpt-ai-openai-ads
     snapshot: snapshots/2026-09-29-axios.com-5669d476
+updates:
+  - date: 2025-12-05
+    text: >-
+      Six weeks before the announcement, paying subscribers posted screenshots
+      of ChatGPT promoting companies such as Peloton and Target. ChatGPT head
+      Nick Turley said: "There are no live tests for ads – any screenshots
+      you've seen are either not real or not ads." OpenAI said the messages
+      were app suggestions with "no financial component." Chief research
+      officer Mark Chen wrote: "anything that feels like an ad needs to be
+      handled with care, and we fell short. We've turned off this kind of
+      suggestion while we improve the model's precision."
+    sources:
+      - title: Mark Chen on X
+        publisher: X
+        url: https://x.com/markchen90/status/1996976743660556584
+        date: 2025-12-05
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-7f22a5ce
+      - title: OpenAI says it's turned off app suggestions that look like ads
+        publisher: TechCrunch
+        url: https://techcrunch.com/2025/12/07/openai-says-its-turned-off-app-suggestions-that-look-like-ads/
+        date: 2025-12-07
+        type: reporting
+        snapshot: snapshots/2026-09-30-techcrunch.com-f7259521
 note: >-
   "Last resort," twenty months later. Ads go to the free tier: the users who
   can't pay get the "uniquely unsettling" version.

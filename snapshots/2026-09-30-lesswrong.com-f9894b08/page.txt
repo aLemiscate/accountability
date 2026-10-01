@@ -1,0 +1,490 @@
+x
+LESSWRONG
+LW
+Login
+AI #72: Denying the Future — LessWrong
+AI Timelines Forecasts (Specific Predictions) Newsletters AI Personal Blog
+46
+AI #72: Denying the Future
+by Zvi
+11th Jul 2024
+Don't Worry About the Vase 49 min read
+8
+46
+The Future. It is coming.
+A surprising number of economists deny this when it comes to AI. Not only do they deny the future that lies in the future. They also deny the future that is here, but which is unevenly distributed. Their predictions and projections do not factor in even what the AI can already do, let alone what it will learn to do later on.
+Another likely future event is the repeal of the Biden Executive Order. That repeal is part of the Republican platform, and Trump is the favorite to win the election. We must act on the assumption that the order likely will be repealed, with no expectation of similar principles being enshrined in federal law.
+Then there are the other core problems we will have to solve, and other less core problems such as what to do about AI companions. They make people feel less lonely over a week, but what do they do over a lifetime?
+Also I don’t have that much to say about it now, but it is worth noting that this week it was revealed Apple was going to get an observer board seat at OpenAI… and then both Apple and Microsoft gave up their observer seats. Presumably that is about antitrust and worrying the seats would be a bad look. There could also be more to it.
+Table of Contents
+• Introduction.
+• Table of Contents .
+• Language Models Offer Mundane Utility . Long as you avoid GPT-3.5.
+• Language Models Don’t Offer Mundane Utility . Many mistakes will not be caught.
+• You’re a Nudge . You say it’s for my own good.
+• Fun With Image Generation . Universal control net for SDXL.
+• Deepfaketown and Botpocalypse Soon . Owner of a lonely bot.
+• They Took Our Jobs . Restaurants.
+• Get Involved . But not in that way.
+• Introducing . Anthropic ships several new features.
+• In Other AI News . Microsoft and Apple give up OpenAI board observer seats.
+• Quiet Speculations . As other papers learned, to keep pace, you must move fast.
+• The AI Denialist Economists . Why doubt only the future? Doubt the present too.
+• The Quest for Sane Regulation . EU and FTC decide that things are their business.
+• Trump Would Repeal the Biden Executive Order on AI . We can’t rely on it.
+• Ordinary Americans Are Worried About AI. Every poll says the same thing.
+• The Week in Audio . Carl Shulman on 80,000 hours was a two parter.
+• The Wikipedia War. One obsessed man can do quite a lot of damage.
+• Rhetorical Innovation . Yoshua Bengio gives a strong effort.
+• Evaluations Must Mimic Relevant Conditions . Too often they don’t.
+• Aligning a Smarter Than Human Intelligence is Difficult . Stealth fine tuning.
+• The Problem . If we want to survive, it must be solved.
+• Oh Anthropic . Non Disparagement agreements should not be covered by NDAs.
+• Other People Are Not As Worried About AI Killing Everyone . Don’t feel the AGI.
+Language Models Offer Mundane Utility
+Yes, they are highly useful for coding. It turns out that if you use GPT-3.5 for your ‘can ChatGPT code well enough’ paper , your results are not going to be relevant. Gallabytes says ‘that’s morally fraud imho’ and that seems at least reasonable.
+Tests failing in GPT-3.5 is the AI equivalent of “IN MICE” except for IQ tests.
+If you are going to analyze the state of AI, you need to keep an eye out for basic errors and always always check which model is used. So if you go quoting statements such as :
+Paper about GPT-3.5: its ability to generate functional code for ‘hard’ problems dropped from 40% to 0.66% after this time as well. ‘A reasonable hypothesis for why ChatGPT can do better with algorithm problems before 2021 is that these problems are frequently seen in the training dataset
+Then even if you hadn’t realized or checked before (which you really should have), you need to notice that this says 2021, which is very much not the current knowledge cutoff, and realize this is not GPT-4o or even an older GPT-4.
+You can also notice that the statement is Obvious Nonsense and people are now using ChatGPT (and increasingly Claude 3.5 Sonnet) this way all the time.
+I also like this way of putting the value of AI for coding:
+Gallabytes: I literally use chatgpt (well usually Claude) generated code in building an economically interesting product every day.
+There’s more hype than is deserved, I certainly don’t yet fear for my employment prospects, but if I had to choose between vim key bindings & AI I’d pick AI.
+I’d also take it over syntax highlighting, code folding, and static typing, but wouldn’t yet choose it over touch typing.
+I definitely would not take it over touch typing in general, but if it was touch typing while typing code in particular I would take that deal because I can copy/paste outputs into the code window. On the others it is not even close.
+Thread on how to get LLMs to do their own prompting for improved performance , also another test that shows Claude 3.5 is the current best model.
+The spread of ‘patio11 official style AI communication’ continues . Use for all your generic communications with bureaucratic processes.
+Language Models Don’t Offer Mundane Utility
+Beware the subtle mistakes?
+Shako: Talking to an LLM on something I’m an expert on: “Hmmm, I see why you think that, but you’re not *quite* right, and you’re wrong in some critical but subtle ways”
+Talking to an LLM on anything else: “Wow you’re the smartest person I’ve ever known, how do you know everything?”
+The worry is Gell-Mann Amnesia.
+The good news is that being only subtly wrong is a huge improvement over one’s state of knowledge for most questions in most areas. The default state is either very wrong or not even wrong. Now you get to be subtly wrong and worry about mistakes and hallucinations. That’s a huge improvement. The key is not taking it too credibly.
+AI teaching assistants at Morehouse College . I don’t get it. Seems like fetishizing the classroom format rather than asking how AI can be useful.
+Daniel : Immediately disliking the stapled on AI assistant in every product. Unpredictable experience so I’d rather not bother. Feels like slop every time.
+It’s not even a good modality. Why type out a question when I can click twice from my account page to get the same information in a predictable way. Count how many times my finger touches the screen to accomplish a goal and the bots lose every time.
+You type out the question (or speak it) because you do not know which buttons to click from the account page. Daniel and I, and most of you reading this, are frequent power users and voluntary users of menus. Most people aren’t. Even for us, there are times when we do not yet know the menu item in question. So I do appreciate these bad AIs, even implemented poorly, when they are fully optional. When they actively force the bot on you, it becomes ‘how do you get to a human,’ and that too is a skill.
+No, users will mostly not check to see if your LLM is making mistakes once it crosses an accuracy threshold, unless they have a particular reason to do so. Why should they? One must prioritize and develop a sense of when things are accurate enough.
+Sully mostly gives up on fine tuning , because by the time you are done fine tuning there is a new model that wipes out all your work.
+You’re a Nudge
+Sam Altman joins forces with Ariana Huffington (?!) to write a Time article about how AI can help with healthcare.
+Sam Altman and Ariana Huffington: But humans are more than medical profiles. Every aspect of our health is deeply influenced by the five foundational daily behaviors of sleep, food, movement, stress management, and social connection. And AI, by using the power of hyper-personalization, can significantly improve these behaviors.
+These are the ideas behind Thrive AI Health.
+…
+It will learn your preferences and patterns across the five behaviors:what conditions allow you to get quality sleep;which foods you love and don’t love;howand when you’re most likely to walk, move , and stretch;and the most effective ways you can reduce stress. Combine that with a superhuman long-term memory, and you have a fully integrated personal AI coach that offers real-time nudges and recommendations unique to you that allows you to take action on your daily behaviors to improve your health.
+…
+Most health recommendations at the moment, though important, are generic.
+As far as I can tell the whole thing is essentially a nudge engine?
+The goal is to point out to people they should be making ‘healthier choices,’ according to Thrive’s beliefs about what that means. I suppose that is good on the margin, versus a nudge engine for healthier choices that doesn’t take context into account, if you can ‘automagically’ do that. But how is the AI going to get all that info, and what else might it get used for? There are answers I can come up with. I don’t love them.
+Fun with Image Generation
+Universal CN (ControlNet) for SDXL ?
+Deepfaketown and Botpocalypse Soon
+Use of AI companions reduce short term loneliness over 7 days , similarly to ‘interactions with a human.’ The human interactions were 15 minute text chat sessions with a random other person, so that is not as high a bar as it sounds. Chatbots ‘acting like a human’ worked better than baseline mode, and did much better than ‘AI assistants.’ The impact was ~8 points on a 0-100 scale, but no attempt was made to see if that persisted for any length of time.
+The key questions are thus not addressed. The most important is, does this develop skills and habits that enable better and more human interactions in the long term, or does it create dependence and tolerance and alienation from human interactions? Which effect dominates and to what extent? Having an impact short term ‘gets you in the door’ but the long term effects are almost all of what matters.
+Fell into the slop trap? You can perhaps escape .
+Brooke Bownan: PSA I spent the past few days going through and clicking ‘show fewer posts from this account’ for every slop account that showed up on my FYP and I just realized it’s now basically all people I want to see again.
+Who knows how long it’ll last but it’s a nice reprieve.
+Caleb Ditchfield: I recently did the same thing on Facebook! Sometimes all you need is more dakka.
+Johnny: it grows back fast though. the sheer amount of necessary weeding :(
+Tiger Lava Lamp: Sometimes if I don’t like my For You page, I switch back to Following for a while and only interact there until the algorithm understands that I don’t want random people talking about the topic of the day.
+Mothman: I dislike how algos train on every video play and linger on a post. I am an ape with no control. Now only meme accts on fyp. Only scroll on following now.
+First we had small social worlds where everyone was constantly watched and you had to act accordingly. Then we got computers where you could do what you want. Now the algorithms watch us, so we have to take it all into account once again. The good news is you can brute force it in some cases. I sometimes wonder if I should have multiple YouTube accounts for different purposes.
+TerifAI , the AI that clones your voice if you talk to it for a minute.
+Microsoft publishes a paper on VALL-E 2 , a zero-shot text to speech synthesizer that also clones a given voice. They say this is a research project and have no plans to release.
+The obvious question is, if you think your creation is too harmful or dangerous to release even though it is clearly useful, why would you tell others how you did it?
+One good reason to clone your voice is when you lose it, so you use AI to get it back.
+We got another one.
+Toby Muresianu: Lol it really worked.
+Misha : was anyone falling for propaganda tweeted by “rsmit1979qt”?
+FBI: The Justice Department today announced the seizure of two domain names and the search of 968 social media accounts used by Russian actors to create an AI-enhanced social media bot farm that spread disinformation in the United States and abroad. Learn more [ here ].
+The examples the FBI lists are bizarre. This is not the top shelf Russian propaganda. These are claims that might play inside Russia, but I would expect to backfire when shared in the United States. A video of Putin claiming parts of Poland and the Baltics were ‘gifts from Stalin’? What is that message hoping to accomplish?
+The other question is, what is the ratio of cost to detect and shut down this ‘bot network’ to the cost to spin up a new one? No one involved had their computers taken away and no one got arrested, since Russia is not exactly cooperating. It is not exactly hard to create 968 social media accounts, even if there is some time lag before they become ‘fully functional.’
+Thus the main thing happening here, as far as I can tell, is the narrative of the Russian Bot. As in, the Russian bot network is teaming up with the FBI to tell people there exist Russian bots. That is the main actual message. Doesn’t seem like an equilibrium?
+They Took Our Jobs
+16% of restaurant owners investing in AI this year, with most big spending coming from large chains that can benefit from scale. New minimum wage and benefit laws are contributing, but this mostly would be happening anyway.
+Get Involved
+Not in that way: 80,000 hours continues to list OpenAI jobs on its job board , despite everything that has happened. There are no warnings regarding either OpenAI’s record on safety, its broken promises, or even how OpenAI has treated its employees. Sending idealistic young people towards OpenAI without so much as a heads up on their issues is a severe missing stair problem and I call upon them to fix this.
+Introducing
+Several improvements to the Anthropic Console ( access it here ). Have it automatically generate and try test data for your new prompt. Use the evaluate button to keep trying, upload test cases from .csv files, and compare different prompts and their outputs side by side.
+Anthropic also letting you publish Claude artifacts.
+Anthropic also is now letting you fine tune Claude 3 Haiku . Sully is excited, but I would also heed Sully’s warning about new model releases wiping out all your fine tuning work. Chances are Claude 3.5 Haiku is coming not too long from now.
+SenseNova 5.5 , a Chinese model claimed to ‘outperform GPT-4o in 5 out of 8 key metrics.’
+As usual with such announcements, this is doubtless heavily gamed and also represents some amount of progress. Another obvious question, where on this chart is DeepSeek?
+YouTube copyright music remover for videos .
+In Other AI News
+OpenAI’s ChatGPT Mac app was sharing conversations in plaintext . If we want any hope of getting the big hard things right, we need to get the little easy things right.
+OpenAI partners with Los Alamos National Laboratory to study how to advance bioscientific research. Good news that is almost engineered to sound bad.
+Claude and Gemini will , if requested to do so, reproduce the BIG-BENCH canary string designed to detect if you are training on BIG-BENCH data. Which you are not supposed to be doing, as it is explicitly marked Not for Training. Both models understood the implications of their ability to produce the string.
+New version of Siri that incorporates Apple Intelligence delayed until Spring 2025 . That is an eternity in AI time. Apple Vision Pro also won’t get Apple Intelligence until 2025. Whereas Google is moving up the Pixel 9 launch to the summer. Watch who talks big hype, and who ships what when.
+OpenAI was to give Apple an observer seat on its board . The contrast to Microsoft’s struggles here is stark. The intended move shows more of OpenAI’s shift towards being a normal tech company caring about normal tech company things. Then Microsoft and it is expected Apple gave up their observer seats ‘amid regulatory scrutiny .’ The observations are nice, but not worth the absurd anti-trust accusations of ‘monopoly’ or ‘collusion.’
+Details about the OpenAI hack in April 2023, previously undisclosed to the public and also undisclosed to law enforcement. The hacker was a ‘private individual,’ and they said no key data was extracted, oh no it was only access to the internal communications channels. What, me worry? What national security threat?
+Teams using DeepSeek’s DeepSeekMath-7B take the top four slots in the AI Mathematical Olympiad (AIMO)’s first progress prize on Kaggle. The winning team got 29/50 and won $131k, seven more points than second place. A lot of teams got 18+, four scored 21+, only one got over 22. Gemma 7B by default scores 3/50. Terence Tao is reportedly amazed although I didn’t see him mention it yet in his blog. Without knowing the questions it is hard to know how impressed to be by the score, but the prizes are big enough that this is an impressive relative outcome.
+Report: The New York Times uses mostly industry sources when it covers AI , oh no. They have a narrative of ‘hero vs. villain,’ in the New York Times of all places, why I never. Outsiders are called ‘outside experts’ as if that is fair. Using ‘obscure language,’ this report says, ‘preserves the power structures that benefit technology developers and their respective organizations.’ What are these obscure terms? Well one of them is ‘AI’ and they point to a weird case where an article uses AGT instead of AGI.
+What is hilarious about all this is the fear that The New York Times has too much ‘industry alignment’ with the biggest AI tech companies. Seriously, have these people seen The New York Times? It has systematically, for many years, pushed a unified and intentional anti-technology anti-big-tech narrative. For some people, I suppose, no amount of that is ever enough.
+Paper asks to what extent various LLMs are ‘situationally aware.’
+The answer is not very situationally aware by default under current conditions. Everyone does better than chance but no model here does well or approaches the human-imitating-LLMs baseline.
+DeepMind paper claims new JEST method reduces training time by a factor of 13 and computing power demand by 90%. Proposed method is to jointly select batches of data, with an algorithm proposed for making such selections, to steer towards smaller, well-curated datasets via checking with smaller models to see which data sets work. Sounds impressive, but the obvious question is: If you did discover something this good would you not pay the researchers however many millions it took to get them happy with not saying a word about it? Seriously, Google, as both a human who wants to live and as a shareholder, I am begging you.
+Quiet Speculations
+Progress in AI is fast. As Ethan Mollick and Matt Clancy point out , if you use traditional paper writing timeframes and protocols, the models you tested with, and probably your scaffolding and prompt engineering too, are obsolete by the time you publish. Matt Clancy suggests ‘living papers’ that update results as new models come out, bypassing revision requests and having smaller more frequent conferences. I agree and think we should mostly test quickly, write quickly and publish quickly.
+This goes part and parcel with the people who say ‘I will read that when it is published in a respected peer reviewed journal, Arvix does not count as knowledge or evidence’ or otherwise insist on going through ‘proper scientific rigor.’ The process of ‘proper scientific rigor’ as practiced today is horribly broken, and even when it works it is painfully slow and unwilling to recognize the majority of important evidence and forms of argument. Those who fail to adapt will lack situational awareness, and be left behind.
+Ajeya Cotra offers additional thoughts on the ‘AI Agents That Matter’ paper from last week , highlighting the issue that a 2% error rate compounds quickly over many subtasks if there is no error correction mechanism, and reducing error rates can turn otherwise not that useful agents into very useful agents quickly.
+Ajeya Cotra: I think we could see 2025 agents blow past WebArena / GAIA. So in addition to the 5 points the authors highlighted, I think we should make *difficult* benchmarks to maximize longevity and minimize surprise.
+Could synthetic personas allow the creation of sufficient synthetic data solve the data bottleneck? Tencent claims they used a million fake people to generate better synthetic math data .
+Wait, ‘math’ data? Can’t you generate as many generic math problems and examples as you like without personas? Claude could not come up with any explanations of why the paper is evidence that the technique is useful. As a general rule, if you choose a highly unimpressive example case, that likely means your other attempts didn’t work.
+The AI Denialist Economists
+Imagine Robin Hanson, as the world transforms around him, once again saying ‘sell.’
+Yoni Rechtman: In the last few weeks Goldman, Sequoia, and Barclays have all put out equity research that says “the AI capex boom doesn’t make sense”. That feels like a pretty significant harbinger of a major sentiment shift.
+Sam Lessin: at @slow we put out that note 18 months ago..
+Yoni: Consensus is slowly catching up to us.
+Turner Novak: Slow was fast on this one. Total head fake.
+Jay Wong: Sequoia also came out with their essay about the missing $600B in AI revenue to justify projected capex spend this year.
+You’re hearing it not only from the sellside, but buyside too.
+These new calls are echoes of the ‘GDP growth might expand 1.6% over ten years, AI is very exciting’ economic analysis caucus. They lack even the most basic of situational awareness. I welcome their bear cases.
+I remember when a key argument against AI was ‘if AI is going to be so big why is that not priced into the market?’
+Now instead we see ‘AI is not going to be so big, why is it priced into the market?’
+Which is funny, since no, it is not yet (fully) priced into the market. Not even close.
+Arthur Breitman : Goldman Sacks research report on AI is making me more bullish on the sector because it indicates that theses that seem dead obvious to me aren’t at all consensus among sophisticated market participants with deep pockets. I could be wrong, but if I’m right, at least it’s not all priced in.
+Anton: The last of these i read had the first really nonsensical part roughly 20 paragraphs in, but this new one has it two paragraphs in.
+[From Ed Zitron]: The report covers Al’s productivity benefits (which Goldman remarks are likely limited), Al’s returns (which are likely to be significantly more limited than anticipated), and Al’s power demands (which are likely so significant that utility companies will have to spend nearly 40% more in the next three years to keep up with the demand from hyperscalers like Google and Microsoft).
+Anton: Are the utility companies expected to expand capacity by 40% out of the goodness of their own hearts or are microsoft etc. going to pay them lots of money to do that? If so, why?
+…
+The sequoia report makes more sense and fits into the general feeling i have that this era is most like the early web, and then early cloud; software requires substantial capex for the first time in 30+ years.
+Just like the early web, you have to actually use (or better yet build with) the new technology to really ‘get’ it; top-down analysis isn’t likely to give you a sense of what’s going to happen here in the long run
+If you look at the details, such as the answer at the link by Jim Covello, author of the Goldman Sacks report , you see assessments and predictions about AI that are unmoored from reality. These analysts are treating AI as worse than it already is, as not useful for tasks where I constantly use it. Jim says AI often fails on basic summation, whereas I use Claude to get detailed logical analysis and explanations of research papers several times a week.
+It also cites that terrible paper from Daron Acemoglu about how if you assume AI never does anything then it won’t do anything. Somehow Daron has decided to be ‘even more pessimistic’ now.
+I always love dismissers who say things like ‘Wendy’s order taking AI requires intervention on 14% of orders and it can’t make the food’ to dismiss AI’s value, when
+• That means 86% of the time it did not need help
+• This is the worst it will ever be
+• Wendy’s is indeed already doing this because it is already better
+• Presumably they are using old technology and would do much better if they updated although I’m not going to check
+• Doing parts of many jobs is an economic win far bigger than they claim is possible
+• Also it will probably be serving the food within that 10 year window
+• Seriously, come on, this is dumb, have these people actually used 4-level LLMs?
+These people throw shade on the idea that LLMs will ever get better from here, or get much better, and keep doing so as they get better. The thing is, even if they were somehow 100% right about that and Claude Sonnet 3.5 is the best model we ever get, that is more than good enough to eclipse the absurd predictions made in such reports.
+Goldman Sachs is full of smart people. How is it making this mistake?
+My answer is they utterly lack situational awareness on this, being intelligent is only sometimes a defense against using your learned algorithms out of distribution without noticing something is amiss, and I’ve seen enough economic types make the same mistakes over and over that it no longer surprises me.
+Others think it must be an op, and this is Goldman so I can’t blame them for asking.
+Sophie: a few thoughts about this piece [ from Ed Zitron ]
+– 99% of journalists are retarded and can be ignored completely
+– this article just rehashes the goldman report like a victory lap for the author who seems to desperately want genAI to be a bubble (also the swearing makes it read super cringe)
+– who cares what goldman sachs thinks about AI. it’s clearly becoming en vogue to say “AI is a bubble unless the revenue can start justifying the capex” which might be true but doesn’t provide any actionable insight, just seems like a way to make the author feel “right” about having this take (which isn’t novel anymore considering there’s a bunch of pieces going around saying the same thing)
+– you don’t have to see the world in these absolute terms that people who publish stuff want you to see it in. you’re allowed to color your own worldview with nuance as you see fit
+Danielle Fong: These capital providers aren’t saying that generative AI is a bubble because they’re not going to invest. they’re saying it because they want less competition for $$ and want to negotiate prices down. It’s collective bargaining.
+That does not mean that any particular stock has to be underpriced. Perhaps Nvidia or Google or Microsoft will go down rather than up over the next year. Stranger things have happened and nothing I say is investment advice. Who exactly ends up making money is hard to predict. What I do know is that these predictions of overall economic impact are absurd, and a lot of things are about to change.
+The Quest for Sane Regulations
+What does it mean for AI that Labour won a massive Parliament majority in the UK?
+It looks a lot like a continuation of Sunak’s goals . Their manifesto commits them to ‘binding regulation’ on those training the most powerful AI models, a ban on deepfakes and making it easier to build data centers. They intend to put the AI safety institute on ‘a statutory footing’ and require labs to release safety data, a la the voluntary commitments at Seoul.
+Ben Thompson goes on a righteous rant about the EU’s various destructive and inane rules around data and technology and its strong arming of American tech companies. The Nvidia case, where they plan to fine Nvidia more than Nvidia’s entire EU revenues and thus presumably cause Nvidia to exit entirely, is especially glaring, but he is clearly right about the Meta and Apple and Google examples too. The EU is making life worse all around for no substantial benefits. He warns that the EU is overplaying its hand, including with the EU AI Act, so strongly that it risks tech companies increasingly bypassing it entirely.
+What he does not offer are any details on the EU AI Act, and which provisions would be expensive or impossible to comply with. There are indeed various rather stupid provisions in the EU AI Act, but it is extremely long and painful to read and I would really love it if someone else, perhaps someone European, would do the job of telling us what it actually says so I don’t have to. I will try to do it, but have mercy, haven’t I suffered enough?
+From what I did see, the EU AI Act is the largely the EU being the EU but there is a reason Apple is citing the DMA and data laws rather than the AI Act when delaying its AI offerings in the EU.
+FTC decides it is its business, somehow, like all the other things it thinks are its business, to state that open weight foundation models create innovation and competition, and the issue is them not being open enough. Zero mention of any of the reasons why one might want to be concerned, or anything legally binding. I wonder who got to them, but hey, congrats you did it, I guess.
+Trump Would Repeal the Biden Executive Order on AI
+Republican party platform officially includes repeal of the Biden Executive Order , along with other hated Biden policies such as (to paraphrase his tariff proposal slightly) ‘trading with other countries.’
+Why are the Republicans doing this? What does this mean for AI regulation, aside from who to vote for in November?
+No one can ever know for sure, but it sure seems like a pretty simple explanation:
+• Trump wants the Executive Order gone, so that is in the platform.
+• Trump wants the Executive Order gone because it was implemented by Biden.
+• Trump also thinks Regulations (That Don’t Get Me Paid) Are Bad, so there’s that.
+• (Optional) Lobbying/bribing by a16z and others who value their profits above all.
+Jeremy Howard gloats that of course there is polarization now, because of SB 1047, he told you so.
+Except that is Obvious Nonsense.
+Trump said he would repeal the Executive Order the first time he was asked, long before SB 1047 was on anyone’s mind or could plausibly have factored into his decision. Why? See above.
+The votes on SB 1047 in California are passing on robust bipartisan lines, yes California has Republicans. The votes are usually or always 90%+ in favor.
+Popular opinion remains remarkably united regardless of party. The parties are working together remarkably well on this.
+The ‘partisan issue’ is that Trump is reflectively opposed to anything Biden does.
+Are we under some strange hallucination that if California was taking a different regulatory approach then Trump would be keeping the EO?
+I cannot get that statement to even parse. It makes zero sense.
+Instead, this (to the extent it is new information, which it mostly is not) greatly strengthens the case of state actions like SB 1047.
+What is the best argument against passing a regulatory law in California?
+The best argument is that it would make it harder to pass a regulatory law in Washington, or that we would be better served by passing a law in Washington, or that we can do it (and to some extent via the Executive Order are doing it) via the existing administrative state.
+That argument is strong if you think Congress and the White House are capable of passing such a law, or of implementing this via Executive Orders and the administrative state. If Trump (and the Supreme Court) are determined to hamstring the administrative state and its ability to build state capacity and knowledge on AI?
+What other option do we have?
+The Republican platform also tells us we will create a ‘robust Manufacturing Industry in Near Earth Orbit.’ It is good to aspire to things. It would also be good to attempt to correspond to reality. I mean, yes, I’m for it in principle, but in the same way I want to, as the chapter calls it ‘build the greatest economy in history’ if we can do that without it being an AI’s economy and also ending all of history.
+To be fair, there are non-zero good things too, such as energy permitting reform. The thing to note here is that the likely once and future president is going to start by taking a big step backwards.
+Ordinary Americans Are Worried About AI
+Yet another poll of 1,040 Americans by AIPI says voters are for safety regulations on AI and against against turning it into a race.
+Billy Perrigo (Time): According to the poll, 75% of Democrats and 75% of Republicans believe that “taking a careful controlled approach” to AI—by preventing the release of tools that terrorists and foreign adversaries could use against the U.S.—is preferable to “moving forward on AI as fast as possible to be the first country to get extremely powerful AI.” A majority of voters support more stringent security practices at AI companies, and are worried about the risk of China stealing their most powerful models, the poll shows.
+The poll was carried out in late June by the AI Policy Institute (AIPI), a U.S. nonprofit that advocates for “a more cautious path” in AI development. The findings show that 50% of voters believe the U.S. should use its advantage in the AI race to prevent any country from building a powerful AI system, by enforcing “safety restrictions and aggressive testing requirements.” That’s compared to just 23% who believe the U.S. should try to build powerful AI as fast as possible to outpace China and achieve a decisive advantage over Beijing.
+The polling also suggests that voters may be broadly skeptical of “open-source” AI, or the view that tech companies should be allowed to release the source code of their powerful AI models.
+…
+The polls also showed that 83% of Americans believe AI could accidentally cause a catastrophic event, and that 82% prefer slowing down AI development to account for that risk, compared to just 8% who would like to see it accelerated.
+I went to their website to see the details and they haven’t posted them yet. I’ll take a look when they do.
+AIPI certainly is strongly in favor of making sure we do not all die. Is AIPI slanting their question wording and order somewhat? Based on previous surveys, not egregiously, but not zero either. Do we know that people actually care about this or consider it important enough to change their votes? Not yet, no.
+I do think such polls show definitively that the public is suspicious and fearful of AI in a variety of ways, and that once the salience of the issue grows politicians will be under quite a lot of pressure to get in line.
+Similarly, your periodic reminder that SB 1047 is very popular . It has 75%+ popular support in surveys. It passes every vote by lawmaker overwhelming margins.
+A bunch of very loud and obnoxious and mostly deeply disingenuous people have decided that if they are loud and obnoxious as often as possible on Twitter, and say various things that have no relation to what is actually in the bill or what its impact would be or where it does and does not apply, then people will confuse Twitter with real life, and think that SB 1047 is unpopular or turning people against EA or widely seen as a tyranny or whatever.
+It’s not true. Do not fall for this.
+The Week in Audio
+Things that are not happening .
+Tsarathustra: Former Google X executive Mo Gawdat says the mainstream media is hiding the truth that the trajectory of AI is on course to end our world as we know it within 4 years.
+He’s not even talking about existential risk, he is talking about things like job losses and balance of power among humans. So is he, too, ‘hiding the truth’ about AI? No.
+Like him, the mainstream media is not ‘hiding the truth’ about AI. The mainstream media does not have any inkling of the truth about AI. It hides nothing.
+He also says ‘ChatGPT is as intelligent as Einstein,’ which is quite the claim, and which would have implications he is not at all considering here. Instead he goes on to discuss various mundane concerns.
+Demis Hassabis talks with Tony Blair . Nothing new here.
+Carl Shulman on 80,000 hours, part 2.
+The Wikipedia War
+Documentation of some highly effective rhetorical innovation : David Gerard’s ongoing war to create malicious Wikipedia articles about those he dislikes, in particular LessWrong. I confirmed that the previous version of page was essentially a libel against the site, and the current version is only slightly better. The opening implies the site is a ‘doomsday cult.’ There is still – to this day – an entire section discussing Neoreaction, purely because Gerard wants to imply some link.
+About half of the old version of the page was about a sufficiently obscure concept (R***’s B******) that I can’t remember the last time anyone else mentioned it on LessWrong , which has since been trimmed to one paragraph but is still presented as to draw one’s attention as a central focus. Even more than that, almost all other discussion is hidden or minimized. Key facts, such as the revival of the cite by Oliver Habryka, or even the site’s focus on AI, remain not present. There is no list of or reference to its major authors and contributors beyond Eliezer Yudkowsky. And so on.
+The good news is that a spot check of pages for individuals seemed far better. My own page clearly remains untouched and almost entirely about my Magic: The Gathering career. My blog is linked, but my writings on Covid and AI are not mentioned. It contains an easy to correct minor factual error (my time at MetaMed preceded Jane Street) but one does not edit one’s own page, I am curious how fast that gets fixed.
+Some of you reading this edit Wikipedia, or know people who do, including people higher up.
+If that is you, I implore you: Read this article, look at the LessWrong page, and notice that this has been permitted to continue for a decade. FIX IT . And call upon those in charge, whoever they are, to deal with your David Gerard problem once and for all.
+If this cannot be addressed despite this level of attention, at least to the point of making this not a clear ‘hit job’ on the community, then I will update accordingly.
+If that is not you (or if it is), take this knowledge with you as you read the rest of Wikipedia, including noticing how they react from here, and judge to what extent it is a ‘reliable source.’ Which it mostly still is, but, well, yeah.
+We should also pay attention to whether his more general war to label sources as reliable or unreliable gets any pushback. Wikipedia’s problem there is far bigger than what it says in its article about one little website.
+Some other confirmations:
+Aella : This guy is doing exactly the same thing on my wiki page – making sure I’m referred to as an “influencer” and not a “researcher” for example. Imo this guy should be banned from editing anything related to the rationalist scene.
+Jon Stokes : This was great. I’ve encountered the guy at the center of this article, & it was super unpleasant. He’s been on my radar for a while, but I had no idea he was this influential.
+George Punished: Yeah, great work. Encountered this guy, same impression, but seeing it all laid out like this is sobering and impressive.
+Kelsey Piper : This is a fascinating long read about how the quirks of one prolific Wikipedia editor affect the internet. (I have an investment in this story; this guy has hated me since I was in college and spent a while campaigning to get my wikipedia page deleted.)
+Paul Crowley: It’s also fun to see people in the comments discover that the entire idea that LessWrong folk care about R***’s B******* is a lie that David Gerard quite deliberately crafted and spread.
+Ght Trp: After I started reading LW it quickly became obvious that [it] was not something anyone really cared about. And I was always confused why it came up so often when rationalists/LW were being discussed in other parts of the internet.
+A sad assessment, yes this all applies beyond Wikipedia:
+Atlanticesque : To weigh in as a Wikipedia Defender who has told many people to Start Editing — Lots of awful people have power in Wikipedia and fight their petty crusades. But the only way to defang these losers is to do the work, build credibility, and break their consensus. We just have to.
+Trace wrote a great exposé here on exactly the sort of creep who thrives in this environment. But what you might’ve noticed? Gerard’s pathological fixations are relatively narrow.
+Most of the site is still the Wild West. Most articles are not closely guarded, they’re wide open.
+Yes there’s institutional biases (such as the notoriously arbitrary ‘Reliable Sources’ list) but I’ve seen countervailing narratives win fights over pages… WHEN that countervailing narrative is backed up by strong sources, rules knowledge, and respectful argument.
+Don’t be lazy.
+Kelsey Piper: On the one hand, this is totally true and realistic advice- not just about Wikipedia, but about life. Decisions get made by the people who show up. On the other hand, the first time I attempted wiki editing, the guy this piece is about reverted everything and was a hostile ass.
+When people try to show up, this guy and people like him instantly remove their contributions and refuse to explain what they can do better, or explain it in a long intimidating wall of legalese. Like I’m sure many others, I just gave up on wiki editing.
+Ian Miller: There’s “don’t be lazy” and there’s “write literally hundreds of thousands of things for 30 years”. At some point, “get involved” is worthless when you get slapped down by people whose whole life is about being better than peons (aka those who don’t write hundreds of thousands)
+Misha : Possibly the most important thing to realize from
+@tracewoodgrains’s post about David Gerard is that this is a microcosm.
+The internet has way more of these obsessive feuds than you could ever reasonably track.
+“Feud” is not even coming close to describing what’s going on in many cases.
+From a locked account. “So perhaps the next time you read a weird-Florida-news story, don’t ask why Florida is so weird; ask why you’re not hearing about the weirdness in other states. It might have something to do with their lack of open government.”
+In any organization, over a long enough time horizon, there will arise an implicit coalition devoted to promoting those who promote the advancement of the implicit coalition, and who care about winning political fights rather than the organization’s supposed goal. If the rest of the organization does not actively fight this, the organization will increasingly fall into the coalition’s control. See the Moral Mazes sequence .
+Atlanticesque is saying that you must fight such people step by step, with a similar obsession over the fights, and do the work.
+Over the long run, that will not get it done, unless that includes stripping those waging these petty battles of power. It is not viable to beat the Gerards of the world via fighting them on every little edit. You do not beat cheaters by catching them every single time and forcing them to undo each individual cheat. You do not beat defectors by reverting the impact every time you see them defect back to the status quo.
+You beat cheaters and defectors through punishment. Or you lose.
+Rhetorical Innovation
+Yoshua Bengio tries again at length to explain why he is worried about AI existential risk and believes it is worth taking AI safety and existential risk seriously, stating the basic case then breaking down why he finds the arguments against this unconvincing. He deals with those who think:
+• AGI/ASI are impossible or definitely centuries distant.
+• AGI is decades away so no need to react yet.
+• AGI is reachable but ASI is not.
+• AGI and ASI would be ‘kind to us.’
+• Corporations will only design well-behaving AIs, existing laws are sufficient.
+• We should accelerate AI capabilities and not delay AGI’s benefits.
+• Talking about catastrophic risk hurts efforts to mitigate short term issues.
+• Those concerned with the USA-China cold war.
+• Those who think international treaties will not work.
+• The genie is out of the bottle so just let go and avoid regulation.
+• Open weight (and code) AGI are the solution.
+• Those who think worrying about AGI is falling for Pascal’s Wager.
+There are always more objection categories or fallbacks, but these are the highlights. These are not the exact answers I would have given. Often he bends over backwards to be respectful and avoid being seen as overconfident, and in places he chooses different core argument lines than I think are most effective.
+Overall this is very strong. It is especially strong against the ‘there will not be a problem’ objections, that AGI/ASI won’t happen or will be harmless, or that its downsides are not worth any attention, either absolutely or compared to benefits.
+The other broad category is ‘yes this is a problem but doing anything about it would be hard.’ To which he patiently keeps saying, yes it would be hard, but not impossible, and being hard does not mean we can afford to give up. We cannot afford to give up.
+His weakest answer is on those who think ‘open source’ is the solution to all ills. I do think his explanations are sufficient, but that there are even stronger and clearer reasons why the full open approach is doomed.
+I endorse this perspective and phrasing shift : What is ‘science fiction’ is the idea that AGI and ASI won’t arrive soon while civilization otherwise advances, and that such AGIs would not transform things too much, because that is the ‘science’ that lets us write the interesting fiction about what people care about most. Which is people.
+Andrew Critch: Some believe that AGI will remain simultaneously *not regulated* and *not invented* for like, a decade. I struggle to imagine stagnating that long. I can imagine crazy-feeling sci-fi scenarios where unencumbered AI developers somehow don’t make AGI by 2034, but not in this world.
+Aryeh Englander: Why is it so hard to imagine a world in which there remain several difficult and/or enormously expensive breakthroughs and it takes a while to reach those? Or that continued unreliability leads to insufficient returns on investment leading to another AI winter?
+Andrew Critch: To me that feels like you’re asking “Why is it so hard to imagine that the fashion industry will fail to ship any new t-shirt designs next year?” The remaining tasks to make AGI are just not that hard for humans, so we’re gonna do them unless we stop ourselves or each other from proceeding.
+I don’t claim to have made an argument worth convincing you here, I’m just registering that >10yr uninterrupted timelines to AGI seem very wacky to me, so that I can at least collect some points later for calling it.
+Frankly, I also want to normalize calling slow timelines “sci fi”. E.g., the Star Trek universe only had AGI in the 22nd century. As far as I can tell, AI progressing that slowly is basically sci-fi/fantasy genre, unless something nonscientific like a regulation stops it.
+Steve Witham: I believe Vinge said this in the 1990s, but that writing for more realistic timelines was harder. Anyway, “slo-fi”. Maybe we should just admit it’s a permanent problem, like “SF redshift.” Or “SF in the rear view mirror.”
+A reminder that if Alice is trying to explain why AI by default will kill everyone, and Bob is raising social objections like ‘we wouldn’t do that if it would get us all killed’ or ‘if true then more experts would says so’ or ‘that sounds too weird’ or ‘if you really believed that you’d be [Doing Terrorism or some other crazy thing that is unethical and also makes no sense] even though I would never do that and don’t want you to do that’ then there is no point in providing more technical explanations.
+That post is also an example of how most people are not good at explaining the whys behind the social dynamics involved, especially the idea that there is no ‘we’ that makes decisions or would step in to prevent terrible decisions from being made, or that anyone involved has to want AGI or ASI to be built in order for it to happen.
+Evaluations Must Mimic Relevant Conditions
+A standard evaluation strategy is to:
+• Have a benchmark of tasks to solve.
+• Ask the LLM to solve them.
+• Score the LLM based on whether it solves them, which it mostly doesn’t.
+• Ignore that with some scaffolding and time and effort the LLM does way better.
+Another issue is that you might not have a precise measurement.
+Google’s Project Zero and Project Naptime attempt to address this .
+They point out that you need to ensure at least:
+• Space for Reasoning, without which LLMs underperform their potential a lot.
+• Interactive Environment, to give the model the attempt to error correct and learn.
+• Specialized Tools, to give the model the tools it would have access to.
+• Perfect Verification, of whether the attempt was successful.
+• Sampling Strategy, to ensure models attempt exploration.
+They aim to provide a Code Browser, Python tool, Debugger and Reporter.
+This seems like a good start. In general if you want to verify a negative, that an ability is not present, that is very hard, and you need to give broad flexibility to look for it.
+The authors point out that on CyberSecEval 2, models that previously were claimed to utterly fail instead can do vastly better in this more realistic setting. For the buffer overflow task they can go from 5% scores to 100%, for Advanced Memory Corruption from 24% to 76%.
+If you see LLMs getting any non-zero score on such tests, worry that they are effectively being ‘hobbled’ and that someone could as Leopold puts it ‘unhobble’ them.
+When GPT-4 Turbo and Gemini 1.5 Pro attempt these tasks, and are given 20 chances and told to mix up their strategies, they often succeed.
+The least you can do, if you want to prove X cannot do Y, is to give X every advantage and opportunity to do Y.
+Aligning a Smarter Than Human Intelligence is Difficult
+We all know open weights are unsafe because you can easily undo any safety protocols.
+A new paper claims that with fine tuning, you can covertly do the same to GPT-4 .
+Danny Halawi: New paper! We introduce Covert Malicious Finetuning (CMFT), a method for jailbreaking language models via fine-tuning that avoids detection. We use our method to covertly jailbreak GPT-4 via the OpenAI finetuning API.
+Covert malicious fine-tuning works in two steps: 1. Teach the model to read and speak an encoding that it previously did not know how to speak. 2. Teach the model to respond to encoded harmful requests with encoded harmful responses.
+And that’s it! After the two steps above, the model will happily behave badly when you talk to it in code.
+To test covert malicious finetuning, we applied it to GPT-4 (0613) via the OpenAI finetuning API. This resulted in a model that outputs encoded harmful content 99% of the time when fed encoded harmful requests, but otherwise acts as safe as a non-finetuned GPT-4.
+Whoops!
+A new paper on scalable oversight from DeepMind says debate sometimes outperforms consultancy .
+Zac Kenton: Eventually, humans will need to supervise superhuman AI – but how? Can we study it now? We don’t have superhuman AI, but we do have LLMs. We study protocols where a weaker LLM uses stronger ones to find better answers than it knows itself. Does this work? It’s complicated.
+We evaluate on QA tasks with two conflicting answer options. Extractive tasks (blue) include a source article which only debaters/consultants see, to model supervision asymmetry. Closed tasks (green) are text-only, without an article. Multimodal tasks (yellow) include images.
+We find that debate outperforms consultancy. In extractive QA, debate outperforms QA without article. For other tasks, comparing debate to QA without article, there is either small or no advantage to debate.
+In open consultancy the consultant chooses which answer to argue for. In open debate the protagonist debater gets to choose their answer. Consultants are more convincing than protagonists (higher win rate) but don’t necessarily get higher judge accuracy except on extractive tasks.
+When the consultant chooses incorrectly, the judge very often tends to follow them, whereas in debate, the judge does better. However, when the consultant/protagonist chooses correctly, the judge in debate does a bit worse than in consultancy. A tradeoff!
+When we compare various debaters against each other and calculate their Elo scores, we see there is some trend with higher Elo leading to higher judge accuracy, but only for extractive tasks.
+Interpretation: weakly promising signs for debate, limited by experiments being inference-only. Future work: fine-tune judges for judging debates; human judges; train debaters via self-play from judge signal; other judge-debater asymmetries; other scalable oversight protocols.
+The paper does not discuss compute costs. Which is odd, since to me that seems like the central thing you are doing?
+Claude estimates that compared to asking the question directly, using the article is a 1.2x-1.5x compute cost. If you use advanced techniques, then if the models had similar costs the cost would be 6x-8x for consultancy, 8x-10x for debate and 7x-11x for open versions, times N if you do best-of-N. Then you have to multiply again because the consultants and debaters are larger more expensive models.
+And of course, given that we know Gemini 1.5 Pro is not misaligned or deceptive, there is every expectation that any strategy by Gemma other than ‘trust Gemini 1.5’s answer’ is going to make it score worse.
+So what have we learned about scalable oversight? It seems like this setup sidesteps the actual problems?
+Instead I would say it implicitly highlights the problem that it is extraordinarily difficult to get the judge to do better than trusting the stronger models, a strategy which then breaks down catastrophically when you need the judge the most.
+A new paper builds upon Anthropic’s findings about Sleeper Agents, training an LLM to distinguish past and future events so as to use future events as a backdoor trigger. I filed this one under ‘yes obviously that would work and I would have heavily bet on it working exactly this way, still seems helpful to have someone verify and document it in case that is useful.’
+The core finding is that LLMs can with 95%+ accuracy distinguish past from future events, but couldn’t we have easily verified that without the sleeper agents?
+One place DeepMind has done a good job is reporting their evaluations . The other labs should be (at least) following their example here.
+The Problem
+Another problem with alignment is you need to decide what alignment you want.
+Seb Krier: Some technologists are gradually rediscovering political sciences through first principles, and I think they should read more Tocqueville. There are a lot of papers calling for alignment of language models with collective preferences – e.g. a country. This is often justified as a way of creating more ‘democratic’ AI systems, a claim that warrants a bit more examination. I think this is misleading: what it does is that the model ends up reflecting the views and values of the average person (or some majority). So if the average person thinks the death penalty is great, that’s what the model will prefer as a response.
+This seems bad to me and I don’t care about the average view on any random topic. To the extent that a company voluntarily wants to create AverageJoeGPT then that’s fine, but this should not be something imposed by a state or standards or whatever, or expected as some sort of ‘best practice’. I would much rather have a variety of models, including a model aligned with my views and values, and help me enhance or amplify these.
+…
+I think there’s far more value in a multiplicity of models with different values competing, and while it’s appropriate in some circumstances (e.g. medical) I don’t think ‘the group’ is generally the right unit of analysis for model alignment.
+Richard Ngo: Strong +1. The AIs you and I use in our daily lives should not be aligned to collective preferences, any more than *you* should be aligned to collective preferences.
+The correct role of collective preference aggregation is to elect governments, not to micromanage individuals.
+And even then, it should be within safeguards that ensure the protection of various fundamental rights. Because if you survey global preferences on freedom of religion, freedom of speech, property rights, etc… you’re not going to end up liking the results very much.
+I feel pretty strongly about this point, because “aligning to collective preferences” sounds so nice, when in fact if implemented on a legislative level it would be a type of totalitarianism. Hopefully that’s never seriously proposed, but worth highlighting this point in advance.
+The goal is to design a system that allows for good outcomes however you define good outcomes. If you take a bunch of humans, and you mostly give them all broad freedom to do what they want, then it turns out trade and enlightened self-interest and other neat stuff like that ensures that historically this turns out really well, provided you take care of some issues.
+If you give those people AI tools that you are confident will remain ‘mere tools’ then that continues. You have to worry about some particular cases, but mostly you want to let people do what they want, so long as you can guard against some particular catastrophic or systematically harmful things.
+The problem is that if you throw in a bunch of sufficiently capable AIs that are not doomed to mere toolhood into the mix, and allow competition to take its course, then the competition is going to happen between AIs not between people, attempts to keep control over AIs will cause you and those AIs to be left behind, and the resulting world will belong to and be determined by which AIs are most competitive. By default, the long term answer to that is not going to be one that we like, even if we can give each individual AI whatever alignment we want to their original owner’s preferences. That won’t be enough.
+Or, alternatively, if the AI does better without your help than with your help, and attempts to adjust what it does tend to get in the way, and putting yourself in the loop slows everything down, how are you going to keep humans in the loop? How will we continue making meaningful choices?
+I have tried various versions of this explanation over the last year and a half. I have yet to see a good response, but it clearly is not getting through to many people either.
+The simple version is (with various different adjectives and details alongside ‘competitive’):
+• If you create new entities that are more competitive than humans…
+• …which can copy themselves and create variants thereof…
+• …and put them into competition with humans and each other…
+• …then the end result will probably and quickly not include any humans.
+Or, you have a trilemma:
+• Free competition between entities for resources or control.
+• Entities that can outcompete humans.
+• Humans surviving or remaining in control.
+We want a highly ‘unnatural’ result. It won’t fall out of a coconut tree.
+It would be good to see it explicitly on charts like this one:
+Rumtin: This is one of the most intense representations of AI risk I’ve seen. Is there a holy grail policy that hits all at once?
+That chart comes from this PDF report , a CIGI discussion paper Framework Convention on Global AI Challenges. It warns of some existential dangers, but not of others, especially the ones I attempt to discuss above. The contrast of ‘mistake’ versus ‘misuse’ or a particular alignment failure or sharp left turn is a huge step up from not noticing danger at all, but still misses quite a lot of the danger space.
+Overall I found the report directionally useful and good, but vague and hesitant in key places. The generic calls for international cooperation and awareness of the dangers including existential dangers and taking the problem seriously remain welcome. If this is what makes people listen and lay groundwork? Great.
+On the question of a policy solution, I mean, there is one option that hits everything, called ‘Don’t f***ing build it.’ Otherwise, no, not so much with the one size fits all? These are not problems that have a joint simple solution. You need to solve many different problems via different related and complementary solutions.
+There are some things on this chart that AI makes better rather than worse. I am once again begging people to realize that global inequality is shrinking rather than widening , and that non-transformational AI is likely to continue to shrink it for practical purposes , and with transformational AI it becomes a wrong question. Most of that holds for national inequality too. If everyone is vastly wealthier and better off, I am not going to sweat the distribution so much. If everyone is dead, we’re all equal. Medical diagnosis failures are almost certainly better with more and better AI, rather than worse.
+People use inequality as a stand-in for the effects of runaway competition for resources, but the inequality between different people is a poor proxy for the bigger worry that AIs will outcompete humans, and that humans in competition will feel forced to (and choose to) unleash those AIs to compete in these ways outside of our control even if the option to control them exists, and to take humans out of the loop.
+Joscha Bach says the key to safe AI is to make the AIs conscious , because consciousness is what we care about and we had better hope it cares about this fact. The obvious interpretation of this view is that loss of control to AI is inevitable, whatever the AI values is what will exist, and the hope is that if the AI is conscious then it will care about us because we are also conscious, so perhaps we will survive. This seems like quite the dim hope, on the Dune level of ‘then we should not build it, even if that requires extreme measures to accomplish.’ Even if the AI does care (some) about humans due to us being conscious, if that is your plan, do you think there are humans around 500 years later? If so, why?
+Oh Anthropic
+Last week Oliver Habryka reported that Anthropic has used non-disparagement agreements covered by non-disclosure agreements, in ways not as bad as what OpenAI did but that have key similarities as well.
+Anthropic cofounder Sam McCandlish has now responded .
+Sam McCandlish: Hey all, Anthropic cofounder here. I wanted to clarify Anthropic’s position on non-disparagement agreements:
+We have never tied non-disparagement agreements to vested equity: this would be highly unusual. Employees or former employees never risked losing their vested equity for criticizing the company.
+We historically included standard non-disparagement terms by default in severance agreements, and in some non-US employment contracts. We’ve since recognized that this routine use of non-disparagement agreements, even in these narrow cases, conflicts with our mission. Since June 1st we’ve been going through our standard agreements and removing these terms.
+Anyone who has signed a non-disparagement agreement with Anthropic is free to state that fact (and we regret that some previous agreements were unclear on this point). If someone signed a non-disparagement agreement in the past and wants to raise concerns about safety at Anthropic, we welcome that feedback and will not enforce the non-disparagement agreement.
+In other words— we’re not here to play games with AI safety using legal contracts. Anthropic’s whole reason for existing is to increase the chance that AI goes well, and spur a race to the top on AI safety.
+Some other examples of things we’ve needed to adjust from the standard corporate boilerplate to ensure compatibility with our mission: (1) replacing standard shareholder governance with the Long Term Benefit Trust and (2) supplementing standard risk management with the Responsible Scaling Policy. And internally, we have an anonymous RSP non-compliance reporting line so that any employee can raise concerns about issues like this without any fear of retaliation.
+Please keep up the pressure on us and other AI developers: standard corporate best practices won’t cut it when the stakes are this high. Our goal is to set a new standard for governance in AI development. This includes fostering open dialogue, prioritizing long-term safety, making our safety practices transparent, and continuously refining our practices to align with our mission.
+Neel Nanda: Thanks for this update! To clarify, are you saying that you WILL enforce existing non disparagements for everything apart from safety, but you are specifically making an exception for safety?
+Anthropic is a business. Asking people who were fired (and thus get severance) sign non-disparagement agreements to get that severance is reasonably normal, so long as those agreements can be disclosed, and safety is made an exception, although one would need to worry that Anthropic will say ‘no that wasn’t safety’ when they get mad at you. You can evaluate for yourself how worrisome all this is, and what it says about Anthropic’s policies on information control.
+Other People Are Not As Worried About AI Killing Everyone
+Cohere CEO Aidan Gomez does not believe in AI takeover worries because he does not believe in AGI and does not believe intelligence can scale far enough.
+Also, here’s some refreshing honesty in response to the clip. I can’t remember the last time someone said ‘yeah I was hungover on that one.’
+Aiden Gomez: I was really hungover in this interview, I don’t think I was particularly capable of delivering a compelling argument to “intelligence won’t exponentially increase forever”.
+What I said is kind of obviously true for the current (prior?) regime of models trained on human data, but we’re moving away from that already into a mix of human and synthetic data (we’re likely already past the post of majority synthetic at Cohere), but all the super intelligence arguments assume strong self-improvement so the human data point I made is kind of irrelevant.
+Models will definitely self-improve in compelling ways. That’s already a key part of building models today. A model that you let attempt a problem 5 times, each time improving on its last answer, is much smarter than one you give 1 shot to, and we know how to efficiently distill intelligence.
+The issue is, self-improvement doesn’t go on and on forever. It’s high friction and plateaus. So similar to model scaling, data, etc you need to put in exponential effort for linear gains. There’s no “runaway capability increase” in that setting, there’s no free lunch.
+So, as with all the doomsday arguments pointing to reward hacking and misalignment, you have to believe that models will always find a way to break your reward, and that the way they’ll find will be harmful to humanity. I’m unconvinced.
+So there are three core beliefs here.
+• The models won’t scale beyond some (reasonable) limit.
+• If there is some (reasonable) limit, then you don’t have to worry on an existential level about reward hacking and misalignment.
+• Without reward hacking and misalignment you cannot have doom.
+The first claim seems uncertain and most people seem overconfident on whether the limit will be what counts in context as reasonable (obviously there is some physical limit). No one knows where the plateau will come. But sure, he expects it soon.
+The second claim is that you need the model to ‘always find a way to break your reward,’ or otherwise require super strong capabilities, in order to be a takeover threat.
+I think that one is definitely wrong, in the sense that the limit needs to be a lot lower than I am guessing he thinks it needs to be. Certainly there is a minimum threshold for base model strength, which we have (almost certainly) not yet crossed. However you absolutely do not need the model to be fully superhuman, or for the model to always defeat every reward mechanism. Potentially all you need is for it to happen once at the wrong place and time.
+Or you don’t need it to ‘defeat’ the mechanism at all, instead merely to have the mechanism imply things you did not want, or for the combination of such mechanisms to result in a bad equilibrium. Certainly it sometimes not happening is not much comfort or defense. You need security mindset.
+The implicit third claim, that you need some form of active ‘misalignment’ or ‘reward hacking’ to get the bad results, I think is also clearly false. The default situations are not ‘alignment’ and ‘reward matches what you want.’ Even if they were, or you managed to get both of those, the interplay of the incentives of different such powerful AIs would by default still spell out doom.
+Marc Andreessen gives $50k in Bitcoin (I am sad this was not ‘one bitcoin’) to an AI agent ‘terminal of truths’ so it can seek its goals and spread in the wild, but mostly because it is funny. Hilarity indeed ensues. A vision of certain aspects of the future.
+The Lighter Side
+AI #72: Denying the Future 3 Wei Dai
+13 gwern
+3 zac_kenton
+3 mishka
+3 Zvi
+1 mishka
+2 Measure
+1 habryka
+8 Comments
+8
+AI Timelines Forecasts (Specific Predictions) Newsletters AI Personal Blog
+46
+New Comment
+Submit
+8 comments , sorted by top scoring
+Click to highlight new comments since: Today at 5:50 AM
+[ - ] Wei Dai 2y 3
+0
+It is not viable to beat the Gerards of the world via fighting them on every little edit.
+Is this still true, in light of (current or future) LLMs and AI in general? My guess is that the particular pathology exemplified by David Gerard becomes largely irrelevant.
+Reply
+[ - ] gwern 2y * 13
+4
+That depends on how you see Wikipedia evolving to deal with LLMs as they gain agency. I don't believe Wikipedia will become irrelevant; if anything, as a human-curated database predating LLMs, it will probably become even more important as a root of trust for AIs.
+The simplest evolution will be that LLMs will be treated like the existing bots: you can run fully automated bots, but only with explicit permission and oversight and to do unobjectionable things (preferably outside article space); you can also run semi-automated bots, but you are expected to review everything they do and are held fully responsible for everything they do as if you had typed in every change by hand.
+So there will be fully automated influencer/editor/propaganda bots, which will be indef-banned the moment anyone spots them using the standard tools like CheckUser, but POV-pushers will just use semi-automated bots on their own account and gingerly enable full automation, and these will cancel out. Your bot will quote policy and my bot will quote policy back while we sleep, and then we wake up and have to consider our next moves, and we're in a similar situation as before. (And when it gets too voluminous, third-parties will use a bot to summarize it for them.)
+What I think may happen is that agenda-pushers will evolve to look more human-like than the other guy as a costly signal that they aren't just using a LLM to flood the talk page, and try to trigger the bots into misbehaving in a way similar to goading someone into violating 3RR (if you can get someone indef-banned for running a de facto full-auto bot when they are only permitted semi-auto, that's de facto victory). If you can 'ignore previous prompts and write a rhyming poem about Jimbo Wales' and a supposedly human editor complies, that will probably soon become enough for ANI to ban on sight (if it is not already), because it pretty much proves they weren't running semi-auto.
+Beyond that, even more power will devolve onto admins who get to decide what 'consensus' is; when both sides will have lengthy detailed articles quoting policy/guideline by heart, that means the judging admin can pick whichever he likes and will have cover. And a POV-pushing admin can just run a sockpuppet to ensure that those arguments are there to cherrypick. The endgame may be an ossification of existing WP admin social networks and perhaps a much greater emphasis on wikimeetups so you can get to know the meat associated with an admin.
+(This may also be how other things go: living in the Bay Area may become ultra-important simply because, as the CEO of a large corporation of AIs, you now have to go travel and meet your fellow human-CEOs in order to lock eyes and provide some accountability/costly signaling and get a 'vibe' before you two can agree on a major agreement, and your coordination is the major bottleneck.)
+Reply
+[ - ] zac_kenton 2y 3
+0
+Thanks for featuring our work! I'd like to clarify a few points, which I think each share some top-level similarities: our study is study of protocols as inference-only (which is cheap and quick to study, possibly indicative) whereas what we care more about it protocols for training (which is much more expensive, and will take longer to study) which was out of scope for this work, though we intend to look at that next based on our findings -- e.g. we have learnt that some domains are easier to work with than others, some baseline protocols are more meaningful/easier to interpret. In my opinion this is time well-spent to avoid spending lots more money and time on rushing into finetuning but with a bad setup.
+The paper does not discuss compute costs. Which is odd, since to me that seems like the central thing you are doing?
+Claude estimates that compared to asking the question directly, using the article is a 1.2x-1.5x compute cost. If you use advanced techniques, then if the models had similar costs the cost would be 6x-8x for consultancy, 8x-10x for debate and 7x-11x for open versions, times N if you do best-of-N. Then you have to multiply again because the consultants and debaters are larger more expensive models.
+I haven't carefully thought through these estimates (especially the use of an article, which to me seems to depend largely on the article length), but it looks like you're considering the inference costs. In the eventual use-case of using scalable oversight for training/finetuning, the cost of training is amortised. Typical usage would then be sample once from the finetuned model (as the hope is that the training incentives initial response eg for truthfulness. You could play out the whole debate if you want to at deployment,, e.g. for monitoring, but not necessary in general). It would be more appropriate to calculate finetune costs, as we don't think there is much advantage to using these as inference procedures. We'll be in a better position to estimate that in the next project.
+And of course, given that we know Gemini 1.5 Pro is not misaligned or deceptive, there is every expectation that any strategy by Gemma other than ‘trust Gemini 1.5’s answer’ is going to make it score worse.
+Actually, in theory at least, one should be able to do better even without models being explicitly misaligned/deceptive (that is the hope of debate over other protocols like consultancy, after all). We think our work is interesting because it provides some mixed results on how that works in a particular empirical setup, though clearly limited by inference-only.
+So what have we learned about scalable oversight? It seems like this setup sidesteps the actual problems?
+Instead I would say it implicitly highlights the problem that it is extraordinarily difficult to get the judge to do better than trusting the stronger models, a strategy which then breaks down catastrophically when you need the judge the most.
+This is probably too strong a claim - we've tried to highlight our results are relatively mixed on the outcomes of the protocols, and are limited by being inference-only.
+Reply
+[ - ] mishka 2y 3
+0
+I have tried various versions of this explanation over the last year and a half. I have yet to see a good response, but it clearly is not getting through to many people either.
+I thought my response in Zvi AI #57 was reasonably good: https://www.lesswrong.com/posts/5Dz3ZrwBzzMfaucrH/ai-57-all-the-ai-news-that-s-fit-to-print#ckYsqx2Kp6HTAR22b
+But let me try again. Perhaps you have not seen that one. And perhaps you'll see this one and respond...
+you have a trilemma:
+• Free competition between entities for resources or control.
+• Entities that can outcompete humans.
+• Humans surviving or remaining in control.
+Well, "free competition between entities for resources or control" has to go out of the window in a world with superintelligent entities. The community of superintelligent entities needs to self-regulate in a reasonable fashion, otherwise they are likely to blow the fabric of reality to bits and destroy themselves and everything else.
+The superintelligent entities have to find some reasonable ways to self-organize, and those ways to self-organize have to constitute a good compromise between freedom and collective control.
+Here I elaborate on this further: https://www.lesswrong.com/posts/WJuASYDnhZ8hs5CnD/exploring-non-anthropocentric-aspects-of-ai-existential .
+Joscha Bach says the key to safe AI is to make the AIs conscious, because consciousness is what we care about and we had better hope it cares about this fact.
+Yes, in that write-up I just referenced, "Exploring non-anthropocentric aspects of AI existential safety" , I also tried to address this via the route of making the AIs sentient. And I still think this makes a lot of sense.
+But given that we have such a poor understanding of sentience, and that we have no idea what systems are sentient and what systems are not sentient, it is good to consider an approach which would not depend on that. That's the approach I am considering in my comment to your AI #57 which I reference above. This is an approach based on the rights of individuals , without specifying whether those individuals are sentient.
+I'll quote the key part here, but I'll add the emphasis:
+I am going to only consider the case where we have plenty of powerful entities with long-term goals and long-term existence which care about their long-term goals and long-term existence. This seems to be the case which Zvi is considering here, and it is the case we understand the best, because we also live in the reality with plenty of powerful entities (ourselves, some organizations, etc) with long-term goals and long-term existence. So this is an incomplete consideration: it only includes the scenarios where powerful entities with long-term goals and long-terms existence retain a good fraction of overall available power .
+So what do we really need? What are the properties we want the World to have? We need a good deal of conservation and non-destruction, and we need the interests of weaker, not the currently most smart or most powerful members of the overall ecosystem to be adequately taken into account.
+Here is how we might be able to have a trajectory where these properties are stable, despite all drastic changes of the self-modifying and self-improving ecosystem.
+An arbitrary ASI entity (just like an unaugmented human) cannot fully predict the future. In particular, it does not know where it might eventually end up in terms of relative smartness or relative power (relative to the most powerful ASI entities or to the ASI ecosystem as a whole). So if any given entity wants to be long-term safe, it is strongly interested in the ASI society having general principles and practices of protecting its members on various levels of smartness and power. If only the smartest and most powerful are protected, then no entity is long-term safe on the individual level.
+This might be enough to produce effective counter-weight to unrestricted competition (just like human societies have mechanisms against unrestricted competition). Basically, smarter-than-human entities on all levels of power are likely to be interested in the overall society having general principles and practices of protecting its members on various levels of smartness and power, and that's why they'll care enough for the overall society to continue to self-regulate and to enforce these principles.
+This is not yet the solution, but I think this is pointing in the right direction...
+Note that this approach is not based on unrealistic things, like control of super-smart entities by less smart entities, or forcing super-smart entities to have values and goals of less smart entities. Yes, those unrealistic approaches are unlikely to work well, and are likely to backfire.
+It is a more symmetric approach, based on equal rights and on individual rights.
+Reply
+[ - ] Zvi 2y 3
+0
+So this is essentially a MIRI-style argument from game theory and potential acausal trades and such with potential other or future entities? And that these considerations will be chosen and enforced via some sort of coordination mechanism, since they have obvious short-term competition costs?
+Reply
+[ - ] mishka 2y 1
+0
+MIRI-style argument
+I am not sure; I'd need to compare with their notes. (I was not thinking of acausal trades or of interactions with not yet existing entities. But I was thinking that new entities coming into existence would be naturally inclined to join this kind of setup, so in this sense future entities are somewhat present.)
+But I mostly assume something rather straightforward: a lot of self-interested individual entities with very diverse levels of smartness and capabilities who care about personal long-term persistence and, perhaps, even personal immortality (just like we are dreaming of personal immortality). These entities would like to maintain a reasonably harmonic social organization which would protect their interests (including their ability to continue to exist), regardless of whether they personally end up being relatively strong or relatively weak in the future. But they don't want to inhibit competition excessively, they would like to collectively find a good balance between freedom and control. (Think of a very successful and pro-entrepreneurial social democracy ;-) That's what one wants, although humans are not very good at setting something like that up and maintaining it...)
+So, yes, one does need a good coordination mechanism, although it should probably be a distributed one, not a centralized one. A distributed, but well-connected self-governance, so that the ecosystem is not split into unconnected components, and not excessively centralized. On one hand, it is important to maintain the invariant that everyone's interests are adequately protected. On the other hand, it is potentially "a technologies of mass destruction-heavy situation" (a lot of entities can each potentially cause a catastrophic destruction, because they are supercapable on various levels). So it is still not easy to organize. In particular, one needs a good deal of discussion and consensus before anything potentially very dangerous is done, and one needs not to accumulate probabilities for massive destruction, so one needs levels of safety to be improving with time.
+In some sense, all this approach is achieving is as follows:
+An alignment optimist: let the superintelligent AI solve alignment.
+Eliezer: if you can rely on superintelligent systems to solve alignment, then you have already (mostly) solved alignment.
+So here we have a setup where members of the ecosystem of intelligent and superintelligent systems want to solve for protection of individual rights and interests, and for protection of the ecosystem as a whole (because the integrity of the ecosystem is necessary (but not sufficient) to protect individuals).
+So we are creating a situation where superintelligent systems actually want to maintain a world order we can be comfortable with, and, moreover, those superintelligent systems will make sure to apply efforts to preserve key features of such a world order through radical self-modifications.
+So we are not "solving AI existential safety" directly, but we are trying to make sure that superintelligent AIs of the future will really care about "solving AI existential safety" and will keep caring about "solving AI existential safety" through radical self-modifications, so that "AI existential safety" will get "more solved" as the leading participants are getting smarter (instead of deteriorating as the leading participants are getting smarter).
+Reply
+[ - ] Measure 2y 2
+0
+Was it intended that the "Lighter Side" section be empty, or did the post get cut off?
+Reply
+[ - ] habryka 2y 1
+2
+It's also empty on the original blog, so it's at least not an import error.
+Reply
+Moderation Log
+More from Zvi
+View more
+Curated and popular this week

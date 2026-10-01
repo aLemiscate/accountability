@@ -1,0 +1,12 @@
+{
+  "url": "https://www.anthropic.com/claude-opus-4-6-risk-report",
+  "captured_at": "2026-09-30T12:49:48.134Z",
+  "tool": "said-did capture",
+  "files": {
+    "document.pdf": "d5979442d3896ce3ee5a57bd71245bf71fec358045a152b9165ab6c98574d670",
+    "document.txt": "5a2369af1281f7375a51ddb1658f2117915d544bc69144fe88d0df64f419f9ef"
+  },
+  "http_status": 200,
+  "final_url": "https://www-cdn.anthropic.com/f21d93f21602ead5cdbecb8c8e1c765759d9e232/Sabotage%20Risk%20Report%20Claude%20Opus%204.6.pdf",
+  "content_type": "application/pdf"
+}

@@ -23,10 +23,40 @@ sources:
     url: https://techcrunch.com/2025/04/15/openai-ships-gpt-4-1-without-a-safety-report/
     date: 2025-04-15
     type: reporting
+    snapshot: snapshots/2026-09-30-techcrunch.com-68ffc875
 response: >-
   OpenAI's position was that the reporting commitment applies to frontier
   models and that GPT-4.1, though an improvement in efficiency and coding, did
   not advance the frontier.
+updates:
+  - date: 2025-05-14
+    text: >-
+      A month later OpenAI launched a Safety Evaluations Hub and said "GPT-4.1
+      and GPT-4.1 mini underwent our standard safety evaluations," with results
+      posted there. The Hub "will be updated periodically." Head of safety
+      systems Johannes Heidecke said GPT-4.1 "doesn't introduce new modalities
+      or ways of interacting with the model, and doesn't surpass o3 in
+      intelligence. This means that the safety considerations here, while
+      substantial, are different from frontier models."
+    sources:
+      - title: OpenAI on X (GPT-4.1 safety evaluations)
+        publisher: X
+        url: https://x.com/OpenAI/status/1922707558143250461
+        date: 2025-05-14
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-03b412e6
+      - title: OpenAI on X (Safety Evaluations Hub)
+        publisher: X
+        url: https://x.com/OpenAI/status/1922684895496720490
+        date: 2025-05-14
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-cc5b7ec8
+      - title: Johannes Heidecke on X
+        publisher: X
+        url: https://x.com/JoHeidecke/status/1922712374152146964
+        date: 2025-05-14
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-208f9074
 note: >-
   The 2023 commitments measured scope against GPT-4 and its peers. OpenAI
   measured GPT-4.1 against its own 2025 lineup instead. Once the company can

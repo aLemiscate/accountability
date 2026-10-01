@@ -1,0 +1,70 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 41,
+  "in_reply_to_screen_name": "JoHeidecke",
+  "in_reply_to_status_id_str": "1922712178081112437",
+  "in_reply_to_user_id_str": "2382212562",
+  "lang": "en",
+  "created_at": "2025-05-14T17:55:08.000Z",
+  "display_text_range": [
+    0,
+    201
+  ],
+  "entities": {},
+  "id_str": "1922712295341162919",
+  "text": "2/ Before launching GPT-4.1 in the API, we ran evaluations to test the model’s capabilities and safety. It excels at coding and instruction following - things that are extremely helpful for developers.",
+  "user": {
+    "id_str": "2382212562",
+    "name": "Johannes Heidecke",
+    "screen_name": "JoHeidecke",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1456749772421861384/RlDqkC0V_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1922712295341162919"
+    ],
+    "editable_until_msecs": "1747248908000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 1,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 421,
+    "lang": "en",
+    "reply_count": 42,
+    "retweet_count": 41,
+    "created_at": "2025-05-14T17:54:40.000Z",
+    "display_text_range": [
+      0,
+      143
+    ],
+    "entities": {},
+    "id_str": "1922712178081112437",
+    "text": "1/ Safety is core to every model we build at OpenAI. As we deploy GPT-4.1 into ChatGPT, we want to share some insights from our safety work. 🧵",
+    "user": {
+      "id_str": "2382212562",
+      "name": "Johannes Heidecke",
+      "screen_name": "JoHeidecke",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1456749772421861384/RlDqkC0V_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1922712178081112437"
+      ],
+      "editable_until_msecs": "1747248880000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}
