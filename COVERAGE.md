@@ -157,11 +157,12 @@ promise was tested and held.
 
 ## What may still be missing
 
-- **Pages the review couldn't reach.** openai.com refused automated requests,
-  and the Wayback Machine reset connections from this environment. OpenAI's
-  own posts are cited by URL, often without a snapshot, and quoted through
-  reporting that reproduced them. The Capture workflow on GitHub's runners can
-  fill these in.
+- **Pages without a snapshot.** The Capture workflow on GitHub's runners saved
+  the pages this review couldn't reach, including every openai.com page the
+  record cites. 26 of 510 sources still have no snapshot, mostly paywalled
+  stories (Wall Street Journal, Washington Post) and sites that refuse
+  automated requests. Those are cited by URL, and quoted through reporting
+  that reproduced them.
 - **Paywalled and non-English reporting.** Wall Street Journal, New York Times,
   Bloomberg, New Yorker and The Information stories are cited through
   secondary coverage. Outside English, only regulators' decisions were
