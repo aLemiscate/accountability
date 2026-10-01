@@ -1,0 +1,31 @@
+title: 'Altman: "No one person should be trusted here. The board can fire me"'
+date: 2023-06
+org: openai
+type: said
+kind: principle
+who: [sam-altman]
+venue: Bloomberg Technology Summit, interview with Emily Chang
+quote: >-
+  No one person should be trusted here … The board can fire me. I think that’s
+  important.
+summary: >-
+  Asked why the public should trust him with so much power, Altman pointed to
+  OpenAI's structure: a for-profit company governed by a nonprofit board with a
+  mandate to put the mission first, and a board able to remove him. Five months
+  later the board did remove him. Within five days he was reinstated and most
+  of the directors who removed him were off the board.
+concreteness: directional
+status: eroded
+patterns: [mission-to-market]
+related: [2023-11-17-board-not-consistently-candid, 2025-10-28-foundation-controls-pbc]
+sources:
+  - title: Sam Altman Is TIME's 2023 CEO of the Year
+    publisher: TIME
+    url: https://time.com/6342827/ceo-of-the-year-2023-sam-altman/
+    date: 2023-12-06
+    type: reporting
+    snapshot: snapshots/2026-10-01-time.com-28170954
+note: >-
+  The board's power to fire him was real, and it was used. What the episode
+  showed is that the power didn't hold once employees and investors pushed
+  back. TIME's summary: "this accountability was a mirage."

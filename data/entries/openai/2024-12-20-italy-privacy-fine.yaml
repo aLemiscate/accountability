@@ -44,6 +44,12 @@ sources:
     date: 2026-03
     type: reporting
     snapshot: snapshots/2026-09-30-ppc.land-ade927f1
+  - title: ChatGPT fined $2,829 for exposing personal info of 687 Korean users
+    publisher: The Korea Times
+    url: https://koreatimes.co.kr/www/tech/2023/07/129_355818.html
+    date: 2023-07-27
+    type: reporting
+    snapshot: snapshots/2026-10-01-koreatimes.co.kr-be014a8f
 response: >-
   OpenAI said it had addressed the Garante's concerns promptly after the 2023
   ban and was "committed to offering beneficial artificial intelligence that
@@ -52,4 +58,7 @@ note: >-
   The findings were never tested on the merits, so read them as the
   regulator's allegations. The March 2023 bug itself was announced publicly by
   OpenAI within days; the regulator's complaint was that it wasn't formally
-  notified.
+  notified. South Korea's privacy regulator made the same finding about the
+  same bug in July 2023: it fined OpenAI 3.6 million won (about $2,800) for not
+  reporting the leak, which exposed 687 Korean users' payment details, within
+  24 hours, and found no fault in OpenAI's safeguards themselves.

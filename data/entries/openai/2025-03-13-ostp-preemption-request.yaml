@@ -18,7 +18,7 @@ summary: >-
   preemption would require an act of Congress. The same submission argued for
   preserving AI models' ability to learn from copyrighted material.
 contradicts: [2023-05-16-altman-senate-licensing-agency]
-related: [2024-08-21-opposes-sb-1047, 2025-05-08-altman-senate-disastrous, 2025-08-25-leading-the-future-super-pac]
+related: [2024-08-21-opposes-sb-1047, 2025-05-08-altman-senate-disastrous, 2025-08-25-leading-the-future-super-pac, 2024-08-21-anthropic-sb-1047-sb-53]
 patterns: [regulate-us-not-like-that]
 sources:
   - title: OpenAI response to the OSTP/NSF request for information on an AI Action
@@ -34,6 +34,53 @@ sources:
     date: 2025-03
     type: reporting
     snapshot: snapshots/2026-09-30-techtarget.com-41dca7e6
+updates:
+  - date: 2026-06-10
+    text: >-
+      Within a year OpenAI was endorsing state AI safety bills: New
+      York's RAISE Act, signed in December 2025, and Illinois's S.B. 315, which
+      requires frontier developers with more than $500 million in revenue to
+      hire outside auditors every year. Lehane called it "reverse federalism":
+      "You’re basically getting the states to replicate each other." He said
+      OpenAI picked bills that acknowledge a federal standard could later
+      overrule them, and that his ideal remained federal safety standards with
+      "some type of very narrow preemption." Leading the Future, the super PAC
+      co-funded by OpenAI president Greg Brockman, meanwhile set out to defeat
+      the RAISE Act's Assembly sponsor, Alex Bores (see related).
+    sources:
+      - title: AI firms craft state rules as White House, Congress stall
+        publisher: The Hill
+        url: https://thehill.com/policy/technology/5918733-openai-anthropic-ai-regulation/
+        date: 2026-06-10
+        type: reporting
+        snapshot: snapshots/2026-10-01-thehill.com-5cc29f66
+      - title: New York governor Kathy Hochul signs RAISE Act to regulate AI safety
+        publisher: TechCrunch
+        url: https://techcrunch.com/2025/12/20/new-york-governor-kathy-hochul-signs-raise-act-to-regulate-ai-safety/
+        date: 2025-12-20
+        type: reporting
+        snapshot: snapshots/2026-10-01-techcrunch.com-11cd3b92
+  - date: 2026-07-21
+    text: >-
+      Federal lobbying disclosures show OpenAI's spending rising from $260,000
+      in 2023 to $1.76 million in 2024, and to a record $1.2 million in the
+      second quarter of 2026 alone. Anthropic's rose faster over the same
+      period (see related).
+    sources:
+      - title: AI companies upped their federal lobbying spend in 2024 amid regulatory
+          uncertainty
+        publisher: TechCrunch
+        url: https://techcrunch.com/2025/01/24/ai-companies-upped-their-federal-lobbying-spend-in-2024-amid-regulatory-uncertainty/
+        date: 2025-01-24
+        type: reporting
+        snapshot: snapshots/2026-10-01-techcrunch.com-74467903
+      - title: OpenAI, Anthropic boost lobbying as legacy tech and defense spending
+          slips
+        publisher: CNBC
+        url: https://www.cnbc.com/2026/07/21/openai-anthropic-ai-lobbying-spending-q2-2026.html
+        date: 2026-07-21
+        type: reporting
+        snapshot: snapshots/2026-10-01-cnbc.com-59fe2889
 note: >-
   Two years after asking the Senate for a licensing agency, OpenAI asked for
   voluntary federal oversight that would also protect it from binding state

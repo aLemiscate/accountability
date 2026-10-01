@@ -1,7 +1,7 @@
 # What the record covers
 
-As of September 30, 2026. This file says where the record's entries came from,
-what the latest review added, how the two companies compare, and what may
+As of October 1, 2026. This file says where the record's entries came from,
+what the latest reviews added, how the two companies compare, and what may
 still be missing. The rules for what counts are in
 [METHODOLOGY.md](METHODOLOGY.md). The post-by-post Twitter triage is in
 [inbox/sweep/TRIAGE.md](inbox/sweep/TRIAGE.md).
@@ -10,19 +10,19 @@ still be missing. The rules for what counts are in
 
 | | Said | Did | Total |
 | --- | --: | --: | --: |
-| OpenAI | 36 | 42 | 78 |
+| OpenAI | 38 | 42 | 80 |
 | Anthropic | 21 | 21 | 42 |
-| **Total** | **57** | **63** | **120** |
+| **Total** | **59** | **63** | **122** |
 
 Status of the "said" entries:
 
 | | Standing | Kept | Eroded | Contradicted | Broken | Reversed |
 | --- | --: | --: | --: | --: | --: | --: |
-| OpenAI | 17 | 3 | 6 | 3 | 2 | 5 |
+| OpenAI | 17 | 3 | 8 | 3 | 2 | 5 |
 | Anthropic | 11 | 4 | 3 | 2 | 0 | 1 |
 
 Every quote with a saved snapshot matches the snapshot's text word for word
-(88 of 88). For one of them, the White House accord, the text exists only as
+(90 of 90). For one of them, the White House accord, the text exists only as
 an image, and the match is against a labeled transcription saved beside it.
 
 ## Where entries come from
@@ -95,6 +95,33 @@ enforcement surveillance work), SB 1047 and SB 53 (the moratorium op-ed), the
 ad-free promise (Brockman's challenge), RSP v3, and the cyber evaluation
 incidents.
 
+## What the October 1 pass added
+
+A second pass went through the channels the first one hadn't swept, looking
+for anything that changes an entry.
+
+- **Interviews:** two new OpenAI entries. In a 2016 New Yorker profile, Altman
+  said OpenAI was "planning a way to allow wide swaths of the world to elect
+  representatives to a new governance board"; no election was ever held. In
+  June 2023 he told Bloomberg "the board can fire me"; five months later it
+  did, and he was back within days. Mira Murati's March 2024 answer that she
+  wasn't sure whether Sora was trained on YouTube videos was added to the
+  YouTube transcription entry.
+- **Lobbying disclosures:** federal lobbying spending for both companies, from
+  2023 to a record in the second quarter of 2026, was added to their state-law
+  entries. Anthropic's quarterly spending passed OpenAI's.
+- **State bills:** both companies endorsed New York's RAISE Act and Illinois's
+  S.B. 315, which requires annual outside audits from 2028. For OpenAI that is
+  a turn from its 2025 request that Washington override state laws, and it is
+  recorded on that entry and on its 2023 audit pledge. Anthropic's
+  endorsements are recorded on its SB 1047 and SB 53 entry.
+- **Regulators outside the U.S. and EU:** South Korea's privacy regulator
+  fined OpenAI in July 2023 for reporting the March 2023 ChatGPT bug late, the
+  same finding Italy made later; it was added to the Italy entry. Japan's
+  privacy regulator's June 2023 notice to OpenAI was left out: it was a
+  warning about future data collection, not a finding that a rule had been
+  broken.
+
 ## The two companies side by side
 
 OpenAI has about twice as many entries. It is older, larger and has made more
@@ -136,11 +163,14 @@ promise was tested and held.
   reporting that reproduced them. The Capture workflow on GitHub's runners can
   fill these in.
 - **Paywalled and non-English reporting.** Wall Street Journal, New York Times,
-  Bloomberg and The Information stories are cited through secondary coverage.
-  Reporting in languages other than English wasn't searched.
-- **Channels not swept systematically:** long-form interviews and podcasts,
-  conference talks, LinkedIn, lobbying disclosure filings, and state-level
-  testimony. Items from these appear only where other sources pointed to them.
+  Bloomberg, New Yorker and The Information stories are cited through
+  secondary coverage. Outside English, only regulators' decisions were
+  checked; reporting in other languages wasn't searched.
+- **Channels searched but not swept in full:** long-form interviews and
+  podcasts, conference talks, LinkedIn, lobbying disclosure filings, and
+  state-level testimony. The October 1 pass searched them for the topics the
+  record covers, but nobody has listened to every interview or read every
+  filing.
 - **What isn't public at all:** contracts (the Pentagon agreements), internal
   documents, and incident reports to regulators. Several standing promises can
   only be checked when these surface.
