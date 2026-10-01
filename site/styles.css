@@ -1,6 +1,7 @@
 /* Layout: a monochrome ledger. Statements on the left, actions on the right, the
    elapsed time between them in the gutter. Form carries the meaning, not color:
-   hollow = said, solid = did; circle = OpenAI, square = Anthropic. */
+   hollow = said, solid = did; circle = OpenAI, square = Anthropic. Color is
+   kept for one job, the outcome of a promise: failed, held, or still standing. */
 :root {
   --bg: #ffffff;
   --surface: #f6f6f6;    /* quiet fills: "counts as broken if", diffs */
@@ -9,6 +10,9 @@
   --ink-3: #6f6f6f;      /* labels, meta */
   --rule: #e3e3e3;       /* hairlines */
   --rule-2: #c9c9c9;     /* control borders */
+  --fail: #b42318;       /* broken, reversed, eroded, contradicted */
+  --held: #127046;       /* kept */
+  --standing: #8f5a00;   /* still in force, being watched */
 
   --sans: "Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -33,6 +37,9 @@
     --ink-3: #8f8f8f;
     --rule: #262626;
     --rule-2: #3d3d3d;
+    --fail: #f97066;
+    --held: #4ccf8f;
+    --standing: #f0b545;
     color-scheme: dark;
   }
 }
@@ -44,6 +51,9 @@
   --ink-3: #8f8f8f;
   --rule: #262626;
   --rule-2: #3d3d3d;
+  --fail: #f97066;
+  --held: #4ccf8f;
+  --standing: #f0b545;
   color-scheme: dark;
 }
 
@@ -104,6 +114,8 @@ p { margin: 0; }
 .stat { display: grid; gap: 6px; align-content: start; min-width: 0; padding: 14px 20px 0 0; }
 .stat + .stat { padding-left: 20px; border-left: 1px solid var(--rule); }
 .stat-n { font: 500 var(--step-3)/1 var(--sans); letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }
+.stat-n.is-did { color: var(--fail); }
+.stat-n.is-open { color: var(--standing); }
 
 /* ── tabs + filters (sticky) ────────────────────────────────────────────── */
 .controls {
@@ -187,7 +199,7 @@ main { padding-block: 40px 80px; min-height: 50vh; }
 .stamp.said { color: var(--ink); background: transparent; }
 .stamp.did { color: var(--bg); background: var(--ink); }
 
-/* Status: one outline style; a glyph marks the outcome. */
+/* Status: the outcome color, plus a glyph so color is never the only signal. */
 .pill {
   display: inline-flex;
   align-items: center;
@@ -200,7 +212,14 @@ main { padding-block: 40px 80px; min-height: 50vh; }
   white-space: nowrap;
 }
 .pill::before { font-size: 0.8125rem; line-height: 1; }
-.pill.s-broken, .pill.s-reversed, .pill.s-eroded, .pill.s-contradicted { border-color: var(--ink); }
+.pill.s-broken, .pill.s-reversed, .pill.s-eroded, .pill.s-contradicted { --tone: var(--fail); }
+.pill.s-open { --tone: var(--standing); }
+.pill.s-kept { --tone: var(--held); }
+.pill[class*="s-"] {
+  color: var(--tone);
+  border-color: color-mix(in srgb, var(--tone) 45%, var(--bg));
+  background: color-mix(in srgb, var(--tone) 8%, var(--bg));
+}
 .pill.s-broken::before, .pill.s-reversed::before, .pill.s-eroded::before, .pill.s-contradicted::before { content: "×"; }
 .pill.s-open::before { content: "○"; font-size: 0.6875rem; }
 .pill.s-kept::before { content: "✓"; font-size: 0.75rem; }
@@ -376,7 +395,9 @@ main { padding-block: 40px 80px; min-height: 50vh; }
 
 /* ── watchlist ──────────────────────────────────────────────────────────── */
 .watch { display: grid; gap: 0; border-top: 1px solid var(--ink); }
-.wcard { padding: 24px 0; border-bottom: 1px solid var(--rule); display: grid; grid-template-columns: minmax(0, 1fr) 11rem; gap: 14px 32px; }
+.wcard { padding: 24px 0; border-bottom: 1px solid var(--rule); display: grid; grid-template-columns: minmax(0, 1fr) 14rem; gap: 14px 32px; }
+.wcard.open .age .gap-n { color: var(--standing); }
+.wcard.kept .age .gap-n { color: var(--held); }
 .wcard .main { display: grid; gap: 12px; min-width: 0; }
 .wcard .main > p { color: var(--ink-2); }
 .age { text-align: right; display: grid; gap: 4px; align-content: start; }
