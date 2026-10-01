@@ -234,7 +234,7 @@
 
   function renderTimeline() {
     const list = D.entries.filter(matches);
-    const frag = [viewHead('Timeline', 'Everything in the record, in date order. Blue marks what was said; red marks what was done.')];
+    const frag = [viewHead('Timeline', 'Everything in the record, in date order. A hollow mark is a statement; a solid mark is an action.')];
     if (!list.length) return [...frag, empty()];
     const years = new Map();
     for (const e of list) {
