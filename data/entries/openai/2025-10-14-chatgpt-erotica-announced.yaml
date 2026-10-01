@@ -49,8 +49,8 @@ updates:
       "departure was not related to any issue she raised while working at the
       company."
     sources:
-      - title: 'The Wall Street Journal on X ("Exclusive: OpenAI fired executive
-          Ryan Beiermeister")'
+      - title: 'The Wall Street Journal on X ("Exclusive: OpenAI fired executive Ryan
+          Beiermeister")'
         publisher: X
         url: https://x.com/WSJ/status/2021516206952300619
         date: 2026-02-11
@@ -95,6 +95,8 @@ updates:
         url: https://www.thurrott.com/a-i/334240/openai-is-no-longer-working-on-adult-mode-for-chatgpt
         date: 2026-03
         type: reporting
+        archive: https://web.archive.org/web/20261001034340/https://www.thurrott.com/a-i/334240/openai-is-no-longer-working-on-adult-mode-for-chatgpt
+        snapshot: snapshots/2026-10-01-thurrott.com-a3398be2
 note: >-
   The stated principle flipped in two months. The product hadn't shipped as of
   the last update, but the reversal of the stated principle is the receipt.

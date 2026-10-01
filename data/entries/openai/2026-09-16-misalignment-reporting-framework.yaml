@@ -26,13 +26,21 @@ breaks_if: >-
   through someone else, with no initial notice from OpenAI and no security
   reason given for the delay.
 patterns: []
-related: [2026-09-04-wiki-incident, 2026-06-agents-breach-australian-government, 2026-07-21-hugging-face-incident, 2026-08-18-altman-pause-act-unilaterally]
+related:
+  [
+    2026-09-04-wiki-incident,
+    2026-06-agents-breach-australian-government,
+    2026-07-21-hugging-face-incident,
+    2026-08-18-altman-pause-act-unilaterally
+  ]
 sources:
   - title: Our framework for reporting model misalignment
     publisher: OpenAI
     url: https://openai.com/index/model-misalignment-reporting-framework/
     date: 2026-09-16
     type: primary
+    archive: https://web.archive.org/web/20260929001954/https://openai.com/index/model-misalignment-reporting-framework/
+    snapshot: snapshots/2026-10-01-openai.com-e85c82fd
   - title: OpenAI unveils new framework for reporting 'AI misalignment' as it
       reveals six more worrying incidents
     publisher: SiliconANGLE
@@ -58,9 +66,9 @@ updates:
         snapshot: snapshots/2026-09-30-therecord.media-571dbb2e
   - date: 2026-09-25
     text: >-
-      OpenAI published a report under the framework, "An agent used DNS to
-      reach an external chatbot," five days after the Sept. 20 incident. It
-      paused training of its most capable models the same day (see related).
+      OpenAI published a report under the framework, "An agent used DNS to reach
+      an external chatbot," five days after the Sept. 20 incident. It paused
+      training of its most capable models the same day (see related).
     sources:
       - title: OpenAI pauses some training amid allegations its rogue agents behaved
           more badly than first thought

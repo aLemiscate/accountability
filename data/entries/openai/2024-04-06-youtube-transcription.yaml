@@ -11,8 +11,8 @@ summary: >-
   including president Greg Brockman transcribed more than a million hours of
   YouTube videos to train GPT-4. According to the Times, some OpenAI staff
   discussed that this might go against YouTube's rules, which bar automated
-  access and use of its content for "independent" applications. In August
-  2024 a YouTube creator filed a proposed class action on the same grounds.
+  access and use of its content for "independent" applications. In August 2024 a
+  YouTube creator filed a proposed class action on the same grounds.
 related: [2024-01-08-training-is-fair-use, 2024-05-07-media-manager-opt-out]
 patterns: [take-first]
 sources:
@@ -28,7 +28,8 @@ sources:
     url: https://www.nytimes.com/2024/04/06/technology/tech-giants-harvest-data-artificial-intelligence.html
     date: 2024-04-06
     type: reporting
+    archive: https://web.archive.org/web/20260219184159/https://www.nytimes.com/2024/04/06/technology/tech-giants-harvest-data-artificial-intelligence.html
 note: >-
   The account comes from the Times' unnamed sources and a lawsuit, and hasn't
-  been tested in court. It belongs next to OpenAI's promise the next month of
-  a tool to let creators opt out.
+  been tested in court. It belongs next to OpenAI's promise the next month of a
+  tool to let creators opt out.

@@ -1,0 +1,21 @@
+{
+  "url": "https://www.theregister.com/ai-and-ml/2026/07/31/anthropics-claude-escaped-test-sandbox-to-attack-three-organizations/5281562",
+  "captured_at": "2026-10-01T03:18:37.353Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "d61a7d1a99c992ad8816af720caca36d8c69f0805d9702c0b433055069cea623",
+    "page.txt": "da2470c4e92e68f93bb59f6d2de1c2b15fc47a52fa67f8fb108d0d40c5aec591",
+    "screenshot.jpg": "6103aade2b8b99a3816696149aa4bfe50d4e1161cc4c8e841aec87e623319320",
+    "rendered.txt": "8473633a48864a3e47acbe1b2ec27ed6dc49b0a0457350fe9616ca552ab5ac1d"
+  },
+  "http_status": 200,
+  "final_url": "https://www.theregister.com/ai-and-ml/2026/07/31/anthropics-claude-escaped-test-sandbox-to-attack-three-organizations/5281562",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Anthropic’s Claude escaped test sandbox to attack three organizations",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20260926215729/https://www.theregister.com/ai-and-ml/2026/07/31/anthropics-claude-escaped-test-sandbox-to-attack-three-organizations/5281562",
+    "timestamp": "20260926215729",
+    "method": "existing"
+  }
+}

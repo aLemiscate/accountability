@@ -3,7 +3,7 @@ date: 2025-09-30
 org: openai
 type: did
 kind: action
-who: [ openai, sam-altman ]
+who: [openai, sam-altman]
 summary: >-
   Before the Sora 2 launch, OpenAI told rights holders they would have to opt
   out to keep their works and characters out. After backlash (Disney was among
@@ -12,7 +12,7 @@ summary: >-
   Jr., OpenAI paused his likeness at the King estate's request and said public
   figures and their families "should ultimately have control" over how their
   likeness is used.
-patterns: [ take-first, ship-then-patch, consent-by-default ]
+patterns: [take-first, ship-then-patch, consent-by-default]
 sources:
   - title: OpenAI Pauses Martin Luther King Jr. AI Videos, Saying Public Figures
       "Should Ultimately Have Control" Over Likeness
@@ -28,6 +28,8 @@ sources:
     url: https://www.cnn.com/2025/10/17/tech/openai-mlk-sora-pause
     date: 2025-10-17
     type: reporting
+    archive: https://web.archive.org/web/20260325052339/https://www.cnn.com/2025/10/17/tech/openai-mlk-sora-pause
+    snapshot: snapshots/2026-10-01-cnn.com-4ec5811e
 updates:
   - date: 2026-03-24
     text: >-
@@ -35,11 +37,14 @@ updates:
       app without giving a reason. A licensing deal with Disney collapsed with
       it. The Sora 2 model stayed available inside ChatGPT's paid tiers.
     sources:
-      - title: OpenAI’s Sora was the creepiest app on your phone — now it’s shutting down
+      - title: OpenAI’s Sora was the creepiest app on your phone — now it’s shutting
+          down
         publisher: TechCrunch
         url: https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/
         date: 2026-03-24
         type: reporting
+        archive: https://web.archive.org/web/20261001034209/https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/
+        snapshot: snapshots/2026-10-01-techcrunch.com-767bb5cf
 note: >-
   "Should ultimately have control" was the right principle. OpenAI adopted it
   after launch, for one estate at a time, on request.

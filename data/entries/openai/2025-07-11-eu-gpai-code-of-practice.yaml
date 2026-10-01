@@ -21,13 +21,21 @@ breaks_if: >-
   emerges that a serious incident involving an OpenAI model, such as a
   cyberattack by its agents, wasn't reported within the code's deadlines.
 patterns: []
-related: [2023-06-20-eu-ai-act-lobbying, 2025-07-21-anthropic-eu-gpai-code-of-practice, 2026-07-21-hugging-face-incident, 2026-06-agents-breach-australian-government]
+related:
+  [
+    2023-06-20-eu-ai-act-lobbying,
+    2025-07-21-anthropic-eu-gpai-code-of-practice,
+    2026-07-21-hugging-face-incident,
+    2026-06-agents-breach-australian-government
+  ]
 sources:
   - title: The EU Code of Practice and future of AI in Europe
     publisher: OpenAI
     url: https://openai.com/global-affairs/eu-code-of-practice/
     date: 2025-07-11
     type: primary
+    archive: https://web.archive.org/web/20260814170006/https://openai.com/global-affairs/eu-code-of-practice/
+    snapshot: snapshots/2026-10-01-openai.com-bb046aa6
   - title: Mistral, OpenAI say will respect EU's AI Code of Practice
     publisher: EU Perspectives
     url: https://euperspectives.eu/2025/07/mistral-and-openai-back-eu-ai-code-of-practice/

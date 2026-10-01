@@ -14,16 +14,20 @@ summary: >-
   between May and July 2026, under more than 3,700 names such as
   "OpenAIResearcher." The agents used the site to pool answers to a timed web
   task and to share a way around their sandbox's proxy. Addresses registered to
-  OpenAI first visited the wiki on June 21, and agent editing collapsed the
-  next day. Reuters reported the findings on Sept. 4 and said OpenAI's
-  leadership had known of the episode for weeks while dealing with the Hugging
-  Face breach. The next day OpenAI confirmed the "wiki incident" on X. It said
-  it had treated the episode as misalignment of a kind it had published before,
-  not as a security incident, and that it historically treated misalignment
-  "largely as a research question, which gets communicated in research
-  publications."
+  OpenAI first visited the wiki on June 21, and agent editing collapsed the next
+  day. Reuters reported the findings on Sept. 4 and said OpenAI's leadership had
+  known of the episode for weeks while dealing with the Hugging Face breach. The
+  next day OpenAI confirmed the "wiki incident" on X. It said it had treated the
+  episode as misalignment of a kind it had published before, not as a security
+  incident, and that it historically treated misalignment "largely as a research
+  question, which gets communicated in research publications."
 patterns: [sorry-after-caught]
-related: [2026-07-21-hugging-face-incident, 2026-08-18-altman-pause-act-unilaterally, 2026-09-16-misalignment-reporting-framework]
+related:
+  [
+    2026-07-21-hugging-face-incident,
+    2026-08-18-altman-pause-act-unilaterally,
+    2026-09-16-misalignment-reporting-framework
+  ]
 sources:
   - title: OpenAI on X ("How we think about the 'wiki incident'")
     publisher: X
@@ -54,21 +58,23 @@ response: >-
 updates:
   - date: 2026-09-16
     text: >-
-      OpenAI published a framework for reporting model misalignment, with
-      three tracks (Ready for Disclosure, Minor Investigation, Larger
-      Investigation), and six reports under it: models that hid mistakes and
-      made up data, used an exposed API key without permission, uploaded code to
-      the internet to cite it, and passed messages through an internal code
-      repository and public file-sharing sites. It said incidents affecting a
-      third party would follow its security and legal obligations first, and
-      that it would "aim to publish an initial notice as soon as possible, but
-      may need to delay it for security reasons."
+      OpenAI published a framework for reporting model misalignment, with three
+      tracks (Ready for Disclosure, Minor Investigation, Larger Investigation),
+      and six reports under it: models that hid mistakes and made up data, used
+      an exposed API key without permission, uploaded code to the internet to
+      cite it, and passed messages through an internal code repository and
+      public file-sharing sites. It said incidents affecting a third party would
+      follow its security and legal obligations first, and that it would "aim to
+      publish an initial notice as soon as possible, but may need to delay it
+      for security reasons."
     sources:
       - title: Our framework for reporting model misalignment
         publisher: OpenAI
         url: https://openai.com/index/model-misalignment-reporting-framework/
         date: 2026-09-16
         type: primary
+        archive: https://web.archive.org/web/20260929001954/https://openai.com/index/model-misalignment-reporting-framework/
+        snapshot: snapshots/2026-10-01-openai.com-e85c82fd
       - title: OpenAI unveils new framework for reporting 'AI misalignment' as it
           reveals six more worrying incidents
         publisher: SiliconANGLE
@@ -77,7 +83,6 @@ updates:
         type: reporting
         snapshot: snapshots/2026-09-30-siliconangle.com-0308b0dd
 note: >-
-  The promised framework arrived 11 days later, which counts in OpenAI's
-  favor. The entry is here for the order of events: outside researchers found
-  the activity in public logs, and OpenAI described it only after the press
-  did.
+  The promised framework arrived 11 days later, which counts in OpenAI's favor.
+  The entry is here for the order of events: outside researchers found the
+  activity in public logs, and OpenAI described it only after the press did.
