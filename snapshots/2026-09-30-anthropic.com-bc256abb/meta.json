@@ -1,0 +1,12 @@
+{
+  "url": "https://www.anthropic.com/claude-mythos-preview-risk-report",
+  "captured_at": "2026-09-30T12:50:24.348Z",
+  "tool": "said-did capture",
+  "files": {
+    "document.pdf": "de07fda57950f3a638fb64bee89cb67645583a5f73f47981ec120e717abbe129",
+    "document.txt": "f051ab5dc68710f49af6277cf00b31d30d0ebffcbae60d1b1a6dba47e8f7b74b"
+  },
+  "http_status": 200,
+  "final_url": "https://www-cdn.anthropic.com/3edfc1a7f947aa81841cf88305cb513f184c36ae/Alignment%20Risk%20Update_%20Claude%20Mythos%20Preview%20(Redacted,%20April%2010).pdf",
+  "content_type": "application/pdf"
+}

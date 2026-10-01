@@ -1,0 +1,281 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 523,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2025-11-04T02:30:26.000Z",
+  "display_text_range": [
+    0,
+    240
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/vEczzNEDQA",
+        "expanded_url": "https://x.com/hlntnr/status/1985535076352901365/photo/1",
+        "indices": [
+          241,
+          264
+        ],
+        "url": "https://t.co/vEczzNEDQA"
+      }
+    ]
+  },
+  "id_str": "1985535076352901365",
+  "text": "For the record, for those dissecting Ilya's deposition: this part is false. I wasn't the one who made the board&lt;&gt;Anthropic call happen, and I disagree with his recollection that board members other than him were supportive of a merge. https://t.co/vEczzNEDQA",
+  "user": {
+    "id_str": "2907985939",
+    "name": "Helen Toner",
+    "screen_name": "hlntnr",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/986891120104718336/cVLwrL6u_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1985535076352901365"
+    ],
+    "editable_until_msecs": "1762227026000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/vEczzNEDQA",
+      "expanded_url": "https://x.com/hlntnr/status/1985535076352901365/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        241,
+        264
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/G44If6lWQAAVfLZ.jpg",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 644,
+            "w": 1150,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 644,
+            "w": 644,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 644,
+            "w": 565,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 644,
+            "w": 322,
+            "x": 103,
+            "y": 0
+          },
+          {
+            "h": 644,
+            "w": 1178,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 644,
+        "width": 1178
+      },
+      "sizes": {
+        "large": {
+          "h": 644,
+          "resize": "fit",
+          "w": 1178
+        },
+        "medium": {
+          "h": 644,
+          "resize": "fit",
+          "w": 1178
+        },
+        "small": {
+          "h": 372,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/vEczzNEDQA"
+    },
+    {
+      "display_url": "pic.x.com/vEczzNEDQA",
+      "expanded_url": "https://x.com/hlntnr/status/1985535076352901365/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        241,
+        264
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/G44If6qWoAAzQko.png",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 578,
+            "w": 1032,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1032,
+            "w": 1032,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1176,
+            "w": 1032,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1374,
+            "w": 687,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1374,
+            "w": 1032,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 1374,
+        "width": 1032
+      },
+      "sizes": {
+        "large": {
+          "h": 1374,
+          "resize": "fit",
+          "w": 1032
+        },
+        "medium": {
+          "h": 1200,
+          "resize": "fit",
+          "w": 901
+        },
+        "small": {
+          "h": 680,
+          "resize": "fit",
+          "w": 511
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/vEczzNEDQA"
+    }
+  ],
+  "photos": [
+    {
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 644,
+          "w": 1150,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 644,
+          "w": 644,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 644,
+          "w": 565,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 644,
+          "w": 322,
+          "x": 103,
+          "y": 0
+        },
+        {
+          "h": 644,
+          "w": 1178,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/hlntnr/status/1985535076352901365/photo/1",
+      "url": "https://pbs.twimg.com/media/G44If6lWQAAVfLZ.jpg",
+      "width": 1178,
+      "height": 644
+    },
+    {
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 578,
+          "w": 1032,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 1032,
+          "w": 1032,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 1176,
+          "w": 1032,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 1374,
+          "w": 687,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 1374,
+          "w": 1032,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/hlntnr/status/1985535076352901365/photo/1",
+      "url": "https://pbs.twimg.com/media/G44If6qWoAAzQko.png",
+      "width": 1032,
+      "height": 1374
+    }
+  ],
+  "conversation_count": 26,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

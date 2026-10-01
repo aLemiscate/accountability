@@ -1,0 +1,278 @@
+Search
+Anonymous
+•
+•
+Sign in
+•
+Home
+•
+Membership
+•
+FAQ
+•
+About
+•
+Advertise
+•
+Contact
+Tags
+•
+News
+•
+Explainer
+•
+Games
+•
+News
+•
+Explainer
+•
+Games
+•
+About
+•
+Privacy
+•
+RSS
+info@ppc.land
+Blank corporate cards converge on Ireland on a relief map of Europe, showing GDPR jurisdiction.
+Italian court kills OpenAI's €15M fine - and it wasn't even close
+A Rome court annulled the Italian Garante's €15M ChatGPT fine, ruling the authority had no jurisdiction once OpenAI established its Irish subsidiary in 2024.
+Subscribe to Newsletter
+Subscribe
+Sending
+Sent
+Please check your inbox and click the confirmation link.
+Comments
+Share
+•
+Share on X
+•
+Share on Facebook
+•
+Share on LinkedIn
+•
+Share on Pinterest
+•
+Email
+•
+Copy link
+A Rome tribunal this month published its full reasoning in a ruling that annuls Italy's €15 million GDPR fine against OpenAI - a decision that turns almost entirely on a single procedural point under EU data protection law and carries significant implications for how regulators across the European Economic Area handle cross-border AI enforcement.
+The ruling and what it decided
+The Tribunale Ordinario di Roma, Sezione Diritti della Persona e Immigrazione, issued its judgment in case R.G. 4785/2025 on March 18, 2026. Judge Damiana Colla ruled in favour of OpenAI OpCo, LLC, annulling provvedimento n. 755 issued by the Garante per la Protezione dei Dati Personali on November 2, 2024. That order had imposed a €15,000,000 administrative sanction on OpenAI alongside a mandatory public awareness campaign to run across Italian radio, television, newspapers, and internet platforms for six months.
+The court's reasoning, made public today, does not reach the substantive GDPR violations alleged by the Italian authority. It does not assess whether OpenAI failed to notify the Garante of the March 20, 2023 data breach. It does not determine whether ChatGPT's training data processing lacked a valid legal basis under Articles 5 and 6. It does not adjudicate the transparency shortcomings alleged under Articles 12 and 13, the age verification failures under Articles 24 and 25(1), or the failure to execute the earlier awareness campaign ordered under provvedimento n. 114. All of those substantive questions were set aside because, according to the court, the Italian Garante simply did not have the authority to issue the November 2024 decision at all.
+The one-stop-shop mechanism at the centre of everything
+The GDPR one-stop-shop mechanism , set out in Articles 55 and 56 of Regulation EU 679/2016, establishes that for cross-border data processing, a single national supervisory authority acts as "lead authority" - the exclusive regulator for the company's operations across the entire European Economic Area. The lead authority is determined by where the company holds its main or sole establishment in the EEA.
+When ChatGPT launched on November 30, 2022, OpenAI had no EEA establishment. There was, accordingly, no lead authority. Each member state's data protection authority held concurrent supervisory power over processing that affected its own residents. Italy's Garante was within its rights to intervene, and it did so with urgency: on March 30, 2023, it issued provvedimento n. 112, a temporary emergency ban on ChatGPT's processing of Italian users' personal data, citing the data breach of March 20, 2023 and broader concerns about lawful basis, transparency, and age verification.
+OpenAI suspended Italian access and engaged with the Garante. On April 11, 2023, the authority issued provvedimento n. 114, suspending the temporary ban while ordering OpenAI to implement a series of remedial measures - including an informational campaign across Italian media - by May 15, 2023. The investigation then continued. On January 26, 2024, the Garante formally notified OpenAI of enforcement proceedings under Article 166(5) of Italy's privacy code, contesting alleged violations of Articles 5, 6, 8, 12, 13, 24, 25(1), 33, and 83(5)(d) GDPR.
+But something had changed in the meantime. On March 24, 2023, OpenAI had incorporated its Irish subsidiary, OpenAI Ireland Ltd. On February 15, 2024 - one month after the Garante launched its formal enforcement proceedings - the Irish Data Protection Commission formally recognised OpenAI Ireland as OpenAI's EEA establishment, making the Irish DPC the lead supervisory authority for OpenAI's cross-border data processing under the GDPR.
+The Garante pressed on regardless. It received written submissions from OpenAI in March 2024, conducted a final hearing on April 11, 2024, and issued its €15 million ruling in November 2024 - nine months after the Irish DPC had assumed lead authority status.
+Why the court sided with OpenAI
+The court's analysis centres on Opinion 8/2019 of the European Data Protection Board, adopted on July 9, 2019 under Article 64 GDPR at the request of France and Sweden's data protection authorities. That opinion, titled "On the competence of a supervisory authority in case of a change in circumstances relating to the main or sole establishment," addresses precisely the scenario that arose in OpenAI's case.
+According to the court, the EDPB opinion is clear: when a company creates or transfers its main establishment to an EEA member state while enforcement proceedings are still pending, the proceedings must be transferred to the lead authority of that new establishment state. The only objective cutoff point - the moment at which a change of circumstance no longer affects jurisdiction - is the adoption of a final decision. Because the Garante did not finalise its decision until November 2024, months after the Irish DPC was recognised as lead authority in February 2024, jurisdiction had already shifted to Dublin.
+The Garante had argued that the one-stop-shop mechanism only applied to "continuous" or "ongoing" infringements, not to violations that were already "consumed" before the establishment of OpenAI Ireland. The court rejected this reading entirely. The court found that basing jurisdictional competence on the nature of the underlying infringement - whether continuous, ongoing, or concluded - creates an unacceptable level of legal uncertainty. It would require courts to examine the merits of the case simply to determine who had the right to investigate it, inverting the standard procedural logic that jurisdictional questions must be resolved before substantive questions. The Italian administrative law principle at Article 34(2) of the administrative procedure code, which bars courts from ruling on unexercised administrative powers, reinforces this conclusion.
+The court also rejected the Garante's invocation of the principle tempus regit actum - the rule that the law in force at the time of an act governs its assessment. According to the court, the relevant change was not a modification to the applicable law; the GDPR remained the applicable law throughout. What changed was a factual circumstance: the creation of an EEA establishment. The EDPB's opinion addresses exactly this factual change and its procedural consequences, and the Garante was bound to follow it.
+Context: how the case developed
+The case's history stretches back to a security vulnerability that affected ChatGPT on March 20, 2023. The incident allowed some users to see the titles of other users' active conversations. OpenAI patched the vulnerability, but the Garante moved quickly, issuing its emergency processing ban within ten days. ChatGPT became briefly unavailable to Italian users before being reinstated after OpenAI committed to a series of compliance measures.
+OpenAI described itself in its court filings as having operated initially as a non-profit from 2015, then from 2019 as what it termed a "capped-profit" structure to attract research funding, before launching ChatGPT on November 30, 2022, as a "research preview" to gather feedback. The subscription tier ChatGPT Plus was introduced on February 1, 2023. OpenAI Ireland was incorporated on March 24, 2023 - four days after the data breach that triggered the Italian investigation.
+The Garante's investigation found, across the period from November 30, 2022, forward: an unreported data breach in violation of Article 33 GDPR; an absence of identified lawful bases for training under Articles 5(2) and 6; inadequate privacy disclosures under Articles 5(1)(a), 12, and 13; missing age verification systems under Articles 24 and 25(1); and a failure to carry out the awareness campaign mandated under provvedimento n. 114, itself a violation of Article 83(5)(e).
+The €15 million penalty was the Garante's assessment of proportionate sanction for this combined set of infractions. The mandatory awareness campaign - six months of advertising across all major Italian media, subject to the Garante's prior approval of the content and plan - was the accessory sanction.
+OpenAI appealed both elements under Articles 152 of Legislative Decree 196/1993 and 10 of Legislative Decree 150/2011. It raised ten grounds, covering jurisdictional competence, the GDPR's territorial scope under Article 3(2)(a), the substantive violations alleged, and the proportionality of both the fine and the campaign requirement. Only the first ground was examined. Having found it decisive, the court absorbed the remaining nine.
+The cautionary suspension in early 2025
+Before the full hearing, OpenAI sought a preliminary injunction suspending the penalty's enforceability pending the outcome. On March 21, 2025, the court granted a suspension of the awareness campaign automatically, by operation of law following the filing of the appeal, and conditionally suspended the €15 million fine, subject to OpenAI posting a first-demand bank or insurance guarantee for the full amount within 60 days. OpenAI posted the required guarantee on May 22, 2025. The court's final judgment, issued March 18, 2026 and published today, declares that guarantee - policy number 536/00022701 - void and of no effect.
+Litigation costs were compensated between the parties, with the court citing the novelty of the legal questions involved.
+What other EU regulators did
+The court noted, as additional support for its reasoning, that other European data protection authorities which had also opened investigations into OpenAI's GDPR compliance transferred their files to the Irish DPC after February 15, 2024 - the date on which OpenAI Ireland was formally recognised as the EEA establishment. This, the court found, confirmed the correct interpretation of the one-stop-shop rules. Italy stood alone in pressing to a final decision.
+The pattern has broader relevance for the advertising and marketing technology industries. Brussels proposed sweeping GDPR changes in November 2025 to reduce legal uncertainty for AI developers training models on publicly available data, a reform prompted in part by years of fragmented enforcement across member states. Former ECB president Mario Draghi argued in September 2025 that GDPR has added approximately 20% to data costs for European firms compared with US counterparts - a claim rooted in the same regulatory friction that has surrounded ChatGPT since its Italian ban.
+The wider landscape of GDPR enforcement against AI training systems - mapped across 19 regulatory guidelines and actions in a March 2026 analysis - reveals that surface consensus among data protection authorities conceals deep disagreement on the legal bases permissible for training generative models. That disagreement has now produced a case in which a €15 million fine, issued by a major European authority, has been annulled not because the conduct was found lawful, but because no one agreed on who had the right to judge it.
+What the ruling does not resolve
+The judgment leaves the substantive questions entirely open. The Garante has not obtained a ruling on whether OpenAI's training practices violated European privacy law. OpenAI has not obtained a ruling that they did not. Those questions - relating to data breach notification, lawful basis for training, transparency, and age verification - now fall, at least in principle, within the jurisdiction of the Irish DPC.
+Whether Ireland will pursue them, and on what timeline, is not addressed by the Rome court. The Irish DPC has historically faced criticism for slow enforcement of major technology cases, a charge that prompted European-level discussions about the DPC's capacity and workload. The EDPB has previously stepped in with binding decisions in cases where the Irish authority's draft decisions drew objections from other member states.
+For marketing professionals and ad technology practitioners, the case is a precise illustration of the structural tension embedded in the GDPR's enforcement architecture. A company launching an AI product from the United States without an EEA subsidiary faces potentially concurrent jurisdiction from all 30 EEA member states. Establishing a subsidiary - even one incorporated primarily for structural reasons - can shift regulatory power to a single authority. The timing and sequence of those steps can determine, as this case shows, whether a multimillion-euro penalty stands or falls.
+Canadian regulators separately found in May 2026 that ChatGPT collected personal data from users without valid consent from the outset - a finding that adds to the international regulatory picture even as the Italian chapter closes on jurisdictional grounds.
+The enforcement gap: Ireland, Portugal, and the structural problem the Rome ruling exposes
+The Rome court's outcome is, in one sense, a legal technicality. But it sits within a much broader pattern that advertising and marketing technology professionals have reason to understand clearly: the GDPR's enforcement architecture contains structural weaknesses that allow companies to absorb, delay, and in some cases entirely escape regulatory consequences - not necessarily through legal merit, but through the mechanics of how jurisdiction, capacity, and procedure interact.
+Two national data protection authorities illustrate this pattern from different angles.
+Ireland: the lead authority problem
+Ireland's Data Protection Commission holds a unique position in European privacy enforcement. Because the GDPR's one-stop-shop mechanism designates a company's EEA lead authority based on where its main establishment sits, and because Ireland's corporate tax environment attracted Google, Meta, Microsoft, Apple, and dozens of other major technology platforms to base their European headquarters in Dublin, the Irish DPC functions as the primary GDPR regulator for a disproportionate share of global internet services. Ireland's DPC role and the concentrated regulatory power it carries over 450 million European users has been documented extensively.
+The nominal fine totals from Ireland are large. According to the European Commission's GDPR report published in July 2024, Ireland's data protection authority had levied the highest cumulative GDPR fine total at approximately €2.8 billion . But the gap between imposed and collected is stark. According to the advocacy group noyb, only 0.6% of fines nominally issued by the Irish DPC against major companies had actually been collected at the time of their statement - with billions in penalties under active judicial appeal. That figure, cited in noyb's public commentary at the time of the DPC's leadership appointment in September 2025, points to a structural dynamic that headline fine figures obscure entirely.
+The delay problem is also documented in the courts. In January 2025, the EU General Court ruled that the Irish DPC had acted unlawfully by refusing to investigate a complaint about Meta's handling of sensitive user data - a complaint originally filed on May 25, 2018, the first day GDPR came into force. Seven years elapsed between complaint and a court order requiring the DPC to act. The General Court specifically rejected the DPC's argument that reopening investigation files would cause procedural delays, finding that the authority was obligated to adopt a final decision within the period established under Article 65(6) GDPR.
+The WhatsApp enforcement case illustrated the same dynamic from a different angle. Eleven national data protection authorities - including Germany, France, the Netherlands, Poland, Italy, and Belgium - raised formal objections to the Irish DPC's draft decision on WhatsApp's transparency violations. When the DPC declined to follow those objections, the case escalated to the EDPB for a binding decision. The final Irish DPC ruling, issued August 20, 2021, imposed four fines totalling €225 million - a figure the EDPB had required to be significantly higher than the DPC's initial assessment. The case became a reference point for how far the lead authority's instincts can diverge from those of its peers.
+The structural conflict of interest argument is not new, but it gained new visibility in September 2025 with the appointment of Niamh Sweeney as the third Data Protection Commissioner. Sweeney spent nearly eight years at Meta, including as head of public policy at Facebook Ireland and director of public policy for Europe at WhatsApp. Noyb responded by noting what it characterised as a pattern: "For years, the Irish DPC has de facto not enforced the GDPR against US Big Tech. While officially issuing billions on fines, only 0.6% of them were ever collected."
+Whether or not that characterisation is fair as a complete account of the DPC's work, the statistical record is clear enough on its own terms. Only 1.3% of all GDPR cases across the EEA resulted in monetary penalties between 2018 and 2023, according to EDPB data. Ireland's fine rate reflects the concentration of high-value tech cases rather than a high probability of sanction for any given company facing a complaint.
+Portugal: the capacity problem
+Portugal's situation is different in nature but converges on the same outcome. The Comissao Nacional de Protecao de Dados (CNPD) published its 2025 Activity Report in May 2026, revealing that the authority opened 3,201 processes, conducted 244 inspections, and instated 88 administrative offence proceedings across the year. It applied just 2 fines, totalling €47,000 .
+To put that in context: 3,201 cases opened. 2 fines issued. The commentary generated on LinkedIn after the report's publication was blunt: those two fines, if recovered, would not cover the CNPD's wage bill for a month.
+The CNPD's own report frames the bottleneck in procedural terms. The authority's administrative offence process requires defendants to submit physical originals and duplicates of procedural documents, which the CNPD then digitises and returns. That paper-based contraordenational process consumes time and specialist legal expertise the organisation does not have in sufficient volume. In September 2025, the CNPD submitted a draft law to the President of the Assembleia da Republica to reform its procedural framework - an acknowledgment that the current system is structurally unsuited to the investigative workload GDPR generates.
+The CNPD operates with a staff-to-population ratio that, while not directly comparable to the Irish DPC's burden, reflects the wider resource imbalance across European supervisory authorities. Staffing figures shared in industry commentary show the contrast: Ireland, with 175 staff and a population of 5.4 million, operates at roughly one staff member per 30,700 inhabitants, and that headcount is focused almost entirely on the global technology sector. Portugal's ratios, while different in character, produce a similar enforcement bottleneck from the other direction.
+What this means for companies - and for the Rome case
+The connection back to the OpenAI ruling is direct. The one-stop-shop mechanism was designed, in part, to reduce the administrative burden on companies by giving them a single regulatory interlocutor. In practice, it has also given companies an incentive to establish their EEA presence in the jurisdiction whose lead authority has the heaviest caseload, the most strained resources, or the longest track record of procedural delay. Ireland's position as the lead authority for most major US technology platforms was not accidental; it was the product of deliberate corporate structuring.
+OpenAI's incorporation of OpenAI Ireland Ltd. in March 2023 - four days after the data breach that triggered the Italian investigation - may have been coincidental in timing. The court made no finding on intent. But the structural effect was identical to what any careful legal team would have advised: once the Irish DPC assumed lead authority status, the Italian Garante's ability to impose a final sanction expired. Nine months of continued Italian enforcement work, culminating in a €15 million order, was voided on that basis.
+EDPB statistics from the 2025 annual report show that Ireland alone accounted for €530,773,000 of the €1.15 billion in GDPR fines recorded across the EEA in 2025 - almost entirely from the TikTok data transfer decision. Remove that single case and the Irish total drops sharply. The enforcement landscape across the remaining 29 EEA member states, many operating with the resource constraints visible in Portugal's data, is considerably thinner than the headline figure suggests.
+The gap between supervisory activity and sanctioning output is, in the CNPD's own framing, a resource and procedural problem. In the Irish case, critics argue it reflects something closer to a structural preference. In both cases, the practical result for companies operating at scale is similar: the probability of a GDPR fine reaching collection is substantially lower than the probability of a complaint being filed or an investigation being opened. That gap is not a bug in the system. For a growing number of legal and compliance teams, it is the system.
+Timeline
+• November 30, 2022 - OpenAI launches ChatGPT publicly as a research preview.
+• February 1, 2023 - ChatGPT Plus subscription tier introduced.
+• March 20, 2023 - Data breach affects ChatGPT; some users can view other users' conversation titles.
+• March 24, 2023 - OpenAI incorporates OpenAI Ireland Ltd.
+• March 30, 2023 - Italy's Garante issues provvedimento n. 112, emergency temporary ban on processing Italian users' data.
+• April 11, 2023 - Garante issues provvedimento n. 114, suspending the ban and ordering compliance measures including an Italian media awareness campaign by May 15, 2023.
+• October 6, 2023 - Garante requests further information from OpenAI.
+• November 20, 2023 - OpenAI submits response to Garante's October information request.
+• January 26, 2024 - Garante formally notifies OpenAI of enforcement proceedings contesting violations of Articles 5, 6, 8, 12, 13, 24, 25(1), 33, and 83(5)(d) GDPR.
+• February 15, 2024 - Irish Data Protection Commission formally recognises OpenAI Ireland as OpenAI's EEA lead establishment; Irish DPC becomes lead supervisory authority.
+• March 11, 2024 - OpenAI submits written defence to the Garante.
+• April 11, 2024 - Final hearing before the Garante.
+• November 2, 2024 - Garante issues provvedimento n. 755 imposing €15 million fine and mandatory six-month media awareness campaign. The GDPR's AI training legal battle context is documented at PPC Land.
+• November 2025 - Brussels proposes GDPR amendments to clarify AI training as legitimate interest.
+• February 12, 2025 - Rome tribunal schedules cautionary hearing for March 19, 2025.
+• March 21, 2025 - Court grants preliminary suspension of awareness campaign and conditionally suspends the €15 million fine, requiring a full-amount bank guarantee within 60 days.
+• May 22, 2025 - OpenAI posts bank guarantee (policy n. 536/00022701) for €15 million.
+• March 18, 2026 - Rome tribunal issues final judgment annulling provvedimento n. 755; guarantee declared void.
+• May 28, 2026 - Full reasoning of the judgment made public.
+Summary
+Who: OpenAI OpCo, LLC (appellant) and the Garante per la Protezione dei Dati Personali, Italy's data protection authority (respondent). The case was heard by Judge Damiana Colla of the Tribunale Ordinario di Roma, Sezione Diritti della Persona e Immigrazione.
+What: The Rome court annulled the Garante's November 2, 2024 decision imposing a €15 million fine and a mandatory six-month Italian media awareness campaign on OpenAI for alleged GDPR violations connected to ChatGPT's data processing. The annulment rests entirely on a finding that the Italian Garante lacked jurisdiction after the Irish Data Protection Commission became OpenAI's lead supervisory authority on February 15, 2024 - months before the Garante issued its final decision. The court did not examine the substantive violations alleged.
+When: The underlying violations alleged by the Garante date from November 30, 2022, the date of ChatGPT's public launch. The Italian investigation formally opened in January 2024. The €15 million fine was issued on November 2, 2024. The Rome court's judgment was issued on March 18, 2026 and its full reasoning was published today, May 28, 2026.
+Where: The case was filed and adjudicated at the Tribunale Ordinario di Roma (Rome Ordinary Court), case number R.G. 4785/2025. OpenAI is headquartered in the United States. Its EEA subsidiary, OpenAI Ireland Ltd., is established in Ireland. The Irish Data Protection Commission, as lead supervisory authority, holds jurisdiction over OpenAI's cross-border EEA data processing from February 15, 2024 onward.
+Why: The outcome matters because it draws a clear jurisdictional line in GDPR enforcement against non-EEA companies that later establish a European subsidiary: once a lead authority is formally recognised, any national authority that has not yet issued a final decision loses the power to do so, regardless of whether the alleged violations predate the establishment's creation. This principle - drawn from EDPB Opinion 8/2019 - was applied here to void a multimillion-euro penalty. The ruling signals a structural constraint on member-state enforcement that is directly relevant to any technology company operating AI products across the EEA while building out its European corporate structure.
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+On this page
+Unlock full content
+Subscribe to Newsletter
+Subscribe
+Sending
+Sent
+Please check your inbox and click the confirmation link.
+Read Next
+13 min read
+Google's AI answer on Lily Ray's SEO world title cites one source: her own
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+&bull;
+Sep 30, 2026
+&bull;
+News
+17 min read
+NYSE halts Getty Images trading after shares fall to 12 cents
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+&bull;
+Sep 30, 2026
+&bull;
+News
+14 min read
+Safari 27 blocks The Trade Desk's ads via 11 lines WebKit merged in February
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+&bull;
+Sep 30, 2026
+&bull;
+News
+10 min read
+Explaining end card
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+&bull;
+Sep 30, 2026
+&bull;
+Explainer
+10 min read
+Explaining playable ad
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+&bull;
+Sep 30, 2026
+&bull;
+Explainer
+10 min read
+Explaining trade secret
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+&bull;
+Sep 30, 2026
+&bull;
+Explainer
+11 min read
+Explaining mediation waterfall
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+&bull;
+Sep 30, 2026
+&bull;
+Explainer
+10 min read
+Explaining mediation platform
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+&bull;
+Sep 30, 2026
+&bull;
+Explainer
+22 min read
+AppLovin sues Unity to halt Ad Quality data collection within 5 business days
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+&bull;
+Sep 30, 2026
+&bull;
+News
+26 min read
+Apple's iOS 27 blocks The Trade Desk from serving ads on Safari
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+&bull;
+Sep 30, 2026
+&bull;
+News
+Subscribe to Newsletter
+Every morning, get a curated digest of the last 24 hours in programmatic advertising
+Subscribe
+Sending
+Sent
+Please check your inbox and click the confirmation link.
+Discussion
+info@ppc.land
+•
+About
+•
+Privacy
+•
+RSS

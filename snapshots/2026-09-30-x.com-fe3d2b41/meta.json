@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/OpenAI/status/676275737423425537",
+  "captured_at": "2026-09-30T04:45:16.541Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "75928ccd0ca58446d74ec23553eb14a5e02b1cca42d8a6cfc331be1ea582b5f2",
+    "page.txt": "350b419edfdf721035cd93cd685d04f8639dc42a7d47577083f0804966135baa",
+    "post.json": "dcb4630c2574fe00ea956115eae710f61ca49c8c156a3b0c0b83d3f2740e82d0",
+    "syndication.json": "fbaefb5871874c3447fd615d0f6cb3ee8ec44a2e172c04aedcfbdb8bc1465bd2",
+    "post.txt": "88a79dcffbaf3ef54a7cc5c59c7fcdb4022f5e87b535611b967dc630c9dc2062"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/676275737423425537",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"@rhyolight Yep, we'll produce lots of open-source code as we go.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "December 14, 2015",
+    "posted_at": "2015-12-14T05:41:15.054Z"
+  }
+}

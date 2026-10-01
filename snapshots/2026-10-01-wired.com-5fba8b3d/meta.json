@@ -1,0 +1,21 @@
+{
+  "url": "https://www.wired.com/story/openai-scrapped-promise-disclose-key-documents/",
+  "captured_at": "2026-10-01T03:26:14.429Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "4256034bd3606731f72c0e2ff8edb0dadebd1e6d46807d40a8fbc90e7b966ddd",
+    "page.txt": "cc883abf371da0ed917aeb02b854ec708b108629f3911caca80584a05f53d653",
+    "screenshot.jpg": "5694a84da24c58ee6bd939787bb7cdebcfa926071c3ebbc660eec83f182020e9",
+    "rendered.txt": "2b06ce796db94cc6a4009b320cab59f816d21796e19486a9b676bc35b190aff8"
+  },
+  "http_status": 200,
+  "final_url": "https://www.wired.com/story/openai-scrapped-promise-disclose-key-documents/",
+  "content_type": "text/html; charset=utf-8",
+  "title": "OpenAI Quietly Scrapped a Promise to Disclose Key Documents to the Public | WIRED",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20261001032708/https://www.wired.com/story/openai-scrapped-promise-disclose-key-documents/",
+    "timestamp": "20261001032708",
+    "method": "existing"
+  }
+}

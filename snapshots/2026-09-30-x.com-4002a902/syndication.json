@@ -1,0 +1,219 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 25617,
+  "lang": "en",
+  "created_at": "2026-06-09T18:10:00.000Z",
+  "display_text_range": [
+    0,
+    279
+  ],
+  "entities": {},
+  "id_str": "2064409694761054332",
+  "text": "This is a super exciting release - Claude Fable 5 is the same underlying model as Mythos but with added safeguards. The benchmarks are great and it's SOTA on everything by a margin but I'll add that *qualitatively* also, this is a major-version-bump-deserving step change forward",
+  "user": {
+    "id_str": "33836629",
+    "name": "Andrej Karpathy",
+    "screen_name": "karpathy",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1296667294148382721/9Pr6XrPB_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2064409694761054332"
+    ],
+    "editable_until_msecs": "1781032200000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 1335,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 15427,
+    "in_reply_to_screen_name": "claudeai",
+    "in_reply_to_status_id_str": "2064394146916229443",
+    "in_reply_to_user_id_str": "1943306828697550848",
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 511,
+    "retweet_count": 1753,
+    "created_at": "2026-06-09T17:08:14.000Z",
+    "display_text_range": [
+      0,
+      251
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/DxgSu0KUxh",
+          "expanded_url": "https://x.com/claudeai/status/2064394151441863006/photo/1",
+          "indices": [
+            252,
+            275
+          ],
+          "url": "https://t.co/DxgSu0KUxh"
+        }
+      ]
+    },
+    "id_str": "2064394151441863006",
+    "text": "Fable 5 is state-of-the-art on nearly all tested benchmarks, with exceptional performance in software engineering, knowledge work, scientific research, and vision.\n\nThe longer and more complex the task, the larger Fable 5’s lead over our other models. https://t.co/DxgSu0KUxh",
+    "user": {
+      "id_str": "1943306828697550848",
+      "name": "Claude",
+      "screen_name": "claudeai",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_normal.jpg",
+      "highlighted_label": {
+        "badge": {
+          "url": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_bigger.jpg"
+        },
+        "description": "Anthropic",
+        "url": {
+          "url": "https://twitter.com/AnthropicAI",
+          "url_type": "DeepLink"
+        },
+        "user_label_display_type": "Badge",
+        "user_label_type": "BusinessLabel"
+      }
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2064394151441863006"
+      ],
+      "editable_until_msecs": "1781028494000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "mediaDetails": [
+      {
+        "display_url": "pic.x.com/DxgSu0KUxh",
+        "expanded_url": "https://x.com/claudeai/status/2064394151441863006/photo/1",
+        "ext_alt_text": "Benchmark table titled Mythos 5 & Fable 5, comparing Claude Mythos 5 and Fable 5 against Claude Mythos Preview, Claude Opus 4.8, GPT 5.5, and Gemini 3.1 Pro. ",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          252,
+          275
+        ],
+        "media_url_https": "https://pbs.twimg.com/media/HKYwNlEWMAAJanX.png",
+        "original_info": {
+          "focus_rects": [
+            {
+              "h": 1210,
+              "w": 2160,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 2160,
+              "w": 2160,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 2160,
+              "w": 1895,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 2160,
+              "w": 1080,
+              "x": 54,
+              "y": 0
+            },
+            {
+              "h": 2160,
+              "w": 2160,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "height": 2160,
+          "width": 2160
+        },
+        "sizes": {
+          "large": {
+            "h": 2048,
+            "resize": "fit",
+            "w": 2048
+          },
+          "medium": {
+            "h": 1200,
+            "resize": "fit",
+            "w": 1200
+          },
+          "small": {
+            "h": 680,
+            "resize": "fit",
+            "w": 680
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "photo",
+        "url": "https://t.co/DxgSu0KUxh"
+      }
+    ],
+    "photos": [
+      {
+        "accessibilityLabel": "Benchmark table titled Mythos 5 & Fable 5, comparing Claude Mythos 5 and Fable 5 against Claude Mythos Preview, Claude Opus 4.8, GPT 5.5, and Gemini 3.1 Pro. ",
+        "backgroundColor": {
+          "red": 204,
+          "green": 214,
+          "blue": 221
+        },
+        "cropCandidates": [
+          {
+            "h": 1210,
+            "w": 2160,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 2160,
+            "w": 2160,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 2160,
+            "w": 1895,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 2160,
+            "w": 1080,
+            "x": 54,
+            "y": 0
+          },
+          {
+            "h": 2160,
+            "w": 2160,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "expandedUrl": "https://x.com/claudeai/status/2064394151441863006/photo/1",
+        "url": "https://pbs.twimg.com/media/HKYwNlEWMAAJanX.png",
+        "width": 2160,
+        "height": 2160
+      }
+    ],
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDY0NDA5Njk0NjY4NzE4MDgw"
+  }
+}

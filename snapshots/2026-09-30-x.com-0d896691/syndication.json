@@ -1,0 +1,114 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 362,
+  "in_reply_to_screen_name": "OpenAI",
+  "in_reply_to_status_id_str": "1815708159664910480",
+  "in_reply_to_user_id_str": "4398626122",
+  "lang": "en",
+  "created_at": "2024-07-23T11:18:54.000Z",
+  "display_text_range": [
+    0,
+    231
+  ],
+  "entities": {},
+  "id_str": "1815708160818356334",
+  "text": "Our whistleblower policy protects employees’ rights to make protected disclosures. We also believe rigorous debate about this technology is important and have made changes to our departure process to remove non-disparagement terms.",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1815708160818356334"
+    ],
+    "editable_until_msecs": "1721737134000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 28,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 335,
+    "in_reply_to_screen_name": "OpenAI",
+    "in_reply_to_status_id_str": "1815708158339526664",
+    "in_reply_to_user_id_str": "4398626122",
+    "lang": "en",
+    "reply_count": 26,
+    "retweet_count": 31,
+    "created_at": "2024-07-23T11:18:54.000Z",
+    "display_text_range": [
+      0,
+      277
+    ],
+    "entities": {},
+    "id_str": "1815708159664910480",
+    "text": "In May our Board of Directors launched a new Safety and Security committee to evaluate and further develop safety and security recommendations for OpenAI projects and operations. The committee includes leading cybersecurity expert, retired U.S. Army General Paul Nakasone. This",
+    "user": {
+      "id_str": "4398626122",
+      "name": "OpenAI",
+      "screen_name": "OpenAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1815708159664910480"
+      ],
+      "editable_until_msecs": "1721737134000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "birdwatch_pivot": {
+    "destinationUrl": "https://twitter.com/i/birdwatch/n/1815709967338390005",
+    "title": "Readers added context they thought people might want to know",
+    "shorttitle": "Readers added context",
+    "visualStyle": "Default",
+    "subtitle": {
+      "text": "OpenAI’s employment, non-disclosure and other agreements prevented employees from making protected disclosures to federal regulators, according to a complaint filed by OpenAI whistleblowers with SEC.\n\nwashingtonpost.com/technology/202…",
+      "entities": [
+        {
+          "fromIndex": 201,
+          "toIndex": 235,
+          "ref": {
+            "url": {
+              "url": "https://t.co/9C3v8b7hqk",
+              "urlType": "ExternalUrl"
+            }
+          }
+        }
+      ]
+    },
+    "iconType": "BirdwatchV1Icon",
+    "footer": {
+      "text": "Context is written by people who use X, and appears when rated helpful by others.  Find out more.",
+      "entities": [
+        {
+          "fromIndex": 83,
+          "toIndex": 96,
+          "ref": {
+            "url": {
+              "url": "https://x.com/i/flow/join-birdwatch",
+              "urlType": "ExternalUrl"
+            }
+          }
+        }
+      ]
+    },
+    "noteId": "1815709967338390005",
+    "footerIconType": "BirdwatchEyeOff"
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

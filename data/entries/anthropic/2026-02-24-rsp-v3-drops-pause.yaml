@@ -6,8 +6,7 @@ type: did
 kind: revision
 who: [anthropic, jared-kaplan]
 quote: >-
-  We felt that it wouldn't actually help anyone for us to stop training AI
-  models.
+  We felt that it wouldn't actually help anyone for us to stop training AI models
 summary: >-
   Anthropic rewrote its Responsible Scaling Policy. It removed the hard
   commitment not to train or release models without adequate safeguards
@@ -46,6 +45,7 @@ sources:
     date: 2026-02-25
     type: reporting
     archive: https://web.archive.org/web/20260410072435/https://www.bloomberg.com/news/articles/2026-02-25/anthropic-adds-caveat-to-ai-safety-policy-in-race-against-rivals
+    snapshot: snapshots/2026-10-01-bloomberg.com-93eda50c
   - title: 'Anthropic Responsible Scaling Policy v3: A Matter of Trust'
     publisher: Don't Worry About the Vase (Zvi Mowshowitz)
     url: https://thezvi.substack.com/p/anthropic-responsible-scaling-policy
@@ -56,6 +56,21 @@ response: >-
   restructure the RSP before we reach these higher levels," instead of weakening
   commitments at the moment they would bind.
 updates:
+  - date: 2026-02-25
+    text: >-
+      Anthropic alignment researcher Sam Bowman endorsed an outside argument
+      that voluntary slowdown commitments were "no longer plausible" as steps
+      toward a multilateral agreement, and wrote: "The Anthropic RSP changes are
+      an attempt to work out what kinds of firm commitments have the most
+      leverage in an environment that's less promising than we'd expected for
+      policy and coordination."
+    sources:
+      - title: Sam Bowman on X
+        publisher: X
+        url: https://x.com/sleepinyourhat/status/2026797148566859836
+        date: 2026-02-25
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-2fe3fe44
   - date: 2026-07-08
     text: >-
       Four point releases followed (v3.1 on Apr 2, v3.2 on Apr 29, v3.3 on May

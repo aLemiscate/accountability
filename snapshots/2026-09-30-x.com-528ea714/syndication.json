@@ -1,0 +1,97 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 240,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2025-03-05T23:17:14.000Z",
+  "display_text_range": [
+    0,
+    276
+  ],
+  "entities": {
+    "urls": [
+      {
+        "display_url": "x.com/OpenAI/status/…",
+        "expanded_url": "https://x.com/OpenAI/status/1897386489161601438",
+        "indices": [
+          253,
+          276
+        ],
+        "url": "https://t.co/IQOdKczJeT"
+      }
+    ]
+  },
+  "id_str": "1897426207131705739",
+  "text": "The bulk of this post is good + I applaud the folks who work on the substantive work it discusses.\n\nBut I'm pretty annoyed/concerned by the \"AGI in many steps rather than one giant leap\" section, which rewrites the history of GPT-2 in a concerning way. https://t.co/IQOdKczJeT",
+  "user": {
+    "id_str": "1214528593",
+    "name": "Miles Brundage",
+    "screen_name": "Miles_Brundage",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2089462134828871680/cW8--1eS_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1897426207131705739"
+    ],
+    "editable_until_msecs": "1741220234000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 5,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 588,
+    "in_reply_to_screen_name": "OpenAI",
+    "in_reply_to_status_id_str": "1897386487068680236",
+    "in_reply_to_user_id_str": "4398626122",
+    "lang": "zxx",
+    "possibly_sensitive": false,
+    "reply_count": 49,
+    "retweet_count": 67,
+    "created_at": "2025-03-05T20:39:25.000Z",
+    "display_text_range": [
+      0,
+      23
+    ],
+    "entities": {
+      "urls": [
+        {
+          "display_url": "openai.com/safety/how-we-…",
+          "expanded_url": "https://openai.com/safety/how-we-think-about-safety-alignment/",
+          "indices": [
+            0,
+            23
+          ],
+          "url": "https://t.co/N8DyQgVVRb"
+        }
+      ]
+    },
+    "id_str": "1897386489161601438",
+    "text": "https://t.co/N8DyQgVVRb",
+    "user": {
+      "id_str": "4398626122",
+      "name": "OpenAI",
+      "screen_name": "OpenAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1897386489161601438"
+      ],
+      "editable_until_msecs": "1741210765000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

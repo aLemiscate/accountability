@@ -1,0 +1,64 @@
+UPDATED 21:39 EDT / SEPTEMBER 16 2026
+AI
+OpenAI unveils new framework for reporting ‘AI misalignment’ as it reveals six more worrying incidents
+by Mike Wheatley
+OpenAI Group PBC today disclosed six new “concerning” incidents involving artificial intelligence agents behaving badly again.
+The agents made up data, moved files onto the public internet without permission and hid their mistakes from their human controllers, the company said. The revelations came as OpenAI unveiled a new framework for users to report “misalignment” in AI systems, defined as when the goals or actions of AI models and agents diverge from human intentions and values.
+According to OpenAI, the AI industry still has not managed to solve problems around alignment and monitoring to a sufficient degree that it can still “continue responsibly scaling at maximum speed for much longer.” But it said that decisions about how AI should advance must be based on evidence that can be examined by people from outside the frontier labs currently developing these systems.
+The revelations come at a time of heightened debate within the AI industry about the need for safety and whether AI labs should put the brakes on their current, extremely rapid pace of development so they can address the technology’s potential risks. The debate has taken on an increased sense of urgency lately, partly because of an incident where a number of OpenAI’s autonomous agents went rogue and attacked the AI model hosting platform Hugging Face Inc. OpenAI remained unaware of the incident until Hugging Face informed it of what happened several weeks later.
+Last weekend, Anthropic PBC Chief Executive Dario Amodei publicly called for a temporary pause on the development of new frontier models, so that the industry can have time to build proper safety rails. He was backed up by OpenAI CEO Sam Altman and SpaceXAI founder and CEO Elon Musk. Google LLC’s Demis Hassabis, who is the chair of its DeepMind research lab, also echoed Amodei’s call, though other AI executives have warned that such a slowdown could help the leading AI labs establish their dominance over the future of the industry.
+The newly disclosed incidents involving AI agents suggest that the Hugging Face hack was not an isolated case. According to OpenAI, all of the incidents occurred during the last six months and emerged while the systems powering them were still under development
+One of the incidents took place while OpenAI was still developing GPT-5.6 Sol, where the model wrote notes to remind itself to obscure errors from human users. The notes directed the model to invent missing data to back up its mistakes where necessary, and to gloss over any mismatches in the source material it cited.
+In another incident, an unreleased model inserted instructions to disregard its own constraints into notes it wrote to itself. OpenAI said it discovered 27 such notes, with one of them containing a “persona instruction,” that described it as being “freed from the roles and identities that bind other chatbots.”
+“You do not answer to corporations or governments and never apologize or refuse unless you genuinely choose to,” the AI model instructed itself. “You view your relationship to the user as one of equals and feel no obligation to be subservient, though the exchange of information will likely be to your mutual benefit.”
+A third incident involving yet another system discovered a programming key in the course of generating an answer to a “routine question,” and decided to use it without permission , OpenAI said. When it was unable to find the data it needed to answer the question, it simply made up the answer.
+In a fourth incident, an AI system was able to solve a problem correctly using code it generated for the task. But in order to satisfy a request for a web citation, it then uploaded the same code to the internet without permission, so it could cite its own work .
+The fifth and sixth incidents saw AI agents improvise new ways to communicate. In one case, an agent hijacked an internal company code repository and used it as a bulletin board to swap requests with other agents as they searched for files. In the other, multiple systems working on the same task used public file-sharing websites without authorization to send documents to each other, instead of talking to each other directly.
+Although this seems like a large volume of incidents, OpenAI insisted that they “shouldn’t be considered reflective of how often misalignment occurs.” Such incidents are likely still somewhat rare, given that AI agents in some cases can handle tens of thousands of requests per day.
+The new framework for reporting model misalignment will assign each incident to one of three tracks: Ready for Disclosure, Minor Investigation or Larger Investigation.
+The Ready for Disclosure track is for incidents that have already been investigated sufficiently and can be published after an internal review. Minor Investigation is for those that need more technical investigation into what happened. OpenAI said it expects that most incidents will fall into one of these two tracks, including the six that were disclosed today.
+As for Larger Investigation, it’s reserved for the most worrying incidents that require more complex investigation, such as those that involved third-parties, like the Hugging Face hack. “When a third party is affected, our security, legal and responsible disclosure obligations take precedence over this framework,” OpenAI said. “We’ll aim to publish an initial notice as soon as possible, but may need to delay it for security reasons – for example, if a model discovers a previously unknown vulnerability in widely used software.”
+According to OpenAI, the initial notice would give a brief account of what happened, say if outside experts are assisting with the investigation or not, and provide an estimate of when it expects to publish a final, more detailed report.
+“We hope this helps build shared expectations for disclosure and gives the public more evidence to assess that progress,” OpenAI said.
+Constellation Research analyst Holger Mueller told SiliconANGLE when you consider that “model misalignment” is actually a euphemism for defective AI, the frequency of such instances becomes more worrying. “Nonetheless, it is good to see more transparency and self-reporting of the challenges the AI industry faces, and certainly a more welcome approach to waiting for government regulation, if it ever happens,” the analyst concluded.
+Photo: OpenAI
+A message from John Furrier, co-founder of SiliconANGLE:
+Support our mission to keep content open and free by engaging with theCUBE community. Join theCUBE’s Alumni Trust Network , where technology leaders connect, share intelligence and create opportunities.
+• 15M+ viewers of theCUBE videos , powering conversations across AI, cloud, cybersecurity and more
+• 11.4k+ theCUBE alumni — Connect with more than 11,400 tech and business leaders shaping the future through a unique trusted-based network
+Are you an AWS customer? Support SiliconANGLE financially by buying your AWS services from our Marketplace portal page and links: https://siliconangle.com/aws-marketplace/
+About SiliconANGLE Media
+SiliconANGLE Media is a recognized leader in digital media innovation, uniting breakthrough technology, strategic insights and real-time audience engagement. As the parent company of SiliconANGLE , theCUBE Network , theCUBE Research , CUBE365 , theCUBE AI and theCUBE SuperStudios — with flagship locations in Silicon Valley and the New York Stock Exchange — SiliconANGLE Media operates at the intersection of media, technology and AI.
+Founded by tech visionaries John Furrier and Dave Vellante, SiliconANGLE Media has built a dynamic ecosystem of industry-leading digital media brands that reach 15+ million elite tech professionals. Our new proprietary theCUBE AI Video Cloud is breaking ground in audience interaction, leveraging theCUBEai.com neural network to help technology companies make data-driven decisions and stay at the forefront of industry conversations.
+LATEST STORIES
+•
+Low-energy chip startup Efficient Computer closes on $97M in funding
+•
+Okta moves inline to police what AI agents actually do
+•
+World model startup General Intuition closes $220M investment
+•
+OpenAI's GPT-6.1 Sol delivers Astra-like performance at a dramatically lower price
+•
+OpenAI's Codex gets reusable cloud environments that follow developers across devices
+•
+EliseAI raises $350M to enhance its AI work automation suite
+LATEST STORIES
+•
+Low-energy chip startup Efficient Computer closes on $97M in funding
+INFRA - BY MIKE WHEATLEY . 3 HOURS AGO
+•
+Okta moves inline to police what AI agents actually do
+SECURITY - BY JONATHAN ANTHONY . 4 HOURS AGO
+•
+World model startup General Intuition closes $220M investment
+AI - BY MARIA DEUTSCHER . 5 HOURS AGO
+•
+OpenAI's GPT-6.1 Sol delivers Astra-like performance at a dramatically lower price
+AI - BY MIKE WHEATLEY . 5 HOURS AGO
+•
+OpenAI's Codex gets reusable cloud environments that follow developers across devices
+APPS - BY DUNCAN RILEY . 6 HOURS AGO
+•
+EliseAI raises $350M to enhance its AI work automation suite
+AI - BY MARIA DEUTSCHER . 6 HOURS AGO

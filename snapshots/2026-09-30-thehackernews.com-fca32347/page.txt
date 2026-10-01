@@ -1,0 +1,79 @@
+Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export Controls
+ Swati Khandelwal  Jul 01, 2026 Artificial Intelligence / Critical Infrastructure
+Anthropic is putting Claude Fable 5 back online worldwide. On June 30 , the U.S. Commerce Department lifted the export controls it had imposed on Fable and its more tightly controlled sibling Mythos 5 about two and a half weeks earlier.
+Fable 5 returns to users on Wednesday, July 1, across Claude.ai, the Claude Platform, Claude Code, and Claude Cowork.
+Export controls restrict who can receive or use a technology. The June 12 order told Anthropic to cut off both models for any foreign national, inside or outside the United States, including its own non-citizen staff.
+The rule took effect at once, and the company had no reliable way to check every user's nationality in real time, so it shut both models down for everyone.
+The trigger was a jailbreak: a prompt that gets a model to bypass its safety rules. Amazon researchers found one in Fable 5. By Anthropic's account, the prompt got the model to flag a few software flaws and, in one case, to write code showing how a flaw could be abused.
+Anthropic played the finding down. It says the same requests work on plenty of weaker models too, including its own Claude Opus 4.8, OpenAI's GPT-5.5, and China's Kimi K2.7. The company calls the flagged behavior routine defensive security work, not a hidden super-capability.
+The government and the partner that reported the jailbreak saw it as serious enough to justify emergency controls.
+To settle the concern, Anthropic trained a new safety filter, called a classifier , that watches for the exact technique in the report and blocks it. The company says it now stops that technique in more than 99% of tries, as of the June 30 write-up. Blocked requests get handed to the weaker Opus 4.8 instead, and the user is told. The trade-off is more false alarms on normal coding and debugging.
+Mythos 5, the same underlying model with fewer safety guardrails, stays on a shorter leash. Access returned June 26 for roughly 100 U.S. companies and federal agencies that defend critical infrastructure. Anthropic says it is still working with the government to widen access.
+Commerce Secretary Howard Lutnick, who signed off on the reversal, said his department had spent two weeks reviewing the models with Anthropic. In his letter, the company agreed to hunt for security problems on its own, coordinate on future launches, and report any malicious use it spots.
+The negotiations were reportedly led by co-founder Tom Brown rather than CEO Dario Amodei, who has clashed with the administration for much of the year.
+The fight was messy from the start. Multiple reports, including from The Wall Street Journal, said Amazon's research and concerns from CEO Andy Jassy helped drive the original order. Former AI czar David Sacks accused Anthropic of having "prioritized the continued offering of the consumer model over safety." Others read it as an overcorrection.
+University of Sydney AI governance researcher Francesco Bailo told Al Jazeera the reversal looked like the government conceding it had gone too far, and a group of security leaders had signed an open letter asking for the controls to be lifted.
+Hanging over all of it was competition. The pause landed just as cheap, capable Chinese open-source models were gaining ground, and several executives warned that freezing U.S. models handed rivals free time to catch up.
+Anthropic is also proposing something the industry has lacked: a shared way to rank how dangerous a jailbreak really is. With Amazon, Microsoft, Google, and other partners, it wants to score each one on four things:
+• Capability gain: how much further the jailbreak takes a user beyond the tools they already have.
+• Breadth: how many different attacks the same trick unlocks.
+• Ease of weaponization: how much skill and effort it takes to turn it into a real attack.
+• Discoverability: how easy the trick is to find or copy.
+For the worst cases, such as a jailbreak that enables attacks on power grids or banks, Anthropic says it will start deploying fixes the moment severity is confirmed, and it is standing up a team to watch jailbreak reports around the clock.
+It also opened a HackerOne program for researchers to report new Fable 5 jailbreaks, and promised the U.S. government earlier access to test future frontier models before release.
+Anthropic is not the only lab in this position. Days earlier, OpenAI previewed GPT-5.6 to a small, government-approved group rather than the public, citing the same dual-use worry: a model good enough to help defenders patch bugs is also good enough to help attackers find them.
+The risk is not hypothetical. Earlier this spring, Anthropic tested a prior Mythos model that found and exploited zero-day bugs across every major operating system and browser on command, including a 27-year-old flaw in OpenBSD. Its red team turned freshly disclosed bugs into working exploits in under a day.
+The immediate crisis is over. The bigger question is not. A June 2 executive order created a voluntary path for companies to have frontier models reviewed before release. It also set up a classified benchmark to decide which models count as "covered," while ruling out any mandatory license to ship one. Fable 5 never went through that path.
+The government reached for export controls instead. That is the tell: when Washington wants to move fast on a frontier model, it still has no binding process, only improvised ones.
+Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post.
+SHARE
+
+
+
+
+ Tweet
+ Share
+ Share
+ Share
+
+ Share on Facebook
+ Share on Twitter
+ Share on Linkedin
+ Share on Reddit
+ Share on Hacker News
+ Share on Email
+ Share on WhatsApp
+Share on Facebook Messenger
+ Share on Telegram
+SHARE 
+Anthropic , artificial intelligence , Claude , critical infrastructure , Fable 5 , hackerone , jailbreak , Mythos 5
+⚡ Top Stories This Week
+Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild
+Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data
+Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions
+ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories
+Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content
+OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files
+A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You
+MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key
+New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control
+Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape
+F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers
+Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input
+ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants
+Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks
+WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers
+Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates
+New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups
+New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory
+SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE
+One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor
+WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session
+Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access
+Beyond ISO 27001: Building a Risk Program That Can Keep Up With AI
+Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore
+⭐ Featured Resources
+Validation Summit ’26: See How Pen Testing, Exposure Validation and BAS Work Together
+Red Teams: Learn How Attack Path Chaining Changes Automated Security Testing
+Turn Threat Intelligence Into Verified Risk With Threat-Led Penetration Testing
+Deploy Browser Security Monitoring in Minutes With a Single Header

@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/JoHeidecke/status/1906799389139722663",
+  "captured_at": "2026-09-30T13:10:58.594Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "e1550e65c6c2942c39564bf334583d0092c09684e9f2c2f9e1203c6a2067b29b",
+    "page.txt": "4129725f58784de93f86f9ddd188a0341de54ee5eb248962d51ee2c97aa6c52f",
+    "post.json": "f11e1fb224cee1d37814c3abe9815d32831cced47f9f9d037141aca6d3b32491",
+    "syndication.json": "68f1ba7a607f1544410011a0a7239f7b9e270c9c70f50ff4d6d4546eb1adb694",
+    "post.txt": "2498634b81012fdb28752180192b59f81f5ca7d7fa6e54f185982e0b29379c12"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/JoHeidecke/status/1906799389139722663",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Johannes Heidecke on X: \"We are particularly focused on studying adversarial fine-tuning and other risks unique to open models. As with all model releases, we’re conducting extensive safety testing, both internally and with trusted third-party experts, prior to public release.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Johannes Heidecke (@JoHeidecke)",
+    "date": "March 31, 2025",
+    "posted_at": "2025-03-31T20:02:55.647Z"
+  }
+}

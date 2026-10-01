@@ -1,0 +1,429 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 181,
+  "in_reply_to_screen_name": "OpenAI",
+  "in_reply_to_status_id_str": "2052845768567066907",
+  "in_reply_to_user_id_str": "4398626122",
+  "lang": "en",
+  "created_at": "2026-05-08T20:19:06.000Z",
+  "display_text_range": [
+    0,
+    280
+  ],
+  "entities": {},
+  "id_str": "2052845770056073216",
+  "text": "Training models involves many technical and social processes, so prevention of CoT grading has to be built into the process. \n\nWe’re improving real-time CoT-grading detection, safeguards against accidental CoT grading, monitorability stress tests, and the internal guidance/checks",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2052845770056073216"
+    ],
+    "editable_until_msecs": "1778275146000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 26,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 240,
+    "in_reply_to_screen_name": "OpenAI",
+    "in_reply_to_status_id_str": "2052845767417835551",
+    "in_reply_to_user_id_str": "4398626122",
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 18,
+    "retweet_count": 26,
+    "created_at": "2026-05-08T20:19:05.000Z",
+    "display_text_range": [
+      0,
+      195
+    ],
+    "entities": {
+      "urls": [
+        {
+          "display_url": "blog.redwoodresearch.org/p/openai-cot",
+          "expanded_url": "https://blog.redwoodresearch.org/p/openai-cot",
+          "indices": [
+            172,
+            195
+          ],
+          "url": "https://t.co/ODm056TVbF"
+        }
+      ],
+      "user_mentions": [
+        {
+          "id_str": "1869137469024948224",
+          "indices": [
+            88,
+            99
+          ],
+          "name": "Redwood Research",
+          "screen_name": "redwood_ai"
+        },
+        {
+          "id_str": "1655925560596373506",
+          "indices": [
+            101,
+            116
+          ],
+          "name": "",
+          "screen_name": "apolloresearch"
+        },
+        {
+          "id_str": "1706770561903497216",
+          "indices": [
+            118,
+            129
+          ],
+          "name": "METR",
+          "screen_name": "METR_Evals"
+        },
+        {
+          "id_str": "1869137469024948224",
+          "indices": [
+            145,
+            156
+          ],
+          "name": "Redwood Research",
+          "screen_name": "redwood_ai"
+        }
+      ]
+    },
+    "id_str": "2052845768567066907",
+    "text": "We also had three third-party AI safety organizations provide feedback on our analysis: @redwood_ai, @apolloresearch, @METR_Evals.\n\nYou can find @redwood_ai's report here: https://t.co/ODm056TVbF",
+    "user": {
+      "id_str": "4398626122",
+      "name": "OpenAI",
+      "screen_name": "OpenAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2052845768567066907"
+      ],
+      "editable_until_msecs": "1778275145000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "card": {
+      "card_platform": {
+        "platform": {
+          "audience": {
+            "name": "production"
+          },
+          "device": {
+            "name": "iPhone",
+            "version": "13"
+          }
+        }
+      },
+      "name": "summary_large_image",
+      "url": "https://t.co/ODm056TVbF",
+      "binding_values": {
+        "photo_image_full_size_large": {
+          "image_value": {
+            "height": 419,
+            "url": "https://pbs.twimg.com/card_img/2103221513650311169/bu03veXB?format=jpg&name=800x419",
+            "width": 800
+          },
+          "type": "IMAGE"
+        },
+        "thumbnail_image": {
+          "image_value": {
+            "height": 200,
+            "url": "https://pbs.twimg.com/card_img/2103221513650311169/bu03veXB?format=jpg&name=400x400",
+            "width": 400
+          },
+          "type": "IMAGE"
+        },
+        "description": {
+          "string_value": "Last week, OpenAI staff shared an early draft of Investigating the consequences of accidentally grading CoT during RL with Redwood Research staff.",
+          "type": "STRING"
+        },
+        "domain": {
+          "string_value": "blog.redwoodresearch.org",
+          "type": "STRING"
+        },
+        "thumbnail_image_large": {
+          "image_value": {
+            "height": 300,
+            "url": "https://pbs.twimg.com/card_img/2103221513650311169/bu03veXB?format=jpg&name=600x600",
+            "width": 600
+          },
+          "type": "IMAGE"
+        },
+        "summary_photo_image_small": {
+          "image_value": {
+            "height": 202,
+            "url": "https://pbs.twimg.com/card_img/2103221513650311169/bu03veXB?format=jpg&name=386x202",
+            "width": 386
+          },
+          "type": "IMAGE"
+        },
+        "thumbnail_image_original": {
+          "image_value": {
+            "height": 800,
+            "url": "https://pbs.twimg.com/card_img/2103221513650311169/bu03veXB?format=jpg&name=orig",
+            "width": 1600
+          },
+          "type": "IMAGE"
+        },
+        "photo_image_full_size_small": {
+          "image_value": {
+            "height": 202,
+            "url": "https://pbs.twimg.com/card_img/2103221513650311169/bu03veXB?format=jpg&name=386x202",
+            "width": 386
+          },
+          "type": "IMAGE"
+        },
+        "summary_photo_image_large": {
+          "image_value": {
+            "height": 419,
+            "url": "https://pbs.twimg.com/card_img/2103221513650311169/bu03veXB?format=jpg&name=800x419",
+            "width": 800
+          },
+          "type": "IMAGE"
+        },
+        "thumbnail_image_small": {
+          "image_value": {
+            "height": 72,
+            "url": "https://pbs.twimg.com/card_img/2103221513650311169/bu03veXB?format=jpg&name=144x144",
+            "width": 144
+          },
+          "type": "IMAGE"
+        },
+        "thumbnail_image_x_large": {
+          "image_value": {
+            "height": 800,
+            "url": "https://pbs.twimg.com/card_img/2103221513650311169/bu03veXB?format=png&name=2048x2048_2_exp",
+            "width": 1600
+          },
+          "type": "IMAGE"
+        },
+        "photo_image_full_size_original": {
+          "image_value": {
+            "height": 800,
+            "url": "https://pbs.twimg.com/card_img/2103221513650311169/bu03veXB?format=jpg&name=orig",
+            "width": 1600
+          },
+          "type": "IMAGE"
+        },
+        "vanity_url": {
+          "scribe_key": "vanity_url",
+          "string_value": "blog.redwoodresearch.org",
+          "type": "STRING"
+        },
+        "photo_image_full_size": {
+          "image_value": {
+            "height": 314,
+            "url": "https://pbs.twimg.com/card_img/2103221513650311169/bu03veXB?format=jpg&name=600x314",
+            "width": 600
+          },
+          "type": "IMAGE"
+        },
+        "thumbnail_image_color": {
+          "image_color_value": {
+            "palette": [
+              {
+                "percentage": 92.32,
+                "rgb": {
+                  "blue": 198,
+                  "green": 198,
+                  "red": 197
+                }
+              },
+              {
+                "percentage": 3.17,
+                "rgb": {
+                  "blue": 104,
+                  "green": 104,
+                  "red": 104
+                }
+              },
+              {
+                "percentage": 2.32,
+                "rgb": {
+                  "blue": 119,
+                  "green": 168,
+                  "red": 96
+                }
+              },
+              {
+                "percentage": 1.86,
+                "rgb": {
+                  "blue": 193,
+                  "green": 142,
+                  "red": 119
+                }
+              },
+              {
+                "percentage": 0.18,
+                "rgb": {
+                  "blue": 81,
+                  "green": 158,
+                  "red": 63
+                }
+              }
+            ]
+          },
+          "type": "IMAGE_COLOR"
+        },
+        "title": {
+          "string_value": "A review of “Investigating the consequences of accidentally grading CoT during RL”",
+          "type": "STRING"
+        },
+        "summary_photo_image_color": {
+          "image_color_value": {
+            "palette": [
+              {
+                "percentage": 92.32,
+                "rgb": {
+                  "blue": 198,
+                  "green": 198,
+                  "red": 197
+                }
+              },
+              {
+                "percentage": 3.17,
+                "rgb": {
+                  "blue": 104,
+                  "green": 104,
+                  "red": 104
+                }
+              },
+              {
+                "percentage": 2.32,
+                "rgb": {
+                  "blue": 119,
+                  "green": 168,
+                  "red": 96
+                }
+              },
+              {
+                "percentage": 1.86,
+                "rgb": {
+                  "blue": 193,
+                  "green": 142,
+                  "red": 119
+                }
+              },
+              {
+                "percentage": 0.18,
+                "rgb": {
+                  "blue": 81,
+                  "green": 158,
+                  "red": 63
+                }
+              }
+            ]
+          },
+          "type": "IMAGE_COLOR"
+        },
+        "summary_photo_image_x_large": {
+          "image_value": {
+            "height": 800,
+            "url": "https://pbs.twimg.com/card_img/2103221513650311169/bu03veXB?format=png&name=2048x2048_2_exp",
+            "width": 1600
+          },
+          "type": "IMAGE"
+        },
+        "summary_photo_image": {
+          "image_value": {
+            "height": 314,
+            "url": "https://pbs.twimg.com/card_img/2103221513650311169/bu03veXB?format=jpg&name=600x314",
+            "width": 600
+          },
+          "type": "IMAGE"
+        },
+        "photo_image_full_size_color": {
+          "image_color_value": {
+            "palette": [
+              {
+                "percentage": 92.32,
+                "rgb": {
+                  "blue": 198,
+                  "green": 198,
+                  "red": 197
+                }
+              },
+              {
+                "percentage": 3.17,
+                "rgb": {
+                  "blue": 104,
+                  "green": 104,
+                  "red": 104
+                }
+              },
+              {
+                "percentage": 2.32,
+                "rgb": {
+                  "blue": 119,
+                  "green": 168,
+                  "red": 96
+                }
+              },
+              {
+                "percentage": 1.86,
+                "rgb": {
+                  "blue": 193,
+                  "green": 142,
+                  "red": 119
+                }
+              },
+              {
+                "percentage": 0.18,
+                "rgb": {
+                  "blue": 81,
+                  "green": 158,
+                  "red": 63
+                }
+              }
+            ]
+          },
+          "type": "IMAGE_COLOR"
+        },
+        "photo_image_full_size_x_large": {
+          "image_value": {
+            "height": 800,
+            "url": "https://pbs.twimg.com/card_img/2103221513650311169/bu03veXB?format=png&name=2048x2048_2_exp",
+            "width": 1600
+          },
+          "type": "IMAGE"
+        },
+        "card_url": {
+          "scribe_key": "card_url",
+          "string_value": "https://t.co/ODm056TVbF",
+          "type": "STRING"
+        },
+        "summary_photo_image_original": {
+          "image_value": {
+            "height": 800,
+            "url": "https://pbs.twimg.com/card_img/2103221513650311169/bu03veXB?format=jpg&name=orig",
+            "width": 1600
+          },
+          "type": "IMAGE"
+        }
+      }
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDUyODQ1NzcwMDAxNDg5OTIw"
+  }
+}

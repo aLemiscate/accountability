@@ -1,0 +1,178 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 2494,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2026-03-05T03:00:12.000Z",
+  "display_text_range": [
+    0,
+    275
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/EcFoJ0NOAy",
+        "expanded_url": "https://x.com/washingtonpost/status/2029391498651820263/photo/1",
+        "indices": [
+          276,
+          299
+        ],
+        "url": "https://t.co/EcFoJ0NOAy"
+      }
+    ],
+    "urls": [
+      {
+        "display_url": "wapo.st/40adi1q",
+        "expanded_url": "https://wapo.st/40adi1q",
+        "indices": [
+          252,
+          275
+        ],
+        "url": "https://t.co/dDQ8KoWdVT"
+      }
+    ]
+  },
+  "id_str": "2029391498651820263",
+  "text": "To strike 1,000 targets in 24 hours in Iran, the U.S. military leveraged the most advanced AI it’s ever used in warfare.\n\nAnthropic’s Claude partnered with the military’s Maven Smart System, suggesting targets and issuing precise location coordinates. https://t.co/dDQ8KoWdVT https://t.co/EcFoJ0NOAy",
+  "user": {
+    "id_str": "2467791",
+    "name": "The Washington Post",
+    "screen_name": "washingtonpost",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2029391498651820263"
+    ],
+    "editable_until_msecs": "1772683212000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/EcFoJ0NOAy",
+      "expanded_url": "https://x.com/washingtonpost/status/2029391498651820263/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        276,
+        299
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/HCnYzAqXwAAqmxk.jpg",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 896,
+            "w": 1600,
+            "x": 0,
+            "y": 1104
+          },
+          {
+            "h": 1600,
+            "w": 1600,
+            "x": 0,
+            "y": 400
+          },
+          {
+            "h": 1824,
+            "w": 1600,
+            "x": 0,
+            "y": 176
+          },
+          {
+            "h": 2000,
+            "w": 1000,
+            "x": 250,
+            "y": 0
+          },
+          {
+            "h": 2000,
+            "w": 1600,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 2000,
+        "width": 1600
+      },
+      "sizes": {
+        "large": {
+          "h": 2000,
+          "resize": "fit",
+          "w": 1600
+        },
+        "medium": {
+          "h": 1200,
+          "resize": "fit",
+          "w": 960
+        },
+        "small": {
+          "h": 680,
+          "resize": "fit",
+          "w": 544
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/EcFoJ0NOAy"
+    }
+  ],
+  "photos": [
+    {
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 896,
+          "w": 1600,
+          "x": 0,
+          "y": 1104
+        },
+        {
+          "h": 1600,
+          "w": 1600,
+          "x": 0,
+          "y": 400
+        },
+        {
+          "h": 1824,
+          "w": 1600,
+          "x": 0,
+          "y": 176
+        },
+        {
+          "h": 2000,
+          "w": 1000,
+          "x": 250,
+          "y": 0
+        },
+        {
+          "h": 2000,
+          "w": 1600,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/washingtonpost/status/2029391498651820263/photo/1",
+      "url": "https://pbs.twimg.com/media/HCnYzAqXwAAqmxk.jpg",
+      "width": 1600,
+      "height": 2000
+    }
+  ],
+  "conversation_count": 319,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

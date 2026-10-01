@@ -1,0 +1,75 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 2310,
+  "in_reply_to_screen_name": "AnthropicAI",
+  "in_reply_to_status_id_str": "2041578409315189125",
+  "in_reply_to_user_id_str": "1353836358901501952",
+  "lang": "en",
+  "created_at": "2026-04-07T18:06:38.000Z",
+  "display_text_range": [
+    0,
+    217
+  ],
+  "entities": {},
+  "id_str": "2041578412653900255",
+  "text": "We’re committing up to $100M in Mythos Preview usage credits for our partners and over 40 other organizations that maintain critical software, including open-source projects.\n\nAnthropic will report back what we learn.",
+  "user": {
+    "id_str": "1353836358901501952",
+    "name": "Anthropic",
+    "screen_name": "AnthropicAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2041578412653900255"
+    ],
+    "editable_until_msecs": "1775588798000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 30,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 3619,
+    "in_reply_to_screen_name": "AnthropicAI",
+    "in_reply_to_status_id_str": "2041578407238996109",
+    "in_reply_to_user_id_str": "1353836358901501952",
+    "lang": "en",
+    "reply_count": 94,
+    "retweet_count": 296,
+    "created_at": "2026-04-07T18:06:38.000Z",
+    "display_text_range": [
+      0,
+      270
+    ],
+    "entities": {},
+    "id_str": "2041578409315189125",
+    "text": "We do not plan to make Mythos Preview generally available. Our goal is to deploy Mythos-class models safely at scale, but first we need safeguards that reliably block their most dangerous outputs.\n\nWe’ll begin testing those safeguards with an upcoming Claude Opus model.",
+    "user": {
+      "id_str": "1353836358901501952",
+      "name": "Anthropic",
+      "screen_name": "AnthropicAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2041578409315189125"
+      ],
+      "editable_until_msecs": "1775588798000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

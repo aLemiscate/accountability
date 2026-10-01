@@ -10,9 +10,19 @@ summary: >-
   Palantir's Impact Level 6 environment, which handles data up to the "secret"
   classification. Anthropic's policy still barred uses such as disinformation,
   weapons design, censorship, domestic surveillance and malicious cyber
-  operations, while allowing some government agencies to use the models.
+  operations, while allowing some government agencies to use the models. The
+  groundwork was laid in June 2024, when Anthropic wrote "contractual
+  exceptions to our general Usage Policy" for "carefully selected government
+  agencies," allowing "legally authorized foreign intelligence analysis" and
+  "providing warning in advance of potential military activities."
 patterns: [ principles-with-a-price ]
 sources:
+  - title: Expanding access to Claude for government
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/expanding-access-to-claude-for-government
+    date: 2024-06-26
+    type: primary
+    snapshot: snapshots/2026-09-30-anthropic.com-980c87eb
   - title: Anthropic and Palantir Partner to Bring Claude AI Models to AWS for U.S.
       Government Intelligence and Defense Operations
     publisher: Business Wire
@@ -31,6 +41,20 @@ sources:
 response: >-
   Anthropic says supporting democratic governments' national security fits its
   mission, and that its usage restrictions still apply.
+updates:
+  - date: 2025-06-05
+    text: >-
+      Anthropic launched Claude Gov, custom models "built exclusively for U.S.
+      national security customers" and already in use "by agencies at the
+      highest level of U.S. national security." Among the listed features:
+      "the models refuse less when engaging with classified information."
+    sources:
+      - title: Claude Gov models for U.S. national security customers
+        publisher: Anthropic
+        url: https://www.anthropic.com/news/claude-gov-models-for-u-s-national-security-customers
+        date: 2025-06-05
+        type: primary
+        snapshot: snapshots/2026-09-30-anthropic.com-5cc0bb63
 note: >-
   This isn't a broken promise by itself, because Anthropic never promised to
   stay out of defense. It's here because of what came next: the same company's

@@ -1,0 +1,50 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 6,
+  "in_reply_to_screen_name": "darkfeign",
+  "in_reply_to_status_id_str": "675439118298587136",
+  "in_reply_to_user_id_str": "1416162469",
+  "lang": "en",
+  "created_at": "2015-12-11T23:51:57.000Z",
+  "display_text_range": [
+    0,
+    58
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "1416162469",
+        "indices": [
+          0,
+          10
+        ],
+        "name": "Noname",
+        "screen_name": "darkfeign"
+      }
+    ]
+  },
+  "id_str": "675463059268235264",
+  "text": "@darkfeign Donating, actually. No equity to exchange here.",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "675463059268235264"
+    ],
+    "editable_until_msecs": "1449879717483",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 2,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

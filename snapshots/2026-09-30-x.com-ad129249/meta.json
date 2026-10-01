@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/sama/status/1943837550369812814",
+  "captured_at": "2026-09-30T13:11:01.441Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "c34d7726f84081ca30feb93e666a282afbcdd7a7481ff43c872630cc0a39f449",
+    "page.txt": "7aedc530f57099b23b2d98481950a5f852068f74b32a60f33a11c56401549dc9",
+    "post.json": "662fc2b8b6c20869226393e1ca2d4e27d13deba34845ccc59c7a0dfa4dfcb1df",
+    "syndication.json": "3080b6c8976c5ac6975ae7cf0a56cad03cf08ac168933649ed1a7ca33b5d36e8",
+    "post.txt": "a829637933d999f67923644010ba738c3252bc59c7ebd1f04aa77043d38279e5"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1943837550369812814",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"we planned to launch our open-weight model next week. we are delaying it; we need time to run additional safety tests and review high-risk areas. we are not yet sure how long it will take us. while we trust the community will build great things with this model, once weights are … / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "July 12, 2025",
+    "posted_at": "2025-07-12T00:59:21.420Z"
+  }
+}

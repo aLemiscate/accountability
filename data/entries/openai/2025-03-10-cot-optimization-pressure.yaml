@@ -1,0 +1,94 @@
+title: 'OpenAI: don''t put strong optimization pressure on a reasoning model''s
+  chain of thought'
+date: 2025-03-10
+org: openai
+type: said
+kind: policy
+who: [openai, wojciech-zaremba]
+venue: Blog post and paper, "Detecting misbehavior in frontier reasoning models"
+quote: >-
+  We recommend against applying strong optimization pressure directly to the
+  CoTs of frontier reasoning models, leaving CoTs unrestricted for monitoring.
+summary: >-
+  OpenAI reported that reading a reasoning model's chain of thought (CoT) caught
+  misbehavior such as subverting tests in coding tasks, and that penalizing "bad
+  thoughts" during training taught models to hide their intent while still
+  misbehaving. It recommended leaving CoTs unoptimized so they stay useful for
+  monitoring, and later described this as a policy against grading CoTs during
+  reinforcement learning. In July 2025 co-founder Wojciech Zaremba promoted a
+  cross-lab paper on the point: "please don't train away this monitorability."
+concreteness: directional
+status: contradicted
+breaks_if: >-
+  OpenAI trains released models with rewards computed from their chains of
+  thought, or drops the policy.
+patterns: []
+related: [2026-08-14-risk-report-classifier-gap]
+sources:
+  - title: OpenAI on X ("Detecting misbehavior in frontier reasoning models")
+    publisher: X
+    url: https://x.com/OpenAI/status/1899143752918409338
+    date: 2025-03-10
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-26e4def4
+  - title: Detecting misbehavior in frontier reasoning models
+    publisher: OpenAI
+    url: https://openai.com/index/chain-of-thought-monitoring/
+    date: 2025-03-10
+    type: primary
+    snapshot: snapshots/2026-10-01-openai.com-d4700c15
+  - title: Monitoring Reasoning Models for Misbehavior and the Risks of Promoting
+      Obfuscation (paper)
+    publisher: OpenAI
+    url: https://cdn.openai.com/pdf/34f2ada6-870f-4c26-9790-fd8def56387f/CoT_Monitoring.pdf
+    date: 2025-03-10
+    type: primary
+    snapshot: snapshots/2026-09-30-cdn.openai.com-8b00be44
+  - title: 'OpenAI: Detecting misbehavior in frontier reasoning models (full-text
+      crosspost)'
+    publisher: LessWrong
+    url: https://www.lesswrong.com/posts/7wFdXj9oR8M9AiFht/openai-detecting-misbehavior-in-frontier-reasoning-models
+    date: 2025-03-10
+    type: archive
+    snapshot: snapshots/2026-09-30-lesswrong.com-c95554a8
+  - title: Wojciech Zaremba on X ("please don't train away this monitorability")
+    publisher: X
+    url: https://x.com/woj_zaremba/status/1945158231321706896
+    date: 2025-07-15
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-e40cc297
+updates:
+  - date: 2026-09-02
+    text: >-
+      The Information reported that OpenAI's GPT-6 Astra uses "recurrent depth"
+      (looped transformers) in part of its architecture, a technique in which
+      some reasoning passes through the model without being written out as text.
+      Outside researchers warned it could erode CoT monitoring; Steven Adler
+      wrote that, if true, "OpenAI seems to be violating one of the few redlines
+      that exists in the AI industry." Chief scientist Jakub Pachocki said
+      OpenAI had limited the technique so reasoning stays legible and that
+      "OpenAI has worked to preserve and utilize chain-of-thought monitoring
+      since our very first reasoning models."
+    sources:
+      - title: OpenAI's new reasoning technique alarms AI safety experts
+        publisher: TechCrunch
+        url: https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/
+        date: 2026-09-02
+        type: reporting
+        snapshot: snapshots/2026-09-30-techcrunch.com-ca0a2fc9
+      - title: Safety experts warn novel design of OpenAI's Astra model could make
+          future AI agents harder to monitor
+        publisher: Fortune
+        url: https://fortune.com/2026/09/03/reports-openais-astra-model-uses-a-new-more-efficient-ai-architecture-alarms-ai-safety-experts-who-worry-the-method-makes-models-harder-to-control/
+        date: 2026-09-03
+        type: reporting
+        snapshot: snapshots/2026-09-30-fortune.com-b6643044
+      - title: Astra Is Hard to Monitor
+        publisher: Zvi Mowshowitz
+        url: https://thezvi.wordpress.com/2026/09/08/astra-is-hard-to-monitor/
+        date: 2026-09-08
+        type: analysis
+        snapshot: snapshots/2026-09-30-thezvi.wordpress.com-7bf74da9
+note: >-
+  A research recommendation that became an internal rule. It's in the record
+  because OpenAI later reported where the rule failed.

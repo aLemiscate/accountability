@@ -33,5 +33,12 @@
     ]
   },
   "rendered_status": 403,
-  "archive": null
+  "archive": null,
+  "derived": {
+    "transcript.txt": {
+      "from": "media-1.jpg",
+      "note": "Typed from the image on 2026-09-30 and checked against it; not part of the original capture.",
+      "sha256": "71654b472dd561ac90a6019dcdbffe5dfc93057b7585b80feeb5357564e05dc6"
+    }
+  }
 }

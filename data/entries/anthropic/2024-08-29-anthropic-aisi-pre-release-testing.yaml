@@ -1,0 +1,50 @@
+title: Anthropic agrees to let the US AI Safety Institute test its models before
+  release
+date: 2024-08-29
+org: anthropic
+type: said
+kind: commitment
+who: [anthropic, jack-clark]
+venue: Memorandum of understanding with the US AI Safety Institute
+quote: >-
+  collaboration with the U.S. AI Safety Institute leverages their wide expertise
+  to rigorously test our models before widespread deployment
+summary: >-
+  Anthropic signed the same kind of agreement as OpenAI, giving the US AI Safety
+  Institute access to major new models before and after release. Co-founder Jack
+  Clark gave the statement quoted above. The terms were not published.
+concreteness: conditional
+status: kept
+breaks_if: >-
+  A major Anthropic model ships without the government institute having had
+  pre-release access.
+patterns: []
+related: [2024-08-29-aisi-pre-release-testing, 2023-07-21-anthropic-white-house-commitments]
+sources:
+  - title: OpenAI and Anthropic agree to let U.S. AI Safety Institute test and
+      evaluate new models
+    publisher: CNBC
+    url: https://www.cnbc.com/2024/08/29/openai-and-anthropic-agree-to-let-us-ai-safety-institute-test-models.html
+    date: 2024-08-29
+    type: reporting
+    snapshot: snapshots/2026-09-30-cnbc.com-b3f1be9a
+updates:
+  - date: 2024-11-19
+    text: >-
+      The US and UK AI Safety Institutes published their first joint
+      pre-deployment evaluation, of Anthropic's upgraded Claude 3.5 Sonnet.
+    sources:
+      - title: Pre-Deployment Evaluation of Anthropic's Upgraded Claude 3.5 Sonnet
+        publisher: NIST
+        url: https://www.nist.gov/news-events/news/2024/11/pre-deployment-evaluation-anthropics-upgraded-claude-35-sonnet
+        date: 2024-11-19
+        type: primary
+        snapshot: snapshots/2026-09-30-nist.gov-a0bcc812
+  - date: 2026-06-12
+    text: >-
+      Anthropic said the US government, the UK AI Security Institute and others
+      red-teamed Fable 5's safeguards for thousands of hours before launch. See
+      2026-06-12-fable-5-export-control-suspension.
+note: >-
+  Marked kept on the same evidence standard as OpenAI's: published government
+  pre-deployment testing of at least one major model.

@@ -1,0 +1,41 @@
+title: 'Altman: the world will "elect representatives to a new governance board"'
+date: 2016-10
+org: openai
+type: said
+kind: commitment
+who: [sam-altman]
+venue: The New Yorker, "Sam Altman's Manifest Destiny"
+quote: >-
+  We’re planning a way to allow wide swaths of the world to elect
+  representatives to a new governance board.
+summary: >-
+  In a 2016 profile, Altman, then OpenAI's co-chair, said OpenAI was planning a
+  way for people around the world to elect representatives to govern it. No
+  such election was ever held. New directors have been picked by the sitting
+  board, and under the 2025 restructuring the Foundation's board appoints the
+  directors of the for-profit company.
+concreteness: directional
+status: eroded
+patterns: [mission-to-market]
+related: [2023-06-altman-board-can-fire-me, 2025-10-28-foundation-controls-pbc]
+sources:
+  - title: Sam Altman's Manifest Destiny
+    publisher: The New Yorker
+    url: https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny
+    date: 2016-10-10
+    type: primary
+  - title: Sam Altman, then and now
+    publisher: Marcus on AI
+    url: https://garymarcus.substack.com/p/sam-altman-then-and-now
+    date: 2024-05-28
+    type: analysis
+    snapshot: snapshots/2026-10-01-garymarcus.substack.com-1dbc7cb9
+  - title: Sam Altman Doesn't Want To Be Your AI King
+    publisher: The New Atlantis
+    url: https://www.thenewatlantis.com/publications/sam-altman-doesnt-want-to-be-your-ai-king
+    type: analysis
+    snapshot: snapshots/2026-10-01-thenewatlantis.com-1618dd4a
+note: >-
+  The New Yorker refused automated requests, so the quote is checked against
+  two later pieces that reproduce it. The plan was never formally dropped; it
+  was simply never carried out.

@@ -1,0 +1,5 @@
+OpenAI (@OpenAI)
+May 8, 2026
+
+Directly rewarding or penalizing CoTs can make models’ reasoning traces less informative for detecting misalignment. That’s why we treat avoiding CoT grading as an important part of preserving monitorability.
+We recently built an automated detection system to find cases where RL…

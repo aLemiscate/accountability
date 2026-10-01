@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/gdb/status/1105173108233666561",
+  "captured_at": "2026-09-30T04:45:52.591Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "479ce4c0b432102afbd05ccca81ba57471e27c4145382499c88e4b4b8c07ac3d",
+    "page.txt": "65ab898d1e556b0fba377accebd75756bf30e388577c622506fd3c4d72e32c9f",
+    "post.json": "04ee7398d40b1074542a64eede587913e4d86888b73246792d550e497cb59395",
+    "syndication.json": "cccbc1439b0f69e866f14db42ebe3e16c2f2c68d659f08eaea9898b4ff0f1c13",
+    "post.txt": "219e63155a897e99e57d6617b07113b2defa2a69ab1e82604f6eba69b15bd9b7"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/gdb/status/1105173108233666561",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Greg Brockman on X: \"@gwern @OpenAI We will need to raise billions of dollars. If we do not, the Nonprofit would fail at its mission. We then needed a structure that let us custom-write (very unusual!) rules like the following: - Fiduciary duty to the charter - Cap returns - Full control to OpenA… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Greg Brockman (@gdb)",
+    "date": "March 11, 2019",
+    "posted_at": "2019-03-11T18:26:16.783Z"
+  }
+}

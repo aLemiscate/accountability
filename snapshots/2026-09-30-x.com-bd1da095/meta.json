@@ -1,0 +1,30 @@
+{
+  "url": "https://x.com/jasonkwon/status/2027948755467833366",
+  "captured_at": "2026-09-30T04:46:01.459Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "3ba55a38ed733effd2078ea6a1b4959874be81d3990b8bf67ac3e15827d85e4e",
+    "page.txt": "fd9285921615516a185e3d8384448186b4434ae047c7f8af591f8c750f873a8e",
+    "post.json": "9adf5522170fbd1a8f092aff412252b4a6e3134c16035c995c21349bf88ae7dd",
+    "syndication.json": "f4bb60a0fa74814f2d9d273161d03c3e794f42199373db1eb640e32175b82fb7",
+    "media-1.jpg": "fd6389bf393820a1fbbb2b1c3748f84d4b580375de812dc9ded840471bd40965",
+    "post.txt": "be1be525b172222c62d6f31ad46bf367b221042ca7b7386fca88f0307fe75015"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/jasonkwon/status/2027948755467833366",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Jason Kwon on X: \"@ARozenshtein Hi Alan, this is a good question. The answer is that this happens in a contract when one “date stamps” the relevant policy directive or law. That’s what we did. Here’s an example:\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Jason Kwon (@jasonkwon)",
+    "date": "March 1, 2026",
+    "posted_at": "2026-03-01T03:27:15.426Z",
+    "media": [
+      {
+        "file": "media-1.jpg",
+        "url": "https://pbs.twimg.com/media/HCS4o7laEAAGlSs.jpg"
+      }
+    ]
+  }
+}

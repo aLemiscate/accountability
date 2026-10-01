@@ -1,0 +1,42 @@
+title: 'Standing promise: an independent board committee can delay OpenAI model
+  launches "until safety concerns are addressed"'
+date: 2024-09-16
+org: openai
+type: said
+kind: commitment
+who: [openai, zico-kolter]
+venue: Blog post, "An update on our safety & security practices"
+quote: >-
+  exercise oversight over model launches, including having the authority to
+  delay a release until safety concerns are addressed.
+summary: >-
+  OpenAI said its Safety and Security Committee, created in May 2024 with Altman
+  as a member, would become an independent board oversight committee chaired by
+  Zico Kolter, without Altman. It would be briefed on safety evaluations for
+  major model releases and, "along with the full board," could delay a launch.
+concreteness: conditional
+status: open
+breaks_if: >-
+  A major model ships over the committee's objection, or reporting shows it was
+  not briefed on a major release's safety evaluations; or its delay authority is
+  removed in a later restructuring.
+patterns: [unfalsifiable]
+related: [2024-05-22-exit-documents-signed, 2025-10-28-foundation-controls-pbc]
+sources:
+  - title: OpenAI announces new independent board oversight committee focused on
+      safety
+    publisher: CNBC
+    url: https://www.cnbc.com/2024/09/16/openai-announces-new-independent-board-oversight-committee-for-safety.html
+    date: 2024-09-16
+    type: reporting
+    snapshot: snapshots/2026-09-30-cnbc.com-cd6f088a
+  - title: An update on our safety & security practices
+    publisher: OpenAI
+    url: https://openai.com/index/update-on-safety-and-security-practices/
+    date: 2024-09-16
+    type: primary
+    archive: https://web.archive.org/web/20260830012235/https://openai.com/index/update-on-safety-and-security-practices/
+    snapshot: snapshots/2026-10-01-openai.com-19c4cdb1
+note: >-
+  The committee's deliberations aren't public, so a delay would only be known if
+  OpenAI announced it. That's why the test is the absence of contrary reporting.

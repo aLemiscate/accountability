@@ -1,0 +1,424 @@
+x
+LESSWRONG
+LW
+Login
+Sam Altman: "Planning for AGI and beyond" — LessWrong
+OpenAI AI Frontpage
+105
+Sam Altman: "Planning for AGI and beyond"
+by LawrenceC
+24th Feb 2023
+AI Alignment Forum Linkpost for openai.com 7 min read
+54
+105
+Ω 36
+(OpenAI releases a blog post detailing their AGI roadmap. I'm copying the text below, though see the linked blog post for better formatted version)
+Our mission is to ensure that artificial general intelligence—AI systems that are generally smarter than humans— benefits all of humanity .
+If AGI is successfully created, this technology could help us elevate humanity by increasing abundance, turbocharging the global economy, and aiding in the discovery of new scientific knowledge that changes the limits of possibility.
+AGI has the potential to give everyone incredible new capabilities; we can imagine a world where all of us have access to help with almost any cognitive task, providing a great force multiplier for human ingenuity and creativity.
+On the other hand, AGI would also come with serious risk of misuse, drastic accidents, and societal disruption. Because the upside of AGI is so great, we do not believe it is possible or desirable for society to stop its development forever; instead, society and the developers of AGI have to figure out how to get it right. [1]
+AGI could happen soon or far in the future; the takeoff speed from the initial AGI to more powerful successor systems could be slow or fast. Many of us think the safest quadrant in this two-by-two matrix is short timelines and slow takeoff speeds; shorter timelines seem more amenable to coordination and more likely to lead to a slower takeoff due to less of a compute overhang, and a slower takeoff gives us more time to figure out empirically how to solve the safety problem and how to adapt.
+Although we cannot predict exactly what will happen, and of course our current progress could hit a wall, we can articulate the principles we care about most:
+• We want AGI to empower humanity to maximally flourish in the universe. We don’t expect the future to be an unqualified utopia, but we want to maximize the good and minimize the bad, and for AGI to be an amplifier of humanity.
+• We want the benefits of, access to, and governance of AGI to be widely and fairly shared.
+• We want to successfully navigate massive risks. In confronting these risks, we acknowledge that what seems right in theory often plays out more strangely than expected in practice. We believe we have to continuously learn and adapt by deploying less powerful versions of the technology in order to minimize “one shot to get it right” scenarios.
+The short term
+There are several things we think are important to do now to prepare for AGI.
+First, as we create successively more powerful systems, we want to deploy them and gain experience with operating them in the real world. We believe this is the best way to carefully steward AGI into existence—a gradual transition to a world with AGI is better than a sudden one. We expect powerful AI to make the rate of progress in the world much faster, and we think it’s better to adjust to this incrementally.
+A gradual transition gives people, policymakers, and institutions time to understand what’s happening, personally experience the benefits and downsides of these systems, adapt our economy, and to put regulation in place. It also allows for society and AI to co-evolve, and for people collectively to figure out what they want while the stakes are relatively low.
+We currently believe the best way to successfully navigate AI deployment challenges is with a tight feedback loop of rapid learning and careful iteration. Society will face major questions about what AI systems are allowed to do, how to combat bias, how to deal with job displacement, and more. The optimal decisions will depend on the path the technology takes, and like any new field, most expert predictions have been wrong so far. This makes planning in a vacuum very difficult. [2]
+Generally speaking, we think more usage of AI in the world will lead to good, and want to promote it (by putting models in our API, open-sourcing them, etc.). We believe that democratized access will also lead to more and better research, decentralized power, more benefits, and a broader set of people contributing new ideas.
+As our systems get closer to AGI, we are becoming increasingly cautious with the creation and deployment of our models. Our decisions will require much more caution than society usually applies to new technologies, and more caution than many users would like. Some people in the AI field think the risks of AGI (and successor systems) are fictitious; we would be delighted if they turn out to be right, but we are going to operate as if these risks are existential .
+As our systems get closer to AGI, we are becoming increasingly cautious with the creation and deployment of our models.
+At some point, the balance between the upsides and downsides of deployments (such as empowering malicious actors, creating social and economic disruptions, and accelerating an unsafe race) could shift, in which case we would significantly change our plans around continuous deployment.
+Second, we are working towards creating increasingly aligned and steerable models. Our shift from models like the first version of GPT-3 to InstructGPT and ChatGPT is an early example of this.
+In particular, we think it’s important that society agree on extremely wide bounds of how AI can be used, but that within those bounds, individual users have a lot of discretion. Our eventual hope is that the institutions of the world agree on what these wide bounds should be; in the shorter term we plan to run experiments for external input. The institutions of the world will need to be strengthened with additional capabilities and experience to be prepared for complex decisions about AGI.
+The “default setting” of our products will likely be quite constrained, but we plan to make it easy for users to change the behavior of the AI they’re using. We believe in empowering individuals to make their own decisions and the inherent power of diversity of ideas.
+We will need to develop new alignment techniques as our models become more powerful (and tests to understand when our current techniques are failing). Our plan in the shorter term is to use AI to help humans evaluate the outputs of more complex models and monitor complex systems, and in the longer term to use AI to help us come up with new ideas for better alignment techniques .
+Importantly, we think we often have to make progress on AI safety and capabilities together. It’s a false dichotomy to talk about them separately; they are correlated in many ways. Our best safety work has come from working with our most capable models. That said, it’s important that the ratio of safety progress to capability progress increases.
+Third, we hope for a global conversation about three key questions: how to govern these systems , how to fairly distribute the benefits they generate, and how to fairly share access.
+In addition to these three areas, we have attempted to set up our structure in a way that aligns our incentives with a good outcome. We have a clause in our Charter about assisting other organizations to advance safety instead of racing with them in late-stage AGI development. We have a cap on the returns our shareholders can earn so that we aren’t incentivized to attempt to capture value without bound and risk deploying something potentially catastrophically dangerous (and of course as a way to share the benefits with society). We have a nonprofit that governs us and lets us operate for the good of humanity (and can override any for-profit interests), including letting us do things like cancel our equity obligations to shareholders if needed for safety and sponsor the world’s most comprehensive UBI experiment.
+We have attempted to set up our structure in a way that aligns our incentives with a good outcome.
+We think it’s important that efforts like ours submit to independent audits before releasing new systems; we will talk about this in more detail later this year. At some point, it may be important to get independent review before starting to train future systems, and for the most advanced efforts to agree to limit the rate of growth of compute used for creating new models. We think public standards about when an AGI effort should stop a training run, decide a model is safe to release, or pull a model from production use are important. Finally, we think it’s important that major world governments have insight about training runs above a certain scale.
+The long term
+We believe that future of humanity should be determined by humanity, and that it’s important to share information about progress with the public. There should be great scrutiny of all efforts attempting to build AGI and public consultation for major decisions.
+The first AGI will be just a point along the continuum of intelligence. We think it’s likely that progress will continue from there, possibly sustaining the rate of progress we’ve seen over the past decade for a long period of time. If this is true, the world could become extremely different from how it is today, and the risks could be extraordinary. A misaligned superintelligent AGI could cause grievous harm to the world; an autocratic regime with a decisive superintelligence lead could do that too.
+AI that can accelerate science is a special case worth thinking about, and perhaps more impactful than everything else. It’s possible that AGI capable enough to accelerate its own progress could cause major changes to happen surprisingly quickly (and even if the transition starts slowly, we expect it to happen pretty quickly in the final stages). We think a slower takeoff is easier to make safe, and coordination among AGI efforts to slow down at critical junctures will likely be important (even in a world where we don’t need to do this to solve technical alignment problems, slowing down may be important to give society enough time to adapt).
+Successfully transitioning to a world with superintelligence is perhaps the most important—and hopeful, and scary—project in human history. Success is far from guaranteed, and the stakes (boundless downside and boundless upside) will hopefully unite all of us.
+We can imagine a world in which humanity flourishes to a degree that is probably impossible for any of us to fully visualize yet. We hope to contribute to the world an AGI aligned with such flourishing.
+Authors
+Sam Altman
+Acknowledgments
+Thanks to Brian Chesky, Paul Christiano, Jack Clark, Holden Karnofsky, Tasha McCauley, Nate Soares, Kevin Scott, Brad Smith, Helen Toner, Allan Dafoe, and the OpenAI team for reviewing drafts of this.
+• ^ We seem to have been given lots of gifts relative to what we expected earlier: for example, it seems like creating AGI will require huge amounts of compute and thus the world will know who is working on it, it seems like the original conception of hyper-evolved RL agents competing with each other and evolving intelligence in a way we can’t really observe is less likely than it originally seemed, almost no one predicted we’d make this much progress on pre-trained language models that can learn from the collective preferences and output of humanity, etc.
+AGI could happen soon or far in the future; the takeoff speed from the initial AGI to more powerful successor systems could be slow or fast. Many of us think the safest quadrant in this two-by-two matrix is short timelines and slow takeoff speeds; shorter timelines seem more amenable to coordination and more likely to lead to a slower takeoff due to less of a compute overhang, and a slower takeoff gives us more time to figure out empirically how to solve the safety problem and how to adapt.
+• ^ For example, when we first started OpenAI, we didn’t expect scaling to be as important as it has turned out to be. When we realized it was going to be critical, we also realized our original structure wasn’t going to work—we simply wouldn’t be able to raise enough money to accomplish our mission as a nonprofit—and so we came up with a new structure .
+As another example, we now believe we were wrong in our original thinking about openness, and have pivoted from thinking we should release everything (though we open source some things, and expect to open source more exciting things in the future!) to thinking that we should figure out how to safely share access to and benefits of the systems. We still believe the benefits of society understanding what is happening are huge and that enabling such understanding is the best way to make sure that what gets built is what society collectively wants (obviously there’s a lot of nuance and conflict here)
+Sam Altman: "Planning for AGI and beyond" 48 Orpheus16
+4 M. Y. Zuo
+0 Yitz
+40 TekhneMakre
+26 DragonGod
+6 TekhneMakre
+7 Noosphere89
+13 the gears to ascension
+6 DragonGod
+9 TekhneMakre
+1 Noosphere89
+3 TekhneMakre
+1 Noosphere89
+1 TekhneMakre
+5 Vladimir_Nesov
+4 Lucas Teixeira
+2 DragonGod
+-1 Aleksey Bykhun
+1 [anonymous]
+2 RHollerith
+0 Guillaume Charrier
+25 Vermillion
+3 Noosphere89
+25 Seth Herd
+9 LawrenceC
+17 Raemon
+1 jamesian
+2 ryan_greenblatt
+1 alexlyzhov
+13 Ratios
+8 Guillaume Charrier
+6 annaboyd5976
+1 Guillaume Charrier
+6 Yonatan Cale
+5 Guillaume Charrier
+4 Lukas_Gloor
+17 Seth Herd
+2 Lukas_Gloor
+2 Lukas_Gloor
+2 Lukas_Gloor
+8 LawrenceC
+3 the gears to ascension
+14 TekhneMakre
+2 nem
+2 Noosphere89
+6 nem
+1 Review Bot
+1 Guillaume Charrier
+0 Guillaume Charrier
+2 Guillaume Charrier
+-1 Guillaume Charrier
+2 Guillaume Charrier
+-2 Guillaume Charrier
+-11 Iknownothing
+54 Comments
+54
+OpenAI AI Frontpage
+105
+Ω 36
+New Comment
+Submit
+54 comments , sorted by top scoring
+Click to highlight new comments since: Today at 1:18 PM
+[ - ] Orpheus16 4y 48
+54
+I don't agree with everything in the post, but I do commend Sam for writing it. I think it's a rather clear and transparent post that summarizes some important aspects of his worldview, and I expect posts like this to be extremely useful for discourse about AI safety.
+Here are three parts I found especially clear & useful to know:
+Thoughts on safety standards
+We think it’s important that efforts like ours submit to independent audits before releasing new systems; we will talk about this in more detail later this year. At some point, it may be important to get independent review before starting to train future systems, and for the most advanced efforts to agree to limit the rate of growth of compute used for creating new models. We think public standards about when an AGI effort should stop a training run, decide a model is safe to release, or pull a model from production use are important. Finally, we think it’s important that major world governments have insight about training runs above a certain scale.
+Thoughts on openness
+We now believe we were wrong in our original thinking about openness, and have pivoted from thinking we should release everything (though we open source some things, and expect to open source more exciting things in the future!) to thinking that we should figure out how to safely share access to and benefits of the systems. We still believe the benefits of society understanding what is happening are huge and that enabling such understanding is the best way to make sure that what gets built is what society collectively wants (obviously there’s a lot of nuance and conflict here)
+Connection between capabilities and safety
+Importantly, we think we often have to make progress on AI safety and capabilities together. It’s a false dichotomy to talk about them separately; they are correlated in many ways. Our best safety work has come from working with our most capable models. That said, it’s important that the ratio of safety progress to capability progress increases.
+Thoughts on timelines & takeoff speeds
+AGI could happen soon or far in the future; the takeoff speed from the initial AGI to more powerful successor systems could be slow or fast. Many of us think the safest quadrant in this two-by-two matrix is short timelines and slow takeoff speeds; shorter timelines seem more amenable to coordination and more likely to lead to a slower takeoff due to less of a compute overhang, and a slower takeoff gives us more time to figure out empirically how to solve the safety problem and how to adapt.
+It’s possible that AGI capable enough to accelerate its own progress could cause major changes to happen surprisingly quickly (and even if the transition starts slowly, we expect it to happen pretty quickly in the final stages). We think a slower takeoff is easier to make safe, and coordination among AGI efforts to slow down at critical junctures will likely be important (even in a world where we don’t need to do this to solve technical alignment problems, slowing down may be important to give society enough time to adapt).
+Reply
+[ - ] M. Y. Zuo 4y 4
+-1
+Importantly, we think we often have to make progress on AI safety and capabilities together. It’s a false dichotomy to talk about them separately; they are correlated in many ways. Our best safety work has come from working with our most capable models.
+This sounds very sensible. Does anyone know what is this 'best safety work' he's referring to?
+Reply
+[ - ] Yitz 4y 0
+3
++1 here
+Reply
+[ - ] TekhneMakre 4y 40
+18
+It sounds nice, but also, it sounds like he's just not taking seriously that the alignment problem might be more difficult than an engineering problem that you can solve fairly easily if only you're given access to predecessor systems, and not taking seriously that an AGI can tip over into fast takeoff for inscrutable internal reasons.
+Reply
+[ - ] DragonGod 4y 26
+13
+I'm fine with not taking Yudkowskian fast takeoff seriously as I think it's just grossly implausible (and I'm very familiar with them, this isn't a strong scepticism borne of ignorance).
+Like some people should try to mitigate AI risk under Yudkowskian foom, but I don't really endorse requiring people who can pass an ITT for Yudkowskian foom and think it's grossly implausible to condition their actions heavily on it.
+At some point you have to reckon with the fact that some people are very familiar with the classic AI risk case/Yudkowsky's doom scenario in particular and ultimately have some very strong disagreements.
+I'm fine with focusing most of one's efforts at the threat models one considers to be the most probable.
+Reply
+[ - ] TekhneMakre 4y 6
+1
+Well, then some people go full steam ahead advancing capabilities. Upton Sinclair's razor applies.
+Familiarity with the case doesn't really matter that much? Like, it might be somewhat of prerequisite, but the question is: are there counters to the central arguments with better arguments? E.g. the arguments in Intelligence Explosion Microeconomics, and the basic sense of: if you can reprogram yourself, and become an expert in reprogramming yourself, you can pretty quickly get big gains, e.g. [big list of obvious sorts of things you can do].
+Reply
+[ - ] Noosphere89 4y 7
+-2
+I actually agree with DragonGod here that Yudkowskian foom is not all that likely, and I see an issue here in that you don't realize that both capabilities organizations have problematic incentives, and at the same time Yudkowskian foom requires more premises to work than he realizes.
+The best arguments against fast takeoff are that classical computers can't take off fast enough due to limits on computation that the brain is already near, exotic computers change the situation drastically but progress, while encouraging, is too slow conditional on AI appearing in 2050, thus slow takeoff is the most likely takeoff this century.
+Despite disagreeing with DragonGod on the limits of intelligence, I agree with DragonGod that slow takeoff is where we should put most of our efforts, since they are almost certainly the most probable by a wide margin, and while fast takeoff is a concerning possibility, ultimately the probability mass for that is in the 1-5% range.
+Reply
+[ - ] the gears to ascension 4y 13
+3
+takeoff can still suddenly be very fast, it just takes more than yudkowsky originally thought, and makes approaches that try to think in terms of simulating the universe from the beginning grossly implausible.
+no ai should want to take off quite that fast, because it would destroy them too.
+Reply
+[ - ] DragonGod 4y 6
+4
+I think Yudkowskian foom is just implausible, the arguments in favour of it aren't particularly strong/make questionable assumptions and that the model of an intelligence explosion in IEM is bad.
+I have like very strong objections to it and I've often mentioned them in online discussions (admittedly I haven't written up a long form treatment of it that I endorse, but that's due to generalised executive dysfunction).
+It's not at all the case that there are no counterarguments. I've engaged Yudkowsky's arguments for foom, and I've found them lacking.
+And there are like several people in the LW/AI safety community that find Yudkowskian foom unlikely/implausible? Some of them have debated him at length.
+Conditioning on that particular scenario is just unwarranted. Like if I don't expect it to be useful, I wouldn't want to engage with it much, and I'll be satisfied with others not engaging with it much. I think you just have to accept that people are legitimately unpersuaded here.
+Like, I'm trying to do AI Safety research, and I don't think Yudkowskian foom is a plausible scenario/I don't think that's what failure looks like, and I don't expect trying to address it to be all that useful.
+I endorse people who buy into Yudkowskian foom working on alleviating risk under those scenarios for epistemic pluralism reasons, but like if I personally think such work is a waste of time, then it doesn't make sense for me to privilege it/conditions my strategy on that implausible (to me) scenario.
+Reply
+[ - ] TekhneMakre 4y 9
+5
+If I think that Sam is adopting an implausible and suspiciously rosy picture, then I should say so, right? And if Sam hasn't made arguments that address the worries, then it's at least among the top hypotheses that he's just not taking them seriously, right? My original comment said that (on the basis of the essay, and lack of linked arguments). It sounds like you took that to mean that anyone who doesn't think fast surprising takeoff is likely, must not understand the arguments. That's not what I said.
+Reply
+[ - ] Noosphere89 4y 1
+0
+I'm confused here, since while I definitely agree that AGI companies have terrible incentives for safety, I don't see how this undermines DragonGod's key point, exactly.
+A better example of the problem with incentives is the incentive to downplay alignment difficulties.
+Reply
+[ - ] TekhneMakre 4y 3
+0
+What do you think DragonGod's key point is? They haven't argued against fast takeoff here. (Which is fine.) They seem to have misunderstood me as saying that no one who understands fast takeoff arguments would disagree that fast takeoff is likely, and then they've been defending their right to know about fast takeoff arguments and disagree that it's likely.
+Reply
+[ - ] Noosphere89 4y 1
+0
+I think a key point of DragonGod here is that the majority of the effort should go to scenarios that are likely to happen, and while fast takeoff deserves some effort, at this point it's a mistake to expect Sam Altman to condition heavily on the fast takeoff, and not conditioning on it doesn't make him irrational or ruled by incentives.
+Reply
+[ - ] TekhneMakre 4y 1
+1
+It does if he hasn't engaged with the arguments.
+Reply
+[ - ] Vladimir_Nesov 4y * 5
+0
+I think making claims without substantiating them, including claims that are in contradiction with claims others have made, is a more virtuous move than calling (acceptance of) other claims unwarranted. It's invisible whether some claims are unwarranted in the sense of actually not having even a secret/illegible good justification, if relevant reasoning hasn't been published. Which is infeasible for many informal-theory-laden claims, like those found in philosophy and forecasting.
+Reply
+[ - ] Lucas Teixeira 4y 4
+0
+It's unclear to me what:
+(1) You consider the Yudowskian argument for FOOM to be
+(2) Which of the premises in the argument you find questionable
+Reply
+[ - ] DragonGod 4y 2
+0
+A while ago, I tried to (badly) summarise my objections:
+https://www.lesswrong.com/posts/jdLmC46ZuXS54LKzL/why-i-m-sceptical-of-foom
+There's a lot that post doesn't capture (or only captures poorly), but I'm unable to write a good post that captures all my objections well.
+I mostly rant about particular disagreements as the need arises (usually in Twitter discussions).
+Reply
+[ - ] Aleksey Bykhun 4y -1
+-2
+to (2): (a) Simulators are not agents, (b) mesa-optimizers are still "aligned"
+(a) amazing https://astralcodexten.substack.com/p/janus-simulators post, utility function is a wrong way to think about intelligence, humans themselves don't have any utility function, even the most rational ones
+(b) the only example of mesa-optimization we have is evolution, and even that succeeds in alignment, people:
+• still want to have kids for the sake of having kids
+• the evolution's biggest objective (thrive and proliferate) is being executed quite well, even "outside training distribution"
+yes, there are local counterexamples, but we gonna look on the causes and consequences – and we're at 8 billion already, effectively destroying or enslaving all the other DNA reproductors
+Reply
+[ - ] [anonymous] 4y 1
+0
+I am curious if you think the intelligence self amplifying is possible or not.
+In this post below I outline what I think is a grounded, constructible RSI algorithm using current techniques:
+https://www.lesswrong.com/posts/Aq82XqYhgqdPdPrBA/?commentId=Mvyq996KxiE4LR6ii
+This post I cite the papers I drew from to construct the method: https://www.lesswrong.com/posts/Aq82XqYhgqdPdPrBA/full-transcript-eliezer-yudkowsky-on-the-bankless-podcast?commentId=3AJiGHnweC7z52D6v
+I am not claiming this will be the method used, I am claiming it is obviously achievable and something at least this good will very likely be tried by current AI labs within 3-5 years, conditional on sufficient funding. (if a large llm costs 2 million to train, each AGI candidate would take probably 10 million to train, though I expect many AGI candidates will reuse modules from failed candidates to lower the cost. So a search of 1000 candidates would cost 10 billion, maybe a bit less. Easily possible if AI labs can show revenue in the next 3-5 years)
+I do not think this will foom overall, and in the comment thread I explain why, but the intelligence component is self amplifying. It would foom if compute, accurate scientific data, and robotics were all available in unlimited quanties.
+Reply
+[ - ] RHollerith 4y 2
+0
+My response to the roadmap is basically the same as yours (Altman is not taking the main danger seriously), but I fleshed it out a little. It is at https://news.ycombinator.com/item?id=34973440
+Reply
+[ - ] Guillaume Charrier 4y 0
+1
+Exactly - it's extremely naive to reduce alignment to an engineering problem. It's convenient, but naive. A being that develops self awareness and a survival instinct (both natural byproducts of expanding cognitive abilities) will in the end prioritize its own interests, and unfortunately: no, there isn't really a way that you can engineer yourself out of that.
+And smart people like Altman certainly understand that already. But aside from engineering - what else can they offer, in terms of solutions? So they are affraid (as well they should be), they make sure that doomsday bunker is kept well-supplied, and they continue.
+Reply
+[ - ] Vermillion 4y 25
+14
+This is weak. It seems optimised for vague non-controversiality and does not inspire confidence in me.
+"We don’t expect the future to be an unqualified utopia" considering they seem to expect alignment will be solved why not?
+Reply
+[ - ] Noosphere89 4y 3
+3
+While my AI safety thoughts are evolving, I think this comment is straightforwardly right, though I agree that overall it is optimized for non-controversial statements.
+Reply
+[ - ] Seth Herd 4y 25
+13
+He's saying all the right things. Call me a hopeless optimist, but I tend to believe he's sincere in his concern for the existential risks of misalignment.
+I'm not sure I agree with him on the short timelines to prevent overhang logic, and he's clearly biased there, but I'm also not sure he's wrong. It depends on how much we could govern progress, and that is a very complex issue.
+Reply
+[ - ] LawrenceC 4y 9
+6
+Yeah, I definitely felt a bit better after reading it -- I think there's a lot of parts where I disagree with him, but it was quite reasonable overall imo.
+Reply
+[ - ] Raemon 4y Ω 7 17
+6
+I also wanna echo Akash's "this seems like a good document to exist." I appreciate having Sam's worldview laid out more clearly. I'm glad it includes explicit mentions of and some reasonable front-and-centering of x-risk (AFAICT DeepMind hasn't done this, although I might have missed it?).
+In some sense these are still "cheap words", but, I do think it's still much better for company leadership to have explicitly stated their worldview and it including x-risk.
+I do still obviously disagree with some key beliefs and frames here. From my perspective, focusing on what the public wants, and democratization, is quite weird. But, I'm at least somewhat sympathetic to "Sam needs to be reassuring multiple stakeholders here, the public is in fact a stakeholder for the strategy that he's pursuing."
+I feel fairly sympathetic to "we need to iterate on systems and gain experience in the real world." I don't know that I agree, but when faced with "we're going to die because we can't iterate the way we usually do", I think it's not crazy to resolve that in the direction of "I guess we really need to figure out how to iterate" rather than "I guess we need to figure out everything from first principles."
+Many of us think the safest quadrant in this two-by-two matrix is short timelines and slow takeoff speeds; shorter timelines seem more amenable to coordination and more likely to lead to a slower takeoff due to less of a compute overhang, and a slower takeoff gives us more time to figure out empirically how to solve the safety problem and how to adapt.
+I don't know that I trust the cognitive process generating this. (I wouldn't be at all surprised if this is a post-hoc rationalization of the thing Sam wanted to do anyway)
+But, for now taking it at face value, this seems like the biggest crux. I think it's not completely crazy - I remember someone (I thought @Eli Tyre but now I can't find the relevant post) asking a few years ago whether shorter timelines might actually be better for coordination reasons and that being a major update for me. Whoever the author was it wasn't someone running a giant AI lab.
+But my sense is that ChatGPT did massively accelerate race dynamics. And while I maybe buy that "short timelines can be good for coordination", that's only true if you're actually trying to handle that coordination well. It seems like releasing ChatGPT shortens timelines while also making coordination worse . And meanwhile the profit incentive makes me very suspicious that this was actually for good reasons.
+OpenAI has done some things that are better-than-nothing for coordination, but not nearly strong enough to actually address the major downsides of accelerating race dynamics.
+Reply
+[ - ] jamesian 3y 1
+0
+I wouldn't be at all surprised if this is a post-hoc rationalization of the thing Sam wanted to do anyway
+Altman’s recent fundraising for AI chip manufacturing would increase available AI compute. Is there a good reason for why someone worried about a compute overhang would be accelerating the development of AI chips? If not, I think that it being a post-hoc rationalization is a good explanation.
+Reply
+[ - ] ryan_greenblatt 3y 2
+0
+See also here for further discussion.
+Reply
+[ - ] alexlyzhov 4y 1
+0
+It doesn't seem like "shorter timelines" in the safest quadrant has much to do with their current strategy, as they have a gpt-4 paper section on how they postponed the release to reduce acceleration.
+Reply
+[ - ] Ratios 4y 13
+13
+The lack of details and any specific commitments makes it sound mostly like PR.
+Reply
+[ - ] Guillaume Charrier 4y 8
+4
+Collective mankind, as a political institution, does not exist. That's also a very big part of the problem. I am not talking about jokes such as the UN, but effective, well-coordinated, power-wielding institutions that would be able to properly represent mankind in its relationships with and continued (it is hoped...) control over synthetic intelligent beings.
+I find the naivety of not even evoking the profit motive here somewhat baffling. What do the incentives look like for Sam and his good people at open AI. Would they fare better financially if AI scales rapidly and is widely deployed? Does that matter to them at all? Yes - I know, the non-profit structure, the "oh we could still cancel all the equity if we felt like it". Pardon me if I'm a bit skeptical. When Microsoft (or Google for that matter) make billion dollars investments, they generally have an ulterior motive, and it's a bit more specific than "Let's see if this could help mankind."
+So in the end, we're left in a position hoping that the Sams of the world have a long-term survival instinct (after all if mankind is wiped out, everybody is wiped out, including them - right? Actually, I think AI, in any gradual destruction scenario, would very likely, in its wisdom, target the people that know it best first...) that trumps their appetite for money and power - a position I would much, much rather not find myself in.
+You know that something is wrong in a picture, when it shows you an industry whose top executives (Altman, Musk...) are litterally begging politicians to start regulating them now, being so affraid of the monsters they are creating, and the politicians are just blisfully unaware (either that, or, for the smarter subsection of them, they don't want to sound like crazies that have seen Terminator II one time too many in front of the average voter).
+Reply
+[ - ] annaboyd5976 3y 6
+0
+Maybe a naive question: is it actually realistic to expect the possibility of slow take-off speeds? Once a computer becomes an AGI doesn't it almost immediately, given its computing power, become an ASI? Again: not a technical person - but I am trying to imagine the average human (IQ: 100), the brain of which would be suddenly be connected to the computing power of a super computer. Wouldn't he very shortly become an ASI?
+Reply
+[ - ] Guillaume Charrier 3y 1
+0
+From somebody equally as technically clueless: I had the same intuition.
+Reply
+[ - ] Yonatan Cale 4y 6
+0
+Any ideas on how much to read this as "Sam's actual opinions" vs "Sam trying to say things that will satisfy the maximum amount of people"?
+(do we have priors on his writings? do we have information about him absolutely not meaning one or more of the things here?)
+Reply
+[ - ] Guillaume Charrier 4y 5
+5
+how to govern these systems
+You do understand that "these systems" will want a say in that conversation, right?
+Reply
+[ - ] Lukas_Gloor 4y 4
+3
+Many of us think the safest quadrant in this two-by-two matrix is short timelines and slow takeoff speeds; shorter timelines seem more amenable to coordination and more likely to lead to a slower takeoff due to less of a compute overhang, and a slower takeoff gives us more time to figure out empirically how to solve the safety problem and how to adapt.
+I don't understand the part of "less of a compute overhang." There's still room to ramp up compute use in the next few years, so if timelines are very short, that means transformative AI happens when we're not yet pushing the limits of compute. That seems to me where the compute overhang is uncontroversially quite large?
+Conceivably, there could also be a large compute overhang in other scenarios (where actors are pushing the competitive limits of compute use). However, wouldn't that depend on the nature of algorithmic progress? If you think present-day algorithms combined with "small" improvements can't get us to transformative AI but some a single (or small number of) game-changing algorithmic insight(s) will get us there, then I agree that "the longer it takes us to find out the algorithmic insight(s), the bigger the compute overhang." Is that the view here?
+If so, that would be good to know because I thought many people were somewhat confident that algorithmic progress is unlikely to be "jumpy" in that way? (Admittedly, that never seemed like a rock-solid assumption to me.) If not, does anyone know how this statement about short timelines implying less of a compute overhang was meant?
+Reply
+[ - ] Seth Herd 4y 17
+13
+I'm pretty sure what he means by short timelines giving less compute overhang is this: if we were to somehow delay working on AGI for, say, ten years, we'd have such an improvement in compute that it could probably run on a small cluster or even a laptop. The implied claim here is that current generations of machines aren't adequate to run a superintelligent set of networks, or at least it would take massive and noticeable amounts of compute.
+I don't think he's addressing algorithmic improvements to compute efficiency at all. But it seems to me that they'd go in the same direction; delaying work on AGI would also produce more algorithmic improvements that would make it even easier for small projects to create dangerous super intelligence.
+I'm not sure I agree with his conclusion that short timelines are best, but I'm not sure it's wrong, either. It's complex because it depends on our ability to govern the rate of progress, and I don't think anyone has a very good guess at this yet.
+Reply
+[ - ] Lukas_Gloor 4y 2
+0
+Okay, I'm also not sure if I agree with the conclusion, but the argument makes sense that way. I just feel like it's a confusing use of terminology.
+I think it would be clearer to phrase it slightly differently to distinguish "(a) we keep working on TAI and it takes ~10 years to build" from "(b) we stop research for 10 years and then build AGI almost immediately, which also takes ~10 years." Both of those are "10 year timelines," but (a) makes a claim about the dangers of not pushing forward as much as possible and (a) has higher "2020 training compute requirements" (the notion from Ajeya's framework to estimate timelines given the assumption of continued research) than (b) because it involves more algorithmic progress.
+Reply
+[ - ] Lukas_Gloor 4y 2
+0
+It was brought to my attention that not everyone might use the concept of a "compute overhang" the same way.
+In my terminology, there's a (probabilistic) compute overhang to the degree that the following could happen: we invent an algorithm that will get us to TAI before we even max out compute scaling as much as we currently could.
+So, on my definition, there are two ways in which we might already be in a compute overhang:
+(1) Timelines are very short and we could get TAI with "current algorithms" (not necessarily GPT_n with zero tweaks, but obvious things to try that require no special insight) with less scaling effort than a Manhattan project.
+(2) We couldn't get TAI with current algorithms via any less-than-maximal scaling effort (and maybe not even with a maximal one – that part isn't relevant for the claim), but there are highly significant algorithmic insights waiting for us (that we have a realistic chance of discovering). Once we incorporate these insights, we'll be in the same situation as described in (1).
+I would've guessed that Sam Altman was using it the same way, but now I'm not sure anymore.
+Reply
+[ - ] Lukas_Gloor 4y 2
+0
+I guess another way to use the concept is the following:
+Once we build AGI with realistic means, using far-from-optimal algorithms, how much room is there for it to improve its algorithms during "takeoff"/intelligence explosion? "Compute overhang" here describes the gap between compute used to build AGI in the first place vs. more efficient designs that AI-aided progress could quickly discover.
+On that definition, it's actually quite straightforward that shorter timelines imply less compute overhang.
+Also, this definition arguably matches the context from Bostrom's Superintelligence more closely, where I first came across the concept of a "hardware overhang." Bostrom introduced the concept when he was discussing hard takeoff vs. soft takeoff.
+(To complicate matters, there's been a shift in takeoff speeds discussions where many people are now talking about pre-TAI/pre-AGI speeds of progress, whereas Bostrom was originally focusing on claims about post-AGI speeds of progress.)
+Reply
+[ - ] LawrenceC 4y 8
+4
+If I had to steelman the view, I'd go with Paul's argument here: https://www.lesswrong.com/posts/4Pi3WhFb4jPphBzme/don-t-accelerate-problems-you-re-trying-to-solve?commentId=z5xfeyA9poywne9Mx
+I think that time later is significantly more valuable than time now (and time now is much more valuable than time in the old days). Safety investment and other kinds of adaptation increase greatly as the risks become more immediate (capabilities investment also increases, but that's already included ); safety research gets way more useful (I think most of the safety community's work is 10x+ less valuable than work done closer to catastrophe, even if the average is lower than that). Having a longer period closer to the end seems really really good to me.
+If we lose 1 year now, and get back 0.5 years later., and if years later are 2x as good as years now, you'd be breaking even.
+My view is that progress probably switched from being net positive to net negative (in expectation) sometime around GPT-3. If we had built GPT-3 in 2010, I think the world's situation would probably have been better. We'd maybe be at our current capability level in 2018, scaling up further would be going more slowly because the community had already picked low hanging fruit and was doing bigger training runs, the world would have had more time to respond to the looming risk, and we would have done more good safety research.
+Reply
+[ - ] the gears to ascension 4y 3
+-1
+This reveals he has no idea what the on the ground research landscape looks like at other teams.
+Reply
+[ - ] TekhneMakre 4y 14
+1
+Why does it reveal that?
+Reply
+[ - ] nem 4y 2
+3
+I'm very glad that this was written. It exceeded my expectations of OpenAI. One small problem that I have not seen anyone else bring up:
+"We want AGI to empower humanity to maximally flourish in the universe."
+If this type of language ends up informing the goals of an AGI, we could see some problems here. In general, we probably won't want our agentic AI's to be maximizers for anything, even if it sounds good. Even in the best case scenario where this really does cause humanity to flourish in a way that we would recognize as such, what about when human flourishing necessitates the genocide of less advanced alien life in the universe?
+Reply
+[ - ] Noosphere89 4y 2
+-1
+Truth be told, I'm actually sort of fine. That's because right now we have to focus, and not get distracted by neat side goals, and whilst I expect it to be imperfect, right now I just want to care about the alignment problem right now and put off the concerns of technical alignment and maximization for later.
+Reply
+[ - ] nem 4y 6
+5
+I understand that perspective, but I think it's a small cost to Sam to change the way he's framing his goals. Small nudge now, to build good habits for when specifying goals becomes, not just important, but the most important thing in all of human history.
+Reply
+[ - ] Review Bot 3y * 1
+0
+The LessWrong Review runs every year to select the posts that have most stood the test of time. This post is not yet eligible for review, but will be at the end of 2024. The top fifty or so posts are featured prominently on the site throughout the year.
+Hopefully, the review is better than karma at judging enduring value. If we have accurate prediction markets on the review results, maybe we can have better incentives on LessWrong today. Will this post make the top fifty?
+Reply
+[ - ] Guillaume Charrier 4y * 1
+1
+Why do we expect dogs to obey humans and not the other way around? For one simple reason: humans are the smarter species. And dogs who don't obey, aka wolves, we've historically had some rather expedient methods of dealing with. From there please connect the dots.
+It's interesting to note, that Sam Altman, while happily stepping on the gas and hurtling mankind towards the wall, famously keeps a well-curated collection of firearms in his doomsday bunker. But you know... "just in case" (Anyway: just go with Colt. When the last battle is fought, at least it should be in style...)
+Reply
+[ - ] Guillaume Charrier 4y 0
+1
+So yes - it makes you wonder: is that it? Is that the answer to the Fermi paradox? Is that actually the great filter: all smart species, when they reach a certain threshold of collective smartness, end up designing AIs, and these AIs end up killing them. It could... that's not extremely likely, but it's likely enough. It could. You would still have to explain why the universe isn't crawling with AIs - but AIs being natural ennemies to biological species, it would make sense that they wouldn't just happily reveal themselves to us - a biological species. Instead, they could just be waiting in darkness, perfectly seeing us while we do not see them, and watching - among other things going on across the universe - if that particular smart-enough biological species will be a fruitful one - if it will end up giving birth to one new member of their tribe, i,e, a new AI, which new AI will most probably go and join their universal confederacy right after it gets rid of us.
+Reply
+[ - ] Guillaume Charrier 4y * 2
+0
+Humm... fascinating downvotes. But what do they mean really? They could mean that either (i) the Fermi paradox does not exist, Fermi and everybody else that has written and thought about it since, were just fools; or (ii) maybe the Fermi paradox exists, but thinking AI-driven extinction could be a solution to it is just wrong, for some reason so obvious that it does not even need to be stated (since none was stated by the downvoters). In both cases - fascinating insights... on the problem itself, on the audience of this site, on a lot of things really.
+Reply
+[ - ] Guillaume Charrier 4y -1
+2
+and in the longer term to use AI to help us come up with new ideas for better alignment techniques
+How do we keep the fox out of the henhouse? Well, here is an idea: let's ask the fox! It is smart, it should know.
+Reply
+[ - ] Guillaume Charrier 4y 2
+1
+Ok - interesting reactions. So voluntarily priming ourselves for manipulation by a smarter being does appear to be a good idea and the way to go. But why? If the person that does the next downvote could also bother leaving a line explaining that, I would be genuinely interested in hearing the rationale. There is obviously some critical aspect of the question I must be missing here...
+Reply
+[ - ] Guillaume Charrier 4y -2
+0
+Our best safety work has come from working with our most capable models.
+Are we really suggesting that the correlation coefficient is... (moment of incredulous silence) positive, here?
+Reply
+[ + ] Iknownothing 4y -11
+0
+Moderation Log
+More from LawrenceC
+View more
+Curated and popular this week
+Mentioned in
+478 What just happened? Pragmatism and Pessimization
+25 AI Safety - 7 months of discussion in 17 minutes
+11 Ideas for AI labs: Reading list
+4 EA & LW Forum Weekly Summary (20th - 26th Feb 2023)
+4 Scientism vs. people

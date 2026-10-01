@@ -1,0 +1,30 @@
+{
+  "url": "https://x.com/w01fe/status/2092742024680419761",
+  "captured_at": "2026-09-30T13:02:25.275Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "a53a1e229efeb2f1ae6fa674f58f0aa44b89789e0545076ab33ad5a13ac93cdd",
+    "page.txt": "2983ba8f12a8898e8839ddd28798638011471fc9e701a1c06c3ed03b9a00221b",
+    "post.json": "76ac47d3935651efa22cad76f0bb63ac3cf6025cc1f929fa703dbb55f4d4e9fe",
+    "syndication.json": "afa770f9d3ebfbecc21f00a44881e7fa6c9032f7934aafbc2f7761587c69b346",
+    "media-1.png": "4e1e9b3163a3e491a6f8dbfe7f2f04c73ecfb6ce407eb0179ba29abb29d2b4f0",
+    "post.txt": "f6e4d0d07f7247d60113aa4e7e9cb8040fb5797a913c243ea723d6a970c803cb"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/w01fe/status/2092742024680419761",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Jason Wolfe on X: \"Today’s report shows that some people at OpenAI knew about the message board during the first Artifactory breach. My post implied otherwise. I thought I was accurately paraphrasing our CSO’s clarification, but I shouldn’t have attempted to do that, as I wasn't informed of the det… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Jason Wolfe (@w01fe)",
+    "date": "August 26, 2026",
+    "posted_at": "2026-08-26T22:32:34.607Z",
+    "media": [
+      {
+        "file": "media-1.png",
+        "url": "https://pbs.twimg.com/media/HQrpfDCbwAAIfod.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/OpenAI/status/675546214142578688",
+  "captured_at": "2026-09-30T04:45:14.657Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "5fd85a1c043b5912577f99fe04c13f4949bded1ac0f2294b37139f79810b3c12",
+    "page.txt": "753a0d8878e886ce1d033523753386d4b9b975de955e51a2ed58238f562dfaea",
+    "post.json": "a9035d1b69a8101cd78115893243d6be4075c9a523d62d7e2f5113eb1945fba6",
+    "syndication.json": "2a2f71c2a4aa3ad9dbec2729a3d2f95c9ac6ae93dfa8bc962ac2df44e075d37a",
+    "post.txt": "9263ebb2ab9a8a8d8d18fa6c94e1b6376ca3921a131b5d4392c0d1f6b229b920"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/675546214142578688",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"@amarsapps We’ll be creating open-source projects over time; stay tuned!\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "December 12, 2015",
+    "posted_at": "2015-12-12T05:22:23.150Z"
+  }
+}

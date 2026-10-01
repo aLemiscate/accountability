@@ -1,0 +1,97 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 5,
+  "in_reply_to_screen_name": "rhyolight",
+  "in_reply_to_status_id_str": "676161147712569344",
+  "in_reply_to_user_id_str": "6797182",
+  "lang": "en",
+  "created_at": "2015-12-14T05:41:15.000Z",
+  "display_text_range": [
+    0,
+    64
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "6797182",
+        "indices": [
+          0,
+          10
+        ],
+        "name": "𝒶𝓁𝓌𝒶𝓎𝓈 🄵🅁🄴🅂🄷",
+        "screen_name": "rhyolight"
+      }
+    ]
+  },
+  "id_str": "676275737423425537",
+  "text": "@rhyolight Yep, we'll produce lots of open-source code as we go.",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "676275737423425537"
+    ],
+    "editable_until_msecs": "1450073475054",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 1,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 0,
+    "in_reply_to_screen_name": "OpenAI",
+    "in_reply_to_user_id_str": "4398626122",
+    "lang": "en",
+    "reply_count": 1,
+    "retweet_count": 1,
+    "created_at": "2015-12-13T22:05:54.000Z",
+    "display_text_range": [
+      0,
+      53
+    ],
+    "entities": {
+      "user_mentions": [
+        {
+          "id_str": "731275632399683584",
+          "indices": [
+            0,
+            8
+          ],
+          "name": "OpenAI",
+          "screen_name": "open_ai"
+        }
+      ]
+    },
+    "id_str": "676161147712569344",
+    "text": "@open_ai I hope your AI research will be open source.",
+    "user": {
+      "id_str": "6797182",
+      "name": "𝒶𝓁𝓌𝒶𝓎𝓈 🄵🅁🄴🅂🄷",
+      "screen_name": "rhyolight",
+      "is_blue_verified": false,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1254955285258448896/LG7yuJbJ_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "676161147712569344"
+      ],
+      "editable_until_msecs": "1450046154738",
+      "edits_remaining": "5",
+      "is_edit_eligible": true
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

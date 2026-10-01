@@ -1,0 +1,97 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 372,
+  "in_reply_to_screen_name": "Douthat60",
+  "in_reply_to_status_id_str": "2027909907622547580",
+  "in_reply_to_user_id_str": "546135718",
+  "lang": "en",
+  "created_at": "2026-03-01T04:02:44.000Z",
+  "display_text_range": [
+    12,
+    273
+  ],
+  "entities": {},
+  "id_str": "2027957684625150444",
+  "text": "@DouthatNYT Yes; I think it is an extremely scary precedent and I wish they handled it a different way. I don't think Anthropic handled it well either, but as the more powerful party, I hold the government more responsible.\n\nI am still hopeful for a much better resolution.",
+  "user": {
+    "id_str": "1605",
+    "name": "Sam Altman",
+    "screen_name": "sama",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_normal.jpg",
+    "highlighted_label": {
+      "badge": {
+        "url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_bigger.jpg"
+      },
+      "description": "OpenAI",
+      "url": {
+        "url": "https://twitter.com/OpenAI",
+        "url_type": "DeepLink"
+      },
+      "user_label_display_type": "Badge",
+      "user_label_type": "BusinessLabel"
+    }
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2027957684625150444"
+    ],
+    "editable_until_msecs": "1772341364000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 48,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 987,
+    "in_reply_to_screen_name": "sama",
+    "in_reply_to_status_id_str": "2027900042720498089",
+    "in_reply_to_user_id_str": "1605",
+    "lang": "en",
+    "reply_count": 16,
+    "retweet_count": 30,
+    "created_at": "2026-03-01T00:52:53.000Z",
+    "display_text_range": [
+      6,
+      215
+    ],
+    "entities": {
+      "user_mentions": [
+        {
+          "id_str": "1605",
+          "indices": [
+            0,
+            5
+          ],
+          "name": "Sam Altman",
+          "screen_name": "sama"
+        }
+      ]
+    },
+    "id_str": "2027909907622547580",
+    "text": "@sama Does the precedent that the DoW is setting by effectively blacklisting Anthropic make you concerned about what any future dispute with the Pentagon would mean for your own company's independence and viability?",
+    "user": {
+      "id_str": "546135718",
+      "name": "Ross Douthat",
+      "screen_name": "Douthat60",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2097408787468656640/OdhW4Pul_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2027909907622547580"
+      ],
+      "editable_until_msecs": "1772329973000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

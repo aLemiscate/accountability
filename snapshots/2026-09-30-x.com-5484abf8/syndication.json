@@ -1,0 +1,170 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 4347,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2026-09-05T07:09:06.000Z",
+  "display_text_range": [
+    0,
+    273
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/NNTbfSxVWn",
+        "expanded_url": "https://x.com/OpenAI/status/2096133504417616165/photo/1",
+        "indices": [
+          274,
+          297
+        ],
+        "url": "https://t.co/NNTbfSxVWn"
+      }
+    ]
+  },
+  "id_str": "2096133504417616165",
+  "text": "How we think about the “wiki incident,” where our agents wrote to several internet sites: it’s past time for us to define standards for when and how we share misalignment incidents, not just misalignment properties of our models.\n\nHistorically, we have treated misalignment https://t.co/NNTbfSxVWn",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2096133504417616165"
+    ],
+    "editable_until_msecs": "1788595746000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/NNTbfSxVWn",
+      "expanded_url": "https://x.com/OpenAI/status/2096133504417616165/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        274,
+        297
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/HRb1iJXbsAADtBM.jpg",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 936,
+            "w": 1672,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 941,
+            "w": 941,
+            "x": 407,
+            "y": 0
+          },
+          {
+            "h": 941,
+            "w": 825,
+            "x": 465,
+            "y": 0
+          },
+          {
+            "h": 941,
+            "w": 471,
+            "x": 642,
+            "y": 0
+          },
+          {
+            "h": 941,
+            "w": 1672,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 941,
+        "width": 1672
+      },
+      "sizes": {
+        "large": {
+          "h": 941,
+          "resize": "fit",
+          "w": 1672
+        },
+        "medium": {
+          "h": 675,
+          "resize": "fit",
+          "w": 1200
+        },
+        "small": {
+          "h": 383,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/NNTbfSxVWn"
+    }
+  ],
+  "photos": [
+    {
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 936,
+          "w": 1672,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 941,
+          "w": 941,
+          "x": 407,
+          "y": 0
+        },
+        {
+          "h": 941,
+          "w": 825,
+          "x": 465,
+          "y": 0
+        },
+        {
+          "h": 941,
+          "w": 471,
+          "x": 642,
+          "y": 0
+        },
+        {
+          "h": 941,
+          "w": 1672,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/OpenAI/status/2096133504417616165/photo/1",
+      "url": "https://pbs.twimg.com/media/HRb1iJXbsAADtBM.jpg",
+      "width": 1672,
+      "height": 941
+    }
+  ],
+  "conversation_count": 693,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDk2MTMzNTA0MTk1MzIxODU2"
+  }
+}

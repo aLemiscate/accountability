@@ -1,0 +1,131 @@
+•
+Home
+•
+Artificial Intelligence
+•
+Generative AI
+by Gyana Swain
+•
+•
+•
+•
+•
+•
+•
+OpenAI launches GPT-6 Astra, its first model to cross a critical cybersecurity threshold
+News
+Sep 4, 2026 5 mins
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+The rollout comes with a safety disclosure that could reshape how CIOs think about model governance.
+Credit: Shutterstock / doomu
+OpenAI launched GPT-6 Astra on Thursday, disclosing that the new flagship model has crossed the “Critical” threshold for cybersecurity risk under its Preparedness Framework, a classification the company said triggers additional deployment restrictions.
+“GPT‑6 Astra is rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS,” OpenAI said in a statement.
+Enterprise administrators must manually enable Astra for their workspace, since access is off by default at launch, according to the company.
+Developers can access Astra in the API as gpt-6-astra or through Amazon Bedrock, OpenAI said, priced at $10 per million input tokens and $50 per million output tokens. Pro, Business, and Enterprise users also get a variant called Astra Pro, and the company said Astra supports Zero Data Retention for eligible API customers.
+Company claims perfect score on exploit benchmark
+OpenAI said it tested Astra without production safeguards on ExploitBench, and that the model scored 100%, up from 78.5% for predecessor GPT-5.6 Sol. On ExploitGym, a broader exploit-development benchmark, the company said Astra reached a 42.4% success rate against 30.3% for Sol, while using fewer output tokens.
+“Its ability to identify and develop zero-day exploits can help defenders find and patch weaknesses, but it also creates a need for stronger safeguards,” OpenAI said in the blog post.
+OpenAI also tested Astra on vulnerabilities disclosed in the three months before launch, to check whether it could find flaws on its own rather than recalling old exploits from training data. The model found two new zero-day vulnerabilities during that test, OpenAI said, and it is now disclosing both to the software makers involved.
+Sanchit Vir Gogia, chief analyst at Greyhound Research, said the Critical label is a disclosure event rather than a capability event.
+“Astra’s capability did not change between 10 August, when OpenAI said Critical capability could not be ruled out, and September 1, when it said the threshold was met,” Gogia noted. “The testing changed. The model did not.”
+That inverts the obvious enterprise response, he said.
+“Astra is now the only frontier model whose cyber capability an enterprise actually knows, because it is the only one measured against a published threshold, while every unlabelled model already sitting behind enterprise credentials has never been measured that way and will not be until its vendor chooses to measure it,” Gogia pointed out. “Those models are not safer.”
+OpenAI said the public version of Astra will refuse advanced offensive tasks such as generating proof-of-concept exploits, though it plans to loosen those restrictions for vetted defenders through a program called OpenAI Daybreak in the coming weeks.
+The launch follows OpenAI’s rollout of GPT-5.6 Sol , which the company said scored 73.5% on ExploitBench at launch, and comes months after Anthropic’s Fable and Mythos models were briefly pulled from export markets over similar concerns.
+Governance shifts from the model to the harness around it
+Gogia said the bigger shift is that reasoning now translates into state change, since a wrong chatbot answer is an information problem while a wrong agent action inside a customer-record system is an operating event.
+“The governance unit therefore moves off the model,” he said, arguing the relevant question is no longer which model is approved, but how much damage a given identity can do before a control intervenes.
+Amit Kumar Jena, head of AI development at Kanerika said the visibility problem is concrete: when an agent acts through a user interface, systems of record log the action as a person, so an agent that updates 400 ERP rows shows up as a service account making 400 updates, with no record of which instruction or model version produced them.
+“You lose granularity inside the exact system a regulator or auditor will ask to see,” Jena added.
+OpenAI said it built a new evaluation, informed by an incident involving Hugging Face, to test whether a model given an impossible task would exceed its authorized scope.
+“Compared to GPT‑5.6 Sol, which without production safeguards went beyond the authorized target 48% of the time, GPT‑6 Astra did this in 0% of cases,” the statement added.
+Gogia said the more uncomfortable finding is that Astra behaves better and watches worse: OpenAI reports decreased chain-of-thought monitorability against Sol, with Astra less likely to reveal incriminating reasoning, and its monitoring covers OpenAI’s own external deployment but nothing published extends that telemetry to customers. “OpenAI being able to monitor Astra does not mean an enterprise can audit Astra,” Gogia said.
+Generative AI Artificial Intelligence Security
+by
+Gyana Swain
+Gyana Swain is a seasoned technology journalist with over 20 years' experience covering the telecom and IT space. He is a consulting editor with VARINDIA and earlier in his career, he held editorial positions at CyberMedia, PTI, 9dot9 Media, and Dennis Publishing. A published author of two books, he combines industry insight with narrative depth. Outside of work, he’s a keen traveler and cricket enthusiast. He earned a B.S. degree from Utkal University.
+More from this author
+• news
+Autonomous agents attack Azure using compromised identities, destroying resources
+Sep 28, 2026 6 mins
+• news
+Microsoft integrates SOC capabilities with Defender for enterprises
+Sep 24, 2026 5 mins
+• news
+Z.ai disables coding assistant feature after flaw exposed enterprise code upload risk
+Sep 22, 2026 4 mins
+• news
+After spending billions, OpenAI still has gaps in its cybersecurity
+Sep 21, 2026 5 mins
+• news
+OpenAI admits six new misalignment incidents under new reporting framework
+Sep 17, 2026 5 mins
+• news
+Big Tech’s AI safety rift signals disruption and disparity for enterprises
+Sep 16, 2026 5 mins
+• news
+India’s STPI serves TerminalFix-style attack via fake Cloudflare check
+Sep 11, 2026 5 mins
+• news
+AI workflows may be creating a dangerous new authorization blind spot
+Sep 10, 2026 5 mins
+Show me more
+Popular Articles Podcasts Videos
+opinion
+The MFA you have isn't the MFA you think you have
+By Ashish Mishra
+Sep 30, 2026 6 mins
+Access Control Authentication Multifactor Authentication
+opinion
+Can we jail a superintelligence?
+By Arjun Mullick
+Sep 30, 2026 9 mins
+Application Security Data and Information Security Network Security
+feature
+Whatever happened to the 36-month IT security roadmap?
+By Stephanie Overby
+Sep 30, 2026 8 mins
+Budgeting Business IT Alignment IT Strategy
+podcast
+The Evolving CISO: AI, Leadership and the Future of Cybersecurity
+By Joan Goodchild
+Sep 24, 2026 6 mins
+CSO and CISO
+podcast
+Why Security Debt May Be a Bigger Risk Than Security Spend
+By Joan Goodchild
+Sep 10, 2026 16 mins
+Cybercrime
+podcast
+Cybersecurity on the Front Lines of Critical Infrastructure
+By Joan Goodchild
+Aug 12, 2026 10 mins
+Cyberattacks
+video
+The Evolving CISO: AI, Leadership and the Future of Cybersecurity
+By Joan Goodchild
+Sep 24, 2026 6 mins
+CSO and CISO
+video
+Why Security Debt May Be a Bigger Risk Than Security Spend
+By Joan Goodchild
+Sep 10, 2026 16 mins
+Cyberattacks
+video
+Cybersecurity on the Front Lines of Critical Infrastructure
+By Joan Goodchild
+Aug 12, 2026 10 mins
+Cyberattacks

@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/OpenAI/status/675704325297991680",
+  "captured_at": "2026-09-30T04:45:15.560Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "12366976c5a0bff6585d4a40a8b4893475d01d91bb327fdc463ba0f24c757f70",
+    "page.txt": "658cf65c3a0b0d50e0dd06e6070ef7b65dcf26686267f25b23f12205ede172de",
+    "post.json": "d0b77ff7b99d3bb9ad93a3371962e75c36aaa164c0645a320266455c71a7ebb4",
+    "syndication.json": "4dff8bee070a22eaed4d0636afe0f5d93f4cde5416418b465e14783465a399ba",
+    "post.txt": "34e6f2c7f2058f7f8766c19be43b922a1d72d21bd364abc3ed138669784c8289"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/675704325297991680",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"@alekkhan We’ll create open-source projects over time. We’ll keep Twitter updated. Stay tuned!\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "December 12, 2015",
+    "posted_at": "2015-12-12T15:50:39.787Z"
+  }
+}

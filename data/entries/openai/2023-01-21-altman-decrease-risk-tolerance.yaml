@@ -1,0 +1,53 @@
+title: 'Altman: OpenAI will "continually decrease the level of risk we are
+  comfortable taking" as models get more powerful'
+date: 2023-01-21
+org: openai
+type: said
+kind: commitment
+who: [sam-altman]
+venue: Post on X
+quote: >-
+  openai will continually decrease the level of risk we are comfortable taking
+  with new models as they get more powerful, not the other way around.
+summary: >-
+  Altman posted two screenshots: a December 2022 CNBC story in which Google
+  executives said the company was moving "more conservatively than a small
+  startup" on AI chat because of reputational risk, and a January 2023 New York
+  Times story reporting that Google would "recalibrate" the level of risk it was
+  willing to take when releasing the technology. He replied:
+  "'recalibrate' means 'increase' obviously. disappointing to see this six-week
+  development," followed by the promise above.
+concreteness: directional
+status: eroded
+breaks_if: >-
+  OpenAI loosens a safety requirement for more capable models, or ties its own
+  risk tolerance to what competitors do.
+patterns: [race-clause]
+related: [2018-04-09-charter-stop-competing-clause, 2025-04-15-preparedness-framework-v2, 2026-08-18-altman-pause-act-unilaterally]
+sources:
+  - title: Sam Altman on X
+    publisher: X
+    url: https://x.com/sama/status/1616857160910241792
+    date: 2023-01-21
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-d491d311
+  - title: Sam Altman on X (screenshots)
+    publisher: X
+    url: https://x.com/sama/status/1616857158100078592
+    date: 2023-01-21
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-8230a203
+updates:
+  - date: 2025-04-15
+    text: >-
+      Version 2 of the Preparedness Framework said OpenAI "may adjust our
+      requirements" if another developer released a high-risk system without
+      comparable safeguards. See 2025-04-15-preparedness-framework-v2.
+  - date: 2026-08-18
+    text: >-
+      After the Hugging Face incident OpenAI paused some frontier RL training
+      and cited no rival. See 2026-08-18-altman-pause-act-unilaterally.
+note: >-
+  "Eroded," not "broken": the 2025 framework made room to raise risk tolerance
+  when a rival does, but OpenAI hasn't been shown to use that clause, and in
+  2026 it paused without waiting for anyone.

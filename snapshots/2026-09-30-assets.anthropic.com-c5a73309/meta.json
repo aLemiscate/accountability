@@ -1,0 +1,17 @@
+{
+  "url": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf",
+  "captured_at": "2026-09-30T12:49:46.778Z",
+  "tool": "said-did capture",
+  "files": {
+    "document.txt": "60608a52c140bd535806cf826f2bf36b1b5ff4d2c66602b3539655e4f7054426"
+  },
+  "http_status": 200,
+  "final_url": "https://www-cdn.anthropic.com/bf10f64990cfda0ba858290be7b8cc6317685f47.pdf",
+  "content_type": "application/pdf",
+  "omitted": {
+    "file": "document.pdf",
+    "bytes": 11499930,
+    "sha256": "33be92efcb58f901d9d2c17e61bf277afbd514a1ac70a642f21e918c21ca25a8",
+    "reason": "larger than the size limit; text kept"
+  }
+}

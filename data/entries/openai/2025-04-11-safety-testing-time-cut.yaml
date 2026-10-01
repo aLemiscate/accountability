@@ -1,0 +1,52 @@
+title: FT reports OpenAI cut safety testing from months to days as it raced to
+  launch o3
+date: 2025-04-11
+org: openai
+type: did
+kind: disclosure
+who: [openai, johannes-heidecke]
+summary: >-
+  The Financial Times reported, citing eight people familiar with OpenAI's
+  testing, that staff and third-party testers had been given days, not months,
+  to evaluate new models. GPT-4 had been tested for six months in 2023; some
+  testers of the upcoming o3 got less than a week. One tester said: "We had
+  more thorough safety testing when [the technology] was less important."
+  Another, who had worked on GPT-4's evaluation, said dangerous flaws only
+  emerged well into that longer process. Critics also questioned whether OpenAI
+  still ran fine-tuned misuse tests on its newest models.
+patterns: [race-clause, pledged-not-resourced]
+related:
+  [
+    2023-01-21-altman-decrease-risk-tolerance,
+    2025-04-14-gpt-4-1-no-system-card,
+    2025-04-15-preparedness-framework-v2
+  ]
+sources:
+  - title: OpenAI slashes AI model safety testing time (FT, via X)
+    publisher: Financial Times
+    url: https://x.com/FT/status/1910545751119135199
+    date: 2025-04-11
+    type: reporting
+    snapshot: snapshots/2026-09-30-x.com-65c264bd
+  - title: OpenAI Cuts AI Safety Testing Time, Sparking Concerns Amid Model Launch
+      Rush
+    publisher: WinBuzzer
+    url: https://winbuzzer.com/2025/04/11/openai-cuts-ai-safety-testing-time-sparking-concerns-amid-model-launch-rush-xcxwbn/
+    date: 2025-04-11
+    type: reporting
+    snapshot: snapshots/2026-09-30-winbuzzer.com-d6c2ccb0
+  - title: 'Inside AI #10: Safety scrutiny on OpenAI'
+    publisher: AI Whistleblower Initiative
+    url: https://aiwhistleblowerinitiative.substack.com/p/inside-ai-10-safety-scrutiny-on-openai
+    date: 2025-04-28
+    type: analysis
+    snapshot: snapshots/2026-09-30-aiwhistleblowerinitiative.substack.com-a5636358
+response: >-
+  OpenAI said its testing had become more efficient through automation, that
+  the checkpoints it tested were "basically identical" to the final releases,
+  and that models are thoroughly tested for catastrophic risks. Head of safety
+  systems Johannes Heidecke: "We have a good balance of how fast we move and how
+  thorough we are."
+note: >-
+  Four days later the Preparedness Framework gained its competitor clause, and
+  GPT-4.1 shipped without a system card.

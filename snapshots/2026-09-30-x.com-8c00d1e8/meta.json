@@ -1,0 +1,30 @@
+{
+  "url": "https://x.com/gdb/status/2019300639155900608",
+  "captured_at": "2026-09-30T13:01:06.022Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "5f807b5c966f8439ca54f9b7e053abfebef786a61a243b072cdb03ee2f6de596",
+    "page.txt": "4cfbd1b61a71091804b15dc2abdb6cc207df04262b12584714574c4dcf024623",
+    "post.json": "e5cdf1aec974f0d2f32090e102dc1c96f446b3a1cad81cd81a28fdd33850ba44",
+    "syndication.json": "9e852d6f795e3be78ed53d5a97833318c24cb93daf6ed67c835c083b03a24534",
+    "media-1.jpg": "a54e442b3774fa3c9c7c94e6dba4903cdd8b83e278962cca94eca3887a2cda02",
+    "post.txt": "3ea73202305327f982bc8d7cd283f02eb31ef3b8490ab55fc79a3cd47d99d54a"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/gdb/status/2019300639155900608",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Greg Brockman on X: \"@claudeai @DarioAmodei will you commit to never selling claude's \"users’ attention or data to advertisers\"? genuine question, your blog post makes it sound like you're keeping the option open.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Greg Brockman (@gdb)",
+    "date": "February 5, 2026",
+    "posted_at": "2026-02-05T06:42:43.823Z",
+    "media": [
+      {
+        "file": "media-1.jpg",
+        "url": "https://pbs.twimg.com/media/HAX05-obQAAIioc.jpg"
+      }
+    ]
+  }
+}

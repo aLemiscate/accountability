@@ -1,0 +1,44 @@
+title: 'NYT: OpenAI transcribed over a million hours of YouTube to train GPT-4,
+  knowing it might break YouTube''s rules'
+date: 2024-04-06
+org: openai
+type: did
+kind: action
+who: [openai, greg-brockman]
+summary: >-
+  The New York Times reported that OpenAI built its speech-recognition model,
+  Whisper, partly to turn audio from videos into training text, and that a team
+  including president Greg Brockman transcribed more than a million hours of
+  YouTube videos to train GPT-4. According to the Times, some OpenAI staff
+  discussed that this might go against YouTube's rules, which bar automated
+  access and use of its content for "independent" applications. In August 2024 a
+  YouTube creator filed a proposed class action on the same grounds.
+related: [2024-01-08-training-is-fair-use, 2024-05-07-media-manager-opt-out]
+patterns: [take-first]
+sources:
+  - title: YouTuber files class action suit over OpenAI's scrape of creators'
+      transcripts (summarizing the Times' April 2024 report)
+    publisher: TechCrunch
+    url: https://techcrunch.com/2024/08/05/youtuber-files-class-action-suit-over-openais-scrape-of-creators-transcripts/
+    date: 2024-08-05
+    type: reporting
+    snapshot: snapshots/2026-09-30-techcrunch.com-5a0e7806
+  - title: How Tech Giants Cut Corners to Harvest Data for A.I.
+    publisher: The New York Times
+    url: https://www.nytimes.com/2024/04/06/technology/tech-giants-harvest-data-artificial-intelligence.html
+    date: 2024-04-06
+    type: reporting
+    archive: https://web.archive.org/web/20260219184159/https://www.nytimes.com/2024/04/06/technology/tech-giants-harvest-data-artificial-intelligence.html
+  - title: OpenAI CTO Mira Murati doesn't know what data Sora was trained on
+    publisher: The Decoder
+    url: https://the-decoder.com/openai-cto-mira-murati-doesnt-know-what-data-sora-was-trained-on/
+    date: 2024-03-14
+    type: reporting
+    snapshot: snapshots/2026-10-01-the-decoder.com-ea2bb019
+note: >-
+  The account comes from the Times' unnamed sources and a lawsuit, and hasn't
+  been tested in court. It belongs next to OpenAI's promise the next month of
+  a tool to let creators opt out. Three weeks before the Times report, the Wall
+  Street Journal asked chief technology officer Mira Murati whether OpenAI's
+  video model, Sora, was trained on YouTube videos; she said she wasn't sure,
+  and afterwards confirmed only that some licensed data came from Shutterstock.

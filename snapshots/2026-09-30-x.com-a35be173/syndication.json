@@ -1,0 +1,35 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 6,
+  "lang": "en",
+  "created_at": "2015-12-12T05:22:23.000Z",
+  "display_text_range": [
+    0,
+    72
+  ],
+  "entities": {},
+  "id_str": "675546214142578688",
+  "text": "@amarsapps We’ll be creating open-source projects over time; stay tuned!",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "675546214142578688"
+    ],
+    "editable_until_msecs": "1449899543150",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 0,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

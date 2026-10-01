@@ -15,7 +15,11 @@ summary: >-
   models aren't reliable enough for those uses and that powerful AI raises
   serious privacy risks. On February 27, the President directed federal agencies
   to stop using Anthropic's AI, and Defense Secretary Pete Hegseth designated
-  the company a "supply chain risk to national security."
+  the company a "supply chain risk to national security." The stance wasn't
+  new. In September 2025 Semafor reported that Anthropic had turned down
+  contractors for the FBI, Secret Service and ICE rather than make exceptions
+  to its ban on domestic surveillance. Officials complained the policy was
+  vague and "selectively" enforced.
 concreteness: measurable
 status: kept
 breaks_if: >-
@@ -30,6 +34,12 @@ sources:
     date: 2026-02-26
     type: primary
     snapshot: snapshots/2026-09-29-anthropic.com-1dfaa948
+  - title: "Exclusive: Anthropic irks White House with limits on models' use"
+    publisher: Semafor
+    url: https://www.semafor.com/article/09/17/2025/anthropic-irks-white-house-with-limits-on-models-uswhite-house-with-limits-on-models-use
+    date: 2025-09-17
+    type: reporting
+    snapshot: snapshots/2026-09-30-semafor.com-933de2e1
   - title: Anthropic on X
     publisher: X
     url: https://x.com/AnthropicAI/status/2027150818575528261

@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/JoHeidecke/status/1922712295341162919",
+  "captured_at": "2026-09-30T04:45:09.421Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "594b8dd515a0128476c1958ae73ae7bb0059e501a9b8db28e33d6d0cd5379059",
+    "page.txt": "e4d3b037eeb5269758bf9b39910ac11a0e0ff5d5a5fd7965c4f1d7020d3862e9",
+    "post.json": "a1123384d3d2443b4de723430034aae35654529c6d9fa318a698b0b3eedb47c4",
+    "syndication.json": "b951dff81511d25899922c4331cd0cd5c8997bb1b0c183d6c2c484a246d62495",
+    "post.txt": "6e6449907e3cc93f46491d268abf73855beb78eb356dda0d0e40b0683e034115"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/JoHeidecke/status/1922712295341162919",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Johannes Heidecke on X: \"2/ Before launching GPT-4.1 in the API, we ran evaluations to test the model’s capabilities and safety. It excels at coding and instruction following - things that are extremely helpful for developers.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Johannes Heidecke (@JoHeidecke)",
+    "date": "May 14, 2025",
+    "posted_at": "2025-05-14T17:55:08.133Z"
+  }
+}

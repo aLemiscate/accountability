@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/OpenAI/status/2079658951264920020",
+  "captured_at": "2026-09-30T04:45:35.223Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "b6704f93daa64c752827b9a8065ea44ca4d16831d6a4323c0a237925ebed9be8",
+    "page.txt": "68f156af976d629e1563c3aaaeda79ab76974e4275d1a2a29499f4d9a6d13364",
+    "post.json": "e363a379ed2ae231f144cafe3eb49db22de5120f7f9fca93bf69dba5a4306040",
+    "syndication.json": "01c97cf9e6fbb6fe7d454c5061cd0553ae85b8985224cf698161a4afd6ccda70",
+    "post.txt": "2ad19379f97b7f2e557f22565bd04123cb13203159b9eb06cdf7d616eab80f50"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/2079658951264920020",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"We're partnering with @huggingface to investigate an unprecedented security incident. Cyber-capable OpenAI models compromised Hugging Face production during a benchmark evaluation. Sharing preliminary findings to help defenders understand emerging risks: https://t.co/CIor15y9xk\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "July 21, 2026",
+    "posted_at": "2026-07-21T20:05:06.833Z"
+  }
+}

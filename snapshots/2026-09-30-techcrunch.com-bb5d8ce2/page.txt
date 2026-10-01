@@ -1,0 +1,46 @@
+OpenAI on Monday apologized to the Australian government for not immediately notifying the country’s administration that its agents had breached some public services websites. The company also detailed how some of those breaches happened and outlined additional measures it is taking to assess the impact of the events.
+“In June, during internal training and evaluation our models accessed Australian government websites in ways they were not authorised to. We also should have handled our response better. We are sorry and working to do better in the future,” OpenAI wrote in a blog post .
+The apology comes roughly a week after the Australian government launched an investigation into how OpenAI’s models accessed a Services Australia system containing Medicare spending information and other health statistics.
+The data breach occurred in June, but Australian authorities weren’t notified until September 10.
+OpenAI also detailed the breach. An experimental model it was testing in June was assigned a task to research government spending on medicines for skin conditions in Victoria. Unable to find the information in public datasets, the model found a way to access Services Australia’s internal system, run commands, retrieve files and credentials, and even write files.
+The company said it also found that one of its models had accessed the New South Wales Bureau of Crime Statistics and Research’s public Crime Mapping Tool to find crime statistics. And the lab found that its agents gained access to the Victorian Agency for Health Information via an exposed access key to exfiltrate “reporting configuration and aggregate survey statistics.” OpenAI said its agents also retrieved aggregate statistics from the Australian Institute of Health and Welfare website.
+The company said it had found no evidence that its models had accessed individuals’ medical or criminal records.
+In its apology, the AI lab said it would provide the affected Australian agencies with technical findings and connect them with its response teams to assess the impact of the breaches. The company will also provide credits from its $1 billion Daybreak for Frontline Defenders program, and set up a task force with independent Australian experts to review the incident and its response.
+“The taskforce, which is expected to complete its work by the end of the year, will also recommend practical steps AI companies can take to reduce the risk of similar incidents,” OpenAI wrote.
+OpenAI did not immediately return a request for comment.
+Australian prime minister Anthony Albanese described the breach as “unacceptable” during a news briefing last week , saying the government was weighing potential legal measures aimed at preventing similar incidents in the future.
+The breach is the latest in a growing list of security incidents involving AI agents doing things outside of their intended boundaries. The tinder on this particular bonfire was lit after OpenAI agents hacked into Hugging Face , and since then, Anthropic , Meta , and Google have separately disclosed similar incidents where their models gained access to third parties’ systems during evaluations.
+Topics
+AI , ai safety , Australia , Australia & Oceania , cybersecurity , OpenAI , Security , security breaches
+When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.
+Kate Park
+Reporter, Asia
+Kate Park is a reporter at TechCrunch, with a focus on technology, startups and venture capital in Asia. She previously was a financial journalist at Mergermarket covering M&A, private equity and venture capital.
+View Bio
+October 13 – 15
+San Francisco
+Get 50% off a second pass
+The Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by making connections, building momentum, and discovering what’s next in the startup ecosystem.
+BOOK NOW
+Most Popular
+•
+AMD will acquire Fei-Fei Li’s World Labs for $8.2B
+• Tim Fernholz
+•
+Crusoe abandons $1.25B plan to use Boom turbines at AI data centers
+• Kirsten Korosec
+•
+Astra and Opus just passed Turing’s other test
+• Tim Fernholz
+•
+Oracle sends force majeure notice on its New Mexico Stargate data center
+• Aditya Mehta
+•
+Meta made a Tamagotchi-like wearable for its Muse AI agent
+• Lucas Ropek
+•
+Vogue sent robots down the runway at Vogue World, and people were not impressed
+• Dominic-Madori Davis
+•
+Anthropic says its biology lab has already found something big
+• Julie Bort

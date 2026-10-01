@@ -1,0 +1,106 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 199,
+  "in_reply_to_screen_name": "john__allard",
+  "in_reply_to_status_id_str": "2027933240783409264",
+  "in_reply_to_user_id_str": "1288679982999285761",
+  "lang": "en",
+  "created_at": "2026-03-01T15:05:54.000Z",
+  "display_text_range": [
+    29,
+    136
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "1288679982999285761",
+        "indices": [
+          0,
+          13
+        ],
+        "name": "john allard",
+        "screen_name": "john__allard"
+      },
+      {
+        "id_str": "2027900281619628032",
+        "indices": [
+          14,
+          28
+        ],
+        "name": "NatSecKatrina",
+        "screen_name": "natseckatrina"
+      }
+    ]
+  },
+  "id_str": "2028124576337756358",
+  "text": "@john__allard @natseckatrina I followed up with Katrina about this and the answer is yes. The contract does not allow NSA Title 50 work.",
+  "user": {
+    "id_str": "825088493764407298",
+    "name": "Noam Brown",
+    "screen_name": "polynoamial",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1872883170292457472/8ywVGO5M_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2028124576337756358"
+    ],
+    "editable_until_msecs": "1772381154000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 14,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 51,
+    "in_reply_to_screen_name": "natseckatrina",
+    "in_reply_to_status_id_str": "2027929616258609487",
+    "in_reply_to_user_id_str": "2027900281619628032",
+    "lang": "en",
+    "reply_count": 3,
+    "retweet_count": 0,
+    "created_at": "2026-03-01T02:25:36.000Z",
+    "display_text_range": [
+      15,
+      247
+    ],
+    "entities": {
+      "user_mentions": [
+        {
+          "id_str": "2027900281619628032",
+          "indices": [
+            0,
+            14
+          ],
+          "name": "NatSecKatrina",
+          "screen_name": "natseckatrina"
+        }
+      ]
+    },
+    "id_str": "2027933240783409264",
+    "text": "@natseckatrina is the legal authority a load-bearing component of OAI's contract with the DoW? It's not obvious to me (skill issue maybe) how NSA and CYBERCOM operating under different legal authorities influences who can access which OAI services",
+    "user": {
+      "id_str": "1288679982999285761",
+      "name": "john allard",
+      "screen_name": "john__allard",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1506134877237747714/Dk_MGsbp_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2027933240783409264"
+      ],
+      "editable_until_msecs": "1772335536000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

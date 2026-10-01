@@ -1,0 +1,298 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 2991,
+  "lang": "en",
+  "created_at": "2026-05-08T20:19:04.000Z",
+  "display_text_range": [
+    0,
+    278
+  ],
+  "entities": {},
+  "id_str": "2052845764507062349",
+  "text": "Chain of thought monitors are a key layer of defense against AI agent misalignment. To preserve monitorability, we avoid penalizing misaligned reasoning during RL.\n\nWe found a limited amount of accidental CoT grading which affected released models, and are sharing our analysis.",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2052845764507062349"
+    ],
+    "editable_until_msecs": "1778275144000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 331,
+  "news_action_type": "conversation",
+  "card": {
+    "card_platform": {
+      "platform": {
+        "audience": {
+          "name": "production"
+        },
+        "device": {
+          "name": "iPhone",
+          "version": "13"
+        }
+      }
+    },
+    "name": "summary_large_image",
+    "url": "https://t.co/0o3PLfafC4",
+    "binding_values": {
+      "photo_image_full_size_large": {
+        "image_value": {
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2103594455123308544/8qrCqw-0?format=jpg&name=800x419",
+          "width": 800
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image": {
+        "image_value": {
+          "height": 150,
+          "url": "https://pbs.twimg.com/card_img/2103594455123308544/8qrCqw-0?format=jpg&name=280x150",
+          "width": 232
+        },
+        "type": "IMAGE"
+      },
+      "description": {
+        "string_value": "We found limited accidental CoT grading in some released models, fixed the affected reward pathways, and found no clear evidence that monitorability degraded.",
+        "type": "STRING"
+      },
+      "domain": {
+        "string_value": "alignment.openai.com",
+        "type": "STRING"
+      },
+      "thumbnail_image_large": {
+        "image_value": {
+          "height": 320,
+          "url": "https://pbs.twimg.com/card_img/2103594455123308544/8qrCqw-0?format=jpg&name=800x320_1",
+          "width": 495
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_small": {
+        "image_value": {
+          "height": 202,
+          "url": "https://pbs.twimg.com/card_img/2103594455123308544/8qrCqw-0?format=jpg&name=386x202",
+          "width": 386
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_original": {
+        "image_value": {
+          "height": 1008,
+          "url": "https://pbs.twimg.com/card_img/2103594455123308544/8qrCqw-0?format=jpg&name=orig",
+          "width": 1560
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_small": {
+        "image_value": {
+          "height": 202,
+          "url": "https://pbs.twimg.com/card_img/2103594455123308544/8qrCqw-0?format=jpg&name=386x202",
+          "width": 386
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_large": {
+        "image_value": {
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2103594455123308544/8qrCqw-0?format=jpg&name=800x419",
+          "width": 800
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_small": {
+        "image_value": {
+          "height": 65,
+          "url": "https://pbs.twimg.com/card_img/2103594455123308544/8qrCqw-0?format=jpg&name=100x100",
+          "width": 100
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_x_large": {
+        "image_value": {
+          "height": 1008,
+          "url": "https://pbs.twimg.com/card_img/2103594455123308544/8qrCqw-0?format=png&name=2048x2048_2_exp",
+          "width": 1560
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_original": {
+        "image_value": {
+          "height": 1008,
+          "url": "https://pbs.twimg.com/card_img/2103594455123308544/8qrCqw-0?format=jpg&name=orig",
+          "width": 1560
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_alt_text": {
+        "string_value": "Abstract layered grid illustration for the accidental CoT grading post.",
+        "type": "STRING"
+      },
+      "vanity_url": {
+        "scribe_key": "vanity_url",
+        "string_value": "alignment.openai.com",
+        "type": "STRING"
+      },
+      "photo_image_full_size": {
+        "image_value": {
+          "height": 314,
+          "url": "https://pbs.twimg.com/card_img/2103594455123308544/8qrCqw-0?format=jpg&name=600x314",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_alt_text": {
+        "string_value": "Abstract layered grid illustration for the accidental CoT grading post.",
+        "type": "STRING"
+      },
+      "thumbnail_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 92.09,
+              "rgb": {
+                "blue": 239,
+                "green": 245,
+                "red": 250
+              }
+            },
+            {
+              "percentage": 7.16,
+              "rgb": {
+                "blue": 106,
+                "green": 66,
+                "red": 30
+              }
+            },
+            {
+              "percentage": 0.56,
+              "rgb": {
+                "blue": 179,
+                "green": 145,
+                "red": 118
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "title": {
+        "string_value": "Investigating the consequences of accidentally grading CoT during RL",
+        "type": "STRING"
+      },
+      "summary_photo_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 92.09,
+              "rgb": {
+                "blue": 239,
+                "green": 245,
+                "red": 250
+              }
+            },
+            {
+              "percentage": 7.16,
+              "rgb": {
+                "blue": 106,
+                "green": 66,
+                "red": 30
+              }
+            },
+            {
+              "percentage": 0.56,
+              "rgb": {
+                "blue": 179,
+                "green": 145,
+                "red": 118
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "summary_photo_image_x_large": {
+        "image_value": {
+          "height": 1008,
+          "url": "https://pbs.twimg.com/card_img/2103594455123308544/8qrCqw-0?format=png&name=2048x2048_2_exp",
+          "width": 1560
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image": {
+        "image_value": {
+          "height": 314,
+          "url": "https://pbs.twimg.com/card_img/2103594455123308544/8qrCqw-0?format=jpg&name=600x314",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 92.09,
+              "rgb": {
+                "blue": 239,
+                "green": 245,
+                "red": 250
+              }
+            },
+            {
+              "percentage": 7.16,
+              "rgb": {
+                "blue": 106,
+                "green": 66,
+                "red": 30
+              }
+            },
+            {
+              "percentage": 0.56,
+              "rgb": {
+                "blue": 179,
+                "green": 145,
+                "red": 118
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "photo_image_full_size_x_large": {
+        "image_value": {
+          "height": 1008,
+          "url": "https://pbs.twimg.com/card_img/2103594455123308544/8qrCqw-0?format=png&name=2048x2048_2_exp",
+          "width": 1560
+        },
+        "type": "IMAGE"
+      },
+      "card_url": {
+        "scribe_key": "card_url",
+        "string_value": "https://t.co/0o3PLfafC4",
+        "type": "STRING"
+      },
+      "summary_photo_image_original": {
+        "image_value": {
+          "height": 1008,
+          "url": "https://pbs.twimg.com/card_img/2103594455123308544/8qrCqw-0?format=jpg&name=orig",
+          "width": 1560
+        },
+        "type": "IMAGE"
+      }
+    }
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDUyODQ1NzY0Mzg5NjE3NjY0"
+  }
+}

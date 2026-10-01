@@ -1,0 +1,78 @@
+title: 'OpenAI promises adversarial fine-tuning tests before releasing open
+  weights, and runs them'
+date: 2025-03-31
+org: openai
+type: said
+kind: commitment
+who: [openai, johannes-heidecke]
+venue: Posts on X by OpenAI's head of safety systems
+quote: >-
+  we’re guided by our Preparedness Framework and will not release models we
+  believe pose catastrophic risks.
+summary: >-
+  Announcing plans for an open-weight model, OpenAI's head
+  of safety systems said the company was "particularly focused on studying
+  adversarial fine-tuning and other risks unique to open models," and would
+  test with outside experts before release. This mattered because two weeks
+  later, version 2 of the Preparedness Framework limited fine-tuned-model
+  testing to models whose weights would be released.
+concreteness: conditional
+status: kept
+breaks_if: >-
+  OpenAI releases open weights without testing adversarially fine-tuned
+  versions, or releases a model its own tests put at High capability without
+  the safeguards the framework requires.
+patterns: []
+related: [2025-04-15-preparedness-framework-v2]
+sources:
+  - title: Johannes Heidecke on X ("will not release models we believe pose
+      catastrophic risks")
+    publisher: X
+    url: https://x.com/JoHeidecke/status/1906799330599813432
+    date: 2025-03-31
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-25c9d295
+  - title: Johannes Heidecke on X ("adversarial fine-tuning")
+    publisher: X
+    url: https://x.com/JoHeidecke/status/1906799389139722663
+    date: 2025-03-31
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-f70caca0
+updates:
+  - date: 2025-07-12
+    text: >-
+      Altman delayed the release a week before launch: "we need time to run
+      additional safety tests and review high-risk areas."
+    sources:
+      - title: Sam Altman on X
+        publisher: X
+        url: https://x.com/sama/status/1943837550369812814
+        date: 2025-07-12
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-ad129249
+  - date: 2025-08-05
+    text: >-
+      With gpt-oss, OpenAI published a paper on "malicious fine-tuning." It
+      fine-tuned the model to be as capable as possible at biology and
+      cybersecurity, and found it still underperformed o3, which was below the
+      framework's High level. OpenAI said the results "contributed to our
+      decision to release the model." Former OpenAI safety researcher Steven
+      Adler, a frequent critic, wrote: "Credit where it's due … they actually
+      did some fine-tuning … they got useful external feedback … they shared
+      which recs they adopted and which they didn't."
+    sources:
+      - title: Estimating Worst-Case Frontier Risks of Open-Weight LLMs
+        publisher: OpenAI (arXiv)
+        url: https://arxiv.org/abs/2508.03153
+        date: 2025-08-05
+        type: primary
+        snapshot: snapshots/2026-09-30-arxiv.org-9749249c
+      - title: Steven Adler on X ("Credit where it's due")
+        publisher: X
+        url: https://x.com/sjgadler/status/1952790678175662527
+        date: 2025-08-05
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-ba48a5db
+note: >-
+  Kept. This is the testing that critics said OpenAI's closed models no longer
+  get (see related).

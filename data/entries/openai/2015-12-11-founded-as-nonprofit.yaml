@@ -13,7 +13,11 @@ quote: >-
 summary: >-
   The founding announcement made freedom from profit pressure the reason OpenAI
   existed: because it wouldn't answer to shareholders, it could put humanity's
-  interests first.
+  interests first. In replies that week, OpenAI told a user who asked about
+  investing, "Donating, actually. No equity to exchange here," and repeatedly
+  promised "open-source projects over time." Greg Brockman wrote that OpenAI was
+  "fully separate from any of the for-profit projects of our funders/chairs"
+  and, on openness, that it would "be thoughtful rather than blindly open."
 concreteness: directional
 status: reversed
 patterns: [mission-to-market]
@@ -32,6 +36,36 @@ sources:
     type: reporting
     archive: https://web.archive.org/web/20260905191919/https://techcrunch.com/2015/12/11/non-profit-openai-launches-with-backing-from-elon-musk-and-sam-altman/
     snapshot: snapshots/2026-09-29-techcrunch.com-267b93e2
+  - title: OpenAI on X ("No equity to exchange here")
+    publisher: X
+    url: https://x.com/OpenAI/status/675463059268235264
+    date: 2015-12-11
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-acb873fa
+  - title: OpenAI on X ("many open-source projects over time")
+    publisher: X
+    url: https://x.com/OpenAI/status/675535430498910208
+    date: 2015-12-12
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-0e3898c4
+  - title: OpenAI on X ("lots of open-source code")
+    publisher: X
+    url: https://x.com/OpenAI/status/676275737423425537
+    date: 2015-12-14
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-fe3d2b41
+  - title: Greg Brockman on X ("fully separate")
+    publisher: X
+    url: https://x.com/gdb/status/675919882576359424
+    date: 2015-12-13
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-921b3e5f
+  - title: Greg Brockman on X ("thoughtful rather than blindly open")
+    publisher: X
+    url: https://x.com/gdb/status/677958733733859330
+    date: 2015-12-18
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-32b1a16c
 updates:
   - date: 2026-05-18
     text: >-
@@ -48,6 +82,8 @@ updates:
         url: https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed
         date: 2026-05-18
         type: reporting
+        archive: https://web.archive.org/web/20260927033804/https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed
+        snapshot: snapshots/2026-10-01-npr.org-c27c6d8c
 note: >-
   This promise was structural, not rhetorical: no profit motive. Every later
   restructuring (2019, 2025) has been presented as the way to protect it.

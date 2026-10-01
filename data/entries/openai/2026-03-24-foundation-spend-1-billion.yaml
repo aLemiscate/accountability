@@ -1,0 +1,53 @@
+title: 'Standing promise: the OpenAI Foundation will put at least $1 billion to
+  work within a year'
+date: 2026-03-24
+org: openai
+type: said
+kind: commitment
+who: [openai, bret-taylor]
+venue: OpenAI Foundation, "Update on the OpenAI Foundation"
+quote: >-
+  Over the next year, as we quickly ramp up, the Foundation expects to invest at
+  least $1 billion across life sciences and curing diseases, jobs and economic
+  impact, AI resilience, and community programs.
+summary: >-
+  Five months after the recapitalization, which OpenAI had justified in part by
+  the charitable resources it would give the nonprofit, board chair Bret Taylor
+  set out the Foundation's first spending plan. It covers Alzheimer's
+  research, public health data, high-burden diseases, children and AI,
+  biosecurity and independent model-safety testing. The $1 billion counts
+  toward the $25 billion commitment to curing diseases and AI resilience made in
+  October 2025, which, as Fortune noted, had no time frame. At the
+  recapitalization OpenAI valued the Foundation's stake at about $130 billion.
+concreteness: measurable
+status: open
+breaks_if: >-
+  By the end of March 2027, the Foundation's reporting or filings show less than
+  $1 billion committed or invested; or the $25 billion commitment is reduced,
+  or still has no time frame when the Foundation next reports.
+patterns: []
+related: [2025-10-28-recapitalization-pbc, 2025-10-28-foundation-controls-pbc]
+sources:
+  - title: Update on the OpenAI Foundation
+    publisher: OpenAI Foundation
+    url: https://openaifoundation.org/news/update-on-the-openai-foundation
+    date: 2026-03-24
+    type: primary
+    snapshot: snapshots/2026-09-30-openaifoundation.org-ca9aa9c6
+  - title: Bret Taylor on X
+    publisher: X
+    url: https://x.com/btaylor/status/2036474423998554334
+    date: 2026-03-24
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-1b2b57f8
+  - title: OpenAI Foundation pledges $1 billion to mitigate some of the jobs that it
+      thinks AI will destroy
+    publisher: Fortune
+    url: https://fortune.com/2026/03/25/openai-foundation-1-billion-donation-all-of-humanity/
+    date: 2026-03-25
+    type: reporting
+    snapshot: snapshots/2026-09-30-fortune.com-053ee8b1
+note: >-
+  The $1 billion is less than 1% of the stake's value at the recapitalization.
+  The measure of the nonprofit side of OpenAI's structure is what it actually
+  spends, and this is the first number that can be checked.

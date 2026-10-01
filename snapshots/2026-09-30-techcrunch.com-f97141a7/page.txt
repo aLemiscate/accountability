@@ -1,0 +1,47 @@
+OpenAI says that it’s developing a tool to let creators better control how their content’s used in training generative AI.
+The tool, called Media Manager, will allow creators and content owners to identify their works to OpenAI and specify how they want those works to be included or excluded from AI research and training.
+The goal is to have the tool in place by 2025, OpenAI says, as the company works with “creators, content owners and regulators” toward a standard — perhaps through the industry steering committee it recently joined.
+“This will require cutting-edge machine learning research to build a first-ever tool of its kind to help us identify copyrighted text, images, audio and video across multiple sources and reflect creator preferences,” OpenAI wrote in a blog post . “Over time, we plan to introduce additional choices and features.”
+It’d seem Media Manager, whatever form it ultimately takes, is OpenAI’s response to growing criticism of its approach to developing AI, which relies heavily on scraping publicly available data from the web. Most recently, eight prominent U.S. newspapers including the Chicago Tribune sued OpenAI for IP infringement relating to the company’s use of generative AI, accusing OpenAI of pilfering articles for training generative AI models that it then commercialized without compensating — or crediting — the source publications.
+Generative AI models including OpenAI’s — the sorts of models that can analyze and generate text, images, videos and more — are trained on an enormous number of examples usually sourced from public sites and data sets. OpenAI and other generative AI vendors argue that fair use, the legal doctrine that allows for the use of copyrighted works to make a secondary creation as long as it’s transformative, shields their practice of scraping public data and using it for model training. But not everyone agrees.
+OpenAI, in fact, recently argued that it would be impossible to create useful AI models absent copyrighted material.
+But in an effort to placate critics and defend itself against future lawsuits, OpenAI has taken steps to meet content creators in the middle.
+OpenAI last year allowed artists to “opt out” of and remove their work from the data sets that the company uses to train its image-generating models. The company also lets website owners indicate via the robots.txt standard, which gives instructions about websites to web-crawling bots, whether content on their site can be scraped to train AI models. And OpenAI continues to ink licensing deals with large content owners, including news organizations , stock media libraries and Q&A sites like Stack Overflow .
+Some content creators say OpenAI hasn’t gone far enough, however.
+Artists have described OpenAI’s opt-out workflow for images, which requires submitting an individual copy of each image to be removed along with a description, as onerous. OpenAI reportedly pays relatively little to license content. And, as OpenAI itself acknowledges in the blog post Tuesday, the company’s current solutions don’t address scenarios in which creators’ works are quoted, remixed or reposted on platforms they don’t control.
+Beyond OpenAI, a number of third parties are attempting to build universal provenance and opt-out tools for generative AI.
+Startup Spawning AI , whose partners include Stability AI and Hugging Face, offers an app that identifies and tracks bots’ IP addresses to block scraping attempts, as well as a database where artists can register their works to disallow training by vendors who choose to respect the requests. Steg.AI and Imatag help creators establish ownership of their images by applying watermarks imperceptible to the human eye. And Nightshade , a project from the University of Chicago, “poisons” image data to render it useless or disruptive to AI model training.
+Topics
+AI , OpenAI , Spawning AI
+When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.
+Kyle Wiggers
+AI Editor
+Kyle Wiggers was TechCrunch’s AI Editor until June 2025. His writing has appeared in VentureBeat and Digital Trends, as well as a range of gadget blogs including Android Police, Android Authority, Droid-Life, and XDA-Developers. He lives in Manhattan with his partner, a music therapist.
+View Bio
+October 13 – 15
+San Francisco
+Get 50% off a second pass
+The Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by making connections, building momentum, and discovering what’s next in the startup ecosystem.
+BOOK NOW
+Most Popular
+•
+AMD will acquire Fei-Fei Li’s World Labs for $8.2B
+• Tim Fernholz
+•
+Crusoe abandons $1.25B plan to use Boom turbines at AI data centers
+• Kirsten Korosec
+•
+Astra and Opus just passed Turing’s other test
+• Tim Fernholz
+•
+Oracle sends force majeure notice on its New Mexico Stargate data center
+• Aditya Mehta
+•
+Meta made a Tamagotchi-like wearable for its Muse AI agent
+• Lucas Ropek
+•
+Vogue sent robots down the runway at Vogue World, and people were not impressed
+• Dominic-Madori Davis
+•
+Anthropic says its biology lab has already found something big
+• Julie Bort

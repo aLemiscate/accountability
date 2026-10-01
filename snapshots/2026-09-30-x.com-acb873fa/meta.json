@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/OpenAI/status/675463059268235264",
+  "captured_at": "2026-09-30T04:45:12.675Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "ce5fa7375ed01a4419890ceeb8be7e1294d7c1e3462a9118aa5ce1aa85ff1c27",
+    "page.txt": "e960a82f898c89b285d2fdcd0d51bb41e40d9f32df5a12d8b274e963b6721e11",
+    "post.json": "079aff97f63b7228ab6edb72ffc85205be386b53bca3862192106eb80f886ccd",
+    "syndication.json": "6df28c708339181ede03c5e3b6f5e72a1b86aa97870686f7741482fdc18638e3",
+    "post.txt": "d5a5fddc94cb452d2e979da13c6df70673507188e09d4c39ddc540f6388aa6dc"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/675463059268235264",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"@darkfeign Donating, actually. No equity to exchange here.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "December 11, 2015",
+    "posted_at": "2015-12-11T23:51:57.483Z"
+  }
+}

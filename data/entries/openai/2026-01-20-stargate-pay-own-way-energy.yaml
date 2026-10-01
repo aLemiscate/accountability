@@ -1,0 +1,51 @@
+title: 'Standing promise: Stargate will "pay our own way on energy" so local
+  power bills don''t rise'
+date: 2026-01-20
+org: openai
+type: said
+kind: commitment
+who: [openai]
+venue: Blog post, "Stargate Community"
+quote: >-
+  Across all of our Stargate Community plans, we commit to paying our own way on
+  energy, so that our operations don’t increase your electricity prices.
+summary: >-
+  As public concern grew about data centers driving up electricity prices,
+  OpenAI said each Stargate site would come with a community plan. It would fund
+  the new generation, transmission and grid upgrades its campuses need, or build
+  its own off-grid power, and run its data centers as flexible loads that cut
+  grid use when the grid is stressed. It cited partner arrangements in
+  Wisconsin, Michigan and Texas.
+concreteness: measurable
+status: open
+breaks_if: >-
+  A utility commission, utility filing or credible analysis finds that a
+  Stargate site raised electricity rates for other customers, or that grid costs
+  for a site were passed to ratepayers.
+patterns: []
+related: [2026-02-11-anthropic-cover-electricity-prices, 2025-05-22-stargate-uae]
+sources:
+  - title: Stargate Community
+    publisher: OpenAI
+    url: https://openai.com/index/stargate-community/
+    date: 2026-01-20
+    type: primary
+    archive: https://web.archive.org/web/20260911173714/https://openai.com/index/stargate-community/
+    snapshot: snapshots/2026-10-01-openai.com-205b650a
+  - title: OpenAI pledges to "pay its own way" to power Stargate data centers
+    publisher: DatacenterDynamics
+    url: https://www.datacenterdynamics.com/en/news/openai-pledges-to-pay-its-own-way-to-power-stargate-data-centers/
+    date: 2026-01-21
+    type: reporting
+    snapshot: snapshots/2026-09-30-datacenterdynamics.com-631a6560
+  - title: OpenAI Pledges To Foot Bill For Generating New Power For Stargate Data
+      Centers
+    publisher: Bisnow
+    url: https://www.bisnow.com/national/news/data-center-power/openai-pledges-to-foot-bill-for-new-power-needed-for-stargate-data-centers-132853
+    date: 2026-01-22
+    type: reporting
+    snapshot: snapshots/2026-09-30-bisnow.com-595e72e1
+note: >-
+  Checkable in principle through utility rate cases, but only site by site and
+  over years. Most of the pledge runs through partners' commitments to
+  underwrite infrastructure.

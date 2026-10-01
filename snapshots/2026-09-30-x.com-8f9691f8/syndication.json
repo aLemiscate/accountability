@@ -1,0 +1,48 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 260,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2026-02-11T09:26:36.000Z",
+  "display_text_range": [
+    0,
+    191
+  ],
+  "entities": {
+    "urls": [
+      {
+        "display_url": "on.wsj.com/4kqPO1c",
+        "expanded_url": "https://on.wsj.com/4kqPO1c",
+        "indices": [
+          168,
+          191
+        ],
+        "url": "https://t.co/1TCMTlG1Ya"
+      }
+    ]
+  },
+  "id_str": "2021516206952300619",
+  "text": "Exclusive: OpenAI fired executive Ryan Beiermeister in January, citing sexual discrimination, after she opposed the planned AI erotica feature in ChatGPT, sources said https://t.co/1TCMTlG1Ya",
+  "user": {
+    "id_str": "3108351",
+    "name": "The Wall Street Journal",
+    "screen_name": "WSJ",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/971415515754266624/zCX0q9d5_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2021516206952300619"
+    ],
+    "editable_until_msecs": "1770805596000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 29,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

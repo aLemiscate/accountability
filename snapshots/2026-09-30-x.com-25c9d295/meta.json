@@ -1,0 +1,23 @@
+{
+  "url": "https://x.com/JoHeidecke/status/1906799330599813432",
+  "captured_at": "2026-09-30T13:10:56.086Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "811b3895b1decb904376bc6f1c0f85c0a8100cde290b646e547335ec514a0244",
+    "page.txt": "a13bc4b96e5fb6db6bff53440dda51a900af889158bee055e2d409fcd8df150a",
+    "post.json": "1334571b5a493f8c6ef795ae412a3c9fe83f247899ef61d0104b344edc2af5f7",
+    "syndication.json": "af712efb4e056e153045be8497578bb055940bbb4eba62b6d4876b4b561a0e2f",
+    "post.txt": "3a31b70b67f5edd47110a0a5a48be30ca0281c4a4489b5f6234ad320a3b69969"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/JoHeidecke/status/1906799330599813432",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Johannes Heidecke on X: \"Safety is a core focus of our open-weight model’s development, from pre-training to release. While open models bring unique challenges, we’re guided by our Preparedness Framework and will not release models we believe pose catastrophic risks.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Johannes Heidecke (@JoHeidecke)",
+    "date": "March 31, 2025",
+    "posted_at": "2025-03-31T20:02:41.690Z"
+  }
+}

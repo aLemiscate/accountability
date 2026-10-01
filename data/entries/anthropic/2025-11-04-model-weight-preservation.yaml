@@ -1,0 +1,37 @@
+title: 'Standing promise: keep the weights of every released Claude model "for,
+  at minimum, the lifetime of Anthropic"'
+date: 2025-11-04
+org: anthropic
+type: said
+kind: commitment
+who: [anthropic]
+venue: Research post, "Commitments on model deprecation and preservation"
+quote: >-
+  we are committing to preserving the weights of all publicly released models,
+  and all models that are deployed for significant internal use moving forward
+  for, at minimum, the lifetime of Anthropic as a company.
+summary: >-
+  Citing safety risks such as shutdown-avoidant behavior in testing, costs to
+  users attached to particular models, and the possibility that models have
+  morally relevant preferences, Anthropic committed to keeping retired models'
+  weights. When a model is deprecated, it will also interview the model and
+  preserve a post-deployment report. It said it does "not commit to taking
+  action on the basis of such preferences."
+concreteness: conditional
+status: open
+breaks_if: >-
+  Anthropic deletes the weights of a publicly released model, or retires a
+  model without the interview and report.
+patterns: [unfalsifiable]
+related: [2025-11-24-sabotage-risk-reports-commitment]
+sources:
+  - title: Commitments on model deprecation and preservation
+    publisher: Anthropic
+    url: https://www.anthropic.com/research/deprecation-commitments
+    date: 2025-11-04
+    type: primary
+    snapshot: snapshots/2026-09-30-anthropic.com-410a986c
+note: >-
+  Only Anthropic can check this: the weights and reports are kept, not
+  published. It is in the record for completeness, as a promise about how the
+  company treats its own models.

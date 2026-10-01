@@ -1,0 +1,41 @@
+Anthropic’s Project Glasswing is approaching 5 months old, and Anthropic published its Vulnerability Disclosure Ledger on May 22nd. It hadn't received an update until this past week, when it backfilled the ledger with additional findings and updates, so naturally I thought it would be worthwhile to take a look at the receipts.
+For a bit more context, I've been tracking Project Glasswing since they launched the project on April 7, and have published a series of blog posts covering the project:
+Tracking CVEs Attributed to Anthropic Researchers and Project Glasswing - April 15, 2026
+Observations on Anthropic’s Vulnerability Disclosure Ledger - June 9, 2026
+1H-2026 State of Exploitation Report: Has Anthropic Glasswing Lived Up to the Hype it Brought This Year? - July 28, 2026
+A Look at Anthropic’s Receipts
+Since that launch, Anthropic claims to have discovered 26,153 findings. Of those, only 2,736 (10.5%) have reached its disclosure ledger. Of the total volume of Glasswing findings, only 202 (0.8%) have been fixed, 245 (0.9%) have been withdrawn, and 2 (0.01%) are marked as duplicates. 2,096 (8%) have been reported to the maintainer (marked as disclosed, but not confirmed as fixed), and 191 (0.7%) are in the ledger but appear not to have been reported to the maintainer (marked as pre-disclosure).
+The Vulnerabilities Don’t Just Fix Themselves with AI?
+So five months into Project Glasswing, only 9.8% of the findings have made it to a project maintainer, which highlights a challenge the team likely didn't anticipate when it launched: validating, coordinating, and fixing vulnerabilities still requires human triage.
+Anthropic acknowledges these limiting factors in its own ledger:
+The number of vulnerabilities we've disclosed is a subset of the total number of vulnerabilities that Mythos Preview (and other Claude models) has found, since the process of independent human triage and review is the rate limiting step.
+Anthropic
+Cross-Checking Anthropic's True Positive Rate
+Five months into the project, the 202 fixed findings in the ledger span 113 unique projects, resulting in an average of just 1.79 fixed findings per project. The ledger has more withdrawn/duplicate findings than fixed vulnerabilities, which makes me question Anthropic's 91.4% true-positive claim.
+That made me take a look back at a blog from our friend Daniel Stenberg, “Mythos Finds a Curl Vulnerability" . The results in the ledger appear to align with Daniel's experience, where five findings reported by Mythos became one. This included three false positives, one bug that wasn't a vulnerability, and one confirmed vulnerability.
+So a few considerations here that maybe aren't so clear-cut for Glasswing/Mythos, and that maintainers are in a position to answer when triaging vulnerability findings:
+• Is the finding an actual vulnerability?
+• Is the vulnerability real?
+• Maybe it's just a bug?
+• Is the component reachable?
+• Was the vulnerability already discovered? (The longer it takes to report vulnerabilities to maintainers, the more likely this becomes.)
+• Is the vulnerability outside the project's security boundary?
+Are Project Glasswing Discovered Vulnerabilities as Severe as Claude Claims?
+In the initial Project Glasswing report, Anthropic emphasized discovering thousands of critical and high findings. The project used Claude to score severity, and the ledger now provides visibility into both the Claude severity rating and the software maintainers’ severity rating. The data shows that Claude’s assessment of the vulnerability severity appears to be overestimated. For the current findings with both Claude and maintainer severity, Claude determined a critical or high severity for 91.5% of findings, while the maintainer determined only 51.3% as critical or high.
+One thing to consider is that the vulnerability severity could be much more accurate using AI but it’s likely that a generic determination is being made by the model rather than a well-crafted prompt written by someone with subject matter expertise on severity determination. It’s also disappointing that the project doesn’t provide the CVSS metrics used to determine the severity in the ledger itself, so it’s hard to understand what the root cause is of the severity gap between Claude and the software maintainers.
+Already Patched Before Anthropic Reported
+Across the Ledger, 18 revealed findings were patched before Anthropic reported the vulnerability to the maintainer. This isn’t particularly surprising given the volume of findings that Anthropic is sitting on, which highlights the importance of reporting these vulnerabilities relatively quickly. Given that less than 10% of the findings have been reported to maintainers, I suspect this issue will compound over time as findings age and maintainers or other researchers find and fix them on their own. We've seen how AI-discovered vulnerabilities contribute to research collisions where multiple researchers report the same vulnerability.
+Example Finding https://red.anthropic.com/2026/cvd/findings/ANT-2026-B4Z27MGE
+Other discrepancies in the data
+A Mismatch in Findings
+Anthropic’s own dashboard states 421 findings patched upstream, resulting in 462 advisories (GHSA/CVEs assigned); however, the ledger itself shows only 202 fixed findings.
+If we look at the GHSA ledger, CVE ledger, and main ledger (yes, there are three), the numbers also don’t add up. The CVE ledger lists 70 CVEs while the main ledger has 82 CVEs. The GHSA ledger lists 49 GHSAs, while the main ledger lists 77 GHSAs. None of which add up to the claim of 421 findings fixed upstream.
+So this makes me wonder whether the ledger is AI-assisted and under-reviewed. Likely a combination of the two.
+Infrequent Bulk Updates Result in Misleading Timestamps
+The Ledger has received only two bulk updates, so results are not published in real time. It’s worth highlighting that while the ledger has a public reveal date, that date doesn’t reflect the actual day the finding was revealed in the ledger as we saw with the recent update.
+Takeaways from the Anthropic Glasswing Ledger After 5 Months
+Don’t discount the reality that AI tools like Claude are incredibly valuable and useful tools for discovering vulnerabilities. AI can help accelerate the discovery of bugs and vulnerabilities in software, as the evidence I've discussed across software suppliers and the CVE program shows. This blog aims to better understand the claims that Anthropic and other frontier model providers have made about Project Glasswing, and to see if the evidence aligns with those claims. It appears there are many discrepancies in the data they've published, which is still a small fraction of the findings after five months. The receipts are starting to trickle in, they just don’t reconcile.
+About VulnCheck
+VulnCheck is helping organizations not just to solve the vulnerability prioritization challenge - we’re working to help equip any product manager, CSIRT/PSIRT or SecOps team and Threat Hunting team to get faster and more accurate with infinite efficiency using VulnCheck solutions.
+We knew that we needed better data, faster across the board, in our industry. So that’s what we deliver to the market. We’re going to continue to deliver key insights on vulnerability management, exploitation and major trends we can extrapolate from our dataset to continuously support practitioners.
+Are you interested in learning more? If so, VulnCheck's Exploit & Vulnerability Intelligence has broad threat actor coverage. Register and demo our data today.

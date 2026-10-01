@@ -1,0 +1,55 @@
+title: 'Standing promise: Altman says OpenAI will also give independent
+  evaluators "employee-like access"'
+date: 2026-09-12
+org: openai
+type: said
+kind: commitment
+who: [sam-altman, openai]
+venue: Post on X
+quote: >-
+  Committing to having independent evaluators with employee-like access is a
+  great idea, and we will do the same. We'll have more to share soon.
+summary: >-
+  Replying to Dario Amodei's essay "We Must Pace the Frontier," in which
+  Anthropic committed on its own to embed third-party evaluators with access
+  "mostly comparable" to its internal risk teams and the right to publish
+  their findings, Altman said OpenAI would do the same. Four days later
+  TechCrunch reported that neither company had said which evaluators it would
+  work with, when they would start, or what they could see or publish. On
+  Sept. 18 more than 100 AI experts and evaluators, organized by the AI
+  Evaluator Forum, published a letter warning that evaluators lacked the
+  resources and protections to do the job.
+concreteness: directional
+status: open
+breaks_if: >-
+  No independent evaluators are working inside OpenAI with access comparable to
+  its own risk staff by March 2027 (the same date this record applies to
+  Anthropic); or OpenAI's arrangement lets it block unfavorable findings or
+  omits the right to publish that Anthropic's includes.
+patterns: []
+related: [2026-09-12-pace-the-frontier-embedded-evaluators, 2026-08-18-altman-pause-act-unilaterally]
+sources:
+  - title: Sam Altman on X ("we will do the same")
+    publisher: X
+    url: https://x.com/sama/status/2098811563415150910
+    date: 2026-09-12
+    type: primary
+    archive: https://web.archive.org/web/20260924090528/https://x.com/sama/status/2098811563415150910
+    snapshot: snapshots/2026-09-29-x.com-f914fd7d
+  - title: Anthropic and OpenAI want to embed safety evaluators. Will they really be
+      independent?
+    publisher: TechCrunch
+    url: https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/
+    date: 2026-09-16
+    type: reporting
+    snapshot: snapshots/2026-09-30-techcrunch.com-0b10385b
+  - title: Anthropic and OpenAI need truly independent safety evaluators, experts
+      say in public letter
+    publisher: CNBC
+    url: https://www.cnbc.com/2026/09/18/ai-safety-evaluators-anthropic-openai-models-security.html
+    date: 2026-09-18
+    type: reporting
+    snapshot: snapshots/2026-09-30-cnbc.com-13a02294
+note: >-
+  Altman's version has no details yet; Anthropic's names the access and the
+  right to publish. Both are held to the same deadline here.

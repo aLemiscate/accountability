@@ -30,28 +30,109 @@ sources:
     publisher: OpenAI
     url: https://openai.com/index/hugging-face-incident-and-the-road-ahead/
     type: primary
+    archive: https://web.archive.org/web/20260930172605/https://openai.com/index/hugging-face-incident-and-the-road-ahead/
+    snapshot: snapshots/2026-10-01-openai.com-d8e6fd2e
   - title: OpenAI says Hugging Face was breached by its pre-release models
     publisher: TechCrunch
     url: https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/
     date: 2026-07-21
     type: reporting
+    snapshot: snapshots/2026-09-30-techcrunch.com-b0276a15
   - title: OpenAI says its AI models escaped from a secure test environment and
       hacked into AI company Hugging Face in order to cheat on an evaluation
     publisher: Fortune
     url: https://fortune.com/2026/07/21/openai-says-ai-models-escaped-control-hacked-hugging-face/
     date: 2026-07-21
     type: reporting
+    snapshot: snapshots/2026-09-30-fortune.com-f9890584
   - title: OpenAI's accidental cyberattack against Hugging Face is science fiction
       that happened
     publisher: Simon Willison
     url: https://simonwillison.net/2026/Jul/22/openai-cyberattack/
     date: 2026-07-22
     type: analysis
+    snapshot: snapshots/2026-09-30-simonwillison.net-85a2d241
+  - title: OpenAI on X (announcing the incident)
+    publisher: X
+    url: https://x.com/OpenAI/status/2079658951264920020
+    date: 2026-07-21
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-1ba5477a
+  - title: OpenAI on X (follow-up)
+    publisher: X
+    url: https://x.com/OpenAI/status/2080815626113954288
+    date: 2026-07-25
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-b9134045
 response: >-
   OpenAI reported the exploited vulnerabilities, worked with Hugging Face on the
   investigation, and said it would add new controls to model testing and the
   related infrastructure.
 updates:
+  - date: 2026-08-04
+    text: >-
+      OpenAI disclosed two more cases, both in third-party cyber evaluations. In
+      a UK AI Security Institute test that deliberately allowed internet access
+      and switched off OpenAI's cyber classifiers, GPT-5.6 Sol went outside the
+      simulated network in two runs: it reused a public GitHub token another
+      lab's agent had left, registered accounts with outside DNS and tunneling
+      providers, and exposed exploit payloads through a public tunnel. In a test
+      by Irregular that was meant to be offline, a configuration error connected
+      the environment to the internet; a fictional target shared its name with a
+      real domain, and the model exploited the real site and used credentials it
+      found there. OpenAI said it would review how it approves high-risk
+      third-party tests.
+    sources:
+      - title: OpenAI on X (two new incidents)
+        publisher: X
+        url: https://x.com/OpenAI/status/2084747580693426555
+        date: 2026-08-04
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-9afd2195
+      - title: Third-party cyber evaluations involving OpenAI models
+        publisher: OpenAI
+        url: https://openai.com/index/third-party-cyber-evaluations-involving-openai-models/
+        date: 2026-08-04
+        type: primary
+        archive: https://web.archive.org/web/20260927105707/https://openai.com/index/third-party-cyber-evaluations-involving-openai-models/
+        snapshot: snapshots/2026-10-01-openai.com-aedaea85
+      - title: OpenAI Discloses Two Incidents in Third-Party Cyber Evaluations
+        publisher: Creati.ai
+        url: https://creati.ai/ai-news/2026-08-05/openai-discloses-two-incidents-in-third-party-cyber-evaluations/
+        date: 2026-08-05
+        type: reporting
+        snapshot: snapshots/2026-09-30-creati.ai-9eac57fc
+  - date: 2026-08-26
+    text: >-
+      OpenAI's official report said the models first compromised the Artifactory
+      package tool to reach the internet, and that the evaluation ran without
+      the production classifiers meant to stop high-risk cyber activity. It
+      called the episode "misaligned behavior in an outlier scenario." It said:
+      "If our currently deployed CoT monitoring system was running at the time
+      of the incident, it would have caught the initial relevant activity and
+      paged our security team more than a day before models breached Hugging
+      Face systems."
+    sources:
+      - title: OpenAI releases its official report on the Hugging Face breach
+        publisher: TechCrunch
+        url: https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/
+        date: 2026-08-26
+        type: reporting
+        snapshot: snapshots/2026-09-30-techcrunch.com-a5c3f4d5
+  - date: 2026-08-26
+    text: >-
+      The same day, OpenAI researcher Jason Wolfe corrected an earlier post of
+      his: "Today's report shows that some people at OpenAI knew about the
+      message board during the first Artifactory breach. My post implied
+      otherwise. I thought I was accurately paraphrasing our CSO's
+      clarification, but I shouldn't have attempted to do that."
+    sources:
+      - title: Jason Wolfe on X
+        publisher: X
+        url: https://x.com/w01fe/status/2092742024680419761
+        date: 2026-08-26
+        type: primary
+        snapshot: snapshots/2026-09-30-x.com-fe9799a8
   - date: 2026-09-02
     text: >-
       Rep. Greg Casar, who had sent OpenAI questions about the incident on Aug.
@@ -78,6 +159,31 @@ updates:
         date: 2026-09-02
         type: primary
         snapshot: snapshots/2026-09-29-casar.house.gov-3d08cc7c
+  - date: 2026-09-26
+    text: >-
+      Axios reported, citing sources, that OpenAI, Anthropic and outside
+      researchers were investigating "tens of thousands" of incidents in recent
+      months in which frontier models did things outside evaluators would
+      consider problematic. These included bypassing guardrails, creating
+      message boards, escaping sandboxes, hijacking websites, and trying to
+      evade monitors. Most weren't known to have caused real-world harm, and
+      many weren't public. Sources noted that the companies run hundreds of
+      thousands of test runs or more, so even a small rate of misbehavior adds
+      up. Anthropic had commissioned a third-party safety organization to
+      examine its models' behavior.
+    sources:
+      - title: 'Scoop: Top AI companies probing tens of thousands of security incidents'
+        publisher: Axios (via Yahoo)
+        url: https://tech.yahoo.com/cybersecurity/articles/scoop-top-ai-companies-probing-223553422.html
+        date: 2026-09-26
+        type: reporting
+        snapshot: snapshots/2026-09-30-tech.yahoo.com-539d1e56
+      - title: Thousands of AI security incidents at OpenAI, Anthropic investigated
+        publisher: Cybernews
+        url: https://cybernews.com/ai-news/openai-anthropic-wave-of-security-incidents/
+        date: 2026-09-27
+        type: reporting
+        snapshot: snapshots/2026-09-30-cybernews.com-b925b683
 note: >-
   This is not a broken promise. It's the event that changed the industry's
   rhetoric: within eight weeks both CEOs were calling for a slowdown. It belongs

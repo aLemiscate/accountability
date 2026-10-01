@@ -1,0 +1,128 @@
+AI + ML
+New York Times lawyers claim OpenAI accidentally deleted evidence in copyright case
+Probably not intentional, but '150 person-hours' of work were still lost
+Brandon Vigliarolo
+Brandon
+Vigliarolo
+Published
+thu 21 Nov 2024 // 22:45 UTC
+UPDATED The New York Times has filed a letter in its copyright infringement case against OpenAI and Microsoft, alerting the court that the ChatGPT maker accidentally deleted a bunch of data that may have been evidence.
+The letter [PDF], filed yesterday in the Southern District of New York by lawyers for the Times, asserts that OpenAI engineers deleted "all of News Plaintiffs' programs and search result data" from one of two virtual machines set up for the purpose of allowing the plaintiffs to scour OpenAI training data for copyrighted material.
+The lawsuit in question was filed in late 2023, alleging that OpenAI and Microsoft used articles from the Times to train ChatGPT and other models and readily displayed the content of articles from the newspaper when asked - all without permission, the Times claimed.
+REG AD
+"OpenAI has provided the News Plaintiffs with two dedicated virtual machines with improved computing resources for performing their searches, and News Plaintiffs have spent an additional 150 person-hours (and even more computing hours) since November 1 searching OpenAI's training data," lawyers Ian Crosby and Steven Lieberman said in the letter.
+REG AD
+"While OpenAI was able to recover much of the data that it erased, the folder structure and file names of the News Plaintiffs' work product have been irretrievably lost," the document continued. "Without the folder structure and original final names, the recovered data is unreliable and cannot be used to determine where the News Plaintiffs' copied articles were used to build Defendants' models."
+As a result, the plaintiffs have been forced to redo "an entire week's worth of its experts' and lawyers' work," the letter asserted. There's no assertion that OpenAI deleted the data on purpose, mind you, with the Times' lawyers saying that they "have no reason to believe [it] was intentional."
+MORE CONTEXT
+•
+OpenAI to reveal secret training data in copyright case – for lawyers' eyes only
+•
+OpenAI claims New York Times paid someone to 'hack' ChatGPT
+•
+New York Times: OpenAI's claim we 'hacked' its products both 'irrelevant' and 'false'
+•
+Microsoft: Copyright law didn't stop the VCR and shouldn't stop the LLM
+Crosby and Lieberman did note in the letter that the incident "underscore[s] that OpenAI is in the best position to search its own datasets for the News Plaintiffs' works using its own tools and equipment," but argue OpenAI hasn't been receptive to such requests.
+"Since the last hearing, the News Plaintiffs have sent OpenAI information for OpenAI to perform two separate searches on the News Plaintiffs' behalf," claiming that the requests were sent on November 4 and 13. "To date, the News Plaintiffs have not received results from either those searches, or confirmation that OpenAI has started them."
+Because OpenAI hasn't committed to conducting searches "in a timely manner," The Times' lawyers are requesting that the court order OpenAI "to identify and admit which of the News Plaintiffs' works it used" and save it the burden of digging through the digital stacks itself.
+"We disagree with the characterizations made and will file our response soon," OpenAI told The Register , while declining to elaborate on which portion it disagreed with - the deletion claim or the non-response to query requests.
+A response hasn't been filed as of writing. ®
+Updated to add on November 26
+REG AD
+OpenAI has filed a letter [PDF] in response to The Times’ claims, alleging that not only did it not delete data, but also blaming the newspaper for the whole fiasco.
+“OpenAI did not delete any evidence. What happened? plaintiffs requested a configuration change [that] resulted in removing the folder structure and some file names on one hard drive,” OpenAI’s lawyers explained. “A drive that was supposed to be used as a temporary cache for storing OpenAI data, but evidently was also used by plaintiffs to save some of their search results (apparently without backups).”
+OpenAI added that the folks doing the searching on behalf of The Times had numerous issues using the provided machine, “repeatedly running flawed code that overwhelmed and crashed the file system.”
+Rather than refusing to collaborate with the Times to conduct searches for copyrighted material, OpenAI also claimed it had offered to take over the search efforts “provided plaintiffs supply clear and reasonable proposals,” which it claims it hasn’t received.
+“OpenAI stands ready to conduct reasonable searches,” the lawyers said. “Plaintiffs’ focus, however, must shift from manufacturing conflicts to achieving solutions.”
+OpenAI has asked the judge to order both parties to “meet and confer on search proposals” to resolve the issue.
+ai and ml
+software
+ai
+chatgpt
+openai
+microsoft
+lawsuit
+REG AD
+7 in 10 enterprises expected to abandon vendor-built agentic AI by 2028
+Build it, bill it, bin it as forward-deployed engineering leaves customers dependent on outside expertise
+Apple makes the AirPods 5 slightly less hostile to repair
+Replaceable earbud batteries lift iFixit score from zero to a dizzying two out of ten
+Huawei Cloud Rolls Out Enterprise AI Products Across the Board, Building an Open Agentic Cloud
+PARTNER CONTENT: Huawei Cloud strengthens the silicon bedrock on the cloud
+Drunk Van Halen fan called Microsoft support and demanded to speak to Gates
+A broken Java applet had one FrontPage user ready for an Eruption
+AWS needs to embrace its place as the Home Depot of AI infrastructure
+What's wrong with being a great wholesaler?
+America is planning more AI datacenters than its chip supply can fill
+Satellite imagery shows construction accelerating, but advanced packaging could cap 2027 deployment in the low 20s of gigawatts
+TOP STORIES
+•
+Astronomer watches Starlink satellites sinking to build a ‘planetary barometer’
+•
+EXCLUSIVE
+Microsoft tells nonprofits their deleted M365 data isn't coming back
+•
+ShinyHunters claims FBI hack: 'This is NOT financially motivated'
+•
+Google ending ChromeOS support two years early
+•
+AI models keep posting screenshots showing sensitive data from inside tech companies
+•
+DoJ: Uncle Sam bought forensics software from same Russian operation supplying FSB
+AI
+•
+Add one more AI worry to the nightmare scenario: self-replicating prompt injections
+It's a worm attack, AI-style
+•
+Zuckerberg touts enterprise AI push because Meta would never do anything to damage your reputation
+New business unit to be led by former MongoDB CEO 'CJ' Desai
+•
+AMD's 192 GB Gorgon Halo prices might leave you petrified
+Regular pricing starts at $6,799 - all that memory doesn't come cheap
+•
+Schneider gives datacenter switchgear the software-defined treatment
+Equinix pilot promises faster deployment and over-the-air upgrades without downtime, provided the code behaves itself
+•
+Investors are pricing in a 32.6% AI productivity boost for software engineers
+Economists turn stock movements into an estimate of anticipated gains – while warning that markets can get carried away
+Infosec
+•
+Security
+Russians are posing as Signal support to launch phishing attacks
+PLUS: US takes down Iranian propaganda sites; Marketing company asks 'Why Do We Have Your Information?' And more!
+•
+Security
+Microsoft patches failed to fix on-prem SharePoint, which is now under zero-day attack
+PLUS: China upgrades smartphone surveillance tools; Ring eases anti-snooping stance; and more
+•
+Black Hat and DEF CON
+DEF CON Franklin project enlists hackers to harden critical infrastructure
+Voting village reports have been so successful, says Jeff Moss, that the whole of DEF CON will now be included
+•
+Security
+EQT buys majority share in Swiss cybersecurity biz Acronis
+Went at equivalent of $3.5B+ valuation for entire firm, though portion sold not specified
+•
+Malware Month
+Ten years since the first corp ransomware, Mikko Hyppönen sees no end in sight
+On the plus side, infosec's a good bet for a long, stable career
+FOSS
+•
+KDE turns 30 and someone's brought an AI-native desktop proposal
+Akademy talk imagines Plasma assembling itself around a personal model of each user
+•
+Shopify extends lifeline to Tailwind as vibe coding erodes web dev platform's bottom line
+Acquisition gives open source CSS framework 'a stable long-term home'
+•
+Switzerland tests a FOSS escape route from Microsoft 365
+Swiss Army sticks a knife in American cloud apps with its own FOSS push
+•
+Feel peak Windows was 7? You might like Kumander Linux
+Debian and Xfce – solid, sensible choices – with a pretty skin
+•
+Canonical shuttering some of its legacy chat channels
+The Ubuntu Pastebin went in June, IRC gets demoted next
+•
+Audacity audio-editing app no longer looks like it's from the early 2000s
+The FOSS tool for audio editing has a fresh coat of paint, and new features to boot

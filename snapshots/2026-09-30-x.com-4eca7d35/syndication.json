@@ -1,0 +1,42 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 181,
+  "lang": "en",
+  "created_at": "2024-09-29T21:06:48.000Z",
+  "display_text_range": [
+    0,
+    119
+  ],
+  "entities": {},
+  "id_str": "1840498486816723349",
+  "text": "Glad SB 1047 was vetoed. Premature regulation is like premature optimization: feels good but hinders optimal solutions.",
+  "user": {
+    "id_str": "134318947",
+    "name": "Peter Welinder",
+    "screen_name": "npew",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1527047003984629761/6ZfqcDtO_normal.jpg"
+  },
+  "edit_control": {
+    "initial_tweet_id": "1840497593035735245",
+    "edit_tweet_ids": [
+      "1840497593035735245",
+      "1840498486816723349"
+    ],
+    "editable_until_msecs": "1727647395000",
+    "edits_remaining": "4",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 10,
+  "news_action_type": "conversation",
+  "isEdited": true,
+  "isStaleEdit": false,
+  "previous_counts": {
+    "favorite_count": 2,
+    "quote_count": 0,
+    "reply_count": 0,
+    "retweet_count": 0
+  }
+}
