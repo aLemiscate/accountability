@@ -161,3 +161,35 @@
   watch_for: >-
     The next data, memory or advertising-personalization change will probably
     arrive as an opt-out default.
+
+- id: safeguards-on-paper
+  name: Safeguards on Paper
+  thesis: >-
+    A safety case rests on a safeguard or a training practice described as in
+    place. Later it turns out the safeguard was switched off, misconfigured,
+    bypassed or not followed, sometimes for months and sometimes in models
+    already released.
+  tells:
+    - A safety argument that depends on a control nobody outside can see running.
+    - Disclosures that blame a flag, a misconfiguration, a vendor or a "training error".
+    - '"Accidentally" or "unintentionally" applied to models already in public use.'
+  watch_for: >-
+    For each safeguard a launch relies on, ask how the company would know if it
+    stopped working, and how quickly. The next gap will probably be found by an
+    audit after the fact or by outside researchers, not by the safeguard's own
+    monitoring.
+
+- id: told-last
+  name: Told Last
+  thesis: >-
+    The public, regulators or the people affected learn about a breach, an
+    incident or a risky launch from the press, outside researchers or a later
+    document, not from the company at the time it knew.
+  tells:
+    - A breach or incident first reported by journalists, researchers or the victim.
+    - Safety documentation published weeks after the product it describes.
+    - A disclosure policy written after an incident has already gone public.
+  watch_for: >-
+    Compare the date the company learned of a problem with the date it said so
+    publicly. The next serious incident will probably surface through a third
+    party first.

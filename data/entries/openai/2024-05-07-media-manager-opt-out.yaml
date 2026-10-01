@@ -18,7 +18,7 @@ status: broken
 breaks_if: >-
   No Media Manager, or equivalent tool that lets creators identify their works
   across sources and exclude them from training, launches by the end of 2025.
-patterns: []
+patterns: [take-first]
 related: [2024-01-08-training-is-fair-use, 2025-09-30-sora-2-opt-out-and-likeness]
 sources:
   - title: OpenAI says it's building a tool to let content creators 'opt out' of AI

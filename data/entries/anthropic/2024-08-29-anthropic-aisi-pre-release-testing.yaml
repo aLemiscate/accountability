@@ -18,7 +18,7 @@ status: kept
 breaks_if: >-
   A major Anthropic model ships without the government institute having had
   pre-release access.
-patterns: []
+patterns: [unfalsifiable]
 related: [2024-08-29-aisi-pre-release-testing, 2023-07-21-anthropic-white-house-commitments]
 sources:
   - title: OpenAI and Anthropic agree to let U.S. AI Safety Institute test and

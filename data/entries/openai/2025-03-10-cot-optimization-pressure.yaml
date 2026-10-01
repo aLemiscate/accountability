@@ -22,7 +22,7 @@ status: contradicted
 breaks_if: >-
   OpenAI trains released models with rewards computed from their chains of
   thought, or drops the policy.
-patterns: []
+patterns: [safeguards-on-paper]
 related: [2026-08-14-risk-report-classifier-gap]
 sources:
   - title: OpenAI on X ("Detecting misbehavior in frontier reasoning models")

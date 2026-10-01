@@ -22,7 +22,7 @@ breaks_if: >-
   OpenAI ships a model that its own testers or system card flagged for a
   behavior problem of this kind and then has to roll it back or patch it; or it
   documents a known behavior regression in a system card and ships anyway.
-patterns: []
+patterns: [ship-then-patch]
 related:
   [
     2025-04-29-gpt-4o-sycophancy-rollback,

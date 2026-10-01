@@ -21,7 +21,7 @@ breaks_if: >-
   A paid placement appears inside ChatGPT's own answer text, or ChatGPT
   recommends a product in its answer because of an advertiser relationship,
   instead of in a separate, labeled ad unit.
-patterns: []
+patterns: [unfalsifiable]
 related: [2026-01-16-ad-principles, 2026-02-04-claude-ad-free]
 sources:
   - title: Sam Altman on X

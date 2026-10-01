@@ -141,12 +141,73 @@
   const stamp = (type) => h('span', { class: `stamp ${type}` }, type === 'said' ? 'Said' : 'Did');
   const statusPill = (s) => h('span', { class: `pill s-${s}`, title: STATUS_DEF[s] }, STATUS_LABEL[s] || s);
   const concretePill = (c) => c && h('span', { class: 'pill c', title: CONCRETE_DEF[c] }, c);
-  const patternChips = (ids) => ids.map((p) => h('button', {
+  /** Pattern tags. Clicking one follows that pattern (filters every view); clicking it again stops. */
+  const patternChips = (ids, toView) => ids.map((p) => h('button', {
     class: 'chip',
     type: 'button',
-    title: `Filter by pattern: ${patternById.get(p)?.name}`,
-    onclick: (ev) => { ev.stopPropagation(); setFilter({ pattern: p }); },
+    'aria-pressed': String(state.pattern === p),
+    title: state.pattern === p ? 'Stop following this pattern' : `Follow this pattern: ${patternById.get(p)?.name}`,
+    onclick: (ev) => { ev.stopPropagation(); setFilter({ pattern: state.pattern === p ? '' : p }, toView); },
   }, patternById.get(p)?.name || p));
+  const FAILED = new Set(['broken', 'reversed', 'eroded', 'contradicted']);
+  /** How the statements in a set of entries turned out, e.g. "4 didn't hold · 1 standing · 2 actions". */
+  function outcomeTally(entries) {
+    const said = entries.filter((e) => e.type === 'said');
+    const parts = [
+      [said.filter((e) => FAILED.has(e.status)).length, 'didn’t hold', 'fail'],
+      [said.filter((e) => e.status === 'open').length, 'standing', 'standing'],
+      [said.filter((e) => e.status === 'kept').length, 'held', 'held'],
+    ].filter(([n]) => n > 0);
+    const did = entries.length - said.length;
+    return h('span', { class: 'tally' },
+      parts.map(([n, word, tone]) => h('span', { class: `t-${tone}` }, `${n} ${word}`)),
+      did > 0 && h('span', null, `${did} action${did === 1 ? '' : 's'}`));
+  }
+  const yearSpan = (entries) => {
+    const ys = entries.map((e) => +String(e.date).slice(0, 4));
+    const lo = Math.min(...ys);
+    const hi = Math.max(...ys);
+    return lo === hi ? String(lo) : `${lo}–${hi}`;
+  };
+  /** Shown above a view while a pattern is being followed: what the pattern is and how its entries turned out. */
+  function patternBrief(entries) {
+    const p = patternById.get(state.pattern);
+    if (!p) return null;
+    const orgs = ['openai', 'anthropic'].map((o) => [o, entries.filter((e) => e.org === o).length]).filter(([, n]) => n);
+    return h('section', { class: 'pbrief', 'aria-label': `Following the pattern ${p.name}` },
+      h('div', { class: 'pbrief-head' },
+        h('span', { class: 'label' }, 'Following a pattern'),
+        h('span', { class: 'spacer' }),
+        h('button', { class: 'clear label', type: 'button', onclick: () => { location.hash = `p-${p.id}`; } }, 'All patterns'),
+        h('button', { class: 'clear label', type: 'button', onclick: () => setFilter({ pattern: '' }) }, 'Stop following')),
+      h('h3', null, p.name),
+      h('p', null, p.thesis),
+      entries.length > 0 && h('p', { class: 'pbrief-meta' },
+        h('span', null, `${entries.length} entr${entries.length === 1 ? 'y' : 'ies'}, ${yearSpan(entries)}`),
+        h('span', { class: 'pbrief-orgs' }, orgs.map(([o, n]) => h('span', { class: 'org' }, h('span', { class: `org-mark ${o}`, 'aria-hidden': 'true' }), `${orgName(o)} ${n}`))),
+        outcomeTally(entries)),
+      (p.tells?.length > 0 || p.watch_for) && h('details', null,
+        h('summary', { class: 'label' }, 'Tells, and what to expect if it holds'),
+        p.tells?.length > 0 && h('ul', null, p.tells.map((t) => h('li', null, t))),
+        p.watch_for && h('div', { class: 'forecast' }, h('span', { class: 'label' }, 'If the pattern holds (analysis)'), h('p', null, p.watch_for))),
+    );
+  }
+  /** A row of every pattern with its count, for picking one to follow from the timeline. */
+  function patternStrip() {
+    const saved = state.pattern;
+    state.pattern = '';
+    const pool = D.entries.filter(matches);
+    state.pattern = saved;
+    const rows = D.patterns.map((p) => [p, pool.filter((e) => e.patterns.includes(p.id)).length]).filter(([, n]) => n);
+    const untagged = pool.filter((e) => !e.patterns.length).length;
+    return h('div', { class: 'pstrip', role: 'group', 'aria-label': 'Follow a pattern' },
+      h('span', { class: 'label' }, 'Follow a pattern'),
+      h('div', { class: 'pstrip-chips' }, rows.map(([p, n]) => h('button', {
+        class: 'chip', type: 'button', 'aria-pressed': String(state.pattern === p.id),
+        onclick: () => setFilter({ pattern: state.pattern === p.id ? '' : p.id }),
+      }, p.name, h('span', { class: 'n' }, n)))),
+      !state.pattern && untagged > 0 && h('span', { class: 'pstrip-note' }, `${untagged} of ${pool.length} entries fit no pattern yet and appear only in the full timeline.`));
+  }
   const snapDate = (dir) => (/(\d{4}-\d{2}-\d{2})/.exec(dir || '') || [])[1];
   const quoteBlock = (text, e) => text && h('div', { class: 'quote-wrap' },
     h('blockquote', { class: 'quote' }, `“${text.trim()}”`),
@@ -171,7 +232,8 @@
   function renderReceipts() {
     const list = allReceipts.filter(receiptMatches);
     const frag = [viewHead('Receipts',
-      'Each receipt pairs a public statement with a later action that contradicts it, or a policy text with its quiet rewrite. Between them is the time from the words to the deed.')];
+      'Each receipt pairs a public statement with a later action that contradicts it, or a policy text with its quiet rewrite. Between them is the time from the words to the deed.'),
+    patternBrief(D.entries.filter(matches))];
     if (!list.length) return [...frag, empty()];
     frag.push(h('div', { class: 'receipts' }, list.map((r) => (r.revision ? revisionCard(byId.get(r.revision)) : receiptCard(r)))));
     return frag;
@@ -234,7 +296,8 @@
 
   function renderTimeline() {
     const list = D.entries.filter(matches);
-    const frag = [viewHead('Timeline', 'Everything in the record, in date order. A hollow mark is a statement; a solid mark is an action.')];
+    const frag = [viewHead('Timeline', 'Everything in the record, in date order. A hollow mark is a statement; a solid mark is an action. The tags on each entry name the patterns it belongs to; pick one to follow it through the years.'),
+      patternStrip(), patternBrief(list)];
     if (!list.length) return [...frag, empty()];
     const years = new Map();
     for (const e of list) {
@@ -252,12 +315,13 @@
         const row = `grid-row: ${i + 3}`;
         block.append(
           h('div', { class: 'tl-spine', style: row, 'aria-hidden': 'true' }, h('span', { class: `tl-dot ${e.type}` })),
-          h('button', { class: `tl-card ${e.type}`, type: 'button', style: row, onclick: () => openEntry(e.id) },
+          h('article', { class: `tl-card ${e.type}`, style: row },
             h('span', { class: 'tl-meta' }, stamp(e.type), h('span', { class: 'label' }, fmtDate(e.date)), orgTag(e.org)),
-            h('span', { class: 't' }, e.title),
+            h('button', { class: 't', type: 'button', onclick: () => openEntry(e.id) }, e.title),
             (e.status || e.contradicts.length > 0) && h('span', { class: 'tl-meta' },
               e.status && statusPill(e.status),
               e.contradicts.length > 0 && h('span', { class: 'label' }, `contradicts ${e.contradicts.length === 1 ? 'an earlier statement' : `${e.contradicts.length} statements`}`)),
+            e.patterns.length > 0 && h('span', { class: 'tl-patterns' }, patternChips(e.patterns)),
           ),
         );
       });
@@ -311,13 +375,16 @@
         )),
     );
     frag.push(h('div', { class: 'patterns-list' }, rows.map(({ p, hits }) => h('section', { class: 'pcard', id: `p-${p.id}` },
-      h('span', { class: 'label' }, `${hits.length} entr${hits.length === 1 ? 'y' : 'ies'} · ${[...new Set(hits.map((e) => orgName(e.org)))].join(' + ')}`),
+      h('span', { class: 'label' }, `${hits.length} entr${hits.length === 1 ? 'y' : 'ies'} · ${[...new Set(hits.map((e) => orgName(e.org)))].join(' + ')} · ${yearSpan(hits)}`),
       h('h3', null, p.name),
       h('p', null, p.thesis),
+      h('p', { class: 'pbrief-meta' }, outcomeTally(hits)),
       p.tells?.length > 0 && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Tells'), h('ul', null, p.tells.map((t) => h('li', null, t)))),
       p.watch_for && h('div', { class: 'forecast' }, h('span', { class: 'label' }, 'If the pattern holds (analysis)'), h('p', null, p.watch_for)),
       h('div', { class: 'hits' }, hits.map((e) => h('button', { class: 'hit', type: 'button', onclick: () => openEntry(e.id) },
-        h('span', { class: 'mono' }, String(e.date).slice(0, 7)), h('span', { class: 'org-mark ' + e.org, 'aria-hidden': 'true' }), h('span', { class: 'ht' }, e.title)))),
+        h('span', { class: 'mono' }, String(e.date).slice(0, 7)), h('span', { class: `dot sm ${e.org} ${e.type}`, 'aria-hidden': 'true' }),
+        h('span', { class: 'ht' }, e.title, e.status && h('span', { class: `mark s-${e.status}`, title: STATUS_LABEL[e.status] }, h('span', { class: 'sr' }, ` (${STATUS_LABEL[e.status]})`)))))),
+      h('button', { class: 'btn', type: 'button', onclick: () => setFilter({ pattern: p.id }, 'timeline') }, `Follow ${p.name} on the timeline`),
     ))));
     return frag;
   }
@@ -327,7 +394,8 @@
     const open = said.filter((e) => e.status === 'open').sort((a, b) => b.time - a.time);
     const kept = said.filter((e) => e.status === 'kept').sort((a, b) => b.time - a.time);
     const frag = [viewHead('Watchlist',
-      'Promises still in force. Each says what would count as breaking it, so the test is written down before anyone needs it.')];
+      'Promises still in force. Each says what would count as breaking it, so the test is written down before anyone needs it.'),
+    patternBrief(D.entries.filter(matches))];
     if (!open.length && !kept.length) return [...frag, empty()];
     const card = (e) => {
       const days = Math.max(0, Math.round((NOW - e.time) / DAY));
@@ -338,6 +406,7 @@
           quoteBlock(e.quote, e),
           !e.quote && e.summary && h('p', null, clip(e.summary, 260)),
           e.breaks_if && h('div', { class: 'breaks' }, h('span', { class: 'label' }, 'Counts as broken if'), h('p', null, e.breaks_if)),
+          e.patterns.length > 0 && h('div', { class: 'side-head' }, patternChips(e.patterns)),
         ),
         h('div', { class: 'age' },
           h('span', { class: 'label' }, e.status === 'kept' ? 'Held for' : 'Standing for'),
@@ -374,6 +443,8 @@
         h('p', null, 'Organizations, and people speaking in a public or official role: executives, founders, board members, and staff who speak publicly about the company’s mission, safety or policy. No private individuals, private accounts, family members or personal lives.'),
         h('h3', null, 'Status of a statement'),
         h('div', { class: 'defs' }, Object.keys(STATUS_DEF).flatMap((k) => [statusPill(k), h('span', null, STATUS_DEF[k])])),
+        h('h3', null, 'Patterns'),
+        h('p', null, 'Patterns are this record’s analysis, not anyone’s words: a pattern is a move that recurs across the years or across both companies. Each entry is tagged with every pattern it shows, and some entries fit none. A promise that held keeps its tag when it was a test of the pattern, so following a pattern shows where it held as well as where it didn’t. Pick a pattern on the timeline, or from any entry, to follow it through every view.'),
         h('h3', null, 'How concrete was it?'),
         h('p', null, 'Vague promises can’t be broken, which is often the point. Each statement is graded on how testable it was when made.'),
         h('div', { class: 'defs' }, Object.keys(CONCRETE_DEF).flatMap((k) => [concretePill(k), h('span', null, CONCRETE_DEF[k])])),
@@ -447,8 +518,12 @@
             h('div', null, h('p', null, u.text), u.sources?.length > 0 && sourceList(u.sources)))))),
         e.response && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Their side'), h('p', null, e.response)),
         e.note && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Commentary'), h('p', { class: 'note' }, e.note)),
-        e.patterns.length > 0 && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Patterns'),
-          h('div', { class: 'side-head' }, e.patterns.map((p) => h('button', { class: 'chip', type: 'button', onclick: () => { dialog.close(); location.hash = `p-${p}`; } }, patternById.get(p)?.name || p)))),
+        e.patterns.length > 0 && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Patterns (analysis)'),
+          e.patterns.map((id) => patternById.get(id)).filter(Boolean).map((p) => h('div', { class: 'd-pattern' },
+            h('p', null, h('b', null, p.name), ' ', h('span', { class: 'muted' }, p.thesis)),
+            h('div', { class: 'side-head' },
+              h('button', { class: 'chip', type: 'button', onclick: () => { dialog.close(); setFilter({ pattern: p.id }, 'timeline'); setHash('#timeline'); } }, 'Follow on the timeline'),
+              h('button', { class: 'chip', type: 'button', onclick: () => { dialog.close(); location.hash = `p-${p.id}`; } }, 'About this pattern'))))),
         h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Sources'), sourceList(e.sources)),
         D.site.repo && e.file && h('p', { class: 'label' }, h('a', { href: `${D.site.repo}/blob/HEAD/${e.file}`, target: '_blank', rel: 'noopener' }, 'View or correct this entry')),
       ),
@@ -483,6 +558,8 @@
       if (d.revision) lines.push(`Before: ${d.revision.before}`, `After: ${d.revision.after}`);
       if (src(d)) lines.push(src(d));
     }
+    const pats = [...new Set([...(s?.patterns || []), ...(d?.patterns || [])])].map((p) => patternById.get(p)?.name).filter(Boolean);
+    if (pats.length) lines.push('', `Pattern${pats.length > 1 ? 's' : ''}: ${pats.join(', ')}`);
     lines.push('', `Full receipt: ${permalink((d || s).id)}`);
     return lines.join('\n');
   }

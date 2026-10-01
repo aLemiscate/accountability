@@ -25,7 +25,7 @@ breaks_if: >-
   A serious misalignment incident that OpenAI knew of becomes public first
   through someone else, with no initial notice from OpenAI and no security
   reason given for the delay.
-patterns: []
+patterns: [told-last, sorry-after-caught]
 related:
   [
     2026-09-04-wiki-incident,

@@ -29,7 +29,7 @@ breaks_if: >-
   March 2027; evaluators' contracts let Anthropic block unfavorable findings
   beyond the narrow redactions described; an embedded evaluator reports being
   denied promised access; or the program is scaled back without notice.
-patterns: []
+patterns: [unfalsifiable]
 related:
   [
     2026-02-24-rsp-v3-drops-pause,

@@ -233,6 +233,56 @@ main { padding-block: 40px 80px; min-height: 50vh; }
   cursor: pointer;
 }
 .chip:hover { border-color: var(--ink); color: var(--ink); }
+.chip[aria-pressed="true"] { border-color: var(--ink); background: var(--ink); color: var(--bg); }
+.chip .n { margin-left: 7px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.chip[aria-pressed="true"] .n { color: inherit; opacity: 0.7; }
+/* Inside an entry, the followed pattern is outlined, not filled, so a filtered list doesn't turn into a wall of black tags. */
+.tl-patterns .chip[aria-pressed="true"], .side-head .chip[aria-pressed="true"], .receipt-foot .chip[aria-pressed="true"] {
+  background: none; color: var(--ink); border-color: var(--ink);
+}
+.muted { color: var(--ink-2); }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* Pattern strip and brief: follow one pattern through every view. */
+.pstrip { display: grid; gap: 10px; margin-bottom: 28px; }
+.pstrip-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.pstrip-note { font-size: var(--step--1); color: var(--ink-3); }
+.pbrief {
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--rule);
+  padding-block: 14px 18px;
+  margin-bottom: 28px;
+  display: grid;
+  gap: 10px;
+}
+.pbrief-head { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; }
+.pbrief-head .spacer { flex: 1; }
+.pbrief h3 { font: 600 var(--step-2)/1.1 var(--sans); letter-spacing: -0.03em; }
+.pbrief > p { color: var(--ink-2); max-width: var(--measure); }
+.pbrief-meta { display: flex; flex-wrap: wrap; gap: 6px 18px; font: 400 0.75rem/1.5 var(--mono); color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.pbrief .pbrief-meta { color: var(--ink-2); }
+.pbrief-orgs { display: inline-flex; flex-wrap: wrap; gap: 4px 14px; }
+.pbrief details { font-size: var(--step--1); color: var(--ink-2); display: grid; gap: 8px; }
+.pbrief summary { cursor: pointer; width: max-content; max-width: 100%; }
+.pbrief details ul { margin: 8px 0 0; padding-left: 1.1em; display: grid; gap: 4px; max-width: var(--measure); }
+.pbrief details .forecast { margin-top: 10px; max-width: var(--measure); }
+/* Outcome tallies carry a glyph as well as a color. */
+.tally { display: inline-flex; flex-wrap: wrap; gap: 4px 14px; }
+.tally .t-fail { color: var(--fail); }
+.tally .t-standing { color: var(--standing); }
+.tally .t-held { color: var(--held); }
+.tally .t-fail::before { content: "× "; }
+.tally .t-standing::before { content: "○ "; }
+.tally .t-held::before { content: "✓ "; }
+.mark { margin-left: 7px; font: 500 0.75rem/1 var(--mono); }
+.mark.s-broken, .mark.s-reversed, .mark.s-eroded, .mark.s-contradicted { color: var(--fail); }
+.mark.s-broken::before, .mark.s-reversed::before, .mark.s-eroded::before, .mark.s-contradicted::before { content: "×"; }
+.mark.s-open { color: var(--standing); }
+.mark.s-open::before { content: "○"; }
+.mark.s-kept { color: var(--held); }
+.mark.s-kept::before { content: "✓"; }
+.d-pattern { display: grid; gap: 8px; }
+.d-pattern + .d-pattern { margin-top: 6px; }
 .org {
   display: inline-flex;
   align-items: center;
@@ -326,20 +376,35 @@ main { padding-block: 40px 80px; min-height: 50vh; }
 .cols-head .did-h { grid-column: 3; }
 .tl-item { display: contents; }
 .tl-card {
+  position: relative;
   background: var(--bg);
   border: 1px solid var(--rule);
   padding: 14px 16px;
   margin-block: 6px;
   display: grid;
   gap: 8px;
+  justify-items: start;
   text-align: left;
-  cursor: pointer;
   min-width: 0;
 }
 .tl-card:hover { border-color: var(--ink); }
 .tl-card.said { grid-column: 1; }
 .tl-card.did { grid-column: 3; }
-.tl-card .t { font: 500 var(--step-0)/1.35 var(--sans); letter-spacing: -0.01em; }
+/* The title opens the entry; its hit area covers the card. Pattern tags sit above it and stay clickable. */
+.tl-card .t {
+  font: 500 var(--step-0)/1.35 var(--sans);
+  letter-spacing: -0.01em;
+  background: none;
+  border: 0;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+}
+.tl-card .t::after { content: ""; position: absolute; inset: 0; }
+.tl-card .t:focus-visible { outline: none; }
+.tl-card:has(.t:focus-visible) { outline: 2px solid var(--focus); outline-offset: 2px; }
+.tl-patterns { display: flex; flex-wrap: wrap; gap: 6px; }
+.tl-patterns .chip { position: relative; z-index: 1; }
 .tl-meta { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; }
 .tl-spine { grid-column: 2; position: relative; }
 .tl-spine::before { content: ""; position: absolute; inset: 0 50%; border-left: 1px solid var(--rule); }
@@ -389,9 +454,11 @@ main { padding-block: 40px 80px; min-height: 50vh; }
 .forecast { border-top: 1px solid var(--rule); padding-top: 12px; display: grid; gap: 4px; font-size: var(--step--1); color: var(--ink-2); }
 .pcard .hits { display: grid; gap: 6px; }
 .hit { background: none; border: 0; padding: 0; text-align: left; cursor: pointer; font-size: var(--step--1); display: flex; gap: 8px; align-items: baseline; }
-.hit .org-mark { align-self: center; }
 .hit:hover .ht { text-decoration: underline; text-underline-offset: 0.2em; }
 .hit .mono { color: var(--ink-3); flex: none; }
+.dot.sm { width: 8px; height: 8px; border-width: 1.25px; flex: none; align-self: flex-start; margin-top: 0.42em; cursor: inherit; }
+.hit:hover .dot.sm { transform: none; }
+.pcard .btn { justify-self: start; }
 
 /* ── watchlist ──────────────────────────────────────────────────────────── */
 .watch { display: grid; gap: 0; border-top: 1px solid var(--ink); }

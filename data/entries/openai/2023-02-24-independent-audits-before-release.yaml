@@ -20,7 +20,7 @@ status: eroded
 breaks_if: >-
   OpenAI releases frontier systems without independent audit, or drops audit
   language from its own framework.
-patterns: []
+patterns: [unfalsifiable]
 related:
   [
     2025-04-15-preparedness-framework-v2,
