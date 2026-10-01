@@ -1,0 +1,108 @@
+How we think about safety and alignment | OpenAI
+How we think about safety and alignment
+AGI in many steps rather than one giant leap
+Impacts of AGI
+Our core principles
+Embracing uncertainty
+Defense in depth
+Methods that scale
+Human control
+Community effort
+The mission of OpenAI is to ensure artificial general intelligence (AGI) benefits all of humanity. Safety—the practice of enabling AI’s positive impacts by mitigating the negative ones—is thus core to our mission.
+Our understanding of how to advance safety has evolved a lot over time, and this post is a current snapshot of the principles that guide our thinking. We are not certain everything we believe is correct. We do know AI will transform most aspects of our world, and so we should think through the benefits, changes, and risks of this technology early.
+AGI in many steps rather than one giant leap
+We used to view the development of AGI as a discontinuous moment when our AI systems would transform from solving toy problems to world-changing ones. We now view the first AGI as just one point along a series of systems of increasing usefulness.
+In a discontinuous world, practicing for the AGI moment is the only thing we can do, and safety lessons come from treating the systems of today with outsized caution relative to their apparent power. This is the approach we took for GPT‑2 when we initially didn’t release the model due to concerns about malicious applications⁠.
+In the continuous world, the way to make the next system safe and beneficial is to learn from the current system. This is why we’ve adopted the principle of iterative deployment⁠, so that we can enrich our understanding of safety and misuse, give society time to adapt to changes, and put the benefits of AI into people’s hands. At present, we are navigating the new paradigm of chain-of-thought models⁠ - we believe this technology will be extremely impactful going forward, and we want to study how to make it useful and safe by learning from its real-world usage. In the continuous world view, deployment aids rather than opposes safety.
+These diverging views of the world lead to different interpretations of what is safe. For example, our release of ChatGPT was a Rorschach test for many in the field—depending on whether they expected AI progress to be discontinuous or continuous, they viewed it as either a detriment or learning opportunity towards AGI safety.
+Impacts of AGI
+We are developing AGI because we believe in its potential to positively transform everyone’s lives. Almost any challenge facing humanity feels surmountable with a sufficiently capable AGI because intelligence has been responsible for most improvements for humanity, from literacy to machines to medicine.
+Nevertheless, intelligence is a neutral term, and intelligence alone is not a guarantee for positive transformation. Achieving AGI’s potential includes working diligently to mitigate the potential harms of increasingly powerful AI systems, and developing and operating them in accordance with human values and with humans in control.
+As AI becomes more powerful, the stakes grow higher. The exact way the post-AGI world will look is hard to predict—the world will likely be more different from today’s world than today’s is from the 1500s. But we expect the transformative impact of AGI to start within a few years. From today’s AI systems, we see three broad categories of failures:
+Human misuse: We consider misuse to be when humans apply AI in ways that violate laws and democratic values. This includes suppression of free speech and thought, whether by political bias, censorship, surveillance, or personalized propaganda. It includes phishing attacks or scams. It also includes enabling malicious actors to cause harm at a new scale.
+Misaligned AI: We consider misalignment failures to be when an AI’s behavior or actions are not in line with relevant human values, instructions, goals, or intent. For example an AI might take actions on behalf of its user that have unintended negative consequences, influence humans to take actions they would otherwise not, or undermine human control. The more power the AI has, the bigger potential consequences are.
+Societal disruption: AI will bring rapid change, which can have unpredictable and possibly negative effects on the world or individuals, like increasing social tensions and inequality, or shifts in dominant values and societal norms. Access to AGI will determine economic success, which risks authoritarian regimes pulling ahead of democratic ones if they harness AGI more effectively.
+Like with any new technology, there will be disruptive effects, some that are inseparable from progress, some that can be managed well, and some that may be unavoidable. Societies will have to find ways of democratically deciding about these trade-offs, and many solutions will require complex coordination and shared responsibility. Each failure mode carries risks that range from already present to speculative, and from affecting one person to painful setbacks for humanity to irrecoverable loss of human thriving.
+We approach safety both by assessing current risks and anticipating future ones, mitigating each risk according to its impact and how much we can affect it today. We carefully balance capability development with proactive risk mitigation, with our Preparedness Framework⁠
+(opens in a new window)
+guiding hard tradeoffs.
+Our core principles
+We don’t know what the future will look like, and we have evolved our thinking already quite a bit over time. With this in mind, here are our core principles that currently guide our thinking and actions:
+Embracing uncertainty: We treat safety as a science, learning from iterative deployment rather than just theoretical principles.
+Defense in depth: We stack interventions to create safety through redundancy.
+Methods that scale: We seek out safety methods that become more effective as models become more capable.
+Human control: We work to develop AI that elevates humanity and promotes democratic ideals.
+Community effort: We view responsibility for advancing safety as a collective effort.
+Embracing uncertainty
+We treat safety as a science, learning from iterative deployment rather than just theoretical principles.
+We do not assume we can predict all future challenges in AI alignment solely from theoretical principles. Achieving safe AGI demands engaging with reality: beyond laboratory experiments, we must test systems in the real world and draw on the collective insight of everyone involved. Instead of working backward from hypothetical end states, we move forward taking incremental steps, while measuring and testing continuously. Because we conduct pre- and post-deployment assessments, we gain a deeper, empirical understanding of both capabilities and hazards as they emerge in real-world contexts. We do all of this while being cautious about assuming “alignment by default” from current training paradigms: insights drawn from earlier models or different training methods are useful but not definitive for future systems and training paradigms. Our approach demands hard work, careful decision-making, and continuous calibration of risks and benefits.
+Rigorous measurement
+Safety research requires science: standardizable measurement, open-minded experimentation, and testing. Being able to quantify risks effectively guides research direction and prioritization. We thus build⁠ evaluations⁠ starting with measurement goals, often guided by a threat⁠ model, and focus on capabilities that unlock potentially harmful behaviors. We iteratively expand and refine our evaluation suites to capture capability increases and evolving usage. We run these evaluations throughout model training and deployment processes to inform our training, launch, and mitigation plans.
+Proactive risk mitigation
+The best time to act is before risks fully materialize, initiating mitigation efforts as potential negative impacts—such as facilitation of malicious use-cases or the model deceiving its operator—begin to surface. While our Preparedness Framework⁠
+(opens in a new window)
+outlines how we do pre-deployment evaluations, we aim to advance mitigations early, even when risks have not yet fully developed, aren’t currently causing harm, and are far from deployment. Even if we can’t observe these behaviors in the real world, we seek out opportunities for empirical observation, such as safely testing models in secure environments with restricted capabilities. As our systems become more powerful, they require additional safety measures. This proactive approach is how we understand and address issues before they escalate, and develop our safety techniques directly aligned with where capabilities are going.
+Iterative deployment
+It’s an advantage for safety that AI models have been growing in usefulness steadily over the years, making it possible for the world to experience incrementally better capabilities. This allows the world to engage with the technology as it evolves, helping society better understand and adapt to these systems while providing valuable feedback on their risks and benefits. Such iterative deployment helps us understand threats from real world use⁠ and guides the research for the next generation of safety measures, systems, and practices.
+In the future, we may see scenarios where the model risks become unacceptable even relative to benefits. We’ll work hard to figure out how to mitigate those risks so that the benefits of the model can be realized. Along the way, we’ll likely test them in secure, controlled settings. We may deploy into constrained environments, limit to trusted users, or release tools, systems, or technologies developed by the AI rather than the AI itself. These approaches will require ongoing innovation to balance the need for empirical understanding with the imperative to manage risk. For example, making increasingly capable models widely available by sharing their weights should include considering a reasonable range of ways a malicious party could feasibly modify the model, including by finetuning (see our 2024 statement on open model weights⁠). We continue to develop the Preparedness Framework⁠
+(opens in a new window)
+to help us navigate and react to increasing risks.
+Defense in depth
+We stack interventions to create safety through redundancy.
+It’s likely that no single intervention is the “solution” for safe and beneficial AI. Instead, we draw from the layered approaches in other safety-critical fields such as aerospace, nuclear power, and autonomous vehicles. This involves “layering” multiple defenses such that all of them would need to fail for a safety incident to occur.
+First, in training our models for safety we apply multiple layers of support: teaching models to understand⁠ and to adhere to core safety values⁠, teaching them to follow user instructions and navigate conflicting instructions from different sources⁠, training them to be reliable even in the face of uncertainty, and making it robust to adversarial inputs. Our models are supported by complementary systemic defenses: continuous monitoring post-deployment⁠, open-source intelligence⁠ (OSINT⁠
+(opens in a new window)
+), and information security.⁠ Each safeguard has unique strengths and gaps, but by stacking multiple layers, we reduce the odds that an alignment failure or adversarial attack will slip through all defenses.
+We test components individually as well as end-to-end. We establish safety protocols and principles for testing, including external red teaming⁠ and frontier risk assessments⁠
+(opens in a new window)
+. We set clear deployment criteria, as outlined in our Preparedness Framework⁠
+(opens in a new window)
+and System Cards (see our System Cards for o1⁠, GPT‑4o⁠, GPT‑4V(ision)⁠
+(opens in a new window)
+, and GPT‑4⁠
+(opens in a new window)
+).
+Importantly, we also leave room for evolution and iteration on our processes themselves. Our Preparedness Framework⁠
+(opens in a new window)
+has revision as a built-in principle to avoid ossifying as specific safety approaches become obsolete.
+Methods that scale
+We seek out safety methods that become more effective as models become more capable.
+To align increasingly intelligent models, especially models that are more intelligent and powerful than humans, we must develop alignment methods that improve rather than break with increasing AI intelligence. In the past, we demonstrated that AI-written critiques⁠ augment humans’ ability⁠ to notice flaws, for example when training a next-generation model using RLHF. We also already use GPT‑4 for content policy development and moderation decisions⁠, and future AI might contribute to powerful safety measures such as formal verification which have been impractical for humans to implement at scale. Most recently, we have demonstrated that we can harness o1’s reasoning capabilities to improve its own alignment⁠. We believe that increased intelligence can be harnessed to align superintelligence, but it’s not yet proven, and there’s a lot of evidence we will gather as we build more capable systems which could cause us to update our approach.
+We are exploring ways to directly improve alignment by spending compute⁠, similar to how we improve intelligence. One way to do this is to directly optimize for robustness and reliability, which are critical to safe and aligned systems. Other ways could be maintaining a favorable balance between the strength of the training signal (e.g. reward models) and the model being trained, or using compute to improve our understanding of worst-case behaviors.
+We have yet to fully understand, measure, and leverage the relationship between capabilities, safety, and alignment. Safety is often contextual, harder to measure, and thus harder to be optimized than capabilities such as solving math problems. As part of our research program, we aim to better understand how to optimize safety and capability under a unified objective, and how to leverage intelligence for alignment.
+Human control
+We work to develop AI that elevates humanity and promotes democratic ideals.
+Our approach to alignment centers humans. We aim to develop mechanisms that empower human stakeholders to express their intent clearly and supervise⁠ AI systems effectively - even in complex situations, and as AI capabilities scale beyond human capabilities. Decisions about how AI behaves and what it is allowed to do should be determined by broad bounds set by society, and evolve with human values and contexts. AI development and deployment must have human control and empowerment at its core.
+Policy driven alignment
+We create transparent, auditable, and steerable models by integrating explicit policies and “case law” into our model training process. We facilitate transparency and democratic input by inviting public engagement in policy formation and incorporating feedback from various stakeholders. Our democratic inputs to AI grant⁠ was one example for exploring possible ways of democratic process to decide AI model behavior. Another example is our publishing of the Model Spec⁠
+(opens in a new window)
+, making explicit the tradeoffs and decisions that went into shaping it, and inviting public inputs for future versions. We are actively working on improving models’ ability to reason about human-written explicit policy⁠ such as the Model Spec, to make sure that AI systems reliably follow directions.
+Alignment through human values, intent, and understanding
+Not all human values, preferences, and intents can be explicitly codified into policies or rules, because there is no single moral or social norm. Many are nuanced, context-sensitive, and culture-dependent. Our research aims to bridge this gap by developing methods to encode these complex, often tacit elements into AI systems. This includes integrating human values, ethical principles, and common sense into our models, enabling them to not only follow explicit instructions but also respect the broader spirit of human intent. Grounding our models in these deeper principles helps them remain resilient to the imperfections of human feedback, preventing “reward hacking” and other exploitations of human error. While there often is no single right or wrong, we think that by teaching our models understanding in addition to compliance, we can develop tools to better adapt AI systems to diverse contexts, make informed decisions, and align with the moral and social norms of the communities they serve.
+Scalable oversight, active learning, verification, and Human-AI interfaces
+We focus on scalable oversight⁠ mechanisms that evolve alongside the increasing capabilities of AI systems. This includes novel human-AI interfaces⁠ that empower individuals and institutions to interact with, control, visualize, verify, guide, and audit AI actions during development and post-deployment. We are exploring ways for AI systems to proactively identify areas of uncertainty, such as unclear risks, and seek clarification from human supervisors. Such systems can refine their understanding of human priorities and continually adjust their behavior to better align with evolving norms and contexts. Integrating scalable supervision mechanisms and active learning into human-AI interactions facilitates transparency and trust, ensuring that AI behaviors align with both individual expectations and institutional requirements as they evolve.
+Control in autonomous settings
+​​As AI systems increasingly operate beyond centralized infrastructures—residing on personal devices, embedded hardware, and forming networks of interacting agents— robust human oversight remains vital. Even when such systems can autonomously replicate, collaborate, or adapt their objectives, we must ensure that humans can meaningfully intervene and deactivate capabilities as needed. This involves for example designing mechanisms for remote monitoring, secure containment, and reliable fail-safes to preserve human authority.
+Community effort
+We view responsibility for advancing safety as a collective effort.
+Ensuring that AGI is safe and beneficial to everyone cannot be achieved by any single organization. It is a shared responsibility that depends on open collaboration across industry⁠, academia⁠, government⁠, and the public⁠ at large.
+OpenAI supports this principle by openly sharing safety-related insights, techniques and resources that can advance the entire field. We:
+Publish AI safety research so that our methods and findings can contribute to the broader conversation and can be subject to external review, including peer review.
+Provide resources to the field, such as new⁠ evaluation⁠ suites⁠ that can more reliably evaluate advancing capabilities and access to frontier methods and make use of artifacts the field produces, such as red teaming and evaluations.
+Fund research that advances the field, in areas ranging from democratic inputs⁠ into the design of AI systems to cybersecurity applications of AI⁠.
+“Work in public” on the practical aspects of AI safety, sharing our experiences building, testing, and delivering frontier AI at scale, so that the public, policymakers, and other practitioners can learn from our experience.
+Make our thinking on model behavior transparent and accountable, through projects such as the Model Spec⁠
+(opens in a new window)
+.
+Support government expertise on AI safety and security, including through our partnerships with the US AI Safety Institute⁠
+(opens in a new window)
+and UK AI Security Institute to advance the science and practice of safety and capability evaluations.
+Propose policy initiatives⁠ that include common sense rules of the road so that AI’s benefits can be maximized for everyone.
+Make voluntary commitments⁠
+(opens in a new window)
+such as publicly announced safety protocols and adherence to recognized industry standards that encourage us to follow best practices, even before new laws are in place. For instance, our Preparedness Framework⁠
+(opens in a new window)
+has become a leading model of how to address frontier risk, and helped inspire the recent Frontier AI Safety Commitments⁠
+(opens in a new window)
+signed by 16 leading labs at a global summit.
+We don’t know all the answers. We don’t even have all the questions. Because we don’t know, we are open to being wrong about our expectation on how progress will unfold and our approach to the challenges we see. We believe in a culture of healthy discussion and want feedback from people with different perspectives and attitudes on AI risk, especially those who may not agree with OpenAI’s current position.

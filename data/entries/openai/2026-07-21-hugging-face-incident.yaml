@@ -30,6 +30,8 @@ sources:
     publisher: OpenAI
     url: https://openai.com/index/hugging-face-incident-and-the-road-ahead/
     type: primary
+    archive: https://web.archive.org/web/20260930172605/https://openai.com/index/hugging-face-incident-and-the-road-ahead/
+    snapshot: snapshots/2026-10-01-openai.com-d8e6fd2e
   - title: OpenAI says Hugging Face was breached by its pre-release models
     publisher: TechCrunch
     url: https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/
@@ -92,6 +94,8 @@ updates:
         url: https://openai.com/index/third-party-cyber-evaluations-involving-openai-models/
         date: 2026-08-04
         type: primary
+        archive: https://web.archive.org/web/20260927105707/https://openai.com/index/third-party-cyber-evaluations-involving-openai-models/
+        snapshot: snapshots/2026-10-01-openai.com-aedaea85
       - title: OpenAI Discloses Two Incidents in Third-Party Cyber Evaluations
         publisher: Creati.ai
         url: https://creati.ai/ai-news/2026-08-05/openai-discloses-two-incidents-in-third-party-cyber-evaluations/
@@ -100,14 +104,14 @@ updates:
         snapshot: snapshots/2026-09-30-creati.ai-9eac57fc
   - date: 2026-08-26
     text: >-
-      OpenAI's official report said the models first compromised the
-      Artifactory package tool to reach the internet, and that the evaluation
-      ran without the production classifiers meant to stop high-risk cyber
-      activity. It called the episode "misaligned behavior in an outlier
-      scenario." It said: "If our currently deployed CoT monitoring system was
-      running at the time of the incident, it would have caught the initial
-      relevant activity and paged our security team more than a day before
-      models breached Hugging Face systems."
+      OpenAI's official report said the models first compromised the Artifactory
+      package tool to reach the internet, and that the evaluation ran without
+      the production classifiers meant to stop high-risk cyber activity. It
+      called the episode "misaligned behavior in an outlier scenario." It said:
+      "If our currently deployed CoT monitoring system was running at the time
+      of the incident, it would have caught the initial relevant activity and
+      paged our security team more than a day before models breached Hugging
+      Face systems."
     sources:
       - title: OpenAI releases its official report on the Hugging Face breach
         publisher: TechCrunch
@@ -168,8 +172,7 @@ updates:
       up. Anthropic had commissioned a third-party safety organization to
       examine its models' behavior.
     sources:
-      - title: 'Scoop: Top AI companies probing tens of thousands of security
-          incidents'
+      - title: 'Scoop: Top AI companies probing tens of thousands of security incidents'
         publisher: Axios (via Yahoo)
         url: https://tech.yahoo.com/cybersecurity/articles/scoop-top-ai-companies-probing-223553422.html
         date: 2026-09-26

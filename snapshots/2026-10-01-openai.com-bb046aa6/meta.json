@@ -1,0 +1,21 @@
+{
+  "url": "https://openai.com/global-affairs/eu-code-of-practice/",
+  "captured_at": "2026-10-01T03:37:17.587Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "d1a47f90cce66d35a63eb058fdaa8337152c031db6597c21b81d47b690be2dc1",
+    "page.txt": "604d8d340ec553598622c91493c51d5c24d74d099e58e0ad19aadf18163b55f3",
+    "screenshot.jpg": "965bccae5b0ef329c909604fce8ac9257b0313905dbde831a5a46a71b2cdfef7",
+    "rendered.txt": "44c117934ec5252ae619f44fb254b17d1045d0f15566c372b5ad873329ad304f"
+  },
+  "http_status": 200,
+  "final_url": "https://openai.com/global-affairs/eu-code-of-practice/",
+  "content_type": "text/html; charset=utf-8",
+  "title": "The EU Code of Practice and future of AI in Europe | OpenAI",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20260814170006/https://openai.com/global-affairs/eu-code-of-practice/",
+    "timestamp": "20260814170006",
+    "method": "existing"
+  }
+}

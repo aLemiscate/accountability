@@ -55,10 +55,14 @@ sources:
     url: https://www.cnbc.com/2026/09/14/sam-altman-ai-slowdown-anthropic-amodei-musk.html
     date: 2026-09-14
     type: reporting
+    archive: https://web.archive.org/web/20261001031953/https://www.cnbc.com/2026/09/14/sam-altman-ai-slowdown-anthropic-amodei-musk.html
+    snapshot: snapshots/2026-10-01-cnbc.com-87dfd159
   - title: Who Should Pace the Frontier? Not Dario Amodei
     publisher: TechPolicy.Press
     url: https://www.techpolicy.press/who-should-pace-the-frontier-not-dario-amodei/
     type: analysis
+    archive: https://web.archive.org/web/20261001032027/https://www.techpolicy.press/who-should-pace-the-frontier-not-dario-amodei/
+    snapshot: snapshots/2026-10-01-techpolicy.press-243cfd2b
 updates:
   - date: 2026-09-18
     text: >-

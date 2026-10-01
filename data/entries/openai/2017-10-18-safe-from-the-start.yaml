@@ -18,7 +18,14 @@ summary: >-
 concreteness: directional
 status: eroded
 patterns: [ship-then-patch]
-related: [2025-04-29-gpt-4o-sycophancy-rollback, 2025-02-02-deep-research-before-system-card, 2025-11-12-gpt-5-1-ships-with-regressions, 2026-07-21-hugging-face-incident, 2025-03-05-gpt-2-history-recast]
+related:
+  [
+    2025-04-29-gpt-4o-sycophancy-rollback,
+    2025-02-02-deep-research-before-system-card,
+    2025-11-12-gpt-5-1-ships-with-regressions,
+    2026-07-21-hugging-face-incident,
+    2025-03-05-gpt-2-history-recast
+  ]
 sources:
   - title: OpenAI on X
     publisher: X
@@ -37,9 +44,10 @@ sources:
     url: https://www.wsj.com/articles/protecting-against-ais-existential-threat-1508332313
     date: 2017-10-18
     type: primary
+    archive: https://web.archive.org/web/20250329180325/https://www.wsj.com/articles/protecting-against-ais-existential-threat-1508332313
 note: >-
   A principle, not a promise, so it can't be broken outright. It is marked
-  eroded because the related entries show a different practice: ship first,
-  then patch, roll back or publish the safety report. By 2025 OpenAI described
-  its approach as learning how to make the next system safe from deploying the
+  eroded because the related entries show a different practice: ship first, then
+  patch, roll back or publish the safety report. By 2025 OpenAI described its
+  approach as learning how to make the next system safe from deploying the
   current one.

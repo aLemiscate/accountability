@@ -1,0 +1,21 @@
+{
+  "url": "https://edition.cnn.com/2026/02/13/tech/openai-political-spending-super-pacs",
+  "captured_at": "2026-10-01T03:37:58.211Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "4a2f85e48826a317afe3b40d97a2687ad0ac9f910dc07f6b3f8109a4187fa6ac",
+    "page.txt": "eb16a018e9f8a0cf2dbcfefe52c455c427d5fb4d464e9b026c25ed47799c0202",
+    "screenshot.jpg": "f15d470042673490b696c22e9c5a5070e5fdbd2bc6e3f25a92bdefa1833c1692",
+    "rendered.txt": "7f47dbb1ebd668838240ad85ff0834e781a22c59d9ef81a20f307eb318db660a"
+  },
+  "http_status": 200,
+  "final_url": "https://edition.cnn.com/2026/02/13/tech/openai-political-spending-super-pacs",
+  "content_type": "text/html; charset=utf-8",
+  "title": "Why OpenAI says it isn’t spending on SuperPACs | CNN Business",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20261001033850/https://edition.cnn.com/2026/02/13/tech/openai-political-spending-super-pacs",
+    "timestamp": "20261001033850",
+    "method": "spn"
+  }
+}

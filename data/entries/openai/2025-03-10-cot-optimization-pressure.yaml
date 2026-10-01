@@ -36,6 +36,7 @@ sources:
     url: https://openai.com/index/chain-of-thought-monitoring/
     date: 2025-03-10
     type: primary
+    snapshot: snapshots/2026-10-01-openai.com-d4700c15
   - title: Monitoring Reasoning Models for Misbehavior and the Risks of Promoting
       Obfuscation (paper)
     publisher: OpenAI
@@ -61,11 +62,11 @@ updates:
     text: >-
       The Information reported that OpenAI's GPT-6 Astra uses "recurrent depth"
       (looped transformers) in part of its architecture, a technique in which
-      some reasoning passes through the model without being written out as
-      text. Outside researchers warned it could erode CoT monitoring; Steven
-      Adler wrote that, if true, "OpenAI seems to be violating one of the few
-      redlines that exists in the AI industry." Chief scientist Jakub Pachocki
-      said OpenAI had limited the technique so reasoning stays legible and that
+      some reasoning passes through the model without being written out as text.
+      Outside researchers warned it could erode CoT monitoring; Steven Adler
+      wrote that, if true, "OpenAI seems to be violating one of the few redlines
+      that exists in the AI industry." Chief scientist Jakub Pachocki said
+      OpenAI had limited the technique so reasoning stays legible and that
       "OpenAI has worked to preserve and utilize chain-of-thought monitoring
       since our very first reasoning models."
     sources:

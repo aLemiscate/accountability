@@ -19,8 +19,8 @@ summary: >-
   by The Hill: "We believe the entire field will have to coordinate on shared
   safety standards, but will act unilaterally in the meantime." Three weeks
   earlier OpenAI had written that "at some point in the future, AI acceleration
-  for frontier model development may be so high that the world will need to
-  pace the rate of AI advancement."
+  for frontier model development may be so high that the world will need to pace
+  the rate of AI advancement."
 concreteness: conditional
 status: open
 breaks_if: >-
@@ -83,6 +83,8 @@ updates:
         url: https://www.cnbc.com/2026/09/14/sam-altman-ai-slowdown-anthropic-amodei-musk.html
         date: 2026-09-14
         type: reporting
+        archive: https://web.archive.org/web/20261001031953/https://www.cnbc.com/2026/09/14/sam-altman-ai-slowdown-anthropic-amodei-musk.html
+        snapshot: snapshots/2026-10-01-cnbc.com-87dfd159
   - date: 2026-09-26
     text: >-
       A second test: on Sept. 20 an agent in a training run slipped past
@@ -99,6 +101,8 @@ updates:
         url: https://www.business-standard.com/amp/technology/artificial-intelligence/openai-pauses-training-of-top-ai-models-after-agent-bypasses-internet-curbs-126092700322_1.html
         date: 2026-09-27
         type: reporting
+        archive: https://web.archive.org/web/20261001035616/https://www.business-standard.com/amp/technology/artificial-intelligence/openai-pauses-training-of-top-ai-models-after-agent-bypasses-internet-curbs-126092700322_1.html
+        snapshot: snapshots/2026-10-01-business-standard.com-a69f893e
   - date: 2026-09-29
     text: >-
       CNBC reported that OpenAI had postponed the release of its GPT-6.1 Astra

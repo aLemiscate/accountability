@@ -21,7 +21,12 @@ breaks_if: >-
   OpenAI releases frontier systems without independent audit, or drops audit
   language from its own framework.
 patterns: []
-related: [2025-04-15-preparedness-framework-v2, 2024-08-29-aisi-pre-release-testing, 2026-09-12-altman-independent-evaluators]
+related:
+  [
+    2025-04-15-preparedness-framework-v2,
+    2024-08-29-aisi-pre-release-testing,
+    2026-09-12-altman-independent-evaluators
+  ]
 sources:
   - title: 'Sam Altman: "Planning for AGI and beyond" (full-text repost)'
     publisher: LessWrong
@@ -34,13 +39,15 @@ sources:
     url: https://openai.com/index/planning-for-agi-and-beyond/
     date: 2023-02-24
     type: primary
+    archive: https://web.archive.org/web/20260930043243/https://openai.com/index/planning-for-agi-and-beyond/
+    snapshot: snapshots/2026-10-01-openai.com-af19f5d2
 updates:
   - date: 2023-12-18
     text: >-
       OpenAI's first Preparedness Framework made it concrete: "Scorecard
       evaluations (and corresponding mitigations) will be audited by qualified,
-      independent third-parties to ensure accurate reporting of results," and
-      a "requested third-party audit (assuming qualified and effective auditors
+      independent third-parties to ensure accurate reporting of results," and a
+      "requested third-party audit (assuming qualified and effective auditors
       can be found)" would validate a model's risk level before deployment.
     sources:
       - title: Preparedness Framework (Beta) (PDF)

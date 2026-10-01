@@ -18,8 +18,8 @@ summary: >-
   bill could drive companies out of California. The bill's author, Sen. Scott
   Wiener, said the letter "doesn't criticize a single provision of the bill."
   Former OpenAI employees William Saunders and Daniel Kokotajlo wrote that they
-  were "disappointed but not surprised." Newsom vetoed the bill on Sept. 29; OpenAI
-  vice president Peter Welinder posted: "Glad SB 1047 was vetoed."
+  were "disappointed but not surprised." Newsom vetoed the bill on Sept. 29;
+  OpenAI vice president Peter Welinder posted: "Glad SB 1047 was vetoed."
 contradicts: [2023-05-16-altman-senate-licensing-agency]
 patterns: [regulate-us-not-like-that]
 related: [2024-08-21-anthropic-sb-1047-sb-53]
@@ -73,6 +73,8 @@ updates:
         url: https://openai.com/global-affairs/letter-to-governor-newsom-on-harmonized-regulation/
         date: 2025-08-11
         type: primary
+        archive: https://web.archive.org/web/20260924025026/https://openai.com/global-affairs/letter-to-governor-newsom-on-harmonized-regulation
+        snapshot: snapshots/2026-10-01-openai.com-1ab6cfae
       - title: California Governor Newsom signs landmark AI safety bill SB 53
         publisher: TechCrunch
         url: https://techcrunch.com/2025/09/29/california-governor-newsom-signs-landmark-ai-safety-bill-sb-53/

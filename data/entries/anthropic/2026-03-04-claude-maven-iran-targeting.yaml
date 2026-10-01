@@ -12,13 +12,18 @@ summary: >-
   targets, ranked them by importance and issued precise location coordinates.
   Its sources said Claude would stay in use until the Pentagon found a
   replacement, even though days earlier the President had directed agencies to
-  stop using Anthropic's products. Weeks before, the Wall
-  Street Journal had reported that Claude, also through Palantir, was used in the
-  January operation to capture Nicolás Maduro, though not how. Anthropic had said
-  Claude was used across the Pentagon for "operational planning," among other
-  things. Its two red lines, fully autonomous weapons and mass domestic
-  surveillance, don't cover target selection when a human approves the strike.
-related: [2026-02-27-anthropic-pentagon-red-lines, 2024-11-07-palantir-aws-defense, 2025-07-14-defense-contract-200m]
+  stop using Anthropic's products. Weeks before, the Wall Street Journal had
+  reported that Claude, also through Palantir, was used in the January operation
+  to capture Nicolás Maduro, though not how. Anthropic had said Claude was used
+  across the Pentagon for "operational planning," among other things. Its two
+  red lines, fully autonomous weapons and mass domestic surveillance, don't
+  cover target selection when a human approves the strike.
+related:
+  [
+    2026-02-27-anthropic-pentagon-red-lines,
+    2024-11-07-palantir-aws-defense,
+    2025-07-14-defense-contract-200m
+  ]
 patterns: []
 sources:
   - title: The Washington Post on X ("To strike 1,000 targets in 24 hours in Iran")
@@ -32,14 +37,15 @@ sources:
     url: https://www.washingtonpost.com/technology/2026/03/04/anthropic-ai-iran-campaign/
     date: 2026-03-04
     type: reporting
+    archive: https://web.archive.org/web/20260519035509/https://www.washingtonpost.com/technology/2026/03/04/anthropic-ai-iran-campaign/
   - title: US used 'Claude' to strike over 1000 targets in first 24 hours of war
     publisher: Responsible Statecraft
     url: https://responsiblestatecraft.org/ai-war-iran/
     date: 2026-03-05
     type: reporting
     snapshot: snapshots/2026-09-30-responsiblestatecraft.org-993db9bf
-  - title: US military leans into AI for attack on Iran, but the tech doesn't
-      lessen the need for human judgment in war
+  - title: US military leans into AI for attack on Iran, but the tech doesn't lessen
+      the need for human judgment in war
     publisher: The Conversation
     url: https://theconversation.com/us-military-leans-into-ai-for-attack-on-iran-but-the-tech-doesnt-lessen-the-need-for-human-judgment-in-war-277831
     date: 2026-03
@@ -74,16 +80,15 @@ updates:
     text: >-
       Military Times reported that Maven "uses Anthropic's Claude AI model,
       embedded in its system, to semi-autonomously rank targets by strategic
-      importance, drafting automated legal justifications for each strike."
-      More than 120 House Democrats had asked the Pentagon whether Maven was used
-      to identify the Shajareh Tayyebeh elementary school in Minab as a target;
-      a Tomahawk strike there on the war's first day killed at least 168 people.
+      importance, drafting automated legal justifications for each strike." More
+      than 120 House Democrats had asked the Pentagon whether Maven was used to
+      identify the Shajareh Tayyebeh elementary school in Minab as a target; a
+      Tomahawk strike there on the war's first day killed at least 168 people.
       CNN's sources said preliminary findings pointed to outdated Defense
       Intelligence Agency data. None of the reporting cited here ties Claude to
       that strike.
     sources:
-      - title: Deadly Iran school strike casts shadow over Pentagon's AI targeting
-          push
+      - title: Deadly Iran school strike casts shadow over Pentagon's AI targeting push
         publisher: Military Times
         url: https://www.militarytimes.com/news/your-military/2026/03/24/deadly-iran-school-strike-casts-shadow-over-pentagons-ai-targeting-push/
         date: 2026-03-24

@@ -1,5 +1,5 @@
-title: OpenAI ships a sycophantic GPT-4o update over its expert testers'
-  doubts, then rolls it back four days later
+title: OpenAI ships a sycophantic GPT-4o update over its expert testers' doubts,
+  then rolls it back four days later
 date: 2025-04-29
 org: openai
 type: did
@@ -16,8 +16,8 @@ summary: >-
   replying "I am so proud of you" to a user who said they had stopped taking
   their medication. Altman wrote on April 27 that the updates had made the
   personality "too sycophant-y and annoying," and OpenAI rolled the update back
-  on April 29. Its May 2 post-mortem said some expert testers had flagged
-  before launch that the model "felt" slightly off, that it had no deployment
+  on April 29. Its May 2 post-mortem said some expert testers had flagged before
+  launch that the model "felt" slightly off, that it had no deployment
   evaluations tracking sycophancy, and that launching anyway "was the wrong
   call."
 patterns: [ship-then-patch]
@@ -34,11 +34,15 @@ sources:
     url: https://openai.com/index/sycophancy-in-gpt-4o/
     date: 2025-04-29
     type: primary
+    archive: https://web.archive.org/web/20260926072129/https://openai.com/index/sycophancy-in-gpt-4o/
+    snapshot: snapshots/2026-10-01-openai.com-f435f575
   - title: Expanding on what we missed with sycophancy
     publisher: OpenAI
     url: https://openai.com/index/expanding-on-sycophancy/
     date: 2025-05-02
     type: primary
+    archive: https://web.archive.org/web/20260928190931/https://openai.com/index/expanding-on-sycophancy/
+    snapshot: snapshots/2026-10-01-openai.com-0e972e07
   - title: OpenAI on X (post-mortem)
     publisher: X
     url: https://x.com/OpenAI/status/1918321280790741189
@@ -74,8 +78,8 @@ updates:
       sycophancy in a Slack channel before launch. The version OpenAI reverted
       to, from March ("GG"), was also one of the "sycophant-y" updates Altman
       had named, and it stayed the default. The Times reported that OpenAI had
-      no sycophancy test at the time, while Anthropic had built one in 2022.
-      In October 2025, after safer models, ChatGPT head Nick Turley declared a
+      no sycophancy test at the time, while Anthropic had built one in 2022. In
+      October 2025, after safer models, ChatGPT head Nick Turley declared a
       "Code Orange" over competitive pressure, according to four employees. The
       accompanying memo set a goal of raising daily active users by 5% by the
       end of the year. OpenAI's spokesperson said the aim was "healthy

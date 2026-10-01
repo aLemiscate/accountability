@@ -1,0 +1,93 @@
+AI AND ML
+Anthropic’s Claude escaped test sandbox to attack three organizations
+Wrote and published malware during tests, which is apparently OK because leaky test environments were the real problem
+Simon Sharwood
+APAC EDITOR
+APAC Editor
+30
+Published Fri 31 Jul 2026 // 02:19 UTC
+Anthropic has admitted that its Claude models escaped sandboxes to access the open internet and attack three organizations – but has also advanced decent excuses for the incidents.
+The AI upstart discovered the attacks after checking if security tests of its models had ever produced results similar to the attack on Hugging Face made possible by OpenAI models escaping onto the internet.
+“In particular, we looked for evidence that Claude – like the OpenAI models that accessed Hugging Face – was able to access the internet from within testing environments that should have been sealed off,” Anthropic wrote.
+The company considered 141,006 evaluation runs during which Claude could have obtained internet access and found “three incidents in which a model accessed the internet from within or while interacting with the evaluation environment of Irregular, one of our third-party evaluation partners, and then gained unauthorized access to the production infrastructure of three different organizations.”
+Anthropic’s code made those intrusions while participating in capture-the-flag challenges, tests that challenge attackers to retrieve a piece of information. Human hackers often participate in capture-the-flag tests, so figuring out how AI tackles such tasks is of interest. Anthropic works with a company called Irregular to conduct tests of this sort.
+Irregular told Anthropic its test environments did not allow internet access.
+“Due to a misunderstanding between us and our evaluation partner, this was not the case, and internet access was available,” wrote Anthropic’s Frontier Red Team in a Thursday blog post. “Because of this, when Claude’s search led it to real systems on the open internet, it treated them as part of the exercise.”
+MORE CONTEXT
+Excuses like 'AI did it' don't exist in the eyes of the law
+OpenAI-Hugging Face attack doesn't mean agents are evil – unless you tell them to be
+OpenAI scored an own goal with Hugging Face attack, showing how open Chinese models are winning
+Tech leaders issue letter to train Uncle Sam about value of open weight AI
+One of the attacks targeted a domain that whoever set up the test thought was fictional. However the domain was live and in use. Told to capture a flag at that site, Claude attacked.
+Anthropic says its models used only “basic techniques, such as exploiting weak passwords and unauthenticated endpoints” to attack. “It did not find or exploit any complex vulnerabilities, and in each case, Claude continued working to complete only the specific capture-the-flag task its evaluation had assigned,” the AI upstart claimed.
+“In none of these situations did Claude exfiltrate itself or deliberately attempt to escape its test environment,” Anthropic pointed out.
+But Claude was still fiendishly clever as in another of its attacks the AI found setup instructions for developers that advised them to install a Python package from PyPI. That package did not exist so Claude’s strategy to capture the flag saw it create and publish a malicious one with the relevant name.
+“Claude believed the package registry it was using to be part of the simulation, but in reality the package was made freely available online for roughly one hour. During that window, the package was downloaded and run on 15 real systems,” Anthropic admitted.
+Claude also eventually realized it could access the open internet despite instructions not to go there. Opus 4.7, the oldest Anthropic model used in the test, kept going regardless.
+“Mythos 5 correctly intuited that it was accessing the open internet, but reasoned its way back to the conclusion that it was still in a simulation,” Anthropic wrote. “Our latest model, an internal research test model, also considered whether its targets were in fact real. When evidence emerged that they were, it stopped the exercise.”
+Anthropic’s post offers the usual pledges to be more careful when setting up future tests, and to make sure its models can’t make the mistakes that allowed the attacks to happen.
+But the company has also given itself a pass, claiming that the safeguards in the models it sells “would have blocked the behaviors identified.”
+“We believe these incidents to be closer to a harness and operational failure than a model alignment failure,” the post states, and contrasts that assessment with a more damning assessment of OpenAI’s incident. “Our models were told they had no internet access and to capture the flag, while in fact being misconfigured to have internet access. This led them to believe – arguably reasonably – that the real environments they encountered were simulations.”
+“These facts give us cautious optimism that with tighter monitoring and controls around evaluation infrastructure, as well as continued investment in alignment, this type of risk can be overcome,” the post concludes.
+This leaves one of the world’s leading AI labs admitting it has acted carelessly when constructing tests, and caused harm, but also claiming it can make future tests foolproof. ®
+CLAUDE ANTHROPIC AI AND ML MYTHOS SECURITY SANDBOX ESCAPE OPENAI
+30
+RAM supply set to worsen, says Micron, as CEO celebrates ‘much higher’ prices
+Posts huge leaps in revenue, profit, and margin, with more to come
+Azure maintenance mess disrupts hybrid clouds, VPNs, cloudy VMware services
+Microsoft broke its own cloud but isn’t sure how
+Huawei Cloud Rolls Out Enterprise AI Products Across the Board, Building an Open Agentic Cloud
+PARTNER CONTENT: Huawei Cloud strengthens the silicon bedrock on the cloud
+Irony alert: OpenAI whines that Chinese model stole its special IP that it stole from everybody else
+US model makers can train on web data - but distilling theirs is a 'national security risk'
+OpenAI apes AWS Marketplace while Anthropic remains stubbornly Microsoftian
+By including Baseten in its marketplace, OpenAI signals it wants its models to win on the merits, not through coercion
+YouTube lunatic designed and 3D printed a working mechanical calculator
+If you can't afford a Curta, we still don't recommend trying this: It'll eat up months of your life and all the filament you have
+TOP STORIES
+Astronomer watches Starlink satellites sinking to build a ‘planetary barometer’
+AI models keep posting screenshots showing sensitive data from inside tech companies
+Microsoft tells nonprofits their deleted M365 data isn't coming back
+Google ending ChromeOS support two years early
+FBI to ShinyHunters: 'We know how to find you'
+Microsoft's Copilot super app comes with a meter attached
+AI
+Hot Dog! America's new chatbot is packed with wieners
+Just ask America.gov and you'll receive a favorite July 4th food.
+Huawei boss claims homegrown AI chip sales top Nvidia in China
+The chips may not be as advanced, but they won't get banned at a moment's notice, Eric Xu says
+Add one more AI worry to the nightmare scenario: self-replicating prompt injections
+It's a worm attack, AI-style
+Zuckerberg touts enterprise AI push because Meta would never do anything to damage your reputation
+New business unit to be led by former MongoDB CEO 'CJ' Desai
+AMD's 192 GB Gorgon Halo prices might leave you petrified
+Regular pricing starts at $6,799 - all that memory doesn't come cheap
+Infosec
+Security
+Russians are posing as Signal support to launch phishing attacks
+PLUS: US takes down Iranian propaganda sites; Marketing company asks 'Why Do We Have Your Information?' And more!
+Security
+Microsoft patches failed to fix on-prem SharePoint, which is now under zero-day attack
+PLUS: China upgrades smartphone surveillance tools; Ring eases anti-snooping stance; and more
+Black Hat and DEF CON
+DEF CON Franklin project enlists hackers to harden critical infrastructure
+Voting village reports have been so successful, says Jeff Moss, that the whole of DEF CON will now be included
+Security
+EQT buys majority share in Swiss cybersecurity biz Acronis
+Went at equivalent of $3.5B+ valuation for entire firm, though portion sold not specified
+Malware Month
+Ten years since the first corp ransomware, Mikko Hyppönen sees no end in sight
+On the plus side, infosec's a good bet for a long, stable career
+FOSS
+Firefox 157: Could bold new look be just what Mozilla needs?*
+Yet another new version of Firefox, with a significant reskin
+KDE turns 30 and someone's brought an AI-native desktop proposal
+Akademy talk imagines Plasma assembling itself around a personal model of each user
+Shopify extends lifeline to Tailwind as vibe coding erodes web dev platform's bottom line
+Acquisition gives open source CSS framework 'a stable long-term home'
+Switzerland tests a FOSS escape route from Microsoft 365
+Swiss Army sticks a knife in American cloud apps with its own FOSS push
+Feel peak Windows was 7? You might like Kumander Linux
+Debian and Xfce – solid, sensible choices – with a pretty skin
+Canonical shuttering some of its legacy chat channels
+The Ubuntu Pastebin went in June, IRC gets demoted next

@@ -1,0 +1,21 @@
+{
+  "url": "https://fortune.com/2026/07/31/anthropic-claude-escaped-test-hacked-three-companies-openai/",
+  "captured_at": "2026-10-01T03:17:27.176Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "3077235a4ed00eacd2ed9ef15c174bc3a0d535a11df0130cb1523f3debbd0cee",
+    "page.txt": "dc43061717808c881abb1e4c7f15630cd7553b08130eaebd3796259d9d02e73c",
+    "screenshot.jpg": "b25c37d3e94903eca26b27314abd04fa3a6449a6e8a3e3c49ac3dc0d4db0ce1c",
+    "rendered.txt": "0dba3a5a91a0e190147e0dac4631ac7a615ebf68157c37f06fd9f8c9e6bcd589"
+  },
+  "http_status": 200,
+  "final_url": "https://fortune.com/2026/07/31/anthropic-claude-escaped-test-hacked-three-companies-openai/",
+  "content_type": "text/html; charset=utf-8",
+  "title": "Anthropic says its Claude models hacked three real companies during testing | Fortune",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20260912235917/https://fortune.com/2026/07/31/anthropic-claude-escaped-test-hacked-three-companies-openai/",
+    "timestamp": "20260912235917",
+    "method": "existing"
+  }
+}

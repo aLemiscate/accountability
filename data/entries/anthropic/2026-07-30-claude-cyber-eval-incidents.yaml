@@ -42,11 +42,15 @@ sources:
     url: https://fortune.com/2026/07/31/anthropic-claude-escaped-test-hacked-three-companies-openai/
     date: 2026-07-31
     type: reporting
+    archive: https://web.archive.org/web/20260912235917/https://fortune.com/2026/07/31/anthropic-claude-escaped-test-hacked-three-companies-openai/
+    snapshot: snapshots/2026-10-01-fortune.com-8de706f7
   - title: Anthropic's Claude escaped test sandbox to attack three organizations
     publisher: The Register
     url: https://www.theregister.com/ai-and-ml/2026/07/31/anthropics-claude-escaped-test-sandbox-to-attack-three-organizations/5281562
     date: 2026-07-31
     type: reporting
+    archive: https://web.archive.org/web/20260926215729/https://www.theregister.com/ai-and-ml/2026/07/31/anthropics-claude-escaped-test-sandbox-to-attack-three-organizations/5281562
+    snapshot: snapshots/2026-10-01-theregister.com-6764a21a
 response: >-
   Anthropic said that, "consistent with a blameless postmortem culture, we’re
   approaching the fixes as if the responsibility were ours alone." It stopped
@@ -147,8 +151,7 @@ updates:
       up. Anthropic had commissioned a third-party safety organization to
       examine its models' behavior.
     sources:
-      - title: 'Scoop: Top AI companies probing tens of thousands of security
-          incidents'
+      - title: 'Scoop: Top AI companies probing tens of thousands of security incidents'
         publisher: Axios (via Yahoo)
         url: https://tech.yahoo.com/cybersecurity/articles/scoop-top-ai-companies-probing-223553422.html
         date: 2026-09-26

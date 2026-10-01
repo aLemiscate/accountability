@@ -11,17 +11,17 @@ quote: >-
   energy, so that our operations don’t increase your electricity prices.
 summary: >-
   As public concern grew about data centers driving up electricity prices,
-  OpenAI said each Stargate site would come with a community plan. It would
-  fund the new generation, transmission and grid upgrades its campuses need,
-  or build its own off-grid power, and run its data centers as flexible loads
-  that cut grid use when the grid is stressed. It cited partner arrangements in
+  OpenAI said each Stargate site would come with a community plan. It would fund
+  the new generation, transmission and grid upgrades its campuses need, or build
+  its own off-grid power, and run its data centers as flexible loads that cut
+  grid use when the grid is stressed. It cited partner arrangements in
   Wisconsin, Michigan and Texas.
 concreteness: measurable
 status: open
 breaks_if: >-
   A utility commission, utility filing or credible analysis finds that a
-  Stargate site raised electricity rates for other customers, or that grid
-  costs for a site were passed to ratepayers.
+  Stargate site raised electricity rates for other customers, or that grid costs
+  for a site were passed to ratepayers.
 patterns: []
 related: [2026-02-11-anthropic-cover-electricity-prices, 2025-05-22-stargate-uae]
 sources:
@@ -30,6 +30,8 @@ sources:
     url: https://openai.com/index/stargate-community/
     date: 2026-01-20
     type: primary
+    archive: https://web.archive.org/web/20260911173714/https://openai.com/index/stargate-community/
+    snapshot: snapshots/2026-10-01-openai.com-205b650a
   - title: OpenAI pledges to "pay its own way" to power Stargate data centers
     publisher: DatacenterDynamics
     url: https://www.datacenterdynamics.com/en/news/openai-pledges-to-pay-its-own-way-to-power-stargate-data-centers/
