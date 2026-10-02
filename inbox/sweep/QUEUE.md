@@ -12,21 +12,17 @@ Nothing unread: every post collected so far has a decision.
 
 ## Read so far only for safety, ethics and policy claims
 
-Until October 2026 the record covered safety, ethics and policy claims only, and posts were read with that in mind. 30,161 post(s) written while their author was at the company (or after) still need a reading for every kind of claim. Print an account's list with `npm run reading-queue -- --rescope <account>` and record the reading with `--rescope <account> --log`.
+Until October 2026 the record covered safety, ethics and policy claims only, and posts were read with that in mind. 25,427 post(s) written while their author was at the company (or after) still need a reading for every kind of claim. Print an account's list with `npm run reading-queue -- --rescope <account>` and record the reading with `--rescope <account> --log`.
 
 | Account | To re-read | Posted |
 | --- | --: | --- |
 | @ilyasut | 492 | 2016-07-28 to 2026-02-27 |
 | @janleike | 213 | 2021-01-22 to 2026-05-07 |
-| @kalinowski007 | 17 | 2024-11-04 to 2026-05-17 |
-| @jackclarkSF | 3848 | 2016-03-04 to 2026-05-19 |
-| @btaylor | 16 | 2023-11-22 to 2026-05-04 |
 | @woj_zaremba | 397 | 2018-05-17 to 2026-04-08 |
 | @johnschulman2 | 67 | 2021-05-03 to 2026-05-11 |
 | @boazbaraktcs | 104 | 2023-07-19 to 2026-05-17 |
 | @jachiam0 | 2289 | 2018-11-08 to 2026-09-12 |
 | @JoHeidecke | 17 | 2022-04-20 to 2025-10-27 |
-| @zicokolter | 2 | 2024-08-08 to 2025-11-10 |
 | @paulfchristiano | 6 | 2017-01-11 to 2026-09-09 |
 | @hlntnr | 343 | 2021-01-04 to 2026-07-30 |
 | @Miles_Brundage | 10193 | 2018-01-01 to 2026-08-26 |
@@ -43,15 +39,10 @@ Until October 2026 the record covered safety, ethics and policy claims only, and
 | @AmandaAskell | 2731 | 2018-04-04 to 2026-05-09 |
 | @hilbertspaess | 190 | 2021-11-22 to 2026-09-09 |
 | @MrinankSharma | 6 | 2023-03-13 to 2026-02-09 |
-| @adamdangelo | 186 | 2018-04-24 to 2025-11-06 |
-| @LHSummers | 202 | 2023-11-15 to 2025-11-10 |
 | @bobmcgrewai | 41 | 2019-05-23 to 2025-12-02 |
 | @annaadeola | 6 | 2022-03-15 to 2022-04-06 |
 | @lilianweng | 106 | 2018-08-22 to 2026-05-18 |
-| @joannejang | 136 | 2019-09-08 to 2026-04-21 |
 | @w01fe | 23 | 2019-09-27 to 2026-08-26 |
-| @polynoamial | 193 | 2023-06-16 to 2026-08-01 |
-| @aidan_mclau | 134 | 2024-06-19 to 2026-09-12 |
 | @tszzl | 58 | 2021-02-01 to 2023-03-23 |
 | @RichardMCNgo | 2755 | 2021-01-01 to 2026-04-14 |
 | @JacobHHilton | 20 | 2021-12-16 to 2025-07-22 |
