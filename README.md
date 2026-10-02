@@ -1,7 +1,11 @@
 # Said / Did
 
 A living, sourced record of what OpenAI and Anthropic, and the people who lead
-them, have said about ethics and safety, set against what they did next.
+them, have claimed and promised, set against what they did next. That covers
+safety, ethics and military use, and also the products: capability and
+benchmark claims, promised features and release dates, usage limits and plan
+terms, and promises about how the products behave. Kept promises are recorded
+too.
 
 Each entry is either something **said** (a principle, commitment, claim or
 denial) or something **done** (an action, reversal, policy rewrite, disclosure

@@ -39,14 +39,16 @@
 - id: silent-edit
   name: Silent Edits
   thesis: >-
-    Policies and principles get rewritten without a changelog, and the change
-    comes out when a journalist or watcher diffs the page.
+    Policies, principles and products get changed without a changelog, and
+    the change comes out when a journalist, a watcher or a paying user notices
+    the difference.
   tells:
     - A policy page changes with no announcement, or with an announcement that leads with an unrelated framing ("clearer", "more readable").
     - Old wording is still online somewhere but is no longer called the operative document.
+    - Users report a model or product behaving differently under the same name before the company says anything.
   watch_for: >-
-    Run the page watcher. Usage policies, charters and safety frameworks are
-    the pages most likely to change quietly.
+    Run the page watcher. Usage policies, charters, safety frameworks and plan
+    pages are the pages most likely to change quietly.
 
 - id: regulate-us-not-like-that
   name: Regulate Us (Not Like That)
@@ -193,3 +195,48 @@
     Compare the date the company learned of a problem with the date it said so
     publicly. The next serious incident will probably surface through a third
     party first.
+
+- id: coming-weeks
+  name: In the Coming Weeks
+  thesis: >-
+    A feature or release is announced with a near date, often with a demo, and
+    then ships late, smaller than shown, or not at all. When the date passes,
+    there is rarely a public note saying so.
+  tells:
+    - '"In the coming weeks", "later this year" or "soon" in a launch post, with no date.'
+    - A demo of something nobody outside the company can use yet.
+    - The promise drops off a model page or roadmap without an announcement.
+  watch_for: >-
+    Write down every dated promise from a launch event and check it when the
+    date passes. The features most likely to slip are the ones demoed on
+    stage but not yet available to anyone.
+
+- id: shrinking-plan
+  name: The Shrinking Plan
+  thesis: >-
+    A paid plan is sold on generous usage or a particular model, and then the
+    limits, the model or the terms change after people have paid. The reason
+    (abuse, capacity, a few heavy users) is usually given once users notice.
+  tells:
+    - '"Unlimited" with an abuse clause, or limits stated only as "approximately".'
+    - Limit changes users report before the company announces them.
+    - A model removed from a paid plan at a new launch, then restored after complaints.
+  watch_for: >-
+    Diff the plan and help-center pages around each big launch, when capacity
+    is tightest. Compare what a plan said on the day people bought it with
+    what it says now.
+
+- id: claims-outrun-results
+  name: Claims Outrun Results
+  thesis: >-
+    Capability claims made at a launch or by company leaders (benchmark
+    charts, "PhD-level", "solved open problems", dated predictions) are
+    corrected, walked back or not reproduced once outsiders check them.
+  tells:
+    - Results on benchmarks the company ran itself, funded, or had special access to.
+    - Charts or numbers posted without the method behind them.
+    - Breakthrough claims posted by executives before any paper or independent check.
+  watch_for: >-
+    Wait for independent evaluations and replications before treating a launch
+    claim as settled, and record when they arrive. Dated predictions get
+    checked on their date.
