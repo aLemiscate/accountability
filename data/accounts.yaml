@@ -8,6 +8,17 @@
 #   match     optional topic filter for this account's sweep triage list
 #             (a regex; replaces the run's default)
 #   sweep     false to leave the account out of the full-history Sweep
+#   since     YYYY-MM the person joined the company or its board. Posts from
+#             before then are not claims by the company and are read only
+#             once; posts from then on (including after they left, when they
+#             speak as former staff) are read for every kind of claim.
+#             Omit when all their posts count (org accounts, founders).
+#   tenure    instead of since, for someone who left and came back: a list
+#             of YYYY-MM..YYYY-MM ranges (an open end means "to now").
+#   speaks_for  false for someone in the record who never spoke for either
+#             company (a litigant or outside critic). Their posts are read once
+#             for what they say about the companies; there are no company
+#             claims among them to re-read for.
 #
 # Confirm a handle belongs to the person before relying on results.
 
@@ -21,8 +32,10 @@
   x: ilyasut
 - actor: jan-leike
   x: janleike
+  since: 2021-01
 - actor: caitlin-kalinowski
   x: kalinowski007
+  since: 2024-11
 - actor: anthropic
   x: AnthropicAI
   bluesky: anthropic.com
@@ -30,6 +43,7 @@
   x: DarioAmodei
 - actor: jack-clark
   x: jackclarkSF
+  since: 2016-01
   bluesky: jackclarksf.bsky.social
 
 # Added after the September 2026 topic-by-account sweep. Each handle was
@@ -42,20 +56,25 @@
   x: jasonkwon
 - actor: chris-lehane
   x: chrislehane
+  since: 2023-10
 - actor: bret-taylor
   x: btaylor
+  since: 2023-11
 - actor: jakub-pachocki
   x: merettm
 - actor: mark-chen
   x: markchen90
 - actor: nick-turley
   x: nickaturley
+  since: 2022-01
 - actor: fidji-simo
   x: fidjissimo
+  since: 2024-03
 - actor: thibault-sottiaux
   x: thsottiaux
 - actor: kevin-weil
   x: kevinweil
+  since: 2024-06
 - actor: mira-murati
   x: miramurati
 - actor: wojciech-zaremba
@@ -64,6 +83,7 @@
   x: johnschulman2
 - actor: boaz-barak
   x: boazbaraktcs
+  since: 2023-06
 - actor: joshua-achiam
   x: jachiam0
 - actor: johannes-heidecke
@@ -72,42 +92,57 @@
   x: dylanscandinaro
 - actor: zico-kolter
   x: zicokolter
+  since: 2024-08
 - actor: paul-christiano
   x: paulfchristiano
 - actor: helen-toner
   x: hlntnr
+  since: 2021-01
 - actor: miles-brundage
   x: Miles_Brundage
+  since: 2018-01
 - actor: steven-adler
   x: sjgadler
+  since: 2020-12
 - actor: daniel-kokotajlo
   x: DKokotajlo
+  since: 2022-01
 - actor: gretchen-krueger
   x: GretchenMarina
+  since: 2019-01
 - actor: rosie-campbell
   x: RosieCampbell
+  since: 2021-01
 - actor: carroll-wainwright
   x: clwainwright
 - actor: leopold-aschenbrenner
   x: leopoldasch
+  since: 2023-01
 - actor: anthropic
   x: claudeai
 - actor: mike-krieger
   x: mikeyk
+  since: 2024-05
 - actor: chris-olah
   x: ch402
+  since: 2018-01
 - actor: evan-hubinger
   x: EvanHub
+  since: 2022-01
 - actor: sam-bowman
   x: sleepinyourhat
+  since: 2022-01
 - actor: ethan-perez
   x: EthanJPerez
+  since: 2022-01
 - actor: amanda-askell
   x: AmandaAskell
+  since: 2018-01
 - actor: jacob-coxon
   x: hilbertspaess
 - actor: mrinank-sharma
   x: MrinankSharma
+  since: 2023-01
 
 # Added for the full-history sweep (September 2026). Each handle was confirmed
 # from the person's own posts (X's embed data) or their X profile.
@@ -117,10 +152,13 @@
   x: bradlightcap
 - actor: adam-dangelo
   x: adamdangelo
+  since: 2018-01
 - actor: larry-summers
   x: LHSummers
+  since: 2023-11
 - actor: elon-musk
   x: elonmusk
+  speaks_for: false
   # In scope as OpenAI's co-founder and litigant: list only posts about the labs.
   # His archive holds 125,000+ posts; the full-history sweep read his most recent
   # year (Sept 2025 to Sept 2026) and stops there. The weekly watch still reads
@@ -133,6 +171,7 @@
   x: npew
 - actor: alexander-embiricos
   x: embirico
+  since: 2024-06
 - actor: anna-makanju
   x: annaadeola
 - actor: lilian-weng
@@ -143,12 +182,15 @@
   x: w01fe
 - actor: noam-brown
   x: polynoamial
+  since: 2023-06
 - actor: aidan-mclaughlin
   x: aidan_mclau
+  since: 2024-06
 - actor: roon
   x: tszzl
 - actor: richard-ngo
   x: RichardMCNgo
+  since: 2021-01
 - actor: jacob-hilton
   x: JacobHHilton
 - actor: daniela-amodei
@@ -161,21 +203,29 @@
   x: samsamoa
 - actor: andrej-karpathy
   x: karpathy
+  tenure: [2015-12..2017-07, 2023-02..]
 - actor: sasha-de-marigny
   x: sashadem
+  since: 2023-01
 - actor: jason-clinton
   x: JasonDClinton
 - actor: logan-graham
   x: logangraham
+  since: 2021-06
 - actor: alex-albert
   x: alexalbert__
+  since: 2023-01
 - actor: boris-cherny
   x: bcherny
+  since: 2024-01
 - actor: cat-wu
   x: _catwu
+  since: 2024-01
 - actor: kyle-fish
   x: fish_kyle3
 - actor: jack-lindsey
   x: Jack_W_Lindsey
+  since: 2022-01
 - actor: trenton-bricken
   x: TrentonBricken
+  since: 2021-06

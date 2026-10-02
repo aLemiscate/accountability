@@ -102,6 +102,12 @@ export function validate({ patterns, actors, entries, accounts = [] }) {
     if (!actorIds.has(acc.actor)) errors.push(`accounts.yaml: unknown actor "${acc.actor}" (add it to data/actors.yaml)`);
     if (!acc.x && !acc.bluesky) errors.push(`accounts.yaml: ${acc.actor} needs an x or bluesky handle`);
     if (acc.sweep != null && typeof acc.sweep !== 'boolean') errors.push(`accounts.yaml: ${acc.actor} has sweep: ${acc.sweep} (use true or false)`);
+    if (acc.since != null && !/^\d{4}-\d{2}$/.test(String(acc.since))) errors.push(`accounts.yaml: ${acc.actor} has since: ${acc.since} (use YYYY-MM)`);
+    if (acc.tenure != null && (!Array.isArray(acc.tenure) || acc.tenure.some((r) => !/^\d{4}-\d{2}\.\.(\d{4}-\d{2})?$/.test(String(r))))) {
+      errors.push(`accounts.yaml: ${acc.actor} has a bad tenure (use a list of YYYY-MM..YYYY-MM ranges)`);
+    }
+    if (acc.speaks_for != null && typeof acc.speaks_for !== 'boolean') errors.push(`accounts.yaml: ${acc.actor} has speaks_for: ${acc.speaks_for} (use true or false)`);
+    if (acc.since != null && acc.tenure != null) errors.push(`accounts.yaml: ${acc.actor} has both since and tenure (use one)`);
     if (acc.match != null) {
       try {
         new RegExp(acc.match, 'i');

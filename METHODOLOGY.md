@@ -9,6 +9,21 @@ This record is meant to be hard to dismiss. Everything below serves that goal.
 - **Did**: an action, reversal, policy rewrite, disclosure or outcome that
   bears on something said.
 
+Claims are not limited to safety and ethics. Any notable public claim or
+promise counts when it can be checked against what happened, including:
+
+- capability and benchmark claims ("PhD-level", "solved open problems",
+  launch-day charts);
+- promised features and release dates ("in the coming weeks", "later this
+  year");
+- usage limits, pricing and what a plan includes, and changes to them;
+- promises about how a product behaves ("we never degrade models", "no silent
+  changes", "no ads like that");
+- dated predictions by company leaders.
+
+Promises that were kept go in as well as ones that were not. Minor product
+churn (a button moved, a bug fixed in a day) does not.
+
 A "did" entry links to the statements it contradicts (`contradicts`). That
 link is the receipt. Actions that set up a pattern without contradicting a
 specific statement (a defense partnership, a data-policy default) can stand on
@@ -19,7 +34,7 @@ their own with `patterns` or `related`.
 - The two organizations.
 - People speaking in a **public or official capacity**: executives, founders,
   board members, spokespeople, and staff who speak publicly about the
-  company's mission, safety or policy.
+  company's mission, products, safety or policy.
 - Former staff, when their public statements are the evidence (a resignation
   post, testimony).
 
