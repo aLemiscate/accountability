@@ -1,9 +1,11 @@
 # On demand: sweep the full archived history of every X account in
 # data/accounts.yaml through the Wayback Machine (and the X API when an
 # X_BEARER_TOKEN secret is set), including posts deleted since. Every post
-# found is kept in inbox/sweep/<account>/<year>.jsonl; posts matching the topic
-# filter, and deleted ones, are listed in inbox/sweep/<account>.md for triage;
-# inbox/sweep/COVERAGE.md says how much of each account was read.
+# found is kept in inbox/sweep/<account>/<year>.jsonl. Every post nobody has
+# read yet goes into the reading queue, inbox/sweep/QUEUE.md, with no topic
+# filter. (inbox/sweep/<account>.md still lists the posts matching the topic
+# filter, as a quick view.) inbox/sweep/COVERAGE.md says how much of each
+# account was swept.
 #
 # Each account runs as its own job. A job reads for up to `budget` minutes and
 # saves its place; run the workflow again and it picks up where it stopped,
@@ -23,7 +25,7 @@ on:
         description: 'Minutes each account may spend reading posts before saving its place'
         default: '320'
       match:
-        description: 'Topic filter for the triage list (every post is kept either way)'
+        description: 'Topic filter for the quick-view lists in inbox/sweep/<account>.md (every post is kept and queued for reading either way)'
         default: 'safety|safe\b|safer|align|regulat|legislat|\blaws?\b|nonprofit|non-profit|mission|open.?source|open.?weight|military|defen[cs]e|pentagon|department of war|surveil|advertis|\bads?\b|profit|equity|humanity|commit|promise|pledge|pause|slow|\brac(e|ing)\b|democra|china|\bboard\b|congress|senate|lawsuit|copyright|election|super ?pac|\bpacs?\b|lobby|donat|teen|child|minor|mental health|suicid|preparedness|responsible scaling|\brsp\b|evaluat|audit|\bagi\b|superintelligen|\basi\b|risk|danger|catastroph|extinct|misuse|bioweapon|biosecur|cyber|weapon|policy|govern|trust|transparen|disclos|whistle|\bndas?\b|non-?disparage|resign|\bleav(e|ing)\b|fired|oust|investigat|privacy|consent|safeguard|guardrail|red.?line|contract|export control|\bchips?\b|compute|oversight|independen|accountab|erotica|adult|sycophan|decept|sabotag|scheming|model welfare|conscious'
 
 permissions:
@@ -122,6 +124,7 @@ jobs:
             # Posts are stored by year now: drop the first sweep's single files.
             rm -f inbox/sweep/*.jsonl
             npm run sweep-coverage
+            npm run reading-queue
             git add inbox/sweep
             if git diff --cached --quiet; then echo "Nothing new."; break; fi
             git commit -m "Sweep: full-history posts and coverage, $(date -u +%F)"
