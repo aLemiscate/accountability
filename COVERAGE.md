@@ -11,15 +11,15 @@ still be missing. The rules for what counts are in
 | | Said | Did | Total |
 | --- | --: | --: | --: |
 | OpenAI | 57 | 49 | 106 |
-| Anthropic | 33 | 26 | 59 |
-| **Total** | **90** | **75** | **165** |
+| Anthropic | 34 | 26 | 60 |
+| **Total** | **91** | **75** | **166** |
 
 Status of the "said" entries:
 
 | | Standing | Kept | Eroded | Contradicted | Broken | Reversed |
 | --- | --: | --: | --: | --: | --: | --: |
 | OpenAI | 20 | 7 | 12 | 6 | 4 | 8 |
-| Anthropic | 16 | 6 | 3 | 5 | 2 | 1 |
+| Anthropic | 17 | 6 | 3 | 5 | 2 | 1 |
 
 Every quote with a saved snapshot matches the snapshot's text word for word
 (90 of 90). For one of them, the White House accord, the text exists only as
@@ -140,7 +140,7 @@ for anything that changes an entry.
 
 The third reading of the Twitter archive, and a search of reporting for the
 same kinds of claims, widened the record from safety and ethics to any notable
-claim that can be checked. 43 new entries (26 OpenAI, 17 Anthropic) and 37
+claim that can be checked. 44 new entries (26 OpenAI, 18 Anthropic) and 38
 updated ones.
 
 - **Usage limits and plan terms.** OpenAI: Codex's promise to "engage with the
@@ -153,7 +153,9 @@ updated ones.
 - **Capability claims.** OpenAI: GPT-4's bar-exam percentile; GPT-5 and the
   Erdős problems; the Navier-Stokes announcement and the dispute over how it
   was reached. Anthropic: the jailbreak classifiers; blackmail "completely
-  eliminated"; the Opus 4.6 AI R&D survey.
+  eliminated"; the Opus 4.6 AI R&D survey; the enzyme system Claude
+  "autonomously discovered," which a researcher who used Claude says his
+  group had studied for years.
 - **Dated forecasts.** OpenAI's automated research intern; Anthropic's
   powerful AI by late 2026 and its 2027 interpretability goal. All standing.
 - **Products announced and not delivered as described.** OpenAI: the GPT
@@ -185,8 +187,10 @@ report that it produced no written findings), the Pentagon deal
 (staff dissent and the FOIA release), the Pentagon surveillance promise
 (Barak, Altman's walk-away line), Mythos (the 5.1 models), the electricity
 pledge (the Colossus lease in Memphis), the exit documents (equal access to
-liquidity for former employees, from June 2024), and Codex limits (the
-November 2025 "same usage throughout the day" claim).
+liquidity for former employees, from June 2024), Codex limits (the
+November 2025 "same usage throughout the day" claim), Anthropic's training
+opt-out (the carve-out for conversations flagged for safety review), and its
+"never degrade model quality" statement (Fable 5's hidden safeguards).
 
 Checked and left out, among others: Anthropic's 2026 text watermark FAQ (a
 disclosure ahead of rollout, with no broken claim), OpenAI's First Proof
@@ -221,6 +225,7 @@ for the Anthropic counterpart and recorded it where one exists.
 | Capability claims contradicted | `2023-03-14-gpt-4-bar-exam-top-10`, `2025-10-gpt-5-erdos-claim` | `2025-02-03-classifiers-defend-universal-jailbreaks`, `2026-05-08-blackmail-completely-eliminated` |
 | Dated forecasts | `2025-10-29-automated-research-intern-goal` | `2025-03-06-anthropic-powerful-ai-late-2026`, `2025-04-24-interpretability-2027-goal` |
 | Announced products that slipped or never shipped | `2023-11-06-gpt-store-make-money`, `2025-09-29-instant-checkout-million-shopify`, `2024-05-13-gpt-4o-voice-coming-weeks` | `2024-06-20-claude-3-5-opus-later-this-year`, `2024-10-22-claude-3-5-haiku-same-cost` |
+| AI discoveries disputed by researchers who used the company's product | `2026-09-08-navier-stokes-announcement` | `2026-09-23-claude-enzyme-discovery-claim` |
 | Open-source promises after an acquisition | `2026-03-09-promptfoo-stays-open-source` | `2025-12-02-bun-stays-open-source` |
 | Website owners' opt-outs | `2023-09-27-browsing-follows-robots-txt` | — (its help page says Claude-User follows robots.txt) |
 | Marking AI-written text | `2023-01-31-ai-text-detection-improved-methods` | — (watermarks new models' text from August 2026; no claim broken) |
