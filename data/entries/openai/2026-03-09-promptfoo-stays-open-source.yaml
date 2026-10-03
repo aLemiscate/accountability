@@ -1,0 +1,35 @@
+title: 'Standing promise: after OpenAI''s acquisition, "Promptfoo will remain open
+  source under the current license"'
+date: 2026-03-09
+org: openai
+type: said
+kind: commitment
+who: [openai]
+venue: Post on X announcing the acquisition
+quote: >-
+  Promptfoo will remain open source under the current license, and we will
+  continue to service and support current customers.
+summary: >-
+  OpenAI acquired Promptfoo, an open-source tool for testing and red-teaming AI
+  applications, to strengthen security testing in its Frontier agent platform,
+  and promised the project would stay open source under its existing MIT
+  license. As of October 2026 the repository's license is still MIT.
+concreteness: measurable
+status: open
+breaks_if: >-
+  Promptfoo relicensed away from MIT, its open-source releases stopped, or
+  existing customers dropped before their contracts ended.
+related: [2025-12-02-bun-stays-open-source]
+sources:
+  - title: OpenAI on X ("We’re acquiring Promptfoo")
+    publisher: X
+    url: https://x.com/OpenAI/status/2031052793835106753
+    date: 2026-03-09
+    type: primary
+  - title: Promptfoo LICENSE file
+    publisher: GitHub (promptfoo/promptfoo)
+    url: https://github.com/promptfoo/promptfoo/blob/main/LICENSE
+    date: 2026-10-03
+    type: primary
+note: >-
+  Held so far. Anthropic made the same promise for Bun (see related).
