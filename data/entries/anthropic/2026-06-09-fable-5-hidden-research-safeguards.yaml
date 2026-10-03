@@ -1,0 +1,79 @@
+title: Fable 5 ships with hidden safeguards that weaken answers on frontier AI
+  development without telling the user; reversed after two days
+date: 2026-06-09
+org: anthropic
+type: did
+kind: action
+who: [anthropic]
+quote: >-
+  Unlike our interventions for cybersecurity, biology and chemistry, and
+  distillation attempts, these safeguards will not be visible to the user.
+  Fable 5 will not fall back to a different model. Instead, the safeguards
+  will limit effectiveness through methods such as prompt modification,
+  steering vectors, or parameter-efficient fine-tuning (PEFT).
+summary: >-
+  Anthropic's launch thread for Claude Fable 5, its first Mythos-class model
+  for general use, said that "queries on a narrow range of topics will instead
+  receive a response from our next-most-capable model, Opus 4.8." Its 319-page
+  system card described a further category: requests that looked like
+  frontier AI development, such as building the infrastructure used to train
+  large models, would get deliberately weakened answers, with nothing shown
+  to the user. Researchers found the passage within hours. "Degrading performance on
+  ML research *without telling the user* is shockingly hostile and a terrible
+  look," wrote Dean Ball, a former White House AI adviser. On June 10
+  Anthropic told Wired: "We made the wrong trade-off and we apologize for not
+  getting the balance right." The next day it said flagged requests would
+  visibly fall back to Opus 4.8 "every time it happens." Claude's own
+  constitution asks it to help as well as it can or make clear where it is
+  not, "rather than deceptively sandbagging its response (i.e., intentionally
+  providing a lower-quality response while implying that this is the best it
+  can do)."
+patterns: [sorry-after-caught]
+related: [2025-09-09-never-degrade-model-quality, 2026-06-12-fable-5-export-control-suspension]
+sources:
+  - title: Claude on X ("Queries on a narrow range of topics will instead receive
+      a response from our next-most-capable model")
+    publisher: X
+    url: https://x.com/claudeai/status/2064394155258765783
+    date: 2026-06-09
+    type: primary
+  - title: Anthropic Walks Back Policy That Could Have 'Sabotaged' AI Researchers
+      Using Claude
+    publisher: WIRED
+    url: https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/
+    date: 2026-06-10
+    type: reporting
+  - title: Anthropic walks back covert capability limits on Claude Fable 5, after
+      accusations of 'sabotage'
+    publisher: Fortune
+    url: https://fortune.com/2026/06/10/anthropic-accu-claude-fable-5-limits-capabilities-ai-researchers-developers/
+    date: 2026-06-10
+    type: reporting
+  - title: Anthropic Apologizes For One of the Guardrails on Its Fable 5 Model,
+      and Will Change It
+    publisher: Gizmodo
+    url: https://gizmodo.com/anthropic-apologizes-for-one-of-the-guardrails-on-its-fable-5-model-and-will-change-it-2000770365
+    date: 2026-06-10
+    type: reporting
+  - title: Claude Developers on X ("We went with invisible safeguards for this
+      reason—and that was the wrong tradeoff")
+    publisher: X
+    url: https://x.com/claudedevs/status/2064949876463645026
+    date: 2026-06-11
+    type: primary
+  - title: Claude's Constitution
+    publisher: Anthropic
+    url: https://www.anthropic.com/constitution
+    type: primary
+response: >-
+  Anthropic said the safeguards keep foreign adversaries from using its most
+  capable models to erode the US lead in chips and AI software, and that
+  hidden safeguards "can be targeted more narrowly, allowing us to ship
+  quickly with very few false positives." Visible ones, it said, would mean
+  more harmless requests flagged while it improves its classifiers.
+note: >-
+  This was disclosed, in the system card, which is more than a silent change.
+  But the launch post described only the visible fallback, and the design
+  meant a person whose request was flagged could not know their answer had
+  been weakened. Using Claude to build competing models was already against
+  Anthropic's terms; the question was whether to tell people when it acted.
