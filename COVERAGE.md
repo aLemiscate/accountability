@@ -140,7 +140,7 @@ for anything that changes an entry.
 
 The third reading of the Twitter archive, and a search of reporting for the
 same kinds of claims, widened the record from safety and ethics to any notable
-claim that can be checked. 44 new entries (26 OpenAI, 18 Anthropic) and 38
+claim that can be checked. 44 new entries (26 OpenAI, 18 Anthropic) and 39
 updated ones.
 
 - **Usage limits and plan terms.** OpenAI: Codex's promise to "engage with the
@@ -189,8 +189,10 @@ report that it produced no written findings), the Pentagon deal
 pledge (the Colossus lease in Memphis), the exit documents (equal access to
 liquidity for former employees, from June 2024), Codex limits (the
 November 2025 "same usage throughout the day" claim), Anthropic's training
-opt-out (the carve-out for conversations flagged for safety review), and its
-"never degrade model quality" statement (Fable 5's hidden safeguards).
+opt-out (the carve-out for conversations flagged for safety review), its
+"never degrade model quality" statement (Fable 5's hidden safeguards), and the
+Long-Term Benefit Trust (the founders' proposed 50.1% voting control ahead of
+the IPO).
 
 Checked and left out, among others: Anthropic's 2026 text watermark FAQ (a
 disclosure ahead of rollout, with no broken claim), OpenAI's First Proof
