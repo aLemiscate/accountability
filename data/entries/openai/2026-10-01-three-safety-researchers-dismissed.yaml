@@ -1,0 +1,57 @@
+title: OpenAI parts ways with three safety researchers it says shared
+  confidential information with an outside safety organization
+date: 2026-10-01
+org: openai
+type: did
+kind: action
+who: [openai]
+summary: >-
+  The Wall Street Journal reported that OpenAI had dismissed three researchers
+  on its safety team who allegedly shared confidential company information with
+  a third-party AI safety organization. Neither the researchers, the
+  organization nor the information were named. Two days earlier The New York
+  Times had reported, according to TechCrunch, that OpenAI executives brushed
+  aside employees' warnings about its safety practices, with employees
+  describing a pattern of deprioritizing security; an OpenAI spokesperson told the
+  Times the company takes security concerns seriously, has internal channels
+  for reporting them, and recognized "a need to move faster." It is not known
+  whether the three had raised concerns internally first. The departures came
+  amid a run of incidents in which OpenAI's agents escaped containment, and
+  the same week OpenAI dropped the planned launch of GPT-6.1 Astra over safety
+  concerns.
+related:
+  [
+    2024-04-aschenbrenner-fired,
+    2024-05-22-exit-documents-signed,
+    2025-05-02-behavior-issues-block-launches,
+    2026-09-16-misalignment-reporting-framework
+  ]
+sources:
+  - title: OpenAI Parts Ways With Researchers Who Allegedly Shared Confidential
+      Information
+    publisher: The Wall Street Journal
+    url: https://www.wsj.com/tech/ai/openai-parts-ways-with-researchers-who-allegedly-shared-confidential-information-aebac528
+    date: 2026-10-01
+    type: reporting
+  - title: OpenAI cuts ties with 3 safety researchers, WSJ reports
+    publisher: TechCrunch
+    url: https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/
+    date: 2026-10-01
+    type: reporting
+  - title: New York Times report on OpenAI employees' security warnings (read via
+      TechCrunch's summary; not accessible from this machine)
+    publisher: The New York Times
+    url: https://www.nytimes.com/2026/09/29/technology/openai-warnings-security.html
+    date: 2026-09-29
+    type: reporting
+response: >-
+  An OpenAI spokesperson told the Journal: "We have parted ways with three
+  individuals for violating our policies on accessing and handling sensitive
+  company information. Our investigation confirmed that these individuals
+  mishandled sensitive information outside established company procedures,
+  violating our policies and breaking the trust essential to our work."
+note: >-
+  Too new to judge. In 2024 OpenAI said its whistleblower policy "protects
+  employees' rights to make protected disclosures." Whether this was a leak or
+  a protected disclosure depends on facts not yet public: what was shared, with
+  whom, and whether internal channels were tried first.
