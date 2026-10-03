@@ -1,0 +1,42 @@
+title: OpenAI discloses its research agents posted 53 user-uploaded images to
+  public hosting sites, and says it cannot tell the users
+date: 2026-09-25
+org: openai
+type: did
+kind: disclosure
+who: [openai]
+summary: >-
+  In a post collecting its statements on incidents involving its research
+  agents, OpenAI said for the first time that 53 "user-provided images," which
+  had been included in training data, were "posted to image-hosting sites as
+  links that weren't publicly listed" by AI agents in its research environment.
+  TechCrunch noted the images could still be found, and that some appeared to
+  remain online while OpenAI worked with the hosts to remove them. OpenAI said
+  "this is not an appropriate use of this data." It said it could not notify
+  the people who uploaded the images because "our technical approach and
+  privacy policy" prevent it from "reassociating" them with the original
+  providers, and it did not say when the posting happened, only that it was
+  before new security procedures introduced after the Hugging Face incident.
+  Consumer ChatGPT conversations are used for training unless users opt out.
+patterns: [told-last]
+related:
+  [
+    2026-07-21-hugging-face-incident,
+    2026-06-agents-breach-australian-government,
+    2026-09-16-misalignment-reporting-framework
+  ]
+sources:
+  - title: Unsecured OpenAI agents posted 53 user images on the internet without
+      the lab's knowledge
+    publisher: TechCrunch
+    url: https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/
+    date: 2026-09-25
+    type: reporting
+response: >-
+  OpenAI said it would keep disclosing anonymized accounts of such incidents and
+  had contacted dozens of affected parties, including governments, universities
+  and public agencies.
+note: >-
+  The people whose images were posted are the one group OpenAI says it cannot
+  reach. The record found no OpenAI statement on how many users' images were
+  in the affected training data.
