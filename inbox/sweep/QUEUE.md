@@ -12,11 +12,10 @@ Nothing unread: every post collected so far has a decision.
 
 ## Read so far only for safety, ethics and policy claims
 
-Until October 2026 the record covered safety, ethics and policy claims only, and posts were read with that in mind. 7,906 post(s) written while their author was at the company (or after) still need a reading for every kind of claim. Print an account's list with `npm run reading-queue -- --rescope <account>` and record the reading with `--rescope <account> --log`.
+Until October 2026 the record covered safety, ethics and policy claims only, and posts were read with that in mind. 3,574 post(s) written while their author was at the company (or after) still need a reading for every kind of claim. Print an account's list with `npm run reading-queue -- --rescope <account>` and record the reading with `--rescope <account> --log`.
 
 | Account | To re-read | Posted |
 | --- | --: | --- |
-| @Miles_Brundage | 4332 | 2019-05-23 to 2026-08-26 |
 | @sjgadler | 267 | 2021-11-19 to 2026-09-02 |
 | @DKokotajlo | 42 | 2024-06-04 to 2026-07-30 |
 | @RosieCampbell | 418 | 2021-01-22 to 2026-04-16 |
