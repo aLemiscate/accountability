@@ -1,0 +1,58 @@
+title: 'After leaking Claude Code''s source, Anthropic says "No one at Anthropic
+  dmca''d these forks"; GitHub''s record says its notice covered them'
+date: 2026-04-01
+org: anthropic
+type: said
+kind: denial
+who: [boris-cherny, anthropic]
+venue: Posts on X
+quote: >-
+  This was not intentional. We are debugging what happened on the GitHub side.
+  No one at Anthropic dmca’d these forks
+summary: >-
+  On March 31, 2026 a Claude Code release on npm accidentally exposed the
+  tool's full source code, which was quickly mirrored on GitHub; Claude Code
+  head Boris Cherny called it "human error" in a manual deploy step. Anthropic
+  filed a copyright takedown notice against one GitHub mirror. GitHub's
+  published copy of the notice states that "the submitter alleged that all or
+  most of the forks were infringing to the same extent as the parent
+  repository," so GitHub processed it "against the entire network of 8.1K
+  repositories," which included legitimate forks of Anthropic's own public
+  Claude Code repository. After developers complained, Cherny wrote that no one
+  at Anthropic had taken down the forks, and Anthropic retracted the notice for
+  all but the one named repository and 96 forks containing the leaked code.
+concreteness: measurable
+status: contradicted
+patterns: [sorry-after-caught]
+sources:
+  - title: Boris Cherny on X ("No one at Anthropic dmca’d these forks")
+    publisher: X
+    url: https://x.com/bcherny/status/2039433317750329716
+    date: 2026-04-01
+    type: primary
+  - title: Boris Cherny on X ("it was human error")
+    publisher: X
+    url: https://x.com/bcherny/status/2039207155069505693
+    date: 2026-04-01
+    type: primary
+  - title: DMCA notice from Anthropic, March 31, 2026
+    publisher: GitHub (github/dmca)
+    url: https://github.com/github/dmca/blob/master/2026/03/2026-03-31-anthropic.md
+    date: 2026-03-31
+    type: primary
+  - title: Anthropic took down thousands of GitHub repos trying to yank its leaked
+      source code — a move the company says was an accident
+    publisher: TechCrunch
+    url: https://techcrunch.com/2026/04/01/anthropic-took-down-thousands-of-github-repos-trying-to-yank-its-leaked-source-code-a-move-the-company-says-was-an-accident/
+    date: 2026-04-01
+    type: reporting
+response: >-
+  An Anthropic spokesperson said: "The repo named in the notice was part of a
+  fork network connected to our own public Claude Code repo, so the takedown
+  reached more repositories than intended. We retracted the notice for
+  everything except the one repo we named, and GitHub has restored access to
+  the affected forks."
+note: >-
+  Probably a careless form rather than a deliberate sweep, and fixed within a
+  day. But the notice Anthropic filed did make the claim about the forks, so
+  "no one at Anthropic" did it is not accurate.
