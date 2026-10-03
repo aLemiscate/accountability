@@ -68,6 +68,21 @@ updates:
         url: https://www.anthropic.com/engineering/april-23-postmortem
         date: 2026-04-23
         type: primary
+  - date: 2026-06-09
+    text: >-
+      Fable 5 launched with safeguards, described in its system card, that
+      deliberately weakened answers to requests resembling frontier AI
+      development without telling the user. Anthropic made them visible two
+      days later, saying the invisible design "was the wrong tradeoff." That
+      was a disclosed safety measure rather than a cut for demand, but it was
+      an intentional reduction in answer quality for some users (see
+      2026-06-09-fable-5-hidden-research-safeguards).
+    sources:
+      - title: Claude Developers on X ("that was the wrong tradeoff")
+        publisher: X
+        url: https://x.com/claudedevs/status/2064949876463645026
+        date: 2026-06-11
+        type: primary
 note: >-
   Both investigations were Anthropic's own, and both found real degradation
   with causes other than the one denied: bugs in 2025, product changes and a
