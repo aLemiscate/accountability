@@ -1,0 +1,103 @@
+title: 'Standing promise: Codex stays in Free and Plus, and "for important changes,
+  we will engage with the community well ahead of making them"'
+date: 2026-04-21
+org: openai
+type: said
+kind: commitment
+who: [thibault-sottiaux, openai]
+venue: Post on X by the head of Codex, reposted by Sam Altman
+quote: >-
+  Codex will continue to be available both in the FREE and PLUS ($20) plans. We
+  have the compute and efficient models to support it. For important changes,
+  we will engage with the community well ahead of making them.
+summary: >-
+  Codex usage limits moved often after it was bundled into ChatGPT plans in
+  August 2025, when its product lead said "Pro users should basically not hit
+  limits." Cloud tasks began counting toward limits that October, and a
+  billing bug overcharged cloud-task usage "by ~2-5x" before OpenAI reset
+  limits and refunded credits. On April 9, 2026 OpenAI ended a Plus promotion
+  and "rebalanced" Plus Codex usage toward shorter sessions, alongside a new
+  $100 Pro tier. On April 21, the day Anthropic was found testing Pro plans
+  without Claude Code, Codex head Thibault Sottiaux promised Codex would stay
+  in Free and Plus and that users would hear about important changes well in
+  advance: "Transparency and trust are two principles we will not break, even
+  if it means momentarily earning less." Altman reposted it.
+concreteness: directional
+status: open
+breaks_if: >-
+  Codex removed from the Free or Plus plan, or a material cut to Plus or Free
+  Codex usage announced less than a few days before it takes effect.
+related: [2026-04-03-claude-subscriptions-third-party-tools]
+sources:
+  - title: Thibault Sottiaux on X ("we will engage with the community well ahead")
+    publisher: X
+    url: https://x.com/thsottiaux/status/2046740759056162816
+    date: 2026-04-21
+    type: primary
+  - title: Sam Altman on X ("We want you to have a lot of AI!")
+    publisher: X
+    url: https://x.com/sama/status/2046752492093165708
+    date: 2026-04-22
+    type: primary
+  - title: Alexander Embiricos on X ("Pro users should basically not hit limits")
+    publisher: X
+    url: https://x.com/embirico/status/1953590991870697896
+    date: 2025-08-07
+    type: primary
+  - title: OpenAI Developers on X ("Codex cloud tasks will now count toward your
+      rate limits")
+    publisher: X
+    url: https://x.com/OpenAIDevs/status/1983956900602581254
+    date: 2025-10-30
+    type: primary
+  - title: Alexander Embiricos on X ("we overcharged for cloud task usage by
+      ~2-5x")
+    publisher: X
+    url: https://x.com/embirico/status/1984793457949622761
+    date: 2025-11-02
+    type: primary
+  - title: OpenAI on X ("rebalancing Codex usage in Plus")
+    publisher: X
+    url: https://x.com/OpenAI/status/2042295690382995789
+    date: 2026-04-09
+    type: primary
+updates:
+  - date: 2026-08-25
+    text: >-
+      On July 12 Sottiaux had announced it was "temporarily removing the 5 hour
+      usage limit restriction for all Plus, Business and Pro plans." In
+      August, as users reported limits draining faster, he wrote that changing
+      limits was "not something we change without engaging the community and
+      being transparent"; two days later OpenAI found several inefficiencies,
+      including worse cache hit rates, fixed them and reset usage for all paid
+      subscribers. On Aug. 25 he announced: "Tomorrow we will bring back the 5h
+      limit for Plus accounts across ChatGPT Work and Codex. I had mentioned
+      this a while ago, but then postponed it." Pro plans kept no five-hour
+      limit "for the upcoming months."
+    sources:
+      - title: Thibault Sottiaux on X ("Temporarily removing the 5 hour usage limit")
+        publisher: X
+        url: https://x.com/thsottiaux/status/2076365965915467978
+        date: 2026-07-12
+        type: primary
+      - title: Thibault Sottiaux on X ("not something we change without engaging
+          the community")
+        publisher: X
+        url: https://x.com/thsottiaux/status/2090766694897619318
+        date: 2026-08-21
+        type: primary
+      - title: Thibault Sottiaux on X ("Update on rate limits in Codex")
+        publisher: X
+        url: https://x.com/thsottiaux/status/2091407991736332689
+        date: 2026-08-23
+        type: primary
+      - title: Thibault Sottiaux on X ("Tomorrow we will bring back the 5h limit")
+        publisher: X
+        url: https://x.com/thsottiaux/status/2092058556707344708
+        date: 2026-08-25
+        type: primary
+note: >-
+  Still open. Codex is in both plans. The five-hour limit came back at a day's
+  notice, but it had been lifted as temporary six weeks earlier, so whether
+  that was an "important change" is a judgment call this record leaves to the
+  reader.
