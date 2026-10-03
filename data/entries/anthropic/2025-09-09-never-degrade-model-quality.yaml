@@ -1,0 +1,75 @@
+title: 'Anthropic: "We never intentionally degrade model quality as a result of
+  demand or other factors"'
+date: 2025-09-09
+org: anthropic
+type: said
+kind: denial
+who: [anthropic, alex-albert]
+venue: Claude account on X; postmortem on Anthropic's engineering blog
+quote: >-
+  We never intentionally degrade model quality as a result of demand or other
+  factors.
+summary: >-
+  From early August 2025, Claude users reported worse answers, and some
+  suspected Anthropic of quietly serving a weaker model when demand was high.
+  On Sept. 9 Anthropic said it had found and fixed two bugs, and denied
+  degrading quality on purpose. Its Sept. 17 postmortem traced the reports to
+  three infrastructure bugs that ran from Aug. 5 into mid-September: requests
+  routed to the wrong servers (16% of Sonnet 4 requests at the worst hour, and
+  about 30% of Claude Code users had at least one such message), corrupted
+  output on Opus and Sonnet, and a compiler bug that affected Haiku 3.5. It said
+  its evaluations "simply didn't capture the degradation users were reporting,"
+  and restated: "We never reduce model quality due to demand, time of day, or
+  server load." Anthropic had answered the same suspicion in March 2024, when
+  Alex Albert replied to claims that Claude had been "lobotomized": "When we
+  make updates to our current models, we will make it very clear."
+concreteness: measurable
+status: open
+breaks_if: >-
+  Evidence (outside measurements, documents, or Anthropic's own disclosure)
+  that Anthropic served a smaller, quantized or otherwise reduced model, or cut
+  reasoning at the API or inference layer, in response to demand, time of day
+  or server load; or a change to a released model that was not announced.
+related: [2026-04-23-claude-code-quality-postmortem]
+sources:
+  - title: Claude on X ("We never intentionally degrade model quality")
+    publisher: X
+    url: https://x.com/claudeai/status/1965208249399177655
+    date: 2025-09-09
+    type: primary
+  - title: A postmortem of three recent issues
+    publisher: Anthropic
+    url: https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues
+    date: 2025-09-17
+    type: primary
+  - title: Claude on X ("To state it plainly")
+    publisher: X
+    url: https://x.com/claudeai/status/1968416786413506591
+    date: 2025-09-17
+    type: primary
+  - title: Alex Albert on X ("we will make it very clear")
+    publisher: X
+    url: https://x.com/alexalbert__/status/1772038845888184534
+    date: 2024-03-24
+    type: primary
+updates:
+  - date: 2026-04-23
+    text: >-
+      After six weeks of complaints that Claude Code had got worse, Anthropic
+      traced them to three changes in Claude Code, the Agent SDK and Cowork,
+      one of them a deliberate switch of the default reasoning effort from high
+      to medium, and said the API was not affected. It repeated the denial: "We
+      never intentionally degrade our models, and we were able to immediately
+      confirm that our API and inference layer were unaffected." See the
+      linked entry.
+    sources:
+      - title: An update on recent Claude Code quality reports
+        publisher: Anthropic
+        url: https://www.anthropic.com/engineering/april-23-postmortem
+        date: 2026-04-23
+        type: primary
+note: >-
+  Both investigations were Anthropic's own, and both found real degradation
+  with causes other than the one denied: bugs in 2025, product changes and a
+  bug in 2026. The denial covers the model and the servers. It doesn't cover
+  the settings and prompts around them, which is where the 2026 problems were.

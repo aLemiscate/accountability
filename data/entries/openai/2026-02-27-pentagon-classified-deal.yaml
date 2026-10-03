@@ -82,7 +82,37 @@ sources:
     type: reporting
     archive: https://web.archive.org/web/20260929223225/https://theintercept.com/2026/03/08/openai-anthropic-military-contract-ethics-surveillance/
     snapshot: snapshots/2026-09-29-theintercept.com-1e0ad3e1
+response: >-
+  OpenAI said it retained "full discretion over our safety stack," with cloud
+  deployment and cleared OpenAI staff in the loop. On the September 2026 FOIA
+  document, OpenAI spokesperson Nate Evans told The Intercept: "OpenAI has never
+  agreed to contract language requiring ‘minimal refusal rates.’ This language
+  does not appear in our executed contract. The document you received appears
+  to be an earlier draft proposed by the Department before we provided
+  feedback. We rejected that language, the department agreed to remove it, and
+  the final executed agreement does not include it."
 updates:
+  - date: 2026-02-10
+    text: >-
+      Two weeks before the classified deal, OpenAI said it would bring a custom
+      ChatGPT to GenAI.mil, the Pentagon's platform for unclassified work by some
+      3 million personnel. Semafor reported that the Pentagon had asked to use
+      the technology for "all lawful uses," meaning OpenAI could not impose its
+      own restrictions, and that OpenAI was offering the same ChatGPT available
+      to other users, with its standard guardrails in place. It reported that the
+      clause had become a sticking point in the Pentagon's negotiations with
+      Anthropic, whose Claude was not on the platform.
+    sources:
+      - title: How OpenAI got comfortable with the Pentagon using ChatGPT for war
+        publisher: Semafor
+        url: https://www.semafor.com/article/02/11/2026/how-openai-got-comfortable-with-the-pentagon-using-chatgpt-for-war
+        date: 2026-02-11
+        type: reporting
+      - title: ChatGPT will be available to 3 million military users on GenAI.mil
+        publisher: Breaking Defense
+        url: https://breakingdefense.com/2026/02/chatgpt-will-be-available-to-3-million-military-users-on-genai-mil/
+        date: 2026-02-10
+        type: reporting
   - date: 2026-02-28
     text: >-
       OpenAI's own thread on the deal listed its red lines and said: "Other AI
@@ -100,7 +130,7 @@ updates:
         type: primary
         snapshot: snapshots/2026-09-30-x.com-8dde517e
       - title: OpenAI on X ("Other AI labs have reduced or removed their safety
-          guardrails")
+          guardrails"; "We retain full discretion over our safety stack")
         publisher: X
         url: https://x.com/OpenAI/status/2027846015051772121
         date: 2026-02-28
@@ -151,6 +181,60 @@ updates:
         type: primary
         archive: https://web.archive.org/web/20260706164042/https://x.com/sama/status/2027908779015340193
         snapshot: snapshots/2026-09-29-x.com-604ad08a
+  - date: 2026-03-01
+    text: >-
+      Current OpenAI researchers disagreed in public. Leo Gao wrote that "the
+      contract snippet from the openai dow blog post is so obviously just "all
+      lawful use" followed by a bunch of stuff that is not really operative
+      except as window dressing," and that "there are a ton of mass domestic
+      surveillance loopholes not covered by the 4A, national security act, FISA,
+      etc." His colleague Boaz Barak replied that Gao was "not a lawyer or a
+      natsec expert" and that OpenAI "in terms of enabling employee pushback and
+      discussion … is in fact still open." On March 2 Aidan McLaughlin, who works
+      on model behavior, wrote: "i personally don’t think this deal was worth
+      it." Platformer reported both posts.
+    sources:
+      - title: Leo Gao on X ("window dressing")
+        publisher: X
+        url: https://x.com/nabla_theta/status/2028048714368250308
+        date: 2026-03-01
+        type: primary
+      - title: Boaz Barak on X (quoting Leo Gao)
+        publisher: X
+        url: https://x.com/boazbaraktcs/status/2028132252090007776
+        date: 2026-03-01
+        type: primary
+      - title: Aidan McLaughlin on X ("not worth it")
+        publisher: X
+        url: https://x.com/aidan_mclau/status/2028507663529906395
+        date: 2026-03-02
+        type: primary
+      - title: What is OpenAI going to do when the truth comes out?
+        publisher: Platformer
+        url: https://www.platformer.news/openai-pentagon-surveillance-drones-backlash/
+        date: 2026-03-02
+        type: reporting
+  - date: 2026-09-08
+    text: >-
+      The Intercept published a contract modification it obtained through a
+      Freedom of Information Act lawsuit. The document, labeled P00003, defined
+      "OpenAI Mission Models" as models "designed for national security use
+      cases" that "have minimal refusal rates"; a separate document signed by
+      both sides on Feb. 6 indicated that OpenAI agreed that day to the contents
+      of a version P00003. The Intercept reported that a Justice Department
+      lawyer representing the Pentagon first confirmed the document was the
+      signed and executed version and hours later told it to disregard that
+      confirmation. OpenAI said it had never agreed to that language and that
+      the document was an earlier Pentagon draft. A Pentagon spokesperson said
+      the phrase "does not appear in any active Department of War contract with
+      OpenAI." The final text has not been released.
+    sources:
+      - title: The Pentagon Asked OpenAI for Artificial Intelligence Designed to Rarely
+          Say No
+        publisher: The Intercept
+        url: https://theintercept.com/2026/09/08/pentagon-openai-military-contract/
+        date: 2026-09-08
+        type: reporting
 note: >-
   Sign first and add the surveillance ban after the outcry. The red lines were
   the same ones a competitor had just been punished for holding, and whether

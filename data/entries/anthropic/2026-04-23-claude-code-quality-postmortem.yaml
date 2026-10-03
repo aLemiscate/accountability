@@ -1,0 +1,83 @@
+title: Anthropic traces six weeks of Claude Code complaints to three of its own
+  changes, including a default it calls "the wrong tradeoff"
+date: 2026-04-23
+org: anthropic
+type: did
+kind: disclosure
+who: [anthropic, boris-cherny]
+quote: >-
+  This was the wrong tradeoff. We reverted this change on April 7 after users
+  told us they'd prefer to default to higher intelligence and opt into lower
+  effort for simple tasks.
+summary: >-
+  From early March 2026, Claude Code users reported that it had become less
+  capable. In early April an AMD AI director filed an analysis of 6,852 sessions
+  concluding that Claude "cannot be trusted to perform complex engineering
+  tasks." Claude Code's head, Boris Cherny, called two circulating claims false:
+  that paying subscribers got worse models than enterprise customers ("We serve
+  exactly the same models to all users"), and that the switch to a medium
+  effort default was hidden ("Literally nothing sneaky about it"). Anthropic's
+  April 23 postmortem bore out both narrow points (the change was in the
+  changelog and an in-product dialog) but found the complaints were right. On
+  March 4 it had lowered Claude Code's default reasoning effort from high to
+  medium to cut latency; on March 26 a bug began deleting Claude's earlier
+  reasoning on every turn, making it "forgetful and repetitive," until April
+  10; and on April 16 a system-prompt limit on response length cut coding
+  quality by 3% on one evaluation until April 20. Anthropic said neither its
+  internal use nor its evaluations had at first reproduced the problems, that
+  users' reports were what found them, and it reset usage limits for all
+  subscribers.
+patterns: [ship-then-patch]
+related: [2025-09-09-never-degrade-model-quality]
+sources:
+  - title: An update on recent Claude Code quality reports
+    publisher: Anthropic
+    url: https://www.anthropic.com/engineering/april-23-postmortem
+    date: 2026-04-23
+    type: primary
+  - title: Boris Cherny on X (sharing the post-mortem)
+    publisher: X
+    url: https://x.com/bcherny/status/2047375800945783056
+    date: 2026-04-23
+    type: primary
+  - title: Boris Cherny on X ("We serve exactly the same models to all users")
+    publisher: X
+    url: https://x.com/bcherny/status/2040308730190020847
+    date: 2026-04-04
+    type: primary
+  - title: Boris Cherny on X ("Literally nothing sneaky about it")
+    publisher: X
+    url: https://x.com/bcherny/status/2043163965648515234
+    date: 2026-04-12
+    type: primary
+  - title: Claude Code changelog, version 2.1.68 ("Opus 4.6 now defaults to medium
+      effort for Max and Team subscribers")
+    publisher: Anthropic (GitHub)
+    url: https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
+    date: 2026-03
+    type: primary
+  - title: 'GitHub issue #42796: "Claude Code is unusable for complex engineering
+      tasks with the Feb updates" (with Cherny''s reply)'
+    publisher: GitHub
+    url: https://github.com/anthropics/claude-code/issues/42796
+    date: 2026-04-02
+    type: primary
+  - title: AMD's AI director slams Claude Code for becoming dumber and lazier since
+      last update
+    publisher: The Register
+    url: https://www.theregister.com/2026/04/06/anthropic_claude_code_dumber_lazier_amd_ai_director/
+    date: 2026-04-06
+    type: reporting
+response: >-
+  Anthropic said it takes reports of degradation "very seriously," that the
+  API and inference layer were not affected, and that it would have more staff
+  use the public build, run per-model evaluations on every Claude Code
+  system-prompt change, and add soak periods and gradual rollouts for changes
+  that could trade off against intelligence. Cherny had earlier said the
+  hidden thinking display was "a UI-only change" that "does not impact
+  thinking itself."
+note: >-
+  Cherny's specific denials held up; the general complaint he was answering
+  also held up. The comparison in this record is OpenAI's GPT-4o sycophancy
+  rollback: in both, a change passed internal checks and users found the
+  problem.
