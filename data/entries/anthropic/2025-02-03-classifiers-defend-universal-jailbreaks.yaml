@@ -1,0 +1,67 @@
+title: 'Anthropic: "We built a system that defends against universal jailbreaks";
+  ten days later a public challenge finds one'
+date: 2025-02-03
+org: anthropic
+type: said
+kind: claim
+who: [anthropic, jan-leike]
+venue: Research announcement and posts on X
+quote: >-
+  We built a system that defends against universal jailbreaks!
+summary: >-
+  Anthropic announced Constitutional Classifiers, two classifiers that screen
+  a model's inputs and outputs. It said that after "thousands of hours of red
+  teaming" of a prototype, "not one participant found a reliable jailbreak"
+  across ten harmful questions, and it opened a public eight-level challenge.
+  On Feb. 5 it raised the prize, saying "Nobody has fully jailbroken our
+  system yet." On Feb. 13 Jan Leike reported the result: "After 5 days, >300,000
+  messages, and est. 3,700 collective hours our system got broken. In the end
+  4 users passed all levels, 1 found a universal jailbreak." Anthropic paid
+  $55,000 in prizes. Six months earlier, Anthropic researcher Sam Bowman had
+  offered to bet at 25% odds that nobody would find a universal jailbreak
+  against the system then being tested.
+concreteness: measurable
+status: contradicted
+patterns: [claims-outrun-results]
+related: [2025-05-22-asl-3-protections-activated]
+sources:
+  - title: Jan Leike on X ("We built a system that defends against universal
+      jailbreaks")
+    publisher: X
+    url: https://x.com/janleike/status/1886452525437800874
+    date: 2025-02-03
+    type: primary
+  - title: Anthropic on X ("not one participant found a reliable jailbreak")
+    publisher: X
+    url: https://x.com/AnthropicAI/status/1886452500108091586
+    date: 2025-02-03
+    type: primary
+  - title: Anthropic on X ("Nobody has fully jailbroken our system yet")
+    publisher: X
+    url: https://x.com/AnthropicAI/status/1887227067156386027
+    date: 2025-02-05
+    type: primary
+  - title: Jan Leike on X ("our system got broken")
+    publisher: X
+    url: https://x.com/janleike/status/1890141865955278916
+    date: 2025-02-13
+    type: primary
+  - title: Jan Leike on X ("need to be combined with other methods")
+    publisher: X
+    url: https://x.com/janleike/status/1890141868195037251
+    date: 2025-02-13
+    type: primary
+  - title: Sam Bowman on X ("I'd bet $50 *at 25%* that nobody finds a universal
+      jailbreak")
+    publisher: X
+    url: https://x.com/sleepinyourhat/status/1821955767328809369
+    date: 2024-08-09
+    type: primary
+response: >-
+  Leike wrote that the demo "showed classifiers can help mitigate these risks,
+  but need to be combined with other methods."
+note: >-
+  Anthropic ran the public test, published the result and paid out, which is
+  how claims like this should be checked. The headline claim was still
+  stronger than the evidence behind it, and the record notes it the same way
+  it notes OpenAI's.

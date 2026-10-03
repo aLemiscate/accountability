@@ -1,0 +1,53 @@
+title: 'Standing goal: an "automated AI research intern by September of 2026" and
+  "a true automated AI researcher by March of 2028"'
+date: 2025-10-29
+org: openai
+type: said
+kind: commitment
+who: [sam-altman, openai]
+venue: Livestream, summarized by Altman on X
+quote: >-
+  We have set internal goals of having an automated AI research intern by
+  September of 2026 running on hundreds of thousands of GPUs, and a true
+  automated AI researcher by March of 2028. We may totally fail at this goal,
+  but given the extraordinary potential impacts we think it is in the public
+  interest to be transparent about this.
+summary: >-
+  In October 2025 Altman published two dated goals for automating OpenAI's own
+  research, alongside a safety strategy built on five layers and a commitment
+  of about 30 gigawatts of compute. In September 2026 OpenAI said it had met
+  the first goal: a system that can carry out well-defined research tasks
+  under human direction, including work that would take a skilled researcher
+  several days. It reported that by mid-August its research organization
+  logged 3.1 agent-workdays for every eight hours of human labor, said it does
+  not know how to achieve full recursive self-improvement safely, and called
+  for AI companies to be required to disclose such progress publicly. The
+  March 2028 goal is still open.
+concreteness: directional
+status: open
+breaks_if: >-
+  March 2028 passes without OpenAI either demonstrating "a true automated AI
+  researcher" or saying plainly that it missed the goal; or OpenAI stops
+  publishing the progress data it began releasing in September 2026.
+patterns: []
+related: [2025-03-06-anthropic-powerful-ai-late-2026]
+sources:
+  - title: Sam Altman on X ("We have set internal goals")
+    publisher: X
+    url: https://x.com/sama/status/1983584366547829073
+    date: 2025-10-29
+    type: primary
+  - title: 'Research acceleration: The view inside OpenAI'
+    publisher: OpenAI
+    url: https://openai.com/index/research-acceleration-view-inside-openai/
+    date: 2026-09
+    type: primary
+  - title: OpenAI just hit a milestone on the road to self-improving AI
+    publisher: Help Net Security
+    url: https://www.helpnetsecurity.com/2026/09/07/openai-research-automation-intern/
+    date: 2026-09-07
+    type: reporting
+note: >-
+  The first goal was met by OpenAI's own account and its own definition of
+  "intern"; no outside evaluator has checked it. Publishing the goal, and then
+  the data, is the kind of transparency OpenAI said it was aiming for.
