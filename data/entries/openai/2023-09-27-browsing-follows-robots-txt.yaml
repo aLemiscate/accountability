@@ -1,0 +1,61 @@
+title: 'ChatGPT browsing now follows robots.txt "so sites can control how ChatGPT
+  interacts with them"; the docs later said it "may not apply"'
+date: 2023-09-27
+org: openai
+type: said
+kind: commitment
+who: [openai]
+venue: Post on X relaunching ChatGPT browsing
+quote: >-
+  Since the original launch of browsing in May, we received useful feedback.
+  Updates include following robots.txt and identifying user agents so sites
+  can control how ChatGPT interacts with them.
+summary: >-
+  OpenAI relaunched web browsing in ChatGPT with a promise to site owners:
+  pages fetched for users would follow robots.txt, the file sites use to tell
+  bots what to stay out of. Its crawler documentation listed robots.txt tags
+  as applying to all three of its user agents, including ChatGPT-User, which
+  fetches pages when a user asks. On Dec. 9, 2025, without an announcement,
+  OpenAI revised the page; a marketing consultant spotted the change. The
+  current version says of ChatGPT-User: "Because these actions are initiated
+  by a user, robots.txt rules may not apply." TollBit's State of the Bots
+  report for the first half of 2026 found that ChatGPT-User reached pages it
+  was explicitly disallowed from on nearly half of the European sites that
+  blocked it by name, more sites than any other agent tracked.
+concreteness: measurable
+status: reversed
+patterns: [silent-edit]
+sources:
+  - title: OpenAI on X ("Updates include following robots.txt")
+    publisher: X
+    url: https://x.com/OpenAI/status/1707077711192297502
+    date: 2023-09-27
+    type: primary
+  - title: Overview of OpenAI Crawlers
+    publisher: OpenAI
+    url: https://developers.openai.com/api/docs/bots
+    type: primary
+  - title: OpenAI revises ChatGPT crawler documentation with significant policy
+      changes
+    publisher: PPC Land
+    url: https://ppc.land/openai-revises-chatgpt-crawler-documentation-with-significant-policy-changes/
+    date: 2025-12-09
+    type: reporting
+  - title: OpenAI Says Robots.txt May Not Apply To ChatGPT's Fetch Bot
+    publisher: Search Engine Journal
+    url: https://www.searchenginejournal.com/openai-says-robots-txt-may-not-apply-to-chatgpts-fetch-bot/585864/
+    date: 2026-08-14
+    type: reporting
+  - title: Does Anthropic crawl data from the web, and how can site owners block
+      the crawler?
+    publisher: Anthropic
+    url: https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler
+    date: 2026-04-07
+    type: primary
+note: >-
+  OpenAI's argument is that a page fetched because a person asked for it is
+  closer to that person's browser than to a crawler, and robots.txt was
+  written for crawlers. But the 2023 promise was made for exactly these
+  user-requested fetches. For comparison, Anthropic's help page says its
+  equivalent agent, Claude-User, "allows site owners to control which sites
+  can be accessed through these user-initiated requests."
