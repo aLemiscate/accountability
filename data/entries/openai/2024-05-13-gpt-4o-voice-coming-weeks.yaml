@@ -1,0 +1,70 @@
+title: 'GPT-4o launch: "the new voice mode will be live in the coming weeks for
+  plus users"'
+date: 2024-05-13
+org: openai
+type: said
+kind: commitment
+who: [sam-altman, openai]
+venue: GPT-4o launch event and posts on X
+quote: >-
+  the new voice mode will be live in the coming weeks for plus users.
+summary: >-
+  OpenAI's GPT-4o launch demonstrated a real-time voice assistant that could
+  see through the phone's camera, and image generation from the same model.
+  Altman said the voice mode would reach Plus subscribers "in the coming
+  weeks." On June 25 OpenAI said it had planned an alpha "in late June, but
+  need one more month to reach our bar to launch." A small group of Plus users
+  got it on July 30, with "all Plus users in fall," Mira Murati wrote; it
+  reached all Plus and Team users on Sept. 24, about nineteen weeks after the
+  demo. Video and screen sharing in voice followed on Dec. 12. GPT-4o's image
+  generation, which Greg Brockman said in May the team was "working hard to
+  bring" to users, shipped on March 25, 2025, ten months after it was shown.
+concreteness: directional
+status: kept
+patterns: [coming-weeks]
+related: [2024-05-13-her-sky-voice]
+sources:
+  - title: Sam Altman on X ("the new voice mode will be live in the coming weeks")
+    publisher: X
+    url: https://x.com/sama/status/1790071830427930788
+    date: 2024-05-13
+    type: primary
+  - title: Greg Brockman on X ("Team is working hard to bring those to the world")
+    publisher: X
+    url: https://x.com/gdb/status/1790869434174746805
+    date: 2024-05-15
+    type: primary
+  - title: OpenAI on X ("need one more month to reach our bar to launch")
+    publisher: X
+    url: https://x.com/OpenAI/status/1805716393524183136
+    date: 2024-06-25
+    type: primary
+  - title: Mira Murati on X ("all Plus users in fall")
+    publisher: X
+    url: https://x.com/miramurati/status/1818374216997314738
+    date: 2024-07-30
+    type: primary
+  - title: Mira Murati on X, quoting OpenAI ("Advanced Voice is rolling out to all
+      Plus and Team users")
+    publisher: X
+    url: https://x.com/miramurati/status/1838642696111689788
+    date: 2024-09-24
+    type: primary
+  - title: OpenAI on X ("video and screensharing are now starting to roll out")
+    publisher: X
+    url: https://x.com/OpenAI/status/1867292997660160061
+    date: 2024-12-12
+    type: primary
+  - title: OpenAI on X ("4o image generation has arrived")
+    publisher: X
+    url: https://x.com/OpenAI/status/1904602845221187829
+    date: 2025-03-25
+    type: primary
+response: >-
+  OpenAI said the delay was to "reach our bar to launch," including safety
+  work on the voice model. When the rollout finished it said: "While you’ve
+  been patiently waiting, we’ve added Custom Instructions, Memory, five new
+  voices, and improved accents."
+note: >-
+  Kept, and the delay was announced rather than left to lapse. "Coming weeks"
+  turned out to mean about four months for voice and ten for images.

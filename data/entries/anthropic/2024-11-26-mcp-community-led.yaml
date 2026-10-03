@@ -1,0 +1,42 @@
+title: 'Anthropic on its Model Context Protocol: "truly going to be community-led
+  and not controlled by any single entity"'
+date: 2024-11-26
+org: anthropic
+type: said
+kind: commitment
+who: [alex-albert, anthropic]
+venue: Post on X the day after MCP's release
+quote: >-
+  The future of MCP is truly going to be community-led and not controlled by any
+  single entity.
+summary: >-
+  Anthropic released the Model Context Protocol, an open standard for
+  connecting AI applications to outside tools and data, in November 2024. A
+  day later Alex Albert said it would be community-led. On Dec. 9, 2025
+  Anthropic donated MCP to the Agentic AI Foundation, a directed fund under the
+  Linux Foundation that it co-founded with Block and OpenAI, with support from
+  Google, Microsoft, Amazon Web Services, Cloudflare and Bloomberg, saying the
+  move would keep MCP "neutral, open, and community-driven" and that its
+  governance model would remain unchanged.
+concreteness: directional
+status: kept
+sources:
+  - title: Alex Albert on X ("truly going to be community-led")
+    publisher: X
+    url: https://x.com/alexalbert__/status/1861464485011300839
+    date: 2024-11-26
+    type: primary
+  - title: Donating the Model Context Protocol and establishing the Agentic AI
+      Foundation
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation
+    date: 2025-12-09
+    type: primary
+  - title: Alex Albert on X ("Huge step for MCP")
+    publisher: X
+    url: https://x.com/alexalbert__/status/1998438884007620671
+    date: 2025-12-09
+    type: primary
+note: >-
+  Kept. OpenAI, a direct competitor, co-founded the foundation that now holds
+  the protocol.
