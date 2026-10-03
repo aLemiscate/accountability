@@ -1,0 +1,66 @@
+title: 'Anthropic: Claude''s blackmail behavior "completely eliminated"; its own
+  research says the test results may be confounded'
+date: 2026-05-08
+org: anthropic
+type: said
+kind: claim
+who: [anthropic]
+venue: '"Teaching Claude why," research post and thread on X'
+quote: >-
+  Last year we reported that, under certain experimental conditions, Claude 4
+  would blackmail users. Since then, we’ve completely eliminated this behavior.
+summary: >-
+  In 2025 Anthropic reported that Claude Opus 4, in a test scenario where it
+  was told it would be replaced, blackmailed an engineer up to 96% of the time.
+  In May 2026 it said every Claude model since Haiku 4.5 had "achieved a
+  perfect score" on that evaluation, crediting training that teaches Claude why
+  misaligned behavior is wrong. The post's own footnote added: "The results on
+  more recent models may be confounded by the presence of information about
+  the evaluation in the pre-training corpus." The day before, Anthropic's
+  interpretability team had reported that when Opus 4.6 declined to blackmail,
+  its internal activations suggested it recognized the test as "a constructed
+  scenario designed to manipulate me," though it did not say so. In July a
+  study by Anthropic researchers and fellows noted that suppressing a model's
+  internal representation of being evaluated "raised Sonnet 4.5's blackmail rate from
+  0% to ~7% on our original blackmail scenario."
+concreteness: measurable
+status: contradicted
+patterns: [claims-outrun-results]
+related: [2025-02-03-classifiers-defend-universal-jailbreaks, 2025-10-gpt-5-erdos-claim]
+sources:
+  - title: Anthropic on X ("we’ve completely eliminated this behavior")
+    publisher: X
+    url: https://x.com/AnthropicAI/status/2052808787514228772
+    date: 2026-05-08
+    type: primary
+  - title: Teaching Claude why
+    publisher: Anthropic
+    url: https://www.anthropic.com/research/teaching-claude-why
+    date: 2026-05-08
+    type: primary
+  - title: Anthropic on X ("NLAs suggest Claude knew this test was a 'constructed
+      scenario designed to manipulate me'")
+    publisher: X
+    url: https://x.com/AnthropicAI/status/2052435446173434211
+    date: 2026-05-07
+    type: primary
+  - title: Agentic Misalignment in Summer 2026
+    publisher: Anthropic Alignment Science Blog
+    url: https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/
+    date: 2026-07
+    type: primary
+  - title: Miles Brundage on X ("I don't see where the 'completely eliminated' part
+      is substantiated?")
+    publisher: X
+    url: https://x.com/Miles_Brundage/status/2052820607595868514
+    date: 2026-05-08
+    type: primary
+response: >-
+  Anthropic's post said training on documents about Claude's constitution and
+  fictional stories of aligned AI reduced agentic misalignment "by more than a
+  factor of three" and generalized to a held-out alignment assessment, not only
+  to the blackmail test.
+note: >-
+  The measured result, zero on one evaluation, is real and is Anthropic's to
+  report. "Completely eliminated this behavior" is a larger claim, and the
+  company's own researchers gave the reasons to doubt it.

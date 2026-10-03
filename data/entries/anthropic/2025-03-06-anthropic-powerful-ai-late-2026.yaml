@@ -1,0 +1,63 @@
+title: 'Anthropic to the White House: "we expect powerful AI systems will emerge in
+  late 2026 or early 2027"'
+date: 2025-03-06
+org: anthropic
+type: said
+kind: claim
+who: [anthropic, dario-amodei, jack-clark]
+venue: Recommendations to the Office of Science and Technology Policy
+quote: >-
+  As our CEO Dario Amodei writes in ‘Machines of Loving Grace’, we expect
+  powerful AI systems will emerge in late 2026 or early 2027.
+summary: >-
+  Anthropic's submission for the U.S. AI Action Plan defined "powerful AI" as
+  systems with "intellectual capabilities matching or exceeding that of Nobel
+  Prize winners across most disciplines" and the ability to use any interface
+  a human doing digital work uses, and dated their arrival. Co-founder Jack
+  Clark repeated the timeline to Congress in June 2025 ("truly transformative
+  technology" by the end of 2026) and in September ("end of 2026/early 2027").
+  Four days after the submission Amodei predicted that within three to six
+  months AI would be writing 90% of code; six months later he said "70, 80,
+  90% of the code written at Anthropic is written by Claude," adding that this
+  was so on many teams, not uniformly. Redwood Research's Ryan Greenblatt
+  estimated the company-wide share of merged code at about half and called the
+  prediction false.
+concreteness: measurable
+status: open
+breaks_if: >-
+  Early 2027 passes without systems meeting Anthropic's own definition of
+  powerful AI, and Anthropic does not say so; or the definition is quietly
+  narrowed to fit what exists.
+patterns: [claims-outrun-results]
+related: [2024-10-machines-of-loving-grace, 2025-10-29-automated-research-intern-goal]
+sources:
+  - title: Anthropic's recommendations to OSTP for the U.S. AI action plan
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/anthropic-s-recommendations-ostp-u-s-ai-action-plan
+    date: 2025-03-06
+    type: primary
+  - title: Jack Clark on X ("As I said in my testimony yesterday")
+    publisher: X
+    url: https://x.com/jackclarkSF/status/1938293432893772103
+    date: 2025-06-26
+    type: primary
+  - title: Jack Clark on X ("The timeline we see is end of 2026/early 2027")
+    publisher: X
+    url: https://x.com/jackclarkSF/status/1967785055994122443
+    date: 2025-09-16
+    type: primary
+  - title: Anthropic CEO Says AI Could Write '90% Of Code' In '3 To 6 Months'
+      (Benzinga, via Yahoo Finance)
+    publisher: Benzinga
+    url: https://finance.yahoo.com/news/anthropic-ceo-says-ai-could-193020957.html
+    date: 2025-03
+    type: reporting
+  - title: Is 90% of code at Anthropic being written by AIs?
+    publisher: Ryan Greenblatt, LessWrong
+    url: https://www.lesswrong.com/posts/prSnGGAgfWtZexYLp/is-90-of-code-at-anthropic-being-written-by-ais
+    date: 2025-10
+    type: analysis
+note: >-
+  Due within months. The 90% prediction is the warning sign: it was later
+  described as roughly met inside Anthropic, under a looser reading than the
+  original.
