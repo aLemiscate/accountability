@@ -15,7 +15,10 @@ summary: >-
   August 2025, when its product lead said "Pro users should basically not hit
   limits." Cloud tasks began counting toward limits that October, and a
   billing bug overcharged cloud-task usage "by ~2-5x" before OpenAI reset
-  limits and refunded credits. On April 9, 2026 OpenAI ended a Plus promotion
+  limits and refunded credits. Days later Sottiaux said optimizations meant
+  users would "get the same usage throughout the day irrespective of the load
+  or how traffic is routed," where before "you could get unlucky and hit a few
+  cache misses in a row." On April 9, 2026 OpenAI ended a Plus promotion
   and "rebalanced" Plus Codex usage toward shorter sessions, alongside a new
   $100 Pro tier. On April 21, the day Anthropic was found testing Pro plans
   without Claude Code, Codex head Thibault Sottiaux promised Codex would stay
@@ -55,6 +58,11 @@ sources:
     publisher: X
     url: https://x.com/embirico/status/1984793457949622761
     date: 2025-11-02
+    type: primary
+  - title: Thibault Sottiaux on X ("the same usage throughout the day")
+    publisher: X
+    url: https://x.com/thsottiaux/status/1986695544887255104
+    date: 2025-11-07
     type: primary
   - title: OpenAI on X ("rebalancing Codex usage in Plus")
     publisher: X
