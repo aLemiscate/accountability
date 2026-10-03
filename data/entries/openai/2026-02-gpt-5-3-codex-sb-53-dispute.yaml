@@ -1,0 +1,73 @@
+title: OpenAI ships its first "High" cyber-risk model without the safeguards a
+  watchdog says its framework required; OpenAI calls the wording "ambiguous"
+date: 2026-02
+org: openai
+type: did
+kind: action
+who: [openai, sam-altman]
+summary: >-
+  OpenAI released GPT-5.3-Codex in February 2026, and Altman said it was the
+  first model to reach "High" for cybersecurity under the Preparedness
+  Framework. California's SB 53, in force since January, requires large AI
+  developers to publish safety frameworks, follow them, and not make misleading
+  statements about compliance. The Midas Project said OpenAI's framework
+  required misalignment safeguards for High cyber models, against deception or
+  sabotage, and that OpenAI had not put them in place. OpenAI said they were
+  needed only when High cyber risk came "in conjunction with" long-range
+  autonomy, which it said the model lacked; it acknowledged the framework's
+  wording was "ambiguous" and that it had no definitive test for long-range
+  autonomy, relying on proxies and expert judgment. Encode's Nathan Calvin
+  wrote: "From reading the relevant docs … it doesn't look ambiguous to me."
+  The California attorney general's office would not say whether it was
+  investigating.
+patterns: [safeguards-on-paper]
+related:
+  [
+    2025-04-15-preparedness-framework-v2,
+    2025-04-15-pf-critical-safeguards,
+    2024-08-21-opposes-sb-1047
+  ]
+sources:
+  - title: OpenAI disputes watchdog's claim it violated California's new AI safety
+      law with latest model release
+    publisher: Fortune
+    url: https://fortune.com/2026/02/10/openai-violated-californias-ai-safety-law-gpt-5-3-codex-ai-model-watchdog-claims/
+    date: 2026-02-10
+    type: reporting
+  - title: Steven Adler on X ("See eg OpenAI seeming to have violated SB 53")
+    publisher: X
+    url: https://x.com/sjgadler/status/2021309120347812222
+    date: 2026-02-10
+    type: primary
+response: >-
+  An OpenAI spokesperson said the company was "confident in our compliance with
+  frontier safety laws, including SB 53," and that "GPT-5.3-Codex completed our
+  full testing and governance process, as detailed in the publicly released
+  system card, and did not demonstrate long-range autonomy capabilities based
+  on proxy evaluations and confirmed by internal expert judgments, including
+  from our Safety Advisory Group."
+updates:
+  - date: 2026-09-14
+    text: >-
+      The Midas Project alleged at least three further violations. OpenAI's
+      Frontier Governance Framework, published in May as the document SB 53
+      requires, commits it to assign each new model a risk tier in four
+      categories, including loss of control. Fortune found no such tiers in the
+      system cards for GPT-5.6 preview, GPT-5.6 or GPT-6 Astra; OpenAI instead
+      reported results under its Preparedness Framework, which has no
+      loss-of-control category, and rated Astra "critical" for cyber. OpenAI said
+      the Preparedness Framework "remains the foundation of our approach" and
+      that the newer framework explains how its practices align with
+      regulatory requirements.
+    sources:
+      - title: OpenAI may have violated California's AI safety law with Astra model
+          releases, AI watchdog says
+        publisher: Fortune
+        url: https://fortune.com/2026/09/14/openai-may-have-violated-californias-ai-safety-law-with-astra-model-releases-ai-watchdog-says/
+        date: 2026-09-14
+        type: reporting
+note: >-
+  These are a watchdog's allegations, disputed by OpenAI, with no ruling. What
+  is not disputed is that OpenAI settled an ambiguity in its own framework, in
+  its own favor, in the safety report released with the model, rather than
+  amending the framework before the release.

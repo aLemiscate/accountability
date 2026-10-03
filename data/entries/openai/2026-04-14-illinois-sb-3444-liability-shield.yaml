@@ -1,0 +1,63 @@
+title: OpenAI backs an Illinois bill shielding AI labs from liability for mass
+  casualties; Anthropic opposes it
+date: 2026-04-14
+org: openai
+type: did
+kind: action
+who: [openai]
+quote: >-
+  In the absence of federal action, we will continue to work with
+  states—including Illinois—to work toward a consistent safety framework.
+summary: >-
+  Illinois S.B. 3444 would have protected a frontier AI developer from
+  liability for "critical harms," defined as the death or serious injury of
+  100 or more people or more than $1 billion in property damage, including
+  harms from chemical, biological, radiological or nuclear weapons its model
+  helped make, provided the developer did not cause them intentionally or
+  recklessly and had published a safety protocol. OpenAI backed the bill;
+  WIRED reported that Anthropic was lobbying to change or kill it and instead
+  supported S.B. 3261, which would require published safety and child
+  protection plans, third-party audits and incident reporting. Anthropic's
+  head of state government relations, Cesar Fernandez, said: "Good
+  transparency legislation needs to ensure public safety and accountability
+  for the companies developing this powerful technology, not provide a
+  get-out-of-jail-free card against all liability." A spokesperson for
+  Governor JB Pritzker said he "does not believe big tech companies should ever
+  be given a full shield." Legal scholars told Fortune the standard was "very
+  low" and "pretty indefensible."
+patterns: [regulate-us-not-like-that]
+related:
+  [
+    2025-03-13-ostp-preemption-request,
+    2024-08-21-anthropic-sb-1047-sb-53,
+    2024-08-21-opposes-sb-1047
+  ]
+sources:
+  - title: Anthropic Opposes the Extreme AI Liability Bill That OpenAI Backed
+    publisher: WIRED
+    url: https://www.wired.com/story/anthropic-opposes-the-extreme-ai-liability-bill-that-openai-backed/
+    date: 2026-04-14
+    type: reporting
+  - title: Illinois is OpenAI and Anthropic's latest battleground as state tries to
+      assess liability for catastrophes caused by AI
+    publisher: Fortune
+    url: https://fortune.com/2026/04/17/illinois-openai-anthropic-ai-catastrophe-liability-bills/
+    date: 2026-04-17
+    type: reporting
+  - title: Miles Brundage on X ("Hard to think of a more clear cut case of OpenAI
+      being in the wrong")
+    publisher: X
+    url: https://x.com/Miles_Brundage/status/2044081858527539403
+    date: 2026-04-14
+    type: primary
+response: >-
+  OpenAI said the bill reduces the risk of serious harm from frontier AI
+  "while still allowing this technology to get into the hands of the people and
+  businesses—small and big—of Illinois," and spokesperson Liz Bourgeois said:
+  "We hope these state laws will inform a national framework that will help
+  ensure the US continues to lead."
+note: >-
+  By June OpenAI was endorsing a different Illinois bill, S.B. 315, which
+  requires annual outside audits (see the related OSTP entry). Experts gave
+  S.B. 3444 little chance of passing; its significance is what OpenAI asked
+  for.
