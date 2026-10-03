@@ -1,6 +1,6 @@
 # Reading queue
 
-Built 2026-10-02. Every post an in-scope account wrote (from December 2015 on, with text) that has no decision yet. There is no topic filter: read each post in full, in context, and decide. Then record the decisions for an account with
+Built 2026-10-03. Every post an in-scope account wrote (from December 2015 on, with text) that has no decision yet. There is no topic filter: read each post in full, in context, and decide. Then record the decisions for an account with
 
 ```
 npm run reading-queue -- --log <account> < decisions.txt   # lines: "<post id> <R|L|C> <note>"; unlisted posts are recorded as O
@@ -12,12 +12,10 @@ Nothing unread: every post collected so far has a decision.
 
 ## Read so far only for safety, ethics and policy claims
 
-Until October 2026 the record covered safety, ethics and policy claims only, and posts were read with that in mind. 22,777 post(s) written while their author was at the company (or after) still need a reading for every kind of claim. Print an account's list with `npm run reading-queue -- --rescope <account>` and record the reading with `--rescope <account> --log`.
+Until October 2026 the record covered safety, ethics and policy claims only, and posts were read with that in mind. 15,763 post(s) written while their author was at the company (or after) still need a reading for every kind of claim. Print an account's list with `npm run reading-queue -- --rescope <account>` and record the reading with `--rescope <account> --log`.
 
 | Account | To re-read | Posted |
 | --- | --: | --- |
-| @boazbaraktcs | 104 | 2023-07-19 to 2026-05-17 |
-| @jachiam0 | 2126 | 2020-01-01 to 2026-09-12 |
 | @paulfchristiano | 6 | 2017-01-11 to 2026-09-09 |
 | @hlntnr | 343 | 2021-01-04 to 2026-07-30 |
 | @Miles_Brundage | 10193 | 2018-01-01 to 2026-08-26 |
@@ -27,11 +25,9 @@ Until October 2026 the record covered safety, ethics and policy claims only, and
 | @RosieCampbell | 418 | 2021-01-22 to 2026-04-16 |
 | @clwainwright | 7 | 2020-05-28 to 2024-09-30 |
 | @leopoldasch | 59 | 2023-03-14 to 2024-10-11 |
-| @ch402 | 2053 | 2018-01-04 to 2026-05-18 |
 | @EvanHub | 13 | 2023-05-31 to 2026-09-09 |
 | @sleepinyourhat | 515 | 2022-01-06 to 2026-05-19 |
 | @EthanJPerez | 100 | 2022-02-07 to 2026-02-10 |
-| @AmandaAskell | 2731 | 2018-04-04 to 2026-05-09 |
 | @hilbertspaess | 190 | 2021-11-22 to 2026-09-09 |
 | @MrinankSharma | 6 | 2023-03-13 to 2026-02-09 |
 | @annaadeola | 6 | 2022-03-15 to 2022-04-06 |
