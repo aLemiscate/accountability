@@ -1,0 +1,57 @@
+title: Anthropic rules out its AI R&D-4 threshold for Opus 4.6 mainly on a survey
+  of its own staff, and follows up only with those who answered otherwise
+date: 2026-02
+org: anthropic
+type: did
+kind: disclosure
+who: [anthropic]
+quote: >-
+  Opus 4.6 has roughly reached the pre-defined thresholds we set for
+  straightforward ASL-4 rule-out based on benchmark tasks. Thus the rule-out in
+  this case is primarily informed by qualitative impressions of model
+  capabilities for complex, long-horizon tasks and the results of a survey of
+  Anthropic employees.
+summary: >-
+  Under its Responsible Scaling Policy, Anthropic must decide whether a model
+  could automate the work of an entry-level AI researcher (AI R&D-4), which
+  would require stronger safeguards. In the Claude Opus 4.6 system card it said
+  the model had roughly reached its benchmark thresholds for ruling this out,
+  so it relied mainly on staff impressions and an internal survey. Asked
+  whether the model could replace an entry-level researcher, 11 of 16
+  respondents said this was unlikely within three months of improvements, 3
+  said likely, and 2 said it was already possible. Anthropic contacted those
+  five "to clarify their views," and reported that all had either been
+  forecasting a different threshold or were more pessimistic on reflection;
+  the card does not mention a similar follow-up with the other eleven. OpenAI
+  researcher Noam Brown criticized the method, noting the survey was of
+  Anthropic's own employees. Anthropic concluded Opus 4.6 crossed neither the
+  AI R&D-4 nor the CBRN-4 threshold, adding that "confidently ruling out these
+  thresholds is becoming increasingly difficult."
+patterns: [safeguards-on-paper]
+related:
+  [
+    2025-11-24-sabotage-risk-reports-commitment,
+    2026-02-24-rsp-v3-graded-goals,
+    2026-02-gpt-5-3-codex-sb-53-dispute
+  ]
+sources:
+  - title: 'System Card: Claude Opus 4.6'
+    publisher: Anthropic
+    url: https://www-cdn.anthropic.com/14e4fb01875d2a69f646fa5e574dea2b1c0ff7b5.pdf
+    date: 2026-02
+    type: primary
+  - title: Noam Brown on X ("They primarily relied on an internal survey")
+    publisher: X
+    url: https://x.com/polynoamial/status/2021266471406666231
+    date: 2026-02-10
+    type: primary
+response: >-
+  Anthropic wrote that it had committed to publishing sabotage risk reports for
+  models beyond Opus 4.5 "so as not to rely on difficult and subjective
+  assessments of model capabilities like the one above for compliance with the
+  RSP," and published one for Opus 4.6.
+note: >-
+  Anthropic disclosed the method in detail, which is how outsiders found the
+  problem with it. The same month, OpenAI's first High cyber model raised a
+  similar question about who decides when a threshold is crossed (see
+  related).
