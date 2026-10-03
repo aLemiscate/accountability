@@ -1,6 +1,6 @@
 # What the record covers
 
-As of October 1, 2026. This file says where the record's entries came from,
+As of October 3, 2026. This file says where the record's entries came from,
 what the latest reviews added, how the two companies compare, and what may
 still be missing. The rules for what counts are in
 [METHODOLOGY.md](METHODOLOGY.md). The post-by-post Twitter triage is in
@@ -10,16 +10,16 @@ still be missing. The rules for what counts are in
 
 | | Said | Did | Total |
 | --- | --: | --: | --: |
-| OpenAI | 38 | 42 | 80 |
-| Anthropic | 21 | 21 | 42 |
-| **Total** | **59** | **63** | **122** |
+| OpenAI | 57 | 49 | 106 |
+| Anthropic | 33 | 26 | 59 |
+| **Total** | **90** | **75** | **165** |
 
 Status of the "said" entries:
 
 | | Standing | Kept | Eroded | Contradicted | Broken | Reversed |
 | --- | --: | --: | --: | --: | --: | --: |
-| OpenAI | 17 | 3 | 8 | 3 | 2 | 5 |
-| Anthropic | 11 | 4 | 3 | 2 | 0 | 1 |
+| OpenAI | 20 | 7 | 12 | 6 | 4 | 8 |
+| Anthropic | 16 | 6 | 3 | 5 | 2 | 1 |
 
 Every quote with a saved snapshot matches the snapshot's text word for word
 (90 of 90). For one of them, the White House accord, the text exists only as
@@ -29,10 +29,24 @@ an image, and the match is against a labeled transcription saved beside it.
 
 **Twitter.** Every archived post of 77 accounts (the companies, their
 executives, board members, safety and policy staff, and former staff) was
-pulled from the Wayback Machine, including posts later deleted. 18,627 posts
-were read and given a decision. All 910 posts first filed as "context" were
-then read a second time, and ten were promoted. Every post marked "follow up"
-was worked to an outcome. The limits: posts nobody archived can't be found this
+pulled from the Wayback Machine, including posts later deleted. It was read
+three times:
+
+1. **First triage:** 18,627 posts that matched each account's topic filter,
+   or that the archive marks as possibly deleted, were read and given a
+   decision. All 910 filed as "context" were read a second time, and ten were
+   promoted.
+2. **Every post:** all 82,863 posts the accounts wrote from December 2015 on
+   that have text in the archive were read in full, with no topic filter, for
+   safety, ethics and policy claims.
+3. **Every kind of claim:** the 41,679 posts each person wrote while at the
+   company or after leaving it, including 5,154 collected after the second
+   reading, were read again for capability and benchmark claims, features and
+   release dates, usage limits and plan terms, product promises and dated
+   predictions.
+
+Every collected post has a decision, and every post marked "follow up" was
+worked to an outcome. The limits: posts nobody archived can't be found this
 way; for Elon Musk only the latest year was read.
 
 **Everything else.** The September 30 review went beyond Twitter to:
@@ -122,9 +136,66 @@ for anything that changes an entry.
   warning about future data collection, not a finding that a rule had been
   broken.
 
+## What the October 3 pass added
+
+The third reading of the Twitter archive, and a search of reporting for the
+same kinds of claims, widened the record from safety and ethics to any notable
+claim that can be checked. 43 new entries (26 OpenAI, 17 Anthropic) and 37
+updated ones.
+
+- **Usage limits and plan terms.** OpenAI: Codex's promise to "engage with the
+  community well ahead" of important changes (standing), with the five-hour
+  limit's return; unlimited GPT-5 for free users (kept, late). Anthropic:
+  weekly caps three months after Max was sold on "5x or 20x more usage";
+  third-party tools cut from subscriptions at a day's notice; the statement
+  that it never degrades model quality for demand (standing), and the April
+  2026 Claude Code quality postmortem.
+- **Capability claims.** OpenAI: GPT-4's bar-exam percentile; GPT-5 and the
+  Erdős problems; the Navier-Stokes announcement and the dispute over how it
+  was reached. Anthropic: the jailbreak classifiers; blackmail "completely
+  eliminated"; the Opus 4.6 AI R&D survey.
+- **Dated forecasts.** OpenAI's automated research intern; Anthropic's
+  powerful AI by late 2026 and its 2027 interpretability goal. All standing.
+- **Products announced and not delivered as described.** OpenAI: the GPT
+  Store's earnings program; Instant Checkout's "over 1 million Shopify
+  merchants"; better AI-text detection, and the watermark it built and held
+  back. Anthropic: Claude 3.5 Opus; Claude 3.5 Haiku "at the same cost as
+  before."
+- **Telling users what they are getting.** OpenAI: Altman's promise to show
+  which model answers, and safety routing that wasn't shown; the Codex
+  degradation report (kept). Anthropic: Fable 5's hidden safeguards on AI
+  development work; system prompt release notes (standing).
+- **Data and the open web.** OpenAI: "we never train on" API data
+  (contradicted); the 2023 promise that ChatGPT browsing follows robots.txt,
+  which its documentation now says "may not apply."
+- **Openness and open source.** OpenAI: GPT-2's staged release (kept); the
+  GPT-3 API's pre-launch review (reversed); DALL-E 2's trusted-user rollout
+  (reversed); Promptfoo staying open source (standing). Anthropic: MCP as a
+  community-led standard (kept); Bun staying open source (standing); the
+  Claude Code takedown notices (contradicted); the full soul document (kept).
+- **Governance and policy.** OpenAI: Bret Taylor's promise to step away after
+  the board's transitional work was done (eroded); Superalignment Fast Grants (kept); "plenty of
+  notice" before retiring GPT-4o (eroded); the Illinois liability shield; the
+  SB 53 dispute over GPT-5.3-Codex.
+- **Late September 2026.** OpenAI agents posting users' images, and three
+  safety researchers dismissed.
+
+**Updated:** the board crisis (the March 2024 review and the New Yorker's
+report that it produced no written findings), the Pentagon deal
+(staff dissent and the FOIA release), the Pentagon surveillance promise
+(Barak, Altman's walk-away line), Mythos (the 5.1 models), the electricity
+pledge (the Colossus lease in Memphis), the exit documents (equal access to
+liquidity for former employees, from June 2024), and Codex limits (the
+November 2025 "same usage throughout the day" claim).
+
+Checked and left out, among others: Anthropic's 2026 text watermark FAQ (a
+disclosure ahead of rollout, with no broken claim), OpenAI's First Proof
+results (corrected by OpenAI within days), and the GPT-5.2 physics result (no
+correction found).
+
 ## The two companies side by side
 
-OpenAI has about twice as many entries. It is older, larger and has made more
+OpenAI has nearly twice as many entries. It is older, larger and has made more
 public commitments, and more of its conduct has been litigated and reported. The
 review checked the other direction too: for each kind of OpenAI entry it looked
 for the Anthropic counterpart and recorded it where one exists.
@@ -142,16 +213,27 @@ for the Anthropic counterpart and recorded it where one exists.
 | Weakened safety frameworks | `2025-04-15-preparedness-framework-v2` | `2026-02-24-rsp-v3-drops-pause`, `2026-05-26-rsp-v3-3-bio-threshold` |
 | Non-disparagement agreements | `2024-05-22-exit-documents-signed` | `2024-07-anthropic-non-disparagement` |
 | Training data | `2024-01-08-training-is-fair-use`, `2024-04-06-youtube-transcription`, `2025-11-26-openai-libgen-deletion` | `2025-09-05-pirated-books-settlement`, `2025-06-04-reddit-scraping-lawsuit` |
-| User data for training | — | `2025-08-28-consumer-data-training-default` |
+| User data for training | `2023-08-15-altman-never-trains-api` | `2025-08-28-consumer-data-training-default` |
 | Shared pledges | White House 2023, Seoul, AISI testing, EU code, Safety by Design, White House accord | the same six |
 | Electricity prices | `2026-01-20-stargate-pay-own-way-energy` | `2026-02-11-anthropic-cover-electricity-prices` |
+| Usage limits and plan changes | `2026-04-21-codex-engage-well-ahead` | `2025-07-28-claude-weekly-limits`, `2026-04-03-claude-subscriptions-third-party-tools` |
+| Model quality or routing users weren't told about | `2025-09-27-chatgpt-safety-routing-not-shown`, `2025-10-31-codex-degradation-report` | `2026-04-23-claude-code-quality-postmortem`, `2026-06-09-fable-5-hidden-research-safeguards` |
+| Capability claims contradicted | `2023-03-14-gpt-4-bar-exam-top-10`, `2025-10-gpt-5-erdos-claim` | `2025-02-03-classifiers-defend-universal-jailbreaks`, `2026-05-08-blackmail-completely-eliminated` |
+| Dated forecasts | `2025-10-29-automated-research-intern-goal` | `2025-03-06-anthropic-powerful-ai-late-2026`, `2025-04-24-interpretability-2027-goal` |
+| Announced products that slipped or never shipped | `2023-11-06-gpt-store-make-money`, `2025-09-29-instant-checkout-million-shopify`, `2024-05-13-gpt-4o-voice-coming-weeks` | `2024-06-20-claude-3-5-opus-later-this-year`, `2024-10-22-claude-3-5-haiku-same-cost` |
+| Open-source promises after an acquisition | `2026-03-09-promptfoo-stays-open-source` | `2025-12-02-bun-stays-open-source` |
+| Website owners' opt-outs | `2023-09-27-browsing-follows-robots-txt` | — (its help page says Claude-User follows robots.txt) |
+| Marking AI-written text | `2023-01-31-ai-text-detection-improved-methods` | — (watermarks new models' text from August 2026; no claim broken) |
 
 **Kept promises.** OpenAI: pre-release testing by the U.S. AI Safety
 Institute; safeguards before developing and releasing a Critical-capability
 model (by OpenAI's account); adversarial fine-tuning tests before releasing
-open weights. Anthropic: the same AI Safety Institute testing; refusing to drop
-its surveillance and autonomous-weapons limits; a sabotage risk report for each
-frontier model beyond Opus 4.5; reporting back on Glasswing. Kept promises are
+open weights; GPT-2's staged release; the Superalignment Fast Grants; the
+GPT-4o voice mode and unlimited GPT-5 for free users (both late). Anthropic:
+the same AI Safety Institute testing; refusing to drop its surveillance and
+autonomous-weapons limits; a sabotage risk report for each frontier model
+beyond Opus 4.5; reporting back on Glasswing; MCP as a community-led standard;
+publishing the full soul document. Kept promises are
 recorded to the same standard as broken ones: a public source has to show the
 promise was tested and held.
 
@@ -180,7 +262,10 @@ promise was tested and held.
   $1 billion plan and both companies' independent-evaluator promises come due
   by March 2027. The Mythos general-release promise, the EU incident-reporting
   commitments, the energy pledges and the White House accord have no fixed
-  date and stay on watch.
+  date and stay on watch. OpenAI's Navier-Stokes proof awaits peer review and
+  the Clay Mathematics Institute; custom GPTs are retired on December 11;
+  Anthropic's Fluidstack data centers were due online "throughout 2026"; and
+  OpenAI has said it will mark ChatGPT's text under the EU code.
 
 Items that were reviewed and left out, with the reason for each, are listed in
 [inbox/sweep/TRIAGE.md](inbox/sweep/TRIAGE.md) under "No record change, and
