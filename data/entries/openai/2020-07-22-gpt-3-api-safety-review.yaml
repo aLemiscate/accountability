@@ -1,0 +1,71 @@
+title: 'GPT-3 API: OpenAI is "starting off with a beta and have safety review
+  before apps can go live"'
+date: 2020-07-22
+org: openai
+type: said
+kind: policy
+who: [sam-altman, openai, jack-clark]
+venue: Posts on X during the GPT-3 API private beta
+quote: >-
+  We share your concern about bias and safety in language models, and it's a
+  big part of why we're starting off with a beta and have safety review before
+  apps can go live.
+summary: >-
+  OpenAI released GPT-3 in 2020 only through a paid API in private beta,
+  rather than as an open model, and said this let it control use. Altman
+  answered a critic of GPT-3's toxic outputs that OpenAI could "turn off
+  applications that are misusing the API" and had introduced a toxicity filter
+  on by default, which "we don't think we could do this if we just open-sourced
+  the model." OpenAI said: "Before applications go live, they're also subject
+  to a review with the OpenAI team," and its then policy director Jack Clark
+  said it would "terminate access for harassment, spam, radicalization, or
+  astroturfing." The waitlist was dropped in November 2021. On March 1, 2023,
+  launching the ChatGPT API, OpenAI removed the pre-launch review in favor of
+  automated monitoring, saying "the overwhelming majority of apps were
+  approved during the vetting process."
+concreteness: measurable
+status: reversed
+related: [2023-08-15-altman-never-trains-api]
+sources:
+  - title: Sam Altman on X ("safety review before apps can go live")
+    publisher: X
+    url: https://x.com/sama/status/1285985962250534912
+    date: 2020-07-22
+    type: primary
+  - title: Sam Altman on X ("turn off applications that are misusing the API")
+    publisher: X
+    url: https://x.com/sama/status/1285986455106383872
+    date: 2020-07-22
+    type: primary
+  - title: OpenAI on X ("Before applications go live, they're also subject to a
+      review")
+    publisher: X
+    url: https://x.com/OpenAI/status/1286393817348808704
+    date: 2020-07-23
+    type: primary
+  - title: Jack Clark on X ("will terminate access")
+    publisher: X
+    url: https://x.com/jackclarkSF/status/1271549896491859968
+    date: 2020-06-12
+    type: primary
+  - title: Sam Altman on X ("we've also removed our pre-launch review")
+    publisher: X
+    url: https://x.com/sama/status/1631002519311888385
+    date: 2023-03-01
+    type: primary
+  - title: Addressing criticism, OpenAI will no longer use customer data to train
+      its models by default
+    publisher: TechCrunch
+    url: https://techcrunch.com/2023/03/01/addressing-criticism-openai-will-no-longer-use-customer-data-to-train-its-models-by-default/
+    date: 2023-03-01
+    type: reporting
+response: >-
+  An OpenAI spokesperson said the company had "moved from a form-based upfront
+  vetting system, where developers wait in a queue to be approved on their app
+  idea in concept, to a post-hoc detection system where we identify and
+  investigate problematic apps by monitoring their traffic," because its
+  monitoring had "significantly improved."
+note: >-
+  Reversed openly, with a stated reason. The review was part of OpenAI's
+  argument for releasing GPT-3 through an API instead of openly; by the time it
+  went, so had much of that argument's audience.
