@@ -1,0 +1,59 @@
+title: 'Anthropic: "we’ll be releasing Claude 3.5 Haiku and Claude 3.5 Opus later
+  this year"; 3.5 Opus never shipped'
+date: 2024-06-20
+org: anthropic
+type: said
+kind: commitment
+who: [anthropic, dario-amodei]
+venue: Claude 3.5 Sonnet launch post
+quote: >-
+  To complete the Claude 3.5 model family, we’ll be releasing Claude 3.5 Haiku
+  and Claude 3.5 Opus later this year.
+summary: >-
+  Launching Claude 3.5 Sonnet, Anthropic promised the rest of the 3.5 family,
+  including a new top model, Claude 3.5 Opus, by the end of 2024. Claude 3.5
+  Haiku shipped in November. Anthropic's model documentation still listed 3.5
+  Opus as coming "Later this year" on Oct. 8; by Oct. 22, the day Anthropic
+  launched an upgraded 3.5 Sonnet, the page no longer mentioned it, as Simon
+  Willison noted that day. There was no announcement. Asked in November when
+  it was coming, Dario Amodei said: "Not giving you an exact date, but as far
+  as we know, the plan is still to have a Claude 3.5 Opus." No Claude 3.5 Opus
+  was released; the next Opus model was Claude Opus 4, in May 2025.
+concreteness: measurable
+status: broken
+patterns: [coming-weeks]
+related: [2024-10-22-claude-3-5-haiku-same-cost]
+sources:
+  - title: Introducing Claude 3.5 Sonnet
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/claude-3-5-sonnet
+    date: 2024-06-20
+    type: primary
+  - title: Models overview, as archived on Oct. 8, 2024 (3.5 Opus "Later this
+      year")
+    publisher: Internet Archive
+    url: https://web.archive.org/web/20241008222204/https://docs.anthropic.com/en/docs/about-claude/models
+    date: 2024-10-08
+    type: archive
+  - title: Simon Willison on Hacker News ("Claude 3.5 Opus is no longer mentioned
+      at all")
+    publisher: Hacker News
+    url: https://news.ycombinator.com/item?id=41920044
+    date: 2024-10-22
+    type: analysis
+  - title: 'Transcript for Dario Amodei: Anthropic CEO on Claude, AGI & the Future
+      of AI & Humanity (Lex Fridman Podcast #452)'
+    publisher: Lex Fridman
+    url: https://lexfridman.com/dario-amodei-transcript/
+    date: 2024-11-11
+    type: primary
+  - title: Anthropic delays next-gen AI model Opus 3.5 with no new timeline
+    publisher: The Decoder
+    url: https://the-decoder.com/anthropic-delays-next-gen-ai-model-opus-3-5-with-no-new-timeline/
+    date: 2024-11-12
+    type: reporting
+note: >-
+  Model plans change, and a delayed model is not a broken safety promise. The
+  pattern is how the date passed: the promise came off the documentation
+  without a note, and readers learned of it from a watcher comparing archived
+  pages.
