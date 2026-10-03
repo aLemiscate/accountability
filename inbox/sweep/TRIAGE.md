@@ -30,6 +30,44 @@ login page), so they could only be marked as no action. Musk's account was
 swept for the latest year only. Accounts with nothing in their queue are not
 listed.
 
+## Two later readings, with no topic filter
+
+The triage below read only the posts that matched each account's topic filter.
+Two later readings had no filter. Their decisions are in
+[`triage/reading-log.jsonl`](triage/reading-log.jsonl), one line per post per
+reading; lines from the second carry `"scope": "all"`.
+
+| Reading | Posts | Record change | Lead | Context | No action |
+| --- | --: | --: | --: | --: | --: |
+| Every post with text, December 2015 on: safety, ethics and policy claims | 82,863 | 43 | 135 | 500 | 82,185 |
+| Posts written at the company or after: every kind of claim | 41,679 | 55 | 229 | 803 | 40,592 |
+
+The second covered capability and benchmark claims, features and release
+dates, usage limits and plan terms, promises about how a product behaves, and
+dated predictions. Its 41,679 posts include 5,154 collected after the first of
+these readings. The record changes they produced are summarized in
+[COVERAGE.md](../../COVERAGE.md). Leads were worked in topic clusters, and not
+every one has been worked yet. Among those reviewed that changed nothing:
+
+- Cowork "will ask before taking any significant actions" (@claudeai, Jan
+  2026): only individual bug reports contradict it, and the launch post itself
+  warned that Claude could take destructive actions.
+- Claude Code quietly using Haiku (@karpathy, Jul 2025): one user's report;
+  Claude Code's use of Haiku for background tasks is documented.
+- Sam Bowman's deleted whistleblowing post (May 2025): he announced the
+  deletion himself, and the behavior is described in the system card.
+- Anthropic's 2026 text-watermark FAQ: a disclosure ahead of rollout, with no
+  claim that later broke.
+- Anthropic's $50 billion data centers "coming online throughout 2026": no
+  status reporting yet.
+- OpenAI's First Proof results (Feb 2026): corrected by OpenAI within days.
+- OpenAI's IMO gold announcement (Jul 2025): the result has not been shown
+  wrong; the dispute was over timing.
+- GPT-5.2's physics result (Feb 2026): no correction found.
+- The OpenAI Startup Fund's ownership: already in the board-crisis entry
+  through Helen Toner's account.
+- "Unlimited" ChatGPT Pro use: no later cut was found.
+
 ## Decisions by account
 
 | Account | Queued | Record change | Lead | Context | No action |
@@ -222,10 +260,10 @@ GPT-5.6 Sol's restricted launch, and Astra's "recurrent depth" design.
 - PR firm with fake reporters (@sjgadler [437960](https://x.com/sjgadler/status/2047708302323437960)): the link to Leading the Future runs through a PR firm whose client's CEO co-founded the PAC. Even the outlets that reported it call it circumstantial. Recorded if reporting ties the site to the PAC or OpenAI directly.
 - July 2024 Preparedness restatement (@OpenAI [056842](https://x.com/OpenAI/status/1815708157207056842)): restates the 2023 rule; the rule's replacement is covered by `openai/2025-04-15-preparedness-framework-v2`, and the first "High" deployment by `openai/2025-07-17-chatgpt-agent-high-bio`.
 - Kokotajlo on internal deployment (@DKokotajlo [513317](https://x.com/DKokotajlo/status/1912907538267513317)): a hedged recollection ("IIRC"). Version 2 of the framework does name internally deployed agents.
-- GPT-5 system card "overclaim" (@sjgadler [821035](https://x.com/sjgadler/status/1953520540456821035)): the feature is named only in images; not pursued.
+- GPT-5 system card "overclaim" (@sjgadler [821035](https://x.com/sjgadler/status/1953520540456821035)): the feature, shown in an image, is a new API field (`safety_identifier`) for flagging end users, which Adler says does what an identifier OpenAI has offered since 2021 already did. A question of framing in a system card; not pursued.
 - Departures: Richard Ngo ([839804](https://x.com/RichardMCNgo/status/1856843040427839804)) and Mrinank Sharma ([583421](https://x.com/MrinankSharma/status/2020881722003583421)). Neither letter names a decision or a promise, so both are context, held to the same rule for each company.
-- Promptfoo and Bun open-source promises (@OpenAI [106753](https://x.com/OpenAI/status/2031052793835106753), @mikeyk [749969](https://x.com/mikeyk/status/1995920258595749969)): product licensing, outside this record's ethics and safety scope.
-- Claude Code source leak (@bcherny [863902](https://x.com/bcherny/status/2039209466881863902)): an accidental publication of source code, with no safety commitment involved.
+- Promptfoo and Bun open-source promises (@OpenAI [106753](https://x.com/OpenAI/status/2031052793835106753), @mikeyk [749969](https://x.com/mikeyk/status/1995920258595749969)): first left out as product licensing. When the record's scope widened to every notable claim, both became entries: `openai/2026-03-09-promptfoo-stays-open-source` and `anthropic/2025-12-02-bun-stays-open-source`.
+- Claude Code source leak (@bcherny [863902](https://x.com/bcherny/status/2039209466881863902)): first left out as an accident with no safety commitment. Under the wider scope, the takedown notices that followed it and Anthropic's denial became `anthropic/2026-04-01-claude-code-dmca-forks`.
 - Altman leaving Helion's board (@sama [563682](https://x.com/sama/status/2036137695605563682)): he left because OpenAI and Helion were exploring a deal. No promise is involved.
 - Jack Clark's 2022 thread on industry lobbying (@jackclarkSF, 4 posts): a description of industry practice, not a commitment.
 - Staff post on engagement (@aidan_mclau [627357](https://x.com/aidan_mclau/status/1918335561699627357)): a personal view from a staff member, not company policy.
