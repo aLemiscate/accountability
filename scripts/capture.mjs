@@ -37,6 +37,9 @@ import {
 const VALUE_OPTS = new Set(['entry', 'title', 'type', 'limit', 'match']);
 // Documents larger than this are not stored in snapshots/ (their text and hash are).
 const MAX_DOCUMENT_BYTES = 10 * 1024 * 1024;
+// Some pages embed a third-party API key in their HTML (LessWrong's Mapbox
+// token, for one). GitHub push protection rejects any commit that contains one.
+const EMBEDDED_TOKEN = /\b[ps]k\.eyJ[A-Za-z0-9_-]{10,}\.[A-Za-z0-9_-]{10,}/;
 const opts = {};
 const positional = [];
 for (let i = 2; i < process.argv.length; i++) {
@@ -116,9 +119,16 @@ async function snapshot(url, { doArchive = true, doShot = true } = {}) {
       // Error pages (blocked, not found, rate-limited) are not evidence of the content.
       console.warn(`  fetch returned HTTP ${res.status}; page not saved${res.status === 404 || res.status === 410 ? ' (it may have been deleted)' : ''}`);
     } else if (/html|xml|text/.test(meta.content_type || '')) {
-      await save('page.html', body);
-      meta.title = pageTitle(body.toString('utf8'));
-      await save('page.txt', htmlToText(body.toString('utf8')));
+      const html = body.toString('utf8');
+      if (EMBEDDED_TOKEN.test(html)) {
+        // Keep the page's hash and text, not the raw HTML with the key in it.
+        meta.omitted = { file: 'page.html', bytes: body.length, sha256: sha256(body), reason: 'the page embeds a third-party API token that GitHub push protection blocks; page.txt holds its text' };
+        console.log('  omitted   page.html (embeds a third-party API token); kept its text and hash');
+      } else {
+        await save('page.html', body);
+      }
+      meta.title = pageTitle(html);
+      await save('page.txt', htmlToText(html));
     } else {
       // Some hosts (Google Drive, S3) send PDFs as application/octet-stream; trust the file's own header.
       const isPdf = (meta.content_type || '').includes('pdf') || body.subarray(0, 5).toString('latin1') === '%PDF-';

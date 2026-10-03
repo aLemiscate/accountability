@@ -35,6 +35,11 @@ sources:
     type: reporting
     archive: https://web.archive.org/web/20260929211147/https://techcrunch.com/2025/08/28/anthropic-users-face-a-new-choice-opt-out-or-share-your-data-for-ai-training/
     snapshot: snapshots/2026-09-29-techcrunch.com-c9e05edf
+  - title: Privacy Policy (effective Sept. 10, 2026)
+    publisher: Anthropic
+    url: https://www.anthropic.com/legal/privacy
+    date: 2026-09-10
+    type: primary
   - title: Claude on X
     publisher: X
     url: https://x.com/claudeai/status/1961096054192943302
@@ -46,4 +51,7 @@ response: >-
   coding, and that users stay in control and can change the setting at any time.
 note: >-
   Privacy had been a selling point, and the flip was framed as user choice.
-  Whether a pre-set toggle counts as a choice is the question.
+  Whether a pre-set toggle counts as a choice is the question. The opt-out
+  also has limits: the privacy policy says that even for users who opt out,
+  Anthropic will use conversations "flagged for safety review" and material
+  users report to it for model improvement.
