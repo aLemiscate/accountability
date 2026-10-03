@@ -1,0 +1,36 @@
+{
+  "url": "https://x.com/OpenAI/status/1191764001434173440",
+  "captured_at": "2026-10-03T12:54:39.314Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "cd4ebad2157932ff06efe015899ab1f66dfdb8ea2aab35045b6807711e6b0d47",
+    "page.txt": "14932d78fc9480283cbac4f9b3b3a21d761d99e4cd589c9e0a77185821ef18c7",
+    "post.json": "9ced66db080f083d2c29aabefc6f5946476c5801487db4a8f4a705568666b42b",
+    "syndication.json": "a0d1079850265da5f5a66682f28ac9da4f5c9eb951992654041b878a50c883b0",
+    "media-1.jpg": "0a9244edcf01235ebfabf485c5f0d7729a39b88ce4beff62e46808bba3e1c6d8",
+    "post.txt": "4d9e17f9bcccf618078347623cfb2766ddeb037020d481e66e09853115dc6f9f"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1191764001434173440",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"We're releasing the 1.5billion parameter GPT-2 model as part of our staged release publication strategy. - GPT-2 output detection model: https://t.co/PX3tbOOOTy - Research from partners on potential malicious uses: https://t.co/om28yMULL5 - More details: https://t.co/d2JzaENiks\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "November 5, 2019",
+    "posted_at": "2019-11-05T17:07:34.503Z",
+    "media": [
+      {
+        "file": "media-1.jpg",
+        "url": "https://pbs.twimg.com/media/EIn0S86U8AAKLwr.jpg"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20250723012128/https://x.com/OpenAI/status/1191764001434173440",
+    "timestamp": "20250723012128",
+    "method": "existing"
+  }
+}

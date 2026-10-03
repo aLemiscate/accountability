@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/sama/status/1631002519311888385",
+  "captured_at": "2026-10-03T12:56:16.176Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "72e76ae11d6c96bad10d6219ce3b5ae74a483659276fa75b2ea057300703bfbc",
+    "page.txt": "927dbc196d3453f3018bc499d8d8db012c397c0fa70c2c53723d90f99f24a56f",
+    "post.json": "9db40a97b7768f6881dbb1213a51284f227a2fd4f1ad899cad50b89b6091be9d",
+    "syndication.json": "9d19a8b3157b862eece8a60d837eddab039ec6bd1a0c1cd31b98925c99fb4262",
+    "post.txt": "02430d80e5998d9d2b4b1e2e5179ab5761fc4d91fee65d3da4f86196e6db25d7"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1631002519311888385",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"data submitted to the OpenAI API is not used for training, and we have a new 30-day retention policy and are open to less on a case-by-case basis. we've also removed our pre-launch review and made our terms of service and usage policies more developer-friendly.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "March 1, 2023",
+    "posted_at": "2023-03-01T18:44:37.822Z"
+  },
+  "rendered_status": 403,
+  "archive": null
+}

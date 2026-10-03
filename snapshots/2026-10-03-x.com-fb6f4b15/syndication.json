@@ -1,0 +1,166 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 306,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2024-03-09T01:05:52.000Z",
+  "display_text_range": [
+    0,
+    48
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/Pl3lpJJqGX",
+        "expanded_url": "https://x.com/hlntnr/status/1766269137628590185/photo/1",
+        "indices": [
+          49,
+          72
+        ],
+        "url": "https://t.co/Pl3lpJJqGX"
+      }
+    ]
+  },
+  "id_str": "1766269137628590185",
+  "text": "A statement from Helen Toner and Tasha McCauley: https://t.co/Pl3lpJJqGX",
+  "user": {
+    "id_str": "2907985939",
+    "name": "Helen Toner",
+    "screen_name": "hlntnr",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/986891120104718336/cVLwrL6u_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1766269137628590185"
+    ],
+    "editable_until_msecs": "1709949952000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/Pl3lpJJqGX",
+      "expanded_url": "https://x.com/hlntnr/status/1766269137628590185/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        49,
+        72
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/GIMKPVYXgAAhgO4.png",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 295,
+            "w": 526,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 526,
+            "w": 526,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 600,
+            "w": 526,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 760,
+            "w": 380,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 760,
+            "w": 526,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 760,
+        "width": 526
+      },
+      "sizes": {
+        "large": {
+          "h": 760,
+          "resize": "fit",
+          "w": 526
+        },
+        "medium": {
+          "h": 760,
+          "resize": "fit",
+          "w": 526
+        },
+        "small": {
+          "h": 680,
+          "resize": "fit",
+          "w": 471
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/Pl3lpJJqGX"
+    }
+  ],
+  "photos": [
+    {
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 295,
+          "w": 526,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 526,
+          "w": 526,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 600,
+          "w": 526,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 760,
+          "w": 380,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 760,
+          "w": 526,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/hlntnr/status/1766269137628590185/photo/1",
+      "url": "https://pbs.twimg.com/media/GIMKPVYXgAAhgO4.png",
+      "width": 526,
+      "height": 760
+    }
+  ],
+  "conversation_count": 28,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

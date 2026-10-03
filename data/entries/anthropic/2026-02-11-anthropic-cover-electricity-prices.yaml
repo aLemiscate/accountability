@@ -42,8 +42,8 @@ updates:
   - date: 2026-05-06
     text: >-
       Anthropic agreed to use all of the compute at SpaceX's Colossus 1 data
-      center in Memphis, more than 300 megawatts, and restated the pledge in
-      the same post as a commitment "to cover any consumer electricity price
+      center in Memphis, more than 300 megawatts, and restated the pledge in the
+      same post as a commitment "to cover any consumer electricity price
       increases caused by our data centers in the US." Colossus 1 is leased
       capacity, the category the February pledge left to "exploring further
       ways." According to the Southern Environmental Law Center, which
@@ -51,27 +51,30 @@ updates:
       air permits after it opened in 2024; xAI removed them after a notice of
       intent to sue under the Clean Air Act and obtained permits for its
       remaining 15. Asked by the Bureau of Investigative Journalism about
-      environmental checks and consultation with local groups, Anthropic
-      pointed to a $1 million donation to a Memphis education nonprofit and to
-      its public statements about talks with local policymakers, and did not
-      address those questions.
+      environmental checks and consultation with local groups, Anthropic pointed
+      to a $1 million donation to a Memphis education nonprofit and to its
+      public statements about talks with local policymakers, and did not address
+      those questions.
     sources:
       - title: Higher usage limits for Claude and a compute deal with SpaceX
         publisher: Anthropic
         url: https://www.anthropic.com/news/higher-limits-spacex
         date: 2026-05-06
         type: primary
-      - title: How Musk's toxic data empire is powering Anthropic's 'responsible'
-          AI
+        snapshot: snapshots/2026-10-03-anthropic.com-f53c308c
+      - title: How Musk's toxic data empire is powering Anthropic's 'responsible' AI
         publisher: The Bureau of Investigative Journalism
         url: https://www.thebureauinvestigates.com/stories/2026-08-14/misaligned-colossus-musks-data-empire-anthropic
         date: 2026-08-14
         type: reporting
+        snapshot: snapshots/2026-10-03-thebureauinvestigates.com-482568d0
       - title: xAI built an illegal power plant to power its data center
         publisher: Southern Environmental Law Center
         url: https://www.selc.org/news/xai-built-an-illegal-power-plant-to-power-its-data-center/
         date: 2026-04-14
         type: analysis
+        archive: https://web.archive.org/web/20260917161044/https://www.selc.org/news/xai-built-an-illegal-power-plant-to-power-its-data-center/
+        snapshot: snapshots/2026-10-03-selc.org-9eb15982
 note: >-
   Note the carve-out. The pledge is firm only for data centers Anthropic
   develops with partners. For capacity it leases, Anthropic committed only to

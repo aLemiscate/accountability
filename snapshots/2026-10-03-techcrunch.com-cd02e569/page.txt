@@ -1,0 +1,47 @@
+Today, DALL-E 2, OpenAI’s AI system that can generate images given a prompt or edit and refine existing images, is becoming more widely available . The company announced in a blog post that it will expedite access for customers on the waitlist with the goal of reaching roughly 1 million people within the next few weeks.
+With this “beta” launch, DALL-E 2, which had been free to use, will move to a credit-based fee structure. First-time users will get a finite amount of credits that can be put toward generating or editing an image or creating a variation of an image. (Generations return four images, while edits and variations return three.) Credits will refill every month to the tune of 50 in the first month and 15 a month after that, or users can buy additional credits in increments of $15.
+Here’s a chart with the specifics:
+Image Credits: OpenAI
+Artists in need of financial assistance will be able to apply for subsidized access, OpenAI says.
+The successor to DALL-E, DALL-E 2 was announced in April and became available for a select group of users earlier this year, recently crossing the 100,000-user threshold. OpenAI says that the broader access was made possible by new approaches to mitigate bias and toxicity in DALL-E 2’s generations, as well as evolutions in policy governing images created by the system.
+An example of the types of images DALL-E 2 can generate. Image Credits: OpenAI
+For instance, OpenAI said it this week deployed a technique that encourages DALL-E 2 to generate images of people that “more accurately reflect the diversity of the world’s population” when given a prompt describing a person with an unspecified race or gender. The company also said that it’s now rejecting image uploads containing realistic faces and attempts to create the likeness of public figures, including prominent political figures and celebrities, while improving its content filters’ accuracy.
+Broadly speaking, OpenAI doesn’t allow DALL-E 2 to be used to create images that aren’t “G-rated” or that could “cause harm” (e.g., images of self-harm, hateful symbols or illegal activity). And it previously disallowed the use of generated images for commercial purposes. Starting today, however, OpenAI is granting users “full usage rights” to commercialize the images they create with DALL-E 2, including the right to reprint, sell and merchandise — including images they generated during the early preview.
+As demonstrated by DALL-E 2 derivatives like Craiyon (formerly DALL-E mini) and the unfiltered DALL-E 2 itself, image-generating AI can very easily pick up on the biases and toxicities embedded in the millions of images from the web used to train them. Futurism was able to prompt Craiyon to create images of burning crosses and Ku Klux Klan rallies and found that the system made racist assumptions about identities based on “ethnic-sounding” names. OpenAI researchers noted in an academic paper that an open source implementation of DALL-E could be trained to make stereotypical associations like generating images of white-passing men in business suits for terms like “CEO.”
+While the OpenAI-hosted version of DALL-E 2 was trained on a dataset filtered to remove images that contained obvious violent, sexual or hateful content, filtering has its limits. Google recently said it wouldn’t release an AI-generating model it developed, Imagen , due to risks of misuse. Meanwhile, Meta has limited access to Make-A-Scene, its art-focused image-generating system, to “prominent AI artists.”
+OpenAI emphasizes that the hosted DALL-E 2 incorporates other safeguards including “automated and human monitoring systems” to prevent things like the model from memorizing faces that often appear on the internet. Still, the company admits that there’s more work to do.
+“Expanding access is an important part of our deploying AI systems responsibly because it allows us to learn more about real-world use and continue to iterate on our safety systems,” OpenAI wrote in a blog post. “We are continuing to research how AI systems, like DALL-E, might reflect biases in its training data and different ways we can address them.”
+Topics
+AI , AI , Artificial Intelligence (AI) , beta , Cloud Computing , dall-e , dall-e 2 , developers , Enterprise , image generation , machine learning , Media & Entertainment , OpenAI
+When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.
+Kyle Wiggers
+AI Editor
+Kyle Wiggers was TechCrunch’s AI Editor until June 2025. His writing has appeared in VentureBeat and Digital Trends, as well as a range of gadget blogs including Android Police, Android Authority, Droid-Life, and XDA-Developers. He lives in Manhattan with his partner, a music therapist.
+View Bio
+October 13 – 15
+San Francisco
+Get 50% off a second pass
+The Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by making connections, building momentum, and discovering what’s next in the startup ecosystem.
+BOOK NOW
+Most Popular
+•
+Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground
+• Tim Fernholz
+•
+World’s first enhanced geothermal power plant completed in just 23 months
+• Tim De Chant
+•
+Google releases Gemini 4 Argon, called its most powerful model yet
+• Lucas Ropek
+•
+The Pentagon taps Elon Musk and Palmer Luckey to help decide what the military should do next
+• Dominic-Madori Davis
+•
+OpenAI launches Dots, its bubbly agentic avatar
+• Lucas Ropek
+•
+AMD will acquire Fei-Fei Li’s World Labs for $8.2B
+• Tim Fernholz
+•
+Viral AI agent Instinct raises $1B Series C at a $10B valuation
+• Sarah Perez

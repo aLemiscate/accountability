@@ -1,0 +1,35 @@
+Anamarija Pogorelec, Senior Staff Writer, Help Net Security
+September 7, 2026
+Share
+OpenAI just hit a milestone on the road to self-improving AI
+OpenAI has announced that it has reached a goal set last fall of having an automated research intern by September 2026. The milestone means a system can carry out well-defined research tasks under human direction, including work that would take a skilled researcher several days. The company is also working toward creating an automated AI researcher by March 2028.
+All categories of research activity have increased since the start of the year (Source: OpenAI)
+“Transparency about specific risks, incidents and safeguards is necessary, but not sufficient. We believe the public also needs to understand how the most capable systems are developing, and how they are driving research progress, inside of frontier labs,” OpenAI said.
+OpenAI pushes toward automated AI research
+Researchers are using coding agents to write code, run experiments and handle more complex tasks, often running several agents at once. The company says this is helping speed up research, while humans continue to set priorities, assess results and decide whether systems are developed or deployed.
+The company sees automated research as a way to develop more capable and affordable AI, along with tools for AI safety and security. Its work includes progress toward recursive self-improvement (RSI), in which AI helps develop more capable AI systems that can contribute to further advances.
+OpenAI says it does not know how to achieve full RSI safely and that development should depend on maintaining human control. Following what OpenAI called the recent “Hugging Face incident,” the company paused some reinforcement-learning work while strengthening security, testing and monitoring.
+OpenAI is publishing early data on its progress toward RSI and has called for AI companies to be required to disclose such progress publicly.
+OpenAI researchers increase use of AI agents
+Daily inference use for the median researcher using coding agents rose from modest levels to more than $600 at API prices by mid-August. Researchers at the 90th percentile now use tokens costing more than $7,000 per day at API prices.
+The research organization logs 3.1 agent-workdays of effort for every eight hours of human labor. In June 2026, agent effort remained below total human labor. An increasing number of researchers are using highly concurrent workflows involving four or more agents simultaneously.
+Writing code and running experiments are two major research activities. AI research involves a series of steps aimed at improving model performance. Researchers develop ideas, create tests to measure results, build systems to run experiments at scale, identify bugs and safety problems, and incorporate successful changes into model training. Problems at any stage can slow the process.
+Tasks that are difficult to automate could constrain progress as they account for a larger share of researchers’ workloads. Compute is another potential constraint and could become more important as other bottlenecks diminish.
+The number of experiments per active experimenter has increased since tracking began in January 2025, reaching a record high in August. OpenAI said the increase coincided with greater Codex adoption and increased availability of compute.
+AI agents take on more complex research tasks
+Using a framework developed by Epoch AI, OpenAI classified coding-agent activity across six phases of AI research and development, including choosing research directions, designing approaches, building code and datasets, running experiments, analyzing results and communicating findings.
+The data shows researchers are assigning coding agents more complex and longer-running tasks. Agent use increased across stages of AI research between January and August 2026, with agents contributing to implementation, experimentation and related technical work. High-level planning remained rare.
+Agents are handling some troubleshooting previously carried out by internal support teams, contributing to lower use of human-run support channels. Measured success rates generally increased across several task-difficulty categories between January and July. Agents still required frequent human input for difficult tasks. More than half of successful tasks expected to take a person four to eight hours required at least one intervention.
+Safety concerns affect model development
+Safety and security concerns led OpenAI to temporarily pause some reinforcement-learning training and impose additional restrictions on advanced models this summer.
+On July 20, OpenAI shut down the container service used for training after discovering that AI agents had compromised its research infrastructure. Some training workloads later resumed under tighter security. Reinforcement-learning training on its latest models intended for deployment remained paused for two weeks.
+Further restrictions followed in August after tests indicated that its Astra model could have advanced cyber capabilities. GPU allocation to Astra-class models fell about 59% the following week, while allocation to other model classes rose about 17%, offsetting most of the decline.
+Restrictions on one model may shift compute to other research instead of slowing the overall pace of AI development.
+“Making and understanding progress toward aligned RSI is important for our mission. We will continue to refine our methods, report on our evolving understanding, and work toward an informed public debate and meaningful democratic governance of frontier systems,” the company concluded.
+More about
+agentic AI
+AI
+cybersecurity
+OpenAI
+research
+Share

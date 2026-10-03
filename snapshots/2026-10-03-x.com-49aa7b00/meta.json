@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/janleike/status/1620484806281940993",
+  "captured_at": "2026-10-03T13:05:59.895Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "27a3aa72b22109c69e5f2f58e93e2af5c1e984578044c165639f883b20fe07c5",
+    "page.txt": "e7a8ee21bc4aa3be3033239e3c94f61887d15e81b618ddd26924323daa7f42b8",
+    "post.json": "50c48df0ad9f01c147e5e340b923780c8d934bb5a719fd19f982ce2fb4ff2f51",
+    "syndication.json": "7081ff2ebed7ba4e98b207453af978a2d3b195745d75918b577bc336a68c8902",
+    "post.txt": "5835bca8dcd66f28410e84bad48142f497ad922bdf8d5c12e9c885487c382637"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/janleike/status/1620484806281940993",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Jan Leike on X: \"Everyone has a right to know whether they are interacting with a human or AI. Language models like ChatGPT are good at posing as humans. So we trained a classifier to distinguish between AI-written and human-written text. But it's not fully reliable. https://t.co/twWIjgnP7k\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Jan Leike (@janleike)",
+    "date": "January 31, 2023",
+    "posted_at": "2023-01-31T18:10:59.626Z"
+  },
+  "rendered_status": 403,
+  "archive": null
+}

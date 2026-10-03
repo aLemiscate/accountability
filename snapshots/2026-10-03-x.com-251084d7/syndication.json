@@ -1,0 +1,70 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 148,
+  "lang": "en",
+  "created_at": "2026-03-01T15:36:24.000Z",
+  "display_text_range": [
+    0,
+    280
+  ],
+  "entities": {},
+  "id_str": "2028132252090007776",
+  "text": "I’m proud to work at a company that contains people as brilliant and conscientious as Leo and allows them to speak their mind. OpenAI has a lot of issues, but in terms of enabling employee pushback and discussion it is in fact still open, with all the messiness that this entails.",
+  "user": {
+    "id_str": "1217628182611927040",
+    "name": "Boaz Barak",
+    "screen_name": "boazbaraktcs",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1252262363132280834/ytIN-vzv_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2028132252090007776"
+    ],
+    "editable_until_msecs": "1772382984000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 38,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 869,
+    "lang": "en",
+    "reply_count": 13,
+    "retweet_count": 57,
+    "created_at": "2026-03-01T10:04:27.000Z",
+    "display_text_range": [
+      0,
+      280
+    ],
+    "entities": {},
+    "id_str": "2028048714368250308",
+    "text": "the contract snippet from the openai dow blog post is so obviously just \"all lawful use\" followed by a bunch of stuff that is not really operative except as window dressing.\nthe referenced DoD Directive 3000.09 basically says the DoD gets to decide when autonomous weapons systems",
+    "user": {
+      "id_str": "1174529814264332289",
+      "name": "Leo Gao",
+      "screen_name": "nabla_theta",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1258559367747530753/3uI8vU62_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2028048714368250308"
+      ],
+      "editable_until_msecs": "1772363067000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDI4MTMyMjUxOTkzNTgzNjE2"
+  }
+}

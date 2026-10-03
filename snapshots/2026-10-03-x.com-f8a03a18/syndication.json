@@ -1,0 +1,330 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 3472,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2024-09-24T18:12:33.000Z",
+  "display_text_range": [
+    0,
+    34
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/MdupYmYpJK",
+        "expanded_url": "https://x.com/miramurati/status/1838642696111689788/photo/1",
+        "indices": [
+          35,
+          58
+        ],
+        "url": "https://t.co/MdupYmYpJK"
+      }
+    ]
+  },
+  "id_str": "1838642696111689788",
+  "text": "All Plus and Team users in ChatGPT https://t.co/MdupYmYpJK",
+  "user": {
+    "id_str": "180115578",
+    "name": "Mira Murati",
+    "screen_name": "miramurati",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2057853902918455296/D_nfq15L_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1838642696111689788"
+    ],
+    "editable_until_msecs": "1727205153000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/MdupYmYpJK",
+      "expanded_url": "https://x.com/miramurati/status/1838642696111689788/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        35,
+        58
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/GYQryRgbYAATuXN.jpg",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 605,
+            "w": 1080,
+            "x": 0,
+            "y": 475
+          },
+          {
+            "h": 1080,
+            "w": 1080,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1080,
+            "w": 947,
+            "x": 40,
+            "y": 0
+          },
+          {
+            "h": 1080,
+            "w": 540,
+            "x": 243,
+            "y": 0
+          },
+          {
+            "h": 1080,
+            "w": 1080,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 1080,
+        "width": 1080
+      },
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "resize": "fit",
+          "w": 1080
+        },
+        "medium": {
+          "h": 1080,
+          "resize": "fit",
+          "w": 1080
+        },
+        "small": {
+          "h": 680,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/MdupYmYpJK"
+    }
+  ],
+  "photos": [
+    {
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 605,
+          "w": 1080,
+          "x": 0,
+          "y": 475
+        },
+        {
+          "h": 1080,
+          "w": 1080,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 1080,
+          "w": 947,
+          "x": 40,
+          "y": 0
+        },
+        {
+          "h": 1080,
+          "w": 540,
+          "x": 243,
+          "y": 0
+        },
+        {
+          "h": 1080,
+          "w": 1080,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/miramurati/status/1838642696111689788/photo/1",
+      "url": "https://pbs.twimg.com/media/GYQryRgbYAATuXN.jpg",
+      "width": 1080,
+      "height": 1080
+    }
+  ],
+  "conversation_count": 204,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 11467,
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 991,
+    "retweet_count": 1876,
+    "created_at": "2024-09-24T18:11:33.000Z",
+    "display_text_range": [
+      0,
+      278
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/APOqqhXtDg",
+          "expanded_url": "https://x.com/OpenAI/status/1838642444365369814/video/1",
+          "indices": [
+            279,
+            302
+          ],
+          "url": "https://t.co/APOqqhXtDg"
+        }
+      ]
+    },
+    "id_str": "1838642444365369814",
+    "text": "Advanced Voice is rolling out to all Plus and Team users in the ChatGPT app over the course of the week.\n\nWhile you’ve been patiently waiting, we’ve added Custom Instructions, Memory, five new voices, and improved accents.\n\nIt can also say “Sorry I’m late” in over 50 languages. https://t.co/APOqqhXtDg",
+    "user": {
+      "id_str": "4398626122",
+      "name": "OpenAI",
+      "screen_name": "OpenAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1838642444365369814"
+      ],
+      "editable_until_msecs": "1727205093000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "mediaDetails": [
+      {
+        "additional_media_info": {},
+        "display_url": "pic.x.com/APOqqhXtDg",
+        "expanded_url": "https://x.com/OpenAI/status/1838642444365369814/video/1",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          279,
+          302
+        ],
+        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1838636952314380288/pu/img/eH2wlKI7arkLImb0.jpg",
+        "original_info": {
+          "focus_rects": [],
+          "height": 1080,
+          "width": 1920
+        },
+        "sizes": {
+          "large": {
+            "h": 1080,
+            "resize": "fit",
+            "w": 1920
+          },
+          "medium": {
+            "h": 675,
+            "resize": "fit",
+            "w": 1200
+          },
+          "small": {
+            "h": 383,
+            "resize": "fit",
+            "w": 680
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "video",
+        "url": "https://t.co/APOqqhXtDg",
+        "video_info": {
+          "aspect_ratio": [
+            16,
+            9
+          ],
+          "duration_millis": 44669,
+          "variants": [
+            {
+              "content_type": "application/x-mpegURL",
+              "url": "https://video.twimg.com/ext_tw_video/1838636952314380288/pu/pl/ByzZB10iXLpHp22Q.m3u8?tag=14&v=8d5"
+            },
+            {
+              "bitrate": 256000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/1838636952314380288/pu/vid/avc1/480x270/HTDqTbQDbfOiZcnk.mp4?tag=14"
+            },
+            {
+              "bitrate": 832000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/1838636952314380288/pu/vid/avc1/640x360/zAnK9jrY5PbtZZRx.mp4?tag=14"
+            },
+            {
+              "bitrate": 2176000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/1838636952314380288/pu/vid/avc1/1280x720/IKV8C0E6QZuEKVn6.mp4?tag=14"
+            },
+            {
+              "bitrate": 10368000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/1838636952314380288/pu/vid/avc1/1920x1080/GbIUwk5LOgfoU0c0.mp4?tag=14"
+            }
+          ]
+        }
+      }
+    ],
+    "photos": [],
+    "video": {
+      "aspectRatio": [
+        16,
+        9
+      ],
+      "contentType": "media_entity",
+      "durationMs": 44669,
+      "mediaAvailability": {
+        "status": "available"
+      },
+      "poster": "https://pbs.twimg.com/ext_tw_video_thumb/1838636952314380288/pu/img/eH2wlKI7arkLImb0.jpg",
+      "variants": [
+        {
+          "type": "application/x-mpegURL",
+          "src": "https://video.twimg.com/ext_tw_video/1838636952314380288/pu/pl/ByzZB10iXLpHp22Q.m3u8?tag=14&v=8d5"
+        },
+        {
+          "type": "video/mp4",
+          "src": "https://video.twimg.com/ext_tw_video/1838636952314380288/pu/vid/avc1/480x270/HTDqTbQDbfOiZcnk.mp4?tag=14"
+        },
+        {
+          "type": "video/mp4",
+          "src": "https://video.twimg.com/ext_tw_video/1838636952314380288/pu/vid/avc1/640x360/zAnK9jrY5PbtZZRx.mp4?tag=14"
+        },
+        {
+          "type": "video/mp4",
+          "src": "https://video.twimg.com/ext_tw_video/1838636952314380288/pu/vid/avc1/1280x720/IKV8C0E6QZuEKVn6.mp4?tag=14"
+        },
+        {
+          "type": "video/mp4",
+          "src": "https://video.twimg.com/ext_tw_video/1838636952314380288/pu/vid/avc1/1920x1080/GbIUwk5LOgfoU0c0.mp4?tag=14"
+        }
+      ],
+      "videoId": {
+        "type": "tweet",
+        "id": "1838642444365369814"
+      },
+      "viewCount": 0
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/OpenAI/status/1974234951928459450",
+  "captured_at": "2026-10-03T13:58:42.463Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "ac56db7469533980ef60041a6c9fc17f3a55dafea422750c5913839f1fd10f35",
+    "page.txt": "976fd58450a7d02e1523682291364408b4adc528dfd75c043915882dc24788b2",
+    "post.json": "01f166ad61a92777fb9a12e99e1f5da61079748f7bce5fcf85b60a4f94bc25fc",
+    "syndication.json": "88119cb0679f89ce9398e40b07b9d3d3ee05fa0a2496c31c2489f284fe2a24ae",
+    "post.txt": "2325a0d96e7fe82f77a3d9477a730ae02afdf75a41fa31ec398a4f0d8ff509a2"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1974234951928459450",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"We’re updating GPT-5 Instant to better recognize and support people in moments of distress. Sensitive parts of conversations will now route to GPT-5 Instant to quickly provide even more helpful responses. ChatGPT will continue to tell users what model is active when asked. Starting … / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "October 3, 2025",
+    "posted_at": "2025-10-03T22:07:46.708Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20251004192046/https://x.com/openai/status/1974234951928459450",
+    "timestamp": "20251004192046",
+    "method": "existing"
+  }
+}

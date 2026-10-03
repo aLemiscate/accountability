@@ -13,9 +13,8 @@ quote: >-
 summary: >-
   Anthropic acquired Bun, the open-source JavaScript runtime and toolkit, saying
   it would use it to build better workflows into Claude Code, and promised it
-  would stay open source under the MIT license.
-  As of October 2026 the Bun repository still states that "Bun itself is
-  MIT-licensed."
+  would stay open source under the MIT license. As of October 2026 the Bun
+  repository still states that "Bun itself is MIT-licensed."
 concreteness: measurable
 status: open
 breaks_if: >-
@@ -28,10 +27,14 @@ sources:
     url: https://x.com/mikeyk/status/1995920258595749969
     date: 2025-12-02
     type: primary
+    archive: https://web.archive.org/web/20251203074332/https://x.com/mikeyk/status/1995920258595749969
+    snapshot: snapshots/2026-10-03-x.com-129ec023
   - title: Bun LICENSE file
     publisher: GitHub (oven-sh/bun)
     url: https://github.com/oven-sh/bun/blob/main/LICENSE.md
     date: 2026-10-03
     type: primary
+    archive: https://web.archive.org/web/20260830141946/https://github.com/oven-sh/bun/blob/main/LICENSE.md
+    snapshot: snapshots/2026-10-03-github.com-28f74461
 note: >-
   Held so far. OpenAI made the same promise for Promptfoo (see related).

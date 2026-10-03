@@ -1,0 +1,223 @@
+{
+  "__typename": "Tweet",
+  "conversation_control": {
+    "policy": "Community"
+  },
+  "favorite_count": 4121,
+  "in_reply_to_screen_name": "ns123abc",
+  "in_reply_to_status_id_str": "2039042405492576401",
+  "in_reply_to_user_id_str": "1087640384975577089",
+  "lang": "en",
+  "created_at": "2026-04-01T05:04:07.000Z",
+  "display_text_range": [
+    10,
+    287
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "1087640384975577089",
+        "indices": [
+          0,
+          9
+        ],
+        "name": "NIK",
+        "screen_name": "ns123abc"
+      }
+    ]
+  },
+  "id_str": "2039207155069505693",
+  "text": "@ns123abc 👋 it was human error. Our deploy process has a few manual steps, and we didn’t do one of the steps correctly. We have landed a few improvements and are digging in to add more sanity checks.\n\nLike with any other incident, the counter-intuitive answer is to solve the problem by",
+  "user": {
+    "id_str": "159337660",
+    "name": "Boris Cherny",
+    "screen_name": "bcherny",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1902044548936953856/J2jeik0t_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2039207155069505693"
+    ],
+    "editable_until_msecs": "1775023447000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 102,
+  "news_action_type": "conversation",
+  "parent": {
+    "conversation_control": {
+      "policy": "Community"
+    },
+    "favorite_count": 944,
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 27,
+    "retweet_count": 30,
+    "created_at": "2026-03-31T18:09:27.000Z",
+    "display_text_range": [
+      0,
+      76
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/YH9pohJu7i",
+          "expanded_url": "https://x.com/ns123abc/status/2039042405492576401/photo/1",
+          "indices": [
+            77,
+            100
+          ],
+          "url": "https://t.co/YH9pohJu7i"
+        }
+      ]
+    },
+    "id_str": "2039042405492576401",
+    "text": "Oh so that’s why claude code source code got leaked. Now it all makes sense. https://t.co/YH9pohJu7i",
+    "user": {
+      "id_str": "1087640384975577089",
+      "name": "NIK",
+      "screen_name": "ns123abc",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2048822563821035520/7nxCFEnk_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2039042405492576401"
+      ],
+      "editable_until_msecs": "1774984167000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "mediaDetails": [
+      {
+        "display_url": "pic.x.com/YH9pohJu7i",
+        "expanded_url": "https://x.com/ns123abc/status/2039042405492576401/photo/1",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          77,
+          100
+        ],
+        "media_url_https": "https://pbs.twimg.com/media/HEwiQsQXAAA-Bm5.jpg",
+        "original_info": {
+          "focus_rects": [
+            {
+              "h": 657,
+              "w": 1173,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 657,
+              "w": 657,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 657,
+              "w": 576,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 657,
+              "w": 329,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 657,
+              "w": 1206,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "height": 657,
+          "width": 1206
+        },
+        "sizes": {
+          "large": {
+            "h": 657,
+            "resize": "fit",
+            "w": 1206
+          },
+          "medium": {
+            "h": 654,
+            "resize": "fit",
+            "w": 1200
+          },
+          "small": {
+            "h": 370,
+            "resize": "fit",
+            "w": 680
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "photo",
+        "url": "https://t.co/YH9pohJu7i"
+      }
+    ],
+    "photos": [
+      {
+        "backgroundColor": {
+          "red": 204,
+          "green": 214,
+          "blue": 221
+        },
+        "cropCandidates": [
+          {
+            "h": 657,
+            "w": 1173,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 657,
+            "w": 657,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 657,
+            "w": 576,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 657,
+            "w": 329,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 657,
+            "w": 1206,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "expandedUrl": "https://x.com/ns123abc/status/2039042405492576401/photo/1",
+        "url": "https://pbs.twimg.com/media/HEwiQsQXAAA-Bm5.jpg",
+        "width": 1206,
+        "height": 657
+      }
+    ],
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDM5MjA3MTU1MDEwNzY4ODk2"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "url": "https://x.com/sama/status/2097385167002415140",
+  "captured_at": "2026-10-03T14:34:17.341Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "26df9b35679953d727c05f3568a3b2a07688fd8c1cdacca3d6d2aa93ca8b4087",
+    "page.txt": "017db4a80d142d7b546b22a4394509f20d49b3be8725289088e87b0008403bcd",
+    "post.json": "0ebe3fe0881f10484ab8c57e599187c61c1917664337281f410268a71c09bbb5",
+    "syndication.json": "315f58b8570b08d6c93e6633045ea94aacf49b6abe4043c5ee194d2be2853a9b",
+    "quoted-media-1.jpg": "17956f724299656da99d3f1135ad6d3e4ad9df667359c04a93fcae5fa66d8d59",
+    "post.txt": "3e9f586d8529f815aa4d889bffa07502ace975a9bba2f6f2e443f20b9b39fa83"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/2097385167002415140",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"I spent much of the weekend talking with the team who did this work. Seb--and everyone else--acted with integrity and generosity throughout. Initially we believed the other team had also solved the problem. We wanted to collaborate and do a joint release. When we learned that t… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "September 8, 2026",
+    "posted_at": "2026-09-08T18:02:46.002Z",
+    "media": [
+      {
+        "file": "quoted-media-1.jpg",
+        "url": "https://pbs.twimg.com/media/HRtjEaTbcAA0uQ6.jpg"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260908230603/https://x.com/sama/status/2097385167002415140",
+    "timestamp": "20260908230603",
+    "method": "existing"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/sama/status/2027913483011170667",
+  "captured_at": "2026-10-03T14:23:10.441Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "0083f47308285f460b08bbd1517aa6ffa072b8b9c49497877b7b86d9ba656680",
+    "page.txt": "7b62b37a3835136f6b40da53132cf65208177269f0fa7d1bc0b7aecea0a426fa",
+    "post.json": "81f47e9ebf6ddce26304a45721fd2a873f22c5ec1a8b889af51f3cf475897411",
+    "syndication.json": "60df1f371d0e544d032a3db16ffe69ce9cefcd7257964163eb030dac9f263ac8",
+    "post.txt": "de2ace375793a1ae55eddf46dedc118ea6d71782dda96a2a2948788fb30a2bc9"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/2027913483011170667",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"@QuantumTumbler If we were asked to do something unconstitutional or illegal, we will walk away. Please come visit me in jail if necessary.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "March 1, 2026",
+    "posted_at": "2026-03-01T01:07:05.817Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260303134022/https://x.com/sama/status/2027913483011170667",
+    "timestamp": "20260303134022",
+    "method": "existing"
+  }
+}

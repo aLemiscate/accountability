@@ -1,0 +1,94 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 725,
+  "in_reply_to_screen_name": "claudeai",
+  "in_reply_to_status_id_str": "1965208247302029728",
+  "in_reply_to_user_id_str": "1943306828697550848",
+  "lang": "en",
+  "created_at": "2025-09-09T00:18:53.000Z",
+  "display_text_range": [
+    0,
+    150
+  ],
+  "entities": {},
+  "id_str": "1965208249399177655",
+  "text": "We’d also like to address a concern we've heard in the community: We never intentionally degrade model quality as a result of demand or other factors.",
+  "user": {
+    "id_str": "1943306828697550848",
+    "name": "Claude",
+    "screen_name": "claudeai",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_normal.jpg",
+    "highlighted_label": {
+      "badge": {
+        "url": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_bigger.jpg"
+      },
+      "description": "Anthropic",
+      "url": {
+        "url": "https://twitter.com/AnthropicAI",
+        "url_type": "DeepLink"
+      },
+      "user_label_display_type": "Badge",
+      "user_label_type": "BusinessLabel"
+    }
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1965208249399177655"
+    ],
+    "editable_until_msecs": "1757380733000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 161,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 3420,
+    "lang": "en",
+    "reply_count": 324,
+    "retweet_count": 246,
+    "created_at": "2025-09-09T00:18:52.000Z",
+    "display_text_range": [
+      0,
+      248
+    ],
+    "entities": {},
+    "id_str": "1965208247302029728",
+    "text": "We’ve found and resolved two issues that were affecting quality in some Claude responses. We are continuing to monitor for any ongoing quality issues.\n\nWe're grateful to the detailed community reports that helped us identify and isolate these bugs.",
+    "user": {
+      "id_str": "1943306828697550848",
+      "name": "Claude",
+      "screen_name": "claudeai",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_normal.jpg",
+      "highlighted_label": {
+        "badge": {
+          "url": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_bigger.jpg"
+        },
+        "description": "Anthropic",
+        "url": {
+          "url": "https://twitter.com/AnthropicAI",
+          "url_type": "DeepLink"
+        },
+        "user_label_display_type": "Badge",
+        "user_label_type": "BusinessLabel"
+      }
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1965208247302029728"
+      ],
+      "editable_until_msecs": "1757380732000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

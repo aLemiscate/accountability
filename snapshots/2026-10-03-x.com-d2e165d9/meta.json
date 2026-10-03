@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/sama/status/1285986455106383872",
+  "captured_at": "2026-10-03T12:55:19.405Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "8b7434d374a3b76bcb78d3538e95689efe74ee98baa324fd2063f7c5f1cb0fc8",
+    "page.txt": "bb4586e905dc6de38bbabdc9ccd258aa05c8706191611b1390f52d7b5d26754a",
+    "post.json": "6081e6d2e8df966e4e146174de681e2923a85e2e0e892e92c95b6c0f268afd70",
+    "syndication.json": "d799f43a21c887c52c831089d68f7f4906348e1d998b4354912bd9a66bf02683",
+    "post.txt": "99381e0480fffa6c925c52cf928426f0481510449c9493756d432d00874ccc60"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1285986455106383872",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"We think it's important that we can do things like turn off applications that are misusing the API, experiment with new toxicity filters (we just introduced a new one that is on by default), etc. We don't think we could do this if we just open-sourced the model.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "July 22, 2020",
+    "posted_at": "2020-07-22T17:13:58.027Z"
+  },
+  "rendered_status": 403,
+  "archive": null
+}

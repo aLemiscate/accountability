@@ -1,5 +1,5 @@
-title: 'Altman restores GPT-4o after the GPT-5 backlash: "If we ever do deprecate
-  it, we will give plenty of notice"'
+title: 'Altman restores GPT-4o after the GPT-5 backlash: "If we ever do
+  deprecate it, we will give plenty of notice"'
 date: 2025-08-13
 org: openai
 type: said
@@ -16,9 +16,9 @@ summary: >-
   usage as we think about how long to offer legacy models for." Six days after
   launch he restored it for all paid users by default and promised plenty of
   notice before any future removal. On Jan. 29, 2026 OpenAI announced that
-  GPT-4o, GPT-4.1, GPT-4.1 mini, o4-mini and GPT-5 would be retired from
-  ChatGPT on Feb. 13, fifteen days later, saying only 0.1% of users chose
-  GPT-4o each day. The models stayed available in the API.
+  GPT-4o, GPT-4.1, GPT-4.1 mini, o4-mini and GPT-5 would be retired from ChatGPT
+  on Feb. 13, fifteen days later, saying only 0.1% of users chose GPT-4o each
+  day. The models stayed available in the API.
 concreteness: directional
 status: eroded
 related: [2025-02-12-gpt-5-free-unlimited, 2025-11-04-model-weight-preservation]
@@ -28,28 +28,36 @@ sources:
     url: https://x.com/sama/status/1955438916645130740
     date: 2025-08-13
     type: primary
+    archive: https://web.archive.org/web/20260529083528/https://x.com/sama/status/1955438916645130740
+    snapshot: snapshots/2026-10-03-x.com-f81aa520
   - title: Sam Altman on X ("GPT-5 rollout updates")
     publisher: X
     url: https://x.com/sama/status/1953893841381273969
     date: 2025-08-08
     type: primary
+    snapshot: snapshots/2026-10-03-x.com-2b78ff10
   - title: The surprise deprecation of GPT-4o for ChatGPT consumers
     publisher: Simon Willison
     url: https://simonwillison.net/2025/Aug/8/surprise-deprecation-of-gpt-4o/
     date: 2025-08-08
     type: analysis
+    archive: https://web.archive.org/web/20261003135943/https://simonwillison.net/2025/Aug/8/surprise-deprecation-of-gpt-4o/
+    snapshot: snapshots/2026-10-03-simonwillison.net-ab1cd046
   - title: OpenAI gives ChatGPT models the chop – two weeks' notice, take it or
       leave it
     publisher: The Register
     url: https://www.theregister.com/2026/01/30/openai_gpt_deprecations/
     date: 2026-01-30
     type: reporting
+    archive: https://web.archive.org/web/20260404160904/https://www.theregister.com/2026/01/30/openai_gpt_deprecations/
+    snapshot: snapshots/2026-10-03-theregister.com-7ced7536
   - title: OpenAI Newsroom on X ("Tomorrow at 10am PT legacy models ... will be
       deprecated in ChatGPT")
     publisher: X
     url: https://x.com/OpenAINewsroom/status/2021992846862258403
     date: 2026-02-12
     type: primary
+    snapshot: snapshots/2026-10-03-x.com-d537fcbb
 response: >-
   OpenAI said users had "preferred GPT‑4o's conversational style and warmth,"
   that it had used that feedback in later models, and: "Changes like this take
@@ -57,5 +65,5 @@ response: >-
 note: >-
   Two weeks is short for a model some people had built habits around, but
   "plenty" was never defined, and almost no one was still using it. Marked
-  eroded, not broken. Anthropic's comparable commitment, to preserve the
-  weights of retired models, is in the related entry.
+  eroded, not broken. Anthropic's comparable commitment, to preserve the weights
+  of retired models, is in the related entry.

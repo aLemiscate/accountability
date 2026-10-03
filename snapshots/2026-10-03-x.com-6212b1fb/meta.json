@@ -1,0 +1,36 @@
+{
+  "url": "https://x.com/AnthropicAI/status/1949898502688903593",
+  "captured_at": "2026-10-03T12:17:35.928Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "a1faf68556430e0f4eeb0bf1f674901e0f4ce64a2c39a5accf30ce72c7d75965",
+    "page.txt": "4f51136490d50044aed8261963f2b5ba1048d93998e33fe1be55c4382c53e3b2",
+    "post.json": "58762b967e1910920eb60d875fc6bbb58477baf522e9e9a520e17542d46ea9e5",
+    "syndication.json": "1ec898370f3f48deea51c2fa05811fcee8a80bad41595df48f098d95ea67641c",
+    "media-1.png": "b05b219be1c59bea4111e03939caf93ae0915627b0662971bfc8f1b1f13be3a5",
+    "post.txt": "6f033796ec4f47a51857fdd6cc9cebc8ee8da3bfa28a1b5454530ffc20ef75c8"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/AnthropicAI/status/1949898502688903593",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Anthropic on X: \"We’re rolling out new weekly rate limits for Claude Pro and Max in late August. We estimate they’ll apply to less than 5% of subscribers based on current usage.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Anthropic (@AnthropicAI)",
+    "date": "July 28, 2025",
+    "posted_at": "2025-07-28T18:23:25.060Z",
+    "media": [
+      {
+        "file": "media-1.png",
+        "url": "https://pbs.twimg.com/media/Gw9Z8P6XoAA87L8.png"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260812131954/https://x.com/AnthropicAI/status/1949898502688903593",
+    "timestamp": "20260812131954",
+    "method": "existing"
+  }
+}

@@ -7,17 +7,17 @@ kind: commitment
 who: [anthropic, alex-albert]
 venue: Post on X announcing a system-prompt section in Anthropic's release notes
 quote: >-
-  We're going to log changes we make to the default system prompts on Claude
-  dot ai and our mobile apps.
+  We're going to log changes we make to the default system prompts on Claude dot
+  ai and our mobile apps.
 summary: >-
   Anthropic began publishing the system prompts that shape Claude's behavior in
-  its consumer apps, with dated versions and the changes between them marked.
-  By September 2026 the release notes held prompts for 21 models, from Claude 3
-  Haiku to Claude Sonnet 5.5. The published prompts leave out the
-  instructions for Claude's tools, which Simon Willison noted in 2025 after
-  fuller versions leaked. From the Claude 4.6 generation on, each model's page
-  has a single dated entry; the page explains this by saying that "each model
-  ID is a single fixed snapshot."
+  its consumer apps, with dated versions and the changes between them marked. By
+  September 2026 the release notes held prompts for 21 models, from Claude 3
+  Haiku to Claude Sonnet 5.5. The published prompts leave out the instructions
+  for Claude's tools, which Simon Willison noted in 2025 after fuller versions
+  leaked. From the Claude 4.6 generation on, each model's page has a single
+  dated entry; the page explains this by saying that "each model ID is a single
+  fixed snapshot."
 concreteness: measurable
 status: open
 breaks_if: >-
@@ -30,16 +30,22 @@ sources:
     url: https://x.com/alexalbert__/status/1828107230656471442
     date: 2024-08-26
     type: primary
+    archive: https://web.archive.org/web/20250717082444/https://x.com/alexalbert__/status/1828107230656471442
+    snapshot: snapshots/2026-10-03-x.com-791b85a3
   - title: System prompts (release notes)
     publisher: Anthropic
     url: https://platform.claude.com/docs/en/release-notes/system-prompts/overview
     date: 2026-10-02
     type: primary
+    archive: https://web.archive.org/web/20260928182318/https://platform.claude.com/docs/en/release-notes/system-prompts/overview
+    snapshot: snapshots/2026-10-03-platform.claude.com-be5518ef
   - title: Highlights from the Claude 4 system prompt
     publisher: Simon Willison
     url: https://simonwillison.net/2025/May/25/claude-4-system-prompt/
     date: 2025-05-25
     type: analysis
+    archive: https://web.archive.org/web/20261003120415/https://simonwillison.net/2025/May/25/claude-4-system-prompt/
+    snapshot: snapshots/2026-10-03-simonwillison.net-5975b6f7
 note: >-
   OpenAI doesn't publish ChatGPT's system prompts at all, so this is a
   commitment only one of the two companies made. A model snapshot being fixed

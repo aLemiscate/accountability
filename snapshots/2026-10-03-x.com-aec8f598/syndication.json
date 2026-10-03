@@ -1,0 +1,37 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 1364,
+  "lang": "en",
+  "created_at": "2023-11-30T01:07:31.000Z",
+  "display_text_range": [
+    0,
+    276
+  ],
+  "entities": {},
+  "id_str": "1730030765482938521",
+  "text": "Today as Board Chair I sent the attached letter on behalf of the Board to the OpenAI community. I am excited to be working with my board colleagues Adam and Larry, the OpenAI Leadership, and all OpenAI stakeholders. The Board's focus is stabilizing the company, building out a",
+  "user": {
+    "id_str": "7456262",
+    "name": "Bret Taylor",
+    "screen_name": "btaylor",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1782150890960658432/2qaPECed_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1730030765482938521"
+    ],
+    "editable_until_msecs": "1701310051000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 73,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoxNzMwMDMwNzY1MzAyNTY2OTEy"
+  }
+}

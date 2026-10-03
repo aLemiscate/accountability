@@ -1,0 +1,204 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 21750,
+  "lang": "en",
+  "created_at": "2026-09-08T17:23:27.000Z",
+  "display_text_range": [
+    0,
+    278
+  ],
+  "entities": {},
+  "id_str": "2097375276384567642",
+  "text": "We congratulate Levent Alpöge and Tristan Buckmaster on their remarkable mathematical work.\n\nWe (the researchers and the agents) did not see any of their work through any means until they released it publicly — in particular, no specific user data was accessed in order to solve",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2097375276384567642"
+    ],
+    "editable_until_msecs": "1788891807000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 1513,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 120479,
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 5703,
+    "retweet_count": 20134,
+    "created_at": "2026-09-08T17:20:56.000Z",
+    "display_text_range": [
+      0,
+      273
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/8zol3BPTL4",
+          "expanded_url": "https://x.com/OpenAI/status/2097374640582668336/photo/1",
+          "indices": [
+            274,
+            297
+          ],
+          "url": "https://t.co/8zol3BPTL4"
+        }
+      ]
+    },
+    "id_str": "2097374640582668336",
+    "text": "We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics.\n\nThe proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra.\n\nThe problem https://t.co/8zol3BPTL4",
+    "user": {
+      "id_str": "4398626122",
+      "name": "OpenAI",
+      "screen_name": "OpenAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2097374640582668336"
+      ],
+      "editable_until_msecs": "1788891656000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "mediaDetails": [
+      {
+        "display_url": "pic.x.com/8zol3BPTL4",
+        "expanded_url": "https://x.com/OpenAI/status/2097374640582668336/photo/1",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          274,
+          297
+        ],
+        "media_url_https": "https://pbs.twimg.com/media/HRtS_iLboAUUlYv.jpg",
+        "original_info": {
+          "focus_rects": [
+            {
+              "h": 702,
+              "w": 1254,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 1254,
+              "w": 1254,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 1254,
+              "w": 1100,
+              "x": 77,
+              "y": 0
+            },
+            {
+              "h": 1254,
+              "w": 627,
+              "x": 314,
+              "y": 0
+            },
+            {
+              "h": 1254,
+              "w": 1254,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "height": 1254,
+          "width": 1254
+        },
+        "sizes": {
+          "large": {
+            "h": 1254,
+            "resize": "fit",
+            "w": 1254
+          },
+          "medium": {
+            "h": 1200,
+            "resize": "fit",
+            "w": 1200
+          },
+          "small": {
+            "h": 680,
+            "resize": "fit",
+            "w": 680
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "photo",
+        "url": "https://t.co/8zol3BPTL4"
+      }
+    ],
+    "photos": [
+      {
+        "backgroundColor": {
+          "red": 204,
+          "green": 214,
+          "blue": 221
+        },
+        "cropCandidates": [
+          {
+            "h": 702,
+            "w": 1254,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1254,
+            "w": 1254,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1254,
+            "w": 1100,
+            "x": 77,
+            "y": 0
+          },
+          {
+            "h": 1254,
+            "w": 627,
+            "x": 314,
+            "y": 0
+          },
+          {
+            "h": 1254,
+            "w": 1254,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "expandedUrl": "https://x.com/OpenAI/status/2097374640582668336/photo/1",
+        "url": "https://pbs.twimg.com/media/HRtS_iLboAUUlYv.jpg",
+        "width": 1254,
+        "height": 1254
+      }
+    ],
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDk3Mzc1Mjc2MzA5MDkwMzA0"
+  }
+}

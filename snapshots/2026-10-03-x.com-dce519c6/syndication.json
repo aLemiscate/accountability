@@ -1,0 +1,37 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 25288,
+  "lang": "en",
+  "created_at": "2026-07-12T17:59:57.000Z",
+  "display_text_range": [
+    0,
+    277
+  ],
+  "entities": {},
+  "id_str": "2076365965915467978",
+  "text": "Morning. The last 48 hours of Codex and ChatGPT Work have been intense! Three important updates:\n\n- Temporarily removing the 5 hour usage limit restriction for all Plus, Business and Pro plans\n- Rolling out changes that will make GPT 5.6 Sol more efficient across the board and",
+  "user": {
+    "id_str": "1953337039510003712",
+    "name": "Tibo",
+    "screen_name": "thsottiaux",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2076365965915467978"
+    ],
+    "editable_until_msecs": "1783882797000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 2711,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDc2MzY1OTY1ODUyNjUxNTIw"
+  }
+}

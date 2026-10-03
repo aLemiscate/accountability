@@ -1,0 +1,21 @@
+{
+  "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+  "captured_at": "2026-10-03T12:05:10.262Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "5647dc2ff2d78f8d20741ff84efbfa82b5a5e737dfd56dfc46cabeb287cf1e45",
+    "page.txt": "a09ecca9fe7572afed270ab25e6f2f58d09349eb0c03cdceb1c253045557b55b",
+    "screenshot.jpg": "724f6f903f71d31e4709720ae3956c5e71be169c20621576c88c9c40afb59ae7",
+    "rendered.txt": "a7b846e2e5b894bbc822bc3e290472e69d64d9350e1b609a8060b645c6209aa3"
+  },
+  "http_status": 200,
+  "final_url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+  "content_type": "text/html; charset=utf-8",
+  "title": "Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku \\ Anthropic",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20260929211930/https://www.anthropic.com/news/3-5-models-and-computer-use",
+    "timestamp": "20260929211930",
+    "method": "existing"
+  }
+}

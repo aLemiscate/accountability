@@ -1,0 +1,269 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 1,
+  "in_reply_to_screen_name": "EdwardDixon3",
+  "in_reply_to_status_id_str": "1097636672991363073",
+  "in_reply_to_user_id_str": "478805886",
+  "lang": "en",
+  "created_at": "2019-02-18T23:20:29.000Z",
+  "display_text_range": [
+    14,
+    200
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "478805886",
+        "indices": [
+          0,
+          13
+        ],
+        "name": "Edward Dixon",
+        "screen_name": "EdwardDixon3"
+      }
+    ]
+  },
+  "id_str": "1097637002344714241",
+  "text": "@EdwardDixon3 We're working on broadening access in a principled way - stay tuned! In the meantime feel free to email prompt requests, comments, suggestions etc. to the email address on the blog post.",
+  "user": {
+    "id_str": "1214528593",
+    "name": "Miles Brundage",
+    "screen_name": "Miles_Brundage",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2089462134828871680/cW8--1eS_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1097637002344714241"
+    ],
+    "editable_until_msecs": "1550533829125",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 1,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 6,
+    "lang": "en",
+    "reply_count": 1,
+    "retweet_count": 0,
+    "created_at": "2019-02-18T23:19:10.000Z",
+    "display_text_range": [
+      0,
+      244
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "indices": [
+            222,
+            226
+          ],
+          "text": "nlp"
+        },
+        {
+          "indices": [
+            227,
+            244
+          ],
+          "text": "happilyeverafter"
+        }
+      ],
+      "user_mentions": [
+        {
+          "id_str": "1214528593",
+          "indices": [
+            43,
+            58
+          ],
+          "name": "Miles Brundage",
+          "screen_name": "Miles_Brundage"
+        }
+      ]
+    },
+    "id_str": "1097636672991363073",
+    "text": "Okay,  this gpt-2 sample is jaw-dropping.  @Miles_Brundage , would really truly love to draw a few samples from this model - Youngest Daughter has unlikely appetite for \"Bunny Stowies\", this could change bedtimes forever. #nlp #happilyeverafter",
+    "user": {
+      "id_str": "478805886",
+      "name": "Edward Dixon",
+      "screen_name": "EdwardDixon3",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1250895044762128384/FUYJgFAZ_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1097636672991363073"
+      ],
+      "editable_until_msecs": "1550533750601",
+      "edits_remaining": "5",
+      "is_edit_eligible": true
+    },
+    "quoted_tweet": {
+      "__typename": "Tweet",
+      "favorite_count": 9,
+      "in_reply_to_screen_name": "Miles_Brundage",
+      "in_reply_to_status_id_str": "1097586575385350144",
+      "in_reply_to_user_id_str": "1214528593",
+      "lang": "en",
+      "possibly_sensitive": false,
+      "reply_count": 0,
+      "retweet_count": 0,
+      "created_at": "2019-02-18T20:00:59.000Z",
+      "display_text_range": [
+        0,
+        12
+      ],
+      "entities": {
+        "media": [
+          {
+            "display_url": "pic.x.com/FXyxeYPM5R",
+            "expanded_url": "https://x.com/Miles_Brundage/status/1097586796156772352/photo/1",
+            "indices": [
+              13,
+              36
+            ],
+            "url": "https://t.co/FXyxeYPM5R"
+          }
+        ]
+      },
+      "id_str": "1097586796156772352",
+      "text": "Said output: https://t.co/FXyxeYPM5R",
+      "user": {
+        "id_str": "1214528593",
+        "name": "Miles Brundage",
+        "screen_name": "Miles_Brundage",
+        "is_blue_verified": true,
+        "profile_image_shape": "Circle",
+        "verified": false,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/2089462134828871680/cW8--1eS_normal.jpg"
+      },
+      "mediaDetails": [
+        {
+          "display_url": "pic.x.com/FXyxeYPM5R",
+          "expanded_url": "https://x.com/Miles_Brundage/status/1097586796156772352/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "indices": [
+            13,
+            36
+          ],
+          "media_url_https": "https://pbs.twimg.com/media/DztpT0nVsAAgkjR.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 430,
+                "w": 767,
+                "x": 0,
+                "y": 267
+              },
+              {
+                "h": 767,
+                "w": 767,
+                "x": 0,
+                "y": 99
+              },
+              {
+                "h": 874,
+                "w": 767,
+                "x": 0,
+                "y": 45
+              },
+              {
+                "h": 919,
+                "w": 460,
+                "x": 307,
+                "y": 0
+              },
+              {
+                "h": 919,
+                "w": 767,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 919,
+            "width": 767
+          },
+          "sizes": {
+            "large": {
+              "h": 919,
+              "resize": "fit",
+              "w": 767
+            },
+            "medium": {
+              "h": 919,
+              "resize": "fit",
+              "w": 767
+            },
+            "small": {
+              "h": 680,
+              "resize": "fit",
+              "w": 568
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/FXyxeYPM5R"
+        }
+      ],
+      "photos": [
+        {
+          "backgroundColor": {
+            "red": 204,
+            "green": 214,
+            "blue": 221
+          },
+          "cropCandidates": [
+            {
+              "h": 430,
+              "w": 767,
+              "x": 0,
+              "y": 267
+            },
+            {
+              "h": 767,
+              "w": 767,
+              "x": 0,
+              "y": 99
+            },
+            {
+              "h": 874,
+              "w": 767,
+              "x": 0,
+              "y": 45
+            },
+            {
+              "h": 919,
+              "w": 460,
+              "x": 307,
+              "y": 0
+            },
+            {
+              "h": 919,
+              "w": 767,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "expandedUrl": "https://x.com/Miles_Brundage/status/1097586796156772352/photo/1",
+          "url": "https://pbs.twimg.com/media/DztpT0nVsAAgkjR.png",
+          "width": 767,
+          "height": 919
+        }
+      ]
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/sama/status/1635687854784540672",
+  "captured_at": "2026-10-03T13:14:43.670Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "ba037fe6cb47711f63d946712f4ce8ab5960e1de80573d7229723258410e72ad",
+    "page.txt": "6f2873d7b08d8674ca731f017ebdcc7a44dce1d8a9a2381235bf68a5ef9bfbe7",
+    "post.json": "7468a7222239458b256c424fc40532f410446bc3356d1b3d92d429acf930fbfc",
+    "syndication.json": "cf5e39810634eb82b9c3e65476e9730b1644aef51b907b5f642275bac5e1d274",
+    "post.txt": "502379183396b6b011459950425c09f2ebbe2535063299ea64a111ce28195378"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1635687854784540672",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"it is more creative than previous models, it hallucinates significantly less, and it is less biased. it can pass a bar exam and score a 5 on several AP exams. there is a version with a 32k token context.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "March 14, 2023",
+    "posted_at": "2023-03-14T17:02:28.848Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20250522120547/https://x.com/sama/status/1635687854784540672",
+    "timestamp": "20250522120547",
+    "method": "existing"
+  }
+}

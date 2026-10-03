@@ -1,0 +1,70 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 11644,
+  "lang": "en",
+  "created_at": "2026-04-21T23:59:58.000Z",
+  "display_text_range": [
+    0,
+    277
+  ],
+  "entities": {},
+  "id_str": "2046740759056162816",
+  "text": "I don't know what they are doing over there, but Codex will continue to be available both in the FREE and PLUS ($20) plans. We have the compute and efficient models to support it. For important changes, we will engage with the community well ahead of making them.\n\nTransparency",
+  "user": {
+    "id_str": "1953337039510003712",
+    "name": "Tibo",
+    "screen_name": "thsottiaux",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2046740759056162816"
+    ],
+    "editable_until_msecs": "1776819598000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 564,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 5147,
+    "lang": "en",
+    "reply_count": 1297,
+    "retweet_count": 663,
+    "created_at": "2026-04-21T22:55:59.000Z",
+    "display_text_range": [
+      0,
+      121
+    ],
+    "entities": {},
+    "id_str": "2046724659039932830",
+    "text": "For clarity, we're running a small test on ~2% of new prosumer signups. Existing Pro and Max subscribers aren't affected.",
+    "user": {
+      "id_str": "1494179492717154314",
+      "name": "Amol Avasare",
+      "screen_name": "TheAmolAvasare",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1556826865234366464/eQO2uwG8_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2046724659039932830"
+      ],
+      "editable_until_msecs": "1776815759000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDQ2NzQwNzU5MDAxNjI0NTc2"
+  }
+}

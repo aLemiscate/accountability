@@ -1,0 +1,32 @@
+Post
+Log in Sign up
+Post
+Log in Sign up
+Alexander Embiricos on X: "We just reset Codex rate limits for everyone, and refunded all Codex credit usage up until 1p PT Friday. Enjoy!
+Why: On Thursday we rolled out credits to give users options between our $20 and $200 plans. However we had a bug where we overcharged for cloud task usage by ~2-5x depending, on the task.
+Since identifying the bug on Thursday we:
+- Removed limits for cloud tasks
+- Fixed the bug
+- Refunded _all_ credit usage between releasing credits and 1pm PT on Friday
+- Reset Codex limits for everyone, just now
+- Began limiting/charging for cloud tasks usage again, just now
+Since a few people have asked: cloud tasks consume limits slightly faster than local tasks per unit of work, because we have to run the VM powering the cloud environment. Further, cloud tasks also tend to do more work per message, both because of how we prompt the model when it’s running async, and also because users tend to ask for more one-shot code changes and ask fewer quick questions.
+As always, keep the feedback coming. Thank you!"
+Alexander Embiricos
+@embirico
+We just reset Codex rate limits for everyone, and refunded all Codex credit usage up until 1p PT Friday. Enjoy!
+Why: On Thursday we rolled out credits to give users options between our $20 and $200 plans. However we had a bug where we overcharged for cloud task usage by ~2-5x depending, on the task.
+Since identifying the bug on Thursday we:
+- Removed limits for cloud tasks
+- Fixed the bug
+- Refunded _all_ credit usage between releasing credits and 1pm PT on Friday
+- Reset Codex limits for everyone, just now
+- Began limiting/charging for cloud tasks usage again, just now
+Since a few people have asked: cloud tasks consume limits slightly faster than local tasks per unit of work, because we have to run the VM powering the cloud environment. Further, cloud tasks also tend to do more work per message, both because of how we prompt the model when it’s running async, and also because users tend to ask for more one-shot code changes and ask fewer quick questions.
+As always, keep the feedback coming. Thank you!
+1:23 AM · Nov 2, 2025 · 111.8K
+Views
+63
+32
+864
+88

@@ -1,0 +1,49 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 53,
+  "in_reply_to_screen_name": "GergelyOrosz",
+  "in_reply_to_status_id_str": "2039430650084688130",
+  "in_reply_to_user_id_str": "30192824",
+  "lang": "en",
+  "created_at": "2026-04-01T20:02:48.000Z",
+  "display_text_range": [
+    14,
+    129
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "30192824",
+        "indices": [
+          0,
+          13
+        ],
+        "name": "Gergely Orosz",
+        "screen_name": "GergelyOrosz"
+      }
+    ]
+  },
+  "id_str": "2039433317750329716",
+  "text": "@GergelyOrosz This was not intentional. We are debugging what happened on the GitHub side. No one at Anthropic dmca’d these forks",
+  "user": {
+    "id_str": "159337660",
+    "name": "Boris Cherny",
+    "screen_name": "bcherny",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1902044548936953856/J2jeik0t_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2039433317750329716"
+    ],
+    "editable_until_msecs": "1775077368000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 5,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

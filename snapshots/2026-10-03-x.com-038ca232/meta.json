@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/sama/status/2046752492093165708",
+  "captured_at": "2026-10-03T14:27:31.705Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "4f89b2a63694c9387049b9b3d389ec8e4028383983a40fb91cbcd8263b6f7b7d",
+    "page.txt": "2d0c9c103612199cb1932f54a0b181b50c1142970f65f321787a7b475abcb28e",
+    "post.json": "baa72139d04a2520add1c1dd94bc8bf5e51c21ecda650e848851956666a9a5b9",
+    "syndication.json": "45f7754f7a496060fe67fc6120dc48704d28f59882f44c74c78d94270f7e8006",
+    "post.txt": "dd66d678e91582489b0217d8104c67e4bf3746a9ba909e624045ca4ffe8f2d75"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/2046752492093165708",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"We want you to have a lot of AI!\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "April 22, 2026",
+    "posted_at": "2026-04-22T00:46:35.594Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260422153646/https://x.com/sama/status/2046752492093165708",
+    "timestamp": "20260422153646",
+    "method": "existing"
+  }
+}

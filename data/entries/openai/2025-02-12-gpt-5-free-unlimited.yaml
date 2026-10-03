@@ -16,12 +16,12 @@ summary: >-
   and would give free users unlimited GPT-5 chat. Each part changed. On April 4
   Altman announced a "change of plans": o3 and o4-mini would ship on their own,
   and GPT-5 would come "in a few months." GPT-5 launched on Aug. 7, 2025 as a
-  system with a real-time router choosing between models, and free users got
-  up to 10 GPT-5 messages every five hours before falling back to GPT-5 mini,
-  BGR reported. Six days after launch the model picker was back, with "Auto,"
-  "Fast" and "Thinking" settings and older models restored for paid users. In
-  August 2026 OpenAI removed limits on text chats for free users, with its
-  GPT-5.6 Luna model as the default.
+  system with a real-time router choosing between models, and free users got up
+  to 10 GPT-5 messages every five hours before falling back to GPT-5 mini, BGR
+  reported. Six days after launch the model picker was back, with "Auto," "Fast"
+  and "Thinking" settings and older models restored for paid users. In August
+  2026 OpenAI removed limits on text chats for free users, with its GPT-5.6 Luna
+  model as the default.
 concreteness: measurable
 status: kept
 patterns: [coming-weeks]
@@ -36,45 +36,61 @@ sources:
     url: https://x.com/sama/status/1889755723078443244
     date: 2025-02-12
     type: primary
+    archive: https://web.archive.org/web/20261001091917/https://x.com/sama/status/1889755723078443244
+    snapshot: snapshots/2026-10-03-x.com-45b15719
   - title: Sam Altman on X ("change of plans")
     publisher: X
     url: https://x.com/sama/status/1908167621624856998
     date: 2025-04-04
     type: primary
+    archive: https://web.archive.org/web/20260304090348/https://x.com/sama/status/1908167621624856998
+    snapshot: snapshots/2026-10-03-x.com-68bdc484
   - title: OpenAI says it'll release o3 after all, delays GPT-5
     publisher: TechCrunch
     url: https://techcrunch.com/2025/04/04/openai-says-itll-release-o3-after-all-delays-gpt-5/
     date: 2025-04-04
     type: reporting
+    archive: https://web.archive.org/web/20261003134839/https://techcrunch.com/2025/04/04/openai-says-itll-release-o3-after-all-delays-gpt-5/
+    snapshot: snapshots/2026-10-03-techcrunch.com-336c00c9
   - title: OpenAI's GPT-5 is here
     publisher: TechCrunch
     url: https://techcrunch.com/2025/08/07/openais-gpt-5-is-here/
     date: 2025-08-07
     type: reporting
-  - title: GPT-5 Is Available For Free To All ChatGPT Accounts - Here Are The
-      Usage Limits (BGR, via Yahoo Tech)
+    archive: https://web.archive.org/web/20261003135007/https://techcrunch.com/2025/08/07/openais-gpt-5-is-here/
+    snapshot: snapshots/2026-10-03-techcrunch.com-8323e08e
+  - title: GPT-5 Is Available For Free To All ChatGPT Accounts - Here Are The Usage
+      Limits (BGR, via Yahoo Tech)
     publisher: BGR
     url: https://tech.yahoo.com/ai/articles/gpt-5-available-free-chatgpt-121515724.html
     date: 2025-08-08
     type: reporting
+    archive: https://web.archive.org/web/20250922231000/https://tech.yahoo.com/ai/articles/gpt-5-available-free-chatgpt-121515724.html
+    snapshot: snapshots/2026-10-03-tech.yahoo.com-58c8e771
   - title: ChatGPT's model picker is back, and it's complicated
     publisher: TechCrunch
     url: https://techcrunch.com/2025/08/12/chatgpts-model-picker-is-back-and-its-complicated/
     date: 2025-08-12
     type: reporting
+    archive: https://web.archive.org/web/20261003093314/https://techcrunch.com/2025/08/12/chatgpts-model-picker-is-back-and-its-complicated/
+    snapshot: snapshots/2026-10-03-techcrunch.com-acf37b46
   - title: Sam Altman on X ("Updates to ChatGPT")
     publisher: X
     url: https://x.com/sama/status/1955438916645130740
     date: 2025-08-13
     type: primary
+    archive: https://web.archive.org/web/20260529083528/https://x.com/sama/status/1955438916645130740
+    snapshot: snapshots/2026-10-03-x.com-f81aa520
   - title: ChatGPT brings unlimited text chats to free users
     publisher: TechCrunch
     url: https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/
     date: 2026-08-06
     type: reporting
+    archive: https://web.archive.org/web/20261003093549/https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/
+    snapshot: snapshots/2026-10-03-techcrunch.com-a0fa1b12
 response: >-
-  Altman gave his reasons for the April change at the time: "we are going to
-  be able to make GPT-5 much better than we originally though. we also found it
+  Altman gave his reasons for the April change at the time: "we are going to be
+  able to make GPT-5 much better than we originally though. we also found it
   harder than we thought it was going to be to smoothly integrate everything."
 note: >-
   Kept, eighteen months after it was promised and a year after GPT-5 shipped

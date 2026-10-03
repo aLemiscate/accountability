@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/claudedevs/status/2064949876463645026",
+  "captured_at": "2026-10-03T12:25:18.761Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "f4095698ff3e6f94f432f4e27089aa21fc042c4cc9f3ca2c0e5064836bbeab12",
+    "page.txt": "2696e315531832cfb3506fb3c0dab65a9785311fc37678c9a43bb710328382fb",
+    "post.json": "e1a0fbd4ef6ff7148c6d882b97a686d7ff2f3ff7fe733ced1c98ccbbb701a37c",
+    "syndication.json": "281fec82c0f58fdb51dc889eac0d7f88c8d8b50c3db79696ea6fffb50e0f2cdc",
+    "post.txt": "4ef12c3e1f0cd9237bf5f909a4584b88d206835449bc7a471f53d5cf6bcdae0c"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/ClaudeDevs/status/2064949876463645026",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "ClaudeDevs on X: \"We’re rolling out changes to make Fable 5’s safeguards for frontier LLM development visible. Starting this week, flagged requests will visibly fall back to Opus 4.8—the same as our safeguards for cyber and bio. You will see this every time it happens. On the API, any flagged requ… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "ClaudeDevs (@ClaudeDevs)",
+    "date": "June 11, 2026",
+    "posted_at": "2026-06-11T05:56:30.119Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260613153522/https://x.com/ClaudeDevs/status/2064949876463645026",
+    "timestamp": "20260613153522",
+    "method": "existing"
+  }
+}

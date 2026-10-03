@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/AnthropicAI/status/2052808787514228772",
+  "captured_at": "2026-10-03T12:44:20.291Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "611e326fb9f99534d94f0e07ed60db2b0dd8adb75b61e76936af66fc6c2f2cd0",
+    "page.txt": "f32050c85c60400274c1d35e659b14cee11ebc0fc0dd99c1c823763bcf9c0720",
+    "post.json": "a05560b836b05a6ce96fe290c77277707eed87ca02d87b85f625d6f89d7a48f0",
+    "syndication.json": "b95832e31f0c9ae6fc4db44fafa057152f9a66cfe9b11aee52f56e0d50d861b6",
+    "post.txt": "8fbac62619c4dcdb3e5a7b22b3225a300df8649c230b893deb6487739af3537b"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/AnthropicAI/status/2052808787514228772",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Anthropic on X: \"New Anthropic research: Teaching Claude why. Last year we reported that, under certain experimental conditions, Claude 4 would blackmail users. Since then, we’ve completely eliminated this behavior. How?\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Anthropic (@AnthropicAI)",
+    "date": "May 8, 2026",
+    "posted_at": "2026-05-08T17:52:08.943Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260509063707/https://x.com/anthropicai/status/2052808787514228772",
+    "timestamp": "20260509063707",
+    "method": "existing"
+  }
+}

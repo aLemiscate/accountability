@@ -1,0 +1,75 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 2571,
+  "in_reply_to_screen_name": "AnthropicAI",
+  "in_reply_to_status_id_str": "1949898509286855095",
+  "in_reply_to_user_id_str": "1353836358901501952",
+  "lang": "en",
+  "created_at": "2025-07-28T18:23:27.000Z",
+  "display_text_range": [
+    0,
+    277
+  ],
+  "entities": {},
+  "id_str": "1949898511287226425",
+  "text": "Some of the biggest Claude Code fans are running it continuously in the background, 24/7.\n\nThese uses are remarkable and we want to enable them. But a few outlying cases are very costly to support. For example, one user consumed tens of thousands in model usage on a $200 plan.",
+  "user": {
+    "id_str": "1353836358901501952",
+    "name": "Anthropic",
+    "screen_name": "AnthropicAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1949898511287226425"
+    ],
+    "editable_until_msecs": "1753730607000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 134,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 466,
+    "in_reply_to_screen_name": "AnthropicAI",
+    "in_reply_to_status_id_str": "1949898502688903593",
+    "in_reply_to_user_id_str": "1353836358901501952",
+    "lang": "en",
+    "reply_count": 12,
+    "retweet_count": 15,
+    "created_at": "2025-07-28T18:23:26.000Z",
+    "display_text_range": [
+      0,
+      210
+    ],
+    "entities": {},
+    "id_str": "1949898509286855095",
+    "text": "Claude Code has seen unprecedented demand, especially as part of our Max plans.\n\nWe’ll continue to support this growth while we work on making Claude Code even better. But for now, we need to make some changes.",
+    "user": {
+      "id_str": "1353836358901501952",
+      "name": "Anthropic",
+      "screen_name": "AnthropicAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1949898509286855095"
+      ],
+      "editable_until_msecs": "1753730606000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

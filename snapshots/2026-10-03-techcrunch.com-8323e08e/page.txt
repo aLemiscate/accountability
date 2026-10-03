@@ -1,0 +1,69 @@
+OpenAI has launched GPT-5, a new flagship AI model that will power the company’s next generation of ChatGPT.
+GPT-5, which was released Thursday, is OpenAI’s first “unified” AI model and combines the reasoning abilities of its o-series of models with the fast responses of its GPT series . The next-generation model signals a new era for ChatGPT — and its creator, OpenAI — pointing to OpenAI’s broader ambitions to develop AI systems that are more like agents than chatbots.
+While GPT-4 enabled AI chatbots to offer smart responses on a wide variety of questions, GPT-5 allows ChatGPT to complete a wide variety of tasks on behalf of users — such as generating software applications, navigating a user’s calendar, or creating research briefs.
+With GPT-5, OpenAI has also sought to make ChatGPT simpler to use. Instead of asking users to choose the right settings, GPT-5 comes equipped with a real-time router that decides how to offer the best answer, whether that’s responding to user questions quickly or taking additional time to “think” through answers.
+Image Credits: OpenAI
+During a briefing with reporters, OpenAI CEO Sam Altman claimed GPT-5 is “the best model in the world,” and said it represented a “significant step” along the company’s path to developing AI that can outperform humans at most economically valuable work — that is, artificial general intelligence (AGI).
+“Having something like GPT-5 would be pretty much unimaginable at any previous time in history,” said Altman.
+Starting Thursday, GPT-5 will be available to all free users of ChatGPT as their default model. OpenAI’s VP of ChatGPT, Nick Turley, said this is part of the company’s effort to give free users access to an AI reasoning model for the first time. (Previously, the company gated these more advanced models behind a paywall.)
+“This is just one of the ways that I’m excited to live the mission, making sure that this stuff actually benefits people,” said Turley on the decision, referencing OpenAI’s long-standing mission to distribute advanced AI to as many people as possible.
+The expectations are high for GPT-5, one of OpenAI’s most anticipated product launches since ChatGPT put the company on the map in 2022. Since then, ChatGPT has grown into one of the world’s most popular consumer products, reaching more than 700 million users every week — nearly 10% of the globe’s population, according to the company.
+Many see GPT-5 as a bellwether for AI progress broadly, and the model’s reception by Silicon Valley could have profound implications for Big Tech, Wall Street, and policymakers regulating technology. These stakeholders are watching to see if GPT-5 offers a significant jump in AI’s capabilities, much like its predecessor, GPT-4, which challenged expectations of what software can do.
+GPT-5 offers a slight edge on the competition
+OpenAI claims GPT-5 is state-of-the-art in several domains, slightly edging out leading AI models from Anthropic, Google DeepMind, and Elon Musk’s xAI on key benchmarks. However, GPT-5 slightly underperforms frontier AI models in other areas.
+The company says GPT-5 offers frontier-level performance around coding; Altman said the model specifically excels at spinning up entire software applications on demand, in what’s become known as “vibe coding.”
+On SWE-bench Verified — a test of real-world coding tasks pulled from GitHub — GPT-5 scores 74.9% on its first attempt. That means GPT-5 just outperforms Anthropic’s latest Claude Opus 4.1 model, which scored 74.5% , and Google DeepMind’s Gemini 2.5 Pro, which scored 59.6% .
+On Humanity’s Last Exam — a difficult test measuring AI model performance across math, humanities, and the natural sciences — a version of GPT-5 with extended reasoning (GPT-5 Pro) scored 42% when using tools. That’s slightly less than xAI was able to achieve with Grok 4 Heavy , which scored 44.4% on the test.
+Image Credits: OpenAI
+On GPQA Diamond — a test of PhD-level science questions — GPT-5 pro scored 89.4% on its first try, outperforming Claude Opus 4.1, which scored 80.9%, and Grok 4 Heavy, which scored 88.9%.
+OpenAI says GPT-5 is better for answering health-related questions. On a test measuring accuracy in AI model responses around healthcare topics, HealthBench Hard Hallucinations, OpenAI says GPT-5 (with thinking) hallucinates just 1.6% of the time. This is far lower than the company’s previous GPT-4o and o3 models, which scored 12.9% and 15.8, respectively.
+While AI chatbots are not medical professionals, millions of people are using them for health advice. In response to this phenomenon, the company says GPT-5 is more proactive about flagging potential health concerns and helping users parse medical results.
+In addition, OpenAI says GPT-5 is better than other AI models on more difficult-to-measure, subjective domains, such as creative design and writing. Turley said GPT-5 responds more naturally and exhibits “better taste” than other AI models on creative tasks.
+“The vibes of this model are really good,” said Turley.
+GPT-5 is also more accurate than OpenAI’s previous models, and the company says it suffers far less from hallucinations — the tendency for AI models to make up information — compared to its o-series models. Hallucinations seemed to be getting worse in OpenAI’s latest AI reasoning models, such as o3, and OpenAI previously said it didn’t quite understand why it was happening.
+In responses to ChatGPT prompts, OpenAI found that GPT-5 (with thinking) hallucinates and responds with incorrect information 4.8% of the time. That’s a significant reduction from o3 and GPT-4o, which score hallucination rates of 22% and 20.6%, respectively, on the test.
+On a benchmark measuring an AI model’s agentic ability to complete simulated online tasks, Tau-bench, GPT-5 offers mixed performance. On part of the test measuring an AI’s ability to navigate an airline’s website, GPT-5 scores 63.5%, slightly underperforming o3, which scored 64.8%. On another part of the test measuring AI’s ability to navigate retail websites, GPT-5 scores 81.1%, underperforming Claude Opus 4.1, which scored 82.4%.
+OpenAI also says that GPT-5 is safer than its previous models. While AI reasoning models occasionally exhibit a tendency to scheme against humans or lie to promote their own goals, OpenAI found that GPT-5 was deceptive at a lower rate than other models.
+Alex Beutel, OpenAI’s safety research lead, said reducing deception improves not only the safety of GPT-5, but also the user experience, creating a model that’s more “transparent and honest in ways users can trust.”
+Beutel also notes GPT-5 is better at discerning between bad actors who are trying to misuse ChatGPT and users making harmless requests. This results in GPT-5 being able to refuse more unsafe questions, while offering fewer rejections to users seeking harmless information.
+Upgrades for consumers and developers
+ChatGPT is getting a few user experience upgrades as part of the GPT-5 launch. Users can now select from four new personalities in ChatGPT’s setting: Cynic, Robot, Listener, and Nerd. The company says these will adapt ChatGPT’s responses without requiring users to specifically ask the model to respond in a certain way.
+Subscribers to ChatGPT’s $20-per-month Plus plan get higher usage limits for GPT-5 than free users. Meanwhile, $200-per-month Pro subscribers will have unlimited access to GPT-5, as well as a souped-up version called GPT-5 Pro that uses additional computational resources to produce better answers. Organizations on OpenAI’s Team, Edu, and Enterprise plans will gain access to GPT-5 as their default model next week.
+For developers, GPT-5 is coming to OpenAI’s API in three sizes — gpt-5, gpt-5-mini, and gpt-5-nano — which will spend more or less time “reasoning” through tasks. Developers can also now control verbosity in the OpenAI API, deciding how long or short an AI model’s responses should be.
+The base model of GPT-5 will cost developers $1.25 per million input tokens (roughly 750,000 words, longer than the entire “Lord of the Rings” series) and $10 per million output tokens.
+The launch of GPT-5 comes after a busy week for OpenAI. The company released an open-weight reasoning model, gpt-oss , that developers and enterprises can download for free and run at a fraction of the cost. The open model nearly matched the abilities of OpenAI’s previous top models, o3 and o4-mini, but GPT-5 sets a new standard for frontier performance in some areas, such as coding.
+However, GPT-5 seems to be roughly on par with other frontier AI models in several areas. Benchmarks, of course, only tell part of the story for any AI model, and it remains to be seen how developers will use GPT-5 in the real world, and whether the model is truly a step above the competition.
+Topics
+AI , ChatGPT , gpt-5 , OpenAI
+When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.
+Maxwell Zeff
+Senior AI Reporter
+Maxwell Zeff was a senior reporter at TechCrunch specializing in AI. Previously with Gizmodo, Bloomberg, and MSNBC, Zeff has covered the rise of AI and the Silicon Valley Bank crisis. He is based in San Francisco. When not reporting, he can be found hiking, biking, and exploring the Bay Area’s food scene.
+View Bio
+October 13 – 15
+San Francisco
+Get 50% off a second pass
+The Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by making connections, building momentum, and discovering what’s next in the startup ecosystem.
+BOOK NOW
+Most Popular
+•
+Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground
+• Tim Fernholz
+•
+World’s first enhanced geothermal power plant completed in just 23 months
+• Tim De Chant
+•
+Google releases Gemini 4 Argon, called its most powerful model yet
+• Lucas Ropek
+•
+The Pentagon taps Elon Musk and Palmer Luckey to help decide what the military should do next
+• Dominic-Madori Davis
+•
+OpenAI launches Dots, its bubbly agentic avatar
+• Lucas Ropek
+•
+AMD will acquire Fei-Fei Li’s World Labs for $8.2B
+• Tim Fernholz
+•
+Viral AI agent Instinct raises $1B Series C at a $10B valuation
+• Sarah Perez

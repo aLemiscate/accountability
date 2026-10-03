@@ -1,0 +1,36 @@
+{
+  "url": "https://x.com/OpenAI/status/1904602845221187829",
+  "captured_at": "2026-10-03T13:43:24.166Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "be292a49e0fd8758387ca9d8dff80d4d25347b40ec98d851a02d7581e6208247",
+    "page.txt": "76a0899c88e0062aca5d4cdafa54c75bb089dbb75c8e57f86d8fa04bd33160fd",
+    "post.json": "c8206ab83943977c2fb9bcb6a54a4ae70c5b20d1a3dc06dcee005119aa6f16d6",
+    "syndication.json": "d4d4ad4a2a61ccc7827f7aa947de4702acd038211394250787430553a4b98dff",
+    "media-1.jpg": "0acaf6842eefec970ba28c23a5eb6fa94308cd56809913c9f3f1774fa8d9ef4a",
+    "post.txt": "ad1c4c3e33ebc8ed33f420572305697c970b9a797efbdbe1bd76c6960a27e173"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1904602845221187829",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"4o image generation has arrived. It's beginning to roll out today in ChatGPT and Sora to all Plus, Pro, Team, and Free users.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "March 25, 2025",
+    "posted_at": "2025-03-25T18:34:38.767Z",
+    "media": [
+      {
+        "file": "media-1.jpg",
+        "url": "https://pbs.twimg.com/media/Gm5-GJRbYAAr1iz.jpg"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260420111914/https://x.com/OpenAI/status/1904602845221187829",
+    "timestamp": "20260420111914",
+    "method": "existing"
+  }
+}

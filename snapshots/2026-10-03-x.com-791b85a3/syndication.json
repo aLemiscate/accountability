@@ -1,0 +1,166 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 1249,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2024-08-26T16:28:23.000Z",
+  "display_text_range": [
+    0,
+    215
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/9mBwv2SgB1",
+        "expanded_url": "https://x.com/alexalbert__/status/1828107230656471442/photo/1",
+        "indices": [
+          216,
+          239
+        ],
+        "url": "https://t.co/9mBwv2SgB1"
+      }
+    ]
+  },
+  "id_str": "1828107230656471442",
+  "text": "We've added a new system prompts release notes section to our docs. We're going to log changes we make to the default system prompts on Claude dot ai and our mobile apps. (The system prompt does not affect the API.) https://t.co/9mBwv2SgB1",
+  "user": {
+    "id_str": "1380719534970040322",
+    "name": "Alex Albert",
+    "screen_name": "alexalbert__",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1856486626072915968/JEQpB9CW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1828107230656471442"
+    ],
+    "editable_until_msecs": "1724693303000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/9mBwv2SgB1",
+      "expanded_url": "https://x.com/alexalbert__/status/1828107230656471442/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        216,
+        239
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/GV691btaQAEyUqX.jpg",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 1544,
+            "w": 2758,
+            "x": 0,
+            "y": 8
+          },
+          {
+            "h": 1552,
+            "w": 1552,
+            "x": 120,
+            "y": 0
+          },
+          {
+            "h": 1552,
+            "w": 1361,
+            "x": 216,
+            "y": 0
+          },
+          {
+            "h": 1552,
+            "w": 776,
+            "x": 508,
+            "y": 0
+          },
+          {
+            "h": 1552,
+            "w": 2758,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 1552,
+        "width": 2758
+      },
+      "sizes": {
+        "large": {
+          "h": 1152,
+          "resize": "fit",
+          "w": 2048
+        },
+        "medium": {
+          "h": 675,
+          "resize": "fit",
+          "w": 1200
+        },
+        "small": {
+          "h": 383,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/9mBwv2SgB1"
+    }
+  ],
+  "photos": [
+    {
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 1544,
+          "w": 2758,
+          "x": 0,
+          "y": 8
+        },
+        {
+          "h": 1552,
+          "w": 1552,
+          "x": 120,
+          "y": 0
+        },
+        {
+          "h": 1552,
+          "w": 1361,
+          "x": 216,
+          "y": 0
+        },
+        {
+          "h": 1552,
+          "w": 776,
+          "x": 508,
+          "y": 0
+        },
+        {
+          "h": 1552,
+          "w": 2758,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/alexalbert__/status/1828107230656471442/photo/1",
+      "url": "https://pbs.twimg.com/media/GV691btaQAEyUqX.jpg",
+      "width": 2758,
+      "height": 1552
+    }
+  ],
+  "conversation_count": 60,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

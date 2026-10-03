@@ -1,0 +1,162 @@
+oven-sh
+/
+bun
+Public
+Notifications
+Fork 5.1k
+Star 96.1k
+Code
+Issues
+3.8k
+Pull requests
+5k+
+Discussions
+Actions
+Security and quality
+Insights
+Files
+main
+.buildkite
+.cargo
+.claude
+.cursor
+.github
+.vscode
+bench
+completions
+dockerhub
+docs
+misctools
+packages
+patches
+scripts
+src
+test
+tools
+.aikido
+.bk.yaml
+.clang-tidy
+.clangd
+.coderabbit.yaml
+.cursorignore
+.dockerignore
+.editorconfig
+.git-blame-ignore-revs
+.gitattributes
+.gitignore
+.lldbinit
+.mailmap
+.prettierignore
+.prettierrc
+AGENTS.md
+CLAUDE.md
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+Cargo.lock
+Cargo.toml
+LATEST
+LICENSE.md
+README.md
+REVIEW.md
+SECURITY.md
+bun.lock
+bunfig.node-test.toml
+bunfig.toml
+clippy.toml
+entitlements.debug.plist
+entitlements.plist
+flake.lock
+flake.nix
+hawk.toml
+mordant-baseline.toml
+mordant.toml
+oxlint.json
+package.json
+rust-toolchain.toml
+rustfmt.toml
+shell.nix
+tsconfig.base.json
+Breadcrumbs
+bun
+/LICENSE.md
+Latest commit
+Jarred-Sumner
+Revert "Build JavaScriptCore and ICU from source in bun's own build g…
+62838e1
+·
+History
+History
+File metadata and controls
+Preview
+Code
+Blame
+84 lines (70 loc) · 5.48 KB
+Raw
+Bun itself is MIT-licensed.
+JavaScriptCore
+Bun statically links JavaScriptCore (and WebKit) which is LGPL-2 licensed. WebCore files from WebKit are also licensed under LGPL2. Per LGPL2:
+(1) If you statically link against an LGPL’d library, you must also provide your application in an object (not necessarily source) format, so that a user has the opportunity to modify the library and relink the application.
+You can find the patched version of WebKit used by Bun here: https://github.com/oven-sh/webkit. If you would like to relink Bun with changes:
+git clone https://github.com/oven-sh/WebKit vendor/WebKit
+bun sync-webkit-source (checks out the version pinned in WEBKIT_VERSION in scripts/build/deps/webkit.ts)
+bun run build:local
+This compiles JavaScriptCore, compiles Bun’s .cpp bindings for JavaScriptCore (which are the object files using JavaScriptCore) and outputs a new bun binary with your changes.
+Linked libraries
+Bun statically links these libraries:
+Library License
+boringssl several licenses
+brotli MIT
+libarchive several licenses
+lol-html BSD 3-Clause
+ls-hpack MIT
+ls-qpack MIT
+lsquic MIT (portions derived from Chromium proto-quic, BSD 3-Clause)
+mimalloc MIT
+picohttp dual-licensed under the Perl License or the MIT License
+zstd dual-licensed under the BSD License or GPLv2 license
+simdutf Apache 2.0
+tinycc LGPL v2.1
+uSockets Apache 2.0
+zlib-ng zlib
+c-ares MIT licensed
+libicu 78 license here
+libbase64 BSD 2-Clause
+libuv (on Windows) MIT
+libdeflate MIT
+libjpeg-turbo BSD 3-Clause / IJG / zlib
+libspng BSD 2-Clause
+libwebp BSD 3-Clause
+highway Apache 2.0
+uucode MIT
+A fork of uWebsockets Apache 2.0 licensed
+Parts of Tigerbeetle's IO code Apache 2.0 licensed
+__cxa_thread_atexit fallback from LLVM libc++abi Apache 2.0 with LLVM exception
+Polyfills
+For compatibility reasons, the following packages are embedded into Bun's binary and injected if imported.
+Package License
+acorn MIT
+acorn-walk MIT
+assert MIT
+browserify-zlib MIT
+buffer MIT
+constants-browserify MIT
+crypto-browserify MIT
+domain-browser MIT
+events MIT
+https-browserify MIT
+os-browserify MIT
+path-browserify MIT
+process MIT
+punycode MIT
+querystring-es3 MIT
+stream-browserify MIT
+stream-http MIT
+string_decoder MIT
+timers-browserify MIT
+tty-browserify MIT
+url MIT
+util MIT
+vm-browserify MIT
+Additional credits
+Bun's JS transpiler, CSS lexer, and Node.js module resolver source code is a port of @evanw’s esbuild project.
+Credit to @kipply for the name "Bun"!

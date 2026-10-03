@@ -1,0 +1,34 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 334,
+  "lang": "en",
+  "created_at": "2025-11-07T07:21:43.000Z",
+  "display_text_range": [
+    0,
+    278
+  ],
+  "entities": {},
+  "id_str": "1986695544887255104",
+  "text": "More predictable usage in Codex. We landed optimizations behind the scenes that mean that you now will get the same usage throughout the day irrespective of the load or how traffic is routed. \n\nBefore you could get unlucky and hit a few cache misses in a row and get less usage.",
+  "user": {
+    "id_str": "1953337039510003712",
+    "name": "Tibo",
+    "screen_name": "thsottiaux",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1986695544887255104"
+    ],
+    "editable_until_msecs": "1762503703000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 20,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

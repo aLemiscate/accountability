@@ -11,45 +11,51 @@ quote: >-
   staged release and partnership-based sharing.
 summary: >-
   In February 2019 OpenAI withheld the full GPT-2 language model over misuse
-  concerns, releasing a small version and promising to revisit the decision;
-  its policy staff told researchers who wanted access "We're working on
-  broadening access in a principled way - stay tuned!" In May it set out a
-  staged release, publishing a 345-million-parameter model and sharing the
-  1.5-billion-parameter one with partners working on countermeasures. In
-  August it released the 774-million model with a six-month report and a legal
-  template for model-sharing partnerships, and on Nov. 5 it released the full
-  1.5-billion model with a final report, partner research on malicious uses and
-  a detector for GPT-2 output.
+  concerns, releasing a small version and promising to revisit the decision; its
+  policy staff told researchers who wanted access "We're working on broadening
+  access in a principled way - stay tuned!" In May it set out a staged release,
+  publishing a 345-million-parameter model and sharing the 1.5-billion-parameter
+  one with partners working on countermeasures. In August it released the
+  774-million model with a six-month report and a legal template for
+  model-sharing partnerships, and on Nov. 5 it released the full 1.5-billion
+  model with a final report, partner research on malicious uses and a detector
+  for GPT-2 output.
 concreteness: measurable
 status: kept
 related: [2025-03-05-gpt-2-history-recast]
 sources:
-  - title: Miles Brundage on X ("We're working on broadening access in a
-      principled way - stay tuned!")
+  - title: Miles Brundage on X ("We're working on broadening access in a principled
+      way - stay tuned!")
     publisher: X
     url: https://x.com/Miles_Brundage/status/1097637002344714241
     date: 2019-02-18
     type: primary
+    snapshot: snapshots/2026-10-03-x.com-517fbcaa
   - title: OpenAI on X ("staged release and partnership-based sharing")
     publisher: X
     url: https://x.com/OpenAI/status/1124440412679233536
     date: 2019-05-03
     type: primary
+    snapshot: snapshots/2026-10-03-x.com-948e1803
   - title: OpenAI on X ("GPT-2 6-month follow-up")
     publisher: X
     url: https://x.com/OpenAI/status/1163843803884601344
     date: 2019-08-20
     type: primary
+    snapshot: snapshots/2026-10-03-x.com-648aaf1f
   - title: OpenAI on X ("We're releasing the 1.5billion parameter GPT-2 model")
     publisher: X
     url: https://x.com/OpenAI/status/1191764001434173440
     date: 2019-11-05
     type: primary
+    archive: https://web.archive.org/web/20250723012128/https://x.com/OpenAI/status/1191764001434173440
+    snapshot: snapshots/2026-10-03-x.com-0f650494
   - title: Miles Brundage on X ("latest and final report on GPT-2")
     publisher: X
     url: https://x.com/Miles_Brundage/status/1191771901326004224
     date: 2019-11-05
     type: primary
+    snapshot: snapshots/2026-10-03-x.com-bd845fe4
 note: >-
   Kept, on the schedule OpenAI set. In 2025 OpenAI described this caution as a
   product of an outdated view of AGI; see the related entry.

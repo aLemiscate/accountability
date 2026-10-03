@@ -1,0 +1,32 @@
+{
+  "url": "https://x.com/OpenAI/status/2097375276384567642",
+  "captured_at": "2026-10-03T14:32:48.516Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "dd13863e388fc637a3c607f50ff5fe5be70f6dcc751184b6b9c89a66da752cb8",
+    "page.txt": "ce22f1f23537070bf6495f16aa169777bdab2a76c4b141aeed0b985f69283223",
+    "post.json": "beb46b7bd83aed508fee33b7d015da3d2ddf8e17aab8706c44bdf9f78bbe963a",
+    "syndication.json": "e602a3f7c48772fb7b518d17d532ee2369e63dd94a397b28c5281eff0c07a7d5",
+    "quoted-media-1.jpg": "c5a45be6b5f985b6fe0186eadacd6a66318b0dc294bbea820b6b9f76481392e7",
+    "post.txt": "966078fee116b0d2055f4adb8251f34c7d2477f65a281eb14a6c686df3f2dcb3"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/2097375276384567642",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"We congratulate Levent Alpöge and Tristan Buckmaster on their remarkable mathematical work. We (the researchers and the agents) did not see any of their work through any means until they released it publicly — in particular, no specific user data was accessed in order to solve this p… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "September 8, 2026",
+    "posted_at": "2026-09-08T17:23:27.895Z",
+    "media": [
+      {
+        "file": "quoted-media-1.jpg",
+        "url": "https://pbs.twimg.com/media/HRtS_iLboAUUlYv.jpg"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": null
+}

@@ -1,0 +1,21 @@
+{
+  "url": "https://github.com/anthropics/claude-code/issues/42796",
+  "captured_at": "2026-10-03T12:43:28.481Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "1b8b8f31285ca324dd7f25c0c819ee2072446aa2c8c6f6e0ed55de8868c70a2b",
+    "page.txt": "3d4b075e8f19b1a288aba5774a82ed409944aec7c7ed4d7c350d3b9246657130",
+    "screenshot.jpg": "8afe7e6f1649590dec31773822b11195136ae1c4aacbfe3b151f5529274b7248",
+    "rendered.txt": "0f2cf626051bc25484681045f1aab3cb80dae0df36590bd649cbc32493bcd24f"
+  },
+  "http_status": 200,
+  "final_url": "https://github.com/anthropics/claude-code/issues/42796",
+  "content_type": "text/html; charset=utf-8",
+  "title": "[MODEL] Claude Code is unusable for complex engineering tasks with the Feb updates · Issue #42796 · anthropics/claude-code · GitHub",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20261003083052/https://github.com/anthropics/claude-code/issues/42796",
+    "timestamp": "20261003083052",
+    "method": "existing"
+  }
+}

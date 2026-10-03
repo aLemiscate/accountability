@@ -1,0 +1,81 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 328,
+  "lang": "en",
+  "created_at": "2026-04-14T15:54:26.000Z",
+  "display_text_range": [
+    0,
+    186
+  ],
+  "entities": {},
+  "id_str": "2044081858527539403",
+  "text": "Hard to think of a more clear cut case of OpenAI being in the wrong… they should just reverse positions here and figure out how anyone could have ever thought this was OK, simple as that",
+  "user": {
+    "id_str": "1214528593",
+    "name": "Miles Brundage",
+    "screen_name": "Miles_Brundage",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2089462134828871680/cW8--1eS_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2044081858527539403"
+    ],
+    "editable_until_msecs": "1776185666000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 15,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 154,
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 10,
+    "retweet_count": 63,
+    "created_at": "2026-04-14T15:28:09.000Z",
+    "display_text_range": [
+      0,
+      171
+    ],
+    "entities": {
+      "urls": [
+        {
+          "display_url": "wired.com/story/anthropi…",
+          "expanded_url": "https://www.wired.com/story/anthropic-opposes-the-extreme-ai-liability-bill-that-openai-backed/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev",
+          "indices": [
+            148,
+            171
+          ],
+          "url": "https://t.co/guwbbXleiG"
+        }
+      ]
+    },
+    "id_str": "2044075242939650169",
+    "text": "Anthropic and OpenAI are clashing over a proposed Illinois law that would let AI labs largely off the hook for mass deaths and financial disasters. https://t.co/guwbbXleiG",
+    "user": {
+      "id_str": "1344951",
+      "name": "WIRED",
+      "screen_name": "WIRED",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1228050699348561920/YvWAQD2L_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2044075242939650169"
+      ],
+      "editable_until_msecs": "1776184089000",
+      "edits_remaining": "5",
+      "is_edit_eligible": true
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/claudeai/status/1965208249399177655",
+  "captured_at": "2026-10-03T12:23:24.188Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "d993ee2659517f4fd238cd6aaa49feb2b946d3b49e651519a79c16a1b0ba67fa",
+    "page.txt": "77e2781f829c5291122b3704947c46ac93d68393a3631e4503b7a6f70db9e195",
+    "post.json": "f8b6a640469c833eedaf9bdb449edb637ece91caade0ca315887056e617a22d4",
+    "syndication.json": "032f58c515c6c8082fac09ff73483445b2651a294809b626ee76f84181c6b7e1",
+    "post.txt": "59d757e42b1c6fc28f86ec099a30b5834d23c41f5020378e61e2c370be95cb16"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/claudeai/status/1965208249399177655",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Claude on X: \"We’d also like to address a concern we've heard in the community: We never intentionally degrade model quality as a result of demand or other factors.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Claude (@claudeai)",
+    "date": "September 9, 2025",
+    "posted_at": "2025-09-09T00:18:53.117Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20250919224512/https://x.com/claudeai/status/1965208249399177655",
+    "timestamp": "20250919224512",
+    "method": "existing"
+  }
+}

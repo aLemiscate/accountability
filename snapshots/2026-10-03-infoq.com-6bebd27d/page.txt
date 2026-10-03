@@ -1,0 +1,67 @@
+InfoQ Homepage
+News
+OpenAI GPT Store is a Nascent Marketplace for Custom ChatGPTs
+AI, ML & Data Engineering
+When AI Accelerates Development, Can Your CI Pipeline Keep Up? (Webinar Oct 8th)
+OpenAI GPT Store is a Nascent Marketplace for Custom ChatGPTs
+Jan 12, 2024
+2
+min read
+by
+•
+Sergio De Simone
+Follow us on
+Youtube 232K Followers
+Linkedin 26K Followers
+Instagram New
+RSS 19K Readers
+X 57.1k Followers
+Facebook 21K Likes
+Bluesky New
+Like
+• Reading list
+OpenAI has started rolling out its new GPT Store , announced a few months ago along with GPTs , to provide a mechanism for ChatGPT Plus, Team and Enterprise users to share custom ChatGPT-based chatbots they create.
+According to OpenAI, since GPTs were announced, users have created over three million custom versions of ChatGPT in a diverse range of categories, including DALL&middot;E, writing, research, programming, education, and lifestyle. In addition to category search, the GPT Store makes it possible to browse popular and trending GPTs on the community leaderboard.
+Examples of GPTs OpenAI is currently highlighting include personalized trail recommendations from AllTrails , synthesized search results from 200 million academic papers from Consensus , learning math and science with the CK-12 Flexi AI tutor , and more.
+The GPT Store does not support monetization yet, but OpenAI says they will launch a revenue program in the next few months:
+As a first step, US builders will be paid based on user engagement with their GPTs. We'll provide details on the criteria for payments as we get closer.
+Initial reactions to the announcement include some skepticism rooted on the quality of the GPTs that are currently available , but it is not clear yet whether the GPT Store will end up looking like Apple’s App Store or the Google Play Store, with their review process and editorial vetting, or will follow a distinctive model.
+On a related note, it is worth noting that researchers from safety firm Adversa AI showed that GPTs may be tricked into leaking how they were built, including prompts, API names, and uploaded document metadata and content . OpenAI has promptly patched all the vulnerabilities uncovered by Adversa AI researchers, but users should be aware that security is a concern in the ChatGPT world, too.
+GPTs provide a mechanism to combine ChatGPT with custom instructions, external knowledge, and any combination of skills. They provide a way to customize ChatGPT for specific uses, as exemplified above. One major advantage of GPTs, says OpenAI, is they do not require coding skills. Rather, you engage with ChatGPT itself to describe what you want to create, then define instructions, conversation starters, and external knowledge bases. If required, you can also integrate capabilities, i.e., external tools, and actions, i.e., calls to external services.
+In an unrelated announcement, OpenAI has launched a new plan for smaller teams which includes a shared workspace supporting DALL&middot;E 3, GPT-4 with Vision, Browsing, Advanced Data Analysis, and user management through separate admin tools. Similarly to the ChatGPT Enterprise plan, the ChatGPT Team plan includes a guarantee that OpenAI will not use customers' data and conversations to train their model, nor to learn from customer interaction with ChatGPT.
+About the Author
+Sergio De Simone
+Show more Show less
+Rate this Article
+Adoption
+Style
+Author Contacted
+This content is in the AI, ML & Data Engineering topic
+Related Topics:
+•
+AI, ML & Data Engineering
+•
+ChatBots
+•
+ChatGPT
+•
+OpenAI
+•
+Large language models
+•
+Related Editorial
+•
+Related Sponsors
+•
+The Practical Agentic Coding Playbook
+•
+Related Sponsor
+Automated code transformation at scale. Fix vulnerabilities, migrate frameworks, and modernize legacy code across every repo. Try Moderne Free .
+The InfoQ Newsletter
+A round-up of last week’s content on InfoQ sent out every Tuesday. Join a community of over 250,000 senior developers.
+View an example
+Enter your e-mail address
+Select your country
+Select a country
+I consent to InfoQ.com handling my data as explained in this Privacy Notice .
+We protect your privacy.

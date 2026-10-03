@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="https://simonwillison.net/2025/Aug/8/surprise-deprecation-of-gpt-4o/">
+<title>The surprise deprecation of GPT-4o for ChatGPT consumers</title>
+<script defer data-domain="simonwillison.net" src="https://plausible.io/js/plausible.js"></script>
+<link rel="alternate" type="application/atom+xml" title="Atom" href="/atom/everything/">
+<link rel="stylesheet" type="text/css" href="/static/css/all.4c8b64889a46.css">
+<link rel="webmention" href="https://webmention.io/simonwillison.net/webmention">
+<link rel="pingback" href="https://webmention.io/simonwillison.net/xmlrpc">
+<meta name="author" content="Simon Willison">
+<meta property="og:site_name" content="Simon Willison’s Weblog">
+
+
+<meta name="twitter:card" content="summary"><meta name="twitter:card" content="summary">
+<meta name="twitter:creator" content="@simonw">
+<meta property="og:url" content="https://simonwillison.net/2025/Aug/8/surprise-deprecation-of-gpt-4o/">
+<meta property="og:title" content="The surprise deprecation of GPT-4o for ChatGPT consumers">
+<meta property="og:type" content="article">
+<meta property="og:description" content="I’ve been dipping into the r/ChatGPT subreddit recently to see how people are reacting to the GPT-5 launch, and so far the vibes there are not good. This AMA thread …">
+<meta property="og:updated_time" content="1754675530">
+
+
+
+
+
+<script>
+(function() { // Apply theme immediately to prevent flash
+  const theme = localStorage.getItem('theme');
+  if (theme === 'light' || theme === 'dark') {
+    document.documentElement.setAttribute('data-theme', theme);
+  }
+})();
+</script>
+</head>
+<body class="smallhead">
+
+<div id="smallhead">
+  <div id="smallhead-inner">
+    <h1><a href="/">Simon Willison’s Weblog</a></h1>
+    <a id="smallhead-about" href="/about/#subscribe">Subscribe</a>
+  </div>
+</div><!-- #smallhead -->
+
+
+<div id="sponsored-banner" class="sponsor-scheme-sky">
+  <div id="sponsored-banner-inner">
+    <strong class="sponsored-label">Sponsored by:</strong> Deepgram &mdash; Flux TTS remembers the conversation, so your agent sounds right on reply 20. <a class="sponsor-learn-more-label" href="https://fandf.co/4dat4R0" rel="sponsored noopener" target="_blank">Hear the demo</a>
+  </div>
+</div>
+
+
+<div id="wrapper">
+<div id="primary">
+
+<div class="entry entryPage">
+
+
+<div data-permalink-context="/2025/Aug/8/surprise-deprecation-of-gpt-4o/">
+<h2>The surprise deprecation of GPT-4o for ChatGPT consumers</h2>
+<p class="mobile-date">8th August 2025</p>
+
+
+
+<p>I’ve been dipping into the <a href="https://reddit.com/r/chatgpt">r/ChatGPT</a> subreddit recently to see how people are reacting to <a href="https://simonwillison.net/2025/Aug/7/gpt-5/">the GPT-5 launch</a>, and so far the vibes there are not good. <a href="https://www.reddit.com/r/ChatGPT/comments/1mkae1l/gpt5_ama_with_openais_sam_altman_and_some_of_the/">This AMA thread</a> with the OpenAI team is a great illustration of the single biggest complaint: a lot of people are <em>very</em> unhappy to lose access to the much older GPT-4o, previously ChatGPT’s default model for most users.</p>
+<p>A big surprise for me yesterday was that OpenAI simultaneously retired access to their older models as they rolled out GPT-5, at least in their consumer apps. Here’s a snippet from <a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes">their August 7th 2025 release notes</a>:</p>
+<blockquote>
+<p>When GPT-5 launches, several older models will be retired, including GPT-4o, GPT-4.1, GPT-4.5, GPT-4.1-mini, o4-mini, o4-mini-high, o3, o3-pro.</p>
+<p>If you open a conversation that used one of these models, ChatGPT will automatically switch it to the closest GPT-5 equivalent. Chats with 4o, 4.1, 4.5, 4.1-mini, o4-mini, or o4-mini-high will open in GPT-5, chats with o3 will open in GPT-5-Thinking, and chats with o3-Pro will open in GPT-5-Pro (available only on Pro and Team).</p>
+</blockquote>
+<p>There’s no deprecation period at all: when your consumer ChatGPT account gets GPT-5, those older models cease to be available.</p>
+
+<p id="sama"><strong>Update 12pm Pacific Time</strong>: Sam Altman on Reddit <a href="https://www.reddit.com/r/ChatGPT/comments/1mkae1l/comment/n7nelhh/">six minutes ago</a>:</p>
+<blockquote>
+<p>ok, we hear you all on 4o; thanks for the time to give us the feedback (and the passion!). we are going to bring it back for plus users, and will watch usage to determine how long to support it.</p>
+</blockquote>
+<p>See also <a href="https://x.com/sama/status/1953893841381273969">Sam’s tweet</a> about updates to the GPT-5 rollout.</p>
+
+<p><strong>Update 12th August 2025</strong>: Another <a href="https://x.com/sama/status/1955438916645130740">Tweet from Sam</a>:</p>
+<blockquote>
+<p>4o is back in the model picker for all paid users by default. If we ever do deprecate it, we will give plenty of notice. Paid users also now have a “Show additional models” toggle in ChatGPT web settings which will add models like o3, 4.1, and GPT-5 Thinking mini. 4.5 is only available to Pro users—it costs a lot of GPUs.</p>
+</blockquote>
+
+
+<p>Rest of my original post continues below:</p>
+
+<hr>
+
+<p>(This only affects ChatGPT consumers—the API still provides the old models, their <a href="https://platform.openai.com/docs/deprecations">deprecation policies are published here</a>.)</p>
+<p>One of the expressed goals for GPT-5 was to escape the terrible UX of the model picker. Asking users to pick between GPT-4o and o3 and o4-mini was a notoriously bad UX, and resulted in many users sticking with that default 4o model—now a year old—and hence not being exposed to the advances in model capabilities over the last twelve months.</p>
+<p>GPT-5’s solution is to automatically pick the underlying model based on the prompt. On paper this sounds great—users don’t have to think about models any more, and should get upgraded to the best available model depending on the complexity of their question.</p>
+<p>I’m already getting the sense that this is <strong>not</strong> a welcome approach for power users. It makes responses much less predictable as the model selection can have a dramatic impact on what comes back.</p>
+<p>Paid tier users can select “GPT-5 Thinking” directly. Ethan Mollick is <a href="https://www.oneusefulthing.org/p/gpt-5-it-just-does-stuff">already recommending deliberately selecting the Thinking mode</a> if you have the ability to do so, or trying prompt additions like “think harder” to increase the chance of being routed to it.</p>
+<p>But back to GPT-4o. Why do many people on Reddit care so much about losing access to that crusty old model? I think <a href="https://www.reddit.com/r/ChatGPT/comments/1mkae1l/comment/n7js2sf/">this comment</a> captures something important here:</p>
+<blockquote>
+<p>I know GPT-5 is designed to be stronger for complex reasoning, coding, and professional tasks, but <strong>not all of us need a pro coding model</strong>. Some of us rely on 4o for creative collaboration, emotional nuance, roleplay, and other long-form, high-context interactions. Those areas feel different enough in GPT-5 that it impacts my ability to work and create the way I’m used to.</p>
+</blockquote>
+<p>What a fascinating insight into the wildly different styles of LLM-usage that exist in the world today! With <a href="https://simonwillison.net/2025/Aug/4/nick-turley/">700M weekly active users</a> the variety of usage styles out there is incomprehensibly large.</p>
+<p>Personally I mainly use ChatGPT for research, coding assistance, drawing pelicans and foolish experiments. <em>Emotional nuance</em> is not a characteristic I would know how to test!</p>
+<p>Professor Casey Fiesler <a href="https://www.tiktok.com/@professorcasey/video/7536223372485709086">on TikTok</a> highlighted OpenAI’s post from last week <a href="https://openai.com/index/how-we%27re-optimizing-chatgpt/">What we’re optimizing ChatGPT for</a>, which includes the following:</p>
+<blockquote>
+<p>ChatGPT is trained to respond with grounded honesty. There have been instances where our 4o model fell short in recognizing signs of delusion or emotional dependency. […]</p>
+<p>When you ask something like “Should I break up with my boyfriend?” ChatGPT shouldn’t give you an answer. It should help you think it through—asking questions, weighing pros and cons. New behavior for high-stakes personal decisions is rolling out soon.</p>
+</blockquote>
+<p>Casey points out that this is an ethically complicated issue. On the one hand ChatGPT should be much more careful about how it responds to these kinds of questions. But if you’re already leaning on the model for life advice like this, having that capability taken away from you without warning could represent a sudden and unpleasant loss!</p>
+<p>It’s too early to tell how this will shake out. Maybe OpenAI will extend a deprecation period for GPT-4o in their consumer apps?</p>
+<p><em><strong>Update</strong>: That’s exactly what they’ve done, see <a href="https://simonwillison.net/2025/Aug/8/surprise-deprecation-of-gpt-4o/#sama">update above</a>.</em></p>
+<p>GPT-4o remains available via the API, and there are no announced plans to deprecate it there. It’s possible we may see a small but determined rush of ChatGPT users to alternative third party chat platforms that use that API under the hood.</p>
+
+
+</div>
+<div class="entryFooter">Posted <a href="/2025/Aug/8/">8th August 2025</a> at 5:52 pm &middot; Follow me on <a href="https://fedi.simonwillison.net/@simon">Mastodon</a>, <a href="https://bsky.app/profile/simonwillison.net">Bluesky</a>, <a href="https://twitter.com/simonw">Twitter</a> or <a href="https://simonwillison.net/about/#subscribe">subscribe to my newsletter</a></div>
+<p class="edit-page-link" data-admin-url="/admin/blog/entry/8948/" style="display: none;"></p>
+
+</div>
+
+
+<div class="recent-articles">
+<h2>More recent articles</h2>
+<ul class="bullets">
+  
+    <li><a href="/2026/Sep/29/openai-devday-2026-live-blog/">OpenAI DevDay 2026 live blog</a> - 29th September 2026</li>
+  
+    <li><a href="/2026/Sep/27/2026-in-llms-so-far/">2026 in LLMs (so far)</a> - 27th September 2026</li>
+  
+    <li><a href="/2026/Sep/22/opus-and-sol-and-luna/">Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war</a> - 22nd September 2026</li>
+  
+</ul>
+</div>
+
+
+
+</div> <!-- #primary -->
+
+<div id="secondary">
+
+<div class="metabox">
+<p class="this-is">This is <strong>The surprise deprecation of GPT-4o for ChatGPT consumers</strong> by Simon Willison, posted on <a href="/2025/Aug/8/">8th August 2025</a>.</p>
+
+<div class="series-info">
+  <p>Part of series <strong><a href="/series/gpt-5/">GPT-5</a></strong></p>
+  <ol start="1">
+    
+      
+        <li><a href="/2025/Aug/7/gpt-5/">GPT-5: Key characteristics, pricing and model card</a> - Aug. 7, 2025, 5:36 p.m. </li>
+      
+    
+      
+        <li><strong>The surprise deprecation of GPT-4o for ChatGPT consumers</strong></a> - Aug. 8, 2025, 5:52 p.m. </li>
+      
+    
+      
+        <li><a href="/2025/Sep/6/research-goblin/">GPT-5 Thinking in ChatGPT (aka Research Goblin) is shockingly good at search</a> - Sept. 6, 2025, 7:31 p.m. </li>
+      
+    
+      
+        <li><a href="/2025/Sep/9/apollo-ai-adoption/">Recreating the Apollo AI adoption rate chart with GPT-5, Python and Pyodide</a> - Sept. 9, 2025, 6:47 a.m. </li>
+      
+    
+    
+  </ol>
+</div>
+
+
+    
+        <a class="item-tag" href="/tags/ai/" rel="tag">
+            ai
+            <span>2,258</span>
+        </a>
+    
+        <a class="item-tag" href="/tags/openai/" rel="tag">
+            openai
+            <span>469</span>
+        </a>
+    
+        <a class="item-tag" href="/tags/generative-ai/" rel="tag">
+            generative-ai
+            <span>2,002</span>
+        </a>
+    
+        <a class="item-tag" href="/tags/chatgpt/" rel="tag">
+            chatgpt
+            <span>204</span>
+        </a>
+    
+        <a class="item-tag" href="/tags/llms/" rel="tag">
+            llms
+            <span>1,969</span>
+        </a>
+    
+        <a class="item-tag" href="/tags/tiktok/" rel="tag">
+            tiktok
+            <span>14</span>
+        </a>
+    
+        <a class="item-tag" href="/tags/ai-ethics/" rel="tag">
+            ai-ethics
+            <span>343</span>
+        </a>
+    
+        <a class="item-tag" href="/tags/ai-personality/" rel="tag">
+            ai-personality
+            <span>33</span>
+        </a>
+    
+        <a class="item-tag" href="/tags/gpt-5/" rel="tag">
+            gpt-5
+            <span>31</span>
+        </a>
+    
+        <a class="item-tag" href="/tags/gpt/" rel="tag">
+            gpt
+            <span>133</span>
+        </a>
+    
+
+
+
+<p><strong>Next:</strong> <a href="/2025/Aug/9/bay-area-ai/">My Lethal Trifecta talk at the Bay Area AI Security Meetup</a></p>
+
+
+<p><strong>Previous:</strong> <a href="/2025/Aug/7/gpt-5/">GPT-5: Key characteristics, pricing and model card</a></p>
+
+
+<section style="
+    /* .promo */
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    padding: 1rem 1.25rem;
+    /* .variant-a */
+    border: 2px solid #6c3eb9;
+  ">
+  <h3 style="
+      /* h3 */
+      margin: 0 0 0.5rem;
+      font-size: 1.25rem;
+    ">
+    Monthly briefing
+  </h3>
+  <p style="
+      /* p */
+      margin: 0 0 1rem;
+      line-height: 1.4;
+    ">
+    Sponsor me for <strong>$10/month</strong> and get a curated email digest of the month's most important LLM developments.
+  </p>
+  <p style="
+      /* p */
+      margin: 0 0 1rem;
+      line-height: 1.4;
+    ">
+    Pay me to send you less!
+  </p>
+  <a href="https://github.com/sponsors/simonw/" style="
+      /* a.button */
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background: #6c3eb9;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: 600;
+    ">
+    Sponsor &amp; subscribe
+  </a>
+</section>
+</div>
+
+
+
+</div> <!-- #secondary -->
+</div> <!-- #wrapper -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="ft">
+    <ul>
+      <li><a href="/about/#disclosures">Disclosures</a></li>
+      <li><a href="/about/#about-site">Colophon</a></li>
+      <li>&copy;</li>
+      <li><a href="/2002/">2002</a></li>
+      <li><a href="/2003/">2003</a></li>
+      <li><a href="/2004/">2004</a></li>
+      <li><a href="/2005/">2005</a></li>
+      <li><a href="/2006/">2006</a></li>
+      <li><a href="/2007/">2007</a></li>
+      <li><a href="/2008/">2008</a></li>
+      <li><a href="/2009/">2009</a></li>
+      <li><a href="/2010/">2010</a></li>
+      <li><a href="/2011/">2011</a></li>
+      <li><a href="/2012/">2012</a></li>
+      <li><a href="/2013/">2013</a></li>
+      <li><a href="/2014/">2014</a></li>
+      <li><a href="/2015/">2015</a></li>
+      <li><a href="/2016/">2016</a></li>
+      <li><a href="/2017/">2017</a></li>
+      <li><a href="/2018/">2018</a></li>
+      <li><a href="/2019/">2019</a></li>
+      <li><a href="/2020/">2020</a></li>
+      <li><a href="/2021/">2021</a></li>
+      <li><a href="/2022/">2022</a></li>
+      <li><a href="/2023/">2023</a></li>
+      <li><a href="/2024/">2024</a></li>
+      <li><a href="/2025/">2025</a></li>
+      <li><a href="/2026/">2026</a></li>
+      <li>
+        <button id="theme-toggle" type="button" aria-label="Toggle theme">
+          <!-- Auto/System icon (default) -->
+          <svg id="icon-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2V4a8 8 0 1 0 0 16z"/></svg>
+          <!-- Light icon -->
+          <svg id="icon-light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="display:none"><path d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-2a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM11 1h2v3h-2V1zm0 19h2v3h-2v-3zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.93zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zm2.121-14.85l1.414 1.415-2.121 2.121-1.414-1.414 2.121-2.121zM5.636 16.95l1.414 1.414-2.121 2.121-1.414-1.414 2.121-2.121zM23 11v2h-3v-2h3zM4 11v2H1v-2h3z"/></svg>
+          <!-- Dark icon -->
+          <svg id="icon-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="display:none"><path d="M10 7a7 7 0 0 0 12 4.9v.1c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2h.1A6.979 6.979 0 0 0 10 7zm-6 5a8 8 0 0 0 15.062 3.762A9 9 0 0 1 8.238 4.938 7.999 7.999 0 0 0 4 12z"/></svg>
+        </button>
+      </li>
+    </ul>
+</div>
+
+
+
+<style>image-gallery:not(:defined) img {max-height: 150px;} captioned-image-gallery:not(:defined) > figure {max-height: 240px; overflow: hidden;}</style>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('h2[id],h3[id],h4[id],h5[id],h6[id]').forEach(el => {
+    const id = el.getAttribute('id');
+    const permalinkContext = el.closest('[data-permalink-context]');
+    if (permalinkContext) {
+      const url = permalinkContext.getAttribute('data-permalink-context');
+      const hashLink = document.createElement('a');
+      hashLink.style.borderBottom = 'none';
+      hashLink.style.color = '#666';
+      hashLink.style.fontSize = '1em';
+      hashLink.style.opacity = 0.8;
+      hashLink.setAttribute('href', url + '#' + id);
+      hashLink.innerText = '#';
+      el.appendChild(document.createTextNode('\u00A0'));
+      el.appendChild(hashLink);
+    }
+  });
+});
+</script>
+<script type="module">
+const config = [
+  {"tag": "lite-youtube", "js": "/static/lite-yt-embed.js", "css": "/static/lite-yt-embed.css"},
+  {"tag": "image-gallery", "js": "/static/image-gallery.js", "css": null},
+  {"tag": "captioned-image-gallery", "js": "/static/captioned-image-gallery.js", "css": null},
+  {"tag": "click-to-play", "js": "/static/click-to-play.js", "css": "/static/click-to-play.css"},
+  {"tag": "github-code", "js": "/static/github-code.js", "css": null}
+];
+for (const {tag, js, css} of config) {
+  if (document.querySelector(tag)) {
+    if (css) {
+      document.head.appendChild(
+        Object.assign(document.createElement('link'), {
+          rel: 'stylesheet',
+          href: css
+        })
+      );
+    }
+    if (js) {
+      await import(js);
+    }
+  }
+}
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    if (window.localStorage.getItem('ADMIN')) {
+      document.querySelectorAll('.edit-page-link').forEach(el => {
+        const url = el.getAttribute('data-admin-url');
+        if (url) {
+          const a = document.createElement('a');
+          a.href = url;
+          a.className = 'edit-link';
+          a.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg> Edit';
+          el.appendChild(a);
+          el.style.display = 'block';
+        }
+      });
+    }
+  });
+</script>
+<script>
+// Random tag navigation - shows button if recently came from tag random
+(function() {
+  const stored = localStorage.getItem('random_tag');
+  if (!stored) return;
+
+  try {
+    const data = JSON.parse(stored);
+    const elapsed = Date.now() - data.timestamp;
+
+    // Only show if within 5 seconds
+    if (elapsed > 5000) return;
+
+    const header = document.getElementById('smallhead-inner');
+    if (!header) return;
+
+    const btn = document.createElement('a');
+    btn.href = '/random/' + encodeURIComponent(data.tag) + '/';
+    btn.className = 'random-tag-nav';
+    btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5" fill="currentColor" stroke="none"></circle><circle cx="15.5" cy="8.5" r="1.5" fill="currentColor" stroke="none"></circle><circle cx="8.5" cy="15.5" r="1.5" fill="currentColor" stroke="none"></circle><circle cx="15.5" cy="15.5" r="1.5" fill="currentColor" stroke="none"></circle><circle cx="12" cy="12" r="1.5" fill="currentColor" stroke="none"></circle></svg> Random ' + data.tag;
+
+    btn.addEventListener('click', function(e) {
+      // Bump the timestamp before navigating
+      localStorage.setItem('random_tag', JSON.stringify({
+        tag: data.tag,
+        timestamp: Date.now()
+      }));
+    });
+
+    // Insert before the Subscribe link
+    const subscribeLink = document.getElementById('smallhead-about');
+    if (subscribeLink) {
+      header.insertBefore(btn, subscribeLink);
+    } else {
+      header.appendChild(btn);
+    }
+  } catch (e) {
+    // Invalid JSON, clear it
+    localStorage.removeItem('random_tag');
+  }
+})();
+</script>
+<script>
+// Theme toggle functionality
+(function() {
+  const toggle = document.getElementById('theme-toggle');
+  const iconAuto = document.getElementById('icon-auto');
+  const iconLight = document.getElementById('icon-light');
+  const iconDark = document.getElementById('icon-dark');
+
+  // Theme states: 'auto' (default), 'light', 'dark'
+  function getTheme() {
+    return localStorage.getItem('theme') || 'auto';
+  }
+
+  function setTheme(theme) {
+    if (theme === 'auto') {
+      localStorage.removeItem('theme');
+      document.documentElement.removeAttribute('data-theme');
+    } else {
+      localStorage.setItem('theme', theme);
+      document.documentElement.setAttribute('data-theme', theme);
+    }
+    updateIcon(theme);
+  }
+
+  function updateIcon(theme) {
+    iconAuto.style.display = theme === 'auto' ? 'block' : 'none';
+    iconLight.style.display = theme === 'light' ? 'block' : 'none';
+    iconDark.style.display = theme === 'dark' ? 'block' : 'none';
+
+    // Update aria-label for accessibility
+    const labels = {
+      'auto': 'Theme: Auto (system preference). Click to switch to light.',
+      'light': 'Theme: Light. Click to switch to dark.',
+      'dark': 'Theme: Dark. Click to switch to auto.'
+    };
+    toggle.setAttribute('aria-label', labels[theme]);
+  }
+
+  // Cycle through themes: auto -> light -> dark -> auto
+  function cycleTheme() {
+    const current = getTheme();
+    const next = current === 'auto' ? 'light' : current === 'light' ? 'dark' : 'auto';
+    setTheme(next);
+  }
+
+  // Initialize
+  updateIcon(getTheme());
+  toggle.addEventListener('click', cycleTheme);
+})();
+</script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"42c41055028944ee9764ce8039f69a82","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

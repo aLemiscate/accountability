@@ -1,0 +1,185 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 65596,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2026-09-01T18:03:14.000Z",
+  "display_text_range": [
+    0,
+    130
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/8P9PSrWPi3",
+        "expanded_url": "https://x.com/claudeai/status/2094848572143407483/video/1",
+        "indices": [
+          131,
+          154
+        ],
+        "url": "https://t.co/8P9PSrWPi3"
+      }
+    ]
+  },
+  "id_str": "2094848572143407483",
+  "text": "We’re introducing Claude Fable 5.1 and Claude Mythos 5.1.\n\nThey're the world’s most advanced models for coding and knowledge work. https://t.co/8P9PSrWPi3",
+  "user": {
+    "id_str": "1943306828697550848",
+    "name": "Claude",
+    "screen_name": "claudeai",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_normal.jpg",
+    "highlighted_label": {
+      "badge": {
+        "url": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_bigger.jpg"
+      },
+      "description": "Anthropic",
+      "url": {
+        "url": "https://twitter.com/AnthropicAI",
+        "url_type": "DeepLink"
+      },
+      "user_label_display_type": "Badge",
+      "user_label_type": "BusinessLabel"
+    }
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2094848572143407483"
+    ],
+    "editable_until_msecs": "1788289394000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "mediaDetails": [
+    {
+      "additional_media_info": {},
+      "display_url": "pic.x.com/8P9PSrWPi3",
+      "expanded_url": "https://x.com/claudeai/status/2094848572143407483/video/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        131,
+        154
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/HRJlwmVWcAEyYzf.jpg",
+      "original_info": {
+        "focus_rects": [],
+        "height": 1620,
+        "width": 1620
+      },
+      "sizes": {
+        "large": {
+          "h": 1620,
+          "resize": "fit",
+          "w": 1620
+        },
+        "medium": {
+          "h": 1200,
+          "resize": "fit",
+          "w": 1200
+        },
+        "small": {
+          "h": 680,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "video",
+      "url": "https://t.co/8P9PSrWPi3",
+      "video_info": {
+        "aspect_ratio": [
+          1,
+          1
+        ],
+        "duration_millis": 27375,
+        "variants": [
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/amplify_video/2094843261470793728/pl/fsxycmNGHUJsj3jf.m3u8?v=cfc"
+          },
+          {
+            "bitrate": 432000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2094843261470793728/vid/avc1/320x320/uaptuqgbE6nO7gCB.mp4"
+          },
+          {
+            "bitrate": 832000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2094843261470793728/vid/avc1/540x540/1NuNTRt6RSpeZyQL.mp4"
+          },
+          {
+            "bitrate": 1280000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2094843261470793728/vid/avc1/720x720/xnXLvn6WoYFqNGXU.mp4"
+          },
+          {
+            "bitrate": 8768000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2094843261470793728/vid/avc1/1080x1080/9vFC6XxGV5ljJgnq.mp4"
+          },
+          {
+            "bitrate": 25128000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2094843261470793728/vid/avc1/2160x2160/GEnONyeW_6cMSzmW.mp4"
+          }
+        ]
+      }
+    }
+  ],
+  "photos": [],
+  "video": {
+    "aspectRatio": [
+      1,
+      1
+    ],
+    "contentType": "media_entity",
+    "durationMs": 27375,
+    "mediaAvailability": {
+      "status": "available"
+    },
+    "poster": "https://pbs.twimg.com/media/HRJlwmVWcAEyYzf.jpg",
+    "variants": [
+      {
+        "type": "application/x-mpegURL",
+        "src": "https://video.twimg.com/amplify_video/2094843261470793728/pl/fsxycmNGHUJsj3jf.m3u8?v=cfc"
+      },
+      {
+        "type": "video/mp4",
+        "src": "https://video.twimg.com/amplify_video/2094843261470793728/vid/avc1/320x320/uaptuqgbE6nO7gCB.mp4"
+      },
+      {
+        "type": "video/mp4",
+        "src": "https://video.twimg.com/amplify_video/2094843261470793728/vid/avc1/540x540/1NuNTRt6RSpeZyQL.mp4"
+      },
+      {
+        "type": "video/mp4",
+        "src": "https://video.twimg.com/amplify_video/2094843261470793728/vid/avc1/720x720/xnXLvn6WoYFqNGXU.mp4"
+      },
+      {
+        "type": "video/mp4",
+        "src": "https://video.twimg.com/amplify_video/2094843261470793728/vid/avc1/1080x1080/9vFC6XxGV5ljJgnq.mp4"
+      },
+      {
+        "type": "video/mp4",
+        "src": "https://video.twimg.com/amplify_video/2094843261470793728/vid/avc1/2160x2160/GEnONyeW_6cMSzmW.mp4"
+      }
+    ],
+    "videoId": {
+      "type": "tweet",
+      "id": "2094848572143407483"
+    },
+    "viewCount": 0
+  },
+  "conversation_count": 2887,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

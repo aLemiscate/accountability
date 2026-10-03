@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/OpenAI/status/1620484691462852609",
+  "captured_at": "2026-10-03T13:05:43.308Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "5295241252b9816c3707c248cb9ac9c6f06dea281fcb18dbf1ecce483c289880",
+    "page.txt": "a94a710405d24a3d72ab9cb19699027c73cba16c439e0c282c91f82a1d88882f",
+    "post.json": "66a0e8c83ec8e9db8993ae37c4c8bdc42b6a20d07c7bc25ed7f7af664749ebc1",
+    "syndication.json": "c401f45c3dc531e9b6a5f3a1a680c5708651129628e028d83451ebdcd9cadcc1",
+    "post.txt": "b6a7166260ba39ae7ab306d0e3c291fc8530c9f589f0ffa62a50685824643394"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1620484691462852609",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"We’re developing a new tool to help distinguish between AI-written and human-written text. We’re releasing an initial version to collect feedback and hope to share improved methods in the future. https://t.co/4dQE3dX6vX\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "January 31, 2023",
+    "posted_at": "2023-01-31T18:10:32.251Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20250725050638/https://x.com/openai/status/1620484691462852609",
+    "timestamp": "20250725050638",
+    "method": "existing"
+  }
+}

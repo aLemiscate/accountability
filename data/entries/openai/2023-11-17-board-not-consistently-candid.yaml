@@ -50,11 +50,11 @@ updates:
       board, named three new directors, and adopted new corporate governance
       guidelines, a stronger conflict-of-interest policy, a whistleblower
       hotline and new board committees. Former directors Helen Toner and Tasha
-      McCauley said in a joint statement: "We hope the new board does its job
-      in governing OpenAI and holding it accountable to the mission," adding
-      that "deception, manipulation, and resistance to thorough oversight should
-      be unacceptable." The Associated Press noted that OpenAI did not release
-      the full report.
+      McCauley said in a joint statement: "We hope the new board does its job in
+      governing OpenAI and holding it accountable to the mission," adding that
+      "deception, manipulation, and resistance to thorough oversight should be
+      unacceptable." The Associated Press noted that OpenAI did not release the
+      full report.
     sources:
       - title: Review completed & Altman, Brockman to continue to lead OpenAI
         publisher: OpenAI
@@ -68,12 +68,15 @@ updates:
         url: https://x.com/hlntnr/status/1766269137628590185
         date: 2024-03-08
         type: primary
+        archive: https://web.archive.org/web/20240712130324/https://x.com/hlntnr/status/1766269137628590185
+        snapshot: snapshots/2026-10-03-x.com-fb6f4b15
       - title: OpenAI has 'full confidence' in CEO Sam Altman after investigation,
           reinstates him to board
         publisher: Associated Press (via WSLS)
         url: https://www.wsls.com/business/2024/03/08/openai-has-full-confidence-in-ceo-sam-altman-after-investigation-reinstates-him-to-board/
         date: 2024-03-08
         type: reporting
+        snapshot: snapshots/2026-10-03-wsls.com-6318ccff
   - date: 2024-05
     text: >-
       Former board member Helen Toner gave her account on the TED AI Show
@@ -137,27 +140,36 @@ updates:
         url: https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted
         date: 2026-04-06
         type: reporting
+        snapshot: snapshots/2026-10-03-newyorker.com-acda40e9
       - title: Ronan Farrow on X ("none was written")
         publisher: X
         url: https://x.com/RonanFarrow/status/2046586584699384061
         date: 2026-04-21
         type: primary
+        archive: https://web.archive.org/web/20260519223049/https://x.com/RonanFarrow/status/2046586584699384061
+        snapshot: snapshots/2026-10-03-x.com-a3745eeb
       - title: 'Lawfare Daily: Sam Altman with Ronan Farrow and Andrew Marantz'
         publisher: Lawfare
         url: https://www.lawfaremedia.org/article/lawfare-daily--sam-altman-with-ronan-farrow-and-andrew-marantz
         date: 2026-04-14
         type: reporting
+        archive: https://web.archive.org/web/20260414200357/https://www.lawfaremedia.org/article/lawfare-daily--sam-altman-with-ronan-farrow-and-andrew-marantz
+        snapshot: snapshots/2026-10-03-lawfaremedia.org-143042ce
       - title: Inside the memos behind OpenAI's safety retreat
         publisher: Tech Brew
         url: https://www.techbrew.com/stories/openai-sam-altman-memos-newyorker
         date: 2026-04-06
         type: reporting
+        archive: https://web.archive.org/web/20260616055054/https://www.techbrew.com/stories/openai-sam-altman-memos-newyorker
+        snapshot: snapshots/2026-10-03-techbrew.com-e102982e
       - title: Sam Altman responds to 'incendiary' New Yorker article after attack on
           his home
         publisher: TechCrunch
         url: https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/
         date: 2026-04-11
         type: reporting
+        archive: https://web.archive.org/web/20261003091845/https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/
+        snapshot: snapshots/2026-10-03-techcrunch.com-709900e7
   - date: 2026-05-06
     text: >-
       In a video deposition played at the Musk v. Altman trial, former CTO Mira

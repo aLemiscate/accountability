@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/boazbaraktcs/status/2027932587788759293",
+  "captured_at": "2026-10-03T14:22:07.893Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "06da8db7c17cde33b705e323af23302fe40dff200cb66462d0fe161969b56fde",
+    "page.txt": "01941bfa03506f0e270b7a72a38ce91c5ca98be19ccc75597e8219f2ce308e23",
+    "post.json": "f56ea112c0ed254e1a23de205ad948cc954a144fd1228dff35e6ae306d048ce3",
+    "syndication.json": "6813d30151d2a488ca53bce6e223544d80a4a6e1c4e758133a917c06c595163f",
+    "post.txt": "2d14f1ba0130440bcf253afd3fe82f710bb86910bcc288a7a6231a2aab14c5f4"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/boazbaraktcs/status/2027932587788759293",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Boaz Barak on X: \"The DoW has not asked us to support collection or analysis of bulk data on Americans, such as geolocation data, web browsing data and personal financial information purchased from data brokers, and our agreement does not permit it. Our agreement does not permit uses of our models… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Boaz Barak (@boazbaraktcs)",
+    "date": "March 1, 2026",
+    "posted_at": "2026-03-01T02:23:00.751Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260305095022/https://x.com/boazbaraktcs/status/2027932587788759293",
+    "timestamp": "20260305095022",
+    "method": "existing"
+  }
+}

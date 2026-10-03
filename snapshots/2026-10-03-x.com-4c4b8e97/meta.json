@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/AmandaAskell/status/1995610567923695633",
+  "captured_at": "2026-10-03T12:25:32.877Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "497e51b3d6778aad380828d079090aa73f0e273b497aa11c49ce1b7abe0be8ed",
+    "page.txt": "388d5871cf32aa23f3a2d21f86d560a9747002abb3dc9a2d7a4922b291aa4976",
+    "post.json": "76136741e9df70b166e48b10bbcdb0dc02ef6a1ef2c78f6b41dd0f01a346fb77",
+    "syndication.json": "8824da8573ac7397920af1898f0cc55b59186c505ad8cc58024ce858115c8e7c",
+    "post.txt": "751edcf704734475352cef2b987d6b46dcedd3b17f536e5956d9842f0ec68c38"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/AmandaAskell/status/1995610567923695633",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Amanda Askell on X: \"I just want to confirm that this is based on a real document and we did train Claude on it, including in SL. It's something I've been working on for a while, but it's still being iterated on and we intend to release the full version and more details soon.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Amanda Askell (@AmandaAskell)",
+    "date": "December 1, 2025",
+    "posted_at": "2025-12-01T21:46:50.701Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260308070135/https://x.com/AmandaAskell/status/1995610567923695633",
+    "timestamp": "20260308070135",
+    "method": "existing"
+  }
+}

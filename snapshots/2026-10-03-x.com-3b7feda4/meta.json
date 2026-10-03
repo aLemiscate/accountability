@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/janleike/status/1890141868195037251",
+  "captured_at": "2026-10-03T12:11:03.337Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "8394b4102a95dd51652e8118bf7c028d00deaa41bda62ac65affa73aad654904",
+    "page.txt": "3411a9d5c0a15f3528d60d30c5606c62ede09e61893d7f64fb87602663344d55",
+    "post.json": "ad18deef5003782e4cf1b9f31b1000f9808b535be5a46c94f30d5e71b327911c",
+    "syndication.json": "6d8b6f46184984ceee39adcea8c02bc3bc89a4973cc446948581adbafd361a37",
+    "post.txt": "9b06a1a103fdbc950522b68dd364ddb994ccc6faf0acaca2a8f7b6f8b5008186"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/janleike/status/1890141868195037251",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Jan Leike on X: \"As models get more capable, robustness to jailbreaks becomes a key safety requirement to protect against misuse related to chemical, biological, radiological, and nuclear risks. Our demo showed classifiers can help mitigate these risks, but need to be combined with other methods.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Jan Leike (@janleike)",
+    "date": "February 13, 2025",
+    "posted_at": "2025-02-13T20:51:53.172Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260411160238/https://x.com/janleike/status/1890141868195037251",
+    "timestamp": "20260411160238",
+    "method": "existing"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 2624,
+  "lang": "en",
+  "created_at": "2026-09-08T06:43:05.000Z",
+  "display_text_range": [
+    0,
+    276
+  ],
+  "entities": {},
+  "id_str": "2097214122471432349",
+  "text": "A series of false and inflammatory allegations against me are currently circulating on social channels. To clarify, I came into the discussion following academic norms, and I'm disappointed that it has come to this. Anyone who knows me knows that academic standards are of the",
+  "user": {
+    "id_str": "452384386",
+    "name": "Sebastien Bubeck",
+    "screen_name": "SebastienBubeck",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1709609135321583616/6bXuF85D_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2097214122471432349"
+    ],
+    "editable_until_msecs": "1788853385000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 349,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDk3MjE0MTIyNDEyNjM4MjA4"
+  }
+}

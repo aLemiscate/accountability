@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/OpenAI/status/1707077711192297502",
+  "captured_at": "2026-10-03T13:20:27.230Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "3f30047fdd2b0680fb1ca896849c9fd088655a0e289344f9a2e275328547c0bf",
+    "page.txt": "92a3110afe40fbb081a0df238f5baf8eb388764b57f06e4ec9649aa46599033f",
+    "post.json": "7926a404ace8dbb54c4a0f242b30b9f02e11f2f601181efb2b19dacc7b84b313",
+    "syndication.json": "273911f096b84d9224af4182502687ffccc972051573aa99f83071c1cd2613c4",
+    "post.txt": "514d7f353a6ff9b253546d89c79705f9c5b49a05b81777630b97165af5dd5029"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1707077711192297502",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"Since the original launch of browsing in May, we received useful feedback. Updates include following robots.txt and identifying user agents so sites can control how ChatGPT interacts with them.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "September 27, 2023",
+    "posted_at": "2023-09-27T17:00:16.975Z"
+  },
+  "rendered_status": 403,
+  "archive": null
+}

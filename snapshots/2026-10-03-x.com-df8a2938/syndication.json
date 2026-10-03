@@ -1,0 +1,81 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 62,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2026-05-08T18:39:07.000Z",
+  "display_text_range": [
+    0,
+    92
+  ],
+  "entities": {
+    "urls": [
+      {
+        "display_url": "x.com/AnthropicAI/st…",
+        "expanded_url": "https://x.com/AnthropicAI/status/2052808787514228772?s=20",
+        "indices": [
+          69,
+          92
+        ],
+        "url": "https://t.co/hNowXMT6Bn"
+      }
+    ]
+  },
+  "id_str": "2052820607595868514",
+  "text": "I don't see where the \"completely eliminated\" part is substantiated? https://t.co/hNowXMT6Bn",
+  "user": {
+    "id_str": "1214528593",
+    "name": "Miles Brundage",
+    "screen_name": "Miles_Brundage",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2089462134828871680/cW8--1eS_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2052820607595868514"
+    ],
+    "editable_until_msecs": "1778269147000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 6,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 9096,
+    "lang": "en",
+    "reply_count": 554,
+    "retweet_count": 789,
+    "created_at": "2026-05-08T17:52:08.000Z",
+    "display_text_range": [
+      0,
+      205
+    ],
+    "entities": {},
+    "id_str": "2052808787514228772",
+    "text": "New Anthropic research: Teaching Claude why.\n\nLast year we reported that, under certain experimental conditions, Claude 4 would blackmail users.\n\nSince then, we’ve completely eliminated this behavior. How?",
+    "user": {
+      "id_str": "1353836358901501952",
+      "name": "Anthropic",
+      "screen_name": "AnthropicAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2052808787514228772"
+      ],
+      "editable_until_msecs": "1778266328000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://x.com/Miles_Brundage/status/1191771901326004224",
+  "captured_at": "2026-10-03T12:54:52.066Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "b5f48979f980ef54f90d30e47aaf80cf76c32588e50bc1f0e59b2f5175f4fd31",
+    "page.txt": "7531ebf5f08c5e9066fd8b871b0f60e13d1bcb6b7101f0522e8f7a44ccb47eb3",
+    "post.json": "409ea95ae740054556be0843b0e814cad14f10a0b2290d8b951fe82e4722d230",
+    "syndication.json": "234651d0c675f517970a93996ca4fdd2a002550035d1625c5ff14f6ceb3da153",
+    "quoted-media-1.jpg": "0a9244edcf01235ebfabf485c5f0d7729a39b88ce4beff62e46808bba3e1c6d8",
+    "post.txt": "ac7ac4133ae370738bd1e81d484cac076ebeeb3a6d381b45ecf0995b8a8ab79c"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/Miles_Brundage/status/1191771901326004224",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Miles Brundage on X: \"Really excited to be sharing out latest and final report on GPT-2, which is being published alongside the 1.5B model and an improved detection baseline. Some brief reflections on the GPT-2 journey this year (thread): https://t.co/Rk7O1yreRN\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Miles Brundage (@Miles_Brundage)",
+    "date": "November 5, 2019",
+    "posted_at": "2019-11-05T17:38:57.984Z",
+    "media": [
+      {
+        "file": "quoted-media-1.jpg",
+        "url": "https://pbs.twimg.com/media/EIn0S86U8AAKLwr.jpg"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": null
+}

@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/sama/status/1691504238294429696",
+  "captured_at": "2026-10-03T13:17:18.797Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "93ca856ccd8d4840f96819d44d564a949c7b028a8b16d8aa5db4db1dbabee862",
+    "page.txt": "8657a58e99a1028eb7dcbd44c48e14188528814961f33dff86ecbd4c967efd01",
+    "post.json": "2c63105920487f92e45073a5010b573de4249eacac4f06968ee12d6a69977913",
+    "syndication.json": "65305d1926532ab6f99f124b3588e624589fb38f764ea767599fb97734b787bd",
+    "post.txt": "2a0eb07a1be601ad7966bb4bd430768b8e98669f23495b59e6af98eb24458369"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1691504238294429696",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"seeing a lot of confusion about this, so for clarity: openai never trains on anything ever submitted to the api or uses that data to improve our models in any way.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "August 15, 2023",
+    "posted_at": "2023-08-15T17:36:51.695Z"
+  },
+  "rendered_status": 403,
+  "archive": null
+}

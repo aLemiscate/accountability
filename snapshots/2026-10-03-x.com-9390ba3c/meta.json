@@ -1,0 +1,36 @@
+{
+  "url": "https://x.com/leopoldasch/status/1735348551826227452",
+  "captured_at": "2026-10-03T13:40:52.508Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "6f39d5c85ce08830ea5adc57a17684c1e9ce5f9d873a7fb4eaac965f8ecae9c1",
+    "page.txt": "7fd34928579ce302d95a41370dc40aed72aa270d6c2dcbd79f419228fa6fee0c",
+    "post.json": "a93cfd774e9fa23cdab75c85e303d68311d9e5bb2feb89ba34ef6eb858c084ac",
+    "syndication.json": "ddfef399a33a7355fbab4227c3a96e4144c094ebd046ef68e2e5f42363a2f611",
+    "media-1.jpg": "b4411cc12dd9edc4371d9c56ebd250e3824b86ddba2c3116b53d363d0d948d3a",
+    "post.txt": "44f0b84ab06cfd1bc0fd4ff51939e74dd15be9fb36ce147966b4f5097e89a372"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/leopoldasch/status/1735348551826227452",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Leopold Aschenbrenner on X: \"RLHF works great for today's models. But aligning future superhuman models will present fundamentally new challenges. We need new approaches + scientific understanding. New researchers can make enormous contributions—and we want to fund you! Apply by Feb 18!\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Leopold Aschenbrenner (@leopoldasch)",
+    "date": "December 14, 2023",
+    "posted_at": "2023-12-14T17:18:30.629Z",
+    "media": [
+      {
+        "file": "media-1.jpg",
+        "url": "https://pbs.twimg.com/media/GBUx5wBXMAAl5Od.jpg"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20240709230536/https://x.com/leopoldasch/status/1735348551826227452",
+    "timestamp": "20240709230536",
+    "method": "existing"
+  }
+}

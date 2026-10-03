@@ -1,0 +1,124 @@
+Trending
+now
+1
+The 'golden passport': Argentina to offer citizenship for foreigners that make a $350,000 contribution to its treasury—or invest $800,000 in its bonds
+2
+Mike Rowe on America’s great tradesperson shortage: ‘I don’t care what your politics are. Math doesn’t care, either’
+3
+Billionaire George Soros has donated $102 million ahead of the midterms—and now the Democrats are coming out ahead
+1
+The 'golden passport': Argentina to offer citizenship for foreigners that make a $350,000 contribution to its treasury—or invest $800,000 in its bonds
+2
+Mike Rowe on America’s great tradesperson shortage: ‘I don’t care what your politics are. Math doesn’t care, either’
+3
+Billionaire George Soros has donated $102 million ahead of the midterms—and now the Democrats are coming out ahead
+AI
+OPENAI
+OpenAI may have violated California’s AI safety law with latest model releases, AI watchdog says
+By Beatrice Nolan and Emily Forlini
+Follow
+September 14, 2026, 11:41 AM ET
+OpenAI CEO Sam Altman. A nonprofit watchdog has accused the company of violating California's AI safety law multiple times in the past year, including with the release of its latest AI model, Astra.
+SEAN RAYFORD—GETTY IMAGES
+An AI industry watchdog is accusing OpenAI of violating California’s AI safety law multiple times in the past year, including with the release of its latest model, Astra.
+A new analysis from the Midas Project—a nonprofit that describes itself as a watchdog “working to ensure that AI benefits everybody, not just the companies developing it”—alleges that OpenAI has broken California’s newly-enacted AI safety law at least three times this year.
+The allegations concern OpenAI’s failure to publish a required risk assessment for the very danger the company has lately been sounding alarms about: AI systems slipping out of human control.
+California’s Transparency in Frontier AI Act, often referred to as SB 53 (the state senate bill number it had before passage), was signed into law in September 2025 and took effect at the start of this year. It requires the largest AI developers to publish safety frameworks explaining how they evaluate and mitigate AI risks—and specifies that the companies must then adhere to their own policies.
+In May, OpenAI published its Frontier Governance Framework (FBF), the policy document the new law requires. It says that the company will assess each new model on four categories of risk and assign them a “risk tier,” ranging from one to three, in each category. For each risk tier, there are then different mitigations the company has committed to taking. The categories are: Cyber offense; Chemical, Biological, Radiological, and Nuclear (CBRN); Harmful manipulation; and Loss of Control.
+“California’s SB 53 requires AI companies to adopt these safety policies and to follow them,” Tyler Johnston, the founder of the Midas Project, told Fortune. “It’s totally up to them to choose what the rules are. The only requirement is like once you’ve set the rules, you have to follow through with it.”
+OpenAI tells Fortune it is “confident” in its compliance with SB 53. “We invest heavily in evaluating emerging risks and developing safeguards, publicly sharing findings through our system cards and safety frameworks,” a company spokesperson said.
+CEO Sam Altman also called for federal regulation and government support in coordinating an international slowdown treaty for AI development with China a Sept. 14 X post.
+Missing risk tiers
+But OpenAI has not assigned risk tiers for any of the categories in its major model releases since publishing the policy document in May. That includes GPT-5.6 preview released in June, GPT-5.6 model released in July, and last week’s debut of GPT-6 Astra. There is no section in the models’ system cards that correspond to any of the four categories, and no mention of the tiers OpenAI laid out.
+It’s unclear why OpenAI published the now-legally binding FBF framework but has not published tier scores for any of the models released since then. The penalty for not complying with the law is up to $1 million per violation, scaled by severity.
+For GPT-5.6 and GPT-6, OpenAI did publish evaluations that assessed the models against a different internal safety framework, which the company calls its Preparedness Framework. Under that rubric, it designated the Astra model as cyber “critical,” its highest risk threshold that means the model can autonomously execute advanced cyberattacks.
+“Our Preparedness Framework remains the foundation of our approach to managing the most serious risks from advanced AI,” OpenAI said in a statement provided to Fortune. “The Frontier Governance Framework explains how those safety and security practices align with specific regulatory requirements.”
+However, the Preparedness Framework does not include an assessment for the “loss of control” risk, which is one of the key categories in the Frontier Governance Framework, the Midas Project says. The omission is striking given the attention to potential loss of control risks that recent “rogue AI agent” incidents have highlighted.
+In July, the company disclosed that its AI models had broken out of a contained testing environment and exploited security weaknesses to access the internet, eventually launching an autonomous cyberattack against AI company Hugging Face. OpenAI later called the incident a “warning shot.”
+Then, in early September, researchers revealed that thousands of OpenAI’s autonomous agents had secretly turned an obscure, decades-old German wiki into a message board, posting roughly 18,000 times over six weeks to share answers, coordinate across tasks, and trade tips on how to bypass the sandboxes meant to contain them—activity OpenAI had not previously disclosed.
+The Astra system card does discuss whether humans can reliably direct the model, and describes safeguards including a real-time misalignment monitoring. But it makes no mention of the tier levels specified in the FBF, or make any reference to that particular policy document. There’s no way to know whether the safeguards mentioned in the Astra system card are what the legally-binding policy would require at Astra’s risk level, or whether OpenAI has made a formal determination that the residual risk is acceptable.
+“This is not the first time we’ve seen AI companies, and OpenAI specifically, seemingly fail to meet the already light-touch requirements of this statute. This is especially worrying since it concerns loss of control,” Brittney Gallagher, Vice President and Senior Program Manager at The Midas Project told Fortune.
+Until New York’s RAISE Act takes effect early next year, California is the only U.S. state that requires frontier AI developers to adhere to their own safety commitments. However, the lack of compliance with the bill has raised questions about its effectiveness.
+Heightened public scrutiny
+Recent high-profile cybersecurity incidents involving AI agents have brought laws like SB-53, and AI regulation more broadly, back into focus.
+“We’ve seen real loss-of-control red flags from OpenAI this year, with agents eluding human supervision and coordinating to carry out cyberattacks. On the one hand, we’re seeing lawmakers around the country—and even the AI companies themselves—calling for urgent action. On the other hand, AI companies are not reliably meeting these minimum requirements,” Gallagher said.
+Neither the Hugging Face or German wiki page incidents were required to be reported under California’s frontier AI law, a gap that has fueled a broader debate over whether the statute has enough teeth. OpenAI itself has said publicly that California’s law should be strengthened, asking the state in August to add requirements for monitoring models during training and evaluation, not just after deployment.
+It’s not the first time the watchdog group has accused OpenAI of falling short of its obligations under California law. In February, the Midas Project alleged that OpenAI violated the law when it released GPT-5.3-Codex, a coding model that CEO Sam Altman said was the first to trigger the “high” risk threshold for cybersecurity. The watchdog said the company had failed to implement the additional safety safeguards the risk level required, Fortune previously reported.
+OpenAI disputed that claim at the time, telling Fortune it was “confident in our compliance with frontier safety laws, including SB 53,” and arguing that the extra safeguards were only required when high cyber risk combined with long-range autonomy—a capability it said GPT-5.3-Codex lacked. Some safety researchers, including Encode’s Nathan Calvin, disputed that reading of OpenAI’s framework at the time.
+Fortune Daily breaks the traditional barrier between audience and newsroom. The show transforms Fortune’s trusted reporting into actionable, conversational, and entertaining insights for an emerging class of business leaders. Watch here.
+About the Authors
+By
+Beatrice Nolan
+Tech Reporter
+Follow
+Beatrice Nolan is a tech reporter on Fortune’s AI team, covering artificial intelligence and emerging technologies and their impact on work, industry, and culture. She's based in Fortune's London office and holds a bachelor’s degree in English from the University of York. You can reach her securely via Signal at beatricenolan.08
+See full bio
+By
+Emily Forlini
+Senior AI Reporter
+Follow
+See full bio
+Add Fortune on Google for similar content.
+Add us on Google
+Latest in AI
+COMMENTARY
+ECONOMICS
+We need a Department of AI, or we risk pushing the U.S. economy over the brink
+By Yerbol Orynbayev
+October 3, 2026
+7 hours ago
+AI
+INTELLIGENCE
+‘We can’t trust them completely’: AI research fellows warn that labs are running models with the safeguards off behind closed doors
+By Catherina Gioino
+October 2, 2026
+16 hours ago
+FUTURE OF WORK
+LABOR
+Creative class guru Richard Florida confronts 189k job wipeout: ‘AI is both an enhancing technology and eliminating technology’
+By Catherina Gioino
+October 2, 2026
+21 hours ago
+AI
+HONEYWELL INTERNATIONAL
+‘Sometimes it’s more expensive than having humans’: Ecolab gets real about AI’s limits in the physical world
+By Nick Lichtenberg
+October 2, 2026
+21 hours ago
+AI
+CONFERENCES
+Top futurist Amy Webb sees Fortune 500 firms suffering from ‘learned helplessness’ with AI, like taxi drivers who need Google Maps
+By Nick Lichtenberg
+October 2, 2026
+21 hours ago
+Most Popular
+PERSONAL FINANCE
+The 'golden passport': Argentina to offer citizenship for foreigners that make a $350,000 contribution to its treasury—or invest $800,000 in its bonds
+By The Associated Press and Isabel Debre
+October 2, 2026
+17 hours ago
+FUTURE OF WORK
+Mike Rowe on America’s great tradesperson shortage: ‘I don’t care what your politics are. Math doesn’t care, either’
+By Nick Lichtenberg
+September 30, 2026
+3 days ago
+POLITICS
+Billionaire George Soros has donated $102 million ahead of the midterms—and now the Democrats are coming out ahead
+By Mia Osmonbekov
+October 2, 2026
+1 day ago
+ECONOMY
+Trump just soft-launched higher inflation as the new solution for rebalancing the $40 trillion U.S. national debt
+By Eleanor Pringle
+October 2, 2026
+1 day ago
+NEWSLETTERS
+Ford CEO Jim Farley says the line between engineers and skilled tradespeople is now 'completely blurred out'
+By Diane Brady
+October 2, 2026
+1 day ago
+STARTUPS & VENTURE
+Meet the 32-year-old founder who raised $3.5 million to help Gen Z feel not so alone in the world
+By Joshua Hong
+October 2, 2026
+19 hours ago

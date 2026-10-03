@@ -7,47 +7,55 @@ kind: commitment
 who: [dario-amodei, anthropic]
 venue: Essay, "The Urgency of Interpretability"
 quote: >-
-  Anthropic is doubling down on interpretability, and we have a goal of
-  getting to “interpretability can reliably detect most model problems” by
-  2027.
+  Anthropic is doubling down on interpretability, and we have a goal of getting
+  to “interpretability can reliably detect most model problems” by 2027.
 summary: >-
   Amodei argued that AI systems equivalent to "a country of geniuses in a
   datacenter" could arrive "as soon as 2026 or 2027," that deploying them
   without understanding how they work would be "basically unacceptable," and
-  that interpretability was in a race with model capability. He set a dated
-  goal for Anthropic and described the end state as something like a brain
-  scan of a model, able to identify "tendencies to lie or deceive,
-  power-seeking, flaws in jailbreaks" and more, which he said would likely be
-  a key part of testing and deploying models at AI Safety Level 4. Anthropic's
-  interpretability work since has included tools it used in safety testing of
-  new models, such as the natural-language autoencoders it described in May
-  2026.
+  that interpretability was in a race with model capability. He set a dated goal
+  for Anthropic and described the end state as something like a brain scan of a
+  model, able to identify "tendencies to lie or deceive, power-seeking, flaws in
+  jailbreaks" and more, which he said would likely be a key part of testing and
+  deploying models at AI Safety Level 4. Anthropic's interpretability work since
+  has included tools it used in safety testing of new models, such as the
+  natural-language autoencoders it described in May 2026.
 concreteness: directional
 status: open
 breaks_if: >-
   The end of 2027 passes without Anthropic showing interpretability detecting
-  most problems in its frontier models, and without saying it missed the
-  goal; or Anthropic releases ASL-4 models without the interpretability-based
-  checks it described.
+  most problems in its frontier models, and without saying it missed the goal;
+  or Anthropic releases ASL-4 models without the interpretability-based checks
+  it described.
 patterns: [unfalsifiable]
-related: [2025-03-06-anthropic-powerful-ai-late-2026, 2025-10-29-automated-research-intern-goal]
+related:
+  [
+    2025-03-06-anthropic-powerful-ai-late-2026,
+    2025-10-29-automated-research-intern-goal
+  ]
 sources:
   - title: The Urgency of Interpretability
     publisher: Dario Amodei
     url: https://www.darioamodei.com/post/the-urgency-of-interpretability
     date: 2025-04
     type: primary
+    archive: https://web.archive.org/web/20260925170610/https://darioamodei.com/post/the-urgency-of-interpretability
+    snapshot: snapshots/2026-10-03-darioamodei.com-cc9771a7
   - title: Dario Amodei on X (linking "The Urgency of Interpretability")
     publisher: X
     url: https://x.com/DarioAmodei/status/1915515160607023391
     date: 2025-04-24
     type: primary
-  - title: Anthropic on X ("We’ve been using NLAs to help test new Claude models
-      for safety")
+    archive: https://web.archive.org/web/20250607174129/https://x.com/DarioAmodei/status/1915515160607023391
+    snapshot: snapshots/2026-10-03-x.com-deb2fac9
+  - title: Anthropic on X ("We’ve been using NLAs to help test new Claude models for
+      safety")
     publisher: X
     url: https://x.com/AnthropicAI/status/2052435442348257768
     date: 2026-05-07
     type: primary
+    archive: https://web.archive.org/web/20260507204708/https://x.com/anthropicai/status/2052435442348257768
+    snapshot: snapshots/2026-10-03-x.com-4e60484b
 note: >-
   "Most model problems" has no published measure, which makes this hard to
   grade. The record will hold Anthropic to the description in the essay.

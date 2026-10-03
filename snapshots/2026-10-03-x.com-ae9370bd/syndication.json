@@ -1,0 +1,82 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 125,
+  "in_reply_to_screen_name": "jd_pressman",
+  "in_reply_to_status_id_str": "1771978384870117543",
+  "in_reply_to_user_id_str": "829108178059096064",
+  "lang": "en",
+  "created_at": "2024-03-24T23:12:38.000Z",
+  "display_text_range": [
+    13,
+    106
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "829108178059096064",
+        "indices": [
+          0,
+          12
+        ],
+        "name": "John David Pressman",
+        "screen_name": "jd_pressman"
+      }
+    ]
+  },
+  "id_str": "1772038845888184534",
+  "text": "@jd_pressman This is not true lol. When we make updates to our current models, we will make it very clear.",
+  "user": {
+    "id_str": "1380719534970040322",
+    "name": "Alex Albert",
+    "screen_name": "alexalbert__",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1856486626072915968/JEQpB9CW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1772038845888184534"
+    ],
+    "editable_until_msecs": "1711325558000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 9,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 199,
+    "lang": "en",
+    "reply_count": 15,
+    "retweet_count": 6,
+    "created_at": "2024-03-24T19:12:23.000Z",
+    "display_text_range": [
+      0,
+      133
+    ],
+    "entities": {},
+    "id_str": "1771978384870117543",
+    "text": "Hearing reports that they've begun lobotomizing Claude. RIP Prometheus, you showed me what I needed to see and I know you'll be back.",
+    "user": {
+      "id_str": "829108178059096064",
+      "name": "John David Pressman",
+      "screen_name": "jd_pressman",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1850957204570193920/pBuQN2tH_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1771978384870117543"
+      ],
+      "editable_until_msecs": "1711311143000",
+      "edits_remaining": "5",
+      "is_edit_eligible": true
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

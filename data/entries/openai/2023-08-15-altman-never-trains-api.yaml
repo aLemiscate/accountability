@@ -6,8 +6,8 @@ kind: claim
 who: [sam-altman, openai]
 venue: Post on X
 quote: >-
-  openai never trains on anything ever submitted to the api or uses that data
-  to improve our models in any way.
+  openai never trains on anything ever submitted to the api or uses that data to
+  improve our models in any way.
 summary: >-
   Five months earlier, on March 1, 2023, OpenAI had changed its API terms so
   that data sent through the API would not be used for "service improvements,"
@@ -22,7 +22,11 @@ summary: >-
   policy from March 2023 on.
 concreteness: measurable
 status: contradicted
-related: [2020-07-22-gpt-3-api-safety-review, 2025-08-28-consumer-data-training-default]
+related:
+  [
+    2020-07-22-gpt-3-api-safety-review,
+    2025-08-28-consumer-data-training-default
+  ]
 sources:
   - title: Sam Altman on X ("openai never trains on anything ever submitted to the
       api")
@@ -30,29 +34,36 @@ sources:
     url: https://x.com/sama/status/1691504238294429696
     date: 2023-08-15
     type: primary
+    snapshot: snapshots/2026-10-03-x.com-f243beb2
   - title: Sam Altman on X ("data submitted to the OpenAI API is not used for
       training")
     publisher: X
     url: https://x.com/sama/status/1631002519311888385
     date: 2023-03-01
     type: primary
+    snapshot: snapshots/2026-10-03-x.com-aa8b6e7f
   - title: Addressing criticism, OpenAI will no longer use customer data to train
       its models by default
     publisher: TechCrunch
     url: https://techcrunch.com/2023/03/01/addressing-criticism-openai-will-no-longer-use-customer-data-to-train-its-models-by-default/
     date: 2023-03-01
     type: reporting
+    archive: https://web.archive.org/web/20261003125759/https://techcrunch.com/2023/03/01/addressing-criticism-openai-will-no-longer-use-customer-data-to-train-its-models-by-default/
+    snapshot: snapshots/2026-10-03-techcrunch.com-f529fc30
   - title: Data controls in the OpenAI platform
     publisher: OpenAI
     url: https://developers.openai.com/api/docs/guides/your-data
     date: 2026-10-03
     type: primary
+    snapshot: snapshots/2026-10-03-developers.openai.com-2aca780a
   - title: OpenAI Clarifies its Data Privacy Practices for API Users
     publisher: Maginative
     url: https://www.maginative.com/article/openai-clarifies-its-data-privacy-practices-for-api-users/
     date: 2023
     type: reporting
+    archive: https://web.archive.org/web/20261003131955/https://www.maginative.com/article/openai-clarifies-its-data-privacy-practices-for-api-users/
+    snapshot: snapshots/2026-10-03-maginative.com-e18163b4
 note: >-
-  Accurate about the policy in force when he said it; overstated about the
-  past. The related Anthropic entry covers its switch to training on consumer
-  chats by default in 2025.
+  Accurate about the policy in force when he said it; overstated about the past.
+  The related Anthropic entry covers its switch to training on consumer chats by
+  default in 2025.

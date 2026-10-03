@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/thsottiaux/status/1986695544887255104",
+  "captured_at": "2026-10-03T14:29:16.318Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "822671ed223750e7db60fd089b4d7321c6d453b1909326a4f36759819da9cafc",
+    "page.txt": "f10882d3012d6a00105a392496c2afe85b22b38bf159ee70e03b9d059ef60227",
+    "post.json": "5e395d1d70f04a7223d2c7c99b6dfa106e75dcd8e85c9ad5427480fd9d5c69e8",
+    "syndication.json": "6a3a50346999f74bd55d5b04e08a11c807b010cf5ca12942b5c7a18937decad7",
+    "post.txt": "b41cf2b7487b07b04ee45dbb322cb37426d91f999ba4c8106513cc0e059db051"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/thsottiaux/status/1986695544887255104",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Tibo on X: \"More predictable usage in Codex. We landed optimizations behind the scenes that mean that you now will get the same usage throughout the day irrespective of the load or how traffic is routed. Before you could get unlucky and hit a few cache misses in a row and get less usage.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Tibo (@thsottiaux)",
+    "date": "November 7, 2025",
+    "posted_at": "2025-11-07T07:21:43.576Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20251108105929/https://x.com/thsottiaux/status/1986695544887255104",
+    "timestamp": "20251108105929",
+    "method": "existing"
+  }
+}

@@ -17,8 +17,7 @@ summary: >-
   saying surveillance without judicial oversight and lethal autonomy without
   human authorization were "lines that deserved more deliberation than they
   got." Later that day she added: "my issue is that the announcement was rushed
-  without the guardrails defined. It's a governance concern first and
-  foremost."
+  without the guardrails defined. It's a governance concern first and foremost."
 related: [2026-02-27-anthropic-pentagon-red-lines]
 patterns: [ship-then-patch, sorry-after-caught, principles-with-a-price]
 sources:
@@ -87,32 +86,36 @@ response: >-
   deployment and cleared OpenAI staff in the loop. On the September 2026 FOIA
   document, OpenAI spokesperson Nate Evans told The Intercept: "OpenAI has never
   agreed to contract language requiring ‘minimal refusal rates.’ This language
-  does not appear in our executed contract. The document you received appears
-  to be an earlier draft proposed by the Department before we provided
-  feedback. We rejected that language, the department agreed to remove it, and
-  the final executed agreement does not include it."
+  does not appear in our executed contract. The document you received appears to
+  be an earlier draft proposed by the Department before we provided feedback. We
+  rejected that language, the department agreed to remove it, and the final
+  executed agreement does not include it."
 updates:
   - date: 2026-02-10
     text: >-
       Two weeks before the classified deal, OpenAI said it would bring a custom
-      ChatGPT to GenAI.mil, the Pentagon's platform for unclassified work by some
-      3 million personnel. Semafor reported that the Pentagon had asked to use
-      the technology for "all lawful uses," meaning OpenAI could not impose its
-      own restrictions, and that OpenAI was offering the same ChatGPT available
-      to other users, with its standard guardrails in place. It reported that the
-      clause had become a sticking point in the Pentagon's negotiations with
-      Anthropic, whose Claude was not on the platform.
+      ChatGPT to GenAI.mil, the Pentagon's platform for unclassified work by
+      some 3 million personnel. Semafor reported that the Pentagon had asked to
+      use the technology for "all lawful uses," meaning OpenAI could not impose
+      its own restrictions, and that OpenAI was offering the same ChatGPT
+      available to other users, with its standard guardrails in place. It
+      reported that the clause had become a sticking point in the Pentagon's
+      negotiations with Anthropic, whose Claude was not on the platform.
     sources:
       - title: How OpenAI got comfortable with the Pentagon using ChatGPT for war
         publisher: Semafor
         url: https://www.semafor.com/article/02/11/2026/how-openai-got-comfortable-with-the-pentagon-using-chatgpt-for-war
         date: 2026-02-11
         type: reporting
+        archive: https://web.archive.org/web/20261003141642/https://www.semafor.com/article/02/11/2026/how-openai-got-comfortable-with-the-pentagon-using-chatgpt-for-war
+        snapshot: snapshots/2026-10-03-semafor.com-c7619c43
       - title: ChatGPT will be available to 3 million military users on GenAI.mil
         publisher: Breaking Defense
         url: https://breakingdefense.com/2026/02/chatgpt-will-be-available-to-3-million-military-users-on-genai-mil/
         date: 2026-02-10
         type: reporting
+        archive: https://web.archive.org/web/20261003141757/https://breakingdefense.com/2026/02/chatgpt-will-be-available-to-3-million-military-users-on-genai-mil/
+        snapshot: snapshots/2026-10-03-breakingdefense.com-409f6d75
   - date: 2026-02-28
     text: >-
       OpenAI's own thread on the deal listed its red lines and said: "Other AI
@@ -190,30 +193,36 @@ updates:
       surveillance loopholes not covered by the 4A, national security act, FISA,
       etc." His colleague Boaz Barak replied that Gao was "not a lawyer or a
       natsec expert" and that OpenAI "in terms of enabling employee pushback and
-      discussion … is in fact still open." On March 2 Aidan McLaughlin, who works
-      on model behavior, wrote: "i personally don’t think this deal was worth
-      it." Platformer reported both posts.
+      discussion … is in fact still open." On March 2 Aidan McLaughlin, who
+      works on model behavior, wrote: "i personally don’t think this deal was
+      worth it." Platformer reported both posts.
     sources:
       - title: Leo Gao on X ("window dressing")
         publisher: X
         url: https://x.com/nabla_theta/status/2028048714368250308
         date: 2026-03-01
         type: primary
+        archive: https://web.archive.org/web/20260302161106/https://x.com/nabla_theta/status/2028048714368250308
+        snapshot: snapshots/2026-10-03-x.com-b6fab1a7
       - title: Boaz Barak on X (quoting Leo Gao)
         publisher: X
         url: https://x.com/boazbaraktcs/status/2028132252090007776
         date: 2026-03-01
         type: primary
+        snapshot: snapshots/2026-10-03-x.com-251084d7
       - title: Aidan McLaughlin on X ("not worth it")
         publisher: X
         url: https://x.com/aidan_mclau/status/2028507663529906395
         date: 2026-03-02
         type: primary
+        archive: https://web.archive.org/web/20260303164446/https://x.com/aidan_mclau/status/2028507663529906395
+        snapshot: snapshots/2026-10-03-x.com-1a30459a
       - title: What is OpenAI going to do when the truth comes out?
         publisher: Platformer
         url: https://www.platformer.news/openai-pentagon-surveillance-drones-backlash/
         date: 2026-03-02
         type: reporting
+        snapshot: snapshots/2026-10-03-platformer.news-31d310d8
   - date: 2026-09-08
     text: >-
       The Intercept published a contract modification it obtained through a
@@ -235,6 +244,7 @@ updates:
         url: https://theintercept.com/2026/09/08/pentagon-openai-military-contract/
         date: 2026-09-08
         type: reporting
+        snapshot: snapshots/2026-10-03-theintercept.com-a3bc5afd
 note: >-
   Sign first and add the surveillance ban after the outcry. The red lines were
   the same ones a competitor had just been punished for holding, and whether

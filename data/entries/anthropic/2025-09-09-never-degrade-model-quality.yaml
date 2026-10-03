@@ -11,25 +11,25 @@ quote: >-
   factors.
 summary: >-
   From early August 2025, Claude users reported worse answers, and some
-  suspected Anthropic of quietly serving a weaker model when demand was high.
-  On Sept. 9 Anthropic said it had found and fixed two bugs, and denied
-  degrading quality on purpose. Its Sept. 17 postmortem traced the reports to
-  three infrastructure bugs that ran from Aug. 5 into mid-September: requests
-  routed to the wrong servers (16% of Sonnet 4 requests at the worst hour, and
-  about 30% of Claude Code users had at least one such message), corrupted
-  output on Opus and Sonnet, and a compiler bug that affected Haiku 3.5. It said
-  its evaluations "simply didn't capture the degradation users were reporting,"
-  and restated: "We never reduce model quality due to demand, time of day, or
-  server load." Anthropic had answered the same suspicion in March 2024, when
-  Alex Albert replied to claims that Claude had been "lobotomized": "When we
-  make updates to our current models, we will make it very clear."
+  suspected Anthropic of quietly serving a weaker model when demand was high. On
+  Sept. 9 Anthropic said it had found and fixed two bugs, and denied degrading
+  quality on purpose. Its Sept. 17 postmortem traced the reports to three
+  infrastructure bugs that ran from Aug. 5 into mid-September: requests routed
+  to the wrong servers (16% of Sonnet 4 requests at the worst hour, and about
+  30% of Claude Code users had at least one such message), corrupted output on
+  Opus and Sonnet, and a compiler bug that affected Haiku 3.5. It said its
+  evaluations "simply didn't capture the degradation users were reporting," and
+  restated: "We never reduce model quality due to demand, time of day, or server
+  load." Anthropic had answered the same suspicion in March 2024, when Alex
+  Albert replied to claims that Claude had been "lobotomized": "When we make
+  updates to our current models, we will make it very clear."
 concreteness: measurable
 status: open
 breaks_if: >-
-  Evidence (outside measurements, documents, or Anthropic's own disclosure)
-  that Anthropic served a smaller, quantized or otherwise reduced model, or cut
-  reasoning at the API or inference layer, in response to demand, time of day
-  or server load; or a change to a released model that was not announced.
+  Evidence (outside measurements, documents, or Anthropic's own disclosure) that
+  Anthropic served a smaller, quantized or otherwise reduced model, or cut
+  reasoning at the API or inference layer, in response to demand, time of day or
+  server load; or a change to a released model that was not announced.
 related: [2026-04-23-claude-code-quality-postmortem]
 sources:
   - title: Claude on X ("We never intentionally degrade model quality")
@@ -37,45 +37,53 @@ sources:
     url: https://x.com/claudeai/status/1965208249399177655
     date: 2025-09-09
     type: primary
+    archive: https://web.archive.org/web/20250919224512/https://x.com/claudeai/status/1965208249399177655
+    snapshot: snapshots/2026-10-03-x.com-240ce502
   - title: A postmortem of three recent issues
     publisher: Anthropic
     url: https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues
     date: 2025-09-17
     type: primary
+    archive: https://web.archive.org/web/20261003081134/https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues
+    snapshot: snapshots/2026-10-03-anthropic.com-955bc6c9
   - title: Claude on X ("To state it plainly")
     publisher: X
     url: https://x.com/claudeai/status/1968416786413506591
     date: 2025-09-17
     type: primary
+    archive: https://web.archive.org/web/20250919170147/https://x.com/claudeai/status/1968416786413506591
+    snapshot: snapshots/2026-10-03-x.com-79451770
   - title: Alex Albert on X ("we will make it very clear")
     publisher: X
     url: https://x.com/alexalbert__/status/1772038845888184534
     date: 2024-03-24
     type: primary
+    snapshot: snapshots/2026-10-03-x.com-ae9370bd
 updates:
   - date: 2026-04-23
     text: >-
       After six weeks of complaints that Claude Code had got worse, Anthropic
-      traced them to three changes in Claude Code, the Agent SDK and Cowork,
-      one of them a deliberate switch of the default reasoning effort from high
-      to medium, and said the API was not affected. It repeated the denial: "We
+      traced them to three changes in Claude Code, the Agent SDK and Cowork, one
+      of them a deliberate switch of the default reasoning effort from high to
+      medium, and said the API was not affected. It repeated the denial: "We
       never intentionally degrade our models, and we were able to immediately
-      confirm that our API and inference layer were unaffected." See the
-      linked entry.
+      confirm that our API and inference layer were unaffected." See the linked
+      entry.
     sources:
       - title: An update on recent Claude Code quality reports
         publisher: Anthropic
         url: https://www.anthropic.com/engineering/april-23-postmortem
         date: 2026-04-23
         type: primary
+        snapshot: snapshots/2026-10-03-anthropic.com-85b0ca3c
   - date: 2026-06-09
     text: >-
       Fable 5 launched with safeguards, described in its system card, that
       deliberately weakened answers to requests resembling frontier AI
-      development without telling the user. Anthropic made them visible two
-      days later, saying the invisible design "was the wrong tradeoff." That
-      was a disclosed safety measure rather than a cut for demand, but it was
-      an intentional reduction in answer quality for some users (see
+      development without telling the user. Anthropic made them visible two days
+      later, saying the invisible design "was the wrong tradeoff." That was a
+      disclosed safety measure rather than a cut for demand, but it was an
+      intentional reduction in answer quality for some users (see
       2026-06-09-fable-5-hidden-research-safeguards).
     sources:
       - title: Claude Developers on X ("that was the wrong tradeoff")
@@ -83,8 +91,10 @@ updates:
         url: https://x.com/claudedevs/status/2064949876463645026
         date: 2026-06-11
         type: primary
+        archive: https://web.archive.org/web/20260613153522/https://x.com/ClaudeDevs/status/2064949876463645026
+        snapshot: snapshots/2026-10-03-x.com-5edc3612
 note: >-
-  Both investigations were Anthropic's own, and both found real degradation
-  with causes other than the one denied: bugs in 2025, product changes and a
-  bug in 2026. The denial covers the model and the servers. It doesn't cover
-  the settings and prompts around them, which is where the 2026 problems were.
+  Both investigations were Anthropic's own, and both found real degradation with
+  causes other than the one denied: bugs in 2025, product changes and a bug in
+  2026. The denial covers the model and the servers. It doesn't cover the
+  settings and prompts around them, which is where the 2026 problems were.

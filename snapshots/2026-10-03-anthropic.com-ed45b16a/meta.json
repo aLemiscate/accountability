@@ -1,0 +1,21 @@
+{
+  "url": "https://www.anthropic.com/news/claude-new-constitution",
+  "captured_at": "2026-10-03T12:27:01.291Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "76c2e191efee7126470985ddded35f64f769cc130dc74d26d02930172e698c1e",
+    "page.txt": "c24046966018df92bb411fd7e98525f9251e7b791261f16b2bd8ef6b516af9b1",
+    "screenshot.jpg": "062cd515c8b8ccabee1eabaac03d1eb855125cfba0f0ef8d6f02cd3f07bc3807",
+    "rendered.txt": "308c6f1de1f59352c06a3c664939dedf418de4d2ea7cf6d5da929f69a685bcd4"
+  },
+  "http_status": 200,
+  "final_url": "https://www.anthropic.com/news/claude-new-constitution",
+  "content_type": "text/html; charset=utf-8",
+  "title": "Claude's new constitution \\ Anthropic",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20261003122707/https://www.anthropic.com/news/claude-new-constitution",
+    "timestamp": "20261003122707",
+    "method": "existing"
+  }
+}

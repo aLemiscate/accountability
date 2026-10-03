@@ -69,30 +69,32 @@ updates:
         snapshot: snapshots/2026-09-30-time.com-2ce3a2d7
   - date: 2024-06-24
     text: >-
-      Former employees had warned that OpenAI could still limit their ability
-      to sell shares; Jacob Hilton asked it to promise "equal access to
-      liquidity, in a legally enforceable way." CNBC reported earlier
-      documents showing former employees sold months after current staff and
-      in at least two tender offers were capped at $2 million against $10
-      million, and that ex-employees at competitors were excluded. In June
-      OpenAI changed the rules: "all sellers (current and former service
-      providers) will have the same sales limit," and it "will not enforce any
-      provision in employee equity documents that forces equity redemption at
-      fair market value." Former employees at competitors were no longer
-      excluded.
+      Former employees had warned that OpenAI could still limit their ability to
+      sell shares; Jacob Hilton asked it to promise "equal access to liquidity,
+      in a legally enforceable way." CNBC reported earlier documents showing
+      former employees sold months after current staff and in at least two
+      tender offers were capped at $2 million against $10 million, and that
+      ex-employees at competitors were excluded. In June OpenAI changed the
+      rules: "all sellers (current and former service providers) will have the
+      same sales limit," and it "will not enforce any provision in employee
+      equity documents that forces equity redemption at fair market value."
+      Former employees at competitors were no longer excluded.
     sources:
-      - title: Jacob Hilton on X ("equal access to liquidity, in a legally
-          enforceable way")
+      - title: Jacob Hilton on X ("equal access to liquidity, in a legally enforceable
+          way")
         publisher: X
         url: https://x.com/JacobHHilton/status/1794090561294467074
         date: 2024-05-24
         type: primary
-      - title: OpenAI walks back controversial stock sale policies, will treat
-          current and former employees the same
+        snapshot: snapshots/2026-10-03-x.com-d25baa1e
+      - title: OpenAI walks back controversial stock sale policies, will treat current
+          and former employees the same
         publisher: CNBC (via NBC Chicago)
         url: https://www.nbcchicago.com/news/business/money-report/openai-walks-back-controversial-stock-sale-policies-will-treat-current-and-former-employees-the-same/3471318/
         date: 2024-06-24
         type: reporting
+        archive: https://web.archive.org/web/20261003134550/https://www.nbcchicago.com/news/business/money-report/openai-walks-back-controversial-stock-sale-policies-will-treat-current-and-former-employees-the-same/3471318/
+        snapshot: snapshots/2026-10-03-nbcchicago.com-e118834a
   - date: 2024-07-23
     text: >-
       In a public summary of its safety practices, OpenAI said: "Our

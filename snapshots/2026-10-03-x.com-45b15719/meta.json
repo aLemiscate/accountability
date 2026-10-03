@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/sama/status/1889755723078443244",
+  "captured_at": "2026-10-03T13:46:58.350Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "1c9d5c415ac03a06a8a700d8625b859564db5f4ea5402198c8f282ed03c2eb67",
+    "page.txt": "4da531ec61c7a03c4031ed34927c689cd3bc03585c00b2ee069217211e82d5dd",
+    "post.json": "879c6766fc37477bae3cec0cee24836d366a12cf561e8b316a5f00d9094e8bd8",
+    "syndication.json": "f6af4b03a5bc022ff8fd7b0058641ea6055071550b9e687210cc6cd620b0d64c",
+    "post.txt": "06a089baaae1ba2efd5c35af17bdb85aa5d3d22d802662c4089ea61173a6ff2b"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1889755723078443244",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"OPENAI ROADMAP UPDATE FOR GPT-4.5 and GPT-5: We want to do a better job of sharing our intended roadmap, and a much better job simplifying our product offerings. We want AI to “just work” for you; we realize how complicated our model and product offerings have gotten. We hate t… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "February 12, 2025",
+    "posted_at": "2025-02-12T19:17:29.002Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20261001091917/https://x.com/sama/status/1889755723078443244",
+    "timestamp": "20261001091917",
+    "method": "existing"
+  }
+}

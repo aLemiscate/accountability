@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/sleepinyourhat/status/1821955767328809369",
+  "captured_at": "2026-10-03T12:11:16.004Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "1675f0c52bfdd7c43621f1b601df479fb0e55104614b7c620b7569335d7f9ddb",
+    "page.txt": "f074185c0bf157a084256431ff614f3264743b0ac01708e684c3f9d6ffb8a6e1",
+    "post.json": "ee30dead3c22977baf7e62cb66e407814b657092c1943d5c41db16f1a887c7c7",
+    "syndication.json": "ce889cb637ffe1a273ae51d98b9883a07c3ca7f70574d0bdf38669b8a11404af",
+    "post.txt": "0345af97fa9edcf88e350367dfd099ea27a936aed1adf35d1ec18439fcd5e679"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sleepinyourhat/status/1821955767328809369",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Bowman on X: \"@TheZvi It's a current rough guess rather than a confident take, but to try to quantify that, I'd bet $50 *at 25%* that nobody finds a universal jailbreak against the system that's being tested here.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Bowman (@sleepinyourhat)",
+    "date": "August 9, 2024",
+    "posted_at": "2024-08-09T17:04:39.889Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20241104015633/https://x.com/sleepinyourhat/status/1821955767328809369",
+    "timestamp": "20241104015633",
+    "method": "existing"
+  }
+}

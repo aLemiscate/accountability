@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/OpenAINewsroom/status/2021992846862258403",
+  "captured_at": "2026-10-03T14:00:50.628Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "633ce69c656d682bfe09e10b3ee70f7bbad9bd77fc971defa0ded4346653632c",
+    "page.txt": "4ab44086772c9b85eb7c6062091cf239b4fb0523654ab9f70e02028575a5d56e",
+    "post.json": "f323f69402200b326c8b2f909ecfaa83b9fd321f16d9e709210c56e12657690c",
+    "syndication.json": "8b943bd9b63e446c54eec4a8a115f0b2ba59007dc2ca81723a63de4e5212a1c6",
+    "post.txt": "f5f0b0f27020bbac8b179cdc60d2a444d8921b003a0b12021c0e5b5d4ed4c292"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAINewsroom/status/2021992846862258403",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI Newsroom on X: \"Tomorrow at 10am PT legacy models (GPT-5, GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini) will be deprecated in ChatGPT. https://t.co/RJioBsLY6D\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI Newsroom (@OpenAINewsroom)",
+    "date": "February 12, 2026",
+    "posted_at": "2026-02-12T17:00:36.159Z"
+  },
+  "rendered_status": 403,
+  "archive": null
+}

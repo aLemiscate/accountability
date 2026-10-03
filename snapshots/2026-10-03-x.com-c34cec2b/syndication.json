@@ -1,0 +1,370 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 7618,
+  "in_reply_to_screen_name": "claudeai",
+  "in_reply_to_status_id_str": "2064394151441863006",
+  "in_reply_to_user_id_str": "1943306828697550848",
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2026-06-09T17:08:15.000Z",
+  "display_text_range": [
+    0,
+    274
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/vJ71vCdkjc",
+        "expanded_url": "https://x.com/claudeai/status/2064394155258765783/video/1",
+        "indices": [
+          275,
+          298
+        ],
+        "url": "https://t.co/vJ71vCdkjc"
+      }
+    ]
+  },
+  "id_str": "2064394155258765783",
+  "text": "Releasing a model this capable comes with risks. Without safeguards, Fable 5’s capabilities in areas like cybersecurity could be misused to cause serious damage.\n\nQueries on a narrow range of topics will instead receive a response from our next-most-capable model, Opus 4.8. https://t.co/vJ71vCdkjc",
+  "user": {
+    "id_str": "1943306828697550848",
+    "name": "Claude",
+    "screen_name": "claudeai",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_normal.jpg",
+    "highlighted_label": {
+      "badge": {
+        "url": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_bigger.jpg"
+      },
+      "description": "Anthropic",
+      "url": {
+        "url": "https://twitter.com/AnthropicAI",
+        "url_type": "DeepLink"
+      },
+      "user_label_display_type": "Badge",
+      "user_label_type": "BusinessLabel"
+    }
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2064394155258765783"
+    ],
+    "editable_until_msecs": "1781028495000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "mediaDetails": [
+    {
+      "additional_media_info": {},
+      "display_url": "pic.x.com/vJ71vCdkjc",
+      "expanded_url": "https://x.com/claudeai/status/2064394155258765783/video/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        275,
+        298
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/HKY8Ck2WIAA0JGy.jpg",
+      "original_info": {
+        "focus_rects": [],
+        "height": 1080,
+        "width": 1920
+      },
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "resize": "fit",
+          "w": 1920
+        },
+        "medium": {
+          "h": 675,
+          "resize": "fit",
+          "w": 1200
+        },
+        "small": {
+          "h": 383,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "video",
+      "url": "https://t.co/vJ71vCdkjc",
+      "video_info": {
+        "aspect_ratio": [
+          16,
+          9
+        ],
+        "duration_millis": 113238,
+        "variants": [
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/amplify_video/2064390880996265984/pl/jBxf0KDMG5wTizMv.m3u8?v=dd6"
+          },
+          {
+            "bitrate": 256000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2064390880996265984/vid/avc1/480x270/WvgO6_EC3bd1Ni8n.mp4"
+          },
+          {
+            "bitrate": 832000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2064390880996265984/vid/avc1/640x360/ktt474ZoPZhqNLMp.mp4"
+          },
+          {
+            "bitrate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2064390880996265984/vid/avc1/1280x720/o4ZBshB8W5Hi1FyR.mp4"
+          },
+          {
+            "bitrate": 10368000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2064390880996265984/vid/avc1/1920x1080/0_bTVecnx8J8RabO.mp4"
+          },
+          {
+            "bitrate": 25128000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2064390880996265984/vid/avc1/3840x2160/d3LHIYZ9GsRkcO7y.mp4"
+          }
+        ]
+      }
+    }
+  ],
+  "photos": [],
+  "video": {
+    "aspectRatio": [
+      16,
+      9
+    ],
+    "contentType": "media_entity",
+    "durationMs": 113238,
+    "mediaAvailability": {
+      "status": "available"
+    },
+    "poster": "https://pbs.twimg.com/media/HKY8Ck2WIAA0JGy.jpg",
+    "variants": [
+      {
+        "type": "application/x-mpegURL",
+        "src": "https://video.twimg.com/amplify_video/2064390880996265984/pl/jBxf0KDMG5wTizMv.m3u8?v=dd6"
+      },
+      {
+        "type": "video/mp4",
+        "src": "https://video.twimg.com/amplify_video/2064390880996265984/vid/avc1/480x270/WvgO6_EC3bd1Ni8n.mp4"
+      },
+      {
+        "type": "video/mp4",
+        "src": "https://video.twimg.com/amplify_video/2064390880996265984/vid/avc1/640x360/ktt474ZoPZhqNLMp.mp4"
+      },
+      {
+        "type": "video/mp4",
+        "src": "https://video.twimg.com/amplify_video/2064390880996265984/vid/avc1/1280x720/o4ZBshB8W5Hi1FyR.mp4"
+      },
+      {
+        "type": "video/mp4",
+        "src": "https://video.twimg.com/amplify_video/2064390880996265984/vid/avc1/1920x1080/0_bTVecnx8J8RabO.mp4"
+      },
+      {
+        "type": "video/mp4",
+        "src": "https://video.twimg.com/amplify_video/2064390880996265984/vid/avc1/3840x2160/d3LHIYZ9GsRkcO7y.mp4"
+      }
+    ],
+    "videoId": {
+      "type": "tweet",
+      "id": "2064394155258765783"
+    },
+    "viewCount": 0
+  },
+  "conversation_count": 158,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 15420,
+    "in_reply_to_screen_name": "claudeai",
+    "in_reply_to_status_id_str": "2064394146916229443",
+    "in_reply_to_user_id_str": "1943306828697550848",
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 510,
+    "retweet_count": 1753,
+    "created_at": "2026-06-09T17:08:14.000Z",
+    "display_text_range": [
+      0,
+      251
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/DxgSu0KUxh",
+          "expanded_url": "https://x.com/claudeai/status/2064394151441863006/photo/1",
+          "indices": [
+            252,
+            275
+          ],
+          "url": "https://t.co/DxgSu0KUxh"
+        }
+      ]
+    },
+    "id_str": "2064394151441863006",
+    "text": "Fable 5 is state-of-the-art on nearly all tested benchmarks, with exceptional performance in software engineering, knowledge work, scientific research, and vision.\n\nThe longer and more complex the task, the larger Fable 5’s lead over our other models. https://t.co/DxgSu0KUxh",
+    "user": {
+      "id_str": "1943306828697550848",
+      "name": "Claude",
+      "screen_name": "claudeai",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_normal.jpg",
+      "highlighted_label": {
+        "badge": {
+          "url": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_bigger.jpg"
+        },
+        "description": "Anthropic",
+        "url": {
+          "url": "https://twitter.com/AnthropicAI",
+          "url_type": "DeepLink"
+        },
+        "user_label_display_type": "Badge",
+        "user_label_type": "BusinessLabel"
+      }
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2064394151441863006"
+      ],
+      "editable_until_msecs": "1781028494000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "mediaDetails": [
+      {
+        "display_url": "pic.x.com/DxgSu0KUxh",
+        "expanded_url": "https://x.com/claudeai/status/2064394151441863006/photo/1",
+        "ext_alt_text": "Benchmark table titled Mythos 5 & Fable 5, comparing Claude Mythos 5 and Fable 5 against Claude Mythos Preview, Claude Opus 4.8, GPT 5.5, and Gemini 3.1 Pro. ",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          252,
+          275
+        ],
+        "media_url_https": "https://pbs.twimg.com/media/HKYwNlEWMAAJanX.png",
+        "original_info": {
+          "focus_rects": [
+            {
+              "h": 1210,
+              "w": 2160,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 2160,
+              "w": 2160,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 2160,
+              "w": 1895,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 2160,
+              "w": 1080,
+              "x": 54,
+              "y": 0
+            },
+            {
+              "h": 2160,
+              "w": 2160,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "height": 2160,
+          "width": 2160
+        },
+        "sizes": {
+          "large": {
+            "h": 2048,
+            "resize": "fit",
+            "w": 2048
+          },
+          "medium": {
+            "h": 1200,
+            "resize": "fit",
+            "w": 1200
+          },
+          "small": {
+            "h": 680,
+            "resize": "fit",
+            "w": 680
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "photo",
+        "url": "https://t.co/DxgSu0KUxh"
+      }
+    ],
+    "photos": [
+      {
+        "accessibilityLabel": "Benchmark table titled Mythos 5 & Fable 5, comparing Claude Mythos 5 and Fable 5 against Claude Mythos Preview, Claude Opus 4.8, GPT 5.5, and Gemini 3.1 Pro. ",
+        "backgroundColor": {
+          "red": 204,
+          "green": 214,
+          "blue": 221
+        },
+        "cropCandidates": [
+          {
+            "h": 1210,
+            "w": 2160,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 2160,
+            "w": 2160,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 2160,
+            "w": 1895,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 2160,
+            "w": 1080,
+            "x": 54,
+            "y": 0
+          },
+          {
+            "h": 2160,
+            "w": 2160,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "expandedUrl": "https://x.com/claudeai/status/2064394151441863006/photo/1",
+        "url": "https://pbs.twimg.com/media/HKYwNlEWMAAJanX.png",
+        "width": 2160,
+        "height": 2160
+      }
+    ],
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

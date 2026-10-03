@@ -1,0 +1,109 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 61,
+  "in_reply_to_screen_name": "peterwildeford",
+  "in_reply_to_status_id_str": "2027916342318534792",
+  "in_reply_to_user_id_str": "25776739",
+  "lang": "en",
+  "created_at": "2026-03-01T02:23:00.000Z",
+  "display_text_range": [
+    22,
+    296
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "25776739",
+        "indices": [
+          0,
+          15
+        ],
+        "name": "Peter Wildeford🇺🇸🚀",
+        "screen_name": "peterwildeford"
+      },
+      {
+        "id_str": "1605",
+        "indices": [
+          16,
+          21
+        ],
+        "name": "Sam Altman",
+        "screen_name": "sama"
+      }
+    ]
+  },
+  "id_str": "2027932587788759293",
+  "text": "@peterwildeford @sama The DoW has not asked us to support collection or analysis of bulk data on Americans, such as geolocation data, web browsing data and personal financial information purchased from data brokers,  and our agreement does not permit it. Our agreement does not permit uses of our",
+  "user": {
+    "id_str": "1217628182611927040",
+    "name": "Boaz Barak",
+    "screen_name": "boazbaraktcs",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1252262363132280834/ytIN-vzv_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2027932587788759293"
+    ],
+    "editable_until_msecs": "1772335380000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 12,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 161,
+    "in_reply_to_screen_name": "sama",
+    "in_reply_to_status_id_str": "2027900042720498089",
+    "in_reply_to_user_id_str": "1605",
+    "lang": "en",
+    "reply_count": 3,
+    "retweet_count": 6,
+    "created_at": "2026-03-01T01:18:27.000Z",
+    "display_text_range": [
+      6,
+      281
+    ],
+    "entities": {
+      "user_mentions": [
+        {
+          "id_str": "1605",
+          "indices": [
+            0,
+            5
+          ],
+          "name": "Sam Altman",
+          "screen_name": "sama"
+        }
+      ]
+    },
+    "id_str": "2027916342318534792",
+    "text": "@sama Your blog says mass domestic surveillance is prohibited because it's illegal. But AI analysis of commercially purchased data on Americans (location data, purchase records, browsing history bought from data brokers) is currently legal. Does your contract prohibit the DoW from",
+    "user": {
+      "id_str": "25776739",
+      "name": "Peter Wildeford🇺🇸🚀",
+      "screen_name": "peterwildeford",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2016338985811927041/Vve57ZtV_normal.png"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2027916342318534792"
+      ],
+      "editable_until_msecs": "1772331507000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDI3OTMyNTg3NjkyMzU5Njgw"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 2037,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2025-04-09T18:22:38.000Z",
+  "display_text_range": [
+    0,
+    175
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/5nUdEV7gfX",
+        "expanded_url": "https://x.com/AnthropicAI/status/1910035641242640501/photo/1",
+        "indices": [
+          176,
+          199
+        ],
+        "url": "https://t.co/5nUdEV7gfX"
+      }
+    ]
+  },
+  "id_str": "1910035641242640501",
+  "text": "Introducing a new Max plan for Claude. It’s flexible, with options for 5x or 20x more usage compared to our Pro plan.\n\nPlus, priority access to our latest features and models: https://t.co/5nUdEV7gfX",
+  "user": {
+    "id_str": "1353836358901501952",
+    "name": "Anthropic",
+    "screen_name": "AnthropicAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1910035641242640501"
+    ],
+    "editable_until_msecs": "1744226558000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/5nUdEV7gfX",
+      "expanded_url": "https://x.com/AnthropicAI/status/1910035641242640501/photo/1",
+      "ext_alt_text": "A new Max plan for Claude",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        176,
+        199
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/GoG6srkXsAAQ5ec.png",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 1345,
+            "w": 2401,
+            "x": 0,
+            "y": 828
+          },
+          {
+            "h": 2401,
+            "w": 2401,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 2401,
+            "w": 2106,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 2401,
+            "w": 1201,
+            "x": 300,
+            "y": 0
+          },
+          {
+            "h": 2401,
+            "w": 2401,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 2401,
+        "width": 2401
+      },
+      "sizes": {
+        "large": {
+          "h": 2048,
+          "resize": "fit",
+          "w": 2048
+        },
+        "medium": {
+          "h": 1200,
+          "resize": "fit",
+          "w": 1200
+        },
+        "small": {
+          "h": 680,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/5nUdEV7gfX"
+    }
+  ],
+  "photos": [
+    {
+      "accessibilityLabel": "A new Max plan for Claude",
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 1345,
+          "w": 2401,
+          "x": 0,
+          "y": 828
+        },
+        {
+          "h": 2401,
+          "w": 2401,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 2401,
+          "w": 2106,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 2401,
+          "w": 1201,
+          "x": 300,
+          "y": 0
+        },
+        {
+          "h": 2401,
+          "w": 2401,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/AnthropicAI/status/1910035641242640501/photo/1",
+      "url": "https://pbs.twimg.com/media/GoG6srkXsAAQ5ec.png",
+      "width": 2401,
+      "height": 2401
+    }
+  ],
+  "conversation_count": 259,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

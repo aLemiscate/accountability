@@ -1,0 +1,15 @@
+Anthropic Reduces Claude Session Limits During Peak Hours For Free, Pro And Max Users
+ARTHUR KAY Mar 27, 2026
+AI
+Anthropic has updated how Claude's five-hour session limits are enforced during peak hours, starting this week. During periods of high demand, subscription users might use up their five-hour session allowance in less than five hours of actual time. However, weekly usage limits remain the same.
+The change was announced by Thariq Shihipar, a member of Anthropic's technical team, in a social media post. "To manage the increasing demand for Claude, we're adjusting our five-hour session limits for free, Pro, and Max subscriptions during peak hours. Your weekly limits are unaffected," Shihipar explained.
+How The Adjusted Claude Session Limits Work
+Anthropic adjusts session limits based on token usage rather than clock time. During peak hours, the token cost for each session is higher, which means a five-hour allowance can be used up more quickly than five hours of actual activity.
+Peak hours are defined as 05:00 to 11:00 PT (13:00 to 19:00 GMT). Outside these times, a five-hour session allowance functions as before, covering five hours of access. Anthropic has increased capacity during off-peak hours to compensate for this change, keeping the total weekly limits unchanged.
+According to Shihipar, about 7 percent of users will encounter session limits that they would not have reached under the previous system. Users subscribed to the Pro tier are most likely to be affected.
+Those running token-heavy background tasks can reduce the impact by shifting those workloads to off-peak hours.
+The adjustment applies to subscribers of Free, Pro at $20 a month, Max 5x at $100 a month, and Max 20x at $200 a month. API customers are billed according to the published per-token rates and are not affected by the same session limit structure.
+Why Claude Session Limits Remain Unpublished
+Anthropic does not disclose the exact token counts that correspond to its session limits. The company's documentation mentions that usage depends on factors like conversation length and complexity, features used, and the Claude model chosen, but it does not specify explicit thresholds. As a result, subscribers cannot predict in advance how many interactions their session allowance will cover.
+Users can track their consumption through a dashboard that displays their progress toward a five-hour daily session limit and a weekly usage cap. If a limit is exceeded, access is blocked until the window resets or additional usage is purchased.
+Shihipar acknowledged that this change could be disruptive for some users. He said, "I know this was frustrating. We're continuing to invest in scaling efficiently, and I'll keep you updated on progress." Anthropic has not provided a timeline for capacity expansions that would allow it to lift peak-hour restrictions.

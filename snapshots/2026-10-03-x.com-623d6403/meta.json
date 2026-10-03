@@ -1,0 +1,36 @@
+{
+  "url": "https://x.com/claudeai/status/1972732967689879962",
+  "captured_at": "2026-10-03T12:20:29.674Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "97bfe4bfce01b48111ca23da4dfd1ba209869676b16b1f49a3a2992845e78c0c",
+    "page.txt": "da0aa1c67e394c465a49f0dea4fae57ebe5b9d04cd24a28d81bc6b1e67867bdb",
+    "post.json": "dbb19af73fa8b4905db93a7fb0d88739aee6e601b39ed91cf6e43205f44c9cfd",
+    "syndication.json": "8f181c09e4a178556e15b2b3e885fbf26721bb8926ac8af02186091aaa0f05cb",
+    "quoted-media-1.png": "b05b219be1c59bea4111e03939caf93ae0915627b0662971bfc8f1b1f13be3a5",
+    "post.txt": "fb6b51cd9cf2d38235069ef69fcfc1dc2b1a761d76b04f0e9e727b15bf2a1d06"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/claudeai/status/1972732967689879962",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Claude on X: \"The weekly rate limits we announced in July are rolling out now. With Claude Sonnet 4.5, we expect fewer than 2% of users to encounter them. https://t.co/P0v3nJxZJh\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Claude (@claudeai)",
+    "date": "September 29, 2025",
+    "posted_at": "2025-09-29T18:39:25.760Z",
+    "media": [
+      {
+        "file": "quoted-media-1.png",
+        "url": "https://pbs.twimg.com/media/Gw9Z8P6XoAA87L8.png"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20251001222850/https://x.com/claudeai/status/1972732967689879962",
+    "timestamp": "20251001222850",
+    "method": "existing"
+  }
+}

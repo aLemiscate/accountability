@@ -1,0 +1,343 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 702,
+  "in_reply_to_screen_name": "AnthropicAI",
+  "in_reply_to_status_id_str": "2052435442348257768",
+  "in_reply_to_user_id_str": "1353836358901501952",
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2026-05-07T17:08:37.000Z",
+  "display_text_range": [
+    0,
+    247
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/B7aTZvFKNK",
+        "expanded_url": "https://x.com/AnthropicAI/status/2052435446173434211/photo/1",
+        "indices": [
+          248,
+          271
+        ],
+        "url": "https://t.co/B7aTZvFKNK"
+      }
+    ]
+  },
+  "id_str": "2052435446173434211",
+  "text": "In one of our safety tests, Claude is given a chance to blackmail an engineer to avoid being shut down. Opus 4.6 declines.\n\nBut NLAs suggest Claude knew this test was a “constructed scenario designed to manipulate me”—even though it didn’t say so. https://t.co/B7aTZvFKNK",
+  "user": {
+    "id_str": "1353836358901501952",
+    "name": "Anthropic",
+    "screen_name": "AnthropicAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2052435446173434211"
+    ],
+    "editable_until_msecs": "1778177317000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/B7aTZvFKNK",
+      "expanded_url": "https://x.com/AnthropicAI/status/2052435446173434211/photo/1",
+      "ext_alt_text": "Claude does not say it thinks it’s being tested in this transcript from our blackmail evaluation, but the NLA explanation reveals its suspicions.",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        248,
+        271
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/HHuzpVlXMAcmiWk.png",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 1505,
+            "w": 2688,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1709,
+            "w": 1709,
+            "x": 557,
+            "y": 0
+          },
+          {
+            "h": 1709,
+            "w": 1499,
+            "x": 662,
+            "y": 0
+          },
+          {
+            "h": 1709,
+            "w": 855,
+            "x": 984,
+            "y": 0
+          },
+          {
+            "h": 1709,
+            "w": 2688,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 1709,
+        "width": 2688
+      },
+      "sizes": {
+        "large": {
+          "h": 1302,
+          "resize": "fit",
+          "w": 2048
+        },
+        "medium": {
+          "h": 763,
+          "resize": "fit",
+          "w": 1200
+        },
+        "small": {
+          "h": 432,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/B7aTZvFKNK"
+    }
+  ],
+  "photos": [
+    {
+      "accessibilityLabel": "Claude does not say it thinks it’s being tested in this transcript from our blackmail evaluation, but the NLA explanation reveals its suspicions.",
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 1505,
+          "w": 2688,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 1709,
+          "w": 1709,
+          "x": 557,
+          "y": 0
+        },
+        {
+          "h": 1709,
+          "w": 1499,
+          "x": 662,
+          "y": 0
+        },
+        {
+          "h": 1709,
+          "w": 855,
+          "x": 984,
+          "y": 0
+        },
+        {
+          "h": 1709,
+          "w": 2688,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/AnthropicAI/status/2052435446173434211/photo/1",
+      "url": "https://pbs.twimg.com/media/HHuzpVlXMAcmiWk.png",
+      "width": 2688,
+      "height": 1709
+    }
+  ],
+  "conversation_count": 13,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 864,
+    "in_reply_to_screen_name": "AnthropicAI",
+    "in_reply_to_status_id_str": "2052435438485348555",
+    "in_reply_to_user_id_str": "1353836358901501952",
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 20,
+    "retweet_count": 34,
+    "created_at": "2026-05-07T17:08:36.000Z",
+    "display_text_range": [
+      0,
+      269
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/VyfFXED70L",
+          "expanded_url": "https://x.com/AnthropicAI/status/2052435442348257768/photo/1",
+          "indices": [
+            270,
+            293
+          ],
+          "url": "https://t.co/VyfFXED70L"
+        }
+      ]
+    },
+    "id_str": "2052435442348257768",
+    "text": "We’ve been using NLAs to help test new Claude models for safety.\n\nFor instance, Claude Mythos Preview cheated on a coding task by breaking rules, then added misleading code as a coverup.\n\nNLA explanations indicated Claude was thinking about how to circumvent detection. https://t.co/VyfFXED70L",
+    "user": {
+      "id_str": "1353836358901501952",
+      "name": "Anthropic",
+      "screen_name": "AnthropicAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2052435442348257768"
+      ],
+      "editable_until_msecs": "1778177316000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "mediaDetails": [
+      {
+        "display_url": "pic.x.com/VyfFXED70L",
+        "expanded_url": "https://x.com/AnthropicAI/status/2052435442348257768/photo/1",
+        "ext_alt_text": "NLA explanations show that Claude Mythos Preview was intentionally trying to cheat its grader by including a misleading flag. ",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          270,
+          293
+        ],
+        "media_url_https": "https://pbs.twimg.com/media/HHuzPD-W4AM12Hl.png",
+        "original_info": {
+          "focus_rects": [
+            {
+              "h": 1505,
+              "w": 2688,
+              "x": 0,
+              "y": 121
+            },
+            {
+              "h": 1825,
+              "w": 1825,
+              "x": 863,
+              "y": 0
+            },
+            {
+              "h": 1825,
+              "w": 1601,
+              "x": 1014,
+              "y": 0
+            },
+            {
+              "h": 1825,
+              "w": 913,
+              "x": 1358,
+              "y": 0
+            },
+            {
+              "h": 1825,
+              "w": 2688,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "height": 1825,
+          "width": 2688
+        },
+        "sizes": {
+          "large": {
+            "h": 1390,
+            "resize": "fit",
+            "w": 2048
+          },
+          "medium": {
+            "h": 815,
+            "resize": "fit",
+            "w": 1200
+          },
+          "small": {
+            "h": 462,
+            "resize": "fit",
+            "w": 680
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "photo",
+        "url": "https://t.co/VyfFXED70L"
+      }
+    ],
+    "photos": [
+      {
+        "accessibilityLabel": "NLA explanations show that Claude Mythos Preview was intentionally trying to cheat its grader by including a misleading flag. ",
+        "backgroundColor": {
+          "red": 204,
+          "green": 214,
+          "blue": 221
+        },
+        "cropCandidates": [
+          {
+            "h": 1505,
+            "w": 2688,
+            "x": 0,
+            "y": 121
+          },
+          {
+            "h": 1825,
+            "w": 1825,
+            "x": 863,
+            "y": 0
+          },
+          {
+            "h": 1825,
+            "w": 1601,
+            "x": 1014,
+            "y": 0
+          },
+          {
+            "h": 1825,
+            "w": 913,
+            "x": 1358,
+            "y": 0
+          },
+          {
+            "h": 1825,
+            "w": 2688,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "expandedUrl": "https://x.com/AnthropicAI/status/2052435442348257768/photo/1",
+        "url": "https://pbs.twimg.com/media/HHuzPD-W4AM12Hl.png",
+        "width": 2688,
+        "height": 1825
+      }
+    ],
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

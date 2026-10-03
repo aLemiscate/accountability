@@ -1,0 +1,243 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 2411,
+  "in_reply_to_screen_name": "tengyanAI",
+  "in_reply_to_status_id_str": "2043138374794666490",
+  "in_reply_to_user_id_str": "1299523632868110338",
+  "lang": "en",
+  "created_at": "2026-04-12T03:07:04.000Z",
+  "display_text_range": [
+    11,
+    289
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "1299523632868110338",
+        "indices": [
+          0,
+          10
+        ],
+        "name": "Teng Yan",
+        "screen_name": "tengyanAI"
+      }
+    ]
+  },
+  "id_str": "2043163965648515234",
+  "text": "@tengyanAI This is false. We defaulted to medium as a result of user feedback about Claude using too many tokens. When we made the change, we (1) included it in the changelog and (2) showed a dialog when you opened Claude Code so you could choose to opt out. Literally nothing sneaky about",
+  "user": {
+    "id_str": "159337660",
+    "name": "Boris Cherny",
+    "screen_name": "bcherny",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1902044548936953856/J2jeik0t_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2043163965648515234"
+    ],
+    "editable_until_msecs": "1775966824000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 270,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 7957,
+    "lang": "en",
+    "reply_count": 174,
+    "retweet_count": 605,
+    "created_at": "2026-04-12T01:25:22.000Z",
+    "display_text_range": [
+      0,
+      278
+    ],
+    "entities": {},
+    "id_str": "2043138374794666490",
+    "text": "basically: anthropic sneakily turned down how hard claude thinks before editing code, changed the  default from \"high\" to \"medium\" effort, and hid the reasoning from session logs. all without telling users. \n\nan amd director had 7k sessions of telemetry to prove the degradation",
+    "user": {
+      "id_str": "1299523632868110338",
+      "name": "Teng Yan",
+      "screen_name": "tengyanAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1822948258752442368/rqjcPBNB_normal.jpg"
+    },
+    "edit_control": {
+      "initial_tweet_id": "2043136881974784269",
+      "edit_tweet_ids": [
+        "2043136881974784269",
+        "2043138374794666490"
+      ],
+      "editable_until_msecs": "1775960366000",
+      "edits_remaining": "4",
+      "is_edit_eligible": false
+    },
+    "quoted_tweet": {
+      "__typename": "Tweet",
+      "favorite_count": 9335,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "reply_count": 316,
+      "retweet_count": 1002,
+      "created_at": "2026-04-11T14:54:04.000Z",
+      "display_text_range": [
+        0,
+        285
+      ],
+      "entities": {
+        "media": [
+          {
+            "display_url": "pic.x.com/jk4HwoLzsi",
+            "expanded_url": "https://x.com/Hesamation/status/2042979500103815306/photo/1",
+            "indices": [
+              286,
+              309
+            ],
+            "url": "https://t.co/jk4HwoLzsi"
+          }
+        ]
+      },
+      "id_str": "2042979500103815306",
+      "text": "AMD Senior AI Director confirms Claude has been nerfed. She analyzed Claude's session logs from Janurary to March:\n&gt; median thinking dropped from ~2,200 to ~600 chars\n&gt; API requests went up 80x from Feb to Mar. less thinking and failed attempts meaning more retries, burning more https://t.co/jk4HwoLzsi",
+      "user": {
+        "id_str": "1836078160653246464",
+        "name": "ℏεsam",
+        "screen_name": "Hesamation",
+        "is_blue_verified": true,
+        "profile_image_shape": "Circle",
+        "verified": false,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1978647680357134336/ioMmfkXF_normal.jpg"
+      },
+      "mediaDetails": [
+        {
+          "display_url": "pic.x.com/jk4HwoLzsi",
+          "expanded_url": "https://x.com/Hesamation/status/2042979500103815306/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "indices": [
+            286,
+            309
+          ],
+          "media_url_https": "https://pbs.twimg.com/media/HFobfr0WwAAA2d1.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 762,
+                "w": 1361,
+                "x": 0,
+                "y": 1022
+              },
+              {
+                "h": 1361,
+                "w": 1361,
+                "x": 0,
+                "y": 423
+              },
+              {
+                "h": 1552,
+                "w": 1361,
+                "x": 0,
+                "y": 232
+              },
+              {
+                "h": 1784,
+                "w": 892,
+                "x": 312,
+                "y": 0
+              },
+              {
+                "h": 1784,
+                "w": 1361,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1784,
+            "width": 1361
+          },
+          "sizes": {
+            "large": {
+              "h": 1784,
+              "resize": "fit",
+              "w": 1361
+            },
+            "medium": {
+              "h": 1200,
+              "resize": "fit",
+              "w": 915
+            },
+            "small": {
+              "h": 680,
+              "resize": "fit",
+              "w": 519
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/jk4HwoLzsi"
+        }
+      ],
+      "photos": [
+        {
+          "backgroundColor": {
+            "red": 204,
+            "green": 214,
+            "blue": 221
+          },
+          "cropCandidates": [
+            {
+              "h": 762,
+              "w": 1361,
+              "x": 0,
+              "y": 1022
+            },
+            {
+              "h": 1361,
+              "w": 1361,
+              "x": 0,
+              "y": 423
+            },
+            {
+              "h": 1552,
+              "w": 1361,
+              "x": 0,
+              "y": 232
+            },
+            {
+              "h": 1784,
+              "w": 892,
+              "x": 312,
+              "y": 0
+            },
+            {
+              "h": 1784,
+              "w": 1361,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "expandedUrl": "https://x.com/Hesamation/status/2042979500103815306/photo/1",
+          "url": "https://pbs.twimg.com/media/HFobfr0WwAAA2d1.jpg",
+          "width": 1361,
+          "height": 1784
+        }
+      ]
+    },
+    "isEdited": true,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDQzMTYzOTY1NTk4MTE3ODg4"
+  }
+}

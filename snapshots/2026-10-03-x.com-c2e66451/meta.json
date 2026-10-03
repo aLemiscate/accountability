@@ -1,0 +1,36 @@
+{
+  "url": "https://x.com/AnthropicAI/status/1848742767859499441",
+  "captured_at": "2026-10-03T12:04:46.632Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "c6afa3f1e080e55eaf3ebd8425aeabd83aae10c46b7b7886cdb60e83f2fed415",
+    "page.txt": "fb1cc91bb1a161a272e0fd18ad2deb9e0d2ddbe01789bde134880f0877698209",
+    "post.json": "e3ea26f7838137448da57fc5084a4cbf6ce92ce6669dc8e412b599beb042b5b9",
+    "syndication.json": "045d8c8b5f86d351911e27cef6615e62e437671adaa0135b90ec4d2802ea5a2e",
+    "media-1.png": "cc9f01fb247fbd0408587b3b0700ad73ed20a729588bf573ebcb0dd33526dffe",
+    "post.txt": "ebca16a8fcd5f89bf0a1901cfcccac0d7d13bd25e8501b37d544c76c623ab6e4"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/AnthropicAI/status/1848742767859499441",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Anthropic on X: \"Claude 3.5 Haiku is the next generation of our fastest model. Haiku now outperforms many state-of-the-art models on coding tasks—including the original Claude 3.5 Sonnet and GPT-4o—at the same cost as before. The new Claude 3.5 Haiku will be released later this month.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Anthropic (@AnthropicAI)",
+    "date": "October 22, 2024",
+    "posted_at": "2024-10-22T15:06:38.494Z",
+    "media": [
+      {
+        "file": "media-1.png",
+        "url": "https://pbs.twimg.com/media/GagIy5AWIAA7NeW.png"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20250328045145/https://x.com/AnthropicAI/status/1848742767859499441",
+    "timestamp": "20250328045145",
+    "method": "existing"
+  }
+}

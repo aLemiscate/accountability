@@ -1,0 +1,175 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 192,
+  "in_reply_to_screen_name": "deredleritt3r",
+  "in_reply_to_status_id_str": "1967783352292737351",
+  "in_reply_to_user_id_str": "1744055410108080128",
+  "lang": "en",
+  "created_at": "2025-09-16T02:58:11.000Z",
+  "display_text_range": [
+    41,
+    290
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "1744055410108080128",
+        "indices": [
+          0,
+          14
+        ],
+        "name": "prinz",
+        "screen_name": "deredleritt3r"
+      },
+      {
+        "id_str": "2812348892",
+        "indices": [
+          15,
+          27
+        ],
+        "name": "Harlan Stewart",
+        "screen_name": "HumanHarlan"
+      },
+      {
+        "id_str": "16377511",
+        "indices": [
+          28,
+          40
+        ],
+        "name": "Rick",
+        "screen_name": "rickasaurus"
+      }
+    ]
+  },
+  "id_str": "1967785055994122443",
+  "text": "@deredleritt3r @HumanHarlan @rickasaurus The timeline we see is end of 2026/early 2027. Of course, many reasons this could be wrong, but so far believe many public trends point to this - METR benchmark, FrontierMath, advancing computer use, Aug vs automation mix in our economic index, etc.",
+  "user": {
+    "id_str": "86351835",
+    "name": "Jack Clark",
+    "screen_name": "jackclarkSF",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/726446881547517952/ULhSTKxN_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1967785055994122443"
+    ],
+    "editable_until_msecs": "1757995091000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 9,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 14,
+    "in_reply_to_screen_name": "HumanHarlan",
+    "in_reply_to_status_id_str": "1967782950457708560",
+    "in_reply_to_user_id_str": "2812348892",
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 1,
+    "retweet_count": 0,
+    "created_at": "2025-09-16T02:51:25.000Z",
+    "display_text_range": [
+      26,
+      101
+    ],
+    "entities": {
+      "urls": [
+        {
+          "display_url": "x.com/jackclarkSF/st…",
+          "expanded_url": "https://x.com/jackclarkSF/status/1962271034998194350",
+          "indices": [
+            78,
+            101
+          ],
+          "url": "https://t.co/42SquaIpaa"
+        }
+      ],
+      "user_mentions": [
+        {
+          "id_str": "2812348892",
+          "indices": [
+            0,
+            12
+          ],
+          "name": "Harlan Stewart",
+          "screen_name": "HumanHarlan"
+        },
+        {
+          "id_str": "16377511",
+          "indices": [
+            13,
+            25
+          ],
+          "name": "Rick",
+          "screen_name": "rickasaurus"
+        }
+      ]
+    },
+    "id_str": "1967783352292737351",
+    "text": "@HumanHarlan @rickasaurus I'm sure it's ultimately the same timeline as this:\nhttps://t.co/42SquaIpaa",
+    "user": {
+      "id_str": "1744055410108080128",
+      "name": "prinz",
+      "screen_name": "deredleritt3r",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1874359541720092672/ciOMFG2x_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1967783352292737351"
+      ],
+      "editable_until_msecs": "1757994685000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "quoted_tweet": {
+      "__typename": "Tweet",
+      "favorite_count": 234,
+      "in_reply_to_screen_name": "deredleritt3r",
+      "in_reply_to_status_id_str": "1962268737786048715",
+      "in_reply_to_user_id_str": "1744055410108080128",
+      "lang": "en",
+      "reply_count": 5,
+      "retweet_count": 22,
+      "created_at": "2025-08-31T21:47:26.000Z",
+      "display_text_range": [
+        15,
+        272
+      ],
+      "entities": {
+        "user_mentions": [
+          {
+            "id_str": "1744055410108080128",
+            "indices": [
+              0,
+              14
+            ],
+            "name": "prinz",
+            "screen_name": "deredleritt3r"
+          }
+        ]
+      },
+      "id_str": "1962271034998194350",
+      "text": "@deredleritt3r I continue to think things are pretty well on track for the sort of powerful AI system defined in machines of loving grace - buildable end of 2026, running many copies 2027. Of course, there are many reasons this could not occur, but lots of progress so far",
+      "user": {
+        "id_str": "86351835",
+        "name": "Jack Clark",
+        "screen_name": "jackclarkSF",
+        "is_blue_verified": true,
+        "profile_image_shape": "Circle",
+        "verified": false,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/726446881547517952/ULhSTKxN_normal.jpg"
+      }
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

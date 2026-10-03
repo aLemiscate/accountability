@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/mikeyk/status/1995920258595749969",
+  "captured_at": "2026-10-03T12:28:34.115Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "42755678fe9e53d232b3a9477a8f2935521471dcafe3dd5f5f06cc68384e5b2c",
+    "page.txt": "4913d63b7f53d5bd4d0bd5582b5b2fbe50bee729c70ad109270a4b5b89f42c8d",
+    "post.json": "4821d18219238133c88b73f32a4053f81eca9d654aac05291ba4a17bf899bcaf",
+    "syndication.json": "6569c3010c7a049e3bee8d7da54dfc6f051f58a2d3d046ed3c8144ea94e144cf",
+    "post.txt": "d3d99f6f112c79fd9c5e5c94869fc564c4404a30cc8eb7e8ec061d279ed90c5d"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/mikeyk/status/1995920258595749969",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Mike Krieger on X: \"Anthropic is acquiring @bunjavascript! Bun will remain open source and MIT-licensed. We'll keep investing in making it the best runtime, bundler, package manager, and test runner for JS and TS developers, while building even better workflows into Claude Code.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Mike Krieger (@mikeyk)",
+    "date": "December 2, 2025",
+    "posted_at": "2025-12-02T18:17:26.711Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20251203074332/https://x.com/mikeyk/status/1995920258595749969",
+    "timestamp": "20251203074332",
+    "method": "existing"
+  }
+}

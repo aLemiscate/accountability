@@ -1,0 +1,408 @@
+OpenAI to Retire Custom GPTs, Replace Them with Plugins -- Virtualization Review
+Advanced Search
+Skip to main content
+Tracking enterprise infrastructure's evolution in the AI era
+Add as a preferred source on Google
+• Home
+• Papers
+• Webcasts
+• Newsletters
+• Advertise
+• Training
+• Summits
+• More
+• News
+• How-To
+• Contact Us
+• Site Map
+•
+•
+•
+•
+•
+•
+•
+• Topics
+• Cloud
+• Edge & AI
+• Containers/Kubernetes
+• End User Computing & DaaS
+• Networking & Security
+• Virtualization Platforms
+• Backup & Data Resilience
+News
+OpenAI to Retire Custom GPTs, Replace Them with Plugins
+• By David Ramel
+• 09/28/2026
+Key Takeaways
+• OpenAI plans to retire Custom GPTs on Dec. 11, with account and workspace timing potentially varying.
+• The replacement plugin architecture combines reusable skills with reference files, connected apps and optional MCP-based tools.
+• Organizations will need to test migrated workflows because sharing settings, existing conversations and Custom Actions do not automatically transfer.
+OpenAI is preparing to retire Custom GPTs and move the specialized workflows built around them to a new plugin architecture spanning ChatGPT and its Codex coding agent.
+The company announced the change Sept. 11 and currently schedules Custom GPT retirement for Dec. 11, 2026, although it says timing and migration availability can vary by account and workspace.
+For affected Enterprise workspaces, OpenAI's current migration schedule targets Oct. 26 for ending creation of new Custom GPTs. Qualifying Enterprise customers with approved deferrals can continue using them until Feb. 11, 2027.
+OpenAI has changed its UI to make GPTs less prominent, and when users choose to try creating a new Custom GPT, they are now prompted with an option to create a plugin instead.
+Create Plugin Instead (source: OpenAI).
+From Custom Assistants to Reusable Capabilities
+Rather than maintaining separate customized versions of ChatGPT, OpenAI is shifting customization toward plugins that can package reusable instructions, reference material and connections to outside services.
+Under OpenAI's plugin architecture , a plugin can include one or more skills containing instructions and resources for repeatable workflows, a Model Context Protocol (MCP) server exposing tools and external systems, or both. ChatGPT and Codex share a universal plugin directory, although some capabilities can remain specific to a particular environment.
+For organizations, that makes the change more than a simple renaming exercise. A company could package recurring workflows into skills while using MCP servers or connected apps to give those workflows access to enterprise systems and data.
+OpenAI says creators will be able to migrate an existing GPT through the My GPTs interface. The GPT's instructions become a skill in the replacement plugin, while knowledge files are copied into plugin reference files and connected apps can be carried over.
+Migration Comes with Caveats
+Not everything transfers automatically. Existing GPT conversations do not migrate, the selected model does not carry over and Custom Actions may have to be rebuilt using an available app or a custom MCP server.
+Sharing also changes. Migrated plugins start private, existing GPT users do not automatically receive access to the replacement and prior sharing settings do not carry over.
+OpenAI is also cautioning organizations against assuming that migration will preserve behavior exactly. "A migrated plugin may respond differently," the company says, recommending that users retest familiar prompts, reference-material use, required output formats and integrations before relying on the replacement.
+That warning has contributed to pushback from some GPT builders , who argue that plugins do not fully reproduce the dedicated and predictable environment of a Custom GPT. Other complaints have focused on sharing, migration complexity and differences in how migrated workflows use instructions and reference material.
+Despite those concerns, OpenAI is clearly consolidating around plugins as its common mechanism for extending its AI products. Its developer documentation now describes plugins as packages users can "discover, install, share, and publish" across ChatGPT and Codex, replacing the separate-custom-assistant model with reusable AI capabilities that can be combined with enterprise tools and services.
+About the Author
+David Ramel is an editor and writer at Converge 360.
+Recommended: Solving VMware Backup Challenges with the Cloud
+Featured
+•
+Why Tokenomics Is More Than Just Counting Tokens
+•
+•
+Stop Blaming the VM: How DEX and XLAs Pinpoint the Real Root of Bad User Experience
+•
+AI Governance Expert: Give Every Agent Its Own Identity -- and a Kill Switch
+Most Popular
+• Most Popular Articles
+• Most Emailed Articles
+OpenAI to Retire Custom GPTs, Replace Them with Plugins
+Thales: AI and Quantum Risks Converge on Enterprise Data, Especially in the Cloud
+Users Decry Problems in OpenAI-Mandated Custom GPT-to-Plugin Migration
+Ditch the Cloud: 7 Powerful, Free Local AI Tools
+Gartner: Broadcom's VMware Deal Has 'Reinvigorated' Server Virtualization
+Subscribe on YouTube
+Virtualization Review
+Sign up for our newsletter.
+Email Address* * * Country*
+United States of America
+Afghanistan
+Åland Islands
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antarctica
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Australia
+Azerbaijan
+Austria
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia, Plurinational State of
+Bonaire, Sint Eustatius and Saba
+Bosnia and Herzegovina
+Botswana
+Bouvet Island
+Brazil
+British Indian Ocean Territory
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde (Cabo Verde)
+Cayman Islands
+Curaçao
+Central African Republic
+Chad
+Chile
+China
+Christmas Island
+Cocos (Keeling) Islands
+Colombia
+Comoros
+Congo
+Congo, the Democratic Republic of the
+Cook Islands
+Costa Rica
+Côte d'Ivoire
+Croatia
+Cuba
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Falkland Islands (Malvinas)
+Faroe Islands
+Fiji
+Finland
+France
+French Guiana
+French Polynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonald Islands
+Holy See (Vatican City State)
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Iran, Islamic Republic of
+Iraq
+Ireland
+Isle of Man
+Israel
+Italy
+Jamaica
+Japan
+Jersey
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea, Democratic People's Republic of
+Korea, Republic of
+Kuwait
+Kyrgyzstan
+Lao People's Democratic Republic
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macao
+Macedonia, the former Yugoslav Republic of
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia, Federated States of
+Moldova, Republic of
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nauru
+Nepal
+Netherlands
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+Northern Mariana Islands
+Norway
+Pakistan
+Oman
+Palau
+Palestinian Territory, Occupied
+Panama
+Paraguay
+Papua New Guinea
+Peru
+Philippines
+Pitcairn
+Poland
+Portugal
+Puerto Rico
+Qatar
+Réunion
+Romania
+Russian Federation
+Rwanda
+Saint Barthélemy
+Saint Helena, Ascension and Tristan da Cunha
+Saint Kitts and Nevis
+Saint Lucia
+Saint Martin (French part)
+Saint Pierre and Miquelon
+Saint Vincent and the Grenadines
+Samoa
+San Marino
+Sao Tome and Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Sint Maarten (Dutch part)
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Georgia and the South Sandwich Islands
+South Sudan
+Spain
+Sri Lanka
+Sudan
+Suriname
+Svalbard and Jan Mayen
+Eswatini (Swaziland)
+Sweden
+Switzerland
+Syrian Arab Republic
+Taiwan, Province of China
+Tajikistan
+Tanzania, United Republic of
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States Minor Outlying Islands
+Uruguay
+Uzbekistan
+Vanuatu
+Viet Nam
+Venezuela, Bolivarian Republic of
+Virgin Islands, British
+Virgin Islands, U.S.
+Wallis and Futuna
+Western Sahara
+Yemen
+Zambia
+Zimbabwe
+*
+I agree to this site's Privacy Policy
+Please type the letters/numbers you see above.
+• Most Popular Articles
+• Most Emailed Articles
+OpenAI to Retire Custom GPTs, Replace Them with Plugins
+Thales: AI and Quantum Risks Converge on Enterprise Data, Especially in the Cloud
+Users Decry Problems in OpenAI-Mandated Custom GPT-to-Plugin Migration
+Ditch the Cloud: 7 Powerful, Free Local AI Tools
+Gartner: Broadcom's VMware Deal Has 'Reinvigorated' Server Virtualization
+Upcoming Training Events
+0
+AM
+Live! 360 6-Week Training & Certification Course: Mastering the Microsoft AI Framework: Building Enterprise-Ready AI Agents with Microsoft Foundry October 6–November 10, 2026
+VSLive! 6-Week Training & Certification Course: Blazor Developer Accelerator: Hands-On Skills for Real-World .NET Teams October 7 – November 11, 2026
+Live! 360 Orlando November 15-20, 2026
+Artificial Intelligence Live! Orlando November 15-20, 2026
+AI Enterprise Architecture Live! Orlando November 15-20, 2026
+Cybersecurity & Ransomware Live! Orlando November 15-20, 2026
+Data Platform Live! Orlando November 15-20, 2026
+Visual Studio Live! Orlando November 15-20, 2026
+Live! 360 2-Day Hands-On Seminar: AI-Powered .NET Development with Claude & Claude Code December 8-9, 2026
+VSLive! 4-Day Hands-On Training Seminar: Immersive .NET Full Stack Training with CoPilot: 4-Day Hands-On Experience December 15-18, 2026
+Visual Studio Live! Las Vegas March 22-26, 2027
+Visual Studio Live! Austin May 2-6, 2027
+Visual Studio Live! @ Microsoft HQ August 2-6, 2027
+Free White Papers
+•
+How to Solve Healthcare OT Security Challenges
+•
+Employ Agents Effectively: A Data Executive's Blueprint for the Agentic Enterprise
+•
+Take Control of Your AI: Cohere AI Models on Foundry
+•
+Data Storage: 5 Ways Federal IT Leaders Can Improve Efficiency in a Volatile Market
+More Tech Library
+Sponsored Webcasts
+•
+Beyond the Managed Control Plane: Protecting and Moving Kubernetes Apps Across AWS with Veeam Kasten
+•
+The New Rules of Virtualization Security Summit
+•
+Storage Strategy That Drives Business Outcomes: 5 Principles for a Future-Ready Foundation
+•
+Tech Talk | Beyond the Sandbox: Operationalizing Private Enterprise AI
+More Webcasts
+• Contact Us
+• Advertise
+• Archives
+• Training
+• Free Newsletters
+• Reprints
+• List Rental
+• Glossary
+• AI Boardroom
+• ADTmag
+• AWS Insider
+• Campus Security Today
+• Campus Technology
+• Environmental Protection
+• Live! 360 Events
+• MCPmag
+• MedCloudInsider
+• Occupational Health & Safety
+• Pure AI
+• Pure Robotics
+• Redmond
+• Redmond Channel Partner
+• Security Today
+• Spaces 4 Learning
+• TechMentor
+• Tech Tactics in Education
+• The AI Pivot
+• THE Journal
+• Virtualization & Cloud Review
+• Visual Studio Magazine
+• Visual Studio Live!
+&copy
+1105 Media Inc . See our Privacy Policy , Cookie Policy and Terms of Use . CA: Do Not Sell My Personal Info
+Problems? Questions? Feedback? E-mail us.

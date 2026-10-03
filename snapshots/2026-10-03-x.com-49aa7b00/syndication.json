@@ -1,0 +1,47 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 148,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2023-01-31T18:10:59.000Z",
+  "display_text_range": [
+    0,
+    278
+  ],
+  "entities": {
+    "urls": [
+      {
+        "display_url": "openai.com/blog/new-ai-cl…",
+        "expanded_url": "https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text/",
+        "indices": [
+          255,
+          278
+        ],
+        "url": "https://t.co/twWIjgnP7k"
+      }
+    ]
+  },
+  "id_str": "1620484806281940993",
+  "text": "Everyone has a right to know whether they are interacting with a human or AI.\n\nLanguage models like ChatGPT are good at posing as humans.\n\nSo we trained a classifier to distinguish between AI-written and human-written text.\n\nBut it's not fully reliable.\n\nhttps://t.co/twWIjgnP7k",
+  "user": {
+    "id_str": "710610891058716673",
+    "name": "Jan Leike",
+    "screen_name": "janleike",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1077523091700502528/2YCa_F4o_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1620484806281940993"
+    ],
+    "editable_until_msecs": "1675190459000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 19,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

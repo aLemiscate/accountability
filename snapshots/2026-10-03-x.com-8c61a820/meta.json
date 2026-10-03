@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/janleike/status/1886452525437800874",
+  "captured_at": "2026-10-03T12:09:49.043Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "7b3fade74ca226f182790cfd55eb34380dd75e23d5e13642401db25d6ee90a65",
+    "page.txt": "347abba5bc63ceeae56956f34d816513c07b38e4d26af5c8a883ac4cf737d7d1",
+    "post.json": "7376b1c0d5f9978ac6dc71ec945413180267034131b93cdbcea24e1f7bd29d29",
+    "syndication.json": "012928ac142bb04a5f90cdbb4c42b74caf6fa18c35499c6b619227a5d985cef2",
+    "post.txt": "54550b28094fe644972cf0362eca0802a483e01ca0254f353bf78a6f2f66f8e9"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/janleike/status/1886452525437800874",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Jan Leike on X: \"Super exciting robustness result: We built a system that defends against universal jailbreaks! It has minimal increase in refusal rate and moderate inference cost.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Jan Leike (@janleike)",
+    "date": "February 3, 2025",
+    "posted_at": "2025-02-03T16:31:45.314Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20250215025745/https://x.com/janleike/status/1886452525437800874",
+    "timestamp": "20250215025745",
+    "method": "existing"
+  }
+}

@@ -9,23 +9,23 @@ venue: Letter to the OpenAI community as board chair, posted on X
 quote: >-
   The Board's focus is stabilizing the company, building out a qualified and
   diverse board, and enhancing governance procedures consistent with the
-  importance and complexity of OpenAI’s mission. … when these transitional
-  tasks have been completed, I intend to step away and leave the oversight of
-  OpenAI in the good hands of board colleagues.
+  importance and complexity of OpenAI’s mission. … when these transitional tasks
+  have been completed, I intend to step away and leave the oversight of OpenAI
+  in the good hands of board colleagues.
 summary: >-
   Bret Taylor became chair of the three-member "initial board" formed when Sam
   Altman returned as CEO in November 2023, alongside Adam D'Angelo and Larry
   Summers. Posting the board's letter to staff, he named its tasks: stabilizing
-  the company, building out the board and enhancing governance. Once those
-  were done, he said, he intended to step away. On March 8, 2024, OpenAI
-  announced that the WilmerHale review was complete, named three new directors
-  and listed new governance measures: corporate governance guidelines, a
-  stronger conflict-of-interest policy, a whistleblower hotline and new board
-  committees. Two weeks later Fortune reported Taylor as saying there was no
-  end date for his role other than when OpenAI is in a "stable state." He
-  stayed on as chair through the October 2025 recapitalization. In September
-  2026 OpenAI described him as "Chair of the OpenAI Foundation and OpenAI Group
-  PBC Boards," the nonprofit and the for-profit company it controls.
+  the company, building out the board and enhancing governance. Once those were
+  done, he said, he intended to step away. On March 8, 2024, OpenAI announced
+  that the WilmerHale review was complete, named three new directors and listed
+  new governance measures: corporate governance guidelines, a stronger
+  conflict-of-interest policy, a whistleblower hotline and new board committees.
+  Two weeks later Fortune reported Taylor as saying there was no end date for
+  his role other than when OpenAI is in a "stable state." He stayed on as chair
+  through the October 2025 recapitalization. In September 2026 OpenAI described
+  him as "Chair of the OpenAI Foundation and OpenAI Group PBC Boards," the
+  nonprofit and the for-profit company it controls.
 concreteness: conditional
 status: eroded
 patterns: [unfalsifiable]
@@ -41,36 +41,42 @@ sources:
     url: https://x.com/btaylor/status/1730030765482938521
     date: 2023-11-29
     type: primary
+    snapshot: snapshots/2026-10-03-x.com-aec8f598
   - title: Larry Summers on X ("independent director of @OpenAI")
     publisher: X
     url: https://x.com/LHSummers/status/1730047296375590995
     date: 2023-11-29
     type: primary
+    archive: https://web.archive.org/web/20251119135404/https://x.com/LHSummers/status/1730047296375590995
+    snapshot: snapshots/2026-10-03-x.com-4c080e29
   - title: Review completed & Altman, Brockman to continue to lead OpenAI
     publisher: OpenAI
     url: https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai/
     date: 2024-03-08
     type: primary
     archive: https://web.archive.org/web/20260913014725/https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai/
+    snapshot: snapshots/2026-10-03-openai.com-133307ab
   - title: Stop focusing on the AI drama, says OpenAI chairman and startup cofounder
       Bret Taylor
     publisher: Fortune
     url: https://fortune.com/2024/03/22/bret-taylor-open-ai-chairman-sierra-chatbot-clay-bavor-brainstorm-tech-dinner/
     date: 2024-03-22
     type: reporting
+    snapshot: snapshots/2026-10-03-fortune.com-b872f829
   - title: Paul Christiano joins OpenAI Foundation Board
     publisher: OpenAI
     url: https://openai.com/index/paul-christiano-joins-openai-foundation-board/
     date: 2026-09-09
     type: primary
     archive: https://web.archive.org/web/20260920002520/https://openai.com/index/paul-christiano-joins-openai-foundation-board/
+    snapshot: snapshots/2026-10-03-openai.com-6c328e54
 response: >-
   Taylor told a Fortune event in March 2024 that his role was meant to be
   temporary, with no end date other than when OpenAI reaches a "stable state."
   This record found no later statement from him or OpenAI on why he stayed.
 note: >-
   Staying on may well be what the rest of the board wanted, and a company that
-  went through a recapitalization was arguably never "stable." That is the
-  point of grading this one: the condition was Taylor's to judge, so the pledge
-  could not be broken on a date. Nearly three years on, the chair of the
-  "initial board" chairs both boards of the restructured company.
+  went through a recapitalization was arguably never "stable." That is the point
+  of grading this one: the condition was Taylor's to judge, so the pledge could
+  not be broken on a date. Nearly three years on, the chair of the "initial
+  board" chairs both boards of the restructured company.

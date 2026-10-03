@@ -1,0 +1,224 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 550,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2023-12-14T17:18:30.000Z",
+  "display_text_range": [
+    0,
+    261
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/GMyZcFRxqG",
+        "expanded_url": "https://x.com/leopoldasch/status/1735348551826227452/photo/1",
+        "indices": [
+          262,
+          285
+        ],
+        "url": "https://t.co/GMyZcFRxqG"
+      }
+    ]
+  },
+  "id_str": "1735348551826227452",
+  "text": "RLHF works great for today's models. But aligning future superhuman models will present fundamentally new challenges.\n\nWe need new approaches + scientific understanding.\n\nNew researchers can make enormous contributions—and we want to fund you!\n\nApply by Feb 18! https://t.co/GMyZcFRxqG",
+  "user": {
+    "id_str": "2989966781",
+    "name": "Leopold Aschenbrenner",
+    "screen_name": "leopoldasch",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2056235691961614336/HhB3CouO_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1735348551826227452"
+    ],
+    "editable_until_msecs": "1702577910000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/GMyZcFRxqG",
+      "expanded_url": "https://x.com/leopoldasch/status/1735348551826227452/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        262,
+        285
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/GBUx5wBXMAAl5Od.jpg",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 746,
+            "w": 1332,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1332,
+            "w": 1332,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1334,
+            "w": 1170,
+            "x": 47,
+            "y": 0
+          },
+          {
+            "h": 1334,
+            "w": 667,
+            "x": 299,
+            "y": 0
+          },
+          {
+            "h": 1334,
+            "w": 1332,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 1334,
+        "width": 1332
+      },
+      "sizes": {
+        "large": {
+          "h": 1334,
+          "resize": "fit",
+          "w": 1332
+        },
+        "medium": {
+          "h": 1200,
+          "resize": "fit",
+          "w": 1198
+        },
+        "small": {
+          "h": 680,
+          "resize": "fit",
+          "w": 679
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/GMyZcFRxqG"
+    }
+  ],
+  "photos": [
+    {
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 746,
+          "w": 1332,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 1332,
+          "w": 1332,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 1334,
+          "w": 1170,
+          "x": 47,
+          "y": 0
+        },
+        {
+          "h": 1334,
+          "w": 667,
+          "x": 299,
+          "y": 0
+        },
+        {
+          "h": 1334,
+          "w": 1332,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/leopoldasch/status/1735348551826227452/photo/1",
+      "url": "https://pbs.twimg.com/media/GBUx5wBXMAAl5Od.jpg",
+      "width": 1332,
+      "height": 1334
+    }
+  ],
+  "conversation_count": 30,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 2721,
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 250,
+    "retweet_count": 441,
+    "created_at": "2023-12-14T17:15:51.000Z",
+    "display_text_range": [
+      0,
+      278
+    ],
+    "entities": {
+      "urls": [
+        {
+          "display_url": "openai.com/blog/superalig…",
+          "expanded_url": "https://openai.com/blog/superalignment-fast-grants",
+          "indices": [
+            255,
+            278
+          ],
+          "url": "https://t.co/eCKwZWLSZE"
+        }
+      ],
+      "user_mentions": [
+        {
+          "id_str": "93957809",
+          "indices": [
+            32,
+            44
+          ],
+          "name": "Eric Schmidt",
+          "screen_name": "ericschmidt"
+        }
+      ]
+    },
+    "id_str": "1735347884718211562",
+    "text": "We're announcing, together with @ericschmidt: Superalignment Fast Grants.\n\n$10M in grants for technical research on aligning superhuman AI systems, including weak-to-strong generalization, interpretability, scalable oversight, and more.\n\nApply by Feb 18! https://t.co/eCKwZWLSZE",
+    "user": {
+      "id_str": "4398626122",
+      "name": "OpenAI",
+      "screen_name": "OpenAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1735347884718211562"
+      ],
+      "editable_until_msecs": "1702577751000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

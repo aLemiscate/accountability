@@ -1,0 +1,49 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 18980,
+  "lang": "en",
+  "created_at": "2025-08-13T01:19:02.000Z",
+  "display_text_range": [
+    0,
+    279
+  ],
+  "entities": {},
+  "id_str": "1955438916645130740",
+  "text": "Updates to ChatGPT:\n\nYou can now choose between “Auto”, “Fast”, and “Thinking” for GPT-5. Most users will want Auto, but the additional control will be useful for some people.\n\nRate limits are now 3,000 messages/week with GPT-5 Thinking, and then extra capacity on GPT-5 Thinking",
+  "user": {
+    "id_str": "1605",
+    "name": "Sam Altman",
+    "screen_name": "sama",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_normal.jpg",
+    "highlighted_label": {
+      "badge": {
+        "url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_bigger.jpg"
+      },
+      "description": "OpenAI",
+      "url": {
+        "url": "https://twitter.com/OpenAI",
+        "url_type": "DeepLink"
+      },
+      "user_label_display_type": "Badge",
+      "user_label_type": "BusinessLabel"
+    }
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1955438916645130740"
+    ],
+    "editable_until_msecs": "1755051542000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 3925,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoxOTU1NDM4OTE2NTE5MjAyODE2"
+  }
+}

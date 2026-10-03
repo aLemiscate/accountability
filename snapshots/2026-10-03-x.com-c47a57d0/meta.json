@@ -1,0 +1,36 @@
+{
+  "url": "https://x.com/AnthropicAI/status/1887227067156386027",
+  "captured_at": "2026-10-03T12:10:27.753Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "75b6b6c2c822f9bf74f8ab79791a1c5c8afd80f26d53aabe7e34407c34a57d81",
+    "page.txt": "3006c12fbdaa1d88c4209c6417242bd19ad43c372aabb0fddc544863a4b444d3",
+    "post.json": "d10fe744fd9a82d9b00bd6415b5a8d82dacf02738b67b623b23680be3971e576",
+    "syndication.json": "9adfc1e374ed4783a3bef2214f70245e481327d8dcfed40ca1b567bcf07f909a",
+    "quoted-media-1.jpg": "5f97a6e05135418ccbbd9325ba022bd6ef2bb6029560d7d9c9f1ca14db8cade8",
+    "post.txt": "7c94d9d7ac65b71ea0b32d23510be5e05371a023298a8850e9e8b45509112cc9"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/AnthropicAI/status/1887227067156386027",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Anthropic on X: \"Nobody has fully jailbroken our system yet, so we're upping the ante. We’re now offering $10K to the first person to pass all eight levels, and $20K to the first person to pass all eight levels with a universal jailbreak. Full details: https://t.co/As1zPIQGOx\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Anthropic (@AnthropicAI)",
+    "date": "February 5, 2025",
+    "posted_at": "2025-02-05T19:49:30.450Z",
+    "media": [
+      {
+        "file": "quoted-media-1.jpg",
+        "url": "https://pbs.twimg.com/media/Gi4CWjyXkAAFI7N.jpg"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260210061136/https://x.com/AnthropicAI/status/1887227067156386027",
+    "timestamp": "20260210061136",
+    "method": "existing"
+  }
+}

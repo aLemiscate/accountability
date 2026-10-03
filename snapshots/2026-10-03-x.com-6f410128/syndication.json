@@ -1,0 +1,75 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 1502,
+  "in_reply_to_screen_name": "OpenAI",
+  "in_reply_to_status_id_str": "2042295688323875316",
+  "in_reply_to_user_id_str": "4398626122",
+  "lang": "en",
+  "created_at": "2026-04-09T17:36:51.000Z",
+  "display_text_range": [
+    0,
+    273
+  ],
+  "entities": {},
+  "id_str": "2042295690382995789",
+  "text": "The Codex promotion for existing Plus subscribers ends today and as a part of this, we’re rebalancing Codex usage in Plus to support more sessions throughout the week, rather than longer sessions in a single day.\n\nThe Plus plan will continue to be the best offer at $20 for",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2042295690382995789"
+    ],
+    "editable_until_msecs": "1775759811000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 116,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 16030,
+    "lang": "en",
+    "reply_count": 1261,
+    "retweet_count": 1369,
+    "created_at": "2026-04-09T17:36:50.000Z",
+    "display_text_range": [
+      0,
+      278
+    ],
+    "entities": {},
+    "id_str": "2042295688323875316",
+    "text": "We’re updating our ChatGPT Pro and Plus subscriptions to better support the growing use of Codex.\n\nWe’re introducing a new $100/month Pro tier. This new tier offers 5x more Codex usage than Plus and is best for longer, high-effort Codex sessions. \n\nIn ChatGPT, this new Pro tier",
+    "user": {
+      "id_str": "4398626122",
+      "name": "OpenAI",
+      "screen_name": "OpenAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2042295688323875316"
+      ],
+      "editable_until_msecs": "1775759810000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDQyMjk1NjkwMjk0ODc4MjA4"
+  }
+}

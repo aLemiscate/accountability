@@ -1,0 +1,49 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 841,
+  "lang": "en",
+  "created_at": "2025-09-29T16:58:10.000Z",
+  "display_text_range": [
+    0,
+    280
+  ],
+  "entities": {},
+  "id_str": "1972707487238467914",
+  "text": "Cool thing launching today: you can now buy products directly from ChatGPT (starting with Etsy and expanding soon to over a million Shopify merchants). It’s powered by the Agentic Commerce Protocol, an open standard we built with Stripe.  Merchants and developers who want Instant",
+  "user": {
+    "id_str": "6112332",
+    "name": "Fidji Simo",
+    "screen_name": "fidjissimo",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1422212886487658496/oUzs06MX_normal.jpg",
+    "highlighted_label": {
+      "badge": {
+        "url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_bigger.jpg"
+      },
+      "description": "OpenAI",
+      "url": {
+        "url": "https://twitter.com/OpenAI",
+        "url_type": "DeepLink"
+      },
+      "user_label_display_type": "Badge",
+      "user_label_type": "BusinessLabel"
+    }
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1972707487238467914"
+    ],
+    "editable_until_msecs": "1759168690000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 118,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoxOTcyNzA3NDg3MTEyNzE2Mjg4"
+  }
+}

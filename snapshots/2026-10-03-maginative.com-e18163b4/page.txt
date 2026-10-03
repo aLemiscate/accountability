@@ -1,0 +1,43 @@
+OpenAI Clarifies its Data Privacy Practices for API Users
+By Chris McKay
+July 24, 2023
+&bull; 2 min read
+As OpenAI has rapidly expanded access to its groundbreaking AI products, questions have emerged around how user data is handled. After making important changes to its data privacy practices earlier this year, OpenAI is now providing further clarity into how user data is handled, particularly for developers utilizing its API.
+Previously, data submitted through the API before March 1, 2023 could have been incorporated into model training. This is no longer the case since OpenAI implemented stricter data privacy policies.
+Inputs and outputs to OpenAI's API ( directly via API call or via Playground ) for model inference do not become part of the training data unless you explicitly opt in .
+The company emphasized that models that are accessible via the API are versioned and have completed training—they are not retrained or updated in real-time with API requests.
+Additionally, data upload by users for fine-tuning, is solely used to customize that user's model. It does not flow into OpenAI's general training data. OpenAI does retains ownership of fine-tuned models, however access is exclusive to the user who provided the training data. These users can delete their training data or fine-tuned models at any time.
+The company noted that it may access API data solely for potential abuse monitoring and investigation. To ensure safe and responsible use of their models, API input and output data may be run through safety classifiers. This data is deleted within 30 days unless required for legal reasons, and is only accessible by authorized OpenAI employees, as well as specialized third-party contractors (that are subject to confidentiality and security obligations).
+Models are NOT trained with data that is run through safety classifiers.
+If OpenAI discovers an API user has violated their policies, they may require changes, or for repeating or serious issues, they may suspend or terminate accounts.
+Finally, the company detailed the enterprise-grade security and compliance measures that they implement and maintain across all their products and services:
+• SOC 2 Type 2
+• GDPR
+• CCPA and other state privacy laws
+• HIPAA
+OpenAI has clearly evolved its data policies with greater privacy safeguards and transparency, particularly around access to API user data. Businesses cautious about potential unconsented data use may now have less apprehension.
+However, preserving this trust will necessitate continued diligence from OpenAI in upholding rigorous security standards and maximum transparency about any first-party data leveraged for model training. As the company continues to evolve, its commitment to privacy, safety, and the responsible use of AI, will be instrumental in driving adoption in the enterprise.
+Chris McKay is the founder and chief editor of Maginative. His thought leadership in AI literacy and strategic AI adoption has been recognized by top academic institutions, media, and global brands.
+Recent Perspectives
+Why Your AI Transformation Will Fail
+By
+Chris McKay &bull;
+May 14, 2026
+Google
+Gemini
+With Gemini 3, Google Begins Rebuilding How Work Gets Done
+By
+Chris McKay &bull;
+Nov 18, 2025
+OpenAI
+Open Source
+AI Safety
+OpenAI Releases Open-Weight Safety Models That Rewrite Policy Rules on the Fly
+By
+Chris McKay &bull;
+Oct 29, 2025
+OpenAI
+OpenAI Completes Restructuring: Nonprofit "Control" with Unlimited Investor Returns
+By
+Chris McKay &bull;
+Oct 28, 2025

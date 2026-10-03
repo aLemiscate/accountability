@@ -1,0 +1,186 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 5153,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2026-04-21T13:47:20.000Z",
+  "display_text_range": [
+    0,
+    232
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/TH8ne6Ntfg",
+        "expanded_url": "https://x.com/RonanFarrow/status/2046586584699384061/video/1",
+        "indices": [
+          233,
+          256
+        ],
+        "url": "https://t.co/TH8ne6Ntfg"
+      }
+    ],
+    "urls": [
+      {
+        "display_url": "newyorker.com/magazine/2026/…",
+        "expanded_url": "https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted",
+        "indices": [
+          209,
+          232
+        ],
+        "url": "https://t.co/HEPHN4E54P"
+      }
+    ],
+    "user_mentions": [
+      {
+        "id_str": "14677919",
+        "indices": [
+          182,
+          192
+        ],
+        "name": "The New Yorker",
+        "screen_name": "NewYorker"
+      }
+    ]
+  },
+  "id_str": "2046586584699384061",
+  "text": "When Sam Altman was reinstated at OpenAI after an outside law firm investigation, no report about what was found was ever released. That’s because none was written.\n\nMore in my full @NewYorker  investigation: https://t.co/HEPHN4E54P https://t.co/TH8ne6Ntfg",
+  "user": {
+    "id_str": "340613443",
+    "name": "Ronan Farrow",
+    "screen_name": "RonanFarrow",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1515433189375987715/L6_IRSHH_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2046586584699384061"
+    ],
+    "editable_until_msecs": "1776782840000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "mediaDetails": [
+    {
+      "additional_media_info": {},
+      "display_url": "pic.x.com/TH8ne6Ntfg",
+      "expanded_url": "https://x.com/RonanFarrow/status/2046586584699384061/video/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        233,
+        256
+      ],
+      "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2046586283657457666/img/QLhTsRp3Rwu-1HAS.jpg",
+      "original_info": {
+        "focus_rects": [],
+        "height": 1920,
+        "width": 1080
+      },
+      "sizes": {
+        "large": {
+          "h": 1920,
+          "resize": "fit",
+          "w": 1080
+        },
+        "medium": {
+          "h": 1200,
+          "resize": "fit",
+          "w": 675
+        },
+        "small": {
+          "h": 680,
+          "resize": "fit",
+          "w": 383
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "video",
+      "url": "https://t.co/TH8ne6Ntfg",
+      "video_info": {
+        "aspect_ratio": [
+          9,
+          16
+        ],
+        "duration_millis": 175680,
+        "variants": [
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/amplify_video/2046586283657457666/pl/flVH5INaceY5vm4e.m3u8?v=a19"
+          },
+          {
+            "bitrate": 632000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2046586283657457666/vid/avc1/320x568/iElM7LRcOBR59iYU.mp4"
+          },
+          {
+            "bitrate": 950000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2046586283657457666/vid/avc1/480x852/8ww_wDwHam9j8AEH.mp4"
+          },
+          {
+            "bitrate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2046586283657457666/vid/avc1/720x1280/EGoJe1YOsRN33RL2.mp4"
+          },
+          {
+            "bitrate": 10368000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2046586283657457666/vid/avc1/1080x1920/EN654UU-h2E9FPx9.mp4"
+          }
+        ]
+      }
+    }
+  ],
+  "photos": [],
+  "video": {
+    "aspectRatio": [
+      9,
+      16
+    ],
+    "contentType": "media_entity",
+    "durationMs": 175680,
+    "mediaAvailability": {
+      "status": "available"
+    },
+    "poster": "https://pbs.twimg.com/amplify_video_thumb/2046586283657457666/img/QLhTsRp3Rwu-1HAS.jpg",
+    "variants": [
+      {
+        "type": "application/x-mpegURL",
+        "src": "https://video.twimg.com/amplify_video/2046586283657457666/pl/flVH5INaceY5vm4e.m3u8?v=a19"
+      },
+      {
+        "type": "video/mp4",
+        "src": "https://video.twimg.com/amplify_video/2046586283657457666/vid/avc1/320x568/iElM7LRcOBR59iYU.mp4"
+      },
+      {
+        "type": "video/mp4",
+        "src": "https://video.twimg.com/amplify_video/2046586283657457666/vid/avc1/480x852/8ww_wDwHam9j8AEH.mp4"
+      },
+      {
+        "type": "video/mp4",
+        "src": "https://video.twimg.com/amplify_video/2046586283657457666/vid/avc1/720x1280/EGoJe1YOsRN33RL2.mp4"
+      },
+      {
+        "type": "video/mp4",
+        "src": "https://video.twimg.com/amplify_video/2046586283657457666/vid/avc1/1080x1920/EN654UU-h2E9FPx9.mp4"
+      }
+    ],
+    "videoId": {
+      "type": "tweet",
+      "id": "2046586584699384061"
+    },
+    "viewCount": 0
+  },
+  "conversation_count": 77,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

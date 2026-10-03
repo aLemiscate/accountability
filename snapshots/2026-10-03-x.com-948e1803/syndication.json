@@ -1,0 +1,379 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 672,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2019-05-03T22:27:40.000Z",
+  "display_text_range": [
+    0,
+    265
+  ],
+  "entities": {
+    "urls": [
+      {
+        "display_url": "openai.com/blog/better-la…",
+        "expanded_url": "https://openai.com/blog/better-language-models/#update",
+        "indices": [
+          242,
+          265
+        ],
+        "url": "https://t.co/5SKNyaARAt"
+      }
+    ]
+  },
+  "id_str": "1124440412679233536",
+  "text": "Two mechanisms for publishing GPT-2 (and hopefully future powerful models): staged release and partnership-based sharing.\n\nWe're:\n\n1. Releasing the 345M model\n2. Sharing the 1.5B model with partners working on countermeasures (please apply!) https://t.co/5SKNyaARAt",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1124440412679233536"
+    ],
+    "editable_until_msecs": "1556924260132",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 20,
+  "news_action_type": "conversation",
+  "card": {
+    "card_platform": {
+      "platform": {
+        "audience": {
+          "name": "production"
+        },
+        "device": {
+          "name": "iPhone",
+          "version": "13"
+        }
+      }
+    },
+    "name": "summary_large_image",
+    "url": "https://t.co/5SKNyaARAt",
+    "binding_values": {
+      "photo_image_full_size_large": {
+        "image_value": {
+          "alt": "Better Language Models",
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2105262527974162432/dleUhw61?format=jpg&name=800x419",
+          "width": 800
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image": {
+        "image_value": {
+          "alt": "Better Language Models",
+          "height": 150,
+          "url": "https://pbs.twimg.com/card_img/2105262527974162432/dleUhw61?format=jpg&name=280x150",
+          "width": 267
+        },
+        "type": "IMAGE"
+      },
+      "description": {
+        "string_value": "We’ve trained a large-scale unsupervised language model which generates coherent paragraphs of text, achieves state-of-the-art performance on many language modeling benchmarks, and performs rudimen...",
+        "type": "STRING"
+      },
+      "domain": {
+        "string_value": "openai.com",
+        "type": "STRING"
+      },
+      "thumbnail_image_large": {
+        "image_value": {
+          "alt": "Better Language Models",
+          "height": 320,
+          "url": "https://pbs.twimg.com/card_img/2105262527974162432/dleUhw61?format=jpg&name=800x320_1",
+          "width": 569
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_small": {
+        "image_value": {
+          "alt": "Better Language Models",
+          "height": 202,
+          "url": "https://pbs.twimg.com/card_img/2105262527974162432/dleUhw61?format=jpg&name=386x202",
+          "width": 386
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_original": {
+        "image_value": {
+          "alt": "Better Language Models",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2105262527974162432/dleUhw61?format=jpg&name=orig",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "site": {
+        "scribe_key": "publisher_id",
+        "type": "USER",
+        "user_value": {
+          "id_str": "4398626122",
+          "path": []
+        }
+      },
+      "photo_image_full_size_small": {
+        "image_value": {
+          "alt": "Better Language Models",
+          "height": 202,
+          "url": "https://pbs.twimg.com/card_img/2105262527974162432/dleUhw61?format=jpg&name=386x202",
+          "width": 386
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_large": {
+        "image_value": {
+          "alt": "Better Language Models",
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2105262527974162432/dleUhw61?format=jpg&name=800x419",
+          "width": 800
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_small": {
+        "image_value": {
+          "alt": "Better Language Models",
+          "height": 81,
+          "url": "https://pbs.twimg.com/card_img/2105262527974162432/dleUhw61?format=jpg&name=144x144",
+          "width": 144
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_x_large": {
+        "image_value": {
+          "alt": "Better Language Models",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2105262527974162432/dleUhw61?format=png&name=2048x2048_2_exp",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_original": {
+        "image_value": {
+          "alt": "Better Language Models",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2105262527974162432/dleUhw61?format=jpg&name=orig",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_alt_text": {
+        "string_value": "Better Language Models",
+        "type": "STRING"
+      },
+      "vanity_url": {
+        "scribe_key": "vanity_url",
+        "string_value": "openai.com",
+        "type": "STRING"
+      },
+      "photo_image_full_size": {
+        "image_value": {
+          "alt": "Better Language Models",
+          "height": 314,
+          "url": "https://pbs.twimg.com/card_img/2105262527974162432/dleUhw61?format=jpg&name=600x314",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_alt_text": {
+        "string_value": "Better Language Models",
+        "type": "STRING"
+      },
+      "thumbnail_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 79.99,
+              "rgb": {
+                "blue": 12,
+                "green": 6,
+                "red": 53
+              }
+            },
+            {
+              "percentage": 9.15,
+              "rgb": {
+                "blue": 19,
+                "green": 51,
+                "red": 108
+              }
+            },
+            {
+              "percentage": 4.93,
+              "rgb": {
+                "blue": 62,
+                "green": 80,
+                "red": 99
+              }
+            },
+            {
+              "percentage": 3.41,
+              "rgb": {
+                "blue": 59,
+                "green": 50,
+                "red": 76
+              }
+            },
+            {
+              "percentage": 0.88,
+              "rgb": {
+                "blue": 43,
+                "green": 91,
+                "red": 122
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "title": {
+        "string_value": "Better language models and their implications",
+        "type": "STRING"
+      },
+      "summary_photo_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 79.99,
+              "rgb": {
+                "blue": 12,
+                "green": 6,
+                "red": 53
+              }
+            },
+            {
+              "percentage": 9.15,
+              "rgb": {
+                "blue": 19,
+                "green": 51,
+                "red": 108
+              }
+            },
+            {
+              "percentage": 4.93,
+              "rgb": {
+                "blue": 62,
+                "green": 80,
+                "red": 99
+              }
+            },
+            {
+              "percentage": 3.41,
+              "rgb": {
+                "blue": 59,
+                "green": 50,
+                "red": 76
+              }
+            },
+            {
+              "percentage": 0.88,
+              "rgb": {
+                "blue": 43,
+                "green": 91,
+                "red": 122
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "summary_photo_image_x_large": {
+        "image_value": {
+          "alt": "Better Language Models",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2105262527974162432/dleUhw61?format=png&name=2048x2048_2_exp",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image": {
+        "image_value": {
+          "alt": "Better Language Models",
+          "height": 314,
+          "url": "https://pbs.twimg.com/card_img/2105262527974162432/dleUhw61?format=jpg&name=600x314",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 79.99,
+              "rgb": {
+                "blue": 12,
+                "green": 6,
+                "red": 53
+              }
+            },
+            {
+              "percentage": 9.15,
+              "rgb": {
+                "blue": 19,
+                "green": 51,
+                "red": 108
+              }
+            },
+            {
+              "percentage": 4.93,
+              "rgb": {
+                "blue": 62,
+                "green": 80,
+                "red": 99
+              }
+            },
+            {
+              "percentage": 3.41,
+              "rgb": {
+                "blue": 59,
+                "green": 50,
+                "red": 76
+              }
+            },
+            {
+              "percentage": 0.88,
+              "rgb": {
+                "blue": 43,
+                "green": 91,
+                "red": 122
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "photo_image_full_size_x_large": {
+        "image_value": {
+          "alt": "Better Language Models",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2105262527974162432/dleUhw61?format=png&name=2048x2048_2_exp",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "card_url": {
+        "scribe_key": "card_url",
+        "string_value": "https://t.co/5SKNyaARAt",
+        "type": "STRING"
+      },
+      "summary_photo_image_original": {
+        "image_value": {
+          "alt": "Better Language Models",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2105262527974162432/dleUhw61?format=jpg&name=orig",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      }
+    }
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

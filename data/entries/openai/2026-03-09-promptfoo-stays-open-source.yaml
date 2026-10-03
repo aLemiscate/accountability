@@ -1,5 +1,5 @@
-title: 'Standing promise: after OpenAI''s acquisition, "Promptfoo will remain open
-  source under the current license"'
+title: 'Standing promise: after OpenAI''s acquisition, "Promptfoo will remain
+  open source under the current license"'
 date: 2026-03-09
 org: openai
 type: said
@@ -26,10 +26,13 @@ sources:
     url: https://x.com/OpenAI/status/2031052793835106753
     date: 2026-03-09
     type: primary
+    snapshot: snapshots/2026-10-03-x.com-339f8df7
   - title: Promptfoo LICENSE file
     publisher: GitHub (promptfoo/promptfoo)
     url: https://github.com/promptfoo/promptfoo/blob/main/LICENSE
     date: 2026-10-03
     type: primary
+    archive: https://web.archive.org/web/20261003100354/https://github.com/promptfoo/promptfoo/blob/main/LICENSE
+    snapshot: snapshots/2026-10-03-github.com-847ad33c
 note: >-
   Held so far. Anthropic made the same promise for Bun (see related).

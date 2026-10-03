@@ -1,0 +1,97 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 665,
+  "in_reply_to_screen_name": "claudeai",
+  "in_reply_to_status_id_str": "1968416783926247442",
+  "in_reply_to_user_id_str": "1943306828697550848",
+  "lang": "en",
+  "created_at": "2025-09-17T20:48:27.000Z",
+  "display_text_range": [
+    0,
+    166
+  ],
+  "entities": {},
+  "id_str": "1968416786413506591",
+  "text": "To state it plainly: We never reduce model quality due to demand, time of day, or server load.\n\nThe problems our users reported were due to infrastructure bugs alone.",
+  "user": {
+    "id_str": "1943306828697550848",
+    "name": "Claude",
+    "screen_name": "claudeai",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_normal.jpg",
+    "highlighted_label": {
+      "badge": {
+        "url": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_bigger.jpg"
+      },
+      "description": "Anthropic",
+      "url": {
+        "url": "https://twitter.com/AnthropicAI",
+        "url_type": "DeepLink"
+      },
+      "user_label_display_type": "Badge",
+      "user_label_type": "BusinessLabel"
+    }
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1968416786413506591"
+    ],
+    "editable_until_msecs": "1758145707000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 27,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 410,
+    "in_reply_to_screen_name": "claudeai",
+    "in_reply_to_status_id_str": "1968416781967495526",
+    "in_reply_to_user_id_str": "1943306828697550848",
+    "lang": "en",
+    "reply_count": 6,
+    "retweet_count": 8,
+    "created_at": "2025-09-17T20:48:27.000Z",
+    "display_text_range": [
+      0,
+      229
+    ],
+    "entities": {},
+    "id_str": "1968416783926247442",
+    "text": "In early August, some users began reporting degraded responses.\n\nIt was initially hard to distinguish this from normal variation in user feedback. But the increasing frequency and persistence prompted us to open an investigation.",
+    "user": {
+      "id_str": "1943306828697550848",
+      "name": "Claude",
+      "screen_name": "claudeai",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_normal.jpg",
+      "highlighted_label": {
+        "badge": {
+          "url": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_bigger.jpg"
+        },
+        "description": "Anthropic",
+        "url": {
+          "url": "https://twitter.com/AnthropicAI",
+          "url_type": "DeepLink"
+        },
+        "user_label_display_type": "Badge",
+        "user_label_type": "BusinessLabel"
+      }
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1968416783926247442"
+      ],
+      "editable_until_msecs": "1758145707000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

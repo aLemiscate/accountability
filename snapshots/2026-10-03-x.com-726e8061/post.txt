@@ -1,0 +1,8 @@
+Tibo (@thsottiaux)
+August 23, 2026
+
+Update on rate limits in Codex.
+We’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Computer History (c) a feature that was meant to generate conversation titles that was draining a bit more usage than… https://t.co/UGVIS42kfK
+
+Quoting https://x.com/thsottiaux/status/2091033630147854385:
+Update on rate limits in Codex. We do see that for some users the cache hit rate has been worse this week than the stable state the weeks before. This could explain that usage is draining somewhat faster for those users as hitting the cache consistently is an important component

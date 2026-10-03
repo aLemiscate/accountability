@@ -1,0 +1,36 @@
+{
+  "url": "https://x.com/polynoamial/status/2021266471406666231",
+  "captured_at": "2026-10-03T12:32:14.677Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "e4249fb64f808f86ae75a3c3f25bbf14541d15bea5f96f95bbf2c633479b09d1",
+    "page.txt": "6a0b8b206a9cea1b1956c204c3c467c3ef0e8455b67cb07b6d471e12dab036de",
+    "post.json": "0a9c224a555cb85b91dd5b24fce1e2c1676f4e221baf19267f3aae93a84125f4",
+    "syndication.json": "cb622f00143fc4555125b7409834a63d899478c76327d64017589bf5e0dc26aa",
+    "media-1.jpg": "72e1fa6f3d3b4cb5ccc9588ebd1c61ca4a7f49876b29d2eb6b8ace1113be0a81",
+    "post.txt": "ae43a30897d764aa7799793a62d0d85a21f6e83bed565720fa4fb964e8b97771"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/polynoamial/status/2021266471406666231",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Noam Brown on X: \"I appreciate @Anthropic's honesty in their latest system card, but the content of it does not give me confidence that the company will act responsibly with deployment of advanced AI models: -They primarily relied on an internal survey to determine whether Opus 4.6 crossed their a… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Noam Brown (@polynoamial)",
+    "date": "February 10, 2026",
+    "posted_at": "2026-02-10T16:54:14.755Z",
+    "media": [
+      {
+        "file": "media-1.jpg",
+        "url": "https://pbs.twimg.com/media/HAz6KYLaAAIsdQj.jpg"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260211060445/https://x.com/polynoamial/status/2021266471406666231",
+    "timestamp": "20260211060445",
+    "method": "existing"
+  }
+}

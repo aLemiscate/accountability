@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en" data-color-scheme="ivory">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>[UPDATED] News: Anthropic (Briefly) Removes Claude Code From $20-A-Month &quot;Pro&quot; Subscription Plan For New Users</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <meta name="theme-color" content="#dd0000">
+
+
+    <link rel="preload" href="https://www.wheresyoured.at/assets/dist/app.min.js?v=bedouiKdMlG5hio2" as="script">
+    <link rel="preload" href="https://www.wheresyoured.at/assets/dist/app.min.css?v=e1oIDNSAmCBh50zt" as="style">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+
+    <link rel="preload stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" 
+          as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin>    
+    <style>body { --font-body: 'Inter', sans-serif; --font-headings: 'Inter', sans-serif;}</style>
+
+
+
+
+
+    <script async defer src="https://www.wheresyoured.at/assets/dist/app.min.js?v=bedouiKdMlG5hio2"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://www.wheresyoured.at/assets/dist/app.min.css?v=e1oIDNSAmCBh50zt" />
+
+    <style>
+  :root {
+    --global-max-width: 1280px; /* site max width */
+    --global-content-width: 680px; /* post-content-width */
+    --global-wide-width: 960px; /* site max width */
+    --global-radius: 10px; /* default radius */
+    --global-gallery-gap: 1em; /* Image gallery distance between images */
+    --global-hyphens: none; /* none/auto */
+    --global-header-height: 80px;
+    --global-theme-notifications: visible; /* visible/hidden */
+    --global-progress-bar: visible; /* visible/hidden */
+    --global-content-preview-fading: 0%; /* 50%-100% for fading effect */
+  }
+</style>
+
+<script>
+  let preferredTheme = localStorage.getItem('PREFERRED_COLOR_SCHEME') || `ivory`;
+  document.documentElement.setAttribute('data-color-scheme', preferredTheme);
+  
+  // Global values needed
+  const themeGlobal = {
+    currentPage: parseInt(''),
+    nextPage: parseInt(''),
+    nextPageLink: '',
+    maxPages: parseInt(''), 
+    lastPage: `` === `` ? true : false,
+    postsPerPage: parseInt('12'),
+    scrollPos: 0
+  }
+
+  // Calculate contrast & HSL value;
+  function getBrandColorInfo(hexcolor) {
+    // get contrast
+    if (hexcolor.slice(0, 1) === '#') { hexcolor = hexcolor.slice(1); }
+    if (hexcolor.length === 3) { hexcolor = hexcolor.split('').map(function (hex) { return hex + hex;}).join(''); }
+    let r = parseInt(hexcolor.substr(0,2),16), g = parseInt(hexcolor.substr(2,2),16), b = parseInt(hexcolor.substr(4,2),16);
+    let yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+    const colorContrast = (yiq >= 128) ? '#000' : '#fff';
+
+    //get HSL
+    r /= 255, g /= 255, b /= 255;
+    const max = Math.max(r, g, b), min = Math.min(r, g, b);
+    let h, s, l = (max + min)  /  2;  
+    if ( max == min ) { h = s = 0; } else {
+      let d = max - min;
+      s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+      switch(max){
+        case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+        case g: h = (b - r) / d + 2; break;
+        case b: h = (r - g) / d + 4; break;
+      }
+      h /= 6;
+    }
+    const colorHSL = [Math.round(h * 360), Math.round(s * 100), Math.round(l * 100)];
+
+    // return
+    return { colorContrast, colorHSL }
+  };
+
+  const brandColor = getBrandColorInfo("#dd0000");
+  let style = document.createElement('style');
+  style.innerHTML = `:root { 
+    --color-brand-contrast: ${brandColor.colorContrast}; 
+    --color-brand-hsl: ${brandColor.colorHSL[0]} ${brandColor.colorHSL[1]}% ${brandColor.colorHSL[2]}%;
+  }`
+  document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+    
+    
+     
+
+    <link rel="icon" href="https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/size/w256h256/2024/01/wyea-.jpeg" type="image/jpeg">
+    <link rel="canonical" href="https://www.wheresyoured.at/news-anthropic-removes-pro-cc/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="Ed Zitron&#x27;s Where&#x27;s Your Ed At">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="[UPDATED] News: Anthropic (Briefly) Removes Claude Code From $20-A-Month &quot;Pro&quot; Subscription Plan For New Users">
+    <meta property="og:description" content="Executive Summary: 
+
+ * In the later afternoon of April 21 2026, Anthropic removed access to Claude Code for its $20-a-month &quot;Pro&quot; Plans on various pricing pages.
+   * Current Pro users appeared to still have access via the Claude web app.
+   * Claude Code support documents, for a brief period of time,">
+    <meta property="og:url" content="https://www.wheresyoured.at/news-anthropic-removes-pro-cc/">
+    <meta property="og:image" content="https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2024/01/wyea--1.jpeg">
+    <meta property="article:published_time" content="2026-04-21T22:44:29.000Z">
+    <meta property="article:modified_time" content="2026-04-22T02:10:59.000Z">
+    <meta property="article:tag" content="news">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="[UPDATED] News: Anthropic (Briefly) Removes Claude Code From $20-A-Month &quot;Pro&quot; Subscription Plan For New Users">
+    <meta name="twitter:description" content="Executive Summary: 
+
+ * In the later afternoon of April 21 2026, Anthropic removed access to Claude Code for its $20-a-month &quot;Pro&quot; Plans on various pricing pages.
+   * Current Pro users appeared to still have access via the Claude web app.
+   * Claude Code support documents, for a brief period of time,">
+    <meta name="twitter:url" content="https://www.wheresyoured.at/news-anthropic-removes-pro-cc/">
+    <meta name="twitter:image" content="https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2024/01/wyea--1.jpeg">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Ed Zitron">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="news">
+    <meta name="twitter:site" content="@edzitron">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Ed Zitron's Where's Your Ed At",
+        "url": "https://www.wheresyoured.at/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2024/01/wide-with-letters-1.jpeg"
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Ed Zitron",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.gravatar.com/avatar/257728ef58ec6562631bc7ebf24dd007?s=250&r=x&d=mp",
+            "width": 250,
+            "height": 250
+        },
+        "url": "https://www.wheresyoured.at/author/edward/",
+        "sameAs": []
+    },
+    "headline": "[UPDATED] News: Anthropic (Briefly) Removes Claude Code From $20-A-Month \"Pro\" Subscription Plan For New Users",
+    "url": "https://www.wheresyoured.at/news-anthropic-removes-pro-cc/",
+    "datePublished": "2026-04-21T22:44:29.000Z",
+    "dateModified": "2026-04-22T02:10:59.000Z",
+    "keywords": "news",
+    "description": "Executive Summary: \n\n * In the later afternoon of April 21 2026, Anthropic removed access to Claude Code for its $20-a-month \"Pro\" Plans on various pricing pages.\n   * Current Pro users appeared to still have access via the Claude web app.\n   * Claude Code support documents, for a brief period of time, exclusively referred to accessing Claude Code via \"your Max Plan,\" after previously saying you could access \"with your Pro or Max Plan.\"\n * On this was raised on Twitter, Anthropic Head of Growth ",
+    "mainEntityOfPage": "https://www.wheresyoured.at/news-anthropic-removes-pro-cc/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 6.68">
+    <link rel="alternate" type="application/rss+xml" title="Ed Zitron&#x27;s Where&#x27;s Your Ed At" href="https://www.wheresyoured.at/rss/">
+    <script defer src="https://cdn.jsdelivr.net/ghost/portal@~2.71/umd/portal.min.js" data-i18n="true" data-ghost="https://www.wheresyoured.at/" data-key="e36e7d7220258a9362c249dff6" data-api="https://ed-zitrons-wheres-your-ed-at.ghost.io/ghost/api/content/" data-locale="en" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style><script async src="https://js.stripe.com/v3/"></script>
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js" data-key="e36e7d7220258a9362c249dff6" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/main.css" data-sodo-search="https://ed-zitrons-wheres-your-ed-at.ghost.io/" data-locale="en" crossorigin="anonymous"></script>
+    
+    <link href="https://www.wheresyoured.at/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=ShRHxgy4po8zN-Wf"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=WwnU9jw5ancNC8Gc">
+    <script defer src="/public/member-attribution.min.js?v=AKG4hWena9j3yX3I"></script>
+    <script defer src="/public/ghost-stats.min.js?v=vFcCUf6ZQ0Hyhc8h" data-stringify-payload="false" data-datasource="analytics_events" data-storage="localStorage" data-host="https://www.wheresyoured.at/.ghost/analytics/api/v1/page_hit"  tb_site_uuid="24d8fcec-dfba-4f40-a467-823d2941ae46" tb_post_uuid="cbc8143f-8680-416f-995c-74917f53a5ed" tb_post_type="post" tb_member_uuid="undefined" tb_member_status="undefined" tb_gift_link=""></script><style>:root {--ghost-accent-color: #dd0000;}</style>
+    <script defer="defer" data-domain="wheresyoured.at" src="https://plausible.io/js/script.hash.outbound-links.js"></script>
+<meta name =“robots” content=“max-image-preview:large”>
+
+<style>
+  .header { height: auto; }
+  .header__inner > *:not(.header__brand) { display: none!important; }
+  .header__brand { flex:1!important; margin: 0!important; justify-content:center; }
+  .header__brand img { height: auto; max-width: 100%; border-radius: var(--global-radius); }
+
+  .home-layout { max-width: 720px;margin: 0 auto; }
+  .home-layout .hero { margin: 2rem 0 3rem; }
+  .home-layout .hero__media { flex: 1; display: none; }
+  .home-layout .hero__media img { aspect-ratio: 1/1; }
+  .home-layout .hero__content { flex: 2; }
+  .home-layout .hero__title { font-size: calc(var(--font-size-base)*2 + .75vw); line-height: 1.1; }
+  .home-layout[data-layout="hero-with-image-below"] .hero__content { min-height: 0; }
+  
+  .post-card { padding: 1.5rem; }
+  .post-feed article.post-card:nth-of-type(odd) { background: rgba(0,0,0,0.05); }
+  
+  @media only screen and (min-width: 48em) {
+    /* .header { --global-header-height: 96px; } */
+    .header__brand img { height: 120px; max-width: none; }
+    /* .home-layout .hero__media { display: flex; } */
+  }
+  
+  .hero__content .header__menu { display: flex!important; margin-top: 2rem; }
+  .hero__content .header__menu .nav { justify-content: center; flex-wrap: wrap; }
+</style>
+  </head>
+  <body class="post-template tag-news ">
+    <div class="progress-bar"></div>
+    
+      <header class="header js-header" data-header="normal">
+  <div class="container wrapper flex is-rel header__inner">
+    <button class="btn-toggle menu__toggle js-menu-open"
+      type="button" title="Menu" aria-label="Menu">
+        <span></span>
+        <span></span>
+    </button>
+
+<a class="header__brand" href="https://www.wheresyoured.at">        <img class="header__logo"
+          src="https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/size/w600/2024/01/wide-with-letters-1.jpeg"
+          alt="Ed Zitron&#x27;s Where&#x27;s Your Ed At"/>
+</a>
+    <nav class="header__menu flex-1 flex-cc">
+      <ul class="nav">
+    <li class="nav-home"><a href="https://www.wheresyoured.at/">Home</a></li>
+    <li class="nav-about"><a href="https://www.wheresyoured.at/about/">About</a></li>
+    <li class="nav-better-offline"><a href="http://linktr.ee/betteroffline">Better Offline</a></li>
+    <li class="nav-news"><a href="https://www.wheresyoured.at/tag/news/">News</a></li>
+</ul>
+
+    </nav>
+
+
+
+      <button class="btn-toggle header-search__toggle" data-ghost-search title="Search" aria-label="Search">
+        <i class="icon icon-search">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+</i>      </button>
+    
+
+        <a href="/signin/" class="btn signin-link radius" data-portal="signin">Log In</a>
+        <a href="/signup/" class="btn signup-link btn--brand radius" data-portal="signup">Subscribe</a>
+      
+
+    <div class="member-menu js-member-menu">
+      <a href="/signup/" data-portal="signup" class="signup-link">
+        <i class="icon icon-arrow-up-right icon--sm">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-up-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <line x1="17" y1="7" x2="7" y2="17" />
+  <polyline points="8 7 17 7 17 16" />
+</svg>
+
+
+
+</i>Sign up
+      </a>
+
+      <a href="/signin/" data-portal="signin" class="signin-link">
+        <i class="icon icon-login icon--sm">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-in">
+  <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+  <polyline points="10 17 15 12 10 7"></polyline>
+  <line x1="15" y1="12" x2="3" y2="12"></line>
+</svg>
+</i>Sign in
+      </a>
+</div>  </div>
+</header>
+
+      <div class="menu js-menu">
+  <div class="menu__header flex content-start">
+    <button class="btn-toggle menu__toggle is-active js-menu-close"
+      type="button" title="Menu" aria-label="Menu">
+        <span></span>
+        <span></span>
+    </button>
+
+      <button class="btn-toggle header-search__toggle" data-ghost-search title="Search" aria-label="Search">
+        <i class="icon icon-search">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+</i>      </button>
+
+
+  </div>
+
+  <nav class="menu__navigation">
+    <ul class="nav">
+    <li class="nav-home"><a href="https://www.wheresyoured.at/">Home</a></li>
+    <li class="nav-about"><a href="https://www.wheresyoured.at/about/">About</a></li>
+    <li class="nav-better-offline"><a href="http://linktr.ee/betteroffline">Better Offline</a></li>
+    <li class="nav-news"><a href="https://www.wheresyoured.at/tag/news/">News</a></li>
+</ul>
+
+
+      <ul class="nav">
+    <li class="nav-sign-up"><a href="#/portal/">Sign up</a></li>
+</ul>
+
+  </nav>
+
+  <div class="menu__actions m-b flex w-100">
+        <a href="/signin/" data-portal="signin" class="btn signin-link btn--bordered radius m-r">
+          <i class="icon icon-login icon--sm">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-in">
+  <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+  <polyline points="10 17 15 12 10 7"></polyline>
+  <line x1="15" y1="12" x2="3" y2="12"></line>
+</svg>
+</i>Log in
+        </a>
+        <a href="/signup/" data-portal="signup" class="btn signup-link btn--brand radius">
+          <i class="icon icon-arrow-up-right icon--sm">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-up-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <line x1="17" y1="7" x2="7" y2="17" />
+  <polyline points="8 7 17 7 17 16" />
+</svg>
+
+
+
+</i>Subscribe
+        </a>
+  </div>
+</div>
+
+
+    <main class="main">
+      
+
+  <div class="container wrapper">
+  
+      <div class="post-hero is-post" 
+    data-feature-image="false" data-image-style="default">
+    <div class="post-hero__content flex flex-col">
+
+          <a href="/tag/news/" class="post-hero__tag" >news</a>
+
+      <h1 class="post-hero__title">[UPDATED] News: Anthropic (Briefly) Removes Claude Code From $20-A-Month &quot;Pro&quot; Subscription Plan For New Users</h1>
+
+
+        <div class="post-hero__info">
+          <span class="post-hero__authors"><a href="/author/edward/">Ed Zitron</a></span>
+          <time class="post-hero__date" datetime="2026-04-21">Apr 21, 2026</time> 
+          <span class="post-hero__readtime">3 min read</span>
+        </div> 
+    </div>
+
+  </div>
+
+    <article class="post tag-news no-image content post-access-public">
+      <h3 id="executive-summary">Executive Summary:&nbsp;</h3><ul><li>In the later afternoon of April 21 2026, Anthropic removed access to Claude Code for its $20-a-month "Pro" Plans on various pricing pages. <ul><li>Current Pro users appeared to still have access via the Claude web app.</li><li>Claude Code support documents, for a brief period of time, exclusively referred to accessing Claude Code via "your Max Plan," after previously saying you could access "with your Pro or Max Plan."</li></ul></li><li>On this was raised on Twitter, Anthropic Head of Growth Amol Avasare claimed that this was a "<a href="https://x.com/TheAmolAvasare/status/2046724659039932830?ref=wheresyoured.at" rel="noreferrer">small test of 2% of new prosumer signups</a>."<ul><li>When pressed as to why support documents were changed and why the website consistently showed users that Pro subscribers weren't offered Claude Code, Avasare did not respond.</li><li>At an unknown time, Anthropic reversed the changes to the website and support documentation.</li></ul></li><li>This piece remains as a record of what happened, as I do not believe that this is the last time that Anthropic makes changes in this manner.<ul><li><a href="https://x.com/TheAmolAvasare/status/2046725282502173046?ref=wheresyoured.at" rel="noreferrer">Per Avasare</a>, "...[Anthropic] made small adjustments along the way (weekly caps, tighter limits at peak), but usage has changed a lot and our current plans weren't built for this." This suggests that changes are to come for all subscription tiers, as he also added that Claude's Max plan was released before Claude Code and Claude Cowork, and "<a href="https://x.com/TheAmolAvasare/status/2046724846604963924?s=20&ref=wheresyoured.at" rel="noreferrer">...designed for heavy chat usage, that's it.</a>"</li></ul></li></ul><hr><p><strong>The following exists as a record of what happened previously, please see above for the full story.</strong></p><hr><p>In developing news, Anthropic appears to have removed access to AI coding tool Claude Code from its $20-a-month "Pro" accounts. This is likely another cost-cutting move that follows a recent change (<a href="https://www.theinformation.com/articles/anthropic-changes-pricing-bill-firms-based-ai-use-amid-compute-crunch?ref=wheresyoured.at" rel="noreferrer">per The Information</a>) that forced enterprise users to pay on a per-million-token based rate rather than having rate limits that were, based on researchers' findings, often much higher than the cost of the subscription. </p><blockquote><strong>Update: </strong><a href="https://x.com/TheAmolAvasare/status/2046724659039932830?ref=wheresyoured.at" rel="noreferrer">Anthropic's Amol Avasare</a> claims that it is "...running a small test on ~2% of new prosumer signups. Existing Pro and Max subscribers aren't affected." This does not really make sense given the fact that all support documents and the Claude website reflect that Pro users do not have access to Claude Code. <br><br>I am waiting for further comment.</blockquote><p>Previously, users were able to access Claude using their Pro subscriptions via a command-line interface and both the web and desktop Claude apps. Users were, instead of paying on a per-million-token basis, allowed to use their subscription to access Claude Code, but will likely now have to pay for API access.</p><p>Anthropic's Claude Code support documents (<a href="https://web.archive.org/web/20260416084035/https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan" rel="noreferrer">as recently as this April 10th archived page</a>) previously read "Using Claude Code with your Pro or Max plan." <a href="https://support.claude.com/en/articles/11145838-using-claude-code-with-your-max-plan?ref=wheresyoured.at" rel="noreferrer">The page now reads</a> "Using Claude Code with your Max plan."</p><p> Pricing on Anthropic's website reflects the removal of Claude Code on both mobile and desktop.</p><figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2026/04/Screenshot-2026-04-21-at-3.35.28---PM.png" class="kg-image" alt="" loading="lazy" width="964" height="1450" srcset="https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/size/w600/2026/04/Screenshot-2026-04-21-at-3.35.28---PM.png 600w, https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2026/04/Screenshot-2026-04-21-at-3.35.28---PM.png 964w" sizes="(min-width: 720px) 720px"></figure><figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2026/04/image-1.png" class="kg-image" alt="" loading="lazy" width="1170" height="2048" srcset="https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/size/w600/2026/04/image-1.png 600w, https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/size/w1000/2026/04/image-1.png 1000w, https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2026/04/image-1.png 1170w" sizes="(min-width: 720px) 720px"></figure><p>Some Pro users report that they are still able to access Claude Code via the web app and Command-Line Interface. <br><br>It is unclear at this time whether this change is retroactive or for new Pro subscribers, or whether Anthropic intends to entirely remove access to Claude Code (without paying for API tokens) from <em>every </em>Pro customer. </p><p>I have requested a comment from Anthropic, and will update this piece when I receive it, or if Anthropic confirms this move otherwise. </p><hr><p>If you liked this news hit and want to support my independent reporting and analysis, why not subscribe to my premium newsletter?</p><p>It’s $70 a year, or $7 a month, and in return you get a weekly newsletter that’s usually anywhere from 5,000 to 18,000 words, including vast, detailed analyses of <a href="https://www.wheresyoured.at/the-haters-guide-to-nvidia/"><u>NVIDIA</u></a>, <a href="https://www.wheresyoured.at/howmuchmoney/"><u>Anthropic and OpenAI’s finances</u></a>, and <a href="https://www.wheresyoured.at/premium-the-haters-guide-to-the-ai-bubble-vol-2/"><u>the AI bubble writ large</u></a>. I recently put out the timely and important <a href="https://www.wheresyoured.at/hatersguide-saas/"><u>Hater’s Guide To The SaaSpocalypse</u></a>, another on <a href="https://www.wheresyoured.at/premium-ai-isnt-too-big-to-fail/"><u>How AI Isn't Too Big To Fail</u></a>, a deep (17,500 word) <a href="https://www.wheresyoured.at/hatersguide-openai/"><u>Hater’s Guide To OpenAI</u></a>, and just last week put out the massive <a href="https://www.wheresyoured.at/hatersguide-privatecredit/"><u>Hater’s Guide To Private Credit</u></a>.</p><p>Subscribing to premium is both great value and makes it possible to write these large, deeply-researched free pieces every week.&nbsp;</p>
+    </article>
+
+        <div class="post-share content-width m-b-lg">
+  <span class="section-title sm">Share</span>
+  <div class="social-share ">
+    <a class="social-share__item twitter js-share" target="_blank"
+        href="https://twitter.com/share?text=%5BUPDATED%5D%20News%3A%20Anthropic%20(Briefly)%20Removes%20Claude%20Code%20From%20%2420-A-Month%20%22Pro%22%20Subscription%20Plan%20For%20New%20Users&amp;url=https://www.wheresyoured.at/news-anthropic-removes-pro-cc/"
+        title="Share on Twitter" aria-label="Share on Twitter">
+      <i class="icon icon-twitter">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+</i>    </a>
+    <a class="social-share__item facebook js-share" target="_blank"
+        href="https://www.facebook.com/sharer.php?u=https://www.wheresyoured.at/news-anthropic-removes-pro-cc/"
+        title="Share on Facebook" aria-label="Share on Facebook">
+      <i class="icon icon-facebook">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+</svg>
+
+
+
+</i>    </a>
+    <a class="social-share__item linkedin js-share" target="_blank"
+        href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.wheresyoured.at/news-anthropic-removes-pro-cc/&title=%5BUPDATED%5D%20News%3A%20Anthropic%20(Briefly)%20Removes%20Claude%20Code%20From%20%2420-A-Month%20%22Pro%22%20Subscription%20Plan%20For%20New%20Users&summary=%5BUPDATED%5D%20News%3A%20Anthropic%20(Briefly)%20Removes%20Claude%20Code%20From%20%2420-A-Month%20%22Pro%22%20Subscription%20Plan%20For%20New%20Users"
+        title="Share on Linkedin" aria-label="Share on Linkedin">
+      <i class="icon icon-linkedin">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+  <rect x="2" y="9" width="4" height="12"></rect>
+  <circle cx="4" cy="4" r="2"></circle>
+</svg>
+</i>    </a>
+    <a class="social-share__item mail"
+        href="mailto:?subject=%5BUPDATED%5D%20News%3A%20Anthropic%20(Briefly)%20Removes%20Claude%20Code%20From%20%2420-A-Month%20%22Pro%22%20Subscription%20Plan%20For%20New%20Users&body=https://www.wheresyoured.at/news-anthropic-removes-pro-cc/&nbsp;%5BUPDATED%5D%20News%3A%20Anthropic%20(Briefly)%20Removes%20Claude%20Code%20From%20%2420-A-Month%20%22Pro%22%20Subscription%20Plan%20For%20New%20Users"
+        title="Share by email" aria-label="Share by email">
+      <i class="icon icon-mail">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="3" y="5" width="18" height="14" rx="2" />
+  <polyline points="3 7 12 13 21 7" />
+</svg>
+</i>    </a>
+    <button class="copy-link copy js-copy-link" data-url="https://www.wheresyoured.at/news-anthropic-removes-pro-cc/"
+        title="Copy to clipboard" data-label="Copied!" aria-label="Copy to clipboard">
+      <i class="icon icon-copy">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copy" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="8" y="8" width="12" height="12" rx="2" />
+  <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2" />
+</svg>
+</i>    </button>
+  </div>
+</div>
+
+        
+        <div class="post-authors content-width m-t-lg">
+  <span class="section-title sm">About the author</span>
+      <div class="author-card author-edward wide m-b-lg has-image">
+
+<a class="author-card__media flex flex-cc" href="https://www.wheresyoured.at/author/edward/">      <img class="lazyload author-card__img z-index-1" 
+        data-srcset="https://www.gravatar.com/avatar/257728ef58ec6562631bc7ebf24dd007?s&#x3D;250&amp;r&#x3D;x&amp;d&#x3D;mp 100w,
+            https://www.gravatar.com/avatar/257728ef58ec6562631bc7ebf24dd007?s&#x3D;250&amp;r&#x3D;x&amp;d&#x3D;mp 300w"
+        srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+        data-sizes="auto"
+        data-src="https://www.gravatar.com/avatar/257728ef58ec6562631bc7ebf24dd007?s&#x3D;250&amp;r&#x3D;x&amp;d&#x3D;mp"
+        src="https://www.gravatar.com/avatar/257728ef58ec6562631bc7ebf24dd007?s&#x3D;250&amp;r&#x3D;x&amp;d&#x3D;mp"
+        alt="Ed Zitron"
+      />
+</a>
+  <div class="author-card__content flex-1 flex flex-col text-acc">
+    <div class="author-card__profile flex flex-wrap items-center m-b-sm">
+      <h3 class="author-card__name fw-700 m-b-0">
+        <a href="https://www.wheresyoured.at/author/edward/">Ed Zitron</a>
+      </h3>
+      
+      <div class="author-card__social flex flex-1">
+      </div>
+    </div>
+    
+    
+    
+      <a class="author-card__count fw-500 text-09" href="https://www.wheresyoured.at/author/edward/">View all</a>
+  </div>
+</div>
+</div>  
+        <div class="ctx-module-container ctx_shortcode_placement ctx-clearfix"></div>
+         
+    <div class="post-comments content-width m-b-lg">
+      <div class="section-title sm">Comments</div>
+      <div class="comments bg-default radius flex flex-col p-lg Native" id="comments">
+            
+
+
+      </div>
+    </div>
+
+            <span class="section-title m-t-lg">More from Ed Zitron&#x27;s Where&#x27;s Your Ed At</span>
+  
+      <div class="grid post-feed auto related-posts m-b-lg" data-feed-layout="grid">
+          <article class="post-card no-image js-post-card"> 
+
+
+  <div class="post-card__content ">
+
+    <div class="post-card__header flex items-center m-b-sm">
+        <a class="post-card__tag tag-news" href="/tag/news/" aria-label="news"
+          
+        >news</a>
+
+      <span class="flex-1"></span>
+
+
+    </div>
+
+    <h2 class="post-card__title">
+      <a href="https://www.wheresyoured.at/news-microsoft-disclosures-suggest-openai-sales-account-for-around-70-of-fy26-ai-revenue-more-than-7-of-fy26-revenue/" aria-label="News: Microsoft Disclosures Suggest OpenAI Sales Account For Around 70% Of FY26 AI Revenue, More Than 7% of FY26 Revenue">News: Microsoft Disclosures Suggest OpenAI Sales Account For Around 70% Of FY26 AI Revenue, More Than 7% of FY26 Revenue</a>
+    </h2>
+
+        <div class="post-card__excerpt opacity-080">
+          Executive Summary:
+
+ * Microsoft disclosures and Bloomberg analyses show that OpenAI&#39;s compute spend and revenue share accounted for 70%
+        </div>
+
+    <div class="post-card__info">
+      <span class="post-card__authors"><a href="/author/edward/">Ed Zitron</a></span>
+      <time class="post-card__date" datetime="2026-08-05">Aug 5, 2026</time> 
+      <span class="post-card__readtime">2 min read</span>
+    </div> 
+    
+  </div>
+
+</article>          <article class="post-card no-image js-post-card"> 
+
+
+  <div class="post-card__content ">
+
+    <div class="post-card__header flex items-center m-b-sm">
+        <a class="post-card__tag tag-news" href="/tag/news/" aria-label="news"
+          
+        >news</a>
+
+      <span class="flex-1"></span>
+
+
+    </div>
+
+    <h2 class="post-card__title">
+      <a href="https://www.wheresyoured.at/news-openai-had-a-negative-122-operating-margin-in-q1-2026-and-chatgpt-growth-has-stalled/" aria-label="News: OpenAI Had A Negative 122% Non-GAAP Operating Margin In Q1 2026, and ChatGPT Growth Has Stalled">News: OpenAI Had A Negative 122% Non-GAAP Operating Margin In Q1 2026, and ChatGPT Growth Has Stalled</a>
+    </h2>
+
+        <div class="post-card__excerpt opacity-080">
+          Executive Summary:
+
+ * The Information reports that OpenAI generated $5.7bn in revenue for the first quarter of 2026 based on
+        </div>
+
+    <div class="post-card__info">
+      <span class="post-card__authors"><a href="/author/edward/">Ed Zitron</a></span>
+      <time class="post-card__date" datetime="2026-05-22">May 22, 2026</time> 
+      <span class="post-card__readtime">4 min read</span>
+    </div> 
+    
+  </div>
+
+</article>          <article class="post-card no-image js-post-card"> 
+
+
+  <div class="post-card__content ">
+
+    <div class="post-card__header flex items-center m-b-sm">
+        <a class="post-card__tag tag-news" href="/tag/news/" aria-label="news"
+          
+        >news</a>
+
+      <span class="flex-1"></span>
+
+
+    </div>
+
+    <h2 class="post-card__title">
+      <a href="https://www.wheresyoured.at/openai-projects-chatgpt-plus-subscriptions-to-drop-by-80-from-44-million-in-2025-to-9-million-in-2026-made-up-using-cheaper-subscriptions-somehow/" aria-label="OpenAI Projects ChatGPT Plus subscriptions to drop by 80% from 44 Million in 2025 to 9 Million In 2026, Made Up Using Cheaper Subscriptions (Somehow)">OpenAI Projects ChatGPT Plus subscriptions to drop by 80% from 44 Million in 2025 to 9 Million In 2026, Made Up Using Cheaper Subscriptions (Somehow)</a>
+    </h2>
+
+        <div class="post-card__excerpt opacity-080">
+          Executive Summary:
+
+ * The Information reports that OpenAI projects that its $20-a-month ChatGPT Plus subscriptions will decrease from 44
+        </div>
+
+    <div class="post-card__info">
+      <span class="post-card__authors"><a href="/author/edward/">Ed Zitron</a></span>
+      <time class="post-card__date" datetime="2026-04-28">Apr 28, 2026</time> 
+      <span class="post-card__readtime">2 min read</span>
+    </div> 
+    
+  </div>
+
+</article>      </div>
+  </div>
+  
+
+    </main>
+
+            <section class="container wrapper section section-cta is-rel flex flex-cc radius m-b-0 is-post" 
+      data-bg-accent="none">
+        <div class="section-cta__content flex flex-col flex-cc is-rel z-index-1 max-w-40">
+          <h2 class="section-cta__title">Welcome to Where&#x27;s Your Ed At!</h2>
+          <p id="cta-input-label" class="section-cta__description opacity-075">Subscribe today. It&#x27;s free. Please. </p>
+          
+          <form class="subscribe-form" 
+  data-members-form="signup" data-style="inline">
+  <input data-members-email class="bg-opaque" 
+    type="email" autocomplete="email" placeholder="Your email address" 
+    aria-labelledby="cta-input-label" required/> 
+  <button class="btn btn--brand btn--gradient uppercase" type="submit">
+    <span>Subscribe</span>
+  </button>
+  <div class="msg-success">Great! Check your inbox and click the link.</div>
+  <div class="msg-error">Sorry, something went wrong. Please try again.</div>
+</form>        </div>
+      </section>
+
+      <footer class="footer">
+  <div class="container wrapper">
+
+    <div class="footer__brand m-b-lg flex flex-wrap">
+        <img class="footer__logo lazyload"
+          src="https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/size/w300/2024/01/wide-with-letters-1.jpeg"
+          alt="Ed Zitron&#x27;s Where&#x27;s Your Ed At"/>
+
+      <span class="flex-1"></span>
+
+      <div class="footer__social flex flex-cc">
+        
+  <a href="https://x.com/edzitron" class="twitter" aria-label="Twitter"><i class="icon icon-twitter icon--md">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+</i></a>
+
+<a href="https://www.wheresyoured.at/rss" class="rss" aria-label="RSS"><i class="icon icon-rss icon--md">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+</i></a>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+
+    <ul class="nav">
+    <li class="nav-home"><a href="https://www.wheresyoured.at/">Home</a></li>
+    <li class="nav-about"><a href="https://www.wheresyoured.at/about/">About</a></li>
+    <li class="nav-better-offline"><a href="http://linktr.ee/betteroffline">Better Offline</a></li>
+    <li class="nav-news"><a href="https://www.wheresyoured.at/tag/news/">News</a></li>
+</ul>
+
+
+      <ul class="nav">
+    <li class="nav-sign-up"><a href="#/portal/">Sign up</a></li>
+</ul>
+
+
+    <div class="footer__bottom">
+      <div class="footer__copy">
+        <span>&copy;2026&nbsp;<a href="https://www.wheresyoured.at">Ed Zitron&#x27;s Where&#x27;s Your Ed At</a>.</span>
+        <span>Published with&nbsp;<a href="https://ghost.org">Ghost</a>&nbsp;&&nbsp;<a href="https://brightthemes.com/themes/tuuli/">Tuuli</a>.</span>
+      </div>
+
+      <div class="color-scheme flex flex-cc radius-half">
+  <span class="color-scheme-symbol"></span>
+  <select class="color-scheme-select radius-half js-color-scheme-select" aria-label="Change color scheme">
+    <option value="system" >System</option>
+    <option value="light" selected>Light</option>
+    <option value="dark">Dark</option>
+    <option value="midnight">Midnight</option>
+    <option value="ivory">Ivory</option>
+    <option value="skyblue">Skyblue</option>
+  </select>
+  <i class="icon icon-select">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-select" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M17 8.517L12 3 7 8.517M7 15.48l5 5.517 5-5.517"></path>
+</svg>
+
+
+
+</i></div>    </div>
+
+  </div>
+</footer>
+
+    <dialog class="notification">
+  <i class="icon icon-success notification-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-check" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M9 12l2 2l4 -4" />
+</svg>
+
+
+
+</i>  <i class="icon icon-error notification-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alert-octagon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M8.7 3h6.6c.3 0 .5 .1 .7 .3l4.7 4.7c.2 .2 .3 .4 .3 .7v6.6c0 .3 -.1 .5 -.3 .7l-4.7 4.7c-.2 .2 -.4 .3 -.7 .3h-6.6c-.3 0 -.5 -.1 -.7 -.3l-4.7 -4.7c-.2 -.2 -.3 -.4 -.3 -.7v-6.6c0 -.3 .1 -.5 .3 -.7l4.7 -4.7c.2 -.2 .4 -.3 .7 -.3z" />
+  <line x1="12" y1="8" x2="12" y2="12" />
+  <line x1="12" y1="16" x2="12.01" y2="16" />
+</svg>
+
+
+
+</i>  <i class="icon icon-warning notification-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alert-triangle" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 9v2m0 4v.01" />
+  <path d="M5 19h14a2 2 0 0 0 1.84 -2.75l-7.1 -12.25a2 2 0 0 0 -3.5 0l-7.1 12.25a2 2 0 0 0 1.75 2.75" />
+</svg>
+
+
+
+</i>  <p class="notification-msg signup-success">Great! You’ve successfully signed up.</p> 
+  <p class="notification-msg signin-success">Welcome back! You&#x27;ve successfully signed in.</p> 
+  <p class="notification-msg subscribe-success">You&#x27;ve successfully subscribed to Ed Zitron&#x27;s Where&#x27;s Your Ed At.</p> 
+  <p class="notification-msg link-expired">Your link has expired.</p> 
+  <p class="notification-msg checkout-success">Success! Check your email for magic link to sign-in.</p> 
+  <p class="notification-msg billing-success">Success! Your billing info has been updated.</p> 
+  <p class="notification-msg billing-cancel">Your billing was not updated.</p> 
+  <button class="notification-close js-notification-close" aria-label="Close" onclick="closeNotification(event.currentTarget.parentNode);">
+    <i class="icon icon-x">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <line x1="18" y1="6" x2="6" y2="18" />
+  <line x1="6" y1="6" x2="18" y2="18" />
+</svg>
+</i>  </button>
+</dialog>
+
+      
+    
+
+    
+
+      <script>
+    // Copy button
+    const copyBtn = document.querySelector('.js-copy-link');
+    if (copyBtn) {
+      copyBtn.onclick = function(event) {
+        copyToClipboard(event.currentTarget, event.currentTarget.getAttribute('data-url'));
+      }
+    }
+    
+    /** 
+    * Copy to clipboard
+    * @src - source element
+    * @str - string to copy
+    */ 
+    const copyToClipboard = function(src, str) {
+      const el = document.createElement('textarea');
+      el.value = str;
+      el.setAttribute('readonly', '');
+      el.style.position = 'absolute';
+      el.style.left = '-9999px';
+      document.body.appendChild(el);
+      el.select();
+      document.execCommand('copy');
+      document.body.removeChild(el);
+
+      src.classList.add('has-tooltip');
+      src.setAttribute('data-label', 'Copied!');
+
+      src.onmouseleave = function() { 
+        src.classList.remove('has-tooltip');
+        setTimeout(function(){
+          src.setAttribute('data-label', '');
+        }, 500); 
+      }
+    };
+  </script>
+
+  <script>
+    // Give the parameter a variable name
+    const qsParams = new URLSearchParams(window.location.search);
+    const isAction = qsParams.has('action');
+    const isStripe = qsParams.has('stripe');
+    const success = qsParams.get('success');
+    const action = qsParams.get('action');
+    const stripe = qsParams.get('stripe');
+
+    if (qsParams && isAction) {
+      if (success === "true") {
+        switch (action) {
+          case 'subscribe':
+            openNotification('subscribe-success');
+            break;
+          case 'signup': 
+            openNotification('signup-success');
+            break;
+          case 'signin':
+            openNotification('signin-success');
+            break;
+          default:
+            break;
+        }
+      } else {
+        openNotification('link-expired');
+      }
+    }
+
+    if (qsParams && isStripe) {
+      switch (stripe) {
+        case 'success':
+          openNotification('checkout-success');
+          break;
+        case 'billing-update-success':
+          openNotification('billing-success');
+          break;
+        case 'billing-update-cancel':
+          openNotification('billing-cancel');
+          break;
+        default:
+          break;
+      }
+    }
+
+    /**
+    * Handle Notifications
+    */
+    function openNotification(type) {
+      const notification = document.querySelector('dialog.notification');
+      if (notification) { 
+        notification.setAttribute('data-msg-type', type);
+        notification.show();
+        setTimeout(function(){ closeNotification(notification); }, 3000);
+      }
+    }
+    
+    /**
+    * Clean URI
+    */
+    function clearURI() {
+      window.history.replaceState({}, '', `${window.location.pathname}`);
+    }
+
+    function closeNotification(notification) {
+      notification.close();
+      clearURI();
+      setTimeout(function(){ notification.removeAttribute('data-msg-type') }, 500);
+    }
+  </script>
+
+
+    <script>
+  const menu = document.querySelector('.header__menu')
+  const heroContent = document.querySelector('.hero__content')
+  if (menu && heroContent) {
+    heroContent.appendChild(menu)
+  }
+</script>
+<script>
+!function(w,d,id,ns,s){var c=w[ns]=w[ns]||{};if(c.ready||(c.q=[],c.ready=function(){c.q.push(arguments)}),!d.getElementById(id)){var e=d.createElement(s);e.id=id,e.defer=true,e.src="https://assets.context.ly/kit/6.latest/loader.js";var h=d.getElementsByTagName(s)[0];h.parentNode.insertBefore(e,h)}}(window,document,"ctx-loader","Contextly","script");
+</script>
+<script>
+Contextly.ready('widgets');
+</script>
+<script>
+  const OutpostPub = {
+    apiDomain: "https://edzitronswheresyouredatghostio.outpost.pub",
+    apiKey: "fe19efab-70d4-4add-a5aa-4a2197a237cb",
+    siteName: "Ed Zitron&#x27;s Where&#x27;s Your Ed At",
+    memberId: "",
+    memberEmail: "",
+        post: {
+          id: "69e7fac6e4411b00016227a3",
+          tags: ["news"],
+        }
+  }
+</script>
+<script defer src="https://assets.outpostpublishingcoop.com/assets/v2/js/outpost-pub.js"></script>
+  </body>
+</html>

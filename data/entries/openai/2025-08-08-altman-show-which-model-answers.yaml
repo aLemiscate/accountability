@@ -7,16 +7,15 @@ kind: commitment
 who: [sam-altman, openai]
 venue: Posts on X during the GPT-5 rollout
 quote: >-
-  We will make it more transparent about which model is answering a given
-  query.
+  We will make it more transparent about which model is answering a given query.
 summary: >-
   GPT-5 launched in ChatGPT on Aug. 7, 2025 as a system with a real-time router
   that picks which underlying model answers each prompt. The next day Altman
-  wrote that the "autoswitcher" had broken for part of launch day, making
-  GPT-5 seem "way dumber," and listed fixes, including making it more
-  transparent which model answers a query. Two days later he added: "we will
-  also shortly make a UI change to indicate which model is working." In the
-  same posts he said Plus users could keep using GPT-4o.
+  wrote that the "autoswitcher" had broken for part of launch day, making GPT-5
+  seem "way dumber," and listed fixes, including making it more transparent
+  which model answers a query. Two days later he added: "we will also shortly
+  make a UI change to indicate which model is working." In the same posts he
+  said Plus users could keep using GPT-4o.
 concreteness: directional
 status: eroded
 related:
@@ -30,38 +29,45 @@ sources:
     url: https://x.com/sama/status/1953893841381273969
     date: 2025-08-08
     type: primary
+    snapshot: snapshots/2026-10-03-x.com-2b78ff10
   - title: Sam Altman on X ("a UI change to indicate which model is working")
     publisher: X
     url: https://x.com/sama/status/1954602880952115603
     date: 2025-08-10
     type: primary
+    snapshot: snapshots/2026-10-03-x.com-e295eda0
   - title: Sam Altman addresses 'bumpy' GPT-5 rollout, bringing 4o back, and the
       'chart crime'
     publisher: TechCrunch
     url: https://techcrunch.com/2025/08/08/sam-altman-addresses-bumpy-gpt-5-rollout-bringing-4o-back-and-the-chart-crime/
     date: 2025-08-08
     type: reporting
+    snapshot: snapshots/2026-10-03-techcrunch.com-ea4c2396
 updates:
   - date: 2025-09-27
     text: >-
       Users found ChatGPT switching some of their messages to an undocumented
       safety model without showing it (see related). Explaining the switch,
       ChatGPT head Nick Turley set a narrower standard: "ChatGPT will tell you
-      which model is active when asked." OpenAI repeated it on Oct. 3:
-      "ChatGPT will continue to tell users what model is active when asked."
+      which model is active when asked." OpenAI repeated it on Oct. 3: "ChatGPT
+      will continue to tell users what model is active when asked."
     sources:
       - title: OpenAI rolls out safety routing system, parental controls on ChatGPT
         publisher: TechCrunch
         url: https://techcrunch.com/2025/09/29/openai-rolls-out-safety-routing-system-parental-controls-on-chatgpt/
         date: 2025-09-29
         type: reporting
+        archive: https://web.archive.org/web/20261003135818/https://techcrunch.com/2025/09/29/openai-rolls-out-safety-routing-system-parental-controls-on-chatgpt/
+        snapshot: snapshots/2026-10-03-techcrunch.com-52252a74
       - title: OpenAI on X ("what model is active when asked")
         publisher: X
         url: https://x.com/OpenAI/status/1974234951928459450
         date: 2025-10-03
         type: primary
+        archive: https://web.archive.org/web/20251004192046/https://x.com/openai/status/1974234951928459450
+        snapshot: snapshots/2026-10-03-x.com-3ea9dd58
 note: >-
-  The promise was made about routing between GPT-5's own models. The first
-  real test was the safety router, and there the standard became "when asked."
-  Marked eroded rather than broken: this record could not confirm whether the
-  promised UI label shipped for ordinary GPT-5 routing.
+  The promise was made about routing between GPT-5's own models. The first real
+  test was the safety router, and there the standard became "when asked." Marked
+  eroded rather than broken: this record could not confirm whether the promised
+  UI label shipped for ordinary GPT-5 routing.

@@ -1,0 +1,85 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 1275,
+  "in_reply_to_screen_name": "JacobHHilton",
+  "in_reply_to_status_id_str": "1794090560023851247",
+  "in_reply_to_user_id_str": "979429388",
+  "lang": "en",
+  "created_at": "2024-05-24T19:38:17.000Z",
+  "display_text_range": [
+    0,
+    239
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "4398626122",
+        "indices": [
+          9,
+          16
+        ],
+        "name": "OpenAI",
+        "screen_name": "OpenAI"
+      }
+    ]
+  },
+  "id_str": "1794090561294467074",
+  "text": "I invite @OpenAI to reach out directly to former employees to clarify that they will always be provided equal access to liquidity, in a legally enforceable way. Until they do this, the public should not expect candor from former employees.",
+  "user": {
+    "id_str": "979429388",
+    "name": "Jacob Hilton",
+    "screen_name": "JacobHHilton",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1794084398981345282/ySvGOLOG_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1794090561294467074"
+    ],
+    "editable_until_msecs": "1716583097000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 3,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 892,
+    "in_reply_to_screen_name": "JacobHHilton",
+    "in_reply_to_status_id_str": "1794090559021412497",
+    "in_reply_to_user_id_str": "979429388",
+    "lang": "en",
+    "reply_count": 3,
+    "retweet_count": 27,
+    "created_at": "2024-05-24T19:38:16.000Z",
+    "display_text_range": [
+      0,
+      212
+    ],
+    "entities": {},
+    "id_str": "1794090560023851247",
+    "text": "I believe that OpenAI has honest intentions with this statement. But given that OpenAI has previously used access to liquidity as an intimidation tactic, many former employees will still feel scared to speak out.",
+    "user": {
+      "id_str": "979429388",
+      "name": "Jacob Hilton",
+      "screen_name": "JacobHHilton",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1794084398981345282/ySvGOLOG_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1794090560023851247"
+      ],
+      "editable_until_msecs": "1716583096000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/sama/status/1955438916645130740",
+  "captured_at": "2026-10-03T13:52:56.152Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "7b307137c56c3e18320e31d315a6648be89afc2462add706e1a879bb426c33b6",
+    "page.txt": "81a0465a1ae34e7a7093c479f55a8ea884955668de3a16a81def03587f9c51a2",
+    "post.json": "4bf1cae5b34fe519712d4b63aa762d56e3807bf88bf6b2994bb346cd53151fb5",
+    "syndication.json": "c28def084502ac6bb890cb60320b579189e6c1a434a58c44ef8a6e02851ee3f2",
+    "post.txt": "46f718c633eddf31768e11ec456fe46b9379993c12a647dc64ae64546a21a5f7"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1955438916645130740",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"Updates to ChatGPT: You can now choose between “Auto”, “Fast”, and “Thinking” for GPT-5. Most users will want Auto, but the additional control will be useful for some people. Rate limits are now 3,000 messages/week with GPT-5 Thinking, and then extra capacity on GPT-5 Thinking m… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "August 13, 2025",
+    "posted_at": "2025-08-13T01:19:02.683Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260529083528/https://x.com/sama/status/1955438916645130740",
+    "timestamp": "20260529083528",
+    "method": "existing"
+  }
+}

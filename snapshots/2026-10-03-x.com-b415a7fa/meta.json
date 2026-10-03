@@ -1,0 +1,36 @@
+{
+  "url": "https://x.com/AnthropicAI/status/1910035641242640501",
+  "captured_at": "2026-10-03T12:16:13.022Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "75692040fc1a71c8b1b25b4f9cb7139c964b2620def5fb5732579b9c353858f2",
+    "page.txt": "b0679a41f49311bd8b33dcd7504f18e3c3f5f232cf89da677bc19186bb39bc84",
+    "post.json": "f0f488526d4992da3ca5c129cfa02ddd1c62491007c8a183d9b5a3863d5db3e7",
+    "syndication.json": "4a488db023489977c3da94226f7f7c8032feceeaa01d6311c3a08bb070c6a38b",
+    "media-1.png": "fd48329825e53f90b19f0ce81e425ba8e63d2872339ef1f145e2ea0dc7097f08",
+    "post.txt": "2cb10eb42775a82b98352495ce545bf9783f398fdc5d4ce43a00286ddfbde99b"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/AnthropicAI/status/1910035641242640501",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Anthropic on X: \"Introducing a new Max plan for Claude. It’s flexible, with options for 5x or 20x more usage compared to our Pro plan. Plus, priority access to our latest features and models:\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Anthropic (@AnthropicAI)",
+    "date": "April 9, 2025",
+    "posted_at": "2025-04-09T18:22:38.275Z",
+    "media": [
+      {
+        "file": "media-1.png",
+        "url": "https://pbs.twimg.com/media/GoG6srkXsAAQ5ec.png"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20250410031045/https://x.com/anthropicai/status/1910035641242640501",
+    "timestamp": "20250410031045",
+    "method": "existing"
+  }
+}

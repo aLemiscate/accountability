@@ -1,0 +1,26 @@
+{
+  "url": "https://www.lesswrong.com/posts/prSnGGAgfWtZexYLp/is-90-of-code-at-anthropic-being-written-by-ais",
+  "captured_at": "2026-10-03T12:14:09.243Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.txt": "3c89a4913284a4036129ac25cdcc6dbe838a01fa6e774bde4dc81ae026675025",
+    "screenshot.jpg": "f9b0cde637d02eb0a88bd6067f0d664e004e33dd70a91736adc22043fabd3e93",
+    "rendered.txt": "53c2e87db631b10f3e5678f5527d0f9d2a973d201a85aa9c99a341f2ebc71011"
+  },
+  "http_status": 200,
+  "final_url": "https://www.lesswrong.com/posts/prSnGGAgfWtZexYLp/is-90-of-code-at-anthropic-being-written-by-ais",
+  "content_type": "text/html; charset=utf-8",
+  "omitted": {
+    "file": "page.html",
+    "bytes": 674671,
+    "sha256": "7dfe3ee79e24d55f99bf4cbcf9065a5ee4f6ccc372264e221537485273311232",
+    "reason": "the page embeds a third-party API token that GitHub push protection blocks; page.txt holds its text"
+  },
+  "title": "Is 90% of code at Anthropic being written by AIs? — LessWrong",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20261003121418/https://www.lesswrong.com/posts/prSnGGAgfWtZexYLp/is-90-of-code-at-anthropic-being-written-by-ais",
+    "timestamp": "20261003121418",
+    "method": "existing"
+  }
+}

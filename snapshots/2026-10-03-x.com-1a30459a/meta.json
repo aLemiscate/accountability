@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/aidan_mclau/status/2028507663529906395",
+  "captured_at": "2026-10-03T14:18:55.993Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "53b6b00985c9bbf50eaa5fd2773b87e75b5771531609aadf0c67420f73faa061",
+    "page.txt": "50e80030aa21152c90674a4596d6b41e05a840e082a864c06c4f615dfe89b550",
+    "post.json": "de902039fb44d00fe29f92b0f155814cdd9a24ea5b63b429eac002fd964a82a8",
+    "syndication.json": "af78cc0f4f61ae27c8dd30eead15c4c81a7e39c094e884c0253501db2995cc3c",
+    "post.txt": "b85e54a247ad8ad6c43ab711c2a1bcc4024ad92eafac5794fa91c7bcd81e070c"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/aidan_mclau/status/2028507663529906395",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Aidan McLaughlin on X: \"i personally don’t think this deal was worth it\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Aidan McLaughlin (@aidan_mclau)",
+    "date": "March 2, 2026",
+    "posted_at": "2026-03-02T16:28:09.492Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260303164446/https://x.com/aidan_mclau/status/2028507663529906395",
+    "timestamp": "20260303164446",
+    "method": "existing"
+  }
+}

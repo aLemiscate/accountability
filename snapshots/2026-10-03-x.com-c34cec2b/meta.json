@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/claudeai/status/2064394155258765783",
+  "captured_at": "2026-10-03T12:46:35.054Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "76d5dac1d657d6779e54731a285a7609017deda88a4ad43e2cce49cbdecfc65c",
+    "page.txt": "4776635dd10a23b735028ea13172f21caeaf8d6c33d547e13bc30a27a9af4436",
+    "post.json": "370f33d78c34ebb84a6c7c7ca510321b538bea0c61aa054c34232f3b4175c961",
+    "syndication.json": "a1e931583470a9a97a1f94a4f57c0328fe2f05424b177421002a320f5d755b4a",
+    "post.txt": "9d2cbb4487c89cfbc53f4ea64fb31dd94300bb30413fc6e9dbd843943da4b9f6"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/claudeai/status/2064394155258765783",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Claude on X: \"Releasing a model this capable comes with risks. Without safeguards, Fable 5’s capabilities in areas like cybersecurity could be misused to cause serious damage. Queries on a narrow range of topics will instead receive a response from our next-most-capable model, Opus 4.8.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Claude (@claudeai)",
+    "date": "June 9, 2026",
+    "posted_at": "2026-06-09T17:08:15.859Z"
+  },
+  "rendered_status": 403,
+  "archive": null
+}

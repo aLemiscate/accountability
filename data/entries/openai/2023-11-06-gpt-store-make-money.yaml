@@ -11,18 +11,18 @@ quote: >-
   money from their GPTs.
 summary: >-
   At its first developer conference OpenAI introduced GPTs, custom versions of
-  ChatGPT, and promised a store within weeks where builders could earn money.
-  On Dec. 1 it told builders the store would come early in 2024 instead:
-  "While we had expected to release it this month, a few unexpected things
-  have been keeping us busy!" The store opened on Jan. 10, 2024, with more
-  than 3 million GPTs created, and a revenue program promised for the first
-  quarter: "As a first step, US builders will be paid based on user
-  engagement with their GPTs." By June, OpenAI's help-center FAQ, as quoted
-  on its developer forum, said it was "partnering with a small group of
-  builders to test GPT earnings based on usage" and was "not currently
-  accepting additional builders." This record found no announcement of a
-  wider program. On Sept. 11, 2026, OpenAI announced it would retire custom
-  GPTs on Dec. 11, moving them to a plugin system shared with Codex.
+  ChatGPT, and promised a store within weeks where builders could earn money. On
+  Dec. 1 it told builders the store would come early in 2024 instead: "While we
+  had expected to release it this month, a few unexpected things have been
+  keeping us busy!" The store opened on Jan. 10, 2024, with more than 3 million
+  GPTs created, and a revenue program promised for the first quarter: "As a
+  first step, US builders will be paid based on user engagement with their
+  GPTs." By June, OpenAI's help-center FAQ, as quoted on its developer forum,
+  said it was "partnering with a small group of builders to test GPT earnings
+  based on usage" and was "not currently accepting additional builders." This
+  record found no announcement of a wider program. On Sept. 11, 2026, OpenAI
+  announced it would retire custom GPTs on Dec. 11, moving them to a plugin
+  system shared with Codex.
 concreteness: measurable
 status: broken
 patterns: [coming-weeks]
@@ -32,32 +32,41 @@ sources:
     url: https://x.com/OpenAI/status/1721594384737792495
     date: 2023-11-06
     type: primary
+    archive: https://web.archive.org/web/20260208072450/https://x.com/OpenAI/status/1721594384737792495
+    snapshot: snapshots/2026-10-03-x.com-963dccbf
   - title: OpenAI's GPT Store delayed to 2024 following leadership chaos
     publisher: TechCrunch
     url: https://techcrunch.com/2023/12/01/openais-gpt-store-delayed-to-2024-following-leadership-chaos/
     date: 2023-12-01
     type: reporting
+    snapshot: snapshots/2026-10-03-techcrunch.com-016c37ae
   - title: OpenAI GPT Store is a Nascent Marketplace for Custom ChatGPTs
     publisher: InfoQ
     url: https://www.infoq.com/news/2024/01/openai-gpt-store/
     date: 2024-01-12
     type: reporting
+    snapshot: snapshots/2026-10-03-infoq.com-6bebd27d
   - title: OpenAI Launches GPT Store for Building Custom ChatGPTs
     publisher: AI Business
     url: https://aibusiness.com/nlp/openai-launches-gpt-store-for-users-to-build-custom-chatgpts
     date: 2024-01-10
     type: reporting
+    archive: https://web.archive.org/web/20250722172148/https://aibusiness.com/nlp/openai-launches-gpt-store-for-users-to-build-custom-chatgpts
+    snapshot: snapshots/2026-10-03-aibusiness.com-e9592a45
   - title: What is the status with GPT store revenue share (forum thread quoting
       OpenAI's "Monetizing your GPT" FAQ)
     publisher: OpenAI Developer Community
     url: https://community.openai.com/t/what-is-the-status-with-gpt-store-revenue-share/839172
     date: 2024-06-25
     type: analysis
+    snapshot: snapshots/2026-10-03-community.openai.com-19100edb
   - title: OpenAI to Retire Custom GPTs, Replace Them with Plugins
     publisher: Virtualization Review
     url: https://virtualizationreview.com/articles/2026/09/28/openai-to-retire-custom-gpts-replace-them-with-plugins.aspx
     date: 2026-09-28
     type: reporting
+    archive: https://web.archive.org/web/20261003132911/https://virtualizationreview.com/articles/2026/09/28/openai-to-retire-custom-gpts-replace-them-with-plugins.aspx
+    snapshot: snapshots/2026-10-03-virtualizationreview.com-7a013a50
 note: >-
   The store did launch, two months late, and some builders were paid in the
   pilot. The promise that drew millions of people to build GPTs was broader:

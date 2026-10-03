@@ -1,0 +1,48 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 894,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2019-08-20T16:02:40.000Z",
+  "display_text_range": [
+    0,
+    261
+  ],
+  "entities": {
+    "urls": [
+      {
+        "display_url": "openai.com/blog/gpt-2-6-m…",
+        "expanded_url": "https://openai.com/blog/gpt-2-6-month-follow-up/",
+        "indices": [
+          238,
+          261
+        ],
+        "url": "https://t.co/wnLwmRt9jT"
+      }
+    ]
+  },
+  "id_str": "1163843803884601344",
+  "text": "GPT-2 6-month follow-up: we're releasing the 774M parameter model, an open-source legal doc organizations can use to form model-sharing partnerships, and a technical report about our experience coordinating to form new publication norms: https://t.co/wnLwmRt9jT",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1163843803884601344"
+    ],
+    "editable_until_msecs": "1566318760675",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 30,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

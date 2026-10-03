@@ -1,0 +1,109 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 651,
+  "in_reply_to_screen_name": "QuantumTumbler",
+  "in_reply_to_status_id_str": "2027909170100637976",
+  "in_reply_to_user_id_str": "473162595",
+  "lang": "en",
+  "created_at": "2026-03-01T01:07:05.000Z",
+  "display_text_range": [
+    16,
+    139
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "473162595",
+        "indices": [
+          0,
+          15
+        ],
+        "name": "B",
+        "screen_name": "QuantumTumbler"
+      }
+    ]
+  },
+  "id_str": "2027913483011170667",
+  "text": "@QuantumTumbler If we were asked to do something unconstitutional or illegal, we will walk away. Please come visit me in jail if necessary.",
+  "user": {
+    "id_str": "1605",
+    "name": "Sam Altman",
+    "screen_name": "sama",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_normal.jpg",
+    "highlighted_label": {
+      "badge": {
+        "url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_bigger.jpg"
+      },
+      "description": "OpenAI",
+      "url": {
+        "url": "https://twitter.com/OpenAI",
+        "url_type": "DeepLink"
+      },
+      "user_label_display_type": "Badge",
+      "user_label_type": "BusinessLabel"
+    }
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2027913483011170667"
+    ],
+    "editable_until_msecs": "1772330825000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 89,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 137,
+    "in_reply_to_screen_name": "sama",
+    "in_reply_to_status_id_str": "2027900042720498089",
+    "in_reply_to_user_id_str": "1605",
+    "lang": "en",
+    "reply_count": 3,
+    "retweet_count": 4,
+    "created_at": "2026-03-01T00:49:57.000Z",
+    "display_text_range": [
+      6,
+      138
+    ],
+    "entities": {
+      "user_mentions": [
+        {
+          "id_str": "1605",
+          "indices": [
+            0,
+            5
+          ],
+          "name": "Sam Altman",
+          "screen_name": "sama"
+        }
+      ]
+    },
+    "id_str": "2027909170100637976",
+    "text": "@sama What would cause OpenAI to walk away from a government partnership? Is there a clearly defined boundary or red line you won’t cross?",
+    "user": {
+      "id_str": "473162595",
+      "name": "B",
+      "screen_name": "QuantumTumbler",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2076955346044866561/pIv_Pi9W_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2027909170100637976"
+      ],
+      "editable_until_msecs": "1772329797000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

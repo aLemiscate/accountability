@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/embirico/status/1953590991870697896",
+  "captured_at": "2026-10-03T14:27:57.325Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "29b9d204b5c2563f46734ead7bc34e7a358a9cea28c2b4e226d19d755ff33af0",
+    "page.txt": "3d8e50134bfa667ebfbb86d35f0efad144d454c501d78dfe41dbb940ed164ace",
+    "post.json": "d6fa9690f7248bf8a937e4b78a3ec3fba53db9c33c6929fe756180bec1ac41d3",
+    "syndication.json": "2e746a7d989947e3148940da82db212c9e89070a9825e87e82f2020cf412818e",
+    "post.txt": "8e257c548896977ffd1f2ceed64b7a9c7399e8dfaf1a474235fe71a0916ef89e"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/embirico/status/1953590991870697896",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Alexander Embiricos on X: \"Lots of excitement about GPT-5 in Codex CLI via your ChatGPT plan. Some details: 1. Yes, if you sign in with ChatGPT, usage is included via your paid plan! 2. Still determining exact rate limits, but the goal is to be generous: -- Pro users should basically not hit limi… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Alexander Embiricos (@embirico)",
+    "date": "August 7, 2025",
+    "posted_at": "2025-08-07T22:56:03.084Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20250808042409/https://x.com/embirico/status/1953590991870697896",
+    "timestamp": "20250808042409",
+    "method": "existing"
+  }
+}

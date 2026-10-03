@@ -1,0 +1,346 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 5379,
+  "lang": "en",
+  "created_at": "2026-03-09T17:01:35.000Z",
+  "display_text_range": [
+    0,
+    257
+  ],
+  "entities": {},
+  "id_str": "2031052793835106753",
+  "text": "We’re acquiring Promptfoo.\n\nTheir technology will strengthen agentic security testing and evaluation capabilities in OpenAI Frontier. Promptfoo will remain open source under the current license, and we will continue to service and support current customers.",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2031052793835106753"
+    ],
+    "editable_until_msecs": "1773079295000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 640,
+  "news_action_type": "conversation",
+  "card": {
+    "card_platform": {
+      "platform": {
+        "audience": {
+          "name": "production"
+        },
+        "device": {
+          "name": "iPhone",
+          "version": "13"
+        }
+      }
+    },
+    "name": "summary_large_image",
+    "url": "https://t.co/xhmLmJRoUZ",
+    "binding_values": {
+      "photo_image_full_size_large": {
+        "image_value": {
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2104632283391262720/6-Uz9mAz?format=jpg&name=800x419",
+          "width": 800
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image": {
+        "image_value": {
+          "height": 150,
+          "url": "https://pbs.twimg.com/card_img/2104632283391262720/6-Uz9mAz?format=jpg&name=280x150",
+          "width": 267
+        },
+        "type": "IMAGE"
+      },
+      "description": {
+        "string_value": "OpenAI is acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI systems during development.",
+        "type": "STRING"
+      },
+      "domain": {
+        "string_value": "openai.com",
+        "type": "STRING"
+      },
+      "thumbnail_image_large": {
+        "image_value": {
+          "height": 320,
+          "url": "https://pbs.twimg.com/card_img/2104632283391262720/6-Uz9mAz?format=jpg&name=800x320_1",
+          "width": 569
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_small": {
+        "image_value": {
+          "height": 202,
+          "url": "https://pbs.twimg.com/card_img/2104632283391262720/6-Uz9mAz?format=jpg&name=386x202",
+          "width": 386
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_original": {
+        "image_value": {
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2104632283391262720/6-Uz9mAz?format=jpg&name=orig",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "site": {
+        "scribe_key": "publisher_id",
+        "type": "USER",
+        "user_value": {
+          "id_str": "4398626122",
+          "path": []
+        }
+      },
+      "photo_image_full_size_small": {
+        "image_value": {
+          "height": 202,
+          "url": "https://pbs.twimg.com/card_img/2104632283391262720/6-Uz9mAz?format=jpg&name=386x202",
+          "width": 386
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_large": {
+        "image_value": {
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2104632283391262720/6-Uz9mAz?format=jpg&name=800x419",
+          "width": 800
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_small": {
+        "image_value": {
+          "height": 81,
+          "url": "https://pbs.twimg.com/card_img/2104632283391262720/6-Uz9mAz?format=jpg&name=144x144",
+          "width": 144
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_x_large": {
+        "image_value": {
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2104632283391262720/6-Uz9mAz?format=png&name=2048x2048_2_exp",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_original": {
+        "image_value": {
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2104632283391262720/6-Uz9mAz?format=jpg&name=orig",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "vanity_url": {
+        "scribe_key": "vanity_url",
+        "string_value": "openai.com",
+        "type": "STRING"
+      },
+      "photo_image_full_size": {
+        "image_value": {
+          "height": 314,
+          "url": "https://pbs.twimg.com/card_img/2104632283391262720/6-Uz9mAz?format=jpg&name=600x314",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 33.98,
+              "rgb": {
+                "blue": 202,
+                "green": 119,
+                "red": 204
+              }
+            },
+            {
+              "percentage": 26.66,
+              "rgb": {
+                "blue": 251,
+                "green": 204,
+                "red": 173
+              }
+            },
+            {
+              "percentage": 26.53,
+              "rgb": {
+                "blue": 230,
+                "green": 157,
+                "red": 196
+              }
+            },
+            {
+              "percentage": 11.27,
+              "rgb": {
+                "blue": 157,
+                "green": 58,
+                "red": 192
+              }
+            },
+            {
+              "percentage": 0.65,
+              "rgb": {
+                "blue": 229,
+                "green": 199,
+                "red": 235
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "title": {
+        "string_value": "OpenAI to acquire Promptfoo",
+        "type": "STRING"
+      },
+      "summary_photo_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 33.98,
+              "rgb": {
+                "blue": 202,
+                "green": 119,
+                "red": 204
+              }
+            },
+            {
+              "percentage": 26.66,
+              "rgb": {
+                "blue": 251,
+                "green": 204,
+                "red": 173
+              }
+            },
+            {
+              "percentage": 26.53,
+              "rgb": {
+                "blue": 230,
+                "green": 157,
+                "red": 196
+              }
+            },
+            {
+              "percentage": 11.27,
+              "rgb": {
+                "blue": 157,
+                "green": 58,
+                "red": 192
+              }
+            },
+            {
+              "percentage": 0.65,
+              "rgb": {
+                "blue": 229,
+                "green": 199,
+                "red": 235
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "summary_photo_image_x_large": {
+        "image_value": {
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2104632283391262720/6-Uz9mAz?format=png&name=2048x2048_2_exp",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image": {
+        "image_value": {
+          "height": 314,
+          "url": "https://pbs.twimg.com/card_img/2104632283391262720/6-Uz9mAz?format=jpg&name=600x314",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 33.98,
+              "rgb": {
+                "blue": 202,
+                "green": 119,
+                "red": 204
+              }
+            },
+            {
+              "percentage": 26.66,
+              "rgb": {
+                "blue": 251,
+                "green": 204,
+                "red": 173
+              }
+            },
+            {
+              "percentage": 26.53,
+              "rgb": {
+                "blue": 230,
+                "green": 157,
+                "red": 196
+              }
+            },
+            {
+              "percentage": 11.27,
+              "rgb": {
+                "blue": 157,
+                "green": 58,
+                "red": 192
+              }
+            },
+            {
+              "percentage": 0.65,
+              "rgb": {
+                "blue": 229,
+                "green": 199,
+                "red": 235
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "photo_image_full_size_x_large": {
+        "image_value": {
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2104632283391262720/6-Uz9mAz?format=png&name=2048x2048_2_exp",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "card_url": {
+        "scribe_key": "card_url",
+        "string_value": "https://t.co/xhmLmJRoUZ",
+        "type": "STRING"
+      },
+      "summary_photo_image_original": {
+        "image_value": {
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2104632283391262720/6-Uz9mAz?format=jpg&name=orig",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      }
+    }
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDMxMDUyNzkzNzAwODIzMDQz"
+  }
+}

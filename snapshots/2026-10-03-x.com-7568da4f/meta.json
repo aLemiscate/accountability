@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/bcherny/status/2040308730190020847",
+  "captured_at": "2026-10-03T12:42:17.889Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "38525392717a2400933f1b6c70e8887c37eaba7412f87f8d6d41734f3a24daf3",
+    "page.txt": "dcc430e1dd05448b565fe7b1c5ffa5ba0c611ca2a3ca247e4e465fa6e817938f",
+    "post.json": "2c298c3ee2e5a1de76ed3e2421f41c67f240801c6809248c216391bcc18a6e74",
+    "syndication.json": "87dc59feaafe5610948487c628b44b6ad2e8b1e73b15073e8f523f1d1b26f949",
+    "post.txt": "2e3ae644dfcdae09ef05acd268fe853436ec86a51a8a29bdef7d2ac6f84d6d26"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/bcherny/status/2040308730190020847",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Boris Cherny on X: \"👋 This is false. We serve exactly the same models to all users. What the person in the post might be experiencing is a lower effort level vs. what the enterprise set. Claude Code users can change this anytime by running /effort. low effort = less tokens and lower intelligence,… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Boris Cherny (@bcherny)",
+    "date": "April 4, 2026",
+    "posted_at": "2026-04-04T06:01:23.037Z"
+  },
+  "rendered_status": 403,
+  "archive": null
+}

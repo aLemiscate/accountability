@@ -1,0 +1,18 @@
+{
+  "url": "https://www-cdn.anthropic.com/14e4fb01875d2a69f646fa5e574dea2b1c0ff7b5.pdf",
+  "captured_at": "2026-10-03T12:32:00.553Z",
+  "tool": "said-did capture",
+  "files": {
+    "document.txt": "92f40f435a9575d5644b51fed508dd7c0c236cd6795ac3a1e821d7c892c8f384"
+  },
+  "http_status": 200,
+  "final_url": "https://www-cdn.anthropic.com/14e4fb01875d2a69f646fa5e574dea2b1c0ff7b5.pdf",
+  "content_type": "application/pdf",
+  "omitted": {
+    "file": "document.pdf",
+    "bytes": 14457097,
+    "sha256": "75130eefef08af5b37eb356f59ccfbe64985d54cb3184be2568db9fe287841f5",
+    "reason": "larger than the size limit; text kept"
+  },
+  "archive": null
+}

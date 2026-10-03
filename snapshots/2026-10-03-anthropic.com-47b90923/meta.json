@@ -1,0 +1,21 @@
+{
+  "url": "https://www.anthropic.com/legal/privacy",
+  "captured_at": "2026-10-03T12:23:01.191Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "dd3ac82d00b5ea1b10a432b8abd62607d002f8f0e8b8a1d310d15866192ca112",
+    "page.txt": "2597913f6a7af70e22caedfe1f0c09fb3ed5af20ccef99628a836b38d405c3b1",
+    "screenshot.jpg": "6d9fa81785f1e3f73817e8aa7889afb982fd7a3709ff34ea0bed2632631754eb",
+    "rendered.txt": "d9d4d4040804aca3ec2ce5877df48a767482b91b313f7fe9048f1a38b84bfd0b"
+  },
+  "http_status": 200,
+  "final_url": "https://www.anthropic.com/legal/privacy",
+  "content_type": "text/html; charset=utf-8",
+  "title": "Privacy Policy \\ Anthropic",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20261002235844/https://www.anthropic.com/legal/privacy",
+    "timestamp": "20261002235844",
+    "method": "existing"
+  }
+}
