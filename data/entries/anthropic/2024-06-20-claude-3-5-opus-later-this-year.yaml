@@ -1,5 +1,5 @@
-title: 'Anthropic: "we’ll be releasing Claude 3.5 Haiku and Claude 3.5 Opus later
-  this year"; 3.5 Opus never shipped'
+title: 'Anthropic: "we’ll be releasing Claude 3.5 Haiku and Claude 3.5 Opus
+  later this year"; 3.5 Opus never shipped'
 date: 2024-06-20
 org: anthropic
 type: said
@@ -15,10 +15,10 @@ summary: >-
   Haiku shipped in November. Anthropic's model documentation still listed 3.5
   Opus as coming "Later this year" on Oct. 8; by Oct. 22, the day Anthropic
   launched an upgraded 3.5 Sonnet, the page no longer mentioned it, as Simon
-  Willison noted that day. There was no announcement. Asked in November when
-  it was coming, Dario Amodei said: "Not giving you an exact date, but as far
-  as we know, the plan is still to have a Claude 3.5 Opus." No Claude 3.5 Opus
-  was released; the next Opus model was Claude Opus 4, in May 2025.
+  Willison noted that day. There was no announcement. Asked in November when it
+  was coming, Dario Amodei said: "Not giving you an exact date, but as far as we
+  know, the plan is still to have a Claude 3.5 Opus." No Claude 3.5 Opus was
+  released; the next Opus model was Claude Opus 4, in May 2025.
 concreteness: measurable
 status: broken
 patterns: [coming-weeks]
@@ -29,31 +29,39 @@ sources:
     url: https://www.anthropic.com/news/claude-3-5-sonnet
     date: 2024-06-20
     type: primary
-  - title: Models overview, as archived on Oct. 8, 2024 (3.5 Opus "Later this
-      year")
+    archive: https://web.archive.org/web/20261003115600/https://www.anthropic.com/news/claude-3-5-sonnet
+    snapshot: snapshots/2026-10-03-anthropic.com-e91e6f80
+  - title: Models overview, as archived on Oct. 8, 2024 (3.5 Opus "Later this year")
     publisher: Internet Archive
     url: https://web.archive.org/web/20241008222204/https://docs.anthropic.com/en/docs/about-claude/models
     date: 2024-10-08
     type: archive
-  - title: Simon Willison on Hacker News ("Claude 3.5 Opus is no longer mentioned
-      at all")
+    archive: https://web.archive.org/web/20261003074745/https://web.archive.org/web/20241008222204/https://docs.anthropic.com/en/docs/about-claude/models
+    snapshot: snapshots/2026-10-03-web.archive.org-ad55d60a
+  - title: Simon Willison on Hacker News ("Claude 3.5 Opus is no longer mentioned at
+      all")
     publisher: Hacker News
     url: https://news.ycombinator.com/item?id=41920044
     date: 2024-10-22
     type: analysis
+    archive: https://web.archive.org/web/20250228174647/https://news.ycombinator.com/item?id=41920044
+    snapshot: snapshots/2026-10-03-news.ycombinator.com-f3f5334c
   - title: 'Transcript for Dario Amodei: Anthropic CEO on Claude, AGI & the Future
       of AI & Humanity (Lex Fridman Podcast #452)'
     publisher: Lex Fridman
     url: https://lexfridman.com/dario-amodei-transcript/
     date: 2024-11-11
     type: primary
+    archive: https://web.archive.org/web/20260917073245/https://lexfridman.com/dario-amodei-transcript/
+    snapshot: snapshots/2026-10-03-lexfridman.com-c6218e8d
   - title: Anthropic delays next-gen AI model Opus 3.5 with no new timeline
     publisher: The Decoder
     url: https://the-decoder.com/anthropic-delays-next-gen-ai-model-opus-3-5-with-no-new-timeline/
     date: 2024-11-12
     type: reporting
+    archive: https://web.archive.org/web/20260513003225/https://the-decoder.com/anthropic-delays-next-gen-ai-model-opus-3-5-with-no-new-timeline/
+    snapshot: snapshots/2026-10-03-the-decoder.com-e86b24d9
 note: >-
   Model plans change, and a delayed model is not a broken safety promise. The
-  pattern is how the date passed: the promise came off the documentation
-  without a note, and readers learned of it from a watcher comparing archived
-  pages.
+  pattern is how the date passed: the promise came off the documentation without
+  a note, and readers learned of it from a watcher comparing archived pages.

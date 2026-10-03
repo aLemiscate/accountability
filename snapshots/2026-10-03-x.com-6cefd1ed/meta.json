@@ -1,0 +1,32 @@
+{
+  "url": "https://x.com/sjgadler/status/1511855493983002625",
+  "captured_at": "2026-10-03T12:59:16.454Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "5eef92e6908b6982ae26f47ab85252e64078198e7f4f94b5f1460ff3a8e5d5de",
+    "page.txt": "88d7397f8830bc454c24b69fd072298307cf1775ab108a00fd58aeb57147c904",
+    "post.json": "e1512b4752574c2b955c19a8c0670744ff2e2a7b7977d4aae3644d23a518aace",
+    "syndication.json": "cc6eeb939b0f017c12d291dc8a09a83a4a0d59085aa36037e416d10b33d4ab93",
+    "media-1.jpg": "9f3d04d2fb2d9f559463938884f673c8b5790d192ca13f2247d69af35e91a491",
+    "post.txt": "ebc20d4dba9aaddcbe602c2055ed4086b0f2fe182a5817aa744c2904d2580ea7"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sjgadler/status/1511855493983002625",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Steven Adler on X: \"@heyhashim These are _okay_; trying to stay away from proper nouns of specific people, even though we've made our model less-capable of repeating public figures' faces\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Steven Adler (@sjgadler)",
+    "date": "April 6, 2022",
+    "posted_at": "2022-04-06T23:56:53.339Z",
+    "media": [
+      {
+        "file": "media-1.jpg",
+        "url": "https://pbs.twimg.com/media/FPswirUUcAQCdlJ.jpg"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": null
+}

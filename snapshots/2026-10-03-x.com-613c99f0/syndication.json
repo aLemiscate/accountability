@@ -1,0 +1,379 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 8462,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2023-01-31T18:10:32.000Z",
+  "display_text_range": [
+    0,
+    219
+  ],
+  "entities": {
+    "urls": [
+      {
+        "display_url": "openai.com/blog/new-ai-cl…",
+        "expanded_url": "https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text/",
+        "indices": [
+          196,
+          219
+        ],
+        "url": "https://t.co/4dQE3dX6vX"
+      }
+    ]
+  },
+  "id_str": "1620484691462852609",
+  "text": "We’re developing a new tool to help distinguish between AI-written and human-written text. We’re releasing an initial version to collect feedback and hope to share improved methods in the future. https://t.co/4dQE3dX6vX",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1620484691462852609"
+    ],
+    "editable_until_msecs": "1675190432000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 620,
+  "news_action_type": "conversation",
+  "card": {
+    "card_platform": {
+      "platform": {
+        "audience": {
+          "name": "production"
+        },
+        "device": {
+          "name": "iPhone",
+          "version": "13"
+        }
+      }
+    },
+    "name": "summary_large_image",
+    "url": "https://t.co/4dQE3dX6vX",
+    "binding_values": {
+      "photo_image_full_size_large": {
+        "image_value": {
+          "alt": "New Ai Classifier For Indicating Ai Written Text",
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2106247951676776448/2Ei5TQLR?format=jpg&name=800x419",
+          "width": 800
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image": {
+        "image_value": {
+          "alt": "New Ai Classifier For Indicating Ai Written Text",
+          "height": 150,
+          "url": "https://pbs.twimg.com/card_img/2106247951676776448/2Ei5TQLR?format=jpg&name=280x150",
+          "width": 267
+        },
+        "type": "IMAGE"
+      },
+      "description": {
+        "string_value": "We’re launching a classifier trained to distinguish between AI-written and human-written text.",
+        "type": "STRING"
+      },
+      "domain": {
+        "string_value": "openai.com",
+        "type": "STRING"
+      },
+      "thumbnail_image_large": {
+        "image_value": {
+          "alt": "New Ai Classifier For Indicating Ai Written Text",
+          "height": 320,
+          "url": "https://pbs.twimg.com/card_img/2106247951676776448/2Ei5TQLR?format=jpg&name=800x320_1",
+          "width": 569
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_small": {
+        "image_value": {
+          "alt": "New Ai Classifier For Indicating Ai Written Text",
+          "height": 202,
+          "url": "https://pbs.twimg.com/card_img/2106247951676776448/2Ei5TQLR?format=jpg&name=386x202",
+          "width": 386
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_original": {
+        "image_value": {
+          "alt": "New Ai Classifier For Indicating Ai Written Text",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2106247951676776448/2Ei5TQLR?format=jpg&name=orig",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "site": {
+        "scribe_key": "publisher_id",
+        "type": "USER",
+        "user_value": {
+          "id_str": "4398626122",
+          "path": []
+        }
+      },
+      "photo_image_full_size_small": {
+        "image_value": {
+          "alt": "New Ai Classifier For Indicating Ai Written Text",
+          "height": 202,
+          "url": "https://pbs.twimg.com/card_img/2106247951676776448/2Ei5TQLR?format=jpg&name=386x202",
+          "width": 386
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_large": {
+        "image_value": {
+          "alt": "New Ai Classifier For Indicating Ai Written Text",
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2106247951676776448/2Ei5TQLR?format=jpg&name=800x419",
+          "width": 800
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_small": {
+        "image_value": {
+          "alt": "New Ai Classifier For Indicating Ai Written Text",
+          "height": 81,
+          "url": "https://pbs.twimg.com/card_img/2106247951676776448/2Ei5TQLR?format=jpg&name=144x144",
+          "width": 144
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_x_large": {
+        "image_value": {
+          "alt": "New Ai Classifier For Indicating Ai Written Text",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2106247951676776448/2Ei5TQLR?format=png&name=2048x2048_2_exp",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_original": {
+        "image_value": {
+          "alt": "New Ai Classifier For Indicating Ai Written Text",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2106247951676776448/2Ei5TQLR?format=jpg&name=orig",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_alt_text": {
+        "string_value": "New Ai Classifier For Indicating Ai Written Text",
+        "type": "STRING"
+      },
+      "vanity_url": {
+        "scribe_key": "vanity_url",
+        "string_value": "openai.com",
+        "type": "STRING"
+      },
+      "photo_image_full_size": {
+        "image_value": {
+          "alt": "New Ai Classifier For Indicating Ai Written Text",
+          "height": 314,
+          "url": "https://pbs.twimg.com/card_img/2106247951676776448/2Ei5TQLR?format=jpg&name=600x314",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image_alt_text": {
+        "string_value": "New Ai Classifier For Indicating Ai Written Text",
+        "type": "STRING"
+      },
+      "thumbnail_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 34.2,
+              "rgb": {
+                "blue": 8,
+                "green": 110,
+                "red": 229
+              }
+            },
+            {
+              "percentage": 19.49,
+              "rgb": {
+                "blue": 38,
+                "green": 154,
+                "red": 234
+              }
+            },
+            {
+              "percentage": 13.13,
+              "rgb": {
+                "blue": 107,
+                "green": 181,
+                "red": 211
+              }
+            },
+            {
+              "percentage": 8.18,
+              "rgb": {
+                "blue": 7,
+                "green": 72,
+                "red": 219
+              }
+            },
+            {
+              "percentage": 7.02,
+              "rgb": {
+                "blue": 140,
+                "green": 198,
+                "red": 165
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "title": {
+        "string_value": "New AI classifier for indicating AI-written text",
+        "type": "STRING"
+      },
+      "summary_photo_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 34.2,
+              "rgb": {
+                "blue": 8,
+                "green": 110,
+                "red": 229
+              }
+            },
+            {
+              "percentage": 19.49,
+              "rgb": {
+                "blue": 38,
+                "green": 154,
+                "red": 234
+              }
+            },
+            {
+              "percentage": 13.13,
+              "rgb": {
+                "blue": 107,
+                "green": 181,
+                "red": 211
+              }
+            },
+            {
+              "percentage": 8.18,
+              "rgb": {
+                "blue": 7,
+                "green": 72,
+                "red": 219
+              }
+            },
+            {
+              "percentage": 7.02,
+              "rgb": {
+                "blue": 140,
+                "green": 198,
+                "red": 165
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "summary_photo_image_x_large": {
+        "image_value": {
+          "alt": "New Ai Classifier For Indicating Ai Written Text",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2106247951676776448/2Ei5TQLR?format=png&name=2048x2048_2_exp",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "summary_photo_image": {
+        "image_value": {
+          "alt": "New Ai Classifier For Indicating Ai Written Text",
+          "height": 314,
+          "url": "https://pbs.twimg.com/card_img/2106247951676776448/2Ei5TQLR?format=jpg&name=600x314",
+          "width": 600
+        },
+        "type": "IMAGE"
+      },
+      "photo_image_full_size_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 34.2,
+              "rgb": {
+                "blue": 8,
+                "green": 110,
+                "red": 229
+              }
+            },
+            {
+              "percentage": 19.49,
+              "rgb": {
+                "blue": 38,
+                "green": 154,
+                "red": 234
+              }
+            },
+            {
+              "percentage": 13.13,
+              "rgb": {
+                "blue": 107,
+                "green": 181,
+                "red": 211
+              }
+            },
+            {
+              "percentage": 8.18,
+              "rgb": {
+                "blue": 7,
+                "green": 72,
+                "red": 219
+              }
+            },
+            {
+              "percentage": 7.02,
+              "rgb": {
+                "blue": 140,
+                "green": 198,
+                "red": 165
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "photo_image_full_size_x_large": {
+        "image_value": {
+          "alt": "New Ai Classifier For Indicating Ai Written Text",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2106247951676776448/2Ei5TQLR?format=png&name=2048x2048_2_exp",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      },
+      "card_url": {
+        "scribe_key": "card_url",
+        "string_value": "https://t.co/4dQE3dX6vX",
+        "type": "STRING"
+      },
+      "summary_photo_image_original": {
+        "image_value": {
+          "alt": "New Ai Classifier For Indicating Ai Written Text",
+          "height": 900,
+          "url": "https://pbs.twimg.com/card_img/2106247951676776448/2Ei5TQLR?format=jpg&name=orig",
+          "width": 1600
+        },
+        "type": "IMAGE"
+      }
+    }
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

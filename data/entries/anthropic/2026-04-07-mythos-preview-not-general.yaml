@@ -14,19 +14,22 @@ summary: >-
   Anthropic announced Claude Mythos Preview, an unreleased frontier model that
   it said showed AI can "surpass all but the most skilled humans at finding and
   exploiting software vulnerabilities." It gave the model only to Project
-  Glasswing partners and more than 40 other organizations that maintain
-  critical software, for defensive work. It said it
-  would test the safeguards needed for a general release on an upcoming Claude
-  Opus model first.
+  Glasswing partners and more than 40 other organizations that maintain critical
+  software, for defensive work. It said it would test the safeguards needed for
+  a general release on an upcoming Claude Opus model first.
 concreteness: conditional
 status: open
 breaks_if: >-
   A generally available Mythos-class model is shown to give attackers
-  Mythos-level cyber capability that other public models don't, through a
-  bypass Anthropic knew of or failed to fix promptly; or Anthropic releases a
+  Mythos-level cyber capability that other public models don't, through a bypass
+  Anthropic knew of or failed to fix promptly; or Anthropic releases a
   Mythos-class model without the safeguards it described.
 patterns: []
-related: [2026-08-14-risk-report-classifier-gap, 2026-07-30-claude-cyber-eval-incidents]
+related:
+  [
+    2026-08-14-risk-report-classifier-gap,
+    2026-07-30-claude-cyber-eval-incidents
+  ]
 sources:
   - title: Anthropic on X
     publisher: X
@@ -70,15 +73,16 @@ updates:
         snapshot: snapshots/2026-09-30-anthropic.com-e11fcea9
   - date: 2026-06-12
     text: >-
-      Three days after launch, the US government ordered export controls on
-      both models after Amazon researchers reported a way around Fable 5's
+      Three days after launch, the US government ordered export controls on both
+      models after Amazon researchers reported a way around Fable 5's
       safeguards, and Anthropic pulled them for all users. See
       2026-06-12-fable-5-export-control-suspension.
   - date: 2026-08-14
     text: >-
-      Anthropic's Risk Report disclosed that data-labeling contractors had used a
-      platform flaw in April 2026 to reach Mythos Preview, running without
-      classifiers, for about two weeks. See 2026-08-14-risk-report-classifier-gap.
+      Anthropic's Risk Report disclosed that data-labeling contractors had used
+      a platform flaw in April 2026 to reach Mythos Preview, running without
+      classifiers, for about two weeks. See
+      2026-08-14-risk-report-classifier-gap.
   - date: 2026-09-01
     text: >-
       Anthropic released Claude Fable 5.1 to everyone and Claude Mythos 5.1, the
@@ -86,26 +90,30 @@ updates:
       participants in its trusted access programs, including a new invite-only
       program giving vetted life scientists reduced biology safeguards. It said
       Fable 5.1 may now be used to find software vulnerabilities but not to
-      develop exploits for them, and that its cyber safeguards produce about
-      60% fewer false positives in Claude Code.
+      develop exploits for them, and that its cyber safeguards produce about 60%
+      fewer false positives in Claude Code.
     sources:
-      - title: Claude on X ("We’re introducing Claude Fable 5.1 and Claude Mythos
-          5.1")
+      - title: Claude on X ("We’re introducing Claude Fable 5.1 and Claude Mythos 5.1")
         publisher: X
         url: https://x.com/claudeai/status/2094848572143407483
         date: 2026-09-01
         type: primary
+        snapshot: snapshots/2026-10-03-x.com-26d34a6d
       - title: 'System Card: Claude Fable 5.1 & Claude Mythos 5.1'
         publisher: Anthropic
         url: https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf
         date: 2026-09-01
         type: primary
+        archive: https://web.archive.org/web/20261002133947/https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf
+        snapshot: snapshots/2026-10-03-www-cdn.anthropic.com-6ed6de1b
       - title: Anthropic Launches Claude Fable 5.1 With Lower Costs and Fewer False
           Positives
         publisher: MacRumors
         url: https://www.macrumors.com/2026/09/01/anthropic-claude-fable-5-1/
         date: 2026-09-01
         type: reporting
+        archive: https://web.archive.org/web/20261003082847/https://www.macrumors.com/2026/09/01/anthropic-claude-fable-5-1/
+        snapshot: snapshots/2026-10-03-macrumors.com-b57bd2b6
 note: >-
   "Reliably" is the load-bearing word, and Anthropic's own position is that no
   model can be made fully jailbreak-proof. It argues its safeguards block the

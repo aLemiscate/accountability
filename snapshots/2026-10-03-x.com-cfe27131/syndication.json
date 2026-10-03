@@ -1,0 +1,35 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 9096,
+  "lang": "en",
+  "created_at": "2026-05-08T17:52:08.000Z",
+  "display_text_range": [
+    0,
+    205
+  ],
+  "entities": {},
+  "id_str": "2052808787514228772",
+  "text": "New Anthropic research: Teaching Claude why.\n\nLast year we reported that, under certain experimental conditions, Claude 4 would blackmail users.\n\nSince then, we’ve completely eliminated this behavior. How?",
+  "user": {
+    "id_str": "1353836358901501952",
+    "name": "Anthropic",
+    "screen_name": "AnthropicAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2052808787514228772"
+    ],
+    "editable_until_msecs": "1778266328000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 554,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

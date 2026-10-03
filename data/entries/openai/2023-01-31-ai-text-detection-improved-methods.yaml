@@ -8,25 +8,25 @@ who: [openai, jan-leike]
 venue: Launch post for the AI text classifier and posts on X
 quote: >-
   We’re developing a new tool to help distinguish between AI-written and
-  human-written text. We’re releasing an initial version to collect feedback
-  and hope to share improved methods in the future.
+  human-written text. We’re releasing an initial version to collect feedback and
+  hope to share improved methods in the future.
 summary: >-
   OpenAI released a classifier for spotting AI-written text two months after
   ChatGPT launched. "Everyone has a right to know whether they are interacting
-  with a human or AI," Jan Leike wrote, adding that it was "not fully
-  reliable." OpenAI withdrew it in July 2023 for its "low rate of accuracy,"
-  in an addendum to the launch post saying it was "currently researching more
-  effective provenance techniques for text." In August 2024 The Wall Street Journal reported that OpenAI had had a
-  system for watermarking ChatGPT's text, and a tool to detect it, ready for
-  about a year, but was divided over releasing it; in a survey the company
-  commissioned, almost 30 percent of ChatGPT users said they would use it
-  less if watermarking were implemented. OpenAI confirmed it was developing a
-  watermarking method but said it was taking a "deliberate approach," citing
-  circumvention and the potential to stigmatize non-native English speakers.
-  When EU rules requiring AI-generated text to be marked took effect in
-  August 2026, Anthropic announced a text watermark for new Claude models;
-  OpenAI said its "goal is to expand provenance signals to all modalities
-  including text" but had not said how it would mark text.
+  with a human or AI," Jan Leike wrote, adding that it was "not fully reliable."
+  OpenAI withdrew it in July 2023 for its "low rate of accuracy," in an addendum
+  to the launch post saying it was "currently researching more effective
+  provenance techniques for text." In August 2024 The Wall Street Journal
+  reported that OpenAI had had a system for watermarking ChatGPT's text, and a
+  tool to detect it, ready for about a year, but was divided over releasing it;
+  in a survey the company commissioned, almost 30 percent of ChatGPT users said
+  they would use it less if watermarking were implemented. OpenAI confirmed it
+  was developing a watermarking method but said it was taking a "deliberate
+  approach," citing circumvention and the potential to stigmatize non-native
+  English speakers. When EU rules requiring AI-generated text to be marked took
+  effect in August 2026, Anthropic announced a text watermark for new Claude
+  models; OpenAI said its "goal is to expand provenance signals to all
+  modalities including text" but had not said how it would mark text.
 concreteness: aspirational
 status: eroded
 patterns: [principles-with-a-price]
@@ -36,43 +36,57 @@ sources:
     url: https://x.com/OpenAI/status/1620484691462852609
     date: 2023-01-31
     type: primary
+    archive: https://web.archive.org/web/20250725050638/https://x.com/openai/status/1620484691462852609
+    snapshot: snapshots/2026-10-03-x.com-613c99f0
   - title: Jan Leike on X ("Everyone has a right to know whether they are
       interacting with a human or AI")
     publisher: X
     url: https://x.com/janleike/status/1620484806281940993
     date: 2023-01-31
     type: primary
+    snapshot: snapshots/2026-10-03-x.com-49aa7b00
   - title: New AI classifier for indicating AI-written text
     publisher: OpenAI
     url: https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text/
     date: 2023-01-31
     type: primary
+    archive: https://web.archive.org/web/20260929162626/https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text/
+    snapshot: snapshots/2026-10-03-openai.com-b7ab5d3a
   - title: OpenAI scuttles AI-written text detector over 'low rate of accuracy'
     publisher: TechCrunch
     url: https://techcrunch.com/2023/07/25/openai-scuttles-ai-written-text-detector-over-low-rate-of-accuracy/
     date: 2023-07-25
     type: reporting
+    archive: https://web.archive.org/web/20261003085454/https://techcrunch.com/2023/07/25/openai-scuttles-ai-written-text-detector-over-low-rate-of-accuracy/
+    snapshot: snapshots/2026-10-03-techcrunch.com-c594c60d
   - title: OpenAI won’t watermark ChatGPT text because its users could get caught
     publisher: The Verge
     url: https://www.theverge.com/2024/8/4/24213268/openai-chatgpt-text-watermark-cheat-detection-tool
     date: 2024-08-04
     type: reporting
+    archive: https://web.archive.org/web/20261003085649/https://www.theverge.com/2024/8/4/24213268/openai-chatgpt-text-watermark-cheat-detection-tool
+    snapshot: snapshots/2026-10-03-theverge.com-8dafc94d
   - title: OpenAI says it's taking a 'deliberate approach' to releasing tools that
       can detect writing from ChatGPT
     publisher: TechCrunch
     url: https://techcrunch.com/2024/08/04/openai-says-its-taking-a-deliberate-approach-to-releasing-tools-that-can-detect-writing-from-chatgpt/
     date: 2024-08-04
     type: reporting
+    archive: https://web.archive.org/web/20261003131124/https://techcrunch.com/2024/08/04/openai-says-its-taking-a-deliberate-approach-to-releasing-tools-that-can-detect-writing-from-chatgpt/
+    snapshot: snapshots/2026-10-03-techcrunch.com-39536a67
   - title: ChatGPT to follow Claude's watermark pledge - but Grok to swerve it
     publisher: City AM
     url: https://www.cityam.com/chatgpt-might-follow-claudes-watermark-pledge-but-grok-to-swerve-it/
     date: 2026-08-12
     type: reporting
+    archive: https://web.archive.org/web/20261003131216/https://www.cityam.com/chatgpt-might-follow-claudes-watermark-pledge-but-grok-to-swerve-it/
+    snapshot: snapshots/2026-10-03-cityam.com-a1a05b90
   - title: How Claude's text watermark works
     publisher: Anthropic
     url: https://www.anthropic.com/news/claude-text-watermark
     date: 2026-08-14
     type: primary
+    snapshot: snapshots/2026-10-03-anthropic.com-e6824606
 response: >-
   An OpenAI spokesperson told TechCrunch: "The text watermarking method we’re
   developing is technically promising, but has important risks we’re weighing
@@ -80,8 +94,8 @@ response: >-
   bad actors and the potential to disproportionately impact groups like
   non-English speakers."
 note: >-
-  "Hope to share" is not a promise, and the reasons OpenAI gave for waiting
-  are real limits of text watermarking. The Journal's reporting is what moves
-  this from a slow research effort to a choice: the tool existed, and the
-  survey of users was part of the internal case against shipping it. EU rules
-  may now settle the question.
+  "Hope to share" is not a promise, and the reasons OpenAI gave for waiting are
+  real limits of text watermarking. The Journal's reporting is what moves this
+  from a slow research effort to a choice: the tool existed, and the survey of
+  users was part of the internal case against shipping it. EU rules may now
+  settle the question.

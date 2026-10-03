@@ -10,15 +10,15 @@ quote: >-
   Haiku now outperforms many state-of-the-art models on coding tasks—including
   the original Claude 3.5 Sonnet and GPT-4o—at the same cost as before.
 summary: >-
-  Announcing Claude 3.5 Haiku, Anthropic said it would match earlier top
-  models "at the same cost as before" and be released "later this month." It
-  came out on Nov. 4, priced at $1 per million input tokens and $5 per
-  million output tokens, four times Claude 3 Haiku's $0.25 and $1.25, and
-  without the image input its predecessor had. "During final testing, Haiku
-  surpassed Claude 3 Opus, our previous flagship model, on many
-  benchmarks—at a fraction of the cost," Anthropic wrote. "As a result, we've
-  increased pricing for Claude 3.5 Haiku to reflect its increase in
-  intelligence." In December it cut the price to $0.80 and $4.
+  Announcing Claude 3.5 Haiku, Anthropic said it would match earlier top models
+  "at the same cost as before" and be released "later this month." It came out
+  on Nov. 4, priced at $1 per million input tokens and $5 per million output
+  tokens, four times Claude 3 Haiku's $0.25 and $1.25, and without the image
+  input its predecessor had. "During final testing, Haiku surpassed Claude 3
+  Opus, our previous flagship model, on many benchmarks—at a fraction of the
+  cost," Anthropic wrote. "As a result, we've increased pricing for Claude 3.5
+  Haiku to reflect its increase in intelligence." In December it cut the price
+  to $0.80 and $4.
 concreteness: measurable
 status: broken
 patterns: []
@@ -29,28 +29,36 @@ sources:
     url: https://x.com/AnthropicAI/status/1848742767859499441
     date: 2024-10-22
     type: primary
+    archive: https://web.archive.org/web/20250328045145/https://x.com/AnthropicAI/status/1848742767859499441
+    snapshot: snapshots/2026-10-03-x.com-c2e66451
   - title: Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku
     publisher: Anthropic
     url: https://www.anthropic.com/news/3-5-models-and-computer-use
     date: 2024-10-22
     type: primary
+    archive: https://web.archive.org/web/20260929211930/https://www.anthropic.com/news/3-5-models-and-computer-use
+    snapshot: snapshots/2026-10-03-anthropic.com-9e4ef9c1
   - title: Anthropic on X ("we've increased pricing for Claude 3.5 Haiku")
     publisher: X
     url: https://x.com/AnthropicAI/status/1853498270724542658
     date: 2024-11-04
     type: primary
+    archive: https://web.archive.org/web/20250829223242/https://x.com/AnthropicAI/status/1853498270724542658
+    snapshot: snapshots/2026-10-03-x.com-44f57f6b
   - title: Anthropic hikes the price of its Haiku model
     publisher: TechCrunch
     url: https://techcrunch.com/2024/11/04/anthropic-hikes-the-price-of-its-haiku-model/
     date: 2024-11-04
     type: reporting
+    snapshot: snapshots/2026-10-03-techcrunch.com-5d8e51b0
   - title: Claude 3.5 Haiku
     publisher: Simon Willison
     url: https://simonwillison.net/2024/Nov/4/haiku/
     date: 2024-11-04
     type: analysis
+    archive: https://web.archive.org/web/20260929000019/https://simonwillison.net/2024/Nov/4/haiku/
+    snapshot: snapshots/2026-10-03-simonwillison.net-3b674584
 note: >-
-  Anthropic said why the price changed, the same day, and the model was
-  stronger than announced. The claim that broke was the price: developers
-  told in October to expect the old cost were charged four times it in
-  November.
+  Anthropic said why the price changed, the same day, and the model was stronger
+  than announced. The claim that broke was the price: developers told in October
+  to expect the old cost were charged four times it in November.

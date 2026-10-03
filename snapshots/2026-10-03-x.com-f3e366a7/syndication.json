@@ -1,0 +1,253 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 970,
+  "in_reply_to_screen_name": "OpenAI",
+  "in_reply_to_status_id_str": "1972708279043367238",
+  "in_reply_to_user_id_str": "4398626122",
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2025-09-29T17:01:19.000Z",
+  "display_text_range": [
+    0,
+    252
+  ],
+  "entities": {
+    "urls": [
+      {
+        "display_url": "chatgpt.com/merchants",
+        "expanded_url": "https://chatgpt.com/merchants",
+        "indices": [
+          229,
+          252
+        ],
+        "url": "https://t.co/Vzg7pg2Und"
+      }
+    ]
+  },
+  "id_str": "1972708280951775597",
+  "text": "Instant Checkout is now rolling out to US ChatGPT Pro, Plus and Free logged-in users buying from US Etsy sellers, with over 1 million Shopify merchants coming soon.\n\nMerchants interested in joining can learn more and apply here: https://t.co/Vzg7pg2Und",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1972708280951775597"
+    ],
+    "editable_until_msecs": "1759168879000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 53,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 10178,
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 944,
+    "retweet_count": 1293,
+    "created_at": "2025-09-29T17:01:19.000Z",
+    "display_text_range": [
+      0,
+      280
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/9miGZr1Yn7",
+          "expanded_url": "https://x.com/OpenAI/status/1972708279043367238/video/1",
+          "indices": [
+            281,
+            304
+          ],
+          "url": "https://t.co/9miGZr1Yn7"
+        }
+      ],
+      "user_mentions": [
+        {
+          "id_str": "11522502",
+          "indices": [
+            144,
+            149
+          ],
+          "name": "Etsy",
+          "screen_name": "Etsy"
+        },
+        {
+          "id_str": "17136315",
+          "indices": [
+            154,
+            162
+          ],
+          "name": "Shopify",
+          "screen_name": "Shopify"
+        },
+        {
+          "id_str": "102812444",
+          "indices": [
+            239,
+            246
+          ],
+          "name": "Stripe",
+          "screen_name": "stripe"
+        }
+      ]
+    },
+    "id_str": "1972708279043367238",
+    "text": "ChatGPT already helps millions of people find what to buy. Now it can help them buy it too.\n\nWe’re introducing Instant Checkout in ChatGPT with @Etsy and @Shopify, and open-sourcing the Agentic Commerce Protocol that powers it, built with @Stripe, so more merchants and developers https://t.co/9miGZr1Yn7",
+    "user": {
+      "id_str": "4398626122",
+      "name": "OpenAI",
+      "screen_name": "OpenAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1972708279043367238"
+      ],
+      "editable_until_msecs": "1759168879000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "mediaDetails": [
+      {
+        "additional_media_info": {},
+        "display_url": "pic.x.com/9miGZr1Yn7",
+        "expanded_url": "https://x.com/OpenAI/status/1972708279043367238/video/1",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          281,
+          304
+        ],
+        "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1972703912219254785/img/BjV1zLMDLVPAoV17.jpg",
+        "original_info": {
+          "focus_rects": [],
+          "height": 2160,
+          "width": 3840
+        },
+        "sizes": {
+          "large": {
+            "h": 1152,
+            "resize": "fit",
+            "w": 2048
+          },
+          "medium": {
+            "h": 675,
+            "resize": "fit",
+            "w": 1200
+          },
+          "small": {
+            "h": 383,
+            "resize": "fit",
+            "w": 680
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "video",
+        "url": "https://t.co/9miGZr1Yn7",
+        "video_info": {
+          "aspect_ratio": [
+            16,
+            9
+          ],
+          "duration_millis": 29433,
+          "variants": [
+            {
+              "content_type": "application/x-mpegURL",
+              "url": "https://video.twimg.com/amplify_video/1972703912219254785/pl/yIN-SVFfZUOhtWdN.m3u8?v=cfc"
+            },
+            {
+              "bitrate": 256000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/1972703912219254785/vid/avc1/480x270/x8n_YqJJmDyoxw6w.mp4"
+            },
+            {
+              "bitrate": 832000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/1972703912219254785/vid/avc1/640x360/_JIYOm-edGI5ZeuR.mp4"
+            },
+            {
+              "bitrate": 2176000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/1972703912219254785/vid/avc1/1280x720/kRDRkIZ-ScFebBZz.mp4"
+            },
+            {
+              "bitrate": 10368000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/1972703912219254785/vid/avc1/1920x1080/52AzrenMDIa06JEK.mp4"
+            },
+            {
+              "bitrate": 25128000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/1972703912219254785/vid/avc1/3840x2160/V6M4tBfetz6c1oAU.mp4"
+            }
+          ]
+        }
+      }
+    ],
+    "photos": [],
+    "video": {
+      "aspectRatio": [
+        16,
+        9
+      ],
+      "contentType": "media_entity",
+      "durationMs": 29433,
+      "mediaAvailability": {
+        "status": "available"
+      },
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/1972703912219254785/img/BjV1zLMDLVPAoV17.jpg",
+      "variants": [
+        {
+          "type": "application/x-mpegURL",
+          "src": "https://video.twimg.com/amplify_video/1972703912219254785/pl/yIN-SVFfZUOhtWdN.m3u8?v=cfc"
+        },
+        {
+          "type": "video/mp4",
+          "src": "https://video.twimg.com/amplify_video/1972703912219254785/vid/avc1/480x270/x8n_YqJJmDyoxw6w.mp4"
+        },
+        {
+          "type": "video/mp4",
+          "src": "https://video.twimg.com/amplify_video/1972703912219254785/vid/avc1/640x360/_JIYOm-edGI5ZeuR.mp4"
+        },
+        {
+          "type": "video/mp4",
+          "src": "https://video.twimg.com/amplify_video/1972703912219254785/vid/avc1/1280x720/kRDRkIZ-ScFebBZz.mp4"
+        },
+        {
+          "type": "video/mp4",
+          "src": "https://video.twimg.com/amplify_video/1972703912219254785/vid/avc1/1920x1080/52AzrenMDIa06JEK.mp4"
+        },
+        {
+          "type": "video/mp4",
+          "src": "https://video.twimg.com/amplify_video/1972703912219254785/vid/avc1/3840x2160/V6M4tBfetz6c1oAU.mp4"
+        }
+      ],
+      "videoId": {
+        "type": "tweet",
+        "id": "1972708279043367238"
+      },
+      "viewCount": 0
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

@@ -1,0 +1,198 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 1063,
+  "lang": "en",
+  "created_at": "2024-07-30T19:52:51.000Z",
+  "display_text_range": [
+    0,
+    263
+  ],
+  "entities": {},
+  "id_str": "1818374216997314738",
+  "text": "Today we’re rolling out advanced Voice Mode in ChatGPT to small group of Plus users, all Plus users in fall. Richer and more natural real-time conversations make the technology less rigid — we’ve found it more collaborative and helpful and think you will as well.",
+  "user": {
+    "id_str": "180115578",
+    "name": "Mira Murati",
+    "screen_name": "miramurati",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2057853902918455296/D_nfq15L_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1818374216997314738"
+    ],
+    "editable_until_msecs": "1722372771000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 26,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 6676,
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 543,
+    "retweet_count": 1068,
+    "created_at": "2024-07-30T18:30:51.000Z",
+    "display_text_range": [
+      0,
+      227
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/64O94EhhXK",
+          "expanded_url": "https://x.com/OpenAI/status/1818353580279316863/video/1",
+          "indices": [
+            228,
+            251
+          ],
+          "url": "https://t.co/64O94EhhXK"
+        }
+      ]
+    },
+    "id_str": "1818353580279316863",
+    "text": "We’re starting to roll out advanced Voice Mode to a small group of ChatGPT Plus users. Advanced Voice Mode offers more natural, real-time conversations, allows you to interrupt anytime, and senses and responds to your emotions. https://t.co/64O94EhhXK",
+    "user": {
+      "id_str": "4398626122",
+      "name": "OpenAI",
+      "screen_name": "OpenAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1818353580279316863"
+      ],
+      "editable_until_msecs": "1722367851000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "mediaDetails": [
+      {
+        "additional_media_info": {},
+        "display_url": "pic.x.com/64O94EhhXK",
+        "expanded_url": "https://x.com/OpenAI/status/1818353580279316863/video/1",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          228,
+          251
+        ],
+        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1818343782120845312/pu/img/Q9qnhG87CydRwIN2.jpg",
+        "original_info": {
+          "focus_rects": [],
+          "height": 1080,
+          "width": 1920
+        },
+        "sizes": {
+          "large": {
+            "h": 1080,
+            "resize": "fit",
+            "w": 1920
+          },
+          "medium": {
+            "h": 675,
+            "resize": "fit",
+            "w": 1200
+          },
+          "small": {
+            "h": 383,
+            "resize": "fit",
+            "w": 680
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "video",
+        "url": "https://t.co/64O94EhhXK",
+        "video_info": {
+          "aspect_ratio": [
+            16,
+            9
+          ],
+          "duration_millis": 14833,
+          "variants": [
+            {
+              "content_type": "application/x-mpegURL",
+              "url": "https://video.twimg.com/ext_tw_video/1818343782120845312/pu/pl/L52b7M1E-Dt7MBvx.m3u8?tag=14&v=cfc"
+            },
+            {
+              "bitrate": 256000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/1818343782120845312/pu/vid/avc1/480x270/0ga088Tctpm9VtTH.mp4?tag=14"
+            },
+            {
+              "bitrate": 832000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/1818343782120845312/pu/vid/avc1/640x360/pF0PDWGDfD3bUBqI.mp4?tag=14"
+            },
+            {
+              "bitrate": 2176000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/1818343782120845312/pu/vid/avc1/1280x720/b5jCcsBA3y1kq4tc.mp4?tag=14"
+            },
+            {
+              "bitrate": 10368000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/1818343782120845312/pu/vid/avc1/1920x1080/oXUwGoxgu0FVczIn.mp4?tag=14"
+            }
+          ]
+        }
+      }
+    ],
+    "photos": [],
+    "video": {
+      "aspectRatio": [
+        16,
+        9
+      ],
+      "contentType": "media_entity",
+      "durationMs": 14833,
+      "mediaAvailability": {
+        "status": "available"
+      },
+      "poster": "https://pbs.twimg.com/ext_tw_video_thumb/1818343782120845312/pu/img/Q9qnhG87CydRwIN2.jpg",
+      "variants": [
+        {
+          "type": "application/x-mpegURL",
+          "src": "https://video.twimg.com/ext_tw_video/1818343782120845312/pu/pl/L52b7M1E-Dt7MBvx.m3u8?tag=14&v=cfc"
+        },
+        {
+          "type": "video/mp4",
+          "src": "https://video.twimg.com/ext_tw_video/1818343782120845312/pu/vid/avc1/480x270/0ga088Tctpm9VtTH.mp4?tag=14"
+        },
+        {
+          "type": "video/mp4",
+          "src": "https://video.twimg.com/ext_tw_video/1818343782120845312/pu/vid/avc1/640x360/pF0PDWGDfD3bUBqI.mp4?tag=14"
+        },
+        {
+          "type": "video/mp4",
+          "src": "https://video.twimg.com/ext_tw_video/1818343782120845312/pu/vid/avc1/1280x720/b5jCcsBA3y1kq4tc.mp4?tag=14"
+        },
+        {
+          "type": "video/mp4",
+          "src": "https://video.twimg.com/ext_tw_video/1818343782120845312/pu/vid/avc1/1920x1080/oXUwGoxgu0FVczIn.mp4?tag=14"
+        }
+      ],
+      "videoId": {
+        "type": "tweet",
+        "id": "1818353580279316863"
+      },
+      "viewCount": 0
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

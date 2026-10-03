@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/OpenAI/status/1286393817348808704",
+  "captured_at": "2026-10-03T12:55:32.298Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "0e5c89b208d9cfff622ac5225ed3a4968c27b671b93768299ab80889e062e849",
+    "page.txt": "9c4b71ae74187fc10db3b32956e96cb657d9f39144f7ceb4ad8a26945a6c2b35",
+    "post.json": "d4424a77cda065671a3ca3ee24bd441857b9d1acdeca93e80a4bbc68643bcd80",
+    "syndication.json": "acc89f49e6270c6a05792cdf2e0bd6d9fe32589b3a4a35c8d525a3a62f4ad57f",
+    "post.txt": "88231bfc78facc43ac4606dd03cdf66de9085fdb4f9a0fb27b87f871aadb62e2"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1286393817348808704",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"Before applications go live, they’re also subject to a review with the OpenAI team. Our technical enforcement is catching up to our policies, and the process is improving. We still have many policies to create. 6/8\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "July 23, 2020",
+    "posted_at": "2020-07-23T20:12:40.754Z"
+  },
+  "rendered_status": 403,
+  "archive": null
+}

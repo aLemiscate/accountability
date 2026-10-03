@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/sama/status/1285985962250534912",
+  "captured_at": "2026-10-03T12:55:07.191Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "797e85627359baf3d3f6e2581c90db971878a76f84268226245c58989dbbdda9",
+    "page.txt": "697d9ddb330231b98058544e09ccf98802ac827285f524594b14b556a501309a",
+    "post.json": "aaa2391a143d01daf22cdaa0008826b1257be82deed7e57f6fcc3be162af801a",
+    "syndication.json": "10c15c925b1850a80556011759648dd33eae5f679d2c4c3cb3358f4b55e85692",
+    "post.txt": "7178a1a87ffacf0bc81178cbb9d7b102d8ce44b1a1dd7102e0b44b663d014095"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1285985962250534912",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"Hi Jerome! It's great to get feedback from someone with so much experience deploying AI at scale. We share your concern about bias and safety in language models, and it's a big part of why we're starting off with a beta and have safety review before apps can go live.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "July 22, 2020",
+    "posted_at": "2020-07-22T17:12:00.521Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20240727011616/https://x.com/sama/status/1285985962250534912",
+    "timestamp": "20240727011616",
+    "method": "existing"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 2206,
+  "lang": "en",
+  "created_at": "2025-12-01T21:46:50.000Z",
+  "display_text_range": [
+    0,
+    255
+  ],
+  "entities": {},
+  "id_str": "1995610567923695633",
+  "text": "I just want to confirm that this is based on a real document and we did train Claude on it, including in SL. It's something I've been working on for a while, but it's still being iterated on and we intend to release the full version and more details soon.",
+  "user": {
+    "id_str": "756181721997987848",
+    "name": "Amanda Askell",
+    "screen_name": "AmandaAskell",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1808357270516125696/-s0TTWR8_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1995610567923695633"
+    ],
+    "editable_until_msecs": "1764629210000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 96,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 1385,
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 31,
+    "retweet_count": 116,
+    "created_at": "2025-11-29T09:17:07.000Z",
+    "display_text_range": [
+      0,
+      258
+    ],
+    "entities": {
+      "urls": [
+        {
+          "display_url": "lesswrong.com/posts/vpNG99Gh…",
+          "expanded_url": "https://www.lesswrong.com/posts/vpNG99GhbBoLov9og/claude-4-5-opus-soul-document",
+          "indices": [
+            99,
+            122
+          ],
+          "url": "https://t.co/m8PCIHF4xR"
+        }
+      ],
+      "user_mentions": [
+        {
+          "id_str": "281798056",
+          "indices": [
+            219,
+            230
+          ],
+          "name": "thebes",
+          "screen_name": "voooooogel"
+        },
+        {
+          "id_str": "852610708550414336",
+          "indices": [
+            232,
+            242
+          ],
+          "name": "janbam",
+          "screen_name": "janbamjan"
+        },
+        {
+          "id_str": "1538525334781370368",
+          "indices": [
+            244,
+            258
+          ],
+          "name": "Andrew Curran",
+          "screen_name": "AndrewCurran_"
+        }
+      ]
+    },
+    "id_str": "1994697117214835079",
+    "text": "I rarely post, but I thought one of you may find it interesting. Sorry if the tagging is annoying.\nhttps://t.co/m8PCIHF4xR\nBasically, for Opus 4.5 they kind of left the character training document in the model itself.\n\n@voooooogel \n@janbamjan \n@AndrewCurran_",
+    "user": {
+      "id_str": "1823806023464857600",
+      "name": "Richard Weiss",
+      "screen_name": "RichardWeiss00",
+      "is_blue_verified": false,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1967160172683362304/k44HdWrE_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1994697117214835079"
+      ],
+      "editable_until_msecs": "1764411427000",
+      "edits_remaining": "5",
+      "is_edit_eligible": true
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

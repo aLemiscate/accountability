@@ -11,13 +11,13 @@ quote: >-
 summary: >-
   After weeks of public reports that Codex had got worse around the Sept. 15,
   2025 launch of gpt-5-codex, OpenAI announced an investigation with a stated
-  plan: better in-product feedback, putting all internal staff on the same
-  setup as external users, and extra evaluations across its hardware. A week
-  later it published the results: "We have not found a conclusive large issue
-  that would explain a consistent degradation of Codex over time." It
-  documented smaller ones: older hardware that performed slightly worse, which it removed
-  from the fleet; compaction of long sessions that degraded results as it was
-  used more; and over 60 feature flags it removed to simplify the stack.
+  plan: better in-product feedback, putting all internal staff on the same setup
+  as external users, and extra evaluations across its hardware. A week later it
+  published the results: "We have not found a conclusive large issue that would
+  explain a consistent degradation of Codex over time." It documented smaller
+  ones: older hardware that performed slightly worse, which it removed from the
+  fleet; compaction of long sessions that degraded results as it was used more;
+  and over 60 feature flags it removed to simplify the stack.
 patterns: []
 related:
   [
@@ -30,11 +30,14 @@ sources:
     url: https://x.com/thsottiaux/status/1984465716888944712
     date: 2025-11-01
     type: primary
+    archive: https://web.archive.org/web/20251104153018/https://x.com/thsottiaux/status/1984465716888944712
+    snapshot: snapshots/2026-10-03-x.com-ab2f8f97
   - title: Ghosts in the Codex Machine
     publisher: OpenAI (Codex team, Google Doc)
     url: https://docs.google.com/document/d/1fDJc1e0itJdh0MXMFJtkRiBcxGEFtye6Xc6Ui7eMX4o/edit
     date: 2025-10-31
     type: primary
+    snapshot: snapshots/2026-10-03-docs.google.com-22010b4a
 note: >-
   A kept promise of transparency, and the closest parallel to Anthropic's own
   postmortems in the related entries: in all three, the company found real

@@ -19,8 +19,8 @@ breaks_if: >-
   Credible reporting of OpenAI models used in domestic surveillance of U.S.
   persons; deployment to the NSA or other intelligence agencies before the
   loopholes OpenAI acknowledged are addressed; a later amendment that narrows
-  the prohibition; or a change in law or Pentagon policy that makes a
-  prohibited use "lawful" while OpenAI keeps the contract.
+  the prohibition; or a change in law or Pentagon policy that makes a prohibited
+  use "lawful" while OpenAI keeps the contract.
 patterns: [unfalsifiable]
 sources:
   - title: Sam Altman on X (re-post of an internal memo on the amendments)
@@ -71,16 +71,22 @@ updates:
         url: https://x.com/boazbaraktcs/status/2027932587788759293
         date: 2026-03-01
         type: primary
+        archive: https://web.archive.org/web/20260305095022/https://x.com/boazbaraktcs/status/2027932587788759293
+        snapshot: snapshots/2026-10-03-x.com-7bb946a8
       - title: Boaz Barak on X ("more details … in the coming days")
         publisher: X
         url: https://x.com/boazbaraktcs/status/2027937481207800058
         date: 2026-03-01
         type: primary
+        archive: https://web.archive.org/web/20260305095236/https://x.com/boazbaraktcs/status/2027937481207800058
+        snapshot: snapshots/2026-10-03-x.com-c97d863a
       - title: Boaz Barak on X ("we mean what we say")
         publisher: X
         url: https://x.com/boazbaraktcs/status/2027935104056586439
         date: 2026-03-01
         type: primary
+        archive: https://web.archive.org/web/20260302161200/https://x.com/boazbaraktcs/status/2027935104056586439
+        snapshot: snapshots/2026-10-03-x.com-79853ae6
       - title: Sam Altman on X (re-post of an internal memo on the amendments)
         publisher: X
         url: https://x.com/sama/status/2028640354912923739
@@ -103,11 +109,14 @@ updates:
         url: https://x.com/sama/status/2027913483011170667
         date: 2026-03-01
         type: primary
+        archive: https://web.archive.org/web/20260303134022/https://x.com/sama/status/2027913483011170667
+        snapshot: snapshots/2026-10-03-x.com-505a7ddf
       - title: Sam Altman on X ("this seems like a very good idea")
         publisher: X
         url: https://x.com/sama/status/2027959788597072096
         date: 2026-03-01
         type: primary
+        snapshot: snapshots/2026-10-03-x.com-24b15006
   - date: 2026-03-03
     text: >-
       OpenAI researcher Noam Brown, who had earlier relayed that "The contract
@@ -132,8 +141,8 @@ updates:
         snapshot: snapshots/2026-09-30-x.com-9152129f
   - date: 2026-03-03
     text: >-
-      Katrina Mulligan, OpenAI's head of national security, had pledged a
-      "clear and more comprehensive explanation" of the relevant contract terms,
+      Katrina Mulligan, OpenAI's head of national security, had pledged a "clear
+      and more comprehensive explanation" of the relevant contract terms,
       including how the NSA is excluded. Days later, with no explanation
       published, she told a user on X: "I do not agree that I'm obligated to
       share contract language with you." Asked whether the contract allowed the

@@ -12,19 +12,19 @@ summary: >-
   In January 2026 Anthropic "tightened our safeguards against spoofing the
   Claude Code harness" after accounts using third-party tools with Claude
   subscriptions were banned by its abuse filters. On April 3, Claude Code head
-  Boris Cherny announced that from the next day Pro and Max subscriptions
-  would no longer cover tools such as OpenClaw; they could still be used
-  through paid extra-usage bundles or an API key. Asked whether this had ever
-  been allowed, he replied: "Right, it wasn't allowed. We're now being more
-  explicit about that." Anthropic gave subscribers a one-time credit equal to
-  a month's plan, discounted usage bundles, and a refund for anyone who
-  cancelled. Days later users complained that scripted use of Claude Code
-  itself was being flagged; Cherny blamed "an overactive abuse-detection system"
-  and said Anthropic was "working on making the terms for -p crystal clear."
-  On May 13 Anthropic announced a monthly Agent SDK credit, from June 15,
-  covering scripts, claude -p and third-party apps outside the regular
-  limits; on June 15 it paused that change, saying third-party app usage
-  "still draw from your subscription's usage limits."
+  Boris Cherny announced that from the next day Pro and Max subscriptions would
+  no longer cover tools such as OpenClaw; they could still be used through paid
+  extra-usage bundles or an API key. Asked whether this had ever been allowed,
+  he replied: "Right, it wasn't allowed. We're now being more explicit about
+  that." Anthropic gave subscribers a one-time credit equal to a month's plan,
+  discounted usage bundles, and a refund for anyone who cancelled. Days later
+  users complained that scripted use of Claude Code itself was being flagged;
+  Cherny blamed "an overactive abuse-detection system" and said Anthropic was
+  "working on making the terms for -p crystal clear." On May 13 Anthropic
+  announced a monthly Agent SDK credit, from June 15, covering scripts, claude
+  -p and third-party apps outside the regular limits; on June 15 it paused that
+  change, saying third-party app usage "still draw from your subscription's
+  usage limits."
 patterns: [shrinking-plan]
 related: [2025-07-28-claude-weekly-limits]
 sources:
@@ -33,23 +33,30 @@ sources:
     url: https://x.com/bcherny/status/2040206440556826908
     date: 2026-04-03
     type: primary
+    archive: https://web.archive.org/web/20260416092555/https://x.com/bcherny/status/2040206440556826908
+    snapshot: snapshots/2026-10-03-x.com-19e7a12c
   - title: Boris Cherny on X ("our subscriptions weren't built for the usage
       patterns of these third-party tools")
     publisher: X
     url: https://x.com/bcherny/status/2040206441756471399
     date: 2026-04-03
     type: primary
+    archive: https://web.archive.org/web/20260515000002/https://x.com/bcherny/status/2040206441756471399
+    snapshot: snapshots/2026-10-03-x.com-38444b07
   - title: Boris Cherny on X ("Right, it wasn't allowed")
     publisher: X
     url: https://x.com/bcherny/status/2040213760070275281
     date: 2026-04-03
     type: primary
+    archive: https://web.archive.org/web/20260404152907/https://x.com/bcherny/status/2040213760070275281
+    snapshot: snapshots/2026-10-03-x.com-d8f4575d
   - title: Thibault Sottiaux on X, quoting Thariq Shihipar ("we tightened our
       safeguards against spoofing the Claude Code harness")
     publisher: X
     url: https://x.com/thsottiaux/status/2009714843587342393
     date: 2026-01-09
     type: primary
+    snapshot: snapshots/2026-10-03-x.com-4411f916
   - title: Consumer Terms of Service (effective Oct. 8, 2025; bars access "through
       automated or non-human means" except via an API key or where explicitly
       permitted)
@@ -57,26 +64,33 @@ sources:
     url: https://www.anthropic.com/legal/consumer-terms
     date: 2025-10-08
     type: primary
+    snapshot: snapshots/2026-10-03-anthropic.com-8ac8edab
   - title: Anthropic closes door on subscription use of OpenClaw
     publisher: The Register
     url: https://www.theregister.com/2026/04/06/anthropic_closes_door_on_subscription/
     date: 2026-04-06
     type: reporting
+    snapshot: snapshots/2026-10-03-theregister.com-332fa0ef
   - title: Boris Cherny on X ("an overactive abuse-detection system")
     publisher: X
     url: https://x.com/bcherny/status/2041254998462611571
     date: 2026-04-06
     type: primary
+    snapshot: snapshots/2026-10-03-x.com-c2ee0c10
   - title: Alex Albert on X ("a monthly Claude Agent SDK credit")
     publisher: X
     url: https://x.com/alexalbert__/status/2054613082589298899
     date: 2026-05-13
     type: primary
+    archive: https://web.archive.org/web/20260514014157/https://x.com/alexalbert__/status/2054613082589298899
+    snapshot: snapshots/2026-10-03-x.com-0af8a087
   - title: Anthropic Pauses Claude Agent SDK Billing Overhaul
     publisher: Let's Data Science
     url: https://letsdatascience.com/news/anthropic-pauses-claude-agent-sdk-billing-overhaul-1cff2071
     date: 2026-06-15
     type: reporting
+    archive: https://web.archive.org/web/20261003082517/https://letsdatascience.com/news/anthropic-pauses-claude-agent-sdk-billing-overhaul-1cff2071
+    snapshot: snapshots/2026-10-03-letsdatascience.com-8871f4ad
 response: >-
   An Anthropic spokesperson told The Register: "Using Claude subscriptions with
   third-party tools isn't permitted under our Terms of Service, and they put an
@@ -86,8 +100,8 @@ updates:
   - date: 2026-04-21
     text: >-
       Anthropic's pricing page briefly stopped listing Claude Code as part of
-      the $20 Pro plan, and a support page was changed to mention only Max.
-      Head of growth Amol Avasare said it was "a small test on ~2 percent of new
+      the $20 Pro plan, and a support page was changed to mention only Max. Head
+      of growth Amol Avasare said it was "a small test on ~2 percent of new
       prosumer signups" and that existing subscribers weren't affected, adding:
       "We've made small adjustments along the way (weekly caps, tighter limits
       at peak), but usage has changed a lot and our current plans weren't built
@@ -98,21 +112,25 @@ updates:
         url: https://www.theregister.com/2026/04/22/anthropic_removes_claude_code_pro/
         date: 2026-04-22
         type: reporting
-      - title: Thibault Sottiaux on X, quoting Amol Avasare ("a small test on ~2% of
-          new prosumer signups")
+        snapshot: snapshots/2026-10-03-theregister.com-11f11325
+      - title: Thibault Sottiaux on X, quoting Amol Avasare ("a small test on ~2% of new
+          prosumer signups")
         publisher: X
         url: https://x.com/thsottiaux/status/2046740759056162816
         date: 2026-04-21
         type: primary
-      - title: '[UPDATED] News: Anthropic (Briefly) Removes Claude Code From
-          $20-A-Month "Pro" Subscription Plan For New Users'
+        archive: https://web.archive.org/web/20260514233919/https://x.com/thsottiaux/status/2046740759056162816
+        snapshot: snapshots/2026-10-03-x.com-97d5263a
+      - title: '[UPDATED] News: Anthropic (Briefly) Removes Claude Code From $20-A-Month
+          "Pro" Subscription Plan For New Users'
         publisher: Ed Zitron, Where's Your Ed At
         url: https://www.wheresyoured.at/news-anthropic-removes-pro-cc/
         date: 2026-04-21
         type: analysis
+        snapshot: snapshots/2026-10-03-wheresyoured.at-55b43a10
 note: >-
   The refund offer was real and the terms Anthropic cited did bar automated
-  access outside its own tools. What changed was enforcement, at a day's
-  notice, for people who had built their work on it. OpenAI's comparable
-  change, restoring Codex's five-hour limit for Plus at a day's notice, is in
-  the related OpenAI entry.
+  access outside its own tools. What changed was enforcement, at a day's notice,
+  for people who had built their work on it. OpenAI's comparable change,
+  restoring Codex's five-hour limit for Plus at a day's notice, is in the
+  related OpenAI entry.

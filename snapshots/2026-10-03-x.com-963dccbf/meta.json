@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/OpenAI/status/1721594384737792495",
+  "captured_at": "2026-10-03T13:24:06.684Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "e76c01b4d5a15d9e3aabc56f890086e641b452c058a657e9b60d003444d39e31",
+    "page.txt": "6dce333899a5993434894e394944803fa1ab60af0ad57070441b0fc729ef9947",
+    "post.json": "cb5f6b5902d256855c1060dbc29f440bf4317de4f8a82bfd90d8dc32cf34e730",
+    "syndication.json": "0a2d8f7c6e9d89793e9dbdaf4cd661083c849cb7ace7407ca011742e921f2462",
+    "post.txt": "d28ca796f1a86163db67b8a76f970ac5518bc0f25d940ae977ae93f3c0eae70a"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1721594384737792495",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"Plus and Enterprise users can start creating GPTs this week at https://t.co/W5ZO5mw0tL. Later this month, we’ll launch the GPT Store, so people can feature and make money from their GPTs. We plan to offer GPTs to more users soon.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "November 6, 2023",
+    "posted_at": "2023-11-06T18:24:21.655Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260208072450/https://x.com/OpenAI/status/1721594384737792495",
+    "timestamp": "20260208072450",
+    "method": "existing"
+  }
+}

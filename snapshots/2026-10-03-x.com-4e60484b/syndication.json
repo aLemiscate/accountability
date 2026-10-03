@@ -1,0 +1,343 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 864,
+  "in_reply_to_screen_name": "AnthropicAI",
+  "in_reply_to_status_id_str": "2052435438485348555",
+  "in_reply_to_user_id_str": "1353836358901501952",
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2026-05-07T17:08:36.000Z",
+  "display_text_range": [
+    0,
+    269
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/VyfFXED70L",
+        "expanded_url": "https://x.com/AnthropicAI/status/2052435442348257768/photo/1",
+        "indices": [
+          270,
+          293
+        ],
+        "url": "https://t.co/VyfFXED70L"
+      }
+    ]
+  },
+  "id_str": "2052435442348257768",
+  "text": "We’ve been using NLAs to help test new Claude models for safety.\n\nFor instance, Claude Mythos Preview cheated on a coding task by breaking rules, then added misleading code as a coverup.\n\nNLA explanations indicated Claude was thinking about how to circumvent detection. https://t.co/VyfFXED70L",
+  "user": {
+    "id_str": "1353836358901501952",
+    "name": "Anthropic",
+    "screen_name": "AnthropicAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2052435442348257768"
+    ],
+    "editable_until_msecs": "1778177316000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/VyfFXED70L",
+      "expanded_url": "https://x.com/AnthropicAI/status/2052435442348257768/photo/1",
+      "ext_alt_text": "NLA explanations show that Claude Mythos Preview was intentionally trying to cheat its grader by including a misleading flag. ",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        270,
+        293
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/HHuzPD-W4AM12Hl.png",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 1505,
+            "w": 2688,
+            "x": 0,
+            "y": 121
+          },
+          {
+            "h": 1825,
+            "w": 1825,
+            "x": 863,
+            "y": 0
+          },
+          {
+            "h": 1825,
+            "w": 1601,
+            "x": 1014,
+            "y": 0
+          },
+          {
+            "h": 1825,
+            "w": 913,
+            "x": 1358,
+            "y": 0
+          },
+          {
+            "h": 1825,
+            "w": 2688,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 1825,
+        "width": 2688
+      },
+      "sizes": {
+        "large": {
+          "h": 1390,
+          "resize": "fit",
+          "w": 2048
+        },
+        "medium": {
+          "h": 815,
+          "resize": "fit",
+          "w": 1200
+        },
+        "small": {
+          "h": 462,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/VyfFXED70L"
+    }
+  ],
+  "photos": [
+    {
+      "accessibilityLabel": "NLA explanations show that Claude Mythos Preview was intentionally trying to cheat its grader by including a misleading flag. ",
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 1505,
+          "w": 2688,
+          "x": 0,
+          "y": 121
+        },
+        {
+          "h": 1825,
+          "w": 1825,
+          "x": 863,
+          "y": 0
+        },
+        {
+          "h": 1825,
+          "w": 1601,
+          "x": 1014,
+          "y": 0
+        },
+        {
+          "h": 1825,
+          "w": 913,
+          "x": 1358,
+          "y": 0
+        },
+        {
+          "h": 1825,
+          "w": 2688,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/AnthropicAI/status/2052435442348257768/photo/1",
+      "url": "https://pbs.twimg.com/media/HHuzPD-W4AM12Hl.png",
+      "width": 2688,
+      "height": 1825
+    }
+  ],
+  "conversation_count": 20,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 1399,
+    "in_reply_to_screen_name": "AnthropicAI",
+    "in_reply_to_status_id_str": "2052435436157452769",
+    "in_reply_to_user_id_str": "1353836358901501952",
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 12,
+    "retweet_count": 60,
+    "created_at": "2026-05-07T17:08:35.000Z",
+    "display_text_range": [
+      0,
+      264
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/RJ2LJvWLEN",
+          "expanded_url": "https://x.com/AnthropicAI/status/2052435438485348555/photo/1",
+          "indices": [
+            265,
+            288
+          ],
+          "url": "https://t.co/RJ2LJvWLEN"
+        }
+      ]
+    },
+    "id_str": "2052435438485348555",
+    "text": "Natural language autoencoders (NLAs) convert opaque AI activations into legible text explanations. These explanations aren’t perfect, but they’re often useful.\n\nFor example: NLAs show that, when asked to complete a couplet, Claude plans possible rhymes in advance: https://t.co/RJ2LJvWLEN",
+    "user": {
+      "id_str": "1353836358901501952",
+      "name": "Anthropic",
+      "screen_name": "AnthropicAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2052435438485348555"
+      ],
+      "editable_until_msecs": "1778177315000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "mediaDetails": [
+      {
+        "display_url": "pic.x.com/RJ2LJvWLEN",
+        "expanded_url": "https://x.com/AnthropicAI/status/2052435438485348555/photo/1",
+        "ext_alt_text": "NLA explanations on this simple couplet show that Opus 4.6 plans to end its rhyme with “rabbit” ahead of time.",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          265,
+          288
+        ],
+        "media_url_https": "https://pbs.twimg.com/media/HHuziboWYAEhcxD.png",
+        "original_info": {
+          "focus_rects": [
+            {
+              "h": 1505,
+              "w": 2688,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 1600,
+              "w": 1600,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 1600,
+              "w": 1404,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 1600,
+              "w": 800,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 1600,
+              "w": 2688,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "height": 1600,
+          "width": 2688
+        },
+        "sizes": {
+          "large": {
+            "h": 1219,
+            "resize": "fit",
+            "w": 2048
+          },
+          "medium": {
+            "h": 714,
+            "resize": "fit",
+            "w": 1200
+          },
+          "small": {
+            "h": 405,
+            "resize": "fit",
+            "w": 680
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "photo",
+        "url": "https://t.co/RJ2LJvWLEN"
+      }
+    ],
+    "photos": [
+      {
+        "accessibilityLabel": "NLA explanations on this simple couplet show that Opus 4.6 plans to end its rhyme with “rabbit” ahead of time.",
+        "backgroundColor": {
+          "red": 204,
+          "green": 214,
+          "blue": 221
+        },
+        "cropCandidates": [
+          {
+            "h": 1505,
+            "w": 2688,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1600,
+            "w": 1600,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1600,
+            "w": 1404,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1600,
+            "w": 800,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1600,
+            "w": 2688,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "expandedUrl": "https://x.com/AnthropicAI/status/2052435438485348555/photo/1",
+        "url": "https://pbs.twimg.com/media/HHuziboWYAEhcxD.png",
+        "width": 2688,
+        "height": 1600
+      }
+    ],
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

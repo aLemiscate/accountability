@@ -1,5 +1,5 @@
-title: 'Anthropic on Amazon''s stake: "Our corporate governance structure remains
-  unchanged"'
+title: 'Anthropic on Amazon''s stake: "Our corporate governance structure
+  remains unchanged"'
 date: 2023-09-25
 org: anthropic
 type: said
@@ -12,12 +12,12 @@ quote: >-
   Scaling Policy
 summary: >-
   Announcing an investment of up to $4 billion from Amazon for a minority stake,
-  Anthropic said its governance was unaffected. The Long-Term Benefit Trust, five
-  financially disinterested members, holds a special class of stock that lets it
-  elect a growing share of the board, "ultimately, a majority." Anthropic's own
-  description of the Trust says "failsafe" provisions let large enough
-  supermajorities of stockholders change the Trust and its powers without the
-  Trustees' consent.
+  Anthropic said its governance was unaffected. The Long-Term Benefit Trust,
+  five financially disinterested members, holds a special class of stock that
+  lets it elect a growing share of the board, "ultimately, a majority."
+  Anthropic's own description of the Trust says "failsafe" provisions let large
+  enough supermajorities of stockholders change the Trust and its powers without
+  the Trustees' consent.
 concreteness: conditional
 status: open
 breaks_if: >-
@@ -45,17 +45,18 @@ updates:
       Ahead of an initial public offering, The Information reported that
       Anthropic was asking shareholders to approve special shares giving Dario
       Amodei and his six co-founders a combined 50.1% of the vote on most
-      corporate matters, as long as at least three of them keep a minimum
-      stake. Under the proposal the Long-Term Benefit Trust would still choose
-      most of the board, the founders' board seats would grow from two to
-      three, and employees would get their own stock to break ties on some
-      issues.
+      corporate matters, as long as at least three of them keep a minimum stake.
+      Under the proposal the Long-Term Benefit Trust would still choose most of
+      the board, the founders' board seats would grow from two to three, and
+      employees would get their own stock to break ties on some issues.
     sources:
       - title: Anthropic's founders seek voting control ahead of IPO
         publisher: TechCrunch
         url: https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/
         date: 2026-09-25
         type: reporting
+        archive: https://web.archive.org/web/20261003104742/https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/
+        snapshot: snapshots/2026-10-03-techcrunch.com-68927c77
 note: >-
   The counterpart to OpenAI's "the nonprofit stays in control" promises, and
   checked the same way: who holds the power after each new round of money.

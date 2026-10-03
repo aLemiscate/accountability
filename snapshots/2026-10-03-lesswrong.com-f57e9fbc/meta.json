@@ -1,0 +1,26 @@
+{
+  "url": "https://www.lesswrong.com/posts/vpNG99GhbBoLov9og/claude-4-5-opus-soul-document",
+  "captured_at": "2026-10-03T12:25:45.678Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.txt": "8c4d2cca0ad159755d12ba627610a34217d491b8d835eaf68aeaba43a8e17105",
+    "screenshot.jpg": "ab6ff0b243fb456d1a8b2dee538bb217bc2a5b1e1dfe86c1b782cd602998465c",
+    "rendered.txt": "c25b5e29e9cad361d2bd59cc645abe2637468fef5963ad7d93ab5eff010ce52f"
+  },
+  "http_status": 200,
+  "final_url": "https://www.lesswrong.com/posts/vpNG99GhbBoLov9og/claude-4-5-opus-soul-document",
+  "content_type": "text/html; charset=utf-8",
+  "omitted": {
+    "file": "page.html",
+    "bytes": 1531937,
+    "sha256": "497321072463847b7af861e6357f859b99fa427cfece8208bb0032b63faa45ab",
+    "reason": "the page embeds a third-party API token that GitHub push protection blocks; page.txt holds its text"
+  },
+  "title": "Claude 4.5 Opus' Soul Document — LessWrong",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20261003122637/https://www.lesswrong.com/posts/vpNG99GhbBoLov9og/claude-4-5-opus-soul-document",
+    "timestamp": "20261003122637",
+    "method": "spn"
+  }
+}

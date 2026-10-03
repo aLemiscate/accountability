@@ -1,0 +1,343 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 651,
+  "in_reply_to_screen_name": "AnthropicAI",
+  "in_reply_to_status_id_str": "1848742763770028540",
+  "in_reply_to_user_id_str": "1353836358901501952",
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2024-10-22T15:06:38.000Z",
+  "display_text_range": [
+    0,
+    270
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/M38d8nleL7",
+        "expanded_url": "https://x.com/AnthropicAI/status/1848742767859499441/photo/1",
+        "indices": [
+          271,
+          294
+        ],
+        "url": "https://t.co/M38d8nleL7"
+      }
+    ]
+  },
+  "id_str": "1848742767859499441",
+  "text": "Claude 3.5 Haiku is the next generation of our fastest model.\n\nHaiku now outperforms many state-of-the-art models on coding tasks—including the original Claude 3.5 Sonnet and GPT-4o—at the same cost as before.\n\nThe new Claude 3.5 Haiku will be released later this month. https://t.co/M38d8nleL7",
+  "user": {
+    "id_str": "1353836358901501952",
+    "name": "Anthropic",
+    "screen_name": "AnthropicAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1848742767859499441"
+    ],
+    "editable_until_msecs": "1729613198000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/M38d8nleL7",
+      "expanded_url": "https://x.com/AnthropicAI/status/1848742767859499441/photo/1",
+      "ext_alt_text": "A comparison table showing benchmark results for Claude 3.5 Haiku versus Claude 3 Haiku, GPT-4o mini, and Gemini 1.5 Flash across various tasks like reasoning, coding, and math.",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        271,
+        294
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/GagIy5AWIAA7NeW.png",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 1176,
+            "w": 2100,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 2100,
+            "w": 2100,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 2100,
+            "w": 1842,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 2100,
+            "w": 1050,
+            "x": 52,
+            "y": 0
+          },
+          {
+            "h": 2100,
+            "w": 2100,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 2100,
+        "width": 2100
+      },
+      "sizes": {
+        "large": {
+          "h": 2048,
+          "resize": "fit",
+          "w": 2048
+        },
+        "medium": {
+          "h": 1200,
+          "resize": "fit",
+          "w": 1200
+        },
+        "small": {
+          "h": 680,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/M38d8nleL7"
+    }
+  ],
+  "photos": [
+    {
+      "accessibilityLabel": "A comparison table showing benchmark results for Claude 3.5 Haiku versus Claude 3 Haiku, GPT-4o mini, and Gemini 1.5 Flash across various tasks like reasoning, coding, and math.",
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 1176,
+          "w": 2100,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 2100,
+          "w": 2100,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 2100,
+          "w": 1842,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 2100,
+          "w": 1050,
+          "x": 52,
+          "y": 0
+        },
+        {
+          "h": 2100,
+          "w": 2100,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/AnthropicAI/status/1848742767859499441/photo/1",
+      "url": "https://pbs.twimg.com/media/GagIy5AWIAA7NeW.png",
+      "width": 2100,
+      "height": 2100
+    }
+  ],
+  "conversation_count": 25,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 768,
+    "in_reply_to_screen_name": "AnthropicAI",
+    "in_reply_to_status_id_str": "1848742761278611504",
+    "in_reply_to_user_id_str": "1353836358901501952",
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 12,
+    "retweet_count": 63,
+    "created_at": "2024-10-22T15:06:37.000Z",
+    "display_text_range": [
+      0,
+      276
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/WBln6JJSTE",
+          "expanded_url": "https://x.com/AnthropicAI/status/1848742763770028540/photo/1",
+          "indices": [
+            277,
+            300
+          ],
+          "url": "https://t.co/WBln6JJSTE"
+        }
+      ]
+    },
+    "id_str": "1848742763770028540",
+    "text": "Beyond computer use, the new Claude 3.5 Sonnet delivers significant gains in coding—an area where it already led the field.\n\nSonnet scores higher on SWE-bench Verified than all available models—including reasoning models like OpenAI o1-preview and specialized agentic systems. https://t.co/WBln6JJSTE",
+    "user": {
+      "id_str": "1353836358901501952",
+      "name": "Anthropic",
+      "screen_name": "AnthropicAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1848742763770028540"
+      ],
+      "editable_until_msecs": "1729613197000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "mediaDetails": [
+      {
+        "display_url": "pic.x.com/WBln6JJSTE",
+        "expanded_url": "https://x.com/AnthropicAI/status/1848742763770028540/photo/1",
+        "ext_alt_text": "A comparison table showing benchmark results for Claude 3.5 Sonnet (new) versus Claude 3.5 Sonnet, GPT-4o, and Gemini 1.5 Pro across various tasks like reasoning, coding, and math.",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          277,
+          300
+        ],
+        "media_url_https": "https://pbs.twimg.com/media/GagIx16XkAAKmoL.png",
+        "original_info": {
+          "focus_rects": [
+            {
+              "h": 1176,
+              "w": 2100,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 2100,
+              "w": 2100,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 2100,
+              "w": 1842,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 2100,
+              "w": 1050,
+              "x": 52,
+              "y": 0
+            },
+            {
+              "h": 2100,
+              "w": 2100,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "height": 2100,
+          "width": 2100
+        },
+        "sizes": {
+          "large": {
+            "h": 2048,
+            "resize": "fit",
+            "w": 2048
+          },
+          "medium": {
+            "h": 1200,
+            "resize": "fit",
+            "w": 1200
+          },
+          "small": {
+            "h": 680,
+            "resize": "fit",
+            "w": 680
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "photo",
+        "url": "https://t.co/WBln6JJSTE"
+      }
+    ],
+    "photos": [
+      {
+        "accessibilityLabel": "A comparison table showing benchmark results for Claude 3.5 Sonnet (new) versus Claude 3.5 Sonnet, GPT-4o, and Gemini 1.5 Pro across various tasks like reasoning, coding, and math.",
+        "backgroundColor": {
+          "red": 204,
+          "green": 214,
+          "blue": 221
+        },
+        "cropCandidates": [
+          {
+            "h": 1176,
+            "w": 2100,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 2100,
+            "w": 2100,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 2100,
+            "w": 1842,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 2100,
+            "w": 1050,
+            "x": 52,
+            "y": 0
+          },
+          {
+            "h": 2100,
+            "w": 2100,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "expandedUrl": "https://x.com/AnthropicAI/status/1848742763770028540/photo/1",
+        "url": "https://pbs.twimg.com/media/GagIx16XkAAKmoL.png",
+        "width": 2100,
+        "height": 2100
+      }
+    ],
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

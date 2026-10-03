@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/OpenAI/status/2031052793835106753",
+  "captured_at": "2026-10-03T14:23:51.123Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "64b1c1e54f0053aca79e9c1731390c9086e3c8560abc65fc78d14facab28524a",
+    "page.txt": "f3e423f08e92c7d12454703edc2ed178edcf09faa359927be22b9fb111723bcd",
+    "post.json": "40cb664917893a846a9f211400457f7f043dcdd58e031998702a5084409ece0b",
+    "syndication.json": "ca666f32f93fdcb34c99250418369932b6e9a4961347ba6a1f8eec8fbcbe8558",
+    "post.txt": "2d3897939a059fc6e37ba0822dbd785314d0b5a96cd84a527cf43cec2e551871"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/2031052793835106753",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"We’re acquiring Promptfoo. Their technology will strengthen agentic security testing and evaluation capabilities in OpenAI Frontier. Promptfoo will remain open source under the current license, and we will continue to service and support current customers. https://t.co/xhmLmJRoUZ\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "March 9, 2026",
+    "posted_at": "2026-03-09T17:01:35.843Z"
+  },
+  "rendered_status": 403,
+  "archive": null
+}

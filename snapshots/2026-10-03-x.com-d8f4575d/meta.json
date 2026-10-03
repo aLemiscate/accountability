@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/bcherny/status/2040213760070275281",
+  "captured_at": "2026-10-03T12:36:04.638Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "639f0ddf582a1ccf88322504e4740b574f9c38b3edcec0e813fa877bb4e82402",
+    "page.txt": "8af844a1fd69d5ddda7f5de46dac6de81ac5c085d93f1157af7be490f8e45382",
+    "post.json": "f750868efb4dcee673d8155d576c42be2afc48c18bddf607a35cb69ae4cc8119",
+    "syndication.json": "f370f151e4390d4ccc4863309c686adf6fb28b92bafdabc3903e5676cda75374",
+    "post.txt": "d32e1a73c7aa0af1e7bd7b4361d381a447a55cceaffb0d31106ec2d6ddc59b90"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/bcherny/status/2040213760070275281",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Boris Cherny on X: \"@RyanMorey Right, it wasn't allowed. We're now being more explicit about that.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Boris Cherny (@bcherny)",
+    "date": "April 3, 2026",
+    "posted_at": "2026-04-03T23:44:00.396Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260404152907/https://x.com/bcherny/status/2040213760070275281",
+    "timestamp": "20260404152907",
+    "method": "existing"
+  }
+}

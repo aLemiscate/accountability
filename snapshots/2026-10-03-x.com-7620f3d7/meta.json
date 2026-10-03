@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/bcherny/status/2039433317750329716",
+  "captured_at": "2026-10-03T12:33:17.574Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "91dd88245d67e7699e9095cb8942eafabafde70560fd357e952bf9413c6a4bb8",
+    "page.txt": "45b6a0f9af36703d4782ad650907bc08067f66ca191aca793e1a9d5c5d02fb00",
+    "post.json": "690335a0a62e112daefcd488b0c77d7a9ca4bc5a5fe984035934f0e39f183625",
+    "syndication.json": "f8145acb8b55b12c32f546fb2906bfa38ac925d1fcbeda39e807f65121db43a7",
+    "post.txt": "53e8639093d542512ff5f754b6f3b2c598e52e73954069e5ecbd4b40ef435290"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/bcherny/status/2039433317750329716",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Boris Cherny on X: \"@GergelyOrosz This was not intentional. We are debugging what happened on the GitHub side. No one at Anthropic dmca’d these forks\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Boris Cherny (@bcherny)",
+    "date": "April 1, 2026",
+    "posted_at": "2026-04-01T20:02:48.447Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260402125139/https://x.com/bcherny/status/2039433317750329716",
+    "timestamp": "20260402125139",
+    "method": "existing"
+  }
+}

@@ -1,0 +1,399 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 55,
+  "in_reply_to_screen_name": "polynoamial",
+  "in_reply_to_status_id_str": "2021266471406666231",
+  "in_reply_to_user_id_str": "825088493764407298",
+  "lang": "en",
+  "created_at": "2026-02-10T19:43:43.000Z",
+  "display_text_range": [
+    24,
+    230
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "825088493764407298",
+        "indices": [
+          0,
+          12
+        ],
+        "name": "Noam Brown",
+        "screen_name": "polynoamial"
+      },
+      {
+        "id_str": "1819261",
+        "indices": [
+          13,
+          23
+        ],
+        "name": "Paul Jankura",
+        "screen_name": "Anthropic"
+      }
+    ]
+  },
+  "id_str": "2021309120347812222",
+  "text": "@polynoamial @Anthropic I’m sympathetic to this, but my view is broader: that no company can be relied upon to handle these decisions fully responsibly, when left to their own devices \n\nSee eg OpenAI seeming to have violated SB 53",
+  "user": {
+    "id_str": "955972371520937985",
+    "name": "Steven Adler",
+    "screen_name": "sjgadler",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1975436697040269312/vCGKjpxB_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2021309120347812222"
+    ],
+    "editable_until_msecs": "1770756223000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 1,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 939,
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 55,
+    "retweet_count": 64,
+    "created_at": "2026-02-10T16:54:14.000Z",
+    "display_text_range": [
+      0,
+      279
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/yPpf2bo4wl",
+          "expanded_url": "https://x.com/polynoamial/status/2021266471406666231/photo/1",
+          "indices": [
+            280,
+            303
+          ],
+          "url": "https://t.co/yPpf2bo4wl"
+        }
+      ],
+      "user_mentions": [
+        {
+          "id_str": "1819261",
+          "indices": [
+            13,
+            23
+          ],
+          "name": "Paul Jankura",
+          "screen_name": "Anthropic"
+        }
+      ]
+    },
+    "id_str": "2021266471406666231",
+    "text": "I appreciate @Anthropic's honesty in their latest system card, but the content of it does not give me confidence that the company will act responsibly with deployment of advanced AI models:\n\n-They primarily relied on an internal survey to determine whether Opus 4.6 crossed their https://t.co/yPpf2bo4wl",
+    "user": {
+      "id_str": "825088493764407298",
+      "name": "Noam Brown",
+      "screen_name": "polynoamial",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1872883170292457472/8ywVGO5M_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2021266471406666231"
+      ],
+      "editable_until_msecs": "1770746054000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "mediaDetails": [
+      {
+        "display_url": "pic.x.com/yPpf2bo4wl",
+        "expanded_url": "https://x.com/polynoamial/status/2021266471406666231/photo/1",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          280,
+          303
+        ],
+        "media_url_https": "https://pbs.twimg.com/media/HAz6KYLaAAIsdQj.jpg",
+        "original_info": {
+          "focus_rects": [
+            {
+              "h": 874,
+              "w": 1561,
+              "x": 542,
+              "y": 0
+            },
+            {
+              "h": 874,
+              "w": 874,
+              "x": 885,
+              "y": 0
+            },
+            {
+              "h": 874,
+              "w": 767,
+              "x": 939,
+              "y": 0
+            },
+            {
+              "h": 874,
+              "w": 437,
+              "x": 1104,
+              "y": 0
+            },
+            {
+              "h": 874,
+              "w": 2528,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "height": 874,
+          "width": 2528
+        },
+        "sizes": {
+          "large": {
+            "h": 708,
+            "resize": "fit",
+            "w": 2048
+          },
+          "medium": {
+            "h": 415,
+            "resize": "fit",
+            "w": 1200
+          },
+          "small": {
+            "h": 235,
+            "resize": "fit",
+            "w": 680
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "photo",
+        "url": "https://t.co/yPpf2bo4wl"
+      }
+    ],
+    "photos": [
+      {
+        "backgroundColor": {
+          "red": 204,
+          "green": 214,
+          "blue": 221
+        },
+        "cropCandidates": [
+          {
+            "h": 874,
+            "w": 1561,
+            "x": 542,
+            "y": 0
+          },
+          {
+            "h": 874,
+            "w": 874,
+            "x": 885,
+            "y": 0
+          },
+          {
+            "h": 874,
+            "w": 767,
+            "x": 939,
+            "y": 0
+          },
+          {
+            "h": 874,
+            "w": 437,
+            "x": 1104,
+            "y": 0
+          },
+          {
+            "h": 874,
+            "w": 2528,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "expandedUrl": "https://x.com/polynoamial/status/2021266471406666231/photo/1",
+        "url": "https://pbs.twimg.com/media/HAz6KYLaAAIsdQj.jpg",
+        "width": 2528,
+        "height": 874
+      }
+    ],
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "quoted_tweet": {
+    "favorite_count": 50,
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 5,
+    "retweet_count": 3,
+    "created_at": "2026-02-09T18:26:02.000Z",
+    "display_text_range": [
+      0,
+      278
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/EtOnyU2lq7",
+          "expanded_url": "https://x.com/_NathanCalvin/status/2020927185675325784/photo/1",
+          "indices": [
+            279,
+            302
+          ],
+          "url": "https://t.co/EtOnyU2lq7"
+        }
+      ]
+    },
+    "id_str": "2020927185675325784",
+    "text": "new OAI statement isn't great\n\n(1) how are they confident it lacks long range autonomy when they couldn't find ~any tests to run? \n(2) the plain reading of the framework is that these safeguards were required with high cybersecurity regardless of LRA - it doesn't seem ambiguous https://t.co/EtOnyU2lq7",
+    "user": {
+      "id_str": "2349089630",
+      "name": "Nathan Calvin",
+      "screen_name": "_NathanCalvin",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1976484090426634240/YFgYic9h_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2020927185675325784"
+      ],
+      "editable_until_msecs": "1770665162000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "mediaDetails": [
+      {
+        "display_url": "pic.x.com/EtOnyU2lq7",
+        "expanded_url": "https://x.com/_NathanCalvin/status/2020927185675325784/photo/1",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          279,
+          302
+        ],
+        "media_url_https": "https://pbs.twimg.com/media/HAvFc54aAAEoSvb.png",
+        "original_info": {
+          "focus_rects": [
+            {
+              "h": 373,
+              "w": 666,
+              "x": 581,
+              "y": 0
+            },
+            {
+              "h": 373,
+              "w": 373,
+              "x": 728,
+              "y": 0
+            },
+            {
+              "h": 373,
+              "w": 327,
+              "x": 751,
+              "y": 0
+            },
+            {
+              "h": 373,
+              "w": 187,
+              "x": 821,
+              "y": 0
+            },
+            {
+              "h": 373,
+              "w": 1590,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "height": 373,
+          "width": 1590
+        },
+        "sizes": {
+          "large": {
+            "h": 373,
+            "resize": "fit",
+            "w": 1590
+          },
+          "medium": {
+            "h": 282,
+            "resize": "fit",
+            "w": 1200
+          },
+          "small": {
+            "h": 160,
+            "resize": "fit",
+            "w": 680
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "photo",
+        "url": "https://t.co/EtOnyU2lq7"
+      }
+    ],
+    "photos": [
+      {
+        "backgroundColor": {
+          "red": 204,
+          "green": 214,
+          "blue": 221
+        },
+        "cropCandidates": [
+          {
+            "h": 373,
+            "w": 666,
+            "x": 581,
+            "y": 0
+          },
+          {
+            "h": 373,
+            "w": 373,
+            "x": 728,
+            "y": 0
+          },
+          {
+            "h": 373,
+            "w": 327,
+            "x": 751,
+            "y": 0
+          },
+          {
+            "h": 373,
+            "w": 187,
+            "x": 821,
+            "y": 0
+          },
+          {
+            "h": 373,
+            "w": 1590,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "expandedUrl": "https://x.com/_NathanCalvin/status/2020927185675325784/photo/1",
+        "url": "https://pbs.twimg.com/media/HAvFc54aAAEoSvb.png",
+        "width": 1590,
+        "height": 373
+      }
+    ],
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

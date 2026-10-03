@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/bcherny/status/2040206441756471399",
+  "captured_at": "2026-10-03T12:35:52.313Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "65382e7ce007e59d3f0c82357453a6a75ce7af86c0918373d26e60148ee7fdb9",
+    "page.txt": "8441f66ce002759dfaa1bf2cfb42785604040436e69a80e5c528e4500c81165a",
+    "post.json": "cf211329f2b81c73b366a20f3df9531016c9d021a4ef14c278293610bd3491b9",
+    "syndication.json": "dbe7ce726b68a8c0fa45ef0d7505e694fd984ee43cb0baa34424d629f9070191",
+    "post.txt": "29fd484c35b96875ad37a2592a0ade612cbe0d0149d6bc01f81753c61ac26d04"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/bcherny/status/2040206441756471399",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Boris Cherny on X: \"We’ve been working hard to meet the increase in demand for Claude, and our subscriptions weren't built for the usage patterns of these third-party tools. Capacity is a resource we manage thoughtfully and we are prioritizing our customers using our products and API.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Boris Cherny (@bcherny)",
+    "date": "April 3, 2026",
+    "posted_at": "2026-04-03T23:14:55.574Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260515000002/https://x.com/bcherny/status/2040206441756471399",
+    "timestamp": "20260515000002",
+    "method": "existing"
+  }
+}

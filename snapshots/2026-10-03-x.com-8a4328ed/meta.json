@@ -1,0 +1,36 @@
+{
+  "url": "https://x.com/gdb/status/1790869434174746805",
+  "captured_at": "2026-10-03T13:42:07.916Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "731447522cc7a92cf63607f3fcac69545c50651692ecb98c00bef4b10182bc9b",
+    "page.txt": "4a9502da581c4b8ca0817a12207211d24ad4cb686edf8667cc0ba9797b7c178a",
+    "post.json": "00a57947b68853ba23c4d721a75b456d076c6b5c1dffc43fcef71c1c8d2e4ba1",
+    "syndication.json": "aeadf42469dc2eaa4a28874c706a11c5ec0a4a08f20535c7c8ca34d9097a1056",
+    "media-1.jpg": "107240db1cf539f267aa73e61b5a922f7a3fb0dd70813ca896ccf9d40b10150a",
+    "post.txt": "2a0df342182f85a19ef59c2f4ded4b4ccb223561e50cb8e7eb1593b1a5a31cd5"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/gdb/status/1790869434174746805",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Greg Brockman on X: \"A GPT-4o generated image — so much to explore with GPT-4o's image generation capabilities alone. Team is working hard to bring those to the world.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Greg Brockman (@gdb)",
+    "date": "May 15, 2024",
+    "posted_at": "2024-05-15T22:18:40.509Z",
+    "media": [
+      {
+        "file": "media-1.jpg",
+        "url": "https://pbs.twimg.com/media/GNptva7W4AAXFjM.jpg"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20240828182039/https://x.com/gdb/status/1790869434174746805",
+    "timestamp": "20240828182039",
+    "method": "existing"
+  }
+}

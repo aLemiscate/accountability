@@ -7,9 +7,9 @@ kind: claim
 who: [openai, fidji-simo]
 venue: Launch thread on X for Instant Checkout and the Agentic Commerce Protocol
 quote: >-
-  Instant Checkout is now rolling out to US ChatGPT Pro, Plus and Free
-  logged-in users buying from US Etsy sellers, with over 1 million Shopify
-  merchants coming soon.
+  Instant Checkout is now rolling out to US ChatGPT Pro, Plus and Free logged-in
+  users buying from US Etsy sellers, with over 1 million Shopify merchants
+  coming soon.
 summary: >-
   OpenAI launched purchases inside ChatGPT with Etsy sellers and promised more
   than a million Shopify merchants soon, alongside an open protocol built with
@@ -18,9 +18,9 @@ summary: >-
   starting with Glossier, SKIMS and Spanx. In March 2026, as first reported by
   The Information, OpenAI moved away from Instant Checkout: shoppers would
   instead be sent to retailers' own apps and sites to pay. CNBC reported that,
-  according to Forrester analyst Emily Pfeiffer, about 30 Shopify merchants
-  were available through Instant Checkout as of February, that onboarding
-  merchants had been arduous, and that the feature was prone to errors.
+  according to Forrester analyst Emily Pfeiffer, about 30 Shopify merchants were
+  available through Instant Checkout as of February, that onboarding merchants
+  had been arduous, and that the feature was prone to errors.
 concreteness: measurable
 status: broken
 patterns: [coming-weeks]
@@ -30,39 +30,47 @@ sources:
     url: https://x.com/OpenAI/status/1972708280951775597
     date: 2025-09-29
     type: primary
+    snapshot: snapshots/2026-10-03-x.com-f3e366a7
   - title: Fidji Simo on X ("expanding soon to over a million Shopify merchants")
     publisher: X
     url: https://x.com/fidjissimo/status/1972707487238467914
     date: 2025-09-29
     type: primary
-  - title: OpenAI on X ("Instant Checkout is now rolling out for @Shopify
-      merchants")
+    archive: https://web.archive.org/web/20250929180542/https://x.com/fidjissimo/status/1972707487238467914
+    snapshot: snapshots/2026-10-03-x.com-c08d5ca8
+  - title: OpenAI on X ("Instant Checkout is now rolling out for @Shopify merchants")
     publisher: X
     url: https://x.com/OpenAI/status/1991646997322035520
     date: 2025-11-20
     type: primary
+    snapshot: snapshots/2026-10-03-x.com-8f4d8051
   - title: OpenAI drops plan for direct checkout inside ChatGPT
     publisher: The Keyword
     url: https://www.thekeyword.co/news/openai-drops-plan-for-direct-checkout-inside-chatgpt
     date: 2026-03-05
     type: reporting
-  - title: OpenAI's first crack at online shopping stumbled. It's preparing for
-      the next wave
+    archive: https://web.archive.org/web/20261003094511/https://www.thekeyword.co/news/openai-drops-plan-for-direct-checkout-inside-chatgpt
+    snapshot: snapshots/2026-10-03-thekeyword.co-5cce8e9e
+  - title: OpenAI's first crack at online shopping stumbled. It's preparing for the
+      next wave
     publisher: CNBC
     url: https://www.cnbc.com/2026/03/20/open-ai-agentic-shopping-etsy-shopify-walmart-amazon.html
     date: 2026-03-20
     type: reporting
+    archive: https://web.archive.org/web/20260924073252/https://www.cnbc.com/2026/03/20/open-ai-agentic-shopping-etsy-shopify-walmart-amazon.html
+    snapshot: snapshots/2026-10-03-cnbc.com-a15d81f2
   - title: OpenAI shifts ChatGPT shopping plans to retailer-run apps – report
     publisher: Retail Insight Network (via Yahoo Finance)
     url: https://finance.yahoo.com/sectors/technology/articles/openai-shifts-chatgpt-shopping-plans-094824928.html
     date: 2026-03-23
     type: reporting
+    snapshot: snapshots/2026-10-03-finance.yahoo.com-41fe3761
 response: >-
   An OpenAI spokesperson said the company was focusing on search and product
-  discovery inside ChatGPT, where it had seen early adoption: "Instant
-  Checkout is moving to Apps, where purchases can happen more seamlessly."
+  discovery inside ChatGPT, where it had seen early adoption: "Instant Checkout
+  is moving to Apps, where purchases can happen more seamlessly."
 note: >-
-  Commerce is hard, and according to The Information OpenAI and Stripe are
-  still developing the open protocol. What did not hold was
-  the scale announced at launch: "over 1 million" merchants "coming soon"
-  became a few dozen before the feature was wound down.
+  Commerce is hard, and according to The Information OpenAI and Stripe are still
+  developing the open protocol. What did not hold was the scale announced at
+  launch: "over 1 million" merchants "coming soon" became a few dozen before the
+  feature was wound down.

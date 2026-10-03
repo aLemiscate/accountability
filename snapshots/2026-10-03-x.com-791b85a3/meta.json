@@ -1,0 +1,36 @@
+{
+  "url": "https://x.com/alexalbert__/status/1828107230656471442",
+  "captured_at": "2026-10-03T12:03:19.752Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "98e724e3231d203f9b1c01f5bc11ae3752f94fe8a5e5f6de5129e31cdd86c55b",
+    "page.txt": "72cfc32dc135cf88afb108fda68fef633e29660dc2a8d5668a5f97f32fe038b3",
+    "post.json": "da1a5945e502842b3685abf03226b814a19ec8a7e6f33899efb5c47f96b1be18",
+    "syndication.json": "c98e7f5ba5e5daade03e079534b2b92d83e23b85d6bd366d3b60d4767c5f9267",
+    "media-1.jpg": "161e805195f1ef5b47bf2d1d5f8765e06995bf5d51756815906a28ce133ef8c6",
+    "post.txt": "bc177edd02bb2b1390f13fcdd5ec17aac6e93f32f54d226da92e98a6ec0a8511"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/alexalbert__/status/1828107230656471442",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Alex Albert on X: \"We've added a new system prompts release notes section to our docs. We're going to log changes we make to the default system prompts on Claude dot ai and our mobile apps. (The system prompt does not affect the API.)\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Alex Albert (@alexalbert__)",
+    "date": "August 26, 2024",
+    "posted_at": "2024-08-26T16:28:23.035Z",
+    "media": [
+      {
+        "file": "media-1.jpg",
+        "url": "https://pbs.twimg.com/media/GV691btaQAEyUqX.jpg"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20250717082444/https://x.com/alexalbert__/status/1828107230656471442",
+    "timestamp": "20250717082444",
+    "method": "existing"
+  }
+}

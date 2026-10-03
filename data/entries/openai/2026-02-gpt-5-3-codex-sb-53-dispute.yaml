@@ -17,8 +17,8 @@ summary: >-
   autonomy, which it said the model lacked; it acknowledged the framework's
   wording was "ambiguous" and that it had no definitive test for long-range
   autonomy, relying on proxies and expert judgment. Encode's Nathan Calvin
-  wrote: "From reading the relevant docs … it doesn't look ambiguous to me."
-  The California attorney general's office would not say whether it was
+  wrote: "From reading the relevant docs … it doesn't look ambiguous to me." The
+  California attorney general's office would not say whether it was
   investigating.
 patterns: [safeguards-on-paper]
 related:
@@ -34,18 +34,22 @@ sources:
     url: https://fortune.com/2026/02/10/openai-violated-californias-ai-safety-law-gpt-5-3-codex-ai-model-watchdog-claims/
     date: 2026-02-10
     type: reporting
+    archive: https://web.archive.org/web/20260930204827/https://fortune.com/2026/02/10/openai-violated-californias-ai-safety-law-gpt-5-3-codex-ai-model-watchdog-claims/
+    snapshot: snapshots/2026-10-03-fortune.com-a03241e1
   - title: Steven Adler on X ("See eg OpenAI seeming to have violated SB 53")
     publisher: X
     url: https://x.com/sjgadler/status/2021309120347812222
     date: 2026-02-10
     type: primary
+    archive: https://web.archive.org/web/20260211214727/https://x.com/sjgadler/status/2021309120347812222
+    snapshot: snapshots/2026-10-03-x.com-a03bb79c
 response: >-
   An OpenAI spokesperson said the company was "confident in our compliance with
   frontier safety laws, including SB 53," and that "GPT-5.3-Codex completed our
   full testing and governance process, as detailed in the publicly released
-  system card, and did not demonstrate long-range autonomy capabilities based
-  on proxy evaluations and confirmed by internal expert judgments, including
-  from our Safety Advisory Group."
+  system card, and did not demonstrate long-range autonomy capabilities based on
+  proxy evaluations and confirmed by internal expert judgments, including from
+  our Safety Advisory Group."
 updates:
   - date: 2026-09-14
     text: >-
@@ -55,9 +59,9 @@ updates:
       categories, including loss of control. Fortune found no such tiers in the
       system cards for GPT-5.6 preview, GPT-5.6 or GPT-6 Astra; OpenAI instead
       reported results under its Preparedness Framework, which has no
-      loss-of-control category, and rated Astra "critical" for cyber. OpenAI said
-      the Preparedness Framework "remains the foundation of our approach" and
-      that the newer framework explains how its practices align with
+      loss-of-control category, and rated Astra "critical" for cyber. OpenAI
+      said the Preparedness Framework "remains the foundation of our approach"
+      and that the newer framework explains how its practices align with
       regulatory requirements.
     sources:
       - title: OpenAI may have violated California's AI safety law with Astra model
@@ -66,6 +70,7 @@ updates:
         url: https://fortune.com/2026/09/14/openai-may-have-violated-californias-ai-safety-law-with-astra-model-releases-ai-watchdog-says/
         date: 2026-09-14
         type: reporting
+        snapshot: snapshots/2026-10-03-fortune.com-9ab10c5f
 note: >-
   These are a watchdog's allegations, disputed by OpenAI, with no ruling. What
   is not disputed is that OpenAI settled an ambiguity in its own framework, in

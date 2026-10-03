@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/OpenAI/status/1163843803884601344",
+  "captured_at": "2026-10-03T12:54:12.143Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "59483f05d819e37bf2e3ebc3d653f45cad8128fe55bc9749a951bc90e59d871b",
+    "page.txt": "9dc5ae47269dc9bea71fcb76434eadd16e5a54a22d22681f36f4eab580d45eb4",
+    "post.json": "83f79081abf2afd9a11b2015e69b6af07d35c95cb314ddf871a7772935273fa1",
+    "syndication.json": "4660c2b10b816fca0f8a98ea8aad03984529784d2a97a4ef294fb617898e313e",
+    "post.txt": "6c0f72fe68b5c5287d8ad5e84908ffe795dbe736eb8784382001ad94842dd6d7"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1163843803884601344",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"GPT-2 6-month follow-up: we're releasing the 774M parameter model, an open-source legal doc organizations can use to form model-sharing partnerships, and a technical report about our experience coordinating to form new publication norms: https://t.co/wnLwmRt9jT\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "August 20, 2019",
+    "posted_at": "2019-08-20T16:02:40.675Z"
+  },
+  "rendered_status": 403,
+  "archive": null
+}

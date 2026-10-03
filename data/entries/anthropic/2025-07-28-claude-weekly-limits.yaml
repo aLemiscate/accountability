@@ -10,21 +10,20 @@ quote: >-
   August. We estimate they’ll apply to less than 5% of subscribers based on
   current usage.
 summary: >-
-  Anthropic launched its Max plan in April 2025 "with options for 5x or 20x
-  more usage compared to our Pro plan," for $100 or $200 a month. In mid-July
-  heavy Claude Code users began hitting unexpectedly restrictive limits;
-  TechCrunch reported that there had been "no explicit announcement of a
-  change in limits" and that Anthropic confirmed the issues but declined to
-  elaborate. On July 28 Anthropic announced two weekly caps for Pro and Max,
-  one overall and one for its top model, on top of the existing five-hour
-  limits, from Aug. 28. It said they would affect fewer than 5% of
-  subscribers, and that Max users could buy more usage at API rates. When the
-  caps rolled out on Sept. 29 it put the share at "fewer than 2%." In March
-  2026 it began draining five-hour sessions faster during weekday peak hours
-  for Free, Pro and Max; staff member Thariq Shihipar said "I know this was
-  frustrating." On May 6, 2026, after a compute deal with SpaceX, Anthropic
-  doubled Claude Code's five-hour limits and removed the peak-hours
-  reduction.
+  Anthropic launched its Max plan in April 2025 "with options for 5x or 20x more
+  usage compared to our Pro plan," for $100 or $200 a month. In mid-July heavy
+  Claude Code users began hitting unexpectedly restrictive limits; TechCrunch
+  reported that there had been "no explicit announcement of a change in limits"
+  and that Anthropic confirmed the issues but declined to elaborate. On July 28
+  Anthropic announced two weekly caps for Pro and Max, one overall and one for
+  its top model, on top of the existing five-hour limits, from Aug. 28. It said
+  they would affect fewer than 5% of subscribers, and that Max users could buy
+  more usage at API rates. When the caps rolled out on Sept. 29 it put the share
+  at "fewer than 2%." In March 2026 it began draining five-hour sessions faster
+  during weekday peak hours for Free, Pro and Max; staff member Thariq Shihipar
+  said "I know this was frustrating." On May 6, 2026, after a compute deal with
+  SpaceX, Anthropic doubled Claude Code's five-hour limits and removed the
+  peak-hours reduction.
 patterns: [shrinking-plan]
 related: [2026-04-03-claude-subscriptions-third-party-tools]
 sources:
@@ -33,51 +32,66 @@ sources:
     url: https://x.com/AnthropicAI/status/1910035641242640501
     date: 2025-04-09
     type: primary
+    archive: https://web.archive.org/web/20250410031045/https://x.com/anthropicai/status/1910035641242640501
+    snapshot: snapshots/2026-10-03-x.com-b415a7fa
   - title: Anthropic tightens usage limits for Claude Code without telling users
     publisher: TechCrunch
     url: https://techcrunch.com/2025/07/17/anthropic-tightens-usage-limits-for-claude-code-without-telling-users/
     date: 2025-07-17
     type: reporting
+    archive: https://web.archive.org/web/20260903123959/https://techcrunch.com/2025/07/17/anthropic-tightens-usage-limits-for-claude-code-without-telling-users/
+    snapshot: snapshots/2026-10-03-techcrunch.com-a2b3c60a
   - title: Anthropic on X ("new weekly rate limits for Claude Pro and Max")
     publisher: X
     url: https://x.com/AnthropicAI/status/1949898502688903593
     date: 2025-07-28
     type: primary
-  - title: Anthropic on X ("one user consumed tens of thousands in model usage on
-      a $200 plan")
+    archive: https://web.archive.org/web/20260812131954/https://x.com/AnthropicAI/status/1949898502688903593
+    snapshot: snapshots/2026-10-03-x.com-6212b1fb
+  - title: Anthropic on X ("one user consumed tens of thousands in model usage on a
+      $200 plan")
     publisher: X
     url: https://x.com/AnthropicAI/status/1949898511287226425
     date: 2025-07-28
     type: primary
+    archive: https://web.archive.org/web/20260924214051/https://x.com/AnthropicAI/status/1949898511287226425
+    snapshot: snapshots/2026-10-03-x.com-3ec1e543
   - title: Anthropic unveils new rate limits to curb Claude Code power users
     publisher: TechCrunch
     url: https://techcrunch.com/2025/07/28/anthropic-unveils-new-rate-limits-to-curb-claude-code-power-users/
     date: 2025-07-28
     type: reporting
+    archive: https://web.archive.org/web/20261003121917/https://techcrunch.com/2025/07/28/anthropic-unveils-new-rate-limits-to-curb-claude-code-power-users/
+    snapshot: snapshots/2026-10-03-techcrunch.com-41d4462c
   - title: Claude on X ("fewer than 2% of users")
     publisher: X
     url: https://x.com/claudeai/status/1972732967689879962
     date: 2025-09-29
     type: primary
+    archive: https://web.archive.org/web/20251001222850/https://x.com/claudeai/status/1972732967689879962
+    snapshot: snapshots/2026-10-03-x.com-623d6403
   - title: Anthropic Reduces Claude Session Limits During Peak Hours For Free, Pro
       And Max Users
     publisher: gHacks
     url: https://www.ghacks.net/2026/03/27/anthropic-reduces-claude-session-limits-during-peak-hours-for-free-pro-and-max-users/
     date: 2026-03-27
     type: reporting
+    archive: https://web.archive.org/web/20261003122052/https://www.ghacks.net/2026/03/27/anthropic-reduces-claude-session-limits-during-peak-hours-for-free-pro-and-max-users/
+    snapshot: snapshots/2026-10-03-ghacks.net-5fa0e7af
   - title: Higher usage limits and a SpaceX compute deal
     publisher: Anthropic
     url: https://www.anthropic.com/news/higher-limits-spacex
     date: 2026-05-06
     type: primary
+    snapshot: snapshots/2026-10-03-anthropic.com-f53c308c
 response: >-
   Anthropic said Claude Code had "seen unprecedented demand," that some users
-  ran it "continuously in the background, 24/7," that "one user consumed tens
-  of thousands in model usage on a $200 plan," and that others were sharing
-  and reselling accounts. A spokesperson told TechCrunch "most users won’t
-  notice a difference."
+  ran it "continuously in the background, 24/7," that "one user consumed tens of
+  thousands in model usage on a $200 plan," and that others were sharing and
+  reselling accounts. A spokesperson told TechCrunch "most users won’t notice a
+  difference."
 note: >-
-  The plan was sold as a multiple of Pro, never as a fixed amount, which is
-  what let the absolute limits move under it. Anthropic announced the weekly
-  caps a month ahead; the July tightening that preceded them reached users
-  before any announcement.
+  The plan was sold as a multiple of Pro, never as a fixed amount, which is what
+  let the absolute limits move under it. Anthropic announced the weekly caps a
+  month ahead; the July tightening that preceded them reached users before any
+  announcement.

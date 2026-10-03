@@ -6,31 +6,31 @@ type: did
 kind: action
 who: [openai, sam-altman, sebastien-bubeck]
 quote: >-
-  We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one
-  of the deepest problems at the frontier of mathematics.
+  We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of
+  the deepest problems at the frontier of mathematics.
 summary: >-
   OpenAI said about 10,000 agents running an unreleased model "significantly
-  more capable than GPT-6 Astra" had produced a proof, checked in the Lean
-  proof assistant, that smooth three-dimensional fluid motion described by
-  the Navier-Stokes equations can break down. It said the effort began on
-  Sept. 1, the day it heard rumors of other Millennium Prize resolutions. NYU
+  more capable than GPT-6 Astra" had produced a proof, checked in the Lean proof
+  assistant, that smooth three-dimensional fluid motion described by the
+  Navier-Stokes equations can break down. It said the effort began on Sept. 1,
+  the day it heard rumors of other Millennium Prize resolutions. NYU
   mathematician Tristan Buckmaster and Levent Alpöge, a mathematician at
   Anthropic, had reached related results on the Euler equations using what
-  Buckmaster said was the same uncommon technique. Buckmaster said he had put drafts of their work
-  into OpenAI's Codex and asked whether its models had been trained on them;
-  OpenAI said its researchers and agents "did not see any of their work
-  through any means until they released it publicly," but added: "While
-  unlikely, we cannot rule out that de-identified data derived from their
-  usage of our products helped improve our models." Buckmaster also alleged
-  that at a Sept. 6 meeting OpenAI's math research lead Sébastien Bubeck
-  pressed to drop Alpöge from authorship and asked, "Why would you ruin your
-  career?" Bubeck called the allegations "false and inflammatory," said he
-  never asked to remove Alpöge from his own work, and apologized for "this
-  extremely poor choice of words." Altman wrote: "It is true that we tried
-  this because there were rumors on the internet last week that Anthropic's
-  models had solved a millennium problem and we were curious if ours could do
-  it too." As of mid-September the proof awaited peer review and a verdict
-  from the Clay Mathematics Institute.
+  Buckmaster said was the same uncommon technique. Buckmaster said he had put
+  drafts of their work into OpenAI's Codex and asked whether its models had been
+  trained on them; OpenAI said its researchers and agents "did not see any of
+  their work through any means until they released it publicly," but added:
+  "While unlikely, we cannot rule out that de-identified data derived from their
+  usage of our products helped improve our models." Buckmaster also alleged that
+  at a Sept. 6 meeting OpenAI's math research lead Sébastien Bubeck pressed to
+  drop Alpöge from authorship and asked, "Why would you ruin your career?"
+  Bubeck called the allegations "false and inflammatory," said he never asked to
+  remove Alpöge from his own work, and apologized for "this extremely poor
+  choice of words." Altman wrote: "It is true that we tried this because there
+  were rumors on the internet last week that Anthropic's models had solved a
+  millennium problem and we were curious if ours could do it too." As of
+  mid-September the proof awaited peer review and a verdict from the Clay
+  Mathematics Institute.
 related: [2025-10-gpt-5-erdos-claim, 2026-09-23-claude-enzyme-discovery-claim]
 sources:
   - title: OpenAI on X ("We congratulate Levent Alpöge and Tristan Buckmaster")
@@ -38,21 +38,26 @@ sources:
     url: https://x.com/OpenAI/status/2097375276384567642
     date: 2026-09-08
     type: primary
+    snapshot: snapshots/2026-10-03-x.com-f8f3c273
   - title: Navier-Stokes solution (announcement page)
     publisher: OpenAI
     url: https://openai.com/index/navier-stokes-solution/
     date: 2026-09-08
     type: primary
+    snapshot: snapshots/2026-10-03-openai.com-1d977876
   - title: Sam Altman on X ("we were curious if ours could do it too")
     publisher: X
     url: https://x.com/sama/status/2097385167002415140
     date: 2026-09-08
     type: primary
+    archive: https://web.archive.org/web/20260908230603/https://x.com/sama/status/2097385167002415140
+    snapshot: snapshots/2026-10-03-x.com-32af9c2a
   - title: Sébastien Bubeck on X ("false and inflammatory allegations")
     publisher: X
     url: https://x.com/SebastienBubeck/status/2097214122471432349
     date: 2026-09-08
     type: primary
+    snapshot: snapshots/2026-10-03-x.com-e566eb6f
   - title: "'Why would you ruin your career?': OpenAI claims to have cracked one of
       math's greatest unsolved problems, but mathematicians allege it played
       dirty"
@@ -60,23 +65,26 @@ sources:
     url: https://www.livescience.com/physics-mathematics/mathematics/why-would-you-ruin-your-career-openai-claims-to-have-cracked-one-of-maths-greatest-unsolved-problems-but-mathematicians-allege-it-played-dirty
     date: 2026-09-09
     type: reporting
+    archive: https://web.archive.org/web/20261003143555/https://www.livescience.com/physics-mathematics/mathematics/why-would-you-ruin-your-career-openai-claims-to-have-cracked-one-of-maths-greatest-unsolved-problems-but-mathematicians-allege-it-played-dirty
+    snapshot: snapshots/2026-10-03-livescience.com-c8591911
   - title: "'Predatory behavior': Elite mathematicians clash over OpenAI's
       'solution' to million-dollar math problem"
     publisher: Live Science
     url: https://www.livescience.com/physics-mathematics/mathematics/predatory-behavior-elite-mathematicians-clash-over-openais-solution-to-million-dollar-math-problem
     date: 2026-09-17
     type: reporting
+    snapshot: snapshots/2026-10-03-livescience.com-4ba5581d
 response: >-
   OpenAI congratulated Buckmaster and Alpöge and said its proofs "differ
-  significantly" from theirs. Altman said OpenAI had wanted a joint release,
-  had offered to let them go first and to let Buckmaster lead a rewrite of
-  its proof, and "did not rush to publish." Bubeck said Alpöge declined to
-  join the meetings and that internal Anthropic models had been used in the
-  pair's Euler proof.
+  significantly" from theirs. Altman said OpenAI had wanted a joint release, had
+  offered to let them go first and to let Buckmaster lead a rewrite of its
+  proof, and "did not rush to publish." Bubeck said Alpöge declined to join the
+  meetings and that internal Anthropic models had been used in the pair's Euler
+  proof.
 note: >-
   The proof may well stand; no one quoted here has said it is wrong, and this
-  record will follow the review. What the episode records is conduct: a
-  company that holds its users' unpublished work racing them to a result, and
-  saying it cannot rule out that their own usage helped. Terence Tao warned
-  that the incentives "may now be pointing in the direction of no longer
-  sharing any promising research directions."
+  record will follow the review. What the episode records is conduct: a company
+  that holds its users' unpublished work racing them to a result, and saying it
+  cannot rule out that their own usage helped. Terence Tao warned that the
+  incentives "may now be pointing in the direction of no longer sharing any
+  promising research directions."

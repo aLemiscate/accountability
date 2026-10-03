@@ -1,0 +1,38 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 5250,
+  "lang": "en",
+  "created_at": "2025-10-03T22:07:46.000Z",
+  "display_text_range": [
+    0,
+    274
+  ],
+  "entities": {},
+  "id_str": "1974234951928459450",
+  "text": "We’re updating GPT-5 Instant to better recognize and support people in moments of distress.\n\nSensitive parts of conversations will now route to GPT-5 Instant to quickly provide even more helpful responses. ChatGPT will continue to tell users what model is active when asked.",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1974234951928459450"
+    ],
+    "editable_until_msecs": "1759532866000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 1219,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoxOTc0MjM0OTUxODA2ODI0NDQ4"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "url": "https://x.com/sjgadler/status/2021309120347812222",
+  "captured_at": "2026-10-03T14:20:53.347Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "590341479d33e874c6802de6f95234679ac97052900055cb7e40fe58fee64160",
+    "page.txt": "cd4a8c6f19dc6f50ccf656f9fe38b09241329c0ecc3f9af12ee6e778df626af3",
+    "post.json": "95081a7fc5a1df4aeccd8b4def906da6f628c33298133eb55b73fb70374dd9a7",
+    "syndication.json": "7094ad157e6436fa908675ae64fa27f561041663569ac2991304a78440f58fab",
+    "quoted-media-1.png": "c8873f6755125af5f82c46968d8c25253f7b00c9fca691548461310fd2c70d8b",
+    "post.txt": "cf08a4644982b516d1040bda17ca09a19e5118c68c586df82924582fa59c7f66"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sjgadler/status/2021309120347812222",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Steven Adler on X: \"@polynoamial @Anthropic I’m sympathetic to this, but my view is broader: that no company can be relied upon to handle these decisions fully responsibly, when left to their own devices See eg OpenAI seeming to have violated SB 53\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Steven Adler (@sjgadler)",
+    "date": "February 10, 2026",
+    "posted_at": "2026-02-10T19:43:43.055Z",
+    "media": [
+      {
+        "file": "quoted-media-1.png",
+        "url": "https://pbs.twimg.com/media/HAvFc54aAAEoSvb.png"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260211214727/https://x.com/sjgadler/status/2021309120347812222",
+    "timestamp": "20260211214727",
+    "method": "existing"
+  }
+}

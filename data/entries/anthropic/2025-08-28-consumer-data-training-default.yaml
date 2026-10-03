@@ -40,6 +40,8 @@ sources:
     url: https://www.anthropic.com/legal/privacy
     date: 2026-09-10
     type: primary
+    archive: https://web.archive.org/web/20261002235844/https://www.anthropic.com/legal/privacy
+    snapshot: snapshots/2026-10-03-anthropic.com-47b90923
   - title: Claude on X
     publisher: X
     url: https://x.com/claudeai/status/1961096054192943302
@@ -51,7 +53,7 @@ response: >-
   coding, and that users stay in control and can change the setting at any time.
 note: >-
   Privacy had been a selling point, and the flip was framed as user choice.
-  Whether a pre-set toggle counts as a choice is the question. The opt-out
-  also has limits: the privacy policy says that even for users who opt out,
-  Anthropic will use conversations "flagged for safety review" and material
-  users report to it for model improvement.
+  Whether a pre-set toggle counts as a choice is the question. The opt-out also
+  has limits: the privacy policy says that even for users who opt out, Anthropic
+  will use conversations "flagged for safety review" and material users report
+  to it for model improvement.

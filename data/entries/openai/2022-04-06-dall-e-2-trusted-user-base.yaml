@@ -1,5 +1,5 @@
-title: 'DALL-E 2 launch: its signature is "not robust against serious misuse ... so
-  now we lean more on small/trusted user base"'
+title: 'DALL-E 2 launch: its signature is "not robust against serious misuse ...
+  so now we lean more on small/trusted user base"'
 date: 2022-04-06
 org: openai
 type: said
@@ -15,12 +15,12 @@ summary: >-
   model "less-capable of repeating public figures' faces," as staff member
   Steven Adler put it. Asked about the colored squares stamped on each image,
   policy research lead Miles Brundage said they were not a robust safeguard,
-  which is why OpenAI was relying on a small, trusted group of users. By July
-  20 the preview had passed 100,000 users and OpenAI moved to reach about a
-  million within weeks, began charging, and granted full commercial rights. On
-  Sept. 19 it let users upload and edit real people's faces, and on Sept. 28
-  it removed the waitlist so anyone could sign up, with more than 1.5 million
-  active users. It said improved safety systems made each step possible.
+  which is why OpenAI was relying on a small, trusted group of users. By July 20
+  the preview had passed 100,000 users and OpenAI moved to reach about a million
+  within weeks, began charging, and granted full commercial rights. On Sept. 19
+  it let users upload and edit real people's faces, and on Sept. 28 it removed
+  the waitlist so anyone could sign up, with more than 1.5 million active users.
+  It said improved safety systems made each step possible.
 concreteness: directional
 status: reversed
 related: [2020-07-22-gpt-3-api-safety-review]
@@ -30,35 +30,40 @@ sources:
     url: https://x.com/Miles_Brundage/status/1511840197687734276
     date: 2022-04-06
     type: primary
-  - title: Steven Adler on X ("we've made our model less-capable of repeating
-      public figures' faces")
+    snapshot: snapshots/2026-10-03-x.com-64a110e5
+  - title: Steven Adler on X ("we've made our model less-capable of repeating public
+      figures' faces")
     publisher: X
     url: https://x.com/sjgadler/status/1511855493983002625
     date: 2022-04-06
     type: primary
-  - title: OpenAI expands access to DALL-E 2, its powerful image-generating AI
-      system
+    snapshot: snapshots/2026-10-03-x.com-6cefd1ed
+  - title: OpenAI expands access to DALL-E 2, its powerful image-generating AI system
     publisher: TechCrunch
     url: https://techcrunch.com/2022/07/20/openai-expands-access-to-dall-e-2-its-powerful-image-generating-ai-system/
     date: 2022-07-20
     type: reporting
+    archive: https://web.archive.org/web/20261003130105/https://techcrunch.com/2022/07/20/openai-expands-access-to-dall-e-2-its-powerful-image-generating-ai-system/
+    snapshot: snapshots/2026-10-03-techcrunch.com-cd02e569
   - title: OpenAI begins allowing users to edit faces with DALL-E 2
     publisher: TechCrunch
     url: https://techcrunch.com/2022/09/19/openai-begins-allowing-users-to-edit-faces-with-dall-e-2/
     date: 2022-09-19
     type: reporting
+    archive: https://web.archive.org/web/20261003130333/https://techcrunch.com/2022/09/19/openai-begins-allowing-users-to-edit-faces-with-dall-e-2/
+    snapshot: snapshots/2026-10-03-techcrunch.com-c1271f8f
   - title: OpenAI removes the waitlist for DALL-E 2, allowing anyone to sign up
     publisher: TechCrunch
     url: https://techcrunch.com/2022/09/28/openai-removes-the-waitlist-for-dall-e-2-allowing-anyone-to-sign-up/
     date: 2022-09-28
     type: reporting
+    snapshot: snapshots/2026-10-03-techcrunch.com-85e1df53
 response: >-
-  OpenAI said "Learning from real-world use has allowed us to improve our
-  safety systems, making wider availability possible today," and that it had
-  "built new detection and response techniques to stop misuse" before allowing
-  face editing.
+  OpenAI said "Learning from real-world use has allowed us to improve our safety
+  systems, making wider availability possible today," and that it had "built new
+  detection and response techniques to stop misuse" before allowing face
+  editing.
 note: >-
-  A staged rollout, widened step by step and each step announced, which is
-  how the record treats it: reversed openly, not broken. Stable Diffusion,
-  released openly that August, offered similar capabilities without such
-  controls.
+  A staged rollout, widened step by step and each step announced, which is how
+  the record treats it: reversed openly, not broken. Stable Diffusion, released
+  openly that August, offered similar capabilities without such controls.
