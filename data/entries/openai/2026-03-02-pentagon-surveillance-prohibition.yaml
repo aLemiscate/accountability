@@ -49,6 +49,65 @@ response: >-
   relevant policy directive or law: "That's what we did." The contract text has
   not been published, so this can't be checked.
 updates:
+  - date: 2026-03-01
+    text: >-
+      The day before the amendment, OpenAI researcher Boaz Barak answered
+      questions about the original agreement. Asked whether it barred the
+      Pentagon from using OpenAI models to analyze commercially purchased data
+      on Americans, he wrote that the Pentagon had not asked for "collection or
+      analysis of bulk data on Americans, such as geolocation data, web browsing
+      data and personal financial information purchased from data brokers, and
+      our agreement does not permit it." Asked where the agreement said so, he
+      wrote that OpenAI's legal and policy teams "will provide more details on
+      the the issue of commercially acquired datasets in the coming days." He
+      also wrote: "When we say that domestic mass surveillance and autonomous
+      lethal weapons are red lines for us, we mean what we say, and are not
+      looking for loopholes." The next day OpenAI added language that, "for the
+      avoidance of doubt," extends the prohibition to "the procurement or use of
+      commercially acquired personal or identifiable information."
+    sources:
+      - title: Boaz Barak on X ("our agreement does not permit it")
+        publisher: X
+        url: https://x.com/boazbaraktcs/status/2027932587788759293
+        date: 2026-03-01
+        type: primary
+      - title: Boaz Barak on X ("more details … in the coming days")
+        publisher: X
+        url: https://x.com/boazbaraktcs/status/2027937481207800058
+        date: 2026-03-01
+        type: primary
+      - title: Boaz Barak on X ("we mean what we say")
+        publisher: X
+        url: https://x.com/boazbaraktcs/status/2027935104056586439
+        date: 2026-03-01
+        type: primary
+      - title: Sam Altman on X (re-post of an internal memo on the amendments)
+        publisher: X
+        url: https://x.com/sama/status/2028640354912923739
+        date: 2026-03-02
+        type: primary
+        snapshot: snapshots/2026-09-29-x.com-5113866d
+  - date: 2026-03-01
+    text: >-
+      In the same Q&A, asked what would make OpenAI walk away from a government
+      partnership, Altman wrote: "If we were asked to do something
+      unconstitutional or illegal, we will walk away. Please come visit me in
+      jail if necessary." Asked whether OpenAI would "commit to publishing every
+      future red line change with a public explanation and a mandatory notice
+      period before it takes effect," he replied: "Yes, this seems like a very
+      good idea. I will talk to the team." By October 2026 this record had found
+      no such policy published, and the contract text remains withheld.
+    sources:
+      - title: Sam Altman on X ("we will walk away")
+        publisher: X
+        url: https://x.com/sama/status/2027913483011170667
+        date: 2026-03-01
+        type: primary
+      - title: Sam Altman on X ("this seems like a very good idea")
+        publisher: X
+        url: https://x.com/sama/status/2027959788597072096
+        date: 2026-03-01
+        type: primary
   - date: 2026-03-03
     text: >-
       OpenAI researcher Noam Brown, who had earlier relayed that "The contract

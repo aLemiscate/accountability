@@ -41,8 +41,39 @@ sources:
 response: >-
   A review by WilmerHale, commissioned by the reconstituted board, found that
   the prior board acted within its broad discretion to remove Altman, but that
-  his conduct did not mandate removal. The full report was not published.
+  his conduct did not mandate removal. OpenAI published a summary of the
+  findings, not a report.
 updates:
+  - date: 2024-03-08
+    text: >-
+      Announcing the review's conclusion, OpenAI said Altman would rejoin the
+      board, named three new directors, and adopted new corporate governance
+      guidelines, a stronger conflict-of-interest policy, a whistleblower
+      hotline and new board committees. Former directors Helen Toner and Tasha
+      McCauley said in a joint statement: "We hope the new board does its job
+      in governing OpenAI and holding it accountable to the mission," adding
+      that "deception, manipulation, and resistance to thorough oversight should
+      be unacceptable." The Associated Press noted that OpenAI did not release
+      the full report.
+    sources:
+      - title: Review completed & Altman, Brockman to continue to lead OpenAI
+        publisher: OpenAI
+        url: https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai/
+        date: 2024-03-08
+        type: primary
+        archive: https://web.archive.org/web/20260913014725/https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai/
+        snapshot: snapshots/2026-09-29-openai.com-133307ab
+      - title: Helen Toner on X ("A statement from Helen Toner and Tasha McCauley")
+        publisher: X
+        url: https://x.com/hlntnr/status/1766269137628590185
+        date: 2024-03-08
+        type: primary
+      - title: OpenAI has 'full confidence' in CEO Sam Altman after investigation,
+          reinstates him to board
+        publisher: Associated Press (via WSLS)
+        url: https://www.wsls.com/business/2024/03/08/openai-has-full-confidence-in-ceo-sam-altman-after-investigation-reinstates-him-to-board/
+        date: 2024-03-08
+        type: reporting
   - date: 2024-05
     text: >-
       Former board member Helen Toner gave her account on the TED AI Show
@@ -87,6 +118,46 @@ updates:
         date: 2025-11-04
         type: primary
         snapshot: snapshots/2026-09-30-x.com-dc92a529
+  - date: 2026-04-06
+    text: >-
+      The New Yorker (Ronan Farrow and Andrew Marantz) reported that the
+      WilmerHale review produced no written report and that its findings were
+      given in oral briefings. Farrow wrote: "no report about what was found was
+      ever released. That’s because none was written." On the Lawfare podcast he
+      described "an extremely limited, deliberately undocumented briefing
+      process," and said Bret Taylor had told the magazine there was no need for
+      a written report. The article drew on memos compiled by Ilya Sutskever and
+      more than 200 pages of notes Dario Amodei took at OpenAI, Tech Brew
+      reported. Altman called it "an incendiary article" and said he was "not
+      proud of handling myself badly in a conflict with our previous board that
+      led to a huge mess for the company."
+    sources:
+      - title: Sam Altman May Control Our Future—Can He Be Trusted?
+        publisher: The New Yorker
+        url: https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted
+        date: 2026-04-06
+        type: reporting
+      - title: Ronan Farrow on X ("none was written")
+        publisher: X
+        url: https://x.com/RonanFarrow/status/2046586584699384061
+        date: 2026-04-21
+        type: primary
+      - title: 'Lawfare Daily: Sam Altman with Ronan Farrow and Andrew Marantz'
+        publisher: Lawfare
+        url: https://www.lawfaremedia.org/article/lawfare-daily--sam-altman-with-ronan-farrow-and-andrew-marantz
+        date: 2026-04-14
+        type: reporting
+      - title: Inside the memos behind OpenAI's safety retreat
+        publisher: Tech Brew
+        url: https://www.techbrew.com/stories/openai-sam-altman-memos-newyorker
+        date: 2026-04-06
+        type: reporting
+      - title: Sam Altman responds to 'incendiary' New Yorker article after attack on
+          his home
+        publisher: TechCrunch
+        url: https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/
+        date: 2026-04-11
+        type: reporting
   - date: 2026-05-06
     text: >-
       In a video deposition played at the Musk v. Altman trial, former CTO Mira

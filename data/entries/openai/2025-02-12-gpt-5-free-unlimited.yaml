@@ -1,0 +1,82 @@
+title: 'Altman''s GPT-5 roadmap: free users "will get unlimited chat access to
+  GPT-5 at the standard intelligence setting"'
+date: 2025-02-12
+org: openai
+type: said
+kind: commitment
+who: [sam-altman, openai]
+venue: '"OpenAI roadmap update for GPT-4.5 and GPT-5," post on X'
+quote: >-
+  The free tier of ChatGPT will get unlimited chat access to GPT-5 at the
+  standard intelligence setting (!!), subject to abuse thresholds.
+summary: >-
+  In February 2025 Altman set out a roadmap for GPT-5. OpenAI would "return to
+  magic unified intelligence" in place of the model picker ("We hate the model
+  picker as much as you do"), would "no longer ship o3 as a standalone model,"
+  and would give free users unlimited GPT-5 chat. Each part changed. On April 4
+  Altman announced a "change of plans": o3 and o4-mini would ship on their own,
+  and GPT-5 would come "in a few months." GPT-5 launched on Aug. 7, 2025 as a
+  system with a real-time router choosing between models, and free users got
+  up to 10 GPT-5 messages every five hours before falling back to GPT-5 mini,
+  BGR reported. Six days after launch the model picker was back, with "Auto,"
+  "Fast" and "Thinking" settings and older models restored for paid users. In
+  August 2026 OpenAI removed limits on text chats for free users, with its
+  GPT-5.6 Luna model as the default.
+concreteness: measurable
+status: kept
+patterns: [coming-weeks]
+related:
+  [
+    2025-08-08-altman-show-which-model-answers,
+    2025-08-13-altman-4o-plenty-of-notice
+  ]
+sources:
+  - title: Sam Altman on X ("OpenAI roadmap update for GPT-4.5 and GPT-5")
+    publisher: X
+    url: https://x.com/sama/status/1889755723078443244
+    date: 2025-02-12
+    type: primary
+  - title: Sam Altman on X ("change of plans")
+    publisher: X
+    url: https://x.com/sama/status/1908167621624856998
+    date: 2025-04-04
+    type: primary
+  - title: OpenAI says it'll release o3 after all, delays GPT-5
+    publisher: TechCrunch
+    url: https://techcrunch.com/2025/04/04/openai-says-itll-release-o3-after-all-delays-gpt-5/
+    date: 2025-04-04
+    type: reporting
+  - title: OpenAI's GPT-5 is here
+    publisher: TechCrunch
+    url: https://techcrunch.com/2025/08/07/openais-gpt-5-is-here/
+    date: 2025-08-07
+    type: reporting
+  - title: GPT-5 Is Available For Free To All ChatGPT Accounts - Here Are The
+      Usage Limits (BGR, via Yahoo Tech)
+    publisher: BGR
+    url: https://tech.yahoo.com/ai/articles/gpt-5-available-free-chatgpt-121515724.html
+    date: 2025-08-08
+    type: reporting
+  - title: ChatGPT's model picker is back, and it's complicated
+    publisher: TechCrunch
+    url: https://techcrunch.com/2025/08/12/chatgpts-model-picker-is-back-and-its-complicated/
+    date: 2025-08-12
+    type: reporting
+  - title: Sam Altman on X ("Updates to ChatGPT")
+    publisher: X
+    url: https://x.com/sama/status/1955438916645130740
+    date: 2025-08-13
+    type: primary
+  - title: ChatGPT brings unlimited text chats to free users
+    publisher: TechCrunch
+    url: https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/
+    date: 2026-08-06
+    type: reporting
+response: >-
+  Altman gave his reasons for the April change at the time: "we are going to
+  be able to make GPT-5 much better than we originally though. we also found it
+  harder than we thought it was going to be to smoothly integrate everything."
+note: >-
+  Kept, eighteen months after it was promised and a year after GPT-5 shipped
+  with a ten-message cap for free users. The roadmap's other two promises, one
+  model in place of the picker and no standalone o3, were dropped openly.

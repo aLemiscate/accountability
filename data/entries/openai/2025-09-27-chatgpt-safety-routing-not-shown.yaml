@@ -1,0 +1,69 @@
+title: ChatGPT switches users' messages to an undisclosed safety model without
+  showing it; OpenAI explains after users find it
+date: 2025-09-27
+org: openai
+type: did
+kind: action
+who: [openai, nick-turley]
+quote: >-
+  We’ve started testing a new safety routing system in ChatGPT. As we
+  previously mentioned, when conversations touch on sensitive and emotional
+  topics the system may switch mid-chat to a reasoning model or GPT-5 designed
+  to handle these contexts with extra care.
+summary: >-
+  In September 2025 ChatGPT users noticed that some messages they sent to GPT-4o
+  or GPT-5 were being answered by other models, including one named
+  "gpt-5-chat-safety" that OpenAI had not documented. The Decoder reported that
+  users were not notified, and that, according to Turley, the switch happened
+  message by message and "only becomes obvious if users specifically ask the
+  model about it." A user's technical review it cited found that ordinary
+  emotional or personal prompts, and questions about the model's own persona,
+  also triggered the switch. On Sept. 27 ChatGPT head Nick Turley said OpenAI
+  had started testing a safety routing system. OpenAI had announced in a
+  September blog post that it would route moments of "acute distress" to other
+  models; what users had not been told was that the switch would cover wider
+  topics and happen without being shown. Turley said: "ChatGPT will tell you
+  which model is active when asked."
+patterns: [told-last]
+contradicts: [2025-08-08-altman-show-which-model-answers]
+sources:
+  - title: Nick Turley on X ("We've seen the strong reactions to 4o responses")
+    publisher: X
+    url: https://x.com/nickaturley/status/1972031684913799355
+    date: 2025-09-27
+    type: primary
+  - title: Nick Turley on X ("We've started testing a new safety routing
+      system")
+    publisher: X
+    url: https://x.com/nickaturley/status/1972031686318895253
+    date: 2025-09-27
+    type: primary
+  - title: ChatGPT quietly switches to a stricter language model when users
+      submit emotional prompts
+    publisher: The Decoder
+    url: https://the-decoder.com/chatgpt-quietly-switches-to-a-stricter-language-model-when-users-submit-emotional-prompts/
+    date: 2025-09-28
+    type: reporting
+  - title: OpenAI rolls out safety routing system, parental controls on ChatGPT
+    publisher: TechCrunch
+    url: https://techcrunch.com/2025/09/29/openai-rolls-out-safety-routing-system-parental-controls-on-chatgpt/
+    date: 2025-09-29
+    type: reporting
+  - title: OpenAI on X ("ChatGPT will continue to tell users what model is active
+      when asked")
+    publisher: X
+    url: https://x.com/OpenAI/status/1974234951928459450
+    date: 2025-10-03
+    type: primary
+response: >-
+  Turley said routing "happens on a per-message basis; switching from the
+  default model happens on a temporary basis," and that it was "part of a
+  broader effort to strengthen safeguards and learn from real-world use before
+  a wider rollout." OpenAI said it had given itself 120 days to iterate on the
+  system, TechCrunch reported.
+note: >-
+  The routing itself had been announced, and its purpose, steering people in
+  distress to a more careful model, is one this record's other entries ask for.
+  The gap is narrower: seven weeks after Altman promised to make it "more
+  transparent about which model is answering," the answer was available only
+  to users who thought to ask.
