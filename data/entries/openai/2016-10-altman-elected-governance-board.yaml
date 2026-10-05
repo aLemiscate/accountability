@@ -10,10 +10,10 @@ quote: >-
   representatives to a new governance board.
 summary: >-
   In a 2016 profile, Altman, then OpenAI's co-chair, said OpenAI was planning a
-  way for people around the world to elect representatives to govern it. No
-  such election was ever held. New directors have been picked by the sitting
-  board, and under the 2025 restructuring the Foundation's board appoints the
-  directors of the for-profit company.
+  way for people around the world to elect representatives to govern it. No such
+  election was ever held. New directors have been picked by the sitting board,
+  and under the 2025 restructuring the Foundation's board appoints the directors
+  of the for-profit company.
 concreteness: directional
 status: eroded
 patterns: [mission-to-market]
@@ -24,6 +24,8 @@ sources:
     url: https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny
     date: 2016-10-10
     type: primary
+    archive: https://web.archive.org/web/20261005151124/https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny
+    snapshot: snapshots/2026-10-05-newyorker.com-23141b04
   - title: Sam Altman, then and now
     publisher: Marcus on AI
     url: https://garymarcus.substack.com/p/sam-altman-then-and-now
@@ -36,6 +38,6 @@ sources:
     type: analysis
     snapshot: snapshots/2026-10-01-thenewatlantis.com-1618dd4a
 note: >-
-  The New Yorker refused automated requests, so the quote is checked against
-  two later pieces that reproduce it. The plan was never formally dropped; it
-  was simply never carried out.
+  The New Yorker refused automated requests, so the quote is checked against two
+  later pieces that reproduce it. The plan was never formally dropped; it was
+  simply never carried out.
