@@ -11,5 +11,13 @@
     "via": "fetch",
     "event": "rebaseline",
     "note": "text extractor fix: list-item attributes no longer leak into the text"
+  },
+  {
+    "date": "2026-10-05",
+    "sha256": "27ab46363be5abcecc8eb5b3a8607c92fc1efd2ae428546bcdaf479fa9ae7aba",
+    "via": "fetch",
+    "event": "changed",
+    "added": 6,
+    "removed": 5
   }
 ]

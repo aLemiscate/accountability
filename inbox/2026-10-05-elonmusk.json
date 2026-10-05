@@ -1,0 +1,12 @@
+{
+  "account": {
+    "actor": "elon-musk",
+    "x": "elonmusk",
+    "sweep": false,
+    "match": "openai|open ai|altman|\\bsama\\b|brockman|anthropic|claude|amodei|chatgpt|\\bgpt|nonprofit|non-profit|for-profit|closed.?source|microsoft.*\\bai\\b|superalignment|sutskever|ilya"
+  },
+  "from": "2026-09-21",
+  "match": "safety|safe|align|regulat|nonprofit|mission|open.?source|military|defen[cs]e|pentagon|surveil|advertis|\\bads?\\b|profit|humanity|commit|promise|pledge|pause|race|democra",
+  "problems": [],
+  "posts": []
+}

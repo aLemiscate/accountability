@@ -4,5 +4,12 @@
     "sha256": "8460764497c8b0aae362398b0d0520dfa9a6a627f40b3e1861335833a7e6afed",
     "via": "browser",
     "event": "baseline"
+  },
+  {
+    "date": "2026-10-05",
+    "sha256": "866f1c66c348cbf8e9423bf696abe8a79da645137b16ea0291df439bd604fdb7",
+    "via": "fetch",
+    "event": "rebaseline",
+    "note": "read via fetch instead of browser"
   }
 ]
