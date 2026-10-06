@@ -27,6 +27,19 @@ sources:
     url: https://futureoflife.org/podcast/daniela-and-dario-amodei-on-anthropic/
     date: 2022-03-04
     type: primary
+  - title: Inside Anthropic, the AI Company Betting That Safety Can Be a Winning
+      Strategy
+    publisher: TIME
+    url: https://time.com/collections/time100-companies-2024/6980000/anthropic-2/
+    date: 2024-05-30
+    type: reporting
+    archive: https://web.archive.org/web/20260927040831/https://time.com/collections/time100-companies-2024/6980000/anthropic-2/
+  - title: The AI Tsunami is Here & Society Isn't Ready | Dario Amodei x Nikhil
+      Kamath | People by WTF
+    publisher: People by WTF
+    url: https://podcasts.apple.com/us/podcast/the-ai-tsunami-is-here-society-isnt-ready-dario/id1819856014?i=1000751189267
+    date: 2026-02-24
+    type: primary
 updates:
   - date: 2023-08-08
     text: >-
@@ -88,4 +101,11 @@ note: >-
   narrower version on the Future of Life Institute podcast: "I think we
   shouldn't be racing ahead or trying to build models that are way bigger than
   other orgs are building them," while still working "on top of models that
-  are reasonably close to state of the art."
+  are reasonably close to state of the art." One action did match the
+  principle. In the summer of 2022 Anthropic finished training the first
+  Claude, and Amodei, TIME reported, "ultimately decided not to" release it,
+  "opting instead to continue internal safety testing"; ChatGPT launched about
+  three months later. Amodei's account in 2026: "we chose not to release this
+  because we were worried that it would kick off an arms race and not give us
+  enough time to build these systems safely." (Quoted from the audio of People
+  by WTF, about 29:35.)
