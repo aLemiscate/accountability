@@ -64,6 +64,19 @@ updates:
         date: 2025-06-05
         type: reporting
         snapshot: snapshots/2026-09-30-thehill.com-f20c4c8e
+  - date: 2026-05-19
+    text: >-
+      On The Oprah Podcast, Daniela Amodei described the 2024 letter as
+      "Anthropic's decision to publicly support SB 1047," adding, "we thought it
+      was drafted imperfectly." The letter itself stopped short of a full
+      endorsement. (Quoted from the audio of The Oprah Podcast, about 39:18.)
+    sources:
+      - title: The Co-Founders of Claude AI Tell Oprah About the Impact Artificial
+          Intelligence Has on Your Life
+        publisher: The Oprah Podcast
+        url: https://podcasts.apple.com/us/podcast/the-co-founders-of-claude-ai-tell-oprah-about/id1782960381?i=1000768533274
+        date: 2026-05-19
+        type: primary
   - date: 2026-06-10
     text: >-
       Anthropic also endorsed New York's RAISE Act, saying its safeguards were
