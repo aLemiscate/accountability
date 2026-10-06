@@ -30,7 +30,48 @@ sources:
     type: reporting
     archive: https://web.archive.org/web/20260325052339/https://www.cnn.com/2025/10/17/tech/openai-mlk-sora-pause
     snapshot: snapshots/2026-10-01-cnn.com-4ec5811e
+  - title: OpenAI's new Sora video generator to require copyright holders to opt
+      out, WSJ reports
+    publisher: Reuters
+    url: https://www.reuters.com/technology/openais-new-sora-video-generator-require-copyright-holders-opt-out-wsj-reports-2025-09-29/
+    date: 2025-09-29
+    type: reporting
+    archive: https://web.archive.org/web/20251001025822/https://www.reuters.com/technology/openais-new-sora-video-generator-require-copyright-holders-opt-out-wsj-reports-2025-09-29/
+  - title: Sora 2 Can Generate Pikachu and Other Copyrighted Characters
+    publisher: eWeek
+    url: https://www.eweek.com/news/sora-generating-copyrighted-characters/
+    date: 2025-10-02
+    type: reporting
+  - title: Sora update #1
+    publisher: Sam Altman
+    url: https://blog.samaltman.com/sora-update-number-1
+    date: 2025-10-03
+    type: primary
 updates:
+  - date: 2025-12-11
+    text: >-
+      Disney became the first major content licensing partner on Sora: a
+      three-year license for more than 200 Disney, Marvel, Pixar and Star Wars
+      characters, excluding "any talent likenesses or voices," with a $1
+      billion Disney equity investment in OpenAI. On CNBC that morning, asked
+      whether the deal grew out of talks about IP, Altman said: "We always have
+      wanted to respect IP. When we launched Sora initially, we had a lot of
+      blocks in place." (Quoted from the audio, about 35:53.) The blocks he
+      described covered rights holders who had opted out; launch-week reporting
+      said other characters would appear unless their owners asked.
+    sources:
+      - title: The Walt Disney Company and OpenAI Reach Landmark Agreement to Bring
+          Beloved Characters from Across Disney’s Brands to Sora
+        publisher: The Walt Disney Company
+        url: https://thewaltdisneycompany.com/news/disney-openai-sora-agreement/
+        date: 2025-12-11
+        type: primary
+      - title: 'SOTS 10AM: Exclusive: Disney CEO Bob Iger and OpenAI CEO Sam Altman
+          on new deal 12/11/25'
+        publisher: CNBC Squawk on the Street
+        url: https://podcasts.apple.com/us/podcast/sots-10am-exclusive-disney-ceo-bob-iger-and-openai/id1475116211?i=1000740871814
+        date: 2025-12-11
+        type: primary
   - date: 2026-03-24
     text: >-
       Six months after launch, OpenAI announced it was shutting down the Sora
