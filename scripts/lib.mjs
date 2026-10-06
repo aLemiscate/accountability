@@ -8,6 +8,7 @@ import YAML from 'yaml';
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const DATA = path.join(ROOT, 'data');
 export const ENTRIES = path.join(DATA, 'entries');
+export const COMMITMENTS = path.join(DATA, 'commitments');
 
 export const ORGS = ['openai', 'anthropic'];
 export const TYPES = ['said', 'did'];
@@ -18,6 +19,10 @@ export const KINDS = {
 export const STATUSES = ['open', 'kept', 'broken', 'reversed', 'eroded', 'contradicted'];
 export const CONCRETENESS = ['measurable', 'conditional', 'directional', 'aspirational'];
 export const SOURCE_TYPES = ['primary', 'reporting', 'analysis', 'archive'];
+// Grades for one commitment in a formal document, for one company. "standing"
+// means it is still in force and nothing public shows it broken; "unknown"
+// means it can't be checked from outside.
+export const GRADES = ['kept', 'standing', 'eroded', 'broken', 'unknown'];
 
 const ENTRY_KEYS = new Set([
   'title', 'date', 'org', 'type', 'kind', 'who', 'venue', 'quote', 'summary',
@@ -70,14 +75,19 @@ export async function loadAll() {
     const data = (await readYaml(file)) ?? {};
     entries.push({ id: path.basename(file).replace(/\.ya?ml$/, ''), file: path.relative(ROOT, file), ...data });
   }
-  return { site, patterns, actors, accounts: accounts ?? [], entries };
+  const commitments = [];
+  for (const file of await walk(COMMITMENTS).catch(() => [])) {
+    const data = (await readYaml(file)) ?? {};
+    commitments.push({ id: path.basename(file).replace(/\.ya?ml$/, ''), file: path.relative(ROOT, file), ...data });
+  }
+  return { site, patterns, actors, accounts: accounts ?? [], entries, commitments };
 }
 
 /**
  * Validate everything. Returns { errors, warnings, unarchived }, where
  * unarchived lists entries with no archived copy of any source yet.
  */
-export function validate({ patterns, actors, entries, accounts = [] }) {
+export function validate({ patterns, actors, entries, accounts = [], commitments = [] }) {
   const errors = [];
   const warnings = [];
   const unarchived = [];
@@ -187,13 +197,59 @@ export function validate({ patterns, actors, entries, accounts = [] }) {
     });
     if (e.revision && (!e.revision.before || !e.revision.after)) err(e, 'revision needs both before and after');
   }
+
+  for (const doc of commitments) {
+    if (!doc.title) err(doc, 'missing title');
+    if (!parseDate(doc.date)) err(doc, `bad date "${doc.date}"`);
+    const parties = doc.parties ?? [];
+    if (!parties.length || parties.some((o) => !ORGS.includes(o))) err(doc, `parties must list orgs from ${ORGS.join(', ')}`);
+    if (!Array.isArray(doc.sources) || !doc.sources.length) err(doc, 'needs at least one source');
+    else doc.sources.forEach((s, i) => checkSource(doc, s, `sources[${i}]`));
+    for (const id of doc.entries ?? []) if (!byId.has(id)) err(doc, `unknown entry "${id}"`);
+    const seen = new Set();
+    (doc.commitments ?? []).forEach((c, i) => {
+      const where = `commitments[${i}] (${c.id ?? '?'})`;
+      if (!c.id) err(doc, `${where}: needs an id`);
+      else if (seen.has(c.id)) err(doc, `${where}: duplicate id`);
+      seen.add(c.id);
+      if (!c.text) err(doc, `${where}: needs the commitment's text`);
+      for (const org of Object.keys(c.grades ?? {})) if (!parties.includes(org)) err(doc, `${where}: graded for ${org}, which is not a party`);
+      for (const org of parties) {
+        const g = c.grades?.[org];
+        if (!g) { err(doc, `${where}: no grade for ${org}`); continue; }
+        if (!GRADES.includes(g.grade)) err(doc, `${where}: ${org} grade must be one of ${GRADES.join(', ')}`);
+        if (!g.evidence) err(doc, `${where}: ${org} grade needs evidence`);
+        for (const id of g.entries ?? []) if (!byId.has(id)) err(doc, `${where}: unknown entry "${id}"`);
+        (g.sources ?? []).forEach((s, j) => checkSource(doc, s, `${where}.${org}.sources[${j}]`));
+        // "standing" and "unknown" can rest on finding nothing; the others need evidence to point to.
+        if (['kept', 'eroded', 'broken'].includes(g.grade) && !(g.entries?.length || g.sources?.length)) warn(doc, `${where}: ${org} grade "${g.grade}" cites no entry or source`);
+      }
+    });
+    if (!(doc.commitments ?? []).length) err(doc, 'lists no commitments');
+  }
   return { errors, warnings, unarchived };
+}
+
+/** Tally commitment grades per document and company: { org: { total, kept, ...grades } }. */
+export function tallyCommitments(doc) {
+  const out = {};
+  for (const org of doc.parties ?? []) {
+    const t = { total: 0, ...Object.fromEntries(GRADES.map((g) => [g, 0])) };
+    for (const c of doc.commitments ?? []) {
+      const g = c.grades?.[org]?.grade;
+      if (!g) continue;
+      t.total += 1;
+      t[g] += 1;
+    }
+    out[org] = t;
+  }
+  return out;
 }
 
 const DAY = 86400000;
 
 /** Turn validated data into the shape the site consumes. */
-export function derive({ site, patterns, actors, entries }) {
+export function derive({ site, patterns, actors, entries, commitments = [] }) {
   const sorted = [...entries].sort((a, b) => parseDate(a.date).time - parseDate(b.date).time || a.id.localeCompare(b.id));
   const out = sorted.map((e, i) => {
     const { file, ...rest } = e;
@@ -235,6 +291,9 @@ export function derive({ site, patterns, actors, entries }) {
     actors,
     entries: out,
     receipts,
+    commitments: [...commitments]
+      .sort((a, b) => parseDate(a.date).time - parseDate(b.date).time || a.id.localeCompare(b.id))
+      .map(({ file, ...doc }) => ({ ...doc, file, tally: tallyCommitments(doc) })),
     stats: {
       entries: out.length,
       said: said.length,

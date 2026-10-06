@@ -257,7 +257,8 @@ async function attachToEntry(entryId, url, { dir, meta }) {
 }
 
 /**
- * Walk every source in every entry (including update sources) and fill in
+ * Walk every source in every entry (including update sources) and every
+ * commitment document (including the sources behind each grade), and fill in
  * what is missing: an archive link (mode "archive") or a full snapshot (mode "snapshot").
  */
 async function fillMissing(mode) {
@@ -265,16 +266,19 @@ async function fillMissing(mode) {
   const match = opt('match') ? new RegExp(opt('match'), 'i') : null;
   const dry = flag('dry-run');
   const field = mode === 'archive' ? 'archive' : 'snapshot';
-  const { entries } = await loadAll();
+  const { entries, commitments = [] } = await loadAll();
   const done = new Map(); // url -> result, so a URL cited twice is captured once
   let processed = 0;
   let filled = 0;
-  for (const entry of entries) {
+  for (const entry of [...entries, ...commitments]) {
     const file = path.join(ROOT, entry.file);
     const doc = YAML.parseDocument(await readFile(file, 'utf8'));
     let changed = false;
     const lists = [['sources']];
     (doc.get('updates')?.items ?? []).forEach((_, i) => lists.push(['updates', i, 'sources']));
+    (doc.get('commitments')?.items ?? []).forEach((c, i) => {
+      for (const pair of c.get('grades')?.items ?? []) lists.push(['commitments', i, 'grades', pair.key.value ?? pair.key, 'sources']);
+    });
     for (const listPath of lists) {
       const list = doc.getIn(listPath);
       for (let i = 0; i < (list?.items.length ?? 0); i++) {

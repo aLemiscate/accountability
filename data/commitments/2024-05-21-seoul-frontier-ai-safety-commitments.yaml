@@ -1,0 +1,244 @@
+title: Frontier AI Safety Commitments (AI Seoul Summit)
+date: 2024-05-21
+parties: [openai, anthropic]
+summary: >-
+  Sixteen companies, OpenAI and Anthropic among them, agreed to publish a
+  safety framework focused on severe risks before the AI summit in France and
+  to meet three outcomes through eight numbered commitments (I to VIII). The
+  document also re-affirms the 2023 White House practices; those are graded in
+  their own file and not counted twice here.
+sources:
+  - title: Frontier AI Safety Commitments, AI Seoul Summit 2024
+    publisher: UK Department for Science, Innovation and Technology
+    url: https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024
+    date: 2024-05-21
+    type: primary
+    snapshot: snapshots/2026-09-30-gov.uk-4487a62b
+entries: [2024-05-21-seoul-frontier-safety-commitments, 2024-05-21-anthropic-seoul-commitments]
+commitments:
+  - id: publish-framework
+    section: Preamble
+    text: >-
+      to demonstrate how they have achieved this by publishing a safety
+      framework focused on severe risks by the upcoming AI Summit in
+      France.
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          OpenAI's Preparedness Framework was public from December 2023, before
+          the Paris summit of February 2025, and was revised in April 2025.
+        entries: [2025-04-15-preparedness-framework-v2]
+      anthropic:
+        grade: kept
+        evidence: >-
+          Anthropic's Responsible Scaling Policy was public from September 2023.
+        entries: [2023-09-19-rsp-pause-commitment]
+  - id: explain-changes
+    section: Preamble
+    text: >-
+      In such instances, organisations will provide transparency on this,
+      including their reasons, through public updates.
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          OpenAI published its revised framework in April 2025 with a post
+          explaining the changes, including the new competitor clause.
+        entries: [2025-04-15-preparedness-framework-v2]
+      anthropic:
+        grade: kept
+        evidence: >-
+          Anthropic logged each RSP revision, including v2.2's narrowing of the
+          ASL-3 security standard and v3.3's new bioweapons threshold, published
+          with a redline.
+        entries: [2025-05-14-rsp-v2-2-insider-exclusion, 2026-05-26-rsp-v3-3-bio-threshold, 2026-02-24-rsp-v3-drops-pause]
+  - id: assess-risks
+    section: I
+    text: >-
+      Assess the risks posed by their frontier models or systems across
+      the AI lifecycle, including before deploying that model or system,
+      and, as appropriate, before and during training.
+    grades:
+      openai:
+        grade: eroded
+        evidence: >-
+          OpenAI's system cards report pre-deployment Preparedness evaluations
+          and government testing, but deep research launched on an unreleased
+          o3 before any published assessment, GPT-4.1 shipped with none, and
+          the Financial Times reported testing time cut from months to days.
+        entries:
+          [
+            2025-02-02-deep-research-before-system-card,
+            2025-04-14-gpt-4-1-no-system-card,
+            2025-04-11-safety-testing-time-cut,
+            2024-08-29-aisi-pre-release-testing
+          ]
+      anthropic:
+        grade: kept
+        evidence: >-
+          Anthropic's system cards and risk reports report pre-deployment
+          capability assessments and government testing for its frontier
+          releases. Its Opus 4.6 assessment leaned on a survey of its own staff,
+          a method it disclosed and outsiders criticized.
+        entries: [2024-08-29-anthropic-aisi-pre-release-testing, 2026-02-opus-4-6-ai-rd-survey]
+  - id: thresholds
+    section: II
+    text: >-
+      Set out thresholds [footnote 3] at which severe risks posed by a
+      model or system, unless adequately mitigated, would be deemed
+      intolerable. Assess whether these thresholds have been breached,
+      including monitoring how close a model or system is to such a
+      breach. These thresholds should be defined with input from trusted
+      actors, including organisations’ respective home governments as
+      appropriate.
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          The Preparedness Framework defines High and Critical thresholds by
+          category, with explanations, and system cards report against them.
+          What input governments had is not documented.
+        entries: [2025-04-15-preparedness-framework-v2, 2025-07-17-chatgpt-agent-high-bio]
+      anthropic:
+        grade: kept
+        evidence: >-
+          The RSP defines capability thresholds with explanations, and risk
+          reports assess models against them. Anthropic rewrote the bioweapons
+          threshold in 2026, disclosed with a redline. What input governments
+          had is not documented.
+        entries: [2026-05-26-rsp-v3-3-bio-threshold, 2026-02-opus-4-6-ai-rd-survey]
+  - id: mitigations
+    section: III
+    text: >-
+      Articulate how risk mitigations will be identified and implemented
+      to keep risks within defined thresholds, including safety and
+      security-related risk mitigations such as modifying system
+      behaviours and implementing robust security controls for unreleased
+      model weights.
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          The framework sets out safeguards required at each level, and OpenAI
+          committed that at Critical capability safeguards come first, even
+          during development.
+        entries: [2025-04-15-pf-critical-safeguards, 2025-07-17-chatgpt-agent-high-bio]
+      anthropic:
+        grade: kept
+        evidence: >-
+          The RSP sets out ASL safeguards, first activated for Claude Opus 4.
+          Their implementation had lapses, recorded in their own entries (the
+          11-month classifier gap; the insider exclusion).
+        entries: [2025-05-22-asl-3-protections-activated, 2026-08-14-risk-report-classifier-gap, 2025-05-14-rsp-v2-2-insider-exclusion]
+  - id: stop-line
+    section: IV
+    text: >-
+      Set out explicit processes they intend to follow if their model or
+      system poses risks that meet or exceed the pre-defined thresholds.
+      This includes processes to further develop and deploy their systems
+      and models only if they assess that residual risks would stay below
+      the thresholds. In the extreme, organisations commit not to develop
+      or deploy a model or system at all, if mitigations cannot be applied
+      to keep risks below the thresholds.
+    grades:
+      openai:
+        grade: eroded
+        evidence: >-
+          The 2025 framework lets OpenAI "adjust" its requirements if a rival
+          ships a high-risk system without comparable safeguards, making the
+          stop-line conditional. In August 2026 OpenAI did pause frontier
+          training on its own, citing no rival.
+        entries: [2025-04-15-preparedness-framework-v2, 2024-05-21-seoul-frontier-safety-commitments, 2026-08-18-altman-pause-act-unilaterally]
+      anthropic:
+        grade: eroded
+        evidence: >-
+          RSP v3 replaced the hard commitment to pause training or deployment
+          with goals Anthropic grades itself; v3.1 added that it remains "free
+          to take measures such as pausing," and in June 2026 it said it would
+          pause if other frontier developers did so verifiably.
+        entries: [2026-02-24-rsp-v3-drops-pause, 2024-05-21-anthropic-seoul-commitments]
+  - id: invest
+    section: V
+    text: >-
+      Continually invest in advancing their ability to implement
+      commitments i-iv, including risk assessment and identification,
+      thresholds definition, and mitigation effectiveness.
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          The framework has been revised and new evaluations added; whether the
+          investment is adequate can't be judged from outside.
+        entries: [2025-04-15-preparedness-framework-v2]
+      anthropic:
+        grade: standing
+        evidence: >-
+          The RSP has been revised repeatedly and risk reports added; whether
+          the investment is adequate can't be judged from outside.
+        entries: [2026-02-24-rsp-v3-graded-goals]
+  - id: accountability
+    section: VI
+    text: >-
+      Adhere to the commitments outlined in I-V, including by developing
+      and continuously reviewing internal accountability and governance
+      frameworks and assigning roles, responsibilities and sufficient
+      resources to do so.
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          OpenAI has a board Safety and Security Committee that can delay
+          launches. Whether resources are sufficient can't be checked; its
+          Superalignment compute pledge was broken.
+        entries: [2024-09-16-ssc-independent-oversight, 2023-07-05-superalignment-20-percent-compute]
+      anthropic:
+        grade: standing
+        evidence: >-
+          Under RSP v3 Anthropic publicly grades its own progress against the
+          policy's goals. Whether resources are sufficient can't be checked.
+        entries: [2026-02-24-rsp-v3-graded-goals]
+  - id: public-transparency
+    section: VII
+    text: >-
+      Provide public transparency on the implementation of the above
+      (I-VI), except insofar as doing so would increase risk or divulge
+      sensitive commercial information to a degree disproportionate to the
+      societal benefit.
+    grades:
+      openai:
+        grade: eroded
+        evidence: >-
+          Most major releases have system cards with Preparedness results, but
+          some shipped without them, as recorded under the White House
+          reporting commitment.
+        entries: [2025-04-14-gpt-4-1-no-system-card, 2025-02-02-deep-research-before-system-card]
+      anthropic:
+        grade: kept
+        evidence: >-
+          Anthropic publishes system cards, risk reports and sabotage risk
+          reports, including findings unflattering to itself.
+        entries: [2025-11-24-sabotage-risk-reports-commitment, 2026-08-14-risk-report-classifier-gap]
+  - id: external-involvement
+    section: VIII
+    text: >-
+      Explain how, if at all, external actors, such as governments, civil
+      society, academics, and the public are involved in the process of
+      assessing the risks of their AI models and systems, the adequacy of
+      their safety framework (as described under I-VI), and their
+      adherence to that framework.
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          OpenAI's system cards describe external red-teamers and US and UK
+          government testing, and in 2026 it said independent evaluators would
+          get "employee-like access."
+        entries: [2024-08-29-aisi-pre-release-testing, 2026-09-12-altman-independent-evaluators]
+      anthropic:
+        grade: kept
+        evidence: >-
+          Anthropic describes government pre-release testing and external
+          review in its system cards, and in 2026 committed to embedded
+          third-party evaluators free to publish.
+        entries: [2024-08-29-anthropic-aisi-pre-release-testing, 2026-09-12-pace-the-frontier-embedded-evaluators]

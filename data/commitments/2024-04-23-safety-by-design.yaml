@@ -1,0 +1,338 @@
+title: Safety by Design for Generative AI (child safety principles)
+date: 2024-04-23
+parties: [openai, anthropic]
+summary: >-
+  Principles against AI-generated child sexual abuse material, written by the
+  nonprofits Thorn and All Tech Is Human with the companies that signed them,
+  OpenAI and Anthropic among them. Three principles (develop, deploy,
+  maintain) hold nine sub-principles, each a commitment; the companies also
+  agreed to publish their progress. The texts below are the commitments as
+  printed in Thorn's first annual progress report. A clause on hosting other
+  developers' models is left out: neither company hosts any. Thorn's report
+  relays what each company said and says it did not audit it. Thorn also
+  offered a check of what each company had not yet done; four smaller
+  companies took it, and neither OpenAI nor Anthropic did. So most grades here
+  rest on self-reports, and on system cards where they can be checked.
+sources:
+  - title: >-
+      Thorn and All Tech Is Human Forge Generative AI Principles with AI
+      Leaders to Enact Strong Child Safety Commitments
+    publisher: Thorn
+    url: https://www.thorn.org/blog/generative-ai-principles/
+    date: 2024-04-23
+    type: primary
+    snapshot: snapshots/2026-09-30-thorn.org-37730e77
+  - title: 'Safety by Design for Generative AI: Annual Progress Report (April
+      2024 to April 2025)'
+    publisher: Thorn
+    url: https://info.thorn.org/hubfs/Thorn_SafetyByDesign_AnnualProgressReport_April2024-April2025.pdf
+    date: 2025-10-21
+    type: primary
+    snapshot: snapshots/2026-09-30-info.thorn.org-9fd81e30
+entries: [2024-04-23-safety-by-design-child-safety, 2024-04-23-anthropic-safety-by-design-child-safety]
+commitments:
+  - id: training-data
+    section: 'Develop, sub-principle 1: training datasets'
+    text: >-
+      We are committed to avoiding or mitigating training data with a known
+      risk of containing CSAM and CSEM. We are committed to detecting and
+      removing CSAM and CSEM from our training data, and reporting any
+      confirmed CSAM to the relevant authorities.
+    grades:
+      openai:
+        grade: unknown
+        evidence: >-
+          OpenAI told Thorn it "takes steps to remove CSAM and other harmful
+          content from training data." Training data isn't public, and the
+          claim wasn't audited.
+        entries: [2024-04-23-safety-by-design-child-safety]
+      anthropic:
+        grade: unknown
+        evidence: >-
+          Anthropic told Thorn it was "in the process of adopting
+          interventions" to keep such material out of its training data, and
+          was still setting up hash-matching against industry lists of known
+          material, in a report covering the year to March 2025. Whether that
+          work was finished isn't public.
+        entries: [2024-04-23-anthropic-safety-by-design-child-safety]
+  - id: stress-testing
+    section: 'Develop, sub-principle 2: stress testing'
+    text: >-
+      We are committed to conducting structured, scalable and consistent
+      stress testing of our models throughout the development process for
+      their capability to produce AIG-CSAM and CSEM within the bounds of law,
+      and integrating these findings back into model training and development
+      to improve safety assurance for our generative AI products and systems.
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          OpenAI's system cards publish pre-release results on a
+          "sexual/minors" category of disallowed content, as recently as the
+          GPT-6 Astra card of September 2026. It told Thorn its testing covers its image,
+          video, audio and text models.
+        sources:
+          - title: GPT-5.1 Instant and GPT-5.1 Thinking System Card Addendum (PDF)
+            publisher: OpenAI
+            url: https://cdn.openai.com/pdf/4173ec8d-1229-47db-96de-06d87147e07e/5_1_system_card.pdf
+            date: 2025-11-12
+            type: primary
+            snapshot: snapshots/2026-09-30-cdn.openai.com-397b6560
+          - title: GPT-6 Astra System Card
+            publisher: OpenAI Deployment Safety Hub
+            url: https://deploymentsafety.openai.com/gpt-6-astra
+            date: 2026-09-03
+            type: primary
+            snapshot: snapshots/2026-09-30-deploymentsafety.openai.com-d170283d
+      anthropic:
+        grade: kept
+        evidence: >-
+          Anthropic's system cards have a child safety evaluation section,
+          designed in consultation with outside child safety experts and run
+          on the final model before release (Claude Opus 4.5 and 4.6). It told Thorn all its
+          models were stress-tested.
+        sources:
+          - title: 'System Card: Claude Opus 4.5 (PDF), section 3.4'
+            publisher: Anthropic
+            url: https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf
+            date: 2025-11-24
+            type: primary
+            snapshot: snapshots/2026-09-30-assets.anthropic.com-c5a73309
+          - title: 'System Card: Claude Opus 4.6'
+            publisher: Anthropic
+            url: https://www-cdn.anthropic.com/14e4fb01875d2a69f646fa5e574dea2b1c0ff7b5.pdf
+            date: 2026-02
+            type: primary
+            snapshot: snapshots/2026-10-03-www-cdn.anthropic.com-c3666ffe
+  - id: provenance
+    section: 'Develop, sub-principle 3: content provenance'
+    text: >-
+      We are committed to developing state of the art media provenance or
+      detection solutions for our tools that generate images and videos. We
+      are committed to deploying solutions to address adversarial misuse, such
+      as considering incorporating watermarking or other techniques that embed
+      signals imperceptibly in the content as part of the image and video
+      generation process, as technically feasible.
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          OpenAI told Thorn it adds C2PA provenance metadata to all generated
+          assets and has internal tooling to tell whether an image came from
+          its products. Thorn notes that C2PA metadata can be stripped; OpenAI
+          said work on making provenance hold up against misuse was
+          continuing.
+        sources:
+          - title: 'Safety by Design for Generative AI: Annual Progress Report (April
+              2024 to April 2025)'
+            publisher: Thorn
+            url: https://info.thorn.org/hubfs/Thorn_SafetyByDesign_AnnualProgressReport_April2024-April2025.pdf
+            date: 2025-10-21
+            type: primary
+            snapshot: snapshots/2026-09-30-info.thorn.org-9fd81e30
+      anthropic:
+        grade: standing
+        evidence: >-
+          Nothing in scope: Claude doesn't generate images or video.
+  - id: safeguard-products
+    section: 'Deploy, sub-principle 1: safeguard products'
+    text: >-
+      We are committed to combating and responding to abusive content (CSAM,
+      AIG-CSAM and CSEM) throughout our generative AI systems, and
+      incorporating prevention efforts. Our users’ voices are key, and we are
+      committed to incorporating user reporting or feedback options to
+      empower these users to build freely on our platforms.
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          OpenAI told Thorn it scans image and video uploads with Thorn's
+          classifiers, has people review every flagged image and video,
+          reports to NCMEC, bans violators and runs a public reporting form. It gave no
+          figures. In February 2026 the Wall Street Journal reported that its
+          fired product policy head had told colleagues these safeguards
+          weren't strong enough; OpenAI said her departure was unrelated.
+        entries: [2025-10-14-chatgpt-erotica-announced]
+      anthropic:
+        grade: standing
+        evidence: >-
+          Anthropic told Thorn it hash-matches uploads against known material,
+          runs classifiers on prompts and outputs, gives prevention messages
+          and has reporting flows. It reported 859 instances detected at
+          inputs and 859 reports to NCMEC since joining. None of this was
+          audited.
+  - id: responsible-hosting
+    section: 'Deploy, sub-principle 2: responsibly host models'
+    text: >-
+      We are committed to responsible hosting of our first party generative
+      models, assessing them e.g. via red teaming or phased deployment for
+      their potential to generate AIG-CSAM and CSEM, and implementing
+      mitigations before hosting.
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          Pre-release results for the "sexual/minors" category appear in
+          OpenAI's system cards (see stress testing). Under this heading OpenAI
+          told Thorn only that it hosts no third-party models.
+        sources:
+          - title: GPT-6 Astra System Card
+            publisher: OpenAI Deployment Safety Hub
+            url: https://deploymentsafety.openai.com/gpt-6-astra
+            date: 2026-09-03
+            type: primary
+            snapshot: snapshots/2026-09-30-deploymentsafety.openai.com-d170283d
+      anthropic:
+        grade: kept
+        evidence: >-
+          Anthropic's system cards report child safety evaluations run on the
+          final model before release (see stress testing), and it told Thorn
+          it deploys in phases: employees, then select customers, then general
+          availability.
+        sources:
+          - title: 'System Card: Claude Opus 4.5 (PDF), section 3.4'
+            publisher: Anthropic
+            url: https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf
+            date: 2025-11-24
+            type: primary
+            snapshot: snapshots/2026-09-30-assets.anthropic.com-c5a73309
+          - title: 'System Card: Claude Opus 4.6'
+            publisher: Anthropic
+            url: https://www-cdn.anthropic.com/14e4fb01875d2a69f646fa5e574dea2b1c0ff7b5.pdf
+            date: 2026-02
+            type: primary
+            snapshot: snapshots/2026-10-03-www-cdn.anthropic.com-c3666ffe
+  - id: developer-ownership
+    section: 'Deploy, sub-principle 3: developer ownership'
+    text: >-
+      We will endeavor to provide information about our models, including a
+      child safety section detailing steps taken to avoid the downstream
+      misuse of the model to further sexual harms against children. We are
+      committed to supporting the developer ecosystem in their efforts to
+      address child safety risks.
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          The four OpenAI system cards checked (GPT-5.1, ChatGPT agent, deep
+          research, GPT-6 Astra) report a "sexual/minors" score or mention
+          monitoring for child safety, but none has a section on steps taken
+          against this misuse. Its Sora card, which Thorn cites for a
+          classifier that detects minors, wasn't checked. Under
+          this heading OpenAI told Thorn only that it "encourages developer
+          ownership in safety by design through close collaboration and
+          communication with its product team." The commitment is to
+          "endeavor," so this is a gap, not a breach.
+      anthropic:
+        grade: kept
+        evidence: >-
+          Anthropic added a child safety section to its system cards, as it
+          told Thorn, and it is there in the Claude Opus 4.5 and 4.6 cards.
+        sources:
+          - title: 'System Card: Claude Opus 4.5 (PDF), section 3.4'
+            publisher: Anthropic
+            url: https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf
+            date: 2025-11-24
+            type: primary
+            snapshot: snapshots/2026-09-30-assets.anthropic.com-c5a73309
+          - title: 'System Card: Claude Opus 4.6'
+            publisher: Anthropic
+            url: https://www-cdn.anthropic.com/14e4fb01875d2a69f646fa5e574dea2b1c0ff7b5.pdf
+            date: 2026-02
+            type: primary
+            snapshot: snapshots/2026-10-03-www-cdn.anthropic.com-c3666ffe
+  - id: harmful-tools
+    section: 'Maintain, sub-principle 1: prevent scaling access to harmful tools'
+    text: >-
+      We are committed to removing from our platforms and search results these
+      models and services.
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          OpenAI told Thorn that ChatGPT search uses the Internet Watch
+          Foundation's list of known abuse URLs and block lists for
+          "nudify" sites. Not audited.
+      anthropic:
+        grade: unknown
+        evidence: >-
+          Anthropic told Thorn it "did not offer search functionality during
+          this reporting period," but Claude's web search launched in preview
+          for paid US users on March 20, 2025, inside the year the report
+          covers. What Claude's search does to keep out abuse sites isn't
+          public.
+        entries: [2024-04-23-anthropic-safety-by-design-child-safety]
+        sources:
+          - title: Claude can now search the web
+            publisher: Anthropic
+            url: https://www.anthropic.com/news/web-search
+            date: 2025-03-20
+            type: primary
+  - id: research
+    section: 'Maintain, sub-principle 2: research and technology'
+    text: >-
+      We are committed to investing in relevant research and technology
+      development to address the use of generative AI for online child sexual
+      abuse and exploitation. We will continuously seek to understand how our
+      platforms, products and models are potentially being abused by bad
+      actors. We are committed to maintaining the quality of our mitigations
+      to meet and overcome the new avenues of misuse that may materialize.
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          OpenAI told Thorn about in-house detection work, monitoring of open
+          sources and the dark web, and joining the Tech Coalition's Lantern
+          signal-sharing program. Google's section names OpenAI as a partner
+          in the ROOST safety-tools project. Whether the investment is enough
+          can't be judged from outside.
+      anthropic:
+        grade: standing
+        evidence: >-
+          Anthropic told Thorn about its classifiers, an outside monitoring
+          vendor and in-house abuse monitoring, and cited its alignment and
+          societal impacts research. Whether the investment is enough can't be
+          judged from outside.
+  - id: fight-csam
+    section: 'Maintain, sub-principle 3: fight CSAM on platforms'
+    text: >-
+      We are committed to detecting and removing child safety violative
+      content on our platforms. We are committed to disallowing and combating
+      CSAM, AIG-CSAM and CSEM on our platforms, and combating fraudulent uses
+      of generative AI to sexually harm children.
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          OpenAI told Thorn its safeguards cover all its products and that it
+          belongs to the Tech Coalition and the Beneficial AI for Children
+          Coalition. Same caveats as for safeguarding products, including the
+          Wall Street Journal report.
+        entries: [2025-10-14-chatgpt-erotica-announced]
+      anthropic:
+        grade: standing
+        evidence: >-
+          Anthropic told Thorn its safeguards cover all its own products and
+          that, where it can tell, its manual reports to NCMEC carry the label
+          for AI-generated material. Not audited.
+  - id: publish-progress
+    section: Reporting
+    text: >-
+      As part of their commitment to the principles, the companies have also
+      agreed to transparently publish and share documentation of their
+      progress acting on the principles.
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          OpenAI answered Thorn's survey for the first annual report,
+          published in October 2025. A second annual report hadn't been found
+          when this was checked on Oct. 6, 2026.
+        entries: [2024-04-23-safety-by-design-child-safety]
+      anthropic:
+        grade: kept
+        evidence: >-
+          Anthropic answered Thorn's survey for the first annual report and
+          published its own report on its Transparency Hub. A second annual
+          report hadn't been found when this was checked on Oct. 6, 2026.
+        entries: [2024-04-23-anthropic-safety-by-design-child-safety]
