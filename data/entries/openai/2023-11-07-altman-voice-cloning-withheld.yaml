@@ -1,0 +1,69 @@
+title: 'Altman: OpenAI held back voice cloning and "shouldn''t release this until
+  we can figure out safeguards for it"'
+date: 2023-11-07
+org: openai
+type: said
+kind: commitment
+who: [sam-altman]
+venue: Commonwealth Club of California event with Joy Buolamwini, San Francisco
+quote: >-
+  Shouldn't release this until we can figure out safeguards for it.
+summary: >-
+  Asked how artists' and voice actors' consent might be honored, Altman said
+  OpenAI had built a system that could take "a 15 second, 30 second sample of
+  anyone's voice and make a super convincing AI voice that sounds just like
+  you," and had "decided not to release it." He said open-source cloning tools
+  would arrive soon, "but that still doesn't mean we're" going to do it, and
+  that companies like OpenAI would build some things and say they "shouldn't
+  release this until we can figure out safeguards for it." (Quoted from the
+  audio of the Commonwealth Club of California Podcast, about 24:34 to 25:28.)
+concreteness: conditional
+status: kept
+breaks_if: >-
+  OpenAI makes voice cloning available without a consent check from the person
+  whose voice is copied, or opens it to self-serve or consumer users without
+  equivalent safeguards.
+patterns: []
+sources:
+  - title: 'Dr. Joy Buolamwini and Sam Altman: Unmasking the Future of AI'
+    publisher: Commonwealth Club of California Podcast
+    url: https://www.commonwealthclub.org/events/2023-11-07/joy-buolamwini-and-sam-altman-unmasking-future-ai
+    date: 2023-12-13
+    type: primary
+updates:
+  - date: 2025-03-06
+    text: >-
+      TechCrunch reported that OpenAI had announced a "small-scale preview" of
+      Voice Engine in March 2024 and that, a year later, "the tool remains in
+      preview, and OpenAI has given no indication as to when it might launch."
+      A spokesperson said the company was still testing it with a limited set
+      of "trusted partners."
+    sources:
+      - title: A year later, OpenAI still hasn't released its voice cloning tool
+        publisher: TechCrunch
+        url: https://techcrunch.com/2025/03/06/a-year-later-openai-still-hasnt-released-its-voice-cloning-tool/
+        date: 2025-03-06
+        type: reporting
+  - date: 2025-12-15
+    text: >-
+      OpenAI's API changelog for new audio snapshots said: "This launch also
+      includes support for Custom voices for eligible customers." OpenAI's guide
+      says custom voices are built from "a short sample audio reference" of 30
+      seconds or less, are "limited to eligible customers," and require a
+      separate "consent recording" in which the voice actor reads a fixed
+      consent phrase; "Any divergence from the script will lead to a failure."
+      OpenAI's Python library added custom voice creation on Oct. 2, 2026.
+    sources:
+      - title: Changelog | OpenAI API
+        publisher: OpenAI
+        url: https://developers.openai.com/api/docs/changelog
+        type: primary
+      - title: Custom voices | OpenAI API
+        publisher: OpenAI
+        url: https://developers.openai.com/api/docs/guides/custom-voices
+        type: primary
+note: >-
+  Marked kept on its own terms: OpenAI held the capability back for about two
+  years, then shipped it only to eligible business customers behind a scripted
+  consent recording, the kind of safeguard Altman described. Whether the consent
+  check stops misuse can't be verified from outside.
