@@ -100,6 +100,25 @@ updates:
         url: https://podcasts.apple.com/us/podcast/anthropic-thinks-ai-might-destroy-the-economy-its/id1594471023?i=1000757684696
         date: 2026-03-27
         type: primary
+  - date: 2026-06-04
+    text: >-
+      An Anthropic Institute report gave a measured figure: "As of May 2026,
+      more than 80% of the code we merge into Anthropic's codebase was authored
+      by Claude." It noted that "Anthropic leadership have publicly estimated
+      that 90% or more of our code is written by Claude, including scripts and
+      experimental code," and called its own share of lines merged to
+      production "a more conservative measurement."
+    sources:
+      - title: When AI builds itself
+        publisher: Anthropic
+        url: https://www.anthropic.com/institute/recursive-self-improvement
+        type: primary
+      - title: AI Is Already Developing AI, Says Anthropic—And Humans May Be Slowing
+          Things Down
+        publisher: Decrypt
+        url: https://decrypt.co/370089/ai-already-developing-ai-anthropic-humans-slowing-things-down
+        date: 2026-06-04
+        type: reporting
 note: >-
   Due within months. The 90% prediction is the warning sign: it was later
   described as roughly met inside Anthropic, under a looser reading than the
