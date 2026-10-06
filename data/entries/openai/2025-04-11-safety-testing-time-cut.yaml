@@ -47,6 +47,11 @@ sources:
     url: https://lexfridman.com/sam-altman/
     date: 2023-03-25
     type: primary
+  - title: 'The Disruptors: Sam Altman and Brian Chesky'
+    publisher: Aspen Ideas to Go
+    url: https://aspenideas.org/podcasts/the-disruptors-sam-altman-and-brian-chesky
+    date: 2024-10-10
+    type: primary
 response: >-
   OpenAI said its testing had become more efficient through automation, that
   the checkpoints it tested were "basically identical" to the final releases,
@@ -59,4 +64,9 @@ note: >-
   hold up under pressure from Google, Apple and Meta, Altman told Lex Fridman:
   "I'm sure people will get ahead of us in all sorts of ways and take shortcuts
   we're not going to take. And we just aren't going to do that." (Quoted from
-  the audio at 1:15:50; the podcast has no published transcript.)
+  the audio at 1:15:50; the podcast has no published transcript.) At the Aspen
+  Ideas Festival in June 2024 he was more specific: "With GPT-4, for example, we
+  had about eight months between when we finished training, when we released
+  it, including lots of external consultation and red teaming. Future models
+  may take even longer." (Quoted from the audio of the Aspen Ideas to Go
+  episode, about 31:26.)
