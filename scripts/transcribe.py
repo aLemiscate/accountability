@@ -3,10 +3,12 @@
 
 A queue is a TSV in inbox/spoken/queue/ with the columns
 
-    shard  id  kind  url  lang
+    shard  id  kind  url  lang  [clip]
 
 kind is "audio" (a direct media URL, such as a podcast enclosure) or
-"video" (a page yt-dlp can read). lang is "en" or "auto". Each job
+"video" (a page yt-dlp can read). lang is "en" or "auto". The optional clip
+column ("HH:MM:SS-HH:MM:SS") transcribes only that stretch, for a guest
+segment inside a long show; timestamps stay on the episode's clock. Each job
 transcribes the rows of one shard with faster-whisper and writes
 <id>.txt: a short header, then one "[HH:MM:SS] text" line per segment.
 A row that fails writes <id>.error instead, so a rerun can pick it up.
@@ -45,6 +47,13 @@ def fetch(kind, url, dest):
     return path
 
 
+def seconds(hms):
+    total = 0
+    for part in hms.strip().split(':'):
+        total = total * 60 + int(part)
+    return total
+
+
 def stamp(sec):
     sec = int(sec)
     return f'{sec // 3600:02d}:{sec % 3600 // 60:02d}:{sec % 60:02d}'
@@ -77,12 +86,17 @@ def main():
         try:
             audio = fetch(r['kind'], r['url'], os.path.join('/tmp', rid))
             lang = None if r['lang'] == 'auto' else r['lang']
-            segments, info = model_for(r['lang']).transcribe(audio, language=lang, vad_filter=True, beam_size=5,
-                                                             initial_prompt=PROMPT)
+            clip = (r.get('clip') or '').strip()
+            opts = {'vad_filter': True}
+            if clip:  # faster-whisper ignores the VAD filter when given clip timestamps
+                opts = {'vad_filter': False, 'clip_timestamps': [seconds(t) for t in clip.split('-')]}
+            segments, info = model_for(r['lang']).transcribe(audio, language=lang, beam_size=5,
+                                                             initial_prompt=PROMPT, **opts)
             lines = [f'[{stamp(s.start)}] {s.text.strip()}' for s in segments]
             with open(os.path.join(args.out, rid + '.txt'), 'w') as f:
                 f.write(f'# id: {rid}\n# source: {r["url"]}\n# transcript: machine (faster-whisper {model_name(r["lang"])}, language {info.language})\n')
-                f.write(f'# audio duration: {stamp(info.duration)}\n\n')
+                f.write(f'# audio duration: {stamp(info.duration)}\n')
+                f.write(f'# clip: {clip}\n\n' if clip else '\n')
                 f.write('\n'.join(lines) + '\n')
             os.remove(audio)
             print(f'{rid}: {len(lines)} segments, {stamp(info.duration)} audio in {int(time.time() - start)}s', flush=True)

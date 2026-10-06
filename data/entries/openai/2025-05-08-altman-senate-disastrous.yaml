@@ -34,6 +34,24 @@ sources:
     type: primary
     archive: https://web.archive.org/web/20260929220130/https://www.techpolicy.press/transcript-sam-altman-testifies-at-us-senate-hearing-on-ai-competitiveness/
     snapshot: snapshots/2026-09-29-techpolicy.press-a6b740bf
+updates:
+  - date: 2026-09-01
+    text: >-
+      Asked about this remark and about his objection to the government gating
+      GPT-5.6's rollout, Altman said: "I think government testing of a model and
+      shared standards is a super good idea." He said what he had pushed back
+      on was the government "picking individual customers of who's allowed to
+      use a model," and added that "we would decide not to ship a model before
+      they would tell us not to." The 2025 question had been about "a heavy
+      handed prior approval government regulatory process for AI." (Quoted from
+      the audio of Sources with Alex Heath, about 48:21 to 48:35 and 49:51 to
+      49:55.)
+    sources:
+      - title: Sam Altman on OpenAI’s next model and the AI backlash
+        publisher: Sources with Alex Heath
+        url: https://sources.news/p/sam-altman-on-openais-next-model
+        date: 2026-09-01
+        type: primary
 note: >-
   In 2023, licensing was his number-one recommendation. By 2025, pre-approval,
   the core of licensing, was "disastrous." In the same hearing he said he did
