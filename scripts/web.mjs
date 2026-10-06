@@ -57,6 +57,32 @@ export function normalizeText(s) {
     .join('\n');
 }
 
+// Credential formats GitHub push protection blocks. A page about a leak can
+// print a live key; a snapshot keeps the page's text with the key masked.
+const CREDENTIALS = [
+  /\b[ps]k\.eyJ[A-Za-z0-9_-]{10,}\.[A-Za-z0-9_-]{10,}/g, // Mapbox
+  /\brubygems_[0-9a-f]{48}\b/g,
+  /\bgh[pousr]_[A-Za-z0-9]{36,}\b/g,
+  /\bgithub_pat_[A-Za-z0-9_]{60,}/g,
+  /\bnpm_[A-Za-z0-9]{36}\b/g,
+  /\bpypi-AgE[A-Za-z0-9_-]{50,}/g,
+  /\b(?:AKIA|ASIA)[0-9A-Z]{16}\b/g,
+  /\bAIza[0-9A-Za-z_-]{35}/g,
+  /\bxox[abprs]-[A-Za-z0-9-]{10,}/g,
+  /\bsk-(?:ant-|proj-)?[A-Za-z0-9_-]{32,}/g,
+  /\b[rs]k_live_[A-Za-z0-9]{20,}/g,
+];
+
+/** Mask credentials in text. Returns the masked text and how many were found. */
+export function redactCredentials(text) {
+  let count = 0;
+  let out = String(text);
+  for (const re of CREDENTIALS) out = out.replace(re, () => { count++; return '[credential removed]'; });
+  return { text: out, count };
+}
+
+export const hasCredential = (text) => redactCredentials(text).count > 0;
+
 export function pageTitle(html) {
   const m = /<title[^>]*>([\s\S]*?)<\/title>/i.exec(String(html));
   return m ? decodeEntities(m[1]).replace(/\s+/g, ' ').trim() : null;

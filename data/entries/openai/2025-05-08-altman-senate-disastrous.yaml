@@ -5,6 +5,7 @@ type: did
 kind: reversal
 who: [ sam-altman ]
 venue: Testimony, U.S. Senate Commerce Committee hearing on AI competitiveness
+quote: I think that would be disastrous.
 summary: >-
   Altman repeatedly pushed back on specific calls for regulation and said that
   requiring government approval before releasing AI systems would be
@@ -13,6 +14,12 @@ summary: >-
 contradicts: [ 2023-05-16-altman-senate-licensing-agency ]
 patterns: [ regulate-us-not-like-that ]
 sources:
+  - title: 'S. Hrg. 119-143, Winning the AI Race: Strengthening U.S. Capabilities in
+      Computing and Innovation'
+    publisher: U.S. Government Publishing Office
+    url: https://www.govinfo.gov/content/pkg/CHRG-119shrg61426/html/CHRG-119shrg61426.htm
+    date: 2025-05-08
+    type: primary
   - title: OpenAI CEO Sam Altman's Senate testimony shows industry shift on regulation
     publisher: The Washington Post
     url: https://www.washingtonpost.com/technology/2025/05/08/altman-congress-openai-regulation/
@@ -29,4 +36,5 @@ sources:
     snapshot: snapshots/2026-09-29-techpolicy.press-a6b740bf
 note: >-
   In 2023, licensing was his number-one recommendation. By 2025, pre-approval,
-  the core of licensing, was "disastrous."
+  the core of licensing, was "disastrous." In the same hearing he said he did
+  not think self-regulation was enough: "No. I think some policy is good."
