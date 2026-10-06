@@ -239,6 +239,21 @@ updates:
         date: 2026-09-27
         type: reporting
         snapshot: snapshots/2026-09-30-cybernews.com-b925b683
+  - date: 2026-10-05
+    text: >-
+      Asked by Politico whether there were rogue-model incidents that had not
+      yet become public, Altman said: "We are in the process of disclosing more
+      incidents. There's nothing else I'm aware of at that level of severity.
+      But we have more things to disclose." He said there would need to be "a
+      liability framework for companies that are offering models like this,"
+      including for what goes wrong during training. (Quoted from the audio of
+      The Decoded Podcast, about 11:50 to 12:00 and 15:18 to 15:36.)
+    sources:
+      - title: Sam Altman on rogue AI, Anthropic, and getting money out of politics
+        publisher: The Decoded Podcast
+        url: https://podcasts.apple.com/us/podcast/sam-altman-on-rogue-ai-anthropic-and-getting-money/id1500970749?i=1000793231520
+        date: 2026-10-05
+        type: primary
 note: >-
   This is not a broken promise. It's the event that changed the industry's
   rhetoric: within eight weeks both CEOs were calling for a slowdown. It belongs
