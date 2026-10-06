@@ -72,6 +72,24 @@ sources:
     type: primary
     snapshot: snapshots/2026-09-30-x.com-c8aa730d
 updates:
+  - date: 2026-09-12
+    text: >-
+      In a Fortune interview, Altman said: "I do not think we should train
+      models where we cannot make a safety case for why we will be able to make
+      strong statements about their controllability and alignment." He called
+      it "unacceptable to be taking like a 10 percent chance of killing
+      everybody by the end of the decade," and on the cost of pausing said: "if
+      you're like, oh, OpenAI is not going to pause because they're worried
+      about it costing their business money, you very deeply misunderstand us."
+      (Quoted from the audio of Fortune 500: Titans and Disruptors of Industry,
+      about 3:10, 10:58 and 32:39.)
+    sources:
+      - title: 'Sam Altman: AI Beyond Human Control “Absolutely Possible” | Titans
+          and Disruptors'
+        publisher: 'Fortune 500: Titans and Disruptors of Industry'
+        url: https://podcasts.apple.com/us/podcast/sam-altman-ai-beyond-human-control-absolutely-possible/id1836231455?i=1000789192925
+        date: 2026-09-12
+        type: primary
   - date: 2026-09-14
     text: >-
       After Dario Amodei's essay calling for the industry to "pace the
