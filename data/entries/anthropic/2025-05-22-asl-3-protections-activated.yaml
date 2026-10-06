@@ -28,8 +28,17 @@ sources:
     date: 2025-05-22
     type: primary
     snapshot: snapshots/2026-09-29-anthropic.com-7512ddb5
+  - title: 'S. Hrg. 118-108, Oversight of A.I.: Principles for Regulation'
+    publisher: U.S. Government Publishing Office
+    url: https://www.govinfo.gov/content/pkg/CHRG-118shrg53503/html/CHRG-118shrg53503.htm
+    date: 2023-07-25
+    type: primary
 note: >-
   Switching on a higher safety tier before the risk was confirmed was a real
-  precaution, and it deserves credit. Anthropic's own August 2026 Risk Report
+  precaution, and it deserves credit. It also came inside the window Amodei
+  gave the Senate in July 2023, when he said "a straightforward extrapolation
+  of today's systems to those we expect to see in 2 to 3 years suggests a
+  substantial risk that AI systems will be able to fill in all the missing
+  pieces" for biological attacks. Anthropic's own August 2026 Risk Report
   later showed the classifiers weren't running on one large access route for the
   next eleven months.

@@ -13,6 +13,12 @@ concreteness: directional
 status: reversed
 patterns: [mission-to-market, principles-with-a-price]
 sources:
+  - title: 'S. Hrg. 118-37, Oversight of A.I.: Rules for Artificial Intelligence
+      (hearing transcript)'
+    publisher: U.S. Government Publishing Office
+    url: https://www.govinfo.gov/content/pkg/CHRG-118shrg52706/html/CHRG-118shrg52706.htm
+    date: 2023-05-16
+    type: primary
   - title: Ads might be coming to ChatGPT — despite Sam Altman not being a fan
     publisher: TechCrunch
     url: https://techcrunch.com/2024/12/02/ads-might-be-coming-to-chatgpt-despite-sam-altman-not-being-a-fan/
@@ -54,3 +60,8 @@ updates:
         type: primary
         archive: https://web.archive.org/web/20260131191110/https://x.com/nickaturley/status/1997120491589349440
         snapshot: snapshots/2026-09-29-x.com-72641130
+note: >-
+  Altman never ruled ads out. Asked at his May 2023 Senate hearing whether
+  OpenAI would ever run ads, he said: "I wouldn't say never," adding, "I really
+  like having a subscription-based model." The same day he told the committee
+  OpenAI was "not an advertising-based model."

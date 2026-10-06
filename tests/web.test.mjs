@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { htmlToText, isBlueskyUrl, isXUrl, pageTitle, parseTweetEmbed } from '../scripts/web.mjs';
+import { hasCredential, htmlToText, isBlueskyUrl, isXUrl, pageTitle, parseTweetEmbed, redactCredentials } from '../scripts/web.mjs';
 
 test('parses the text, author and date out of an X oEmbed snippet', () => {
   const html = '<blockquote class="twitter-tweet"><p lang="en" dir="ltr">But over the past years, safety culture and processes have taken a backseat to shiny products.</p>&mdash; Jan Leike (@janleike) <a href="https://twitter.com/janleike/status/1791498184671605209?ref_src=twsrc%5Etfw">May 17, 2024</a></blockquote>\n';
@@ -26,4 +26,15 @@ test('extracts readable text and drops scripts and styles', () => {
 test('list items with attributes do not leak markup into the text', () => {
   const html = '<main><ul><li class="menu-item" data-text="Markets">Markets</li><li id="footnote-1">A footnote.</li></ul></main>';
   assert.equal(htmlToText(html), '• Markets\n• A footnote.');
+});
+
+test('masks credentials so a snapshot can be committed', () => {
+  // Built at runtime so this file holds no credential-shaped string itself.
+  const key = 'rubygems_' + 'ab12'.repeat(12);
+  const mapbox = 'pk.' + 'eyJ' + 'u'.repeat(20) + '.' + 'v'.repeat(20);
+  const { text, count } = redactCredentials(`leaked key ${key} and ${mapbox} here`);
+  assert.equal(count, 2);
+  assert.equal(text, 'leaked key [credential removed] and [credential removed] here');
+  assert.ok(hasCredential(key));
+  assert.ok(!hasCredential('rubygems_ is a prefix, and sk-learn is a library'));
 });

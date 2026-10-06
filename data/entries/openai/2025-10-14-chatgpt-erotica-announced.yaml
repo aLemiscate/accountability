@@ -33,6 +33,18 @@ sources:
     type: reporting
     archive: https://web.archive.org/web/20260328090634/https://www.axios.com/2025/10/14/openai-chatgpt-erotica-mental-health
     snapshot: snapshots/2026-09-29-axios.com-e5f1ffb5
+  - title: 'S. Hrg. 119-143, Winning the AI Race: Strengthening U.S. Capabilities in
+      Computing and Innovation'
+    publisher: U.S. Government Publishing Office
+    url: https://www.govinfo.gov/content/pkg/CHRG-119shrg61426/html/CHRG-119shrg61426.htm
+    date: 2025-05-08
+    type: primary
+  - title: 'S. Hrg. 118-37, Oversight of A.I.: Rules for Artificial Intelligence
+      (hearing transcript)'
+    publisher: U.S. Government Publishing Office
+    url: https://www.govinfo.gov/content/pkg/CHRG-118shrg52706/html/CHRG-118shrg52706.htm
+    date: 2023-05-16
+    type: primary
 response: >-
   OpenAI said it had mitigated serious mental-health issues and built new tools,
   so it could safely relax restrictions in most cases.
@@ -99,4 +111,9 @@ updates:
         snapshot: snapshots/2026-10-01-thurrott.com-a3398be2
 note: >-
   The stated principle flipped in two months. The product hadn't shipped as of
-  the last update, but the reversal of the stated principle is the receipt.
+  the last update, but the reversal of the stated principle is the receipt. The
+  "adults like adults" idea itself was not new: in May 2025 Senate testimony
+  Altman said "we want to treat our adult users like adults" and that if OpenAI
+  could tell adults from children "we would allow adults to be much more
+  permissive." In 2023 he had told senators OpenAI refused all adult content
+  because it could not "reliably enough differentiate" what came with it.

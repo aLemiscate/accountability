@@ -30,16 +30,13 @@ import YAML from 'yaml';
 import { ROOT, loadAll } from './lib.mjs';
 import { snowflakeDate, xStatusId } from './social.mjs';
 import {
-  closeBrowser, fetchBlueskyPost, fetchWithTimeout, fetchXPost, fetchXPostDetails, htmlToText, isBlueskyUrl, isXUrl,
-  pageTitle, renderPage, sha256, sleep, waybackClosest, waybackSave,
+  closeBrowser, fetchBlueskyPost, fetchWithTimeout, fetchXPost, fetchXPostDetails, hasCredential, htmlToText, isBlueskyUrl,
+  isXUrl, pageTitle, redactCredentials, renderPage, sha256, sleep, waybackClosest, waybackSave,
 } from './web.mjs';
 
 const VALUE_OPTS = new Set(['entry', 'title', 'type', 'limit', 'match']);
 // Documents larger than this are not stored in snapshots/ (their text and hash are).
 const MAX_DOCUMENT_BYTES = 10 * 1024 * 1024;
-// Some pages embed a third-party API key in their HTML (LessWrong's Mapbox
-// token, for one). GitHub push protection rejects any commit that contains one.
-const EMBEDDED_TOKEN = /\b[ps]k\.eyJ[A-Za-z0-9_-]{10,}\.[A-Za-z0-9_-]{10,}/;
 const opts = {};
 const positional = [];
 for (let i = 2; i < process.argv.length; i++) {
@@ -104,6 +101,17 @@ async function snapshot(url, { doArchive = true, doShot = true } = {}) {
   await mkdir(dir, { recursive: true });
   const meta = { url, captured_at: new Date().toISOString(), tool: 'said-did capture', files: {} };
   const save = async (name, data) => {
+    // GitHub push protection rejects any commit with a credential in it. Some
+    // pages carry one (LessWrong embeds a Mapbox token; a page about a leak can
+    // print the leaked key), so text is saved with credentials masked.
+    if (typeof data === 'string') {
+      const { text, count } = redactCredentials(data);
+      if (count) {
+        data = text;
+        meta.redacted = { ...meta.redacted, [name]: count };
+        console.log(`  masked    ${count} credential(s) in ${name}`);
+      }
+    }
     await writeFile(path.join(dir, name), data);
     meta.files[name] = sha256(typeof data === 'string' ? Buffer.from(data) : data);
   };
@@ -120,10 +128,10 @@ async function snapshot(url, { doArchive = true, doShot = true } = {}) {
       console.warn(`  fetch returned HTTP ${res.status}; page not saved${res.status === 404 || res.status === 410 ? ' (it may have been deleted)' : ''}`);
     } else if (/html|xml|text/.test(meta.content_type || '')) {
       const html = body.toString('utf8');
-      if (EMBEDDED_TOKEN.test(html)) {
+      if (hasCredential(html)) {
         // Keep the page's hash and text, not the raw HTML with the key in it.
-        meta.omitted = { file: 'page.html', bytes: body.length, sha256: sha256(body), reason: 'the page embeds a third-party API token that GitHub push protection blocks; page.txt holds its text' };
-        console.log('  omitted   page.html (embeds a third-party API token); kept its text and hash');
+        meta.omitted = { file: 'page.html', bytes: body.length, sha256: sha256(body), reason: 'the page contains a credential that GitHub push protection blocks; page.txt holds its text with the credential masked' };
+        console.log('  omitted   page.html (contains a credential); kept its text and hash');
       } else {
         await save('page.html', body);
       }
