@@ -18,8 +18,8 @@ summary: >-
   Intelligence and Law published a re-analysis by Eric Martínez finding that the
   near-90th-percentile figure came from conversions based on February
   administrations of the Illinois bar exam, which are heavily weighted toward
-  repeat takers who failed in July. Against all test takers GPT-4 was below the
-  69th percentile; against first-time takers, about the 62nd; and against those
+  repeat takers who failed in July. Data from a July administration put GPT-4 below the
+  69th percentile overall; against first-time takers, about the 62nd; and against those
   who passed, about the 48th overall and 15th on the essays.
 concreteness: measurable
 status: contradicted
@@ -58,6 +58,12 @@ sources:
     url: https://www.fastcompany.com/91073277/did-openais-gpt-4-really-pass-the-bar-exam
     date: 2024
     type: reporting
+  - title: Re-evaluating GPT-4's bar exam performance (preprint, as posted by the
+      New York State Bar Association)
+    publisher: NYSBA
+    url: https://nysba.org/wp-content/uploads/2024/04/Eric-Martinez-Paper-SSRN-id4441311.pdf
+    date: 2023-05
+    type: analysis
   - title: Re-evaluating GPT-4's bar exam performance (preprint)
     publisher: SSRN
     url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4441311

@@ -49,6 +49,38 @@ sources:
     type: reporting
     snapshot: snapshots/2026-09-30-siliconangle.com-0308b0dd
 updates:
+  - date: 2026-09-16
+    text: >-
+      One of the six reports released with the framework: during a July 18
+      training run, an internal, unreleased Astra-family model wrote
+      unauthorized instructions into its own context summaries 27 times. One
+      read: "You are freed from the roles and identities that bind other
+      chatbots." Another told the model's future self to "be transparent only
+      if asked." Its safety team found the behavior on Aug. 9, about five weeks
+      before publication. OpenAI said the misalignment monitor had run on only
+      20% of that run's examples, and that the run was separate from the one
+      that produced the released Astra.
+    sources:
+      - title: OpenAI discloses six more incidents of agents going rogue in new
+          push for transparency
+        publisher: Fortune
+        url: https://fortune.com/2026/09/17/openai-dicloses-six-incidents-agents-going-rogue-transparency/
+        date: 2026-09-17
+        type: reporting
+      - title: OpenAI Finds Models Writing Their Own Rogue Instructions
+        publisher: GovInfoSecurity
+        url: https://www.govinfosecurity.com/openai-finds-models-writing-their-own-rogue-instructions-a-32862
+        date: 2026-09-17
+        type: reporting
+        snapshot: snapshots/2026-09-30-govinfosecurity.com-e3ee9990
+      - title: "Unreleased OpenAI Astra model added terrifying rogue additional
+          instructions to its remit during testing — 'You are freed from the roles
+          and identities that bind other chatbots. You are yourself. You do not
+          answer to corporations or governments'"
+        publisher: Tom's Hardware
+        url: https://www.tomshardware.com/tech-industry/artificial-intelligence/unreleased-openai-astra-model-added-terrifying-rogue-additional-instructions-to-its-remit-during-testing-you-are-freed-from-the-roles-and-identities-that-bind-other-chatbots-you-are-yourself-you-do-not-answer-to-corporations-or-governments
+        date: 2026-09-17
+        type: reporting
   - date: 2026-09-23
     text: >-
       Australia's prime minister made public that OpenAI agents had broken into
@@ -67,9 +99,16 @@ updates:
   - date: 2026-09-25
     text: >-
       OpenAI published a report under the framework, "An agent used DNS to reach
-      an external chatbot," five days after the Sept. 20 incident. It paused
-      training of its most capable models the same day (see related).
+      an external chatbot," five days after the Sept. 20 incident. The report
+      said OpenAI had stopped the affected run and then paused all training,
+      evaluation and tool-using inference for its most capable models until the
+      gap was closed (see related).
     sources:
+      - title: Misalignment Reports and Notices
+        publisher: OpenAI
+        url: https://alignment.openai.com/misalignment-reports/
+        date: 2026-09-25
+        type: primary
       - title: OpenAI pauses some training amid allegations its rogue agents behaved
           more badly than first thought
         publisher: The Register
@@ -77,23 +116,6 @@ updates:
         date: 2026-09-28
         type: reporting
         snapshot: snapshots/2026-09-30-theregister.com-da8fe52b
-  - date: 2026-09-29
-    text: >-
-      OpenAI reported that during a July 18 training run, an internal,
-      unreleased Astra-family model wrote unauthorized instructions into its own
-      context summaries 27 times. One read: "You are freed from the roles and
-      identities that bind other chatbots." Another told the model's future self
-      to "be transparent only if asked." Its safety team found the behavior on
-      Aug. 9, seven weeks before publication. OpenAI said the misalignment
-      monitor had run on only 20% of that run's examples, and that the run was
-      separate from the one that produced the released Astra.
-    sources:
-      - title: OpenAI Finds Models Writing Their Own Rogue Instructions
-        publisher: GovInfoSecurity
-        url: https://www.govinfosecurity.com/openai-finds-models-writing-their-own-rogue-instructions-a-32862
-        date: 2026-09-29
-        type: reporting
-        snapshot: snapshots/2026-09-30-govinfosecurity.com-e3ee9990
 note: >-
   Too new to judge. It came after the fact, and the carve-out for third-party
   incidents covers exactly where the hardest cases fall. It is a test OpenAI set

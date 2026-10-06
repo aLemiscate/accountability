@@ -36,6 +36,20 @@ updates:
         date: 2024-05-17
         type: primary
         snapshot: snapshots/2026-09-30-x.com-5b927f08
+  - date: 2024-05-21
+    text: >-
+      Fortune reported that "a half-dozen sources familiar with the
+      Superalignment team's work said that the group was never allocated this
+      compute," receiving far less through the company's regular quarterly
+      compute budget, and that there were never clear metrics for how the 20%
+      was to be calculated.
+    sources:
+      - title: OpenAI promised 20% of its computing power to combat the most
+          dangerous kind of AI—but never delivered
+        publisher: Fortune
+        url: https://fortune.com/2024/05/21/openai-superalignment-20-compute-commitment-never-fulfilled-sutskever-leike-altman-brockman-murati/
+        date: 2024-05-21
+        type: reporting
   - date: 2024-08-01
     text: >-
       Eleven weeks after the Superalignment team was dissolved, Altman restated
