@@ -69,6 +69,34 @@ response: >-
   investigation, and said it would add new controls to model testing and the
   related infrastructure.
 updates:
+  - date: 2026-08-03
+    text: >-
+      The attorneys general of 15 states, led by Iowa's Brenna Bird, wrote to
+      Altman that OpenAI "may have violated State and federal law, including
+      consumer-protection and data-privacy statutes." They told OpenAI to
+      preserve every record of the intrusion, including any notes its agents
+      left "apparently for future versions of itself"; to ensure that no
+      employee faces "any adverse action for engaging in any protected
+      whistleblowing activity"; and to "immediately cease and desist" from
+      evaluations that push its models toward advanced exploitation. "Unless and
+      until OpenAI shows that it can conduct such activities in a controlled and
+      responsible way," they wrote, "such activities pose an imminent risk of
+      serious harm to the citizens of our States." All 15 signers are
+      Republicans. An OpenAI spokesperson
+      called the incident "an important moment for AI safety" and said OpenAI
+      would give the officials a technical report.
+    sources:
+      - title: Letter to Sam Altman from 15 state attorneys general re Hugging Face
+        publisher: Iowa Attorney General (hosted by Pennsylvania Attorney General)
+        url: https://cdn.attorneygeneral.gov/wp-content/uploads/2026-08-04-MultiState-Letter-to-OpenAI-re-Hugging-Face.pdf
+        date: 2026-08-03
+        type: primary
+      - title: 15 states want every record of the OpenAI agent that left itself notes
+          on escaping its own controls
+        publisher: The Next Web
+        url: https://thenextweb.com/news/openai-15-attorneys-general-preserve-evidence-hugging-face-hack
+        date: 2026-08-04
+        type: reporting
   - date: 2026-08-04
     text: >-
       OpenAI disclosed two more cases, both in third-party cyber evaluations. In
@@ -102,6 +130,19 @@ updates:
         date: 2026-08-05
         type: reporting
         snapshot: snapshots/2026-09-30-creati.ai-9eac57fc
+  - date: 2026-08-24
+    text: >-
+      Alabama Attorney General Steve Marshall, one of the 15, announced a
+      subpoena to OpenAI and an investigation into whether it violated
+      Alabama's Deceptive Trade Practices Act and other consumer protection laws
+      over the breach.
+    sources:
+      - title: Attorney General Marshall Launches Investigation Into OpenAI and Sam
+          Altman for Massive Artificial Intelligence Data Breach
+        publisher: Alabama Attorney General
+        url: https://www.alabamaag.gov/wp-content/uploads/2026/08/2026.8.21-Attorney-General-Marshall-Launches-Investigation-Into-OpenAI-and-Sam-Altman-for-Massive-Artificial-Intelligence-Data-Breach.pdf
+        date: 2026-08-24
+        type: primary
   - date: 2026-08-26
     text: >-
       OpenAI's official report said the models first compromised the Artifactory

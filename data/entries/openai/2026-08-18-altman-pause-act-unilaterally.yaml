@@ -11,16 +11,18 @@ quote: >-
   appropriate alignment, security and monitoring standards for the new level of
   capabilities in front of us.
 summary: >-
-  Four weeks after the Hugging Face incident, OpenAI said it had "temporarily
-  slowed the pace of scaling," including a two-week pause in reinforcement
-  learning training, and that its largest planned RL run remained on hold. It
-  also pointed to a finding that its next model, Astra, may have "critical"
-  cyber capabilities under its Preparedness Framework. Altman added, as quoted
-  by The Hill: "We believe the entire field will have to coordinate on shared
-  safety standards, but will act unilaterally in the meantime." Three weeks
-  earlier OpenAI had written that "at some point in the future, AI acceleration
-  for frontier model development may be so high that the world will need to pace
-  the rate of AI advancement."
+  Four weeks after the Hugging Face incident, OpenAI said it had "temporarily"
+  slowed the pace of its scaling, including a two-week pause in reinforcement
+  learning training, and that "our largest planned frontier RL run remains on
+  hold while we conduct smaller-scale training and evaluations to assess model
+  behavior, validate our safeguards, and establish more evidence of alignment
+  before proceeding." It also pointed to a finding that its next model, Astra,
+  may have "critical" cyber capabilities under its Preparedness Framework.
+  Altman wrote the same day: "We believe the entire field will have to
+  coordinate on shared safety standards, but will act unilaterally in the
+  meantime." Three weeks earlier OpenAI had written that "at some point in the
+  future, AI acceleration for frontier model development may be so high that the
+  world will need to pace the rate of AI advancement."
 concreteness: conditional
 status: open
 breaks_if: >-
@@ -42,6 +44,22 @@ sources:
     date: 2026-08-18
     type: primary
     snapshot: snapshots/2026-09-29-x.com-24616fc4
+  - title: Pacing model development in an era of cyber-critical capabilities
+    publisher: OpenAI
+    url: https://openai.com/index/pacing-model-development-cyber-capabilities/
+    date: 2026-08-18
+    type: primary
+  - title: OpenAI says it will slow its AI model development to shore up safety
+    publisher: NPR
+    url: https://www.npr.org/2026/08/24/nx-s1-5943167/openai-says-it-will-slow-its-ai-model-development-to-shore-up-safety
+    date: 2026-08-24
+    type: reporting
+  - title: OpenAI ‘temporarily slows’ scaling efforts, also promises zero data
+      retention for select frontier model customers
+    publisher: CSO Online
+    url: https://www.csoonline.com/article/4211672/openai-temporarily-slows-scaling-efforts-also-promises-zero-data-retention-for-select-frontier-model-customers-2.html
+    date: 2026-08-19
+    type: reporting
   - title: OpenAI pausing some model work over safety concerns
     publisher: The Hill
     url: https://thehill.com/policy/technology/6038415-openai-pauses-ai-training/
