@@ -58,6 +58,11 @@ sources:
     date: 2026-02-12
     type: primary
     snapshot: snapshots/2026-10-03-x.com-d537fcbb
+  - title: Sam Altman on AGI, GPT-5, and what’s next - Episode 1
+    publisher: OpenAI Podcast
+    url: https://podcasts.apple.com/us/podcast/sam-altman-on-agi-gpt-5-and-whats-next-episode-1/id1820330260?i=1000713445270
+    date: 2025-06-18
+    type: primary
 response: >-
   OpenAI said users had "preferred GPT‑4o's conversational style and warmth,"
   that it had used that feedback in later models, and: "Changes like this take
@@ -66,4 +71,8 @@ note: >-
   Two weeks is short for a model some people had built habits around, but
   "plenty" was never defined, and almost no one was still using it. Marked
   eroded, not broken. Anthropic's comparable commitment, to preserve the weights
-  of retired models, is in the related entry.
+  of retired models, is in the related entry. Two months before GPT-5
+  launched without the older models, Altman had said on OpenAI's podcast:
+  "sometimes people like one snapshot much better than another and they might
+  want to keep using one and we got to figure something out here." (Quoted
+  from the audio, about 12:09.)
