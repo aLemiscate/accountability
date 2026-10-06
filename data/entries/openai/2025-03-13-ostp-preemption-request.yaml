@@ -34,6 +34,11 @@ sources:
     date: 2025-03
     type: reporting
     snapshot: snapshots/2026-09-30-techtarget.com-41dca7e6
+  - title: Sam Altman | Cambridge Union Hawking Fellowship 2023
+    publisher: The Cambridge Union
+    url: https://podcasts.apple.com/us/podcast/sam-altman-cambridge-union-hawking-fellowship-2023/id1671029723?i=1000635265682
+    date: 2023-11-18
+    type: primary
 updates:
   - date: 2026-06-10
     text: >-
@@ -84,4 +89,6 @@ updates:
 note: >-
   Two years after asking the Senate for a licensing agency, OpenAI asked for
   voluntary federal oversight that would also protect it from binding state
-  rules. The rules it named as the example were frontier-model safety rules.
+  rules. The rules it named as the example were frontier-model safety rules. In November 2023, asked at the Cambridge Union whether OpenAI would publish
+  its own risk thresholds, Altman had said: "fundamentally, companies shouldn't
+  regulate themselves here." (Quoted from the audio.)
