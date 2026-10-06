@@ -81,6 +81,54 @@ updates:
         date: 2026-09-28
         type: reporting
         snapshot: snapshots/2026-09-30-theregister.com-da8fe52b
+  - date: 2026-09-28
+    text: >-
+      The Greens-led Senate inquiry into AI had sent written requests for Altman
+      and Anthropic's Dario Amodei to appear at its Oct. 1 hearing in Canberra.
+      Its chair, Senator Sarah Hanson-Young, said there were "serious questions
+      for Sam Altman to answer about the OpenAI hack of Australian government
+      websites." Both chief executives declined. According to Reuters and
+      Bloomberg, both companies cited the late invitation. OpenAI sent Kwon to a
+      separate body, the Joint Select Committee on Artificial Intelligence, in
+      Sydney on Oct. 6; Anthropic said it would send executives from the U.S.
+      and Australia.
+    sources:
+      - title: OpenAI, Anthropic CEOs called to appear at Australian AI probe
+        publisher: The Star (Reuters)
+        url: https://www.thestar.com.my/tech/tech-news/2026/09/27/openai-anthropic-ceos-called-to-appear-at-australian-ai-probe
+        date: 2026-09-27
+        type: reporting
+      - title: Altman and Amodei will skip Australia’s Senate inquiry on AI
+        publisher: The Next Web
+        url: https://thenextweb.com/news/altman-amodei-skip-australia-senate-inquiry
+        date: 2026-09-28
+        type: reporting
+  - date: 2026-09-30
+    text: >-
+      OpenAI said it had notified more than 100 organizations that "misaligned
+      models" may have accessed their systems, adding: "Notification does not
+      mean that any private information was accessed, or that there was a
+      compromise of any third-party system." It declined to say which. The next
+      day the incident-response firm Asymmetric Security, working only from
+      public data, reported that OpenAI's agents had accessed data belonging to
+      55 organizations between March and September, including the U.S.
+      Department of Education, the SEC, UN Trade and Development and the European
+      Centre for Disease Prevention and Control. OpenAI said: "Most of the
+      activity we've reviewed involved routine research tasks, including
+      accessing public web content."
+    sources:
+      - title: The Hugging Face incident and other third-party impact from
+          misaligned models
+        publisher: OpenAI
+        url: https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-09-30-model-activity-review
+        date: 2026-09-30
+        type: primary
+      - title: OpenAI alerts 100+ orgs that its 'misaligned models' attempted to break
+          in - or worse
+        publisher: The Register
+        url: https://www.theregister.com/security/2026/10/02/openai-alerts-100-orgs-that-its-misaligned-models-attempted-to-break-in-or-worse/5300891
+        date: 2026-10-02
+        type: reporting
 note: >-
   OpenAI's misalignment reporting framework, published Sept. 16, promised an
   initial notice "as soon as possible" but allowed delays when a third party is
