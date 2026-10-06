@@ -1,0 +1,51 @@
+title: >-
+  Financial Times: OpenAI splits up its Preparedness team; OpenAI says "We
+  have not disbanded the Preparedness team"
+date: 2026-07
+org: openai
+type: did
+kind: action
+who: [openai]
+summary: >-
+  The Financial Times reported in August 2026 that OpenAI had disbanded its
+  Preparedness team, which assessed whether its models posed catastrophic
+  risks, at the end of July. According to the report, the work was split by
+  subject among senior staff in existing teams, with separate owners for
+  biological risk and for cyber, and Dylan Scandinaro, who had led the team
+  since February, moved to work on recursive self-improvement. It came weeks
+  after the Hugging Face incident and amid other departures, including safety
+  leader Johannes Heidecke. OpenAI denies that the team was disbanded. The Next
+  Web, which corrected its own story, said the split of bio and cyber work
+  among existing teams "is not in dispute."
+patterns: []
+related:
+  [
+    2024-07-23-madry-reassigned,
+    2024-05-17-superalignment-team-disbanded,
+    2024-10-23-agi-readiness-team-disbanded,
+    2025-04-15-preparedness-framework-v2,
+    2026-07-21-hugging-face-incident,
+    2026-08-18-altman-pause-act-unilaterally
+  ]
+sources:
+  - title: OpenAI split up the team that assessed catastrophic model risks
+    publisher: The Next Web
+    url: https://thenextweb.com/news/openai-preparedness-team-disbanded-ipo-streamlining
+    date: 2026-08-17
+    type: reporting
+  - title: OpenAI Denies Disbanding Its AI Risk Team
+    publisher: ETV Bharat
+    url: https://etvbharat.com/en/technology/openai-preparedness-team-dissolved-hugging-face-incident-openai-openai-ipo-2026-enn26081703211
+    date: 2026-08-17
+    type: reporting
+response: >-
+  An OpenAI spokesperson told The Next Web and ETV Bharat: "We have not
+  disbanded the Preparedness team. We have strong research leaders across
+  cybersecurity, biological and chemical, and AI self-improvement
+  capabilities, all reporting to Saachi Jain, our head of safety." The Next
+  Web added that the Financial Times had not withdrawn its report.
+note: >-
+  The underlying Financial Times article is paywalled and wasn't read
+  directly; this entry relies on the two reports above. Both sides agree the
+  risk areas now have separate leads reporting to the head of safety. What
+  they dispute is whether that ends the Preparedness team as a team.

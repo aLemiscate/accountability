@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parseDate, validate, derive, loadAll, quoteSegments, normalizeForMatch } from '../scripts/lib.mjs';
+import { parseDate, validate, derive, loadAll, quoteSegments, normalizeForMatch, tallyCommitments } from '../scripts/lib.mjs';
 
 test('parseDate accepts year, month and day precision and rejects impossible dates', () => {
   assert.equal(parseDate('2024').precision, 'year');
@@ -76,6 +76,44 @@ test('derive pairs statements with the actions that contradict them', () => {
   assert.equal(out.receipts[0].gap_days, 366);
   assert.deepEqual(out.entries.find((e) => e.type === 'said').contradicted_by, ['2021-01-01-deed']);
   assert.equal(out.stats.broken, 1);
+});
+
+const doc = () => ({
+  id: 'pledge', file: 'c.yaml', title: 'Pledge', date: '2023-07-21', parties: ['openai'],
+  sources: [{ title: 's', url: 'https://example.com/3' }],
+  entries: ['2020-01-01-promise'],
+  commitments: [
+    { id: 'a', text: 'we will a', grades: { openai: { grade: 'kept', evidence: 'did a', entries: ['2021-01-01-deed'] } } },
+    { id: 'b', text: 'we will b', grades: { openai: { grade: 'unknown', evidence: 'not public' } } },
+    { id: 'c', text: 'we will c', grades: { openai: { grade: 'eroded', evidence: 'weakened', sources: [{ title: 's', url: 'https://example.com/4' }] } } },
+  ],
+});
+
+test('a graded commitment document validates and tallies per company', () => {
+  const d = base();
+  d.commitments = [doc()];
+  const { errors, warnings } = validate(d);
+  assert.deepEqual(errors, []);
+  assert.deepEqual(warnings, []);
+  assert.deepEqual(tallyCommitments(d.commitments[0]), { openai: { total: 3, kept: 1, standing: 0, eroded: 1, broken: 0, unknown: 1 } });
+  assert.equal(derive(d).commitments[0].tally.openai.kept, 1);
+});
+
+test('commitment validation catches missing grades, bad grades and unsupported verdicts', () => {
+  const d = base();
+  const c = doc();
+  c.commitments[1].id = 'a';
+  c.commitments[1].grades.openai.grade = 'mostly';
+  c.commitments[2].grades = {};
+  c.commitments.push({ id: 'd', text: 'we will d', grades: { openai: { grade: 'broken', evidence: 'said so' }, anthropic: { grade: 'kept', evidence: 'x' } } });
+  d.commitments = [c];
+  const { errors, warnings } = validate(d);
+  const joined = errors.join('\n');
+  assert.match(joined, /duplicate id/);
+  assert.match(joined, /grade must be one of/);
+  assert.match(joined, /no grade for openai/);
+  assert.match(joined, /graded for anthropic, which is not a party/);
+  assert.match(warnings.join('\n'), /grade "broken" cites no entry or source/);
 });
 
 test('the published record has no validation errors', async () => {

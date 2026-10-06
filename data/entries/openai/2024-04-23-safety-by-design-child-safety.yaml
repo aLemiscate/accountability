@@ -42,8 +42,11 @@ updates:
   - date: 2025-10-21
     text: >-
       Thorn's first annual progress report, covering April 2024 to April 2025,
-      included OpenAI's account of its measures, such as removing child sexual
-      abuse material from training data. The report relays what companies said;
+      included OpenAI's account of its measures. OpenAI said it takes steps to
+      remove such material from training data, scans image and video uploads
+      with Thorn's classifiers, has people review every flagged image and
+      video, and keeps known abuse sites out of ChatGPT search. Unlike
+      Anthropic, it reported no figures. The report relays what companies said;
       it doesn't audit them.
     sources:
       - title: 'Safety by Design for Generative AI: Annual Progress Report (April

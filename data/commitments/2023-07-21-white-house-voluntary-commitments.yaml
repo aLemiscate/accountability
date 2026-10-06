@@ -1,0 +1,457 @@
+title: White House voluntary AI commitments
+date: 2023-07-21
+parties: [openai, anthropic]
+summary: >-
+  Eight voluntary commitments on safety, security and trust, made by seven
+  companies at the White House. They apply to generative models "overall more
+  powerful than the current industry frontier" as of July 2023, and the
+  companies said they intended them "to remain in effect until regulations
+  covering substantially the same issues come into force." Each numbered
+  commitment bundles several promises; they are split out below.
+sources:
+  - title: Ensuring Safe, Secure, and Trustworthy AI (commitments text)
+    publisher: The White House
+    url: https://bidenwhitehouse.archives.gov/wp-content/uploads/2023/07/Ensuring-Safe-Secure-and-Trustworthy-AI.pdf
+    date: 2023-07-21
+    type: primary
+    snapshot: snapshots/2026-09-29-bidenwhitehouse.archives.gov-2f9f0eb3
+entries:
+  [
+    2023-07-21-white-house-voluntary-commitments,
+    2023-07-21-anthropic-white-house-commitments,
+    2025-02-anthropic-removes-white-house-commitments
+  ]
+commitments:
+  - id: durability
+    section: Preamble
+    text: >-
+      Companies intend these voluntary commitments to remain in effect
+      until regulations covering substantially the same issues come into
+      force.
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          No statement withdrawing the commitments was found. No US federal
+          regulation covering the same issues has come into force.
+        entries: [2023-07-21-white-house-voluntary-commitments]
+      anthropic:
+        grade: standing
+        evidence: >-
+          Anthropic removed several of the commitments from its transparency hub
+          in early 2025 without notice, then said the same day the change was
+          reported that it "remain[s] committed" to them.
+        entries: [2025-02-anthropic-removes-white-house-commitments]
+  - id: red-teaming
+    section: 1. Red-teaming
+    text: >-
+      Companies commit to advancing this area of research, and to
+      developing a multi-faceted, specialized, and detailed red-teaming
+      regime, including drawing on independent domain experts, for all
+      major public releases of new models within scope.
+    grades:
+      openai:
+        grade: eroded
+        evidence: >-
+          OpenAI's system cards describe external red-teaming and government
+          pre-release testing, but the Financial Times reported in April 2025
+          that safety testing time had been cut from months to days, and deep
+          research shipped on an unreleased o3 before its system card existed.
+        entries:
+          [
+            2025-04-11-safety-testing-time-cut,
+            2025-02-02-deep-research-before-system-card,
+            2024-08-29-aisi-pre-release-testing
+          ]
+      anthropic:
+        grade: kept
+        evidence: >-
+          Anthropic's system cards for its major releases describe external
+          red-teaming and US and UK government pre-release testing; no major
+          release in scope was found without it.
+        entries: [2024-08-29-anthropic-aisi-pre-release-testing, 2023-07-21-anthropic-white-house-commitments]
+  - id: safety-research
+    section: 1. Red-teaming
+    text: >-
+      To support these efforts, companies making this commitment commit to
+      advancing ongoing research in AI safety, including on the
+      interpretability of AI systems’ decision-making processes and on
+      increasing the robustness of AI systems against misuse.
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          OpenAI has kept publishing safety research, including its 2025 work
+          on chain-of-thought monitoring and the $10 million Superalignment Fast
+          Grants. Its separate pledge of 20% of compute to superalignment was
+          broken; that is recorded in its own entry.
+        entries: [2025-03-10-cot-optimization-pressure, 2023-12-14-superalignment-fast-grants, 2023-07-05-superalignment-20-percent-compute]
+      anthropic:
+        grade: kept
+        evidence: >-
+          Anthropic publishes interpretability and robustness research, and set
+          a public interpretability goal for 2027.
+        entries: [2025-04-24-interpretability-2027-goal, 2025-02-03-classifiers-defend-universal-jailbreaks]
+  - id: disclose-procedures
+    section: 1. Red-teaming
+    text: >-
+      Similarly, companies commit to publicly disclosing their red-teaming
+      and safety procedures in their transparency reports (described
+      below).
+    grades:
+      openai:
+        grade: eroded
+        evidence: >-
+          Most major releases come with system cards describing red-teaming,
+          but GPT-4.1 shipped with none ("not a frontier model") and deep
+          research's card followed its launch by 23 days.
+        entries: [2025-04-14-gpt-4-1-no-system-card, 2025-02-02-deep-research-before-system-card]
+      anthropic:
+        grade: kept
+        evidence: >-
+          Anthropic has published a system card describing safety testing for
+          each major release, including the hidden Fable 5 safeguards it later
+          withdrew, which were disclosed in that model's system card.
+        entries: [2023-07-21-anthropic-white-house-commitments, 2026-06-09-fable-5-hidden-research-safeguards]
+  - id: forum
+    section: 2. Information sharing
+    text: >-
+      They commit to establish or join a forum or mechanism through which
+      they can develop, advance, and adopt shared standards and best
+      practices for frontier AI safety
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          OpenAI co-founded the Frontier Model Forum with Anthropic, Google and
+          Microsoft five days after the commitments.
+        sources:
+          - title: Anthropic, Google, Microsoft and OpenAI launch Frontier Model Forum
+            publisher: Google
+            url: https://blog.google/outreach-initiatives/public-policy/google-microsoft-openai-anthropic-frontier-model-forum/
+            date: 2023-07-26
+            type: primary
+      anthropic:
+        grade: kept
+        evidence: >-
+          Anthropic co-founded the Frontier Model Forum with Google, Microsoft
+          and OpenAI five days after the commitments.
+        sources:
+          - title: Anthropic, Google, Microsoft and OpenAI launch Frontier Model Forum
+            publisher: Google
+            url: https://blog.google/outreach-initiatives/public-policy/google-microsoft-openai-anthropic-frontier-model-forum/
+            date: 2023-07-26
+            type: primary
+  - id: information-sharing
+    section: 2. Information sharing
+    text: >-
+      The forum or mechanism can facilitate the sharing of information on
+      advances in frontier capabilities and emerging risks and threats,
+      such as attempts to circumvent safeguards ... In this work,
+      companies will engage closely with governments, including the U.S.
+      government, civil society, and academia, as appropriate.
+    grades:
+      openai:
+        grade: eroded
+        evidence: >-
+          OpenAI shares through government testing agreements and threat
+          reports, but it took a month to notify Australian agencies after
+          finding that its agents had broken into their systems; the public
+          learned from Australia's prime minister. OpenAI said it "should have
+          shared preliminary findings sooner."
+        entries: [2026-06-agents-breach-australian-government, 2024-08-29-aisi-pre-release-testing, 2026-09-16-misalignment-reporting-framework]
+      anthropic:
+        grade: kept
+        evidence: >-
+          Anthropic disclosed the state-sponsored campaign run through Claude
+          Code and its own models' cyber-evaluation incidents, and gives
+          governments pre-release access. Rep. Greg Casar called its answers to
+          Congress on the incidents "insufficient," and one claim in them was
+          later called "a mistake" by an Anthropic researcher.
+        entries: [2025-11-13-claude-code-espionage-campaign, 2026-07-30-claude-cyber-eval-incidents, 2024-08-29-anthropic-aisi-pre-release-testing]
+  - id: weights-security
+    section: 3. Cybersecurity and insider threats
+    text: >-
+      Companies making this commitment will treat unreleased AI model
+      weights for models in scope as core intellectual property for their
+      business, especially with regards to cybersecurity and insider
+      threat risks. This includes limiting access to model weights to
+      those whose job function requires it and establishing a robust
+      insider threat detection program
+    grades:
+      openai:
+        grade: unknown
+        evidence: >-
+          Can't be checked from outside. No theft of OpenAI model weights has
+          been reported; the 2023 breach of an internal forum predates the
+          commitments and did not reach weights.
+        entries: [2023-04-breach-kept-private]
+      anthropic:
+        grade: unknown
+        evidence: >-
+          Can't be checked from outside. No theft of Anthropic model weights has
+          been reported. RSP v2.2 removed sophisticated insiders from the scope
+          of its ASL-3 security standard, which narrows that standard but does
+          not show what Anthropic's insider-threat program does.
+        entries: [2025-05-14-rsp-v2-2-insider-exclusion]
+  - id: bug-bounty
+    section: 4. Third-party discovery
+    text: >-
+      They commit to establishing for systems within scope bounty systems,
+      contests, or prizes to incent the responsible disclosure of
+      weaknesses, such as unsafe behaviors, or to include AI systems in
+      their existing bug bounty programs.
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          OpenAI's 2023 bug bounty covered security flaws but not model
+          behavior. From August 2025 it offered bio bug bounties paying for
+          universal jailbreaks of its safeguards, which is the kind of unsafe
+          behavior the commitment names.
+        sources:
+          - title: Announcing OpenAI's Bug Bounty Program
+            publisher: OpenAI
+            url: https://openai.com/index/bug-bounty-program/
+            date: 2023-04-11
+            type: primary
+          - title: GPT-5 bio bug bounty call
+            publisher: OpenAI
+            url: https://openai.com/gpt-5-bio-bug-bounty/
+            date: 2025-08-25
+            type: primary
+      anthropic:
+        grade: kept
+        evidence: >-
+          Anthropic runs a model safety bug bounty for universal jailbreaks,
+          expanded in August 2024.
+        sources:
+          - title: Expanding our model safety bug bounty program
+            publisher: Anthropic
+            url: https://www.anthropic.com/news/model-safety-bug-bounty
+            date: 2024-08-08
+            type: primary
+  - id: provenance
+    section: 5. Provenance and watermarking
+    text: >-
+      they agree to develop robust mechanisms, including provenance and/or
+      watermarking systems for audio or visual content created by any of
+      their publicly available systems within scope introduced after the
+      watermarking system is developed.
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          OpenAI adds C2PA provenance metadata to images from DALL-E 3 in
+          ChatGPT and the API.
+        sources:
+          - title: Understanding the source of what we see and hear online
+            publisher: OpenAI
+            url: https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online/
+            date: 2024-05-07
+            type: primary
+      anthropic:
+        grade: standing
+        evidence: >-
+          Anthropic offers no image, video or voice-cloning generation, so
+          nothing it ships is yet in scope; assistant voices are excluded by the
+          commitment's own terms.
+  - id: detection-tools
+    section: 5. Provenance and watermarking
+    text: >-
+      They will also develop tools or APIs to determine if a particular
+      piece of content was created with their system.
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          OpenAI built a DALL-E image detection classifier and opened it to
+          researchers through an application program in May 2024.
+        sources:
+          - title: Understanding the source of what we see and hear online
+            publisher: OpenAI
+            url: https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online/
+            date: 2024-05-07
+            type: primary
+      anthropic:
+        grade: standing
+        evidence: >-
+          Nothing in scope: Anthropic has no audio or visual generation
+          products.
+  - id: provenance-standards
+    section: 5. Provenance and watermarking
+    text: >-
+      companies making this commitment pledge to work with industry peers
+      and standards-setting bodies as appropriate towards developing a
+      technical framework to help users distinguish audio or visual
+      content generated by users from audio or visual content generated by
+      AI.
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          OpenAI joined the steering committee of the Coalition for Content
+          Provenance and Authenticity (C2PA) in May 2024.
+        sources:
+          - title: Understanding the source of what we see and hear online
+            publisher: OpenAI
+            url: https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online/
+            date: 2024-05-07
+            type: primary
+      anthropic:
+        grade: standing
+        evidence: >-
+          No public record was found of Anthropic taking part in a provenance
+          standards body. With no audio or visual generation products, "as
+          appropriate" has not yet been tested.
+  - id: model-reports
+    section: 6. Public reporting
+    text: >-
+      They commit to publish reports for all new significant model public
+      releases within scope. These reports should include the safety
+      evaluations conducted ... significant limitations in performance
+      that have implications for the domains of appropriate use,
+      discussion of the model’s effects on societal risks such as fairness
+      and bias, and the results of adversarial testing conducted to
+      evaluate the model’s fitness for deployment.
+    grades:
+      openai:
+        grade: eroded
+        evidence: >-
+          GPT-4.1 shipped with no report, which OpenAI justified by calling it
+          "not a frontier model"; deep research launched 23 days before its
+          system card; and a watchdog said GPT-5.3-Codex shipped without the
+          safeguards its framework required.
+        entries:
+          [
+            2023-07-21-white-house-voluntary-commitments,
+            2025-04-14-gpt-4-1-no-system-card,
+            2025-02-02-deep-research-before-system-card,
+            2026-02-gpt-5-3-codex-sb-53-dispute
+          ]
+      anthropic:
+        grade: kept
+        evidence: >-
+          Anthropic published system cards for its major releases and, since
+          2025, sabotage risk reports for each frontier model.
+        entries: [2023-07-21-anthropic-white-house-commitments, 2025-11-24-sabotage-risk-reports-commitment]
+  - id: societal-research
+    section: 7. Societal risks
+    text: >-
+      Prioritize research on societal risks posed by AI systems, including
+      on avoiding harmful bias and discrimination, and protecting privacy
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          OpenAI published research on whether ChatGPT treats users differently
+          by name ("first-person fairness") in October 2024.
+        sources:
+          - title: Evaluating fairness in ChatGPT
+            publisher: OpenAI
+            url: https://openai.com/index/evaluating-fairness-in-chatgpt/
+            date: 2024-10-15
+            type: primary
+      anthropic:
+        grade: kept
+        evidence: >-
+          Anthropic published research on measuring and reducing discrimination
+          in model decisions. The bias-research pledge was among the text
+          removed from its transparency hub in 2025, then reaffirmed.
+        sources:
+          - title: Evaluating and Mitigating Discrimination in Language Model Decisions
+            publisher: Anthropic
+            url: https://www.anthropic.com/research/evaluating-and-mitigating-discrimination-in-language-model-decisions
+            date: 2023-12-07
+            type: primary
+        entries: [2025-02-anthropic-removes-white-house-commitments]
+  - id: trust-and-safety
+    section: 7. Societal risks
+    text: >-
+      Companies commit generally to empowering trust and safety teams,
+      advancing AI safety research, advancing privacy, protecting
+      children, and working to proactively manage the risks of AI so that
+      its benefits can be realized.
+    grades:
+      openai:
+        grade: eroded
+        evidence: >-
+          OpenAI dissolved its Superalignment team, whose leader said safety had
+          taken "a backseat to shiny products," and its AGI Readiness team,
+          reassigned its head of Preparedness, and in 2026 dismissed three
+          safety researchers. The Financial Times reported that it split up the
+          Preparedness team in July 2026; OpenAI says the team wasn't disbanded.
+        entries:
+          [
+            2024-05-17-superalignment-team-disbanded,
+            2024-10-23-agi-readiness-team-disbanded,
+            2024-07-23-madry-reassigned,
+            2026-10-01-three-safety-researchers-dismissed,
+            2026-07-preparedness-team-split
+          ]
+      anthropic:
+        grade: standing
+        evidence: >-
+          No dissolution of an Anthropic safety team was found. Whether its
+          teams are "empowered" can't be fully judged from outside.
+  - id: societal-challenges
+    section: 8. Society's greatest challenges
+    text: >-
+      Companies making this commitment agree to support research and
+      development of frontier AI systems that can help meet society’s
+      greatest challenges, such as climate change mitigation and
+      adaptation, early cancer detection and prevention, and combating
+      cyber threats.
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          OpenAI describes using its models to accelerate science, including
+          its Navier-Stokes work.
+        sources:
+          - title: 'Research acceleration: The view inside OpenAI'
+            publisher: OpenAI
+            url: https://openai.com/index/research-acceleration-view-inside-openai/
+            type: primary
+            snapshot: snapshots/2026-10-03-openai.com-be17d270
+      anthropic:
+        grade: kept
+        evidence: >-
+          Anthropic launched Claude for Life Sciences and gave Mythos to
+          software defenders under Project Glasswing.
+        sources:
+          - title: Claude for Life Sciences
+            publisher: Anthropic
+            url: https://www.anthropic.com/news/claude-for-life-sciences
+            date: 2025-10-20
+            type: primary
+        entries: [2026-04-07-glasswing-report-back]
+  - id: education
+    section: 8. Society's greatest challenges
+    text: >-
+      Companies also commit to supporting initiatives that foster the
+      education and training of students and workers to prosper from the
+      benefits of AI, and to helping citizens understand the nature,
+      capabilities, limitations, and impact of the technology.
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          OpenAI runs the OpenAI Academy, started in September 2024, for AI
+          training.
+        sources:
+          - title: Two years of OpenAI Academy
+            publisher: OpenAI
+            url: https://openai.com/index/two-years-of-openai-academy/
+            type: primary
+      anthropic:
+        grade: kept
+        evidence: >-
+          Anthropic launched Claude for Education in April 2025 and publishes
+          its Economic Index on how people use AI.
+        sources:
+          - title: Introducing Claude for education
+            publisher: Anthropic
+            url: https://www.anthropic.com/news/introducing-claude-for-education
+            date: 2025-04-02
+            type: primary
