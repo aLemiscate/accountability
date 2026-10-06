@@ -35,9 +35,20 @@ sources:
     url: https://natlawreview.com/article/beyond-copyright-reddits-lawsuit-against-anthropic
     type: analysis
     snapshot: snapshots/2026-09-30-natlawreview.com-47dc7494
+  - title: Inside Anthropic's AI Ambitions with Jared Kaplan
+    publisher: TechCrunch Equity
+    url: https://podcasts.apple.com/us/podcast/inside-anthropics-ai-ambitions-with-jared-kaplan/id1215439780?i=1000711868175
+    date: 2025-06-06
+    type: primary
 response: >-
   Anthropic said: "We disagree with Reddit's claims and will defend ourselves
-  vigorously."
+  vigorously." The next day, asked about the lawsuit on stage at TechCrunch
+  Sessions: AI, co-founder Jared Kaplan said "I can't comment on new ongoing
+  litigation," and that Anthropic puts "a lot of effort into carefully
+  obeying" robots.txt requests: "people can prevent Claude and Anthropic from
+  accessing, scraping their data just via robots.txt. We respect that."
+  (Quoted from the audio of TechCrunch's Equity podcast, about 24:02 and
+  24:54.)
 note: >-
   These are allegations in a lawsuit that hasn't been decided. The part that
   matters here is the gap Reddit alleges between what Anthropic said about its
