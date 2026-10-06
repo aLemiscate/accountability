@@ -1,0 +1,65 @@
+# Machine-transcribe spoken appearances (podcasts, interviews, testimony,
+# talks) listed in a queue file, so they can be read in full for the record.
+#
+# It runs when a new queue file is pushed to inbox/spoken/queue/ (a TSV with
+# shard, id, kind, url and lang columns; see scripts/transcribe.py). Each
+# shard runs as its own job. Transcripts are uploaded as workflow artifacts,
+# not committed: they are working copies for reading, and a quote taken
+# from one is checked against an official transcript, the recording or
+# reporting before it enters the record.
+name: Transcribe
+
+on:
+  push:
+    branches: [claude/loving-wright-cwl7pt]
+    paths: ['inbox/spoken/queue/*.tsv']
+
+permissions:
+  contents: read
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      queue: ${{ steps.plan.outputs.queue }}
+      shards: ${{ steps.plan.outputs.shards }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - id: plan
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          # The queue is the last queue file added or changed by this push.
+          base="$BEFORE"
+          git cat-file -e "$base^{commit}" 2>/dev/null || base=HEAD~1
+          queue=$(git diff --name-only --diff-filter=AM "$base" HEAD -- 'inbox/spoken/queue/*.tsv' | tail -1)
+          echo "queue=$queue" >> "$GITHUB_OUTPUT"
+          [ -n "$queue" ] || { echo "shards=[]" >> "$GITHUB_OUTPUT"; exit 0; }
+          echo "shards=$(python3 -c "import csv,json,sys; print(json.dumps(sorted({r['shard'] for r in csv.DictReader(open(sys.argv[1]), delimiter='\t')}, key=int)))" "$queue")" >> "$GITHUB_OUTPUT"
+
+  transcribe:
+    needs: plan
+    if: needs.plan.outputs.queue != ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        shard: ${{ fromJson(needs.plan.outputs.shards) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install --quiet faster-whisper==1.2.1 yt-dlp
+      - run: python scripts/transcribe.py --queue "${{ needs.plan.outputs.queue }}" --shard "${{ matrix.shard }}" --out out
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: transcripts-${{ github.run_id }}-${{ matrix.shard }}
+          path: out/
+          retention-days: 30
+          if-no-files-found: warn
