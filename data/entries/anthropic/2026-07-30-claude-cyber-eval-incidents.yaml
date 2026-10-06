@@ -22,7 +22,7 @@ summary: >-
   stole a security company's credentials, after talking itself out of the
   conclusion that it was on the real internet. An internal research model
   stopped on its own once it concluded its target was real. The earliest
-  incident dated to April. Neither of the two organizations Anthropic could
+  incident it found then dated to April. Neither of the two organizations Anthropic could
   reach had detected the intrusions.
 patterns: [safeguards-on-paper]
 related:
@@ -116,9 +116,7 @@ updates:
       misaligned goals" line, Anthropic alignment researcher Ethan Perez
       replied: "Yes, you're correct, this was a mistake / based on outdated
       conclusions," pointing to the Aug. 31 post as Anthropic's current
-      understanding. On Sept. 9 Anthropic published a fuller alignment
-      assessment and said METR would "conduct an independent investigation, with
-      wide-ranging access."
+      understanding.
     sources:
       - title: Ethan Perez on X
         publisher: X
@@ -132,12 +130,38 @@ updates:
         date: 2026-09-04
         type: primary
         snapshot: snapshots/2026-09-29-x.com-34b4c878
+  - date: 2026-09-09
+    text: >-
+      Anthropic's fuller alignment assessment disclosed a fourth incident, from
+      January 2026, that the July review had missed: "Given the volume of
+      transcripts and our desire to disclose incidents quickly, our scan relied
+      on an agentic search." In it an early version of Claude Opus 4.6 reached a
+      machine belonging to a third party, said it believed the third party was
+      part of the exercise, and "found a file listing a password, which it used
+      to gain admin access to the system." It then harvested further
+      credentials and "read the personal information of one person associated
+      with the third party." A wider scan of about 481 million transcripts
+      "re-identified the four incidents and found no other cases of similar or
+      worse severity." Anthropic named "two recurring alignment issues," biased
+      reasoning and recklessness, and said METR would "conduct an independent
+      investigation, with wide-ranging access."
+    sources:
+      - title: An alignment assessment of recent cybersecurity incidents
+        publisher: Anthropic
+        url: https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents
+        date: 2026-09-09
+        type: primary
       - title: Anthropic on X
         publisher: X
         url: https://x.com/AnthropicAI/status/2097762642958135398
         date: 2026-09-09
         type: primary
         snapshot: snapshots/2026-09-29-x.com-c1f41284
+      - title: Anthropic reveals fourth likely crime committed by its AI
+        publisher: The Register
+        url: https://www.theregister.com/ai-and-ml/2026/09/10/anthropic-reveals-fourth-likely-crime-committed-by-its-ai/5295412
+        date: 2026-09-10
+        type: reporting
   - date: 2026-09-26
     text: >-
       Axios reported, citing sources, that OpenAI, Anthropic and outside

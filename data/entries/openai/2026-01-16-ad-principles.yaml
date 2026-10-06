@@ -85,5 +85,18 @@ updates:
         type: reporting
         archive: https://web.archive.org/web/20261001034724/https://www.pymnts.com/news/artificial-intelligence/2026/openai-tests-sponsored-ai-agents-in-chatgpt-ads/
         snapshot: snapshots/2026-10-01-pymnts.com-68e76f8a
+  - date: 2026-10-05
+    text: >-
+      OpenAI announced a "visual ad format" for ChatGPT, to be tested first
+      during image generation in the U.S. in October. It did not say where the
+      ads would appear or how they would be targeted, and said it would share
+      more once testing began. Free users can turn ads off without paying, but
+      doing so turns off tools including image generation.
+    sources:
+      - title: OpenAI to flood your eyeballs with visual ads
+        publisher: The Register
+        url: https://www.theregister.com/ai-and-ml/2026/10/05/openai-to-flood-your-eyeballs-with-visual-ads/5301152
+        date: 2026-10-05
+        type: reporting
 note: >-
   This one is measurable from outside, so it's worth watching closely.

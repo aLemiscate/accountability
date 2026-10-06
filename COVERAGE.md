@@ -1,6 +1,6 @@
 # What the record covers
 
-As of October 3, 2026. This file says where the record's entries came from,
+As of October 6, 2026. This file says where the record's entries came from,
 what the latest reviews added, how the two companies compare, and what may
 still be missing. The rules for what counts are in
 [METHODOLOGY.md](METHODOLOGY.md). The post-by-post Twitter triage is in
@@ -21,8 +21,10 @@ Status of the "said" entries:
 | OpenAI | 20 | 7 | 12 | 6 | 4 | 8 |
 | Anthropic | 17 | 6 | 3 | 5 | 2 | 1 |
 
-Every quote with a saved snapshot matches the snapshot's text word for word
-(90 of 90). For one of them, the White House accord, the text exists only as
+131 of the 132 quotes whose sources have a saved snapshot match that text word
+for word. The other, a passage from Anthropic's Fable 5 system card, is quoted
+through Gizmodo, whose page the Capture workflow couldn't save; it was checked
+against Gizmodo's text by hand. For one of them, the White House accord, the text exists only as
 an image, and the match is against a labeled transcription saved beside it.
 
 ## Where entries come from
@@ -199,6 +201,58 @@ disclosure ahead of rollout, with no broken claim), OpenAI's First Proof
 results (corrected by OpenAI within days), and the GPT-5.2 physics result (no
 correction found).
 
+## What the October 6 audit changed
+
+Every entry was read again against its sources, by hand, for wrong facts,
+words put in someone's mouth, and statuses the evidence doesn't support. No
+status changed. What was wrong:
+
+- **Quotes that weren't verbatim.** The 2023 Anthropic pitch deck line had its
+  words out of order. The Gulf-investment memo's response used "a pure
+  positive" (the memo says "actually pure positive") and attributed "no
+  governance rights" to it, which it doesn't say. Six notes put paraphrases
+  inside quotation marks. Two quotes ended in a period where the source goes
+  on. OpenAI's August pacing post was quoted as "temporarily slowed the pace of
+  scaling"; reporting confirms only "temporarily", so the entry now quotes what
+  CSO Online reproduced word for word.
+- **Wrong dates and figures.** The Astra self-instruction report was dated
+  seven weeks before publication; it was about five. The bar-exam percentiles
+  apply to a July administration, not all test takers. A same-day claim about
+  OpenAI's DNS report had no source.
+- **Source titles.** Several were paraphrased instead of copied; one Fortune
+  title was wrong. All now match the page.
+- **Thin sourcing for strong labels.** The "broken" Superalignment compute
+  pledge rested on one departing researcher's post; Fortune's reporting from
+  half a dozen sources is now cited. The "contradicted" claim that OpenAI
+  never trained on API data now cites OpenAI's own InstructGPT paper, which
+  used prompts from API Playground users.
+- **Missing for parity.** Each White House accord entry now names the other
+  company's signer.
+
+What had been missed, and is now in the record:
+
+- Anthropic's September 9 assessment disclosed a fourth incident, from January
+  2026, that its July review missed: an early Claude Opus 4.6 used a password
+  it found to get admin access to a third party's machine and read one
+  person's personal information.
+- RubyGems: outside researchers tied more than 2,000 packages uploaded in May,
+  some of which tried to steal users' API keys, to OpenAI agents. OpenAI said
+  its agents were doing "benign tasks." A second researcher tied 16,000 scans
+  of a UN statistics site to them.
+- Fifteen state attorneys general told OpenAI to preserve evidence, protect
+  whistleblowers and stop the kind of test behind the Hugging Face breach;
+  Alabama then subpoenaed it.
+- OpenAI notified more than 100 organizations that its models may have
+  accessed their systems.
+- Both chief executives declined Australia's Senate inquiry; OpenAI sent its
+  chief strategy officer to a different committee.
+- The Brockmans dropped their second $25 million to Leading the Future.
+- OpenAI's visual ad format, on the ad-principles watch.
+
+Checked and left out: OpenAI delaying its IPO past 2026 and Anthropic's leaked
+prospectus (no claim tested yet), and the "PixelLeak" screenshots (agents in
+general, not either company's claim).
+
 ## The two companies side by side
 
 OpenAI has nearly twice as many entries. It is older, larger and has made more
@@ -248,7 +302,8 @@ promise was tested and held.
 
 - **Pages without a snapshot.** The Capture workflow on GitHub's runners saved
   the pages this review couldn't reach, including every openai.com page the
-  record cites. 26 of 510 sources still have no snapshot, mostly paywalled
+  record cites. 57 of 712 sources still have no snapshot, most of them added
+  in the October 6 audit and the rest mostly paywalled
   stories (Wall Street Journal, Washington Post) and sites that refuse
   automated requests. Those are cited by URL, and quoted through reporting
   that reproduced them.
@@ -264,8 +319,10 @@ promise was tested and held.
 - **What isn't public at all:** contracts (the Pentagon agreements), internal
   documents, and incident reports to regulators. Several standing promises can
   only be checked when these surface.
-- **Stories still unfolding.** OpenAI's chief strategy officer testifies to an
-  Australian parliamentary committee on October 6, 2026. The OpenAI Foundation's
+- **Stories still unfolding.** OpenAI's chief strategy officer appeared before
+  an Australian parliamentary committee on October 6, 2026; his testimony isn't
+  in the record yet. Fifteen state attorneys general and Alabama's subpoena
+  over the Hugging Face breach have no outcome yet. The OpenAI Foundation's
   $1 billion plan and both companies' independent-evaluator promises come due
   by March 2027. The Mythos general-release promise, the EU incident-reporting
   commitments, the energy pledges and the White House accord have no fixed
