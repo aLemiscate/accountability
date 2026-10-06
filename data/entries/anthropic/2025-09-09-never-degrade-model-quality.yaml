@@ -22,7 +22,9 @@ summary: >-
   restated: "We never reduce model quality due to demand, time of day, or server
   load." Anthropic had answered the same suspicion in March 2024, when Alex
   Albert replied to claims that Claude had been "lobotomized": "When we make
-  updates to our current models, we will make it very clear."
+  updates to our current models, we will make it very clear." In November 2024
+  Amodei told Lex Fridman: "we both have never changed the weights of the model
+  without telling anyone."
 concreteness: measurable
 status: open
 breaks_if: >-
@@ -32,6 +34,12 @@ breaks_if: >-
   server load; or a change to a released model that was not announced.
 related: [2026-04-23-claude-code-quality-postmortem]
 sources:
+  - title: 'Transcript for Dario Amodei: Anthropic CEO on Claude, AGI & the Future
+      of AI & Humanity | Lex Fridman Podcast #452'
+    publisher: Lex Fridman
+    url: https://lexfridman.com/dario-amodei-transcript/
+    date: 2024-11-11
+    type: primary
   - title: Claude on X ("We never intentionally degrade model quality")
     publisher: X
     url: https://x.com/claudeai/status/1965208249399177655

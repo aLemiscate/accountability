@@ -19,6 +19,12 @@ sources:
     url: https://www.govinfo.gov/content/pkg/CHRG-118shrg52706/html/CHRG-118shrg52706.htm
     date: 2023-05-16
     type: primary
+  - title: 'Transcript for Sam Altman: OpenAI, GPT-5, Sora, Board Saga, Elon Musk,
+      Ilya, Power & AGI | Lex Fridman Podcast #419'
+    publisher: Lex Fridman
+    url: https://lexfridman.com/sam-altman-2-transcript/
+    date: 2024-03-18
+    type: primary
   - title: Ads might be coming to ChatGPT — despite Sam Altman not being a fan
     publisher: TechCrunch
     url: https://techcrunch.com/2024/12/02/ads-might-be-coming-to-chatgpt-despite-sam-altman-not-being-a-fan/
@@ -47,6 +53,20 @@ updates:
         date: 2024-05-30
         type: primary
         snapshot: snapshots/2026-09-29-x.com-5a34089a
+  - date: 2025-10-17
+    text: >-
+      Asked by Tyler Cowen how important ads would be, Altman said: "I expect
+      it's something we'll try at some point. I do not think it is our biggest
+      revenue opportunity." He drew the line at paid ranking: "If ChatGPT were
+      accepting payment to put a worse hotel above a better hotel, that's
+      probably catastrophic for your relationship with ChatGPT."
+    sources:
+      - title: Sam Altman on Trust, Persuasion, and the Future of Intelligence -
+          Live at the Progress Conference (Ep. 259)
+        publisher: Conversations with Tyler
+        url: https://conversationswithtyler.com/episodes/sam-altman-2/
+        date: 2025-11-05
+        type: primary
   - date: 2025-12-06
     text: >-
       Six weeks before the ads announcement, Turley answered rumors: "There are
@@ -64,4 +84,8 @@ note: >-
   Altman never ruled ads out. Asked at his May 2023 Senate hearing whether
   OpenAI would ever run ads, he said: "I wouldn't say never," adding, "I really
   like having a subscription-based model." The same day he told the committee
-  OpenAI was "not an advertising-based model."
+  OpenAI was "not an advertising-based model." In March 2024 he told Lex
+  Fridman, "We don't run ads on our free version," and that OpenAI could have "a
+  great business that pays for our compute needs without ads." When Fridman said
+  he didn't want to rule ads out entirely, Altman replied: "I'm not saying that.
+  I guess I'm saying I have a bias against them."

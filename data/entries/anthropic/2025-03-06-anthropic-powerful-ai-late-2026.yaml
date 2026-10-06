@@ -67,6 +67,22 @@ sources:
     type: analysis
     archive: https://web.archive.org/web/20261003121418/https://www.lesswrong.com/posts/prSnGGAgfWtZexYLp/is-90-of-code-at-anthropic-being-written-by-ais
     snapshot: snapshots/2026-10-03-lesswrong.com-67540495
+updates:
+  - date: 2026-02-13
+    text: >-
+      Amodei told Dwarkesh Patel that his 90% prediction "happened, at least at
+      some places. It happened at Anthropic," while calling it "a very weak
+      criterion." Of powerful AI he said: "I said we'll get that in 2026, maybe
+      2027. Again, that is my hunch. I wouldn't be surprised if I'm off by a
+      year or two." His estimate for a "country of geniuses in a data center"
+      was "one to two years, maybe one to three years," which he called "more
+      like a 50/50 thing," with 90% confidence within ten years.
+    sources:
+      - title: Dario Amodei — "We are near the end of the exponential"
+        publisher: Dwarkesh Podcast
+        url: https://www.dwarkesh.com/p/dario-amodei-2
+        date: 2026-02-13
+        type: primary
 note: >-
   Due within months. The 90% prediction is the warning sign: it was later
   described as roughly met inside Anthropic, under a looser reading than the

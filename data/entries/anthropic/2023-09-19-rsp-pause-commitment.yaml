@@ -25,6 +25,21 @@ sources:
     date: 2023-09-19
     type: primary
     snapshot: snapshots/2026-09-29-anthropic.com-394ea6d1
+updates:
+  - date: 2023-10-06
+    text: >-
+      Two weeks after publishing it, Amodei described the commitment on The
+      Logan Bartlett Show: "if we get to a certain capability of model and we
+      don't have the relevant safety and security procedures in place, then we
+      have to stop developing more powerful models." He recommended that every
+      developer adopt one: "if you don't take it really seriously, you're the
+      bad guy." (Quoted from the audio.)
+    sources:
+      - title: 'EP 82: Dario Amodei’s (CEO, Anthropic) AI Predictions Through 2030'
+        publisher: The Logan Bartlett Show
+        url: https://podcasts.apple.com/us/podcast/ep-82-dario-amodeis-ceo-anthropic-ai-predictions-through/id1606770839?i=1000630430473
+        date: 2023-10-06
+        type: primary
 note: >-
   This was the most concrete safety commitment either company made. That's why
   its removal matters most.

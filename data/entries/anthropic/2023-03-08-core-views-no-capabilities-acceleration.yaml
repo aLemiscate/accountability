@@ -22,7 +22,26 @@ sources:
     date: 2023-03-08
     type: primary
     snapshot: snapshots/2026-09-29-anthropic.com-5fa46de6
+  - title: Daniela and Dario Amodei on Anthropic
+    publisher: Future of Life Institute
+    url: https://futureoflife.org/podcast/daniela-and-dario-amodei-on-anthropic/
+    date: 2022-03-04
+    type: primary
 updates:
+  - date: 2023-08-08
+    text: >-
+      Five months later Amodei described how the principle had been applied:
+      "we didn't cause the big acceleration that happened late last year and at
+      the beginning of this year. We weren't the ones who did that." He added:
+      "And then once it had happened, once the ecosystem had changed, then we
+      did a lot of things to stay on the frontier."
+    sources:
+      - title: Dario Amodei (Anthropic CEO) - $10 Billion Models, OpenAI, Scaling,
+          & AGI in 2 years
+        publisher: Dwarkesh Podcast
+        url: https://www.dwarkesh.com/p/dario-amodei
+        date: 2023-08-08
+        type: primary
   - date: 2026-09-09
     text: >-
       Jacob Coxon, a pretraining researcher who had worked at OpenAI and then
@@ -65,4 +84,8 @@ updates:
 note: >-
   Withholding publications is one way to avoid accelerating. Shipping the best
   model on the market is another question, and this principle never addressed
-  it.
+  it. A year before the essay, in March 2022, Dario Amodei had stated a
+  narrower version on the Future of Life Institute podcast: "I think we
+  shouldn't be racing ahead or trying to build models that are way bigger than
+  other orgs are building them," while still working "on top of models that
+  are reasonably close to state of the art."
