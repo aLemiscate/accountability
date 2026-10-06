@@ -30,6 +30,11 @@ sources:
     type: reporting
     archive: https://web.archive.org/web/20261001031243/https://www.cnbc.com/2026/02/12/anthropic-gives-20-million-to-group-pushing-for-ai-regulations-.html
     snapshot: snapshots/2026-10-01-cnbc.com-d4ec2326
+  - title: 'Artificial Intelligence: An AI Boss Warns About the Risks (Dario Amodei)'
+    publisher: BBC Radical with Amol Rajan
+    url: https://www.bbc.co.uk/programmes/m002ht32
+    date: 2025-09-04
+    type: primary
 updates:
   - date: 2026-04-13
     text: >-
@@ -77,4 +82,10 @@ note: >-
   Recorded under the same standard as Brockman's giving. It isn't a broken
   promise, since Anthropic's spending matches its stated policy views. The
   reason it's here is that the early coverage, and the company's vague
-  announcement, made the gift look like election money when it wasn't.
+  announcement, made the gift look like election money when it wasn't. Five
+  months before the first gift, Amodei told the BBC that some AI companies
+  were "putting all of their money into, frankly, corruptly, trying to make
+  sure that the technology is not regulated at all," naming "a bunch of super
+  PACs, including by OpenAI co-founders." (Quoted from the audio, about 34:00
+  and 36:21.) Anthropic's money went to the other side of that fight, and, by
+  its account, not to elections.

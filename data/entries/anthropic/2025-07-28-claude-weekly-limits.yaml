@@ -89,12 +89,22 @@ sources:
     date: 2026-05-06
     type: primary
     snapshot: snapshots/2026-10-03-anthropic.com-f53c308c
+  - title: "Anthropic CEO Dario Amodei: AI's Potential, OpenAI Rivalry, GenAI
+      Business, Doomerism"
+    publisher: Big Technology Podcast
+    url: https://podcasts.apple.com/us/podcast/anthropic-ceo-dario-amodei-ais-potential-openai-rivalry/id1522960417?i=1000719782760
+    date: 2025-07-30
+    type: primary
 response: >-
   Anthropic said Claude Code had "seen unprecedented demand," that some users
   ran it "continuously in the background, 24/7," that "one user consumed tens of
   thousands in model usage on a $200 plan," and that others were sharing and
   reselling accounts. A spokesperson told TechCrunch "most users won’t notice a
-  difference."
+  difference." In an interview published two days after the caps were
+  announced, Dario Amodei said Anthropic had released Claude Code in the Max
+  tier "actually not fully understanding the implications of the ways in which
+  people could use the models and how much they were actually able to get."
+  (Quoted from the audio of the Big Technology Podcast, about 29:17.)
 note: >-
   The plan was sold as a multiple of Pro, never as a fixed amount, which is what
   let the absolute limits move under it. Anthropic announced the weekly caps a
