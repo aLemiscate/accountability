@@ -98,6 +98,28 @@ sources:
     type: primary
     archive: https://web.archive.org/web/20261007065225/https://podcasts.apple.com/us/podcast/anthropic-ceo-dario-amodei-ais-potential-openai-rivalry/id1522960417?i=1000719782760
     snapshot: snapshots/2026-10-07-podcasts.apple.com-52200dd2
+updates:
+  - date: 2025-07-29
+    text: >-
+      Anthropic's help page on Max plan usage was rewritten the same week
+      without a note. "5x more usage than Pro" and "20x more usage than Pro"
+      became "5x more usage per session" and "20x more usage per session." The
+      line "We will provide a warning when you have a limited number of
+      messages remaining" was removed, the message estimates now assumed "a
+      less compute-intensive model," and the "50 sessions" guideline was
+      replaced with: "we may limit your usage in other ways, such as weekly
+      and monthly caps or model and feature usage, at our discretion."
+    sources:
+      - title: About Claude's Max Plan Usage, as archived on July 25, 2025
+        publisher: Internet Archive
+        url: https://web.archive.org/web/20250725141546/https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage
+        date: 2025-07-25
+        type: archive
+      - title: About Claude's Max Plan Usage, as archived on July 29, 2025
+        publisher: Internet Archive
+        url: https://web.archive.org/web/20250729144133/https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage
+        date: 2025-07-29
+        type: archive
 response: >-
   Anthropic said Claude Code had "seen unprecedented demand," that some users
   ran it "continuously in the background, 24/7," that "one user consumed tens of

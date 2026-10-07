@@ -1,0 +1,41 @@
+title: Anthropic's help page quietly lowers the Claude Pro allowance it describes,
+  from "at least 100 messages every 8 hours" to "around 45 messages every 5 hours"
+date: 2024-04
+org: anthropic
+type: did
+kind: action
+who: [anthropic]
+quote: >-
+  you can expect to send around 45 messages every 5 hours, often more
+  depending on Claude’s current capacity.
+summary: >-
+  From Claude Pro's launch in September 2023, Anthropic's help article on Pro
+  usage said a subscriber with short conversations "can expect to send at
+  least 100 messages every 8 hours, often more depending on Claude’s current
+  capacity." Between April 2 and April 5, 2024, a month after the more
+  expensive Claude 3 Opus model launched, the same sentence changed to "around
+  45 messages every 5 hours." That is about nine messages an hour instead of
+  at least twelve and a half, and "at least" became "around." The archived
+  copies show no note of the change, and no announcement or reporting of it
+  was found. The new wording stayed until the last archived copy, in July
+  2025; the article has since been taken down.
+patterns: [silent-edit, shrinking-plan]
+related: [2025-07-28-claude-weekly-limits]
+sources:
+  - title: About Claude Pro usage, as archived on April 2, 2024
+    publisher: Internet Archive
+    url: https://web.archive.org/web/20240402062744/https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage
+    date: 2024-04-02
+    type: archive
+  - title: About Claude Pro usage, as archived on April 5, 2024
+    publisher: Internet Archive
+    url: https://web.archive.org/web/20240405190601/https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage
+    date: 2024-04-05
+    type: archive
+response: >-
+  No statement from Anthropic about the change was found.
+note: >-
+  The page describes a typical allowance, not a guaranteed one, and the real
+  limit depends on conversation length and capacity, so this records a change
+  in what Anthropic told subscribers rather than a measured cut. Found by
+  reading every archived version of the page in order.
