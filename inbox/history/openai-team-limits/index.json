@@ -1,0 +1,18 @@
+{
+ "id": "openai-team-limits",
+ "org": "openai",
+ "urls": [
+  "https://help.openai.com/en/articles/8801707-what-is-the-message-cap-on-chatgpt-team",
+  "https://help.openai.com/en/articles/12003714-chatgpt-team-models-limits",
+  "https://help.openai.com/en/articles/12003714-chatgpt-business-models-limits",
+  "https://help.openai.com/en/articles/12003714-chatgpt-business-models-and-limits"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://help.openai.com/en/articles/8801707-what-is-the-message-cap-on-chatgpt-team",
+   "error": "could not read the live page"
+  }
+ ],
+ "captures": []
+}

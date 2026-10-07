@@ -1,0 +1,69 @@
+Go to OpenAI English ; English
+Go to OpenAI English ; English
+Table of contents
+All Collections
+ChatGPT
+How can I access GPT-4, GPT-4 Turbo and GPT-4o?
+How can I access GPT-4, GPT-4 Turbo and GPT-4o?
+Learn how to get access to GPT-4o in ChatGPT and GPT-4, GPT-4 Turbo, and GPT-4o the OpenAI API
+Table of contents
+What is GPT 4o?
+GPT-4o is OpenAI's new flagship model that can reason across audio, vision, and text in real time.
+GPT-4o will be available in ChatGPT and the API as a text and vision model (ChatGPT will continue to have support for voice via the pre-existing Voice Mode feature) initially. Specifically, GPT-4o will be available in ChatGPT Free, Plus, and Team (with Enterprise coming soon) and in the Chat Completions API, Assistants API, and Batch API.
+Accessing GPT-4, GPT-4 Turbo and GPT-4o in the OpenAI API
+GPT-4 Turbo vs. GPT-4o
+GPT-4o has the same high intelligence but is faster, cheaper, and has higher rate limits than GPT-4 Turbo. Specifically:
+• Pricing: GPT-4o is 50% cheaper than GPT-4 Turbo, coming in at $5/M input and $15/M output tokens).
+• Rate limits: GPT-4o’s rate limits are 5x higher than GPT-4 Turbo—up to 10 million tokens per minute.
+• Speed: GPT-4o is 2x as fast as GPT-4 Turbo.
+• Vision: GPT-4o’s vision capabilities perform better than GPT-4 Turbo in evals related to vision capabilities.
+• Multilingual: GPT-4o has improved support for non-English languages over GPT-4 Turbo.
+GPT-4o currently has a context window of 128k and has a knowledge cut-off date of October 2023.
+Availability in the API
+GPT-4o is available to anyone with an OpenAI API account, and you can use this model in the Chat Completions API, Assistants API , and Batch API . Function calling and JSON mode are also supported by this model. You can also get started via the Playground .
+After you have made a successful payment of $5 or more (usage tier 1), you'll be able to access the GPT-4, GPT-4 Turbo, and GPT-4o models via the OpenAI API.
+Learn more about adding credit to your OpenAI account.
+Current GPT-4o pricing in the API is available on our API pricing page .
+API Request limits
+Please note that ChatGPT rate limits are independent of API rate limits. You can learn more about API rate limits here .
+You can view your API rate limits in the limits section of the API Platform.
+Please be patient though — we expect massive demand and will scale up and optimize our systems over the coming months.
+How we handle data sent to the OpenAI API
+As with the rest of our platform, data and files passed to the OpenAI API are never used to train our models unless you explicitly choose to opt in to training. You can read more about our data retention and compliance standards here .
+Accessing GPT-4o with ChatGPT
+ChatGPT Free Tier
+Users on the Free tier will be defaulted to GPT-4o with a limit on the number of messages they can send using GPT-4o, which will vary based on current usage and demand. When unavailable, Free tier users will be switched back to GPT-3.5.
+Free users also receive limited access to messages using advanced tools, such as:
+• Data analysis
+• File Uploads
+• Browse
+• Discovering and using GPTs
+• Vision
+GPT-4o has advanced vision capabilities, which increases accuracy in understanding images you share.
+Free tier users can upgrade to Plus at any time by clicking on ChatGPT:
+ChatGPT Plus and Team
+ChatGPT Plus and Team subscribers have GPT-4 and GPT-4o access on chatgpt.com with a larger usage cap.
+ChatGPT Plus and Team users will be able to select GPT-4o from the drop down menu at the top of the page:
+As of May 13th 2024, Plus users will be able to send up to 80 messages every 3 hours on GPT-4o and up to 40 messages every 3 hours on GPT-4. We may reduce the limit during peak hours to keep GPT-4 and GPT-4o accessible to the widest number of people.
+The GPT-4 and GPT-4o message caps for a user in a ChatGPT Team workspace is higher than that of ChatGPT Plus.
+Please note that unused messages do not accumulate (i.e. if you wait 6 hours, you will not have 80 messages available to use for the next 3 hours on GPT-4).
+ChatGPT Enterprise
+ChatGPT Enterprise customers will have access to GPT-4o soon.
+The ChatGPT Enterprise plan is designed specifically to meet the needs of large enterprises, with unlimited, high-speed access to GPT-4o and GPT-4.
+New conversations on a ChatGPT Enterprise account will default to GPT-4o. ChatGPT Enterprise users will be able to select other models from the drop down menu at the top of the page:
+ChatGPT Enterprise also offers enterprise-grade security and privacy, longer context windows for processing longer inputs, unlimited, high speed access to advanced tools like data analysis, customization options, and much more.
+If you'd like to purchase ChatGPT Enterprise for your organization, please reach out to our sales team . Under "Which of our products or services are you interested in? ", please specify "ChatGPT Enterprise".
+Related Articles
+How can I use GPT-4 with images?
+GPT-4 Vision API
+GPT-4 Turbo in the OpenAI API
+GPT-3.5 Turbo Updates
+GPTs vs Assistants
+Did this answer your question?
+😞 😐 😃
+• ChatGPT
+• API
+• DALL·E
+• Service Status
+•
+•

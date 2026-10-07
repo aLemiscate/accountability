@@ -1,0 +1,46 @@
+ChatGPT Enterprise and Edu - Models & Limits | OpenAI Help Center
+• All Collections
+• ChatGPT Enterprise and Edu
+• ChatGPT Enterprise and Edu - Models & Limits
+ChatGPT Enterprise and Edu - Models & Limits
+Understand which models are best suited for your tasks.
+Updated: 6 days ago
+As of February 13, 2026, models GPT-4o, GPT-4.1, GPT-4.1 mini, OpenAI o4-mini, and GPT-5 (Instant and Thinking) have been retired from ChatGPT and are no longer available. API access remains unchanged.
+For more information, please refer to our article: Retiring GPT-4o and other ChatGPT models
+Overview
+ChatGPT Enterprise is a subscription plan which offers enterprise-grade security and privacy, unlimited messages with GPT-5.5 Instant, native tools like apps, deep research, data analysis, file uploads, canvas, projects, search, advanced voice, and image generation, customization options, and much more.
+Learn how ChatGPT can transform your organization.
+If you are on ChatGPT flexible pricing, please refer to this page for latest rates on our models, features and products.
+Please note that access to GPT-5.5 Instant is by default disabled for ChatGPT Enterprise workspaces. Admins and owners can enable access in their workspace settings . GPT-5.5 will not be available to ChatGPT for Healthcare workspaces.
+Model Picker
+In the model picker, Auto automatically switches between Instant and Thinking, and you can also choose additional model options directly from the top of the model picker.
+• Auto — flagship model
+• Instant — answers right away
+• Thinking — get more thorough answers
+• Pro — research-grade intelligence
+Workspace admins can enable additional legacy models (including GPT-4o) for the entire workspace in their admin settings . For workspaces utilizing flexible pricing, please refer to the ChatGPT Rate Card for information on credit consumption by model.
+Please note that the context window for GPT-5.5 Instant is 128K and for GPT-5.5 Thinking is 196K.
+For additional information on what legacy models are currently available, please refer to our article: Legacy Model Access for Enterprise and Edu
+Managing Auto routing for reasoning (flexible pricing)
+Enterprises on the flexible pricing plan can set Auto to use Thinking mini instead of Thinking for reasoning tasks. No credits are consumed when using Thinking mini.
+To update this setting:
+• Go to Workspace settings.
+• Under Models, enable Redirect Auto Router to Thinking mini
+When turned on, reasoning requests sent to Auto will use Thinking mini instead of Thinking.
+If GPT-5.5 Thinking is enabled in your workspace, members can still manually select it from the model picker.
+Note on Unlimited Access
+The ChatGPT Enterprise plan offers virtually unlimited GPT-5.5 messages. However, usage must adhere to our Services Agreement , which prohibits, among other things:
+• Abusive usage, such as automatically or programmatically extracting data.
+• Sharing your account credentials or making your account available to anyone else.
+• Reselling access or using ChatGPT to power third-party services.
+We have guardrails in place to help prevent misuse and are always working to improve our systems. This may occasionally involve a temporary restriction on your usage. We will inform you when this happens, and if you think this might be a mistake, please don’t hesitate to reach out to our support team. If policy-violating behavior is not found, your access will be restored.
+GPT-5.5 behavior with role-based access control (RBAC)
+GPT-5.5 model options are available by default for Enterprise workspaces. For future model launches, workspaces with Early model access enabled may receive access before general availability. To manage advanced model credit consumption in ChatGPT Enterprise, workspace owners can use usage limits for custom roles .
+• New chats: When GPT-5.5 Instant or GPT-5.5 Thinking/Pro is enabled through RBAC, new chats that use GPT-5.5 Instant or GPT-5.5 Thinking/Pro will automatically use the equivalent model.
+• Existing chats: If a member starts a chat with GPT-5.5 while RBAC access is enabled and an admin later turns off access, new messages in that chat will not send and will display: “Access denied. Please try using another model.”
+This behavior applies to all ChatGPT Enterprise and Edu workspaces that use RBAC
+New Model Access Toggles Appear in Workspace Settings
+Models like those listed above may be available to users by default through role permissions. Later, as a model is being deprecated, a dedicated toggle appears in Workspace Settings so admins can manage access explicitly. Since the model was already enabled by default, the new toggle will appear as “On,” which can look unexpected even though access was not newly granted and already existed.
+Was this article helpful?
+Submit
+ChatGPT API Service Status Cookie Preferences
