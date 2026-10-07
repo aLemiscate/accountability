@@ -1,0 +1,627 @@
+{
+ "id": "anthropic-usage-policy",
+ "org": "anthropic",
+ "urls": [
+  "https://www.anthropic.com/legal/aup",
+  "https://www.anthropic.com/aup",
+  "https://console.anthropic.com/legal/aup"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://www.anthropic.com/legal/aup",
+   "title": "Usage Policy \\ Anthropic",
+   "via": "fetch",
+   "sha": "088b2a28e417bf00",
+   "words": 2588
+  }
+ ],
+ "captures": [
+  {
+   "ts": "20230307042322",
+   "url": "https://www.anthropic.com/aup",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230711140126",
+   "url": "https://console.anthropic.com/legal/aup",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230811173628",
+   "url": "https://console.anthropic.com/legal/aup",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230913014243",
+   "url": "https://console.anthropic.com/legal/aup",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231005192300",
+   "url": "https://console.anthropic.com/legal/aup",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231102005659",
+   "url": "https://console.anthropic.com/legal/aup",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231206233132",
+   "url": "https://console.anthropic.com/legal/aup",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240116135413",
+   "url": "https://console.anthropic.com/legal/aup",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240208221354",
+   "url": "https://console.anthropic.com/legal/aup",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240303072935",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "38ad6ef692850283",
+   "title": "Acceptable Use Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240401030801",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "38ad6ef692850283",
+   "title": "Acceptable Use Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240501171927",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "38ad6ef692850283",
+   "title": "Acceptable Use Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240503012649",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "38ad6ef692850283",
+   "title": "Acceptable Use Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240513052447",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "96e12143fb28af54",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240517033304",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "96e12143fb28af54",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240520231119",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "96e12143fb28af54",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240522025400",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "f424646950e698e9",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240601091819",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "f424646950e698e9",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240604013037",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "f424646950e698e9",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240608174645",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "96e12143fb28af54",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240613205311",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "f18f5c1809321d3b",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240624230412",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "f18f5c1809321d3b",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240627141051",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240702010550",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "0d3808e6232c5f73",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240801120944",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "0d3808e6232c5f73",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240901231609",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "0d3808e6232c5f73",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241001144020",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "0d3808e6232c5f73",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241004072026",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241008065246",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241010095525",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "e89989e7dd201907",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241013100705",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241030190829",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241101170114",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "7ad1b748a60f3c9c",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241104105100",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241113111336",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241202153840",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250101035204",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250201105511",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250303042742",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250401063051",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250501055243",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250516053409",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250524034016",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250526202015",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250528205830",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "0d3808e6232c5f73",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250601092651",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "7ad1b748a60f3c9c",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250603140856",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250610083448",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250614190642",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250626083133",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250629101803",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250630105611",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250701005526",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "0d3808e6232c5f73",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250702010752",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250703181438",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250708090049",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250718221324",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250723165418",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250727003106",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250730064434",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250731025534",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250801052009",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "e89989e7dd201907",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250802092103",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250810130556",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250812013310",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250815062443",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "61db9d733e752332",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250818195357",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "088b2a28e417bf00",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250901071113",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "088b2a28e417bf00",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20251001025104",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "088b2a28e417bf00",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20251101034507",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "088b2a28e417bf00",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20251201164707",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "088b2a28e417bf00",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260101085313",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "088b2a28e417bf00",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260201063824",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "088b2a28e417bf00",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260301065631",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "088b2a28e417bf00",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260401041829",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "088b2a28e417bf00",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260501063305",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "088b2a28e417bf00",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260601183356",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "088b2a28e417bf00",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260701064127",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "088b2a28e417bf00",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260801164535",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "088b2a28e417bf00",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260901231215",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "088b2a28e417bf00",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20261001070215",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "088b2a28e417bf00",
+   "title": "Usage Policy \\ Anthropic"
+  },
+  {
+   "ts": "20261005095111",
+   "url": "https://www.anthropic.com/legal/aup",
+   "sha": "088b2a28e417bf00",
+   "title": "Usage Policy \\ Anthropic"
+  }
+ ],
+ "versions": [
+  {
+   "sha": "38ad6ef692850283",
+   "first": "20240303072935",
+   "last": "20240503012649",
+   "url": "https://www.anthropic.com/legal/aup"
+  },
+  {
+   "sha": "96e12143fb28af54",
+   "first": "20240513052447",
+   "last": "20240520231119",
+   "url": "https://www.anthropic.com/legal/aup"
+  },
+  {
+   "sha": "f424646950e698e9",
+   "first": "20240522025400",
+   "last": "20240604013037",
+   "url": "https://www.anthropic.com/legal/aup"
+  },
+  {
+   "sha": "96e12143fb28af54",
+   "first": "20240608174645",
+   "last": "20240608174645",
+   "url": "https://www.anthropic.com/legal/aup"
+  },
+  {
+   "sha": "f18f5c1809321d3b",
+   "first": "20240613205311",
+   "last": "20240624230412",
+   "url": "https://www.anthropic.com/legal/aup"
+  },
+  {
+   "sha": "61db9d733e752332",
+   "first": "20240627141051",
+   "last": "20240627141051",
+   "url": "https://www.anthropic.com/legal/aup"
+  },
+  {
+   "sha": "0d3808e6232c5f73",
+   "first": "20240702010550",
+   "last": "20241001144020",
+   "url": "https://www.anthropic.com/legal/aup"
+  },
+  {
+   "sha": "61db9d733e752332",
+   "first": "20241004072026",
+   "last": "20241008065246",
+   "url": "https://www.anthropic.com/legal/aup"
+  },
+  {
+   "sha": "e89989e7dd201907",
+   "first": "20241010095525",
+   "last": "20241010095525",
+   "url": "https://www.anthropic.com/legal/aup"
+  },
+  {
+   "sha": "61db9d733e752332",
+   "first": "20241013100705",
+   "last": "20241030190829",
+   "url": "https://www.anthropic.com/legal/aup"
+  },
+  {
+   "sha": "7ad1b748a60f3c9c",
+   "first": "20241101170114",
+   "last": "20241101170114",
+   "url": "https://www.anthropic.com/legal/aup"
+  },
+  {
+   "sha": "61db9d733e752332",
+   "first": "20241104105100",
+   "last": "20250526202015",
+   "url": "https://www.anthropic.com/legal/aup"
+  },
+  {
+   "sha": "0d3808e6232c5f73",
+   "first": "20250528205830",
+   "last": "20250528205830",
+   "url": "https://www.anthropic.com/legal/aup"
+  },
+  {
+   "sha": "7ad1b748a60f3c9c",
+   "first": "20250601092651",
+   "last": "20250601092651",
+   "url": "https://www.anthropic.com/legal/aup"
+  },
+  {
+   "sha": "61db9d733e752332",
+   "first": "20250603140856",
+   "last": "20250630105611",
+   "url": "https://www.anthropic.com/legal/aup"
+  },
+  {
+   "sha": "0d3808e6232c5f73",
+   "first": "20250701005526",
+   "last": "20250701005526",
+   "url": "https://www.anthropic.com/legal/aup"
+  },
+  {
+   "sha": "61db9d733e752332",
+   "first": "20250702010752",
+   "last": "20250731025534",
+   "url": "https://www.anthropic.com/legal/aup"
+  },
+  {
+   "sha": "e89989e7dd201907",
+   "first": "20250801052009",
+   "last": "20250801052009",
+   "url": "https://www.anthropic.com/legal/aup"
+  },
+  {
+   "sha": "61db9d733e752332",
+   "first": "20250802092103",
+   "last": "20250815062443",
+   "url": "https://www.anthropic.com/legal/aup"
+  },
+  {
+   "sha": "088b2a28e417bf00",
+   "first": "20250818195357",
+   "last": "20261005095111",
+   "url": "https://www.anthropic.com/legal/aup"
+  }
+ ],
+ "complete": true
+}

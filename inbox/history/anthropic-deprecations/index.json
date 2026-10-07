@@ -1,0 +1,919 @@
+{
+ "id": "anthropic-deprecations",
+ "org": "anthropic",
+ "urls": [
+  "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+  "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+  "https://docs.claude.com/en/docs/about-claude/model-deprecations",
+  "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "title": "Model deprecations - Claude Platform Docs",
+   "via": "fetch",
+   "sha": "660da7b3b1bf4b1c",
+   "words": 1683
+  }
+ ],
+ "captures": [
+  {
+   "ts": "20240907033629",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "sha": "6e501e9cf22b0ff4",
+   "title": "Model Deprecations - Anthropic"
+  },
+  {
+   "ts": "20240912202156",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "sha": "ccab441485477bed",
+   "title": "Model Deprecations - Anthropic"
+  },
+  {
+   "ts": "20240918185824",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "sha": "ccab441485477bed",
+   "title": "Model Deprecations - Anthropic"
+  },
+  {
+   "ts": "20241005150105",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "sha": "ccab441485477bed",
+   "title": "Model Deprecations - Anthropic"
+  },
+  {
+   "ts": "20241008204242",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "sha": "86593c5a91ef312c",
+   "title": "Model Deprecations - Anthropic"
+  },
+  {
+   "ts": "20241102001700",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "sha": "f5632a967de0def7",
+   "title": "Model Deprecations - Anthropic"
+  },
+  {
+   "ts": "20241107191611",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "sha": "df3bdb37c33e44ca",
+   "title": "Model Deprecations - Anthropic"
+  },
+  {
+   "ts": "20241117001211",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "sha": "d05d54d4f5b92671",
+   "title": "Model Deprecations - Anthropic"
+  },
+  {
+   "ts": "20241202072704",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "sha": "8bc387c1d6dbd0a1",
+   "title": "Model Deprecations - Anthropic"
+  },
+  {
+   "ts": "20241212110823",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "sha": "8bc387c1d6dbd0a1",
+   "title": "Model Deprecations - Anthropic"
+  },
+  {
+   "ts": "20241219013036",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "sha": "289bc05b7d9e4775",
+   "title": "Model Deprecations - Anthropic"
+  },
+  {
+   "ts": "20250116194647",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "sha": "4d0ea8e08673cefb",
+   "title": "Model Deprecations - Anthropic"
+  },
+  {
+   "ts": "20250121114610",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "sha": "4d0ea8e08673cefb",
+   "title": "Model Deprecations - Anthropic"
+  },
+  {
+   "ts": "20250123183906",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "sha": "c6feb978b42dee13",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250201122656",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "sha": "c6feb978b42dee13",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250219021403",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "sha": "c6feb978b42dee13",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250227091015",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "sha": "568bfcd5ca39f5fc",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250304075323",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "sha": "1dcf8dbe78d5a5df",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250308032926",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "sha": "1dcf8dbe78d5a5df",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250328090033",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "sha": "020cc7ba4662521d",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250419124151",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "sha": "020cc7ba4662521d",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250502181751",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations",
+   "sha": "020cc7ba4662521d",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250518161434",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+   "sha": "508bf852222a33a6",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250526121655",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+   "sha": "891f62456c3c027e",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250528050429",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+   "sha": "891f62456c3c027e",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250610103157",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+   "sha": "c9bf14e925075e42",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250623212439",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+   "sha": "177777b5fd70fc3e",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250624203839",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+   "sha": "177777b5fd70fc3e",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250626200839",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+   "sha": "177777b5fd70fc3e",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250715033924",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+   "sha": "0ce05cef5c75a248",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250716123837",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+   "sha": "0ce05cef5c75a248",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250725120018",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+   "sha": "540f79b0f940f29f",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250803042626",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+   "sha": "540f79b0f940f29f",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250806014553",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+   "sha": "e5b0f649f2705333",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250807075657",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+   "sha": "e5b0f649f2705333",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250810034737",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+   "sha": "fcb26c066c39ae88",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250819161036",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+   "sha": "b2b8985d7c35745c",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250912143009",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+   "sha": "c6337407f24a2f1f",
+   "title": "Model deprecations - Anthropic"
+  },
+  {
+   "ts": "20250917215007",
+   "url": "https://docs.claude.com/en/docs/about-claude/model-deprecations",
+   "sha": "6c3018961da093b8",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20250918064428",
+   "url": "https://docs.claude.com/en/docs/about-claude/model-deprecations",
+   "sha": "6c3018961da093b8",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20250919232700",
+   "url": "https://docs.claude.com/en/docs/about-claude/model-deprecations",
+   "sha": "6c3018961da093b8",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20250930014310",
+   "url": "https://docs.claude.com/en/docs/about-claude/model-deprecations",
+   "sha": "2cc28015987fbfc3",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20251013050801",
+   "url": "https://docs.claude.com/en/docs/about-claude/model-deprecations",
+   "sha": "d4452741b2cf404a",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20251017134523",
+   "url": "https://docs.claude.com/en/docs/about-claude/model-deprecations",
+   "sha": "1278c9c2114cebe9",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20251021153548",
+   "url": "https://docs.claude.com/en/docs/about-claude/model-deprecations",
+   "sha": "3aeaca407e2a5db6",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20251022170756",
+   "url": "https://docs.claude.com/en/docs/about-claude/model-deprecations",
+   "sha": "3aeaca407e2a5db6",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20251024165632",
+   "url": "https://docs.claude.com/en/docs/about-claude/model-deprecations",
+   "sha": "33a083aa3d236153",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20251028034704",
+   "url": "https://docs.claude.com/en/docs/about-claude/model-deprecations",
+   "sha": "33a083aa3d236153",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20251029013627",
+   "url": "https://docs.claude.com/en/docs/about-claude/model-deprecations",
+   "sha": "e4158376000c7522",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20251108082142",
+   "url": "https://docs.claude.com/en/docs/about-claude/model-deprecations",
+   "sha": "d8a9f5916c2ae83c",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20251121161603",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "c232cda3dbe1031d",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20251122000208",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "c232cda3dbe1031d",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20251123050936",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "d952b6ffeaffbb26",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20251124002431",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "d952b6ffeaffbb26",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20251125104625",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "089b8603969513cf",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20251128143705",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "089b8603969513cf",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20251201105813",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "089b8603969513cf",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20251202002359",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "089b8603969513cf",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20251203030043",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "91e8d3e84f8300e9",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20251204155249",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "91e8d3e84f8300e9",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20251209103037",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "91e8d3e84f8300e9",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20251212040520",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "37547276ce6e5b33",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20251214040434",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "37547276ce6e5b33",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20251218092836",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "37547276ce6e5b33",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20260101041508",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "37547276ce6e5b33",
+   "title": "Model deprecations - Claude Docs"
+  },
+  {
+   "ts": "20260202154657",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "37547276ce6e5b33",
+   "title": "Model deprecations - Claude API Docs"
+  },
+  {
+   "ts": "20260306154736",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "37547276ce6e5b33",
+   "title": "Model deprecations - Claude API Docs"
+  },
+  {
+   "ts": "20260319050253",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "37547276ce6e5b33",
+   "title": "Model deprecations - Claude API Docs"
+  },
+  {
+   "ts": "20260326161839",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "37547276ce6e5b33",
+   "title": "Model deprecations - Claude API Docs"
+  },
+  {
+   "ts": "20260329105150",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "37547276ce6e5b33",
+   "title": "Model deprecations - Claude API Docs"
+  },
+  {
+   "ts": "20260330161455",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "37547276ce6e5b33",
+   "title": "Model deprecations - Claude API Docs"
+  },
+  {
+   "ts": "20260415162937",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "08a786605ac04e74",
+   "title": "Model deprecations - Claude API Docs"
+  },
+  {
+   "ts": "20260501062301",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "08a786605ac04e74",
+   "title": "Model deprecations - Claude API Docs"
+  },
+  {
+   "ts": "20260611020736",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "08a786605ac04e74",
+   "title": "Model deprecations - Claude API Docs"
+  },
+  {
+   "ts": "20260612231710",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "08a786605ac04e74",
+   "title": "Model deprecations - Claude API Docs"
+  },
+  {
+   "ts": "20260615122607",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "08a786605ac04e74",
+   "title": "Model deprecations - Claude API Docs"
+  },
+  {
+   "ts": "20260618180834",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "9f6fa15ee8816d56",
+   "title": "Model deprecations - Claude API Docs"
+  },
+  {
+   "ts": "20260621050633",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "9f6fa15ee8816d56",
+   "title": "Model deprecations - Claude API Docs"
+  },
+  {
+   "ts": "20260622050310",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "9f6fa15ee8816d56",
+   "title": "Model deprecations - Claude API Docs"
+  },
+  {
+   "ts": "20260703035710",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "2b54bbc8aacedcda",
+   "title": "Model deprecations - Claude Platform Docs"
+  },
+  {
+   "ts": "20260719042509",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "2b54bbc8aacedcda",
+   "title": "Model deprecations - Claude Platform Docs"
+  },
+  {
+   "ts": "20260724014934",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "2b54bbc8aacedcda",
+   "title": "Model deprecations - Claude Platform Docs"
+  },
+  {
+   "ts": "20260725170959",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "5887b08d6a2f05b7",
+   "title": "Model deprecations - Claude Platform Docs"
+  },
+  {
+   "ts": "20260802131609",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "5887b08d6a2f05b7",
+   "title": "Model deprecations - Claude Platform Docs"
+  },
+  {
+   "ts": "20260804171832",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "19201e0baa8d4c96",
+   "title": "Model deprecations - Claude Platform Docs"
+  },
+  {
+   "ts": "20260809165202",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "19201e0baa8d4c96",
+   "title": "Model deprecations - Claude Platform Docs"
+  },
+  {
+   "ts": "20260819012921",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "e0c1d81da557de84",
+   "title": "Model deprecations - Claude Platform Docs"
+  },
+  {
+   "ts": "20260824033422",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "e0c1d81da557de84",
+   "title": "Model deprecations - Claude Platform Docs"
+  },
+  {
+   "ts": "20260827090128",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "e0c1d81da557de84",
+   "title": "Model deprecations - Claude Platform Docs"
+  },
+  {
+   "ts": "20260828171345",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "e0c1d81da557de84",
+   "title": "Model deprecations - Claude Platform Docs"
+  },
+  {
+   "ts": "20260909165810",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "3c4ed7357112c822",
+   "title": "Model deprecations - Claude Platform Docs"
+  },
+  {
+   "ts": "20260918195322",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "a0cafe46ab26093d",
+   "title": "Model deprecations - Claude Platform Docs"
+  },
+  {
+   "ts": "20260919113000",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "a0cafe46ab26093d",
+   "title": "Model deprecations - Claude Platform Docs"
+  },
+  {
+   "ts": "20260920003051",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "a0cafe46ab26093d",
+   "title": "Model deprecations - Claude Platform Docs"
+  },
+  {
+   "ts": "20260922170553",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "09d82d3cd7720ccc",
+   "title": "Model deprecations - Claude Platform Docs"
+  },
+  {
+   "ts": "20260923093900",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "09d82d3cd7720ccc",
+   "title": "Model deprecations - Claude Platform Docs"
+  },
+  {
+   "ts": "20260924110626",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "fb511fadd418f4a5",
+   "title": "Model deprecations - Claude Platform Docs"
+  },
+  {
+   "ts": "20260925215114",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "fb511fadd418f4a5",
+   "title": "Model deprecations - Claude Platform Docs"
+  },
+  {
+   "ts": "20260926103650",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "fb511fadd418f4a5",
+   "title": "Model deprecations - Claude Platform Docs"
+  },
+  {
+   "ts": "20260930233006",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "660da7b3b1bf4b1c",
+   "title": "Model deprecations - Claude Platform Docs"
+  },
+  {
+   "ts": "20261001143559",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "660da7b3b1bf4b1c",
+   "title": "Model deprecations - Claude Platform Docs"
+  },
+  {
+   "ts": "20261003080109",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "sha": "660da7b3b1bf4b1c",
+   "title": "Model deprecations - Claude Platform Docs"
+  }
+ ],
+ "versions": [
+  {
+   "sha": "6e501e9cf22b0ff4",
+   "first": "20240907033629",
+   "last": "20240907033629",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations"
+  },
+  {
+   "sha": "ccab441485477bed",
+   "first": "20240912202156",
+   "last": "20241005150105",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations"
+  },
+  {
+   "sha": "86593c5a91ef312c",
+   "first": "20241008204242",
+   "last": "20241008204242",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations"
+  },
+  {
+   "sha": "f5632a967de0def7",
+   "first": "20241102001700",
+   "last": "20241102001700",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations"
+  },
+  {
+   "sha": "df3bdb37c33e44ca",
+   "first": "20241107191611",
+   "last": "20241107191611",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations"
+  },
+  {
+   "sha": "d05d54d4f5b92671",
+   "first": "20241117001211",
+   "last": "20241117001211",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations"
+  },
+  {
+   "sha": "8bc387c1d6dbd0a1",
+   "first": "20241202072704",
+   "last": "20241212110823",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations"
+  },
+  {
+   "sha": "289bc05b7d9e4775",
+   "first": "20241219013036",
+   "last": "20241219013036",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations"
+  },
+  {
+   "sha": "4d0ea8e08673cefb",
+   "first": "20250116194647",
+   "last": "20250121114610",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations"
+  },
+  {
+   "sha": "c6feb978b42dee13",
+   "first": "20250123183906",
+   "last": "20250219021403",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations"
+  },
+  {
+   "sha": "568bfcd5ca39f5fc",
+   "first": "20250227091015",
+   "last": "20250227091015",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations"
+  },
+  {
+   "sha": "1dcf8dbe78d5a5df",
+   "first": "20250304075323",
+   "last": "20250308032926",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations"
+  },
+  {
+   "sha": "020cc7ba4662521d",
+   "first": "20250328090033",
+   "last": "20250502181751",
+   "url": "https://docs.anthropic.com/en/docs/resources/model-deprecations"
+  },
+  {
+   "sha": "508bf852222a33a6",
+   "first": "20250518161434",
+   "last": "20250518161434",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+  },
+  {
+   "sha": "891f62456c3c027e",
+   "first": "20250526121655",
+   "last": "20250528050429",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+  },
+  {
+   "sha": "c9bf14e925075e42",
+   "first": "20250610103157",
+   "last": "20250610103157",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+  },
+  {
+   "sha": "177777b5fd70fc3e",
+   "first": "20250623212439",
+   "last": "20250626200839",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+  },
+  {
+   "sha": "0ce05cef5c75a248",
+   "first": "20250715033924",
+   "last": "20250716123837",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+  },
+  {
+   "sha": "540f79b0f940f29f",
+   "first": "20250725120018",
+   "last": "20250803042626",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+  },
+  {
+   "sha": "e5b0f649f2705333",
+   "first": "20250806014553",
+   "last": "20250807075657",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+  },
+  {
+   "sha": "fcb26c066c39ae88",
+   "first": "20250810034737",
+   "last": "20250810034737",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+  },
+  {
+   "sha": "b2b8985d7c35745c",
+   "first": "20250819161036",
+   "last": "20250819161036",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+  },
+  {
+   "sha": "c6337407f24a2f1f",
+   "first": "20250912143009",
+   "last": "20250912143009",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+  },
+  {
+   "sha": "6c3018961da093b8",
+   "first": "20250917215007",
+   "last": "20250919232700",
+   "url": "https://docs.claude.com/en/docs/about-claude/model-deprecations"
+  },
+  {
+   "sha": "2cc28015987fbfc3",
+   "first": "20250930014310",
+   "last": "20250930014310",
+   "url": "https://docs.claude.com/en/docs/about-claude/model-deprecations"
+  },
+  {
+   "sha": "d4452741b2cf404a",
+   "first": "20251013050801",
+   "last": "20251013050801",
+   "url": "https://docs.claude.com/en/docs/about-claude/model-deprecations"
+  },
+  {
+   "sha": "1278c9c2114cebe9",
+   "first": "20251017134523",
+   "last": "20251017134523",
+   "url": "https://docs.claude.com/en/docs/about-claude/model-deprecations"
+  },
+  {
+   "sha": "3aeaca407e2a5db6",
+   "first": "20251021153548",
+   "last": "20251022170756",
+   "url": "https://docs.claude.com/en/docs/about-claude/model-deprecations"
+  },
+  {
+   "sha": "33a083aa3d236153",
+   "first": "20251024165632",
+   "last": "20251028034704",
+   "url": "https://docs.claude.com/en/docs/about-claude/model-deprecations"
+  },
+  {
+   "sha": "e4158376000c7522",
+   "first": "20251029013627",
+   "last": "20251029013627",
+   "url": "https://docs.claude.com/en/docs/about-claude/model-deprecations"
+  },
+  {
+   "sha": "d8a9f5916c2ae83c",
+   "first": "20251108082142",
+   "last": "20251108082142",
+   "url": "https://docs.claude.com/en/docs/about-claude/model-deprecations"
+  },
+  {
+   "sha": "c232cda3dbe1031d",
+   "first": "20251121161603",
+   "last": "20251122000208",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+  },
+  {
+   "sha": "d952b6ffeaffbb26",
+   "first": "20251123050936",
+   "last": "20251124002431",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+  },
+  {
+   "sha": "089b8603969513cf",
+   "first": "20251125104625",
+   "last": "20251202002359",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+  },
+  {
+   "sha": "91e8d3e84f8300e9",
+   "first": "20251203030043",
+   "last": "20251209103037",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+  },
+  {
+   "sha": "37547276ce6e5b33",
+   "first": "20251212040520",
+   "last": "20260330161455",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+  },
+  {
+   "sha": "08a786605ac04e74",
+   "first": "20260415162937",
+   "last": "20260615122607",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+  },
+  {
+   "sha": "9f6fa15ee8816d56",
+   "first": "20260618180834",
+   "last": "20260622050310",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+  },
+  {
+   "sha": "2b54bbc8aacedcda",
+   "first": "20260703035710",
+   "last": "20260724014934",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+  },
+  {
+   "sha": "5887b08d6a2f05b7",
+   "first": "20260725170959",
+   "last": "20260802131609",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+  },
+  {
+   "sha": "19201e0baa8d4c96",
+   "first": "20260804171832",
+   "last": "20260809165202",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+  },
+  {
+   "sha": "e0c1d81da557de84",
+   "first": "20260819012921",
+   "last": "20260828171345",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+  },
+  {
+   "sha": "3c4ed7357112c822",
+   "first": "20260909165810",
+   "last": "20260909165810",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+  },
+  {
+   "sha": "a0cafe46ab26093d",
+   "first": "20260918195322",
+   "last": "20260920003051",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+  },
+  {
+   "sha": "09d82d3cd7720ccc",
+   "first": "20260922170553",
+   "last": "20260923093900",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+  },
+  {
+   "sha": "fb511fadd418f4a5",
+   "first": "20260924110626",
+   "last": "20260926103650",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+  },
+  {
+   "sha": "660da7b3b1bf4b1c",
+   "first": "20260930233006",
+   "last": "20261003080109",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+  }
+ ],
+ "complete": true
+}

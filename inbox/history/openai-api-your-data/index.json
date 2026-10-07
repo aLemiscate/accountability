@@ -1,0 +1,1431 @@
+{
+ "id": "openai-api-your-data",
+ "org": "openai",
+ "urls": [
+  "https://developers.openai.com/api/docs/guides/your-data",
+  "https://platform.openai.com/docs/guides/your-data",
+  "https://platform.openai.com/docs/models/how-we-use-your-data",
+  "https://openai.com/policies/api-data-usage-policies"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "title": "Data controls in the OpenAI platform",
+   "via": "fetch",
+   "sha": "d05acd1f0b4b0d83",
+   "words": 6559
+  }
+ ],
+ "captures": [
+  {
+   "ts": "20230310202350",
+   "url": "https://openai.com/policies/api-data-usage-policies",
+   "sha": "0e2bf93a9a22572d",
+   "title": "API data usage policies"
+  },
+  {
+   "ts": "20230313084342",
+   "url": "https://openai.com/policies/api-data-usage-policies",
+   "sha": "0e2bf93a9a22572d",
+   "title": "API data usage policies"
+  },
+  {
+   "ts": "20230314205846",
+   "url": "https://openai.com/policies/api-data-usage-policies",
+   "sha": "1a56a85103df8461",
+   "title": "API data usage policies"
+  },
+  {
+   "ts": "20230315033156",
+   "url": "https://openai.com/policies/api-data-usage-policies",
+   "sha": "1a56a85103df8461",
+   "title": "API data usage policies"
+  },
+  {
+   "ts": "20230320031043",
+   "url": "https://openai.com/policies/api-data-usage-policies",
+   "sha": "59a61887fa152c14",
+   "title": "API data usage policies"
+  },
+  {
+   "ts": "20230321104608",
+   "url": "https://openai.com/policies/api-data-usage-policies",
+   "sha": "19edd71eaab6288d",
+   "title": "API data usage policies"
+  },
+  {
+   "ts": "20230326004853",
+   "url": "https://openai.com/policies/api-data-usage-policies",
+   "sha": "19edd71eaab6288d",
+   "title": "API data usage policies"
+  },
+  {
+   "ts": "20230327202140",
+   "url": "https://openai.com/policies/api-data-usage-policies",
+   "sha": "19edd71eaab6288d",
+   "title": "API data usage policies"
+  },
+  {
+   "ts": "20230329073231",
+   "url": "https://openai.com/policies/api-data-usage-policies",
+   "sha": "19edd71eaab6288d",
+   "title": "API data usage policies"
+  },
+  {
+   "ts": "20230406201802",
+   "url": "https://openai.com/policies/api-data-usage-policies",
+   "sha": "8550a74b4a3b1aed",
+   "title": "API data usage policies"
+  },
+  {
+   "ts": "20230411132037",
+   "url": "https://openai.com/policies/api-data-usage-policies",
+   "sha": "8550a74b4a3b1aed",
+   "title": "API data usage policies"
+  },
+  {
+   "ts": "20230414191905",
+   "url": "https://openai.com/policies/api-data-usage-policies",
+   "sha": "c8c5e4afab7251e7",
+   "title": "API data usage policies"
+  },
+  {
+   "ts": "20230506031610",
+   "url": "https://openai.com/policies/api-data-usage-policies",
+   "sha": "1d8b72c1af7ab29b",
+   "title": "API data usage policies"
+  },
+  {
+   "ts": "20230529145713",
+   "url": "https://openai.com/policies/api-data-usage-policies",
+   "sha": "3b0d0bb2b3c5063b",
+   "title": "API data usage policies"
+  },
+  {
+   "ts": "20230601201851",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230604200140",
+   "url": "https://openai.com/policies/api-data-usage-policies/",
+   "sha": "3b0d0bb2b3c5063b",
+   "title": "API data usage policies"
+  },
+  {
+   "ts": "20230609200251",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230613014811",
+   "url": "https://openai.com/policies/api-data-usage-policies",
+   "sha": "f346e99a9ef79cf0",
+   "title": "API data usage policies"
+  },
+  {
+   "ts": "20230613214737",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230623231447",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230706114434",
+   "url": "https://openai.com/policies/api-data-usage-policies",
+   "sha": "95b638414a3b2257",
+   "title": "API data usage policies"
+  },
+  {
+   "ts": "20230720201418",
+   "url": "https://openai.com/policies/api-data-usage-policies",
+   "sha": "95b638414a3b2257",
+   "title": "API data usage policies"
+  },
+  {
+   "ts": "20230720201501",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230721204612",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230722220429",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230722222056",
+   "url": "https://openai.com/policies/api-data-usage-policies",
+   "sha": "9faf29b51172c10a",
+   "title": "API data usage policies"
+  },
+  {
+   "ts": "20230801160636",
+   "url": "https://openai.com/policies/api-data-usage-policies",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230801160721",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230810012636",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230819025321",
+   "url": "https://openai.com/policies/api-data-usage-policies",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230831065211",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230906150629",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230925231030",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230928013306",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231008173025",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231010211237",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231106184008",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231111125150",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231112161823",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231202105242",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231226230116",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240121104931",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240125181132",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240306033813",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240316174504",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240413064556",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240416151119",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240501225238",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240509173048",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240514123241",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240516023819",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240613071153",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240623082405",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240628131056",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240714091732",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240715221317",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240725070212",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240807031915",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240901103914",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20241003105854",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20241108182540",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20241128031327",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20241204215204",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20241208162945",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250110230636",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250112190754",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250114232045",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250123172701",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250125062429",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250126090052",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250127232428",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250128020941",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250129214711",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250201110958",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250212024212",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250215125456",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250217183842",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250222033942",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250225130400",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250318030326",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250325024417",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250327181825",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250327215052",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250328103712",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250329162352",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250401072948",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250404233651",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250407100336",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250409091544",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250414174623",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250416012614",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250418074511",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250422232305",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250424053331",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250426125112",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250427044451",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250428190319",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250504123515",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250511141850",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250511185946",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250521050207",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250606003703",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250611064509",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250615234504",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250620151643",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250621234742",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250625210317",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250626103942",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250702165854",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250710025247",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250719025356",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250803132301",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250805202509",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250810134350",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250816171222",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250817212424",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250818055527",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250822051055",
+   "url": "https://platform.openai.com/docs/guides/your-data/",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250827071802",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250831225556",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data/",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250907173242",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250908031310",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250915182132",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250916012320",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250917203341",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250918145558",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251008194216",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251026193426",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251028082939",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251101120004",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251106121802",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251106121802",
+   "url": "https://platform.openai.com/docs/models/how-we-use-your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251113192626",
+   "url": "https://platform.openai.com/docs/guides/your-data/",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251116181436",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251122041221",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251204000049",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251208114810",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251216184709",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "sha": "6a2000c7e563c13e",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20251219081030",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "sha": "6a2000c7e563c13e",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20251229221511",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "sha": "d900d024e31edd2e",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260106144452",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "sha": "d900d024e31edd2e",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260121205953",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "sha": "fa0245ff83bdba81",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260203000155",
+   "url": "https://platform.openai.com/docs/guides/your-data",
+   "sha": "fa0245ff83bdba81",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260210060415",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "67b5121f1dc0360f",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260211001614",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "e145fe025a68a861",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260214040230",
+   "url": "https://developers.openai.com/api/docs/guides/your-data/",
+   "sha": "e145fe025a68a861",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260302094419",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "da7ff6440ada715f",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260305170629",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "da7ff6440ada715f",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260307090057",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "c39aba43003d248c",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260308154538",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "c39aba43003d248c",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260309213129",
+   "url": "https://developers.openai.com/api/docs/guides/your-data/",
+   "sha": "c39aba43003d248c",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260311125545",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "90c2ac511a78dc83",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260312063941",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "90c2ac511a78dc83",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260317082725",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "90c2ac511a78dc83",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260318062934",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "a393710d4d4de31f",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260325185634",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "751be1a5a6a1af90",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260403214623",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "751be1a5a6a1af90",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260404091952",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "751be1a5a6a1af90",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260415095604",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "acbfab369eef821d",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260416052243",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "acbfab369eef821d",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260419065233",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "acbfab369eef821d",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260421072623",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "acbfab369eef821d",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260422102120",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "aa30ebc690de8c85",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260423070725",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "aa30ebc690de8c85",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260424064348",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "69973fa1b8179fef",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260426152732",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "8566b615cb498649",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260501104630",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "8566b615cb498649",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260502075337",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "8566b615cb498649",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260506083359",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "8566b615cb498649",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260511131945",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "75acf23691e23a6c",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260519045552",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "75acf23691e23a6c",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260526150401",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "75acf23691e23a6c",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260529155042",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "dcac9d54bea0e13f",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260530235124",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "dcac9d54bea0e13f",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260531222117",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "43433802e68b2af1",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260605231001",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "4f616040386df7cd",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260607125639",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "4f616040386df7cd",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260609020429",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "4f616040386df7cd",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260610111211",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "acc73f2eb8f5432b",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260620151318",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "acc73f2eb8f5432b",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260701103811",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "acc73f2eb8f5432b",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260702123801",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "acc73f2eb8f5432b",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260708061602",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "d5504807ab6b81d9",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260709133707",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "d5504807ab6b81d9",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260710194217",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "fc750d5a6f3a29c3",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260713181751",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "fc750d5a6f3a29c3",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260716211859",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "17154985b4b1067d",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260722184316",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "17154985b4b1067d",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260726000357",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "17154985b4b1067d",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260729082900",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "17154985b4b1067d",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260808020821",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "134280238e844cb8",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260809113014",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "134280238e844cb8",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260812102723",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "f52b05dabaf74066",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260818214640",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "f52b05dabaf74066",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260826053538",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "e351823df16c25ae",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260829150744",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "af91ff88507d8681",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260901101743",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "af91ff88507d8681",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260902000759",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "7df3a9d4aab64520",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260908210210",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "d40f74117f7a934c",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260909002945",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "d40f74117f7a934c",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260912203023",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "239824fb5229dfcd",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260919231421",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "239824fb5229dfcd",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260921190318",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "239824fb5229dfcd",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260922180256",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "0316620926f2b7de",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260926170042",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "805a707c6f6dcc6e",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260928142341",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "805a707c6f6dcc6e",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20260929212151",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "0a1852e6bb699652",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20261001103209",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "0a1852e6bb699652",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20261003090315",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "79acfed6d312bfed",
+   "title": "Data controls in the OpenAI platform"
+  },
+  {
+   "ts": "20261006055429",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "sha": "79acfed6d312bfed",
+   "title": "Data controls in the OpenAI platform"
+  }
+ ],
+ "versions": [
+  {
+   "sha": "0e2bf93a9a22572d",
+   "first": "20230310202350",
+   "last": "20230313084342",
+   "url": "https://openai.com/policies/api-data-usage-policies"
+  },
+  {
+   "sha": "1a56a85103df8461",
+   "first": "20230314205846",
+   "last": "20230315033156",
+   "url": "https://openai.com/policies/api-data-usage-policies"
+  },
+  {
+   "sha": "59a61887fa152c14",
+   "first": "20230320031043",
+   "last": "20230320031043",
+   "url": "https://openai.com/policies/api-data-usage-policies"
+  },
+  {
+   "sha": "19edd71eaab6288d",
+   "first": "20230321104608",
+   "last": "20230329073231",
+   "url": "https://openai.com/policies/api-data-usage-policies"
+  },
+  {
+   "sha": "8550a74b4a3b1aed",
+   "first": "20230406201802",
+   "last": "20230411132037",
+   "url": "https://openai.com/policies/api-data-usage-policies"
+  },
+  {
+   "sha": "c8c5e4afab7251e7",
+   "first": "20230414191905",
+   "last": "20230414191905",
+   "url": "https://openai.com/policies/api-data-usage-policies"
+  },
+  {
+   "sha": "1d8b72c1af7ab29b",
+   "first": "20230506031610",
+   "last": "20230506031610",
+   "url": "https://openai.com/policies/api-data-usage-policies"
+  },
+  {
+   "sha": "3b0d0bb2b3c5063b",
+   "first": "20230529145713",
+   "last": "20230604200140",
+   "url": "https://openai.com/policies/api-data-usage-policies"
+  },
+  {
+   "sha": "f346e99a9ef79cf0",
+   "first": "20230613014811",
+   "last": "20230613014811",
+   "url": "https://openai.com/policies/api-data-usage-policies"
+  },
+  {
+   "sha": "95b638414a3b2257",
+   "first": "20230706114434",
+   "last": "20230720201418",
+   "url": "https://openai.com/policies/api-data-usage-policies"
+  },
+  {
+   "sha": "9faf29b51172c10a",
+   "first": "20230722222056",
+   "last": "20230722222056",
+   "url": "https://openai.com/policies/api-data-usage-policies"
+  },
+  {
+   "sha": "6a2000c7e563c13e",
+   "first": "20251216184709",
+   "last": "20251219081030",
+   "url": "https://platform.openai.com/docs/guides/your-data"
+  },
+  {
+   "sha": "d900d024e31edd2e",
+   "first": "20251229221511",
+   "last": "20260106144452",
+   "url": "https://platform.openai.com/docs/guides/your-data"
+  },
+  {
+   "sha": "fa0245ff83bdba81",
+   "first": "20260121205953",
+   "last": "20260203000155",
+   "url": "https://platform.openai.com/docs/guides/your-data"
+  },
+  {
+   "sha": "67b5121f1dc0360f",
+   "first": "20260210060415",
+   "last": "20260210060415",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "e145fe025a68a861",
+   "first": "20260211001614",
+   "last": "20260214040230",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "da7ff6440ada715f",
+   "first": "20260302094419",
+   "last": "20260305170629",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "c39aba43003d248c",
+   "first": "20260307090057",
+   "last": "20260309213129",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "90c2ac511a78dc83",
+   "first": "20260311125545",
+   "last": "20260317082725",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "a393710d4d4de31f",
+   "first": "20260318062934",
+   "last": "20260318062934",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "751be1a5a6a1af90",
+   "first": "20260325185634",
+   "last": "20260404091952",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "acbfab369eef821d",
+   "first": "20260415095604",
+   "last": "20260421072623",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "aa30ebc690de8c85",
+   "first": "20260422102120",
+   "last": "20260423070725",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "69973fa1b8179fef",
+   "first": "20260424064348",
+   "last": "20260424064348",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "8566b615cb498649",
+   "first": "20260426152732",
+   "last": "20260506083359",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "75acf23691e23a6c",
+   "first": "20260511131945",
+   "last": "20260526150401",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "dcac9d54bea0e13f",
+   "first": "20260529155042",
+   "last": "20260530235124",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "43433802e68b2af1",
+   "first": "20260531222117",
+   "last": "20260531222117",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "4f616040386df7cd",
+   "first": "20260605231001",
+   "last": "20260609020429",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "acc73f2eb8f5432b",
+   "first": "20260610111211",
+   "last": "20260702123801",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "d5504807ab6b81d9",
+   "first": "20260708061602",
+   "last": "20260709133707",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "fc750d5a6f3a29c3",
+   "first": "20260710194217",
+   "last": "20260713181751",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "17154985b4b1067d",
+   "first": "20260716211859",
+   "last": "20260729082900",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "134280238e844cb8",
+   "first": "20260808020821",
+   "last": "20260809113014",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "f52b05dabaf74066",
+   "first": "20260812102723",
+   "last": "20260818214640",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "e351823df16c25ae",
+   "first": "20260826053538",
+   "last": "20260826053538",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "af91ff88507d8681",
+   "first": "20260829150744",
+   "last": "20260901101743",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "7df3a9d4aab64520",
+   "first": "20260902000759",
+   "last": "20260902000759",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "d40f74117f7a934c",
+   "first": "20260908210210",
+   "last": "20260909002945",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "239824fb5229dfcd",
+   "first": "20260912203023",
+   "last": "20260921190318",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "0316620926f2b7de",
+   "first": "20260922180256",
+   "last": "20260922180256",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "805a707c6f6dcc6e",
+   "first": "20260926170042",
+   "last": "20260928142341",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "0a1852e6bb699652",
+   "first": "20260929212151",
+   "last": "20261001103209",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  },
+  {
+   "sha": "79acfed6d312bfed",
+   "first": "20261003090315",
+   "last": "20261006055429",
+   "url": "https://developers.openai.com/api/docs/guides/your-data"
+  }
+ ],
+ "complete": true
+}

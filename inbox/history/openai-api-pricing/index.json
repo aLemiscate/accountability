@@ -1,0 +1,3601 @@
+{
+ "id": "openai-api-pricing",
+ "org": "openai",
+ "urls": [
+  "https://openai.com/api/pricing/",
+  "https://openai.com/api/pricing",
+  "https://openai.com/pricing",
+  "https://openai.com/pricing/",
+  "https://platform.openai.com/docs/pricing"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://openai.com/api/pricing/",
+   "title": "Business Pricing | OpenAI",
+   "via": "browser",
+   "sha": "1087322d81ceaf98",
+   "words": 1174
+  }
+ ],
+ "captures": [
+  {
+   "ts": "20211120082310",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "9308ff5e3707c87f",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20211204021218",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "9308ff5e3707c87f",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20211212145654",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "9308ff5e3707c87f",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20211216152637",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "88cb502b5d4a4886",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20211217044934",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "88cb502b5d4a4886",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20211218110241",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "88cb502b5d4a4886",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20211223073823",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "88cb502b5d4a4886",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20220111045217",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "6486c1b064841d0d",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20220127215201",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "87aceb6276e02c59",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20220129122511",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "87aceb6276e02c59",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20220301074558",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "203f3f4fef29f4e4",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20220405035541",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "203f3f4fef29f4e4",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20220421151651",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "0361072f7ad675b2",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20220426204612",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "0361072f7ad675b2",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20220520062408",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "5af12f976385b890",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20220603105111",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "5af12f976385b890",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20220703013600",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "5af12f976385b890",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20220803065332",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "5af12f976385b890",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20220814141716",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "5af12f976385b890",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20220815054913",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "5af12f976385b890",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20220817141310",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "5af12f976385b890",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20220822165430",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "0cf654f9da3dfd40",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20220824141541",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "0cf654f9da3dfd40",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20220826181013",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "0cf654f9da3dfd40",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20220905191340",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "74a8a6f70b3c30ca",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20220908161514",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "74a8a6f70b3c30ca",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20220911153707",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "74a8a6f70b3c30ca",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20220916165512",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "ee4e24d7d6032c7e",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20220917214410",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "ee4e24d7d6032c7e",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20221001120545",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "ee4e24d7d6032c7e",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20221017122532",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "ee4e24d7d6032c7e",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20221025020635",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "ee4e24d7d6032c7e",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20221027214610",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "ee4e24d7d6032c7e",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20221103225031",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "6d98b0acb20fdb5c",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20221117133220",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "6d98b0acb20fdb5c",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20221125103940",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "6d98b0acb20fdb5c",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20221129000549",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "6d98b0acb20fdb5c",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20221130060640",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "6d98b0acb20fdb5c",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20221201044427",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "f2eb710badb47f00",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20221202010215",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "f2eb710badb47f00",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20221203025702",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "8a66b98e5d1d71e9",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20221206012519",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "8a66b98e5d1d71e9",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20221207031957",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "848372d72d3710b6",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20221209190901",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "60cd91ee1df46e6b",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20221211012744",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "60cd91ee1df46e6b",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20221214043203",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "60cd91ee1df46e6b",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20221215012615",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "60cd91ee1df46e6b",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20221216000930",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "5932af02cf51dff0",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20221217050029",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "b4730ac7b5747c60",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20221219133349",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "b4730ac7b5747c60",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230103151203",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "b4730ac7b5747c60",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230105133958",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "033874b47137cc9b",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230111135107",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "033874b47137cc9b",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230117024801",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "033874b47137cc9b",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230118172909",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "033874b47137cc9b",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230121150705",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "80f302a83e3f1222",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230124063205",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "c070384c7b7a9be7",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230126201304",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "c070384c7b7a9be7",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230201065327",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "c070384c7b7a9be7",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230210083236",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "c070384c7b7a9be7",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230221134944",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "c070384c7b7a9be7",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230223043611",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "c070384c7b7a9be7",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230227230602",
+   "url": "https://openai.com/pricing",
+   "sha": "1f6bc26e9954800a",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230228014742",
+   "url": "https://openai.com/pricing",
+   "sha": "1f6bc26e9954800a",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230301164629",
+   "url": "https://openai.com/pricing",
+   "sha": "c8297535f1453906",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230302000738",
+   "url": "https://openai.com/pricing",
+   "sha": "964c3c4878a3cbd9",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230303002304",
+   "url": "https://openai.com/pricing",
+   "sha": "58f12fb53af03297",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230304005054",
+   "url": "https://openai.com/pricing",
+   "sha": "58f12fb53af03297",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230306012943",
+   "url": "https://openai.com/pricing",
+   "sha": "58f12fb53af03297",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230307060608",
+   "url": "https://openai.com/pricing",
+   "sha": "fe63a61c44ac1305",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230308023535",
+   "url": "https://openai.com/pricing",
+   "sha": "fe63a61c44ac1305",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230311043559",
+   "url": "https://openai.com/pricing",
+   "sha": "fe63a61c44ac1305",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230313053444",
+   "url": "https://openai.com/pricing",
+   "sha": "fe63a61c44ac1305",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230314074145",
+   "url": "https://openai.com/pricing",
+   "sha": "2e496151a8e377f6",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230315015751",
+   "url": "https://openai.com/pricing",
+   "sha": "e8353883016c0cd2",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230316024934",
+   "url": "https://openai.com/pricing",
+   "sha": "e8353883016c0cd2",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230317014104",
+   "url": "https://openai.com/pricing",
+   "sha": "27fa4ad76638963f",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230318135451",
+   "url": "https://openai.com/pricing",
+   "sha": "27fa4ad76638963f",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230324033445",
+   "url": "https://openai.com/pricing",
+   "sha": "27fa4ad76638963f",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230328013954",
+   "url": "https://openai.com/pricing",
+   "sha": "27fa4ad76638963f",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230329014203",
+   "url": "https://openai.com/pricing",
+   "sha": "27fa4ad76638963f",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230330011859",
+   "url": "https://openai.com/pricing",
+   "sha": "ab176d4e1e9c04da",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230401063613",
+   "url": "https://openai.com/pricing",
+   "sha": "ab176d4e1e9c04da",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230404114929",
+   "url": "https://openai.com/pricing",
+   "sha": "ab176d4e1e9c04da",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230405054556",
+   "url": "https://openai.com/pricing",
+   "sha": "ab176d4e1e9c04da",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230406044845",
+   "url": "https://openai.com/pricing",
+   "sha": "ab176d4e1e9c04da",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230407230834",
+   "url": "https://openai.com/pricing",
+   "sha": "a3d2f7200bc56ff6",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230410183652",
+   "url": "https://openai.com/pricing",
+   "sha": "a3d2f7200bc56ff6",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230411072713",
+   "url": "https://openai.com/pricing",
+   "sha": "a3d2f7200bc56ff6",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230412104931",
+   "url": "https://openai.com/pricing",
+   "sha": "eb9e3a433a9d905a",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230415223802",
+   "url": "https://openai.com/pricing",
+   "sha": "eb9e3a433a9d905a",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230422143107",
+   "url": "https://openai.com/pricing",
+   "sha": "eb9e3a433a9d905a",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230424190430",
+   "url": "https://openai.com/pricing",
+   "sha": "29483380f1adf981",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230427040232",
+   "url": "https://openai.com/pricing",
+   "sha": "29483380f1adf981",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230502024055",
+   "url": "https://openai.com/pricing",
+   "sha": "29483380f1adf981",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230509073954",
+   "url": "https://openai.com/pricing",
+   "sha": "29483380f1adf981",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230512035504",
+   "url": "https://openai.com/pricing",
+   "sha": "29483380f1adf981",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230513002943",
+   "url": "https://openai.com/pricing",
+   "sha": "29483380f1adf981",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230516010952",
+   "url": "https://openai.com/pricing",
+   "sha": "0d3b35f2e29808ea",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230518041425",
+   "url": "https://openai.com/pricing",
+   "sha": "e98aba57d3121404",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230603020027",
+   "url": "https://openai.com/pricing",
+   "sha": "e98aba57d3121404",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230610051707",
+   "url": "https://openai.com/pricing",
+   "sha": "e98aba57d3121404",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230613083319",
+   "url": "https://openai.com/pricing",
+   "sha": "e98aba57d3121404",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230614104237",
+   "url": "https://openai.com/pricing",
+   "sha": "d7792d6b407c37ee",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230617163912",
+   "url": "https://openai.com/pricing",
+   "sha": "d7792d6b407c37ee",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230705195635",
+   "url": "https://openai.com/pricing",
+   "sha": "d7792d6b407c37ee",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230707145029",
+   "url": "https://openai.com/pricing",
+   "sha": "c508092a04422473",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230709043007",
+   "url": "https://openai.com/pricing",
+   "sha": "c508092a04422473",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230713090946",
+   "url": "https://openai.com/pricing",
+   "sha": "c508092a04422473",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230720125524",
+   "url": "https://openai.com/pricing",
+   "sha": "c508092a04422473",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230721084116",
+   "url": "https://openai.com/pricing",
+   "sha": "c508092a04422473",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230722160932",
+   "url": "https://openai.com/pricing",
+   "sha": "f799b2027c26c51a",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230727140439",
+   "url": "https://openai.com/pricing",
+   "sha": "f799b2027c26c51a",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230802202001",
+   "url": "https://openai.com/pricing",
+   "sha": "f799b2027c26c51a",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230818155946",
+   "url": "https://openai.com/pricing",
+   "sha": "f799b2027c26c51a",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230820115108",
+   "url": "https://openai.com/pricing",
+   "sha": "f799b2027c26c51a",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230822003506",
+   "url": "https://openai.com/pricing",
+   "sha": "f799b2027c26c51a",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230823020733",
+   "url": "https://openai.com/pricing",
+   "sha": "52f096d0b4a15d4c",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230828212514",
+   "url": "https://openai.com/pricing",
+   "sha": "4bf0f8b070c63d0f",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230829053726",
+   "url": "https://openai.com/pricing",
+   "sha": "4bf0f8b070c63d0f",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230901020057",
+   "url": "https://openai.com/pricing",
+   "sha": "4bf0f8b070c63d0f",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230912150319",
+   "url": "https://openai.com/pricing",
+   "sha": "4bf0f8b070c63d0f",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230913034813",
+   "url": "https://openai.com/pricing",
+   "sha": "2234053c4821c10a",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230914164619",
+   "url": "https://openai.com/pricing",
+   "sha": "2234053c4821c10a",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230919014746",
+   "url": "https://openai.com/pricing",
+   "sha": "2234053c4821c10a",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230920152241",
+   "url": "https://openai.com/pricing",
+   "sha": "2234053c4821c10a",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230921035616",
+   "url": "https://openai.com/pricing",
+   "sha": "9c1c868127acecdb",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230922164037",
+   "url": "https://openai.com/pricing",
+   "sha": "9c1c868127acecdb",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230924023114",
+   "url": "https://openai.com/pricing",
+   "sha": "63480e672b2d01b8",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230925111633",
+   "url": "https://openai.com/pricing",
+   "sha": "63480e672b2d01b8",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20230926142829",
+   "url": "https://openai.com/pricing",
+   "sha": "08d082b41ae45b81",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231003105130",
+   "url": "https://openai.com/pricing",
+   "sha": "08d082b41ae45b81",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231016055519",
+   "url": "https://openai.com/pricing",
+   "sha": "08d082b41ae45b81",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231020021510",
+   "url": "https://openai.com/pricing",
+   "sha": "08d082b41ae45b81",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231030120603",
+   "url": "https://openai.com/pricing",
+   "sha": "08d082b41ae45b81",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231031033745",
+   "url": "https://openai.com/pricing",
+   "sha": "4f39d8dbceea1555",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231105195244",
+   "url": "https://openai.com/pricing",
+   "sha": "4f39d8dbceea1555",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231106123107",
+   "url": "https://openai.com/pricing",
+   "sha": "4f39d8dbceea1555",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231107002212",
+   "url": "https://openai.com/pricing",
+   "sha": "053a8a3a8b202a3e",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231108164414",
+   "url": "https://openai.com/pricing",
+   "sha": "9df3ce75465013fd",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231109042647",
+   "url": "https://openai.com/pricing",
+   "sha": "3d2fd3108783951a",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231110022605",
+   "url": "https://openai.com/pricing",
+   "sha": "3d2fd3108783951a",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231114161056",
+   "url": "https://openai.com/pricing",
+   "sha": "3d2fd3108783951a",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231115183638",
+   "url": "https://openai.com/pricing",
+   "sha": "3d2fd3108783951a",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231116230652",
+   "url": "https://openai.com/pricing",
+   "sha": "f2830bd020cec79d",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231117162157",
+   "url": "https://openai.com/pricing",
+   "sha": "e090bbad444b0ffa",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231123043858",
+   "url": "https://openai.com/pricing",
+   "sha": "e090bbad444b0ffa",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231124080918",
+   "url": "https://openai.com/pricing",
+   "sha": "e090bbad444b0ffa",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231127092929",
+   "url": "https://openai.com/pricing",
+   "sha": "e090bbad444b0ffa",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231128015730",
+   "url": "https://openai.com/pricing",
+   "sha": "6f7af626ba121867",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231201003736",
+   "url": "https://openai.com/pricing",
+   "sha": "6f7af626ba121867",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231202142717",
+   "url": "https://openai.com/pricing",
+   "sha": "258f4edb7ab14ad6",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231203035109",
+   "url": "https://openai.com/pricing",
+   "sha": "258f4edb7ab14ad6",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231205122513",
+   "url": "https://openai.com/pricing",
+   "sha": "258f4edb7ab14ad6",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231214005329",
+   "url": "https://openai.com/pricing",
+   "sha": "258f4edb7ab14ad6",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231217114318",
+   "url": "https://openai.com/pricing",
+   "sha": "258f4edb7ab14ad6",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231218150557",
+   "url": "https://openai.com/pricing",
+   "sha": "258f4edb7ab14ad6",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231219100719",
+   "url": "https://openai.com/pricing",
+   "sha": "fb65237f818c5fa3",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20231221172936",
+   "url": "https://openai.com/pricing",
+   "sha": "fb65237f818c5fa3",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240101215328",
+   "url": "https://openai.com/pricing",
+   "sha": "fb65237f818c5fa3",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240104103116",
+   "url": "https://openai.com/pricing",
+   "sha": "8dc56aeffa389d36",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240106034349",
+   "url": "https://openai.com/pricing",
+   "sha": "8dc56aeffa389d36",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240109105324",
+   "url": "https://openai.com/pricing",
+   "sha": "8dc56aeffa389d36",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240110110628",
+   "url": "https://openai.com/pricing",
+   "sha": "8dc56aeffa389d36",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240111054654",
+   "url": "https://openai.com/pricing",
+   "sha": "9b60037c000f018e",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240112001122",
+   "url": "https://openai.com/pricing",
+   "sha": "9b60037c000f018e",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240113001114",
+   "url": "https://openai.com/pricing",
+   "sha": "cfb3f866ccd52428",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240116080736",
+   "url": "https://openai.com/pricing",
+   "sha": "cfb3f866ccd52428",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240123233951",
+   "url": "https://openai.com/pricing",
+   "sha": "cfb3f866ccd52428",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240124084224",
+   "url": "https://openai.com/pricing",
+   "sha": "cfb3f866ccd52428",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240126001102",
+   "url": "https://openai.com/pricing",
+   "sha": "26249b24c3bd01f8",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240127001051",
+   "url": "https://openai.com/pricing",
+   "sha": "ec5a6b220589d6d2",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240129044133",
+   "url": "https://openai.com/pricing",
+   "sha": "ec5a6b220589d6d2",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240131222655",
+   "url": "https://openai.com/pricing",
+   "sha": "ec5a6b220589d6d2",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240201194002",
+   "url": "https://openai.com/pricing",
+   "sha": "fa15f1c102aa8120",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240208072511",
+   "url": "https://openai.com/pricing",
+   "sha": "fa15f1c102aa8120",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240215111201",
+   "url": "https://openai.com/pricing",
+   "sha": "fa15f1c102aa8120",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240216010132",
+   "url": "https://openai.com/pricing",
+   "sha": "4de2231dfaf41765",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240218053234",
+   "url": "https://openai.com/pricing",
+   "sha": "4de2231dfaf41765",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240224010407",
+   "url": "https://openai.com/pricing",
+   "sha": "4de2231dfaf41765",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240227021741",
+   "url": "https://openai.com/pricing",
+   "sha": "4de2231dfaf41765",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240228001151",
+   "url": "https://openai.com/pricing",
+   "sha": "8cd58bfc7e00438f",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240229042740",
+   "url": "https://openai.com/pricing",
+   "sha": "8cd58bfc7e00438f",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240301001148",
+   "url": "https://openai.com/pricing",
+   "sha": "5afa91f1a6a8466c",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240302001121",
+   "url": "https://openai.com/pricing",
+   "sha": "df3f636450998f68",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240305153823",
+   "url": "https://openai.com/pricing",
+   "sha": "df3f636450998f68",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240308084707",
+   "url": "https://openai.com/pricing",
+   "sha": "df3f636450998f68",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240309075630",
+   "url": "https://openai.com/pricing",
+   "sha": "df3f636450998f68",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240310121720",
+   "url": "https://openai.com/pricing",
+   "sha": "df3f636450998f68",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240311211305",
+   "url": "https://openai.com/pricing",
+   "sha": "3315656c0cc161a4",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240314185901",
+   "url": "https://openai.com/pricing",
+   "sha": "3315656c0cc161a4",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240402050747",
+   "url": "https://openai.com/pricing",
+   "sha": "3315656c0cc161a4",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240408140646",
+   "url": "https://openai.com/pricing",
+   "sha": "3315656c0cc161a4",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240409024050",
+   "url": "https://openai.com/pricing",
+   "sha": "3315656c0cc161a4",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240410023350",
+   "url": "https://openai.com/pricing",
+   "sha": "1d14081c2f2f223c",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240413045027",
+   "url": "https://openai.com/pricing",
+   "sha": "1d14081c2f2f223c",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240416083002",
+   "url": "https://openai.com/pricing",
+   "sha": "0e353236b484a9ca",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240417124927",
+   "url": "https://openai.com/pricing",
+   "sha": "0e353236b484a9ca",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240418001135",
+   "url": "https://openai.com/pricing",
+   "sha": "8c4e25ab6fd691fa",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240421010712",
+   "url": "https://openai.com/pricing",
+   "sha": "8c4e25ab6fd691fa",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240501154924",
+   "url": "https://openai.com/pricing",
+   "sha": "8c4e25ab6fd691fa",
+   "title": "Pricing"
+  },
+  {
+   "ts": "20240502185457",
+   "url": "https://openai.com/api/pricing",
+   "sha": "9ac5e451db23af13",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240504062215",
+   "url": "https://openai.com/api/pricing",
+   "sha": "9ac5e451db23af13",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240509001110",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "9ac5e451db23af13",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240512001339",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "9ac5e451db23af13",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240513001143",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "34ed31b5182578ee",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240514201030",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "693dd0ec84376df4",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240516135924",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "693dd0ec84376df4",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240524002334",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "693dd0ec84376df4",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240528075930",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "693dd0ec84376df4",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240530172743",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "693dd0ec84376df4",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240531063320",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "693dd0ec84376df4",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240601042358",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "51510ca5ef7abe02",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240616005910",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "51510ca5ef7abe02",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240624014931",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "51510ca5ef7abe02",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240625075548",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "51510ca5ef7abe02",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240626214645",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "a2ba845093b9d9ac",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240627022659",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "a2ba845093b9d9ac",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240702104622",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "a2ba845093b9d9ac",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240710150951",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "a2ba845093b9d9ac",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240715002402",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "a2ba845093b9d9ac",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240717155922",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "a2ba845093b9d9ac",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240718185512",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "824b28eda25950c1",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240719023607",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "824b28eda25950c1",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240722005834",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "824b28eda25950c1",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240723091332",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "824b28eda25950c1",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240724060708",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "958b4a7d53772f57",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240725003427",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "636fbdff93d27a8e",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240727055531",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "636fbdff93d27a8e",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240728033805",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "636fbdff93d27a8e",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240729031638",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "636fbdff93d27a8e",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240801072308",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "1710c2561dab434f",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240802214606",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "6b8fe005030fa14a",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240803065719",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "6b8fe005030fa14a",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240804053804",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "6b8fe005030fa14a",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240805040613",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "6b8fe005030fa14a",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240807072030",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "b634e4f53da39355",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240808065448",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "b634e4f53da39355",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240809225029",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "a6f8c73a4cb02c5b",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240812003133",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "a6f8c73a4cb02c5b",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240813093835",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "f67225bf3f536e5d",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240814003828",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "00f1531b9e36f5b7",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240816123302",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "00f1531b9e36f5b7",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240820141509",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "00f1531b9e36f5b7",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240822093738",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "cb814b8885fe8bf7",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240823123838",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "cb814b8885fe8bf7",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240824123831",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "72c116ed82b992e2",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240902045237",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "72c116ed82b992e2",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240909040242",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "72c116ed82b992e2",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240910222921",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "b0fb4d887d6e4722",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240912062000",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "b0fb4d887d6e4722",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240913014600",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "4c43b003cd353dac",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240914184420",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "4c43b003cd353dac",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240916031508",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "4c43b003cd353dac",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240918032749",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "4c43b003cd353dac",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240919141329",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "2e96abb965682efc",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240922175326",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "2e96abb965682efc",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20240924164751",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "5403445512f1a76b",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20241001064825",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "5403445512f1a76b",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20241002004900",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "24ddc01e23ae3063",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20241003071502",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "d84d039541791aab",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20241008064905",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "d84d039541791aab",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20241017141009",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "d84d039541791aab",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20241018162738",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "36b7370e951ccb82",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20241026125426",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "d37e8c163062c12f",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20241112050536",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "5726bc9869076027",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20241117221847",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "5726bc9869076027",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20241129212029",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "09cbb0001568a061",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20241205094524",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "09cbb0001568a061",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20241217154901",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "09cbb0001568a061",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20241221052946",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "3f1cb058f3b1abf2",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20241223075522",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "3f1cb058f3b1abf2",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250109100914",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "3f1cb058f3b1abf2",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250115033939",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "cde9d64fc147df88",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250117005334",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "cde9d64fc147df88",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250124100236",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "cde9d64fc147df88",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250125003230",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "cde9d64fc147df88",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250127090905",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "cde9d64fc147df88",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250128220305",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "8150fc084caf60b5",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250129060213",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "8150fc084caf60b5",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250130214849",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250131193550",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250201145921",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "fb3f514238c1b0cc",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250201232735",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250203052753",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "f83ec82ec540db92",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250204110926",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250206171527",
+   "url": "https://openai.com/api/pricing/",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250208011001",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "93bd4b2b09fb9099",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250211094612",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "93bd4b2b09fb9099",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250211094632",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250213123844",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "ebc7a0be87e61591",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250214170030",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "ebc7a0be87e61591",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250219040240",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "ebc7a0be87e61591",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250221213145",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "da123906ee4478ee",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250224204433",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "da123906ee4478ee",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250302083805",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250303222338",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "c7f62db839d9fbd4",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250304001454",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250305031636",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "e94ebe13d0930295",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250306133345",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "e94ebe13d0930295",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250312192445",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "b0c816a540b6e8cf",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250317035656",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "7802b5194ff0069c",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250318234435",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250320025146",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250321002735",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "70d87580adafefd4",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250323004013",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "70d87580adafefd4",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250328101754",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "70d87580adafefd4",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250401073035",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250413004940",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "70d87580adafefd4",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250413122341",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250414071834",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250415140253",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "579d5445765ba41f",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250415140303",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250416031026",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "efb8bb5bd7a31875",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250416131645",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250417003454",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "2cd832abcac4d591",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250419052710",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "2cd832abcac4d591",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250421013405",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "2cd832abcac4d591",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250424103314",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "186c9fe0d291848a",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250427112934",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250427112935",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "186c9fe0d291848a",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250429160555",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250430091622",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "186c9fe0d291848a",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250503232709",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "b7112c81ffd3f4fa",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250505183133",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "b7112c81ffd3f4fa",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250506010605",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "b7112c81ffd3f4fa",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250509015151",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "6dbafc13bb4f6a93",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250513101859",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "6dbafc13bb4f6a93",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250514005055",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "6dbafc13bb4f6a93",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250517154025",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "eeb888350e999f18",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250518184436",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250519060505",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250521125101",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250523060819",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250525043536",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "250f4e19b3d1bb8d",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250601200731",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250602152701",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "bc726a618e670837",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250608083612",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "bc726a618e670837",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250610135718",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250611095744",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "9af9bd92e4b4baf8",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250617044433",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "9af9bd92e4b4baf8",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250618201424",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250619152045",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250620151558",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250625201431",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "a510b92f9d4640bd",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250625201434",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250626175616",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250628225337",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250702005152",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250702152237",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "59630e268a3fe771",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250802114930",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "59630e268a3fe771",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250804154250",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250805054722",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250807025154",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "59630e268a3fe771",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250807042933",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250808105837",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250809142503",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "968e7f5d9c11f4b8",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250810085243",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "968e7f5d9c11f4b8",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250815092605",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250816010714",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250817212146",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250818015425",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "968e7f5d9c11f4b8",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250827181036",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "d0185e6e75b545f5",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250831102237",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "d5c17f7a81fe3d04",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250902002545",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "d5c17f7a81fe3d04",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250909143629",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "d5c17f7a81fe3d04",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250912002529",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "d5c17f7a81fe3d04",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250917214437",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250918145250",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "9e16e085b1f67283",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250918145251",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250920150859",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "38aa28d141b07419",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20250920150900",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250928001717",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251001063539",
+   "url": "https://platform.openai.com/docs/pricing/",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251004182904",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251004182904",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "76765bb7ed451c42",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20251008183226",
+   "url": "https://openai.com/api/pricing/",
+   "error": "HTTP 500"
+  },
+  {
+   "ts": "20251009173518",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "d3f8e5b05d06a802",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20251009174024",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251014095925",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "82f1428bf92c01c3",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20251016090244",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251023143607",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "c05e665573d5119f",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20251027194522",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "c05e665573d5119f",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20251102125311",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251113140952",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "c05e665573d5119f",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20251113140953",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251118170045",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "cc8daa6954ac4c50",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20251119220904",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251121230358",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251123180902",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251125104320",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "cc8daa6954ac4c50",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20251203020346",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251203034208",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "cc8daa6954ac4c50",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20251209122507",
+   "url": "https://platform.openai.com/docs/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251211103307",
+   "url": "https://platform.openai.com/docs/pricing",
+   "sha": "db61e171301560b7",
+   "title": "Pricing | OpenAI API"
+  },
+  {
+   "ts": "20251211143911",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "963a9bc1e79c5173",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20251212035403",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "edb8e73a1b07df86",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20251213043633",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "edb8e73a1b07df86",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20251214005151",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "5ffcbd7982c797d1",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20251216075829",
+   "url": "https://platform.openai.com/docs/pricing",
+   "sha": "cc610d8c0caf6e07",
+   "title": "Pricing | OpenAI API"
+  },
+  {
+   "ts": "20251217151508",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "5c3ba37e2a417d38",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20251218224943",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "af7b66ce6728e9a1",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20251219142815",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "af7b66ce6728e9a1",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20260102012016",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "af7b66ce6728e9a1",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20260102061741",
+   "url": "https://platform.openai.com/docs/pricing",
+   "sha": "ba13bc70c6150a40",
+   "title": "Pricing | OpenAI API"
+  },
+  {
+   "ts": "20260112103304",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "5c3ba37e2a417d38",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20260122231758",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "5c3ba37e2a417d38",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20260127073500",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "5c3ba37e2a417d38",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20260129175316",
+   "url": "https://platform.openai.com/docs/pricing",
+   "sha": "cd50565789bb0eef",
+   "title": "Pricing | OpenAI API"
+  },
+  {
+   "ts": "20260201101551",
+   "url": "https://platform.openai.com/docs/pricing",
+   "sha": "cd50565789bb0eef",
+   "title": "Pricing | OpenAI API"
+  },
+  {
+   "ts": "20260204005428",
+   "url": "https://platform.openai.com/docs/pricing/",
+   "sha": "cd50565789bb0eef",
+   "title": "Pricing | OpenAI API"
+  },
+  {
+   "ts": "20260205022429",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "50c571ff4fa9b79d",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20260207070409",
+   "url": "https://platform.openai.com/docs/pricing",
+   "sha": "c80bf08b7b2323e3",
+   "title": "Pricing | OpenAI API"
+  },
+  {
+   "ts": "20260207191105",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "50c571ff4fa9b79d",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20260210054125",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "d22718620339d576",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20260212163131",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "0e24a541b5c9d444",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20260215081714",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "0e24a541b5c9d444",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20260223105441",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "33c3dd95b0abac25",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20260301135109",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "33c3dd95b0abac25",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20260302144604",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "33c3dd95b0abac25",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20260303080049",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "a42a8213c2cb244b",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20260304002531",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "a42a8213c2cb244b",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20260308192816",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "ea638b78c2ba1362",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20260309061535",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "ea638b78c2ba1362",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20260311131515",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "ea638b78c2ba1362",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20260312012840",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "ea638b78c2ba1362",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20260314225417",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "4e817a83e7bfbe6a",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20260317234523",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "c589edb8c9b06cdf",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20260320062735",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "a6745660b27b0707",
+   "title": "Pricing | OpenAI"
+  },
+  {
+   "ts": "20260323164507",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "cb2f3037ee939ae1",
+   "title": "OpenAI API Pricing | OpenAI"
+  },
+  {
+   "ts": "20260325042435",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "cb2f3037ee939ae1",
+   "title": "OpenAI API Pricing | OpenAI"
+  },
+  {
+   "ts": "20260326061832",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "8686555c735cc12d",
+   "title": "OpenAI API Pricing | OpenAI"
+  },
+  {
+   "ts": "20260401024903",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "bc7d5e343a97e18f",
+   "title": "OpenAI API Pricing | OpenAI"
+  },
+  {
+   "ts": "20260404092343",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "bc7d5e343a97e18f",
+   "title": "OpenAI API Pricing | OpenAI"
+  },
+  {
+   "ts": "20260409123627",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "bc7d5e343a97e18f",
+   "title": "OpenAI API Pricing | OpenAI"
+  },
+  {
+   "ts": "20260411014105",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "5b8e120c7f696a24",
+   "title": "OpenAI API Pricing | OpenAI"
+  },
+  {
+   "ts": "20260412003344",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "5b8e120c7f696a24",
+   "title": "OpenAI API Pricing | OpenAI"
+  },
+  {
+   "ts": "20260420005906",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "dc6e34b9c5917547",
+   "title": "OpenAI API Pricing | OpenAI"
+  },
+  {
+   "ts": "20260421200741",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "310310879b509799",
+   "title": "OpenAI API Pricing | OpenAI"
+  },
+  {
+   "ts": "20260423030612",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "1e912337e00d385c",
+   "title": "OpenAI API Pricing | OpenAI"
+  },
+  {
+   "ts": "20260425084917",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "bf57dc50090ab3d6",
+   "title": "OpenAI API Pricing | OpenAI"
+  },
+  {
+   "ts": "20260426172526",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "bf57dc50090ab3d6",
+   "title": "OpenAI API Pricing | OpenAI"
+  },
+  {
+   "ts": "20260427000655",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "bf57dc50090ab3d6",
+   "title": "OpenAI API Pricing | OpenAI"
+  },
+  {
+   "ts": "20260428000537",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "bf57dc50090ab3d6",
+   "title": "OpenAI API Pricing | OpenAI"
+  },
+  {
+   "ts": "20260509145718",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "28fc304498e44d69",
+   "title": "OpenAI API Pricing | OpenAI"
+  },
+  {
+   "ts": "20260601063732",
+   "url": "https://openai.com/api/pricing/",
+   "sha": "28fc304498e44d69",
+   "title": "OpenAI API Pricing | OpenAI"
+  },
+  {
+   "ts": "20260909122111",
+   "url": "https://openai.com/api/pricing/",
+   "error": "terminated"
+  },
+  {
+   "ts": "20260924122319",
+   "url": "https://openai.com/api/pricing/",
+   "error": "no readable text"
+  }
+ ],
+ "versions": [
+  {
+   "sha": "9308ff5e3707c87f",
+   "first": "20211120082310",
+   "last": "20211212145654",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "88cb502b5d4a4886",
+   "first": "20211216152637",
+   "last": "20211223073823",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "6486c1b064841d0d",
+   "first": "20220111045217",
+   "last": "20220111045217",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "87aceb6276e02c59",
+   "first": "20220127215201",
+   "last": "20220129122511",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "203f3f4fef29f4e4",
+   "first": "20220301074558",
+   "last": "20220405035541",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "0361072f7ad675b2",
+   "first": "20220421151651",
+   "last": "20220426204612",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "5af12f976385b890",
+   "first": "20220520062408",
+   "last": "20220817141310",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "0cf654f9da3dfd40",
+   "first": "20220822165430",
+   "last": "20220826181013",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "74a8a6f70b3c30ca",
+   "first": "20220905191340",
+   "last": "20220911153707",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "ee4e24d7d6032c7e",
+   "first": "20220916165512",
+   "last": "20221027214610",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "6d98b0acb20fdb5c",
+   "first": "20221103225031",
+   "last": "20221130060640",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "f2eb710badb47f00",
+   "first": "20221201044427",
+   "last": "20221202010215",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "8a66b98e5d1d71e9",
+   "first": "20221203025702",
+   "last": "20221206012519",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "848372d72d3710b6",
+   "first": "20221207031957",
+   "last": "20221207031957",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "60cd91ee1df46e6b",
+   "first": "20221209190901",
+   "last": "20221215012615",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "5932af02cf51dff0",
+   "first": "20221216000930",
+   "last": "20221216000930",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "b4730ac7b5747c60",
+   "first": "20221217050029",
+   "last": "20230103151203",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "033874b47137cc9b",
+   "first": "20230105133958",
+   "last": "20230118172909",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "80f302a83e3f1222",
+   "first": "20230121150705",
+   "last": "20230121150705",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "c070384c7b7a9be7",
+   "first": "20230124063205",
+   "last": "20230223043611",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "1f6bc26e9954800a",
+   "first": "20230227230602",
+   "last": "20230228014742",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "c8297535f1453906",
+   "first": "20230301164629",
+   "last": "20230301164629",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "964c3c4878a3cbd9",
+   "first": "20230302000738",
+   "last": "20230302000738",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "58f12fb53af03297",
+   "first": "20230303002304",
+   "last": "20230306012943",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "fe63a61c44ac1305",
+   "first": "20230307060608",
+   "last": "20230313053444",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "2e496151a8e377f6",
+   "first": "20230314074145",
+   "last": "20230314074145",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "e8353883016c0cd2",
+   "first": "20230315015751",
+   "last": "20230316024934",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "27fa4ad76638963f",
+   "first": "20230317014104",
+   "last": "20230329014203",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "ab176d4e1e9c04da",
+   "first": "20230330011859",
+   "last": "20230406044845",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "a3d2f7200bc56ff6",
+   "first": "20230407230834",
+   "last": "20230411072713",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "eb9e3a433a9d905a",
+   "first": "20230412104931",
+   "last": "20230422143107",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "29483380f1adf981",
+   "first": "20230424190430",
+   "last": "20230513002943",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "0d3b35f2e29808ea",
+   "first": "20230516010952",
+   "last": "20230516010952",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "e98aba57d3121404",
+   "first": "20230518041425",
+   "last": "20230613083319",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "d7792d6b407c37ee",
+   "first": "20230614104237",
+   "last": "20230705195635",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "c508092a04422473",
+   "first": "20230707145029",
+   "last": "20230721084116",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "f799b2027c26c51a",
+   "first": "20230722160932",
+   "last": "20230822003506",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "52f096d0b4a15d4c",
+   "first": "20230823020733",
+   "last": "20230823020733",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "4bf0f8b070c63d0f",
+   "first": "20230828212514",
+   "last": "20230912150319",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "2234053c4821c10a",
+   "first": "20230913034813",
+   "last": "20230920152241",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "9c1c868127acecdb",
+   "first": "20230921035616",
+   "last": "20230922164037",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "63480e672b2d01b8",
+   "first": "20230924023114",
+   "last": "20230925111633",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "08d082b41ae45b81",
+   "first": "20230926142829",
+   "last": "20231030120603",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "4f39d8dbceea1555",
+   "first": "20231031033745",
+   "last": "20231106123107",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "053a8a3a8b202a3e",
+   "first": "20231107002212",
+   "last": "20231107002212",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "9df3ce75465013fd",
+   "first": "20231108164414",
+   "last": "20231108164414",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "3d2fd3108783951a",
+   "first": "20231109042647",
+   "last": "20231115183638",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "f2830bd020cec79d",
+   "first": "20231116230652",
+   "last": "20231116230652",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "e090bbad444b0ffa",
+   "first": "20231117162157",
+   "last": "20231127092929",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "6f7af626ba121867",
+   "first": "20231128015730",
+   "last": "20231201003736",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "258f4edb7ab14ad6",
+   "first": "20231202142717",
+   "last": "20231218150557",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "fb65237f818c5fa3",
+   "first": "20231219100719",
+   "last": "20240101215328",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "8dc56aeffa389d36",
+   "first": "20240104103116",
+   "last": "20240110110628",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "9b60037c000f018e",
+   "first": "20240111054654",
+   "last": "20240112001122",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "cfb3f866ccd52428",
+   "first": "20240113001114",
+   "last": "20240124084224",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "26249b24c3bd01f8",
+   "first": "20240126001102",
+   "last": "20240126001102",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "ec5a6b220589d6d2",
+   "first": "20240127001051",
+   "last": "20240131222655",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "fa15f1c102aa8120",
+   "first": "20240201194002",
+   "last": "20240215111201",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "4de2231dfaf41765",
+   "first": "20240216010132",
+   "last": "20240227021741",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "8cd58bfc7e00438f",
+   "first": "20240228001151",
+   "last": "20240229042740",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "5afa91f1a6a8466c",
+   "first": "20240301001148",
+   "last": "20240301001148",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "df3f636450998f68",
+   "first": "20240302001121",
+   "last": "20240310121720",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "3315656c0cc161a4",
+   "first": "20240311211305",
+   "last": "20240409024050",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "1d14081c2f2f223c",
+   "first": "20240410023350",
+   "last": "20240413045027",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "0e353236b484a9ca",
+   "first": "20240416083002",
+   "last": "20240417124927",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "8c4e25ab6fd691fa",
+   "first": "20240418001135",
+   "last": "20240501154924",
+   "url": "https://openai.com/pricing"
+  },
+  {
+   "sha": "9ac5e451db23af13",
+   "first": "20240502185457",
+   "last": "20240512001339",
+   "url": "https://openai.com/api/pricing"
+  },
+  {
+   "sha": "34ed31b5182578ee",
+   "first": "20240513001143",
+   "last": "20240513001143",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "693dd0ec84376df4",
+   "first": "20240514201030",
+   "last": "20240531063320",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "51510ca5ef7abe02",
+   "first": "20240601042358",
+   "last": "20240625075548",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "a2ba845093b9d9ac",
+   "first": "20240626214645",
+   "last": "20240717155922",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "824b28eda25950c1",
+   "first": "20240718185512",
+   "last": "20240723091332",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "958b4a7d53772f57",
+   "first": "20240724060708",
+   "last": "20240724060708",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "636fbdff93d27a8e",
+   "first": "20240725003427",
+   "last": "20240729031638",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "1710c2561dab434f",
+   "first": "20240801072308",
+   "last": "20240801072308",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "6b8fe005030fa14a",
+   "first": "20240802214606",
+   "last": "20240805040613",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "b634e4f53da39355",
+   "first": "20240807072030",
+   "last": "20240808065448",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "a6f8c73a4cb02c5b",
+   "first": "20240809225029",
+   "last": "20240812003133",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "f67225bf3f536e5d",
+   "first": "20240813093835",
+   "last": "20240813093835",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "00f1531b9e36f5b7",
+   "first": "20240814003828",
+   "last": "20240820141509",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "cb814b8885fe8bf7",
+   "first": "20240822093738",
+   "last": "20240823123838",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "72c116ed82b992e2",
+   "first": "20240824123831",
+   "last": "20240909040242",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "b0fb4d887d6e4722",
+   "first": "20240910222921",
+   "last": "20240912062000",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "4c43b003cd353dac",
+   "first": "20240913014600",
+   "last": "20240918032749",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "2e96abb965682efc",
+   "first": "20240919141329",
+   "last": "20240922175326",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "5403445512f1a76b",
+   "first": "20240924164751",
+   "last": "20241001064825",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "24ddc01e23ae3063",
+   "first": "20241002004900",
+   "last": "20241002004900",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "d84d039541791aab",
+   "first": "20241003071502",
+   "last": "20241017141009",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "36b7370e951ccb82",
+   "first": "20241018162738",
+   "last": "20241018162738",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "d37e8c163062c12f",
+   "first": "20241026125426",
+   "last": "20241026125426",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "5726bc9869076027",
+   "first": "20241112050536",
+   "last": "20241117221847",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "09cbb0001568a061",
+   "first": "20241129212029",
+   "last": "20241217154901",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "3f1cb058f3b1abf2",
+   "first": "20241221052946",
+   "last": "20250109100914",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "cde9d64fc147df88",
+   "first": "20250115033939",
+   "last": "20250127090905",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "8150fc084caf60b5",
+   "first": "20250128220305",
+   "last": "20250129060213",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "fb3f514238c1b0cc",
+   "first": "20250201145921",
+   "last": "20250201145921",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "f83ec82ec540db92",
+   "first": "20250203052753",
+   "last": "20250203052753",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "93bd4b2b09fb9099",
+   "first": "20250208011001",
+   "last": "20250211094612",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "ebc7a0be87e61591",
+   "first": "20250213123844",
+   "last": "20250219040240",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "da123906ee4478ee",
+   "first": "20250221213145",
+   "last": "20250224204433",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "c7f62db839d9fbd4",
+   "first": "20250303222338",
+   "last": "20250303222338",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "e94ebe13d0930295",
+   "first": "20250305031636",
+   "last": "20250306133345",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "b0c816a540b6e8cf",
+   "first": "20250312192445",
+   "last": "20250312192445",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "7802b5194ff0069c",
+   "first": "20250317035656",
+   "last": "20250317035656",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "70d87580adafefd4",
+   "first": "20250321002735",
+   "last": "20250413004940",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "579d5445765ba41f",
+   "first": "20250415140253",
+   "last": "20250415140253",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "efb8bb5bd7a31875",
+   "first": "20250416031026",
+   "last": "20250416031026",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "2cd832abcac4d591",
+   "first": "20250417003454",
+   "last": "20250421013405",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "186c9fe0d291848a",
+   "first": "20250424103314",
+   "last": "20250430091622",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "b7112c81ffd3f4fa",
+   "first": "20250503232709",
+   "last": "20250506010605",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "6dbafc13bb4f6a93",
+   "first": "20250509015151",
+   "last": "20250514005055",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "eeb888350e999f18",
+   "first": "20250517154025",
+   "last": "20250517154025",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "250f4e19b3d1bb8d",
+   "first": "20250525043536",
+   "last": "20250525043536",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "bc726a618e670837",
+   "first": "20250602152701",
+   "last": "20250608083612",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "9af9bd92e4b4baf8",
+   "first": "20250611095744",
+   "last": "20250617044433",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "a510b92f9d4640bd",
+   "first": "20250625201431",
+   "last": "20250625201431",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "59630e268a3fe771",
+   "first": "20250702152237",
+   "last": "20250807025154",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "968e7f5d9c11f4b8",
+   "first": "20250809142503",
+   "last": "20250818015425",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "d0185e6e75b545f5",
+   "first": "20250827181036",
+   "last": "20250827181036",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "d5c17f7a81fe3d04",
+   "first": "20250831102237",
+   "last": "20250912002529",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "9e16e085b1f67283",
+   "first": "20250918145250",
+   "last": "20250918145250",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "38aa28d141b07419",
+   "first": "20250920150859",
+   "last": "20250920150859",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "76765bb7ed451c42",
+   "first": "20251004182904",
+   "last": "20251004182904",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "d3f8e5b05d06a802",
+   "first": "20251009173518",
+   "last": "20251009173518",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "82f1428bf92c01c3",
+   "first": "20251014095925",
+   "last": "20251014095925",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "c05e665573d5119f",
+   "first": "20251023143607",
+   "last": "20251113140952",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "cc8daa6954ac4c50",
+   "first": "20251118170045",
+   "last": "20251203034208",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "db61e171301560b7",
+   "first": "20251211103307",
+   "last": "20251211103307",
+   "url": "https://platform.openai.com/docs/pricing"
+  },
+  {
+   "sha": "963a9bc1e79c5173",
+   "first": "20251211143911",
+   "last": "20251211143911",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "edb8e73a1b07df86",
+   "first": "20251212035403",
+   "last": "20251213043633",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "5ffcbd7982c797d1",
+   "first": "20251214005151",
+   "last": "20251214005151",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "cc610d8c0caf6e07",
+   "first": "20251216075829",
+   "last": "20251216075829",
+   "url": "https://platform.openai.com/docs/pricing"
+  },
+  {
+   "sha": "5c3ba37e2a417d38",
+   "first": "20251217151508",
+   "last": "20251217151508",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "af7b66ce6728e9a1",
+   "first": "20251218224943",
+   "last": "20260102012016",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "ba13bc70c6150a40",
+   "first": "20260102061741",
+   "last": "20260102061741",
+   "url": "https://platform.openai.com/docs/pricing"
+  },
+  {
+   "sha": "5c3ba37e2a417d38",
+   "first": "20260112103304",
+   "last": "20260127073500",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "cd50565789bb0eef",
+   "first": "20260129175316",
+   "last": "20260204005428",
+   "url": "https://platform.openai.com/docs/pricing"
+  },
+  {
+   "sha": "50c571ff4fa9b79d",
+   "first": "20260205022429",
+   "last": "20260205022429",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "c80bf08b7b2323e3",
+   "first": "20260207070409",
+   "last": "20260207070409",
+   "url": "https://platform.openai.com/docs/pricing"
+  },
+  {
+   "sha": "50c571ff4fa9b79d",
+   "first": "20260207191105",
+   "last": "20260207191105",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "d22718620339d576",
+   "first": "20260210054125",
+   "last": "20260210054125",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "0e24a541b5c9d444",
+   "first": "20260212163131",
+   "last": "20260215081714",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "33c3dd95b0abac25",
+   "first": "20260223105441",
+   "last": "20260302144604",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "a42a8213c2cb244b",
+   "first": "20260303080049",
+   "last": "20260304002531",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "ea638b78c2ba1362",
+   "first": "20260308192816",
+   "last": "20260312012840",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "4e817a83e7bfbe6a",
+   "first": "20260314225417",
+   "last": "20260314225417",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "c589edb8c9b06cdf",
+   "first": "20260317234523",
+   "last": "20260317234523",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "a6745660b27b0707",
+   "first": "20260320062735",
+   "last": "20260320062735",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "cb2f3037ee939ae1",
+   "first": "20260323164507",
+   "last": "20260325042435",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "8686555c735cc12d",
+   "first": "20260326061832",
+   "last": "20260326061832",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "bc7d5e343a97e18f",
+   "first": "20260401024903",
+   "last": "20260409123627",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "5b8e120c7f696a24",
+   "first": "20260411014105",
+   "last": "20260412003344",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "dc6e34b9c5917547",
+   "first": "20260420005906",
+   "last": "20260420005906",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "310310879b509799",
+   "first": "20260421200741",
+   "last": "20260421200741",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "1e912337e00d385c",
+   "first": "20260423030612",
+   "last": "20260423030612",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "bf57dc50090ab3d6",
+   "first": "20260425084917",
+   "last": "20260428000537",
+   "url": "https://openai.com/api/pricing/"
+  },
+  {
+   "sha": "28fc304498e44d69",
+   "first": "20260509145718",
+   "last": "20260601063732",
+   "url": "https://openai.com/api/pricing/"
+  }
+ ],
+ "complete": true
+}

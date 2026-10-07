@@ -1,0 +1,595 @@
+{
+ "id": "openai-business-terms",
+ "org": "openai",
+ "urls": [
+  "https://openai.com/policies/business-terms/",
+  "https://openai.com/policies/business-terms",
+  "https://openai.com/policies/services-agreement/"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://openai.com/policies/business-terms/",
+   "title": "OpenAI Services Agreement | OpenAI",
+   "via": "fetch",
+   "sha": "a4368896f28b89c7",
+   "words": 7022
+  }
+ ],
+ "captures": [
+  {
+   "ts": "20230921231041",
+   "url": "https://openai.com/policies/business-terms",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231108132537",
+   "url": "https://openai.com/policies/business-terms",
+   "sha": "91f568c110cafcb2",
+   "title": "Business terms"
+  },
+  {
+   "ts": "20231115033553",
+   "url": "https://openai.com/policies/business-terms",
+   "sha": "e6ddaadda2efb059",
+   "title": "Business terms"
+  },
+  {
+   "ts": "20231120155227",
+   "url": "https://openai.com/policies/business-terms",
+   "sha": "e6ddaadda2efb059",
+   "title": "Business terms"
+  },
+  {
+   "ts": "20231204201311",
+   "url": "https://openai.com/policies/business-terms",
+   "sha": "e6ddaadda2efb059",
+   "title": "Business terms"
+  },
+  {
+   "ts": "20231216001514",
+   "url": "https://openai.com/policies/business-terms",
+   "sha": "e6ddaadda2efb059",
+   "title": "Business terms"
+  },
+  {
+   "ts": "20231218150612",
+   "url": "https://openai.com/policies/business-terms",
+   "sha": "e6ddaadda2efb059",
+   "title": "Business terms"
+  },
+  {
+   "ts": "20231221134033",
+   "url": "https://openai.com/policies/business-terms",
+   "sha": "e6ddaadda2efb059",
+   "title": "Business terms"
+  },
+  {
+   "ts": "20231227091518",
+   "url": "https://openai.com/policies/business-terms",
+   "sha": "e6ddaadda2efb059",
+   "title": "Business terms"
+  },
+  {
+   "ts": "20240110213750",
+   "url": "https://openai.com/policies/business-terms",
+   "sha": "4a4fcf1b0cb2c7ce",
+   "title": "Business terms"
+  },
+  {
+   "ts": "20240118183501",
+   "url": "https://openai.com/policies/business-terms",
+   "sha": "4a4fcf1b0cb2c7ce",
+   "title": "Business terms"
+  },
+  {
+   "ts": "20240305015742",
+   "url": "https://openai.com/policies/business-terms",
+   "sha": "29d95697a6f859b3",
+   "title": "Business terms"
+  },
+  {
+   "ts": "20240402041636",
+   "url": "https://openai.com/policies/business-terms",
+   "sha": "29d95697a6f859b3",
+   "title": "Business terms"
+  },
+  {
+   "ts": "20240411140932",
+   "url": "https://openai.com/policies/business-terms",
+   "sha": "29d95697a6f859b3",
+   "title": "Business terms"
+  },
+  {
+   "ts": "20240419201429",
+   "url": "https://openai.com/policies/business-terms",
+   "sha": "29d95697a6f859b3",
+   "title": "Business terms"
+  },
+  {
+   "ts": "20240507120003",
+   "url": "https://openai.com/policies/business-terms",
+   "sha": "3cbaf63667af0721",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20240603102802",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "3cbaf63667af0721",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20240711222704",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "3cbaf63667af0721",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20240714064904",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "3cbaf63667af0721",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20240731214037",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "f17998366bf3039b",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20240801031923",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "f17998366bf3039b",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20240915141049",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "f17998366bf3039b",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20240918235954",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "f17998366bf3039b",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20240925134459",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "f17998366bf3039b",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20241111211204",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "7153cc305ff0b5bf",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20241216094029",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "7153cc305ff0b5bf",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20250114230827",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "7153cc305ff0b5bf",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20250115230022",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "7153cc305ff0b5bf",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20250126154013",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "2dcd8d3443ad58d4",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20250128020941",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "2dcd8d3443ad58d4",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20250130004707",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "2dcd8d3443ad58d4",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20250212203745",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "5feac61ed1a37a0c",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20250219085907",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "5feac61ed1a37a0c",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20250316152411",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "689452f18b04cdca",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20250401142130",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "689452f18b04cdca",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20250426115843",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "689452f18b04cdca",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20250427050444",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "689452f18b04cdca",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20250429180911",
+   "url": "https://openai.com/policies/business-terms/",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250507153830",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "c36edbf569578392",
+   "title": "Services agreement | OpenAI"
+  },
+  {
+   "ts": "20250508054839",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "62970b42a5a70f0b",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20250519024110",
+   "url": "https://openai.com/policies/business-terms/",
+   "sha": "62970b42a5a70f0b",
+   "title": "Business terms | OpenAI"
+  },
+  {
+   "ts": "20250524190105",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "f640282fbed0cc74",
+   "title": "Services agreement | OpenAI"
+  },
+  {
+   "ts": "20250602152751",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "f640282fbed0cc74",
+   "title": "Services agreement | OpenAI"
+  },
+  {
+   "ts": "20250616225752",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "787ad63e33795618",
+   "title": "Services agreement | OpenAI"
+  },
+  {
+   "ts": "20250725120133",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "607c2ed69d5ed39a",
+   "title": "Services agreement | OpenAI"
+  },
+  {
+   "ts": "20250805032728",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "607c2ed69d5ed39a",
+   "title": "Services agreement | OpenAI"
+  },
+  {
+   "ts": "20250828040709",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "607c2ed69d5ed39a",
+   "title": "Services agreement | OpenAI"
+  },
+  {
+   "ts": "20250829143038",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "607c2ed69d5ed39a",
+   "title": "Services agreement | OpenAI"
+  },
+  {
+   "ts": "20250904120155",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "6d7d11151f61281b",
+   "title": "OpenAI Services Agreement | OpenAI"
+  },
+  {
+   "ts": "20251025220035",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "6d7d11151f61281b",
+   "title": "OpenAI Services Agreement | OpenAI"
+  },
+  {
+   "ts": "20251029040555",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "6d7d11151f61281b",
+   "title": "OpenAI Services Agreement | OpenAI"
+  },
+  {
+   "ts": "20251106121859",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "607c2ed69d5ed39a",
+   "title": "Services agreement | OpenAI"
+  },
+  {
+   "ts": "20251125160027",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "a988fd73a8328ea1",
+   "title": "Services agreement | OpenAI"
+  },
+  {
+   "ts": "20251211143917",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "a6778d044e87e9fc",
+   "title": "Services agreement | OpenAI"
+  },
+  {
+   "ts": "20260107201645",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "5cdb2ead731f168e",
+   "title": "Services agreement | OpenAI"
+  },
+  {
+   "ts": "20260201161824",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "5cdb2ead731f168e",
+   "title": "Services agreement | OpenAI"
+  },
+  {
+   "ts": "20260312072143",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "5cdb2ead731f168e",
+   "title": "Services agreement | OpenAI"
+  },
+  {
+   "ts": "20260403171600",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "5cdb2ead731f168e",
+   "title": "Services agreement | OpenAI"
+  },
+  {
+   "ts": "20260407214519",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "5cdb2ead731f168e",
+   "title": "Services agreement | OpenAI"
+  },
+  {
+   "ts": "20260428152802",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "55084b5b567b9344",
+   "title": "Services agreement | OpenAI"
+  },
+  {
+   "ts": "20260517230745",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "55084b5b567b9344",
+   "title": "Services agreement | OpenAI"
+  },
+  {
+   "ts": "20260601174712",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "1b536224cfc0e32b",
+   "title": "Services agreement | OpenAI"
+  },
+  {
+   "ts": "20260609222032",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "1b536224cfc0e32b",
+   "title": "Services agreement | OpenAI"
+  },
+  {
+   "ts": "20260615190703",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "58e5bc98ae1e5b4a",
+   "title": "OpenAI Services Agreement | OpenAI"
+  },
+  {
+   "ts": "20260702081808",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "58e5bc98ae1e5b4a",
+   "title": "OpenAI Services Agreement | OpenAI"
+  },
+  {
+   "ts": "20260814071823",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "58e5bc98ae1e5b4a",
+   "title": "OpenAI Services Agreement | OpenAI"
+  },
+  {
+   "ts": "20260821142157",
+   "url": "https://openai.com/policies/business-terms/",
+   "error": "terminated"
+  },
+  {
+   "ts": "20260825233459",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "a4368896f28b89c7",
+   "title": "OpenAI Services Agreement | OpenAI"
+  },
+  {
+   "ts": "20260830092035",
+   "url": "https://openai.com/policies/services-agreement/",
+   "error": "terminated"
+  },
+  {
+   "ts": "20260912202946",
+   "url": "https://openai.com/policies/business-terms",
+   "error": "terminated"
+  },
+  {
+   "ts": "20260915134200",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "a4368896f28b89c7",
+   "title": "OpenAI Services Agreement | OpenAI"
+  },
+  {
+   "ts": "20260926161009",
+   "url": "https://openai.com/policies/services-agreement/",
+   "sha": "a4368896f28b89c7",
+   "title": "OpenAI Services Agreement | OpenAI"
+  }
+ ],
+ "versions": [
+  {
+   "sha": "91f568c110cafcb2",
+   "first": "20231108132537",
+   "last": "20231108132537",
+   "url": "https://openai.com/policies/business-terms"
+  },
+  {
+   "sha": "e6ddaadda2efb059",
+   "first": "20231115033553",
+   "last": "20231227091518",
+   "url": "https://openai.com/policies/business-terms"
+  },
+  {
+   "sha": "4a4fcf1b0cb2c7ce",
+   "first": "20240110213750",
+   "last": "20240118183501",
+   "url": "https://openai.com/policies/business-terms"
+  },
+  {
+   "sha": "29d95697a6f859b3",
+   "first": "20240305015742",
+   "last": "20240419201429",
+   "url": "https://openai.com/policies/business-terms"
+  },
+  {
+   "sha": "3cbaf63667af0721",
+   "first": "20240507120003",
+   "last": "20240714064904",
+   "url": "https://openai.com/policies/business-terms"
+  },
+  {
+   "sha": "f17998366bf3039b",
+   "first": "20240731214037",
+   "last": "20240925134459",
+   "url": "https://openai.com/policies/business-terms/"
+  },
+  {
+   "sha": "7153cc305ff0b5bf",
+   "first": "20241111211204",
+   "last": "20250115230022",
+   "url": "https://openai.com/policies/business-terms/"
+  },
+  {
+   "sha": "2dcd8d3443ad58d4",
+   "first": "20250126154013",
+   "last": "20250130004707",
+   "url": "https://openai.com/policies/business-terms/"
+  },
+  {
+   "sha": "5feac61ed1a37a0c",
+   "first": "20250212203745",
+   "last": "20250219085907",
+   "url": "https://openai.com/policies/business-terms/"
+  },
+  {
+   "sha": "689452f18b04cdca",
+   "first": "20250316152411",
+   "last": "20250427050444",
+   "url": "https://openai.com/policies/business-terms/"
+  },
+  {
+   "sha": "c36edbf569578392",
+   "first": "20250507153830",
+   "last": "20250507153830",
+   "url": "https://openai.com/policies/services-agreement/"
+  },
+  {
+   "sha": "62970b42a5a70f0b",
+   "first": "20250508054839",
+   "last": "20250519024110",
+   "url": "https://openai.com/policies/business-terms/"
+  },
+  {
+   "sha": "f640282fbed0cc74",
+   "first": "20250524190105",
+   "last": "20250602152751",
+   "url": "https://openai.com/policies/services-agreement/"
+  },
+  {
+   "sha": "787ad63e33795618",
+   "first": "20250616225752",
+   "last": "20250616225752",
+   "url": "https://openai.com/policies/services-agreement/"
+  },
+  {
+   "sha": "607c2ed69d5ed39a",
+   "first": "20250725120133",
+   "last": "20250829143038",
+   "url": "https://openai.com/policies/services-agreement/"
+  },
+  {
+   "sha": "6d7d11151f61281b",
+   "first": "20250904120155",
+   "last": "20251029040555",
+   "url": "https://openai.com/policies/services-agreement/"
+  },
+  {
+   "sha": "607c2ed69d5ed39a",
+   "first": "20251106121859",
+   "last": "20251106121859",
+   "url": "https://openai.com/policies/services-agreement/"
+  },
+  {
+   "sha": "a988fd73a8328ea1",
+   "first": "20251125160027",
+   "last": "20251125160027",
+   "url": "https://openai.com/policies/services-agreement/"
+  },
+  {
+   "sha": "a6778d044e87e9fc",
+   "first": "20251211143917",
+   "last": "20251211143917",
+   "url": "https://openai.com/policies/services-agreement/"
+  },
+  {
+   "sha": "5cdb2ead731f168e",
+   "first": "20260107201645",
+   "last": "20260407214519",
+   "url": "https://openai.com/policies/services-agreement/"
+  },
+  {
+   "sha": "55084b5b567b9344",
+   "first": "20260428152802",
+   "last": "20260517230745",
+   "url": "https://openai.com/policies/services-agreement/"
+  },
+  {
+   "sha": "1b536224cfc0e32b",
+   "first": "20260601174712",
+   "last": "20260609222032",
+   "url": "https://openai.com/policies/services-agreement/"
+  },
+  {
+   "sha": "58e5bc98ae1e5b4a",
+   "first": "20260615190703",
+   "last": "20260814071823",
+   "url": "https://openai.com/policies/services-agreement/"
+  },
+  {
+   "sha": "a4368896f28b89c7",
+   "first": "20260825233459",
+   "last": "20260926161009",
+   "url": "https://openai.com/policies/services-agreement/"
+  }
+ ],
+ "complete": true
+}

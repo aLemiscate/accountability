@@ -1,0 +1,499 @@
+{
+ "id": "openai-rate-limits",
+ "org": "openai",
+ "urls": [
+  "https://platform.openai.com/docs/guides/rate-limits",
+  "https://developers.openai.com/api/docs/guides/rate-limits"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "title": "Rate limits | OpenAI API",
+   "via": "fetch",
+   "sha": "2457d18580245af3",
+   "words": 2820
+  }
+ ],
+ "captures": [
+  {
+   "ts": "20230131012140",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230216174815",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230301202459",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230405131255",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230506030831",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230610013540",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230707074308",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230801160713",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230904214622",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231001010422",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231106125959",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231220223554",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240121182835",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240202003219",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240312012311",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240413073258",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240501030055",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240610183407",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240708183938",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240806084119",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240902151528",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20241003093731",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20241104023203",
+   "url": "https://platform.openai.com/docs/guides/rate-limits/",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20241213171340",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250112120404",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250201062550",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250305031639",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250401073030",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250511190105",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250611064501",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250713121406",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250803091808",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251003090944",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251111235910",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251210045847",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "sha": "bf5a1205ffef12af",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20251216184611",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "sha": "7dbace5604f1ac74",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260101234142",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "sha": "7dbace5604f1ac74",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260110110543",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "sha": "21296b56429df5a8",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260206082407",
+   "url": "https://platform.openai.com/docs/guides/rate-limits",
+   "sha": "09d2bcede933727d",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260210054527",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "e0cfd4bf12740952",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260212025337",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "e0cfd4bf12740952",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260304132308",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits/",
+   "sha": "e0cfd4bf12740952",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260316130016",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "e0cfd4bf12740952",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260319035037",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "e0cfd4bf12740952",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260326152652",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "e0cfd4bf12740952",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260401024801",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "aa0a33ea3a30bc13",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260404092005",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "aa0a33ea3a30bc13",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260414093007",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "ddcabe82f341de52",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260416043214",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "ddcabe82f341de52",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260421015246",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "ddcabe82f341de52",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260425152345",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "a796f60ef4daebb4",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260518212558",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "3896a80568e30126",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260524042436",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "3896a80568e30126",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260611225548",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "1cd8a0e783941a15",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260612080642",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "1cd8a0e783941a15",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260620120422",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "1cd8a0e783941a15",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260702135531",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "ba7e9ab55f97ab76",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260721161714",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "ba7e9ab55f97ab76",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260723120551",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "c550df20014b90b6",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260820143940",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "507f7cb1fdfc4689",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260823085527",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "507f7cb1fdfc4689",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260826210255",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "327713ad842ec8ab",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260904034929",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "fbfb913e8b7908ac",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260910185414",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "4f205c52bd9b2167",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20260922185913",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "4f205c52bd9b2167",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20261001232729",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "6aa7db1384a362b8",
+   "title": "Rate limits | OpenAI API"
+  },
+  {
+   "ts": "20261006221312",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits",
+   "sha": "2457d18580245af3",
+   "title": "Rate limits | OpenAI API"
+  }
+ ],
+ "versions": [
+  {
+   "sha": "bf5a1205ffef12af",
+   "first": "20251210045847",
+   "last": "20251210045847",
+   "url": "https://platform.openai.com/docs/guides/rate-limits"
+  },
+  {
+   "sha": "7dbace5604f1ac74",
+   "first": "20251216184611",
+   "last": "20260101234142",
+   "url": "https://platform.openai.com/docs/guides/rate-limits"
+  },
+  {
+   "sha": "21296b56429df5a8",
+   "first": "20260110110543",
+   "last": "20260110110543",
+   "url": "https://platform.openai.com/docs/guides/rate-limits"
+  },
+  {
+   "sha": "09d2bcede933727d",
+   "first": "20260206082407",
+   "last": "20260206082407",
+   "url": "https://platform.openai.com/docs/guides/rate-limits"
+  },
+  {
+   "sha": "e0cfd4bf12740952",
+   "first": "20260210054527",
+   "last": "20260326152652",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits"
+  },
+  {
+   "sha": "aa0a33ea3a30bc13",
+   "first": "20260401024801",
+   "last": "20260404092005",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits"
+  },
+  {
+   "sha": "ddcabe82f341de52",
+   "first": "20260414093007",
+   "last": "20260421015246",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits"
+  },
+  {
+   "sha": "a796f60ef4daebb4",
+   "first": "20260425152345",
+   "last": "20260425152345",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits"
+  },
+  {
+   "sha": "3896a80568e30126",
+   "first": "20260518212558",
+   "last": "20260524042436",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits"
+  },
+  {
+   "sha": "1cd8a0e783941a15",
+   "first": "20260611225548",
+   "last": "20260620120422",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits"
+  },
+  {
+   "sha": "ba7e9ab55f97ab76",
+   "first": "20260702135531",
+   "last": "20260721161714",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits"
+  },
+  {
+   "sha": "c550df20014b90b6",
+   "first": "20260723120551",
+   "last": "20260723120551",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits"
+  },
+  {
+   "sha": "507f7cb1fdfc4689",
+   "first": "20260820143940",
+   "last": "20260823085527",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits"
+  },
+  {
+   "sha": "327713ad842ec8ab",
+   "first": "20260826210255",
+   "last": "20260826210255",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits"
+  },
+  {
+   "sha": "fbfb913e8b7908ac",
+   "first": "20260904034929",
+   "last": "20260904034929",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits"
+  },
+  {
+   "sha": "4f205c52bd9b2167",
+   "first": "20260910185414",
+   "last": "20260922185913",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits"
+  },
+  {
+   "sha": "6aa7db1384a362b8",
+   "first": "20261001232729",
+   "last": "20261001232729",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits"
+  },
+  {
+   "sha": "2457d18580245af3",
+   "first": "20261006221312",
+   "last": "20261006221312",
+   "url": "https://developers.openai.com/api/docs/guides/rate-limits"
+  }
+ ],
+ "complete": true
+}

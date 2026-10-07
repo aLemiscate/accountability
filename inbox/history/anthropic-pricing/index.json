@@ -1,0 +1,2321 @@
+{
+ "id": "anthropic-pricing",
+ "org": "anthropic",
+ "urls": [
+  "https://www.anthropic.com/pricing",
+  "https://claude.com/pricing",
+  "https://www.claude.com/pricing"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://www.anthropic.com/pricing",
+   "title": "Plans & pricing | Claude by Anthropic",
+   "via": "fetch",
+   "sha": "43f6aa5e0d0abd81",
+   "words": 3044
+  }
+ ],
+ "captures": [
+  {
+   "ts": "20240620172520",
+   "url": "https://www.anthropic.com/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240701041020",
+   "url": "https://www.anthropic.com/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240806122017",
+   "url": "https://www.anthropic.com/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240901103954",
+   "url": "https://www.anthropic.com/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20241003181248",
+   "url": "https://www.anthropic.com/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20241102082318",
+   "url": "https://www.anthropic.com/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20241203010242",
+   "url": "https://www.anthropic.com/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250101035229",
+   "url": "https://www.anthropic.com/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250203054113",
+   "url": "https://www.anthropic.com/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250303042746",
+   "url": "https://www.anthropic.com/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250401052612",
+   "url": "https://www.anthropic.com/pricing",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250501055413",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "da30cfc5a75462e0",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250503164322",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "1e02be1010df2064",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250507125325",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "1e02be1010df2064",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250512003953",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "9ececbbd650109a5",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250514014916",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "9ececbbd650109a5",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250518100530",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "9ececbbd650109a5",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250522191423",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "35c4b25c4540fd58",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250523230023",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "28f1809db1724737",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250525192104",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "28f1809db1724737",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250526174201",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "28f1809db1724737",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250528151800",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "4ff5ba011a17789d",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250529165123",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "4ff5ba011a17789d",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250603033741",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "55f0b18057137566",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250605021505",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "141a0480666196f0",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250606165511",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "3ce04cb402dcf0fc",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250607043834",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "3ce04cb402dcf0fc",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250618073341",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "3ce04cb402dcf0fc",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250623232823",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "3ce04cb402dcf0fc",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250624061835",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "3ce04cb402dcf0fc",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250625090630",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "d062fb44e45d92c7",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250629011509",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "d062fb44e45d92c7",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250702044858",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "bf246f8f15fa3953",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250704135617",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "1cc6d62627f6a25b",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250706064551",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "1cc6d62627f6a25b",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250708090101",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "1cc6d62627f6a25b",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250711180330",
+   "url": "https://www.anthropic.com/pricing/",
+   "sha": "c38387fedcf9362e",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250712134441",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "c38387fedcf9362e",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250715091442",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "11f540e45de92251",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250716233738",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "f93b204df481990f",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250717070325",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "f93b204df481990f",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250722002646",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "f93b204df481990f",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250725182913",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "f93b204df481990f",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250727003041",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "f93b204df481990f",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250729071234",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "7e5afb3bcb9b591a",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250801145537",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "7e5afb3bcb9b591a",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250805154606",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "7e5afb3bcb9b591a",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250806113425",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "1d8c224341fdf355",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250808014645",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "ba4f33db6995f070",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250812142557",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "ba4f33db6995f070",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250814165403",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "80c94ada6c8184c8",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250819005215",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "80c94ada6c8184c8",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250820094915",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "80c94ada6c8184c8",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250821144433",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "f1c756e19a293340",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250823132844",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "3ac08448393f0e12",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250826173645",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "3ac08448393f0e12",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250902002655",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "3ac08448393f0e12",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250903205647",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "2dcee98b18d08155",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250905052336",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "2dcee98b18d08155",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250910063831",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "2dcee98b18d08155",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250914193133",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "2dcee98b18d08155",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250916142141",
+   "url": "https://www.anthropic.com/pricing",
+   "sha": "fcaf3fdf433f7f2e",
+   "title": "Pricing \\ Anthropic"
+  },
+  {
+   "ts": "20250917191450",
+   "url": "https://claude.com/pricing",
+   "sha": "bf58b299e01d24da",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20250918150943",
+   "url": "https://claude.com/pricing",
+   "sha": "bf58b299e01d24da",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20250920090704",
+   "url": "https://claude.com/pricing",
+   "sha": "79ec8263ed8c6800",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20250925011251",
+   "url": "https://claude.com/pricing",
+   "sha": "79ec8263ed8c6800",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20250928115133",
+   "url": "https://claude.com/pricing",
+   "sha": "79ec8263ed8c6800",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20250929202903",
+   "url": "https://claude.com/pricing",
+   "sha": "62e80ce1d169912b",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251001083441",
+   "url": "https://claude.com/pricing",
+   "sha": "62e80ce1d169912b",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251014043428",
+   "url": "https://claude.com/pricing",
+   "sha": "62e80ce1d169912b",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251015171138",
+   "url": "https://claude.com/pricing",
+   "sha": "4d1400bca8ba07c1",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251017133607",
+   "url": "https://www.claude.com/pricing",
+   "sha": "4d1400bca8ba07c1",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251022030354",
+   "url": "https://claude.com/pricing",
+   "sha": "4d1400bca8ba07c1",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251023120829",
+   "url": "https://claude.com/pricing",
+   "sha": "4d1400bca8ba07c1",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251024044527",
+   "url": "https://claude.com/pricing",
+   "sha": "53cac856623878d4",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251027144421",
+   "url": "https://claude.com/pricing",
+   "sha": "53cac856623878d4",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251101063108",
+   "url": "https://claude.com/pricing",
+   "sha": "53cac856623878d4",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251113063745",
+   "url": "https://claude.com/pricing",
+   "sha": "53cac856623878d4",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251114023026",
+   "url": "https://claude.com/pricing",
+   "sha": "9f782dfc7354b209",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251116034348",
+   "url": "https://claude.com/pricing",
+   "sha": "9f782dfc7354b209",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251121201620",
+   "url": "https://www.claude.com/pricing",
+   "sha": "9f782dfc7354b209",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251124045717",
+   "url": "https://www.claude.com/pricing",
+   "sha": "9f782dfc7354b209",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251125033547",
+   "url": "https://claude.com/pricing",
+   "sha": "bb0518a77bc06aa1",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251202035630",
+   "url": "https://www.claude.com/pricing",
+   "sha": "bb0518a77bc06aa1",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251203013813",
+   "url": "https://www.claude.com/pricing",
+   "sha": "2c8082812a432fb2",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251205064838",
+   "url": "https://claude.com/pricing",
+   "sha": "2c8082812a432fb2",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251208070340",
+   "url": "https://claude.com/pricing",
+   "sha": "2c8082812a432fb2",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251215004745",
+   "url": "https://claude.com/pricing",
+   "sha": "2c8082812a432fb2",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251216021053",
+   "url": "https://www.claude.com/pricing",
+   "sha": "478995865ec0a711",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251218173707",
+   "url": "https://claude.com/pricing",
+   "sha": "478995865ec0a711",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251219062906",
+   "url": "https://claude.com/pricing",
+   "sha": "478995865ec0a711",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251220012306",
+   "url": "https://claude.com/pricing",
+   "sha": "a9fccb7e22f38089",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251223042218",
+   "url": "https://claude.com/pricing",
+   "sha": "a9fccb7e22f38089",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251224193719",
+   "url": "https://claude.com/pricing",
+   "sha": "a9fccb7e22f38089",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251226083733",
+   "url": "https://claude.com/pricing",
+   "sha": "68f56366bd9404a6",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20251227050125",
+   "url": "https://claude.com/pricing",
+   "sha": "68f56366bd9404a6",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260101044440",
+   "url": "https://claude.com/pricing",
+   "sha": "68f56366bd9404a6",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260104065816",
+   "url": "https://claude.com/pricing",
+   "sha": "68f56366bd9404a6",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260105135753",
+   "url": "https://claude.com/pricing",
+   "sha": "68f56366bd9404a6",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260106012655",
+   "url": "https://claude.com/pricing",
+   "sha": "198db266f0047225",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260107130444",
+   "url": "https://claude.com/pricing",
+   "sha": "198db266f0047225",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260108000834",
+   "url": "https://www.claude.com/pricing",
+   "sha": "61acffd7100e94a3",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260112045821",
+   "url": "https://claude.com/pricing",
+   "sha": "61acffd7100e94a3",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260113080023",
+   "url": "https://claude.com/pricing",
+   "sha": "a86b90d9107c54de",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260114053617",
+   "url": "https://claude.com/pricing",
+   "sha": "a86b90d9107c54de",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260115062824",
+   "url": "https://claude.com/pricing",
+   "sha": "bb3a5f72a1542555",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260116101231",
+   "url": "https://claude.com/pricing",
+   "sha": "bb3a5f72a1542555",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260117012824",
+   "url": "https://claude.com/pricing",
+   "sha": "7380476bd6a3a975",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260118093026",
+   "url": "https://claude.com/pricing",
+   "sha": "7380476bd6a3a975",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260120010518",
+   "url": "https://claude.com/pricing",
+   "sha": "7380476bd6a3a975",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260123095625",
+   "url": "https://claude.com/pricing",
+   "sha": "7380476bd6a3a975",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260124010243",
+   "url": "https://claude.com/pricing",
+   "error": "HTTP 500"
+  },
+  {
+   "ts": "20260125161337",
+   "url": "https://claude.com/pricing",
+   "sha": "ac68f3395cacc982",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260126150308",
+   "url": "https://claude.com/pricing",
+   "sha": "ac68f3395cacc982",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260127115158",
+   "url": "https://claude.com/pricing",
+   "sha": "c35dd1d39446bdb7",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260128021629",
+   "url": "https://claude.com/pricing",
+   "sha": "c35dd1d39446bdb7",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260129011807",
+   "url": "https://claude.com/pricing",
+   "sha": "0142554c3db9c9b3",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260130051020",
+   "url": "https://claude.com/pricing",
+   "sha": "0142554c3db9c9b3",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260201072736",
+   "url": "https://claude.com/pricing",
+   "sha": "0142554c3db9c9b3",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260202041255",
+   "url": "https://claude.com/pricing",
+   "sha": "0142554c3db9c9b3",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260203000131",
+   "url": "https://claude.com/pricing",
+   "sha": "0142554c3db9c9b3",
+   "title": "Pricing | Claude"
+  },
+  {
+   "ts": "20260204120436",
+   "url": "https://claude.com/pricing",
+   "sha": "f0596504c8450f02",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260205071628",
+   "url": "https://claude.com/pricing",
+   "sha": "f0596504c8450f02",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260206095224",
+   "url": "https://claude.com/pricing",
+   "sha": "7cba20cbeb283d7b",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260208050249",
+   "url": "https://claude.com/pricing",
+   "sha": "7cba20cbeb283d7b",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260209071755",
+   "url": "https://claude.com/pricing",
+   "sha": "7cba20cbeb283d7b",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260210050152",
+   "url": "https://claude.com/pricing",
+   "sha": "7cba20cbeb283d7b",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260211103056",
+   "url": "https://claude.com/pricing",
+   "sha": "35bd6ca5c1c63b9d",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260212052949",
+   "url": "https://claude.com/pricing",
+   "sha": "3fd44625c367f6b8",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260213045719",
+   "url": "https://claude.com/pricing",
+   "sha": "46e069268cf9b7a3",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260214102534",
+   "url": "https://claude.com/pricing",
+   "sha": "46e069268cf9b7a3",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260215074643",
+   "url": "https://claude.com/pricing",
+   "sha": "3d462c5e4e70c4a7",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260216043908",
+   "url": "https://claude.com/pricing",
+   "sha": "3d462c5e4e70c4a7",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260217113002",
+   "url": "https://claude.com/pricing",
+   "sha": "3d462c5e4e70c4a7",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260218082210",
+   "url": "https://claude.com/pricing",
+   "sha": "389423abc5839898",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260222125150",
+   "url": "https://claude.com/pricing",
+   "sha": "389423abc5839898",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260225001043",
+   "url": "https://claude.com/pricing",
+   "sha": "389423abc5839898",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260226013856",
+   "url": "https://claude.com/pricing",
+   "sha": "1deb7d888aa677e6",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260227001458",
+   "url": "https://claude.com/pricing",
+   "sha": "1deb7d888aa677e6",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260301082827",
+   "url": "https://claude.com/pricing",
+   "sha": "1deb7d888aa677e6",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260303041130",
+   "url": "https://claude.com/pricing",
+   "sha": "1deb7d888aa677e6",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260304022516",
+   "url": "https://claude.com/pricing",
+   "sha": "6e5a51f57ccd7384",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260305015425",
+   "url": "https://claude.com/pricing",
+   "sha": "6e5a51f57ccd7384",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260306050114",
+   "url": "https://claude.com/pricing",
+   "sha": "aad4b443d913caff",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260307023607",
+   "url": "https://claude.com/pricing",
+   "sha": "aad4b443d913caff",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260308135139",
+   "url": "https://claude.com/pricing",
+   "error": "fetch failed"
+  },
+  {
+   "ts": "20260309014545",
+   "url": "https://claude.com/pricing",
+   "sha": "aad4b443d913caff",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260310001333",
+   "url": "https://claude.com/pricing",
+   "sha": "aad4b443d913caff",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260311014711",
+   "url": "https://claude.com/pricing",
+   "sha": "c633026529f83010",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260312004418",
+   "url": "https://claude.com/pricing",
+   "sha": "c633026529f83010",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260313022903",
+   "url": "https://claude.com/pricing",
+   "sha": "c633026529f83010",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260314005628",
+   "url": "https://claude.com/pricing",
+   "sha": "174aef2bfb0bd6fd",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260316014444",
+   "url": "https://claude.com/pricing",
+   "sha": "174aef2bfb0bd6fd",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260317000242",
+   "url": "https://claude.com/pricing",
+   "sha": "174aef2bfb0bd6fd",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260318004800",
+   "url": "https://claude.com/pricing",
+   "sha": "e684095dbd3931e1",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260320084356",
+   "url": "https://claude.com/pricing",
+   "sha": "e684095dbd3931e1",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260322034846",
+   "url": "https://claude.com/pricing",
+   "sha": "e684095dbd3931e1",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260323004607",
+   "url": "https://claude.com/pricing",
+   "sha": "e684095dbd3931e1",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260324003949",
+   "url": "https://claude.com/pricing",
+   "sha": "c88e70976b87635a",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260325032702",
+   "url": "https://claude.com/pricing",
+   "sha": "c88e70976b87635a",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260326033556",
+   "url": "https://claude.com/pricing",
+   "sha": "f93eefc805e5f72a",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260328020904",
+   "url": "https://claude.com/pricing",
+   "sha": "f93eefc805e5f72a",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260401052230",
+   "url": "https://claude.com/pricing",
+   "sha": "f93eefc805e5f72a",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260402035549",
+   "url": "https://claude.com/pricing",
+   "sha": "a06adc3f93db1afc",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260404090941",
+   "url": "https://claude.com/pricing",
+   "sha": "a06adc3f93db1afc",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260406064211",
+   "url": "https://claude.com/pricing",
+   "sha": "a06adc3f93db1afc",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260407044835",
+   "url": "https://claude.com/pricing",
+   "sha": "a06adc3f93db1afc",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260408074417",
+   "url": "https://claude.com/pricing",
+   "sha": "e064e35c8168f539",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260409140203",
+   "url": "https://claude.com/pricing",
+   "sha": "38b0581edd0a8492",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260410024120",
+   "url": "https://claude.com/pricing",
+   "sha": "38b0581edd0a8492",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260412021556",
+   "url": "https://claude.com/pricing",
+   "sha": "38b0581edd0a8492",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260413013321",
+   "url": "https://claude.com/pricing",
+   "sha": "38b0581edd0a8492",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260414075043",
+   "url": "https://claude.com/pricing",
+   "sha": "326be8867898a314",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260416022411",
+   "url": "https://claude.com/pricing",
+   "sha": "326be8867898a314",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260417054726",
+   "url": "https://claude.com/pricing",
+   "sha": "5bd8695d41ba9d24",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260419052758",
+   "url": "https://claude.com/pricing",
+   "sha": "5bd8695d41ba9d24",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260421040656",
+   "url": "https://claude.com/pricing",
+   "sha": "5bd8695d41ba9d24",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260422001250",
+   "url": "https://claude.com/pricing",
+   "sha": "a56242ebe03f7c53",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260423004505",
+   "url": "https://claude.com/pricing",
+   "sha": "cf0af71fbd2805d1",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260424020038",
+   "url": "https://claude.com/pricing",
+   "sha": "1c80c1f6539e1d8d",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260425013125",
+   "url": "https://claude.com/pricing",
+   "sha": "f0487bed20ad3118",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260427022605",
+   "url": "https://claude.com/pricing",
+   "sha": "f0487bed20ad3118",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260501052025",
+   "url": "https://claude.com/pricing",
+   "sha": "f0487bed20ad3118",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260504062135",
+   "url": "https://claude.com/pricing",
+   "sha": "f0487bed20ad3118",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260505063607",
+   "url": "https://claude.com/pricing",
+   "sha": "f0487bed20ad3118",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260506031603",
+   "url": "https://claude.com/pricing",
+   "sha": "158857ae0c1c9eb0",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260507085038",
+   "url": "https://claude.com/pricing",
+   "sha": "158857ae0c1c9eb0",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260508063911",
+   "url": "https://claude.com/pricing",
+   "sha": "6d409ee0d908bf39",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260512101749",
+   "url": "https://claude.com/pricing",
+   "sha": "6d409ee0d908bf39",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260513014207",
+   "url": "https://claude.com/pricing",
+   "sha": "dddc9dd8c386a32f",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260514031428",
+   "url": "https://claude.com/pricing",
+   "sha": "dddc9dd8c386a32f",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260516021301",
+   "url": "https://claude.com/pricing",
+   "sha": "dddc9dd8c386a32f",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260518080748",
+   "url": "https://claude.com/pricing",
+   "sha": "dddc9dd8c386a32f",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260519004738",
+   "url": "https://claude.com/pricing",
+   "sha": "3bec4e75c9f4b0a0",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260520131709",
+   "url": "https://claude.com/pricing",
+   "sha": "0e60fd407387661e",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260522091807",
+   "url": "https://claude.com/pricing",
+   "sha": "0e60fd407387661e",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260523003814",
+   "url": "https://claude.com/pricing",
+   "sha": "5bb5677923a147f6",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260524065122",
+   "url": "https://claude.com/pricing",
+   "sha": "5bb5677923a147f6",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260528032841",
+   "url": "https://claude.com/pricing",
+   "sha": "5bb5677923a147f6",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260529012516",
+   "url": "https://claude.com/pricing",
+   "sha": "0b37e779c10dfa90",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260530000721",
+   "url": "https://claude.com/pricing",
+   "sha": "0b37e779c10dfa90",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260601013523",
+   "url": "https://claude.com/pricing",
+   "sha": "0b37e779c10dfa90",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260602122138",
+   "url": "https://claude.com/pricing",
+   "sha": "0b37e779c10dfa90",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260603014859",
+   "url": "https://claude.com/pricing",
+   "sha": "f4061bfd3cbaa1d3",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260604012644",
+   "url": "https://claude.com/pricing",
+   "sha": "f4061bfd3cbaa1d3",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260605003829",
+   "url": "https://claude.com/pricing",
+   "sha": "f4061bfd3cbaa1d3",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260606000433",
+   "url": "https://claude.com/pricing",
+   "sha": "e4605fdd959d89b0",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260608002249",
+   "url": "https://claude.com/pricing",
+   "sha": "e4605fdd959d89b0",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260609111003",
+   "url": "https://claude.com/pricing",
+   "sha": "e4605fdd959d89b0",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260610092744",
+   "url": "https://claude.com/pricing",
+   "sha": "c9283dbf3015d132",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260612072821",
+   "url": "https://claude.com/pricing",
+   "sha": "c9283dbf3015d132",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260613000242",
+   "url": "https://claude.com/pricing",
+   "sha": "25be134af46a6fb2",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260614013659",
+   "url": "https://claude.com/pricing",
+   "sha": "13a3b6af838981fc",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260616071210",
+   "url": "https://claude.com/pricing",
+   "sha": "13a3b6af838981fc",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260623082235",
+   "url": "https://claude.com/pricing",
+   "sha": "13a3b6af838981fc",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260624030401",
+   "url": "https://claude.com/pricing",
+   "sha": "299bfb62d313a9e6",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260625003749",
+   "url": "https://claude.com/pricing",
+   "sha": "f0a74aceef8b343e",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260627004924",
+   "url": "https://claude.com/pricing",
+   "sha": "f0a74aceef8b343e",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260629005039",
+   "url": "https://claude.com/pricing",
+   "sha": "f0a74aceef8b343e",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260630020439",
+   "url": "https://claude.com/pricing",
+   "sha": "f0a74aceef8b343e",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260701064722",
+   "url": "https://claude.com/pricing",
+   "sha": "a21b49810bdbc13f",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260702042120",
+   "url": "https://claude.com/pricing",
+   "sha": "deda11c10ca6fb74",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260703032139",
+   "url": "https://claude.com/pricing",
+   "sha": "fdbd8925492c2b3b",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260704051348",
+   "url": "https://claude.com/pricing",
+   "sha": "fdbd8925492c2b3b",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260706044540",
+   "url": "https://claude.com/pricing",
+   "sha": "fdbd8925492c2b3b",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260707111103",
+   "url": "https://claude.com/pricing",
+   "sha": "69de812b982fb029",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260708021618",
+   "url": "https://claude.com/pricing",
+   "sha": "69de812b982fb029",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260711073931",
+   "url": "https://claude.com/pricing",
+   "sha": "69de812b982fb029",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260712163901",
+   "url": "https://claude.com/pricing",
+   "sha": "69de812b982fb029",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260713211116",
+   "url": "https://claude.com/pricing",
+   "sha": "a8e8f3fb4c207d12",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260715073335",
+   "url": "https://claude.com/pricing",
+   "sha": "a8e8f3fb4c207d12",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260716023028",
+   "url": "https://claude.com/pricing",
+   "sha": "a8e8f3fb4c207d12",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260717114245",
+   "url": "https://claude.com/pricing",
+   "sha": "d5e53fbe6974314f",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260718005547",
+   "url": "https://claude.com/pricing",
+   "sha": "e5b7824323fa245f",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260720010702",
+   "url": "https://claude.com/pricing",
+   "sha": "e5b7824323fa245f",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260721100334",
+   "url": "https://claude.com/pricing",
+   "sha": "e5b7824323fa245f",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260722084609",
+   "url": "https://claude.com/pricing",
+   "sha": "859ecc6b6fca6e98",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260723005604",
+   "url": "https://claude.com/pricing",
+   "sha": "5f941805a5395a91",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260725015152",
+   "url": "https://claude.com/pricing",
+   "sha": "563c5f10d772664d",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260728031124",
+   "url": "https://claude.com/pricing",
+   "sha": "563c5f10d772664d",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260801100648",
+   "url": "https://claude.com/pricing",
+   "sha": "563c5f10d772664d",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260805103311",
+   "url": "https://claude.com/pricing",
+   "sha": "563c5f10d772664d",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260806100704",
+   "url": "https://claude.com/pricing",
+   "sha": "fd2d5eebbc344d7d",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260809102109",
+   "url": "https://claude.com/pricing",
+   "sha": "fd2d5eebbc344d7d",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260810004437",
+   "url": "https://claude.com/pricing",
+   "sha": "fd2d5eebbc344d7d",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260811001651",
+   "url": "https://claude.com/pricing",
+   "sha": "2025b5043eb975cb",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260812020425",
+   "url": "https://claude.com/pricing",
+   "sha": "2025b5043eb975cb",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260813013919",
+   "url": "https://claude.com/pricing",
+   "sha": "2025b5043eb975cb",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260814102934",
+   "url": "https://claude.com/pricing",
+   "sha": "39b7ef6809595b50",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260817134823",
+   "url": "https://claude.com/pricing",
+   "sha": "39b7ef6809595b50",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260818012922",
+   "url": "https://claude.com/pricing",
+   "sha": "53900d2fb3f122ce",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260820083653",
+   "url": "https://claude.com/pricing",
+   "sha": "53900d2fb3f122ce",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260825031823",
+   "url": "https://claude.com/pricing",
+   "sha": "53900d2fb3f122ce",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260828021444",
+   "url": "https://claude.com/pricing",
+   "sha": "53900d2fb3f122ce",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260830031651",
+   "url": "https://claude.com/pricing",
+   "sha": "53900d2fb3f122ce",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260831023657",
+   "url": "https://claude.com/pricing",
+   "sha": "53900d2fb3f122ce",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260901215950",
+   "url": "https://claude.com/pricing",
+   "sha": "920eecc143af2457",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260902101335",
+   "url": "https://claude.com/pricing",
+   "sha": "920eecc143af2457",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260903093214",
+   "url": "https://claude.com/pricing",
+   "sha": "920eecc143af2457",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260904103157",
+   "url": "https://claude.com/pricing",
+   "sha": "ddb778943e09026d",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260905113954",
+   "url": "https://claude.com/pricing",
+   "sha": "fe43efa58707b3d4",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260906021321",
+   "url": "https://claude.com/pricing",
+   "sha": "fe43efa58707b3d4",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260908063620",
+   "url": "https://claude.com/pricing",
+   "sha": "fe43efa58707b3d4",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260909053101",
+   "url": "https://claude.com/pricing",
+   "sha": "fe43efa58707b3d4",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260910002941",
+   "url": "https://claude.com/pricing",
+   "sha": "ddb778943e09026d",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260912064543",
+   "url": "https://claude.com/pricing",
+   "sha": "ddb778943e09026d",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260916003731",
+   "url": "https://claude.com/pricing",
+   "sha": "ddb778943e09026d",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260917083119",
+   "url": "https://claude.com/pricing",
+   "sha": "c9731e4a9a25fedd",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260919060031",
+   "url": "https://claude.com/pricing",
+   "sha": "c9731e4a9a25fedd",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260921021437",
+   "url": "https://claude.com/pricing",
+   "sha": "c9731e4a9a25fedd",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260922015834",
+   "url": "https://claude.com/pricing",
+   "sha": "c9731e4a9a25fedd",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260923044602",
+   "url": "https://claude.com/pricing",
+   "sha": "87ed0fe6c80d67bc",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260927053612",
+   "url": "https://claude.com/pricing",
+   "sha": "87ed0fe6c80d67bc",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260928082615",
+   "url": "https://claude.com/pricing",
+   "sha": "87ed0fe6c80d67bc",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20260929001704",
+   "url": "https://claude.com/pricing",
+   "sha": "b9dc3b9ed8bbf3c3",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20261001070214",
+   "url": "https://claude.com/pricing",
+   "sha": "b9dc3b9ed8bbf3c3",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20261002014759",
+   "url": "https://claude.com/pricing",
+   "sha": "b9dc3b9ed8bbf3c3",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20261003025033",
+   "url": "https://claude.com/pricing",
+   "sha": "5e3b3c636673e2cf",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20261004110813",
+   "url": "https://claude.com/pricing",
+   "sha": "b9dc3b9ed8bbf3c3",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20261005000716",
+   "url": "https://claude.com/pricing",
+   "sha": "b9dc3b9ed8bbf3c3",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  },
+  {
+   "ts": "20261006075313",
+   "url": "https://claude.com/pricing",
+   "sha": "43f6aa5e0d0abd81",
+   "title": "Plans & Pricing | Claude by Anthropic"
+  }
+ ],
+ "versions": [
+  {
+   "sha": "da30cfc5a75462e0",
+   "first": "20250501055413",
+   "last": "20250501055413",
+   "url": "https://www.anthropic.com/pricing"
+  },
+  {
+   "sha": "1e02be1010df2064",
+   "first": "20250503164322",
+   "last": "20250507125325",
+   "url": "https://www.anthropic.com/pricing"
+  },
+  {
+   "sha": "9ececbbd650109a5",
+   "first": "20250512003953",
+   "last": "20250518100530",
+   "url": "https://www.anthropic.com/pricing"
+  },
+  {
+   "sha": "35c4b25c4540fd58",
+   "first": "20250522191423",
+   "last": "20250522191423",
+   "url": "https://www.anthropic.com/pricing"
+  },
+  {
+   "sha": "28f1809db1724737",
+   "first": "20250523230023",
+   "last": "20250526174201",
+   "url": "https://www.anthropic.com/pricing"
+  },
+  {
+   "sha": "4ff5ba011a17789d",
+   "first": "20250528151800",
+   "last": "20250529165123",
+   "url": "https://www.anthropic.com/pricing"
+  },
+  {
+   "sha": "55f0b18057137566",
+   "first": "20250603033741",
+   "last": "20250603033741",
+   "url": "https://www.anthropic.com/pricing"
+  },
+  {
+   "sha": "141a0480666196f0",
+   "first": "20250605021505",
+   "last": "20250605021505",
+   "url": "https://www.anthropic.com/pricing"
+  },
+  {
+   "sha": "3ce04cb402dcf0fc",
+   "first": "20250606165511",
+   "last": "20250624061835",
+   "url": "https://www.anthropic.com/pricing"
+  },
+  {
+   "sha": "d062fb44e45d92c7",
+   "first": "20250625090630",
+   "last": "20250629011509",
+   "url": "https://www.anthropic.com/pricing"
+  },
+  {
+   "sha": "bf246f8f15fa3953",
+   "first": "20250702044858",
+   "last": "20250702044858",
+   "url": "https://www.anthropic.com/pricing"
+  },
+  {
+   "sha": "1cc6d62627f6a25b",
+   "first": "20250704135617",
+   "last": "20250708090101",
+   "url": "https://www.anthropic.com/pricing"
+  },
+  {
+   "sha": "c38387fedcf9362e",
+   "first": "20250711180330",
+   "last": "20250712134441",
+   "url": "https://www.anthropic.com/pricing/"
+  },
+  {
+   "sha": "11f540e45de92251",
+   "first": "20250715091442",
+   "last": "20250715091442",
+   "url": "https://www.anthropic.com/pricing"
+  },
+  {
+   "sha": "f93b204df481990f",
+   "first": "20250716233738",
+   "last": "20250727003041",
+   "url": "https://www.anthropic.com/pricing"
+  },
+  {
+   "sha": "7e5afb3bcb9b591a",
+   "first": "20250729071234",
+   "last": "20250805154606",
+   "url": "https://www.anthropic.com/pricing"
+  },
+  {
+   "sha": "1d8c224341fdf355",
+   "first": "20250806113425",
+   "last": "20250806113425",
+   "url": "https://www.anthropic.com/pricing"
+  },
+  {
+   "sha": "ba4f33db6995f070",
+   "first": "20250808014645",
+   "last": "20250812142557",
+   "url": "https://www.anthropic.com/pricing"
+  },
+  {
+   "sha": "80c94ada6c8184c8",
+   "first": "20250814165403",
+   "last": "20250820094915",
+   "url": "https://www.anthropic.com/pricing"
+  },
+  {
+   "sha": "f1c756e19a293340",
+   "first": "20250821144433",
+   "last": "20250821144433",
+   "url": "https://www.anthropic.com/pricing"
+  },
+  {
+   "sha": "3ac08448393f0e12",
+   "first": "20250823132844",
+   "last": "20250902002655",
+   "url": "https://www.anthropic.com/pricing"
+  },
+  {
+   "sha": "2dcee98b18d08155",
+   "first": "20250903205647",
+   "last": "20250914193133",
+   "url": "https://www.anthropic.com/pricing"
+  },
+  {
+   "sha": "fcaf3fdf433f7f2e",
+   "first": "20250916142141",
+   "last": "20250916142141",
+   "url": "https://www.anthropic.com/pricing"
+  },
+  {
+   "sha": "bf58b299e01d24da",
+   "first": "20250917191450",
+   "last": "20250918150943",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "79ec8263ed8c6800",
+   "first": "20250920090704",
+   "last": "20250928115133",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "62e80ce1d169912b",
+   "first": "20250929202903",
+   "last": "20251014043428",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "4d1400bca8ba07c1",
+   "first": "20251015171138",
+   "last": "20251023120829",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "53cac856623878d4",
+   "first": "20251024044527",
+   "last": "20251113063745",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "9f782dfc7354b209",
+   "first": "20251114023026",
+   "last": "20251124045717",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "bb0518a77bc06aa1",
+   "first": "20251125033547",
+   "last": "20251202035630",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "2c8082812a432fb2",
+   "first": "20251203013813",
+   "last": "20251215004745",
+   "url": "https://www.claude.com/pricing"
+  },
+  {
+   "sha": "478995865ec0a711",
+   "first": "20251216021053",
+   "last": "20251219062906",
+   "url": "https://www.claude.com/pricing"
+  },
+  {
+   "sha": "a9fccb7e22f38089",
+   "first": "20251220012306",
+   "last": "20251224193719",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "68f56366bd9404a6",
+   "first": "20251226083733",
+   "last": "20260105135753",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "198db266f0047225",
+   "first": "20260106012655",
+   "last": "20260107130444",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "61acffd7100e94a3",
+   "first": "20260108000834",
+   "last": "20260112045821",
+   "url": "https://www.claude.com/pricing"
+  },
+  {
+   "sha": "a86b90d9107c54de",
+   "first": "20260113080023",
+   "last": "20260114053617",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "bb3a5f72a1542555",
+   "first": "20260115062824",
+   "last": "20260116101231",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "7380476bd6a3a975",
+   "first": "20260117012824",
+   "last": "20260123095625",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "ac68f3395cacc982",
+   "first": "20260125161337",
+   "last": "20260126150308",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "c35dd1d39446bdb7",
+   "first": "20260127115158",
+   "last": "20260128021629",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "0142554c3db9c9b3",
+   "first": "20260129011807",
+   "last": "20260203000131",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "f0596504c8450f02",
+   "first": "20260204120436",
+   "last": "20260205071628",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "7cba20cbeb283d7b",
+   "first": "20260206095224",
+   "last": "20260210050152",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "35bd6ca5c1c63b9d",
+   "first": "20260211103056",
+   "last": "20260211103056",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "3fd44625c367f6b8",
+   "first": "20260212052949",
+   "last": "20260212052949",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "46e069268cf9b7a3",
+   "first": "20260213045719",
+   "last": "20260214102534",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "3d462c5e4e70c4a7",
+   "first": "20260215074643",
+   "last": "20260217113002",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "389423abc5839898",
+   "first": "20260218082210",
+   "last": "20260225001043",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "1deb7d888aa677e6",
+   "first": "20260226013856",
+   "last": "20260303041130",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "6e5a51f57ccd7384",
+   "first": "20260304022516",
+   "last": "20260305015425",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "aad4b443d913caff",
+   "first": "20260306050114",
+   "last": "20260310001333",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "c633026529f83010",
+   "first": "20260311014711",
+   "last": "20260313022903",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "174aef2bfb0bd6fd",
+   "first": "20260314005628",
+   "last": "20260317000242",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "e684095dbd3931e1",
+   "first": "20260318004800",
+   "last": "20260323004607",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "c88e70976b87635a",
+   "first": "20260324003949",
+   "last": "20260325032702",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "f93eefc805e5f72a",
+   "first": "20260326033556",
+   "last": "20260401052230",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "a06adc3f93db1afc",
+   "first": "20260402035549",
+   "last": "20260407044835",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "e064e35c8168f539",
+   "first": "20260408074417",
+   "last": "20260408074417",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "38b0581edd0a8492",
+   "first": "20260409140203",
+   "last": "20260413013321",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "326be8867898a314",
+   "first": "20260414075043",
+   "last": "20260416022411",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "5bd8695d41ba9d24",
+   "first": "20260417054726",
+   "last": "20260421040656",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "a56242ebe03f7c53",
+   "first": "20260422001250",
+   "last": "20260422001250",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "cf0af71fbd2805d1",
+   "first": "20260423004505",
+   "last": "20260423004505",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "1c80c1f6539e1d8d",
+   "first": "20260424020038",
+   "last": "20260424020038",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "f0487bed20ad3118",
+   "first": "20260425013125",
+   "last": "20260505063607",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "158857ae0c1c9eb0",
+   "first": "20260506031603",
+   "last": "20260507085038",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "6d409ee0d908bf39",
+   "first": "20260508063911",
+   "last": "20260512101749",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "dddc9dd8c386a32f",
+   "first": "20260513014207",
+   "last": "20260518080748",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "3bec4e75c9f4b0a0",
+   "first": "20260519004738",
+   "last": "20260519004738",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "0e60fd407387661e",
+   "first": "20260520131709",
+   "last": "20260522091807",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "5bb5677923a147f6",
+   "first": "20260523003814",
+   "last": "20260528032841",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "0b37e779c10dfa90",
+   "first": "20260529012516",
+   "last": "20260602122138",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "f4061bfd3cbaa1d3",
+   "first": "20260603014859",
+   "last": "20260605003829",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "e4605fdd959d89b0",
+   "first": "20260606000433",
+   "last": "20260609111003",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "c9283dbf3015d132",
+   "first": "20260610092744",
+   "last": "20260612072821",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "25be134af46a6fb2",
+   "first": "20260613000242",
+   "last": "20260613000242",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "13a3b6af838981fc",
+   "first": "20260614013659",
+   "last": "20260623082235",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "299bfb62d313a9e6",
+   "first": "20260624030401",
+   "last": "20260624030401",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "f0a74aceef8b343e",
+   "first": "20260625003749",
+   "last": "20260630020439",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "a21b49810bdbc13f",
+   "first": "20260701064722",
+   "last": "20260701064722",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "deda11c10ca6fb74",
+   "first": "20260702042120",
+   "last": "20260702042120",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "fdbd8925492c2b3b",
+   "first": "20260703032139",
+   "last": "20260706044540",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "69de812b982fb029",
+   "first": "20260707111103",
+   "last": "20260712163901",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "a8e8f3fb4c207d12",
+   "first": "20260713211116",
+   "last": "20260716023028",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "d5e53fbe6974314f",
+   "first": "20260717114245",
+   "last": "20260717114245",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "e5b7824323fa245f",
+   "first": "20260718005547",
+   "last": "20260721100334",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "859ecc6b6fca6e98",
+   "first": "20260722084609",
+   "last": "20260722084609",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "5f941805a5395a91",
+   "first": "20260723005604",
+   "last": "20260723005604",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "563c5f10d772664d",
+   "first": "20260725015152",
+   "last": "20260805103311",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "fd2d5eebbc344d7d",
+   "first": "20260806100704",
+   "last": "20260810004437",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "2025b5043eb975cb",
+   "first": "20260811001651",
+   "last": "20260813013919",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "39b7ef6809595b50",
+   "first": "20260814102934",
+   "last": "20260817134823",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "53900d2fb3f122ce",
+   "first": "20260818012922",
+   "last": "20260831023657",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "920eecc143af2457",
+   "first": "20260901215950",
+   "last": "20260903093214",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "ddb778943e09026d",
+   "first": "20260904103157",
+   "last": "20260904103157",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "fe43efa58707b3d4",
+   "first": "20260905113954",
+   "last": "20260909053101",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "ddb778943e09026d",
+   "first": "20260910002941",
+   "last": "20260916003731",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "c9731e4a9a25fedd",
+   "first": "20260917083119",
+   "last": "20260922015834",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "87ed0fe6c80d67bc",
+   "first": "20260923044602",
+   "last": "20260928082615",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "b9dc3b9ed8bbf3c3",
+   "first": "20260929001704",
+   "last": "20261002014759",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "5e3b3c636673e2cf",
+   "first": "20261003025033",
+   "last": "20261003025033",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "b9dc3b9ed8bbf3c3",
+   "first": "20261004110813",
+   "last": "20261005000716",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "sha": "43f6aa5e0d0abd81",
+   "first": "20261006075313",
+   "last": "20261006075313",
+   "url": "https://claude.com/pricing"
+  }
+ ],
+ "complete": true
+}

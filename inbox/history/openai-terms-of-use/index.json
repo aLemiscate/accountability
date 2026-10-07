@@ -1,0 +1,2457 @@
+{
+ "id": "openai-terms-of-use",
+ "org": "openai",
+ "urls": [
+  "https://openai.com/policies/terms-of-use/",
+  "https://openai.com/policies/terms-of-use",
+  "https://openai.com/api/policies/terms/",
+  "https://openai.com/terms/"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "title": "Terms of Use | OpenAI",
+   "via": "fetch",
+   "sha": "50d3b79644e0877b",
+   "words": 3395
+  }
+ ],
+ "captures": [
+  {
+   "ts": "20210531064016",
+   "url": "https://openai.com/terms/",
+   "sha": "c20514348f3d5877",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20210608054115",
+   "url": "https://openai.com/terms/",
+   "sha": "c20514348f3d5877",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20210614091523",
+   "url": "https://openai.com/terms/",
+   "sha": "c20514348f3d5877",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20210617210534",
+   "url": "https://www.openai.com/terms/",
+   "sha": "551edb49f03c2184",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20210628202021",
+   "url": "https://www.openai.com/terms/",
+   "sha": "551edb49f03c2184",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20210811205458",
+   "url": "https://openai.com/terms/",
+   "sha": "cc906a387000948a",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20210902010548",
+   "url": "https://openai.com/terms/",
+   "sha": "cc906a387000948a",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20211006044603",
+   "url": "https://openai.com/terms/",
+   "sha": "cc906a387000948a",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20211101221655",
+   "url": "https://openai.com/terms/",
+   "sha": "cc906a387000948a",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20211117020207",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "8b8c0758eae843ce",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20211204011620",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "8b8c0758eae843ce",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20211212145618",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "8b8c0758eae843ce",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20211212145632",
+   "url": "https://openai.com/terms/",
+   "sha": "cc906a387000948a",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20211216152655",
+   "url": "https://openai.com/terms/",
+   "sha": "cc906a387000948a",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20211223072313",
+   "url": "https://openai.com/terms/",
+   "sha": "cc906a387000948a",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20211223074107",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "8b8c0758eae843ce",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20211230012443",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "8b8c0758eae843ce",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220128104142",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "0dc08c7a1796d14d",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220129130722",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "0dc08c7a1796d14d",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220129134024",
+   "url": "https://openai.com/terms/",
+   "sha": "7e3c3d785eff4c2e",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220204102110",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "4d9d9b8339a58a69",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220311210632",
+   "url": "https://openai.com/terms/",
+   "sha": "983d493894cdf057",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220313020815",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "acf1e9033c8bb335",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220323134741",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "acf1e9033c8bb335",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220329115009",
+   "url": "https://openai.com/terms/",
+   "sha": "8d5a0a867f45bf57",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220405035541",
+   "url": "https://openai.com/terms/",
+   "sha": "8d5a0a867f45bf57",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220405035542",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "acf1e9033c8bb335",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220408133637",
+   "url": "https://openai.com/terms/",
+   "sha": "eee3079235d67212",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220414054804",
+   "url": "https://openai.com/terms/",
+   "sha": "eee3079235d67212",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220506133247",
+   "url": "https://openai.com/terms/",
+   "sha": "eee3079235d67212",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220606135639",
+   "url": "https://openai.com/terms/",
+   "sha": "eee3079235d67212",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220609050217",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "9e9802ce0b32b202",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220613214619",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "9e9802ce0b32b202",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220619092712",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "9e9802ce0b32b202",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220703022142",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "9e9802ce0b32b202",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220718172233",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "9e9802ce0b32b202",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220720172121",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "4bd550c6c53f045a",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220728211425",
+   "url": "https://openai.com/terms/",
+   "sha": "eee3079235d67212",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220728211443",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "4bd550c6c53f045a",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220802195439",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "4bd550c6c53f045a",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220909032705",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "4bd550c6c53f045a",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220919072957",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "4bd550c6c53f045a",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220919073030",
+   "url": "https://openai.com/terms/",
+   "sha": "eee3079235d67212",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220927050944",
+   "url": "https://openai.com/terms/",
+   "sha": "eee3079235d67212",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220927054235",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "de6cc7f55d39ff7a",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20220929030211",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "de6cc7f55d39ff7a",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221001090626",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "de6cc7f55d39ff7a",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221016200059",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "de6cc7f55d39ff7a",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221019020035",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "de6cc7f55d39ff7a",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221019170820",
+   "url": "https://openai.com/terms/",
+   "sha": "eee3079235d67212",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221022181027",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "de6cc7f55d39ff7a",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221027175323",
+   "url": "https://openai.com/terms/",
+   "sha": "eee3079235d67212",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221104074707",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "76c94b5e6d7625c5",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221106200622",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "76c94b5e6d7625c5",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221117223509",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "8beecad8dd883a90",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221122055709",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "8beecad8dd883a90",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221125103916",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "8beecad8dd883a90",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221130074109",
+   "url": "https://openai.com/terms/",
+   "sha": "eee3079235d67212",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221201044315",
+   "url": "https://openai.com/terms/",
+   "sha": "c5be32f8d286b31b",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221201044344",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "8810ef13f0a2e475",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221205125959",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "d515065f9c24f597",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221206014107",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "d515065f9c24f597",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221208080356",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "045aae42788f7f7e",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221209190822",
+   "url": "https://openai.com/terms/",
+   "sha": "51ff0eb29e95c6a7",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221209190906",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "9849d9f975bc501f",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221210094252",
+   "url": "https://openai.com/api/policies/terms/",
+   "sha": "9849d9f975bc501f",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221213185219",
+   "url": "https://openai.com/terms/",
+   "sha": "51ff0eb29e95c6a7",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221214095617",
+   "url": "https://openai.com/terms/",
+   "sha": "014617dd61674a1c",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221217164631",
+   "url": "https://openai.com/terms/",
+   "sha": "014617dd61674a1c",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221221010832",
+   "url": "https://openai.com/terms/",
+   "sha": "ace0da626d3c023c",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20221226201227",
+   "url": "https://openai.com/terms/",
+   "sha": "ace0da626d3c023c",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20230106001010",
+   "url": "https://openai.com/terms/",
+   "sha": "4efd1e3d03483f6f",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20230201123647",
+   "url": "https://openai.com/terms/",
+   "sha": "4efd1e3d03483f6f",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20230215160949",
+   "url": "https://openai.com/terms/",
+   "sha": "4efd1e3d03483f6f",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20230222142224",
+   "url": "https://openai.com/terms/",
+   "sha": "4efd1e3d03483f6f",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20230223133538",
+   "url": "https://openai.com/terms/",
+   "sha": "4efd1e3d03483f6f",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20230226183707",
+   "url": "https://openai.com/terms/",
+   "sha": "4efd1e3d03483f6f",
+   "title": "Terms of Use"
+  },
+  {
+   "ts": "20230227230602",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "af2262c4385bc8df",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230301023831",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "af2262c4385bc8df",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230302000730",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "93bc9da458c01119",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230304045622",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "93bc9da458c01119",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230306012942",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "93bc9da458c01119",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230307080653",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "d53db593b2c13346",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230308023520",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "d53db593b2c13346",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230309045519",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "d53db593b2c13346",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230310050338",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "c13673b1af90bf35",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230311041220",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "c13673b1af90bf35",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230313080106",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "c13673b1af90bf35",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230314065253",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "5df609fa785766f8",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230315001311",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "154b89c906e7d903",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230316031051",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "154b89c906e7d903",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230317135434",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "ec18b469f0b57cf0",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230318071112",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "ec18b469f0b57cf0",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230323081819",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "ec18b469f0b57cf0",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230327173502",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "ec18b469f0b57cf0",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230329021257",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "ec18b469f0b57cf0",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230330020739",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "6a8d88661ee16435",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230401070558",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "6a8d88661ee16435",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230404015245",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "6a8d88661ee16435",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230405010429",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "6a8d88661ee16435",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230406201722",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "dda1cb8368eab6bf",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230407145417",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "dda1cb8368eab6bf",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230410185512",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "dda1cb8368eab6bf",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230411015930",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "dda1cb8368eab6bf",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230412175547",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "accbfcfd7f472df5",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230413031733",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "accbfcfd7f472df5",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230414194808",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "5b8fddc7308a7adb",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230421022222",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "5b8fddc7308a7adb",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230422035702",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "5b8fddc7308a7adb",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230424072451",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "5b8fddc7308a7adb",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230425030720",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "caf5afa218f6332a",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230503103815",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "caf5afa218f6332a",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230511052607",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "caf5afa218f6332a",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230514195149",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "caf5afa218f6332a",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230516162628",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "d6bee644193ddc7a",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230521233545",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "d6bee644193ddc7a",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230601013047",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "d6bee644193ddc7a",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230611185931",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "d6bee644193ddc7a",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230613025535",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "d6bee644193ddc7a",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230614134054",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "bb9ae1000a82d7bd",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230616022705",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "bb9ae1000a82d7bd",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230702134238",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "bb9ae1000a82d7bd",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230714155924",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "bb9ae1000a82d7bd",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230721084711",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "bb9ae1000a82d7bd",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230724135221",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "83fcc6080cd6ec1b",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230725110334",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "83fcc6080cd6ec1b",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230727061805",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "83fcc6080cd6ec1b",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20230728080839",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230729142618",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230730044218",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230731163147",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230801135122",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230802032227",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230803131106",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230804075228",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230805071237",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230806184908",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230807191049",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230808010643",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230809144639",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230810154918",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230811095508",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230812075444",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230813075705",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230815092457",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230816102146",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230817102708",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230818104817",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230819014556",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230822030947",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230823051315",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230824134917",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230825000709",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230826085250",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230829060500",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230830070930",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230831003142",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230901064633",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230902000331",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230903002631",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230906023801",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230907032941",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230908043903",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230909045049",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230910200652",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230912054805",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230913062622",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230914013029",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230916012141",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230919033144",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230920035436",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230921011731",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230922015116",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230923022712",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230924033812",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230925034000",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230926040437",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230927055051",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230928054751",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230929075358",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230930090245",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231002144845",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231003114234",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231004084214",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231005122539",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231006095019",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231007094224",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231008115719",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231011031954",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231012021012",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231013162714",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231014165711",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231015021942",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231017081829",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231018082945",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231019100328",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231020060201",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231021112423",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231022171729",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231023102448",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231024015831",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231025020323",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231026081449",
+   "url": "https://openai.com/policies/terms-of-use",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231027221104",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "e94e1627a96e1423",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20231101084415",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "e94e1627a96e1423",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20231104095537",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "e94e1627a96e1423",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20231105111533",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "e94e1627a96e1423",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20231106070857",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "e94e1627a96e1423",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20231107024719",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "5a04bb0b9116d976",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20231110153848",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "5a04bb0b9116d976",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20231111092850",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "5a04bb0b9116d976",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20231114175224",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "e448d9ad5baca5e6",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20231115001704",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "cfbcf2e1ed565601",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20231201015958",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "cfbcf2e1ed565601",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20231202030708",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "a30d7abb0c70f3ca",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20231204164114",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "a30d7abb0c70f3ca",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20231207083936",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "a30d7abb0c70f3ca",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20231214155347",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "a30d7abb0c70f3ca",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20240102115024",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "a30d7abb0c70f3ca",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20240103230120",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "df525ba26b3a9773",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20240105064419",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "df525ba26b3a9773",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20240110013230",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "df525ba26b3a9773",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20240111051402",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "aee8785e62ae5cec",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20240113001232",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "aee8785e62ae5cec",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20240117133421",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "aee8785e62ae5cec",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20240201001458",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "aee8785e62ae5cec",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20240208055424",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "aee8785e62ae5cec",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20240212081755",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "aee8785e62ae5cec",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20240214110115",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "aee8785e62ae5cec",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20240215120929",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "aee8785e62ae5cec",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20240216123324",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "8ed09cd777b68006",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20240301022604",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "8ed09cd777b68006",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20240401172456",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "8ed09cd777b68006",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20240501133215",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "8ed09cd777b68006",
+   "title": "Terms of use"
+  },
+  {
+   "ts": "20240502152359",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "aed37a7305237199",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20240504061751",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "aed37a7305237199",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20240508055037",
+   "url": "https://openai.com/policies/terms-of-use",
+   "sha": "aed37a7305237199",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20240516045348",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "aed37a7305237199",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20240520014930",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "aed37a7305237199",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20240521003652",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "aed37a7305237199",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20240522101622",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "2df52e0ef66e197b",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20240524050648",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "2df52e0ef66e197b",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20240601020016",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "2df52e0ef66e197b",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20240701044717",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "2df52e0ef66e197b",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20240801085840",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "2df52e0ef66e197b",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20240816180055",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "2df52e0ef66e197b",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20240817074752",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "2df52e0ef66e197b",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20240818080833",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "2df52e0ef66e197b",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20240819231542",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "e4caae2a5a97b376",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20240820234334",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "d2879178a2b7c2e5",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20240822004922",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "d2879178a2b7c2e5",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20240824030506",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "d2879178a2b7c2e5",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20240901153842",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "d2879178a2b7c2e5",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20240902185432",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "d2879178a2b7c2e5",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20240903210958",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "2ff12eeac1cc74fc",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20240907202709",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "2ff12eeac1cc74fc",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20240915053941",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "2ff12eeac1cc74fc",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20241001195420",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "2ff12eeac1cc74fc",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20241008190319",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "2ff12eeac1cc74fc",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20241018163553",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "2ff12eeac1cc74fc",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20241021113053",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "41e559597985b341",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20241026130545",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "ee38e194b770d457",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20241116140808",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "981167d82634108c",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20241202032858",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "981167d82634108c",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20241209003039",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "981167d82634108c",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20241211194904",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "981167d82634108c",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20241213101354",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "5fea15b34068c28c",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20241215192949",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "5fea15b34068c28c",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20241218033530",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "5fea15b34068c28c",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20241220010335",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "eb5913ec6ae144a3",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20241221053632",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "eb5913ec6ae144a3",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250107115912",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "eb5913ec6ae144a3",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250201033737",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "eb5913ec6ae144a3",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250304015233",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "eb5913ec6ae144a3",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250308032100",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "eb5913ec6ae144a3",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250311175138",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "eb5913ec6ae144a3",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250313151243",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "6d962a2df41078ad",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250315200039",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "6d962a2df41078ad",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250401095224",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "6d962a2df41078ad",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250402004110",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "6d962a2df41078ad",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250403043942",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "161091932947ccd5",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250406192418",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "161091932947ccd5",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250415141356",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "161091932947ccd5",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250426011047",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "161091932947ccd5",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250429150910",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "161091932947ccd5",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250430193318",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "161091932947ccd5",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250509044313",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "e9e06291b1470499",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250510224539",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "e9e06291b1470499",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250513171104",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "308d3d1d1e6d89fb",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250514023836",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "308d3d1d1e6d89fb",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250516014434",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "308d3d1d1e6d89fb",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250520030938",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "4fcb55980ce3af69",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250528134233",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "60ebf7d36407fac9",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250602152653",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "60ebf7d36407fac9",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250702152257",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "60ebf7d36407fac9",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250802094622",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "60ebf7d36407fac9",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250901093824",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "60ebf7d36407fac9",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250907001909",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "60ebf7d36407fac9",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250912002607",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "60ebf7d36407fac9",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250925155817",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "60ebf7d36407fac9",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20250930170340",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "60ebf7d36407fac9",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20251003180537",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "5ee1dfaf26664e5a",
+   "title": "EU terms of use | OpenAI"
+  },
+  {
+   "ts": "20251006134414",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "60ebf7d36407fac9",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20251007160322",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "60ebf7d36407fac9",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20251014143454",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "60ebf7d36407fac9",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20251102000858",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "60ebf7d36407fac9",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20251107083426",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "593fe412ecb37379",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20251111115922",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "593fe412ecb37379",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20251203035437",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "593fe412ecb37379",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20260101022811",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "593fe412ecb37379",
+   "title": "Terms of use | OpenAI"
+  },
+  {
+   "ts": "20260107201538",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "50d3b79644e0877b",
+   "title": "Terms of Use | OpenAI"
+  },
+  {
+   "ts": "20260108214420",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "50d3b79644e0877b",
+   "title": "Terms of Use | OpenAI"
+  },
+  {
+   "ts": "20260114225454",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "0cfbc8ae3c608bb9",
+   "title": "EU terms of use | OpenAI"
+  },
+  {
+   "ts": "20260115035718",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "50d3b79644e0877b",
+   "title": "Terms of Use | OpenAI"
+  },
+  {
+   "ts": "20260118085729",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "bfa74174ddde56f4",
+   "title": "Europe Terms of Use | OpenAI"
+  },
+  {
+   "ts": "20260120012211",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "bfa74174ddde56f4",
+   "title": "Europe Terms of Use | OpenAI"
+  },
+  {
+   "ts": "20260122151004",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "50d3b79644e0877b",
+   "title": "Terms of Use | OpenAI"
+  },
+  {
+   "ts": "20260203024827",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "50d3b79644e0877b",
+   "title": "Terms of Use | OpenAI"
+  },
+  {
+   "ts": "20260210054039",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "50d3b79644e0877b",
+   "title": "Terms of Use | OpenAI"
+  },
+  {
+   "ts": "20260211051911",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "50d3b79644e0877b",
+   "title": "Terms of Use | OpenAI"
+  },
+  {
+   "ts": "20260213215341",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "bfa74174ddde56f4",
+   "title": "Europe Terms of Use | OpenAI"
+  },
+  {
+   "ts": "20260301034211",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "bfa74174ddde56f4",
+   "title": "Europe Terms of Use | OpenAI"
+  },
+  {
+   "ts": "20260401035516",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "bfa74174ddde56f4",
+   "title": "Europe Terms of Use | OpenAI"
+  },
+  {
+   "ts": "20260501020225",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "bfa74174ddde56f4",
+   "title": "Europe Terms of Use | OpenAI"
+  },
+  {
+   "ts": "20260503102109",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "50d3b79644e0877b",
+   "title": "Terms of Use | OpenAI"
+  },
+  {
+   "ts": "20260512040158",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "50d3b79644e0877b",
+   "title": "Terms of Use | OpenAI"
+  },
+  {
+   "ts": "20260521005520",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "50d3b79644e0877b",
+   "title": "Terms of Use | OpenAI"
+  },
+  {
+   "ts": "20260601020045",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "50d3b79644e0877b",
+   "title": "Terms of Use | OpenAI"
+  },
+  {
+   "ts": "20260701134522",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "50d3b79644e0877b",
+   "title": "Terms of Use | OpenAI"
+  },
+  {
+   "ts": "20260801124338",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "50d3b79644e0877b",
+   "title": "Terms of Use | OpenAI"
+  },
+  {
+   "ts": "20260902130411",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "50d3b79644e0877b",
+   "title": "Terms of Use | OpenAI"
+  },
+  {
+   "ts": "20261001032446",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "50d3b79644e0877b",
+   "title": "Terms of Use | OpenAI"
+  },
+  {
+   "ts": "20261005015841",
+   "url": "https://openai.com/policies/terms-of-use/",
+   "sha": "50d3b79644e0877b",
+   "title": "Terms of Use | OpenAI"
+  }
+ ],
+ "versions": [
+  {
+   "sha": "c20514348f3d5877",
+   "first": "20210531064016",
+   "last": "20210614091523",
+   "url": "https://openai.com/terms/"
+  },
+  {
+   "sha": "551edb49f03c2184",
+   "first": "20210617210534",
+   "last": "20210628202021",
+   "url": "https://www.openai.com/terms/"
+  },
+  {
+   "sha": "cc906a387000948a",
+   "first": "20210811205458",
+   "last": "20211101221655",
+   "url": "https://openai.com/terms/"
+  },
+  {
+   "sha": "8b8c0758eae843ce",
+   "first": "20211117020207",
+   "last": "20211212145618",
+   "url": "https://openai.com/api/policies/terms/"
+  },
+  {
+   "sha": "cc906a387000948a",
+   "first": "20211212145632",
+   "last": "20211223072313",
+   "url": "https://openai.com/terms/"
+  },
+  {
+   "sha": "8b8c0758eae843ce",
+   "first": "20211223074107",
+   "last": "20211230012443",
+   "url": "https://openai.com/api/policies/terms/"
+  },
+  {
+   "sha": "0dc08c7a1796d14d",
+   "first": "20220128104142",
+   "last": "20220129130722",
+   "url": "https://openai.com/api/policies/terms/"
+  },
+  {
+   "sha": "7e3c3d785eff4c2e",
+   "first": "20220129134024",
+   "last": "20220129134024",
+   "url": "https://openai.com/terms/"
+  },
+  {
+   "sha": "4d9d9b8339a58a69",
+   "first": "20220204102110",
+   "last": "20220204102110",
+   "url": "https://openai.com/api/policies/terms/"
+  },
+  {
+   "sha": "983d493894cdf057",
+   "first": "20220311210632",
+   "last": "20220311210632",
+   "url": "https://openai.com/terms/"
+  },
+  {
+   "sha": "acf1e9033c8bb335",
+   "first": "20220313020815",
+   "last": "20220323134741",
+   "url": "https://openai.com/api/policies/terms/"
+  },
+  {
+   "sha": "8d5a0a867f45bf57",
+   "first": "20220329115009",
+   "last": "20220405035541",
+   "url": "https://openai.com/terms/"
+  },
+  {
+   "sha": "acf1e9033c8bb335",
+   "first": "20220405035542",
+   "last": "20220405035542",
+   "url": "https://openai.com/api/policies/terms/"
+  },
+  {
+   "sha": "eee3079235d67212",
+   "first": "20220408133637",
+   "last": "20220606135639",
+   "url": "https://openai.com/terms/"
+  },
+  {
+   "sha": "9e9802ce0b32b202",
+   "first": "20220609050217",
+   "last": "20220718172233",
+   "url": "https://openai.com/api/policies/terms/"
+  },
+  {
+   "sha": "4bd550c6c53f045a",
+   "first": "20220720172121",
+   "last": "20220720172121",
+   "url": "https://openai.com/api/policies/terms/"
+  },
+  {
+   "sha": "eee3079235d67212",
+   "first": "20220728211425",
+   "last": "20220728211425",
+   "url": "https://openai.com/terms/"
+  },
+  {
+   "sha": "4bd550c6c53f045a",
+   "first": "20220728211443",
+   "last": "20220919072957",
+   "url": "https://openai.com/api/policies/terms/"
+  },
+  {
+   "sha": "eee3079235d67212",
+   "first": "20220919073030",
+   "last": "20220927050944",
+   "url": "https://openai.com/terms/"
+  },
+  {
+   "sha": "de6cc7f55d39ff7a",
+   "first": "20220927054235",
+   "last": "20221019020035",
+   "url": "https://openai.com/api/policies/terms/"
+  },
+  {
+   "sha": "eee3079235d67212",
+   "first": "20221019170820",
+   "last": "20221019170820",
+   "url": "https://openai.com/terms/"
+  },
+  {
+   "sha": "de6cc7f55d39ff7a",
+   "first": "20221022181027",
+   "last": "20221022181027",
+   "url": "https://openai.com/api/policies/terms/"
+  },
+  {
+   "sha": "eee3079235d67212",
+   "first": "20221027175323",
+   "last": "20221027175323",
+   "url": "https://openai.com/terms/"
+  },
+  {
+   "sha": "76c94b5e6d7625c5",
+   "first": "20221104074707",
+   "last": "20221106200622",
+   "url": "https://openai.com/api/policies/terms/"
+  },
+  {
+   "sha": "8beecad8dd883a90",
+   "first": "20221117223509",
+   "last": "20221125103916",
+   "url": "https://openai.com/api/policies/terms/"
+  },
+  {
+   "sha": "eee3079235d67212",
+   "first": "20221130074109",
+   "last": "20221130074109",
+   "url": "https://openai.com/terms/"
+  },
+  {
+   "sha": "c5be32f8d286b31b",
+   "first": "20221201044315",
+   "last": "20221201044315",
+   "url": "https://openai.com/terms/"
+  },
+  {
+   "sha": "8810ef13f0a2e475",
+   "first": "20221201044344",
+   "last": "20221201044344",
+   "url": "https://openai.com/api/policies/terms/"
+  },
+  {
+   "sha": "d515065f9c24f597",
+   "first": "20221205125959",
+   "last": "20221206014107",
+   "url": "https://openai.com/api/policies/terms/"
+  },
+  {
+   "sha": "045aae42788f7f7e",
+   "first": "20221208080356",
+   "last": "20221208080356",
+   "url": "https://openai.com/api/policies/terms/"
+  },
+  {
+   "sha": "51ff0eb29e95c6a7",
+   "first": "20221209190822",
+   "last": "20221209190822",
+   "url": "https://openai.com/terms/"
+  },
+  {
+   "sha": "9849d9f975bc501f",
+   "first": "20221209190906",
+   "last": "20221210094252",
+   "url": "https://openai.com/api/policies/terms/"
+  },
+  {
+   "sha": "51ff0eb29e95c6a7",
+   "first": "20221213185219",
+   "last": "20221213185219",
+   "url": "https://openai.com/terms/"
+  },
+  {
+   "sha": "014617dd61674a1c",
+   "first": "20221214095617",
+   "last": "20221217164631",
+   "url": "https://openai.com/terms/"
+  },
+  {
+   "sha": "ace0da626d3c023c",
+   "first": "20221221010832",
+   "last": "20221226201227",
+   "url": "https://openai.com/terms/"
+  },
+  {
+   "sha": "4efd1e3d03483f6f",
+   "first": "20230106001010",
+   "last": "20230226183707",
+   "url": "https://openai.com/terms/"
+  },
+  {
+   "sha": "af2262c4385bc8df",
+   "first": "20230227230602",
+   "last": "20230301023831",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "93bc9da458c01119",
+   "first": "20230302000730",
+   "last": "20230306012942",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "d53db593b2c13346",
+   "first": "20230307080653",
+   "last": "20230309045519",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "c13673b1af90bf35",
+   "first": "20230310050338",
+   "last": "20230313080106",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "5df609fa785766f8",
+   "first": "20230314065253",
+   "last": "20230314065253",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "154b89c906e7d903",
+   "first": "20230315001311",
+   "last": "20230316031051",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "ec18b469f0b57cf0",
+   "first": "20230317135434",
+   "last": "20230329021257",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "6a8d88661ee16435",
+   "first": "20230330020739",
+   "last": "20230405010429",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "dda1cb8368eab6bf",
+   "first": "20230406201722",
+   "last": "20230411015930",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "accbfcfd7f472df5",
+   "first": "20230412175547",
+   "last": "20230413031733",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "5b8fddc7308a7adb",
+   "first": "20230414194808",
+   "last": "20230424072451",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "caf5afa218f6332a",
+   "first": "20230425030720",
+   "last": "20230514195149",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "d6bee644193ddc7a",
+   "first": "20230516162628",
+   "last": "20230613025535",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "bb9ae1000a82d7bd",
+   "first": "20230614134054",
+   "last": "20230721084711",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "83fcc6080cd6ec1b",
+   "first": "20230724135221",
+   "last": "20230727061805",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "e94e1627a96e1423",
+   "first": "20231027221104",
+   "last": "20231106070857",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "5a04bb0b9116d976",
+   "first": "20231107024719",
+   "last": "20231111092850",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "e448d9ad5baca5e6",
+   "first": "20231114175224",
+   "last": "20231114175224",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "cfbcf2e1ed565601",
+   "first": "20231115001704",
+   "last": "20231201015958",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "a30d7abb0c70f3ca",
+   "first": "20231202030708",
+   "last": "20240102115024",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "df525ba26b3a9773",
+   "first": "20240103230120",
+   "last": "20240110013230",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "aee8785e62ae5cec",
+   "first": "20240111051402",
+   "last": "20240215120929",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "8ed09cd777b68006",
+   "first": "20240216123324",
+   "last": "20240501133215",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "aed37a7305237199",
+   "first": "20240502152359",
+   "last": "20240521003652",
+   "url": "https://openai.com/policies/terms-of-use"
+  },
+  {
+   "sha": "2df52e0ef66e197b",
+   "first": "20240522101622",
+   "last": "20240818080833",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "e4caae2a5a97b376",
+   "first": "20240819231542",
+   "last": "20240819231542",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "d2879178a2b7c2e5",
+   "first": "20240820234334",
+   "last": "20240902185432",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "2ff12eeac1cc74fc",
+   "first": "20240903210958",
+   "last": "20241018163553",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "41e559597985b341",
+   "first": "20241021113053",
+   "last": "20241021113053",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "ee38e194b770d457",
+   "first": "20241026130545",
+   "last": "20241026130545",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "981167d82634108c",
+   "first": "20241116140808",
+   "last": "20241211194904",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "5fea15b34068c28c",
+   "first": "20241213101354",
+   "last": "20241218033530",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "eb5913ec6ae144a3",
+   "first": "20241220010335",
+   "last": "20250311175138",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "6d962a2df41078ad",
+   "first": "20250313151243",
+   "last": "20250402004110",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "161091932947ccd5",
+   "first": "20250403043942",
+   "last": "20250430193318",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "e9e06291b1470499",
+   "first": "20250509044313",
+   "last": "20250510224539",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "308d3d1d1e6d89fb",
+   "first": "20250513171104",
+   "last": "20250516014434",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "4fcb55980ce3af69",
+   "first": "20250520030938",
+   "last": "20250520030938",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "60ebf7d36407fac9",
+   "first": "20250528134233",
+   "last": "20250930170340",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "5ee1dfaf26664e5a",
+   "first": "20251003180537",
+   "last": "20251003180537",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "60ebf7d36407fac9",
+   "first": "20251006134414",
+   "last": "20251102000858",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "593fe412ecb37379",
+   "first": "20251107083426",
+   "last": "20260101022811",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "50d3b79644e0877b",
+   "first": "20260107201538",
+   "last": "20260108214420",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "0cfbc8ae3c608bb9",
+   "first": "20260114225454",
+   "last": "20260114225454",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "50d3b79644e0877b",
+   "first": "20260115035718",
+   "last": "20260115035718",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "bfa74174ddde56f4",
+   "first": "20260118085729",
+   "last": "20260120012211",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "50d3b79644e0877b",
+   "first": "20260122151004",
+   "last": "20260211051911",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "bfa74174ddde56f4",
+   "first": "20260213215341",
+   "last": "20260501020225",
+   "url": "https://openai.com/policies/terms-of-use/"
+  },
+  {
+   "sha": "50d3b79644e0877b",
+   "first": "20260503102109",
+   "last": "20261005015841",
+   "url": "https://openai.com/policies/terms-of-use/"
+  }
+ ],
+ "complete": true
+}

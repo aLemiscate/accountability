@@ -1,0 +1,1056 @@
+{
+ "id": "anthropic-rate-limits",
+ "org": "anthropic",
+ "urls": [
+  "https://docs.anthropic.com/en/api/rate-limits",
+  "https://docs.claude.com/en/api/rate-limits",
+  "https://platform.claude.com/docs/en/api/rate-limits"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "title": "Rate limits - Claude Platform Docs",
+   "via": "fetch",
+   "sha": "b10d621323018cd7",
+   "words": 3460
+  }
+ ],
+ "captures": [
+  {
+   "ts": "20240526025423",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "bfeea20089178e39",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20240528033406",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "bfeea20089178e39",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20240531073119",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "15a5e5b5674323fc",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20240628183744",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "c2a27382703cd70b",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20240716061912",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "1bfb201ed37a4fd4",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20240806204620",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "c3d0e95eb8b939c7",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20240812150658",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "cdfcdc8f699acaf5",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20240831040846",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "7347189ee3748af5",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20240905173846",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "db8659ea78f59eaf",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20240909021431",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "db8659ea78f59eaf",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20240917141445",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "7fec06a12e0c60f0",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20240919181841",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "7fec06a12e0c60f0",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20241002220803",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "3ac34effba660d91",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20241112041223",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "1c2c62f7253738f0",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20241124220756",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "561b03d3add6086f",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20241125131716",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "561b03d3add6086f",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20241203003337",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "d71e3de7b125655a",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20241213173628",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "4fa380c38d12d1e0",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20241226192651",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "a5f62d2603ee546c",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250103045112",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "a5f62d2603ee546c",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250112182618",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "3f9f9a6b41d782b7",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250113020347",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "3f9f9a6b41d782b7",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250205054204",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "3f9f9a6b41d782b7",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250224152327",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "e2e49b85592ceb69",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250310202725",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "d249408b43ec86fe",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250313003002",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "d249408b43ec86fe",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250326214139",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "3897e91f73ad488a",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250402002652",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "3897e91f73ad488a",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250408201346",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "8646b41c1156e683",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250415051536",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "8646b41c1156e683",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250502180009",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "8646b41c1156e683",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250524020159",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "1fff140e416f64a3",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250601152127",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "8c548a9cc234166f",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250605005515",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "c62a8d68098e7b81",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250614101305",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "61eaca4e7594f6d1",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250622021530",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "61eaca4e7594f6d1",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250705031720",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "61eaca4e7594f6d1",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250707190739",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "61eaca4e7594f6d1",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250720074222",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "70ae0f8e56cc829a",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250724093559",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "70ae0f8e56cc829a",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250729204116",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "a7062cf609898a41",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250806014533",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "6a39206b66470663",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250812145951",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "526596dae857b86f",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250816031748",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "a01e055fd34708a6",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250825150528",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "73507421c13b80f7",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250909225928",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "90b1d05f52c397e1",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250913121231",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "dbf6bfaeb29f0eb6",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250915104106",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "2ec3d6a77c44c36e",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250916084800",
+   "url": "https://docs.anthropic.com/en/api/rate-limits",
+   "sha": "2ec3d6a77c44c36e",
+   "title": "Rate limits - Anthropic"
+  },
+  {
+   "ts": "20250916214515",
+   "url": "https://docs.claude.com/en/api/rate-limits",
+   "sha": "518f39d258c978bd",
+   "title": "Rate limits - Claude Docs"
+  },
+  {
+   "ts": "20250926131628",
+   "url": "https://docs.claude.com/en/api/rate-limits",
+   "sha": "10a00854058d7c78",
+   "title": "Rate limits - Claude Docs"
+  },
+  {
+   "ts": "20250927211225",
+   "url": "https://docs.claude.com/en/api/rate-limits",
+   "sha": "10a00854058d7c78",
+   "title": "Rate limits - Claude Docs"
+  },
+  {
+   "ts": "20250930014420",
+   "url": "https://docs.claude.com/en/api/rate-limits",
+   "sha": "a7c16bfdcbe5609d",
+   "title": "Rate limits - Claude Docs"
+  },
+  {
+   "ts": "20251002104138",
+   "url": "https://docs.claude.com/en/api/rate-limits",
+   "sha": "3dc533258e82ecbb",
+   "title": "Rate limits - Claude Docs"
+  },
+  {
+   "ts": "20251013050914",
+   "url": "https://docs.claude.com/en/api/rate-limits",
+   "sha": "3dc533258e82ecbb",
+   "title": "Rate limits - Claude Docs"
+  },
+  {
+   "ts": "20251022172903",
+   "url": "https://docs.claude.com/en/api/rate-limits",
+   "sha": "ea6b43dfb33dc51b",
+   "title": "Rate limits - Claude Docs"
+  },
+  {
+   "ts": "20251024101906",
+   "url": "https://docs.claude.com/en/api/rate-limits",
+   "sha": "473fe7fa917b8b2f",
+   "title": "Rate limits - Claude Docs"
+  },
+  {
+   "ts": "20251031091344",
+   "url": "https://docs.claude.com/en/api/rate-limits",
+   "sha": "5be3aa1d25296c7c",
+   "title": "Rate limits - Claude Docs"
+  },
+  {
+   "ts": "20251102182955",
+   "url": "https://docs.claude.com/en/api/rate-limits",
+   "sha": "94e748f80b7aa360",
+   "title": "Rate limits - Claude Docs"
+  },
+  {
+   "ts": "20251103190403",
+   "url": "https://docs.claude.com/en/api/rate-limits",
+   "sha": "94e748f80b7aa360",
+   "title": "Rate limits - Claude Docs"
+  },
+  {
+   "ts": "20251111230644",
+   "url": "https://docs.claude.com/en/api/rate-limits",
+   "sha": "dd25472fa5ed3664",
+   "title": "Rate limits - Claude Docs"
+  },
+  {
+   "ts": "20251115204415",
+   "url": "https://docs.claude.com/en/api/rate-limits",
+   "sha": "dd25472fa5ed3664",
+   "title": "Rate limits - Claude Docs"
+  },
+  {
+   "ts": "20251122075834",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "c12f6d9d6e8b6877",
+   "title": "Rate limits - Claude Docs"
+  },
+  {
+   "ts": "20251125192349",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "508c79e5a0ce9101",
+   "title": "Rate limits - Claude Docs"
+  },
+  {
+   "ts": "20251127152702",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "508c79e5a0ce9101",
+   "title": "Rate limits - Claude Docs"
+  },
+  {
+   "ts": "20251203080139",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "91e8d3e84f8300e9",
+   "title": "Rate limits - Claude Docs"
+  },
+  {
+   "ts": "20251205133648",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "91e8d3e84f8300e9",
+   "title": "Rate limits - Claude Docs"
+  },
+  {
+   "ts": "20251212133946",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "37547276ce6e5b33",
+   "title": "Rate limits - Claude Docs"
+  },
+  {
+   "ts": "20251214162308",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "37547276ce6e5b33",
+   "title": "Rate limits - Claude Docs"
+  },
+  {
+   "ts": "20260101234310",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "37547276ce6e5b33",
+   "title": "Rate limits - Claude Docs"
+  },
+  {
+   "ts": "20260205191014",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "37547276ce6e5b33",
+   "title": "Rate limits - Claude API Docs"
+  },
+  {
+   "ts": "20260307042952",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "37547276ce6e5b33",
+   "title": "Rate limits - Claude API Docs"
+  },
+  {
+   "ts": "20260403051146",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "37547276ce6e5b33",
+   "title": "Rate limits - Claude API Docs"
+  },
+  {
+   "ts": "20260406155759",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "37547276ce6e5b33",
+   "title": "Rate limits - Claude API Docs"
+  },
+  {
+   "ts": "20260407161605",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "37547276ce6e5b33",
+   "title": "Rate limits - Claude API Docs"
+  },
+  {
+   "ts": "20260411154040",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "08a786605ac04e74",
+   "title": "Rate limits - Claude API Docs"
+  },
+  {
+   "ts": "20260417160923",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "08a786605ac04e74",
+   "title": "Rate limits - Claude API Docs"
+  },
+  {
+   "ts": "20260501062310",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "08a786605ac04e74",
+   "title": "Rate limits - Claude API Docs"
+  },
+  {
+   "ts": "20260601084139",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "08a786605ac04e74",
+   "title": "Rate limits - Claude API Docs"
+  },
+  {
+   "ts": "20260615175937",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "08a786605ac04e74",
+   "title": "Rate limits - Claude API Docs"
+  },
+  {
+   "ts": "20260616085114",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "08a786605ac04e74",
+   "title": "Rate limits - Claude API Docs"
+  },
+  {
+   "ts": "20260617221825",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "9f6fa15ee8816d56",
+   "title": "Rate limits - Claude API Docs"
+  },
+  {
+   "ts": "20260618181419",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "9f6fa15ee8816d56",
+   "title": "Rate limits - Claude API Docs"
+  },
+  {
+   "ts": "20260622185612",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "9f6fa15ee8816d56",
+   "title": "Rate limits - Claude API Docs"
+  },
+  {
+   "ts": "20260623030637",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "9f6fa15ee8816d56",
+   "title": "Rate limits - Claude API Docs"
+  },
+  {
+   "ts": "20260624171050",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "9f6fa15ee8816d56",
+   "title": "Rate limits - Claude API Docs"
+  },
+  {
+   "ts": "20260627082434",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "2b54bbc8aacedcda",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260703063955",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "2b54bbc8aacedcda",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260714053502",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "2b54bbc8aacedcda",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260722162924",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "2b54bbc8aacedcda",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260723060321",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "2b54bbc8aacedcda",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260725160858",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "5887b08d6a2f05b7",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260802060611",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "5887b08d6a2f05b7",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260803063017",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "5887b08d6a2f05b7",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260804170248",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "19201e0baa8d4c96",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260810044158",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "19201e0baa8d4c96",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260812045303",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "19201e0baa8d4c96",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260814045502",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "e0c1d81da557de84",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260820035004",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "e0c1d81da557de84",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260826163538",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "e0c1d81da557de84",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260829000010",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "e0c1d81da557de84",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260830090543",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "e0c1d81da557de84",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260831093316",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "e0c1d81da557de84",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260901225232",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "cd7ae5a931b72817",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260915185129",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "cd7ae5a931b72817",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260916082329",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "cd7ae5a931b72817",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260918181557",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "e63de29d4775e276",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260922184500",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "f607989da16c6c2f",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260923082348",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "f607989da16c6c2f",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260924081543",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "cd91647565ca63dd",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260925084312",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "cd91647565ca63dd",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260927090252",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "cd91647565ca63dd",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20260928182100",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "8fe118fe084c6d19",
+   "title": "Rate limits - Claude Platform Docs"
+  },
+  {
+   "ts": "20261003085833",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "sha": "967877e43ed62043",
+   "title": "Rate limits - Claude Platform Docs"
+  }
+ ],
+ "versions": [
+  {
+   "sha": "bfeea20089178e39",
+   "first": "20240526025423",
+   "last": "20240528033406",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "15a5e5b5674323fc",
+   "first": "20240531073119",
+   "last": "20240531073119",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "c2a27382703cd70b",
+   "first": "20240628183744",
+   "last": "20240628183744",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "1bfb201ed37a4fd4",
+   "first": "20240716061912",
+   "last": "20240716061912",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "c3d0e95eb8b939c7",
+   "first": "20240806204620",
+   "last": "20240806204620",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "cdfcdc8f699acaf5",
+   "first": "20240812150658",
+   "last": "20240812150658",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "7347189ee3748af5",
+   "first": "20240831040846",
+   "last": "20240831040846",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "db8659ea78f59eaf",
+   "first": "20240905173846",
+   "last": "20240909021431",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "7fec06a12e0c60f0",
+   "first": "20240917141445",
+   "last": "20240919181841",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "3ac34effba660d91",
+   "first": "20241002220803",
+   "last": "20241002220803",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "1c2c62f7253738f0",
+   "first": "20241112041223",
+   "last": "20241112041223",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "561b03d3add6086f",
+   "first": "20241124220756",
+   "last": "20241125131716",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "d71e3de7b125655a",
+   "first": "20241203003337",
+   "last": "20241203003337",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "4fa380c38d12d1e0",
+   "first": "20241213173628",
+   "last": "20241213173628",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "a5f62d2603ee546c",
+   "first": "20241226192651",
+   "last": "20250103045112",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "3f9f9a6b41d782b7",
+   "first": "20250112182618",
+   "last": "20250205054204",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "e2e49b85592ceb69",
+   "first": "20250224152327",
+   "last": "20250224152327",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "d249408b43ec86fe",
+   "first": "20250310202725",
+   "last": "20250313003002",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "3897e91f73ad488a",
+   "first": "20250326214139",
+   "last": "20250402002652",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "8646b41c1156e683",
+   "first": "20250408201346",
+   "last": "20250502180009",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "1fff140e416f64a3",
+   "first": "20250524020159",
+   "last": "20250524020159",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "8c548a9cc234166f",
+   "first": "20250601152127",
+   "last": "20250601152127",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "c62a8d68098e7b81",
+   "first": "20250605005515",
+   "last": "20250605005515",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "61eaca4e7594f6d1",
+   "first": "20250614101305",
+   "last": "20250707190739",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "70ae0f8e56cc829a",
+   "first": "20250720074222",
+   "last": "20250724093559",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "a7062cf609898a41",
+   "first": "20250729204116",
+   "last": "20250729204116",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "6a39206b66470663",
+   "first": "20250806014533",
+   "last": "20250806014533",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "526596dae857b86f",
+   "first": "20250812145951",
+   "last": "20250812145951",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "a01e055fd34708a6",
+   "first": "20250816031748",
+   "last": "20250816031748",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "73507421c13b80f7",
+   "first": "20250825150528",
+   "last": "20250825150528",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "90b1d05f52c397e1",
+   "first": "20250909225928",
+   "last": "20250909225928",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "dbf6bfaeb29f0eb6",
+   "first": "20250913121231",
+   "last": "20250913121231",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "2ec3d6a77c44c36e",
+   "first": "20250915104106",
+   "last": "20250916084800",
+   "url": "https://docs.anthropic.com/en/api/rate-limits"
+  },
+  {
+   "sha": "518f39d258c978bd",
+   "first": "20250916214515",
+   "last": "20250916214515",
+   "url": "https://docs.claude.com/en/api/rate-limits"
+  },
+  {
+   "sha": "10a00854058d7c78",
+   "first": "20250926131628",
+   "last": "20250927211225",
+   "url": "https://docs.claude.com/en/api/rate-limits"
+  },
+  {
+   "sha": "a7c16bfdcbe5609d",
+   "first": "20250930014420",
+   "last": "20250930014420",
+   "url": "https://docs.claude.com/en/api/rate-limits"
+  },
+  {
+   "sha": "3dc533258e82ecbb",
+   "first": "20251002104138",
+   "last": "20251013050914",
+   "url": "https://docs.claude.com/en/api/rate-limits"
+  },
+  {
+   "sha": "ea6b43dfb33dc51b",
+   "first": "20251022172903",
+   "last": "20251022172903",
+   "url": "https://docs.claude.com/en/api/rate-limits"
+  },
+  {
+   "sha": "473fe7fa917b8b2f",
+   "first": "20251024101906",
+   "last": "20251024101906",
+   "url": "https://docs.claude.com/en/api/rate-limits"
+  },
+  {
+   "sha": "5be3aa1d25296c7c",
+   "first": "20251031091344",
+   "last": "20251031091344",
+   "url": "https://docs.claude.com/en/api/rate-limits"
+  },
+  {
+   "sha": "94e748f80b7aa360",
+   "first": "20251102182955",
+   "last": "20251103190403",
+   "url": "https://docs.claude.com/en/api/rate-limits"
+  },
+  {
+   "sha": "dd25472fa5ed3664",
+   "first": "20251111230644",
+   "last": "20251115204415",
+   "url": "https://docs.claude.com/en/api/rate-limits"
+  },
+  {
+   "sha": "c12f6d9d6e8b6877",
+   "first": "20251122075834",
+   "last": "20251122075834",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits"
+  },
+  {
+   "sha": "508c79e5a0ce9101",
+   "first": "20251125192349",
+   "last": "20251127152702",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits"
+  },
+  {
+   "sha": "91e8d3e84f8300e9",
+   "first": "20251203080139",
+   "last": "20251205133648",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits"
+  },
+  {
+   "sha": "37547276ce6e5b33",
+   "first": "20251212133946",
+   "last": "20260407161605",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits"
+  },
+  {
+   "sha": "08a786605ac04e74",
+   "first": "20260411154040",
+   "last": "20260616085114",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits"
+  },
+  {
+   "sha": "9f6fa15ee8816d56",
+   "first": "20260617221825",
+   "last": "20260624171050",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits"
+  },
+  {
+   "sha": "2b54bbc8aacedcda",
+   "first": "20260627082434",
+   "last": "20260723060321",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits"
+  },
+  {
+   "sha": "5887b08d6a2f05b7",
+   "first": "20260725160858",
+   "last": "20260803063017",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits"
+  },
+  {
+   "sha": "19201e0baa8d4c96",
+   "first": "20260804170248",
+   "last": "20260812045303",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits"
+  },
+  {
+   "sha": "e0c1d81da557de84",
+   "first": "20260814045502",
+   "last": "20260831093316",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits"
+  },
+  {
+   "sha": "cd7ae5a931b72817",
+   "first": "20260901225232",
+   "last": "20260916082329",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits"
+  },
+  {
+   "sha": "e63de29d4775e276",
+   "first": "20260918181557",
+   "last": "20260918181557",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits"
+  },
+  {
+   "sha": "f607989da16c6c2f",
+   "first": "20260922184500",
+   "last": "20260923082348",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits"
+  },
+  {
+   "sha": "cd91647565ca63dd",
+   "first": "20260924081543",
+   "last": "20260927090252",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits"
+  },
+  {
+   "sha": "8fe118fe084c6d19",
+   "first": "20260928182100",
+   "last": "20260928182100",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits"
+  },
+  {
+   "sha": "967877e43ed62043",
+   "first": "20261003085833",
+   "last": "20261003085833",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits"
+  }
+ ],
+ "complete": true
+}

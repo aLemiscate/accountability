@@ -1,0 +1,696 @@
+{
+ "id": "openai-deprecations",
+ "org": "openai",
+ "urls": [
+  "https://platform.openai.com/docs/deprecations",
+  "https://platform.openai.com/docs/deprecations/",
+  "https://developers.openai.com/api/docs/deprecations"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "title": "Deprecations | OpenAI API",
+   "via": "fetch",
+   "sha": "88ae5664c2bdb9dc",
+   "words": 3402
+  }
+ ],
+ "captures": [
+  {
+   "ts": "20230613185541",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230707074132",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230801131829",
+   "url": "https://platform.openai.com/docs/deprecations/",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230906150638",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231006000905",
+   "url": "https://platform.openai.com/docs/deprecations/",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231106123130",
+   "url": "https://platform.openai.com/docs/deprecations/",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231202183156",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240121184118",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240202003124",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240301120140",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240409184208",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240501025829",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240612023445",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240725063024",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240823144706",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240910013436",
+   "url": "https://platform.openai.com/docs/deprecations/",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20241001150712",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20241125101537",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20241203135643",
+   "url": "https://platform.openai.com/docs/deprecations/",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250126110657",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250210091302",
+   "url": "https://platform.openai.com/docs/deprecations/",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250309232039",
+   "url": "https://platform.openai.com/docs/deprecations/",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250401073104",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250502010402",
+   "url": "https://platform.openai.com/docs/deprecations/",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250602043434",
+   "url": "https://platform.openai.com/docs/deprecations/",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250713110818",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250803132236",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20250923174446",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251006011041",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251101084214",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20251216184711",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "sha": "f67ce21af3da4f01",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260107090654",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "sha": "f67ce21af3da4f01",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260130040758",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "sha": "53a598b4114720a0",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260201152859",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "sha": "53a598b4114720a0",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260210130538",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "7c219d9b5ab87649",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260211185522",
+   "url": "https://developers.openai.com/api/docs/deprecations/",
+   "sha": "7c219d9b5ab87649",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260213072109",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "4fe4d54145563118",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260214112433",
+   "url": "https://developers.openai.com/api/docs/deprecations/",
+   "sha": "4fe4d54145563118",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260216143539",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "4fe4d54145563118",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260303211708",
+   "url": "https://developers.openai.com/api/docs/deprecations/",
+   "sha": "795b2eb290270868",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260305212950",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "795b2eb290270868",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260311144301",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "2df0f4978f35487b",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260315211238",
+   "url": "https://developers.openai.com/api/docs/deprecations/",
+   "sha": "2df0f4978f35487b",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260319174828",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "0ed34f4b8081e081",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260403214827",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "09466b1da3ad13b2",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260404091934",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "09466b1da3ad13b2",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260418193841",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "9cd72cc3ddf3c7d1",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260419074045",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "9cd72cc3ddf3c7d1",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260423042313",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "9b7a97e0f12b467a",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260426114525",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "1849f9d03845a3d4",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260506153427",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "1b502db87c58b1ac",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260508011246",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "5d2502ea1a9fe112",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260519174809",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "e208d35fe2273760",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260524042435",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "d6f317d7f1cacd40",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260529195735",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "d6f317d7f1cacd40",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260603190331",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "4c0d0eed1a1867b8",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260608082938",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "0d9f2fb3c5272897",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260611013217",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "0d9f2fb3c5272897",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260620200421",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "01297cd9e7e796b2",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260703035231",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "01297cd9e7e796b2",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260719150614",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "01297cd9e7e796b2",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260721210019",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "1bbcff5f49c861b9",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260722032356",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "1bbcff5f49c861b9",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260723163602",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "8b06015a29fc3dfb",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260729091659",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "8b06015a29fc3dfb",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260730164622",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "8b06015a29fc3dfb",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260731104502",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "70669d846869dc4d",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260802061733",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "70669d846869dc4d",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260806164756",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "65ed673a7f26b739",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260810021133",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "65ed673a7f26b739",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260819120154",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "fffd0aaf992743b1",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260822072705",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "fffd0aaf992743b1",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260826210259",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "fffd0aaf992743b1",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260828182343",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "4852dc13cf58f515",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260831081016",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "6b0bb38706ef0fa3",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260902020743",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "6b0bb38706ef0fa3",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260911184142",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "6b0bb38706ef0fa3",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260912150817",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "1e48bc9aac65a760",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260914113828",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "1e48bc9aac65a760",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260920011745",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "1e48bc9aac65a760",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260924110625",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "1e48bc9aac65a760",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260925163350",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "ea7e502d89abc0f1",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260926103727",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "ea7e502d89abc0f1",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20260929151851",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "99610c43349f65a8",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20261001143808",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "19219cbcd1b7cee2",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20261002160911",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "88ae5664c2bdb9dc",
+   "title": "Deprecations | OpenAI API"
+  },
+  {
+   "ts": "20261006161055",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "sha": "88ae5664c2bdb9dc",
+   "title": "Deprecations | OpenAI API"
+  }
+ ],
+ "versions": [
+  {
+   "sha": "f67ce21af3da4f01",
+   "first": "20251216184711",
+   "last": "20260107090654",
+   "url": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+   "sha": "53a598b4114720a0",
+   "first": "20260130040758",
+   "last": "20260201152859",
+   "url": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+   "sha": "7c219d9b5ab87649",
+   "first": "20260210130538",
+   "last": "20260211185522",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "4fe4d54145563118",
+   "first": "20260213072109",
+   "last": "20260216143539",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "795b2eb290270868",
+   "first": "20260303211708",
+   "last": "20260305212950",
+   "url": "https://developers.openai.com/api/docs/deprecations/"
+  },
+  {
+   "sha": "2df0f4978f35487b",
+   "first": "20260311144301",
+   "last": "20260315211238",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "0ed34f4b8081e081",
+   "first": "20260319174828",
+   "last": "20260319174828",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "09466b1da3ad13b2",
+   "first": "20260403214827",
+   "last": "20260404091934",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "9cd72cc3ddf3c7d1",
+   "first": "20260418193841",
+   "last": "20260419074045",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "9b7a97e0f12b467a",
+   "first": "20260423042313",
+   "last": "20260423042313",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "1849f9d03845a3d4",
+   "first": "20260426114525",
+   "last": "20260426114525",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "1b502db87c58b1ac",
+   "first": "20260506153427",
+   "last": "20260506153427",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "5d2502ea1a9fe112",
+   "first": "20260508011246",
+   "last": "20260508011246",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "e208d35fe2273760",
+   "first": "20260519174809",
+   "last": "20260519174809",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "d6f317d7f1cacd40",
+   "first": "20260524042435",
+   "last": "20260529195735",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "4c0d0eed1a1867b8",
+   "first": "20260603190331",
+   "last": "20260603190331",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "0d9f2fb3c5272897",
+   "first": "20260608082938",
+   "last": "20260611013217",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "01297cd9e7e796b2",
+   "first": "20260620200421",
+   "last": "20260719150614",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "1bbcff5f49c861b9",
+   "first": "20260721210019",
+   "last": "20260722032356",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "8b06015a29fc3dfb",
+   "first": "20260723163602",
+   "last": "20260730164622",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "70669d846869dc4d",
+   "first": "20260731104502",
+   "last": "20260802061733",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "65ed673a7f26b739",
+   "first": "20260806164756",
+   "last": "20260810021133",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "fffd0aaf992743b1",
+   "first": "20260819120154",
+   "last": "20260826210259",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "4852dc13cf58f515",
+   "first": "20260828182343",
+   "last": "20260828182343",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "6b0bb38706ef0fa3",
+   "first": "20260831081016",
+   "last": "20260911184142",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "1e48bc9aac65a760",
+   "first": "20260912150817",
+   "last": "20260924110625",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "ea7e502d89abc0f1",
+   "first": "20260925163350",
+   "last": "20260926103727",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "99610c43349f65a8",
+   "first": "20260929151851",
+   "last": "20260929151851",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "19219cbcd1b7cee2",
+   "first": "20261001143808",
+   "last": "20261001143808",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+   "sha": "88ae5664c2bdb9dc",
+   "first": "20261002160911",
+   "last": "20261006161055",
+   "url": "https://developers.openai.com/api/docs/deprecations"
+  }
+ ],
+ "complete": true
+}
