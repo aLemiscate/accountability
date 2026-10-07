@@ -92,16 +92,15 @@ updates:
     text: >-
       Asked about "Anthropic's decision to drop its responsible scaling policy,"
       Jack Clark said: "We didn't drop our responsible scaling policy, we
-      changed it." Asked about the promise not to train a model if safety
-      wasn't assured in advance, he said: "Well we still make safety cases in
-      the responsible scaling policy so I'm not sure that's quite accurate,"
-      adding that "we've tweaked the RSP." He argued that if a company changing
-      its own self-regulation is "such a big deal," that "is like a giant
-      flashing sign that that should be a regulated thing." (Quoted from the
-      audio of The Slow Newscast, about 30:35 to 32:47.)
+      changed it." Asked about the promise not to train a model if safety wasn't
+      assured in advance, he said: "Well we still make safety cases in the
+      responsible scaling policy so I'm not sure that's quite accurate," adding
+      that "we've tweaked the RSP." He argued that if a company changing its own
+      self-regulation is "such a big deal," that "is like a giant flashing sign
+      that that should be a regulated thing." (Quoted from the audio of The Slow
+      Newscast, about 30:35 to 32:47.)
     sources:
-      - title: 'Anthropic co-founder Jack Clark: What does the future of AI look
-          like?'
+      - title: 'Anthropic co-founder Jack Clark: What does the future of AI look like?'
         publisher: The Slow Newscast
         url: https://podcasts.apple.com/us/podcast/anthropic-co-founder-jack-clark-what-does-the-future/id1487320403?i=1000769861154
         date: 2026-05-28
@@ -122,13 +121,14 @@ updates:
         publisher: Anthropic
         url: https://www.anthropic.com/institute/recursive-self-improvement
         type: primary
+        snapshot: snapshots/2026-10-07-anthropic.com-9e5e9682
       - title: >-
           Senate GOP Rejects Efforts to Kill Trump's $1.8B "Anti- Weaponization"
           Fund; Interview with Rep. Brian Fitzpatrick (R-PA); NY Times: Several
           Women Who Dated Graham Platner Recall "Unsettling" Behavior with;
           Alabama Family Pleads For Return Of Missing Son; Anthropic Calls For
-          Pause Of Global AI Development; Fans Of Far-Right Streamer Nick Fuentes
-          Talk To CNN. Aired 8-9p ET
+          Pause Of Global AI Development; Fans Of Far-Right Streamer Nick
+          Fuentes Talk To CNN. Aired 8-9p ET
         publisher: CNN (Anderson Cooper 360 transcript)
         url: https://transcripts.cnn.com/show/acd/date/2026-06-04/segment/01
         date: 2026-06-04
@@ -173,9 +173,9 @@ note: >-
   meant "we were more free to move quickly, because the idea would be we have
   this framework in place where we can move as fast as we can … and we would be
   sort of bound by, to sort of not cross certain lines until we were ready."
-  (Quoted from the audio of the Exponential View episode, about 27:53.) In
-  July 2025 Amodei gave both halves of the reasoning. If models got "a few
-  years ahead" with only current alignment techniques, "I would definitely be
+  (Quoted from the audio of the Exponential View episode, about 27:53.) In July
+  2025 Amodei gave both halves of the reasoning. If models got "a few years
+  ahead" with only current alignment techniques, "I would definitely be
   advocating for us to slow down a lot." But: "Even if one company was willing
   to slow down the technology … that doesn't stop all the other companies."
   (Quoted from the audio of the Big Technology Podcast, about 1:04:19.)

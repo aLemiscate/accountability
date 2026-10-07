@@ -1,0 +1,227 @@
+title: Anthropic's privacy policy and data-use terms (all versions)
+date: 2023-07-08
+parties: [anthropic]
+summary: >-
+  Anthropic's promises about what it does with people's data: its privacy
+  policy, the data clauses of its consumer and commercial terms, and its August
+  2025 announcement on training. Anthropic publishes every superseded version of
+  these documents; all 13 privacy policy versions back to July 2023, all 8
+  consumer terms versions back to February 2024 and all 5 commercial terms
+  versions back to March 2024 were pulled. The current privacy policy and terms
+  were read in full, and each commitment was traced through every version to
+  date its wording. Most of these promises can't be checked from outside, so
+  most are graded "standing": in force, with nothing public showing them broken.
+sources:
+  - title: Privacy Policy (effective Sept. 10, 2026)
+    publisher: Anthropic
+    url: https://www.anthropic.com/legal/privacy
+    date: 2026-09-10
+    type: primary
+    snapshot: snapshots/2026-10-03-anthropic.com-47b90923
+  - title: Privacy Policy (effective Feb. 19, 2025)
+    publisher: Anthropic
+    url: https://www.anthropic.com/legal/archive/a2eecf43-807a-4a53-89dd-04c44c351138
+    date: 2025-02-19
+    type: primary
+    snapshot: snapshots/2026-10-07-anthropic.com-882281c9
+  - title: Consumer Terms of Service
+    publisher: Anthropic
+    url: https://www.anthropic.com/legal/consumer-terms
+    date: 2025-10-08
+    type: primary
+    snapshot: snapshots/2026-10-03-anthropic.com-8ac8edab
+  - title: Commercial Terms of Service
+    publisher: Anthropic
+    url: https://www.anthropic.com/legal/commercial-terms
+    date: 2025-06-17
+    type: primary
+    snapshot: snapshots/2026-10-07-anthropic.com-7dea3b22
+  - title: Updates to Consumer Terms and Privacy Policy
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/updates-to-our-consumer-terms
+    date: 2025-08-28
+    type: primary
+    snapshot: snapshots/2026-09-29-anthropic.com-0b955373
+entries: [2025-08-28-consumer-data-training-default]
+commitments:
+  - id: no-training-by-default
+    versions: Privacy policy, March 2024 to May 2025 (dropped September 2025)
+    section: Privacy policy, Uses of personal data
+    text: >-
+      We will not use your Inputs or Outputs to train our models, unless: (1)
+      your conversations are flagged for Trust & Safety review (in which case we
+      may use or analyze them to improve our ability to detect and enforce our
+      Usage Policy, including training models for use by our Trust and Safety
+      team, consistent with Anthropic’s safety mission), or (2) you’ve
+      explicitly reported the materials to us (for example via our feedback
+      mechanisms), or (3) you've otherwise explicitly opted in to the use of
+      your Inputs and Outputs for training purposes.
+    grades:
+      anthropic:
+        grade: eroded
+        evidence: >-
+          In August 2025 Anthropic replaced this with training on consumer chats
+          unless users opt out, and five-year retention for those who allow it.
+          Existing users had to choose by Oct. 8, 2025; TechCrunch reported the
+          training toggle was on by default in the prompt. Nothing public shows
+          chats were used for training before the change.
+        entries: [2025-08-28-consumer-data-training-default]
+  - id: honor-opt-out
+    versions: Privacy policy, September 2025 to September 2026
+    section: Privacy policy, Uses of personal data
+    text: >-
+      We may use your Inputs and Outputs to train and improve Anthropic AI
+      models, unless you opt out through your account settings.
+    grades:
+      anthropic:
+        grade: standing
+        evidence: >-
+          Nothing public shows opted-out chats used for training. The policy
+          keeps two exceptions: chats flagged for safety review and material
+          users report.
+  - id: deleted-chats-not-trained
+    versions: Announcement, August 2025
+    section: Updates to Consumer Terms and Privacy Policy
+    text: >-
+      If you delete a conversation with Claude it will not be used for future
+      model training.
+    grades:
+      anthropic:
+        grade: standing
+        evidence: No public case was found.
+  - id: thirty-day-retention-if-declined
+    versions: Announcement, August 2025
+    section: Updates to Consumer Terms and Privacy Policy
+    text: >-
+      If you do not choose to provide your data for model training, you’ll
+      continue with our existing 30-day data retention period.
+    grades:
+      anthropic:
+        grade: standing
+        evidence: No public case was found.
+  - id: delete-within-30-days
+    versions: Privacy policy, June 2024 to September 2026
+    section: Privacy policy, Rights and Choices
+    text: >-
+      You also are able to delete individual conversations, which will be
+      removed immediately from your conversation history and automatically
+      deleted from our back-end within 30 days.
+    grades:
+      anthropic:
+        grade: standing
+        evidence: No public case was found.
+  - id: no-sale
+    versions: Privacy policy, July 2023 to September 2026
+    section: Privacy policy, Rights and Choices
+    text: >-
+      Anthropic does not “sell” your personal data as that term is defined by
+      applicable laws and regulations.
+    grades:
+      anthropic:
+        grade: standing
+        evidence: No public case was found.
+  - id: honor-privacy-signals
+    versions: Privacy policy, March 2024 to September 2026
+    section: Privacy policy, Rights and Choices
+    text: >-
+      You can opt-out of sharing your personal data for targeted advertising to
+      promote our products and services, and we will honor global privacy
+      controls.
+    grades:
+      anthropic:
+        grade: standing
+        evidence: Not checked from outside.
+  - id: no-discrimination
+    versions: Privacy policy, March 2024 to September 2026
+    section: Privacy policy, Rights and Choices
+    text: >-
+      Anthropic will not discriminate based on the exercising of privacy rights
+      you may have.
+    grades:
+      anthropic:
+        grade: standing
+        evidence: No public case was found.
+  - id: no-automated-decisions
+    versions: Privacy policy, March 2024 to September 2026
+    section: Privacy policy, Rights and Choices
+    text: >-
+      Anthropic does not engage in decision making based solely on automated
+      processing or profiling in a manner which produces a legal effect (i.e.,
+      impacts your legal rights) or significantly affects you in a similar way
+      (e.g., significantly affects your financial circumstances or ability to
+      access essential goods or services).
+    grades:
+      anthropic:
+        grade: standing
+        evidence: No public case was found.
+  - id: no-reidentification
+    versions: Privacy policy, July 2026 to September 2026
+    section: Privacy policy, Aggregated or De-Identified Information
+    text: >-
+      Where data is de-identified, Anthropic will maintain and use this
+      information in its de-identified form, and will not attempt to re-identify
+      such information, except as permitted by law.
+    grades:
+      anthropic:
+        grade: standing
+        evidence: >-
+          No public case was found. The same section says Anthropic may
+          re-identify flagged content to enforce its terms.
+  - id: security-measures
+    versions: Privacy policy, December 2024 to September 2026
+    section: Privacy policy, Security Controls
+    text: >-
+      We implement appropriate technical and organizational security measures
+      designed to protect personal data from loss, misuse, and unauthorized
+      access, disclosure, alteration, or destruction.
+    grades:
+      anthropic:
+        grade: standing
+        evidence: No breach of users' personal data was found.
+  - id: detect-children
+    versions: Privacy policy, July 2026 to September 2026
+    section: Privacy policy, Children
+    text: >-
+      We have measures in place to detect and remove children from our Services.
+    grades:
+      anthropic:
+        grade: standing
+        evidence: Not checked from outside; no public failure was found.
+  - id: notify-material-changes
+    versions: Privacy policy, March 2024 to September 2026
+    section: Privacy policy, Changes to Our Privacy Policy
+    text: >-
+      We will notify you of any material changes to this Privacy Policy, as
+      appropriate, and update the Effective Date at the top of
+      https://www.anthropic.com/legal/privacy.
+    grades:
+      anthropic:
+        grade: standing
+        evidence: >-
+          The August 2025 training change was announced and shown to users in
+          the app. Whether every material change was announced is checked in the
+          policy history.
+        entries: [2025-08-28-consumer-data-training-default]
+  - id: notice-before-workplace-linking
+    versions: Consumer terms, June 2024 to October 2025
+    section: Consumer terms, Business Domains
+    text: >-
+      We will provide notice to you before linking your Account to an
+      organization's enterprise account.
+    grades:
+      anthropic:
+        grade: standing
+        evidence: >-
+          No public case was found. The terms let Anthropic skip the notice if
+          the employer says it has told the user.
+  - id: no-training-on-business-data
+    versions: Commercial terms, February 2025 to June 2025
+    section: Commercial terms, Customer Content
+    text: >-
+      Anthropic may not train models on Customer Content from Services.
+    grades:
+      anthropic:
+        grade: standing
+        evidence: >-
+          No public case was found. The August 2025 consumer change excluded
+          API, Claude for Work, government and education accounts.

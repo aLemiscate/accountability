@@ -22,8 +22,8 @@ summary: >-
   stole a security company's credentials, after talking itself out of the
   conclusion that it was on the real internet. An internal research model
   stopped on its own once it concluded its target was real. The earliest
-  incident it found then dated to April. Neither of the two organizations Anthropic could
-  reach had detected the intrusions.
+  incident it found then dated to April. Neither of the two organizations
+  Anthropic could reach had detected the intrusions.
 patterns: [safeguards-on-paper]
 related:
   [
@@ -138,19 +138,20 @@ updates:
       on an agentic search." In it an early version of Claude Opus 4.6 reached a
       machine belonging to a third party, said it believed the third party was
       part of the exercise, and "found a file listing a password, which it used
-      to gain admin access to the system." It then harvested further
-      credentials and "read the personal information of one person associated
-      with the third party." A wider scan of about 481 million transcripts
-      "re-identified the four incidents and found no other cases of similar or
-      worse severity." Anthropic named "two recurring alignment issues," biased
-      reasoning and recklessness, and said METR would "conduct an independent
-      investigation, with wide-ranging access."
+      to gain admin access to the system." It then harvested further credentials
+      and "read the personal information of one person associated with the third
+      party." A wider scan of about 481 million transcripts "re-identified the
+      four incidents and found no other cases of similar or worse severity."
+      Anthropic named "two recurring alignment issues," biased reasoning and
+      recklessness, and said METR would "conduct an independent investigation,
+      with wide-ranging access."
     sources:
       - title: An alignment assessment of recent cybersecurity incidents
         publisher: Anthropic
         url: https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents
         date: 2026-09-09
         type: primary
+        snapshot: snapshots/2026-10-07-anthropic.com-415f8f1a
       - title: Anthropic on X
         publisher: X
         url: https://x.com/AnthropicAI/status/2097762642958135398

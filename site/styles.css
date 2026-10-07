@@ -224,6 +224,31 @@ main { padding-block: 40px 80px; min-height: 50vh; }
 .pill.s-open::before { content: "○"; font-size: 0.6875rem; }
 .pill.s-kept::before { content: "✓"; font-size: 0.75rem; }
 .pill.c { border-style: dashed; color: var(--ink-2); }
+.pill.s-unknown { --tone: var(--ink-3); }
+.pill.s-unknown::before { content: "?"; font-size: 0.75rem; }
+
+/* Commitments: a table of "Y of X kept", then each document's graded list. */
+.ctable-wrap { overflow-x: auto; margin: 8px 0 12px; }
+.ctable { border-collapse: collapse; width: 100%; min-width: 34rem; font-size: var(--step--1); font-variant-numeric: tabular-nums; }
+.ctable th, .ctable td { text-align: left; vertical-align: top; padding: 10px 12px 10px 0; border-bottom: 1px solid var(--rule); }
+.ctable thead th { font: 500 0.75rem/1.4 var(--mono); color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.04em; }
+.ctable tbody th { font-weight: 500; }
+.ctable tbody th a { color: var(--ink); }
+.ctable tfoot th, .ctable tfoot td { border-bottom: 0; border-top: 1px solid var(--ink); font-weight: 600; }
+.ctable .ck { display: block; font: 500 0.875rem/1.4 var(--mono); }
+.ctable .cr { display: block; color: var(--ink-3); font: 400 0.75rem/1.4 var(--mono); }
+.ctable .na { color: var(--ink-3); }
+.cnote { color: var(--ink-3); font-size: var(--step--1); max-width: var(--measure); }
+.cdoc { padding: 28px 0; border-bottom: 1px solid var(--rule); display: grid; gap: 10px; scroll-margin-top: 16px; }
+.cdoc h3 { font: 600 var(--step-2)/1.1 var(--sans); letter-spacing: -0.03em; text-wrap: balance; }
+.cdoc > p { color: var(--ink-2); max-width: var(--measure); }
+.cdoc summary { cursor: pointer; width: max-content; max-width: 100%; font-size: var(--step--1); }
+.clist { margin: 12px 0 0; padding-left: 1.4em; display: grid; gap: 22px; max-width: 52rem; }
+.citem { display: grid; gap: 8px; min-width: 0; }
+.citem .cmeta { font: 400 0.75rem/1.5 var(--mono); color: var(--ink-3); }
+.citem blockquote { margin: 0; padding-left: 12px; border-left: 2px solid var(--rule-2); }
+.cgrade { display: grid; gap: 6px; padding-left: 12px; }
+.cgrade > p { color: var(--ink-2); font-size: var(--step--1); max-width: var(--measure); }
 .chip {
   font: 400 0.75rem/1 var(--mono);
   color: var(--ink-2);

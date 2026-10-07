@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/news/web-search",
+  "captured_at": "2026-10-07T01:21:44.022Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "dcc1a8af9b0cbc809fdec778b30547c3ca4ce458f78ddd8d80cc23dbb4422861",
+    "page.txt": "6134bb323f57cd22cadee248f49097517287902575cd1144649afb3c8a421893",
+    "screenshot.jpg": "44750b357acbe0f953d75f0938786033c8b7db02f9c882cdacf9bfa6bc790cda",
+    "rendered.txt": "448f5caab50fb494ffdcda864e2de287a689b2deac5f235af4a7ce5bcdf33c07"
+  },
+  "http_status": 200,
+  "final_url": "https://claude.com/resources/articles/web-search",
+  "content_type": "text/html; charset=utf-8",
+  "title": "Claude web search now available globally on all plans | Claude by Anthropic",
+  "rendered_status": 200
+}

@@ -1,0 +1,376 @@
+title: OpenAI's Preparedness Framework (both versions)
+date: 2023-12-18
+parties: [openai]
+summary: >-
+  OpenAI's framework for catastrophic risk: a beta in December 2023 and version 2
+  in April 2025, which is still current. Both were read in full. Version 2
+  narrowed the tracked risks to biology and chemistry, cybersecurity and AI
+  self-improvement, replaced the Scorecard with Capabilities and Safeguards
+  Reports, and added a clause letting OpenAI lower its safeguards if a rival
+  ships a high-risk system without comparable ones. Each commitment is quoted
+  from the version named in its "versions" field and graded over the time it was
+  in force; one a later version dropped or weakened is graded "eroded", with the
+  evidence saying whether it was met while it lasted. OpenAI's May 2026 Frontier
+  Governance Framework, written for California's SB 53, is a separate document
+  and isn't inventoried here.
+sources:
+  - title: Preparedness Framework (Beta) (PDF)
+    publisher: OpenAI
+    url: https://cdn.openai.com/openai-preparedness-framework-beta.pdf
+    date: 2023-12-18
+    type: primary
+    snapshot: snapshots/2026-09-29-cdn.openai.com-45f5df09
+  - title: Preparedness Framework, Version 2 (PDF)
+    publisher: OpenAI
+    url: https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf
+    date: 2025-04-15
+    type: primary
+    snapshot: snapshots/2026-09-29-cdn.openai.com-ec5d8e7d
+  - title: Our updated Preparedness Framework
+    publisher: OpenAI
+    url: https://openai.com/index/updating-our-preparedness-framework/
+    date: 2025-04-15
+    type: primary
+    snapshot: snapshots/2026-09-29-openai.com-ded0b058
+entries: [2025-04-15-preparedness-framework-v2, 2025-04-15-pf-critical-safeguards]
+commitments:
+  - id: scorecard
+    versions: beta (replaced by Capabilities and Safeguards Reports in v2)
+    section: 'Beta: Scorecard'
+    text: >-
+      As a part of our Preparedness Framework, we will maintain a dynamic (i.e.,
+      frequently updated) Scorecard that is designed to track our current
+      pre-mitigation model risk across each of the risk categories, as well as
+      the post-mitigation risk.
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          System cards under the beta published Preparedness scorecards with
+          pre- and post-mitigation ratings, for example for deep research.
+        entries: [2025-02-02-deep-research-before-system-card]
+        sources:
+          - title: Deep Research System Card (PDF)
+            publisher: OpenAI
+            url: https://cdn.openai.com/deep-research-system-card.pdf
+            date: 2025-02-25
+            type: primary
+            snapshot: snapshots/2026-09-30-cdn.openai.com-8c0f2ac2
+  - id: fine-tuned-evaluations
+    versions: beta (narrowed in v2)
+    section: 'Beta: Scorecard, evaluating pre-mitigation risk'
+    text: >-
+      To this end, for our evaluations, we will be running them not only on
+      base models (with highly-performant, tailored prompts wherever
+      appropriate), but also on fine-tuned versions designed for the particular
+      misuse vector without any mitigations in place.
+    grades:
+      openai:
+        grade: eroded
+        evidence: >-
+          Version 2 says elicitation "should be tailored depending on the level
+          of expected access (e.g., doing finetuning if the weights will be
+          released)," a change its change log doesn't list, as former OpenAI
+          researcher Steven Adler pointed out. Days earlier the Financial Times
+          had reported testers questioning whether fine-tuned misuse tests still
+          ran on the newest models.
+        entries: [2025-04-15-preparedness-framework-v2, 2025-04-11-safety-testing-time-cut]
+  - id: continual-evaluation
+    versions: beta
+    section: 'Beta: Scorecard, evaluating pre-mitigation risk'
+    text: >-
+      We will be running these evaluations continually, i.e., as often as
+      needed to catch any non-trivial capability change, including before,
+      during, and after training. This would include whenever there is a >2x
+      effective compute increase or major algorithmic breakthrough.
+    grades:
+      openai:
+        grade: unknown
+        evidence: >-
+          Evaluations during training are internal. The Financial Times reported
+          in April 2025 that testing time had been cut from months to days;
+          OpenAI said its testing had become more efficient.
+        entries: [2025-04-11-safety-testing-time-cut]
+  - id: deploy-medium-only
+    versions: beta (replaced by the High-threshold rule in v2)
+    section: 'Beta: Governance, restricting deployment'
+    text: >-
+      Only models with a post-mitigation score of "medium" or below can be
+      deployed.
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          Every model OpenAI released while the beta was in force was rated
+          Medium or below after mitigations in its system card. Its first "High"
+          rating, for ChatGPT agent, came under version 2.
+        entries: [2025-02-02-deep-research-before-system-card]
+  - id: develop-high-only
+    versions: beta
+    section: 'Beta: Governance, restricting development'
+    text: >-
+      Only models with a post-mitigation score of "high" or below can be
+      developed further.
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          No model was reported at "critical" while the beta was in force, so this
+          was never tested.
+  - id: asset-protection
+    versions: beta (security controls for High models in v2)
+    section: 'Beta: Governance, asset protection'
+    text: >-
+      If we reach (or are forecasted to reach) at least “high” pre-mitigation
+      risk in any of the considered categories: we will ensure that our
+      security is hardened in a way that is designed to prevent our mitigations
+      and controls from being circumvented via exfiltration (by the time we hit
+      “high” pre-mitigation risk).
+    grades:
+      openai:
+        grade: unknown
+        evidence: >-
+          Security controls aren't public. No theft of OpenAI model weights has
+          been reported.
+  - id: preparedness-team
+    versions: beta (not named in v2)
+    section: 'Beta: introduction'
+    text: >-
+      Tasking the Preparedness team with on-the-ground work. The Preparedness
+      team will drive the technical work and maintenance of the Preparedness
+      Framework.
+    grades:
+      openai:
+        grade: eroded
+        evidence: >-
+          Version 2 no longer commits to a dedicated Preparedness team or its
+          monthly reports. OpenAI reassigned the team's head in July 2024, and
+          the Financial Times reported in August 2026 that the team had been
+          split up; OpenAI says it hasn't been disbanded.
+        entries: [2024-07-23-madry-reassigned, 2026-07-preparedness-team-split]
+  - id: third-party-audits
+    versions: beta (made discretionary in v2)
+    section: 'Beta: Governance, accountability'
+    text: >-
+      Scorecard evaluations (and corresponding mitigations) will be audited by
+      qualified, independent third-parties to ensure accurate reporting of
+      results, either by reproducing findings or by reviewing methodology to
+      ensure soundness, at a cadence specified by the SAG and/or upon the
+      request of OpenAI Leadership or the BoD.
+    grades:
+      openai:
+        grade: eroded
+        evidence: >-
+          No such audit was found while the beta was in force. Version 2 replaced
+          it with third-party testing "if we deem that a deployment warrants" it,
+          "when available and feasible."
+        entries: [2025-04-15-preparedness-framework-v2]
+  - id: safety-drills
+    versions: beta (dropped in v2)
+    section: 'Beta: Governance, accountability'
+    text: >-
+      Therefore, the SAG will call for safety drills at a recommended minimum
+      yearly basis
+    grades:
+      openai:
+        grade: eroded
+        evidence: >-
+          Version 2's change log says it will "Deprioritize safety drills" in
+          favor of continuous red-teaming. Whether any drill was held isn't
+          public.
+        entries: [2025-04-15-preparedness-framework-v2]
+  - id: external-access
+    versions: beta and v2
+    section: 'Beta: Governance, accountability'
+    text: >-
+      We will also continue to enable external research and government access
+      for model releases to increase the depth of red-teaming and testing of
+      frontier model capabilities
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          The US and UK institutes published a joint pre-release evaluation of o1,
+          GPT-5.6 launched after a government review, and outside groups
+          including the UK AI Security Institute ran cyber evaluations of GPT-5.6
+          Sol.
+        entries: [2024-08-29-aisi-pre-release-testing, 2026-07-21-hugging-face-incident]
+  - id: board-oversight
+    versions: beta and v2
+    section: 'v2: Appendix B'
+    text: >-
+      The Safety and Security Committee (SSC) of the OpenAI Board of Directors
+      (Board) will be given visibility into processes, and can review decisions
+      and otherwise require reports and information from OpenAI Leadership as
+      necessary to fulfill the Board’s oversight role.
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          The committee exists and is independent of management. Its
+          deliberations aren't public.
+        entries: [2024-09-16-ssc-independent-oversight]
+  - id: sag-terms
+    versions: beta and v2
+    section: 'v2: Appendix B, SAG membership'
+    text: >-
+      SAG members serve for one year terms.
+    grades:
+      openai:
+        grade: unknown
+        evidence: >-
+          The Safety Advisory Group's membership isn't public.
+  - id: no-deploy-high-without-safeguards
+    versions: v2
+    section: 'v2: introduction and 4.2'
+    text: >-
+      Covered systems that reach High capability must have safeguards that
+      sufficiently minimize the associated risk of severe harm before they are
+      deployed.
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          OpenAI switched on safeguards for its first High biology launch,
+          ChatGPT agent, in July 2025, and said its first High cyber model,
+          GPT-5.3-Codex, "completed our full testing and governance process."
+          Whether the safeguards were sufficient is OpenAI's own judgment; the
+          dispute over which safeguards a High cyber model needs is graded
+          below.
+        entries: [2025-07-17-chatgpt-agent-high-bio, 2026-02-gpt-5-3-codex-sb-53-dispute]
+  - id: high-cyber-safeguards
+    versions: v2
+    section: 'v2: Table 1, Cybersecurity (High)'
+    text: >-
+      Require safeguards meeting High standard against misalignment (Appendix
+      C.2) for large-scale internal deployment
+    grades:
+      openai:
+        grade: eroded
+        evidence: >-
+          A watchdog said GPT-5.3-Codex shipped without the misalignment
+          safeguards the framework requires for High cyber models. OpenAI said
+          they apply only together with long-range autonomy, which it found the
+          model lacked, and called the framework's wording "ambiguous." It
+          settled that ambiguity in its own favor in the release's system card
+          instead of amending the framework. OpenAI denies any violation, and no
+          regulator has ruled.
+        entries: [2026-02-gpt-5-3-codex-sb-53-dispute]
+  - id: critical-safeguards
+    versions: v2
+    section: 'v2: 4.4'
+    text: >-
+      Such models require additional safeguards (safety and security controls)
+      during development, regardless of whether or when they are externally
+      deployed.
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          OpenAI says it paused some training and added controls before internal
+          use of GPT-6 Astra, its first model rated Critical for cyber. That
+          rests on OpenAI's own account. Version 2 also said OpenAI expected "to
+          further update this Preparedness Framework before reaching such a
+          level," and no new version was found.
+        entries: [2025-04-15-pf-critical-safeguards, 2026-08-18-altman-pause-act-unilaterally]
+  - id: every-covered-model
+    versions: v2
+    section: 'v2: 3.3'
+    text: >-
+      Prior to deployment, every covered model undergoes the suite of Scalable
+      Evaluations.
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          OpenAI decides which releases are covered. Former OpenAI researcher
+          Steven Adler wrote that OpenAI "doesn't seem to have run their CBRN
+          evals on GPT-5.1" and had tested cyber only on earlier checkpoints;
+          OpenAI kept treating the model as High for biology. No release was
+          shown to have skipped a required evaluation.
+        entries: [2025-11-12-gpt-5-1-ships-with-regressions]
+  - id: public-disclosures
+    versions: v2
+    section: 'v2: 5.2, public disclosures'
+    text: >-
+      We will release information about our Preparedness Framework results in
+      order to facilitate public awareness of the state of frontier AI
+      capabilities for major deployments.
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          Every major release under version 2 came with a system card or
+          addendum reporting Preparedness results, including GPT-5.1's
+          regressions. o3-pro pointed to o3's card instead of getting its own.
+        entries: [2025-11-12-gpt-5-1-ships-with-regressions, 2025-07-17-chatgpt-agent-high-bio]
+  - id: third-party-evaluation
+    versions: v2
+    section: 'v2: 5.2, third-party evaluation'
+    text: >-
+      If we deem that a deployment warrants deeper testing of Tracked
+      Categories of capability (as described in Section 3.1), for example based
+      on results of Capabilities Report presented to them, then when available
+      and feasible, OpenAI will work with third-parties to independently
+      evaluate models.
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          Outside evaluators, including the UK AI Security Institute and
+          Irregular, tested GPT-5.6 Sol's cyber capabilities, and in 2026 Altman
+          committed to give independent evaluators "employee-like access."
+        entries: [2026-07-21-hugging-face-incident, 2026-09-12-altman-independent-evaluators]
+  - id: marginal-risk-disclosure
+    versions: v2
+    section: 'v2: 4.3, marginal risk'
+    text: >-
+      we publicly acknowledge that we are making the adjustment,
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          OpenAI has not announced lowering any safeguard because of a rival's
+          release.
+        entries: [2025-04-15-preparedness-framework-v2]
+  - id: noncompliance
+    versions: v2
+    section: 'v2: 5.1, noncompliance'
+    text: >-
+      Any employee can raise concerns about potential violations of this
+      policy, or about its implementation, via our Raising Concerns Policy.
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          OpenAI says it has internal channels for raising concerns. In October
+          2026 it dismissed three safety researchers it says shared confidential
+          information with an outside safety group; whether they had raised
+          concerns internally first isn't known.
+        entries: [2026-10-01-three-safety-researchers-dismissed]
+  - id: annual-review
+    versions: v2
+    section: 'v2: Appendix B, updates'
+    text: >-
+      We will review and potentially update the Preparedness Framework for
+      continued sufficiency at least once a year.
+    grades:
+      openai:
+        grade: unknown
+        evidence: >-
+          No new version has been published since April 2025, 18 months as of
+          October 2026. A review could have happened without an update; OpenAI
+          published its separate Frontier Governance Framework in May 2026.
+        entries: [2026-02-gpt-5-3-codex-sb-53-dispute]
+  - id: research-categories
+    versions: v2
+    section: 'v2: 2.3, Research Categories'
+    text: >-
+      Sharing summaries of our findings with the public where feasible.
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          The GPT-5.3-Codex system card reported on long-range autonomy using
+          proxy evaluations. No separate public summaries of research-category
+          findings were found.

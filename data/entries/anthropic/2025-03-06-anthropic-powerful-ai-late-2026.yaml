@@ -87,15 +87,14 @@ updates:
     text: >-
       Co-founder Jack Clark checked the definition against current systems.
       Using any computer interface: "that's true of AI systems today." Long
-      tasks: Opus 4.6 "can do tasks that might take a person about 10 hours,"
-      so "we're on this trajectory towards end of this year, early 27." But
-      "the load-bearing part of Dario's definition" is being smarter than a
-      Nobel Prize winner, and "the models have themselves not come up with
-      intuitive and heterodox creative ideas that we award humans Nobel Prizes
-      for." (Quoted from the audio of Plain English, about 49:46 to 50:45.)
+      tasks: Opus 4.6 "can do tasks that might take a person about 10 hours," so
+      "we're on this trajectory towards end of this year, early 27." But "the
+      load-bearing part of Dario's definition" is being smarter than a Nobel
+      Prize winner, and "the models have themselves not come up with intuitive
+      and heterodox creative ideas that we award humans Nobel Prizes for."
+      (Quoted from the audio of Plain English, about 49:46 to 50:45.)
     sources:
-      - title: Anthropic Thinks AI Might Destroy the Economy. It's Building It
-          Anyway.
+      - title: Anthropic Thinks AI Might Destroy the Economy. It's Building It Anyway.
         publisher: Plain English with Derek Thompson
         url: https://podcasts.apple.com/us/podcast/anthropic-thinks-ai-might-destroy-the-economy-its/id1594471023?i=1000757684696
         date: 2026-03-27
@@ -106,13 +105,14 @@ updates:
       more than 80% of the code we merge into Anthropic's codebase was authored
       by Claude." It noted that "Anthropic leadership have publicly estimated
       that 90% or more of our code is written by Claude, including scripts and
-      experimental code," and called its own share of lines merged to
-      production "a more conservative measurement."
+      experimental code," and called its own share of lines merged to production
+      "a more conservative measurement."
     sources:
       - title: When AI builds itself
         publisher: Anthropic
         url: https://www.anthropic.com/institute/recursive-self-improvement
         type: primary
+        snapshot: snapshots/2026-10-07-anthropic.com-9e5e9682
       - title: AI Is Already Developing AI, Says Anthropic—And Humans May Be Slowing
           Things Down
         publisher: Decrypt
