@@ -2,6 +2,13 @@
 # (page HTML and text, full-page screenshot, X/Bluesky post text, hashes, and
 # a Wayback Machine copy), then commit the snapshots and updated entries.
 #
+# With "history" set, it instead pulls the archived history of pages listed in
+# data/history.yaml (usage policies, terms, privacy policies, pricing,
+# usage-limit help pages, model-retirement pages): every distinct version the
+# Wayback Machine holds, plus each page as it reads today, saved under
+# inbox/history/<id>/ (see scripts/page-history.mjs). Run it again to continue
+# where a run stopped. Neither mode needs keys.
+#
 # Run it from the Actions tab ("Capture" → Run workflow). GitHub's runners
 # have open internet access, so this works even where a local or cloud
 # sandbox blocks news sites, X or archive.org.
@@ -18,6 +25,12 @@ on:
         description: Also save a Wayback Machine copy of each source
         type: boolean
         default: true
+      history:
+        description: 'Pull page histories instead: page ids from data/history.yaml, space-separated, or "all" (empty = take snapshots)'
+        default: ''
+      minutes:
+        description: Minutes a history run may spend reading captures before saving and stopping
+        default: '320'
 
 permissions:
   contents: write
@@ -29,7 +42,7 @@ concurrency:
 jobs:
   capture:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 355
     env:
       IA_ACCESS_KEY: ${{ secrets.IA_ACCESS_KEY }}
       IA_SECRET_KEY: ${{ secrets.IA_SECRET_KEY }}
@@ -44,19 +57,31 @@ jobs:
       - run: sudo apt-get install -y --no-install-recommends poppler-utils  # pdftotext, for quote checks against PDFs
 
       - name: Snapshot sources without a snapshot
+        if: inputs.history == ''
         run: npm run capture -- --snapshot-missing --limit "${{ inputs.limit }}" ${{ !inputs.archive && '--no-archive' || '' }}
 
       - name: Check that quotes match their snapshots
+        if: inputs.history == ''
         run: npm run build
 
-      - name: Commit snapshots
+      - name: Pull page histories
+        if: inputs.history != ''
+        run: npm run page-history -- --minutes "${{ inputs.minutes }}" ${{ inputs.history != 'all' && format('--only "{0}"', inputs.history) || '' }}
+
+      - name: Commit
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add snapshots data/entries data/commitments
+          if [ -d inbox/history ]; then git add inbox/history; fi
           if git diff --cached --quiet; then
             echo "Nothing new captured."
           else
-            git commit -m "Capture: snapshots for $(git diff --cached --name-only -- snapshots | cut -d/ -f2 | sort -u | wc -l) source(s)"
-            git push
+            if [ -n "${{ inputs.history }}" ]; then
+              git commit -m "History: archived page versions ($(git diff --cached --name-only -- inbox/history | wc -l) files)"
+            else
+              git commit -m "Capture: snapshots for $(git diff --cached --name-only -- snapshots | cut -d/ -f2 | sort -u | wc -l) source(s)"
+            fi
+            for i in 1 2 3 4; do git pull --rebase && git push && break; sleep $((i * 10)); done
           fi

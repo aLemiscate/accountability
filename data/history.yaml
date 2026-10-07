@@ -1,6 +1,7 @@
-# Pages whose full archived history `npm run page-history` pulls (the History
-# workflow runs it on GitHub's runners). Each page lists every address it has
-# lived at; their Wayback Machine captures are merged in date order. Entries
+# Pages whose full archived history `npm run page-history` pulls (the Capture
+# workflow runs it on GitHub's runners when "history" is set). Each page lists
+# every address it has lived at; their Wayback Machine captures are merged in
+# date order. Entries
 # with `discover:` list every archived address under a prefix instead, to find
 # old addresses and the right help articles.
 #
