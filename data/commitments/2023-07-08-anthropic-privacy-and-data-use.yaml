@@ -7,9 +7,11 @@ summary: >-
   2025 announcement on training. Anthropic publishes every superseded version of
   these documents; all 13 privacy policy versions back to July 2023, all 8
   consumer terms versions back to February 2024 and all 5 commercial terms
-  versions back to March 2024 were pulled. The current privacy policy and terms
-  were read in full, and each commitment was traced through every version to
-  date its wording. Most of these promises can't be checked from outside, so
+  versions back to March 2024 were pulled, with every archived copy of the
+  help articles on how long Anthropic keeps organization data (back to July
+  2023) and data from its most capable models. The current privacy policy,
+  terms and articles were read in full, and each commitment was traced through
+  every version to date its wording. Most of these promises can't be checked from outside, so
   most are graded "standing": in force, with nothing public showing them broken.
 sources:
   - title: Privacy Policy (effective Sept. 10, 2026)
@@ -269,3 +271,75 @@ commitments:
         evidence: >-
           No public case was found. The August 2025 consumer change excluded
           API, Claude for Work, government and education accounts.
+  - id: api-30-day-deletion
+    versions: Help article on organization data, July 2023 to October 2026 ("28 days" from October 2023 to April 2024)
+    section: How long do you store my organization’s data?, Standard Retention Timeframe
+    text: >-
+      For Anthropic API users, we automatically delete inputs and outputs on
+      our backend within 30 days of receipt or generation, except: When you
+      use a service with longer retention under your control (e.g. Files
+      API); When you and we have agreed otherwise (e.g. zero data retention
+      agreement); If we need to retain them for longer to enforce our Usage
+      Policy (UP); In compliance with the law
+    grades:
+      anthropic:
+        grade: eroded
+        evidence: >-
+          The 30-day default has held, but since June 9, 2026 organizations
+          with zero data retention must turn retention on to use Anthropic's
+          most capable ("covered") models, whose prompts and outputs are kept
+          30 days on every platform. Since September 2026 the covered-models
+          article has said some of those organizations will be told they can
+          use Fable with zero retention. The open-ended enforcement exception
+          dates from October 2023; in July 2023 the page said prompts that "may
+          violate" the usage policy were kept 90 days. OpenAI made its newest
+          models ineligible for zero retention for specific customers in April
+          2026.
+        sources:
+          - title: How long do you store my organization’s data? | Anthropic Privacy Center
+            publisher: Anthropic
+            url: https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data
+            date: 2026-10-07
+            type: primary
+          - title: How long do you store personal data? | Anthropic Help Center, as archived on July 11, 2023
+            publisher: Internet Archive
+            url: https://web.archive.org/web/20230711170142/https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data
+            date: 2023-07-11
+            type: archive
+          - title: Data retention practices for Covered Models | Anthropic Privacy Center
+            publisher: Anthropic
+            url: https://privacy.claude.com/en/articles/15425996-data-retention-practices-for-covered-models
+            date: 2026-10-07
+            type: primary
+  - id: covered-models-review-limits
+    versions: Help article on covered models, June 9, 2026 to at least June 20, 2026 (rewritten by July 3)
+    section: Data retention practices for Mythos-class models, How we protect your data
+    text: >-
+      Anthropic employees cannot access your conversations unless they are
+      flagged for potential serious harm or upon a customer’s written request.
+      These reviews can only be performed by a small set of approved reviewers
+      through tooling that prevents export, copying, or downloading.
+    grades:
+      anthropic:
+        grade: eroded
+        evidence: >-
+          Rewritten between June 20 and July 3, 2026, with no note of the
+          change: "By default, no Anthropic personnel can read your retained
+          conversations. Human review can occur only through a controlled
+          access path—for example, when content is flagged by our automated
+          trust and safety systems for potential harm." "Serious" was dropped,
+          the flag became one example rather than the only trigger, and the
+          sentence about tooling that "prevents export, copying, or
+          downloading" was removed. The tamper-proof access log stayed. No
+          public case of misuse was found.
+        sources:
+          - title: Data retention practices for Mythos-class models | Anthropic Privacy Center, as archived on June 20, 2026
+            publisher: Internet Archive
+            url: https://web.archive.org/web/20260620212006/https://privacy.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models
+            date: 2026-06-20
+            type: archive
+          - title: Data retention practices for Mythos-class models | Anthropic Privacy Center, as archived on July 3, 2026
+            publisher: Internet Archive
+            url: https://web.archive.org/web/20260703204326/https://privacy.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models
+            date: 2026-07-03
+            type: archive
