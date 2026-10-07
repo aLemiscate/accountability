@@ -44,16 +44,16 @@ updates:
     text: >-
       Thorn's first annual progress report, covering April 2024 to April 2025,
       included Anthropic's account of its measures. Anthropic said it was still
-      setting up hash-matching of its training data against known material,
-      and that it hash-matched user uploads, red-teamed every model and made 859
+      setting up hash-matching of its training data against known material, and
+      that it hash-matched user uploads, red-teamed every model and made 859
       reports to NCMEC. It also said it "did not offer search functionality
       during this reporting period," though Claude's web search had launched in
       preview for paid US users on March 20, 2025. Anthropic's own report is on
       its Transparency Hub. The report relays what companies said; it doesn't
       audit them.
     sources:
-      - title: 'Safety by Design for Generative AI: Annual Progress Report (April
-          2024 to April 2025)'
+      - title: 'Safety by Design for Generative AI: Annual Progress Report (April 2024
+          to April 2025)'
         publisher: Thorn
         url: https://info.thorn.org/hubfs/Thorn_SafetyByDesign_AnnualProgressReport_April2024-April2025.pdf
         date: 2025-10-21
@@ -64,5 +64,6 @@ updates:
         url: https://www.anthropic.com/news/web-search
         date: 2025-03-20
         type: primary
+        snapshot: snapshots/2026-10-07-anthropic.com-6e15bd50
 note: >-
   Progress has been reported, as promised, but only through self-reports.

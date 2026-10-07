@@ -18,7 +18,8 @@
     "test": "node --test tests/*.test.mjs",
     "find-posts": "node scripts/find-posts.mjs",
     "sweep-coverage": "node scripts/sweep-coverage.mjs",
-    "reading-queue": "node scripts/reading-queue.mjs"
+    "reading-queue": "node scripts/reading-queue.mjs",
+    "page-history": "node scripts/page-history.mjs"
   },
   "dependencies": {
     "diff": "^8.0.2",

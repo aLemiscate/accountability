@@ -1,0 +1,165 @@
+# Pages whose full archived history `npm run page-history` pulls (the History
+# workflow runs it on GitHub's runners). Each page lists every address it has
+# lived at; their Wayback Machine captures are merged in date order. Entries
+# with `discover:` list every archived address under a prefix instead, to find
+# old addresses and the right help articles.
+#
+# Covers, for both companies: usage policies, terms, privacy policies,
+# pricing, usage-limit help pages and model-retirement pages.
+
+# --- OpenAI ---
+- id: openai-usage-policies
+  org: openai
+  urls:
+    - https://openai.com/policies/usage-policies/
+    - https://openai.com/policies/usage-policies
+    - https://openai.com/api/policies/usage-guidelines/
+    - https://beta.openai.com/docs/usage-policies
+    - https://platform.openai.com/docs/usage-policies
+- id: openai-terms-of-use
+  org: openai
+  urls:
+    - https://openai.com/policies/terms-of-use/
+    - https://openai.com/policies/terms-of-use
+    - https://openai.com/api/policies/terms/
+    - https://openai.com/terms/
+- id: openai-business-terms
+  org: openai
+  urls:
+    - https://openai.com/policies/business-terms/
+    - https://openai.com/policies/business-terms
+    - https://openai.com/policies/services-agreement/
+- id: openai-privacy-policy
+  org: openai
+  urls:
+    - https://openai.com/policies/privacy-policy/
+    - https://openai.com/policies/privacy-policy
+    - https://openai.com/api/policies/privacy/
+    - https://openai.com/privacy/
+- id: openai-row-privacy-policy
+  org: openai
+  urls:
+    - https://openai.com/policies/row-privacy-policy/
+    - https://openai.com/policies/row-privacy-policy
+- id: openai-enterprise-privacy
+  org: openai
+  urls:
+    - https://openai.com/enterprise-privacy/
+    - https://openai.com/enterprise-privacy
+- id: openai-data-controls-faq
+  org: openai
+  urls:
+    - https://help.openai.com/en/articles/7730893-data-controls-faq
+    - https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance
+- id: openai-api-your-data
+  org: openai
+  urls:
+    - https://developers.openai.com/api/docs/guides/your-data
+    - https://platform.openai.com/docs/guides/your-data
+    - https://platform.openai.com/docs/models/how-we-use-your-data
+    - https://openai.com/policies/api-data-usage-policies
+- id: openai-api-pricing
+  org: openai
+  urls:
+    - https://openai.com/api/pricing/
+    - https://openai.com/api/pricing
+    - https://openai.com/pricing
+    - https://openai.com/pricing/
+    - https://platform.openai.com/docs/pricing
+- id: openai-chatgpt-pricing
+  org: openai
+  urls:
+    - https://openai.com/chatgpt/pricing/
+    - https://openai.com/chatgpt/pricing
+- id: openai-rate-limits
+  org: openai
+  urls:
+    - https://platform.openai.com/docs/guides/rate-limits
+    - https://developers.openai.com/api/docs/guides/rate-limits
+- id: openai-deprecations
+  org: openai
+  urls:
+    - https://platform.openai.com/docs/deprecations
+    - https://platform.openai.com/docs/deprecations/
+    - https://developers.openai.com/api/docs/deprecations
+- id: openai-discover-policies
+  org: openai
+  discover: openai.com/policies/
+- id: openai-discover-help
+  org: openai
+  discover: help.openai.com/en/articles/
+
+# --- Anthropic ---
+# Anthropic also keeps every superseded version of its legal pages under
+# /legal/archive/; those were pulled directly. The Wayback history here covers
+# the years before that archive starts and the pages it doesn't include.
+- id: anthropic-usage-policy
+  org: anthropic
+  urls:
+    - https://www.anthropic.com/legal/aup
+    - https://www.anthropic.com/aup
+    - https://console.anthropic.com/legal/aup
+- id: anthropic-consumer-terms
+  org: anthropic
+  urls:
+    - https://www.anthropic.com/legal/consumer-terms
+    - https://console.anthropic.com/legal/terms
+    - https://www.anthropic.com/terms
+- id: anthropic-commercial-terms
+  org: anthropic
+  urls:
+    - https://www.anthropic.com/legal/commercial-terms
+    - https://console.anthropic.com/legal/commercial-terms
+- id: anthropic-privacy
+  org: anthropic
+  urls:
+    - https://www.anthropic.com/legal/privacy
+    - https://www.anthropic.com/privacy
+    - https://console.anthropic.com/legal/privacy
+- id: anthropic-pricing
+  org: anthropic
+  urls:
+    - https://www.anthropic.com/pricing
+    - https://claude.com/pricing
+    - https://www.claude.com/pricing
+- id: anthropic-api-pricing
+  org: anthropic
+  urls:
+    - https://docs.anthropic.com/en/docs/about-claude/pricing
+    - https://docs.claude.com/en/docs/about-claude/pricing
+    - https://platform.claude.com/docs/en/about-claude/pricing
+    - https://www.anthropic.com/api
+- id: anthropic-rate-limits
+  org: anthropic
+  urls:
+    - https://docs.anthropic.com/en/api/rate-limits
+    - https://docs.claude.com/en/api/rate-limits
+    - https://platform.claude.com/docs/en/api/rate-limits
+- id: anthropic-deprecations
+  org: anthropic
+  urls:
+    - https://docs.anthropic.com/en/docs/resources/model-deprecations
+    - https://docs.anthropic.com/en/docs/about-claude/model-deprecations
+    - https://docs.claude.com/en/docs/about-claude/model-deprecations
+    - https://platform.claude.com/docs/en/about-claude/model-deprecations
+- id: anthropic-pro-usage
+  org: anthropic
+  urls:
+    - https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage
+    - https://support.claude.com/en/articles/8324991-about-claude-pro-usage
+- id: anthropic-max-usage
+  org: anthropic
+  urls:
+    - https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage
+    - https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage
+- id: anthropic-claude-code-plans
+  org: anthropic
+  urls:
+    - https://support.anthropic.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan
+    - https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan
+- id: anthropic-discover-support
+  org: anthropic
+  discover: support.anthropic.com/en/articles/
+- id: anthropic-discover-claude-support
+  org: anthropic
+  discover: support.claude.com/en/articles/

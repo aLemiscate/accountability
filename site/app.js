@@ -32,7 +32,16 @@
     directional: 'States a direction or value, with no mechanism.',
     aspirational: 'A mission-level aim that cannot be failed as written.',
   };
-  const VIEWS = ['receipts', 'timeline', 'patterns', 'watchlist', 'method'];
+  const VIEWS = ['receipts', 'timeline', 'patterns', 'watchlist', 'commitments', 'method'];
+  const GRADE_LABEL = { kept: 'Kept', standing: 'Standing', eroded: 'Eroded', broken: 'Broken', unknown: 'Unknown' };
+  const GRADE_CLASS = { kept: 's-kept', standing: 's-open', eroded: 's-eroded', broken: 's-broken', unknown: 's-unknown' };
+  const GRADE_DEF = {
+    kept: 'Met, with evidence an outsider can check.',
+    standing: 'Still in force, and nothing public shows it broken.',
+    eroded: 'Dropped, weakened or only partly met.',
+    broken: 'Not honored.',
+    unknown: 'Cannot be checked from outside the company.',
+  };
   const DAY = 86400000;
   const NOW = Date.now();
 
@@ -420,6 +429,50 @@
     return frag;
   }
 
+  const gradePill = (g) => h('span', { class: `pill ${GRADE_CLASS[g] || ''}`, title: GRADE_DEF[g] }, GRADE_LABEL[g] || g);
+  const keptLine = (t) => t && `${t.kept} of ${t.total} kept`;
+  const restLine = (t) => t && ['standing', 'eroded', 'broken', 'unknown'].filter((g) => t[g]).map((g) => `${t[g]} ${g}`).join(' · ');
+
+  function renderCommitments() {
+    const orgs = state.org === 'all' ? ['openai', 'anthropic'] : [state.org];
+    const docs = (D.commitments || []).filter((d) => d.parties.some((o) => orgs.includes(o)));
+    const frag = [viewHead('Commitments',
+      'Every individual commitment in the formal documents each company signed or published, graded for each company: kept, standing (in force, with nothing public showing it broken), eroded, broken, or unknown when it can’t be checked from outside. An entry is written only where a result is notable.')];
+    if (!docs.length) return [...frag, empty()];
+    const total = Object.fromEntries(orgs.map((o) => [o, { total: 0, kept: 0, standing: 0, eroded: 0, broken: 0, unknown: 0 }]));
+    for (const d of docs) for (const o of orgs) for (const [k, v] of Object.entries(d.tally?.[o] || {})) total[o][k] += v;
+    const cell = (t) => (t ? h('td', null, h('span', { class: 'ck' }, keptLine(t)), h('span', { class: 'cr' }, restLine(t))) : h('td', { class: 'na' }, 'not a party'));
+    frag.push(h('div', { class: 'ctable-wrap' }, h('table', { class: 'ctable' },
+      h('thead', null, h('tr', null, h('th', { scope: 'col' }, 'Document'), orgs.map((o) => h('th', { scope: 'col' }, orgName(o))))),
+      h('tbody', null, docs.map((d) => h('tr', null,
+        h('th', { scope: 'row' }, h('a', { href: `#c-${d.id}`, onclick: (ev) => { ev.preventDefault(); document.getElementById(`c-${d.id}`)?.scrollIntoView({ block: 'start' }); } }, d.title)),
+        orgs.map((o) => cell(d.tally?.[o]))))),
+      h('tfoot', null, h('tr', null, h('th', { scope: 'row' }, 'All documents'), orgs.map((o) => cell(total[o])))),
+    )));
+    frag.push(h('p', { class: 'cnote' }, 'Documents differ in length and in how much can be checked from outside, so counts across documents are not a score. Read the evidence.'));
+    for (const d of docs) {
+      frag.push(h('section', { class: 'cdoc', id: `c-${d.id}` },
+        h('h3', null, d.title),
+        h('div', { class: 'pbrief-meta' }, h('span', null, fmtDate(d.date)), h('span', { class: 'pbrief-orgs' }, d.parties.map(orgTag)),
+          d.parties.filter((o) => orgs.includes(o)).map((o) => h('span', null, `${orgName(o)}: ${keptLine(d.tally?.[o])}`))),
+        d.summary && h('p', null, d.summary),
+        h('details', null,
+          h('summary', null, `The ${d.commitments.length} commitments`),
+          h('ol', { class: 'clist' }, d.commitments.map((c) => h('li', { class: 'citem' },
+            h('div', { class: 'cmeta' }, [c.section, c.versions].filter(Boolean).join(' · ')),
+            h('blockquote', null, c.text),
+            orgs.filter((o) => c.grades?.[o]).map((o) => h('div', { class: 'cgrade' },
+              h('div', { class: 'side-head' }, orgTag(o), gradePill(c.grades[o].grade)),
+              h('p', null, c.grades[o].evidence),
+              (c.grades[o].entries || []).length > 0 && h('div', { class: 'hits' }, linkList(c.grades[o].entries, 'see')),
+              (c.grades[o].sources || []).length > 0 && sourceList(c.grades[o].sources),
+            )))))),
+        h('details', null, h('summary', null, 'Sources'), sourceList(d.sources)),
+      ));
+    }
+    return frag;
+  }
+
   function renderMethod() {
     const repo = D.site.repo;
     return [
@@ -604,6 +657,7 @@
     timeline: D.entries.length,
     patterns: D.patterns.length,
     watchlist: D.entries.filter((e) => e.status === 'open' || e.status === 'kept').length,
+    commitments: (D.commitments || []).reduce((n, d) => n + d.commitments.length, 0),
   };
   tabs.replaceChildren(...VIEWS.map((v) => h('button', {
     class: 'tab', type: 'button', role: 'tab', id: `tab-${v}`, 'aria-selected': 'false', 'aria-controls': 'view',
@@ -652,7 +706,7 @@
 
   function render() {
     syncControls();
-    const renderers = { receipts: renderReceipts, timeline: renderTimeline, patterns: renderPatterns, watchlist: renderWatchlist, method: renderMethod };
+    const renderers = { receipts: renderReceipts, timeline: renderTimeline, patterns: renderPatterns, watchlist: renderWatchlist, commitments: renderCommitments, method: renderMethod };
     view.replaceChildren(...[renderers[state.view]()].flat().filter(Boolean));
   }
 
@@ -665,7 +719,7 @@
     s.median_gap_days != null && h('div', { class: 'stat' }, h('span', { class: 'stat-n' }, fmtSpan(s.median_gap_days)), h('span', { class: 'label' }, 'Median time, word to deed')),
   );
 
-  // ── routing: #receipts, #timeline, #patterns, #watchlist, #method, #e-<id>, #p-<pattern>
+  // ── routing: #receipts, #timeline, #patterns, #watchlist, #commitments, #method, #e-<id>, #p-<pattern>
   function fromHash() {
     const hash = decodeURIComponent(location.hash.slice(1));
     if (hash.startsWith('e-') && byId.has(hash.slice(2))) {

@@ -1,0 +1,615 @@
+title: Anthropic's Responsible Scaling Policy (all versions)
+date: 2023-09-19
+parties: [anthropic]
+summary: >-
+  Anthropic's own framework for catastrophic risk, in nine versions from 1.0
+  (September 2023) to 3.4 (July 2026). Version 2.0 rewrote the first; version
+  3.0 rewrote it again, replacing hard limits on training and deployment with
+  Risk Reports, a public Frontier Safety Roadmap and commitments that depend on
+  what competitors do. Every version was read: 1.0, 2.0 and 3.0 in full, and
+  each of the six minor versions by comparing it in full against the one before.
+  Each commitment below is quoted from the version named in its "versions" field
+  and graded over the time it was in force. A commitment a later version dropped
+  or weakened is graded "eroded", even if it was met while it lasted; the
+  evidence says which. Much of the policy is internal process that can't be
+  checked from outside.
+sources:
+  - title: Anthropic's Responsible Scaling Policy (version history)
+    publisher: Anthropic
+    url: https://www.anthropic.com/responsible-scaling-policy
+    type: primary
+    snapshot: snapshots/2026-09-29-anthropic.com-afe1e125
+  - title: Anthropic's Responsible Scaling Policy, Version 1.0 (PDF)
+    publisher: Anthropic
+    url: https://www-cdn.anthropic.com/1adf000c8f675958c2ee23805d91aaade1cd4613/responsible-scaling-policy.pdf
+    date: 2023-09-19
+    type: primary
+    snapshot: snapshots/2026-10-07-www-cdn.anthropic.com-de9196c5
+  - title: Responsible Scaling Policy, effective October 15, 2024 (PDF; version 2.0)
+    publisher: Anthropic
+    url: https://www-cdn.anthropic.com/616dee633636e5bd309cb73aed8622e80fe47839.pdf
+    date: 2024-10-15
+    type: primary
+    snapshot: snapshots/2026-10-07-www-cdn.anthropic.com-eb4d04e1
+  - title: Responsible Scaling Policy, Version 2.1 (PDF)
+    publisher: Anthropic
+    url: https://www-cdn.anthropic.com/17310f6d70ae5627f55313ed067afc1a762a4068.pdf
+    date: 2025-03-31
+    type: primary
+    snapshot: snapshots/2026-10-07-www-cdn.anthropic.com-507fa3bf
+  - title: Responsible Scaling Policy, Version 2.2 (PDF)
+    publisher: Anthropic
+    url: https://www-cdn.anthropic.com/872c653b2d0501d6ab44cf87f43e1dc4853e4d37.pdf
+    date: 2025-05-14
+    type: primary
+    snapshot: snapshots/2026-10-07-www-cdn.anthropic.com-7ccf80f6
+  - title: Responsible Scaling Policy, Version 3.0 (PDF)
+    publisher: Anthropic
+    url: https://anthropic.com/responsible-scaling-policy/rsp-v3-0
+    date: 2026-02-24
+    type: primary
+    snapshot: snapshots/2026-10-07-anthropic.com-1075dd71
+  - title: Responsible Scaling Policy, Version 3.1 (PDF)
+    publisher: Anthropic
+    url: https://www-cdn.anthropic.com/files/4zrzovbb/website/bf04581e4f329735fd90634f6a1962c13c0bd351.pdf
+    date: 2026-04-02
+    type: primary
+    snapshot: snapshots/2026-10-07-www-cdn.anthropic.com-40cdfd00
+  - title: Responsible Scaling Policy, Version 3.2 (PDF)
+    publisher: Anthropic
+    url: https://www-cdn.anthropic.com/files/4zrzovbb/website/28c6241900d90410628a8a2003a5572faae4365a.pdf
+    date: 2026-04-29
+    type: primary
+    snapshot: snapshots/2026-10-07-www-cdn.anthropic.com-9fb41d7a
+  - title: Responsible Scaling Policy, Version 3.3 (PDF)
+    publisher: Anthropic
+    url: https://www-cdn.anthropic.com/files/4zrzovbb/website/c11e84981d0a7281a1b229f3fa6af0da66eaf43f.pdf
+    date: 2026-05-26
+    type: primary
+    snapshot: snapshots/2026-10-07-www-cdn.anthropic.com-39713680
+  - title: Responsible Scaling Policy, Version 3.4 (PDF)
+    publisher: Anthropic
+    url: https://www-cdn.anthropic.com/files/4zrzovbb/website/0bacdc8440ea96e62a8766d99ebe1d4eea6d5f3a.pdf
+    date: 2026-07-08
+    type: primary
+    snapshot: snapshots/2026-10-07-www-cdn.anthropic.com-7fb02892
+entries:
+  [
+    2023-09-19-rsp-pause-commitment,
+    2025-05-14-rsp-v2-2-insider-exclusion,
+    2026-02-24-rsp-v3-drops-pause,
+    2026-02-24-rsp-v3-graded-goals,
+    2026-05-26-rsp-v3-3-bio-threshold
+  ]
+commitments:
+  - id: pause-training
+    versions: 1.0 to 2.2 (dropped in 3.0)
+    section: 'v1.0: Initial Commitments, item 4'
+    text: >-
+      We commit to pause training before a model's capability level outstrips
+      the Containment Measures we have implemented.
+    grades:
+      anthropic:
+        grade: eroded
+        evidence: >-
+          Version 2.0 kept the substance ("we will restrict model deployment and
+          further scaling" if the safeguards can't be shown), and version 3.0
+          dropped it, replacing it with commitments that depend on competitors.
+          While it was in force, Anthropic switched on ASL-3 protections before
+          releasing Claude Opus 4, but its August 2026 Risk Report disclosed
+          that the bioweapon classifiers had not run on contractor traffic for
+          the following 11 months.
+        entries:
+          [
+            2023-09-19-rsp-pause-commitment,
+            2026-02-24-rsp-v3-drops-pause,
+            2025-05-22-asl-3-protections-activated,
+            2026-08-14-risk-report-classifier-gap
+          ]
+  - id: define-next-level
+    versions: 1.0 to 2.0 (dropped in 2.1)
+    section: 'v1.0: Initial Commitments, item 3'
+    text: >-
+      We commit to define ASL-4 evaluations before we first train ASL-3 models
+      (i.e. before continuing training beyond when ASL-3 evaluations are
+      triggered).
+    grades:
+      anthropic:
+        grade: eroded
+        evidence: >-
+          Version 2.1, seven weeks before ASL-3 protections were first switched
+          on, added thresholds a level up (CBRN-4, AI R&D-4 and AI R&D-5) but
+          said Anthropic had "decided not to maintain a commitment to define
+          ASL-N+1 evaluations by the time we develop ASL-N models." It said the
+          safeguards for CBRN-4 would be described "in a future update."
+        sources:
+          - title: Responsible Scaling Policy, Version 2.1 (PDF), changelog
+            publisher: Anthropic
+            url: https://www-cdn.anthropic.com/17310f6d70ae5627f55313ed067afc1a762a4068.pdf
+            date: 2025-03-31
+            type: primary
+            snapshot: snapshots/2026-10-07-www-cdn.anthropic.com-507fa3bf
+  - id: three-month-evaluations
+    versions: 1.0 (six months from 2.0)
+    section: 'v1.0: Evaluation Protocol, timing'
+    text: >-
+      During model training and fine-tuning, Anthropic will conduct an
+      evaluation of its models for next-ASL capabilities both (1) after every 4x
+      jump in effective compute, including if this occurs mid-training, and (2)
+      every 3 months to monitor fine-tuning/tooling/etc improvements.
+    grades:
+      anthropic:
+        grade: broken
+        evidence: >-
+          Anthropic disclosed in October 2024 that its most recent evaluations
+          "were completed 3 days later than the 3-month interval." Version 2.0
+          lengthened the interval to six months.
+        sources:
+          - title: Anthropic's Responsible Scaling Policy (version history), "Learning from
+              Experience"
+            publisher: Anthropic
+            url: https://www.anthropic.com/responsible-scaling-policy
+            type: primary
+            snapshot: snapshots/2026-09-29-anthropic.com-afe1e125
+  - id: safety-buffer
+    versions: 1.0 (dropped in 2.0)
+    section: 'v1.0: Evaluation Protocol'
+    text: >-
+      We have aimed to set the size of our safety buffer to 6x (larger than our
+      4x evaluation interval) so model training can continue safely while
+      evaluations take place.
+    grades:
+      anthropic:
+        grade: broken
+        evidence: >-
+          Anthropic disclosed that its "evaluations in one domain were not
+          explicitly designed to establish the 6x scaling buffer," and dropped
+          the buffer in version 2.0, saying the science could not yet support
+          one.
+        sources:
+          - title: Anthropic's Responsible Scaling Policy (version history), "Learning from
+              Experience"
+            publisher: Anthropic
+            url: https://www.anthropic.com/responsible-scaling-policy
+            type: primary
+            snapshot: snapshots/2026-09-29-anthropic.com-afe1e125
+  - id: full-elicitation
+    versions: 1.0 to 2.2
+    section: 'v1.0: Evaluation Protocol, investment in evaluations'
+    text: >-
+      However, it is important that we are evaluating models with close to our
+      best capabilities elicitation techniques, to avoid underestimating the
+      capabilities it would be possible for a malicious actor to elicit if the
+      model were stolen.
+    grades:
+      anthropic:
+        grade: broken
+        evidence: >-
+          Anthropic disclosed that under version 1.0 "some of our evaluations
+          lacked some basic elicitation techniques such as best-of-N or
+          chain-of-thought prompting," judging the risk of substantial
+          under-elicitation low. No later lapse was found.
+        sources:
+          - title: Anthropic's Responsible Scaling Policy (version history), "Learning from
+              Experience"
+            publisher: Anthropic
+            url: https://www.anthropic.com/responsible-scaling-policy
+            type: primary
+            snapshot: snapshots/2026-09-29-anthropic.com-afe1e125
+  - id: model-cards
+    versions: 1.0 to 2.2 (system cards and Risk Reports from 3.0)
+    section: 'v2.0: Appendix B, ASL-2 Deployment Standard'
+    text: >-
+      Publication of model cards for significant new models describing
+      capabilities, limitations, evaluations, and intended use cases.
+    grades:
+      anthropic:
+        grade: kept
+        evidence: >-
+          Anthropic published a model or system card for each significant model
+          in this record, including Claude Opus 4.5, Opus 4.6 and Fable 5.1.
+        entries: [2025-11-24-sabotage-risk-reports-commitment, 2026-02-opus-4-6-ai-rd-survey]
+  - id: usage-policy-and-reporting
+    versions: 1.0 to 2.2
+    section: 'v2.0: Appendix B, ASL-2 Deployment Standard'
+    text: >-
+      Clearly indicated paths within the product for users to report harmful or
+      dangerous model outputs, as well as a bug bounty for universal jailbreaks.
+    grades:
+      anthropic:
+        grade: standing
+        evidence: >-
+          Anthropic has in-product and email reporting paths (it described them
+          to Thorn) and refers in version 3.0 to its "established bug bounty
+          programs." No gap was found.
+  - id: asl3-security
+    versions: 1.0 to 2.2 (kept as "ASL-3 protections" in 3.x)
+    section: 'v2.0: 4.2, ASL-3 Security Standard'
+    text: >-
+      When a model must meet the ASL-3 Security Standard, we will evaluate
+      whether the measures we have implemented make us highly protected against
+      most attackers’ attempts at stealing model weights.
+    grades:
+      anthropic:
+        grade: eroded
+        evidence: >-
+          Version 2.2 took sophisticated insiders out of the standard eight days
+          before Anthropic switched it on for Claude Opus 4. No theft of
+          Anthropic weights has been reported; contractors reached Mythos
+          Preview through a platform flaw in April 2026.
+        entries:
+          [
+            2025-05-14-rsp-v2-2-insider-exclusion,
+            2025-05-22-asl-3-protections-activated,
+            2026-08-14-risk-report-classifier-gap
+          ]
+  - id: asl3-deployment
+    versions: 2.0 to 3.4
+    section: 'v3.0: section 1, non-novel chemical/biological weapons'
+    text: >-
+      We will maintain or improve on our ASL-3 protections, which include
+      classifier guards at least as robust as our initial Constitutional
+      Classifiers; access controls for trusted users with exemptions to
+      classifier guards; red-teaming, bug bounties, and threat intelligence for
+      continually assessing the threat of jailbreaks; and a number of noteworthy
+      security controls.
+    grades:
+      anthropic:
+        grade: broken
+        evidence: >-
+          By Anthropic's own disclosure, the bioweapon classifiers did not run
+          on traffic from about 50,000 contractors from May 2025 to April 2026,
+          and logging was off with them. Where safeguards were reduced for
+          trusted users, version 2.0 required "an alternative set of controls"
+          giving "equivalent levels of assurance"; Anthropic said it had not
+          treated these platforms as a risk surface at all. It found no evidence
+          of misuse and has fixed the gap.
+        entries:
+          [
+            2026-08-14-risk-report-classifier-gap,
+            2025-05-22-asl-3-protections-activated
+          ]
+  - id: vulnerability-response
+    versions: 1.0 to 3.4
+    section: 'v1.0: ASL-3 Deployment Measures'
+    text: >-
+      When informed of a newly discovered model vulnerability enabling
+      catastrophic harm (e.g. a jailbreak or a detection failure), we commit to
+      mitigate or patch it promptly (e.g. 50% of the time in which catastrophic
+      harm could realistically occur).
+    grades:
+      anthropic:
+        grade: standing
+        evidence: >-
+          When Amazon researchers reported a way around Claude Fable 5's
+          safeguards in June 2026, the models were pulled for all users within
+          days, under a government export-control order. How quickly other
+          reported jailbreaks were patched isn't public.
+        entries: [2026-06-12-fable-5-export-control-suspension]
+  - id: update-process
+    versions: 1.0 to 3.4
+    section: 'v2.0: 7.1, policy changes'
+    text: >-
+      We will update the public version of the RSP before any changes take
+      effect and record any differences from the prior draft in a change log.
+    grades:
+      anthropic:
+        grade: kept
+        evidence: >-
+          Every version was published by its effective date with a change log,
+          and from 2.2 on with a redline. One change went unlisted: version 3.1
+          narrowed which internal models a Risk Report must cover, a change its
+          change log doesn't mention but its redline shows. Board approval and
+          consultation with the Long-Term Benefit Trust are internal and can't
+          be checked.
+        sources:
+          - title: Anthropic's Responsible Scaling Policy (version history)
+            publisher: Anthropic
+            url: https://www.anthropic.com/responsible-scaling-policy
+            type: primary
+            snapshot: snapshots/2026-09-29-anthropic.com-afe1e125
+  - id: plan-for-pause
+    versions: 1.0 to 2.2 (dropped in 3.0)
+    section: 'v1.0: Procedural Commitments, item 4'
+    text: >-
+      We will manage our plans and finances to support a pause in model training
+      if one proves necessary, or an extended delay between training and
+      deployment of more advanced models if that proves necessary.
+    grades:
+      anthropic:
+        grade: eroded
+        evidence: >-
+          Version 2.0 reduced this to setting "expectations with internal
+          stakeholders about the potential for such pauses," and version 3.0
+          dropped it with the pause commitment. Whether finances were ever
+          planned this way isn't public.
+        entries: [2026-02-24-rsp-v3-drops-pause]
+  - id: readiness-exercises
+    versions: 1.0 to 2.2 (dropped in 3.0)
+    section: 'v2.0: 7.1, readiness'
+    text: >-
+      We will develop internal safety procedures for incident scenarios.
+    grades:
+      anthropic:
+        grade: eroded
+        evidence: >-
+          Version 2.0 also said "We will run exercises to ensure our readiness
+          for incident scenarios." Version 3.0's governance section drops the
+          readiness commitment. Whether exercises were held isn't public.
+        sources:
+          - title: Responsible Scaling Policy, Version 3.0 (PDF), section 4
+            publisher: Anthropic
+            url: https://anthropic.com/responsible-scaling-policy/rsp-v3-0
+            date: 2026-02-24
+            type: primary
+            snapshot: snapshots/2026-10-07-anthropic.com-1075dd71
+  - id: distribution-partners
+    versions: 1.0 to 2.2
+    section: 'v1.0: Procedural Commitments, item 2'
+    text: >-
+      Distribution partnership contracts will be verified for compatibility with
+      the ASL system and must have a mechanism to bind the partner's use of
+      Anthropic models to the same or similar safety measures as Anthropic (e.g.
+      similar security measures) in order to address catastrophic risks.
+    grades:
+      anthropic:
+        grade: unknown
+        evidence: >-
+          The contracts aren't public. Version 2.0 recast this as documenting
+          how models deployed in partners' environments meet the standards.
+  - id: rso-and-board-reporting
+    versions: 1.0 to 3.4
+    section: 'v1.0: Procedural Commitments, item 7'
+    text: >-
+      There is a designated member of staff responsible for ensuring that our
+      Responsible Scaling Commitments are executed properly. Each quarter, they
+      will share a report on implementation status to our board and LTBT,
+      explicitly noting any deficiencies in implementation.
+    grades:
+      anthropic:
+        grade: unknown
+        evidence: >-
+          Every version keeps a Responsible Scaling Officer. Reports to the
+          board and Long-Term Benefit Trust are internal.
+  - id: noncompliance-reporting
+    versions: 1.0 to 3.4
+    section: 'v2.0: 7.1, noncompliance'
+    text: >-
+      We will maintain a process through which Anthropic staff may anonymously
+      notify the Responsible Scaling Officer of any potential instances of
+      noncompliance with this policy. We will also establish a policy governing
+      noncompliance reporting, which will (1) protect reporters from retaliation
+      and (2) set forth a mechanism for escalating reports to one or more
+      members of the Board of Directors in cases where the report relates to
+      conduct of the Responsible Scaling Officer.
+    grades:
+      anthropic:
+        grade: kept
+        evidence: >-
+          Anthropic published its RSP Noncompliance Reporting and
+          Anti-Retaliation Policy and an expanded version in March 2026. Whether
+          it works in practice can't be seen from outside.
+        sources:
+          - title: Anthropic's Responsible Scaling Policy (version history)
+            publisher: Anthropic
+            url: https://www.anthropic.com/responsible-scaling-policy
+            type: primary
+            snapshot: snapshots/2026-09-29-anthropic.com-afe1e125
+  - id: noncompliance-disclosure
+    versions: 2.0 to 2.2 (optional from 3.0)
+    section: 'v2.0: 7.2, public disclosures'
+    text: >-
+      We will also periodically release information on internal reports of
+      potential instances of non-compliance and other implementation challenges
+      we encounter.
+    grades:
+      anthropic:
+        grade: eroded
+        evidence: >-
+          Anthropic's October 2024 review disclosed four shortfalls under
+          version 1.0. Version 3.0 changed the duty to "we may provide public
+          notice" of substantiated reports that involve a material safety risk.
+          Its Risk Reports do report deviations from described safeguards.
+        entries: [2026-08-14-risk-report-classifier-gap]
+        sources:
+          - title: Responsible Scaling Policy, Version 3.0 (PDF), section 4
+            publisher: Anthropic
+            url: https://anthropic.com/responsible-scaling-policy/rsp-v3-0
+            date: 2026-02-24
+            type: primary
+            snapshot: snapshots/2026-10-07-anthropic.com-1075dd71
+  - id: employee-agreements
+    versions: 2.0 to 3.4
+    section: 'v2.0: 7.1, employee agreements'
+    text: >-
+      We will not impose contractual non-disparagement obligations on employees,
+      candidates, or former employees in a way that could impede or discourage
+      them from publicly raising safety concerns about Anthropic.
+    grades:
+      anthropic:
+        grade: standing
+        evidence: >-
+          No case since October 2024 was found. Anthropic's earlier use of
+          non-disparagement terms, disclosed in mid-2024, came before this
+          commitment.
+        entries: [2024-07-anthropic-non-disparagement]
+  - id: public-disclosures
+    versions: 1.0 to 3.4
+    section: 'v2.0: 7.2, public disclosures'
+    text: >-
+      We will publicly release key information related to the evaluation and
+      deployment of our models (not including sensitive details).
+    grades:
+      anthropic:
+        grade: kept
+        evidence: >-
+          System cards report the RSP determinations for each frontier release,
+          and from 2026 Anthropic publishes redacted Risk Reports and sabotage
+          risk reports.
+        entries:
+          [
+            2025-11-24-sabotage-risk-reports-commitment,
+            2026-02-opus-4-6-ai-rd-survey,
+            2026-08-14-risk-report-classifier-gap
+          ]
+  - id: expert-input
+    versions: 2.0 to 3.4
+    section: 'v2.0: 7.2, expert input'
+    text: >-
+      We will solicit input from external experts in relevant domains in the
+      process of developing and conducting capability and safeguards
+      assessments.
+    grades:
+      anthropic:
+        grade: kept
+        evidence: >-
+          US and UK government institutes tested models before release, and
+          Anthropic ran pilot external reviews of its Risk Reports with METR (AI
+          R&D) and SecureBio (biological and chemical risks).
+        entries: [2024-08-29-anthropic-aisi-pre-release-testing]
+        sources:
+          - title: 'Risk Report: August 2026 (redacted), section 1.3.5'
+            publisher: Anthropic
+            url: https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf
+            date: 2026-08-14
+            type: primary
+            snapshot: snapshots/2026-09-29-www-cdn.anthropic.com-026a83da
+  - id: government-notice
+    versions: 2.0 to 2.2
+    section: 'v2.0: 7.2, U.S. Government notice'
+    text: >-
+      We will notify a relevant U.S. Government entity if a model requires
+      stronger protections than the ASL-2 Standard.
+    grades:
+      anthropic:
+        grade: unknown
+        evidence: >-
+          Claude Opus 4 required ASL-3 in May 2025. Whether and when a US agency
+          was notified isn't public.
+  - id: compliance-review
+    versions: 2.0 to 3.4
+    section: 'v2.0: 7.2, procedural compliance review'
+    text: >-
+      On approximately an annual basis, we will commission a third-party review
+      that assesses whether we adhered to this policy’s main procedural
+      commitments (we expect to iterate on the exact list since this has not
+      been done before for RSPs).
+    grades:
+      anthropic:
+        grade: unknown
+        evidence: >-
+          Two such reviews would be due by October 2026. The policy doesn't
+          require publishing them, and no review or reviewer has been named
+          publicly.
+  - id: risk-reports
+    versions: 3.0 to 3.4
+    section: 'v3.0: 3.1, timing'
+    text: >-
+      We will publish a Risk Report every 3-6 months.
+    grades:
+      anthropic:
+        grade: kept
+        evidence: >-
+          Risk Reports were published in February and August 2026, less than six
+          months apart. The Claude Fable 5.1 system card also relates that model
+          to the latest Risk Report, as version 3.0 requires for significantly
+          more capable releases.
+        entries: [2026-08-14-risk-report-classifier-gap]
+        sources:
+          - title: 'System Card: Claude Fable 5.1 & Claude Mythos 5.1'
+            publisher: Anthropic
+            url: https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf
+            date: 2026-09-01
+            type: primary
+            snapshot: snapshots/2026-10-03-www-cdn.anthropic.com-6ed6de1b
+  - id: report-deviations
+    versions: 3.0 to 3.4
+    section: 'v3.0: 3.2, general expectations'
+    text: >-
+      When a Risk Report describes risk mitigations we have in place (or plan to
+      implement shortly), we will keep our future practices in line with this
+      description or track and report noteworthy changes and deviations
+      (generally via subsequent Risk Reports).
+    grades:
+      anthropic:
+        grade: kept
+        evidence: >-
+          The August 2026 Risk Report disclosed the classifier gap and the
+          contractors' access to Mythos Preview, said its previous report had
+          not treated the feedback platforms as a risk surface, and raised its
+          own risk ratings.
+        entries: [2026-08-14-risk-report-classifier-gap]
+  - id: external-review
+    versions: 3.0 to 3.4
+    section: 'v3.0: 3.6, external review'
+    text: >-
+      At a minimum, we will complete a full external review process (described
+      below) with at least one external reviewer anytime a Risk Report covers
+      highly capable models and is significantly redacted, defined as follows:
+    grades:
+      anthropic:
+        grade: standing
+        evidence: >-
+          Anthropic says the requirement hasn't been triggered, and that the
+          Long-Term Benefit Trust, which may request a review since version 3.2,
+          hasn't asked for one. It has run pilot reviews of parts of its
+          reports.
+        sources:
+          - title: 'Risk Report: August 2026 (redacted), section 1.3.5'
+            publisher: Anthropic
+            url: https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf
+            date: 2026-08-14
+            type: primary
+            snapshot: snapshots/2026-09-29-www-cdn.anthropic.com-026a83da
+  - id: internal-transparency
+    versions: 3.0 to 3.4 (narrowed in 3.4)
+    section: 'v3.0: 4, internal transparency'
+    text: >-
+      We will share final, unredacted Risk Reports with Anthropic’s
+      regular-clearance staff.
+    grades:
+      anthropic:
+        grade: eroded
+        evidence: >-
+          Version 3.4 requires the unredacted reports to go to at least 200
+          employees instead, with all regular-clearance staff getting a
+          minimally redacted version. Anthropic gave its growth and the
+          sensitivity of some material as the reason.
+        sources:
+          - title: Anthropic's Responsible Scaling Policy (version history)
+            publisher: Anthropic
+            url: https://www.anthropic.com/responsible-scaling-policy
+            type: primary
+            snapshot: snapshots/2026-09-29-anthropic.com-afe1e125
+  - id: frontier-safety-roadmap
+    versions: 3.0 to 3.4
+    section: 'v3.0: 2, Frontier Safety Roadmap'
+    text: >-
+      We will maintain a Frontier Safety Roadmap laying out ambitious but
+      achievable goals for improving our risk mitigations—charting our progress
+      as a company and raising the bar over time.
+    grades:
+      anthropic:
+        grade: kept
+        evidence: >-
+          The roadmap is public and has been updated twice: in April 2026, two
+          goals were marked achieved, and in August Anthropic said it had
+          "mostly met" its goals, with one pushed back and one revised.
+        entries: [2026-02-24-rsp-v3-graded-goals]
+  - id: competitor-contingent
+    versions: 3.0 to 3.4
+    section: 'v3.0: Appendix A'
+    text: >-
+      We will require a strong argument that catastrophic risk is contained,
+      along the lines of our recommendations for industry-wide safety (see
+      Section 1). We will delay AI development and deployment as needed to
+      achieve this, until and unless we no longer believe we have a significant
+      lead.
+    grades:
+      anthropic:
+        grade: standing
+        evidence: >-
+          This applies only if Anthropic judges that it is clearly in the lead,
+          and it hasn't said that it is. In June 2026 it said it would pause if
+          other frontier developers did so verifiably.
+        entries: [2026-02-24-rsp-v3-drops-pause]

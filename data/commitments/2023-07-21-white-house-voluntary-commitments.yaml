@@ -25,9 +25,8 @@ commitments:
   - id: durability
     section: Preamble
     text: >-
-      Companies intend these voluntary commitments to remain in effect
-      until regulations covering substantially the same issues come into
-      force.
+      Companies intend these voluntary commitments to remain in effect until
+      regulations covering substantially the same issues come into force.
     grades:
       openai:
         grade: standing
@@ -45,10 +44,10 @@ commitments:
   - id: red-teaming
     section: 1. Red-teaming
     text: >-
-      Companies commit to advancing this area of research, and to
-      developing a multi-faceted, specialized, and detailed red-teaming
-      regime, including drawing on independent domain experts, for all
-      major public releases of new models within scope.
+      Companies commit to advancing this area of research, and to developing a
+      multi-faceted, specialized, and detailed red-teaming regime, including
+      drawing on independent domain experts, for all major public releases of
+      new models within scope.
     grades:
       openai:
         grade: eroded
@@ -69,56 +68,76 @@ commitments:
           Anthropic's system cards for its major releases describe external
           red-teaming and US and UK government pre-release testing; no major
           release in scope was found without it.
-        entries: [2024-08-29-anthropic-aisi-pre-release-testing, 2023-07-21-anthropic-white-house-commitments]
+        entries:
+          [
+            2024-08-29-anthropic-aisi-pre-release-testing,
+            2023-07-21-anthropic-white-house-commitments
+          ]
   - id: safety-research
     section: 1. Red-teaming
     text: >-
       To support these efforts, companies making this commitment commit to
-      advancing ongoing research in AI safety, including on the
-      interpretability of AI systems’ decision-making processes and on
-      increasing the robustness of AI systems against misuse.
+      advancing ongoing research in AI safety, including on the interpretability
+      of AI systems’ decision-making processes and on increasing the robustness
+      of AI systems against misuse.
     grades:
       openai:
         grade: kept
         evidence: >-
-          OpenAI has kept publishing safety research, including its 2025 work
-          on chain-of-thought monitoring and the $10 million Superalignment Fast
+          OpenAI has kept publishing safety research, including its 2025 work on
+          chain-of-thought monitoring and the $10 million Superalignment Fast
           Grants. Its separate pledge of 20% of compute to superalignment was
           broken; that is recorded in its own entry.
-        entries: [2025-03-10-cot-optimization-pressure, 2023-12-14-superalignment-fast-grants, 2023-07-05-superalignment-20-percent-compute]
+        entries:
+          [
+            2025-03-10-cot-optimization-pressure,
+            2023-12-14-superalignment-fast-grants,
+            2023-07-05-superalignment-20-percent-compute
+          ]
       anthropic:
         grade: kept
         evidence: >-
           Anthropic publishes interpretability and robustness research, and set
           a public interpretability goal for 2027.
-        entries: [2025-04-24-interpretability-2027-goal, 2025-02-03-classifiers-defend-universal-jailbreaks]
+        entries:
+          [
+            2025-04-24-interpretability-2027-goal,
+            2025-02-03-classifiers-defend-universal-jailbreaks
+          ]
   - id: disclose-procedures
     section: 1. Red-teaming
     text: >-
-      Similarly, companies commit to publicly disclosing their red-teaming
-      and safety procedures in their transparency reports (described
-      below).
+      Similarly, companies commit to publicly disclosing their red-teaming and
+      safety procedures in their transparency reports (described below).
     grades:
       openai:
         grade: eroded
         evidence: >-
-          Most major releases come with system cards describing red-teaming,
-          but GPT-4.1 shipped with none ("not a frontier model") and deep
-          research's card followed its launch by 23 days.
-        entries: [2025-04-14-gpt-4-1-no-system-card, 2025-02-02-deep-research-before-system-card]
+          Most major releases come with system cards describing red-teaming, but
+          GPT-4.1 shipped with none ("not a frontier model") and deep research's
+          card followed its launch by 23 days.
+        entries:
+          [
+            2025-04-14-gpt-4-1-no-system-card,
+            2025-02-02-deep-research-before-system-card
+          ]
       anthropic:
         grade: kept
         evidence: >-
           Anthropic has published a system card describing safety testing for
           each major release, including the hidden Fable 5 safeguards it later
           withdrew, which were disclosed in that model's system card.
-        entries: [2023-07-21-anthropic-white-house-commitments, 2026-06-09-fable-5-hidden-research-safeguards]
+        entries:
+          [
+            2023-07-21-anthropic-white-house-commitments,
+            2026-06-09-fable-5-hidden-research-safeguards
+          ]
   - id: forum
     section: 2. Information sharing
     text: >-
-      They commit to establish or join a forum or mechanism through which
-      they can develop, advance, and adopt shared standards and best
-      practices for frontier AI safety
+      They commit to establish or join a forum or mechanism through which they
+      can develop, advance, and adopt shared standards and best practices for
+      frontier AI safety
     grades:
       openai:
         grade: kept
@@ -146,10 +165,10 @@ commitments:
     section: 2. Information sharing
     text: >-
       The forum or mechanism can facilitate the sharing of information on
-      advances in frontier capabilities and emerging risks and threats,
-      such as attempts to circumvent safeguards ... In this work,
-      companies will engage closely with governments, including the U.S.
-      government, civil society, and academia, as appropriate.
+      advances in frontier capabilities and emerging risks and threats, such as
+      attempts to circumvent safeguards ... In this work, companies will engage
+      closely with governments, including the U.S. government, civil society,
+      and academia, as appropriate.
     grades:
       openai:
         grade: eroded
@@ -159,7 +178,12 @@ commitments:
           finding that its agents had broken into their systems; the public
           learned from Australia's prime minister. OpenAI said it "should have
           shared preliminary findings sooner."
-        entries: [2026-06-agents-breach-australian-government, 2024-08-29-aisi-pre-release-testing, 2026-09-16-misalignment-reporting-framework]
+        entries:
+          [
+            2026-06-agents-breach-australian-government,
+            2024-08-29-aisi-pre-release-testing,
+            2026-09-16-misalignment-reporting-framework
+          ]
       anthropic:
         grade: kept
         evidence: >-
@@ -168,16 +192,20 @@ commitments:
           governments pre-release access. Rep. Greg Casar called its answers to
           Congress on the incidents "insufficient," and one claim in them was
           later called "a mistake" by an Anthropic researcher.
-        entries: [2025-11-13-claude-code-espionage-campaign, 2026-07-30-claude-cyber-eval-incidents, 2024-08-29-anthropic-aisi-pre-release-testing]
+        entries:
+          [
+            2025-11-13-claude-code-espionage-campaign,
+            2026-07-30-claude-cyber-eval-incidents,
+            2024-08-29-anthropic-aisi-pre-release-testing
+          ]
   - id: weights-security
     section: 3. Cybersecurity and insider threats
     text: >-
-      Companies making this commitment will treat unreleased AI model
-      weights for models in scope as core intellectual property for their
-      business, especially with regards to cybersecurity and insider
-      threat risks. This includes limiting access to model weights to
-      those whose job function requires it and establishing a robust
-      insider threat detection program
+      Companies making this commitment will treat unreleased AI model weights
+      for models in scope as core intellectual property for their business,
+      especially with regards to cybersecurity and insider threat risks. This
+      includes limiting access to model weights to those whose job function
+      requires it and establishing a robust insider threat detection program
     grades:
       openai:
         grade: unknown
@@ -198,9 +226,9 @@ commitments:
     section: 4. Third-party discovery
     text: >-
       They commit to establishing for systems within scope bounty systems,
-      contests, or prizes to incent the responsible disclosure of
-      weaknesses, such as unsafe behaviors, or to include AI systems in
-      their existing bug bounty programs.
+      contests, or prizes to incent the responsible disclosure of weaknesses,
+      such as unsafe behaviors, or to include AI systems in their existing bug
+      bounty programs.
     grades:
       openai:
         grade: kept
@@ -231,13 +259,14 @@ commitments:
             url: https://www.anthropic.com/news/model-safety-bug-bounty
             date: 2024-08-08
             type: primary
+            snapshot: snapshots/2026-10-07-anthropic.com-fc3b154f
   - id: provenance
     section: 5. Provenance and watermarking
     text: >-
       they agree to develop robust mechanisms, including provenance and/or
-      watermarking systems for audio or visual content created by any of
-      their publicly available systems within scope introduced after the
-      watermarking system is developed.
+      watermarking systems for audio or visual content created by any of their
+      publicly available systems within scope introduced after the watermarking
+      system is developed.
     grades:
       openai:
         grade: kept
@@ -259,8 +288,8 @@ commitments:
   - id: detection-tools
     section: 5. Provenance and watermarking
     text: >-
-      They will also develop tools or APIs to determine if a particular
-      piece of content was created with their system.
+      They will also develop tools or APIs to determine if a particular piece of
+      content was created with their system.
     grades:
       openai:
         grade: kept
@@ -276,16 +305,14 @@ commitments:
       anthropic:
         grade: standing
         evidence: >-
-          Nothing in scope: Anthropic has no audio or visual generation
-          products.
+          Nothing in scope: Anthropic has no audio or visual generation products.
   - id: provenance-standards
     section: 5. Provenance and watermarking
     text: >-
-      companies making this commitment pledge to work with industry peers
-      and standards-setting bodies as appropriate towards developing a
-      technical framework to help users distinguish audio or visual
-      content generated by users from audio or visual content generated by
-      AI.
+      companies making this commitment pledge to work with industry peers and
+      standards-setting bodies as appropriate towards developing a technical
+      framework to help users distinguish audio or visual content generated by
+      users from audio or visual content generated by AI.
     grades:
       openai:
         grade: kept
@@ -308,12 +335,12 @@ commitments:
     section: 6. Public reporting
     text: >-
       They commit to publish reports for all new significant model public
-      releases within scope. These reports should include the safety
-      evaluations conducted ... significant limitations in performance
-      that have implications for the domains of appropriate use,
-      discussion of the model’s effects on societal risks such as fairness
-      and bias, and the results of adversarial testing conducted to
-      evaluate the model’s fitness for deployment.
+      releases within scope. These reports should include the safety evaluations
+      conducted ... significant limitations in performance that have
+      implications for the domains of appropriate use, discussion of the model’s
+      effects on societal risks such as fairness and bias, and the results of
+      adversarial testing conducted to evaluate the model’s fitness for
+      deployment.
     grades:
       openai:
         grade: eroded
@@ -334,12 +361,16 @@ commitments:
         evidence: >-
           Anthropic published system cards for its major releases and, since
           2025, sabotage risk reports for each frontier model.
-        entries: [2023-07-21-anthropic-white-house-commitments, 2025-11-24-sabotage-risk-reports-commitment]
+        entries:
+          [
+            2023-07-21-anthropic-white-house-commitments,
+            2025-11-24-sabotage-risk-reports-commitment
+          ]
   - id: societal-research
     section: 7. Societal risks
     text: >-
-      Prioritize research on societal risks posed by AI systems, including
-      on avoiding harmful bias and discrimination, and protecting privacy
+      Prioritize research on societal risks posed by AI systems, including on
+      avoiding harmful bias and discrimination, and protecting privacy
     grades:
       openai:
         grade: kept
@@ -364,14 +395,14 @@ commitments:
             url: https://www.anthropic.com/research/evaluating-and-mitigating-discrimination-in-language-model-decisions
             date: 2023-12-07
             type: primary
+            snapshot: snapshots/2026-10-07-anthropic.com-5a89de0e
         entries: [2025-02-anthropic-removes-white-house-commitments]
   - id: trust-and-safety
     section: 7. Societal risks
     text: >-
-      Companies commit generally to empowering trust and safety teams,
-      advancing AI safety research, advancing privacy, protecting
-      children, and working to proactively manage the risks of AI so that
-      its benefits can be realized.
+      Companies commit generally to empowering trust and safety teams, advancing
+      AI safety research, advancing privacy, protecting children, and working to
+      proactively manage the risks of AI so that its benefits can be realized.
     grades:
       openai:
         grade: eroded
@@ -397,17 +428,16 @@ commitments:
   - id: societal-challenges
     section: 8. Society's greatest challenges
     text: >-
-      Companies making this commitment agree to support research and
-      development of frontier AI systems that can help meet society’s
-      greatest challenges, such as climate change mitigation and
-      adaptation, early cancer detection and prevention, and combating
-      cyber threats.
+      Companies making this commitment agree to support research and development
+      of frontier AI systems that can help meet society’s greatest challenges,
+      such as climate change mitigation and adaptation, early cancer detection
+      and prevention, and combating cyber threats.
     grades:
       openai:
         grade: kept
         evidence: >-
-          OpenAI describes using its models to accelerate science, including
-          its Navier-Stokes work.
+          OpenAI describes using its models to accelerate science, including its
+          Navier-Stokes work.
         sources:
           - title: 'Research acceleration: The view inside OpenAI'
             publisher: OpenAI
@@ -425,14 +455,15 @@ commitments:
             url: https://www.anthropic.com/news/claude-for-life-sciences
             date: 2025-10-20
             type: primary
+            snapshot: snapshots/2026-10-07-anthropic.com-f1584024
         entries: [2026-04-07-glasswing-report-back]
   - id: education
     section: 8. Society's greatest challenges
     text: >-
-      Companies also commit to supporting initiatives that foster the
-      education and training of students and workers to prosper from the
-      benefits of AI, and to helping citizens understand the nature,
-      capabilities, limitations, and impact of the technology.
+      Companies also commit to supporting initiatives that foster the education
+      and training of students and workers to prosper from the benefits of AI,
+      and to helping citizens understand the nature, capabilities, limitations,
+      and impact of the technology.
     grades:
       openai:
         grade: kept
@@ -455,3 +486,4 @@ commitments:
             url: https://www.anthropic.com/news/introducing-claude-for-education
             date: 2025-04-02
             type: primary
+            snapshot: snapshots/2026-10-07-anthropic.com-6a45f0ea
