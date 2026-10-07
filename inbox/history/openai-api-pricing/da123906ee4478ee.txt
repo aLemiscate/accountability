@@ -1,0 +1,137 @@
+Show prices per 1K tokens
+API Pricing
+Start building (opens in a new window) Contact sales
+Our latest models
+Reasoning models for complex, multi-step problems
+OpenAI o1
+Frontier reasoning model that supports tools, Structured Outputs, and vision | 200k context length
+Price
+Input:
+$15.00 / 1M tokens
+Cached input:
+$7.50 / 1M tokens
+Output:
+$60.00 / 1M tokens
+OpenAI o3-mini
+Small cost-efficient reasoning model that’s optimized for coding, math, and science, and supports tools and Structured Outputs | 200k context length
+Price
+Input:
+$1.10 / 1M tokens
+Cached input:
+$0.55 / 1M tokens
+Output:
+$4.40 / 1M tokens
+Save 50% on inputs and outputs with the Batch API ⁠ (opens in a new window) and run tasks asynchronously over 24 hours.
+• Explore detailed pricing (opens in a new window)
+GPT models for everyday tasks
+GPT-4o
+High-intelligence model for complex tasks | 128k context length
+Price
+Input:
+$2.50 / 1M tokens
+Cached input:
+$1.25 / 1M tokens
+Output:
+$10.00 / 1M tokens
+GPT-4o mini
+Affordable small model for fast, everyday tasks | 128k context length
+Price
+Input:
+$0.150 / 1M tokens
+Cached input:
+$0.075 / 1M tokens
+Output:
+$0.600 / 1M tokens
+Save 50% on inputs and outputs with the Batch API ⁠ (opens in a new window) and run tasks asynchronously over 24 hours.
+Fine-tuning our models
+Customize our models to get even higher performance for your specific use cases.
+GPT-4o
+Fine-tuning price
+Input:
+$3.750 / 1M tokens
+Cached input:
+$1.875 / 1M tokens
+Output:
+$15.000 / 1M tokens
+Training:
+$25.000 / 1M tokens
+GPT-4o mini
+Fine-tuning price
+Input:
+$0.30 / 1M tokens
+Cached input:
+$0.15 / 1M tokens
+Output:
+$1.20 / 1M tokens
+Training:
+$3.00 / 1M tokens
+You can also fine-tune our legacy models ⁠ (opens in a new window) .
+• Explore detailed pricing (opens in a new window)
+Our APIs
+Realtime API
+Build low-latency, multimodal experiences including speech-to-speech.
+Text
+Text
+GPT-4o
+$5.00 / 1M input tokens
+$2.50 / 1M cached input tokens
+$20.00 / 1M output tokens
+GPT-4o
+$5.00 / 1M input tokens
+$2.50 / 1M cached input tokens
+$20.00 / 1M output tokens
+GPT-4o mini
+$0.60 / 1M input tokens
+$0.30 / 1M cached input tokens
+$2.40 / 1M output tokens
+GPT-4o mini
+$0.60 / 1M input tokens
+$0.30 / 1M cached input tokens
+$2.40 / 1M output tokens
+Audio
+Audio
+GPT-4o
+$40.00 / 1M input tokens
+$2.50 / 1M cached input tokens
+$80.00 / 1M output tokens
+GPT-4o
+$40.00 / 1M input tokens
+$2.50 / 1M cached input tokens
+$80.00 / 1M output tokens
+GPT-4o mini
+$10.00 / 1M input tokens
+$0.30 / 1M cached input tokens
+$20.00 / 1M output tokens
+GPT-4o mini
+$10.00 / 1M input tokens
+$0.30 / 1M cached input tokens
+$20.00 / 1M output tokens
+Assistants API
+Build assistant-like experiences with our tools.
+Price
+Assistants API is not priced separately. Tokens are billed at the chosen language model's input and output rates.
+The API supports GPT-4o and GPT-4o mini.
+Chat Completions API
+Build text-based conversational experiences.
+Price
+Chat Completions API is not priced separately. Tokens are billed at the chosen language model's input and output rates.
+The API supports GPT-4o, GPT-4o mini, o1, and o1-mini.
+• Explore detailed pricing (opens in a new window)
+FAQ
+Which model should I use?
+We recommend that developers use GPT‑4o or GPT‑4o mini for everyday tasks. GPT‑4o generally performs better on a wide range of tasks, while GPT‑4o mini is fast and inexpensive for simpler tasks. Our o1 reasoning models are ideal for complex, multi-step tasks and STEM use cases that require deep thinking about tough problems. We recommend experimenting with all of these models in the Playground ⁠ (opens in a new window) to explore which models provide the best price performance trade-off for your usage.
+Do you offer an enterprise package or SLAs?
+We offer different tiers of access to our enterprise customers that include SLAs, lower latency, and more. Please contact our sales team ⁠ to learn more.
+Will I be charged for API usage in the Playground?
+Yes, we treat Playground usage the same as regular API usage. You will be billed at the per-token input and output prices mentioned above.
+How will I know how many tokens I’ve used each month?
+A token is a mathematical representation of natural language. Log in to your account to view your usage tracking dashboard ⁠ (opens in a new window) . This dashboard will show you how many tokens you’ve used during the current and past billing cycles.
+How can I manage my spending on the API platform?
+You can set a monthly budget in your billing settings⁠ ⁠ (opens in a new window) , after which we’ll stop serving your requests. There may be a delay in enforcing the limit, and you are responsible for any overage incurred. You can also configure an email notification threshold to receive an email alert once you cross that threshold each month. We recommend checking your usage tracking dashboard ⁠ (opens in a new window) regularly to monitor your spend.
+For customers managing work with Projects, you can set and manage billing restrictions per project ⁠ (opens in a new window) ⁠ in the Dashboard.
+Is access to the API included in ChatGPT Plus, Team, Enterprise or Edu?
+No, OpenAI APIs are billed separately from ChatGPT Plus, Team, Enterprise and Edu. ChatGPT subscription pricing can be found at openai.com/chatgpt/pricing/ ⁠ .
+How is pricing calculated for images?
+Images are converted to text tokens and processed at the same text token prices.
+Start creating with OpenAI’s powerful models.
+Get started Contact sales

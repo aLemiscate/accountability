@@ -1,0 +1,404 @@
+{
+ "id": "anthropic-max-usage",
+ "org": "anthropic",
+ "urls": [
+  "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+  "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "error": "could not read the live page"
+  }
+ ],
+ "captures": [
+  {
+   "ts": "20250409175001",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "a0800ddf9f258720",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250413090417",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "a0800ddf9f258720",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250415025427",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "a0800ddf9f258720",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250506084719",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "fc2c8ef06e78d2d8",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250509151406",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "fc2c8ef06e78d2d8",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250511221040",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "6003e5ec3fc5c090",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250512170450",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "3d5675593cb8e8c7",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250520092522",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "6003e5ec3fc5c090",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250522055946",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "6003e5ec3fc5c090",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250603132215",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "18463d378defbb7f",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250611092539",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "2da5d75ac40d6af0",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250612090818",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "2da5d75ac40d6af0",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250616235619",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "2da5d75ac40d6af0",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250704134442",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "2da5d75ac40d6af0",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250718082019",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "66531849f7954b25",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250719123923",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "66531849f7954b25",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250725141546",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "66531849f7954b25",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250729144133",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "a95f7a99be3f417c",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250801171340",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "1b677e6c094e8248",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250804061147",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "1b677e6c094e8248",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250806030403",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "40d413d6a6633559",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250807011212",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "40d413d6a6633559",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250817211526",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "882bae12a581c3a9",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250904133649",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "4b2d51f53342cfa7",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250910111758",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "4a563f911cb9bd17",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250917095140",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "4a563f911cb9bd17",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250922190057",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "4a563f911cb9bd17",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250925130212",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "4a563f911cb9bd17",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250927142833",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "4a563f911cb9bd17",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20251001095229",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "62374cb5bde85248",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20251006054320",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "62374cb5bde85248",
+   "title": "About Claude's Max Plan Usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20251010210727",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "625d5dea6be1beb5",
+   "title": "About Claude's Max Plan Usage | Claude Help Center"
+  },
+  {
+   "ts": "20251013193727",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "625d5dea6be1beb5",
+   "title": "About Claude's Max Plan Usage | Claude Help Center"
+  },
+  {
+   "ts": "20251022172746",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "625d5dea6be1beb5",
+   "title": "About Claude's Max Plan Usage | Claude Help Center"
+  },
+  {
+   "ts": "20251028031620",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "625d5dea6be1beb5",
+   "title": "About Claude's Max Plan Usage | Claude Help Center"
+  },
+  {
+   "ts": "20251101081423",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "5caeb01513012d67",
+   "title": "About Claude's Max Plan Usage | Claude Help Center"
+  },
+  {
+   "ts": "20251108104931",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "5caeb01513012d67",
+   "title": "About Claude's Max Plan Usage | Claude Help Center"
+  },
+  {
+   "ts": "20251114212703",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "5caeb01513012d67",
+   "title": "About Claude's Max Plan Usage | Claude Help Center"
+  },
+  {
+   "ts": "20251126024457",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "02c9af398c3f362e",
+   "title": "About Claude's Max Plan Usage | Claude Help Center"
+  },
+  {
+   "ts": "20251218051301",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "02c9af398c3f362e",
+   "title": "About Claude's Max Plan Usage | Claude Help Center"
+  },
+  {
+   "ts": "20260105130140",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "02c9af398c3f362e",
+   "title": "About Claude's Max Plan Usage | Claude Help Center"
+  },
+  {
+   "ts": "20260109212611",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "02c9af398c3f362e",
+   "title": "About Claude's Max Plan Usage | Claude Help Center"
+  },
+  {
+   "ts": "20260114160818",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "02c9af398c3f362e",
+   "title": "About Claude's Max Plan Usage | Claude Help Center"
+  },
+  {
+   "ts": "20260122001950",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "a89c2c259c35594e",
+   "title": "About Claude's Max Plan Usage | Claude Help Center"
+  },
+  {
+   "ts": "20260124232649",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage",
+   "sha": "a89c2c259c35594e",
+   "title": "About Claude's Max Plan Usage | Claude Help Center"
+  }
+ ],
+ "versions": [
+  {
+   "sha": "a0800ddf9f258720",
+   "first": "20250409175001",
+   "last": "20250415025427",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage"
+  },
+  {
+   "sha": "fc2c8ef06e78d2d8",
+   "first": "20250506084719",
+   "last": "20250509151406",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage"
+  },
+  {
+   "sha": "6003e5ec3fc5c090",
+   "first": "20250511221040",
+   "last": "20250511221040",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage"
+  },
+  {
+   "sha": "3d5675593cb8e8c7",
+   "first": "20250512170450",
+   "last": "20250512170450",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage"
+  },
+  {
+   "sha": "6003e5ec3fc5c090",
+   "first": "20250520092522",
+   "last": "20250522055946",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage"
+  },
+  {
+   "sha": "18463d378defbb7f",
+   "first": "20250603132215",
+   "last": "20250603132215",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage"
+  },
+  {
+   "sha": "2da5d75ac40d6af0",
+   "first": "20250611092539",
+   "last": "20250704134442",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage"
+  },
+  {
+   "sha": "66531849f7954b25",
+   "first": "20250718082019",
+   "last": "20250725141546",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage"
+  },
+  {
+   "sha": "a95f7a99be3f417c",
+   "first": "20250729144133",
+   "last": "20250729144133",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage"
+  },
+  {
+   "sha": "1b677e6c094e8248",
+   "first": "20250801171340",
+   "last": "20250804061147",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage"
+  },
+  {
+   "sha": "40d413d6a6633559",
+   "first": "20250806030403",
+   "last": "20250807011212",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage"
+  },
+  {
+   "sha": "882bae12a581c3a9",
+   "first": "20250817211526",
+   "last": "20250817211526",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage"
+  },
+  {
+   "sha": "4b2d51f53342cfa7",
+   "first": "20250904133649",
+   "last": "20250904133649",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage"
+  },
+  {
+   "sha": "4a563f911cb9bd17",
+   "first": "20250910111758",
+   "last": "20250927142833",
+   "url": "https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage"
+  },
+  {
+   "sha": "62374cb5bde85248",
+   "first": "20251001095229",
+   "last": "20251006054320",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage"
+  },
+  {
+   "sha": "625d5dea6be1beb5",
+   "first": "20251010210727",
+   "last": "20251028031620",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage"
+  },
+  {
+   "sha": "5caeb01513012d67",
+   "first": "20251101081423",
+   "last": "20251114212703",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage"
+  },
+  {
+   "sha": "02c9af398c3f362e",
+   "first": "20251126024457",
+   "last": "20260114160818",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage"
+  },
+  {
+   "sha": "a89c2c259c35594e",
+   "first": "20260122001950",
+   "last": "20260124232649",
+   "url": "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage"
+  }
+ ],
+ "complete": true
+}

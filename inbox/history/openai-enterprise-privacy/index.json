@@ -1,0 +1,819 @@
+{
+ "id": "openai-enterprise-privacy",
+ "org": "openai",
+ "urls": [
+  "https://openai.com/enterprise-privacy/",
+  "https://openai.com/enterprise-privacy"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://openai.com/enterprise-privacy/",
+   "title": "Enterprise privacy at OpenAI | OpenAI",
+   "via": "fetch",
+   "sha": "77dedcec00aebe08",
+   "words": 234
+  }
+ ],
+ "captures": [
+  {
+   "ts": "20230828210920",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "8deb58b4dbbd7768",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20230830182904",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "8deb58b4dbbd7768",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20230831083605",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "8deb58b4dbbd7768",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20230901230849",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "11821ffb6d8cea8c",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20230911145651",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "11821ffb6d8cea8c",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20230912150303",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "11821ffb6d8cea8c",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20230914164626",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "31b39108034e797f",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20230920090245",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "31b39108034e797f",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20230921035642",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "9835143a9c747702",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20230925141202",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "9835143a9c747702",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20230926221937",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "769b73ed70870e9b",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20231004030605",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "769b73ed70870e9b",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20231010050731",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "502c44d3ded7bf88",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20231012184304",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "502c44d3ded7bf88",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20231101100017",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "502c44d3ded7bf88",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20231106123122",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "502c44d3ded7bf88",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20231107011708",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "21e6e74adabd5239",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20231113130500",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "21e6e74adabd5239",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20231115183652",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "a7a072b9bde674b9",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20231117212713",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "a7a072b9bde674b9",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20231120044919",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "a7a072b9bde674b9",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20231201003724",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "a7a072b9bde674b9",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20231215155514",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "a7a072b9bde674b9",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20231217090854",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "a7a072b9bde674b9",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20231218012441",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "a7a072b9bde674b9",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20231219134803",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "30b6bfc11aef428a",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20240101090949",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "30b6bfc11aef428a",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20240105042031",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "d1730196ffcb84ec",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20240107102106",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "d1730196ffcb84ec",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20240108222955",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "d1730196ffcb84ec",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20240110110551",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "d1730196ffcb84ec",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20240111082808",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "b4f1ecdc9b2d0c09",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20240206201335",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "b4f1ecdc9b2d0c09",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20240210231319",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "b4f1ecdc9b2d0c09",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20240211173511",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "b4f1ecdc9b2d0c09",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20240223112321",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "2ce502ab0196e040",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20240301022611",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "2ce502ab0196e040",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20240308195516",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "2ce502ab0196e040",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20240318020903",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "2ce502ab0196e040",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20240327081204",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "2ce502ab0196e040",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20240402051952",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "612fcb55fe66cf7e",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20240410043239",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "612fcb55fe66cf7e",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20240411140939",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "612fcb55fe66cf7e",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20240428063947",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "15aff9e8935c3f41",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20240501150210",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "15aff9e8935c3f41",
+   "title": "Enterprise privacy"
+  },
+  {
+   "ts": "20240505040118",
+   "url": "https://openai.com/enterprise-privacy",
+   "sha": "c133d0eefc3dfffb",
+   "title": "Enterprise privacy | OpenAI"
+  },
+  {
+   "ts": "20240509064643",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "c133d0eefc3dfffb",
+   "title": "Enterprise privacy | OpenAI"
+  },
+  {
+   "ts": "20240516121205",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "c133d0eefc3dfffb",
+   "title": "Enterprise privacy | OpenAI"
+  },
+  {
+   "ts": "20240522231424",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "c133d0eefc3dfffb",
+   "title": "Enterprise privacy | OpenAI"
+  },
+  {
+   "ts": "20240525182939",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "c133d0eefc3dfffb",
+   "title": "Enterprise privacy | OpenAI"
+  },
+  {
+   "ts": "20240530201538",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "c133d0eefc3dfffb",
+   "title": "Enterprise privacy | OpenAI"
+  },
+  {
+   "ts": "20240610143811",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "83346044fbf012b6",
+   "title": "Enterprise privacy | OpenAI"
+  },
+  {
+   "ts": "20240613075627",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "c0bbb46f5896983f",
+   "title": "Enterprise privacy | OpenAI"
+  },
+  {
+   "ts": "20240621022226",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "c0bbb46f5896983f",
+   "title": "Enterprise privacy | OpenAI"
+  },
+  {
+   "ts": "20240704125121",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "c0bbb46f5896983f",
+   "title": "Enterprise privacy | OpenAI"
+  },
+  {
+   "ts": "20240804092946",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "c0bbb46f5896983f",
+   "title": "Enterprise privacy | OpenAI"
+  },
+  {
+   "ts": "20240910193035",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "c0bbb46f5896983f",
+   "title": "Enterprise privacy | OpenAI"
+  },
+  {
+   "ts": "20240915124856",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "c0bbb46f5896983f",
+   "title": "Enterprise privacy | OpenAI"
+  },
+  {
+   "ts": "20240923000451",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "3f059b37e099460f",
+   "title": "Enterprise privacy | OpenAI"
+  },
+  {
+   "ts": "20241005062236",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "3f059b37e099460f",
+   "title": "Enterprise privacy | OpenAI"
+  },
+  {
+   "ts": "20241014012234",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "3a961b2b0e14bdbc",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20241023045639",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "e7acd695527a038b",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20241103023919",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "1308366e3388c52a",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20241204084207",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "1308366e3388c52a",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20250110230636",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "1308366e3388c52a",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20250204090457",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "1308366e3388c52a",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20250217183842",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "1308366e3388c52a",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20250219075036",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "1308366e3388c52a",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20250222033957",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "10ed18ba7ad0acef",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20250314234127",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "6e6eedb8c40c8c64",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20250401143227",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "6e6eedb8c40c8c64",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20250501033217",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "6e6eedb8c40c8c64",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20250518184433",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "6e6eedb8c40c8c64",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20250519013513",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "6e6eedb8c40c8c64",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20250521050851",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "6e6eedb8c40c8c64",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20250605113705",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "a8f5a85d59defb40",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20250613075226",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "a8f5a85d59defb40",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20250614113804",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "a8f5a85d59defb40",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20250619192438",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "a8f5a85d59defb40",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20250717181952",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "19db4f46d3d50ecd",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20250809113313",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "19db4f46d3d50ecd",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20250823112053",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "19db4f46d3d50ecd",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20250904120327",
+   "url": "https://openai.com/enterprise-privacy/",
+   "error": "HTTP 403"
+  },
+  {
+   "ts": "20250907134541",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "596161ee33d8c692",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20251010152930",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "596161ee33d8c692",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20251106121802",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "596161ee33d8c692",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20251118161950",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "596161ee33d8c692",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20251123090559",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "61f53d1f052f97e7",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20251206214524",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "61f53d1f052f97e7",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20260122094306",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "12828e5dc564a66f",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20260128234249",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "12828e5dc564a66f",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20260204072233",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "84f76ae46bb8ac9b",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20260206170443",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "84f76ae46bb8ac9b",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20260210060436",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "77dedcec00aebe08",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20260302162432",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "77dedcec00aebe08",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20260404094025",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "77dedcec00aebe08",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20260517230550",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "77dedcec00aebe08",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20260602132611",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "77dedcec00aebe08",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20260701124315",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "77dedcec00aebe08",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20260805063443",
+   "url": "https://openai.com/enterprise-privacy/",
+   "error": "terminated"
+  },
+  {
+   "ts": "20260901101734",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "77dedcec00aebe08",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20261001065121",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "77dedcec00aebe08",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  },
+  {
+   "ts": "20261002004812",
+   "url": "https://openai.com/enterprise-privacy/",
+   "sha": "77dedcec00aebe08",
+   "title": "Enterprise privacy at OpenAI | OpenAI"
+  }
+ ],
+ "versions": [
+  {
+   "sha": "8deb58b4dbbd7768",
+   "first": "20230828210920",
+   "last": "20230831083605",
+   "url": "https://openai.com/enterprise-privacy"
+  },
+  {
+   "sha": "11821ffb6d8cea8c",
+   "first": "20230901230849",
+   "last": "20230912150303",
+   "url": "https://openai.com/enterprise-privacy"
+  },
+  {
+   "sha": "31b39108034e797f",
+   "first": "20230914164626",
+   "last": "20230920090245",
+   "url": "https://openai.com/enterprise-privacy"
+  },
+  {
+   "sha": "9835143a9c747702",
+   "first": "20230921035642",
+   "last": "20230925141202",
+   "url": "https://openai.com/enterprise-privacy"
+  },
+  {
+   "sha": "769b73ed70870e9b",
+   "first": "20230926221937",
+   "last": "20231004030605",
+   "url": "https://openai.com/enterprise-privacy"
+  },
+  {
+   "sha": "502c44d3ded7bf88",
+   "first": "20231010050731",
+   "last": "20231106123122",
+   "url": "https://openai.com/enterprise-privacy"
+  },
+  {
+   "sha": "21e6e74adabd5239",
+   "first": "20231107011708",
+   "last": "20231113130500",
+   "url": "https://openai.com/enterprise-privacy"
+  },
+  {
+   "sha": "a7a072b9bde674b9",
+   "first": "20231115183652",
+   "last": "20231218012441",
+   "url": "https://openai.com/enterprise-privacy"
+  },
+  {
+   "sha": "30b6bfc11aef428a",
+   "first": "20231219134803",
+   "last": "20240101090949",
+   "url": "https://openai.com/enterprise-privacy"
+  },
+  {
+   "sha": "d1730196ffcb84ec",
+   "first": "20240105042031",
+   "last": "20240110110551",
+   "url": "https://openai.com/enterprise-privacy"
+  },
+  {
+   "sha": "b4f1ecdc9b2d0c09",
+   "first": "20240111082808",
+   "last": "20240211173511",
+   "url": "https://openai.com/enterprise-privacy"
+  },
+  {
+   "sha": "2ce502ab0196e040",
+   "first": "20240223112321",
+   "last": "20240327081204",
+   "url": "https://openai.com/enterprise-privacy"
+  },
+  {
+   "sha": "612fcb55fe66cf7e",
+   "first": "20240402051952",
+   "last": "20240411140939",
+   "url": "https://openai.com/enterprise-privacy"
+  },
+  {
+   "sha": "15aff9e8935c3f41",
+   "first": "20240428063947",
+   "last": "20240501150210",
+   "url": "https://openai.com/enterprise-privacy"
+  },
+  {
+   "sha": "c133d0eefc3dfffb",
+   "first": "20240505040118",
+   "last": "20240530201538",
+   "url": "https://openai.com/enterprise-privacy"
+  },
+  {
+   "sha": "83346044fbf012b6",
+   "first": "20240610143811",
+   "last": "20240610143811",
+   "url": "https://openai.com/enterprise-privacy/"
+  },
+  {
+   "sha": "c0bbb46f5896983f",
+   "first": "20240613075627",
+   "last": "20240915124856",
+   "url": "https://openai.com/enterprise-privacy/"
+  },
+  {
+   "sha": "3f059b37e099460f",
+   "first": "20240923000451",
+   "last": "20241005062236",
+   "url": "https://openai.com/enterprise-privacy/"
+  },
+  {
+   "sha": "3a961b2b0e14bdbc",
+   "first": "20241014012234",
+   "last": "20241014012234",
+   "url": "https://openai.com/enterprise-privacy/"
+  },
+  {
+   "sha": "e7acd695527a038b",
+   "first": "20241023045639",
+   "last": "20241023045639",
+   "url": "https://openai.com/enterprise-privacy/"
+  },
+  {
+   "sha": "1308366e3388c52a",
+   "first": "20241103023919",
+   "last": "20250219075036",
+   "url": "https://openai.com/enterprise-privacy/"
+  },
+  {
+   "sha": "10ed18ba7ad0acef",
+   "first": "20250222033957",
+   "last": "20250222033957",
+   "url": "https://openai.com/enterprise-privacy/"
+  },
+  {
+   "sha": "6e6eedb8c40c8c64",
+   "first": "20250314234127",
+   "last": "20250521050851",
+   "url": "https://openai.com/enterprise-privacy/"
+  },
+  {
+   "sha": "a8f5a85d59defb40",
+   "first": "20250605113705",
+   "last": "20250619192438",
+   "url": "https://openai.com/enterprise-privacy/"
+  },
+  {
+   "sha": "19db4f46d3d50ecd",
+   "first": "20250717181952",
+   "last": "20250823112053",
+   "url": "https://openai.com/enterprise-privacy/"
+  },
+  {
+   "sha": "596161ee33d8c692",
+   "first": "20250907134541",
+   "last": "20251118161950",
+   "url": "https://openai.com/enterprise-privacy/"
+  },
+  {
+   "sha": "61f53d1f052f97e7",
+   "first": "20251123090559",
+   "last": "20251206214524",
+   "url": "https://openai.com/enterprise-privacy/"
+  },
+  {
+   "sha": "12828e5dc564a66f",
+   "first": "20260122094306",
+   "last": "20260128234249",
+   "url": "https://openai.com/enterprise-privacy/"
+  },
+  {
+   "sha": "84f76ae46bb8ac9b",
+   "first": "20260204072233",
+   "last": "20260206170443",
+   "url": "https://openai.com/enterprise-privacy/"
+  },
+  {
+   "sha": "77dedcec00aebe08",
+   "first": "20260210060436",
+   "last": "20261002004812",
+   "url": "https://openai.com/enterprise-privacy/"
+  }
+ ],
+ "complete": true
+}
