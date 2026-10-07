@@ -39,30 +39,36 @@ sources:
     url: https://www.govinfo.gov/content/pkg/CHRG-119shrg61426/html/CHRG-119shrg61426.htm
     date: 2025-05-08
     type: primary
+    archive: https://web.archive.org/web/20260731062002/https://www.govinfo.gov/content/pkg/CHRG-119shrg61426/html/CHRG-119shrg61426.htm
+    snapshot: snapshots/2026-10-07-govinfo.gov-efb619ad
   - title: 'S. Hrg. 118-37, Oversight of A.I.: Rules for Artificial Intelligence
       (hearing transcript)'
     publisher: U.S. Government Publishing Office
     url: https://www.govinfo.gov/content/pkg/CHRG-118shrg52706/html/CHRG-118shrg52706.htm
     date: 2023-05-16
     type: primary
+    archive: https://web.archive.org/web/20261003112551/https://www.govinfo.gov/content/pkg/CHRG-118shrg52706/html/CHRG-118shrg52706.htm
+    snapshot: snapshots/2026-10-07-govinfo.gov-573f52f2
 response: >-
   OpenAI said it had mitigated serious mental-health issues and built new tools,
   so it could safely relax restrictions in most cases.
 updates:
   - date: 2025-12-18
     text: >-
-      With adult mode still planned, Altman said OpenAI would "give people
-      quite a bit of personal freedom here," but that there were "things ...
-      other services will offer, but we won't." His example: OpenAI would not
-      have its AI "try to convince people that should be like an exclusive
-      romantic relationship with them." (Quoted from the audio of the Big
-      Technology Podcast, about 18:54 and 19:07.)
+      With adult mode still planned, Altman said OpenAI would "give people quite
+      a bit of personal freedom here," but that there were "things ... other
+      services will offer, but we won't." His example: OpenAI would not have its
+      AI "try to convince people that should be like an exclusive romantic
+      relationship with them." (Quoted from the audio of the Big Technology
+      Podcast, about 18:54 and 19:07.)
     sources:
       - title: 'Sam Altman: How OpenAI Wins, AI Buildout Logic, IPO in 2026?'
         publisher: Big Technology Podcast
         url: https://podcasts.apple.com/us/podcast/sam-altman-how-openai-wins-ai-buildout-logic-ipo-in-2026/id1522960417?i=1000741901091
         date: 2025-12-18
         type: primary
+        archive: https://web.archive.org/web/20260606084729/https://podcasts.apple.com/us/podcast/sam-altman-how-openai-wins-ai-buildout-logic-ipo-in-2026/id1522960417?i=1000741901091
+        snapshot: snapshots/2026-10-07-podcasts.apple.com-6c020c36
   - date: 2026-02-10
     text: >-
       The Wall Street Journal reported that OpenAI had fired Ryan Beiermeister,

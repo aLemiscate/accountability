@@ -12,12 +12,16 @@ summary: >-
   Asked why the public should trust him with so much power, Altman pointed to
   OpenAI's structure: a for-profit company governed by a nonprofit board with a
   mandate to put the mission first, and a board able to remove him. Five months
-  later the board did remove him. Within five days he was reinstated and most
-  of the directors who removed him were off the board.
+  later the board did remove him. Within five days he was reinstated and most of
+  the directors who removed him were off the board.
 concreteness: directional
 status: eroded
 patterns: [mission-to-market]
-related: [2023-11-17-board-not-consistently-candid, 2025-10-28-foundation-controls-pbc]
+related:
+  [
+    2023-11-17-board-not-consistently-candid,
+    2025-10-28-foundation-controls-pbc
+  ]
 sources:
   - title: Sam Altman Is TIME's 2023 CEO of the Year
     publisher: TIME
@@ -30,13 +34,15 @@ sources:
     url: https://globalplayer.com/podcasts/episodes/7DrgMtm/
     date: 2023-05-03
     type: primary
+    archive: https://web.archive.org/web/20261007071217/https://www.globalplayer.com/podcasts/episodes/7DrgMtm/
+    snapshot: snapshots/2026-10-07-globalplayer.com-bed7b4d0
 note: >-
   The board's power to fire him was real, and it was used. What the episode
-  showed is that the power didn't hold once employees and investors pushed
-  back. TIME's summary: "this accountability was a mirage." In 2020, on Azeem
-  Azhar's Exponential View, Altman had put the point more broadly: "our board
-  of directors, which is also not publicly accountable, can fire me and say,
-  let's try somebody else. But it feels to me like at that point, at some level
-  of power, the world as a whole should be able to say like, hey, maybe we need
-  a new leader of this company." (Quoted from the audio; the interview was
+  showed is that the power didn't hold once employees and investors pushed back.
+  TIME's summary: "this accountability was a mirage." In 2020, on Azeem Azhar's
+  Exponential View, Altman had put the point more broadly: "our board of
+  directors, which is also not publicly accountable, can fire me and say, let's
+  try somebody else. But it feels to me like at that point, at some level of
+  power, the world as a whole should be able to say like, hey, maybe we need a
+  new leader of this company." (Quoted from the audio; the interview was
   rebroadcast in May 2023.)

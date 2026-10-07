@@ -98,12 +98,14 @@ updates:
       smarter, so it relies on the chain of thought less." (Quoted from the
       audio of Odd Lots, about 27:21 to 27:35.)
     sources:
-      - title: OpenAI President Greg Brockman on Doing Business in the Wake of
-          Hugging Face
+      - title: OpenAI President Greg Brockman on Doing Business in the Wake of Hugging
+          Face
         publisher: Odd Lots
         url: https://podcasts.apple.com/us/podcast/openai-president-greg-brockman-on-doing-business-in/id1056200096?i=1000789513759
         date: 2026-09-14
         type: primary
+        archive: https://web.archive.org/web/20261007072605/https://podcasts.apple.com/us/podcast/openai-president-greg-brockman-on-doing-business-in/id1056200096?i=1000789513759
+        snapshot: snapshots/2026-10-07-podcasts.apple.com-c8303f7b
 note: >-
   A research recommendation that became an internal rule. It's in the record
   because OpenAI later reported where the rule failed.

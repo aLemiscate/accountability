@@ -1,0 +1,21 @@
+{
+  "url": "https://www.bbc.co.uk/programmes/m002ht32",
+  "captured_at": "2026-10-07T06:55:25.693Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "f78524b05e52420ea30fd29d4a3157bd75537298794b4cff6708cb1295bc05c1",
+    "page.txt": "1d692c1eaa0032d6516c8f296f3bfba21f9098b0b4266753137da56153f9203b",
+    "screenshot.jpg": "b936cb983ac264523ab239c2830e5112b617553704ca14df9d50582bcc29ef2b",
+    "rendered.txt": "e94608b718e901e191db4b325c962d59e630288e3ee04def69b10d9ae79bcafd"
+  },
+  "http_status": 200,
+  "final_url": "https://www.bbc.co.uk/programmes/m002ht32",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "BBC Radio 4 - Radical, Artificial Intelligence: An AI Boss Warns About the Risks (Dario Amodei)",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20260813011630/https://www.bbc.co.uk/programmes/m002ht32",
+    "timestamp": "20260813011630",
+    "method": "existing"
+  }
+}

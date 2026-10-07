@@ -3,7 +3,7 @@ date: 2025-05-08
 org: openai
 type: did
 kind: reversal
-who: [ sam-altman ]
+who: [sam-altman]
 venue: Testimony, U.S. Senate Commerce Committee hearing on AI competitiveness
 quote: I think that would be disastrous.
 summary: >-
@@ -11,8 +11,8 @@ summary: >-
   requiring government approval before releasing AI systems would be
   "disastrous" for America's lead in AI. The Washington Post called it a
   striking reversal of his 2023 testimony.
-contradicts: [ 2023-05-16-altman-senate-licensing-agency ]
-patterns: [ regulate-us-not-like-that ]
+contradicts: [2023-05-16-altman-senate-licensing-agency]
+patterns: [regulate-us-not-like-that]
 sources:
   - title: 'S. Hrg. 119-143, Winning the AI Race: Strengthening U.S. Capabilities in
       Computing and Innovation'
@@ -20,6 +20,8 @@ sources:
     url: https://www.govinfo.gov/content/pkg/CHRG-119shrg61426/html/CHRG-119shrg61426.htm
     date: 2025-05-08
     type: primary
+    archive: https://web.archive.org/web/20260731062002/https://www.govinfo.gov/content/pkg/CHRG-119shrg61426/html/CHRG-119shrg61426.htm
+    snapshot: snapshots/2026-10-07-govinfo.gov-efb619ad
   - title: OpenAI CEO Sam Altman's Senate testimony shows industry shift on regulation
     publisher: The Washington Post
     url: https://www.washingtonpost.com/technology/2025/05/08/altman-congress-openai-regulation/
@@ -39,12 +41,12 @@ updates:
     text: >-
       Asked about this remark and about his objection to the government gating
       GPT-5.6's rollout, Altman said: "I think government testing of a model and
-      shared standards is a super good idea." He said what he had pushed back
-      on was the government "picking individual customers of who's allowed to
-      use a model," and added that "we would decide not to ship a model before
-      they would tell us not to." The 2025 question had been about "a heavy
-      handed prior approval government regulatory process for AI." (Quoted from
-      the audio of Sources with Alex Heath, about 48:21 to 48:35 and 49:51 to
+      shared standards is a super good idea." He said what he had pushed back on
+      was the government "picking individual customers of who's allowed to use a
+      model," and added that "we would decide not to ship a model before they
+      would tell us not to." The 2025 question had been about "a heavy handed
+      prior approval government regulatory process for AI." (Quoted from the
+      audio of Sources with Alex Heath, about 48:21 to 48:35 and 49:51 to
       49:55.)
     sources:
       - title: Sam Altman on OpenAI’s next model and the AI backlash
@@ -52,6 +54,7 @@ updates:
         url: https://sources.news/p/sam-altman-on-openais-next-model
         date: 2026-09-01
         type: primary
+        snapshot: snapshots/2026-10-07-sources.news-bd42424a
 note: >-
   In 2023, licensing was his number-one recommendation. By 2025, pre-approval,
   the core of licensing, was "disastrous." In the same hearing he said he did

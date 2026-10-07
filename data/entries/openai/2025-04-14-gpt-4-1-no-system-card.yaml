@@ -25,9 +25,9 @@ sources:
     type: reporting
     snapshot: snapshots/2026-09-30-techcrunch.com-68ffc875
 response: >-
-  OpenAI's position was that the reporting commitment applies to frontier
-  models and that GPT-4.1, though an improvement in efficiency and coding, did
-  not advance the frontier.
+  OpenAI's position was that the reporting commitment applies to frontier models
+  and that GPT-4.1, though an improvement in efficiency and coding, did not
+  advance the frontier.
 updates:
   - date: 2025-05-08
     text: >-
@@ -35,12 +35,14 @@ updates:
       Commerce Committee said: "That's why we red-team relentlessly and lead the
       industry in transparency."
     sources:
-      - title: 'S. Hrg. 119-143, Winning the AI Race: Strengthening U.S.
-          Capabilities in Computing and Innovation'
+      - title: 'S. Hrg. 119-143, Winning the AI Race: Strengthening U.S. Capabilities in
+          Computing and Innovation'
         publisher: U.S. Government Publishing Office
         url: https://www.govinfo.gov/content/pkg/CHRG-119shrg61426/html/CHRG-119shrg61426.htm
         date: 2025-05-08
         type: primary
+        archive: https://web.archive.org/web/20260731062002/https://www.govinfo.gov/content/pkg/CHRG-119shrg61426/html/CHRG-119shrg61426.htm
+        snapshot: snapshots/2026-10-07-govinfo.gov-efb619ad
   - date: 2025-05-14
     text: >-
       A month later OpenAI launched a Safety Evaluations Hub and said "GPT-4.1

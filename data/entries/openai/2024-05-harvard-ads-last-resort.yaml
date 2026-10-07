@@ -19,12 +19,16 @@ sources:
     url: https://www.govinfo.gov/content/pkg/CHRG-118shrg52706/html/CHRG-118shrg52706.htm
     date: 2023-05-16
     type: primary
+    archive: https://web.archive.org/web/20261003112551/https://www.govinfo.gov/content/pkg/CHRG-118shrg52706/html/CHRG-118shrg52706.htm
+    snapshot: snapshots/2026-10-07-govinfo.gov-573f52f2
   - title: 'Transcript for Sam Altman: OpenAI, GPT-5, Sora, Board Saga, Elon Musk,
       Ilya, Power & AGI | Lex Fridman Podcast #419'
     publisher: Lex Fridman
     url: https://lexfridman.com/sam-altman-2-transcript/
     date: 2024-03-18
     type: primary
+    archive: https://web.archive.org/web/20261007072110/https://lexfridman.com/sam-altman-2-transcript/
+    snapshot: snapshots/2026-10-07-lexfridman.com-4864f7a1
   - title: Ads might be coming to ChatGPT — despite Sam Altman not being a fan
     publisher: TechCrunch
     url: https://techcrunch.com/2024/12/02/ads-might-be-coming-to-chatgpt-despite-sam-altman-not-being-a-fan/
@@ -68,6 +72,7 @@ updates:
         url: https://podcasts.apple.com/us/podcast/sam-altman-on-agi-gpt-5-and-whats-next-episode-1/id1820330260?i=1000713445270
         date: 2025-06-18
         type: primary
+        snapshot: snapshots/2026-10-07-podcasts.apple.com-0f1fdb96
   - date: 2025-10-17
     text: >-
       Asked by Tyler Cowen how important ads would be, Altman said: "I expect
@@ -76,12 +81,14 @@ updates:
       accepting payment to put a worse hotel above a better hotel, that's
       probably catastrophic for your relationship with ChatGPT."
     sources:
-      - title: Sam Altman on Trust, Persuasion, and the Future of Intelligence -
-          Live at the Progress Conference (Ep. 259)
+      - title: Sam Altman on Trust, Persuasion, and the Future of Intelligence - Live at
+          the Progress Conference (Ep. 259)
         publisher: Conversations with Tyler
         url: https://conversationswithtyler.com/episodes/sam-altman-2/
         date: 2025-11-05
         type: primary
+        archive: https://web.archive.org/web/20261003194010/https://conversationswithtyler.com/episodes/sam-altman-2/
+        snapshot: snapshots/2026-10-07-conversationswithtyler.com-12059767
   - date: 2025-12-06
     text: >-
       Six weeks before the ads announcement, Turley answered rumors: "There are

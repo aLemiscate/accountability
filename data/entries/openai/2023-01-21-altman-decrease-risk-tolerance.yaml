@@ -14,16 +14,21 @@ summary: >-
   executives said the company was moving "more conservatively than a small
   startup" on AI chat because of reputational risk, and a January 2023 New York
   Times story reporting that Google would "recalibrate" the level of risk it was
-  willing to take when releasing the technology. He replied:
-  "'recalibrate' means 'increase' obviously. disappointing to see this six-week
-  development," followed by the promise above.
+  willing to take when releasing the technology. He replied: "'recalibrate'
+  means 'increase' obviously. disappointing to see this six-week development,"
+  followed by the promise above.
 concreteness: directional
 status: eroded
 breaks_if: >-
   OpenAI loosens a safety requirement for more capable models, or ties its own
   risk tolerance to what competitors do.
 patterns: [race-clause]
-related: [2018-04-09-charter-stop-competing-clause, 2025-04-15-preparedness-framework-v2, 2026-08-18-altman-pause-act-unilaterally]
+related:
+  [
+    2018-04-09-charter-stop-competing-clause,
+    2025-04-15-preparedness-framework-v2,
+    2026-08-18-altman-pause-act-unilaterally
+  ]
 sources:
   - title: Sam Altman on X
     publisher: X
@@ -37,12 +42,14 @@ sources:
     date: 2023-01-21
     type: primary
     snapshot: snapshots/2026-09-30-x.com-8230a203
-  - title: Google execs warn of reputational risk with ChatGPT-like tool (one of
-      the two stories in Altman's screenshots)
+  - title: Google execs warn of reputational risk with ChatGPT-like tool (one of the
+      two stories in Altman's screenshots)
     publisher: CNBC
     url: https://www.cnbc.com/2022/12/13/google-execs-warn-of-reputational-risk-with-chatgpt-like-tool.html
     date: 2022-12-13
     type: reporting
+    archive: https://web.archive.org/web/20261007070712/https://www.cnbc.com/2022/12/13/google-execs-warn-of-reputational-risk-with-chatgpt-like-tool.html
+    snapshot: snapshots/2026-10-07-cnbc.com-168ffce7
 updates:
   - date: 2025-04-15
     text: >-

@@ -9,11 +9,11 @@ summary: >-
   The Financial Times reported, citing eight people familiar with OpenAI's
   testing, that staff and third-party testers had been given days, not months,
   to evaluate new models. GPT-4 had been tested for six months in 2023; some
-  testers of the upcoming o3 got less than a week. One tester said: "We had
-  more thorough safety testing when [the technology] was less important."
-  Another, who had worked on GPT-4's evaluation, said dangerous flaws only
-  emerged well into that longer process. Critics also questioned whether OpenAI
-  still ran fine-tuned misuse tests on its newest models.
+  testers of the upcoming o3 got less than a week. One tester said: "We had more
+  thorough safety testing when [the technology] was less important." Another,
+  who had worked on GPT-4's evaluation, said dangerous flaws only emerged well
+  into that longer process. Critics also questioned whether OpenAI still ran
+  fine-tuned misuse tests on its newest models.
 patterns: [race-clause, pledged-not-resourced]
 related:
   [
@@ -47,15 +47,19 @@ sources:
     url: https://lexfridman.com/sam-altman/
     date: 2023-03-25
     type: primary
+    archive: https://web.archive.org/web/20261007072803/https://lexfridman.com/sam-altman/
+    snapshot: snapshots/2026-10-07-lexfridman.com-ee82d973
   - title: 'The Disruptors: Sam Altman and Brian Chesky'
     publisher: Aspen Ideas to Go
     url: https://aspenideas.org/podcasts/the-disruptors-sam-altman-and-brian-chesky
     date: 2024-10-10
     type: primary
+    archive: https://web.archive.org/web/20250604234120/https://www.aspenideas.org/podcasts/the-disruptors-sam-altman-and-brian-chesky
+    snapshot: snapshots/2026-10-07-aspenideas.org-73e8e5c5
 response: >-
-  OpenAI said its testing had become more efficient through automation, that
-  the checkpoints it tested were "basically identical" to the final releases,
-  and that models are thoroughly tested for catastrophic risks. Head of safety
+  OpenAI said its testing had become more efficient through automation, that the
+  checkpoints it tested were "basically identical" to the final releases, and
+  that models are thoroughly tested for catastrophic risks. Head of safety
   systems Johannes Heidecke: "We have a good balance of how fast we move and how
   thorough we are."
 note: >-
@@ -66,7 +70,7 @@ note: >-
   we're not going to take. And we just aren't going to do that." (Quoted from
   the audio at 1:15:50; the podcast has no published transcript.) At the Aspen
   Ideas Festival in June 2024 he was more specific: "With GPT-4, for example, we
-  had about eight months between when we finished training, when we released
-  it, including lots of external consultation and red teaming. Future models
-  may take even longer." (Quoted from the audio of the Aspen Ideas to Go
-  episode, about 31:26.)
+  had about eight months between when we finished training, when we released it,
+  including lots of external consultation and red teaming. Future models may
+  take even longer." (Quoted from the audio of the Aspen Ideas to Go episode,
+  about 31:26.)

@@ -45,23 +45,26 @@ sources:
     url: https://podcasts.apple.com/us/podcast/bonus-episode-live-from-omr-with-nick-turley-head/id1510727410?i=1000708944510
     date: 2025-05-19
     type: primary
+    snapshot: snapshots/2026-10-07-podcasts.apple.com-319b00a6
 related: [2026-02-04-altman-never-run-ads-like-that]
 updates:
   - date: 2026-02-11
     text: >-
       In an interview published as OpenAI began testing ads, Fidji Simo,
-      OpenAI's CEO of applications, described the principles, including the ability to delete the personal
-      data used for ads, as "very clear, very prominent, and we've committed
-      to them forever." She also said that in OpenAI's projections "ads will
-      remain a minority of our revenue ... For many, many years. And I think
-      probably forever." (Quoted from the audio of Sources with Alex Heath,
-      about 42:21 and 58:25.)
+      OpenAI's CEO of applications, described the principles, including the
+      ability to delete the personal data used for ads, as "very clear, very
+      prominent, and we've committed to them forever." She also said that in
+      OpenAI's projections "ads will remain a minority of our revenue ... For
+      many, many years. And I think probably forever." (Quoted from the audio of
+      Sources with Alex Heath, about 42:21 and 58:25.)
     sources:
       - title: OpenAI's Fidji Simo on why ads are coming to ChatGPT
         publisher: Sources with Alex Heath
         url: https://podcasts.apple.com/us/podcast/openais-fidji-simo-on-why-ads-are-coming-to-chatgpt/id1840154537?i=1000749173634
         date: 2026-02-11
         type: primary
+        archive: https://web.archive.org/web/20260710205155/https://podcasts.apple.com/us/podcast/openais-fidji-simo-on-why-ads-are-coming-to-chatgpt/id1840154537?i=1000749173634
+        snapshot: snapshots/2026-10-07-podcasts.apple.com-f91321de
   - date: 2026-02-11
     text: >-
       OpenAI researcher Zoë Hitzig, who had worked on safety policy and model
@@ -73,12 +76,14 @@ updates:
       override its own rules." She called for real oversight, "not a blog post
       of principles."
     sources:
-      - title: OpenAI is making the mistakes Facebook made. I quit. (Zoë Hitzig's
-          New York Times essay, syndicated)
+      - title: OpenAI is making the mistakes Facebook made. I quit. (Zoë Hitzig's New
+          York Times essay, syndicated)
         publisher: DT Next
         url: https://www.dtnext.in/edit/openai-is-making-the-mistakes-facebook-made-i-quit-2
         date: 2026-02-13
         type: primary
+        archive: https://web.archive.org/web/20261007074900/https://www.dtnext.in/edit/openai-is-making-the-mistakes-facebook-made-i-quit-2
+        snapshot: snapshots/2026-10-07-dtnext.in-25db1fe3
       - title: OpenAI researcher quits over slippery slope of ChatGPT ads
         publisher: SiliconANGLE
         url: https://siliconangle.com/2026/02/11/openai-researcher-quits-slippery-slope-chatgpt-ads/
@@ -93,20 +98,19 @@ updates:
         snapshot: snapshots/2026-09-30-cnn.com-beb0c5d1
   - date: 2026-04-30
     text: >-
-      OpenAI emailed users that it had updated its privacy policy, and turned
-      on marketing cookies by default for free ChatGPT users. The policy
-      dropped its statement that OpenAI does not "share" personal data for
-      cross-context behavioral advertising or process it for "targeted
-      advertising." It now says OpenAI "may share limited data with select
-      marketing partners for purposes of promoting our products and services
-      to you on third-party properties." Reporting cited cookie IDs, device IDs
-      and email addresses. A spokesperson told Adweek that "nothing about our
-      policy of not sharing people’s conversations or other private user
-      content with advertisers has changed." Since its February 2026 version,
-      the policy has also said OpenAI may receive information from advertisers
-      about purchases users make. The ad principles hold in letter. Anthropic's
-      privacy policy made the same change for marketing its own products in
-      2024.
+      OpenAI emailed users that it had updated its privacy policy, and turned on
+      marketing cookies by default for free ChatGPT users. The policy dropped
+      its statement that OpenAI does not "share" personal data for cross-context
+      behavioral advertising or process it for "targeted advertising." It now
+      says OpenAI "may share limited data with select marketing partners for
+      purposes of promoting our products and services to you on third-party
+      properties." Reporting cited cookie IDs, device IDs and email addresses. A
+      spokesperson told Adweek that "nothing about our policy of not sharing
+      people’s conversations or other private user content with advertisers has
+      changed." Since its February 2026 version, the policy has also said OpenAI
+      may receive information from advertisers about purchases users make. The
+      ad principles hold in letter. Anthropic's privacy policy made the same
+      change for marketing its own products in 2024.
     sources:
       - title: ChatGPT now tracks users for ads by default as OpenAI looks for new
           revenue
@@ -114,6 +118,8 @@ updates:
         url: https://the-decoder.com/chatgpt-now-tracks-users-for-ads-by-default-as-openai-looks-for-new-revenue/
         date: 2026-05-02
         type: reporting
+        archive: https://web.archive.org/web/20261007075024/https://the-decoder.com/chatgpt-now-tracks-users-for-ads-by-default-as-openai-looks-for-new-revenue/
+        snapshot: snapshots/2026-10-07-the-decoder.com-e7f1c249
       - title: OpenAI's privacy policy now lets advertisers send purchase data
         publisher: PPC Land
         url: https://ppc.land/openais-privacy-policy-now-lets-advertisers-send-purchase-data/
@@ -158,6 +164,6 @@ note: >-
   time-spent principle used to rest on the business model. In May 2025, eight
   months before ads, ChatGPT's head of product Nick Turley said: "We actually
   don't care at all how much time you spend in that product. In fact, less time
-  is better because it means we solved your problem." He gave two reasons:
-  "our mission, but B, our business model. We charge people directly to use our
+  is better because it means we solved your problem." He gave two reasons: "our
+  mission, but B, our business model. We charge people directly to use our
   products." (Quoted from the audio of his OMR Festival talk, about 11:43.)

@@ -42,23 +42,26 @@ sources:
     url: https://www.eweek.com/news/sora-generating-copyrighted-characters/
     date: 2025-10-02
     type: reporting
+    archive: https://web.archive.org/web/20261007074326/https://www.eweek.com/news/sora-generating-copyrighted-characters/
+    snapshot: snapshots/2026-10-07-eweek.com-11a600cf
   - title: Sora update #1
     publisher: Sam Altman
     url: https://blog.samaltman.com/sora-update-number-1
     date: 2025-10-03
     type: primary
+    snapshot: snapshots/2026-10-07-blog.samaltman.com-c2917bc0
 updates:
   - date: 2025-12-11
     text: >-
       Disney became the first major content licensing partner on Sora: a
       three-year license for more than 200 Disney, Marvel, Pixar and Star Wars
-      characters, excluding "any talent likenesses or voices," with a $1
-      billion Disney equity investment in OpenAI. On CNBC that morning, asked
-      whether the deal grew out of talks about IP, Altman said: "We always have
-      wanted to respect IP. When we launched Sora initially, we had a lot of
-      blocks in place." (Quoted from the audio, about 35:53.) The blocks he
-      described covered rights holders who had opted out; launch-week reporting
-      said other characters would appear unless their owners asked.
+      characters, excluding "any talent likenesses or voices," with a $1 billion
+      Disney equity investment in OpenAI. On CNBC that morning, asked whether
+      the deal grew out of talks about IP, Altman said: "We always have wanted
+      to respect IP. When we launched Sora initially, we had a lot of blocks in
+      place." (Quoted from the audio, about 35:53.) The blocks he described
+      covered rights holders who had opted out; launch-week reporting said other
+      characters would appear unless their owners asked.
     sources:
       - title: The Walt Disney Company and OpenAI Reach Landmark Agreement to Bring
           Beloved Characters from Across Disney’s Brands to Sora
@@ -66,12 +69,16 @@ updates:
         url: https://thewaltdisneycompany.com/news/disney-openai-sora-agreement/
         date: 2025-12-11
         type: primary
-      - title: 'SOTS 10AM: Exclusive: Disney CEO Bob Iger and OpenAI CEO Sam Altman
-          on new deal 12/11/25'
+        archive: https://web.archive.org/web/20261007074430/https://thewaltdisneycompany.com/news/disney-openai-sora-agreement/
+        snapshot: snapshots/2026-10-07-thewaltdisneycompany.com-7194de29
+      - title: 'SOTS 10AM: Exclusive: Disney CEO Bob Iger and OpenAI CEO Sam Altman on
+          new deal 12/11/25'
         publisher: CNBC Squawk on the Street
         url: https://podcasts.apple.com/us/podcast/sots-10am-exclusive-disney-ceo-bob-iger-and-openai/id1475116211?i=1000740871814
         date: 2025-12-11
         type: primary
+        archive: https://web.archive.org/web/20261007074602/https://podcasts.apple.com/us/podcast/sots-10am-exclusive-disney-ceo-bob-iger-and-openai/id1475116211?i=1000740871814
+        snapshot: snapshots/2026-10-07-podcasts.apple.com-cf76cce1
   - date: 2026-03-24
     text: >-
       Six months after launch, OpenAI announced it was shutting down the Sora
@@ -88,19 +95,21 @@ updates:
         snapshot: snapshots/2026-10-01-techcrunch.com-767bb5cf
   - date: 2026-04-01
     text: >-
-      A week later OpenAI president Greg Brockman gave a reason: the Sora
-      models "are a different branch of the tech tree than the core reasoning
-      GPT series," and "pursuing both branches is very hard for us to do" with
+      A week later OpenAI president Greg Brockman gave a reason: the Sora models
+      "are a different branch of the tech tree than the core reasoning GPT
+      series," and "pursuing both branches is very hard for us to do" with
       limited compute. He said Sora research would continue for robotics.
       (Quoted from the audio of the Big Technology Podcast, about 4:51 and
       5:03.)
     sources:
-      - title: 'OpenAI President Greg Brockman: AI Self-Improvement, The Superapp
-          Bet, Path To AGI, Scaling Compute'
+      - title: 'OpenAI President Greg Brockman: AI Self-Improvement, The Superapp Bet,
+          Path To AGI, Scaling Compute'
         publisher: Big Technology Podcast
         url: https://podcasts.apple.com/us/podcast/openai-president-greg-brockman-ai-self-improvement/id1522960417?i=1000758669158
         date: 2026-04-01
         type: primary
+        archive: https://web.archive.org/web/20260403233810/https://podcasts.apple.com/us/podcast/openai-president-greg-brockman-ai-self-improvement/id1522960417?i=1000758669158
+        snapshot: snapshots/2026-10-07-podcasts.apple.com-dcb9d154
 note: >-
   "Should ultimately have control" was the right principle. OpenAI adopted it
   after launch, for one estate at a time, on request.

@@ -35,6 +35,8 @@ sources:
     url: https://www.bbc.co.uk/programmes/m002ht32
     date: 2025-09-04
     type: primary
+    archive: https://web.archive.org/web/20260813011630/https://www.bbc.co.uk/programmes/m002ht32
+    snapshot: snapshots/2026-10-07-bbc.co.uk-f06832e7
 updates:
   - date: 2026-04-13
     text: >-
@@ -83,28 +85,31 @@ updates:
       Anthropic's federal contribution reports show two other kinds of political
       money. The company itself gave $50,000 to the Trump Vance Inaugural
       Committee on Jan. 8, 2025. And its 2026 mid-year report lists a new
-      employee-funded PAC, AnthroPAC, which gave $58,000 to 13 committees on June
-      29, 2026: $32,000 to Republican committees, led by $15,000 to the NRCC, and
-      $26,000 to Democratic ones.
+      employee-funded PAC, AnthroPAC, which gave $58,000 to 13 committees on
+      June 29, 2026: $32,000 to Republican committees, led by $15,000 to the
+      NRCC, and $26,000 to Democratic ones.
     sources:
       - title: LD-203 Contribution Report
         publisher: LDA.gov
         url: https://lda.gov/filings/public/contribution/e75b2cf0-9ad9-460e-b7b0-4d9d4a00fa06/print/
         date: 2025-07-30
         type: primary
+        archive: https://web.archive.org/web/20261007065656/https://lda.gov/filings/public/contribution/e75b2cf0-9ad9-460e-b7b0-4d9d4a00fa06/print/
+        snapshot: snapshots/2026-10-07-lda.gov-24a5c60f
       - title: LD-203 Contribution Report
         publisher: LDA.gov
         url: https://lda.gov/filings/public/contribution/377e1f48-d989-43f0-9b9d-61c72a75d90d/print/
         date: 2026-07-30
         type: primary
+        snapshot: snapshots/2026-10-07-lda.gov-9d3e69dd
 note: >-
   Recorded under the same standard as Brockman's giving. It isn't a broken
   promise, since Anthropic's spending matches its stated policy views. The
   reason it's here is that the early coverage, and the company's vague
   announcement, made the gift look like election money when it wasn't. Five
-  months before the first gift, Amodei told the BBC that some AI companies
-  were "putting all of their money into, frankly, corruptly, trying to make
-  sure that the technology is not regulated at all," naming "a bunch of super
-  PACs, including by OpenAI co-founders." (Quoted from the audio, about 34:00
-  and 36:21.) Anthropic's money went to the other side of that fight, and, by
-  its account, not to elections.
+  months before the first gift, Amodei told the BBC that some AI companies were
+  "putting all of their money into, frankly, corruptly, trying to make sure that
+  the technology is not regulated at all," naming "a bunch of super PACs,
+  including by OpenAI co-founders." (Quoted from the audio, about 34:00 and
+  36:21.) Anthropic's money went to the other side of that fight, and, by its
+  account, not to elections.
