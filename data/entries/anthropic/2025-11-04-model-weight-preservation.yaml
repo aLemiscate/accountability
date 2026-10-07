@@ -31,7 +31,23 @@ sources:
     date: 2025-11-04
     type: primary
     snapshot: snapshots/2026-09-30-anthropic.com-410a986c
+updates:
+  - date: 2026-02-25
+    text: >-
+      Claude Opus 3, retired on January 5, 2026, was the first model to go
+      through the process. Anthropic kept it "available post-retirement on
+      claude.ai to all paid users" and "by request on the API," and said: "We
+      intend to grant access liberally." Acting on what Opus 3 said in its
+      retirement interview, it also gave the model a weekly newsletter for at
+      least three months. Anthropic added: "At present, we are not committing
+      to similar actions for every model in the future."
+    sources:
+      - title: An update on our model deprecation commitments for Claude Opus 3
+        publisher: Anthropic
+        url: https://www.anthropic.com/research/deprecation-updates-opus-3
+        date: 2026-02-25
+        type: primary
 note: >-
-  Only Anthropic can check this: the weights and reports are kept, not
-  published. It is in the record for completeness, as a promise about how the
+  Only Anthropic can check the weights and interviews: they are kept, not
+  published. The continued access to Opus 3 can be checked from outside. It is in the record for completeness, as a promise about how the
   company treats its own models.

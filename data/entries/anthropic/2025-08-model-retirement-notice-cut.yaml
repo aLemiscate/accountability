@@ -62,8 +62,9 @@ note: >-
   to where the page began. Every model retired so far stayed available until
   at least the date it was guaranteed or promised, so this is a shorter
   warning, not an earlier retirement: the year-after-release floor survived in
-  the "Not sooner than" dates. Anthropic keeps retired models' weights (see related) but does not
-  serve them through the API. For comparison, OpenAI’s deprecations page has
+  the "Not sooner than" dates. Anthropic keeps retired models' weights (see related), and since
+  February 2026 has kept one retired model, Opus 3, available to paid
+  subscribers and by request on the API. For comparison, OpenAI’s deprecations page has
   said since about June 2026 that it gives generally available models "At least 6
   months" notice. Dates and notice periods were read from every archived
   version of the page, in order.
