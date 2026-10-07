@@ -3,6 +3,7 @@
 // can be read and compared in order.
 //
 //   npm run page-history [-- --only <id>] [--minutes 300] [--no-live]
+//   (on GitHub: the Capture workflow with "history" set)
 //
 // Reads data/history.yaml. For each page it:
 //   1. reads the live page (a plain fetch, then a headless browser) and saves
