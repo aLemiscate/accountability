@@ -86,6 +86,28 @@ updates:
         date: 2026-07-21
         type: reporting
         snapshot: snapshots/2026-10-01-cnbc.com-59fe2889
+  - date: 2026-07-23
+    text: >-
+      The reports also say less than they used to. OpenAI's federal lobbying
+      reports for late 2023 through 2024 named three to five bills a quarter,
+      among them the Future of Artificial Intelligence Innovation Act. Its six
+      reports from the first quarter of 2025 through mid-2026, covering $5.21
+      million, name no bill. They list issue areas only, such as "Artificial
+      intelligence, cloud computing and infrastructure, cybersecurity,
+      copyright." Over the same quarters Anthropic's reports named specific
+      bills in five of six. Lobbying reports do not say which side a company
+      took.
+    sources:
+      - title: LD-2 Disclosure Form
+        publisher: LDA.gov
+        url: https://lda.gov/filings/public/filing/8fb2c55d-721f-4ccb-bccc-5f0a31fa7063/print/
+        date: 2025-01-21
+        type: primary
+      - title: LD-2 Disclosure Form
+        publisher: LDA.gov
+        url: https://lda.gov/filings/public/filing/de4e5ed5-65c4-44dc-8006-be3a20d10ef7/print/
+        date: 2026-07-23
+        type: primary
 note: >-
   Two years after asking the Senate for a licensing agency, OpenAI asked for
   voluntary federal oversight that would also protect it from binding state

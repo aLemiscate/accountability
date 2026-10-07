@@ -1,0 +1,500 @@
+{
+ "new_york": [
+  {
+   "org": "anthropic",
+   "year": 2025,
+   "period": "Jan/June",
+   "form": 741800,
+   "filing_type": "Original",
+   "compensation_by_lobbyist": {
+    "Anthropic PBC": 1375.0
+   },
+   "compensation": 1375.0,
+   "non_lobbying_employee_expenses": 2909.0,
+   "itemized_expenses": 0.0,
+   "total": 4284.0
+  },
+  {
+   "org": "anthropic",
+   "year": 2025,
+   "period": "July/Dec",
+   "form": 791025,
+   "filing_type": "Amendment",
+   "compensation_by_lobbyist": {
+    "LONG POINT STRATEGIC ADVISORS, INC.": 30000.0,
+    "Anthropic PBC": 14858.0
+   },
+   "compensation": 44858.0,
+   "non_lobbying_employee_expenses": 4014.0,
+   "itemized_expenses": 0.0,
+   "total": 48872.0
+  },
+  {
+   "org": "anthropic",
+   "year": 2026,
+   "period": "Jan/June",
+   "form": 814783,
+   "filing_type": "Original",
+   "compensation_by_lobbyist": {
+    "Anthropic PBC": 1478.0,
+    "LONDON HOUSE LLC": 12500.0,
+    "LONG POINT STRATEGIC ADVISORS, INC.": 60000.0
+   },
+   "compensation": 73978.0,
+   "non_lobbying_employee_expenses": 3760.0,
+   "itemized_expenses": 0.0,
+   "total": 77738.0
+  },
+  {
+   "org": "openai",
+   "year": 2024,
+   "period": "July/Dec",
+   "form": 687169,
+   "filing_type": "Original",
+   "compensation_by_lobbyist": {
+    "BOLTON-ST. JOHNS, LLC": 12290.0
+   },
+   "compensation": 12290.0,
+   "non_lobbying_employee_expenses": 2423.0,
+   "itemized_expenses": 0.0,
+   "total": 14713.0
+  },
+  {
+   "org": "openai",
+   "year": 2025,
+   "period": "Jan/June",
+   "form": 738164,
+   "filing_type": "Original",
+   "compensation_by_lobbyist": {
+    "OpenAI OpCo LLC": 1750.0,
+    "BOLTON-ST. JOHNS, LLC": 75000.0
+   },
+   "compensation": 76750.0,
+   "non_lobbying_employee_expenses": 2092.0,
+   "itemized_expenses": 0.0,
+   "total": 78842.0
+  },
+  {
+   "org": "openai",
+   "year": 2025,
+   "period": "July/Dec",
+   "form": 775763,
+   "filing_type": "Original",
+   "compensation_by_lobbyist": {
+    "BOLTON-ST. JOHNS, LLC": 62500.0,
+    "OpenAI OpCo LLC": 269.0
+   },
+   "compensation": 62769.0,
+   "non_lobbying_employee_expenses": 6779.0,
+   "itemized_expenses": 1666.0,
+   "total": 71214.0
+  },
+  {
+   "org": "openai",
+   "year": 2026,
+   "period": "Jan/June",
+   "form": 813161,
+   "filing_type": "Original",
+   "compensation_by_lobbyist": {
+    "OpenAI OpCo LLC": 3365.0,
+    "BOLTON-ST. JOHNS, LLC": 75000.0
+   },
+   "compensation": 78365.0,
+   "non_lobbying_employee_expenses": 0.0,
+   "itemized_expenses": 0.0,
+   "total": 78365.0
+  }
+ ],
+ "california": [
+  {
+   "org": "anthropic",
+   "filing_id": "2977335",
+   "amendment": 0,
+   "form": "F645",
+   "from": "7/1/2024",
+   "thru": "9/30/2024",
+   "year": 2024,
+   "quarter": 3,
+   "lines": {
+    "A": 0.0,
+    "B": 77605.1,
+    "AB": 77605.1,
+    "C": 0.0
+   },
+   "total": 77605.1,
+   "subjects": "AB 2013; SB 1047"
+  },
+  {
+   "org": "anthropic",
+   "filing_id": "3038933",
+   "amendment": 0,
+   "form": "F635",
+   "from": "1/1/2025",
+   "thru": "3/31/2025",
+   "year": 2025,
+   "quarter": 1,
+   "lines": {
+    "A": 0.0,
+    "B": 25000.0,
+    "C": 0.0,
+    "D": 0.0,
+    "ABCD": 25000.0,
+    "E": 0.0
+   },
+   "total": 25000.0,
+   "subjects": "SB 53, 420, 1047; Legislature and Governors Office re: Frontier Artificial Intelligence Models; Legislature re:  Artificial Intelligence Safety Legislation"
+  },
+  {
+   "org": "anthropic",
+   "filing_id": "3065514",
+   "amendment": 0,
+   "form": "F635",
+   "from": "4/1/2025",
+   "thru": "6/30/2025",
+   "year": 2025,
+   "quarter": 2,
+   "lines": {
+    "A": 0.0,
+    "B": 37500.0,
+    "C": 0.0,
+    "D": 23427.02,
+    "ABCD": 60927.02,
+    "E": 0.0
+   },
+   "total": 60927.02,
+   "subjects": "SB 53; Legislature and Governors Office: re: Frontier Artificial Intelligence Models"
+  },
+  {
+   "org": "anthropic",
+   "filing_id": "3090417",
+   "amendment": 0,
+   "form": "F635",
+   "from": "7/1/2025",
+   "thru": "9/30/2025",
+   "year": 2025,
+   "quarter": 3,
+   "lines": {
+    "A": 0.0,
+    "B": 37500.0,
+    "C": 0.0,
+    "D": 42821.9,
+    "ABCD": 80321.9,
+    "E": 0.0
+   },
+   "total": 80321.9,
+   "subjects": "SB 53; Legislature and Governors Office: re: Frontier Artificial Intelligence Models"
+  },
+  {
+   "org": "anthropic",
+   "filing_id": "3110194",
+   "amendment": 0,
+   "form": "F635",
+   "from": "10/1/2025",
+   "thru": "12/31/2025",
+   "year": 2025,
+   "quarter": 4,
+   "lines": {
+    "A": 0.0,
+    "B": 37500.0,
+    "C": 0.0,
+    "D": 0.0,
+    "ABCD": 37500.0,
+    "E": 0.0
+   },
+   "total": 37500.0,
+   "subjects": "SB 53; Legislature and Governors Office: re: Frontier Artificial Intelligence Models, Economic Index and Outlook, Data Centers, Artificial Intelligence and Copyright, and other matters related to Artificial Intelligence; California Governors Office of Business and Economic Development re: Economic and Employment Outlook"
+  },
+  {
+   "org": "anthropic",
+   "filing_id": "3145971",
+   "amendment": 0,
+   "form": "F635",
+   "from": "1/1/2026",
+   "thru": "3/31/2026",
+   "year": 2026,
+   "quarter": 1,
+   "lines": {
+    "A": 0.0,
+    "B": 37500.0,
+    "C": 0.0,
+    "D": 3759.6,
+    "ABCD": 41259.6,
+    "E": 0.0
+   },
+   "total": 41259.6,
+   "subjects": "AB 2023; SB 53, 1119; Legislature re: Parents and Kids Safe AI Act, Data Centers, AI and Copyright, Chatbots, Frontier Artificial Intelligence Models; Governors Office re: Frontier Artificial Intelligence Models, Economic Index and Outlook, AI Protections and Responsible Use; Attorney Generals Office re: Frontier Artificial Intelligence Models; Office of Emergency Service re: SB 53"
+  },
+  {
+   "org": "anthropic",
+   "filing_id": "3177089",
+   "amendment": 0,
+   "form": "F635",
+   "from": "4/1/2026",
+   "thru": "6/30/2026",
+   "year": 2026,
+   "quarter": 2,
+   "lines": {
+    "A": 0.0,
+    "B": 42500.0,
+    "C": 0.0,
+    "D": 5247.07,
+    "ABCD": 47747.07,
+    "E": 0.0
+   },
+   "total": 47747.07,
+   "subjects": "AB 1405, 1864, 2023; SB 53, 813, 1119; Legislature re: Data Centers, AI and Copyright, Chatbots, Frontier Artificial Intelligence Models, AI Protections and Responsible Use, Artificial Intelligence Safety Standards/ Audits; Governors Office re: Frontier Artificial Intelligence Models, SB 53, Economic Index and Outlook, AI Protections and Responsible Use, Chatbots"
+  },
+  {
+   "org": "openai",
+   "filing_id": "2926326",
+   "amendment": 2,
+   "form": "F635",
+   "from": "4/1/2024",
+   "thru": "6/30/2024",
+   "year": 2024,
+   "quarter": 2,
+   "lines": {
+    "A": 0.0,
+    "B": 31750.0,
+    "C": 0.0,
+    "D": 2403.8,
+    "ABCD": 34153.8,
+    "E": 0.0
+   },
+   "total": 34153.8,
+   "subjects": "AB 2013, 2930, 3211; SB 1047"
+  },
+  {
+   "org": "openai",
+   "filing_id": "2977153",
+   "amendment": 0,
+   "form": "F635",
+   "from": "7/1/2024",
+   "thru": "9/30/2024",
+   "year": 2024,
+   "quarter": 3,
+   "lines": {
+    "A": 0.0,
+    "B": 38000.0,
+    "C": 0.0,
+    "D": 29567.3,
+    "ABCD": 67567.3,
+    "E": 0.0
+   },
+   "total": 67567.3,
+   "subjects": "AB 1831, 2013, 2930, 3211; SB 942, 1047, 1288, 1381"
+  },
+  {
+   "org": "openai",
+   "filing_id": "3009255",
+   "amendment": 0,
+   "form": "F635",
+   "from": "10/1/2024",
+   "thru": "12/31/2024",
+   "year": 2024,
+   "quarter": 4,
+   "lines": {
+    "A": 0.0,
+    "B": 38000.0,
+    "C": 154.19,
+    "D": 0.0,
+    "ABCD": 38154.19,
+    "E": 0.0
+   },
+   "total": 38154.19,
+   "subjects": "AB 2930, 3211; SB 942, 982, 1047."
+  },
+  {
+   "org": "openai",
+   "filing_id": "3037677",
+   "amendment": 0,
+   "form": "F635",
+   "from": "1/1/2025",
+   "thru": "3/31/2025",
+   "year": 2025,
+   "quarter": 1,
+   "lines": {
+    "A": 0.0,
+    "B": 38000.0,
+    "C": 0.0,
+    "D": 0.0,
+    "ABCD": 38000.0,
+    "E": 0.0
+   },
+   "total": 38000.0,
+   "subjects": "AB 412, AB 853; SB 53, SB 942 (2024); California State Legislature, Administration: issues related to privacy and AI policies."
+  },
+  {
+   "org": "openai",
+   "filing_id": "3064197",
+   "amendment": 0,
+   "form": "F635",
+   "from": "4/1/2025",
+   "thru": "6/30/2025",
+   "year": 2025,
+   "quarter": 2,
+   "lines": {
+    "A": 0.0,
+    "B": 37750.0,
+    "C": 874.43,
+    "D": 0.0,
+    "ABCD": 38624.43,
+    "E": 0.0
+   },
+   "total": 38624.43,
+   "subjects": "AB 853, SB 53, issues related to privacy and AI policies."
+  },
+  {
+   "org": "openai",
+   "filing_id": "3087772",
+   "amendment": 1,
+   "form": "F635",
+   "from": "7/1/2025",
+   "thru": "9/30/2025",
+   "year": 2025,
+   "quarter": 3,
+   "lines": {
+    "A": 0.0,
+    "B": 37750.0,
+    "C": 0.0,
+    "D": 3332.0,
+    "ABCD": 41082.0,
+    "E": 0.0
+   },
+   "total": 41082.0,
+   "subjects": "AB 853, SB 53; Legislature, Administration, CA Privacy Protection Agency: issues related to privacy and AI policies."
+  },
+  {
+   "org": "openai",
+   "filing_id": "3110659",
+   "amendment": 0,
+   "form": "F635",
+   "from": "10/1/2025",
+   "thru": "12/31/2025",
+   "year": 2025,
+   "quarter": 4,
+   "lines": {
+    "A": 0.0,
+    "B": 37750.0,
+    "C": 372.86,
+    "D": 0.0,
+    "ABCD": 38122.86,
+    "E": 0.0
+   },
+   "total": 38122.86,
+   "subjects": "AB 412, 853; SB 53, 942; Legislature, Administration, CA Privacy Protection Agency: issues related to privacy and AI policies."
+  },
+  {
+   "org": "openai",
+   "filing_id": "3141194",
+   "amendment": 0,
+   "form": "F635",
+   "from": "1/1/2026",
+   "thru": "3/31/2026",
+   "year": 2026,
+   "quarter": 1,
+   "lines": {
+    "A": 0.0,
+    "B": 27750.0,
+    "C": 0.0,
+    "D": 137644.2,
+    "ABCD": 165394.2,
+    "E": 0.0
+   },
+   "total": 165394.2,
+   "subjects": "AB 1700, 1946, 2023, 2487, 2713; SB 1000, 1119; Legislature, Administration, CA Privacy Protection Agency: issues related to technology, AI policies, and youth safety."
+  },
+  {
+   "org": "openai",
+   "filing_id": "3179339",
+   "amendment": 0,
+   "form": "F635",
+   "from": "4/1/2026",
+   "thru": "6/30/2026",
+   "year": 2026,
+   "quarter": 2,
+   "lines": {
+    "A": 0.0,
+    "B": 65581.42,
+    "C": 0.0,
+    "D": 1103814.0,
+    "ABCD": 1169395.42,
+    "E": 0.0
+   },
+   "total": 1169395.42,
+   "subjects": "AB 412, AB 853, AB 2023; SB 53, SB 1000; Legislature, Administration, CA Privacy Protection Agency: issues related to privacy and AI policies."
+  }
+ ],
+ "washington": [
+  {
+   "org": "anthropic",
+   "lobbyist": "Eileen Sullivan",
+   "employer": "Anthropic PBC",
+   "month": "2026-09",
+   "compensation": 7000.0,
+   "expenses": 0.0,
+   "total": 7000.0,
+   "url": "https://my.pdc.wa.gov/lobbyist/public/-/#/public/l2-report/2071722"
+  },
+  {
+   "org": "openai",
+   "lobbyist": "Traci Lee",
+   "employer": "OpenAI OpCo LLC",
+   "month": "2026-03",
+   "compensation": 673.1,
+   "expenses": 0.0,
+   "total": 673.1,
+   "url": "https://my.pdc.wa.gov/lobbyist/public/-/#/public/l2-report/2066154"
+  },
+  {
+   "org": "openai",
+   "lobbyist": "Traci Lee",
+   "employer": "OpenAI OpCo LLC",
+   "month": "2026-04",
+   "compensation": 0.0,
+   "expenses": 0.0,
+   "total": 0.0,
+   "url": "https://my.pdc.wa.gov/lobbyist/public/-/#/public/l2-report/2067311"
+  },
+  {
+   "org": "openai",
+   "lobbyist": "Traci Lee",
+   "employer": "OpenAI OpCo LLC",
+   "month": "2026-05",
+   "compensation": 0.0,
+   "expenses": 0.0,
+   "total": 0.0,
+   "url": "https://my.pdc.wa.gov/lobbyist/public/-/#/public/l2-report/2068241"
+  },
+  {
+   "org": "openai",
+   "lobbyist": "Traci Lee",
+   "employer": "OpenAI OpCo LLC",
+   "month": "2026-06",
+   "compensation": 0.0,
+   "expenses": 0.0,
+   "total": 0.0,
+   "url": "https://my.pdc.wa.gov/lobbyist/public/-/#/public/l2-report/2069354"
+  },
+  {
+   "org": "openai",
+   "lobbyist": "Traci Lee",
+   "employer": "OpenAI OpCo LLC",
+   "month": "2026-07",
+   "compensation": 0.0,
+   "expenses": 0.0,
+   "total": 0.0,
+   "url": "https://my.pdc.wa.gov/lobbyist/public/-/#/public/l2-report/2070182"
+  },
+  {
+   "org": "openai",
+   "lobbyist": "Traci Lee",
+   "employer": "OpenAI OpCo LLC",
+   "month": "2026-08",
+   "compensation": 0.0,
+   "expenses": 0.0,
+   "total": 0.0,
+   "url": "https://my.pdc.wa.gov/lobbyist/public/-/#/public/l2-report/2071315"
+  }
+ ]
+}

@@ -298,6 +298,40 @@ publishing the full soul document. Kept promises are
 recorded to the same standard as broken ones: a public source has to show the
 promise was tested and held.
 
+## Lobbying and political money
+
+Every federal lobbying report (130 filings) and contribution report (50) filed
+by or for either company was read, along with all state filings in California,
+New York and Washington. Tables, method and sources are in
+[inbox/lobbying/README.md](inbox/lobbying/README.md).
+
+| Reported lobbying spending | OpenAI | Anthropic |
+| --- | --: | --: |
+| Federal, 2023 | $260,000 (Q4 only) | $200,000 |
+| Federal, 2024 | $1,760,000 | $720,000 |
+| Federal, 2025 | $2,990,000 | $3,130,000 |
+| Federal, 2026 Q1–Q2 | $2,220,000 | $3,530,000 |
+| California, 2024 – 2026 Q2 | $1,630,494 | $370,361 |
+| New York, July 2024 – June 2026 | $243,134 | $130,894 |
+| Washington, 2026 | $673 | $7,000 |
+
+- **Bills named.** OpenAI's federal reports named three to five bills a
+  quarter in 2023–2024 and none in the six quarters since (issue areas only).
+  Anthropic's named bills in five of those six quarters.
+- **Political money.** OpenAI the company reported no contributions to
+  candidates, parties or PACs; its political money is its executives'
+  (Greg and Anna Brockman's $50 million to two super PACs, Altman's $1 million inaugural
+  gift). Anthropic the company gave $50,000 to the 2025 inaugural committee,
+  formed an employee PAC that gave $58,000 to both parties in June 2026, and
+  gave $40 million to Public First Action, which it says cannot be spent on
+  elections.
+- **Record changes:** updates to the Public First Action, Leading the Future
+  and OSTP preemption entries; the 2023 Anthropic figure in the SB 1047 entry
+  corrected from $280,000 to $200,000.
+- **Not done:** filings don't record which side a company took; California's
+  bulk data doesn't itemize OpenAI's $1.10 million in "other payments" in Q2
+  2026; other states, the EU register and FEC data were not searched.
+
 ## What may still be missing
 
 - **Pages without a snapshot.** The Capture workflow on GitHub's runners saved
@@ -312,8 +346,8 @@ promise was tested and held.
   secondary coverage. Outside English, only regulators' decisions were
   checked; reporting in other languages wasn't searched.
 - **Channels searched but not swept in full:** long-form interviews and
-  podcasts, conference talks, LinkedIn, lobbying disclosure filings, and
-  state-level testimony. The October 1 pass searched them for the topics the
+  podcasts, conference talks, LinkedIn, and state-level testimony. (Lobbying
+  filings are now read in full; see above.) The October 1 pass searched them for the topics the
   record covers, but nobody has listened to every interview or read every
   filing.
 - **What isn't public at all:** contracts (the Pentagon agreements), internal
