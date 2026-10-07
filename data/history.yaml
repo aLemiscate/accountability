@@ -158,6 +158,26 @@
   urls:
     - https://support.anthropic.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan
     - https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan
+- id: anthropic-api-retention
+  org: anthropic
+  urls:
+    - https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data
+    - https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data
+    - https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data
+    - https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data
+- id: anthropic-consumer-retention
+  org: anthropic
+  urls:
+    - https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data
+    - https://privacy.anthropic.com/en/articles/10023548-how-long-do-you-store-my-data
+- id: anthropic-covered-models-retention
+  org: anthropic
+  urls:
+    - https://privacy.claude.com/en/articles/15425996-data-retention-practices-for-covered-models
+    - https://privacy.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models
+- id: anthropic-discover-privacy
+  org: anthropic
+  discover: privacy.anthropic.com/en/articles/
 - id: anthropic-discover-support
   org: anthropic
   discover: support.anthropic.com/en/articles/

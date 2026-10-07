@@ -120,6 +120,40 @@ commitments:
       anthropic:
         grade: standing
         evidence: No public case was found.
+  - id: no-targeted-advertising
+    versions: Privacy policy, July 2023 version; replaced March 4, 2024
+    section: Privacy policy, Rights and Choices
+    text: >-
+      Anthropic also does not engage in targeted advertising using your
+      personal data.
+    grades:
+      anthropic:
+        grade: eroded
+        evidence: >-
+          Dropped in the March 2024 policy, which said instead: "If we share
+          your personal data for targeted advertising to promote our products
+          and services in the future, you can opt-out and we will honor global
+          privacy controls." Since the December 2024 version it has read: "You
+          can opt-out of sharing your personal data for targeted advertising to
+          promote our products and services." Each version carried a new
+          effective date; no announcement of the change was found. OpenAI's
+          policy made the same change in April 2026.
+        sources:
+          - title: Privacy Policy (effective July 8, 2023), as archived on Feb. 25, 2024
+            publisher: Internet Archive
+            url: https://web.archive.org/web/20240225205441/https://www.anthropic.com/legal/privacy
+            date: 2024-02-25
+            type: archive
+          - title: Privacy Policy (effective March 4, 2024), as archived on March 4, 2024
+            publisher: Internet Archive
+            url: https://web.archive.org/web/20240304151321/https://www.anthropic.com/legal/privacy
+            date: 2024-03-04
+            type: archive
+          - title: Privacy Policy (effective Dec. 17, 2024), as archived on Dec. 19, 2024
+            publisher: Internet Archive
+            url: https://web.archive.org/web/20241219083518/https://www.anthropic.com/legal/privacy
+            date: 2024-12-19
+            type: archive
   - id: honor-privacy-signals
     versions: Privacy policy, March 2024 to September 2026
     section: Privacy policy, Rights and Choices

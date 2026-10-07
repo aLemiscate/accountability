@@ -1,0 +1,388 @@
+title: OpenAI's privacy policy and data-use pages (all archived versions)
+date: 2023-03-01
+parties: [openai]
+summary: >-
+  OpenAI's promises about what it does with people's data: its U.S. privacy
+  policy, the ChatGPT data controls help page, its enterprise privacy page,
+  its API data controls page, and the data clauses of its terms of use and
+  business terms (now the OpenAI Services Agreement). OpenAI doesn't keep a
+  public archive of past versions the way Anthropic does (since February 2026
+  its privacy policy links to the one before), so the versions were pulled
+  from the Internet Archive: 89 of the privacy policy back to May 2021, 292 of
+  the data controls page back to April 2023, 30 of the enterprise privacy
+  page, 44 of the API page, 85 of the terms of use and 24 of the business
+  terms. Four of the privacy policy captures are OpenAI's European policy,
+  which the same address serves to visitors in Europe; they were set aside.
+  The current versions were read in full, and each commitment was traced
+  through every archived version to date its wording. Most of these promises
+  can't be checked from outside, so most are graded "standing": in force, with
+  nothing public showing them broken.
+sources:
+  - title: US privacy policy (updated Sept. 10, 2026)
+    publisher: OpenAI
+    url: https://openai.com/policies/privacy-policy/
+    date: 2026-09-10
+    type: primary
+  - title: Data controls in ChatGPT
+    publisher: OpenAI Help Center
+    url: https://help.openai.com/en/articles/7730893-data-controls-faq
+    date: 2026-10-07
+    type: primary
+  - title: Enterprise privacy at OpenAI
+    publisher: OpenAI
+    url: https://openai.com/enterprise-privacy/
+    date: 2026-01-08
+    type: primary
+  - title: Data controls in the OpenAI platform
+    publisher: OpenAI
+    url: https://developers.openai.com/api/docs/guides/your-data
+    date: 2026-10-03
+    type: primary
+    snapshot: snapshots/2026-10-03-developers.openai.com-2aca780a
+  - title: Terms of use
+    publisher: OpenAI
+    url: https://openai.com/policies/terms-of-use/
+    date: 2026-10-07
+    type: primary
+  - title: OpenAI Services Agreement
+    publisher: OpenAI
+    url: https://openai.com/policies/business-terms/
+    date: 2026-10-07
+    type: primary
+entries: [2025-05-nyt-chat-preservation-order, 2026-01-16-ad-principles, 2023-08-15-altman-never-trains-api]
+commitments:
+  - id: api-no-training
+    versions: API data controls page, December 2025 to October 2026 (the policy dates from March 2023)
+    section: API data controls page
+    text: >-
+      As of March 1, 2023, data sent to the OpenAI API is not used to train or
+      improve OpenAI models (unless you explicitly opt in to share data with
+      us).
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          No public case was found. API data from before March 2023 was not
+          covered; OpenAI's 2022 InstructGPT paper used prompts from API
+          Playground users.
+        entries: [2023-08-15-altman-never-trains-api]
+  - id: api-30-day-abuse-logs
+    versions: API data controls page, March 2023 to October 2026 (current exceptions from April 2026)
+    section: API data controls page, Data retention controls for abuse monitoring
+    text: >-
+      By default, abuse monitoring logs are generated for all API feature usage
+      and retained for up to 30 days, unless longer retention is required by
+      law, or is reasonably necessary to protect our services or any third
+      party from harm.
+    grades:
+      openai:
+        grade: eroded
+        evidence: >-
+          Weakened in April 2026, when GPT-5.5 launched. Until then the only
+          exception was law ("unless we are legally required to retain the logs
+          for longer"; in 2023, "unless otherwise required by law"). The new
+          wording adds retention "reasonably necessary to protect our services
+          or any third party from harm," and the page now reserves the right to
+          make models ineligible for zero data retention for specific
+          customers, with advance written notice. Anthropic's equivalent page
+          also allows longer retention to enforce its usage policy, and since
+          June 2026 it requires 30-day retention for its most capable models
+          even for most zero-retention customers. The 2025 court order in the New
+          York Times case fell under the legal exception.
+        entries: [2025-05-nyt-chat-preservation-order]
+        sources:
+          - title: Data controls in the OpenAI platform, as archived on April 24,
+              2026
+            publisher: Internet Archive
+            url: https://web.archive.org/web/20260424064348/https://developers.openai.com/api/docs/guides/your-data
+            date: 2026-04-24
+            type: archive
+          - title: Data controls in the OpenAI platform
+            publisher: OpenAI
+            url: https://developers.openai.com/api/docs/guides/your-data
+            date: 2026-10-03
+            type: primary
+            snapshot: snapshots/2026-10-03-developers.openai.com-2aca780a
+  - id: business-no-training-by-default
+    versions: Enterprise privacy page, August 2023 to October 2026 (in varying words)
+    section: Enterprise privacy, Our commitments
+    text: We do not train our models on your data by default
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          No public case was found. When the 2025 court order applied to other
+          tiers, OpenAI said business data would still not be used for
+          training.
+  - id: custom-models-private
+    versions: Enterprise privacy page, January 2024 to October 2026
+    section: Enterprise privacy, Control
+    text: >-
+      Custom models are yours alone to use and are not shared with anyone else
+    grades:
+      openai:
+        grade: standing
+        evidence: No public case was found.
+  - id: honor-training-opt-out
+    versions: Data controls help page, April 2023 to October 2026 (current wording from September 2026)
+    section: Data controls in ChatGPT, Turn off Improve the model for everyone
+    text: >-
+      When Improve the model for everyone is off, your new conversations won’t
+      be used to train OpenAI models.
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          No public case was found. The page says conversations with feedback,
+          such as a thumbs up or down, may still be used for training.
+  - id: honor-prior-opt-outs
+    versions: Data controls help page, April 2023 to October 2026
+    section: Data controls in ChatGPT, FAQ
+    text: OpenAI continues to honor the opt-out associated with the account.
+    grades:
+      openai:
+        grade: standing
+        evidence: No public case was found.
+  - id: temporary-chats-not-trained
+    versions: Privacy policy, February 2026 to September 2026 (the help page has said so since May 2024)
+    section: Privacy policy, Data controls
+    text: >-
+      If you enable Temporary Chat in ChatGPT, those conversations with ChatGPT
+      will not appear in your history or be used to improve OpenAI’s models.
+    grades:
+      openai:
+        grade: standing
+        evidence: No public case was found.
+  - id: temporary-chats-deleted-30-days
+    versions: Data controls help page, April 2025 to September 2026 ("within 30 days" from May 2024); since reworded
+    section: Data controls in ChatGPT
+    text: Temporary Chats are deleted from our systems after 30 days.
+    grades:
+      openai:
+        grade: eroded
+        evidence: >-
+          Only partly met. From May to September 2025 a court order in the New
+          York Times case required OpenAI to keep Temporary Chats and deleted
+          chats for Free, Plus, Pro and Team users, and logs saved then are
+          still preserved. OpenAI opposed the order and disclosed it, and the
+          help page carried a note about it, but kept this sentence until
+          September 2026. The page now says Temporary Chats "may be retained
+          for up to 30 days for safety purposes," and the privacy policy adds
+          a legal exception.
+        entries: [2025-05-nyt-chat-preservation-order]
+        sources:
+          - title: OpenAI no longer has to preserve all of its ChatGPT data, with
+              some exceptions
+            publisher: Engadget
+            url: https://www.engadget.com/ai/openai-no-longer-has-to-preserve-all-of-its-chatgpt-data-with-some-exceptions-192422093.html
+            date: 2025-10-11
+            type: reporting
+  - id: delete-within-30-days
+    versions: Privacy policy, February 2026 to September 2026
+    section: Privacy policy, Retention
+    text: >-
+      Once you choose to delete Personal Data, we will remove it from our
+      systems within 30 days unless we need to retain it for longer as
+      described below, or it has already been de-identified and disassociated
+      from your account when you allow us to use your Content to improve our
+      models.
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          This wording postdates the 2025 court order, and its exceptions
+          include data OpenAI is legally required to keep.
+  - id: no-sale
+    versions: Privacy policy, May 2021 to September 2026 (in varying words)
+    section: Privacy policy, Additional U.S. state disclosures
+    text: We don’t “sell” Personal Data.
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          No public case was found. Since April 2026 OpenAI shares limited data
+          with marketing partners, which the policy calls targeted advertising
+          rather than a sale (see below).
+  - id: no-targeted-advertising
+    versions: Privacy policy, November 2024 to April 2026 (an earlier form from June 2023); dropped April 30, 2026
+    section: Privacy policy, Additional U.S. state disclosures
+    text: >-
+      We don’t “sell” Personal Data or “share” Personal Data for
+      cross-contextual behavioral advertising, and we do not process Personal
+      Data for “targeted advertising” purposes (as those terms are defined
+      under state privacy laws).
+    grades:
+      openai:
+        grade: eroded
+        evidence: >-
+          Dropped on April 30, 2026. The policy now says OpenAI "may share
+          limited data with select marketing partners for purposes of promoting
+          our products and services to you on third-party properties," which
+          it calls targeted advertising, with an opt-out. OpenAI told users by
+          email, and turned the setting on by default for free users. It says
+          chat content is not shared. Anthropic's policy made the same change
+          for its own marketing in 2024.
+        entries: [2026-01-16-ad-principles]
+        sources:
+          - title: ChatGPT now tracks users for ads by default as OpenAI looks for
+              new revenue
+            publisher: The Decoder
+            url: https://the-decoder.com/chatgpt-now-tracks-users-for-ads-by-default-as-openai-looks-for-new-revenue/
+            date: 2026-05-02
+            type: reporting
+  - id: honor-gpc
+    versions: Privacy policy, April 2026 to September 2026
+    section: Privacy policy, Additional U.S. state disclosures
+    text: >-
+      You can also opt out using a legally recognized opt-out mechanism, like
+      Global Privacy Control.
+    grades:
+      openai:
+        grade: standing
+        evidence: Not checked from outside.
+  - id: no-ad-sharing-for-minors
+    versions: Privacy policy, April 2026 to September 2026
+    section: Privacy policy, Additional U.S. state disclosures
+    text: >-
+      We don’t engage in these activities for users we know to be under 18
+      years of age.
+    grades:
+      openai:
+        grade: standing
+        evidence: No public case was found.
+  - id: no-sensitive-inference
+    versions: Privacy policy, March 2023 to September 2026 (in varying words)
+    section: Privacy policy, Additional U.S. state disclosures
+    text: >-
+      We don’t process sensitive data for the purpose of inferring
+      characteristics about you.
+    grades:
+      openai:
+        grade: standing
+        evidence: No public case was found.
+  - id: no-reidentification
+    versions: Privacy policy, November 2024 to September 2026
+    section: Privacy policy, Personal Data we collect
+    text: >-
+      We will maintain and use de-identified information in de-identified form
+      and not attempt to reidentify the information, unless required by law.
+    grades:
+      openai:
+        grade: standing
+        evidence: No public case was found.
+  - id: security-measures
+    versions: Privacy policy, November 2024 to September 2026
+    section: Privacy policy, Security
+    text: >-
+      We implement commercially reasonable technical, administrative, and
+      organizational measures designed to protect Personal Data from loss,
+      misuse, and unauthorized access, disclosure, alteration, or destruction.
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          A March 2023 bug showed some users other users' chat titles and
+          exposed payment details of some Plus subscribers; Italy's regulator
+          fined OpenAI partly for not reporting it, and a court later voided
+          the fine on jurisdiction. In November 2025 an attacker took names,
+          emails and approximate locations of some API users from Mixpanel, an
+          analytics vendor, which OpenAI disclosed and then dropped. Neither
+          shows the measures this sentence describes were absent.
+        entries: [2024-12-20-italy-privacy-fine]
+        sources:
+          - title: OpenAI Discloses Mixpanel Security Incident Affecting Some API
+              Users
+            publisher: Datamation
+            url: https://www.datamation.com/artificial-intelligence/openai-mixpanel-security-incident/
+            date: 2025-11-27
+            type: reporting
+  - id: same-protections-everywhere
+    versions: Privacy policy, November 2024 to September 2026
+    section: Privacy policy, Security
+    text: >-
+      While data protection law varies by country, we apply the protections
+      described in this policy to your Personal Data regardless of where it is
+      processed, and only transfer that data pursuant to legally valid
+      transfer mechanisms.
+    grades:
+      openai:
+        grade: standing
+        evidence: Not checked from outside.
+  - id: children-under-13
+    versions: Privacy policy, November 2024 to September 2026
+    section: Privacy policy, Children
+    text: We do not knowingly collect Personal Data from children under 13.
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          Italy's regulator found in 2024 that OpenAI had no age verification
+          to keep under-13s away; a Rome court annulled the decision on
+          jurisdiction without ruling on the finding. The promise is about
+          knowing collection, which no public case shows.
+        entries: [2024-12-20-italy-privacy-fine]
+  - id: vendors-limited-to-duties
+    versions: Privacy policy, March 2023 to September 2026 (in varying words)
+    section: Privacy policy, Disclosure of Personal Data
+    text: >-
+      When we work with Service Providers, these parties will access, process,
+      or store Personal Data based on our instructions and only in the course
+      of performing their duties to us.
+    grades:
+      openai:
+        grade: standing
+        evidence: No public case was found.
+  - id: notice-before-workplace-linking
+    versions: Terms of use, November 2023 to October 2026
+    section: Terms of use, Corporate domains
+    text: >-
+      If you create an account using an email address owned by an organization
+      (for example, your employer), that account may be added to the
+      organization's business account with us, in which case we will provide
+      notice to you so that you can help facilitate the transfer of your
+      account (unless your organization has already provided notice to you
+      that it may monitor and control your account).
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          No public case was found. As in Anthropic's terms, OpenAI can skip
+          the notice if the employer has already given one.
+  - id: no-training-on-business-data
+    versions: Business terms and Services Agreement, November 2023 to October 2026 (opt-in exception added May 2025)
+    section: Services Agreement, Customer Content
+    text: >-
+      OpenAI will not use Customer Content to develop or improve the Services,
+      unless Customer explicitly agrees to such use.
+    grades:
+      openai:
+        grade: standing
+        evidence: >-
+          No public case was found. Until May 2025 the clause had no opt-in
+          exception: "We will not use Customer Content to develop or improve
+          the Services."
+  - id: publish-policy-changes
+    versions: Privacy policy, November 2024 to September 2026 (similar wording since September 2022)
+    section: Privacy policy, Changes to the privacy policy
+    text: >-
+      When we do, we will publish an updated version and effective date on
+      this page, unless another type of notice is required by applicable law.
+    grades:
+      openai:
+        grade: kept
+        evidence: >-
+          Every substantive change in the archived versions since November 2024
+          came with a new date at the top of the page, and since February 2026
+          the page links to the previous version. A few small fixes went in without a
+          new date, such as restoring a sentence and a list of state privacy
+          rights that the April 30, 2026 version had dropped. This is a weaker
+          promise than OpenAI once made: its 2021 API privacy policy said, "If
+          we make any material change to our Privacy Policy, we will notify you
+          by posting a prominent announcement on the Site." That line went when
+          the policies were merged in September 2022.
+        sources:
+          - title: US privacy policy (updated Sept. 10, 2026)
+            publisher: OpenAI
+            url: https://openai.com/policies/privacy-policy/
+            date: 2026-09-10
+            type: primary

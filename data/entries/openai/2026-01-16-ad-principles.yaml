@@ -91,6 +91,40 @@ updates:
         date: 2026-02-11
         type: reporting
         snapshot: snapshots/2026-09-30-cnn.com-beb0c5d1
+  - date: 2026-04-30
+    text: >-
+      OpenAI emailed users that it had updated its privacy policy, and turned
+      on marketing cookies by default for free ChatGPT users. The policy
+      dropped its statement that OpenAI does not "share" personal data for
+      cross-context behavioral advertising or process it for "targeted
+      advertising." It now says OpenAI "may share limited data with select
+      marketing partners for purposes of promoting our products and services
+      to you on third-party properties." Reporting cited cookie IDs, device IDs
+      and email addresses. A spokesperson told Adweek that "nothing about our
+      policy of not sharing people’s conversations or other private user
+      content with advertisers has changed." Since its February 2026 version,
+      the policy has also said OpenAI may receive information from advertisers
+      about purchases users make. The ad principles hold in letter. Anthropic's
+      privacy policy made the same change for marketing its own products in
+      2024.
+    sources:
+      - title: ChatGPT now tracks users for ads by default as OpenAI looks for new
+          revenue
+        publisher: The Decoder
+        url: https://the-decoder.com/chatgpt-now-tracks-users-for-ads-by-default-as-openai-looks-for-new-revenue/
+        date: 2026-05-02
+        type: reporting
+      - title: OpenAI's privacy policy now lets advertisers send purchase data
+        publisher: PPC Land
+        url: https://ppc.land/openais-privacy-policy-now-lets-advertisers-send-purchase-data/
+        date: 2026-05-01
+        type: reporting
+      - title: OpenAI updates U.S. privacy policy to formalize data-sharing with
+          advertisers and marketing partners
+        publisher: Shopifreaks
+        url: https://www.shopifreaks.com/openai-updates-u-s-privacy-policy-to-formalize-data-sharing-with-advertisers-and-marketing-partners/
+        date: 2026-05-01
+        type: reporting
   - date: 2026-09-16
     text: >-
       With ChatGPT ads at a reported $1 billion annualized run rate, OpenAI
