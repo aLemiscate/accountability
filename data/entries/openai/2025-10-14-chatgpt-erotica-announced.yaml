@@ -53,6 +53,27 @@ response: >-
   OpenAI said it had mitigated serious mental-health issues and built new tools,
   so it could safely relax restrictions in most cases.
 updates:
+  - date: 2025-10-29
+    text: >-
+      OpenAI's rewritten usage policies took effect. They no longer include
+      the rule that builders "Don’t build tools that may be inappropriate for
+      minors, including: Sexually explicit or suggestive content," or the GPT
+      Store's ban on GPTs "dedicated to fostering romantic companionship." The
+      new list bars "sexual violence or non-consensual intimate content" and
+      sexual content involving anyone under 18. The page announced "a
+      universal set of policies" without listing what was removed.
+    sources:
+      - title: Usage policies (effective Oct. 29, 2025)
+        publisher: OpenAI
+        url: https://openai.com/policies/usage-policies/
+        date: 2025-10-29
+        type: primary
+      - title: Usage policies (updated Jan. 29, 2025), as archived on Sept. 14,
+          2025
+        publisher: Internet Archive
+        url: https://web.archive.org/web/20250914092717/https://openai.com/policies/usage-policies/
+        date: 2025-09-14
+        type: archive
   - date: 2025-12-18
     text: >-
       With adult mode still planned, Altman said OpenAI would "give people quite

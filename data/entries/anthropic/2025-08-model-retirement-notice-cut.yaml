@@ -1,0 +1,69 @@
+title: Anthropic quietly cuts the notice it promises before retiring a model, from
+  "at least 6 months" to "at least 60 days"
+date: 2025-08
+org: anthropic
+type: did
+kind: action
+who: [anthropic]
+quote: >-
+  We provide at least 60 days notice before model retirement for publicly
+  released models.
+summary: >-
+  From September 2024, Anthropic's model deprecations page said it gave "at
+  least 6 months † notice before model retirement for publicly released
+  models" (the dagger marked a 60-day exception for the old Claude 1 family),
+  and that each model got a "Guaranteed Available Until" date "at least one
+  year out." The guarantee and its column were taken off the page between
+  February 27 and March 4, 2025. Between August 7 and August 10, 2025, "6
+  months" became "60 days," with no note of the change. The same edit added
+  a "Not sooner than" retirement date a year after each active model's
+  release, and a warning that deprecated models "are likely to be less
+  reliable." Three days later, on August 13, Anthropic told developers the two
+  Claude Sonnet 3.5 models would be retired on October 22, 70 days out (later
+  moved to October 28). The two retirements announced in 2025 before the
+  change gave 181 and 189 days' notice. Of the seven announced since, through
+  September 2026, one gave 114 days and the other six gave 60 to 76.
+patterns: [silent-edit]
+related: [2025-11-04-model-weight-preservation]
+sources:
+  - title: Model deprecations - Anthropic, as archived on Aug. 7, 2025
+    publisher: Internet Archive
+    url: https://web.archive.org/web/20250807075657/https://docs.anthropic.com/en/docs/about-claude/model-deprecations
+    date: 2025-08-07
+    type: archive
+  - title: Model deprecations - Anthropic, as archived on Aug. 10, 2025
+    publisher: Internet Archive
+    url: https://web.archive.org/web/20250810034737/https://docs.anthropic.com/en/docs/about-claude/model-deprecations
+    date: 2025-08-10
+    type: archive
+  - title: Model deprecations - Anthropic, as archived on Feb. 27, 2025
+    publisher: Internet Archive
+    url: https://web.archive.org/web/20250227091015/https://docs.anthropic.com/en/docs/resources/model-deprecations
+    date: 2025-02-27
+    type: archive
+  - title: Model deprecations - Anthropic, as archived on March 4, 2025
+    publisher: Internet Archive
+    url: https://web.archive.org/web/20250304075323/https://docs.anthropic.com/en/docs/resources/model-deprecations
+    date: 2025-03-04
+    type: archive
+  - title: Model deprecations - Claude Platform Docs
+    publisher: Anthropic
+    url: https://platform.claude.com/docs/en/about-claude/model-deprecations
+    date: 2026-10-07
+    type: primary
+response: >-
+  No statement from Anthropic about the change was found. Its API release
+  notes for August 2025 list the Sonnet 3.5 retirement but not the new notice
+  period.
+note: >-
+  The first archived copy of the page, from September 7, 2024, said "at least
+  60 days" and a guaranteed date "typically one year out"; by September 12 it
+  said 6 months and "at least one year out," so the August 2025 edit went back
+  to where the page began. Every model retired so far stayed available until
+  at least the date it was guaranteed or promised, so this is a shorter
+  warning, not an earlier retirement: the year-after-release floor survived in
+  the "Not sooner than" dates. Anthropic keeps retired models' weights (see related) but does not
+  serve them through the API. For comparison, OpenAI’s deprecations page has
+  said since about June 2026 that it gives generally available models "At least 6
+  months" notice. Dates and notice periods were read from every archived
+  version of the page, in order.

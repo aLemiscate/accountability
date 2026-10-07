@@ -99,6 +99,16 @@ commitments:
       anthropic:
         grade: standing
         evidence: No public case was found.
+  - id: minimize-training-privacy-impact
+    versions: Privacy policy, March 2024 to December 2024 (since then, a pointer to a separate notice on model training)
+    section: Privacy policy, Collection of Personal Data
+    text: >-
+      We take steps to minimize the privacy impact on individuals through the
+      training process.
+    grades:
+      anthropic:
+        grade: standing
+        evidence: Not checked from outside; no public case was found.
   - id: delete-within-30-days
     versions: Privacy policy, June 2024 to September 2026
     section: Privacy policy, Rights and Choices
@@ -249,7 +259,7 @@ commitments:
           No public case was found. The terms let Anthropic skip the notice if
           the employer says it has told the user.
   - id: no-training-on-business-data
-    versions: Commercial terms, February 2025 to June 2025
+    versions: Commercial terms, February 2024 to the current version of June 17, 2025 ("from paid Services" until February 2025)
     section: Commercial terms, Customer Content
     text: >-
       Anthropic may not train models on Customer Content from Services.

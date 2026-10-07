@@ -72,6 +72,8 @@
   urls:
     - https://openai.com/chatgpt/pricing/
     - https://openai.com/chatgpt/pricing
+    - https://chatgpt.com/pricing
+    - https://chatgpt.com/pricing/
 - id: openai-rate-limits
   org: openai
   urls:
@@ -83,6 +85,64 @@
     - https://platform.openai.com/docs/deprecations
     - https://platform.openai.com/docs/deprecations/
     - https://developers.openai.com/api/docs/deprecations
+- id: openai-plus-usage
+  org: openai
+  urls:
+    - https://help.openai.com/en/articles/6950777-chatgpt-plus
+    - https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus
+- id: openai-gpt4-limits
+  org: openai
+  urls:
+    - https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits
+    - https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4
+    - https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o
+    - https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini
+    - https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4o-and-gpt-4o-mini
+    - https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4o-mini
+    - https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4-1-mini
+    - https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-41-mini
+- id: openai-o-series-limits
+  org: openai
+  urls:
+    - https://help.openai.com/en/articles/9824962-openai-o1-preview-and-o1-mini-usage-limits-on-chatgpt-and-the-api
+    - https://help.openai.com/en/articles/9824962-openai-o1-and-o1-mini-usage-limits-on-chatgpt-and-the-api
+    - https://help.openai.com/en/articles/9824962-openai-o1-o1-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api
+    - https://help.openai.com/en/articles/9824962-openai-o3-o4-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api
+    - https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api
+    - https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt
+    - https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt
+- id: openai-gpt5-limits
+  org: openai
+  urls:
+    - https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt
+    - https://help.openai.com/en/articles/11909943-gpt-5-1-in-chatgpt
+    - https://help.openai.com/en/articles/11909943-gpt-51-in-chatgpt
+    - https://help.openai.com/en/articles/11909943-gpt-52-in-chatgpt
+    - https://help.openai.com/en/articles/11909943-gpt-53-and-52-in-chatgpt
+    - https://help.openai.com/en/articles/11909943-gpt-53-and-54-in-chatgpt
+    - https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-54-in-chatgpt
+    - https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-55-in-chatgpt
+    - https://help.openai.com/en/articles/11909943-gpt-55-in-chatgpt
+- id: openai-team-limits
+  org: openai
+  urls:
+    - https://help.openai.com/en/articles/8801707-what-is-the-message-cap-on-chatgpt-team
+    - https://help.openai.com/en/articles/12003714-chatgpt-team-models-limits
+    - https://help.openai.com/en/articles/12003714-chatgpt-business-models-limits
+    - https://help.openai.com/en/articles/12003714-chatgpt-business-models-and-limits
+- id: openai-enterprise-limits
+  org: openai
+  urls:
+    - https://help.openai.com/en/articles/8266413-what-are-chatgpt-enterprise-s-max-message-limits
+    - https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits
+    - https://help.openai.com/en/articles/11165333-chatgpt-enterprise-and-edu-models-limits
+- id: openai-legacy-models
+  org: openai
+  urls:
+    - https://help.openai.com/en/articles/11954883-legacy-model-access-for-team-and-enterprise-users
+    - https://help.openai.com/en/articles/11954883-legacy-model-access-for-team-enterprise-and-edu-users
+    - https://help.openai.com/en/articles/11954883-legacy-model-access-for-enterprise-and-edu-users
+    - https://help.openai.com/en/articles/11954883-legacy-model-access-for-business-enterprise-and-edu-users
 - id: openai-discover-policies
   org: openai
   discover: openai.com/policies/

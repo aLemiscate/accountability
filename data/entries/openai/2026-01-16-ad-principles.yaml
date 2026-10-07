@@ -48,6 +48,29 @@ sources:
     snapshot: snapshots/2026-10-07-podcasts.apple.com-319b00a6
 related: [2026-02-04-altman-never-run-ads-like-that]
 updates:
+  - date: 2026-02-09
+    text: >-
+      As ads launched, OpenAI deleted a sentence that had stood in its help
+      article on training since January 2024: "We don’t use your content to
+      market our services or create advertising profiles of you—we use it to
+      make our models more helpful." It was there on February 7 and gone by
+      February 10, with no note of the change. The privacy policy dated
+      February 9 added personalizing ads for Free and Go users as a use of
+      personal data. OpenAI had said in January that ads would be matched to
+      the conversation.
+    sources:
+      - title: How your data is used to improve model performance, as archived on
+          Feb. 7, 2026
+        publisher: Internet Archive
+        url: https://web.archive.org/web/20260207094720/https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance
+        date: 2026-02-07
+        type: archive
+      - title: How your data is used to improve model performance, as archived on
+          Feb. 10, 2026
+        publisher: Internet Archive
+        url: https://web.archive.org/web/20260210072027/https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance
+        date: 2026-02-10
+        type: archive
   - date: 2026-02-11
     text: >-
       In an interview published as OpenAI began testing ads, Fidji Simo,
