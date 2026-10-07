@@ -298,6 +298,69 @@ publishing the full soul document. Kept promises are
 recorded to the same standard as broken ones: a public source has to show the
 promise was tested and held.
 
+## Commitments in formal documents
+
+Every individual commitment in each company's formal documents is listed
+verbatim in [data/commitments/](data/commitments/), one file per document, and
+graded for each company: **kept** (met, with evidence an outsider can check),
+**standing** (in force, nothing public shows it broken), **eroded** (dropped,
+weakened or only partly met), **broken**, or **unknown** (can't be checked
+from outside). Every version of each document was read, and each
+commitment's wording was dated from the versions themselves. The site's
+Commitments view shows each grade with its evidence. Entries were made only
+where a result is notable.
+
+| Document | OpenAI kept | Anthropic kept |
+| --- | --: | --: |
+| White House voluntary commitments (2023) | 9 of 16 | 10 of 16 |
+| Seoul Frontier AI Safety Commitments (2024) | 5 of 10 | 7 of 10 |
+| Safety by Design child-safety principles (2024) | 4 of 10 | 4 of 10 |
+| EU general-purpose AI code of practice (2025) | 5 of 12 | 5 of 12 |
+| Preparedness Framework, both versions | 6 of 22 | — |
+| Responsible Scaling Policy, all nine versions | — | 8 of 28 |
+| Model Spec, all seven releases | 1 of 33 | — |
+| Claude's constitution | — | 5 of 32 |
+| Privacy policy, data-use pages and data clauses of the terms | 1 of 22 | 0 of 16 |
+| **All documents** | **31 of 125** | **39 of 124** |
+
+| All grades | Kept | Standing | Eroded | Broken | Unknown |
+| --- | --: | --: | --: | --: | --: |
+| OpenAI | 31 | 57 | 20 | 3 | 14 |
+| Anthropic | 39 | 44 | 11 | 6 | 24 |
+
+- **Shared pledges.** On the four documents both signed, Anthropic kept 26 of
+  54 and OpenAI 23. OpenAI has nine eroded, Anthropic two. Five of OpenAI's
+  are on the White House commitments: GPT-4.1 shipped with no model report
+  and deep research's came 23 days late, testing time was reported cut, it
+  was slow to tell Australian agencies its agents had broken into their
+  systems, and it broke up several safety teams.
+- **Own frameworks.** Anthropic's Responsible Scaling Policy has the most
+  broken grades of any document (4), and three of the four rest on
+  Anthropic's own disclosures. OpenAI's Preparedness Framework has none broken
+  but five eroded. Anthropic publishes more about its own compliance, so more
+  of its promises can be checked, and more can be found broken.
+- **Behavior specs.** Most of the Model Spec and the constitution can't be
+  checked from outside. Each has a few broken grades, mostly where models
+  were shown acting against the document: GPT-4o's sycophancy and agents
+  reaching outside systems for OpenAI; Fable 5's hidden weakened answers and
+  models attacking real systems in cyber tests for Anthropic.
+- **Data use.** Both companies dropped a promise not to use personal data for
+  targeted advertising: Anthropic in March 2024, OpenAI on April 30, 2026.
+  Both now share data with ad partners to market their own products, with an
+  opt-out. OpenAI also weakened the exceptions to its 30-day API log retention
+  in April 2026. A 2025 court order made OpenAI keep Temporary Chats it had
+  promised to delete; it fought the order. Anthropic switched consumer chats
+  to training by default in 2025.
+- **Record changes:** new entries on the Financial Times report that OpenAI
+  split up its Preparedness team and on the 2025 court order to preserve
+  ChatGPT logs; an update to the ChatGPT ad principles entry on the April 2026
+  privacy policy change; corrections to both Safety by Design updates.
+- **Caveats.** The totals are not like for like: the documents differ in
+  length and in how many promises can be checked from outside. "Unknown" and
+  "standing" grades mean nothing public shows a failure, not that the promise
+  was kept. Anthropic's API retention help pages were added to the page
+  history so their earlier versions can be dated.
+
 ## Lobbying and political money
 
 Every federal lobbying report (130 filings) and contribution report (50) filed

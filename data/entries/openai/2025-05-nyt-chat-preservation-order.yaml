@@ -1,0 +1,60 @@
+title: A court order in the New York Times case makes OpenAI keep deleted and
+  temporary ChatGPT chats for four months
+date: 2025-05
+org: openai
+type: did
+kind: outcome
+who: [openai]
+summary: >-
+  In May 2025, in The New York Times' copyright suit, a federal court ordered
+  OpenAI to preserve ChatGPT and API output logs that it would otherwise have
+  deleted, including chats users had deleted and Temporary Chats. OpenAI's
+  help pages said Temporary Chats "are deleted from our systems after 30 days."
+  The order covered ChatGPT Free, Plus, Pro and Team users and API customers
+  without a zero data retention agreement; ChatGPT Enterprise and Edu and
+  zero-retention API customers were not affected. On October 9, Judge Ona T.
+  Wang ended the obligation as of September 26. Logs already saved under the
+  order stay preserved, as does data from accounts the Times has flagged.
+related: [2024-01-08-training-is-fair-use]
+patterns: []
+sources:
+  - title: OpenAI starts retaining all ChatGPT user data, including deleted chats
+      and API data
+    publisher: The Decoder
+    url: https://the-decoder.com/openai-starts-retaining-all-chatgpt-user-data-including-deleted-chats-and-api-data/
+    date: 2025-06-06
+    type: reporting
+  - title: OpenAI no longer has to preserve all of its ChatGPT data, with some
+      exceptions
+    publisher: Engadget
+    url: https://www.engadget.com/ai/openai-no-longer-has-to-preserve-all-of-its-chatgpt-data-with-some-exceptions-192422093.html
+    date: 2025-10-11
+    type: reporting
+  - title: How we're responding to The New York Times' data demands in order to
+      protect user privacy
+    publisher: OpenAI
+    url: https://openai.com/index/response-to-nyt-data-demands/
+    date: 2025-06-05
+    type: primary
+  - title: Data controls in ChatGPT
+    publisher: OpenAI Help Center
+    url: https://help.openai.com/en/articles/7730893-data-controls-faq
+    date: 2026-10-07
+    type: primary
+response: >-
+  OpenAI opposed the order. COO Brad Lightcap called it an "overreach," and
+  OpenAI asked the magistrate judge to reconsider and appealed to the district
+  judge while complying. It said the preserved data was held under legal hold,
+  with access limited to a small legal and security team, and was not
+  automatically handed to the plaintiffs.
+note: >-
+  Recorded as an outcome, not a broken promise: a court required the
+  retention and OpenAI fought it. OpenAI disclosed the order publicly, and
+  from June 2025 its data controls help page carried a note that "Data
+  retention for certain services may be affected by recent legal
+  developments." The same page kept saying Temporary Chats "are deleted from
+  our systems after 30 days" until September 2026, when the wording changed
+  to "may be retained for up to 30 days for safety purposes." The privacy
+  policy now names legal requirements as an exception to its 30-day deletion
+  promises. On the commitments page this is graded as an erosion of the
+  Temporary Chat deletion promise.
