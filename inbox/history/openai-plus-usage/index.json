@@ -1,0 +1,19 @@
+{
+ "id": "openai-plus-usage",
+ "org": "openai",
+ "urls": [
+  "https://help.openai.com/en/articles/6950777-chatgpt-plus",
+  "https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://help.openai.com/en/articles/6950777-chatgpt-plus",
+   "title": "What is ChatGPT Plus? | OpenAI Help Center",
+   "via": "fetch",
+   "sha": "6ab033fdb909a846",
+   "words": 885
+  }
+ ],
+ "captures": []
+}

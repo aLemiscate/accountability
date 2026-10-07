@@ -1,0 +1,40 @@
+English ; English
+English ; English
+Table of contents
+All Collections
+ChatGPT
+OpenAI o1 and o1-mini Usage Limits on ChatGPT and the API
+OpenAI o1 and o1-mini Usage Limits on ChatGPT and the API
+Understand OpenAI o1 model usage limits on your ChatGPT Plus and Team accounts and the API.
+Table of contents
+ChatGPT
+If you have a ChatGPT Plus, Pro, or ChatGPT Team account, you can select o1 or o1-mini in the model selector at the top of the page.
+With a ChatGPT Plus or Team account, you have access to 50 messages a week with OpenAI o1 and 50 messages a day with OpenAI o1-mini to start.
+The new ChatGPT Pro plan offers near unlimited access to our o1, o1-mini, and ChatGPT-4o models. However, usage must adhere to our Terms of Use , which prohibits, among other things:
+• Abusive usage, such as automatically or programmatically extracting data.
+• Sharing your account credentials or making your account available to anyone else.
+• Reselling access or using ChatGPT to power third-party services.
+We have guardrails in place to help prevent misuse and we are always working to improve our systems. This may occasionally involve a temporary restriction on your usage. We will inform you when this happens, and if you think this might be a mistake, please don’t hesitate to reach out to our support team at help.openai.com using the widget at the bottom-right of this page. If policy-violating behavior is not found, your access will be restored.
+When you hit that limit, you'll see a pop-up and no longer be able to select the model from the drop-down menu.
+You can check the date that your usage limits restarts at any time by highlighting the model name in the model picker drop-down. Your weekly usage limit resets every seven days after you send your first message. For example, if you start sending messages on September 12, your limit will reset on September 19 (00:00 UTC), regardless of when you reach the limit.
+You can verify that your response used o1 or o1-mini by checking at the top of the ChatGPT response.
+You can also verify the model used in a response at any time by highlighting the regenerate button under the response.
+Currently, there is no way to check how many messages you have used in your usage budget.
+API
+o1 and o1-mini are available to all API users on Paid usage tiers. View rate limits by tier in our platform documentation .
+​
+Learn more about your API usage tiers.
+Related Articles
+How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini?
+What is the ChatGPT model selector?
+Using OpenAI o1 models and GPT-4o models on ChatGPT
+OpenAI o1 models - FAQ [ChatGPT Enterprise and Edu]
+12 Days of OpenAI - Release Updates
+Did this answer your question?
+😞 😐 😃
+• ChatGPT
+• API
+• DALL·E
+• Service Status
+•
+•

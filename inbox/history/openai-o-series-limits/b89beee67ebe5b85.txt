@@ -1,0 +1,104 @@
+English ; English
+English ; English
+Table of contents
+All Collections
+ChatGPT
+Using OpenAI o-series models and GPT-4o models on ChatGPT
+Using OpenAI o-series models and GPT-4o models on ChatGPT
+Table of contents
+The OpenAI o-series models are a new series of reasoning models for solving hard problems. While GPT-4o is still the best option for most prompts, the o3 and o4-mini series may be helpful for handling complex, problem-solving tasks in domains like research, strategy, coding, math, and science.
+For most use cases, especially those that involve the use of tools, we recommend using GPT-4o in ChatGPT. Please note the following limitations on the OpenAI o-series reasoning models in ChatGPT:
+Tool
+o3
+o3-mini
+o4-mini
+o1 pro
+Web search
+✅
+✅
+✅
+❌
+Data analysis
+✅
+✅
+✅
+❌
+Image analysis
+✅
+✅
+✅
+✅
+File analysis
+✅
+✅
+✅
+❌
+Canvas
+✅
+❌
+✅
+❌
+Image generation
+✅
+❌
+✅
+❌
+Memory
+✅
+✅
+✅
+❌
+Custom Instructions
+✅
+✅
+✅
+❌
+Voice mode
+❌
+❌
+❌
+❌
+What conversation topics are appropriate for OpenAI’s o-series models?
+The OpenAI o3 and o4-mini models excel at complex problems that require additional thinking. When you use the OpenAI o1 and o1-mini models on ChatGPT, you can view the response thought process by opening the drop-down above the response:
+These are a few scenarios that OpenAI o1 models are ideal for:
+Strategy ideation
+The OpenAI o1 model can be a helpful ideation partner for early strategy development. When prompted to create a CRO test plan, the model helpfully creates potential test scenarios, a prioritization framework, and next steps to follow to immediately get started.
+Education
+The OpenAI o1 model can be helpful to faculty on course development and students with course tutoring. In this example, an educator is generating a tutoring guideline by asking the OpenAI o1 model to explain differential equations to a struggling student. The model generates starting principles, examples, and even practice problems that this student can use to learn differential equations.
+Coding exercises and reviews
+The OpenAI o1-mini model is a helpful coding partner for elaborate coding exercises, capable of understanding the complexity of the problem, providing a step-by-step breakdown and pseudocode of the solution, and providing any references it used to resolve the problem.
+UX Design-to-code
+The OpenAI o1 model enables quick prototyping of front-end code by transforming UX designs into functional code snippets accelerating the development process. In this example, the OpenAI o1 model is able to analyze the picture and provide the entire front-end code to build a mockup.
+Complex writing tasks
+The OpenAI o1 model can dig into multi-faceted writing prompts, and is particularly strong at maintaining the structure of the question in its response. In this example, the OpenAI o1 model is able to provide a background, conclusion, and an exhaustive list of strengths and weaknesses based on the question.
+When should I use GPT-4o?
+GPT-4o accepts as input any combination of text, audio, image, and video and generates any combination of text, audio, and image outputs. For most use cases, especially those that involve the use of advanced tools and vision, we recommend using GPT-4o in ChatGPT.
+FAQ
+What is the knowledge cut-off for the OpenAI o1 and o1-mini models?
+The OpenAI o1 and o1-mini models share the same knowledge cut-off as our GPT-4o models, October 2023.
+When will o1 be available to Enterprise and ChatGPT Edu customers?
+ChatGPT Enterprise and Edu customers will have access to the o1 model on December 5.
+What usage limits are enforced on the OpenAI o3 and o4-mini models?
+Users on ChatGPT Plus and Team accounts have access to the 50 messages a week with OpenAI o1 and 150 messages a day with OpenAI o4-mini.
+Learn more about OpenAI o1 usage limits.
+The ChatGPT Pro plan offers near unlimited access to our o1, o1-mini, and ChatGPT-4o models. However, usage must adhere to our Terms of Use , which prohibits, among other things:
+• Abusive usage, such as automatically or programmatically extracting data.
+• Sharing your account credentials or making your account available to anyone else.
+• Reselling access or using ChatGPT to power third-party services.
+We have guardrails in place to help prevent misuse and we are always working to improve our systems. This may occasionally involve a temporary restriction on your usage. We will inform you when this happens, and if you think this might be a mistake, please don’t hesitate to reach out to our support team at help.openai.com or using the widget at the bottom-right of this page. If policy-violating behavior is not found, your access will be restored.
+Can users on ChatGPT Free tier access OpenAI o-series models?
+Currently, OpenAI o4-mini is limitedly available on ChatGPT Free tier.
+Related Articles
+What is the ChatGPT model selector?
+Model Release Notes
+OpenAI o3, o4-mini, and o3-mini Usage Limits on ChatGPT and the API
+OpenAI o1 models - FAQ [ChatGPT Enterprise and Edu]
+Data residency for the OpenAI API
+Did this answer your question?
+😞 😐 😃
+• ChatGPT
+• API
+• DALL·E
+• Service Status
+•
+•

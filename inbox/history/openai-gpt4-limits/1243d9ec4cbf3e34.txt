@@ -1,0 +1,103 @@
+English ; English
+English ; English
+Table of contents
+All Collections
+ChatGPT
+How can I access GPT-4, GPT-4o, and GPT-4o mini?
+How can I access GPT-4, GPT-4o, and GPT-4o mini?
+Learn how to get access to GPT-4o in ChatGPT and GPT-4, and GPT-4o in the OpenAI API
+Table of contents
+What is a "Model"?
+A "model" is like a version of a smart assistant, each with different levels of intelligence and capabilities. On the web you can see the available models to choose from in the UI when you start using ChatGPT:
+Which model should I use?
+It will depend on your use case. Here are the most common reasons to use each model:
+• GPT-4o
+• Our latest, fastest, highest intelligence model.
+• 128k context length (i.e. an average to longer novel).
+• Text and image input / text and image output.*
+• Audio input / output.**
+• GPT-4o mini
+• Our lightest-weight intelligence model.
+• 128k context length (i.e. an average to longer novel).
+• Text and image input / text and image output.*
+• Audio input / output.**
+• Limitation : This model does not have access to the advanced tools that GPT-4o has.
+• GPT-4
+• Our previous high intelligence model.
+• 128k context length (i.e. an average to longer novel).
+• Text and image input / text and image output.*
+• Audio input / output.**
+• GPT-3.5 (API only)
+• Fast model for the simplest routine tasks.
+• 16k context length (i.e. 1-2 dozen articles or a short story / novella).
+• Text input / text output.
+• Audio input / output.**
+The higher your plan type the more you can use our most advanced models.
+See this section below about features and limits of those models by plan type for details.
+* Image output (DALL·E capabilities) are available to all users on Free, Plus, Pro, Team, and Enterprise plans in our GPT-4 and GPT-4o models. Image output is not available on the Free plan.
+See Using ChatGPT's Free Tier - FAQ for details.
+** All ChatGPT users have access to voice chats through our mobile app.
+See Voice chat FAQ for details.
+What's a "Temporary chat"?
+With Temporary Chat, you can have a conversation with a blank slate. ChatGPT won't be aware of previous conversations or access memories. It will still follow your custom instructions if they're enabled.
+See our Temporary Chat FAQ for details.
+What is GPT 4o?
+GPT-4o is OpenAI's new flagship model that can reason across audio, vision, and text in real time.
+GPT-4o will be available in ChatGPT and the API as a text and vision model (ChatGPT will continue to have support for voice via the pre-existing Voice Mode feature) initially. Specifically, GPT-4o will be available in ChatGPT Free, Plus, Pro, Team, and Enterprise, and in the Chat Completions API, Assistants API, and Batch API.
+Our GPT-4o-mini model does not have access to the following advanced tools:
+• Data analysis
+• File Uploads
+• Browse
+• Discovering and using GPTs
+• Vision
+You will need to switch over to GPT-4o to access these tools.
+Accessing GPT-4, GPT-4o and GPT-4o mini in the OpenAI API
+Availability in the API
+GPT-4o and GPT-4o mini are available to anyone with an OpenAI API account, and you can use the models in the Chat Completions API, Assistants API , and Batch API . Function calling and JSON mode are also supported. You can also get started via the Playground .
+After you have made a successful payment of $5 or more (usage tier 1), you'll be able to access the GPT-4 and GPT-4o models via the OpenAI API.
+Learn more about adding credit to your OpenAI account.
+Current pricing in the API is available on our API pricing page .
+API Request limits
+Please note that ChatGPT rate limits are independent of API rate limits. You can learn more about API rate limits here .
+You can view your API rate limits in the limits section of the API Platform.
+Please be patient though — we expect massive demand and will scale up and optimize our systems over the coming months.
+How we handle data sent to the OpenAI API
+As with the rest of our platform, data and files passed to the OpenAI API are never used to train our models unless you explicitly choose to opt in to training. You can read more about our data retention and compliance standards here .
+Accessing GPT-4o with ChatGPT
+ChatGPT Free Tier
+Users on the Free tier will be defaulted to GPT-4o with a limit on the number of messages they can send using GPT-4o, which will vary based on current usage and demand. When unavailable, Free tier users will be switched back to GPT-4o mini.
+Free users also receive limited access to messages using advanced tools through 4o, such as:
+• Data analysis
+• File Uploads
+• Browse
+• Discovering and using GPTs
+• Vision
+GPT-4o has advanced vision capabilities, which increases accuracy in understanding images you share.
+Free tier users can use GPT-4o only a limited number of times within a five hour window. We’ll notify you once you’ve reached the limit and invite you to continue your conversation using GPT-4o mini or to upgrade to ChatGPT Plus / Pro.
+Free tier users can upgrade to Plus or Pro at any time by clicking on ChatGPT:
+ChatGPT Plus / Pro / Team
+ChatGPT Plus, Pro, and Team subscribers have GPT-4 and GPT-4o access on chatgpt.com with a larger usage cap.
+ChatGPT Plus, Pro, and Team users will be able to select GPT-4o from the drop down menu at the top of the page:
+As of Feb 1, 2025, Plus users will be able to send up to 80 messages every 3 hours on GPT-4o and up to 40 messages every 3 hours on GPT-4. We may reduce the limit during peak hours to keep GPT-4 and GPT-4o accessible to the widest number of people.
+The GPT-4 and GPT-4o message caps for a user in a ChatGPT Team workspace is higher than that of ChatGPT Plus.
+The GPT-4 and GPT-4o message caps for a Pro user is virtually unlimited.
+Please note that unused messages do not accumulate (i.e. if you wait 6 hours, you will not have 80 messages available to use for the next 3 hours on GPT-4).
+ChatGPT Enterprise
+The ChatGPT Enterprise plan is designed specifically to meet the needs of large enterprises, with unlimited, high-speed access to GPT-4o and GPT-4.
+New conversations on a ChatGPT Enterprise account will default to GPT-4o. ChatGPT Enterprise users will be able to select other models from the drop down menu at the top of the page:
+ChatGPT Enterprise also offers enterprise-grade security and privacy, longer context windows for processing longer inputs, unlimited, high speed access to advanced tools like data analysis, customization options, and much more.
+If you'd like to purchase ChatGPT Enterprise for your organization, please reach out to our sales team . Under "Which of our products or services are you interested in? ", please specify "ChatGPT Enterprise".
+Related Articles
+Can I fine-tune GPT-4o or GPT-4?
+What is the ChatGPT model selector?
+GPT-4 Turbo in the OpenAI API
+GPTs vs Assistants
+OpenAI o1 models - FAQ [ChatGPT Enterprise and Edu]
+Did this answer your question?
+😞 😐 😃
+• ChatGPT
+• API
+• DALL·E
+• Service Status
+•
+•

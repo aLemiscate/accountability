@@ -1,0 +1,361 @@
+{
+ "id": "openai-enterprise-limits",
+ "org": "openai",
+ "urls": [
+  "https://help.openai.com/en/articles/8266413-what-are-chatgpt-enterprise-s-max-message-limits",
+  "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits",
+  "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-and-edu-models-limits"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://help.openai.com/en/articles/8266413-what-are-chatgpt-enterprise-s-max-message-limits",
+   "error": "could not read the live page"
+  }
+ ],
+ "captures": [
+  {
+   "ts": "20240313150755",
+   "url": "https://help.openai.com/en/articles/8266413-what-are-chatgpt-enterprise-s-max-message-limits",
+   "sha": "0501f7e7d9b4c329",
+   "title": "What are ChatGPT Enterprise's max message limits? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240810140439",
+   "url": "https://help.openai.com/en/articles/8266413-what-are-chatgpt-enterprise-s-max-message-limits",
+   "sha": "b7ad96f867ebe61f",
+   "title": "What are ChatGPT Enterprise's max message limits? | OpenAI Help Center"
+  },
+  {
+   "ts": "20241203024021",
+   "url": "https://help.openai.com/en/articles/8266413-what-are-chatgpt-enterprise-s-max-message-limits",
+   "sha": "71e0f57ab1376abf",
+   "title": "What are ChatGPT Enterprise's max message limits? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250410073133",
+   "url": "https://help.openai.com/en/articles/8266413-what-are-chatgpt-enterprise-s-max-message-limits",
+   "sha": "4d43f2283ff22d8b",
+   "title": "What are ChatGPT Enterprise's max message limits? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250418073815",
+   "url": "https://help.openai.com/en/articles/8266413-what-are-chatgpt-enterprise-s-max-message-limits",
+   "sha": "bbd548c43d89282b",
+   "title": "What are ChatGPT Enterprise's max message limits? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250503115204",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits",
+   "sha": "0feb7b18772e94a8",
+   "title": "ChatGPT Enterprise - Models & Limits | OpenAI Help Center"
+  },
+  {
+   "ts": "20250508124651",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits",
+   "sha": "ea4c2ac6a736f19f",
+   "title": "ChatGPT Enterprise - Models & Limits | OpenAI Help Center"
+  },
+  {
+   "ts": "20250511141252",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits",
+   "sha": "ea4c2ac6a736f19f",
+   "title": "ChatGPT Enterprise - Models & Limits | OpenAI Help Center"
+  },
+  {
+   "ts": "20250519080550",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits",
+   "sha": "ea4c2ac6a736f19f",
+   "title": "ChatGPT Enterprise - Models & Limits | OpenAI Help Center"
+  },
+  {
+   "ts": "20250521060937",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits",
+   "sha": "ea4c2ac6a736f19f",
+   "title": "ChatGPT Enterprise - Models & Limits | OpenAI Help Center"
+  },
+  {
+   "ts": "20250601133729",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits",
+   "sha": "f0238b5def691379",
+   "title": "ChatGPT Enterprise - Models & Limits | OpenAI Help Center"
+  },
+  {
+   "ts": "20250609155914",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits",
+   "sha": "ebc3ab0aef811ecd",
+   "title": "ChatGPT Enterprise - Models & Limits | OpenAI Help Center"
+  },
+  {
+   "ts": "20250723235724",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits",
+   "sha": "b3e95d70d845286d",
+   "title": "ChatGPT Enterprise - Models & Limits | OpenAI Help Center"
+  },
+  {
+   "ts": "20250815022601",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits",
+   "sha": "958fa2ac5d219f81",
+   "title": "ChatGPT Enterprise - Models & Limits | OpenAI Help Center"
+  },
+  {
+   "ts": "20250815031218",
+   "url": "https://help.openai.com/en/articles/8266413-what-are-chatgpt-enterprise-s-max-message-limits",
+   "sha": "a954bb1d201d9549",
+   "title": "What are ChatGPT Enterprise's max message limits? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250816192534",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits",
+   "sha": "732decd342988d43",
+   "title": "ChatGPT Enterprise - Models & Limits | OpenAI Help Center"
+  },
+  {
+   "ts": "20250911142740",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits",
+   "sha": "adb6bf16eaacedbd",
+   "title": "ChatGPT Enterprise - Models & Limits | OpenAI Help Center"
+  },
+  {
+   "ts": "20250926074829",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-and-edu-models-limits",
+   "error": "fetch failed"
+  },
+  {
+   "ts": "20251027043219",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-and-edu-models-limits",
+   "sha": "a15ee741875006d2",
+   "title": "ChatGPT Enterprise and Edu - Models & Limits | OpenAI Help Center"
+  },
+  {
+   "ts": "20251129005734",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits",
+   "sha": "ba98e19d78c60146",
+   "title": "ChatGPT Enterprise and Edu - Models & Limits | OpenAI Help Center"
+  },
+  {
+   "ts": "20251211113140",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-and-edu-models-limits",
+   "sha": "b33c7d6d62c80e84",
+   "title": "ChatGPT Enterprise and Edu - Models & Limits | OpenAI Help Center"
+  },
+  {
+   "ts": "20260302053725",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-and-edu-models-limits",
+   "sha": "3707fd25a2aadff7",
+   "title": "ChatGPT Enterprise and Edu - Models & Limits | OpenAI Help Center"
+  },
+  {
+   "ts": "20260327070730",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-and-edu-models-limits",
+   "sha": "293cef0ff9341b7d",
+   "title": "ChatGPT Enterprise and Edu - Models & Limits | OpenAI Help Center"
+  },
+  {
+   "ts": "20260509003957",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits",
+   "sha": "46a00f469c2d26bd",
+   "title": "ChatGPT Enterprise and Edu - Models & Limits | OpenAI Help Center"
+  },
+  {
+   "ts": "20260610095907",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits",
+   "sha": "c1bfe30ee6ae4699",
+   "title": "ChatGPT Enterprise and Edu - Models & Limits | OpenAI Help Center"
+  },
+  {
+   "ts": "20260617083400",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-and-edu-models-limits",
+   "sha": "66acdd0a4296aa2c",
+   "title": "ChatGPT Enterprise and Edu - Models & Limits | OpenAI Help Center"
+  },
+  {
+   "ts": "20260624004948",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-and-edu-models-limits",
+   "sha": "7679aed06cdd9519",
+   "title": "ChatGPT Enterprise and Edu - Models & Limits | OpenAI Help Center"
+  },
+  {
+   "ts": "20260729005835",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-and-edu-models-limits",
+   "sha": "8d9a277ab8794211",
+   "title": "ChatGPT Enterprise and Edu - Models & Limits | OpenAI Help Center"
+  },
+  {
+   "ts": "20260905133717",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-and-edu-models-limits",
+   "error": "terminated"
+  },
+  {
+   "ts": "20260907021918",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-and-edu-models-limits",
+   "sha": "eb6272328e71f87a",
+   "title": "ChatGPT Enterprise and Edu - Models & Limits | OpenAI Help Center"
+  },
+  {
+   "ts": "20261003080129",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-and-edu-models-limits",
+   "sha": "789be983707b67bf",
+   "title": "ChatGPT Enterprise and Edu - Models & Limits | OpenAI Help Center"
+  }
+ ],
+ "versions": [
+  {
+   "sha": "0501f7e7d9b4c329",
+   "first": "20240313150755",
+   "last": "20240313150755",
+   "url": "https://help.openai.com/en/articles/8266413-what-are-chatgpt-enterprise-s-max-message-limits"
+  },
+  {
+   "sha": "b7ad96f867ebe61f",
+   "first": "20240810140439",
+   "last": "20240810140439",
+   "url": "https://help.openai.com/en/articles/8266413-what-are-chatgpt-enterprise-s-max-message-limits"
+  },
+  {
+   "sha": "71e0f57ab1376abf",
+   "first": "20241203024021",
+   "last": "20241203024021",
+   "url": "https://help.openai.com/en/articles/8266413-what-are-chatgpt-enterprise-s-max-message-limits"
+  },
+  {
+   "sha": "4d43f2283ff22d8b",
+   "first": "20250410073133",
+   "last": "20250410073133",
+   "url": "https://help.openai.com/en/articles/8266413-what-are-chatgpt-enterprise-s-max-message-limits"
+  },
+  {
+   "sha": "bbd548c43d89282b",
+   "first": "20250418073815",
+   "last": "20250418073815",
+   "url": "https://help.openai.com/en/articles/8266413-what-are-chatgpt-enterprise-s-max-message-limits"
+  },
+  {
+   "sha": "0feb7b18772e94a8",
+   "first": "20250503115204",
+   "last": "20250503115204",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits"
+  },
+  {
+   "sha": "ea4c2ac6a736f19f",
+   "first": "20250508124651",
+   "last": "20250521060937",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits"
+  },
+  {
+   "sha": "f0238b5def691379",
+   "first": "20250601133729",
+   "last": "20250601133729",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits"
+  },
+  {
+   "sha": "ebc3ab0aef811ecd",
+   "first": "20250609155914",
+   "last": "20250609155914",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits"
+  },
+  {
+   "sha": "b3e95d70d845286d",
+   "first": "20250723235724",
+   "last": "20250723235724",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits"
+  },
+  {
+   "sha": "958fa2ac5d219f81",
+   "first": "20250815022601",
+   "last": "20250815022601",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits"
+  },
+  {
+   "sha": "a954bb1d201d9549",
+   "first": "20250815031218",
+   "last": "20250815031218",
+   "url": "https://help.openai.com/en/articles/8266413-what-are-chatgpt-enterprise-s-max-message-limits"
+  },
+  {
+   "sha": "732decd342988d43",
+   "first": "20250816192534",
+   "last": "20250816192534",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits"
+  },
+  {
+   "sha": "adb6bf16eaacedbd",
+   "first": "20250911142740",
+   "last": "20250911142740",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits"
+  },
+  {
+   "sha": "a15ee741875006d2",
+   "first": "20251027043219",
+   "last": "20251027043219",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-and-edu-models-limits"
+  },
+  {
+   "sha": "ba98e19d78c60146",
+   "first": "20251129005734",
+   "last": "20251129005734",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits"
+  },
+  {
+   "sha": "b33c7d6d62c80e84",
+   "first": "20251211113140",
+   "last": "20251211113140",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-and-edu-models-limits"
+  },
+  {
+   "sha": "3707fd25a2aadff7",
+   "first": "20260302053725",
+   "last": "20260302053725",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-and-edu-models-limits"
+  },
+  {
+   "sha": "293cef0ff9341b7d",
+   "first": "20260327070730",
+   "last": "20260327070730",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-and-edu-models-limits"
+  },
+  {
+   "sha": "46a00f469c2d26bd",
+   "first": "20260509003957",
+   "last": "20260509003957",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits"
+  },
+  {
+   "sha": "c1bfe30ee6ae4699",
+   "first": "20260610095907",
+   "last": "20260610095907",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-models-limits"
+  },
+  {
+   "sha": "66acdd0a4296aa2c",
+   "first": "20260617083400",
+   "last": "20260617083400",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-and-edu-models-limits"
+  },
+  {
+   "sha": "7679aed06cdd9519",
+   "first": "20260624004948",
+   "last": "20260624004948",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-and-edu-models-limits"
+  },
+  {
+   "sha": "8d9a277ab8794211",
+   "first": "20260729005835",
+   "last": "20260729005835",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-and-edu-models-limits"
+  },
+  {
+   "sha": "eb6272328e71f87a",
+   "first": "20260907021918",
+   "last": "20260907021918",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-and-edu-models-limits"
+  },
+  {
+   "sha": "789be983707b67bf",
+   "first": "20261003080129",
+   "last": "20261003080129",
+   "url": "https://help.openai.com/en/articles/11165333-chatgpt-enterprise-and-edu-models-limits"
+  }
+ ],
+ "complete": true
+}

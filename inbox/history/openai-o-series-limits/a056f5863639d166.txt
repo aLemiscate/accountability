@@ -1,0 +1,74 @@
+English ; English
+English ; English
+Table of contents
+All Collections
+ChatGPT
+Using OpenAI o1 models and GPT-4o models on ChatGPT
+Using OpenAI o1 models and GPT-4o models on ChatGPT
+Table of contents
+The OpenAI o1-preview and o1-mini models are a new series of reasoning models for solving hard problems. This is a preview and we expect regular updates and improvements. While GPT-4o is still the best option for most prompts, the o1 series may be helpful for handling complex, problem-solving tasks in domains like research, strategy, coding, math, and science.
+For most use cases, especially those that involve the use of tools and vision, we recommend using GPT-4o in ChatGPT. Please note the following limitations on the OpenAI o1-preview and o1-mini models in ChatGPT:
+Our OpenAI o1-preview and o1-mini models do not have access to the following advanced tools and features:
+• Memory
+• Custom instructions
+• Data analysis
+• File uploads
+• Web browsing
+• Discovering and using GPTs
+• Vision
+• Voice
+You will need to switch over to GPT-4o to access these tools.
+Please note that o1-preview and o1-mini are preview models, and their availability described below may be subject to changes.
+What conversation topics are appropriate for OpenAI’s o1 models?
+The OpenAI o1-preview and o1-mini models excel at complex problems that require additional thinking. When you use the OpenAI o1-preview and o1-mini models on ChatGPT, you can view the response thought process by opening the drop-down above the response:
+These are a few scenarios that OpenAI o1 models are ideal for:
+Strategy ideation
+The OpenAI o1-preview model can be a helpful ideation partner for early strategy development. When prompted to create a CRO test plan, the model helpfully creates potential test scenarios, a prioritization framework, and next steps to follow to immediately get started.
+Education
+The OpenAI o1-preview model can be helpful to faculty on course development and students with course tutoring. In this example, an educator is generating a tutoring guideline by asking the OpenAI o1-preview model to explain differential equations to a struggling student. The model generates starting principles, examples, and even practice problems that this student can use to learn differential equations.
+Coding exercises and reviews
+The OpenAI o1-mini model is a helpful coding partner for elaborate coding exercises, capable of understanding the complexity of the problem, providing a step-by-step breakdown and pseudocode of the solution, and providing any references it used to resolve the problem.
+Advanced mathematics and physics problems
+The OpenAI o1-preview model is capable of providing advanced mathematical proofs and can explain the thought process between each of the steps it took. This makes it an ideal model for students who seek to learn advanced topics in mathematics and physics. In this example, the OpenAI o1-preview model explains the different concepts in algebraic geometry needed to prove the statement provided.
+Complex writing tasks
+The OpenAI o1-preview model can dig into multi-faceted writing prompts, and is particularly strong at maintaining the structure of the question in its response. In this example, the OpenAI o1-preview model is able to provide a background, conclusion, and an exhaustive list of strengths and weaknesses based on the question.
+When should I use GPT-4o?
+GPT-4o accepts as input any combination of text, audio, image, and video and generates any combination of text, audio, and image outputs. For most use cases, especially those that involve the use of advanced tools and vision, we recommend using GPT-4o in ChatGPT.
+Specifically, we recommend using the GPT-4o models when your conversations require any of the following:
+• Memory
+• Custom Instructions
+• Data analysis
+• File Uploads
+• Browse
+• Discovering and using GPTs
+• Vision
+Learn more about GPT-4o on ChatGPT and the API.
+FAQ
+What is the knowledge cut-off for the OpenAI o1-preview and o1-mini models?
+The OpenAI o1-preview and o1-mini models share the same knowledge cut-off as our GPT-4o models, October 2023.
+When will this be available to Enterprise and ChatGPT Edu customers?
+ChatGPT Enterprise and Edu customers will have access to the OpenAI o1-preview and o1-mini models on September 19.
+What usage limits are enforced on the OpenAI o1-preview and o1-mini models?
+Users on ChatGPT Plus and Team accounts have access to the 50 messages a week with OpenAI o1-preview and 50 messages a day with OpenAI o1-mini.
+Learn more about OpenAI o1 usage limits.
+Can users on ChatGPT Free tier access OpenAI o1 models?
+At the moment, OpenAI o1 models are only available on ChatGPT Paid tiers and for Paid Tier API customers. We plan to bring access to OpenAI o1 models on Free tiers at a later time.
+What’s the context window for OpenAI o1 models?
+In ChatGPT, the context windows for o1-preview and o1-mini is 32k.
+What is the difference between o1-preview and o1-mini?
+The key difference is that o1-mini lacks access to broad world knowledge, making it more suitable for tasks where all necessary context is provided within the prompt.
+In the API, o1-mini is OpenAI’s faster, cost-efficient reasoning model, designed for coding and agentic applications. It’s great for developers focused on minimizing costs and latency, where broad world knowledge isn’t required. In ChatGPT, o1-mini excels at writing and debugging complex code that doesn’t need a large context window.
+Related Articles
+How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini?
+What is the ChatGPT Plus model selector?
+Model Release Notes
+OpenAI o1-preview and o1-mini Usage Limits on ChatGPT and the API
+OpenAI o1 models - FAQ [ChatGPT Enterprise and Edu]
+Did this answer your question?
+😞 😐 😃
+• ChatGPT
+• API
+• DALL·E
+• Service Status
+•
+•

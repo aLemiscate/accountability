@@ -1,0 +1,26 @@
+{
+ "id": "openai-gpt5-limits",
+ "org": "openai",
+ "urls": [
+  "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+  "https://help.openai.com/en/articles/11909943-gpt-5-1-in-chatgpt",
+  "https://help.openai.com/en/articles/11909943-gpt-51-in-chatgpt",
+  "https://help.openai.com/en/articles/11909943-gpt-52-in-chatgpt",
+  "https://help.openai.com/en/articles/11909943-gpt-53-and-52-in-chatgpt",
+  "https://help.openai.com/en/articles/11909943-gpt-53-and-54-in-chatgpt",
+  "https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-54-in-chatgpt",
+  "https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-55-in-chatgpt",
+  "https://help.openai.com/en/articles/11909943-gpt-55-in-chatgpt"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "title": "GPT-5.6 and GPT-6 Pro in ChatGPT | OpenAI Help Center",
+   "via": "fetch",
+   "sha": "437a2aaf3c628678",
+   "words": 1924
+  }
+ ],
+ "captures": []
+}

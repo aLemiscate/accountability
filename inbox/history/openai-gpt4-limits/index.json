@@ -1,0 +1,1886 @@
+{
+ "id": "openai-gpt4-limits",
+ "org": "openai",
+ "urls": [
+  "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits",
+  "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+  "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o",
+  "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+  "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4o-and-gpt-4o-mini",
+  "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4o-mini",
+  "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4-1-mini",
+  "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-41-mini"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits",
+   "error": "could not read the live page"
+  }
+ ],
+ "captures": [
+  {
+   "ts": "20230315002917",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "e29a8d24c578b708",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230315060257",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits",
+   "sha": "b6d93bccb431a5c1",
+   "title": "What are the GPT-4 rate limits? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230316043616",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "cab74732bd1a4854",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230319074651",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "cab74732bd1a4854",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230320112003",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits",
+   "sha": "a7bea4a333fa1bcc",
+   "title": "What are the GPT-4 rate limits? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230322220255",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "9e8bcf9f8c55150e",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230325055425",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "9e8bcf9f8c55150e",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230328115629",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "9e8bcf9f8c55150e",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230330054043",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits",
+   "sha": "da324534866be36f",
+   "title": "What are the GPT-4 rate limits? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230330055418",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "9e8bcf9f8c55150e",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230522014713",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits",
+   "sha": "f2278eeb34b7fdde",
+   "title": "What are the GPT-4 rate limits? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230601012848",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits",
+   "sha": "f2278eeb34b7fdde",
+   "title": "What are the GPT-4 rate limits? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230606194140",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "e858f3320659f7a4",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230612110329",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "fae1556d5ffbd2ab",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230618193918",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits",
+   "sha": "7698ed8960dbf182",
+   "title": "What are the GPT-4 rate limits? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230709111422",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "a53798f4561942ca",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230715145519",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "a53798f4561942ca",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230717092136",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "a53798f4561942ca",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230718025226",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "a53798f4561942ca",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230719132328",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "9086a1324207ab5f",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230720092315",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "9086a1324207ab5f",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230721094449",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "9086a1324207ab5f",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230722213332",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "e867b883bc8db97f",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230725112741",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "e867b883bc8db97f",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230801103944",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "e867b883bc8db97f",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230807053940",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "e867b883bc8db97f",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230808093410",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "e867b883bc8db97f",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230811115544",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "9fa517987b8bbd96",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230812203416",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "6cb99b935477d56d",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230813180452",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "6cb99b935477d56d",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230815233949",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "4176a2ba60c89d29",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230817041149",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "4176a2ba60c89d29",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230818001920",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "6cb99b935477d56d",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230820005804",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "4176a2ba60c89d29",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230822025844",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "09626f77acadb262",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230827042601",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "09626f77acadb262",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230828061241",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "09626f77acadb262",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230828224523",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits",
+   "sha": "ba91cbe3418845ad",
+   "title": "What are the GPT-4 rate limits? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230829040824",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "a65cb04016a6de60",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230903095220",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "a65cb04016a6de60",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230912171059",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "a65cb04016a6de60",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230924063546",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "a65cb04016a6de60",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230925085127",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "a65cb04016a6de60",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230925103111",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits",
+   "sha": "c1c74d51ac7146a5",
+   "title": "What are the GPT-4 rate limits? | OpenAI Help Center"
+  },
+  {
+   "ts": "20230929044848",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "48d0b04ea4778217",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231001001040",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "48d0b04ea4778217",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231005183414",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "48d0b04ea4778217",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231007085355",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "a65cb04016a6de60",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231008181252",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "a65cb04016a6de60",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231009210311",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "a65cb04016a6de60",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231010215054",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "a65cb04016a6de60",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231011213119",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits",
+   "sha": "c1c74d51ac7146a5",
+   "title": "What are the GPT-4 rate limits? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231015231541",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "a65cb04016a6de60",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231018032529",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "a65cb04016a6de60",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231024160952",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "a65cb04016a6de60",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231027084108",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "a65cb04016a6de60",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231028151511",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "a65cb04016a6de60",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231029224245",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "a65cb04016a6de60",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231104140815",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "21b51fcc1ae7d165",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231105161553",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "21b51fcc1ae7d165",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231106201939",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "8ff180295b346c53",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231107013903",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "8ff180295b346c53",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231108233437",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "53bc748382dfdf98",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231109175150",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "bc7885427a14c24e",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231110002500",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "b2269836b28a6f7a",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231111010633",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "83f9def2104076bc",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231112021418",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "83f9def2104076bc",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231114051811",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "8a9dfd0054ebb37f",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231119061059",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "8a9dfd0054ebb37f",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231201184554",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "8a9dfd0054ebb37f",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231202033117",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "8a9dfd0054ebb37f",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231204014835",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "8a9dfd0054ebb37f",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231205012018",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "f3c6d1fd6655f13d",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231208124901",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "f3c6d1fd6655f13d",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231210162411",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "f3c6d1fd6655f13d",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231212022742",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "ca92b3d0aba3756a",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231213000902",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "ca92b3d0aba3756a",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231214094013",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "ca92b3d0aba3756a",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231215210428",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "96a2c83d5d0cd325",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20231216222752",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "96a2c83d5d0cd325",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240101124649",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "96a2c83d5d0cd325",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240105064512",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "96a2c83d5d0cd325",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240106091424",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "f0c6ee4b2a4af29e",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240108220146",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "f0c6ee4b2a4af29e",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240109195722",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "f0c6ee4b2a4af29e",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240110134710",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "f0c6ee4b2a4af29e",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240111070905",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "47570d96669dc8ef",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240115002911",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "47570d96669dc8ef",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240116034341",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "228875689c1359e6",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240117161216",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "228875689c1359e6",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240120010633",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "f0c6ee4b2a4af29e",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240121034932",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "228875689c1359e6",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240123140610",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "228875689c1359e6",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240124135643",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "4366687900752fe3",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240126110826",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "4366687900752fe3",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240128095754",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "4366687900752fe3",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240130092404",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "2f48ab0a5924cd86",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240202120158",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "2f48ab0a5924cd86",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240203162131",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "5cefa76c7727bbc7",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240205134941",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "5cefa76c7727bbc7",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240206165254",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "5cefa76c7727bbc7",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240207204225",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "704afadca624ac02",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240214192225",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "8a36536a96737889",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240216004326",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "8a36536a96737889",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240218020131",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "c317f1e4f9f57059",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240219230518",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "c317f1e4f9f57059",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240220215507",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "c317f1e4f9f57059",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240226085735",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "6150c2ad6e619673",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240304165951",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "6150c2ad6e619673",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240403042401",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "6150c2ad6e619673",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240404210709",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "9c9c24cd38b5ecb1",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240407012124",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "9c9c24cd38b5ecb1",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240411041854",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "9c9c24cd38b5ecb1",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240417135827",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "9c9c24cd38b5ecb1",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240502000202",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "9c9c24cd38b5ecb1",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240505111314",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "9c9c24cd38b5ecb1",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240506104915",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "9c9c24cd38b5ecb1",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240507210220",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "819ce5cc0af9e6ba",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240511061058",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "819ce5cc0af9e6ba",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240512071057",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "819ce5cc0af9e6ba",
+   "title": "How can I access GPT-4? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240513182952",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o",
+   "sha": "95b853f7e0ae5e05",
+   "title": "How can I access GPT-4, GPT-4 Turbo and GPT-4o? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240514003144",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o",
+   "sha": "af4a5909658764a6",
+   "title": "How can I access GPT-4, GPT-4 Turbo and GPT-4o? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240518033708",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o",
+   "sha": "af4a5909658764a6",
+   "title": "How can I access GPT-4, GPT-4 Turbo and GPT-4o? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240521092159",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o",
+   "sha": "af4a5909658764a6",
+   "title": "How can I access GPT-4, GPT-4 Turbo and GPT-4o? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240522102216",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o",
+   "sha": "af4a5909658764a6",
+   "title": "How can I access GPT-4, GPT-4 Turbo and GPT-4o? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240523001402",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o",
+   "sha": "4dc4d1ea219588cf",
+   "title": "How can I access GPT-4, GPT-4 Turbo and GPT-4o? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240525085139",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o",
+   "sha": "4dc4d1ea219588cf",
+   "title": "How can I access GPT-4, GPT-4 Turbo and GPT-4o? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240601011001",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o",
+   "sha": "4dc4d1ea219588cf",
+   "title": "How can I access GPT-4, GPT-4 Turbo and GPT-4o? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240612021205",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o",
+   "sha": "4dc4d1ea219588cf",
+   "title": "How can I access GPT-4, GPT-4 Turbo and GPT-4o? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240613222721",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o",
+   "sha": "6a99e87e2849a3da",
+   "title": "How can I access GPT-4, GPT-4 Turbo and GPT-4o? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240615070029",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o",
+   "sha": "6a99e87e2849a3da",
+   "title": "How can I access GPT-4, GPT-4 Turbo and GPT-4o? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240622135827",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o",
+   "sha": "6a99e87e2849a3da",
+   "title": "How can I access GPT-4, GPT-4 Turbo and GPT-4o? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240701064356",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o",
+   "sha": "6a99e87e2849a3da",
+   "title": "How can I access GPT-4, GPT-4 Turbo and GPT-4o? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240704125056",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o",
+   "sha": "6a99e87e2849a3da",
+   "title": "How can I access GPT-4, GPT-4 Turbo and GPT-4o? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240706082543",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o",
+   "sha": "bb871212bf7a2300",
+   "title": "How can I access GPT-4, GPT-4 Turbo and GPT-4o? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240712032420",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o",
+   "sha": "bb871212bf7a2300",
+   "title": "How can I access GPT-4, GPT-4 Turbo and GPT-4o? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240713103432",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o",
+   "sha": "221727d57563d5a6",
+   "title": "How can I access GPT-4, GPT-4 Turbo and GPT-4o? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240721025221",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "92ccc21f05b62cb1",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240801094038",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "92ccc21f05b62cb1",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240806053710",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "92ccc21f05b62cb1",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240807223909",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits",
+   "sha": "e442963d65085d0c",
+   "title": "What are the GPT-4 rate limits? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240808092800",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "4d9ee0ab437d3351",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240810132041",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "17d69cb52cfac517",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240812121900",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "9bcb74c70813e31b",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20240901191214",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "9bcb74c70813e31b",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20241006184226",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "9bcb74c70813e31b",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20241107034019",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "9bcb74c70813e31b",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20241120171223",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "9bcb74c70813e31b",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20241126084624",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "9bcb74c70813e31b",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20241130071949",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "9bcb74c70813e31b",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20241203015051",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "17d69cb52cfac517",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20241203025125",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits",
+   "sha": "441bd7314dbb5b08",
+   "title": "What are the GPT-4 rate limits? | OpenAI Help Center"
+  },
+  {
+   "ts": "20241207171719",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits",
+   "sha": "441bd7314dbb5b08",
+   "title": "What are the GPT-4 rate limits? | OpenAI Help Center"
+  },
+  {
+   "ts": "20241208101810",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "9bcb74c70813e31b",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20241212031554",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "9bcb74c70813e31b",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20241224032751",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "9afafddadd322fcd",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20241227050923",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "1c9262838369bc0c",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20241228035919",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "1c9262838369bc0c",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250101110133",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "1c9262838369bc0c",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250106012529",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "1c9262838369bc0c",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250107075809",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "1c9262838369bc0c",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250112115334",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "8d29550d30548582",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250114194457",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "8d29550d30548582",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250121024716",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "8d29550d30548582",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250125062247",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "8d29550d30548582",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250126173423",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "8d29550d30548582",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250128220951",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "8d29550d30548582",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250129021605",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits",
+   "sha": "441bd7314dbb5b08",
+   "title": "What are the GPT-4 rate limits? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250129214600",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "1c9262838369bc0c",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250131193544",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "1c9262838369bc0c",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250204170705",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "9e434ad25330d6e6",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250303173602",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "9e434ad25330d6e6",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250305213229",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "9e434ad25330d6e6",
+   "title": "How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250305230949",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits",
+   "sha": "441bd7314dbb5b08",
+   "title": "What are the GPT-4 rate limits? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250312221225",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4o-and-gpt-4o-mini",
+   "sha": "1243d9ec4cbf3e34",
+   "title": "How can I access GPT-4, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250317143611",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4o-and-gpt-4o-mini",
+   "sha": "e550fe86c901e973",
+   "title": "How can I access GPT-4, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250320033845",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4o-and-gpt-4o-mini",
+   "sha": "5e1788f31eec1b55",
+   "title": "How can I access GPT-4, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250324063227",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4o-and-gpt-4o-mini",
+   "sha": "5e1788f31eec1b55",
+   "title": "How can I access GPT-4, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250326001107",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4o-and-gpt-4o-mini",
+   "sha": "5e1788f31eec1b55",
+   "title": "How can I access GPT-4, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250326220305",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits",
+   "sha": "41f7492eb96a9d31",
+   "title": "What are the GPT-4 rate limits? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250327173529",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4o-and-gpt-4o-mini",
+   "sha": "5e1788f31eec1b55",
+   "title": "How can I access GPT-4, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250328094232",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4o-and-gpt-4o-mini",
+   "sha": "13c7e49a040663eb",
+   "title": "How can I access GPT-4, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250405052944",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4o-and-gpt-4o-mini",
+   "sha": "13c7e49a040663eb",
+   "title": "How can I access GPT-4, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250414074103",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4o-and-gpt-4o-mini",
+   "sha": "13c7e49a040663eb",
+   "title": "How can I access GPT-4, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250415142526",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4o-and-gpt-4o-mini",
+   "sha": "f4c5c03fc7c58915",
+   "title": "How can I access GPT-4, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250416051624",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4o-and-gpt-4o-mini",
+   "sha": "f4c5c03fc7c58915",
+   "title": "How can I access GPT-4, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250418120527",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits",
+   "sha": "a6c6491ceb8beb89",
+   "title": "What are the GPT-4 rate limits? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250424143501",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4o-and-gpt-4o-mini",
+   "sha": "ce1ba824b762436c",
+   "title": "How can I access GPT-4, GPT-4o, and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250426192839",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4o-mini",
+   "sha": "c9e05d3b3f3e177d",
+   "title": "How can I access GPT-4o and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250427030612",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4o-mini",
+   "sha": "c9e05d3b3f3e177d",
+   "title": "How can I access GPT-4o and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250428190357",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4o-mini",
+   "sha": "0dbea0adf1481088",
+   "title": "How can I access GPT-4o and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250501142056",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4o-mini",
+   "sha": "9b61e8b1024e099d",
+   "title": "How can I access GPT-4o and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250505092308",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4o-mini",
+   "sha": "9b61e8b1024e099d",
+   "title": "How can I access GPT-4o and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250507095244",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4o-mini",
+   "sha": "9b61e8b1024e099d",
+   "title": "How can I access GPT-4o and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250508004959",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4o-mini",
+   "sha": "fc5d49007191bd65",
+   "title": "How can I access GPT-4o and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250512190444",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4o-mini",
+   "sha": "fc5d49007191bd65",
+   "title": "How can I access GPT-4o and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250519091929",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4o-mini",
+   "sha": "9148171be0a45bff",
+   "title": "How can I access GPT-4o and GPT-4o mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250525080652",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4-1-mini",
+   "sha": "0331dabfa42ba6b2",
+   "title": "How can I access GPT-4o and GPT-4.1 mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250526024203",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4-1-mini",
+   "sha": "0331dabfa42ba6b2",
+   "title": "How can I access GPT-4o and GPT-4.1 mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250527030311",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4-1-mini",
+   "sha": "0331dabfa42ba6b2",
+   "title": "How can I access GPT-4o and GPT-4.1 mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250601020103",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4-1-mini",
+   "sha": "2e4950fef3615d5d",
+   "title": "How can I access GPT-4o and GPT-4.1 mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250615152753",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4-1-mini",
+   "sha": "b67b3f24b5ee721f",
+   "title": "How can I access GPT-4o and GPT-4.1 mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250619002129",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4-1-mini",
+   "sha": "d1d4bb685deb46e9",
+   "title": "How can I access GPT-4o and GPT-4.1 mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250626034711",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4-1-mini",
+   "sha": "5d33289deecc61fd",
+   "title": "How can I access GPT-4o and GPT-4.1 mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250708125255",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4-1-mini",
+   "sha": "5d33289deecc61fd",
+   "title": "How can I access GPT-4o and GPT-4.1 mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250710205541",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4-1-mini",
+   "sha": "ef34c7ffb4268db2",
+   "title": "How can I access GPT-4o and GPT-4.1 mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250711003537",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4-1-mini",
+   "sha": "ef34c7ffb4268db2",
+   "title": "How can I access GPT-4o and GPT-4.1 mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250718125357",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-41-mini",
+   "sha": "af263f2b6a3e1231",
+   "title": "How can I access GPT-4o and GPT-4.1 mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250730052245",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+   "sha": "34c6182a8a008ff4",
+   "title": "How can I access GPT-4o and GPT-4.1 mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250801070705",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4/",
+   "sha": "3819a77044a9774f",
+   "title": "How can I access GPT-4o and GPT-4.1 mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250802062815",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini",
+   "sha": "8aee2e5e65b1de7a",
+   "title": "How can I access GPT-4o and GPT-4.1 mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250802112356",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4o-and-gpt-4o-mini",
+   "sha": "8aee2e5e65b1de7a",
+   "title": "How can I access GPT-4o and GPT-4.1 mini? | OpenAI Help Center"
+  },
+  {
+   "ts": "20250804152055",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-41-mini",
+   "sha": "d24f98353fd9a04b",
+   "title": "How can I access GPT-4o and GPT-4.1 mini? | OpenAI Help Center"
+  }
+ ],
+ "versions": [
+  {
+   "sha": "e29a8d24c578b708",
+   "first": "20230315002917",
+   "last": "20230315002917",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "b6d93bccb431a5c1",
+   "first": "20230315060257",
+   "last": "20230315060257",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits"
+  },
+  {
+   "sha": "cab74732bd1a4854",
+   "first": "20230316043616",
+   "last": "20230319074651",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "a7bea4a333fa1bcc",
+   "first": "20230320112003",
+   "last": "20230320112003",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits"
+  },
+  {
+   "sha": "9e8bcf9f8c55150e",
+   "first": "20230322220255",
+   "last": "20230328115629",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "da324534866be36f",
+   "first": "20230330054043",
+   "last": "20230330054043",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits"
+  },
+  {
+   "sha": "9e8bcf9f8c55150e",
+   "first": "20230330055418",
+   "last": "20230330055418",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "f2278eeb34b7fdde",
+   "first": "20230522014713",
+   "last": "20230601012848",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits"
+  },
+  {
+   "sha": "e858f3320659f7a4",
+   "first": "20230606194140",
+   "last": "20230606194140",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "fae1556d5ffbd2ab",
+   "first": "20230612110329",
+   "last": "20230612110329",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "7698ed8960dbf182",
+   "first": "20230618193918",
+   "last": "20230618193918",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits"
+  },
+  {
+   "sha": "a53798f4561942ca",
+   "first": "20230709111422",
+   "last": "20230718025226",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "9086a1324207ab5f",
+   "first": "20230719132328",
+   "last": "20230721094449",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "e867b883bc8db97f",
+   "first": "20230722213332",
+   "last": "20230808093410",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "9fa517987b8bbd96",
+   "first": "20230811115544",
+   "last": "20230811115544",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "6cb99b935477d56d",
+   "first": "20230812203416",
+   "last": "20230813180452",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "4176a2ba60c89d29",
+   "first": "20230815233949",
+   "last": "20230817041149",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "6cb99b935477d56d",
+   "first": "20230818001920",
+   "last": "20230818001920",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "4176a2ba60c89d29",
+   "first": "20230820005804",
+   "last": "20230820005804",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "09626f77acadb262",
+   "first": "20230822025844",
+   "last": "20230828061241",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "ba91cbe3418845ad",
+   "first": "20230828224523",
+   "last": "20230828224523",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits"
+  },
+  {
+   "sha": "a65cb04016a6de60",
+   "first": "20230829040824",
+   "last": "20230925085127",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "c1c74d51ac7146a5",
+   "first": "20230925103111",
+   "last": "20230925103111",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits"
+  },
+  {
+   "sha": "48d0b04ea4778217",
+   "first": "20230929044848",
+   "last": "20231005183414",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "a65cb04016a6de60",
+   "first": "20231007085355",
+   "last": "20231010215054",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "c1c74d51ac7146a5",
+   "first": "20231011213119",
+   "last": "20231011213119",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits"
+  },
+  {
+   "sha": "a65cb04016a6de60",
+   "first": "20231015231541",
+   "last": "20231029224245",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "21b51fcc1ae7d165",
+   "first": "20231104140815",
+   "last": "20231105161553",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "8ff180295b346c53",
+   "first": "20231106201939",
+   "last": "20231107013903",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "53bc748382dfdf98",
+   "first": "20231108233437",
+   "last": "20231108233437",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "bc7885427a14c24e",
+   "first": "20231109175150",
+   "last": "20231109175150",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "b2269836b28a6f7a",
+   "first": "20231110002500",
+   "last": "20231110002500",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "83f9def2104076bc",
+   "first": "20231111010633",
+   "last": "20231112021418",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "8a9dfd0054ebb37f",
+   "first": "20231114051811",
+   "last": "20231204014835",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "f3c6d1fd6655f13d",
+   "first": "20231205012018",
+   "last": "20231210162411",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "ca92b3d0aba3756a",
+   "first": "20231212022742",
+   "last": "20231214094013",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "96a2c83d5d0cd325",
+   "first": "20231215210428",
+   "last": "20240105064512",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "f0c6ee4b2a4af29e",
+   "first": "20240106091424",
+   "last": "20240110134710",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "47570d96669dc8ef",
+   "first": "20240111070905",
+   "last": "20240115002911",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "228875689c1359e6",
+   "first": "20240116034341",
+   "last": "20240117161216",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "f0c6ee4b2a4af29e",
+   "first": "20240120010633",
+   "last": "20240120010633",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "228875689c1359e6",
+   "first": "20240121034932",
+   "last": "20240123140610",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "4366687900752fe3",
+   "first": "20240124135643",
+   "last": "20240128095754",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "2f48ab0a5924cd86",
+   "first": "20240130092404",
+   "last": "20240202120158",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "5cefa76c7727bbc7",
+   "first": "20240203162131",
+   "last": "20240206165254",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "704afadca624ac02",
+   "first": "20240207204225",
+   "last": "20240207204225",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "8a36536a96737889",
+   "first": "20240214192225",
+   "last": "20240216004326",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "c317f1e4f9f57059",
+   "first": "20240218020131",
+   "last": "20240220215507",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "6150c2ad6e619673",
+   "first": "20240226085735",
+   "last": "20240403042401",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "9c9c24cd38b5ecb1",
+   "first": "20240404210709",
+   "last": "20240506104915",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "819ce5cc0af9e6ba",
+   "first": "20240507210220",
+   "last": "20240512071057",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "95b853f7e0ae5e05",
+   "first": "20240513182952",
+   "last": "20240513182952",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o"
+  },
+  {
+   "sha": "af4a5909658764a6",
+   "first": "20240514003144",
+   "last": "20240522102216",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o"
+  },
+  {
+   "sha": "4dc4d1ea219588cf",
+   "first": "20240523001402",
+   "last": "20240612021205",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o"
+  },
+  {
+   "sha": "6a99e87e2849a3da",
+   "first": "20240613222721",
+   "last": "20240704125056",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o"
+  },
+  {
+   "sha": "bb871212bf7a2300",
+   "first": "20240706082543",
+   "last": "20240712032420",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o"
+  },
+  {
+   "sha": "221727d57563d5a6",
+   "first": "20240713103432",
+   "last": "20240713103432",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o"
+  },
+  {
+   "sha": "92ccc21f05b62cb1",
+   "first": "20240721025221",
+   "last": "20240806053710",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "e442963d65085d0c",
+   "first": "20240807223909",
+   "last": "20240807223909",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits"
+  },
+  {
+   "sha": "4d9ee0ab437d3351",
+   "first": "20240808092800",
+   "last": "20240808092800",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "17d69cb52cfac517",
+   "first": "20240810132041",
+   "last": "20240810132041",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "9bcb74c70813e31b",
+   "first": "20240812121900",
+   "last": "20241130071949",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "17d69cb52cfac517",
+   "first": "20241203015051",
+   "last": "20241203015051",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "441bd7314dbb5b08",
+   "first": "20241203025125",
+   "last": "20241207171719",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits"
+  },
+  {
+   "sha": "9bcb74c70813e31b",
+   "first": "20241208101810",
+   "last": "20241212031554",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "9afafddadd322fcd",
+   "first": "20241224032751",
+   "last": "20241224032751",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "1c9262838369bc0c",
+   "first": "20241227050923",
+   "last": "20250107075809",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "8d29550d30548582",
+   "first": "20250112115334",
+   "last": "20250128220951",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "441bd7314dbb5b08",
+   "first": "20250129021605",
+   "last": "20250129021605",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits"
+  },
+  {
+   "sha": "1c9262838369bc0c",
+   "first": "20250129214600",
+   "last": "20250131193544",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "9e434ad25330d6e6",
+   "first": "20250204170705",
+   "last": "20250305213229",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "441bd7314dbb5b08",
+   "first": "20250305230949",
+   "last": "20250305230949",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits"
+  },
+  {
+   "sha": "1243d9ec4cbf3e34",
+   "first": "20250312221225",
+   "last": "20250312221225",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "e550fe86c901e973",
+   "first": "20250317143611",
+   "last": "20250317143611",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "5e1788f31eec1b55",
+   "first": "20250320033845",
+   "last": "20250326001107",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "41f7492eb96a9d31",
+   "first": "20250326220305",
+   "last": "20250326220305",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits"
+  },
+  {
+   "sha": "5e1788f31eec1b55",
+   "first": "20250327173529",
+   "last": "20250327173529",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "13c7e49a040663eb",
+   "first": "20250328094232",
+   "last": "20250414074103",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "f4c5c03fc7c58915",
+   "first": "20250415142526",
+   "last": "20250416051624",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "a6c6491ceb8beb89",
+   "first": "20250418120527",
+   "last": "20250418120527",
+   "url": "https://help.openai.com/en/articles/7127986-what-are-the-gpt-4-rate-limits"
+  },
+  {
+   "sha": "ce1ba824b762436c",
+   "first": "20250424143501",
+   "last": "20250424143501",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "c9e05d3b3f3e177d",
+   "first": "20250426192839",
+   "last": "20250427030612",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "0dbea0adf1481088",
+   "first": "20250428190357",
+   "last": "20250428190357",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "9b61e8b1024e099d",
+   "first": "20250501142056",
+   "last": "20250507095244",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "fc5d49007191bd65",
+   "first": "20250508004959",
+   "last": "20250512190444",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "9148171be0a45bff",
+   "first": "20250519091929",
+   "last": "20250519091929",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "0331dabfa42ba6b2",
+   "first": "20250525080652",
+   "last": "20250527030311",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4-1-mini"
+  },
+  {
+   "sha": "2e4950fef3615d5d",
+   "first": "20250601020103",
+   "last": "20250601020103",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4-1-mini"
+  },
+  {
+   "sha": "b67b3f24b5ee721f",
+   "first": "20250615152753",
+   "last": "20250615152753",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4-1-mini"
+  },
+  {
+   "sha": "d1d4bb685deb46e9",
+   "first": "20250619002129",
+   "last": "20250619002129",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4-1-mini"
+  },
+  {
+   "sha": "5d33289deecc61fd",
+   "first": "20250626034711",
+   "last": "20250708125255",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4-1-mini"
+  },
+  {
+   "sha": "ef34c7ffb4268db2",
+   "first": "20250710205541",
+   "last": "20250711003537",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-4-1-mini"
+  },
+  {
+   "sha": "af263f2b6a3e1231",
+   "first": "20250718125357",
+   "last": "20250718125357",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-41-mini"
+  },
+  {
+   "sha": "34c6182a8a008ff4",
+   "first": "20250730052245",
+   "last": "20250730052245",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4"
+  },
+  {
+   "sha": "3819a77044a9774f",
+   "first": "20250801070705",
+   "last": "20250801070705",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4/"
+  },
+  {
+   "sha": "8aee2e5e65b1de7a",
+   "first": "20250802062815",
+   "last": "20250802112356",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-gpt-4o-and-gpt-4o-mini"
+  },
+  {
+   "sha": "d24f98353fd9a04b",
+   "first": "20250804152055",
+   "last": "20250804152055",
+   "url": "https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4o-and-gpt-41-mini"
+  }
+ ],
+ "complete": true
+}

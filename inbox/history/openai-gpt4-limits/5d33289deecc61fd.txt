@@ -1,0 +1,66 @@
+English English
+English English
+Search for articles...
+Table of contents
+All Collections
+ChatGPT
+How can I access GPT-4o and GPT-4.1 mini?
+How can I access GPT-4o and GPT-4.1 mini?
+Learn about the GPT-4o models available in ChatGPT
+Table of contents
+What is a model?
+A model refers to a version of an AI system, each with its own capabilities, behavior, and strengths depending on how it was trained.
+What is GPT-4o?
+GPT-4o is a highly capable model that can interface with multiple modalities such as text, image, and audio input. GPT-4o is available to Free, Plus, Pro, Team, and Enterprise plans.
+What is GPT-4.1 mini?
+GPT-4.1 mini is a fast, capable, and efficient small model and excels in instruction-following, coding, and overall intelligence. GPT-4.1 mini is available in the model picker under "more models" for paid users, and will serve as the fallback model for free users once they reach their GPT-4o usage limits.
+Which model should I use?
+Choosing a model depends on your use case. Here is a brief overview of the differences between GPT-4o and GPT-4.1 mini:
+• GPT-4o
+• Great model for most tasks.
+• 128k token context length.
+• Text and image input/output.*
+• Audio input/output.**
+• GPT-4.1 mini
+• Faster for everyday tasks.
+• 128k token context length.
+• Text and image input/output.*
+• Audio input/output.**
+• Does not have access to advanced tools that GPT-4o has (data analysis, file uploads, vision)
+* Read this article for more information about image generation.
+** Read this article for more information about voice mode.
+ChatGPT Free plan
+Users on the Free plan will default to GPT-4o with a limit on the number of messages they can send. The free message limit is based on overall ChatGPT demand. When GPT-4o has reached capacity for free users, they must use GPT-4.1 mini instead.
+Free plan users can use GPT-4o a limited number of times within a five hour window. ChatGPT will inform you once you’ve reached the message limit but you can continue your conversation using GPT-4.1 mini or by upgrading to Plus or Pro plans.
+Free users receive limited access to messages using advanced tools through GPT-4o, such as:
+• Data analysis
+• File uploads
+• Search
+• Vision
+• Deep research
+Free users can upgrade to Plus or Pro at any time by visiting our pricing page .
+ChatGPT Plus, Team, and Pro plans
+ChatGPT Plus, Team, and Pro subscribers have GPT-4o access with substantial usage caps.
+• Plus users can send up to 80 messages using GPT-4o within a three-hour window. We may reduce the limit during peak hours to keep GPT-4o accessible to the widest number of people.
+• Team workspace users have a higher GPT-4o usage cap than that of ChatGPT Plus.
+• Pro users have nearly unlimited GPT-4o usage caps.
+Please note that unused messages do not accumulate over time. For example, a Plus user cannot accrue a 160 message limit for GPT-4o after waiting six hours.
+ChatGPT Enterprise
+The ChatGPT Enterprise plan is designed specifically to meet the needs of large enterprises: ChatGPT Enterprise offers enterprise-grade security and privacy, longer context windows for processing larger inputs, unlimited, high speed access to advanced tools like data analysis, and more.
+If you'd like to purchase ChatGPT Enterprise for your organization, please contact our sales team .
+API Support
+GPT-4o and GPT-4.1 mini are available in the OpenAI API . You can also try out the models with the Playground . To gain API access to both models you must be on at least usage tier 1 .
+Related Articles
+ChatGPT — Release Notes
+What is the ChatGPT model selector?
+GPTs FAQ
+Using GPTs FAQ (Free Version)
+ChatGPT Team - Release Notes
+Did this answer your question?
+😞 😐 😃
+• ChatGPT
+• API
+• DALL·E
+• Service Status
+•
+•

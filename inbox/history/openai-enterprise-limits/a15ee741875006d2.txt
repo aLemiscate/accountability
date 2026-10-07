@@ -1,0 +1,216 @@
+ChatGPT Enterprise and Edu - Models & Limits | OpenAI Help Center
+Language English United States
+• All collections
+• ChatGPT Enterprise
+• ChatGPT Enterprise and Edu - Models & Limits
+ChatGPT Enterprise and Edu - Models & Limits
+Understand which models are best suited for your tasks.
+Updated: 23 days ago
+Overview
+ChatGPT Enterprise is a subscription plan which offers enterprise-grade security and privacy, unlimited messages with GPT-5, native tools like connectors, deep research, data analysis, file uploads, canvas, projects, search, advanced voice, and image generation, customization options, and much more.
+Learn how ChatGPT can transform your organization.
+If you are on ChatGPT flexible pricing, please refer to this page for latest rates on our models, features and products.
+Model Picker
+In the model picker, Auto automatically switches between Instant and Thinking, and you can also choose additional GPT-5 options directly from the top of the model picker.
+• Thinking — deeper reasoning
+• Pro — research-grade intelligence
+Workspace admins can enable additional legacy models (including GPT-4o) for the entire workspace in their admin settings . For workspaces utilizing flexible pricing, please refer to the ChatGPT Rate Card for information on credit consumption by model.
+Please note that the context window for Instant is 128K and for Thinking is 196K.
+For additional information on what legacy models are currently available, please refer to our article: Legacy Model Access for Enterprise and Edu
+Managing GPT-5 Auto routing for reasoning (flexible pricing)
+Enterprises on the flexible pricing plan can set GPT-5 Auto to use GPT-5 Thinking Mini instead of GPT-5 Thinking for reasoning tasks.
+To update this setting:
+• Go to Workspace settings .
+• Under Models , enable Redirect GPT-5 Auto Router to Thinking Mini
+When turned on, reasoning requests sent to GPT-5 Auto will use GPT-5 Thinking Mini instead of GPT-5 Thinking .
+If GPT-5 Thinking is enabled in your workspace, members can still manually select it from the model picker.
+Note on Unlimited Access
+The ChatGPT Enterprise plan offers virtually unlimited GPT-5 messages. However, usage must adhere to our Services Agreement , which prohibits, among other things:
+• Abusive usage, such as automatically or programmatically extracting data.
+• Sharing your account credentials or making your account available to anyone else.
+• Reselling access or using ChatGPT to power third-party services.
+We have guardrails in place to help prevent misuse and are always working to improve our systems. This may occasionally involve a temporary restriction on your usage. We will inform you when this happens, and if you think this might be a mistake, please don’t hesitate to reach out to our support team. If policy-violating behavior is not found, your access will be restored.
+Models and limits
+Usage Limit
+Capabilities
+Inputs
+GPT-5
+Unlimited
+GPTs
+Data analysis
+Search
+Image generation
+Canvas
+Deep research
+Documents
+Images
+CSVs
+Audio
+GPT-5 Thinking
+200 / week*
+* We’ve temporarily raised the weekly limit above 200, but the long-term limit will be 200 per week.
+GPTs
+Data analysis
+Search
+Image generation
+Canvas
+Deep research
+Documents
+Images
+CSVs
+Audio
+GPT-5 Pro
+15 requests / month
+GPTs
+Data analysis
+Search
+Deep research
+Documents
+Images
+CSVs
+Audio
+GPT-4o
+Unlimited
+GPTs
+Data analysis
+Search
+Image generation
+Canvas
+Voice
+Deep research
+Documents
+Images
+CSVs
+Audio
+GPT-4.1
+500 requests / 3 hours
+Data analysis
+Search
+Image generation
+Canvas
+Deep research
+Documents
+Images
+CSVs
+GPT-4.1-mini
+Unlimited
+Data analysis
+Search
+Image generation
+Canvas
+Deep research
+Documents
+Images
+CSVs
+GPT-4.5
+20 requests / week
+Data analysis
+Search
+Image generation
+Canvas
+Voice
+Deep research
+Documents
+Images
+CSVs
+Audio
+o4-mini
+300 requests / day
+Data analysis
+Search
+Image generation
+Canvas
+Deep research
+Documents
+Images
+CSVs
+o4-mini-high
+100 requests / day
+Data analysis
+Search
+Image generation
+Canvas
+Documents
+Images
+CSVs
+o3
+100 requests / week
+Data analysis
+Search
+Image generation
+Canvas
+Deep research
+Documents
+Images
+CSVs
+o3-pro
+15 requests / month
+Search
+Deep Research
+Documents
+Images
+CSVs
+Features and limits
+Usage Limit
+Agent mode
+40 requests / month
+Deep research
+25 requests / month
+Image generation
+Unlimited
+Voice mode
+Unlimited
+When to use each model
+GPT-4o
+Excels at everyday tasks : Brainstorming, summarizing, emails, and creative content. Fully multimodal: supports almost all capabilities (GPTs, data analysis, search, image generation, canvas, voice) and inputs (documents, images, CSV files, and audio).
+Example Prompts
+• Summarize meeting notes into key action items.
+• Draft a follow-up email after a project kickoff.
+• Proof read my report.
+• Brainstorm a launch plan in real time—feel free to upload sketches or screenshots.
+GPT-4.1
+Precise coding and instruction-following : Strict adherence to detailed instructions and excels at web development and debugging. It produces more nuanced, robust code and follows complex requirements more faithfully, making it a favorite for developers and technical power users.
+Example Prompts
+• Debug this Python script; find the error and suggest a fix.
+• Compare the Q2 and Q3 revenue reports and highlight the top 3 drivers of growth, with supporting metrics.
+• Explain what this complex code snippet does, and suggest improvements for clarity.
+GPT-4.1-mini
+Faster everyday tasks: GPT-4.1 mini replaces the previous GPT-4o mini, offering significant upgrades in code generation and overall intelligence with the same low latency footprint. It’s ideal for users who need better answers on coding and technical questions but still require rapid responses.
+Example Prompts
+• Extract all expense entries over $1,000 from this table and list them with justification summaries.
+• Provide an inline comment explanation for each step of this Python script.
+• Summarize the main performance bottleneck in this Go routine and suggest one fix.
+GPT-4.5
+Ideal for creative tasks : Emotional intelligence, clear communication, creativity, and a more collaborative, intuitive approach to brainstorming.
+Example Prompts
+• Create an engaging LinkedIn post about AI trends.
+• Write a product description for a new feature launch.
+• Develop a customer apology letter with an empathetic tone.
+OpenAI o4-mini
+Fast technical tasks : Quick STEM-related queries, programming, visual reasoning.
+Example Prompts
+• Extract key data points from a CSV file.
+• Provide a quick summary of a scientific article.
+• Quick-fix this Python traceback for me.
+OpenAI o4-mini-high
+Detailed technical tasks : Advanced coding, math, scientific explanations, thinks longer for higher accuracy.
+Example Prompts
+• Solve a complex math equation and explain the steps.
+• Draft SQL queries for data extraction.
+• Explain a scientific concept in layman’s terms.
+OpenAI o3
+Complex, or multi step tasks: Strategic planning, detailed analyses, extensive coding, advanced math, science, coding, and visual reasoning.
+Example Prompts
+• Develop a risk analysis for market expansion.
+• Draft a business strategy outline based on competitive data.
+• Run a multi-step analysis on this CSV—forecast next quarter and plot the trend.
+• Review pipelines metrics, visualize the data, and search for new top of funnel strategies
+OpenAI o3-pro
+Complex reasoning : takes a bit longer to think but delivers the accuracy you need for complex tasks.
+Example Prompts
+• Draft a detailed risk-analysis memo for an EU data-privacy rollout.
+• Generate a multi-page research summary on emerging technologies.
+• Create an algorithm for financial forecasting using theoretical models.
+Was this article helpful?
+Submit
+ChatGPT API Service Status Cookie Preferences
