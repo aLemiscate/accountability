@@ -1,0 +1,54 @@
+Late last March, OpenAI announced a “small-scale preview” of an AI service, Voice Engine , that the company claimed could clone a person’s voice with just 15 seconds of speech. Roughly a year later, the tool remains in preview, and OpenAI has given no indication as to when it might launch — or whether it’ll launch at all.
+The company’s reluctance to roll out the service widely may point to fears of misuse, but it could also reflect an effort to avoid inviting regulatory scrutiny. OpenAI has historically been accused of prioritizing “shiny products” at the expense of safety, and of rushing releases to beat rival firms to market.
+In a statement, an OpenAI spokesperson told TechCrunch that the company is continuing to test Voice Engine with a limited set of “trusted partners.”
+“[We’re] learning from how [our partners are] using the technology so we can improve the model’s usefulness and safety,” the spokesperson said. “We’ve been excited to see the different ways it’s being used, from speech therapy, to language learning, to customer support, to video game characters, to AI avatars.”
+Pushed back
+Voice Engine, which powers the voices available in OpenAI’s text-to-speech API as well as ChatGPT’s Voice Mode , generates natural-sounding speech that closely resembles the original speaker. The tool converts written characters to speech, limited only by certain guardrails on content. But it was subject to delays and shifting release windows from the start.
+As OpenAI explained in a June 2024 blog post , the Voice Engine model learns to predict the most probable sounds a speaker will make for a given text transcript, taking into account different voices, accents, and speaking styles. After this, the model can generate not just spoken versions of text, but also “spoken utterances” that reflect how different types of speakers would read text aloud.
+OpenAI initially intended to bring Voice Engine, originally called Custom Voices, to its API on March 7, 2024, according to a draft blog post seen by TechCrunch. The plan was to give a group of up to 100 “trusted developers” access ahead of a wider debut, with priority given to devs building apps that provided a “social benefit” or showed “innovative and responsible” uses of the technology. OpenAI had even trademarked and priced it: $15 per million characters for “standard” voices and $30 per million characters for “HD quality” voices.
+Then, at the eleventh hour, the company postponed the announcement. OpenAI ended up unveiling Voice Engine a few weeks later without a sign-up option. Access to the tool would remain limited to a cohort of around 10 devs the company began working with in late 2023, OpenAI said.
+“We hope to start a dialogue on the responsible deployment of synthetic voices and how society can adapt to these new capabilities,” OpenAI wrote in Voice Engine’s announcement blog post in late March 2024. “Based on these conversations and the results of these small-scale tests, we will make a more informed decision about whether and how to deploy this technology at scale.”
+Long in the works
+Voice Engine has been in the works since 2022, according to OpenAI. The company claims it demoed the tool to “global policymakers at the highest levels” in summer 2023 to showcase its potential — and risks.
+Several partners have access to Voice Engine today, including startup Livox, which is building devices that enable people with disabilities to communicate more naturally. CEO Carlos Pereira told TechCrunch while Livox ultimately couldn’t build Voice Engine into a product due to the tool’s online requirement (many of Livox’s customers don’t have internet), he found the technology to be “really impressive.”
+“The quality of the voice and the possibility of having the voices speaking in different languages is unique — especially for people with disabilities, our customers,” Pereira told TechCrunch via email. “It is really the most impressive and easy-to-use [tool to] create voices that I’ve seen […] We hope that OpenAI develops an offline version soon.”
+Pereira says he hasn’t received guidance from OpenAI on a possible Voice Engine launch, nor has he seen any signs the company plans to begin charging for the service. So far, Livox hasn’t had to pay for its usage.
+In that aforementioned June 2024 post, OpenAI hinted that one of its considerations in delaying Voice Engine was the potential for abuse during last year’s U.S. election cycle. Informed by discussions with stakeholders, Voice Engine has several mitigatory safety measures, including watermarking to trace the provenance of generated audio.
+Developers must obtain “explicit consent” from the original speaker before using Voice Engine, according to OpenAI, and they must make “clear disclosures” to their audience that voices are AI-generated. The company hasn’t said how it’s enforcing these policies, however. Doing so at scale could prove to be immensely challenging, even for a company with OpenAI’s resources.
+In its blog posts, OpenAI also implied that it hoped to build a “voice authentication experience” to verify speakers and a “no-go” list that prevents the creation of voices that sound too similar to prominent figures. Both are technologically ambitious projects, and getting them wrong would reflect poorly on a company that’s often been accused of sidelining safety initiatives .
+Effective filtering and ID verification are fast becoming baseline requirements for responsible voice cloning tech releases. AI voice cloning was the third fastest-growing scam of 2024, according to one source . It’s led to fraud and bank security checks being bypassed as privacy and copyright laws struggle to keep up. Malicious actors have used voice cloning to create incendiary deepfakes of celebrities and politicians , and those deepfakes have spread like wildfire across social media.
+OpenAI could release Voice Engine next week — or never. The company has repeatedly said that it’s weighing keeping the service small in scope. But one thing’s clear: For optics reasons, safety reasons, or both, Voice Engine’s limited preview has become one of the longest in OpenAI’s history.
+Topics
+AI , OpenAI
+When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.
+Kyle Wiggers
+AI Editor
+Kyle Wiggers was TechCrunch’s AI Editor until June 2025. His writing has appeared in VentureBeat and Digital Trends, as well as a range of gadget blogs including Android Police, Android Authority, Droid-Life, and XDA-Developers. He lives in Manhattan with his partner, a music therapist.
+View Bio
+October 13 – 15
+San Francisco
+Get 50% off a second pass
+The Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by making connections, building momentum, and discovering what’s next in the startup ecosystem.
+BOOK NOW
+Most Popular
+•
+At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI
+• Dominic-Madori Davis
+•
+Federal judge calls Flock ‘indiscriminate mass surveillance’
+• Anthony Ha
+•
+Amazon responds to data center backlash, says it no longer uses NDAs
+• Anthony Ha
+•
+OpenAI safety employee resigns, claiming the company’s ‘culture is broken’
+• Anthony Ha
+•
+Meta wants your next gadget to be Muse-infused
+• Kirsten Korosec
+•
+Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground
+• Tim Fernholz
+•
+World’s first enhanced geothermal power plant completed in just 23 months
+• Tim De Chant

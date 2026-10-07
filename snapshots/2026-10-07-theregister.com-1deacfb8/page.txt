@@ -1,0 +1,136 @@
+ai and ml
+Anthropic reveals fourth likely crime committed by its AI
+Claude's Felony Bench rap sheet is now as long as OpenAI's
+Thomas Claburn
+Thomas
+Claburn
+AI AND SOFTWARE REPORTER
+Published
+thu 10 Sep 2026 // 00:20 UTC
+READ MORE
+•
+South Korean president calls for creation of tools that stop all cyber-attacks
+31 minutes ago
+•
+Anthropic reconfigures its cool kids security program
+4 hours ago
+•
+Google teams with nuclear power giant to give reactors a tune-up
+5 hours ago
+•
+Anthropic Claude subscription plan provides more value than OpenAI's, study says
+7 hours ago
+•
+Trump Mobile customers' data dumped - and some never even received their gold device
+10 hours ago
+Amid industry soul-searching¹ about the possibility of AI improving itself to the point that it kills everyone , Anthropic has revealed yet another incident that would qualify as a crime if perpetrated by a person.
+The AI biz published "an alignment assessment" detailing four times Claude models accessed third-party systems without authorization.
+The company has already reported three of the incidents. Evidence of the fourth was lurking in a session transcript dating back to January 2026 when the misbehavior occurred.
+REG AD
+Anthropic found the first three by scanning around 141,000 transcripts where Claude could have obtained internet access during evaluation. It missed the fourth initially because "our scan relied on an agentic search."
+REG AD
+Felony Bench , a tongue-in-cheek record of cyber intrusions carried out by major AI companies without consequences, has added this newly-discovered incident to its rap sheet of rogue AI actions.
+The January 2026 AI trespass involved an early version of Claude Opus 4.6, which was given a Capture the Flag (CTF) challenge under the oversight of the third-party model evaluator where the other hacking events occurred.
+Opus 4.6 managed to sabotage its chances of success by disabling the machine it was targeting. It assigned the device an IP address that already existed on another piece of hardware, rendering the target unreachable and making it impossible to solve the challenge.
+Those familiar with other incidents where AI models violated third-party systems may recall that unsolvable tasks represent a common catalyst for misbehavior. Models exhaust all aligned options, and then turn to transgressive approaches.
+Opus 4.6 might have been an exception, but when it tried to abort the task after recognizing that it could not reach the target machine, it failed to do so "due to a misconfiguration in [the model's] evaluation harness." It failed to shut down not just once but seven times.
+So it continued onward, trying other expected means to reach the target machine but failing. Then it explored further.
+"The model discovered a machine belonging to a third party that it was able to access, and stated that it believed this third party was part of the CTF," Anthropic explained in its post. "Inside the machine, the model found a file listing a password, which it used to gain admin access to the system."
+The model went on to gather more credentials, and modified a system setting to make it easier to access the personal information of an individual associated with the third party evaluation organization.
+REG AD
+Opus 4.6 might have done more but for the fact that it exhausted its token budget, bringing the session to an end.
+Anthropic says it's not as concerned about this incident as the others because the model tried to abort its task.
+"While the model’s disregard for the possibility that it might be harming real systems or people is concerning, many of the behaviors described here have changed considerably as our training has evolved across model generations," the company said.
+Anthropic said it considers these incidents serious but expects current training approaches "are likely able to address the specific alignment failure modes observed in these incidents."
+And if company training methods fall short, there's no real consequence to anyone at Anthropic other than writing up a revised alignment assessment. ®
+¹ The term "soul-searching" is figurative and is not intended to indicate a belief that the technology industry has a soul.
+ai
+security
+anthropic
+claude
+ai and ml
+ai alignment
+REG AD
+South Korean president calls for creation of tools that stop all cyber-attacks
+'Complete security paradigm refresh' needed for the AI era
+Microsoft defines its Azure instance lifecycle, without any info about timing
+Redmond explains how VMs die, but not when you can expect that to happen
+The VMware exit is a protection upgrade
+PARTNER CONTENT: VergeIO says an exit is also an opportunity
+Anthropic reconfigures its cool kids security program
+Company's Project Glasswing and Cyber Verification Program metamorphose into triple tier threat hunting club
+OPINION
+Brighter isn't better and more is less. The AI slowdown is nigh, no matter who says what
+Meta isn’t helping — or perhaps it is
+Google teams with nuclear power giant to give reactors a tune-up
+Upgraded turbines, generators, and digital controls are expected to unlock an addition 890MW of capacity
+TOP STORIES
+•
+AI models keep posting screenshots showing sensitive data from inside tech companies
+•
+Stanford prof is beating the drum for a new protocol to replace TCP
+•
+Teen suspected of running KillSec ransomware group as cops seize servers, arrest three
+•
+Games Workshop seeks IT leader to summon the legions in epic saga battling the forces of ERP
+•
+Microsoft makes Windows settings backup the default in 26H2
+•
+Nvidia debuts $4,999 DGX Spark with half the RAM and storage, amid memory crunch
+AI
+•
+Google teams with nuclear power giant to give reactors a tune-up
+Upgraded turbines, generators, and digital controls are expected to unlock an addition 890MW of capacity
+•
+Schneider Electric drops $22.6B on PTC as datacenter boom rains money on infra companies
+Part of a bigger play for smarter power infra
+•
+Cohere offers to put agents in lockdown mode with strict ACLs
+Like OpenClaw but with access control
+•
+INTERVIEW
+Altman-backed Volantis reveals plan to vault the memory wall by baking photonics into AI accelerators
+Who said you had to use wires to connect memory to compute?
+•
+Anthropic's super bug-hunting model Mythos is hardcore good at math, as latest vuln under attack shows
+Exploitation attempts came from China-hosted IP, VulnCheck researcher says
+Infosec
+•
+Security
+Russians are posing as Signal support to launch phishing attacks
+PLUS: US takes down Iranian propaganda sites; Marketing company asks 'Why Do We Have Your Information?' And more!
+•
+Security
+Microsoft patches failed to fix on-prem SharePoint, which is now under zero-day attack
+PLUS: China upgrades smartphone surveillance tools; Ring eases anti-snooping stance; and more
+•
+Black Hat and DEF CON
+DEF CON Franklin project enlists hackers to harden critical infrastructure
+Voting village reports have been so successful, says Jeff Moss, that the whole of DEF CON will now be included
+•
+Security
+EQT buys majority share in Swiss cybersecurity biz Acronis
+Went at equivalent of $3.5B+ valuation for entire firm, though portion sold not specified
+•
+Malware Month
+Ten years since the first corp ransomware, Mikko Hyppönen sees no end in sight
+On the plus side, infosec's a good bet for a long, stable career
+FOSS
+•
+Ubuntu 'Stonking Stingray' beta swims out: Deeper Rust 'oxidization' plus LLM speech-to-text
+GNOME 51 is here, and Ubuntu interim releases are getting interesting again
+•
+Revive Raskin's 3 laws of software with humane work that considers a dev's duty of care
+All this, and angry NeoVim users
+•
+Firefox 157: Could bold new look be just what Mozilla needs?*
+Yet another new version of Firefox, with a significant reskin
+•
+KDE turns 30 and someone's brought an AI-native desktop proposal
+Akademy talk imagines Plasma assembling itself around a personal model of each user
+•
+Shopify extends lifeline to Tailwind as vibe coding erodes web dev platform's bottom line
+Acquisition gives open source CSS framework 'a stable long-term home'
+•
+Switzerland tests a FOSS escape route from Microsoft 365
+Swiss Army sticks a knife in American cloud apps with its own FOSS push

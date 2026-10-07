@@ -1,0 +1,21 @@
+{
+  "url": "https://arxiv.org/abs/2203.02155",
+  "captured_at": "2026-10-07T07:14:09.950Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "44041210f5bfd20233118b305160785f14161f1cf026ff6efa372e3b3f30b7c4",
+    "page.txt": "acd654d47ebb0905135f0a5b05a34c6c080da8efe4c73097c10ee4c0667a0157",
+    "screenshot.jpg": "9ddac156ec0d3b73769bc5b57a34105ca0acf8a37d92b6056d40f3c3cd2a908f",
+    "rendered.txt": "ba2bb453994b5b67963a083c04d879d1ffc71c1be06d7473f3eeca87a5b9bc2e"
+  },
+  "http_status": 200,
+  "final_url": "https://arxiv.org/abs/2203.02155",
+  "content_type": "text/html; charset=utf-8",
+  "title": "[2203.02155] Training language models to follow instructions with human feedback",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20261004230610/https://arxiv.org/abs/2203.02155",
+    "timestamp": "20261004230610",
+    "method": "existing"
+  }
+}

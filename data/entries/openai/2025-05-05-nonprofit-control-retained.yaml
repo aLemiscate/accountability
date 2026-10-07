@@ -3,15 +3,15 @@ date: 2025-05-05
 org: openai
 type: did
 kind: reversal
-who: [ openai, bret-taylor, sam-altman ]
+who: [openai, bret-taylor, sam-altman]
 summary: >-
   After more than a year of pursuing a restructuring that would have loosened
   the nonprofit's control, OpenAI said the nonprofit would stay in control of a
   new public benefit corporation. Board chair Bret Taylor said the decision
   followed input from civic leaders and talks with the attorneys general of
   Delaware and California.
-related: [ 2015-12-11-founded-as-nonprofit, 2019-03-11-capped-profit-lp ]
-patterns: [ mission-to-market ]
+related: [2015-12-11-founded-as-nonprofit, 2019-03-11-capped-profit-lp]
+patterns: [mission-to-market]
 sources:
   - title: OpenAI reverses course, says its nonprofit will remain in control of its
       business operations
@@ -39,12 +39,14 @@ updates:
       been whether the nonprofit would keep control of the business, not whether
       it would continue to exist.
     sources:
-      - title: 'S. Hrg. 119-143, Winning the AI Race: Strengthening U.S.
-          Capabilities in Computing and Innovation'
+      - title: 'S. Hrg. 119-143, Winning the AI Race: Strengthening U.S. Capabilities in
+          Computing and Innovation'
         publisher: U.S. Government Publishing Office
         url: https://www.govinfo.gov/content/pkg/CHRG-119shrg61426/html/CHRG-119shrg61426.htm
         date: 2025-05-08
         type: primary
+        archive: https://web.archive.org/web/20260731062002/https://www.govinfo.gov/content/pkg/CHRG-119shrg61426/html/CHRG-119shrg61426.htm
+        snapshot: snapshots/2026-10-07-govinfo.gov-efb619ad
 note: >-
   Credit where it's due: the plan changed. But look at what changed it: critics,
   former employees, and two state attorneys general, not the company's own

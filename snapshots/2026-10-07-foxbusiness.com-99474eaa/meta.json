@@ -1,0 +1,21 @@
+{
+  "url": "https://www.foxbusiness.com/media/openai-ceo-sam-altman-donate-1-million-trumps-inaugural-fund",
+  "captured_at": "2026-10-07T07:41:14.624Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "d5d5499d78106992cdbbf561f47e7407703e1acf9cd0c607fc949ebd367b75c1",
+    "page.txt": "e61816fbcd29829239fbc6aa3f3063a1141efb41a0c2b0fdf8b815838e8a7a5d",
+    "screenshot.jpg": "4134e860a96c89a9d042a47b871609c469baca4baa6a24043f054f516e12c9b0",
+    "rendered.txt": "be5183a61b9c808554e6b1d7ebf5c25750f69e09c77ecbdbcce1fa4010cdef6d"
+  },
+  "http_status": 200,
+  "final_url": "https://www.foxbusiness.com/media/openai-ceo-sam-altman-donate-1-million-trumps-inaugural-fund",
+  "content_type": "text/html; charset=utf-8",
+  "title": "OpenAI CEO Sam Altman to donate $1 million to Trump's inaugural fund | Fox Business",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20260712000756/https://www.foxbusiness.com/media/openai-ceo-sam-altman-donate-1-million-trumps-inaugural-fund",
+    "timestamp": "20260712000756",
+    "method": "existing"
+  }
+}

@@ -52,6 +52,8 @@ sources:
     url: https://nymag.com/intelligencer/2023/03/on-with-kara-swisher-sam-altman-on-the-ai-revolution.html
     date: 2023-03-23
     type: primary
+    archive: https://web.archive.org/web/20261007070937/https://nymag.com/intelligencer/2023/03/on-with-kara-swisher-sam-altman-on-the-ai-revolution.html
+    snapshot: snapshots/2026-10-07-nymag.com-a359c030
 updates:
   - date: 2025-04-11
     text: >-
@@ -62,12 +64,14 @@ updates:
       testing," adding that "maybe the companies themselves put together the
       right framework."
     sources:
-      - title: OpenAI's Sam Altman talks ChatGPT, AI agents and superintelligence
-          — live at TED2025
+      - title: OpenAI's Sam Altman talks ChatGPT, AI agents and superintelligence — live
+          at TED2025
         publisher: TED
         url: https://www.ted.com/talks/sam_altman_openai_s_sam_altman_talks_chatgpt_ai_agents_and_superintelligence_live_at_ted2025/transcript
         date: 2025-04-11
         type: primary
+        archive: https://web.archive.org/web/20251116004323/https://www.ted.com/talks/sam_altman_openai_s_sam_altman_talks_chatgpt_ai_agents_and_superintelligence_live_at_ted2025/transcript
+        snapshot: snapshots/2026-10-07-ted.com-59382791
 note: >-
   Two months before the hearing, Altman described the oversight he wanted in
   more concrete terms on Kara Swisher's podcast: the government "should just

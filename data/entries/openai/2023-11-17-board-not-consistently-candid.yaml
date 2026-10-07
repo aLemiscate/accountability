@@ -31,6 +31,7 @@ sources:
     date: 2023-11-17
     type: reporting
     archive: https://web.archive.org/web/20251207075800/https://www.cbsnews.com/news/openai-sam-altman-ousted-board-no-confidence-mira-murati/
+    snapshot: snapshots/2026-10-07-cbsnews.com-d75fae3e
   - title: Review completed & Altman, Brockman to continue to lead OpenAI
     publisher: OpenAI
     url: https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai/
@@ -189,4 +190,6 @@ updates:
         archive: https://web.archive.org/web/20260619162303/https://gizmodo.com/ex-openai-cto-mira-murati-testifies-about-sam-altman-allegedly-lying-to-her-2000755394
         snapshot: snapshots/2026-09-29-gizmodo.com-cfaea214
 note: >-
-  The governance mechanism was used once, and it didn't hold. Mark this as the moment nonprofit control of the company became a claim to verify instead of a fact to assume.
+  The governance mechanism was used once, and it didn't hold. Mark this as the
+  moment nonprofit control of the company became a claim to verify instead of a
+  fact to assume.

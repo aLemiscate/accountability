@@ -32,6 +32,8 @@ sources:
     url: https://lexfridman.com/dario-amodei-transcript/
     date: 2024-11-11
     type: primary
+    archive: https://web.archive.org/web/20261006002607/https://lexfridman.com/dario-amodei-transcript/
+    snapshot: snapshots/2026-10-07-lexfridman.com-c6218e8d
   - title: Responsible Scaling Policy v3
     publisher: Anthropic
     url: https://anthropic.com/news/responsible-scaling-policy-v3
@@ -62,12 +64,16 @@ sources:
     url: https://www.exponentialview.co/p/human-level-ai-by-2030-will-it-happen
     date: 2025-03-14
     type: primary
+    archive: https://web.archive.org/web/20261007065948/https://www.exponentialview.co/p/human-level-ai-by-2030-will-it-happen
+    snapshot: snapshots/2026-10-07-exponentialview.co-fae9a22b
   - title: "Anthropic CEO Dario Amodei: AI's Potential, OpenAI Rivalry, GenAI
       Business, Doomerism"
     publisher: Big Technology Podcast
     url: https://podcasts.apple.com/us/podcast/anthropic-ceo-dario-amodei-ais-potential-openai-rivalry/id1522960417?i=1000719782760
     date: 2025-07-30
     type: primary
+    archive: https://web.archive.org/web/20261007065225/https://podcasts.apple.com/us/podcast/anthropic-ceo-dario-amodei-ais-potential-openai-rivalry/id1522960417?i=1000719782760
+    snapshot: snapshots/2026-10-07-podcasts.apple.com-52200dd2
 response: >-
   Anthropic said it chose to "acknowledge these challenges transparently and
   restructure the RSP before we reach these higher levels," instead of weakening
@@ -105,6 +111,7 @@ updates:
         url: https://podcasts.apple.com/us/podcast/anthropic-co-founder-jack-clark-what-does-the-future/id1487320403?i=1000769861154
         date: 2026-05-28
         type: primary
+        snapshot: snapshots/2026-10-07-podcasts.apple.com-193ea4ba
   - date: 2026-06-04
     text: >-
       An Anthropic Institute post on AI building itself said: "We believe it
@@ -133,6 +140,7 @@ updates:
         url: https://transcripts.cnn.com/show/acd/date/2026-06-04/segment/01
         date: 2026-06-04
         type: primary
+        snapshot: snapshots/2026-10-07-transcripts.cnn.com-20875577
   - date: 2026-07-08
     text: >-
       Four point releases followed (v3.1 on Apr 2, v3.2 on Apr 29, v3.3 on May

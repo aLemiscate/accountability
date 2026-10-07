@@ -27,6 +27,8 @@ sources:
     url: https://futureoflife.org/podcast/daniela-and-dario-amodei-on-anthropic/
     date: 2022-03-04
     type: primary
+    archive: https://web.archive.org/web/20261007063750/https://futureoflife.org/podcast/daniela-and-dario-amodei-on-anthropic/
+    snapshot: snapshots/2026-10-07-futureoflife.org-6f587c16
   - title: Inside Anthropic, the AI Company Betting That Safety Can Be a Winning
       Strategy
     publisher: TIME
@@ -34,27 +36,32 @@ sources:
     date: 2024-05-30
     type: reporting
     archive: https://web.archive.org/web/20260927040831/https://time.com/collections/time100-companies-2024/6980000/anthropic-2/
+    snapshot: snapshots/2026-10-07-time.com-4e9e46ad
   - title: The AI Tsunami is Here & Society Isn't Ready | Dario Amodei x Nikhil
       Kamath | People by WTF
     publisher: People by WTF
     url: https://podcasts.apple.com/us/podcast/the-ai-tsunami-is-here-society-isnt-ready-dario/id1819856014?i=1000751189267
     date: 2026-02-24
     type: primary
+    archive: https://web.archive.org/web/20261007063920/https://podcasts.apple.com/us/podcast/the-ai-tsunami-is-here-society-isnt-ready-dario/id1819856014?i=1000751189267
+    snapshot: snapshots/2026-10-07-podcasts.apple.com-e70944c0
 updates:
   - date: 2023-08-08
     text: >-
-      Five months later Amodei described how the principle had been applied:
-      "we didn't cause the big acceleration that happened late last year and at
-      the beginning of this year. We weren't the ones who did that." He added:
-      "And then once it had happened, once the ecosystem had changed, then we
-      did a lot of things to stay on the frontier."
+      Five months later Amodei described how the principle had been applied: "we
+      didn't cause the big acceleration that happened late last year and at the
+      beginning of this year. We weren't the ones who did that." He added: "And
+      then once it had happened, once the ecosystem had changed, then we did a
+      lot of things to stay on the frontier."
     sources:
-      - title: Dario Amodei (Anthropic CEO) - $10 Billion Models, OpenAI, Scaling,
-          & AGI in 2 years
+      - title: Dario Amodei (Anthropic CEO) - $10 Billion Models, OpenAI, Scaling, & AGI
+          in 2 years
         publisher: Dwarkesh Podcast
         url: https://www.dwarkesh.com/p/dario-amodei
         date: 2023-08-08
         type: primary
+        archive: https://web.archive.org/web/20261007063955/https://www.dwarkesh.com/p/dario-amodei
+        snapshot: snapshots/2026-10-07-dwarkesh.com-847756b2
   - date: 2026-09-09
     text: >-
       Jacob Coxon, a pretraining researcher who had worked at OpenAI and then
@@ -97,15 +104,14 @@ updates:
 note: >-
   Withholding publications is one way to avoid accelerating. Shipping the best
   model on the market is another question, and this principle never addressed
-  it. A year before the essay, in March 2022, Dario Amodei had stated a
-  narrower version on the Future of Life Institute podcast: "I think we
-  shouldn't be racing ahead or trying to build models that are way bigger than
-  other orgs are building them," while still working "on top of models that
-  are reasonably close to state of the art." One action did match the
-  principle. In the summer of 2022 Anthropic finished training the first
-  Claude, and Amodei, TIME reported, "ultimately decided not to" release it,
-  "opting instead to continue internal safety testing"; ChatGPT launched about
-  three months later. Amodei's account in 2026: "we chose not to release this
-  because we were worried that it would kick off an arms race and not give us
-  enough time to build these systems safely." (Quoted from the audio of People
-  by WTF, about 29:35.)
+  it. A year before the essay, in March 2022, Dario Amodei had stated a narrower
+  version on the Future of Life Institute podcast: "I think we shouldn't be
+  racing ahead or trying to build models that are way bigger than other orgs are
+  building them," while still working "on top of models that are reasonably
+  close to state of the art." One action did match the principle. In the summer
+  of 2022 Anthropic finished training the first Claude, and Amodei, TIME
+  reported, "ultimately decided not to" release it, "opting instead to continue
+  internal safety testing"; ChatGPT launched about three months later. Amodei's
+  account in 2026: "we chose not to release this because we were worried that it
+  would kick off an arms race and not give us enough time to build these systems
+  safely." (Quoted from the audio of People by WTF, about 29:35.)

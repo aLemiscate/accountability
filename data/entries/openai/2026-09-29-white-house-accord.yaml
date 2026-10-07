@@ -12,15 +12,17 @@ quote: >-
   for everyone, and each of our companies are committed to doing this.
 summary: >-
   OpenAI president Greg Brockman signed a short "Joint Commitment on Frontier
-  Responsibilities" with President Trump, Anthropic CEO Dario Amodei and the heads of Google, Meta, xAI and Nvidia. It commits each company to four layers: internal controls that monitor
-  its models' capabilities and alignment in training and deployment "around
-  areas like cybersecurity, biosecurity, and chemical threats," and "ensure that
-  its models do not hack or access technical systems in unintended ways"; an
-  internal team that makes sure the controls work and issues are remediated; "an
-  independent external auditor or evaluator"; and "an independent committee of
-  the board of directors" that receives reports from both and ensures issues are
-  remediated. The companies also said they "will meet regularly to establish
-  standards and best practices." Trump called the agreement "morally binding."
+  Responsibilities" with President Trump, Anthropic CEO Dario Amodei and the
+  heads of Google, Meta, xAI and Nvidia. It commits each company to four layers:
+  internal controls that monitor its models' capabilities and alignment in
+  training and deployment "around areas like cybersecurity, biosecurity, and
+  chemical threats," and "ensure that its models do not hack or access technical
+  systems in unintended ways"; an internal team that makes sure the controls
+  work and issues are remediated; "an independent external auditor or
+  evaluator"; and "an independent committee of the board of directors" that
+  receives reports from both and ensures issues are remediated. The companies
+  also said they "will meet regularly to establish standards and best
+  practices." Trump called the agreement "morally binding."
 concreteness: conditional
 status: open
 breaks_if: >-
@@ -54,6 +56,7 @@ sources:
     url: https://thehill.com/homenews/administration/6118906-tech-ceos-sign-white-house-ai-accord/
     date: 2026-09-29
     type: reporting
+    snapshot: snapshots/2026-10-07-thehill.com-572fbd08
   - title: Trump says he and tech leaders signed AI agreement that is 'morally
       binding'
     publisher: CNBC

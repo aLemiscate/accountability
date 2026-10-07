@@ -1,0 +1,21 @@
+{
+  "url": "https://openai.com/index/response-to-nyt-data-demands/",
+  "captured_at": "2026-10-07T07:31:19.652Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "3e785e8f5c80ae739650a14e71901547e703506e7e38c99e7e8c666857493f43",
+    "page.txt": "4956c1746e3a7a04645a7499f3aa37dc7701af4f5b48b909e0136dc980a5ae44",
+    "screenshot.jpg": "58c10ad60983a63f582f05ef33df8a128217dae35a4ef577f3378268a568d23b",
+    "rendered.txt": "84c64e5a2dc14c64f33d86afddf8870814a903cc32cae0c6f8189b4aa2c0badf"
+  },
+  "http_status": 200,
+  "final_url": "https://openai.com/index/response-to-nyt-data-demands/",
+  "content_type": "text/html; charset=utf-8",
+  "title": "How we’re responding to The New York Times’ data demands in order to protect user privacy | OpenAI",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20260822014226/https://openai.com/index/response-to-nyt-data-demands/",
+    "timestamp": "20260822014226",
+    "method": "existing"
+  }
+}

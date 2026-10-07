@@ -63,21 +63,24 @@ sources:
     url: https://podcasts.apple.com/us/podcast/sam-altman-on-agi-gpt-5-and-whats-next-episode-1/id1820330260?i=1000713445270
     date: 2025-06-18
     type: primary
+    snapshot: snapshots/2026-10-07-podcasts.apple.com-0f1fdb96
 updates:
   - date: 2025-08-14
     text: >-
       Nick Turley, head of ChatGPT, gave the commitment a yardstick on Decoder:
       "my commitment is that if we ever did retire 4o, we’d want to give people
       a heads-up on when and how that’s going to happen, just like we do in the
-      API and on our enterprise plans." He said OpenAI was at "a scale now
-      where we have to give people some level of predictability when there’s a
-      major change."
+      API and on our enterprise plans." He said OpenAI was at "a scale now where
+      we have to give people some level of predictability when there’s a major
+      change."
     sources:
       - title: ChatGPT chief Nick Turley doesn’t want you too attached to AI
         publisher: The Verge
         url: https://www.theverge.com/decoder-podcast-with-nilay-patel/758873/chatgpt-nick-turley-openai-ai-gpt-5-interview
         date: 2025-08-14
         type: primary
+        archive: https://web.archive.org/web/20261007073545/https://www.theverge.com/decoder-podcast-with-nilay-patel/758873/chatgpt-nick-turley-openai-ai-gpt-5-interview
+        snapshot: snapshots/2026-10-07-theverge.com-c4b38ddb
 response: >-
   OpenAI said users had "preferred GPT‑4o's conversational style and warmth,"
   that it had used that feedback in later models, and: "Changes like this take
@@ -86,8 +89,8 @@ note: >-
   Two weeks is short for a model some people had built habits around, but
   "plenty" was never defined, and almost no one was still using it. Marked
   eroded, not broken. Anthropic's comparable commitment, to preserve the weights
-  of retired models, is in the related entry. Two months before GPT-5
-  launched without the older models, Altman had said on OpenAI's podcast:
-  "sometimes people like one snapshot much better than another and they might
-  want to keep using one and we got to figure something out here." (Quoted
-  from the audio, about 12:09.)
+  of retired models, is in the related entry. Two months before GPT-5 launched
+  without the older models, Altman had said on OpenAI's podcast: "sometimes
+  people like one snapshot much better than another and they might want to keep
+  using one and we got to figure something out here." (Quoted from the audio,
+  about 12:09.)

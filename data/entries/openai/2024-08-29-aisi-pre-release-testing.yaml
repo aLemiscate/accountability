@@ -12,15 +12,19 @@ quote: >-
 summary: >-
   OpenAI and Anthropic signed agreements giving the US AI Safety Institute
   (later the Center for AI Standards and Innovation) "access to major new models
-  from each company prior to and following their public release." The
-  agreements are voluntary and their terms were not published.
+  from each company prior to and following their public release." The agreements
+  are voluntary and their terms were not published.
 concreteness: conditional
 status: kept
 breaks_if: >-
   A major OpenAI model ships without the government institute having had
   pre-release access.
 patterns: [unfalsifiable]
-related: [2024-08-29-anthropic-aisi-pre-release-testing, 2023-07-21-white-house-voluntary-commitments]
+related:
+  [
+    2024-08-29-anthropic-aisi-pre-release-testing,
+    2023-07-21-white-house-voluntary-commitments
+  ]
 sources:
   - title: Sam Altman on X
     publisher: X
@@ -61,13 +65,15 @@ updates:
       we made many changes through the process." (Quoted from the audio of
       Squawk on the Street, about 8:51 to 9:50.)
     sources:
-      - title: '10AM Hour: OpenAI CEO Sam Altman on New Model, Palo Alto Networks
-          CEO on AI Spending, Match Group CEO on AI & Dating 7/9/26'
+      - title: '10AM Hour: OpenAI CEO Sam Altman on New Model, Palo Alto Networks CEO on
+          AI Spending, Match Group CEO on AI & Dating 7/9/26'
         publisher: CNBC Squawk on the Street
         url: https://podcasts.apple.com/us/podcast/10am-hour-openai-ceo-sam-altman-on-new-model-palo-alto/id1475116211?i=1000776140567
         date: 2026-07-09
         type: primary
+        snapshot: snapshots/2026-10-07-podcasts.apple.com-e8d61e0e
 note: >-
   Marked kept on the published evidence: government testers did get
   pre-deployment access to at least one major model, and in 2026 government
-  review came before release. The agreement's terms aren't public, so whether every major model was tested can't be checked.
+  review came before release. The agreement's terms aren't public, so whether
+  every major model was tested can't be checked.

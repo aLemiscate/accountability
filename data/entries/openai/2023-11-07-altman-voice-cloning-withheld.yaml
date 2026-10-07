@@ -1,5 +1,5 @@
-title: 'Altman: OpenAI held back voice cloning and "shouldn''t release this until
-  we can figure out safeguards for it"'
+title: 'Altman: OpenAI held back voice cloning and "shouldn''t release this
+  until we can figure out safeguards for it"'
 date: 2023-11-07
 org: openai
 type: said
@@ -30,20 +30,24 @@ sources:
     url: https://www.commonwealthclub.org/events/2023-11-07/joy-buolamwini-and-sam-altman-unmasking-future-ai
     date: 2023-12-13
     type: primary
+    archive: https://web.archive.org/web/20260317073754/https://www.commonwealthclub.org/events/2023-11-07/joy-buolamwini-and-sam-altman-unmasking-future-ai
+    snapshot: snapshots/2026-10-07-commonwealthclub.org-0a082694
 updates:
   - date: 2025-03-06
     text: >-
       TechCrunch reported that OpenAI had announced a "small-scale preview" of
       Voice Engine in March 2024 and that, a year later, "the tool remains in
-      preview, and OpenAI has given no indication as to when it might launch."
-      A spokesperson said the company was still testing it with a limited set
-      of "trusted partners."
+      preview, and OpenAI has given no indication as to when it might launch." A
+      spokesperson said the company was still testing it with a limited set of
+      "trusted partners."
     sources:
       - title: A year later, OpenAI still hasn't released its voice cloning tool
         publisher: TechCrunch
         url: https://techcrunch.com/2025/03/06/a-year-later-openai-still-hasnt-released-its-voice-cloning-tool/
         date: 2025-03-06
         type: reporting
+        archive: https://web.archive.org/web/20250512165740/https://techcrunch.com/2025/03/06/a-year-later-openai-still-hasnt-released-its-voice-cloning-tool/
+        snapshot: snapshots/2026-10-07-techcrunch.com-fc33c61b
   - date: 2025-12-15
     text: >-
       OpenAI's API changelog for new audio snapshots said: "This launch also
@@ -58,10 +62,14 @@ updates:
         publisher: OpenAI
         url: https://developers.openai.com/api/docs/changelog
         type: primary
+        archive: https://web.archive.org/web/20261006202219/https://developers.openai.com/api/docs/changelog
+        snapshot: snapshots/2026-10-07-developers.openai.com-49e8d057
       - title: Custom voices | OpenAI API
         publisher: OpenAI
         url: https://developers.openai.com/api/docs/guides/custom-voices
         type: primary
+        archive: https://web.archive.org/web/20260930065737/https://developers.openai.com/api/docs/guides/custom-voices
+        snapshot: snapshots/2026-10-07-developers.openai.com-13418df8
 note: >-
   Marked kept on its own terms: OpenAI held the capability back for about two
   years, then shipped it only to eligible business customers behind a scripted

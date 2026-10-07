@@ -12,15 +12,14 @@ quote: >-
   concerning or ambiguous to us.
 summary: >-
   After first submitting a "support if amended" letter, Anthropic told Gov.
-  Newsom that the amended SB 1047 likely presented "a feasible compliance
-  burden for companies like ours" and that its benefits likely outweighed its
-  costs, stopping short of a full endorsement. Newsom vetoed the bill. In
-  September 2025 Anthropic formally endorsed the narrower SB 53, which requires
-  large developers to publish safety frameworks, release transparency reports,
-  report critical safety incidents within 15 days and protect whistleblowers,
-  while saying frontier AI safety is best handled federally. TechCrunch
-  reported that Meta and OpenAI lobbied against it; Newsom signed it on Sept.
-  29, 2025.
+  Newsom that the amended SB 1047 likely presented "a feasible compliance burden
+  for companies like ours" and that its benefits likely outweighed its costs,
+  stopping short of a full endorsement. Newsom vetoed the bill. In September
+  2025 Anthropic formally endorsed the narrower SB 53, which requires large
+  developers to publish safety frameworks, release transparency reports, report
+  critical safety incidents within 15 days and protect whistleblowers, while
+  saying frontier AI safety is best handled federally. TechCrunch reported that
+  Meta and OpenAI lobbied against it; Newsom signed it on Sept. 29, 2025.
 patterns: []
 related: [2024-08-21-opposes-sb-1047, 2026-02-12-public-first-action-donation]
 sources:
@@ -57,8 +56,8 @@ updates:
       worlds — no ability for states to act, and no national policy as a
       backstop." He called for a federal transparency standard instead.
     sources:
-      - title: Anthropic's Dario Amodei says AI element in GOP megabill 'far too
-          blunt an instrument'
+      - title: Anthropic's Dario Amodei says AI element in GOP megabill 'far too blunt
+          an instrument'
         publisher: The Hill
         url: https://thehill.com/policy/technology/5334913-anthropic-ceo-ai-regulation-donald-trump-gop-megabill/
         date: 2025-06-05
@@ -77,14 +76,15 @@ updates:
         url: https://podcasts.apple.com/us/podcast/the-co-founders-of-claude-ai-tell-oprah-about/id1782960381?i=1000768533274
         date: 2026-05-19
         type: primary
+        snapshot: snapshots/2026-10-07-podcasts.apple.com-f4b009e5
   - date: 2026-06-10
     text: >-
       Anthropic also endorsed New York's RAISE Act, saying its safeguards were
       "raising the bar," and Illinois's S.B. 315, which adds annual outside
       audits. Its head of external affairs, Sarah Heck, said the California and
-      New York laws "should inspire Congress to build on them." The company
-      said Congress should not preempt state law unless it first passes a
-      "strong" federal framework.
+      New York laws "should inspire Congress to build on them." The company said
+      Congress should not preempt state law unless it first passes a "strong"
+      federal framework.
     sources:
       - title: AI firms craft state rules as White House, Congress stall
         publisher: The Hill
@@ -106,9 +106,8 @@ updates:
       than Nvidia spent that quarter. (TechCrunch, citing OpenSecrets, put 2023
       at $280,000; that figure appears to add $80,000 a subcontractor reported,
       which under the disclosure rules is already part of the prime firm's
-      fees.) Its
-      reported issues included cybersecurity, copyright, cloud computing and
-      defense procurement.
+      fees.) Its reported issues included cybersecurity, copyright, cloud
+      computing and defense procurement.
     sources:
       - title: AI companies upped their federal lobbying spend in 2024 amid regulatory
           uncertainty

@@ -39,6 +39,8 @@ sources:
     url: https://www.theverge.com/24237562/anthropic-mike-krieger-claude-ai-chatbot-artifact-web-decoder-podcast-interview
     date: 2024-09-09
     type: primary
+    archive: https://web.archive.org/web/20261007065420/https://www.theverge.com/24237562/anthropic-mike-krieger-claude-ai-chatbot-artifact-web-decoder-podcast-interview
+    snapshot: snapshots/2026-10-07-theverge.com-5af669bf
 updates:
   - date: 2026-07
     text: The court gave final approval to the settlement.
@@ -59,7 +61,7 @@ note: >-
   company took first and paid when a court made it. In September 2024, with the
   authors' suit already filed, chief product officer Mike Krieger was asked on
   Decoder where Claude's training data comes from. He answered: "[It comes from]
-  scraping the web. We respect robots.txt. We have a few other data sources
-  that we license and work with folks separately for that. Let's say the
-  majority of it is web crawl done in a web crawl respectful way." He didn't
-  mention the shadow-library downloads.
+  scraping the web. We respect robots.txt. We have a few other data sources that
+  we license and work with folks separately for that. Let's say the majority of
+  it is web crawl done in a web crawl respectful way." He didn't mention the
+  shadow-library downloads.

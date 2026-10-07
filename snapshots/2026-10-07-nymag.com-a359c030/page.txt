@@ -1,0 +1,655 @@
+‘On With Kara Swisher’: Sam Altman on the GPT-4 Revolution
+• Intelligencer
+• The Cut
+• Vulture
+• The Strategist
+•
+• Curbed
+• Grub Street
+•
+Magazine
+Subscribe to the Magazine
+Give a Gift Subscription
+Buy Back Issues
+Current Issue Contents
+New York Shop
+• Subscribe
+• Sign In
+•
+Account
+Profile
+Saved for later
+Sign Out
+Menu
+Menu
+Close
+Close
+•
+Politics
+•
+Business
+•
+Technology
+•
+Ideas
+•
+About Intelligencer
+•
+Newsletters
+•
+New York App
+Like Us
+Follow Us
+• NYMag.com
+• New York Magazine
+• Intelligencer
+• Vulture
+• The Cut
+• The Strategist
+• Grub Street
+• Curbed
+Search
+Subscribe
+Give A Gift
+save d
+Find this story in your account’s ‘Saved for Later’ section.
+Comment
+Gift
+Menu
+Menu
+Close
+Close
+•
+Politics
+•
+Business
+•
+Technology
+•
+Ideas
+•
+About Intelligencer
+•
+Newsletters
+•
+New York App
+Like Us
+Follow Us
+• NYMag.com
+• New York Magazine
+• Intelligencer
+• Vulture
+• The Cut
+• The Strategist
+• Grub Street
+• Curbed
+save d
+Find this story in your account’s ‘Saved for Later’ section.
+Comment
+Gift
+Search
+on with kara swisher
+Sam Altman on What Makes Him ‘Super Nervous’ About AI
+The OpenAI co-founder thinks tools like GPT-4 will be revolutionary. But he’s wary of downsides.
+By Intelligencer Staff
+Mar. 23, 2023
+Save this article to read it later.
+Find this story in your account’s ‘Saved for Later’ section.
+Photo-Illustration: Intelligencer; Photo: Getty Images
+Photo-Illustration: Intelligencer; Photo: Getty Images
+OpenAI entered the Silicon Valley stratosphere last year with the release of two AI products, the image-generator DALLE-2 and the chatbot ChatGPT . (The company recently unveiled GPT-4 , which can ace most standardized tests, among other improvements on its predecessor.) Sam Altman, OpenAI’s co-founder, has become a public face of the AI revolution, alternately evangelical and circumspect about the potent force he has helped unleash on the world.
+In the latest episode of On With Kara Swisher , Swisher speaks with Altman about the many possibilities and pitfalls of his nascent field, focusing on some of the key questions around it. Among them: How do we best to regulate a technology even its founders don’t fully understand? And who gets the enormous sums of money at stake? Altman has lofty ideas for how generative AI could transform society. But as Swisher observes, he sounds like the starry-eyed tech founders she encountered a quarter-century ago — only some of whom stayed true to their ideals.
+On With Kara Swisher
+Journalist Kara Swisher brings the news and newsmakers to you twice a week, on Mondays and Thursdays.
+Subscribe on:
+Apple Podcast
+Spotify
+Kara Swisher : You started Loopt. That’s where I met you.
+Sam Altman : Yeah.
+Swisher : Explain what it was. I don’t even remember, Sam. I’m sorry.
+Altman : That’s no problem. Well, it didn’t work out. There’s no reason to remember. It was a location-based social app for mobile phones.
+Swisher : Right. What happened?
+Altman : The market wasn’t there, I’d say, is the No. 1 thing.
+Swisher : Yeah. Because?
+Altman : Well, I think you can’t force a market. You can have an idea about what people are going to like. As a start-up, part of your job is to be ahead of it, and sometimes you’re right about that and sometimes you’re not. Sometimes you make Loopt; sometimes you make OpenAI.
+Swisher : Right, exactly.
+Altman : Keep trying.
+Swisher : You started in 2015 after being at Y Combinator, and late last year, you launched ChatGPT. Talk about that transition. You reinvigorated Y Combinator in a lot of ways.
+Altman : I was handed such an easy task with Y Combinator. I don’t know if I reinvigorated it. It was a super-great thing by the time I took over.
+Swisher : What I mean is I think it got more prominence; you changed things around. I don’t mean to say it was failing.
+Altman : I think I scaled it more, and we took on longer-term, more ambitious projects. OpenAI, actually, was something I helped start while at YC. We funded other companies, some of which I’m very closely involved with, like Helion, the nuclear-fusion company. I definitely had a thing that I was passionate about and we did more of it, but I just tried to keep P.G. and Jessica’s vision going there and scale it up.
+Swisher : This is Paul Graham.
+Altman : Paul Graham.
+Swisher : And Jessica. You had shifted, though, to OpenAI. Why was that? When you’re in this position, which is a high-profile position in Silicon Valley — king of start-ups, essentially — why go off? Is it that you wanted to be an entrepreneur again?
+Altman : No, I didn’t.
+Swisher : You had started it as a nonprofit.
+Altman : I am not a natural fit for a CEO; being an investor, I think, suits me very well. I got convinced that AGI was going to happen and be the most important thing I could ever work on. I think it is going to transform our society in many ways, and I won’t pretend that as soon as we started OpenAI, I was sure it was going to work, but it became clear over the intervening years, and certainly by 2018–2019, that we had a real chance here.
+Swisher : What was it that made you think that?
+Altman : A number of things. It’s hard to point to just a single one, but by the time we made GPT-2, which was still weak in a lot of ways, you could look at the scaling laws and see what was going to happen. I was like, “Hmm. This can go very, very far.” I got super-excited about it. I’ve never stopped being super-excited about it.
+Swisher: Was there something you saw that scaled or what was the …
+Altman : It was looking at the data of how predictably better we could make the system with more compute, with more data.
+Swisher : There had already been a lot of stuff going on at Google with the Mine. They had bought that earlier, right around then.
+Altman : Yeah. There had been a bunch of stuff, but somehow it wasn’t quite the trajectory that has turned out to be the one that really works.
+Swisher : But it’s interesting; I remember us talking about it in 2015. You wrote that superhuman machine intelligence is probably the greatest threat to the continued existence of humanity.
+Altman : Yep. I still think so.
+Swisher : We’re going to get into that. Why did you write that then? And yet you also called it the greatest technology ever.
+Altman : I still believe both of those things. I think at this point more of the world would agree on that. At the time, it was considered an extremely crazy position.
+Swisher : You wrote that it was probably the greatest threat to continued existing humanity and also one of the greatest technologies that could improve humanity. Roll those two things out.
+Altman : Well, I think we’re finally seeing little previews of this with ChatGPT, and especially when we put GPT-4 out. People can see this vision where — just to pick one example out of the thousands, everyone in the world can have an amazing AI tutor on their phone with them all the time for anything they want to learn. I mean, that’s wonderful. That’ll make the world much better.
+The creative enhancement that people are able to get from using these tools to do whatever their creative work is — that’s fantastic. The economic empowerment, all of these things — and again, we’re seeing this only in the most limited, primitive, larval way. But at some point it’s like, Well, now we can use these things to cure disease.
+Swisher : What is the threat? Because when I try to explain it to regular people who don’t quite understand —
+Altman : I’m not a regular person?
+Swisher : No. You’re not.
+Altman : I’m so offended.
+Swisher : I’m not a regular person. But when the internet started, nobody knew what it was going to do. But when you said superhuman machine intelligence is probably the greatest threat, what did you mean by that?
+Altman : I think there’s levels of threats. Today, we can look at these systems and say, “All right. No imagination required, we can see how this can contribute to computer-security exploits, or disinformation, or other things that can destabilize society.”
+Certainly, there’s going to be an economic transition. Those are not in the future; those are things we can look at now. In the medium term, I think we can imagine that these systems get much, much more powerful. Now, what happens if a really bad actor gets to use them and tries to figure out how much havoc they can wreak on the world or harm they can inflict? And then, we can go further to all of the traditional sci-fi — what happens with the runaway AGI scenarios or anything like that?
+Now, the reason we’re doing this work is because we want to minimize those downsides while still letting society get the big upsides, and we think it’s very possible to do that. But it requires, in our belief, this continual deployment in the world, where you let people gradually get used to this technology, where you give institutions, regulators, policy-makers time to react to it, where you let people feel it, find the exploits, the creative energy the world will come up with — use cases we and all the red teamers we could hire would never imagine.
+And so we want to see all of the good and the bad, and figure out how to continually minimize the bad and improve the benefits. You can’t do that in the lab. This idea that we have, that we have an obligation and society will be better off for us to build in public, even if it means making some mistakes along the way — I think that’s really important.
+Swisher : When people critiqued ChatGPT, you wish that you said, “Wait for GPT-4.” Now that it’s out, has it met expectations?
+Altman : A lot of people seem really happy with it. There’s plenty of things it’s still bad at.
+Swisher : I meant your expectations.
+Altman : Yeah. I’m proud of it. Again, a very long way to go, but as a step forward, I’m proud of it.
+Swisher : What are you proudest of?
+Altman : Well, I enjoy using it, but more than that, it’s very gratifying to just go search for GPT-4 on Twitter and read what people are doing with it, the amazing discoveries people make of how to use it to be more productive, more effective, more creative, whatever they need. It’s nice. It’s nice to build something that’s useful for people.
+Swisher : You tweeted that at first glance, GPT-4 seems “more impressive than it actually is.” Why is that?
+Altman : Well, I think that’s been an issue with every version of these systems, not particularly GPT-4. You find these flashes of brilliance before you find the problems. And so, a thing that someone used to say about GPT-4 that has really stuck with me is it is the world’s greatest demo creator. Because you can tolerate a lot of mistakes there, but if you need a lot of reliability for a production system, it’s not as good at that. GPT-4 makes fewer mistakes. It’s more reliable, it’s more robust, but there’s still a long way to go.
+Swisher : One of the issues is hallucinations, which is a creepy word, I have to say.
+Altman : What do you think we should call it instead?
+Swisher : Mistakes, or something like that. Hallucination feels like it’s sentient.
+Altman : It’s interesting. Hallucination — that word doesn’t trigger for me as sentient, but I really try to make sure we’re picking words that are in the tools camp, not the creature’s camp. Because I think it’s tempting to anthropomorphize this in a really bad way.
+Swisher : That’s correct. But anyway, sometimes a bot just makes things up out of thin air. Hallucinations happen. It’ll cite research papers or news articles that don’t exist. You said GPT-4 does this less than GPT-3 — we should give them actual names —but it still happens.
+Altman : No. That would be anthropomorphizing.
+Swisher : That’s true.
+Altman : I think it’s good that it’s letters plus a number.
+Swisher : Not like Barbara?
+Altman : I don’t think so.
+Swisher : Anyway, but it still happens. Why is that?
+Altman : These systems are trained to do something, which is to predict the next word in a sequence. And so, it’s trying to just complete a pattern, and given its training set, this is the most likely completion. That said, the decrease from 3 to 3.5 to 4, I think is very promising. We track this internally, and every week we’re able to get the number lower and lower and lower. I think it’ll require combinations of model scale, new ideas —
+Swisher : More data.
+Altman : A lot of user feedback.
+Swisher : Model scale is more data.
+Altman : Not necessarily more data, but more compute thrown at the problem. Human feedback — people flagging the errors for us, developing new techniques of the model — can tell when it’s about to go off the rails.
+Swisher : Real people just saying “This is a mistake.”
+Altman : Yeah.
+Swisher : One of the issues is that it obviously compounds a very serious misinformation problem.
+Altman : Yeah. We pay experts to flag, to go through and label the data for us.
+Swisher : These are bounties.
+Altman : Not just bounties, but we employ people. We have contractors; we work with external firms. We say we need experts in this area to help us go through and improve things. You don’t just want to rely totally on random users doing whatever, trying to troll you, or anything like that.
+Swisher : So humans, more compute. What else?
+Altman : I think that there is going to be a big new algorithmic idea, a different way that we train or use or tweak these models, different architecture perhaps. So I think we’ll find that at some point.
+Swisher : Meaning what, for the non-techy?
+Altman : Well, it could be a lot of things. You could say a different algorithm, but just some different idea of the way that we create or use these models that encourages, during training or inference time when you’re using it, that encourages the models to really ground themselves in truth, be able to cite sources. Microsoft has done some good work there. We’re working on some things.
+Swisher : Talk about the next steps. How does this move forward?
+Altman : I think we’re on this very long-term exponential, and I don’t mean that just for AI, although AI too — I mean that as cumulative, human, technological progress — and it’s very hard to calibrate that, and we keep adjusting our expectations.
+I think if we told you five years ago we’d have GPT-4 today, you’d maybe be impressed. But if we told you four months ago after you used ChatGPT that we’d have GPT-4 today, probably not that impressed. Yet it’s the same continued exponential, so maybe where we get to a year from now, you’re like, “Meh. It’s better, but the new iPhone’s always a little better too.” But if you look at where we’ll be in ten years, then I think you’d be pretty impressed.
+Swisher : Right. Actually, the old iPhones were not as impressive as the new ones.
+Altman : For sure, but it’s been such a gradual process that unless you hold that original one and this one back-to-back —
+Swisher : I just found mine the other day, interestingly enough. That’s a very good comparison.
+You’re getting criticism for being secretive, and you said competition and safety require it. Critics say that’s a cop-out and it’s just about competition. What’s your response?
+Altman : It’s clearly not. We make no secret that we would like to be a successful effort, and I think that’s fine and good, and we try to be clear, but also we have made many decisions over the years in the name of safety that have been widely ridiculed at the time that people come to appreciate later. Even in the early versions of GPT, when we talked about not releasing model weights or releasing them gradually because we wanted people to have time to adapt — we got ridiculed for that, and I totally stand by that decision. Would you like us to push a button and open source GPT-4 and drop those weights into the world?
+Swisher : Probably not.
+Altman : Probably not.
+Swisher : One of the excuses that tech always uses is you don’t understand it, we need to keep it in the back room. It’s often about competition.
+Altman : Well, for us it’s the opposite. I mean, what we’ve said all along — and this is different than what most other AGI efforts have thought — is everybody needs to know about this. AGI should not be built in a secret lab with only the people who are privileged and smart enough to understand it. Part of the reason that we deploy this is, I think, we need the input of the world, and the world needs familiarity with what is in the process of happening, the ability to weigh in, to shape this together. We want that. We need that input, and people deserve it. So I think we’re not the secretive company. We’re quite the opposite. We put the most advanced AI in the world in an API that anybody can use. I don’t think that if we hadn’t started doing that a few years ago, Google or anybody else would be doing it now. They would just be using it secretly to make Google search better.
+Swisher : But you are in competition. And let me go back to someone who was one of your original funders, Elon Musk. He’s been openly critical of OpenAI, especially as it’s gone to profits: “OpenAI was created as an open source (which is why I named it “Open” AI), nonprofit company to serve as a counterweight to Google, but now it has become a closed source, maximum-profit company effectively controlled by Microsoft. Not what I intended at all.” We’re talking about open source versus closed, but what about his critique that you’re too close to the big guys?
+Altman : I mean, most of that is not true. And Elon knows that. We’re not controlled by Microsoft. Microsoft doesn’t even have a board seat on us, we are an independent company. We have an unusual structure where we can make very different decisions than what most companies do. I think a fair part of that is we don’t open-source everything anymore. We’ve been clear about why we think we were wrong there originally. We still do open-source a lot of stuff. Open sourcing CLIP was something that kicked off this whole generative image world. We recently open-sourced Whisper, we open-sourced tools, we’ll open-source more stuff in the future. But I don’t think it would be good right now for us to open-source GPT-4, for example. I think that would cause some degree of havoc in the world, or at least there’s a chance of that — we can’t be certain that it wouldn’t. And by putting it out behind an API, we are able to get many, not all, but many of the benefits we want of broad access to this society being able to understand the update and think about it. But when we find some of the scarier downsides, we’re able to then fix them, and we are going to.
+Swisher : How do you respond when he’s saying you’re a closed-source maximum-profit company? I’ll leave out the control by Microsoft, but in a strong partnership with Microsoft. Which was against what he said. I remember years ago, this was something he talked about a lot and was —
+Altman : Was what part?
+Swisher : “Oh, we don’t want these big companies to run it. If they run it, we’re doomed.” He was much more dramatic than most people.
+Altman : So we’re a capped-profit company. We invented this new thing where we started as a nonprofit —
+Swisher : Explain that. Explain what a capped profit is.
+Altman : Our shareholders, who are our employees and our investors, can make a certain return. Their shares have a certain price that they can get to. But if OpenAI goes and becomes a multitrillion-dollar company, almost all of that flows to the nonprofit that controls us.
+Swisher : What is the cap?
+Altman : It continues to vary as we have to raise more money, but it’s much, much, much, and will remain much, smaller than any —
+Swisher : Smaller than what?
+Altman : … tech company.
+Swisher : What?
+Altman : In terms of a number, I truly don’t know off the top of my head.
+Swisher : But it’s not significant. The nonprofit gets a significant chunk of the revenue.
+Altman : Well, no, it gets everything over a certain amount. So if we’re not very successful, the nonprofit gets a little bit along the way, but it won’t get any appreciable amount. The goal of the cap profit is in the world where we do succeed at making AGI and we have a significant lead over everybody else, it could become much more valuable, I think, than maybe any company out there today. That’s when you want almost all of it to flow to a nonprofit, I think.
+Swisher : I want to get back to what Elon was talking about. He was very adamant at the time and, again, overly dramatic, that Google and Microsoft and Amazon were going to kill us. I think he had those kinds of words, that there needed to be an alternative. What changed, in your estimation?
+Altman : Of?
+Swisher : To change from that idea.
+Altman : Oh, it was very simple. When we realized the level of capital we were going to need to do this, scaling turned out to be far more important than we thought, and we even thought it was going to be important then. And we tried for a while to find a path to that level of capital as a nonprofit. There was no one that was willing to do it. So we didn’t want to become a fully for-profit company. We wanted to find something that would let us get the access to and the power of capitalism to finance what we needed to do, but still be able to fulfill and be governed by the nonprofit mission. So having this nonprofit that governs the capped-profit LLC, given the playing field that we saw at the time, and I still think that we see now, was the way to get to the best of all worlds. In a really well-functioning society, I think this would’ve been a government project.
+Swisher : That’s correct. I was just going to make that point. The government would’ve been your funder.
+Altman : We talked to them. They not just would have been our funder, but they would’ve started the project. We’ve done things like this before in this country.
+But the answer is not to just say, “Oh well, the government doesn’t do stuff like this anymore, so we’re just going to sit around and let other countries run by us and get an AGI and do whatever they want to us.” We’re going to look at what’s possible on this playing field.
+Swisher : Right. So Elon used to be the co-chair, and you have a lot of respect for him.
+Altman : I do.
+Swisher : I’m sure you thought deeply about his critiques. Have you spoken to him directly? Was there a break, or what? You two were very close, as I recall.
+Altman : We’ve spoken directly recently.
+Swisher : And what do you make of the critiques? When you hear them from him, I mean, he can be quite in your face about things.
+Altman : He’s got his style.
+Swisher : Yeah.
+Altman : To say a positive thing about Elon —
+Swisher : Yeah, I’d like you to.
+Altman : … I think he really does care about a good future with AGI.
+Swisher : He does.
+Altman : And … I mean, he’s a jerk, whatever else you want to say about him. He has a style that is not a style that I’d want to have for myself.
+Swisher : He’s changed.
+Altman : But I think he does really care, and he is feeling very stressed about what the future’s going to look like —
+Swisher : For humanity.
+Altman : For humanity.
+Swisher : When we did an interview at Tesla, he was like, “If this doesn’t work, we’re all doomed.” Which was sort of centered on his car, but nonetheless, he was correct. And this was something he talked about almost incessantly, the idea of either AI taking over and killing us, or maybe it doesn’t really care. Then he decided it was like anthills; do you remember that example?
+Altman : I don’t remember the anthills part.
+Swisher : He said, “You know how, when we’re building a highway, anthills are there and we just go over them without thinking about it?” And then he said, “We’re like a cat, and maybe they’ll feed us and bell us, but they don’t really care about us.” It went on and on; it changed and iterated over time. But I think the critique that I would most agree with him on is that big companies would control this and there couldn’t be innovation in the space.
+Altman : Well, I would say we’re evidence against that.
+Swisher : Except Microsoft, and that’s why I think —
+Altman : They’re a big investor, but again, not even a board member. Like true, full independence from them.
+Swisher : So you think you are a startup in comparison with a giant partner?
+Altman : Yeah, I mean, we’re a big start-up at this point.
+Swisher : And there’s no way to be a nonprofit that would work?
+Altman : If someone wants to give us tens of billions of dollars of nonprofit capital, we can go make that work.
+Swisher : Yeah. Or the government, which they’re not.
+Altman : We tried.
+Swisher : Greg Brockman, your co-founder, said you guys made a mistake by creating AI with a quote, “Left-leaning political bias.” What do you think of the substance of those critiques?
+Altman : Yeah. I think the reinforcement learning from human feedback on our first version of ChatGPT was pretty left-biased, but that is now no longer true. It’s just become an internet meme. There are some people who are intellectually honest about this. If you go look at GPT-4 and test it on … It’s relatively neutral. Not to say we don’t have more work to do. The main thing, though, is I don’t think you ever get two people agreeing that any one system is unbiased on every topic. And so giving users more control and also teaching people about how these systems work, that there is some randomness in a response, that the worst screenshot you see on Twitter is not representative of what these things do, I think is important.
+Swisher : So when you said it had a left-leaning bias, what did that mean to you? And of course they’ll run with that — they’ll run with that quite far.
+Altman : People would give it these tests that score you on the political spectrum in America or whatever. And one would be all the way on the right, ten would be all the way on the left. It would get like a ten on all of those tests, the first version.
+Swisher : Why?
+Altman : A number of reasons, but largely because of the reinforcement learning from human feedback stuff.
+Swisher : What do you think the most viable threat to OpenAI is? I hear you’re watching Claude very carefully. This is the bot from Anthropic, a company that’s founded by former OpenAI folks and backed by Alphabet. Is that it? We’re recording this on Tuesday. BARD launched today; I’m sure you’ve been discussing it internally. Talk about those two to start.
+Altman : I try to pay some attention to what’s happening with all these other things. It’s going to be an unbelievably competitive space. I think this is the first new technological platform in a long period of time. The thing I worry about the most is not any of those, because I think there’s room for a lot of people, and also I think we’ll just continue to offer the best product. The thing I worry about the most is that we’re somehow missing a better approach. Everyone’s chasing us right now on large language models, kind of trained in the same way. I don’t worry about them, I worry about the person who has some very different idea about how to make a more useful system.
+Swisher : But is there one that you’re watching more carefully?
+Altman : Not especially.
+Swisher : Really? I kind of don’t believe you, but really?
+Altman : The things that I pay the most attention to are not, like, language model, start-up number 217. It’s when I hear, “These are three smart people in a garage with some very different theory of how to build AGI.” And that’s when I pay attention.
+Swisher: Is there one that you’re paying attention to now?
+Altman : There is one; I don’t want to say.
+Swisher: You really don’t want to say?
+Altman : I really don’t want to say.
+Swisher : What’s the plan for making money?
+Altman : We have a platform, which is this API, and then we have a consumer product on top of it. And the consumer product is 20 bucks a month for the sort of premium version, and the API, you just pay us per token, basically like a meter.
+Swisher : Businesses would do that depending on what they’re using it for, if they decide to deploy it in a hotel or wherever.
+Altman : The more you use it, the more you pay.
+Swisher : The more you use it, you pay. One of the things that someone said to me that I thought was very smart is, if the original internet started on a more pay-subscriber basis rather than an advertising basis, it wouldn’t be quite so evil.
+Altman : I am excited to see if we can really do a mass-scale, subscription-funded, not-ad-funded business here.
+Swisher : Do you see ads funding this? That to me is the original sin of the internet.
+Altman : Well, we’ve made the bet not to do that. I’m not opposed to it, maybe —
+Swisher: What would it look like?
+Altman : I don’t know. It’s going great with our current model; we’re happy about it.
+Swisher: You’ve also competed against Microsoft for clients. They’re trying to sell your software through their Azure Cloud businesses as an add-on.
+Altman : Actually, that’s fine. I don’t care about that.
+Swisher : That’s fine. But you’re also trying to sell directly sometimes to the same clients. You don’t care about that?
+Altman : I don’t care about that.
+Swisher : How does it work? Does it affect your bottom line that way?
+Altman : Again, we’re an unusual company here, we don’t need to squeeze out every dollar.
+Swisher : Former Googler Tristan Harris , who has become a critic of how tech is sloppily developed, presented to a group of regulators in D.C. I was there. Among the points he made is that you’ve essentially kicked off an AI arms race. I think that’s what struck me the most. Meta, Microsoft, Google, Baidu are rushing to ship generative AI bots as the tech industry is shedding jobs. Microsoft recently laid off the ethics and society team within its AI organization, which is not your issue, but are you worried about a profit-driven arms race?
+Altman : I do think we need regulation and we need industry norms about this. We spent many, many months — and actually really the years that it’s taken us to get good at making these models — getting them ready before we put them out. It obviously became somewhat of an open secret in Silicon Valley that we had GPT-4 done for a long time and there were a lot of people who were like, “You have to release this now; you’re holding this back from society. This is your closed AI, whatever.” But we just wanted to take the time to get it right. There’s a lot to learn here, and it’s hard, and in fact, we try to release things to help people get it right, even competitors. I am nervous about the shortcuts that other companies now seem like they want to take.
+Swisher : Such as?
+Altman : Oh, just rushing out these models without all the safety features built.
+Swisher : So when you say worried, what can you do about it?
+Altman : Well, we can and we do try to talk to them and explain, “Hey, here’s some pitfalls and here’s some things we think you need to get right.” We can continue to push for regulation, we can try to set industry norms. We can release things that we think help other people get toward safer systems faster.
+Swisher: Can you prevent that? Let me read you this passage from a story about Stanford doing it. They did one of their own models; $600, I think it cost them to put up —
+Altman : They trained a model for $600?
+Swisher : Yeah, they did. I’ll send you the story. So what’s to stop basically anyone from creating their own pet AI now for a hundred bucks or so and training it however they choose? Will OpenAI’s terms of service say you may not use output from services-developed models that compete with OpenAI?
+Altman : One of the other reasons that we want to talk to the world about these things now is, this is coming. This is totally unstoppable and there are going to be a lot of very good open-source versions of it in the coming years, and it’s going to come with wonderful benefits and some problems. By getting people used to this now, by getting regulators to begin to take this seriously and think about it now, I think that’s our best path forward.
+Swisher : In almost every interview you do, you’re asked about the dangers of releasing AI products, and you say it’s better to test it gradually, when the stakes are relatively low. Can you expand on that? Why are the stakes low now? Why aren’t they high right now?
+Altman : “Relatively” is the key word.
+Swisher : Right. What happens to the stakes if it’s not controlled now?
+Altman : Well, these systems are now much more powerful than they were a few years ago, and we are much more cautious than we were a few years ago in terms of how we deploy them. We’ve tried to learn what we can learn. We’ve made some improvements, and we’ve found ways that people want to use this. In this interview, and I totally get why, I think we’re mostly talking about all of the downsides, but —
+Swisher : No, I’m going to ask you about the upsides.
+Altman : But we’ve also found ways to improve the upsides by learning, too. So mitigate downsides, maximize upsides. That sounds good. And it’s not that the stakes are that low anymore. In fact, I think we’re in a different world than we were a few years ago. I still think they’re relatively low to where we’ll be a few years from now. These systems still have classes of problems, but there’s things that are totally out of reach that we know they’ll be capable of. And the learnings we have now, the feedback we get now, seeing the ways people hack, jailbreak, whatever — that’s super-valuable.
+I’m curious how you think we’re doing.
+Swisher : I think you’re saying the right things.
+Altman : Not saying. How do you think we’re doing as you look at the trajectory of our releases?
+Swisher: I think the reason people are so worried — and I think it’s a legitimate worry — is because the way the early internet rolled out, it was “gee-whiz” almost the whole time: “Gee-whiz, look at these rich guys. Isn’t this great?” And they missed every single consequence, never thought of them. I remember seeing Facebook Live, and I said, “Well, what about people who kill each other on it? What about murderers? What about suicides? What about …” And they called me a bummer.
+Altman : A bummer.
+Swisher: And I’m like, “Yeah, I’m a bummer. I just noticed that when people get ahead of tools, they tend …” And this is Brad Smith’s thing. It’s a tool or a weapon. The same thing happened with the Google founders. They were trying to buy Yahoo many years ago, and I said, “At least Microsoft knew they were thugs.” And they called me and they said, “That’s really hurtful; we’re really nice.” I said, “I’m not worried about you, I’m worried about the next guy. I don’t know who runs your company in 20 years with all that information on everybody.”
+And so I think I am a bummer. And so if you don’t know what it’s going to be, while you can think of all the amazing things it’s going to do and it’d probably be a net positive for society — net positive isn’t so great either sometimes, right? The internet is a net positive like electricity’s a net positive. It’s a famous quote: “When you invent electricity, you invent the electric chair.” And so what would be the greatest thing here? Does it outweigh some of the dangers?
+Altman : I think that’s going to be the fundamental tension we face that we have to wrestle with, that the field as a whole has to wrestle with, society has to wrestle with.
+Swisher : Especially in this world we live in now, which I think we can all agree has not gone forward. It’s spinning backward a little bit, in terms of authoritarians using this —
+Altman : Yeah. I am super-nervous about that.
+Swisher : What is the greatest thing it can do you can think of? Now you and I are not creative enough to think of all the things —
+Altman: We are not, not even close.
+Swisher : What, from your perspective — and don’t do term papers, don’t do dad jokes. What do you think?
+Altman : Is that what you thought I would say for the greatest thing?
+Swisher : No, not at all. But I’m getting tired of that. I don’t care that it can write a press release. Fine, sounds fantastic. I don’t read them anyway.
+Altman : What I am personally most excited about is helping us greatly expand our scientific knowledge. I am a believer that a lot of our forward progress comes from increasing scientific discovery over a long period of time.
+Swisher: In any area?
+Altman : All of the areas. I think that’s just what’s driven humanity forward. And if these systems can help us in many different ways, to greatly increase the rate of scientific understanding, curing diseases is an obvious example. There’s so many other things we can do with —
+Swisher : AI has already moved in that direction — folding proteins and things like that.
+Altman : So that’s the one that I’m personally most excited about. But there will be many other wonderful things too. You asked me what my one was and —
+Swisher : Is there one unusual thing that you think will be great, that you’ve seen already that you’re like, “That’s pretty cool?”
+Altman : Using some of these new AI tutorlike applications is like, “I wish I had this when I was growing up. I could have learned so much, and so much better and faster.” And when I think about what kids today will be like by the time they’re finished with their formal education and how much smarter and more capable and better educated they can be than us today, I’m excited for that.
+Swisher : Using these tools?
+Altman : Yeah.
+Swisher : I would say health information for people who can’t afford it is probably the one I think is most —
+Altman : That’s going to be transformative. We’ve seen that even for people who can afford it, this in some ways will be better.
+Swisher : 100 percent.
+Altman : And the work we’re seeing there from a bunch of early companies on the platform, I think it’s remarkable.
+Swisher : So the last thing is regulation. The internet was never regulated by anybody, really, except maybe in Europe, but in this country, absolutely not. There’s not a privacy bill, there’s not an antitrust bill, etc., it goes on and on, they did nothing. But the EU is considering labeling ChatGPT high-risk. If it happens, it will lead to significant restrictions on its use, and Microsoft and Google are lobbying against it. What do you think should happen?
+Altman : With AI regulation in general or with the AI?
+Swisher : This one, the high-risk one.
+Altman : I have followed the development of the EU’s AI Act , but it changed. It’s obviously still in development. I don’t know enough about the current version of it to say this definition of what high-risk is and this way of classifying it, this is what you have to do. I don’t know if I would say that’s good or bad. I think totally banning this stuff is not the right answer, and I think that not regulating this stuff at all is not the right answer either. And so the question is, is that going to end in the right balance? I think if the EU is saying, “No one in Europe gets to use ChatGPT.” Probably not what I would do, but if the EU is saying, “Here’s the restrictions on ChatGPT and any service like it.” There’s plenty of versions of that I could imagine that are super-sensible.
+Swisher : After the Silicon Valley non-bailout bailout, you tweeted, “We need more regulation on banks.” And then someone tweeted at you, “Now he’s going to say, we need them on AI.” And you said, “We need them on AI.”
+Altman : I mean, I do think that SVB was an unusually bad case, but also if the regulators aren’t catching that, what are they doing?
+Swisher : They did catch it, actually. They were giving warnings.
+Altman : They were giving warnings, but there’s often an audit — “this thing is not quite right.” That’s different than saying —
+Swisher : No, it was “You need to do something.” They just didn’t do anything.
+Altman : Well, they could have. I mean, the regulators could have taken over six months ago.
+Swisher : Yes. So this is what happens a lot of the time, even in well-regulated areas, which banks are compared to the internet. What sort of regulations does AI need in America? Lay them out. I know you’ve been meeting with regulators and lawmakers.
+Altman : Yeah, I did a three-day trip to D.C. earlier this year.
+Swisher : You did. So tell me what you think the regulations were and what are you telling them, and do you find them savvy as a group? I think they’re savvier than people think.
+Altman : Some of them are quite, quite exceptional. I think the thing that I would like to see happen immediately is just much more insight into what companies like ours are doing, companies that are training above a certain level of capability at a minimum. A thing that I think could happen now is the government should just have insight into the capabilities of our latest stuff, released or not, what our internal audit procedures and external audits we use look like, how we collect our data, how we’re red-teaming these systems, what we expect to happen, which we may be totally wrong about. We could hit a wall anytime, but our internal road-map documents, when we start a big training run, I think there could be government insight into that. And then if that can start now … I do think good regulation takes a long time to develop. It’s a real process. They can figure out how they want to have oversight.
+Swisher : Reid Hoffman has suggested a blue-ribbon panel so they learn, they learn up on this stuff, which —
+Altman : Panels are fine. We could do that too, but what I mean is government auditors sitting in our buildings.
+Swisher : Congressman Ted Lieu said there needs to be an agency dedicated specifically to regulating AI. Is that a good idea?
+Altman : I think there’s two things you want to do. This is way out of my area of expertise, but you’re asking, so I’ll try. I think people like us who are creating these very powerful systems that could become something properly called AGI at some point —
+Swisher : Explain what that is.
+Altman : Artificial general intelligence, but what people mean is just above some threshold where it’s really good. Those efforts probably do need a new regulatory effort, and I think it needs to be a global regulatory body. And then people who are using AI, like we talked about, as a medical adviser, I think the FDA can give probably very great medical regulation, but they’ll have to update it for the inclusion of AI. But I would say creation of the systems and having something like an IA/EA that regulates that is one thing, and then having existing industry regulators still do their regulation —
+Swisher : People do react badly to that, because the information bureaus, that’s always been a real problem in Washington. Who should head that agency in the U.S.?
+Altman : I don’t know.
+Swisher : Okay. So one of the things that’s going to happen, though, is the less intelligent ones, of which there are many, are going to seize on things like they’ve done with TikTok, possibly deservedly, but other things. Like Snap released a chatbot powered by GPT that allegedly told a 15-year-old how to mask the smell of weed and alcohol, and a 13-year-old how to set the mood for sex with an adult. They’re going to seize on this stuff. And the question is, who’s liable if this is true, when a teen uses those instructions? And Section 230 doesn’t seem to cover generative AI. Is that a problem?
+Altman : I think we will need a new law for use of this stuff, and I think the liability will need to have a few different frameworks. If someone is tweaking the models themselves, I think it’s going to have to be the last person who touches it has the liability, and that’s —
+Swisher: But it’s not full immunity that the platform’s getting —
+Altman : I don’t think we should have full immunity. Now, that said, I understand why you want limits on it, why you do want companies to be able to experiment with this, you want users to be able to get the experience they want, but the idea of no one having any limits for generative AI, for AI in general, that feels super-wrong.
+Swisher : Last thing, trying to quantify the impact you personally will have on society as one of the leading developers of this technology. Do you think about that? Do you think about your impact?
+Altman : Me, OpenAI, or me, Sam?
+Swisher: You, Sam.
+Altman : I mean, hopefully I’ll have a positive impact.
+Swisher : Do you think about the impact on humanity, the level of power that also comes with it?
+Altman : Yeah, I think about what OpenAI is going to do for a lot of people and the impact OpenAI will have.
+Swisher : But do you think it’s out of your hands?
+Altman : No. But it is very much … the responsibility is with me at some level, but it’s very much a team effort.
+Swisher : So when you think about the impact, what is your greatest hope, and what’s your greatest worry?
+Altman : My greatest hope is that we create this thing. We are one of many that will contribute to this movement. We’ll create an AI, other people will create an AI, and we will be a participant in this technological revolution that I believe will be far greater in terms of impact and benefit than any before. My view of the world is that it’s this one big, long, technological revolution, not a bunch of smaller ones, but we’ll play our part. We will be one of several in this moment, and that is going to be really wonderful. This is going to elevate humanity in ways we still can’t fully envision. And our children, our children’s children, are going to be far better off than the best of anyone from this time. And we’re just going to be in a radically improved world. We will live healthier, more interesting, more fulfilling lives; we’ll have material abundance for people, and we will be a contributor and we’ll put in our —
+Swisher : Your part.
+Altman : Our part of that.
+Swisher : You do sound alarmingly like the people I met 25 years ago, I have to say. They did talk like this. Many of them did, and some of them continued to be that way. A lot of them didn’t, unfortunately. And then the greed seeped in, the money seeped in, the power seeped in, and it got a little more complex.
+I want to focus on you with my last question. There seem to be two caricatures of you, one that I’ve seen in the presses, a boyish genius who will help defeat Google and usher in Utopia. The other is that you’re an irresponsible, woke-tech-overlord Icarus that will lead us to our demise.
+Altman : I have to pick one? How old do I have to be before I can drop the boyish qualifier?
+Swisher : Oh, you can be boyish. Tom Hanks is still boyish.
+Altman : All right. And what was the second one?
+Swisher : You know, Icarus, overlord, tech overlord, woke.
+Altman : The Icarus part I like.
+Swisher : That is still boyish.
+Altman : I think we feel like adults now.
+Swisher : You may be adults, but boyish always gets put on you. I don’t ever call you boyish. I think you’re adults.
+Altman : Icarus meaning we are messing around with something that we don’t fully understand?
+Swisher : Yeah.
+Altman : Well, we are messing around with something we don’t fully understand. And we are trying to do our part in contributing to the responsible path through it.
+Swisher : All right, on that —
+Altman : But I don’t think either of those two.
+Swisher : You’re not either of those.
+Altman : I mean —
+Swisher : So describe yourself then. Describe what you are.
+Altman : Technology brother.
+Swisher : Oh wow. You’re going to go for tech —
+Altman : I’m kidding. I just think that’s such a funny meme. I don’t know how to describe myself. I think that’s what you would call me.
+Swisher : No, I wouldn’t.
+Altman : No?
+Swisher: 100 percent not.
+Altman: All right.
+Swisher : Because it’s an insult now. It’s become an insult. I’d call you a technology sister.
+Altman: I’ll take that. Can we leave it on that note?
+Swisher: Let’s leave on that note.
+Altman: All right.
+Swisher : I do have one more quick question. Last time we talked, you were thinking of running for governor. I was thinking of running for mayor. I’m not going to be running for mayor. Are you going to still run for governor?
+Altman : No. I think I am doing the most amazing thing I can imagine. I really don’t want to do anything else. It’s tiring, but I love it.
+Swisher : Okay. Sam Altman, thank you so much.
+Altman : Thank you.
+This interview has been edited for length and clarity.
+Thank you for subscribing and supporting our journalism .
+If you prefer to read in print, you can also find this article in the March 27, 2023, issue of
+New York Magazine.
+Want more stories like this one? Subscribe now
+to support our journalism and get unlimited access to our coverage.
+If you prefer to read in print, you can also find this article in the March 27, 2023, issue of
+New York Magazine.
+On With Kara Swisher is produced by Nayeema Raza, Blakeney Schick, Cristian Castro Rossel, and Rafaela Siewert , with mixing by Fernando Arruda, engineering by Christopher Shurtleff, and theme music by Trackademics. New episodes will drop every Monday and Thursday. Follow the show on Apple Podcasts , Spotify , or wherever you get your podcasts .
+More From 'on with kara swisher'
+•
+What Pete Buttigieg Meant to Say About Israel
+•
+Kara Swisher Wants to Save the Washington Post From Jeff Bezos
+•
+Ron Klain Still Thinks Biden Got a Raw Deal
+See All
+Tags:
+•
+remove interruptions
+•
+newsletter pick
+•
+on with kara swisher
+•
+podcasts
+•
+kara swisher
+•
+politics
+•
+sam altman
+•
+openai
+•
+gpt-4
+•
+chatgpt
+•
+new york magazine
+•
+More
+Show
+Comment
+Sam Altman on What Makes Him ‘Super Nervous’ About AI
+Your product is saved! You’ll receive emails when your saved products go on sale. Manage preferences.
+Things you buy through our links may earn Vox Media a commission.
+Sign In to Comment
+THE FEED
+10/6/2026
+money
+money
+Did Raw Sewage Get Jared and Ivanka Into Elite Country Club?
+By Bess Levin
+It appears a septic system may have sealed the deal.
+10/6/2026
+u.s. supreme court
+u.s. supreme court
+Like Ruth Bader Ginsburg, Alito Is Gambling on Outliving His Critics
+By Ed Kilgore
+He could retire and let a GOP Senate confirm a like-minded successor. But like RBG, he can’t let go of the power a lifetime appointment confers.
+10/6/2026
+games
+games
+The Yankees Are Blowing It in the Most Frustrating Way
+By Will Leitch
+Once again, sloppy defensive miscues are torpedoing the team in October.
+Most Popular
+•
+Why Letitia James Is the Wrong Choice to Prosecute the Cornell Case
+By Elie Honig
+•
+The Inescapable Hasan Piker
+By Simon van Zuylen-Wood
+•
+Why Don’t Colleges Just Ban Fraternities?
+By Jacob Bacharach
+•
+What Would You Do If Your Employer Could Destroy the World?
+By Clara Collier and Angela Chen
+•
+‘I Don’t Think We’re All F***ed Anymore’
+By Benjamin Hart
+•
+The Inescapable Hasan Piker
+By Simon van Zuylen-Wood
+•
+Why Letitia James Is the Wrong Choice to Prosecute the Cornell Case
+By Elie Honig
+•
+What Would You Do If Your Employer Could Destroy the World?
+By Clara Collier and Angela Chen
+•
+Why Don’t Colleges Just Ban Fraternities?
+By Jacob Bacharach
+•
+‘I Don’t Think We’re All F***ed Anymore’
+By Benjamin Hart
+10/6/2026
+2026 midterms
+2026 midterms
+Abdul El-Sayed Is No Longer a Risky Bet
+By Ed Kilgore
+After working hard to achieve party unity after a fractious primary, the Michigan Democratic Senate nominee now leads the race against Mike Rogers.
+10/6/2026
+excerpt
+excerpt
+Chasing the Pope
+By Jason Horowitz
+My far-flung, frenzied days with the Vatican press corps.
+10/6/2026
+the law
+the law
+Why Letitia James Is the Wrong Choice to Prosecute the Cornell Case
+By Elie Honig
+The DA had to go, but Kathy Hochul mishandled the next part.
+10/6/2026
+just asking questions
+just asking questions
+‘I Don’t Think We’re All F***ed Anymore’
+By Benjamin Hart
+Kevin Roose’s new book explores the terrifying implications of AI, but he’s feeling a bit more sanguine these days.
+10/5/2026
+wedding bells
+wedding bells
+Kash Patel Put a Ring on Girlfriend With SWAT Protection
+By Bess Levin
+The FBI has defended providing security for country singer and now fiancée Alexis Wilkins.
+10/5/2026
+education
+education
+Why Don’t Colleges Just Ban Fraternities?
+By Jacob Bacharach
+As the university system buckles under various pressures, Greek life has become even more central to the business of higher education.
+10/5/2026
+2026 midterms
+2026 midterms
+6 Midterms Takeaways With a Month to Go
+By Ed Kilgore
+GOP turf and money advantage still matter, but Democrats have a message and are leading in polls all over the country as Trump’s popularity craters.
+10/5/2026
+early and often
+early and often
+Why Trump Is So Ticked Off About Daylight Saving Time
+By Margaret Hartmann
+Trump is fixated on putting an end to biannual clock changing. But it seems posting Senator Tom Cotton’s cell number didn’t help his cause.
+10/5/2026
+tremendous content
+tremendous content
+‘Super Intelligence,’ Trump’s Dopey AI Rebrand, Explained
+By Margaret Hartmann
+Trump is trying to shut down AI doomerism by giving “artificial intelligence” a friendlier name. But he may have a hard time making “SI” happen.
+10/5/2026
+social studies
+social studies
+The Inescapable Hasan Piker
+By Simon van Zuylen-Wood
+For good or ill, the Twitch streamer is now the most volatile force in American politics.
+10/5/2026
+tomorrow
+tomorrow
+What Would You Do If Your Employer Could Destroy the World?
+By Clara Collier and Angela Chen
+Exit interviews with defectors from OpenAI, Anthropic, and DeepMind.
+10/4/2026
+early and often
+early and often
+MAGA Can’t Let Go of Tricky Dick
+By Ed Kilgore
+Nixon apologists have now spurred a Justice Department investigation of Watergate. But the Trump parallels they draw aren’t flattering to either man.
+10/3/2026
+movies
+movies
+NAZA Is Selling Out Theaters. Can It Influence The Hague?
+By Rachel Corbett
+Whether the film can advance the case for genocide may be more complicated than convincing viewers.
+10/3/2026
+the schoolyard
+the schoolyard
+Mamdani’s 2K Is a Mathematical Mess
+By Claire Suddath
+Experts say that the paltry funding set aside for universal child care is more likely to bankrupt many day cares than help them thrive.
+10/2/2026
+2026 midterms
+2026 midterms
+GOP Saving the Unpopular Stuff for After the Election
+By Ed Kilgore
+On a range of issues from Iran to safety-net cuts to voting rights, Trump’s party is holding back until he’s beyond accountability once and for all.
+10/2/2026
+crime
+crime
+Everything We Know About Tennessee’s Botched Execution of Christa Pike
+By Nia Prater
+Pike, a convicted murder, survived two lethal injection doses and was rushed to the hospital, prompting a statewide execution pause.
+10/2/2026
+the approval matrix
+the approval matrix
+The Approval Matrix: It’s Madonna’s Year Again
+Our guide to what’s highbrow, lowbrow, brilliant, and despicable.
+10/2/2026
+education
+education
+The Most Polarizing Parenting Essay Ever?
+By Anya Kamenetz
+It’s been almost two weeks since Nikole Hannah-Jones agonized over her school choices in ‘The New York Times Magazine.’ Parents are still processing.
+10/2/2026
+poll position
+poll position
+How Low Can Trump Go?
+By Ed Kilgore
+He is now flirting with some of the worst presidential popularity measures on record, and this probably isn’t his rock bottom yet.
+10/2/2026
+profile
+profile
+Luca Guadagnino Saw This Coming
+By E. Alex Jung
+The director’s alarming new film, Artificial, holds a mirror to our AI overlords.
+10/2/2026
+just asking questions
+just asking questions
+Nikole Hannah-Jones Worries You’re Missing the Point
+By Nia Prater
+The writer on the misplaced backlash to her school-choice story, recognizing her daughter’s agency, and why Mamdani should take on segregation.
+10/2/2026
+power
+power
+The Post–Me Too Generation Gets Its Me Too Moment
+By Zoe Yu
+The “Cornell Seven” case is changing what my generation thought we knew.
+Have an Account?
+Log In
+Like Us
+Follow Us
+Follow Us
+Follow Us
+•
+About Intelligencer
+•
+About New York Magazine
+•
+Newsletters
+•
+Help
+•
+Contact
+•
+Press
+•
+Media Kit
+•
+We’re Hiring
+•
+Privacy
+•
+Terms
+•
+Ad Choices
+•
+Accessibility
+•
+Do not sell or share my personal data
+intelligencer is a Vox Media Network .
+&copy; 2026 Vox Media, LLC. All rights reserved.
