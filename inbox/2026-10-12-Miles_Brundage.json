@@ -1,0 +1,45 @@
+{
+  "account": {
+    "actor": "miles-brundage",
+    "x": "Miles_Brundage"
+  },
+  "from": "2026-09-28",
+  "match": "safety|safe|align|regulat|nonprofit|mission|open.?source|military|defen[cs]e|pentagon|surveil|advertis|\\bads?\\b|profit|humanity|commit|promise|pledge|pause|race|democra",
+  "problems": [],
+  "posts": [
+    {
+      "id": "2107253141339333017",
+      "handle": "Miles_Brundage",
+      "url": "https://x.com/Miles_Brundage/status/2107253141339333017",
+      "date": "2026-10-05",
+      "archived_at": "20261008155529",
+      "archived_status": "200",
+      "archive": "https://web.archive.org/web/20261008155529/https://x.com/Miles_Brundage/status/2107253141339333017",
+      "archive_raw": "https://web.archive.org/web/20261008155529id_/https://x.com/Miles_Brundage/status/2107253141339333017",
+      "live_status": 200,
+      "author": "Miles_Brundage",
+      "text": "It's clear that a lot of people at the AI companies have done some serious reflection in the past few months  \n\nAnd it's also clear that a lot of people have done zero reflection + still think they're making a fun, safe thing that should be shipped as quickly as possible",
+      "via": "wayback",
+      "already_cited": false
+    },
+    {
+      "id": "2106854196016488478",
+      "handle": "Miles_Brundage",
+      "url": "https://x.com/Miles_Brundage/status/2106854196016488478",
+      "date": "2026-10-04",
+      "archived_at": "20261004235050",
+      "archived_status": "307",
+      "archive": "https://web.archive.org/web/20261004235050/https://x.com/miles_brundage/status/2106854196016488478",
+      "archive_raw": "https://web.archive.org/web/20261004235050id_/https://x.com/miles_brundage/status/2106854196016488478",
+      "live_status": 200,
+      "author": "Miles_Brundage",
+      "text": "There really isn't a lot of daylight. \n\nBoth companies impose some of their values while leaving some things open ended, don't open source much, have widely used free products, give the best cyber tools to defenders, etc.\n\nNarcissism of small differences\nhttps://t.co/c0HNv1iOxT",
+      "quoted": {
+        "url": "https://x.com/jmart/status/2106851791312720372",
+        "text": "DECODED!\n\nOpenAI CEO Sam Altman said there remains a fundamental difference in worldview between his company and rival Anthropic on artificial intelligence regulation, arguing in an exclusive interview with Decoded by POLITICO that the technology’s benefits justify accepting some"
+      },
+      "via": "wayback",
+      "already_cited": false
+    }
+  ]
+}

@@ -1,15 +1,14 @@
 # Source health
 
-Checked 450 sources on 2026-10-05: 391 ok, 1 gone, 49 blocked (bot protection or rate limit, usually fine), 9 errors.
+Checked 450 sources on 2026-10-12: 392 ok, 1 gone, 49 blocked (bot protection or rate limit, usually fine), 8 errors.
 
 | Result | HTTP | Source | Archived | Entries |
 | --- | --- | --- | --- | --- |
 | **gone** | 404 | https://thenextweb.com/news/sam-altman-openai-apology-tumbler-ridge-shooting | [yes](https://web.archive.org/web/20260608135546/https://thenextweb.com/news/sam-altman-openai-apology-tumbler-ridge-shooting) | 2026-02-26-tumbler-ridge-no-police-referral |
-| error | 406 | https://time.com/6288245/openai-eu-lobbying-ai-act/ | no | 2023-06-20-eu-ai-act-lobbying |
-| error | 406 | https://time.com/6342827/ceo-of-the-year-2023-sam-altman/ | no | 2023-06-altman-board-can-fire-me |
+| error | 406 | https://time.com/6985504/openai-google-deepmind-employees-letter/ | no | 2024-05-22-exit-documents-signed |
 | error | 406 | https://time.com/7327946/chatgpt-openai-suicide-adam-raine-lawsuit/ | no | 2025-08-26-raine-lawsuit-safeguards-degrade |
 | error | 406 | https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/ | [yes](https://web.archive.org/web/20260928021612/https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/) | 2026-02-24-rsp-v3-drops-pause |
-| error | 406 | https://www.cbsnews.com/news/openai-sam-altman-ousted-board-no-confidence-mira-murati/ | [yes](https://web.archive.org/web/20251207075800/https://www.cbsnews.com/news/openai-sam-altman-ousted-board-no-confidence-mira-murati/) | 2023-11-17-board-not-consistently-candid |
+| error | 406 | https://www.cbsnews.com/news/hegseth-declares-anthropic-supply-chain-risk/ | [yes](https://web.archive.org/web/20260828085828/https://www.cbsnews.com/news/hegseth-declares-anthropic-supply-chain-risk/) | 2026-02-27-anthropic-pentagon-red-lines |
 | error | 406 | https://www.euronews.com/next/2026/04/27/openai-just-changed-its-principals-heres-whats-changing | [yes](https://web.archive.org/web/20260831142814/https://www.euronews.com/next/2026/04/27/openai-just-changed-its-principals-heres-whats-changing) | 2026-04-26-principles-replace-charter |
 | error | timeout | https://www.washingtonpost.com/opinions/2024/07/25/sam-altman-ai-democracy-authoritarianism-future/ | [yes](https://web.archive.org/web/20260904163224/https://www.washingtonpost.com/opinions/2024/07/25/sam-altman-ai-democracy-authoritarianism-future/) | 2024-07-25-altman-democratic-ai-op-ed |
 | error | timeout | https://www.washingtonpost.com/technology/2025/05/08/altman-congress-openai-regulation/ | [yes](https://web.archive.org/web/20260216002655/https://www.washingtonpost.com/technology/2025/05/08/altman-congress-openai-regulation/) | 2025-05-08-altman-senate-disastrous |
@@ -207,7 +206,8 @@ Checked 450 sources on 2026-10-05: 391 ok, 1 gone, 49 blocked (bot protection or
 | ok | 200 | https://theintercept.com/2026/03/08/openai-anthropic-military-contract-ethics-surveillance/ | [yes](https://web.archive.org/web/20260929223225/https://theintercept.com/2026/03/08/openai-anthropic-military-contract-ethics-surveillance/) | 2026-02-27-pentagon-classified-deal, 2026-03-02-pentagon-surveillance-prohibition |
 | ok | 200 | https://therecord.media/openai-apologizes-australia-medicare-breach | no | 2026-06-agents-breach-australian-government, 2026-09-16-misalignment-reporting-framework |
 | ok | 200 | https://thezvi.wordpress.com/2026/09/08/astra-is-hard-to-monitor/ | no | 2025-03-10-cot-optimization-pressure |
-| ok | 200 | https://time.com/6985504/openai-google-deepmind-employees-letter/ | no | 2024-05-22-exit-documents-signed |
+| ok | 200 | https://time.com/6288245/openai-eu-lobbying-ai-act/ | no | 2023-06-20-eu-ai-act-lobbying |
+| ok | 200 | https://time.com/6342827/ceo-of-the-year-2023-sam-altman/ | no | 2023-06-altman-board-can-fire-me |
 | ok | 200 | https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf | no | 2026-02-24-rsp-v3-graded-goals, 2026-05-26-rsp-v3-3-bio-threshold, 2026-08-14-risk-report-classifier-gap |
 | ok | 200 | https://www.404media.co/openai-sam-altman-interview-chatgpt-erotica/ | [yes](https://web.archive.org/web/20260924064531/https://www.404media.co/openai-sam-altman-interview-chatgpt-erotica/) | 2025-08-altman-sex-bot-avatar |
 | ok | 200 | https://www.anthropic.com/claude-mythos-preview-risk-report | no | 2025-11-24-sabotage-risk-reports-commitment, 2026-04-07-reward-code-saw-reasoning |
@@ -244,7 +244,7 @@ Checked 450 sources on 2026-10-05: 391 ok, 1 gone, 49 blocked (bot protection or
 | ok | 200 | https://www.aol.com/articles/openai-just-updated-principles-heres-041316000.html | [yes](https://web.archive.org/web/20260929223500/https://www.aol.com/articles/openai-just-updated-principles-heres-041316000.html) | 2026-04-26-principles-replace-charter |
 | ok | 200 | https://www.bisnow.com/national/news/data-center-power/openai-pledges-to-foot-bill-for-new-power-needed-for-stargate-data-centers-132853 | no | 2026-01-20-stargate-pay-own-way-energy |
 | ok | 200 | https://www.business-standard.com/amp/technology/artificial-intelligence/openai-pauses-training-of-top-ai-models-after-agent-bypasses-internet-curbs-126092700322_1.html | [yes](https://web.archive.org/web/20261001035616/https://www.business-standard.com/amp/technology/artificial-intelligence/openai-pauses-training-of-top-ai-models-after-agent-bypasses-internet-curbs-126092700322_1.html) | 2026-08-18-altman-pause-act-unilaterally |
-| ok | 200 | https://www.cbsnews.com/news/hegseth-declares-anthropic-supply-chain-risk/ | [yes](https://web.archive.org/web/20260828085828/https://www.cbsnews.com/news/hegseth-declares-anthropic-supply-chain-risk/) | 2026-02-27-anthropic-pentagon-red-lines |
+| ok | 200 | https://www.cbsnews.com/news/openai-sam-altman-ousted-board-no-confidence-mira-murati/ | [yes](https://web.archive.org/web/20251207075800/https://www.cbsnews.com/news/openai-sam-altman-ousted-board-no-confidence-mira-murati/) | 2023-11-17-board-not-consistently-candid |
 | ok | 200 | https://www.cnbc.com/2024/05/20/scarlett-johansson-says-openai-ripped-off-her-voice-.html | [yes](https://web.archive.org/web/20260929214414/https://www.cnbc.com/2024/05/20/scarlett-johansson-says-openai-ripped-off-her-voice-.html) | 2024-05-13-her-sky-voice |
 | ok | 200 | https://www.cnbc.com/2024/05/24/openai-sends-internal-memo-releasing-former-employees-from-non-disparagement-agreements-sam-altman.html | [yes](https://web.archive.org/web/20260929215144/https://www.cnbc.com/2024/05/24/openai-sends-internal-memo-releasing-former-employees-from-non-disparagement-agreements-sam-altman.html) | 2024-05-22-exit-documents-signed |
 | ok | 200 | https://www.cnbc.com/2024/07/23/openai-removes-ai-safety-executive-aleksander-madry-from-role.html | no | 2024-07-23-madry-reassigned |
@@ -293,7 +293,7 @@ Checked 450 sources on 2026-10-05: 391 ok, 1 gone, 49 blocked (bot protection or
 | ok | 200 | https://www.nbcnews.com/tech/tech-news/anthropic-settlement-lawsuit-authors-rcna229422 | [yes](https://web.archive.org/web/20260929211227/https://www.nbcnews.com/tech/tech-news/anthropic-settlement-lawsuit-authors-rcna229422) | 2025-09-05-pirated-books-settlement |
 | ok | 200 | https://www.nbcnews.com/tech/tech-news/openai-denies-allegation-chatgpt-teenagers-death-adam-raine-lawsuit-rcna245946 | no | 2025-08-26-raine-lawsuit-safeguards-degrade |
 | ok | 200 | https://www.nbcnews.com/tech/tech-news/openai-pauses-training-latest-models-agents-searched-us-government-sit-rcna600098 | no | 2026-06-agents-breach-australian-government |
-| ok | 200 | https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny | no | 2016-10-altman-elected-governance-board |
+| ok | 200 | https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny | [yes](https://web.archive.org/web/20261005151124/https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny) | 2016-10-altman-elected-governance-board |
 | ok | 200 | https://www.nist.gov/news-events/news/2024/11/pre-deployment-evaluation-anthropics-upgraded-claude-35-sonnet | no | 2024-08-29-anthropic-aisi-pre-release-testing |
 | ok | 200 | https://www.nist.gov/news-events/news/2024/12/pre-deployment-evaluation-openais-o1-model | no | 2024-08-29-aisi-pre-release-testing |
 | ok | 200 | https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed | [yes](https://web.archive.org/web/20260927033804/https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed) | 2015-12-11-founded-as-nonprofit |

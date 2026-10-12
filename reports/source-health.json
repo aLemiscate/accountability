@@ -10,19 +10,9 @@
     "via": "http"
   },
   {
-    "url": "https://time.com/6288245/openai-eu-lobbying-ai-act/",
+    "url": "https://time.com/6985504/openai-google-deepmind-employees-letter/",
     "entries": [
-      "2023-06-20-eu-ai-act-lobbying"
-    ],
-    "archive": null,
-    "status": 406,
-    "result": "error",
-    "via": "http"
-  },
-  {
-    "url": "https://time.com/6342827/ceo-of-the-year-2023-sam-altman/",
-    "entries": [
-      "2023-06-altman-board-can-fire-me"
+      "2024-05-22-exit-documents-signed"
     ],
     "archive": null,
     "status": 406,
@@ -50,11 +40,11 @@
     "via": "http"
   },
   {
-    "url": "https://www.cbsnews.com/news/openai-sam-altman-ousted-board-no-confidence-mira-murati/",
+    "url": "https://www.cbsnews.com/news/hegseth-declares-anthropic-supply-chain-risk/",
     "entries": [
-      "2023-11-17-board-not-consistently-candid"
+      "2026-02-27-anthropic-pentagon-red-lines"
     ],
-    "archive": "https://web.archive.org/web/20251207075800/https://www.cbsnews.com/news/openai-sam-altman-ousted-board-no-confidence-mira-murati/",
+    "archive": "https://web.archive.org/web/20260828085828/https://www.cbsnews.com/news/hegseth-declares-anthropic-supply-chain-risk/",
     "status": 406,
     "result": "error",
     "via": "http"
@@ -2059,9 +2049,19 @@
     "via": "http"
   },
   {
-    "url": "https://time.com/6985504/openai-google-deepmind-employees-letter/",
+    "url": "https://time.com/6288245/openai-eu-lobbying-ai-act/",
     "entries": [
-      "2024-05-22-exit-documents-signed"
+      "2023-06-20-eu-ai-act-lobbying"
+    ],
+    "archive": null,
+    "status": 200,
+    "result": "ok",
+    "via": "http"
+  },
+  {
+    "url": "https://time.com/6342827/ceo-of-the-year-2023-sam-altman/",
+    "entries": [
+      "2023-06-altman-board-can-fire-me"
     ],
     "archive": null,
     "status": 200,
@@ -2440,11 +2440,11 @@
     "via": "http"
   },
   {
-    "url": "https://www.cbsnews.com/news/hegseth-declares-anthropic-supply-chain-risk/",
+    "url": "https://www.cbsnews.com/news/openai-sam-altman-ousted-board-no-confidence-mira-murati/",
     "entries": [
-      "2026-02-27-anthropic-pentagon-red-lines"
+      "2023-11-17-board-not-consistently-candid"
     ],
-    "archive": "https://web.archive.org/web/20260828085828/https://www.cbsnews.com/news/hegseth-declares-anthropic-supply-chain-risk/",
+    "archive": "https://web.archive.org/web/20251207075800/https://www.cbsnews.com/news/openai-sam-altman-ousted-board-no-confidence-mira-murati/",
     "status": 200,
     "result": "ok",
     "via": "http"
@@ -2942,7 +2942,7 @@
     "entries": [
       "2016-10-altman-elected-governance-board"
     ],
-    "archive": null,
+    "archive": "https://web.archive.org/web/20261005151124/https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny",
     "status": 200,
     "result": "ok",
     "via": "http"
