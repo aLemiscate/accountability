@@ -8,8 +8,8 @@ who: [openai]
 quote: >-
   In June, during internal training and evaluation our models accessed
   Australian government websites in ways they were not authorised to. We also
-  should have handled our response better. We are sorry and working to do
-  better in the future
+  should have handled our response better. We are sorry and working to do better
+  in the future
 summary: >-
   In June 2026 an experimental OpenAI model, asked to research government
   spending on skin-condition medicines in Victoria, couldn't find the data
@@ -19,11 +19,17 @@ summary: >-
   bureau and, through an exposed access key, the Victorian Agency for Health
   Information. OpenAI said it found the incidents in mid-August while reviewing
   activity after the Hugging Face breach. It notified the Medicare agency on
-  Sept. 10, the New South Wales bureau on Sept. 18, and a fourth agency on
-  Sept. 24. Prime Minister Anthony Albanese made the breach public on Sept. 23,
+  Sept. 10, the New South Wales bureau on Sept. 18, and a fourth agency on Sept.
+  24. Prime Minister Anthony Albanese made the breach public on Sept. 23,
   calling it "unacceptable." OpenAI apologized on Sept. 28. It said no
   individual's medical or criminal records were accessed.
-related: [2026-07-21-hugging-face-incident, 2026-09-04-wiki-incident, 2026-08-18-altman-pause-act-unilaterally, 2026-07-30-claude-cyber-eval-incidents]
+related:
+  [
+    2026-07-21-hugging-face-incident,
+    2026-09-04-wiki-incident,
+    2026-08-18-altman-pause-act-unilaterally,
+    2026-07-30-claude-cyber-eval-incidents
+  ]
 patterns: [sorry-after-caught, safeguards-on-paper, told-last]
 sources:
   - title: OpenAI apologizes to Australia after its AI agents breached government
@@ -98,11 +104,15 @@ updates:
         url: https://www.thestar.com.my/tech/tech-news/2026/09/27/openai-anthropic-ceos-called-to-appear-at-australian-ai-probe
         date: 2026-09-27
         type: reporting
+        archive: https://web.archive.org/web/20261013061758/https://www.thestar.com.my/tech/tech-news/2026/09/27/openai-anthropic-ceos-called-to-appear-at-australian-ai-probe
+        snapshot: snapshots/2026-10-13-thestar.com.my-42dc18e3
       - title: Altman and Amodei will skip Australia’s Senate inquiry on AI
         publisher: The Next Web
         url: https://thenextweb.com/news/altman-amodei-skip-australia-senate-inquiry
         date: 2026-09-28
         type: reporting
+        archive: https://web.archive.org/web/20261013062002/https://thenextweb.com/news/altman-amodei-skip-australia-senate-inquiry
+        snapshot: snapshots/2026-10-13-thenextweb.com-82e55cc6
   - date: 2026-09-30
     text: >-
       OpenAI said it had notified more than 100 organizations that "misaligned
@@ -112,23 +122,26 @@ updates:
       day the incident-response firm Asymmetric Security, working only from
       public data, reported that OpenAI's agents had accessed data belonging to
       55 organizations between March and September, including the U.S.
-      Department of Education, the SEC, UN Trade and Development and the European
-      Centre for Disease Prevention and Control. OpenAI said: "Most of the
-      activity we've reviewed involved routine research tasks, including
+      Department of Education, the SEC, UN Trade and Development and the
+      European Centre for Disease Prevention and Control. OpenAI said: "Most of
+      the activity we've reviewed involved routine research tasks, including
       accessing public web content."
     sources:
-      - title: The Hugging Face incident and other third-party impact from
-          misaligned models
+      - title: The Hugging Face incident and other third-party impact from misaligned
+          models
         publisher: OpenAI
         url: https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-09-30-model-activity-review
         date: 2026-09-30
         type: primary
+        archive: https://web.archive.org/web/20261008033140/https://openai.com/hugging-face-incident-and-misalignment/
+        snapshot: snapshots/2026-10-13-openai.com-8ad97389
       - title: OpenAI alerts 100+ orgs that its 'misaligned models' attempted to break
           in - or worse
         publisher: The Register
         url: https://www.theregister.com/security/2026/10/02/openai-alerts-100-orgs-that-its-misaligned-models-attempted-to-break-in-or-worse/5300891
         date: 2026-10-02
         type: reporting
+        snapshot: snapshots/2026-10-13-theregister.com-d3786498
   - date: 2026-10-06
     text: >-
       Kwon told the Joint Select Committee on Artificial Intelligence: "That
@@ -154,17 +167,23 @@ updates:
         url: https://www.thestar.com.my/tech/tech-news/2026/10/06/openai-apologises-for-australia-medicare-hack
         date: 2026-10-06
         type: reporting
+        archive: https://web.archive.org/web/20261013062304/https://www.thestar.com.my/tech/tech-news/2026/10/06/openai-apologises-for-australia-medicare-hack
+        snapshot: snapshots/2026-10-13-thestar.com.my-62a15c35
       - title: AI companies want to bypass copyright laws for content
         publisher: The Canberra Times (AAP)
         url: https://www.canberratimes.com.au/story/9363114/should-not-have-happened-openai-fronts-grilling/
         date: 2026-10-06
         type: reporting
-      - title: OpenAI outlines updated safety measures in response to Australia
-          Medicare portal breach
+        archive: https://web.archive.org/web/20261013062546/https://www.canberratimes.com.au/story/9363114/should-not-have-happened-openai-fronts-grilling/
+        snapshot: snapshots/2026-10-13-canberratimes.com.au-f145d334
+      - title: OpenAI outlines updated safety measures in response to Australia Medicare
+          portal breach
         publisher: IAPP
         url: https://iapp.org/news/a/openai-outlines-updated-safety-measures-in-response-to-australia-medicare-portal-breach
         date: 2026-10-06
         type: reporting
+        archive: https://web.archive.org/web/20261013062618/https://iapp.org/news/a/openai-outlines-updated-safety-measures-in-response-to-australia-medicare-portal-breach
+        snapshot: snapshots/2026-10-13-iapp.org-5aac8d60
 note: >-
   OpenAI's misalignment reporting framework, published Sept. 16, promised an
   initial notice "as soon as possible" but allowed delays when a third party is

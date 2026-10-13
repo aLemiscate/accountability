@@ -20,8 +20,8 @@ summary: >-
 concreteness: conditional
 status: open
 breaks_if: >-
-  Anthropic deletes the weights of a publicly released model, or retires a
-  model without the interview and report.
+  Anthropic deletes the weights of a publicly released model, or retires a model
+  without the interview and report.
 patterns: [unfalsifiable]
 related: [2025-11-24-sabotage-risk-reports-commitment]
 sources:
@@ -39,15 +39,18 @@ updates:
       claude.ai to all paid users" and "by request on the API," and said: "We
       intend to grant access liberally." Acting on what Opus 3 said in its
       retirement interview, it also gave the model a weekly newsletter for at
-      least three months. Anthropic added: "At present, we are not committing
-      to similar actions for every model in the future."
+      least three months. Anthropic added: "At present, we are not committing to
+      similar actions for every model in the future."
     sources:
       - title: An update on our model deprecation commitments for Claude Opus 3
         publisher: Anthropic
         url: https://www.anthropic.com/research/deprecation-updates-opus-3
         date: 2026-02-25
         type: primary
+        archive: https://web.archive.org/web/20261013054541/https://www.anthropic.com/research/deprecation-updates-opus-3
+        snapshot: snapshots/2026-10-13-anthropic.com-9d1b9dba
 note: >-
   Only Anthropic can check the weights and interviews: they are kept, not
-  published. The continued access to Opus 3 can be checked from outside. It is in the record for completeness, as a promise about how the
-  company treats its own models.
+  published. The continued access to Opus 3 can be checked from outside. It is
+  in the record for completeness, as a promise about how the company treats its
+  own models.

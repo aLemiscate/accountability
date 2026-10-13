@@ -91,9 +91,9 @@ updates:
       "yes," then broke Amodei's definition into parts: "Smarter than a nobel
       prize winner" got "huge error bars? 20%?"; "Has same interfaces as a human
       working virtually - 100%; this is true today given plugins/composite
-      systems"; and "Tasks that takes hours/days/weeks - 80%, if METR". The
-      text captured from the archive ends there, so the rest of the post was
-      not read.
+      systems"; and "Tasks that takes hours/days/weeks - 80%, if METR". The text
+      captured from the archive ends there, so the rest of the post was not
+      read.
     sources:
       - title: Jack Clark on X ("yes")
         publisher: X
@@ -101,12 +101,14 @@ updates:
         date: 2026-03-07
         type: primary
         archive: https://web.archive.org/web/20260428181713/https://x.com/jackclarkSF/status/2030417306288066780
+        snapshot: snapshots/2026-10-13-x.com-25ad0d52
       - title: Jack Clark on X ("Just to operationalize this")
         publisher: X
         url: https://x.com/jackclarkSF/status/2030420665569092091
         date: 2026-03-07
         type: primary
         archive: https://web.archive.org/web/20260329220148/https://x.com/jackclarkSF/status/2030420665569092091
+        snapshot: snapshots/2026-10-13-x.com-c19de364
   - date: 2026-03-27
     text: >-
       Co-founder Jack Clark checked the definition against current systems.

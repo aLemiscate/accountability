@@ -1,0 +1,21 @@
+{
+  "url": "https://www.theregister.com/security/2026/09/14/openais-malicious-bot-swarm-attacked-rubygems/5296356",
+  "captured_at": "2026-10-13T06:42:40.160Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "0fcd74bf78064a357f273639693d7ab3f7b4965c640c9b643e31587cae1762d4",
+    "page.txt": "7b8feadc5a5e4900571b80959e91dd880ed6ee60bcb60f28da4b0e5fa7f98e33",
+    "screenshot.jpg": "67d1f8c0f084747db4d0204b5fc09083542a50f5776aebc14b3bd4b04c1d7ae0",
+    "rendered.txt": "5f8d43ad761e876d73d4f8b10e2af118384934dbb96466070c060eb6799a9f0d"
+  },
+  "http_status": 200,
+  "final_url": "https://www.theregister.com/security/2026/09/14/openais-malicious-bot-swarm-attacked-rubygems/5296356",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI's malicious bot swarm attacked RubyGems",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20260929142611/https://www.theregister.com/security/2026/09/14/openais-malicious-bot-swarm-attacked-rubygems/5296356",
+    "timestamp": "20260929142611",
+    "method": "existing"
+  }
+}

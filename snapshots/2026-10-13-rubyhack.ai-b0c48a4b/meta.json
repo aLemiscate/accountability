@@ -1,0 +1,29 @@
+{
+  "url": "https://www.rubyhack.ai/",
+  "captured_at": "2026-10-13T06:42:10.377Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.txt": "6703adbcc71d547dc4d5574101cde71beadabe93cc9cae8a2d5c5ce205d7bcf2",
+    "screenshot.jpg": "2340191463fc0b3683ee1bf3dccd27f11f355a2b02f703f5bd63d786a2198427",
+    "rendered.txt": "d4320a82a342aff60cbf97fbac31caad3615301610174612eb0445e5dcae8dbe"
+  },
+  "http_status": 200,
+  "final_url": "https://rubyhack.ai/",
+  "content_type": "text/html; charset=utf-8",
+  "omitted": {
+    "file": "page.html",
+    "bytes": 51668,
+    "sha256": "166caaddae1fd061403eef5d2c75cb2729a9cf5fde16cb1e867b767b935079f6",
+    "reason": "the page contains a credential that GitHub push protection blocks; page.txt holds its text with the credential masked"
+  },
+  "title": "OpenAI agents carried out an undisclosed cyber-attack on RubyGems",
+  "redacted": {
+    "page.txt": 1
+  },
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20261013064215/https://www.rubyhack.ai/",
+    "timestamp": "20261013064215",
+    "method": "spn"
+  }
+}

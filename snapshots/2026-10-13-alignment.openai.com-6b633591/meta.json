@@ -1,0 +1,21 @@
+{
+  "url": "https://alignment.openai.com/misalignment-reports/",
+  "captured_at": "2026-10-13T06:47:21.368Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "1b6587db766680dc2738b3a630bb9c4b375a6c750dc344b3f97276f02ebc3a92",
+    "page.txt": "739e8c9bd2bf720c8b2aa0677f45ff9f37f49066f333fa2783615e44f33b7a46",
+    "screenshot.jpg": "9276a54688382c033c3e74e9c54048a6311c440eac215bbec25d9b0ec7248c27",
+    "rendered.txt": "8b09eaf08cbfcb2df95d4325da36227e4595206b2ab3a6cc3867ba0b26aa999e"
+  },
+  "http_status": 200,
+  "final_url": "https://alignment.openai.com/misalignment-reports/",
+  "content_type": "text/html; charset=utf-8",
+  "title": "Misalignment Reports and Notices · OpenAI Alignment",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20261010084822/https://alignment.openai.com/misalignment-reports/",
+    "timestamp": "20261010084822",
+    "method": "spn"
+  }
+}

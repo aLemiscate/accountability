@@ -1,0 +1,115 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 4,
+  "in_reply_to_screen_name": "jackclarkSF",
+  "in_reply_to_status_id_str": "1558526171616186368",
+  "in_reply_to_user_id_str": "86351835",
+  "lang": "en",
+  "created_at": "2022-08-13T18:50:37.000Z",
+  "display_text_range": [
+    27,
+    201
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "232294292",
+        "indices": [
+          0,
+          11
+        ],
+        "name": "Gary Marcus",
+        "screen_name": "GaryMarcus"
+      },
+      {
+        "id_str": "4061277372",
+        "indices": [
+          12,
+          26
+        ],
+        "name": "Samuel Curtis",
+        "screen_name": "samuelmcurtis"
+      }
+    ]
+  },
+  "id_str": "1558526453158776834",
+  "text": "@GaryMarcus @samuelmcurtis This is mostly a not-yet thing due to unit economics, complexity of disinfo kill chain, need to invest engineering to effectively integrate LM etc. This'll change eventually.",
+  "user": {
+    "id_str": "86351835",
+    "name": "Jack Clark",
+    "screen_name": "jackclarkSF",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/726446881547517952/ULhSTKxN_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1558526453158776834"
+    ],
+    "editable_until_msecs": "1660418437000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 3,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 6,
+    "in_reply_to_screen_name": "GaryMarcus",
+    "in_reply_to_status_id_str": "1558525376942395393",
+    "in_reply_to_user_id_str": "232294292",
+    "lang": "en",
+    "reply_count": 3,
+    "retweet_count": 0,
+    "created_at": "2022-08-13T18:49:29.000Z",
+    "display_text_range": [
+      12,
+      287
+    ],
+    "entities": {
+      "user_mentions": [
+        {
+          "id_str": "232294292",
+          "indices": [
+            0,
+            11
+          ],
+          "name": "Gary Marcus",
+          "screen_name": "GaryMarcus"
+        },
+        {
+          "id_str": "4061277372",
+          "indices": [
+            141,
+            155
+          ],
+          "name": "Samuel Curtis",
+          "screen_name": "samuelmcurtis"
+        }
+      ]
+    },
+    "id_str": "1558526171616186368",
+    "text": "@GaryMarcus Haven't seen any clear proof of utilization versus spam/seo. If you have clear evidence of use please share it. (asked same q to @samuelmcurtis ). I also know people whose job is fighting mis/disinfo on platforms and they haven't seen much evidence or even symptoms of it yet",
+    "user": {
+      "id_str": "86351835",
+      "name": "Jack Clark",
+      "screen_name": "jackclarkSF",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/726446881547517952/ULhSTKxN_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1558526171616186368"
+      ],
+      "editable_until_msecs": "1660418369000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

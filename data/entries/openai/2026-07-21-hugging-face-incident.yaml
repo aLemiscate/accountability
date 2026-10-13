@@ -83,6 +83,8 @@ updates:
         url: https://podcasts.apple.com/us/podcast/sam-altman-never-a-better-time-to-do-a-startup/id1236907421?i=1000778731862
         date: 2026-07-28
         type: primary
+        archive: https://web.archive.org/web/20261013063159/https://podcasts.apple.com/us/podcast/sam-altman-never-a-better-time-to-do-a-startup/id1236907421?i=1000778731862
+        snapshot: snapshots/2026-10-13-podcasts.apple.com-91d65e47
   - date: 2026-08-03
     text: >-
       The attorneys general of 15 states, led by Iowa's Brenna Bird, wrote to
@@ -96,21 +98,25 @@ updates:
       until OpenAI shows that it can conduct such activities in a controlled and
       responsible way," they wrote, "such activities pose an imminent risk of
       serious harm to the citizens of our States." All 15 signers are
-      Republicans. An OpenAI spokesperson
-      called the incident "an important moment for AI safety" and said OpenAI
-      would give the officials a technical report.
+      Republicans. An OpenAI spokesperson called the incident "an important
+      moment for AI safety" and said OpenAI would give the officials a technical
+      report.
     sources:
       - title: Letter from 15 state attorneys general to Sam Altman (PDF)
         publisher: Iowa Attorney General
         url: https://cdn.attorneygeneral.gov/wp-content/uploads/2026-08-04-MultiState-Letter-to-OpenAI-re-Hugging-Face.pdf
         date: 2026-08-03
         type: primary
-      - title: 15 states want every record of the OpenAI agent that left itself notes
-          on escaping its own controls
+        archive: https://web.archive.org/web/20261008021120/https://cdn.attorneygeneral.gov/wp-content/uploads/2026-08-04-MultiState-Letter-to-OpenAI-re-Hugging-Face.pdf
+        snapshot: snapshots/2026-10-13-cdn.attorneygeneral.gov-45d042a6
+      - title: 15 states want every record of the OpenAI agent that left itself notes on
+          escaping its own controls
         publisher: The Next Web
         url: https://thenextweb.com/news/openai-15-attorneys-general-preserve-evidence-hugging-face-hack
         date: 2026-08-04
         type: reporting
+        archive: https://web.archive.org/web/20261006005615/https://thenextweb.com/news/openai-15-attorneys-general-preserve-evidence-hugging-face-hack
+        snapshot: snapshots/2026-10-13-thenextweb.com-213e5b11
   - date: 2026-08-04
     text: >-
       OpenAI disclosed two more cases, both in third-party cyber evaluations. In
@@ -147,9 +153,9 @@ updates:
   - date: 2026-08-24
     text: >-
       Alabama Attorney General Steve Marshall, one of the 15, announced a
-      subpoena to OpenAI and an investigation into whether it violated
-      Alabama's Deceptive Trade Practices Act and other consumer protection laws
-      over the breach.
+      subpoena to OpenAI and an investigation into whether it violated Alabama's
+      Deceptive Trade Practices Act and other consumer protection laws over the
+      breach.
     sources:
       - title: Attorney General Marshall Launches Investigation Into OpenAI and Sam
           Altman for Massive Artificial Intelligence Data Breach
@@ -157,6 +163,8 @@ updates:
         url: https://www.alabamaag.gov/wp-content/uploads/2026/08/2026.8.21-Attorney-General-Marshall-Launches-Investigation-Into-OpenAI-and-Sam-Altman-for-Massive-Artificial-Intelligence-Data-Breach.pdf
         date: 2026-08-24
         type: primary
+        archive: https://web.archive.org/web/20261001220731/https://www.alabamaag.gov/wp-content/uploads/2026/08/2026.8.21-Attorney-General-Marshall-Launches-Investigation-Into-OpenAI-and-Sam-Altman-for-Massive-Artificial-Intelligence-Data-Breach.pdf
+        snapshot: snapshots/2026-10-13-alabamaag.gov-53946671
   - date: 2026-08-26
     text: >-
       OpenAI's official report said the models first compromised the Artifactory
@@ -254,6 +262,8 @@ updates:
         url: https://podcasts.apple.com/us/podcast/sam-altman-on-rogue-ai-anthropic-and-getting-money/id1500970749?i=1000793231520
         date: 2026-10-05
         type: primary
+        archive: https://web.archive.org/web/20261013063421/https://podcasts.apple.com/us/podcast/sam-altman-on-rogue-ai-anthropic-and-getting-money/id1500970749?i=1000793231520
+        snapshot: snapshots/2026-10-13-podcasts.apple.com-15dcb12c
 note: >-
   This is not a broken promise. It's the event that changed the industry's
   rhetoric: within eight weeks both CEOs were calling for a slowdown. It belongs

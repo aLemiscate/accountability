@@ -3,17 +3,17 @@ date: 2023-03-01
 parties: [openai]
 summary: >-
   OpenAI's promises about what it does with people's data: its U.S. privacy
-  policy, the ChatGPT data controls help pages, its enterprise privacy page,
-  its API data controls page, and the data clauses of its terms of use and
-  business terms (now the OpenAI Services Agreement). OpenAI doesn't keep a
-  public archive of past versions the way Anthropic does (since February 2026
-  its privacy policy links to the one before), so the versions were pulled
-  from the Internet Archive: 89 of the privacy policy back to May 2021, 292 of
-  the two data controls help articles back to November 2021, 30 of the enterprise privacy
-  page, 44 of the API page, 85 of the terms of use and 24 of the business
-  terms. Four of the privacy policy captures are OpenAI's European policy,
-  which the same address serves to visitors in Europe; they were set aside.
-  The current versions were read in full, and each commitment was traced
+  policy, the ChatGPT data controls help pages, its enterprise privacy page, its
+  API data controls page, and the data clauses of its terms of use and business
+  terms (now the OpenAI Services Agreement). OpenAI doesn't keep a public
+  archive of past versions the way Anthropic does (since February 2026 its
+  privacy policy links to the one before), so the versions were pulled from the
+  Internet Archive: 89 of the privacy policy back to May 2021, 292 of the two
+  data controls help articles back to November 2021, 30 of the enterprise
+  privacy page, 44 of the API page, 85 of the terms of use and 24 of the
+  business terms. Four of the privacy policy captures are OpenAI's European
+  policy, which the same address serves to visitors in Europe; they were set
+  aside. The current versions were read in full, and each commitment was traced
   through every archived version to date its wording. Most of these promises
   can't be checked from outside, so most are graded "standing": in force, with
   nothing public showing them broken.
@@ -23,6 +23,8 @@ sources:
     url: https://openai.com/policies/privacy-policy/
     date: 2026-09-10
     type: primary
+    archive: https://web.archive.org/web/20261012134545/https://openai.com/policies/privacy-policy/
+    snapshot: snapshots/2026-10-13-openai.com-e20ab4d1
   - title: Data controls in ChatGPT
     publisher: OpenAI Help Center
     url: https://help.openai.com/en/articles/7730893-data-controls-faq
@@ -34,6 +36,8 @@ sources:
     url: https://openai.com/enterprise-privacy/
     date: 2026-01-08
     type: primary
+    archive: https://web.archive.org/web/20261002004812/https://openai.com/enterprise-privacy/
+    snapshot: snapshots/2026-10-13-openai.com-1b3ff8e6
   - title: Data controls in the OpenAI platform
     publisher: OpenAI
     url: https://developers.openai.com/api/docs/guides/your-data
@@ -45,16 +49,21 @@ sources:
     url: https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance
     date: 2026-10-05
     type: primary
+    snapshot: snapshots/2026-10-13-help.openai.com-df535f59
   - title: Terms of use
     publisher: OpenAI
     url: https://openai.com/policies/terms-of-use/
     date: 2026-10-07
     type: primary
+    archive: https://web.archive.org/web/20261012115447/https://openai.com/policies/terms-of-use/
+    snapshot: snapshots/2026-10-13-openai.com-c1184229
   - title: OpenAI Services Agreement
     publisher: OpenAI
     url: https://openai.com/policies/business-terms/
     date: 2026-10-07
     type: primary
+    archive: https://web.archive.org/web/20261008023004/https://openai.com/policies/business-terms/
+    snapshot: snapshots/2026-10-13-openai.com-574f3b31
 entries:
   [
     2025-05-nyt-chat-preservation-order,
@@ -109,6 +118,8 @@ commitments:
             url: https://web.archive.org/web/20260424064348/https://developers.openai.com/api/docs/guides/your-data
             date: 2026-04-24
             type: archive
+            archive: https://web.archive.org/web/20261013065159/https://web.archive.org/web/20260424064348/https://developers.openai.com/api/docs/guides/your-data
+            snapshot: snapshots/2026-10-13-web.archive.org-f47fa533
           - title: Data controls in the OpenAI platform
             publisher: OpenAI
             url: https://developers.openai.com/api/docs/guides/your-data
@@ -156,7 +167,12 @@ commitments:
         grade: standing
         evidence: No public case was found.
   - id: no-advertising-profiles
-    versions: Help article "How your data is used to improve model performance," January 2024 to February 7, 2026; dropped by February 10, 2026. Earlier wording, "We don’t use data for selling our services, advertising, or building profiles of people," was in the Data Controls FAQ from April 25, 2023 to April 22, 2025 and in the help article from April 28, 2023 until this wording replaced it
+    versions: Help article "How your data is used to improve model performance,"
+      January 2024 to February 7, 2026; dropped by February 10, 2026. Earlier
+      wording, "We don’t use data for selling our services, advertising, or
+      building profiles of people," was in the Data Controls FAQ from April 25,
+      2023 to April 22, 2025 and in the help article from April 28, 2023 until
+      this wording replaced it
     section: How your data is used to improve model performance
     text: >-
       We don’t use your content to market our services or create advertising
@@ -166,33 +182,36 @@ commitments:
         grade: eroded
         evidence: >-
           Deleted between February 7 and February 10, 2026, as ads launched in
-          ChatGPT, with no note on the page. The privacy policy dated February
-          9 added personalizing ads for Free and Go users as a use of personal
+          ChatGPT, with no note on the page. The privacy policy dated February 9
+          added personalizing ads for Free and Go users as a use of personal
           data. OpenAI had said in January that ads would be matched to
-          conversations, and says conversations are not shared with
-          advertisers. The Data Controls FAQ had already dropped the April
-          2023 wording when it was rewritten in April 2025, also without a
-          note.
+          conversations, and says conversations are not shared with advertisers.
+          The Data Controls FAQ had already dropped the April 2023 wording when
+          it was rewritten in April 2025, also without a note.
         entries: [2026-01-16-ad-principles]
         sources:
-          - title: How your data is used to improve model performance, as archived
-              on Feb. 7, 2026
+          - title: How your data is used to improve model performance, as archived on Feb.
+              7, 2026
             publisher: Internet Archive
             url: https://web.archive.org/web/20260207094720/https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance
             date: 2026-02-07
             type: archive
-          - title: How your data is used to improve model performance, as archived
-              on Feb. 10, 2026
+            archive: https://web.archive.org/web/20260207094720/https://web.archive.org/web/20260207094720/https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance
+            snapshot: snapshots/2026-10-13-web.archive.org-799aede4
+          - title: How your data is used to improve model performance, as archived on Feb.
+              10, 2026
             publisher: Internet Archive
             url: https://web.archive.org/web/20260210072027/https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance
             date: 2026-02-10
             type: archive
+            snapshot: snapshots/2026-10-13-web.archive.org-4c63933e
   - id: reduce-personal-data-in-training
-    versions: Help article "How your data is used to improve model performance," April 2023 to October 2026
+    versions: Help article "How your data is used to improve model performance,"
+      April 2023 to October 2026
     section: How your data is used to improve model performance
     text: >-
-      Before using eligible user content to improve our models, we take steps
-      to reduce the amount of personal information in training datasets.
+      Before using eligible user content to improve our models, we take steps to
+      reduce the amount of personal information in training datasets.
     grades:
       openai:
         grade: standing
@@ -355,6 +374,8 @@ commitments:
             url: https://www.datamation.com/artificial-intelligence/openai-mixpanel-security-incident/
             date: 2025-11-27
             type: reporting
+            archive: https://web.archive.org/web/20261013065314/https://www.datamation.com/artificial-intelligence/openai-mixpanel-security-incident/
+            snapshot: snapshots/2026-10-13-datamation.com-69f37d90
   - id: same-protections-everywhere
     versions: Privacy policy, November 2024 to September 2026
     section: Privacy policy, Security
@@ -447,3 +468,5 @@ commitments:
             url: https://openai.com/policies/privacy-policy/
             date: 2026-09-10
             type: primary
+            archive: https://web.archive.org/web/20261012134545/https://openai.com/policies/privacy-policy/
+            snapshot: snapshots/2026-10-13-openai.com-e20ab4d1

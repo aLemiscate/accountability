@@ -1,0 +1,24 @@
+{
+  "url": "https://x.com/OpenAI/status/2042296046009626989",
+  "captured_at": "2026-10-13T06:28:27.662Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "f0e0381ed1616eb49f5bbd695024eac9c847b74f6bf881c3a8b447cd1dfdd07b",
+    "page.txt": "71fe50cde22f7f1894d3352f984bd95020258c792f91f6481c0621da9d7bc8ff",
+    "post.json": "f49491bb138f7ff1b75c2753545f2789e0998bc40cf3009a83b7abf3539776f2",
+    "syndication.json": "377e18b04dc6ba6ea334b98682eac1aacc4a81e49c9558b0911b659ae6ee24a1",
+    "post.txt": "429d1c7f753b1ab9aec2339b4a8ac5a5bd1c4448d37587af1e9446c6b71fc07a"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/2042296046009626989",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"Our existing $200 Pro tier still remains our highest usage option. And as a thank you to our existing Pro users on the $200 tier, we’re extending our 2x Codex usage promo (until May 31st) and we’ve reset your Codex rate limits (yes, again).\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "April 9, 2026",
+    "posted_at": "2026-04-09T17:38:16.051Z"
+  },
+  "rendered_status": 403
+}

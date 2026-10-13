@@ -1,0 +1,260 @@
+Search
+Anonymous
+•
+•
+Sign in
+•
+Home
+•
+Membership
+•
+FAQ
+•
+About
+•
+Advertise
+•
+Contact
+Tags
+•
+News
+•
+Explainer
+•
+Games
+•
+News
+•
+Explainer
+•
+Games
+•
+About
+•
+Privacy
+•
+RSS
+info@ppc.land
+OpenAI envelope with embossed logo and purchase receipt, symbolizing advertiser data sharing.
+•
+Retail
+OpenAI's privacy policy now lets advertisers send purchase data
+OpenAI updated its US privacy policy on April 30 to formalize advertiser data sharing, purchase data receipt, and user targeting through marketing partners.
+•
+by Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+•
+May 1, 2026
+• &bull;
+•
+10 min read
+Subscribe to Newsletter
+Subscribe
+Sending
+Sent
+Please check your inbox and click the confirmation link.
+Comments
+Share
+•
+Share on X
+•
+Share on Facebook
+•
+Share on LinkedIn
+•
+Share on Pinterest
+•
+Email
+•
+Copy link
+OpenAI this week updated its U.S. privacy policy, formalizing a set of data-sharing arrangements with advertisers and marketing partners that had been building behind the scenes since the company began testing ads in ChatGPT in February. The policy, dated April 30, 2026, marks the first time OpenAI has explicitly stated in binding legal language that it receives purchase data from advertisers, shares user information with outside marketing partners for third-party ad targeting, and uses personal data to promote its own products. The changes arrive as the company is simultaneously preparing for a public offering and racing toward an internal advertising revenue target of $2.4 billion for 2026.
+The significance of the update lies less in what it introduces technically and more in what it now makes explicit. According to the updated policy document, OpenAI "may receive information from advertisers and other data partners, which we use for purposes including to help us measure and improve the effectiveness of ads shown to Free and Go users on our Services. For example, we could receive information about purchases you make from these advertisers." That sentence - absent from earlier versions of the policy - confirms a data inflow that had not previously appeared in the company's formal disclosures.
+What the policy now says
+The policy reorganizes and expands OpenAI's vendor disclosure language in ways that signal a more formalized commercial infrastructure. Where earlier versions referred to "vendors and service providers," the updated text now adds "marketing partners" to that category. According to the document, OpenAI discloses personal data to "vendors, service providers, and marketing partners, including providers of hosting services, customer service vendors, cloud services, content delivery services, support and safety services, email communication software, web analytics services, payment and transaction processors, search and shopping providers, and information technology providers."
+The addition of "search and shopping providers" to that list is particularly specific. It suggests data flows connected directly to product discovery and commerce - not generic operational infrastructure. The policy states that OpenAI "also share limited information with select marketing partners who are not service providers in order to promote our products and services on third-party properties and help us assess the effectiveness of those efforts."
+Separately, the document adds an explicit advertising use case for personal data. The updated "How we use Personal Data" section includes, for Free and Go users, "to personalize the ads you see on our Services (subject to your settings), and to measure the effectiveness of ads shown on our Services." This purpose now sits alongside existing uses such as providing and improving the service, communicating with users, and preventing fraud. It is listed as a distinct, named purpose for the first time.
+The policy also introduces explicit opt-out rights for U.S. users under the "Additional U.S. state disclosures" section. According to the document, "We don't 'sell' Personal Data. Depending upon your choices, we may share limited data with select marketing partners for purposes of promoting our products and services to you on third-party properties. This is known as 'targeted advertising' or sharing for 'cross-context behavioral advertising' under certain state privacy laws." Users can opt out through the marketing privacy control in account settings, via the Manage Cookies link on the website if not logged in, or by using a legally recognized opt-out mechanism such as Global Privacy Control.
+The advertising controls now available
+For Free and Go users, the policy describes a set of controls in the account settings panel. According to the document, users "can use the advertising controls in your account settings to control what data we use to personalize the ads we show you on our Services." The controls sit alongside existing options to delete conversations, export chat history, disable memory, and toggle temporary chats. Ad data, according to earlier help documentation cited by PPC Land in its coverage of the ads manager launch , is retained for up to 30 days and can be deleted at any time, though full removal from OpenAI's servers may take the full 30-day period.
+The policy does not, in its current form, describe the specific signals used for ad personalization beyond the current conversation topic, past chats, memory, and previous ad interactions. It does not specify which marketing partners receive data, what the technical mechanism of data transfer looks like, or what categories of purchase data it receives from advertisers. These details remain outside the scope of the privacy policy itself and would require review of individual advertiser agreements.
+How this fits OpenAI's advertising trajectory
+The policy update does not arrive without context. OpenAI announced plans to test advertising in ChatGPT on January 16, 2026 , setting a CPM of $60 and a minimum advertiser commitment of $200,000. The formal advertising test launched on February 9, 2026, initially for logged-in adult users in the United States on the Free and Go subscription tiers. Early advertiser participants included Target, Ford, Mrs. Meyer's, and Adobe. Holding companies WPP Media, Omnicom, and Dentsu joined as launch partners.
+The pilot crossed $100 million in annualized revenue within six weeks , according to a company spokesperson quoted by Reuters on March 26. By that point, more than 600 advertisers had joined the program. The minimum commitment was later reduced from $200,000 to $50,000 as OpenAI rolled out a self-serve ads manager. According to PPC Land's coverage, the ads manager launched with a dashboard giving marketers the ability to monitor impressions and clicks in real time , though conversion tracking remained forthcoming at that stage.
+The week of April 21-25, 2026, ChatGPT began showing ads to users who are not logged in , expanding addressable inventory beyond the logged-in base that had been the sole target since February. That expansion coincided with CPMs falling from $60 to as low as $25 over nine weeks, as OpenAI cut access thresholds to encourage broader participation. The company's internal revenue target for advertising stands at $2.4 billion for 2026 and $11 billion in subsequent years, according to figures reported by PPC Land.
+Criteo was named the first ad tech partner to the ChatGPT advertising pilot in March 2026 . The partnership gives Criteo's commerce data - drawn from more than $1 trillion in observed annual commerce sales - a direct path into ChatGPT's ad matching infrastructure. Criteo's internal data from a sample of 500 U.S. retailers observed in February 2026 found that users referred from LLM platforms like ChatGPT converted at approximately 1.5 times the rate of other referral channels, though the narrow sample size means the finding should be treated as directional rather than conclusive.
+What was promised and what changed
+The tension in today's policy update is that it formalizes data practices that appear to sit in some friction with language OpenAI used when it announced advertising in January. At that point, the company stated clearly that it would "never sell your data to advertisers" and that conversations would remain "private from advertisers." Both commitments remain intact in letter: the policy does not say OpenAI sells data, and it separately maintains that advertisers receive only aggregate performance data - total views and clicks - rather than individual conversation content.
+What is new is the inbound data flow. Rather than only data going out to advertisers in aggregate form, the updated policy confirms that advertiser-sourced data - including purchase data - now flows in to OpenAI. This is a structural addition to the data relationship between OpenAI and its advertising partners that had not appeared in earlier policy language. It brings ChatGPT closer in architecture to the established ad platforms that use advertiser conversion data to close the measurement loop and improve targeting.
+Former OpenAI researcher Zoë Hitzig, who resigned in February 2026 and published a commentary in the New York Times comparing OpenAI's trajectory to Facebook's early advertising decisions, had warned that commercial pressures would push the company toward progressively deeper integration with advertising infrastructure. The privacy policy update represents precisely the kind of structural step she described - not a dramatic pivot, but a quiet formalization of commercial plumbing.
+The data retention architecture
+The policy's retention section provides specific timelines that are relevant to advertising data. Deleted conversations are removed from systems within 30 days unless there are legal, safety, or security reasons to retain them. Temporary chats are not saved after the session ends and are not used to train models. Financial transaction records are retained for accounting, dispute resolution, and regulatory compliance. The policy does not state a specific retention window for data received from advertisers, though the help documentation for the ads interface separately specifies a 30-day window for ad interaction data.
+According to the document, the company "aggregate or de-identify Personal Data so that it no longer identifies you and use this information for the purposes described above, such as to analyze the way our Services are being used, to improve and add features to them, and to conduct research." The policy states OpenAI "will maintain and use de-identified information in de-identified form and not attempt to reidentify the information, unless required by law." These commitments parallel standard industry language but do not specify what technical standards govern the de-identification process.
+Geographic scope and what it excludes
+The updated policy applies to users in the United States. OpenAI maintains a separate privacy policy for users in the European Economic Area, the United Kingdom, and Switzerland. The data controller for EEA and Swiss users is OpenAI Ireland Limited, registered at 1st Floor, The Liffey Trust Centre, 117-126 Sheriff Street Upper, Dublin 1. For all other users, the controller is OpenAI OpCo, LLC, at 1455 Third Street, San Francisco, California 94158.
+The policy explicitly does not apply to content processed on behalf of API customers: "This Privacy Policy does not apply to content that we process on behalf of customers of our business offerings, such as our API." Enterprise, Plus, and Pro subscription users are excluded from advertising under the current pilot design, meaning the purchase data inflow from advertisers is specifically relevant to the Free and Go user base.
+What this means for the marketing community
+For advertisers, the policy update confirms that the data infrastructure they are building on top of - or hoping to build on top of - has a formal legal basis on OpenAI's side. The receipt of purchase data from advertisers is foundational to any closed-loop attribution system. Without it, OpenAI cannot tell whether an ad click led to a transaction. With it, the company can begin to build the measurement capabilities that performance advertisers require before committing budgets at scale.
+The current gap between what ChatGPT can report - impressions and clicks - and what advertisers expect from mature platforms - conversion attribution, return on ad spend, audience verification - remains substantial. PPC Land has tracked this measurement gap throughout the pilot period , noting that a conversion tracking pixel was reportedly in development as of late March 2026. The receipt of purchase data from advertisers, now confirmed in the privacy policy, is a precondition for that pixel to function as a closed attribution loop.
+For privacy practitioners and legal teams, the key change to document is the addition of inbound advertiser data - specifically purchase information - to OpenAI's disclosed data collection practices. This affects how organizations that advertise on ChatGPT should assess their own data sharing agreements with OpenAI. It also raises questions about whether the purchase data received constitutes a form of data brokerage activity subject to state-level requirements in California, Virginia, Colorado, and other jurisdictions with active data broker registration frameworks.
+The timing - April 30, 2026 - places the update effective date before the COPPA compliance deadline of April 22, 2026, which introduced new requirements for separate consent for third-party data sharing in child-directed services. OpenAI's policy explicitly excludes users under 13 and restricts advertising in accounts where users indicate or the system predicts they are under 18.
+Timeline
+• September 24, 2025 - OpenAI posts a job listing for a Growth Paid Marketing Platform Engineer, signaling internal ad infrastructure development.
+• December 2, 2025 - OpenAI issues an internal "code red" directive, pausing advertising development to focus on core ChatGPT functionality.
+• January 16, 2026 - OpenAI announces plans to test advertising in ChatGPT for Free and Go tier users in the United States, with a $60 CPM and $200,000 minimum commitment.
+• January 22, 2026 - OpenAI CFO Sarah Friar defends advertising timing at Davos , citing 800 million weekly active users as justification for scale.
+• February 9, 2026 - OpenAI formally launches advertising inside ChatGPT . Early participants include Target, Ford, Mrs. Meyer's, and Adobe. WPP Media, Omnicom, and Dentsu join as launch partners.
+• February 11, 2026 - Former OpenAI researcher Zoë Hitzig resigns and publishes a commentary in the New York Times comparing OpenAI's advertising trajectory to Facebook's early commercial decisions.
+• March 2, 2026 - Criteo is named the first ad tech partner to the ChatGPT advertising pilot , bringing commerce data from more than $1 trillion in observed annual sales.
+• March 26, 2026 - OpenAI announces the pilot has crossed $100 million in annualized revenue within six weeks and is expanding internationally to Canada, Australia, and New Zealand.
+• April 2026 - OpenAI launches a self-serve ads manager , cutting the minimum spend threshold from $250,000 to $50,000.
+• April 23, 2026 - ChatGPT begins showing ads to logged-out users , expanding total addressable inventory beyond the logged-in base.
+• April 30, 2026 - OpenAI updates its U.S. privacy policy to formally disclose receipt of purchase data from advertisers, data sharing with marketing partners for third-party targeting, and use of personal data to promote OpenAI's own products.
+Summary
+Who: OpenAI, the company behind ChatGPT, updated its U.S. privacy policy on April 30, 2026. The change directly affects Free and Go tier users of ChatGPT in the United States, as well as advertisers and marketing partners participating in or considering the ChatGPT advertising pilot.
+What: The updated policy explicitly discloses for the first time that OpenAI receives purchase data from advertisers and their partners to measure ad effectiveness, shares user information with "marketing partners" for third-party targeting and promotion of OpenAI's own products, and gives Free and Go users controls to manage ad personalization in account settings. The document also adds "search and shopping providers" to the list of parties to whom personal data may be disclosed.
+When: The updated policy is dated April 30, 2026, and published on OpenAI's website as the current U.S. privacy policy. It follows the February 9, 2026 launch of ChatGPT advertising and the March 26 announcement that the pilot had surpassed $100 million in annualized revenue.
+Where: The policy applies to U.S. users accessing ChatGPT and related OpenAI services. Separate privacy policies govern users in the European Economic Area, the United Kingdom, and Switzerland. The data controller for U.S. users is OpenAI OpCo, LLC, headquartered at 1455 Third Street, San Francisco, California.
+Why: The update formalizes the advertising infrastructure OpenAI has been building since at least early 2026. Receiving purchase data from advertisers is a precondition for any attribution system that allows the company to demonstrate that ads drive conversions - a capability required to compete for performance advertising budgets at scale. The update also reflects legal obligations under U.S. state privacy laws, which require disclosure of targeted advertising and cross-context behavioral advertising practices and corresponding opt-out rights for consumers.
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+On this page
+Unlock full content
+Subscribe to Newsletter
+Subscribe
+Sending
+Sent
+Please check your inbox and click the confirmation link.
+Read Next
+9 min read
+Explaining sellers.json
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+&bull;
+Oct 13, 2026
+&bull;
+Explainer
+9 min read
+Explaining app-ads.txt
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+&bull;
+Oct 13, 2026
+&bull;
+Explainer
+9 min read
+Explaining debtor-in-possession
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+&bull;
+Oct 13, 2026
+&bull;
+Explainer
+8 min read
+Explaining stalking horse bid
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+&bull;
+Oct 13, 2026
+&bull;
+Explainer
+8 min read
+Explaining observability
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+&bull;
+Oct 13, 2026
+&bull;
+Explainer
+8 min read
+Explaining botnet
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+&bull;
+Oct 13, 2026
+&bull;
+Explainer
+9 min read
+Explaining poisoned SERP
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+&bull;
+Oct 13, 2026
+&bull;
+Explainer
+10 min read
+Explaining sunset (API)
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+&bull;
+Oct 13, 2026
+&bull;
+Explainer
+9 min read
+Explaining release notes
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+&bull;
+Oct 13, 2026
+&bull;
+Explainer
+9 min read
+Explaining client library
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+•
+LinkedIn
+&bull;
+Oct 13, 2026
+&bull;
+Explainer
+Subscribe to Newsletter
+Every morning, get a curated digest of the last 24 hours in programmatic advertising
+Subscribe
+Sending
+Sent
+Please check your inbox and click the confirmation link.
+Discussion
+info@ppc.land
+•
+About
+•
+Privacy
+•
+RSS

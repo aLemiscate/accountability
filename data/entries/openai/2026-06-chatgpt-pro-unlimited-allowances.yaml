@@ -1,5 +1,5 @@
-title: ChatGPT Pro, launched as "$200/month. unlimited usage," moves to per-model
-  allowances and "expanded" access to GPT-6
+title: ChatGPT Pro, launched as "$200/month. unlimited usage," moves to
+  per-model allowances and "expanded" access to GPT-6
 date: 2026-06
 org: openai
 type: did
@@ -13,18 +13,23 @@ summary: >-
   Altman launched ChatGPT Pro on Dec. 5, 2024 as "$200/month. unlimited usage
   and even-smarter mode for using o1," and OpenAI's post promised "unlimited
   access to OpenAI o1." From GPT-5's launch in August 2025, OpenAI's help
-  article said the Team (later Business) and Pro plans offered "unlimited
-  access to our GPT-5 models, subject to abuse guardrails." Between June 10
-  and June 23, 2026, that sentence was replaced with the one quoted above,
-  which points to an article titled "About ChatGPT Pro tiers." In April OpenAI had split Pro into
-  a $100 and a $200 tier sold on "5x or 20x more usage" than Plus. When the
+  article said the Team (later Business) and Pro plans offered "unlimited access
+  to our GPT-5 models, subject to abuse guardrails." Between June 10 and June
+  23, 2026, that sentence was replaced with the one quoted above, which points
+  to an article titled "About ChatGPT Pro tiers." In April OpenAI had split Pro
+  into a $100 and a $200 tier sold on "5x or 20x more usage" than Plus. When the
   GPT-6 models launched in September, the pricing page listed Pro's access to
   them as "Expanded," while older GPT-5.6 models stayed "Unlimited*." The same
   help article stopped giving numbers for the Plus and Free limits in June: the
   Free limit "can be dynamic and may vary based on factors that include market,
   system conditions, abuse-prevention guardrails, and individual usage."
 patterns: [shrinking-plan]
-related: [2025-07-28-claude-weekly-limits, 2024-01-05-gpt-4-plus-cap-lowered, 2026-09-29-sottiaux-pro-subscription-guarantee]
+related:
+  [
+    2025-07-28-claude-weekly-limits,
+    2024-01-05-gpt-4-plus-cap-lowered,
+    2026-09-29-sottiaux-pro-subscription-guarantee
+  ]
 sources:
   - title: Sam Altman on X ("chatgpt pro. $200/month. unlimited usage")
     publisher: X
@@ -32,22 +37,26 @@ sources:
     date: 2024-12-05
     type: primary
     archive: https://web.archive.org/web/20241206012012/https://x.com/sama/status/1864736282276171810
+    snapshot: snapshots/2026-10-13-x.com-e9a2ad56
   - title: OpenAI on X ("Today we’re also adding ChatGPT Pro")
     publisher: X
     url: https://x.com/OpenAI/status/1864735521697861956
     date: 2024-12-05
     type: primary
     archive: https://web.archive.org/web/20241206003626/https://x.com/openai/status/1864735521697861956
+    snapshot: snapshots/2026-10-13-x.com-3bd98179
   - title: GPT-5.5 in ChatGPT, as archived on June 10, 2026
     publisher: Internet Archive
     url: https://web.archive.org/web/20260610032057/https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-55-in-chatgpt
     date: 2026-06-10
     type: archive
+    snapshot: snapshots/2026-10-13-web.archive.org-7329ea32
   - title: GPT-5.5 in ChatGPT, as archived on June 23, 2026
     publisher: Internet Archive
     url: https://web.archive.org/web/20260623140401/https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt
     date: 2026-06-23
     type: archive
+    snapshot: snapshots/2026-10-13-web.archive.org-03a4eb14
   - title: OpenAI on X ("Our existing $200 Pro tier still remains our highest usage
       option")
     publisher: X
@@ -55,6 +64,7 @@ sources:
     date: 2026-04-09
     type: primary
     archive: https://web.archive.org/web/20260409204737/https://x.com/OpenAI/status/2042296046009626989
+    snapshot: snapshots/2026-10-13-x.com-8663ebbb
   - title: Pricing | ChatGPT, as archived on Oct. 5, 2026
     publisher: Internet Archive
     url: https://web.archive.org/web/20261005015841/https://chatgpt.com/pricing/
@@ -63,27 +73,27 @@ sources:
 updates:
   - date: 2026-09-10
     text: >-
-      A week after GPT-6 Astra launched, OpenAI paused new sign-ups and
-      upgrades to the $200 Pro plan. Thibault Sottiaux wrote: "To make sure our
-      current users have an incredible experience and continued access to
-      Astra, we are going to pause subscriptions to our $200 Pro plan. These
-      put the most strain on our systems." Existing subscribers were not
-      affected.
+      A week after GPT-6 Astra launched, OpenAI paused new sign-ups and upgrades
+      to the $200 Pro plan. Thibault Sottiaux wrote: "To make sure our current
+      users have an incredible experience and continued access to Astra, we are
+      going to pause subscriptions to our $200 Pro plan. These put the most
+      strain on our systems." Existing subscribers were not affected.
     sources:
       - title: OpenAI pauses $200 Pro tier as Astra demand strains capacity
         publisher: CIO
         url: https://www.cio.com/article/4221092/openai-pauses-200-pro-tier-as-astra-demand-strains-capacity.html
         date: 2026-09-11
         type: reporting
+        snapshot: snapshots/2026-10-13-cio.com-851b158a
   - date: 2026-09-29
     text: >-
       Reopening the plan, Sottiaux wrote that OpenAI was "changing how we
-      calculate the usage for it. In effect, if you do the math, it will net
-      out at half the dollar in API spend compared to the old Pro $200 plan."
-      In return OpenAI was "committing to not reintroducing the 5h limit," and
-      he wrote that "you will still get more work done than if you were on the
-      Pro $200 subscription one month ago" because of new models and API price
-      cuts (see related).
+      calculate the usage for it. In effect, if you do the math, it will net out
+      at half the dollar in API spend compared to the old Pro $200 plan." In
+      return OpenAI was "committing to not reintroducing the 5h limit," and he
+      wrote that "you will still get more work done than if you were on the Pro
+      $200 subscription one month ago" because of new models and API price cuts
+      (see related).
     sources:
       - title: Thibault Sottiaux on X ("Tomorrow we are re-opening the Pro $200
           subscriptions")
@@ -91,6 +101,8 @@ updates:
         url: https://x.com/thsottiaux/status/2104823812042940713
         date: 2026-09-29
         type: primary
+        archive: https://web.archive.org/web/20261008122427/https://x.com/thsottiaux/status/2104823812042940713
+        snapshot: snapshots/2026-10-13-x.com-47a0b923
 response: >-
   The help article says "Reaching a model's allowance does not by itself mean
   that your account was restricted." Adding the $100 tier in April, OpenAI said

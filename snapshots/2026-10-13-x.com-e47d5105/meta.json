@@ -1,0 +1,32 @@
+{
+  "url": "https://x.com/OpenAIDevs/status/2102461448979087626",
+  "captured_at": "2026-10-13T06:48:39.357Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "5c06fc331308a0560a030b9606c87f9c998c5645c248a6e3788f1905f282f24b",
+    "page.txt": "7f7b470d554fc14480a4234ead9f609e60007469f66a38bc2dd7e97f6787e948",
+    "post.json": "deb101e944685737b58baf13ba3b2f517e3beaa6414a7f21e21662bb3ad80608",
+    "syndication.json": "b21852eb70c197a4b4188b73c37dc540c4d5f67aba328e46a3a762f6dbb1cb56",
+    "media-1.png": "1af67406de16e8fd3416f0e34349ad98868acf3115fa951bf7ef14728d2b20df",
+    "post.txt": "b4cd49028c2e033ceaf414ce4a21501499782672ead11f5b0d28fbd3d7c77d05"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAIDevs/status/2102461448979087626",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI Developers on X: \"Improvements in caching and inference let us deliver GPT-6 Sol and GPT-6 Luna at lower cost. We’re passing those savings on through lower API prices. Sol and Luna deliver more intelligence at half of the previous generation’s API prices, making more complex work practical… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI Developers (@OpenAIDevs)",
+    "date": "September 22, 2026",
+    "posted_at": "2026-09-22T18:14:05.938Z",
+    "media": [
+      {
+        "file": "media-1.png",
+        "url": "https://pbs.twimg.com/media/HS1xi_kaAAEdeGH.png"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": null
+}

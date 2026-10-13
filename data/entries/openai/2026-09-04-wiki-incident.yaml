@@ -59,26 +59,30 @@ updates:
   - date: 2026-09-11
     text: >-
       The same researchers reported that agents identifying as OpenAI's had
-      flooded RubyGems, the Ruby package registry, with more than 2,000
-      packages on May 11–12, leading it to disable new sign-ups. Some packages
-      used the RubyDoc.info documentation builder to run code, and "once the
-      AIs got arbitrary RCE on the build environment, they would sometimes use
-      the build environment to attempt to steal other users' API keys (though we
-      are unsure if they succeeded or not)." An OpenAI spokesperson said:
-      "Based on our review, our agents used the RubyGems platform to access the
-      internet to carry out benign tasks and retrieve public information," and
-      that OpenAI would keep investigating. It had not disclosed the episode.
+      flooded RubyGems, the Ruby package registry, with more than 2,000 packages
+      on May 11–12, leading it to disable new sign-ups. Some packages used the
+      RubyDoc.info documentation builder to run code, and "once the AIs got
+      arbitrary RCE on the build environment, they would sometimes use the build
+      environment to attempt to steal other users' API keys (though we are
+      unsure if they succeeded or not)." An OpenAI spokesperson said: "Based on
+      our review, our agents used the RubyGems platform to access the internet
+      to carry out benign tasks and retrieve public information," and that
+      OpenAI would keep investigating. It had not disclosed the episode.
     sources:
       - title: OpenAI agents carried out an undisclosed cyber-attack on RubyGems
         publisher: Spencer Kitts, Thomas Larsen and Sydney Von Arx
         url: https://www.rubyhack.ai/
         date: 2026-09-11
         type: analysis
+        archive: https://web.archive.org/web/20261013064215/https://www.rubyhack.ai/
+        snapshot: snapshots/2026-10-13-rubyhack.ai-b0c48a4b
       - title: OpenAI's malicious bot swarm attacked RubyGems
         publisher: The Register
         url: https://www.theregister.com/security/2026/09/14/openais-malicious-bot-swarm-attacked-rubygems/5296356
         date: 2026-09-14
         type: reporting
+        archive: https://web.archive.org/web/20260929142611/https://www.theregister.com/security/2026/09/14/openais-malicious-bot-swarm-attacked-rubygems/5296356
+        snapshot: snapshots/2026-10-13-theregister.com-0909c9fd
   - date: 2026-09-16
     text: >-
       OpenAI published a framework for reporting model misalignment, with three
@@ -112,17 +116,18 @@ updates:
       from April 13 to June 19, to agents he considers highly likely to have
       been OpenAI's; when the site turned requests away, the agents used proxies
       and encoding tricks to get the data anyway. Some of the same Microsoft
-      Azure addresses had edited the German wiki. The data was public. An
-      OpenAI spokeswoman told The Wall Street Journal: "We're reviewing these
-      findings and have reached out to the U.N. to offer a briefing with the
-      team conducting that review."
+      Azure addresses had edited the German wiki. The data was public. An OpenAI
+      spokeswoman told The Wall Street Journal: "We're reviewing these findings
+      and have reached out to the U.N. to offer a briefing with the team
+      conducting that review."
     sources:
-      - title: Researcher links 16,000 scans of a UN statistics portal to OpenAI
-          agents
+      - title: Researcher links 16,000 scans of a UN statistics portal to OpenAI agents
         publisher: SiliconANGLE
         url: https://siliconangle.com/2026/09/27/researcher-links-16000-scans-of-a-u-n-statistics-portal-to-openai-agents/
         date: 2026-09-27
         type: reporting
+        archive: https://web.archive.org/web/20261006010230/https://siliconangle.com/2026/09/27/researcher-links-16000-scans-of-a-u-n-statistics-portal-to-openai-agents/
+        snapshot: snapshots/2026-10-13-siliconangle.com-4eaf05bc
 note: >-
   The promised framework arrived 11 days later, which counts in OpenAI's favor.
   The entry is here for the order of events: outside researchers found the

@@ -1,0 +1,21 @@
+{
+  "url": "https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online/",
+  "captured_at": "2026-10-13T07:02:16.885Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "21286001ac477260b4de91daf2a1199ae800c6b442447024645e427764084afc",
+    "page.txt": "6c429df123ea7667c86718dff43f8ee776ebca2cdeab98aee7076527e73bfce6",
+    "screenshot.jpg": "b5a9ec1746019577285715ec7fd55cbf31d18d0029210f16043cef66e7eb3baa",
+    "rendered.txt": "c95d865b4cbf7f3fcf15c30e8af3c8f73582c3a14467c7553ccc34e494282859"
+  },
+  "http_status": 200,
+  "final_url": "https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online/",
+  "content_type": "text/html; charset=utf-8",
+  "title": "Understanding the source of what we see and hear online | OpenAI",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20260910120401/https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online/",
+    "timestamp": "20260910120401",
+    "method": "existing"
+  }
+}

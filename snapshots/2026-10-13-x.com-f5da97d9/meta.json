@@ -1,0 +1,24 @@
+{
+  "url": "https://x.com/bcherny/status/2043715740080222549",
+  "captured_at": "2026-10-13T05:50:51.526Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "95c3bf5076c5282b49761be2f6e58afc31c49ad63f615c0feb3a0121ff2ccddb",
+    "page.txt": "e3d98167d2caf3d527eb5c69cf14b2a8bfa432078dba5ff050f680f497958fbb",
+    "post.json": "639deae10cfc04bc9a629a7b1d85ceb84d670ee93ff708135ac3d71f3ad239c5",
+    "syndication.json": "c33fddf5ff4c99469f62837819fc8502a46d62d623e7338a705af7bd8a7a9ee0",
+    "post.txt": "761704afd236e1375b48e73181cb37e245fc5b4099f9f56ce404a19f0ac1db14"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/bcherny/status/2043715740080222549",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Boris Cherny on X: \"👋 1h prompt cache is nuanced actually. It costs more for cache writes, and less for cache reads. Whether you benefit from cheaper cache reads depends on your usage pattern -- context window size, whether the query is the main agent or subagent, etc. We have been testing a numb… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Boris Cherny (@bcherny)",
+    "date": "April 13, 2026",
+    "posted_at": "2026-04-13T15:39:37.494Z"
+  },
+  "rendered_status": 403
+}

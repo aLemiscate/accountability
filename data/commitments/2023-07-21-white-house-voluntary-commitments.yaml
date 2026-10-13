@@ -150,6 +150,8 @@ commitments:
             url: https://blog.google/outreach-initiatives/public-policy/google-microsoft-openai-anthropic-frontier-model-forum/
             date: 2023-07-26
             type: primary
+            archive: https://web.archive.org/web/20251218213014/https://blog.google/outreach-initiatives/public-policy/google-microsoft-openai-anthropic-frontier-model-forum/
+            snapshot: snapshots/2026-10-13-blog.google-027c3610
       anthropic:
         grade: kept
         evidence: >-
@@ -161,6 +163,8 @@ commitments:
             url: https://blog.google/outreach-initiatives/public-policy/google-microsoft-openai-anthropic-frontier-model-forum/
             date: 2023-07-26
             type: primary
+            archive: https://web.archive.org/web/20251218213014/https://blog.google/outreach-initiatives/public-policy/google-microsoft-openai-anthropic-frontier-model-forum/
+            snapshot: snapshots/2026-10-13-blog.google-027c3610
   - id: information-sharing
     section: 2. Information sharing
     text: >-
@@ -243,11 +247,14 @@ commitments:
             url: https://openai.com/index/bug-bounty-program/
             date: 2023-04-11
             type: primary
+            archive: https://web.archive.org/web/20261011002011/https://openai.com/index/bug-bounty-program/
+            snapshot: snapshots/2026-10-13-openai.com-2ba1b089
           - title: GPT-5 bio bug bounty call
             publisher: OpenAI
             url: https://openai.com/gpt-5-bio-bug-bounty/
             date: 2025-08-25
             type: primary
+            snapshot: snapshots/2026-10-13-openai.com-fa2fcde8
       anthropic:
         grade: kept
         evidence: >-
@@ -279,6 +286,8 @@ commitments:
             url: https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online/
             date: 2024-05-07
             type: primary
+            archive: https://web.archive.org/web/20260910120401/https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online/
+            snapshot: snapshots/2026-10-13-openai.com-bf5ddf19
       anthropic:
         grade: standing
         evidence: >-
@@ -302,6 +311,8 @@ commitments:
             url: https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online/
             date: 2024-05-07
             type: primary
+            archive: https://web.archive.org/web/20260910120401/https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online/
+            snapshot: snapshots/2026-10-13-openai.com-bf5ddf19
       anthropic:
         grade: standing
         evidence: >-
@@ -325,6 +336,8 @@ commitments:
             url: https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online/
             date: 2024-05-07
             type: primary
+            archive: https://web.archive.org/web/20260910120401/https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online/
+            snapshot: snapshots/2026-10-13-openai.com-bf5ddf19
       anthropic:
         grade: standing
         evidence: >-
@@ -383,6 +396,7 @@ commitments:
             url: https://openai.com/index/evaluating-fairness-in-chatgpt/
             date: 2024-10-15
             type: primary
+            snapshot: snapshots/2026-10-13-openai.com-05ef8245
       anthropic:
         grade: kept
         evidence: >-
@@ -475,6 +489,7 @@ commitments:
             publisher: OpenAI
             url: https://openai.com/index/two-years-of-openai-academy/
             type: primary
+            snapshot: snapshots/2026-10-13-openai.com-52fb98f0
       anthropic:
         grade: kept
         evidence: >-

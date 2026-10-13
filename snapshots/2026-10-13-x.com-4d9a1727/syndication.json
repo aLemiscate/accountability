@@ -1,0 +1,97 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 8,
+  "in_reply_to_screen_name": "mmitchell_ai",
+  "in_reply_to_status_id_str": "1558570500019798016",
+  "in_reply_to_user_id_str": "748528569064710145",
+  "lang": "en",
+  "created_at": "2022-08-13T22:36:18.000Z",
+  "display_text_range": [
+    14,
+    203
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "748528569064710145",
+        "indices": [
+          0,
+          13
+        ],
+        "name": "MMitchell",
+        "screen_name": "mmitchell_ai"
+      }
+    ]
+  },
+  "id_str": "1558583249298792448",
+  "text": "@mmitchell_ai Oh I agree! I meant that back in 2018/19 I felt like it was imminent, but, like synthetic imagery, probably need a few more turns of the crank of usability/cost before it becomes prevalent.",
+  "user": {
+    "id_str": "86351835",
+    "name": "Jack Clark",
+    "screen_name": "jackclarkSF",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/726446881547517952/ULhSTKxN_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1558583249298792448"
+    ],
+    "editable_until_msecs": "1660431978000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 1,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 31,
+    "in_reply_to_screen_name": "jackclarkSF",
+    "in_reply_to_status_id_str": "1558477450958426112",
+    "in_reply_to_user_id_str": "86351835",
+    "lang": "en",
+    "reply_count": 2,
+    "retweet_count": 3,
+    "created_at": "2022-08-13T21:45:38.000Z",
+    "display_text_range": [
+      13,
+      231
+    ],
+    "entities": {
+      "user_mentions": [
+        {
+          "id_str": "86351835",
+          "indices": [
+            0,
+            12
+          ],
+          "name": "Jack Clark",
+          "screen_name": "jackclarkSF"
+        }
+      ]
+    },
+    "id_str": "1558570500019798016",
+    "text": "@jackclarkSF It's way too early to say this isn't a serious concern. IMO people aren't knowledgeable about using LLMs for controlled NLG yet but eh...if I've been able to figure out how to do it others will too in the coming years.",
+    "user": {
+      "id_str": "748528569064710145",
+      "name": "MMitchell",
+      "screen_name": "mmitchell_ai",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/759051761487187968/24OG0RCC_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1558570500019798016"
+      ],
+      "editable_until_msecs": "1660428938000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

@@ -1,0 +1,17 @@
+{
+  "url": "https://www.theregister.com/security/2026/10/02/openai-alerts-100-orgs-that-its-misaligned-models-attempted-to-break-in-or-worse/5300891",
+  "captured_at": "2026-10-13T06:20:48.360Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "3c2f2059fa3feb669c25d6b381274b83011a93169f63ab61e6576b4a9aae5c56",
+    "page.txt": "a5fa6f12f6c2750075837190694871e4bd7e15922736331846c0c04f30a20b4c",
+    "screenshot.jpg": "27800d8e69054540d8f94d914b3b1371f50fe252d1c2ec8de39513522a5e6139",
+    "rendered.txt": "111ce63e38c17899d41d8ae2fcebedb6fe668f4ea40d05e57c3d0966dcdf1abe"
+  },
+  "http_status": 200,
+  "final_url": "https://www.theregister.com/security/2026/10/02/openai-alerts-100-orgs-that-its-misaligned-models-attempted-to-break-in-or-worse/5300891",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI alerts 100+ orgs that its 'misaligned models' attempted to break in - or worse",
+  "rendered_status": 200,
+  "archive": null
+}

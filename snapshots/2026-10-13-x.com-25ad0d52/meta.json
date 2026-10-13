@@ -1,0 +1,31 @@
+{
+  "url": "https://x.com/jackclarkSF/status/2030417306288066780",
+  "captured_at": "2026-10-13T05:39:07.004Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "f9fd83cef28a52a68c4018388345bc8c567e9d025bedfd3ca5dd907029fe2591",
+    "page.txt": "8cd9c7e1a3e657014d01e6fa031bfedab1ce72fc6292a1737fad34a3d845bc13",
+    "post.json": "3808d2c0b2a8404ec8e9b490370b5f508ac82d18cd9b4c2a88e4a1815c673a67",
+    "syndication.json": "fff536096271cef1523ff6a55844948da291095f446943f5810b8fbe5d07235a",
+    "media-1.jpg": "40683692787fb1326f339589d7824a09c39cd6ae217b28ea803ce1f4ed3797ab",
+    "post.txt": "66a15d1ff31d4842340f6ed0c80ef884b20ff18d176dd88e4306886936a04592"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/jackclarkSF/status/2030417306288066780",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Jack Clark on X: \"@chrisgpt yes\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Jack Clark (@jackclarkSF)",
+    "date": "March 7, 2026",
+    "posted_at": "2026-03-07T22:56:23.805Z",
+    "media": [
+      {
+        "file": "media-1.jpg",
+        "url": "https://pbs.twimg.com/media/HC19xkobAAA1hk6.jpg"
+      }
+    ]
+  },
+  "rendered_status": 403
+}

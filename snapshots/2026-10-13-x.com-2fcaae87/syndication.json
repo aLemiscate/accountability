@@ -1,0 +1,87 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 3931,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2023-07-19T23:36:22.000Z",
+  "display_text_range": [
+    0,
+    169
+  ],
+  "entities": {
+    "urls": [
+      {
+        "display_url": "help.openai.com/en/articles/68…",
+        "expanded_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "indices": [
+          146,
+          169
+        ],
+        "url": "https://t.co/t4syFUj0fL"
+      }
+    ]
+  },
+  "id_str": "1681810240898215936",
+  "text": "We're doubling the number of messages ChatGPT Plus customers can send to GPT-4. Rolling out over the next week, new limit will be 50 per 3 hours. https://t.co/t4syFUj0fL",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1681810240898215936"
+    ],
+    "editable_until_msecs": "1689813382000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 302,
+  "news_action_type": "conversation",
+  "card": {
+    "card_platform": {
+      "platform": {
+        "audience": {
+          "name": "production"
+        },
+        "device": {
+          "name": "iPhone",
+          "version": "13"
+        }
+      }
+    },
+    "name": "summary",
+    "url": "https://t.co/t4syFUj0fL",
+    "binding_values": {
+      "description": {
+        "string_value": "A changelog of the latest updates and release notes for ChatGPT",
+        "type": "STRING"
+      },
+      "domain": {
+        "string_value": "help.openai.com",
+        "type": "STRING"
+      },
+      "vanity_url": {
+        "scribe_key": "vanity_url",
+        "string_value": "help.openai.com",
+        "type": "STRING"
+      },
+      "title": {
+        "string_value": "ChatGPT — Release Notes | OpenAI Help Center",
+        "type": "STRING"
+      },
+      "card_url": {
+        "scribe_key": "card_url",
+        "string_value": "https://t.co/t4syFUj0fL",
+        "type": "STRING"
+      }
+    }
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}
