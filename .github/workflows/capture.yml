@@ -73,7 +73,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add snapshots data/entries data/commitments
+          git add snapshots data/entries data/commitments data/patterns.yaml
           if [ -d inbox/history ]; then git add inbox/history; fi
           if git diff --cached --quiet; then
             echo "Nothing new captured."
@@ -83,5 +83,7 @@ jobs:
             else
               git commit -m "Capture: snapshots for $(git diff --cached --name-only -- snapshots | cut -d/ -f2 | sort -u | wc -l) source(s)"
             fi
-            for i in 1 2 3 4; do git pull --rebase && git push && break; sleep $((i * 10)); done
+            pushed=0
+            for i in 1 2 3 4; do git pull --rebase && git push && pushed=1 && break; sleep $((i * 10)); done
+            if [ "$pushed" != 1 ]; then git status --short | head -20; echo "::error::Could not push the capture commit."; exit 1; fi
           fi
