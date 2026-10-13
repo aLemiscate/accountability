@@ -1,0 +1,65 @@
+title: Anthropic says it will release the data from its Constitutional AI testing
+  experiment, as it did for red teaming; no release has appeared
+date: 2022-12-19
+org: anthropic
+type: said
+kind: commitment
+who: [anthropic]
+venue: Posts on X
+quote: >-
+  we plan to release the data from this experiment in the future to empower a
+  broader set of people to build safer systems.
+summary: >-
+  In December 2022 Anthropic opened its Constitutional AI feedback interface to
+  outside testers for about two weeks, prioritizing people who had probed
+  language models for safety problems. It said the aim was to "collectively
+  explore some of the failure modes of our systems and share the resulting
+  data back to the community," and that it would release the data "As we did
+  with our ‘red teaming’ project." No dataset from the experiment has been
+  published. Anthropic's Hugging Face organization lists 14 datasets as of
+  Oct. 13, 2026, none of them from this experiment, and the HH-RLHF repository
+  that holds the red-teaming data has had no new data since December 2022.
+concreteness: measurable
+status: broken
+breaks_if: >-
+  The data from the December 2022 Constitutional AI interface experiment is
+  never released.
+patterns: []
+sources:
+  - title: Anthropic on X ("we’re sharing our Constitutional AI feedback interface
+      with a larger set of people")
+    publisher: X
+    url: https://x.com/AnthropicAI/status/1604929999743508480
+    date: 2022-12-19
+    type: primary
+    archive: https://web.archive.org/web/20230106211832/https://twitter.com/AnthropicAI/status/1604929999743508480
+  - title: Anthropic on X ("share the resulting data back to the community")
+    publisher: X
+    url: https://x.com/AnthropicAI/status/1604930004420214784
+    date: 2022-12-19
+    type: primary
+    archive: https://web.archive.org/web/20230203191734/https://twitter.com/AnthropicAI/status/1604930004420214784
+  - title: Anthropic on X ("we plan to release the data from this experiment")
+    publisher: X
+    url: https://x.com/AnthropicAI/status/1604930009566629888
+    date: 2022-12-19
+    type: primary
+    archive: https://web.archive.org/web/20230203191703/https://twitter.com/AnthropicAI/status/1604930009566629888
+  - title: Anthropic (datasets)
+    publisher: Hugging Face
+    url: https://huggingface.co/Anthropic
+    date: 2026-10-13
+    type: primary
+  - title: Anthropic/hh-rlhf
+    publisher: Hugging Face
+    url: https://huggingface.co/datasets/Anthropic/hh-rlhf
+    date: 2026-10-13
+    type: primary
+response: >-
+  No statement found on what happened to the data or the plan.
+note: >-
+  A small promise with no date, graded broken because almost four years have
+  passed with no release and no word that the plan was dropped. The red-teaming
+  release it pointed to did happen, and Anthropic has published 13 other
+  datasets since. If the data was released somewhere not checked here, this
+  entry is wrong and will be corrected.
