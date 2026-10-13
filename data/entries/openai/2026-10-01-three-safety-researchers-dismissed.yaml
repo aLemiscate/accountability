@@ -49,6 +49,51 @@ sources:
     date: 2026-09-29
     type: reporting
     archive: https://web.archive.org/web/20261002045539/https://www.nytimes.com/2026/09/29/technology/openai-warnings-security.html
+updates:
+  - date: 2026-10-07
+    text: >-
+      The Wall Street Journal reported that the three, Tomek Korbak, Mikita
+      Balesni and Jasmine Wang, had written to OpenAI's board and safety
+      committees urging the company to preserve the ability to monitor models'
+      chains of thought and to bring in independent auditors: "As an industry,
+      we do not yet know how to safely develop and deploy models that we cannot
+      monitor." They dispute OpenAI's findings. An OpenAI representative told
+      the Journal the firings "were not about raising safety concerns or
+      speaking out," and an internal OpenAI memo said the company "strongly
+      agreed" with the letter's recommendations.
+    sources:
+      - title: 3 Fired OpenAI Employees Write Plea for Chain of Thought Monitoring to Be
+          Preserved
+        publisher: Gizmodo (via AOL)
+        url: https://www.aol.com/articles/3-fired-openai-employees-write-021948000.html
+        date: 2026-10-07
+        type: reporting
+      - title: 'Fired OpenAI Researchers Urge Board to Maintain Model Monitoring and
+          Allow External Audits: Report'
+        publisher: Techstrong.ai
+        url: https://techstrong.ai/articles/fired-openai-researchers-urge-board-to-maintain-model-monitoring-and-allow-external-audits-report/
+        date: 2026-10-08
+        type: reporting
+  - date: 2026-10-08
+    text: >-
+      The three posted their letter on Twitter and said the firings were
+      pretextual. Balesni wrote that in his exit call he was told OpenAI "no
+      longer trusts me because I was speaking too much to third party safety
+      organizations"; Korbak, the technical contact for METR and Redwood
+      Research's investigation of the Hugging Face breach, which OpenAI had
+      allowed, wrote that he was told he was fired "because of the way I
+      communicated with METR"; Wang wrote that she was fired over access to an
+      executive's email, which she said she had been given for past work and
+      could not get removed. OpenAI told NPR the three violated policies more
+      than once and that the mishandling went beyond their work with an outside
+      evaluation group, and shared a memo from a research leader: "We do not
+      terminate employees for raising concerns."
+    sources:
+      - title: Fired OpenAI employees question the company's commitment to safety
+        publisher: NPR
+        url: https://www.npr.org/2026/10/09/nx-s1-5996890/openai-safety-firings
+        date: 2026-10-09
+        type: reporting
 response: >-
   An OpenAI spokesperson told the Journal: "We have parted ways with three
   individuals for violating our policies on accessing and handling sensitive
@@ -60,6 +105,8 @@ note: >-
   employees' rights to make protected disclosures." In August 2026, 15 state
   attorneys general, writing about the Hugging Face breach, had demanded that no
   OpenAI employee face adverse action for protected whistleblowing (see
-  related). Whether
-  this was a leak or a protected disclosure depends on facts not yet public:
-  what was shared, with whom, and whether internal channels were tried first.
+  related). Korbak's account points to METR, whose investigation of that breach
+  OpenAI had allowed, and the three say the firings were pretextual; OpenAI says
+  the violations went beyond that work. Whether this was a leak or a protected
+  disclosure depends on facts still not public: what was shared, and whether
+  internal channels were tried first.
