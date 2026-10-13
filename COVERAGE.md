@@ -395,6 +395,29 @@ New York and Washington. Tables, method and sources are in
   bulk data doesn't itemize OpenAI's $1.10 million in "other payments" in Q2
   2026; other states, the EU register and FEC data were not searched.
 
+## Reply context
+
+All 9,021 replies by company accounts and executives in the Twitter reading
+log were re-read next to the post each one answered (the parent could not be
+retrieved for 1,576). Details and per-account counts are in
+[inbox/sweep/replies/README.md](inbox/sweep/replies/README.md).
+
+| | Replies | C | R |
+| --- | --: | --: | --: |
+| OpenAI accounts (17) | 5,318 | 213 | 0 |
+| Anthropic accounts (9) | 3,703 | 185 | 5 |
+
+- **Record changes:** one new Anthropic entry (the Constitutional AI testing
+  data it said it would release, graded broken), and updates on Opus 3's
+  continued access (kept), Clark's 2022 view of the GPT-2 caution, Clark's
+  March 2026 odds on the powerful-AI timeline, and two Claude Code
+  prompt-cache fixes the April 2026 postmortem left out.
+- **Leads:** four, all resolved. The First Proof follow-up OpenAI promised
+  appeared on schedule; the report that Microsoft's 2019 money was partly
+  Azure credits stays unconfirmed and is not an entry.
+- **Error found:** 49 notes had been attached to the wrong post in
+  self-threads; they were moved.
+
 ## What may still be missing
 
 - **Pages without a snapshot.** The Capture workflow on GitHub's runners saved
