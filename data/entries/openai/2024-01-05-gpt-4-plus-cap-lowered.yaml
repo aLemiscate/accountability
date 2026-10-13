@@ -10,18 +10,17 @@ quote: >-
 summary: >-
   When GPT-4 came to ChatGPT Plus in March 2023, OpenAI's help article said
   "We’re initially providing subscribers with 100 messages every 4 hours" and
-  that it would "dynamically adjust the exact usage cap depending on demand
-  and system performance in practice." By June the article said 25 messages
-  every 3 hours. On July 19, 2023 OpenAI announced on Twitter that it was
-  "doubling the number of messages ChatGPT Plus customers can send to GPT-4"
-  to 50 every 3 hours. Between January 5 and January 6, 2024, the article's
-  sentence changed to "As of January 5th 2024, GPT-4 has a limit of 40
-  messages every 3 hours," a fifth fewer. The dated sentence was the only
-  notice found: no post on OpenAI's Twitter accounts announced it. Later in
-  January the article added that OpenAI "may dynamically adjust the message
-  limit in order to prioritize making GPT-4 accessible to the widest number
-  of people." The 40-message cap stayed until GPT-4o arrived in May 2024 with
-  80 messages every 3 hours.
+  that it would "dynamically adjust the exact usage cap depending on demand and
+  system performance in practice." By June the article said 25 messages every 3
+  hours. On July 19, 2023 OpenAI announced on Twitter that it was "doubling the
+  number of messages ChatGPT Plus customers can send to GPT-4" to 50 every 3
+  hours. Between January 5 and January 6, 2024, the article's sentence changed
+  to "As of January 5th 2024, GPT-4 has a limit of 40 messages every 3 hours," a
+  fifth fewer. The dated sentence was the only notice found: no post on OpenAI's
+  Twitter accounts announced it. Later in January the article added that OpenAI
+  "may dynamically adjust the message limit in order to prioritize making GPT-4
+  accessible to the widest number of people." The 40-message cap stayed until
+  GPT-4o arrived in May 2024 with 80 messages every 3 hours.
 patterns: [shrinking-plan]
 related: [2024-04-claude-pro-allowance-lowered]
 sources:
@@ -30,11 +29,13 @@ sources:
     url: https://web.archive.org/web/20240105064512/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4
     date: 2024-01-05
     type: archive
+    snapshot: snapshots/2026-10-13-web.archive.org-b89a5652
   - title: How can I access GPT-4?, as archived on Jan. 6, 2024
     publisher: Internet Archive
     url: https://web.archive.org/web/20240106091424/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4
     date: 2024-01-06
     type: archive
+    snapshot: snapshots/2026-10-13-web.archive.org-5a655599
   - title: OpenAI on X ("We're doubling the number of messages ChatGPT Plus
       customers can send to GPT-4")
     publisher: X
@@ -42,11 +43,14 @@ sources:
     date: 2023-07-19
     type: primary
     archive: https://web.archive.org/web/20230720000058/https://twitter.com/OpenAI/status/1681810240898215936
+    snapshot: snapshots/2026-10-13-x.com-2fcaae87
   - title: How can I access GPT-4?, as archived on March 15, 2023
     publisher: Internet Archive
     url: https://web.archive.org/web/20230315002917/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4
     date: 2023-03-15
     type: archive
+    archive: https://web.archive.org/web/20230315002917/https://web.archive.org/web/20230315002917/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4
+    snapshot: snapshots/2026-10-13-web.archive.org-d45538c8
   - title: How can I access GPT-4?, as archived on June 6, 2023
     publisher: Internet Archive
     url: https://web.archive.org/web/20230606194140/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4
@@ -57,18 +61,19 @@ sources:
     url: https://web.archive.org/web/20240124135643/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4
     date: 2024-01-24
     type: archive
-  - title: How can I access GPT-4, GPT-4 Turbo and GPT-4o?, as archived on May
-      14, 2024
+  - title: How can I access GPT-4, GPT-4 Turbo and GPT-4o?, as archived on May 14,
+      2024
     publisher: Internet Archive
     url: https://web.archive.org/web/20240514003144/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o
     date: 2024-05-14
     type: archive
+    snapshot: snapshots/2026-10-13-web.archive.org-988052ca
 response: >-
-  No statement from OpenAI about the change was found beyond the dated
-  sentence on the help page.
+  No statement from OpenAI about the change was found beyond the dated sentence
+  on the help page.
 note: >-
-  Like Anthropic's Claude Pro page, this describes a cap that OpenAI always
-  said could move with demand, so it records a change in what OpenAI told
-  subscribers, not a measured cut. Unlike Anthropic's page, OpenAI's put a
-  date on the new figure. Found by reading every archived version of the page
-  in order.
+  Like Anthropic's Claude Pro page, this describes a cap that OpenAI always said
+  could move with demand, so it records a change in what OpenAI told
+  subscribers, not a measured cut. Unlike Anthropic's page, OpenAI's put a date
+  on the new figure. Found by reading every archived version of the page in
+  order.

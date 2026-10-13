@@ -89,16 +89,16 @@ sources:
 updates:
   - date: 2026-05-05
     text: >-
-      The postmortem did not mention prompt caching, which users had also
-      blamed for faster-draining limits. Asked on April 13 about a reported
-      change from a one-hour to a five-minute cache, Cherny said "1h prompt
-      cache is nuanced actually. It costs more for cache writes, and less for
-      cache reads." Claude Code's changelog later recorded two fixes: version
-      2.1.108 (released April 14) fixed "subscribers who set DISABLE_TELEMETRY
-      falling back to 5-minute prompt cache TTL instead of 1 hour," and version
-      2.1.129 (May 5) fixed "1-hour prompt cache TTL being silently downgraded
-      to 5 minutes." Neither entry says when the problem began or how many
-      people it reached.
+      The postmortem did not mention prompt caching, which users had also blamed
+      for faster-draining limits. Asked on April 13 about a reported change from
+      a one-hour to a five-minute cache, Cherny said "1h prompt cache is nuanced
+      actually. It costs more for cache writes, and less for cache reads."
+      Claude Code's changelog later recorded two fixes: version 2.1.108
+      (released April 14) fixed "subscribers who set DISABLE_TELEMETRY falling
+      back to 5-minute prompt cache TTL instead of 1 hour," and version 2.1.129
+      (May 5) fixed "1-hour prompt cache TTL being silently downgraded to 5
+      minutes." Neither entry says when the problem began or how many people it
+      reached.
     sources:
       - title: Boris Cherny on X ("1h prompt cache is nuanced actually")
         publisher: X
@@ -106,14 +106,18 @@ updates:
         date: 2026-04-13
         type: primary
         archive: https://web.archive.org/web/20260420192628/https://x.com/bcherny/status/2043715740080222549
+        snapshot: snapshots/2026-10-13-x.com-f5da97d9
       - title: Claude Code CHANGELOG.md (versions 2.1.108 and 2.1.129)
         publisher: Anthropic (GitHub)
         url: https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
         type: primary
+        snapshot: snapshots/2026-10-13-github.com-79752d66
       - title: '@anthropic-ai/claude-code version history'
         publisher: npm
         url: https://www.npmjs.com/package/@anthropic-ai/claude-code?activeTab=versions
         type: primary
+        archive: https://web.archive.org/web/20260610151119/https://www.npmjs.com/package/@anthropic-ai/claude-code?activeTab=versions
+        snapshot: snapshots/2026-10-13-npmjs.com-5162beb4
 response: >-
   Anthropic said it takes reports of degradation "very seriously," that the API
   and inference layer were not affected, and that it would have more staff use

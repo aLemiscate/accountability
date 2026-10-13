@@ -1,0 +1,21 @@
+{
+  "url": "https://huggingface.co/datasets/Anthropic/hh-rlhf",
+  "captured_at": "2026-10-13T05:35:40.534Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "82abd568bb38a1ea5e41eefe7f9859d9d9f4c739cc78c78231bfb362e7a19467",
+    "page.txt": "6efa6e24f5199cf86cc6a1572f8a297b8e3a25dc0765c03298e49c8cf214ad66",
+    "screenshot.jpg": "c997902ec3cc159f5ca511f7d646e9029cb855a72b50667fa3ea669b39770405",
+    "rendered.txt": "18c108d55a921c3946dee38ef710a1a910d56e255aa46acb1df1356a7b1e0041"
+  },
+  "http_status": 200,
+  "final_url": "https://huggingface.co/datasets/Anthropic/hh-rlhf",
+  "content_type": "text/html; charset=utf-8",
+  "title": "Anthropic/hh-rlhf · Datasets at Hugging Face",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20261013053548/https://huggingface.co/datasets/Anthropic/hh-rlhf",
+    "timestamp": "20261013053548",
+    "method": "spn"
+  }
+}

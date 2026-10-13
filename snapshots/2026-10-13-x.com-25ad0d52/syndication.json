@@ -1,0 +1,264 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 317,
+  "in_reply_to_screen_name": "ChrisGPT",
+  "in_reply_to_status_id_str": "2030416438935052556",
+  "in_reply_to_user_id_str": "1613004034096381952",
+  "lang": "und",
+  "possibly_sensitive": false,
+  "created_at": "2026-03-07T22:56:23.000Z",
+  "display_text_range": [
+    10,
+    13
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/JMAT2YUnnE",
+        "expanded_url": "https://x.com/jackclarkSF/status/2030417306288066780/photo/1",
+        "indices": [
+          14,
+          37
+        ],
+        "url": "https://t.co/JMAT2YUnnE"
+      }
+    ],
+    "user_mentions": [
+      {
+        "id_str": "1613004034096381952",
+        "indices": [
+          0,
+          9
+        ],
+        "name": "",
+        "screen_name": "chrisgpt"
+      }
+    ]
+  },
+  "id_str": "2030417306288066780",
+  "text": "@chrisgpt yes https://t.co/JMAT2YUnnE",
+  "user": {
+    "id_str": "86351835",
+    "name": "Jack Clark",
+    "screen_name": "jackclarkSF",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/726446881547517952/ULhSTKxN_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2030417306288066780"
+    ],
+    "editable_until_msecs": "1772927783000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/JMAT2YUnnE",
+      "expanded_url": "https://x.com/jackclarkSF/status/2030417306288066780/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        14,
+        37
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/HC19xkobAAA1hk6.jpg",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 765,
+            "w": 1366,
+            "x": 0,
+            "y": 198
+          },
+          {
+            "h": 988,
+            "w": 988,
+            "x": 378,
+            "y": 0
+          },
+          {
+            "h": 988,
+            "w": 867,
+            "x": 499,
+            "y": 0
+          },
+          {
+            "h": 988,
+            "w": 494,
+            "x": 872,
+            "y": 0
+          },
+          {
+            "h": 988,
+            "w": 1366,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 988,
+        "width": 1366
+      },
+      "sizes": {
+        "large": {
+          "h": 988,
+          "resize": "fit",
+          "w": 1366
+        },
+        "medium": {
+          "h": 868,
+          "resize": "fit",
+          "w": 1200
+        },
+        "small": {
+          "h": 492,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/JMAT2YUnnE"
+    }
+  ],
+  "photos": [
+    {
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 765,
+          "w": 1366,
+          "x": 0,
+          "y": 198
+        },
+        {
+          "h": 988,
+          "w": 988,
+          "x": 378,
+          "y": 0
+        },
+        {
+          "h": 988,
+          "w": 867,
+          "x": 499,
+          "y": 0
+        },
+        {
+          "h": 988,
+          "w": 494,
+          "x": 872,
+          "y": 0
+        },
+        {
+          "h": 988,
+          "w": 1366,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/jackclarkSF/status/2030417306288066780/photo/1",
+      "url": "https://pbs.twimg.com/media/HC19xkobAAA1hk6.jpg",
+      "width": 1366,
+      "height": 988
+    }
+  ],
+  "conversation_count": 13,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 99,
+    "lang": "en",
+    "reply_count": 4,
+    "retweet_count": 1,
+    "created_at": "2026-03-07T22:52:57.000Z",
+    "display_text_range": [
+      0,
+      40
+    ],
+    "entities": {
+      "user_mentions": [
+        {
+          "id_str": "86351835",
+          "indices": [
+            26,
+            38
+          ],
+          "name": "Jack Clark",
+          "screen_name": "jackclarkSF"
+        }
+      ]
+    },
+    "id_str": "2030416438935052556",
+    "text": "Do you still believe this @jackclarkSF ?",
+    "user": {
+      "id_str": "1613004034096381952",
+      "name": "Chris",
+      "screen_name": "ChrisGPT",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2046736394152812544/LfmDgg0I_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2030416438935052556"
+      ],
+      "editable_until_msecs": "1772927577000",
+      "edits_remaining": "5",
+      "is_edit_eligible": true
+    },
+    "quoted_tweet": {
+      "__typename": "Tweet",
+      "favorite_count": 234,
+      "in_reply_to_screen_name": "deredleritt3r",
+      "in_reply_to_status_id_str": "1962268737786048715",
+      "in_reply_to_user_id_str": "1744055410108080128",
+      "lang": "en",
+      "reply_count": 5,
+      "retweet_count": 22,
+      "created_at": "2025-08-31T21:47:26.000Z",
+      "display_text_range": [
+        15,
+        272
+      ],
+      "entities": {
+        "user_mentions": [
+          {
+            "id_str": "1744055410108080128",
+            "indices": [
+              0,
+              14
+            ],
+            "name": "prinz",
+            "screen_name": "deredleritt3r"
+          }
+        ]
+      },
+      "id_str": "1962271034998194350",
+      "text": "@deredleritt3r I continue to think things are pretty well on track for the sort of powerful AI system defined in machines of loving grace - buildable end of 2026, running many copies 2027. Of course, there are many reasons this could not occur, but lots of progress so far",
+      "user": {
+        "id_str": "86351835",
+        "name": "Jack Clark",
+        "screen_name": "jackclarkSF",
+        "is_blue_verified": true,
+        "profile_image_shape": "Circle",
+        "verified": false,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/726446881547517952/ULhSTKxN_normal.jpg"
+      }
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

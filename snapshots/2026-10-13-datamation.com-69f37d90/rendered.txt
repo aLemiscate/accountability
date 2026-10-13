@@ -1,0 +1,112 @@
+facebook
+x
+NEWSLETTER
+TRENDS
+BIG DATA
+DATA CENTER
+AI
+CLOUD
+APPLICATIONS
+MOBILE
+OPEN SOURCE
+SECURITY
+STORAGE
+MORE
+HOME
+AI
+SHARE
+Add Datamation as a preferred source
+OpenAI Discloses Mixpanel Security Incident Affecting Some API Users
+While the breach did not impact ChatGPT users, some API users had limited profile and analytics data exposed.
+WRITTEN BY
+DS
+DATAMATION STAFF
+REVIEWED BY:
+ANTONY PEYTON
+NOV 27, 2025
+·
+2 minute read
+Datamation content and product recommendations are editorially independent. We may make money when you click on links to our partners. Learn More
+OpenAI has publicly detailed a security incident involving Mixpanel, a third-party analytics provider previously used to track web usage on the platform.openai.com interface.
+The company emphasized on Nov. 26 that the event was confined to Mixpanel’s systems and did not compromise any OpenAI infrastructure or sensitive user data such as chats, prompts, API keys, or payment information.
+While the breach did not impact ChatGPT users, some API users had limited profile and analytics data exposed.
+How the incident occurred
+According to OpenAI, Mixpanel identified on Nov. 9, that an attacker had obtained unauthorized access to a portion of its environment and exported a dataset containing limited customer-related analytics. Mixpanel informed OpenAI shortly after the breach was discovered and supplied the affected dataset on Nov. 25.
+This type of incident highlights the increasing risk associated with third-party analytics and data-processing platforms. Because vendors often receive user metadata to help companies understand product usage, they can become attractive targets for attackers seeking indirect access to personal information.
+What data was exposed
+OpenAI reported that the breached Mixpanel dataset may have included basic profile and technical metadata tied to API accounts, such as:
+• Name provided on the API account.
+• Email address associated with the account.
+• Approximate location inferred from the user’s browser (city, state, country).
+• Operating system and browser details.
+• Referring websites.
+• Organization or user IDs used in the API environment.
+While none of this information grants access to accounts or financial resources, such metadata can be misused for targeted phishing, impersonation, or social-engineering schemes.
+OpenAI’s response and vendor actions
+The company says it immediately removed Mixpanel from its production environment once the investigation began. OpenAI also reviewed the exposed data, engaged with Mixpanel’s security team, and began notifying affected organizations and individual users.
+OpenAI stated: “While we have found no evidence of any effect on systems or data outside Mixpanel’s environment, we continue to monitor closely for any signs of misuse.”
+ADVERTISEMENT
+The incident prompted OpenAI to terminate its use of Mixpanel entirely and launch broader, more rigorous security reviews across all third-party vendors. This signals a heightened industry trend: critical AI infrastructure providers are tightening scrutiny of external data handlers due to the growing scale and sensitivity of their ecosystems.
+Recommendations and best practices
+OpenAI reiterated several protective measures for users going forward:
+• Approach unexpected emails or messages with caution.
+• Inspect links and attachments carefully.
+• Confirm the sender’s domain before responding.
+• Enable multi-factor authentication on all accounts.
+• Ensure organizational SSO setups use MFA as well.
+DS
+DATAMATION STAFF
+GET THE FREE NEWSLETTER!
+Subscribe to Data Insider for top news, trends & analysis
+ENTER YOUR EMAIL
+Join For Free
+By subscribing, you agree to receive emails from Datamation. You can unsubscribe at any time. View our Terms and Privacy Policy.
+MORE FROM DATAMATION STAFF
+Google and NextEra Strike AI-Powered Grid Deal
+NYT Sues Perplexity AI in Copyright Conflict
+Cloudflare Outage Affects Major Websites
+OpenAI Forces AI to Confess Its Lies
+RECOMMENDED FOR YOU...
+LATEST NEWS
+9 Best AI Certification Courses to Future-Proof Your Career for 2026
+Deciding on the best AI certification courses to take? Our 2026 guide details the 9 top courses you need!
+KEZIA GRACE JUNGCO
+MAY 18, 2026
+CLOUD
+76 Top SaaS Companies to Know in 2026
+Discover the top software-as-a-service (SaaS) companies. Learn about the latest trends in SaaS and the most successful SaaS companies.
+LIZ TICONG
+MAY 4, 2026
+AI
+Google and NextEra Strike AI-Powered Grid Deal
+They plan to construct multiple gigawatt-scale data center campuses across America—each powered by dedicated energy facilities.
+DATAMATION STAFF
+DEC 9, 2025
+AI
+NYT Sues Perplexity AI in Copyright Conflict
+NYT alleges Perplexity creates verbatim copies of its journalism, but the accusations go nuclear from there.
+DATAMATION STAFF
+DEC 8, 2025
+Datamation is the leading industry resource for B2B data professionals and technology buyers. Datamation's focus is on providing insight into the latest trends and innovation in AI, data security, big data, and more, along with in-depth product recommendations and comparisons. More than 1.7M users gain insight and guidance from Datamation every year.
+facebook
+x
+COMPANY
+Contact us
+Advertise with us
+CATEGORIES
+Trends
+Big Data
+Data Center
+AI
+Cloud
+Applications
+Mobile
+Open Source
+Security
+Storage
+Property of TechnologyAdvice. © 2026 TechnologyAdvice. All Rights Reserved
+Advertiser Disclosure: Some of the products that appear on this site are from companies from which TechnologyAdvice receives compensation. This compensation may impact how and where products appear on this site including, for example, the order in which they appear. TechnologyAdvice does not include all companies or all types of products available in the marketplace.
+TERMS OF SERVICE
+PRIVACY POLICY
+CALIFORNIA - DO NOT SELL MY INFORMATION
+We use cookies and other data collection technologies to provide the best experience for our customers. You may request that your data not be shared with third parties here: Do Not Sell My Data.

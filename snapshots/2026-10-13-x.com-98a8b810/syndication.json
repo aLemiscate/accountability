@@ -1,0 +1,357 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 167,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2022-12-19T20:01:44.000Z",
+  "display_text_range": [
+    0,
+    189
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/aimtiGzdWo",
+        "expanded_url": "https://x.com/AnthropicAI/status/1604929999743508480/photo/1",
+        "indices": [
+          190,
+          213
+        ],
+        "url": "https://t.co/aimtiGzdWo"
+      }
+    ],
+    "urls": [
+      {
+        "display_url": "forms.gle/12FCefc6sHfBsP…",
+        "expanded_url": "https://forms.gle/12FCefc6sHfBsP9j9",
+        "indices": [
+          166,
+          189
+        ],
+        "url": "https://t.co/699NBBDBfU"
+      }
+    ]
+  },
+  "id_str": "1604929999743508480",
+  "text": "Given the growing interest in language model-based chat interfaces, we’re sharing our Constitutional AI feedback interface with a larger set of people. Sign up here: https://t.co/699NBBDBfU https://t.co/aimtiGzdWo",
+  "user": {
+    "id_str": "1353836358901501952",
+    "name": "Anthropic",
+    "screen_name": "AnthropicAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1604929999743508480"
+    ],
+    "editable_until_msecs": "1671481904000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/aimtiGzdWo",
+      "expanded_url": "https://x.com/AnthropicAI/status/1604929999743508480/photo/1",
+      "ext_alt_text": "An image of a chat-based interface to a language model, designed for collecting feedback on ‘Constitutional’ models. ",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        190,
+        213
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/FkXZWjHVUAA4kDz.jpg",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 777,
+            "w": 1388,
+            "x": 0,
+            "y": 201
+          },
+          {
+            "h": 988,
+            "w": 988,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 988,
+            "w": 867,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 988,
+            "w": 494,
+            "x": 65,
+            "y": 0
+          },
+          {
+            "h": 988,
+            "w": 1388,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 988,
+        "width": 1388
+      },
+      "sizes": {
+        "large": {
+          "h": 988,
+          "resize": "fit",
+          "w": 1388
+        },
+        "medium": {
+          "h": 854,
+          "resize": "fit",
+          "w": 1200
+        },
+        "small": {
+          "h": 484,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/aimtiGzdWo"
+    }
+  ],
+  "photos": [
+    {
+      "accessibilityLabel": "An image of a chat-based interface to a language model, designed for collecting feedback on ‘Constitutional’ models. ",
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 777,
+          "w": 1388,
+          "x": 0,
+          "y": 201
+        },
+        {
+          "h": 988,
+          "w": 988,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 988,
+          "w": 867,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 988,
+          "w": 494,
+          "x": 65,
+          "y": 0
+        },
+        {
+          "h": 988,
+          "w": 1388,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/AnthropicAI/status/1604929999743508480/photo/1",
+      "url": "https://pbs.twimg.com/media/FkXZWjHVUAA4kDz.jpg",
+      "width": 1388,
+      "height": 988
+    }
+  ],
+  "conversation_count": 16,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 1205,
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 26,
+    "retweet_count": 224,
+    "created_at": "2022-12-16T16:36:24.000Z",
+    "display_text_range": [
+      0,
+      271
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/MIGlKSVTe9",
+          "expanded_url": "https://x.com/AnthropicAI/status/1603791161419698181/photo/1",
+          "indices": [
+            272,
+            295
+          ],
+          "url": "https://t.co/MIGlKSVTe9"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "anthropic.com/constitutional…",
+          "expanded_url": "https://www.anthropic.com/constitutional.pdf",
+          "indices": [
+            248,
+            271
+          ],
+          "url": "https://t.co/rlft1pZlP5"
+        }
+      ]
+    },
+    "id_str": "1603791161419698181",
+    "text": "We’ve trained language models to be better at responding to adversarial questions, without becoming obtuse and saying very little. We do this by conditioning them with a simple set of behavioral principles via a technique called Constitutional AI: https://t.co/rlft1pZlP5 https://t.co/MIGlKSVTe9",
+    "user": {
+      "id_str": "1353836358901501952",
+      "name": "Anthropic",
+      "screen_name": "AnthropicAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1603791161419698181"
+      ],
+      "editable_until_msecs": "1671210384000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "mediaDetails": [
+      {
+        "display_url": "pic.x.com/MIGlKSVTe9",
+        "expanded_url": "https://x.com/AnthropicAI/status/1603791161419698181/photo/1",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          272,
+          295
+        ],
+        "media_url_https": "https://pbs.twimg.com/media/FkHPdREVEAQ6NA0.png",
+        "original_info": {
+          "focus_rects": [
+            {
+              "h": 920,
+              "w": 1643,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 920,
+              "w": 920,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 920,
+              "w": 807,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 920,
+              "w": 460,
+              "x": 57,
+              "y": 0
+            },
+            {
+              "h": 920,
+              "w": 1648,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "height": 920,
+          "width": 1648
+        },
+        "sizes": {
+          "large": {
+            "h": 920,
+            "resize": "fit",
+            "w": 1648
+          },
+          "medium": {
+            "h": 670,
+            "resize": "fit",
+            "w": 1200
+          },
+          "small": {
+            "h": 380,
+            "resize": "fit",
+            "w": 680
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "photo",
+        "url": "https://t.co/MIGlKSVTe9"
+      }
+    ],
+    "photos": [
+      {
+        "backgroundColor": {
+          "red": 204,
+          "green": 214,
+          "blue": 221
+        },
+        "cropCandidates": [
+          {
+            "h": 920,
+            "w": 1643,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 920,
+            "w": 920,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 920,
+            "w": 807,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 920,
+            "w": 460,
+            "x": 57,
+            "y": 0
+          },
+          {
+            "h": 920,
+            "w": 1648,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "expandedUrl": "https://x.com/AnthropicAI/status/1603791161419698181/photo/1",
+        "url": "https://pbs.twimg.com/media/FkHPdREVEAQ6NA0.png",
+        "width": 1648,
+        "height": 920
+      }
+    ],
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

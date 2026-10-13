@@ -1,0 +1,26 @@
+{
+  "url": "https://www.npr.org/2026/08/24/nx-s1-5943167/openai-says-it-will-slow-its-ai-model-development-to-shore-up-safety",
+  "captured_at": "2026-10-13T06:37:28.393Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.txt": "fbe9a89f129915cfcc462261114fa2e4eb045a5fb6e83c3a48b4d4898e31e6a5",
+    "screenshot.jpg": "0a9896615ffcb7fab660727b0a5507a10ab25e519eddca5c09de349cdc4ab8a5",
+    "rendered.txt": "3d76176fd18a2f98f36d7da38553036084aeeb550a86869ffdf871842c5f0220"
+  },
+  "http_status": 200,
+  "final_url": "https://www.npr.org/2026/08/24/nx-s1-5943167/openai-says-it-will-slow-its-ai-model-development-to-shore-up-safety",
+  "content_type": "text/html;charset=UTF-8",
+  "omitted": {
+    "file": "page.html",
+    "bytes": 138937,
+    "sha256": "16c178a40f9bff072735e66581f6b9480945dcaaa03a6a6fda475d660016513e",
+    "reason": "the page contains a credential that GitHub push protection blocks; page.txt holds its text with the credential masked"
+  },
+  "title": "OpenAI says it will slow its AI model development to shore up safety : NPR",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20260907211720/https://www.npr.org/2026/08/24/nx-s1-5943167/openai-says-it-will-slow-its-ai-model-development-to-shore-up-safety",
+    "timestamp": "20260907211720",
+    "method": "existing"
+  }
+}

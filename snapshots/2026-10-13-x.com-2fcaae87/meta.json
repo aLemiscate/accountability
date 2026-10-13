@@ -1,0 +1,24 @@
+{
+  "url": "https://x.com/OpenAI/status/1681810240898215936",
+  "captured_at": "2026-10-13T05:56:03.099Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "9208ff60e57db69a6f18447e975591b477b4879c152f22e7861ba1357379e6fa",
+    "page.txt": "55ee83bca3a4cac09ede8248557a62a65814f8cad711e60a6a53b61611d4b52a",
+    "post.json": "baa71eba7a322365f80ec4f29edf1e5738bdb9731ff9b7818fff9331c97b960a",
+    "syndication.json": "840be7fda5f3ef6eb392f1e9ad13b4eeca8d639ebc081a2b5e3b8d58eb4192d7",
+    "post.txt": "4f6e63abc8a99df21c1c842baac2349a4df8d07ecd79268786f855c503e48c00"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1681810240898215936",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"We're doubling the number of messages ChatGPT Plus customers can send to GPT-4. Rolling out over the next week, new limit will be 50 per 3 hours. https://t.co/t4syFUj0fL\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "July 19, 2023",
+    "posted_at": "2023-07-19T23:36:22.610Z"
+  },
+  "rendered_status": 403
+}

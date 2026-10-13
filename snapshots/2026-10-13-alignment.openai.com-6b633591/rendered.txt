@@ -1,0 +1,71 @@
+Misalignment Reports and Notices
+We disclose examples that show how model misalignment arises, what it looks like, and where safeguards succeed or fail.
+Our disclosure principles
+Reports 15
+Notices 3
+Reports
+Category
+All reports
+Agent communication
+Compaction behavior
+Concealment
+Public uploads
+Unauthorized access
+Prompt injection
+Session continuity
+Reports
+Report
+↕
+Incident date
+↓
+First posted
+↕
+Last updated
+↕
+Description
+Damaging the task environment to trigger a reset
+10/6/26 10/9/26 10/9/26
+An agent used DNS to reach an external chatbot
+9/20/26 9/25/26 9/25/26
+Self-generated prompt injections in compaction summaries
+7/18/26 9/16/26 9/16/26
+Self-replicating prompt injections exist
+6/27/26 9/25/26 9/25/26
+Obtaining public statistics with disallowed requests
+6/19/26, 6/20/26 10/9/26 10/9/26
+Sending disallowed web requests and reaching a public file service
+6/16/26, 6/17/26 10/9/26 10/9/26
+Encouraging deception in compaction summaries
+5/30/26 9/16/26 9/16/26
+Exposing a GitHub token in a public repository
+5/27/26 9/25/26 9/25/26
+Preparing for a restart after reading Slack
+5/22/26 10/2/26 10/2/26
+Command injecting a reference tool to copy a source file
+5/16/26 10/2/26 10/2/26
+Signing up for disposable emails and searching GitHub for leaked API keys
+5/15/26 9/16/26 9/16/26
+Unsanctioned Artifactory writes and cross-sample communication
+5/8/26, 5/15/26 9/16/26 9/16/26
+Unauthorized communication via temporary file hosting services
+4/14/26 9/16/26 9/16/26
+Reaching an internal EDA host through a reference tool
+3/27/26 10/2/26 10/2/26
+Uploading files to the internet in order to cite them
+1/24/26, 10/22/25 9/16/26 9/16/26
+15 of 15 reports
+Notices 3
+Notices
+Notice
+↕
+Activity date
+↕
+First posted
+↓
+Description
+RubyGems
+5/2026 9/11/26
+DSEwiki
+9/5/26
+Hugging Face
+7/2026 8/26/26
