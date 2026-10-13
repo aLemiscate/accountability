@@ -24,15 +24,15 @@ Status of the "said" entries:
 | OpenAI | 21 | 8 | 12 | 6 | 4 | 8 |
 | Anthropic | 17 | 6 | 3 | 5 | 3 | 1 |
 
-139 of the 142 quotes whose sources have a saved snapshot match that text word
-for word. The other three come from a source without a snapshot: a passage
+140 of the 142 quotes whose sources have a saved snapshot match that text word
+for word. The other two come from a source without a snapshot: a passage
 from Anthropic's Fable 5 system card, quoted through Gizmodo, whose page the
-Capture workflow couldn't save (checked against Gizmodo's text by hand);
+Capture workflow couldn't save (checked against Gizmodo's text by hand), and
 Altman's November 2023 remark on voice cloning, quoted from the event's audio
-(the saved page is the event listing); and the April 5, 2024 wording of
-Anthropic's Claude Pro help page, whose saved copy is the April 2 version it
-replaced. For one quote, the White House accord, the text exists only as an
-image, and the match is against a labeled transcription saved beside it.
+(the saved page is the event listing). For one quote, the White House
+accord, the text exists only as an image, and the match is against a
+labeled transcription saved beside it. Every quoted phrase in the industry
+notes on the patterns was also checked against its saved source.
 
 ## Where entries come from
 
@@ -586,11 +586,12 @@ about other companies. Every source was read in full.
 
 - **Pages without a snapshot.** The Capture workflow on GitHub's runners saved
   the pages this review couldn't reach, including every openai.com page the
-  record cites. 57 of 712 sources still have no snapshot, most of them added
-  in the October 6 audit and the rest mostly paywalled
-  stories (Wall Street Journal, Washington Post) and sites that refuse
-  automated requests. Those are cited by URL, and quoted through reporting
-  that reproduced them.
+  record cites. 27 of the 899 distinct source addresses (entries, updates,
+  commitment grades and industry notes) still have no snapshot: paywalled
+  stories (Wall Street Journal, Washington Post, New York Times, Forbes,
+  Reuters) and sites that refuse automated requests (Gizmodo, Techmeme,
+  Inc., SSRN and a few others). Those are cited by URL, and quoted through
+  reporting that reproduced them.
 - **Paywalled and non-English reporting.** Wall Street Journal, New York Times,
   Bloomberg, New Yorker and The Information stories are cited through
   secondary coverage. Outside English, only regulators' decisions were
