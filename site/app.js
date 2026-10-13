@@ -178,6 +178,13 @@
     const hi = Math.max(...ys);
     return lo === hi ? String(lo) : `${lo}–${hi}`;
   };
+  /** Where a pattern is industry-wide: one sourced sentence on another company doing the same thing. */
+  function industryNote(ind) {
+    return h('div', { class: 'industry' },
+      h('span', { class: 'label' }, 'Across the industry'),
+      h('p', null, ind.text, ' ', (ind.sources || []).map((s, i) => [i ? ' · ' : '',
+        h('a', { href: s.url, target: '_blank', rel: 'noopener' }, [s.publisher, s.date && fmtDate(s.date)].filter(Boolean).join(', '))])));
+  }
   /** Shown above a view while a pattern is being followed: what the pattern is and how its entries turned out. */
   function patternBrief(entries) {
     const p = patternById.get(state.pattern);
@@ -195,6 +202,7 @@
         h('span', null, `${entries.length} entr${entries.length === 1 ? 'y' : 'ies'}, ${yearSpan(entries)}`),
         h('span', { class: 'pbrief-orgs' }, orgs.map(([o, n]) => h('span', { class: 'org' }, h('span', { class: `org-mark ${o}`, 'aria-hidden': 'true' }), `${orgName(o)} ${n}`))),
         outcomeTally(entries)),
+      p.industry && industryNote(p.industry),
       (p.tells?.length > 0 || p.watch_for) && h('details', null,
         h('summary', { class: 'label' }, 'Tells, and what to expect if it holds'),
         p.tells?.length > 0 && h('ul', null, p.tells.map((t) => h('li', null, t))),
@@ -390,6 +398,7 @@
       h('p', { class: 'pbrief-meta' }, outcomeTally(hits)),
       p.tells?.length > 0 && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Tells'), h('ul', null, p.tells.map((t) => h('li', null, t)))),
       p.watch_for && h('div', { class: 'forecast' }, h('span', { class: 'label' }, 'If the pattern holds (analysis)'), h('p', null, p.watch_for)),
+      p.industry && industryNote(p.industry),
       h('div', { class: 'hits' }, hits.map((e) => h('button', { class: 'hit', type: 'button', onclick: () => openEntry(e.id) },
         h('span', { class: 'mono' }, String(e.date).slice(0, 7)), h('span', { class: `dot sm ${e.org} ${e.type}`, 'aria-hidden': 'true' }),
         h('span', { class: 'ht' }, e.title, e.status && h('span', { class: `mark s-${e.status}`, title: STATUS_LABEL[e.status] }, h('span', { class: 'sr' }, ` (${STATUS_LABEL[e.status]})`)))))),
