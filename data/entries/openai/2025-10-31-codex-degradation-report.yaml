@@ -38,6 +38,10 @@ sources:
     date: 2025-10-31
     type: primary
     snapshot: snapshots/2026-10-03-docs.google.com-22010b4a
+response: >-
+  This entry is OpenAI's own report. Its conclusion: "We have not found a
+  conclusive large issue that would explain a consistent degradation of Codex
+  over time."
 note: >-
   A kept promise of transparency, and the closest parallel to Anthropic's own
   postmortems in the related entries: in all three, the company found real

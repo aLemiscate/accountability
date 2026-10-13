@@ -30,6 +30,12 @@ sources:
     date: 2026-04-07
     type: primary
     snapshot: snapshots/2026-09-30-anthropic.com-bc256abb
+response: >-
+  This entry is Anthropic's own disclosure. It wrote: "We are uncertain about
+  the extent to which this issue has affected the reasoning behavior of the
+  final model, but it is plausible that it had some impact on opaque reasoning
+  or secret-keeping abilities." No statement was found on the earlier report's
+  "we do not train models" wording.
 note: >-
   The disclosure itself counts in Anthropic's favor, and it came a month
   before OpenAI's similar one. The record pairs the two because both

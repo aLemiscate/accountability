@@ -45,6 +45,9 @@ sources:
     date: 2026-08-14
     type: primary
     snapshot: snapshots/2026-09-29-www-cdn.anthropic.com-026a83da
+response: >-
+  Anthropic said only that the revision was meant "to better track the threat
+  model of concern." No fuller explanation of the new wording was found.
 note: >-
   The change was disclosed, with a redline. The problem is the effect. Under the
   old wording, "may provide significant uplift" to expert-backed teams reads

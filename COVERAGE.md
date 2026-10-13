@@ -320,16 +320,16 @@ where a result is notable.
 | Responsible Scaling Policy, all nine versions | — | 8 of 28 |
 | Model Spec, all seven releases | 1 of 33 | — |
 | Claude's constitution | — | 5 of 32 |
-| Privacy policy, data-use pages and data clauses of the terms | 1 of 22 | 0 of 16 |
-| **All documents** | **31 of 125** | **39 of 124** |
+| Privacy policy, data-use pages and data clauses of the terms | 1 of 24 | 0 of 19 |
+| **All documents** | **31 of 127** | **39 of 127** |
 
 | All grades | Kept | Standing | Eroded | Broken | Unknown |
 | --- | --: | --: | --: | --: | --: |
-| OpenAI | 31 | 57 | 20 | 3 | 14 |
-| Anthropic | 39 | 44 | 11 | 6 | 24 |
+| OpenAI | 31 | 58 | 21 | 3 | 14 |
+| Anthropic | 39 | 45 | 13 | 6 | 24 |
 
-- **Shared pledges.** On the four documents both signed, Anthropic kept 26 of
-  54 and OpenAI 23. OpenAI has nine eroded, Anthropic two. Five of OpenAI's
+- **Shared pledges.** On the four documents both signed (48 commitments),
+  Anthropic kept 26 and OpenAI 23. OpenAI has nine eroded, Anthropic two. Five of OpenAI's
   are on the White House commitments: GPT-4.1 shipped with no model report
   and deep research's came 23 days late, testing time was reported cut, it
   was slow to tell Australian agencies its agents had broken into their
@@ -348,7 +348,11 @@ where a result is notable.
   targeted advertising: Anthropic in March 2024, OpenAI on April 30, 2026.
   Both now share data with ad partners to market their own products, with an
   opt-out. OpenAI also weakened the exceptions to its 30-day API log retention
-  in April 2026. A 2025 court order made OpenAI keep Temporary Chats it had
+  in April 2026. Anthropic's 30-day API deletion promise and its limits on
+  staff access to retained chats eroded in June and July 2026, when it began
+  requiring retention for its most capable models. OpenAI's promise not to
+  build advertising profiles, first posted in April 2023, was deleted as ads
+  launched in February 2026. A 2025 court order made OpenAI keep Temporary Chats it had
   promised to delete; it fought the order. Anthropic switched consumer chats
   to training by default in 2025.
 - **Record changes:** new entries on the Financial Times report that OpenAI
