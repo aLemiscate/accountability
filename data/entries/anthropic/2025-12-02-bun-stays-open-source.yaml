@@ -17,6 +17,7 @@ summary: >-
   repository still states that "Bun itself is MIT-licensed."
 concreteness: measurable
 status: open
+last_checked: 2026-10-13
 breaks_if: >-
   Bun relicensed away from MIT, development moved to a closed fork, or public
   releases stopped while Anthropic's internal use continued.

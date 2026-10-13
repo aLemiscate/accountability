@@ -18,6 +18,7 @@ summary: >-
   can only be judged qualitatively.
 concreteness: conditional
 status: open
+last_checked: 2026-10-13
 breaks_if: >-
   OpenAI ships a model that its own testers or system card flagged for a
   behavior problem of this kind and then has to roll it back or patch it; or it

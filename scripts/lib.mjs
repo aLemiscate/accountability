@@ -27,7 +27,7 @@ export const GRADES = ['kept', 'standing', 'eroded', 'broken', 'unknown'];
 const ENTRY_KEYS = new Set([
   'title', 'date', 'org', 'type', 'kind', 'who', 'venue', 'quote', 'summary',
   'concreteness', 'status', 'breaks_if', 'contradicts', 'related', 'patterns',
-  'sources', 'response', 'note', 'updates', 'revision',
+  'sources', 'response', 'note', 'updates', 'revision', 'last_checked',
 ]);
 const SOURCE_KEYS = new Set(['title', 'publisher', 'url', 'date', 'type', 'archive', 'snapshot']);
 
@@ -172,9 +172,17 @@ export function validate({ patterns, actors, entries, accounts = [], commitments
       if (!STATUSES.includes(e.status)) err(e, `status must be one of ${STATUSES.join(', ')}`);
       if (!CONCRETENESS.includes(e.concreteness)) err(e, `concreteness must be one of ${CONCRETENESS.join(', ')}`);
       if (e.status === 'open' && !e.breaks_if) warn(e, 'open promises should say what would count as breaking them (breaks_if)');
+      if (e.status === 'open' && !e.last_checked) warn(e, 'open promises should say when they were last checked against the record (last_checked)');
+      if (e.last_checked !== undefined) {
+        const lc = parseDate(e.last_checked);
+        if (!lc || lc.precision !== 'day') err(e, `last_checked must be a full date, YYYY-MM-DD (got "${e.last_checked}")`);
+        else if (d && lc.time < d.time) err(e, 'last_checked is earlier than the entry date');
+        else if (lc.time > Date.now() + DAY) err(e, 'last_checked is in the future');
+      }
       if (e.contradicts?.length) err(e, '"contradicts" belongs on the "did" entry, pointing back at what was said');
     } else if (e.type === 'did') {
       if (e.status || e.concreteness) warn(e, 'status/concreteness only apply to "said" entries');
+      if (e.last_checked) warn(e, 'last_checked only applies to "said" entries');
       for (const id of e.contradicts ?? []) {
         const target = byId.get(id);
         if (!target) err(e, `contradicts unknown entry "${id}"`);

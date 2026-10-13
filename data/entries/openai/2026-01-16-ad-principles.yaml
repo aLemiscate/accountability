@@ -13,6 +13,7 @@ summary: >-
   personalization; and OpenAI does not optimize for time spent in ChatGPT.
 concreteness: measurable
 status: open
+last_checked: 2026-10-13
 breaks_if: >-
   Sponsored content shows up inside answers instead of being separated and
   labeled; recommendations in answers track advertiser relationships;

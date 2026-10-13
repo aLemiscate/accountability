@@ -47,6 +47,21 @@ sources:
     type: primary
     snapshot: snapshots/2026-10-07-podcasts.apple.com-d01dc4bc
 updates:
+  - date: 2025-10-27
+    text: >-
+      OpenAI's next letter to the White House science office repeated the
+      request in narrower form: Congress should give companies that partner
+      with the federal Center for AI Standards and Innovation "liability
+      protections such as preemption of state laws and regulations that focus
+      on frontier model security and safety." The letter added that states
+      could be "laboratories for democracy" on child safety, AI literacy and
+      workforce policy.
+    sources:
+      - title: '[OpenAI_OSTP RFI Oct 27 2025] (PDF)'
+        publisher: OpenAI
+        url: https://cdn.openai.com/pdf/21b88bb5-10a3-4566-919d-f9a6b9c3e632/openai-ostp-rfi-oct-27-2025.pdf
+        date: 2025-10-27
+        type: primary
   - date: 2026-06-10
     text: >-
       Within a year OpenAI was endorsing state AI safety bills: New York's RAISE

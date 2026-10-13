@@ -121,3 +121,19 @@ test('the published record has no validation errors', async () => {
   const { errors } = validate(data);
   assert.deepEqual(errors, []);
 });
+
+test('open promises carry a full last-checked date that is not before the promise', () => {
+  const d = base();
+  d.entries[0].status = 'open';
+  d.entries[0].breaks_if = 'they stop';
+  d.entries.pop();
+  assert.match(validate(d).warnings.join('\n'), /last checked/);
+  d.entries[0].last_checked = '2026-10';
+  assert.match(validate(d).errors.join('\n'), /last_checked must be a full date/);
+  d.entries[0].last_checked = '2019-12-31';
+  assert.match(validate(d).errors.join('\n'), /earlier than the entry date/);
+  d.entries[0].last_checked = '2026-10-13';
+  const { errors, warnings } = validate(d);
+  assert.deepEqual(errors, []);
+  assert.deepEqual(warnings, []);
+});

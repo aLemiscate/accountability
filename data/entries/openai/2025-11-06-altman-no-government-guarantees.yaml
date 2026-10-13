@@ -19,6 +19,7 @@ summary: >-
   and loan guarantees for new U.S. chip fabrication plants.
 concreteness: measurable
 status: open
+last_checked: 2026-10-13
 breaks_if: >-
   OpenAI seeks or accepts a federal loan guarantee, backstop or bailout for its
   own data centers or compute commitments, directly or through a special-purpose
@@ -45,6 +46,28 @@ sources:
     date: 2025-11-06
     type: reporting
     snapshot: snapshots/2026-10-01-techcrunch.com-8024e1e6
+updates:
+  - date: 2025-11-07
+    text: >-
+      Decrypt reported that an OpenAI letter to the White House science office,
+      dated Oct. 27 and signed by Chris Lehane, contradicted Altman's denial.
+      The letter asked Congress to extend a manufacturing tax credit to "AI
+      data centers," and asked the government to "deploy grants, cost-sharing
+      agreements, loans, or loan guarantees to expand industrial base capacity
+      and resilience" in materials such as copper, aluminum and electrical
+      steel and in grid components. It did not ask for guarantees for OpenAI's
+      own data centers, which is what Altman ruled out.
+    sources:
+      - title: '[OpenAI_OSTP RFI Oct 27 2025] (PDF)'
+        publisher: OpenAI
+        url: https://cdn.openai.com/pdf/21b88bb5-10a3-4566-919d-f9a6b9c3e632/openai-ostp-rfi-oct-27-2025.pdf
+        date: 2025-10-27
+        type: primary
+      - title: OpenAI Sought Government Loan Guarantees Days Before Sam Altman's Denial
+        publisher: Decrypt
+        url: https://decrypt.co/347866/openai-sought-government-loan-guarantees-sam-altman-denial
+        date: 2025-11-07
+        type: reporting
 note: >-
   This is a clear, checkable line, and one worth watching: OpenAI's compute
   commitments ran to about $1.4 trillion at the time.
