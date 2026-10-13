@@ -13,8 +13,8 @@ summary: >-
   From early March 2026, Claude Code users reported that it had become less
   capable. In early April an AMD AI director filed an analysis of 6,852 sessions
   concluding that Claude "cannot be trusted to perform complex engineering."
-  Claude Code's head, Boris Cherny, called two circulating claims false:
-  that paying subscribers got worse models than enterprise customers ("We serve
+  Claude Code's head, Boris Cherny, called two circulating claims false: that
+  paying subscribers got worse models than enterprise customers ("We serve
   exactly the same models to all users"), and that the switch to a medium effort
   default was hidden ("Literally nothing sneaky about it"). Anthropic's April 23
   postmortem bore out both narrow points (the change was in the changelog and an
@@ -85,6 +85,7 @@ sources:
     date: 2026-04-06
     type: reporting
     archive: https://web.archive.org/web/20260423062434/https://www.theregister.com/2026/04/06/anthropic_claude_code_dumber_lazier_amd_ai_director/
+    snapshot: snapshots/2026-10-13-theregister.com-b1d3f494
 updates:
   - date: 2026-05-05
     text: >-

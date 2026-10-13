@@ -1,0 +1,21 @@
+{
+  "url": "https://www.theregister.com/2026/04/22/anthropic_removes_claude_code_pro/",
+  "captured_at": "2026-10-13T15:34:22.932Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "6ab5b25ee258b5e7c1945d5fd30bda688fd5be57487327529a3d42ef38932151",
+    "page.txt": "a4a4de1ac237f1b6301c4bfafc15285486f2cd033dfae9b67464b77b03527034",
+    "screenshot.jpg": "8f48e15090a7ecbdaf24f699b3e886eb82888a85e48f916ba13f78d4eed92e6a",
+    "rendered.txt": "86763241f2de778beb0f18df5c041801d4d01e968225fa61b0e5eaeedabc955f"
+  },
+  "http_status": 200,
+  "final_url": "https://www.theregister.com/software/2026/04/22/anthropic-tests-reaction-to-yanking-claude-code-from-pro/5224929",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Anthropic tests reaction to yanking Claude Code from Pro",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20260429081058/https://www.theregister.com/2026/04/22/anthropic_removes_claude_code_pro/",
+    "timestamp": "20260429081058",
+    "method": "existing"
+  }
+}
