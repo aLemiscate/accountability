@@ -1,0 +1,98 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/OpenAI/status/1945904754443669659",
+    "id": "1945904754443669659",
+    "text": "We’ve decided to treat this launch as High Capability in the Biological and Chemical domain under our Preparedness Framework, and activated the associated safeguards. This is a precautionary approach, and we detail our safeguards in the system card.\n\nWe outlined our approach on preparing for future AI capabilities in biology through a blog post earlier this month. https://openai.com/index/preparing-for-future-ai-capabilities-in-biology/",
+    "raw_text": {
+      "text": "We’ve decided to treat this launch as High Capability in the Biological and Chemical domain under our Preparedness Framework, and activated the associated safeguards. This is a precautionary approach, and we detail our safeguards in the system card.\n\nWe outlined our approach on preparing for future AI capabilities in biology through a blog post earlier this month. https://t.co/mnIbYzYTeJ",
+      "display_text_range": [
+        0,
+        390
+      ],
+      "facets": [
+        {
+          "type": "url",
+          "indices": [
+            367,
+            390
+          ],
+          "original": "https://t.co/mnIbYzYTeJ",
+          "replacement": "https://openai.com/index/preparing-for-future-ai-capabilities-in-biology/",
+          "display": "openai.com/index/preparin…"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "OpenAI",
+      "url": "https://x.com/OpenAI",
+      "id": "4398626122",
+      "followers": 5430056,
+      "following": 4,
+      "likes": 2526,
+      "media_count": 743,
+      "name": "OpenAI",
+      "description": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: http://openai.com/jobs",
+      "raw_description": {
+        "text": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: https://t.co/dJGr6LgzPA",
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              107,
+              130
+            ],
+            "original": "https://t.co/dJGr6LgzPA",
+            "replacement": "http://openai.com/jobs",
+            "display": "openai.com/jobs"
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/4398626122/1777662919",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "joined": "Sun Dec 06 22:51:08 +0000 2015",
+      "protected": false,
+      "website": {
+        "url": "https://openai.com",
+        "display_url": "openai.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "organization"
+      },
+      "avatar_color": null
+    },
+    "replies": 27,
+    "retweets": 47,
+    "likes": 611,
+    "bookmarks": 117,
+    "quotes": 14,
+    "created_at": "Thu Jul 17 17:53:41 +0000 2025",
+    "created_timestamp": 1752774821,
+    "views": 647307,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": "OpenAI",
+    "replying_to_status": "1945904752749080714",
+    "card": {
+      "url": "https://openai.com/index/preparing-for-future-ai-capabilities-in-biology/",
+      "title": "Preparing for future AI capabilities in biology",
+      "description": "Advanced AI can transform biology and medicine—but also raises biosecurity risks. We’re proactively assessing capabilities and implementing safeguards to prevent misuse.",
+      "domain": "openai.com",
+      "image": {
+        "width": 800,
+        "height": 419,
+        "url": "https://pbs.twimg.com/card_img/2108406472317300736/pM-XGt1A?format=jpg&name=800x419",
+        "alt": "A blue, green, and white gradient"
+      }
+    },
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

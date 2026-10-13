@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/OpenAI/status/1974234951928459450",
+  "captured_at": "2026-10-13T15:10:14.413Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "9483ae59db12478588c1f3233695e6cd79a6d022d9029593b147cdbe0e904638",
+    "page.txt": "000401a135ddb8239f644dc49adb2cd8f3a45be13c7672395736a55c7d164d42",
+    "post.json": "01f166ad61a92777fb9a12e99e1f5da61079748f7bce5fcf85b60a4f94bc25fc",
+    "syndication.json": "d8c7482dab0132a062ccdebc1f01648988dcf5fcc6d0a616419d847446b6e6ae",
+    "fulltext.json": "4a89230fe96b06ae5b7f23ce24caef451c4500e4a26f926886cefa0e4d91ad10",
+    "post.txt": "77525ade592efff43d7f67ea8580fcffc41b6feecc7e3dd40ae76861f1950134"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1974234951928459450",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"We’re updating GPT-5 Instant to better recognize and support people in moments of distress. Sensitive parts of conversations will now route to GPT-5 Instant to quickly provide even more helpful responses. ChatGPT will continue to tell users what model is active when asked. Starting… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "October 3, 2025",
+    "posted_at": "2025-10-03T22:07:46.708Z",
+    "full_text_from": "api.fxtwitter.com"
+  }
+}

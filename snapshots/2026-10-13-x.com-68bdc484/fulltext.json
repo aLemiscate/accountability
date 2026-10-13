@@ -1,0 +1,64 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/sama/status/1908167621624856998",
+    "id": "1908167621624856998",
+    "text": "change of plans: we are going to release o3 and o4-mini after all, probably in a couple of weeks, and then do GPT-5 in a few months.\n\nthere are a bunch of reasons for this, but the most exciting one is that we are going to be able to make GPT-5 much better than we originally though. we also found it harder than we thought it was going to be to smoothly integrate everything. and we want to make sure we have enough capacity to support what we expect to be unprecedented demand.",
+    "raw_text": {
+      "text": "change of plans: we are going to release o3 and o4-mini after all, probably in a couple of weeks, and then do GPT-5 in a few months.\n\nthere are a bunch of reasons for this, but the most exciting one is that we are going to be able to make GPT-5 much better than we originally though. we also found it harder than we thought it was going to be to smoothly integrate everything. and we want to make sure we have enough capacity to support what we expect to be unprecedented demand.",
+      "display_text_range": [
+        0,
+        479
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "sama",
+      "url": "https://x.com/sama",
+      "id": "1605",
+      "followers": 6374600,
+      "following": 1034,
+      "likes": 1016,
+      "media_count": 394,
+      "name": "Sam Altman",
+      "description": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+      "raw_description": {
+        "text": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+        "facets": []
+      },
+      "location": "SF",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "joined": "Sun Jul 16 22:01:55 +0000 2006",
+      "protected": false,
+      "website": {
+        "url": "http://blog.samaltman.com",
+        "display_url": "blog.samaltman.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 1612,
+    "retweets": 2304,
+    "likes": 29264,
+    "bookmarks": 2951,
+    "quotes": 1062,
+    "created_at": "Fri Apr 04 14:39:47 +0000 2025",
+    "created_timestamp": 1743777587,
+    "views": 4009048,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

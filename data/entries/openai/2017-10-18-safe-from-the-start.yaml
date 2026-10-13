@@ -17,6 +17,13 @@ summary: >-
   same mistake with advanced AI."
 concreteness: directional
 status: eroded
+outcome:
+  date: 2025-03-05
+  text: >-
+    OpenAI's statement of its safety philosophy said the way to make the next
+    system safe is to learn from deploying the current one. The related entries
+    record launches that were patched, rolled back or given safety reports after
+    release.
 patterns: [ship-then-patch]
 related:
   [

@@ -1,0 +1,87 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/btaylor/status/2036474423998554334",
+    "id": "2036474423998554334",
+    "text": "Last fall, OpenAI announced its recapitalization, paving the way for the OpenAI Foundation to access significant resources. On behalf of the Board, I’m excited to share an update today on how the Foundation is starting to put that support to work – including our plans to spend at least $1B over the next year and the team we’re putting together.\n\nOur work is just beginning. We’ll have more updates to share in the coming weeks and months. http://openaifoundation.org/news/update-on-the-openai-foundation",
+    "raw_text": {
+      "text": "Last fall, OpenAI announced its recapitalization, paving the way for the OpenAI Foundation to access significant resources. On behalf of the Board, I’m excited to share an update today on how the Foundation is starting to put that support to work – including our plans to spend at least $1B over the next year and the team we’re putting together.\n\nOur work is just beginning. We’ll have more updates to share in the coming weeks and months. https://t.co/lmNcAa3UUR",
+      "display_text_range": [
+        0,
+        464
+      ],
+      "facets": [
+        {
+          "type": "url",
+          "indices": [
+            441,
+            464
+          ],
+          "original": "https://t.co/lmNcAa3UUR",
+          "replacement": "http://openaifoundation.org/news/update-on-the-openai-foundation",
+          "display": "openaifoundation.org/news/update-on…"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "btaylor",
+      "url": "https://x.com/btaylor",
+      "id": "7456262",
+      "followers": 162535,
+      "following": 1626,
+      "likes": 15737,
+      "media_count": 554,
+      "name": "Bret Taylor",
+      "description": "Co-Founder @SierraPlatform. Board @OpenAI.",
+      "raw_description": {
+        "text": "Co-Founder @SierraPlatform. Board @OpenAI.",
+        "facets": []
+      },
+      "location": "San Francisco, CA",
+      "banner_url": "https://pbs.twimg.com/profile_banners/7456262/1784393067",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1782150890960658432/2qaPECed_200x200.jpg",
+      "joined": "Fri Jul 13 17:02:46 +0000 2007",
+      "protected": false,
+      "website": {
+        "url": "http://linkedin.com/in/brettaylor",
+        "display_url": "linkedin.com/in/brettaylor"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 15,
+    "retweets": 25,
+    "likes": 282,
+    "bookmarks": 54,
+    "quotes": 9,
+    "created_at": "Tue Mar 24 16:05:13 +0000 2026",
+    "created_timestamp": 1774368313,
+    "views": 62022,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "card": {
+      "url": "http://openaifoundation.org/news/update-on-the-openai-foundation",
+      "title": "Update on the OpenAI Foundation",
+      "description": "The OpenAI Foundation holds equity in OpenAI Group, currently valued at approximately $130 billion—making it one of the best resourced philanthropic organizations in the world.",
+      "domain": "openaifoundation.org",
+      "image": {
+        "width": 800,
+        "height": 419,
+        "url": "https://pbs.twimg.com/card_img/2108922934538461184/-bdCGXrK?format=png&name=800x419",
+        "alt": "Update on the OpenAI Foundation"
+      }
+    },
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

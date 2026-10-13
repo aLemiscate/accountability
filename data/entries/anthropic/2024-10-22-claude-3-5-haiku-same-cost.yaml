@@ -5,7 +5,7 @@ org: anthropic
 type: said
 kind: claim
 who: [anthropic]
-venue: Launch thread on X for the upgraded Claude 3.5 Sonnet and Claude 3.5 Haiku
+venue: Launch thread on Twitter for the upgraded Claude 3.5 Sonnet and Claude 3.5 Haiku
 quote: >-
   Haiku now outperforms many state-of-the-art models on coding tasks—including
   the original Claude 3.5 Sonnet and GPT-4o—at the same cost as before.
@@ -21,6 +21,12 @@ summary: >-
   to $0.80 and $4.
 concreteness: measurable
 status: broken
+outcome:
+  date: 2024-11-04
+  text: >-
+    Claude 3.5 Haiku launched at $1 per million input tokens and $5 per million
+    output tokens, four times Claude 3 Haiku's price. Anthropic said it raised
+    the price because the model had surpassed Claude 3 Opus on many benchmarks.
 patterns: []
 related: [2024-06-20-claude-3-5-opus-later-this-year]
 sources:

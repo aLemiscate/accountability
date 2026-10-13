@@ -1,0 +1,64 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/SebastienBubeck/status/2097214122471432349",
+    "id": "2097214122471432349",
+    "text": "A series of false and inflammatory allegations against me are currently circulating on social channels. To clarify, I came into the discussion following academic norms, and I'm disappointed that it has come to this. Anyone who knows me knows that academic standards are of the highest importance to me. Will have more to say tomorrow.",
+    "raw_text": {
+      "text": "A series of false and inflammatory allegations against me are currently circulating on social channels. To clarify, I came into the discussion following academic norms, and I'm disappointed that it has come to this. Anyone who knows me knows that academic standards are of the highest importance to me. Will have more to say tomorrow.",
+      "display_text_range": [
+        0,
+        334
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "SebastienBubeck",
+      "url": "https://x.com/SebastienBubeck",
+      "id": "452384386",
+      "followers": 93390,
+      "following": 1511,
+      "likes": 3921,
+      "media_count": 268,
+      "name": "Sebastien Bubeck",
+      "description": "I work on AI at OpenAI. Former VP AI and Distinguished Scientist at Microsoft.",
+      "raw_description": {
+        "text": "I work on AI at OpenAI. Former VP AI and Distinguished Scientist at Microsoft.",
+        "facets": []
+      },
+      "location": "Seattle, WA",
+      "banner_url": "https://pbs.twimg.com/profile_banners/452384386/1738351888",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1709609135321583616/6bXuF85D_200x200.jpg",
+      "joined": "Sun Jan 01 19:44:13 +0000 2012",
+      "protected": false,
+      "website": {
+        "url": "http://sbubeck.com",
+        "display_url": "sbubeck.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 347,
+    "retweets": 151,
+    "likes": 2624,
+    "bookmarks": 837,
+    "quotes": 140,
+    "created_at": "Tue Sep 08 06:43:05 +0000 2026",
+    "created_timestamp": 1788849785,
+    "views": 2534477,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

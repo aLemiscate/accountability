@@ -1,0 +1,126 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/jasonkwon/status/1977151380948500625",
+    "id": "1977151380948500625",
+    "text": "I've seen a few questions here about how we're responding to Elon's lawsuits against us. After he sued us, several organizations, some of them suddenly newly formed like the Midas Project, joined in and ran campaigns backing his opposition to OpenAI's restructure. This raised transparency questions about who was funding them and whether there was any coordination. It's the same theme noted in my prior response.\n\nSome have pointed out that the subpoena to Encode requests \"all\" documents related to SB53, implying that the focus wasn't Elon. As others have mentioned in the replies, this is standard language as each side's counsel negotiates and works through to narrow what will get produced, objects, refuses, etc. Focusing on one word ignores the other hundreds that make it clear what the object of concern was.\n\nSince he's been tweeting about it, here's our subpoena to Tyler Johnston of the Midas Project, which does not mention the bill, which we did not oppose.",
+    "raw_text": {
+      "text": "I've seen a few questions here about how we're responding to Elon's lawsuits against us. After he sued us, several organizations, some of them suddenly newly formed like the Midas Project, joined in and ran campaigns backing his opposition to OpenAI's restructure. This raised transparency questions about who was funding them and whether there was any coordination. It's the same theme noted in my prior response.\n\nSome have pointed out that the subpoena to Encode requests \"all\" documents related to SB53, implying that the focus wasn't Elon. As others have mentioned in the replies, this is standard language as each side's counsel negotiates and works through to narrow what will get produced, objects, refuses, etc. Focusing on one word ignores the other hundreds that make it clear what the object of concern was.\n\nSince he's been tweeting about it, here's our subpoena to Tyler Johnston of the Midas Project, which does not mention the bill, which we did not oppose.",
+      "display_text_range": [
+        0,
+        973
+      ],
+      "facets": [
+        {
+          "type": "media",
+          "indices": [
+            277,
+            300
+          ],
+          "id": "1977151223741792257",
+          "display": "pic.x.com/rOGjjklWSl",
+          "original": "https://t.co/rOGjjklWSl",
+          "replacement": "https://x.com/jasonkwon/status/1977151380948500625/photo/1"
+        },
+        {
+          "type": "media",
+          "indices": [
+            277,
+            300
+          ],
+          "id": "1977151223745986565",
+          "display": "pic.x.com/rOGjjklWSl",
+          "original": "https://t.co/rOGjjklWSl",
+          "replacement": "https://x.com/jasonkwon/status/1977151380948500625/photo/1"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "jasonkwon",
+      "url": "https://x.com/jasonkwon",
+      "id": "22685229",
+      "followers": 30298,
+      "following": 1958,
+      "likes": 4902,
+      "media_count": 32,
+      "name": "Jason Kwon",
+      "description": "CSO @openai",
+      "raw_description": {
+        "text": "CSO @openai",
+        "facets": []
+      },
+      "location": "San Francisco, CA",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1917651900440178688/fNTyjQgO_200x200.jpg",
+      "joined": "Tue Mar 03 21:44:32 +0000 2009",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 20,
+    "retweets": 6,
+    "likes": 53,
+    "bookmarks": 13,
+    "quotes": 3,
+    "created_at": "Sat Oct 11 23:16:37 +0000 2025",
+    "created_timestamp": 1760224597,
+    "possibly_sensitive": false,
+    "views": 74885,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": "jasonkwon",
+    "replying_to_status": "1976762553805291880",
+    "media": {
+      "all": [
+        {
+          "type": "photo",
+          "id": "1977151223741792257",
+          "url": "https://pbs.twimg.com/media/G3BAkAZbwAEp44r.jpg?name=orig",
+          "width": 1290,
+          "height": 1680
+        },
+        {
+          "type": "photo",
+          "id": "1977151223745986565",
+          "url": "https://pbs.twimg.com/media/G3BAkAabwAUIZxn.jpg?name=orig",
+          "width": 1292,
+          "height": 1616
+        }
+      ],
+      "photos": [
+        {
+          "type": "photo",
+          "id": "1977151223741792257",
+          "url": "https://pbs.twimg.com/media/G3BAkAZbwAEp44r.jpg?name=orig",
+          "width": 1290,
+          "height": 1680
+        },
+        {
+          "type": "photo",
+          "id": "1977151223745986565",
+          "url": "https://pbs.twimg.com/media/G3BAkAabwAUIZxn.jpg?name=orig",
+          "width": 1292,
+          "height": 1616
+        }
+      ],
+      "mosaic": {
+        "type": "mosaic_photo",
+        "formats": {
+          "jpeg": "https://mosaic.fxtwitter.com/jpeg/1977151380948500625/G3BAkAZbwAEp44r/G3BAkAabwAUIZxn",
+          "webp": "https://mosaic.fxtwitter.com/webp/1977151380948500625/G3BAkAZbwAEp44r/G3BAkAabwAUIZxn"
+        }
+      }
+    },
+    "twitter_card": "summary_large_image",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

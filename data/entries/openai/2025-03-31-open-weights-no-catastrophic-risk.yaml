@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [openai, johannes-heidecke]
-venue: Posts on X by OpenAI's head of safety systems
+venue: Posts on Twitter by OpenAI's head of safety systems
 quote: >-
   we’re guided by our Preparedness Framework and will not release models we
   believe pose catastrophic risks.
@@ -49,7 +49,7 @@ updates:
         url: https://x.com/sama/status/1943837550369812814
         date: 2025-07-12
         type: primary
-        snapshot: snapshots/2026-09-30-x.com-ad129249
+        snapshot: snapshots/2026-10-13-x.com-ad129249
   - date: 2025-08-05
     text: >-
       With gpt-oss, OpenAI published a paper on "malicious fine-tuning." It

@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [openai, jan-leike]
-venue: Launch post for the AI text classifier and posts on X
+venue: Launch post for the AI text classifier and posts on Twitter
 quote: >-
   We’re developing a new tool to help distinguish between AI-written and
   human-written text. We’re releasing an initial version to collect feedback and
@@ -29,6 +29,12 @@ summary: >-
   modalities including text" but had not said how it would mark text.
 concreteness: aspirational
 status: eroded
+outcome:
+  date: 2024-08-04
+  text: >-
+    The Wall Street Journal reported that OpenAI had had a system for
+    watermarking ChatGPT's text ready for about a year but was divided over
+    releasing it. OpenAI said it was taking a "deliberate approach."
 patterns: [principles-with-a-price]
 sources:
   - title: OpenAI on X ("hope to share improved methods in the future")

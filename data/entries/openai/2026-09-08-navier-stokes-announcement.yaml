@@ -38,7 +38,7 @@ sources:
     url: https://x.com/OpenAI/status/2097375276384567642
     date: 2026-09-08
     type: primary
-    snapshot: snapshots/2026-10-03-x.com-f8f3c273
+    snapshot: snapshots/2026-10-13-x.com-f8f3c273
   - title: Navier-Stokes solution (announcement page)
     publisher: OpenAI
     url: https://openai.com/index/navier-stokes-solution/
@@ -51,13 +51,19 @@ sources:
     date: 2026-09-08
     type: primary
     archive: https://web.archive.org/web/20260908230603/https://x.com/sama/status/2097385167002415140
-    snapshot: snapshots/2026-10-03-x.com-32af9c2a
+    snapshot: snapshots/2026-10-13-x.com-32af9c2a
   - title: Sébastien Bubeck on X ("false and inflammatory allegations")
     publisher: X
     url: https://x.com/SebastienBubeck/status/2097214122471432349
     date: 2026-09-08
     type: primary
-    snapshot: snapshots/2026-10-03-x.com-e566eb6f
+    snapshot: snapshots/2026-10-13-x.com-e566eb6f
+  - title: Sébastien Bubeck on X ("I would like to clarify a few things")
+    publisher: X
+    url: https://x.com/SebastienBubeck/status/2097379411691516310
+    date: 2026-09-08
+    type: primary
+    snapshot: snapshots/2026-10-13-x.com-0344dfbb
   - title: "'Why would you ruin your career?': OpenAI claims to have cracked one of
       math's greatest unsolved problems, but mathematicians allege it played
       dirty"

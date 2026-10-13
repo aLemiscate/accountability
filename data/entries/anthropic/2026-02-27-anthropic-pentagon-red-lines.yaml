@@ -115,19 +115,19 @@ updates:
   - date: 2026-10-08
     text: >-
       Anthropic's new Usage Policy, published October 8 and effective November
-      12, 2026, writes both limits out. It bars using Claude to "Weaponize or
-      integrate weapons onto drones, vehicles, or any unmanned or autonomous
-      platforms," to "Make or suggest decisions in law enforcement or criminal
-      justice processes, including decisions to investigate, charge, arrest or
-      detain," and to "Target or track a person or their property without that
-      person’s consent," including "through analysis of previously collected
-      data." Anthropic said the weapons changes "reflect how we’ve enforced our
-      previous policy" and that the surveillance rewrite "does not reflect a
-      change in what we enforce in practice." The policy keeps its clause
-      allowing contracts with "certain governmental customers that tailor use
-      restrictions to that customer’s public mission and legal authorities," and
-      adds that its rules "do not categorically prohibit use by any particular
-      industry or line of business."
+      12, 2026, restates both limits in more specific terms. It bars using
+      Claude to "Weaponize or integrate weapons onto drones, vehicles, or any
+      unmanned or autonomous platforms," to "Make or suggest decisions in law
+      enforcement or criminal justice processes, including decisions to
+      investigate, charge, arrest or detain," and to "Target or track a person
+      or their property without that person’s consent," including "through
+      analysis of previously collected data." Anthropic said the weapons changes
+      "reflect how we’ve enforced our previous policy" and that the surveillance
+      rewrite "does not reflect a change in what we enforce in practice." The
+      policy keeps its clause allowing contracts with "certain governmental
+      customers that tailor use restrictions to that customer’s public mission
+      and legal authorities," and adds that its rules "do not categorically
+      prohibit use by any particular industry or line of business."
     sources:
       - title: 2026 Usage Policy update
         publisher: Anthropic

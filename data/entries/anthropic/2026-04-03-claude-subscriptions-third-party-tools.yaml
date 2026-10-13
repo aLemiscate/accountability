@@ -56,7 +56,7 @@ sources:
     url: https://x.com/thsottiaux/status/2009714843587342393
     date: 2026-01-09
     type: primary
-    snapshot: snapshots/2026-10-03-x.com-4411f916
+    snapshot: snapshots/2026-10-13-x.com-4411f916
   - title: Consumer Terms of Service (effective Oct. 8, 2025; bars access "through
       automated or non-human means" except via an API key or where explicitly
       permitted)
@@ -101,18 +101,29 @@ updates:
     text: >-
       Anthropic's pricing page briefly stopped listing Claude Code as part of
       the $20 Pro plan, and a support page was changed to mention only Max. Head
-      of growth Amol Avasare said it was "a small test on ~2 percent of new
-      prosumer signups" and that existing subscribers weren't affected, adding:
-      "We've made small adjustments along the way (weekly caps, tighter limits
-      at peak), but usage has changed a lot and our current plans weren't built
-      for this." The page was restored.
+      of growth Amol Avasare said it was "a small test on ~2% of new prosumer
+      signups" and that existing subscribers weren't affected, adding: "We've
+      made small adjustments along the way (weekly caps, tighter limits at
+      peak), but usage has changed a lot and our current plans weren't built for
+      this." The page was restored.
     sources:
       - title: Anthropic tests reaction to yanking Claude Code from Pro
         publisher: The Register
         url: https://www.theregister.com/2026/04/22/anthropic_removes_claude_code_pro/
         date: 2026-04-22
         type: reporting
-        snapshot: snapshots/2026-10-03-theregister.com-11f11325
+      - title: Amol Avasare on X ("For clarity, we're running a small test")
+        publisher: X
+        url: https://x.com/TheAmolAvasare/status/2046724659039932830
+        date: 2026-04-21
+        type: primary
+        snapshot: snapshots/2026-10-13-x.com-b3b91732
+      - title: Amol Avasare on X ("Engagement per subscriber is way up")
+        publisher: X
+        url: https://x.com/TheAmolAvasare/status/2046725282502173046
+        date: 2026-04-21
+        type: primary
+        snapshot: snapshots/2026-10-13-x.com-b9e88229
       - title: Thibault Sottiaux on X, quoting Amol Avasare ("a small test on ~2% of new
           prosumer signups")
         publisher: X
@@ -120,7 +131,7 @@ updates:
         date: 2026-04-21
         type: primary
         archive: https://web.archive.org/web/20260514233919/https://x.com/thsottiaux/status/2046740759056162816
-        snapshot: snapshots/2026-10-03-x.com-97d5263a
+        snapshot: snapshots/2026-10-13-x.com-97d5263a
       - title: '[UPDATED] News: Anthropic (Briefly) Removes Claude Code From $20-A-Month
           "Pro" Subscription Plan For New Users'
         publisher: Ed Zitron, Where's Your Ed At

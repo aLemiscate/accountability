@@ -29,6 +29,15 @@ link is the receipt. Actions that set up a pattern without contradicting a
 specific statement (a defense partnership, a data-policy default) can stand on
 their own with `patterns` or `related`.
 
+Some statements fail without a separate action to point to: a date passes
+with nothing shipped, or the company's own earlier paper already said
+otherwise. Those carry an `outcome` on the statement itself, a date and a
+sentence or two saying what happened, drawn from the entry's sources, and it
+shows up in Receipts like any other pair. When the contradicting record is
+older than the statement, the receipt counts the gap backward ("already on
+record"). Every statement graded broken, reversed, eroded or contradicted has
+a receipt one way or the other; the validator warns when one doesn't.
+
 ## Who is in scope
 
 - The two organizations.

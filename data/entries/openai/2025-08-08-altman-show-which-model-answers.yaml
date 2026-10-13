@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [sam-altman, openai]
-venue: Posts on X during the GPT-5 rollout
+venue: Posts on Twitter during the GPT-5 rollout
 quote: >-
   We will make it more transparent about which model is answering a given query.
 summary: >-
@@ -29,7 +29,7 @@ sources:
     url: https://x.com/sama/status/1953893841381273969
     date: 2025-08-08
     type: primary
-    snapshot: snapshots/2026-10-03-x.com-2b78ff10
+    snapshot: snapshots/2026-10-13-x.com-2b78ff10
   - title: Sam Altman on X ("a UI change to indicate which model is working")
     publisher: X
     url: https://x.com/sama/status/1954602880952115603
@@ -65,7 +65,7 @@ updates:
         date: 2025-10-03
         type: primary
         archive: https://web.archive.org/web/20251004192046/https://x.com/openai/status/1974234951928459450
-        snapshot: snapshots/2026-10-03-x.com-3ea9dd58
+        snapshot: snapshots/2026-10-13-x.com-3ea9dd58
 note: >-
   The promise was made about routing between GPT-5's own models. The first real
   test was the safety router, and there the standard became "when asked." Marked

@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/OpenAI/status/2027846012107456943",
+  "captured_at": "2026-10-13T15:09:17.535Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "b2caec10edc74cbf25743d9cc97276d7c34f2ec1036e76fc3a386398cda130ec",
+    "page.txt": "d66309b251ce182937a852f2cc9e306d76a4dc7bf5668357b4f39a57339c0971",
+    "post.json": "0666d8edd2c8154f45f161f972fd6cc3fbe8b7267c0a31a86c0982bde5cdc5b3",
+    "syndication.json": "3d35eccd321b334f707065d5b5ca29edf8a1aa96358734d0ca960fe65a7815b6",
+    "fulltext.json": "79c50e06ca99861c081017810812148bb8e932e5cffd57a360e2bf5a1dfb4243",
+    "post.txt": "50af966cf43016b5b766b763d0faad9daf472ca93d33f4ff08dfeff077f09fb2"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/2027846012107456943",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"Yesterday we reached an agreement with the Department of War for deploying advanced AI systems in classified environments, which we requested they make available to all AI companies. We think our deployment has more guardrails than any previous agreement for classified AI deployments… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "February 28, 2026",
+    "posted_at": "2026-02-28T20:38:59.500Z",
+    "full_text_from": "api.fxtwitter.com"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/OpenAI/status/2082208694142730340",
+  "captured_at": "2026-10-13T15:09:33.903Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "48db938c9d67f489505c76433f8e60e326bfc49b32283ac7928b200b9fa89192",
+    "page.txt": "9f0c090eba550f84940c3d8a95111b8043263027c5fd460a454306ceabccb506",
+    "post.json": "da1bc190fb2017e3a0a393950d7705c5c35aa1b7336cebcb294c000cf1d136af",
+    "syndication.json": "f094d4dc0cacf6efd2c1be4ce0a879d48ab299bd190bd19e59aec1d71a987ed5",
+    "fulltext.json": "def6d9c0c6ff882e7251287ea87fe46bb4268b453578d2835fb2d9062d0e2b20",
+    "post.txt": "0b34de18f1b4b9e3db7ec2e619e2131a7d7e290778636f346fc074d71d905cd7"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/2082208694142730340",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"At the core of our mission is working through how to ensure increasingly powerful AI benefits everyone. We believe that, at some point in the future, AI acceleration for frontier model development may be so high that the world will need to pace the rate of AI advancement. We hope… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "July 28, 2026",
+    "posted_at": "2026-07-28T20:56:52.907Z",
+    "full_text_from": "api.fxtwitter.com"
+  }
+}

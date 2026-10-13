@@ -30,8 +30,8 @@ import YAML from 'yaml';
 import { ROOT, loadAll } from './lib.mjs';
 import { snowflakeDate, xStatusId } from './social.mjs';
 import {
-  closeBrowser, fetchBlueskyPost, fetchWithTimeout, fetchXPost, fetchXPostDetails, hasCredential, htmlToText, isBlueskyUrl,
-  isXUrl, pageTitle, redactCredentials, renderPage, sha256, sleep, waybackClosest, waybackSave,
+  closeBrowser, fetchBlueskyPost, fetchWithTimeout, fetchXFullText, fetchXPost, fetchXPostDetails, hasCredential, htmlToText,
+  isBlueskyUrl, isChallengePage, isXUrl, pageTitle, redactCredentials, renderPage, sha256, sleep, waybackClosest, waybackSave,
 } from './web.mjs';
 
 const VALUE_OPTS = new Set(['entry', 'title', 'type', 'limit', 'match']);
@@ -52,6 +52,9 @@ const sameUrl = (a, b) => String(a).replace(/\/+$/, '').replace(/^http:/, 'https
 const today = () => new Date().toISOString().slice(0, 10);
 
 
+// Compare post texts without their links: X's versions end in t.co and pic.twitter.com links that FxTwitter leaves out.
+const withoutLinks = (s) => String(s ?? '').replace(/(https?:\/\/|pic\.(twitter|x)\.com\/)\S+/g, '').trim();
+
 /**
  * Keep what oEmbed leaves out of an X post: the full text of long posts, the
  * text of a quoted post, and attached photos (some statements exist only as an
@@ -62,6 +65,25 @@ async function saveXDetails(id, text, save, meta) {
   if (!d.ok) return text;
   await save('syndication.json', JSON.stringify(d.raw, null, 2));
   if (d.text && d.text.length > text.length) text = d.text;
+  if (d.truncated) {
+    const full = await fetchXFullText(id).catch((err) => ({ ok: false, error: err.message }));
+    if (full.ok && withoutLinks(full.text).length > withoutLinks(text).length) {
+      await save('fulltext.json', JSON.stringify(full.raw, null, 2));
+      text = full.text;
+      meta.post.full_text_from = 'api.fxtwitter.com';
+      console.log('  full text of a long post saved from api.fxtwitter.com');
+    } else {
+      meta.post.truncated = true;
+      console.warn('  long post: only its first 280 characters could be saved');
+    }
+  }
+  if (d.quoted?.truncated) {
+    const full = await fetchXFullText(d.quoted.id).catch(() => ({ ok: false }));
+    if (full.ok && withoutLinks(full.text).length > withoutLinks(d.quoted.text).length) {
+      await save('quoted-fulltext.json', JSON.stringify(full.raw, null, 2));
+      d.quoted.text = full.text;
+    }
+  }
   if (d.quoted) text += `\n\nQuoting ${d.quoted.url}:\n${d.quoted.text ?? ''}`;
   const media = [];
   const photos = [...d.photos.map((u, i) => [`media-${i + 1}`, u]), ...(d.quoted?.photos ?? []).map((u, i) => [`quoted-media-${i + 1}`, u])];
@@ -128,15 +150,22 @@ async function snapshot(url, { doArchive = true, doShot = true } = {}) {
       console.warn(`  fetch returned HTTP ${res.status}; page not saved${res.status === 404 || res.status === 410 ? ' (it may have been deleted)' : ''}`);
     } else if (/html|xml|text/.test(meta.content_type || '')) {
       const html = body.toString('utf8');
-      if (hasCredential(html)) {
-        // Keep the page's hash and text, not the raw HTML with the key in it.
-        meta.omitted = { file: 'page.html', bytes: body.length, sha256: sha256(body), reason: 'the page contains a credential that GitHub push protection blocks; page.txt holds its text with the credential masked' };
-        console.log('  omitted   page.html (contains a credential); kept its text and hash');
-      } else {
-        await save('page.html', body);
-      }
+      const text = htmlToText(html);
       meta.title = pageTitle(html);
-      await save('page.txt', htmlToText(html));
+      if (isChallengePage(meta.title, text) && !isXUrl(url) && !isBlueskyUrl(url)) {
+        // A bot check or an empty JavaScript shell is not evidence of the content either.
+        meta.blocked = meta.title || 'empty page';
+        console.warn(`  fetch returned a bot check or an empty page ("${meta.blocked}"); page not saved`);
+      } else {
+        if (hasCredential(html)) {
+          // Keep the page's hash and text, not the raw HTML with the key in it.
+          meta.omitted = { file: 'page.html', bytes: body.length, sha256: sha256(body), reason: 'the page contains a credential that GitHub push protection blocks; page.txt holds its text with the credential masked' };
+          console.log('  omitted   page.html (contains a credential); kept its text and hash');
+        } else {
+          await save('page.html', body);
+        }
+        await save('page.txt', text);
+      }
     } else {
       // Some hosts (Google Drive, S3) send PDFs as application/octet-stream; trust the file's own header.
       const isPdf = (meta.content_type || '').includes('pdf') || body.subarray(0, 5).toString('latin1') === '%PDF-';
@@ -197,6 +226,9 @@ async function snapshot(url, { doArchive = true, doShot = true } = {}) {
     } else if (!rendered.status || rendered.status >= 400) {
       meta.rendered_status = rendered.status;
       console.warn(`  browser got HTTP ${rendered.status}; screenshot not saved`);
+    } else if (isChallengePage(rendered.title, rendered.text) && !isXUrl(url) && !isBlueskyUrl(url)) {
+      meta.rendered_status = rendered.status;
+      console.warn(`  browser got a bot check or an empty page ("${rendered.title || 'empty page'}"); screenshot not saved`);
     } else {
       meta.rendered_status = rendered.status;
       if (rendered.screenshot) await save('screenshot.jpg', rendered.screenshot);

@@ -1,0 +1,129 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/OpenAI/status/1899143752918409338",
+    "id": "1899143752918409338",
+    "text": "Detecting misbehavior in frontier reasoning models\n\nChain-of-thought (CoT) reasoning models “think” in natural language understandable by humans. Monitoring their “thinking” has allowed us to detect misbehavior such as subverting tests in coding tasks, deceiving users, or giving up when a problem is too hard.\n\nWe believe that CoT monitoring may be one of few tools we will have to oversee superhuman models of the future.\n\nWe have further found that directly optimizing the CoT to adhere to specific criteria (e.g. to not think about reward hacking) may boost performance in the short run; however, it does not eliminate all misbehavior and can cause a model to hide its intent. We hope future research will find ways to directly optimize CoTs without this drawback, but until then:\n\nWe recommend against applying strong optimization pressure directly to the CoTs of frontier reasoning models, leaving CoTs unrestricted for monitoring.\n\nWe understand that leaving CoTs unrestricted may make them unfit to be shown to end-users, as they might violate some misuse policies. Still, if one wanted to show policy-compliant CoTs directly to users while avoiding putting strong supervision on them, one could use a separate model, such as a CoT summarizer or sanitizer, to accomplish that.",
+    "raw_text": {
+      "text": "Detecting misbehavior in frontier reasoning models\n\nChain-of-thought (CoT) reasoning models “think” in natural language understandable by humans. Monitoring their “thinking” has allowed us to detect misbehavior such as subverting tests in coding tasks, deceiving users, or giving up when a problem is too hard.\n\nWe believe that CoT monitoring may be one of few tools we will have to oversee superhuman models of the future.\n\nWe have further found that directly optimizing the CoT to adhere to specific criteria (e.g. to not think about reward hacking) may boost performance in the short run; however, it does not eliminate all misbehavior and can cause a model to hide its intent. We hope future research will find ways to directly optimize CoTs without this drawback, but until then:\n\nWe recommend against applying strong optimization pressure directly to the CoTs of frontier reasoning models, leaving CoTs unrestricted for monitoring.\n\nWe understand that leaving CoTs unrestricted may make them unfit to be shown to end-users, as they might violate some misuse policies. Still, if one wanted to show policy-compliant CoTs directly to users while avoiding putting strong supervision on them, one could use a separate model, such as a CoT summarizer or sanitizer, to accomplish that.",
+      "display_text_range": [
+        0,
+        1284
+      ],
+      "facets": [
+        {
+          "type": "bold",
+          "indices": [
+            0,
+            50
+          ]
+        },
+        {
+          "type": "media",
+          "indices": [
+            280,
+            303
+          ],
+          "id": "1899143062766620672",
+          "display": "pic.x.com/uX9f5n3zB9",
+          "original": "https://t.co/uX9f5n3zB9",
+          "replacement": "https://x.com/OpenAI/status/1899143752918409338/photo/1"
+        },
+        {
+          "type": "bold",
+          "indices": [
+            312,
+            423
+          ]
+        },
+        {
+          "type": "bold",
+          "indices": [
+            786,
+            937
+          ]
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "OpenAI",
+      "url": "https://x.com/OpenAI",
+      "id": "4398626122",
+      "followers": 5430055,
+      "following": 4,
+      "likes": 2526,
+      "media_count": 743,
+      "name": "OpenAI",
+      "description": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: http://openai.com/jobs",
+      "raw_description": {
+        "text": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: https://t.co/dJGr6LgzPA",
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              107,
+              130
+            ],
+            "original": "https://t.co/dJGr6LgzPA",
+            "replacement": "http://openai.com/jobs",
+            "display": "openai.com/jobs"
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/4398626122/1777662919",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "joined": "Sun Dec 06 22:51:08 +0000 2015",
+      "protected": false,
+      "website": {
+        "url": "https://openai.com",
+        "display_url": "openai.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "organization"
+      },
+      "avatar_color": null
+    },
+    "replies": 389,
+    "retweets": 695,
+    "likes": 4848,
+    "bookmarks": 1828,
+    "quotes": 329,
+    "created_at": "Mon Mar 10 17:02:09 +0000 2025",
+    "created_timestamp": 1741626129,
+    "possibly_sensitive": false,
+    "views": 1693003,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "media": {
+      "all": [
+        {
+          "type": "photo",
+          "id": "1899143062766620672",
+          "url": "https://pbs.twimg.com/media/GlscjbHaEAAFijE.png?name=orig",
+          "width": 3840,
+          "height": 2160
+        }
+      ],
+      "photos": [
+        {
+          "type": "photo",
+          "id": "1899143062766620672",
+          "url": "https://pbs.twimg.com/media/GlscjbHaEAAFijE.png?name=orig",
+          "width": 3840,
+          "height": 2160
+        }
+      ]
+    },
+    "twitter_card": "summary_large_image",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

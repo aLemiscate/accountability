@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/OpenAI/status/1945904754443669659",
+  "captured_at": "2026-10-13T15:08:50.946Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "ea7c45c44391e6de51c1f7a8f138deec8ee34f3e11287377f95d09ae449e880e",
+    "page.txt": "a522cedbef4b5b3b95118686d92478a9f72f536a357e12ab3b1400e028df4b7f",
+    "post.json": "3f7d01341d387d7085b65a58fe10bb0b1995a70ab7b8a67cd228e821bf0373d0",
+    "syndication.json": "a06ec9f63a3a30301c4c2eff447252d6001a5058b3ba78921805e0a8a89cd7c7",
+    "fulltext.json": "db1fd9540f07ac4a5605f370eda9d1659e730824b036486502c1c49da3749b52",
+    "post.txt": "bbc95aa026ecd8c3ad111c5a58e71dff30501707dc6019bea0d0154137f13cd6"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1945904754443669659",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"We’ve decided to treat this launch as High Capability in the Biological and Chemical domain under our Preparedness Framework, and activated the associated safeguards. This is a precautionary approach, and we detail our safeguards in the system card. We outlined our approach on prepar… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "July 17, 2025",
+    "posted_at": "2025-07-17T17:53:41.278Z",
+    "full_text_from": "api.fxtwitter.com"
+  }
+}

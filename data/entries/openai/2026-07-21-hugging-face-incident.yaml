@@ -63,7 +63,7 @@ sources:
     url: https://x.com/OpenAI/status/2080815626113954288
     date: 2026-07-25
     type: primary
-    snapshot: snapshots/2026-09-30-x.com-b9134045
+    snapshot: snapshots/2026-10-13-x.com-b9134045
 response: >-
   OpenAI reported the exploited vulnerabilities, worked with Hugging Face on the
   investigation, and said it would add new controls to model testing and the
@@ -195,7 +195,7 @@ updates:
         url: https://x.com/w01fe/status/2092742024680419761
         date: 2026-08-26
         type: primary
-        snapshot: snapshots/2026-09-30-x.com-fe9799a8
+        snapshot: snapshots/2026-10-13-x.com-fe9799a8
   - date: 2026-09-02
     text: >-
       Rep. Greg Casar, who had sent OpenAI questions about the incident on Aug.

@@ -1,0 +1,32 @@
+{
+  "url": "https://x.com/OpenAI/status/2097375276384567642",
+  "captured_at": "2026-10-13T15:12:16.391Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "aee49d99620133d2d3df4d870b19c07d46f967760a9d447ce52e147ca0839401",
+    "page.txt": "ce22f1f23537070bf6495f16aa169777bdab2a76c4b141aeed0b985f69283223",
+    "post.json": "beb46b7bd83aed508fee33b7d015da3d2ddf8e17aab8706c44bdf9f78bbe963a",
+    "syndication.json": "ed13c56c3a4d4df130d48e8b37bc4277b6f49aaf4fc79a9d0ef130ffc972bbf9",
+    "fulltext.json": "284d6d8ce52e7b3026b8e550501e935b384362e3b13ca83a3f603d71f33c3c9b",
+    "quoted-media-1.jpg": "c5a45be6b5f985b6fe0186eadacd6a66318b0dc294bbea820b6b9f76481392e7",
+    "post.txt": "b238b4cb42f3cd6813ce392526b1d5bc03140306e73b314aaf58e5fe630daeb0"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/2097375276384567642",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"We congratulate Levent Alpöge and Tristan Buckmaster on their remarkable mathematical work. We (the researchers and the agents) did not see any of their work through any means until they released it publicly — in particular, no specific user data was accessed in order to solve this p… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "September 8, 2026",
+    "posted_at": "2026-09-08T17:23:27.895Z",
+    "full_text_from": "api.fxtwitter.com",
+    "media": [
+      {
+        "file": "quoted-media-1.jpg",
+        "url": "https://pbs.twimg.com/media/HRtS_iLboAUUlYv.jpg"
+      }
+    ]
+  }
+}

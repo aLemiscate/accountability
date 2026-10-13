@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: claim
 who: [kevin-weil, openai]
-venue: Post on X, since deleted
+venue: Post on Twitter, since deleted
 quote: >-
   GPT-5 found solutions to 10 (!) previously unsolved Erdős problems and made
   progress on 11 others.
@@ -22,6 +22,13 @@ summary: >-
   acknowledged that "only solutions in the literature were found."
 concreteness: measurable
 status: contradicted
+outcome:
+  date: 2025-10-18
+  text: >-
+    Thomas Bloom, who maintains the Erdős problems website, called the claim "a
+    dramatic misrepresentation": GPT-5 had found papers that already solved the
+    problems. Weil deleted the post, and Bubeck acknowledged that "only
+    solutions in the literature were found."
 patterns: [claims-outrun-results]
 related: [2026-05-08-blackmail-completely-eliminated]
 sources:

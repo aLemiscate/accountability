@@ -1,0 +1,75 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/OpenAI/status/1974234951928459450",
+    "id": "1974234951928459450",
+    "text": "We’re updating GPT-5 Instant to better recognize and support people in moments of distress.\n\nSensitive parts of conversations will now route to GPT-5 Instant to quickly provide even more helpful responses. ChatGPT will continue to tell users what model is active when asked.\n\nStarting to roll out to ChatGPT users today.",
+    "raw_text": {
+      "text": "We’re updating GPT-5 Instant to better recognize and support people in moments of distress.\n\nSensitive parts of conversations will now route to GPT-5 Instant to quickly provide even more helpful responses. ChatGPT will continue to tell users what model is active when asked.\n\nStarting to roll out to ChatGPT users today.",
+      "display_text_range": [
+        0,
+        320
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "OpenAI",
+      "url": "https://x.com/OpenAI",
+      "id": "4398626122",
+      "followers": 5430059,
+      "following": 4,
+      "likes": 2526,
+      "media_count": 743,
+      "name": "OpenAI",
+      "description": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: http://openai.com/jobs",
+      "raw_description": {
+        "text": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: https://t.co/dJGr6LgzPA",
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              107,
+              130
+            ],
+            "original": "https://t.co/dJGr6LgzPA",
+            "replacement": "http://openai.com/jobs",
+            "display": "openai.com/jobs"
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/4398626122/1777662919",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "joined": "Sun Dec 06 22:51:08 +0000 2015",
+      "protected": false,
+      "website": {
+        "url": "https://openai.com",
+        "display_url": "openai.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "organization"
+      },
+      "avatar_color": null
+    },
+    "replies": 1219,
+    "retweets": 467,
+    "likes": 5241,
+    "bookmarks": 638,
+    "quotes": 242,
+    "created_at": "Fri Oct 03 22:07:46 +0000 2025",
+    "created_timestamp": 1759529266,
+    "views": 1091641,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

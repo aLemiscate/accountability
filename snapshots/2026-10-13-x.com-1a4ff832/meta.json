@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/OpenAI/status/2027846015051772121",
+  "captured_at": "2026-10-13T15:08:36.346Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "adb0e0e0c5a194975e5237fecadfc6d9e12333fb382a062cda44c9573728edff",
+    "page.txt": "e6d4b6e04350ddce2881b2f1e6c407da3b79fc71d821ca38d2f081548806df08",
+    "post.json": "ce184984dbc0fbb59b8f10b617a5b414d88af9626378512bf39a05af52774152",
+    "syndication.json": "73a565503c370ccdf487aec27dfa85395169b117f3429bbd32c4b07a14118fb4",
+    "fulltext.json": "b05f2b1149102c2f2dff7da4e66ae17016a097eb4b5a7572d46a9491312f437d",
+    "post.txt": "5bcedf26176b6a2767864b3639a9145d285ea787304a34b227c9f8e917df901d"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/2027846015051772121",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"Other AI labs have reduced or removed their safety guardrails and relied primarily on usage policies as their primary safeguards in national security deployments. We think our approach better protects against unacceptable use. In our agreement, we protect our redlines through a more… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "February 28, 2026",
+    "posted_at": "2026-02-28T20:39:00.202Z",
+    "full_text_from": "api.fxtwitter.com"
+  }
+}

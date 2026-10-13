@@ -63,6 +63,7 @@ sources:
     date: 2026-06-10
     type: reporting
     archive: https://web.archive.org/web/20261003124925/https://gizmodo.com/anthropic-apologizes-for-one-of-the-guardrails-on-its-fable-5-model-and-will-change-it-2000770365
+    snapshot: snapshots/2026-10-13-gizmodo.com-9a8822a1
   - title: Claude Developers on X ("We went with invisible safeguards for this
       reason—and that was the wrong tradeoff")
     publisher: X
@@ -70,7 +71,7 @@ sources:
     date: 2026-06-11
     type: primary
     archive: https://web.archive.org/web/20260613153522/https://x.com/ClaudeDevs/status/2064949876463645026
-    snapshot: snapshots/2026-10-03-x.com-5edc3612
+    snapshot: snapshots/2026-10-13-x.com-5edc3612
   - title: Claude's Constitution
     publisher: Anthropic
     url: https://www.anthropic.com/constitution

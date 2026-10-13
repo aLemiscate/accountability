@@ -1,0 +1,33 @@
+{
+  "url": "https://x.com/SebastienBubeck/status/2097379411691516310",
+  "captured_at": "2026-10-13T15:21:34.942Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "32106903d80345f85d3a3996a3d784109c4f16bc8bead4ef403760ffa685d0d9",
+    "page.txt": "86fee279858cde4f972347c07e0d4aa3c9eb865e1956695c8ce3e699fcdb0257",
+    "post.json": "7bf4e786dd74e391d2a7c57471a97cb7a61479eff9b7a091e0b3abe467fc0475",
+    "syndication.json": "e5b633a2b89508ca68ff5919536cc01bef60596acb07354d2d39170be90965e1",
+    "fulltext.json": "afc83567ff4e8269d0d04a0dd8c332f9f9dc1b29784945817b23dc7c626cc38b",
+    "media-1.jpg": "17956f724299656da99d3f1135ad6d3e4ad9df667359c04a93fcae5fa66d8d59",
+    "post.txt": "cbae681d65e4323187969d9297b2072a51aac2afda0430bb16b44c49416a9390"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/SebastienBubeck/status/2097379411691516310",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sebastien Bubeck on X: \"I would like to clarify a few things: 1) The screenshot is my reaching out to Levent to coordinate our releases. I hope it’s clear from the message that we came in with the best possible intentions. 2) I never ever asked for Levent to be removed from authorship of his own… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sebastien Bubeck (@SebastienBubeck)",
+    "date": "September 8, 2026",
+    "posted_at": "2026-09-08T17:39:53.829Z",
+    "full_text_from": "api.fxtwitter.com",
+    "media": [
+      {
+        "file": "media-1.jpg",
+        "url": "https://pbs.twimg.com/media/HRtjEaTbcAA0uQ6.jpg"
+      }
+    ]
+  },
+  "rendered_status": 403
+}

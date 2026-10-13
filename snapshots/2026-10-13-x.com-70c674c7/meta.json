@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/nickaturley/status/1972031686318895253",
+  "captured_at": "2026-10-13T15:11:01.124Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "2f6cc8b99ae31612d17bc73db0e41fa60b2871311ef2a4d9ab7f8b0225818965",
+    "page.txt": "57799142ca0db15bed881e8b633a481ef9e63377c448d4d24c0b3a9d6ca0751e",
+    "post.json": "d457825f15e4cb6cacfb3623aefa52de0b0429bb2d6f8d4e238a02027b0328a6",
+    "syndication.json": "e1705350aa56033a2c6ff29216768d303328800429c72757d00a42471a0af14c",
+    "fulltext.json": "143e46a64be42424c04135a92f4c06c931e4d010e7f3d9902cd1024fe2932d70",
+    "post.txt": "f92579f74c330c277eb836c631f88aa4cce188c9cba2e0397f99355ec4927eaa"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/nickaturley/status/1972031686318895253",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Nick Turley on X: \"1/ We’ve started testing a new safety routing system in ChatGPT. As we previously mentioned, when conversations touch on sensitive and emotional topics the system may switch mid-chat to a reasoning model or GPT-5 designed to handle these contexts with extra care. This is similar… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Nick Turley (@nickaturley)",
+    "date": "September 27, 2025",
+    "posted_at": "2025-09-27T20:12:47.252Z",
+    "full_text_from": "api.fxtwitter.com"
+  }
+}

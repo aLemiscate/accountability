@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [openai]
-venue: DevDay launch of GPTs, post on X
+venue: DevDay launch of GPTs, post on Twitter
 quote: >-
   Later this month, we’ll launch the GPT Store, so people can feature and make
   money from their GPTs.
@@ -25,6 +25,14 @@ summary: >-
   system shared with Codex.
 concreteness: measurable
 status: broken
+outcome:
+  date: 2024-06-25
+  text: >-
+    OpenAI's help-center FAQ, as quoted on its developer forum, said it was
+    "partnering with a small group of builders to test GPT earnings based on
+    usage" and was "not currently accepting additional builders." No wider
+    program was announced, and in September 2026 OpenAI said it would retire
+    custom GPTs.
 patterns: [coming-weeks]
 sources:
   - title: OpenAI on X ("so people can feature and make money from their GPTs")

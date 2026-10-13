@@ -126,15 +126,24 @@
   }
   const anyFilter = () => state.org !== 'all' || state.pattern || state.person || state.q;
 
-  // Receipts: said → did pairs, plus self-contained before/after revisions.
+  // Receipts: said → did pairs, self-contained before/after revisions, and failed
+  // statements whose outcome is recorded on the statement itself.
   const revisionReceipts = D.entries
     .filter((e) => e.type === 'did' && e.revision && !e.contradicts.length)
     .map((e) => ({ revision: e.id }));
-  const allReceipts = [...D.receipts, ...revisionReceipts].sort(
-    (a, b) => byId.get(b.did || b.revision).time - byId.get(a.did || a.revision).time,
-  );
+  const outcomeReceipts = D.entries
+    .filter((e) => e.type === 'said' && e.outcome)
+    .map((e) => ({
+      said: e.id,
+      outcome: true,
+      gap_days: Math.round((e.outcome.time - e.time) / DAY),
+      approx: e.precision !== 'day' || e.outcome.precision !== 'day',
+    }));
+  const receiptTime = (r) => (r.outcome ? byId.get(r.said).outcome.time : byId.get(r.did || r.revision).time);
+  const allReceipts = [...D.receipts, ...revisionReceipts, ...outcomeReceipts].sort((a, b) => receiptTime(b) - receiptTime(a));
   function receiptMatches(r) {
     if (r.revision) return matches(byId.get(r.revision));
+    if (r.outcome) return matches(byId.get(r.said));
     const s = byId.get(r.said);
     const d = byId.get(r.did);
     if (state.org !== 'all' && s.org !== state.org) return false;
@@ -249,10 +258,10 @@
   function renderReceipts() {
     const list = allReceipts.filter(receiptMatches);
     const frag = [viewHead('Receipts',
-      'Each receipt pairs a public statement with a later action that contradicts it, or a policy text with its quiet rewrite. Between them is the time from the words to the deed.'),
+      'Each receipt pairs a public statement with a later action that contradicts it, with what became of it, or a policy text with its quiet rewrite. Between them is the time from the words to the deed.'),
     patternBrief(D.entries.filter(matches))];
     if (!list.length) return [...frag, empty()];
-    frag.push(h('div', { class: 'receipts' }, list.map((r) => (r.revision ? revisionCard(byId.get(r.revision)) : receiptCard(r)))));
+    frag.push(h('div', { class: 'receipts' }, list.map((r) => (r.revision ? revisionCard(byId.get(r.revision)) : r.outcome ? outcomeCard(r) : receiptCard(r)))));
     return frag;
   }
 
@@ -282,6 +291,38 @@
         patternChips([...new Set([...s.patterns, ...d.patterns])]),
         h('span', { class: 'spacer' }),
         h('button', { class: 'btn', type: 'button', onclick: () => copyReceipt(s, d) }, 'Copy receipt'),
+      ),
+    );
+  }
+
+  // A failed statement with no separate action: the other side is what became of it.
+  // When the company's own earlier record already contradicted it, the gap runs backward.
+  function outcomeCard(r) {
+    const s = byId.get(r.said);
+    const earlier = r.gap_days < 0;
+    const g = span(r.gap_days);
+    return h('article', { class: 'receipt', id: `r-${s.id}--outcome` },
+      h('div', { class: 'side said' },
+        h('div', { class: 'side-head' }, stamp('said'), h('span', { class: 'label' }, fmtDate(s.date)), orgTag(s.org)),
+        titleButton(s),
+        quoteBlock(s.quote, s),
+        h('div', { class: 'side-head' }, statusPill(s.status), concretePill(s.concreteness)),
+      ),
+      h('div', { class: 'gap', title: r.approx ? 'Approximate: one of the dates is known only to the month or year' : null },
+        h('span', { class: 'label' }, earlier ? 'Already' : 'Later'),
+        h('span', { class: 'gap-n' }, `${r.approx ? '~' : ''}${g.n}`),
+        h('span', { class: 'label' }, earlier ? `${g.unit} before` : g.unit),
+        arrow(),
+      ),
+      h('div', { class: 'side did' },
+        h('div', { class: 'side-head' }, h('span', { class: 'stamp did' }, earlier ? 'On record' : 'Outcome'), h('span', { class: 'label' }, fmtDate(s.outcome.date)), orgTag(s.org)),
+        h('p', null, s.outcome.text),
+        h('button', { class: 'chip', type: 'button', onclick: () => openEntry(s.id) }, 'Sources and details'),
+      ),
+      h('div', { class: 'receipt-foot' },
+        patternChips(s.patterns),
+        h('span', { class: 'spacer' }),
+        h('button', { class: 'btn', type: 'button', onclick: () => copyReceipt(s, null) }, 'Copy receipt'),
       ),
     );
   }
@@ -488,7 +529,7 @@
     return [
       viewHead('Method', 'How this record is kept, and what counts as evidence.'),
       h('div', { class: 'prose' },
-        h('p', null, 'Every entry is either something a company or one of its leaders ', h('b', null, 'said'), ' (a principle, a commitment, a claim, a denial) or something they ', h('b', null, 'did'), '. A "did" entry that contradicts an earlier "said" entry links back to it, and that link is a receipt.'),
+        h('p', null, 'Every entry is either something a company or one of its leaders ', h('b', null, 'said'), ' (a principle, a commitment, a claim, a denial) or something they ', h('b', null, 'did'), '. A "did" entry that contradicts an earlier "said" entry links back to it, and that link is a receipt. A statement that failed with no separate action to point to (a date that passed with nothing shipped, a claim the company\'s own earlier paper contradicts) carries a dated outcome instead, shown as a receipt too. Every statement graded broken, reversed, eroded or contradicted has one.'),
         h('p', null, 'Claims are not limited to safety and ethics. Capability and benchmark claims, promised features and release dates, usage limits and what a plan includes, and promises about how a product behaves are recorded too when they are notable and can be checked, whether they held up or not.'),
         h('h3', null, 'Standards'),
         h('ul', null,
@@ -575,6 +616,7 @@
         e.revision && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'What changed'),
           h('div', { class: 'diff' }, h('div', { class: 'minus' }, h('b', null, '−'), e.revision.before), h('div', { class: 'plus' }, h('b', null, '+'), e.revision.after))),
         e.breaks_if && h('div', { class: 'breaks' }, h('span', { class: 'label' }, 'Counts as broken if'), h('p', null, e.breaks_if)),
+        e.outcome && h('div', { class: 'd-section' }, h('span', { class: 'label' }, `Outcome, ${fmtDate(e.outcome.date)}`), h('p', null, e.outcome.text)),
         e.last_checked && h('p', { class: 'label checked' }, `Status last checked against the record on ${fmtDate(e.last_checked)}`),
         (e.contradicts.length + e.contradicted_by.length + e.related.length > 0) && h('div', { class: 'd-section links' },
           h('span', { class: 'label' }, 'Connected entries'),
@@ -610,11 +652,20 @@
   }
   function receiptText(s, d) {
     const lines = [];
-    const src = (e) => e.sources?.[0]?.archive || e.sources?.[0]?.url;
+    // Link the source the quote was matched in, else the first primary source.
+    const src = (e) => {
+      const list = e.sources || [];
+      const s = list.find((x) => x.snapshot && x.snapshot === e.quote_check?.snapshot) || list.find((x) => x.type === 'primary') || list[0];
+      return s?.archive || s?.url;
+    };
     if (s) {
       lines.push(`SAID — ${orgName(s.org)}, ${fmtDate(s.date)}${s.who.length ? ` (${s.who.map(actorName).filter((n) => n !== orgName(s.org)).join(', ') || orgName(s.org)})` : ''}:`);
       lines.push(s.quote ? `“${s.quote.trim()}”` : s.title);
       if (src(s)) lines.push(src(s));
+    }
+    if (s && !d && s.outcome) {
+      const gap = Math.round((s.outcome.time - s.time) / DAY);
+      lines.push('', `${gap < 0 ? 'ALREADY ON RECORD' : 'OUTCOME'} — ${fmtDate(s.outcome.date)}, ${fmtSpan(gap)} ${gap < 0 ? 'before' : 'later'}:`, s.outcome.text);
     }
     if (d) {
       if (lines.length) lines.push('');

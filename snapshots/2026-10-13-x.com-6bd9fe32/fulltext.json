@@ -1,0 +1,223 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/sjgadler/status/2028899096283758732",
+    "id": "2028899096283758732",
+    "text": "OpenAI wants you to just trust them that the NSA is excluded from their contract.\n\nKatrina seems to believe she has been \"very transparent,\" but there are many issues:\n\n-Two days ago, you promised \"a clear and more comprehensive explanation shortly\" of how the NSA is excluded. https://x.com/natseckatrina/status/2028170853746159961?s=20\n-Your explanation now is a single sentence, with no contract language showing the Title 50 exclusion you had claimed to exist. https://x.com/bradrcarson/status/2028693038743101690\n-You appeared to play wordgames when answering a question about this previously. https://x.com/sjgadler/status/2027938781681357012?s=20\n-More generally, the DoW / intelligence agencies are notorious for exactly this kind of wordplay. https://x.com/ciphergoth/status/2028218732854853739?s=20\n-And many specific loopholes have been pointed out re: your NSA statements. https://x.com/David_Kasten/status/2028649586349228284?s=20\n-The full language is necessary because of defense contract 'escape hatches': There might be language to supercede a clause's meaning in ways not visible from the clause alone. https://x.com/_NathanCalvin/status/2028674866124083623?s=20\n-You've implied that Anthropic was misleading about their contract details, and that \"seeing the contract language\" would clarify things. Why doesn't this apply for you? https://x.com/natseckatrina/status/2028661282354721184?s=20\n-Even OpenAI's own employees are asking for independent legal analysis to red-team the contract, which can't happen without the language. https://x.com/j_asminewang/status/2028648242666496092?s=20\n\nI truly appreciate that you're moving fast and have probably been working around the clock, but I hope it's clear why, without strong evidence to the contrary, people are mistrusting OpenAI on this.",
+    "raw_text": {
+      "text": "OpenAI wants you to just trust them that the NSA is excluded from their contract.\n\nKatrina seems to believe she has been \"very transparent,\" but there are many issues:\n\n-Two days ago, you promised \"a clear and more comprehensive explanation shortly\" of how the NSA is excluded. https://t.co/rj4sknNQQh\n-Your explanation now is a single sentence, with no contract language showing the Title 50 exclusion you had claimed to exist. https://t.co/ht2IvHkrxo\n-You appeared to play wordgames when answering a question about this previously. https://t.co/RztLTA61de\n-More generally, the DoW / intelligence agencies are notorious for exactly this kind of wordplay. https://t.co/7DpJ8zWLca\n-And many specific loopholes have been pointed out re: your NSA statements. https://t.co/pbmPCdzaNI\n-The full language is necessary because of defense contract 'escape hatches': There might be language to supercede a clause's meaning in ways not visible from the clause alone. https://t.co/UmpQsm99ki\n-You've implied that Anthropic was misleading about their contract details, and that \"seeing the contract language\" would clarify things. Why doesn't this apply for you? https://t.co/9hn9ocoZHu\n-Even OpenAI's own employees are asking for independent legal analysis to red-team the contract, which can't happen without the language. https://t.co/5M6aQ0ydIJ\n\nI truly appreciate that you're moving fast and have probably been working around the clock, but I hope it's clear why, without strong evidence to the contrary, people are mistrusting OpenAI on this.",
+      "display_text_range": [
+        0,
+        1536
+      ],
+      "facets": [
+        {
+          "type": "url",
+          "indices": [
+            278,
+            301
+          ],
+          "original": "https://t.co/rj4sknNQQh",
+          "replacement": "https://x.com/natseckatrina/status/2028170853746159961?s=20",
+          "display": "x.com/natseckatrina/…"
+        },
+        {
+          "type": "url",
+          "indices": [
+            429,
+            452
+          ],
+          "original": "https://t.co/ht2IvHkrxo",
+          "replacement": "https://x.com/bradrcarson/status/2028693038743101690",
+          "display": "x.com/bradrcarson/st…"
+        },
+        {
+          "type": "url",
+          "indices": [
+            534,
+            557
+          ],
+          "original": "https://t.co/RztLTA61de",
+          "replacement": "https://x.com/sjgadler/status/2027938781681357012?s=20",
+          "display": "x.com/sjgadler/statu…"
+        },
+        {
+          "type": "url",
+          "indices": [
+            656,
+            679
+          ],
+          "original": "https://t.co/7DpJ8zWLca",
+          "replacement": "https://x.com/ciphergoth/status/2028218732854853739?s=20",
+          "display": "x.com/ciphergoth/sta…"
+        },
+        {
+          "type": "url",
+          "indices": [
+            756,
+            779
+          ],
+          "original": "https://t.co/pbmPCdzaNI",
+          "replacement": "https://x.com/David_Kasten/status/2028649586349228284?s=20",
+          "display": "x.com/David_Kasten/s…"
+        },
+        {
+          "type": "url",
+          "indices": [
+            957,
+            980
+          ],
+          "original": "https://t.co/UmpQsm99ki",
+          "replacement": "https://x.com/_NathanCalvin/status/2028674866124083623?s=20",
+          "display": "x.com/_NathanCalvin/…"
+        },
+        {
+          "type": "url",
+          "indices": [
+            1151,
+            1174
+          ],
+          "original": "https://t.co/9hn9ocoZHu",
+          "replacement": "https://x.com/natseckatrina/status/2028661282354721184?s=20",
+          "display": "x.com/natseckatrina/…"
+        },
+        {
+          "type": "url",
+          "indices": [
+            1313,
+            1336
+          ],
+          "original": "https://t.co/5M6aQ0ydIJ",
+          "replacement": "https://x.com/j_asminewang/status/2028648242666496092?s=20",
+          "display": "x.com/j_asminewang/s…"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "sjgadler",
+      "url": "https://x.com/sjgadler",
+      "id": "955972371520937985",
+      "followers": 11641,
+      "following": 1068,
+      "likes": 29568,
+      "media_count": 491,
+      "name": "Steven Adler",
+      "description": "Co-founder of Guidelight AI Standards (http://guidelight.ai), ex-OpenAI safety researcher, writing at https://clear-eyed.ai",
+      "raw_description": {
+        "text": "Co-founder of Guidelight AI Standards (https://t.co/tNBPmVsPqo), ex-OpenAI safety researcher, writing at https://t.co/R5KV9j3lsG",
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              39,
+              62
+            ],
+            "original": "https://t.co/tNBPmVsPqo",
+            "replacement": "http://guidelight.ai",
+            "display": "guidelight.ai"
+          },
+          {
+            "type": "url",
+            "indices": [
+              105,
+              128
+            ],
+            "original": "https://t.co/R5KV9j3lsG",
+            "replacement": "https://clear-eyed.ai",
+            "display": "clear-eyed.ai"
+          }
+        ]
+      },
+      "location": "San Francisco, CA",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1975436697040269312/vCGKjpxB_200x200.jpg",
+      "joined": "Wed Jan 24 01:15:49 +0000 2018",
+      "protected": false,
+      "website": {
+        "url": "https://linkedin.com/in/sjgadler",
+        "display_url": "linkedin.com/in/sjgadler"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 8,
+    "retweets": 27,
+    "likes": 293,
+    "bookmarks": 50,
+    "quotes": 1,
+    "created_at": "Tue Mar 03 18:23:34 +0000 2026",
+    "created_timestamp": 1772562214,
+    "views": 18482,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "quote": {
+      "url": "https://x.com/natseckatrina/status/2028868471698735604",
+      "id": "2028868471698735604",
+      "text": "Explainer turned out to be easier than I thought: defense intelligence components are excluded from this contract and any support to them will require a contract mod.  \n\nAlso, I previously served as a senior attorney in the Department of Justice, which in most circles counts has having \"practiced law.\"",
+      "raw_text": {
+        "text": "Explainer turned out to be easier than I thought: defense intelligence components are excluded from this contract and any support to them will require a contract mod.  \n\nAlso, I previously served as a senior attorney in the Department of Justice, which in most circles counts has having \"practiced law.\"",
+        "display_text_range": [
+          0,
+          303
+        ],
+        "facets": []
+      },
+      "author": {
+        "screen_name": "natseckatrina",
+        "url": "https://x.com/natseckatrina",
+        "id": "2027900281619628032",
+        "followers": 3507,
+        "following": 15,
+        "likes": 7,
+        "media_count": 0,
+        "name": "NatSecKatrina",
+        "description": "Head of National Security Partnerships, OpenAI for Government. Formerly DOD, NSC, DOJ, and IC. Total Swiftie.",
+        "raw_description": {
+          "text": "Head of National Security Partnerships, OpenAI for Government. Formerly DOD, NSC, DOJ, and IC. Total Swiftie.",
+          "facets": []
+        },
+        "location": "Washington, DC",
+        "banner_url": "",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2027900378566598656/TfCm-S4-_200x200.jpg",
+        "joined": "Sun Mar 01 00:14:48 +0000 2026",
+        "protected": false,
+        "website": null,
+        "verification": {
+          "verified": false,
+          "verified_at": null,
+          "type": null
+        },
+        "avatar_color": null
+      },
+      "replies": 3,
+      "retweets": 0,
+      "likes": 10,
+      "bookmarks": 0,
+      "quotes": 1,
+      "created_at": "Tue Mar 03 16:21:52 +0000 2026",
+      "created_timestamp": 1772554912,
+      "views": 21955,
+      "is_note_tweet": true,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": "JohnOleske",
+      "replying_to_status": "2028864908453109831",
+      "source": "Twitter Web App",
+      "twitter_card": "tweet",
+      "color": null,
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

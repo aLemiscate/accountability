@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [openai]
-venue: Post on X relaunching ChatGPT browsing
+venue: Post on Twitter relaunching ChatGPT browsing
 quote: >-
   Since the original launch of browsing in May, we received useful feedback.
   Updates include following robots.txt and identifying user agents so sites can
@@ -24,6 +24,13 @@ summary: >-
   it by name, more sites than any other agent tracked.
 concreteness: measurable
 status: reversed
+outcome:
+  date: 2025-12-09
+  text: >-
+    OpenAI revised its crawler documentation without an announcement. It now
+    says of ChatGPT-User, the agent that fetches pages when a user asks:
+    "Because these actions are initiated by a user, robots.txt rules may not
+    apply."
 patterns: [silent-edit]
 sources:
   - title: OpenAI on X ("Updates include following robots.txt")

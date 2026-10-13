@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: policy
 who: [miles-brundage, steven-adler, openai]
-venue: Posts on X by OpenAI policy staff at the DALL-E 2 launch
+venue: Posts on Twitter by OpenAI policy staff at the DALL-E 2 launch
 quote: >-
   Obviously not robust against serious misuse (we call it a signature, v
   watermark), so now we lean more on small/trusted user base.
@@ -23,6 +23,13 @@ summary: >-
   It said improved safety systems made each step possible.
 concreteness: directional
 status: reversed
+outcome:
+  date: 2022-09-28
+  text: >-
+    OpenAI removed the waitlist so anyone could sign up. By then it had granted
+    full commercial rights and, on Sept. 19, let users upload and edit images of
+    real people's faces. It said improved safety systems made each step
+    possible.
 related: [2020-07-22-gpt-3-api-safety-review]
 sources:
   - title: Miles Brundage on X ("now we lean more on small/trusted user base")

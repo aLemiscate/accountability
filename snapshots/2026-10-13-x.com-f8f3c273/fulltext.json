@@ -1,0 +1,178 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/OpenAI/status/2097375276384567642",
+    "id": "2097375276384567642",
+    "text": "We congratulate Levent Alpöge and Tristan Buckmaster on their remarkable mathematical work.\n\nWe (the researchers and the agents) did not see any of their work through any means until they released it publicly — in particular, no specific user data was accessed in order to solve this problem. \n\nWhile unlikely, we cannot rule out that de-identified data derived from their usage of our products helped improve our models. \n\nHowever, our proofs differ significantly and even the precise results proved are different in the Euler case (forced vs. unforced).",
+    "raw_text": {
+      "text": "We congratulate Levent Alpöge and Tristan Buckmaster on their remarkable mathematical work.\n\nWe (the researchers and the agents) did not see any of their work through any means until they released it publicly — in particular, no specific user data was accessed in order to solve this problem. \n\nWhile unlikely, we cannot rule out that de-identified data derived from their usage of our products helped improve our models. \n\nHowever, our proofs differ significantly and even the precise results proved are different in the Euler case (forced vs. unforced).",
+      "display_text_range": [
+        0,
+        555
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "OpenAI",
+      "url": "https://x.com/OpenAI",
+      "id": "4398626122",
+      "followers": 5430062,
+      "following": 4,
+      "likes": 2526,
+      "media_count": 743,
+      "name": "OpenAI",
+      "description": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: http://openai.com/jobs",
+      "raw_description": {
+        "text": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: https://t.co/dJGr6LgzPA",
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              107,
+              130
+            ],
+            "original": "https://t.co/dJGr6LgzPA",
+            "replacement": "http://openai.com/jobs",
+            "display": "openai.com/jobs"
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/4398626122/1777662919",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "joined": "Sun Dec 06 22:51:08 +0000 2015",
+      "protected": false,
+      "website": {
+        "url": "https://openai.com",
+        "display_url": "openai.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "organization"
+      },
+      "avatar_color": null
+    },
+    "replies": 1505,
+    "retweets": 1964,
+    "likes": 21717,
+    "bookmarks": 5345,
+    "quotes": 2041,
+    "created_at": "Tue Sep 08 17:23:27 +0000 2026",
+    "created_timestamp": 1788888207,
+    "views": 8221990,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "quote": {
+      "url": "https://x.com/OpenAI/status/2097374640582668336",
+      "id": "2097374640582668336",
+      "text": "We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics.\n\nThe proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra.\n\nThe problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years.",
+      "raw_text": {
+        "text": "We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics.\n\nThe proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra.\n\nThe problem concerns whether the description of smooth three-dimensional fluid motion modeled by the Navier-Stokes equations can break down. It has remained unresolved for roughly 90 years.",
+        "display_text_range": [
+          0,
+          451
+        ],
+        "facets": [
+          {
+            "type": "media",
+            "indices": [
+              274,
+              297
+            ],
+            "id": "2097361302931087365",
+            "display": "pic.x.com/8zol3BPTL4",
+            "original": "https://t.co/8zol3BPTL4",
+            "replacement": "https://x.com/OpenAI/status/2097374640582668336/photo/1"
+          }
+        ]
+      },
+      "author": {
+        "screen_name": "OpenAI",
+        "url": "https://x.com/OpenAI",
+        "id": "4398626122",
+        "followers": 5430062,
+        "following": 4,
+        "likes": 2526,
+        "media_count": 743,
+        "name": "OpenAI",
+        "description": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: http://openai.com/jobs",
+        "raw_description": {
+          "text": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: https://t.co/dJGr6LgzPA",
+          "facets": [
+            {
+              "type": "url",
+              "indices": [
+                107,
+                130
+              ],
+              "original": "https://t.co/dJGr6LgzPA",
+              "replacement": "http://openai.com/jobs",
+              "display": "openai.com/jobs"
+            }
+          ]
+        },
+        "location": "",
+        "banner_url": "https://pbs.twimg.com/profile_banners/4398626122/1777662919",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+        "joined": "Sun Dec 06 22:51:08 +0000 2015",
+        "protected": false,
+        "website": {
+          "url": "https://openai.com",
+          "display_url": "openai.com"
+        },
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "organization"
+        },
+        "avatar_color": null
+      },
+      "replies": 5693,
+      "retweets": 20114,
+      "likes": 120323,
+      "bookmarks": 30783,
+      "quotes": 14803,
+      "created_at": "Tue Sep 08 17:20:56 +0000 2026",
+      "created_timestamp": 1788888056,
+      "possibly_sensitive": false,
+      "views": 75168406,
+      "is_note_tweet": true,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": null,
+      "replying_to_status": null,
+      "media": {
+        "all": [
+          {
+            "type": "photo",
+            "id": "2097361302931087365",
+            "url": "https://pbs.twimg.com/media/HRtS_iLboAUUlYv.jpg?name=orig",
+            "width": 1254,
+            "height": 1254
+          }
+        ],
+        "photos": [
+          {
+            "type": "photo",
+            "id": "2097361302931087365",
+            "url": "https://pbs.twimg.com/media/HRtS_iLboAUUlYv.jpg?name=orig",
+            "width": 1254,
+            "height": 1254
+          }
+        ]
+      },
+      "twitter_card": "summary_large_image",
+      "color": null,
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

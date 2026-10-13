@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/sama/status/1889755723078443244",
+  "captured_at": "2026-10-13T15:10:25.949Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "a9977d52192fdb2243eb42e21dbfffdf611bde4ede9df9dd8d64939f4e76d2c3",
+    "page.txt": "4da531ec61c7a03c4031ed34927c689cd3bc03585c00b2ee069217211e82d5dd",
+    "post.json": "879c6766fc37477bae3cec0cee24836d366a12cf561e8b316a5f00d9094e8bd8",
+    "syndication.json": "408217b2e6311733448f33e14edb3a9e09b5f3da54fc81f30af29f58902fc59c",
+    "fulltext.json": "56819fcc4b7a500d099221985d2ffe288eef0dd7a38be430942036c2893e39df",
+    "post.txt": "cc30ac95e57fa4d885b4ff741d3f32b2f0f333ec4f0daa4b2c5a1747d600c480"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1889755723078443244",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"OPENAI ROADMAP UPDATE FOR GPT-4.5 and GPT-5: We want to do a better job of sharing our intended roadmap, and a much better job simplifying our product offerings. We want AI to “just work” for you; we realize how complicated our model and product offerings have gotten. We hate t… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "February 12, 2025",
+    "posted_at": "2025-02-12T19:17:29.002Z",
+    "full_text_from": "api.fxtwitter.com"
+  }
+}

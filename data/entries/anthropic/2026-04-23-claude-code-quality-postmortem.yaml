@@ -12,8 +12,8 @@ quote: >-
 summary: >-
   From early March 2026, Claude Code users reported that it had become less
   capable. In early April an AMD AI director filed an analysis of 6,852 sessions
-  concluding that Claude "cannot be trusted to perform complex engineering
-  tasks." Claude Code's head, Boris Cherny, called two circulating claims false:
+  concluding that Claude "cannot be trusted to perform complex engineering."
+  Claude Code's head, Boris Cherny, called two circulating claims false:
   that paying subscribers got worse models than enterprise customers ("We serve
   exactly the same models to all users"), and that the switch to a medium effort
   default was hidden ("Literally nothing sneaky about it"). Anthropic's April 23
@@ -54,14 +54,14 @@ sources:
     url: https://x.com/bcherny/status/2040308730190020847
     date: 2026-04-04
     type: primary
-    snapshot: snapshots/2026-10-03-x.com-7568da4f
+    snapshot: snapshots/2026-10-13-x.com-7568da4f
   - title: Boris Cherny on X ("Literally nothing sneaky about it")
     publisher: X
     url: https://x.com/bcherny/status/2043163965648515234
     date: 2026-04-12
     type: primary
     archive: https://web.archive.org/web/20260413200941/https://x.com/bcherny/status/2043163965648515234
-    snapshot: snapshots/2026-10-03-x.com-abf5732b
+    snapshot: snapshots/2026-10-13-x.com-abf5732b
   - title: Claude Code changelog, version 2.1.68 ("Opus 4.6 now defaults to medium
       effort for Max and Team subscribers")
     publisher: Anthropic (GitHub)
@@ -85,15 +85,17 @@ sources:
     date: 2026-04-06
     type: reporting
     archive: https://web.archive.org/web/20260423062434/https://www.theregister.com/2026/04/06/anthropic_claude_code_dumber_lazier_amd_ai_director/
-    snapshot: snapshots/2026-10-03-theregister.com-b1d3f494
 updates:
   - date: 2026-05-05
     text: >-
       The postmortem did not mention prompt caching, which users had also blamed
       for faster-draining limits. Asked on April 13 about a reported change from
       a one-hour to a five-minute cache, Cherny said "1h prompt cache is nuanced
-      actually. It costs more for cache writes, and less for cache reads."
-      Claude Code's changelog later recorded two fixes: version 2.1.108
+      actually. It costs more for cache writes, and less for cache reads." In
+      the same post he explained that turning off telemetry also turned off the
+      experiment gates that set the longer cache, so those users got the
+      five-minute default, and said Anthropic would change that default for some
+      queries. Claude Code's changelog later recorded two fixes: version 2.1.108
       (released April 14) fixed "subscribers who set DISABLE_TELEMETRY falling
       back to 5-minute prompt cache TTL instead of 1 hour," and version 2.1.129
       (May 5) fixed "1-hour prompt cache TTL being silently downgraded to 5

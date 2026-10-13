@@ -48,6 +48,18 @@ export function htmlToText(html) {
   return normalizeText(decodeEntities(s));
 }
 
+/**
+ * True when a fetched page is a bot check or an empty shell rather than the
+ * content (The Register's "Are we human?", Springer's "Client Challenge", a
+ * page that only renders with JavaScript). Saving one would make a source look
+ * captured when it wasn't.
+ */
+export function isChallengePage(title, text) {
+  const t = String(title || '').trim();
+  if (/^(are (we|you) (a )?(human|robot)\??|client challenge|just a moment\.*|attention required!?.*|access denied|security check|robot check|verify you are human)$/i.test(t)) return true;
+  return String(text || '').split(/\s+/).filter(Boolean).length < 20;
+}
+
 /** Collapse whitespace so cosmetic markup changes don't register as edits. */
 export function normalizeText(s) {
   return String(s)
@@ -131,9 +143,23 @@ export async function fetchXPostDetails(id) {
   return {
     ok: true, status: res.status, raw,
     text: raw.note_tweet?.text ?? raw.text ?? null,
+    // A long post ("note tweet") comes back with only its first 280 characters.
+    truncated: !!raw.note_tweet && !raw.note_tweet.text,
     photos: photos(raw),
-    quoted: q ? { url: `https://x.com/${q.user?.screen_name}/status/${q.id_str}`, author: q.user?.screen_name ?? null, text: q.note_tweet?.text ?? q.text ?? null, photos: photos(q) } : null,
+    quoted: q ? { id: q.id_str, url: `https://x.com/${q.user?.screen_name}/status/${q.id_str}`, author: q.user?.screen_name ?? null, text: q.note_tweet?.text ?? q.text ?? null, truncated: !!q.note_tweet && !q.note_tweet.text, photos: photos(q) } : null,
   };
+}
+
+/**
+ * Fetch the full text of a long X post from FxTwitter's public API (no key or
+ * account). X's own embed endpoints stop at the first 280 characters.
+ */
+export async function fetchXFullText(id) {
+  const res = await fetchWithTimeout(`https://api.fxtwitter.com/status/${id}`, { headers: { accept: 'application/json' } });
+  if (!res.ok) return { ok: false, status: res.status };
+  const raw = await res.json();
+  const text = raw.tweet?.text;
+  return { ok: typeof text === 'string' && text.length > 0, status: res.status, raw, text };
 }
 
 /** Fetch a Bluesky post through the public AppView API. */

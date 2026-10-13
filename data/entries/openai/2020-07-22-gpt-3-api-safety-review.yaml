@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: policy
 who: [sam-altman, openai, jack-clark]
-venue: Posts on X during the GPT-3 API private beta
+venue: Posts on Twitter during the GPT-3 API private beta
 quote: >-
   We share your concern about bias and safety in language models, and it's a big
   part of why we're starting off with a beta and have safety review before apps
@@ -25,6 +25,12 @@ summary: >-
   process."
 concreteness: measurable
 status: reversed
+outcome:
+  date: 2023-03-01
+  text: >-
+    Launching the ChatGPT API, OpenAI dropped the review before apps go live in
+    favor of automated monitoring, saying "the overwhelming majority of apps
+    were approved during the vetting process."
 related: [2023-08-15-altman-never-trains-api]
 sources:
   - title: Sam Altman on X ("safety review before apps can go live")

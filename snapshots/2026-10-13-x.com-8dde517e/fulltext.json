@@ -1,0 +1,97 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/OpenAI/status/2027846013650932195",
+    "id": "2027846013650932195",
+    "text": "Our agreement with the Department of War upholds our redlines:\n\n- No use of OpenAI technology for mass domestic surveillance.\n\n- No use of OpenAI technology to direct autonomous weapons systems.\n\n- No use of OpenAI technology for high-stakes automated decisions (e.g. systems such as “social credit”).",
+    "raw_text": {
+      "text": "Our agreement with the Department of War upholds our redlines:\n\n- No use of OpenAI technology for mass domestic surveillance.\n\n- No use of OpenAI technology to direct autonomous weapons systems.\n\n- No use of OpenAI technology for high-stakes automated decisions (e.g. systems such as “social credit”).",
+      "display_text_range": [
+        0,
+        301
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "OpenAI",
+      "url": "https://x.com/OpenAI",
+      "id": "4398626122",
+      "followers": 5430057,
+      "following": 4,
+      "likes": 2526,
+      "media_count": 743,
+      "name": "OpenAI",
+      "description": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: http://openai.com/jobs",
+      "raw_description": {
+        "text": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: https://t.co/dJGr6LgzPA",
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              107,
+              130
+            ],
+            "original": "https://t.co/dJGr6LgzPA",
+            "replacement": "http://openai.com/jobs",
+            "display": "openai.com/jobs"
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/4398626122/1777662919",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "joined": "Sun Dec 06 22:51:08 +0000 2015",
+      "protected": false,
+      "website": {
+        "url": "https://openai.com",
+        "display_url": "openai.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "organization"
+      },
+      "avatar_color": null
+    },
+    "replies": 256,
+    "retweets": 78,
+    "likes": 1289,
+    "bookmarks": 203,
+    "quotes": 80,
+    "created_at": "Sat Feb 28 20:38:59 +0000 2026",
+    "created_timestamp": 1772311139,
+    "views": 346435,
+    "is_note_tweet": true,
+    "community_note": {
+      "text": "OpenAI's contract forbids use of their technology in autonomous weapons where \"law, regulation, or Department policy requires human control.\" However, current DoW policy does not require human approval for an autonomous weapon to use force.\nopenai.com/index/our-agre…\nwarontherocks.com/2025/05/autono…",
+      "entities": [
+        {
+          "fromIndex": 241,
+          "ref": {
+            "type": "TimelineUrl",
+            "url": "https://t.co/eYe7snKy9p",
+            "urlType": "ExternalUrl"
+          },
+          "toIndex": 267
+        },
+        {
+          "fromIndex": 268,
+          "ref": {
+            "type": "TimelineUrl",
+            "url": "https://t.co/AC11lyjHCr",
+            "urlType": "ExternalUrl"
+          },
+          "toIndex": 301
+        }
+      ]
+    },
+    "lang": "en",
+    "replying_to": "OpenAI",
+    "replying_to_status": "2027846012107456943",
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [sam-altman, openai]
-venue: '"Updates to ChatGPT," post on X'
+venue: '"Updates to ChatGPT," post on Twitter'
 quote: >-
   4o is back in the model picker for all paid users by default. If we ever do
   deprecate it, we will give plenty of notice.
@@ -21,6 +21,11 @@ summary: >-
   day. The models stayed available in the API.
 concreteness: directional
 status: eroded
+outcome:
+  date: 2026-01-29
+  text: >-
+    OpenAI announced that GPT-4o and four other models would leave ChatGPT on
+    Feb. 13, fifteen days later. The models stayed available in the API.
 patterns: [shrinking-plan]
 related: [2025-02-12-gpt-5-free-unlimited, 2025-11-04-model-weight-preservation]
 sources:
@@ -30,13 +35,13 @@ sources:
     date: 2025-08-13
     type: primary
     archive: https://web.archive.org/web/20260529083528/https://x.com/sama/status/1955438916645130740
-    snapshot: snapshots/2026-10-03-x.com-f81aa520
+    snapshot: snapshots/2026-10-13-x.com-f81aa520
   - title: Sam Altman on X ("GPT-5 rollout updates")
     publisher: X
     url: https://x.com/sama/status/1953893841381273969
     date: 2025-08-08
     type: primary
-    snapshot: snapshots/2026-10-03-x.com-2b78ff10
+    snapshot: snapshots/2026-10-13-x.com-2b78ff10
   - title: The surprise deprecation of GPT-4o for ChatGPT consumers
     publisher: Simon Willison
     url: https://simonwillison.net/2025/Aug/8/surprise-deprecation-of-gpt-4o/
@@ -51,7 +56,13 @@ sources:
     date: 2026-01-30
     type: reporting
     archive: https://web.archive.org/web/20260404160904/https://www.theregister.com/2026/01/30/openai_gpt_deprecations/
-    snapshot: snapshots/2026-10-03-theregister.com-7ced7536
+  - title: '‘Time to cancel’: OpenAI sparks fresh fury by retiring GPT-4o model
+      again as it claims ‘we didn’t make this decision lightly’'
+    publisher: TechRadar
+    url: https://www.techradar.com/ai-platforms-assistants/time-to-cancel-openai-sparks-fresh-fury-by-retiring-gpt-4o-model-again-as-it-claims-we-didnt-make-this-decision-lightly
+    date: 2026-01-30
+    type: reporting
+    snapshot: snapshots/2026-10-13-techradar.com-866cb68f
   - title: OpenAI Newsroom on X ("Tomorrow at 10am PT legacy models ... will be
       deprecated in ChatGPT")
     publisher: X
@@ -83,9 +94,11 @@ updates:
         archive: https://web.archive.org/web/20261007073545/https://www.theverge.com/decoder-podcast-with-nilay-patel/758873/chatgpt-nick-turley-openai-ai-gpt-5-interview
         snapshot: snapshots/2026-10-07-theverge.com-c4b38ddb
 response: >-
-  OpenAI said users had "preferred GPT‑4o's conversational style and warmth,"
-  that it had used that feedback in later models, and: "Changes like this take
-  time to adjust to... and we didn't make this decision lightly."
+  Announcing the retirement, OpenAI said users had told it they "preferred
+  GPT‑4o’s conversational style and warmth," that it had worked that feedback
+  into GPT-5.1 and GPT-5.2, and that only 0.1% of users were "still choosing
+  GPT‑4o each day." It said it knew the change would feel "frustrating" and that
+  "we didn’t make this decision lightly."
 note: >-
   Two weeks is short for a model some people had built habits around, but
   "plenty" was never defined, and almost no one was still using it. Marked

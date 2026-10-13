@@ -23,7 +23,7 @@ revision:
   after: >-
     "Rather than being hard commitments, these are public goals that we will
     openly grade our progress towards."
-contradicts: [2023-09-19-rsp-pause-commitment]
+contradicts: [2023-09-19-rsp-pause-commitment, 2024-05-21-anthropic-seoul-commitments]
 patterns: [race-clause, unfalsifiable]
 sources:
   - title: 'Transcript for Dario Amodei: Anthropic CEO on Claude, AGI & the Future
@@ -59,6 +59,7 @@ sources:
     url: https://thezvi.substack.com/p/anthropic-responsible-scaling-policy
     type: analysis
     archive: https://web.archive.org/web/20260917083359/https://thezvi.substack.com/p/anthropic-responsible-scaling-policy
+    snapshot: snapshots/2026-10-13-thezvi.substack.com-ea526d43
   - title: '“Human-level AI by 2030” – will it happen and are we ready?'
     publisher: Exponential View
     url: https://www.exponentialview.co/p/human-level-ai-by-2030-will-it-happen

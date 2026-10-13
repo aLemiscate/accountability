@@ -28,8 +28,10 @@ export const GRADES = ['kept', 'standing', 'eroded', 'broken', 'unknown'];
 const ENTRY_KEYS = new Set([
   'title', 'date', 'org', 'type', 'kind', 'who', 'venue', 'quote', 'summary',
   'concreteness', 'status', 'breaks_if', 'contradicts', 'related', 'patterns',
-  'sources', 'response', 'note', 'updates', 'revision', 'last_checked',
+  'sources', 'response', 'note', 'updates', 'revision', 'last_checked', 'outcome',
 ]);
+// Statuses that mean a statement failed; each one should have a receipt.
+export const FAILED = ['broken', 'reversed', 'eroded', 'contradicted'];
 const SOURCE_KEYS = new Set(['title', 'publisher', 'url', 'date', 'type', 'archive', 'snapshot']);
 
 const DATE_RE = /^(\d{4})(?:-(\d{2})(?:-(\d{2}))?)?$/;
@@ -198,7 +200,20 @@ export function validate({ patterns, actors, entries, accounts = [], commitments
         else if (lc.time > Date.now() + DAY) err(e, 'last_checked is in the future');
       }
       if (e.contradicts?.length) err(e, '"contradicts" belongs on the "did" entry, pointing back at what was said');
+      if (e.outcome !== undefined) {
+        // What happened, for a failed statement with no separate "did" entry. The
+        // date may precede the statement when the company's own earlier record
+        // already contradicted it.
+        const o = e.outcome;
+        const od = parseDate(o?.date);
+        if (!o || typeof o !== 'object' || !o.text || !String(o.text).trim()) err(e, 'outcome needs text (what happened)');
+        if (!od) err(e, `outcome.date must be YYYY, YYYY-MM or YYYY-MM-DD (got "${o?.date}")`);
+        else if (od.time > Date.now() + DAY) err(e, 'outcome.date is in the future');
+        for (const k of Object.keys(o ?? {})) if (!['date', 'text'].includes(k)) err(e, `outcome has an unknown field "${k}"`);
+        if (!FAILED.includes(e.status)) warn(e, `outcome is shown as a receipt, but the status is "${e.status}"`);
+      }
     } else if (e.type === 'did') {
+      if (e.outcome !== undefined) err(e, 'outcome only applies to "said" entries');
       if (e.status || e.concreteness) warn(e, 'status/concreteness only apply to "said" entries');
       if (e.last_checked) warn(e, 'last_checked only applies to "said" entries');
       for (const id of e.contradicts ?? []) {
@@ -222,6 +237,14 @@ export function validate({ patterns, actors, entries, accounts = [], commitments
       (u.sources ?? []).forEach((s, j) => checkSource(e, s, `updates[${i}].sources[${j}]`));
     });
     if (e.revision && (!e.revision.before || !e.revision.after)) err(e, 'revision needs both before and after');
+  }
+
+  // Every failed statement should show up in Receipts: through a "did" entry that
+  // contradicts it, or through its own dated outcome.
+  const contradictedIds = new Set(entries.filter((e) => e.type === 'did').flatMap((e) => e.contradicts ?? []));
+  for (const e of entries.filter((x) => x.type === 'said' && FAILED.includes(x.status))) {
+    if (!contradictedIds.has(e.id) && !e.outcome) warn(e, `is ${e.status} but has no receipt (add a "did" entry that contradicts it, or an outcome)`);
+    if (contradictedIds.has(e.id) && e.outcome) warn(e, 'has both an outcome and a "did" entry that contradicts it; the outcome would duplicate that receipt');
   }
 
   for (const doc of commitments) {
@@ -291,6 +314,7 @@ export function derive({ site, patterns, actors, entries, commitments = [] }) {
       contradicts: e.contradicts ?? [],
       related: e.related ?? [],
       contradicted_by: [],
+      ...(e.outcome ? { outcome: { ...e.outcome, date: String(e.outcome.date), time: parseDate(e.outcome.date).time, precision: parseDate(e.outcome.date).precision } } : {}),
     };
   });
   const byId = new Map(out.map((e) => [e.id, e]));
@@ -336,6 +360,8 @@ export function derive({ site, patterns, actors, entries, commitments = [] }) {
 /** Normalize text for quote matching: case, curly quotes, dashes, invisible format characters (including the bidi marks some PDFs carry), whitespace. */
 export function normalizeForMatch(s) {
   return String(s)
+    // PDF text often keeps typographic ligatures ("ﬁ" for "fi"); NFKC splits them.
+    .normalize('NFKC')
     .toLowerCase()
     .replace(/[\u2018\u2019\u201b\u2032]/g, "'")
     .replace(/[\u201c\u201d\u201f\u2033]/g, '"')

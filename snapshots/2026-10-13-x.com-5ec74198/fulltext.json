@@ -1,0 +1,131 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/embirico/status/1953590991870697896",
+    "id": "1953590991870697896",
+    "text": "Lots of excitement about GPT-5 in Codex CLI via your ChatGPT plan. Some details:\n\n1. Yes, if you sign in with ChatGPT, usage is included via your paid plan!\n\n2. Still determining exact rate limits, but the goal is to be generous:\n-- Pro users should basically not hit limits unless they're scripting or running many agents in parallel.\n-- Plus & Team users should be able to log a handful of 1-2h coding sessions each week.\n-- Ent coming soon.\n-- Rate limits reset every 5h, and there's a weekly total limit too.\n-- If you hit limits sooner than expected given the above, reach out to help us tune the limits.\n\n3. Issues people are hitting:\n-- People are consuming limits faster than expected. We've landed a mitigation so do try again.\n-- If you're an existing Codex CLI user running into issues with your ChatGPT plan, you can reset with /logout.\n-- Still sorting out compute for Europe. Hopefully you're sleeping, or you can VPN to USA. Should be fixed by the time you wake up.\n\n4. DMs open for feedback",
+    "raw_text": {
+      "text": "Lots of excitement about GPT-5 in Codex CLI via your ChatGPT plan. Some details:\n\n1. Yes, if you sign in with ChatGPT, usage is included via your paid plan!\n\n2. Still determining exact rate limits, but the goal is to be generous:\n-- Pro users should basically not hit limits unless they're scripting or running many agents in parallel.\n-- Plus & Team users should be able to log a handful of 1-2h coding sessions each week.\n-- Ent coming soon.\n-- Rate limits reset every 5h, and there's a weekly total limit too.\n-- If you hit limits sooner than expected given the above, reach out to help us tune the limits.\n\n3. Issues people are hitting:\n-- People are consuming limits faster than expected. We've landed a mitigation so do try again.\n-- If you're an existing Codex CLI user running into issues with your ChatGPT plan, you can reset with /logout.\n-- Still sorting out compute for Europe. Hopefully you're sleeping, or you can VPN to USA. Should be fixed by the time you wake up.\n\n4. DMs open for feedback",
+      "display_text_range": [
+        0,
+        1006
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "embirico",
+      "url": "https://x.com/embirico",
+      "id": "413490474",
+      "followers": 32548,
+      "following": 1048,
+      "likes": 5476,
+      "media_count": 309,
+      "name": "Alexander Embiricos",
+      "description": "Codex @OpenAI",
+      "raw_description": {
+        "text": "Codex @OpenAI",
+        "facets": []
+      },
+      "location": "San Francisco, CA",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1649509163712561153/mTxQ1REO_200x200.jpg",
+      "joined": "Tue Nov 15 23:17:52 +0000 2011",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 77,
+    "retweets": 33,
+    "likes": 399,
+    "bookmarks": 129,
+    "quotes": 21,
+    "created_at": "Thu Aug 07 22:56:03 +0000 2025",
+    "created_timestamp": 1754607363,
+    "views": 122527,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "quote": {
+      "url": "https://x.com/OpenAIDevs/status/1953559799909822562",
+      "id": "1953559799909822562",
+      "text": "Pro, Plus, and Team users can sign in with ChatGPT to start coding with GPT-5, with access for Enterprise coming soon.\n\nUsage is included in your plan, with rate limits that vary by plan. We’ll share more details as we learn from usage patterns over the coming weeks.",
+      "raw_text": {
+        "text": "Pro, Plus, and Team users can sign in with ChatGPT to start coding with GPT-5, with access for Enterprise coming soon.\n\nUsage is included in your plan, with rate limits that vary by plan. We’ll share more details as we learn from usage patterns over the coming weeks.",
+        "display_text_range": [
+          0,
+          267
+        ],
+        "facets": []
+      },
+      "author": {
+        "screen_name": "OpenAIDevs",
+        "url": "https://x.com/OpenAIDevs",
+        "id": "1633874951508721686",
+        "followers": 456786,
+        "following": 1,
+        "likes": 4572,
+        "media_count": 599,
+        "name": "OpenAI Developers",
+        "description": "Official updates for developers building with Codex & the OpenAI Platform • Service status: https://status.openai.com",
+        "raw_description": {
+          "text": "Official updates for developers building with Codex & the OpenAI Platform • Service status: https://t.co/kZwnwdYYEq",
+          "facets": [
+            {
+              "type": "url",
+              "indices": [
+                92,
+                115
+              ],
+              "original": "https://t.co/kZwnwdYYEq",
+              "replacement": "https://status.openai.com",
+              "display": "status.openai.com"
+            }
+          ]
+        },
+        "location": "",
+        "banner_url": "https://pbs.twimg.com/profile_banners/1633874951508721686/1769809873",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2022002720971096064/l3Kyt4qt_200x200.jpg",
+        "joined": "Thu Mar 09 16:58:51 +0000 2023",
+        "protected": false,
+        "website": {
+          "url": "https://developers.openai.com",
+          "display_url": "developers.openai.com"
+        },
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "organization"
+        },
+        "avatar_color": null
+      },
+      "replies": 21,
+      "retweets": 22,
+      "likes": 232,
+      "bookmarks": 44,
+      "quotes": 19,
+      "created_at": "Thu Aug 07 20:52:06 +0000 2025",
+      "created_timestamp": 1754599926,
+      "views": 95582,
+      "is_note_tweet": false,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": "OpenAIDevs",
+      "replying_to_status": "1953559797883891735",
+      "twitter_card": "tweet",
+      "color": null,
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [jan-leike, openai]
-venue: Superalignment Fast Grants announcement, posts on X
+venue: Superalignment Fast Grants announcement, posts on Twitter
 quote: >-
   We're distributing $1e7 in grants for research on making superhuman models
   safer and more aligned.
@@ -44,7 +44,7 @@ sources:
     url: https://x.com/janleike/status/1778136079302082721
     date: 2024-04-10
     type: primary
-    snapshot: snapshots/2026-10-03-x.com-660daa05
+    snapshot: snapshots/2026-10-13-x.com-660daa05
 note: >-
   Kept before the team that ran it was disbanded. The compute pledge made to the
   same team is in the related entries, and was not kept.

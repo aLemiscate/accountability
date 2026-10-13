@@ -21,6 +21,13 @@ summary: >-
   released; the next Opus model was Claude Opus 4, in May 2025.
 concreteness: measurable
 status: broken
+outcome:
+  date: 2024-10-22
+  text: >-
+    Anthropic's model documentation, which had listed Claude 3.5 Opus as coming
+    "Later this year," dropped it without an announcement on the day Anthropic
+    launched an upgraded 3.5 Sonnet. No Claude 3.5 Opus was released; the next
+    Opus was Claude Opus 4, in May 2025.
 patterns: [coming-weeks]
 related: [2024-10-22-claude-3-5-haiku-same-cost]
 sources:

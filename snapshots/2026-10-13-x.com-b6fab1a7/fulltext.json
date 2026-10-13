@@ -1,0 +1,64 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/nabla_theta/status/2028048714368250308",
+    "id": "2028048714368250308",
+    "text": "the contract snippet from the openai dow blog post is so obviously just \"all lawful use\" followed by a bunch of stuff that is not really operative except as window dressing.\nthe referenced DoD Directive 3000.09 basically says the DoD gets to decide when autonomous weapons systems are deployable.\nas others have covered, there are a ton of mass domestic surveillance loopholes not covered by the 4A, national security act, FISA, etc.",
+    "raw_text": {
+      "text": "the contract snippet from the openai dow blog post is so obviously just \"all lawful use\" followed by a bunch of stuff that is not really operative except as window dressing.\nthe referenced DoD Directive 3000.09 basically says the DoD gets to decide when autonomous weapons systems are deployable.\nas others have covered, there are a ton of mass domestic surveillance loopholes not covered by the 4A, national security act, FISA, etc.",
+      "display_text_range": [
+        0,
+        433
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "nabla_theta",
+      "url": "https://x.com/nabla_theta",
+      "id": "1174529814264332289",
+      "followers": 16464,
+      "following": 608,
+      "likes": 10518,
+      "media_count": 281,
+      "name": "Leo Gao",
+      "description": "working on AGI alignment. prev: GPT-Neo, the Pile, LM evals, RL overoptimization, scaling SAEs to GPT-4, interp via circuit sparsity. EleutherAI cofounder.",
+      "raw_description": {
+        "text": "working on AGI alignment. prev: GPT-Neo, the Pile, LM evals, RL overoptimization, scaling SAEs to GPT-4, interp via circuit sparsity. EleutherAI cofounder.",
+        "facets": []
+      },
+      "location": "San Francisco",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1174529814264332289/1674457924",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1258559367747530753/3uI8vU62_200x200.jpg",
+      "joined": "Thu Sep 19 03:45:10 +0000 2019",
+      "protected": false,
+      "website": {
+        "url": "https://leogao.dev",
+        "display_url": "leogao.dev"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 13,
+    "retweets": 57,
+    "likes": 870,
+    "bookmarks": 157,
+    "quotes": 13,
+    "created_at": "Sun Mar 01 10:04:27 +0000 2026",
+    "created_timestamp": 1772359467,
+    "views": 166235,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

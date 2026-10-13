@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/sama/status/2070607488274358364",
+  "captured_at": "2026-10-13T15:09:12.103Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "874e74256706f62925eb719d2b93f6075479b72719e9f3a70d5dc3fc9792c497",
+    "page.txt": "58c04ff93fceaf35b9799ca6fcce6e3433073adfb56ce1a585cf36ce7fb3858b",
+    "post.json": "6975b806dbbbbf116ec1cb8a16db85ca172621bfe10dfc10d32d61a6d4ff3387",
+    "syndication.json": "632792ef359fa22fd90afb8f43b65fd5c27e874aeaab6391f7c63d47d18db15b",
+    "fulltext.json": "f14d5c64504de1277f3d74ab30f7c6fa9df835da0754f6255fc46fedc272d751",
+    "post.txt": "ff9de84dac3b5b6f45aa519e039c22afe969485d7f5269bb732b63a43cef42db"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/2070607488274358364",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"Good new first: Sol is a smart, efficient, and a significant step forward. It is the same price as GPT-5.5. Also launching in the GPT-5.6 family is Terra, with 5.5-level performance at half the price. Bad news: at the request of the US government, it is launching today in limited… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "June 26, 2026",
+    "posted_at": "2026-06-26T20:37:49.888Z",
+    "full_text_from": "api.fxtwitter.com"
+  }
+}

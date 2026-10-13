@@ -5,7 +5,7 @@ org: anthropic
 type: said
 kind: denial
 who: [boris-cherny, anthropic]
-venue: Posts on X
+venue: Posts on Twitter
 quote: >-
   This was not intentional. We are debugging what happened on the GitHub side.
   No one at Anthropic dmca’d these forks
@@ -23,6 +23,13 @@ summary: >-
   repository and 96 forks containing the leaked code.
 concreteness: measurable
 status: contradicted
+outcome:
+  date: 2026-03-31
+  text: >-
+    GitHub's published copy of Anthropic's takedown notice says "the submitter
+    alleged that all or most of the forks were infringing to the same extent as
+    the parent repository," so GitHub processed it against the whole network of
+    8.1K repositories.
 patterns: [sorry-after-caught]
 sources:
   - title: Boris Cherny on X ("No one at Anthropic dmca’d these forks")

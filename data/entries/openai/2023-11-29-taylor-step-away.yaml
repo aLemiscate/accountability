@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [bret-taylor, openai]
-venue: Letter to the OpenAI community as board chair, posted on X
+venue: Letter to the OpenAI community as board chair, posted on Twitter
 quote: >-
   The Board's focus is stabilizing the company, building out a qualified and
   diverse board, and enhancing governance procedures consistent with the
@@ -28,6 +28,12 @@ summary: >-
   nonprofit and the for-profit company it controls.
 concreteness: conditional
 status: eroded
+outcome:
+  date: 2026-09-09
+  text: >-
+    Nearly three years later, OpenAI described Taylor as "Chair of the OpenAI
+    Foundation and OpenAI Group PBC Boards," the nonprofit and the for-profit
+    company it controls.
 patterns: [unfalsifiable]
 related:
   [
@@ -41,14 +47,14 @@ sources:
     url: https://x.com/btaylor/status/1730030765482938521
     date: 2023-11-29
     type: primary
-    snapshot: snapshots/2026-10-03-x.com-aec8f598
+    snapshot: snapshots/2026-10-13-x.com-aec8f598
   - title: Larry Summers on X ("independent director of @OpenAI")
     publisher: X
     url: https://x.com/LHSummers/status/1730047296375590995
     date: 2023-11-29
     type: primary
     archive: https://web.archive.org/web/20251119135404/https://x.com/LHSummers/status/1730047296375590995
-    snapshot: snapshots/2026-10-03-x.com-4c080e29
+    snapshot: snapshots/2026-10-13-x.com-4c080e29
   - title: Review completed & Altman, Brockman to continue to lead OpenAI
     publisher: OpenAI
     url: https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai/
