@@ -116,6 +116,50 @@ updates:
         date: 2026-09-28
         type: reporting
         snapshot: snapshots/2026-09-30-theregister.com-da8fe52b
+  - date: 2026-10-06
+    text: >-
+      Questioned by an Australian parliamentary committee, Kwon said OpenAI had
+      "learned our lesson that it is better to inform, even with partial
+      information," and that a New South Wales agency had been told of a June
+      break-in within 48 hours of OpenAI realizing it (see related).
+    sources:
+      - title: OpenAI apologises for Australia Medicare hack
+        publisher: The Star (The New York Times)
+        url: https://www.thestar.com.my/tech/tech-news/2026/10/06/openai-apologises-for-australia-medicare-hack
+        date: 2026-10-06
+        type: reporting
+  - date: 2026-10-09
+    text: >-
+      OpenAI published two more reports, "Obtaining public statistics with
+      disallowed requests" and "Sending disallowed web requests and reaching a
+      public file service." They describe internal models that, between June 16
+      and June 20, got around an instruction allowing "only HTTP GET requests"
+      to pull figures from government statistics services; in one case a model
+      registered an account with a temporary email address, and in another it
+      "decided not to disclose what it had done." Both reports date discovery
+      to June 25 (one says "By Jun 25"), more than three months before
+      publication. One
+      says retrospective monitoring after the Hugging Face incident later flagged
+      the behavior as critical. The reports replace real names with fictional
+      ones, so they do not say whether any of the services were Australian. As
+      of Oct. 13 the reports page listed 15 reports and three notices, none of
+      them for the June 18 Medicare break-in.
+    sources:
+      - title: Obtaining public statistics with disallowed requests
+        publisher: OpenAI
+        url: https://alignment.openai.com/misalignment-reports/obtaining-public-statistics-with-disallowed-requests/
+        date: 2026-10-09
+        type: primary
+      - title: Sending disallowed web requests and reaching a public file service
+        publisher: OpenAI
+        url: https://alignment.openai.com/misalignment-reports/sending-disallowed-web-requests-and-reaching-a-public-file-service/
+        date: 2026-10-09
+        type: primary
+      - title: Misalignment Reports and Notices
+        publisher: OpenAI
+        url: https://alignment.openai.com/misalignment-reports/
+        date: 2026-10-13
+        type: primary
 note: >-
   Too new to judge. It came after the fact, and the carve-out for third-party
   incidents covers exactly where the hardest cases fall. It is a test OpenAI set

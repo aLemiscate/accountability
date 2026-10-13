@@ -206,6 +206,23 @@ California it listed SB 1047 in 2024 and SB 53 in every report since 2025;
 it endorsed SB 53 in public. In New York it listed the RAISE Act (S6953,
 A6453) in 2025 and endorsed it.
 
+**Anthropic's own description of this work.** In August 2022, when Anthropic
+had not yet registered to lobby, its co-founder Jack Clark wrote on Twitter
+that "A surprisingly large fraction of AI policy work at large technology
+companies is about doing 'follow the birdie' with government - getting them
+to look in one direction, and away from another area of tech progress," and
+that "AI policy is anti-democratic for the same reasons as large-scale AI being
+anti-democratic - companies have money, so they can build teams to turn up at
+meetings all the time and slowly move the overton window." Three weeks later,
+answering a charge that Anthropic's red-teaming work was "a fuck ton of work to
+avoid regulation of AI," he wrote: "Broadly, I/Anthropic pushes for a few
+different types of regulation." Anthropic's federal lobbying has since grown
+from $200,000 in 2023 to $3.53 million in the first half of 2026, more than
+OpenAI's in four of the last five quarters. The filings can't show whether
+that spending fits his description. They do show that Anthropic now pays for
+the standing presence he described, and that its reports name the bills it
+lobbied on, which OpenAI's have not since 2024. (Posts: https://x.com/jackclarkSF/status/1555980661499908096, https://x.com/jackclarkSF/status/1555986449811398656, https://x.com/jackclarkSF/status/1563644671498129409.)
+
 **Political money.** The filings separate company money from personal money:
 
 - OpenAI's company reports list no contributions to candidates, parties or
