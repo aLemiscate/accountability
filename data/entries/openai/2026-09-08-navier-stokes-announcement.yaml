@@ -80,6 +80,29 @@ sources:
     date: 2026-09-17
     type: reporting
     snapshot: snapshots/2026-10-03-livescience.com-4ba5581d
+updates:
+  - date: 2026-10-07
+    text: >-
+      On Oct. 6 OpenAI posted 722 AI-generated manuscripts on 372 math problems.
+      The next day it withdrew three after a sign error broke an argument in one
+      and a construction two others relied on, and revised 14 more. A
+      spokesperson told Retraction Watch that roughly half the results were
+      released unconfirmed, on the advice of OpenAI's Advisory Group on
+      Mathematics and Artificial Intelligence, and that "Where errors are
+      identified, we will work to correct them promptly and withdraw papers if
+      no fixes can be found." MIT mathematician Andrew Sutherland called the
+      withdrawals "the responsible thing to do" but said many mathematicians
+      were "unhappy with how OpenAI has behaved up to this point," citing the
+      Navier-Stokes announcement. More than 8,000 researchers had endorsed a
+      statement that it left "no time for a proper writeup, the isolation of new
+      methods and ideas, and citing relevant previous work of others."
+    sources:
+      - title: OpenAI withdraws three preprints a day after releasing 722 manuscripts on
+          unsolved math problems
+        publisher: Retraction Watch
+        url: https://retractionwatch.com/2026/10/08/openai-withdraws-preprints-722-manuscripts-unsolved-math-problems/
+        date: 2026-10-08
+        type: reporting
 response: >-
   OpenAI congratulated Buckmaster and Alpöge and said its proofs "differ
   significantly" from theirs. Altman said OpenAI had wanted a joint release, had

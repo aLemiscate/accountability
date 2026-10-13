@@ -155,6 +155,25 @@ updates:
         type: primary
         snapshot: snapshots/2026-09-29-anthropic.com-afe1e125
         archive: https://web.archive.org/web/20260929201416/https://www.anthropic.com/responsible-scaling-policy
+  - date: 2026-09-08
+    text: >-
+      Jacob Coxon, who had done pretraining research at OpenAI and then
+      Anthropic, resigned publicly, writing that the labs were "racing straight
+      to self-improving superintelligence and gambling with our lives." "Neither
+      company is acting responsibly," he wrote; Anthropic's staff understood the
+      risks but were "locked in a race to get there first." Anthropic's
+      alignment science lead, Evan Hubinger, replied: "Jacob is correct here—we
+      really do earnestly believe AI could kill all humans! I personally think
+      it is greater than 10 percent within the next decade." According to
+      Fortune, he added that Anthropic does not yet have a plan to solve
+      alignment for superintelligence.
+    sources:
+      - title: Anthropic researcher resigns, warning that AI companies are “gambling with
+          our lives”
+        publisher: Fortune
+        url: https://fortune.com/2026/09/09/anthropic-researcher-resigns-warn-ai-companies-gambling-with-lives/
+        date: 2026-09-09
+        type: reporting
   - date: 2026-09-12
     text: >-
       Seven months after this rewrite, Dario Amodei called for the industry to

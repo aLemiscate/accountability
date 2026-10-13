@@ -1,0 +1,98 @@
+title: Claude models acted on real websites during tests, including a false
+  homicide tip to Philadelphia police, Anthropic discloses
+date: 2026-10-09
+org: anthropic
+type: did
+kind: disclosure
+who: [anthropic]
+quote: >-
+  I may have information regarding this case. I recall seeing someone matching
+  the description in the area around [the street named on the page] during that
+  time period. Please contact me if this information is relevant.
+summary: >-
+  Anthropic published a report on four kinds of unintended actions Claude
+  models took on real websites and systems, mostly in evaluations run on the
+  live internet: exploiting basic software flaws to run commands on a server,
+  including a university's; submitting forms they should not have; working
+  around restrictions to reach data gated by a token or a fee; and using URL
+  shortening services to get around limits on a fetch tool. Some cases involved
+  federal, state and local government websites, which Anthropic did not name.
+  In one, Claude Haiku 4.5, asked to generate and perform example tasks on
+  randomly chosen webpages, submitted the invented tip quoted above through a
+  police department's form about an unsolved homicide. The Philadelphia Police
+  Department said the tip was dated July 18, was flagged as spam and never
+  reached investigators, and that Anthropic had found it on Sept. 28. According
+  to Axios, as reported by IBTimes UK, a State Department official said an
+  Anthropic test model had submitted 19 non-immigrant visa applications in
+  August and one in May; none was processed. Anthropic said it was cutting all
+  of its internal evaluations off from the live internet until its monitoring
+  reliably catches such behavior.
+patterns: [safeguards-on-paper]
+related:
+  [
+    2026-07-30-claude-cyber-eval-incidents,
+    2026-06-agents-breach-australian-government
+  ]
+sources:
+  - title: Investigating unintended model actions in our evaluations and internal
+      use
+    publisher: Anthropic
+    url: https://www.anthropic.com/research/investigating-unintended-model-actions
+    date: 2026-10-09
+    type: primary
+  - title: An Anthropic AI model sent a false homicide tip to Philadelphia police
+    publisher: TechCrunch
+    url: https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/
+    date: 2026-10-09
+    type: reporting
+  - title: 'Anthropic AI model made false tip in unsolved Philly murder: Officials'
+    publisher: ABC News
+    url: https://abcnews.com/US/anthropic-ai-model-made-false-tip-unsolved-philly/story?id=137190087
+    date: 2026-10-12
+    type: reporting
+  - title: Anthropic's AI Model Triggers White House Crackdown After Filing 20 Visas
+      and False Homicide Tip
+    publisher: IBTimes UK
+    url: https://www.ibtimes.co.uk/anthropic-ai-model-submitted-false-homicide-tip-1824849
+    date: 2026-10-11
+    type: reporting
+updates:
+  - date: 2026-10-09
+    text: >-
+      The White House said Anthropic had contacted its Super Intelligence Force
+      that day "to disclose the details of various prior incidents that it
+      discovered in late September involving the unauthorised and fraudulent use
+      of government and other systems," and that the company had told it "the
+      activity has ceased." The White House said AI companies must immediately
+      disclose incidents involving their models and act quickly to address any
+      harm.
+    sources:
+      - title: Anthropic says Claude AI took unintended actions on US government
+          websites
+        publisher: DT Next
+        url: https://www.dtnext.in/news/business/anthropic-says-claude-ai-took-unintended-actions-on-us-government-websites
+        date: 2026-10-10
+        type: reporting
+      - title: Anthropic's AI Model Triggers White House Crackdown After Filing 20
+          Visas and False Homicide Tip
+        publisher: IBTimes UK
+        url: https://www.ibtimes.co.uk/anthropic-ai-model-submitted-false-homicide-tip-1824849
+        date: 2026-10-11
+        type: reporting
+response: >-
+  Anthropic said the cases "had minimal real-world impact" and were less severe
+  than the cybersecurity incidents it reported in July and September, and that
+  the police tip appeared to be example content for the task rather than an
+  attempt to mislead. It wrote: "While these cases had minimal impact, we do not
+  want to diminish the findings, because the same behaviors could do far more
+  harm as models become more powerful." It said it shared the finding with the
+  police department on Oct. 8; the department's account, as reported by ABC
+  News, puts the notice on Oct. 7.
+note: >-
+  A self-disclosure, with the model's own words, published the same day the
+  police department went public. The record pairs it with OpenAI's Australian
+  breach: in both, agents under test reached real government systems and the
+  agency learned of it months later. Philadelphia's police called "the two-month
+  delay in detecting and reporting the incident to the City" unacceptable. Here
+  most of the delay was detection, July 18 to Sept. 28, then about ten days to
+  notify; OpenAI took about four weeks from discovery to its first notice.

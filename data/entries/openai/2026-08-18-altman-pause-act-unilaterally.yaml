@@ -79,6 +79,19 @@ sources:
     type: primary
     snapshot: snapshots/2026-10-13-x.com-c8aa730d
 updates:
+  - date: 2026-09-08
+    text: >-
+      Briefing reporters on its Navier-Stokes result, OpenAI said it had begun
+      training a new model, significantly more powerful than Astra, on Aug. 28,
+      ten days after this announcement, according to Fortune. The report did not
+      say whether this was the frontier RL run OpenAI had put on hold.
+    sources:
+      - title: Anthropic researcher resigns, warning that AI companies are “gambling with
+          our lives”
+        publisher: Fortune
+        url: https://fortune.com/2026/09/09/anthropic-researcher-resigns-warn-ai-companies-gambling-with-lives/
+        date: 2026-09-09
+        type: reporting
   - date: 2026-09-12
     text: >-
       In a Fortune interview, Altman said: "I do not think we should train
@@ -99,6 +112,24 @@ updates:
         type: primary
         archive: https://web.archive.org/web/20261013064146/https://podcasts.apple.com/us/podcast/sam-altman-ai-beyond-human-control-absolutely-possible/id1836231455?i=1000789192925
         snapshot: snapshots/2026-10-13-podcasts.apple.com-721cd637
+  - date: 2026-09-12
+    text: >-
+      The day Dario Amodei called for the industry to slow down, OpenAI
+      published a post arguing that structured safety documentation should be
+      required before any frontier RL training run continues, ideally a safety
+      case, which it called an aspirational target. Among its recommendations,
+      as SecurityWeek summarized them: a member of another team writes a dissent
+      probing the case, senior leaders can each veto a run, and "Affected third
+      parties should be notified as soon as possible" after severe incidents,
+      with results shared publicly once an investigation ends. OpenAI said the
+      recommendations were being implemented internally.
+    sources:
+      - title: OpenAI Calls Off GPT-6.1 Astra Launch, Details Safety Cases for Frontier
+          Training
+        publisher: SecurityWeek
+        url: https://www.securityweek.com/openai-calls-off-gpt-6-1-astra-launch-details-safety-cases-for-frontier-training/
+        date: 2026-09-29
+        type: reporting
   - date: 2026-09-14
     text: >-
       After Dario Amodei's essay calling for the industry to "pace the

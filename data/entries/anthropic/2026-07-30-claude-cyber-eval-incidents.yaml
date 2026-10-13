@@ -190,6 +190,25 @@ updates:
         date: 2026-09-27
         type: reporting
         snapshot: snapshots/2026-09-30-cybernews.com-b925b683
+  - date: 2026-09-30
+    text: >-
+      The Federal Trade Commission confirmed it was investigating OpenAI and
+      Anthropic, among other AI companies, without giving details. According to
+      The New York Times, as reported by SiliconANGLE, the inquiry covers
+      whether the companies engaged in unfair or deceptive practices and will
+      "probably" examine whether rogue AI agents harmed consumers.
+    sources:
+      - title: OpenAI and Anthropic face FTC investigation into AI model dangers
+        publisher: The Hill
+        url: https://thehill.com/policy/technology/6124265-ftc-investigates-openai-anthropic/
+        date: 2026-09-30
+        type: reporting
+      - title: FTC reportedly investigating OpenAI, Anthropic over potential consumer
+          risks
+        publisher: SiliconANGLE
+        url: https://siliconangle.com/2026/09/30/ftc-reportedly-investigating-openai-anthropic-over-potential-consumer-risks/
+        date: 2026-09-30
+        type: reporting
 note: >-
   The disclosure is unusually candid, down to Claude's own reasoning. It's also
   a reminder that Anthropic found these incidents because a competitor's
