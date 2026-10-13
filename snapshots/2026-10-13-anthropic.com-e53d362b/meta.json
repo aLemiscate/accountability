@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+  "captured_at": "2026-10-13T19:49:32.753Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "8b020f73c829c1edcf081af028d9b292436a6cc346ebdcb4e339a277c8e03367",
+    "page.txt": "865534b66905198640c33bd1ac8f953fdf5efa3be403402dec5a88d56c95db80",
+    "screenshot.jpg": "e3f432e6f41eb07e5fe68dbc1661bcfda6551329f448fff8770fe09ce0e23ee1",
+    "rendered.txt": "9d79aea58e499c54cf458f94f186ed1344afd6d6ade9ebbac9d5e692418530ce"
+  },
+  "http_status": 200,
+  "final_url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+  "content_type": "text/html; charset=utf-8",
+  "title": "Investigating unintended model actions in our evaluations and internal use \\ Anthropic",
+  "rendered_status": 200
+}

@@ -68,12 +68,14 @@ updates:
         url: https://www.aol.com/articles/3-fired-openai-employees-write-021948000.html
         date: 2026-10-07
         type: reporting
+        snapshot: snapshots/2026-10-13-aol.com-014cdd5d
       - title: 'Fired OpenAI Researchers Urge Board to Maintain Model Monitoring and
           Allow External Audits: Report'
         publisher: Techstrong.ai
         url: https://techstrong.ai/articles/fired-openai-researchers-urge-board-to-maintain-model-monitoring-and-allow-external-audits-report/
         date: 2026-10-08
         type: reporting
+        snapshot: snapshots/2026-10-13-techstrong.ai-c67529ef
   - date: 2026-10-08
     text: >-
       The three posted their letter on Twitter and said the firings were
@@ -94,6 +96,7 @@ updates:
         url: https://www.npr.org/2026/10/09/nx-s1-5996890/openai-safety-firings
         date: 2026-10-09
         type: reporting
+        snapshot: snapshots/2026-10-13-npr.org-ddfa4e18
 response: >-
   An OpenAI spokesperson told the Journal: "We have parted ways with three
   individuals for violating our policies on accessing and handling sensitive

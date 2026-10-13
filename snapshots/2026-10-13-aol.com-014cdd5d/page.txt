@@ -1,0 +1,18 @@
+3 Fired OpenAI Employees Write Plea for Chain of Thought Monitoring to Be Preserved
+Mike Pearl
+Updated Thu, October 8, 2026 at 2:43 AM UTC
+0
+©Chip Somodevilla/Getty Images
+A new letter from insiders about the potential dangers of AI is refreshingly specific. The writers are concerned, according to the Wall Street Journal , about preserving the ability to monitor models’ chains of thought. But the authors aren’t technically insiders now, because they were recently fired.
+Last week, OpenAI announced that it had “parted ways with three individuals for violating our policies on accessing and handling sensitive company information.” They had allegedly conveyed said information to an AI safety organization.
+Those employees were Tomek Korbak, Mikita Balesni, and Jasmine Wang, and they’re clearly of the school of thought that AI poses an existential risk. Before their firings, Balesni had already posted on X that he thinks AI is “10% likely to kill all humans.” Wang had posted, “It’s hard to overstate how dangerous speeding towards RSI is.” (RSI, or recursive self-improvement, means AI models improving themselves).
+Korbak, Balesni, and Wang’s new letter is addressed to OpenAI’s board and the company’s “safety committees,” the WSJ writes. It hasn’t been published publicly, and the WSJ has only published excerpts.
+Advertisement
+“As an industry, we do not yet know how to safely develop and deploy models that we cannot monitor[…] OpenAI and other frontier companies should not move forward with developments that further decrease” monitoring, the letter says.
+OpenAI’s latest flagship model, GPT-6 Astra, has triggered two types of worry vis-a-vis chain of thought (CoT), and here I will describe them using metaphorical language at the risk of anthropomorphizing models: A) they may be learning to outwit the monitoring system, and B) OpenAI supposedly might be steering things in a direction that could make CoT monitoring less useful anyway.
+More specifically, according to the model’s system card , “Astra class models could evade our CoT monitors under adversarial conditions.” And meanwhile, reasoning with Astra also involves a more opaque form of “thinking” (and look: none of this is actual thinking, but that’s the term we currently have) called “recurrent depth.” Recurrent depth at first cycles a query through the model multiple times to process it rather than generating anything—an event that happens inside the unknowable black box of the model, so there’s nothing to monitor.
+Interestingly, when the WSJ reached out to OpenAI for a comment about the letter, an OpenAI representative said the firings “were not about raising safety concerns or speaking out,” and presented an internal memo about the letter in which the company said it “strongly agreed” with the authors’ recommendations.
+Show comments
+0
+Advertisement
+From Our Partners

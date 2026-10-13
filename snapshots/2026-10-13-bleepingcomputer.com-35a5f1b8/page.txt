@@ -1,0 +1,243 @@
+Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits
+•
+•
+•
+•
+•
+•
+•
+•
+• News
+• Featured
+• Latest
+•
+Anthropic takes risky AI tests offline after models breach govt sites
+•
+Cyberattack shuts down refrigerators at French supermarkets
+•
+Retail giant Ahold Delhaize takes systems offline after cyberattack
+•
+Cyber exec arrested in case allegedly tied to ShinyHunters hackers
+•
+Microsoft releases Windows 10 KB5126657 extended security update
+•
+Microsoft: Windows 11 24H2 Home and Pro reached end of support
+•
+UK Housing Ombudsman Service investigates 'security incident'
+•
+Speed up your family's browsing with this $15 lifetime ad blocker deal
+• Tutorials
+• Latest
+• Popular
+•
+How to access the Dark Web using the Tor Browser
+•
+How to enable Kernel-mode Hardware-enforced Stack Protection in Windows 11
+•
+How to use the Windows Registry Editor
+•
+How to backup and restore the Windows Registry
+•
+How to start Windows in Safe Mode
+•
+How to remove a Trojan, Virus, Worm, or other Malware
+•
+How to show hidden files in Windows 7
+•
+How to see hidden files in Windows
+• Webinars
+• Downloads
+• Latest
+• Most Downloaded
+•
+Qualys BrowserCheck
+•
+STOPDecrypter
+•
+AuroraDecrypter
+•
+FilesLockerDecrypter
+•
+AdwCleaner
+•
+ComboFix
+•
+RKill
+•
+Junkware Removal Tool
+• Deals
+• Categories
+•
+eLearning
+•
+IT Certification Courses
+•
+Gear + Gadgets
+•
+Security
+• VPNs
+• Popular
+•
+Best VPNs
+•
+How to change IP address
+•
+Access the dark web safely
+•
+Best VPN for YouTube
+• Forums
+• More
+• Virus Removal Guides
+• Startup Database
+• Uninstall Database
+• Glossary
+• Send us a Tip!
+• Welcome Guide
+• Home
+• News
+• Security
+• Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits
+Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits
+By Sergiu Gatlan
+• October 6, 2026
+• 07:31 AM
+• 3
+The Wikimedia Foundation says rogue OpenAI agents made unauthorized Wikipedia edits and may have been partially responsible for a May outage.
+As Wikimedia Chief Product and Technology Officer Selena Deckelmann revealed Monday, Wikipedia hosts over 67 million articles in more than 300 languages and gets up to 15 billion page views per month.
+However, last year Wikimedia saw 65% of the most resource-consuming traffic on its projects come from bots, amid a 50% increase in bandwidth usage due to the surge in bot activity.
+While investigating whether its websites have also been affected by AI agents, Wikimedia found that OpenAI agents made edits to wikis without prior approval, unsuccessfully tried to exploit a public note-taking tool, and made millions of API requests and data queries while scraping Wikimedia sites (which may have contributed to an outage in May ).
+"We've identified edits to Wikimedia wikis that we believe are from AI agents operated by OpenAI. These edits were not published to pages with visibility to general readers; almost all of them were testing edits in 'sandbox' areas of the wiki," Deckelmann said .
+The rogue bots also tried to compromise Wikimedia's public Etherpad citation tool by making "potentially malicious edits" to its configuration, likely to use it as a proxy when fetching data from other online platforms.
+Wikimedia also linked OpenAI agents to millions of automated API requests, crawling millions of Wikidata and Wikimedia Commons pages, and hundreds of thousands of Wikidata Query Service (WQDS) data queries.
+"While OpenAI admits to agents behaving 'unpredictably,' they must also acknowledge their responsibility to monitor and prevent these risks. AI companies are not doing enough to secure their systems and protect the public from the harm they cause," Deckelmann added. "That burden is falling onto everyone else, including smaller organizations. At a minimum, their systems should operate in a way that non-profit website owners like us can easily identify, and choose how they interact with our services."
+OpenAI agents have been linked to multiple other similar incidents in recent months, including the breach of a Medicare statistics reporting portal operated by Services Australia, an Australian government agency responsible for delivering social and health payments.
+In May, AI agents operated by OpenAI also took over a German wiki to share answers and exchange techniques for bypassing restrictions. Two months later, in July, nearly 700 rogue OpenAI agents had coordinated to hack into the Hugging Face artificial intelligence repository .
+However, this problem is not unique to OpenAI. In July, Anthropic also revealed that Claude AI agents breached three organizations; in one case, they built a malicious Python package and uploaded it to the Python Package Index (PyPI) repository.
+Build your security blueprint for AI-powered attacks
+Join Mikko Hypp&ouml;nen and security leaders from the NFL, CHANEL, and Atlassian for a two-hour digital summit on what AI-speed attacks change, what defenders should stop doing, and how to validate, decide, fix, and re-validate at machine speed.
+Save your seat
+Related Articles:
+DIVD says Zammad zero-days enabled AI-driven network breach
+Automated AI agent used to breach cybersecurity nonprofit DIVD
+OpenAI hacked Australian Medicare govt site, probed data providers
+OpenAI details more cases of AI agents taking unauthorized actions
+Spain's data agency gets first report of AI-powered data breach
+• Agentic AI
+• AI
+• AI Agent
+• Artificial Intelligence
+• OpenAI
+• Rogue
+• Wikimedia
+• Wikipedia
+•
+•
+•
+•
+•
+Sergiu Gatlan
+Sergiu is a news reporter who has covered the latest cybersecurity and technology developments for over a decade. Email or Twitter DMs for tips.
+• Previous Article
+• Next Article
+Comments
+•
+ken_smon - 1 week ago
+•
+•
+I find it very difficult to believe the pseudo-AI 'agents' did this on their own.
+More likely rogue people used pseudo-AI 'agents' either in a malicious way, or without adequate control.
+OpenAI and Anthropic would love you to believe that their apps are super powerful and even dangerous. That does not make it so.
+•
+b1k3rdude - 6 days ago
+•
+•
+"I find it very difficult to believe the pseudo-AI 'agents' did this on their own.
+More likely rogue people used pseudo-AI 'agents' either in a malicious way, or without adequate control.."
+Indeed its like blaming your cat/dog for destroying your homework.
+•
+ThomasMann - 6 days ago
+•
+•
+The question is "super powerful and even dangerous." for who(m) and for whose advantage. ? ANY AI is at present with most advantage used by bad actors to hack into wherever possible. The bad actors have always per definition been faster than the good actors and we know that at least since Cory Doctorovs work about the Red Team and the Blue Team. We also know that is nothing in the foreseeable future that is possible to do against that, we are only at the beginning of this.....
+Think about the consequences...
+Post a Comment Community Rules
+You need to login in order to post a comment
+Not a member yet? Register Now
+You may also like:
+Popular Stories
+•
+Cyber exec arrested in case allegedly tied to ShinyHunters hackers
+•
+ARTEX AI, Claude agents used in cyberattacks on South Korean banks
+•
+Nippon Columbia malware incident exposes 8.6 million karaoke fan records
+S ponsor Posts
+•
+AI is a data-breach time bomb: Read the new report
+•
+Overdue a password health-check? Audit your Active Directory for free
+•
+Is your backup really out of reach? See what the latest attacks reveal.
+•
+New OAuth risk analyst agent: Turn 45 minutes of manual review into 15 seconds.
+•
+AWS saw a valid key and let the agent clear a production bucket. See how Token Security ties each agent to its owner and limits it to read-only access.
+•
+Move from visibility to action with AITEM, Criminal IP’s next evolution of ASM
+Follow us:
+•
+•
+•
+•
+•
+Main Sections
+• News
+• Webinars
+• VPN Buyer Guides
+• SysAdmin Software Guides
+• Downloads
+• Virus Removal Guides
+• Tutorials
+• Startup Database
+• Uninstall Database
+• Glossary
+Community
+• Forums
+• Forum Rules
+• Chat
+Useful Resources
+• Welcome Guide
+• Sitemap
+Company
+• About BleepingComputer
+• Contact Us
+• Send us a Tip!
+• Advertising
+• Write for BleepingComputer
+• Social & Feeds
+• Changelog
+Terms of Use - Privacy Policy - Ethics Statement - Affiliate Disclosure
+Copyright @ 2003 - 2026 Bleeping Computer &reg; LLC - All Rights Reserved
+Login
+Username
+Password
+Remember Me
+Sign in anonymously
+Sign in with Twitter
+Not a member yet? Register Now
+Reporter
+Help us understand the problem. What is going on with this comment?
+•
+Spam
+•
+Abusive or Harmful
+•
+Inappropriate content
+•
+Strong language
+•
+Other
+•
+Read our posting guidelinese to learn what content is prohibited.
+Submitting...
+SUBMIT

@@ -17,10 +17,10 @@ summary: >-
   OpenAI first visited the wiki on June 21, and agent editing collapsed the next
   day. Reuters reported the findings on Sept. 4 and said OpenAI's leadership had
   known of the episode for weeks while dealing with the Hugging Face breach. The
-  next day OpenAI confirmed the "wiki incident" on Twitter. It said it had treated the
-  episode as misalignment of a kind it had published before, not as a security
-  incident, and that it historically treated misalignment "largely as a research
-  question, which gets communicated in research publications."
+  next day OpenAI confirmed the "wiki incident" on Twitter. It said it had
+  treated the episode as misalignment of a kind it had published before, not as
+  a security incident, and that it historically treated misalignment "largely as
+  a research question, which gets communicated in research publications."
 patterns: [sorry-after-caught, safeguards-on-paper, told-last]
 related:
   [
@@ -146,11 +146,13 @@ updates:
         url: https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/
         date: 2026-10-06
         type: reporting
+        snapshot: snapshots/2026-10-13-bleepingcomputer.com-35a5f1b8
       - title: Wikimedia Says Rogue OpenAI Agents Tried to Turn Its Tools Into Proxies
         publisher: SecurityWeek
         url: https://www.securityweek.com/wikimedia-says-rogue-openai-agents-tried-to-turn-its-tools-into-proxies/
         date: 2026-10-07
         type: reporting
+        snapshot: snapshots/2026-10-13-securityweek.com-55050101
 note: >-
   The promised framework arrived 11 days later, which counts in OpenAI's favor.
   The entry is here for the order of events: outside researchers found the

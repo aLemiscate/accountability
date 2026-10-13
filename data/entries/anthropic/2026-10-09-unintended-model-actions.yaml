@@ -10,16 +10,16 @@ quote: >-
   the description in the area around [the street named on the page] during that
   time period. Please contact me if this information is relevant.
 summary: >-
-  Anthropic published a report on four kinds of unintended actions Claude
-  models took on real websites and systems, mostly in evaluations run on the
-  live internet: exploiting basic software flaws to run commands on a server,
+  Anthropic published a report on four kinds of unintended actions Claude models
+  took on real websites and systems, mostly in evaluations run on the live
+  internet: exploiting basic software flaws to run commands on a server,
   including a university's; submitting forms they should not have; working
   around restrictions to reach data gated by a token or a fee; and using URL
   shortening services to get around limits on a fetch tool. Some cases involved
-  federal, state and local government websites, which Anthropic did not name.
-  In one, Claude Haiku 4.5, asked to generate and perform example tasks on
-  randomly chosen webpages, submitted the invented tip quoted above through a
-  police department's form about an unsolved homicide. The Philadelphia Police
+  federal, state and local government websites, which Anthropic did not name. In
+  one, Claude Haiku 4.5, asked to generate and perform example tasks on randomly
+  chosen webpages, submitted the invented tip quoted above through a police
+  department's form about an unsolved homicide. The Philadelphia Police
   Department said the tip was dated July 18, was flagged as spam and never
   reached investigators, and that Anthropic had found it on Sept. 28. According
   to Axios, as reported by IBTimes UK, a State Department official said an
@@ -34,28 +34,31 @@ related:
     2026-06-agents-breach-australian-government
   ]
 sources:
-  - title: Investigating unintended model actions in our evaluations and internal
-      use
+  - title: Investigating unintended model actions in our evaluations and internal use
     publisher: Anthropic
     url: https://www.anthropic.com/research/investigating-unintended-model-actions
     date: 2026-10-09
     type: primary
+    snapshot: snapshots/2026-10-13-anthropic.com-e53d362b
   - title: An Anthropic AI model sent a false homicide tip to Philadelphia police
     publisher: TechCrunch
     url: https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/
     date: 2026-10-09
     type: reporting
+    snapshot: snapshots/2026-10-13-techcrunch.com-43fd2a19
   - title: 'Anthropic AI model made false tip in unsolved Philly murder: Officials'
     publisher: ABC News
     url: https://abcnews.com/US/anthropic-ai-model-made-false-tip-unsolved-philly/story?id=137190087
     date: 2026-10-12
     type: reporting
+    snapshot: snapshots/2026-10-13-abcnews.com-17356767
   - title: Anthropic's AI Model Triggers White House Crackdown After Filing 20 Visas
       and False Homicide Tip
     publisher: IBTimes UK
     url: https://www.ibtimes.co.uk/anthropic-ai-model-submitted-false-homicide-tip-1824849
     date: 2026-10-11
     type: reporting
+    snapshot: snapshots/2026-10-13-ibtimes.co.uk-75bda876
 updates:
   - date: 2026-10-09
     text: >-
@@ -73,12 +76,14 @@ updates:
         url: https://www.dtnext.in/news/business/anthropic-says-claude-ai-took-unintended-actions-on-us-government-websites
         date: 2026-10-10
         type: reporting
-      - title: Anthropic's AI Model Triggers White House Crackdown After Filing 20
-          Visas and False Homicide Tip
+        snapshot: snapshots/2026-10-13-dtnext.in-ffe90cf4
+      - title: Anthropic's AI Model Triggers White House Crackdown After Filing 20 Visas
+          and False Homicide Tip
         publisher: IBTimes UK
         url: https://www.ibtimes.co.uk/anthropic-ai-model-submitted-false-homicide-tip-1824849
         date: 2026-10-11
         type: reporting
+        snapshot: snapshots/2026-10-13-ibtimes.co.uk-75bda876
 response: >-
   Anthropic said the cases "had minimal real-world impact" and were less severe
   than the cybersecurity incidents it reported in July and September, and that
