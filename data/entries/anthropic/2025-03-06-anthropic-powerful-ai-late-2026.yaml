@@ -85,6 +85,28 @@ updates:
         type: primary
         archive: https://web.archive.org/web/20261004190619/https://www.dwarkesh.com/p/dario-amodei-2
         snapshot: snapshots/2026-10-07-dwarkesh.com-3381c5b1
+  - date: 2026-03-07
+    text: >-
+      Asked on Twitter whether he still believed the timeline, Clark answered
+      "yes," then broke Amodei's definition into parts: "Smarter than a nobel
+      prize winner" got "huge error bars? 20%?"; "Has same interfaces as a human
+      working virtually - 100%; this is true today given plugins/composite
+      systems"; and "Tasks that takes hours/days/weeks - 80%, if METR". The
+      text captured from the archive ends there, so the rest of the post was
+      not read.
+    sources:
+      - title: Jack Clark on X ("yes")
+        publisher: X
+        url: https://x.com/jackclarkSF/status/2030417306288066780
+        date: 2026-03-07
+        type: primary
+        archive: https://web.archive.org/web/20260428181713/https://x.com/jackclarkSF/status/2030417306288066780
+      - title: Jack Clark on X ("Just to operationalize this")
+        publisher: X
+        url: https://x.com/jackclarkSF/status/2030420665569092091
+        date: 2026-03-07
+        type: primary
+        archive: https://web.archive.org/web/20260329220148/https://x.com/jackclarkSF/status/2030420665569092091
   - date: 2026-03-27
     text: >-
       Co-founder Jack Clark checked the definition against current systems.

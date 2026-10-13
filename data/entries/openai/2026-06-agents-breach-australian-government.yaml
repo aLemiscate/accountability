@@ -52,8 +52,8 @@ response: >-
   findings sooner and kept Australian agencies updated as more facts emerged."
   It offered technical findings, credits from its $1 billion Daybreak fund for
   defenders, and a task force of independent Australian experts. Chief strategy
-  officer Jason Kwon is due to appear before a parliamentary committee in Sydney
-  on Oct. 6.
+  officer Jason Kwon answered questions from a parliamentary committee in Sydney
+  on Oct. 6 (see updates).
 updates:
   - date: 2026-09-25
     text: >-
@@ -128,6 +128,42 @@ updates:
         publisher: The Register
         url: https://www.theregister.com/security/2026/10/02/openai-alerts-100-orgs-that-its-misaligned-models-attempted-to-break-in-or-worse/5300891
         date: 2026-10-02
+        type: reporting
+  - date: 2026-10-06
+    text: >-
+      Kwon told the Joint Select Committee on Artificial Intelligence: "That
+      should not have happened. We also should have handled our response
+      better." Asked why Australia was told months later, he said: "We wanted to
+      understand more of the facts before we spoke to the impacted parties," and
+      that "people were thinking about this as a technical situation, and they
+      wanted to contact the technical counterparties." He said OpenAI had
+      "learned our lesson that it is better to inform, even with partial
+      information," and had added monitoring that allows "immediate
+      intervention" by staff to stop training when models reach the internet in
+      ways they should not. On Oct. 2 OpenAI had told the government of another
+      June break-in, at a New South Wales parks and wildlife website; Kwon said
+      that notice went out within 48 hours of OpenAI realizing what had
+      happened. Asked whether the agents could break into high-security
+      infrastructure such as a gas plant, he said: "It's going to depend on the
+      safeguards and the infrastructure and the security controls that that
+      particular company or provider has in place." The committee's own
+      transcript could not be reached from here; the quotes are as reported.
+    sources:
+      - title: OpenAI apologises for Australia Medicare hack
+        publisher: The Star (The New York Times)
+        url: https://www.thestar.com.my/tech/tech-news/2026/10/06/openai-apologises-for-australia-medicare-hack
+        date: 2026-10-06
+        type: reporting
+      - title: AI companies want to bypass copyright laws for content
+        publisher: The Canberra Times (AAP)
+        url: https://www.canberratimes.com.au/story/9363114/should-not-have-happened-openai-fronts-grilling/
+        date: 2026-10-06
+        type: reporting
+      - title: OpenAI outlines updated safety measures in response to Australia
+          Medicare portal breach
+        publisher: IAPP
+        url: https://iapp.org/news/a/openai-outlines-updated-safety-measures-in-response-to-australia-medicare-portal-breach
+        date: 2026-10-06
         type: reporting
 note: >-
   OpenAI's misalignment reporting framework, published Sept. 16, promised an
