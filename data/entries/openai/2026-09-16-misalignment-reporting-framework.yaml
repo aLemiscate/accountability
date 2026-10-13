@@ -21,6 +21,7 @@ summary: >-
   reports with the framework.
 concreteness: conditional
 status: open
+last_checked: 2026-10-13
 breaks_if: >-
   A serious misalignment incident that OpenAI knew of becomes public first
   through someone else, with no initial notice from OpenAI and no security

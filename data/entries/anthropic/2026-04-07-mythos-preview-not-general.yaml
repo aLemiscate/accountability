@@ -19,6 +19,7 @@ summary: >-
   a general release on an upcoming Claude Opus model first.
 concreteness: conditional
 status: open
+last_checked: 2026-10-13
 breaks_if: >-
   A generally available Mythos-class model is shown to give attackers
   Mythos-level cyber capability that other public models don't, through a bypass

@@ -19,6 +19,7 @@ summary: >-
   action on the basis of such preferences."
 concreteness: conditional
 status: open
+last_checked: 2026-10-13
 breaks_if: >-
   Anthropic deletes the weights of a publicly released model, or retires a model
   without the interview and report.

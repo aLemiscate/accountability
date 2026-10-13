@@ -20,6 +20,7 @@ summary: >-
   fixed snapshot."
 concreteness: measurable
 status: open
+last_checked: 2026-10-13
 breaks_if: >-
   A claude.ai or app system prompt, extracted or disclosed, that differs from
   the latest logged version for that model with no new dated entry; or the
