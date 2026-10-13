@@ -264,11 +264,13 @@ updates:
         url: https://gizmodo.com/openai-faces-first-lawsuit-over-rogue-ai-agents-that-hacked-hugging-face-2000819469
         date: 2026-09-30
         type: reporting
+        snapshot: snapshots/2026-10-13-gizmodo.com-c917166e
       - title: OpenAI is sued over the rogue agents that hacked Hugging Face
         publisher: The Next Web
         url: https://thenextweb.com/news/openai-lawsuit-lasst-hugging-face-hack
         date: 2026-09-30
         type: reporting
+        snapshot: snapshots/2026-10-13-thenextweb.com-8cda411a
   - date: 2026-09-30
     text: >-
       The Federal Trade Commission confirmed it was investigating OpenAI and
@@ -282,12 +284,14 @@ updates:
         url: https://thehill.com/policy/technology/6124265-ftc-investigates-openai-anthropic/
         date: 2026-09-30
         type: reporting
+        snapshot: snapshots/2026-10-13-thehill.com-cc2d86aa
       - title: FTC reportedly investigating OpenAI, Anthropic over potential consumer
           risks
         publisher: SiliconANGLE
         url: https://siliconangle.com/2026/09/30/ftc-reportedly-investigating-openai-anthropic-over-potential-consumer-risks/
         date: 2026-09-30
         type: reporting
+        snapshot: snapshots/2026-10-13-siliconangle.com-5d146b4a
   - date: 2026-10-05
     text: >-
       Asked by Politico whether there were rogue-model incidents that had not

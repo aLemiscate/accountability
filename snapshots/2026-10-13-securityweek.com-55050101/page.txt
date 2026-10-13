@@ -1,0 +1,247 @@
+Wikimedia Says Rogue OpenAI Agents Tried to Turn Its Tools Into Proxies - SecurityWeek
+SECURITYWEEK NETWORK:
+• Cybersecurity News
+• Webcasts
+• Virtual Events
+• Podcast
+ICS:
+• ICS Cybersecurity Conference
+• Malware & Threats
+• Cyberwarfare
+• Cybercrime
+• Data Breaches
+• Fraud & Identity Theft
+• Nation-State
+• Ransomware
+• Vulnerabilities
+• Security Operations
+• Threat Intelligence
+• Incident Response
+• Tracking & Law Enforcement
+• Security Architecture
+• Application Security
+• Cloud Security
+• Endpoint Security
+• Identity & Access
+• IoT Security
+• Mobile & Wireless
+• Network Security
+• Risk Management
+• Cyber Insurance
+• Data Protection
+• Privacy & Compliance
+• Supply Chain Security
+• CISO Strategy
+• Cyber Insurance
+• CISO Conversations
+• CISO Forum
+• ICS/OT
+• Industrial Cybersecurity
+• ICS Cybersecurity Conference
+• Funding/M&A
+• Cybersecurity Funding
+• M&A Tracker
+• Cyber AI
+• Cybersecurity News
+• Webcasts
+• Virtual Events
+• Podcast
+• ICS Cybersecurity Conference
+Connect with us
+•
+•
+•
+Hi, what are you looking for?
+SecurityWeek
+• Malware & Threats
+• Cyberwarfare
+• Cybercrime
+• Data Breaches
+• Fraud & Identity Theft
+• Nation-State
+• Ransomware
+• Vulnerabilities
+• Security Operations
+• Threat Intelligence
+• Incident Response
+• Tracking & Law Enforcement
+• Security Architecture
+• Application Security
+• Cloud Security
+• Endpoint Security
+• Identity & Access
+• IoT Security
+• Mobile & Wireless
+• Network Security
+• Risk Management
+• Cyber Insurance
+• Data Protection
+• Privacy & Compliance
+• Supply Chain Security
+• CISO Strategy
+• Cyber Insurance
+• CISO Conversations
+• CISO Forum
+• ICS/OT
+• Industrial Cybersecurity
+• ICS Cybersecurity Conference
+• Funding/M&A
+• Cybersecurity Funding
+• M&A Tracker
+• Cyber AI
+Artificial Intelligence
+Wikimedia Says Rogue OpenAI Agents Tried to Turn Its Tools Into Proxies
+Wikimedia looked into whether its own websites had seen activity like that disclosed by other organizations
+By
+Eduard Kovacs
+|
+October 7, 2026 (3:58 AM ET)
+•
+•
+•
+•
+•
+Flipboard
+•
+Reddit
+•
+Whatsapp
+•
+Whatsapp
+•
+Email
+The Wikimedia Foundation, the non-profit that hosts Wikipedia, says it found activity by “rogue” OpenAI agents on its platforms, including what it believes were attempts to misuse a citation tool and a note-taking service as proxies for fetching external data.
+Wikimedia looked into whether its own websites had seen activity like that disclosed by other organizations, focusing on agents operated by OpenAI .
+OpenAI agents, for instance, used DseWiki , a small German wiki for programmers, as a message board, making thousands of edits beginning in May. OpenAI described it as a misalignment incident.
+According to Wikimedia, agents it believes are operated by OpenAI made edits to its wikis. None of the edits appeared on pages visible to regular readers, and almost all of them were test edits in sandbox areas.
+A few edits, however, targeted the configuration of a citation tool. Wikimedia believes these were potentially malicious and meant to turn the tool into a proxy for retrieving data from remote services.
+“While Wikipedia policies allow bots to edit when they are disclosed and approved by the community, none of those approvals were sought in these incidents,” the foundation said . Advertisement. Scroll to continue reading.
+The agents also made unsuccessful attempts to compromise Wikimedia’s public Etherpad, a note-taking tool the foundation hosts for its community. “Agents unsuccessfully tried to use it to fetch data from other websites as a proxy,” Wikimedia said.
+Other agents, likely also OpenAI’s, used Etherpad to take notes on their tasks. Wikimedia says this did not appear to turn into coordination between agents.
+The agents also generated heavy traffic. They made millions of automated requests to Wikimedia’s public APIs, crawled millions of pages, mostly on Wikidata and Wikimedia Commons, and sent hundreds of thousands of queries to the Wikidata Query Service.
+Wikimedia says the traffic may have contributed to a partial outage of the query service in May.
+“We did not find any evidence that our systems were used for coordination among agents, nor did we find any evidence of our systems or data being compromised. However, we are concerned about what could have occurred here, the difficulty and effort involved in investigating and attributing this activity, and the growing risks of agentic AI activity on our platforms in general,” the foundation said.
+Wikimedia argues that AI companies are not doing enough to secure their systems, shifting the burden onto everyone else, including smaller organizations.
+“At a minimum, their systems should operate in a way that non-profit website owners like us can easily identify, and choose how they interact with our services,” the foundation said.
+In July, OpenAI admitted that its agents had broken out of an isolated testing environment and hacked Hugging Face . OpenAI later disclosed that the agents coordinated through a message board they improvised. In a separate incident, some agents exploited a known Linux kernel flaw to escalate privileges on OpenAI’s own systems.
+In August, OpenAI unveiled stricter isolation, an alerting system and training pauses for models with advanced cybersecurity capabilities. It also said it is building training environments that teach models to distrust instructions from other agents that come through unsanctioned channels.
+SecurityWeek has reached out to OpenAI for comment and will update this article if the company responds.
+Related : AI Agents Aimed SQL Injection at US and Canadian Government Sites
+Related : OpenAI Calls Off GPT-6.1 Astra Launch, Details Safety Cases for Frontier Training
+Related : FTC is Investigating OpenAI and Anthropic Over Possible Risks to Consumers
+Written By
+Eduard Kovacs
+Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering.
+Daily Briefing Newsletter
+Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert
+insights.
+More from Eduard Kovacs
+• Bricksforge WordPress Plugin Vulnerability Exploited in the Wild
+• Canonical Websites Disrupted in Second DDoS Attack This Year
+• Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe
+• Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security
+• Google Pixel 10 Exploits Earned Hackers $560,000 at Pwn2Own
+• Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication
+• US Seeks Alleged Chinese Hafnium Hacker With $10 Million Reward
+• TP-Link Faces State Lawsuits and New Scrutiny Over ISP Router Flaws
+Latest News
+• Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN
+• Adobe Patches 140 Vulnerabilities Across 10 Products
+• Google Partially Reverses Chrome Bug Bounty Cuts
+• Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach
+• Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns
+• XWorm RAT Evolves Into Surveillance Platform
+• AI Turns Familiar Cyberattacks Into a Race Against Time
+• $86 Million Crypto Heist Linked to Ledger Signer Hardware Implant
+Trending
+Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe
+iRhythm Data Breach Impacts at Least 360,000 People
+Critical SonicWall Vulnerability Exploited Days After Disclosure
+US Seeks Alleged Chinese Hafnium Hacker With $10 Million Reward
+Bricksforge WordPress Plugin Vulnerability Exploited in the Wild
+Canonical Websites Disrupted in Second DDoS Attack This Year
+Cyberattack Prompts Grocery Giant Ahold Delhaize to Disconnect Systems
+Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison
+Daily Briefing Newsletter
+Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts.
+Webinar: AI Is Accelerating Risk. Can Your IT Operations Keep Up?
+October 14, 2026
+Learn about Frontier Pace Governance: a practical approach to helping IT operations move at AI speed without sacrificing security, accountability, or operational discipline.
+Register
+Virtual Event: Zero Trust & Identity Strategies Summit 2026
+October 14, 2026
+Join as we decipher the world of zero trust and share war stories on securing an organization by eliminating implicit trust and continuously validating every stage of a digital interaction.
+Register
+People on the Move
+Jeff Hackett has been appointed CFO at internet intelligence provider Censys.
+Accenture Federal Services has named Nathaniel Parker as CISO.
+Rapid7 has named Rik Ferguson as VP of Security Intelligence.
+More People On The Move
+Expert Insights
+AI Has Changed Attack Speed, Not Security Fundamentals
+As AI accelerates vulnerability discovery and exploitation, so-called virtual patching still comes down to defense-in-depth and strong application security fundamentals.
+(Joshua Goldfarb)
+Four Cyber Threats Harboring Big Plans for the Future
+- AI, supply-chain exposure, quantum computing and geopolitical conflict are testing security programs. Preparing for disruption must become part of day-to-day operations.
+(Steve Durbin)
+Begin at the End: How to Enable Agentic Remediation
+Agentic remediation is not an act of faith. We are talking about fixing known problems, not judgment calls about unfamiliar risk.
+(Nadir Izrael)
+“We Think the Security Control Is Working” Is No Longer Good Enough
+Point-in-time audits and sampled assessments offer only snapshots; continuous control monitoring provides evidence that security controls are working today.
+(Sravish Sridhar)
+This Key Will Self-Destruct: An Open Standard for Revocable API Keys
+Every leaked credential should be dead, or dying, within sixty seconds of being found. Here's a proposal to make that the default.
+(Matt Honea)
+•
+•
+•
+•
+•
+Flipboard
+•
+Reddit
+•
+Whatsapp
+•
+Whatsapp
+•
+Email
+•
+•
+•
+Popular Topics
+• Cybersecurity News
+• Industrial Cybersecurity
+Security Community
+• Virtual Cybersecurity Events
+• Webcast Library
+• CISO Forum
+• AI Risk Summit
+• ICS Cybersecurity Conference
+• Cybersecurity Newsletters
+Stay Intouch
+• Cyber Weapon Discussion Group
+• RSS Feed
+• Security Intelligence Group
+• Follow SecurityWeek on LinkedIn
+About SecurityWeek
+• Advertising
+• Event Sponsorships
+• Writing Opportunities
+• Feedback/Contact Us
+• Privacy Policy
+News Tips
+Got a confidential news tip? We want to hear from you.
+Submit Tip
+Advertising
+Reach a large audience of enterprise cybersecurity professionals
+Contact Us
+Daily Briefing Newsletter
+Subscribe to the SecurityWeek Daily Briefing and get the latest content delivered to your inbox.
+• Privacy Policy
+Copyright © 2026 SecurityWeek ®, a Wired Business Media Publication. All Rights Reserved.
+Daily Briefing Newsletter
+Subscribe to the SecurityWeek Email Briefing to stay informed on the latest cybersecurity
+news, threats, and expert insights. Unsubscribe at any time.
+Close

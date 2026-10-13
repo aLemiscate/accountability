@@ -24,7 +24,7 @@ Status of the "said" entries:
 | OpenAI | 20 | 8 | 13 | 6 | 4 | 8 |
 | Anthropic | 17 | 6 | 3 | 5 | 3 | 1 |
 
-141 of the 142 quotes whose sources have a saved snapshot match that text word
+142 of the 143 quotes whose sources have a saved snapshot match that text word
 for word. The other is Altman's November 2023 remark on voice cloning, quoted
 from the event's audio (the saved page is the event listing). For one quote, the White House
 accord, the text exists only as an image, and the match is against a
@@ -635,12 +635,14 @@ about other companies. Every source was read in full.
 
 - **Pages without a snapshot.** The Capture workflow on GitHub's runners saved
   the pages this review couldn't reach, including every openai.com page the
-  record cites. 27 of the 899 distinct source addresses (entries, updates,
+  record cites. 21 of the 923 distinct source addresses (entries, updates,
   commitment grades and industry notes) still have no snapshot: paywalled
   stories (Wall Street Journal, Washington Post, New York Times, Forbes,
-  Reuters) and sites that refuse automated requests (Gizmodo, Techmeme,
-  Inc., SSRN and a few others). Those are cited by URL, and quoted through
-  reporting that reproduced them.
+  Reuters, Fast Company) and sites that refuse automated requests (Techmeme,
+  Inc., SSRN, Slashdot, Business Wire, and the Conversations with Tyler
+  transcript). Those are cited by URL, and quoted through reporting that
+  reproduced them. Bot checks and empty pages are no longer saved as
+  snapshots, so a blocked source shows up here instead of looking captured.
 - **Paywalled and non-English reporting.** Wall Street Journal, New York Times,
   Bloomberg, New Yorker and The Information stories are cited through
   secondary coverage. Outside English, only regulators' decisions were

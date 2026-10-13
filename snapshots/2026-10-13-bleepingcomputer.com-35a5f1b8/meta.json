@@ -1,0 +1,16 @@
+{
+  "url": "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/",
+  "captured_at": "2026-10-13T19:53:57.114Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "8ed6de2e19377efb5c9c47092ce38bfefa0e7093c62f61ac1c897ceeac6f902c",
+    "page.txt": "2ba69ce7f81503ff6d284cea3c2c4dd32010b26676c5eff1b7cb6347ab11e624",
+    "screenshot.jpg": "f9a52639a7b794f9036f4e4d7e76be946ddc2e4d7a77e5b791a26850765171ac",
+    "rendered.txt": "1f6ceea958e0e264f6bab635a239e708ed5bfef0a1b6d2c33948e47ef37828e7"
+  },
+  "http_status": 200,
+  "final_url": "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits",
+  "rendered_status": 200
+}

@@ -86,12 +86,13 @@ updates:
       ten days after this announcement, according to Fortune. The report did not
       say whether this was the frontier RL run OpenAI had put on hold.
     sources:
-      - title: Anthropic researcher resigns, warning that AI companies are “gambling with
-          our lives”
+      - title: Anthropic researcher resigns, warning that AI companies are “gambling
+          with our lives”
         publisher: Fortune
         url: https://fortune.com/2026/09/09/anthropic-researcher-resigns-warn-ai-companies-gambling-with-lives/
         date: 2026-09-09
         type: reporting
+        snapshot: snapshots/2026-10-13-fortune.com-d1f5dc0a
   - date: 2026-09-12
     text: >-
       In a Fortune interview, Altman said: "I do not think we should train
@@ -130,6 +131,7 @@ updates:
         url: https://www.securityweek.com/openai-calls-off-gpt-6-1-astra-launch-details-safety-cases-for-frontier-training/
         date: 2026-09-29
         type: reporting
+        snapshot: snapshots/2026-10-13-securityweek.com-ef750d68
   - date: 2026-09-14
     text: >-
       After Dario Amodei's essay calling for the industry to "pace the
