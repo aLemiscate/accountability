@@ -14,22 +14,19 @@ lobbying and political money, and the industry baseline. The rules for what coun
 | | Said | Did | Total |
 | --- | --: | --: | --: |
 | OpenAI | 59 | 53 | 112 |
-| Anthropic | 35 | 29 | 64 |
-| **Total** | **94** | **82** | **176** |
+| Anthropic | 35 | 30 | 65 |
+| **Total** | **94** | **83** | **177** |
 
 Status of the "said" entries:
 
 | | Standing | Kept | Eroded | Contradicted | Broken | Reversed |
 | --- | --: | --: | --: | --: | --: | --: |
-| OpenAI | 21 | 8 | 12 | 6 | 4 | 8 |
+| OpenAI | 20 | 8 | 13 | 6 | 4 | 8 |
 | Anthropic | 17 | 6 | 3 | 5 | 3 | 1 |
 
-140 of the 142 quotes whose sources have a saved snapshot match that text word
-for word. The other two come from a source without a snapshot: a passage
-from Anthropic's Fable 5 system card, quoted through Gizmodo, whose page the
-Capture workflow couldn't save (checked against Gizmodo's text by hand), and
-Altman's November 2023 remark on voice cloning, quoted from the event's audio
-(the saved page is the event listing). For one quote, the White House
+141 of the 142 quotes whose sources have a saved snapshot match that text word
+for word. The other is Altman's November 2023 remark on voice cloning, quoted
+from the event's audio (the saved page is the event listing). For one quote, the White House
 accord, the text exists only as an image, and the match is against a
 labeled transcription saved beside it. Every quoted phrase in the industry
 notes on the patterns was also checked against its saved source.
@@ -259,6 +256,29 @@ What had been missed, and is now in the record:
 Checked and left out: OpenAI delaying its IPO past 2026 and Anthropic's leaked
 prospectus (no claim tested yet), and the "PixelLeak" screenshots (agents in
 general, not either company's claim).
+
+## What the October 13 audit changed
+
+A second full audit, with machine checks of every quoted phrase, title and
+post date, a re-read of every entry, and a search for events since late
+September. The full account is in
+[inbox/audit/2026-10-13-audit.md](inbox/audit/2026-10-13-audit.md). In short:
+
+- **Long posts had been saved cut off.** X's embed endpoint returns only the
+  first 280 characters of a long post. 59 saved posts were affected; all were
+  saved again in full, and every entry citing them was re-read. Four entries
+  changed as a result, among them Katrina Mulligan's NSA answer, which the
+  record had said was never given.
+- **Five misquotes** fixed, one title copied correctly, four junk snapshots
+  (bot-check pages) removed, and "Twitter" used for the platform in prose.
+- **Every failed statement now has a receipt.** 22 statements whose failure
+  was recorded only on the statement itself now carry a dated outcome, and
+  four missing promise-to-action links were added. Receipts went from 32 to
+  56. One promise marked open had met its own breaks-if test; it is now
+  eroded.
+- **Missing events.** One new entry (Anthropic's Oct. 9 report of Claude
+  models acting on real websites, including a false tip to Philadelphia
+  police) and 11 updates, for both companies.
 
 ## The two companies side by side
 

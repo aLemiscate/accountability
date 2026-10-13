@@ -203,12 +203,14 @@ updates:
         url: https://thehill.com/policy/technology/6124265-ftc-investigates-openai-anthropic/
         date: 2026-09-30
         type: reporting
+        snapshot: snapshots/2026-10-13-thehill.com-cc2d86aa
       - title: FTC reportedly investigating OpenAI, Anthropic over potential consumer
           risks
         publisher: SiliconANGLE
         url: https://siliconangle.com/2026/09/30/ftc-reportedly-investigating-openai-anthropic-over-potential-consumer-risks/
         date: 2026-09-30
         type: reporting
+        snapshot: snapshots/2026-10-13-siliconangle.com-5d146b4a
 note: >-
   The disclosure is unusually candid, down to Claude's own reasoning. It's also
   a reminder that Anthropic found these incidents because a competitor's
