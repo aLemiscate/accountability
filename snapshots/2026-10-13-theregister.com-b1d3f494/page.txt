@@ -1,0 +1,128 @@
+AI + ML
+AMD's AI director slams Claude Code for becoming dumber and lazier since last update
+'Claude cannot be trusted to perform complex engineering tasks' according to GitHub ticket
+Brandon Vigliarolo
+Brandon
+Vigliarolo
+Published
+mon 6 Apr 2026 // 21:27 UTC
+Make us preferred on Google
+If you've noticed Claude Code's performance degrading to the point where you find you don't trust it to handle complicated tasks anymore, you're not alone.
+A GitHub issue was filed on Friday by user stellaraccident. That user's Github profile and a related LinkedIn post identify the poster as Stella Laurenzo, the director of the AI group at chipmaker AMD. She complains that, ever since some time in February, Claude Code has really been phoning it in.
+"Claude cannot be trusted to perform complex engineering tasks," Laurenzo wrote, noting that her team reached that conclusion by referring to months of logs from the "very consistent, high complexity work environment" in which they use Claude Code. "Every senior engineer on my team has reported similar experiences/anecdotes," Laurenzo added.
+REG AD
+Based on comments in the issue thread, plenty of others are feeling the same way, and Reddit commenters have expressed similar sentiments.
+REG AD
+To reach this conclusion, Laurenzo and her team analyzed 6,852 Claude Code sessions incorporating 234,760 tool calls and 17,871 thinking blocks. According to their data, the number of stop-hook violations used to catch ownership dodging, premature cessation of the thinking process, and permission-seeking behavior that indicate "laziness" all skyrocketed, going from zero prior to the 8th of March to 10 per day on average through the end of last month.
+The number of times Claude would read through a piece of code before making changes also dropped drastically, going from 6.6 reads on average to just 2 by the end of March, while over the same period, Claude began rewriting entire files instead of making edits with much greater frequency.
+All of those things, said Laurenzo, point to Claude Code not thinking as deeply, and coincide with the early March deployment of thinking content redaction with Claude Code version 2.1.69. Thinking redaction functions as a header that defaults to stripping thinking content from Claude Code API responses, meaning users don't get any idea what Claude Code is actually doing while it reflects on a request.
+The evidence, according to Lorenzo, points to a general thinking reduction since the implementation.
+"When thinking is shallow, the model defaults to the cheapest action available: edit without reading, stop without finishing, dodge responsibility for failures, take the simplest fix rather than the correct one," the GitHub issue explains. "These are exactly the symptoms observed."
+If you're wondering, this appears to be a separate issue from the issue Claude Code users cried foul about back in February when version 2.1.20 of the bot caused it to truncate its explanation of what it was reading as part of its thinking process.
+In that instance, which led many Claude Code users to decry that it was evidence the AI was being dumbed down, users were left with just a brief line indicating how many files were read with little more specificity than that. We can't imagine those same developers will be very happy about this latest development.
+Anthropic has also caught flak for unexplained surges in token usage that have pushed some users past their limits, leaving them unable to use the product. Add to that the recent exposure of Claude Code's entire source code, and it's not looking good for the AI firm.
+REG AD
+For Laurenzo's part, she wants Anthropic to be transparent about whether it's reducing or capping thinking tokens and causing Claude Code to vomit garbage. At the very least, she wants Claude to expose the number of thinking tokens being used per request to let users "monitor whether their requests are getting the reasoning depth they need."
+Laurenzo also asked for a max thinking tier to be added to Anthropic's offerings for engineers running complex workflows. "The current subscription model doesn't distinguish between users who need 200 thinking tokens per response and users who need 20,000," the AMD AI chief explained. "Users running complex engineering workflows would pay significantly more for guaranteed deep thinking."
+MORE CONTEXT
+•
+Claude Code source leak reveals how much info Anthropic can hoover up about you and your system
+•
+Using AI to code does not mean your code is more secure
+•
+Anthropic sure has a mess on its hands thanks to that Claude Code source leak
+•
+Claude Code's prying AIs read off-limits secret files
+"We have switched to another provider which is doing superior quality work, but Claude has been good to us, and we are leaving this in the hopes that Anthropic can fix their product," Laurenzo explained, while declining to go into details in a comment citing NDAs about whatever new tool her team is using. That said, Laurenzo did warn Anthropic that it's still early in the AI coding game and Anthropic is looking at giving up the top spot if its behavior continues.
+"All I will add is that 6 months ago, Claude stood alone in terms of reasoning quality and execution," Laurenzo added in a response on the issue thread. "But the others need to be watched and evaluated very carefully. Anthropic is far from alone at the capability tier that Opus previously occupied."
+Neither Anthropic nor Laurenzo initially responded to questions for this story. ®
+ai and ml
+software
+ai
+anthropic
+github
+developer
+claude
+Make us preferred on Google
+REG AD
+Microsoft celebrates end of Office 2021 LTSC with MS 365 outage
+So how's that cloud migration working out for German and UK users?
+Microsoft plans multi-gigawatt rollout of next-gen Azure Maia AI accelerator racks
+96-chip configuration promises seven times its predecessor's token throughput, with production deployments due in 2027
+The VMware exit is a protection upgrade
+PARTNER CONTENT: VergeIO says an exit is also an opportunity
+AI bubble could burst and take global economy with it, IMF warns
+Financial watchdog fears AI spending bust could rattle markets, with mounting debt and cyberattacks adding to the headache
+No shame in the Domain Name game: DNS is doomed, literally
+Fancy a bit of fun? It's always DNS
+Cyberattacks crank French supermarket refrigeration systems up to 50°C
+Stock spoiled at hundreds of stores as manufacturer says affected equipment ran outdated firmware
+TOP STORIES
+•
+Anthropic asks users to stop being mean to Claude
+•
+Microsoft and Anthropic play invoice tennis with startup's $17,600 Claude bill
+•
+Starlink's plan to avoid orbital near-misses: Ephemeris sharing
+•
+Shai-Hulud worm makes jump to AI infrastructure with Tensorlake compromise
+•
+Games Workshop seeks IT leader to summon the legions in epic saga battling the forces of ERP
+•
+Dutch tax office ditches Microsoft 365 cloud for on-premises alternative
+AI
+•
+AI systems are fully capable of carrying out nightmare attacks against infrastructure and nobody's ready
+Meanwhile, AI agents move robotic arms, 'make OT device operator screens lie'
+•
+Nvidia found $1B under the couch to help secure American scientific computing dominance
+Commitment comes as GPUzilla prepares to fortify Uncle Sam's arsenal with at least seven AI-optimized supers
+•
+TSMC taps GlobalFoundries to bolster US silicon interposer production in $2B deal
+Advanced packaging tech is essential to the domestic production of high-performance semiconductors used in AI datacenters
+•
+Microsoft is about to let Copilot loose on your file system
+But don't worry, it's totally safe because the agents and models will (probably) be running locally. Routers never break right?
+•
+Microsoft N1Xes Intel in favor of Nvidia's shiny new SoCs in Surface Laptop Ultra
+Poverty-spec model starts at $2,599 with 24 GB of RAM and 512GB of storage with 128 GB models topping $5,899
+Infosec
+•
+Security
+Russians are posing as Signal support to launch phishing attacks
+PLUS: US takes down Iranian propaganda sites; Marketing company asks 'Why Do We Have Your Information?' And more!
+•
+Security
+Microsoft patches failed to fix on-prem SharePoint, which is now under zero-day attack
+PLUS: China upgrades smartphone surveillance tools; Ring eases anti-snooping stance; and more
+•
+Black Hat and DEF CON
+DEF CON Franklin project enlists hackers to harden critical infrastructure
+Voting village reports have been so successful, says Jeff Moss, that the whole of DEF CON will now be included
+•
+Security
+EQT buys majority share in Swiss cybersecurity biz Acronis
+Went at equivalent of $3.5B+ valuation for entire firm, though portion sold not specified
+•
+Malware Month
+Ten years since the first corp ransomware, Mikko Hyppönen sees no end in sight
+On the plus side, infosec's a good bet for a long, stable career
+FOSS
+•
+OpenAI dots inspire open source imitators amid technical difficulties
+Persistent agents appeal to AI companies, but demand isn't obvious
+•
+Ubuntu 'Stonking Stingray' beta swims out: Deeper Rust 'oxidization' plus LLM speech-to-text
+GNOME 51 is here, and Ubuntu interim releases are getting interesting again
+•
+Revive Raskin's 3 laws of software with humane work that considers a dev's duty of care
+All this, and angry NeoVim users
+•
+Firefox 157: Could bold new look be just what Mozilla needs?*
+Yet another new version of Firefox, with a significant reskin
+•
+KDE turns 30 and someone's brought an AI-native desktop proposal
+Akademy talk imagines Plasma assembling itself around a personal model of each user
+•
+Shopify extends lifeline to Tailwind as vibe coding erodes web dev platform's bottom line
+Acquisition gives open source CSS framework 'a stable long-term home'
