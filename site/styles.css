@@ -477,6 +477,9 @@ main { padding-block: 40px 80px; min-height: 50vh; }
 .pcard > p { color: var(--ink-2); }
 .pcard ul { margin: 0; padding-left: 1.1em; color: var(--ink-2); font-size: var(--step--1); display: grid; gap: 4px; }
 .forecast { border-top: 1px solid var(--rule); padding-top: 12px; display: grid; gap: 4px; font-size: var(--step--1); color: var(--ink-2); }
+.industry { border-top: 1px solid var(--rule); padding-top: 12px; display: grid; gap: 4px; font-size: var(--step--1); color: var(--ink-2); }
+.industry a { color: inherit; text-underline-offset: 0.2em; }
+.pbrief .industry { margin-top: 10px; max-width: var(--measure); }
 .pcard .hits { display: grid; gap: 6px; }
 .hit { background: none; border: 0; padding: 0; text-align: left; cursor: pointer; font-size: var(--step--1); display: flex; gap: 8px; align-items: baseline; }
 .hit:hover .ht { text-decoration: underline; text-underline-offset: 0.2em; }

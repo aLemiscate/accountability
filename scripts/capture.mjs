@@ -257,9 +257,10 @@ async function attachToEntry(entryId, url, { dir, meta }) {
 }
 
 /**
- * Walk every source in every entry (including update sources) and every
- * commitment document (including the sources behind each grade), and fill in
- * what is missing: an archive link (mode "archive") or a full snapshot (mode "snapshot").
+ * Walk every source in every entry (including update sources), every
+ * commitment document (including the sources behind each grade) and the
+ * industry context on each pattern, and fill in what is missing: an archive
+ * link (mode "archive") or a full snapshot (mode "snapshot").
  */
 async function fillMissing(mode) {
   const limit = Number(opt('limit') || Infinity);
@@ -270,11 +271,13 @@ async function fillMissing(mode) {
   const done = new Map(); // url -> result, so a URL cited twice is captured once
   let processed = 0;
   let filled = 0;
-  for (const entry of [...entries, ...commitments]) {
+  const patternsFile = { id: 'patterns', file: path.join('data', 'patterns.yaml') };
+  for (const entry of [...entries, ...commitments, patternsFile]) {
     const file = path.join(ROOT, entry.file);
     const doc = YAML.parseDocument(await readFile(file, 'utf8'));
     let changed = false;
-    const lists = [['sources']];
+    const lists = entry === patternsFile ? [] : [['sources']];
+    if (entry === patternsFile) (doc.contents?.items ?? []).forEach((_, i) => lists.push([i, 'industry', 'sources']));
     (doc.get('updates')?.items ?? []).forEach((_, i) => lists.push(['updates', i, 'sources']));
     (doc.get('commitments')?.items ?? []).forEach((c, i) => {
       for (const pair of c.get('grades')?.items ?? []) lists.push(['commitments', i, 'grades', pair.key.value ?? pair.key, 'sources']);

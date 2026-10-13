@@ -19,6 +19,7 @@ export const KINDS = {
 export const STATUSES = ['open', 'kept', 'broken', 'reversed', 'eroded', 'contradicted'];
 export const CONCRETENESS = ['measurable', 'conditional', 'directional', 'aspirational'];
 export const SOURCE_TYPES = ['primary', 'reporting', 'analysis', 'archive'];
+const PATTERN_KEYS = new Set(['id', 'name', 'thesis', 'tells', 'watch_for', 'industry']);
 // Grades for one commitment in a formal document, for one company. "standing"
 // means it is still in force and nothing public shows it broken; "unknown"
 // means it can't be checked from outside.
@@ -146,6 +147,23 @@ export function validate({ patterns, actors, entries, accounts = [], commitments
     if (s.date && !parseDate(s.date)) err(e, `${where}: bad source date "${s.date}"`);
     if (s.archive && !/^https?:\/\//.test(s.archive)) err(e, `${where}: archive must be a URL`);
   };
+
+  // Industry context on a pattern: one sentence about another company, with a dated source.
+  for (const p of patterns) {
+    const pe = { id: `patterns.yaml: ${p.id ?? '?'}` };
+    for (const k of Object.keys(p)) if (!PATTERN_KEYS.has(k)) warn(pe, `unknown field "${k}"`);
+    if (p.industry === undefined) continue;
+    const ind = p.industry;
+    if (!ind || typeof ind !== 'object') { err(pe, 'industry must be a mapping with text and sources'); continue; }
+    for (const k of Object.keys(ind)) if (k !== 'text' && k !== 'sources') warn(pe, `unknown industry field "${k}"`);
+    if (typeof ind.text !== 'string' || !ind.text.trim()) err(pe, 'industry needs text');
+    if (!Array.isArray(ind.sources) || !ind.sources.length) err(pe, 'industry context needs at least one source');
+    (Array.isArray(ind.sources) ? ind.sources : []).forEach((s, j) => {
+      checkSource(pe, s, `industry.sources[${j}]`);
+      if (s && typeof s === 'object' && !s.date) err(pe, `industry.sources[${j}]: source needs a date`);
+      if (s && typeof s === 'object' && !s.publisher) err(pe, `industry.sources[${j}]: source needs a publisher`);
+    });
+  }
 
   for (const e of entries) {
     for (const k of Object.keys(e)) if (!ENTRY_KEYS.has(k) && k !== 'id' && k !== 'file') warn(e, `unknown field "${k}"`);

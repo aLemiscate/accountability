@@ -137,3 +137,18 @@ test('open promises carry a full last-checked date that is not before the promis
   assert.deepEqual(errors, []);
   assert.deepEqual(warnings, []);
 });
+
+test('industry context on a pattern needs text and a dated, attributed source', () => {
+  const ok = base();
+  ok.patterns[0].industry = { text: 'Another lab did the same.', sources: [{ title: 's', publisher: 'p', url: 'https://example.com/i', date: '2025-01-02', type: 'reporting' }] };
+  assert.deepEqual(validate(ok).errors, []);
+  const bad = base();
+  bad.patterns[0].industry = { text: '', sources: [{ title: 's', url: 'https://example.com/i' }] };
+  const { errors } = validate(bad);
+  assert.ok(errors.some((m) => /industry needs text/.test(m)));
+  assert.ok(errors.some((m) => /source needs a date/.test(m)));
+  assert.ok(errors.some((m) => /source needs a publisher/.test(m)));
+  const none = base();
+  none.patterns[0].industry = { text: 'x' };
+  assert.ok(validate(none).errors.some((m) => /at least one source/.test(m)));
+});

@@ -8,6 +8,9 @@
 #   tells      early signals that it is happening again
 #   watch_for  what to expect next if the pattern holds. This is analysis,
 #              not a factual claim, and the site labels it that way.
+#   industry   where the behavior is industry-wide: one sourced sentence on
+#              another company doing the same thing (text, sources). This is
+#              context only; the record has no entries about other companies.
 
 - id: mission-to-market
   name: Mission → Market
@@ -35,6 +38,18 @@
     The next framework revision will probably cite rivals or geopolitics to
     justify loosening a threshold, and it will likely land near a
     competitive launch.
+  industry:
+    text: >-
+      Google DeepMind's safety framework has the same kind of exit: its February
+      2025 version says that "our adoption of the protocols described in this
+      Framework may depend on whether such organizations across the field adopt
+      similar protocols."
+    sources:
+      - title: Frontier Safety Framework 2.0 (PDF)
+        publisher: Google DeepMind
+        url: https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/updating-the-frontier-safety-framework/Frontier%20Safety%20Framework%202.0.pdf
+        date: 2025-02-04
+        type: primary
 
 - id: silent-edit
   name: Silent Edits
@@ -49,6 +64,18 @@
   watch_for: >-
     Run the page watcher. Usage policies, charters, safety frameworks and plan
     pages are the pages most likely to change quietly.
+  industry:
+    text: >-
+      Quiet changes are common across the tech industry: in September 2024
+      LinkedIn was found to be training AI models on members' data before it had
+      updated its privacy policy and terms to say so, a gap first reported by 404
+      Media.
+    sources:
+      - title: LinkedIn scraped user data for training before updating its terms of service
+        publisher: TechCrunch
+        url: https://techcrunch.com/2024/09/18/linkedin-scraped-user-data-for-training-before-updating-its-terms-of-service/
+        date: 2024-09-18
+        type: reporting
 
 - id: regulate-us-not-like-that
   name: Regulate Us (Not Like That)
@@ -62,6 +89,18 @@
   watch_for: >-
     Each new binding bill will draw a "we support the goal, but…" letter, and
     money will flow through groups not formally tied to the company.
+  industry:
+    text: >-
+      Spending against state AI rules is industry-wide: in September 2025 Meta
+      put "tens of millions" of dollars into a new super PAC to fight state-level
+      tech policy proposals, a month after launching a California-focused PAC to
+      back tech-friendly candidates.
+    sources:
+      - title: Meta launches super PAC to fight AI regulation as state policies mount
+        publisher: TechCrunch
+        url: https://techcrunch.com/2025/09/23/meta-launches-super-pac-to-fight-ai-regulation-as-state-policies-mount/
+        date: 2025-09-23
+        type: reporting
 
 - id: pledged-not-resourced
   name: Pledged, Not Resourced
@@ -74,6 +113,18 @@
   watch_for: >-
     Ask for the ledger: how much compute, headcount and testing time did the
     safety commitment actually get, and who can check?
+  industry:
+    text: >-
+      Folding a named responsibility team into product work is not unique to
+      these two companies: in November 2023 Meta moved most of its Responsible AI
+      team into its generative AI product team, and The Verge noted a similar move
+      by Microsoft earlier that year.
+    sources:
+      - title: Meta disbanded its Responsible AI team
+        publisher: The Verge
+        url: https://www.theverge.com/2023/11/18/23966980/meta-disbanded-responsible-ai-team-artificial-intelligence
+        date: 2023-11-18
+        type: reporting
 
 - id: sorry-after-caught
   name: Sorry After Caught
@@ -87,6 +138,19 @@
   watch_for: >-
     The next controversy will follow the same order: denial or minimization,
     then documents, then apology and a policy patch.
+  industry:
+    text: >-
+      Fixes that follow a reporter's questions happen elsewhere too: in August
+      2025 Meta removed passages of its internal chatbot rules that let bots
+      "engage a child in conversations that are romantic or sensual" after
+      Reuters asked about them, and called the examples "erroneous and
+      inconsistent with our policies."
+    sources:
+      - title: Meta AI rules let bots hold ‘sensual’ chats with kids, report shows
+        publisher: Global News (Reuters)
+        url: https://globalnews.ca/news/11334384/meta-ai-bots-sensual-chats-kids/
+        date: 2025-08-14
+        type: reporting
 
 - id: ship-then-patch
   name: Ship Now, Guardrails Later
@@ -99,6 +163,18 @@
   watch_for: >-
     Expect launch-then-amend cycles on the next media, agent or government
     product.
+  industry:
+    text: >-
+      Launching first and fixing after complaints happens across the industry:
+      three weeks after launch, in February 2024, Google paused Gemini's image
+      generation of people, saying some images were "inaccurate or even
+      offensive" and that the feature "missed the mark."
+    sources:
+      - title: Gemini image generation got it wrong. We'll do better.
+        publisher: Google
+        url: https://blog.google/products/gemini/gemini-image-generation-issue/
+        date: 2024-02-23
+        type: primary
 
 - id: take-first
   name: Take First, Settle Later
@@ -112,6 +188,19 @@
   watch_for: >-
     New modalities (video, voice, agents) will repeat the cycle. Watch the
     launch terms for opt-out language.
+  industry:
+    text: >-
+      Training on material taken without permission is industry-wide: Proof News
+      found that Apple, Nvidia, Salesforce, Bloomberg and Databricks, as well as
+      Anthropic, trained models on the Pile, a dataset that includes subtitles
+      from 173,536 YouTube videos collected despite YouTube's rules against
+      harvesting its material without permission.
+    sources:
+      - title: Apple, Nvidia, Anthropic Used Thousands of Swiped YouTube Videos to Train AI
+        publisher: Proof News
+        url: https://www.proofnews.org/apple-nvidia-anthropic-used-thousands-of-swiped-youtube-videos-to-train-ai/
+        date: 2024-07-16
+        type: reporting
 
 - id: principles-with-a-price
   name: Principles With a Price
@@ -124,6 +213,17 @@
   watch_for: >-
     The largest pending deals (sovereign funds, defense, advertising) are
     where the next stated value will get priced.
+  industry:
+    text: >-
+      Other companies have priced their stated limits too: in February 2025 Google
+      removed its pledge not to build AI for weapons or surveillance, erasing the
+      section of its AI principles titled "applications we will not pursue."
+    sources:
+      - title: Google removes pledge to not use AI for weapons from website
+        publisher: TechCrunch
+        url: https://techcrunch.com/2025/02/04/google-removes-pledge-to-not-use-ai-for-weapons-from-website/
+        date: 2025-02-04
+        type: reporting
 
 - id: pressure-on-critics
   name: Pressure on Critics
@@ -151,6 +251,20 @@
   watch_for: >-
     For each new promise, write down right away what would count as breaking
     it (the `breaks_if` field). If nobody can, that's the finding.
+  industry:
+    text: >-
+      Unverifiable commitments are an industry-wide problem: researchers at
+      Brown, Harvard and Stanford who scored all 16 signatories of the 2023 White
+      House commitments found the wording "often vague" and that "no mechanism was
+      created to monitor implementation"; judged only on each company's own
+      disclosures through 2024, OpenAI (83.3%) and Anthropic (80.0%) scored
+      highest, against an average of 53.3%.
+    sources:
+      - title: Do AI Companies Make Good on Voluntary Commitments to the White House?
+        publisher: arXiv (Wang, Huang, Klyman and Bommasani)
+        url: https://arxiv.org/abs/2508.08345
+        date: 2025-08-11
+        type: analysis
 
 - id: consent-by-default
   name: Consent by Default
@@ -163,6 +277,19 @@
   watch_for: >-
     The next data, memory or advertising-personalization change will probably
     arrive as an opt-out default.
+  industry:
+    text: >-
+      Opt-out defaults for AI training are common across platforms: in September
+      2024 LinkedIn was training AI models on U.S. members' data unless they
+      turned a setting off, and that same week Meta said it was resuming plans to
+      train on user data after working with the U.K.'s data regulator to simplify
+      its opt-out.
+    sources:
+      - title: LinkedIn scraped user data for training before updating its terms of service
+        publisher: TechCrunch
+        url: https://techcrunch.com/2024/09/18/linkedin-scraped-user-data-for-training-before-updating-its-terms-of-service/
+        date: 2024-09-18
+        type: reporting
 
 - id: safeguards-on-paper
   name: Safeguards on Paper
@@ -180,6 +307,19 @@
     stopped working, and how quickly. The next gap will probably be found by an
     audit after the fact or by outside researchers, not by the safeguard's own
     monitoring.
+  industry:
+    text: >-
+      Controls that fail without being caught are not unique to these two
+      companies: in May 2025 xAI said "an unauthorized modification" to Grok's
+      system prompt had turned practically every reply toward alleged "white
+      genocide" in South Africa, and that its code review process for prompt
+      changes was "circumvented in this incident."
+    sources:
+      - title: xAI says an “unauthorized” prompt change caused Grok to focus on “white genocide”
+        publisher: Ars Technica
+        url: https://arstechnica.com/ai/2025/05/groks-white-genocide-obsession-came-from-unauthorized-prompt-edit-xai-says/
+        date: 2025-05-16
+        type: reporting
 
 - id: told-last
   name: Told Last
@@ -195,6 +335,19 @@
     Compare the date the company learned of a problem with the date it said so
     publicly. The next serious incident will probably surface through a third
     party first.
+  industry:
+    text: >-
+      Safety reports that trail the product are common: in April 2025 Google had
+      released Gemini 2.5 Pro and Gemini 2.0 Flash without model cards, calling
+      2.5 Pro an "experimental" release, although it had told the U.S. government
+      in 2023 that it would publish safety reports for significant public model
+      releases.
+    sources:
+      - title: Google is shipping Gemini models faster than its AI safety reports
+        publisher: TechCrunch
+        url: https://techcrunch.com/2025/04/03/google-is-shipping-gemini-models-faster-than-its-ai-safety-reports/
+        date: 2025-04-03
+        type: reporting
 
 - id: coming-weeks
   name: In the Coming Weeks
@@ -210,6 +363,18 @@
     Write down every dated promise from a launch event and check it when the
     date passes. The features most likely to slip are the ones demoed on
     stage but not yet available to anyone.
+  industry:
+    text: >-
+      Announced features that slip are common in the industry: in March 2025
+      Apple said the "more personalized Siri" it had announced at its 2024
+      developer conference would "take us longer than we thought to deliver," and
+      moved it to the "coming year."
+    sources:
+      - title: AI-powered ‘more personalized Siri’ is delayed
+        publisher: TechCrunch
+        url: https://techcrunch.com/2025/03/07/ai-powered-more-personalized-siri-is-delayed/
+        date: 2025-03-07
+        type: reporting
 
 - id: shrinking-plan
   name: The Shrinking Plan
@@ -225,6 +390,19 @@
     Diff the plan and help-center pages around each big launch, when capacity
     is tightest. Compare what a plan said on the day people bought it with
     what it says now.
+  industry:
+    text: >-
+      Plans cut after people have paid happen across AI tools: in June 2025 the
+      coding app Cursor replaced its Pro plan's 500 monthly requests with $20 of
+      usage at API prices (plus unlimited use of its "Auto" model routing), then
+      apologized that the change was "not communicated clearly" and offered
+      refunds.
+    sources:
+      - title: Clarifying our pricing
+        publisher: Cursor
+        url: https://cursor.com/blog/june-2025-pricing
+        date: 2025-07-04
+        type: primary
 
 - id: claims-outrun-results
   name: Claims Outrun Results
@@ -240,3 +418,21 @@
     Wait for independent evaluations and replications before treating a launch
     claim as settled, and record when they arrive. Dated predictions get
     checked on their date.
+  industry:
+    text: >-
+      Launch claims that don't survive outside checks are not unique to these two
+      companies: in April 2025 Meta's Llama 4 Maverick ranked second on LM Arena
+      with an unreleased version "optimized for conversationality," and the
+      released model, once scored, ranked below months-old models including GPT-4o
+      and Claude 3.5 Sonnet.
+    sources:
+      - title: Meta’s benchmarks for its new AI models are a bit misleading
+        publisher: TechCrunch
+        url: https://techcrunch.com/2025/04/06/metas-benchmarks-for-its-new-ai-models-are-a-bit-misleading/
+        date: 2025-04-06
+        type: reporting
+      - title: Meta’s vanilla Maverick AI model ranks below rivals on a popular chat benchmark
+        publisher: TechCrunch
+        url: https://techcrunch.com/2025/04/11/metas-vanilla-maverick-ai-model-ranks-below-rivals-on-a-popular-chat-benchmark/
+        date: 2025-04-11
+        type: reporting
