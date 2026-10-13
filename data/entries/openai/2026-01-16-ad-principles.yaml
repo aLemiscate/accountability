@@ -84,6 +84,7 @@ updates:
         date: 2023-04-25
         type: archive
         archive: https://web.archive.org/web/20230425181457/https://web.archive.org/web/20230425181457/https://help.openai.com/en/articles/7730893-data-controls-faq
+        snapshot: snapshots/2026-10-13-web.archive.org-abb6bb97
       - title: Data Controls FAQ, as archived on Apr. 22, 2025
         publisher: Internet Archive
         url: https://web.archive.org/web/20250422014806/https://help.openai.com/en/articles/7730893-data-controls-faq
@@ -95,6 +96,7 @@ updates:
         url: https://web.archive.org/web/20250426002125/https://help.openai.com/en/articles/7730893-data-controls-faq
         date: 2025-04-26
         type: archive
+        snapshot: snapshots/2026-10-13-web.archive.org-107c909e
   - date: 2026-02-11
     text: >-
       In an interview published as OpenAI began testing ads, Fidji Simo,

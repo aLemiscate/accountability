@@ -1,0 +1,49 @@
+LinkedIn may have trained AI models on user data without updating its terms.
+LinkedIn users in the U.S. — but not the EU, EEA, or Switzerland, likely due to those regions’ data privacy rules — have an opt-out toggle in their settings screen disclosing that LinkedIn scrapes personal data to train “content creation AI models.” The toggle isn’t new. But, as first reported by 404 Media, LinkedIn initially didn’t refresh its privacy policy to reflect the data use.
+The terms of service have now been updated , but ordinarily that occurs well before a big change like using user data for a new purpose like this. The idea is it gives users an option to make account changes or leave the platform if they don’t like the changes. Not this time, it seems.
+So what models is LinkedIn training? Its own, the company says in a Q&A, including models for writing suggestions and post recommendations. But LinkedIn also says that generative AI models on its platform may be trained by “another provider,” like its corporate parent Microsoft.
+“As with most features on LinkedIn, when you engage with our platform we collect and use (or process) data about your use of the platform, including personal data,” the Q&A reads. “This could include your use of the generative AI (AI models used to create content) or other AI features, your posts and articles, how frequently you use LinkedIn, your language preference, and any feedback you may have provided to our teams. We use this data, consistent with our privacy policy, to improve or develop the LinkedIn services.”
+LinkedIn previously told TechCrunch that it uses “privacy enhancing techniques, including redacting and removing information, to limit the personal information contained in datasets used for generative AI training.”
+To opt out of LinkedIn’s data scraping, head to the “Data Privacy” section of the LinkedIn settings menu on desktop, click “Data for Generative AI improvement,” then toggle off the “Use my data for training content creation AI models” option. You can also attempt to opt out more comprehensively via this form , but LinkedIn notes that any opt-out won’t affect training that’s already taken place.
+Image Credits: LinkedIn
+The nonprofit Open Rights Group (ORG) has called on the Information Commissioner’s Office (ICO), the U.K.’s independent regulator for data protection rights, to investigate LinkedIn and other social networks that train on user data by default. Earlier this week, Meta announced that it was resuming plans to scrape user data for AI training after working with the ICO to make the opt-out process simpler.
+“LinkedIn is the latest social media company found to be processing our data without asking for consent,” Mariano delli Santi, ORG’s legal and policy officer, said in a statement. “The opt-out model proves once again to be wholly inadequate to protect our rights: the public cannot be expected to monitor and chase every single online company that decides to use our data to train AI. Opt-in consent isn’t only legally mandated, but a common-sense requirement.”
+Ireland’s Data Protection Commission (DPC), the supervisory authority responsible for monitoring compliance with the GDPR, the EU’s overarching privacy framework, told TechCrunch that LinkedIn informed it last week that clarifications to its global privacy policy would be issued today.
+“LinkedIn advised us that the policy would include an opt-out setting for its members who did not want their data used for training content generating AI models,” a spokesperson for the DPC said. “This opt-out is not available to EU/EEA members as LinkedIn is not currently using EU/EEA member data to train or fine-tune these models.”
+TechCrunch has reached out to LinkedIn for comment. We’ll update this piece if we hear back.
+The demand for more data to train generative AI models has led a growing number of platforms to repurpose or otherwise reuse their vast troves of user-generated content. Some have even moved to monetize this content — Tumblr owner Automattic, Photobucket, Reddit, and Stack Overflow are among the networks licensing data to AI model developers.
+Not all of them have made it easy to opt out. When Stack Overflow announced that it would begin licensing content, several users deleted their posts in protest — only to see those posts restored and their accounts suspended .
+Topics
+AI , AI , Enterprise , Generative AI , LinkedIn , social network
+When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.
+Kyle Wiggers
+AI Editor
+Kyle Wiggers was TechCrunch’s AI Editor until June 2025. His writing has appeared in VentureBeat and Digital Trends, as well as a range of gadget blogs including Android Police, Android Authority, Droid-Life, and XDA-Developers. He lives in Manhattan with his partner, a music therapist.
+View Bio
+October 13 – 15
+San Francisco
+Get 50% off a second pass
+The Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by making connections, building momentum, and discovering what’s next in the startup ecosystem.
+BOOK NOW
+Most Popular
+•
+Elon Musk intensifies attack on Ambani over Starlink India launch delay
+• Jagmeet Singh
+•
+Batteries are now cheaper than natural gas turbines used at many data centers
+• Tim De Chant
+•
+Remember Orkut? Its founder wants to bring it back
+• Jagmeet Singh
+•
+US bars Microsoft, Adobe, and major IT firms from green card program for skilled foreign workers
+• Aisha Malik
+•
+Elon Musk questions Ambani’s influence as Starlink India launch stalls
+• Jagmeet Singh
+•
+Cal AI’s 19-year-old founder just raised $10M for his new AI startup
+• Julie Bort
+•
+Google releases a new local-first Granola competitor
+• Ivan Mehta
