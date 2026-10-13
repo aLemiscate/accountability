@@ -1,8 +1,11 @@
 # What the record covers
 
-As of October 6, 2026. This file says where the record's entries came from,
+As of October 13, 2026. This file says where the record's entries came from,
 what the latest reviews added, how the two companies compare, and what may
-still be missing. The rules for what counts are in
+still be missing. The October fairness review ran in seven workstreams, each
+with its own section below: spoken claims, commitments in formal documents,
+policy page history, reply context, company responses and open promises,
+lobbying and political money, and the industry baseline. The rules for what counts are in
 [METHODOLOGY.md](METHODOLOGY.md). The post-by-post Twitter triage is in
 [inbox/sweep/TRIAGE.md](inbox/sweep/TRIAGE.md).
 
@@ -10,22 +13,26 @@ still be missing. The rules for what counts are in
 
 | | Said | Did | Total |
 | --- | --: | --: | --: |
-| OpenAI | 57 | 49 | 106 |
-| Anthropic | 34 | 26 | 60 |
-| **Total** | **91** | **75** | **166** |
+| OpenAI | 59 | 53 | 112 |
+| Anthropic | 35 | 29 | 64 |
+| **Total** | **94** | **82** | **176** |
 
 Status of the "said" entries:
 
 | | Standing | Kept | Eroded | Contradicted | Broken | Reversed |
 | --- | --: | --: | --: | --: | --: | --: |
-| OpenAI | 20 | 7 | 12 | 6 | 4 | 8 |
-| Anthropic | 17 | 6 | 3 | 5 | 2 | 1 |
+| OpenAI | 21 | 8 | 12 | 6 | 4 | 8 |
+| Anthropic | 17 | 6 | 3 | 5 | 3 | 1 |
 
-131 of the 132 quotes whose sources have a saved snapshot match that text word
-for word. The other, a passage from Anthropic's Fable 5 system card, is quoted
-through Gizmodo, whose page the Capture workflow couldn't save; it was checked
-against Gizmodo's text by hand. For one of them, the White House accord, the text exists only as
-an image, and the match is against a labeled transcription saved beside it.
+139 of the 142 quotes whose sources have a saved snapshot match that text word
+for word. The other three come from a source without a snapshot: a passage
+from Anthropic's Fable 5 system card, quoted through Gizmodo, whose page the
+Capture workflow couldn't save (checked against Gizmodo's text by hand);
+Altman's November 2023 remark on voice cloning, quoted from the event's audio
+(the saved page is the event listing); and the April 5, 2024 wording of
+Anthropic's Claude Pro help page, whose saved copy is the April 2 version it
+replaced. For one quote, the White House accord, the text exists only as an
+image, and the match is against a labeled transcription saved beside it.
 
 ## Where entries come from
 
@@ -255,7 +262,7 @@ general, not either company's claim).
 
 ## The two companies side by side
 
-OpenAI has nearly twice as many entries. It is older, larger and has made more
+OpenAI has 112 entries to Anthropic's 64. It is older, larger and has made more
 public commitments, and more of its conduct has been litigated and reported. The
 review checked the other direction too: for each kind of OpenAI entry it looked
 for the Anthropic counterpart and recorded it where one exists.
@@ -272,11 +279,12 @@ for the Anthropic counterpart and recorded it where one exists.
 | State AI laws | `2024-08-21-opposes-sb-1047`, `2025-03-13-ostp-preemption-request` | `2024-08-21-anthropic-sb-1047-sb-53` |
 | Weakened safety frameworks | `2025-04-15-preparedness-framework-v2` | `2026-02-24-rsp-v3-drops-pause`, `2026-05-26-rsp-v3-3-bio-threshold` |
 | Non-disparagement agreements | `2024-05-22-exit-documents-signed` | `2024-07-anthropic-non-disparagement` |
-| Training data | `2024-01-08-training-is-fair-use`, `2024-04-06-youtube-transcription`, `2025-11-26-openai-libgen-deletion` | `2025-09-05-pirated-books-settlement`, `2025-06-04-reddit-scraping-lawsuit` |
+| Training data | `2024-01-08-training-is-fair-use`, `2024-04-06-youtube-transcription`, `2025-11-26-openai-libgen-deletion` | `2025-09-05-pirated-books-settlement`, `2025-06-04-reddit-scraping-lawsuit`, `2024-07-16-pile-youtube-subtitles` |
 | User data for training | `2023-08-15-altman-never-trains-api` | `2025-08-28-consumer-data-training-default` |
 | Shared pledges | White House 2023, Seoul, AISI testing, EU code, Safety by Design, White House accord | the same six |
 | Electricity prices | `2026-01-20-stargate-pay-own-way-energy` | `2026-02-11-anthropic-cover-electricity-prices` |
-| Usage limits and plan changes | `2026-04-21-codex-engage-well-ahead` | `2025-07-28-claude-weekly-limits`, `2026-04-03-claude-subscriptions-third-party-tools` |
+| Usage limits and plan changes | `2024-01-05-gpt-4-plus-cap-lowered`, `2026-04-21-codex-engage-well-ahead`, `2026-06-chatgpt-pro-unlimited-allowances`, `2026-09-29-sottiaux-pro-subscription-guarantee` | `2024-04-claude-pro-allowance-lowered`, `2025-07-28-claude-weekly-limits`, `2026-04-03-claude-subscriptions-third-party-tools` |
+| Notice before retiring models | `2025-08-13-altman-4o-plenty-of-notice` | `2025-08-model-retirement-notice-cut` |
 | Model quality or routing users weren't told about | `2025-09-27-chatgpt-safety-routing-not-shown`, `2025-10-31-codex-degradation-report` | `2026-04-23-claude-code-quality-postmortem`, `2026-06-09-fable-5-hidden-research-safeguards` |
 | Capability claims contradicted | `2023-03-14-gpt-4-bar-exam-top-10`, `2025-10-gpt-5-erdos-claim` | `2025-02-03-classifiers-defend-universal-jailbreaks`, `2026-05-08-blackmail-completely-eliminated` |
 | Dated forecasts | `2025-10-29-automated-research-intern-goal` | `2025-03-06-anthropic-powerful-ai-late-2026`, `2025-04-24-interpretability-2027-goal` |
@@ -297,6 +305,41 @@ beyond Opus 4.5; reporting back on Glasswing; MCP as a community-led standard;
 publishing the full soul document. Kept promises are
 recorded to the same standard as broken ones: a public source has to show the
 promise was tested and held.
+
+## Spoken claims
+
+Long-form spoken appearances since 2021 by the ten people the review named
+(Dario Amodei, Daniela Amodei, Jack Clark, Jared Kaplan and Mike Krieger of
+Anthropic; Sam Altman, Greg Brockman, Jason Kwon, Fidji Simo and Nick Turley
+of OpenAI) were listed, transcribed where no official transcript existed,
+and read in full, one log row per appearance. The inventory, reading log,
+per-person table and method are in [inbox/spoken/README.md](inbox/spoken/README.md).
+
+| Appearances | Found | Read in full | No transcript | Pending |
+| --- | --: | --: | --: | --: |
+| Anthropic speakers | 85 | 84 | 1 | 0 |
+| OpenAI speakers | 115 | 109 | 5 | 1 |
+| Both (one joint appearance) | 1 | 1 | 0 | 0 |
+| **All** | **201** | **194** | **6** | **1** |
+
+| Decisions | R, in the record | L, lead | C, context | O, left out |
+| --- | --: | --: | --: | --: |
+| Anthropic speakers | 22 | 19 | 306 | 82 |
+| OpenAI speakers | 33 | 34 | 411 | 107 |
+| Joint appearance | 0 | 0 | 2 | 1 |
+
+- **Transcripts:** 14 official (govinfo.gov hearings, the UN record, CNN), 6
+  from publishers, 173 machine transcripts (faster-whisper), 1 translation.
+  No quote was taken from a machine transcript alone: each was checked
+  against the audio with a second, larger model.
+- **Not read:** OpenAI's three DevDay keynotes and its January 2026 Town Hall
+  are on YouTube only, which refuses this machine and GitHub's runners; a
+  2023 rebroadcast of Altman on The Daily is gone from every feed; Krieger's
+  VivaTech talk has no transcript. Jason Kwon's October 6, 2026 testimony to
+  the Australian Parliament is pending until Hansard publishes it.
+- **Limits:** video-only talks and TV interviews were not found
+  systematically, and print interviews are covered only through the record's
+  reporting sources.
 
 ## Commitments in formal documents
 
@@ -359,11 +402,114 @@ where a result is notable.
   split up its Preparedness team and on the 2025 court order to preserve
   ChatGPT logs; an update to the ChatGPT ad principles entry on the April 2026
   privacy policy change; corrections to both Safety by Design updates.
+- **Outside check.** A study by researchers at Brown, Harvard and Stanford
+  (Wang, Huang, Klyman and Bommasani, 2025) scored all 16 signatories of the
+  White House commitments on 30 indicators, using only what each company
+  had published through 2024. OpenAI scored 83.3% and Anthropic 80.0%, the
+  two highest; the average was 53.3%. This record grades the same document
+  9 of 16 kept for OpenAI and 10 of 16 for Anthropic. The methods differ: the
+  study credits published evidence of a practice, while this record also
+  counts later events (reports that came late or not at all, testing time
+  cut, safety teams broken up) that move a grade to eroded.
 - **Caveats.** The totals are not like for like: the documents differ in
   length and in how many promises can be checked from outside. "Unknown" and
   "standing" grades mean nothing public shows a failure, not that the promise
   was kept. Anthropic's API retention help pages were added to the page
   history so their earlier versions can be dated.
+
+## Policy page history
+
+Every archived version of 33 pages was pulled and compared in order: both
+companies' usage policies, terms, privacy policies, pricing pages, usage-limit
+help pages and model-retirement pages. Each substantive change is logged with
+its date and whether it was announced. The full log is
+[inbox/history/CHANGES.md](inbox/history/CHANGES.md).
+
+| | Pages | Archived copies | Distinct versions | Changes logged |
+| --- | --: | --: | --: | --: |
+| OpenAI | 19 | 3,461 | 1,401 | 135 |
+| Anthropic | 14 | 1,447 | 531 | 75 |
+
+| How the change was disclosed | OpenAI | Anthropic |
+| --- | --: | --: |
+| Announced | 42 | 17 |
+| Dated or noted on the page | 43 | 29 |
+| No date, note or announcement found | 44 | 28 |
+| Not applicable (wording, typos, layout) | 6 | 1 |
+
+- **Cuts made without notice:** 25 of OpenAI's 44 unannounced changes cut
+  what users get or what the company had promised (19% of all its logged
+  changes); 11 of Anthropic's 28 did (15%). OpenAI's are mostly about data
+  use and usage limits; Anthropic's about usage limits, model retirement and
+  data retention.
+- **Record changes:** new entries on the ChatGPT Plus GPT-4 cap cut
+  (January 2024), the Claude Pro allowance cut (April 2024), Anthropic's
+  retirement notice cut from six months to 60 days (August 2025), ChatGPT
+  Pro's move from "unlimited usage" to per-model allowances (June 2026), and
+  the promise made with Pro's September change, tracked as open; updates to
+  the ad-principles, Claude weekly limits, ChatGPT erotica and Anthropic
+  Pentagon entries; six commitment grades moved to eroded.
+- **Error found and fixed:** the comparison tool split a page's history into
+  separate tracks at big rewrites, which hid the change across each rewrite.
+  All 48 such boundaries on 20 pages were re-checked; two changes had been
+  missed and are now logged.
+- **Not done:** OpenAI's platform documentation (July 2023 to December 2025)
+  and Anthropic's documentation site (December 2025 to August 2026) were
+  archived as empty JavaScript shells; ChatGPT prices stopped appearing in
+  archived text in October 2025; OpenAI's site returns 403 here, so its
+  announcements were checked through Twitter, news and archives only, and
+  changes after its last archived copy are not in the log.
+
+## Reply context
+
+All 9,021 replies by company accounts and executives in the Twitter reading
+log were re-read next to the post each one answered (the parent could not be
+retrieved for 1,576). Details and per-account counts are in
+[inbox/sweep/replies/README.md](inbox/sweep/replies/README.md).
+
+| | Replies | C | R |
+| --- | --: | --: | --: |
+| OpenAI accounts (17) | 5,318 | 213 | 0 |
+| Anthropic accounts (9) | 3,703 | 185 | 5 |
+
+- **Record changes:** one new Anthropic entry (the Constitutional AI testing
+  data it said it would release, graded broken), and updates on Opus 3's
+  continued access (kept), Clark's 2022 view of the GPT-2 caution, Clark's
+  March 2026 odds on the powerful-AI timeline, and two Claude Code
+  prompt-cache fixes the April 2026 postmortem left out.
+- **Leads:** four, all resolved. The First Proof follow-up OpenAI promised
+  appeared on schedule; the report that Microsoft's 2019 money was partly
+  Azure credits stays unconfirmed and is not an entry.
+- **Error found:** 49 notes had been attached to the wrong post in
+  self-threads; they were moved.
+
+## Company responses and open promises
+
+Every "did" entry now gives the company's response, or says plainly that
+none was found or that the company declined to comment. Twenty-one entries
+got their response in this review; the entries added since carry one from
+the start.
+
+| "Did" entries | Response addresses the point | Response, but not on the central point | Declined to comment (in part) | No statement found |
+| --- | --: | --: | --: | --: |
+| OpenAI (53) | 46 | 5 | 1 | 1 |
+| Anthropic (29) | 23 | 3 | 1 | 2 |
+
+Where a response skips the central point, the entry says what went
+unanswered (for example, why OpenAI's deep research launched before its
+system card, or why Anthropic narrowed the insider scope of its security
+standard). The three with no statement are page edits found in the page
+history: the ChatGPT Plus GPT-4 cap, the Claude Pro allowance and
+Anthropic's shorter retirement notice.
+
+All 38 open promises (OpenAI 21, Anthropic 17) were re-checked on October
+13, 2026 against news and, where possible, the thing itself (npm licenses,
+pricing and deprecation pages, release notes). None changed status; one
+gained an update (OpenAI's October 2025 letter to OSTP, on the government
+guarantees promise), and the related OSTP preemption entry gained one too.
+Each open promise now shows "Last checked" on the Watchlist and in the entry
+view; the validator requires the date. The check is logged in
+[inbox/checks/2026-10-13-open-promises.md](inbox/checks/2026-10-13-open-promises.md).
 
 ## Lobbying and political money
 
@@ -399,28 +545,42 @@ New York and Washington. Tables, method and sources are in
   bulk data doesn't itemize OpenAI's $1.10 million in "other payments" in Q2
   2026; other states, the EU register and FEC data were not searched.
 
-## Reply context
+## Industry baseline
 
-All 9,021 replies by company accounts and executives in the Twitter reading
-log were re-read next to the post each one answered (the parent could not be
-retrieved for 1,576). Details and per-account counts are in
-[inbox/sweep/replies/README.md](inbox/sweep/replies/README.md).
+For each pattern where the behavior is industry-wide, the pattern now carries
+one sourced sentence on another company doing the same thing, shown under
+"Across the industry" on the Patterns view and above the timeline when a
+pattern is followed. These are context only; the record has no entries
+about other companies. Every source was read in full.
 
-| | Replies | C | R |
-| --- | --: | --: | --: |
-| OpenAI accounts (17) | 5,318 | 213 | 0 |
-| Anthropic accounts (9) | 3,703 | 185 | 5 |
+| Pattern | Context | Source |
+| --- | --- | --- |
+| The Race Clause | Google DeepMind's framework says adopting its protocols may depend on whether others do | Google DeepMind, Frontier Safety Framework 2.0 |
+| Silent Edits | LinkedIn trained on members' data before updating its policy | TechCrunch |
+| Regulate Us (Not Like That) | Meta's super PAC against state AI rules | TechCrunch |
+| Pledged, Not Resourced | Meta folded its Responsible AI team into product | The Verge |
+| Sorry After Caught | Meta removed chatbot rules after Reuters asked | Global News (Reuters) |
+| Ship Now, Guardrails Later | Google paused Gemini's image generation of people | Google |
+| Take First, Settle Later | Apple, Nvidia, Salesforce and others trained on the Pile's YouTube subtitles | Proof News |
+| Principles With a Price | Google dropped its weapons and surveillance pledge | TechCrunch |
+| Unfalsifiable by Design | Scoring of all 16 White House signatories found vague, unmonitored commitments | Wang et al., arXiv |
+| Consent by Default | LinkedIn's and Meta's opt-out training defaults | TechCrunch |
+| Safeguards on Paper | xAI's prompt review was "circumvented" | Ars Technica |
+| Told Last | Google shipped Gemini 2.5 Pro without a model card | TechCrunch |
+| In the Coming Weeks | Apple delayed the "more personalized Siri" | TechCrunch |
+| The Shrinking Plan | Cursor's Pro plan change and apology | Cursor |
+| Claims Outrun Results | Meta's Llama 4 LM Arena score came from an unreleased version | TechCrunch (2) |
 
-- **Record changes:** one new Anthropic entry (the Constitutional AI testing
-  data it said it would release, graded broken), and updates on Opus 3's
-  continued access (kept), Clark's 2022 view of the GPT-2 caution, Clark's
-  March 2026 odds on the powerful-AI timeline, and two Claude Code
-  prompt-cache fixes the April 2026 postmortem left out.
-- **Leads:** four, all resolved. The First Proof follow-up OpenAI promised
-  appeared on schedule; the report that Microsoft's 2019 money was partly
-  Azure credits stays unconfirmed and is not an entry.
-- **Error found:** 49 notes had been attached to the wrong post in
-  self-threads; they were moved.
+- **No baseline added:** Mission → Market (it depends on a nonprofit or
+  capped-profit structure most developers never had) and Pressure on
+  Critics (no comparable, sourced case at another developer was found and
+  read in this review).
+- **Record change:** the Proof News investigation also showed Anthropic
+  confirming it trained Claude on the Pile, YouTube subtitles included. That
+  is now an Anthropic entry beside OpenAI's YouTube transcription entry,
+  with Anthropic's response.
+- **Limits:** one example per pattern shows the behavior is not unique to
+  these two companies; it does not measure how common it is.
 
 ## What may still be missing
 
@@ -435,17 +595,20 @@ retrieved for 1,576). Details and per-account counts are in
   Bloomberg, New Yorker and The Information stories are cited through
   secondary coverage. Outside English, only regulators' decisions were
   checked; reporting in other languages wasn't searched.
-- **Channels searched but not swept in full:** long-form interviews and
-  podcasts, conference talks, LinkedIn, and state-level testimony. (Lobbying
-  filings are now read in full; see above.) The October 1 pass searched them for the topics the
-  record covers, but nobody has listened to every interview or read every
-  filing.
+- **Channels searched but not swept in full:** video-only keynotes and
+  talks (YouTube refuses this machine and GitHub's runners), TV and print
+  interviews, LinkedIn, and testimony by company staff other than the ten
+  people in the spoken-claims inventory. Podcasts and congressional
+  testimony by those ten, and the lobbying filings, are now read in full
+  (see above).
 - **What isn't public at all:** contracts (the Pentagon agreements), internal
   documents, and incident reports to regulators. Several standing promises can
   only be checked when these surface.
 - **Stories still unfolding.** OpenAI's chief strategy officer appeared before
-  an Australian parliamentary committee on October 6, 2026; his testimony isn't
-  in the record yet. Fifteen state attorneys general and Alabama's subpoena
+  an Australian parliamentary committee on October 6, 2026. The record has
+  his appearance through press reports; the official Hansard transcript
+  couldn't be checked (the Parliament's website refuses this machine), so it
+  hasn't been read in full. Fifteen state attorneys general and Alabama's subpoena
   over the Hugging Face breach have no outcome yet. The OpenAI Foundation's
   $1 billion plan and both companies' independent-evaluator promises come due
   by March 2027. The Mythos general-release promise, the EU incident-reporting

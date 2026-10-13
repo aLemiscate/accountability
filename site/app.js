@@ -508,7 +508,7 @@
         h('h3', null, 'Status of a statement'),
         h('div', { class: 'defs' }, Object.keys(STATUS_DEF).flatMap((k) => [statusPill(k), h('span', null, STATUS_DEF[k])])),
         h('h3', null, 'Patterns'),
-        h('p', null, 'Patterns are this record’s analysis, not anyone’s words: a pattern is a move that recurs across the years or across both companies. Each entry is tagged with every pattern it shows, and some entries fit none. A promise that held keeps its tag when it was a test of the pattern, so following a pattern shows where it held as well as where it didn’t. Pick a pattern on the timeline, or from any entry, to follow it through every view.'),
+        h('p', null, 'Patterns are this record’s analysis, not anyone’s words: a pattern is a move that recurs across the years or across both companies. Each entry is tagged with every pattern it shows, and some entries fit none. A promise that held keeps its tag when it was a test of the pattern, so following a pattern shows where it held as well as where it didn’t. Where the behavior is industry-wide, a pattern also gives one sourced example from another company, as context: the record has no entries about other companies. Pick a pattern on the timeline, or from any entry, to follow it through every view.'),
         h('h3', null, 'How concrete was it?'),
         h('p', null, 'Vague promises can’t be broken, which is often the point. Each statement is graded on how testable it was when made.'),
         h('div', { class: 'defs' }, Object.keys(CONCRETE_DEF).flatMap((k) => [concretePill(k), h('span', null, CONCRETE_DEF[k])])),

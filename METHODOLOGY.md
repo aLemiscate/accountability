@@ -101,3 +101,10 @@ Patterns (`data/patterns.yaml`) are analytical categories, not findings of
 fact. Each pattern's "what to watch for" is a forecast based on repetition,
 and the site labels it as analysis. When a forecast comes true, the new event
 gets its own sourced entry. The forecast itself is never cited as evidence.
+
+Where a pattern's behavior is industry-wide, the pattern carries one sourced
+sentence (`industry`) on another company doing the same thing, so a reader
+can tell what is particular to these two companies from what is common. It
+is context, not an entry: the record has no entries about other companies,
+and the sentence is held to the same rules as any entry (sources read in
+full, quotes verbatim, titles copied).
