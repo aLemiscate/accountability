@@ -240,19 +240,20 @@ commitments:
           OpenAI's 2023 bug bounty covered security flaws but not model
           behavior. From August 2025 it offered bio bug bounties paying for
           universal jailbreaks of its safeguards, which is the kind of unsafe
-          behavior the commitment names.
+          behavior the commitment names (the page, dated September 5, 2025, says
+          applications opened August 25).
         sources:
-          - title: Announcing OpenAI's Bug Bounty Program
+          - title: Announcing OpenAI’s Bug Bounty Program
             publisher: OpenAI
             url: https://openai.com/index/bug-bounty-program/
             date: 2023-04-11
             type: primary
             archive: https://web.archive.org/web/20261011002011/https://openai.com/index/bug-bounty-program/
             snapshot: snapshots/2026-10-13-openai.com-2ba1b089
-          - title: GPT-5 bio bug bounty call
+          - title: GPT-5 bio bug bounty
             publisher: OpenAI
             url: https://openai.com/gpt-5-bio-bug-bounty/
-            date: 2025-08-25
+            date: 2025-09-05
             type: primary
             snapshot: snapshots/2026-10-13-openai.com-fa2fcde8
       anthropic:
