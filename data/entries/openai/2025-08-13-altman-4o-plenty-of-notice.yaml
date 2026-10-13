@@ -21,6 +21,7 @@ summary: >-
   day. The models stayed available in the API.
 concreteness: directional
 status: eroded
+patterns: [shrinking-plan]
 related: [2025-02-12-gpt-5-free-unlimited, 2025-11-04-model-weight-preservation]
 sources:
   - title: Sam Altman on X ("Updates to ChatGPT")

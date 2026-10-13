@@ -156,7 +156,7 @@ commitments:
         grade: standing
         evidence: No public case was found.
   - id: no-advertising-profiles
-    versions: Help article "How your data is used to improve model performance," January 2024 to February 7, 2026; dropped by February 10, 2026
+    versions: Help article "How your data is used to improve model performance," January 2024 to February 7, 2026; dropped by February 10, 2026. Earlier wording, "We don’t use data for selling our services, advertising, or building profiles of people," was in the Data Controls FAQ from April 25, 2023 to April 22, 2025 and in the help article from April 28, 2023 until this wording replaced it
     section: How your data is used to improve model performance
     text: >-
       We don’t use your content to market our services or create advertising
@@ -170,7 +170,9 @@ commitments:
           9 added personalizing ads for Free and Go users as a use of personal
           data. OpenAI had said in January that ads would be matched to
           conversations, and says conversations are not shared with
-          advertisers.
+          advertisers. The Data Controls FAQ had already dropped the April
+          2023 wording when it was rewritten in April 2025, also without a
+          note.
         entries: [2026-01-16-ad-principles]
         sources:
           - title: How your data is used to improve model performance, as archived

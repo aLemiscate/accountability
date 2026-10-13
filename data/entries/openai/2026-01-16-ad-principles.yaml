@@ -54,7 +54,11 @@ updates:
       article on training since January 2024: "We don’t use your content to
       market our services or create advertising profiles of you—we use it to
       make our models more helpful." It was there on February 7 and gone by
-      February 10, with no note of the change. The privacy policy dated
+      February 10, with no note of the change. It was the second wording of a
+      promise first posted in April 2023, "We don’t use data for selling our
+      services, advertising, or building profiles of people," which the Data
+      Controls FAQ had already dropped, also without a note, in an April 2025
+      rewrite. The privacy policy dated
       February 9 added personalizing ads for Free and Go users as a use of
       personal data. OpenAI had said in January that ads would be matched to
       the conversation.
@@ -70,6 +74,21 @@ updates:
         publisher: Internet Archive
         url: https://web.archive.org/web/20260210072027/https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance
         date: 2026-02-10
+        type: archive
+      - title: Data Controls FAQ, as archived on Apr. 25, 2023
+        publisher: Internet Archive
+        url: https://web.archive.org/web/20230425181457/https://help.openai.com/en/articles/7730893-data-controls-faq
+        date: 2023-04-25
+        type: archive
+      - title: Data Controls FAQ, as archived on Apr. 22, 2025
+        publisher: Internet Archive
+        url: https://web.archive.org/web/20250422014806/https://help.openai.com/en/articles/7730893-data-controls-faq
+        date: 2025-04-22
+        type: archive
+      - title: Data Controls FAQ, as archived on Apr. 26, 2025
+        publisher: Internet Archive
+        url: https://web.archive.org/web/20250426002125/https://help.openai.com/en/articles/7730893-data-controls-faq
+        date: 2025-04-26
         type: archive
   - date: 2026-02-11
     text: >-
