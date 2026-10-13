@@ -5,7 +5,7 @@ org: anthropic
 type: said
 kind: claim
 who: [anthropic, jan-leike]
-venue: Research announcement and posts on X
+venue: Research announcement and posts on Twitter
 quote: >-
   We built a system that defends against universal jailbreaks!
 summary: >-
@@ -22,6 +22,12 @@ summary: >-
   against the system then being tested.
 concreteness: measurable
 status: contradicted
+outcome:
+  date: 2025-02-13
+  text: >-
+    Ten days after launch, Jan Leike reported the public challenge's result: "In
+    the end 4 users passed all levels, 1 found a universal jailbreak." Anthropic
+    paid $55,000 in prizes.
 patterns: [claims-outrun-results]
 related: [2025-05-22-asl-3-protections-activated]
 sources:

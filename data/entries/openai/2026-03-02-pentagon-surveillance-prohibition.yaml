@@ -73,7 +73,7 @@ updates:
         date: 2026-03-01
         type: primary
         archive: https://web.archive.org/web/20260305095022/https://x.com/boazbaraktcs/status/2027932587788759293
-        snapshot: snapshots/2026-10-03-x.com-7bb946a8
+        snapshot: snapshots/2026-10-13-x.com-7bb946a8
       - title: Boaz Barak on X ("more details … in the coming days")
         publisher: X
         url: https://x.com/boazbaraktcs/status/2027937481207800058
@@ -87,7 +87,7 @@ updates:
         date: 2026-03-01
         type: primary
         archive: https://web.archive.org/web/20260302161200/https://x.com/boazbaraktcs/status/2027935104056586439
-        snapshot: snapshots/2026-10-03-x.com-79853ae6
+        snapshot: snapshots/2026-10-13-x.com-79853ae6
       - title: Sam Altman on X (re-post of an internal memo on the amendments)
         publisher: X
         url: https://x.com/sama/status/2028640354912923739
@@ -118,6 +118,13 @@ updates:
         date: 2026-03-01
         type: primary
         snapshot: snapshots/2026-10-03-x.com-24b15006
+      - title: Nesibe Kırış Can on X ("Will OpenAI commit to publishing every future red
+          line change")
+        publisher: X
+        url: https://x.com/nesibekiris/status/2027917927572193346
+        date: 2026-03-01
+        type: primary
+        snapshot: snapshots/2026-10-13-x.com-07f14f7d
   - date: 2026-03-03
     text: >-
       OpenAI researcher Noam Brown, who had earlier relayed that "The contract
@@ -133,7 +140,7 @@ updates:
         url: https://x.com/polynoamial/status/2028643577165963465
         date: 2026-03-03
         type: primary
-        snapshot: snapshots/2026-09-30-x.com-159b71fe
+        snapshot: snapshots/2026-10-13-x.com-159b71fe
       - title: Noam Brown on X ("does not allow NSA Title 50 work")
         publisher: X
         url: https://x.com/polynoamial/status/2028124576337756358
@@ -142,14 +149,18 @@ updates:
         snapshot: snapshots/2026-09-30-x.com-9152129f
   - date: 2026-03-03
     text: >-
-      Katrina Mulligan, OpenAI's head of national security, had pledged a "clear
-      and more comprehensive explanation" of the relevant contract terms,
-      including how the NSA is excluded. Days later, with no explanation
-      published, she told a user on X: "I do not agree that I'm obligated to
-      share contract language with you." Asked whether the contract allowed the
-      Pentagon to collect and analyze commercially available data at scale, she
-      replied that "the Pentagon has no legal authority to do this." The
-      Intercept pointed to a declassified 2022 report from the Office of the
+      Katrina Mulligan, OpenAI's head of national security, had pledged on March
+      1 a "clear and more comprehensive explanation" of the relevant contract
+      terms, including how the NSA is excluded. On March 3 she gave a
+      one-sentence answer: "defense intelligence components are excluded from
+      this contract and any support to them will require a contract mod." Former
+      OpenAI safety researcher Steven Adler replied that it came "with no
+      contract language showing the Title 50 exclusion you had claimed to
+      exist." The same day she told a user on Twitter: "I do not agree that I'm
+      obligated to share contract language with you." Asked whether the contract
+      allowed the Pentagon to collect and analyze commercially available data at
+      scale, she replied that "the Pentagon has no legal authority to do this."
+      The Intercept pointed to a declassified 2022 report from the Office of the
       Director of National Intelligence describing exactly that kind of
       collection by the Defense Department. This record found no fuller
       explanation published later.
@@ -166,7 +177,7 @@ updates:
         url: https://x.com/sjgadler/status/2028899096283758732
         date: 2026-03-03
         type: primary
-        snapshot: snapshots/2026-09-30-x.com-6bd9fe32
+        snapshot: snapshots/2026-10-13-x.com-6bd9fe32
 note: >-
   The contract isn't public, so outsiders can't check compliance. The promise
   works on trust, which is exactly what this record is testing. Note the word

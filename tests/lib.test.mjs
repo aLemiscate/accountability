@@ -19,6 +19,8 @@ test('quote matching ignores curly quotes, case and whitespace, and splits on el
   assert.deepEqual(quoteSegments('…20% of the compute we\'ve secured…'), ['20% of the compute we\'ve secured']);
   // Some PDFs wrap every run of text in invisible bidi marks (U+202D … U+202C).
   assert.equal(normalizeForMatch('‭liability protections‬ ‭including‬'), 'liability protections including');
+  // PDF text keeps typographic ligatures.
+  assert.equal(normalizeForMatch('ﬁne-tuning ﬂows'), 'fine-tuning flows');
 });
 
 const base = () => ({
@@ -76,6 +78,24 @@ test('derive pairs statements with the actions that contradict them', () => {
   assert.equal(out.receipts[0].gap_days, 366);
   assert.deepEqual(out.entries.find((e) => e.type === 'said').contradicted_by, ['2021-01-01-deed']);
   assert.equal(out.stats.broken, 1);
+});
+
+test('a failed statement needs a receipt: a contradicting action or its own outcome', () => {
+  const d = base();
+  d.entries.pop();
+  assert.match(validate(d).warnings.join('\n'), /is broken but has no receipt/);
+  d.entries[0].outcome = { date: '2020-06', text: 'It did not happen.' };
+  const { errors, warnings } = validate(d);
+  assert.deepEqual(errors, []);
+  assert.deepEqual(warnings, []);
+  const out = derive(d);
+  assert.equal(out.entries[0].outcome.precision, 'month');
+  assert.equal(out.entries[0].outcome.time, Date.UTC(2020, 5, 1));
+  d.entries[0].outcome = { date: 'soon', note: 'x' };
+  const joined = validate(d).errors.join('\n');
+  assert.match(joined, /outcome needs text/);
+  assert.match(joined, /outcome.date must be/);
+  assert.match(joined, /unknown field "note"/);
 });
 
 const doc = () => ({

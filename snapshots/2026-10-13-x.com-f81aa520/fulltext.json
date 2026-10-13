@@ -1,0 +1,64 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/sama/status/1955438916645130740",
+    "id": "1955438916645130740",
+    "text": "Updates to ChatGPT:\n\nYou can now choose between “Auto”, “Fast”, and “Thinking” for GPT-5. Most users will want Auto, but the additional control will be useful for some people.\n\nRate limits are now 3,000 messages/week with GPT-5 Thinking, and then extra capacity on GPT-5 Thinking mini after that limit. Context limit for GPT-5 Thinking is 196k tokens. We may have to update rate limits over time depending on usage.\n\n4o is back in the model picker for all paid users by default. If we ever do deprecate it, we will give plenty of notice. Paid users also now have a “Show additional models” toggle in ChatGPT web settings which will add models like o3, 4.1, and GPT-5 Thinking mini. 4.5 is only available to Pro users—it costs a lot of GPUs.\n\nWe are working on an update to GPT-5’s personality which should feel warmer than the current personality but not as annoying (to most users) as GPT-4o. However, one learning for us from the past few days is we really just need to get to a world with more per-user customization of model personality.",
+    "raw_text": {
+      "text": "Updates to ChatGPT:\n\nYou can now choose between “Auto”, “Fast”, and “Thinking” for GPT-5. Most users will want Auto, but the additional control will be useful for some people.\n\nRate limits are now 3,000 messages/week with GPT-5 Thinking, and then extra capacity on GPT-5 Thinking mini after that limit. Context limit for GPT-5 Thinking is 196k tokens. We may have to update rate limits over time depending on usage.\n\n4o is back in the model picker for all paid users by default. If we ever do deprecate it, we will give plenty of notice. Paid users also now have a “Show additional models” toggle in ChatGPT web settings which will add models like o3, 4.1, and GPT-5 Thinking mini. 4.5 is only available to Pro users—it costs a lot of GPUs.\n\nWe are working on an update to GPT-5’s personality which should feel warmer than the current personality but not as annoying (to most users) as GPT-4o. However, one learning for us from the past few days is we really just need to get to a world with more per-user customization of model personality.",
+      "display_text_range": [
+        0,
+        1041
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "sama",
+      "url": "https://x.com/sama",
+      "id": "1605",
+      "followers": 6374608,
+      "following": 1034,
+      "likes": 1016,
+      "media_count": 394,
+      "name": "Sam Altman",
+      "description": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+      "raw_description": {
+        "text": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+        "facets": []
+      },
+      "location": "SF",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "joined": "Sun Jul 16 22:01:55 +0000 2006",
+      "protected": false,
+      "website": {
+        "url": "http://blog.samaltman.com",
+        "display_url": "blog.samaltman.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 3923,
+    "retweets": 1672,
+    "likes": 18957,
+    "bookmarks": 2222,
+    "quotes": 861,
+    "created_at": "Wed Aug 13 01:19:02 +0000 2025",
+    "created_timestamp": 1755047942,
+    "views": 3251097,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

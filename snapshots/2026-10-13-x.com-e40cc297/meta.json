@@ -1,0 +1,37 @@
+{
+  "url": "https://x.com/woj_zaremba/status/1945158231321706896",
+  "captured_at": "2026-10-13T15:09:36.803Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "2910ee64f32cb9349365e7768c09eb57c32efe325c70f4c9ca6a2f1c7db38610",
+    "page.txt": "e67748192e7b130d7b0a443161ba540fbfecb9cf64b63ef687ecc1128ff092b7",
+    "post.json": "b7c2c8eee9990521286146d909be98d81c17219937d0f181ab953e6a4fe08ff5",
+    "syndication.json": "deaf7169600cd68c8ed858dd5a5a0f6ba9d3d6df8401b3955733a5705586c763",
+    "fulltext.json": "ea3a47e94e5acb67688cf4033b35e2c78e468ccc5c6cf766b55bdc446107a2f4",
+    "media-1.png": "2f28de6f7c4e7d74a8105778537f2ff867d411ba0d1230b831eca7b45ad264e2",
+    "quoted-media-1.png": "2f28de6f7c4e7d74a8105778537f2ff867d411ba0d1230b831eca7b45ad264e2",
+    "post.txt": "e019d2ba7f00edb91b140f4ad9fa32b8accb4fb041a7218009fcf18d239a3c7b"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/woj_zaremba/status/1945158231321706896",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Wojciech Zaremba on X: \"When models start reasoning step-by-step, we suddenly get a huge safety gift: a window into their thought process. We could easily lose this if we're not careful. We're publishing a paper urging frontier labs: please don't train away this monitorability. Authored and endo… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Wojciech Zaremba (@woj_zaremba)",
+    "date": "July 15, 2025",
+    "posted_at": "2025-07-15T16:27:16.296Z",
+    "full_text_from": "api.fxtwitter.com",
+    "media": [
+      {
+        "file": "media-1.png",
+        "url": "https://pbs.twimg.com/media/Gv6R6QvWUAAVOx6.png"
+      },
+      {
+        "file": "quoted-media-1.png",
+        "url": "https://pbs.twimg.com/media/Gv2ng5FWsAANKq8.png"
+      }
+    ]
+  }
+}

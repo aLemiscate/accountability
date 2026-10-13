@@ -1,0 +1,61 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/embirico/status/1984793457949622761",
+    "id": "1984793457949622761",
+    "text": "We just reset Codex rate limits for everyone, and refunded all Codex credit usage up until 1p PT Friday. Enjoy!\n\nWhy: On Thursday we rolled out credits to give users options between our $20 and $200 plans. However we had a bug where we overcharged for cloud task usage by ~2-5x depending, on the task.\n\nSince identifying the bug on Thursday we:\n- Removed limits for cloud tasks\n- Fixed the bug\n- Refunded _all_ credit usage between releasing credits and 1pm PT on Friday\n- Reset Codex limits for everyone, just now\n- Began limiting/charging for cloud tasks usage again, just now \n\nSince a few people have asked: cloud tasks consume limits slightly faster than local tasks per unit of work, because we have to run the VM powering the cloud environment. Further, cloud tasks also tend to do more work per message, both because of how we prompt the model when it’s running async, and also because users tend to ask for more one-shot code changes and ask fewer quick questions.\n\nAs always, keep the feedback coming. Thank you!",
+    "raw_text": {
+      "text": "We just reset Codex rate limits for everyone, and refunded all Codex credit usage up until 1p PT Friday. Enjoy!\n\nWhy: On Thursday we rolled out credits to give users options between our $20 and $200 plans. However we had a bug where we overcharged for cloud task usage by ~2-5x depending, on the task.\n\nSince identifying the bug on Thursday we:\n- Removed limits for cloud tasks\n- Fixed the bug\n- Refunded _all_ credit usage between releasing credits and 1pm PT on Friday\n- Reset Codex limits for everyone, just now\n- Began limiting/charging for cloud tasks usage again, just now \n\nSince a few people have asked: cloud tasks consume limits slightly faster than local tasks per unit of work, because we have to run the VM powering the cloud environment. Further, cloud tasks also tend to do more work per message, both because of how we prompt the model when it’s running async, and also because users tend to ask for more one-shot code changes and ask fewer quick questions.\n\nAs always, keep the feedback coming. Thank you!",
+      "display_text_range": [
+        0,
+        1022
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "embirico",
+      "url": "https://x.com/embirico",
+      "id": "413490474",
+      "followers": 32548,
+      "following": 1048,
+      "likes": 5476,
+      "media_count": 309,
+      "name": "Alexander Embiricos",
+      "description": "Codex @OpenAI",
+      "raw_description": {
+        "text": "Codex @OpenAI",
+        "facets": []
+      },
+      "location": "San Francisco, CA",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1649509163712561153/mTxQ1REO_200x200.jpg",
+      "joined": "Tue Nov 15 23:17:52 +0000 2011",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 63,
+    "retweets": 32,
+    "likes": 864,
+    "bookmarks": 88,
+    "quotes": 16,
+    "created_at": "Sun Nov 02 01:23:30 +0000 2025",
+    "created_timestamp": 1762046610,
+    "views": 111831,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

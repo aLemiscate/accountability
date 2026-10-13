@@ -1,0 +1,226 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 316,
+  "in_reply_to_screen_name": "TheAmolAvasare",
+  "in_reply_to_status_id_str": "2046724659039932830",
+  "in_reply_to_user_id_str": "1494179492717154314",
+  "lang": "en",
+  "created_at": "2026-04-21T22:58:28.000Z",
+  "display_text_range": [
+    0,
+    192
+  ],
+  "entities": {},
+  "id_str": "2046725282502173046",
+  "text": "Engagement per subscriber is way up. We've made small adjustments along the way (weekly caps, tighter limits at peak), but usage has changed a lot and our current plans weren't built for this.",
+  "user": {
+    "id_str": "1494179492717154314",
+    "name": "Amol Avasare",
+    "screen_name": "TheAmolAvasare",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1556826865234366464/eQO2uwG8_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2046725282502173046"
+    ],
+    "editable_until_msecs": "1776815908000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 60,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 5137,
+    "lang": "en",
+    "reply_count": 1291,
+    "retweet_count": 660,
+    "created_at": "2026-04-21T22:55:59.000Z",
+    "display_text_range": [
+      0,
+      121
+    ],
+    "entities": {},
+    "id_str": "2046724659039932830",
+    "text": "For clarity, we're running a small test on ~2% of new prosumer signups. Existing Pro and Max subscribers aren't affected.",
+    "user": {
+      "id_str": "1494179492717154314",
+      "name": "Amol Avasare",
+      "screen_name": "TheAmolAvasare",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1556826865234366464/eQO2uwG8_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2046724659039932830"
+      ],
+      "editable_until_msecs": "1776815759000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "quoted_tweet": {
+      "__typename": "Tweet",
+      "favorite_count": 10713,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "reply_count": 1048,
+      "retweet_count": 909,
+      "created_at": "2026-04-21T21:40:23.000Z",
+      "display_text_range": [
+        0,
+        246
+      ],
+      "entities": {
+        "media": [
+          {
+            "display_url": "pic.x.com/sNxZKHh367",
+            "expanded_url": "https://x.com/TheGeorgePu/status/2046705634331025855/photo/1",
+            "indices": [
+              247,
+              270
+            ],
+            "url": "https://t.co/sNxZKHh367"
+          }
+        ]
+      },
+      "id_str": "2046705634331025855",
+      "text": "Anthropic just pulled Claude Code from the Pro plan.\n\nPro users wanting it need Max now. \n\n$100/month minimum. 5x jump.\n\nI'm on Max 20x so I'm fine. \n\nFlagging for anyone on Pro who's about to find out.\n\nNo announcement. Just a pricing page edit. https://t.co/sNxZKHh367",
+      "user": {
+        "id_str": "1382868229765230595",
+        "name": "George Pu",
+        "screen_name": "TheGeorgePu",
+        "is_blue_verified": true,
+        "profile_image_shape": "Circle",
+        "verified": false,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/2001072654220967938/mYsdXaNi_normal.jpg"
+      },
+      "mediaDetails": [
+        {
+          "display_url": "pic.x.com/sNxZKHh367",
+          "expanded_url": "https://x.com/TheGeorgePu/status/2046705634331025855/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "indices": [
+            247,
+            270
+          ],
+          "media_url_https": "https://pbs.twimg.com/media/HGdb7GEXMAAYHI2.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 730,
+                "w": 1304,
+                "x": 410,
+                "y": 0
+              },
+              {
+                "h": 730,
+                "w": 730,
+                "x": 984,
+                "y": 0
+              },
+              {
+                "h": 730,
+                "w": 640,
+                "x": 1074,
+                "y": 0
+              },
+              {
+                "h": 730,
+                "w": 365,
+                "x": 1317,
+                "y": 0
+              },
+              {
+                "h": 730,
+                "w": 1714,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 730,
+            "width": 1714
+          },
+          "sizes": {
+            "large": {
+              "h": 730,
+              "resize": "fit",
+              "w": 1714
+            },
+            "medium": {
+              "h": 511,
+              "resize": "fit",
+              "w": 1200
+            },
+            "small": {
+              "h": 290,
+              "resize": "fit",
+              "w": 680
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/sNxZKHh367"
+        }
+      ],
+      "photos": [
+        {
+          "backgroundColor": {
+            "red": 204,
+            "green": 214,
+            "blue": 221
+          },
+          "cropCandidates": [
+            {
+              "h": 730,
+              "w": 1304,
+              "x": 410,
+              "y": 0
+            },
+            {
+              "h": 730,
+              "w": 730,
+              "x": 984,
+              "y": 0
+            },
+            {
+              "h": 730,
+              "w": 640,
+              "x": 1074,
+              "y": 0
+            },
+            {
+              "h": 730,
+              "w": 365,
+              "x": 1317,
+              "y": 0
+            },
+            {
+              "h": 730,
+              "w": 1714,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "expandedUrl": "https://x.com/TheGeorgePu/status/2046705634331025855/photo/1",
+          "url": "https://pbs.twimg.com/media/HGdb7GEXMAAYHI2.jpg",
+          "width": 1714,
+          "height": 730
+        }
+      ]
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

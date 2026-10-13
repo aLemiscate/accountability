@@ -1,0 +1,64 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/sama/status/1889755723078443244",
+    "id": "1889755723078443244",
+    "text": "OPENAI ROADMAP UPDATE FOR GPT-4.5 and GPT-5:\n\nWe want to do a better job of sharing our intended roadmap, and a much better job simplifying our product offerings.\n\nWe want AI to “just work” for you; we realize how complicated our model and product offerings have gotten.\n\nWe hate the model picker as much as you do and want to return to magic unified intelligence.\n\nWe will next ship GPT-4.5, the model we called Orion internally, as our last non-chain-of-thought model.\n\nAfter that, a top goal for us is to unify o-series models and GPT-series models by creating systems that can use all our tools, know when to think for a long time or not, and generally be useful for a very wide range of tasks.\n\nIn both ChatGPT and our API, we will release GPT-5 as a system that integrates a lot of our technology, including o3. We will no longer ship o3 as a standalone model.\n\nThe free tier of ChatGPT will get unlimited chat access to GPT-5 at the standard intelligence setting (!!), subject to abuse thresholds.\n\nPlus subscribers will be able to run GPT-5 at a higher level of intelligence, and Pro subscribers will be able to run GPT-5 at an even higher level of intelligence. These models will incorporate voice, canvas, search, deep research, and more.",
+    "raw_text": {
+      "text": "OPENAI ROADMAP UPDATE FOR GPT-4.5 and GPT-5:\n\nWe want to do a better job of sharing our intended roadmap, and a much better job simplifying our product offerings.\n\nWe want AI to “just work” for you; we realize how complicated our model and product offerings have gotten.\n\nWe hate the model picker as much as you do and want to return to magic unified intelligence.\n\nWe will next ship GPT-4.5, the model we called Orion internally, as our last non-chain-of-thought model.\n\nAfter that, a top goal for us is to unify o-series models and GPT-series models by creating systems that can use all our tools, know when to think for a long time or not, and generally be useful for a very wide range of tasks.\n\nIn both ChatGPT and our API, we will release GPT-5 as a system that integrates a lot of our technology, including o3. We will no longer ship o3 as a standalone model.\n\nThe free tier of ChatGPT will get unlimited chat access to GPT-5 at the standard intelligence setting (!!), subject to abuse thresholds.\n\nPlus subscribers will be able to run GPT-5 at a higher level of intelligence, and Pro subscribers will be able to run GPT-5 at an even higher level of intelligence. These models will incorporate voice, canvas, search, deep research, and more.",
+      "display_text_range": [
+        0,
+        1248
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "sama",
+      "url": "https://x.com/sama",
+      "id": "1605",
+      "followers": 6374596,
+      "following": 1034,
+      "likes": 1016,
+      "media_count": 394,
+      "name": "Sam Altman",
+      "description": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+      "raw_description": {
+        "text": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+        "facets": []
+      },
+      "location": "SF",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "joined": "Sun Jul 16 22:01:55 +0000 2006",
+      "protected": false,
+      "website": {
+        "url": "http://blog.samaltman.com",
+        "display_url": "blog.samaltman.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 3594,
+    "retweets": 4149,
+    "likes": 37057,
+    "bookmarks": 5942,
+    "quotes": 2060,
+    "created_at": "Wed Feb 12 19:17:29 +0000 2025",
+    "created_timestamp": 1739387849,
+    "views": 7146309,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [sam-altman, openai]
-venue: Post on X and OpenAI blog post
+venue: Post on Twitter and OpenAI blog post
 quote: >-
   We have paused some frontier RL training to ensure that we can meet the
   appropriate alignment, security and monitoring standards for the new level of
@@ -71,12 +71,13 @@ sources:
     url: https://thehill.com/policy/technology/6038415-openai-pauses-ai-training/
     date: 2026-08-19
     type: reporting
+    snapshot: snapshots/2026-10-13-thehill.com-a391f621
   - title: OpenAI on X ("the world will need to pace the rate of AI advancement")
     publisher: X
     url: https://x.com/OpenAI/status/2082208694142730340
     date: 2026-07-28
     type: primary
-    snapshot: snapshots/2026-09-30-x.com-c8aa730d
+    snapshot: snapshots/2026-10-13-x.com-c8aa730d
 updates:
   - date: 2026-09-12
     text: >-

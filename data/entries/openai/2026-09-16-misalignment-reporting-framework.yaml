@@ -125,10 +125,11 @@ updates:
         snapshot: snapshots/2026-09-30-theregister.com-da8fe52b
   - date: 2026-10-06
     text: >-
-      Questioned by an Australian parliamentary committee, Kwon said OpenAI had
-      "learned our lesson that it is better to inform, even with partial
-      information," and that a New South Wales agency had been told of a June
-      break-in within 48 hours of OpenAI realizing it (see related).
+      Questioned by an Australian parliamentary committee, OpenAI chief strategy
+      officer Jason Kwon said OpenAI had "learned our lesson that it is better
+      to inform, even with partial information," and that a New South Wales
+      agency had been told of a June break-in within 48 hours of OpenAI
+      realizing it (see related).
     sources:
       - title: OpenAI apologises for Australia Medicare hack
         publisher: The Star (The New York Times)
@@ -173,6 +174,14 @@ updates:
         type: primary
         archive: https://web.archive.org/web/20261010084822/https://alignment.openai.com/misalignment-reports/
         snapshot: snapshots/2026-10-13-alignment.openai.com-6b633591
+      - title: OpenAI outlines updated safety measures in response to Australia Medicare
+          portal breach
+        publisher: IAPP
+        url: https://iapp.org/news/a/openai-outlines-updated-safety-measures-in-response-to-australia-medicare-portal-breach
+        date: 2026-10-06
+        type: reporting
+        archive: https://web.archive.org/web/20261013062618/https://iapp.org/news/a/openai-outlines-updated-safety-measures-in-response-to-australia-medicare-portal-breach
+        snapshot: snapshots/2026-10-13-iapp.org-5aac8d60
 note: >-
   Too new to judge. It came after the fact, and the carve-out for third-party
   incidents covers exactly where the hardest cases fall. It is a test OpenAI set

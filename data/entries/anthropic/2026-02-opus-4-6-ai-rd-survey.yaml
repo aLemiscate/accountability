@@ -22,11 +22,13 @@ summary: >-
   said it was already possible. Anthropic contacted those five "to clarify their
   views," and reported that all had either been forecasting a different
   threshold or were more pessimistic on reflection; the card does not mention a
-  similar follow-up with the other eleven. OpenAI researcher Noam Brown
-  criticized the method, noting the survey was of Anthropic's own employees.
-  Anthropic concluded Opus 4.6 crossed neither the AI R&D-4 nor the CBRN-4
-  threshold, adding that "confidently ruling out these thresholds is becoming
-  increasingly difficult."
+  similar follow-up with the other eleven. OpenAI researcher Noam Brown, who
+  said he appreciated Anthropic's honesty and did not think Opus 4.6 was
+  "dangerous to release," criticized the method: the survey was of Anthropic's
+  own employees, and the card does not discuss how following up only with the
+  five may have biased the results. Anthropic concluded Opus 4.6 crossed neither
+  the AI R&D-4 nor the CBRN-4 threshold, adding that "confidently ruling out
+  these thresholds is becoming increasingly difficult."
 patterns: [safeguards-on-paper]
 related:
   [
@@ -47,7 +49,7 @@ sources:
     date: 2026-02-10
     type: primary
     archive: https://web.archive.org/web/20260211060445/https://x.com/polynoamial/status/2021266471406666231
-    snapshot: snapshots/2026-10-03-x.com-2c7f9283
+    snapshot: snapshots/2026-10-13-x.com-2c7f9283
 response: >-
   Anthropic wrote that it had committed to publishing sabotage risk reports for
   models beyond Opus 4.5 "so as not to rely on difficult and subjective

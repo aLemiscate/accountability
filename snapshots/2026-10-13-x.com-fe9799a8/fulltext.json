@@ -1,0 +1,104 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/w01fe/status/2092742024680419761",
+    "id": "2092742024680419761",
+    "text": "Today’s report shows that some people at OpenAI knew about the message board during the first Artifactory breach. My post implied otherwise. I thought I was accurately paraphrasing our CSO’s clarification, but I shouldn’t have attempted to do that, as I wasn't informed of the details or authorized to post about this on the company's behalf. I’m sorry.\n\nhttps://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+    "raw_text": {
+      "text": "Today’s report shows that some people at OpenAI knew about the message board during the first Artifactory breach. My post implied otherwise. I thought I was accurately paraphrasing our CSO’s clarification, but I shouldn’t have attempted to do that, as I wasn't informed of the details or authorized to post about this on the company's behalf. I’m sorry.\n\nhttps://t.co/2vp8QMcOAG",
+      "display_text_range": [
+        0,
+        378
+      ],
+      "facets": [
+        {
+          "type": "media",
+          "indices": [
+            277,
+            300
+          ],
+          "id": "2092741696467746816",
+          "display": "pic.x.com/EFUlbQhA7m",
+          "original": "https://t.co/EFUlbQhA7m",
+          "replacement": "https://x.com/w01fe/status/2092742024680419761/photo/1"
+        },
+        {
+          "type": "url",
+          "indices": [
+            355,
+            378
+          ],
+          "original": "https://t.co/2vp8QMcOAG",
+          "replacement": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+          "display": "openai.com/index/hugging-…"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "w01fe",
+      "url": "https://x.com/w01fe",
+      "id": "139157465",
+      "followers": 6087,
+      "following": 836,
+      "likes": 8420,
+      "media_count": 40,
+      "name": "Jason Wolfe",
+      "description": "alignment and the model spec @OpenAI (opinions are my own)",
+      "raw_description": {
+        "text": "alignment and the model spec @OpenAI (opinions are my own)",
+        "facets": []
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/139157465/1757694089",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1966534318077194240/NyhJ0EPD_200x200.jpg",
+      "joined": "Sat May 01 18:39:20 +0000 2010",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 7,
+    "retweets": 4,
+    "likes": 155,
+    "bookmarks": 26,
+    "quotes": 8,
+    "created_at": "Wed Aug 26 22:32:34 +0000 2026",
+    "created_timestamp": 1787783554,
+    "possibly_sensitive": false,
+    "views": 13292,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": "w01fe",
+    "replying_to_status": "2086545797827686648",
+    "media": {
+      "all": [
+        {
+          "type": "photo",
+          "id": "2092741696467746816",
+          "url": "https://pbs.twimg.com/media/HQrpfDCbwAAIfod.png?name=orig",
+          "width": 1392,
+          "height": 918
+        }
+      ],
+      "photos": [
+        {
+          "type": "photo",
+          "id": "2092741696467746816",
+          "url": "https://pbs.twimg.com/media/HQrpfDCbwAAIfod.png?name=orig",
+          "width": 1392,
+          "height": 918
+        }
+      ]
+    },
+    "twitter_card": "summary_large_image",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

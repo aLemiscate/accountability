@@ -1,0 +1,156 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/sama/status/2097385167002415140",
+    "id": "2097385167002415140",
+    "text": "I spent much of the weekend talking with the team who did this work. Seb--and everyone else--acted with integrity and generosity throughout.\n\nInitially we believed the other team had also solved the problem. We wanted to collaborate and do a joint release. \n\nWhen we learned that they had Euler but not Navier-Stokes, we offered to let them go first, to suggest that they should be the ones to get the prize, and optionally for Tristan to be the lead author on a rewrite of the OpenAI proof. We felt it was challenging to offer the same to Levent (an Anthropic employee), who was not willing to talk or coordinate with us anyway. We were open to other solutions.\n\nWe would have greatly preferred coordination. We did not rush to publish even though the other team wasn't communicating with us. The team threatened us with unfounded accusations of plagarism.\n\nNow that we can see their work, the approaches appear to be different. It is also worth noting that our latest model can solve many, many other math problems.\n\nIt is true that we tried this because there were rumors on the internet last week that Anthropic's models had solved a millennium problem and we were curious if ours could do it too.",
+    "raw_text": {
+      "text": "I spent much of the weekend talking with the team who did this work. Seb--and everyone else--acted with integrity and generosity throughout.\n\nInitially we believed the other team had also solved the problem. We wanted to collaborate and do a joint release. \n\nWhen we learned that they had Euler but not Navier-Stokes, we offered to let them go first, to suggest that they should be the ones to get the prize, and optionally for Tristan to be the lead author on a rewrite of the OpenAI proof. We felt it was challenging to offer the same to Levent (an Anthropic employee), who was not willing to talk or coordinate with us anyway. We were open to other solutions.\n\nWe would have greatly preferred coordination. We did not rush to publish even though the other team wasn't communicating with us. The team threatened us with unfounded accusations of plagarism.\n\nNow that we can see their work, the approaches appear to be different. It is also worth noting that our latest model can solve many, many other math problems.\n\nIt is true that we tried this because there were rumors on the internet last week that Anthropic's models had solved a millennium problem and we were curious if ours could do it too.",
+      "display_text_range": [
+        0,
+        1201
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "sama",
+      "url": "https://x.com/sama",
+      "id": "1605",
+      "followers": 6374594,
+      "following": 1034,
+      "likes": 1016,
+      "media_count": 394,
+      "name": "Sam Altman",
+      "description": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+      "raw_description": {
+        "text": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+        "facets": []
+      },
+      "location": "SF",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "joined": "Sun Jul 16 22:01:55 +0000 2006",
+      "protected": false,
+      "website": {
+        "url": "http://blog.samaltman.com",
+        "display_url": "blog.samaltman.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 1007,
+    "retweets": 627,
+    "likes": 11242,
+    "bookmarks": 3341,
+    "quotes": 534,
+    "created_at": "Tue Sep 08 18:02:46 +0000 2026",
+    "created_timestamp": 1788890566,
+    "views": 4327550,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "quote": {
+      "url": "https://x.com/SebastienBubeck/status/2097379411691516310",
+      "id": "2097379411691516310",
+      "text": "I would like to clarify a few things:\n\n1) The screenshot is my reaching out to Levent to coordinate our releases. I hope it’s clear from the message that we came in with the best possible intentions.\n\n2) I never ever asked for Levent to be removed from authorship of his own work (as indicated by my text). I was surprised to learn during the call with Tristan that they had only solved Euler and not Navier-Stokes; after learning this we brainstormed possible paths forward. One option we discussed was that Tristan could be the lead author on a rewrite of OpenAI’s Navier-Stokes proof. It is in that context that I said “it would be simpler if Levent was not an Anthropic employee” because I felt it would be inappropriate for an Anthropic employee to author OpenAI’s work. Importantly it was admitted that internal Anthropic models had been used in their proof of Euler blowup; I therefore felt I could not consider Levent to be an independent academic. Another option I wanted to propose (but got cut short) is to offer access to our internal model so that they could try to finish their proof and bridge the gap between Euler and NS. Again I did not know how to navigate giving access to internal OpenAI IP to an Anthropic employee.\n\n3) To reiterate it plainly: as my text clearly indicates, and as I said during our call, OpenAI's intention was to do everything possible to celebrate their mathematical achievements and the heroic efforts that they made on Euler. In the call I was immediately met with a litany of slander, including direct threats that if we were to announce Navier-Stokes he would immediately go to the press with a barrage of unfounded accusations. I refuted all these accusations but he replied “there is nothing you can do, I simply do not trust you”. I was confused why one would turn an incredible source for celebration (of their achievements!) into such bickering, which is when I said that I did not understand why one would risk their career [over unfounded accusations]. Genuinely, at that moment, I was trying to care for him and do a last ditch attempt to get a chance to give them all the credits that they deserve. I deeply apologize for this extremely poor choice of words, it is the opposite of what I was trying to convey. (I should say that I retracted them on the spot by the way.)\n \n4) Overall, on a personal level, it was incredibly difficult to have these conversations. Levent refused to attend any of the meetings despite my repeated asking. As Sholto Douglas said, there will need to be coordination between Anthropic and OpenAI in the future; I felt I was doing a proxy negotiation with Anthropic while the Anthropic employee refused to directly participate.",
+      "raw_text": {
+        "text": "I would like to clarify a few things:\n\n1) The screenshot is my reaching out to Levent to coordinate our releases. I hope it’s clear from the message that we came in with the best possible intentions.\n\n2) I never ever asked for Levent to be removed from authorship of his own work (as indicated by my text). I was surprised to learn during the call with Tristan that they had only solved Euler and not Navier-Stokes; after learning this we brainstormed possible paths forward. One option we discussed was that Tristan could be the lead author on a rewrite of OpenAI’s Navier-Stokes proof. It is in that context that I said “it would be simpler if Levent was not an Anthropic employee” because I felt it would be inappropriate for an Anthropic employee to author OpenAI’s work. Importantly it was admitted that internal Anthropic models had been used in their proof of Euler blowup; I therefore felt I could not consider Levent to be an independent academic. Another option I wanted to propose (but got cut short) is to offer access to our internal model so that they could try to finish their proof and bridge the gap between Euler and NS. Again I did not know how to navigate giving access to internal OpenAI IP to an Anthropic employee.\n\n3) To reiterate it plainly: as my text clearly indicates, and as I said during our call, OpenAI's intention was to do everything possible to celebrate their mathematical achievements and the heroic efforts that they made on Euler. In the call I was immediately met with a litany of slander, including direct threats that if we were to announce Navier-Stokes he would immediately go to the press with a barrage of unfounded accusations. I refuted all these accusations but he replied “there is nothing you can do, I simply do not trust you”. I was confused why one would turn an incredible source for celebration (of their achievements!) into such bickering, which is when I said that I did not understand why one would risk their career [over unfounded accusations]. Genuinely, at that moment, I was trying to care for him and do a last ditch attempt to get a chance to give them all the credits that they deserve. I deeply apologize for this extremely poor choice of words, it is the opposite of what I was trying to convey. (I should say that I retracted them on the spot by the way.)\n \n4) Overall, on a personal level, it was incredibly difficult to have these conversations. Levent refused to attend any of the meetings despite my repeated asking. As Sholto Douglas said, there will need to be coordination between Anthropic and OpenAI in the future; I felt I was doing a proxy negotiation with Anthropic while the Anthropic employee refused to directly participate.",
+        "display_text_range": [
+          0,
+          2709
+        ],
+        "facets": [
+          {
+            "type": "media",
+            "indices": [
+              280,
+              303
+            ],
+            "id": "2097378978902536192",
+            "display": "pic.x.com/yRli0hLNuM",
+            "original": "https://t.co/yRli0hLNuM",
+            "replacement": "https://x.com/SebastienBubeck/status/2097379411691516310/photo/1"
+          }
+        ]
+      },
+      "author": {
+        "screen_name": "SebastienBubeck",
+        "url": "https://x.com/SebastienBubeck",
+        "id": "452384386",
+        "followers": 93390,
+        "following": 1511,
+        "likes": 3921,
+        "media_count": 268,
+        "name": "Sebastien Bubeck",
+        "description": "I work on AI at OpenAI. Former VP AI and Distinguished Scientist at Microsoft.",
+        "raw_description": {
+          "text": "I work on AI at OpenAI. Former VP AI and Distinguished Scientist at Microsoft.",
+          "facets": []
+        },
+        "location": "Seattle, WA",
+        "banner_url": "https://pbs.twimg.com/profile_banners/452384386/1738351888",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1709609135321583616/6bXuF85D_200x200.jpg",
+        "joined": "Sun Jan 01 19:44:13 +0000 2012",
+        "protected": false,
+        "website": {
+          "url": "http://sbubeck.com",
+          "display_url": "sbubeck.com"
+        },
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "individual"
+        },
+        "avatar_color": null
+      },
+      "replies": 462,
+      "retweets": 492,
+      "likes": 5705,
+      "bookmarks": 2403,
+      "quotes": 311,
+      "created_at": "Tue Sep 08 17:39:53 +0000 2026",
+      "created_timestamp": 1788889193,
+      "possibly_sensitive": false,
+      "views": 3866987,
+      "is_note_tweet": true,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": null,
+      "replying_to_status": null,
+      "media": {
+        "all": [
+          {
+            "type": "photo",
+            "id": "2097378978902536192",
+            "url": "https://pbs.twimg.com/media/HRtjEaTbcAA0uQ6.jpg?name=orig",
+            "width": 1080,
+            "height": 2424
+          }
+        ],
+        "photos": [
+          {
+            "type": "photo",
+            "id": "2097378978902536192",
+            "url": "https://pbs.twimg.com/media/HRtjEaTbcAA0uQ6.jpg?name=orig",
+            "width": 1080,
+            "height": 2424
+          }
+        ]
+      },
+      "twitter_card": "summary_large_image",
+      "color": null,
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

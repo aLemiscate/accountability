@@ -60,6 +60,7 @@ Entries are plain YAML, one file per event. The fields:
 | `status` | said | `open`, `kept`, `broken`, `reversed`, `eroded`, `contradicted` |
 | `concreteness` | said | `measurable`, `conditional`, `directional`, `aspirational` |
 | `breaks_if` | said | For open promises: what outcome would count as breaking it |
+| `outcome` | said | For a failed statement with no "did" entry that contradicts it: `date` and `text` saying what happened, shown as a receipt |
 | `contradicts` | did | Ids of the earlier statements this action contradicts |
 | `revision` | did | `before` / `after` text for a rewritten policy |
 | `related`, `patterns` | all | Other entry ids; pattern ids from `data/patterns.yaml` |
@@ -82,9 +83,9 @@ npm run capture -- https://x.com/janleike/status/1791498184671605209 --entry 202
 
 This saves `snapshots/<date>-<site>-<hash>/` containing:
 
-- `page.html` and `page.txt`: the raw page and its readable text
+- `page.html` and `page.txt`: the raw page and its readable text. A bot check ("Are we human?", "Client Challenge") or a page with almost no text is not saved, so a blocked source stays visibly unsnapped instead of looking captured
 - `screenshot.jpg` and `rendered.txt`: a full-page screenshot and rendered text (needs `npx playwright install chromium`)
-- `post.txt` and `post.json`: for X and Bluesky links, the post text from the public embed APIs, which work without logging in. For X, `syndication.json` adds the full text of long posts and the text of any quoted post, and attached photos are saved as `media-1.jpg`, `quoted-media-1.jpg` and so on, because some statements (a signed letter, a memo screenshot) exist only as an image
+- `post.txt` and `post.json`: for X and Bluesky links, the post text from the public embed APIs, which work without logging in. For X, `syndication.json` adds the text of any quoted post, and attached photos are saved as `media-1.jpg`, `quoted-media-1.jpg` and so on, because some statements (a signed letter, a memo screenshot) exist only as an image. X's embed endpoints stop at the first 280 characters of a long post, so its full text comes from FxTwitter's public API (no key) and is kept in `fulltext.json`; if that fails, `meta.json` marks the post `truncated`
 - `document.pdf` and `document.txt`: for PDFs, the file and its text (the text needs `pdftotext` from poppler-utils). Files over 10 MB are not stored; `meta.json` keeps their size and SHA-256 under `omitted`, so a copy fetched later can still be checked
 - `meta.json`: HTTP status, capture time, SHA-256 hashes of every file, and for posts the exact time of posting (read from the X post id)
 - `transcript.txt` (added by hand, not by the capture tool): a transcription of text that exists only in an attached image, so quotes from it can be checked. It opens with a line saying which image it came from, and `meta.json` lists it under `derived`, apart from the captured files
@@ -222,7 +223,7 @@ or allow at least these hosts:
 | Purpose | Hosts |
 | --- | --- |
 | Archiving and deleted-post search | `web.archive.org`, `archive.org` |
-| X posts | `x.com`, `twitter.com`, `publish.twitter.com`, `api.x.com` |
+| X posts | `x.com`, `twitter.com`, `publish.twitter.com`, `cdn.syndication.twimg.com`, `api.fxtwitter.com`, `api.x.com` |
 | Bluesky | `bsky.app`, `public.api.bsky.app`, `api.bsky.app`, `bsky.social` |
 | Company pages | `openai.com`, `cdn.openai.com`, `model-spec.openai.com`, `darioamodei.com` |
 | Reporting cited in the record | the news sites in `reports/source-health.md` |

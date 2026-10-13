@@ -1,0 +1,106 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/polynoamial/status/2021266471406666231",
+    "id": "2021266471406666231",
+    "text": "I appreciate @Anthropic's honesty in their latest system card, but the content of it does not give me confidence that the company will act responsibly with deployment of advanced AI models:\n\n-They primarily relied on an internal survey to determine whether Opus 4.6 crossed their autonomous AI R&D-4 threshold (and would thus require stronger safeguards to release under their Responsible Scaling Policy). This wasn't even an external survey of an impartial 3rd party, but rather a survey of Anthropic employees.\n\n-When 5/16 internal survey respondents initially gave an assessment that suggested stronger safeguards might be needed for model release, Anthropic followed up with those employees specifically and asked them to \"clarify their views.\" They do not mention any similar follow-up for the other 11/16 respondents. There is no discussion in the system card of how this may create bias in the survey results.\n\n-Their reason for relying on surveys is that their existing AI R&D evals are saturated. Some might argue that AI progress has been so fast that it's understandable they don't have more advanced quantitative evaluations yet, but we can and should hold AI labs to a high bar. Also, other labs do have advanced AI R&D evals that aren't saturated. For example, OpenAI has the OPQA benchmark which measures AI models' ability to solve real internal problems that OpenAI research teams encountered and that took the team more than a day to solve.\n\nI don't think Opus 4.6 is actually at the level of a remote entry-level AI researcher, and I don't think it's dangerous to release. But the point of a Responsible Scaling Policy is to build institutional muscle and good habits before things do become serious. Internal surveys, especially as Anthropic has administered them, are not a responsible substitute for quantitative evaluations.",
+    "raw_text": {
+      "text": "I appreciate @Anthropic's honesty in their latest system card, but the content of it does not give me confidence that the company will act responsibly with deployment of advanced AI models:\n\n-They primarily relied on an internal survey to determine whether Opus 4.6 crossed their autonomous AI R&D-4 threshold (and would thus require stronger safeguards to release under their Responsible Scaling Policy). This wasn't even an external survey of an impartial 3rd party, but rather a survey of Anthropic employees.\n\n-When 5/16 internal survey respondents initially gave an assessment that suggested stronger safeguards might be needed for model release, Anthropic followed up with those employees specifically and asked them to \"clarify their views.\" They do not mention any similar follow-up for the other 11/16 respondents. There is no discussion in the system card of how this may create bias in the survey results.\n\n-Their reason for relying on surveys is that their existing AI R&D evals are saturated. Some might argue that AI progress has been so fast that it's understandable they don't have more advanced quantitative evaluations yet, but we can and should hold AI labs to a high bar. Also, other labs do have advanced AI R&D evals that aren't saturated. For example, OpenAI has the OPQA benchmark which measures AI models' ability to solve real internal problems that OpenAI research teams encountered and that took the team more than a day to solve.\n\nI don't think Opus 4.6 is actually at the level of a remote entry-level AI researcher, and I don't think it's dangerous to release. But the point of a Responsible Scaling Policy is to build institutional muscle and good habits before things do become serious. Internal surveys, especially as Anthropic has administered them, are not a responsible substitute for quantitative evaluations.",
+      "display_text_range": [
+        0,
+        1847
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            13,
+            23
+          ],
+          "original": "Anthropic",
+          "id": "1819261"
+        },
+        {
+          "type": "media",
+          "indices": [
+            280,
+            303
+          ],
+          "id": "2021265388978438146",
+          "display": "pic.x.com/yPpf2bo4wl",
+          "original": "https://t.co/yPpf2bo4wl",
+          "replacement": "https://x.com/polynoamial/status/2021266471406666231/photo/1"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "polynoamial",
+      "url": "https://x.com/polynoamial",
+      "id": "825088493764407298",
+      "followers": 181017,
+      "following": 964,
+      "likes": 7524,
+      "media_count": 175,
+      "name": "Noam Brown",
+      "description": "Researching reasoning @OpenAI | Co-created Libratus/Pluribus superhuman poker AIs, CICERO Diplomacy AI, and OpenAI o-series 🍓 reasoning models",
+      "raw_description": {
+        "text": "Researching reasoning @OpenAI | Co-created Libratus/Pluribus superhuman poker AIs, CICERO Diplomacy AI, and OpenAI o-series 🍓 reasoning models",
+        "facets": []
+      },
+      "location": "San Francisco, CA",
+      "banner_url": "https://pbs.twimg.com/profile_banners/825088493764407298/1779504075",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1872883170292457472/8ywVGO5M_200x200.jpg",
+      "joined": "Fri Jan 27 21:10:01 +0000 2017",
+      "protected": false,
+      "website": {
+        "url": "http://noambrown.com",
+        "display_url": "noambrown.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 55,
+    "retweets": 64,
+    "likes": 939,
+    "bookmarks": 272,
+    "quotes": 15,
+    "created_at": "Tue Feb 10 16:54:14 +0000 2026",
+    "created_timestamp": 1770742454,
+    "possibly_sensitive": false,
+    "views": 191210,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "media": {
+      "all": [
+        {
+          "type": "photo",
+          "id": "2021265388978438146",
+          "url": "https://pbs.twimg.com/media/HAz6KYLaAAIsdQj.jpg?name=orig",
+          "width": 2528,
+          "height": 874
+        }
+      ],
+      "photos": [
+        {
+          "type": "photo",
+          "id": "2021265388978438146",
+          "url": "https://pbs.twimg.com/media/HAz6KYLaAAIsdQj.jpg?name=orig",
+          "width": 2528,
+          "height": 874
+        }
+      ]
+    },
+    "twitter_card": "summary_large_image",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

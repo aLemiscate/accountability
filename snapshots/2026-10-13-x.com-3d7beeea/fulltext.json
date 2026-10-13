@@ -1,0 +1,155 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/gdb/status/1960022650228793440",
+    "id": "1960022650228793440",
+    "text": "My wife Anna and I are supporting @LeadingFutureAI because we believe that AI can massively improve quality of life for every person (and every animal!).\n\nWe believe the goal of AI policy should be to unlock this outcome. That means taking a balanced view, which we think of as optimistic realism, towards achieving AI's benefits.\n\nWe are excited about the future.",
+    "raw_text": {
+      "text": "My wife Anna and I are supporting @LeadingFutureAI because we believe that AI can massively improve quality of life for every person (and every animal!).\n\nWe believe the goal of AI policy should be to unlock this outcome. That means taking a balanced view, which we think of as optimistic realism, towards achieving AI's benefits.\n\nWe are excited about the future.",
+      "display_text_range": [
+        0,
+        364
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            34,
+            50
+          ],
+          "original": "LeadingFutureAI",
+          "id": "1956347242308362240"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "gdb",
+      "url": "https://x.com/gdb",
+      "id": "162124540",
+      "followers": 1070173,
+      "following": 8,
+      "likes": 2956,
+      "media_count": 460,
+      "name": "Greg Brockman",
+      "description": "President & Co-Founder @OpenAI",
+      "raw_description": {
+        "text": "President & Co-Founder @OpenAI",
+        "facets": []
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/162124540/1399179172",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1347621377503711233/bHg3ipfD_200x200.jpg",
+      "joined": "Fri Jul 02 19:38:09 +0000 2010",
+      "protected": false,
+      "website": {
+        "url": "http://gregbrockman.com",
+        "display_url": "gregbrockman.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 104,
+    "retweets": 43,
+    "likes": 709,
+    "bookmarks": 72,
+    "quotes": 11,
+    "created_at": "Mon Aug 25 16:53:09 +0000 2025",
+    "created_timestamp": 1756140789,
+    "views": 143135,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "quote": {
+      "url": "https://x.com/LeadingFutureAI/status/1959956536370790436",
+      "id": "1959956536370790436",
+      "text": "AI is already transforming the global economy, and America should lead in advancing a policy governing AI expansion that drives innovation and broad economic growth for working people across the country.\n\nLTF and its affiliated organizations will promote policies that unlock the transformative and economic benefits of AI...\n\nLTF and its affiliated organizations will oppose policies that stifle innovation, enable China to gain global AI superiority, or make it harder to bring AI's benefits into the world, and those who support that agenda.\n\nhttps://www.prnewswire.com/news-releases/ai-industry-launches-leading-the-future-to-drive-us-ai-leadership-economic-growth-national-security-and-innovation-302537548.html",
+      "raw_text": {
+        "text": "AI is already transforming the global economy, and America should lead in advancing a policy governing AI expansion that drives innovation and broad economic growth for working people across the country.\n\nLTF and its affiliated organizations will promote policies that unlock the transformative and economic benefits of AI...\n\nLTF and its affiliated organizations will oppose policies that stifle innovation, enable China to gain global AI superiority, or make it harder to bring AI's benefits into the world, and those who support that agenda.\n\nhttps://t.co/Yaqm4nFWCL",
+        "display_text_range": [
+          0,
+          569
+        ],
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              546,
+              569
+            ],
+            "original": "https://t.co/Yaqm4nFWCL",
+            "replacement": "https://www.prnewswire.com/news-releases/ai-industry-launches-leading-the-future-to-drive-us-ai-leadership-economic-growth-national-security-and-innovation-302537548.html",
+            "display": "prnewswire.com/news-releases/…"
+          }
+        ]
+      },
+      "author": {
+        "screen_name": "LeadingFutureAI",
+        "url": "https://x.com/LeadingFutureAI",
+        "id": "1956347242308362240",
+        "followers": 2087,
+        "following": 6,
+        "likes": 21,
+        "media_count": 36,
+        "name": "Leading the Future",
+        "description": "Leading the Future is focused on advancing a positive, forward-looking agenda for AI innovation in America.",
+        "raw_description": {
+          "text": "Leading the Future is focused on advancing a positive, forward-looking agenda for AI innovation in America.",
+          "facets": []
+        },
+        "location": "",
+        "banner_url": "https://pbs.twimg.com/profile_banners/1956347242308362240/1756082419",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1956352986763923456/9xyl9hQj_200x200.jpg",
+        "joined": "Fri Aug 15 13:29:01 +0000 2025",
+        "protected": false,
+        "website": {
+          "url": "https://www.leadingthefuture.com/",
+          "display_url": "leadingthefuture.com"
+        },
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "individual"
+        },
+        "avatar_color": null
+      },
+      "replies": 26,
+      "retweets": 19,
+      "likes": 107,
+      "bookmarks": 14,
+      "quotes": 6,
+      "created_at": "Mon Aug 25 12:30:27 +0000 2025",
+      "created_timestamp": 1756125027,
+      "views": 150272,
+      "is_note_tweet": true,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": null,
+      "replying_to_status": null,
+      "card": {
+        "url": "https://www.prnewswire.com/news-releases/ai-industry-launches-leading-the-future-to-drive-us-ai-leadership-economic-growth-national-security-and-innovation-302537548.html",
+        "title": "AI Industry Launches \"Leading the Future\" to Drive U.S. AI Leadership, Economic Growth, National...",
+        "description": "/PRNewswire/ -- A coalition of leading AI companies and innovators today announced the launch of Leading the Future (LTF), a new national political operation...",
+        "domain": "www.prnewswire.com",
+        "image": {
+          "width": 800,
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2107900548246552576/b2Zy-6OY?format=jpg&name=800x419"
+        }
+      },
+      "twitter_card": "tweet",
+      "color": null,
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

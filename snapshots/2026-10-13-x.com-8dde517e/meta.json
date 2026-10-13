@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/OpenAI/status/2027846013650932195",
+  "captured_at": "2026-10-13T15:09:20.389Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "25e7c6a2c55d8af351a0392fd6695c6a0b80ed67a09ece3b29ad222b55a74e57",
+    "page.txt": "440ac4f3aeca74b27af824148ab58a8f0215871a995c09f21142ac14da6fef67",
+    "post.json": "b53e15b6c24ad082fbc2928d9a70540dc61929f8238d8dd4f999b4e34592b063",
+    "syndication.json": "3c26d9bea2eb8267cb64e848c977c363ddc321a5df53db2202503c878ca09a9c",
+    "fulltext.json": "dccfa9cdba92aa9b0e86bd6f85f8028afe69cd73c5adff6a7d47d4c70345bbef",
+    "post.txt": "87f2cfdb38980f09466c3c29311113dbbc6d18caa5e875934ae1e3f5e46ce5fd"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/2027846013650932195",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"Our agreement with the Department of War upholds our redlines: - No use of OpenAI technology for mass domestic surveillance. - No use of OpenAI technology to direct autonomous weapons systems. - No use of OpenAI technology for high-stakes automated decisions (e.g. systems such as “… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "February 28, 2026",
+    "posted_at": "2026-02-28T20:38:59.868Z",
+    "full_text_from": "api.fxtwitter.com"
+  }
+}

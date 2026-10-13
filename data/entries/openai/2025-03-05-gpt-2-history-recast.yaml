@@ -18,6 +18,13 @@ summary: >-
   make the next system safe is to learn from deploying the current one.
 concreteness: measurable
 status: contradicted
+outcome:
+  date: 2019-11
+  text: >-
+    OpenAI's own report on the GPT-2 release explained the staged release as a
+    way to "allow time for risk analyses and use findings from smaller models to
+    inform the actions taken with larger ones," because of "concerns about the
+    larger models being misused."
 patterns: []
 sources:
   - title: How we think about safety and alignment

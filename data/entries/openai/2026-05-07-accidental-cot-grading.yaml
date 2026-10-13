@@ -40,7 +40,7 @@ sources:
     url: https://x.com/OpenAI/status/2052845770056073216
     date: 2026-05-08
     type: primary
-    snapshot: snapshots/2026-09-30-x.com-f86c7f8a
+    snapshot: snapshots/2026-10-13-x.com-f86c7f8a
 response: >-
   OpenAI fixed the affected reward pathways, expanded the detector (which scans
   every RL run and posts suspected cases in a public internal channel), and

@@ -1,0 +1,31 @@
+{
+  "url": "https://x.com/TheAmolAvasare/status/2046724659039932830",
+  "captured_at": "2026-10-13T15:16:17.203Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "3c657eb0150e3412c397e29ebf7d36e7a2579f21850267db9ca3bdb73725d3bc",
+    "page.txt": "25bc80bcd7d0f6c13d6669bde8332f034e59c595f7f44256373539aa7803a5c5",
+    "post.json": "c30367e3c4edb1501c0dcf2ac567988cf64641284658e1b78359713686600077",
+    "syndication.json": "9bb794d4d5ee330f127cacf06ab2732e90f77c734a12a21d0c46795a1f7d2e54",
+    "quoted-media-1.jpg": "4e5828c3d66cbd69d72fe9e5616e7429dc46966ce172b1c0649c431e56f209e0",
+    "post.txt": "5b7dba3ef08b8119d3e78e4f6f4c039fd225111cffea9f4e854a1f852da4e38e"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/TheAmolAvasare/status/2046724659039932830",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Amol Avasare on X: \"For clarity, we're running a small test on ~2% of new prosumer signups. Existing Pro and Max subscribers aren't affected.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Amol Avasare (@TheAmolAvasare)",
+    "date": "April 21, 2026",
+    "posted_at": "2026-04-21T22:55:59.677Z",
+    "media": [
+      {
+        "file": "quoted-media-1.jpg",
+        "url": "https://pbs.twimg.com/media/HGdb7GEXMAAYHI2.jpg"
+      }
+    ]
+  },
+  "rendered_status": 403
+}

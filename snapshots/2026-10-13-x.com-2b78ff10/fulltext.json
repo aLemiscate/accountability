@@ -1,0 +1,64 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/sama/status/1953893841381273969",
+    "id": "1953893841381273969",
+    "text": "GPT-5 rollout updates:\n\n*We are going to double GPT-5 rate limits for ChatGPT Plus users as we finish rollout.\n\n*We will let Plus users choose to continue to use 4o. We will watch usage as we think about how long to offer legacy models for.\n\n*GPT-5 will seem smarter starting today. Yesterday, the autoswitcher broke and was out of commission for a chunk of the day, and the result was GPT-5 seemed way dumber. Also, we are making some interventions to how the decision boundary works that should help you get the right model more often.\n\n*We will make it more transparent about which model is answering a given query.\n\n*We will change the UI to make it easier to manually trigger thinking.\n\n*Rolling out to everyone is taking a bit longer. It’s a massive change at big scale. For example, our API traffic has about doubled over the past 24 hours…\n\nWe will continue to work to get things stable and will keep listening to feedback. As we mentioned, we expected some bumpiness as we roll out so many things at once. But it was a little more bumpy than we hoped for!",
+    "raw_text": {
+      "text": "GPT-5 rollout updates:\n\n*We are going to double GPT-5 rate limits for ChatGPT Plus users as we finish rollout.\n\n*We will let Plus users choose to continue to use 4o. We will watch usage as we think about how long to offer legacy models for.\n\n*GPT-5 will seem smarter starting today. Yesterday, the autoswitcher broke and was out of commission for a chunk of the day, and the result was GPT-5 seemed way dumber. Also, we are making some interventions to how the decision boundary works that should help you get the right model more often.\n\n*We will make it more transparent about which model is answering a given query.\n\n*We will change the UI to make it easier to manually trigger thinking.\n\n*Rolling out to everyone is taking a bit longer. It’s a massive change at big scale. For example, our API traffic has about doubled over the past 24 hours…\n\nWe will continue to work to get things stable and will keep listening to feedback. As we mentioned, we expected some bumpiness as we roll out so many things at once. But it was a little more bumpy than we hoped for!",
+      "display_text_range": [
+        0,
+        1064
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "sama",
+      "url": "https://x.com/sama",
+      "id": "1605",
+      "followers": 6374595,
+      "following": 1034,
+      "likes": 1016,
+      "media_count": 394,
+      "name": "Sam Altman",
+      "description": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+      "raw_description": {
+        "text": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+        "facets": []
+      },
+      "location": "SF",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "joined": "Sun Jul 16 22:01:55 +0000 2006",
+      "protected": false,
+      "website": {
+        "url": "http://blog.samaltman.com",
+        "display_url": "blog.samaltman.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 2588,
+    "retweets": 1320,
+    "likes": 15328,
+    "bookmarks": 1616,
+    "quotes": 739,
+    "created_at": "Fri Aug 08 18:59:28 +0000 2025",
+    "created_timestamp": 1754679568,
+    "views": 2052011,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

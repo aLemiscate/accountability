@@ -5,7 +5,7 @@ org: anthropic
 type: said
 kind: commitment
 who: [anthropic]
-venue: Posts on X
+venue: Posts on Twitter
 quote: >-
   we plan to release the data from this experiment in the future to empower a
   broader set of people to build safer systems.
@@ -21,6 +21,13 @@ summary: >-
   red-teaming data has had no new data since December 2022.
 concreteness: measurable
 status: broken
+outcome:
+  date: 2026-10-13
+  text: >-
+    Almost four years on, no dataset from the experiment has been published.
+    Anthropic's Hugging Face organization lists 14 datasets, none of them from
+    it, and the red-teaming repository the promise pointed to has had no new
+    data since December 2022.
 breaks_if: >-
   The data from the December 2022 Constitutional AI interface experiment is
   never released.

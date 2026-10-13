@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/sama/status/1983584366547829073",
+  "captured_at": "2026-10-13T15:11:31.531Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "f8c7aa2b8341fe7d5cfb9f401f851a8e12e582c51fa506e4c07866f4ebc0641f",
+    "page.txt": "376b434f3246e1564260ad24d008a0a022e9877ab49733627c1d74ebe52d618b",
+    "post.json": "5dcb76fe13f967eb4e1e340eca1331ed7a43b8b48214c404ff0c905f4596197f",
+    "syndication.json": "86ef3b5acbe4ee7c582014a4c122f729f0a5b1ae8234c78f80d2d1f2e1c0ebb0",
+    "fulltext.json": "c773e8ad08849dea1b45e6d0723be5ae3a3069afbe00b987ecd7abd9111d9acd",
+    "post.txt": "a7c54b8b79f922e0d244bea18668d8f54f4abb38e4a740e7768e70c7be4912b5"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1983584366547829073",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"Yesterday we did a livestream. TL;DR: We have set internal goals of having an automated AI research intern by September of 2026 running on hundreds of thousands of GPUs, and a true automated AI researcher by March of 2028. We may totally fail at this goal, but given the extraordi… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "October 29, 2025",
+    "posted_at": "2025-10-29T17:19:00.857Z",
+    "full_text_from": "api.fxtwitter.com"
+  }
+}

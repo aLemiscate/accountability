@@ -1,0 +1,75 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/OpenAI/status/2052845765874327943",
+    "id": "2052845765874327943",
+    "text": "Directly rewarding or penalizing CoTs can make models’ reasoning traces less informative for detecting misalignment. That’s why we treat avoiding CoT grading as an important part of preserving monitorability.\n\nWe recently built an automated detection system to find cases where RL rewards were computed using model CoTs.",
+    "raw_text": {
+      "text": "Directly rewarding or penalizing CoTs can make models’ reasoning traces less informative for detecting misalignment. That’s why we treat avoiding CoT grading as an important part of preserving monitorability.\n\nWe recently built an automated detection system to find cases where RL rewards were computed using model CoTs.",
+      "display_text_range": [
+        0,
+        320
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "OpenAI",
+      "url": "https://x.com/OpenAI",
+      "id": "4398626122",
+      "followers": 5430057,
+      "following": 4,
+      "likes": 2526,
+      "media_count": 743,
+      "name": "OpenAI",
+      "description": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: http://openai.com/jobs",
+      "raw_description": {
+        "text": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: https://t.co/dJGr6LgzPA",
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              107,
+              130
+            ],
+            "original": "https://t.co/dJGr6LgzPA",
+            "replacement": "http://openai.com/jobs",
+            "display": "openai.com/jobs"
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/4398626122/1777662919",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "joined": "Sun Dec 06 22:51:08 +0000 2015",
+      "protected": false,
+      "website": {
+        "url": "https://openai.com",
+        "display_url": "openai.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "organization"
+      },
+      "avatar_color": null
+    },
+    "replies": 11,
+    "retweets": 12,
+    "likes": 353,
+    "bookmarks": 16,
+    "quotes": 1,
+    "created_at": "Fri May 08 20:19:05 +0000 2026",
+    "created_timestamp": 1778271545,
+    "views": 60997,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": "OpenAI",
+    "replying_to_status": "2052845764507062349",
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

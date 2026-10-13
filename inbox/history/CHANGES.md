@@ -96,7 +96,7 @@ neither (OpenAI 12, Anthropic 13), and every one is in the page logs below.
 - 2025-05-15: feedback from users who opted out of training can bring "the entire conversation" into training.
 - 2025-08-17 to 2025-08-30: ChatGPT Team's GPT-5 Thinking limit from "200 requests / day" to "200 requests / week" (Plus had 3,000 a week).
 - 2025-11-23: no training on business data from connectors becomes "By default."
-- 2026-02-07 to 2026-02-10: training article deletes "We don’t use your content to market our services or create advertising profiles of you" as ads launch.
+- 2026-02-07 to 2026-02-10: training article deletes "We do not use your content to market our services or create advertising profiles of you" as ads launch.
 - 2026-04-24 to 2026-04-26: API abuse logs may be kept longer than 30 days when "reasonably necessary to protect our services or any third party."
 - 2026-05-27 to 2026-07-02: GPT-4.5 retired from ChatGPT on June 26, 2026; the only notice found is on this page, after the fact.
 - 2026-06-10 to 2026-06-23: Pro's "unlimited access to our GPT-5 models" becomes "some models have separate usage allowances."
@@ -264,6 +264,7 @@ The feedback exception was already in the data controls help page for consumers;
 | 2024-09-24 | Business data: "We don’t use content from our business offerings ... to train our models" becomes "By default, we do not train on any inputs or outputs from our products for business users," with API customers able to opt in through Playground feedback. | Not dated |
 | 2025-04-26 | FAQ rewritten: "Temporary Chats are deleted from our systems after 30 days." The April 2023 advertising sentence is dropped from the FAQ. | Not dated. Noted in `2026-01-16-ad-principles` and the commitment grade |
 | 2025-05-15 | Adds that if a user who opted out gives a thumbs up or down, "the entire conversation associated with that feedback may be used to train our models." | Not dated |
+| 2025-12-03 to 2025-12-22 | "We don’t use your content to market our services" becomes "We do not use your content to market our services." | Not dated |
 | 2025-06-08 to 2026-07-09 | Note: "Data retention for certain services may be affected by recent legal developments." The Temporary Chat deletion sentence stays unchanged. | Linked to OpenAI's blog post on the New York Times data demands. Entry: `2025-05-nyt-chat-preservation-order` |
 | 2026-02-07 to 2026-02-10 | Deletes the "advertising profiles" sentence as ads launch; adds links to ad controls. | No note. Update added to `2026-01-16-ad-principles`; graded as an eroded commitment |
 | 2026-05-21 | Adds that turning off Memory "does not disable safety features that may use limited, safety-relevant context in rare, high-risk situations." | Links to an OpenAI post on sensitive conversations |

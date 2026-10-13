@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { hasCredential, htmlToText, isBlueskyUrl, isXUrl, pageTitle, parseTweetEmbed, redactCredentials } from '../scripts/web.mjs';
+import { hasCredential, htmlToText, isBlueskyUrl, isChallengePage, isXUrl, pageTitle, parseTweetEmbed, redactCredentials } from '../scripts/web.mjs';
 
 test('parses the text, author and date out of an X oEmbed snippet', () => {
   const html = '<blockquote class="twitter-tweet"><p lang="en" dir="ltr">But over the past years, safety culture and processes have taken a backseat to shiny products.</p>&mdash; Jan Leike (@janleike) <a href="https://twitter.com/janleike/status/1791498184671605209?ref_src=twsrc%5Etfw">May 17, 2024</a></blockquote>\n';
@@ -37,4 +37,12 @@ test('masks credentials so a snapshot can be committed', () => {
   assert.equal(text, 'leaked key [credential removed] and [credential removed] here');
   assert.ok(hasCredential(key));
   assert.ok(!hasCredential('rubygems_ is a prefix, and sk-learn is a library'));
+});
+
+test('bot checks and empty pages are not mistaken for the page', () => {
+  assert.equal(isChallengePage('Are we human?', 'Are we human? Checking'), true);
+  assert.equal(isChallengePage('Client Challenge', 'x '.repeat(40)), true);
+  assert.equal(isChallengePage('Attention Required! | Cloudflare', 'Sorry, you have been blocked '.repeat(10)), true);
+  assert.equal(isChallengePage('Sam Altman on Trust | Conversations with Tyler', 'Loading'), true);
+  assert.equal(isChallengePage('OpenAI pauses training', 'word '.repeat(300)), false);
 });

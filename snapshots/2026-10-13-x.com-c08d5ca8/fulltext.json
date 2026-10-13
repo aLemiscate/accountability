@@ -1,0 +1,75 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/fidjissimo/status/1972707487238467914",
+    "id": "1972707487238467914",
+    "text": "Cool thing launching today: you can now buy products directly from ChatGPT (starting with Etsy and expanding soon to over a million Shopify merchants). It’s powered by the Agentic Commerce Protocol, an open standard we built with Stripe.  Merchants and developers who want Instant Checkout, you can get started today: http://chatgpt.com/merchants",
+    "raw_text": {
+      "text": "Cool thing launching today: you can now buy products directly from ChatGPT (starting with Etsy and expanding soon to over a million Shopify merchants). It’s powered by the Agentic Commerce Protocol, an open standard we built with Stripe.  Merchants and developers who want Instant Checkout, you can get started today: https://t.co/VdHyAtHvhO",
+      "display_text_range": [
+        0,
+        341
+      ],
+      "facets": [
+        {
+          "type": "url",
+          "indices": [
+            318,
+            341
+          ],
+          "original": "https://t.co/VdHyAtHvhO",
+          "replacement": "http://chatgpt.com/merchants",
+          "display": "chatgpt.com/merchants"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "fidjissimo",
+      "url": "https://x.com/fidjissimo",
+      "id": "6112332",
+      "followers": 699738,
+      "following": 914,
+      "likes": 2967,
+      "media_count": 41,
+      "name": "Fidji Simo",
+      "description": "CEO of Applications, OpenAI",
+      "raw_description": {
+        "text": "CEO of Applications, OpenAI",
+        "facets": []
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/6112332/1588311648",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1422212886487658496/oUzs06MX_200x200.jpg",
+      "joined": "Thu May 17 16:01:08 +0000 2007",
+      "protected": false,
+      "website": {
+        "url": "http://fidjisimo.com",
+        "display_url": "fidjisimo.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 117,
+    "retweets": 78,
+    "likes": 840,
+    "bookmarks": 247,
+    "quotes": 51,
+    "created_at": "Mon Sep 29 16:58:10 +0000 2025",
+    "created_timestamp": 1759165090,
+    "views": 259145,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}
