@@ -18,9 +18,12 @@
     A structural promise to stay insulated from profit pressure gets rewritten
     again and again. Each step is sold as the way to protect the mission.
   tells:
-    - New corporate entities, "caps", or "control" language announced alongside a funding round.
-    - Benefit framed as philanthropy ("the foundation will fund…") instead of as constraints on the business.
-    - Governance bodies that exist on paper but have not overridden management on anything material.
+    - New corporate entities, "caps", or "control" language announced alongside
+      a funding round.
+    - Benefit framed as philanthropy ("the foundation will fund…") instead of as
+      constraints on the business.
+    - Governance bodies that exist on paper but have not overridden management
+      on anything material.
   watch_for: >-
     Check the governance fine print on the next capital raise or IPO. How does
     the controlling entity keep control after dilution, and who appoints whom?
@@ -28,16 +31,16 @@
 - id: race-clause
   name: The Race Clause
   thesis: >-
-    Safety commitments carry an exit that opens once a competitor moves
-    faster. "Unilateral" restraint turns into something the company can't
-    afford.
+    Safety commitments carry an exit that opens once a competitor moves faster.
+    "Unilateral" restraint turns into something the company can't afford.
   tells:
-    - Phrases like "if another developer releases…", "unilateral commitments", "stay on the frontier", "competitors are blazing ahead".
+    - Phrases like "if another developer releases…", "unilateral commitments",
+      "stay on the frontier", "competitors are blazing ahead".
     - A framework revision shortly before or after a major rival launch.
   watch_for: >-
     The next framework revision will probably cite rivals or geopolitics to
-    justify loosening a threshold, and it will likely land near a
-    competitive launch.
+    justify loosening a threshold, and it will likely land near a competitive
+    launch.
   industry:
     text: >-
       Google DeepMind's safety framework has the same kind of exit: its February
@@ -50,17 +53,21 @@
         url: https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/updating-the-frontier-safety-framework/Frontier%20Safety%20Framework%202.0.pdf
         date: 2025-02-04
         type: primary
+        snapshot: snapshots/2026-10-13-storage.googleapis.com-49df4bfa
 
 - id: silent-edit
   name: Silent Edits
   thesis: >-
-    Policies, principles and products get changed without a changelog, and
-    the change comes out when a journalist, a watcher or a paying user notices
-    the difference.
+    Policies, principles and products get changed without a changelog, and the
+    change comes out when a journalist, a watcher or a paying user notices the
+    difference.
   tells:
-    - A policy page changes with no announcement, or with an announcement that leads with an unrelated framing ("clearer", "more readable").
-    - Old wording is still online somewhere but is no longer called the operative document.
-    - Users report a model or product behaving differently under the same name before the company says anything.
+    - A policy page changes with no announcement, or with an announcement that
+      leads with an unrelated framing ("clearer", "more readable").
+    - Old wording is still online somewhere but is no longer called the
+      operative document.
+    - Users report a model or product behaving differently under the same name
+      before the company says anything.
   watch_for: >-
     Run the page watcher. Usage policies, charters, safety frameworks and plan
     pages are the pages most likely to change quietly.
@@ -68,22 +75,26 @@
     text: >-
       Quiet changes are common across the tech industry: in September 2024
       LinkedIn was found to be training AI models on members' data before it had
-      updated its privacy policy and terms to say so, a gap first reported by 404
-      Media.
+      updated its privacy policy and terms to say so, a gap first reported by
+      404 Media.
     sources:
-      - title: LinkedIn scraped user data for training before updating its terms of service
+      - title: LinkedIn scraped user data for training before updating its terms of
+          service
         publisher: TechCrunch
         url: https://techcrunch.com/2024/09/18/linkedin-scraped-user-data-for-training-before-updating-its-terms-of-service/
         date: 2024-09-18
         type: reporting
+        archive: https://web.archive.org/web/20260815105252/https://techcrunch.com/2024/09/18/linkedin-scraped-user-data-for-training-before-updating-its-terms-of-service/
+        snapshot: snapshots/2026-10-13-techcrunch.com-a2a37a7e
 
 - id: regulate-us-not-like-that
   name: Regulate Us (Not Like That)
   thesis: >-
-    Leaders ask for regulation in general while their companies, executives
-    or allied money fight the specific rules that come forward.
+    Leaders ask for regulation in general while their companies, executives or
+    allied money fight the specific rules that come forward.
   tells:
-    - Support for "federal frameworks" paired with opposition to every concrete state bill.
+    - Support for "federal frameworks" paired with opposition to every concrete
+      state bill.
     - Executives funding political groups that target pro-regulation candidates.
     - '"Harmonization" comments that drain the enforcement out of a bill.'
   watch_for: >-
@@ -92,39 +103,44 @@
   industry:
     text: >-
       Spending against state AI rules is industry-wide: in September 2025 Meta
-      put "tens of millions" of dollars into a new super PAC to fight state-level
-      tech policy proposals, a month after launching a California-focused PAC to
-      back tech-friendly candidates.
+      put "tens of millions" of dollars into a new super PAC to fight
+      state-level tech policy proposals, a month after launching a
+      California-focused PAC to back tech-friendly candidates.
     sources:
       - title: Meta launches super PAC to fight AI regulation as state policies mount
         publisher: TechCrunch
         url: https://techcrunch.com/2025/09/23/meta-launches-super-pac-to-fight-ai-regulation-as-state-policies-mount/
         date: 2025-09-23
         type: reporting
+        archive: https://web.archive.org/web/20261013102749/https://techcrunch.com/2025/09/23/meta-launches-super-pac-to-fight-ai-regulation-as-state-policies-mount/
+        snapshot: snapshots/2026-10-13-techcrunch.com-af974c33
 
 - id: pledged-not-resourced
   name: Pledged, Not Resourced
   thesis: >-
-    A safety effort gets a headline number or a named team, and then doesn't
-    get the compute, people or time it was promised.
+    A safety effort gets a headline number or a named team, and then doesn't get
+    the compute, people or time it was promised.
   tells:
-    - A commitment stated as a share or total with no allocation mechanism or public reporting.
-    - Named teams folded into others ("integrated across research") after leaders leave.
+    - A commitment stated as a share or total with no allocation mechanism or
+      public reporting.
+    - Named teams folded into others ("integrated across research") after
+      leaders leave.
   watch_for: >-
     Ask for the ledger: how much compute, headcount and testing time did the
     safety commitment actually get, and who can check?
   industry:
     text: >-
       Folding a named responsibility team into product work is not unique to
-      these two companies: in November 2023 Meta moved most of its Responsible AI
-      team into its generative AI product team, and The Verge noted a similar move
-      by Microsoft earlier that year.
+      these two companies: in November 2023 Meta moved most of its Responsible
+      AI team into its generative AI product team, and The Verge noted a similar
+      move by Microsoft earlier that year.
     sources:
       - title: Meta disbanded its Responsible AI team
         publisher: The Verge
         url: https://www.theverge.com/2023/11/18/23966980/meta-disbanded-responsible-ai-team-artificial-intelligence
         date: 2023-11-18
         type: reporting
+        snapshot: snapshots/2026-10-13-theverge.com-eb76d896
 
 - id: sorry-after-caught
   name: Sorry After Caught
@@ -151,6 +167,7 @@
         url: https://globalnews.ca/news/11334384/meta-ai-bots-sensual-chats-kids/
         date: 2025-08-14
         type: reporting
+        snapshot: snapshots/2026-10-13-globalnews.ca-bea7f036
 
 - id: ship-then-patch
   name: Ship Now, Guardrails Later
@@ -175,12 +192,14 @@
         url: https://blog.google/products/gemini/gemini-image-generation-issue/
         date: 2024-02-23
         type: primary
+        archive: https://web.archive.org/web/20260107004225/https://blog.google/products/gemini/gemini-image-generation-issue/
+        snapshot: snapshots/2026-10-13-blog.google-a9eb704a
 
 - id: take-first
   name: Take First, Settle Later
   thesis: >-
-    Other people's work, likeness or data gets used first. Permission,
-    licensing and payment come later, if they come at all.
+    Other people's work, likeness or data gets used first. Permission, licensing
+    and payment come later, if they come at all.
   tells:
     - Opt-out regimes for copyrighted material.
     - Training data sourced from shadow libraries or scraped against terms.
@@ -196,75 +215,81 @@
       from 173,536 YouTube videos collected despite YouTube's rules against
       harvesting its material without permission.
     sources:
-      - title: Apple, Nvidia, Anthropic Used Thousands of Swiped YouTube Videos to Train AI
+      - title: Apple, Nvidia, Anthropic Used Thousands of Swiped YouTube Videos to Train
+          AI
         publisher: Proof News
         url: https://www.proofnews.org/apple-nvidia-anthropic-used-thousands-of-swiped-youtube-videos-to-train-ai/
         date: 2024-07-16
         type: reporting
+        archive: https://web.archive.org/web/20261013100551/https://www.proofnews.org/apple-nvidia-anthropic-used-thousands-of-swiped-youtube-videos-to-train-ai/
+        snapshot: snapshots/2026-10-13-proofnews.org-c8bba37f
 
 - id: principles-with-a-price
   name: Principles With a Price
   thesis: >-
-    A stated value turns negotiable once the money, the contract or the
-    growth is big enough.
+    A stated value turns negotiable once the money, the contract or the growth
+    is big enough.
   tells:
     - '"Unfortunately…" memos explaining why a principle is impractical.'
     - Categories quietly removed from usage policies before a new market opens.
   watch_for: >-
-    The largest pending deals (sovereign funds, defense, advertising) are
-    where the next stated value will get priced.
+    The largest pending deals (sovereign funds, defense, advertising) are where
+    the next stated value will get priced.
   industry:
     text: >-
-      Other companies have priced their stated limits too: in February 2025 Google
-      removed its pledge not to build AI for weapons or surveillance, erasing the
-      section of its AI principles titled "applications we will not pursue."
+      Other companies have priced their stated limits too: in February 2025
+      Google removed its pledge not to build AI for weapons or surveillance,
+      erasing the section of its AI principles titled "applications we will not
+      pursue."
     sources:
       - title: Google removes pledge to not use AI for weapons from website
         publisher: TechCrunch
         url: https://techcrunch.com/2025/02/04/google-removes-pledge-to-not-use-ai-for-weapons-from-website/
         date: 2025-02-04
         type: reporting
+        snapshot: snapshots/2026-10-13-techcrunch.com-eb93bb7e
 
 - id: pressure-on-critics
   name: Pressure on Critics
   thesis: >-
-    Dissent gets handled with legal and financial pressure (restrictive
-    NDAs, equity threats, subpoenas) while the company publicly welcomes
-    scrutiny.
+    Dissent gets handled with legal and financial pressure (restrictive NDAs,
+    equity threats, subpoenas) while the company publicly welcomes scrutiny.
   tells:
     - Exit agreements with non-disparagement terms tied to vested equity.
     - Discovery requests aimed at advocacy groups and individual critics.
   watch_for: >-
-    Look for litigation discovery aimed at critics and for exit-paperwork
-    terms reported by departing staff.
+    Look for litigation discovery aimed at critics and for exit-paperwork terms
+    reported by departing staff.
 
 - id: unfalsifiable
   name: Unfalsifiable by Design
   thesis: >-
-    Commitments are written so they can't clearly be broken: goals graded by
-    the company itself, contracts nobody outside can read, aspirations with
-    no metric.
+    Commitments are written so they can't clearly be broken: goals graded by the
+    company itself, contracts nobody outside can read, aspirations with no
+    metric.
   tells:
     - '"Goals we will openly grade our progress towards."'
     - Promises that point to non-public contracts or future laws.
     - Mission statements with no measurable test ("benefit all of humanity").
   watch_for: >-
-    For each new promise, write down right away what would count as breaking
-    it (the `breaks_if` field). If nobody can, that's the finding.
+    For each new promise, write down right away what would count as breaking it
+    (the `breaks_if` field). If nobody can, that's the finding.
   industry:
     text: >-
       Unverifiable commitments are an industry-wide problem: researchers at
-      Brown, Harvard and Stanford who scored all 16 signatories of the 2023 White
-      House commitments found the wording "often vague" and that "no mechanism was
-      created to monitor implementation"; judged only on each company's own
-      disclosures through 2024, OpenAI (83.3%) and Anthropic (80.0%) scored
-      highest, against an average of 53.3%.
+      Brown, Harvard and Stanford who scored all 16 signatories of the 2023
+      White House commitments found the wording "often vague" and that "no
+      mechanism was created to monitor implementation"; judged only on each
+      company's own disclosures through 2024, OpenAI (83.3%) and Anthropic
+      (80.0%) scored highest, against an average of 53.3%.
     sources:
       - title: Do AI Companies Make Good on Voluntary Commitments to the White House?
         publisher: arXiv (Wang, Huang, Klyman and Bommasani)
         url: https://arxiv.org/abs/2508.08345
         date: 2025-08-11
         type: analysis
+        archive: https://web.archive.org/web/20261006201200/https://arxiv.org/abs/2508.08345
+        snapshot: snapshots/2026-10-13-arxiv.org-d540cae2
 
 - id: consent-by-default
   name: Consent by Default
@@ -281,15 +306,18 @@
     text: >-
       Opt-out defaults for AI training are common across platforms: in September
       2024 LinkedIn was training AI models on U.S. members' data unless they
-      turned a setting off, and that same week Meta said it was resuming plans to
-      train on user data after working with the U.K.'s data regulator to simplify
-      its opt-out.
+      turned a setting off, and that same week Meta said it was resuming plans
+      to train on user data after working with the U.K.'s data regulator to
+      simplify its opt-out.
     sources:
-      - title: LinkedIn scraped user data for training before updating its terms of service
+      - title: LinkedIn scraped user data for training before updating its terms of
+          service
         publisher: TechCrunch
         url: https://techcrunch.com/2024/09/18/linkedin-scraped-user-data-for-training-before-updating-its-terms-of-service/
         date: 2024-09-18
         type: reporting
+        archive: https://web.archive.org/web/20260815105252/https://techcrunch.com/2024/09/18/linkedin-scraped-user-data-for-training-before-updating-its-terms-of-service/
+        snapshot: snapshots/2026-10-13-techcrunch.com-a2a37a7e
 
 - id: safeguards-on-paper
   name: Safeguards on Paper
@@ -300,8 +328,10 @@
     already released.
   tells:
     - A safety argument that depends on a control nobody outside can see running.
-    - Disclosures that blame a flag, a misconfiguration, a vendor or a "training error".
-    - '"Accidentally" or "unintentionally" applied to models already in public use.'
+    - Disclosures that blame a flag, a misconfiguration, a vendor or a "training
+      error".
+    - '"Accidentally" or "unintentionally" applied to models already in public
+      use.'
   watch_for: >-
     For each safeguard a launch relies on, ask how the company would know if it
     stopped working, and how quickly. The next gap will probably be found by an
@@ -315,11 +345,14 @@
       genocide" in South Africa, and that its code review process for prompt
       changes was "circumvented in this incident."
     sources:
-      - title: xAI says an “unauthorized” prompt change caused Grok to focus on “white genocide”
+      - title: xAI says an “unauthorized” prompt change caused Grok to focus on “white
+          genocide”
         publisher: Ars Technica
         url: https://arstechnica.com/ai/2025/05/groks-white-genocide-obsession-came-from-unauthorized-prompt-edit-xai-says/
         date: 2025-05-16
         type: reporting
+        archive: https://web.archive.org/web/20261013111806/https://arstechnica.com/ai/2025/05/groks-white-genocide-obsession-came-from-unauthorized-prompt-edit-xai-says/
+        snapshot: snapshots/2026-10-13-arstechnica.com-fdf55751
 
 - id: told-last
   name: Told Last
@@ -328,7 +361,8 @@
     incident or a risky launch from the press, outside researchers or a later
     document, not from the company at the time it knew.
   tells:
-    - A breach or incident first reported by journalists, researchers or the victim.
+    - A breach or incident first reported by journalists, researchers or the
+      victim.
     - Safety documentation published weeks after the product it describes.
     - A disclosure policy written after an incident has already gone public.
   watch_for: >-
@@ -339,15 +373,17 @@
     text: >-
       Safety reports that trail the product are common: in April 2025 Google had
       released Gemini 2.5 Pro and Gemini 2.0 Flash without model cards, calling
-      2.5 Pro an "experimental" release, although it had told the U.S. government
-      in 2023 that it would publish safety reports for significant public model
-      releases.
+      2.5 Pro an "experimental" release, although it had told the U.S.
+      government in 2023 that it would publish safety reports for significant
+      public model releases.
     sources:
       - title: Google is shipping Gemini models faster than its AI safety reports
         publisher: TechCrunch
         url: https://techcrunch.com/2025/04/03/google-is-shipping-gemini-models-faster-than-its-ai-safety-reports/
         date: 2025-04-03
         type: reporting
+        archive: https://web.archive.org/web/20261013103645/https://techcrunch.com/2025/04/03/google-is-shipping-gemini-models-faster-than-its-ai-safety-reports/
+        snapshot: snapshots/2026-10-13-techcrunch.com-dff3bbb4
 
 - id: coming-weeks
   name: In the Coming Weeks
@@ -356,25 +392,28 @@
     then ships late, smaller than shown, or not at all. When the date passes,
     there is rarely a public note saying so.
   tells:
-    - '"In the coming weeks", "later this year" or "soon" in a launch post, with no date.'
+    - '"In the coming weeks", "later this year" or "soon" in a launch post, with
+      no date.'
     - A demo of something nobody outside the company can use yet.
     - The promise drops off a model page or roadmap without an announcement.
   watch_for: >-
     Write down every dated promise from a launch event and check it when the
-    date passes. The features most likely to slip are the ones demoed on
-    stage but not yet available to anyone.
+    date passes. The features most likely to slip are the ones demoed on stage
+    but not yet available to anyone.
   industry:
     text: >-
       Announced features that slip are common in the industry: in March 2025
       Apple said the "more personalized Siri" it had announced at its 2024
-      developer conference would "take us longer than we thought to deliver," and
-      moved it to the "coming year."
+      developer conference would "take us longer than we thought to deliver,"
+      and moved it to the "coming year."
     sources:
       - title: AI-powered ‘more personalized Siri’ is delayed
         publisher: TechCrunch
         url: https://techcrunch.com/2025/03/07/ai-powered-more-personalized-siri-is-delayed/
         date: 2025-03-07
         type: reporting
+        archive: https://web.archive.org/web/20261012224526/https://techcrunch.com/2025/03/07/ai-powered-more-personalized-siri-is-delayed/
+        snapshot: snapshots/2026-10-13-techcrunch.com-686215a9
 
 - id: shrinking-plan
   name: The Shrinking Plan
@@ -383,13 +422,15 @@
     limits, the model or the terms change after people have paid. The reason
     (abuse, capacity, a few heavy users) is usually given once users notice.
   tells:
-    - '"Unlimited" with an abuse clause, or limits stated only as "approximately".'
+    - '"Unlimited" with an abuse clause, or limits stated only as
+      "approximately".'
     - Limit changes users report before the company announces them.
-    - A model removed from a paid plan at a new launch, then restored after complaints.
+    - A model removed from a paid plan at a new launch, then restored after
+      complaints.
   watch_for: >-
-    Diff the plan and help-center pages around each big launch, when capacity
-    is tightest. Compare what a plan said on the day people bought it with
-    what it says now.
+    Diff the plan and help-center pages around each big launch, when capacity is
+    tightest. Compare what a plan said on the day people bought it with what it
+    says now.
   industry:
     text: >-
       Plans cut after people have paid happen across AI tools: in June 2025 the
@@ -403,36 +444,43 @@
         url: https://cursor.com/blog/june-2025-pricing
         date: 2025-07-04
         type: primary
+        snapshot: snapshots/2026-10-13-cursor.com-f9870e4d
 
 - id: claims-outrun-results
   name: Claims Outrun Results
   thesis: >-
-    Capability claims made at a launch or by company leaders (benchmark
-    charts, "PhD-level", "solved open problems", dated predictions) are
-    corrected, walked back or not reproduced once outsiders check them.
+    Capability claims made at a launch or by company leaders (benchmark charts,
+    "PhD-level", "solved open problems", dated predictions) are corrected,
+    walked back or not reproduced once outsiders check them.
   tells:
-    - Results on benchmarks the company ran itself, funded, or had special access to.
+    - Results on benchmarks the company ran itself, funded, or had special
+      access to.
     - Charts or numbers posted without the method behind them.
-    - Breakthrough claims posted by executives before any paper or independent check.
+    - Breakthrough claims posted by executives before any paper or independent
+      check.
   watch_for: >-
     Wait for independent evaluations and replications before treating a launch
-    claim as settled, and record when they arrive. Dated predictions get
-    checked on their date.
+    claim as settled, and record when they arrive. Dated predictions get checked
+    on their date.
   industry:
     text: >-
-      Launch claims that don't survive outside checks are not unique to these two
-      companies: in April 2025 Meta's Llama 4 Maverick ranked second on LM Arena
-      with an unreleased version "optimized for conversationality," and the
-      released model, once scored, ranked below months-old models including GPT-4o
-      and Claude 3.5 Sonnet.
+      Launch claims that don't survive outside checks are not unique to these
+      two companies: in April 2025 Meta's Llama 4 Maverick ranked second on LM
+      Arena with an unreleased version "optimized for conversationality," and
+      the released model, once scored, ranked below months-old models including
+      GPT-4o and Claude 3.5 Sonnet.
     sources:
       - title: Meta’s benchmarks for its new AI models are a bit misleading
         publisher: TechCrunch
         url: https://techcrunch.com/2025/04/06/metas-benchmarks-for-its-new-ai-models-are-a-bit-misleading/
         date: 2025-04-06
         type: reporting
-      - title: Meta’s vanilla Maverick AI model ranks below rivals on a popular chat benchmark
+        archive: https://web.archive.org/web/20260920204426/https://techcrunch.com/2025/04/06/metas-benchmarks-for-its-new-ai-models-are-a-bit-misleading/
+        snapshot: snapshots/2026-10-13-techcrunch.com-8f241f1c
+      - title: Meta’s vanilla Maverick AI model ranks below rivals on a popular chat
+          benchmark
         publisher: TechCrunch
         url: https://techcrunch.com/2025/04/11/metas-vanilla-maverick-ai-model-ranks-below-rivals-on-a-popular-chat-benchmark/
         date: 2025-04-11
         type: reporting
+        snapshot: snapshots/2026-10-13-techcrunch.com-58b0ce84

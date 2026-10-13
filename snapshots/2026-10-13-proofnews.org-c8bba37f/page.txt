@@ -1,0 +1,75 @@
+AI Training Data
+Video
+Apple, Nvidia, Anthropic Used Thousands of Swiped YouTube Videos to Train AI
+Creators claim their videos were used without their knowledge
+By Annie Gilbertson , Alex Reisner
+Jul 16, 2024
+AI companies are generally secretive about their sources of training data, but an investigation by Proof News found some of the wealthiest AI companies in the world have used material from thousands of YouTube videos to train AI. Companies did so despite YouTube’s rules against harvesting materials from the platform without permission.
+Our investigation found that subtitles from 173,536 YouTube videos, siphoned from more than 48,000 channels, were used by Silicon Valley heavyweights, including Anthropic, Nvidia, Apple, and Salesforce.
+This article was copublished with:
+The dataset, called YouTube Subtitles, contains video transcripts from educational and online learning channels like Khan Academy, MIT, and Harvard. The Wall Street Journal, NPR, and the BBC also had their videos used to train AI, as did “The Late Show With Stephen Colbert,” “Last Week Tonight With John Oliver,” and “Jimmy Kimmel Live.”
+Proof News also found material from YouTube megastars, including MrBeast (289 million subscribers, two videos taken for training) , Marques Brownlee (19 million subscribers, seven videos taken) , Jacksepticeye (nearly 31 million subscribers, 377 videos taken), and PewDiePie (111 million subscribers, 337 videos taken). Some of the material used to train AI also promoted conspiracies such as the “flat-Earth theory.”
+Proof News created a tool to search for creators in the YouTube AI training dataset.
+“No one came to me and said, ‘We would like to use this,’ ” said David Pakman, host of “ The David Pakman Show ,” a left-leaning politics channel with more than two million subscribers and more than two billion views. Nearly 160 of his videos were swept up into the YouTube Subtitles training dataset.
+Four people work full time on Pakman’s enterprise, which posts multiple videos each day in addition to producing a podcast, TikTok videos, and material for other platforms. If AI companies are paid, Pakman said, he should be compensated for the use of his data. He pointed out that some media companies have recently penned agreements to be paid for use of their work to train AI.
+“This is my livelihood, and I put time, resources, money, and staff time into creating this content,” Pakman said. “There’s really no shortage of work.”
+“It’s theft,” said Dave Wiskus, the CEO of Nebula, a streaming service partially owned by its creators, some of whom have had their work taken from YouTube to train AI.
+Wiskus said it’s “disrespectful” to use creators’ work without their consent, especially since studios may use “generative AI to replace as many of the artists along the way as they can.”
+“Will this be used to exploit and harm artists? Yes, absolutely,” Wiskus said.
+Representatives at EleutherAI, the creators of the dataset, did not respond to requests for comment on Proof’s findings, including allegations that videos were used without permission. The company’s website states its overall goal is to lower the barriers to AI development to those outside the gilded walls of Big Tech, and it has historically provided “access to cutting‑edge AI technologies by training and releasing models.”
+YouTube Subtitles does not include video imagery but consists of plain text of videos’ subtitles, often along with translations into languages including Japanese, German, and Arabic.
+According to a research paper published by EleutherAI, the dataset is part of a compilation the nonprofit released called the Pile. The developers of the Pile included material from not just YouTube but also the European Parliament, English Wikipedia, and a trove of Enron Corporation employees’ emails that was released as part of a federal investigation into the firm.
+Most of the Pile’s datasets are accessible and open for anyone on the internet with enough space and computing power to access it. Academics and other developers outside of Big Tech made use of the dataset, but they weren’t the only ones.
+Apple , Nvidia , and Salesforce — companies valued in the hundreds of billions and trillions of dollars — describe in their research papers and posts how they used the Pile to train AI. Documents also show Apple used the Pile to train OpenELM, a high-profile model released in April, weeks before the company revealed it will add new AI capabilities to iPhones and MacBooks. Bloomberg and Databricks also trained models on the Pile, the companies’ publications indicate.
+So too did Anthropic , a leading AI maker that garnered a $4 billion investment from Amazon and promotes its focus on “AI safety.”
+“The Pile includes a very small subset of YouTube subtitles,” Jennifer Martinez, a spokesperson for Anthropic, said in a statement confirming use of the Pile in Anthropic’s generative AI assistant Claude. “YouTube’s terms cover direct use of its platform, which is distinct from use of The Pile dataset. On the point about potential violations of YouTube’s terms of service, we’d have to refer you to The Pile authors.”
+Salesforce also confirmed use of the Pile to build an AI model for “academic and research purposes.” Caiming Xiong, the vice president of AI research at the company, emphasized in a statement that the dataset was “publicly available.”
+Salesforce later released that same AI model for public use in 2022, and it’s since been downloaded at least 86,000 times, according to its Hugging Face page. In their research paper, Salesforce developers flagged that the Pile also contained profanity as well as “biases against gender and certain religious groups” and warned that could lead to “vulnerabilities and safety concerns.” Proof News found thousands of examples of profanity in YouTube Subtitles as well as instances of racial and gender slurs. Salesforce’s representative did not respond to questions about safety concerns.
+A representative for Nvidia declined to comment. Apple, Databricks, and Bloomberg representatives did not respond to requests for comment.
+The YouTube Data “Gold Mine”
+AI companies compete against each other, in part by procuring higher quality data, said Jai Vipra, an AI policy researcher and CyberBRICS fellow at Fundação Getulio Vargas Law School, in Rio de Janeiro, Brazil. It’s one of the reasons companies keep sources of data close to the vest.
+Earlier this year, The New York Times reported that Google, which owns YouTube, tapped videos on the platform for text to train its models. In response, a spokesperson told the paper its use was permitted under agreements with YouTube creators.
+The Times’ investigation also found OpenAI used YouTube videos without authorization. Company representatives neither confirmed nor denied the paper’s findings.
+OpenAI executives have repeatedly declined to publicly answer questions about whether it used YouTube videos to train its AI product Sora, which creates videos from text prompts. Earlier this year, a reporter with The Wall Street Journal put the question to Mira Murati, OpenAI’s chief technology officer.
+“I’m actually not sure about that,” Murati replied.
+YouTube Subtitles and other types of speech to text data are potentially a “gold mine,” Vipra said, because they can help train models to replicate how people talk and converse.
+“It's still the sheer principle of it,” said Dave Farina, the host of “Professor Dave Explains,” whose channel showcasing chemistry and other science tutorials has 3 million subscribers and had 140 videos lifted for YouTube Subtitles.
+“If you’re profiting off of work that I’ve done [to build a product] that will put me out of work or people like me out of work, then there needs to be a conversation on the table about compensation or some kind of regulation,” he said.
+YouTube Subtitles, which was published in 2020, also contains subtitles from more than 12,000 videos that have since been deleted from YouTube. In at least one case, the creator deleted their entire online presence, yet that work has been incorporated into an unknown number of AI models.
+Proof News attempted to reach the owners of channels named in this story. Many did not respond to requests for comment. Of the creators we spoke to, none were aware their information had been taken, much less of how it was used.
+Among those surprised: the producers of Crash Course (nearly 16 million subscribers, 871 videos taken) and SciShow (8 million subscribers, 228 videos taken), which are pillars of brothers’ Hank and John Green’s educational video empire.
+“We are frustrated to learn that our thoughtfully produced educational content has been used in this way without our consent,” Julie Walsh Smith, the CEO of the shows’ production company, Complexly, said in a statement.
+YouTube Subtitles isn’t the first set of AI training data to trouble creative industries.
+Proof News contributor Alex Reisner obtained a copy of Books3, another Pile dataset and last year published a piece in The Atlantic reporting his finding that more than 180,000 books , including those written by Margaret Atwood, Michael Pollan, and Zadie Smith, had been lifted. Many authors have since sued AI companies for the unauthorized use of their work and alleged copyright violations. Similar cases have since snowballed, and the platform hosting Books3 has taken it down.
+In response to the suits, defendants such as Meta, OpenAI , and Bloomberg have argued their actions constitute fair use. A case against EleutherAI, which originally scraped the books and made them public, was voluntarily dismissed by the plaintiffs .
+Litigation in remaining cases remains in the early stages, leaving the questions surrounding permission and payment unresolved. The Pile has since been removed from its official download site, but it’s still available on file sharing services.
+“Technology companies have run roughshod,” said Amy Keller, a consumer protection attorney and partner at the firm DiCello Levitt who has brought lawsuits on behalf of creatives whose work was allegedly scooped up by AI firms without their consent.
+“People are concerned about the fact that they didn’t have a choice in the matter,” Keller said. “I think that’s what’s really problematic.”
+Parroting a Parrot
+Many creators feel uncertain about the path ahead.
+Full-time YouTubers patrol for unauthorized use of their work, regularly filing takedown notices, and some worry it’s only a matter of time before AI can generate content similar to what they make — if not produce outright copycats.
+Pakman, the creator of “The David Pakman Show,” saw the power of AI recently while scrolling on TikTok. He came across a video that was labeled as a Tucker Carlson clip, but when Pakman watched it, he was taken aback. It sounded like Carlson but was, word for word, what Pakman had said on his YouTube show, down to the cadence. He was equally alarmed that only one of the video’s commenters seemed to recognize that it was fake — a voice clone of Carlson reading Pakman’s script.
+“This is going to be a problem,” Pakman said in a YouTube video he made about the fake. “You can do this essentially with anybody.”
+EleutherAI founder Sid Black wrote on GitHub that he created YouTube Subtitles by using a script. That script downloads the subtitles from YouTube’s API in the same way a YouTube viewer’s browser downloads them when watching a video. According to documentation on GitHub, Black used 495 search terms to cull videos, including “funny vloggers,” “Einstein,” “black protestant,” “Protective Social Services,” “infowars,” “quantum chromodynamics,” “Ben Shapiro,” “Uighurs,” “fruitarian,” “cake recipe,” ”Nazca lines,” and “flat earth.”
+Though YouTube’s terms of service prohibit accessing its videos by “automated means,” more than 2,000 GitHub users have bookmarked or endorsed the code.
+Ingredients
+Hypothesis
+AI companies are using YouTube videos to build models that may come to compete against YouTube creators.
+Sample size
+A 5.7 GB (489-million-word) training dataset called YouTube Subtitles.
+Techniques
+We linked subtitles in the dataset to videos on YouTube in order to determine whose creative material was used to train AI models. We found evidence of AI companies’ using the data through white papers and posts online.
+Key findings
+The training data contained 173,536 YouTube videos, more than 12,000 of which have been deleted from the platform but were still ingested by AI models.
+Limitations
+AI companies do not often disclose what data they use to train their models, so we are unable to produce a comprehensive list of companies that used this dataset.
+“There are many ways in which YouTube could prevent this module from working if that was what they are after,” wrote machine learning engineer Jonas Depoix in a discussion on GitHub, where he published the code Black used to access YouTube subtitles. “This hasn't happened so far.”
+In an email to Proof News, Depoix said he hasn’t used the code since he wrote it as a university student for a project several years ago and was surprised people found it useful. He declined to answer questions about YouTube’s rules.
+Google spokesperson Jack Malon said in an email response to a request for comment that the company has taken “action over the years to prevent abusive, unauthorized scraping.” He did not respond to questions about other companies’ use of the material as training data.
+Among the videos used by AI companies are 146 from “Einstein Parrot,” a channel with nearly 150,000 subscribers. The African grey’s caretaker, Marcia, who didn’t want to use her last name for fear of endangering the famous bird’s safety, said at first she thought it was funny to learn AI models had ingested words of a mimicking parrot.
+“Who would want to use a parrot’s voice?” Marcia said. “But then, I know that he speaks very well. He speaks in my voice. So he’s parroting me, and then AI is parroting the parrot.”
+Once ingested by AI, data cannot be unlearned. Marcia was troubled by all the unknown ways in which her bird’s information could be used, including creating a digital duplicate parrot and, she worried, making it curse.
+“We’re treading on uncharted territory,” Marcia said.
+Republish This Article
+Copy Link
+Republish
