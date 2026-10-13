@@ -24,14 +24,14 @@ capture and version, and each version's text is `<sha>.txt`.
 | OpenAI | Enterprise limits (help) | 31 | 26 | 2024-03 to 2026-10 |
 | OpenAI | Enterprise privacy | 103 | 30 | 2023-08 to 2026-10 |
 | OpenAI | GPT-4 access and limits (help) | 213 | 97 | 2023-03 to 2025-08 |
-| OpenAI | GPT-5 limits (help) | 0 | 0 | none archived |
+| OpenAI | GPT-5 limits (help) | 65 | 57 | 2025-08 to 2026-07 |
 | OpenAI | Legacy model access (business) | 17 | 14 | 2025-08 to 2026-07 |
 | OpenAI | Reasoning-model limits (help) | 89 | 55 | 2024-09 to 2026-02 |
-| OpenAI | ChatGPT Plus (help) | 0 | 0 | none archived |
+| OpenAI | ChatGPT Plus (help) | 133 | 80 | 2023-02 to 2026-10 |
 | OpenAI | Privacy policy (U.S.) | 374 | 89 | 2021-05 to 2026-10 |
 | OpenAI | API rate limits | 67 | 18 | 2025-12 to 2026-10 |
 | OpenAI | Privacy policy (rest of world) | 75 | 20 | 2024-07 to 2026-10 |
-| OpenAI | Team/Business limits (help) | 0 | 0 | none archived |
+| OpenAI | Team/Business limits (help) | 34 | 26 | 2024-03 to 2026-10 |
 | OpenAI | Terms of use | 333 | 85 | 2021-05 to 2026-10 |
 | OpenAI | Usage policies | 252 | 34 | 2023-04 to 2026-10 |
 | Anthropic | API pricing | 183 | 65 | 2024-03 to 2026-10 |
@@ -48,16 +48,16 @@ capture and version, and each version's text is `<sha>.txt`.
 | Anthropic | Claude Pro usage (help) | 62 | 28 | 2023-09 to 2025-07 |
 | Anthropic | API rate limits | 114 | 58 | 2024-05 to 2026-10 |
 | Anthropic | Usage policy | 82 | 20 | 2024-03 to 2026-10 |
-| **OpenAI** | **19 pages** | **3,229** | **1,238** | |
+| **OpenAI** | **19 pages** | **3,461** | **1,401** | |
 | **Anthropic** | **14 pages** | **1,447** | **531** | |
-| **Total** | **33 pages** | **4,676** | **1,769** | |
+| **Total** | **33 pages** | **4,908** | **1,932** | |
 
 ## How the changes were disclosed
 
 | | Changes logged | Announced | Dated or noted on the page | No date, note or announcement found | Not applicable |
 | --- | --: | --: | --: | --: | --: |
-| OpenAI | 116 | 36 | 42 | 32 | 6 |
-| Anthropic | 74 | 16 | 29 | 28 | 1 |
+| OpenAI | 135 | 42 | 43 | 44 | 6 |
+| Anthropic | 75 | 17 | 29 | 28 | 1 |
 
 "Announced" means a post on the company's Twitter accounts, a blog post,
 release notes, an email to users or an in-product notice was found.
@@ -73,10 +73,10 @@ applicable" is wording, typo and layout fixes.
 
 Of the changes made with no new date, note or announcement, these cut what
 users get or what the company had promised. Sorting them is a judgment;
-the others in that column add something (OpenAI 4, Anthropic 4) or are
-neither (OpenAI 5, Anthropic 13), and every one is in the page logs below.
+the others in that column add something (OpenAI 7, Anthropic 4) or are
+neither (OpenAI 12, Anthropic 13), and every one is in the page logs below.
 
-**OpenAI (23 of 32)**
+**OpenAI (25 of 44)**
 
 - 2023-03 to 2023-06: GPT-4 cap for ChatGPT Plus from "100 messages every 4 hours" to "25 messages every 3 hours."
 - 2023-03-02: free API trial credit for new accounts cut from $18 to $5.
@@ -86,18 +86,20 @@ neither (OpenAI 5, Anthropic 13), and every one is in the page logs below.
 - 2023-08-08 to 2023-08-11: "by the end of July 2023" for GPT-4 API access becomes "soon" after the date had passed.
 - 2024-01-12 to 2024-01-17: ChatGPT Team, launched three days earlier with "No training on your data," becomes "excluded from training by default."
 - 2024-02-20 to 2024-02-26: GPT-4 API access needs $5 of payments instead of $1.
-- 2024-09-24: help article: "We don’t use content from our business offerings ... to train our models" becomes "By default, we do not train on any inputs or outputs from our products for business users."
 - 2024-09-23 to 2024-11-03: enterprise privacy page: "We do not train on your business data" becomes "by default," with an opt-in exception.
+- 2024-09-24: help article: "We don’t use content from our business offerings ... to train our models" becomes "By default, we do not train on any inputs or outputs from our products for business users."
 - 2024-10-30 to 2024-11-10: ChatGPT Enterprise loses "Unlimited" on the pricing page.
 - 2024-12 to 2025-04: Enterprise help page: "no usage caps" becomes "Most mainline models ... do not have message limits."
 - 2025-04-26: Data Controls FAQ drops "We don’t use data for selling our services, advertising, or building profiles of people."
+- 2025-05 to 2025-06: o-series API models available to "qualified" rather than "all" paid API users.
 - 2025-05-05 to 2025-05-11: nonprofit discount on ChatGPT Enterprise from 50% to 25%.
 - 2025-05-15: feedback from users who opted out of training can bring "the entire conversation" into training.
-- 2025-05 to 2025-06: o-series API models available to "qualified" rather than "all" paid API users.
+- 2025-08-17 to 2025-08-30: ChatGPT Team's GPT-5 Thinking limit from "200 requests / day" to "200 requests / week" (Plus had 3,000 a week).
 - 2025-11-23: no training on business data from connectors becomes "By default."
 - 2026-02-07 to 2026-02-10: training article deletes "We don’t use your content to market our services or create advertising profiles of you" as ads launch.
 - 2026-04-24 to 2026-04-26: API abuse logs may be kept longer than 30 days when "reasonably necessary to protect our services or any third party."
 - 2026-05-27 to 2026-07-02: GPT-4.5 retired from ChatGPT on June 26, 2026; the only notice found is on this page, after the fact.
+- 2026-06-10 to 2026-06-23: Pro's "unlimited access to our GPT-5 models" becomes "some models have separate usage allowances."
 - 2026-06-11: support conversations may be used for training.
 - 2026-06-24 to 2026-07-29: Enterprise "unlimited messages with GPT-5.5 Instant" becomes "access to eligible current models."
 - 2026-07-10: models can be made ineligible for zero data retention for specific customers.
@@ -116,9 +118,9 @@ neither (OpenAI 5, Anthropic 13), and every one is in the page logs below.
 - 2026-07-03 to 2026-07-14: the 30-day retention for covered models extended to "future models we release that are similarly or more capable."
 - By 2026-09-01: new API organizations "may start in the Evaluation tier, with limits below the standard limits."
 
-Counted against the size of each record (OpenAI 116 logged changes, Anthropic
-74), cuts made without notice are 20% of OpenAI's changes and 15% of Anthropic's.
-OpenAI's are mostly about data use (12) and usage limits or access (11);
+Counted against the size of each record (OpenAI 135 logged changes, Anthropic
+75), cuts made without notice are 19% of OpenAI's changes and 15% of Anthropic's.
+OpenAI's are mostly about data use (12) and usage limits or access (13);
 Anthropic's about usage limits (5), model retirement (3) and data retention
 (3).
 
@@ -130,13 +132,19 @@ Anthropic's about usage limits (5), model retirement (3) and data retention
   `anthropic/2024-04-claude-pro-allowance-lowered` ("at least 100 messages
   every 8 hours" to "around 45 messages every 5 hours");
   `anthropic/2025-08-model-retirement-notice-cut` (retirement notice cut
-  from six months to 60 days).
+  from six months to 60 days); `openai/2026-06-chatgpt-pro-unlimited-allowances`
+  (ChatGPT Pro, launched as "$200/month. unlimited usage," moved to per-model
+  allowances in June 2026, then a halved allowance in September);
+  `openai/2026-09-29-sottiaux-pro-subscription-guarantee` (the promise made
+  with that cut, tracked as open).
 - **Updates:** `openai/2026-01-16-ad-principles` (the help-center promise
   against advertising profiles deleted as ads launched, and the privacy
   policy's April 2026 advertising changes); `anthropic/2025-07-28-claude-weekly-limits`
   (the Max help page edits that came with the weekly caps);
   `openai/2025-10-14-chatgpt-erotica-announced` (the September 2025 usage
-  policy rewrite).
+  policy rewrite); `anthropic/2026-02-27-anthropic-pentagon-red-lines`
+  (Anthropic's October 2026 usage policy writes out its limits on autonomous
+  weapons, law enforcement decisions and tracking).
 - **Commitment grades** (workstream 2) set to eroded from page history:
   OpenAI's promises against advertising profiles, against targeted
   advertising, and to keep API abuse logs only 30 days unless the law
@@ -391,9 +399,45 @@ From August 2025 the archive alternates between two layouts of the page from one
 
 No archived version raises the listed price of a plan while it had prices in the text. The Enterprise "unlimited" wording is the one change that cut what a plan said it included without a note; the help-page history (above) shows the same.
 
+#### OpenAI GPT-5 help article (57 versions, August 2025 – July 2026)
+
+"GPT-5 in ChatGPT," renamed with each model (GPT-5.1 through GPT-5.5).
+
+| Date | Change | Announced |
+| --- | --- | --- |
+| 2025-08-08 to 2025-08-09 | Plus from 80 to 160 messages every 3 hours: "This is a temporary increase and will revert to the previous limit in the near future." | Altman on Twitter, August 8, 2025 ("double GPT-5 rate limits") |
+| 2025-08-12 to 2025-08-13 | GPT-5 Thinking for Plus and Team from 200 to 3,000 messages a week. | Altman on Twitter, August 13, 2025 |
+| 2025-08-23 to 2025-08-28 | "Canvas and image generation are not available with GPT-5 Pro." | Not dated |
+| 2026-01-16 to 2026-02-07 | The "temporary increase" sentence removed; Plus keeps 160 messages every 3 hours, now with Go as well. The increase was kept rather than reverted. | Not dated |
+| 2026-05-19 to 2026-06-07 | Published numbers removed: Free "10 messages ... every 5 hours" and Plus "up to 3,000 messages per week" with Thinking. | Not dated |
+| 2026-06-10 to 2026-06-23 | Free limits "can be dynamic and may vary based on factors that include market, system conditions, abuse-prevention guardrails, and individual usage." Business and Pro "unlimited access to our GPT-5 models, subject to abuse guardrails" becomes "On ChatGPT Pro, some models have separate usage allowances." | Not dated; no announcement found. New entry: `2026-06-chatgpt-pro-unlimited-allowances` |
+
+#### OpenAI ChatGPT Plus help article (80 versions, February 2023 – October 2026)
+
+| Date | Change | Announced |
+| --- | --- | --- |
+| 2023-02-12 to 2023-02-14 | "Subscription fees are non-refundable" gains a 14-day refund right in the EU, UK and Turkey. | Not dated |
+| 2024-01-21 to 2024-03-15 | "ChatGPT Plus currently has a cap of 50 messages every 3 hours on GPT-4 and is capped at a 4k context." The GPT-4 access article said 40 messages from January 5, and the pricing page listed a 32K context window for Plus. | Not dated |
+| 2024-05-11 to 2024-05-13 | 80 messages every 3 hours on GPT-4o, 40 on GPT-4; Team about twice Plus. | Announced with GPT-4o |
+| 2025-04-01 to 2025-04-02 | Specific caps replaced by "message limits based on the user's tier ... adjusted according to usage, demand, and during peak hours." | Not dated |
+| 2026-07-07 to 2026-07-14 | Model list replaced by "Because model availability and limits change over time, check the model picker for the options on your account." | Not dated |
+| 2026-09-04 to 2026-09-24 | Note: "As of September 10, 2026, we’re temporarily pausing new sign-ups and upgrades to the ChatGPT Pro $200 plan." Removed by October 12. | Announced by Thibault Sottiaux on Twitter; reopening announced September 29 with a usage allowance worth "half the dollar in API spend." Updates added to `2026-06-chatgpt-pro-unlimited-allowances`; new entry `2026-09-29-sottiaux-pro-subscription-guarantee` |
+| 2026-09-25 to 2026-10-12 | Plus subscribers can let participating tools draw on their included allowance through "Sign in with ChatGPT." | Not dated |
+
+#### OpenAI ChatGPT Team/Business limits (26 versions of two articles, March 2024 – October 2026)
+
+| Date | Change | Announced |
+| --- | --- | --- |
+| 2024-05-22 | Team cap "approximately twice that of ChatGPT Plus." | With GPT-4o |
+| 2025-08-13 | New Models & Limits article for GPT-5: GPT-5 "Unlimited" (from August 15, "Virtually Unlimited"); Thinking "200 requests / day"; Thinking mini 2,800 a week; Pro 15 a month. | With GPT-5 |
+| 2025-08-17 to 2025-08-30 | Thinking from "200 requests / day" to "200 requests / week," while Plus had 3,000 a week. | Not dated |
+| 2025-10-14 to 2025-12-06 | Thinking to 3,000 a week (up); Thinking mini from 2,800 a week to 200 a day (down); legacy GPT-4.1 from 500 to 80 every 3 hours and o3 from 300 to 100 a day (down). | Not dated |
+| 2026-07-03 to 2026-08-11 | "Business members can use the models currently available to their workspace. Because model availability and limits change over time, check the model picker." | Not dated |
+| 2026-09-18 | Standard and Premium seats; "Business Standard includes 15 Pro messages per month," Premium 50 a week. | On the page |
+
 ### Anthropic pages
 
-#### Anthropic usage policy (20 versions, March 2024 – October 2026)
+#### Anthropic usage policy (20 versions, March 2024 – October 2026, plus the version published October 8, 2026)
 
 Anthropic keeps each superseded version at a "Previous Version" link. The archive also caught copies dated May 13 and June 5, 2024 that alternate with the June 6 version until August 2025; they match it in substance and were set aside.
 
@@ -402,6 +446,7 @@ Anthropic keeps each superseded version at a "Previous Version" link. The archiv
 | 2023-09-15 (first capture March 2024) | Acceptable Use Policy with "Prohibited Uses" and "Prohibited Business Cases." | Dated |
 | 2024-06-06 (posted May 10) | Renamed Usage Policy and restructured into Universal Usage Standards. Explicit ban on promoting "a particular political candidate, party, issue or position" and on lobbying; bans on biometric inference and on identifying content to censor for governments; API products for minors allowed with safeguards; more countries' law enforcement allowed back-office uses. | Announced ("Updating our Usage Policy," May 10, 2024) |
 | 2025-09-15 (posted August 15) | Adds a section banning attacks on computer systems. Political rules narrowed from a ban on all campaigning and lobbying to deceptive or disruptive activity and voter targeting. Law enforcement: the ban on "any official local, state or national law enforcement application," with exceptions for back-office and missing-persons work, becomes a ban on "any law enforcement application that violates or impairs the liberty, civil liberties, or human rights of natural persons"; scoring people is barred only "without notification or their consent"; emotion recognition is allowed "for medical or safety reasons." High-risk requirements now apply only to consumer-facing uses. | Announced ("Usage Policy update," August 15, 2025), including the political change. On law enforcement Anthropic said the update "does not change what is allowed or prohibited"; the new wording reads broader than the old. Reporting at the time described Anthropic refusing federal agencies' surveillance uses. |
+| 2026-10-08 (effective 2026-11-12; read from the live page, not yet archived) | Rewritten. New section on deceptive campaigns; elections section narrowed and the ban on "personalized vote or campaign targeting" removed; weapons rules now name fire control and arming drones and autonomous platforms; law enforcement: from a ban on "determinations on criminal justice applications" (parole, sentencing) to a ban on making or suggesting decisions "to investigate, charge, arrest or detain"; tracking without consent banned "through analysis of previously collected data"; new ban on "sustained and needless abusive or cruel behavior toward our models"; high-risk requirements rewritten with a list of covered recommendations and new rules for physical actions. Not described in the post: the high-risk requirements now apply to anyone making a covered recommendation, no longer only "consumer-facing" uses; a new exception lets wholly favorable decisions (paying a claim, granting a benefit) skip human review; and a new line says the rules "do not categorically prohibit use by any particular industry or line of business." | Announced ("2026 Usage Policy update," October 8, 2026). Update added to `2026-02-27-anthropic-pentagon-red-lines` |
 
 #### Anthropic consumer terms (42 versions, March 2024 – October 2026)
 
@@ -561,7 +606,7 @@ how many.
 That split had a flaw found late in the work: a real rewrite also starts a
 new track, and the change across the rewrite was not shown. Every page was
 re-checked at each such boundary, comparing the last version before it with
-the first after it sentence by sentence (44 boundaries across 18 pages).
+the first after it sentence by sentence (48 boundaries across 20 pages).
 Most were already in the log, because the rewrites had been read in full.
 Two were not: ChatGPT Enterprise's help page saying "ChatGPT Enterprise has
 no usage caps," and the April 2023 wording of OpenAI's advertising promise.
@@ -590,7 +635,10 @@ list was read in full.
   and June 6, 2023, for example), so some changes can only be dated to a
   range. Its servers also refused or dropped connections for long stretches
   of this work; pulls were run from GitHub's runners, which reached it.
-- **Pages with no captures.** No archived copies could be pulled for GPT-5 limits (help), ChatGPT Plus (help), Team/Business limits (help), so their histories were not read.
+- **Changes after the last archived copy.** The archive's latest copies
+  are from early October 2026. Anthropic's usage policy published October 8
+  was read from the live page; OpenAI's pages could not be read live (403),
+  so any OpenAI change after its last archived copy is not in this log.
 - **Announcements behind a block.** OpenAI's website, help-center release
   notes and blog return 403 to this environment, so for OpenAI the check for
   an announcement relied on its Twitter accounts, news coverage and archived

@@ -1,0 +1,53 @@
+title: 'OpenAI halves the $200 Pro allowance and promises: "we guarantee that over
+  time you always get more work done"'
+date: 2026-09-29
+org: openai
+type: said
+kind: commitment
+who: [openai]
+venue: Post on X by Thibault Sottiaux
+quote: >-
+  We didn't want to compromise in other ways and are committing to not
+  reintroducing the 5h limit, so that you can fully use the weekly usage when
+  you want.
+summary: >-
+  Reopening the $200 Pro plan to new subscribers after a three-week pause,
+  OpenAI's Thibault Sottiaux said usage would now "net out at half the dollar
+  in API spend compared to the old Pro $200 plan." He made two promises in the
+  same post: no return of the five-hour limit, and "On the subscription, we
+  guarantee that over time you always get more work done and with an
+  increasing level of quality," because models get more efficient and OpenAI
+  passes savings on "in the form of API price reductions." A week earlier
+  OpenAI had released GPT-6 Sol and Luna at "half of the previous generation’s
+  API prices."
+concreteness: measurable
+status: open
+breaks_if: >-
+  OpenAI brings back a five-hour usage limit on the $200 Pro plan, or a Pro
+  subscriber gets less work for the same price in a later change without a
+  matching price cut or model improvement.
+patterns: [shrinking-plan]
+related: [2026-06-chatgpt-pro-unlimited-allowances, 2025-07-28-claude-weekly-limits]
+sources:
+  - title: Thibault Sottiaux on X ("Tomorrow we are re-opening the Pro $200
+      subscriptions")
+    publisher: X
+    url: https://x.com/thsottiaux/status/2104823812042940713
+    date: 2026-09-29
+    type: primary
+  - title: OpenAI Developers on X ("Improvements in caching and inference let us
+      deliver GPT-6 Sol and GPT-6 Luna at lower cost")
+    publisher: X
+    url: https://x.com/OpenAIDevs/status/2102461448979087626
+    date: 2026-09-22
+    type: primary
+  - title: OpenAI pauses $200 Pro tier as Astra demand strains capacity
+    publisher: CIO
+    url: https://www.cio.com/article/4221092/openai-pauses-200-pro-tier-as-astra-demand-strains-capacity.html
+    date: 2026-09-11
+    type: reporting
+note: >-
+  The five-hour promise is checkable; the "more work done" guarantee is harder,
+  since OpenAI publishes no dollar figure for the allowance and measures value
+  in its own API prices. Sottiaux's post was a trade stated openly: a smaller
+  allowance in exchange for no five-hour cap and cheaper models.
