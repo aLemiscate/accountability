@@ -538,6 +538,35 @@ New York and Washington. Tables, method and sources are in
   formed an employee PAC that gave $58,000 to both parties in June 2026, and
   gave $40 million to Public First Action, which it says cannot be spent on
   elections.
+- **Filings next to public statements.** No filing records which side a
+  company took, so positions come from the companies' own statements in the
+  record. Full comparison in the README's "What the filings show next to what
+  the companies said."
+  - *OpenAI:* in May 2023 Altman asked the Senate for a licensing agency for
+    powerful AI. OpenAI's federal reports named three to five bills each
+    quarter through 2024, then none in the six quarters since ($5.21 million
+    of spending). In that period it asked the White House for "preemption from
+    state-based regulations," and Altman told the Senate that requiring
+    approval before release would be "disastrous." In California it listed
+    SB 1047 on all three of its 2024 reports while opposing the bill in
+    public, and SB 53 on every 2025 report. In New York it listed the RAISE
+    Act in 2025 and was endorsing it by 2026, while Leading the Future, the
+    super PAC co-funded by Greg Brockman, set out to defeat the Act's Assembly
+    sponsor.
+  - *Anthropic:* its federal reports name bills in 7 of its 10 in-house
+    quarters (12 bills in Q2 2026). One is H.R. 1, in the quarter Amodei
+    called its 10-year state moratorium "far too blunt an instrument." It
+    listed SB 1047 in 2024, SB 53 on every California report since 2025, and
+    the RAISE Act in New York in 2025, and endorsed SB 53 and the RAISE Act in
+    public. In 2022, before Anthropic registered, Jack Clark wrote on Twitter
+    that much big-tech AI policy work is "doing 'follow the birdie' with
+    government"; Anthropic's federal spending has since grown from $200,000 in
+    2023 to $3.53 million in the first half of 2026.
+  - *What it adds up to:* Anthropic's filings say what it lobbied on, and the
+    bills they name match the positions it took in public. OpenAI's have not
+    named a bill since 2024, so since then its filings can't be checked
+    against what it says about regulation. Neither company's filings show
+    what the money asked for.
 - **Record changes:** updates to the Public First Action, Leading the Future
   and OSTP preemption entries; the 2023 Anthropic figure in the SB 1047 entry
   corrected from $280,000 to $200,000.
