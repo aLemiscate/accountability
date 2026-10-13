@@ -19,7 +19,7 @@ The site has five views:
 
 - **Receipts**: statement → contradicting action, with the elapsed time, plus before/after diffs of rewritten policies.
 - **Timeline**: everything, in date order.
-- **Patterns**: a pattern-by-year recurrence chart, with each pattern's tells and what to watch for next.
+- **Patterns**: a pattern-by-year recurrence chart, with each pattern's tells, what to watch for next, and, where the behavior is industry-wide, one sourced sentence on another company doing the same.
 - **Watchlist**: promises still in force, each with a written "counts as broken if" test and a running age.
 - **Method**: the standards the record follows.
 
@@ -240,7 +240,7 @@ the Capture and Watch workflows on GitHub's runners for those sources.
 data/
   entries/openai/*.yaml      one file per event
   entries/anthropic/*.yaml
-  patterns.yaml              recurring patterns: thesis, tells, what to watch for
+  patterns.yaml              recurring patterns: thesis, tells, what to watch for, industry context
   actors.yaml                who is in scope, and why
   watch.yaml                 pages the watcher re-reads
   accounts.yaml              X / Bluesky accounts that find-posts reads
