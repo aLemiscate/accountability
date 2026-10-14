@@ -23,8 +23,8 @@ breaks_if: >-
 patterns: []
 related: [2026-04-07-mythos-preview-not-general]
 sources:
-  - title: Anthropic on X
-    publisher: X
+  - title: Anthropic on Twitter/X
+    publisher: Twitter/X
     url: https://x.com/AnthropicAI/status/2041578412653900255
     date: 2026-04-07
     type: primary
@@ -38,12 +38,12 @@ sources:
 updates:
   - date: 2026-05-22
     text: >-
-      Anthropic published an initial update. It reported that partners had
-      found more than 10,000 high- or critical-severity vulnerabilities, and
-      that its own scan of over 1,000 open-source projects had turned up an
-      estimated 23,019 findings, 6,202 of them rated high or critical by the
-      model. It said verifying, disclosing and patching was now the bottleneck,
-      and it started a public disclosure ledger.
+      Anthropic published an initial update. It reported that partners had found
+      more than 10,000 high- or critical-severity vulnerabilities, and that its
+      own scan of over 1,000 open-source projects had turned up an estimated
+      23,019 findings, 6,202 of them rated high or critical by the model. It
+      said verifying, disclosing and patching was now the bottleneck, and it
+      started a public disclosure ledger.
     sources:
       - title: 'Project Glasswing: An initial update'
         publisher: Anthropic
@@ -64,6 +64,32 @@ updates:
         date: 2026-09-08
         type: analysis
         snapshot: snapshots/2026-09-30-vulncheck.com-737c4d90
+  - date: 2026-10-06
+    text: >-
+      Folding Glasswing into its Cyber Verification Program, Anthropic reported
+      that partners had found "at least 129,000 verified software
+      vulnerabilities between April and July 2026" and its own open-source
+      scanning another 5,500 through October, more than 33,000 of them rated
+      critical or high. It said the figures came from "partial data from 33
+      partner reports," that it expected "the true impact to be at least five
+      times higher," and that fewer than 50% of partners disclosed how many had
+      been patched; it gave no patch total. Two days later, launching its Cyber
+      Mission, it wrote that "we haven't yet achieved a sufficient reduction in
+      cyber risk" and that in Glasswing "we often saw months pass between a
+      vulnerability being found and being fixed."
+    sources:
+      - title: Expanding the Cyber Verification Program
+        publisher: Anthropic
+        url: https://www.anthropic.com/news/cyber-verification-program
+        date: 2026-10-06
+        type: primary
+        snapshot: snapshots/2026-10-14-anthropic.com-2bd8707f
+      - title: Introducing the Anthropic Cyber Mission
+        publisher: Anthropic
+        url: https://www.anthropic.com/news/anthropic-cyber-mission
+        date: 2026-10-08
+        type: primary
+        snapshot: snapshots/2026-10-14-anthropic.com-c4a1f46e
 note: >-
   Kept: Anthropic reported back, and its ledger is public enough for outsiders
   to check the numbers, which is how the less flattering figures came out.

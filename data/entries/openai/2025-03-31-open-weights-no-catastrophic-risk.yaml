@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [openai, johannes-heidecke]
-venue: Posts on Twitter by OpenAI's head of safety systems
+venue: Posts on Twitter/X by OpenAI's head of safety systems
 quote: >-
   we’re guided by our Preparedness Framework and will not release models we
   believe pose catastrophic risks.
@@ -25,15 +25,15 @@ breaks_if: >-
 patterns: []
 related: [2025-04-15-preparedness-framework-v2]
 sources:
-  - title: Johannes Heidecke on X ("will not release models we believe pose
+  - title: Johannes Heidecke on Twitter/X ("will not release models we believe pose
       catastrophic risks")
-    publisher: X
+    publisher: Twitter/X
     url: https://x.com/JoHeidecke/status/1906799330599813432
     date: 2025-03-31
     type: primary
     snapshot: snapshots/2026-09-30-x.com-25c9d295
-  - title: Johannes Heidecke on X ("adversarial fine-tuning")
-    publisher: X
+  - title: Johannes Heidecke on Twitter/X ("adversarial fine-tuning")
+    publisher: Twitter/X
     url: https://x.com/JoHeidecke/status/1906799389139722663
     date: 2025-03-31
     type: primary
@@ -44,8 +44,8 @@ updates:
       Altman delayed the release a week before launch: "we need time to run
       additional safety tests and review high-risk areas."
     sources:
-      - title: Sam Altman on X
-        publisher: X
+      - title: Sam Altman on Twitter/X
+        publisher: Twitter/X
         url: https://x.com/sama/status/1943837550369812814
         date: 2025-07-12
         type: primary
@@ -67,8 +67,8 @@ updates:
         date: 2025-08-05
         type: primary
         snapshot: snapshots/2026-09-30-arxiv.org-9749249c
-      - title: Steven Adler on X ("Credit where it's due")
-        publisher: X
+      - title: Steven Adler on Twitter/X ("Credit where it's due")
+        publisher: Twitter/X
         url: https://x.com/sjgadler/status/1952790678175662527
         date: 2025-08-05
         type: primary

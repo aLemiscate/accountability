@@ -1,30 +1,30 @@
 # What the record covers
 
-As of October 13, 2026. This file says where the record's entries came from,
+As of October 14, 2026. This file says where the record's entries came from,
 what the latest reviews added, how the two companies compare, and what may
 still be missing. The October fairness review ran in seven workstreams, each
 with its own section below: spoken claims, commitments in formal documents,
 policy page history, reply context, company responses and open promises,
 lobbying and political money, and the industry baseline. The rules for what counts are in
-[METHODOLOGY.md](METHODOLOGY.md). The post-by-post Twitter triage is in
+[METHODOLOGY.md](METHODOLOGY.md). The post-by-post Twitter/X triage is in
 [inbox/sweep/TRIAGE.md](inbox/sweep/TRIAGE.md).
 
 ## The record in numbers
 
 | | Said | Did | Total |
 | --- | --: | --: | --: |
-| OpenAI | 59 | 53 | 112 |
-| Anthropic | 35 | 30 | 65 |
-| **Total** | **94** | **83** | **177** |
+| OpenAI | 62 | 54 | 116 |
+| Anthropic | 37 | 30 | 67 |
+| **Total** | **99** | **84** | **183** |
 
 Status of the "said" entries:
 
 | | Standing | Kept | Eroded | Contradicted | Broken | Reversed |
 | --- | --: | --: | --: | --: | --: | --: |
-| OpenAI | 20 | 8 | 13 | 6 | 4 | 8 |
-| Anthropic | 17 | 6 | 3 | 5 | 3 | 1 |
+| OpenAI | 23 | 8 | 13 | 6 | 4 | 8 |
+| Anthropic | 19 | 6 | 3 | 5 | 3 | 1 |
 
-142 of the 143 quotes whose sources have a saved snapshot match that text word
+147 of the 148 quotes whose sources have a saved snapshot match that text word
 for word. The other is Altman's November 2023 remark on voice cloning, quoted
 from the event's audio (the saved page is the event listing). For one quote, the White House
 accord, the text exists only as an image, and the match is against a
@@ -33,7 +33,7 @@ notes on the patterns was also checked against its saved source.
 
 ## Where entries come from
 
-**Twitter.** Every archived post of 77 accounts (the companies, their
+**Twitter/X.** Every archived post of 77 accounts (the companies, their
 executives, board members, safety and policy staff, and former staff) was
 pulled from the Wayback Machine, including posts later deleted. It was read
 three times:
@@ -55,7 +55,7 @@ Every collected post has a decision, and every post marked "follow up" was
 worked to an outcome. The limits: posts nobody archived can't be found this
 way; for Elon Musk only the latest year was read.
 
-**Everything else.** The September 30 review went beyond Twitter to:
+**Everything else.** The September 30 review went beyond Twitter/X to:
 
 - **Company publications:** blog posts, system cards and addenda, risk and
   sabotage reports, and safety frameworks, read against each other. Examples
@@ -144,7 +144,7 @@ for anything that changes an entry.
 
 ## What the October 3 pass added
 
-The third reading of the Twitter archive, and a search of reporting for the
+The third reading of the Twitter/X archive, and a search of reporting for the
 same kinds of claims, widened the record from safety and ethics to any notable
 claim that can be checked. 44 new entries (26 OpenAI, 18 Anthropic) and 39
 updated ones.
@@ -280,6 +280,63 @@ September. The full account is in
   models acting on real websites, including a false tip to Philadelphia
   police) and 11 updates, for both companies.
 
+## What the October 14 pass added
+
+Follow-ups to the October 13 audit, in six parts.
+
+- **Launches since late September, both companies,** read for dated
+  promises, plan and price terms and checkable claims. OpenAI's DevDay
+  (Sept. 29) halved the $200 Pro plan's allowance from Oct. 30 and added a
+  $500 tier (an update to the Pro allowances entry), and promised "Private
+  Inference" this fall. Anthropic promised its Enterprise Frontier Safeguards
+  "later this fall," expanded its Cyber Verification Program to give more
+  defenders Mythos-class access (an update to the Mythos promise), reported
+  new Glasswing figures with no patch total (an update to the report-back
+  promise), and forecast that "in two years, AI will favor defense." The two
+  privacy promises are recorded side by side, both due by the end of
+  December. Haiku 5.5, Sonnet 5.5 and Opus 5.5 pricing and benchmark claims,
+  plugin and agent launches, and spending pledges (Anthropic's $100 million
+  engineer academy and $150 million for the Genesis Mission) were read and
+  left out: no dated promise or contested claim.
+- **Due dates.** A new `due` field holds the end of the period a promise
+  names. Eleven open promises have one; the Watchlist shows it, and the
+  validator warns once a deadline passes on a promise still marked open.
+- **IPO filings.** Neither company has a public registration statement on
+  EDGAR as of October 14 (full-text search for "Anthropic, PBC" and "OpenAI
+  Group PBC" in S-1, F-1 and 424B4 filings finds only other companies'
+  filings that mention them). Both announced confidential draft filings in
+  June.
+  The weekly news sweep checks EDGAR each week; the SEC refuses automated
+  requests that don't declare a contact, so the Watch workflow can't poll it.
+- **Non-English search.** Searches in Italian, Korean, Japanese, French,
+  German and Portuguese for 2026 regulator actions on either company found
+  one the record lacked: the May 6 joint findings of Canada's federal,
+  Quebec, British Columbia and Alberta privacy regulators that OpenAI
+  trained ChatGPT unlawfully, and OpenAI's dated commitments to them (two new
+  entries; the six-month items are due Nov. 6). Nothing comparable was found
+  for Anthropic.
+- **Video.** YouTube refuses this machine, GitHub's runners, the free
+  transcript services and the Invidious and Piped mirrors tried. Video posted
+  on Twitter/X can be downloaded without a login (FxTwitter gives the file's
+  address) and run through the Transcribe workflow as an "audio" row. Altman's
+  January town hall, read earlier only from a Chinese dub, held a dated
+  forecast (GPT-5.2-level intelligence at least 100 times cheaper by the end
+  of 2027); it is now in the record from English reporting, checked against
+  Chinese and Russian accounts.
+- **Paywalled and blocked pages.** Capture now saves a source's archived
+  copy when the page itself is paywalled, bot-checked or gone, and marks the
+  snapshot as a copy of the original address. Run on GitHub, it saved 13 of
+  the 21 sources that had no snapshot. The New York Times' 2024 story on
+  training data, the Business Wire release, both Inc. stories, one Forbes
+  story and three Techmeme pages were archived in full; the two Wall Street Journal
+  stories, the 2026 New York Times story and the two Washington Post stories
+  hold only the opening before the paywall.
+- **Labels and schedule.** Source titles, publisher labels, venues and prose
+  name the platform "Twitter/X" (558 labels and 52 other mentions changed;
+  quoted words stay as spoken). A weekly news sweep runs as a scheduled Claude
+  Code session every Monday at 06:46 UTC and opens a pull request for review;
+  [inbox/news/README.md](inbox/news/README.md) says what each run reports.
+
 ## The two companies side by side
 
 OpenAI has 112 entries to Anthropic's 64. It is older, larger and has made more
@@ -345,7 +402,7 @@ per-person table and method are in [inbox/spoken/README.md](inbox/spoken/README.
 | Decisions | R, in the record | L, lead | C, context | O, left out |
 | --- | --: | --: | --: | --: |
 | Anthropic speakers | 22 | 19 | 306 | 82 |
-| OpenAI speakers | 33 | 34 | 411 | 107 |
+| OpenAI speakers | 34 | 33 | 411 | 107 |
 | Joint appearance | 0 | 0 | 2 | 1 |
 
 - **Transcripts:** 14 official (govinfo.gov hearings, the UN record, CNN), 6
@@ -477,12 +534,12 @@ its date and whether it was announced. The full log is
   and Anthropic's documentation site (December 2025 to August 2026) were
   archived as empty JavaScript shells; ChatGPT prices stopped appearing in
   archived text in October 2025; OpenAI's site returns 403 here, so its
-  announcements were checked through Twitter, news and archives only, and
+  announcements were checked through Twitter/X, news and archives only, and
   changes after its last archived copy are not in the log.
 
 ## Reply context
 
-All 9,021 replies by company accounts and executives in the Twitter reading
+All 9,021 replies by company accounts and executives in the Twitter/X reading
 log were re-read next to the post each one answered (the parent could not be
 retrieved for 1,576). Details and per-account counts are in
 [inbox/sweep/replies/README.md](inbox/sweep/replies/README.md).
@@ -578,7 +635,7 @@ New York and Washington. Tables, method and sources are in
     called its 10-year state moratorium "far too blunt an instrument." It
     listed SB 1047 in 2024, SB 53 on every California report since 2025, and
     the RAISE Act in New York in 2025, and endorsed SB 53 and the RAISE Act in
-    public. In 2022, before Anthropic registered, Jack Clark wrote on Twitter
+    public. In 2022, before Anthropic registered, Jack Clark wrote on Twitter/X
     that much big-tech AI policy work is "doing 'follow the birdie' with
     government"; Anthropic's federal spending has since grown from $200,000 in
     2023 to $3.53 million in the first half of 2026.
@@ -635,20 +692,23 @@ about other companies. Every source was read in full.
 
 - **Pages without a snapshot.** The Capture workflow on GitHub's runners saved
   the pages this review couldn't reach, including every openai.com page the
-  record cites. 21 of the 923 distinct source addresses (entries, updates,
-  commitment grades and industry notes) still have no snapshot: paywalled
-  stories (Wall Street Journal, Washington Post, New York Times, Forbes,
-  Reuters, Fast Company) and sites that refuse automated requests (Techmeme,
-  Inc., SSRN, Slashdot, Business Wire, and the Conversations with Tyler
-  transcript). Those are cited by URL, and quoted through reporting that
+  record cites. 8 of the 938 distinct source addresses (entries, updates,
+  commitment grades and industry notes) still have no snapshot, because
+  neither the page nor its archived copy could be read: two Forbes stories, a
+  Washington Post op-ed, Reuters, Fast Company, SSRN, Slashdot and the
+  Conversations with Tyler transcript. Thirteen others are saved from their
+  archived copies, five of them only up to the paywall (see "What the October
+  14 pass added"). Those are cited by URL, and quoted through reporting that
   reproduced them. Bot checks and empty pages are no longer saved as
   snapshots, so a blocked source shows up here instead of looking captured.
 - **Paywalled and non-English reporting.** Wall Street Journal, New York Times,
   Bloomberg, New Yorker and The Information stories are cited through
-  secondary coverage. Outside English, only regulators' decisions were
-  checked; reporting in other languages wasn't searched.
+  secondary coverage. Reporting in other languages was searched on October 14
+  for 2026 regulator actions (six languages; see above), not for every story.
 - **Channels searched but not swept in full:** video-only keynotes and
-  talks (YouTube refuses this machine and GitHub's runners), TV and print
+  talks (YouTube refuses this machine, GitHub's runners, free transcript
+  services and Invidious and Piped mirrors; video posted on Twitter/X can be
+  transcribed), TV and print
   interviews, LinkedIn, and testimony by company staff other than the ten
   people in the spoken-claims inventory. Podcasts and congressional
   testimony by those ten, and the lobbying filings, are now read in full
@@ -668,7 +728,10 @@ about other companies. Every source was read in full.
   date and stay on watch. OpenAI's Navier-Stokes proof awaits peer review and
   the Clay Mathematics Institute; custom GPTs are retired on December 11;
   Anthropic's Fluidstack data centers were due online "throughout 2026"; and
-  OpenAI has said it will mark ChatGPT's text under the EU code.
+  OpenAI has said it will mark ChatGPT's text under the EU code. OpenAI's
+  commitments to Canada's privacy regulators come due on November 6, and both
+  companies' privacy-with-monitoring promises by the end of December. Neither
+  company had a public IPO filing on October 14.
 
 Items that were reviewed and left out, with the reason for each, are listed in
 [inbox/sweep/TRIAGE.md](inbox/sweep/TRIAGE.md) under "No record change, and

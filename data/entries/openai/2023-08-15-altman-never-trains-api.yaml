@@ -4,7 +4,7 @@ org: openai
 type: said
 kind: claim
 who: [sam-altman, openai]
-venue: Post on Twitter
+venue: Post on Twitter/X
 quote: >-
   openai never trains on anything ever submitted to the api or uses that data to
   improve our models in any way.
@@ -53,16 +53,16 @@ sources:
     date: 2022-03-04
     type: primary
     snapshot: snapshots/2026-10-13-arxiv.org-4b8cf107
-  - title: Sam Altman on X ("openai never trains on anything ever submitted to the
+  - title: Sam Altman on Twitter/X ("openai never trains on anything ever submitted to the
       api")
-    publisher: X
+    publisher: Twitter/X
     url: https://x.com/sama/status/1691504238294429696
     date: 2023-08-15
     type: primary
     snapshot: snapshots/2026-10-03-x.com-f243beb2
-  - title: Sam Altman on X ("data submitted to the OpenAI API is not used for
+  - title: Sam Altman on Twitter/X ("data submitted to the OpenAI API is not used for
       training")
-    publisher: X
+    publisher: Twitter/X
     url: https://x.com/sama/status/1631002519311888385
     date: 2023-03-01
     type: primary

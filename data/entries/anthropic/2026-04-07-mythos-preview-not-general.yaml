@@ -5,7 +5,7 @@ org: anthropic
 type: said
 kind: commitment
 who: [anthropic]
-venue: Project Glasswing announcement and post on Twitter
+venue: Project Glasswing announcement and post on Twitter/X
 quote: >-
   We do not plan to make Mythos Preview generally available. Our goal is to
   deploy Mythos-class models safely at scale, but first we need safeguards that
@@ -32,8 +32,8 @@ related:
     2026-07-30-claude-cyber-eval-incidents
   ]
 sources:
-  - title: Anthropic on X
-    publisher: X
+  - title: Anthropic on Twitter/X
+    publisher: Twitter/X
     url: https://x.com/AnthropicAI/status/2041578409315189125
     date: 2026-04-07
     type: primary
@@ -54,14 +54,14 @@ updates:
       Mythos 5, "the same underlying model as Fable 5, but with the safeguards
       lifted in some areas," to a small group of cyber defenders.
     sources:
-      - title: Claude on X
-        publisher: X
+      - title: Claude on Twitter/X
+        publisher: Twitter/X
         url: https://x.com/claudeai/status/2064394146916229443
         date: 2026-06-09
         type: primary
         snapshot: snapshots/2026-09-30-x.com-718ba01e
-      - title: Claude on X (on safeguards)
-        publisher: X
+      - title: Claude on Twitter/X (on safeguards)
+        publisher: Twitter/X
         url: https://x.com/claudeai/status/2064394155258765783
         date: 2026-06-09
         type: primary
@@ -94,8 +94,9 @@ updates:
       develop exploits for them, and that its cyber safeguards produce about 60%
       fewer false positives in Claude Code.
     sources:
-      - title: Claude on X ("We’re introducing Claude Fable 5.1 and Claude Mythos 5.1")
-        publisher: X
+      - title: Claude on Twitter/X ("We’re introducing Claude Fable 5.1 and Claude Mythos
+          5.1")
+        publisher: Twitter/X
         url: https://x.com/claudeai/status/2094848572143407483
         date: 2026-09-01
         type: primary
@@ -115,6 +116,34 @@ updates:
         type: reporting
         archive: https://web.archive.org/web/20261003082847/https://www.macrumors.com/2026/09/01/anthropic-claude-fable-5-1/
         snapshot: snapshots/2026-10-03-macrumors.com-b57bd2b6
+  - date: 2026-10-06
+    text: >-
+      Anthropic merged Project Glasswing into an expanded Cyber Verification
+      Program, which it said "makes advanced cyber capabilities and reduced
+      blocking classifiers available to qualifying security professionals," with
+      access to Claude Mythos 5.1 and its other most capable models. The first
+      tier, for defensive work, is open to security teams at companies,
+      nonprofits, universities and government bodies, operators of critical
+      infrastructure "of any size," open-source maintainers and individual
+      researchers with a record of reported vulnerabilities; Anthropic said it
+      expected "many organizations conducting defensive cybersecurity work to
+      qualify." A second tier allows authorized penetration testing and
+      red-teaming. In Anthropic's test on Claude Opus 5.5, the defensive tier's
+      safeguards blocked 46 of 50 attempts at multi-stage cyber operations, and
+      the red-team tier blocked none.
+    sources:
+      - title: Expanding the Cyber Verification Program
+        publisher: Anthropic
+        url: https://www.anthropic.com/news/cyber-verification-program
+        date: 2026-10-06
+        type: primary
+        snapshot: snapshots/2026-10-14-anthropic.com-2bd8707f
+      - title: Anthropic Introduces 3-Tier Cyber Verification Program for AI Access
+        publisher: SecurityWeek
+        url: https://www.securityweek.com/anthropic-introduces-3-tier-cyber-verification-program-for-ai-access/
+        date: 2026-10-07
+        type: reporting
+        snapshot: snapshots/2026-10-14-securityweek.com-373d88fa
 note: >-
   "Reliably" is the load-bearing word, and Anthropic's own position is that no
   model can be made fully jailbreak-proof. It argues its safeguards block the

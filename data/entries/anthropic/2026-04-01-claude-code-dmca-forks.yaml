@@ -5,7 +5,7 @@ org: anthropic
 type: said
 kind: denial
 who: [boris-cherny, anthropic]
-venue: Posts on Twitter
+venue: Posts on Twitter/X
 quote: >-
   This was not intentional. We are debugging what happened on the GitHub side.
   No one at Anthropic dmca’d these forks
@@ -32,15 +32,15 @@ outcome:
     8.1K repositories.
 patterns: [sorry-after-caught]
 sources:
-  - title: Boris Cherny on X ("No one at Anthropic dmca’d these forks")
-    publisher: X
+  - title: Boris Cherny on Twitter/X ("No one at Anthropic dmca’d these forks")
+    publisher: Twitter/X
     url: https://x.com/bcherny/status/2039433317750329716
     date: 2026-04-01
     type: primary
     archive: https://web.archive.org/web/20260402125139/https://x.com/bcherny/status/2039433317750329716
     snapshot: snapshots/2026-10-03-x.com-7620f3d7
-  - title: Boris Cherny on X ("it was human error")
-    publisher: X
+  - title: Boris Cherny on Twitter/X ("it was human error")
+    publisher: Twitter/X
     url: https://x.com/bcherny/status/2039207155069505693
     date: 2026-04-01
     type: primary

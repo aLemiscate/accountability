@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [sam-altman, openai]
-venue: GPT-4o launch event and posts on Twitter
+venue: GPT-4o launch event and posts on Twitter/X
 quote: >-
   the new voice mode will be live in the coming weeks for plus users.
 summary: >-
@@ -24,49 +24,49 @@ status: kept
 patterns: [coming-weeks]
 related: [2024-05-13-her-sky-voice]
 sources:
-  - title: Sam Altman on X ("the new voice mode will be live in the coming weeks")
-    publisher: X
+  - title: Sam Altman on Twitter/X ("the new voice mode will be live in the coming weeks")
+    publisher: Twitter/X
     url: https://x.com/sama/status/1790071830427930788
     date: 2024-05-13
     type: primary
     snapshot: snapshots/2026-10-03-x.com-3c9c59a2
-  - title: Greg Brockman on X ("Team is working hard to bring those to the world")
-    publisher: X
+  - title: Greg Brockman on Twitter/X ("Team is working hard to bring those to the world")
+    publisher: Twitter/X
     url: https://x.com/gdb/status/1790869434174746805
     date: 2024-05-15
     type: primary
     archive: https://web.archive.org/web/20240828182039/https://x.com/gdb/status/1790869434174746805
     snapshot: snapshots/2026-10-03-x.com-8a4328ed
-  - title: OpenAI on X ("need one more month to reach our bar to launch")
-    publisher: X
+  - title: OpenAI on Twitter/X ("need one more month to reach our bar to launch")
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/1805716393524183136
     date: 2024-06-25
     type: primary
     archive: https://web.archive.org/web/20260924125718/https://x.com/OpenAI/status/1805716393524183136
     snapshot: snapshots/2026-10-13-x.com-e41b3407
-  - title: Mira Murati on X ("all Plus users in fall")
-    publisher: X
+  - title: Mira Murati on Twitter/X ("all Plus users in fall")
+    publisher: Twitter/X
     url: https://x.com/miramurati/status/1818374216997314738
     date: 2024-07-30
     type: primary
     archive: https://web.archive.org/web/20240811203550/https://x.com/miramurati/status/1818374216997314738
     snapshot: snapshots/2026-10-03-x.com-390c6c0c
-  - title: Mira Murati on X, quoting OpenAI ("Advanced Voice is rolling out to all
+  - title: Mira Murati on Twitter/X, quoting OpenAI ("Advanced Voice is rolling out to all
       Plus and Team users")
-    publisher: X
+    publisher: Twitter/X
     url: https://x.com/miramurati/status/1838642696111689788
     date: 2024-09-24
     type: primary
     snapshot: snapshots/2026-10-03-x.com-f8a03a18
-  - title: OpenAI on X ("video and screensharing are now starting to roll out")
-    publisher: X
+  - title: OpenAI on Twitter/X ("video and screensharing are now starting to roll out")
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/1867292997660160061
     date: 2024-12-12
     type: primary
     archive: https://web.archive.org/web/20260211091601/https://x.com/OpenAI/status/1867292997660160061
     snapshot: snapshots/2026-10-03-x.com-dcaa7056
-  - title: OpenAI on X ("4o image generation has arrived")
-    publisher: X
+  - title: OpenAI on Twitter/X ("4o image generation has arrived")
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/1904602845221187829
     date: 2025-03-25
     type: primary

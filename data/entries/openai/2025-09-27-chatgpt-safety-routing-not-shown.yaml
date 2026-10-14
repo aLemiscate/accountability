@@ -27,14 +27,14 @@ summary: >-
 patterns: [told-last]
 contradicts: [2025-08-08-altman-show-which-model-answers]
 sources:
-  - title: Nick Turley on X ("We've seen the strong reactions to 4o responses")
-    publisher: X
+  - title: Nick Turley on Twitter/X ("We've seen the strong reactions to 4o responses")
+    publisher: Twitter/X
     url: https://x.com/nickaturley/status/1972031684913799355
     date: 2025-09-27
     type: primary
     snapshot: snapshots/2026-10-03-x.com-6cd10e9c
-  - title: Nick Turley on X ("We've started testing a new safety routing system")
-    publisher: X
+  - title: Nick Turley on Twitter/X ("We've started testing a new safety routing system")
+    publisher: Twitter/X
     url: https://x.com/nickaturley/status/1972031686318895253
     date: 2025-09-27
     type: primary
@@ -55,9 +55,9 @@ sources:
     type: reporting
     archive: https://web.archive.org/web/20261003135818/https://techcrunch.com/2025/09/29/openai-rolls-out-safety-routing-system-parental-controls-on-chatgpt/
     snapshot: snapshots/2026-10-03-techcrunch.com-52252a74
-  - title: OpenAI on X ("ChatGPT will continue to tell users what model is active
+  - title: OpenAI on Twitter/X ("ChatGPT will continue to tell users what model is active
       when asked")
-    publisher: X
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/1974234951928459450
     date: 2025-10-03
     type: primary

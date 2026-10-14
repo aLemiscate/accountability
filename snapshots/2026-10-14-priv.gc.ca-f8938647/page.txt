@@ -1,0 +1,68 @@
+Backgrounder: Summary of joint investigation into Open AI ’s Chat GPT
+The Office of the Privacy Commissioner of Canada ( OPC ), along with the Commission d’accès à l’information du Québec, the Office of the Information and Privacy Commissioner for British Columbia, and the Office of the Information and Privacy Commissioner of Alberta, conducted a joint investigation into Open AI ’s Chat GPT to assess whether the company’s collection, use, and disclosure of Canadians’ personal information complied with federal and provincial privacy laws.
+On this page
+• Overview and key findings
+• Jurisdictional differences and investigative outcomes
+• Open AI ’s response and future commitments
+• Key takeaways for organizations
+Overview and key findings
+The investigation focused on Chat GPT ’s early models, examining how Open AI sourced its training data – including publicly scraped content, licensed datasets, and user interactions – and whether it adhered to the key privacy principles such as consent, transparency, and data accuracy.
+The regulators’ findings highlighted privacy concerns related to the scale and sensitivity of data collected, and the adequacy of user consent, among other issues. As a result, the regulators concluded that the way that Open AI had initially trained Chat GPT was not compliant with federal and provincial privacy laws. Specifically, the regulators found:
+• Overcollection of personal information: Open AI gathered vast amounts of personal information without adequate safeguards to prevent use of that information to train its models. This could include sensitive details such as individuals’ health conditions and political views, as well as information about children.
+• Lack of valid consent and transparency: Open AI did not obtain valid consent for the collection of personal information, as required under privacy laws. Many users were unaware that their data was collected and used to train Chat GPT . Open AI did not clearly explain that personal information collected from publicly accessible sources could include data from social media, discussion forums, and other similar websites.
+• Factual inaccuracies and fabricated “hallucinations”: Open AI provided insufficient notifications about potential inaccuracies in Chat GPT responses. Until recently, it had not conducted an assessment to validate the accuracy of any personal information included in Chat GPT responses to user prompts.
+• Access, correction and deletion: Open AI did not provide all individuals with an easily accessible and effective mechanism to access, correct, and delete their personal information.
+• Lack of accountability: Open AI released Chat GPT without having fully addressed known privacy risks, and without establishing data-deletion rules. This exposed individuals to risks of harm, including privacy breaches, inaccuracy of information, and discrimination on the basis of information provided about them.
+Jurisdictional differences and investigative outcomes
+While privacy legislation in British Columbia, Alberta, and Québec is considered substantially similar to the federal private-sector privacy law, each jurisdiction investigated compliance with the specific laws that they oversee. The conclusions reached by each office varied due to the differences in the laws that they enforce.
+Privacy authority
+Applicable law
+Investigative finding
+Notes
+Office of the Privacy Commissioner of Canada
+Personal Information Protection and Electronic Documents Act (PIPEDA)
+Complaint is well-founded and conditionally resolved
+The OPC considers that the measures implemented, or that will be implemented by Open AI , will significantly reduce the residual risk of harm to individuals associated with the collection, use, and disclosure of their personal information in the development and deployment of Chat GPT models.
+Office of the Information and Privacy Commissioner for BC ( OIPC-BC )
+Personal Information Protection Act - BC
+Complaint is well-founded and unresolved
+The OIPC-BC determined that Open AI ’s models, based on scraped data, are in contravention of PIPA-BC ’s consent requirements, which set different criteria than PIPEDA . However, OIPC-BC acknowledged Open AI ’s efforts to improve compliance.
+Office of the Information and Privacy Commissioner of Alberta ( OIPC-AB )
+Personal Information Protection Act - AB
+Complaint is well-founded and unresolved
+The OIPC-AB determined that Open AI ’s models, based on scraped data, are in contravention of PIPA-AB ’s consent requirements, which set different criteria than PIPEDA . However, OIPC-AB acknowledged Open AI ’s efforts to improve compliance.
+Commission d’accès à l’information du Québec (CAI)
+Act respecting the protection of personal information in the private sector
+Complaint is well-founded and conditionally resolved on the following issues: appropriate purposes, individual rights and accountability.
+Complaint is well-founded and unresolved on the issue of consent.
+No findings were issued on complaint related to openness and accuracy given the specificities of Quebec’s law.
+The CAI has made specific recommendations with respect to consent and retention to bring Open AI in compliance with Quebec’s private-sector privacy act. The CAI intends to monitor Open AI ’s implementation of the joint recommendations, as well as its own specific recommendations.
+Open AI ’s response and future commitments
+Open AI has already put in place measures which address some of the concerns raised in the report of findings, most importantly by significantly limiting the use of personal information and sensitive information that is used to train new Chat GPT models. Open AI has also retired its earlier Chat GPT models that were trained in a manner that contravened Canadian privacy laws.
+Current models powering Chat GPT were developed and deployed using the new safeguards, which has helped to improve their privacy practices by:
+• Limiting use of personal information: Open AI has implemented a filtering tool to detect and mask personal information (such as names or phone numbers) in publicly accessible internet data and licensed datasets used to train its models. The tool significantly reduces the amount of private and sensitive information used in training.
+• Improving accuracy: Open AI has introduced a new web search feature which, when activated, conducts real-time web searches and references specific web sources for the content output by Chat GPT , allowing users to verify information independently.
+• Improving access: Open AI has improved the auto-response email that users receive when they submit an access request, better explaining how different types of personal information can be accessed.
+• Facilitating corrections: Open AI leverages the web search feature to process correction requests, allowing the models to retrieve up-to-date publicly accessible information about an individual and use that information in its response.
+• Enhancing correction and deletion: Open AI has developed a technical solution to block specific personal details about a public figure from appearing in model outputs, ensuring that Chat GPT continues to provide access to relevant public information while respecting privacy rights.
+• Implementing retention policies: Open AI has implemented formal retention policies and schedules to govern the retention and deletion of personal information processed in connection with Chat GPT .
+Future improvements
+Open AI has also committed to implementing additional measures within specific timeframes to improve openness, access, retention, and children’s privacy:
+• [Concurrently with the publication of the Report of Findings] Open AI will publish more information explaining its privacy practices, including information about the sources of content used to train its models.
+• [Within three months of the issuance of the Report of Findings] Open AI will provide notice that chats may be reviewed and used to train models, and advise users not to share sensitive information, before the individual inputs their first user prompt in the signed-out Chat GPT web version.
+• [Within six months of the issuance of the Report of Findings] Open AI will make it easier to understand and use the data exports that it provides to users who request their personal information. They will also better explain the avenues available to users who want to challenge the completeness, accuracy, or nature of the information provided.
+• [Within six months of the issuance of the Report of Findings] Open AI will confirm to the offices that it has implemented strong protection for future datasets which are retired and used only as historical references so they are not used for active model development. The company will also regularly review whether these datasets should still be kept.
+• [Within six months of the issuance of the report of findings] Open AI will test protective measures for the minor family members of public figures, who are themselves not public figures, to ensure that the models refuse requests for their name or date of birth.
+Open AI will provide quarterly reports to the OPC and its provincial partners to demonstrate compliance with the above commitments until they have all been met.
+Key takeaways for organizations
+Organizations have a responsibility to ensure that products and services that are using AI comply with existing domestic – both federal and provincial – and international privacy legislation and regulation.
+The Principles for responsible, trustworthy and privacy-protective generative AI technologies can help support organizations in developing, providing or using generative AI in Canada.
+Further resources for organizations:
+• Joint statement on AI -generated imagery and the protection of privacy
+• AI , privacy, and your business
+Related links
+• News release: Joint investigation by Canadian privacy regulators into Open AI ’s Chat GPT leads to better protections for Canadians’ personal information
+• Overview of the joint investigation of Open AI , OpCo, LLC
+• Report of findings: Joint Investigation of Open AI OpCo, LLC by the Privacy Commissioner of Canada, the Commission d’accès à l’information du Québec, the Office of the Information and Privacy Commissioner for British Columbia, and the Office of the Information and Privacy Commissioner of Alberta
+Date modified:
+2026-05-06

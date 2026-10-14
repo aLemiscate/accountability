@@ -1,0 +1,75 @@
+The Independent
+Voice on AI
+• Orchestration
+• Infrastructure
+• Data
+• Security
+• Technology
+More
+Newsletters
+OpenAI’s new ‘Private Intelligence' targets a growing enterprise concern: who can see your AI data?
+Carl Franzen
+11:47 am, PT, September 29, 2026
+Credit: VentureBeat made with OpenAI ChatGPT-Images-2.5
+OpenAI is expanding its zero-data-retention infrastructure with a new umbrella initiative called Private Intelligence , pairing an enhanced privacy-preserving safety review system available now with a forthcoming confidential-computing architecture designed to make AI inference itself more private and verifiable.
+The announcement, unveiled at OpenAI’s DevDay 2026 , arrives as concerns about data leakage and intellectual-property exposure are becoming more concrete for enterprise AI customers.
+Recent reporting from The Information has shown companies including Palantir, Nvidia and Booz Allen Hamilton restricting or reconsidering their use of advanced models over fears that sensitive information could ultimately benefit the AI companies providing them.
+Separately, a controversy around OpenAI’s recent Navier-Stokes mathematics breakthrough raised similar questions among researchers about whether unpublished work entered into AI systems could somehow influence future models.
+OpenAI’s response is an architecture meant to draw a harder technical boundary between customers’ sensitive data and OpenAI itself.
+The company calls the broader effort Private Intelligence, and it encompasses Zero Data Retention with Private Safety Processing, or ZDR with PSP, and a preview of a second technology called Private Inference.
+OpenAI says the former allows automated safety reviews without letting its personnel access the underlying customer content. Private Inference, which OpenAI says is coming this fall, will combine confidential computing with strict, verifiable controls.
+That distinction appeared prominently in CEO Sam Altman’s DevDay presentation. A slide shown during the keynote divided Private Intelligence into two components: “ZDR with Private Safety Processing,” described as enhanced safety without storing customer content, and “Private Inference,” marked as in preview and described as confidential computing with verifiable controls during processing.
+For enterprises weighing increasingly capable AI models against the possibility of exposing proprietary code, research or customer information, that is becoming a strategically important tradeoff.
+OpenAI’s answer to the zero-retention versus safety problem
+OpenAI already offers Zero Data Retention, or ZDR, to eligible API customers . Under the standard policy, customer prompts and model responses are excluded from abuse-monitoring logs, and supported API calls are forced into non-stored behavior. OpenAI says business data is not used for training unless customers explicitly opt in.
+The complication is safety monitoring. As frontier models become capable of longer-running and more autonomous work, OpenAI argues that some abusive or dangerous behavior may only become visible when multiple interactions are considered together.
+When OpenAI previewed Private Safety Processing in August , it said existing ZDR-compatible safety checks largely evaluate individual interactions, limiting the company’s ability to recognize patterns across a broader sequence.
+Private Safety Processing is OpenAI’s attempt to preserve both capabilities. Under the new ZDR with Private Safety Processing architecture , customer content selected through a safety classifier or an approved sampling policy is encrypted and placed into storage controlled by the customer. OpenAI retains an index containing operational metadata and a reference to the stored record, rather than its own plaintext copy of the customer content.
+That storage can be an AWS S3 bucket, an Azure Blob container or Google Cloud Storage, and the system can use customer-managed Enterprise Key Management authorization.
+The encrypted content can subsequently be retrieved for automated review inside what OpenAI describes as a "hardware-attested safety runtime."
+That protected environment is designed to be the only workload capable of decrypting the records and prevents OpenAI personnel from seeing the underlying customer material.
+Only predefined safety signals and approved operational metadata are allowed to emerge from the environment in plaintext. More detailed results are encrypted again before leaving it.
+In other words, OpenAI is trying to separate the ability of its systems to evaluate whether something dangerous is happening from the ability of its employees to see what the customer is actually doing.
+OpenAI says material processed through PSP cannot be used for model training or provided to other OpenAI groups or partners.
+There is an important wrinkle in the phrase ‘zero data retention’
+The architecture also introduces a nuance enterprise security teams will want to understand. ZDR with PSP does not mean no encrypted copy of a prompt or response exists anywhere after inference.
+Instead, OpenAI’s PSP documentation says protected records are written to customer-controlled storage with a 30-day time-to-live so that the automated safety-review system can examine them. Customers must maintain the relevant storage, permissions and key authorization during that period.
+The distinction is one of control and accessibility . OpenAI says it does not keep its own copy of the protected content, its personnel cannot inspect the records, and the customer controls the storage environment and, where configured, key authorization.
+That is materially different from OpenAI retaining readable abuse-monitoring logs itself, but enterprises will likely need to account for the customer-side storage requirement when evaluating regulatory, legal and internal retention policies.
+The concern is no longer hypothetical
+OpenAI’s announcement lands amid a noticeable series of disputes over exactly what AI providers can learn from customer interactions.
+Earlier this month, OpenAI’s claim that its agents had solved the longstanding Navier-Stokes existence and smoothness problem ignited a debate over unpublished mathematical research.
+NYU mathematician Tristan Buckmaster and Anthropic researcher Levent Alpöge had been working on related problems while using several AI products, including OpenAI’s Codex.
+OpenAI later said it investigated whether Buckmaster’s Codex prompts could have influenced its result and concluded that his prompts from the two months preceding the announcement could not have affected the system, including through training.
+But the episode exposed a broader concern: even when companies promise not to directly inspect enterprise data, users may still want stronger proof that proprietary information entered into an AI system cannot leak into training, evaluation or competing research.
+The Financial Times described a related anxiety in scientific research as a potential “snoop-and-scoop” problem , pointing not only to the Navier-Stokes controversy but also to a computational biology case involving Anthropic in which a researcher questioned whether unpublished work used with an AI assistant could have influenced later AI-generated findings.
+The reporting noted that no direct evidence established such a transfer, but the disputes are forcing researchers to think more carefully about provenance and confidential AI-assisted work.
+Palantir, Nvidia and Booz Allen are already pushing back
+Similar concerns are emerging in the enterprise market.
+The Information reported this month that Palantir, Nvidia and Booz Allen Hamilton had begun restricting model use or seeking stronger contractual guarantees amid concerns that OpenAI or Anthropic could learn from proprietary customer information.
+The reporting said some enterprise buyers are demanding stronger ZDR guarantees or considering more isolated deployments. Microsoft has also been using those concerns as a competitive selling point for private AI infrastructure.
+The same report said OpenAI and Anthropic tell enterprise customers that, by default, they do not train models on the information covered by enterprise agreements unless customers opt in. But both companies still collect some forms of metadata, a distinction some corporate customers say remains insufficiently clear.
+Telecommunications operator C Spire, for example, maintains agreements with both OpenAI and Anthropic barring model training on its data while still permitting collection of technical usage data, according to The Information’s reporting . That illustrates how the line between customer content, metadata and model-improvement data can remain complicated even under enterprise contracts.
+Private Intelligence looks designed to reduce that trust gap
+Against that backdrop, Private Intelligence looks like more than a routine security feature.
+OpenAI itself said when previewing Private Safety Processing in August that customers had been asking for predictable protections as AI systems become more capable, particularly where safety requirements might otherwise force them to let an AI provider retain sensitive material.
+That makes the DevDay expansion timely. Contractual promises that a provider will not train on enterprise data remain important. But for companies handling source code, classified information, unpublished research, legal documents or other valuable intellectual property, technical enforcement can offer stronger reassurance than policy language alone .
+Private Safety Processing attempts to turn the promise into an architecture: customer-controlled storage, customer-managed authorization, hardware-attested review, automated rather than human inspection, and tightly limited information flowing back to OpenAI.
+Private Inference could push the concept further. OpenAI has so far disclosed comparatively little about that forthcoming system. The company says only that it will combine confidential computing with verifiable controls and arrive this fall.
+Important questions therefore remain unanswered, including which models and API endpoints will support it, whether it will cover ChatGPT Enterprise workloads as well as API inference, what trusted-execution hardware OpenAI will use, what customers will be able to independently attest or verify, and how much the service will cost.
+Those details will determine how meaningful the new privacy layer becomes in practice. But the broader direction is already clear. As frontier-model providers ask enterprises to entrust AI systems with increasingly sensitive work — not just summarizing documents, but writing proprietary code, operating internal systems, analyzing research and making decisions — customers are beginning to ask for something stronger than “trust us, we don’t train on your data.”
+With Private Intelligence, OpenAI is starting to answer that demand with “you don’t have to let us see it.”
+More
+• Press Releases
+• About Us
+• Contact Us
+• Advertise
+• Share a News Tip
+• Contribute
+• Cookie Policy
+• Privacy Policy
+• Terms of Service
+• Consent Preferences
+• Do Not Sell or Share My Personal Information
+• Limit the Use Of My Sensitive Personal Information
+© 2026 VentureBeat. All rights reserved.

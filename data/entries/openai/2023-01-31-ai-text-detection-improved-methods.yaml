@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [openai, jan-leike]
-venue: Launch post for the AI text classifier and posts on Twitter
+venue: Launch post for the AI text classifier and posts on Twitter/X
 quote: >-
   We’re developing a new tool to help distinguish between AI-written and
   human-written text. We’re releasing an initial version to collect feedback and
@@ -37,16 +37,16 @@ outcome:
     releasing it. OpenAI said it was taking a "deliberate approach."
 patterns: [principles-with-a-price]
 sources:
-  - title: OpenAI on X ("hope to share improved methods in the future")
-    publisher: X
+  - title: OpenAI on Twitter/X ("hope to share improved methods in the future")
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/1620484691462852609
     date: 2023-01-31
     type: primary
     archive: https://web.archive.org/web/20250725050638/https://x.com/openai/status/1620484691462852609
     snapshot: snapshots/2026-10-03-x.com-613c99f0
-  - title: Jan Leike on X ("Everyone has a right to know whether they are
+  - title: Jan Leike on Twitter/X ("Everyone has a right to know whether they are
       interacting with a human or AI")
-    publisher: X
+    publisher: Twitter/X
     url: https://x.com/janleike/status/1620484806281940993
     date: 2023-01-31
     type: primary

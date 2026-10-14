@@ -1,0 +1,63 @@
+title: OpenAI previews "Private Inference," confidential computing for its
+  models, and says it is coming this fall
+date: 2026-09-29
+org: openai
+type: said
+kind: commitment
+who: [openai, sam-altman]
+venue: DevDay 2026 keynote
+quote: >-
+  [Zero Data Retention] with private safety processing delivers frontier model
+  safety without storing your content on our servers at all, and with private
+  inference, we can even provide privacy at the time of inference … Together, we
+  think these set a new standard for privacy and frontier AI.
+summary: >-
+  Altman announced "Private Intelligence," an umbrella for two things. Zero Data
+  Retention with Private Safety Processing, available now, runs OpenAI's safety
+  review without its staff seeing customer content: content picked out by a
+  safety classifier or a sampling policy is encrypted and kept for 30 days in
+  storage the customer controls, and OpenAI keeps an index pointing to it.
+  Private Inference, marked "in preview" on the keynote slide, is to apply
+  confidential computing with verifiable controls to the model's processing
+  itself; OpenAI said it was coming this fall and disclosed little else about
+  it. Since April, OpenAI's data-controls page has reserved the right to make
+  models ineligible for zero data retention for specific customers.
+concreteness: measurable
+status: open
+last_checked: 2026-10-14
+due: '2026-12'
+breaks_if: >-
+  Private Inference is not available to customers beyond a preview by the end of
+  December 2026, or launches without the verifiable controls OpenAI described.
+patterns: [coming-weeks]
+related: [2026-09-01-enterprise-frontier-safeguards-this-fall]
+sources:
+  - title: 'OpenAI DevDay recap: AI lab rolls out Dots agents, Altman and Friar
+      comment on IPO'
+    publisher: CNBC
+    url: https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html
+    date: 2026-09-29
+    type: reporting
+    snapshot: snapshots/2026-10-14-cnbc.com-3c17fe5b
+  - title: "OpenAI’s new ‘Private Intelligence' targets a growing enterprise
+      concern: who can see your AI data?"
+    publisher: VentureBeat
+    url: https://venturebeat.com/ai/openais-new-private-intelligence-targets-a-growing-enterprise-concern-who-can-see-your-ai-data/
+    date: 2026-09-29
+    type: reporting
+    snapshot: snapshots/2026-10-14-venturebeat.com-bb265649
+  - title: Data controls in the OpenAI platform
+    publisher: OpenAI
+    url: https://developers.openai.com/api/docs/guides/your-data
+    date: 2026-10-03
+    type: primary
+    snapshot: snapshots/2026-10-03-developers.openai.com-2aca780a
+note: >-
+  Recorded alongside Anthropic's Enterprise Frontier Safeguards, which it promised
+  for later this fall. Anthropic has required 30-day retention for its most
+  capable models since June; OpenAI reserved the right in April to drop zero
+  retention for specific customers. Both now promise privacy that keeps misuse
+  monitoring, and in both designs the data used for monitoring is still kept, in
+  storage the customer controls; as VentureBeat put it, customers will need to
+  account for that "customer-side storage requirement." Fall ends Dec. 21; the
+  due date allows to the end of December.

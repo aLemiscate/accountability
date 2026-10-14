@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: claim
 who: [openai, fidji-simo]
-venue: Launch thread on Twitter for Instant Checkout and the Agentic Commerce Protocol
+venue: Launch thread on Twitter/X for Instant Checkout and the Agentic Commerce Protocol
 quote: >-
   Instant Checkout is now rolling out to US ChatGPT Pro, Plus and Free logged-in
   users buying from US Etsy sellers, with over 1 million Shopify merchants
@@ -32,21 +32,21 @@ outcome:
     a Forrester analyst cited by CNBC.
 patterns: [coming-weeks]
 sources:
-  - title: OpenAI on X ("with over 1 million Shopify merchants coming soon")
-    publisher: X
+  - title: OpenAI on Twitter/X ("with over 1 million Shopify merchants coming soon")
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/1972708280951775597
     date: 2025-09-29
     type: primary
     snapshot: snapshots/2026-10-03-x.com-f3e366a7
-  - title: Fidji Simo on X ("expanding soon to over a million Shopify merchants")
-    publisher: X
+  - title: Fidji Simo on Twitter/X ("expanding soon to over a million Shopify merchants")
+    publisher: Twitter/X
     url: https://x.com/fidjissimo/status/1972707487238467914
     date: 2025-09-29
     type: primary
     archive: https://web.archive.org/web/20250929180542/https://x.com/fidjissimo/status/1972707487238467914
     snapshot: snapshots/2026-10-13-x.com-c08d5ca8
-  - title: OpenAI on X ("Instant Checkout is now rolling out for @Shopify merchants")
-    publisher: X
+  - title: OpenAI on Twitter/X ("Instant Checkout is now rolling out for @Shopify merchants")
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/1991646997322035520
     date: 2025-11-20
     type: primary

@@ -24,8 +24,8 @@ breaks_if: >-
   use "lawful" while OpenAI keeps the contract.
 patterns: [unfalsifiable]
 sources:
-  - title: Sam Altman on X (re-post of an internal memo on the amendments)
-    publisher: X
+  - title: Sam Altman on Twitter/X (re-post of an internal memo on the amendments)
+    publisher: Twitter/X
     url: https://x.com/sama/status/2028640354912923739
     date: 2026-03-02
     type: primary
@@ -38,8 +38,8 @@ sources:
     type: reporting
     archive: https://web.archive.org/web/20260929223118/https://www.cnbc.com/2026/03/03/openai-sam-altman-pentagon-deal-amended-surveillance-limits.html
     snapshot: snapshots/2026-09-29-cnbc.com-8ac92d09
-  - title: Jason Kwon on X ("date stamps")
-    publisher: X
+  - title: Jason Kwon on Twitter/X ("date stamps")
+    publisher: Twitter/X
     url: https://x.com/jasonkwon/status/2027948755467833366
     date: 2026-03-01
     type: primary
@@ -67,29 +67,29 @@ updates:
       avoidance of doubt," extends the prohibition to "the procurement or use of
       commercially acquired personal or identifiable information."
     sources:
-      - title: Boaz Barak on X ("our agreement does not permit it")
-        publisher: X
+      - title: Boaz Barak on Twitter/X ("our agreement does not permit it")
+        publisher: Twitter/X
         url: https://x.com/boazbaraktcs/status/2027932587788759293
         date: 2026-03-01
         type: primary
         archive: https://web.archive.org/web/20260305095022/https://x.com/boazbaraktcs/status/2027932587788759293
         snapshot: snapshots/2026-10-13-x.com-7bb946a8
-      - title: Boaz Barak on X ("more details … in the coming days")
-        publisher: X
+      - title: Boaz Barak on Twitter/X ("more details … in the coming days")
+        publisher: Twitter/X
         url: https://x.com/boazbaraktcs/status/2027937481207800058
         date: 2026-03-01
         type: primary
         archive: https://web.archive.org/web/20260305095236/https://x.com/boazbaraktcs/status/2027937481207800058
         snapshot: snapshots/2026-10-03-x.com-c97d863a
-      - title: Boaz Barak on X ("we mean what we say")
-        publisher: X
+      - title: Boaz Barak on Twitter/X ("we mean what we say")
+        publisher: Twitter/X
         url: https://x.com/boazbaraktcs/status/2027935104056586439
         date: 2026-03-01
         type: primary
         archive: https://web.archive.org/web/20260302161200/https://x.com/boazbaraktcs/status/2027935104056586439
         snapshot: snapshots/2026-10-13-x.com-79853ae6
-      - title: Sam Altman on X (re-post of an internal memo on the amendments)
-        publisher: X
+      - title: Sam Altman on Twitter/X (re-post of an internal memo on the amendments)
+        publisher: Twitter/X
         url: https://x.com/sama/status/2028640354912923739
         date: 2026-03-02
         type: primary
@@ -105,22 +105,22 @@ updates:
       good idea. I will talk to the team." By October 2026 this record had found
       no such policy published, and the contract text remains withheld.
     sources:
-      - title: Sam Altman on X ("we will walk away")
-        publisher: X
+      - title: Sam Altman on Twitter/X ("we will walk away")
+        publisher: Twitter/X
         url: https://x.com/sama/status/2027913483011170667
         date: 2026-03-01
         type: primary
         archive: https://web.archive.org/web/20260303134022/https://x.com/sama/status/2027913483011170667
         snapshot: snapshots/2026-10-03-x.com-505a7ddf
-      - title: Sam Altman on X ("this seems like a very good idea")
-        publisher: X
+      - title: Sam Altman on Twitter/X ("this seems like a very good idea")
+        publisher: Twitter/X
         url: https://x.com/sama/status/2027959788597072096
         date: 2026-03-01
         type: primary
         snapshot: snapshots/2026-10-03-x.com-24b15006
-      - title: Nesibe Kırış Can on X ("Will OpenAI commit to publishing every future red
+      - title: Nesibe Kırış Can on Twitter/X ("Will OpenAI commit to publishing every future red
           line change")
-        publisher: X
+        publisher: Twitter/X
         url: https://x.com/nesibekiris/status/2027917927572193346
         date: 2026-03-01
         type: primary
@@ -135,14 +135,14 @@ updates:
       intelligence agencies will be withheld so that there is time to address
       these loopholes through the democratic process before deployment."
     sources:
-      - title: Noam Brown on X ("will not be deploying to the NSA")
-        publisher: X
+      - title: Noam Brown on Twitter/X ("will not be deploying to the NSA")
+        publisher: Twitter/X
         url: https://x.com/polynoamial/status/2028643577165963465
         date: 2026-03-03
         type: primary
         snapshot: snapshots/2026-10-13-x.com-159b71fe
-      - title: Noam Brown on X ("does not allow NSA Title 50 work")
-        publisher: X
+      - title: Noam Brown on Twitter/X ("does not allow NSA Title 50 work")
+        publisher: Twitter/X
         url: https://x.com/polynoamial/status/2028124576337756358
         date: 2026-03-01
         type: primary
@@ -156,7 +156,7 @@ updates:
       this contract and any support to them will require a contract mod." Former
       OpenAI safety researcher Steven Adler replied that it came "with no
       contract language showing the Title 50 exclusion you had claimed to
-      exist." The same day she told a user on Twitter: "I do not agree that I'm
+      exist." The same day she told a user on Twitter/X: "I do not agree that I'm
       obligated to share contract language with you." Asked whether the contract
       allowed the Pentagon to collect and analyze commercially available data at
       scale, she replied that "the Pentagon has no legal authority to do this."
@@ -172,8 +172,8 @@ updates:
         date: 2026-03-08
         type: reporting
         snapshot: snapshots/2026-09-29-theintercept.com-1e0ad3e1
-      - title: Steven Adler on X ("promised … of how the NSA is excluded")
-        publisher: X
+      - title: Steven Adler on Twitter/X ("promised … of how the NSA is excluded")
+        publisher: Twitter/X
         url: https://x.com/sjgadler/status/2028899096283758732
         date: 2026-03-03
         type: primary

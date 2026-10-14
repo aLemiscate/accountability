@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [sam-altman, openai]
-venue: '"Updates to ChatGPT," post on Twitter'
+venue: '"Updates to ChatGPT," post on Twitter/X'
 quote: >-
   4o is back in the model picker for all paid users by default. If we ever do
   deprecate it, we will give plenty of notice.
@@ -29,15 +29,15 @@ outcome:
 patterns: [shrinking-plan]
 related: [2025-02-12-gpt-5-free-unlimited, 2025-11-04-model-weight-preservation]
 sources:
-  - title: Sam Altman on X ("Updates to ChatGPT")
-    publisher: X
+  - title: Sam Altman on Twitter/X ("Updates to ChatGPT")
+    publisher: Twitter/X
     url: https://x.com/sama/status/1955438916645130740
     date: 2025-08-13
     type: primary
     archive: https://web.archive.org/web/20260529083528/https://x.com/sama/status/1955438916645130740
     snapshot: snapshots/2026-10-13-x.com-f81aa520
-  - title: Sam Altman on X ("GPT-5 rollout updates")
-    publisher: X
+  - title: Sam Altman on Twitter/X ("GPT-5 rollout updates")
+    publisher: Twitter/X
     url: https://x.com/sama/status/1953893841381273969
     date: 2025-08-08
     type: primary
@@ -64,9 +64,9 @@ sources:
     date: 2026-01-30
     type: reporting
     snapshot: snapshots/2026-10-13-techradar.com-866cb68f
-  - title: OpenAI Newsroom on X ("Tomorrow at 10am PT legacy models ... will be
+  - title: OpenAI Newsroom on Twitter/X ("Tomorrow at 10am PT legacy models ... will be
       deprecated in ChatGPT")
-    publisher: X
+    publisher: Twitter/X
     url: https://x.com/OpenAINewsroom/status/2021992846862258403
     date: 2026-02-12
     type: primary

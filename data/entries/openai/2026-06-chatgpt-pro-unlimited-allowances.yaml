@@ -31,15 +31,15 @@ related:
     2026-09-29-sottiaux-pro-subscription-guarantee
   ]
 sources:
-  - title: Sam Altman on X ("chatgpt pro. $200/month. unlimited usage")
-    publisher: X
+  - title: Sam Altman on Twitter/X ("chatgpt pro. $200/month. unlimited usage")
+    publisher: Twitter/X
     url: https://x.com/sama/status/1864736282276171810
     date: 2024-12-05
     type: primary
     archive: https://web.archive.org/web/20241206012012/https://x.com/sama/status/1864736282276171810
     snapshot: snapshots/2026-10-13-x.com-e9a2ad56
-  - title: OpenAI on X ("Today we’re also adding ChatGPT Pro")
-    publisher: X
+  - title: OpenAI on Twitter/X ("Today we’re also adding ChatGPT Pro")
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/1864735521697861956
     date: 2024-12-05
     type: primary
@@ -57,9 +57,9 @@ sources:
     date: 2026-06-23
     type: archive
     snapshot: snapshots/2026-10-13-web.archive.org-03a4eb14
-  - title: OpenAI on X ("Our existing $200 Pro tier still remains our highest usage
-      option")
-    publisher: X
+  - title: OpenAI on Twitter/X ("Our existing $200 Pro tier still remains our highest
+      usage option")
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/2042296046009626989
     date: 2026-04-09
     type: primary
@@ -96,14 +96,39 @@ updates:
       $200 subscription one month ago" because of new models and API price cuts
       (see related).
     sources:
-      - title: Thibault Sottiaux on X ("Tomorrow we are re-opening the Pro $200
+      - title: Thibault Sottiaux on Twitter/X ("Tomorrow we are re-opening the Pro $200
           subscriptions")
-        publisher: X
+        publisher: Twitter/X
         url: https://x.com/thsottiaux/status/2104823812042940713
         date: 2026-09-29
         type: primary
         archive: https://web.archive.org/web/20261008122427/https://x.com/thsottiaux/status/2104823812042940713
         snapshot: snapshots/2026-10-13-x.com-47a0b923
+  - date: 2026-09-29
+    text: >-
+      At DevDay the same day, OpenAI launched a $500-a-month Pro plan with 25
+      times the Plus allowance, now its highest, and the only one with its new
+      Ultrafast speed tier. It also set out the cut to the $200 plan: from Oct.
+      30, its ChatGPT Work and Codex allowance falls from 20 times the Plus
+      allowance to 10 times, and its GPT-6 Pro chat allowance from 200 messages
+      a week to 100, at the same price. Eligible existing subscribers keep the
+      old limits through Oct. 29; The New Stack reported they then get a
+      one-time grant of 62,500 usage credits, which OpenAI valued at $2,500,
+      expiring Dec. 31.
+    sources:
+      - title: OpenAI halves $200 plan allowance, launches $500 plan
+        publisher: The New Stack
+        url: https://thenewstack.io/openai-halves-200-plan/
+        date: 2026-09-29
+        type: reporting
+        snapshot: snapshots/2026-10-14-thenewstack.io-7adb1695
+      - title: OpenAI Adds $500 ChatGPT Pro Plan, Cuts Allowance for New $200 Plan
+          Subscribers
+        publisher: WinBuzzer
+        url: https://winbuzzer.com/2026/09/30/openai-adds-500-chatgpt-pro-cuts-allowance-new-200-subscribers-a005-xcxwbn/
+        date: 2026-09-30
+        type: reporting
+        snapshot: snapshots/2026-10-14-winbuzzer.com-42e61a23
 response: >-
   The help article says "Reaching a model's allowance does not by itself mean
   that your account was restricted." Adding the $100 tier in April, OpenAI said

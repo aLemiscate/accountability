@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: policy
 who: [miles-brundage, steven-adler, openai]
-venue: Posts on Twitter by OpenAI policy staff at the DALL-E 2 launch
+venue: Posts on Twitter/X by OpenAI policy staff at the DALL-E 2 launch
 quote: >-
   Obviously not robust against serious misuse (we call it a signature, v
   watermark), so now we lean more on small/trusted user base.
@@ -32,15 +32,15 @@ outcome:
     possible.
 related: [2020-07-22-gpt-3-api-safety-review]
 sources:
-  - title: Miles Brundage on X ("now we lean more on small/trusted user base")
-    publisher: X
+  - title: Miles Brundage on Twitter/X ("now we lean more on small/trusted user base")
+    publisher: Twitter/X
     url: https://x.com/Miles_Brundage/status/1511840197687734276
     date: 2022-04-06
     type: primary
     snapshot: snapshots/2026-10-03-x.com-64a110e5
-  - title: Steven Adler on X ("we've made our model less-capable of repeating public
+  - title: Steven Adler on Twitter/X ("we've made our model less-capable of repeating public
       figures' faces")
-    publisher: X
+    publisher: Twitter/X
     url: https://x.com/sjgadler/status/1511855493983002625
     date: 2022-04-06
     type: primary

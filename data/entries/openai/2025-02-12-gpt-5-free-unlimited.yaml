@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [sam-altman, openai]
-venue: '"OpenAI roadmap update for GPT-4.5 and GPT-5," post on Twitter'
+venue: '"OpenAI roadmap update for GPT-4.5 and GPT-5," post on Twitter/X'
 quote: >-
   The free tier of ChatGPT will get unlimited chat access to GPT-5 at the
   standard intelligence setting (!!), subject to abuse thresholds.
@@ -31,15 +31,15 @@ related:
     2025-08-13-altman-4o-plenty-of-notice
   ]
 sources:
-  - title: Sam Altman on X ("OpenAI roadmap update for GPT-4.5 and GPT-5")
-    publisher: X
+  - title: Sam Altman on Twitter/X ("OpenAI roadmap update for GPT-4.5 and GPT-5")
+    publisher: Twitter/X
     url: https://x.com/sama/status/1889755723078443244
     date: 2025-02-12
     type: primary
     archive: https://web.archive.org/web/20261001091917/https://x.com/sama/status/1889755723078443244
     snapshot: snapshots/2026-10-13-x.com-45b15719
-  - title: Sam Altman on X ("change of plans")
-    publisher: X
+  - title: Sam Altman on Twitter/X ("change of plans")
+    publisher: Twitter/X
     url: https://x.com/sama/status/1908167621624856998
     date: 2025-04-04
     type: primary
@@ -74,8 +74,8 @@ sources:
     type: reporting
     archive: https://web.archive.org/web/20261003093314/https://techcrunch.com/2025/08/12/chatgpts-model-picker-is-back-and-its-complicated/
     snapshot: snapshots/2026-10-03-techcrunch.com-acf37b46
-  - title: Sam Altman on X ("Updates to ChatGPT")
-    publisher: X
+  - title: Sam Altman on Twitter/X ("Updates to ChatGPT")
+    publisher: Twitter/X
     url: https://x.com/sama/status/1955438916645130740
     date: 2025-08-13
     type: primary
