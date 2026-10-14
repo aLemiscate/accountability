@@ -1,0 +1,32 @@
+{
+  "url": "https://x.com/OpenAI/status/2096133504417616165",
+  "captured_at": "2026-10-13T15:09:03.072Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "e29fcb1588124bee964e188165f44a674b039cfa6eb2e0661a3f825f9a4a17b1",
+    "page.txt": "a4621ce33e54a22a70869a4bb169367335d71ec6a9ef50639d4fbffe89e75040",
+    "post.json": "4bdba450179fc9167d57412cf9712a468ec863e2630b7d0a9803f95ea1b7e70b",
+    "syndication.json": "e5e16990d5466ade06a65dce29b72b99a8cf8a112dc6e37a23e93e7081fd7b88",
+    "fulltext.json": "c39cc75c15a81a001da594b9935b4cbab4591cd12425e5e52ac65b878d1638c0",
+    "media-1.jpg": "0d15bb89b740924c5fb0405c6d9f07cadefe8066f2d3f6fb1c087a64286ca745",
+    "post.txt": "81855277c7e237d15c4993c50b4bb73995102e805caf99a00d44726408a0e3f9"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/2096133504417616165",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"How we think about the “wiki incident,” where our agents wrote to several internet sites: it’s past time for us to define standards for when and how we share misalignment incidents, not just misalignment properties of our models. Historically, we have treated misalignment largely as… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "September 5, 2026",
+    "posted_at": "2026-09-05T07:09:06.387Z",
+    "full_text_from": "api.fxtwitter.com",
+    "media": [
+      {
+        "file": "media-1.jpg",
+        "url": "https://pbs.twimg.com/media/HRb1iJXbsAADtBM.jpg"
+      }
+    ]
+  }
+}

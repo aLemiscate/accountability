@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/alexalbert__/status/1861464485011300839",
+  "captured_at": "2026-10-03T12:08:41.142Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "e81d080fa3a5a828e8512a1cebc8be7058c441c020f51e0e560d18662c6487e3",
+    "page.txt": "39af48e232a423e0d8b366523f3f513de7dcb1a1e57ac44285d782a36290a2b5",
+    "post.json": "76295d44cbac6bc63066657b93e7c832ab64a51e4710f481323bbf88ec3117ce",
+    "syndication.json": "28c21b97b329d41831160f8d715c50cf563af567284d7e33a9bc9c7ee17ee859",
+    "post.txt": "e4c2265221821a2fb93b382371a41d095ae92c9c6c7c38c4d20ba8de4dba9f1b"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/alexalbert__/status/1861464485011300839",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Alex Albert on X: \"It's only been a day since we've released MCP and folks are already starting to build tons of stuff on top of it. The future of MCP is truly going to be community-led and not controlled by any single entity. Here are some of the highlights I'm seeing from across the industry:\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Alex Albert (@alexalbert__)",
+    "date": "November 26, 2024",
+    "posted_at": "2024-11-26T17:38:12.221Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20250928173321/https://x.com/alexalbert__/status/1861464485011300839",
+    "timestamp": "20250928173321",
+    "method": "existing"
+  }
+}

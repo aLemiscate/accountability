@@ -1,0 +1,889 @@
+{
+ "id": "openai-o-series-limits",
+ "org": "openai",
+ "urls": [
+  "https://help.openai.com/en/articles/9824962-openai-o1-preview-and-o1-mini-usage-limits-on-chatgpt-and-the-api",
+  "https://help.openai.com/en/articles/9824962-openai-o1-and-o1-mini-usage-limits-on-chatgpt-and-the-api",
+  "https://help.openai.com/en/articles/9824962-openai-o1-o1-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api",
+  "https://help.openai.com/en/articles/9824962-openai-o3-o4-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api",
+  "https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api",
+  "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+  "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-preview-and-o1-mini-usage-limits-on-chatgpt-and-the-api",
+   "error": "could not read the live page"
+  }
+ ],
+ "captures": [
+  {
+   "ts": "20240913203630",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "2235548955cc9d68",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20240914012124",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "2235548955cc9d68",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20240917005353",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "2235548955cc9d68",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20240918155447",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-preview-and-o1-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "1caad4139c4c7df2",
+   "title": "OpenAI o1-preview and o1-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20240919182529",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "e6db3b2bdbe4355d",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20240930144933",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "e6db3b2bdbe4355d",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20241007014342",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-preview-and-o1-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "29c8e68a928e1412",
+   "title": "OpenAI o1-preview and o1-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20241008155102",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "e6db3b2bdbe4355d",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20241113184837",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "e6db3b2bdbe4355d",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20241119100339",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-preview-and-o1-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "ba06cb9359d49396",
+   "title": "OpenAI o1-preview and o1-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20241122070148",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-preview-and-o1-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "6130e4a90ceb679d",
+   "title": "OpenAI o1-preview and o1-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20241126230659",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "a056f5863639d166",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20241126230700",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-preview-and-o1-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "6130e4a90ceb679d",
+   "title": "OpenAI o1-preview and o1-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20241128005839",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-preview-and-o1-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "6130e4a90ceb679d",
+   "title": "OpenAI o1-preview and o1-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20241203014319",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-preview-and-o1-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "6130e4a90ceb679d",
+   "title": "OpenAI o1-preview and o1-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20241204165607",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "a056f5863639d166",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20241205232212",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "cd1bfcf950435fd3",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20241207030642",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-and-o1-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "b6d346be71843951",
+   "title": "OpenAI o1 and o1-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20241208093501",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "5469af9c9f94bd1f",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20241210002142",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-and-o1-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "714e7eb660cd2298",
+   "title": "OpenAI o1 and o1-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20241213232723",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-and-o1-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "e630f9e421dfd3b3",
+   "title": "OpenAI o1 and o1-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20241226185130",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "bf5b96d0caa47235",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250101033739",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "bf5b96d0caa47235",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250108185345",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "bf5b96d0caa47235",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250113172859",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "bf5b96d0caa47235",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250114190155",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-and-o1-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "e630f9e421dfd3b3",
+   "title": "OpenAI o1 and o1-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250122044958",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-and-o1-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "e630f9e421dfd3b3",
+   "title": "OpenAI o1 and o1-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250123204722",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-and-o1-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "e630f9e421dfd3b3",
+   "title": "OpenAI o1 and o1-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250126021826",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "bf5b96d0caa47235",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250128035351",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "bf5b96d0caa47235",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250129192132",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "bf5b96d0caa47235",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250129214401",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-and-o1-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "e630f9e421dfd3b3",
+   "title": "OpenAI o1 and o1-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250130231648",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "bf5b96d0caa47235",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250131212024",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "d5ac71a2384129ff",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250201041456",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-o1-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "b46eb1dcb9a5efac",
+   "title": "OpenAI o1, o1-mini, and o3-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250202144054",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "d5ac71a2384129ff",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250203025305",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "d5ac71a2384129ff",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250205220629",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "d5ac71a2384129ff",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250214093109",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "d5ac71a2384129ff",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250215164921",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "d5ac71a2384129ff",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250215235150",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-o1-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "73eee44513527752",
+   "title": "OpenAI o1, o1-mini, and o3-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250225130300",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-o1-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "73eee44513527752",
+   "title": "OpenAI o1, o1-mini, and o3-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250308000048",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-o1-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "73eee44513527752",
+   "title": "OpenAI o1, o1-mini, and o3-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250320033848",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-o1-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "73eee44513527752",
+   "title": "OpenAI o1, o1-mini, and o3-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250320033848",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "5c9acf8f8e2cbe6a",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250326052457",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "5c9acf8f8e2cbe6a",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250327173526",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "5c9acf8f8e2cbe6a",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250330001951",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-o1-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "73eee44513527752",
+   "title": "OpenAI o1, o1-mini, and o3-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250330002343",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "3ceaebad3513dca3",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250409080747",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "6fdcc7afd6ff728c",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250410055456",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "6fdcc7afd6ff728c",
+   "title": "Using OpenAI o1 models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250415132635",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-o1-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "73eee44513527752",
+   "title": "OpenAI o1, o1-mini, and o3-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250416194927",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-o4-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "56755830712f864a",
+   "title": "OpenAI o3, o4-mini, and o3-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250416195305",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "b89beee67ebe5b85",
+   "title": "Using OpenAI o-series models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250417193501",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "b89beee67ebe5b85",
+   "title": "Using OpenAI o-series models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250418070956",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "b89beee67ebe5b85",
+   "title": "Using OpenAI o-series models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250418071458",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-o4-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "958bb37dcedff613",
+   "title": "OpenAI o3, o4-mini, and o3-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250421174711",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-o4-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "958bb37dcedff613",
+   "title": "OpenAI o3, o4-mini, and o3-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250422181833",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "63062fefb5b8cfcf",
+   "title": "OpenAI o3 and o4-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250422222332",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "1053e7dd4605bb6d",
+   "title": "Using OpenAI o-series models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250425035841",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "f2d316f2b3fd7528",
+   "title": "OpenAI o3 and o4-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250426011046",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "72644b7b38ab3dc8",
+   "title": "Using OpenAI o-series models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250427030607",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "72644b7b38ab3dc8",
+   "title": "Using OpenAI o-series models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250428182149",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "c75aad9d2c33f2dd",
+   "title": "Using OpenAI o-series models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250501055438",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "c75aad9d2c33f2dd",
+   "title": "Using OpenAI o-series models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250507151054",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "c75aad9d2c33f2dd",
+   "title": "Using OpenAI o-series models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250507183835",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "0bc66e42b9a5ee2e",
+   "title": "OpenAI o3 and o4-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250510115551",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "41c9899a15be9db8",
+   "title": "Using OpenAI o-series models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250512124124",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "41c9899a15be9db8",
+   "title": "Using OpenAI o-series models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250516102725",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "ad223a658af02ebd",
+   "title": "OpenAI o3 and o4-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250519085553",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "ad223a658af02ebd",
+   "title": "OpenAI o3 and o4-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250519094022",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "ca5e89cacb14f55a",
+   "title": "Using OpenAI o-series models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250521060936",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "ad223a658af02ebd",
+   "title": "OpenAI o3 and o4-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250612134357",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "eafc89dec45af18b",
+   "title": "OpenAI o3 and o4-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250704135313",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "eafc89dec45af18b",
+   "title": "OpenAI o3 and o4-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250708125255",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "f264fa9aa04e0e2e",
+   "title": "Using OpenAI o-series models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250710233219",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "eafc89dec45af18b",
+   "title": "OpenAI o3 and o4-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250717040910",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt",
+   "sha": "84cfba9c7e8ca650",
+   "title": "Using OpenAI o-series models and GPT-4o models on ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250725123400",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-preview-and-o1-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "7cc9d1475052f28b",
+   "title": "OpenAI o3 and o4-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250730151433",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-o4-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "2a95716f1a5897ac",
+   "title": "OpenAI o3 and o4-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250815030519",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "2a95716f1a5897ac",
+   "title": "OpenAI o3 and o4-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250901060922",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-and-o1-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "0d30abe67d27d42e",
+   "title": "OpenAI o3 and o4-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250905225726",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-preview-and-o1-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "638fd2067aaf588d",
+   "title": "OpenAI o3 and o4-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250928031924",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-and-o1-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "7cc9d1475052f28b",
+   "title": "OpenAI o3 and o4-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20250928131106",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "98f5b3f3259a495a",
+   "title": "OpenAI o3 and o4-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20251207131441",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-and-o1-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "2a95716f1a5897ac",
+   "title": "OpenAI o3 and o4-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20251208193610",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-o4-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "2a95716f1a5897ac",
+   "title": "OpenAI o3 and o4-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20260116072152",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-preview-and-o1-mini-usage-limits-on-chatgpt-and-the-api/",
+   "sha": "2dc8d05af5f7d9b7",
+   "title": "OpenAI o3 and o4-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  },
+  {
+   "ts": "20260210044657",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api",
+   "sha": "08b8ebf679215638",
+   "title": "OpenAI o3 and o4-mini Usage Limits on ChatGPT and the API | OpenAI Help Center"
+  }
+ ],
+ "versions": [
+  {
+   "sha": "2235548955cc9d68",
+   "first": "20240913203630",
+   "last": "20240917005353",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "1caad4139c4c7df2",
+   "first": "20240918155447",
+   "last": "20240918155447",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-preview-and-o1-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "e6db3b2bdbe4355d",
+   "first": "20240919182529",
+   "last": "20240930144933",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "29c8e68a928e1412",
+   "first": "20241007014342",
+   "last": "20241007014342",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-preview-and-o1-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "e6db3b2bdbe4355d",
+   "first": "20241008155102",
+   "last": "20241113184837",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "ba06cb9359d49396",
+   "first": "20241119100339",
+   "last": "20241119100339",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-preview-and-o1-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "6130e4a90ceb679d",
+   "first": "20241122070148",
+   "last": "20241122070148",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-preview-and-o1-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "a056f5863639d166",
+   "first": "20241126230659",
+   "last": "20241126230659",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "6130e4a90ceb679d",
+   "first": "20241126230700",
+   "last": "20241203014319",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-preview-and-o1-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "a056f5863639d166",
+   "first": "20241204165607",
+   "last": "20241204165607",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "cd1bfcf950435fd3",
+   "first": "20241205232212",
+   "last": "20241205232212",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "b6d346be71843951",
+   "first": "20241207030642",
+   "last": "20241207030642",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-and-o1-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "5469af9c9f94bd1f",
+   "first": "20241208093501",
+   "last": "20241208093501",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "714e7eb660cd2298",
+   "first": "20241210002142",
+   "last": "20241210002142",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-and-o1-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "e630f9e421dfd3b3",
+   "first": "20241213232723",
+   "last": "20241213232723",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-and-o1-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "bf5b96d0caa47235",
+   "first": "20241226185130",
+   "last": "20250113172859",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "e630f9e421dfd3b3",
+   "first": "20250114190155",
+   "last": "20250123204722",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-and-o1-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "bf5b96d0caa47235",
+   "first": "20250126021826",
+   "last": "20250129192132",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "e630f9e421dfd3b3",
+   "first": "20250129214401",
+   "last": "20250129214401",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-and-o1-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "bf5b96d0caa47235",
+   "first": "20250130231648",
+   "last": "20250130231648",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "d5ac71a2384129ff",
+   "first": "20250131212024",
+   "last": "20250131212024",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "b46eb1dcb9a5efac",
+   "first": "20250201041456",
+   "last": "20250201041456",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-o1-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "d5ac71a2384129ff",
+   "first": "20250202144054",
+   "last": "20250215164921",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "73eee44513527752",
+   "first": "20250215235150",
+   "last": "20250320033848",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-o1-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "5c9acf8f8e2cbe6a",
+   "first": "20250320033848",
+   "last": "20250327173526",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "73eee44513527752",
+   "first": "20250330001951",
+   "last": "20250330001951",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-o1-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "3ceaebad3513dca3",
+   "first": "20250330002343",
+   "last": "20250330002343",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "6fdcc7afd6ff728c",
+   "first": "20250409080747",
+   "last": "20250410055456",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o1-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "73eee44513527752",
+   "first": "20250415132635",
+   "last": "20250415132635",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-o1-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "56755830712f864a",
+   "first": "20250416194927",
+   "last": "20250416194927",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-o4-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "b89beee67ebe5b85",
+   "first": "20250416195305",
+   "last": "20250418070956",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "958bb37dcedff613",
+   "first": "20250418071458",
+   "last": "20250421174711",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-o4-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "63062fefb5b8cfcf",
+   "first": "20250422181833",
+   "last": "20250422181833",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "1053e7dd4605bb6d",
+   "first": "20250422222332",
+   "last": "20250422222332",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "f2d316f2b3fd7528",
+   "first": "20250425035841",
+   "last": "20250425035841",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "72644b7b38ab3dc8",
+   "first": "20250426011046",
+   "last": "20250427030607",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "c75aad9d2c33f2dd",
+   "first": "20250428182149",
+   "last": "20250507151054",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "0bc66e42b9a5ee2e",
+   "first": "20250507183835",
+   "last": "20250507183835",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "41c9899a15be9db8",
+   "first": "20250510115551",
+   "last": "20250512124124",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "ad223a658af02ebd",
+   "first": "20250516102725",
+   "last": "20250519085553",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "ca5e89cacb14f55a",
+   "first": "20250519094022",
+   "last": "20250519094022",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "ad223a658af02ebd",
+   "first": "20250521060936",
+   "last": "20250521060936",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "eafc89dec45af18b",
+   "first": "20250612134357",
+   "last": "20250704135313",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "f264fa9aa04e0e2e",
+   "first": "20250708125255",
+   "last": "20250708125255",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "eafc89dec45af18b",
+   "first": "20250710233219",
+   "last": "20250710233219",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "84cfba9c7e8ca650",
+   "first": "20250717040910",
+   "last": "20250717040910",
+   "url": "https://help.openai.com/en/articles/9824965-using-openai-o-series-models-and-gpt-4o-models-on-chatgpt"
+  },
+  {
+   "sha": "7cc9d1475052f28b",
+   "first": "20250725123400",
+   "last": "20250725123400",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-preview-and-o1-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "2a95716f1a5897ac",
+   "first": "20250730151433",
+   "last": "20250815030519",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-o4-mini-and-o3-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "0d30abe67d27d42e",
+   "first": "20250901060922",
+   "last": "20250901060922",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-and-o1-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "638fd2067aaf588d",
+   "first": "20250905225726",
+   "last": "20250905225726",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-preview-and-o1-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "7cc9d1475052f28b",
+   "first": "20250928031924",
+   "last": "20250928031924",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-and-o1-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "98f5b3f3259a495a",
+   "first": "20250928131106",
+   "last": "20250928131106",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "2a95716f1a5897ac",
+   "first": "20251207131441",
+   "last": "20251208193610",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-and-o1-mini-usage-limits-on-chatgpt-and-the-api"
+  },
+  {
+   "sha": "2dc8d05af5f7d9b7",
+   "first": "20260116072152",
+   "last": "20260116072152",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o1-preview-and-o1-mini-usage-limits-on-chatgpt-and-the-api/"
+  },
+  {
+   "sha": "08b8ebf679215638",
+   "first": "20260210044657",
+   "last": "20260210044657",
+   "url": "https://help.openai.com/en/articles/9824962-openai-o3-and-o4-mini-usage-limits-on-chatgpt-and-the-api"
+  }
+ ],
+ "complete": true
+}

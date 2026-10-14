@@ -1,0 +1,97 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 179,
+  "in_reply_to_screen_name": "RyanMorey",
+  "in_reply_to_status_id_str": "2040207976565207544",
+  "in_reply_to_user_id_str": "100067632",
+  "lang": "en",
+  "created_at": "2026-04-03T23:44:00.000Z",
+  "display_text_range": [
+    11,
+    78
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "100067632",
+        "indices": [
+          0,
+          10
+        ],
+        "name": "Ryan Morey",
+        "screen_name": "RyanMorey"
+      }
+    ]
+  },
+  "id_str": "2040213760070275281",
+  "text": "@RyanMorey Right, it wasn't allowed. We're now being more explicit about that.",
+  "user": {
+    "id_str": "159337660",
+    "name": "Boris Cherny",
+    "screen_name": "bcherny",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1902044548936953856/J2jeik0t_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2040213760070275281"
+    ],
+    "editable_until_msecs": "1775263440000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 5,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 71,
+    "in_reply_to_screen_name": "bcherny",
+    "in_reply_to_status_id_str": "2040206440556826908",
+    "in_reply_to_user_id_str": "159337660",
+    "lang": "en",
+    "reply_count": 7,
+    "retweet_count": 0,
+    "created_at": "2026-04-03T23:21:01.000Z",
+    "display_text_range": [
+      9,
+      92
+    ],
+    "entities": {
+      "user_mentions": [
+        {
+          "id_str": "159337660",
+          "indices": [
+            0,
+            8
+          ],
+          "name": "Boris Cherny",
+          "screen_name": "bcherny"
+        }
+      ]
+    },
+    "id_str": "2040207976565207544",
+    "text": "@bcherny Wait I thought we already couldn’t do this and that’s why I stopped using OpenClaw…",
+    "user": {
+      "id_str": "100067632",
+      "name": "Ryan Morey",
+      "screen_name": "RyanMorey",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1797252626385350657/ouABnhUx_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2040207976565207544"
+      ],
+      "editable_until_msecs": "1775262061000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

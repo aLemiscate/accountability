@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/bcherny/status/2047375800945783056",
+  "captured_at": "2026-10-03T12:42:00.821Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "e7db13fa7b733852d11f3f3004f216a387ab5e4bc0ca270b47c44f0dc4d3a955",
+    "page.txt": "ac2b446c0d5a7767e9ba582b9668fc74201af5d15cddf7b09183ca2f2784f6b5",
+    "post.json": "04bd923f4d5743b5d901882fa2441284438f51339f11953a85ce67a8b1615bf9",
+    "syndication.json": "9c8c46ef0a51bdc2acbd20e37049119e32581029f91fc7277681182b3ea12f19",
+    "post.txt": "deb8640f7ac30a4932e2a37492729feab80792677e594a48f16fa72c2c1b2dee"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/bcherny/status/2047375800945783056",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Boris Cherny on X: \"We’ve been looking into recent reports around Claude Code quality issues, and just published a post-mortem on what we found.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Boris Cherny (@bcherny)",
+    "date": "April 23, 2026",
+    "posted_at": "2026-04-23T18:03:24.005Z"
+  },
+  "rendered_status": 403,
+  "archive": null
+}

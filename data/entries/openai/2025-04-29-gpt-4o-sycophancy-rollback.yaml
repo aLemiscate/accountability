@@ -98,6 +98,11 @@ updates:
         date: 2025-11-24
         type: analysis
         snapshot: snapshots/2026-09-30-stevenadler.substack.com-b477a1fa
+response: >-
+  OpenAI rolled the update back four days after launch and published two
+  post-mortems. The second said "this was the wrong call" and that "We need to
+  treat model behavior issues as launch-blocking like we do other safety
+  risks" (see related).
 note: >-
   The metrics said ship, and the people paid to notice problems said something
   was off. OpenAI went with the metrics and said so afterwards, which is to its

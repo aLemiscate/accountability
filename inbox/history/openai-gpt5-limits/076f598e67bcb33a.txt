@@ -1,0 +1,88 @@
+GPT-5.5 in ChatGPT | OpenAI Help Center
+• All Collections
+• ChatGPT
+• GPT-5.5 in ChatGPT
+GPT-5.5 in ChatGPT
+Updated: 6 days ago
+GPT-5.5 Instant in ChatGPT is the default for all logged-in users, and a single auto-switching system that brings together the best of our models into a smart, fast single experience.
+• Instant is a fast and powerful workhorse for everyday work and learning. It improves info-seeking questions, how-tos and walk-throughs, technical writing, and translation, while keeping a warmer, more conversational tone.
+• Thinking can think more effectively and efficiently on hard tasks and does a better job keeping track of what it has already done. It may show a short preamble before reasoning starts, and you can add instructions while it is thinking to adjust direction before the final answer is complete. Outputs are also more streamlined, with cleaner formatting and less unnecessary header text.
+Pro is the highest-capability GPT-5.5 option in ChatGPT for the hardest tasks and long-running workflows.
+How it works
+When you select Instant, ChatGPT can automatically use more reasoning for complex requests. In the simplified picker, this appears as Instant switching to Medium. Select Configure in the model picker to turn automatic switching on or off.
+When GPT-5.5 Thinking or GPT-5.5 Pro starts reasoning, it may begin with a short preamble explaining what it plans to do. You can add instructions while the model is still thinking to steer the response before it finishes.
+When you manually choose Medium, High, or Extra High, ChatGPT shows a Thinking trace even for short reasoning sequences. When Instant automatically switches to Medium, ChatGPT may not show a Thinking trace if the reasoning is brief.
+Choose a speed and reasoning level
+• Instant — Fast responses for everyday questions, powered by GPT-5.5 Instant.
+• Medium — Standard reasoning with GPT-5.5 Thinking. This was previously Thinking Standard.
+• High — Extended reasoning with GPT-5.5 Thinking. This was previously Thinking Extended.
+• Extra High — The highest reasoning effort with GPT-5.5 Thinking. This was previously Thinking Heavy.
+• Pro Standard — GPT-5.5 Pro with standard reasoning effort.
+• Pro Extended — GPT-5.5 Pro with extended reasoning effort.
+Thinking Light is no longer available.
+Extra High, Pro Standard, and Pro Extended are available on the Pro plan and in Business, Enterprise, and Edu workspaces. In Enterprise and Edu, visibility follows workspace access settings.
+On iOS and Android, the picker appears at the top of the conversation. On web, it appears in the message composer.
+Availability per ChatGPT tier
+GPT-5.5 is available across ChatGPT tiers. Paid plans have access to the model picker, with available options determined by the plan and, for managed workspaces, workspace access settings.
+Plus users can choose Instant, Medium, and High. Pro users can also choose Extra High, Pro Standard, and Pro Extended. Business, Enterprise, and Edu workspaces have access to the same reasoning and Pro options supported by their plan; Enterprise and Edu admins can control access through workspace settings.
+Usage limits
+Free
+Free-tier users have limited GPT-5.5 access within a 5-hour window. Those limits can be dynamic and may vary based on factors that include market, system conditions, abuse-prevention guardrails, and individual usage.
+Plus and Go
+ChatGPT Plus and ChatGPT Go users can send up to 160 messages with GPT-5.5 every 3 hours. After reaching this limit, chats will switch to the mini version of the model until the limit resets.
+Thinking usage
+Manually choosing Medium, High, or Extra High uses GPT-5.5 Thinking. Automatic switching from Instant to Medium does not count toward manual Thinking usage limits.
+If you are on a Go plan, select + in the chat entry box, then select Thinking . Go users can send up to 10 messages every 5 hours after enabling Thinking.
+For Business, Enterprise, and Edu workspaces, usage is calculated from the underlying model rather than the picker label. See the plan-specific Models & Limits article or the ChatGPT Rate Card for current limits and credit rates.
+Business and Pro
+ChatGPT Business and Pro include access to GPT-5 models.
+On ChatGPT Pro, some models have separate usage allowances. When you reach a model's allowance, that model may be temporarily unavailable until the allowance resets. ChatGPT displays the reset time when available. Reaching a model's allowance does not by itself mean that your account was restricted. You can use another available model or wait until the displayed reset time.
+For more information about ChatGPT Pro usage allowances, see: About ChatGPT Pro tiers .
+Usage must also adhere to our Terms of Use , which prohibits, among other things:
+• Abusive usage, such as automatically or programmatically extracting data.
+• Sharing your account credentials or making your account available to anyone else.
+• Reselling access or using ChatGPT to power third-party services.
+OpenAI uses guardrails to help prevent misuse. These guardrails may occasionally result in a temporary usage restriction. ChatGPT will notify you if this happens. If you believe a restriction was applied by mistake, contact OpenAI Support. If OpenAI does not find policy-violating behavior, access will be restored.
+Context windows
+Instant (GPT‑5.5 Instant)
+• Free: 16K
+• Plus / Business: 32K
+• Pro / Enterprise: 128K
+Thinking (GPT‑5.5 Thinking)
+• Pro tier: 400k (272k input + 128k max output)
+• All paid tiers: 256K (128k input + 128k max output)
+Please note that this only applies when you manually select Thinking.
+Tools support in ChatGPT
+GPT-5.5 Thinking supports every tool available in ChatGPT. GPT-5.5 Instant supports current ChatGPT tools except Canvas. If you need to create or edit work in Canvas, select GPT-5.5 Thinking instead. This includes:
+• Web search
+• Data analysis
+• Image analysis
+• File analysis
+• Image generation
+• Memory
+• Custom Instructions
+Legacy models, GPT‑5, and old conversations
+By default, all users have access to GPT-5.5 models. As of February 13, 2026, ChatGPT retired GPT-5 (Instant and Thinking) as previously announced . Because older chats now run on GPT-5.5 equivalents, outputs may differ when you continue them.GPT-5.2 Thinking will remain available in Legacy Models for 90 days after the launch of GPT-5.5 Thinking for Plus and Pro users.
+Legacy models in Enterprise and Edu
+For the current list of legacy models available in Enterprise and Edu workspaces, please refer to our article: Legacy Model Access for Enterprise and Edu
+Editing messages and retrying responses
+You can edit any of your messages and retry any ChatGPT response in a conversation. To edit a message:
+• On web, hover over the message you want to edit and click the pencil icon.
+• On mobile, press and hold the message you want to edit, then tap Edit Message .
+To retry a response:
+• On web, click the retry icon under the ChatGPT response you want to regenerate, then select Try again .
+• On mobile, tap ⋯ under the ChatGPT response you want to retry, then tap Retry .
+To continue from an earlier point in the conversation:
+• Find the ChatGPT response closest to where you want to pick up.
+• Select ⋯ under that response.
+• Select Branch in a new chat .
+Branch in a new chat opens a new chat that continues from that point in the conversation.
+Tone and personalization
+ChatGPT includes updated controls for tone and style:
+• ChatGPT now has refined personality presets such as Default , Friendly (formerly Listener), Efficient (formerly Robot), Professional , Candid , and Quirky , with Cynical and Nerdy available under Personalization settings. Learn more about customizing your ChatGPT personality.
+• Controls under Personalization let you adjust how concise, warm, or scannable responses are, and how frequently emojis are used.
+• Changes you make in Personalization apply across all chats immediately, including ongoing conversations. These personalization options are rolling out gradually and will continue to improve over time.
+• GPT-5.5 is also better at following Custom Instructions, giving you more precise control over tone and behavior
+Was this article helpful?
+Submit
+ChatGPT API Service Status Cookie Preferences

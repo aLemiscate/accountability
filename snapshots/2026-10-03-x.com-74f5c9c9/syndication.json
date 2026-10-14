@@ -1,0 +1,81 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 1388,
+  "lang": "en",
+  "created_at": "2025-12-09T17:05:33.000Z",
+  "display_text_range": [
+    0,
+    96
+  ],
+  "entities": {},
+  "id_str": "1998438884007620671",
+  "text": "Huge step for MCP. \n\nIt's always insane to remember that MCP has been around for only ~one year.",
+  "user": {
+    "id_str": "1380719534970040322",
+    "name": "Alex Albert",
+    "screen_name": "alexalbert__",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1856486626072915968/JEQpB9CW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1998438884007620671"
+    ],
+    "editable_until_msecs": "1765303533000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 32,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 5716,
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 251,
+    "retweet_count": 775,
+    "created_at": "2025-12-09T17:01:44.000Z",
+    "display_text_range": [
+      0,
+      275
+    ],
+    "entities": {
+      "urls": [
+        {
+          "display_url": "anthropic.com/news/donating-…",
+          "expanded_url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
+          "indices": [
+            252,
+            275
+          ],
+          "url": "https://t.co/718OwwyFJL"
+        }
+      ]
+    },
+    "id_str": "1998437922849350141",
+    "text": "Anthropic is donating the Model Context Protocol to the Agentic AI Foundation, a directed fund under the Linux Foundation.\n\nIn one year, MCP has become a foundational protocol for agentic AI. Joining AAIF ensures MCP remains open and community-driven. https://t.co/718OwwyFJL",
+    "user": {
+      "id_str": "1353836358901501952",
+      "name": "Anthropic",
+      "screen_name": "AnthropicAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1998437922849350141"
+      ],
+      "editable_until_msecs": "1765303304000",
+      "edits_remaining": "5",
+      "is_edit_eligible": true
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

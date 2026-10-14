@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: claim
 who: [openai]
-venue: ChatGPT agent system card and post on X
+venue: ChatGPT agent system card and post on Twitter
 quote: >-
   We have decided to treat this launch as High capability in the Biological and
   Chemical domain, activating the associated Preparedness safeguards.
@@ -19,6 +19,7 @@ summary: >-
   it flags.
 concreteness: measurable
 status: open
+last_checked: 2026-10-13
 breaks_if: >-
   Evidence that the High safeguards were not running on some route to the
   model, or that OpenAI lowered them for a High model without the process its
@@ -37,7 +38,7 @@ sources:
     url: https://x.com/OpenAI/status/1945904754443669659
     date: 2025-07-17
     type: primary
-    snapshot: snapshots/2026-09-30-x.com-29772ed4
+    snapshot: snapshots/2026-10-13-x.com-29772ed4
   - title: OpenAI's ChatGPT agent gets high risk capability level
     publisher: The Hill
     url: https://thehill.com/policy/technology/5413466-openai-upgrades-ai-safeguards/

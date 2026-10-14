@@ -1,0 +1,36 @@
+{
+  "url": "https://x.com/AnthropicAI/status/1604929999743508480",
+  "captured_at": "2026-10-13T05:32:45.157Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "369259852cf432d7c4e33683eb2a9075101d8f1abd9bb841b025b3d27354784b",
+    "page.txt": "6966172fdfc3ad135f5db9c18fae254136d527afe9fb4ddab33c8f125da666aa",
+    "post.json": "46153ee84f2cc60d39da55bb587a69fa01a257ddd9f46a6405c75d711dd52c9e",
+    "syndication.json": "80c17971925d8504bd0d9ea89cfd2b8c91120fc0982a2b7d49d129b1caedc52d",
+    "media-1.jpg": "892ce338203e2cc60604954b05270f009d6284f01ad4abbc6d5711499e0a485b",
+    "quoted-media-1.png": "b3ab7fd9212d8530ac454080b23da57a61e79198753031fa89588ca8cba0d595",
+    "post.txt": "b32c4060625e3b1c14ffd35a61ba5bb541dc8a5ddaf7950c63e74e04bb054544"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/AnthropicAI/status/1604929999743508480",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Anthropic on X: \"Given the growing interest in language model-based chat interfaces, we’re sharing our Constitutional AI feedback interface with a larger set of people. Sign up here: https://t.co/699NBBDBfU\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Anthropic (@AnthropicAI)",
+    "date": "December 19, 2022",
+    "posted_at": "2022-12-19T20:01:44.753Z",
+    "media": [
+      {
+        "file": "media-1.jpg",
+        "url": "https://pbs.twimg.com/media/FkXZWjHVUAA4kDz.jpg"
+      },
+      {
+        "file": "quoted-media-1.png",
+        "url": "https://pbs.twimg.com/media/FkHPdREVEAQ6NA0.png"
+      }
+    ]
+  },
+  "rendered_status": 403
+}

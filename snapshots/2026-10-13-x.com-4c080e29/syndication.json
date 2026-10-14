@@ -1,0 +1,82 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 1334,
+  "lang": "en",
+  "created_at": "2023-11-30T02:13:12.000Z",
+  "display_text_range": [
+    0,
+    279
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "4398626122",
+        "indices": [
+          79,
+          86
+        ],
+        "name": "OpenAI",
+        "screen_name": "OpenAI"
+      }
+    ]
+  },
+  "id_str": "1730047296375590995",
+  "text": "I am excited and honored to have just been named as an independent director of @OpenAI. I look forward to working with board colleagues and the OpenAI team to advance OpenAI’s extraordinarily important mission.\n\nFirst steps, as outlined by Bret and Sam in their messages, include",
+  "user": {
+    "id_str": "236526490",
+    "name": "Lawrence H. Summers",
+    "screen_name": "LHSummers",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1450129334203731974/Co1cN750_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1730047296375590995"
+    ],
+    "editable_until_msecs": "1701313992000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 93,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 1364,
+    "lang": "en",
+    "reply_count": 73,
+    "retweet_count": 99,
+    "created_at": "2023-11-30T01:07:31.000Z",
+    "display_text_range": [
+      0,
+      276
+    ],
+    "entities": {},
+    "id_str": "1730030765482938521",
+    "text": "Today as Board Chair I sent the attached letter on behalf of the Board to the OpenAI community. I am excited to be working with my board colleagues Adam and Larry, the OpenAI Leadership, and all OpenAI stakeholders. The Board's focus is stabilizing the company, building out a",
+    "user": {
+      "id_str": "7456262",
+      "name": "Bret Taylor",
+      "screen_name": "btaylor",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1782150890960658432/2qaPECed_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1730030765482938521"
+      ],
+      "editable_until_msecs": "1701310051000",
+      "edits_remaining": "5",
+      "is_edit_eligible": true
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoxNzMwMDQ3Mjk2Mjc5MDgwOTYw"
+  }
+}

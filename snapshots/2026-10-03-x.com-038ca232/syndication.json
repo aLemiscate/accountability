@@ -1,0 +1,79 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 5215,
+  "lang": "en",
+  "created_at": "2026-04-22T00:46:35.000Z",
+  "display_text_range": [
+    0,
+    32
+  ],
+  "entities": {},
+  "id_str": "2046752492093165708",
+  "text": "We want you to have a lot of AI!",
+  "user": {
+    "id_str": "1605",
+    "name": "Sam Altman",
+    "screen_name": "sama",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_normal.jpg",
+    "highlighted_label": {
+      "badge": {
+        "url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_bigger.jpg"
+      },
+      "description": "OpenAI",
+      "url": {
+        "url": "https://twitter.com/OpenAI",
+        "url_type": "DeepLink"
+      },
+      "user_label_display_type": "Badge",
+      "user_label_type": "BusinessLabel"
+    }
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2046752492093165708"
+    ],
+    "editable_until_msecs": "1776822395000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 557,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 11644,
+    "lang": "en",
+    "reply_count": 564,
+    "retweet_count": 658,
+    "created_at": "2026-04-21T23:59:58.000Z",
+    "display_text_range": [
+      0,
+      277
+    ],
+    "entities": {},
+    "id_str": "2046740759056162816",
+    "text": "I don't know what they are doing over there, but Codex will continue to be available both in the FREE and PLUS ($20) plans. We have the compute and efficient models to support it. For important changes, we will engage with the community well ahead of making them.\n\nTransparency",
+    "user": {
+      "id_str": "1953337039510003712",
+      "name": "Tibo",
+      "screen_name": "thsottiaux",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2046740759056162816"
+      ],
+      "editable_until_msecs": "1776819598000",
+      "edits_remaining": "5",
+      "is_edit_eligible": true
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

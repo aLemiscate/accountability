@@ -8,6 +8,7 @@ import YAML from 'yaml';
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const DATA = path.join(ROOT, 'data');
 export const ENTRIES = path.join(DATA, 'entries');
+export const COMMITMENTS = path.join(DATA, 'commitments');
 
 export const ORGS = ['openai', 'anthropic'];
 export const TYPES = ['said', 'did'];
@@ -18,12 +19,19 @@ export const KINDS = {
 export const STATUSES = ['open', 'kept', 'broken', 'reversed', 'eroded', 'contradicted'];
 export const CONCRETENESS = ['measurable', 'conditional', 'directional', 'aspirational'];
 export const SOURCE_TYPES = ['primary', 'reporting', 'analysis', 'archive'];
+const PATTERN_KEYS = new Set(['id', 'name', 'thesis', 'tells', 'watch_for', 'industry']);
+// Grades for one commitment in a formal document, for one company. "standing"
+// means it is still in force and nothing public shows it broken; "unknown"
+// means it can't be checked from outside.
+export const GRADES = ['kept', 'standing', 'eroded', 'broken', 'unknown'];
 
 const ENTRY_KEYS = new Set([
   'title', 'date', 'org', 'type', 'kind', 'who', 'venue', 'quote', 'summary',
   'concreteness', 'status', 'breaks_if', 'contradicts', 'related', 'patterns',
-  'sources', 'response', 'note', 'updates', 'revision',
+  'sources', 'response', 'note', 'updates', 'revision', 'last_checked', 'outcome',
 ]);
+// Statuses that mean a statement failed; each one should have a receipt.
+export const FAILED = ['broken', 'reversed', 'eroded', 'contradicted'];
 const SOURCE_KEYS = new Set(['title', 'publisher', 'url', 'date', 'type', 'archive', 'snapshot']);
 
 const DATE_RE = /^(\d{4})(?:-(\d{2})(?:-(\d{2}))?)?$/;
@@ -70,14 +78,19 @@ export async function loadAll() {
     const data = (await readYaml(file)) ?? {};
     entries.push({ id: path.basename(file).replace(/\.ya?ml$/, ''), file: path.relative(ROOT, file), ...data });
   }
-  return { site, patterns, actors, accounts: accounts ?? [], entries };
+  const commitments = [];
+  for (const file of await walk(COMMITMENTS).catch(() => [])) {
+    const data = (await readYaml(file)) ?? {};
+    commitments.push({ id: path.basename(file).replace(/\.ya?ml$/, ''), file: path.relative(ROOT, file), ...data });
+  }
+  return { site, patterns, actors, accounts: accounts ?? [], entries, commitments };
 }
 
 /**
  * Validate everything. Returns { errors, warnings, unarchived }, where
  * unarchived lists entries with no archived copy of any source yet.
  */
-export function validate({ patterns, actors, entries, accounts = [] }) {
+export function validate({ patterns, actors, entries, accounts = [], commitments = [] }) {
   const errors = [];
   const warnings = [];
   const unarchived = [];
@@ -102,6 +115,12 @@ export function validate({ patterns, actors, entries, accounts = [] }) {
     if (!actorIds.has(acc.actor)) errors.push(`accounts.yaml: unknown actor "${acc.actor}" (add it to data/actors.yaml)`);
     if (!acc.x && !acc.bluesky) errors.push(`accounts.yaml: ${acc.actor} needs an x or bluesky handle`);
     if (acc.sweep != null && typeof acc.sweep !== 'boolean') errors.push(`accounts.yaml: ${acc.actor} has sweep: ${acc.sweep} (use true or false)`);
+    if (acc.since != null && !/^\d{4}-\d{2}$/.test(String(acc.since))) errors.push(`accounts.yaml: ${acc.actor} has since: ${acc.since} (use YYYY-MM)`);
+    if (acc.tenure != null && (!Array.isArray(acc.tenure) || acc.tenure.some((r) => !/^\d{4}-\d{2}\.\.(\d{4}-\d{2})?$/.test(String(r))))) {
+      errors.push(`accounts.yaml: ${acc.actor} has a bad tenure (use a list of YYYY-MM..YYYY-MM ranges)`);
+    }
+    if (acc.speaks_for != null && typeof acc.speaks_for !== 'boolean') errors.push(`accounts.yaml: ${acc.actor} has speaks_for: ${acc.speaks_for} (use true or false)`);
+    if (acc.since != null && acc.tenure != null) errors.push(`accounts.yaml: ${acc.actor} has both since and tenure (use one)`);
     if (acc.match != null) {
       try {
         new RegExp(acc.match, 'i');
@@ -131,6 +150,23 @@ export function validate({ patterns, actors, entries, accounts = [] }) {
     if (s.archive && !/^https?:\/\//.test(s.archive)) err(e, `${where}: archive must be a URL`);
   };
 
+  // Industry context on a pattern: one sentence about another company, with a dated source.
+  for (const p of patterns) {
+    const pe = { id: `patterns.yaml: ${p.id ?? '?'}` };
+    for (const k of Object.keys(p)) if (!PATTERN_KEYS.has(k)) warn(pe, `unknown field "${k}"`);
+    if (p.industry === undefined) continue;
+    const ind = p.industry;
+    if (!ind || typeof ind !== 'object') { err(pe, 'industry must be a mapping with text and sources'); continue; }
+    for (const k of Object.keys(ind)) if (k !== 'text' && k !== 'sources') warn(pe, `unknown industry field "${k}"`);
+    if (typeof ind.text !== 'string' || !ind.text.trim()) err(pe, 'industry needs text');
+    if (!Array.isArray(ind.sources) || !ind.sources.length) err(pe, 'industry context needs at least one source');
+    (Array.isArray(ind.sources) ? ind.sources : []).forEach((s, j) => {
+      checkSource(pe, s, `industry.sources[${j}]`);
+      if (s && typeof s === 'object' && !s.date) err(pe, `industry.sources[${j}]: source needs a date`);
+      if (s && typeof s === 'object' && !s.publisher) err(pe, `industry.sources[${j}]: source needs a publisher`);
+    });
+  }
+
   for (const e of entries) {
     for (const k of Object.keys(e)) if (!ENTRY_KEYS.has(k) && k !== 'id' && k !== 'file') warn(e, `unknown field "${k}"`);
     if (!e.title) err(e, 'missing title');
@@ -156,9 +192,30 @@ export function validate({ patterns, actors, entries, accounts = [] }) {
       if (!STATUSES.includes(e.status)) err(e, `status must be one of ${STATUSES.join(', ')}`);
       if (!CONCRETENESS.includes(e.concreteness)) err(e, `concreteness must be one of ${CONCRETENESS.join(', ')}`);
       if (e.status === 'open' && !e.breaks_if) warn(e, 'open promises should say what would count as breaking them (breaks_if)');
+      if (e.status === 'open' && !e.last_checked) warn(e, 'open promises should say when they were last checked against the record (last_checked)');
+      if (e.last_checked !== undefined) {
+        const lc = parseDate(e.last_checked);
+        if (!lc || lc.precision !== 'day') err(e, `last_checked must be a full date, YYYY-MM-DD (got "${e.last_checked}")`);
+        else if (d && lc.time < d.time) err(e, 'last_checked is earlier than the entry date');
+        else if (lc.time > Date.now() + DAY) err(e, 'last_checked is in the future');
+      }
       if (e.contradicts?.length) err(e, '"contradicts" belongs on the "did" entry, pointing back at what was said');
+      if (e.outcome !== undefined) {
+        // What happened, for a failed statement with no separate "did" entry. The
+        // date may precede the statement when the company's own earlier record
+        // already contradicted it.
+        const o = e.outcome;
+        const od = parseDate(o?.date);
+        if (!o || typeof o !== 'object' || !o.text || !String(o.text).trim()) err(e, 'outcome needs text (what happened)');
+        if (!od) err(e, `outcome.date must be YYYY, YYYY-MM or YYYY-MM-DD (got "${o?.date}")`);
+        else if (od.time > Date.now() + DAY) err(e, 'outcome.date is in the future');
+        for (const k of Object.keys(o ?? {})) if (!['date', 'text'].includes(k)) err(e, `outcome has an unknown field "${k}"`);
+        if (!FAILED.includes(e.status)) warn(e, `outcome is shown as a receipt, but the status is "${e.status}"`);
+      }
     } else if (e.type === 'did') {
+      if (e.outcome !== undefined) err(e, 'outcome only applies to "said" entries');
       if (e.status || e.concreteness) warn(e, 'status/concreteness only apply to "said" entries');
+      if (e.last_checked) warn(e, 'last_checked only applies to "said" entries');
       for (const id of e.contradicts ?? []) {
         const target = byId.get(id);
         if (!target) err(e, `contradicts unknown entry "${id}"`);
@@ -181,13 +238,67 @@ export function validate({ patterns, actors, entries, accounts = [] }) {
     });
     if (e.revision && (!e.revision.before || !e.revision.after)) err(e, 'revision needs both before and after');
   }
+
+  // Every failed statement should show up in Receipts: through a "did" entry that
+  // contradicts it, or through its own dated outcome.
+  const contradictedIds = new Set(entries.filter((e) => e.type === 'did').flatMap((e) => e.contradicts ?? []));
+  for (const e of entries.filter((x) => x.type === 'said' && FAILED.includes(x.status))) {
+    if (!contradictedIds.has(e.id) && !e.outcome) warn(e, `is ${e.status} but has no receipt (add a "did" entry that contradicts it, or an outcome)`);
+    if (contradictedIds.has(e.id) && e.outcome) warn(e, 'has both an outcome and a "did" entry that contradicts it; the outcome would duplicate that receipt');
+  }
+
+  for (const doc of commitments) {
+    if (!doc.title) err(doc, 'missing title');
+    if (!parseDate(doc.date)) err(doc, `bad date "${doc.date}"`);
+    const parties = doc.parties ?? [];
+    if (!parties.length || parties.some((o) => !ORGS.includes(o))) err(doc, `parties must list orgs from ${ORGS.join(', ')}`);
+    if (!Array.isArray(doc.sources) || !doc.sources.length) err(doc, 'needs at least one source');
+    else doc.sources.forEach((s, i) => checkSource(doc, s, `sources[${i}]`));
+    for (const id of doc.entries ?? []) if (!byId.has(id)) err(doc, `unknown entry "${id}"`);
+    const seen = new Set();
+    (doc.commitments ?? []).forEach((c, i) => {
+      const where = `commitments[${i}] (${c.id ?? '?'})`;
+      if (!c.id) err(doc, `${where}: needs an id`);
+      else if (seen.has(c.id)) err(doc, `${where}: duplicate id`);
+      seen.add(c.id);
+      if (!c.text) err(doc, `${where}: needs the commitment's text`);
+      for (const org of Object.keys(c.grades ?? {})) if (!parties.includes(org)) err(doc, `${where}: graded for ${org}, which is not a party`);
+      for (const org of parties) {
+        const g = c.grades?.[org];
+        if (!g) { err(doc, `${where}: no grade for ${org}`); continue; }
+        if (!GRADES.includes(g.grade)) err(doc, `${where}: ${org} grade must be one of ${GRADES.join(', ')}`);
+        if (!g.evidence) err(doc, `${where}: ${org} grade needs evidence`);
+        for (const id of g.entries ?? []) if (!byId.has(id)) err(doc, `${where}: unknown entry "${id}"`);
+        (g.sources ?? []).forEach((s, j) => checkSource(doc, s, `${where}.${org}.sources[${j}]`));
+        // "standing" and "unknown" can rest on finding nothing; the others need evidence to point to.
+        if (['kept', 'eroded', 'broken'].includes(g.grade) && !(g.entries?.length || g.sources?.length)) warn(doc, `${where}: ${org} grade "${g.grade}" cites no entry or source`);
+      }
+    });
+    if (!(doc.commitments ?? []).length) err(doc, 'lists no commitments');
+  }
   return { errors, warnings, unarchived };
+}
+
+/** Tally commitment grades per document and company: { org: { total, kept, ...grades } }. */
+export function tallyCommitments(doc) {
+  const out = {};
+  for (const org of doc.parties ?? []) {
+    const t = { total: 0, ...Object.fromEntries(GRADES.map((g) => [g, 0])) };
+    for (const c of doc.commitments ?? []) {
+      const g = c.grades?.[org]?.grade;
+      if (!g) continue;
+      t.total += 1;
+      t[g] += 1;
+    }
+    out[org] = t;
+  }
+  return out;
 }
 
 const DAY = 86400000;
 
 /** Turn validated data into the shape the site consumes. */
-export function derive({ site, patterns, actors, entries }) {
+export function derive({ site, patterns, actors, entries, commitments = [] }) {
   const sorted = [...entries].sort((a, b) => parseDate(a.date).time - parseDate(b.date).time || a.id.localeCompare(b.id));
   const out = sorted.map((e, i) => {
     const { file, ...rest } = e;
@@ -203,6 +314,7 @@ export function derive({ site, patterns, actors, entries }) {
       contradicts: e.contradicts ?? [],
       related: e.related ?? [],
       contradicted_by: [],
+      ...(e.outcome ? { outcome: { ...e.outcome, date: String(e.outcome.date), time: parseDate(e.outcome.date).time, precision: parseDate(e.outcome.date).precision } } : {}),
     };
   });
   const byId = new Map(out.map((e) => [e.id, e]));
@@ -229,6 +341,9 @@ export function derive({ site, patterns, actors, entries }) {
     actors,
     entries: out,
     receipts,
+    commitments: [...commitments]
+      .sort((a, b) => parseDate(a.date).time - parseDate(b.date).time || a.id.localeCompare(b.id))
+      .map(({ file, ...doc }) => ({ ...doc, file, tally: tallyCommitments(doc) })),
     stats: {
       entries: out.length,
       said: said.length,
@@ -245,6 +360,8 @@ export function derive({ site, patterns, actors, entries }) {
 /** Normalize text for quote matching: case, curly quotes, dashes, invisible format characters (including the bidi marks some PDFs carry), whitespace. */
 export function normalizeForMatch(s) {
   return String(s)
+    // PDF text often keeps typographic ligatures ("ﬁ" for "fi"); NFKC splits them.
+    .normalize('NFKC')
     .toLowerCase()
     .replace(/[\u2018\u2019\u201b\u2032]/g, "'")
     .replace(/[\u201c\u201d\u201f\u2033]/g, '"')

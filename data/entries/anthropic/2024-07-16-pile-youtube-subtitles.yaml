@@ -1,0 +1,41 @@
+title: 'Proof News: Anthropic trained Claude on the Pile, which includes
+  subtitles from 173,536 YouTube videos taken despite YouTube''s rules'
+date: 2024-07-16
+org: anthropic
+type: did
+kind: action
+who: [anthropic]
+summary: >-
+  Proof News found that YouTube Subtitles, a dataset of the subtitles of 173,536
+  YouTube videos from more than 48,000 channels, is part of the Pile, a training
+  compilation released by the nonprofit EleutherAI. The subtitles were
+  downloaded with a script, although YouTube's terms prohibit accessing its
+  videos by "automated means," and none of the creators Proof News spoke to knew
+  their work had been taken. An Anthropic spokesperson confirmed that the Pile
+  was used in training Claude. Proof News found that Apple, Nvidia, Salesforce,
+  Bloomberg and Databricks had also trained models on the Pile.
+related: [2024-04-06-youtube-transcription, 2025-09-05-pirated-books-settlement]
+patterns: [take-first]
+sources:
+  - title: Apple, Nvidia, Anthropic Used Thousands of Swiped YouTube Videos to Train
+      AI
+    publisher: Proof News
+    url: https://www.proofnews.org/apple-nvidia-anthropic-used-thousands-of-swiped-youtube-videos-to-train-ai/
+    date: 2024-07-16
+    type: reporting
+    archive: https://web.archive.org/web/20261013100551/https://www.proofnews.org/apple-nvidia-anthropic-used-thousands-of-swiped-youtube-videos-to-train-ai/
+    snapshot: snapshots/2026-10-13-proofnews.org-c8bba37f
+response: >-
+  Confirming that the Pile was used for Claude, Anthropic spokesperson Jennifer
+  Martinez told Proof News that "The Pile includes a very small subset of
+  YouTube subtitles," and said: "YouTube’s terms cover direct use of its
+  platform, which is distinct from use of The Pile dataset. On the point about
+  potential violations of YouTube’s terms of service, we’d have to refer you to
+  The Pile authors."
+note: >-
+  This sits next to OpenAI's YouTube entry, but the two are not the same act.
+  The Times reported that OpenAI transcribed more than a million hours of
+  YouTube itself; Anthropic used a public dataset that someone else had built,
+  of which the YouTube subtitles are one part. Proof News said it could not
+  produce a full list of companies that used the dataset, because AI companies
+  rarely disclose their training data.

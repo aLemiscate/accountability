@@ -1,0 +1,165 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 1658,
+  "in_reply_to_screen_name": "OpenAI",
+  "in_reply_to_status_id_str": "1707077710047216095",
+  "in_reply_to_user_id_str": "4398626122",
+  "lang": "en",
+  "created_at": "2023-09-27T17:00:16.000Z",
+  "display_text_range": [
+    0,
+    193
+  ],
+  "entities": {},
+  "id_str": "1707077711192297502",
+  "text": "Since the original launch of browsing in May, we received useful feedback. Updates include following robots.txt and identifying user agents so sites can control how ChatGPT interacts with them.",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1707077711192297502"
+    ],
+    "editable_until_msecs": "1695837616000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 26,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 49518,
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 2443,
+    "retweet_count": 8771,
+    "created_at": "2023-09-27T17:00:16.000Z",
+    "display_text_range": [
+      0,
+      188
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/pyj8a9HWkB",
+          "expanded_url": "https://x.com/OpenAI/status/1707077710047216095/photo/1",
+          "indices": [
+            189,
+            212
+          ],
+          "url": "https://t.co/pyj8a9HWkB"
+        }
+      ]
+    },
+    "id_str": "1707077710047216095",
+    "text": "ChatGPT can now browse the internet to provide you with current and authoritative information, complete with direct links to sources. It is no longer limited to data before September 2021. https://t.co/pyj8a9HWkB",
+    "user": {
+      "id_str": "4398626122",
+      "name": "OpenAI",
+      "screen_name": "OpenAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1707077710047216095"
+      ],
+      "editable_until_msecs": "1695837616000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "mediaDetails": [
+      {
+        "display_url": "pic.x.com/pyj8a9HWkB",
+        "expanded_url": "https://x.com/OpenAI/status/1707077710047216095/photo/1",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          189,
+          212
+        ],
+        "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/F7C89jYaYAAqZ8X.jpg",
+        "original_info": {
+          "focus_rects": [],
+          "height": 714,
+          "width": 800
+        },
+        "sizes": {
+          "large": {
+            "h": 714,
+            "resize": "fit",
+            "w": 800
+          },
+          "medium": {
+            "h": 714,
+            "resize": "fit",
+            "w": 800
+          },
+          "small": {
+            "h": 607,
+            "resize": "fit",
+            "w": 680
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "animated_gif",
+        "url": "https://t.co/pyj8a9HWkB",
+        "video_info": {
+          "aspect_ratio": [
+            400,
+            357
+          ],
+          "variants": [
+            {
+              "bitrate": 0,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/tweet_video/F7C89jYaYAAqZ8X.mp4"
+            }
+          ]
+        }
+      }
+    ],
+    "photos": [],
+    "video": {
+      "aspectRatio": [
+        400,
+        357
+      ],
+      "contentType": "gif",
+      "durationMs": 0,
+      "mediaAvailability": {
+        "status": "available"
+      },
+      "poster": "https://pbs.twimg.com/tweet_video_thumb/F7C89jYaYAAqZ8X.jpg",
+      "variants": [
+        {
+          "type": "video/mp4",
+          "src": "https://video.twimg.com/tweet_video/F7C89jYaYAAqZ8X.mp4"
+        }
+      ],
+      "videoId": {
+        "type": "tweet",
+        "id": "1707077710047216095"
+      },
+      "viewCount": 0
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

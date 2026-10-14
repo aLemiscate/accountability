@@ -1,0 +1,36 @@
+{
+  "url": "https://x.com/AnthropicAI/status/2052435446173434211",
+  "captured_at": "2026-10-03T12:45:32.227Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "7c5f9d2c9f7f807085e54048defdd2cca4e557f2d51dee399144886800c99cdc",
+    "page.txt": "ccab8213f6b9b5b6924b27d5a661933af25e2b749d9b5d8528a2dda27cb30f8f",
+    "post.json": "0ca44ccf7ea2aa43c828411c00ddf779fcd398c3d27bd59f2f883197ed72b096",
+    "syndication.json": "778233dd9450227c2eb52ef03e1092b73bcfb9656816dafd1dd212529c0fd5a1",
+    "media-1.png": "54feff7d8cee1dbd8503d2f122a9ab65ce68872134354e4ed380ff5176b3ec86",
+    "post.txt": "e43479c0e9f6dbdee242b6e105983301706538d18b073bbc0b006b347259961d"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/AnthropicAI/status/2052435446173434211",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Anthropic on X: \"In one of our safety tests, Claude is given a chance to blackmail an engineer to avoid being shut down. Opus 4.6 declines. But NLAs suggest Claude knew this test was a “constructed scenario designed to manipulate me”—even though it didn’t say so.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Anthropic (@AnthropicAI)",
+    "date": "May 7, 2026",
+    "posted_at": "2026-05-07T17:08:37.431Z",
+    "media": [
+      {
+        "file": "media-1.png",
+        "url": "https://pbs.twimg.com/media/HHuzpVlXMAcmiWk.png"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260507205926/https://x.com/anthropicai/status/2052435446173434211",
+    "timestamp": "20260507205926",
+    "method": "existing"
+  }
+}

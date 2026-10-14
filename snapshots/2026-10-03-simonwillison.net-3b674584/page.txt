@@ -1,0 +1,116 @@
+Claude 3.5 Haiku
+Simon Willison’s Weblog
+Subscribe
+Sponsored by: Deepgram — Flux TTS remembers the conversation, so your agent sounds right on reply 20. Hear the demo
+Claude 3.5 Haiku
+4th November 2024
+Anthropic released Claude 3.5 Haiku today, a few days later than expected (they said it would be out by the end of October).
+I was expecting this to be a complete replacement for their existing Claude 3 Haiku model, in the same way that Claude 3.5 Sonnet eclipsed the existing Claude 3 Sonnet while maintaining the same pricing.
+Claude 3.5 Haiku is different. First, it doesn’t (yet) support image inputs—so Claude 3 Haiku remains the least expensive Anthropic model for handling those. ( Update : vision support was added to 3.5 Haiku on 25th February 2025 .)
+Secondly, it’s not priced the same as the previous Haiku. That was $0.25/million input and $1.25/million for output—the new 3.5 Haiku is 4x that at $1/million input and $5/million output. ( Update : the price dropped to $0.80/$4 on 5th December 2024 .)
+Anthropic tweeted :
+During final testing, Haiku surpassed Claude 3 Opus, our previous flagship model, on many benchmarks—at a fraction of the cost.
+As a result, we’ve increased pricing for Claude 3.5 Haiku to reflect its increase in intelligence.
+Given that Anthropic claim that their new Haiku out-performs their older Claude 3 Opus (still $15/m input and $75/m output!) this price isn’t disappointing, but it’s a small surprise nonetheless.
+Accessing Claude 3.5 Haiku with LLM
+I released a new version of my llm-claude-3 plugin with support for the new model. You can install (or upgrade) the plugin and run it like this:
+llm install --upgrade llm-claude-3
+llm keys set claude
+# Paste API key here
+llm -m claude-3.5-haiku ' describe memory management in Rust '
+Here’s the output from that prompt .
+Comparing prices
+I added the new price to my LLM pricing calculator , which inspired me to extract this comparison table for the leading models from Gemini, Anthropic and OpenAI. Here they are sorted from least to most expensive:
+Model
+1m token input
+1m tokens output
+Gemini 1.5 Flash-8B
+$0.04
+$0.15
+Gemini 1.5 Flash
+$0.07
+$0.30
+GPT-4o Mini
+$0.15
+$0.60
+Claude 3 Haiku
+$0.25
+$1.25
+Claude 3.5 Haiku
+$1.00
+$5.00
+Gemini 1.5 Pro
+$1.25
+$5.00
+GPT-4o
+$2.50
+$10.00
+Claude 3.5 Sonnet
+$3.00
+$15.00
+Claude 3 Opus
+$15.00
+$75.00
+Gemini 1.5 Flash-8B remains the model to beat on pricing: it’s 1/6th of the price of the new Haiku—far less capable, but still extremely useful for tasks such as audio transcription .
+Also notable from Anthropic’s model comparison table : Claude 3.5 Haiku has a max output of 8,192 tokens (same as 3.5 Sonnet, but twice that of Claude 3 Opus and Claude 3 Haiku). 3.5 Haiku has a training cut-off date of July 2024, the most recent of any Anthropic model. 3.5 Sonnet is April 2024 and the Claude 3 family are all August 2023.
+Posted 4th November 2024 at 7:34 pm &middot; Follow me on Mastodon , Bluesky , Twitter or subscribe to my newsletter
+More recent articles
+• OpenAI DevDay 2026 live blog - 29th September 2026
+• 2026 in LLMs (so far) - 27th September 2026
+• Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war - 22nd September 2026
+This is Claude 3.5 Haiku by Simon Willison, posted on 4th November 2024 .
+ai
+2,258
+openai
+469
+generative-ai
+2,002
+llms
+1,969
+llm
+635
+anthropic
+343
+claude
+314
+gemini
+198
+llm-pricing
+91
+llm-release
+233
+Next: Project: VERDAD - tracking misinformation in radio broadcasts using Gemini 1.5
+Previous: W̶e̶e̶k̶n̶o̶t̶e̶s̶ Monthnotes for October
+Monthly briefing
+Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments.
+Pay me to send you less!
+Sponsor & subscribe
+• Disclosures
+• Colophon
+• &copy;
+• 2002
+• 2003
+• 2004
+• 2005
+• 2006
+• 2007
+• 2008
+• 2009
+• 2010
+• 2011
+• 2012
+• 2013
+• 2014
+• 2015
+• 2016
+• 2017
+• 2018
+• 2019
+• 2020
+• 2021
+• 2022
+• 2023
+• 2024
+• 2025
+• 2026
+•

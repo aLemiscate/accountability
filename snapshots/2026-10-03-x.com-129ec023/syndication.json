@@ -1,0 +1,46 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 1431,
+  "lang": "en",
+  "created_at": "2025-12-02T18:17:26.000Z",
+  "display_text_range": [
+    0,
+    260
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "1545025796003139590",
+        "indices": [
+          23,
+          37
+        ],
+        "name": "Bun",
+        "screen_name": "bunjavascript"
+      }
+    ]
+  },
+  "id_str": "1995920258595749969",
+  "text": "Anthropic is acquiring @bunjavascript!\n\nBun will remain open source and MIT-licensed. We'll keep investing in making it the best runtime, bundler, package manager, and test runner for JS and TS developers, while building even better workflows into Claude Code.",
+  "user": {
+    "id_str": "12831",
+    "name": "Mike Krieger",
+    "screen_name": "mikeyk",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1600639584294969344/VOYWWHNN_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1995920258595749969"
+    ],
+    "editable_until_msecs": "1764703046000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 40,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

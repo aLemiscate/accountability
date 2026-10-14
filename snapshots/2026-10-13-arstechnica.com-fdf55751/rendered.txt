@@ -1,0 +1,43 @@
+WHO COULD HAVE DONE IT?
+xAI says an “unauthorized” prompt change caused Grok to focus on “white genocide”
+Meanwhile, Grok’s authorized prompt asks it to “provide truthful and based insights.”
+KYLE ORLAND – MAY 16, 2025 3:13 PM | 250
+Credit: Getty Images | NurPhoto
+On Wednesday, the world was a bit perplexed by the Grok LLM’s sudden insistence on turning practically every response toward the topic of alleged “white genocide” in South Africa. xAI now says that odd behavior was the result of “an unauthorized modification” to the Grok system prompt—the core set of directions for how the LLM should behave.
+That prompt modification “directed Grok to provide a specific response on a political topic” and “violated xAI’s internal policies and core values,” xAI wrote on social media. The code review process in place for such changes was “circumvented in this incident,” it continued, without providing further details on how such circumvention could occur.
+To prevent similar problems from happening in the future, xAI says it has now implemented “additional checks and measures to ensure that xAI employees can’t modify the prompt without review” as well as putting in place “a 24/7 monitoring team” to respond to any widespread issues with Grok’s responses.
+A particularly baffling response by Grok to a question about Max Scherzer from Wednesday. Credit: xAI / Grok
+The company’s public statement provides no information on which employee (or employees) were involved in the prompt change, nor how exactly they were able to get such unfettered (and initially unnoticed) access to Grok’s core behaviors. xAI owner Elon Musk has long been a public proponent of discredited theories regarding the killing of white farmers in South Africa and has publicly sold Grok as “maximally truth-seeking AI, even if that truth is sometimes at odds with what is politically correct.”
+xAI has not responded to a request for additional comment from Ars Technica.
+Just doing what you told me to
+To further “strengthen your trust in Grok as a truth-seeking AI,” xAI has also published Grok’s system prompt on Github for the first time, allowing the public to “review… and give feedback” on any future prompt changes.
+ARS VIDEO
+How The Callisto Protocol's Team Designed Its Terrifying, Immersive Audio
+Though versions of the Grok system prompt have leaked in the past, this first official look under the hood shows some interesting insights into the system’s inner workings. Grok is specifically pushed to “provide the shortest answer you can” unless otherwise instructed, for instance, which is perhaps fitting for an LLM running on a length-limited social network.
+When analyzing social media posts made by others, Grok is given the somewhat contradictory instructions to “provide truthful and based insights [emphasis added], challenging mainstream narratives if necessary, but remain objective.” Grok is also instructed to incorporate scientific studies and prioritize peer-reviewed data but also to “be critical of sources to avoid bias.”
+Grok’s brief “white genocide” obsession highlights just how easy it is to heavily twist an LLM’s “default” behavior with just a few core instructions. Conversational interfaces for LLMs in general are essentially a gnarly hack for systems intended to generate the next likely words to follow strings of input text. Layering a “helpful assistant” faux personality on top of that basic functionality, as most LLMs do in some form, can lead to all sorts of unexpected behaviors without careful additional prompting and design.
+The 2,000+ word system prompt for Anthropic’s Claude 3.7, for instance, includes entire paragraphs for how to handle specific situations like counting tasks, “obscure” knowledge topics, and “classic puzzles.” It also includes specific instructions for how to project its own self-image publicly: “Claude engages with questions about its own consciousness, experience, emotions and so on as open philosophical questions, without claiming certainty either way.”
+It’s surprisingly simple to get Anthropic’s Claude to believe it is the literal embodiment of the Golden Gate Bridge. Credit: Antrhopic
+Beyond the prompts, the weights assigned to various concepts inside an LLM’s neural network can also lead models down some odd blind alleys. Last year, for instance, Anthropic highlighted how forcing Claude to use artificially high weights for neurons associated with the Golden Gate Bridge could lead the model to respond with statements like “I am the Golden Gate Bridge… my physical form is the iconic bridge itself…”
+Incidents like Grok’s this week are a good reminder that, despite their compellingly human conversational interfaces, LLMs don’t really “think” or respond to instructions like humans do. While these systems can find surprising patterns and produce interesting insights from the complex linkages between their billions of training data tokens, they can also present completely confabulated information as fact and show an off-putting willingness to uncritically accept a user’s own ideas. Far from being all-knowing oracles, these systems can show biases in their actions that can be much harder to detect than Grok’s recent overt “white genocide” obsession.
+KYLE ORLAND SENIOR GAMING EDITOR
+Kyle Orland has been the Senior Gaming Editor at Ars Technica since 2012, writing primarily about the business, tech, and culture behind video games. He has journalism and computer science degrees from University of Maryland. He once wrote a whole book about Minesweeper.
+250 COMMENTS
+STAFF PICKS
+Jakelshark
+Idk how true this screenshot really is, but anyway...
+Worth noting the wording of "when responding to queries...." so the first thing in the instruction basically says "always include the following in a response". Which would really explain why it was going off on every random query asked. And for a double whammy, it also says "even if the query is unrelated"
+May 16, 2025 at 3:22 PM
+PREV STORY
+NEXT STORY
+MOST READ
+1.
+Russia was not ready for the data center war it started with Ukraine
+2.
+Amazon has over 1 million robot workers. What’s next for human employees?
+3.
+One with the world? A new look at brains transformed by psychedelics.
+4.
+Google announces the Fitbit Edge, a middle ground between Pixel Watch 5 and Fitbit Air
+5.
+Epic Games reportedly pivoting to "AI first" game development model

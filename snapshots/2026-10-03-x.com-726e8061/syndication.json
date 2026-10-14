@@ -1,0 +1,70 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 14422,
+  "lang": "en",
+  "created_at": "2026-08-23T06:11:36.000Z",
+  "display_text_range": [
+    0,
+    272
+  ],
+  "entities": {},
+  "id_str": "2091407991736332689",
+  "text": "Update on rate limits in Codex. \n\nWe’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Computer History (c) a feature that was meant to generate conversation titles that was draining a bit more usage than",
+  "user": {
+    "id_str": "1953337039510003712",
+    "name": "Tibo",
+    "screen_name": "thsottiaux",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2091407991736332689"
+    ],
+    "editable_until_msecs": "1787469096000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 1378,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 10166,
+    "lang": "en",
+    "reply_count": 1559,
+    "retweet_count": 355,
+    "created_at": "2026-08-22T05:24:01.000Z",
+    "display_text_range": [
+      0,
+      279
+    ],
+    "entities": {},
+    "id_str": "2091033630147854385",
+    "text": "Update on rate limits in Codex. We do see that for some users the cache hit rate has been worse this week than the stable state the weeks before. This could explain that usage is draining somewhat faster for those users as hitting the cache consistently is an important component",
+    "user": {
+      "id_str": "1953337039510003712",
+      "name": "Tibo",
+      "screen_name": "thsottiaux",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2091033630147854385"
+      ],
+      "editable_until_msecs": "1787379841000",
+      "edits_remaining": "5",
+      "is_edit_eligible": true
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDkxNDA3OTkxNjY5MjE5MzI4"
+  }
+}

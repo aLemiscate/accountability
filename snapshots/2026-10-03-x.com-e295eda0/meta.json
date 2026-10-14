@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/sama/status/1954602880952115603",
+  "captured_at": "2026-10-03T13:55:44.678Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "7a285799c4041ae5b62582e7e2c3dd88adcafd17b0a090a75e1cc3d556f0063f",
+    "page.txt": "11c3cfc618eda188189f90e57489a98fe06f6d8c37fdebfe4f020ad8eedc1815",
+    "post.json": "b00dfd0b415e21bb1249e7527677a36dd405075f17c0e7cb9c733f2e883f926f",
+    "syndication.json": "11e597d861c50411356c499b05fb6557c3e59a26e272e718dde878b70abbdcd8",
+    "post.txt": "6e33c7f3580270f9598929a524f4b5d843be30b824fe2ac792ff1d7296679208"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1954602880952115603",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"today we are significantly increasing rate limits for reasoning for chatgpt plus users, and all model-class limits will shortly be higher than they were before gpt-5. we will also shortly make a UI change to indicate which model is working.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "August 10, 2025",
+    "posted_at": "2025-08-10T17:56:56.241Z"
+  },
+  "rendered_status": 403,
+  "archive": null
+}

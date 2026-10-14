@@ -1,0 +1,248 @@
+Did Anthropic’s artificial intelligence really make a scientific discovery on its own? – The Irish Times Sections
+Search Sections Sections
+Subscribe
+Subscribe
+Close
+Subscribe
+Search
+• Home
+• Latest
+• Subscriber Only
+• Crosswords & Puzzles Show Crosswords & Puzzles sub sections
+• The Daily Eight
+• Crosaire
+• Simplex
+• Sudoku
+• News Quiz
+• Ireland Show Ireland sub sections
+• Dublin
+• Education
+• Housing & Planning
+• Social Affairs
+• Common Ground
+• Politics Show Politics sub sections
+• Poll
+• Oireachtas
+• Common Ground
+• Elections & Referendums
+• Opinion Show Opinion sub sections
+• Editorials
+• An Irish Diary
+• Letters
+• Cartoon
+• Business Show Business sub sections
+• Budget 2027
+• Economy
+• Farming & Food
+• Financial Services
+• Innovation
+• Markets
+• Work
+• Commercial Property
+• World Show World sub sections
+• Europe
+• UK
+• US
+• Canada
+• Australia
+• Africa
+• Americas
+• Asia-Pacific
+• Middle East
+• Sport Show Sport sub sections
+• Rugby
+• Gaelic Games
+• Soccer
+• Golf
+• Racing
+• Athletics
+• Boxing
+• Cycling
+• Hockey
+• Tennis
+• Your Money Show Your Money sub sections
+• Pricewatch
+• Crime & Law Show Crime & Law sub sections
+• Courts
+• Property Show Property sub sections
+• Residential
+• Commercial Property
+• Interiors
+• Food Show Food sub sections
+• Drink
+• Recipes
+• Restaurants
+• Health Show Health sub sections
+• Your Family
+• Your Fitness
+• Your Wellness
+• Get Running
+• Life & Style Show Life & Style sub sections
+• Fashion
+• Beauty
+• Fine Art & Antiques
+• Gardening
+• People
+• Travel
+• Culture Show Culture sub sections
+• Art
+• Books
+• Film
+• Music
+• Stage
+• TV & Radio
+• Environment Show Environment sub sections
+• Climate Crisis
+• Technology Show Technology sub sections
+• Big Tech
+• Consumer Tech
+• Data & Security
+• Gaming
+• Science Show Science sub sections
+• Space
+• Media
+• Abroad
+• Obituaries
+• Transport
+• Motors Show Motors sub sections
+• Car Reviews
+• Listen
+• Podcasts Show Podcasts sub sections
+• America 2026
+• Better with Money Podcast
+• Conversations with Parents Podcast
+• Early Edition Podcast
+• Inside Business Podcast
+• Inside Politics Podcast
+• In the News Podcast
+• Ross O'Carroll-Kelly
+• The Counter Ruck Podcast
+• The Women's Podcast
+• Video
+• Photography
+• Gaeilge Show Gaeilge sub sections
+• Scéal
+• Tuarascáil
+• History Show History sub sections
+• Century
+• Student Hub
+• Offbeat
+• Family Notices Opens in new window
+• Sponsored Show Sponsored sub sections
+• Advertising Feature
+• Special Reports
+• Subscriber Rewards
+• Competitions
+• Newsletters
+• Weather Forecast
+•
+World
+Did Anthropic’s artificial intelligence really make a scientific discovery on its own?
+A scientist has cast doubt on the company’s claim that its AI independently made a research breakthrough
+A "Code W/ Claude" event in San Francisco, California An expert at the University of Copenhagen said his team had been sharing its research with Anthropic's AI model, Claude, and that its new finding matched their work. Photograph: Jason Henry/The New York Times
+Carl Zimmer
+Mon Sept 28 2026 - 16:29 • 5 MIN READ
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+W hen Anthropic , the artificial intelligence giant, unveiled findings from its new biology lab last week, its scientists claimed to have used AI agents to discover new enzymes with promise for biotechnology.
+Some scientists were quick to cast doubt on the achievement. Then Mario Rodríguez Mestre, a computational biologist at the University of Copenhagen, said last weekend that he and his colleagues had been studying the enzymes and their associated molecules – which Anthropic calls ARTs – for four years.
+Mestre and his colleagues have yet to publish their findings. But for the past three years, they have regularly used Anthropic’s AI models as they have written code, drafted manuscripts and performed other tasks.
+In doing so, Mestre said he and his colleagues shared key findings about the enzymes with Anthropic.
+“So, for me, the most important question is not ‘Were ARTs already known?’ They were,” Mestre said in an interview. The issue instead, he added, is whether Anthropic’s AI actually reasoned its way to the results, or whether it was guided to them based partly on his own work.
+“My concern is that this information was used to train future versions of the models,” Mestre said of his own research. “I think it’s important to raise this possibility.”
+In a statement on Sunday, Anthropic said: “We are not aware of any previously published work describing the ART system we recently found. Claude was also not trained on any user transcripts, and our molecular biology team has no such access, either.”
+Anthropic said that Claude’s key contribution was identifying an array of RNA molecules and a protein associated with reverse transcriptase in a system. But Maestre said that he and his colleagues had made that discovery more than a year ago.
+Similar worries surfaced recently when researchers at OpenAI claimed to have solved a long-standing mathematics puzzle. A leading mathematician noted that he had been using the company’s AI to work toward a solution for some time.
+[ Are global controls needed for AI? The United States doesn’t think so Opens in new window ]
+Anthropic, which is expected to go public at a valuation potentially as high as $2 trillion, has touted biological research as a central part of its mission.
+“We believe this type of application will accelerate rapidly in the years ahead, and that we can make profound progress in the near future on diseases that have plagued humanity for millennia,” Dario Amodei, the CEO of Anthropic, said in a speech to the United Nations on Wednesday.
+Dario Amodei, a co-founder and chief executive of Anthropic, delivers remarks by video at a UN Security Council last week. Photograph: Dave Sanders/The New York Times
+In their report last week, Anthropic researchers said they instructed AI agents to search databases containing billions of gene sequences. The scientists did not describe the precise prompts they had used.
+The databases contain DNA collected from the ocean, soil and other habitats. The genes belong mostly to microbes and viruses; scientists have only determined what a fraction of them do.
+Anthropic’s scientists tasked the AI with finding genes that direct production of enzymes called reverse transcriptases. These enzymes read the sequence of an RNA molecule and make a matching DNA molecule with the same sequence.
+Bacteria use some reverse transcriptases to sense invading viruses. Some viruses rely on reverse transcriptases as weapons against other viruses.
+The Anthropic scientists provided the AI with five examples of reverse transcriptases. The agents wrote their own software to explore the databases for similar genes and to look closely at promising candidates.
+The agents identified genes for possible reverse transcriptases in bacteria-infecting viruses known as jumbo phages. Each of those sequences was located close to an array of genes for RNA molecules, which may help the enzymes carry out their jobs.
+The Anthropic scientists named the enzymes array-associated reverse transcriptases, or ARTs. In a report posted to their website, they said that their AI had taken “the first steps of a biological discovery on its own.”
+On Sunday, Mestre disputed that claim. “They are the same systems we have been studying for years,” he said. And they are the same enzymes, he said, that he had described to Anthropic’s AI.
+Mestre first encountered the enzymes in jumbo phages in 2022 while searching for new reverse transcriptases. He worked briefly as a consultant for ReNegade Therapeutics, which filed a patent in 2023 on a number of reverse transcriptases, including the ones Mestre found. He is listed as a co-inventor on the patent filing.
+After working for ReNegade, Mestre joined the University of Copenhagen to study reverse transcriptases in more detail, including the ones he found in jumbo phages. He and his colleagues nicknamed them “jumbotrons.”
+Anthropic released Claude in 2023, a year after Mestre began researching jumbotrons. Like many scientists, he found it useful for an assortment of tasks.
+Anthropic’s logo on a podium at their Code W/ Claude event in San Francisco, California. Photograph; Jason Henry/The New York Times
+“I completely switched my way of doing science,” he said.
+During his conversations with Claude, Mestre shared a draft of both his dissertation and of a manuscript describing jumbotrons. He and his colleagues uploaded additional details while using Claude to perform various administrative tasks.
+The New York Times reviewed Slack messages, figures and other materials produced by Mestre documenting his research and his conversations with Claude over the past several years. They seem to show that the AI was extensively involved in his research.
+Seth Shipman, a bioengineer at the Gladstone Institutes and the University of California, San Francisco, said that he was familiar with Mestre’s work.
+“We’ve been talking with him about these for years,” he said. “Many of us know about these systems.”
+Mestre said he could not be sure that Anthropic had relied on his work to seek out jumbotrons. But he was sceptical, he said, that the AI agents could have managed to find them so swiftly.
+Jumbotrons are rare, and their RNA genes are difficult to distinguish from random genetic sequences. Mestre also found some striking overlap between his work and the work presented by the Anthropic scientists.
+The scientists claimed that their AI had independently retrieved the raw data from a 2022 experiment in which researchers recorded all the viral RNA molecules produced by a microbe infected by jumbo phages.
+Anthropic’s AI reported that the microbes created high levels of the RNA molecules in ARTs. The scientists argue that this evidence supports their hypothesis that the reverse transcriptases they claim to have discovered rely on these RNA molecules to carry out a job for the jumbo phages.
+Mestre said that he and his colleagues analysed the same data a year ago, which helped them identify the RNA genes associated with the jumbotrons. They shared this unpublished information with Claude.
+“The resemblance was striking to us,” Mestre said.
+Without a closer look at what the Anthropic AI actually did, Mestre said that it would be impossible to say for sure that it was guided by his research.
+“I mean, coincidences happen,” he said. “Everyone in the field is doing more or less the same things. But we were aware of these repeats more than one year ago.”
+Mestre had become increasingly enthusiastic about using AI for his science. Just last month, he began using Claude Science, a new Anthropic AI tool tailored to researchers.
+But after Anthropic’s announcement last week, he is winding down his projects with Claude and shifting to other models.
+“I’m shutting down everything,” he said.
+This article originally appeared in The New York Times .
+Anthropic
+IN THIS SECTION
+Latvians vote in election in shadow of drone incursions and war in Ukraine
+Flydubai co-pilot attacked captain with emergency axe, UAE says
+Three decades of progress should not be taken for granted
+Micheál Martin’s Palestine contradiction
+Gaza war heralds era of ‘technologically advanced barbarism’
+MOST READ
+Landlord must pay €20,000 for evicting tenant from property she then used for short-term lets
+Increasing number of foreign-born recruits joining Defence Forces
+Gardaí trying to track whereabouts of Christy Kinahan snr days after expiry of UAE visa
+Asian hornets’ nest located in Cork after tiny trackers were fixed to the insects
+Employee who sent Christmas email critical of organisation’s Irish skills fails in claims
+LATEST STORIES
+‘I wrestled with it a lot’: Galway manager Éamonn Fitzmaurice on potentially facing Kerry
+Ireland captain Dara O’Shea is doubt for Israel match as partner is giving birth
+Live updates: Heimir Hallgrímsson’s press conference ends prematurely after allegation made
+Heimir Hallgrímsson’s press conference ended after ‘verbal attack’ from Israeli reporters
+Max Verstappen ends pole wait at Bahrain GP in Malaysia but Russell risks losing more ground
+Latvians vote in election in shadow of drone incursions and war in Ukraine
+Rival rallies planned as Drumcree stand-off enters seventh day
+RTÉ set to run up €960,000 hotel bill over four years for contributors and celebrity guests
+Opens in new window Opens in new window
+Subscribe
+• Why Subscribe?
+• Subscription Bundles
+• Subscriber Rewards
+• Student Subscription
+• Subscription Help Centre Opens in new window
+• Home Delivery Opens in new window
+• Gift Subscriptions
+Support
+• Contact Us
+• Help Centre Opens in new window
+• My Account
+About Us
+• Advertise
+• Contact Us
+• The Irish Times Trust
+• Careers
+• Share a confidential tip
+Irish Times Products & Services
+• ePaper
+• Crosswords & puzzles
+• Newspaper Archive
+• Newsletters
+• Article Index Opens in new window
+• Discount Codes Opens in new window
+OUR PARTNERS:
+MyHome.ie Opens in new window The Gloss Opens in new window Recruit Ireland Opens in new window RIP.ie Opens in new window
+Irish Times on WhatsApp Irish Times on Facebook Irish Times on X Irish Times on LinkedIn Irish Times on Instagram
+Terms & Conditions Privacy Policy Cookie Information Cookie Settings Community Standards Copyright © 2026 The Irish Times DAC

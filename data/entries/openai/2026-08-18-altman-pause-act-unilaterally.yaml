@@ -5,30 +5,33 @@ org: openai
 type: said
 kind: commitment
 who: [sam-altman, openai]
-venue: Post on X and OpenAI blog post
+venue: Post on Twitter and OpenAI blog post
 quote: >-
   We have paused some frontier RL training to ensure that we can meet the
   appropriate alignment, security and monitoring standards for the new level of
   capabilities in front of us.
 summary: >-
-  Four weeks after the Hugging Face incident, OpenAI said it had "temporarily
-  slowed the pace of scaling," including a two-week pause in reinforcement
-  learning training, and that its largest planned RL run remained on hold. It
-  also pointed to a finding that its next model, Astra, may have "critical"
-  cyber capabilities under its Preparedness Framework. Altman added, as quoted
-  by The Hill: "We believe the entire field will have to coordinate on shared
-  safety standards, but will act unilaterally in the meantime." Three weeks
-  earlier OpenAI had written that "at some point in the future, AI acceleration
-  for frontier model development may be so high that the world will need to pace
-  the rate of AI advancement."
+  Four weeks after the Hugging Face incident, OpenAI said it had "temporarily"
+  slowed the pace of its scaling, including a two-week pause in reinforcement
+  learning training, and that "our largest planned frontier RL run remains on
+  hold while we conduct smaller-scale training and evaluations to assess model
+  behavior, validate our safeguards, and establish more evidence of alignment
+  before proceeding." It also pointed to a finding that its next model, Astra,
+  may have "critical" cyber capabilities under its Preparedness Framework.
+  Altman wrote the same day: "We believe the entire field will have to
+  coordinate on shared safety standards, but will act unilaterally in the
+  meantime." Three weeks earlier OpenAI had written that "at some point in the
+  future, AI acceleration for frontier model development may be so high that the
+  world will need to pace the rate of AI advancement."
 concreteness: conditional
 status: open
+last_checked: 2026-10-13
 breaks_if: >-
   The held-back frontier RL run resumes at scale without the published safety
   case or evidence of alignment OpenAI said it would first establish; OpenAI
   cites a competitor's pace to lift a pause or skip a safeguard; or the
   "unilateral" commitment is made conditional on others acting first.
-patterns: []
+patterns: [race-clause]
 related:
   [
     2025-04-15-preparedness-framework-v2,
@@ -42,18 +45,93 @@ sources:
     date: 2026-08-18
     type: primary
     snapshot: snapshots/2026-09-29-x.com-24616fc4
+  - title: Pacing model development in an era of cyber-critical capabilities
+    publisher: OpenAI
+    url: https://openai.com/index/pacing-model-development-cyber-capabilities/
+    date: 2026-08-18
+    type: primary
+    archive: https://web.archive.org/web/20261010235240/https://openai.com/index/pacing-model-development-cyber-capabilities/
+    snapshot: snapshots/2026-10-13-openai.com-980337b8
+  - title: OpenAI says it will slow its AI model development to shore up safety
+    publisher: NPR
+    url: https://www.npr.org/2026/08/24/nx-s1-5943167/openai-says-it-will-slow-its-ai-model-development-to-shore-up-safety
+    date: 2026-08-24
+    type: reporting
+    archive: https://web.archive.org/web/20260907211720/https://www.npr.org/2026/08/24/nx-s1-5943167/openai-says-it-will-slow-its-ai-model-development-to-shore-up-safety
+    snapshot: snapshots/2026-10-13-npr.org-3f1a4e55
+  - title: OpenAI ‘temporarily slows’ scaling efforts, also promises zero data
+      retention for select frontier model customers
+    publisher: CSO Online
+    url: https://www.csoonline.com/article/4211672/openai-temporarily-slows-scaling-efforts-also-promises-zero-data-retention-for-select-frontier-model-customers-2.html
+    date: 2026-08-19
+    type: reporting
+    snapshot: snapshots/2026-10-13-csoonline.com-2672f90b
   - title: OpenAI pausing some model work over safety concerns
     publisher: The Hill
     url: https://thehill.com/policy/technology/6038415-openai-pauses-ai-training/
     date: 2026-08-19
     type: reporting
+    snapshot: snapshots/2026-10-13-thehill.com-a391f621
   - title: OpenAI on X ("the world will need to pace the rate of AI advancement")
     publisher: X
     url: https://x.com/OpenAI/status/2082208694142730340
     date: 2026-07-28
     type: primary
-    snapshot: snapshots/2026-09-30-x.com-c8aa730d
+    snapshot: snapshots/2026-10-13-x.com-c8aa730d
 updates:
+  - date: 2026-09-08
+    text: >-
+      Briefing reporters on its Navier-Stokes result, OpenAI said it had begun
+      training a new model, significantly more powerful than Astra, on Aug. 28,
+      ten days after this announcement, according to Fortune. The report did not
+      say whether this was the frontier RL run OpenAI had put on hold.
+    sources:
+      - title: Anthropic researcher resigns, warning that AI companies are “gambling
+          with our lives”
+        publisher: Fortune
+        url: https://fortune.com/2026/09/09/anthropic-researcher-resigns-warn-ai-companies-gambling-with-lives/
+        date: 2026-09-09
+        type: reporting
+        snapshot: snapshots/2026-10-13-fortune.com-d1f5dc0a
+  - date: 2026-09-12
+    text: >-
+      In a Fortune interview, Altman said: "I do not think we should train
+      models where we cannot make a safety case for why we will be able to make
+      strong statements about their controllability and alignment." He called it
+      "unacceptable to be taking like a 10 percent chance of killing everybody
+      by the end of the decade," and on the cost of pausing said: "if you're
+      like, oh, OpenAI is not going to pause because they're worried about it
+      costing their business money, you very deeply misunderstand us." (Quoted
+      from the audio of Fortune 500: Titans and Disruptors of Industry, about
+      3:10, 10:58 and 32:39.)
+    sources:
+      - title: 'Sam Altman: AI Beyond Human Control “Absolutely Possible” | Titans and
+          Disruptors'
+        publisher: 'Fortune 500: Titans and Disruptors of Industry'
+        url: https://podcasts.apple.com/us/podcast/sam-altman-ai-beyond-human-control-absolutely-possible/id1836231455?i=1000789192925
+        date: 2026-09-12
+        type: primary
+        archive: https://web.archive.org/web/20261013064146/https://podcasts.apple.com/us/podcast/sam-altman-ai-beyond-human-control-absolutely-possible/id1836231455?i=1000789192925
+        snapshot: snapshots/2026-10-13-podcasts.apple.com-721cd637
+  - date: 2026-09-12
+    text: >-
+      The day Dario Amodei called for the industry to slow down, OpenAI
+      published a post arguing that structured safety documentation should be
+      required before any frontier RL training run continues, ideally a safety
+      case, which it called an aspirational target. Among its recommendations,
+      as SecurityWeek summarized them: a member of another team writes a dissent
+      probing the case, senior leaders can each veto a run, and "Affected third
+      parties should be notified as soon as possible" after severe incidents,
+      with results shared publicly once an investigation ends. OpenAI said the
+      recommendations were being implemented internally.
+    sources:
+      - title: OpenAI Calls Off GPT-6.1 Astra Launch, Details Safety Cases for Frontier
+          Training
+        publisher: SecurityWeek
+        url: https://www.securityweek.com/openai-calls-off-gpt-6-1-astra-launch-details-safety-cases-for-frontier-training/
+        date: 2026-09-29
+        type: reporting
+        snapshot: snapshots/2026-10-13-securityweek.com-ef750d68
   - date: 2026-09-14
     text: >-
       After Dario Amodei's essay calling for the industry to "pace the

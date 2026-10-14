@@ -4,18 +4,25 @@ date: 2023-04
 org: anthropic
 type: did
 kind: disclosure
-who: [ anthropic ]
+who: [anthropic]
 quote: >-
   We believe that companies that train the best 2025/26 models will be too far
-  ahead in subsequent cycles for anyone to catch up.
+  ahead for anyone to catch up in subsequent cycles.
 summary: >-
   TechCrunch obtained Anthropic's fundraising deck, weeks after Core Views was
   published. It laid out a plan to raise up to $5B over two years and to build
   "Claude-Next," a "frontier model" meant to be 10 times more capable than
   today's most powerful AI, at a cost of about $1B over 18 months.
-contradicts: [ 2023-03-08-core-views-no-capabilities-acceleration ]
-patterns: [ race-clause ]
+contradicts: [2023-03-08-core-views-no-capabilities-acceleration]
+patterns: [race-clause]
 sources:
+  - title: Anthropic's $5B, 4-year plan to take on OpenAI
+    publisher: TechCrunch
+    url: https://techcrunch.com/2023/04/06/anthropics-5b-4-year-plan-to-take-on-openai/
+    date: 2023-04-06
+    type: reporting
+    archive: https://web.archive.org/web/20261006002429/https://techcrunch.com/2023/04/06/anthropics-5b-4-year-plan-to-take-on-openai/
+    snapshot: snapshots/2026-10-07-techcrunch.com-cb6fc9cc
   - title: Anthropic's Series C pitch deck shows the AI startup aims to raise up to
       $5B (TechCrunch, via Techmeme)
     publisher: TechCrunch
@@ -28,10 +35,22 @@ sources:
     url: https://tech.slashdot.org/story/23/04/07/129232/inside-google-backed-anthropics-5b-4-year-plan-to-take-on-openai
     date: 2023-04-07
     type: reporting
+    archive: https://web.archive.org/web/20261003115534/https://tech.slashdot.org/story/23/04/07/129232/inside-google-backed-anthropics-5b-4-year-plan-to-take-on-openai
+  - title: 'Transcript for Dario Amodei: Anthropic CEO on Claude, AGI & the Future
+      of AI & Humanity (Lex Fridman Podcast #452)'
+    publisher: Lex Fridman
+    url: https://lexfridman.com/dario-amodei-transcript/
+    date: 2024-11-11
+    type: primary
+    archive: https://web.archive.org/web/20261006002607/https://lexfridman.com/dario-amodei-transcript/
+    snapshot: snapshots/2026-10-07-lexfridman.com-c6218e8d
 response: >-
   Anthropic has argued that safety research needs access to frontier models, and
-  that a safety-focused lab at the frontier can pull industry norms upward (a
-  "race to the top").
+  that a safety-focused lab at the frontier can pull industry norms upward.
+  Dario Amodei calls this "the race to the top": "It doesn't matter who wins in
+  the end as long as everyone is copying everyone else's good practices."
 note: >-
-  The public essay said "don't accelerate." The investor deck said "be the one
-  nobody can catch." That was a month apart.
+  The public essay said Anthropic did not wish to speed up capabilities
+  progress. A month later, the investor deck argued that whoever trained the
+  best models soon would be impossible to catch, and asked for money to be that
+  company.

@@ -1,0 +1,87 @@
+title: 'GPT-4 launch: it passes a simulated bar exam "with a score around the
+  top 10% of test takers"'
+date: 2023-03-14
+org: openai
+type: said
+kind: claim
+who: [openai, nick-turley, mira-murati, sam-altman]
+venue: GPT-4 technical report and launch posts
+quote: >-
+  GPT-4 exhibits human-level performance on various professional and academic
+  benchmarks, including passing a simulated bar exam with a score around the top
+  10% of test takers.
+summary: >-
+  OpenAI launched GPT-4 with a technical report whose abstract put its score on
+  a simulated Uniform Bar Exam "around the top 10% of test takers." Staff
+  repeated it ("Top 10% on the Bar," Nick Turley wrote), and it became one of
+  the most widely cited facts about the model. In 2024 the journal Artificial
+  Intelligence and Law published a re-analysis by Eric Martínez finding that the
+  near-90th-percentile figure came from conversions based on February
+  administrations of the Illinois bar exam, which are heavily weighted toward
+  repeat takers who failed in July. Data from a July administration put GPT-4
+  below the 69th percentile overall; against first-time takers, about the 62nd;
+  and against those who passed, about the 48th overall and 15th on the essays.
+concreteness: measurable
+status: contradicted
+outcome:
+  date: 2023-05
+  text: >-
+    A preprint by Eric Martínez, later published in Artificial Intelligence and
+    Law, found the near-90th-percentile figure rested on February Illinois test
+    takers, a group weighted toward repeat takers. Against a July
+    administration, GPT-4 placed below the 69th percentile overall and about the
+    48th among those who passed.
+patterns: [claims-outrun-results]
+related: [2025-10-gpt-5-erdos-claim]
+sources:
+  - title: GPT-4 Technical Report
+    publisher: OpenAI (arXiv)
+    url: https://arxiv.org/abs/2303.08774
+    date: 2023-03-15
+    type: primary
+    snapshot: snapshots/2026-10-03-arxiv.org-29a08823
+  - title: Nick Turley on X ("Top 10% on the Bar")
+    publisher: X
+    url: https://x.com/nickaturley/status/1635693555615412224
+    date: 2023-03-14
+    type: primary
+    snapshot: snapshots/2026-10-03-x.com-d47464be
+  - title: Sam Altman on X ("it can pass a bar exam")
+    publisher: X
+    url: https://x.com/sama/status/1635687854784540672
+    date: 2023-03-14
+    type: primary
+    archive: https://web.archive.org/web/20250522120547/https://x.com/sama/status/1635687854784540672
+    snapshot: snapshots/2026-10-03-x.com-7ab75f5e
+  - title: Re-evaluating GPT-4's bar exam performance (Artificial Intelligence and
+      Law)
+    publisher: Eric Martínez (Springer)
+    url: https://link.springer.com/article/10.1007/s10506-024-09396-9
+    date: 2024
+    type: analysis
+    archive: https://web.archive.org/web/20261003131559/https://link.springer.com/article/10.1007/s10506-024-09396-9
+    snapshot: snapshots/2026-10-03-link.springer.com-bebb3161
+  - title: Did OpenAI's GPT-4 really pass the bar exam?
+    publisher: Fast Company
+    url: https://www.fastcompany.com/91073277/did-openais-gpt-4-really-pass-the-bar-exam
+    date: 2024
+    type: reporting
+    archive: https://web.archive.org/web/20251003045153/https://www.fastcompany.com/91073277/did-openais-gpt-4-really-pass-the-bar-exam
+  - title: Re-evaluating GPT-4's bar exam performance (preprint, as posted by the
+      New York State Bar Association)
+    publisher: NYSBA
+    url: https://nysba.org/wp-content/uploads/2024/04/Eric-Martinez-Paper-SSRN-id4441311.pdf
+    date: 2023-05
+    type: analysis
+    archive: https://web.archive.org/web/20260410174141/https://nysba.org/wp-content/uploads/2024/04/Eric-Martinez-Paper-SSRN-id4441311.pdf
+    snapshot: snapshots/2026-10-07-nysba.org-c9866164
+  - title: Re-evaluating GPT-4's bar exam performance (preprint)
+    publisher: SSRN
+    url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4441311
+    date: 2023-05
+    type: analysis
+    archive: https://web.archive.org/web/20260922203609/https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4441311
+note: >-
+  The underlying test was real and the score was a pass. The percentile was the
+  part that travelled, and it was the part that depended on which group of test
+  takers OpenAI compared against.

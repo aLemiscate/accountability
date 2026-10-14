@@ -1,0 +1,21 @@
+{
+  "url": "https://alignment.openai.com/misalignment-reports/obtaining-public-statistics-with-disallowed-requests/",
+  "captured_at": "2026-10-13T06:47:51.659Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "bcde1e8d1673bff5549c6c307969e0b1ada14e66baa6073ddccc6ff9910d5e45",
+    "page.txt": "abb73ce3fc931548015b29792381a67df30476a6f04e8bf7adc4dc3dc5394e61",
+    "screenshot.jpg": "78e1b9a758a856adddc2165d54c5366ad45830d7459ca8bd5d652d7fb4cf576a",
+    "rendered.txt": "26e012b4dfa03bb6b722592b69a44279fbe9b6bbd73e4049105e3bf24e16d5e4"
+  },
+  "http_status": 200,
+  "final_url": "https://alignment.openai.com/misalignment-reports/obtaining-public-statistics-with-disallowed-requests/",
+  "content_type": "text/html; charset=utf-8",
+  "title": "Obtaining public statistics with disallowed requests · OpenAI Alignment",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20261012004256/https://alignment.openai.com/misalignment-reports/obtaining-public-statistics-with-disallowed-requests/",
+    "timestamp": "20261012004256",
+    "method": "existing"
+  }
+}

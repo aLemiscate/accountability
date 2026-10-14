@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>What is OpenAI going to do when the truth comes out?</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preload" as="style" href="https://www.platformer.news/assets/built/screen.css?v=WdlGIjc3-pnVSc3x">
+    <link rel="preload" as="script" href="https://www.platformer.news/assets/built/source.js?v=Yaq4X5d87k-_RFqD">
+    
+    <link rel="preload" as="font" type="font/woff2" href="https://www.platformer.news/assets/fonts/inter-roman.woff2?v=OecsB5TBLy27FKD2" crossorigin="anonymous">
+<style>
+    @font-face {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 100 900;
+        font-display: optional;
+        src: url(https://www.platformer.news/assets/fonts/inter-roman.woff2?v=OecsB5TBLy27FKD2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+</style>
+
+    <link rel="stylesheet" type="text/css" href="https://www.platformer.news/assets/built/screen.css?v=WdlGIjc3-pnVSc3x">
+
+    <style>
+        :root {
+            --background-color: #ffffff
+        }
+    </style>
+
+    <script>
+        /* The script for calculating the color contrast has been taken from
+        https://gomakethings.com/dynamically-changing-the-text-color-based-on-background-color-contrast-with-vanilla-js/ */
+        var accentColor = getComputedStyle(document.documentElement).getPropertyValue('--background-color');
+        accentColor = accentColor.trim().slice(1);
+
+        if (accentColor.length === 3) {
+            accentColor = accentColor[0] + accentColor[0] + accentColor[1] + accentColor[1] + accentColor[2] + accentColor[2];
+        }
+
+        var r = parseInt(accentColor.substr(0, 2), 16);
+        var g = parseInt(accentColor.substr(2, 2), 16);
+        var b = parseInt(accentColor.substr(4, 2), 16);
+        var yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+        var textColor = (yiq >= 128) ? 'dark' : 'light';
+
+        document.documentElement.className = `has-${textColor}-text`;
+    </script>
+
+    <meta name="description" content="Sam Altman’s deal with the Pentagon seems too good to be true. What happens when the public realizes that?">
+    <link rel="icon" href="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w256h256/2024/05/Logomark_Blue_800px.png" type="image/png">
+    <link rel="canonical" href="https://www.platformer.news/openai-pentagon-surveillance-drones-backlash/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="Platformer">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="What is OpenAI going to do when the truth comes out?">
+    <meta property="og:description" content="Sam Altman’s deal with the Pentagon seems too good to be true. What happens when the public realizes that?">
+    <meta property="og:url" content="https://www.platformer.news/openai-pentagon-surveillance-drones-backlash/">
+    <meta property="og:image" content="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/03/shutterstock_2543042927.jpg">
+    <meta property="article:published_time" content="2026-03-03T02:07:57.000Z">
+    <meta property="article:modified_time" content="2026-03-03T02:27:14.000Z">
+    <meta property="article:tag" content="OpenAI">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="What is OpenAI going to do when the truth comes out?">
+    <meta name="twitter:description" content="Sam Altman’s deal with the Pentagon seems too good to be true. What happens when the public realizes that?">
+    <meta name="twitter:url" content="https://www.platformer.news/openai-pentagon-surveillance-drones-backlash/">
+    <meta name="twitter:image" content="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/03/shutterstock_2543042927.jpg">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Casey Newton">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="OpenAI">
+    <meta name="twitter:site" content="@platformer">
+    <meta name="twitter:creator" content="@CaseyNewton">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="800">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Platformer",
+        "url": "https://www.platformer.news/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/Wordmark_Transparent_Slate_NoPadding.png"
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Casey Newton",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/01/8a6ee2c2-52ed-4f9b-a701-e3467774d7f0_917x1297.webp",
+            "width": 128,
+            "height": 128
+        },
+        "url": "https://www.platformer.news/author/casey-newton/",
+        "sameAs": [
+            "https://x.com/CaseyNewton"
+        ]
+    },
+    "headline": "What is OpenAI going to do when the truth comes out?",
+    "url": "https://www.platformer.news/openai-pentagon-surveillance-drones-backlash/",
+    "datePublished": "2026-03-03T02:07:57.000Z",
+    "dateModified": "2026-03-03T02:27:14.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1200/2026/03/shutterstock_2543042927.jpg",
+        "width": 1200,
+        "height": 800
+    },
+    "keywords": "OpenAI",
+    "description": "Sam Altman’s deal with the Pentagon seems too good to be true. What happens when the public realizes that?",
+    "mainEntityOfPage": "https://www.platformer.news/openai-pentagon-surveillance-drones-backlash/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 6.68">
+    <link rel="alternate" type="application/rss+xml" title="Platformer" href="https://www.platformer.news/rss/">
+    <script defer src="https://cdn.jsdelivr.net/ghost/portal@~2.71/umd/portal.min.js" data-i18n="true" data-ghost="https://www.platformer.news/" data-key="784efcca5a3abd410ac226ae79" data-api="https://platformer.ghost.io/ghost/api/content/" data-locale="en" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style><script async src="https://js.stripe.com/v3/"></script>
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js" data-key="784efcca5a3abd410ac226ae79" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/main.css" data-sodo-search="https://platformer.ghost.io/" data-locale="en" crossorigin="anonymous"></script>
+    
+    <link href="https://www.platformer.news/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=ShRHxgy4po8zN-Wf"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=WwnU9jw5ancNC8Gc">
+    <script defer src="/public/comment-counts.min.js?v=oFYkaGLdiMqB8VN9" data-ghost-comments-counts-api="https://www.platformer.news/members/api/comments/counts/"></script>
+    <script defer src="/public/member-attribution.min.js?v=AKG4hWena9j3yX3I"></script>
+    <script defer src="/public/ghost-stats.min.js?v=vFcCUf6ZQ0Hyhc8h" data-stringify-payload="false" data-datasource="analytics_events" data-storage="localStorage" data-host="https://www.platformer.news/.ghost/analytics/api/v1/page_hit"  tb_site_uuid="a04c7225-d919-4d78-9b7c-a3fdd071349b" tb_post_uuid="1dfea1b1-8514-4904-9223-46445d598dcf" tb_post_type="post" tb_member_uuid="undefined" tb_member_status="undefined" tb_gift_link=""></script><style>:root {--ghost-accent-color: #2047FF;}</style>
+
+</head>
+<body class="post-template tag-openai has-sans-title has-sans-body">
+
+<a class="gh-skip-link" href="#main-content">Skip to content</a>
+
+<div class="gh-viewport">
+    
+    <header id="gh-navigation" class="gh-navigation is-middle-logo gh-outer">
+    <div class="gh-navigation-inner gh-inner">
+
+        <div class="gh-navigation-brand">
+            <a class="gh-navigation-logo is-title" href="https://www.platformer.news">
+                    <img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/Wordmark_Transparent_Slate_NoPadding.png" alt="Platformer">
+            </a>
+            <button class="gh-search gh-icon-button" aria-label="Search this site" data-ghost-search>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>            <button class="gh-burger gh-icon-button" type="button" aria-label="Menu" aria-expanded="false" aria-controls="gh-navigation-menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path></svg>                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path></svg>            </button>
+        </div>
+
+        <nav id="gh-navigation-menu" class="gh-navigation-menu">
+            <ul class="nav">
+    <li class="nav-home"><a href="https://www.platformer.news/">Home</a></li>
+    <li class="nav-about"><a href="https://www.platformer.news/about/">About</a></li>
+    <li class="nav-ethics"><a href="https://www.platformer.news/ethics/">Ethics</a></li>
+</ul>
+
+        </nav>
+
+        <div class="gh-navigation-actions">
+                <button class="gh-search gh-icon-button" aria-label="Search this site" data-ghost-search>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>                <div class="gh-navigation-members">
+                            <a href="#/portal/signin" data-portal="signin">Sign in</a>
+                                <a class="gh-button" href="#/portal/signup" data-portal="signup">Subscribe</a>
+                </div>
+        </div>
+
+    </div>
+</header>
+
+    
+
+<main id="main-content" class="gh-main" tabindex="-1">
+
+    <article class="gh-article post tag-openai">
+
+        <header class="gh-article-header gh-canvas">
+
+                <a class="gh-article-tag" href="https://www.platformer.news/tag/openai/">OpenAI</a>
+            <h1 class="gh-article-title is-title">What is OpenAI going to do when the truth comes out?</h1>
+                <p class="gh-article-excerpt is-body">Sam Altman’s deal with the Pentagon seems too good to be true. What happens when the public realizes that?</p>
+
+                <div class="gh-meta-share">
+                    <div class="gh-article-meta">
+                        <div class="gh-article-author-image instapaper_ignore">
+                                    <a href="/author/casey-newton/">
+                                        <img class="author-profile-image" src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w160/2024/01/8a6ee2c2-52ed-4f9b-a701-e3467774d7f0_917x1297.webp" alt="Casey Newton">
+                                    </a>
+                        </div>
+                        <div class="gh-article-meta-wrapper">
+                            <h4 class="gh-article-author-name"><a href="/author/casey-newton/">Casey Newton</a></h4>
+                            <div class="gh-article-meta-content">
+                                <time class="gh-article-meta-date" datetime="2026-03-02">02 Mar 2026</time>
+                                    <span class="gh-article-meta-length"><span class="bull">—</span> 16 min read</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#/share" class="gh-button gh-button-share">
+                        Share
+                    </a>
+                </div>
+
+                <figure class="gh-article-image">
+        <img
+            srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w320/2026/03/shutterstock_2543042927.jpg 320w,
+                    https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/03/shutterstock_2543042927.jpg 600w,
+                    https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w960/2026/03/shutterstock_2543042927.jpg 960w,
+                    https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1200/2026/03/shutterstock_2543042927.jpg 1200w,
+                    https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w2000/2026/03/shutterstock_2543042927.jpg 2000w"
+            sizes="(max-width: 1200px) 100vw, 1120px"
+            src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1200/2026/03/shutterstock_2543042927.jpg"
+            alt="The OpenAI wordmark and logo shown on a smartphone with a white background against the backdrop of a monitor showing blurry red, white and blue code"
+        >
+            <figcaption><span style="white-space:pre-wrap">(Shutterstock)</span></figcaption>
+    </figure>
+
+        </header>
+
+        <section class="gh-content gh-canvas is-body">
+            <p><em>This is a column about AI. My boyfriend works at Anthropic. See&nbsp;</em><a href="https://www.platformer.news/ethics/"><em><u>my full ethics disclosure here</u></em></a><em>.</em></p><p>"In [Murati’s] experience, Altman had a simple playbook: first, say whatever he needed to say to get you to do what he wanted, and second, if that didn’t work, undermine you or destroy your credibility … It had taken Sutskever years to be able to put his finger on Altman’s pattern of behavior — how OpenAI’s CEO would tell him one thing, then say another and act as if the difference was an accident. “Oh, I must have misspoken,” Altman would say. Sutskever felt that Altman was dishonest and causing chaos, which would be a problem for any CEO, but especially for one in charge of such potentially civilization-altering technology." — Keach Hagey, <a href="https://wwnorton.com/books/9781324075974?ref=platformer.news"><em><u>The Optimist</u></em></a></p><p><strong>I.</strong></p><p>I thought of this passage from <em>The Optimist</em> over the weekend as I worked to make sense of a rather stunning series of events. The Pentagon followed through with <a href="https://www.platformer.news/anthropic-pentagon-authoritarian-ai/"><u>its threat</u></a> to terminate the military’s contract with Anthropic over the company’s refusal to amend its prior agreement to permit “all lawful use” of its technology, including mass domestic surveillance and autonomous weapons. It further threatened to designate Anthropic as a “supply chain risk,” a move previously reserved for corporate extensions of foreign adversaries, and move to block any company that contracts with the military from using Anthropic’s products.</p><p>For the briefest of moments, it appeared as if Anthropic might have an ally in the fight: on Friday morning, Hagey (in her regular perch at the <em>Wall Street Journal</em>) <a href="https://www.wsj.com/tech/ai/openais-sam-altman-calls-for-de-escalation-in-anthropic-showdown-with-hegseth-03ecbac8?mod=hp_lead_pos1&ref=platformer.news"><u>reported</u></a> that Altman had sent a memo to OpenAI’s staff saying that he would draw the same “red lines” Anthropic had.</p><p>“We have long believed that AI should not be used for mass surveillance or autonomous lethal weapons,” he wrote, “and that humans should remain in the loop for high-stakes automated decisions. These are our main red lines.”</p><p>And by Friday evening, Altman <a href="https://www.cnbc.com/2026/02/27/openai-strikes-deal-with-pentagon-hours-after-rival-anthropic-was-blacklisted-by-trump.html?ref=platformer.news"><u>announced on X</u></a> that OpenAI had reached an agreement with the Pentagon for classified AI deployment — with the same red lines, he claimed, now baked into the contract.</p><p>Setting aside for a moment the government’s unhinged retaliation against Anthropic, Altman’s claim to have won concessions from the US military offered at least some reason for hope. If powerful AI systems are to be embedded in systems of state violence, the least that Americans can ask for in return are mechanisms of oversight and restraint. Altman said OpenAI had achieved just that.</p><p>“Two of our most important safety principles are prohibitions on domestic mass surveillance and human responsibility for the use of force, including for autonomous weapon systems,” Altman said in an X post.&nbsp; “The DoW agrees with these principles, reflects them in law and policy, and we put them into our agreement.”</p><p>Immediately, Altman’s claim fell under scrutiny. Was it not suspicious that OpenAI claimed to have won with just a few days of negotiating the concessions that Anthropic had not? Was it possible that the same Pentagon officials railing on X against the idea of a private company attempting to exert control of the military were now making an exception for OpenAI?</p><p>Was the public now, like Mira Murati and Ilya Sutskever before them, caught in the familiar Altman trap that begins with him telling them what they want to hear?</p><p><strong>II.</strong>&nbsp;</p><p>Notably, in this case few seemed to extend to Altman the benefit of the doubt. The most popular post on the ChatGPT subreddit over the past week is titled “<a href="https://www.reddit.com/r/ChatGPT/comments/1rgseae/youre_now_training_a_war_machine_lets_see_proof/?ref=platformer.news"><u>You’re now training a war machine. Let’s see proof of cancellation</u></a>”; it received more than 32,000 upvotes. Similar posts in that forum and the OpenAI subreddit also received <a href="https://www.reddit.com/r/OpenAI/comments/1rgrccs/the_end_of_gpt/?ref=platformer.news"><u>tens of thousands of upvotes</u></a>; the company also came in for extended criticism on <a href="https://news.ycombinator.com/item?id=47189650&ref=platformer.news"><u>Hacker News</u></a>.</p><p>And as the weekend went on, additional reporting suggested that the knee-jerk cynicism triggered by OpenAI’s deal was justified.</p><p>In <em>The Verge</em>, Hayden Field reported that contrary to OpenAI’s public statements — and consistent with the military’s own framing of its demands — the company’s deal with the Pentagon includes <em>fewer</em> restrictions than Anthropic’s had.</p><p><a href="https://www.theverge.com/ai-artificial-intelligence/887309/openai-anthropic-dod-military-pentagon-contract-sam-altman-hegseth?ref=platformer.news"><u>She writes</u></a>:</p><blockquote>One source familiar with the Pentagon’s negotiations with AI companies confirmed that OpenAI’s deal is much softer than the one Anthropic was pushing for, thanks largely to three words: “any lawful use.” In negotiations, the person said, the Pentagon wouldn’t back down on its desire to collect and analyze bulk data on Americans. If you look line-by-line at the OpenAI terms, the source said, every aspect of it boils down to: If it’s technically legal, then the US military can use OpenAI’s technology to carry it out. And over the past decades, the US government has stretched the definition of “technically legal” to cover sweeping mass surveillance programs — and more.</blockquote><p>OpenAI <em>might</em> be able to partially block the military’s efforts to conduct domestic surveillance by building classifiers and implementing other model-level safeguards, as it has said it will do. And yet it’s essential to remember that most tasks related to mass surveillance might not look that way to a <em>model</em>. The government can upload massive spreadsheets of data bought legally from data brokers and ask GPT models to conduct all sorts of analyses that will not identify themselves as efforts to build systems of oppression.</p><p>And in any case, we know that the Pentagon tried repeatedly to eliminate meaningful safeguards in Anthropic’s contract through innocuous-seeming word changes and a generous dusting of legalese.&nbsp;</p><p>Ross Andersen described the process <a href="https://www.theatlantic.com/technology/2026/03/inside-anthropics-killer-robot-dispute-with-the-pentagon/686200/?gift=2iIN4YrefPjuvZ5d2Kh30zpPxOtZj8TuGGLnTN11Z-s&ref=platformer.news"><u>in <em>The Atlantic</em></u></a>. “The Pentagon had kept trying to leave itself little escape hatches in the agreements that it proposed to Anthropic,” he reported on Sunday. “It would pledge not to use Anthropic’s AI for mass domestic surveillance or for fully autonomous killing machines, but then qualify those pledges with loophole-y phrases like as appropriate — suggesting that the terms were subject to change, based on the administration’s interpretation of a given situation.”</p><p>Moreover, on the subject of autonomous weapons, Bloomberg reported last month that OpenAI is participating in a competition to develop software <a href="https://www.bloomberg.com/news/articles/2026-02-13/openai-tapped-for-voice-control-tech-in-us-drone-swarm-challenge?sref=CrGXSfHu&ref=platformer.news"><u>that will allow drones to be controlled via voice</u></a>. (Anthropic <a href="https://www.bloomberg.com/news/articles/2026-03-02/anthropic-made-pitch-in-drone-swarm-contest-during-pentagon-feud?sref=CrGXSfHu&ref=platformer.news"><u>participated in the competition</u></a>, too — reminding us that Dario Amodei’s objection to murderbots isn’t that they are immoral, but that they don’t work very well yet.)</p><p>If you build voice controls for the murderbot but not the murderbot itself, is that consistent with OpenAI’s usage policy?</p><p>“It turns out that the usage policy can be read in a few ways,” writes Sarah Shoker, who led OpenAI’s geopolitics team for three years before leaving last June, on <a href="https://sarahshoker.substack.com/p/a-few-observations-on-ai-companies"><u>her Substack</u></a>. “Depending on whether you believe that the use of an AI voice-to-digital tool in a kill-chain amounts to helping build a weapon, or if you believe that an AI model can be treated in isolation from its larger weapon system.”</p><p>The problem, Shoker writes, is that almost all of the relevant definitions here — again, the definitions relevant to whether and how you will be surveilled as an American, and which large language models might guide a drone swarm that someday attacks you — are up for debate.</p><p>“Policy and law are not free-floating static ‘things,’” she writes. “The borders of the law are fuzzy and filtered through political ideology. Throughout US history, policymakers have reinterpreted and exploited gaps in the law to allow for activity that independent legal observers have called straightforwardly illegal.”</p><p>She continues:</p><blockquote>There isn’t a consensus over what it means in practice to have adequate ‘human supervision,’ ‘human in the loop’ or ‘meaningful human control’ in autonomous weapons systems. Terms that reference human oversight <a href="https://lieber.westpoint.edu/how-meaningful-is-meaningful-human-control-laws-regulation/?ref=platformer.news"><u>remain contentious</u></a> around the world. Militaries are still trying to develop new testing and evaluation procedures for reducing problems like e.g. over-reliance in human-AI teams. It’s possible that Anthropic disagreed with how ‘human supervision’ (broadly speaking) would be put into practice.<br><br>A few frontier AI company employees have asked me about whether the ‘lawful purposes’ language is a sufficiently strong bulwark against misuse. The answer is always going to be it depends. You have to decide whether that’s good enough and if you trust your company leaders to respond effectively in case something goes wrong.</blockquote><p><strong>III.</strong></p><p>As public opinion began to turn against OpenAI — uninstalls of ChatGPT were up nearly 300 percent over the weekend, market research firm <a href="https://techcrunch.com/2026/03/02/chatgpt-uninstalls-surged-by-295-after-dod-deal/?utm_campaign=social&utm_source=threads&utm_medium=organic"><u>Sensor Tower estimated</u></a> — the company sought to reassure the public.</p><p>A <a href="https://openai.com/index/our-agreement-with-the-department-of-war/?ref=platformer.news"><u>blog post</u></a> laid out what it described as a comprehensive, layered approach to ensuring its red lines are never crossed, and posted what it said is the “relevant” portion of its contract with the military. And Altman and some of his colleagues at the company <a href="https://techcrunch.com/2026/03/01/openai-shares-more-details-about-its-agreement-with-the-pentagon/?ref=platformer.news"><u>answered questions</u></a> from people on X.</p><p>Jessica Tillipman, an expert in government contracts and professor at George Washington University Law School, analyzed the deal and the surrounding debate. For starters, <a href="https://jessicatillipman.com/what-rights-do-ai-companies-have-in-government-contracts/?ref=platformer.news"><u>she said</u></a> — and contrary to howling right-wing commentators who accused Anthropic of trying to subvert the democratic process by refusing to accept the military’s demands — “contractors restrict the government’s use of their products all the time.”</p><p>It is at least possible, she writes, that the safeguards OpenAI outlined would give it meaningful leverage to restrict the use of its models for whichever forms of surveillance and drone killing it takes issue with. But there is an enormous unanswered question — what happens when OpenAI and the military disagree?&nbsp;</p><p>Tillipman writes:</p><blockquote>If a classifier blocks a particular use, the question is whether the government has a contractual right to demand its removal. OpenAI asserts that it retains “full discretion” over those systems.<br><br>This creates tension at the heart of the agreement. The contract permits use “for all lawful purposes,” subject to “operational requirements” and “well-established safety and oversight protocols.” OpenAI says it retains full discretion over the safety stack it runs in a cloud-only deployment. If the safety stack blocks a lawful use, which provision controls? The answer depends on the specific contract language governing the relationship between the permissive use standard and the deployment framework — language that has not been made public.</blockquote><p>The Pentagon reacted to its disagreement with Anthropic — over a contract it had once willingly signed — by announcing an effort to destroy the company. The idea that some vague contractual language and a “safety stack” will prevent Defense Sec. Pete Hegseth and his subordinates from taking a maximalist view of their rights to OpenAI’s intellectual property is either impossibly naive, or outright deceptive.&nbsp;</p><p>In response to my questions, OpenAI pointed me to <a href="https://x.com/sama/status/2028640354912923739?ref=platformer.news"><u>another X post</u></a> from Altman that posted on Monday evening. In it, Altman said OpenAI plans to amend its contract with the Pentagon to add further restrictions on the use of its systems for surveillance, and that the National Security Agency will not be using GPT models. I'm told the Pentagon has agreed to the changes. These sound like meaningful improvements; we’ll see. </p><p>“One thing I think I did wrong: we shouldn't have rushed to get this out on Friday,” Altman added. “The issues are super complex, and demand clear communication. We were genuinely trying to de-escalate things and avoid a much worse outcome, but I think it just looked opportunistic and sloppy.”</p><p>Indeed. But in the end I’m left asking myself what will happen in the scenario that still seems disturbingly likely — that GPT models will in fact be used as part of surveillance and drone operations. Will it put up a blog post to explain that, well actually, that’s a <em>lawful</em> kind of surveillance? Do an AMA about how, despite how it may look, that autonomous drone swarm had proper human supervision? OpenAI does enough polling to understand that Americans already distrust and even openly loathe AI, even as they increasingly turn to it for work and school. How does it think Americans will feel when GPT models are powering ICE raids or causing civilian casualties in wars abroad?&nbsp;</p><p>The company may have tied its own hands. In the end, the truth about US military operations always seems to come out one way or another. And when it does, I suspect the “all lawful use” standard that OpenAI agreed to will have permitted a far wider range of operations than we are now being told are possible.&nbsp;</p><p>The problem with telling everyone what they want to hear is that eventually reality catches up with you. The people who will live under AI-powered surveillance, and the people in the flight path of AI-assisted drone swarms — they're the ones who are going to find out what OpenAI actually agreed to do. And I suspect it will be much more than the company now expects us to believe.&nbsp;</p><figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/floating_linebreak_600px-1.png" class="kg-image" alt="" loading="lazy" width="600" height="157" srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/floating_linebreak_600px-1.png 600w"></figure><figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/03/HardFork-banner.jpg" class="kg-image" alt="" loading="lazy" width="2000" height="500" srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/03/HardFork-banner.jpg 600w, https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1000/2026/03/HardFork-banner.jpg 1000w, https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1600/2026/03/HardFork-banner.jpg 1600w, https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w2400/2026/03/HardFork-banner.jpg 2400w" sizes="(min-width: 720px) 720px"></figure><p><strong>On a bonus episode of the podcast:&nbsp;</strong>Kevin and I compare notes on a tumultuous weekend for Anthropic, OpenAI, the Pentagon, and the country. Recorded on Saturday morning.</p><p><a href="https://substack.com/redirect/1f026a90-0a73-4c06-91a5-d9f0074230ed?r=9cs7&ref=platformer.news"><strong>Apple</strong></a><strong>&nbsp;|&nbsp;</strong><a href="https://substack.com/redirect/1ab817bf-db21-4c76-8b8b-73c3d62d0dd7?r=9cs7&ref=platformer.news"><strong>Spotify</strong></a><strong>&nbsp;|&nbsp;</strong><a href="https://substack.com/redirect/8f21522a-d6a1-4ec4-a4db-2acaea82bd59?r=9cs7&ref=platformer.news"><strong>Stitcher</strong></a><strong>&nbsp;|&nbsp;</strong><a href="https://substack.com/redirect/facb11f9-5648-4c10-8629-af0dbc7a8f4a?r=9cs7&ref=platformer.news"><strong>Amazon</strong></a><strong>&nbsp;|&nbsp;</strong><a href="https://substack.com/redirect/3bae724f-a172-4879-83b3-50b787887714?r=9cs7&ref=platformer.news"><strong>Google</strong></a><strong>&nbsp;|&nbsp;</strong><a href="https://www.youtube.com/@hardfork?ref=platformer.news"><strong>YouTube</strong></a></p><figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/floating_linebreak_600px-1.png" class="kg-image" alt="" loading="lazy" width="600" height="157" srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/floating_linebreak_600px-1.png 600w"></figure><h3 id="following">Following<br></h3><h3 id="everyone-has-something-to-say-about-the-pentagon-anthropic-and-openai">Everyone has something to say about the Pentagon, Anthropic, and OpenAI</h3><p><strong>What happened:</strong> As the <strong>Pentagon</strong>'s "all lawful use" drama unfolded, people started <a href="https://techcrunch.com/2026/03/02/chatgpt-uninstalls-surged-by-295-after-dod-deal/?utm_campaign=social&utm_source=threads&utm_medium=organic" rel="noreferrer">quitting</a> <strong>ChatGPT</strong> and switching to <strong>Claude</strong>. <strong>Reddit</strong> posts encouraging people to boycott ChatGPT have been getting tens of thousands of likes, and <strong>Anthropic</strong>’s Claude app <a href="https://techcrunch.com/2026/03/01/anthropics-claude-rises-to-no-2-in-the-app-store-following-pentagon-dispute/?ref=platformer.news" rel="noreferrer">reached</a> no. 1 on the <strong>App Store</strong>. (And Anthropic was quick on the draw, releasing an <a href="https://gizmodo.com/anthropic-improves-feature-to-switch-from-competitors-as-users-call-for-chatgpt-boycott-2000728352?ref=platformer.news"><u>improved tool</u></a> for helping people to switch by loading context from other AI apps into Claude).</p><p>Anthropic receive strong <a href="https://www.bloomberg.com/news/articles/2026-02-27/anthropic-s-feud-with-pentagon-mushrooms-into-broader-battle?sref=CrGXSfHu&ref=platformer.news"><u>declarations of support</u></a> from tech workers, too. A coalition representing 700,000 employees across <strong>Amazon</strong>, <strong>Google</strong>, and <strong>Microsoft</strong>, <a href="https://medium.com/@notechforapartheid/jointstatement-5561f1572e46?ref=platformer.news"><u>demanded</u></a> their companies “reject the <strong>Pentagon</strong>’s advances.” And an <a href="https://notdivided.org/?ref=platformer.news" rel="noreferrer"><u>open lette</u>r</a> from Google and <strong>OpenAI</strong> employees asked leaders to “refuse the Department of War’s current demands for permission to use our models for domestic mass surveillance and autonomously killing people without human oversight.”</p><p><strong>Why we’re following:</strong> Oh god. Where to start? This week’s events will have long-lasting effects on Anthropic’s business; OpenAI’s reputation; the public’s view of AI; the future of warfare; and American citizens’ right to privacy. To say nothing about my cortisol levels.</p><p>We’re left wondering whether remaining tech stakeholders like Amazon and Google will listen to workers and the public, or negotiate new contracts with the DoD that allow their tech to be used to surveil citizens and make kill decisions.</p><p><strong>What people are saying:</strong> Pop star <strong>Katy Perry</strong> weighed in on the situation on <strong>X</strong> with a <a href="https://x.com/katyperry/status/2027619173325553765?ref=platformer.news"><u>screenshot</u></a> of her signing up for a <strong>Claude Pro</strong> subscription, captioned “done.”</p><p>At the time of announcing their new deal with the Pentagon, OpenAI <a href="https://x.com/OpenAI/status/2027846016423321831?s=20&ref=platformer.news"><u>voiced some support</u></a> for Anthropic on X, saying “we do not think Anthropic should be designated as a supply chain risk and we’ve made our position on this clear to the Department of War.”</p><p>Discussing OpenAI’s renegotiated agreement, OpenAI researcher <strong>Aidan McLaughlin</strong> <a href="https://x.com/aidan_mclau/status/2028507663529906395?ref=platformer.news"><u>wrote</u></a>, “i personally don’t think this deal was worth it.” OpenAI safety researcher <strong>Cameron Raymond</strong> <a href="https://x.com/CJKRaymond/status/2028573907868144016?s=20&ref=platformer.news"><u>replied</u></a>, “idk how the dust will settle but for now i feel similarly.”</p><p>OpenAI researcher <strong>Leo Gao</strong> <a href="https://x.com/nabla_theta/status/2028185890737311767?s=20&ref=platformer.news"><u>took issue</u></a> with OpenAI’s comms about the new DoD deal. “the contract snippet from the openai dow blog post is so obviously just 'all lawful use' followed by a bunch of stuff that is not really operative except as window dressing,” he wrote.</p><p>Gao’s OpenAI colleague <strong>Boaz Barak</strong> offered a high-minded <a href="https://x.com/boazbaraktcs/status/2028132252090007776?s=20&ref=platformer.news"><u>response</u></a>, “I’m proud to work at a company that contains people as brilliant and conscientious as Leo and allows them to speak their mind.” He is proud of OpenAI’s culture, he added: “OpenAI has a lot of issues, but in terms of enabling employee pushback and discussion it is in fact still open, with all the messiness that this entails.” But he added a sneak diss: “Leo is an amazing researcher and person but not a lawyer or a natsec expert,” and people looking to understand the situation should follow OpenAI’s head of national security partnerships, <strong>Katrina Mulligan</strong>.</p><p>In a cameo on the same thread that had me reeling, former U.S. Congressman <strong>Brad Carson</strong> <a href="https://x.com/bradrcarson/status/2028154204649398523?s=20&ref=platformer.news"><u>responded</u></a> to Barak. “I'm former general counsel of Army, former Undersecretary of Army, former Undersec of Defense. Not sure if that makes me a nat sec 'expert.' But,” he wrote, Gao’s interpretation of the OpenAI contract “is the right one, IMO.”</p><p>In a later exchange, Gao <a href="https://x.com/nabla_theta/status/2028187393803911536?s=20&ref=platformer.news"><u>wrote</u></a> about OpenAI’s culture, “I do notice that the vast majority of people with views similar to me has left openai over time. I also think a lot of people are scared of speaking their mind.” But, he said, “it could also be a lot worse, and I think it's worth being grateful for what we do have.” Um. At the very least, I’m grateful that as of a year ago, OpenAI no longer requires its employees to sign <a href="https://www.vox.com/future-perfect/351132/openai-vested-equity-nda-sam-altman-documents-employees?ref=platformer.news"><u>highly restrictive</u></a> exit NDAs.</p><p>The episode also opened debate over what control tech companies should have over their government contracts. <em>Stratechery</em> writer <strong>Ben Thompson</strong> <a href="https://stratechery.com/2026/anthropic-and-alignment/?ref=platformer.news"><u>wrote</u></a> that this should all be up to the government’s discretion: “what is the standard by which it should be decided what is allowed and not allowed if not laws, which are passed by an elected Congress?” He continued, “Anthropic’s position is that Amodei — who I am using as a stand-in for Anthropic’s management and its board — ought to decide what its models are used for, despite the fact that Amodei is not elected and not accountable to the public.”</p><p><strong>Dean Ball</strong>, formerly an AI advisor in the <strong>Trump White House</strong>, <a href="https://www.hyperdimensional.co/p/clawed?ref=platformer.news"><u>wrote</u></a> in a must-read post on <strong>Substack</strong> that the Pentagon’s retaliation against Anthropic “strikes at a core principle of the American republic, one that has traditionally been especially dear to conservatives: private property.” <strong>Pete Hegseth</strong>, Ball argued, “announced his intention to commit corporate murder” because a private company was attempting to set their own terms for a contract. Essentially, it sent the message, “do business on our terms, or we will end your business.”</p><p>This week’s events were an ominous sign for the future of AI governance, Ball wrote. “The Anthropic-DoW skirmish is the first major public debate that is truly about where the proper locus of control over frontier AI should be,” he said. And they were an awful one. “Our public institutions behaved erratically, maliciously, and without strategic clarity.”</p><p>When all is said and done, we’re left thinking about <a href="https://x.com/Mihonarium/status/2028116464604197371?s=20&ref=platformer.news"><u>this</u></a> generationally significant <em>Onion</em> headline.</p><figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/03/data-src-image-edb8593f-dda1-41b9-8a88-6d7dfdd88e3c.png" class="kg-image" alt="" loading="lazy" width="900" height="1200" srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/03/data-src-image-edb8593f-dda1-41b9-8a88-6d7dfdd88e3c.png 600w, https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/03/data-src-image-edb8593f-dda1-41b9-8a88-6d7dfdd88e3c.png 900w" sizes="(min-width: 720px) 720px"></figure><p>—<em>Ella Markianos</em></p><hr><h3 id="prediction-markets-are-bad">Prediction markets are bad</h3><p><strong>What happened: </strong>Insiders keep trading on their inside information in ways that continuously make us ask: how is this legal?</p><p><strong>OpenAI</strong> fired an employee after finding out the employee used confidential company information for their personal gain on prediction markets including <strong>Polymarket</strong>, OpenAI CEO of applications <strong>Fidji Simo</strong> <a href="https://www.wired.com/story/openai-fires-employee-insider-trading-polymarket-kalshi/?ref=platformer.news"><u>told employees</u></a>.</p><p>This follows two other recent instances of insider trading on <strong>Kalshi</strong>, including a case where a former <strong>California</strong> gubernatorial candidate <strong>Kyle Langford</strong> traded on his own candidacy, and another where an editor for YouTuber <strong>MrBeast</strong> <a href="https://www.npr.org/2026/02/25/nx-s1-5726050/kalshi-insider-trading-enforcement-actions?ref=platformer.news"><u>bet on</u></a> markets related to MrBeast videos. Kalshi said it <a href="https://news.kalshi.com/p/kalshi-trading-violation-enforcement-cases?ref=platformer.news"><u>discovered the MrBeast case</u></a> after its monitoring systems flagged “near-perfect trading success on markets with low odds.”</p><p>The insider trading accusations also come amid a period of backlash for Kalshi following <a href="https://www.theverge.com/tech/887210/kalshi-void-bets-khamenei-death?ref=platformer.news"><u>its decision</u></a> to void some bets on the ouster of Iranian Supreme Leader <strong>Ali Khamenei</strong>.</p><p>Kalshi CEO <strong>Tarek Mansour</strong> said the platform doesn’t “list markets directly tied to death” to prevent people from profiting from death.</p><p><strong>Why we’re following: </strong>Prediction markets have increasingly become the go-to for prediction data related to elections and markets. A number of news publishers have announced partnerships with prediction markets — most recently, the <em>Associated Press</em> <a href="https://www.mediaite.com/media/news/ap-announces-its-teaming-up-with-prediction-market-site-kalshi-ahead-of-the-midterms/?utm_source=dlvr.it&utm_medium=bluesky"><u>announced</u></a> it’s teaming up with Kalshi to make its US election results available on the platform ahead of the 2026 midterms.</p><p>As trading volume grows exponentially on prediction markets, it’s troubling to see — without clear rules — how many people could profit from anything from election results to war, especially with hidden advantages.</p><p><strong>What people are saying: </strong>"I see you've placed your bet on Red. unfortunately in this casino, we call that color Bleen. you get $0. we'll keep your money. thanks for playing!” computer scientist <strong>Ben Anderson</strong> <a href="https://x.com/andersonbcdefg/status/2028135817991061610?ref=platformer.news"><u>quipped</u></a> about the Khamenei decision.</p><p>“Welcome to 2026 where a main talking point around war is whether prediction markets should include targeted assassinations as ‘being out as leader’,” <strong>@mert</strong> <a href="https://x.com/mert/status/2028116081466909161?ref=platformer.news"><u>wrote</u></a> on <strong>X</strong>.</p><p><strong>@jellymanguy</strong> highlighted Kalshi’s hypocrisy on its policies related to death, <a href="https://x.com/jellymanguy/status/2027935504943939927?ref=platformer.news"><u>pointing to</u></a> the bets it settled that former president <strong>Jimmy Carter</strong> would not attend President <strong>Trump</strong>’s inauguration, knowing that people were betting the then 100-year-old Carter would die before the event: “this has nothing to do with death, this has everything to do with your bottom line.”</p><p>On insider trading, “I imagine this is gonna play out like the ufc’s approach to drug testing: drag a couple idiots who were too obvious about it into the public square every once in a while and look the other way the rest of the time,” <a href="https://bsky.app/profile/nathangrayson.bsky.social/post/3mfpdomuzzc2a?ref=platformer.news"><u>wrote</u></a> <strong>Nathan Grayson</strong>, cofounder of news site <em>Aftermath</em>.</p><p><em>—Lindsey Choo</em></p><figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/floating_linebreak_600px-1.png" class="kg-image" alt="" loading="lazy" width="600" height="157" srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/floating_linebreak_600px-1.png 600w"></figure><h3 id="side-quests">Side Quests</h3><p>The <strong>DoD</strong> was in talks with leading AI companies about <a href="https://www.ft.com/content/a56d70b5-669c-4bcc-8541-a4961fc99802?ref=platformer.news"><u>partnerships</u></a> to conduct automated reconnaissance of <strong>China</strong>’s power grids, utilities and sensitive networks. Multiple federal agencies raised concerns about <strong>Grok</strong>'s safety and reliability in <a href="https://www.wsj.com/politics/national-security/elon-musk-xai-grok-security-safety-government-73ab4f6e?st=f8hivs&ref=platformer.news"><u>recent months</u></a>, before the DoD approved Grok for use in classified settings.</p><p>The <strong>U.S. Supreme Court</strong> <a href="https://www.reuters.com/legal/government/us-supreme-court-declines-hear-dispute-over-copyrights-ai-generated-material-2026-03-02/?ref=platformer.news"><u>declined to hear a dispute</u></a> over copyrights for AI-generated material. The case was brought by a computer scientist who was denied a copyright for AI-generated art. A federal judge <a href="https://www.reuters.com/legal/government/judge-blocks-virginia-law-restricting-social-media-children-2026-02-27/?ref=platformer.news"><u>issued</u></a> a preliminary injunction blocking <strong>Virginia</strong> from enforcing a new law restricting children's social media use, on First Amendment grounds.</p><p><strong>X</strong> is full of <a href="https://www.wired.com/story/x-is-drowning-in-disinformation-following-us-and-israels-attack-on-iran/?ref=platformer.news"><u>disinformation</u></a> about the U.S. and <strong>Israel</strong> attacks on <strong>Iran</strong>, including old videos attributed as recent and AI-generated images.&nbsp;Iranians <a href="https://www.bloomberg.com/news/articles/2026-03-02/iranians-evade-internet-blackout-to-share-images-of-airstrikes?ref=platformer.news"><u>have</u></a> turned to <strong>Starlink</strong>, decentralized messaging apps, and VPNs to circumvent the Internet blackout, and are sharing videos of U.S. and Israeli airstrikes.</p><p><strong>Amazon</strong> <strong>Web Services</strong> <a href="https://www.reuters.com/world/middle-east/amazons-cloud-unit-reports-fire-after-objects-hit-uae-data-center-2026-03-01/?ref=platformer.news"><u>said</u></a> its facilities in the Middle East were facing power and connectivity issues after unidentified “objects” struck its data center in the <strong>UAE</strong>.</p><p><strong>OpenAI</strong> <a href="https://www.cnbc.com/2026/02/27/open-ai-funding-round-amazon.html?ref=platformer.news"><u>raised</u></a> $110 billion at a $730 billion valuation, up from $500 billion in October. <strong>Amazon</strong> invested $50 billion, while <strong>Nvidia</strong> and <strong>SoftBank</strong> invested $30 billion each. OpenAI <a href="https://openai.com/index/scaling-ai-for-everyone/?ref=platformer.news"><u>said</u></a> <strong>ChatGPT</strong> has over 900 million weekly active users, and over 50 million consumer subscribers.</p><p>OpenAI said it would <a href="https://www.politico.com/news/2026/02/26/canada-openai-chatgpt-shooting-00802746?ref=platformer.news"><u>overhaul safety protocols</u></a> and establish direct contact with Canadian police, after failing to alert authorities about messages the <strong>Tumbler Ridge</strong> suspect was sending to ChatGPT.</p><p>The plaintiff in <strong>Meta</strong>’s big <a href="https://apnews.com/article/meta-instagram-facebook-trial-social-media-addiction-2afb4809d2dbbb0d1e69739c7f2b20b3?ref=platformer.news"><u>social media addiction trial</u></a> testified that her social media use, which began in childhood, exacerbated depression and suicidal thoughts. Meta filed lawsuits against four alleged <a href="https://au.news.yahoo.com/meta-reveals-huge-scammer-crackdown-170144983.html?_guc_consent_skip=1772477320&ref=platformer.news"><u>scam advertising operations</u></a> based in <strong>Brazil</strong>, China and <strong>Vietnam</strong>. <a href="https://www.theatlantic.com/technology/2026/02/meta-child-safety-documents-instagram/686163/?gift=iWa_iB9lkw4UuiWbIbrWGdKxkMOyEYN8nHGY7WriR3Y&ref=platformer.news"><u>Court documents</u></a> from a <strong>New Mexico</strong> trial showed internal divisions at Meta as <strong>Instagram</strong> teen safety initiatives conflicted with growth and engagement goals.</p><p>Chinese military procurement documents show the <strong>PLA</strong>'s efforts to use AI to assist in drone piloting, cyberattacks, decision-making, and <a href="https://www.foreignaffairs.com/china/chinas-artificial-intelligence-arsenal?ref=platformer.news"><u>disinformation campaigns</u></a>.</p><p><strong>Australia's</strong> <strong>eSafety Commissioner</strong> threatened action against app stores and search engines if AI services operating in Australia don't verify user ages <a href="https://www.reuters.com/business/media-telecom/australia-says-it-may-go-after-app-stores-search-engines-ai-age-crackdown-2026-03-01/?ref=platformer.news"><u>by March 9</u></a>.</p><p>A profile of <strong>Telegram</strong> CEO <a href="https://www.ft.com/content/26c18637-667f-498c-99e2-5c757702121b?sharetype=blocked&ref=platformer.news"><strong><u>Pavel Durov</u></strong></a>, who faces an investigation in <strong>France </strong>on a dozen preliminary charges and a criminal case in <strong>Russia</strong> for “aiding terrorism.”</p><p><strong>TikTok</strong> is back in <strong>Albania</strong> after a year-long ban <a href="https://www.reuters.com/sustainability/society-equity/tiktok-returns-albania-after-government-imposed-ban-2026-02-27/?ref=platformer.news"><u>expired this month</u></a>. The Albanian government said TikTok added "important filters for security and language."</p><p>The rise of <strong>Claude Code </strong>is fueling <a href="https://www.bloomberg.com/news/articles/2026-02-26/ai-coding-agents-like-claude-code-are-fueling-a-productivity-panic-in-tech?sref=CrGXSfHu&ref=platformer.news"><u>productivity panic</u></a> among engineers and executives. (A <strong>UC Berkeley</strong> study found people who adopt AI tools work longer hours.)</p><p><strong>Anthropic</strong> said <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-a-worldwide-outage/?ref=platformer.news"><u>“a fix has been implemented”</u></a> after a few hours of elevated errors on claude.ai, Claude Code, and some API methods.</p><p>Meta <a href="https://www.theinformation.com/articles/metas-internal-chip-design-efforts-hit-roadblocks?rc=8aq5ai&ref=platformer.news"><u>scrapped</u></a> the most advanced AI chip it was developing after struggling with the design, switching focus to a simpler chip.</p><p>Co-founder <strong>Toby Pohlen</strong> left <strong>xAI</strong>, making him the seventh of twelve co-founders <a href="https://www.bloomberg.com/news/articles/2026-02-27/xai-co-founder-toby-pohlen-is-latest-executive-to-depart?sref=CrGXSfHu&ref=platformer.news"><u>to depart</u></a>. <strong>Elon Musk</strong> <a href="https://techcrunch.com/2026/02/27/musk-bashes-openai-in-deposition-saying-nobody-committed-suicide-because-of-grok/?ref=platformer.news"><u>bashed</u></a> OpenAI in a lawsuit deposition, saying “nobody committed suicide because of Grok.” X added a “<strong>Paid Partnership</strong>” label that creators can apply to their posts to indicate they’re <a href="https://techcrunch.com/2026/03/02/x-ads-paid-partnership-labels-for-creators-so-they-can-ditch-the-hashtags/?ref=platformer.news"><u>advertisements</u></a>.</p><figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/floating_linebreak_600px-1.png" class="kg-image" alt="" loading="lazy" width="600" height="157" srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/floating_linebreak_600px-1.png 600w"></figure><h3 id="those-good-posts">Those good posts</h3><p><em>For more good posts every day, </em><a href="https://www.instagram.com/crumbler/?ref=platformer.news"><em>follow Casey’s Instagram stories</em></a><em>.</em></p><figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/03/Screenshot-2026-03-02-at-5.56.40---PM.png" class="kg-image" alt="" loading="lazy" width="1340" height="326" srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/03/Screenshot-2026-03-02-at-5.56.40---PM.png 600w, https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1000/2026/03/Screenshot-2026-03-02-at-5.56.40---PM.png 1000w, https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/03/Screenshot-2026-03-02-at-5.56.40---PM.png 1340w" sizes="(min-width: 720px) 720px"></figure><p>(<a href="https://www.threads.com/@myqkaplan/post/DVM7-6QDKXy?ref=platformer.news" rel="noreferrer">Link</a>)</p><figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/03/Screenshot-2026-03-02-at-5.56.04---PM.png" class="kg-image" alt="" loading="lazy" width="1250" height="534" srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/03/Screenshot-2026-03-02-at-5.56.04---PM.png 600w, https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1000/2026/03/Screenshot-2026-03-02-at-5.56.04---PM.png 1000w, https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/03/Screenshot-2026-03-02-at-5.56.04---PM.png 1250w" sizes="(min-width: 720px) 720px"></figure><p>(<a href="https://www.threads.com/@karissabe/post/DVWpCyCkrbO?ref=platformer.news" rel="noreferrer">Link</a>)</p><figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/03/Screenshot-2026-03-02-at-5.57.01---PM.png" class="kg-image" alt="" loading="lazy" width="1262" height="1080" srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/03/Screenshot-2026-03-02-at-5.57.01---PM.png 600w, https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1000/2026/03/Screenshot-2026-03-02-at-5.57.01---PM.png 1000w, https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/03/Screenshot-2026-03-02-at-5.57.01---PM.png 1262w" sizes="(min-width: 720px) 720px"></figure><p>(<a href="https://www.threads.com/@lykaboss/post/DVUkA4NDZp1?ref=platformer.news" rel="noreferrer">Link</a>)</p><figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/floating_linebreak_600px-1.png" class="kg-image" alt="" loading="lazy" width="600" height="157" srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/floating_linebreak_600px-1.png 600w"></figure><h3 id="talk-to-us">Talk to us</h3><p>Send us tips, comments, questions, and amended contract language: <a href="mailto:casey@platformer.news">casey@platformer.news</a>. Read <a href="https://www.platformer.news/ethics/">our ethics policy here</a>.</p><div class="kg-card kg-button-card kg-align-center"><a href="https://www.notion.so/platformer/Advertising-Policy-471e6f2b0ec84d14b1b87e8b0863f4cf?ref=platformer.news" class="kg-btn kg-btn-accent">Sponsor a Newsletter</a></div><hr>
+        </section>
+
+    </article>
+
+        <div class="gh-comments gh-canvas">
+            
+        <script defer src="https://cdn.jsdelivr.net/ghost/comments-ui@~1.6/umd/comments-ui.min.js" data-locale="en" data-ghost-comments="https://www.platformer.news/" data-api="https://platformer.ghost.io/ghost/api/content/" data-admin="https://platformer.ghost.io/ghost/" data-key="784efcca5a3abd410ac226ae79" data-title="null" data-count="true" data-post-id="69a62d6cae25ea0001cd361e" data-color-scheme="auto" data-avatar-saturation="60" data-accent-color="#2047FF" data-comments-enabled="paid" data-publication="Platformer" crossorigin="anonymous"></script>
+    
+        </div>
+
+</main>
+
+
+            <section class="gh-container is-grid gh-outer">
+                <div class="gh-container-inner gh-inner">
+                    <h2 class="gh-container-title">Read more</h2>
+                    <div class="gh-feed">
+                            <article class="gh-card post">
+    <a class="gh-card-link" href="/openai-dots-agents-devday-2026/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w160/format/webp/2026/09/lKUB_Ynw.png 160w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w320/format/webp/2026/09/lKUB_Ynw.png 320w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/format/webp/2026/09/lKUB_Ynw.png 600w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w960/format/webp/2026/09/lKUB_Ynw.png 960w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1200/format/webp/2026/09/lKUB_Ynw.png 1200w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w2000/format/webp/2026/09/lKUB_Ynw.png 2000w"
+                    sizes="320px"
+                    src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/09/lKUB_Ynw.png"
+                    alt="An OpenAI Dot named Felipe updates marketing slides in response to user questions"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">OpenAI connects the Dots</h3>
+                <p class="gh-card-excerpt is-body">With safety questions still swirling, the company introduces a more business-focused take on agents</p>
+            <footer class="gh-card-meta">
+<!--
+             -->
+                    <span class="gh-card-author">By Casey Newton</span>
+                    <time class="gh-card-date" datetime="2026-09-29">29 Sep 2026</time>
+                <!--
+         --></footer>
+        </div>
+    </a>
+</article>
+                            <article class="gh-card post">
+    <a class="gh-card-link" href="/open-ai-model-release-canceled/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w160/format/webp/2026/09/shutterstock_2839229437.jpg 160w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w320/format/webp/2026/09/shutterstock_2839229437.jpg 320w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/format/webp/2026/09/shutterstock_2839229437.jpg 600w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w960/format/webp/2026/09/shutterstock_2839229437.jpg 960w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1200/format/webp/2026/09/shutterstock_2839229437.jpg 1200w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w2000/format/webp/2026/09/shutterstock_2839229437.jpg 2000w"
+                    sizes="320px"
+                    src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/09/shutterstock_2839229437.jpg"
+                    alt="Following: OpenAI taps the brakes"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Following: OpenAI taps the brakes</h3>
+                <p class="gh-card-excerpt is-body">On the eve of the company&#x27;s developer conference, it cancels a new model over safety fears</p>
+            <footer class="gh-card-meta">
+                        <span class="gh-access-label">
+    <span class="gh-access-label-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20" width="20" id="Lock-1--Streamline-Ultimate"><defs></defs><title>lock-1</title><path d="M4.375 8.125h11.25s1.25 0 1.25 1.25v8.75s0 1.25 -1.25 1.25H4.375s-1.25 0 -1.25 -1.25v-8.75s0 -1.25 1.25 -1.25" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path><path d="M5.625 8.125V5a4.375 4.375 0 0 1 8.75 0v3.125" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path><path d="m10 12.5 0 2.5" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></span>
+    <span class="gh-access-label-text">Paid</span>
+</span>
+                <!--
+             -->
+                    <span class="gh-card-author">By Ella Markianos, Lindsey Choo</span>
+                    <time class="gh-card-date" datetime="2026-09-28">28 Sep 2026</time>
+                <!--
+         --></footer>
+        </div>
+    </a>
+</article>
+                            <article class="gh-card post">
+    <a class="gh-card-link" href="/meta-connect-2026-muse-vr-glasses/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w160/format/webp/2026/09/Meta-muse-charm.webp 160w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w320/format/webp/2026/09/Meta-muse-charm.webp 320w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/format/webp/2026/09/Meta-muse-charm.webp 600w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w960/format/webp/2026/09/Meta-muse-charm.webp 960w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1200/format/webp/2026/09/Meta-muse-charm.webp 1200w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w2000/format/webp/2026/09/Meta-muse-charm.webp 2000w"
+                    sizes="320px"
+                    src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/09/Meta-muse-charm.webp"
+                    alt="Can Muse make us forget the metaverse?"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Can Muse make us forget the metaverse?</h3>
+                <p class="gh-card-excerpt is-body">Meta has a new vision to sell, but it may be getting ahead of itself. (The VR Glasses are amazing, though)</p>
+            <footer class="gh-card-meta">
+<!--
+             -->
+                    <span class="gh-card-author">By Casey Newton</span>
+                    <time class="gh-card-date" datetime="2026-09-24">24 Sep 2026</time>
+                <!--
+         --></footer>
+        </div>
+    </a>
+</article>
+                            <article class="gh-card post">
+    <a class="gh-card-link" href="/meta-muse-consumer-agents/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w160/format/webp/2026/09/shutterstock_2842083295.jpg 160w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w320/format/webp/2026/09/shutterstock_2842083295.jpg 320w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/format/webp/2026/09/shutterstock_2842083295.jpg 600w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w960/format/webp/2026/09/shutterstock_2842083295.jpg 960w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1200/format/webp/2026/09/shutterstock_2842083295.jpg 1200w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w2000/format/webp/2026/09/shutterstock_2842083295.jpg 2000w"
+                    sizes="320px"
+                    src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/09/shutterstock_2842083295.jpg"
+                    alt="The Muse logo shown on a smartphone underneath the Meta AI wordmark."
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Muse is having a moment</h3>
+                <p class="gh-card-excerpt is-body">Are consumer agents the future — or a mirage?</p>
+            <footer class="gh-card-meta">
+                        <span class="gh-access-label">
+    <span class="gh-access-label-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20" width="20" id="Lock-1--Streamline-Ultimate"><defs></defs><title>lock-1</title><path d="M4.375 8.125h11.25s1.25 0 1.25 1.25v8.75s0 1.25 -1.25 1.25H4.375s-1.25 0 -1.25 -1.25v-8.75s0 -1.25 1.25 -1.25" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path><path d="M5.625 8.125V5a4.375 4.375 0 0 1 8.75 0v3.125" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path><path d="m10 12.5 0 2.5" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></span>
+    <span class="gh-access-label-text">Paid</span>
+</span>
+                <!--
+             -->
+                    <span class="gh-card-author">By Casey Newton</span>
+                    <time class="gh-card-date" datetime="2026-09-22">22 Sep 2026</time>
+                <!--
+         --></footer>
+        </div>
+    </a>
+</article>
+                    </div>
+                </div>
+            </section>
+
+    
+    <footer class="gh-footer gh-outer">
+    <div class="gh-footer-inner gh-inner">
+
+                <section class="gh-footer-signup">
+                    <h2 class="gh-footer-signup-header is-title">
+                        Platformer
+                    </h2>
+                    <p class="gh-footer-signup-subhead is-body">
+                        At least one free edition comes out every week. Paid subscribers receive at least one additional update each week.
+                    </p>
+                    <form class="gh-form" data-members-form>
+    <input class="gh-form-input" id="footer-email" name="email" type="email" autocomplete="email" aria-label="Your email address" aria-describedby="footer-email-error" placeholder="jamie@example.com" required data-members-email>
+    <button class="gh-button" type="submit" aria-label="Subscribe">
+        <span><span>Subscribe</span> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M224.49,136.49l-72,72a12,12,0,0,1-17-17L187,140H40a12,12,0,0,1,0-24H187L135.51,64.48a12,12,0,0,1,17-17l72,72A12,12,0,0,1,224.49,136.49Z"></path></svg></span>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24">
+    <g stroke-linecap="round" stroke-width="2" fill="currentColor" stroke="none" stroke-linejoin="round" class="nc-icon-wrapper">
+        <g class="nc-loop-dots-4-24-icon-o">
+            <circle cx="4" cy="12" r="3"></circle>
+            <circle cx="12" cy="12" r="3"></circle>
+            <circle cx="20" cy="12" r="3"></circle>
+        </g>
+        <style data-cap="butt">
+            .nc-loop-dots-4-24-icon-o{--animation-duration:0.8s}
+            .nc-loop-dots-4-24-icon-o *{opacity:.4;transform:scale(.75);animation:nc-loop-dots-4-anim var(--animation-duration) infinite}
+            .nc-loop-dots-4-24-icon-o :nth-child(1){transform-origin:4px 12px;animation-delay:-.3s;animation-delay:calc(var(--animation-duration)/-2.666)}
+            .nc-loop-dots-4-24-icon-o :nth-child(2){transform-origin:12px 12px;animation-delay:-.15s;animation-delay:calc(var(--animation-duration)/-5.333)}
+            .nc-loop-dots-4-24-icon-o :nth-child(3){transform-origin:20px 12px}
+            @keyframes nc-loop-dots-4-anim{0%,100%{opacity:.4;transform:scale(.75)}50%{opacity:1;transform:scale(1)}}
+        </style>
+    </g>
+</svg>        <span>Email sent</span>
+    </button>
+    <p id="footer-email-error" aria-live="polite" data-members-error></p>
+</form>
+                </section>
+
+        <div class="gh-social-links">
+                <a href="https://x.com/platformer" target="_blank" rel="noopener" aria-label="X">
+<svg viewBox="0 0 24 24" fill="currentColor"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>                </a>
+                <a href="https://www.linkedin.com/in/caseynewton1" target="_blank" rel="noopener" aria-label="LinkedIn">
+<svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M22.2 0H1.8C1.32261 0 0.864773 0.18964 0.527213 0.527213C0.18964 0.864773 0 1.32261 0 1.8V22.2C0 22.6773 0.18964 23.1352 0.527213 23.4728C0.864773 23.8104 1.32261 24 1.8 24H22.2C22.6773 24 23.1352 23.8104 23.4728 23.4728C23.8104 23.1352 24 22.6773 24 22.2V1.8C24 1.32261 23.8104 0.864773 23.4728 0.527213C23.1352 0.18964 22.6773 0 22.2 0ZM7.2 20.4H3.6V9.6H7.2V20.4ZM5.4 7.5C4.98741 7.48821 4.58747 7.35509 4.25011 7.11729C3.91275 6.87949 3.65293 6.54755 3.50316 6.16293C3.35337 5.77832 3.32025 5.35809 3.40793 4.95476C3.4956 4.55144 3.7002 4.18288 3.99613 3.89517C4.29208 3.60745 4.66624 3.41332 5.07188 3.33704C5.47752 3.26075 5.89664 3.30569 6.27688 3.46625C6.65712 3.6268 6.98163 3.89585 7.20983 4.23977C7.43804 4.58371 7.55983 4.98725 7.56 5.4C7.55052 5.96441 7.318 6.50213 6.91327 6.89564C6.50852 7.28913 5.96447 7.50643 5.4 7.5ZM20.4 20.4H16.8V14.712C16.8 13.008 16.08 12.396 15.144 12.396C14.8696 12.4143 14.6015 12.4865 14.3551 12.6088C14.1087 12.7309 13.8888 12.9007 13.7081 13.108C13.5276 13.3155 13.3896 13.5565 13.3024 13.8173C13.2152 14.0781 13.1804 14.3536 13.2 14.628C13.194 14.6839 13.194 14.7401 13.2 14.796V20.4H9.6V9.6H13.08V11.16C13.4311 10.626 13.9133 10.1911 14.4807 9.89693C15.048 9.6028 15.6813 9.4592 16.32 9.48C18.18 9.48 20.352 10.512 20.352 13.872L20.4 20.4Z" fill="currentColor"/>
+</svg>                </a>
+                <a href="https://bsky.app/profile/caseynewton.bsky.social" target="_blank" rel="noopener" aria-label="Bluesky">
+<svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M11.8868 11.3624C10.8107 9.1288 7.87874 4.96656 5.15331 2.91348C3.18679 1.43245 0 0.28612 0 3.93314C0 4.66121 0.416033 10.0519 0.660462 10.927C1.50889 13.9693 4.60131 14.7453 7.352 14.2758C2.54378 15.0967 1.32092 17.8158 3.9624 20.535C8.97901 25.6994 11.1728 19.2393 11.7346 17.584C11.8385 17.2784 11.8868 17.1365 11.8868 17.262C11.8868 17.1365 11.9351 17.2784 12.0391 17.584C12.6008 19.2393 14.7946 25.6994 19.8113 20.535C22.4527 17.8158 21.2298 15.0967 16.4217 14.2758C19.1723 14.7453 22.2648 13.9693 23.1132 10.927C23.3576 10.0519 23.7736 4.66121 23.7736 3.93314C23.7736 0.28612 20.5872 1.43245 18.6204 2.91348C15.8949 4.96656 12.963 9.1288 11.8868 11.3624Z" fill="currentColor"/>
+</svg>                </a>
+                <a href="https://www.threads.net/@crumbler" target="_blank" rel="noopener" aria-label="Threads">
+<svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.5609 11.1236C17.4575 11.074 17.3526 11.0263 17.2462 10.9806C17.0611 7.56727 15.1967 5.61312 12.0661 5.59312C12.0519 5.59304 12.0379 5.59304 12.0237 5.59304C10.1512 5.59304 8.59388 6.39262 7.63537 7.84759L9.35708 9.0291C10.0732 7.94229 11.1969 7.7106 12.0245 7.7106C12.034 7.7106 12.0436 7.7106 12.0531 7.71068C13.0839 7.71726 13.8618 8.01708 14.3652 8.60175C14.7315 9.02742 14.9765 9.61563 15.0978 10.3579C14.1839 10.2026 13.1956 10.1548 12.139 10.2155C9.16261 10.387 7.24916 12.1235 7.37767 14.5365C7.44288 15.7605 8.05242 16.8135 9.09393 17.5014C9.97446 18.0829 11.1087 18.3673 12.2874 18.3029C13.844 18.2175 15.0652 17.6234 15.9171 16.5371C16.564 15.712 16.9732 14.6429 17.154 13.2958C17.8957 13.7436 18.4455 14.333 18.7492 15.0414C19.2655 16.2459 19.2956 18.225 17.6814 19.8385C16.267 21.2521 14.5669 21.8635 11.9976 21.8824C9.14756 21.8613 6.9921 20.9468 5.59068 19.1646C4.27836 17.4958 3.60015 15.0852 3.57484 12C3.60015 8.91472 4.27836 6.5042 5.59068 4.83533C6.9921 3.05312 9.14752 2.13875 11.9976 2.11756C14.8684 2.13891 17.0614 3.05767 18.5164 4.8485C19.2299 5.7267 19.7677 6.8311 20.1224 8.11879L22.14 7.58028C21.7102 5.99527 21.0338 4.62946 20.1135 3.49675C18.248 1.20083 15.5199 0.024398 12.0046 0H11.9906C8.48249 0.0243044 5.78485 1.20522 3.97257 3.50991C2.3599 5.5608 1.52804 8.41446 1.50008 11.9916L1.5 12L1.50008 12.0084C1.52804 15.5855 2.3599 18.4393 3.97257 20.4901C5.78485 22.7947 8.48249 23.9758 11.9906 24H12.0046C15.1235 23.9783 17.3219 23.1615 19.1329 21.3513C21.5024 18.9833 21.431 16.0149 20.6501 14.1927C20.0898 12.8859 19.0216 11.8245 17.5609 11.1236ZM12.1759 16.1884C10.8715 16.2619 9.51623 15.6761 9.44937 14.4215C9.39984 13.4913 10.1111 12.4533 12.256 12.3296C12.5016 12.3154 12.7427 12.3085 12.9794 12.3085C13.7585 12.3085 14.4874 12.3842 15.1499 12.5292C14.9028 15.6169 13.4532 16.1183 12.1759 16.1884Z" fill="currentColor"/>
+</svg>
+                </a>
+                <a href="https://www.youtube.com/@caseynewton" target="_blank" rel="noopener" aria-label="YouTube">
+<svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M21.3763 2.59736C22.4096 2.92662 23.2216 3.89324 23.4982 5.12324C23.9979 7.35042 24 12 24 12C24 12 24 16.6496 23.4982 18.8768C23.2216 20.1068 22.4096 21.0734 21.3763 21.4026C19.5055 22 12 22 12 22C12 22 4.49456 22 2.62363 21.4026C1.59039 21.0734 0.7784 20.1068 0.501806 18.8768C0 16.6496 0 12 0 12C0 12 0 7.35042 0.501806 5.12324C0.7784 3.89324 1.59039 2.92662 2.62363 2.59736C4.49456 2 12 2 12 2C12 2 19.5055 2 21.3763 2.59736ZM16.0153 12.0004L9.48326 15.8822V8.11841L16.0153 12.0004Z" fill="currentColor"/>
+</svg>                </a>
+                <a href="https://www.instagram.com/crumbler" target="_blank" rel="noopener" aria-label="Instagram">
+<svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 2.982C14.937 2.982 15.285 2.993 16.445 3.046C17.1424 3.05412 17.8331 3.18233 18.487 3.425C18.965 3.60111 19.3973 3.88237 19.752 4.248C20.1176 4.60269 20.3989 5.035 20.575 5.513C20.8177 6.16685 20.9459 6.85762 20.954 7.555C21.007 8.715 21.018 9.063 21.018 12C21.018 14.937 21.007 15.285 20.954 16.445C20.9459 17.1424 20.8177 17.8331 20.575 18.487C20.3919 18.9615 20.1116 19.3924 19.752 19.752C19.3924 20.1116 18.9615 20.3919 18.487 20.575C17.8331 20.8177 17.1424 20.9459 16.445 20.954C15.285 21.007 14.937 21.018 12 21.018C9.063 21.018 8.715 21.007 7.555 20.954C6.85762 20.9459 6.16685 20.8177 5.513 20.575C5.035 20.3989 4.60269 20.1176 4.248 19.752C3.88237 19.3973 3.60111 18.965 3.425 18.487C3.18233 17.8331 3.05412 17.1424 3.046 16.445C2.993 15.285 2.982 14.937 2.982 12C2.982 9.063 2.993 8.715 3.046 7.555C3.05412 6.85762 3.18233 6.16685 3.425 5.513C3.60111 5.035 3.88237 4.60269 4.248 4.248C4.60269 3.88237 5.035 3.60111 5.513 3.425C6.16685 3.18233 6.85762 3.05412 7.555 3.046C8.715 2.993 9.063 2.982 12 2.982ZM12 1C9.013 1 8.638 1.013 7.465 1.066C6.55258 1.08486 5.6499 1.25762 4.795 1.577C4.06355 1.86017 3.3994 2.29319 2.84521 2.84824C2.29102 3.40329 1.85904 4.06811 1.577 4.8C1.25762 5.6549 1.08486 6.55758 1.066 7.47C1.013 8.638 1 9.013 1 12C1 14.987 1.013 15.362 1.066 16.535C1.08486 17.4474 1.25762 18.3501 1.577 19.205C1.86017 19.9365 2.29319 20.6006 2.84824 21.1548C3.40329 21.709 4.06811 22.141 4.8 22.423C5.6549 22.7424 6.55758 22.9151 7.47 22.934C8.638 22.987 9.013 23 12 23C14.987 23 15.362 22.987 16.535 22.934C17.4474 22.9151 18.3501 22.7424 19.205 22.423C19.9365 22.1398 20.6006 21.7068 21.1548 21.1518C21.709 20.5967 22.141 19.9319 22.423 19.2C22.7424 18.3451 22.9151 17.4424 22.934 16.53C22.987 15.362 23 14.987 23 12C23 9.013 22.987 8.638 22.934 7.465C22.9151 6.55258 22.7424 5.6499 22.423 4.795C22.1398 4.06355 21.7068 3.3994 21.1518 2.84521C20.5967 2.29102 19.9319 1.85904 19.2 1.577C18.3451 1.25762 17.4424 1.08486 16.53 1.066C15.362 1.013 14.987 1 12 1Z" fill="currentColor"/>
+    <path d="M11.9996 6.35107C10.8823 6.35107 9.79015 6.68238 8.86117 7.3031C7.9322 7.92382 7.20815 8.80608 6.78059 9.8383C6.35303 10.8705 6.24116 12.0063 6.45913 13.1021C6.6771 14.1979 7.21512 15.2045 8.00514 15.9945C8.79517 16.7845 9.80172 17.3226 10.8975 17.5405C11.9933 17.7585 13.1291 17.6466 14.1614 17.2191C15.1936 16.7915 16.0758 16.0675 16.6966 15.1385C17.3173 14.2095 17.6486 13.1173 17.6486 12.0001C17.6486 10.5019 17.0534 9.06502 15.994 8.00563C14.9346 6.94624 13.4978 6.35107 11.9996 6.35107ZM11.9996 15.6671C11.2743 15.6671 10.5653 15.452 9.96231 15.0491C9.35928 14.6461 8.88927 14.0734 8.61172 13.4034C8.33418 12.7333 8.26156 11.996 8.40305 11.2847C8.54454 10.5734 8.89379 9.91995 9.40663 9.40711C9.91947 8.89427 10.5729 8.54503 11.2842 8.40353C11.9955 8.26204 12.7328 8.33466 13.4029 8.61221C14.0729 8.88975 14.6457 9.35976 15.0486 9.9628C15.4515 10.5658 15.6666 11.2748 15.6666 12.0001C15.6666 12.9726 15.2802 13.9053 14.5925 14.593C13.9049 15.2807 12.9721 15.6671 11.9996 15.6671Z" fill="currentColor"/>
+    <path d="M17.8718 7.44811C18.6008 7.44811 19.1918 6.85712 19.1918 6.12811C19.1918 5.39909 18.6008 4.80811 17.8718 4.80811C17.1427 4.80811 16.5518 5.39909 16.5518 6.12811C16.5518 6.85712 17.1427 7.44811 17.8718 7.44811Z" fill="currentColor"/>
+</svg>
+                </a>
+        </div>
+
+        <div class="gh-footer-bar">
+            <span class="gh-footer-logo is-title">
+                    <img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/Wordmark_Transparent_Slate_NoPadding.png" alt="Platformer">
+            </span>
+            <nav class="gh-footer-menu">
+                <ul class="nav">
+    <li class="nav-about"><a href="https://www.platformer.news/about/">About</a></li>
+    <li class="nav-ethics"><a href="https://www.platformer.news/ethics/">Ethics</a></li>
+    <li class="nav-advertising-policy"><a href="https://www.platformer.news/advertising-policy/">Advertising Policy</a></li>
+    <li class="nav-posting-schedule"><a href="https://www.platformer.news/posting-schedule/">Posting Schedule</a></li>
+    <li class="nav-tip-jar"><a href="https://www.platformer.news/tip-jar/">Tip Jar</a></li>
+    <li class="nav-sign-up"><a href="https://www.platformer.news/#/portal/">Sign up</a></li>
+    <li class="nav-advanced-user-settings"><a href="https://www.platformer.news/advanced-settings/">Advanced User Settings</a></li>
+</ul>
+
+            </nav>
+            <div class="gh-footer-copyright">
+                Powered by <a href="https://ghost.org/" target="_blank" rel="noopener">Ghost</a>
+            </div>
+        </div>
+
+    </div>
+</footer>
+    
+</div>
+
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://www.platformer.news/assets/built/lightbox.js?v=u4EZ1W_zZERo-I0T"></script>
+<script src="https://www.platformer.news/assets/built/source.js?v=Yaq4X5d87k-_RFqD"></script>
+
+
+<script>
+!function(w,d,id,ns,s){var c=w[ns]=w[ns]||{};if(c.ready||(c.q=[],c.ready=function(){c.q.push(arguments)}),!d.getElementById(id)){var e=d.createElement(s);e.id=id,e.defer=true,e.src="https://assets.context.ly/kit/6.latest/loader.js";var h=d.getElementsByTagName(s)[0];h.parentNode.insertBefore(e,h)}}(window,document,"ctx-loader","Contextly","script");
+</script>
+<script>
+Contextly.ready('widgets');
+</script>
+<script>
+  const OutpostPub = {
+    apiDomain: "https://platformernews.outpost.pub",
+    apiKey: "5256302e-24e7-4b08-a293-c42417ba8d25",
+    siteName: "Platformer",
+    memberId: "",
+    memberEmail: "",
+        post: {
+          id: "69a62d6cae25ea0001cd361e",
+          tags: ["OpenAI"],
+        }
+  }
+</script>
+<script defer src="https://assets.outpostpublishingcoop.com/assets/v2/js/outpost-pub.js"></script>
+
+</body>
+</html>

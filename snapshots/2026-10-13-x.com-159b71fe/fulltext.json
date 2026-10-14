@@ -1,0 +1,153 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/polynoamial/status/2028643577165963465",
+    "id": "2028643577165963465",
+    "text": "tl;dr: @OpenAI will not be deploying to the NSA or other DoW intelligence agencies for now, so that there's time to address potential surveillance loopholes through the democratic process.\n\nOver the weekend it became clear that the original language in the OpenAI / DoW agreement left legitimate questions unanswered, especially around some novel ways that AI could potentially enable legal surveillance. The language is now updated to address this, but I also strongly believe that the world should not have to rely on trust in AI labs or intelligence agencies for their safety and security. Deployment to the NSA and all other DoW intelligence agencies will be withheld so that there is time to address these loopholes through the democratic process before deployment.\n\nI know that legislation can sometimes be slow, but I'm afraid of a slippery slope where we become accustomed to circumventing the democratic process for important policy decisions. When there is bipartisan support and urgency, I have faith that government can act quickly. And as AI becomes more powerful, it's more important than ever that ultimate authority be vested in the public.\n\nI am also planning to become more personally involved with policy at OpenAI. I think now more than ever it's important for researchers to be in the loop so that policy is informed of the extremely fast progress we are seeing.",
+    "raw_text": {
+      "text": "tl;dr: @OpenAI will not be deploying to the NSA or other DoW intelligence agencies for now, so that there's time to address potential surveillance loopholes through the democratic process.\n\nOver the weekend it became clear that the original language in the OpenAI / DoW agreement left legitimate questions unanswered, especially around some novel ways that AI could potentially enable legal surveillance. The language is now updated to address this, but I also strongly believe that the world should not have to rely on trust in AI labs or intelligence agencies for their safety and security. Deployment to the NSA and all other DoW intelligence agencies will be withheld so that there is time to address these loopholes through the democratic process before deployment.\n\nI know that legislation can sometimes be slow, but I'm afraid of a slippery slope where we become accustomed to circumventing the democratic process for important policy decisions. When there is bipartisan support and urgency, I have faith that government can act quickly. And as AI becomes more powerful, it's more important than ever that ultimate authority be vested in the public.\n\nI am also planning to become more personally involved with policy at OpenAI. I think now more than ever it's important for researchers to be in the loop so that policy is informed of the extremely fast progress we are seeing.",
+      "display_text_range": [
+        0,
+        1383
+      ],
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            7,
+            14
+          ],
+          "original": "OpenAI",
+          "id": "4398626122"
+        },
+        {
+          "type": "bold",
+          "indices": [
+            450,
+            592
+          ]
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "polynoamial",
+      "url": "https://x.com/polynoamial",
+      "id": "825088493764407298",
+      "followers": 181017,
+      "following": 964,
+      "likes": 7524,
+      "media_count": 175,
+      "name": "Noam Brown",
+      "description": "Researching reasoning @OpenAI | Co-created Libratus/Pluribus superhuman poker AIs, CICERO Diplomacy AI, and OpenAI o-series 🍓 reasoning models",
+      "raw_description": {
+        "text": "Researching reasoning @OpenAI | Co-created Libratus/Pluribus superhuman poker AIs, CICERO Diplomacy AI, and OpenAI o-series 🍓 reasoning models",
+        "facets": []
+      },
+      "location": "San Francisco, CA",
+      "banner_url": "https://pbs.twimg.com/profile_banners/825088493764407298/1779504075",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1872883170292457472/8ywVGO5M_200x200.jpg",
+      "joined": "Fri Jan 27 21:10:01 +0000 2017",
+      "protected": false,
+      "website": {
+        "url": "http://noambrown.com",
+        "display_url": "noambrown.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 139,
+    "retweets": 79,
+    "likes": 907,
+    "bookmarks": 229,
+    "quotes": 37,
+    "created_at": "Tue Mar 03 01:28:13 +0000 2026",
+    "created_timestamp": 1772501293,
+    "views": 243638,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "quote": {
+      "url": "https://x.com/sama/status/2028640354912923739",
+      "id": "2028640354912923739",
+      "text": "Here is re-post of an internal post:\n\nWe have been working with the DoW to make some additions in our agreement to make our principles very clear.\n\n1.   We are going to amend our deal to add this language, in addition to everything else:\n\n\"• Consistent with applicable laws, including the Fourth Amendment to the United States Constitution, National Security Act of 1947, FISA Act of 1978, the AI system shall not be intentionally used for domestic surveillance of U.S. persons and nationals.\n\n• For the avoidance of doubt, the Department understands this limitation to prohibit deliberate tracking, surveillance, or monitoring of U.S. persons or nationals, including through the procurement or use of commercially acquired personal or identifiable information.\"\n\nIt’s critical to protect the civil liberties of Americans, and there was so much focus on this, that we wanted to make this point especially clear, including around commercially acquired information. Just like everything we do with iterative deployment, we will continue to learn and refine as we go.\n\nI think this is an important change; our team and the DoW team did a great job working on it.\n\n2. The Department also affirmed that our services will not be used by Department of War intelligence agencies (for example, the NSA). Any services to those agencies would require a follow-on modification to our contract.\n\n3. For extreme clarity: we want to work through democratic processes. It should be the government making the key decisions about society. We want to have a voice, and a seat at the table where we can share our expertise, and to fight for principles of liberty. But we are clear on how the system works (because a lot of people have asked, if I received what I believed was an unconstitutional order, of course I would rather go to jail than follow it). But\n\n4. There are many things the technology just isn’t ready for, and many areas we don’t yet understand the tradeoffs required for safety. We will work through these, slowly, with the DoW, with technical safeguards and other methods.\n\n5. One thing I think I did wrong: we shouldn't have rushed to get this out on Friday. The issues are super complex, and demand clear communication. We were genuinely trying to de-escalate things and avoid a much worse outcome, but I think it just looked opportunistic and sloppy. Good learning experience for me as we face higher-stakes decisions in the future.\n\nIn my conversations over the weekend, I reiterated that Anthropic should not be designated as a SCR, and that we hope the DoW offers them the same terms we’ve agreed to.\n\nWe will host an All Hands tomorrow morning to answer more questions.",
+      "raw_text": {
+        "text": "Here is re-post of an internal post:\n\nWe have been working with the DoW to make some additions in our agreement to make our principles very clear.\n\n1.   We are going to amend our deal to add this language, in addition to everything else:\n\n\"• Consistent with applicable laws, including the Fourth Amendment to the United States Constitution, National Security Act of 1947, FISA Act of 1978, the AI system shall not be intentionally used for domestic surveillance of U.S. persons and nationals.\n\n• For the avoidance of doubt, the Department understands this limitation to prohibit deliberate tracking, surveillance, or monitoring of U.S. persons or nationals, including through the procurement or use of commercially acquired personal or identifiable information.\"\n\nIt’s critical to protect the civil liberties of Americans, and there was so much focus on this, that we wanted to make this point especially clear, including around commercially acquired information. Just like everything we do with iterative deployment, we will continue to learn and refine as we go.\n\nI think this is an important change; our team and the DoW team did a great job working on it.\n\n2. The Department also affirmed that our services will not be used by Department of War intelligence agencies (for example, the NSA). Any services to those agencies would require a follow-on modification to our contract.\n\n3. For extreme clarity: we want to work through democratic processes. It should be the government making the key decisions about society. We want to have a voice, and a seat at the table where we can share our expertise, and to fight for principles of liberty. But we are clear on how the system works (because a lot of people have asked, if I received what I believed was an unconstitutional order, of course I would rather go to jail than follow it). But\n\n4. There are many things the technology just isn’t ready for, and many areas we don’t yet understand the tradeoffs required for safety. We will work through these, slowly, with the DoW, with technical safeguards and other methods.\n\n5. One thing I think I did wrong: we shouldn't have rushed to get this out on Friday. The issues are super complex, and demand clear communication. We were genuinely trying to de-escalate things and avoid a much worse outcome, but I think it just looked opportunistic and sloppy. Good learning experience for me as we face higher-stakes decisions in the future.\n\nIn my conversations over the weekend, I reiterated that Anthropic should not be designated as a SCR, and that we hope the DoW offers them the same terms we’ve agreed to.\n\nWe will host an All Hands tomorrow morning to answer more questions.",
+        "display_text_range": [
+          0,
+          2675
+        ],
+        "facets": []
+      },
+      "author": {
+        "screen_name": "sama",
+        "url": "https://x.com/sama",
+        "id": "1605",
+        "followers": 6374589,
+        "following": 1034,
+        "likes": 1016,
+        "media_count": 394,
+        "name": "Sam Altman",
+        "description": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+        "raw_description": {
+          "text": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+          "facets": []
+        },
+        "location": "SF",
+        "banner_url": "",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+        "joined": "Sun Jul 16 22:01:55 +0000 2006",
+        "protected": false,
+        "website": {
+          "url": "http://blog.samaltman.com",
+          "display_url": "blog.samaltman.com"
+        },
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "individual"
+        },
+        "avatar_color": null
+      },
+      "replies": 3655,
+      "retweets": 598,
+      "likes": 5964,
+      "bookmarks": 2376,
+      "quotes": 827,
+      "created_at": "Tue Mar 03 01:15:25 +0000 2026",
+      "created_timestamp": 1772500525,
+      "views": 3591895,
+      "is_note_tweet": true,
+      "community_note": {
+        "text": "\"In an all-hands meetings with OpenAI employees on Tuesday, CEO Sam Altman said his company doesn’t get to choose how the military uses its technology.\" This is the opposite of what Sam Altman is claiming in this post.\n\nsource: cnbc.com/2026/03/03/sam…",
+        "entities": [
+          {
+            "fromIndex": 228,
+            "ref": {
+              "type": "TimelineUrl",
+              "url": "https://t.co/xk3PghoBWP",
+              "urlType": "ExternalUrl"
+            },
+            "toIndex": 252
+          }
+        ]
+      },
+      "lang": "en",
+      "replying_to": null,
+      "replying_to_status": null,
+      "twitter_card": "tweet",
+      "color": null,
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

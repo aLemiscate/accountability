@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/sama/status/1908167621624856998",
+  "captured_at": "2026-10-13T15:10:52.120Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "a421d72a33506268513ce19aa330d6f0bf925b7e22afa2c1d75fe6fef36fab49",
+    "page.txt": "44d0f540c50796fd9f0a4becc263e52f6ba523b2caffa4c333af9cb02cc6fc57",
+    "post.json": "0ad64d5e259e9af14fbda4fb1d079036e1cc0f61adf5920c60fd2cc9ee17aceb",
+    "syndication.json": "c71da07a90256baeb1aaff20fe4020b52afb6ce3a02a3feac9d87936d1476840",
+    "fulltext.json": "4a039c031cf9813403085c4e332a13f771b12877ea9aab361e4d91fa11f32369",
+    "post.txt": "d406df5a36172f7d76c6eba85eb305c83ffaf6605ae78af9b7a17ad291f5878c"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1908167621624856998",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"change of plans: we are going to release o3 and o4-mini after all, probably in a couple of weeks, and then do GPT-5 in a few months. there are a bunch of reasons for this, but the most exciting one is that we are going to be able to make GPT-5 much better than we originally thoug… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "April 4, 2025",
+    "posted_at": "2025-04-04T14:39:47.692Z",
+    "full_text_from": "api.fxtwitter.com"
+  }
+}

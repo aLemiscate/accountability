@@ -1,0 +1,1509 @@
+{
+ "id": "anthropic-api-pricing",
+ "org": "anthropic",
+ "urls": [
+  "https://docs.anthropic.com/en/docs/about-claude/pricing",
+  "https://docs.claude.com/en/docs/about-claude/pricing",
+  "https://platform.claude.com/docs/en/about-claude/pricing",
+  "https://www.anthropic.com/api"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/pricing",
+   "title": "Pricing - Claude Platform Docs",
+   "via": "fetch",
+   "sha": "53253eb5579d3b51",
+   "words": 4621
+  }
+ ],
+ "captures": [
+  {
+   "ts": "20240304143754",
+   "url": "https://www.anthropic.com/api",
+   "sha": "7ef6c089dfb2b309",
+   "title": "Claude API \\ Anthropic"
+  },
+  {
+   "ts": "20240305121825",
+   "url": "https://www.anthropic.com/api",
+   "sha": "878a2ced1ad3d146",
+   "title": "Claude API \\ Anthropic"
+  },
+  {
+   "ts": "20240307202858",
+   "url": "https://www.anthropic.com/api",
+   "sha": "878a2ced1ad3d146",
+   "title": "Claude API \\ Anthropic"
+  },
+  {
+   "ts": "20240312070440",
+   "url": "https://www.anthropic.com/api",
+   "sha": "878a2ced1ad3d146",
+   "title": "Claude API \\ Anthropic"
+  },
+  {
+   "ts": "20240315150610",
+   "url": "https://www.anthropic.com/api",
+   "sha": "5c4da1afd5f12036",
+   "title": "Claude API \\ Anthropic"
+  },
+  {
+   "ts": "20240319060405",
+   "url": "https://www.anthropic.com/api",
+   "sha": "5c4da1afd5f12036",
+   "title": "Claude API \\ Anthropic"
+  },
+  {
+   "ts": "20240401020712",
+   "url": "https://www.anthropic.com/api",
+   "sha": "5c4da1afd5f12036",
+   "title": "Claude API \\ Anthropic"
+  },
+  {
+   "ts": "20240417070629",
+   "url": "https://www.anthropic.com/api",
+   "sha": "5c4da1afd5f12036",
+   "title": "Claude API \\ Anthropic"
+  },
+  {
+   "ts": "20240425012400",
+   "url": "https://www.anthropic.com/api",
+   "sha": "5c4da1afd5f12036",
+   "title": "Claude API \\ Anthropic"
+  },
+  {
+   "ts": "20240429070800",
+   "url": "https://www.anthropic.com/api",
+   "sha": "5c4da1afd5f12036",
+   "title": "Claude API \\ Anthropic"
+  },
+  {
+   "ts": "20240430120124",
+   "url": "https://www.anthropic.com/api",
+   "sha": "a70e570bbeeb88b1",
+   "title": "Claude API \\ Anthropic"
+  },
+  {
+   "ts": "20240502223025",
+   "url": "https://www.anthropic.com/api",
+   "sha": "a70e570bbeeb88b1",
+   "title": "Claude API \\ Anthropic"
+  },
+  {
+   "ts": "20240522032222",
+   "url": "https://www.anthropic.com/api",
+   "sha": "a70e570bbeeb88b1",
+   "title": "Claude API \\ Anthropic"
+  },
+  {
+   "ts": "20240527170222",
+   "url": "https://www.anthropic.com/api",
+   "sha": "a70e570bbeeb88b1",
+   "title": "Claude API \\ Anthropic"
+  },
+  {
+   "ts": "20240528040014",
+   "url": "https://www.anthropic.com/api",
+   "sha": "a70e570bbeeb88b1",
+   "title": "Claude API \\ Anthropic"
+  },
+  {
+   "ts": "20240530045346",
+   "url": "https://www.anthropic.com/api",
+   "sha": "c4946e007fac9e32",
+   "title": "Claude API \\ Anthropic"
+  },
+  {
+   "ts": "20240601154721",
+   "url": "https://www.anthropic.com/api",
+   "sha": "c4946e007fac9e32",
+   "title": "Claude API \\ Anthropic"
+  },
+  {
+   "ts": "20240610180654",
+   "url": "https://www.anthropic.com/api",
+   "sha": "c4946e007fac9e32",
+   "title": "Claude API \\ Anthropic"
+  },
+  {
+   "ts": "20240612072846",
+   "url": "https://www.anthropic.com/api",
+   "sha": "c4946e007fac9e32",
+   "title": "Claude API \\ Anthropic"
+  },
+  {
+   "ts": "20240618115128",
+   "url": "https://www.anthropic.com/api",
+   "sha": "c4946e007fac9e32",
+   "title": "Claude API \\ Anthropic"
+  },
+  {
+   "ts": "20240620223622",
+   "url": "https://www.anthropic.com/api",
+   "sha": "1620b5dd27002154",
+   "title": "API \\ Anthropic"
+  },
+  {
+   "ts": "20240623095200",
+   "url": "https://www.anthropic.com/api",
+   "sha": "1620b5dd27002154",
+   "title": "API \\ Anthropic"
+  },
+  {
+   "ts": "20240624002233",
+   "url": "https://www.anthropic.com/api",
+   "sha": "1620b5dd27002154",
+   "title": "API \\ Anthropic"
+  },
+  {
+   "ts": "20240626065455",
+   "url": "https://www.anthropic.com/api",
+   "sha": "0757ba664843fa5e",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20240702125627",
+   "url": "https://www.anthropic.com/api",
+   "sha": "0757ba664843fa5e",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20240806012721",
+   "url": "https://www.anthropic.com/api",
+   "sha": "0757ba664843fa5e",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20240902075249",
+   "url": "https://www.anthropic.com/api",
+   "sha": "0757ba664843fa5e",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20241002154226",
+   "url": "https://www.anthropic.com/api",
+   "sha": "0757ba664843fa5e",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20241007123309",
+   "url": "https://www.anthropic.com/api",
+   "sha": "0757ba664843fa5e",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20241010172900",
+   "url": "https://www.anthropic.com/api",
+   "sha": "01d87fbc7b6b1082",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20241013101523",
+   "url": "https://www.anthropic.com/api",
+   "sha": "01d87fbc7b6b1082",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20241103231751",
+   "url": "https://www.anthropic.com/api",
+   "sha": "0da5acf581bf0e9e",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20241204152653",
+   "url": "https://www.anthropic.com/api",
+   "sha": "0da5acf581bf0e9e",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250103191342",
+   "url": "https://www.anthropic.com/api",
+   "sha": "0da5acf581bf0e9e",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250205095917",
+   "url": "https://www.anthropic.com/api",
+   "sha": "0da5acf581bf0e9e",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250206170317",
+   "url": "https://www.anthropic.com/api",
+   "sha": "8557455b4c4bae07",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250211002429",
+   "url": "https://www.anthropic.com/api",
+   "sha": "8557455b4c4bae07",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250218112235",
+   "url": "https://www.anthropic.com/api",
+   "sha": "8557455b4c4bae07",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250223162221",
+   "url": "https://www.anthropic.com/api",
+   "sha": "8557455b4c4bae07",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250225061709",
+   "url": "https://www.anthropic.com/api",
+   "sha": "3abddb7b83492d17",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250227115129",
+   "url": "https://www.anthropic.com/api",
+   "sha": "864b20e161784281",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250228135157",
+   "url": "https://www.anthropic.com/api",
+   "sha": "5b2481ab825c2992",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250302080433",
+   "url": "https://www.anthropic.com/api",
+   "sha": "5b2481ab825c2992",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250401063025",
+   "url": "https://www.anthropic.com/api",
+   "sha": "5b2481ab825c2992",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250425023312",
+   "url": "https://www.anthropic.com/api",
+   "sha": "5b2481ab825c2992",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250428034251",
+   "url": "https://www.anthropic.com/api",
+   "sha": "5b2481ab825c2992",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250429084109",
+   "url": "https://www.anthropic.com/api",
+   "sha": "5b2481ab825c2992",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250430100544",
+   "url": "https://www.anthropic.com/api",
+   "sha": "5b2481ab825c2992",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250508003005",
+   "url": "https://www.anthropic.com/api",
+   "sha": "838090bdb69df72d",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250513030128",
+   "url": "https://www.anthropic.com/api",
+   "sha": "838090bdb69df72d",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250514015131",
+   "url": "https://www.anthropic.com/api",
+   "sha": "838090bdb69df72d",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250519075630",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/pricing",
+   "sha": "702550c309024a2f",
+   "title": "Pricing - Anthropic"
+  },
+  {
+   "ts": "20250520121702",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/pricing",
+   "sha": "702550c309024a2f",
+   "title": "Pricing - Anthropic"
+  },
+  {
+   "ts": "20250521062605",
+   "url": "https://www.anthropic.com/api",
+   "sha": "756300b510d1d58b",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250522191432",
+   "url": "https://www.anthropic.com/api",
+   "sha": "a0215a0385919e83",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250526121619",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/pricing",
+   "sha": "db2fbeca65b288a7",
+   "title": "Pricing - Anthropic"
+  },
+  {
+   "ts": "20250526163451",
+   "url": "https://www.anthropic.com/api",
+   "sha": "d2937e0795a4dee6",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250529154703",
+   "url": "https://www.anthropic.com/api",
+   "sha": "d2937e0795a4dee6",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250530145755",
+   "url": "https://www.anthropic.com/api",
+   "sha": "c1c155beca2697ba",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250603163151",
+   "url": "https://www.anthropic.com/api",
+   "sha": "c1c155beca2697ba",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250610103300",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/pricing",
+   "sha": "f03abde565e10e58",
+   "title": "Pricing - Anthropic"
+  },
+  {
+   "ts": "20250616030439",
+   "url": "https://www.anthropic.com/api",
+   "sha": "d2937e0795a4dee6",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250617055151",
+   "url": "https://www.anthropic.com/api",
+   "sha": "d2937e0795a4dee6",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250622123837",
+   "url": "https://www.anthropic.com/api",
+   "sha": "d2937e0795a4dee6",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250624071006",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/pricing",
+   "sha": "32c1fd4def88552e",
+   "title": "Pricing - Anthropic"
+  },
+  {
+   "ts": "20250624195132",
+   "url": "https://www.anthropic.com/api/",
+   "sha": "d2937e0795a4dee6",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250625090501",
+   "url": "https://www.anthropic.com/api",
+   "sha": "4a35d8e44d14223f",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250628103420",
+   "url": "https://www.anthropic.com/api",
+   "sha": "4a35d8e44d14223f",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250629222628",
+   "url": "https://www.anthropic.com/api",
+   "sha": "4a35d8e44d14223f",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250704193431",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/pricing",
+   "sha": "4ff08269c2e865d4",
+   "title": "Pricing - Anthropic"
+  },
+  {
+   "ts": "20250709032332",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/pricing",
+   "sha": "4ff08269c2e865d4",
+   "title": "Pricing - Anthropic"
+  },
+  {
+   "ts": "20250709072007",
+   "url": "https://www.anthropic.com/api",
+   "sha": "10a11cb306d43783",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250710135928",
+   "url": "https://www.anthropic.com/api",
+   "sha": "1a1fe2ee62cd1ebe",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250714113004",
+   "url": "https://www.anthropic.com/api",
+   "sha": "1a1fe2ee62cd1ebe",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250717012530",
+   "url": "https://www.anthropic.com/api",
+   "sha": "1dab30ec2ba27b13",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250718221422",
+   "url": "https://www.anthropic.com/api",
+   "sha": "1dab30ec2ba27b13",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250726002846",
+   "url": "https://www.anthropic.com/api",
+   "sha": "1dab30ec2ba27b13",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250727003140",
+   "url": "https://www.anthropic.com/api",
+   "sha": "1dab30ec2ba27b13",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250729131428",
+   "url": "https://www.anthropic.com/api",
+   "sha": "26788376f8d39774",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250801105904",
+   "url": "https://www.anthropic.com/api",
+   "sha": "26788376f8d39774",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250804064842",
+   "url": "https://www.anthropic.com/api",
+   "sha": "26788376f8d39774",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250805144040",
+   "url": "https://www.anthropic.com/api",
+   "sha": "26788376f8d39774",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250806014637",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/pricing",
+   "sha": "e5f074bcc7b36733",
+   "title": "Pricing - Anthropic"
+  },
+  {
+   "ts": "20250806204515",
+   "url": "https://www.anthropic.com/api",
+   "sha": "eb532512c165b15b",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250811034448",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/pricing",
+   "sha": "7855b36d51e059f2",
+   "title": "Pricing - Anthropic"
+  },
+  {
+   "ts": "20250811145213",
+   "url": "https://www.anthropic.com/api",
+   "sha": "8fcf714c8294fb7e",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250812193150",
+   "url": "https://www.anthropic.com/api",
+   "sha": "8fcf714c8294fb7e",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250818122625",
+   "url": "https://www.anthropic.com/api",
+   "sha": "8fcf714c8294fb7e",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250820082742",
+   "url": "https://www.anthropic.com/api",
+   "sha": "8fcf714c8294fb7e",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250821093052",
+   "url": "https://www.anthropic.com/api",
+   "sha": "8fcf714c8294fb7e",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250823204920",
+   "url": "https://www.anthropic.com/api",
+   "sha": "b67b95d701ddc4dc",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250825002820",
+   "url": "https://www.anthropic.com/api",
+   "sha": "b67b95d701ddc4dc",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250828002434",
+   "url": "https://www.anthropic.com/api",
+   "sha": "1df92d4b9914fdd3",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250830071954",
+   "url": "https://www.anthropic.com/api",
+   "sha": "1df92d4b9914fdd3",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250901014427",
+   "url": "https://www.anthropic.com/api",
+   "sha": "1df92d4b9914fdd3",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250902022629",
+   "url": "https://www.anthropic.com/api",
+   "sha": "1df92d4b9914fdd3",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250904200452",
+   "url": "https://www.anthropic.com/api",
+   "sha": "d051045d87a335cd",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250911025214",
+   "url": "https://www.anthropic.com/api",
+   "sha": "d051045d87a335cd",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250912015949",
+   "url": "https://www.anthropic.com/api",
+   "sha": "d051045d87a335cd",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250912143005",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/pricing",
+   "sha": "0a02c5ae65bf1b33",
+   "title": "Pricing - Anthropic"
+  },
+  {
+   "ts": "20250914193146",
+   "url": "https://www.anthropic.com/api",
+   "sha": "d051045d87a335cd",
+   "title": "Build with Claude \\ Anthropic"
+  },
+  {
+   "ts": "20250915100020",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/pricing",
+   "sha": "c56c594989e829fb",
+   "title": "Pricing - Anthropic"
+  },
+  {
+   "ts": "20250916142058",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/pricing",
+   "sha": "c56c594989e829fb",
+   "title": "Pricing - Anthropic"
+  },
+  {
+   "ts": "20250919082424",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing",
+   "sha": "a39ac05e569a252b",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20250920020404",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing",
+   "sha": "a39ac05e569a252b",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20250925202756",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing",
+   "sha": "b00d321301123ea4",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20250929170154",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing",
+   "error": "fetch failed"
+  },
+  {
+   "ts": "20250930014047",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing",
+   "sha": "b00d321301123ea4",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20251002101422",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing",
+   "sha": "1233cd2f042d3478",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20251008173016",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing",
+   "sha": "1233cd2f042d3478",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20251009140135",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing",
+   "error": "fetch failed"
+  },
+  {
+   "ts": "20251013063343",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing",
+   "sha": "1233cd2f042d3478",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20251017134530",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing",
+   "sha": "8dce9c569e05087a",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20251022170037",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing",
+   "sha": "8dce9c569e05087a",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20251028153204",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing",
+   "sha": "2f5ce84a796087b5",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20251030135510",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing",
+   "sha": "c629b8d64b39ff0c",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20251110081957",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing?",
+   "sha": "7f6029e9d66364a6",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20251114034748",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing",
+   "sha": "7f6029e9d66364a6",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20251117150522",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing",
+   "sha": "d24185e94e4842bc",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20251118021943",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing",
+   "sha": "d24185e94e4842bc",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20251119020051",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing",
+   "sha": "ae011141dddba485",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20251119190003",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "db917070d8b0c8ca",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20251124103559",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "db917070d8b0c8ca",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20251125111132",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "ddbdd7ca84a38fab",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20251126083923",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "error": "fetch failed"
+  },
+  {
+   "ts": "20251201041432",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "ddbdd7ca84a38fab",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20251202130811",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "ddbdd7ca84a38fab",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20251203040836",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "error": "fetch failed"
+  },
+  {
+   "ts": "20251204035754",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "91e8d3e84f8300e9",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20251207041318",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "91e8d3e84f8300e9",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20251209001552",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "91e8d3e84f8300e9",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20251212040534",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "37547276ce6e5b33",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20251214050247",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "37547276ce6e5b33",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20260104041630",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "37547276ce6e5b33",
+   "title": "Pricing - Claude Docs"
+  },
+  {
+   "ts": "20260201050917",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "37547276ce6e5b33",
+   "title": "Pricing - Claude API Docs"
+  },
+  {
+   "ts": "20260301150515",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "37547276ce6e5b33",
+   "title": "Pricing - Claude API Docs"
+  },
+  {
+   "ts": "20260401185808",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "37547276ce6e5b33",
+   "title": "Pricing - Claude API Docs"
+  },
+  {
+   "ts": "20260406054946",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "37547276ce6e5b33",
+   "title": "Pricing - Claude API Docs"
+  },
+  {
+   "ts": "20260407101342",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "37547276ce6e5b33",
+   "title": "Pricing - Claude API Docs"
+  },
+  {
+   "ts": "20260409051829",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "37547276ce6e5b33",
+   "title": "Pricing - Claude API Docs"
+  },
+  {
+   "ts": "20260410160814",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "08a786605ac04e74",
+   "title": "Pricing - Claude API Docs"
+  },
+  {
+   "ts": "20260416053757",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "08a786605ac04e74",
+   "title": "Pricing - Claude API Docs"
+  },
+  {
+   "ts": "20260504111305",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "08a786605ac04e74",
+   "title": "Pricing - Claude API Docs"
+  },
+  {
+   "ts": "20260601063217",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "08a786605ac04e74",
+   "title": "Pricing - Claude API Docs"
+  },
+  {
+   "ts": "20260615092828",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "08a786605ac04e74",
+   "title": "Pricing - Claude API Docs"
+  },
+  {
+   "ts": "20260616183528",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "9f6fa15ee8816d56",
+   "title": "Pricing - Claude API Docs"
+  },
+  {
+   "ts": "20260618081552",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "9f6fa15ee8816d56",
+   "title": "Pricing - Claude API Docs"
+  },
+  {
+   "ts": "20260623053953",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "9f6fa15ee8816d56",
+   "title": "Pricing - Claude API Docs"
+  },
+  {
+   "ts": "20260624065241",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "9f6fa15ee8816d56",
+   "title": "Pricing - Claude API Docs"
+  },
+  {
+   "ts": "20260625172237",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "9f6fa15ee8816d56",
+   "title": "Pricing - Claude API Docs"
+  },
+  {
+   "ts": "20260627151959",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "2b54bbc8aacedcda",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260701035419",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "2b54bbc8aacedcda",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260715053859",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "2b54bbc8aacedcda",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260724071140",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "2b54bbc8aacedcda",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260725103219",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "5887b08d6a2f05b7",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260728010255",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "5887b08d6a2f05b7",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260801200108",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "5887b08d6a2f05b7",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260802192750",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "5887b08d6a2f05b7",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260803120612",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "5887b08d6a2f05b7",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260804053539",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "19201e0baa8d4c96",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260807005443",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "19201e0baa8d4c96",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260810005514",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "19201e0baa8d4c96",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260812041236",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "19201e0baa8d4c96",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260813045401",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "19201e0baa8d4c96",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260815103052",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "e0c1d81da557de84",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260901083455",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "e0c1d81da557de84",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260902040109",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "306afa362418bed6",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260904062622",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "306afa362418bed6",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260908070505",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "306afa362418bed6",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260916082317",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "306afa362418bed6",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260919075500",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "306afa362418bed6",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260921084253",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "306afa362418bed6",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260922103351",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "f1f4e5ed810957b2",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260923051915",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "6c38ba4d0cfcc8e8",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260924081332",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "0bf8e98a943a0c4a",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260925171308",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "0bf8e98a943a0c4a",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260927085619",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "0bf8e98a943a0c4a",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260928182043",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "5760fc225961cc7a",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20260929002820",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "5760fc225961cc7a",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20261002051605",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "5760fc225961cc7a",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20261004081143",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "5760fc225961cc7a",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20261005162950",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "5760fc225961cc7a",
+   "title": "Pricing - Claude Platform Docs"
+  },
+  {
+   "ts": "20261006213610",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "sha": "53253eb5579d3b51",
+   "title": "Pricing - Claude Platform Docs"
+  }
+ ],
+ "versions": [
+  {
+   "sha": "7ef6c089dfb2b309",
+   "first": "20240304143754",
+   "last": "20240304143754",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "878a2ced1ad3d146",
+   "first": "20240305121825",
+   "last": "20240312070440",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "5c4da1afd5f12036",
+   "first": "20240315150610",
+   "last": "20240429070800",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "a70e570bbeeb88b1",
+   "first": "20240430120124",
+   "last": "20240528040014",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "c4946e007fac9e32",
+   "first": "20240530045346",
+   "last": "20240618115128",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "1620b5dd27002154",
+   "first": "20240620223622",
+   "last": "20240624002233",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "0757ba664843fa5e",
+   "first": "20240626065455",
+   "last": "20241007123309",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "01d87fbc7b6b1082",
+   "first": "20241010172900",
+   "last": "20241013101523",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "0da5acf581bf0e9e",
+   "first": "20241103231751",
+   "last": "20250205095917",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "8557455b4c4bae07",
+   "first": "20250206170317",
+   "last": "20250223162221",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "3abddb7b83492d17",
+   "first": "20250225061709",
+   "last": "20250225061709",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "864b20e161784281",
+   "first": "20250227115129",
+   "last": "20250227115129",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "5b2481ab825c2992",
+   "first": "20250228135157",
+   "last": "20250430100544",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "838090bdb69df72d",
+   "first": "20250508003005",
+   "last": "20250514015131",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "702550c309024a2f",
+   "first": "20250519075630",
+   "last": "20250520121702",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/pricing"
+  },
+  {
+   "sha": "756300b510d1d58b",
+   "first": "20250521062605",
+   "last": "20250521062605",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "a0215a0385919e83",
+   "first": "20250522191432",
+   "last": "20250522191432",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "db2fbeca65b288a7",
+   "first": "20250526121619",
+   "last": "20250526121619",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/pricing"
+  },
+  {
+   "sha": "d2937e0795a4dee6",
+   "first": "20250526163451",
+   "last": "20250529154703",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "c1c155beca2697ba",
+   "first": "20250530145755",
+   "last": "20250603163151",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "f03abde565e10e58",
+   "first": "20250610103300",
+   "last": "20250610103300",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/pricing"
+  },
+  {
+   "sha": "d2937e0795a4dee6",
+   "first": "20250616030439",
+   "last": "20250622123837",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "32c1fd4def88552e",
+   "first": "20250624071006",
+   "last": "20250624071006",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/pricing"
+  },
+  {
+   "sha": "d2937e0795a4dee6",
+   "first": "20250624195132",
+   "last": "20250624195132",
+   "url": "https://www.anthropic.com/api/"
+  },
+  {
+   "sha": "4a35d8e44d14223f",
+   "first": "20250625090501",
+   "last": "20250629222628",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "4ff08269c2e865d4",
+   "first": "20250704193431",
+   "last": "20250709032332",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/pricing"
+  },
+  {
+   "sha": "10a11cb306d43783",
+   "first": "20250709072007",
+   "last": "20250709072007",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "1a1fe2ee62cd1ebe",
+   "first": "20250710135928",
+   "last": "20250714113004",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "1dab30ec2ba27b13",
+   "first": "20250717012530",
+   "last": "20250727003140",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "26788376f8d39774",
+   "first": "20250729131428",
+   "last": "20250805144040",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "e5f074bcc7b36733",
+   "first": "20250806014637",
+   "last": "20250806014637",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/pricing"
+  },
+  {
+   "sha": "eb532512c165b15b",
+   "first": "20250806204515",
+   "last": "20250806204515",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "7855b36d51e059f2",
+   "first": "20250811034448",
+   "last": "20250811034448",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/pricing"
+  },
+  {
+   "sha": "8fcf714c8294fb7e",
+   "first": "20250811145213",
+   "last": "20250821093052",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "b67b95d701ddc4dc",
+   "first": "20250823204920",
+   "last": "20250825002820",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "1df92d4b9914fdd3",
+   "first": "20250828002434",
+   "last": "20250902022629",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "d051045d87a335cd",
+   "first": "20250904200452",
+   "last": "20250912015949",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "0a02c5ae65bf1b33",
+   "first": "20250912143005",
+   "last": "20250912143005",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/pricing"
+  },
+  {
+   "sha": "d051045d87a335cd",
+   "first": "20250914193146",
+   "last": "20250914193146",
+   "url": "https://www.anthropic.com/api"
+  },
+  {
+   "sha": "c56c594989e829fb",
+   "first": "20250915100020",
+   "last": "20250916142058",
+   "url": "https://docs.anthropic.com/en/docs/about-claude/pricing"
+  },
+  {
+   "sha": "a39ac05e569a252b",
+   "first": "20250919082424",
+   "last": "20250920020404",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing"
+  },
+  {
+   "sha": "b00d321301123ea4",
+   "first": "20250925202756",
+   "last": "20250930014047",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing"
+  },
+  {
+   "sha": "1233cd2f042d3478",
+   "first": "20251002101422",
+   "last": "20251013063343",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing"
+  },
+  {
+   "sha": "8dce9c569e05087a",
+   "first": "20251017134530",
+   "last": "20251022170037",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing"
+  },
+  {
+   "sha": "2f5ce84a796087b5",
+   "first": "20251028153204",
+   "last": "20251028153204",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing"
+  },
+  {
+   "sha": "c629b8d64b39ff0c",
+   "first": "20251030135510",
+   "last": "20251030135510",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing"
+  },
+  {
+   "sha": "7f6029e9d66364a6",
+   "first": "20251110081957",
+   "last": "20251114034748",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing?"
+  },
+  {
+   "sha": "d24185e94e4842bc",
+   "first": "20251117150522",
+   "last": "20251118021943",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing"
+  },
+  {
+   "sha": "ae011141dddba485",
+   "first": "20251119020051",
+   "last": "20251119020051",
+   "url": "https://docs.claude.com/en/docs/about-claude/pricing"
+  },
+  {
+   "sha": "db917070d8b0c8ca",
+   "first": "20251119190003",
+   "last": "20251124103559",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
+   "sha": "ddbdd7ca84a38fab",
+   "first": "20251125111132",
+   "last": "20251202130811",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
+   "sha": "91e8d3e84f8300e9",
+   "first": "20251204035754",
+   "last": "20251209001552",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
+   "sha": "37547276ce6e5b33",
+   "first": "20251212040534",
+   "last": "20260409051829",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
+   "sha": "08a786605ac04e74",
+   "first": "20260410160814",
+   "last": "20260615092828",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
+   "sha": "9f6fa15ee8816d56",
+   "first": "20260616183528",
+   "last": "20260625172237",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
+   "sha": "2b54bbc8aacedcda",
+   "first": "20260627151959",
+   "last": "20260724071140",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
+   "sha": "5887b08d6a2f05b7",
+   "first": "20260725103219",
+   "last": "20260803120612",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
+   "sha": "19201e0baa8d4c96",
+   "first": "20260804053539",
+   "last": "20260813045401",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
+   "sha": "e0c1d81da557de84",
+   "first": "20260815103052",
+   "last": "20260901083455",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
+   "sha": "306afa362418bed6",
+   "first": "20260902040109",
+   "last": "20260921084253",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
+   "sha": "f1f4e5ed810957b2",
+   "first": "20260922103351",
+   "last": "20260922103351",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
+   "sha": "6c38ba4d0cfcc8e8",
+   "first": "20260923051915",
+   "last": "20260923051915",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
+   "sha": "0bf8e98a943a0c4a",
+   "first": "20260924081332",
+   "last": "20260927085619",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
+   "sha": "5760fc225961cc7a",
+   "first": "20260928182043",
+   "last": "20261005162950",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
+   "sha": "53253eb5579d3b51",
+   "first": "20261006213610",
+   "last": "20261006213610",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+  }
+ ],
+ "complete": true
+}

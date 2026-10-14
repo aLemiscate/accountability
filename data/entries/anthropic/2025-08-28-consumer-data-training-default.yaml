@@ -35,15 +35,36 @@ sources:
     type: reporting
     archive: https://web.archive.org/web/20260929211147/https://techcrunch.com/2025/08/28/anthropic-users-face-a-new-choice-opt-out-or-share-your-data-for-ai-training/
     snapshot: snapshots/2026-09-29-techcrunch.com-c9e05edf
+  - title: Privacy Policy (effective Sept. 10, 2026)
+    publisher: Anthropic
+    url: https://www.anthropic.com/legal/privacy
+    date: 2026-09-10
+    type: primary
+    archive: https://web.archive.org/web/20261002235844/https://www.anthropic.com/legal/privacy
+    snapshot: snapshots/2026-10-03-anthropic.com-47b90923
   - title: Claude on X
     publisher: X
     url: https://x.com/claudeai/status/1961096054192943302
     date: 2025-08-28
     type: primary
     snapshot: snapshots/2026-09-29-x.com-c275b3f4
+  - title: 'Closing Bell Overtime: Anthropic Co-Founder Talks Claude 2; Earnings
+      Season Kicks Off With Financials 7/14/23'
+    publisher: CNBC Closing Bell
+    url: https://podcasts.apple.com/us/podcast/closing-bell-overtime-anthropic-co-founder-talks-claude/id1612281974?i=1000621194923
+    date: 2023-07-14
+    type: primary
+    snapshot: snapshots/2026-10-07-podcasts.apple.com-917a823e
 response: >-
   Anthropic said the data would improve model safety and capabilities such as
   coding, and that users stay in control and can change the setting at any time.
 note: >-
   Privacy had been a selling point, and the flip was framed as user choice.
-  Whether a pre-set toggle counts as a choice is the question.
+  Whether a pre-set toggle counts as a choice is the question. The opt-out also
+  has limits: the privacy policy says that even for users who opt out, Anthropic
+  will use conversations "flagged for safety review" and material users report
+  to it for model improvement. In July 2023, asked on CNBC how Anthropic keeps
+  personal data out of Claude, Daniela Amodei described the earlier rule:
+  "unless we're given permission to … train on your data or if you've violated
+  our AUP, those are the only times when we would have the sort of opportunity
+  or the right to use training data." (Quoted from the audio.)

@@ -1,0 +1,64 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/sama/status/1943837550369812814",
+    "id": "1943837550369812814",
+    "text": "we planned to launch our open-weight model next week.\n\nwe are delaying it; we need time to run additional safety tests and review high-risk areas. we are not yet sure how long it will take us.\n\nwhile we trust the community will build great things with this model, once weights are out, they can’t be pulled back. this is new for us and we want to get it right.\n\nsorry to be the bearer of bad news; we are working super hard!",
+    "raw_text": {
+      "text": "we planned to launch our open-weight model next week.\n\nwe are delaying it; we need time to run additional safety tests and review high-risk areas. we are not yet sure how long it will take us.\n\nwhile we trust the community will build great things with this model, once weights are out, they can’t be pulled back. this is new for us and we want to get it right.\n\nsorry to be the bearer of bad news; we are working super hard!",
+      "display_text_range": [
+        0,
+        424
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "sama",
+      "url": "https://x.com/sama",
+      "id": "1605",
+      "followers": 6374592,
+      "following": 1034,
+      "likes": 1016,
+      "media_count": 394,
+      "name": "Sam Altman",
+      "description": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+      "raw_description": {
+        "text": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+        "facets": []
+      },
+      "location": "SF",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "joined": "Sun Jul 16 22:01:55 +0000 2006",
+      "protected": false,
+      "website": {
+        "url": "http://blog.samaltman.com",
+        "display_url": "blog.samaltman.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 2225,
+    "retweets": 1061,
+    "likes": 18538,
+    "bookmarks": 1550,
+    "quotes": 773,
+    "created_at": "Sat Jul 12 00:59:21 +0000 2025",
+    "created_timestamp": 1752281961,
+    "views": 3526873,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

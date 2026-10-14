@@ -1,0 +1,767 @@
+{
+ "id": "openai-gpt5-limits",
+ "org": "openai",
+ "urls": [
+  "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+  "https://help.openai.com/en/articles/11909943-gpt-5-1-in-chatgpt",
+  "https://help.openai.com/en/articles/11909943-gpt-51-in-chatgpt",
+  "https://help.openai.com/en/articles/11909943-gpt-52-in-chatgpt",
+  "https://help.openai.com/en/articles/11909943-gpt-53-and-52-in-chatgpt",
+  "https://help.openai.com/en/articles/11909943-gpt-53-and-54-in-chatgpt",
+  "https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-54-in-chatgpt",
+  "https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-55-in-chatgpt",
+  "https://help.openai.com/en/articles/11909943-gpt-55-in-chatgpt"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "title": "GPT-5.6 and GPT-6 Pro in ChatGPT | OpenAI Help Center",
+   "via": "fetch",
+   "sha": "437a2aaf3c628678",
+   "words": 1924
+  },
+  {
+   "date": "2026-10-13",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "title": "GPT-6 and other models in ChatGPT | OpenAI Help Center",
+   "via": "fetch",
+   "sha": "93ab24ecfade3b75",
+   "words": 2225
+  }
+ ],
+ "captures": [
+  {
+   "ts": "20250808074119",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "8c064c3122abaa9b",
+   "title": "GPT-5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250809013809",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "51d29262922dec06",
+   "title": "GPT-5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250810112350",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "91a78b7b12575983",
+   "title": "GPT-5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250811041637",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "43398fed9b693b90",
+   "title": "GPT-5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250812143050",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "05a13b19c7273c07",
+   "title": "GPT-5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250813102715",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "72566c5ed6c94b4d",
+   "title": "GPT-5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250821011517",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "4846330fd8f6d080",
+   "title": "GPT-5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250823080446",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "13c4c1a8047cc9ad",
+   "title": "GPT-5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250828105403",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "a3ddb7f71d83c903",
+   "title": "GPT-5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250831002812",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "006746a6c915ee50",
+   "title": "GPT-5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250909161654",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "5bba52dfbe94c231",
+   "title": "GPT-5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250914000144",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "e6fc593f0296fde9",
+   "title": "GPT-5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250916150413",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "e76ad144d3b77aee",
+   "title": "GPT-5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250922085334",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "502ca7484e47749b",
+   "title": "GPT-5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20250929082540",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "54aa9500e78613ab",
+   "title": "GPT-5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20251005154842",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "2a27db52fc90aa24",
+   "title": "GPT-5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20251018101525",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "776e358a37bee3db",
+   "title": "GPT-5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20251019204405",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "d9770cb52178eb65",
+   "title": "GPT-5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20251024174123",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "6331dc137eae3ccc",
+   "title": "GPT-5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20251026112811",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "5f87c231d47863c2",
+   "title": "GPT-5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20251113203241",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-51-in-chatgpt",
+   "sha": "2dc61a56057b520b",
+   "title": "GPT-5.1 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20251116172450",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "d11365ccae60f49e",
+   "title": "GPT-5.1 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20251122120334",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt/",
+   "error": "fetch failed"
+  },
+  {
+   "ts": "20251217183930",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-52-in-chatgpt",
+   "sha": "5054635bec16b212",
+   "title": "GPT-5.2 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20251224060353",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "9288a45681c1ac68",
+   "title": "GPT-5.2 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20251227223748",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "ae62eb68e6b30a76",
+   "title": "GPT-5.2 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260106171627",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-51-in-chatgpt",
+   "sha": "7032f97df8f6e52d",
+   "title": "GPT-5.2 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260116200005",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-52-in-chatgpt",
+   "sha": "5054635bec16b212",
+   "title": "GPT-5.2 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260207082131",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-51-in-chatgpt",
+   "sha": "23245da5c3621134",
+   "title": "GPT-5.2 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260220190324",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt/",
+   "sha": "6810466b685642d8",
+   "title": "GPT-5.2 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260221050355",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-51-in-chatgpt",
+   "sha": "46121fd97a0d560e",
+   "title": "GPT-5.2 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260226000856",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "c9fbbd3f74508caf",
+   "title": "GPT-5.2 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260227043212",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "aa704422cc5eb786",
+   "title": "GPT-5.2 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260301055248",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-52-in-chatgpt",
+   "sha": "7593aa6ae2628962",
+   "title": "GPT-5.2 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260302094121",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-51-in-chatgpt",
+   "sha": "60545bb0764bbfe8",
+   "title": "GPT-5.2 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260305142144",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-52-in-chatgpt",
+   "sha": "3f43d7f4991ce732",
+   "title": "GPT-5.3 and 5.2 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260305220628",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-54-in-chatgpt",
+   "sha": "e4feecc6dc6692d9",
+   "title": "GPT-5.3 and GPT-5.4 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260306032236",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-54-in-chatgpt",
+   "sha": "5ce4a3262f45303d",
+   "title": "GPT-5.3 and GPT-5.4 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260306035727",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-52-in-chatgpt",
+   "sha": "5ce4a3262f45303d",
+   "title": "GPT-5.3 and GPT-5.4 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260306184324",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-54-in-chatgpt",
+   "sha": "e39a1e12009e8807",
+   "title": "GPT-5.3 and GPT-5.4 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260309170145",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-54-in-chatgpt",
+   "sha": "48827db25108de9c",
+   "title": "GPT-5.3 and GPT-5.4 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260321024011",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-54-in-chatgpt",
+   "sha": "2c21ae742b8a8293",
+   "title": "GPT-5.3 and GPT-5.4 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260401185524",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "7381ef916c4bf593",
+   "title": "GPT-5.3 and GPT-5.4 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260417092224",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-54-in-chatgpt",
+   "sha": "7381ef916c4bf593",
+   "title": "GPT-5.3 and GPT-5.4 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260424034952",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-55-in-chatgpt",
+   "sha": "6bd80fc65a14434b",
+   "title": "GPT-5.3 and GPT-5.5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260426123524",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-51-in-chatgpt",
+   "sha": "3d93360f2d17afb8",
+   "title": "GPT-5.3 and GPT-5.5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260426124019",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-52-in-chatgpt",
+   "sha": "3d93360f2d17afb8",
+   "title": "GPT-5.3 and GPT-5.5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260426203858",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-55-in-chatgpt",
+   "sha": "214bc6476691dad5",
+   "title": "GPT-5.3 and GPT-5.5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260427145716",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-1-in-chatgpt",
+   "sha": "e1083bda91ad9c79",
+   "title": "GPT-5.3 and GPT-5.5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260506083236",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-55-in-chatgpt",
+   "sha": "94020a9f33c8e8fe",
+   "title": "GPT-5.5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260512035555",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-1-in-chatgpt",
+   "sha": "d8832ca4d427ced7",
+   "title": "GPT-5.5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260516074606",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "bf6a054f9b475b04",
+   "title": "GPT-5.5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260518020101",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-54-in-chatgpt",
+   "sha": "12313429dc4dd908",
+   "title": "GPT-5.5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260518093915",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-54-in-chatgpt",
+   "sha": "12313429dc4dd908",
+   "title": "GPT-5.5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260519111010",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-55-in-chatgpt",
+   "sha": "49b9c40d4ddcdb30",
+   "title": "GPT-5.5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260607061111",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-55-in-chatgpt",
+   "sha": "2a249d1260bc2ae0",
+   "title": "GPT-5.5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260610032057",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-55-in-chatgpt",
+   "sha": "923aa7be82d1ece9",
+   "title": "GPT-5.5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260610100122",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-1-in-chatgpt",
+   "sha": "923aa7be82d1ece9",
+   "title": "GPT-5.5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260623140401",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt",
+   "sha": "506092d198f0aaec",
+   "title": "GPT-5.5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260628045724",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-55-in-chatgpt",
+   "sha": "fa396d4cf56e05bc",
+   "title": "GPT-5.5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260628055738",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-54-in-chatgpt",
+   "sha": "b15fc7417b369a06",
+   "title": "GPT-5.5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260630082506",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-55-in-chatgpt",
+   "sha": "9f83687b03483535",
+   "title": "GPT-5.5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260703212100",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-55-in-chatgpt",
+   "sha": "076f598e67bcb33a",
+   "title": "GPT-5.5 in ChatGPT | OpenAI Help Center"
+  },
+  {
+   "ts": "20260813003448",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-54-in-chatgpt",
+   "error": "terminated"
+  },
+  {
+   "ts": "20260821011502",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-54-in-chatgpt",
+   "error": "terminated"
+  }
+ ],
+ "versions": [
+  {
+   "sha": "8c064c3122abaa9b",
+   "first": "20250808074119",
+   "last": "20250808074119",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "51d29262922dec06",
+   "first": "20250809013809",
+   "last": "20250809013809",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "91a78b7b12575983",
+   "first": "20250810112350",
+   "last": "20250810112350",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "43398fed9b693b90",
+   "first": "20250811041637",
+   "last": "20250811041637",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "05a13b19c7273c07",
+   "first": "20250812143050",
+   "last": "20250812143050",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "72566c5ed6c94b4d",
+   "first": "20250813102715",
+   "last": "20250813102715",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "4846330fd8f6d080",
+   "first": "20250821011517",
+   "last": "20250821011517",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "13c4c1a8047cc9ad",
+   "first": "20250823080446",
+   "last": "20250823080446",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "a3ddb7f71d83c903",
+   "first": "20250828105403",
+   "last": "20250828105403",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "006746a6c915ee50",
+   "first": "20250831002812",
+   "last": "20250831002812",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "5bba52dfbe94c231",
+   "first": "20250909161654",
+   "last": "20250909161654",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "e6fc593f0296fde9",
+   "first": "20250914000144",
+   "last": "20250914000144",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "e76ad144d3b77aee",
+   "first": "20250916150413",
+   "last": "20250916150413",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "502ca7484e47749b",
+   "first": "20250922085334",
+   "last": "20250922085334",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "54aa9500e78613ab",
+   "first": "20250929082540",
+   "last": "20250929082540",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "2a27db52fc90aa24",
+   "first": "20251005154842",
+   "last": "20251005154842",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "776e358a37bee3db",
+   "first": "20251018101525",
+   "last": "20251018101525",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "d9770cb52178eb65",
+   "first": "20251019204405",
+   "last": "20251019204405",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "6331dc137eae3ccc",
+   "first": "20251024174123",
+   "last": "20251024174123",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "5f87c231d47863c2",
+   "first": "20251026112811",
+   "last": "20251026112811",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "2dc61a56057b520b",
+   "first": "20251113203241",
+   "last": "20251113203241",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-51-in-chatgpt"
+  },
+  {
+   "sha": "d11365ccae60f49e",
+   "first": "20251116172450",
+   "last": "20251116172450",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "5054635bec16b212",
+   "first": "20251217183930",
+   "last": "20251217183930",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-52-in-chatgpt"
+  },
+  {
+   "sha": "9288a45681c1ac68",
+   "first": "20251224060353",
+   "last": "20251224060353",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "ae62eb68e6b30a76",
+   "first": "20251227223748",
+   "last": "20251227223748",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "7032f97df8f6e52d",
+   "first": "20260106171627",
+   "last": "20260106171627",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-51-in-chatgpt"
+  },
+  {
+   "sha": "5054635bec16b212",
+   "first": "20260116200005",
+   "last": "20260116200005",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-52-in-chatgpt"
+  },
+  {
+   "sha": "23245da5c3621134",
+   "first": "20260207082131",
+   "last": "20260207082131",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-51-in-chatgpt"
+  },
+  {
+   "sha": "6810466b685642d8",
+   "first": "20260220190324",
+   "last": "20260220190324",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt/"
+  },
+  {
+   "sha": "46121fd97a0d560e",
+   "first": "20260221050355",
+   "last": "20260221050355",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-51-in-chatgpt"
+  },
+  {
+   "sha": "c9fbbd3f74508caf",
+   "first": "20260226000856",
+   "last": "20260226000856",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "aa704422cc5eb786",
+   "first": "20260227043212",
+   "last": "20260227043212",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "7593aa6ae2628962",
+   "first": "20260301055248",
+   "last": "20260301055248",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-52-in-chatgpt"
+  },
+  {
+   "sha": "60545bb0764bbfe8",
+   "first": "20260302094121",
+   "last": "20260302094121",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-51-in-chatgpt"
+  },
+  {
+   "sha": "3f43d7f4991ce732",
+   "first": "20260305142144",
+   "last": "20260305142144",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-52-in-chatgpt"
+  },
+  {
+   "sha": "e4feecc6dc6692d9",
+   "first": "20260305220628",
+   "last": "20260305220628",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-54-in-chatgpt"
+  },
+  {
+   "sha": "5ce4a3262f45303d",
+   "first": "20260306032236",
+   "last": "20260306035727",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-54-in-chatgpt"
+  },
+  {
+   "sha": "e39a1e12009e8807",
+   "first": "20260306184324",
+   "last": "20260306184324",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-54-in-chatgpt"
+  },
+  {
+   "sha": "48827db25108de9c",
+   "first": "20260309170145",
+   "last": "20260309170145",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-54-in-chatgpt"
+  },
+  {
+   "sha": "2c21ae742b8a8293",
+   "first": "20260321024011",
+   "last": "20260321024011",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-54-in-chatgpt"
+  },
+  {
+   "sha": "7381ef916c4bf593",
+   "first": "20260401185524",
+   "last": "20260417092224",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "6bd80fc65a14434b",
+   "first": "20260424034952",
+   "last": "20260424034952",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-55-in-chatgpt"
+  },
+  {
+   "sha": "3d93360f2d17afb8",
+   "first": "20260426123524",
+   "last": "20260426124019",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-51-in-chatgpt"
+  },
+  {
+   "sha": "214bc6476691dad5",
+   "first": "20260426203858",
+   "last": "20260426203858",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-55-in-chatgpt"
+  },
+  {
+   "sha": "e1083bda91ad9c79",
+   "first": "20260427145716",
+   "last": "20260427145716",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-1-in-chatgpt"
+  },
+  {
+   "sha": "94020a9f33c8e8fe",
+   "first": "20260506083236",
+   "last": "20260506083236",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-55-in-chatgpt"
+  },
+  {
+   "sha": "d8832ca4d427ced7",
+   "first": "20260512035555",
+   "last": "20260512035555",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-1-in-chatgpt"
+  },
+  {
+   "sha": "bf6a054f9b475b04",
+   "first": "20260516074606",
+   "last": "20260516074606",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "12313429dc4dd908",
+   "first": "20260518020101",
+   "last": "20260518093915",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-54-in-chatgpt"
+  },
+  {
+   "sha": "49b9c40d4ddcdb30",
+   "first": "20260519111010",
+   "last": "20260519111010",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-55-in-chatgpt"
+  },
+  {
+   "sha": "2a249d1260bc2ae0",
+   "first": "20260607061111",
+   "last": "20260607061111",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-55-in-chatgpt"
+  },
+  {
+   "sha": "923aa7be82d1ece9",
+   "first": "20260610032057",
+   "last": "20260610100122",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-55-in-chatgpt"
+  },
+  {
+   "sha": "506092d198f0aaec",
+   "first": "20260623140401",
+   "last": "20260623140401",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt"
+  },
+  {
+   "sha": "fa396d4cf56e05bc",
+   "first": "20260628045724",
+   "last": "20260628045724",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-55-in-chatgpt"
+  },
+  {
+   "sha": "b15fc7417b369a06",
+   "first": "20260628055738",
+   "last": "20260628055738",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-53-and-54-in-chatgpt"
+  },
+  {
+   "sha": "9f83687b03483535",
+   "first": "20260630082506",
+   "last": "20260630082506",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-55-in-chatgpt"
+  },
+  {
+   "sha": "076f598e67bcb33a",
+   "first": "20260703212100",
+   "last": "20260703212100",
+   "url": "https://help.openai.com/en/articles/11909943-gpt-55-in-chatgpt"
+  }
+ ],
+ "complete": true
+}

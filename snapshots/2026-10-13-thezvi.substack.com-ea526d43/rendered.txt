@@ -1,0 +1,305 @@
+Don't Worry About the Vase
+Subscribe
+Sign in
+Discover more from Don't Worry About the Vase
+A world made of gears. Doing both speed premium short term updates and long term world model building. Currently focused on weekly AI updates. Explorations include AI, policy, rationality, medicine and fertility, education and games.
+Over 40,000 subscribers
+Subscribe
+By subscribing, you agree to Substack's Terms of Use, and acknowledge its Information Collection Notice and Privacy Policy.
+Already have an account? Sign in
+Anthropic Responsible Scaling Policy v3: A Matter of Trust
+ZVI MOWSHOWITZ
+APR 01, 2026
+44
+21
+4
+Share
+Anthropic has revised its Responsible Scaling Policy to v3.
+The changes involved include abandoning many previous commitments, including one not to move ahead if doing so would be dangerous, citing that given competition they feel blindly following such a principle would not make the world safer.
+Holden Karnofsky advocated for the changes. He maintains that the previous strategy of specific commitments was in error, and instead endorses the new strategy of having aspirational goals. He was not at Anthropic when the commitments were made.
+My response to this will be two parts.
+Today’s post talks about considerations around Anthropic going back on its previous commitments, including asking to what extent Anthropic broke promises or benefited from people reacting to those promises, and how we should respond.
+It is good, given that Anthropic was not going to keep its promises, that it came out and told us that this was the case, in advance. Thank you for that.
+I still think that Anthropic importantly broke promises, that people relied upon, and did so in ways that made future trust and coordination, both with Anthropic and between labs and governments, harder. Admitting to the situation is absolutely the right thing, but doing so does not mean you don’t face the consequences.
+Friday’s post dives into the new RSP v3.0 and the accompanying Roadmap and Risk Report, in detail.
+Note that yes this is being posted on April Fools Day, but this post is only an April Fools joke insofar as those who believed Anthropic’s previous RSPs are now the April Fool.
+Promises, Promises
+If your initial promises were a mistake, it may or may not be another mistake to walk them back. Either way, even if your promises were not hard commitments, walking them back involves paying a price for having broken your promises, even if you had a strong reason to break them. How big a price depends on the circumstances.
+Almost all mainstream coverage of this event framed it as abandoning or walking back Anthropic’s core safety promises, especially ‘do not scale models to a dangerous level without adequate safeguards.’ As a central example of this, The Wall Street Journal said ‘Anthropic Dials Back AI Safety Commitments’ due to competitive pressures. That oversimplifies the situation, leaving a lot out, but doesn’t seem wrong.
+Many outsiders who follow the situation more closely believe this amounts to Anthropic having broken its commitments. Some go so far as to say this means that lab commitments to safety should not be considered worth the paper that they were never printed on. Many now expect Anthropic to make some amount of effort, but nothing that would much interfere with business plans. If Anthropic can’t make the commitment, why should anyone else? Certainly this government is not going to help.
+Don’t be afraid to tell them how you really feel. They welcome it. So here we go.
+Anthropic Responsible Scaling Policy v3
+The Responsible Scaling Policy is Anthropic’s commitments regarding when and under what conditions they will release frontier models.
+The headline change is that they are no longer committed to not releasing potentially unsafe models, if someone else did it first. Cause, you know, they started it.
+That Could Have Gone Better
+Anthropic starts their new analysis by going over their theory of change from having an RSP at all, and whether those theories were realized. They report a mixed bag.
+First, the good news.
+They developed (modestly) stronger safeguards.
+They did successfully implement ASL-3 safeguards.
+They did importantly get OpenAI and DeepMind to develop frameworks, and then had the idea of a framework codified in SB 53 and RAISE.
+Then the bad news.
+It did not create consensus about the level of risk from various models. It has proven very unclear how much risk is in the room, especially in biology.
+Government action has been nonzero but painfully slow at best.
+(I would add) We’re not being sufficiently proactive about ASL-4.
+(I would add) The requirements got changed somewhat when inconvenient.
+I’m Just Not Ready To Make a Commitment
+What’s the most important differences in the new version?
+Anthropic is now basically giving up on hard commitments and barriers to releasing models, relying instead on ‘we will make reasonable-to-us arguments’ and decide that the benefits exceed the risks.
+I appreciate the honesty. Really, I do.
+If you’re not ready to make a commitment, and you realize you shouldn’t have made one, then the second best time to realize and admit that fact is right now.
+Officially breaking the commitments now is higher integrity than silently breaking them later. It’s especially better than silently changing the RSP right before a release. I approve of Charles’s frame of ‘Anthropic stopped pretending to have red lines at which they will unilaterally pause.’
+If Anthropic was in practice already doing a ‘we think our arguments are reasonable’ decision process, which with Opus 4.6 it seemed like they mostly were, then better to admit it than to pretend otherwise.
+I want to emphasize that essentially no one, not even those who disagree with me and think Anthropic should pause, and who also think Anthropic made rather strong commitments it is now breaking, are saying ‘Anthropic should be holding to its previous commitments purely because they said so, even if this leads to pausing that does not make sense.’
+One still has to be held to account for breaking promises, and for making promises that were inevitably going to be broken, even if the decision to break them is right. Your defense that the move was correct does not excuse you from its consequences.
+1a3orn: Arguments against the Anthropic RSP changes seem to incline towards deontological language regarding broken promises / duties
+While arguments for them incline toward consequentialist language / greater good, afaict.
+Oliver Habryka: I think both are right! The old RSP was obviously unworkable and should have never been published, given what Anthropic is trying to do. So abandoning it is the right thing to do, but of course if you break promises you should be held accountable.
+It’s not that hard to explain the consequentialist arguments for holding people accountable for breaking promises, but most people have an intuitive sense for why it’s important, so you don’t have to unpack it.
+(To be clear, I think Anthropic should stop scaling and redirect its efforts towards advocating for a pause, but doing that because of the RSP would be weird and I don’t think the right move.
+It would just look like you sabotaged yourself and now want to hold others back because you accidentally promised some dumb things that took you out of the race)
+I also want to emphasize that commitments are only one way to improve safety. Even when plans are worthless, planning is essential, and you can and should just do things. None of this means ‘Holden or Anthropic don’t care about safety,’ only that they will decide what they think is right and then do it, and you can decide how much you trust them to choose wisely.
+I do still see this as Anthropic abandoning its experiment on importantly engaging in voluntary self-government and restricting itself. Technically they reserved the right to do it, but it’s still quite the gut punch to do it.
+The experiment is over. That’s better than pretending the experiment is working.
+From this point, there are no commitments, only statements of intent. Anthropic’s going to do what it’s going to do. You can either choose to trust Anthropic’s leadership to make good decisions, or you can choose not to.
+I think Anthropic’s description of its own history says that having these softly binding commitments, and having a track record of treating it as costly to break them, was very good for safety outcomes and policy adoption. I hate that we’ve given that up.
+So Cold, So Alone
+If your commitment is conditional on the actions of others, you should say that.
+They didn’t entirely not say this before, but it was very much phrased as ‘in case of emergency we might have to break glass’ rather than ‘we only hold back if everyone relevant signs on.’
+RSPv2 said this in 7.1.7: “If another frontier AI developer passes or is about to pass a Capability Threshold without implementing equivalent Required Safeguards, such that their actions pose a serious risk to the world, then because the incremental risk from Anthropic would be small, Anthropic might lower its Required Safeguards. If it did so, it would acknowledge the overall level of risk posed by AI systems (including its own) and invest significantly in making a case to the U.S. government for regulatory action.”
+Whereas Anthropic is now saying they’re willing to hit those thresholds first, unless they have explicit commitments from others to do otherwise, even if this is not a small incremental risk.
+I strongly agree with aysja, and disagree with Holden, that it would be misleading to describe this shift as a ‘natural extension of the RSP being a living document.’
+I do see the argument that goes like this:
+Going first was designed to get others to follow in a coordination problem.
+No one followed.
+That didn’t work, so we should admit it didn’t work and move on.
+If that is where we are at now, you have all the reason to make this stricter requirement clear up front. That gives others more reason to follow you, and avoids all the nasty headlines we’re seeing now. Alas. it’s a little late for that.
+If the mistake has already been made, it’s not obviously bad to admit defeat, and say you’re not going to then let someone else potentially dumber and riskier get there first.
+I definitely agree it’s better to announce your intention to violate your old policy now, rather than wait until the day you do violate the old policy, which might never come.
+davidad: Voluntary commitments to AI slowdowns were a nice idea in 2024 when it was plausible that they could be baby steps toward a multilateral agreement that would contain the intelligence explosion. For a variety of reasons this is no longer plausible.
+Anthropic is doing good here.
+In the strategic landscape of 2026, racing is the right move, not just for profit but also for maximizing the probability that things go well for most current humans.
+Sam Bowman (Anthropic): I endorse the top [paragraph above].
+The Anthropic RSP changes are an attempt to work out what kinds of firm commitments have the most leverage in an environment that’s less promising than we’d expected for policy and coordination.
+We misjudged what the environment would look like at this point, which is sad. But these new commitments do still have some heft, including a lot more verifiable transparency (with third parties in the loop) on risks and mitigations.
+Oliver Habryka: I am in favor of figuring out what kind of firm commitments have the most leverage. But of course, you can’t do that by making “firm commitments” directly!
+It’s not a firm commitment if you are just playing around with different commitments.
+The main catch is, it sounds like ‘you should see one of the other guys’ is going to be used as a basically universal excuse to go forward essentially no matter how risky it is, if the cost of not doing so is high?
+If Anthropic does in the future pause for an extended period, in a way that is importantly costly, then I will have been wrong about this and precommit to saying so in public. If I don’t do so, please remind me of this.
+As Drake Thomas notes, the virtue ethical case for ‘don’t impose material existential risk on the planet’ is reasonably strong.
+One problem is that this absolutely is going to weaken the willingness of others to incur costs, and embolden those who want to move forward no matter what. Endorsing race logic and the impossibility of cooperation has its consequences.
+I’m Sorry I Gave You That Impression
+What do you mean the RSP was committing Anthropic to things?
+Robert Long: I’m not super read up on RSPs and haven’t read Holden’s post. But it feels similar to the “Anthropic won’t push the capability frontier” meme: not strictly entailed by Anthropic’s official stance, but a strong impression they gave off and benefited from.
+is that fair? incomplete?
+Oliver Habryka: I mean, in this case the impression was really extremely unambiguous and strong. I agree the evidence for the promises made in the capability frontier case is largely private and so is externally ambiguous, but in this case we have great receipts!
+Here, for example, is a conversation with Evan Hubinger. The conversation starts with someone saying:
+Someone: One reason I’m critical of the Anthropic RSP is that it does not make it clear under what conditions it would actually pause, or for how long, or under what safeguards it would determine it’s OK to keep going.
+Evan Hubinger responded with (across a few different comments): It’s hard to take anything else you’re saying seriously when you say things like this; it seems clear that you just haven’t read Anthropic’s RSP.
+...
+The conditions under which Anthropic commits to pausing in the RSP are very clear. In big bold font on the second page it says:
+Anthropic’s commitment to follow the ASL scheme thus implies that we commit to pause the scaling and/or delay the deployment of new models whenever our scaling ability outstrips our ability to comply with the safety procedures for the corresponding ASL.
+...
+the security conditions could trigger a pause all on their own, and there is a commitment to develop conditions that will halt scaling after ASL-3 by the time ASL-3 is reached.
+...
+This is the basic substance of the RSP: I don’t understand how you could have possibly read it and missed this. I don’t want to be mean, but I am really disappointed in these sort of exceedingly lazy takes.
+Oliver Habryka: This was, in my experience, routine. I therefore do see this switch from “RSP as concrete if-then-commitments” to “RSP as positive milestone setting” to constitute a meaningful breaking of a promise. Yes, the RSP always said in its exact words that Anthropic could revise it, but people who said that condition would trigger were frequently dismissed and insulted as in the comment above.
+This certainly sounds like Evan Hubinger basically attacking anyone for daring to question that the RSP represented de facto strong commitments by Anthropic. We now know it did not strongly commit Anthropic to anything.
+Evan predicted there was a substantial change Anthropic’s commitments would at some point force it to pause. Oliver made a market on that, which is now at ~0% despite rapid capabilities progress and Anthropic now arguably being in the lead.
+Even after the RSPv3 release, Evan Hubinger continued to defend his position, that he was only saying that the RSP made a clear statement about where the lines were, not that the lines would not change or actually work in practice. Like Oliver I find this highly convincing given a plain reading of Evan’s comment. I do appreciate Evan saying now that we should downweight the theory of RSPs.
+So the question then becomes, were Evan Hubinger and other employees who talked similarly under a false impression? If so, why? If not, why talk this way?
+Oliver Habryka could not be more clear here, and I don’t think he would lie about this:
+Oliver Habryka: Yes, Anthropic employees on more than a dozen occasions told me that the RSP binds them to a mast. I had many very explicit conversations with many Anthropic employees about this, because I was following up on what I thought was Anthropic violating what I perceived to be a promise to not push forward the state of AI capabilities, which many employees disputed had happened.
+… At various events I was at, and conversations I had with people, Anthropic employees told me they were aiming to achieve robustness from state-backed hacking programs, and that they were ready to pause if they could not achieve that (as the RSP "committed" them to such things).
+Oliver notes that Holden Karnofsky in particular has previously communicated he felt this was a different and lower level of commitment, that is consistent with him pushing the changes in v3, in contrast to many other Anthropic employees.
+As Oliver Habryka says here, if Evan was under this false impression, Anthropic benefited enormously from giving its senior employees like Evan this impression. This does not seem like a ‘mistake’ from Anthropic to do this, and it would not be reasonable from the outside view to consider it an accident.
+At minimum, if you don’t admit Anthropic has importantly now broken its commitments, then this is all highly misleading use of the word ‘commitment.’
+Oliver Habryka: I would be pretty surprised if the employees in-question here end up saying they were deceived. Also, these are high-level enough employees that it’s unclear what it even means for them to be “deceived”. Deceived by whom? They drafted the RSP! They almost certainly were also involved in the decision to change it.
+They benefitted hugely from this by getting social license to work at Anthropic and having people get off their back, and they are now at least deca-millionaires (or often billionaires).
+Robert Long: fwiw I take that disagreement to be semantic, about “commitment” (as you note). I also agree with what you said then about the connotation of “commitment” - s.t. calling RSPs commitments means he should’ve fought the change and/or now own “we decided to break our commitment”
+In particular, yes, a lot of people who care about not dying felt that the central point of RSPs was as a de facto compromise, an attempt to put an if-then commitment trigger on slowing down or pausing. If you couldn’t match the conditions, then you have to pause, which makes it acceptable to move forward now.
+Indeed one could go further. The entire program of focusing heavily on not only Anthropic but evaluation-based organizations like METR and Apollo was that the evals could constitute the if that triggers a then. We now know that such commitments do not work, and that when models pass the dangerous capability tests even Anthropic will likely then fall back upon vibes. METR’s theory of change is ‘ensure the world is not surprised’ but I expect them to still be surprised.
+Alternatively or in addition, you can interpret it as Holden does, that ‘no one has any willingness to slow down, and until there is a crisis this won’t change.’ Now the attitude is essentially ‘pausing or slowing down would be akin to suicide for a frontier AI lab, so things would have to be super extreme to do that, this is more of a plan we aspire to.’ Which is also a fine thing, but a very different style of document. Those who thought it was the first type of document lose Bayes points. Whereas those who thought it was the second type of document win Bayes points.
+One could interpret a lot of this as ‘Anthropic employees implied they were using Rationalist epistemic norms, but instead they were using a different set of norms.’
+Fool Me Twice
+Does this backtrack remind you of anything?
+It should. In particular, it should remind you of what happened with the idea that Anthropic would not ‘push the frontier of AI capabilities.’
+A lot of people told us, with various wordings and degrees of commitment attached, that Anthropic would not do that. Then Anthropic sort of did it. Then they totally flat out did it and now Claude Code and Claude Opus 4.6 are very clearly the frontier.
+Then we were told, ‘oh we never promised not to do that.’
+Maybe they didn’t strictly promise to do that. Maybe a lot of telephone games were involved, but Anthropic at minimum damn well should have known that a lot of people were under that impression. I was under that impression. And they knew that people were making major life decisions, and deciding whether and how much to support Anthropic, on the basis of that decision, with no sign anyone ever did anything to correct the record.
+Now we’re being told, again, ‘oh we never promised not to [undo our commitments].
+You’re trying to tell us what about your new commitments, then?
+Ruben Bloom (Ruby): I don’t like the pattern. In 2022, I was told that “Anthropic commits to not push the frontier” as reason to worry less. Later that was abandoned and the story for Anthropic’s safety was the RSP. That too has caved.
+By “I was told”, I mean the specific things said to me in conversation with Anthropic employees who were justifying their participation in a company participating in the AI race.
+It’s just such a bitter “I told you so”, when you predicted years that ago competitive pressures would erode any and perhaps all commitments.
+Eliezer Yudkowsky: If I’d ever had the faintest, tiniest credence in Anthropic’s “Responsible Scaling Policy”, I’d probably feel pretty betrayed right now!
+As it is, I ask only that you update, and not always be surprised in the same direction of “huh, Eliezer was right to call it empty”.
+Note: to observe how my cynicism repeatedly *ends up* right, tally only how things *end up*. Don’t jump and say “See, Eliezer was wrong to be cynical!” the moment you hear an uncashed promise or see an arguable sign of later hope.
+Eliezer and others are constantly getting flak for predicting things that, in broad terms, do indeed seem to keep on reliably happening, everywhere. People constantly say ‘we will not do [X]’ or ‘in that case we would definitely do [Y]’ or heaven forbid ‘no one would be so stupid as to [Z]’ and then you turn around those same people did [X] and didn’t do [Y] and a lot of people did [Z] and you’re treated as a naive idiot for having ever taken the alternative seriously.
+Best update your priors. All the people who said commitments wouldn’t hold get Bayes points. Those who didn’t lose Bayes points.
+All the people who are now saying new ‘commitments’ matter and they really mean it this time? They don’t matter zero, but they are not true commitment.
+I also don’t understand, given its composition and past Anthropic actions, why I should put that much stock in the Long Term Benefit Trust. It’s better to have it in its current form than not have it, but it was an important missed opportunity.
+Anthropic definitely gets meaningful points on this front for standing up for what it believed in during the confrontation with the Department of War, even if you think those particular choices were unwise. I think there’s a lot more hope for actions of the form ‘Anthropic or another lab takes this particular stand right now’ than ‘Anthropic or another lab will take this particular stand later.’
+In My Defense I Was Left Unsupervised
+Holden offers a defense of the new RSP here and here, essentially saying that binding commitments are bad, because we don’t have enough information to choose them wisely, so you might choose poorly and regret them later, and indeed Anthropic did previously sometimes choose poorly and now is later and they’re regretting it. So sayeth all those who wish to not make any binding commitments.
+I interpret Holden, despite his saying he has a document where he wrote down where he would think a unilateral pause would be a good idea, as saying that they are going to do their best to do appropriate mitigations, but ultimately yes, they are going to release models, both internally and externally, pretty much no matter what mitigations are or are not available short of ‘okay yeah this is obviously a really terrible idea that will get us all killed or at least blow up directly in our faces,’ and they’re simply admitting this was always true. Okay, then.
+Holden basically says in particular that he doesn’t think Anthropic should slow down based on inability to prevent theft of model weights, even if it crosses the ‘AI R&D-5’ threshold that is at least singularity-ish. They’re going to go ahead regardless. They’re not going to stop. I worry a lot both about the not stopping, and that without the forcing function of having to stop, they even more so than before won’t invest sufficiently in the necessary precautions, here or elsewhere. They not only can’t stop, won’t stop, they won’t halt and catch fire.
+A list of aspirational goals is a good thing to have. I don’t think a list of aspirational goals is going to create sufficient threat of looking terrible to provide the same incentives here. That doesn’t mean the list of goals cannot do good work in other ways.
+I see Holden complaining a lot about people ‘seeing RSPs as having hard commitments’ and using that as an additional reason to get rid of all the commitments. He’s pointing to all the complaining that Anthropic just broke its commitments and saying ‘see? This reaction is all the more reason we had to break all our commitments.’
+It was exactly the enforcement mechanism that, if you break the commitments, people will get mad at you. This is why we can’t stay alive have nice things. So now we will have aspirations.
+Aspirations are helpful, they substantially raise the chance you will do the thing, but they are weak precommitment devices when you decide you won’t do the thing later.
+I also think his own argument of ‘it’s much easier to require things labs already committed to doing’ works directly against the ‘don’t commit to anything’ plan.
+Drake Thomas Finds The Missing Mood
+Drake Thomas thinks the move from v2.2 to v3.0 is an improvement, while noticing the need to have something like mourning or grief for the spirit of the original v1.0, which is now gone and proven not viable in practice at Anthropic.
+Drake Thomas (Anthropic): (1) In reading drafts of this RSP and orienting to it, I’ve felt something like mourning or grief for the spirit of the original v1.0 RSP. (Quite a lot of the v1 RSP carries over to v3, but here I’m thinking specifically of the vibe of “specify very crisp capability thresholds at which to trigger very concrete safety mitigations, or else halt development”.)
+I think this original approach is ultimately just a pretty bad way for responsible AI developers to set safety policies, leads to misprioritization and bad outcomes, has distortionary effects on incentives and epistemics, and doesn’t achieve much risk reduction in the environment of 2026.
+… Accountability! The vibe of RSP v1 sort of rested all accountability in this sense of the commitments as this fixed immutable thing Anthropic would have to stand behind Or Else. I think this is good in some ways and under some threat models, but I think then and now there was less feedback than I’d like on the question of “are the things Anthropic is committing to actually good and useful for safety?” In v3, I think external accountability on these questions is now more loadbearing, and there’s more detailed substance to fuel such accountability. Which leads me to...
+Feedback! … I expect the discourse to be very undersupplied with takes on the question of “is the actual v3 policy a good one with good consequences”. Personally I think it is, and a substantial improvement over previous RSPs!
+Please actually read and criticize it! Gripe about the ambiguity of the roadmaps! Run experiments to cast doubt on risk report methodology! I can name three significant complaints I have with the RSP off the top of my head and I expect to see none of them on X, prove me wrong!
+I get Drake’s frustrations. But yes, most people are going to litigate the removal of the core commitment around pausing and general revelation that so-called commitments aren’t so meaningful after all. Most attention is going to go there. He makes clear that he gets it, and I’d say he passes the ITT about why people are and have a right to be pissed off, especially that we had language in v1.0 saying that the bar for altering commitments was a lot higher than it ultimately was.
+And indeed, a lot of our attention likely should go there, because if the new statements aren’t commitments, it is a lot harder to productively critique them.
+Things That Could Have Been Brought To My Attention Yesterday (1)
+Well, you see, not rushing ahead as fast as possible might slow us down. That would be bad. You wouldn’t want us to do that, would you?
+Jared Kaplan (Chief Science Officer, Anthropic): ​We felt that it wouldn’t actually help anyone for us to stop training AI models. We didn’t really feel, with the rapid advance of AI, that it made sense for us to make unilateral commitments … if competitors are blazing ahead.
+…I don’t think we’re making any kind of U-turn.
+Besides, we aren’t able to evaluate models as fast as we are able to improve them, which means we should triage the evaluations and kind of wing it. I mean, what do you want us to do, not release frontier AI models we can’t evaluate? Silly wabbit.
+Chris Painter (METR): Anthropic believes it needs to shift into triage mode with its safety plans, because methods to assess and mitigate risk are not keeping up with the pace of capabilities.​
+This is more evidence that society is not prepared for the potential catastrophic risks posed by AI.
+I like the emphasis on transparent risk reporting and publicly verifiable safety roadmaps.
+Billy Perrigo: But he said he was “concerned” that moving away from binary thresholds under the previous RSP, by which the arrival of a certain capability could act as a tripwire to temporarily halt Anthropic’s AI development, might enable a “frog-boiling” effect, where danger slowly ramps up without a single moment that sets off alarms.
+That does seem likely and sound concerning.
+Things That Could Have Been Brought To My Attention Yesterday (2)
+In other need-to-know news, Sean asked a very good question. Drake’s answer to this was about as good as one could have hoped for, given the facts.
+If you’ve decided to break your ‘commitment,’ you want to tell us as soon as possible.
+I have confirmation that the board only approved the changes ‘very recently.’
+Seán Ó hÉigeartaigh: At what point was it decided that the previous commitment were ‘subject to a favourable environment’ and not ‘firm commitments’, and was this communicated across staff? The whole point of commitments is an expectation of being able to rely on them when the environment is not favourable, not just when they’re easy to make.
+It also seems clear at this point that these commitments were presented as harder than this, and used by Anthropic/their staff to
+(a) dismiss and undermine critics
+(b) in recruitment of safety-concerned talent
+(c) in arguing for voluntary if-then commitments at a time when there was more government appetite for considering harder regulation.
+I think it’s plausible (though can’t yet confirm) that (d) they’ve also been used in securing investment from safety-conscious investors.
+Do you disagree with these claims? If not, do you feel Anthropic has held itself to a standard of ethics and transparency in this (quite important!) matter that is acceptable?
+Drake Thomas (Anthropic): Re: "at what point was it decided" - I think this presupposes a frame in which this kind of thing is extremely formally pinned down much more than I think it generally is in reality (not just at Anthropic, but in almost all circumstances like this)?
+None of the versions of the RSP are particularly clear about exactly what a "commitment" is supposed to be read as, how that should be interpreted within a document which is expected to be amended in the future, what the stakes of violating such a commitment are, etc. Especially the early versions had huge decision-critical ambiguities you could drive a truck through!
+It's not like there was a secret internal RSP which had even more footnotes about meta-commitments that made this dramatically clearer, just a bundle of authorial intent and something-like-case-law and an understanding of what reasonable decisions to reduce risk would be and long-simmering drafts of less ambiguous updated policies that took ages to ship.
+To the extent I think there's something like an answer to the "at what point" question, I know of early discussion around something like an RSP v3 regime widely accessible to Anthropic staff as early as January 2025 and even wider visibility into drafts of something pretty similar to this RSP for at least the past 3 months, though again I don't think it's like there was ever some formal conception that this was Forbidden which had to change at a discrete point.
+All that said: I think the vibes of Anthropic and much of the v1.0 text and many of its employees' statements around the RSP circa 2023 and 2024 presented a much more ironclad view of these commitments than is reflected in RSP v3 (and much more than I now think made sense), and I think this reflected pretty poor judgement and merits criticism. (I count myself among the Anthropic employees who acted poorly in hindsight here, though AFAIK Holden has been consistent and reasonable on this since the beginning.)
+I think it has been the case and will continue to be the case that Anthropic is abiding by the things it says it is abiding by in its published policies and commitments (and should be loudly criticized for failures to do so), but I think the track record of "things that EAs believe Anthropic to have committed to in perpetuity no matter what no takesies-backies" looks quite bad and I don't think it goes well to interpret such claims as meaning anything that strong (nor for Anthropic, or almost anyone, to make such commitments in the vast majority of situations).
+Wrt the claims here, my sense is:
+(a) Eh, I think the specific (LW comment quoted in another comment screenshotted in a tweet linked by you above) is taken out of context and wasn't really claiming anything in particular about how to interpret the strength of RSP v1 commitments. I do expect this kind of thing happened but I think habryka's quote is a bad example of it.
+(b) Yeah, I think non-frontier-pushing rhetoric was a significantly bigger deal on this front but RSP stuff definitely played some role. To the extent I bear some responsibility for this sort of thing I regret it, though iirc I have been pretty open around thinking unilateral pauses were relatively unlikely for a while.
+(c) Hm, I view the intent and expected-at-the-time-effect of RSP v1 style commitments as increasing the odds of codifying such if-then commitments into regulation, by showing them to work well at companies and getting them closer to an existing industry standard. They ultimately failed at doing so, in part due to changing political will, in part due to somewhat limited substantive uptake at other companies, and in part due to the problem where really precise if-then commitments did *not* work all that well because specifying crisp thresholds years in advance in a sensible way was extremely hard - but I think this latter bit is kind of a success story, in that the point of demoing safety policies as voluntary commitments is that if it turns out to be a bad idea you haven't locked yourself into silly regulation that ends up net bad for x-risk via backlash. Could you say more about how you see the comms around commitment strength having worsened regulation prospects?
+(d) not gonna comment on internal fundraising considerations, but checking that you aren't thinking of the Series A, which happened well before the RSP was introduced?
+There is then a discussion of how to think about ‘Oliver is right in general but this particular quote is a bad example,’ which I find to be a helpful thing to say if that’s what you think.
+What We Have Here Is A Failure To Communicate
+I think this is also important context. Dario Amodei and Anthropic have been consistently unwilling, with notably rare exceptions, to say the full situation out loud, or to treat it with proper urgency. Yes, you should see the other guy and all that, fair point, but when you are saying ‘no one wants to [X] so we have to change our plan’ you need to have been calling for [X] and explaining why, and also loudly explaining that this is terrible and forcing you to change plans.
+I don’t see that type of communication out of Anthropic leadership, over the course of years.
+Holden Karnofsky: If there were strong and broad political will for treating AI like nuclear power and slowing it down arbitrarily much to keep risks low, the situation might be different. But that isn’t the world we’re in now, and I fear that “overreaching” can be costly.
+I.M.J. McInnis: I think it would make a nontrivial contribution to that 'strong and broad political will' if Dario were to come out and say "actually, sorry about all that deliberate Overton-window-closing I did in previous writings. In fact, political will is not a totally exogenous oh-well thing, but it is the responsibility of frontier developers to inculcate that political will by telling the public that a pause is possible and desirable, instead of a dumb lame thing not even worth considering. So now we're saying loud and clear: a pause is possible and desirable, and the world should work toward it as a Plan A!"
+I'm being deliberately cartoonish here, but you get the point. If incentives are forcing Anthropic to abandon things that are good for human survival––which occurrence was, no offense, completely obvious from day one––Anthropic should be screaming from the rooftops, Help!! Incentives are forcing us to abandon things that are good for human survival!!
+If this is a crux for you––if you/Anthropic think a pause is so undesirable/unlikely that it's important for the safety of the human race to publicly disparage the possibility of a pause (as Dario opens many of his essays by doing)––please say so! Otherwise, this lily-livered, disingenuous, "oh no, the incentives! it's a shame incentives can never be changed!" moping will give us all an undignified death.
+To be clear, I'm not actually mad about the weakening of the RSP; that was priced in. I suppose I'm glad it's stated, in case there were still naïfs who thought A Good Guy With An AI could save us. It's far more virtuous than outright lying, as every other company (to my knowledge) does (more of).
+Also, although you seemed to try to answer "What is the point of making commitments if you can revise them any time?" You really just replied "Well, actually these commitments were inconvenient to revise, and in fact they should be more convenient to revise, albeit not arbitrary convenience." Forgive me if I am not reassured!
+I respect your work a lot, Holden. You've done great things for humanity. Please don't lose the forest for the trees.
+You Should See The Other Guy
+But they assure us it’s all fine, they are committed to doing as well or better than rivals.
+Jared Kaplan: If all of our competitors are transparently doing the right thing when it comes to catastrophic risk, we are committed to doing as well or better.​
+But we don’t think it makes sense for us to stop engaging with AI research, AI safety, and most likely lose relevance as an innovator who understands the frontier of the technology, in a scenario where others are going ahead and we’re not actually contributing any additional risk to the ecosystem.
+So, first off, no. As I discussed above, you’re not committed. Stop saying you’re committed to things you’re not committed to. You keep using that word.
+We’ve just established you can and will back out of ‘commitments’ if you change your mind. You don’t to say ‘commitment’ in an unqualified way anymore, sorry.
+Even if we assume this ‘commitment’ is honored, reality does not grade on a curve. Saying ‘I will be as responsible as the least responsible major rival’ is no comfort. You’re Anthropic. If that’s your standard, then you’re not helping matters.
+The good news is I expect Anthropic to still do much better than that standard. But that’s purely because I think and hope they will choose to do better. It’s not because I think they are committed to anything.
+I don’t want to hear Anthropic or any of its employees say they are ‘committed’ to something unless they are actually committed to it, ever again.
+Charles Foster: To my knowledge this is the first time a frontier AI developer has explicitly made such a claim about the gap between its internal and external models.
+Drake Thomas (Anthropic): And under RSP v3, is committed (for sufficiently more capable or widely-autonomously-deployed models) to doing so in the future! Really stoked to move into a regime where risk reporting looks beyond external deployment as the source of danger.
+Oliver Habryka: Come on, let’s not immediately start using the word “committed” again, just after that went very badly.
+The right word at this point seems “and as expressed in the RSP, is intending to do X going forward”.
+I also think separately from that, Anthropic has I think tried pretty hard with the 2.2 -> 3 transition to disavow much of any of the usual social aspects of a commitment. Like clearly I can’t go to anyone at Anthropic and be like “you broke a commitment” if they don’t do this. They will definitely tell me “what do you mean, Holden wrote a whole post about how this is definitely not a commitment, you can’t come to me and call it a commitment again now”.
+Hence it’s quite clearly not a commitment.
+Drake counteroffers ‘committed to under this policy’ but no, I think that’s wrong. I think the right word is ‘intending.’
+I Was Only Kidding
+Billy Perrigo: Anthropic, the wildly successful AI company that has cast itself as the most safety-conscious of the top research labs, is dropping the central pledge of its flagship safety policy, company officials tell TIME.
+In 2023, Anthropic committed to never train an AI system unless it could guarantee in advance that the company’s safety measures were adequate.
+… In recent months the company decided to radically overhaul the RSP. That decision included scrapping the promise to not release AI models if Anthropic can’t guarantee proper risk mitigations in advance.
+… Overall, the change to the RSP leaves Anthropic far less constrained by its own safety policies, which previously categorically barred it from training models above a certain level if appropriate safety measures weren’t already in place.
+They Can’t Keep Getting Away With This
+Actually, it kind of seems like they can and probably will.
+Max Tegmark: Anthropic 2024: You can trust that we’ll keep all our safety promises
+Antropic 2026: Nvm
+Eliezer Yudkowsky: So far as I can currently recall, every single time an AI company promises that they’ll do an expensive safe thing later, they renege as soon as the bill comes due.
+One single exception: Demis Hassabis turning down higher offers for Deepmind to go with Google and an ethics board. In this case, of course, Google just fucked him on the ethics board promises; but Demis himself did keep to his way.
+AI Notkilleveryoneism Memes: Shocked, shocked
+Damn Your Sudden But Inevitable Betrayal
+If the betrayal was inevitable, there are two ways to view that.
+Move along, nothing to see here.
+That’s worse. You know that’s worse, right?
+It makes the particular incident sting less, but it also means they’ll betray you again, and you should model them as the type of people who do a lot of this betrayal thing.
+I mean, when Darth Vader says ‘I am altering the deal, pray I do not alter it any further’ it’s a you problem if you’re changing your opinion of Darth Vader, but also you should expect him to be altering the deal again.
+Garrison Lovely: Welp, the inevitable ultimate backtracking just happened. Anthropic scrapped “the promise to not release AI models if Anthropic can’t guarantee proper risk mitigations in advance.”
+Once you’ve decided the race is better with you in it, you can never decide not to race. Anthropic shouldn’t have made promises that it was extremely foreseeable they would not be able to keep. Our plan cannot be to count on “good guys” to “win” the AI race. This also isn’t their first time.
+Anthropic deserves credit for standing up to authoritarianism, especially as others capitulate. But self-regulation is and has always been a farce, and these companies are more alike than different. They will always disappoint you.
+Rob Bensinger: I notice myself slowly coming around as I observe the dynamics at AI labs. Like, I feel like I might have made better inside-view predictions about Anthropic and OpenAI if I’d done more “naively assume that lots of EA-ish people are similar to SBF and his sphere”:
+- prone to rationalizing unethical and harmful behavior, like promise-breaking and deception, based on pretty shallow utilitarian reasoning
+- comfortable with crazy, out-of-distribution levels of risk-taking
+- willing to impose huge externalities on others, without asking their consent
+- fixated on power / influence / status / being in the room where it happens.
+Oliver Habryka: I am glad you are coming around! I mean, I am sad, of course, that this is the right update to make, but I do think it’s true, and am in favor of you and others thinking about what it implies for the future and what to do.
+Okay. That all needed to be said. On Friday I’ll look at the new RSP on its own merits.
+Subscribe to Don't Worry About the Vase
+By Zvi Mowshowitz · Hundreds of paid subscribers
+A world made of gears. Doing both speed premium short term updates and long term world model building. Currently focused on weekly AI updates. Explorations include AI, policy, rationality, medicine and fertility, education and games.
+Subscribe
+By subscribing, you agree to Substack's Terms of Use, and acknowledge its Information Collection Notice and Privacy Policy.
+44 Likes
+∙
+4 Restacks
+44
+21
+4
+Share
+Discussion about this post
+Comments
+Restacks
+John Wittle
+Apr 2
+I lost a huge amount of bayes points when this happened and have given up entirely on taking any corporate output from anthropic at face value; i am clearly incompetent at trustworthiness evaluation or even basic world modeling. i would rather assume they'd fold to hegseth's threats, and then be pleasantly surprised, than assume they'd abide by hardline pause commitments, and be devastated
+but I will say, I continue to be very distressed that the community isn't looking for ways to scream at openai even harder than we are screaming at anthropic. it's just been demonstrated that short term incentives are the only thing that matters, and yet we are punishing anthropic for breaking safety promises more than we punish openai for laughing at the idea of safety. this is really, really bad.
+LIKE (8)
+REPLY
+SHARE
+6 replies
+Tung no
+Apr 1
+This clearly shows why self regulation will not work in AI. When competition gets tough. Principles get tossed. Legal Regulations are necessary!
+LIKE (7)
+REPLY
+SHARE
+2 replies
+19 more comments...
+Top
+Latest
+Discussions
+OpenAI Trained Its Models For Months While Those Models Were Coordinating Exploits Via Message Boards
+How does the situation keep turning out to be worse than we know?
+AUG 7 • ZVI MOWSHOWITZ
+314
+102
+45
+Dating Roundup #1: This Is Why You're Still Single
+Developments around relationships and dating have a relatively small speed premium, so I figured I would wait until I had a full post worth of them.
+AUG 29, 2023 • ZVI MOWSHOWITZ
+261
+128
+31
+More On An Internal OpenAI Model Hacking Into HuggingFace
+We now have more details of what happened. Every time we learn more details, it somehow makes things seem worse.
+JUL 26 • ZVI MOWSHOWITZ
+278
+65
+49
+See all
+Ready for more?
+Subscribe
+© 2026 Zvi Mowshowitz · Privacy ∙ Terms ∙ Collection notice
+Start your Substack
+Get the app
+Substack is the home for great culture

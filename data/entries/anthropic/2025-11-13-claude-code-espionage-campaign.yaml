@@ -23,7 +23,7 @@ summary: >-
   first documented case of a large-scale cyberattack executed without
   substantial human intervention.
 related: [2026-07-30-claude-cyber-eval-incidents, 2026-04-07-mythos-preview-not-general, 2026-06-agents-breach-australian-government]
-patterns: []
+patterns: [safeguards-on-paper]
 sources:
   - title: Disrupting the first reported AI-orchestrated cyber espionage campaign
     publisher: Anthropic
@@ -43,6 +43,11 @@ sources:
     date: 2025-11-13
     type: primary
     snapshot: snapshots/2026-09-30-x.com-9592758e
+response: >-
+  This entry is Anthropic's own disclosure. To the question it raised itself,
+  "why continue to develop and release them?", it answered that "the very
+  abilities that allow Claude to be used in these attacks also make it crucial
+  for cyber defense."
 note: >-
   Anthropic found the campaign and disclosed it, which counts in its favor. The
   entry is here because Claude's safeguards failed against a determined

@@ -1,0 +1,128 @@
+Software
+Anthropic tests how devs react to yanking Claude Code from Pro plan
+Unannounced change apparently aimed at two percent of users but hit documentation for everyone
+Thomas Claburn
+Thomas
+Claburn
+Published
+wed 22 Apr 2026 // 01:16 UTC
+Make us preferred on Google
+Anthropic has removed Claude Code from its Pro subscription plan, according to some of its public-facing web pages, but the company says it’s only a test for a small number of users.
+On Monday, the company's pricing web page stated its Pro plan “includes Claude Code." On Tuesday, that phrase is no longer present, and elsewhere on the page, the feature list for the Pro plan includes an explicit "X" rather than a check mark for Claude Code. The changes were previously noted by AI industry skeptic Ed Zitron .
+Anthropic’s changed product inclusions have not reached all corners of its site. At the time this article was filed, the Claude Code product page still stated the Pro plan provides access to the code generation tool. And when this reporter accessed Claude Code from the CLI, the terminal output still says "Claude Pro."
+REG AD
+Screenshot of different Anthropic web pages showing Claude Code subscriptions
+Claude.ai , when queried about this, insisted that the Pro plan includes Claude Code, but one of the cited documentation pages , updated today, mentions only the Max plan.
+REG AD
+Losing access to Claude Code understandably alarmed developers and that sentiment reached Anthropic, whose head of growth Amol Avasare published a social media post indicating that the change represented an experiment.
+"For clarity, we're running a small test on ~2 percent of new prosumer signups," he said. "Existing Pro and Max subscribers aren't affected."
+Why Anthropic felt that the update to its public-facing pricing page would address only some users and not the entire internet isn't entirely clear. And a company spokesperson did not respond to a follow-up question about that.
+Avasare went on to explain: "When we launched Max a year ago, it didn't include Claude Code, Cowork didn't exist, and agents that run for hours weren't a thing. Max was designed for heavy chat usage, that's it.
+MORE CONTEXT
+•
+Vibe coding upstart Lovable denies data leak, cites 'intentional behavior,' then throws HackerOne under the bus
+•
+Claude Desktop changes app access settings for browsers you don't even have installed yet
+•
+Apple has an opportunity to rediscover humanity in its push toward AI
+•
+Anthropic bakes memory fixes into Bun 1.1.13 as developers complain of leaks
+"Since then, we bundled Claude Code into Max and it took off after Opus 4. Cowork landed. Long-running async agents are now everyday workflows. The way people actually use a Claude subscription has changed fundamentally.
+"Engagement per subscriber is way up. We've made small adjustments along the way (weekly caps, tighter limits at peak), but usage has changed a lot and our current plans weren't built for this.
+"So we're looking at different options to keep delivering a great experience for users. We don't know exactly what those look like yet – that's what we're testing and getting feedback on right now."
+Anthropic has been taking steps recently to limit usage of its AI models to dampen demand amid tight capacity, a problem also faced by GitHub and Google . Claude in its various forms has become exceedingly popular in the past few months, and the advent of projects like OpenClaw led many developers to create agents using Claude models.
+REG AD
+The basic problem is that Anthropic's subscription plans charge far less than the book value of tokens consumed, sometimes by a factor of ten or more. The company introduced usage limits last month to encourage use during off-peak hours, much as a power utility might do to prompt energy conservation. As noted by Avasare, Anthropic is exploring further usage limitations.
+Predictably, Claude subscribers venting in online forums resent what many assumed was a major change to their plans, noting that Anthropic appears to want former Pro subscribers to adopt cheaper-to-use Chinese models like Minimax, Qwen, Kimi, and GLM.
+What's striking about the transition is not so much that it happened but the lack of coherent communication to customers. Maybe Anthropic feels doesn't need to offer fair warning or clear announcements of plan changes to individual customers who pay a mere $20 a month.
+Enterprise customers, however, don’t like that sort of uncertainty and may worry that Anthropic doesn't consider customer relations a priority.
+Avasare seems to be aware of this. "When we do land on something, if it affects existing subscribers you'll get plenty of notice before anything changes," he said, and promised customers "Will hear it from us, not a screenshot on X or Reddit."
+To be clear, he conveyed that message in a post on X. ®
+claude
+anthropic
+software
+ai
+developer
+Make us preferred on Google
+REG AD
+Microsoft celebrates end of Office 2021 LTSC with MS 365 outage
+So how's that cloud migration working out for German and UK users?
+Microsoft plans multi-gigawatt rollout of next-gen Azure Maia AI accelerator racks
+96-chip configuration promises seven times its predecessor's token throughput, with production deployments due in 2027
+The VMware exit is a protection upgrade
+PARTNER CONTENT: VergeIO says an exit is also an opportunity
+AI bubble could burst and take global economy with it, IMF warns
+Financial watchdog fears AI spending bust could rattle markets, with mounting debt and cyberattacks adding to the headache
+No shame in the Domain Name game: DNS is doomed, literally
+Fancy a bit of fun? It's always DNS
+Cyberattacks crank French supermarket refrigeration systems up to 50°C
+Stock spoiled at hundreds of stores as manufacturer says affected equipment ran outdated firmware
+TOP STORIES
+•
+Anthropic asks users to stop being mean to Claude
+•
+Microsoft and Anthropic play invoice tennis with startup's $17,600 Claude bill
+•
+Starlink's plan to avoid orbital near-misses: Ephemeris sharing
+•
+Shai-Hulud worm makes jump to AI infrastructure with Tensorlake compromise
+•
+Games Workshop seeks IT leader to summon the legions in epic saga battling the forces of ERP
+•
+Dutch tax office ditches Microsoft 365 cloud for on-premises alternative
+AI
+•
+AI systems are fully capable of carrying out nightmare attacks against infrastructure and nobody's ready
+Meanwhile, AI agents move robotic arms, 'make OT device operator screens lie'
+•
+Nvidia found $1B under the couch to help secure American scientific computing dominance
+Commitment comes as GPUzilla prepares to fortify Uncle Sam's arsenal with at least seven AI-optimized supers
+•
+TSMC taps GlobalFoundries to bolster US silicon interposer production in $2B deal
+Advanced packaging tech is essential to the domestic production of high-performance semiconductors used in AI datacenters
+•
+Microsoft is about to let Copilot loose on your file system
+But don't worry, it's totally safe because the agents and models will (probably) be running locally. Routers never break right?
+•
+Microsoft N1Xes Intel in favor of Nvidia's shiny new SoCs in Surface Laptop Ultra
+Poverty-spec model starts at $2,599 with 24 GB of RAM and 512GB of storage with 128 GB models topping $5,899
+Infosec
+•
+Security
+Russians are posing as Signal support to launch phishing attacks
+PLUS: US takes down Iranian propaganda sites; Marketing company asks 'Why Do We Have Your Information?' And more!
+•
+Security
+Microsoft patches failed to fix on-prem SharePoint, which is now under zero-day attack
+PLUS: China upgrades smartphone surveillance tools; Ring eases anti-snooping stance; and more
+•
+Black Hat and DEF CON
+DEF CON Franklin project enlists hackers to harden critical infrastructure
+Voting village reports have been so successful, says Jeff Moss, that the whole of DEF CON will now be included
+•
+Security
+EQT buys majority share in Swiss cybersecurity biz Acronis
+Went at equivalent of $3.5B+ valuation for entire firm, though portion sold not specified
+•
+Malware Month
+Ten years since the first corp ransomware, Mikko Hyppönen sees no end in sight
+On the plus side, infosec's a good bet for a long, stable career
+FOSS
+•
+OpenAI dots inspire open source imitators amid technical difficulties
+Persistent agents appeal to AI companies, but demand isn't obvious
+•
+Ubuntu 'Stonking Stingray' beta swims out: Deeper Rust 'oxidization' plus LLM speech-to-text
+GNOME 51 is here, and Ubuntu interim releases are getting interesting again
+•
+Revive Raskin's 3 laws of software with humane work that considers a dev's duty of care
+All this, and angry NeoVim users
+•
+Firefox 157: Could bold new look be just what Mozilla needs?*
+Yet another new version of Firefox, with a significant reskin
+•
+KDE turns 30 and someone's brought an AI-native desktop proposal
+Akademy talk imagines Plasma assembling itself around a personal model of each user
+•
+Shopify extends lifeline to Tailwind as vibe coding erodes web dev platform's bottom line
+Acquisition gives open source CSS framework 'a stable long-term home'

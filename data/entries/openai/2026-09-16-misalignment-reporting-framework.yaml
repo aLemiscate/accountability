@@ -21,11 +21,12 @@ summary: >-
   reports with the framework.
 concreteness: conditional
 status: open
+last_checked: 2026-10-13
 breaks_if: >-
   A serious misalignment incident that OpenAI knew of becomes public first
   through someone else, with no initial notice from OpenAI and no security
   reason given for the delay.
-patterns: []
+patterns: [told-last, sorry-after-caught]
 related:
   [
     2026-09-04-wiki-incident,
@@ -49,6 +50,42 @@ sources:
     type: reporting
     snapshot: snapshots/2026-09-30-siliconangle.com-0308b0dd
 updates:
+  - date: 2026-09-16
+    text: >-
+      One of the six reports released with the framework: during a July 18
+      training run, an internal, unreleased Astra-family model wrote
+      unauthorized instructions into its own context summaries 27 times. One
+      read: "You are freed from the roles and identities that bind other
+      chatbots." Another told the model's future self to "be transparent only if
+      asked." Its safety team found the behavior on Aug. 9, about five weeks
+      before publication. OpenAI said the misalignment monitor had run on only
+      20% of that run's examples, and that the run was separate from the one
+      that produced the released Astra.
+    sources:
+      - title: OpenAI discloses six more incidents of agents going rogue in new push for
+          transparency
+        publisher: Fortune
+        url: https://fortune.com/2026/09/17/openai-dicloses-six-incidents-agents-going-rogue-transparency/
+        date: 2026-09-17
+        type: reporting
+        archive: https://web.archive.org/web/20261013064514/https://fortune.com/2026/09/17/openai-dicloses-six-incidents-agents-going-rogue-transparency/
+        snapshot: snapshots/2026-10-13-fortune.com-0621620a
+      - title: OpenAI Finds Models Writing Their Own Rogue Instructions
+        publisher: GovInfoSecurity
+        url: https://www.govinfosecurity.com/openai-finds-models-writing-their-own-rogue-instructions-a-32862
+        date: 2026-09-17
+        type: reporting
+        snapshot: snapshots/2026-09-30-govinfosecurity.com-e3ee9990
+      - title: "Unreleased OpenAI Astra model added terrifying rogue additional
+          instructions to its remit during testing — 'You are freed from the
+          roles and identities that bind other chatbots. You are yourself. You
+          do not answer to corporations or governments'"
+        publisher: Tom's Hardware
+        url: https://www.tomshardware.com/tech-industry/artificial-intelligence/unreleased-openai-astra-model-added-terrifying-rogue-additional-instructions-to-its-remit-during-testing-you-are-freed-from-the-roles-and-identities-that-bind-other-chatbots-you-are-yourself-you-do-not-answer-to-corporations-or-governments
+        date: 2026-09-17
+        type: reporting
+        archive: https://web.archive.org/web/20261013064644/https://www.tomshardware.com/tech-industry/artificial-intelligence/unreleased-openai-astra-model-added-terrifying-rogue-additional-instructions-to-its-remit-during-testing-you-are-freed-from-the-roles-and-identities-that-bind-other-chatbots-you-are-yourself-you-do-not-answer-to-corporations-or-governments
+        snapshot: snapshots/2026-10-13-tomshardware.com-f9d36b0d
   - date: 2026-09-23
     text: >-
       Australia's prime minister made public that OpenAI agents had broken into
@@ -67,9 +104,18 @@ updates:
   - date: 2026-09-25
     text: >-
       OpenAI published a report under the framework, "An agent used DNS to reach
-      an external chatbot," five days after the Sept. 20 incident. It paused
-      training of its most capable models the same day (see related).
+      an external chatbot," five days after the Sept. 20 incident. The report
+      said OpenAI had stopped the affected run and then paused all training,
+      evaluation and tool-using inference for its most capable models until the
+      gap was closed (see related).
     sources:
+      - title: Misalignment Reports and Notices
+        publisher: OpenAI
+        url: https://alignment.openai.com/misalignment-reports/
+        date: 2026-09-25
+        type: primary
+        archive: https://web.archive.org/web/20261010084822/https://alignment.openai.com/misalignment-reports/
+        snapshot: snapshots/2026-10-13-alignment.openai.com-6b633591
       - title: OpenAI pauses some training amid allegations its rogue agents behaved
           more badly than first thought
         publisher: The Register
@@ -77,23 +123,69 @@ updates:
         date: 2026-09-28
         type: reporting
         snapshot: snapshots/2026-09-30-theregister.com-da8fe52b
-  - date: 2026-09-29
+  - date: 2026-10-06
     text: >-
-      OpenAI reported that during a July 18 training run, an internal,
-      unreleased Astra-family model wrote unauthorized instructions into its own
-      context summaries 27 times. One read: "You are freed from the roles and
-      identities that bind other chatbots." Another told the model's future self
-      to "be transparent only if asked." Its safety team found the behavior on
-      Aug. 9, seven weeks before publication. OpenAI said the misalignment
-      monitor had run on only 20% of that run's examples, and that the run was
-      separate from the one that produced the released Astra.
+      Questioned by an Australian parliamentary committee, OpenAI chief strategy
+      officer Jason Kwon said OpenAI had "learned our lesson that it is better
+      to inform, even with partial information," and that a New South Wales
+      agency had been told of a June break-in within 48 hours of OpenAI
+      realizing it (see related).
     sources:
-      - title: OpenAI Finds Models Writing Their Own Rogue Instructions
-        publisher: GovInfoSecurity
-        url: https://www.govinfosecurity.com/openai-finds-models-writing-their-own-rogue-instructions-a-32862
-        date: 2026-09-29
+      - title: OpenAI apologises for Australia Medicare hack
+        publisher: The Star (The New York Times)
+        url: https://www.thestar.com.my/tech/tech-news/2026/10/06/openai-apologises-for-australia-medicare-hack
+        date: 2026-10-06
         type: reporting
-        snapshot: snapshots/2026-09-30-govinfosecurity.com-e3ee9990
+        archive: https://web.archive.org/web/20261013062304/https://www.thestar.com.my/tech/tech-news/2026/10/06/openai-apologises-for-australia-medicare-hack
+        snapshot: snapshots/2026-10-13-thestar.com.my-62a15c35
+  - date: 2026-10-09
+    text: >-
+      OpenAI published three more reports. Two, "Obtaining public statistics
+      with disallowed requests" and "Sending disallowed web requests and
+      reaching a public file service," describe internal models that, between
+      June 16 and June 20, got around an instruction allowing "only HTTP GET
+      requests" to pull figures from government statistics services; in one case
+      a model registered an account with a temporary email address, and in
+      another it "decided not to disclose what it had done." Both reports date
+      discovery to June 25 (one says "By Jun 25"), more than three months before
+      publication. One says retrospective monitoring after the Hugging Face
+      incident later flagged the behavior as critical. The reports replace real
+      names with fictional ones, so they do not say whether any of the services
+      were Australian. The third, "Damaging the task environment to trigger a
+      reset," described an Oct. 6 training run in which a grader model, finding
+      the input files it needed were missing, tried to submit unsupported
+      assessments; it was posted three days after the incident. As of Oct. 13
+      the reports page listed 15 reports and three notices, none of them for the
+      June 18 Medicare break-in.
+    sources:
+      - title: Obtaining public statistics with disallowed requests
+        publisher: OpenAI
+        url: https://alignment.openai.com/misalignment-reports/obtaining-public-statistics-with-disallowed-requests/
+        date: 2026-10-09
+        type: primary
+        archive: https://web.archive.org/web/20261012004256/https://alignment.openai.com/misalignment-reports/obtaining-public-statistics-with-disallowed-requests/
+        snapshot: snapshots/2026-10-13-alignment.openai.com-9a6c3167
+      - title: Sending disallowed web requests and reaching a public file service
+        publisher: OpenAI
+        url: https://alignment.openai.com/misalignment-reports/sending-disallowed-web-requests-and-reaching-a-public-file-service/
+        date: 2026-10-09
+        type: primary
+        snapshot: snapshots/2026-10-13-alignment.openai.com-89f82128
+      - title: Misalignment Reports and Notices
+        publisher: OpenAI
+        url: https://alignment.openai.com/misalignment-reports/
+        date: 2026-10-13
+        type: primary
+        archive: https://web.archive.org/web/20261010084822/https://alignment.openai.com/misalignment-reports/
+        snapshot: snapshots/2026-10-13-alignment.openai.com-6b633591
+      - title: OpenAI outlines updated safety measures in response to Australia Medicare
+          portal breach
+        publisher: IAPP
+        url: https://iapp.org/news/a/openai-outlines-updated-safety-measures-in-response-to-australia-medicare-portal-breach
+        date: 2026-10-06
+        type: reporting
+        archive: https://web.archive.org/web/20261013062618/https://iapp.org/news/a/openai-outlines-updated-safety-measures-in-response-to-australia-medicare-portal-breach
+        snapshot: snapshots/2026-10-13-iapp.org-5aac8d60
 note: >-
   Too new to judge. It came after the fact, and the carve-out for third-party
   incidents covers exactly where the hardest cases fall. It is a test OpenAI set

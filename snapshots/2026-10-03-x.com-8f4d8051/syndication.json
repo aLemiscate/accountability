@@ -1,0 +1,231 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 249,
+  "in_reply_to_screen_name": "OpenAI",
+  "in_reply_to_status_id_str": "1972708280951775597",
+  "in_reply_to_user_id_str": "4398626122",
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2025-11-20T23:17:01.000Z",
+  "display_text_range": [
+    0,
+    154
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/j0woObqBWN",
+        "expanded_url": "https://x.com/OpenAI/status/1991646997322035520/photo/1",
+        "indices": [
+          155,
+          178
+        ],
+        "url": "https://t.co/j0woObqBWN"
+      }
+    ],
+    "user_mentions": [
+      {
+        "id_str": "17136315",
+        "indices": [
+          40,
+          48
+        ],
+        "name": "Shopify",
+        "screen_name": "Shopify"
+      }
+    ]
+  },
+  "id_str": "1991646997322035520",
+  "text": "Instant Checkout is now rolling out for @Shopify  merchants starting with Glossier, SKIMS, and Spanx. \n\nAvailable for Plus, Pro, and Free users in the US. https://t.co/j0woObqBWN",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1991646997322035520"
+    ],
+    "editable_until_msecs": "1763684221000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/j0woObqBWN",
+      "expanded_url": "https://x.com/OpenAI/status/1991646997322035520/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        155,
+        178
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/G6O_njgbYAAN60H.jpg",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 2150,
+            "w": 3840,
+            "x": 0,
+            "y": 1690
+          },
+          {
+            "h": 3840,
+            "w": 3840,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 3840,
+            "w": 3368,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 3840,
+            "w": 1920,
+            "x": 480,
+            "y": 0
+          },
+          {
+            "h": 3840,
+            "w": 3840,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 3840,
+        "width": 3840
+      },
+      "sizes": {
+        "large": {
+          "h": 2048,
+          "resize": "fit",
+          "w": 2048
+        },
+        "medium": {
+          "h": 1200,
+          "resize": "fit",
+          "w": 1200
+        },
+        "small": {
+          "h": 680,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/j0woObqBWN"
+    }
+  ],
+  "photos": [
+    {
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 2150,
+          "w": 3840,
+          "x": 0,
+          "y": 1690
+        },
+        {
+          "h": 3840,
+          "w": 3840,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 3840,
+          "w": 3368,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "h": 3840,
+          "w": 1920,
+          "x": 480,
+          "y": 0
+        },
+        {
+          "h": 3840,
+          "w": 3840,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/OpenAI/status/1991646997322035520/photo/1",
+      "url": "https://pbs.twimg.com/media/G6O_njgbYAAN60H.jpg",
+      "width": 3840,
+      "height": 3840
+    }
+  ],
+  "conversation_count": 18,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 970,
+    "in_reply_to_screen_name": "OpenAI",
+    "in_reply_to_status_id_str": "1972708279043367238",
+    "in_reply_to_user_id_str": "4398626122",
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 53,
+    "retweet_count": 91,
+    "created_at": "2025-09-29T17:01:19.000Z",
+    "display_text_range": [
+      0,
+      252
+    ],
+    "entities": {
+      "urls": [
+        {
+          "display_url": "chatgpt.com/merchants",
+          "expanded_url": "https://chatgpt.com/merchants",
+          "indices": [
+            229,
+            252
+          ],
+          "url": "https://t.co/Vzg7pg2Und"
+        }
+      ]
+    },
+    "id_str": "1972708280951775597",
+    "text": "Instant Checkout is now rolling out to US ChatGPT Pro, Plus and Free logged-in users buying from US Etsy sellers, with over 1 million Shopify merchants coming soon.\n\nMerchants interested in joining can learn more and apply here: https://t.co/Vzg7pg2Und",
+    "user": {
+      "id_str": "4398626122",
+      "name": "OpenAI",
+      "screen_name": "OpenAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1972708280951775597"
+      ],
+      "editable_until_msecs": "1759168879000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

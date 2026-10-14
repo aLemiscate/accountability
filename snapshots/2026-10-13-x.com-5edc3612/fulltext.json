@@ -1,0 +1,92 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/ClaudeDevs/status/2064949876463645026",
+    "id": "2064949876463645026",
+    "text": "We’re rolling out changes to make Fable 5’s safeguards for frontier LLM development visible.\n\nStarting this week, flagged requests will visibly fall back to Opus 4.8—the same as our safeguards for cyber and bio. You will see this every time it happens. On the API, any flagged requests will return a reason for their refusal (coming to server-side fallback in the next few days).\n\nWe wanted to deploy Fable 5 to our users quickly and safely. Visible safeguards can be probed, so they have to be robust, which takes time to get right. Invisible safeguards can be targeted more narrowly, allowing us to ship quickly with very few false positives. We went with invisible safeguards for this reason—and that was the wrong tradeoff. You should have visibility into the safeguards we have in place, and why. We’re sorry for not getting the balance right.\n\nMaking the safeguards visible makes them easier to work around, so keeping them robust to jailbreaks will unfortunately mean more false positives while we improve the classifiers. We're also tuning our bio and cyber classifiers to trigger less often on harmless requests. We know this is frustrating and we’ll do our best to keep this period as short as possible.\n\nIf you think a request has been mistakenly flagged: run /feedback in Claude Code, click thumbs-down on the fallback in http://Claude.ai or Cowork, or file the safeguard appeal form for API requests. Your reports help us tune these classifiers and we appreciate your feedback.   \nhttps://support.claude.com/en/articles/8241253-safeguards-warnings-and-appeals",
+    "raw_text": {
+      "text": "We’re rolling out changes to make Fable 5’s safeguards for frontier LLM development visible.\n\nStarting this week, flagged requests will visibly fall back to Opus 4.8—the same as our safeguards for cyber and bio. You will see this every time it happens. On the API, any flagged requests will return a reason for their refusal (coming to server-side fallback in the next few days).\n\nWe wanted to deploy Fable 5 to our users quickly and safely. Visible safeguards can be probed, so they have to be robust, which takes time to get right. Invisible safeguards can be targeted more narrowly, allowing us to ship quickly with very few false positives. We went with invisible safeguards for this reason—and that was the wrong tradeoff. You should have visibility into the safeguards we have in place, and why. We’re sorry for not getting the balance right.\n\nMaking the safeguards visible makes them easier to work around, so keeping them robust to jailbreaks will unfortunately mean more false positives while we improve the classifiers. We're also tuning our bio and cyber classifiers to trigger less often on harmless requests. We know this is frustrating and we’ll do our best to keep this period as short as possible.\n\nIf you think a request has been mistakenly flagged: run /feedback in Claude Code, click thumbs-down on the fallback in https://t.co/LtktniD5HY or Cowork, or file the safeguard appeal form for API requests. Your reports help us tune these classifiers and we appreciate your feedback.   \nhttps://t.co/TDAAYRGqDt",
+      "display_text_range": [
+        0,
+        1524
+      ],
+      "facets": [
+        {
+          "type": "url",
+          "indices": [
+            1334,
+            1357
+          ],
+          "original": "https://t.co/LtktniD5HY",
+          "replacement": "http://Claude.ai",
+          "display": "Claude.ai"
+        },
+        {
+          "type": "url",
+          "indices": [
+            1501,
+            1524
+          ],
+          "original": "https://t.co/TDAAYRGqDt",
+          "replacement": "https://support.claude.com/en/articles/8241253-safeguards-warnings-and-appeals",
+          "display": "support.claude.com/en/articles/82…"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "ClaudeDevs",
+      "url": "https://x.com/ClaudeDevs",
+      "id": "2024518793679294464",
+      "followers": 743729,
+      "following": 2,
+      "likes": 98,
+      "media_count": 168,
+      "name": "ClaudeDevs",
+      "description": "Official updates for developers building with @ClaudeAI",
+      "raw_description": {
+        "text": "Official updates for developers building with @ClaudeAI",
+        "facets": []
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/2024518793679294464/1776108340",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2044472418815893504/xf14RxM8_200x200.png",
+      "joined": "Thu Feb 19 16:19:46 +0000 2026",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 646,
+    "retweets": 420,
+    "likes": 5017,
+    "bookmarks": 916,
+    "quotes": 322,
+    "created_at": "Thu Jun 11 05:56:30 +0000 2026",
+    "created_timestamp": 1781157390,
+    "views": 873991,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "card": {
+      "url": "http://Claude.ai",
+      "title": "Claude",
+      "domain": "claude.ai",
+      "image": {
+        "width": 800,
+        "height": 419,
+        "url": "https://pbs.twimg.com/card_img/2107370171417690112/OhARKvxu?format=png&name=800x419"
+      }
+    },
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

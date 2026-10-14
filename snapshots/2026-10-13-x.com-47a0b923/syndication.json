@@ -1,0 +1,37 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 21776,
+  "lang": "en",
+  "created_at": "2026-09-29T06:41:17.000Z",
+  "display_text_range": [
+    0,
+    280
+  ],
+  "entities": {},
+  "id_str": "2104823812042940713",
+  "text": "Hi,\n\nTomorrow we are re-opening the Pro $200 subscriptions to new subscribers, but together with it we are also changing how we calculate the usage for it. In effect, if you do the math, it will net out at half the dollar in API spend compared to the old Pro $200 plan. \n\nNow that",
+  "user": {
+    "id_str": "1953337039510003712",
+    "name": "Tibo",
+    "screen_name": "thsottiaux",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2104823812042940713"
+    ],
+    "editable_until_msecs": "1790667677000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 7115,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMTA0ODIzODExODcxMDE5MDA5"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/karpathy/status/2064409694761054332",
+    "id": "2064409694761054332",
+    "text": "This is a super exciting release - Claude Fable 5 is the same underlying model as Mythos but with added safeguards. The benchmarks are great and it's SOTA on everything by a margin but I'll add that *qualitatively* also, this is a major-version-bump-deserving step change forward (imo of the same order as Claude 4.5 was in November), peaking especially for long problem-solving sessions on very difficult problems. You can give it a lot more ambitious tasks than what you're used to, the model \"gets it\" and it will just go, and it's never felt this tempting to stop looking at the code at all (but don't do this in prod!). The model still has quirks that people will run into and the safeguards are configured to be a little too trigger happy for launch, which can hopefully be tuned over time.\n\nI feel a lot of things changing as working software increasingly comes out on a tap. The Jevon's paradox kicks in and I feel my own demand for software growing substantially. You can ask for anything - explainers, visualizers, dashboards, bespoke single-use apps (e.g. a full wandb that is hyper-specific just for your project), you can 10X your test suite, auto-optimize code, run giant research projects with custom HTML for the results, anything! \"Free your mind\" (Matrix ref). Really looking forward to all the things people build!",
+    "raw_text": {
+      "text": "This is a super exciting release - Claude Fable 5 is the same underlying model as Mythos but with added safeguards. The benchmarks are great and it's SOTA on everything by a margin but I'll add that *qualitatively* also, this is a major-version-bump-deserving step change forward (imo of the same order as Claude 4.5 was in November), peaking especially for long problem-solving sessions on very difficult problems. You can give it a lot more ambitious tasks than what you're used to, the model \"gets it\" and it will just go, and it's never felt this tempting to stop looking at the code at all (but don't do this in prod!). The model still has quirks that people will run into and the safeguards are configured to be a little too trigger happy for launch, which can hopefully be tuned over time.\n\nI feel a lot of things changing as working software increasingly comes out on a tap. The Jevon's paradox kicks in and I feel my own demand for software growing substantially. You can ask for anything - explainers, visualizers, dashboards, bespoke single-use apps (e.g. a full wandb that is hyper-specific just for your project), you can 10X your test suite, auto-optimize code, run giant research projects with custom HTML for the results, anything! \"Free your mind\" (Matrix ref). Really looking forward to all the things people build!",
+      "display_text_range": [
+        0,
+        1333
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "karpathy",
+      "url": "https://x.com/karpathy",
+      "id": "33836629",
+      "followers": 4359875,
+      "following": 1143,
+      "likes": 25320,
+      "media_count": 869,
+      "name": "Andrej Karpathy",
+      "description": "",
+      "raw_description": {
+        "text": "",
+        "facets": []
+      },
+      "location": "Earth",
+      "banner_url": "https://pbs.twimg.com/profile_banners/33836629/1407117611",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1296667294148382721/9Pr6XrPB_200x200.jpg",
+      "joined": "Tue Apr 21 06:49:15 +0000 2009",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 1336,
+    "retweets": 2378,
+    "likes": 25614,
+    "bookmarks": 6286,
+    "quotes": 456,
+    "created_at": "Tue Jun 09 18:10:00 +0000 2026",
+    "created_timestamp": 1781028600,
+    "views": 3197641,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "quote": {
+      "url": "https://x.com/claudeai/status/2064394151441863006",
+      "id": "2064394151441863006",
+      "text": "Fable 5 is state-of-the-art on nearly all tested benchmarks, with exceptional performance in software engineering, knowledge work, scientific research, and vision.\n\nThe longer and more complex the task, the larger Fable 5’s lead over our other models.",
+      "raw_text": {
+        "text": "Fable 5 is state-of-the-art on nearly all tested benchmarks, with exceptional performance in software engineering, knowledge work, scientific research, and vision.\n\nThe longer and more complex the task, the larger Fable 5’s lead over our other models. https://t.co/DxgSu0KUxh",
+        "display_text_range": [
+          0,
+          251
+        ],
+        "facets": [
+          {
+            "type": "media",
+            "indices": [
+              252,
+              275
+            ],
+            "id": "2064390489042726912",
+            "display": "pic.x.com/DxgSu0KUxh",
+            "original": "https://t.co/DxgSu0KUxh",
+            "replacement": "https://x.com/claudeai/status/2064394151441863006/photo/1"
+          }
+        ]
+      },
+      "author": {
+        "screen_name": "claudeai",
+        "url": "https://x.com/claudeai",
+        "id": "1943306828697550848",
+        "followers": 1899134,
+        "following": 2,
+        "likes": 403,
+        "media_count": 340,
+        "name": "Claude",
+        "description": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on http://claude.ai or download the app.",
+        "raw_description": {
+          "text": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+          "facets": [
+            {
+              "type": "url",
+              "indices": [
+                100,
+                123
+              ],
+              "original": "https://t.co/ZhTwG8d1e5",
+              "replacement": "http://claude.ai",
+              "display": "claude.ai"
+            }
+          ]
+        },
+        "location": "",
+        "banner_url": "https://pbs.twimg.com/profile_banners/1943306828697550848/1791401760",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_200x200.jpg",
+        "joined": "Thu Jul 10 13:50:48 +0000 2025",
+        "protected": false,
+        "website": {
+          "url": "http://claude.ai",
+          "display_url": "claude.ai"
+        },
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "individual"
+        },
+        "avatar_color": null
+      },
+      "replies": 510,
+      "retweets": 1750,
+      "likes": 15407,
+      "bookmarks": 2323,
+      "quotes": 1244,
+      "created_at": "Tue Jun 09 17:08:14 +0000 2026",
+      "created_timestamp": 1781024894,
+      "possibly_sensitive": false,
+      "views": 6250980,
+      "is_note_tweet": false,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": "claudeai",
+      "replying_to_status": "2064394146916229443",
+      "media": {
+        "all": [
+          {
+            "type": "photo",
+            "id": "2064390489042726912",
+            "url": "https://pbs.twimg.com/media/HKYwNlEWMAAJanX.png?name=orig",
+            "width": 2160,
+            "height": 2160,
+            "altText": "Benchmark table titled Mythos 5 & Fable 5, comparing Claude Mythos 5 and Fable 5 against Claude Mythos Preview, Claude Opus 4.8, GPT 5.5, and Gemini 3.1 Pro. "
+          }
+        ],
+        "photos": [
+          {
+            "type": "photo",
+            "id": "2064390489042726912",
+            "url": "https://pbs.twimg.com/media/HKYwNlEWMAAJanX.png?name=orig",
+            "width": 2160,
+            "height": 2160,
+            "altText": "Benchmark table titled Mythos 5 & Fable 5, comparing Claude Mythos 5 and Fable 5 against Claude Mythos Preview, Claude Opus 4.8, GPT 5.5, and Gemini 3.1 Pro. "
+          }
+        ]
+      },
+      "twitter_card": "summary_large_image",
+      "color": null,
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

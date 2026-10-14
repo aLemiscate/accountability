@@ -1,5 +1,6 @@
 # Weekly: re-read the watched policy pages, check every cited source, collect
-# recent posts from watched accounts into inbox/, snapshot and archive sources
+# every recent post from watched accounts into inbox/ and queue the unread ones
+# in inbox/sweep/QUEUE.md, snapshot and archive sources
 # that lack a copy, commit the results, and open an issue when a watched page
 # has changed.
 #
@@ -42,14 +43,17 @@ jobs:
       - name: Check sources
         run: npm run check-sources
 
-      - name: Find recent posts from watched accounts
+      - name: Collect every recent post from watched accounts
+        # No topic filter: every post is read in full (see inbox/sweep/TRIAGE.md).
         continue-on-error: true
         env:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
           BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
           BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
-          TERMS: 'safety|safe|align|regulat|nonprofit|mission|open.?source|military|defen[cs]e|pentagon|surveil|advertis|\bads?\b|profit|humanity|commit|promise|pledge|pause|race|democra'
-        run: npm run find-posts -- --all --from "$(date -u -d '14 days ago' +%F)" --match "$TERMS" --limit 60
+        run: npm run find-posts -- --all --from "$(date -u -d '14 days ago' +%F)" --limit all
+
+      - name: Queue unread posts for reading
+        run: npm run reading-queue
 
       - name: Snapshot sources that have no snapshot yet
         run: npm run capture -- --snapshot-missing --limit 20

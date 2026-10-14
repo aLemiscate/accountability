@@ -1,0 +1,83 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 2501,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2026-01-09T19:52:12.000Z",
+  "display_text_range": [
+    0,
+    280
+  ],
+  "entities": {
+    "urls": [
+      {
+        "display_url": "github.com/openai/codex/t…",
+        "expanded_url": "https://github.com/openai/codex/tree/main/codex-rs/app-server",
+        "indices": [
+          224,
+          247
+        ],
+        "url": "https://t.co/AwDBgSWVqU"
+      }
+    ]
+  },
+  "id_str": "2009714843587342393",
+  "text": "With the Claude Code shutdown. I am proud that we build Codex in the open with our OSS repo and we are 100% invested in supporting a flourishing ecosystem of agentic coding tools out there. \n\nYou can already build on top of https://t.co/AwDBgSWVqU directly, which includes ChatGPT",
+  "user": {
+    "id_str": "1953337039510003712",
+    "name": "Tibo",
+    "screen_name": "thsottiaux",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2009714843587342393"
+    ],
+    "editable_until_msecs": "1767991932000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 205,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 1181,
+    "lang": "en",
+    "reply_count": 252,
+    "retweet_count": 64,
+    "created_at": "2026-01-09T18:12:43.000Z",
+    "display_text_range": [
+      0,
+      189
+    ],
+    "entities": {},
+    "id_str": "2009689809875591565",
+    "text": "Yesterday we tightened our safeguards against spoofing the Claude Code harness after accounts were banned for triggering abuse filters from third-party harnesses using Claude subscriptions.",
+    "user": {
+      "id_str": "352806502",
+      "name": "Thariq",
+      "screen_name": "trq212",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1976939058741039104/r3GgzqRh_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2009689809875591565"
+      ],
+      "editable_until_msecs": "1767985963000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDA5NzE0ODQzNDU3MzQzNDg4"
+  }
+}

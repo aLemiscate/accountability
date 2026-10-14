@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/bcherny/status/2040308730190020847",
+  "captured_at": "2026-10-13T15:11:07.891Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "f49f351685c4d34fd9601b6c0b8e6aaa7232bc4ecbe6da9fda0b6de597cc81b6",
+    "page.txt": "870500ff13a1b581cf7b38c3c4545debd7c1a46dbedc5ffd767fc142abc04c6c",
+    "post.json": "2c298c3ee2e5a1de76ed3e2421f41c67f240801c6809248c216391bcc18a6e74",
+    "syndication.json": "8cb5c90b0cac1db9e4026816f2b16a722fda372a3edf607ddd48c3d978a9b8bf",
+    "fulltext.json": "d9a3d7ab595bf82a359f85a3139b10167bc4b09eacd869d2370309807965b6f5",
+    "post.txt": "50daece055c92d13c55dab9d6a0b143e506e6e714c8f0cf5de42bdcaf10a9b20"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/bcherny/status/2040308730190020847",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Boris Cherny on X: \"👋 This is false. We serve exactly the same models to all users. What the person in the post might be experiencing is a lower effort level vs. what the enterprise set. Claude Code users can change this anytime by running /effort. low effort = less tokens and lower intelligence,… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Boris Cherny (@bcherny)",
+    "date": "April 4, 2026",
+    "posted_at": "2026-04-04T06:01:23.037Z",
+    "full_text_from": "api.fxtwitter.com"
+  }
+}

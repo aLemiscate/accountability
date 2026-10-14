@@ -15,10 +15,16 @@ summary: >-
   AI industry."
 concreteness: measurable
 status: broken
+outcome:
+  date: 2026-01-01
+  text: >-
+    2025 ended without a Media Manager launch, and none had appeared by October
+    2026. A year earlier TechCrunch reported that the tool "was rarely viewed as
+    an important launch internally."
 breaks_if: >-
   No Media Manager, or equivalent tool that lets creators identify their works
   across sources and exclude them from training, launches by the end of 2025.
-patterns: []
+patterns: [take-first]
 related: [2024-01-08-training-is-fair-use, 2025-09-30-sora-2-opt-out-and-likeness]
 sources:
   - title: OpenAI says it's building a tool to let content creators 'opt out' of AI
@@ -35,6 +41,13 @@ sources:
     type: primary
     archive: https://web.archive.org/web/20260913174555/https://openai.com/index/approach-to-data-and-ai/
     snapshot: snapshots/2026-10-01-openai.com-be6e22d4
+  - title: 'OpenAI CEO Sam Altman: ChatGPT & Building a New World 05/05/23'
+    publisher: CNBC Squawk Pod
+    url: https://podcasts.apple.com/us/podcast/openai-ceo-sam-altman-chatgpt-building-a-new-world-05-05-23/id1480890290?i=1000611906755
+    date: 2023-05-05
+    type: primary
+    archive: https://web.archive.org/web/20261007071820/https://podcasts.apple.com/us/podcast/openai-ceo-sam-altman-chatgpt-building-a-new-world-05-05-23/id1480890290?i=1000611906755
+    snapshot: snapshots/2026-10-07-podcasts.apple.com-5a892611
 updates:
   - date: 2025-01-01
     text: >-
@@ -51,5 +64,8 @@ updates:
         snapshot: snapshots/2026-09-30-techcrunch.com-c435d6a9
 note: >-
   Marked broken on the generous reading: even taking "by 2025" to mean by the
-  end of 2025, this record found no launch as of September 2026. Creators can
+  end of 2025, this record found no launch as of October 2026. Creators can
   still use OpenAI's older opt-outs, a form for images and blocking its crawler.
+  A year before the blog post, asked on CNBC about news publishers who object to
+  training, Altman had said: "We don't want to train on anyone's data who
+  doesn't want us to train on their data." (Quoted from the audio.)

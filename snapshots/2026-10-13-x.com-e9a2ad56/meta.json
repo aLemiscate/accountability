@@ -1,0 +1,24 @@
+{
+  "url": "https://x.com/sama/status/1864736282276171810",
+  "captured_at": "2026-10-13T06:26:41.220Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "b42eb72d67dd35427d3fbe17da5a50cfc7e08cc876878e43da814cfaf6a35c8a",
+    "page.txt": "03f95f09c0ea1f4badaf52225a1bdaa09703e499feea192cbc9472b8fb0e5b62",
+    "post.json": "c48bdea638467258bd933da9f13fdc87d578fd3b3607a1d272fcb207f7f0504f",
+    "syndication.json": "2e923290d43c2d68c07a2f96689fda5b87a913988e71f6be0bd15c915190b500",
+    "post.txt": "0961aa4c155c0f2d73669312e1ed54dfc9c952825b473fe47267d59c287343d1"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1864736282276171810",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"we just launched two things: o1, the smartest model in the world. smarter, faster, and more features (eg multimodality) than o1-preview. live in chatgpt now, coming to api soon. chatgpt pro. $200/month. unlimited usage and even-smarter mode for using o1. more benefits to come!\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "December 5, 2024",
+    "posted_at": "2024-12-05T18:19:09.476Z"
+  },
+  "rendered_status": 403
+}

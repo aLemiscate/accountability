@@ -1,0 +1,97 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/OpenAI/status/2027846012107456943",
+    "id": "2027846012107456943",
+    "text": "Yesterday we reached an agreement with the Department of War for deploying advanced AI systems in classified environments, which we requested they make available to all AI companies.\n\nWe think our deployment has more guardrails than any previous agreement for classified AI deployments, including Anthropic's. Here's why: https://openai.com/index/our-agreement-with-the-department-of-war/",
+    "raw_text": {
+      "text": "Yesterday we reached an agreement with the Department of War for deploying advanced AI systems in classified environments, which we requested they make available to all AI companies.\n\nWe think our deployment has more guardrails than any previous agreement for classified AI deployments, including Anthropic's. Here's why: https://t.co/k1Ge2MqqPr",
+      "display_text_range": [
+        0,
+        345
+      ],
+      "facets": [
+        {
+          "type": "url",
+          "indices": [
+            322,
+            345
+          ],
+          "original": "https://t.co/k1Ge2MqqPr",
+          "replacement": "https://openai.com/index/our-agreement-with-the-department-of-war/",
+          "display": "openai.com/index/our-agre…"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "OpenAI",
+      "url": "https://x.com/OpenAI",
+      "id": "4398626122",
+      "followers": 5430057,
+      "following": 4,
+      "likes": 2526,
+      "media_count": 743,
+      "name": "OpenAI",
+      "description": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: http://openai.com/jobs",
+      "raw_description": {
+        "text": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: https://t.co/dJGr6LgzPA",
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              107,
+              130
+            ],
+            "original": "https://t.co/dJGr6LgzPA",
+            "replacement": "http://openai.com/jobs",
+            "display": "openai.com/jobs"
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/4398626122/1777662919",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "joined": "Sun Dec 06 22:51:08 +0000 2015",
+      "protected": false,
+      "website": {
+        "url": "https://openai.com",
+        "display_url": "openai.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "organization"
+      },
+      "avatar_color": null
+    },
+    "replies": 1761,
+    "retweets": 555,
+    "likes": 3775,
+    "bookmarks": 1309,
+    "quotes": 606,
+    "created_at": "Sat Feb 28 20:38:59 +0000 2026",
+    "created_timestamp": 1772311139,
+    "views": 2598972,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "card": {
+      "url": "https://openai.com/index/our-agreement-with-the-department-of-war/",
+      "title": "Our agreement with the Department of War",
+      "description": "Details on OpenAI’s contract with the Department of War, outlining safety red lines, legal protections, and how AI systems will be deployed in classified environments.",
+      "domain": "openai.com",
+      "image": {
+        "width": 800,
+        "height": 419,
+        "url": "https://pbs.twimg.com/card_img/2107722033979396096/tlp97vhj?format=jpg&name=800x419"
+      }
+    },
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/sama/status/1983584366547829073",
+  "captured_at": "2026-10-03T14:07:48.248Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "868315184f0853ead951e4eca3025f04abfd578e5dd14c5c994f2fb70b48b4a3",
+    "page.txt": "7383b94e268d78ba855f4590b673b565a63d5666014af52f67431132300a9d81",
+    "post.json": "5dcb76fe13f967eb4e1e340eca1331ed7a43b8b48214c404ff0c905f4596197f",
+    "syndication.json": "08b45dbfb95acb98d7f1706de85bc9d2bd0d387a062d34f16c49f933bc05cf28",
+    "post.txt": "299d047544d12e15f8ae4b3c82a689ef560f9aa312ad9008a3cff5e8f7fcd927"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1983584366547829073",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"Yesterday we did a livestream. TL;DR: We have set internal goals of having an automated AI research intern by September of 2026 running on hundreds of thousands of GPUs, and a true automated AI researcher by March of 2028. We may totally fail at this goal, but given the extraordi… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "October 29, 2025",
+    "posted_at": "2025-10-29T17:19:00.857Z"
+  },
+  "rendered_status": 403,
+  "archive": null
+}

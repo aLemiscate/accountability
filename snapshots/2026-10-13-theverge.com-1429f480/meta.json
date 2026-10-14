@@ -1,0 +1,21 @@
+{
+  "url": "https://www.theverge.com/2024/4/6/24122915/openai-youtube-transcripts-gpt-4-training-data-google",
+  "captured_at": "2026-10-13T06:00:32.189Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "96c74bfbf51c1840a129c908273922a66bd6b1d143cead3c61b45ef0a1a9674c",
+    "page.txt": "3a58c54edb40055901ecb68d936bff03f4849ae1a38ae9790b168e6583163046",
+    "screenshot.jpg": "0500f814ee84665f1ff17375de49e7734ad93583ae0224e77cbb791c7fd3b81c",
+    "rendered.txt": "069ba24c758309b4e46e0ce26fde13abfe6c04885fa2438a2e663a2d90320183"
+  },
+  "http_status": 200,
+  "final_url": "https://www.theverge.com/2024/4/6/24122915/openai-youtube-transcripts-gpt-4-training-data-google",
+  "content_type": "text/html; charset=utf-8",
+  "title": "OpenAI transcribed over a million hours of YouTube videos to train GPT-4 | The Verge",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20261013060225/https://www.theverge.com/2024/4/6/24122915/openai-youtube-transcripts-gpt-4-training-data-google",
+    "timestamp": "20261013060225",
+    "method": "spn"
+  }
+}

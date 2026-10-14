@@ -1,0 +1,24 @@
+{
+  "url": "https://x.com/AnthropicAI/status/1604930004420214784",
+  "captured_at": "2026-10-13T05:32:58.359Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "74f13cf57f20380493b8383623270935ce0578fab85dc35751bfef5a0649eb0b",
+    "page.txt": "3288a6193f1e379a50bdb5bda9778d3cbaad6f474614ac8bff812dfa84e760c5",
+    "post.json": "3ae2edcc2ba5f85bce145b7f55c47ae89becc631b1f06e3860967a93d6e4f63c",
+    "syndication.json": "1d3f3e0533024a0e8141baf44db30125c64800cfc143f50cd0440b87e37862d1",
+    "post.txt": "11f81b6dbe3f679ee849fe6ca7ba5521d3cb724423e1dfcdcedc55caf073df7f"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/AnthropicAI/status/1604930004420214784",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Anthropic on X: \"This is an experiment in broadening access beyond a small set of Anthropic employees, collaborators, and crowdworkers. Our hope is to collectively explore some of the failure modes of our systems and share the resulting data back to the community.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Anthropic (@AnthropicAI)",
+    "date": "December 19, 2022",
+    "posted_at": "2022-12-19T20:01:45.868Z"
+  },
+  "rendered_status": 403
+}

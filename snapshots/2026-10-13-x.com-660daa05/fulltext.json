@@ -1,0 +1,64 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/janleike/status/1778136079302082721",
+    "id": "1778136079302082721",
+    "text": "Some statistics on the superalignment fast grants:\n\nWe funded 50 out of ~2,700 applications, awarding a total of $9,895,000.\n\nMedian grant size: $150k\nAverage grant size: $198k\nSmallest grant size: $50k\nLargest grant size: $500k\n\nGrantees:\nUniversities: $5.7m (22)\nGraduate students: $3.6m (25)\nNonprofits: $250k (1)\nIndividuals: $295k (2)\n\nResearch areas funded (some proposals cover multiple areas, so this sums to >$10m):\nWeak-to-strong generalization: $5.2m (26)\nScalable oversight: $1m (5)\nTop-down interpretability: $1.9m (9)\nMechanistic interpretability: $1.2m (6)\nChain-of-thought faithfulness: 700k (2)\nAdversarial robustness 650k (4)\nData attribution: 300k (1)\nEvals/prediction: 700k (4)\nOther: $1m (6)",
+    "raw_text": {
+      "text": "Some statistics on the superalignment fast grants:\n\nWe funded 50 out of ~2,700 applications, awarding a total of $9,895,000.\n\nMedian grant size: $150k\nAverage grant size: $198k\nSmallest grant size: $50k\nLargest grant size: $500k\n\nGrantees:\nUniversities: $5.7m (22)\nGraduate students: $3.6m (25)\nNonprofits: $250k (1)\nIndividuals: $295k (2)\n\nResearch areas funded (some proposals cover multiple areas, so this sums to >$10m):\nWeak-to-strong generalization: $5.2m (26)\nScalable oversight: $1m (5)\nTop-down interpretability: $1.9m (9)\nMechanistic interpretability: $1.2m (6)\nChain-of-thought faithfulness: 700k (2)\nAdversarial robustness 650k (4)\nData attribution: 300k (1)\nEvals/prediction: 700k (4)\nOther: $1m (6)",
+      "display_text_range": [
+        0,
+        712
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "janleike",
+      "url": "https://x.com/janleike",
+      "id": "710610891058716673",
+      "followers": 141979,
+      "following": 335,
+      "likes": 3786,
+      "media_count": 43,
+      "name": "Jan Leike",
+      "description": "AI research @AnthropicAI. Previously OpenAI & DeepMind.\nOptimizing for a post-AGI future where humanity flourishes.\nOpinions aren't my employer's.",
+      "raw_description": {
+        "text": "AI research @AnthropicAI. Previously OpenAI & DeepMind.\nOptimizing for a post-AGI future where humanity flourishes.\nOpinions aren't my employer's.",
+        "facets": []
+      },
+      "location": "San Francisco, USA",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1077523091700502528/2YCa_F4o_200x200.jpg",
+      "joined": "Thu Mar 17 23:36:53 +0000 2016",
+      "protected": false,
+      "website": {
+        "url": "https://jan.leike.name/",
+        "display_url": "jan.leike.name"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 8,
+    "retweets": 15,
+    "likes": 147,
+    "bookmarks": 66,
+    "quotes": 4,
+    "created_at": "Wed Apr 10 19:00:52 +0000 2024",
+    "created_timestamp": 1712775652,
+    "views": 114921,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": "janleike",
+    "replying_to_status": "1777896846826078581",
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

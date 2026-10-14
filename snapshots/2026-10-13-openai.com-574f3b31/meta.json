@@ -1,0 +1,21 @@
+{
+  "url": "https://openai.com/policies/business-terms/",
+  "captured_at": "2026-10-13T06:51:07.335Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "6c758fbb824451a6b72c9281d4207fdf8fe5d4cf0a5bd65a5a25d730c2e70d16",
+    "page.txt": "a4368896f28b89c70a99cc403cf4f6423ff31013a6a9cfa3cd04a35c5fcc3142",
+    "screenshot.jpg": "119537a57c8509c1623deb56ff8e5cfdf3ee06b9084c21588e5549fa1e482838",
+    "rendered.txt": "17a07bd6af01cb1adf00b577bc0735f0ce24093d5352cedd111a66c4213967fe"
+  },
+  "http_status": 200,
+  "final_url": "https://openai.com/policies/services-agreement/",
+  "content_type": "text/html; charset=utf-8",
+  "title": "OpenAI Services Agreement | OpenAI",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20261008023004/https://openai.com/policies/business-terms/",
+    "timestamp": "20261008023004",
+    "method": "existing"
+  }
+}

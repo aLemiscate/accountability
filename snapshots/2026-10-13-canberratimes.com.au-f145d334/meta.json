@@ -1,0 +1,21 @@
+{
+  "url": "https://www.canberratimes.com.au/story/9363114/should-not-have-happened-openai-fronts-grilling/",
+  "captured_at": "2026-10-13T06:24:52.160Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "c3a61c0e74d8bc880d7aa8842d67ce5e22d2e07dcb95adeab0a42ada301d4814",
+    "page.txt": "33a109a5cd210ef43f895a4ded68d55517ac9024945e6647881a213a346c2d92",
+    "screenshot.jpg": "7f5ee32934f15cf5733f0ee569565d622915ab2efbc71c3a5934239100218800",
+    "rendered.txt": "3b4991e2996d6fc60f89acb0e9bedf59a5c229f2fde4390cc5793c98c080f021"
+  },
+  "http_status": 200,
+  "final_url": "https://www.canberratimes.com.au/story/9363114/ai-companies-want-to-bypass-copyright-laws-for-content/",
+  "content_type": "text/html; charset=utf-8",
+  "title": "AI companies want to bypass copyright laws for content | The Canberra Times | Canberra, ACT",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20261013062546/https://www.canberratimes.com.au/story/9363114/should-not-have-happened-openai-fronts-grilling/",
+    "timestamp": "20261013062546",
+    "method": "spn"
+  }
+}

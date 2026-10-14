@@ -1,0 +1,32 @@
+{
+  "url": "https://x.com/OpenAIDevs/status/2102461448979087626",
+  "captured_at": "2026-10-13T15:13:05.019Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "bbea2adafa67587a75f1402b6b84f96fde034f1bc5bb9b7f8666262e0ce0b27d",
+    "page.txt": "7f7b470d554fc14480a4234ead9f609e60007469f66a38bc2dd7e97f6787e948",
+    "post.json": "deb101e944685737b58baf13ba3b2f517e3beaa6414a7f21e21662bb3ad80608",
+    "syndication.json": "b21852eb70c197a4b4188b73c37dc540c4d5f67aba328e46a3a762f6dbb1cb56",
+    "fulltext.json": "6a7dd32de8910f250f30137cb2fde31595b5b65688b029742c2bf92aa11556a6",
+    "media-1.png": "1af67406de16e8fd3416f0e34349ad98868acf3115fa951bf7ef14728d2b20df",
+    "post.txt": "ff54461c0eb4383957d5d053bde253003088bd9384421bca7e390a23120cc86d"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAIDevs/status/2102461448979087626",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI Developers on X: \"Improvements in caching and inference let us deliver GPT-6 Sol and GPT-6 Luna at lower cost. We’re passing those savings on through lower API prices. Sol and Luna deliver more intelligence at half of the previous generation’s API prices, making more complex work practical… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI Developers (@OpenAIDevs)",
+    "date": "September 22, 2026",
+    "posted_at": "2026-09-22T18:14:05.938Z",
+    "full_text_from": "api.fxtwitter.com",
+    "media": [
+      {
+        "file": "media-1.png",
+        "url": "https://pbs.twimg.com/media/HS1xi_kaAAEdeGH.png"
+      }
+    ]
+  }
+}

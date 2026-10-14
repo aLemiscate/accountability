@@ -24,7 +24,7 @@ related:
     2024-11-07-palantir-aws-defense,
     2025-07-14-defense-contract-200m
   ]
-patterns: []
+patterns: [principles-with-a-price]
 sources:
   - title: The Washington Post on X ("To strike 1,000 targets in 24 hours in Iran")
     publisher: X
@@ -94,10 +94,27 @@ updates:
         date: 2026-03-24
         type: reporting
         snapshot: snapshots/2026-09-30-militarytimes.com-07a5595d
+  - date: 2026-10-05
+    text: >-
+      A Defense Department official told the BBC that the Pentagon "has ceased
+      the use of Anthropic products," more than a month after the late-August
+      deadline Hegseth had set. Several people familiar with the matter told the
+      BBC that as recently as the week before, Claude was still being used for
+      research, analysis and intelligence gathering and in military operations
+      against Iran, embedded in Palantir's Maven Smart System. Anthropic
+      declined to comment.
+    sources:
+      - title: Pentagon stops using Anthropic AI tools after blacklisting company, BBC
+          told
+        publisher: Capital FM (BBC)
+        url: https://capitalfm.africa/pentagon-stops-using-anthropic-ai-tools-after-blacklisting-company-bbc-told/
+        date: 2026-10-06
+        type: reporting
+        snapshot: snapshots/2026-10-13-capitalfm.africa-8b3542f4
 note: >-
   This entry doesn't show a broken promise. Anthropic never promised to stay out
   of targeting, and nothing public says a human was taken out of the loop. It's
   here because the red lines Anthropic was praised and punished for holding
-  cover much less than "no help with killing," and the record should show both
-  the red lines and what they leave out. The reporting relies on unnamed
-  sources; the Pentagon and Anthropic haven't confirmed the details.
+  cover much less than a refusal to help with killing, and the record should
+  show both the red lines and what they leave out. The reporting relies on
+  unnamed sources; the Pentagon and Anthropic haven't confirmed the details.

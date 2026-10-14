@@ -5,7 +5,7 @@ org: anthropic
 type: said
 kind: commitment
 who: [dario-amodei, anthropic]
-venue: Essay, "We Must Pace the Frontier," and post on X
+venue: Essay, "We Must Pace the Frontier," and post on Twitter
 quote: >-
   Anthropic is unilaterally committing to this step now. … External reviewers
   should have the right to publish key findings about risk levels, incidents,
@@ -24,12 +24,13 @@ summary: >-
   day.
 concreteness: measurable
 status: open
+last_checked: 2026-10-13
 breaks_if: >-
   No embedded team with the described access is working inside Anthropic by
   March 2027; evaluators' contracts let Anthropic block unfavorable findings
   beyond the narrow redactions described; an embedded evaluator reports being
   denied promised access; or the program is scaled back without notice.
-patterns: []
+patterns: [unfalsifiable]
 related:
   [
     2026-02-24-rsp-v3-drops-pause,
@@ -119,6 +120,7 @@ updates:
         url: https://thehill.com/homenews/administration/6118906-tech-ceos-sign-white-house-ai-accord/
         date: 2026-09-29
         type: reporting
+        snapshot: snapshots/2026-10-07-thehill.com-572fbd08
 note: >-
   Seven months earlier, Anthropic dropped its pause pledge. Its chief science
   officer said then that unilateral commitments made little sense "if

@@ -1,0 +1,197 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 168,
+  "lang": "en",
+  "created_at": "2025-06-26T17:49:00.000Z",
+  "display_text_range": [
+    0,
+    206
+  ],
+  "entities": {},
+  "id_str": "1938293432893772103",
+  "text": "As I said in my testimony yesterday, we have a short window of time to get a sensible federal policy framework in place before an accident or a misuse leads to a reactive and likely bad regulatory response.",
+  "user": {
+    "id_str": "86351835",
+    "name": "Jack Clark",
+    "screen_name": "jackclarkSF",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/726446881547517952/ULhSTKxN_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1938293432893772103"
+    ],
+    "editable_until_msecs": "1750963740000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 18,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 469,
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 45,
+    "retweet_count": 69,
+    "created_at": "2025-06-26T07:33:32.000Z",
+    "display_text_range": [
+      0,
+      279
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/eckNWVmBss",
+          "expanded_url": "https://x.com/vitrupo/status/1938138544360530079/video/1",
+          "indices": [
+            280,
+            303
+          ],
+          "url": "https://t.co/eckNWVmBss"
+        }
+      ]
+    },
+    "id_str": "1938138544360530079",
+    "text": "Anthropic co-founder Jack Clark tells Congress that “truly transformative technology” is expected by the end of 2026.\n\nHe's urging a federal framework now, before an “accident or a misuse” event that could lead to extreme overregulation.\n\nAnd risk damaging the entire AI industry https://t.co/eckNWVmBss",
+    "user": {
+      "id_str": "1371310867346681858",
+      "name": "vitrupo",
+      "screen_name": "vitrupo",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1905435709407985666/RfAHID81_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1938138544360530079"
+      ],
+      "editable_until_msecs": "1750926812000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "mediaDetails": [
+      {
+        "additional_media_info": {},
+        "display_url": "pic.x.com/eckNWVmBss",
+        "expanded_url": "https://x.com/vitrupo/status/1938138544360530079/video/1",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          280,
+          303
+        ],
+        "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1938132715284684800/img/ZWN-h8YYg1o_5UdL.jpg",
+        "original_info": {
+          "focus_rects": [],
+          "height": 768,
+          "width": 1024
+        },
+        "sizes": {
+          "large": {
+            "h": 768,
+            "resize": "fit",
+            "w": 1024
+          },
+          "medium": {
+            "h": 768,
+            "resize": "fit",
+            "w": 1024
+          },
+          "small": {
+            "h": 510,
+            "resize": "fit",
+            "w": 680
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "video",
+        "url": "https://t.co/eckNWVmBss",
+        "video_info": {
+          "aspect_ratio": [
+            4,
+            3
+          ],
+          "duration_millis": 52800,
+          "variants": [
+            {
+              "content_type": "application/x-mpegURL",
+              "url": "https://video.twimg.com/amplify_video/1938132715284684800/pl/WPtx27oYObIv8SZC.m3u8?v=edc"
+            },
+            {
+              "bitrate": 256000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/1938132715284684800/vid/avc1/360x270/BA-hJAr0cfPLSLhy.mp4"
+            },
+            {
+              "bitrate": 832000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/1938132715284684800/vid/avc1/480x360/cDid0-VbV6pWePM5.mp4"
+            },
+            {
+              "bitrate": 2176000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/1938132715284684800/vid/avc1/960x720/2yCiY1OtZOtP7oGB.mp4"
+            },
+            {
+              "bitrate": 10368000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/1938132715284684800/vid/avc1/1024x768/RUkITiU2C6rZHSrX.mp4"
+            }
+          ]
+        }
+      }
+    ],
+    "photos": [],
+    "video": {
+      "aspectRatio": [
+        4,
+        3
+      ],
+      "contentType": "media_entity",
+      "durationMs": 52800,
+      "mediaAvailability": {
+        "status": "available"
+      },
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/1938132715284684800/img/ZWN-h8YYg1o_5UdL.jpg",
+      "variants": [
+        {
+          "type": "application/x-mpegURL",
+          "src": "https://video.twimg.com/amplify_video/1938132715284684800/pl/WPtx27oYObIv8SZC.m3u8?v=edc"
+        },
+        {
+          "type": "video/mp4",
+          "src": "https://video.twimg.com/amplify_video/1938132715284684800/vid/avc1/360x270/BA-hJAr0cfPLSLhy.mp4"
+        },
+        {
+          "type": "video/mp4",
+          "src": "https://video.twimg.com/amplify_video/1938132715284684800/vid/avc1/480x360/cDid0-VbV6pWePM5.mp4"
+        },
+        {
+          "type": "video/mp4",
+          "src": "https://video.twimg.com/amplify_video/1938132715284684800/vid/avc1/960x720/2yCiY1OtZOtP7oGB.mp4"
+        },
+        {
+          "type": "video/mp4",
+          "src": "https://video.twimg.com/amplify_video/1938132715284684800/vid/avc1/1024x768/RUkITiU2C6rZHSrX.mp4"
+        }
+      ],
+      "videoId": {
+        "type": "tweet",
+        "id": "1938138544360530079"
+      },
+      "viewCount": 0
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

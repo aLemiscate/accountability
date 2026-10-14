@@ -1,0 +1,733 @@
+{
+ "id": "anthropic-api-retention",
+ "org": "anthropic",
+ "urls": [
+  "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+  "https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+  "https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+  "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center",
+   "via": "fetch",
+   "sha": "f1581cc3ec3280d3",
+   "words": 626
+  }
+ ],
+ "captures": [
+  {
+   "ts": "20230711170142",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "468f2f5ad389512a",
+   "title": "How long do you store personal data? | Anthropic Help Center"
+  },
+  {
+   "ts": "20230811173624",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "72b580afed2991cf",
+   "title": "How long do you store personal data? | Anthropic Help Center"
+  },
+  {
+   "ts": "20230913042911",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "043658476353ab8a",
+   "title": "How long do you store personal data? | Anthropic Help Center"
+  },
+  {
+   "ts": "20231006212325",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "043658476353ab8a",
+   "title": "How long do you store personal data? | Anthropic Help Center"
+  },
+  {
+   "ts": "20231008160841",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "043658476353ab8a",
+   "title": "How long do you store personal data? | Anthropic Help Center"
+  },
+  {
+   "ts": "20231012205420",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "52010b83853797de",
+   "title": "How long do you store personal data? | Anthropic Help Center"
+  },
+  {
+   "ts": "20231027123721",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "52010b83853797de",
+   "title": "How long do you store personal data? | Anthropic Help Center"
+  },
+  {
+   "ts": "20231106023356",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "aff2423355be5655",
+   "title": "How long do you store personal data? | Anthropic Help Center"
+  },
+  {
+   "ts": "20231227053229",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "39c6c22f7755714e",
+   "title": "How long do you store personal data? | Anthropic Help Center"
+  },
+  {
+   "ts": "20240122005546",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "54b2501f68c5df72",
+   "title": "How long do you store personal data? | Anthropic Help Center"
+  },
+  {
+   "ts": "20240221171332",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "bd8d96ef60177053",
+   "title": "How long do you store personal data? | Anthropic Help Center"
+  },
+  {
+   "ts": "20240306211357",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "f05d5e596a2abab5",
+   "title": "How long do you store personal data? | Anthropic Help Center"
+  },
+  {
+   "ts": "20240324213649",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "4100eae5242a4496",
+   "title": "How long do you store personal data? | Anthropic Help Center"
+  },
+  {
+   "ts": "20240419200559",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "3dc6571815665d86",
+   "title": "How long do you store personal data? | Anthropic Help Center"
+  },
+  {
+   "ts": "20240622051212",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "6f84f6371229a453",
+   "title": "How long do you store personal data? | Anthropic Help Center"
+  },
+  {
+   "ts": "20240822164208",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "af5f61488e14ce1f",
+   "title": "How long do you store personal data? | Anthropic Help Center"
+  },
+  {
+   "ts": "20240920183943",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "b1bb692b7f174af3",
+   "title": "How long do you store personal data? | Anthropic Help Center"
+  },
+  {
+   "ts": "20240926204050",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "1564c47282248ba0",
+   "title": "How long do you store personal data? | Anthropic Help Center"
+  },
+  {
+   "ts": "20241005230217",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "1564c47282248ba0",
+   "title": "How long do you store personal data? | Anthropic Help Center"
+  },
+  {
+   "ts": "20241008204154",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "d01e0cad060506fe",
+   "title": "How long do you store personal data? | Anthropic Help Center"
+  },
+  {
+   "ts": "20241010130214",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "d01e0cad060506fe",
+   "title": "How long do you store personal data? | Anthropic Help Center"
+  },
+  {
+   "ts": "20241101215911",
+   "url": "https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "d2ca14778e377942",
+   "title": "How long do you store personal data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20250109180734",
+   "url": "https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "d2ca14778e377942",
+   "title": "How long do you store personal data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20250224205346",
+   "url": "https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "d2ca14778e377942",
+   "title": "How long do you store personal data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20250317102539",
+   "url": "https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "d2ca14778e377942",
+   "title": "How long do you store personal data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20250401005155",
+   "url": "https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data",
+   "sha": "d2ca14778e377942",
+   "title": "How long do you store personal data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20250424042632",
+   "url": "https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "3c18b6a79f94d8b6",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20250509015111",
+   "url": "https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "d27b7ad158a174e1",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20250624095558",
+   "url": "https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "d27b7ad158a174e1",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20250706013452",
+   "url": "https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "d27b7ad158a174e1",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20250805144037",
+   "url": "https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "d27b7ad158a174e1",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20250810130542",
+   "url": "https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "d27b7ad158a174e1",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20250830201443",
+   "url": "https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "a93c8cfe98e367ba",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20250914054016",
+   "url": "https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "f2bf3585a4bdc14c",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20251002034606",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "f2bf3585a4bdc14c",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20251010113028",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "f2bf3585a4bdc14c",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20251021233548",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "2c061f544b1cd5a8",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20251022170042",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "2c061f544b1cd5a8",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20251027172630",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "f2bf3585a4bdc14c",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20251112020657",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "bdd551ef0afeedd9",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20251202215345",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "c691438a8cde8f21",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20251217043240",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "8f849e3c8ae780f3",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20251219064446",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "8f849e3c8ae780f3",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20251223091211",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "8f849e3c8ae780f3",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260126200825",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "7be797f1a8c54f9f",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260130140216",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "8f849e3c8ae780f3",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260202052542",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "8f849e3c8ae780f3",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260211072228",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "8f849e3c8ae780f3",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260226142327",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "8f849e3c8ae780f3",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260302152134",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "abf7c044e8ef8cbc",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260309082444",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "fadc01f3bbbcf9ba",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260318115519",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "9cf741c9516ffda0",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260321142055",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "9cf741c9516ffda0",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260327080041",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "8bc395fb14d05799",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260405033631",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "8bc395fb14d05799",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260407201528",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "8bc395fb14d05799",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260420185257",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "8bc395fb14d05799",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260423061003",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "8bc395fb14d05799",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260517224822",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "9598bb3d4550c8cc",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260608210408",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "9598bb3d4550c8cc",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260609205357",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "937d35f3bce23f5b",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260615213124",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "937d35f3bce23f5b",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260623212834",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "937d35f3bce23f5b",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260627210315",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "937d35f3bce23f5b",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260703204323",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "cfdaf66a27771afe",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260707173400",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "cfdaf66a27771afe",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260708222142",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "cfdaf66a27771afe",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260715000151",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "3702e4a867f5d441",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260724115218",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "3702e4a867f5d441",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260726075359",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "3702e4a867f5d441",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260729051359",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "3702e4a867f5d441",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260803133324",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "0c01485ca91ac06c",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260909053156",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "0c01485ca91ac06c",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260910154834",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "671a3be2fed0f5d1",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260911125652",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "671a3be2fed0f5d1",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260914210644",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "f1581cc3ec3280d3",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20260921151411",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "f1581cc3ec3280d3",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20261001070211",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "f1581cc3ec3280d3",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  },
+  {
+   "ts": "20261006061618",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+   "sha": "f1581cc3ec3280d3",
+   "title": "How long do you store my organization’s data? | Anthropic Privacy Center"
+  }
+ ],
+ "versions": [
+  {
+   "sha": "468f2f5ad389512a",
+   "first": "20230711170142",
+   "last": "20230711170142",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data"
+  },
+  {
+   "sha": "72b580afed2991cf",
+   "first": "20230811173624",
+   "last": "20230811173624",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data"
+  },
+  {
+   "sha": "043658476353ab8a",
+   "first": "20230913042911",
+   "last": "20231008160841",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data"
+  },
+  {
+   "sha": "52010b83853797de",
+   "first": "20231012205420",
+   "last": "20231027123721",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data"
+  },
+  {
+   "sha": "aff2423355be5655",
+   "first": "20231106023356",
+   "last": "20231106023356",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data"
+  },
+  {
+   "sha": "39c6c22f7755714e",
+   "first": "20231227053229",
+   "last": "20231227053229",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data"
+  },
+  {
+   "sha": "54b2501f68c5df72",
+   "first": "20240122005546",
+   "last": "20240122005546",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data"
+  },
+  {
+   "sha": "bd8d96ef60177053",
+   "first": "20240221171332",
+   "last": "20240221171332",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data"
+  },
+  {
+   "sha": "f05d5e596a2abab5",
+   "first": "20240306211357",
+   "last": "20240306211357",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data"
+  },
+  {
+   "sha": "4100eae5242a4496",
+   "first": "20240324213649",
+   "last": "20240324213649",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data"
+  },
+  {
+   "sha": "3dc6571815665d86",
+   "first": "20240419200559",
+   "last": "20240419200559",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data"
+  },
+  {
+   "sha": "6f84f6371229a453",
+   "first": "20240622051212",
+   "last": "20240622051212",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data"
+  },
+  {
+   "sha": "af5f61488e14ce1f",
+   "first": "20240822164208",
+   "last": "20240822164208",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data"
+  },
+  {
+   "sha": "b1bb692b7f174af3",
+   "first": "20240920183943",
+   "last": "20240920183943",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data"
+  },
+  {
+   "sha": "1564c47282248ba0",
+   "first": "20240926204050",
+   "last": "20241005230217",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data"
+  },
+  {
+   "sha": "d01e0cad060506fe",
+   "first": "20241008204154",
+   "last": "20241010130214",
+   "url": "https://support.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data"
+  },
+  {
+   "sha": "d2ca14778e377942",
+   "first": "20241101215911",
+   "last": "20250401005155",
+   "url": "https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-personal-data"
+  },
+  {
+   "sha": "3c18b6a79f94d8b6",
+   "first": "20250424042632",
+   "last": "20250424042632",
+   "url": "https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"
+  },
+  {
+   "sha": "d27b7ad158a174e1",
+   "first": "20250509015111",
+   "last": "20250810130542",
+   "url": "https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"
+  },
+  {
+   "sha": "a93c8cfe98e367ba",
+   "first": "20250830201443",
+   "last": "20250830201443",
+   "url": "https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"
+  },
+  {
+   "sha": "f2bf3585a4bdc14c",
+   "first": "20250914054016",
+   "last": "20251010113028",
+   "url": "https://privacy.anthropic.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"
+  },
+  {
+   "sha": "2c061f544b1cd5a8",
+   "first": "20251021233548",
+   "last": "20251022170042",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"
+  },
+  {
+   "sha": "f2bf3585a4bdc14c",
+   "first": "20251027172630",
+   "last": "20251027172630",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"
+  },
+  {
+   "sha": "bdd551ef0afeedd9",
+   "first": "20251112020657",
+   "last": "20251112020657",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"
+  },
+  {
+   "sha": "c691438a8cde8f21",
+   "first": "20251202215345",
+   "last": "20251202215345",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"
+  },
+  {
+   "sha": "8f849e3c8ae780f3",
+   "first": "20251217043240",
+   "last": "20251223091211",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"
+  },
+  {
+   "sha": "7be797f1a8c54f9f",
+   "first": "20260126200825",
+   "last": "20260126200825",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"
+  },
+  {
+   "sha": "8f849e3c8ae780f3",
+   "first": "20260130140216",
+   "last": "20260226142327",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"
+  },
+  {
+   "sha": "abf7c044e8ef8cbc",
+   "first": "20260302152134",
+   "last": "20260302152134",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"
+  },
+  {
+   "sha": "fadc01f3bbbcf9ba",
+   "first": "20260309082444",
+   "last": "20260309082444",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"
+  },
+  {
+   "sha": "9cf741c9516ffda0",
+   "first": "20260318115519",
+   "last": "20260321142055",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"
+  },
+  {
+   "sha": "8bc395fb14d05799",
+   "first": "20260327080041",
+   "last": "20260423061003",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"
+  },
+  {
+   "sha": "9598bb3d4550c8cc",
+   "first": "20260517224822",
+   "last": "20260608210408",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"
+  },
+  {
+   "sha": "937d35f3bce23f5b",
+   "first": "20260609205357",
+   "last": "20260627210315",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"
+  },
+  {
+   "sha": "cfdaf66a27771afe",
+   "first": "20260703204323",
+   "last": "20260708222142",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"
+  },
+  {
+   "sha": "3702e4a867f5d441",
+   "first": "20260715000151",
+   "last": "20260729051359",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"
+  },
+  {
+   "sha": "0c01485ca91ac06c",
+   "first": "20260803133324",
+   "last": "20260909053156",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"
+  },
+  {
+   "sha": "671a3be2fed0f5d1",
+   "first": "20260910154834",
+   "last": "20260911125652",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"
+  },
+  {
+   "sha": "f1581cc3ec3280d3",
+   "first": "20260914210644",
+   "last": "20261006061618",
+   "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data"
+  }
+ ],
+ "complete": true
+}

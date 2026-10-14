@@ -1,0 +1,109 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 7,
+  "in_reply_to_screen_name": "tyler_m_john",
+  "in_reply_to_status_id_str": "2027928057789710418",
+  "in_reply_to_user_id_str": "16487624",
+  "lang": "en",
+  "created_at": "2026-03-01T02:33:00.000Z",
+  "display_text_range": [
+    20,
+    295
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "16487624",
+        "indices": [
+          0,
+          13
+        ],
+        "name": "Tyler John",
+        "screen_name": "tyler_m_john"
+      },
+      {
+        "id_str": "1605",
+        "indices": [
+          14,
+          19
+        ],
+        "name": "Sam Altman",
+        "screen_name": "sama"
+      }
+    ]
+  },
+  "id_str": "2027935104056586439",
+  "text": "@tyler_m_john @sama When we say that domestic mass surveillance and autonomous lethal weapons are red lines for us, we mean what we say, and are not looking for loopholes. We are confident that the combination of legal restrictions, safety stack, and deployment surfaces, will ensure that OpenAI",
+  "user": {
+    "id_str": "1217628182611927040",
+    "name": "Boaz Barak",
+    "screen_name": "boazbaraktcs",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1252262363132280834/ytIN-vzv_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2027935104056586439"
+    ],
+    "editable_until_msecs": "1772335980000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 3,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 81,
+    "in_reply_to_screen_name": "sama",
+    "in_reply_to_status_id_str": "2027900042720498089",
+    "in_reply_to_user_id_str": "1605",
+    "lang": "en",
+    "reply_count": 2,
+    "retweet_count": 3,
+    "created_at": "2026-03-01T02:05:00.000Z",
+    "display_text_range": [
+      6,
+      284
+    ],
+    "entities": {
+      "user_mentions": [
+        {
+          "id_str": "1605",
+          "indices": [
+            0,
+            5
+          ],
+          "name": "Sam Altman",
+          "screen_name": "sama"
+        }
+      ]
+    },
+    "id_str": "2027928057789710418",
+    "text": "@sama Which of the following is true?\n\na) the contract permits all lawful use, + therefore mass surveillance + autonomous weapons, which have no legal prohibition\n\nb) the contract has substantive red lines that constrain lawful use\n\nc) OpenAI has a controversial interpretation of the",
+    "user": {
+      "id_str": "16487624",
+      "name": "Tyler John",
+      "screen_name": "tyler_m_john",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2031125245084712960/OORFbzMI_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2027928057789710418"
+      ],
+      "editable_until_msecs": "1772334300000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDI3OTM1MTAzOTgxMDc2NDgx"
+  }
+}

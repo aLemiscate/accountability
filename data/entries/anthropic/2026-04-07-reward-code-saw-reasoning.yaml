@@ -22,7 +22,7 @@ summary: >-
   reasoning, this report said "we do not generally train models" that way.
 contradicts: [2026-02-10-opus-4-6-reasoning-not-trained]
 related: [2026-05-07-accidental-cot-grading, 2025-11-24-sabotage-risk-reports-commitment, 2026-04-07-mythos-preview-not-general]
-patterns: []
+patterns: [safeguards-on-paper]
 sources:
   - title: 'Alignment Risk Update: Claude Mythos Preview, sections 5.2.3 and 5.3.2'
     publisher: Anthropic
@@ -30,6 +30,12 @@ sources:
     date: 2026-04-07
     type: primary
     snapshot: snapshots/2026-09-30-anthropic.com-bc256abb
+response: >-
+  This entry is Anthropic's own disclosure. It wrote: "We are uncertain about
+  the extent to which this issue has affected the reasoning behavior of the
+  final model, but it is plausible that it had some impact on opaque reasoning
+  or secret-keeping abilities." No statement was found on the earlier report's
+  "we do not train models" wording.
 note: >-
   The disclosure itself counts in Anthropic's favor, and it came a month
   before OpenAI's similar one. The record pairs the two because both

@@ -1,0 +1,117 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/thsottiaux/status/2091407991736332689",
+    "id": "2091407991736332689",
+    "text": "Update on rate limits in Codex. \n\nWe’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Computer History (c) a feature that was meant to generate conversation titles that was draining a bit more usage than intended. And we have a tiger team combing through everything and shipping fixes tomorrow. We also found a novel approach to drive efficiency up significantly that is completely unrelated and we will be working on next week.\n\nAs part of some of the fixes tomorrow, we will also do a full reset of the usage for all paid subscriptions.\n\nSee you then.",
+    "raw_text": {
+      "text": "Update on rate limits in Codex. \n\nWe’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Computer History (c) a feature that was meant to generate conversation titles that was draining a bit more usage than intended. And we have a tiger team combing through everything and shipping fixes tomorrow. We also found a novel approach to drive efficiency up significantly that is completely unrelated and we will be working on next week.\n\nAs part of some of the fixes tomorrow, we will also do a full reset of the usage for all paid subscriptions.\n\nSee you then.",
+      "display_text_range": [
+        0,
+        622
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 854831,
+      "following": 75,
+      "likes": 10445,
+      "media_count": 150,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": []
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 1375,
+    "retweets": 776,
+    "likes": 14401,
+    "bookmarks": 1192,
+    "quotes": 857,
+    "created_at": "Sun Aug 23 06:11:36 +0000 2026",
+    "created_timestamp": 1787465496,
+    "views": 4546995,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "quote": {
+      "url": "https://x.com/thsottiaux/status/2091033630147854385",
+      "id": "2091033630147854385",
+      "text": "Update on rate limits in Codex. We do see that for some users the cache hit rate has been worse this week than the stable state the weeks before. This could explain that usage is draining somewhat faster for those users as hitting the cache consistently is an important component of being efficient.\n\nWe are investigating and will have an update tomorrow.",
+      "raw_text": {
+        "text": "Update on rate limits in Codex. We do see that for some users the cache hit rate has been worse this week than the stable state the weeks before. This could explain that usage is draining somewhat faster for those users as hitting the cache consistently is an important component of being efficient.\n\nWe are investigating and will have an update tomorrow.",
+        "display_text_range": [
+          0,
+          355
+        ],
+        "facets": []
+      },
+      "author": {
+        "screen_name": "thsottiaux",
+        "url": "https://x.com/thsottiaux",
+        "id": "1953337039510003712",
+        "followers": 854831,
+        "following": 75,
+        "likes": 10445,
+        "media_count": 150,
+        "name": "Tibo",
+        "description": "Codex & ChatGPT @OpenAI",
+        "raw_description": {
+          "text": "Codex & ChatGPT @OpenAI",
+          "facets": []
+        },
+        "location": "",
+        "banner_url": "",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+        "joined": "Thu Aug 07 06:07:07 +0000 2025",
+        "protected": false,
+        "website": null,
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "individual"
+        },
+        "avatar_color": null
+      },
+      "replies": 1550,
+      "retweets": 350,
+      "likes": 10144,
+      "bookmarks": 534,
+      "quotes": 292,
+      "created_at": "Sat Aug 22 05:24:01 +0000 2026",
+      "created_timestamp": 1787376241,
+      "views": 3409867,
+      "is_note_tweet": true,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": null,
+      "replying_to_status": null,
+      "twitter_card": "tweet",
+      "color": null,
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

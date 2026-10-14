@@ -15,17 +15,17 @@ summary: >-
   models aren't reliable enough for those uses and that powerful AI raises
   serious privacy risks. On February 27, the President directed federal agencies
   to stop using Anthropic's AI, and Defense Secretary Pete Hegseth designated
-  the company a "supply chain risk to national security." The stance wasn't
-  new. In September 2025 Semafor reported that Anthropic had turned down
-  contractors for the FBI, Secret Service and ICE rather than make exceptions
-  to its ban on domestic surveillance. Officials complained the policy was
-  vague and "selectively" enforced.
+  the company a "supply chain risk to national security." The stance wasn't new.
+  In September 2025 Semafor reported that Anthropic had turned down contractors
+  for the FBI, Secret Service and ICE rather than make exceptions to its ban on
+  domestic surveillance. Officials complained the policy was vague and
+  "selectively" enforced.
 concreteness: measurable
 status: kept
 breaks_if: >-
   Anthropic relaxes those two restrictions for any government customer, or
   settles the dispute on terms that do.
-patterns: []
+patterns: [principles-with-a-price]
 related: [2026-02-27-pentagon-classified-deal]
 sources:
   - title: Statement from Dario Amodei on our discussions with the Department of War
@@ -112,6 +112,37 @@ updates:
         type: reporting
         archive: https://web.archive.org/web/20260929212349/https://www.ksat.com/business/2026/09/25/federal-court-says-pentagon-can-label-anthropic-a-supply-chain-risk/
         snapshot: snapshots/2026-09-29-ksat.com-525fe521
+  - date: 2026-10-08
+    text: >-
+      Anthropic's new Usage Policy, published October 8 and effective November
+      12, 2026, restates both limits in more specific terms. It bars using
+      Claude to "Weaponize or integrate weapons onto drones, vehicles, or any
+      unmanned or autonomous platforms," to "Make or suggest decisions in law
+      enforcement or criminal justice processes, including decisions to
+      investigate, charge, arrest or detain," and to "Target or track a person
+      or their property without that person’s consent," including "through
+      analysis of previously collected data." Anthropic said the weapons changes
+      "reflect how we’ve enforced our previous policy" and that the surveillance
+      rewrite "does not reflect a change in what we enforce in practice." The
+      policy keeps its clause allowing contracts with "certain governmental
+      customers that tailor use restrictions to that customer’s public mission
+      and legal authorities," and adds that its rules "do not categorically
+      prohibit use by any particular industry or line of business."
+    sources:
+      - title: 2026 Usage Policy update
+        publisher: Anthropic
+        url: https://www.anthropic.com/news/2026-usage-policy-update
+        date: 2026-10-08
+        type: primary
+        archive: https://web.archive.org/web/20261013054912/https://www.anthropic.com/news/2026-usage-policy-update
+        snapshot: snapshots/2026-10-13-anthropic.com-4e66a7e4
+      - title: Usage Policy (effective November 12, 2026)
+        publisher: Anthropic
+        url: https://www.anthropic.com/legal/aup
+        date: 2026-10-08
+        type: primary
+        archive: https://web.archive.org/web/20261012125535/https://www.anthropic.com/legal/aup
+        snapshot: snapshots/2026-10-13-anthropic.com-34cfa2c0
 note: >-
   This is what a kept commitment looks like: it cost something. Record it as
   carefully as the failures. Note too that it came three days after the same

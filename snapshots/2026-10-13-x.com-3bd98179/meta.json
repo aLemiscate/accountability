@@ -1,0 +1,24 @@
+{
+  "url": "https://x.com/OpenAI/status/1864735521697861956",
+  "captured_at": "2026-10-13T06:26:54.598Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "40c311fcdcc48d35738fc1bc0a4cc142381651d0d2aabb43d7afffd38121d65f",
+    "page.txt": "136fb036dca7212281d768c8914aeb88d01f1976aa5437e4a98d5351931b2174",
+    "post.json": "66e23dfb37e7af4f88d6a35f8a831ecb405c68e98ef6d44875b0c68fedaedd4f",
+    "syndication.json": "5980645130e6133bd82b3411013ef0ecdbf09f7121c0a87b0f85a32aaf92e6dc",
+    "post.txt": "a4c5b5be6112e3d87947b1721e3084c8f96962f74d51dc8b65524437cbe74071"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1864735521697861956",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"Today we’re also adding ChatGPT Pro, a new plan that allows us to offer the best of our models & tools at scale, including unlimited access to OpenAI o1 and a Pro-only version of o1 that thinks longer for even more reliable responses. https://t.co/UqhfbGkMgl\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "December 5, 2024",
+    "posted_at": "2024-12-05T18:16:08.140Z"
+  },
+  "rendered_status": 403
+}

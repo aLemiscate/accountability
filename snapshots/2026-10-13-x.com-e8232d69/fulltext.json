@@ -1,0 +1,125 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/thsottiaux/status/2090766694897619318",
+    "id": "2090766694897619318",
+    "text": "It's me again. I come bearing great news. \n\nFirst of all, we have hit 20M active users for Codex some time this week. Second of all, this is cause for celebration and during the day we will credit every Codex and ChatGPT Work user with a BANKED reset that you can use at your own leisure. And we will have some other good news later too!\n\nNow, on usage limits draining faster, while we're not seeing anything abnormal, we do take it incredibly seriously and there is an ongoing investigation. I will share if we do find anything and my below post is really a clarification on a specific pattern that we did see that I wanted to call out.\n\nGo do something amazing today.",
+    "raw_text": {
+      "text": "It's me again. I come bearing great news. \n\nFirst of all, we have hit 20M active users for Codex some time this week. Second of all, this is cause for celebration and during the day we will credit every Codex and ChatGPT Work user with a BANKED reset that you can use at your own leisure. And we will have some other good news later too!\n\nNow, on usage limits draining faster, while we're not seeing anything abnormal, we do take it incredibly seriously and there is an ongoing investigation. I will share if we do find anything and my below post is really a clarification on a specific pattern that we did see that I wanted to call out.\n\nGo do something amazing today.",
+      "display_text_range": [
+        0,
+        669
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 854836,
+      "following": 75,
+      "likes": 10445,
+      "media_count": 150,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": []
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 2582,
+    "retweets": 950,
+    "likes": 19808,
+    "bookmarks": 1186,
+    "quotes": 1085,
+    "created_at": "Fri Aug 21 11:43:19 +0000 2026",
+    "created_timestamp": 1787312599,
+    "views": 3308821,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "quote": {
+      "url": "https://x.com/thsottiaux/status/2090675027670978569",
+      "id": "2090675027670978569",
+      "text": "We've investigated a few messages about codex usage limits being different. That's not something we change without engaging the community and being transparent.\n\nWhat we did see is that when talking to affected users many were using sub2api. Converting a subscription into api traffic to then re-serve or share across many users is not something we support and this type of usage gets flagged by our fraud-prevention systems.\n\nYou are completely fine if you use your subscription through Sign in With ChatGPT, either through the official clients or through one of the many OSS clients (Pi, OpenCode, ...) that support signing in with your account and using your included usage.",
+      "raw_text": {
+        "text": "We've investigated a few messages about codex usage limits being different. That's not something we change without engaging the community and being transparent.\n\nWhat we did see is that when talking to affected users many were using sub2api. Converting a subscription into api traffic to then re-serve or share across many users is not something we support and this type of usage gets flagged by our fraud-prevention systems.\n\nYou are completely fine if you use your subscription through Sign in With ChatGPT, either through the official clients or through one of the many OSS clients (Pi, OpenCode, ...) that support signing in with your account and using your included usage.",
+        "display_text_range": [
+          0,
+          677
+        ],
+        "facets": [
+          {
+            "type": "bold",
+            "indices": [
+              233,
+              240
+            ]
+          }
+        ]
+      },
+      "author": {
+        "screen_name": "thsottiaux",
+        "url": "https://x.com/thsottiaux",
+        "id": "1953337039510003712",
+        "followers": 854836,
+        "following": 75,
+        "likes": 10445,
+        "media_count": 150,
+        "name": "Tibo",
+        "description": "Codex & ChatGPT @OpenAI",
+        "raw_description": {
+          "text": "Codex & ChatGPT @OpenAI",
+          "facets": []
+        },
+        "location": "",
+        "banner_url": "",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+        "joined": "Thu Aug 07 06:07:07 +0000 2025",
+        "protected": false,
+        "website": null,
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "individual"
+        },
+        "avatar_color": null
+      },
+      "replies": 3065,
+      "retweets": 229,
+      "likes": 7070,
+      "bookmarks": 1075,
+      "quotes": 588,
+      "created_at": "Fri Aug 21 05:39:04 +0000 2026",
+      "created_timestamp": 1787290744,
+      "views": 4190918,
+      "is_note_tweet": true,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": null,
+      "replying_to_status": null,
+      "twitter_card": "tweet",
+      "color": null,
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

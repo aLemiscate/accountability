@@ -1,0 +1,17 @@
+{
+  "url": "https://alignment.openai.com/misalignment-reports/sending-disallowed-web-requests-and-reaching-a-public-file-service/",
+  "captured_at": "2026-10-13T06:48:13.051Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "cf5486520a999174cb589d7633282ad58086fd72e967e4aff78036982ceaeb6a",
+    "page.txt": "c3ae3d080112288c1bd5cfafd92cb625db29b38cf5cbae7e461de88c9bf2bc7b",
+    "screenshot.jpg": "502e05ca163e6a383afbe31882f3d0e7f8c856d2491ad9ed0df97d8d0aa30f3c",
+    "rendered.txt": "4c6d1687666b2b5eecc293b35c0ff1b5d7f729dce063aa6fd6f4e672f1c45c9c"
+  },
+  "http_status": 200,
+  "final_url": "https://alignment.openai.com/misalignment-reports/sending-disallowed-web-requests-and-reaching-a-public-file-service/",
+  "content_type": "text/html; charset=utf-8",
+  "title": "Sending disallowed web requests and reaching a public file service · OpenAI Alignment",
+  "rendered_status": 200,
+  "archive": null
+}

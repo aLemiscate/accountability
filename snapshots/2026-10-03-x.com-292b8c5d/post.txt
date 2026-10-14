@@ -1,0 +1,6 @@
+Tibo (@thsottiaux)
+November 7, 2025
+
+More predictable usage in Codex. We landed optimizations behind the scenes that mean that you now will get the same usage throughout the day irrespective of the load or how traffic is routed. 
+
+Before you could get unlucky and hit a few cache misses in a row and get less usage.

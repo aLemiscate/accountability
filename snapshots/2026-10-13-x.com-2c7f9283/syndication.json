@@ -1,0 +1,180 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 939,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2026-02-10T16:54:14.000Z",
+  "display_text_range": [
+    0,
+    279
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/yPpf2bo4wl",
+        "expanded_url": "https://x.com/polynoamial/status/2021266471406666231/photo/1",
+        "indices": [
+          280,
+          303
+        ],
+        "url": "https://t.co/yPpf2bo4wl"
+      }
+    ],
+    "user_mentions": [
+      {
+        "id_str": "1819261",
+        "indices": [
+          13,
+          23
+        ],
+        "name": "Paul Jankura",
+        "screen_name": "Anthropic"
+      }
+    ]
+  },
+  "id_str": "2021266471406666231",
+  "text": "I appreciate @Anthropic's honesty in their latest system card, but the content of it does not give me confidence that the company will act responsibly with deployment of advanced AI models:\n\n-They primarily relied on an internal survey to determine whether Opus 4.6 crossed their https://t.co/yPpf2bo4wl",
+  "user": {
+    "id_str": "825088493764407298",
+    "name": "Noam Brown",
+    "screen_name": "polynoamial",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1872883170292457472/8ywVGO5M_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2021266471406666231"
+    ],
+    "editable_until_msecs": "1770746054000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/yPpf2bo4wl",
+      "expanded_url": "https://x.com/polynoamial/status/2021266471406666231/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        280,
+        303
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/HAz6KYLaAAIsdQj.jpg",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 874,
+            "w": 1561,
+            "x": 542,
+            "y": 0
+          },
+          {
+            "h": 874,
+            "w": 874,
+            "x": 885,
+            "y": 0
+          },
+          {
+            "h": 874,
+            "w": 767,
+            "x": 939,
+            "y": 0
+          },
+          {
+            "h": 874,
+            "w": 437,
+            "x": 1104,
+            "y": 0
+          },
+          {
+            "h": 874,
+            "w": 2528,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 874,
+        "width": 2528
+      },
+      "sizes": {
+        "large": {
+          "h": 708,
+          "resize": "fit",
+          "w": 2048
+        },
+        "medium": {
+          "h": 415,
+          "resize": "fit",
+          "w": 1200
+        },
+        "small": {
+          "h": 235,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/yPpf2bo4wl"
+    }
+  ],
+  "photos": [
+    {
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 874,
+          "w": 1561,
+          "x": 542,
+          "y": 0
+        },
+        {
+          "h": 874,
+          "w": 874,
+          "x": 885,
+          "y": 0
+        },
+        {
+          "h": 874,
+          "w": 767,
+          "x": 939,
+          "y": 0
+        },
+        {
+          "h": 874,
+          "w": 437,
+          "x": 1104,
+          "y": 0
+        },
+        {
+          "h": 874,
+          "w": 2528,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/polynoamial/status/2021266471406666231/photo/1",
+      "url": "https://pbs.twimg.com/media/HAz6KYLaAAIsdQj.jpg",
+      "width": 2528,
+      "height": 874
+    }
+  ],
+  "conversation_count": 55,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDIxMjY2NDcxMjM4OTIyMjQw"
+  }
+}

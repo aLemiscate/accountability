@@ -1,0 +1,70 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 19832,
+  "lang": "en",
+  "created_at": "2026-08-21T11:43:19.000Z",
+  "display_text_range": [
+    0,
+    279
+  ],
+  "entities": {},
+  "id_str": "2090766694897619318",
+  "text": "It's me again. I come bearing great news. \n\nFirst of all, we have hit 20M active users for Codex some time this week. Second of all, this is cause for celebration and during the day we will credit every Codex and ChatGPT Work user with a BANKED reset that you can use at your own",
+  "user": {
+    "id_str": "1953337039510003712",
+    "name": "Tibo",
+    "screen_name": "thsottiaux",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2090766694897619318"
+    ],
+    "editable_until_msecs": "1787316199000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 2591,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 7082,
+    "lang": "en",
+    "reply_count": 3080,
+    "retweet_count": 229,
+    "created_at": "2026-08-21T05:39:04.000Z",
+    "display_text_range": [
+      0,
+      276
+    ],
+    "entities": {},
+    "id_str": "2090675027670978569",
+    "text": "We've investigated a few messages about codex usage limits being different. That's not something we change without engaging the community and being transparent.\n\nWhat we did see is that when talking to affected users many were using sub2api. Converting a subscription into api",
+    "user": {
+      "id_str": "1953337039510003712",
+      "name": "Tibo",
+      "screen_name": "thsottiaux",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2090675027670978569"
+      ],
+      "editable_until_msecs": "1787294344000",
+      "edits_remaining": "5",
+      "is_edit_eligible": true
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDkwNzY2Njk0ODA1MzQwMTYw"
+  }
+}

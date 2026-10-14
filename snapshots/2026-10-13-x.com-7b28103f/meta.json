@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/thsottiaux/status/2092058556707344708",
+  "captured_at": "2026-10-13T15:11:16.606Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "a6d97190feaaf0bb3b7f152064630f7cf50d4a4fc8e7cae4ef2967d79fe610aa",
+    "page.txt": "f6b61f6748cdc03663d154cca45f0a380a375493bb07ed4de451624e63be0d96",
+    "post.json": "cff863e43c6ac429cc3bb4d982235d435e4033f7cc5abc2329713bdedd5ced7a",
+    "syndication.json": "89b0190d261ec371673d8916bc2056f3282abaead96095bc6ac69404f6dc007d",
+    "fulltext.json": "52624cbdd41b12ee4dbbd298d360c2086836a50c1fe7dca4e1faa363eaeab92e",
+    "post.txt": "363978e978231e31230fe098dbdc2eef09498d8fdcec562593f177235e4bb0a3"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/thsottiaux/status/2092058556707344708",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Tibo on X: \"Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it. This is necessary as (a) the 5h limit allows us to smoothen the load on our compute, allowing to keep the plan generous in terms of weekly… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Tibo (@thsottiaux)",
+    "date": "August 25, 2026",
+    "posted_at": "2026-08-25T01:16:43.144Z",
+    "full_text_from": "api.fxtwitter.com"
+  }
+}

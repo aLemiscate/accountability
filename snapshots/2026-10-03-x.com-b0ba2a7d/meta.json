@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/bcherny/status/2039207155069505693",
+  "captured_at": "2026-10-03T12:33:31.158Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "33b37bdca2f961b5727b9ea7a63d52a0cb9b9b5dea6f4399e44e1ea4c2fd08d7",
+    "page.txt": "4b82960c697064ba4cd20ea7a606efc0f4521044c5f3af10560e5c11cd249955",
+    "post.json": "4c32b4bba32ba5feb0323a1b29d8572d583f4f4f105e997e32003bc25568c599",
+    "syndication.json": "e4ac49f0122be48cbc5cc38817f0eea857f1ad0f3a7757544b7f12a0b6a1c8eb",
+    "post.txt": "0793e8fa86393610b41f0cb8e70c61b041bf406082994812ab39494fea28cd1a"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/bcherny/status/2039207155069505693",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Boris Cherny on X: \"👋 it was human error. Our deploy process has a few manual steps, and we didn’t do one of the steps correctly. We have landed a few improvements and are digging in to add more sanity checks. Like with any other incident, the counter-intuitive answer is to solve the problem by f… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Boris Cherny (@bcherny)",
+    "date": "April 1, 2026",
+    "posted_at": "2026-04-01T05:04:07.062Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260417031141/https://x.com/bcherny/status/2039207155069505693",
+    "timestamp": "20260417031141",
+    "method": "existing"
+  }
+}

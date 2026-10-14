@@ -1,0 +1,86 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 399,
+  "lang": "en",
+  "created_at": "2025-08-07T22:56:03.000Z",
+  "display_text_range": [
+    0,
+    274
+  ],
+  "entities": {},
+  "id_str": "1953590991870697896",
+  "text": "Lots of excitement about GPT-5 in Codex CLI via your ChatGPT plan. Some details:\n\n1. Yes, if you sign in with ChatGPT, usage is included via your paid plan!\n\n2. Still determining exact rate limits, but the goal is to be generous:\n-- Pro users should basically not hit limits",
+  "user": {
+    "id_str": "413490474",
+    "name": "Alexander Embiricos",
+    "screen_name": "embirico",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1649509163712561153/mTxQ1REO_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1953590991870697896"
+    ],
+    "editable_until_msecs": "1754610963000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 77,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 232,
+    "in_reply_to_screen_name": "OpenAIDevs",
+    "in_reply_to_status_id_str": "1953559797883891735",
+    "in_reply_to_user_id_str": "1633874951508721686",
+    "lang": "en",
+    "reply_count": 21,
+    "retweet_count": 22,
+    "created_at": "2025-08-07T20:52:06.000Z",
+    "display_text_range": [
+      0,
+      267
+    ],
+    "entities": {},
+    "id_str": "1953559799909822562",
+    "text": "Pro, Plus, and Team users can sign in with ChatGPT to start coding with GPT-5, with access for Enterprise coming soon.\n\nUsage is included in your plan, with rate limits that vary by plan. We’ll share more details as we learn from usage patterns over the coming weeks.",
+    "user": {
+      "id_str": "1633874951508721686",
+      "name": "OpenAI Developers",
+      "screen_name": "OpenAIDevs",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2022002720971096064/l3Kyt4qt_normal.jpg",
+      "highlighted_label": {
+        "badge": {
+          "url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_bigger.jpg"
+        },
+        "description": "OpenAI",
+        "url": {
+          "url": "https://twitter.com/OpenAI",
+          "url_type": "DeepLink"
+        },
+        "user_label_display_type": "Badge",
+        "user_label_type": "BusinessLabel"
+      }
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1953559799909822562"
+      ],
+      "editable_until_msecs": "1754603526000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoxOTUzNTkwOTkxNzU3Mzk4MDE2"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/alexalbert__/status/2054613082589298899",
+  "captured_at": "2026-10-03T12:37:58.614Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "78f532307038c8b64396d8dc47fc8036629b8a6adacb4112531738b4997b9104",
+    "page.txt": "832e35785fcaba09ddabde49ff32c8ae74e51e978d7b9fcb40789c7d7d98e78e",
+    "post.json": "c6d90bd69012dad15065d56d20b3c4aedd29930f29f0e3ff0c5d18af87ccebaa",
+    "syndication.json": "c3556a5a8cc5d2dee4ddc6ea3fdff3148fa50aaa25a80d34bbb34cc4775a21da",
+    "post.txt": "e011a9a1e6a304a51c4f0c8c5f52173da9da4e4a34ed90d346bc49bca37e239a"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/alexalbert__/status/2054613082589298899",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Alex Albert on X: \"Starting June 15, paid Claude plans include a monthly Claude Agent SDK credit. It covers usage on your own scripts and agents, claude -p, and third-party apps built on the SDK (OpenClaw, Conductor, etc) and it's separate from your regular usage limits.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Alex Albert (@alexalbert__)",
+    "date": "May 13, 2026",
+    "posted_at": "2026-05-13T17:21:46.411Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260514014157/https://x.com/alexalbert__/status/2054613082589298899",
+    "timestamp": "20260514014157",
+    "method": "existing"
+  }
+}

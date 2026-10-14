@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/OpenAI/status/2052845770056073216",
+  "captured_at": "2026-10-13T15:09:40.181Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "c20ccee68aa2d50734d7400f16b56d245de442c55f5d053f8e20cc92348cd85b",
+    "page.txt": "44c3e58dde6a41c9e31e1c4c77c1f3bf0eae5654e3aafa13fc21087d63681359",
+    "post.json": "c5e5236e5d2ea4199163a35cff996c29751541a0a0e8abb865c85414bf8afee9",
+    "syndication.json": "b9c100fadf7d9bfd6ec929128423521f29cf2c4d0df8f7abb273a45c0bdefd9d",
+    "fulltext.json": "d8e06c77471bfe59f4b05cb3a6841d270cb25cca7be6bdcbcf9507631213286a",
+    "post.txt": "3d94e1a97065214b906904a86642479aaa6ea31a14e6ff7554918879970d37ef"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/2052845770056073216",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"Training models involves many technical and social processes, so prevention of CoT grading has to be built into the process. We’re improving real-time CoT-grading detection, safeguards against accidental CoT grading, monitorability stress tests, and the internal guidance/checks that… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "May 8, 2026",
+    "posted_at": "2026-05-08T20:19:06.268Z",
+    "full_text_from": "api.fxtwitter.com"
+  }
+}

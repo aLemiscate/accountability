@@ -1,0 +1,202 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 2121,
+  "lang": "en",
+  "created_at": "2025-02-13T20:51:52.000Z",
+  "display_text_range": [
+    0,
+    280
+  ],
+  "entities": {},
+  "id_str": "1890141865955278916",
+  "text": "Results of our jailbreaking challenge:\n\nAfter 5 days, &gt;300,000 messages, and est. 3,700 collective hours our system got broken. In the end 4 users passed all levels, 1 found a universal jailbreak. We’re paying $55k in total to the winners.\n\nThanks to everyone who participated!",
+  "user": {
+    "id_str": "710610891058716673",
+    "name": "Jan Leike",
+    "screen_name": "janleike",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1077523091700502528/2YCa_F4o_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1890141865955278916"
+    ],
+    "editable_until_msecs": "1739483512000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 100,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 2253,
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 318,
+    "retweet_count": 277,
+    "created_at": "2025-02-03T16:31:36.000Z",
+    "display_text_range": [
+      0,
+      181
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/PtXaK3G1OA",
+          "expanded_url": "https://x.com/AnthropicAI/status/1886452489681023333/photo/1",
+          "indices": [
+            182,
+            205
+          ],
+          "url": "https://t.co/PtXaK3G1OA"
+        }
+      ]
+    },
+    "id_str": "1886452489681023333",
+    "text": "New Anthropic research: Constitutional Classifiers to defend against universal jailbreaks.\n\nWe’re releasing a paper along with a demo where we challenge you to jailbreak the system. https://t.co/PtXaK3G1OA",
+    "user": {
+      "id_str": "1353836358901501952",
+      "name": "Anthropic",
+      "screen_name": "AnthropicAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1886452489681023333"
+      ],
+      "editable_until_msecs": "1738603896000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "mediaDetails": [
+      {
+        "display_url": "pic.x.com/PtXaK3G1OA",
+        "expanded_url": "https://x.com/AnthropicAI/status/1886452489681023333/photo/1",
+        "ext_alt_text": "Title card for the paper entitled \"Constitutional Classifiers: Defending Against Universal Jailbreaks Across Thousands of Hours of Red Teaming\"",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          182,
+          205
+        ],
+        "media_url_https": "https://pbs.twimg.com/media/Gi4CWjyXkAAFI7N.jpg",
+        "original_info": {
+          "focus_rects": [
+            {
+              "h": 1008,
+              "w": 1800,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 1013,
+              "w": 1013,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 1013,
+              "w": 889,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 1013,
+              "w": 507,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 1013,
+              "w": 1800,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "height": 1013,
+          "width": 1800
+        },
+        "sizes": {
+          "large": {
+            "h": 1013,
+            "resize": "fit",
+            "w": 1800
+          },
+          "medium": {
+            "h": 675,
+            "resize": "fit",
+            "w": 1200
+          },
+          "small": {
+            "h": 383,
+            "resize": "fit",
+            "w": 680
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "photo",
+        "url": "https://t.co/PtXaK3G1OA"
+      }
+    ],
+    "photos": [
+      {
+        "accessibilityLabel": "Title card for the paper entitled \"Constitutional Classifiers: Defending Against Universal Jailbreaks Across Thousands of Hours of Red Teaming\"",
+        "backgroundColor": {
+          "red": 204,
+          "green": 214,
+          "blue": 221
+        },
+        "cropCandidates": [
+          {
+            "h": 1008,
+            "w": 1800,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1013,
+            "w": 1013,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1013,
+            "w": 889,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1013,
+            "w": 507,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "h": 1013,
+            "w": 1800,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "expandedUrl": "https://x.com/AnthropicAI/status/1886452489681023333/photo/1",
+        "url": "https://pbs.twimg.com/media/Gi4CWjyXkAAFI7N.jpg",
+        "width": 1800,
+        "height": 1013
+      }
+    ],
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

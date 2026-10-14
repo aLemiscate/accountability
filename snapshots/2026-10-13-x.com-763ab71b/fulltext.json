@@ -1,0 +1,64 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/sama/status/2027903064347447625",
+    "id": "2027903064347447625",
+    "text": "Thinking through non-domestic surveillance. I have accepted that the US military is going to do some amount of surveillance on foreigners, and I know foreign governments try to do it to us, but I still don't like it.\n\nI think it is very important that society thinks through the consequences of this; perhaps the single principle I care most about for AI is that it is democratized, and I can see surveillance making that worse.\n\nOn the other hand, I also respect the democratic process. I don't think this is up to me to decide.",
+    "raw_text": {
+      "text": "Thinking through non-domestic surveillance. I have accepted that the US military is going to do some amount of surveillance on foreigners, and I know foreign governments try to do it to us, but I still don't like it.\n\nI think it is very important that society thinks through the consequences of this; perhaps the single principle I care most about for AI is that it is democratized, and I can see surveillance making that worse.\n\nOn the other hand, I also respect the democratic process. I don't think this is up to me to decide.",
+      "display_text_range": [
+        0,
+        529
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "sama",
+      "url": "https://x.com/sama",
+      "id": "1605",
+      "followers": 6374591,
+      "following": 1034,
+      "likes": 1016,
+      "media_count": 394,
+      "name": "Sam Altman",
+      "description": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+      "raw_description": {
+        "text": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+        "facets": []
+      },
+      "location": "SF",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_200x200.jpg",
+      "joined": "Sun Jul 16 22:01:55 +0000 2006",
+      "protected": false,
+      "website": {
+        "url": "http://blog.samaltman.com",
+        "display_url": "blog.samaltman.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 50,
+    "retweets": 28,
+    "likes": 403,
+    "bookmarks": 81,
+    "quotes": 37,
+    "created_at": "Sun Mar 01 00:25:41 +0000 2026",
+    "created_timestamp": 1772324741,
+    "views": 100635,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": "nicdunz",
+    "replying_to_status": "2027901173655613552",
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

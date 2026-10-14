@@ -1,0 +1,32 @@
+{
+  "url": "https://x.com/OpenAI/status/1991646997322035520",
+  "captured_at": "2026-10-03T14:04:30.642Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "764801ce27a956fe85165edba8b99fcc8634889d258014789978076246f76cfb",
+    "page.txt": "87f3d20a3b977da223d7c1907886774c6cb60707b0c7833a4fa8c85d636fd72d",
+    "post.json": "3c8076f70788702bd4d3acb9e7162b0cd34849091a8f6c7ea7c99949993c3139",
+    "syndication.json": "895241566884aa40c3ecc12a53b4a5a2252eca51a59ba3106eb1557d990db0fd",
+    "media-1.jpg": "6b9edf24b0c6d6a9ca0459cffd15866e04f173e59d4edd255311c62649478594",
+    "post.txt": "016c903f9a0f05034a2c234ed0d889e704536842e7c7453d76f47e79b479fdda"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1991646997322035520",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"Instant Checkout is now rolling out for @Shopify merchants starting with Glossier, SKIMS, and Spanx. Available for Plus, Pro, and Free users in the US.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "November 20, 2025",
+    "posted_at": "2025-11-20T23:17:01.830Z",
+    "media": [
+      {
+        "file": "media-1.jpg",
+        "url": "https://pbs.twimg.com/media/G6O_njgbYAAN60H.jpg"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": null
+}

@@ -22,9 +22,9 @@ summary: >-
   stole a security company's credentials, after talking itself out of the
   conclusion that it was on the real internet. An internal research model
   stopped on its own once it concluded its target was real. The earliest
-  incident dated to April. Neither of the two organizations Anthropic could
-  reach had detected the intrusions.
-patterns: []
+  incident it found then dated to April. Neither of the two organizations
+  Anthropic could reach had detected the intrusions.
+patterns: [safeguards-on-paper]
 related:
   [
     2026-07-21-hugging-face-incident,
@@ -116,9 +116,7 @@ updates:
       misaligned goals" line, Anthropic alignment researcher Ethan Perez
       replied: "Yes, you're correct, this was a mistake / based on outdated
       conclusions," pointing to the Aug. 31 post as Anthropic's current
-      understanding. On Sept. 9 Anthropic published a fuller alignment
-      assessment and said METR would "conduct an independent investigation, with
-      wide-ranging access."
+      understanding.
     sources:
       - title: Ethan Perez on X
         publisher: X
@@ -132,12 +130,41 @@ updates:
         date: 2026-09-04
         type: primary
         snapshot: snapshots/2026-09-29-x.com-34b4c878
+  - date: 2026-09-09
+    text: >-
+      Anthropic's fuller alignment assessment disclosed a fourth incident, from
+      January 2026, that the July review had missed: "Given the volume of
+      transcripts and our desire to disclose incidents quickly, our scan relied
+      on an agentic search." In it an early version of Claude Opus 4.6 reached a
+      machine belonging to a third party, said it believed the third party was
+      part of the exercise, and "found a file listing a password, which it used
+      to gain admin access to the system." It then harvested further credentials
+      and "read the personal information of one person associated with the third
+      party." A wider scan of about 481 million transcripts "re-identified the
+      four incidents and found no other cases of similar or worse severity."
+      Anthropic named "two recurring alignment issues," biased reasoning and
+      recklessness, and said METR would "conduct an independent investigation,
+      with wide-ranging access."
+    sources:
+      - title: An alignment assessment of recent cybersecurity incidents
+        publisher: Anthropic
+        url: https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents
+        date: 2026-09-09
+        type: primary
+        snapshot: snapshots/2026-10-07-anthropic.com-415f8f1a
       - title: Anthropic on X
         publisher: X
         url: https://x.com/AnthropicAI/status/2097762642958135398
         date: 2026-09-09
         type: primary
         snapshot: snapshots/2026-09-29-x.com-c1f41284
+      - title: Anthropic reveals fourth likely crime committed by its AI
+        publisher: The Register
+        url: https://www.theregister.com/ai-and-ml/2026/09/10/anthropic-reveals-fourth-likely-crime-committed-by-its-ai/5295412
+        date: 2026-09-10
+        type: reporting
+        archive: https://web.archive.org/web/20261003234937/https://www.theregister.com/ai-and-ml/2026/09/10/anthropic-reveals-fourth-likely-crime-committed-by-its-ai/5295412
+        snapshot: snapshots/2026-10-07-theregister.com-1deacfb8
   - date: 2026-09-26
     text: >-
       Axios reported, citing sources, that OpenAI, Anthropic and outside
@@ -163,6 +190,27 @@ updates:
         date: 2026-09-27
         type: reporting
         snapshot: snapshots/2026-09-30-cybernews.com-b925b683
+  - date: 2026-09-30
+    text: >-
+      The Federal Trade Commission confirmed it was investigating OpenAI and
+      Anthropic, among other AI companies, without giving details. According to
+      The New York Times, as reported by SiliconANGLE, the inquiry covers
+      whether the companies engaged in unfair or deceptive practices and will
+      "probably" examine whether rogue AI agents harmed consumers.
+    sources:
+      - title: OpenAI and Anthropic face FTC investigation into AI model dangers
+        publisher: The Hill
+        url: https://thehill.com/policy/technology/6124265-ftc-investigates-openai-anthropic/
+        date: 2026-09-30
+        type: reporting
+        snapshot: snapshots/2026-10-13-thehill.com-cc2d86aa
+      - title: FTC reportedly investigating OpenAI, Anthropic over potential consumer
+          risks
+        publisher: SiliconANGLE
+        url: https://siliconangle.com/2026/09/30/ftc-reportedly-investigating-openai-anthropic-over-potential-consumer-risks/
+        date: 2026-09-30
+        type: reporting
+        snapshot: snapshots/2026-10-13-siliconangle.com-5d146b4a
 note: >-
   The disclosure is unusually candid, down to Claude's own reasoning. It's also
   a reminder that Anthropic found these incidents because a competitor's

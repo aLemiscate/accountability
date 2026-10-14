@@ -1,0 +1,21 @@
+{
+  "url": "https://openai.com/enterprise-privacy/",
+  "captured_at": "2026-10-13T06:49:52.897Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "bc5a393fcd57976b781a346504ce463d3152847ddbb2e9a827f0fd2bd7e8afe9",
+    "page.txt": "77dedcec00aebe088641a900f2d47d8f54042e92a89aa676e927b9255e05c64e",
+    "screenshot.jpg": "68e6519e75aafa5deb68dafd9dd24e390624b01ab8a51ac0d29cd8533ca6e10a",
+    "rendered.txt": "0236389d70d913e4bbfc6d145d35bdcfe95077f9987fce74bd71598768190d20"
+  },
+  "http_status": 200,
+  "final_url": "https://openai.com/enterprise-privacy/",
+  "content_type": "text/html; charset=utf-8",
+  "title": "Enterprise privacy at OpenAI | OpenAI",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20261002004812/https://openai.com/enterprise-privacy/",
+    "timestamp": "20261002004812",
+    "method": "existing"
+  }
+}

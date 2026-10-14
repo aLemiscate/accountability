@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/AnthropicAI/status/1886452500108091586",
+  "captured_at": "2026-10-03T12:10:05.296Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "23510afcf2228353846ad0cbc21dd1da74e746225dfbb6c15f93fbe17f8538d9",
+    "page.txt": "d823a5c5ae9db81154c76d0e5456114d34f08c0099631e14952a9222cf97880f",
+    "post.json": "01c7bd9b1af8ece210e4aac1479c0da5d459bb509d99e712f75d07bd3d7d1863",
+    "syndication.json": "b36ab312285192f634e00cc5ba54de70bc9763a0fb33909f7cee6544cead5aef",
+    "post.txt": "e63a69abc6305d22bc7155c7c2a091a40e2509ed1893b943dbd4de1034371025"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/AnthropicAI/status/1886452500108091586",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Anthropic on X: \"We challenged jailbreakers to try to break a prototype version of the system to test its robustness. After thousands of hours of red teaming, not one participant found a reliable jailbreak that extracted detailed information across a set of 10 harmful questions.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Anthropic (@AnthropicAI)",
+    "date": "February 3, 2025",
+    "posted_at": "2025-02-03T16:31:39.275Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20250214121615/https://x.com/anthropicai/status/1886452500108091586",
+    "timestamp": "20250214121615",
+    "method": "existing"
+  }
+}

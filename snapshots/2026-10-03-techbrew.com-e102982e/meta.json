@@ -1,0 +1,21 @@
+{
+  "url": "https://www.techbrew.com/stories/openai-sam-altman-memos-newyorker",
+  "captured_at": "2026-10-03T13:35:22.813Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "1c597a221bc1c038579fb51994af717abf98b4371030aa2a2073e1743a0069d0",
+    "page.txt": "dc92484f77d395fc3e0d68af40f108ff575c3ac58952908658de4e0ab5065fdd",
+    "screenshot.jpg": "512ce536a06b77fa3cf0ba223cad4967f04fdccca92677b79f4853c43ef76891",
+    "rendered.txt": "2b2316b01c916ae141ebabedd9c397c1a0b3c82aac52195a5494a12e5896032a"
+  },
+  "http_status": 200,
+  "final_url": "https://www.techbrew.com/stories/openai-sam-altman-memos-newyorker",
+  "content_type": "text/html; charset=utf-8",
+  "title": "Inside the memos behind OpenAI's safety retreat",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20260616055054/https://www.techbrew.com/stories/openai-sam-altman-memos-newyorker",
+    "timestamp": "20260616055054",
+    "method": "existing"
+  }
+}

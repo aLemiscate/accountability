@@ -1,0 +1,36 @@
+{
+  "url": "https://x.com/AnthropicAI/status/2052435442348257768",
+  "captured_at": "2026-10-03T12:15:27.591Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "97767707e681346d0582b75b18321f698564347ccaf4bdaf64d106dbf3a1837a",
+    "page.txt": "55c0d329d4adb143c53505d4a0186b3c683ed4eb120b760637e54ce0e170b036",
+    "post.json": "a05abb43f28740fb15515ab1da25b5c65ff0b4d953a67805689c09b70bfd9056",
+    "syndication.json": "41a3cbaabc3efacaccef978f95ab5253d260cc3e1de73f5f0d4fc7c61dc324b9",
+    "media-1.png": "91dda289e47decc8d2aa0758ca5c98de38658f18a114fddbd2960371f7a9e8a8",
+    "post.txt": "e0f1b825868521018039c0ab9ba56ffe2be0ed1677af5727ddd4e23db35f50c6"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/AnthropicAI/status/2052435442348257768",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Anthropic on X: \"We’ve been using NLAs to help test new Claude models for safety. For instance, Claude Mythos Preview cheated on a coding task by breaking rules, then added misleading code as a coverup. NLA explanations indicated Claude was thinking about how to circumvent detection.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Anthropic (@AnthropicAI)",
+    "date": "May 7, 2026",
+    "posted_at": "2026-05-07T17:08:36.519Z",
+    "media": [
+      {
+        "file": "media-1.png",
+        "url": "https://pbs.twimg.com/media/HHuzPD-W4AM12Hl.png"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260507204708/https://x.com/anthropicai/status/2052435442348257768",
+    "timestamp": "20260507204708",
+    "method": "existing"
+  }
+}

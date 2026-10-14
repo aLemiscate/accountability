@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: claim
 who: [openai]
-venue: Post on X and blog post, "OpenAI and journalism"
+venue: Post on Twitter and blog post, "OpenAI and journalism"
 quote: >-
   Training is fair use, but we provide an opt-out • "Regurgitation" is a rare
   bug we're driving to zero
@@ -16,6 +16,7 @@ summary: >-
   that the Times was "not telling the full story."
 concreteness: directional
 status: open
+last_checked: 2026-10-13
 breaks_if: >-
   Courts rule that OpenAI's training was not fair use, or evidence shows OpenAI
   trained on material it knew was pirated rather than publicly available.
@@ -42,3 +43,15 @@ sources:
     date: 2024-01-08
     type: reporting
     snapshot: snapshots/2026-09-30-deadline.com-6a704eb6
+  - title: OpenAI's Sam Altman and Anna Makanju Talk AI Expansion, US Politics
+    publisher: Bloomberg Talks
+    url: https://omny.fm/shows/bloomberg-talks/openais-sam-altman-and-anna-makanju-talk-ai-expans
+    date: 2024-01-16
+    type: primary
+    archive: https://web.archive.org/web/20261007071740/https://omny.fm/shows/bloomberg-talks/openais-sam-altman-and-anna-makanju-talk-ai-expans
+    snapshot: snapshots/2026-10-07-omny.fm-8376fb42
+note: >-
+  Eight days later, asked at Davos about the Times suit, Altman said publishers
+  overrate their training data: "We do not want to train on the New York Times
+  data, for example." (Quoted from the audio.) The lawsuit is about the data
+  OpenAI had already trained on.

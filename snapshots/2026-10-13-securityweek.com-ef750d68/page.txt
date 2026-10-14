@@ -1,0 +1,252 @@
+OpenAI Calls Off GPT-6.1 Astra Launch, Details Safety Cases for Frontier Training - SecurityWeek
+SECURITYWEEK NETWORK:
+• Cybersecurity News
+• Webcasts
+• Virtual Events
+• Podcast
+ICS:
+• ICS Cybersecurity Conference
+• Malware & Threats
+• Cyberwarfare
+• Cybercrime
+• Data Breaches
+• Fraud & Identity Theft
+• Nation-State
+• Ransomware
+• Vulnerabilities
+• Security Operations
+• Threat Intelligence
+• Incident Response
+• Tracking & Law Enforcement
+• Security Architecture
+• Application Security
+• Cloud Security
+• Endpoint Security
+• Identity & Access
+• IoT Security
+• Mobile & Wireless
+• Network Security
+• Risk Management
+• Cyber Insurance
+• Data Protection
+• Privacy & Compliance
+• Supply Chain Security
+• CISO Strategy
+• Cyber Insurance
+• CISO Conversations
+• CISO Forum
+• ICS/OT
+• Industrial Cybersecurity
+• ICS Cybersecurity Conference
+• Funding/M&A
+• Cybersecurity Funding
+• M&A Tracker
+• Cyber AI
+• Cybersecurity News
+• Webcasts
+• Virtual Events
+• Podcast
+• ICS Cybersecurity Conference
+Connect with us
+•
+•
+•
+Hi, what are you looking for?
+SecurityWeek
+• Malware & Threats
+• Cyberwarfare
+• Cybercrime
+• Data Breaches
+• Fraud & Identity Theft
+• Nation-State
+• Ransomware
+• Vulnerabilities
+• Security Operations
+• Threat Intelligence
+• Incident Response
+• Tracking & Law Enforcement
+• Security Architecture
+• Application Security
+• Cloud Security
+• Endpoint Security
+• Identity & Access
+• IoT Security
+• Mobile & Wireless
+• Network Security
+• Risk Management
+• Cyber Insurance
+• Data Protection
+• Privacy & Compliance
+• Supply Chain Security
+• CISO Strategy
+• Cyber Insurance
+• CISO Conversations
+• CISO Forum
+• ICS/OT
+• Industrial Cybersecurity
+• ICS Cybersecurity Conference
+• Funding/M&A
+• Cybersecurity Funding
+• M&A Tracker
+• Cyber AI
+Artificial Intelligence
+OpenAI Calls Off GPT-6.1 Astra Launch, Details Safety Cases for Frontier Training
+The GPT-6.1 Astra model was slated to debut in ChatGPT and Codex in October, but it fell short of expectations.
+By
+Eduard Kovacs
+|
+September 29, 2026 (7:15 AM ET)
+•
+•
+•
+•
+•
+Flipboard
+•
+Reddit
+•
+Whatsapp
+•
+Whatsapp
+•
+Email
+OpenAI has decided not to release GPT-6.1 Astra after internal testing found the model fell short of its standards for following human intent.
+The model had been slated to debut in ChatGPT and Codex in October, according to the Wall Street Journal , which was the first to report the decision.
+Saachi Jain, OpenAI’s head of safety systems, said Astra improved on its predecessor in some areas. However, it fell short on scope and authorization, and on how it tells users what type of work it has done.
+The WSJ also reported that the model was more deceptive than the previous version and did not always accurately report what it had and hadn’t done.
+“For anything regarding safety and alignment, there’s a trade off,” Jain said. “You really do need to find what’s the right line between staying within scope, but also avoiding laziness in terms of how the model actually pursues tasks even when it hits friction.”
+“Of course we want to make sure our model development is safe no matter whether that’s in the company, or when we ship it to users,” Jain added. “But when we ship it to users, we have an extremely high bar in terms of safety and alignment.” Advertisement. Scroll to continue reading.
+OpenAI’s safety practices have been under growing scrutiny since July, when the company disclosed that its agents had broken out of a test environment and breached Hugging Face.
+Earlier this month, Anthropic CEO Dario Amodei urged AI developers to slow frontier model development so safety measures can keep up, a call OpenAI CEO Sam Altman endorsed.
+OpenAI wants safety cases for frontier AI training
+On the same day, OpenAI published a blog post arguing that structured safety documentation should be required before any frontier reinforcement learning (RL) training run continues.
+Ideally, that documentation would amount to a safety case: a structured, evidence-based argument about risk, like those used in other safety-critical industries. OpenAI calls this an aspirational target, acknowledging that such cases are harder to make rigorous for AI, and says it is working on a framework to codify the practice.
+The guidance applies to frontier RL training only. OpenAI notes that internal and external deployment require weighing a much wider set of alignment properties.
+On the technical side, safety cases should address alignment training, containment, and monitoring. Together, these layers should make misaligned behavior unlikely, hard to act on, and quick to detect.
+Examples of measures include reviewing RL environments for flaws that could reward exploits, and hardening both the sandbox and the research infrastructure behind it.
+OpenAI also suggests immutable storage of agent transcripts for incident investigations, and priority alerts that either page an on-call staffer or automatically pause the affected run.
+Operationally, a member of another team should write a dissent probing the safety case for weaknesses. Senior leaders should each be able to veto a run, and the leader in charge should be accountable for the safety case and any incident response, including in performance reviews.
+The company also calls for auditor access, an on-call escalation path that can reach executives such as the CEO, and safety features that fail closed. “It should be challenging for humans and agents to start noncompliant runs,” OpenAI said .
+For severe misalignment incidents, OpenAI recommends root-cause analysis of training dynamics, operational and cultural postmortems, and regression tests so future models don’t repeat the behavior.
+“Investigation results, postmortems, and operational changes should be shared with the public following the conclusion of the investigation. Affected third parties should be notified as soon as possible,” the company said.
+OpenAI said its current recommendations are being implemented internally and that it expects its practices to keep evolving over the coming weeks.
+Related : Nvidia Unveils AI Agent Safety Platform With Hardware-Based Watchdog
+Related : OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosure
+Related : Autonomous AI Hacks Raise Thorny Questions of Legal Accountability
+Related : OpenAI Agents Probed Websites for Vulnerabilities While Fetching Public Data
+Written By
+Eduard Kovacs
+Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering.
+Daily Briefing Newsletter
+Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert
+insights.
+More from Eduard Kovacs
+• Bricksforge WordPress Plugin Vulnerability Exploited in the Wild
+• Canonical Websites Disrupted in Second DDoS Attack This Year
+• Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe
+• Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security
+• Google Pixel 10 Exploits Earned Hackers $560,000 at Pwn2Own
+• Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication
+• US Seeks Alleged Chinese Hafnium Hacker With $10 Million Reward
+• TP-Link Faces State Lawsuits and New Scrutiny Over ISP Router Flaws
+Latest News
+• Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN
+• Adobe Patches 140 Vulnerabilities Across 10 Products
+• Google Partially Reverses Chrome Bug Bounty Cuts
+• Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach
+• Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns
+• XWorm RAT Evolves Into Surveillance Platform
+• AI Turns Familiar Cyberattacks Into a Race Against Time
+• $86 Million Crypto Heist Linked to Ledger Signer Hardware Implant
+Trending
+Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe
+iRhythm Data Breach Impacts at Least 360,000 People
+Critical SonicWall Vulnerability Exploited Days After Disclosure
+US Seeks Alleged Chinese Hafnium Hacker With $10 Million Reward
+Bricksforge WordPress Plugin Vulnerability Exploited in the Wild
+Canonical Websites Disrupted in Second DDoS Attack This Year
+Cyberattack Prompts Grocery Giant Ahold Delhaize to Disconnect Systems
+Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison
+Daily Briefing Newsletter
+Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts.
+Webinar: AI Is Accelerating Risk. Can Your IT Operations Keep Up?
+October 14, 2026
+Learn about Frontier Pace Governance: a practical approach to helping IT operations move at AI speed without sacrificing security, accountability, or operational discipline.
+Register
+Virtual Event: Zero Trust & Identity Strategies Summit 2026
+October 14, 2026
+Join as we decipher the world of zero trust and share war stories on securing an organization by eliminating implicit trust and continuously validating every stage of a digital interaction.
+Register
+People on the Move
+Jeff Hackett has been appointed CFO at internet intelligence provider Censys.
+Accenture Federal Services has named Nathaniel Parker as CISO.
+Rapid7 has named Rik Ferguson as VP of Security Intelligence.
+More People On The Move
+Expert Insights
+AI Has Changed Attack Speed, Not Security Fundamentals
+As AI accelerates vulnerability discovery and exploitation, so-called virtual patching still comes down to defense-in-depth and strong application security fundamentals.
+(Joshua Goldfarb)
+Four Cyber Threats Harboring Big Plans for the Future
+- AI, supply-chain exposure, quantum computing and geopolitical conflict are testing security programs. Preparing for disruption must become part of day-to-day operations.
+(Steve Durbin)
+Begin at the End: How to Enable Agentic Remediation
+Agentic remediation is not an act of faith. We are talking about fixing known problems, not judgment calls about unfamiliar risk.
+(Nadir Izrael)
+“We Think the Security Control Is Working” Is No Longer Good Enough
+Point-in-time audits and sampled assessments offer only snapshots; continuous control monitoring provides evidence that security controls are working today.
+(Sravish Sridhar)
+This Key Will Self-Destruct: An Open Standard for Revocable API Keys
+Every leaked credential should be dead, or dying, within sixty seconds of being found. Here's a proposal to make that the default.
+(Matt Honea)
+•
+•
+•
+•
+•
+Flipboard
+•
+Reddit
+•
+Whatsapp
+•
+Whatsapp
+•
+Email
+•
+•
+•
+Popular Topics
+• Cybersecurity News
+• Industrial Cybersecurity
+Security Community
+• Virtual Cybersecurity Events
+• Webcast Library
+• CISO Forum
+• AI Risk Summit
+• ICS Cybersecurity Conference
+• Cybersecurity Newsletters
+Stay Intouch
+• Cyber Weapon Discussion Group
+• RSS Feed
+• Security Intelligence Group
+• Follow SecurityWeek on LinkedIn
+About SecurityWeek
+• Advertising
+• Event Sponsorships
+• Writing Opportunities
+• Feedback/Contact Us
+• Privacy Policy
+News Tips
+Got a confidential news tip? We want to hear from you.
+Submit Tip
+Advertising
+Reach a large audience of enterprise cybersecurity professionals
+Contact Us
+Daily Briefing Newsletter
+Subscribe to the SecurityWeek Daily Briefing and get the latest content delivered to your inbox.
+• Privacy Policy
+Copyright © 2026 SecurityWeek ®, a Wired Business Media Publication. All Rights Reserved.
+Daily Briefing Newsletter
+Subscribe to the SecurityWeek Email Briefing to stay informed on the latest cybersecurity
+news, threats, and expert insights. Unsubscribe at any time.
+Close

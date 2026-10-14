@@ -1,0 +1,132 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/thsottiaux/status/2009714843587342393",
+    "id": "2009714843587342393",
+    "text": "With the Claude Code shutdown. I am proud that we build Codex in the open with our OSS repo and we are 100% invested in supporting a flourishing ecosystem of agentic coding tools out there. \n\nYou can already build on top of https://github.com/openai/codex/tree/main/codex-rs/app-server directly, which includes ChatGPT login and same usage as you get in codex. Reach out if you are a builder!",
+    "raw_text": {
+      "text": "With the Claude Code shutdown. I am proud that we build Codex in the open with our OSS repo and we are 100% invested in supporting a flourishing ecosystem of agentic coding tools out there. \n\nYou can already build on top of https://t.co/hDjdmjH8pg directly, which includes ChatGPT login and same usage as you get in codex. Reach out if you are a builder!",
+      "display_text_range": [
+        0,
+        354
+      ],
+      "facets": [
+        {
+          "type": "url",
+          "indices": [
+            224,
+            247
+          ],
+          "original": "https://t.co/hDjdmjH8pg",
+          "replacement": "https://github.com/openai/codex/tree/main/codex-rs/app-server",
+          "display": "github.com/openai/codex/t…"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "thsottiaux",
+      "url": "https://x.com/thsottiaux",
+      "id": "1953337039510003712",
+      "followers": 854827,
+      "following": 75,
+      "likes": 10445,
+      "media_count": 150,
+      "name": "Tibo",
+      "description": "Codex & ChatGPT @OpenAI",
+      "raw_description": {
+        "text": "Codex & ChatGPT @OpenAI",
+        "facets": []
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+      "joined": "Thu Aug 07 06:07:07 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 204,
+    "retweets": 150,
+    "likes": 2495,
+    "bookmarks": 535,
+    "quotes": 88,
+    "created_at": "Fri Jan 09 19:52:12 +0000 2026",
+    "created_timestamp": 1767988332,
+    "possibly_sensitive": false,
+    "views": 754463,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "quote": {
+      "url": "https://x.com/trq212/status/2009689809875591565",
+      "id": "2009689809875591565",
+      "text": "Yesterday we tightened our safeguards against spoofing the Claude Code harness after accounts were banned for triggering abuse filters from third-party harnesses using Claude subscriptions.",
+      "raw_text": {
+        "text": "Yesterday we tightened our safeguards against spoofing the Claude Code harness after accounts were banned for triggering abuse filters from third-party harnesses using Claude subscriptions.",
+        "display_text_range": [
+          0,
+          189
+        ],
+        "facets": []
+      },
+      "author": {
+        "screen_name": "trq212",
+        "url": "https://x.com/trq212",
+        "id": "352806502",
+        "followers": 368525,
+        "following": 1942,
+        "likes": 82494,
+        "media_count": 534,
+        "name": "Thariq",
+        "description": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+        "raw_description": {
+          "text": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+          "facets": []
+        },
+        "location": "SF via Toronto",
+        "banner_url": "https://pbs.twimg.com/profile_banners/352806502/1777535100",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1976939058741039104/r3GgzqRh_200x200.jpg",
+        "joined": "Thu Aug 11 03:16:59 +0000 2011",
+        "protected": false,
+        "website": {
+          "url": "http://thariq.io",
+          "display_url": "thariq.io"
+        },
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "individual"
+        },
+        "avatar_color": null
+      },
+      "replies": 252,
+      "retweets": 64,
+      "likes": 1181,
+      "bookmarks": 454,
+      "quotes": 139,
+      "created_at": "Fri Jan 09 18:12:43 +0000 2026",
+      "created_timestamp": 1767982363,
+      "views": 884350,
+      "is_note_tweet": false,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": null,
+      "replying_to_status": null,
+      "twitter_card": "tweet",
+      "color": null,
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

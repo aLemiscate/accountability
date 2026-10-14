@@ -1,0 +1,21 @@
+{
+  "url": "https://fortune.com/2026/09/17/openai-dicloses-six-incidents-agents-going-rogue-transparency/",
+  "captured_at": "2026-10-13T06:44:12.934Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "268f3dd0a7af1446c1062b077b966bfd786dcd81f4cc5a786aab86410cc02ddb",
+    "page.txt": "200a5f36bccd8d3314bebbb737728f0de8cd7e2bec6dad51ecb0be3dc7fe3049",
+    "screenshot.jpg": "c49f71cb981212fb8b406e7bed171e939988a503ccaef4ff0427c42dd156b697",
+    "rendered.txt": "9c5b39071abb1b5a0e5be8737eff359afa228cad0b5bb5af644bfda555134d3f"
+  },
+  "http_status": 200,
+  "final_url": "https://fortune.com/2026/09/17/openai-dicloses-six-incidents-agents-going-rogue-transparency/",
+  "content_type": "text/html; charset=utf-8",
+  "title": "OpenAI discloses six more incidents of agents going rogue in new push for transparency | Fortune",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20261013064514/https://fortune.com/2026/09/17/openai-dicloses-six-incidents-agents-going-rogue-transparency/",
+    "timestamp": "20261013064514",
+    "method": "spn"
+  }
+}

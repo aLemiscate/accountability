@@ -21,11 +21,12 @@ summary: >-
   recapitalization OpenAI valued the Foundation's stake at about $130 billion.
 concreteness: measurable
 status: open
+last_checked: 2026-10-13
 breaks_if: >-
   By the end of March 2027, the Foundation's reporting or filings show less than
   $1 billion committed or invested; or the $25 billion commitment is reduced,
   or still has no time frame when the Foundation next reports.
-patterns: []
+patterns: [mission-to-market]
 related: [2025-10-28-recapitalization-pbc, 2025-10-28-foundation-controls-pbc]
 sources:
   - title: Update on the OpenAI Foundation
@@ -39,7 +40,7 @@ sources:
     url: https://x.com/btaylor/status/2036474423998554334
     date: 2026-03-24
     type: primary
-    snapshot: snapshots/2026-09-30-x.com-1b2b57f8
+    snapshot: snapshots/2026-10-13-x.com-1b2b57f8
   - title: OpenAI Foundation pledges $1 billion to mitigate some of the jobs that it
       thinks AI will destroy
     publisher: Fortune

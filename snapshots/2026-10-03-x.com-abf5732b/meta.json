@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/bcherny/status/2043163965648515234",
+  "captured_at": "2026-10-03T12:42:34.611Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "a4d2a7e25b588570f81a18c5f0efebcccc10d37c67c262720481bb21f47f6060",
+    "page.txt": "643c6c4353b2bffea6f3a25db185f2ec3459cdcd116048c477faa45bc8f7fc1e",
+    "post.json": "0bb3feb8853721b6031463f02752b5dea0823f075d6528dea632201fffb234ce",
+    "syndication.json": "6b7c366e2b61051a3e36bdba89ad60df8d0eca2a2a8ede71b44e2c55bf41e326",
+    "post.txt": "d6876c419e3e8101ead60a42c9198622b9849868ce403383689f22399dd80737"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/bcherny/status/2043163965648515234",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Boris Cherny on X: \"This is false. We defaulted to medium as a result of user feedback about Claude using too many tokens. When we made the change, we (1) included it in the changelog and (2) showed a dialog when you opened Claude Code so you could choose to opt out. Literally nothing sneaky about … / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Boris Cherny (@bcherny)",
+    "date": "April 12, 2026",
+    "posted_at": "2026-04-12T03:07:04.218Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260413200941/https://x.com/bcherny/status/2043163965648515234",
+    "timestamp": "20260413200941",
+    "method": "existing"
+  }
+}

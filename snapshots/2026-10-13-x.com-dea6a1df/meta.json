@@ -1,0 +1,24 @@
+{
+  "url": "https://x.com/AnthropicAI/status/1604930009566629888",
+  "captured_at": "2026-10-13T05:33:09.278Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "359b0ccb89c58c7818b8b378063ed3464cd645ff99d16bbd0674f9d8b7f29801",
+    "page.txt": "0d5a80a584a3ec8a366f534a7414f5eb75fed9da5f522e8297be332c75dce072",
+    "post.json": "6f3d9b36adfb323fe3d471f08faf5a83534828ec4180082a2939730314e75176",
+    "syndication.json": "1833c6aab95643cc3ccb6ec90f76ae66a90903ed200ba0527a6fb13e9dc9f5e0",
+    "post.txt": "4715c4bf1d4d1fdf1ec3ec49142db3a9881009c3352ace83ec7b4809c5e6b784"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/AnthropicAI/status/1604930009566629888",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Anthropic on X: \"As we did with our ‘red teaming’ project (https://t.co/l4rte2tAP5), we plan to release the data from this experiment in the future to empower a broader set of people to build safer systems.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Anthropic (@AnthropicAI)",
+    "date": "December 19, 2022",
+    "posted_at": "2022-12-19T20:01:47.095Z"
+  },
+  "rendered_status": 403
+}

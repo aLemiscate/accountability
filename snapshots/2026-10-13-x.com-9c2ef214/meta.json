@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/sama/status/2027922703337066787",
+  "captured_at": "2026-10-13T15:09:26.130Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "c9075ebec452073f60e15d9c422f5ccef561cfd2e3ff2349a4394c6b106620b8",
+    "page.txt": "80a2d429e2092fb49d8a704fa8a97ce86485e5f8a1a722161d8b662666a1cd2f",
+    "post.json": "c08d1ea307565185b811d94e1d489aaea69feccae8ed893265e04d5641fad592",
+    "syndication.json": "6acc7c75ef2c4d1b4be94327054b7827121216b7225debf719547928244deb93",
+    "fulltext.json": "6503acfad1eb2b590f7bbbb874a9b5056f43d506d7b79e29b69497029532ff9c",
+    "post.txt": "dd7ac57960819c05bc0a4a7d26f363b97e48766c57b377d3e3496b62d20e1fe7"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/2027922703337066787",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"We deliver a system (including choosing what models to deploy), and they can use it bound by lawful ways, including laws and directives around autonomous weapons and surveillance. But we get to decide what system to build, and the DoW understands that there are lot of risks we dee… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "March 1, 2026",
+    "posted_at": "2026-03-01T01:43:44.114Z",
+    "full_text_from": "api.fxtwitter.com"
+  }
+}

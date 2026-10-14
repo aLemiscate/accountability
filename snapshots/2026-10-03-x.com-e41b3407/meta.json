@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/OpenAI/status/1805716393524183136",
+  "captured_at": "2026-10-03T13:42:23.840Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "d2c9e884e480e27f5ccc7075ba578ecaef66bd7221b586b3487dd157b2912060",
+    "page.txt": "bf329d81e08ee6314ffc28b59a329c4a4876be910dea31ab39ec814d6b9cf2e3",
+    "post.json": "5e04445a22c7a3d5535961ff8dd5d1f7afa9564755d56a3ca04d842432f2a388",
+    "syndication.json": "0adde18a10733df1a220150db8435a64204025ab219bd16ef197a098ac736ceb",
+    "post.txt": "1e839c798c01bce2a5bec3e3646a28e023d4b1ee854897cd55ca3d0db89d31e6"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1805716393524183136",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"We're sharing an update on the advanced Voice Mode we demoed during our Spring Update, which we remain very excited about: We had planned to start rolling this out in alpha to a small group of ChatGPT Plus users in late June, but need one more month to reach our bar to launch. For ex… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "June 25, 2024",
+    "posted_at": "2024-06-25T21:35:11.461Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260924125718/https://x.com/OpenAI/status/1805716393524183136",
+    "timestamp": "20260924125718",
+    "method": "existing"
+  }
+}
