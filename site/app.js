@@ -1192,10 +1192,11 @@
   fromHash();
 })();
 
-/* The masthead's grid field: hairlines on the column grid, drawn in once on
-   load, then a few cells that light and fade, and a soft glow under the
-   pointer. Decoration only: it carries no data, sits behind the text, and
-   holds still for anyone who prefers reduced motion. */
+/* The masthead's pixel field: a fine grid of points, a few of them lit at any
+   moment. On load the pixels sweep in from the top-left; after that they
+   light and fade at random, and gather a little around a mouse pointer.
+   Decoration only: it carries no data, sits behind the text, and holds still
+   for anyone who prefers reduced motion. */
 (() => {
   'use strict';
   const host = document.querySelector('.masthead');
@@ -1207,79 +1208,88 @@
   const ctx = canvas.getContext('2d');
   if (!ctx) return;
 
-  const CELL = 48;
+  const STEP = 16;        // grid pitch
+  const PX = 4;           // a lit pixel
+  const DENSITY = 0.06;   // share of grid points lit at once
   const still = matchMedia('(prefers-reduced-motion: reduce)');
-  let w = 0, h = 0, ox = 0, cols = 0, rows = 0, ink = '#000', t0 = 0, raf = 0, visible = true;
+  let w = 0, h = 0, ox = 0, cols = 0, rows = 0, ink = '#000', t0 = 0, last = 0, raf = 0, visible = true;
   let pointer = null;
-  const lit = [];   // { c, r, born, life }
+  let lit = [];   // { i, j, born, life, peak }
 
   function measure() {
     const dpr = Math.min(window.devicePixelRatio || 1, 2);
     w = host.clientWidth; h = host.clientHeight;
     canvas.width = Math.round(w * dpr); canvas.height = Math.round(h * dpr);
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    // Put a vertical line on the content column's left edge, so the wordmark sits on the grid.
+    // Start a column on the content's left edge, so the wordmark sits on the grid.
     const wrap = host.querySelector('.wrap');
     const left = wrap ? wrap.getBoundingClientRect().left + parseFloat(getComputedStyle(wrap).paddingLeft) : 0;
-    ox = ((left % CELL) + CELL) % CELL;
-    cols = Math.ceil((w - ox) / CELL) + 1; rows = Math.ceil(h / CELL) + 1;
+    ox = ((left % STEP) + STEP) % STEP;
+    cols = Math.ceil((w - ox) / STEP); rows = Math.ceil(h / STEP);
     ink = getComputedStyle(document.documentElement).getPropertyValue('--ink').trim() || '#000';
   }
 
-  // Fades the field toward the bottom (into the page) and away from the text column.
-  const fade = (x, y) => Math.max(0, 1 - y / h) ** 1.4 * (0.35 + 0.65 * Math.min(1, x / Math.max(1, w * 0.9)));
+  // Fades the field toward the bottom (into the page) and lightens it over the text column.
+  const fade = (x, y) => Math.max(0, 1 - y / h) ** 1.3 * (0.4 + 0.6 * Math.min(1, x / Math.max(1, w * 0.85)));
+  const rand = (n) => Math.floor(Math.random() * n);
+  const spawn = (t, i = rand(cols), j = rand(rows), peak = 0.3 + Math.random() * 0.5) =>
+    lit.push({ i, j, born: t, life: 1600 + Math.random() * 2600, peak });
+
+  // The opening sweep: the first pixels arrive along a diagonal wave.
+  function seed() {
+    lit = [];
+    const n = Math.round(cols * rows * DENSITY);
+    for (let k = 0; k < n; k++) {
+      const i = rand(cols), j = rand(rows);
+      spawn((i / cols + j / rows) * 500 + Math.random() * 200, i, j);
+    }
+  }
+
+  function drawStill() {
+    // A fixed scatter, the same on every load.
+    let seedN = 7;
+    const r = () => ((seedN = (seedN * 16807) % 2147483647) / 2147483647);
+    for (let j = 0; j < rows; j++) for (let i = 0; i < cols; i++) {
+      if (r() > DENSITY) continue;
+      const x = ox + i * STEP, y = j * STEP;
+      ctx.globalAlpha = (0.2 + r() * 0.35) * fade(x, y);
+      ctx.fillRect(x - PX / 2, y - PX / 2, PX, PX);
+    }
+  }
 
   function draw(now) {
     const t = now - t0;
     ctx.clearRect(0, 0, w, h);
     ctx.fillStyle = ink;
-    // Lines draw in along a diagonal over the first 1.4s.
-    const reveal = still.matches ? Infinity : t / 1400;
-    ctx.lineWidth = 1;
-    for (let i = 0; i < cols; i++) {
-      const x = Math.round(ox + i * CELL) + 0.5;
-      const p = Math.min(1, Math.max(0, reveal * 1.6 - i / cols * 0.6));
-      if (!p) continue;
-      for (let y = 0; y < h * p; y += 8) {
-        ctx.globalAlpha = 0.11 * fade(x, y);
-        ctx.fillRect(x - 0.5, y, 1, 8);
-      }
+    // The grid itself: a faint point at every intersection.
+    for (let j = 0; j < rows; j++) for (let i = 0; i < cols; i++) {
+      const x = ox + i * STEP, y = j * STEP;
+      ctx.globalAlpha = 0.3 * fade(x, y);
+      ctx.fillRect(x - 0.5, y - 0.5, 1, 1);
     }
-    for (let j = 0; j < rows; j++) {
-      const y = Math.round(j * CELL) + 0.5;
-      const p = Math.min(1, Math.max(0, reveal * 1.6 - j / rows * 0.6));
-      if (!p) continue;
-      for (let x = 0; x < w * p; x += 8) {
-        ctx.globalAlpha = 0.11 * fade(x, y);
-        ctx.fillRect(x, y - 0.5, 8, 1);
-      }
+    if (still.matches) { drawStill(); ctx.globalAlpha = 1; raf = 0; return; }
+
+    // Keep the field at its density, plus a few extra pixels near the pointer.
+    const want = Math.round(cols * rows * DENSITY);
+    while (t > 700 && lit.length < want) spawn(t);
+    if (pointer && t - last > 40) {
+      last = t;
+      const pi = Math.round((pointer.x - ox) / STEP), pj = Math.round(pointer.y / STEP);
+      const a = Math.random() * Math.PI * 2, d = Math.random() * 4;
+      spawn(t, pi + Math.round(Math.cos(a) * d), pj + Math.round(Math.sin(a) * d), 0.6 + Math.random() * 0.3);
     }
-    if (!still.matches) {
-      // A new cell lights every so often; each rises and fades over its life.
-      if (t > 1000 && Math.random() < 0.06 && lit.length < 14) {
-        lit.push({ c: Math.floor(Math.random() * cols), r: Math.floor(Math.random() * rows), born: t, life: 1800 + Math.random() * 1600 });
-      }
-      for (let k = lit.length - 1; k >= 0; k--) {
-        const l = lit[k], a = (t - l.born) / l.life;
-        if (a >= 1) { lit.splice(k, 1); continue; }
-        const x = ox + l.c * CELL, y = l.r * CELL;
-        ctx.globalAlpha = 0.07 * Math.sin(Math.PI * a) * fade(x + CELL / 2, y + CELL / 2);
-        ctx.fillRect(x + 1, y + 1, CELL - 1, CELL - 1);
-      }
-      if (pointer) {
-        // The cells near the pointer brighten, by distance from it.
-        const c = Math.floor((pointer.x - ox) / CELL), r = Math.floor(pointer.y / CELL);
-        for (let dc = -3; dc <= 3; dc++) for (let dr = -3; dr <= 3; dr++) {
-          const x = ox + (c + dc) * CELL, y = (r + dr) * CELL;
-          const d = Math.hypot(x + CELL / 2 - pointer.x, y + CELL / 2 - pointer.y) / (CELL * 3);
-          if (d >= 1) continue;
-          ctx.globalAlpha = 0.07 * (1 - d) ** 2 * fade(x + CELL / 2, y + CELL / 2);
-          ctx.fillRect(x + 1, y + 1, CELL - 1, CELL - 1);
-        }
-      }
+    lit = lit.filter((p) => t - p.born < p.life);
+    for (const p of lit) {
+      const a = (t - p.born) / p.life;
+      if (a < 0) continue;
+      const x = ox + p.i * STEP, y = p.j * STEP;
+      // Quick to light, slow to fade.
+      const env = a < 0.15 ? a / 0.15 : (1 - a) / 0.85;
+      ctx.globalAlpha = p.peak * env * fade(x, y);
+      ctx.fillRect(x - PX / 2, y - PX / 2, PX, PX);
     }
     ctx.globalAlpha = 1;
-    raf = !still.matches && visible && !document.hidden ? requestAnimationFrame(draw) : 0;
+    raf = visible && !document.hidden ? requestAnimationFrame(draw) : 0;
   }
 
   function start() {
@@ -1288,6 +1298,7 @@
   }
   measure();
   t0 = performance.now();
+  seed();
   start();
   new ResizeObserver(() => { measure(); start(); }).observe(host);
   new IntersectionObserver(([e]) => { visible = e.isIntersecting; if (visible) start(); }).observe(host);
