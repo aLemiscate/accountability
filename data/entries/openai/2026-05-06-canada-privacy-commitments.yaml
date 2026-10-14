@@ -54,7 +54,9 @@ sources:
     archive: https://web.archive.org/web/20261007035632/https://help.openai.com/en/articles/7842364-how-chatgpt-and-our-foundation-models-are-developed
     snapshot: snapshots/2026-10-14-help.openai.com-e761108f
 note: >-
-  The three-month items could not be checked from here: ChatGPT's signed-out
-  page and OpenAI's help center refuse this machine, and the quarterly reports
-  go to the regulators, not the public. The Capture workflow saves the help
-  article as it reads now.
+  The help article, as saved on Oct. 14, explains training sources in plain
+  language (publicly available webpages, forums, blogs and posts; datasets from
+  partners; synthetic data) and reads "Updated: 2 months ago," which fits the
+  three-month item; it wasn't compared with an earlier version. The signed-out
+  notice couldn't be checked: ChatGPT's signed-out page refuses this machine.
+  The quarterly reports go to the regulators, not the public.
