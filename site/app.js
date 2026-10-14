@@ -193,11 +193,27 @@
   const personActors = D.actors.filter((a) => a.kind !== 'org');
 
   // ── filtering ──────────────────────────────────────────────────────────
-  function haystack(e) {
+  // Search folds case and curly quotes on both sides, one character for one
+  // character, so a match found in the folded text can be marked in the original.
+  const fold = (t) => String(t).toLowerCase().replace(/[‘’]/g, "'").replace(/[“”]/g, '"');
+  const qWords = () => (state.q ? fold(state.q).split(/\s+/).filter(Boolean) : []);
+  const hasAll = (text, words) => { const t = fold(text); return words.every((w) => t.includes(w)); };
+  const patternName = (id) => patternById.get(id)?.name || id;
+  // Every searchable field of an entry, labeled, so the timeline can say where a match was.
+  function fields(e) {
     const sources = [...(e.sources || []), ...(e.updates || []).flatMap((u) => u.sources || [])];
-    return [e.title, e.quote, e.summary, e.note, e.venue, e.response, e.breaks_if, ...(e.who || []).map(actorName),
-      ...(e.updates || []).map((u) => u.text), ...sources.flatMap((s) => [s.title, s.publisher])]
-      .filter(Boolean).join(' ').toLowerCase();
+    return [
+      ['Quote', e.quote], ['Summary', e.summary],
+      ['Before', e.revision?.before], ['After', e.revision?.after], ['Outcome', e.outcome?.text],
+      ...(e.updates || []).map((u) => ['Update', u.text]),
+      ['Person', (e.who || []).map(actorName).join(', ')], ['Where', e.venue],
+      ['Pattern', e.patterns.map(patternName).join(', ')],
+      ['Counts as broken if', e.breaks_if], ['Their side', e.response], ['Note', e.note],
+      ...sources.map((x) => ['Source', [x.title, x.publisher].filter(Boolean).join(', ')]),
+    ].filter(([, t]) => t);
+  }
+  function haystack(e) {
+    return fold([e.title, orgName(e.org), ...fields(e).map(([, t]) => t)].join(' '));
   }
   const hayCache = new Map();
   function matches(e) {
@@ -206,9 +222,55 @@
     if (state.person && !e.who.includes(state.person)) return false;
     if (state.q) {
       if (!hayCache.has(e.id)) hayCache.set(e.id, haystack(e));
-      if (!state.q.toLowerCase().split(/\s+/).every((w) => hayCache.get(e.id).includes(w))) return false;
+      if (!qWords().every((w) => hayCache.get(e.id).includes(w))) return false;
     }
     return true;
+  }
+  /** The text with the searched words marked. Returns the plain string when there is nothing to mark. */
+  function hl(text) {
+    const words = qWords().filter((w) => w.length > 1);
+    if (!words.length || !text) return text;
+    const low = fold(text);
+    if (low.length !== text.length) return text;
+    const spans = [];
+    for (const w of words) for (let i = low.indexOf(w); i !== -1; i = low.indexOf(w, i + w.length)) spans.push([i, i + w.length]);
+    if (!spans.length) return text;
+    spans.sort((a, b) => a[0] - b[0]);
+    const out = [];
+    let at = 0;
+    for (const [a, b] of spans) {
+      if (b <= at) continue;
+      const from = Math.max(a, at);
+      if (from > at) out.push(text.slice(at, from));
+      // Overlapping words join the mark before them.
+      if (from === at && out.length && typeof out[out.length - 1] !== 'string') out[out.length - 1].append(text.slice(from, b));
+      else out.push(h('mark', { class: 'qhit' }, text.slice(from, b)));
+      at = b;
+    }
+    if (at < text.length) out.push(text.slice(at));
+    return out;
+  }
+  // In the timeline only the title shows, so when the words matched somewhere
+  // else the card says where, with the match in its context.
+  function matchContext(e) {
+    const words = qWords();
+    const missing = words.filter((w) => !fold(e.title).includes(w));
+    if (!missing.length) return null;
+    for (const [label, t] of fields(e)) {
+      const low = fold(t);
+      const w = missing.find((x) => low.includes(x));
+      if (!w) continue;
+      const at = low.indexOf(w);
+      let a = Math.max(0, at - 60);
+      let b = Math.min(t.length, at + w.length + 90);
+      const sa = t.indexOf(' ', a);
+      if (a > 0 && sa !== -1 && sa < at) a = sa + 1;
+      const sb = t.lastIndexOf(' ', b);
+      if (b < t.length && sb > at + w.length) b = sb;
+      const piece = `${a > 0 ? '…' : ''}${t.slice(a, b)}${b < t.length ? '…' : ''}`;
+      return h('p', { class: 'why' }, h('span', { class: 'label' }, label), ' ', hl(piece));
+    }
+    return null;
   }
   const anyFilter = () => state.org !== 'all' || state.pattern || state.person || state.q;
 
@@ -324,14 +386,71 @@
   }
   const snapDate = (dir) => (/(\d{4}-\d{2}-\d{2})/.exec(dir || '') || [])[1];
   const quoteBlock = (text, e) => text && h('div', { class: 'quote-wrap' },
-    h('blockquote', { class: 'quote' }, `“${text.trim()}”`),
-    e?.quote_check?.status === 'matched' && h('span', { class: 'verified', title: `Found word for word in ${e.quote_check.snapshot}` },
-      `✓ Quote matches the saved source (${fmtDate(snapDate(e.quote_check.snapshot))})`));
-  const titleButton = (e) => h('button', { class: 'side-title', type: 'button', onclick: () => openEntry(e.id) }, e.title);
+    h('blockquote', { class: 'quote' }, '“', hl(text.trim()), '”'),
+    e?.quote_check?.status === 'matched' && verifiedLine(e));
+  // The check line under a quote. Where the build kept the passage around the quote,
+  // it opens to show the quote in its source, highlighted, with links to the original.
+  function verifiedLine(e) {
+    const qc = e.quote_check;
+    const when = fmtDate(snapDate(qc.snapshot));
+    const line = `✓ Quote matches the saved source (${when})`;
+    if (!qc.excerpt) return h('span', { class: 'verified', title: `Found word for word in ${qc.snapshot}` }, line);
+    const src = (e.sources || []).find((s) => s.snapshot === qc.snapshot);
+    return h('details', { class: 'insource' },
+      h('summary', { class: 'verified' }, line, h('span', { class: 'see' }, 'See it in the source')),
+      h('div', { class: 'insource-body' },
+        h('p', { class: 'label' }, `Saved copy${src?.publisher ? ` of ${src.publisher}` : ''} · captured ${when}`),
+        src?.title && h('p', { class: 'insource-title' }, src.title),
+        h('p', { class: 'passage' }, qc.excerpt.map((part, i) => (i % 2 ? h('mark', null, part) : part))),
+        h('p', { class: 'insource-links' },
+          src?.url && h('a', { href: src.url, target: '_blank', rel: 'noopener' }, 'Original'),
+          src?.archive && h('a', { href: src.archive, target: '_blank', rel: 'noopener' }, 'Archived copy'),
+          D.site.repo && h('a', { href: `${D.site.repo}/tree/HEAD/${qc.snapshot}`, target: '_blank', rel: 'noopener' }, 'Saved copy in the repository')),
+      ));
+  }
+  const titleButton = (e) => h('button', { class: 'side-title', type: 'button', onclick: () => openEntry(e.id) }, hl(e.title));
 
   // Update the address-bar hash without scrolling; some embedded frames refuse this, which is fine.
   function setHash(hash) {
     try { history.replaceState(null, '', hash); } catch { /* ignore */ }
+  }
+  // A view and its filters as a link: "#timeline.openai.silent-edit". Words joined by
+  // dots, so the link survives hosts that keep only plain anchors. The search box
+  // isn't included; it holds free text.
+  const PEOPLE = new Set(personActors.map((a) => a.id));
+  function hashFor(st) {
+    const parts = [st.view];
+    if (st.org !== 'all') parts.push(st.org);
+    if (st.pattern) parts.push(st.pattern);
+    if (st.person) parts.push(st.person);
+    if (st.view === 'timeline' && st.order === 'oldest') parts.push('oldest');
+    return `#${parts.join('.')}`;
+  }
+  function applyHash(hash) {
+    const [v, ...words] = hash.split('.');
+    if (!VIEWS.includes(v)) return false;
+    Object.assign(state, { view: v, org: 'all', pattern: '', person: '', order: 'newest' });
+    for (const w of words) {
+      if (w === 'openai' || w === 'anthropic') state.org = w;
+      else if (patternById.has(w)) state.pattern = w;
+      else if (PEOPLE.has(w)) state.person = w;
+      else if (w === 'oldest') state.order = 'oldest';
+    }
+    return true;
+  }
+  // Shared links point at the public site, wherever this copy is being read.
+  const siteBase = () => D.site.url || location.href.split('#')[0];
+  // Share a link: the phone's share sheet where there is one, else the clipboard.
+  async function shareLink(url, title, button) {
+    if (navigator.share) {
+      try { await navigator.share({ url, title }); return; } catch (err) { if (err?.name === 'AbortError') return; }
+    }
+    try {
+      await navigator.clipboard.writeText(url);
+      confirmCopied(button, 'Link copied');
+    } catch {
+      toast(url);
+    }
   }
 
   // ── views ──────────────────────────────────────────────────────────────
@@ -343,11 +462,33 @@
       h('button', { class: 'clear', type: 'button', onclick: clearFilters }, 'Clear filters'));
   }
 
+  // The newest developments in the record: entries and updates, by the date they happened.
+  function latestStrip() {
+    const items = [];
+    for (const e of D.entries.filter(matches)) {
+      items.push({ e, time: e.time, date: e.date, text: null });
+      (e.updates || []).forEach((u) => { const d = parseDate(u.date); if (d) items.push({ e, time: d.time, date: u.date, text: u.text }); });
+    }
+    items.sort((a, b) => b.time - a.time);
+    // One item per entry: its newest development.
+    const seen = new Set();
+    const top = items.filter(({ e }) => !seen.has(e.id) && seen.add(e.id)).slice(0, 4);
+    if (!top.length) return null;
+    return h('section', { class: 'latest', 'aria-label': 'Latest developments' },
+      h('div', { class: 'latest-head' },
+        h('span', { class: 'label' }, 'Latest'),
+        D.site.url && h('a', { class: 'label', href: `${D.site.url}feed.xml`, target: '_blank', rel: 'noopener' }, 'Follow by RSS')),
+      h('div', { class: 'latest-list' }, top.map(({ e, date, text }) => h('button', { class: 'latest-item', type: 'button', onclick: () => openEntry(e.id) },
+        h('span', { class: 'latest-meta' }, h('span', { class: 'label' }, fmtDate(date)), orgTag(e.org), text && h('span', { class: 'label' }, 'Update')),
+        h('span', { class: 'latest-title' }, clip(e.title, 110)),
+        text && h('span', { class: 'latest-text' }, clip(text, 130))))));
+  }
+
   function renderReceipts() {
     const list = allReceipts.filter(receiptMatches);
     const frag = [viewHead('Receipts',
       'Each receipt puts something a company said next to what happened after: an action that contradicted it, what became of a promise, or a policy page before and after a quiet edit. The figure between them is the time from one to the other. Newest first.'),
-    patternBrief(D.entries.filter(matches))];
+    patternBrief(D.entries.filter(matches)), !state.q && latestStrip()];
     if (!list.length) return [...frag, empty()];
     frag.push(h('div', { class: 'receipts' }, list.map((r) => (r.revision ? revisionCard(byId.get(r.revision)) : r.outcome ? outcomeCard(r) : receiptCard(r)))));
     return frag;
@@ -378,7 +519,7 @@
       h('div', { class: 'receipt-foot' },
         patternChips([...new Set([...s.patterns, ...d.patterns])]),
         h('span', { class: 'spacer' }),
-        h('button', { class: 'btn', type: 'button', onclick: () => copyReceipt(s, d) }, 'Copy receipt'),
+        h('button', { class: 'btn', type: 'button', onclick: (ev) => copyReceipt(s, d, ev.currentTarget) }, 'Copy receipt'),
       ),
     );
   }
@@ -404,33 +545,33 @@
       ),
       h('div', { class: 'side did' },
         h('div', { class: 'side-head' }, h('span', { class: 'stamp did' }, earlier ? 'On record' : 'Outcome'), h('span', { class: 'label' }, fmtDate(s.outcome.date)), orgTag(s.org)),
-        h('p', null, s.outcome.text),
+        h('p', null, hl(s.outcome.text)),
         h('button', { class: 'chip', type: 'button', onclick: () => openEntry(s.id) }, 'Sources and details'),
       ),
       h('div', { class: 'receipt-foot' },
         patternChips(s.patterns),
         h('span', { class: 'spacer' }),
-        h('button', { class: 'btn', type: 'button', onclick: () => copyReceipt(s, null) }, 'Copy receipt'),
+        h('button', { class: 'btn', type: 'button', onclick: (ev) => copyReceipt(s, null, ev.currentTarget) }, 'Copy receipt'),
       ),
     );
   }
 
   function revisionCard(e) {
-    return h('article', { class: 'receipt', id: `r-${e.id}` },
+    return h('article', { class: 'receipt', id: `r-${e.id}`, 'data-edit': e.id },
       h('div', { class: 'side said' },
         h('div', { class: 'side-head' }, h('span', { class: 'stamp said' }, 'Before'), orgTag(e.org)),
-        h('div', { class: 'diff' }, h('div', { class: 'minus' }, h('b', null, '−'), e.revision.before)),
+        h('div', { class: 'diff' }, h('div', { class: 'minus' }, h('b', null, '−'), h('span', { class: 'rev-text' }, hl(e.revision.before)))),
       ),
       h('div', { class: 'gap' }, h('span', { class: 'label' }, 'Edited'), h('span', { class: 'gap-n' }, fmtDate(e.date).split(',')[0].split(' ')[0]), h('span', { class: 'label' }, String(e.date).slice(0, 4)), arrow()),
       h('div', { class: 'side did' },
         h('div', { class: 'side-head' }, h('span', { class: 'stamp did' }, 'After'), h('span', { class: 'label' }, fmtDate(e.date))),
         titleButton(e),
-        h('div', { class: 'diff' }, h('div', { class: 'plus' }, h('b', null, '+'), e.revision.after)),
+        h('div', { class: 'diff' }, h('div', { class: 'plus' }, h('b', null, '+'), h('span', { class: 'rev-text' }, hl(e.revision.after)))),
       ),
       h('div', { class: 'receipt-foot' },
         patternChips(e.patterns),
         h('span', { class: 'spacer' }),
-        h('button', { class: 'btn', type: 'button', onclick: () => copyReceipt(null, e) }, 'Copy receipt'),
+        h('button', { class: 'btn', type: 'button', onclick: (ev) => copyReceipt(null, e, ev.currentTarget) }, 'Copy receipt'),
       ),
     );
   }
@@ -469,7 +610,8 @@
           h('div', { class: 'tl-spine', style: row, 'aria-hidden': 'true' }, h('span', { class: `tl-dot ${e.type}` })),
           h('article', { class: `tl-card ${e.type}`, style: row },
             h('span', { class: 'tl-meta' }, stamp(e.type), h('span', { class: 'label' }, fmtDate(e.date)), orgTag(e.org)),
-            h('button', { class: 't', type: 'button', onclick: () => openEntry(e.id) }, e.title),
+            h('button', { class: 't', type: 'button', onclick: () => openEntry(e.id) }, hl(e.title)),
+            state.q && matchContext(e),
             (e.status || e.contradicts.length > 0) && h('span', { class: 'tl-meta' },
               e.status && statusPill(e.status),
               e.contradicts.length > 0 && h('span', { class: 'label' }, `contradicts ${e.contradicts.length === 1 ? 'an earlier statement' : `${e.contradicts.length} statements`}`)),
@@ -605,7 +747,7 @@
           h('div', { class: 'side-head' }, orgTag(e.org), statusPill(e.status), concretePill(e.concreteness, e.kind)),
           titleButton(e),
           quoteBlock(e.quote, e),
-          !e.quote && e.summary && h('p', null, clip(e.summary, 260)),
+          !e.quote && e.summary && h('p', null, hl(clip(e.summary, 260))),
           e.breaks_if && h('div', { class: 'breaks' }, h('span', { class: 'label' }, 'Counts as broken if'), h('p', null, e.breaks_if)),
           e.last_checked && h('p', { class: 'label checked' }, `Last checked ${fmtDate(e.last_checked)}`),
           e.patterns.length > 0 && h('div', { class: 'side-head' }, patternChips(e.patterns)),
@@ -631,7 +773,13 @@
 
   function renderCommitments() {
     const orgs = state.org === 'all' ? ['openai', 'anthropic'] : [state.org];
-    const docs = (D.commitments || []).filter((d) => d.parties.some((o) => orgs.includes(o)));
+    // A search narrows each document to the commitments that match it, in the
+    // commitment's words, its grades' evidence, or the document's own title.
+    const words = qWords();
+    const shown = (d) => (words.length
+      ? d.commitments.filter((c) => hasAll([d.title, d.summary, c.section, c.text, ...Object.values(c.grades || {}).map((g) => g.evidence)].filter(Boolean).join(' '), words))
+      : d.commitments);
+    const docs = (D.commitments || []).filter((d) => d.parties.some((o) => orgs.includes(o)) && shown(d).length);
     const frag = [viewHead('Commitments',
       'Every commitment in the formal documents each company signed or published, one by one, graded for each company: kept; standing (in force, with nothing public showing it broken); eroded; broken; or unknown, when it can’t be checked from outside. Open a document below for each commitment, its grade and the evidence.')];
     if (!docs.length) return [...frag, empty()];
@@ -649,25 +797,26 @@
       h('tbody', null, docs.map((d) => h('tr', null,
         h('th', { scope: 'row' }, h('a', { href: `#c-${d.id}`, onclick: (ev) => { ev.preventDefault(); document.getElementById(`c-${d.id}`)?.scrollIntoView({ block: 'start' }); } }, d.title)),
         orgs.map((o) => cell(d.tally?.[o], o))))),
-      h('tfoot', null, h('tr', null, h('th', { scope: 'row' }, 'All documents'), orgs.map((o) => cell(total[o], o)))),
+      h('tfoot', null, h('tr', null, h('th', { scope: 'row' }, words.length ? 'These documents' : 'All documents'), orgs.map((o) => cell(total[o], o)))),
     )));
     frag.splice(1, 0, h('div', { class: 'gkey', 'aria-hidden': 'true' },
       GRADES.map((g) => h('span', null, h('span', { class: `sw g-${g}` }), GRADE_LABEL[g]))));
     frag.push(h('p', { class: 'cnote' }, 'Documents differ in length and in how much can be checked from outside, so counts across documents are not a score. Read the evidence.'));
     for (const d of docs) {
+      const list = shown(d);
       frag.push(h('section', { class: 'cdoc', id: `c-${d.id}` },
-        h('h3', null, d.title),
+        h('h3', null, hl(d.title)),
         h('div', { class: 'pbrief-meta' }, h('span', null, fmtDate(d.date)), h('span', { class: 'pbrief-orgs' }, d.parties.map(orgTag)),
           d.parties.filter((o) => orgs.includes(o)).map((o) => h('span', null, `${orgName(o)}: ${keptLine(d.tally?.[o])}`))),
         d.summary && h('p', null, d.summary),
-        h('details', null,
-          h('summary', null, `The ${d.commitments.length} commitments`),
-          h('ol', { class: 'clist' }, d.commitments.map((c) => h('li', { class: 'citem' },
+        h('details', { open: words.length > 0 },
+          h('summary', null, words.length ? `${list.length} of the ${d.commitments.length} commitments match` : `The ${d.commitments.length} commitments`),
+          h('ol', { class: 'clist' }, list.map((c) => h('li', { class: 'citem' },
             h('div', { class: 'cmeta' }, [c.section, c.versions].filter(Boolean).join(' · ')),
-            h('blockquote', null, c.text),
+            h('blockquote', null, hl(c.text)),
             orgs.filter((o) => c.grades?.[o]).map((o) => h('div', { class: 'cgrade' },
               h('div', { class: 'side-head' }, orgTag(o), gradePill(c.grades[o].grade)),
-              h('p', null, c.grades[o].evidence),
+              h('p', null, hl(c.grades[o].evidence)),
               (c.grades[o].entries || []).length > 0 && h('div', { class: 'hits' }, linkList(c.grades[o].entries, 'see')),
               (c.grades[o].sources || []).length > 0 && sourceList(c.grades[o].sources),
             )))))),
@@ -691,7 +840,7 @@
           h('dt', null, statusPill('broken')), h('dd', null, 'How a statement turned out. The full list of statuses is below.'),
           h('dt', null, concretePill('measurable', 'commitment')), h('dd', null, 'How testable the statement was when it was made, from measurable to aspirational.'),
           h('dt', null, h('span', { class: 'label' }, 'Counts as broken if')), h('dd', null, 'The test for an open promise, written down before anyone needs it.'),
-          h('dt', null, h('span', { class: 'verified' }, '✓ Quote matches the saved source')), h('dd', null, 'The quote was found word for word in a copy of the source saved by this record, so an edited or deleted page doesn’t erase it.'),
+          h('dt', null, h('span', { class: 'verified' }, '✓ Quote matches the saved source')), h('dd', null, 'The quote was found word for word in a copy of the source saved by this record, so an edited or deleted page doesn’t erase it. Open the line to see the quote highlighted in the saved passage.'),
         )),
       h('div', { class: 'prose' },
         h('p', null, 'Every entry is either something a company or one of its leaders ', h('b', null, 'said'), ' (a principle, a commitment, a claim, a denial) or something they ', h('b', null, 'did'), '. A "did" entry that contradicts an earlier "said" entry links back to it, and that link is a receipt. A statement that failed with no separate action to point to (a date that passed with nothing shipped, a claim the company\'s own earlier paper contradicts) carries a dated outcome instead, shown as a receipt too. Every statement graded broken, reversed, eroded or contradicted has one.'),
@@ -719,6 +868,10 @@
         h('h3', null, 'How concrete was it?'),
         h('p', null, 'Vague promises can’t be broken, which is often the point. Each statement is graded on how testable it was when made.'),
         h('div', { class: 'defs' }, Object.keys(CONCRETE_DEF).flatMap((k) => [concretePill(k), h('span', null, CONCRETE_DEF[k])])),
+        h('h3', null, 'Following and sharing'),
+        h('p', null, 'New entries and updates to existing ones are listed in an RSS feed',
+          D.site.url ? [' (', h('a', { href: `${D.site.url}feed.xml`, target: '_blank', rel: 'noopener' }, 'feed.xml'), ')'] : null,
+          '. The address of each view carries its filters, so a filtered view can be shared as it is, and each entry has its own link.'),
         h('h3', null, 'Corrections and additions'),
         h('p', null, 'The record lives in a public repository as one file per entry. To add an entry or correct one, open an issue or a pull request with the source.',
           repo ? [' ', h('a', { href: repo, target: '_blank', rel: 'noopener' }, 'Repository')] : null),
@@ -769,35 +922,36 @@
       h('div', { class: 'd-head' },
         h('div', { class: 'd-meta' }, stamp(e.type), h('span', { class: 'label' }, fmtDate(e.date)), orgTag(e.org)),
         h('div', { class: 'd-actions' },
-          h('button', { class: 'btn', type: 'button', onclick: () => copyReceipt(pairs[0]?.[0] || (e.type === 'said' ? e : null), pairs[0]?.[1] || (e.type === 'did' ? e : null)) }, 'Copy receipt'),
+          h('button', { class: 'btn', type: 'button', onclick: (ev) => copyReceipt(pairs[0]?.[0] || (e.type === 'said' ? e : null), pairs[0]?.[1] || (e.type === 'did' ? e : null), ev.currentTarget) }, 'Copy receipt'),
+          h('button', { class: 'btn', type: 'button', onclick: (ev) => shareLink(permalink(e.id), e.title, ev.currentTarget) }, navigator.share ? 'Share' : 'Copy link'),
           h('button', { class: 'btn close', type: 'button', onclick: () => dialog.close(), 'aria-label': 'Close' }, h('span', { 'aria-hidden': 'true' }, '×')),
         ),
         (e.status || e.concreteness) && h('div', { class: 'd-tags' }, e.status && statusPill(e.status), concretePill(e.concreteness, e.kind)),
       ),
       h('div', { class: 'd-body' },
-        h('h2', { id: 'entry-title' }, e.title),
+        h('h2', { id: 'entry-title' }, hl(e.title)),
         (e.who.length > 0 || e.venue) && h('p', { class: 'label' }, [e.who.map(actorName).join(', '), e.venue].filter(Boolean).join(' · ')),
         e.quote && h('div', { class: `side ${e.type}`, style: 'padding:0;background:none' }, quoteBlock(e.quote, e)),
-        e.summary && h('p', null, e.summary),
+        e.summary && h('p', null, hl(e.summary)),
         e.revision && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'What changed'),
-          h('div', { class: 'diff' }, h('div', { class: 'minus' }, h('b', null, '−'), e.revision.before), h('div', { class: 'plus' }, h('b', null, '+'), e.revision.after))),
+          h('div', { class: 'diff' }, h('div', { class: 'minus' }, h('b', null, '−'), h('span', { class: 'rev-text' }, hl(e.revision.before))), h('div', { class: 'plus' }, h('b', null, '+'), h('span', { class: 'rev-text' }, hl(e.revision.after))))),
         e.breaks_if && h('div', { class: 'breaks' }, h('span', { class: 'label' }, 'Counts as broken if'), h('p', null, e.breaks_if)),
         dueLine(e),
-        e.outcome && h('div', { class: 'd-section' }, h('span', { class: 'label' }, `Outcome, ${fmtDate(e.outcome.date)}`), h('p', null, e.outcome.text)),
+        e.outcome && h('div', { class: 'd-section' }, h('span', { class: 'label' }, `Outcome, ${fmtDate(e.outcome.date)}`), h('p', null, hl(e.outcome.text))),
         e.last_checked && h('p', { class: 'label checked' }, `Status last checked against the record on ${fmtDate(e.last_checked)}`),
         (e.contradicts.length + e.contradicted_by.length + e.related.length > 0) && h('div', { class: 'd-section links' },
           h('span', { class: 'label' }, 'Connected entries'),
           linkList(e.contradicts, 'contradicts'), linkList(e.contradicted_by, 'contradicted by'), linkList(e.related, 'related')),
         e.updates?.length > 0 && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Since then'),
           h('ul', { class: 'updates' }, e.updates.map((u) => h('li', null, h('span', { class: 'mono' }, fmtDate(u.date)),
-            h('div', null, h('p', null, u.text), u.sources?.length > 0 && sourceList(u.sources)))))),
+            h('div', null, h('p', null, hl(u.text)), u.sources?.length > 0 && sourceList(u.sources)))))),
         e.response && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Their side'), h('p', null, e.response)),
         e.note && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Commentary'), h('p', { class: 'note' }, e.note)),
         e.patterns.length > 0 && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Patterns (analysis)'),
           e.patterns.map((id) => patternById.get(id)).filter(Boolean).map((p) => h('div', { class: 'd-pattern' },
             h('p', null, h('b', null, p.name), ' ', h('span', { class: 'muted' }, p.thesis)),
             h('div', { class: 'side-head' },
-              h('button', { class: 'chip', type: 'button', onclick: () => { dialog.close(); setFilter({ pattern: p.id }, 'timeline'); setHash('#timeline'); } }, 'Follow on the timeline'),
+              h('button', { class: 'chip', type: 'button', onclick: () => { dialog.close(); setFilter({ pattern: p.id }, 'timeline'); } }, 'Follow on the timeline'),
               h('button', { class: 'chip', type: 'button', onclick: () => { dialog.close(); location.hash = `p-${p.id}`; } }, 'About this pattern'))))),
         h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Sources'), sourceList(e.sources)),
         D.site.repo && e.file && h('p', { class: 'label' }, h('a', { href: `${D.site.repo}/blob/HEAD/${e.file}`, target: '_blank', rel: 'noopener' }, 'View or correct this entry')),
@@ -808,14 +962,14 @@
     if (!fromHash) setHash(`#e-${id}`);
   }
   dialog.addEventListener('close', () => {
-    if (location.hash.startsWith('#e-')) setHash(`#${state.view}`);
+    if (location.hash.startsWith('#e-')) setHash(hashFor(state));
   });
   dialog.addEventListener('click', (ev) => { if (ev.target === dialog) dialog.close(); });
 
   // ── copy a receipt as plain text, for posting ─────────────────────────
+  // The public site gives each entry a page whose link preview shows the receipt.
   function permalink(id) {
-    const base = D.site.url || location.href.split('#')[0];
-    return `${base}#e-${id}`;
+    return D.site.url ? `${D.site.url}e/${id}/` : `${location.href.split('#')[0]}#e-${id}`;
   }
   function receiptText(s, d) {
     const lines = [];
@@ -847,6 +1001,16 @@
     lines.push('', `Full receipt: ${permalink((d || s).id)}`);
     return lines.join('\n');
   }
+  function confirmCopied(button, msg) {
+    toast(msg);
+    if (!button) return;
+    const label = button.dataset.label || button.textContent;
+    button.dataset.label = label;
+    button.classList.add('done');
+    button.textContent = `✓ ${msg}`;
+    clearTimeout(button._t);
+    button._t = setTimeout(() => { button.textContent = label; button.classList.remove('done'); }, 1600);
+  }
   let toastTimer;
   function toast(msg) {
     let t = document.querySelector('.toast');
@@ -856,7 +1020,7 @@
     clearTimeout(toastTimer);
     toastTimer = setTimeout(() => { t.hidden = true; }, 2200);
   }
-  function copyReceipt(s, d) {
+  function copyReceipt(s, d, button) {
     const text = receiptText(s, d);
     const fallback = () => {
       const ta = h('textarea', { class: 'copy-fallback', readonly: true, 'aria-label': 'Receipt text' });
@@ -868,7 +1032,7 @@
       toast('Select the text and copy it');
     };
     try {
-      navigator.clipboard.writeText(text).then(() => toast('Receipt copied'), fallback);
+      navigator.clipboard.writeText(text).then(() => confirmCopied(button, 'Receipt copied'), fallback);
     } catch {
       fallback();
     }
@@ -904,6 +1068,9 @@
   let qTimer;
   search.addEventListener('input', () => { clearTimeout(qTimer); qTimer = setTimeout(() => setFilter({ q: search.value.trim() }), 150); });
   document.getElementById('clear').addEventListener('click', clearFilters);
+  const shareView = document.getElementById('share-view');
+  shareView.textContent = navigator.share ? 'Share this view' : 'Copy link to this view';
+  shareView.addEventListener('click', () => shareLink(`${siteBase()}${hashFor(state)}`, document.title, shareView));
   const moreToggle = document.getElementById('more-toggle');
   moreToggle.addEventListener('click', () => {
     const open = moreToggle.getAttribute('aria-expanded') !== 'true';
@@ -914,16 +1081,18 @@
   function setFilter(patch, toView) {
     Object.assign(state, patch);
     if (toView) state.view = toView;
+    setHash(hashFor(state));
     render();
   }
   function clearFilters() {
     Object.assign(state, { org: 'all', pattern: '', person: '', q: '' });
     search.value = '';
+    setHash(hashFor(state));
     render();
   }
   function go(v) {
     state.view = v;
-    setHash(`#${v}`);
+    setHash(hashFor(state));
     render();
     window.scrollTo({ top: Math.min(window.scrollY, document.querySelector('.controls').offsetTop) });
   }
@@ -942,11 +1111,36 @@
     countEl.textContent = anyFilter() ? `${shown} of ${D.entries.length} entries match` : `${D.entries.length} entries`;
   }
 
+  // An edit receipt plays its edit once, the first time it comes into view: the
+  // old wording is struck through, then the new wording is marked. Both stay
+  // readable throughout, and without motion they simply start in that end state.
+  const calm = matchMedia('(prefers-reduced-motion: reduce)');
+  const playedEdits = new Set();
+  const editWatch = 'IntersectionObserver' in window && new IntersectionObserver((seen) => {
+    for (const s of seen) {
+      if (!s.isIntersecting) continue;
+      s.target.classList.add('rev-play');
+      playedEdits.add(s.target.dataset.edit);
+      editWatch.unobserve(s.target);
+    }
+  }, { threshold: 0.4 });
+  function armEdits() {
+    if (!editWatch) return;
+    editWatch.disconnect();
+    if (calm.matches) return;
+    for (const el of view.querySelectorAll('[data-edit]')) {
+      if (playedEdits.has(el.dataset.edit)) continue;
+      el.classList.add('rev-armed');
+      editWatch.observe(el);
+    }
+  }
+
   function render() {
     syncControls();
     const renderers = { receipts: renderReceipts, timeline: renderTimeline, patterns: renderPatterns, watchlist: renderWatchlist, commitments: renderCommitments, method: renderMethod };
     hideTip();
     view.replaceChildren(...[renderers[state.view]()].flat().filter(Boolean));
+    armEdits();
     queueSnap();
   }
 
@@ -970,7 +1164,10 @@
     tile((e) => e.status === 'open', 'Still standing, being watched', 'is-open', 'watchlist'),
   );
   const s = D.stats;
+  const next = D.entries.filter((e) => e.status === 'open' && dueOf(e) && !dueOf(e).passed).sort((a, b) => dueOf(a).end - dueOf(b).end)[0];
   document.getElementById('stats-note').replaceChildren(
+    next && h('span', null, 'Next deadline: ', h('a', { class: 'linkish', href: `#e-${next.id}`, onclick: (ev) => { ev.preventDefault(); openEntry(next.id); } }, clip(next.title, 64)),
+      `, ${dueOf(next).when} (in ${fmtSpan(Math.round((dueOf(next).end - NOW) / DAY))}).`),
     s.median_gap_days != null && h('span', null, `Median time from a statement to the action that contradicted it: ${fmtSpan(s.median_gap_days)}.`),
     h('span', { class: 'updated' }, `Updated ${fmtDate(String(D.generated).slice(0, 10))} · ${D.entries.length} entries`));
 
@@ -988,7 +1185,7 @@
       document.getElementById(hash)?.scrollIntoView({ block: 'start' });
       return;
     }
-    if (VIEWS.includes(hash)) state.view = hash;
+    applyHash(hash);
     render();
   }
   window.addEventListener('hashchange', fromHash);
