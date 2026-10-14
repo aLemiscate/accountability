@@ -13,12 +13,12 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="google-site-verification" content="0B2LhZKG5u8FHX87CxHLd5YwNzMm9YRDTfKxrM5UqwA">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 16c-3-4-5.5-6-8-6a6 6 0 0 0 0 12c2.5 0 5-2 8-6s5.5-6 8-6a6 6 0 0 1 0 12c-2.5 0-5-2-8-6z' fill='none' stroke='%230b0b0b' stroke-width='3'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500;600&display=swap">
+<link rel="preload" href="fonts/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="alternate" type="application/atom+xml" title="Said / Did: new entries and updates" href="feed.xml">
 <link rel="stylesheet" href="styles.css">
+<noscript><style>.controls, .stats { display: none; }</style></noscript>
 </head>
 <body>
 <header class="masthead">
@@ -48,7 +48,9 @@
   </div>
 </div>
 
-<main class="wrap" id="view" role="tabpanel"></main>
+<main class="wrap" id="view" role="tabpanel">
+  <noscript><p class="empty">This page needs JavaScript for its receipts, timeline and filters. <a href="https://alemiscate.github.io/accountability/record.html">The whole record</a> is also on one plain page, with every entry and its sources.</p></noscript>
+</main>
 
 <footer>
   <div class="wrap">
@@ -57,6 +59,7 @@
     <span>Patterns recur; the record is how you see the loop.</span>
     <span>The OpenAI and Anthropic logos are their owners' trademarks, shown only to identify each company.</span>
     <span><a href="https://alemiscate.github.io/accountability/feed.xml">RSS feed of new entries and updates</a></span>
+    <span><a href="https://alemiscate.github.io/accountability/record.html">The whole record on one plain page</a></span>
   </div>
 </footer>
 
@@ -64,5 +67,6 @@
 
 <script src="data.js"></script>
 <script src="app.js"></script>
+<script src="sky.js"></script>
 </body>
 </html>
