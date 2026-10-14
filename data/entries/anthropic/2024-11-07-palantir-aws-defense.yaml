@@ -3,7 +3,7 @@ date: 2024-11-07
 org: anthropic
 type: did
 kind: action
-who: [ anthropic ]
+who: [anthropic]
 summary: >-
   Anthropic, Palantir and AWS partnered to give U.S. intelligence and defense
   agencies access to Claude 3 and 3.5 through Palantir's AI Platform, including
@@ -11,11 +11,11 @@ summary: >-
   classification. Anthropic's policy still barred uses such as disinformation,
   weapons design, censorship, domestic surveillance and malicious cyber
   operations, while allowing some government agencies to use the models. The
-  groundwork was laid in June 2024, when Anthropic wrote "contractual
-  exceptions to our general Usage Policy" for "carefully selected government
-  agencies," allowing "legally authorized foreign intelligence analysis" and
-  "providing warning in advance of potential military activities."
-patterns: [ principles-with-a-price ]
+  groundwork was laid in June 2024, when Anthropic wrote "contractual exceptions
+  to our general Usage Policy" for "carefully selected government agencies,"
+  allowing "legally authorized foreign intelligence analysis" and "providing
+  warning in advance of potential military activities."
+patterns: [principles-with-a-price]
 sources:
   - title: Expanding access to Claude for government
     publisher: Anthropic
@@ -30,6 +30,7 @@ sources:
     date: 2024-11-07
     type: primary
     archive: https://web.archive.org/web/20260929210820/https://www.businesswire.com/news/home/20241107699415/en/Anthropic-and-Palantir-Partner-to-Bring-Claude-AI-Models-to-AWS-for-U.S.-Government-Intelligence-and-Defense-Operations
+    snapshot: snapshots/2026-10-14-web.archive.org-26e1ee6d
   - title: Anthropic partners with AWS and Palantir to provide AI models to defense
       agencies
     publisher: SiliconANGLE
@@ -46,8 +47,8 @@ updates:
     text: >-
       Anthropic launched Claude Gov, custom models "built exclusively for U.S.
       national security customers" and already in use "by agencies at the
-      highest level of U.S. national security." Among the listed features:
-      "the models refuse less when engaging with classified information."
+      highest level of U.S. national security." Among the listed features: "the
+      models refuse less when engaging with classified information."
     sources:
       - title: Claude Gov models for U.S. national security customers
         publisher: Anthropic
