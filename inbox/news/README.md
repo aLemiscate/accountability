@@ -17,5 +17,7 @@ Each run writes one file here, `YYYY-MM-DD.md`, with:
 - sources that couldn't be reached from the session (left for the Capture
   workflow).
 
-The weekly Twitter/X sweep (`inbox/YYYY-MM-DD-<account>.md`, from the Sweep
-workflow) is read as one of the inputs.
+The weekly Twitter/X posts are one of the inputs: the Watch workflow adds them
+to `inbox/sweep/` on Mondays at 06:17 UTC, and `inbox/sweep/QUEUE.md` lists the
+unread ones. The news sweep reads each, records a decision with
+`npm run reading-queue -- --log <account>`, and follows up the leads.

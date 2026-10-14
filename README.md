@@ -203,6 +203,12 @@ Posts already cited in the record are marked, so the inbox shows only what's
 new. Nothing is added to the record automatically. When a post belongs,
 `npm run new -- … --url <post>` starts the entry and snapshots the post.
 
+`--store` adds every Twitter/X post found to the account's archive in
+`inbox/sweep/<account>/<year>.jsonl` instead of writing an inbox file. The
+weekly Watch workflow runs it that way, and `npm run reading-queue` then lists
+every unread post in `inbox/sweep/QUEUE.md`. Record a decision for each with
+`npm run reading-queue -- --log <account>` (how is in `inbox/sweep/TRIAGE.md`).
+
 ## Watching for silent edits
 
 `data/watch.yaml` lists the pages where commitments live: charters, usage
@@ -230,9 +236,9 @@ private. Deleted posts are worth recording too. Results go to
 ## Automation (GitHub Actions)
 
 - **Site** (`.github/workflows/site.yml`) runs on every push: it validates, builds and tests the record, writes the per-entry link-preview pages and card images (`npm run cards`) and the Atom feed, then publishes to GitHub Pages from the default branch. It checks out the full history, since the feed dates new entries by when they were added. One-time setup: *Settings → Pages → Source: GitHub Actions*.
-- **Watch** (`.github/workflows/watch.yml`) runs every Monday and on demand. It re-reads watched pages, checks sources, collects the last two weeks of posts from watched accounts into `inbox/`, snapshots up to 20 sources that don't have a snapshot yet, archives unarchived sources (when the archive.org secrets are set), commits the results, and **opens an issue whenever a watched page changes**.
+- **Watch** (`.github/workflows/watch.yml`) runs every Monday and on demand. It re-reads watched pages, checks sources, adds the last two weeks of posts from watched accounts to their archive in `inbox/sweep/` and lists the unread ones in `inbox/sweep/QUEUE.md`, snapshots up to 20 sources that don't have a snapshot yet, archives unarchived sources (when the archive.org secrets are set), commits the results, and **opens an issue whenever a watched page changes**.
 - **Capture** (`.github/workflows/capture.yml`) runs on demand. It snapshots every source that doesn't have a snapshot yet. Run it once to backfill the whole record.
-- **Sweep** (`.github/workflows/sweep.yml`) runs on demand. It reads the full archived history of every X account in `data/accounts.yaml` (and the X API timeline when an `X_BEARER_TOKEN` secret is set), one job per account, keeps every post in `inbox/sweep/`, lists topic matches and deleted posts for triage, and writes `inbox/sweep/COVERAGE.md`. Each account reads for up to the run's time budget and saves its place; run it again to continue where it stopped. Nothing is added to the record automatically.
+- **Sweep** (`.github/workflows/sweep.yml`) runs on demand, for example after an account is added to `data/accounts.yaml`. It reads the full archived history of every X account in `data/accounts.yaml` (and the X API timeline when an `X_BEARER_TOKEN` secret is set), one job per account, keeps every post in `inbox/sweep/`, lists topic matches and deleted posts for triage, and writes `inbox/sweep/COVERAGE.md`. Each account reads for up to the run's time budget and saves its place; run it again to continue where it stopped. Nothing is added to the record automatically.
 
 Outside GitHub Actions, a scheduled Claude Code session runs a **weekly news
 sweep** every Monday at 06:46 UTC: it reads the week's news on both companies,
@@ -283,7 +289,7 @@ data/
 site/                        the static site (index.html, styles.css, app.js)
 scripts/                     build, cards, capture, new-entry, find-posts, check-sources, watch-pages, serve
 snapshots/                   captured evidence
-inbox/                       candidate posts waiting for triage
+inbox/                       working material: the post archive and reading log, page histories, reading logs (see inbox/README.md)
 watch/                       page-text baselines and diffs
 tests/                       node --test suites
 ```

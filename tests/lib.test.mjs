@@ -220,6 +220,8 @@ test('link-preview cards pair a statement with what became of it, and use the si
     assert.equal(c.gap, '12 months later');
   }
   assert.match(describe(said, byId), /^Broken\. Said Jan 1, 2020: We will\. Did Jan 1, 2021/);
+  const edit = { id: 'r', type: 'did', org: 'anthropic', date: '2022-03-04', time: Date.UTC(2022, 2, 4), title: 'Edited', revision: { before: 'Old.', after: 'New.' }, contradicts: [], contradicted_by: [] };
+  assert.equal(describe(edit, new Map([['r', edit]])), 'Before: Old. After (edited Mar 4, 2022): New.');
   assert.equal(span(10), '10 days');
   assert.equal(span(1400), '3.8 years');
   const app = await readFile(new URL('../site/app.js', import.meta.url), 'utf8');
