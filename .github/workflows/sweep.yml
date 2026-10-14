@@ -121,8 +121,6 @@ jobs:
             git fetch origin "$GITHUB_REF_NAME"
             git reset --hard "origin/$GITHUB_REF_NAME"
             mkdir -p inbox/sweep && cp -r "$RUNNER_TEMP/sweep/." inbox/sweep/
-            # Posts are stored by year now: drop the first sweep's single files.
-            rm -f inbox/sweep/*.jsonl
             npm run sweep-coverage
             npm run reading-queue
             git add inbox/sweep

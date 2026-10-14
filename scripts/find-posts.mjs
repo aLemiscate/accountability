@@ -21,6 +21,11 @@
 // automatically: read the candidates, then `npm run new -- … --url <post>` for
 // the ones that belong.
 //
+// --store adds every Twitter/X post found to the account's archive in
+// inbox/sweep/<account>/<year>.jsonl instead, where `npm run reading-queue`
+// lists the unread ones in inbox/sweep/QUEUE.md. Only posts from elsewhere
+// (Bluesky) still get an inbox file. The weekly Watch workflow uses this.
+//
 // --corpus keeps every post, not only the ones that match: it reads and
 // updates inbox/sweep/<account>/<year>.jsonl (one post per line, newest first), so a
 // later run only reads posts it hasn't read yet. It also writes
@@ -30,7 +35,7 @@
 // reading when time runs out; unread posts stay listed as unread.
 // --concurrency sets how many posts are read at once (default 4). An account in
 // data/accounts.yaml can set its own `match` for the triage list.
-import { mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { ROOT, loadAll, readYaml } from './lib.mjs';
 import { sleep } from './web.mjs';
@@ -171,6 +176,18 @@ for (const account of chosen) {
   posts.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
   for (const c of posts) c.already_cited = cited.has(c.id) || cited.has(c.url);
 
+  if (opts.store) {
+    // A post another account wrote can sit under this handle's URL: leave it out.
+    const handle = account.x || name;
+    const xPosts = posts.filter((c) => /^\d+$/.test(String(c.id)) && c.date);
+    const theirs = xPosts.filter((c) => !c.author || c.author.toLowerCase() === handle.toLowerCase());
+    const added = await storePosts(handle, theirs.map((c) => ({ ...c, deleted: c.deleted ?? (c.possibly_deleted || undefined) })));
+    const skipped = xPosts.length - theirs.length;
+    console.log(`  ${added} new post(s) → inbox/sweep/${handle}/${skipped ? ` (${skipped} by another account left out)` : ''}`);
+    posts = posts.filter((c) => !xPosts.includes(c));
+    if (!posts.length) continue;
+  }
+
   const base = path.join(ROOT, 'inbox', `${stamp}-${name}`);
   await writeFile(`${base}.json`, `${JSON.stringify({ account, from, to, match: opts.match ?? null, problems, posts }, null, 2)}\n`);
   const md = [
@@ -204,6 +221,27 @@ async function readJsonl(file) {
   }
 }
 
+/** Add posts to an account's archive (one file per year, newest first), skipping ones already there. Returns how many were new. */
+async function storePosts(handle, list) {
+  if (!list.length) return 0;
+  const shardDir = path.join(ROOT, 'inbox', 'sweep', handle);
+  await mkdir(shardDir, { recursive: true });
+  const byShard = new Map();
+  for (const c of list) byShard.set(shardOf(c), [...(byShard.get(shardOf(c)) ?? []), c]);
+  let added = 0;
+  for (const [shard, fresh] of byShard) {
+    const file = path.join(shardDir, `${shard}.jsonl`);
+    const stored = await readJsonl(file);
+    const known = new Set(stored.map((c) => c.id));
+    const extra = fresh.filter((c) => !known.has(c.id)).map((c) => slim({ ...c, read_at: stamp }));
+    if (!extra.length) continue;
+    added += extra.length;
+    const all = [...stored, ...extra].sort((a, b) => (BigInt(b.id) > BigInt(a.id) ? 1 : BigInt(b.id) < BigInt(a.id) ? -1 : 0));
+    await writeFile(file, all.map((c) => JSON.stringify(c)).join('\n') + '\n');
+  }
+  return added;
+}
+
 /** The fields kept for each post in the corpus files. */
 function slim(c) {
   // The post's URL is left out: it's https://x.com/<account>/status/<id>.
@@ -233,12 +271,8 @@ async function sweepAccount(account) {
   const profile = await fetchXProfile(name).catch(() => null);
   console.log(`  profile: ${profile ? `${profile.name}, ${profile.posts ?? '?'} posts on Twitter/X` : 'not available'}`);
 
-  // Earlier runs: keep what was read, so this run only reads what's new. Read
-  // the year files, and the single-file layout of the first sweep.
-  const stored = [
-    ...(await readJsonl(`${base}.jsonl`)),
-    ...(await Promise.all((await readdir(shardDir)).filter((f) => f.endsWith('.jsonl')).map((f) => readJsonl(path.join(shardDir, f))))).flat(),
-  ];
+  // Earlier runs: keep what was read, so this run only reads what's new.
+  const stored = (await Promise.all((await readdir(shardDir)).filter((f) => f.endsWith('.jsonl')).map((f) => readJsonl(path.join(shardDir, f))))).flat();
   const corpus = new Map();
   let dropped = 0;
   let recheck = 0;
@@ -303,7 +337,6 @@ async function sweepAccount(account) {
     for (const [shard, list] of shards) {
       await writeFile(path.join(shardDir, `${shard}.jsonl`), list.map((c) => JSON.stringify(slim(c))).join('\n') + '\n');
     }
-    await rm(`${base}.jsonl`, { force: true });
     const inScope = all.filter(inRange);
     const own = inScope.filter(theirs);
     const coverage = {

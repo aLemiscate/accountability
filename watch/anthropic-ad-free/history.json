@@ -20,5 +20,12 @@
     "event": "changed",
     "added": 6,
     "removed": 6
+  },
+  {
+    "date": "2026-10-14",
+    "sha256": "c7f3339572cbd13f22e3f061269415910401164a8b031311ab5902e9b93491c8",
+    "via": "fetch",
+    "event": "rebaseline",
+    "note": "text now stops before the list of other posts (Related content / Keep reading), which changes every week"
   }
 ]

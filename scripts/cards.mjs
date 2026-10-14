@@ -72,7 +72,8 @@ export function describe(e, byId) {
   const c = cardFor(e, byId);
   const status = c.status && STATUS[c.status] ? `${STATUS[c.status]}. ` : '';
   if (c.single) return clip(`${status}${c.single.text ? `“${c.single.text}”` : e.summary || ''}`, 220);
-  return clip(`${status}${c.left.stamp} ${fmtDate(c.left.date)}: ${c.left.text} ${c.right.stamp} ${fmtDate(c.right.date)} (${c.gap}): ${c.right.text}`, 240);
+  const head = (x) => [x.stamp, x.date && fmtDate(x.date)].filter(Boolean).join(' ');
+  return clip(`${status}${head(c.left)}: ${c.left.text} ${head(c.right)} (${c.gap}): ${c.right.text}`, 240);
 }
 
 const logoSvg = (org, size) => `<svg viewBox="0 0 24 24" width="${size}" height="${size}" aria-hidden="true"><path d="${LOGO[org] || ''}" fill="currentColor"/></svg>`;

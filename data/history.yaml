@@ -1,9 +1,10 @@
 # Pages whose full archived history `npm run page-history` pulls (the Capture
 # workflow runs it on GitHub's runners when "history" is set). Each page lists
 # every address it has lived at; their Wayback Machine captures are merged in
-# date order. Entries
-# with `discover:` list every archived address under a prefix instead, to find
-# old addresses and the right help articles.
+# date order. To find a page's old addresses, add a temporary entry with
+# `discover: <url prefix>` instead of `urls:`: it lists every archived address
+# under the prefix in inbox/history/_discover/. Move what it finds into the
+# page's `urls` and remove the entry and that folder.
 #
 # Covers, for both companies: usage policies, terms, privacy policies,
 # pricing, usage-limit help pages and model-retirement pages.
@@ -143,12 +144,6 @@
     - https://help.openai.com/en/articles/11954883-legacy-model-access-for-team-enterprise-and-edu-users
     - https://help.openai.com/en/articles/11954883-legacy-model-access-for-enterprise-and-edu-users
     - https://help.openai.com/en/articles/11954883-legacy-model-access-for-business-enterprise-and-edu-users
-- id: openai-discover-policies
-  org: openai
-  discover: openai.com/policies/
-- id: openai-discover-help
-  org: openai
-  discover: help.openai.com/en/articles/
 
 # --- Anthropic ---
 # Anthropic also keeps every superseded version of its legal pages under
@@ -235,12 +230,3 @@
   urls:
     - https://privacy.claude.com/en/articles/15425996-data-retention-practices-for-covered-models
     - https://privacy.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models
-- id: anthropic-discover-privacy
-  org: anthropic
-  discover: privacy.anthropic.com/en/articles/
-- id: anthropic-discover-support
-  org: anthropic
-  discover: support.anthropic.com/en/articles/
-- id: anthropic-discover-claude-support
-  org: anthropic
-  discover: support.claude.com/en/articles/
