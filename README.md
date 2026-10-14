@@ -110,7 +110,11 @@ A URL cited by several entries is captured once and linked from all of them,
 including sources cited inside `updates`.
 
 Error pages (blocked, not found, rate-limited) are never saved as evidence. A
-capture that gets nothing readable leaves no snapshot behind.
+capture that gets nothing readable leaves no snapshot behind. With
+`--snapshot-missing`, a source whose page can't be read (a paywall, a bot
+check, a dead link) but that has an archive link gets a snapshot of the
+archived copy instead; its `meta.json` names the original address in
+`copy_of`.
 
 **Where to run captures.** A snapshot can only be taken from a machine that can
 reach the source. Your own computer works, and so do GitHub's runners: the
@@ -205,6 +209,11 @@ private. Deleted posts are worth recording too. Results go to
 - **Watch** (`.github/workflows/watch.yml`) runs every Monday and on demand. It re-reads watched pages, checks sources, collects the last two weeks of posts from watched accounts into `inbox/`, snapshots up to 20 sources that don't have a snapshot yet, archives unarchived sources (when the archive.org secrets are set), commits the results, and **opens an issue whenever a watched page changes**.
 - **Capture** (`.github/workflows/capture.yml`) runs on demand. It snapshots every source that doesn't have a snapshot yet. Run it once to backfill the whole record.
 - **Sweep** (`.github/workflows/sweep.yml`) runs on demand. It reads the full archived history of every X account in `data/accounts.yaml` (and the X API timeline when an `X_BEARER_TOKEN` secret is set), one job per account, keeps every post in `inbox/sweep/`, lists topic matches and deleted posts for triage, and writes `inbox/sweep/COVERAGE.md`. Each account reads for up to the run's time budget and saves its place; run it again to continue where it stopped. Nothing is added to the record automatically.
+
+Outside GitHub Actions, a scheduled Claude Code session runs a **weekly news
+sweep** every Monday at 06:46 UTC: it reads the week's news on both companies,
+drafts entries and updates under the methodology, and opens a pull request for
+review. It never merges. Its reports go in `inbox/news/`.
 
 Optional repository secrets (*Settings → Secrets and variables → Actions*):
 `IA_ACCESS_KEY` and `IA_SECRET_KEY` (archive.org), `X_BEARER_TOKEN` (X API),
