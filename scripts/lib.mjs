@@ -28,7 +28,7 @@ export const GRADES = ['kept', 'standing', 'eroded', 'broken', 'unknown'];
 const ENTRY_KEYS = new Set([
   'title', 'date', 'org', 'type', 'kind', 'who', 'venue', 'quote', 'summary',
   'concreteness', 'status', 'breaks_if', 'contradicts', 'related', 'patterns',
-  'sources', 'response', 'note', 'updates', 'revision', 'last_checked', 'outcome',
+  'sources', 'response', 'note', 'updates', 'revision', 'last_checked', 'outcome', 'due',
 ]);
 // Statuses that mean a statement failed; each one should have a receipt.
 export const FAILED = ['broken', 'reversed', 'eroded', 'contradicted'];
@@ -46,6 +46,17 @@ export function parseDate(value) {
   if (check.getUTCFullYear() !== +y || check.getUTCMonth() !== +mo - 1 || check.getUTCDate() !== +d) return null;
   const precision = m[3] ? 'day' : m[2] ? 'month' : 'year';
   return { iso: String(value), precision, time };
+}
+
+/** The last moment of a YYYY, YYYY-MM or YYYY-MM-DD period (a deadline of "2027" runs to the end of 2027). */
+export function periodEnd(value) {
+  const d = parseDate(value);
+  if (!d) return null;
+  const t = new Date(d.time);
+  const y = t.getUTCFullYear();
+  if (d.precision === 'year') return Date.UTC(y + 1, 0, 1) - 1;
+  if (d.precision === 'month') return Date.UTC(y, t.getUTCMonth() + 1, 1) - 1;
+  return d.time + 86400000 - 1;
 }
 
 export async function readYaml(file) {
@@ -200,6 +211,12 @@ export function validate({ patterns, actors, entries, accounts = [], commitments
         else if (lc.time > Date.now() + DAY) err(e, 'last_checked is in the future');
       }
       if (e.contradicts?.length) err(e, '"contradicts" belongs on the "did" entry, pointing back at what was said');
+      if (e.due !== undefined) {
+        // The date by which the promise's own test can be applied (e.g. "by March 2027").
+        const end = periodEnd(e.due);
+        if (!end) err(e, `due must be YYYY, YYYY-MM or YYYY-MM-DD (got "${e.due}")`);
+        else if (e.status === 'open' && end < Date.now()) warn(e, `its deadline (${e.due}) has passed; check whether it was met and update the status`);
+      }
       if (e.outcome !== undefined) {
         // What happened, for a failed statement with no separate "did" entry. The
         // date may precede the statement when the company's own earlier record
@@ -214,6 +231,7 @@ export function validate({ patterns, actors, entries, accounts = [], commitments
       }
     } else if (e.type === 'did') {
       if (e.outcome !== undefined) err(e, 'outcome only applies to "said" entries');
+      if (e.due !== undefined) err(e, 'due only applies to "said" entries');
       if (e.status || e.concreteness) warn(e, 'status/concreteness only apply to "said" entries');
       if (e.last_checked) warn(e, 'last_checked only applies to "said" entries');
       for (const id of e.contradicts ?? []) {

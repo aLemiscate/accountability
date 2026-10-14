@@ -43,8 +43,8 @@ sources:
     type: analysis
     archive: https://web.archive.org/web/20260929220725/https://en.wikipedia.org/wiki/Leading_the_Future
     snapshot: snapshots/2026-09-29-en.wikipedia.org-63aabc7b
-  - title: Greg Brockman on X ("My wife Anna and I are supporting @LeadingFutureAI")
-    publisher: X
+  - title: Greg Brockman on Twitter ("My wife Anna and I are supporting @LeadingFutureAI")
+    publisher: Twitter
     url: https://x.com/gdb/status/1960022650228793440
     date: 2025-08-25
     type: primary
@@ -77,8 +77,8 @@ updates:
         type: reporting
         archive: https://web.archive.org/web/20260830231043/https://gizmodo.com/openai-president-defends-trump-donations-refuses-to-comment-on-ice-2000721451
         snapshot: snapshots/2026-10-13-gizmodo.com-7d675719
-      - title: Alex Bores on X
-        publisher: X
+      - title: Alex Bores on Twitter
+        publisher: Twitter
         url: https://x.com/AlexBores/status/2007101480395047014
         date: 2026-01-02
         type: primary
@@ -89,8 +89,8 @@ updates:
       effort by the pro-AI lobby to torpedo Alex Bores will later on be widely
       understood as a pointless own-goal."
     sources:
-      - title: Joshua Achiam on X
-        publisher: X
+      - title: Joshua Achiam on Twitter
+        publisher: Twitter
         url: https://x.com/jachiam0/status/2036872170044018943
         date: 2026-03-25
         type: primary
@@ -106,8 +106,8 @@ updates:
       operations," and that "No outside political group speaks for OpenAI or
       represents our company's views."
     sources:
-      - title: Greg Brockman on X
-        publisher: X
+      - title: Greg Brockman on Twitter
+        publisher: Twitter
         url: https://x.com/gdb/status/2060151447195373843
         date: 2026-05-29
         type: primary

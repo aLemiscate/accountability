@@ -33,8 +33,8 @@ outcome:
     apply."
 patterns: [silent-edit]
 sources:
-  - title: OpenAI on X ("Updates include following robots.txt")
-    publisher: X
+  - title: OpenAI on Twitter ("Updates include following robots.txt")
+    publisher: Twitter
     url: https://x.com/OpenAI/status/1707077711192297502
     date: 2023-09-27
     type: primary

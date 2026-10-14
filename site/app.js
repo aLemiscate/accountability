@@ -448,6 +448,19 @@
     return frag;
   }
 
+  // A promise's own deadline: "Due end of March 2027", or "Deadline passed" once it has.
+  function dueLine(e) {
+    if (!e.due) return null;
+    const d = parseDate(e.due);
+    if (!d) return null;
+    const t = new Date(d.time);
+    const end = d.precision === 'year' ? Date.UTC(t.getUTCFullYear() + 1, 0, 1) - 1
+      : d.precision === 'month' ? Date.UTC(t.getUTCFullYear(), t.getUTCMonth() + 1, 1) - 1 : d.time + DAY - 1;
+    const when = d.precision === 'day' ? fmtDate(e.due) : `end of ${fmtDate(e.due)}`;
+    const passed = end < NOW;
+    return h('p', { class: `label due${passed && e.status === 'open' ? ' passed' : ''}` }, passed ? `Deadline passed: ${when}` : `Due ${when}`);
+  }
+
   function renderWatchlist() {
     const said = D.entries.filter((e) => e.type === 'said' && matches(e));
     const open = said.filter((e) => e.status === 'open').sort((a, b) => b.time - a.time);
@@ -465,6 +478,7 @@
           quoteBlock(e.quote, e),
           !e.quote && e.summary && h('p', null, clip(e.summary, 260)),
           e.breaks_if && h('div', { class: 'breaks' }, h('span', { class: 'label' }, 'Counts as broken if'), h('p', null, e.breaks_if)),
+          dueLine(e),
           e.last_checked && h('p', { class: 'label checked' }, `Last checked ${fmtDate(e.last_checked)}`),
           e.patterns.length > 0 && h('div', { class: 'side-head' }, patternChips(e.patterns)),
         ),
@@ -616,6 +630,7 @@
         e.revision && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'What changed'),
           h('div', { class: 'diff' }, h('div', { class: 'minus' }, h('b', null, '−'), e.revision.before), h('div', { class: 'plus' }, h('b', null, '+'), e.revision.after))),
         e.breaks_if && h('div', { class: 'breaks' }, h('span', { class: 'label' }, 'Counts as broken if'), h('p', null, e.breaks_if)),
+        dueLine(e),
         e.outcome && h('div', { class: 'd-section' }, h('span', { class: 'label' }, `Outcome, ${fmtDate(e.outcome.date)}`), h('p', null, e.outcome.text)),
         e.last_checked && h('p', { class: 'label checked' }, `Status last checked against the record on ${fmtDate(e.last_checked)}`),
         (e.contradicts.length + e.contradicted_by.length + e.related.length > 0) && h('div', { class: 'd-section links' },

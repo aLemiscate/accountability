@@ -35,8 +35,8 @@ sources:
     date: 2026-04-23
     type: primary
     snapshot: snapshots/2026-10-03-anthropic.com-85b0ca3c
-  - title: Boris Cherny on X (sharing the post-mortem)
-    publisher: X
+  - title: Boris Cherny on Twitter (sharing the post-mortem)
+    publisher: Twitter
     url: https://x.com/bcherny/status/2047375800945783056
     date: 2026-04-23
     type: primary
@@ -49,14 +49,14 @@ sources:
     type: primary
     archive: https://web.archive.org/web/20261006003107/https://news.ycombinator.com/item?id=47664442
     snapshot: snapshots/2026-10-07-news.ycombinator.com-b091fee6
-  - title: Boris Cherny on X ("We serve exactly the same models to all users")
-    publisher: X
+  - title: Boris Cherny on Twitter ("We serve exactly the same models to all users")
+    publisher: Twitter
     url: https://x.com/bcherny/status/2040308730190020847
     date: 2026-04-04
     type: primary
     snapshot: snapshots/2026-10-13-x.com-7568da4f
-  - title: Boris Cherny on X ("Literally nothing sneaky about it")
-    publisher: X
+  - title: Boris Cherny on Twitter ("Literally nothing sneaky about it")
+    publisher: Twitter
     url: https://x.com/bcherny/status/2043163965648515234
     date: 2026-04-12
     type: primary
@@ -103,8 +103,8 @@ updates:
       minutes." Neither entry says when the problem began or how many people it
       reached.
     sources:
-      - title: Boris Cherny on X ("1h prompt cache is nuanced actually")
-        publisher: X
+      - title: Boris Cherny on Twitter ("1h prompt cache is nuanced actually")
+        publisher: Twitter
         url: https://x.com/bcherny/status/2043715740080222549
         date: 2026-04-13
         type: primary

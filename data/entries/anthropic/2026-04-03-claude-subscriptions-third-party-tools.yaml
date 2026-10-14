@@ -28,31 +28,31 @@ summary: >-
 patterns: [shrinking-plan]
 related: [2025-07-28-claude-weekly-limits]
 sources:
-  - title: Boris Cherny on X ("Starting tomorrow at 12pm PT")
-    publisher: X
+  - title: Boris Cherny on Twitter ("Starting tomorrow at 12pm PT")
+    publisher: Twitter
     url: https://x.com/bcherny/status/2040206440556826908
     date: 2026-04-03
     type: primary
     archive: https://web.archive.org/web/20260416092555/https://x.com/bcherny/status/2040206440556826908
     snapshot: snapshots/2026-10-03-x.com-19e7a12c
-  - title: Boris Cherny on X ("our subscriptions weren't built for the usage
+  - title: Boris Cherny on Twitter ("our subscriptions weren't built for the usage
       patterns of these third-party tools")
-    publisher: X
+    publisher: Twitter
     url: https://x.com/bcherny/status/2040206441756471399
     date: 2026-04-03
     type: primary
     archive: https://web.archive.org/web/20260515000002/https://x.com/bcherny/status/2040206441756471399
     snapshot: snapshots/2026-10-03-x.com-38444b07
-  - title: Boris Cherny on X ("Right, it wasn't allowed")
-    publisher: X
+  - title: Boris Cherny on Twitter ("Right, it wasn't allowed")
+    publisher: Twitter
     url: https://x.com/bcherny/status/2040213760070275281
     date: 2026-04-03
     type: primary
     archive: https://web.archive.org/web/20260404152907/https://x.com/bcherny/status/2040213760070275281
     snapshot: snapshots/2026-10-03-x.com-d8f4575d
-  - title: Thibault Sottiaux on X, quoting Thariq Shihipar ("we tightened our
+  - title: Thibault Sottiaux on Twitter, quoting Thariq Shihipar ("we tightened our
       safeguards against spoofing the Claude Code harness")
-    publisher: X
+    publisher: Twitter
     url: https://x.com/thsottiaux/status/2009714843587342393
     date: 2026-01-09
     type: primary
@@ -71,14 +71,14 @@ sources:
     date: 2026-04-06
     type: reporting
     snapshot: snapshots/2026-10-03-theregister.com-332fa0ef
-  - title: Boris Cherny on X ("an overactive abuse-detection system")
-    publisher: X
+  - title: Boris Cherny on Twitter ("an overactive abuse-detection system")
+    publisher: Twitter
     url: https://x.com/bcherny/status/2041254998462611571
     date: 2026-04-06
     type: primary
     snapshot: snapshots/2026-10-03-x.com-c2ee0c10
-  - title: Alex Albert on X ("a monthly Claude Agent SDK credit")
-    publisher: X
+  - title: Alex Albert on Twitter ("a monthly Claude Agent SDK credit")
+    publisher: Twitter
     url: https://x.com/alexalbert__/status/2054613082589298899
     date: 2026-05-13
     type: primary
@@ -114,21 +114,21 @@ updates:
         type: reporting
         archive: https://web.archive.org/web/20260429081058/https://www.theregister.com/2026/04/22/anthropic_removes_claude_code_pro/
         snapshot: snapshots/2026-10-13-theregister.com-11f11325
-      - title: Amol Avasare on X ("For clarity, we're running a small test")
-        publisher: X
+      - title: Amol Avasare on Twitter ("For clarity, we're running a small test")
+        publisher: Twitter
         url: https://x.com/TheAmolAvasare/status/2046724659039932830
         date: 2026-04-21
         type: primary
         snapshot: snapshots/2026-10-13-x.com-b3b91732
-      - title: Amol Avasare on X ("Engagement per subscriber is way up")
-        publisher: X
+      - title: Amol Avasare on Twitter ("Engagement per subscriber is way up")
+        publisher: Twitter
         url: https://x.com/TheAmolAvasare/status/2046725282502173046
         date: 2026-04-21
         type: primary
         snapshot: snapshots/2026-10-13-x.com-b9e88229
-      - title: Thibault Sottiaux on X, quoting Amol Avasare ("a small test on ~2% of new
+      - title: Thibault Sottiaux on Twitter, quoting Amol Avasare ("a small test on ~2% of new
           prosumer signups")
-        publisher: X
+        publisher: Twitter
         url: https://x.com/thsottiaux/status/2046740759056162816
         date: 2026-04-21
         type: primary

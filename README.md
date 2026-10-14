@@ -60,6 +60,7 @@ Entries are plain YAML, one file per event. The fields:
 | `status` | said | `open`, `kept`, `broken`, `reversed`, `eroded`, `contradicted` |
 | `concreteness` | said | `measurable`, `conditional`, `directional`, `aspirational` |
 | `breaks_if` | said | For open promises: what outcome would count as breaking it |
+| `due` | said | For an open promise with a date in its own test: `YYYY`, `YYYY-MM` or `YYYY-MM-DD`. The validator warns once it has passed, and the site shows it |
 | `outcome` | said | For a failed statement with no "did" entry that contradicts it: `date` and `text` saying what happened, shown as a receipt |
 | `contradicts` | did | Ids of the earlier statements this action contradicts |
 | `revision` | did | `before` / `after` text for a rewritten policy |

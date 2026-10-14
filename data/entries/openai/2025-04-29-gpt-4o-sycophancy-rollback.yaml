@@ -23,8 +23,8 @@ summary: >-
 patterns: [ship-then-patch]
 related: [2025-05-02-behavior-issues-block-launches]
 sources:
-  - title: OpenAI on X (rollback)
-    publisher: X
+  - title: OpenAI on Twitter (rollback)
+    publisher: Twitter
     url: https://x.com/OpenAI/status/1917411480548565332
     date: 2025-04-29
     type: primary
@@ -43,14 +43,14 @@ sources:
     type: primary
     archive: https://web.archive.org/web/20260928190931/https://openai.com/index/expanding-on-sycophancy/
     snapshot: snapshots/2026-10-01-openai.com-0e972e07
-  - title: OpenAI on X (post-mortem)
-    publisher: X
+  - title: OpenAI on Twitter (post-mortem)
+    publisher: Twitter
     url: https://x.com/OpenAI/status/1918321280790741189
     date: 2025-05-02
     type: primary
     snapshot: snapshots/2026-09-30-x.com-da57d27f
-  - title: Sam Altman on X ("too sycophant-y and annoying")
-    publisher: X
+  - title: Sam Altman on Twitter ("too sycophant-y and annoying")
+    publisher: Twitter
     url: https://x.com/sama/status/1916625892123742290
     date: 2025-04-27
     type: primary

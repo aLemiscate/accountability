@@ -497,6 +497,8 @@ main { padding-block: 40px 80px; min-height: 50vh; }
 .wcard .main { display: grid; gap: 12px; min-width: 0; }
 .wcard .main > p { color: var(--ink-2); }
 .age { text-align: right; display: grid; gap: 4px; align-content: start; }
+.label.due { color: var(--standing); }
+.label.due.passed { color: var(--fail); }
 .breaks { background: var(--surface); padding: 12px 14px; display: grid; gap: 4px; font-size: var(--step--1); max-width: var(--measure); }
 .section-sub { font: 600 var(--step-2)/1.1 var(--sans); letter-spacing: -0.03em; margin: 48px 0 16px; }
 

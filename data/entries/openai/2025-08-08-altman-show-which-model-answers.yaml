@@ -24,14 +24,14 @@ related:
     2025-02-12-gpt-5-free-unlimited
   ]
 sources:
-  - title: Sam Altman on X ("GPT-5 rollout updates")
-    publisher: X
+  - title: Sam Altman on Twitter ("GPT-5 rollout updates")
+    publisher: Twitter
     url: https://x.com/sama/status/1953893841381273969
     date: 2025-08-08
     type: primary
     snapshot: snapshots/2026-10-13-x.com-2b78ff10
-  - title: Sam Altman on X ("a UI change to indicate which model is working")
-    publisher: X
+  - title: Sam Altman on Twitter ("a UI change to indicate which model is working")
+    publisher: Twitter
     url: https://x.com/sama/status/1954602880952115603
     date: 2025-08-10
     type: primary
@@ -59,8 +59,8 @@ updates:
         type: reporting
         archive: https://web.archive.org/web/20261003135818/https://techcrunch.com/2025/09/29/openai-rolls-out-safety-routing-system-parental-controls-on-chatgpt/
         snapshot: snapshots/2026-10-03-techcrunch.com-52252a74
-      - title: OpenAI on X ("what model is active when asked")
-        publisher: X
+      - title: OpenAI on Twitter ("what model is active when asked")
+        publisher: Twitter
         url: https://x.com/OpenAI/status/1974234951928459450
         date: 2025-10-03
         type: primary

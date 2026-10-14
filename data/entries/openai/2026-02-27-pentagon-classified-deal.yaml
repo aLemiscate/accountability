@@ -21,26 +21,26 @@ summary: >-
 related: [2026-02-27-anthropic-pentagon-red-lines]
 patterns: [ship-then-patch, sorry-after-caught, principles-with-a-price]
 sources:
-  - title: Sam Altman on X (announcing the agreement)
-    publisher: X
+  - title: Sam Altman on Twitter (announcing the agreement)
+    publisher: Twitter
     url: https://x.com/sama/status/2027578652477821175
     date: 2026-02-27
     type: primary
     snapshot: snapshots/2026-09-29-x.com-4047f6b4
-  - title: Sam Altman on X (re-post of an internal memo on the amendments)
-    publisher: X
+  - title: Sam Altman on Twitter (re-post of an internal memo on the amendments)
+    publisher: Twitter
     url: https://x.com/sama/status/2028640354912923739
     date: 2026-03-02
     type: primary
     snapshot: snapshots/2026-09-29-x.com-5113866d
-  - title: Caitlin Kalinowski on X
-    publisher: X
+  - title: Caitlin Kalinowski on Twitter
+    publisher: Twitter
     url: https://x.com/kalinowski007/status/2030320074121478618
     date: 2026-03-07
     type: primary
     snapshot: snapshots/2026-09-29-x.com-6adaf96a
-  - title: Caitlin Kalinowski on X (follow-up reply)
-    publisher: X
+  - title: Caitlin Kalinowski on Twitter (follow-up reply)
+    publisher: Twitter
     url: https://x.com/kalinowski007/status/2030331550236320071
     date: 2026-03-07
     type: primary
@@ -143,21 +143,21 @@ updates:
       supply chain risk and we've made our position on this clear to the
       Department of War."
     sources:
-      - title: OpenAI on X (red lines)
-        publisher: X
+      - title: OpenAI on Twitter (red lines)
+        publisher: Twitter
         url: https://x.com/OpenAI/status/2027846013650932195
         date: 2026-02-28
         type: primary
         snapshot: snapshots/2026-10-13-x.com-8dde517e
-      - title: OpenAI on X ("Other AI labs have reduced or removed their safety
+      - title: OpenAI on Twitter ("Other AI labs have reduced or removed their safety
           guardrails"; "We retain full discretion over our safety stack")
-        publisher: X
+        publisher: Twitter
         url: https://x.com/OpenAI/status/2027846015051772121
         date: 2026-02-28
         type: primary
         snapshot: snapshots/2026-10-13-x.com-1a4ff832
-      - title: OpenAI on X (on Anthropic's designation)
-        publisher: X
+      - title: OpenAI on Twitter (on Anthropic's designation)
+        publisher: Twitter
         url: https://x.com/OpenAI/status/2027846016423321831
         date: 2026-02-28
         type: primary
@@ -176,26 +176,26 @@ updates:
       in the law, OpenAI's chief strategy officer Jason Kwon said the contract
       "date stamps" the relevant policy directive or law: "That's what we did."
     sources:
-      - title: Sam Altman on X ("We trust their authority")
-        publisher: X
+      - title: Sam Altman on Twitter ("We trust their authority")
+        publisher: Twitter
         url: https://x.com/sama/status/2027914492961820839
         date: 2026-03-01
         type: primary
         snapshot: snapshots/2026-09-30-x.com-720fa38c
-      - title: Sam Altman on X ("the main reason for the rush")
-        publisher: X
+      - title: Sam Altman on Twitter ("the main reason for the rush")
+        publisher: Twitter
         url: https://x.com/sama/status/2027916067436433538
         date: 2026-03-01
         type: primary
         snapshot: snapshots/2026-09-30-x.com-349d9f97
-      - title: Jason Kwon on X ("date stamps")
-        publisher: X
+      - title: Jason Kwon on Twitter ("date stamps")
+        publisher: Twitter
         url: https://x.com/jasonkwon/status/2027948755467833366
         date: 2026-03-01
         type: primary
         snapshot: snapshots/2026-09-30-x.com-bd1da095
-      - title: Sam Altman on X ("three redlines")
-        publisher: X
+      - title: Sam Altman on Twitter ("three redlines")
+        publisher: Twitter
         url: https://x.com/sama/status/2027908779015340193
         date: 2026-03-01
         type: primary
@@ -214,21 +214,21 @@ updates:
       works on model behavior, wrote: "i personally don’t think this deal was
       worth it." Platformer reported both posts.
     sources:
-      - title: Leo Gao on X ("window dressing")
-        publisher: X
+      - title: Leo Gao on Twitter ("window dressing")
+        publisher: Twitter
         url: https://x.com/nabla_theta/status/2028048714368250308
         date: 2026-03-01
         type: primary
         archive: https://web.archive.org/web/20260302161106/https://x.com/nabla_theta/status/2028048714368250308
         snapshot: snapshots/2026-10-13-x.com-b6fab1a7
-      - title: Boaz Barak on X (quoting Leo Gao)
-        publisher: X
+      - title: Boaz Barak on Twitter (quoting Leo Gao)
+        publisher: Twitter
         url: https://x.com/boazbaraktcs/status/2028132252090007776
         date: 2026-03-01
         type: primary
         snapshot: snapshots/2026-10-13-x.com-251084d7
-      - title: Aidan McLaughlin on X ("i personally don’t think this deal was worth it")
-        publisher: X
+      - title: Aidan McLaughlin on Twitter ("i personally don’t think this deal was worth it")
+        publisher: Twitter
         url: https://x.com/aidan_mclau/status/2028507663529906395
         date: 2026-03-02
         type: primary

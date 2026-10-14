@@ -22,6 +22,7 @@ summary: >-
 concreteness: measurable
 status: open
 last_checked: 2026-10-13
+due: '2027-03'
 breaks_if: >-
   By the end of March 2027, the Foundation's reporting or filings show less than
   $1 billion committed or invested; or the $25 billion commitment is reduced,
@@ -35,8 +36,8 @@ sources:
     date: 2026-03-24
     type: primary
     snapshot: snapshots/2026-09-30-openaifoundation.org-ca9aa9c6
-  - title: Bret Taylor on X
-    publisher: X
+  - title: Bret Taylor on Twitter
+    publisher: Twitter
     url: https://x.com/btaylor/status/2036474423998554334
     date: 2026-03-24
     type: primary

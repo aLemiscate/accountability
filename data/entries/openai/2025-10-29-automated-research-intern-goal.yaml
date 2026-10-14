@@ -26,6 +26,7 @@ summary: >-
 concreteness: directional
 status: open
 last_checked: 2026-10-13
+due: '2028-03'
 breaks_if: >-
   March 2028 passes without OpenAI either demonstrating "a true automated AI
   researcher" or saying plainly that it missed the goal; or OpenAI stops
@@ -33,8 +34,8 @@ breaks_if: >-
 patterns: []
 related: [2025-03-06-anthropic-powerful-ai-late-2026]
 sources:
-  - title: Sam Altman on X ("We have set internal goals")
-    publisher: X
+  - title: Sam Altman on Twitter ("We have set internal goals")
+    publisher: Twitter
     url: https://x.com/sama/status/1983584366547829073
     date: 2025-10-29
     type: primary
