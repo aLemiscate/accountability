@@ -15,15 +15,39 @@ words and the deed. Entries are tagged with recurring **patterns** (the race
 clause, silent edits, mission-to-market, and so on), so repetition becomes
 visible and each pattern's next occurrence can be anticipated.
 
-The site has five views:
+The site has six views:
 
 - **Receipts**: statement → contradicting action, with the elapsed time, plus before/after diffs of rewritten policies.
 - **Timeline**: everything, in date order.
 - **Patterns**: a pattern-by-year recurrence chart, with each pattern's tells, what to watch for next, and, where the behavior is industry-wide, one sourced sentence on another company doing the same.
-- **Watchlist**: promises still in force, each with a written "counts as broken if" test and a running age.
+- **Watchlist**: promises still in force, each with a written "counts as broken if" test, a running age, and the deadline where the promise names one.
+- **Commitments**: every commitment in the formal documents each company signed, graded one by one.
 - **Method**: the standards the record follows.
 
 Every entry links back to its file, so readers can check or correct it.
+
+### Reading and sharing
+
+- **See it in the source.** Where a quote was found word for word in a saved copy
+  of its source, the build keeps the passage around it, and the
+  "✓ Quote matches the saved source" line opens to show the quote highlighted in
+  that passage, with links to the original, the archived copy and the saved copy.
+- **Links to a view.** The address carries the view and its filters as words
+  joined by dots, so a filtered view can be shared as it is:
+  `#timeline.openai.silent-edit` (company, pattern id, person id, and `oldest`
+  for oldest first). "Copy link to this view" copies it.
+- **Link previews.** On the GitHub Pages site, each entry has its own page at
+  `e/<entry-id>/` with a title, description and card image for link previews;
+  it forwards readers to the entry on the main page. `npm run cards` writes
+  these pages and images (it needs Playwright; `--no-images` skips the images).
+- **RSS.** `feed.xml` (Atom) lists new entries, dated by when they were added
+  to the repository, and updates to existing entries, dated by the event.
+- **Search** covers titles, quotes, summaries, updates, people, pattern names,
+  sources and the commitments documents. Matched words are marked, and on the
+  timeline each card says where the match was.
+- **Print.** Printing (on the GitHub Pages site) gives the current view on
+  white without the controls, or only the open entry, with its source
+  addresses written out.
 
 ## Quick start
 
@@ -205,7 +229,7 @@ private. Deleted posts are worth recording too. Results go to
 
 ## Automation (GitHub Actions)
 
-- **Site** (`.github/workflows/site.yml`) runs on every push: it validates, builds and tests the record, then publishes to GitHub Pages from the default branch. One-time setup: *Settings → Pages → Source: GitHub Actions*.
+- **Site** (`.github/workflows/site.yml`) runs on every push: it validates, builds and tests the record, writes the per-entry link-preview pages and card images (`npm run cards`) and the Atom feed, then publishes to GitHub Pages from the default branch. It checks out the full history, since the feed dates new entries by when they were added. One-time setup: *Settings → Pages → Source: GitHub Actions*.
 - **Watch** (`.github/workflows/watch.yml`) runs every Monday and on demand. It re-reads watched pages, checks sources, collects the last two weeks of posts from watched accounts into `inbox/`, snapshots up to 20 sources that don't have a snapshot yet, archives unarchived sources (when the archive.org secrets are set), commits the results, and **opens an issue whenever a watched page changes**.
 - **Capture** (`.github/workflows/capture.yml`) runs on demand. It snapshots every source that doesn't have a snapshot yet. Run it once to backfill the whole record.
 - **Sweep** (`.github/workflows/sweep.yml`) runs on demand. It reads the full archived history of every X account in `data/accounts.yaml` (and the X API timeline when an `X_BEARER_TOKEN` secret is set), one job per account, keeps every post in `inbox/sweep/`, lists topic matches and deleted posts for triage, and writes `inbox/sweep/COVERAGE.md`. Each account reads for up to the run's time budget and saves its place; run it again to continue where it stopped. Nothing is added to the record automatically.
@@ -257,7 +281,7 @@ data/
   accounts.yaml              X / Bluesky accounts that find-posts reads
   site.yaml                  name, tagline, repo and site URLs
 site/                        the static site (index.html, styles.css, app.js)
-scripts/                     build, capture, new-entry, find-posts, check-sources, watch-pages, serve
+scripts/                     build, cards, capture, new-entry, find-posts, check-sources, watch-pages, serve
 snapshots/                   captured evidence
 inbox/                       candidate posts waiting for triage
 watch/                       page-text baselines and diffs

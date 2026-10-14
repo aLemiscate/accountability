@@ -45,7 +45,7 @@
   const DAY = 86400000;
   const NOW = Date.now();
 
-  const state = { view: 'receipts', org: 'all', pattern: '', person: '', q: '' };
+  const state = { view: 'receipts', org: 'all', pattern: '', person: '', q: '', order: 'newest' };
 
   // ── tiny DOM builder (text is always set as text, never parsed as HTML) ──
   function h(tag, attrs, ...kids) {
@@ -93,6 +93,18 @@
     glyph.setAttribute('class', 'glyph');
     glyph.setAttribute('transform', `translate(12 12) scale(${LOGO_SCALE[org] ?? 0.6}) translate(-12 -12)`);
     s.append(ring, glyph);
+    return s;
+  }
+  // The bare logo, for running text: next to a company's name, or beside a count.
+  function glyph(org) {
+    const s = document.createElementNS(SVG, 'svg');
+    s.setAttribute('viewBox', '0 0 24 24');
+    s.setAttribute('class', `og ${org}`);
+    s.setAttribute('aria-hidden', 'true');
+    s.setAttribute('focusable', 'false');
+    const p = document.createElementNS(SVG, 'path');
+    p.setAttribute('d', LOGO[org] || '');
+    s.append(p);
     return s;
   }
   // A mark for one entry: a button in the pattern grid, a plain span in keys and lists.
@@ -181,11 +193,27 @@
   const personActors = D.actors.filter((a) => a.kind !== 'org');
 
   // ── filtering ──────────────────────────────────────────────────────────
-  function haystack(e) {
+  // Search folds case and curly quotes on both sides, one character for one
+  // character, so a match found in the folded text can be marked in the original.
+  const fold = (t) => String(t).toLowerCase().replace(/[‘’]/g, "'").replace(/[“”]/g, '"');
+  const qWords = () => (state.q ? fold(state.q).split(/\s+/).filter(Boolean) : []);
+  const hasAll = (text, words) => { const t = fold(text); return words.every((w) => t.includes(w)); };
+  const patternName = (id) => patternById.get(id)?.name || id;
+  // Every searchable field of an entry, labeled, so the timeline can say where a match was.
+  function fields(e) {
     const sources = [...(e.sources || []), ...(e.updates || []).flatMap((u) => u.sources || [])];
-    return [e.title, e.quote, e.summary, e.note, e.venue, e.response, e.breaks_if, ...(e.who || []).map(actorName),
-      ...(e.updates || []).map((u) => u.text), ...sources.flatMap((s) => [s.title, s.publisher])]
-      .filter(Boolean).join(' ').toLowerCase();
+    return [
+      ['Quote', e.quote], ['Summary', e.summary],
+      ['Before', e.revision?.before], ['After', e.revision?.after], ['Outcome', e.outcome?.text],
+      ...(e.updates || []).map((u) => ['Update', u.text]),
+      ['Person', (e.who || []).map(actorName).join(', ')], ['Where', e.venue],
+      ['Pattern', e.patterns.map(patternName).join(', ')],
+      ['Counts as broken if', e.breaks_if], ['Their side', e.response], ['Note', e.note],
+      ...sources.map((x) => ['Source', [x.title, x.publisher].filter(Boolean).join(', ')]),
+    ].filter(([, t]) => t);
+  }
+  function haystack(e) {
+    return fold([e.title, orgName(e.org), ...fields(e).map(([, t]) => t)].join(' '));
   }
   const hayCache = new Map();
   function matches(e) {
@@ -194,9 +222,55 @@
     if (state.person && !e.who.includes(state.person)) return false;
     if (state.q) {
       if (!hayCache.has(e.id)) hayCache.set(e.id, haystack(e));
-      if (!state.q.toLowerCase().split(/\s+/).every((w) => hayCache.get(e.id).includes(w))) return false;
+      if (!qWords().every((w) => hayCache.get(e.id).includes(w))) return false;
     }
     return true;
+  }
+  /** The text with the searched words marked. Returns the plain string when there is nothing to mark. */
+  function hl(text) {
+    const words = qWords().filter((w) => w.length > 1);
+    if (!words.length || !text) return text;
+    const low = fold(text);
+    if (low.length !== text.length) return text;
+    const spans = [];
+    for (const w of words) for (let i = low.indexOf(w); i !== -1; i = low.indexOf(w, i + w.length)) spans.push([i, i + w.length]);
+    if (!spans.length) return text;
+    spans.sort((a, b) => a[0] - b[0]);
+    const out = [];
+    let at = 0;
+    for (const [a, b] of spans) {
+      if (b <= at) continue;
+      const from = Math.max(a, at);
+      if (from > at) out.push(text.slice(at, from));
+      // Overlapping words join the mark before them.
+      if (from === at && out.length && typeof out[out.length - 1] !== 'string') out[out.length - 1].append(text.slice(from, b));
+      else out.push(h('mark', { class: 'qhit' }, text.slice(from, b)));
+      at = b;
+    }
+    if (at < text.length) out.push(text.slice(at));
+    return out;
+  }
+  // In the timeline only the title shows, so when the words matched somewhere
+  // else the card says where, with the match in its context.
+  function matchContext(e) {
+    const words = qWords();
+    const missing = words.filter((w) => !fold(e.title).includes(w));
+    if (!missing.length) return null;
+    for (const [label, t] of fields(e)) {
+      const low = fold(t);
+      const w = missing.find((x) => low.includes(x));
+      if (!w) continue;
+      const at = low.indexOf(w);
+      let a = Math.max(0, at - 60);
+      let b = Math.min(t.length, at + w.length + 90);
+      const sa = t.indexOf(' ', a);
+      if (a > 0 && sa !== -1 && sa < at) a = sa + 1;
+      const sb = t.lastIndexOf(' ', b);
+      if (b < t.length && sb > at + w.length) b = sb;
+      const piece = `${a > 0 ? '…' : ''}${t.slice(a, b)}${b < t.length ? '…' : ''}`;
+      return h('p', { class: 'why' }, h('span', { class: 'label' }, label), ' ', hl(piece));
+    }
+    return null;
   }
   const anyFilter = () => state.org !== 'all' || state.pattern || state.person || state.q;
 
@@ -229,10 +303,12 @@
   }
 
   // ── shared pieces ──────────────────────────────────────────────────────
-  const orgTag = (org) => h('span', { class: 'org' }, h('span', { class: `org-mark ${org}`, 'aria-hidden': 'true' }), orgName(org));
+  const orgTag = (org) => h('span', { class: `org ${org}` }, glyph(org), orgName(org));
   const stamp = (type) => h('span', { class: `stamp ${type}` }, type === 'said' ? 'Said' : 'Did');
   const statusPill = (s) => h('span', { class: `pill s-${s}`, title: STATUS_DEF[s] }, STATUS_LABEL[s] || s);
-  const concretePill = (c) => c && h('span', { class: 'pill c', title: CONCRETE_DEF[c] }, c);
+  // "Measurable commitment", "Directional claim": how testable the statement was, in words.
+  const concretePill = (c, kind) => c && h('span', { class: 'pill c', title: CONCRETE_DEF[c] },
+    `${c[0].toUpperCase()}${c.slice(1)}${kind ? ` ${kind}` : ''}`);
   /** Pattern tags. Clicking one follows that pattern (filters every view); clicking it again stops. */
   const patternChips = (ids, toView) => ids.map((p) => h('button', {
     class: 'chip',
@@ -283,7 +359,7 @@
       h('p', null, p.thesis),
       entries.length > 0 && h('p', { class: 'pbrief-meta' },
         h('span', null, `${entries.length} entr${entries.length === 1 ? 'y' : 'ies'}, ${yearSpan(entries)}`),
-        h('span', { class: 'pbrief-orgs' }, orgs.map(([o, n]) => h('span', { class: 'org' }, h('span', { class: `org-mark ${o}`, 'aria-hidden': 'true' }), `${orgName(o)} ${n}`))),
+        h('span', { class: 'pbrief-orgs' }, orgs.map(([o, n]) => h('span', { class: `org ${o}` }, glyph(o), `${orgName(o)} ${n}`))),
         outcomeTally(entries)),
       p.industry && industryNote(p.industry),
       (p.tells?.length > 0 || p.watch_for) && h('details', null,
@@ -310,14 +386,71 @@
   }
   const snapDate = (dir) => (/(\d{4}-\d{2}-\d{2})/.exec(dir || '') || [])[1];
   const quoteBlock = (text, e) => text && h('div', { class: 'quote-wrap' },
-    h('blockquote', { class: 'quote' }, `“${text.trim()}”`),
-    e?.quote_check?.status === 'matched' && h('span', { class: 'verified', title: `Found word for word in ${e.quote_check.snapshot}` },
-      `✓ Matched to source snapshot, ${fmtDate(snapDate(e.quote_check.snapshot))}`));
-  const titleButton = (e) => h('button', { class: 'side-title', type: 'button', onclick: () => openEntry(e.id) }, e.title);
+    h('blockquote', { class: 'quote' }, '“', hl(text.trim()), '”'),
+    e?.quote_check?.status === 'matched' && verifiedLine(e));
+  // The check line under a quote. Where the build kept the passage around the quote,
+  // it opens to show the quote in its source, highlighted, with links to the original.
+  function verifiedLine(e) {
+    const qc = e.quote_check;
+    const when = fmtDate(snapDate(qc.snapshot));
+    const line = `✓ Quote matches the saved source (${when})`;
+    if (!qc.excerpt) return h('span', { class: 'verified', title: `Found word for word in ${qc.snapshot}` }, line);
+    const src = (e.sources || []).find((s) => s.snapshot === qc.snapshot);
+    return h('details', { class: 'insource' },
+      h('summary', { class: 'verified' }, line, h('span', { class: 'see' }, 'See it in the source')),
+      h('div', { class: 'insource-body' },
+        h('p', { class: 'label' }, `Saved copy${src?.publisher ? ` of ${src.publisher}` : ''} · captured ${when}`),
+        src?.title && h('p', { class: 'insource-title' }, src.title),
+        h('p', { class: 'passage' }, qc.excerpt.map((part, i) => (i % 2 ? h('mark', null, part) : part))),
+        h('p', { class: 'insource-links' },
+          src?.url && h('a', { href: src.url, target: '_blank', rel: 'noopener' }, 'Original'),
+          src?.archive && h('a', { href: src.archive, target: '_blank', rel: 'noopener' }, 'Archived copy'),
+          D.site.repo && h('a', { href: `${D.site.repo}/tree/HEAD/${qc.snapshot}`, target: '_blank', rel: 'noopener' }, 'Saved copy in the repository')),
+      ));
+  }
+  const titleButton = (e) => h('button', { class: 'side-title', type: 'button', onclick: () => openEntry(e.id) }, hl(e.title));
 
   // Update the address-bar hash without scrolling; some embedded frames refuse this, which is fine.
   function setHash(hash) {
     try { history.replaceState(null, '', hash); } catch { /* ignore */ }
+  }
+  // A view and its filters as a link: "#timeline.openai.silent-edit". Words joined by
+  // dots, so the link survives hosts that keep only plain anchors. The search box
+  // isn't included; it holds free text.
+  const PEOPLE = new Set(personActors.map((a) => a.id));
+  function hashFor(st) {
+    const parts = [st.view];
+    if (st.org !== 'all') parts.push(st.org);
+    if (st.pattern) parts.push(st.pattern);
+    if (st.person) parts.push(st.person);
+    if (st.view === 'timeline' && st.order === 'oldest') parts.push('oldest');
+    return `#${parts.join('.')}`;
+  }
+  function applyHash(hash) {
+    const [v, ...words] = hash.split('.');
+    if (!VIEWS.includes(v)) return false;
+    Object.assign(state, { view: v, org: 'all', pattern: '', person: '', order: 'newest' });
+    for (const w of words) {
+      if (w === 'openai' || w === 'anthropic') state.org = w;
+      else if (patternById.has(w)) state.pattern = w;
+      else if (PEOPLE.has(w)) state.person = w;
+      else if (w === 'oldest') state.order = 'oldest';
+    }
+    return true;
+  }
+  // Shared links point at the public site, wherever this copy is being read.
+  const siteBase = () => D.site.url || location.href.split('#')[0];
+  // Share a link: the phone's share sheet where there is one, else the clipboard.
+  async function shareLink(url, title, button) {
+    if (navigator.share) {
+      try { await navigator.share({ url, title }); return; } catch (err) { if (err?.name === 'AbortError') return; }
+    }
+    try {
+      await navigator.clipboard.writeText(url);
+      confirmCopied(button, 'Link copied');
+    } catch {
+      toast(url);
+    }
   }
 
   // ── views ──────────────────────────────────────────────────────────────
@@ -329,11 +462,33 @@
       h('button', { class: 'clear', type: 'button', onclick: clearFilters }, 'Clear filters'));
   }
 
+  // The newest developments in the record: entries and updates, by the date they happened.
+  function latestStrip() {
+    const items = [];
+    for (const e of D.entries.filter(matches)) {
+      items.push({ e, time: e.time, date: e.date, text: null });
+      (e.updates || []).forEach((u) => { const d = parseDate(u.date); if (d) items.push({ e, time: d.time, date: u.date, text: u.text }); });
+    }
+    items.sort((a, b) => b.time - a.time);
+    // One item per entry: its newest development.
+    const seen = new Set();
+    const top = items.filter(({ e }) => !seen.has(e.id) && seen.add(e.id)).slice(0, 4);
+    if (!top.length) return null;
+    return h('section', { class: 'latest', 'aria-label': 'Latest developments' },
+      h('div', { class: 'latest-head' },
+        h('span', { class: 'label' }, 'Latest'),
+        D.site.url && h('a', { class: 'label', href: `${D.site.url}feed.xml`, target: '_blank', rel: 'noopener' }, 'Follow by RSS')),
+      h('div', { class: 'latest-list' }, top.map(({ e, date, text }) => h('button', { class: 'latest-item', type: 'button', onclick: () => openEntry(e.id) },
+        h('span', { class: 'latest-meta' }, h('span', { class: 'label' }, fmtDate(date)), orgTag(e.org), text && h('span', { class: 'label' }, 'Update')),
+        h('span', { class: 'latest-title' }, clip(e.title, 110)),
+        text && h('span', { class: 'latest-text' }, clip(text, 130))))));
+  }
+
   function renderReceipts() {
     const list = allReceipts.filter(receiptMatches);
     const frag = [viewHead('Receipts',
-      'Each receipt pairs a public statement with a later action that contradicts it, with what became of it, or a policy text with its quiet rewrite. Between them is the time from the words to the deed.'),
-    patternBrief(D.entries.filter(matches))];
+      'Each receipt puts something a company said next to what happened after: an action that contradicted it, what became of a promise, or a policy page before and after a quiet edit. The figure between them is the time from one to the other. Newest first.'),
+    patternBrief(D.entries.filter(matches)), !state.q && latestStrip()];
     if (!list.length) return [...frag, empty()];
     frag.push(h('div', { class: 'receipts' }, list.map((r) => (r.revision ? revisionCard(byId.get(r.revision)) : r.outcome ? outcomeCard(r) : receiptCard(r)))));
     return frag;
@@ -347,7 +502,7 @@
         h('div', { class: 'side-head' }, stamp('said'), h('span', { class: 'label' }, fmtDate(s.date)), orgTag(s.org)),
         titleButton(s),
         quoteBlock(s.quote, s),
-        h('div', { class: 'side-head' }, statusPill(s.status), concretePill(s.concreteness)),
+        h('div', { class: 'side-head' }, statusPill(s.status), concretePill(s.concreteness, s.kind)),
       ),
       h('div', { class: 'gap', title: r.approx ? 'Approximate: one of the dates is known only to the month' : null },
         h('span', { class: 'label' }, 'Later'),
@@ -364,7 +519,7 @@
       h('div', { class: 'receipt-foot' },
         patternChips([...new Set([...s.patterns, ...d.patterns])]),
         h('span', { class: 'spacer' }),
-        h('button', { class: 'btn', type: 'button', onclick: () => copyReceipt(s, d) }, 'Copy receipt'),
+        h('button', { class: 'btn', type: 'button', onclick: (ev) => copyReceipt(s, d, ev.currentTarget) }, 'Copy receipt'),
       ),
     );
   }
@@ -380,7 +535,7 @@
         h('div', { class: 'side-head' }, stamp('said'), h('span', { class: 'label' }, fmtDate(s.date)), orgTag(s.org)),
         titleButton(s),
         quoteBlock(s.quote, s),
-        h('div', { class: 'side-head' }, statusPill(s.status), concretePill(s.concreteness)),
+        h('div', { class: 'side-head' }, statusPill(s.status), concretePill(s.concreteness, s.kind)),
       ),
       h('div', { class: 'gap', title: r.approx ? 'Approximate: one of the dates is known only to the month or year' : null },
         h('span', { class: 'label' }, earlier ? 'Already' : 'Later'),
@@ -390,33 +545,33 @@
       ),
       h('div', { class: 'side did' },
         h('div', { class: 'side-head' }, h('span', { class: 'stamp did' }, earlier ? 'On record' : 'Outcome'), h('span', { class: 'label' }, fmtDate(s.outcome.date)), orgTag(s.org)),
-        h('p', null, s.outcome.text),
+        h('p', null, hl(s.outcome.text)),
         h('button', { class: 'chip', type: 'button', onclick: () => openEntry(s.id) }, 'Sources and details'),
       ),
       h('div', { class: 'receipt-foot' },
         patternChips(s.patterns),
         h('span', { class: 'spacer' }),
-        h('button', { class: 'btn', type: 'button', onclick: () => copyReceipt(s, null) }, 'Copy receipt'),
+        h('button', { class: 'btn', type: 'button', onclick: (ev) => copyReceipt(s, null, ev.currentTarget) }, 'Copy receipt'),
       ),
     );
   }
 
   function revisionCard(e) {
-    return h('article', { class: 'receipt', id: `r-${e.id}` },
+    return h('article', { class: 'receipt', id: `r-${e.id}`, 'data-edit': e.id },
       h('div', { class: 'side said' },
         h('div', { class: 'side-head' }, h('span', { class: 'stamp said' }, 'Before'), orgTag(e.org)),
-        h('div', { class: 'diff' }, h('div', { class: 'minus' }, h('b', null, '−'), e.revision.before)),
+        h('div', { class: 'diff' }, h('div', { class: 'minus' }, h('b', null, '−'), h('span', { class: 'rev-text' }, hl(e.revision.before)))),
       ),
       h('div', { class: 'gap' }, h('span', { class: 'label' }, 'Edited'), h('span', { class: 'gap-n' }, fmtDate(e.date).split(',')[0].split(' ')[0]), h('span', { class: 'label' }, String(e.date).slice(0, 4)), arrow()),
       h('div', { class: 'side did' },
         h('div', { class: 'side-head' }, h('span', { class: 'stamp did' }, 'After'), h('span', { class: 'label' }, fmtDate(e.date))),
         titleButton(e),
-        h('div', { class: 'diff' }, h('div', { class: 'plus' }, h('b', null, '+'), e.revision.after)),
+        h('div', { class: 'diff' }, h('div', { class: 'plus' }, h('b', null, '+'), h('span', { class: 'rev-text' }, hl(e.revision.after)))),
       ),
       h('div', { class: 'receipt-foot' },
         patternChips(e.patterns),
         h('span', { class: 'spacer' }),
-        h('button', { class: 'btn', type: 'button', onclick: () => copyReceipt(null, e) }, 'Copy receipt'),
+        h('button', { class: 'btn', type: 'button', onclick: (ev) => copyReceipt(null, e, ev.currentTarget) }, 'Copy receipt'),
       ),
     );
   }
@@ -427,9 +582,15 @@
   }
 
   function renderTimeline() {
-    const list = D.entries.filter(matches);
-    const frag = [viewHead('Timeline', 'Everything in the record, in date order. A hollow mark is a statement; a solid mark is an action. The tags on each entry name the patterns it belongs to; pick one to follow it through the years.'),
-      patternStrip(), patternBrief(list)];
+    const matched = D.entries.filter(matches);
+    // Newest first by default: most readers come for what changed lately.
+    const list = state.order === 'oldest' ? matched : [...matched].reverse();
+    const frag = [viewHead('Timeline', 'Everything in the record. Statements are on the left and actions on the right, each with the company that made it. The tags name the patterns an entry belongs to; pick one to follow it across the years.'),
+      h('div', { class: 'seg order', role: 'group', 'aria-label': 'Order' },
+        [['newest', 'Newest first'], ['oldest', 'Oldest first']].map(([k, label]) => h('button', {
+          type: 'button', 'aria-pressed': String(state.order === k), onclick: () => setFilter({ order: k }),
+        }, label))),
+      patternStrip(), patternBrief(matched)];
     if (!list.length) return [...frag, empty()];
     const years = new Map();
     for (const e of list) {
@@ -449,7 +610,8 @@
           h('div', { class: 'tl-spine', style: row, 'aria-hidden': 'true' }, h('span', { class: `tl-dot ${e.type}` })),
           h('article', { class: `tl-card ${e.type}`, style: row },
             h('span', { class: 'tl-meta' }, stamp(e.type), h('span', { class: 'label' }, fmtDate(e.date)), orgTag(e.org)),
-            h('button', { class: 't', type: 'button', onclick: () => openEntry(e.id) }, e.title),
+            h('button', { class: 't', type: 'button', onclick: () => openEntry(e.id) }, hl(e.title)),
+            state.q && matchContext(e),
             (e.status || e.contradicts.length > 0) && h('span', { class: 'tl-meta' },
               e.status && statusPill(e.status),
               e.contradicts.length > 0 && h('span', { class: 'label' }, `contradicts ${e.contradicts.length === 1 ? 'an earlier statement' : `${e.contradicts.length} statements`}`)),
@@ -538,50 +700,71 @@
     return frag;
   }
 
-  // A promise's own deadline: "Due end of March 2027", or "Deadline passed" once it has.
-  function dueLine(e) {
+  // A promise's own deadline: the last moment of the period it names, and how to say it.
+  function dueOf(e) {
     if (!e.due) return null;
     const d = parseDate(e.due);
     if (!d) return null;
     const t = new Date(d.time);
     const end = d.precision === 'year' ? Date.UTC(t.getUTCFullYear() + 1, 0, 1) - 1
       : d.precision === 'month' ? Date.UTC(t.getUTCFullYear(), t.getUTCMonth() + 1, 1) - 1 : d.time + DAY - 1;
-    const when = d.precision === 'day' ? fmtDate(e.due) : `end of ${fmtDate(e.due)}`;
-    const passed = end < NOW;
-    return h('p', { class: `label due${passed && e.status === 'open' ? ' passed' : ''}` }, passed ? `Deadline passed: ${when}` : `Due ${when}`);
+    return { end, when: d.precision === 'day' ? fmtDate(e.due) : `end of ${fmtDate(e.due)}`, passed: end < NOW };
+  }
+  // "Due end of March 2027", or "Deadline passed" once it has.
+  function dueLine(e) {
+    const d = dueOf(e);
+    if (!d) return null;
+    return h('p', { class: `label due${d.passed && e.status === 'open' ? ' passed' : ''}` }, d.passed ? `Deadline passed: ${d.when}` : `Due ${d.when}`);
   }
 
   function renderWatchlist() {
     const said = D.entries.filter((e) => e.type === 'said' && matches(e));
-    const open = said.filter((e) => e.status === 'open').sort((a, b) => b.time - a.time);
+    const open = said.filter((e) => e.status === 'open');
+    // Promises with a deadline first, soonest (or already passed) at the top; then the rest, newest first.
+    const dated = open.filter((e) => dueOf(e)).sort((a, b) => dueOf(a).end - dueOf(b).end);
+    const undated = open.filter((e) => !dueOf(e)).sort((a, b) => b.time - a.time);
     const kept = said.filter((e) => e.status === 'kept').sort((a, b) => b.time - a.time);
     const frag = [viewHead('Watchlist',
-      'Promises still in force. Each says what would count as breaking it, so the test is written down before anyone needs it.'),
+      'Promises still in force, and the ones that held. Each open promise says in advance what would count as breaking it. Those with a deadline come first, soonest due at the top.'),
     patternBrief(D.entries.filter(matches))];
     if (!open.length && !kept.length) return [...frag, empty()];
     const card = (e) => {
-      const days = Math.max(0, Math.round((NOW - e.time) / DAY));
-      return h('article', { class: `wcard ${e.status}` },
+      const due = e.status === 'open' && dueOf(e);
+      const days = due ? Math.round((due.end - NOW) / DAY) : Math.max(0, Math.round((NOW - e.time) / DAY));
+      return h('article', { class: `wcard ${e.status}${due?.passed ? ' passed' : ''}` },
+        h('div', { class: 'age' },
+          due ? [
+            h('span', { class: 'label' }, due.passed ? 'Deadline passed' : 'Due in'),
+            h('span', { class: 'gap-n' }, span(Math.abs(days)).n),
+            h('span', { class: 'label' }, `${span(Math.abs(days)).unit}${due.passed ? ' ago' : ''} · ${due.when}`),
+          ] : [
+            h('span', { class: 'label' }, e.status === 'kept' ? 'Held for' : 'Standing for'),
+            h('span', { class: 'gap-n' }, span(days).n),
+            h('span', { class: 'label' }, `${span(days).unit} · since ${fmtDate(e.date)}`),
+          ],
+        ),
         h('div', { class: 'main' },
-          h('div', { class: 'side-head' }, orgTag(e.org), statusPill(e.status), concretePill(e.concreteness)),
+          h('div', { class: 'side-head' }, orgTag(e.org), statusPill(e.status), concretePill(e.concreteness, e.kind)),
           titleButton(e),
           quoteBlock(e.quote, e),
-          !e.quote && e.summary && h('p', null, clip(e.summary, 260)),
+          !e.quote && e.summary && h('p', null, hl(clip(e.summary, 260))),
           e.breaks_if && h('div', { class: 'breaks' }, h('span', { class: 'label' }, 'Counts as broken if'), h('p', null, e.breaks_if)),
-          dueLine(e),
           e.last_checked && h('p', { class: 'label checked' }, `Last checked ${fmtDate(e.last_checked)}`),
           e.patterns.length > 0 && h('div', { class: 'side-head' }, patternChips(e.patterns)),
         ),
-        h('div', { class: 'age' },
-          h('span', { class: 'label' }, e.status === 'kept' ? 'Held for' : 'Standing for'),
-          h('span', { class: 'gap-n' }, span(days).n),
-          h('span', { class: 'label' }, `${span(days).unit} · since ${fmtDate(e.date)}`),
-        ),
       );
     };
-    if (open.length) frag.push(h('div', { class: 'watch' }, open.map(card)));
-    if (kept.length) frag.push(h('h3', { class: 'section-sub' }, 'Held under pressure'), h('div', { class: 'watch' }, kept.map(card)));
-    return frag;
+    const section = (title, note, items) => items.length > 0 && [
+      h('h3', { class: 'section-sub' }, title, h('span', { class: 'section-n' }, items.length)),
+      note && h('p', { class: 'section-note' }, note),
+      h('div', { class: 'watch' }, items.map(card)),
+    ];
+    frag.push(
+      section('Coming due', 'Promises that name a date. When it passes, the record checks whether they were met.', dated),
+      section('No fixed deadline', 'Open-ended promises, newest first. Each is checked against its test whenever the record is updated.', undated),
+      section('Held under pressure', 'Promises that were tested and kept, so far.', kept),
+    );
+    return frag.flat().filter(Boolean);
   }
 
   const gradePill = (g) => h('span', { class: `pill ${GRADE_CLASS[g] || ''}`, title: GRADE_DEF[g] }, GRADE_LABEL[g] || g);
@@ -590,35 +773,50 @@
 
   function renderCommitments() {
     const orgs = state.org === 'all' ? ['openai', 'anthropic'] : [state.org];
-    const docs = (D.commitments || []).filter((d) => d.parties.some((o) => orgs.includes(o)));
+    // A search narrows each document to the commitments that match it, in the
+    // commitment's words, its grades' evidence, or the document's own title.
+    const words = qWords();
+    const shown = (d) => (words.length
+      ? d.commitments.filter((c) => hasAll([d.title, d.summary, c.section, c.text, ...Object.values(c.grades || {}).map((g) => g.evidence)].filter(Boolean).join(' '), words))
+      : d.commitments);
+    const docs = (D.commitments || []).filter((d) => d.parties.some((o) => orgs.includes(o)) && shown(d).length);
     const frag = [viewHead('Commitments',
-      'Every individual commitment in the formal documents each company signed or published, graded for each company: kept, standing (in force, with nothing public showing it broken), eroded, broken, or unknown when it can’t be checked from outside. An entry is written only where a result is notable.')];
+      'Every commitment in the formal documents each company signed or published, one by one, graded for each company: kept; standing (in force, with nothing public showing it broken); eroded; broken; or unknown, when it can’t be checked from outside. Open a document below for each commitment, its grade and the evidence.')];
     if (!docs.length) return [...frag, empty()];
     const total = Object.fromEntries(orgs.map((o) => [o, { total: 0, kept: 0, standing: 0, eroded: 0, broken: 0, unknown: 0 }]));
     for (const d of docs) for (const o of orgs) for (const [k, v] of Object.entries(d.tally?.[o] || {})) total[o][k] += v;
-    const cell = (t) => (t ? h('td', null, h('span', { class: 'ck' }, keptLine(t)), h('span', { class: 'cr' }, restLine(t))) : h('td', { class: 'na' }, 'not a party'));
+    // A thin bar of the grades, in the status colors, so documents can be compared at a glance.
+    const GRADES = ['kept', 'standing', 'eroded', 'broken', 'unknown'];
+    const bar = (t) => h('span', { class: 'gbar', 'aria-hidden': 'true' },
+      GRADES.filter((g) => t[g]).map((g) => h('span', { class: `g-${g}`, style: `flex-grow: ${t[g]}` })));
+    const cell = (t, o) => (t
+      ? h('td', { 'data-org': orgName(o) }, h('span', { class: 'ck' }, keptLine(t)), bar(t), h('span', { class: 'cr' }, restLine(t)))
+      : h('td', { class: 'na', 'data-org': orgName(o) }, 'not a party'));
     frag.push(h('div', { class: 'ctable-wrap' }, h('table', { class: 'ctable' },
       h('thead', null, h('tr', null, h('th', { scope: 'col' }, 'Document'), orgs.map((o) => h('th', { scope: 'col' }, orgName(o))))),
       h('tbody', null, docs.map((d) => h('tr', null,
         h('th', { scope: 'row' }, h('a', { href: `#c-${d.id}`, onclick: (ev) => { ev.preventDefault(); document.getElementById(`c-${d.id}`)?.scrollIntoView({ block: 'start' }); } }, d.title)),
-        orgs.map((o) => cell(d.tally?.[o]))))),
-      h('tfoot', null, h('tr', null, h('th', { scope: 'row' }, 'All documents'), orgs.map((o) => cell(total[o])))),
+        orgs.map((o) => cell(d.tally?.[o], o))))),
+      h('tfoot', null, h('tr', null, h('th', { scope: 'row' }, words.length ? 'These documents' : 'All documents'), orgs.map((o) => cell(total[o], o)))),
     )));
+    frag.splice(1, 0, h('div', { class: 'gkey', 'aria-hidden': 'true' },
+      GRADES.map((g) => h('span', null, h('span', { class: `sw g-${g}` }), GRADE_LABEL[g]))));
     frag.push(h('p', { class: 'cnote' }, 'Documents differ in length and in how much can be checked from outside, so counts across documents are not a score. Read the evidence.'));
     for (const d of docs) {
+      const list = shown(d);
       frag.push(h('section', { class: 'cdoc', id: `c-${d.id}` },
-        h('h3', null, d.title),
+        h('h3', null, hl(d.title)),
         h('div', { class: 'pbrief-meta' }, h('span', null, fmtDate(d.date)), h('span', { class: 'pbrief-orgs' }, d.parties.map(orgTag)),
           d.parties.filter((o) => orgs.includes(o)).map((o) => h('span', null, `${orgName(o)}: ${keptLine(d.tally?.[o])}`))),
         d.summary && h('p', null, d.summary),
-        h('details', null,
-          h('summary', null, `The ${d.commitments.length} commitments`),
-          h('ol', { class: 'clist' }, d.commitments.map((c) => h('li', { class: 'citem' },
+        h('details', { open: words.length > 0 },
+          h('summary', null, words.length ? `${list.length} of the ${d.commitments.length} commitments match` : `The ${d.commitments.length} commitments`),
+          h('ol', { class: 'clist' }, list.map((c) => h('li', { class: 'citem' },
             h('div', { class: 'cmeta' }, [c.section, c.versions].filter(Boolean).join(' · ')),
-            h('blockquote', null, c.text),
+            h('blockquote', null, hl(c.text)),
             orgs.filter((o) => c.grades?.[o]).map((o) => h('div', { class: 'cgrade' },
               h('div', { class: 'side-head' }, orgTag(o), gradePill(c.grades[o].grade)),
-              h('p', null, c.grades[o].evidence),
+              h('p', null, hl(c.grades[o].evidence)),
               (c.grades[o].entries || []).length > 0 && h('div', { class: 'hits' }, linkList(c.grades[o].entries, 'see')),
               (c.grades[o].sources || []).length > 0 && sourceList(c.grades[o].sources),
             )))))),
@@ -632,6 +830,18 @@
     const repo = D.site.repo;
     return [
       viewHead('Method', 'How this record is kept, and what counts as evidence.'),
+      h('section', { class: 'key', 'aria-label': 'How to read an entry' },
+        h('h3', null, 'How to read an entry'),
+        h('dl', { class: 'key-list' },
+          h('dt', null, stamp('said')), h('dd', null, 'Something a company or one of its leaders said: a principle, a commitment, a claim or a denial, quoted word for word.'),
+          h('dt', null, stamp('did')), h('dd', null, 'Something a company did: an action, a policy rewrite, a disclosure.'),
+          h('dt', null, h('span', { class: 'stamp did' }, 'Outcome')), h('dd', null, 'What became of a statement when there is no single action to point to, such as a date that passed with nothing shipped.'),
+          h('dt', null, h('span', { class: 'key-orgs' }, orgTag('openai'), orgTag('anthropic'))), h('dd', null, 'Whose entry it is. On the Patterns grid each entry is one mark: the logo in a circle (OpenAI) or a square (Anthropic), outlined for said and filled for did.'),
+          h('dt', null, statusPill('broken')), h('dd', null, 'How a statement turned out. The full list of statuses is below.'),
+          h('dt', null, concretePill('measurable', 'commitment')), h('dd', null, 'How testable the statement was when it was made, from measurable to aspirational.'),
+          h('dt', null, h('span', { class: 'label' }, 'Counts as broken if')), h('dd', null, 'The test for an open promise, written down before anyone needs it.'),
+          h('dt', null, h('span', { class: 'verified' }, '✓ Quote matches the saved source')), h('dd', null, 'The quote was found word for word in a copy of the source saved by this record, so an edited or deleted page doesn’t erase it. Open the line to see the quote highlighted in the saved passage.'),
+        )),
       h('div', { class: 'prose' },
         h('p', null, 'Every entry is either something a company or one of its leaders ', h('b', null, 'said'), ' (a principle, a commitment, a claim, a denial) or something they ', h('b', null, 'did'), '. A "did" entry that contradicts an earlier "said" entry links back to it, and that link is a receipt. A statement that failed with no separate action to point to (a date that passed with nothing shipped, a claim the company\'s own earlier paper contradicts) carries a dated outcome instead, shown as a receipt too. Every statement graded broken, reversed, eroded or contradicted has one.'),
         h('p', null, 'Claims are not limited to safety and ethics. Capability and benchmark claims, promised features and release dates, usage limits and what a plan includes, and promises about how a product behaves are recorded too when they are notable and can be checked, whether they held up or not.'),
@@ -658,6 +868,10 @@
         h('h3', null, 'How concrete was it?'),
         h('p', null, 'Vague promises can’t be broken, which is often the point. Each statement is graded on how testable it was when made.'),
         h('div', { class: 'defs' }, Object.keys(CONCRETE_DEF).flatMap((k) => [concretePill(k), h('span', null, CONCRETE_DEF[k])])),
+        h('h3', null, 'Following and sharing'),
+        h('p', null, 'New entries and updates to existing ones are listed in an RSS feed',
+          D.site.url ? [' (', h('a', { href: `${D.site.url}feed.xml`, target: '_blank', rel: 'noopener' }, 'feed.xml'), ')'] : null,
+          '. The address of each view carries its filters, so a filtered view can be shared as it is, and each entry has its own link.'),
         h('h3', null, 'Corrections and additions'),
         h('p', null, 'The record lives in a public repository as one file per entry. To add an entry or correct one, open an issue or a pull request with the source.',
           repo ? [' ', h('a', { href: repo, target: '_blank', rel: 'noopener' }, 'Repository')] : null),
@@ -706,36 +920,38 @@
     ];
     dialog.replaceChildren(
       h('div', { class: 'd-head' },
-        stamp(e.type), h('span', { class: 'label' }, fmtDate(e.date)), orgTag(e.org),
-        e.status && statusPill(e.status), concretePill(e.concreteness),
-        h('span', { class: 'spacer' }),
-        h('button', { class: 'btn', type: 'button', onclick: () => copyReceipt(pairs[0]?.[0] || (e.type === 'said' ? e : null), pairs[0]?.[1] || (e.type === 'did' ? e : null)) }, 'Copy'),
-        h('button', { class: 'btn', type: 'button', onclick: () => dialog.close(), 'aria-label': 'Close' }, 'Close'),
+        h('div', { class: 'd-meta' }, stamp(e.type), h('span', { class: 'label' }, fmtDate(e.date)), orgTag(e.org)),
+        h('div', { class: 'd-actions' },
+          h('button', { class: 'btn', type: 'button', onclick: (ev) => copyReceipt(pairs[0]?.[0] || (e.type === 'said' ? e : null), pairs[0]?.[1] || (e.type === 'did' ? e : null), ev.currentTarget) }, 'Copy receipt'),
+          h('button', { class: 'btn', type: 'button', onclick: (ev) => shareLink(permalink(e.id), e.title, ev.currentTarget) }, navigator.share ? 'Share' : 'Copy link'),
+          h('button', { class: 'btn close', type: 'button', onclick: () => dialog.close(), 'aria-label': 'Close' }, h('span', { 'aria-hidden': 'true' }, '×')),
+        ),
+        (e.status || e.concreteness) && h('div', { class: 'd-tags' }, e.status && statusPill(e.status), concretePill(e.concreteness, e.kind)),
       ),
       h('div', { class: 'd-body' },
-        h('h2', { id: 'entry-title' }, e.title),
+        h('h2', { id: 'entry-title' }, hl(e.title)),
         (e.who.length > 0 || e.venue) && h('p', { class: 'label' }, [e.who.map(actorName).join(', '), e.venue].filter(Boolean).join(' · ')),
         e.quote && h('div', { class: `side ${e.type}`, style: 'padding:0;background:none' }, quoteBlock(e.quote, e)),
-        e.summary && h('p', null, e.summary),
+        e.summary && h('p', null, hl(e.summary)),
         e.revision && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'What changed'),
-          h('div', { class: 'diff' }, h('div', { class: 'minus' }, h('b', null, '−'), e.revision.before), h('div', { class: 'plus' }, h('b', null, '+'), e.revision.after))),
+          h('div', { class: 'diff' }, h('div', { class: 'minus' }, h('b', null, '−'), h('span', { class: 'rev-text' }, hl(e.revision.before))), h('div', { class: 'plus' }, h('b', null, '+'), h('span', { class: 'rev-text' }, hl(e.revision.after))))),
         e.breaks_if && h('div', { class: 'breaks' }, h('span', { class: 'label' }, 'Counts as broken if'), h('p', null, e.breaks_if)),
         dueLine(e),
-        e.outcome && h('div', { class: 'd-section' }, h('span', { class: 'label' }, `Outcome, ${fmtDate(e.outcome.date)}`), h('p', null, e.outcome.text)),
+        e.outcome && h('div', { class: 'd-section' }, h('span', { class: 'label' }, `Outcome, ${fmtDate(e.outcome.date)}`), h('p', null, hl(e.outcome.text))),
         e.last_checked && h('p', { class: 'label checked' }, `Status last checked against the record on ${fmtDate(e.last_checked)}`),
         (e.contradicts.length + e.contradicted_by.length + e.related.length > 0) && h('div', { class: 'd-section links' },
           h('span', { class: 'label' }, 'Connected entries'),
           linkList(e.contradicts, 'contradicts'), linkList(e.contradicted_by, 'contradicted by'), linkList(e.related, 'related')),
         e.updates?.length > 0 && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Since then'),
           h('ul', { class: 'updates' }, e.updates.map((u) => h('li', null, h('span', { class: 'mono' }, fmtDate(u.date)),
-            h('div', null, h('p', null, u.text), u.sources?.length > 0 && sourceList(u.sources)))))),
+            h('div', null, h('p', null, hl(u.text)), u.sources?.length > 0 && sourceList(u.sources)))))),
         e.response && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Their side'), h('p', null, e.response)),
         e.note && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Commentary'), h('p', { class: 'note' }, e.note)),
         e.patterns.length > 0 && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Patterns (analysis)'),
           e.patterns.map((id) => patternById.get(id)).filter(Boolean).map((p) => h('div', { class: 'd-pattern' },
             h('p', null, h('b', null, p.name), ' ', h('span', { class: 'muted' }, p.thesis)),
             h('div', { class: 'side-head' },
-              h('button', { class: 'chip', type: 'button', onclick: () => { dialog.close(); setFilter({ pattern: p.id }, 'timeline'); setHash('#timeline'); } }, 'Follow on the timeline'),
+              h('button', { class: 'chip', type: 'button', onclick: () => { dialog.close(); setFilter({ pattern: p.id }, 'timeline'); } }, 'Follow on the timeline'),
               h('button', { class: 'chip', type: 'button', onclick: () => { dialog.close(); location.hash = `p-${p.id}`; } }, 'About this pattern'))))),
         h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Sources'), sourceList(e.sources)),
         D.site.repo && e.file && h('p', { class: 'label' }, h('a', { href: `${D.site.repo}/blob/HEAD/${e.file}`, target: '_blank', rel: 'noopener' }, 'View or correct this entry')),
@@ -746,14 +962,14 @@
     if (!fromHash) setHash(`#e-${id}`);
   }
   dialog.addEventListener('close', () => {
-    if (location.hash.startsWith('#e-')) setHash(`#${state.view}`);
+    if (location.hash.startsWith('#e-')) setHash(hashFor(state));
   });
   dialog.addEventListener('click', (ev) => { if (ev.target === dialog) dialog.close(); });
 
   // ── copy a receipt as plain text, for posting ─────────────────────────
+  // The public site gives each entry a page whose link preview shows the receipt.
   function permalink(id) {
-    const base = D.site.url || location.href.split('#')[0];
-    return `${base}#e-${id}`;
+    return D.site.url ? `${D.site.url}e/${id}/` : `${location.href.split('#')[0]}#e-${id}`;
   }
   function receiptText(s, d) {
     const lines = [];
@@ -785,6 +1001,16 @@
     lines.push('', `Full receipt: ${permalink((d || s).id)}`);
     return lines.join('\n');
   }
+  function confirmCopied(button, msg) {
+    toast(msg);
+    if (!button) return;
+    const label = button.dataset.label || button.textContent;
+    button.dataset.label = label;
+    button.classList.add('done');
+    button.textContent = `✓ ${msg}`;
+    clearTimeout(button._t);
+    button._t = setTimeout(() => { button.textContent = label; button.classList.remove('done'); }, 1600);
+  }
   let toastTimer;
   function toast(msg) {
     let t = document.querySelector('.toast');
@@ -794,7 +1020,7 @@
     clearTimeout(toastTimer);
     toastTimer = setTimeout(() => { t.hidden = true; }, 2200);
   }
-  function copyReceipt(s, d) {
+  function copyReceipt(s, d, button) {
     const text = receiptText(s, d);
     const fallback = () => {
       const ta = h('textarea', { class: 'copy-fallback', readonly: true, 'aria-label': 'Receipt text' });
@@ -806,7 +1032,7 @@
       toast('Select the text and copy it');
     };
     try {
-      navigator.clipboard.writeText(text).then(() => toast('Receipt copied'), fallback);
+      navigator.clipboard.writeText(text).then(() => confirmCopied(button, 'Receipt copied'), fallback);
     } catch {
       fallback();
     }
@@ -842,20 +1068,31 @@
   let qTimer;
   search.addEventListener('input', () => { clearTimeout(qTimer); qTimer = setTimeout(() => setFilter({ q: search.value.trim() }), 150); });
   document.getElementById('clear').addEventListener('click', clearFilters);
+  const shareView = document.getElementById('share-view');
+  shareView.textContent = navigator.share ? 'Share this view' : 'Copy link to this view';
+  shareView.addEventListener('click', () => shareLink(`${siteBase()}${hashFor(state)}`, document.title, shareView));
+  const moreToggle = document.getElementById('more-toggle');
+  moreToggle.addEventListener('click', () => {
+    const open = moreToggle.getAttribute('aria-expanded') !== 'true';
+    moreToggle.setAttribute('aria-expanded', String(open));
+    document.querySelector('.filters').classList.toggle('open', open);
+  });
 
   function setFilter(patch, toView) {
     Object.assign(state, patch);
     if (toView) state.view = toView;
+    setHash(hashFor(state));
     render();
   }
   function clearFilters() {
     Object.assign(state, { org: 'all', pattern: '', person: '', q: '' });
     search.value = '';
+    setHash(hashFor(state));
     render();
   }
   function go(v) {
     state.view = v;
-    setHash(`#${v}`);
+    setHash(hashFor(state));
     render();
     window.scrollTo({ top: Math.min(window.scrollY, document.querySelector('.controls').offsetTop) });
   }
@@ -868,8 +1105,34 @@
     personSel.value = state.person;
     if (document.activeElement !== search) search.value = state.q;
     document.getElementById('clear').hidden = !anyFilter();
+    const extra = [state.pattern, state.person].filter(Boolean).length;
+    moreToggle.textContent = extra ? `More filters (${extra} on)` : 'More filters';
     const shown = D.entries.filter(matches).length;
     countEl.textContent = anyFilter() ? `${shown} of ${D.entries.length} entries match` : `${D.entries.length} entries`;
+  }
+
+  // An edit receipt plays its edit once, the first time it comes into view: the
+  // old wording is struck through, then the new wording is marked. Both stay
+  // readable throughout, and without motion they simply start in that end state.
+  const calm = matchMedia('(prefers-reduced-motion: reduce)');
+  const playedEdits = new Set();
+  const editWatch = 'IntersectionObserver' in window && new IntersectionObserver((seen) => {
+    for (const s of seen) {
+      if (!s.isIntersecting) continue;
+      s.target.classList.add('rev-play');
+      playedEdits.add(s.target.dataset.edit);
+      editWatch.unobserve(s.target);
+    }
+  }, { threshold: 0.4 });
+  function armEdits() {
+    if (!editWatch) return;
+    editWatch.disconnect();
+    if (calm.matches) return;
+    for (const el of view.querySelectorAll('[data-edit]')) {
+      if (playedEdits.has(el.dataset.edit)) continue;
+      el.classList.add('rev-armed');
+      editWatch.observe(el);
+    }
   }
 
   function render() {
@@ -877,17 +1140,36 @@
     const renderers = { receipts: renderReceipts, timeline: renderTimeline, patterns: renderPatterns, watchlist: renderWatchlist, commitments: renderCommitments, method: renderMethod };
     hideTip();
     view.replaceChildren(...[renderers[state.view]()].flat().filter(Boolean));
+    armEdits();
     queueSnap();
   }
 
   // ── masthead numbers ───────────────────────────────────────────────────
-  const s = D.stats;
+  // Each figure is split by company, since that is the first thing a reader asks,
+  // and each one opens the view that holds those entries.
+  const said = D.entries.filter((e) => e.type === 'said');
+  const byOrg = (pred) => ['openai', 'anthropic'].map((o) => [o, said.filter((e) => e.org === o && pred(e)).length]);
+  const tile = (pred, label, tone, target) => {
+    const split = byOrg(pred);
+    const n = split.reduce((a, [, k]) => a + k, 0);
+    return h('a', { class: 'stat', href: `#${target}` },
+      h('span', { class: `stat-n${tone ? ` ${tone}` : ''}` }, n),
+      h('span', { class: 'label' }, label),
+      h('span', { class: 'stat-split' }, split.map(([o, k]) => h('span', { class: `org-n ${o}` }, glyph(o), h('span', { class: 'sr' }, `${orgName(o)}: `), k))));
+  };
   document.getElementById('stats').replaceChildren(
-    h('div', { class: 'stat' }, h('span', { class: 'stat-n' }, s.said), h('span', { class: 'label' }, 'Statements on record')),
-    h('div', { class: 'stat' }, h('span', { class: 'stat-n is-did' }, s.broken), h('span', { class: 'label' }, 'Didn’t hold up')),
-    h('div', { class: 'stat' }, h('span', { class: 'stat-n is-open' }, s.open), h('span', { class: 'label' }, 'Still standing, being watched')),
-    s.median_gap_days != null && h('div', { class: 'stat' }, h('span', { class: 'stat-n' }, fmtSpan(s.median_gap_days)), h('span', { class: 'label' }, 'Median time, word to deed')),
+    tile(() => true, 'Statements on record', '', 'timeline'),
+    tile((e) => FAILED.has(e.status), 'Didn’t hold up', 'is-did', 'receipts'),
+    tile((e) => e.status === 'kept', 'Kept', 'is-held', 'watchlist'),
+    tile((e) => e.status === 'open', 'Still standing, being watched', 'is-open', 'watchlist'),
   );
+  const s = D.stats;
+  const next = D.entries.filter((e) => e.status === 'open' && dueOf(e) && !dueOf(e).passed).sort((a, b) => dueOf(a).end - dueOf(b).end)[0];
+  document.getElementById('stats-note').replaceChildren(
+    next && h('span', null, 'Next deadline: ', h('a', { class: 'linkish', href: `#e-${next.id}`, onclick: (ev) => { ev.preventDefault(); openEntry(next.id); } }, clip(next.title, 64)),
+      `, ${dueOf(next).when} (in ${fmtSpan(Math.round((dueOf(next).end - NOW) / DAY))}).`),
+    s.median_gap_days != null && h('span', null, `Median time from a statement to the action that contradicted it: ${fmtSpan(s.median_gap_days)}.`),
+    h('span', { class: 'updated' }, `Updated ${fmtDate(String(D.generated).slice(0, 10))} · ${D.entries.length} entries`));
 
   // ── routing: #receipts, #timeline, #patterns, #watchlist, #commitments, #method, #e-<id>, #p-<pattern>
   function fromHash() {
@@ -903,7 +1185,7 @@
       document.getElementById(hash)?.scrollIntoView({ block: 'start' });
       return;
     }
-    if (VIEWS.includes(hash)) state.view = hash;
+    applyHash(hash);
     render();
   }
   window.addEventListener('hashchange', fromHash);
