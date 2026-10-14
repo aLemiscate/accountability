@@ -1,0 +1,21 @@
+{
+  "url": "https://www.cnbc.com/2026/03/20/open-ai-agentic-shopping-etsy-shopify-walmart-amazon.html",
+  "captured_at": "2026-10-03T14:05:42.950Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "fde52cccb9d04500fee8beeb25ca36a9923820bad2eea31bc14379fbb4dc755e",
+    "page.txt": "e306d8a6bcd1de9fdc27fe5c1fc76ebc617a87738848af58da95b61958e6180e",
+    "screenshot.jpg": "fb2bdbe5b5c941c8d61ccc176305f496d2f17f88d21b19924a5fa8f38e404757",
+    "rendered.txt": "8d07bd9e60e4c984c7fcb6698fdce84cfeb42188f683f3d43feeffa85c8c970b"
+  },
+  "http_status": 200,
+  "final_url": "https://www.cnbc.com/2026/03/20/open-ai-agentic-shopping-etsy-shopify-walmart-amazon.html",
+  "content_type": "text/html; charset=utf-8",
+  "title": "OpenAI's first try at agentic shopping stumbled. It's trying again",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20260924073252/https://www.cnbc.com/2026/03/20/open-ai-agentic-shopping-etsy-shopify-walmart-amazon.html",
+    "timestamp": "20260924073252",
+    "method": "existing"
+  }
+}

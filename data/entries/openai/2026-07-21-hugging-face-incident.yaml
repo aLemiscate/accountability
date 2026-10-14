@@ -18,7 +18,7 @@ summary: >-
   Hugging Face had first attributed the attack to an "external AI agent"; it
   described "many thousands of individual actions across a swarm of short-lived
   sandboxes."
-patterns: []
+patterns: [safeguards-on-paper, told-last]
 related:
   [
     2025-04-15-preparedness-framework-v2,
@@ -63,12 +63,60 @@ sources:
     url: https://x.com/OpenAI/status/2080815626113954288
     date: 2026-07-25
     type: primary
-    snapshot: snapshots/2026-09-30-x.com-b9134045
+    snapshot: snapshots/2026-10-13-x.com-b9134045
 response: >-
   OpenAI reported the exploited vulnerabilities, worked with Hugging Face on the
   investigation, and said it would add new controls to model testing and the
   related infrastructure.
 updates:
+  - date: 2026-07-28
+    text: >-
+      At Y Combinator's Startup School a week after the disclosure, Altman said
+      of OpenAI's mistakes in the incident, "we did make some big ones, of
+      course," adding: "I think it's an alignment failure, I think it's a
+      security failure, I think it's like a very serious thing." He also said he
+      did not want to overstate it as "a real loss of control incident." (Quoted
+      from the audio of the Y Combinator Startup Podcast, about 25:02 to 25:50.)
+    sources:
+      - title: 'Sam Altman: "Never a Better Time to Do a Startup"'
+        publisher: Y Combinator Startup Podcast
+        url: https://podcasts.apple.com/us/podcast/sam-altman-never-a-better-time-to-do-a-startup/id1236907421?i=1000778731862
+        date: 2026-07-28
+        type: primary
+        archive: https://web.archive.org/web/20261013063159/https://podcasts.apple.com/us/podcast/sam-altman-never-a-better-time-to-do-a-startup/id1236907421?i=1000778731862
+        snapshot: snapshots/2026-10-13-podcasts.apple.com-91d65e47
+  - date: 2026-08-03
+    text: >-
+      The attorneys general of 15 states, led by Iowa's Brenna Bird, wrote to
+      Altman that OpenAI "may have violated State and federal law, including
+      consumer-protection and data-privacy statutes." They told OpenAI to
+      preserve every record of the intrusion, including any notes its agents
+      left "apparently for future versions of itself"; to ensure that no
+      employee faces "any adverse action for engaging in any protected
+      whistleblowing activity"; and to "immediately cease and desist" from
+      evaluations that push its models toward advanced exploitation. "Unless and
+      until OpenAI shows that it can conduct such activities in a controlled and
+      responsible way," they wrote, "such activities pose an imminent risk of
+      serious harm to the citizens of our States." All 15 signers are
+      Republicans. An OpenAI spokesperson called the incident "an important
+      moment for AI safety" and said OpenAI would give the officials a technical
+      report.
+    sources:
+      - title: Letter from 15 state attorneys general to Sam Altman (PDF)
+        publisher: Iowa Attorney General
+        url: https://cdn.attorneygeneral.gov/wp-content/uploads/2026-08-04-MultiState-Letter-to-OpenAI-re-Hugging-Face.pdf
+        date: 2026-08-03
+        type: primary
+        archive: https://web.archive.org/web/20261008021120/https://cdn.attorneygeneral.gov/wp-content/uploads/2026-08-04-MultiState-Letter-to-OpenAI-re-Hugging-Face.pdf
+        snapshot: snapshots/2026-10-13-cdn.attorneygeneral.gov-45d042a6
+      - title: 15 states want every record of the OpenAI agent that left itself notes on
+          escaping its own controls
+        publisher: The Next Web
+        url: https://thenextweb.com/news/openai-15-attorneys-general-preserve-evidence-hugging-face-hack
+        date: 2026-08-04
+        type: reporting
+        archive: https://web.archive.org/web/20261006005615/https://thenextweb.com/news/openai-15-attorneys-general-preserve-evidence-hugging-face-hack
+        snapshot: snapshots/2026-10-13-thenextweb.com-213e5b11
   - date: 2026-08-04
     text: >-
       OpenAI disclosed two more cases, both in third-party cyber evaluations. In
@@ -102,6 +150,21 @@ updates:
         date: 2026-08-05
         type: reporting
         snapshot: snapshots/2026-09-30-creati.ai-9eac57fc
+  - date: 2026-08-24
+    text: >-
+      Alabama Attorney General Steve Marshall, one of the 15, announced a
+      subpoena to OpenAI and an investigation into whether it violated Alabama's
+      Deceptive Trade Practices Act and other consumer protection laws over the
+      breach.
+    sources:
+      - title: Attorney General Marshall Launches Investigation Into OpenAI and Sam
+          Altman for Massive Artificial Intelligence Data Breach
+        publisher: Alabama Attorney General
+        url: https://www.alabamaag.gov/wp-content/uploads/2026/08/2026.8.21-Attorney-General-Marshall-Launches-Investigation-Into-OpenAI-and-Sam-Altman-for-Massive-Artificial-Intelligence-Data-Breach.pdf
+        date: 2026-08-24
+        type: primary
+        archive: https://web.archive.org/web/20261001220731/https://www.alabamaag.gov/wp-content/uploads/2026/08/2026.8.21-Attorney-General-Marshall-Launches-Investigation-Into-OpenAI-and-Sam-Altman-for-Massive-Artificial-Intelligence-Data-Breach.pdf
+        snapshot: snapshots/2026-10-13-alabamaag.gov-53946671
   - date: 2026-08-26
     text: >-
       OpenAI's official report said the models first compromised the Artifactory
@@ -132,7 +195,7 @@ updates:
         url: https://x.com/w01fe/status/2092742024680419761
         date: 2026-08-26
         type: primary
-        snapshot: snapshots/2026-09-30-x.com-fe9799a8
+        snapshot: snapshots/2026-10-13-x.com-fe9799a8
   - date: 2026-09-02
     text: >-
       Rep. Greg Casar, who had sent OpenAI questions about the incident on Aug.
@@ -184,6 +247,68 @@ updates:
         date: 2026-09-27
         type: reporting
         snapshot: snapshots/2026-09-30-cybernews.com-b925b683
+  - date: 2026-09-29
+    text: >-
+      The nonprofit Legal Advocates for Safe Science and Technology sued OpenAI
+      in San Francisco Superior Court, alleging that the breach violated
+      California's anti-hacking law and that OpenAI had disabled the cyber
+      safety classifiers that would normally constrain its agents and failed to
+      monitor them adequately. It asks for an injunction barring OpenAI from
+      accessing computer systems without authorization, or causing its agents
+      to, and does not seek damages. These are allegations. OpenAI said:
+      "Hugging Face was a serious incident and we've taken a series of actions
+      in response to it, but this lawsuit is completely without merit."
+    sources:
+      - title: OpenAI Faces First Lawsuit Over Rogue AI Agents That Hacked Hugging Face
+        publisher: Gizmodo
+        url: https://gizmodo.com/openai-faces-first-lawsuit-over-rogue-ai-agents-that-hacked-hugging-face-2000819469
+        date: 2026-09-30
+        type: reporting
+        snapshot: snapshots/2026-10-13-gizmodo.com-c917166e
+      - title: OpenAI is sued over the rogue agents that hacked Hugging Face
+        publisher: The Next Web
+        url: https://thenextweb.com/news/openai-lawsuit-lasst-hugging-face-hack
+        date: 2026-09-30
+        type: reporting
+        snapshot: snapshots/2026-10-13-thenextweb.com-8cda411a
+  - date: 2026-09-30
+    text: >-
+      The Federal Trade Commission confirmed it was investigating OpenAI and
+      Anthropic, among other AI companies, without giving details. According to
+      The New York Times, as reported by SiliconANGLE, the inquiry covers
+      whether the companies engaged in unfair or deceptive practices and will
+      "probably" examine whether rogue AI agents harmed consumers.
+    sources:
+      - title: OpenAI and Anthropic face FTC investigation into AI model dangers
+        publisher: The Hill
+        url: https://thehill.com/policy/technology/6124265-ftc-investigates-openai-anthropic/
+        date: 2026-09-30
+        type: reporting
+        snapshot: snapshots/2026-10-13-thehill.com-cc2d86aa
+      - title: FTC reportedly investigating OpenAI, Anthropic over potential consumer
+          risks
+        publisher: SiliconANGLE
+        url: https://siliconangle.com/2026/09/30/ftc-reportedly-investigating-openai-anthropic-over-potential-consumer-risks/
+        date: 2026-09-30
+        type: reporting
+        snapshot: snapshots/2026-10-13-siliconangle.com-5d146b4a
+  - date: 2026-10-05
+    text: >-
+      Asked by Politico whether there were rogue-model incidents that had not
+      yet become public, Altman said: "We are in the process of disclosing more
+      incidents. There's nothing else I'm aware of at that level of severity.
+      But we have more things to disclose." He said there would need to be "a
+      liability framework for companies that are offering models like this,"
+      including for what goes wrong during training. (Quoted from the audio of
+      The Decoded Podcast, about 11:50 to 12:00 and 15:18 to 15:36.)
+    sources:
+      - title: Sam Altman on rogue AI, Anthropic, and getting money out of politics
+        publisher: The Decoded Podcast
+        url: https://podcasts.apple.com/us/podcast/sam-altman-on-rogue-ai-anthropic-and-getting-money/id1500970749?i=1000793231520
+        date: 2026-10-05
+        type: primary
+        archive: https://web.archive.org/web/20261013063421/https://podcasts.apple.com/us/podcast/sam-altman-on-rogue-ai-anthropic-and-getting-money/id1500970749?i=1000793231520
+        snapshot: snapshots/2026-10-13-podcasts.apple.com-15dcb12c
 note: >-
   This is not a broken promise. It's the event that changed the industry's
   rhetoric: within eight weeks both CEOs were calling for a slowdown. It belongs

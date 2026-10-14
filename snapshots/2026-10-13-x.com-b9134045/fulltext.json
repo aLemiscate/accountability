@@ -1,0 +1,75 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/OpenAI/status/2080815626113954288",
+    "id": "2080815626113954288",
+    "text": "We recognize there are a lot of questions and speculative details circulating related to the Hugging Face incident. \n\nThis is an unprecedented incident, and we think it marks an important moment for AI safety. \n\nWe are still conducting a thorough review along with external advisors and with oversight from our Safety and Security Committee. \n\nOnce the review is complete, we plan to publish a technical report of our learnings in the coming weeks.",
+    "raw_text": {
+      "text": "We recognize there are a lot of questions and speculative details circulating related to the Hugging Face incident. \n\nThis is an unprecedented incident, and we think it marks an important moment for AI safety. \n\nWe are still conducting a thorough review along with external advisors and with oversight from our Safety and Security Committee. \n\nOnce the review is complete, we plan to publish a technical report of our learnings in the coming weeks.",
+      "display_text_range": [
+        0,
+        448
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "OpenAI",
+      "url": "https://x.com/OpenAI",
+      "id": "4398626122",
+      "followers": 5430058,
+      "following": 4,
+      "likes": 2526,
+      "media_count": 743,
+      "name": "OpenAI",
+      "description": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: http://openai.com/jobs",
+      "raw_description": {
+        "text": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: https://t.co/dJGr6LgzPA",
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              107,
+              130
+            ],
+            "original": "https://t.co/dJGr6LgzPA",
+            "replacement": "http://openai.com/jobs",
+            "display": "openai.com/jobs"
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/4398626122/1777662919",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+      "joined": "Sun Dec 06 22:51:08 +0000 2015",
+      "protected": false,
+      "website": {
+        "url": "https://openai.com",
+        "display_url": "openai.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "organization"
+      },
+      "avatar_color": null
+    },
+    "replies": 120,
+    "retweets": 121,
+    "likes": 1532,
+    "bookmarks": 223,
+    "quotes": 52,
+    "created_at": "Sat Jul 25 00:41:19 +0000 2026",
+    "created_timestamp": 1784940079,
+    "views": 384652,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": "OpenAI",
+    "replying_to_status": "2079658951264920020",
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

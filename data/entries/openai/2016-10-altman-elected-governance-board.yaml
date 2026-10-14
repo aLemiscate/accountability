@@ -16,6 +16,12 @@ summary: >-
   of the for-profit company.
 concreteness: directional
 status: eroded
+outcome:
+  date: 2025-10-28
+  text: >-
+    No election was ever held. Directors have been picked by the sitting board,
+    and under the October 2025 recapitalization the OpenAI Foundation's board
+    appoints the directors of the for-profit company.
 patterns: [mission-to-market]
 related: [2023-06-altman-board-can-fire-me, 2025-10-28-foundation-controls-pbc]
 sources:
@@ -25,7 +31,7 @@ sources:
     date: 2016-10-10
     type: primary
     archive: https://web.archive.org/web/20261005151124/https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny
-    snapshot: snapshots/2026-10-05-newyorker.com-23141b04
+    snapshot: snapshots/2026-10-03-newyorker.com-23141b04
   - title: Sam Altman, then and now
     publisher: Marcus on AI
     url: https://garymarcus.substack.com/p/sam-altman-then-and-now

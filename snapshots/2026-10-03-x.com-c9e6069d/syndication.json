@@ -1,0 +1,34 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 854,
+  "lang": "en",
+  "created_at": "2024-11-26T17:38:12.000Z",
+  "display_text_range": [
+    0,
+    278
+  ],
+  "entities": {},
+  "id_str": "1861464485011300839",
+  "text": "It's only been a day since we've released MCP and folks are already starting to build tons of stuff on top of it.\n\nThe future of MCP is truly going to be community-led and not controlled by any single entity.\n\nHere are some of the highlights I'm seeing from across the industry:",
+  "user": {
+    "id_str": "1380719534970040322",
+    "name": "Alex Albert",
+    "screen_name": "alexalbert__",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1856486626072915968/JEQpB9CW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1861464485011300839"
+    ],
+    "editable_until_msecs": "1732646292000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 18,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

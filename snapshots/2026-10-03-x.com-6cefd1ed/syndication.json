@@ -1,0 +1,169 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 1,
+  "in_reply_to_screen_name": "swagtaghash",
+  "in_reply_to_status_id_str": "1511852723838205953",
+  "in_reply_to_user_id_str": "821167288095277056",
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2022-04-06T23:56:53.000Z",
+  "display_text_range": [
+    11,
+    167
+  ],
+  "entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/vIg2pwRjXK",
+        "expanded_url": "https://x.com/sjgadler/status/1511855493983002625/photo/1",
+        "indices": [
+          168,
+          191
+        ],
+        "url": "https://t.co/vIg2pwRjXK"
+      }
+    ]
+  },
+  "id_str": "1511855493983002625",
+  "text": "@heyhashim These are _okay_; trying to stay away from proper nouns of specific people, even though we've made our model less-capable of repeating public figures' faces https://t.co/vIg2pwRjXK",
+  "user": {
+    "id_str": "955972371520937985",
+    "name": "Steven Adler",
+    "screen_name": "sjgadler",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1975436697040269312/vCGKjpxB_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1511855493983002625"
+    ],
+    "editable_until_msecs": "1649291213339",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "mediaDetails": [
+    {
+      "display_url": "pic.x.com/vIg2pwRjXK",
+      "expanded_url": "https://x.com/sjgadler/status/1511855493983002625/photo/1",
+      "ext_media_availability": {
+        "status": "Available"
+      },
+      "indices": [
+        168,
+        191
+      ],
+      "media_url_https": "https://pbs.twimg.com/media/FPswirUUcAQCdlJ.jpg",
+      "original_info": {
+        "focus_rects": [
+          {
+            "h": 1102,
+            "w": 1968,
+            "x": 538,
+            "y": 0
+          },
+          {
+            "h": 1102,
+            "w": 1102,
+            "x": 1404,
+            "y": 0
+          },
+          {
+            "h": 1102,
+            "w": 967,
+            "x": 1539,
+            "y": 0
+          },
+          {
+            "h": 1102,
+            "w": 551,
+            "x": 1913,
+            "y": 0
+          },
+          {
+            "h": 1102,
+            "w": 2506,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "height": 1102,
+        "width": 2506
+      },
+      "sizes": {
+        "large": {
+          "h": 901,
+          "resize": "fit",
+          "w": 2048
+        },
+        "medium": {
+          "h": 528,
+          "resize": "fit",
+          "w": 1200
+        },
+        "small": {
+          "h": 299,
+          "resize": "fit",
+          "w": 680
+        },
+        "thumb": {
+          "h": 150,
+          "resize": "crop",
+          "w": 150
+        }
+      },
+      "type": "photo",
+      "url": "https://t.co/vIg2pwRjXK"
+    }
+  ],
+  "photos": [
+    {
+      "backgroundColor": {
+        "red": 204,
+        "green": 214,
+        "blue": 221
+      },
+      "cropCandidates": [
+        {
+          "h": 1102,
+          "w": 1968,
+          "x": 538,
+          "y": 0
+        },
+        {
+          "h": 1102,
+          "w": 1102,
+          "x": 1404,
+          "y": 0
+        },
+        {
+          "h": 1102,
+          "w": 967,
+          "x": 1539,
+          "y": 0
+        },
+        {
+          "h": 1102,
+          "w": 551,
+          "x": 1913,
+          "y": 0
+        },
+        {
+          "h": 1102,
+          "w": 2506,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "expandedUrl": "https://x.com/sjgadler/status/1511855493983002625/photo/1",
+      "url": "https://pbs.twimg.com/media/FPswirUUcAQCdlJ.jpg",
+      "width": 2506,
+      "height": 1102
+    }
+  ],
+  "conversation_count": 0,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false
+}

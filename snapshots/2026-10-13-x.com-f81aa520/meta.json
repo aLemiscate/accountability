@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/sama/status/1955438916645130740",
+  "captured_at": "2026-10-13T15:12:12.167Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "e043acdbad3129da88a6ffdc89b4df6c31352b34d38d4ffb04de1fe7e343fcb0",
+    "page.txt": "81a0465a1ae34e7a7093c479f55a8ea884955668de3a16a81def03587f9c51a2",
+    "post.json": "4bf1cae5b34fe519712d4b63aa762d56e3807bf88bf6b2994bb346cd53151fb5",
+    "syndication.json": "c5124c2b4d86c0720c5b0431cbf620af5da9eccf764f93212724e2b89ea6c36f",
+    "fulltext.json": "7cce432babc2d71ed7a4d9d65becd3b572e58032b5b3739ff116d5aa4928e7a7",
+    "post.txt": "8b01a470bdd2e54aafd78067d2277757af7adfc7e5a6548b4f7b36c346989dcb"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1955438916645130740",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"Updates to ChatGPT: You can now choose between “Auto”, “Fast”, and “Thinking” for GPT-5. Most users will want Auto, but the additional control will be useful for some people. Rate limits are now 3,000 messages/week with GPT-5 Thinking, and then extra capacity on GPT-5 Thinking m… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "August 13, 2025",
+    "posted_at": "2025-08-13T01:19:02.683Z",
+    "full_text_from": "api.fxtwitter.com"
+  }
+}

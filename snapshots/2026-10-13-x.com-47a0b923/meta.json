@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/thsottiaux/status/2104823812042940713",
+  "captured_at": "2026-10-13T15:12:19.683Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "c191827054ff726f90432b7a4c5c9ceb197e87df296d91ea2e6e673f849e3e74",
+    "page.txt": "4ba51e8e2143d4d13868eca6059c5f1dc0bcd73555f191853dd6fcc943b445f5",
+    "post.json": "d9af7145768295399c05b1e97722aac3496bfb895560257b79ff45fb4c24dfba",
+    "syndication.json": "79fe4ee1eda42e2d22003af4911c183337ef0d4aef0c1ce16f220fc0ab1a10b5",
+    "fulltext.json": "5fd48d5bf124abfe0e861750945d63d824e468cc1ddfd2be6fc91ceef884e4c9",
+    "post.txt": "912ec45547b888c3b891f25798a4ae9092c113116619c9c203cbb3708761da93"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/thsottiaux/status/2104823812042940713",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Tibo on X: \"Hi, Tomorrow we are re-opening the Pro $200 subscriptions to new subscribers, but together with it we are also changing how we calculate the usage for it. In effect, if you do the math, it will net out at half the dollar in API spend compared to the old Pro $200 plan. Now that it's s… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Tibo (@thsottiaux)",
+    "date": "September 29, 2026",
+    "posted_at": "2026-09-29T06:41:17.183Z",
+    "full_text_from": "api.fxtwitter.com"
+  }
+}

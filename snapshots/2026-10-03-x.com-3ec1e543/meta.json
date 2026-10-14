@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/AnthropicAI/status/1949898511287226425",
+  "captured_at": "2026-10-03T12:17:58.782Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "2a5cdf387dcbe4e27ad6e3faea8e3ffd990121f560d8d5e6c6c0d1a95665dec8",
+    "page.txt": "a9dfaa03b2bc521f9ee74c8f5260cfa6d14afc50128015adc2a9582de529901b",
+    "post.json": "5c57a5674e51803e63a87f0bdc45a888d9fa3a9e747733fdded8de8c048dbe52",
+    "syndication.json": "4a146c01c37759a3922cb44119395de144e57c48228f40c7f2de47c535ae9b7c",
+    "post.txt": "b8f86a00f471c21523f5604f26271cfd949875ab9255a9f382b22a30262c3719"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/AnthropicAI/status/1949898511287226425",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Anthropic on X: \"Some of the biggest Claude Code fans are running it continuously in the background, 24/7. These uses are remarkable and we want to enable them. But a few outlying cases are very costly to support. For example, one user consumed tens of thousands in model usage on a $200 plan.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Anthropic (@AnthropicAI)",
+    "date": "July 28, 2025",
+    "posted_at": "2025-07-28T18:23:27.110Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260924214051/https://x.com/AnthropicAI/status/1949898511287226425",
+    "timestamp": "20260924214051",
+    "method": "existing"
+  }
+}

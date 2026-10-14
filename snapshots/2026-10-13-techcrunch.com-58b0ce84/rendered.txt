@@ -1,0 +1,32 @@
+Earlier this week, Meta landed in hot water for using an experimental, unreleased version of its Llama 4 Maverick model to achieve a high score on a crowdsourced benchmark, LM Arena. The incident prompted the maintainers of LM Arena to apologize, change their policies, and score the unmodified, vanilla Maverick.
+Turns out, it’s not very competitive.
+The unmodified Maverick, “Llama-4-Maverick-17B-128E-Instruct,” was ranked below models including OpenAI’s GPT-4o, Anthropic’s Claude 3.5 Sonnet, and Google’s Gemini 1.5 Pro as of Friday. Many of these models are months old.
+Why the poor performance? Meta’s experimental Maverick, Llama-4-Maverick-03-26-Experimental, was “optimized for conversationality,” the company explained in a chart published last Saturday. Those optimizations evidently played well to LM Arena, which has human raters compare the outputs of models and choose which they prefer.
+As we’ve written about before, for various reasons, LM Arena has never been the most reliable measure of an AI model’s performance. Still, tailoring a model to a benchmark — besides being misleading — makes it challenging for developers to predict exactly how well the model will perform in different contexts.
+In a statement, a Meta spokesperson told TechCrunch that Meta experiments with “all types of custom variants.”
+Amazon and others are done keeping data center deals secret. Is it enough to build trust? | Equity Podcast
+0 seconds of 35 minutes, 54 secondsVolume 0%
+“‘Llama-4-Maverick-03-26-Experimental’ is a chat optimized version we experimented with that also performs well on LM Arena,” the spokesperson said. “We have now released our open source version and will see how developers customize Llama 4 for their own use cases. We’re excited to see what they will build and look forward to their ongoing feedback.”
+Topics
+AI
+Llama
+lm arena
+Meta
+When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.
+Kyle Wiggers
+AI Editor
+Kyle Wiggers was TechCrunch’s AI Editor until June 2025. His writing has appeared in VentureBeat and Digital Trends, as well as a range of gadget blogs including Android Police, Android Authority, Droid-Life, and XDA-Developers. He lives in Manhattan with his partner, a music therapist.
+View Bio
+October 13 – 15
+San Francisco
+Get 50% off a second pass
+The Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by making connections, building momentum, and discovering what’s next in the startup ecosystem.
+BOOK NOW
+Most Popular
+Elon Musk intensifies attack on Ambani over Starlink India launch delay
+Batteries are now cheaper than natural gas turbines used at many data centers
+Remember Orkut? Its founder wants to bring it back
+US bars Microsoft, Adobe, and major IT firms from green card program for skilled foreign workers
+Elon Musk questions Ambani’s influence as Starlink India launch stalls
+Cal AI’s 19-year-old founder just raised $10M for his new AI startup
+Google releases a new local-first Granola competitor

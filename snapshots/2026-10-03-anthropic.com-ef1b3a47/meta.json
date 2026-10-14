@@ -1,0 +1,21 @@
+{
+  "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+  "captured_at": "2026-10-03T12:50:56.065Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "b8fc0fc796568dd0cdd54da0dca192f5de9b60d44e7638ff4edf6db2a218d641",
+    "page.txt": "cc35e8dbcaecff28e75e1a475129f820cb0436303a918115d8fe586467f6ec5a",
+    "screenshot.jpg": "4b41bf56b6b4e23a660490661637c3e2258e936ff8e5f78a0eb9a7871354242e",
+    "rendered.txt": "39fb0c61147a4a35df0be6926ce5a35ddcbc54467f8e8ae226aded032c0b4aab"
+  },
+  "http_status": 200,
+  "final_url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+  "content_type": "text/html; charset=utf-8",
+  "title": "Claude discovers a novel enzyme system \\ Anthropic",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20261003125102/https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+    "timestamp": "20261003125102",
+    "method": "spn"
+  }
+}

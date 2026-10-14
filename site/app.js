@@ -32,7 +32,16 @@
     directional: 'States a direction or value, with no mechanism.',
     aspirational: 'A mission-level aim that cannot be failed as written.',
   };
-  const VIEWS = ['receipts', 'timeline', 'patterns', 'watchlist', 'method'];
+  const VIEWS = ['receipts', 'timeline', 'patterns', 'watchlist', 'commitments', 'method'];
+  const GRADE_LABEL = { kept: 'Kept', standing: 'Standing', eroded: 'Eroded', broken: 'Broken', unknown: 'Unknown' };
+  const GRADE_CLASS = { kept: 's-kept', standing: 's-open', eroded: 's-eroded', broken: 's-broken', unknown: 's-unknown' };
+  const GRADE_DEF = {
+    kept: 'Met, with evidence an outsider can check.',
+    standing: 'Still in force, and nothing public shows it broken.',
+    eroded: 'Dropped, weakened or only partly met.',
+    broken: 'Not honored.',
+    unknown: 'Cannot be checked from outside the company.',
+  };
   const DAY = 86400000;
   const NOW = Date.now();
 
@@ -117,15 +126,24 @@
   }
   const anyFilter = () => state.org !== 'all' || state.pattern || state.person || state.q;
 
-  // Receipts: said → did pairs, plus self-contained before/after revisions.
+  // Receipts: said → did pairs, self-contained before/after revisions, and failed
+  // statements whose outcome is recorded on the statement itself.
   const revisionReceipts = D.entries
     .filter((e) => e.type === 'did' && e.revision && !e.contradicts.length)
     .map((e) => ({ revision: e.id }));
-  const allReceipts = [...D.receipts, ...revisionReceipts].sort(
-    (a, b) => byId.get(b.did || b.revision).time - byId.get(a.did || a.revision).time,
-  );
+  const outcomeReceipts = D.entries
+    .filter((e) => e.type === 'said' && e.outcome)
+    .map((e) => ({
+      said: e.id,
+      outcome: true,
+      gap_days: Math.round((e.outcome.time - e.time) / DAY),
+      approx: e.precision !== 'day' || e.outcome.precision !== 'day',
+    }));
+  const receiptTime = (r) => (r.outcome ? byId.get(r.said).outcome.time : byId.get(r.did || r.revision).time);
+  const allReceipts = [...D.receipts, ...revisionReceipts, ...outcomeReceipts].sort((a, b) => receiptTime(b) - receiptTime(a));
   function receiptMatches(r) {
     if (r.revision) return matches(byId.get(r.revision));
+    if (r.outcome) return matches(byId.get(r.said));
     const s = byId.get(r.said);
     const d = byId.get(r.did);
     if (state.org !== 'all' && s.org !== state.org) return false;
@@ -141,12 +159,81 @@
   const stamp = (type) => h('span', { class: `stamp ${type}` }, type === 'said' ? 'Said' : 'Did');
   const statusPill = (s) => h('span', { class: `pill s-${s}`, title: STATUS_DEF[s] }, STATUS_LABEL[s] || s);
   const concretePill = (c) => c && h('span', { class: 'pill c', title: CONCRETE_DEF[c] }, c);
-  const patternChips = (ids) => ids.map((p) => h('button', {
+  /** Pattern tags. Clicking one follows that pattern (filters every view); clicking it again stops. */
+  const patternChips = (ids, toView) => ids.map((p) => h('button', {
     class: 'chip',
     type: 'button',
-    title: `Filter by pattern: ${patternById.get(p)?.name}`,
-    onclick: (ev) => { ev.stopPropagation(); setFilter({ pattern: p }); },
+    'aria-pressed': String(state.pattern === p),
+    title: state.pattern === p ? 'Stop following this pattern' : `Follow this pattern: ${patternById.get(p)?.name}`,
+    onclick: (ev) => { ev.stopPropagation(); setFilter({ pattern: state.pattern === p ? '' : p }, toView); },
   }, patternById.get(p)?.name || p));
+  const FAILED = new Set(['broken', 'reversed', 'eroded', 'contradicted']);
+  /** How the statements in a set of entries turned out, e.g. "4 didn't hold · 1 standing · 2 actions". */
+  function outcomeTally(entries) {
+    const said = entries.filter((e) => e.type === 'said');
+    const parts = [
+      [said.filter((e) => FAILED.has(e.status)).length, 'didn’t hold', 'fail'],
+      [said.filter((e) => e.status === 'open').length, 'standing', 'standing'],
+      [said.filter((e) => e.status === 'kept').length, 'held', 'held'],
+    ].filter(([n]) => n > 0);
+    const did = entries.length - said.length;
+    return h('span', { class: 'tally' },
+      parts.map(([n, word, tone]) => h('span', { class: `t-${tone}` }, `${n} ${word}`)),
+      did > 0 && h('span', null, `${did} action${did === 1 ? '' : 's'}`));
+  }
+  const yearSpan = (entries) => {
+    const ys = entries.map((e) => +String(e.date).slice(0, 4));
+    const lo = Math.min(...ys);
+    const hi = Math.max(...ys);
+    return lo === hi ? String(lo) : `${lo}–${hi}`;
+  };
+  /** Where a pattern is industry-wide: one sourced sentence on another company doing the same thing. */
+  function industryNote(ind) {
+    return h('div', { class: 'industry' },
+      h('span', { class: 'label' }, 'Across the industry'),
+      h('p', null, ind.text, ' ', (ind.sources || []).map((s, i) => [i ? ' · ' : '',
+        h('a', { href: s.url, target: '_blank', rel: 'noopener' }, [s.publisher, s.date && fmtDate(s.date)].filter(Boolean).join(', '))])));
+  }
+  /** Shown above a view while a pattern is being followed: what the pattern is and how its entries turned out. */
+  function patternBrief(entries) {
+    const p = patternById.get(state.pattern);
+    if (!p) return null;
+    const orgs = ['openai', 'anthropic'].map((o) => [o, entries.filter((e) => e.org === o).length]).filter(([, n]) => n);
+    return h('section', { class: 'pbrief', 'aria-label': `Following the pattern ${p.name}` },
+      h('div', { class: 'pbrief-head' },
+        h('span', { class: 'label' }, 'Following a pattern'),
+        h('span', { class: 'spacer' }),
+        h('button', { class: 'clear label', type: 'button', onclick: () => { location.hash = `p-${p.id}`; } }, 'All patterns'),
+        h('button', { class: 'clear label', type: 'button', onclick: () => setFilter({ pattern: '' }) }, 'Stop following')),
+      h('h3', null, p.name),
+      h('p', null, p.thesis),
+      entries.length > 0 && h('p', { class: 'pbrief-meta' },
+        h('span', null, `${entries.length} entr${entries.length === 1 ? 'y' : 'ies'}, ${yearSpan(entries)}`),
+        h('span', { class: 'pbrief-orgs' }, orgs.map(([o, n]) => h('span', { class: 'org' }, h('span', { class: `org-mark ${o}`, 'aria-hidden': 'true' }), `${orgName(o)} ${n}`))),
+        outcomeTally(entries)),
+      p.industry && industryNote(p.industry),
+      (p.tells?.length > 0 || p.watch_for) && h('details', null,
+        h('summary', { class: 'label' }, 'Tells, and what to expect if it holds'),
+        p.tells?.length > 0 && h('ul', null, p.tells.map((t) => h('li', null, t))),
+        p.watch_for && h('div', { class: 'forecast' }, h('span', { class: 'label' }, 'If the pattern holds (analysis)'), h('p', null, p.watch_for))),
+    );
+  }
+  /** A row of every pattern with its count, for picking one to follow from the timeline. */
+  function patternStrip() {
+    const saved = state.pattern;
+    state.pattern = '';
+    const pool = D.entries.filter(matches);
+    state.pattern = saved;
+    const rows = D.patterns.map((p) => [p, pool.filter((e) => e.patterns.includes(p.id)).length]).filter(([, n]) => n);
+    const untagged = pool.filter((e) => !e.patterns.length).length;
+    return h('div', { class: 'pstrip', role: 'group', 'aria-label': 'Follow a pattern' },
+      h('span', { class: 'label' }, 'Follow a pattern'),
+      h('div', { class: 'pstrip-chips' }, rows.map(([p, n]) => h('button', {
+        class: 'chip', type: 'button', 'aria-pressed': String(state.pattern === p.id),
+        onclick: () => setFilter({ pattern: state.pattern === p.id ? '' : p.id }),
+      }, p.name, h('span', { class: 'n' }, n)))),
+      !state.pattern && untagged > 0 && h('span', { class: 'pstrip-note' }, `${untagged} of ${pool.length} entries fit no pattern yet and appear only in the full timeline.`));
+  }
   const snapDate = (dir) => (/(\d{4}-\d{2}-\d{2})/.exec(dir || '') || [])[1];
   const quoteBlock = (text, e) => text && h('div', { class: 'quote-wrap' },
     h('blockquote', { class: 'quote' }, `“${text.trim()}”`),
@@ -171,9 +258,10 @@
   function renderReceipts() {
     const list = allReceipts.filter(receiptMatches);
     const frag = [viewHead('Receipts',
-      'Each receipt pairs a public statement with a later action that contradicts it, or a policy text with its quiet rewrite. Between them is the time from the words to the deed.')];
+      'Each receipt pairs a public statement with a later action that contradicts it, with what became of it, or a policy text with its quiet rewrite. Between them is the time from the words to the deed.'),
+    patternBrief(D.entries.filter(matches))];
     if (!list.length) return [...frag, empty()];
-    frag.push(h('div', { class: 'receipts' }, list.map((r) => (r.revision ? revisionCard(byId.get(r.revision)) : receiptCard(r)))));
+    frag.push(h('div', { class: 'receipts' }, list.map((r) => (r.revision ? revisionCard(byId.get(r.revision)) : r.outcome ? outcomeCard(r) : receiptCard(r)))));
     return frag;
   }
 
@@ -207,6 +295,38 @@
     );
   }
 
+  // A failed statement with no separate action: the other side is what became of it.
+  // When the company's own earlier record already contradicted it, the gap runs backward.
+  function outcomeCard(r) {
+    const s = byId.get(r.said);
+    const earlier = r.gap_days < 0;
+    const g = span(r.gap_days);
+    return h('article', { class: 'receipt', id: `r-${s.id}--outcome` },
+      h('div', { class: 'side said' },
+        h('div', { class: 'side-head' }, stamp('said'), h('span', { class: 'label' }, fmtDate(s.date)), orgTag(s.org)),
+        titleButton(s),
+        quoteBlock(s.quote, s),
+        h('div', { class: 'side-head' }, statusPill(s.status), concretePill(s.concreteness)),
+      ),
+      h('div', { class: 'gap', title: r.approx ? 'Approximate: one of the dates is known only to the month or year' : null },
+        h('span', { class: 'label' }, earlier ? 'Already' : 'Later'),
+        h('span', { class: 'gap-n' }, `${r.approx ? '~' : ''}${g.n}`),
+        h('span', { class: 'label' }, earlier ? `${g.unit} before` : g.unit),
+        arrow(),
+      ),
+      h('div', { class: 'side did' },
+        h('div', { class: 'side-head' }, h('span', { class: 'stamp did' }, earlier ? 'On record' : 'Outcome'), h('span', { class: 'label' }, fmtDate(s.outcome.date)), orgTag(s.org)),
+        h('p', null, s.outcome.text),
+        h('button', { class: 'chip', type: 'button', onclick: () => openEntry(s.id) }, 'Sources and details'),
+      ),
+      h('div', { class: 'receipt-foot' },
+        patternChips(s.patterns),
+        h('span', { class: 'spacer' }),
+        h('button', { class: 'btn', type: 'button', onclick: () => copyReceipt(s, null) }, 'Copy receipt'),
+      ),
+    );
+  }
+
   function revisionCard(e) {
     return h('article', { class: 'receipt', id: `r-${e.id}` },
       h('div', { class: 'side said' },
@@ -234,7 +354,8 @@
 
   function renderTimeline() {
     const list = D.entries.filter(matches);
-    const frag = [viewHead('Timeline', 'Everything in the record, in date order. Blue marks what was said; red marks what was done.')];
+    const frag = [viewHead('Timeline', 'Everything in the record, in date order. A hollow mark is a statement; a solid mark is an action. The tags on each entry name the patterns it belongs to; pick one to follow it through the years.'),
+      patternStrip(), patternBrief(list)];
     if (!list.length) return [...frag, empty()];
     const years = new Map();
     for (const e of list) {
@@ -252,12 +373,13 @@
         const row = `grid-row: ${i + 3}`;
         block.append(
           h('div', { class: 'tl-spine', style: row, 'aria-hidden': 'true' }, h('span', { class: `tl-dot ${e.type}` })),
-          h('button', { class: `tl-card ${e.type}`, type: 'button', style: row, onclick: () => openEntry(e.id) },
+          h('article', { class: `tl-card ${e.type}`, style: row },
             h('span', { class: 'tl-meta' }, stamp(e.type), h('span', { class: 'label' }, fmtDate(e.date)), orgTag(e.org)),
-            h('span', { class: 't' }, e.title),
+            h('button', { class: 't', type: 'button', onclick: () => openEntry(e.id) }, e.title),
             (e.status || e.contradicts.length > 0) && h('span', { class: 'tl-meta' },
               e.status && statusPill(e.status),
               e.contradicts.length > 0 && h('span', { class: 'label' }, `contradicts ${e.contradicts.length === 1 ? 'an earlier statement' : `${e.contradicts.length} statements`}`)),
+            e.patterns.length > 0 && h('span', { class: 'tl-patterns' }, patternChips(e.patterns)),
           ),
         );
       });
@@ -311,13 +433,17 @@
         )),
     );
     frag.push(h('div', { class: 'patterns-list' }, rows.map(({ p, hits }) => h('section', { class: 'pcard', id: `p-${p.id}` },
-      h('span', { class: 'label' }, `${hits.length} entr${hits.length === 1 ? 'y' : 'ies'} · ${[...new Set(hits.map((e) => orgName(e.org)))].join(' + ')}`),
+      h('span', { class: 'label' }, `${hits.length} entr${hits.length === 1 ? 'y' : 'ies'} · ${[...new Set(hits.map((e) => orgName(e.org)))].join(' + ')} · ${yearSpan(hits)}`),
       h('h3', null, p.name),
       h('p', null, p.thesis),
+      h('p', { class: 'pbrief-meta' }, outcomeTally(hits)),
       p.tells?.length > 0 && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Tells'), h('ul', null, p.tells.map((t) => h('li', null, t)))),
       p.watch_for && h('div', { class: 'forecast' }, h('span', { class: 'label' }, 'If the pattern holds (analysis)'), h('p', null, p.watch_for)),
+      p.industry && industryNote(p.industry),
       h('div', { class: 'hits' }, hits.map((e) => h('button', { class: 'hit', type: 'button', onclick: () => openEntry(e.id) },
-        h('span', { class: 'mono' }, String(e.date).slice(0, 7)), h('span', { class: 'org-mark ' + e.org, 'aria-hidden': 'true' }), h('span', { class: 'ht' }, e.title)))),
+        h('span', { class: 'mono' }, String(e.date).slice(0, 7)), h('span', { class: `dot sm ${e.org} ${e.type}`, 'aria-hidden': 'true' }),
+        h('span', { class: 'ht' }, e.title, e.status && h('span', { class: `mark s-${e.status}`, title: STATUS_LABEL[e.status] }, h('span', { class: 'sr' }, ` (${STATUS_LABEL[e.status]})`)))))),
+      h('button', { class: 'btn', type: 'button', onclick: () => setFilter({ pattern: p.id }, 'timeline') }, `Follow ${p.name} on the timeline`),
     ))));
     return frag;
   }
@@ -327,7 +453,8 @@
     const open = said.filter((e) => e.status === 'open').sort((a, b) => b.time - a.time);
     const kept = said.filter((e) => e.status === 'kept').sort((a, b) => b.time - a.time);
     const frag = [viewHead('Watchlist',
-      'Promises still in force. Each says what would count as breaking it, so the test is written down before anyone needs it.')];
+      'Promises still in force. Each says what would count as breaking it, so the test is written down before anyone needs it.'),
+    patternBrief(D.entries.filter(matches))];
     if (!open.length && !kept.length) return [...frag, empty()];
     const card = (e) => {
       const days = Math.max(0, Math.round((NOW - e.time) / DAY));
@@ -338,6 +465,8 @@
           quoteBlock(e.quote, e),
           !e.quote && e.summary && h('p', null, clip(e.summary, 260)),
           e.breaks_if && h('div', { class: 'breaks' }, h('span', { class: 'label' }, 'Counts as broken if'), h('p', null, e.breaks_if)),
+          e.last_checked && h('p', { class: 'label checked' }, `Last checked ${fmtDate(e.last_checked)}`),
+          e.patterns.length > 0 && h('div', { class: 'side-head' }, patternChips(e.patterns)),
         ),
         h('div', { class: 'age' },
           h('span', { class: 'label' }, e.status === 'kept' ? 'Held for' : 'Standing for'),
@@ -351,12 +480,57 @@
     return frag;
   }
 
+  const gradePill = (g) => h('span', { class: `pill ${GRADE_CLASS[g] || ''}`, title: GRADE_DEF[g] }, GRADE_LABEL[g] || g);
+  const keptLine = (t) => t && `${t.kept} of ${t.total} kept`;
+  const restLine = (t) => t && ['standing', 'eroded', 'broken', 'unknown'].filter((g) => t[g]).map((g) => `${t[g]} ${g}`).join(' · ');
+
+  function renderCommitments() {
+    const orgs = state.org === 'all' ? ['openai', 'anthropic'] : [state.org];
+    const docs = (D.commitments || []).filter((d) => d.parties.some((o) => orgs.includes(o)));
+    const frag = [viewHead('Commitments',
+      'Every individual commitment in the formal documents each company signed or published, graded for each company: kept, standing (in force, with nothing public showing it broken), eroded, broken, or unknown when it can’t be checked from outside. An entry is written only where a result is notable.')];
+    if (!docs.length) return [...frag, empty()];
+    const total = Object.fromEntries(orgs.map((o) => [o, { total: 0, kept: 0, standing: 0, eroded: 0, broken: 0, unknown: 0 }]));
+    for (const d of docs) for (const o of orgs) for (const [k, v] of Object.entries(d.tally?.[o] || {})) total[o][k] += v;
+    const cell = (t) => (t ? h('td', null, h('span', { class: 'ck' }, keptLine(t)), h('span', { class: 'cr' }, restLine(t))) : h('td', { class: 'na' }, 'not a party'));
+    frag.push(h('div', { class: 'ctable-wrap' }, h('table', { class: 'ctable' },
+      h('thead', null, h('tr', null, h('th', { scope: 'col' }, 'Document'), orgs.map((o) => h('th', { scope: 'col' }, orgName(o))))),
+      h('tbody', null, docs.map((d) => h('tr', null,
+        h('th', { scope: 'row' }, h('a', { href: `#c-${d.id}`, onclick: (ev) => { ev.preventDefault(); document.getElementById(`c-${d.id}`)?.scrollIntoView({ block: 'start' }); } }, d.title)),
+        orgs.map((o) => cell(d.tally?.[o]))))),
+      h('tfoot', null, h('tr', null, h('th', { scope: 'row' }, 'All documents'), orgs.map((o) => cell(total[o])))),
+    )));
+    frag.push(h('p', { class: 'cnote' }, 'Documents differ in length and in how much can be checked from outside, so counts across documents are not a score. Read the evidence.'));
+    for (const d of docs) {
+      frag.push(h('section', { class: 'cdoc', id: `c-${d.id}` },
+        h('h3', null, d.title),
+        h('div', { class: 'pbrief-meta' }, h('span', null, fmtDate(d.date)), h('span', { class: 'pbrief-orgs' }, d.parties.map(orgTag)),
+          d.parties.filter((o) => orgs.includes(o)).map((o) => h('span', null, `${orgName(o)}: ${keptLine(d.tally?.[o])}`))),
+        d.summary && h('p', null, d.summary),
+        h('details', null,
+          h('summary', null, `The ${d.commitments.length} commitments`),
+          h('ol', { class: 'clist' }, d.commitments.map((c) => h('li', { class: 'citem' },
+            h('div', { class: 'cmeta' }, [c.section, c.versions].filter(Boolean).join(' · ')),
+            h('blockquote', null, c.text),
+            orgs.filter((o) => c.grades?.[o]).map((o) => h('div', { class: 'cgrade' },
+              h('div', { class: 'side-head' }, orgTag(o), gradePill(c.grades[o].grade)),
+              h('p', null, c.grades[o].evidence),
+              (c.grades[o].entries || []).length > 0 && h('div', { class: 'hits' }, linkList(c.grades[o].entries, 'see')),
+              (c.grades[o].sources || []).length > 0 && sourceList(c.grades[o].sources),
+            )))))),
+        h('details', null, h('summary', null, 'Sources'), sourceList(d.sources)),
+      ));
+    }
+    return frag;
+  }
+
   function renderMethod() {
     const repo = D.site.repo;
     return [
       viewHead('Method', 'How this record is kept, and what counts as evidence.'),
       h('div', { class: 'prose' },
-        h('p', null, 'Every entry is either something a company or one of its leaders ', h('b', null, 'said'), ' (a principle, a commitment, a claim, a denial) or something they ', h('b', null, 'did'), '. A "did" entry that contradicts an earlier "said" entry links back to it, and that link is a receipt.'),
+        h('p', null, 'Every entry is either something a company or one of its leaders ', h('b', null, 'said'), ' (a principle, a commitment, a claim, a denial) or something they ', h('b', null, 'did'), '. A "did" entry that contradicts an earlier "said" entry links back to it, and that link is a receipt. A statement that failed with no separate action to point to (a date that passed with nothing shipped, a claim the company\'s own earlier paper contradicts) carries a dated outcome instead, shown as a receipt too. Every statement graded broken, reversed, eroded or contradicted has one.'),
+        h('p', null, 'Claims are not limited to safety and ethics. Capability and benchmark claims, promised features and release dates, usage limits and what a plan includes, and promises about how a product behaves are recorded too when they are notable and can be checked, whether they held up or not.'),
         h('h3', null, 'Standards'),
         h('ul', null,
           h('li', null, 'Every entry cites at least one source. Primary sources (the company’s own post, the original social post, testimony) are preferred; reporting is labeled as reporting.'),
@@ -367,13 +541,16 @@
           h('li', null, 'Kept promises are recorded too. A record that only counts failures is easier to dismiss.'),
         ),
         h('h3', null, 'Where entries come from'),
-        h('p', null, 'Company announcements, filings, testimony and reporting, plus the public posts of the companies and their people. For posts on Twitter (now X), every archived post of 77 accounts was pulled from the Wayback Machine, including posts later deleted. As of September 2026, 18,627 of them (each account’s posts on these topics, plus every possibly deleted post) were read and given a decision: change the record, follow up, context for an existing entry, or no action.'),
-        h('p', null, 'Limits: posts nobody archived can’t be found this way; for Elon Musk only the latest year was read; and for nine accounts with mostly off-topic posts, posts that didn’t mention the labs or safety were read as one-line excerpts. The decisions, per-account counts and what became of each follow-up are in ', h('code', null, 'inbox/sweep/TRIAGE.md'), ' in the repository.'),
-        h('p', null, 'Beyond Twitter, a September 2026 review read the companies’ system cards, risk reports and safety frameworks against each other, checked policy versions, court records, testimony and investigative reporting, and looked for each company’s counterpart to the other’s entries. What it covered, the two companies side by side, and what may still be missing are in ', h('code', null, 'COVERAGE.md'), ' in the repository.'),
+        h('p', null, 'Company announcements, filings, testimony and reporting, plus the public posts of the companies and their people. For posts on Twitter, every archived post of 77 accounts was pulled from the Wayback Machine, including posts later deleted. All 82,863 posts these accounts wrote from December 2015 on that have text in the archive were read in full and given a decision: change the record, follow up, context for an existing entry, or no action. That reading looked for safety, ethics and policy claims. A second reading looked for every other kind of notable claim (capabilities and benchmarks, features and release dates, usage limits and plan terms, promises about how a product behaves, and dated predictions) in the 41,679 posts each person wrote while at the company or after leaving it, including 5,154 collected after the first reading. Every collected post now has a decision; the logs are in the repository.'),
+        h('p', null, 'Limits: posts nobody archived can’t be found this way, and for Elon Musk only the latest year was read. The decisions, per-account counts and what became of each follow-up are in ', h('code', null, 'inbox/sweep/TRIAGE.md'), ' in the repository.'),
+        h('p', null, 'Beyond Twitter, a September 2026 review read the companies’ system cards, risk reports and safety frameworks against each other, checked policy versions, court records, testimony and investigative reporting, and looked for each company’s counterpart to the other’s entries. An October 2026 review did the same for product, pricing and capability claims. What they covered, the two companies side by side, and what may still be missing are in ', h('code', null, 'COVERAGE.md'), ' in the repository.'),
+        h('p', null, 'A fairness review in October 2026 then worked through seven gaps, the same way for both companies. It read in full 194 of the 201 long-form spoken appearances found for ten company leaders since 2021 (podcasts and testimony; the rest had no usable recording or transcript). It graded every commitment in nine formal documents for each company: OpenAI kept 31 of 127, Anthropic 39 of 127 (see Commitments). It compared 1,932 archived versions of 33 policy, terms, pricing, usage-limit and model-retirement pages, and logged 210 changes with whether each was announced. It re-read the 9,021 replies by company accounts and executives next to the posts they answered (all but 1,576 could be retrieved). It gave every “did” entry the company’s response, or says none was found, and re-checked every open promise (the date is on the Watchlist). It set both companies’ federal and state lobbying filings against what they said in public about regulation: Anthropic’s filings name the bills it lobbied on, while OpenAI’s have named none since 2024. And where a pattern’s behavior is industry-wide, it added one sourced example from another company. Counts, method and what couldn’t be done are in ', h('code', null, 'COVERAGE.md'), '.'),
         h('h3', null, 'Who is in scope'),
-        h('p', null, 'Organizations, and people speaking in a public or official role: executives, founders, board members, and staff who speak publicly about the company’s mission, safety or policy. No private individuals, private accounts, family members or personal lives.'),
+        h('p', null, 'Organizations, and people speaking in a public or official role: executives, founders, board members, and staff who speak publicly about the company’s mission, products, safety or policy. No private individuals, private accounts, family members or personal lives.'),
         h('h3', null, 'Status of a statement'),
         h('div', { class: 'defs' }, Object.keys(STATUS_DEF).flatMap((k) => [statusPill(k), h('span', null, STATUS_DEF[k])])),
+        h('h3', null, 'Patterns'),
+        h('p', null, 'Patterns are this record’s analysis, not anyone’s words: a pattern is a move that recurs across the years or across both companies. Each entry is tagged with every pattern it shows, and some entries fit none. A promise that held keeps its tag when it was a test of the pattern, so following a pattern shows where it held as well as where it didn’t. Where the behavior is industry-wide, a pattern also gives one sourced example from another company, as context: the record has no entries about other companies. Pick a pattern on the timeline, or from any entry, to follow it through every view.'),
         h('h3', null, 'How concrete was it?'),
         h('p', null, 'Vague promises can’t be broken, which is often the point. Each statement is graded on how testable it was when made.'),
         h('div', { class: 'defs' }, Object.keys(CONCRETE_DEF).flatMap((k) => [concretePill(k), h('span', null, CONCRETE_DEF[k])])),
@@ -439,6 +616,8 @@
         e.revision && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'What changed'),
           h('div', { class: 'diff' }, h('div', { class: 'minus' }, h('b', null, '−'), e.revision.before), h('div', { class: 'plus' }, h('b', null, '+'), e.revision.after))),
         e.breaks_if && h('div', { class: 'breaks' }, h('span', { class: 'label' }, 'Counts as broken if'), h('p', null, e.breaks_if)),
+        e.outcome && h('div', { class: 'd-section' }, h('span', { class: 'label' }, `Outcome, ${fmtDate(e.outcome.date)}`), h('p', null, e.outcome.text)),
+        e.last_checked && h('p', { class: 'label checked' }, `Status last checked against the record on ${fmtDate(e.last_checked)}`),
         (e.contradicts.length + e.contradicted_by.length + e.related.length > 0) && h('div', { class: 'd-section links' },
           h('span', { class: 'label' }, 'Connected entries'),
           linkList(e.contradicts, 'contradicts'), linkList(e.contradicted_by, 'contradicted by'), linkList(e.related, 'related')),
@@ -447,8 +626,12 @@
             h('div', null, h('p', null, u.text), u.sources?.length > 0 && sourceList(u.sources)))))),
         e.response && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Their side'), h('p', null, e.response)),
         e.note && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Commentary'), h('p', { class: 'note' }, e.note)),
-        e.patterns.length > 0 && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Patterns'),
-          h('div', { class: 'side-head' }, e.patterns.map((p) => h('button', { class: 'chip', type: 'button', onclick: () => { dialog.close(); location.hash = `p-${p}`; } }, patternById.get(p)?.name || p)))),
+        e.patterns.length > 0 && h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Patterns (analysis)'),
+          e.patterns.map((id) => patternById.get(id)).filter(Boolean).map((p) => h('div', { class: 'd-pattern' },
+            h('p', null, h('b', null, p.name), ' ', h('span', { class: 'muted' }, p.thesis)),
+            h('div', { class: 'side-head' },
+              h('button', { class: 'chip', type: 'button', onclick: () => { dialog.close(); setFilter({ pattern: p.id }, 'timeline'); setHash('#timeline'); } }, 'Follow on the timeline'),
+              h('button', { class: 'chip', type: 'button', onclick: () => { dialog.close(); location.hash = `p-${p.id}`; } }, 'About this pattern'))))),
         h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Sources'), sourceList(e.sources)),
         D.site.repo && e.file && h('p', { class: 'label' }, h('a', { href: `${D.site.repo}/blob/HEAD/${e.file}`, target: '_blank', rel: 'noopener' }, 'View or correct this entry')),
       ),
@@ -469,11 +652,20 @@
   }
   function receiptText(s, d) {
     const lines = [];
-    const src = (e) => e.sources?.[0]?.archive || e.sources?.[0]?.url;
+    // Link the source the quote was matched in, else the first primary source.
+    const src = (e) => {
+      const list = e.sources || [];
+      const s = list.find((x) => x.snapshot && x.snapshot === e.quote_check?.snapshot) || list.find((x) => x.type === 'primary') || list[0];
+      return s?.archive || s?.url;
+    };
     if (s) {
       lines.push(`SAID — ${orgName(s.org)}, ${fmtDate(s.date)}${s.who.length ? ` (${s.who.map(actorName).filter((n) => n !== orgName(s.org)).join(', ') || orgName(s.org)})` : ''}:`);
       lines.push(s.quote ? `“${s.quote.trim()}”` : s.title);
       if (src(s)) lines.push(src(s));
+    }
+    if (s && !d && s.outcome) {
+      const gap = Math.round((s.outcome.time - s.time) / DAY);
+      lines.push('', `${gap < 0 ? 'ALREADY ON RECORD' : 'OUTCOME'} — ${fmtDate(s.outcome.date)}, ${fmtSpan(gap)} ${gap < 0 ? 'before' : 'later'}:`, s.outcome.text);
     }
     if (d) {
       if (lines.length) lines.push('');
@@ -483,6 +675,8 @@
       if (d.revision) lines.push(`Before: ${d.revision.before}`, `After: ${d.revision.after}`);
       if (src(d)) lines.push(src(d));
     }
+    const pats = [...new Set([...(s?.patterns || []), ...(d?.patterns || [])])].map((p) => patternById.get(p)?.name).filter(Boolean);
+    if (pats.length) lines.push('', `Pattern${pats.length > 1 ? 's' : ''}: ${pats.join(', ')}`);
     lines.push('', `Full receipt: ${permalink((d || s).id)}`);
     return lines.join('\n');
   }
@@ -526,6 +720,7 @@
     timeline: D.entries.length,
     patterns: D.patterns.length,
     watchlist: D.entries.filter((e) => e.status === 'open' || e.status === 'kept').length,
+    commitments: (D.commitments || []).reduce((n, d) => n + d.commitments.length, 0),
   };
   tabs.replaceChildren(...VIEWS.map((v) => h('button', {
     class: 'tab', type: 'button', role: 'tab', id: `tab-${v}`, 'aria-selected': 'false', 'aria-controls': 'view',
@@ -574,7 +769,7 @@
 
   function render() {
     syncControls();
-    const renderers = { receipts: renderReceipts, timeline: renderTimeline, patterns: renderPatterns, watchlist: renderWatchlist, method: renderMethod };
+    const renderers = { receipts: renderReceipts, timeline: renderTimeline, patterns: renderPatterns, watchlist: renderWatchlist, commitments: renderCommitments, method: renderMethod };
     view.replaceChildren(...[renderers[state.view]()].flat().filter(Boolean));
   }
 
@@ -587,7 +782,7 @@
     s.median_gap_days != null && h('div', { class: 'stat' }, h('span', { class: 'stat-n' }, fmtSpan(s.median_gap_days)), h('span', { class: 'label' }, 'Median time, word to deed')),
   );
 
-  // ── routing: #receipts, #timeline, #patterns, #watchlist, #method, #e-<id>, #p-<pattern>
+  // ── routing: #receipts, #timeline, #patterns, #watchlist, #commitments, #method, #e-<id>, #p-<pattern>
   function fromHash() {
     const hash = decodeURIComponent(location.hash.slice(1));
     if (hash.startsWith('e-') && byId.has(hash.slice(2))) {

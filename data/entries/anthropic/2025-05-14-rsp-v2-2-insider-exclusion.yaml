@@ -34,6 +34,11 @@ sources:
     date: 2025-05-22
     type: primary
     snapshot: snapshots/2026-09-29-anthropic.com-7512ddb5
+response: >-
+  Anthropic called it "a minor revision." Its ASL-3 activation post said it
+  would "continue improving our egress controls, mitigations against more
+  sophisticated insider threats, and our overall security posture." No other
+  explanation of why the scope was narrowed was found.
 note: >-
   The change was logged, not hidden. But lowering the bar just before a standard
   first has to be met is the shape to watch for: the test was adjusted to fit

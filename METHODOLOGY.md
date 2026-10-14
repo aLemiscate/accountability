@@ -9,17 +9,41 @@ This record is meant to be hard to dismiss. Everything below serves that goal.
 - **Did**: an action, reversal, policy rewrite, disclosure or outcome that
   bears on something said.
 
+Claims are not limited to safety and ethics. Any notable public claim or
+promise counts when it can be checked against what happened, including:
+
+- capability and benchmark claims ("PhD-level", "solved open problems",
+  launch-day charts);
+- promised features and release dates ("in the coming weeks", "later this
+  year");
+- usage limits, pricing and what a plan includes, and changes to them;
+- promises about how a product behaves ("we never degrade models", "no silent
+  changes", "no ads like that");
+- dated predictions by company leaders.
+
+Promises that were kept go in as well as ones that were not. Minor product
+churn (a button moved, a bug fixed in a day) does not.
+
 A "did" entry links to the statements it contradicts (`contradicts`). That
 link is the receipt. Actions that set up a pattern without contradicting a
 specific statement (a defense partnership, a data-policy default) can stand on
 their own with `patterns` or `related`.
+
+Some statements fail without a separate action to point to: a date passes
+with nothing shipped, or the company's own earlier paper already said
+otherwise. Those carry an `outcome` on the statement itself, a date and a
+sentence or two saying what happened, drawn from the entry's sources, and it
+shows up in Receipts like any other pair. When the contradicting record is
+older than the statement, the receipt counts the gap backward ("already on
+record"). Every statement graded broken, reversed, eroded or contradicted has
+a receipt one way or the other; the validator warns when one doesn't.
 
 ## Who is in scope
 
 - The two organizations.
 - People speaking in a **public or official capacity**: executives, founders,
   board members, spokespeople, and staff who speak publicly about the
-  company's mission, safety or policy.
+  company's mission, products, safety or policy.
 - Former staff, when their public statements are the evidence (a resignation
   post, testimony).
 
@@ -86,3 +110,10 @@ Patterns (`data/patterns.yaml`) are analytical categories, not findings of
 fact. Each pattern's "what to watch for" is a forecast based on repetition,
 and the site labels it as analysis. When a forecast comes true, the new event
 gets its own sourced entry. The forecast itself is never cited as evidence.
+
+Where a pattern's behavior is industry-wide, the pattern carries one sourced
+sentence (`industry`) on another company doing the same thing, so a reader
+can tell what is particular to these two companies from what is common. It
+is context, not an entry: the record has no entries about other companies,
+and the sentence is held to the same rules as any entry (sources read in
+full, quotes verbatim, titles copied).

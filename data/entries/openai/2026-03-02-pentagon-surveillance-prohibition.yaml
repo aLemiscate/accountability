@@ -15,12 +15,13 @@ summary: >-
   keeps red lines against its models independently directing autonomous weapons.
 concreteness: conditional
 status: open
+last_checked: 2026-10-13
 breaks_if: >-
   Credible reporting of OpenAI models used in domestic surveillance of U.S.
   persons; deployment to the NSA or other intelligence agencies before the
   loopholes OpenAI acknowledged are addressed; a later amendment that narrows
-  the prohibition; or a change in law or Pentagon policy that makes a
-  prohibited use "lawful" while OpenAI keeps the contract.
+  the prohibition; or a change in law or Pentagon policy that makes a prohibited
+  use "lawful" while OpenAI keeps the contract.
 patterns: [unfalsifiable]
 sources:
   - title: Sam Altman on X (re-post of an internal memo on the amendments)
@@ -49,6 +50,81 @@ response: >-
   relevant policy directive or law: "That's what we did." The contract text has
   not been published, so this can't be checked.
 updates:
+  - date: 2026-03-01
+    text: >-
+      The day before the amendment, OpenAI researcher Boaz Barak answered
+      questions about the original agreement. Asked whether it barred the
+      Pentagon from using OpenAI models to analyze commercially purchased data
+      on Americans, he wrote that the Pentagon had not asked for "collection or
+      analysis of bulk data on Americans, such as geolocation data, web browsing
+      data and personal financial information purchased from data brokers, and
+      our agreement does not permit it." Asked where the agreement said so, he
+      wrote that OpenAI's legal and policy teams "will provide more details on
+      the the issue of commercially acquired datasets in the coming days." He
+      also wrote: "When we say that domestic mass surveillance and autonomous
+      lethal weapons are red lines for us, we mean what we say, and are not
+      looking for loopholes." The next day OpenAI added language that, "for the
+      avoidance of doubt," extends the prohibition to "the procurement or use of
+      commercially acquired personal or identifiable information."
+    sources:
+      - title: Boaz Barak on X ("our agreement does not permit it")
+        publisher: X
+        url: https://x.com/boazbaraktcs/status/2027932587788759293
+        date: 2026-03-01
+        type: primary
+        archive: https://web.archive.org/web/20260305095022/https://x.com/boazbaraktcs/status/2027932587788759293
+        snapshot: snapshots/2026-10-13-x.com-7bb946a8
+      - title: Boaz Barak on X ("more details … in the coming days")
+        publisher: X
+        url: https://x.com/boazbaraktcs/status/2027937481207800058
+        date: 2026-03-01
+        type: primary
+        archive: https://web.archive.org/web/20260305095236/https://x.com/boazbaraktcs/status/2027937481207800058
+        snapshot: snapshots/2026-10-03-x.com-c97d863a
+      - title: Boaz Barak on X ("we mean what we say")
+        publisher: X
+        url: https://x.com/boazbaraktcs/status/2027935104056586439
+        date: 2026-03-01
+        type: primary
+        archive: https://web.archive.org/web/20260302161200/https://x.com/boazbaraktcs/status/2027935104056586439
+        snapshot: snapshots/2026-10-13-x.com-79853ae6
+      - title: Sam Altman on X (re-post of an internal memo on the amendments)
+        publisher: X
+        url: https://x.com/sama/status/2028640354912923739
+        date: 2026-03-02
+        type: primary
+        snapshot: snapshots/2026-09-29-x.com-5113866d
+  - date: 2026-03-01
+    text: >-
+      In the same Q&A, asked what would make OpenAI walk away from a government
+      partnership, Altman wrote: "If we were asked to do something
+      unconstitutional or illegal, we will walk away. Please come visit me in
+      jail if necessary." Asked whether OpenAI would "commit to publishing every
+      future red line change with a public explanation and a mandatory notice
+      period before it takes effect," he replied: "Yes, this seems like a very
+      good idea. I will talk to the team." By October 2026 this record had found
+      no such policy published, and the contract text remains withheld.
+    sources:
+      - title: Sam Altman on X ("we will walk away")
+        publisher: X
+        url: https://x.com/sama/status/2027913483011170667
+        date: 2026-03-01
+        type: primary
+        archive: https://web.archive.org/web/20260303134022/https://x.com/sama/status/2027913483011170667
+        snapshot: snapshots/2026-10-03-x.com-505a7ddf
+      - title: Sam Altman on X ("this seems like a very good idea")
+        publisher: X
+        url: https://x.com/sama/status/2027959788597072096
+        date: 2026-03-01
+        type: primary
+        snapshot: snapshots/2026-10-03-x.com-24b15006
+      - title: Nesibe Kırış Can on X ("Will OpenAI commit to publishing every future red
+          line change")
+        publisher: X
+        url: https://x.com/nesibekiris/status/2027917927572193346
+        date: 2026-03-01
+        type: primary
+        snapshot: snapshots/2026-10-13-x.com-07f14f7d
   - date: 2026-03-03
     text: >-
       OpenAI researcher Noam Brown, who had earlier relayed that "The contract
@@ -64,7 +140,7 @@ updates:
         url: https://x.com/polynoamial/status/2028643577165963465
         date: 2026-03-03
         type: primary
-        snapshot: snapshots/2026-09-30-x.com-159b71fe
+        snapshot: snapshots/2026-10-13-x.com-159b71fe
       - title: Noam Brown on X ("does not allow NSA Title 50 work")
         publisher: X
         url: https://x.com/polynoamial/status/2028124576337756358
@@ -73,14 +149,18 @@ updates:
         snapshot: snapshots/2026-09-30-x.com-9152129f
   - date: 2026-03-03
     text: >-
-      Katrina Mulligan, OpenAI's head of national security, had pledged a
-      "clear and more comprehensive explanation" of the relevant contract terms,
-      including how the NSA is excluded. Days later, with no explanation
-      published, she told a user on X: "I do not agree that I'm obligated to
-      share contract language with you." Asked whether the contract allowed the
-      Pentagon to collect and analyze commercially available data at scale, she
-      replied that "the Pentagon has no legal authority to do this." The
-      Intercept pointed to a declassified 2022 report from the Office of the
+      Katrina Mulligan, OpenAI's head of national security, had pledged on March
+      1 a "clear and more comprehensive explanation" of the relevant contract
+      terms, including how the NSA is excluded. On March 3 she gave a
+      one-sentence answer: "defense intelligence components are excluded from
+      this contract and any support to them will require a contract mod." Former
+      OpenAI safety researcher Steven Adler replied that it came "with no
+      contract language showing the Title 50 exclusion you had claimed to
+      exist." The same day she told a user on Twitter: "I do not agree that I'm
+      obligated to share contract language with you." Asked whether the contract
+      allowed the Pentagon to collect and analyze commercially available data at
+      scale, she replied that "the Pentagon has no legal authority to do this."
+      The Intercept pointed to a declassified 2022 report from the Office of the
       Director of National Intelligence describing exactly that kind of
       collection by the Defense Department. This record found no fuller
       explanation published later.
@@ -97,7 +177,7 @@ updates:
         url: https://x.com/sjgadler/status/2028899096283758732
         date: 2026-03-03
         type: primary
-        snapshot: snapshots/2026-09-30-x.com-6bd9fe32
+        snapshot: snapshots/2026-10-13-x.com-6bd9fe32
 note: >-
   The contract isn't public, so outsiders can't check compliance. The promise
   works on trust, which is exactly what this record is testing. Note the word

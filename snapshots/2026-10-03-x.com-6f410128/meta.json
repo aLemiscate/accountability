@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/OpenAI/status/2042295690382995789",
+  "captured_at": "2026-10-03T14:29:41.771Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "202a8a0a58436c0601b8712dc67cdbd9a736ea452e1b3d94993476bd56deb9be",
+    "page.txt": "f2b902b4260f5aee2449a9cb71c0ffcf6d29a65e881f139913bbaaf03037b368",
+    "post.json": "b9087bbea0c2fe1ef49d17dc9fd295b78aeccc27a6bd04d641c34f44bdf98be8",
+    "syndication.json": "a6d76c52c61b8c5fc22e12e7fd8b1454e3fa6756c7ab0a5e7d3df1886928950f",
+    "post.txt": "5791b3f58f845ec830646aaa82bdb0a0bdfd94a0e02a4fc7cf9bfddfff82e990"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/2042295690382995789",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"The Codex promotion for existing Plus subscribers ends today and as a part of this, we’re rebalancing Codex usage in Plus to support more sessions throughout the week, rather than longer sessions in a single day. The Plus plan will continue to be the best offer at $20 for steady, day… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "April 9, 2026",
+    "posted_at": "2026-04-09T17:36:51.263Z"
+  },
+  "rendered_status": 403,
+  "archive": null
+}

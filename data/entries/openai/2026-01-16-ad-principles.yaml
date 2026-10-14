@@ -13,6 +13,7 @@ summary: >-
   personalization; and OpenAI does not optimize for time spent in ChatGPT.
 concreteness: measurable
 status: open
+last_checked: 2026-10-13
 breaks_if: >-
   Sponsored content shows up inside answers instead of being separated and
   labeled; recommendations in answers track advertiser relationships;
@@ -39,8 +40,80 @@ sources:
     date: 2026-01-16
     type: primary
     snapshot: snapshots/2026-09-30-x.com-38374a7e
+  - title: 'Bonus Episode: Live from OMR with Nick Turley, Head of Product for
+      ChatGPT at OpenAI (#37)'
+    publisher: OMR Silicon Valley Update
+    url: https://podcasts.apple.com/us/podcast/bonus-episode-live-from-omr-with-nick-turley-head/id1510727410?i=1000708944510
+    date: 2025-05-19
+    type: primary
+    snapshot: snapshots/2026-10-07-podcasts.apple.com-319b00a6
 related: [2026-02-04-altman-never-run-ads-like-that]
 updates:
+  - date: 2026-02-09
+    text: >-
+      As ads launched, OpenAI deleted a sentence that had stood in its help
+      article on training since January 2024. On February 7 it read: "We do not
+      use your content to market our services or create advertising profiles of
+      you—we use it to make our models more helpful." (Until December 2025 it
+      began "We don’t.") By February 10 it was gone, with no note of the change.
+      It was the second wording of a promise first posted in April 2023, "We
+      don’t use data for selling our services, advertising, or building profiles
+      of people," which the Data Controls FAQ had already dropped, also without
+      a note, in an April 2025 rewrite. The privacy policy dated February 9
+      added personalizing ads for Free and Go users as a use of personal data.
+      OpenAI had said in January that ads would be matched to the conversation.
+    sources:
+      - title: How your data is used to improve model performance, as archived on Feb.
+          7, 2026
+        publisher: Internet Archive
+        url: https://web.archive.org/web/20260207094720/https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance
+        date: 2026-02-07
+        type: archive
+        archive: https://web.archive.org/web/20260207094720/https://web.archive.org/web/20260207094720/https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance
+        snapshot: snapshots/2026-10-13-web.archive.org-799aede4
+      - title: How your data is used to improve model performance, as archived on Feb.
+          10, 2026
+        publisher: Internet Archive
+        url: https://web.archive.org/web/20260210072027/https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance
+        date: 2026-02-10
+        type: archive
+        snapshot: snapshots/2026-10-13-web.archive.org-4c63933e
+      - title: Data Controls FAQ, as archived on Apr. 25, 2023
+        publisher: Internet Archive
+        url: https://web.archive.org/web/20230425181457/https://help.openai.com/en/articles/7730893-data-controls-faq
+        date: 2023-04-25
+        type: archive
+        archive: https://web.archive.org/web/20230425181457/https://web.archive.org/web/20230425181457/https://help.openai.com/en/articles/7730893-data-controls-faq
+        snapshot: snapshots/2026-10-13-web.archive.org-abb6bb97
+      - title: Data Controls FAQ, as archived on Apr. 22, 2025
+        publisher: Internet Archive
+        url: https://web.archive.org/web/20250422014806/https://help.openai.com/en/articles/7730893-data-controls-faq
+        date: 2025-04-22
+        type: archive
+        snapshot: snapshots/2026-10-13-web.archive.org-eecb2902
+      - title: Data Controls FAQ, as archived on Apr. 26, 2025
+        publisher: Internet Archive
+        url: https://web.archive.org/web/20250426002125/https://help.openai.com/en/articles/7730893-data-controls-faq
+        date: 2025-04-26
+        type: archive
+        snapshot: snapshots/2026-10-13-web.archive.org-107c909e
+  - date: 2026-02-11
+    text: >-
+      In an interview published as OpenAI began testing ads, Fidji Simo,
+      OpenAI's CEO of applications, described the principles, including the
+      ability to delete the personal data used for ads, as "very clear, very
+      prominent, and we've committed to them forever." She also said that in
+      OpenAI's projections "ads will remain a minority of our revenue ... For
+      many, many years. And I think probably forever." (Quoted from the audio of
+      Sources with Alex Heath, about 42:21 and 58:25.)
+    sources:
+      - title: OpenAI's Fidji Simo on why ads are coming to ChatGPT
+        publisher: Sources with Alex Heath
+        url: https://podcasts.apple.com/us/podcast/openais-fidji-simo-on-why-ads-are-coming-to-chatgpt/id1840154537?i=1000749173634
+        date: 2026-02-11
+        type: primary
+        archive: https://web.archive.org/web/20260710205155/https://podcasts.apple.com/us/podcast/openais-fidji-simo-on-why-ads-are-coming-to-chatgpt/id1840154537?i=1000749173634
+        snapshot: snapshots/2026-10-07-podcasts.apple.com-f91321de
   - date: 2026-02-11
     text: >-
       OpenAI researcher Zoë Hitzig, who had worked on safety policy and model
@@ -52,6 +125,14 @@ updates:
       override its own rules." She called for real oversight, "not a blog post
       of principles."
     sources:
+      - title: OpenAI is making the mistakes Facebook made. I quit. (Zoë Hitzig's New
+          York Times essay, syndicated)
+        publisher: DT Next
+        url: https://www.dtnext.in/edit/openai-is-making-the-mistakes-facebook-made-i-quit-2
+        date: 2026-02-13
+        type: primary
+        archive: https://web.archive.org/web/20261007074900/https://www.dtnext.in/edit/openai-is-making-the-mistakes-facebook-made-i-quit-2
+        snapshot: snapshots/2026-10-07-dtnext.in-25db1fe3
       - title: OpenAI researcher quits over slippery slope of ChatGPT ads
         publisher: SiliconANGLE
         url: https://siliconangle.com/2026/02/11/openai-researcher-quits-slippery-slope-chatgpt-ads/
@@ -64,6 +145,45 @@ updates:
         date: 2026-02-11
         type: reporting
         snapshot: snapshots/2026-09-30-cnn.com-beb0c5d1
+  - date: 2026-04-30
+    text: >-
+      OpenAI emailed users that it had updated its privacy policy, and turned on
+      marketing cookies by default for free ChatGPT users. The policy dropped
+      its statement that OpenAI does not "share" personal data for cross-context
+      behavioral advertising or process it for "targeted advertising." It now
+      says OpenAI "may share limited data with select marketing partners for
+      purposes of promoting our products and services to you on third-party
+      properties." Reporting cited cookie IDs, device IDs and email addresses. A
+      spokesperson told Adweek that "nothing about our policy of not sharing
+      people’s conversations or other private user content with advertisers has
+      changed." Since its February 2026 version, the policy has also said OpenAI
+      may receive information from advertisers about purchases users make. The
+      ad principles hold in letter. Anthropic's privacy policy made the same
+      change for marketing its own products in 2024.
+    sources:
+      - title: ChatGPT now tracks users for ads by default as OpenAI looks for new
+          revenue
+        publisher: The Decoder
+        url: https://the-decoder.com/chatgpt-now-tracks-users-for-ads-by-default-as-openai-looks-for-new-revenue/
+        date: 2026-05-02
+        type: reporting
+        archive: https://web.archive.org/web/20261007075024/https://the-decoder.com/chatgpt-now-tracks-users-for-ads-by-default-as-openai-looks-for-new-revenue/
+        snapshot: snapshots/2026-10-07-the-decoder.com-e7f1c249
+      - title: OpenAI's privacy policy now lets advertisers send purchase data
+        publisher: PPC Land
+        url: https://ppc.land/openais-privacy-policy-now-lets-advertisers-send-purchase-data/
+        date: 2026-05-01
+        type: reporting
+        archive: https://web.archive.org/web/20260521144549/https://ppc.land/openais-privacy-policy-now-lets-advertisers-send-purchase-data/
+        snapshot: snapshots/2026-10-13-ppc.land-cff31398
+      - title: OpenAI updates U.S. privacy policy to formalize data-sharing with
+          advertisers and marketing partners
+        publisher: Shopifreaks
+        url: https://www.shopifreaks.com/openai-updates-u-s-privacy-policy-to-formalize-data-sharing-with-advertisers-and-marketing-partners/
+        date: 2026-05-01
+        type: reporting
+        archive: https://web.archive.org/web/20260510135936/https://www.shopifreaks.com/openai-updates-u-s-privacy-policy-to-formalize-data-sharing-with-advertisers-and-marketing-partners/
+        snapshot: snapshots/2026-10-13-shopifreaks.com-1df4573d
   - date: 2026-09-16
     text: >-
       With ChatGPT ads at a reported $1 billion annualized run rate, OpenAI
@@ -79,5 +199,26 @@ updates:
         type: reporting
         archive: https://web.archive.org/web/20261001034724/https://www.pymnts.com/news/artificial-intelligence/2026/openai-tests-sponsored-ai-agents-in-chatgpt-ads/
         snapshot: snapshots/2026-10-01-pymnts.com-68e76f8a
+  - date: 2026-10-05
+    text: >-
+      OpenAI announced a "visual ad format" for ChatGPT, to be tested first
+      during image generation in the U.S. in October. It did not say where the
+      ads would appear or how they would be targeted, and said it would share
+      more once testing began. Free users can turn ads off without paying, but
+      doing so turns off tools including image generation.
+    sources:
+      - title: OpenAI to flood your eyeballs with visual ads
+        publisher: The Register
+        url: https://www.theregister.com/ai-and-ml/2026/10/05/openai-to-flood-your-eyeballs-with-visual-ads/5301152
+        date: 2026-10-05
+        type: reporting
+        archive: https://web.archive.org/web/20261006201623/https://www.theregister.com/ai-and-ml/2026/10/05/openai-to-flood-your-eyeballs-with-visual-ads/5301152
+        snapshot: snapshots/2026-10-13-theregister.com-e1ff09b7
 note: >-
-  This one is measurable from outside, so it's worth watching closely.
+  This one is measurable from outside, so it's worth watching closely. The
+  time-spent principle used to rest on the business model. In May 2025, eight
+  months before ads, ChatGPT's head of product Nick Turley said: "We actually
+  don't care at all how much time you spend in that product. In fact, less time
+  is better because it means we solved your problem." He gave two reasons: "our
+  mission, but B, our business model. We charge people directly to use our
+  products." (Quoted from the audio of his OMR Festival talk, about 11:43.)

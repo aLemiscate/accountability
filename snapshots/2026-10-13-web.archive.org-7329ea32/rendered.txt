@@ -1,0 +1,90 @@
+All Collections
+ChatGPT
+GPT-5.5 in ChatGPT
+GPT-5.5 in ChatGPT
+Updated: 2 days ago
+GPT-5.5 Instant in ChatGPT is the default for all logged-in users, and a single auto-switching system that brings together the best of our models into a smart, fast single experience.
+Instant is a fast and powerful workhorse for everyday work and learning. It improves info-seeking questions, how-tos and walk-throughs, technical writing, and translation, while keeping a warmer, more conversational tone.
+Thinking can think more effectively and efficiently on hard tasks and does a better job keeping track of what it has already done. It may show a short preamble before reasoning starts, and you can add instructions while it is thinking to adjust direction before the final answer is complete. Outputs are also more streamlined, with cleaner formatting and less unnecessary header text.
+Pro is the highest-capability GPT-5.5 option in ChatGPT for the hardest tasks and long-running workflows.
+How it works
+When you select Instant in ChatGPT, ChatGPT can automatically decide whether to use Instant or Thinking for your request. For more complex tasks, Instant may switch to Thinking and apply deeper reasoning before answering.
+When GPT-5.5 Thinking or GPT-5.5 Pro starts reasoning, it may begin with a short preamble that explains what it plans to do before it starts working. You can also add instructions while the model is still thinking to steer the response before it finishes.
+If you manually select Thinking, ChatGPT will show a Thinking trace even for short reasoning sequences. If Instant routes your request to Thinking, ChatGPT may not always show a Thinking trace when the reasoning is brief.
+You can also choose the model directly from the model picker:
+Instant — fast responses for everyday questions (GPT-5.5 Instant)
+Thinking — deeper reasoning for more complex tasks (GPT-5.5 Thinking)
+Pro — research-grade intelligence (GPT-5.5 Pro)
+Apps, Memory, Canvas, and image generation are not available with Pro. If you want more control, click Configure in the model picker to do the following:
+Turn automatic switching between Instant and Thinking on or off
+Access legacy models
+Set thinking effort when Thinking or Pro is selected
+Availability per ChatGPT Tier
+GPT-5.5 is available to all ChatGPT tiers. Users on paid tiers—Go, Plus, Pro, and Business—have access to the model picker, which enables you to manually select GPT-5.5 Instant or GPT-5.5 Thinking. GPT-5.5 Pro is only available to Pro, Business, Enterprise and Edu plans.
+Usage Limits
+Plus/Go
+ChatGPT Plus and ChatGPT Go users can send up to 160 messages with GPT-5.5 every 3 hours. After reaching this limit, chats will switch to the mini version of the model until the limit resets.
+Thinking usage
+If you're on Plus or Business, you can manually select GPT-5.5 Thinking from the model picker. If you're on a Go plan, you can select Thinking from the tools menu by clicking the + icon in the chat entry box. Go users can send up to 10 messages every 5 hours after enabling Thinking. Automatic switching from GPT-5.5 Instant to GPT-5.5 Thinking does not count toward manual Thinking usage limits.
+Business and Pro
+The ChatGPT Business and Pro plans offer unlimited access to our GPT-5 models, subject to abuse guardrails. Usage must adhere to our Terms of Use, which prohibits, among other things:
+Abusive usage, such as automatically or programmatically extracting data.
+Sharing your account credentials or making your account available to anyone else.
+Reselling access or using ChatGPT to power third-party services.
+We have guardrails in place to help prevent misuse and are always working to improve our systems. This may occasionally involve a temporary restriction on your usage. We will inform you when this happens, and if you think this might be a mistake, please reach out to our support team. If policy-violating behavior is not found, your access will be restored.
+Context windows
+Instant (GPT‑5.5 Instant)
+Free: 16K
+Plus / Business: 32K
+Pro / Enterprise: 128K
+Thinking (GPT‑5.5 Thinking)
+Pro tier: 400k (272k input + 128k max output)
+All paid tiers: 256K (128k input + 128k max output)
+Please note that this only applies when you manually select Thinking.
+Tools support in ChatGPT
+GPT-5.5 Thinking supports every tool available in ChatGPT. GPT-5.5 Instant supports current ChatGPT tools except Canvas. If you need to create or edit work in Canvas, select GPT-5.5 Thinking instead. This includes:
+Web search
+Data analysis
+Image analysis
+File analysis
+Canvas with GPT-5.5 Thinking
+Image generation
+Memory
+Custom Instructions
+Legacy models, GPT‑5, and old conversations
+By default, all users have access to GPT-5.5 models. As of February 13, 2026, ChatGPT retired GPT-5 (Instant and Thinking) as previously announced. Because older chats now run on GPT-5.5 equivalents, outputs may differ when you continue them.GPT-5.2 Thinking will remain available in Legacy Models for 90 days after the launch of GPT-5.5 Thinking for Plus and Pro users.
+Legacy models in Enterprise and Edu
+For the current list of legacy models available in Enterprise and Edu workspaces, please refer to our article: Legacy Model Access for Enterprise and Edu
+Toggle thinking time in the message composer
+When you select GPT‑5.5 Thinking in ChatGPT, you’ll see a thinking‑time toggle in the message composer.
+Standard (new default, balancing speed and intelligence) and Extended (the previous default for Plus) are available to all Plus and Business users.
+Pro users get two additional options: Light (snappiest) and Heavy (deeper reasoning).
+All queries default to Standard unless you choose to change it. Once you choose a different thinking time, your preference is saved and used for future queries until you switch again.
+You can decide what you need in the moment:
+Light / Standard → quicker answers that still apply reasoning, balancing speed and intelligence.
+Extended / Heavy → more time for deeper, more comprehensive responses when the stakes are higher or the question is more difficult.
+Please note that this is only available on ChatGPT Web. The setting you choose on the web will not sync to mobile.
+Editing messages and retrying responses
+You can edit any of your messages and retry any ChatGPT response in a conversation. To edit a message:
+On web, hover over the message you want to edit and click the pencil icon.
+On mobile, press and hold the message you want to edit, then tap Edit Message.
+To retry a response:
+On web, click the retry icon under the ChatGPT response you want to regenerate, then select Try again.
+On mobile, tap ⋯ under the ChatGPT response you want to retry, then tap Retry.
+To continue from an earlier point in the conversation:
+Find the ChatGPT response closest to where you want to pick up.
+Select ⋯ under that response.
+Select Branch in a new chat.
+Branch in a new chat opens a new chat that continues from that point in the conversation.
+Tone and personalization
+ChatGPT includes updated controls for tone and style:
+ChatGPT now has refined personality presets such as Default, Friendly (formerly Listener), Efficient (formerly Robot), Professional, Candid, and Quirky, with Cynical and Nerdy available under Personalization settings. Learn more about customizing your ChatGPT personality.
+Controls under Personalization let you adjust how concise, warm, or scannable responses are, and how frequently emojis are used.
+Changes you make in Personalization apply across all chats immediately, including ongoing conversations. These personalization options are rolling out gradually and will continue to improve over time.
+GPT-5.5 is also better at following Custom Instructions, giving you more precise control over tone and behavior
+Was this article helpful?
+Submit
+ChatGPT
+API
+Service Status
+Cookie Preferences

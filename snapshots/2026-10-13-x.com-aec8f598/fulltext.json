@@ -1,0 +1,76 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/btaylor/status/1730030765482938521",
+    "id": "1730030765482938521",
+    "text": "Today as Board Chair I sent the attached letter on behalf of the Board to the OpenAI community. I am excited to be working with my board colleagues Adam and Larry, the OpenAI Leadership, and all OpenAI stakeholders. The Board's focus is stabilizing the company, building out a qualified and diverse board, and enhancing governance procedures consistent with the importance and complexity of OpenAI’s mission. \n \nBefore taking on this responsibility, I had a full plate of commitments. As I have communicated to board colleagues and management, when these transitional tasks have been completed, I intend to step away and leave the oversight of OpenAI in the good hands of board colleagues.\n\nhttps://openai.com/blog/sam-altman-returns-as-ceo-openai-has-a-new-initial-board",
+    "raw_text": {
+      "text": "Today as Board Chair I sent the attached letter on behalf of the Board to the OpenAI community. I am excited to be working with my board colleagues Adam and Larry, the OpenAI Leadership, and all OpenAI stakeholders. The Board's focus is stabilizing the company, building out a qualified and diverse board, and enhancing governance procedures consistent with the importance and complexity of OpenAI’s mission. \n \nBefore taking on this responsibility, I had a full plate of commitments. As I have communicated to board colleagues and management, when these transitional tasks have been completed, I intend to step away and leave the oversight of OpenAI in the good hands of board colleagues.\n\nhttps://t.co/9G12BQ0qtN",
+      "display_text_range": [
+        0,
+        714
+      ],
+      "facets": [
+        {
+          "type": "url",
+          "indices": [
+            691,
+            714
+          ],
+          "original": "https://t.co/9G12BQ0qtN",
+          "replacement": "https://openai.com/blog/sam-altman-returns-as-ceo-openai-has-a-new-initial-board",
+          "display": "openai.com/blog/sam-altma…"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "btaylor",
+      "url": "https://x.com/btaylor",
+      "id": "7456262",
+      "followers": 162535,
+      "following": 1626,
+      "likes": 15737,
+      "media_count": 554,
+      "name": "Bret Taylor",
+      "description": "Co-Founder @SierraPlatform. Board @OpenAI.",
+      "raw_description": {
+        "text": "Co-Founder @SierraPlatform. Board @OpenAI.",
+        "facets": []
+      },
+      "location": "San Francisco, CA",
+      "banner_url": "https://pbs.twimg.com/profile_banners/7456262/1784393067",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1782150890960658432/2qaPECed_200x200.jpg",
+      "joined": "Fri Jul 13 17:02:46 +0000 2007",
+      "protected": false,
+      "website": {
+        "url": "http://linkedin.com/in/brettaylor",
+        "display_url": "linkedin.com/in/brettaylor"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 73,
+    "retweets": 99,
+    "likes": 1364,
+    "bookmarks": 200,
+    "quotes": 39,
+    "created_at": "Thu Nov 30 01:07:31 +0000 2023",
+    "created_timestamp": 1701306451,
+    "views": 992132,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "source": "Twitter for iPhone",
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

@@ -22,7 +22,7 @@ status: contradicted
 breaks_if: >-
   OpenAI trains released models with rewards computed from their chains of
   thought, or drops the policy.
-patterns: []
+patterns: [safeguards-on-paper]
 related: [2026-08-14-risk-report-classifier-gap]
 sources:
   - title: OpenAI on X ("Detecting misbehavior in frontier reasoning models")
@@ -30,7 +30,7 @@ sources:
     url: https://x.com/OpenAI/status/1899143752918409338
     date: 2025-03-10
     type: primary
-    snapshot: snapshots/2026-09-30-x.com-26e4def4
+    snapshot: snapshots/2026-10-13-x.com-26e4def4
   - title: Detecting misbehavior in frontier reasoning models
     publisher: OpenAI
     url: https://openai.com/index/chain-of-thought-monitoring/
@@ -56,7 +56,7 @@ sources:
     url: https://x.com/woj_zaremba/status/1945158231321706896
     date: 2025-07-15
     type: primary
-    snapshot: snapshots/2026-09-30-x.com-e40cc297
+    snapshot: snapshots/2026-10-13-x.com-e40cc297
 updates:
   - date: 2026-09-02
     text: >-
@@ -89,6 +89,23 @@ updates:
         date: 2026-09-08
         type: analysis
         snapshot: snapshots/2026-09-30-thezvi.wordpress.com-7bf74da9
+  - date: 2026-09-14
+    text: >-
+      Greg Brockman said of the report: "I would consider this article to
+      basically be fake news." He said OpenAI had experiments showing "that our
+      changes in monitorability that we've talked about, chain of thought
+      monitorability, come from capability improvements. Just the model is
+      smarter, so it relies on the chain of thought less." (Quoted from the
+      audio of Odd Lots, about 27:21 to 27:35.)
+    sources:
+      - title: OpenAI President Greg Brockman on Doing Business in the Wake of Hugging
+          Face
+        publisher: Odd Lots
+        url: https://podcasts.apple.com/us/podcast/openai-president-greg-brockman-on-doing-business-in/id1056200096?i=1000789513759
+        date: 2026-09-14
+        type: primary
+        archive: https://web.archive.org/web/20261007072605/https://podcasts.apple.com/us/podcast/openai-president-greg-brockman-on-doing-business-in/id1056200096?i=1000789513759
+        snapshot: snapshots/2026-10-07-podcasts.apple.com-c8303f7b
 note: >-
   A research recommendation that became an internal rule. It's in the record
   because OpenAI later reported where the rule failed.

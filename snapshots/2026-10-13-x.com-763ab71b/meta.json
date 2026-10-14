@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/sama/status/2027903064347447625",
+  "captured_at": "2026-10-13T15:09:08.667Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "aa640f02e439f061d7474c97dd0d085a87eb0f2b40ef1ebf0e0624190e6f3377",
+    "page.txt": "5ce065cb227b5c250b232cd51279573935d8cedd39582eb87deda138b6b9a410",
+    "post.json": "a2d1ea5536b755ab38ae416ee3fedc47727326e9b94321f9e2286c7ebaf84231",
+    "syndication.json": "1fa2d5d9e89a7da7a6d270c34cbe03d9196b91db67774635bc5372875887f7d5",
+    "fulltext.json": "7012e0d20a4906477744371e610c719659454d5af788619c9837ecf7939b9627",
+    "post.txt": "5ae5655756a4f7160b703c30245809fa6e38590ffaa9fe890efb0d10d8bf87bd"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/2027903064347447625",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"Thinking through non-domestic surveillance. I have accepted that the US military is going to do some amount of surveillance on foreigners, and I know foreign governments try to do it to us, but I still don't like it. I think it is very important that society thinks through the co… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "March 1, 2026",
+    "posted_at": "2026-03-01T00:25:41.814Z",
+    "full_text_from": "api.fxtwitter.com"
+  }
+}

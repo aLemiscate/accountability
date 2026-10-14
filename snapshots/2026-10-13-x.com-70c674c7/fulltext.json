@@ -1,0 +1,61 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/nickaturley/status/1972031686318895253",
+    "id": "1972031686318895253",
+    "text": "1/ We’ve started testing a new safety routing system in ChatGPT.\n\nAs we previously mentioned, when conversations touch on sensitive and emotional topics the system may switch mid-chat to a reasoning model or GPT-5 designed to handle these contexts with extra care. This is similar to how we route conversations that require extra thinking to our reasoning models; our goal is to always deliver answers aligned with our Model Spec.",
+    "raw_text": {
+      "text": "1/ We’ve started testing a new safety routing system in ChatGPT.\n\nAs we previously mentioned, when conversations touch on sensitive and emotional topics the system may switch mid-chat to a reasoning model or GPT-5 designed to handle these contexts with extra care. This is similar to how we route conversations that require extra thinking to our reasoning models; our goal is to always deliver answers aligned with our Model Spec.",
+      "display_text_range": [
+        0,
+        430
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "nickaturley",
+      "url": "https://x.com/nickaturley",
+      "id": "1262634631",
+      "followers": 29216,
+      "following": 925,
+      "likes": 3034,
+      "media_count": 17,
+      "name": "Nick Turley",
+      "description": "",
+      "raw_description": {
+        "text": "",
+        "facets": []
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1956499252764672000/HFL-mLAj_200x200.jpg",
+      "joined": "Tue Mar 12 18:48:40 +0000 2013",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 193,
+    "retweets": 28,
+    "likes": 204,
+    "bookmarks": 63,
+    "quotes": 86,
+    "created_at": "Sat Sep 27 20:12:47 +0000 2025",
+    "created_timestamp": 1759003967,
+    "views": 206435,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": "nickaturley",
+    "replying_to_status": "1972031684913799355",
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

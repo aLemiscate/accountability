@@ -18,7 +18,7 @@ summary: >-
   rollout. It said this was the first model OpenAI had rated Medium risk for
   cybersecurity.
 related: [2023-07-21-white-house-voluntary-commitments, 2025-04-14-gpt-4-1-no-system-card]
-patterns: []
+patterns: [told-last]
 sources:
   - title: Introducing deep research (PDF copy, with the Feb. 3 and Feb. 5 updates)
     publisher: OpenAI
@@ -79,6 +79,11 @@ updates:
         date: 2025-06-10
         type: primary
         snapshot: snapshots/2026-09-30-x.com-c3bced49
+response: >-
+  In a note added the day after launch, OpenAI said it had run "rigorous
+  safety testing, preparedness evaluations, and governance reviews" and would
+  publish a system card when it widened access, which it did on February 25.
+  No statement was found on why the card did not come with the launch.
 note: >-
   The promise in the quote was kept: the card came when access widened. The
   entry is here for the order of events. The first model OpenAI rated Medium

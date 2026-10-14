@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/OpenAI/status/1867292997660160061",
+  "captured_at": "2026-10-03T13:43:09.793Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "5c3a6fa89e56aeae0ae9d8e88c2282a996054ce1282dba3552fee692c631bb96",
+    "page.txt": "7ac55eefe0fe2c1dec8f7d7e97f665831ab1b46e8cb38ee3c9aedf2d676fa81b",
+    "post.json": "9cf9ac200533f7d026996b4b9ae830cb44e64211e5d235b93dfb64738ed2543b",
+    "syndication.json": "ad8d96f551869643496b3acf642aaf429860e53d6a86c8afa92be7f1370ac9c5",
+    "post.txt": "92bc5470a248372ed28bb5c68f56000889971d911e1a50be7a06988876949ce1"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1867292997660160061",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"Just in time for the holidays, video and screensharing are now starting to roll out in Advanced Voice in the ChatGPT mobile app.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "December 12, 2024",
+    "posted_at": "2024-12-12T19:38:37.925Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260211091601/https://x.com/OpenAI/status/1867292997660160061",
+    "timestamp": "20260211091601",
+    "method": "existing"
+  }
+}

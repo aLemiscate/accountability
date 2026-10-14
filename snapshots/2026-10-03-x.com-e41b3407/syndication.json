@@ -1,0 +1,38 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 6164,
+  "lang": "en",
+  "created_at": "2024-06-25T21:35:11.000Z",
+  "display_text_range": [
+    0,
+    278
+  ],
+  "entities": {},
+  "id_str": "1805716393524183136",
+  "text": "We're sharing an update on the advanced Voice Mode we demoed during our Spring Update, which we remain very excited about:\n\nWe had planned to start rolling this out in alpha to a small group of ChatGPT Plus users in late June, but need one more month to reach our bar to launch.",
+  "user": {
+    "id_str": "4398626122",
+    "name": "OpenAI",
+    "screen_name": "OpenAI",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1805716393524183136"
+    ],
+    "editable_until_msecs": "1719354911000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 1067,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoxODA1NzE2MzkzMzg5OTY1MzEy"
+  }
+}

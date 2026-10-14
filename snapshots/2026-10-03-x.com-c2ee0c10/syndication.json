@@ -1,0 +1,130 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 375,
+  "in_reply_to_screen_name": "garrytan",
+  "in_reply_to_status_id_str": "2040814033918648656",
+  "in_reply_to_user_id_str": "11768582",
+  "lang": "en",
+  "created_at": "2026-04-06T20:41:30.000Z",
+  "display_text_range": [
+    10,
+    131
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "11768582",
+        "indices": [
+          0,
+          9
+        ],
+        "name": "Garry Tan",
+        "screen_name": "garrytan"
+      }
+    ]
+  },
+  "id_str": "2041254998462611571",
+  "text": "@garrytan We think this is an overactive abuse-detection system, digging in. Also working on making the terms for -p crystal clear.",
+  "user": {
+    "id_str": "159337660",
+    "name": "Boris Cherny",
+    "screen_name": "bcherny",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1902044548936953856/J2jeik0t_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2041254998462611571"
+    ],
+    "editable_until_msecs": "1775511690000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 48,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 1061,
+    "lang": "en",
+    "reply_count": 133,
+    "retweet_count": 28,
+    "created_at": "2026-04-05T15:29:16.000Z",
+    "display_text_range": [
+      0,
+      183
+    ],
+    "entities": {},
+    "id_str": "2040814033918648656",
+    "text": "This seems messed up actually - when do the boundaries stop moving? \n\nAnthropic only allows subscriptions with a real human pressing enter? You're going to have to verify with FaceID?",
+    "user": {
+      "id_str": "11768582",
+      "name": "Garry Tan",
+      "screen_name": "garrytan",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2102142455281811456/-kNX65wI_normal.jpg",
+      "highlighted_label": {
+        "badge": {
+          "url": "https://pbs.twimg.com/profile_images/1623777064821358592/9CApQWXe_bigger.png"
+        },
+        "description": "Y Combinator",
+        "url": {
+          "url": "https://twitter.com/ycombinator",
+          "url_type": "DeepLink"
+        },
+        "user_label_display_type": "Badge",
+        "user_label_type": "BusinessLabel"
+      }
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2040814033918648656"
+      ],
+      "editable_until_msecs": "1775406556000",
+      "edits_remaining": "5",
+      "is_edit_eligible": true
+    },
+    "quoted_tweet": {
+      "__typename": "Tweet",
+      "favorite_count": 5428,
+      "lang": "en",
+      "reply_count": 473,
+      "retweet_count": 271,
+      "created_at": "2026-04-05T15:19:26.000Z",
+      "display_text_range": [
+        0,
+        263
+      ],
+      "entities": {},
+      "id_str": "2040811558427648357",
+      "text": "Anthropic now blocks first-party harness use too 👀\n\nclaude -p --append-system-prompt 'A personal assistant running inside OpenClaw.' 'is clawd here?'\n\n→ 400 Third-party apps now draw from your extra usage, not your plan limits.\n\nSo yeah: bring your own coin 🪙🦞",
+      "user": {
+        "id_str": "25401953",
+        "name": "Peter Steinberger 🦞",
+        "screen_name": "steipete",
+        "is_blue_verified": true,
+        "profile_image_shape": "Circle",
+        "verified": false,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1131851609774985216/OcsssQ9J_normal.png",
+        "highlighted_label": {
+          "badge": {
+            "url": "https://pbs.twimg.com/profile_images/2017100664984186880/orbYx-3U_bigger.jpg"
+          },
+          "description": "OpenClaw🦞",
+          "url": {
+            "url": "https://twitter.com/openclaw",
+            "url_type": "DeepLink"
+          },
+          "user_label_display_type": "Badge",
+          "user_label_type": "BusinessLabel"
+        }
+      }
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

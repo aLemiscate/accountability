@@ -1,0 +1,2719 @@
+{
+ "id": "openai-privacy-policy",
+ "org": "openai",
+ "urls": [
+  "https://openai.com/policies/privacy-policy/",
+  "https://openai.com/policies/privacy-policy",
+  "https://openai.com/api/policies/privacy/",
+  "https://openai.com/privacy/"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "title": "US privacy policy | OpenAI",
+   "via": "fetch",
+   "sha": "240e6ac81ef70e75",
+   "words": 4933
+  }
+ ],
+ "captures": [
+  {
+   "ts": "20210531063714",
+   "url": "https://openai.com/privacy/",
+   "sha": "c08f362e3f9fafac",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20210608054019",
+   "url": "https://openai.com/privacy/",
+   "sha": "c08f362e3f9fafac",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20210614100128",
+   "url": "https://openai.com/privacy/",
+   "sha": "c08f362e3f9fafac",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20210617204935",
+   "url": "https://www.openai.com/privacy/",
+   "sha": "3089bfe8a767761d",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20210628175618",
+   "url": "https://www.openai.com/privacy/",
+   "sha": "3089bfe8a767761d",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20210731195300",
+   "url": "https://openai.com/privacy/",
+   "sha": "fdea05a8c792b825",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20210811205458",
+   "url": "https://openai.com/privacy/",
+   "sha": "61a165e8bda15688",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20210812210001",
+   "url": "https://openai.com/privacy/",
+   "sha": "0cfc35de43495674",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20210902010548",
+   "url": "https://openai.com/privacy/",
+   "sha": "0cfc35de43495674",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20211006065825",
+   "url": "https://openai.com/privacy/",
+   "sha": "0cfc35de43495674",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20211101222825",
+   "url": "https://openai.com/privacy/",
+   "sha": "0cfc35de43495674",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20211204004613",
+   "url": "https://openai.com/api/policies/privacy/",
+   "sha": "3695a6c551aac974",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20211204024612",
+   "url": "https://openai.com/privacy/",
+   "sha": "0cfc35de43495674",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20211212145652",
+   "url": "https://openai.com/privacy/",
+   "sha": "0cfc35de43495674",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20211216152651",
+   "url": "https://openai.com/privacy/",
+   "sha": "0cfc35de43495674",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20211223072318",
+   "url": "https://openai.com/privacy/",
+   "sha": "0cfc35de43495674",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20220129141959",
+   "url": "https://openai.com/privacy/",
+   "sha": "d9fe20bb2292faf1",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20220311210628",
+   "url": "https://openai.com/privacy/",
+   "sha": "49e8d8e6e9ec1807",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20220323134726",
+   "url": "https://openai.com/api/policies/privacy/",
+   "sha": "7eb01a9d41ac9558",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20220329114959",
+   "url": "https://openai.com/privacy/",
+   "sha": "99906ed9d6382883",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20220405035541",
+   "url": "https://openai.com/privacy/",
+   "sha": "99906ed9d6382883",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20220409161303",
+   "url": "https://openai.com/api/policies/privacy/",
+   "sha": "8378cd14ed51bf52",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20220412234538",
+   "url": "https://openai.com/privacy/",
+   "sha": "914d61aad5ece72a",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20220515104947",
+   "url": "https://openai.com/privacy/",
+   "sha": "914d61aad5ece72a",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20220606135635",
+   "url": "https://openai.com/privacy/",
+   "sha": "914d61aad5ece72a",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20220718172235",
+   "url": "https://openai.com/privacy/",
+   "sha": "914d61aad5ece72a",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20220804114233",
+   "url": "https://openai.com/privacy/",
+   "sha": "914d61aad5ece72a",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20220919073029",
+   "url": "https://openai.com/privacy/",
+   "sha": "914d61aad5ece72a",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20220925103142",
+   "url": "https://openai.com/privacy/",
+   "sha": "0fb3662fc8c4d932",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20220927055618",
+   "url": "https://openai.com/privacy/",
+   "sha": "0fb3662fc8c4d932",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20221005044713",
+   "url": "https://openai.com/privacy/",
+   "sha": "0fb3662fc8c4d932",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20221125103912",
+   "url": "https://openai.com/privacy/",
+   "sha": "0fb3662fc8c4d932",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20221130082933",
+   "url": "https://openai.com/privacy/",
+   "sha": "0fb3662fc8c4d932",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20221201044343",
+   "url": "https://openai.com/privacy/",
+   "sha": "a1b7cb872eb451fe",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20221204160818",
+   "url": "https://openai.com/privacy/",
+   "sha": "e0594b2c071f3f08",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20221206033620",
+   "url": "https://openai.com/privacy/",
+   "sha": "e0594b2c071f3f08",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20221209190851",
+   "url": "https://openai.com/privacy/",
+   "sha": "093cfa30c42e1a39",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20221213123655",
+   "url": "https://openai.com/privacy/",
+   "sha": "093cfa30c42e1a39",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20221221025421",
+   "url": "https://openai.com/privacy/",
+   "sha": "093cfa30c42e1a39",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20221223133900",
+   "url": "https://openai.com/privacy/",
+   "sha": "093cfa30c42e1a39",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20221225040911",
+   "url": "https://openai.com/privacy/",
+   "sha": "093cfa30c42e1a39",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20230108131646",
+   "url": "https://openai.com/privacy/",
+   "sha": "3096c5c6f3a415fa",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20230201193608",
+   "url": "https://openai.com/privacy/",
+   "sha": "3096c5c6f3a415fa",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20230217032340",
+   "url": "https://openai.com/privacy/",
+   "sha": "3096c5c6f3a415fa",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20230222121333",
+   "url": "https://openai.com/privacy/",
+   "sha": "3096c5c6f3a415fa",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20230223125632",
+   "url": "https://openai.com/privacy/",
+   "sha": "3096c5c6f3a415fa",
+   "title": "Privacy Policy"
+  },
+  {
+   "ts": "20230227230602",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "ae96a8a9ffa1ce85",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230301171100",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "ae96a8a9ffa1ce85",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230302000743",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "0814e45c09831fa7",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230305212750",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "0814e45c09831fa7",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230306012942",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "0814e45c09831fa7",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230308023550",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "42c9dde1a8711c07",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230309054823",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "42c9dde1a8711c07",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230311073032",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "42c9dde1a8711c07",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230314210410",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "a947f64f1d8ae3f4",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230316030840",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "a947f64f1d8ae3f4",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230317224820",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "a2b161d5144a6178",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230320110936",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "a2b161d5144a6178",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230323165053",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "a2b161d5144a6178",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230329081209",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "a2b161d5144a6178",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230330015538",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "c9eacdf07e208644",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230401070620",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "c9eacdf07e208644",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230402095426",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "c9eacdf07e208644",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230403005959",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "c9eacdf07e208644",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230404122439",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "cd7ce5cc14f8c00e",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230405030852",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "cd7ce5cc14f8c00e",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230406014730",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "cd7ce5cc14f8c00e",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230407020659",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "d9b3bfac1df99c9c",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230408000611",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "29dcdc2555bfd3fc",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230411034758",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "29dcdc2555bfd3fc",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230412041526",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "38be9bcb01538076",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230413031715",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "38be9bcb01538076",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230414050216",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "38be9bcb01538076",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230415004641",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "0aa7624d7303094e",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230422003426",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "0aa7624d7303094e",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230425001846",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "8fe419191efead22",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230427012251",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "8fe419191efead22",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230428055017",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "a6bea10afd5bab32",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230429034626",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "30cefaf036ea4ef6",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230501082316",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "30cefaf036ea4ef6",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230509015249",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "30cefaf036ea4ef6",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230513021104",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "30cefaf036ea4ef6",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230515015312",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "30cefaf036ea4ef6",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230516033857",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "0c1db87b71f1dc1e",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230517001550",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "0c1db87b71f1dc1e",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230601012741",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "0c1db87b71f1dc1e",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230613025513",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "0c1db87b71f1dc1e",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230614064255",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "0622beb23dbb7ef2",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230616030423",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "0622beb23dbb7ef2",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230619111526",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "0622beb23dbb7ef2",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230623040546",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "0622beb23dbb7ef2",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230627145844",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "216875f19808d7bd",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230628032721",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "216875f19808d7bd",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230701005604",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "216875f19808d7bd",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230706202128",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "216875f19808d7bd",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230709173806",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "216875f19808d7bd",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230710071128",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "216875f19808d7bd",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230711211548",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "8d13ceaa620e5bb3",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230716073819",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "8d13ceaa620e5bb3",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230721084625",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "8d13ceaa620e5bb3",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230722121625",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "fc4bc77c741b9221",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230724145223",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "fc4bc77c741b9221",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230727061805",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "fc4bc77c741b9221",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20230728080837",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230729130631",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230730044154",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230731160517",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230801025726",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230802032529",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230803215645",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230804005914",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230805000434",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230806001412",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230807004916",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230808010641",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230809080705",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230810084929",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230811091220",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230812113356",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230813110512",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230814224006",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230815134443",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230816150836",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230817234714",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230818104815",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230819011933",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230821003007",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230822045658",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230823050211",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230824002001",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230825010516",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230826015922",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230829024445",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230830031106",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230831003140",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230901064545",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230902091701",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230903094531",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230906111346",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230907114147",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230908124317",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230909103905",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230910193813",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230911234216",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230912053009",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230913061759",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230914062712",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230915135917",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230916104939",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230917002022",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230918201208",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230919014851",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230920043836",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230921001018",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230922000842",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230923004828",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230924001822",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230925001601",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230926012025",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230927012739",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230928021025",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230929040212",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230930050423",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231002215636",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231003090556",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231004110626",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231005115330",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231006000023",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231007010938",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231008005046",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231010030527",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231011005638",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231012023114",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231013033957",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231014045821",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231015141334",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231016213045",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231017054206",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231018063014",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231019052138",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231020002919",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231021011803",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231022021854",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231023002449",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231024020632",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231025020321",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231026042918",
+   "url": "https://openai.com/policies/privacy-policy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231027051726",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "6474c8634b0f1423",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20231101074012",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "6474c8634b0f1423",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20231104112653",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "6474c8634b0f1423",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20231106045823",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "6474c8634b0f1423",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20231107011741",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "68ccda8b652e61cb",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20231108000859",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "68ccda8b652e61cb",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20231111092848",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "68ccda8b652e61cb",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20231114150931",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "68ccda8b652e61cb",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20231115001804",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "187bd1d0a7f68704",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20231116010551",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "187bd1d0a7f68704",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20231201003805",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "187bd1d0a7f68704",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20231202033118",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "e378a769fb88f37f",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20231205090906",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "e378a769fb88f37f",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20231209074344",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "e378a769fb88f37f",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20231212012703",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "e378a769fb88f37f",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20231214005321",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "e378a769fb88f37f",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20231215103112",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "e378a769fb88f37f",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20231216000842",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "8ff2914684e4481e",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20240101172539",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "8ff2914684e4481e",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20240102115051",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "8ff2914684e4481e",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20240104013554",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "bdd2244eb1fcd238",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20240105015516",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "bdd2244eb1fcd238",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20240109045230",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "bdd2244eb1fcd238",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20240110013229",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "bdd2244eb1fcd238",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20240111045336",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "2097fe3b4c3b6dc3",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20240112052025",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "2097fe3b4c3b6dc3",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20240117041238",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "2097fe3b4c3b6dc3",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20240201004853",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "2097fe3b4c3b6dc3",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20240207055037",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "2097fe3b4c3b6dc3",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20240210004750",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "2097fe3b4c3b6dc3",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20240214043950",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "2097fe3b4c3b6dc3",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20240215050919",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "2097fe3b4c3b6dc3",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20240216010442",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "f12cb451ac872973",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20240301073714",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "f12cb451ac872973",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20240401070735",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "f12cb451ac872973",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20240501004911",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "f12cb451ac872973",
+   "title": "Privacy policy"
+  },
+  {
+   "ts": "20240502044849",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "337d203b9d50a1de",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240504054742",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "337d203b9d50a1de",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240508005920",
+   "url": "https://openai.com/policies/privacy-policy",
+   "sha": "337d203b9d50a1de",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240512002846",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "337d203b9d50a1de",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240513012343",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "337d203b9d50a1de",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240514020503",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "e642c32c08a331df",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240516032715",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "e642c32c08a331df",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240601001800",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "e642c32c08a331df",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240701041522",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "e642c32c08a331df",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240716073549",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "e642c32c08a331df",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240717082456",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "e642c32c08a331df",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240718095314",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "76ed601396a0334b",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240720062032",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "76ed601396a0334b",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240724150319",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "76ed601396a0334b",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240801014907",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "76ed601396a0334b",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240816013434",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "76ed601396a0334b",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240820040153",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "76ed601396a0334b",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240821023858",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "bbf08c7b3de82201",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240822022127",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "bbf08c7b3de82201",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240824044526",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "bbf08c7b3de82201",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240901091451",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "bbf08c7b3de82201",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240902000321",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "bbf08c7b3de82201",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240903002509",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "bbf08c7b3de82201",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240904033819",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "e782c0808c983c47",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240908064644",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "e782c0808c983c47",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20240916032035",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "e782c0808c983c47",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20241001064811",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "e782c0808c983c47",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20241007031232",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "e782c0808c983c47",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20241010054604",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "e782c0808c983c47",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20241018163700",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "e782c0808c983c47",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20241026130605",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "a747eb8ad5b11a65",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20241105055437",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "e53aa88e509a68d3",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20241109163218",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "e53aa88e509a68d3",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20241112054733",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "e53aa88e509a68d3",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20241115145301",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "8fab891786e93fd7",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20241203173911",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "8fab891786e93fd7",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250104200608",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "8fab891786e93fd7",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250114120315",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "a7ed0e8e0516368e",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250117014532",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "a7ed0e8e0516368e",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250123133356",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "a7ed0e8e0516368e",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250201011340",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "a7ed0e8e0516368e",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250206173253",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "a7ed0e8e0516368e",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250207042557",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "a7ed0e8e0516368e",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250213101126",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "2bb5162f0d972193",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250301162531",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "2bb5162f0d972193",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250308010226",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "2bb5162f0d972193",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250311201703",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "a231ed2308c8e866",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250317103620",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "a231ed2308c8e866",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250401182725",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "a231ed2308c8e866",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250402004103",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "a231ed2308c8e866",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250405152132",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "0104084316bd45ac",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250406192349",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "0104084316bd45ac",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250413005000",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "0104084316bd45ac",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250424072824",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "0104084316bd45ac",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250427212310",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "0104084316bd45ac",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250430094724",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "0104084316bd45ac",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250502022702",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "7d637aa64186dd77",
+   "title": "EU privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250505183043",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "0104084316bd45ac",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250506043007",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "7ed9915d0849aaee",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250511213952",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "7ed9915d0849aaee",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250513101805",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "c57551d65090f036",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250514012848",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "c57551d65090f036",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250520030934",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "463a71dbb4abaf92",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250530065457",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "268c70cd43fe0f57",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250602152649",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "268c70cd43fe0f57",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250614134502",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "268c70cd43fe0f57",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250617044454",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "268c70cd43fe0f57",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250619004024",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "268c70cd43fe0f57",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250620060317",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "268c70cd43fe0f57",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250702152257",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "d62d6fbb2626342c",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250802070420",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "d62d6fbb2626342c",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250902000003",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "d62d6fbb2626342c",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250911152944",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "d62d6fbb2626342c",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250923202249",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "d62d6fbb2626342c",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250925095227",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "d62d6fbb2626342c",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20250926202907",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "d62d6fbb2626342c",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20251003180249",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "c69964b94a102734",
+   "title": "EU privacy policy | OpenAI"
+  },
+  {
+   "ts": "20251006071755",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "d62d6fbb2626342c",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20251009081533",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "d62d6fbb2626342c",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20251017071022",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "d62d6fbb2626342c",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20251022115544",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "d62d6fbb2626342c",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20251023143618",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "d62d6fbb2626342c",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20251030122231",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "d62d6fbb2626342c",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20251106184143",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "5481eba6bb550a6c",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20251114085613",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "5481eba6bb550a6c",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20251121022255",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "fc37e715a892108d",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20251126175348",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "e85809ce46766708",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20251201064014",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "e85809ce46766708",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260101035300",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "e85809ce46766708",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260122151005",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "e85809ce46766708",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260127020108",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "e85809ce46766708",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260128053222",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "e85809ce46766708",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260129074728",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "c0a67e129acaf779",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260201235910",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "a23279fe93ad09b7",
+   "title": "EU privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260206134621",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "c0a67e129acaf779",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260210054215",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "c6dc5b6cab73a03d",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260211042218",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "c6dc5b6cab73a03d",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260219163118",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "2d3e7a4407a19115",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260305005340",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "2d3e7a4407a19115",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260401035922",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "2d3e7a4407a19115",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260403130906",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "2d3e7a4407a19115",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260404092036",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "7eba95fefd5ffd8d",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260405022551",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "7eba95fefd5ffd8d",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260407214525",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "c0493163e0834f7f",
+   "title": "Europe privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260408041118",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "c0493163e0834f7f",
+   "title": "Europe privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260409073531",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "7eba95fefd5ffd8d",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260411024103",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "eb4d17490ebb2cf1",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260412141705",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "7eba95fefd5ffd8d",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260419095023",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "7eba95fefd5ffd8d",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260425021318",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "7eba95fefd5ffd8d",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260428092439",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "7eba95fefd5ffd8d",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260429060508",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "7eba95fefd5ffd8d",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260430081742",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "7eba95fefd5ffd8d",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260501010913",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "c65d10d5c9dba1b0",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260502002047",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "887803c508d07fbe",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260505153120",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "887803c508d07fbe",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260508043943",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "887803c508d07fbe",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260511010738",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "887803c508d07fbe",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260512050136",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "887803c508d07fbe",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260513085426",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "eb4d17490ebb2cf1",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260514040820",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "02ec8f938129e6da",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260515010347",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "02ec8f938129e6da",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260516054645",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "02ec8f938129e6da",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260517053225",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "02ec8f938129e6da",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260521005513",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "848c89a43bd6433a",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260524041541",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "848c89a43bd6433a",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260601013525",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "848c89a43bd6433a",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260605115045",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "848c89a43bd6433a",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260606050604",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "f4a350620a37a267",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260608114451",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "f4a350620a37a267",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260610005217",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "f4a350620a37a267",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260611003332",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "f4a350620a37a267",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260612015446",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "792e1d4e054e2f82",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260616002403",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "792e1d4e054e2f82",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260701134523",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "792e1d4e054e2f82",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260705183727",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "792e1d4e054e2f82",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260707032325",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "792e1d4e054e2f82",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260708122303",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "792e1d4e054e2f82",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260711002634",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "fff50220f7d87f26",
+   "title": "Privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260712023926",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "d3d74c9ce58521d1",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260714024156",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "d3d74c9ce58521d1",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260718092948",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "d3d74c9ce58521d1",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260801004218",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "d3d74c9ce58521d1",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260902130411",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "d3d74c9ce58521d1",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260909103823",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "d3d74c9ce58521d1",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260910153546",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "d3d74c9ce58521d1",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260911124845",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "240e6ac81ef70e75",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260912163556",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "240e6ac81ef70e75",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20260917105427",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "240e6ac81ef70e75",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20261001070228",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "240e6ac81ef70e75",
+   "title": "US privacy policy | OpenAI"
+  },
+  {
+   "ts": "20261005015841",
+   "url": "https://openai.com/policies/privacy-policy/",
+   "sha": "240e6ac81ef70e75",
+   "title": "US privacy policy | OpenAI"
+  }
+ ],
+ "versions": [
+  {
+   "sha": "c08f362e3f9fafac",
+   "first": "20210531063714",
+   "last": "20210614100128",
+   "url": "https://openai.com/privacy/"
+  },
+  {
+   "sha": "3089bfe8a767761d",
+   "first": "20210617204935",
+   "last": "20210628175618",
+   "url": "https://www.openai.com/privacy/"
+  },
+  {
+   "sha": "fdea05a8c792b825",
+   "first": "20210731195300",
+   "last": "20210731195300",
+   "url": "https://openai.com/privacy/"
+  },
+  {
+   "sha": "61a165e8bda15688",
+   "first": "20210811205458",
+   "last": "20210811205458",
+   "url": "https://openai.com/privacy/"
+  },
+  {
+   "sha": "0cfc35de43495674",
+   "first": "20210812210001",
+   "last": "20211101222825",
+   "url": "https://openai.com/privacy/"
+  },
+  {
+   "sha": "3695a6c551aac974",
+   "first": "20211204004613",
+   "last": "20211204004613",
+   "url": "https://openai.com/api/policies/privacy/"
+  },
+  {
+   "sha": "0cfc35de43495674",
+   "first": "20211204024612",
+   "last": "20211223072318",
+   "url": "https://openai.com/privacy/"
+  },
+  {
+   "sha": "d9fe20bb2292faf1",
+   "first": "20220129141959",
+   "last": "20220129141959",
+   "url": "https://openai.com/privacy/"
+  },
+  {
+   "sha": "49e8d8e6e9ec1807",
+   "first": "20220311210628",
+   "last": "20220311210628",
+   "url": "https://openai.com/privacy/"
+  },
+  {
+   "sha": "7eb01a9d41ac9558",
+   "first": "20220323134726",
+   "last": "20220323134726",
+   "url": "https://openai.com/api/policies/privacy/"
+  },
+  {
+   "sha": "99906ed9d6382883",
+   "first": "20220329114959",
+   "last": "20220405035541",
+   "url": "https://openai.com/privacy/"
+  },
+  {
+   "sha": "8378cd14ed51bf52",
+   "first": "20220409161303",
+   "last": "20220409161303",
+   "url": "https://openai.com/api/policies/privacy/"
+  },
+  {
+   "sha": "914d61aad5ece72a",
+   "first": "20220412234538",
+   "last": "20220919073029",
+   "url": "https://openai.com/privacy/"
+  },
+  {
+   "sha": "0fb3662fc8c4d932",
+   "first": "20220925103142",
+   "last": "20221130082933",
+   "url": "https://openai.com/privacy/"
+  },
+  {
+   "sha": "a1b7cb872eb451fe",
+   "first": "20221201044343",
+   "last": "20221201044343",
+   "url": "https://openai.com/privacy/"
+  },
+  {
+   "sha": "e0594b2c071f3f08",
+   "first": "20221204160818",
+   "last": "20221206033620",
+   "url": "https://openai.com/privacy/"
+  },
+  {
+   "sha": "093cfa30c42e1a39",
+   "first": "20221209190851",
+   "last": "20221225040911",
+   "url": "https://openai.com/privacy/"
+  },
+  {
+   "sha": "3096c5c6f3a415fa",
+   "first": "20230108131646",
+   "last": "20230223125632",
+   "url": "https://openai.com/privacy/"
+  },
+  {
+   "sha": "ae96a8a9ffa1ce85",
+   "first": "20230227230602",
+   "last": "20230301171100",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "0814e45c09831fa7",
+   "first": "20230302000743",
+   "last": "20230306012942",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "42c9dde1a8711c07",
+   "first": "20230308023550",
+   "last": "20230311073032",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "a947f64f1d8ae3f4",
+   "first": "20230314210410",
+   "last": "20230316030840",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "a2b161d5144a6178",
+   "first": "20230317224820",
+   "last": "20230329081209",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "c9eacdf07e208644",
+   "first": "20230330015538",
+   "last": "20230403005959",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "cd7ce5cc14f8c00e",
+   "first": "20230404122439",
+   "last": "20230406014730",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "d9b3bfac1df99c9c",
+   "first": "20230407020659",
+   "last": "20230407020659",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "29dcdc2555bfd3fc",
+   "first": "20230408000611",
+   "last": "20230411034758",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "38be9bcb01538076",
+   "first": "20230412041526",
+   "last": "20230414050216",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "0aa7624d7303094e",
+   "first": "20230415004641",
+   "last": "20230422003426",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "8fe419191efead22",
+   "first": "20230425001846",
+   "last": "20230427012251",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "a6bea10afd5bab32",
+   "first": "20230428055017",
+   "last": "20230428055017",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "30cefaf036ea4ef6",
+   "first": "20230429034626",
+   "last": "20230515015312",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "0c1db87b71f1dc1e",
+   "first": "20230516033857",
+   "last": "20230613025513",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "0622beb23dbb7ef2",
+   "first": "20230614064255",
+   "last": "20230623040546",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "216875f19808d7bd",
+   "first": "20230627145844",
+   "last": "20230710071128",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "8d13ceaa620e5bb3",
+   "first": "20230711211548",
+   "last": "20230721084625",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "fc4bc77c741b9221",
+   "first": "20230722121625",
+   "last": "20230727061805",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "6474c8634b0f1423",
+   "first": "20231027051726",
+   "last": "20231106045823",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "68ccda8b652e61cb",
+   "first": "20231107011741",
+   "last": "20231114150931",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "187bd1d0a7f68704",
+   "first": "20231115001804",
+   "last": "20231201003805",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "e378a769fb88f37f",
+   "first": "20231202033118",
+   "last": "20231215103112",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "8ff2914684e4481e",
+   "first": "20231216000842",
+   "last": "20240102115051",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "bdd2244eb1fcd238",
+   "first": "20240104013554",
+   "last": "20240110013229",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "2097fe3b4c3b6dc3",
+   "first": "20240111045336",
+   "last": "20240215050919",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "f12cb451ac872973",
+   "first": "20240216010442",
+   "last": "20240501004911",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "337d203b9d50a1de",
+   "first": "20240502044849",
+   "last": "20240513012343",
+   "url": "https://openai.com/policies/privacy-policy"
+  },
+  {
+   "sha": "e642c32c08a331df",
+   "first": "20240514020503",
+   "last": "20240717082456",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "76ed601396a0334b",
+   "first": "20240718095314",
+   "last": "20240820040153",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "bbf08c7b3de82201",
+   "first": "20240821023858",
+   "last": "20240903002509",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "e782c0808c983c47",
+   "first": "20240904033819",
+   "last": "20241018163700",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "a747eb8ad5b11a65",
+   "first": "20241026130605",
+   "last": "20241026130605",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "e53aa88e509a68d3",
+   "first": "20241105055437",
+   "last": "20241112054733",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "8fab891786e93fd7",
+   "first": "20241115145301",
+   "last": "20250104200608",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "a7ed0e8e0516368e",
+   "first": "20250114120315",
+   "last": "20250207042557",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "2bb5162f0d972193",
+   "first": "20250213101126",
+   "last": "20250308010226",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "a231ed2308c8e866",
+   "first": "20250311201703",
+   "last": "20250402004103",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "0104084316bd45ac",
+   "first": "20250405152132",
+   "last": "20250430094724",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "7d637aa64186dd77",
+   "first": "20250502022702",
+   "last": "20250502022702",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "0104084316bd45ac",
+   "first": "20250505183043",
+   "last": "20250505183043",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "7ed9915d0849aaee",
+   "first": "20250506043007",
+   "last": "20250511213952",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "c57551d65090f036",
+   "first": "20250513101805",
+   "last": "20250514012848",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "463a71dbb4abaf92",
+   "first": "20250520030934",
+   "last": "20250520030934",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "268c70cd43fe0f57",
+   "first": "20250530065457",
+   "last": "20250620060317",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "d62d6fbb2626342c",
+   "first": "20250702152257",
+   "last": "20250926202907",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "c69964b94a102734",
+   "first": "20251003180249",
+   "last": "20251003180249",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "d62d6fbb2626342c",
+   "first": "20251006071755",
+   "last": "20251030122231",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "5481eba6bb550a6c",
+   "first": "20251106184143",
+   "last": "20251114085613",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "fc37e715a892108d",
+   "first": "20251121022255",
+   "last": "20251121022255",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "e85809ce46766708",
+   "first": "20251126175348",
+   "last": "20260128053222",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "c0a67e129acaf779",
+   "first": "20260129074728",
+   "last": "20260129074728",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "a23279fe93ad09b7",
+   "first": "20260201235910",
+   "last": "20260201235910",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "c0a67e129acaf779",
+   "first": "20260206134621",
+   "last": "20260206134621",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "c6dc5b6cab73a03d",
+   "first": "20260210054215",
+   "last": "20260211042218",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "2d3e7a4407a19115",
+   "first": "20260219163118",
+   "last": "20260403130906",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "7eba95fefd5ffd8d",
+   "first": "20260404092036",
+   "last": "20260405022551",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "c0493163e0834f7f",
+   "first": "20260407214525",
+   "last": "20260408041118",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "7eba95fefd5ffd8d",
+   "first": "20260409073531",
+   "last": "20260409073531",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "eb4d17490ebb2cf1",
+   "first": "20260411024103",
+   "last": "20260411024103",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "7eba95fefd5ffd8d",
+   "first": "20260412141705",
+   "last": "20260430081742",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "c65d10d5c9dba1b0",
+   "first": "20260501010913",
+   "last": "20260501010913",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "887803c508d07fbe",
+   "first": "20260502002047",
+   "last": "20260512050136",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "eb4d17490ebb2cf1",
+   "first": "20260513085426",
+   "last": "20260513085426",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "02ec8f938129e6da",
+   "first": "20260514040820",
+   "last": "20260517053225",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "848c89a43bd6433a",
+   "first": "20260521005513",
+   "last": "20260605115045",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "f4a350620a37a267",
+   "first": "20260606050604",
+   "last": "20260611003332",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "792e1d4e054e2f82",
+   "first": "20260612015446",
+   "last": "20260708122303",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "fff50220f7d87f26",
+   "first": "20260711002634",
+   "last": "20260711002634",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "d3d74c9ce58521d1",
+   "first": "20260712023926",
+   "last": "20260910153546",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  {
+   "sha": "240e6ac81ef70e75",
+   "first": "20260911124845",
+   "last": "20261005015841",
+   "url": "https://openai.com/policies/privacy-policy/"
+  }
+ ],
+ "complete": true
+}

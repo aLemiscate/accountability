@@ -1,0 +1,1095 @@
+{
+ "id": "anthropic-privacy",
+ "org": "anthropic",
+ "urls": [
+  "https://www.anthropic.com/legal/privacy",
+  "https://www.anthropic.com/privacy",
+  "https://console.anthropic.com/legal/privacy"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "title": "Privacy Policy \\ Anthropic",
+   "via": "fetch",
+   "sha": "2597913f6a7af70e",
+   "words": 6332
+  }
+ ],
+ "captures": [
+  {
+   "ts": "20150202045230",
+   "url": "http://anthropic.com/privacy",
+   "sha": "fcffa3f03b8a856b",
+   "title": "anthropic.com"
+  },
+  {
+   "ts": "20230609055310",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230618022041",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230705043218",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230710113449",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230712030217",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230714220316",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230801104722",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230815150936",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230913014250",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230926140848",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20230930002646",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231010092907",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231017143705",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231018141041",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231022235823",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231030162315",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231102005649",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231108164036",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231114175925",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231205042748",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231207005834",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20231220125345",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240105045214",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240121210541",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240202053430",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240208200339",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240209161112",
+   "url": "https://console.anthropic.com/legal/privacy",
+   "error": "no readable text"
+  },
+  {
+   "ts": "20240225205441",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "2af77ffc6488d335",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240303100123",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "2af77ffc6488d335",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240304151321",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "a959ceb53c6be821",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240306072423",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "a503378215715e00",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240312070444",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "a503378215715e00",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240401064328",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "a503378215715e00",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240501105840",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "a503378215715e00",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240503024751",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "1665e69968b6178b",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240510043851",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "1665e69968b6178b",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240514182120",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "4110be066d299bdd",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240517012546",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "4110be066d299bdd",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240601091755",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "4110be066d299bdd",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240607083447",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "962a3bc03f163146",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240613205003",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "962a3bc03f163146",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240615054546",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "962a3bc03f163146",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240622083336",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "962a3bc03f163146",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240624230427",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "962a3bc03f163146",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240629083112",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "962a3bc03f163146",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240701234555",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "d175d92b20707b53",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240705114716",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "962a3bc03f163146",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240711213324",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "962a3bc03f163146",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240721232228",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "962a3bc03f163146",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240801100057",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "962a3bc03f163146",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240804093450",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3216908b20598bd6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240806121959",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3216908b20598bd6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240819082111",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3216908b20598bd6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240826115416",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3216908b20598bd6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240827062342",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3216908b20598bd6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240901151109",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "2e83c42e037767a5",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240902122642",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3216908b20598bd6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240909133628",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3216908b20598bd6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20240915072347",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3216908b20598bd6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241001142130",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3216908b20598bd6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241005153849",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3216908b20598bd6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241008065246",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3216908b20598bd6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241009040216",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3216908b20598bd6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241029114223",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3216908b20598bd6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241104105554",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "2e83c42e037767a5",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241105133629",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "2e83c42e037767a5",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241106120613",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "2e83c42e037767a5",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241107122205",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3216908b20598bd6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241108010533",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "9cb341de2be6d089",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241109132815",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "9cb341de2be6d089",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241115021342",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "9cb341de2be6d089",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241125060635",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "9cb341de2be6d089",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241127032827",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "9cb341de2be6d089",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241128212901",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "9cb341de2be6d089",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241201004649",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "1aae29db45285bdf",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241203135812",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "9cb341de2be6d089",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241215190405",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "9cb341de2be6d089",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241217214927",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "1aae29db45285bdf",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241219083518",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3f2588020113d3a3",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20241221164531",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3f2588020113d3a3",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250101020724",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3f2588020113d3a3",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250201122636",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3f2588020113d3a3",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250215150346",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3f2588020113d3a3",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250218000457",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3f2588020113d3a3",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250219090119",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3f2588020113d3a3",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250220051131",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "b8b3efafa82fead5",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250221073950",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "b8b3efafa82fead5",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250226080551",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "b8b3efafa82fead5",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250227091022",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "b1d7554cdee4e69b",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250302055840",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "b1d7554cdee4e69b",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250402200611",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "b1d7554cdee4e69b",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250501055243",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "b1d7554cdee4e69b",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250502181743",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "697d91fb13b3bd1a",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250504212333",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "697d91fb13b3bd1a",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250508133331",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "697d91fb13b3bd1a",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250518100955",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "697d91fb13b3bd1a",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250601092650",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "697d91fb13b3bd1a",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250702010806",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "697d91fb13b3bd1a",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250801052026",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "697d91fb13b3bd1a",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250815062501",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "697d91fb13b3bd1a",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250817081323",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "a52faab1c32bb35c",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250819005130",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "a52faab1c32bb35c",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250827141202",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "a52faab1c32bb35c",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250828040647",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "a52faab1c32bb35c",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250829061750",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "70fe8dae23694462",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250901065737",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "70fe8dae23694462",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250912020001",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "70fe8dae23694462",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250919220559",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "70fe8dae23694462",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250921030821",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "70fe8dae23694462",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20250929144724",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "e22bf1693b226492",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20251001025550",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "e22bf1693b226492",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20251008025914",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "e22bf1693b226492",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20251009210456",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "7e8204328e506055",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20251010003534",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "7e8204328e506055",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20251012033723",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "7e8204328e506055",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20251016033905",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "7e8204328e506055",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20251101034457",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "7e8204328e506055",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20251113035447",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "7e8204328e506055",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20251119010043",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "7e8204328e506055",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20251122162733",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "d9fd5b33421100e6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20251124200008",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "d9fd5b33421100e6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20251204025305",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "d9fd5b33421100e6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260101085212",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "d9fd5b33421100e6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260108082635",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "d9fd5b33421100e6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260109083739",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "d9fd5b33421100e6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260115152012",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "af9b7e210c95d8e6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260118123245",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "af9b7e210c95d8e6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260201063740",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "af9b7e210c95d8e6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260301082418",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "af9b7e210c95d8e6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260401044045",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "af9b7e210c95d8e6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260501071521",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "af9b7e210c95d8e6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260601094918",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "af9b7e210c95d8e6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260608090353",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "af9b7e210c95d8e6",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260609035417",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3af0275d71f6cf1d",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260611015709",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3af0275d71f6cf1d",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260615120320",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3af0275d71f6cf1d",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260701143549",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3af0275d71f6cf1d",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260707065813",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3af0275d71f6cf1d",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260708110405",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "3af0275d71f6cf1d",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260709183222",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "af5b59e945a88280",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260712133450",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "af5b59e945a88280",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260719021158",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "af5b59e945a88280",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260801004501",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "af5b59e945a88280",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260901144310",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "af5b59e945a88280",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260909021034",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "af5b59e945a88280",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260910093206",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "af5b59e945a88280",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260911125614",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "af5b59e945a88280",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260912175340",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "2597913f6a7af70e",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20260916144850",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "2597913f6a7af70e",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20261001070213",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "2597913f6a7af70e",
+   "title": "Privacy Policy \\ Anthropic"
+  },
+  {
+   "ts": "20261005084742",
+   "url": "https://www.anthropic.com/legal/privacy",
+   "sha": "2597913f6a7af70e",
+   "title": "Privacy Policy \\ Anthropic"
+  }
+ ],
+ "versions": [
+  {
+   "sha": "fcffa3f03b8a856b",
+   "first": "20150202045230",
+   "last": "20150202045230",
+   "url": "http://anthropic.com/privacy"
+  },
+  {
+   "sha": "2af77ffc6488d335",
+   "first": "20240225205441",
+   "last": "20240303100123",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "a959ceb53c6be821",
+   "first": "20240304151321",
+   "last": "20240304151321",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "a503378215715e00",
+   "first": "20240306072423",
+   "last": "20240501105840",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "1665e69968b6178b",
+   "first": "20240503024751",
+   "last": "20240510043851",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "4110be066d299bdd",
+   "first": "20240514182120",
+   "last": "20240601091755",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "962a3bc03f163146",
+   "first": "20240607083447",
+   "last": "20240629083112",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "d175d92b20707b53",
+   "first": "20240701234555",
+   "last": "20240701234555",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "962a3bc03f163146",
+   "first": "20240705114716",
+   "last": "20240801100057",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "3216908b20598bd6",
+   "first": "20240804093450",
+   "last": "20240827062342",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "2e83c42e037767a5",
+   "first": "20240901151109",
+   "last": "20240901151109",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "3216908b20598bd6",
+   "first": "20240902122642",
+   "last": "20241029114223",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "2e83c42e037767a5",
+   "first": "20241104105554",
+   "last": "20241106120613",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "3216908b20598bd6",
+   "first": "20241107122205",
+   "last": "20241107122205",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "9cb341de2be6d089",
+   "first": "20241108010533",
+   "last": "20241128212901",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "1aae29db45285bdf",
+   "first": "20241201004649",
+   "last": "20241201004649",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "9cb341de2be6d089",
+   "first": "20241203135812",
+   "last": "20241215190405",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "1aae29db45285bdf",
+   "first": "20241217214927",
+   "last": "20241217214927",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "3f2588020113d3a3",
+   "first": "20241219083518",
+   "last": "20250219090119",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "b8b3efafa82fead5",
+   "first": "20250220051131",
+   "last": "20250226080551",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "b1d7554cdee4e69b",
+   "first": "20250227091022",
+   "last": "20250501055243",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "697d91fb13b3bd1a",
+   "first": "20250502181743",
+   "last": "20250815062501",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "a52faab1c32bb35c",
+   "first": "20250817081323",
+   "last": "20250828040647",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "70fe8dae23694462",
+   "first": "20250829061750",
+   "last": "20250921030821",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "e22bf1693b226492",
+   "first": "20250929144724",
+   "last": "20251008025914",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "7e8204328e506055",
+   "first": "20251009210456",
+   "last": "20251119010043",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "d9fd5b33421100e6",
+   "first": "20251122162733",
+   "last": "20260109083739",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "af9b7e210c95d8e6",
+   "first": "20260115152012",
+   "last": "20260608090353",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "3af0275d71f6cf1d",
+   "first": "20260609035417",
+   "last": "20260708110405",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "af5b59e945a88280",
+   "first": "20260709183222",
+   "last": "20260911125614",
+   "url": "https://www.anthropic.com/legal/privacy"
+  },
+  {
+   "sha": "2597913f6a7af70e",
+   "first": "20260912175340",
+   "last": "20261005084742",
+   "url": "https://www.anthropic.com/legal/privacy"
+  }
+ ],
+ "complete": true
+}

@@ -1,0 +1,114 @@
+ARTIFICIAL INTELLIGENCE
+Anthropic Apologizes For One of the Guardrails on Its Fable 5 Model, and Will Change It
+Fable 5 is a nerfed version of Anthropic's Mythos model. Turns out it was actually too nerfed, and the company is sorry.
+BY MIKE PEARL
+PUBLISHED JUNE 11, 2026, 5:00 AM ET
+READING TIME 2 MINUTES
+Anthropic CEO Dario Amodei © Photo by Ludovic MARIN / AFP via Getty Images
+READ LATER
+COMMENTS (15)
+Anthropic’s Fable 5 model is the nerfed version of Mythos, which is in turn the model so scarily powerful that it could ostensibly endanger the world if it were released without guardrails. Most of the guardrails, especially the ones designed to prevent users from using Fable to build cyber- or bio-weapons, are very noticeable.
+But one guardrail, aimed at preventing users from using Fable 5 to train other AI models, was invisible, which sparked unusual displays of user outrage.
+And now Anthropic has asked for take-backs. The controversial invisible guardrail will be made visible. In a statement to Wired, Anthropic wrote “We’re changing Fable 5’s safeguards for frontier LLM development to make them visible.”
+“We made the wrong tradeoff and we apologize for not getting the balance right,” the statement added.
+In the model’s system card, Anthropic was upfront about what it was trying to do:
+“Unlike our interventions for cybersecurity, biology and chemistry, and distillation attempts, these safeguards will not be visible to the user. Fable 5 will not fall back to a different model. Instead, the safeguards will limit effectiveness through methods such as prompt modification, steering vectors, or parameter-efficient fine-tuning (PEFT).”
+In other words, when Fable 5 prompts showed the telltale signs of a user developing a frontier LLM, instead of doing what it does with prompts about biology, chemistry, or cybersecurity and switching to an inferior model, or simply refusing the request, it was silently changing the prompt in order to generate faulty results with the potential to hamper the user’s model development.
+Using the model to train another model is against Anthropic’s terms of service, but users still felt like this measure was a violation of users’ trust. Reddit user CheatCodesOf Life put it this way: “I wouldn’t use this thing for anything to be honest. A refusal or HTTP-4xx error for content is fair enough, but this is basically taking your money and poisoning your code base.”
+EXPLORE MORE ON THESE TOPICS
+ANTHROPIC
+ARTIFICIAL INTELLIGENCE
+FABLE 5
+LLMS
+SHARE THIS STORY
+Sign up for our newsletters
+Subscribe and interact with our community, get up to date with our customised Newsletters and much more.
+GIZMODO
+IO9
+EARTHER
+THE NEXT INTERFACE
+SUBSCRIBE NOW
+15,000 VHS Tapes and Counting: Meet the Guys Preserving the Weirdest Parts of the Analog Era
+Latest news
+OCT 13
+10:40 AM
+Sony WH-CH720N Headphones Cost a Fraction of AirPods Max, Plus Get a 3 Month Subscription to Amazon Music for Free
+OCT 13
+10:10 AM
+UGREEN 100W GaN Charger Gets the Near-Giveaway Treatment on Amazon, With USB-C and USB-A Ports Included
+OCT 13
+9:40 AM
+Shokz Clears Out OpenRun Pro Bone Conduction Headphones, Bringing Back Their Lowest Price Ever
+OCT 13
+9:22 AM
+There’s Finally a New Apple TV 4K, and It Wants You to Use Siri to Find Your Lost Remote
+OCT 13
+9:15 AM
+Apple Unveils Its First HomePod mini in Six Years
+OCT 13
+9:14 AM
+The Siren Head Movie Is ‘Not What People Are Expecting’
+OCT 13
+9:11 AM
+Apple Officially Announces Its Smart Home Hub: the HomeView
+OCT 13
+9:10 AM
+LG Dolby Audio Soundbar With Wireless Subwoofer Now Costs as Little as an Off-Brand Speaker on Amazon
+SHOW ALL LATEST NEWS
+Latest Reviews
+OCT 11
+8:30 AM
+Eufy Omni E35 Review: Finally, a Luxury Robovac That Doesn’t Piss Me Off
+OCT 8
+4:15 PM
+Bose Ultra Open Earbuds (2nd Gen) Review: The King of Clip-Ons Is Re-Crowned
+OCT 7
+7:00 PM
+Ray-Ban Meta (Gen 3) Review: Technically an Upgrade
+OCT 5
+9:50 AM
+Lenovo Legion 5i (2026) Review: A Gaming Laptop That Epitomizes the PC Pricing Paradox
+OCT 4
+8:30 AM
+TP-Link Tapo Doorbell Pro D260 Review: Everything You Need at No Extra Cost
+OCT 2
+2:10 PM
+Sonos Beam Ultra Review: The Soundbar You Really Want
+OCT 1
+8:30 AM
+Nothing Headphone 1 Pro Review: Honest-to-God S-Tier Headphones
+SEP 30
+4:00 PM
+The Best Gadgets of September 2026
+SHOW ALL LATEST REVIEWS
+Related Articles
+Your Body Heat Could Power the Next Generation of Wearables
+Thermoelectric generators probably won’t eliminate the charger for your Apple Watch, but for smaller, screenless wearables, the heat constantly escaping from your skin could fundamentally change how we power our devices.
+GADGETS
+JOHN LOEFFLER
+SEP 25
+Based AI People Are Supposedly Smoking Because AI Will Cure Cancer
+Probably best not to treat this like a real trend.
+ARTIFICIAL INTELLIGENCE
+MIKE PEARL
+OCT 12
+A Guide to Which AI CEOs Now Say ‘Super Intelligence’ and Which Don’t
+Which CEO has sunk the furthest into the putrid muck of Donald Trump’s decaying brain?
+ARTIFICIAL INTELLIGENCE
+MIKE PEARL
+OCT 12
+Anthropic Is Banishing Its Model Evals From the Internet
+Not forever.
+ARTIFICIAL INTELLIGENCE
+MIKE PEARL
+OCT 10
+As They Supposedly Battle AI Slop, Major Publishers Reportedly Cover Their Books in It
+Cover art, cover text, and even publicity are reportedly being slopped up.
+ARTIFICIAL INTELLIGENCE
+MIKE PEARL
+OCT 10
+Walmart Denies Plans for Surveillance Pricing Despite Holding Patents for Surveillance Pricing
+Who you gonna believe?
+ARTIFICIAL INTELLIGENCE
+MATT NOVAK
+OCT 10

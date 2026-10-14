@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [sam-altman]
-venue: Post on X, replying to Anthropic's Super Bowl campaign
+venue: Post on Twitter, replying to Anthropic's Super Bowl campaign
 quote: >-
   We would obviously never run ads in the way Anthropic depicts them. We are not
   stupid and we know our users would reject that.
@@ -17,11 +17,12 @@ summary: >-
   "Anthropic doublespeak."
 concreteness: measurable
 status: open
+last_checked: 2026-10-13
 breaks_if: >-
   A paid placement appears inside ChatGPT's own answer text, or ChatGPT
   recommends a product in its answer because of an advertiser relationship,
   instead of in a separate, labeled ad unit.
-patterns: []
+patterns: [unfalsifiable]
 related: [2026-01-16-ad-principles, 2026-02-04-claude-ad-free]
 sources:
   - title: Sam Altman on X

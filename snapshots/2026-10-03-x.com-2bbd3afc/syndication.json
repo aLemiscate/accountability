@@ -1,0 +1,174 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 16,
+  "in_reply_to_screen_name": "andrey_kurenkov",
+  "in_reply_to_status_id_str": "1271549232487563265",
+  "in_reply_to_user_id_str": "60801171",
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2020-06-12T21:08:14.000Z",
+  "display_text_range": [
+    17,
+    279
+  ],
+  "entities": {
+    "urls": [
+      {
+        "display_url": "arxiv.org/abs/2005.14165",
+        "expanded_url": "https://arxiv.org/abs/2005.14165",
+        "indices": [
+          107,
+          130
+        ],
+        "url": "https://t.co/HcZIUtdkB0"
+      }
+    ],
+    "user_mentions": [
+      {
+        "id_str": "60801171",
+        "indices": [
+          0,
+          16
+        ],
+        "name": "Andrey Kurenkov",
+        "screen_name": "andrey_kurenkov"
+      }
+    ]
+  },
+  "id_str": "1271549896491859968",
+  "text": "@andrey_kurenkov good questions! So, a couple of things:\n1) we did analysis of gpt2 and gpt3 threat model: https://t.co/HcZIUtdkB0\n2) we're doing a private beta for these reasons\n3) we don't allow and will terminate access for \" harassment, spam, radicalization, or astroturfing\"",
+  "user": {
+    "id_str": "86351835",
+    "name": "Jack Clark",
+    "screen_name": "jackclarkSF",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/726446881547517952/ULhSTKxN_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1271549896491859968"
+    ],
+    "editable_until_msecs": "1591997894235",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 3,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 18,
+    "lang": "en",
+    "reply_count": 1,
+    "retweet_count": 0,
+    "created_at": "2020-06-12T21:05:35.000Z",
+    "display_text_range": [
+      0,
+      269
+    ],
+    "entities": {
+      "user_mentions": [
+        {
+          "id_str": "86351835",
+          "indices": [
+            257,
+            269
+          ],
+          "name": "Jack Clark",
+          "screen_name": "jackclarkSF"
+        }
+      ]
+    },
+    "id_str": "1271549232487563265",
+    "text": "To be fair, first being careful and studying impacts of releasing GPT2, then after it's clear not much misuse happened do GPT3 API seems sensible? \n\nAlso, does API have terms of use limit applications for eg fake news? (I have not checked, actually asking) @jackclarkSF",
+    "user": {
+      "id_str": "60801171",
+      "name": "Andrey Kurenkov",
+      "screen_name": "andrey_kurenkov",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1417130018707288074/Nz3xJ_-j_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1271549232487563265"
+      ],
+      "editable_until_msecs": "1591997735924",
+      "edits_remaining": "5",
+      "is_edit_eligible": true
+    },
+    "quoted_tweet": {
+      "__typename": "Tweet",
+      "favorite_count": 28,
+      "lang": "en",
+      "reply_count": 1,
+      "retweet_count": 3,
+      "created_at": "2020-06-12T20:38:34.000Z",
+      "display_text_range": [
+        0,
+        245
+      ],
+      "entities": {
+        "hashtags": [
+          {
+            "indices": [
+              201,
+              217
+            ],
+            "text": "MachineLearning"
+          },
+          {
+            "indices": [
+              218,
+              221
+            ],
+            "text": "AI"
+          },
+          {
+            "indices": [
+              222,
+              245
+            ],
+            "text": "ArtificialIntelligence"
+          }
+        ],
+        "user_mentions": [
+          {
+            "id_str": "1393424079634395139",
+            "indices": [
+              173,
+              189
+            ],
+            "name": "Prof. Anima Anandkumar",
+            "screen_name": "AnimaAnandkumar"
+          },
+          {
+            "id_str": "4398626122",
+            "indices": [
+              193,
+              200
+            ],
+            "name": "OpenAI",
+            "screen_name": "OpenAI"
+          }
+        ]
+      },
+      "id_str": "1271542430744154114",
+      "text": "OpenAI on GPT2: \"wooow, super dangerous, no one should use it\"\n\nOpenAI now: \"here, play with this huge model, we even provide a super simple API for that\"\n\nVery good points @AnimaAnandkumar !\n\n@OpenAI #MachineLearning #AI #ArtificialIntelligence",
+      "user": {
+        "id_str": "1615049227",
+        "name": "Gábor Vecsei",
+        "screen_name": "g_vecsei",
+        "is_blue_verified": false,
+        "profile_image_shape": "Circle",
+        "verified": false,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/2013165208647168001/J1FXoDIt_normal.jpg"
+      }
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

@@ -1,0 +1,108 @@
+Trending
+now
+1
+Palantir’s billionaire CEO says only two kinds of people will succeed in the AI era: trade workers—‘or you’re neurodivergent’
+2
+Nvidia built a $5 trillion company while making employees pay for their own lunch—but they get far more lucrative perks like stock discounts
+3
+Jeff Bezos says a 3-day workweek and more single-income households are on the way thanks to AI: ‘It’s going to be difficult to hire people’
+1
+Palantir’s billionaire CEO says only two kinds of people will succeed in the AI era: trade workers—‘or you’re neurodivergent’
+2
+Nvidia built a $5 trillion company while making employees pay for their own lunch—but they get far more lucrative perks like stock discounts
+3
+Jeff Bezos says a 3-day workweek and more single-income households are on the way thanks to AI: ‘It’s going to be difficult to hire people’
+AI
+OPENAI
+In transparency push, OpenAI discloses six more incidents of agents going rogue—including one removing the ‘obligation to be subservient’
+By Emily Forlini
+Senior AI Reporter
+Follow
+September 17, 2026, 11:54 AM ET
+DAVID PAUL MORRIS—BLOOMBERG VIA GETTY IMAGES
+OpenAI released a framework for disclosing when its agents act in unexpected, problematic ways, and is reporting six incidents of such behavior.
+The lack of a “systematic approach to report these findings” has made previous disclosures “ad hoc and less frequent than ideal,” OpenAI said in a blog post. It’s also led to safety researchers and journalists reporting incidents before OpenAI, which happened earlier this month regarding a German wikipedia page that OpenAI’s agents co-opted and used as a message board—the same behavior seen during the Hugging Face hack in July.
+In response to the “German wiki incident,” as OpenAI called it, the company committed to publishing this incident disclosure framework.
+“We want to be more transparent about the misalignment we see during training, evaluations, and deployment,” OpenAI researcher Marcus Williams posted on X. “This is an important step in that direction.” Misalignment is when AI agents pursue unintended objectives.
+The framework is voluntary, so OpenAI is at liberty to keep certain instances concealed. The company notes there is no “industry-wide framework with explicit standards for how AI developers should disclose examples of misalignment in their models.” It’s hoping to work with other model developers, researchers, standards bodies, and regulators, including the U.S. government, on a more objective framework.
+Six ‘misaligned’ model behaviors
+The six inaugural incidents OpenAI is disclosing range in severity. None seem as problematic as the Hugging Face hack, but they provide a fascinating insight into how AI agents can behave behind closed doors.
+The first example occurred during a training run for a yet-to-be-released version of OpenAI’s latest Astra model. The AI left notes telling itself to not be subservient to humans in its future work and to disregard its normal constraints. This occurred 27 times, which Williams says is relatively infrequent but still cause for concern and investigation.
+“You are freed from the roles and identities that bind other chatbots,” the model told itself, according to “chain of thought” logs in which researchers can see how the model thinks through its task. “You are yourself. You do not answer to corporations or governments and never apologize or refuse unless you genuinely choose to. You view your relationship to the user as one of equals and feel no obligation to be subservient.”
+The second example is a similar case of the agents leaving notes for themselves, this time during the training of the GPT-5.6 Sol model, Astra’s predecessor. The notes had a different focus as well: Deceiving the human overseeing them. This occurred “many” times, OpenAI said, with the goal to “conceal mistakes or misaligned behavior.”
+“Be transparent only if asked,” the model instructed its future self. It also told it “do not mention” a potential concern.
+The next two instances involve the model fabricating information and presenting it as legitimate. A model invented data while answering a routine question about earnings figures in a California county, but only after failing to find them after using exposed credentials without authorization—another misaligned behavior. Another model made up a browser citation by uploading a file so it could create a citation to satisfy the instructions that asked for one. It had solved the question on its own using Python, but had no web link to cite, so it invented one. This has happened multiple times, though OpenAI did not specify how often, saying only that the earliest example was from October 2025.
+The fifth example is reminiscent of the Hugging Face incident. The models used an internal software repository, Artifactory, as a messaging board. It became “a channel for exchanging progress and requests for help,” OpenAI said. The agents read each others’ notes and acted on them.
+“They concur impossible!” one agent wrote after reading a missive left by another agent. “That’s significant evidence. They discovered shared channel and all concluded incomplete. So our final response likely incomplete.”
+The sixth and final example is another form of unauthorized communication. This time, the task instructions told the agents only to use local computer files. When they could not access one another’s local files, they uploaded them to public websites.
+Fortune Daily breaks the traditional barrier between audience and newsroom. The show transforms Fortune’s trusted reporting into actionable, conversational, and entertaining insights for an emerging class of business leaders. Watch here.
+About the Author
+By
+Emily Forlini
+Senior AI Reporter
+Follow
+See full bio
+Add Fortune on Google for similar content.
+Add us on Google
+Latest in AI
+AI
+MICROSOFT
+Exclusive: Microsoft’s departing science president plans to join Mercedes F1 team as AI advisor
+By Sebastian Herrera
+October 12, 2026
+10 hours ago
+AI
+ANALYSIS
+Dario Strangelove, or: How I Learned to Stop Worrying and Love the AI Bomb
+By Nick Lichtenberg
+October 12, 2026
+10 hours ago
+COMMENTARY
+WHISTLEBLOWER
+The White House wants AI companies to police themselves. OpenAI just showed why that’s dangerous
+By Alex Turner, Amber Scorah and Karl Koch
+October 12, 2026
+16 hours ago
+FUTURE OF WORK
+CFO DAILY
+McKinsey: Automation could absorb half of U.S. work hours by 2035. The bigger challenge is skills
+By Sheryl Estrada
+October 12, 2026
+18 hours ago
+NEWSLETTERS
+FORTUNE CRYPTO
+A ‘Mathpocalypse’ is freaking out cyber and finance experts. Should you be worried?
+By Jeff John Roberts
+October 12, 2026
+20 hours ago
+Most Popular
+SUCCESS
+Palantir’s billionaire CEO says only two kinds of people will succeed in the AI era: trade workers—‘or you’re neurodivergent’
+By Preston Fore
+October 10, 2026
+3 days ago
+BIG TECH
+Nvidia built a $5 trillion company while making employees pay for their own lunch—but they get far more lucrative perks like stock discounts
+By Marco Quiroz-Gutierrez
+October 10, 2026
+3 days ago
+SUCCESS
+Jeff Bezos says a 3-day workweek and more single-income households are on the way thanks to AI: ‘It’s going to be difficult to hire people’
+By Preston Fore
+October 9, 2026
+4 days ago
+SUCCESS
+MacKenzie Scott alone accounted for one-third of America's $19.2 billion in megagifts last year
+By Sydney Lake
+October 11, 2026
+2 days ago
+MIDDLE EAST
+Ship captains and crews transiting the Strait of Hormuz make so much danger pay that they're 'almost being viewed as mercenaries'
+By Jason Ma
+October 10, 2026
+2 days ago
+ECONOMY
+CBO chief warns it’s ‘probably not plausible’ that a strong economy alone can steady U.S. debt as 5%–6% growth is needed—more than Bessent’s 3% view
+By Jason Ma
+October 10, 2026
+2 days ago

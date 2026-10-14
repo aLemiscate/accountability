@@ -1,0 +1,21 @@
+{
+  "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+  "captured_at": "2026-10-03T12:01:21.289Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "5834ed047c300b6e449339a7c631ee9d6565f6961138bbd9172d3684b635a660",
+    "page.txt": "3dd4a3e4006321d735291cc6996c5e2925128473890efffa0b75ef184f6c0f97",
+    "screenshot.jpg": "81d988dade69ba3ada97b30369127604f3be41c2d425f10c1cd352dea14db2f7",
+    "rendered.txt": "06538a39c70b32b6f1e3157c2b1ba8e12f46ab342a98233370ddfae89cf20cf7"
+  },
+  "http_status": 200,
+  "final_url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+  "content_type": "text/html; charset=utf-8",
+  "title": "Introducing Claude 3.5 Sonnet \\ Anthropic",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20261003115600/https://www.anthropic.com/news/claude-3-5-sonnet",
+    "timestamp": "20261003115600",
+    "method": "spn"
+  }
+}

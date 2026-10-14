@@ -1,0 +1,39 @@
+English ; English
+English ; English
+Table of contents
+All Collections
+ChatGPT
+OpenAI o1-preview and o1-mini Usage Limits on ChatGPT and the API
+OpenAI o1-preview and o1-mini Usage Limits on ChatGPT and the API
+Understand OpenAI o1 model usage limits on your ChatGPT Plus and Team accounts and the API.
+Table of contents
+ChatGPT
+As we launch OpenAI o1-preview and o1-mini to millions of users, we'll be doing our best to stabilize our systems. We may lower or raise rate limits from our initial targets. Rate limits will be tight during the preview, but we intend to raise them over time. We'll also be hard at work making the models and general experience better over time.
+​
+Thanks for your patience and we hope you enjoy the preview!
+If you have a ChatGPT Plus or ChatGPT Team account, you can select o1-preview or o1-mini in the model selector at the top of the page.
+With a ChatGPT Plus or Team account, you have access to 50 messages a week with OpenAI o1-preview and 50 messages a day with OpenAI o1-mini to start.
+When you hit that limit, you'll see the following pop-up and no longer be able to select the model from the drop-down menu.
+You can check the date that your usage limits restarts at any time by highlighting the model name in the model picker drop-down. Your weekly usage limit resets every seven days after you send your first message. For example, if you start sending messages on September 12, your limit will reset on September 19 (00:00 UTC), regardless of when you reach the limit.
+You can verify that your response used o1-preview or o1-mini by checking at the top of the ChatGPT response.
+You can also verify the model used in a response at any time by highlighting the regenerate button under the response.
+Currently, there is no way to check how many messages you have used in your usage budget.
+Please note that o1-preview and o1-mini are preview models, and their usage limits described here may be subject to changes.
+API
+o1-preview and o1-mini are available to all API users on Paid usage tiers. View rate limits by tier in our platform documentation .
+​
+Learn more about your API usage tiers.
+Related Articles
+How can I access GPT-4, GPT-4 Turbo, GPT-4o, and GPT-4o mini?
+What is the ChatGPT Plus model selector?
+Model Release Notes
+Using OpenAI o1 models and GPT-4o models on ChatGPT
+OpenAI o1 models - FAQ [ChatGPT Enterprise and Edu]
+Did this answer your question?
+😞 😐 😃
+• ChatGPT
+• API
+• DALL·E
+• Service Status
+•
+•

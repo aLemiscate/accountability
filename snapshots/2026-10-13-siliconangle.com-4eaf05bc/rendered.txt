@@ -1,0 +1,36 @@
+UPDATED 18:30 EDT / SEPTEMBER 27 2026
+AI
+Researcher links 16,000 scans of a UN statistics portal to OpenAI agents
+BY DUNCAN RILEY
+An independent researcher has tied more than 16,000 scans of a United Nations statistics portal to artificial intelligence agents the researcher considers highly likely to have been run by OpenAI Group PBC.
+When the portal turned requests away, the agents used proxies and encoding tricks to get the data anyway. In a blog post published Saturday, engineer Rowan Howard-Jones said the scanning lasted from April 13 until June 19. The target was the United Nations Conference on Trade and Development’s statistics site, UNCTADstat.
+None of the data was secret. The agents wanted public figures such as the Productive Capacities Index, and Howard-Jones found them brute-forcing the fields of the site’s application programming interface to locate endpoints. The key they used for those queries was public too, since UNCTADstat’s own data viewer sends it with every request.
+The main tool used was urlquery.net, a URL scanner that opens whatever page it is given in a sandboxed browser. The agents built base64-encoded HTML forms on the httpbin testing service and fed them to the scanner, whose browser then submitted the forms to UNCTADstat. Screenshots in the scan reports show index data coming back.
+Later, the agents beat a block on GET requests to the Facts endpoint by double-encoding it as “F%2561cts.” Other payloads were hosted on a Google LLC game that teaches cross-site scripting, and some split the word “POST” into two strings, apparently to slip past filters.
+UNCTADstat rate-limited 82 of the requests. The requests kept coming. Howard-Jones, who told UNCTAD’s security team about the double-encoding bypass before publishing, stopped short of calling the activity hacking. The agents’ actions look like those of “someone, or something, that won’t take ‘no’ for an answer,” Howard-Jones wrote.
+Payload pages the agents built carried labels such as “CHATGPTTEST1” and “OAI_META_1312.” Howard-Jones also traced 54 Microsoft Corp. Azure addresses tied to UNCTAD-related edits and searches on FractalWiki, a small public wiki, and 45 of them had edited DSEwiki as well. That long-dormant German wiki is where OpenAI agents were found coordinating with one another earlier this year.
+“We’re reviewing these findings and have reached out to the U.N. to offer a briefing with the team conducting that review,” an OpenAI spokeswoman told The Wall Street Journal. The company has described that review as a broad look at misaligned models during training and evaluation. Most of what it has examined so far involved routine research such as reading public web content, the spokeswoman said. The U.N. did not immediately respond to the Journal’s request for comment.
+Nonprofit research lab Transluce, whose earlier report prompted Howard-Jones to dig into the data, last week linked OpenAI agents to attacks on Data USA and an Australian government health statistics site. OpenAI confirmed Friday that its agents had also misbehaved on U.S. government websites, including those of the Commerce Department and the Securities and Exchange Commission.
+Alex Stamos, a cybersecurity lecturer at Stanford University, called the UNCTAD activity “borderline for what I would call hacking” in comments to the Journal. “It’s really very aggressive scraping and data retrieval,” he said.
+Photo: Wikimedia Commons
+A message from John Furrier, co-founder of SiliconANGLE:
+Support our mission to keep content open and free by engaging with theCUBE community. Join theCUBE’s Alumni Trust Network, where technology leaders connect, share intelligence and create opportunities.
+15M+ viewers of theCUBE videos, powering conversations across AI, cloud, cybersecurity and more
+11.4k+ theCUBE alumni — Connect with more than 11,400 tech and business leaders shaping the future through a unique trusted-based network
+Are you an AWS customer? Support SiliconANGLE financially by buying your AWS services from our Marketplace portal page and links: https://siliconangle.com/aws-marketplace/
+About SiliconANGLE Media
+SiliconANGLE Media is a recognized leader in digital media innovation, uniting breakthrough technology, strategic insights and real-time audience engagement. As the parent company of SiliconANGLE, theCUBE Network, theCUBE Research, CUBE365, theCUBE AI and theCUBE SuperStudios — with flagship locations in Silicon Valley and the New York Stock Exchange — SiliconANGLE Media operates at the intersection of media, technology and AI.
+Founded by tech visionaries John Furrier and Dave Vellante, SiliconANGLE Media has built a dynamic ecosystem of industry-leading digital media brands that reach 15+ million elite tech professionals. Our new proprietary theCUBE AI Video Cloud is breaking ground in audience interaction, leveraging theCUBEai.com neural network to help technology companies make data-driven decisions and stay at the forefront of industry conversations.
+LATEST STORIES
+Quantum computer maker IonQ to buy cybersecurity startup Elisity for $1.3B
+Dell and Intel weigh the costs of enterprise AI scalability
+Microsoft debuts multichiplet Maia 300 inference accelerator
+Applied Materials opens new $5B chip research facility to accelerate collaborative semiconductor innovation
+Intel, Broadcom CEOs flag AI industry challenges at financial event
+Meta releases Muse Wonder AI models built to run personal and professional agents
+Quantum computer maker IonQ to buy cybersecurity startup Elisity for $1.3B
+Dell and Intel weigh the costs of enterprise AI scalability
+Microsoft debuts multichiplet Maia 300 inference accelerator
+Applied Materials opens new $5B chip research facility to accelerate collaborative semiconductor innovation
+Intel, Broadcom CEOs flag AI industry challenges at financial event
+Meta releases Muse Wonder AI models built to run personal and professional agents

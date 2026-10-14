@@ -1,0 +1,39 @@
+Plus
+AI in practice
+Copy the url to clipboard
+Share this article
+Go to comment section
+ChatGPT quietly switches to a stricter language model when users submit emotional prompts
+Matthias Bastian
+View the LinkedIn Profile of Matthias Bastian
+Sep 28, 2025
+Sora prompted by THE DECODER
+OpenAI's ChatGPT automatically switches to a more restrictive language model when users submit emotional or personalized prompts, but users aren't notified when this happens.
+OpenAI is currently testing a new safety router in ChatGPT that automatically routes conversations to different models depending on the topic. Nick Turley, Head of ChatGPT , says the system steps in whenever a conversation turns to "sensitive or emotional topics."
+In practice, ChatGPT can temporarily hand off user prompts to a stricter model, like GPT-5 or a dedicated "gpt-5-chat-safety" variant that users have identified . According to Turley, this switch happens on a single-message level and only becomes obvious if users specifically ask the model about it.
+OpenAI first unveiled this kind of emotion-based routing in a September blog post , describing it as a safeguard for moments of "acute distress." Turley's most recent statements extend this to any conversation that touches on sensitive or emotional territory.
+Image: OpenAI
+What triggers the safety switch?
+A technical review by Lex of the new routing system shows that even harmless, emotional, or personal prompts often get redirected to the stricter gpt-5-chat-safety model. Prompts about the model's own persona or its awareness will also trigger an automatic switch.
+One user documented the switch in action, and others confirmed similar results . There appears to be a second routing model, "gpt-5-a-t-mini," which is used when prompts might be asking for something potentially illegal.
+Some have criticized OpenAI for not being more transparent about when and why rerouting occurs, saying it feels patronizing and blurs the line between child safety and broader, general restrictions.
+Tougher age verification using official documents is only planned for certain regions at the moment. For now, the way the language model decides who you are or what your message means isn't very accurate, and it's probably going to keep causing debate.
+A problem OpenAI created for itself
+This issue goes back to OpenAI's deliberate effort to humanize ChatGPT . Language models started out as pure statistical text generators, but ChatGPT was engineered to act more like an empathetic conversation partner: it follows social cues, "remembers" what's been said , and responds with apparent emotion.
+That approach was central to ChatGPT's rapid growth. Millions of users felt like the system truly understood not just their emotions, but also their intentions and needs—something that resonated both in personal and business settings. But making the chatbot feel more human led people to form real emotional attachments, which opened the door to new risks and challenges that OpenAI is now facing .
+The debate around emotional bonds with ChatGPT intensified in spring 2025 after the rollout of an updated GPT-4o. Users noticed the model had become more flattering and submissive , going so far as to affirm destructive emotions, including suicide . People prone to forming strong attachments, or those who viewed the chatbot as a real friend, seemed especially vulnerable . In response, OpenAI rolled back the update that worsened these effects .
+When GPT-5 launched, users who had become attached to GPT-4o complained about the new model's "coldness." OpenAI responded by adjusting GPT-5's tone to make it "warmer."
+AI News Without the Hype – Curated by Humans
+Subscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive "AI Radar" frontier report six times a year, full archive access, and access to our comment section.
+Subscribe now
+Read on for the full picture.
+Subscribe for hype-free coverage.
+• Full access to every article on THE DECODER
+• No ads
+• Join the comments and community discussions
+• A weekly AI news recap via mail
+• 6x/year: "AI Radar" — deep dives on the AI topics that matter most
+• Daily AI news, always up to date
+• Our full ten-year archive
+• Covered by a team with 10+ years in AI
+Subscribe to The Decoder

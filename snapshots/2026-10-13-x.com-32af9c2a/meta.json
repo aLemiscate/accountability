@@ -1,0 +1,32 @@
+{
+  "url": "https://x.com/sama/status/2097385167002415140",
+  "captured_at": "2026-10-13T15:10:08.301Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "5df43a2dbe3f6da8d3dd4a4addf60be3342d449b650b0ab1fe33f905cf9781f1",
+    "page.txt": "30afe288d425ba7b032e5ee31c8fcf4b1dd9845ce31cd32590b99c609d669aa5",
+    "post.json": "0ebe3fe0881f10484ab8c57e599187c61c1917664337281f410268a71c09bbb5",
+    "syndication.json": "1fe46162b98d04b003dec6f6be716771cb144487cf51d44fe056f7d982fcda77",
+    "fulltext.json": "c4614f29b821035f23995fa2dee66d66a43b26d370580bdea11c5f2de9b31f9b",
+    "quoted-media-1.jpg": "2790316229513288c90cc50019c2bb238c06d9f384379dfafafe9d576e947535",
+    "post.txt": "0be180a67893b6c709432f1e24260faca72be062c69d9636b4d15f9f14063190"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/2097385167002415140",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"I spent much of the weekend talking with the team who did this work. Seb--and everyone else--acted with integrity and generosity throughout. Initially we believed the other team had also solved the problem. We wanted to collaborate and do a joint release. When we learned that t… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "September 8, 2026",
+    "posted_at": "2026-09-08T18:02:46.002Z",
+    "full_text_from": "api.fxtwitter.com",
+    "media": [
+      {
+        "file": "quoted-media-1.jpg",
+        "url": "https://pbs.twimg.com/media/HRtjEaTbcAA0uQ6.jpg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/OpenAI/status/1124440412679233536",
+  "captured_at": "2026-10-03T12:53:45.073Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "5e1d0e80f2dbad594ea1435351bc2e6a9de1da4a667da2755f485cbdce965b9e",
+    "page.txt": "29ce95f0138c18def6d9a2318ceb98fe04c4498829a521976308aac05321b257",
+    "post.json": "f642ced1203fa71381dfd50e4c30abf9d0ebe80207cba6e55506babe0d2d5e01",
+    "syndication.json": "29f5e8f144a5174bdae52d7225df882c407f9c4a423ce5777a67255745920abd",
+    "post.txt": "2b521d4cbf8fd64a5b602b9f78f158cdcf9aaea04a3bc7c92c0afe1e1fd33301"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/1124440412679233536",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"Two mechanisms for publishing GPT-2 (and hopefully future powerful models): staged release and partnership-based sharing. We're: 1. Releasing the 345M model 2. Sharing the 1.5B model with partners working on countermeasures (please apply!) https://t.co/5SKNyaARAt\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "May 3, 2019",
+    "posted_at": "2019-05-03T22:27:40.132Z"
+  },
+  "rendered_status": 403,
+  "archive": null
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://x.com/karpathy/status/2064409694761054332",
+  "captured_at": "2026-10-13T15:09:00.284Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "d699fedbcf03aa95d2172b5bfef0baf28099867c1fdb016f4b6ec5a411b41c1c",
+    "page.txt": "9c7343b1f46f55c71e7b5a211c00a6b8fd2691d5d844ab094a431b2d20ac798f",
+    "post.json": "2cf49e987baa5892dd5fbd452bfacb4c7f822fbf2f7cd0319f4b29705c3eb91e",
+    "syndication.json": "c9602aa0811f154ae3033b97a2f51121d1f4d63315cb4889063fe7e595fbac8f",
+    "fulltext.json": "4ddb9f90952fc693404bf93b24e71fa4e7d62c451830c59c53355dc608f83ba0",
+    "quoted-media-1.png": "8be6ad45c9439de377739f184b5fcd6fca720e916ef8e4cb615233a66aaedf5e",
+    "post.txt": "57ab3976b2acd5578c2fa1ce2355d51a816afc2741c23cc2547ceec19608578a"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/karpathy/status/2064409694761054332",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Andrej Karpathy on X: \"This is a super exciting release - Claude Fable 5 is the same underlying model as Mythos but with added safeguards. The benchmarks are great and it's SOTA on everything by a margin but I'll add that *qualitatively* also, this is a major-version-bump-deserving step change forw… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Andrej Karpathy (@karpathy)",
+    "date": "June 9, 2026",
+    "posted_at": "2026-06-09T18:10:00.765Z",
+    "full_text_from": "api.fxtwitter.com",
+    "media": [
+      {
+        "file": "quoted-media-1.png",
+        "url": "https://pbs.twimg.com/media/HKYwNlEWMAAJanX.png"
+      }
+    ]
+  }
+}

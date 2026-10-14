@@ -1,0 +1,182 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 1292,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2025-11-01T03:41:11.000Z",
+  "display_text_range": [
+    0,
+    240
+  ],
+  "entities": {
+    "urls": [
+      {
+        "display_url": "docs.google.com/document/d/1fD…",
+        "expanded_url": "https://docs.google.com/document/d/1fDJc1e0itJdh0MXMFJtkRiBcxGEFtye6Xc6Ui7eMX4o/edit?usp=sharing",
+        "indices": [
+          217,
+          240
+        ],
+        "url": "https://t.co/lJTCAeFHVQ"
+      }
+    ]
+  },
+  "id_str": "1984465716888944712",
+  "text": "We promised unprecedented transparency for Codex and to take the reports of degradation seriously, despite seeing incredible growth week over week. \n\nHere is our report and what we have found over the last seven days\nhttps://t.co/lJTCAeFHVQ",
+  "user": {
+    "id_str": "1953337039510003712",
+    "name": "Tibo",
+    "screen_name": "thsottiaux",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1984465716888944712"
+    ],
+    "editable_until_msecs": "1761972071000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 115,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 480,
+    "lang": "en",
+    "reply_count": 85,
+    "retweet_count": 10,
+    "created_at": "2025-10-31T20:06:06.000Z",
+    "display_text_range": [
+      0,
+      207
+    ],
+    "entities": {},
+    "id_str": "1984351191527276631",
+    "text": "We have concluded our initial investigation into increased reports of degradation for Codex and we will share it out by end of day. \n\nWhat is your bet on what we'll include in there and some of the findings?",
+    "user": {
+      "id_str": "1953337039510003712",
+      "name": "Tibo",
+      "screen_name": "thsottiaux",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1984351191527276631"
+      ],
+      "editable_until_msecs": "1761944766000",
+      "edits_remaining": "5",
+      "is_edit_eligible": true
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "card": {
+    "card_platform": {
+      "platform": {
+        "audience": {
+          "name": "production"
+        },
+        "device": {
+          "name": "iPhone",
+          "version": "13"
+        }
+      }
+    },
+    "name": "summary",
+    "url": "https://t.co/lJTCAeFHVQ",
+    "binding_values": {
+      "thumbnail_image": {
+        "image_value": {
+          "height": 144,
+          "url": "https://pbs.twimg.com/card_img/2106257481861349376/zBiTC6yR?format=jpg&name=144x144_2",
+          "width": 144
+        },
+        "type": "IMAGE"
+      },
+      "description": {
+        "string_value": "Ghosts in the Codex Machine Tibo & the Codex Team We have not found a conclusive large issue that would explain a consistent degradation of Codex over time. Instead we believe there is a combination...",
+        "type": "STRING"
+      },
+      "domain": {
+        "string_value": "docs.google.com",
+        "type": "STRING"
+      },
+      "thumbnail_image_large": {
+        "image_value": {
+          "height": 420,
+          "url": "https://pbs.twimg.com/card_img/2106257481861349376/zBiTC6yR?format=jpg&name=420x420_2",
+          "width": 420
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_original": {
+        "image_value": {
+          "height": 630,
+          "url": "https://pbs.twimg.com/card_img/2106257481861349376/zBiTC6yR?format=jpg&name=orig",
+          "width": 1200
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_small": {
+        "image_value": {
+          "height": 100,
+          "url": "https://pbs.twimg.com/card_img/2106257481861349376/zBiTC6yR?format=jpg&name=100x100_2",
+          "width": 100
+        },
+        "type": "IMAGE"
+      },
+      "thumbnail_image_x_large": {
+        "image_value": {
+          "height": 630,
+          "url": "https://pbs.twimg.com/card_img/2106257481861349376/zBiTC6yR?format=png&name=2048x2048_2_exp",
+          "width": 1200
+        },
+        "type": "IMAGE"
+      },
+      "vanity_url": {
+        "scribe_key": "vanity_url",
+        "string_value": "docs.google.com",
+        "type": "STRING"
+      },
+      "thumbnail_image_color": {
+        "image_color_value": {
+          "palette": [
+            {
+              "percentage": 99.62,
+              "rgb": {
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              }
+            },
+            {
+              "percentage": 0.35,
+              "rgb": {
+                "blue": 144,
+                "green": 144,
+                "red": 144
+              }
+            }
+          ]
+        },
+        "type": "IMAGE_COLOR"
+      },
+      "title": {
+        "string_value": "Ghosts in the Codex Machine",
+        "type": "STRING"
+      },
+      "card_url": {
+        "scribe_key": "card_url",
+        "string_value": "https://t.co/lJTCAeFHVQ",
+        "type": "STRING"
+      }
+    }
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

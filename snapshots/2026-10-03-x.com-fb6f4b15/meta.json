@@ -1,0 +1,36 @@
+{
+  "url": "https://x.com/hlntnr/status/1766269137628590185",
+  "captured_at": "2026-10-03T13:29:56.757Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "942f77dfe6db0247282097f0a13acccd17a70ff4dc8829157828b1ef18f5d402",
+    "page.txt": "5f38da47bafaa9a338737b66bc8b03e2e5eccf9f27c92eb54f795320b3109d49",
+    "post.json": "43e73a93bff8a5450cbb77c1b0b116c4528f9f427abbeb6cadceacd5ac2ed984",
+    "syndication.json": "b4bd9380ddf9827f0d96117db989e15301dbc8ec8e4cc4a6c115f02013b89f77",
+    "media-1.png": "02a578bb13b84cea401c97c8dde26a7931fc5520668c5eab5c7f59f8d1c87312",
+    "post.txt": "97dbd391707a145e23bf0b918516bd0094eb848430cfd13777c222964ee2bfed"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/hlntnr/status/1766269137628590185",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Helen Toner on X: \"A statement from Helen Toner and Tasha McCauley:\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Helen Toner (@hlntnr)",
+    "date": "March 9, 2024",
+    "posted_at": "2024-03-09T01:05:52.761Z",
+    "media": [
+      {
+        "file": "media-1.png",
+        "url": "https://pbs.twimg.com/media/GIMKPVYXgAAhgO4.png"
+      }
+    ]
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20240712130324/https://x.com/hlntnr/status/1766269137628590185",
+    "timestamp": "20240712130324",
+    "method": "existing"
+  }
+}

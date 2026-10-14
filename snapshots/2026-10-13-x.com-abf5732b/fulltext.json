@@ -1,0 +1,64 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/bcherny/status/2043163965648515234",
+    "id": "2043163965648515234",
+    "text": "This is false. We defaulted to medium as a result of user feedback about Claude using too many tokens. When we made the change, we (1) included it in the changelog and (2) showed a dialog when you opened Claude Code so you could choose to opt out. Literally nothing sneaky about it — this was us addressing user feedback in an obvious and explicit way.",
+    "raw_text": {
+      "text": "This is false. We defaulted to medium as a result of user feedback about Claude using too many tokens. When we made the change, we (1) included it in the changelog and (2) showed a dialog when you opened Claude Code so you could choose to opt out. Literally nothing sneaky about it — this was us addressing user feedback in an obvious and explicit way.",
+      "display_text_range": [
+        0,
+        352
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "bcherny",
+      "url": "https://x.com/bcherny",
+      "id": "159337660",
+      "followers": 601689,
+      "following": 134,
+      "likes": 4296,
+      "media_count": 123,
+      "name": "Boris Cherny",
+      "description": "Claude @anthropicai",
+      "raw_description": {
+        "text": "Claude @anthropicai",
+        "facets": []
+      },
+      "location": "San Francisco",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1902044548936953856/J2jeik0t_200x200.jpg",
+      "joined": "Fri Jun 25 03:08:49 +0000 2010",
+      "protected": false,
+      "website": {
+        "url": "https://borischerny.com",
+        "display_url": "borischerny.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 269,
+    "retweets": 72,
+    "likes": 2409,
+    "bookmarks": 317,
+    "quotes": 56,
+    "created_at": "Sun Apr 12 03:07:04 +0000 2026",
+    "created_timestamp": 1775963224,
+    "views": 265077,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": "tengyanAI",
+    "replying_to_status": "2043138374794666490",
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

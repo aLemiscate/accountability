@@ -1,0 +1,32 @@
+{
+  "url": "https://x.com/polynoamial/status/2021266471406666231",
+  "captured_at": "2026-10-13T15:10:00.849Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "42d0995d3c995362ecc87b20c15cb1b1e08291383f3faf0ed5b9ccf67442fc86",
+    "page.txt": "130ce54b371f4d7198aeeb96880e8875d38a0cce3edb47213367cd1457b25c8b",
+    "post.json": "0a9c224a555cb85b91dd5b24fce1e2c1676f4e221baf19267f3aae93a84125f4",
+    "syndication.json": "cb622f00143fc4555125b7409834a63d899478c76327d64017589bf5e0dc26aa",
+    "fulltext.json": "83d40d24b74fa2eb8d6f440d606ac19cd6ec964b5bc1f162f09027bf838a6b88",
+    "media-1.jpg": "72e1fa6f3d3b4cb5ccc9588ebd1c61ca4a7f49876b29d2eb6b8ace1113be0a81",
+    "post.txt": "55e45729d90edc57bcebbedc5df17da9b23917cda7ab4cff61993f5743bb644b"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/polynoamial/status/2021266471406666231",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Noam Brown on X: \"I appreciate @Anthropic's honesty in their latest system card, but the content of it does not give me confidence that the company will act responsibly with deployment of advanced AI models: -They primarily relied on an internal survey to determine whether Opus 4.6 crossed their a… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Noam Brown (@polynoamial)",
+    "date": "February 10, 2026",
+    "posted_at": "2026-02-10T16:54:14.755Z",
+    "full_text_from": "api.fxtwitter.com",
+    "media": [
+      {
+        "file": "media-1.jpg",
+        "url": "https://pbs.twimg.com/media/HAz6KYLaAAIsdQj.jpg"
+      }
+    ]
+  }
+}

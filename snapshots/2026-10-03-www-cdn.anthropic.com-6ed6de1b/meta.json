@@ -1,0 +1,22 @@
+{
+  "url": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf",
+  "captured_at": "2026-10-03T12:40:14.604Z",
+  "tool": "said-did capture",
+  "files": {
+    "document.txt": "52e0edf870da1eca5a6d707bab2fa01b88d4263946b687618dd5d30a0350e184"
+  },
+  "http_status": 200,
+  "final_url": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf",
+  "content_type": "application/pdf",
+  "omitted": {
+    "file": "document.pdf",
+    "bytes": 16397488,
+    "sha256": "b0d59edc7a60eef32a879c13d713cce60c3fefd7e6b5183afdc8b835af3c8c39",
+    "reason": "larger than the size limit; text kept"
+  },
+  "archive": {
+    "url": "https://web.archive.org/web/20261002133947/https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf",
+    "timestamp": "20261002133947",
+    "method": "existing"
+  }
+}

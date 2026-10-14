@@ -1,0 +1,43 @@
+As the ChatGPT and Whisper APIs launch this morning, OpenAI is changing the terms of its API developer policy, aiming to address developer — and user — criticism.
+Starting today, OpenAI says that it won’t use any data submitted through its API for “service improvements,” including AI model training, unless a customer or organization opts in. In addition, the company is implementing a 30-day data retention policy for API users with options for stricter retention “depending on user needs,” and simplifying its terms and data ownership to make it clear that users own the input and output of the models.
+Greg Brockman, the president and chairman of OpenAI, asserts that some of these changes aren’t changes necessarily — it’s always been the case that OpenAI API users own input and output data, whether text, images or otherwise. But the emerging legal challenges around generative AI and customer feedback prompted a rewriting of the terms of service, he says.
+“One of our biggest focuses has been figuring out, how do we become super friendly to developers?” Brockman told TechCrunch in a video interview. “Our mission is to really build a platform that others are able to build businesses on top of.”
+Developers have long taken issue with OpenAI’s (now-deprecated) data processing policy, which they claim posed a privacy risk and allowed the company to profit off of their data. In one of its own help desk articles , OpenAI advises against sharing sensitive information in conversations with ChatGPT because it’s “not able to delete specific prompts from [users’ histories].”
+In allowing customers to decline to submit their data for training purposes and offering increased data retention options, OpenAI’s trying to broaden its platform’s appeal, clearly. It’s also seeking to massively scale.
+To that last point, in another policy change, OpenAI says that it’ll remove its current pre-launch review process for developers in favor of a largely automated system. Via email, a spokesperson said that the company felt comfortable moving to the system because “the overwhelming majority of apps were approved during the vetting process” and because the company’s monitoring capabilities have “significantly improved” since this time last year.
+“What’s changed is that we’ve moved from a form-based upfront vetting system, where developers wait in a queue to be approved on their app idea in concept, to a post-hoc detection system where we identify and investigate problematic apps by monitoring their traffic and investigating as warranted,” the spokesperson said.
+An automated system lightens the load on OpenAI’s review staff. But it also — at least in theory — allows the company to approve developers and apps for its APIs in higher volume. OpenAI is under increasing pressure to turn a profit after a multibillion-dollar investment from Microsoft. The company reportedly expects to make $200 million in 2023, a pittance compared to the more than $1 billion that’s been put toward the startup so far.
+Topics
+AI , AI , api , Apps , Artificial Intelligence (AI) , Dev , developer , Enterprise , machine learning , OpenAI , OpenAI API
+When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.
+Kyle Wiggers
+AI Editor
+Kyle Wiggers was TechCrunch’s AI Editor until June 2025. His writing has appeared in VentureBeat and Digital Trends, as well as a range of gadget blogs including Android Police, Android Authority, Droid-Life, and XDA-Developers. He lives in Manhattan with his partner, a music therapist.
+View Bio
+October 13 – 15
+San Francisco
+Get 50% off a second pass
+The Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by making connections, building momentum, and discovering what’s next in the startup ecosystem.
+BOOK NOW
+Most Popular
+•
+Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground
+• Tim Fernholz
+•
+World’s first enhanced geothermal power plant completed in just 23 months
+• Tim De Chant
+•
+Google releases Gemini 4 Argon, called its most powerful model yet
+• Lucas Ropek
+•
+The Pentagon taps Elon Musk and Palmer Luckey to help decide what the military should do next
+• Dominic-Madori Davis
+•
+OpenAI launches Dots, its bubbly agentic avatar
+• Lucas Ropek
+•
+AMD will acquire Fei-Fei Li’s World Labs for $8.2B
+• Tim Fernholz
+•
+Viral AI agent Instinct raises $1B Series C at a $10B valuation
+• Sarah Perez

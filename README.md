@@ -1,7 +1,11 @@
 # Said / Did
 
 A living, sourced record of what OpenAI and Anthropic, and the people who lead
-them, have said about ethics and safety, set against what they did next.
+them, have claimed and promised, set against what they did next. That covers
+safety, ethics and military use, and also the products: capability and
+benchmark claims, promised features and release dates, usage limits and plan
+terms, and promises about how the products behave. Kept promises are recorded
+too.
 
 Each entry is either something **said** (a principle, commitment, claim or
 denial) or something **done** (an action, reversal, policy rewrite, disclosure
@@ -15,7 +19,7 @@ The site has five views:
 
 - **Receipts**: statement → contradicting action, with the elapsed time, plus before/after diffs of rewritten policies.
 - **Timeline**: everything, in date order.
-- **Patterns**: a pattern-by-year recurrence chart, with each pattern's tells and what to watch for next.
+- **Patterns**: a pattern-by-year recurrence chart, with each pattern's tells, what to watch for next, and, where the behavior is industry-wide, one sourced sentence on another company doing the same.
 - **Watchlist**: promises still in force, each with a written "counts as broken if" test and a running age.
 - **Method**: the standards the record follows.
 
@@ -56,6 +60,7 @@ Entries are plain YAML, one file per event. The fields:
 | `status` | said | `open`, `kept`, `broken`, `reversed`, `eroded`, `contradicted` |
 | `concreteness` | said | `measurable`, `conditional`, `directional`, `aspirational` |
 | `breaks_if` | said | For open promises: what outcome would count as breaking it |
+| `outcome` | said | For a failed statement with no "did" entry that contradicts it: `date` and `text` saying what happened, shown as a receipt |
 | `contradicts` | did | Ids of the earlier statements this action contradicts |
 | `revision` | did | `before` / `after` text for a rewritten policy |
 | `related`, `patterns` | all | Other entry ids; pattern ids from `data/patterns.yaml` |
@@ -78,9 +83,9 @@ npm run capture -- https://x.com/janleike/status/1791498184671605209 --entry 202
 
 This saves `snapshots/<date>-<site>-<hash>/` containing:
 
-- `page.html` and `page.txt`: the raw page and its readable text
+- `page.html` and `page.txt`: the raw page and its readable text. A bot check ("Are we human?", "Client Challenge") or a page with almost no text is not saved, so a blocked source stays visibly unsnapped instead of looking captured
 - `screenshot.jpg` and `rendered.txt`: a full-page screenshot and rendered text (needs `npx playwright install chromium`)
-- `post.txt` and `post.json`: for X and Bluesky links, the post text from the public embed APIs, which work without logging in. For X, `syndication.json` adds the full text of long posts and the text of any quoted post, and attached photos are saved as `media-1.jpg`, `quoted-media-1.jpg` and so on, because some statements (a signed letter, a memo screenshot) exist only as an image
+- `post.txt` and `post.json`: for X and Bluesky links, the post text from the public embed APIs, which work without logging in. For X, `syndication.json` adds the text of any quoted post, and attached photos are saved as `media-1.jpg`, `quoted-media-1.jpg` and so on, because some statements (a signed letter, a memo screenshot) exist only as an image. X's embed endpoints stop at the first 280 characters of a long post, so its full text comes from FxTwitter's public API (no key) and is kept in `fulltext.json`; if that fails, `meta.json` marks the post `truncated`
 - `document.pdf` and `document.txt`: for PDFs, the file and its text (the text needs `pdftotext` from poppler-utils). Files over 10 MB are not stored; `meta.json` keeps their size and SHA-256 under `omitted`, so a copy fetched later can still be checked
 - `meta.json`: HTTP status, capture time, SHA-256 hashes of every file, and for posts the exact time of posting (read from the X post id)
 - `transcript.txt` (added by hand, not by the capture tool): a transcription of text that exists only in an attached image, so quotes from it can be checked. It opens with a line saying which image it came from, and `meta.json` lists it under `derived`, apart from the captured files
@@ -218,7 +223,7 @@ or allow at least these hosts:
 | Purpose | Hosts |
 | --- | --- |
 | Archiving and deleted-post search | `web.archive.org`, `archive.org` |
-| X posts | `x.com`, `twitter.com`, `publish.twitter.com`, `api.x.com` |
+| X posts | `x.com`, `twitter.com`, `publish.twitter.com`, `cdn.syndication.twimg.com`, `api.fxtwitter.com`, `api.x.com` |
 | Bluesky | `bsky.app`, `public.api.bsky.app`, `api.bsky.app`, `bsky.social` |
 | Company pages | `openai.com`, `cdn.openai.com`, `model-spec.openai.com`, `darioamodei.com` |
 | Reporting cited in the record | the news sites in `reports/source-health.md` |
@@ -236,7 +241,7 @@ the Capture and Watch workflows on GitHub's runners for those sources.
 data/
   entries/openai/*.yaml      one file per event
   entries/anthropic/*.yaml
-  patterns.yaml              recurring patterns: thesis, tells, what to watch for
+  patterns.yaml              recurring patterns: thesis, tells, what to watch for, industry context
   actors.yaml                who is in scope, and why
   watch.yaml                 pages the watcher re-reads
   accounts.yaml              X / Bluesky accounts that find-posts reads

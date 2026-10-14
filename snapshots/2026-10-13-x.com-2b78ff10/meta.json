@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/sama/status/1953893841381273969",
+  "captured_at": "2026-10-13T15:09:54.829Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "a3a35376aca5e5ac33250d298720aee5ec7d8ee5e7cb899f1c887cd7e4033e93",
+    "page.txt": "d481bff49494ef4403849934a1deb58a046d68a5f289f0e5b2e7323c43cbc067",
+    "post.json": "f51531bada7783e339ed101f337b1a0ce6fcccabb8fff45660161cc8a4761447",
+    "syndication.json": "9648b9d5be314acb577cc46055d41edabea7bd44b60c1bcc65a7c7054860bad0",
+    "fulltext.json": "f86435e8152687c6e1b1d5372b1a16f5094bb55213afe1a38c3c0fa214190623",
+    "post.txt": "0c3e0cc1ec1b383b0d9edc780ac0297176770c9729e5536a1203097ec6d688dc"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/sama/status/1953893841381273969",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Sam Altman on X: \"GPT-5 rollout updates: *We are going to double GPT-5 rate limits for ChatGPT Plus users as we finish rollout. *We will let Plus users choose to continue to use 4o. We will watch usage as we think about how long to offer legacy models for. *GPT-5 will seem smarter starting today… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Sam Altman (@sama)",
+    "date": "August 8, 2025",
+    "posted_at": "2025-08-08T18:59:28.034Z",
+    "full_text_from": "api.fxtwitter.com"
+  }
+}

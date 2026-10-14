@@ -1,0 +1,257 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 203,
+  "in_reply_to_screen_name": "deredleritt3r",
+  "in_reply_to_status_id_str": "2030419946669228456",
+  "in_reply_to_user_id_str": "1744055410108080128",
+  "lang": "en",
+  "created_at": "2026-03-07T23:09:44.000Z",
+  "display_text_range": [
+    15,
+    292
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "1744055410108080128",
+        "indices": [
+          0,
+          14
+        ],
+        "name": "prinz",
+        "screen_name": "deredleritt3r"
+      }
+    ]
+  },
+  "id_str": "2030420665569092091",
+  "text": "@deredleritt3r Just to operationalize this, using the MOLG definition:\n\n\"Smarter than a nobel prize winner\" - huge error bars? 20%?***\nHas same interfaces as a human working virtually - 100%; this is true today given plugins/composite systems.\nTasks that takes hours/days/weeks - 80%, if METR",
+  "user": {
+    "id_str": "86351835",
+    "name": "Jack Clark",
+    "screen_name": "jackclarkSF",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/726446881547517952/ULhSTKxN_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2030420665569092091"
+    ],
+    "editable_until_msecs": "1772928584000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 10,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 341,
+    "lang": "en",
+    "reply_count": 6,
+    "retweet_count": 12,
+    "created_at": "2026-03-07T23:06:53.000Z",
+    "display_text_range": [
+      0,
+      111
+    ],
+    "entities": {},
+    "id_str": "2030419946669228456",
+    "text": "Jack Clark continues to believe that \"powerful AI\" is achievable *this year* and \"running many copies\" in 2027.",
+    "user": {
+      "id_str": "1744055410108080128",
+      "name": "prinz",
+      "screen_name": "deredleritt3r",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1874359541720092672/ciOMFG2x_normal.jpg"
+    },
+    "edit_control": {
+      "initial_tweet_id": "2030419270773903736",
+      "edit_tweet_ids": [
+        "2030419270773903736",
+        "2030419946669228456"
+      ],
+      "editable_until_msecs": "1772928252000",
+      "edits_remaining": "4",
+      "is_edit_eligible": true
+    },
+    "quoted_tweet": {
+      "__typename": "Tweet",
+      "favorite_count": 317,
+      "in_reply_to_screen_name": "ChrisGPT",
+      "in_reply_to_status_id_str": "2030416438935052556",
+      "in_reply_to_user_id_str": "1613004034096381952",
+      "lang": "und",
+      "possibly_sensitive": false,
+      "reply_count": 13,
+      "retweet_count": 14,
+      "created_at": "2026-03-07T22:56:23.000Z",
+      "display_text_range": [
+        10,
+        13
+      ],
+      "entities": {
+        "media": [
+          {
+            "display_url": "pic.x.com/JMAT2YUnnE",
+            "expanded_url": "https://x.com/jackclarkSF/status/2030417306288066780/photo/1",
+            "indices": [
+              14,
+              37
+            ],
+            "url": "https://t.co/JMAT2YUnnE"
+          }
+        ],
+        "user_mentions": [
+          {
+            "id_str": "1613004034096381952",
+            "indices": [
+              0,
+              9
+            ],
+            "name": "",
+            "screen_name": "chrisgpt"
+          }
+        ]
+      },
+      "id_str": "2030417306288066780",
+      "text": "@chrisgpt yes https://t.co/JMAT2YUnnE",
+      "user": {
+        "id_str": "86351835",
+        "name": "Jack Clark",
+        "screen_name": "jackclarkSF",
+        "is_blue_verified": true,
+        "profile_image_shape": "Circle",
+        "verified": false,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/726446881547517952/ULhSTKxN_normal.jpg"
+      },
+      "mediaDetails": [
+        {
+          "display_url": "pic.x.com/JMAT2YUnnE",
+          "expanded_url": "https://x.com/jackclarkSF/status/2030417306288066780/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "indices": [
+            14,
+            37
+          ],
+          "media_url_https": "https://pbs.twimg.com/media/HC19xkobAAA1hk6.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 765,
+                "w": 1366,
+                "x": 0,
+                "y": 198
+              },
+              {
+                "h": 988,
+                "w": 988,
+                "x": 378,
+                "y": 0
+              },
+              {
+                "h": 988,
+                "w": 867,
+                "x": 499,
+                "y": 0
+              },
+              {
+                "h": 988,
+                "w": 494,
+                "x": 872,
+                "y": 0
+              },
+              {
+                "h": 988,
+                "w": 1366,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 988,
+            "width": 1366
+          },
+          "sizes": {
+            "large": {
+              "h": 988,
+              "resize": "fit",
+              "w": 1366
+            },
+            "medium": {
+              "h": 868,
+              "resize": "fit",
+              "w": 1200
+            },
+            "small": {
+              "h": 492,
+              "resize": "fit",
+              "w": 680
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/JMAT2YUnnE"
+        }
+      ],
+      "photos": [
+        {
+          "backgroundColor": {
+            "red": 204,
+            "green": 214,
+            "blue": 221
+          },
+          "cropCandidates": [
+            {
+              "h": 765,
+              "w": 1366,
+              "x": 0,
+              "y": 198
+            },
+            {
+              "h": 988,
+              "w": 988,
+              "x": 378,
+              "y": 0
+            },
+            {
+              "h": 988,
+              "w": 867,
+              "x": 499,
+              "y": 0
+            },
+            {
+              "h": 988,
+              "w": 494,
+              "x": 872,
+              "y": 0
+            },
+            {
+              "h": 988,
+              "w": 1366,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "expandedUrl": "https://x.com/jackclarkSF/status/2030417306288066780/photo/1",
+          "url": "https://pbs.twimg.com/media/HC19xkobAAA1hk6.jpg",
+          "width": 1366,
+          "height": 988
+        }
+      ]
+    },
+    "isEdited": true,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDMwNDIwNjY1MzYzNDY4Mjg4"
+  }
+}

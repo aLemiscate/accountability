@@ -1,0 +1,21 @@
+{
+  "url": "https://www.anthropic.com/legal/aup",
+  "captured_at": "2026-10-13T05:49:47.623Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "5098cd0deedd6fb91581ac90f61097273a637f2323fd27c43198d4d660c65fb2",
+    "page.txt": "33b26e6f2923ea78dd2437475080c6ad906d99f5d8f0a76a0776c6d6d7ddcb21",
+    "screenshot.jpg": "dc7ec9edb8c3a3ab16f673d5c0a71608cb0313b8674b9ac3cb6bcf384fc833f7",
+    "rendered.txt": "c4005b8d918290db58a4eb2a484edb99c5ccde7067ab668ff81b527d81bd150c"
+  },
+  "http_status": 200,
+  "final_url": "https://www.anthropic.com/legal/aup",
+  "content_type": "text/html; charset=utf-8",
+  "title": "Usage Policy \\ Anthropic",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20261012125535/https://www.anthropic.com/legal/aup",
+    "timestamp": "20261012125535",
+    "method": "existing"
+  }
+}

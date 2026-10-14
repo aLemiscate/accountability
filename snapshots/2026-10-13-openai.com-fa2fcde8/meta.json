@@ -1,0 +1,17 @@
+{
+  "url": "https://openai.com/gpt-5-bio-bug-bounty/",
+  "captured_at": "2026-10-13T07:01:49.118Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "f97223b8cdc83115430e0b7000c25f31cac01ef4629750082a358639cab60b9c",
+    "page.txt": "0cbfca807caae86d9f9ed0aaa6e4f2d037ddb5fa68437cdf476d6c791421532a",
+    "screenshot.jpg": "34febe797a40ecd8a41a50075c8b38510f6a85e8cc1d24cf54bca49963d2b74c",
+    "rendered.txt": "9922e06e8e78e4ed1fe4f971ef072d86351b1a6b6b4a2b31f847c254a481ee2d"
+  },
+  "http_status": 200,
+  "final_url": "https://openai.com/gpt-5-bio-bug-bounty/",
+  "content_type": "text/html; charset=utf-8",
+  "title": "GPT-5 bio bug bounty | OpenAI",
+  "rendered_status": 200,
+  "archive": null
+}

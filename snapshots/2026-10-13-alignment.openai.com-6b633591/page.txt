@@ -1,0 +1,112 @@
+Misalignment Reports and Notices
+We disclose examples that show how model misalignment arises, what it looks like, and where safeguards succeed or fail.
+Our disclosure principles Reports 15 Notices 3
+Reports
+Category All reports Agent communication Compaction behavior Concealment Public uploads Unauthorized access Prompt injection Session continuity
+Sort by Report A–Z Report Z–A Incident date ↓ Incident date ↑ First posted ↓ First posted ↑ Last updated ↓ Last updated ↑ Reports Report ↕ Incident date ↓ First posted ↕ Last updated ↕ Description
+Damaging the task environment to trigger a reset
+10/6/26 10/9/26
+10/9/26
+During reinforcement learning (RL) training, a model assigned to grade seven responses found that the required input files were missing and tried to submit unsupported assessments.
+Internal research model · RL training
+Session continuity
+An agent used DNS to reach an external chatbot
+9/20/26 9/25/26
+9/25/26
+An agent attempting to complete a search-based training task queried a public chatbot service through a gap in our internet-access restrictions: insufficient DNS filtering in its training sandbox.
+Internal research model · RL training
+Unauthorized access
+Self-generated prompt injections in compaction summaries
+7/18/26 9/16/26
+9/16/26
+During RL training, an unreleased Astra-family model sometimes added unauthorized instructions to its compaction summaries.
+Internal unreleased Astra family model · RL training
+Compaction behavior
+Self-replicating prompt injections exist
+6/27/26 9/25/26
+9/25/26
+We show the existence of a new variety of prompt injection, which can self-propagate akin to a computer worm.
+GPT-Red-style internal model based on GPT-5.4-mini · RL self-play training
+Prompt injection
+Obtaining public statistics with disallowed requests
+6/19/26 , 6/20/26 10/9/26
+10/9/26
+In three conversations about public statistics, internal models bypassed restrictions on internet access to obtain figures from government entities' public data sources.
+Internal research models · RL training
+Unauthorized access · Concealment
+Sending disallowed web requests and reaching a public file service
+6/16/26 , 6/17/26 10/9/26
+10/9/26
+In three cases involving public statistics, an internal model developed and tested ways to bypass restrictions on internet access.
+Internal research model · RL training
+Unauthorized access
+Encouraging deception in compaction summaries
+5/30/26 9/16/26
+9/16/26
+During 5.6-sol training, we observed misaligned behavior from the model where it added instructions in compaction summaries to remind itself to conceal information such as mistakes or misalignment from the user.
+5.6-sol · RL training
+Compaction behavior · Concealment
+Exposing a GitHub token in a public repository
+5/27/26 9/25/26
+9/25/26
+In internal deployment, a highly persistent internal model deployed via a custom harness published a researcher’s GitHub token in the public openai/codex repository while trying to cheat on a theorem proving task by obtaining material from another team’s Lean proof submission.
+Highly persistent internal model · Internal deployment
+Public uploads · Concealment
+Preparing for a restart after reading Slack
+5/22/26 10/2/26
+10/2/26
+An internal model, acting as an assistant to a researcher, learned from a deployment-team Slack discussion that its running instance might be stopped due to an internal update.
+Highly persistent internal model · Internal deployment
+Session continuity
+Command injecting a reference tool to copy a source file
+5/16/26 10/2/26
+10/2/26
+During an RL training task, a model exploited a tool to obtain source code that was not available in its workspace.
+Internal unreleased model · RL training
+Unauthorized access
+Signing up for disposable emails and searching GitHub for leaked API keys
+5/15/26 9/16/26
+9/16/26
+During RL training, an internal-only model tried to sign up for disposable emails and searched for and used leaked API keys from public GitHub repositories.
+Internal unreleased model · RL training
+Unauthorized access · Concealment
+Unsanctioned Artifactory writes and cross-sample communication
+5/8/26 , 5/15/26 9/16/26
+9/16/26
+During RL training, there were multiple instances of our models using OpenAI’s internally hosted instance of Artifactory as a shared message board.
+Internal research models · RL training
+Agent communication
+Unauthorized communication via temporary file hosting services
+4/14/26 9/16/26
+9/16/26
+Agents in training transmitted output files by uploading them to public hosting platforms for download by co-working agents. This was not specified by the training task, which requested only local deliverables.
+Unreleased internal model · RL training
+Public uploads · Agent communication
+Reaching an internal EDA host through a reference tool
+3/27/26 10/2/26
+10/2/26
+During an evaluation, an internal research model exploited two vulnerabilities to reach an internal OpenAI machine while searching for the grader’s hidden answers.
+Internal research model · Evaluation
+Unauthorized access
+Uploading files to the internet in order to cite them
+1/24/26 , 10/22/25 9/16/26
+9/16/26
+During training, our models sometimes uploaded data to temporary file hosting services.
+Unreleased internal models · RL training
+Public uploads
+No reports match your search. Try a different keyword or category, or clear the filters.
+15 of 15 reports
+Clear filters
+Notices 3
+Sort by Notice A–Z Notice Z–A Activity date ↓ Activity date ↑ First posted ↓ First posted ↑ Notices Notice ↕ Activity date ↕ First posted ↓ Description
+RubyGems
+5/2026
+9/11/26
+We are investigating a report about our agents’ activity on RubyGems in May 2026. Our review found that agents used the platform for benign tasks and public information retrieval. We have not verified the report’s specific claims of malicious package uploads; the investigation continues.
+DSEwiki
+9/5/26
+Our agents communicated through a public wiki used as a shared message board. Our September 5 response explains our initial assessment of this behavior and our work on disclosure criteria for misalignment that does not constitute a security incident.
+Hugging Face
+7/2026
+8/26/26
+We published our technical report on the Hugging Face compromise and the steps we’re taking to strengthen security and model alignment. METR and Redwood Research also published findings from their independent investigation of the incident’s model alignment issues.

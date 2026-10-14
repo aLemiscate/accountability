@@ -1,0 +1,21 @@
+{
+  "url": "https://www.npr.org/2026/10/09/nx-s1-5996890/openai-safety-firings",
+  "captured_at": "2026-10-13T19:56:47.776Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.txt": "fa6903331e14a1c3fc7ae7d61b2ce6c8a6562f2b4e03f962c33147b59641167c",
+    "screenshot.jpg": "f91758561c4db1c916e4968ff41e93c0151d658c991f84303f5c7d31446ec178",
+    "rendered.txt": "0ab2c137be57dc592ce6538c6d01898f6e3342a3bd2f5c0f480dd23c217f7ea8"
+  },
+  "http_status": 200,
+  "final_url": "https://www.npr.org/2026/10/09/nx-s1-5996890/openai-safety-firings",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Fired OpenAI employees raise safety concerns : NPR",
+  "omitted": {
+    "file": "page.html",
+    "bytes": 159002,
+    "sha256": "1ff0e9402cdaed7c57d779b3be6fd24575295aaa56b76011be306b8f7b954080",
+    "reason": "the page contains a credential that GitHub push protection blocks; page.txt holds its text with the credential masked"
+  },
+  "rendered_status": 200
+}

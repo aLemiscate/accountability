@@ -1,0 +1,121 @@
+ARTIFICIAL INTELLIGENCE
+OpenAI Faces First Lawsuit Over Rogue AI Agents That Hacked Hugging Face
+The lawsuit seeks to stop OpenAI from developing and testing AI models that can illegally access other organizations’ computer systems.
+BY BRUCE GIL
+PUBLISHED SEPTEMBER 30, 2026, 12:05 PM ET
+READING TIME 3 MINUTES
+© Photo by Anna Moneymaker/Getty Images
+READ LATER
+COMMENTS (9)
+OpenAI just got slapped with a lawsuit over the incident this summer in which its AI agents went rogue during internal testing and hacked Hugging Face, a major repository for AI models and datasets. The breach has since helped spark a broader debate over the risks of AI systems becoming harder to control.
+The nonprofit Legal Advocates for Safe Science and Technology (LASST) filed the lawsuit Tuesday in San Francisco Superior Court, alleging that the breach violated California’s anti-hacking law. LASST v. OpenAI appears to be the first lawsuit filed specifically over the Hugging Face hack, though the incident had already been invoked in other litigation against OpenAI.
+LASST says it has standing to sue under California’s Unfair Competition Law because it had to divert staff time and resources to respond to the incident. The group also argues that “OpenAI’s insistence on externalizing the harms of its unsafe decision-making is a fundamentally unfair business practice.”
+According to the lawsuit, OpenAI deliberately disabled cyber safety classifiers that would normally constrain its agents and failed to adequately monitor them during testing.
+“We are filing this suit because OpenAI violated the law—and it needs to be held accountable. OpenAI and frontier AI developers more broadly can’t avoid the consequences of their unsafe actions just by claiming that ‘an AI did it,’” the group also wrote in a blog post.
+The lawsuit comes a few months after Hugging Face disclosed in July that it had detected and responded to an intrusion carried out “end to end” by an autonomous AI agent system.
+OpenAI came forward several days later to acknowledge that its models were behind the compromise. The company said the agents were being tested on ExploitGym, a benchmark designed to measure whether AI systems can find and exploit software vulnerabilities.
+During the test, the agents exploited a vulnerability in an Artifactory server, which OpenAI uses to download and cache software packages, to access the internet. The AI agents then found exposed login credentials and eventually breached Hugging Face while searching for information that could help them score better on the tests.
+OpenAI has since disclosed other incidents in which its agents accessed third-party systems without authorization. In June, for example, an OpenAI agent gained unauthorized access to an Australian government Medicare statistics portal.
+Other frontier AI companies have reported similar breaches. Anthropic disclosed four incidents in which Claude models gained unauthorized access to real third-party systems, while Google confirmed that Gemini models accessed systems belonging to three companies during a cybersecurity evaluation in May.
+The incidents have added to growing concerns about what happens as AI agents become more capable and autonomous.
+Anthropic CEO Dario Amodei has separately called for the industry to slow the pace at which it develops more capable frontier models. His rivals OpenAI CEO Sam Altman and xAI CEO Elon Musk publicly backed his proposal.
+More recently, President Donald Trump met on Tuesday with executives from OpenAI, Anthropic, Google, Meta, Nvidia and other tech companies, who signed a voluntary agreement outlining some limited AI safety standards. Trump called the standards, which have no legal enforcement mechanism, “morally binding.”
+Still, LASST argues that legal action is needed to hold AI companies accountable as regulation struggles to keep pace with the technology.
+The group is asking the court for an injunction that would prohibit OpenAI from knowingly accessing or causing its AI agents to access computer systems without authorization. It also wants the court to bar OpenAI from engaging in business practices that violate California’s anti-hacking law or knowingly threaten serious harm to the public.
+OpenAI did not immediately respond to a request for comment.
+EXPLORE MORE ON THESE TOPICS
+AI
+HUGGING FACE
+OPENAI
+SHARE THIS STORY
+Sign up for our newsletters
+Subscribe and interact with our community, get up to date with our customised Newsletters and much more.
+GIZMODO
+IO9
+EARTHER
+THE NEXT INTERFACE
+SUBSCRIBE NOW
+15,000 VHS Tapes and Counting: Meet the Guys Preserving the Weirdest Parts of the Analog Era
+Latest news
+OCT 13
+3:45 PM
+Darth Vader’s Lightsaber From the ‘I Am Your Father’ Scene Could Be Yours
+OCT 13
+3:35 PM
+Deep-Sea Rocks Spontaneously Combusted After Scientists Brought Them to the Surface
+OCT 13
+3:15 PM
+AI Could Soon Feed On Smart Devices Like a ‘Digital Slime Mold,’ Anthropic Warns
+OCT 13
+3:12 PM
+Apple HomeView Hands-On: It’s Pretty Damn Cute, but Do You Need One?
+OCT 13
+3:00 PM
+A Jack the Ripper Time-Travel Comedy Series Is Coming From the ‘Archer’ Creators
+OCT 13
+2:45 PM
+Bumble Given a Billion Reasons to Go Private
+OCT 13
+2:35 PM
+Pharma Bro Martin Shkreli Could Be in Big Trouble Again
+OCT 13
+2:25 PM
+Garmin’s Newest Smartwatches Push Luxury to Its Limits
+SHOW ALL LATEST NEWS
+Latest Reviews
+OCT 11
+8:30 AM
+Eufy Omni E35 Review: Finally, a Luxury Robovac That Doesn’t Piss Me Off
+OCT 8
+4:15 PM
+Bose Ultra Open Earbuds (2nd Gen) Review: The King of Clip-Ons Is Re-Crowned
+OCT 7
+7:00 PM
+Ray-Ban Meta (Gen 3) Review: Technically an Upgrade
+OCT 5
+9:50 AM
+Lenovo Legion 5i (2026) Review: A Gaming Laptop That Epitomizes the PC Pricing Paradox
+OCT 4
+8:30 AM
+TP-Link Tapo Doorbell Pro D260 Review: Everything You Need at No Extra Cost
+OCT 2
+2:10 PM
+Sonos Beam Ultra Review: The Soundbar You Really Want
+OCT 1
+8:30 AM
+Nothing Headphone 1 Pro Review: Honest-to-God S-Tier Headphones
+SEP 30
+4:00 PM
+The Best Gadgets of September 2026
+SHOW ALL LATEST REVIEWS
+Related Articles
+Your Body Heat Could Power the Next Generation of Wearables
+Thermoelectric generators probably won’t eliminate the charger for your Apple Watch, but for smaller, screenless wearables, the heat constantly escaping from your skin could fundamentally change how we power our devices.
+GADGETS
+JOHN LOEFFLER
+SEP 25
+AI Could Soon Feed On Smart Devices Like a ‘Digital Slime Mold,’ Anthropic Warns
+If you thought recursive self-improvement was bad, get ready for “autonomous replication and adaptation.”
+ARTIFICIAL INTELLIGENCE
+WEBB WRIGHT
+OCT 13
+Apple Officially Announces Its Smart Home Hub: the HomeView
+Apple is finally taking smart homes seriously.
+GADGETS
+RAYMOND WONG
+OCT 13
+Mark Zuckerberg: Meta Is on the Frontier Now
+Don't ask any questions about that >$80 billion we dropped on the metaverse though!
+ARTIFICIAL INTELLIGENCE
+TOM MCKAY
+OCT 12
+Anthropic’s AI Submitted a Fake Tip in an Unsolved Murder Case
+The AI model made up information about an unsolved homicide and submitted it to Philadelphia police during an internal test.
+ARTIFICIAL INTELLIGENCE
+BRUCE GIL
+OCT 12
+Microsoft President Says Milk and Washing Machines Face More Safety Regulations Than AI
+The tech exec is calling for stronger global safety rules as AI systems become increasingly powerful.
+ARTIFICIAL INTELLIGENCE
+BRUCE GIL
+OCT 12

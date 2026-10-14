@@ -1,0 +1,69 @@
+Home
+Artificial Intelligence
+by Evan Schuman
+Contributor
+OpenAI ‘temporarily slows’ scaling efforts, also promises zero data retention for select frontier model customers
+News
+Aug 19, 2026
+6 mins
+Analysts said the moves may be nothing more than positioning the company for its IPO, but that both changes are welcome news nonetheless.
+Credit: Prathmesh T / Shutterstock
+OpenAI this week announced multiple moves designed to counter negative perceptions of its security and privacy, saying it had slowed its pace of scaling, implemented a two-week pause in reinforcement learning, and will be offering zero data retention for “eligible API customers.”
+In its first announcement, issued Tuesday, OpenAI said it “temporarily” slowed the pace of its scaling, in addition to pausing reinforcement learning training.
+Those efforts occurred while OpenAI hardened and red-teamed its research environment and expanded monitoring, it said, adding, “our largest planned frontier RL run remains on hold while we conduct smaller-scale training and evaluations to assess model behavior, validate our safeguards, and establish more evidence of alignment before proceeding.”
+OpenAI’s statement said the company will “now require stronger evidence of aligned behavior throughout all of training, building on research and evaluations already underway. Keeping increasingly capable systems aligned is a challenge the whole field will need to address.”
+It also highlighted other recent efforts to improve its procedures, including workload isolation, network isolation and “continuous security testing.”
+However, the company noted that its newly proposed monitoring will generate overhead costs of “roughly 20% of the inference compute being monitored, though the cost varies substantially across training and evaluation workloads.” It promised to share more details about this system in a forthcoming blog post.
+Analysts and consultants said that the moves were likely announced to position OpenAI better for an imminent IPO.
+Carmi Levy, an independent technology analyst, viewed the statements as “a slickly conceived move to win PR points as safety concerns around agentic AI continue to mount. It signals that the company is doing something, even if that something is woefully inadequate. In the absence of explicit regulations forcing vendors like OpenAI to permanently prioritize safety above all other factors, a two-week pause is little more than window dressing designed to deflect criticism.”
+Jason Andersen, principal analyst at Moor Insights & Strategy, agreed, saying that he thought that “this is a little bit of pragmatic theater as they move into an IPO.” But he suggested that there also may be more going on. Enterprises will continue to spend on AI aggressively, and “it will be pedal to the metal until they get sued.” Then they’ll back away.
+However, he said, “the only way that these [large AI] companies are going to be successful post-IPO, the only way to scale, is to get much deeper into enterprises. And the only way to do that is to alleviate fear and risk.”
+Zero data retention?
+In Wednesday’s announcement, OpenAI didn’t say what constitutes eligibility for the zero data retention program, only that it would start in September, when the company would share details in a “technical white paper.”
+But Andersen said that this move has to be viewed in the context of today’s complicated vendor relationships.
+Much of OpenAI’s revenue is not direct from the enterprise, but through partners like Microsoft and AWS, he pointed out. “So let’s say I use a tool like Amazon Kiro, which can use OpenAPI via API to build my app without my knowledge of the model. It sounds like Amazon is the customer and you are Amazon’s customer. If you are an enterprise and want this [zero data retention] protection, you must provide your own API key to Kiro. The enterprise just becomes the direct customer and now gets the lockbox access. AWS no longer has access and loses out on revenue/margins.”
+Consultant Brian Levine, executive director of FormerGov, added that the data retention promise is also complicated by how processes tend to function.
+“OpenAI says it can now monitor for abuse across interactions without any staff ever reading the underlying content,” he said. “That is a strong technical promise, because watching for misuse and not being able to see the data have historically pulled in opposite directions. And the proof is a white paper that is still weeks away.”
+In addition, he noted, “Zero is never quite zero because CSAM-flagged content is still retained for legal reporting.”
+Flavio Villanustre, CISO for the LexisNexis Risk Solutions Group, saw the move somewhat differently, suggesting that it was designed to soften possible legislation.
+“It is likely that they are seeing the writing on the walls about upcoming regulations that could have a significant impact on them, and this could be their attempt at showing a desire to self-regulate to avoid a more draconian legislation in the future,” Villanustre said.
+Still, Mike Wilkes, enterprise CISO at Aikido Security, observed, “sincerity is not the same thing as permanence. In the old Norse/Scandinavian image of a giant sea monster waiting beneath the surface, you might call this ‘Pause the Kraken.’ The real question is what conditions have to be met before OpenAI decides to release it again.”
+Added Justin St-Maurice, technical counselor at Info-Tech Research Group, OpenAI seems to want credit for doing the bare minimum of what a major AI firm should have always done.
+“If a carmaker announced that it was going to take basic safety testing more seriously before production, it wouldn’t be to fanfare. Frankly, it would be embarrassing that something so fundamental needed clarifying to a skeptical public,” he said. “The question for me is why this needs to be an announcement now, and whether they hold the line once a competitor ships something that makes a pause expensive.”
+Thus, he advised, “stop treating these announcements as diligence. Ask for the evidence of what you’re actually getting, not what you’ve been promised. If a vendor can pause development for security reasons, and the way you found out was through a blog post, then you should be asking what your contract requires them to disclose to you.”
+This article originally appeared on Computerworld.
+Artificial Intelligence
+Privacy
+Security
+by Evan Schuman
+Contributor
+Follow Evan Schuman on LinkedIn
+Evan Schuman has covered IT issues for a lot longer than he'll ever admit. The founding editor of retail technology site StorefrontBacktalk, he's been a columnist for CBSNews.com, RetailWeek, Computerworld, and eWeek, and his byline has appeared in titles ranging from BusinessWeek, VentureBeat, and Fortune to The New York Times, USA Today, Reuters, The Philadelphia Inquirer, The Baltimore Sun, The Detroit News, and The Atlanta Journal-Constitution. Evan is a frequent contributor to CIO, CSO, Network World and InfoWorld.
+Evan won a gold 2025 AZBEE award in the Enterprise News category for this story: Design flaw has Microsoft Authenticator overwriting MFA accounts, locking users out
+He can be reached at eschuman@thecontentfirm.com and he can be followed on LinkedIn.
+More from this author
+Show me more
+Popular
+Articles
+Podcasts
+Videos
+Opinion
+These ARE the droids you’re looking for
+By Mike Wilkes
+Oct 12, 2026
+9 mins
+C-Suite
+CSO and CISO
+Security Audits
+Podcast
+Identity Has Become the New Security Perimeter
+By Joan Goodchild
+Oct 8, 2026
+8 mins
+Identity and Access Management
+Video
+Identity Has Become the New Security Perimeter
+By Joan Goodchild
+Oct 8, 2026
+8 mins
+Identity and Access Management

@@ -1,0 +1,417 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 5,
+  "in_reply_to_screen_name": "dribnet",
+  "in_reply_to_status_id_str": "1511839505682100224",
+  "in_reply_to_user_id_str": "315636336",
+  "lang": "en",
+  "created_at": "2022-04-06T22:56:06.000Z",
+  "display_text_range": [
+    9,
+    287
+  ],
+  "entities": {
+    "user_mentions": [
+      {
+        "id_str": "315636336",
+        "indices": [
+          0,
+          8
+        ],
+        "name": "tom white",
+        "screen_name": "dribnet"
+      }
+    ]
+  },
+  "id_str": "1511840197687734276",
+  "text": "@dribnet Bit of a hybrid - original goal was crediting researchers but later viewed as nice from a disclosing-AI-involved perspective. Obviously not robust against serious misuse (we call it a signature, v watermark), so now we lean more on small/trusted user base. See also GitHub repo.",
+  "user": {
+    "id_str": "1214528593",
+    "name": "Miles Brundage",
+    "screen_name": "Miles_Brundage",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2089462134828871680/cW8--1eS_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1511840197687734276"
+    ],
+    "editable_until_msecs": "1649287566418",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 1,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 0,
+    "in_reply_to_screen_name": "Miles_Brundage",
+    "in_reply_to_status_id_str": "1511836761730678786",
+    "in_reply_to_user_id_str": "1214528593",
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 1,
+    "retweet_count": 0,
+    "created_at": "2022-04-06T22:53:21.000Z",
+    "display_text_range": [
+      16,
+      295
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/0ntsysmbyM",
+          "expanded_url": "https://x.com/dribnet/status/1511839505682100224/photo/1",
+          "indices": [
+            296,
+            319
+          ],
+          "url": "https://t.co/0ntsysmbyM"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "x.com/dribnet/status…",
+          "expanded_url": "https://x.com/dribnet/status/971460840825044992",
+          "indices": [
+            272,
+            295
+          ],
+          "url": "https://t.co/e09QHK5EhE"
+        }
+      ],
+      "user_mentions": [
+        {
+          "id_str": "1214528593",
+          "indices": [
+            0,
+            15
+          ],
+          "name": "Miles Brundage",
+          "screen_name": "Miles_Brundage"
+        }
+      ]
+    },
+    "id_str": "1511839505682100224",
+    "text": "@Miles_Brundage Can you say what the squares at the bottom of each image are for? Curious if these are branding or meant as a type of \"FakeMark\" to indicate that the image was synthetically generated - and if so if variations would be appropriate for other projects, etc. https://t.co/e09QHK5EhE https://t.co/0ntsysmbyM",
+    "user": {
+      "id_str": "315636336",
+      "name": "tom white",
+      "screen_name": "dribnet",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1365134757584015366/FqS-iy6D_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1511839505682100224"
+      ],
+      "editable_until_msecs": "1649287401431",
+      "edits_remaining": "5",
+      "is_edit_eligible": true
+    },
+    "mediaDetails": [
+      {
+        "display_url": "pic.x.com/0ntsysmbyM",
+        "expanded_url": "https://x.com/dribnet/status/1511839505682100224/photo/1",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          296,
+          319
+        ],
+        "media_url_https": "https://pbs.twimg.com/media/FPsh1NzVcAEPyAf.jpg",
+        "original_info": {
+          "focus_rects": [
+            {
+              "h": 231,
+              "w": 412,
+              "x": 0,
+              "y": 1
+            },
+            {
+              "h": 232,
+              "w": 232,
+              "x": 180,
+              "y": 0
+            },
+            {
+              "h": 232,
+              "w": 204,
+              "x": 208,
+              "y": 0
+            },
+            {
+              "h": 232,
+              "w": 116,
+              "x": 296,
+              "y": 0
+            },
+            {
+              "h": 232,
+              "w": 412,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "height": 232,
+          "width": 412
+        },
+        "sizes": {
+          "large": {
+            "h": 232,
+            "resize": "fit",
+            "w": 412
+          },
+          "medium": {
+            "h": 232,
+            "resize": "fit",
+            "w": 412
+          },
+          "small": {
+            "h": 232,
+            "resize": "fit",
+            "w": 412
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "photo",
+        "url": "https://t.co/0ntsysmbyM"
+      }
+    ],
+    "photos": [
+      {
+        "backgroundColor": {
+          "red": 204,
+          "green": 214,
+          "blue": 221
+        },
+        "cropCandidates": [
+          {
+            "h": 231,
+            "w": 412,
+            "x": 0,
+            "y": 1
+          },
+          {
+            "h": 232,
+            "w": 232,
+            "x": 180,
+            "y": 0
+          },
+          {
+            "h": 232,
+            "w": 204,
+            "x": 208,
+            "y": 0
+          },
+          {
+            "h": 232,
+            "w": 116,
+            "x": 296,
+            "y": 0
+          },
+          {
+            "h": 232,
+            "w": 412,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "expandedUrl": "https://x.com/dribnet/status/1511839505682100224/photo/1",
+        "url": "https://pbs.twimg.com/media/FPsh1NzVcAEPyAf.jpg",
+        "width": 412,
+        "height": 232
+      }
+    ],
+    "quoted_tweet": {
+      "__typename": "Tweet",
+      "favorite_count": 54,
+      "lang": "en",
+      "possibly_sensitive": false,
+      "reply_count": 3,
+      "retweet_count": 11,
+      "created_at": "2018-03-07T19:01:27.000Z",
+      "display_text_range": [
+        0,
+        244
+      ],
+      "entities": {
+        "media": [
+          {
+            "display_url": "pic.x.com/HUJdwdzcd6",
+            "expanded_url": "https://x.com/dribnet/status/971460840825044992/photo/1",
+            "indices": [
+              245,
+              268
+            ],
+            "url": "https://t.co/HUJdwdzcd6"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "github.com/vusd/FakeMark",
+            "expanded_url": "https://github.com/vusd/FakeMark",
+            "indices": [
+              221,
+              244
+            ],
+            "url": "https://t.co/vI099YfODV"
+          }
+        ],
+        "user_mentions": [
+          {
+            "id_str": "736041231793295361",
+            "indices": [
+              3,
+              15
+            ],
+            "name": "smile vector",
+            "screen_name": "smilevector"
+          }
+        ]
+      },
+      "id_str": "971460840825044992",
+      "text": "My @smilevector bot was retrofitted to add a \"FakeMark\" to all imagery as a visual indicator of media manipulation. If you have any ideas on how to make this effort more effective (or less ham-fisted) please let me know. https://t.co/vI099YfODV https://t.co/HUJdwdzcd6",
+      "user": {
+        "id_str": "315636336",
+        "name": "tom white",
+        "screen_name": "dribnet",
+        "is_blue_verified": true,
+        "profile_image_shape": "Circle",
+        "verified": false,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1365134757584015366/FqS-iy6D_normal.jpg"
+      },
+      "mediaDetails": [
+        {
+          "display_url": "pic.x.com/HUJdwdzcd6",
+          "expanded_url": "https://x.com/dribnet/status/971460840825044992/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "indices": [
+            245,
+            268
+          ],
+          "media_url_https": "https://pbs.twimg.com/media/DXtRmzrV4AASQzn.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 400,
+                "w": 714,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 400,
+                "w": 400,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 400,
+                "w": 351,
+                "x": 5,
+                "y": 0
+              },
+              {
+                "h": 400,
+                "w": 200,
+                "x": 80,
+                "y": 0
+              },
+              {
+                "h": 400,
+                "w": 800,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 400,
+            "width": 800
+          },
+          "sizes": {
+            "large": {
+              "h": 400,
+              "resize": "fit",
+              "w": 800
+            },
+            "medium": {
+              "h": 400,
+              "resize": "fit",
+              "w": 800
+            },
+            "small": {
+              "h": 340,
+              "resize": "fit",
+              "w": 680
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/HUJdwdzcd6"
+        }
+      ],
+      "photos": [
+        {
+          "backgroundColor": {
+            "red": 204,
+            "green": 214,
+            "blue": 221
+          },
+          "cropCandidates": [
+            {
+              "h": 400,
+              "w": 714,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 400,
+              "w": 400,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "h": 400,
+              "w": 351,
+              "x": 5,
+              "y": 0
+            },
+            {
+              "h": 400,
+              "w": 200,
+              "x": 80,
+              "y": 0
+            },
+            {
+              "h": 400,
+              "w": 800,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "expandedUrl": "https://x.com/dribnet/status/971460840825044992/photo/1",
+          "url": "https://pbs.twimg.com/media/DXtRmzrV4AASQzn.jpg",
+          "width": 800,
+          "height": 400
+        }
+      ]
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

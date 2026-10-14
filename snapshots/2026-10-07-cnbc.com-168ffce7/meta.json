@@ -1,0 +1,21 @@
+{
+  "url": "https://www.cnbc.com/2022/12/13/google-execs-warn-of-reputational-risk-with-chatgpt-like-tool.html",
+  "captured_at": "2026-10-07T07:07:01.485Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "ef6a9d5e4b8ccc4f6eb15503091d11e320b23ff61dce1086a50aea13da61fa9d",
+    "page.txt": "168cd23a2298b48453f467ef5190401ad89bfb5e6844a9f9209724fbbfb17ec3",
+    "screenshot.jpg": "da1fce3be0b42c1d486a1961d1e858f818c6c1a3d7e158aabd98f8c78f9a97fd",
+    "rendered.txt": "54881076d4d9185ce8803cf54c91031bc018f50df3b01c509eb6caf5b156da5e"
+  },
+  "http_status": 200,
+  "final_url": "https://www.cnbc.com/2022/12/13/google-execs-warn-of-reputational-risk-with-chatgpt-like-tool.html",
+  "content_type": "text/html; charset=utf-8",
+  "title": "Google execs warn of reputational risk with ChatGPT-like tool",
+  "rendered_status": 200,
+  "archive": {
+    "url": "https://web.archive.org/web/20261007070712/https://www.cnbc.com/2022/12/13/google-execs-warn-of-reputational-risk-with-chatgpt-like-tool.html",
+    "timestamp": "20261007070712",
+    "method": "existing"
+  }
+}

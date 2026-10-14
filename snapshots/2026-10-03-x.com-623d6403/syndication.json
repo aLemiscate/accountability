@@ -1,0 +1,420 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 213,
+  "in_reply_to_screen_name": "claudeai",
+  "in_reply_to_status_id_str": "1972732965219438674",
+  "in_reply_to_user_id_str": "1943306828697550848",
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2025-09-29T18:39:25.000Z",
+  "display_text_range": [
+    0,
+    164
+  ],
+  "entities": {
+    "urls": [
+      {
+        "display_url": "x.com/AnthropicAI/st…",
+        "expanded_url": "https://x.com/AnthropicAI/status/1949898502688903593",
+        "indices": [
+          141,
+          164
+        ],
+        "url": "https://t.co/P0v3nJxZJh"
+      }
+    ]
+  },
+  "id_str": "1972732967689879962",
+  "text": "The weekly rate limits we announced in July are rolling out now. With Claude Sonnet 4.5, we expect fewer than 2% of users to encounter them. https://t.co/P0v3nJxZJh",
+  "user": {
+    "id_str": "1943306828697550848",
+    "name": "Claude",
+    "screen_name": "claudeai",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_normal.jpg",
+    "highlighted_label": {
+      "badge": {
+        "url": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_bigger.jpg"
+      },
+      "description": "Anthropic",
+      "url": {
+        "url": "https://twitter.com/AnthropicAI",
+        "url_type": "DeepLink"
+      },
+      "user_label_display_type": "Badge",
+      "user_label_type": "BusinessLabel"
+    }
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1972732967689879962"
+    ],
+    "editable_until_msecs": "1759174765000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 57,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 2334,
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 123,
+    "retweet_count": 153,
+    "created_at": "2025-09-29T18:39:25.000Z",
+    "display_text_range": [
+      0,
+      166
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/ZRVbCzWujH",
+          "expanded_url": "https://x.com/claudeai/status/1972732965219438674/photo/1",
+          "indices": [
+            167,
+            190
+          ],
+          "url": "https://t.co/ZRVbCzWujH"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "claude.ai/settings/usage",
+          "expanded_url": "https://claude.ai/settings/usage",
+          "indices": [
+            143,
+            166
+          ],
+          "url": "https://t.co/ujIMo0xzsL"
+        }
+      ]
+    },
+    "id_str": "1972732965219438674",
+    "text": "You can now track your usage in real time across the Claude apps and Claude Code.\n\nHead to Settings -&gt; Usage or type /usage in Claude Code. https://t.co/ujIMo0xzsL https://t.co/ZRVbCzWujH",
+    "user": {
+      "id_str": "1943306828697550848",
+      "name": "Claude",
+      "screen_name": "claudeai",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_normal.jpg",
+      "highlighted_label": {
+        "badge": {
+          "url": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_bigger.jpg"
+        },
+        "description": "Anthropic",
+        "url": {
+          "url": "https://twitter.com/AnthropicAI",
+          "url_type": "DeepLink"
+        },
+        "user_label_display_type": "Badge",
+        "user_label_type": "BusinessLabel"
+      }
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1972732965219438674"
+      ],
+      "editable_until_msecs": "1759174765000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "mediaDetails": [
+      {
+        "display_url": "pic.x.com/ZRVbCzWujH",
+        "expanded_url": "https://x.com/claudeai/status/1972732965219438674/photo/1",
+        "ext_alt_text": "A dashboard displaying Claude plan usage across different time periods and model types.",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          167,
+          190
+        ],
+        "media_url_https": "https://pbs.twimg.com/media/G2CNzDfXsAAEJUV.jpg",
+        "original_info": {
+          "focus_rects": [
+            {
+              "h": 1075,
+              "w": 1920,
+              "x": 0,
+              "y": 5
+            },
+            {
+              "h": 1080,
+              "w": 1080,
+              "x": 420,
+              "y": 0
+            },
+            {
+              "h": 1080,
+              "w": 947,
+              "x": 487,
+              "y": 0
+            },
+            {
+              "h": 1080,
+              "w": 540,
+              "x": 690,
+              "y": 0
+            },
+            {
+              "h": 1080,
+              "w": 1920,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "height": 1080,
+          "width": 1920
+        },
+        "sizes": {
+          "large": {
+            "h": 1080,
+            "resize": "fit",
+            "w": 1920
+          },
+          "medium": {
+            "h": 675,
+            "resize": "fit",
+            "w": 1200
+          },
+          "small": {
+            "h": 383,
+            "resize": "fit",
+            "w": 680
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "photo",
+        "url": "https://t.co/ZRVbCzWujH"
+      }
+    ],
+    "photos": [
+      {
+        "accessibilityLabel": "A dashboard displaying Claude plan usage across different time periods and model types.",
+        "backgroundColor": {
+          "red": 204,
+          "green": 214,
+          "blue": 221
+        },
+        "cropCandidates": [
+          {
+            "h": 1075,
+            "w": 1920,
+            "x": 0,
+            "y": 5
+          },
+          {
+            "h": 1080,
+            "w": 1080,
+            "x": 420,
+            "y": 0
+          },
+          {
+            "h": 1080,
+            "w": 947,
+            "x": 487,
+            "y": 0
+          },
+          {
+            "h": 1080,
+            "w": 540,
+            "x": 690,
+            "y": 0
+          },
+          {
+            "h": 1080,
+            "w": 1920,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "expandedUrl": "https://x.com/claudeai/status/1972732965219438674/photo/1",
+        "url": "https://pbs.twimg.com/media/G2CNzDfXsAAEJUV.jpg",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "quoted_tweet": {
+    "favorite_count": 2842,
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 562,
+    "retweet_count": 303,
+    "created_at": "2025-07-28T18:23:25.000Z",
+    "display_text_range": [
+      0,
+      160
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/X8FAss3jIC",
+          "expanded_url": "https://x.com/AnthropicAI/status/1949898502688903593/photo/1",
+          "indices": [
+            161,
+            184
+          ],
+          "url": "https://t.co/X8FAss3jIC"
+        }
+      ]
+    },
+    "id_str": "1949898502688903593",
+    "text": "We’re rolling out new weekly rate limits for Claude Pro and Max in late August. We estimate they’ll apply to less than 5% of subscribers based on current usage. https://t.co/X8FAss3jIC",
+    "user": {
+      "id_str": "1353836358901501952",
+      "name": "Anthropic",
+      "screen_name": "AnthropicAI",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1949898502688903593"
+      ],
+      "editable_until_msecs": "1753730605000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "mediaDetails": [
+      {
+        "display_url": "pic.x.com/X8FAss3jIC",
+        "expanded_url": "https://x.com/AnthropicAI/status/1949898502688903593/photo/1",
+        "ext_alt_text": "Abstract picture of shapes and lines on an orange background.",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          161,
+          184
+        ],
+        "media_url_https": "https://pbs.twimg.com/media/Gw9Z8P6XoAA87L8.png",
+        "original_info": {
+          "focus_rects": [
+            {
+              "h": 1261,
+              "w": 2252,
+              "x": 149,
+              "y": 0
+            },
+            {
+              "h": 1261,
+              "w": 1261,
+              "x": 990,
+              "y": 0
+            },
+            {
+              "h": 1261,
+              "w": 1106,
+              "x": 1067,
+              "y": 0
+            },
+            {
+              "h": 1261,
+              "w": 631,
+              "x": 1305,
+              "y": 0
+            },
+            {
+              "h": 1261,
+              "w": 2401,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "height": 1261,
+          "width": 2401
+        },
+        "sizes": {
+          "large": {
+            "h": 1076,
+            "resize": "fit",
+            "w": 2048
+          },
+          "medium": {
+            "h": 630,
+            "resize": "fit",
+            "w": 1200
+          },
+          "small": {
+            "h": 357,
+            "resize": "fit",
+            "w": 680
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "photo",
+        "url": "https://t.co/X8FAss3jIC"
+      }
+    ],
+    "photos": [
+      {
+        "accessibilityLabel": "Abstract picture of shapes and lines on an orange background.",
+        "backgroundColor": {
+          "red": 204,
+          "green": 214,
+          "blue": 221
+        },
+        "cropCandidates": [
+          {
+            "h": 1261,
+            "w": 2252,
+            "x": 149,
+            "y": 0
+          },
+          {
+            "h": 1261,
+            "w": 1261,
+            "x": 990,
+            "y": 0
+          },
+          {
+            "h": 1261,
+            "w": 1106,
+            "x": 1067,
+            "y": 0
+          },
+          {
+            "h": 1261,
+            "w": 631,
+            "x": 1305,
+            "y": 0
+          },
+          {
+            "h": 1261,
+            "w": 2401,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "expandedUrl": "https://x.com/AnthropicAI/status/1949898502688903593/photo/1",
+        "url": "https://pbs.twimg.com/media/Gw9Z8P6XoAA87L8.png",
+        "width": 2401,
+        "height": 1261
+      }
+    ],
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

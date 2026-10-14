@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/bcherny/status/2043715740080222549",
+  "captured_at": "2026-10-13T15:12:26.807Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "261f7d0add62c20571e2d8c668476cb150f34b69d852dd24115ee67b66ca7656",
+    "page.txt": "e3d98167d2caf3d527eb5c69cf14b2a8bfa432078dba5ff050f680f497958fbb",
+    "post.json": "639deae10cfc04bc9a629a7b1d85ceb84d670ee93ff708135ac3d71f3ad239c5",
+    "syndication.json": "0d68f4eb26174f8c8c14230e8dae2eca8e867ca8fafaae8c0bdc3f090cc6e1f5",
+    "fulltext.json": "ee05c1563a9b4b147e4673ea4a9405f66f7c95f2c58185aa5fbd6283504d3fb7",
+    "post.txt": "cf209d855900b663bb6bc08c95fc2de576438891c3a401bed5daa3f3f7d00d42"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/bcherny/status/2043715740080222549",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Boris Cherny on X: \"👋 1h prompt cache is nuanced actually. It costs more for cache writes, and less for cache reads. Whether you benefit from cheaper cache reads depends on your usage pattern -- context window size, whether the query is the main agent or subagent, etc. We have been testing a numb… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Boris Cherny (@bcherny)",
+    "date": "April 13, 2026",
+    "posted_at": "2026-04-13T15:39:37.494Z",
+    "full_text_from": "api.fxtwitter.com"
+  }
+}

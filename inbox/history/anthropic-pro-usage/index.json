@@ -1,0 +1,560 @@
+{
+ "id": "anthropic-pro-usage",
+ "org": "anthropic",
+ "urls": [
+  "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+  "https://support.claude.com/en/articles/8324991-about-claude-pro-usage"
+ ],
+ "live": [
+  {
+   "date": "2026-10-07",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "error": "could not read the live page"
+  }
+ ],
+ "captures": [
+  {
+   "ts": "20230907161847",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "cd4ecb87e3b710a3",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20231011121958",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "cd4ecb87e3b710a3",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20231106013637",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "cd4ecb87e3b710a3",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20231114162120",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "abfdca4c67e27d0c",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20231120174251",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "abfdca4c67e27d0c",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20231121193449",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "96dd9761931369b7",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20231227053118",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "8a1d699be05cd4a9",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240202124906",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "f8a5205d38f831cf",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240221191602",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "e3c003d778cc4b9d",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240223110945",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "e3c003d778cc4b9d",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240304193915",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "f32318287558d925",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240313225911",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "f32318287558d925",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240323164133",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "f32318287558d925",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240324213649",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "f32318287558d925",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240326022850",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "f32318287558d925",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240402062744",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "00a71e7a614c5205",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240405190601",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "ab02569bb8ae6045",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240414004024",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "ce833771e970e3a1",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240421043029",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "ce833771e970e3a1",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240426100924",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "3b871a3b05837daf",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240502093259",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "b64a3f44909d7d24",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240514204225",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "27189dc09ce8fa64",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240516195835",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "27189dc09ce8fa64",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240519210842",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "ef4154649de262fa",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240521171500",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "ef4154649de262fa",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240523195905",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "ef4154649de262fa",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240617184403",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "8b9294d12e1d73a8",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240620220012",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "5b076b431dc96cfd",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240702140325",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "5b076b431dc96cfd",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240706132244",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "fe3de15b341d8763",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240710205443",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "fe3de15b341d8763",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240731203838",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "1ce1d4e1e2bc0c79",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240815133122",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "ee2e17d55142325e",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240820102203",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "4d6bc62c45832e06",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240822105433",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "4d6bc62c45832e06",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240901013546",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "4d6bc62c45832e06",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240907181659",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "fdc21235f12c396a",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20240921110316",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "fdc21235f12c396a",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20241007072031",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "fdc21235f12c396a",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20241114003526",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "b550cb8e3d417c70",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20241126215306",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "b550cb8e3d417c70",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20241129235415",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "b550cb8e3d417c70",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20241212093044",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "dd86714a7d820aba",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250116192337",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "dd86714a7d820aba",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250221230710",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "dd86714a7d820aba",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250304224835",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "dd86714a7d820aba",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250317124124",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "dd86714a7d820aba",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250328032901",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "dd86714a7d820aba",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250329102852",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "dd86714a7d820aba",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250410220344",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "04562ed118478ef8",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250420142154",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "04562ed118478ef8",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250423004603",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "04562ed118478ef8",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250430170003",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "a8a462000d645f6b",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250503164719",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "d61a738650c7db54",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250603132727",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "d61a738650c7db54",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250605151011",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "824a1545790c9b0f",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250606165600",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "824a1545790c9b0f",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250613135351",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "824a1545790c9b0f",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250707132907",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "824a1545790c9b0f",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250718082017",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "4642f7f81f49a388",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250720063301",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "4642f7f81f49a388",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  },
+  {
+   "ts": "20250728132422",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+   "sha": "4642f7f81f49a388",
+   "title": "About Claude Pro usage | Anthropic Help Center"
+  }
+ ],
+ "versions": [
+  {
+   "sha": "cd4ecb87e3b710a3",
+   "first": "20230907161847",
+   "last": "20231106013637",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "abfdca4c67e27d0c",
+   "first": "20231114162120",
+   "last": "20231120174251",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "96dd9761931369b7",
+   "first": "20231121193449",
+   "last": "20231121193449",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "8a1d699be05cd4a9",
+   "first": "20231227053118",
+   "last": "20231227053118",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "f8a5205d38f831cf",
+   "first": "20240202124906",
+   "last": "20240202124906",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "e3c003d778cc4b9d",
+   "first": "20240221191602",
+   "last": "20240223110945",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "f32318287558d925",
+   "first": "20240304193915",
+   "last": "20240326022850",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "00a71e7a614c5205",
+   "first": "20240402062744",
+   "last": "20240402062744",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "ab02569bb8ae6045",
+   "first": "20240405190601",
+   "last": "20240405190601",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "ce833771e970e3a1",
+   "first": "20240414004024",
+   "last": "20240421043029",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "3b871a3b05837daf",
+   "first": "20240426100924",
+   "last": "20240426100924",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "b64a3f44909d7d24",
+   "first": "20240502093259",
+   "last": "20240502093259",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "27189dc09ce8fa64",
+   "first": "20240514204225",
+   "last": "20240516195835",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "ef4154649de262fa",
+   "first": "20240519210842",
+   "last": "20240523195905",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "8b9294d12e1d73a8",
+   "first": "20240617184403",
+   "last": "20240617184403",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "5b076b431dc96cfd",
+   "first": "20240620220012",
+   "last": "20240702140325",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "fe3de15b341d8763",
+   "first": "20240706132244",
+   "last": "20240710205443",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "1ce1d4e1e2bc0c79",
+   "first": "20240731203838",
+   "last": "20240731203838",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "ee2e17d55142325e",
+   "first": "20240815133122",
+   "last": "20240815133122",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "4d6bc62c45832e06",
+   "first": "20240820102203",
+   "last": "20240901013546",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "fdc21235f12c396a",
+   "first": "20240907181659",
+   "last": "20241007072031",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "b550cb8e3d417c70",
+   "first": "20241114003526",
+   "last": "20241129235415",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "dd86714a7d820aba",
+   "first": "20241212093044",
+   "last": "20250329102852",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "04562ed118478ef8",
+   "first": "20250410220344",
+   "last": "20250423004603",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "a8a462000d645f6b",
+   "first": "20250430170003",
+   "last": "20250430170003",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "d61a738650c7db54",
+   "first": "20250503164719",
+   "last": "20250603132727",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "824a1545790c9b0f",
+   "first": "20250605151011",
+   "last": "20250707132907",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  },
+  {
+   "sha": "4642f7f81f49a388",
+   "first": "20250718082017",
+   "last": "20250728132422",
+   "url": "https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage"
+  }
+ ],
+ "complete": true
+}

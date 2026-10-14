@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/news/model-safety-bug-bounty",
+  "captured_at": "2026-10-07T01:22:58.789Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "e2398a330d67d645e64909949dbe31f68e79aee9b3c181598cd187ee71c64659",
+    "page.txt": "1b52c3e66d1fd7875f5dce6027517a817642bb22b3a64db542d8ad10895eb914",
+    "screenshot.jpg": "2d13294e18b8c873077d117b2f732a394280f62b5f3ca718e4ed47a35b415f04",
+    "rendered.txt": "9fb56308db09a2747f61c256342fdb987730c34669b7111facb1e2de3d88f946"
+  },
+  "http_status": 200,
+  "final_url": "https://www.anthropic.com/news/model-safety-bug-bounty",
+  "content_type": "text/html; charset=utf-8",
+  "title": "Expanding our model safety bug bounty program \\ Anthropic",
+  "rendered_status": 200
+}

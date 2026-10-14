@@ -1,0 +1,164 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 142,
+  "in_reply_to_screen_name": "OpenAIDevs",
+  "in_reply_to_status_id_str": "1983956898786267619",
+  "in_reply_to_user_id_str": "1633874951508721686",
+  "lang": "en",
+  "possibly_sensitive": false,
+  "created_at": "2025-10-30T17:59:19.000Z",
+  "display_text_range": [
+    0,
+    177
+  ],
+  "entities": {
+    "urls": [
+      {
+        "display_url": "help.openai.com/en/articles/12…",
+        "expanded_url": "https://help.openai.com/en/articles/12642688",
+        "indices": [
+          153,
+          176
+        ],
+        "url": "https://t.co/7wzk62XmSJ"
+      }
+    ]
+  },
+  "id_str": "1983956900602581254",
+  "text": "As we’ve also shared earlier, Codex cloud tasks will now count toward your rate limits starting today. \n\nLearn more about how pricing and credits work 👇\nhttps://t.co/7wzk62XmSJ",
+  "user": {
+    "id_str": "1633874951508721686",
+    "name": "OpenAI Developers",
+    "screen_name": "OpenAIDevs",
+    "is_blue_verified": true,
+    "profile_image_shape": "Square",
+    "verified": false,
+    "verified_type": "Business",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2022002720971096064/l3Kyt4qt_normal.jpg",
+    "highlighted_label": {
+      "badge": {
+        "url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_bigger.jpg"
+      },
+      "description": "OpenAI",
+      "url": {
+        "url": "https://twitter.com/OpenAI",
+        "url_type": "DeepLink"
+      },
+      "user_label_display_type": "Badge",
+      "user_label_type": "BusinessLabel"
+    }
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1983956900602581254"
+    ],
+    "editable_until_msecs": "1761850759000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 9,
+  "news_action_type": "conversation",
+  "parent": {
+    "favorite_count": 227,
+    "in_reply_to_screen_name": "OpenAIDevs",
+    "in_reply_to_status_id_str": "1983956896852988014",
+    "in_reply_to_user_id_str": "1633874951508721686",
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 6,
+    "retweet_count": 15,
+    "created_at": "2025-10-30T17:59:19.000Z",
+    "display_text_range": [
+      0,
+      246
+    ],
+    "entities": {
+      "urls": [
+        {
+          "display_url": "chatgpt.com/codex/settings…",
+          "expanded_url": "https://chatgpt.com/codex/settings/usage",
+          "indices": [
+            223,
+            246
+          ],
+          "url": "https://t.co/PlJkMPfZ3K"
+        }
+      ]
+    },
+    "id_str": "1983956898786267619",
+    "text": "Starting today, you can buy credits from your Codex usage dashboard in packs of 1,000 credits for $40. Codex always uses your plan’s included usage first before drawing down credits.\n\nPlus and Pro users can buy credits at: https://t.co/PlJkMPfZ3K",
+    "user": {
+      "id_str": "1633874951508721686",
+      "name": "OpenAI Developers",
+      "screen_name": "OpenAIDevs",
+      "is_blue_verified": true,
+      "profile_image_shape": "Square",
+      "verified": false,
+      "verified_type": "Business",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2022002720971096064/l3Kyt4qt_normal.jpg",
+      "highlighted_label": {
+        "badge": {
+          "url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_bigger.jpg"
+        },
+        "description": "OpenAI",
+        "url": {
+          "url": "https://twitter.com/OpenAI",
+          "url_type": "DeepLink"
+        },
+        "user_label_display_type": "Badge",
+        "user_label_type": "BusinessLabel"
+      }
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "1983956898786267619"
+      ],
+      "editable_until_msecs": "1761850759000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "card": {
+    "card_platform": {
+      "platform": {
+        "audience": {
+          "name": "production"
+        },
+        "device": {
+          "name": "iPhone",
+          "version": "13"
+        }
+      }
+    },
+    "name": "summary",
+    "url": "https://t.co/7wzk62XmSJ",
+    "binding_values": {
+      "description": {
+        "string_value": "Key information and FAQs about using credits.",
+        "type": "STRING"
+      },
+      "domain": {
+        "string_value": "help.openai.com",
+        "type": "STRING"
+      },
+      "vanity_url": {
+        "scribe_key": "vanity_url",
+        "string_value": "help.openai.com",
+        "type": "STRING"
+      },
+      "title": {
+        "string_value": "Using Credits for Flexible Usage in ChatGPT (Personal plans) | OpenAI Help Center",
+        "type": "STRING"
+      },
+      "card_url": {
+        "scribe_key": "card_url",
+        "string_value": "https://t.co/7wzk62XmSJ",
+        "type": "STRING"
+      }
+    }
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

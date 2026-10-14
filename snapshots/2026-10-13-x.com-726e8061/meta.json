@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/thsottiaux/status/2091407991736332689",
+  "captured_at": "2026-10-13T15:11:04.893Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "9bf94769692888a4fe80bc11385193bf53170d40e9afaf363038979ce7ff8188",
+    "page.txt": "ee90e9e63231b9c48268ab04e870747647a4bc8b2e76072b6ec0645ed8a7e79a",
+    "post.json": "98b20a2ef2ef84da2b6db662b19ee13038b379e0cb722b63f74a7d551c9ec263",
+    "syndication.json": "011c8a8b0640ce3f6e3f45524927e344174b2bd42876d3feeb82af1631620101",
+    "fulltext.json": "48f39774fe6303ae70bbefa6b0c950c8ea7755f6f4cf62cc35c837d510313108",
+    "post.txt": "b5329c9e9e5e7a38ddf21778c9d458c4e52e6b9c9933e71b886f1d85a2cc5da3"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/thsottiaux/status/2091407991736332689",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Tibo on X: \"Update on rate limits in Codex. We’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Computer History (c) a feature that was meant to generate conversation titles that was draining a bit more usage than intended. And… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Tibo (@thsottiaux)",
+    "date": "August 23, 2026",
+    "posted_at": "2026-08-23T06:11:36.368Z",
+    "full_text_from": "api.fxtwitter.com"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/claudeai/status/1968416786413506591",
+  "captured_at": "2026-10-03T12:24:10.379Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "3930f53920daa2c7e9ecb51c6eae4a55c4ab1f0ed2d61d3bc423eedf91d2bf4f",
+    "page.txt": "96e91249c33724e59c8032658bfa66cc7d0f4116e78b711666e36dce57e4eaf4",
+    "post.json": "b9361ed4007ead101f7fd91a5c3fb8755428b8be1907ce42ca5b97432f0cebae",
+    "syndication.json": "82fd2f43955530fa0e023df7e82af029ea7a52f695180e42cc29cf8c6771351e",
+    "post.txt": "798ecb101465217908b8db1c1aaaedb2b822548152d043f5c91c4acf8146c154"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/claudeai/status/1968416786413506591",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Claude on X: \"To state it plainly: We never reduce model quality due to demand, time of day, or server load. The problems our users reported were due to infrastructure bugs alone.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Claude (@claudeai)",
+    "date": "September 17, 2025",
+    "posted_at": "2025-09-17T20:48:27.953Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20250919170147/https://x.com/claudeai/status/1968416786413506591",
+    "timestamp": "20250919170147",
+    "method": "existing"
+  }
+}

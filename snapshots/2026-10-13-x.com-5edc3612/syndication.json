@@ -1,0 +1,84 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 5017,
+  "lang": "en",
+  "created_at": "2026-06-11T05:56:30.000Z",
+  "display_text_range": [
+    0,
+    276
+  ],
+  "entities": {},
+  "id_str": "2064949876463645026",
+  "text": "We’re rolling out changes to make Fable 5’s safeguards for frontier LLM development visible.\n\nStarting this week, flagged requests will visibly fall back to Opus 4.8—the same as our safeguards for cyber and bio. You will see this every time it happens. On the API, any flagged",
+  "user": {
+    "id_str": "2024518793679294464",
+    "name": "ClaudeDevs",
+    "screen_name": "ClaudeDevs",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2044472418815893504/xf14RxM8_normal.png",
+    "highlighted_label": {
+      "badge": {
+        "url": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_bigger.jpg"
+      },
+      "description": "Anthropic",
+      "url": {
+        "url": "https://twitter.com/AnthropicAI",
+        "url_type": "DeepLink"
+      },
+      "user_label_display_type": "Badge",
+      "user_label_type": "BusinessLabel"
+    }
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2064949876463645026"
+    ],
+    "editable_until_msecs": "1781160990000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 646,
+  "news_action_type": "conversation",
+  "card": {
+    "card_platform": {
+      "platform": {
+        "audience": {
+          "name": "production"
+        },
+        "device": {
+          "name": "iPhone",
+          "version": "13"
+        }
+      }
+    },
+    "name": "summary_large_image",
+    "url": "https://t.co/LtktniD5HY",
+    "binding_values": {
+      "vanity_url": {
+        "scribe_key": "vanity_url",
+        "string_value": "claude.ai",
+        "type": "STRING"
+      },
+      "domain": {
+        "string_value": "claude.ai",
+        "type": "STRING"
+      },
+      "title": {
+        "string_value": "Claude",
+        "type": "STRING"
+      },
+      "card_url": {
+        "scribe_key": "card_url",
+        "string_value": "https://t.co/LtktniD5HY",
+        "type": "STRING"
+      }
+    }
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDY0OTQ5ODc2MjU0MDA3Mjk2"
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 11257,
+  "lang": "en",
+  "created_at": "2026-09-08T18:02:46.000Z",
+  "display_text_range": [
+    0,
+    279
+  ],
+  "entities": {},
+  "id_str": "2097385167002415140",
+  "text": "I spent much of the weekend talking with the team who did this work. Seb--and everyone else--acted with integrity and generosity throughout.\n\nInitially we believed the other team had also solved the problem. We wanted to collaborate and do a joint release. \n\nWhen we learned that",
+  "user": {
+    "id_str": "1605",
+    "name": "Sam Altman",
+    "screen_name": "sama",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2046764873200394240/r7BxVezs_normal.jpg",
+    "highlighted_label": {
+      "badge": {
+        "url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_bigger.jpg"
+      },
+      "description": "OpenAI",
+      "url": {
+        "url": "https://twitter.com/OpenAI",
+        "url_type": "DeepLink"
+      },
+      "user_label_display_type": "Badge",
+      "user_label_type": "BusinessLabel"
+    }
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2097385167002415140"
+    ],
+    "editable_until_msecs": "1788894166000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 1014,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 5707,
+    "lang": "en",
+    "possibly_sensitive": false,
+    "reply_count": 465,
+    "retweet_count": 493,
+    "created_at": "2026-09-08T17:39:53.000Z",
+    "display_text_range": [
+      0,
+      279
+    ],
+    "entities": {
+      "media": [
+        {
+          "display_url": "pic.x.com/yRli0hLNuM",
+          "expanded_url": "https://x.com/SebastienBubeck/status/2097379411691516310/photo/1",
+          "indices": [
+            280,
+            303
+          ],
+          "url": "https://t.co/yRli0hLNuM"
+        }
+      ]
+    },
+    "id_str": "2097379411691516310",
+    "text": "I would like to clarify a few things:\n\n1) The screenshot is my reaching out to Levent to coordinate our releases. I hope it’s clear from the message that we came in with the best possible intentions.\n\n2) I never ever asked for Levent to be removed from authorship of his own work https://t.co/yRli0hLNuM",
+    "user": {
+      "id_str": "452384386",
+      "name": "Sebastien Bubeck",
+      "screen_name": "SebastienBubeck",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1709609135321583616/6bXuF85D_normal.jpg"
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2097379411691516310"
+      ],
+      "editable_until_msecs": "1788892793000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "mediaDetails": [
+      {
+        "display_url": "pic.x.com/yRli0hLNuM",
+        "expanded_url": "https://x.com/SebastienBubeck/status/2097379411691516310/photo/1",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "indices": [
+          280,
+          303
+        ],
+        "media_url_https": "https://pbs.twimg.com/media/HRtjEaTbcAA0uQ6.jpg",
+        "original_info": {
+          "focus_rects": [
+            {
+              "h": 605,
+              "w": 1080,
+              "x": 0,
+              "y": 1691
+            },
+            {
+              "h": 1080,
+              "w": 1080,
+              "x": 0,
+              "y": 1344
+            },
+            {
+              "h": 1231,
+              "w": 1080,
+              "x": 0,
+              "y": 1193
+            },
+            {
+              "h": 2160,
+              "w": 1080,
+              "x": 0,
+              "y": 264
+            },
+            {
+              "h": 2424,
+              "w": 1080,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "height": 2424,
+          "width": 1080
+        },
+        "sizes": {
+          "large": {
+            "h": 2048,
+            "resize": "fit",
+            "w": 912
+          },
+          "medium": {
+            "h": 1200,
+            "resize": "fit",
+            "w": 535
+          },
+          "small": {
+            "h": 680,
+            "resize": "fit",
+            "w": 303
+          },
+          "thumb": {
+            "h": 150,
+            "resize": "crop",
+            "w": 150
+          }
+        },
+        "type": "photo",
+        "url": "https://t.co/yRli0hLNuM"
+      }
+    ],
+    "photos": [
+      {
+        "backgroundColor": {
+          "red": 204,
+          "green": 214,
+          "blue": 221
+        },
+        "cropCandidates": [
+          {
+            "h": 605,
+            "w": 1080,
+            "x": 0,
+            "y": 1691
+          },
+          {
+            "h": 1080,
+            "w": 1080,
+            "x": 0,
+            "y": 1344
+          },
+          {
+            "h": 1231,
+            "w": 1080,
+            "x": 0,
+            "y": 1193
+          },
+          {
+            "h": 2160,
+            "w": 1080,
+            "x": 0,
+            "y": 264
+          },
+          {
+            "h": 2424,
+            "w": 1080,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "expandedUrl": "https://x.com/SebastienBubeck/status/2097379411691516310/photo/1",
+        "url": "https://pbs.twimg.com/media/HRtjEaTbcAA0uQ6.jpg",
+        "width": 1080,
+        "height": 2424
+      }
+    ],
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoyMDk3Mzg1MTY2ODc2NjMxMDQw"
+  }
+}

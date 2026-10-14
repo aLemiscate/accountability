@@ -17,6 +17,13 @@ summary: >-
 contradicts: [2024-10-machines-of-loving-grace]
 patterns: [principles-with-a-price, race-clause]
 sources:
+  - title: 'Leaked Memo: Anthropic CEO Says the Company Will Pursue Gulf State
+      Investments After All'
+    publisher: WIRED
+    url: https://www.wired.com/story/anthropic-dario-amodei-gulf-state-leaked-memo/
+    date: 2025-07-21
+    type: reporting
+    snapshot: snapshots/2026-10-07-wired.com-ec43584c
   - title: Leaked memo — Dario Amodei told staff Anthropic plans to seek UAE and
       Qatar funding (Wired, via Techmeme)
     publisher: Wired
@@ -30,12 +37,13 @@ sources:
     date: 2025-07-22
     type: reporting
     archive: https://web.archive.org/web/20260303125520/https://www.datacenterdynamics.com/en/news/anthropic-to-seek-gulf-state-investments-according-to-ceos-leaked-memo/
-    snapshot: snapshots/2026-10-05-datacenterdynamics.com-a46f8d2f
+    snapshot: snapshots/2026-10-03-datacenterdynamics.com-a46f8d2f
 response: >-
   In the memo, Amodei limited the change to "narrowly scoped, purely financial"
-  investment with no governance rights, and said serving the region commercially
-  was "a pure positive as long as we don't build data centers there and as long
-  as we enforce our [acceptable use policy]."
+  investment, to avoid giving outside investors "leverage" over the company, and
+  said serving the region commercially was "actually pure positive as long as we
+  don't build data centers there and as long as we enforce our [acceptable use
+  policy]."
 note: >-
   To be fair, the memo is candid about the trade-off. But the justification is
   the race: stay on the frontier. That's the same exit the RSP rewrite used

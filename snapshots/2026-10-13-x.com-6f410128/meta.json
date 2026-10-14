@@ -1,0 +1,25 @@
+{
+  "url": "https://x.com/OpenAI/status/2042295690382995789",
+  "captured_at": "2026-10-13T15:10:56.922Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "6148f82be33d0d014701d70f34b96cbaea1d919386f70012d724c747e48b7271",
+    "page.txt": "6b25d7b91b215e01dcb4a5c2ad5c6ea1d0c28286c1cc328e7a65618c8c55d516",
+    "post.json": "b9087bbea0c2fe1ef49d17dc9fd295b78aeccc27a6bd04d641c34f44bdf98be8",
+    "syndication.json": "945629d54590ae467e277d9c2ac935423c2b5507a3f5c5bfea70c8f3e2d41de2",
+    "fulltext.json": "ea4aecd91926bb25c48d02745fd99eeb0d59f855849987bfc7d1a764e2fcf2eb",
+    "post.txt": "681506ebfaa41b942a75751329cde61e0a57429e14c5778bb6d2874ec32e5e70"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/OpenAI/status/2042295690382995789",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "OpenAI on X: \"The Codex promotion for existing Plus subscribers ends today and as a part of this, we’re rebalancing Codex usage in Plus to support more sessions throughout the week, rather than longer sessions in a single day. The Plus plan will continue to be the best offer at $20 for steady, day… / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "OpenAI (@OpenAI)",
+    "date": "April 9, 2026",
+    "posted_at": "2026-04-09T17:36:51.263Z",
+    "full_text_from": "api.fxtwitter.com"
+  }
+}

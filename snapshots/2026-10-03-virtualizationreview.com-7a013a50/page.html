@@ -1,0 +1,2060 @@
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<!--[if gt IE 8]> <html class="no-js" lang="en"> <![endif]-->
+
+<head>
+
+    
+<title>OpenAI to Retire Custom GPTs, Replace Them with Plugins -- Virtualization Review</title>
+<meta name="description" content="Custom GPTs are scheduled to disappear in December as OpenAI moves reusable AI workflows to a plugin architecture spanning ChatGPT and Codex.">
+<meta name="keywords" content="openai, gpt, plugins">
+
+<meta property="og:title" content="OpenAI to Retire Custom GPTs, Replace Them with Plugins -- Virtualization Review" />
+<meta property="og:description" content="Custom GPTs are scheduled to disappear in December as OpenAI moves reusable AI workflows to a plugin architecture spanning ChatGPT and Codex." />
+<meta property="og:url" content="https://virtualizationreview.com/articles/2026/09/28/openai-to-retire-custom-gpts-replace-them-with-plugins.aspx" />
+<meta property="og:image" content="https://virtualizationreview.com/-/media/ECG/VirtualizationReview/Images/introimages2014/plugin.jpg" />
+<meta property="og:site_name" content="Virtualization Review" />
+   
+    
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W4RHP2C');</script>
+<!-- End Google Tag Manager -->
+
+<!-- BEGIN Google Publisher Tag HEAD CODE -->
+<script async="async" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js">
+</script>
+<script type="text/javascript">
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+<script>
+  googletag.cmd.push(function() {
+                googletag.defineSlot('/5978/eof.vrt', [['fluid'],[1800,450]], 'div-gpt-ad-billboard-0001')
+                  .addService(googletag.pubads())
+                  .setConfig({ targeting: { item: ['28873d79_6054_4264_9803_e26d251d49a2'] } })
+                  .setConfig({ targeting: { pos: ['billboard'] } })
+                  .setConfig({ targeting: { Topic: ['AI','GenAI'] } });
+                googletag.defineSlot('/5978/eof.vrt', [[970,250],[728,90]], 'div-gpt-ad-lead_t1-0002')
+                  .addService(googletag.pubads())
+                  .setConfig({ targeting: { item: ['28873d79_6054_4264_9803_e26d251d49a2'] } })
+                  .setConfig({ targeting: { pos: ['lead_t1'] } })
+                  .setConfig({ targeting: { Topic: ['AI','GenAI'] } });
+                googletag.defineSlot('/5978/eof.vrt', [[152,500],[152,600],[160,600]], 'div-gpt-ad-wallpaper_left-0003')
+                  .addService(googletag.pubads())
+                  .setConfig({ targeting: { item: ['28873d79_6054_4264_9803_e26d251d49a2'] } })
+                  .setConfig({ targeting: { pos: ['wallpaper_left'] } })
+                  .setConfig({ targeting: { Topic: ['AI','GenAI'] } });
+                googletag.defineSlot('/5978/eof.vrt', [[152,500],[152,600],[160,600]], 'div-gpt-ad-wallpaper_right-0004')
+                  .addService(googletag.pubads())
+                  .setConfig({ targeting: { item: ['28873d79_6054_4264_9803_e26d251d49a2'] } })
+                  .setConfig({ targeting: { pos: ['wallpaper_right'] } })
+                  .setConfig({ targeting: { Topic: ['AI','GenAI'] } });
+                googletag.defineSlot('/5978/eof.vrt', [[300,250]], 'div-gpt-ad-box_c1-0005')
+                  .addService(googletag.pubads())
+                  .setConfig({ targeting: { item: ['28873d79_6054_4264_9803_e26d251d49a2'] } })
+                  .setConfig({ targeting: { pos: ['box_c1'] } })
+                  .setConfig({ targeting: { Topic: ['AI','GenAI'] } });
+                googletag.defineSlot('/5978/eof.vrt', [[300,250]], 'div-gpt-ad-mobileflyout-0006')
+                  .addService(googletag.pubads())
+                  .setConfig({ targeting: { item: ['28873d79_6054_4264_9803_e26d251d49a2'] } })
+                  .setConfig({ targeting: { pos: ['mobileflyout'] } })
+                  .setConfig({ targeting: { Topic: ['AI','GenAI'] } });
+                googletag.defineSlot('/5978/eof.vrt', [[300,250],[300,600]], 'div-gpt-ad-box_r1-0007')
+                  .addService(googletag.pubads())
+                  .setConfig({ targeting: { item: ['28873d79_6054_4264_9803_e26d251d49a2'] } })
+                  .setConfig({ targeting: { pos: ['box_r1'] } })
+                  .setConfig({ targeting: { Topic: ['AI','GenAI'] } });
+                googletag.pubads().addEventListener('slotRenderEnded', function (e) {
+                        if (!e.isEmpty) {   // If the ad is not empty
+                            document.getElementById(e.slot.getSlotElementId()).setAttribute('class', 'ad-loaded');
+                        }
+                    });
+                googletag.setConfig({ collapseDiv: 'BEFORE_FETCH' });
+                googletag.setConfig({ singleRequest: true });
+                googletag.enableServices();
+  });
+</script>
+<!-- END Google Publisher Tag HEAD CODE -->
+
+
+<!-- BEGIN Olytics HEAD CODE -->
+<link rel="stylesheet" href="https://olytics.omeda.com/olytics/css/v3/p/olytics.css" />
+
+<script type="text/plain" class="optanon-category-C0003">
+window.olytics||(window.olytics=[]),window.olytics.methods=["fire","confirm"],window.olytics.factory=function(i){return function(){var t=Array.prototype.slice.call(arguments);return t.unshift(i),window.olytics.push(t),window.olytics}};for(var i=0;i<window.olytics.methods.length;i++){var method=window.olytics.methods[i];window.olytics[method]=window.olytics.factory(method)}olytics.load=function(i){if(!document.getElementById("olyticsImport")){window.a=window.olytics;var t=document.createElement("script");t.async=!0,t.id="olyticsImport",t.type="text/javascript";var o="";void 0!==i&&void 0!==i.oid&&(o=i.oid),t.setAttribute("data-oid",o),t.src="https://olytics.omeda.com/olytics/js/v3/p/olytics.min.js",t.addEventListener("load",function(t){for(olytics.initialize({Olytics:i});window.a.length>0;){var o=window.a.shift(),s=o.shift();olytics[s]&&olytics[s].apply(olytics,o)}},!1);var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}},olytics.load({oid:"d158cf08e5844cba89cc42fe00c7776d"});
+</script>
+
+<script type="text/plain" class="optanon-category-C0003">
+olytics.fire(
+{
+behaviorId: '4458C7902034A6D',
+topic: 'AI,GenAI'
+}
+);
+</script>
+<!-- END Olytics HEAD CODE -->
+
+
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="color-scheme" content="light" />
+
+<link rel="icon" type="image/png" href="~/media/ECG/VirtualizationReview/favicon96x96.png" sizes="96x96">
+<link rel="apple-touch-icon" sizes="192x192" type="image/png" href="/design/ECG/VirtualizationReview/img/virt_apple_icon.png">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700" rel="stylesheet">
+<link rel="stylesheet" href="~/media/ECG/VirtualizationReview/design/css/style.css?v=38" type="text/css" />
+<link rel="stylesheet" href="~/media/ECG/shared/css/shared.css?v=3" media="print" onload="this.media='all'">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@VirtReview">
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+
+<script type='text/plain' class='optanon-category-C0004'> (function () {  _ml = window._ml || {};  _ml.eid = '50202';  _ml.fp = '';  _ml.ht = 'shex';  _ml.hem256 = '';  _ml.dm = '';  _ml.informer = { enable: true };  var s = document.getElementsByTagName('script')[0], cd = new Date(), mltag = document.createElement('script');  mltag.type = 'text/javascript'; mltag.async = true;  mltag.src = 'https://ml314.com/tag.aspx?' + cd.getDate() + cd.getMonth() + cd.getFullYear();  s.parentNode.insertBefore(mltag, s);  })(); </script>
+ 
+</head>
+
+<body id="Body1">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <form method="post" action="/articles/2026/09/28/openai-to-retire-custom-gpts-replace-them-with-plugins.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="form1" novalidate="">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZCBIjC6zCiEqmi_kDcnpBDGtmmPBmv3CrteKCAgzbUk5eSixZw2&amp;t=639202344265548063" type="text/javascript"></script>
+
+<script language="javascript" type="text/javascript">
+var id = ''; 
+
+function FocusSearchBox(ctl) {
+id = ctl;}
+
+function BlurSearchBox() {
+id = '';}
+
+document.onkeypress = function disableKey(e) { var evtobj = window.event ? event : e;var unicode = evtobj.charCode ? evtobj.charCode : evtobj.keyCode;if (unicode == 13) {if (id == '') {window.event.keyCode = 0;} else {document.getElementById("hdnSearch").value = id;document.getElementById(id.replace("txt", "btn")).click();} } }
+</script>
+<script src="/ScriptResource.axd?d=1HpV3OVB0CaEXoaafcqmhuV7MqD2kehRE4uU7zqn2VWaxa3qsEQalzHrhJunmxyCbVQ8blwGpLTHxt0JY0LPF-JdXItlw2vQCnNSI3BpUqnD1C-1wpC993mlLP3-WUMurk49aQ2&amp;t=4623e90" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=uHIkleVeDJf4xS50Krz-yKIbsogxsARipyAFZ-QiowLKCn8ZX1JtCja1u0RrZEEZKxAM5FV4haytxitTtZqqNpmPcKKA3BLDLu9ZENuGQ1JqfEWiAMP7CsbJ3uYqnV6u0i-h3IJxflq0io8vjqviaFadW7U1&amp;t=fffffffff7f39b88" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Jw6tUGWnA15YEa3ai3FadN4Tys6-s5-_WQA4GHsOVV0smV8btazs5-wG80pIg34-K80z7kuUkkVeuSqYVFgCETCeBJoAtRyb5fRiJArxgrrd7216Oo0fMsCemOyr51zDhUCnVS9jBHdvOboecnJG2jfa2V41&amp;t=fffffffff7f39b88" type="text/javascript"></script>
+<script src="../../../../sitecore/shell/Controls/Lib/jQuery/jquery-1.12.4.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A9DC696D" />
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'form1', ['tph_scontent1_2$OmedaDynamicFormPanel','ph_scontent1_2_OmedaDynamicFormPanel'], [], ['ph_scontent1_2$btnSubmit','ph_scontent1_2_btnSubmit'], 90, '');
+//]]>
+</script>
+
+         
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W4RHP2C"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+ 
+ 
+
+
+
+    
+        <div class="wrapper">
+            
+    <div class="ad">
+        <div id="div-gpt-ad-billboard-0001">
+            <script type="text/javascript">
+                googletag.cmd.push(function() {
+                    googletag.display('div-gpt-ad-billboard-0001');
+                });
+            </script>
+            <noscript>
+                <a href="https://pubads.g.doubleclick.net/gampad/jump?iu=/5978/eof.vrt&t=item%253d28873d79_6054_4264_9803_e26d251d49a2%26pos%253dbillboard%26Topic%253dAI%252cGenAI&sz=1800x450&tile=1&c=123456789" target="_blank" >
+                <img src="https://pubads.g.doubleclick.net/gampad/ad?iu=/5978/eof.vrt&t=item%253d28873d79_6054_4264_9803_e26d251d49a2%26pos%253dbillboard%26Topic%253dAI%252cGenAI&sz=1800x450&tile=1&c=123456789" border="0" alt="" />
+                </a>
+            </noscript>
+        </div>
+    </div>
+
+
+            
+
+<NOINDEX>
+
+<div id="ph_wrapper2_0_pnlSearch" class="search">
+	
+    <fieldset>
+        <input name="ph_wrapper2_0$txtSearch" type="text" id="ph_wrapper2_0_txtSearch" onFocus="FocusSearchBox(&#39;ph_wrapper2_0_txtSearch&#39;)" onBlur="BlurSearchBox()" />        
+        
+        <input type="submit" name="ph_wrapper2_0$btnSearch" value="Search" id="ph_wrapper2_0_btnSearch" class="submit" formnovalidate="" />
+        <p id="ph_wrapper2_0_AdvancedFormLink" class="advanced"><a href="virtualizationreview.com/Forms/Advanced-Search.aspx">Advanced Search</a></p>
+	    <input type="hidden" id="hdnSearch" name="hdnSearch" visible="false" />
+	</fieldset>
+
+</div>
+
+</NOINDEX>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div class="leaderboard">
+                <a href="#main" class="skip-main">Skip to main content</a>
+<div class="leaderboardinner">
+
+
+<h1>
+
+<a href="/" aria-label="Virtualization Review Home Page">
+
+   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             width="100%" height="100%" viewBox="0 0 547 90" enable-background="new 0 0 547 90" xml:space="preserve" aria-hidden="true">
+        <path id="svgHover_2_" class="svgHover" fill="#3690C9" d="M408.105,13.725h-9.597c-0.791,0-1.286-0.605-1.286-1.336V7.854
+            c0-0.733,0.495-1.268,1.286-1.268h9.597c0.788,0,1.362,0.535,1.362,1.268v4.535C409.469,13.12,408.895,13.725,408.105,13.725z"/>
+        <path fill="#FFFFFF" d="M50.783,9.359l-10.67,41.463c-1.648,6.418-6.875,7.425-11.816,7.425c-4.946,0-10.242-1.007-11.89-7.425
+            L5.733,9.359c0-0.138-0.07-0.204-0.07-0.336c0-0.601,0.571-1.071,1.286-1.071h9.959c0.715,0,1.288,0.539,1.431,1.204l8.953,38.589
+            c0.146,0.737,0.361,1.004,1.005,1.004c0.647,0,0.859-0.267,1-1.004l8.953-38.59c0.144-0.666,0.644-1.204,1.361-1.204H49.64
+            c0.714,0,1.215,0.402,1.215,1.071C50.855,9.087,50.783,9.221,50.783,9.359z"/>
+        <path fill="#FFFFFF" d="M113.875,57.641h-10.959c-0.787,0-1.07-0.664-1.432-1.33l-9.598-16.925L91.1,39.448
+            c-1.504,0-3.724-0.128-5.086-0.128v16.991c0,0.731-0.643,1.33-1.433,1.33H75.27c-0.788,0-1.433-0.599-1.433-1.33V11.433
+            c0-2.277,1.001-2.882,3.223-3.212c3.295-0.468,9.387-0.872,14.541-0.872c12.176,0,21.561,3.813,21.561,15.648v0.87
+            c0,7.092-4.013,11.442-9.24,13.375l10.814,18.867c0.145,0.264,0.215,0.531,0.215,0.729
+            C114.951,57.311,114.664,57.641,113.875,57.641z M100.984,22.997c0-4.077-3.366-5.948-9.383-5.948c-1.002,0-4.729,0.132-5.588,0.198
+            V30.09c0.788,0.064,4.297,0.132,5.086,0.132c7.52,0,9.885-1.804,9.885-6.354V22.997z"/>
+        <path fill="#FFFFFF" d="M151.825,17.475H140.22v38.919c0,0.731-0.642,1.338-1.433,1.338h-9.383c-0.785,0-1.433-0.605-1.433-1.338
+            V17.475h-11.675c-0.787,0-1.431-0.538-1.431-1.274V9.313c0-0.733,0.644-1.27,1.431-1.27h35.528c0.788,0,1.506,0.536,1.506,1.27
+            v6.888C153.331,16.938,152.613,17.475,151.825,17.475z"/>
+        <path fill="#FFFFFF" d="M177.876,58.247c-11.389,0-20.632-4.013-20.632-19.264V9.221c0-0.731,0.646-1.27,1.436-1.27h9.381
+            c0.789,0,1.436,0.539,1.436,1.27v29.762c0,6.824,1.934,9.701,8.38,9.701c6.443,0,8.45-2.877,8.45-9.701V9.221
+            c0-0.731,0.645-1.27,1.434-1.27h9.309c0.787,0,1.506,0.539,1.506,1.27v29.762C198.574,54.234,189.264,58.247,177.876,58.247z"/>
+        <path fill="#FFFFFF" d="M244.051,57.641h-10.027c-0.716,0-1.287-0.533-1.43-1.201l-2.581-10.966h-14.685l-2.576,10.966
+            c-0.143,0.668-0.717,1.201-1.432,1.201h-10.027c-0.717,0-1.216-0.399-1.216-1.066c0-0.069,0.065-0.2,0.065-0.335l10.676-41.466
+            c1.647-6.419,6.947-7.424,11.889-7.424c4.944,0,10.173,1.005,11.816,7.424l10.676,41.466c0,0.135,0.07,0.266,0.07,0.335
+            C245.27,57.24,244.768,57.641,244.051,57.641z M223.639,17.852c-0.145-0.67-0.287-1.003-0.932-1.003s-0.86,0.333-1.004,1.003
+            l-4.367,18.459h10.672L223.639,17.852z"/>
+        <path fill="#FFFFFF" d="M277.006,57.371c-2.363,0.477-7.877,0.876-11.675,0.876c-9.241,0-17.479-2.209-17.479-14.381V9.293
+            c0-0.742,0.646-1.342,1.435-1.342h9.383c0.785,0,1.43,0.6,1.43,1.342v34.573c0,3.479,1.221,4.548,4.586,4.548h12.32
+            c0.787,0,1.434,0.604,1.434,1.342v6.215C278.438,56.84,278.008,57.176,277.006,57.371z"/>
+        <path fill="#FFFFFF" d="M391.117,17.382h-11.605v38.929c0,0.731-0.646,1.33-1.428,1.33h-9.382c-0.788,0-1.438-0.599-1.438-1.33
+            V17.382h-11.672c-0.785,0-1.431-0.534-1.431-1.269V9.221c0-0.731,0.646-1.27,1.431-1.27h35.525c0.789,0,1.504,0.539,1.504,1.27
+            v6.892C392.621,16.848,391.906,17.382,391.117,17.382z"/>
+        <path fill="#FFFFFF" d="M435.918,58.777c-11.817,0-21.206-5.951-21.206-21.466v-7.96c0-15.516,9.389-21.467,21.206-21.467
+            c11.818,0,21.199,5.951,21.199,21.467v7.96C457.117,52.826,447.736,58.777,435.918,58.777z M444.801,29.351
+            c0-8.024-2.869-11.433-8.883-11.433c-6.016,0-8.809,3.409-8.809,11.433v7.96c0,8.026,2.793,11.433,8.809,11.433
+            c6.014,0,8.883-3.407,8.883-11.433V29.351z"/>
+        <path fill="#FFFFFF" d="M500.352,57.641h-7.021c-1.501,0-2.574-0.27-3.725-2.067L473.28,29.221
+            c-0.288-0.402-0.431-0.535-0.646-0.535c-0.215,0-0.362,0.133-0.362,0.535v27.089c0,0.732-0.642,1.33-1.433,1.33h-8.449
+            c-0.787,0-1.436-0.598-1.436-1.33V10.494c0-1.407,1.221-2.542,2.728-2.542h7.233c1.429,0,2.147,0.668,3.008,2.075L490.9,37.58
+            c0.284,0.399,0.356,0.535,0.571,0.535c0.14,0,0.358-0.136,0.358-0.598V9.221c0-0.731,0.644-1.27,1.431-1.27h8.453
+            c0.787,0,1.428,0.539,1.428,1.27v45.88C503.141,56.504,501.854,57.641,500.352,57.641z"/>
+        <path fill="#FFFFFF" d="M66.07,57.641h-9.598c-0.789,0-1.289-0.598-1.289-1.33V21.141c0-0.737,0.5-1.273,1.289-1.273h9.598
+            c0.788,0,1.362,0.536,1.362,1.273v35.169C67.433,57.043,66.858,57.641,66.07,57.641z"/>
+        <path id="svgHover" class="svgHover" fill="#3690C9" d="M66.141,15.018h-9.598c-0.787,0-1.288-0.601-1.288-1.337V9.15c0-0.736,0.501-1.27,1.288-1.27
+            h9.598c0.791,0,1.359,0.534,1.359,1.27v4.53C67.5,14.417,66.932,15.018,66.141,15.018z"/>
+        <path fill="#FFFFFF" d="M293.098,57.641H283.5c-0.787,0-1.289-0.598-1.289-1.33V21.113c0-0.737,0.502-1.272,1.289-1.272h9.598
+            c0.789,0,1.361,0.535,1.361,1.272v35.198C294.459,57.043,293.887,57.641,293.098,57.641z"/>
+        <path id="svgHover_1_" class="svgHover" fill="#3690C9" d="M293.094,14.953h-9.6c-0.787,0-1.283-0.598-1.283-1.335V9.086
+            c0-0.735,0.496-1.27,1.283-1.27h9.6c0.793,0,1.365,0.535,1.365,1.27v4.531C294.459,14.354,293.887,14.953,293.094,14.953z"/>
+        <path fill="#FFFFFF" d="M408.081,57.641h-9.599c-0.787,0-1.288-0.598-1.288-1.33V21.314c0-0.732,0.501-1.268,1.288-1.268h9.599
+            c0.784,0,1.354,0.535,1.354,1.268v34.997C409.438,57.043,408.865,57.641,408.081,57.641z"/>
+        <path fill="#FFFFFF" d="M370.738,82.396l-23.43-66.455c-2.34-7.977-7.06-7.991-13.234-7.894l-32.479-0.097
+            c-0.791,0-1.433,0.539-1.433,1.27v7.359c0,0.734,0.642,1.271,1.433,1.271h17.829c0.509,0,0.789,0.202,0.789,0.534
+            c0,0.2-0.065,0.402-0.28,0.67l-19.985,28.22c-0.86,1.205-1.076,2.01-1.076,2.945v5.352c0,1.471,1.292,2.068,2.937,2.068h32.504
+            c0.781,0,1.433-0.599,1.433-1.33v-7.359c0-0.734-0.649-1.207-1.433-1.207h-19.319c-0.504,0-0.793-0.202-0.793-0.469
+            c0-0.197,0.146-0.465,0.36-0.73l20.098-28.778c0.217-0.235,0.43-0.353,0.775-0.353c0.611,0,0.957,0.307,1.197,1.026l4.383,13.506
+            l0.016,0.02l-11.092,0.021c-0.801,0-1.299,0.646-1.299,1.531v5.461c0,0.89,0.498,1.611,1.299,1.611l13.845-0.014l14.215,42.021
+            c0.146,0.676,0.723,1.221,1.442,1.221h10.143c0.72,0,1.232-0.409,1.232-1.086C370.812,82.669,370.738,82.533,370.738,82.396z"/>
+        <g id="svgHoverGroup">
+            <path fill="#3690C9" class="svgHover" d="M395.275,83.002h-1.808c-0.235,0-0.315-0.08-0.42-0.184l-1.312-1.416c-1.284,1.103-3.014,1.781-5.164,1.781
+                c-3.197,0-6.424-1.23-6.424-4.795v-0.212c0-2.174,1.129-3.483,3.775-5.161l-0.182-0.211c-2.465-2.83-2.729-3.933-2.729-5.088V67.51
+                c0-2.777,2.124-4.167,5.506-4.167c2.91,0,5.217,1.39,5.217,4.167v0.207c0,1.76-0.707,2.967-4.012,5.192l-0.732,0.498l4.744,5.108
+                c0.709-1.257,1.021-2.883,1.021-4.609V73.54c0-0.289,0.133-0.422,0.421-0.422h1.125c0.287,0,0.445,0.133,0.445,0.422v0.366
+                c0,2.279-0.552,4.402-1.651,6.027l2.334,2.488c0.104,0.105,0.133,0.211,0.133,0.288C395.566,82.896,395.407,83.002,395.275,83.002z
+                 M385.264,74.459c-2.098,1.309-2.699,2.12-2.699,3.719v0.211c0,2.122,1.887,2.986,4.011,2.986c1.678,0,2.963-0.521,3.907-1.336
+                L385.264,74.459z M389.564,67.511c0-1.729-1.234-2.409-3.043-2.409c-1.992,0-3.355,0.603-3.355,2.409v0.207
+                c0,0.921,0.133,1.628,2.229,3.933l0.263,0.289l0.893-0.549c2.543-1.572,3.017-2.229,3.017-3.673v-0.207H389.564z"/>
+            <path fill="#3690C9" class="svgHover" d="M412.822,82.846c-1.103,0.209-2.124,0.34-4.353,0.34c-3.225,0-6.92-1.729-6.92-8.1v-3.645
+                c0-6.42,3.695-8.099,6.92-8.099c1.65,0,3.25,0.236,4.402,0.419c0.236,0.026,0.42,0.104,0.42,0.342v1.336
+                c0,0.16-0.053,0.289-0.313,0.289c-0.027,0-0.054,0-0.078,0c-0.943-0.078-2.885-0.235-4.406-0.235c-2.566,0-4.56,1.493-4.56,5.948
+                v3.645c0,4.402,1.992,5.951,4.56,5.951c1.496,0,3.383-0.133,4.328-0.21c0.024,0,0.078,0,0.104,0c0.289,0,0.419,0.13,0.419,0.419
+                v1.074C413.345,82.635,413.109,82.793,412.822,82.846z"/>
+            <path fill="#3690C9" class="svgHover"  d="M417.352,83.002h-1.361c-0.263,0-0.473-0.236-0.473-0.525V63.789c0-0.264,0.185-0.497,0.473-0.497h1.361
+                c0.265,0,0.476,0.208,0.476,0.497v18.688C417.826,82.738,417.641,83.002,417.352,83.002z"/>
+            <path fill="#3690C9" class="svgHover" d="M425.838,83.186c-3.853,0-5.818-2.543-5.818-6.396v-1.992c0-3.854,1.967-6.395,5.818-6.395
+                c3.855,0,5.847,2.539,5.847,6.395v1.992C431.685,80.643,429.693,83.186,425.838,83.186z M429.377,74.797
+                c0-2.674-1.074-4.375-3.539-4.375c-2.438,0-3.51,1.676-3.51,4.375v1.992c0,2.674,1.048,4.377,3.51,4.377
+                c2.438,0,3.539-1.678,3.539-4.377V74.797z"/>
+            <path fill="#3690C9" class="svgHover" d="M444.084,83.002h-1.312c-0.288,0-0.496-0.236-0.496-0.525v-0.498c-1.441,0.814-2.623,1.207-4.168,1.207
+                c-3.147,0-4.562-1.965-4.562-5.453v-8.623c0-0.289,0.236-0.522,0.525-0.522h1.256c0.29,0,0.527,0.233,0.527,0.522v8.623
+                c0,2.646,0.889,3.461,2.881,3.461c1.101,0,2.333-0.42,3.539-1.024v-11.06c0-0.262,0.235-0.522,0.522-0.522h1.285
+                c0.262,0,0.496,0.233,0.496,0.522v13.367C444.58,82.766,444.371,83.002,444.084,83.002z"/>
+            <path fill="#3690C9" class="svgHover" d="M457.129,82.738c-1.628,0.316-3.225,0.445-4.824,0.445c-3.903,0-5.715-2.541-5.715-6.474v-1.887
+                c0-4.115,1.889-6.423,5.715-6.423c0.814,0,2.043,0.08,3.066,0.263v-4.875c0-0.265,0.211-0.497,0.5-0.497h1.336
+                c0.262,0,0.47,0.208,0.47,0.497v18.348C457.677,82.477,457.6,82.66,457.129,82.738z M455.371,70.604
+                c-0.863-0.156-2.229-0.182-3.066-0.182c-2.567,0-3.407,1.598-3.407,4.402v1.887c0,2.857,0.812,4.455,3.407,4.455
+                c0.893,0,2.177-0.078,3.066-0.158V70.604z"/>
+            <path fill="#3690C9"class="svgHover"  d="M478.594,83.002h-1.678c-0.314,0-0.472,0-0.682-0.342l-4.691-7.811c-0.078,0-0.157,0-0.236,0
+                c-0.155,0-0.289,0-0.444,0c-0.865,0-1.495-0.025-2.884-0.078v7.705c0,0.262-0.184,0.524-0.472,0.524h-1.417
+                c-0.261,0-0.471-0.235-0.471-0.524V64.129c0-0.365,0.158-0.523,0.629-0.576c1.127-0.132,3.094-0.209,4.613-0.209
+                c4.143,0,7.342,1.389,7.342,5.635v0.185c0,2.937-1.732,4.668-4.118,5.297l4.771,7.965c0.053,0.081,0.079,0.158,0.079,0.236
+                C478.936,82.846,478.803,83.002,478.594,83.002z M475.842,68.979c0-2.621-1.704-3.484-4.979-3.484c-0.812,0-2.254,0-2.884,0.076
+                v7.184c1.153,0.028,2.281,0.053,2.884,0.053c3.224,0,4.979-0.812,4.979-3.644V68.979z"/>
+            <path fill="#3690C9"  class="svgHover" d="M490.426,76.527h-8.778v0.367c0,3.119,1.229,4.271,3.642,4.271c1.521,0,3.46-0.104,4.665-0.287
+                c0.055,0,0.08,0,0.133,0c0.209,0,0.419,0.104,0.419,0.367v0.891c0,0.34-0.104,0.523-0.522,0.602
+                c-1.493,0.291-2.938,0.447-4.693,0.447c-3.013,0-5.948-1.416-5.948-6.289v-2.36c0-3.746,2.07-6.134,5.817-6.134
+                c3.828,0,5.767,2.414,5.767,6.134v1.415C490.924,76.29,490.739,76.527,490.426,76.527z M488.593,74.535
+                c0-2.962-1.129-4.113-3.436-4.113c-2.253,0-3.511,1.281-3.511,4.113v0.236h6.945L488.593,74.535L488.593,74.535z"/>
+            <path fill="#3690C9" class="svgHover" d="M503.744,69.215l-3.54,12.477c-0.343,1.18-1.23,1.494-2.359,1.494c-1.125,0-2.018-0.314-2.358-1.494
+                l-3.536-12.477c-0.027-0.078-0.027-0.133-0.027-0.184c0-0.264,0.158-0.444,0.419-0.444h1.442c0.209,0,0.391,0.155,0.498,0.495
+                l3.014,11.43c0.156,0.629,0.288,0.762,0.55,0.762c0.237,0,0.393-0.133,0.552-0.762l3.015-11.43c0.104-0.34,0.289-0.495,0.497-0.495
+                h1.441c0.263,0,0.42,0.183,0.42,0.444C503.77,69.082,503.77,69.137,503.744,69.215z"/>
+            <path fill="#3690C9" class="svgHover" d="M508.058,66.277h-1.337c-0.288,0-0.524-0.234-0.524-0.521v-2.099c0-0.288,0.236-0.523,0.524-0.523h1.337
+                c0.289,0,0.524,0.235,0.524,0.523v2.099C508.582,66.043,508.347,66.277,508.058,66.277z M508.006,83.002h-1.26
+                c-0.289,0-0.523-0.236-0.523-0.525V69.109c0-0.289,0.234-0.522,0.523-0.522h1.26c0.289,0,0.523,0.233,0.523,0.522v13.367
+                C508.529,82.766,508.295,83.002,508.006,83.002z"/>
+            <path fill="#3690C9" class="svgHover" d="M521.939,76.527h-8.777v0.367c0,3.119,1.229,4.271,3.639,4.271c1.522,0,3.461-0.104,4.67-0.287
+                c0.051,0,0.078,0,0.129,0c0.211,0,0.42,0.104,0.42,0.367v0.891c0,0.34-0.104,0.523-0.522,0.602
+                c-1.494,0.291-2.937,0.447-4.695,0.447c-3.012,0-5.946-1.416-5.946-6.289v-2.36c0-3.746,2.07-6.134,5.817-6.134
+                c3.826,0,5.769,2.414,5.769,6.134v1.415C522.439,76.29,522.255,76.527,521.939,76.527z M520.105,74.535
+                c0-2.962-1.125-4.113-3.435-4.113c-2.254,0-3.51,1.281-3.51,4.113v0.236h6.942v-0.236H520.105z"/>
+            <path fill="#3690C9" class="svgHover" d="M542.487,69.215l-2.542,12.16c-0.342,1.652-0.629,1.811-2.203,1.811c-1.361,0-1.73-0.235-2.149-1.89
+                l-2.28-8.909c-0.051-0.184-0.051-0.184-0.132-0.184c-0.077,0-0.077,0-0.128,0.184l-2.281,8.909c-0.393,1.522-0.784,1.89-2.147,1.89
+                c-1.573,0-1.863-0.184-2.205-1.811l-2.547-12.16c0-0.027,0-0.078,0-0.104c0-0.264,0.212-0.523,0.5-0.523h1.416
+                c0.236,0,0.421,0.208,0.449,0.417l2.176,11.953c0.051,0.315,0.131,0.315,0.211,0.315c0.078,0,0.156-0.08,0.207-0.315l2.57-10.063
+                c0.157-0.578,0.495-0.787,1.046-0.787h1.47c0.551,0,0.891,0.209,1.049,0.787l2.569,10.063c0.052,0.235,0.13,0.315,0.208,0.315
+                c0.079,0,0.158,0,0.211-0.315l2.175-11.953c0.026-0.209,0.212-0.417,0.447-0.417h1.414c0.29,0,0.498,0.262,0.498,0.523
+                C542.487,69.137,542.487,69.188,542.487,69.215z"/>
+        </g>
+        <path fill="none" stroke="#FAAF40" stroke-miterlimit="10" d="M-531.529,78.059"/>
+        <path fill="none" stroke="#FAAF40" stroke-miterlimit="10" d="M633.018,78.059"/>
+        </svg>
+<span class="brand-tagline">Tracking enterprise infrastructure's evolution in the AI era</span>
+</a>
+</h1>
+
+
+<button id="menu-toggle" class="menu-toggle" aria-label="Expand menu"></button>
+
+<div class="PreferredSourceButtonWrapper">
+<a href="https://www.google.com/preferences/source?q=virtualizationreview.com" target="_blank" rel="noopener noreferrer" data-event-name="preferred-source" data-element-label="Add as a preferred source on Google" data-location="NAVIGATION" data-type="BUTTON" class="preferred-source-button">
+<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" aria-hidden="true"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"></path><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"></path><path d="M1 1h22v22H1z" fill="none"></path></svg>
+Add as a preferred source on Google </a>
+</div>
+
+
+
+
+<NOINDEX>
+
+<!-- component markup start -->
+<div class='topnav no-js'>
+    <ul class="topnavlist"><li><a href="https://virtualizationreview.com/home.aspx">Home</a></li><li><a href="https://virtualizationreview.com/whitepapers/list/vrt-tech-library-list.aspx">Papers</a></li><li><a href="https://virtualizationreview.com/webcasts/list/webcast-list.aspx">Webcasts</a></li><li><a href="/newslettersub">Newsletters</a></li><li><a href="https://converge360.com/pages/advertising/vcr.aspx">Advertise</a></li><li><a href="https://live360events.com/home.aspx">Training</a></li><li><a href="https://virtualizationreview.com/pages/summit-list/summits.aspx">Summits</a></li><li class=" topnav-more"><a class="hasChild" href="javascript:void(0);">More</a><ul><li><a href="https://virtualizationreview.com/articles/list/news.aspx">News</a></li><li><a href="https://virtualizationreview.com/pages/topic-pages/how-to-and-tutorials.aspx">How-To</a></li><li><a href="https://virtualizationreview.com/pages/contact-us.aspx">Contact Us</a></li><li><a href="https://virtualizationreview.com/pages/sitemap.aspx">Site Map</a></li></ul></li></ul>
+    <br class="clear" />
+</div>
+<!-- component markup end -->
+
+</NOINDEX>
+
+<div id="ph_leaderboard1_3_divBlockBox" class="social-top">
+	
+	<div id="ph_leaderboard1_3_divBody" class="summary"><ul>
+      <li class="social-icon linkedin"><a href="https://www.linkedin.com/company/virtualization-cloud-review" aria-label="Follow Virtualization Review on LinkedIn">
+        <img src="~/media/ECG/shared/img/socialmedia/linkedin_light.ashx" aria-hidden="true" alt="" width="20" height="20" fetchpriority="high"></a>
+      </li>
+
+            <li class="social-icon twitter">
+             <a href="https://twitter.com/VirtReview" aria-label="Follow Virtualization Review on X">
+                  <img src="~/media/ECG/shared/img/socialmedia/twitter_x_light.ashx" aria-hidden="true" alt="" width="16" height="16" fetchpriority="high"></a>
+           </li>
+
+            <li class="social-icon tiktok">
+                <a href="https://www.tiktok.com/@bytesizetechnews" aria-label="Follow Virtualization Review on TikTok">
+                <img src="~/media/ECG/shared/img/socialmedia/tiktok_light.ashx" aria-hidden="true" alt="" fetchpriority="high" width="20" height="20">
+                </a>
+            </li>
+
+            <li class="social-icon instagram">
+                <a href="https://www.instagram.com/bytesizetechnews/" aria-label="Follow Virtualization Review on Instagram">
+                    <img src="~/media/ECG/shared/img/socialmedia/instagram_light.ashx" aria-hidden="true" alt="" fetchpriority="high" width="20" height="20">
+                </a>
+            </li>
+
+            <li class="social-icon youtube">
+                <a href="https://youtube.com/@converge360" aria-label="Follow Virtualization Review on YouTube">
+                    <img src="~/media/ECG/shared/img/socialmedia/youtube_light.ashx" aria-hidden="true" alt="" width="22" height="17" fetchpriority="high"></a>
+            </li>
+
+
+            <li class="search-icon"><img src="/~/media/ECG/redmondmag/design/2019/search.svg" class="search-button" alt="Search" width="16" height="14" fetchpriority="high"></li>
+            <li class="search-icon-close"><img src="~/media/ECG/redmondmag/design/2019/searchclose.svg" class="search-button-close" alt="Close Search" width="16" height="14"></li>
+        </ul></div>
+	
+</div></div>
+
+
+
+                
+                
+                
+                
+                
+                
+                
+                
+                <div class="top-ads">
+
+
+
+                
+    <div class="ad">
+        <div id="div-gpt-ad-lead_t1-0002">
+            <script type="text/javascript">
+                googletag.cmd.push(function() {
+                    googletag.display('div-gpt-ad-lead_t1-0002');
+                });
+            </script>
+            <noscript>
+                <a href="https://pubads.g.doubleclick.net/gampad/jump?iu=/5978/eof.vrt&t=item%253d28873d79_6054_4264_9803_e26d251d49a2%26pos%253dlead_t1%26Topic%253dAI%252cGenAI&sz=970x250|728x90&tile=2&c=123456789" target="_blank" >
+                <img src="https://pubads.g.doubleclick.net/gampad/ad?iu=/5978/eof.vrt&t=item%253d28873d79_6054_4264_9803_e26d251d49a2%26pos%253dlead_t1%26Topic%253dAI%252cGenAI&sz=970x250|728x90&tile=2&c=123456789" border="0" alt="" />
+                </a>
+            </noscript>
+        </div>
+    </div>
+
+
+                                    <div class="ticker">
+
+
+
+                
+                </div>
+
+
+
+                </div>
+
+
+
+                
+
+<NOINDEX>
+
+<!-- component markup start -->
+<div class='sidenav'>
+    <ul class="sidenavlist"><li class=" topicsheader"><h2>Topics</h2></li><li><a href="https://virtualizationreview.com/pages/topic-pages/cloud-computing.aspx">Cloud</a></li><li><a href="https://virtualizationreview.com/pages/topic-pages/edge-and-ai.aspx">Edge & AI</a></li><li><a href="https://virtualizationreview.com/pages/topic-pages/containers.aspx">Containers/Kubernetes</a></li><li><a href="https://virtualizationreview.com/pages/topic-pages/end-user-computing-and-daas.aspx">End User Computing & DaaS</a></li><li><a href="https://virtualizationreview.com/pages/topic-pages/sdn.aspx">Networking & Security</a></li><li><a href="https://virtualizationreview.com/pages/topic-pages/virtualization-platforms.aspx">Virtualization Platforms</a></li><li><a href="https://virtualizationreview.com/pages/topic-pages/backup-and-recovery.aspx">Backup & Data Resilience</a></li></ul>
+    <br class="clear" />
+</div>
+<!-- component markup end -->
+
+</NOINDEX>
+
+
+                
+                
+                
+                
+            </div>		            
+
+            <header role="banner" class="header">            
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </header>
+                
+
+            <div id="main">
+    		
+                
+    <div class="ad">
+        <div id="div-gpt-ad-wallpaper_left-0003">
+            <script type="text/javascript">
+                googletag.cmd.push(function() {
+                    googletag.display('div-gpt-ad-wallpaper_left-0003');
+                });
+            </script>
+            <noscript>
+                <a href="https://pubads.g.doubleclick.net/gampad/jump?iu=/5978/eof.vrt&t=item%253d28873d79_6054_4264_9803_e26d251d49a2%26pos%253dwallpaper_left%26Topic%253dAI%252cGenAI&sz=152x500|152x600|160x600&tile=3&c=123456789" target="_blank" >
+                <img src="https://pubads.g.doubleclick.net/gampad/ad?iu=/5978/eof.vrt&t=item%253d28873d79_6054_4264_9803_e26d251d49a2%26pos%253dwallpaper_left%26Topic%253dAI%252cGenAI&sz=152x500|152x600|160x600&tile=3&c=123456789" border="0" alt="" />
+                </a>
+            </noscript>
+        </div>
+    </div>
+
+
+                
+    <div class="ad">
+        <div id="div-gpt-ad-wallpaper_right-0004">
+            <script type="text/javascript">
+                googletag.cmd.push(function() {
+                    googletag.display('div-gpt-ad-wallpaper_right-0004');
+                });
+            </script>
+            <noscript>
+                <a href="https://pubads.g.doubleclick.net/gampad/jump?iu=/5978/eof.vrt&t=item%253d28873d79_6054_4264_9803_e26d251d49a2%26pos%253dwallpaper_right%26Topic%253dAI%252cGenAI&sz=152x500|152x600|160x600&tile=4&c=123456789" target="_blank" >
+                <img src="https://pubads.g.doubleclick.net/gampad/ad?iu=/5978/eof.vrt&t=item%253d28873d79_6054_4264_9803_e26d251d49a2%26pos%253dwallpaper_right%26Topic%253dAI%252cGenAI&sz=152x500|152x600|160x600&tile=4&c=123456789" border="0" alt="" />
+                </a>
+            </noscript>
+        </div>
+    </div>
+
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+
+                 <div class="sideBar">
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+                
+                <div class="pContent">
+                    
+
+<div id='level0'>
+    <div id="article"> 
+        
+        <p id="ph_pcontent1_0_KickerText" class="kicker"><a href='https://virtualizationreview.com/articles/list/news.aspx'>News</a></p>
+        
+        <h3 id="ph_pcontent1_0_MainHeading" class="title">OpenAI to Retire Custom GPTs, Replace Them with Plugins</h3>
+        
+        
+        <ul id="ph_pcontent1_0_ByAuthor" class="byline">
+			<li class="author">By <a href="https://virtualizationreview.com/forms/emailtoauthor.aspx?AuthorItem={53762E17-6187-46B4-8C04-9DFA282EBB67}&ArticleItem={28873D79-6054-4264-9803-E26D251D49A2}">David Ramel</a></li><li class="date">09/28/2026</li>
+		</ul>
+
+        <div class="sidebar"><h3>Key Takeaways</h3>
+<ul>
+<li>OpenAI plans to retire Custom GPTs on Dec. 11, with account and workspace timing potentially varying.</li>
+<li>The replacement plugin architecture combines reusable skills with reference files, connected apps and optional MCP-based tools.</li>
+<li>Organizations will need to test migrated workflows because sharing settings, existing conversations and Custom Actions do not automatically transfer.</li>
+</ul>
+</div>
+
+
+
+<p>OpenAI is preparing to retire Custom GPTs and move the specialized workflows built around them to a new plugin architecture spanning ChatGPT and its Codex coding agent.</p>
+
+
+
+<p>The company <a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes" target="_blank">announced the change</a> Sept. 11 and currently schedules Custom GPT retirement for Dec. 11, 2026, although it says timing and migration availability can vary by account and workspace.</p>
+
+
+
+<p>For affected Enterprise workspaces, OpenAI's current <a href="https://help.openai.com/en/articles/20001519-custom-gpt-retirement-and-migration-faq" target="_blank">migration schedule</a> targets Oct. 26 for ending creation of new Custom GPTs. Qualifying Enterprise customers with approved deferrals can continue using them until Feb. 11, 2027.</p>
+
+    <div class="ad">
+        <div id="div-gpt-ad-box_c1-0005">
+            <script type="text/javascript">
+                googletag.cmd.push(function() {
+                    googletag.display('div-gpt-ad-box_c1-0005');
+                });
+            </script>
+            <noscript>
+                <a href="https://pubads.g.doubleclick.net/gampad/jump?iu=/5978/eof.vrt&t=item%253d28873d79_6054_4264_9803_e26d251d49a2%26pos%253dbox_c1%26Topic%253dAI%252cGenAI&sz=300x250&tile=5&c=123456789" target="_blank" >
+                <img src="https://pubads.g.doubleclick.net/gampad/ad?iu=/5978/eof.vrt&t=item%253d28873d79_6054_4264_9803_e26d251d49a2%26pos%253dbox_c1%26Topic%253dAI%252cGenAI&sz=300x250&tile=5&c=123456789" border="0" alt="" />
+                </a>
+            </noscript>
+        </div>
+    </div>
+
+<br />
+
+
+<p>OpenAI has changed its UI to make GPTs less prominent, and when users choose to try creating a new Custom GPT, they are now prompted with an option to create a plugin instead.
+</p>
+
+
+
+<div><figure>
+<img alt="Create Plugin Instead" src="~/media/ECG/visualstudiomagazine/Images/2026/09/create_plugin_instead.ashx" width="356" height="255">
+<figcaption>  Create Plugin Instead <em>(source: OpenAI).</em></figcaption>
+</figure></div>
+
+
+
+<p><span class="a12blub"><b>From Custom Assistants to Reusable Capabilities</b></span><br>
+Rather than maintaining separate customized versions of ChatGPT, OpenAI is shifting customization toward plugins that can package reusable instructions, reference material and connections to outside services.</p>
+
+
+
+<p>Under OpenAI's <a href="https://developers.openai.com/plugins/concepts/plugins" target="_blank">plugin architecture</a>, a plugin can include one or more skills containing instructions and resources for repeatable workflows, a Model Context Protocol (MCP) server exposing tools and external systems, or both. ChatGPT and Codex share a universal plugin directory, although some capabilities can remain specific to a particular environment.</p>
+
+
+
+<p>For organizations, that makes the change more than a simple renaming exercise. A company could package recurring workflows into skills while using MCP servers or connected apps to give those workflows access to enterprise systems and data.</p>
+
+
+
+<p>OpenAI says creators will be able to migrate an existing GPT through the My GPTs interface. The GPT's instructions become a skill in the replacement plugin, while knowledge files are copied into plugin reference files and connected apps can be carried over.</p>
+
+
+
+<p><span class="a12blub"><b>Migration Comes with Caveats</b></span><br>
+Not everything transfers automatically. Existing GPT conversations do not migrate, the selected model does not carry over and Custom Actions may have to be rebuilt using an available app or a custom MCP server.</p>
+
+
+
+<p>Sharing also changes. Migrated plugins start private, existing GPT users do not automatically receive access to the replacement and prior sharing settings do not carry over.</p>
+
+
+
+<p>OpenAI is also cautioning organizations against assuming that migration will preserve behavior exactly. "A migrated plugin may respond differently," the company says, recommending that users retest familiar prompts, reference-material use, required output formats and integrations before relying on the replacement.</p>
+
+
+
+<p>That warning has contributed to <a href="https://community.openai.com/t/custom-gpt-plugin-is-not-an-equivalent-migration/1400008" target="_blank">pushback from some GPT builders</a>, who argue that plugins do not fully reproduce the dedicated and predictable environment of a Custom GPT. Other complaints have focused on sharing, migration complexity and differences in how migrated workflows use instructions and reference material.</p>
+
+
+
+<p>Despite those concerns, OpenAI is clearly consolidating around plugins as its common mechanism for extending its AI products. Its developer documentation now describes plugins as packages users can "discover, install, share, and publish" across ChatGPT and Codex, replacing the separate-custom-assistant model with reusable AI capabilities that can be combined with enterprise tools and services.</p>
+<br />
+        
+        
+        
+        
+        
+        
+        
+        <!-- pager start -->
+        
+        <!-- pager end -->
+        
+        
+            
+        
+
+        
+                <div class="aboutAuthor">
+                    <p id="ph_pcontent1_0_AuthorInfo_AboutAuthor" class="author">About the Author</p>
+                    
+                <p>
+                    <strong></strong>
+                    <a href="/cdn-cgi/l/email-protection#5531273438303915163a3b23302732306663657b363a38" target="_blank">David Ramel</a> is an editor and writer at Converge 360.
+                    <br />
+                    
+                    <a id="ph_pcontent1_0_AuthorInfo_AuthorEmail_0"></a>
+                </p>
+            
+                </div>
+            
+    </div>
+</div>
+                    
+                    
+                    <div id="ph_pcontent4_0_divBlockBox" class="marketinglink">
+	
+	<div id="ph_pcontent4_0_divBody" class="summary"><div class="headline"><a href="https://virtualizationreview.com/webcasts/2018/07/druva-jul25.aspx?partnerref=link"><b>Recommended:</b> Solving VMware Backup Challenges with the Cloud</a> </div></div>
+	
+</div>
+                    <div id="ph_pcontent5_0_divListBox" class="bottomarticles">
+    <h4 id="ph_pcontent5_0_h4Header" class="L1CommonDLBheader">Featured</h4>
+    
+    <ul>
+                    
+                
+                <li id="ph_pcontent5_0_lvItemList_liListItem_0">
+                    
+                    
+                    <a href="https://virtualizationreview.com/articles/2026/10/01/why-tokenomics-is-more-than-just-counting-tokens.aspx"><img src='-/media/ECG/IntroImages/BlocksStackedMulticolored_647.jpg' alt='introimage' /></a>
+                    <h3 id="ph_pcontent5_0_lvItemList_h3Title_0"><a href="https://virtualizationreview.com/articles/2026/10/01/why-tokenomics-is-more-than-just-counting-tokens.aspx">Why Tokenomics Is More Than Just Counting Tokens</a></h3>
+                    
+                    
+                    
+                    
+                    
+                    <div class="MemberContentDescription"></div> 
+                    <div class="MemberContentPurchase"></div> 
+                    
+                    
+                </li>
+                
+            
+                
+                <li id="ph_pcontent5_0_lvItemList_liNativeArticleAd_1">
+                    <div id="ph_pcontent5_0_lvItemList_dvAdWrapper_1" class="native3">
+                    
+    <div class="ad">
+        <div id="div-gpt-ad-underarticlenat1-0102">
+            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+                googletag.cmd.push(function() {
+                var slot =                 googletag.defineSlot('/5978/eof.vrt', [[650,180]], 'div-gpt-ad-underarticlenat1-0102')
+                  .addService(googletag.pubads())
+                  .setConfig({ targeting: { item: [''] } })
+                  .setConfig({ targeting: { pos: ['underarticlenat1'] } });
+                googletag.display('div-gpt-ad-underarticlenat1-0102');
+                googletag.pubads().refresh([slot]);
+                });
+            </script>
+            <noscript>
+                <a href="https://pubads.g.doubleclick.net/gampad/jump?iu=/5978/eof.vrt&t=item%253d%26pos%253dunderarticlenat1&sz=650x180&tile=102&c=123456789" target="_blank" >
+                <img src="https://pubads.g.doubleclick.net/gampad/ad?iu=/5978/eof.vrt&t=item%253d%26pos%253dunderarticlenat1&sz=650x180&tile=102&c=123456789" border="0" alt="" />
+                </a>
+            </noscript>
+        </div>
+    </div>
+
+</div>
+                </li>
+            
+                <li id="ph_pcontent5_0_lvItemList_liListItem_2">
+                    
+                    
+                    <a href="https://virtualizationreview.com/articles/2026/09/25/stop-blaming-the-vm-how-dex-and-xlas-pinpoint-the-real-root-of-bad-user-experience.aspx"><img src='-/media/ECG/VirtualizationReview/Images/introimages2014/GEN4MulticolorCableTwist.jpg' /></a>
+                    <h3 id="ph_pcontent5_0_lvItemList_h3Title_2"><a href="https://virtualizationreview.com/articles/2026/09/25/stop-blaming-the-vm-how-dex-and-xlas-pinpoint-the-real-root-of-bad-user-experience.aspx">Stop Blaming the VM: How DEX and XLAs Pinpoint the Real Root of Bad User Experience</a></h3>
+                    
+                    
+                    
+                    
+                    
+                    <div class="MemberContentDescription"></div> 
+                    <div class="MemberContentPurchase"></div> 
+                    
+                    
+                </li>
+                
+            
+                <li id="ph_pcontent5_0_lvItemList_liListItem_3">
+                    
+                    
+                    <a href="https://virtualizationreview.com/articles/2026/09/15/ai-governance-expert-give-every-agent-its-own-identity-and-a-kill-switch.aspx"><img src='-/media/ECG/VirtualizationReview/Images/introimages2014/SecurePrivateCloud.jpg' /></a>
+                    <h3 id="ph_pcontent5_0_lvItemList_h3Title_3"><a href="https://virtualizationreview.com/articles/2026/09/15/ai-governance-expert-give-every-agent-its-own-identity-and-a-kill-switch.aspx">AI Governance Expert: Give Every Agent Its Own Identity -- and a Kill Switch</a></h3>
+                    
+                    
+                    
+                    
+                    
+                    <div class="MemberContentDescription"></div> 
+                    <div class="MemberContentPurchase"></div> 
+                    
+                    
+                </li>
+                
+            
+            
+    </ul>
+    <div id="ph_pcontent5_0_dvPagination" class="pagination">
+        <ul>
+            
+        </ul>
+    </div>
+    
+</div>
+                    
+                    
+                    
+                    
+                    <div class="mobile-flyout">
+    <div class="mobile-flyout-button">Most &nbsp; Popular</div>
+        <div class="flyout-mask"></div>
+
+        <div class="flyout-list">
+          <a class="flyout-close"></a>
+
+
+
+
+<NOINDEX>
+<!-- component markup start -->
+<div id="popular">
+    <div class="tabbedFields">
+        <ul class="tabMenu">
+            <li><a href="javascript:;">Most Popular Articles</a></li>
+            <li><a href="javascript:;">Most Emailed Articles</a></li>
+        </ul>
+        <!-- content 1 -->
+        <div class="tabContent">
+            
+                    <h3><a id="ph_pcontent10_1_PopularItemsRepeater_StoryHeadlineHyperLink_0" href="https://virtualizationreview.com/articles/2026/09/28/openai-to-retire-custom-gpts-replace-them-with-plugins.aspx">OpenAI to Retire Custom GPTs, Replace Them with Plugins</a></h3>
+                
+                    <h3><a id="ph_pcontent10_1_PopularItemsRepeater_StoryHeadlineHyperLink_1" href="https://virtualizationreview.com/articles/2026/10/01/thales-ai-and-quantum-risks-converge-on-enterprise-data-especially-in-the-cloud.aspx">Thales: AI and Quantum Risks Converge on Enterprise Data, Especially in the Cloud</a></h3>
+                
+                    <h3><a id="ph_pcontent10_1_PopularItemsRepeater_StoryHeadlineHyperLink_2" href="https://virtualizationreview.com/articles/2026/09/30/users-decry-loss-of-functionality-in-openai-mandated-custom-gpt-to-plugin-migration.aspx">Users Decry Problems in OpenAI-Mandated Custom GPT-to-Plugin Migration</a></h3>
+                
+                    <h3><a id="ph_pcontent10_1_PopularItemsRepeater_StoryHeadlineHyperLink_3" href="https://virtualizationreview.com/articles/2026/08/04/ditch-the-cloud-7-powerful-free-local-ai-tools.aspx">Ditch the Cloud: 7 Powerful, Free Local AI Tools</a></h3>
+                
+                    <h3><a id="ph_pcontent10_1_PopularItemsRepeater_StoryHeadlineHyperLink_4" href="https://virtualizationreview.com/articles/2026/09/23/gartner-broadcoms-vmware-deal-has-reinvigorated-server-virtualization.aspx">Gartner: Broadcom's VMware Deal Has 'Reinvigorated' Server Virtualization</a></h3>
+                
+        </div>
+        <!-- content 2 -->
+        <div class="tabContent">
+            
+        </div>
+    </div>
+</div>
+<!-- component markup end -->
+</NOINDEX>
+    <div class="ad">
+        <div id="div-gpt-ad-mobileflyout-0006">
+            <script type="text/javascript">
+                googletag.cmd.push(function() {
+                    googletag.display('div-gpt-ad-mobileflyout-0006');
+                });
+            </script>
+            <noscript>
+                <a href="https://pubads.g.doubleclick.net/gampad/jump?iu=/5978/eof.vrt&t=item%253d28873d79_6054_4264_9803_e26d251d49a2%26pos%253dmobileflyout%26Topic%253dAI%252cGenAI&sz=300x250&tile=6&c=123456789" target="_blank" >
+                <img src="https://pubads.g.doubleclick.net/gampad/ad?iu=/5978/eof.vrt&t=item%253d28873d79_6054_4264_9803_e26d251d49a2%26pos%253dmobileflyout%26Topic%253dAI%252cGenAI&sz=300x250&tile=6&c=123456789" border="0" alt="" />
+                </a>
+            </noscript>
+        </div>
+    </div>
+
+</div>
+
+
+
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    </div>
+
+
+
+                    
+                </div>
+                
+                <div class="sContent">
+                    <div class="youtubesubscribe" id="youtubesubscribe"><p>Subscribe on YouTube</p>
+<!--<div class="g-ytsubscribe" data-channelid="UCdvQHB5bDzZrlBuAYC5EiXw" data-layout="full" data-count="hidden"></div>
+
+
+<br><br>-->
+
+<a href="https://www.youtube.com/channel/UCdvQHB5bDzZrlBuAYC5EiXw?sub_confirmation=1" target="_blank" aria-label="Subscribe on our YouTube"> 
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 475 150.51701" aria-hidden="true"><circle cx="75.2585" cy="75.2585" r="75.2585" fill="#7f3f97"/><path d="m31.48666,48.46549l.01849.05711c.02559,1.30071-.4312,2.39023-1.37029,3.26896-.93861.87873-2.17896,1.31788-3.72062,1.31788-1.56713,0-2.84398-.55497-3.83039-1.66534-.98637-1.11013-1.47962-2.51857-1.47962-4.22522v-2.46471c0-1.70637.49325-3.11673,1.47962-4.22983.98641-1.11366,2.26326-1.67023,3.83039-1.67023,1.56668,0,2.81358.41737,3.74015,1.25154.92609.83413,1.37635,1.9397,1.35076,3.31625l-.01849.05715h-1.79885c0-.97069-.28542-1.73825-.85639-2.30296-.57097-.56443-1.37691-.84697-2.41718-.84697-1.04673,0-1.8809.42146-2.50244,1.26457-.6221.84317-.93315,1.88913-.93315,3.13767v2.48178c0,1.26138.31105,2.31356.93315,3.15672.62154.84312,1.45572,1.26458,2.50244,1.26458,1.04027,0,1.84621-.28057,2.41718-.84232.57097-.56118.85639-1.33693.85639-2.32663h1.79885Z" fill="#fff"/><path d="m45.57615,47.21888c0,1.69389-.52533,3.09932-1.57483,4.21571-1.05006,1.11663-2.41277,1.67485-4.08761,1.67485-1.61722,0-2.93265-.55822-3.94409-1.67485-1.012-1.11639-1.51768-2.52182-1.51768-4.21571v-2.46471c0-1.68736.50568-3.09278,1.51768-4.21567,1.01144-1.12293,2.32687-1.68439,3.94409-1.68439,1.67484,0,3.03756.56014,4.08761,1.6795,1.0495,1.11988,1.57483,2.52667,1.57483,4.22056v2.46471Zm-1.87449-2.48376c0-1.26863-.34253-2.30914-1.02772-3.12126-.68515-.81192-1.60527-1.2181-2.76023-1.2181-1.09084,0-1.96196.40619-2.61177,1.2181-.65042.81212-.97558,1.85263-.97558,3.12126v2.48376c0,1.2817.32516,2.32847.97558,3.14035.64981.81216,1.52093,1.21806,2.61177,1.21806,1.1615,0,2.08267-.40453,2.76456-1.21316.68194-.80915,1.02339-1.85728,1.02339-3.14524v-2.48376Z" fill="#fff"/><path d="m59.90375,52.90959h-1.87497l-6.67111-10.71529-.05659.01905v10.69624h-1.87496v-13.8556h1.87496l6.67059,10.69621.05711-.01901v-10.6772h1.87497v13.8556Z" fill="#fff"/><path d="m68.49282,49.46473l.3143,1.09433h.05655l.3143-1.09433,3.57813-10.41074h2.02721l-5.14854,13.8556h-1.60855l-5.14799-13.8556h2.03647l3.57813,10.41074Z" fill="#fff"/><path d="m85.97982,46.48617h-6.34703v4.94842h7.31768v1.475h-9.19265v-13.8556h9.08769v1.47497h-7.21273v4.48217h6.34703v1.47505Z" fill="#fff"/><path d="m92.07619,46.90486v6.00473h-1.87496v-13.8461h5.01475c1.51663,0,2.67437.33632,3.4737,1.00872.7994.67263,1.19905,1.64958,1.19905,2.931,0,.71069-.18544,1.32927-.55685,1.85564-.37085.52669-.91194.94534-1.62207,1.2562.76126.24741,1.30833.64869,1.64112,1.20394.33331.55513.49974,1.24167.49974,2.06009v1.30372c0,.43149.04728.81837.14301,1.16095.09461.34261.25992.62182.49485.83742v.22843h-1.93204c-.24749-.2156-.40622-.5329-.47584-.95163-.07014-.41869-.10439-.84994-.10439-1.29422v-1.26565c0-.74851-.21917-1.35128-.65691-1.80803-.43778-.45679-1.02451-.68519-1.76075-.68519h-3.4824Zm0-1.47501h2.94945c1.05988,0,1.82279-.20096,2.28881-.60305.46658-.40217.69982-1.01473.69982-1.83799,0-.77872-.22727-1.3818-.68078-1.80916-.45354-.42743-1.15938-.64115-2.11752-.64115h-3.13979v4.89135Z" fill="#fff"/><path d="m114.20654,51.07296c-.32954.5076-.90211.9739-1.71728,1.39889-.81564.42519-1.87008.63758-3.16425.63758-1.65583,0-3.02453-.52966-4.10611-1.58922-1.08214-1.05932-1.62267-2.42961-1.62267-4.111v-2.85488c0-1.6811.50464-3.05144,1.51278-4.111,1.00927-1.05928,2.30951-1.58922,3.90221-1.58922,1.58569,0,2.83206.39018,3.73963,1.17053.90704.78031,1.37034,1.78606,1.38934,3.01659l-.019.05715h-1.78906c-.05707-.80562-.36323-1.46847-.91844-1.98891-.55521-.52012-1.35618-.78035-2.40246-.78035-1.05984,0-1.91303.39619-2.56012,1.18874-.64709.79227-.97069,1.79693-.97069,3.01394v2.87141c0,1.22977.36162,2.24261,1.08491,3.03788.72321.79555,1.64276,1.19335,2.75968,1.19335.78629,0,1.43073-.10439,1.93208-.31322.50083-.20882.85916-.4462,1.07505-.7121v-3.14283h-3.03592v-1.47497h4.91032v5.08165Z" fill="#fff"/><path d="m126.7261,46.48617h-6.34703v4.94842h7.31768v1.475h-9.19265v-13.8556h9.08769v1.47497h-7.21273v4.48217h6.34703v1.47505Z" fill="#fff"/><path d="m33.11061,87.81649h4.06143c4.46412,0,7.97744-1.10985,10.53908-3.32996,2.56168-2.21963,3.84174-4.95192,3.84174-8.19673,0-3.58607-1.10344-6.53761-3.31116-8.85557-2.20852-2.31756-5.45891-3.47654-9.7521-3.47654-3.9519,0-7.23354,1.15898-9.84391,3.47654-2.61041,2.31796-3.91525,5.40381-3.91525,9.2579h-1.68355l-.07267-.21933c-.12224-4.31794,1.32317-7.81289,4.33631-10.48402,3.01225-2.67116,6.73893-4.00709,11.17907-4.00709,4.58563,0,8.23872,1.29919,10.95941,3.8972,2.71989,2.59805,4.0806,6.11731,4.0806,10.55713,0,2.8058-.88447,5.31871-2.65352,7.53838-1.76905,2.22011-4.15335,3.81815-7.15365,4.79374,3.46371.85415,6.15966,2.40303,8.08688,4.64716,1.92727,2.24481,2.89086,5.07451,2.89086,8.48958,0,4.63553-1.47661,8.2767-4.42738,10.92304-2.95234,2.64758-6.77013,3.97031-11.45398,3.97031-4.51365,0-8.50241-1.33553-11.9662-4.00665-3.46455-2.67153-5.13527-6.45892-5.01303-11.3621l.07351-.21977h1.68279c0,3.95198,1.44541,7.20884,4.33623,9.77051,2.89086,2.56164,6.51924,3.8421,10.88671,3.8421,4.39141,0,7.80647-1.12783,10.24587-3.38466,2.43944-2.25648,3.65954-5.385,3.65954-9.38611,0-4.14737-1.39668-7.21481-4.19008-9.2032-2.7934-1.98834-6.58076-2.98234-11.3621-2.98234h-4.06143v-2.0495Z" fill="#fff"/><path d="m77.33488,61.98169c1.85375,0,3.66507.20137,5.43412.6041,1.76826.40225,3.4334,1.05547,4.9947,1.95758l-.7686,1.86611c-1.61003-.92686-3.10429-1.56729-4.48257-1.92085-1.37831-.3536-3.10421-.53094-5.17766-.53094-4.07427,0-7.52599,1.54968-10.35617,4.64748-2.8301,3.09823-4.24439,7.18481-4.24439,12.25864v9.3314c1.14579-2.65881,2.98198-4.85449,5.50688-6.58677,2.5249-1.73191,5.44608-2.59805,8.76445-2.59805,4.80533,0,8.57432,1.6592,11.30696,4.97674,2.73184,3.31793,4.09825,7.72097,4.09825,13.20984,0,5.04985-1.48142,9.24627-4.44579,12.58822-2.96441,3.34272-6.73977,5.01303-11.32537,5.01303-4.63589,0-8.44165-1.77455-11.4172-5.32424-2.97636-3.54925-4.46416-8.27546-4.46416-14.17989v-16.39351c0-5.53764,1.60362-10.0753,4.81171-13.61261,3.20724-3.53722,7.12971-5.30628,11.76484-5.30628Zm-14.60055,33.70235v1.57374c0,5.2691,1.29281,9.5203,3.87843,12.75273,2.58566,3.23251,5.92798,4.84852,10.02694,4.84852,4.07338,0,7.39179-1.53697,9.95343-4.61078,2.56088-3.07381,3.84174-6.7573,3.84174-11.05129,0-4.92721-1.17057-8.86114-3.51252-11.80117-2.34195-2.93958-5.73302-4.40942-10.17316-4.40942-3.73225,0-6.99548,1.25054-9.7888,3.75066-2.79344,2.50096-4.19013,5.4833-4.19013,8.94701h-.03593Z" fill="#fff"/><path d="m130.27976,95.02568c0,6.95269-1.40867,12.31972-4.22682,16.1007-2.81735,3.78178-6.80049,5.67183-11.94698,5.67183-5.14811,0-9.14882-1.89642-12.00294-5.6902-2.85412-3.79298-4.28112-9.15403-4.28112-16.08233v-11.27103c0-6.92794,1.41424-12.289,4.24434-16.08269,2.83018-3.79301,6.81894-5.69028,11.9662-5.69028s9.14164,1.89727,11.98453,5.69028c2.84137,3.79369,4.26279,9.15475,4.26279,16.08269v11.27103Zm-1.97591-11.27103c0-6.19604-1.22014-11.04488-3.65958-14.54581-2.4394-3.50013-5.97747-5.25117-10.61183-5.25117-4.63513,0-8.16681,1.75105-10.59342,5.25117-2.42821,3.50093-3.64113,8.34977-3.64113,14.54581v11.19752c0,6.14771,1.22564,10.99655,3.67703,14.54581,2.45223,3.5497,5.99515,5.32432,10.63104,5.32432,4.61034,0,8.12931-1.76825,10.55668-5.30595,2.42745-3.53686,3.64121-8.39176,3.64121-14.56417v-11.19752Z" fill="#fff"/><rect x="162" y="29.35766" width="313" height="95" rx="12" ry="12" fill="red"/><path d="m261.3519,51.97668c-1.06668-4.18203-4.19901-7.4685-8.18448-8.58797-7.21631-2.03104-36.16675-2.03104-36.16675-2.03104,0,0-28.95005,0-36.16665,2.03104-3.98548,1.11947-7.1175,4.40594-8.18437,8.58797-1.9356,7.57241-1.9356,23.38098-1.9356,23.38098,0,0,0,15.80864,1.9356,23.38112,1.06687,4.182,4.19889,7.46844,8.18437,8.58772,7.2166,2.03116,36.16665,2.03116,36.16665,2.03116,0,0,28.95044,0,36.16675-2.03116,3.98548-1.11928,7.1178-4.40572,8.18448-8.58772,1.93571-7.57248,1.93571-23.38112,1.93571-23.38112,0,0-.00778-15.80857-1.93571-23.38098Z" fill="#fff"/><path d="m207.7346,89.92803l24.05025-14.569-24.05025-14.56924v29.13824Z" fill="red"/><g id="youtube-paths"><path d="m282.83362,85.5699l-10.39432-39.38948h9.06841l3.64267,17.85558c.92962,4.39793,1.60779,8.14817,2.04976,11.2507h.26666c.30491-2.22295.99087-5.94918,2.0501-11.18671l3.77195-17.91956h9.06841l-10.52392,39.38948v18.89516h-9.00718v-18.89516h.00745Z" fill="#fff"/><path d="m305.08522,103.21625c-1.82878-1.2954-3.132-3.31059-3.90933-6.0452-.76955-2.73462-1.15805-6.3648-1.15805-10.90686v-6.1812c0-4.58184.44196-8.26795,1.3259-11.04266.88393-2.77467,2.2633-4.80573,4.13777-6.07713,1.8748-1.2714,4.33607-1.91111,7.38447-1.91111,3.0024,0,5.40275.6477,7.21631,1.9431,1.8061,1.29537,3.13201,3.32642,3.97025,6.07713.83825,2.75869,1.25753,6.42882,1.25753,11.01066v6.1812c0,4.54206-.41151,8.18822-1.22674,10.93882-.81557,2.75876-2.14147,4.77394-3.97058,6.0452-1.82878,1.2716-4.31305,1.91114-7.44506,1.91114-3.23115.00782-5.75335-.6477-7.58245-1.9431Zm10.25726-6.66876c.50289-1.39128.7621-3.65432.7621-6.80476v-13.26578c0-3.05466-.25144-5.29363-.7621-6.70096-.51066-1.41532-1.40205-2.11898-2.68258-2.11898-1.23421,0-2.11069.70366-2.61356,2.11898-.51066,1.41535-.76211,3.6463-.76211,6.70096v13.26578c0,3.15044.24367,5.4213.73165,6.80476.48765,1.39128,1.36381,2.08692,2.64402,2.08692,1.28053,0,2.17192-.69564,2.68258-2.08692Z" fill="#fff"/><path d="m354.80874,104.47323h-7.14793l-.79257-5.21356h-.19798c-1.94349,3.93414-4.8545,5.90104-8.74084,5.90104-2.69002,0-4.67887-.92752-5.9591-2.7744-1.28021-1.85538-1.92047-4.7498-1.92047-8.68394v-31.81717h9.13711v31.25719c0,1.90332.19798,3.25448.59425,4.06232.39628.8075,1.05923,1.21516,1.98885,1.21516.79255,0,1.55465-.25568,2.28631-.76738.73164-.51204,1.26498-1.15974,1.62302-1.9431v-33.83218h9.12934v42.59602Z" fill="#fff"/><path d="m379.62919,53.89544h-9.06843v50.57609h-8.93881v-50.57609h-9.06841v-7.70838h27.07565v7.70838Z" fill="#fff"/><path d="m401.66694,104.47323h-7.14794l-.79255-5.21356h-.19799c-1.94317,3.93414-4.85418,5.90104-8.74084,5.90104-2.69004,0-4.67889-.92752-5.95909-2.7744-1.28021-1.85538-1.92048-4.7498-1.92048-8.68394v-31.81717h9.1371v31.25719c0,1.90332.19799,3.25448.59427,4.06232.39628.8075,1.05922,1.21516,1.98917,1.21516.79223,0,1.55433-.25568,2.28597-.76738.73164-.51204,1.265-1.15974,1.62303-1.9431v-33.83218h9.12935v42.59602Z" fill="#fff"/><path d="m431.90536,68.68924c-.55635-2.68671-1.44805-4.62981-2.68227-5.83726-1.23452-1.20741-2.93401-1.80713-5.09815-1.80713-1.6765,0-3.24638.49575-4.7019,1.49529-1.4555.99953-2.58344,2.30292-3.37599,3.92615h-.06835v-22.43743h-8.80175v60.43553h7.54422l.92961-4.03002h.19831c.70863,1.43922,1.76787,2.56666,3.17768,3.40646,1.40984.83164,2.97972,1.24746,4.7019,1.24746,3.08631,0,5.36484-1.49532,6.82034-4.47814,1.45552-2.99064,2.18684-7.65238,2.18684-14.0012v-6.74084c0-4.75789-.28192-8.49211-.83048-11.17886Zm-8.37501,17.3757c0,3.1025-.12182,5.5335-.36582,7.29266-.24367,1.75916-.64771,3.01478-1.22675,3.7502-.57157.74358-1.3489,1.11146-2.31675,1.11146-.75434,0-1.44773-.18394-2.08801-.55964-.63995-.36788-1.15805-.92752-1.55433-1.66328v-24.17257c.30456-1.15947.83824-2.103,1.59257-2.84665.74687-.74365,1.56988-1.11149,2.44604-1.11149.92993,0,1.64602.38383,2.14924,1.14349.51034.76762.86093,2.04704,1.05922,3.85417.19799,1.80713.29715,4.3739.29715,7.70827v5.49338h.00744Z" fill="#fff"/><path d="m445.69803,88.51974c0,2.73462.07614,4.78176.22877,6.14924.15228,1.36714.47242,2.35892.96006,2.99064.48767.62356,1.23454.93534,2.24807.93534,1.36413,0,2.30899-.55963,2.81186-1.6711.51066-1.11146.78511-2.9665.8308-5.5573l7.87958.48756c.04568.36788.06838.87958.06838,1.52728,0,3.93414-1.02879,6.87684-3.07855,8.81994-2.04976,1.9431-4.95334,2.91855-8.70259,2.91855-4.50359,0-7.6586-1.47934-9.46469-4.44584-1.81355-2.9665-2.71273-7.54834-2.71273-13.75368v-7.43648c0-6.38887.93739-11.05867,2.81189-14.00127,1.87479-2.94263,5.08293-4.41395,9.6322-4.41395,3.132,0,5.54014.59973,7.21664,1.80717,1.6765,1.20741,2.85754,3.07853,3.5435,5.62935.68596,2.55078,1.02879,6.06914,1.02879,10.56288v7.29266h-15.30197v2.159Zm1.15837-20.0705c-.46498.59969-.76954,1.58324-.92961,2.95059-.15263,1.36738-.22877,3.43839-.22877,6.22122v3.05456h6.68329v-3.05456c0-2.73486-.09137-4.80587-.26666-6.22122-.1753-1.41532-.49543-2.40686-.96041-2.99057-.46466-.57572-1.18107-.87159-2.14892-.87159-.97529.00799-1.6917.31185-2.14892.91157Z" fill="#fff"/></g></svg></a>
+
+
+</div>
+
+
+
+    <div class="ad">
+        <div id="div-gpt-ad-box_r1-0007">
+            <script type="text/javascript">
+                googletag.cmd.push(function() {
+                    googletag.display('div-gpt-ad-box_r1-0007');
+                });
+            </script>
+            <noscript>
+                <a href="https://pubads.g.doubleclick.net/gampad/jump?iu=/5978/eof.vrt&t=item%253d28873d79_6054_4264_9803_e26d251d49a2%26pos%253dbox_r1%26Topic%253dAI%252cGenAI&sz=300x250|300x600&tile=7&c=123456789" target="_blank" >
+                <img src="https://pubads.g.doubleclick.net/gampad/ad?iu=/5978/eof.vrt&t=item%253d28873d79_6054_4264_9803_e26d251d49a2%26pos%253dbox_r1%26Topic%253dAI%252cGenAI&sz=300x250|300x600&tile=7&c=123456789" border="0" alt="" />
+                </a>
+            </noscript>
+        </div>
+    </div>
+
+
+<script type="text/javascript">
+
+    (function () {
+        var originalValidationSummaryOnSubmit = window.ValidationSummaryOnSubmit;
+        window.ValidationSummaryOnSubmit = function (validationGroup) {
+            var originalScrollTo = window.scrollTo;
+            window.scrollTo = function () { };
+            originalValidationSummaryOnSubmit(validationGroup);
+            window.scrollTo = originalScrollTo;
+        } 
+    } ());
+
+    function ValidateCheckBoxList(sender, args) {
+        var checkBoxList = document.getElementById(sender.attributes.checkboxlistclientid.nodeValue);
+        var checkboxes = checkBoxList.getElementsByTagName("input");
+        var isValid = false;
+        for (var i = 0; i < checkboxes.length; i++) {
+            if (checkboxes[i].checked) {
+                isValid = true;
+                break;
+            }
+        }
+        args.IsValid = isValid;
+    }
+
+    function GDPRValidation(oSrouce, args) {
+         var rb = document.getElementById("ph_scontent1_2_rblGDPR");
+         var radio = rb.getElementsByTagName("input");
+         args.IsValid = false;
+         for (var i = 0; i < radio.length; i++) {
+             if (radio[i].checked) {
+                 args.IsValid = true;
+                 break;
+             }
+         }
+     }
+</script>
+
+
+<div id="omedaDynamicForm">
+     <div id="ph_scontent1_2_OmedaDynamicFormPanel">
+	
+		    <div id="ph_scontent1_2_dvOmedaDynamicForm" class="newsletter-form">
+			    <div data-val-validationGroup="OmedaDynamicForm" id="ph_scontent1_2_vlSummary" class="omedaDynamicFormErrorList" data-valsummary="true" style="display:none;">
+
+	</div>
+			    
+
+                <div id="ph_scontent1_2_dvOmedaDynamicFormFields" class="omedaDynamicFormFields">
+                    <div id="form-header">
+
+<div class="pubname">Virtualization Review</div>
+<div class="signupheader">Sign up for our newsletter.</div>
+
+</div>
+
+
+<span id="ph_scontent1_2_lblEmail_Address01" class="omedaDynamicFormLabel" for="txtEmail_Address01">Email Address*</span><input name="ph_scontent1_2$txtEmail_Address01" type="text" id="ph_scontent1_2_txtEmail_Address01" class="omedaDynamicFormInput" placeholder="Email Address*" LCSQuestionId="1" /><span data-val-controltovalidate="ph_scontent1_2_txtEmail_Address01" data-val-errormessage="Email Address is a required field. " data-val-display="Dynamic" data-val-validationGroup="OmedaDynamicForm" id="ph_scontent1_2_requiredEmail_Address01" class="omedaDynamicFormRequires" data-val="true" data-val-evaluationfunction="RequiredFieldValidatorEvaluateIsValid" data-val-initialvalue="" style="display:none;">*</span><span data-val-controltovalidate="ph_scontent1_2_txtEmail_Address01" data-val-errormessage="Please enter a valid Email" data-val-display="Dynamic" data-val-validationGroup="OmedaDynamicForm" id="ph_scontent1_2_validationEmail_Address01" class="omedaDynamicFormValidation" data-val="true" data-val-evaluationfunction="RegularExpressionValidatorEvaluateIsValid" data-val-validationexpression="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" style="display:none;">*</span><span id="ph_scontent1_2_lblCountry02" class="omedaDynamicFormLabel" for="ddlCountry02">Country*</span><select name="ph_scontent1_2$ddlCountry02" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ph_scontent1_2$ddlCountry02\&#39;,\&#39;\&#39;)&#39;, 0)" id="ph_scontent1_2_ddlCountry02" class="omedaDynamicFormDropDown" placeholder="Country*" LCSQuestionId="3">
+		<option selected="selected" value="" isGDPR="False" isUS="False" isCA="False"></option>
+		<option value="USA" isGDPR="False" isUS="True" isCA="False">United States of America</option>
+		<option value="AFG" isGDPR="False" isUS="False" isCA="False">Afghanistan</option>
+		<option value="ALA" isGDPR="False" isUS="False" isCA="False">&#197;land Islands</option>
+		<option value="ALB" isGDPR="False" isUS="False" isCA="False">Albania</option>
+		<option value="DZA" isGDPR="False" isUS="False" isCA="False">Algeria</option>
+		<option value="ASM" isGDPR="False" isUS="False" isCA="False">American Samoa</option>
+		<option value="AND" isGDPR="False" isUS="False" isCA="False">Andorra</option>
+		<option value="AGO" isGDPR="False" isUS="False" isCA="False">Angola</option>
+		<option value="AIA" isGDPR="False" isUS="False" isCA="False">Anguilla</option>
+		<option value="ATA" isGDPR="False" isUS="False" isCA="False">Antarctica</option>
+		<option value="ATG" isGDPR="False" isUS="False" isCA="False">Antigua and Barbuda</option>
+		<option value="ARG" isGDPR="False" isUS="False" isCA="False">Argentina</option>
+		<option value="ARM" isGDPR="False" isUS="False" isCA="False">Armenia</option>
+		<option value="ABW" isGDPR="False" isUS="False" isCA="False">Aruba</option>
+		<option value="AUS" isGDPR="False" isUS="False" isCA="False">Australia</option>
+		<option value="AZE" isGDPR="False" isUS="False" isCA="False">Azerbaijan</option>
+		<option value="AUT" isGDPR="True" isUS="False" isCA="False">Austria</option>
+		<option value="BHS" isGDPR="False" isUS="False" isCA="False">Bahamas</option>
+		<option value="BHR" isGDPR="False" isUS="False" isCA="False">Bahrain</option>
+		<option value="BGD" isGDPR="False" isUS="False" isCA="False">Bangladesh</option>
+		<option value="BRB" isGDPR="False" isUS="False" isCA="False">Barbados</option>
+		<option value="BLR" isGDPR="False" isUS="False" isCA="False">Belarus</option>
+		<option value="BEL" isGDPR="True" isUS="False" isCA="False">Belgium</option>
+		<option value="BLZ" isGDPR="False" isUS="False" isCA="False">Belize</option>
+		<option value="BEN" isGDPR="False" isUS="False" isCA="False">Benin</option>
+		<option value="BMU" isGDPR="False" isUS="False" isCA="False">Bermuda</option>
+		<option value="BTN" isGDPR="False" isUS="False" isCA="False">Bhutan</option>
+		<option value="BOL" isGDPR="False" isUS="False" isCA="False">Bolivia, Plurinational State of</option>
+		<option value="BES" isGDPR="False" isUS="False" isCA="False">Bonaire, Sint Eustatius and Saba</option>
+		<option value="BIH" isGDPR="False" isUS="False" isCA="False">Bosnia and Herzegovina</option>
+		<option value="BWA" isGDPR="False" isUS="False" isCA="False">Botswana</option>
+		<option value="BVT" isGDPR="False" isUS="False" isCA="False">Bouvet Island</option>
+		<option value="BRA" isGDPR="False" isUS="False" isCA="False">Brazil</option>
+		<option value="IOT" isGDPR="False" isUS="False" isCA="False">British Indian Ocean Territory</option>
+		<option value="BRN" isGDPR="False" isUS="False" isCA="False">Brunei Darussalam</option>
+		<option value="BGR" isGDPR="True" isUS="False" isCA="False">Bulgaria</option>
+		<option value="BFA" isGDPR="False" isUS="False" isCA="False">Burkina Faso</option>
+		<option value="BDI" isGDPR="False" isUS="False" isCA="False">Burundi</option>
+		<option value="KHM" isGDPR="False" isUS="False" isCA="False">Cambodia</option>
+		<option value="CMR" isGDPR="False" isUS="False" isCA="False">Cameroon</option>
+		<option value="CAN" isGDPR="False" isUS="False" isCA="True">Canada</option>
+		<option value="CPV" isGDPR="False" isUS="False" isCA="False">Cape Verde (Cabo Verde)</option>
+		<option value="CYM" isGDPR="False" isUS="False" isCA="False">Cayman Islands</option>
+		<option value="CUW" isGDPR="False" isUS="False" isCA="False">Cura&#231;ao</option>
+		<option value="CAF" isGDPR="False" isUS="False" isCA="False">Central African Republic</option>
+		<option value="TCD" isGDPR="False" isUS="False" isCA="False">Chad</option>
+		<option value="CHL" isGDPR="False" isUS="False" isCA="False">Chile</option>
+		<option value="CHN" isGDPR="False" isUS="False" isCA="False">China</option>
+		<option value="CXR" isGDPR="False" isUS="False" isCA="False">Christmas Island</option>
+		<option value="CCK" isGDPR="False" isUS="False" isCA="False">Cocos (Keeling) Islands</option>
+		<option value="COL" isGDPR="False" isUS="False" isCA="False">Colombia</option>
+		<option value="COM" isGDPR="False" isUS="False" isCA="False">Comoros</option>
+		<option value="COG" isGDPR="False" isUS="False" isCA="False">Congo</option>
+		<option value="COD" isGDPR="False" isUS="False" isCA="False">Congo, the Democratic Republic of the</option>
+		<option value="COK" isGDPR="False" isUS="False" isCA="False">Cook Islands</option>
+		<option value="CRI" isGDPR="False" isUS="False" isCA="False">Costa Rica</option>
+		<option value="CIV" isGDPR="False" isUS="False" isCA="False">C&#244;te d&#39;Ivoire</option>
+		<option value="HRV" isGDPR="True" isUS="False" isCA="False">Croatia</option>
+		<option value="CUB" isGDPR="False" isUS="False" isCA="False">Cuba</option>
+		<option value="CYP" isGDPR="True" isUS="False" isCA="False">Cyprus</option>
+		<option value="CZE" isGDPR="True" isUS="False" isCA="False">Czech Republic</option>
+		<option value="DNK" isGDPR="True" isUS="False" isCA="False">Denmark</option>
+		<option value="DJI" isGDPR="False" isUS="False" isCA="False">Djibouti</option>
+		<option value="DMA" isGDPR="False" isUS="False" isCA="False">Dominica</option>
+		<option value="DOM" isGDPR="False" isUS="False" isCA="False">Dominican Republic</option>
+		<option value="ECU" isGDPR="False" isUS="False" isCA="False">Ecuador</option>
+		<option value="EGY" isGDPR="False" isUS="False" isCA="False">Egypt</option>
+		<option value="SLV" isGDPR="False" isUS="False" isCA="False">El Salvador</option>
+		<option value="GNQ" isGDPR="False" isUS="False" isCA="False">Equatorial Guinea</option>
+		<option value="ERI" isGDPR="False" isUS="False" isCA="False">Eritrea</option>
+		<option value="EST" isGDPR="True" isUS="False" isCA="False">Estonia</option>
+		<option value="ETH" isGDPR="False" isUS="False" isCA="False">Ethiopia</option>
+		<option value="FLK" isGDPR="False" isUS="False" isCA="False">Falkland Islands (Malvinas)</option>
+		<option value="FRO" isGDPR="False" isUS="False" isCA="False">Faroe Islands</option>
+		<option value="FJI" isGDPR="False" isUS="False" isCA="False">Fiji</option>
+		<option value="FIN" isGDPR="True" isUS="False" isCA="False">Finland</option>
+		<option value="FRA" isGDPR="True" isUS="False" isCA="False">France</option>
+		<option value="GUF" isGDPR="False" isUS="False" isCA="False">French Guiana</option>
+		<option value="PYF" isGDPR="False" isUS="False" isCA="False">French Polynesia</option>
+		<option value="ATF" isGDPR="False" isUS="False" isCA="False">French Southern Territories</option>
+		<option value="GAB" isGDPR="False" isUS="False" isCA="False">Gabon</option>
+		<option value="GMB" isGDPR="False" isUS="False" isCA="False">Gambia</option>
+		<option value="GEO" isGDPR="False" isUS="False" isCA="False">Georgia</option>
+		<option value="DEU" isGDPR="True" isUS="False" isCA="False">Germany</option>
+		<option value="GHA" isGDPR="False" isUS="False" isCA="False">Ghana</option>
+		<option value="GIB" isGDPR="False" isUS="False" isCA="False">Gibraltar</option>
+		<option value="GRC" isGDPR="True" isUS="False" isCA="False">Greece</option>
+		<option value="GRL" isGDPR="False" isUS="False" isCA="False">Greenland</option>
+		<option value="GRD" isGDPR="False" isUS="False" isCA="False">Grenada</option>
+		<option value="GLP" isGDPR="False" isUS="False" isCA="False">Guadeloupe</option>
+		<option value="GUM" isGDPR="False" isUS="False" isCA="False">Guam</option>
+		<option value="GTM" isGDPR="False" isUS="False" isCA="False">Guatemala</option>
+		<option value="GGY" isGDPR="False" isUS="False" isCA="False">Guernsey</option>
+		<option value="GIN" isGDPR="False" isUS="False" isCA="False">Guinea</option>
+		<option value="GNB" isGDPR="False" isUS="False" isCA="False">Guinea-Bissau</option>
+		<option value="GUY" isGDPR="False" isUS="False" isCA="False">Guyana</option>
+		<option value="HTI" isGDPR="False" isUS="False" isCA="False">Haiti</option>
+		<option value="HMD" isGDPR="False" isUS="False" isCA="False">Heard Island and McDonald Islands</option>
+		<option value="VAT" isGDPR="False" isUS="False" isCA="False">Holy See (Vatican City State)</option>
+		<option value="HND" isGDPR="False" isUS="False" isCA="False">Honduras</option>
+		<option value="HKG" isGDPR="False" isUS="False" isCA="False">Hong Kong</option>
+		<option value="HUN" isGDPR="True" isUS="False" isCA="False">Hungary</option>
+		<option value="ISL" isGDPR="True" isUS="False" isCA="False">Iceland</option>
+		<option value="IND" isGDPR="False" isUS="False" isCA="False">India</option>
+		<option value="IDN" isGDPR="False" isUS="False" isCA="False">Indonesia</option>
+		<option value="IRN" isGDPR="False" isUS="False" isCA="False">Iran, Islamic Republic of</option>
+		<option value="IRQ" isGDPR="False" isUS="False" isCA="False">Iraq</option>
+		<option value="IRL" isGDPR="True" isUS="False" isCA="False">Ireland</option>
+		<option value="IMN" isGDPR="True" isUS="False" isCA="False">Isle of Man</option>
+		<option value="ISR" isGDPR="False" isUS="False" isCA="False">Israel</option>
+		<option value="ITA" isGDPR="True" isUS="False" isCA="False">Italy</option>
+		<option value="JAM" isGDPR="False" isUS="False" isCA="False">Jamaica</option>
+		<option value="JPN" isGDPR="False" isUS="False" isCA="False">Japan</option>
+		<option value="JEY" isGDPR="False" isUS="False" isCA="False">Jersey</option>
+		<option value="JOR" isGDPR="False" isUS="False" isCA="False">Jordan</option>
+		<option value="KAZ" isGDPR="False" isUS="False" isCA="False">Kazakhstan</option>
+		<option value="KEN" isGDPR="False" isUS="False" isCA="False">Kenya</option>
+		<option value="KIR" isGDPR="False" isUS="False" isCA="False">Kiribati</option>
+		<option value="PRK" isGDPR="False" isUS="False" isCA="False">Korea, Democratic People&#39;s Republic of</option>
+		<option value="KOR" isGDPR="False" isUS="False" isCA="False">Korea, Republic of</option>
+		<option value="KWT" isGDPR="False" isUS="False" isCA="False">Kuwait</option>
+		<option value="KGZ" isGDPR="False" isUS="False" isCA="False">Kyrgyzstan</option>
+		<option value="LAO" isGDPR="False" isUS="False" isCA="False">Lao People&#39;s Democratic Republic</option>
+		<option value="LVA" isGDPR="True" isUS="False" isCA="False">Latvia</option>
+		<option value="LBN" isGDPR="False" isUS="False" isCA="False">Lebanon</option>
+		<option value="LSO" isGDPR="False" isUS="False" isCA="False">Lesotho</option>
+		<option value="LBR" isGDPR="False" isUS="False" isCA="False">Liberia</option>
+		<option value="LBY" isGDPR="False" isUS="False" isCA="False">Libya</option>
+		<option value="LIE" isGDPR="True" isUS="False" isCA="False">Liechtenstein</option>
+		<option value="LTU" isGDPR="True" isUS="False" isCA="False">Lithuania</option>
+		<option value="LUX" isGDPR="True" isUS="False" isCA="False">Luxembourg</option>
+		<option value="MAC" isGDPR="False" isUS="False" isCA="False">Macao</option>
+		<option value="MKD" isGDPR="False" isUS="False" isCA="False">Macedonia, the former Yugoslav Republic of</option>
+		<option value="MDG" isGDPR="False" isUS="False" isCA="False">Madagascar</option>
+		<option value="MWI" isGDPR="False" isUS="False" isCA="False">Malawi</option>
+		<option value="MYS" isGDPR="False" isUS="False" isCA="False">Malaysia</option>
+		<option value="MDV" isGDPR="False" isUS="False" isCA="False">Maldives</option>
+		<option value="MLI" isGDPR="False" isUS="False" isCA="False">Mali</option>
+		<option value="MLT" isGDPR="True" isUS="False" isCA="False">Malta</option>
+		<option value="MHL" isGDPR="False" isUS="False" isCA="False">Marshall Islands</option>
+		<option value="MTQ" isGDPR="False" isUS="False" isCA="False">Martinique</option>
+		<option value="MRT" isGDPR="False" isUS="False" isCA="False">Mauritania</option>
+		<option value="MUS" isGDPR="False" isUS="False" isCA="False">Mauritius</option>
+		<option value="MYT" isGDPR="False" isUS="False" isCA="False">Mayotte</option>
+		<option value="MEX" isGDPR="False" isUS="False" isCA="False">Mexico</option>
+		<option value="FSM" isGDPR="False" isUS="False" isCA="False">Micronesia, Federated States of</option>
+		<option value="MDA" isGDPR="False" isUS="False" isCA="False">Moldova, Republic of</option>
+		<option value="MCO" isGDPR="False" isUS="False" isCA="False">Monaco</option>
+		<option value="MNG" isGDPR="False" isUS="False" isCA="False">Mongolia</option>
+		<option value="MNE" isGDPR="False" isUS="False" isCA="False">Montenegro</option>
+		<option value="MSR" isGDPR="False" isUS="False" isCA="False">Montserrat</option>
+		<option value="MAR" isGDPR="False" isUS="False" isCA="False">Morocco</option>
+		<option value="MOZ" isGDPR="False" isUS="False" isCA="False">Mozambique</option>
+		<option value="MMR" isGDPR="False" isUS="False" isCA="False">Myanmar</option>
+		<option value="NAM" isGDPR="False" isUS="False" isCA="False">Namibia</option>
+		<option value="NRU" isGDPR="False" isUS="False" isCA="False">Nauru</option>
+		<option value="NPL" isGDPR="False" isUS="False" isCA="False">Nepal</option>
+		<option value="NLD" isGDPR="True" isUS="False" isCA="False">Netherlands</option>
+		<option value="NCL" isGDPR="False" isUS="False" isCA="False">New Caledonia</option>
+		<option value="NZL" isGDPR="False" isUS="False" isCA="False">New Zealand</option>
+		<option value="NIC" isGDPR="False" isUS="False" isCA="False">Nicaragua</option>
+		<option value="NER" isGDPR="False" isUS="False" isCA="False">Niger</option>
+		<option value="NGA" isGDPR="False" isUS="False" isCA="False">Nigeria</option>
+		<option value="NIU" isGDPR="False" isUS="False" isCA="False">Niue</option>
+		<option value="NFK" isGDPR="False" isUS="False" isCA="False">Norfolk Island</option>
+		<option value="MNP" isGDPR="False" isUS="False" isCA="False">Northern Mariana Islands</option>
+		<option value="NOR" isGDPR="True" isUS="False" isCA="False">Norway</option>
+		<option value="PAK" isGDPR="False" isUS="False" isCA="False">Pakistan</option>
+		<option value="OMN" isGDPR="False" isUS="False" isCA="False">Oman</option>
+		<option value="PLW" isGDPR="False" isUS="False" isCA="False">Palau</option>
+		<option value="PSE" isGDPR="False" isUS="False" isCA="False">Palestinian Territory, Occupied</option>
+		<option value="PAN" isGDPR="False" isUS="False" isCA="False">Panama</option>
+		<option value="PRY" isGDPR="False" isUS="False" isCA="False">Paraguay</option>
+		<option value="PNG" isGDPR="False" isUS="False" isCA="False">Papua New Guinea</option>
+		<option value="PER" isGDPR="False" isUS="False" isCA="False">Peru</option>
+		<option value="PHL" isGDPR="False" isUS="False" isCA="False">Philippines</option>
+		<option value="PCN" isGDPR="False" isUS="False" isCA="False">Pitcairn</option>
+		<option value="POL" isGDPR="True" isUS="False" isCA="False">Poland</option>
+		<option value="PRT" isGDPR="True" isUS="False" isCA="False">Portugal</option>
+		<option value="PRI" isGDPR="False" isUS="False" isCA="False">Puerto Rico</option>
+		<option value="QAT" isGDPR="False" isUS="False" isCA="False">Qatar</option>
+		<option value="REU" isGDPR="False" isUS="False" isCA="False">R&#233;union</option>
+		<option value="ROU" isGDPR="True" isUS="False" isCA="False">Romania</option>
+		<option value="RUS" isGDPR="False" isUS="False" isCA="False">Russian Federation</option>
+		<option value="RWA" isGDPR="False" isUS="False" isCA="False">Rwanda</option>
+		<option value="BLM" isGDPR="False" isUS="False" isCA="False">Saint Barth&#233;lemy</option>
+		<option value="SHN" isGDPR="False" isUS="False" isCA="False">Saint Helena, Ascension and Tristan da Cunha</option>
+		<option value="KNA" isGDPR="False" isUS="False" isCA="False">Saint Kitts and Nevis</option>
+		<option value="LCA" isGDPR="False" isUS="False" isCA="False">Saint Lucia</option>
+		<option value="MAF" isGDPR="False" isUS="False" isCA="False">Saint Martin (French part)</option>
+		<option value="SPM" isGDPR="False" isUS="False" isCA="False">Saint Pierre and Miquelon</option>
+		<option value="VCT" isGDPR="False" isUS="False" isCA="False">Saint Vincent and the Grenadines</option>
+		<option value="WSM" isGDPR="False" isUS="False" isCA="False">Samoa</option>
+		<option value="SMR" isGDPR="False" isUS="False" isCA="False">San Marino</option>
+		<option value="STP" isGDPR="False" isUS="False" isCA="False">Sao Tome and Principe</option>
+		<option value="SAU" isGDPR="False" isUS="False" isCA="False">Saudi Arabia</option>
+		<option value="SEN" isGDPR="False" isUS="False" isCA="False">Senegal</option>
+		<option value="SRB" isGDPR="False" isUS="False" isCA="False">Serbia</option>
+		<option value="SYC" isGDPR="False" isUS="False" isCA="False">Seychelles</option>
+		<option value="SLE" isGDPR="False" isUS="False" isCA="False">Sierra Leone</option>
+		<option value="SGP" isGDPR="False" isUS="False" isCA="False">Singapore</option>
+		<option value="SXM" isGDPR="False" isUS="False" isCA="False">Sint Maarten (Dutch part)</option>
+		<option value="SVK" isGDPR="True" isUS="False" isCA="False">Slovakia</option>
+		<option value="SVN" isGDPR="True" isUS="False" isCA="False">Slovenia</option>
+		<option value="SLB" isGDPR="False" isUS="False" isCA="False">Solomon Islands</option>
+		<option value="SOM" isGDPR="False" isUS="False" isCA="False">Somalia</option>
+		<option value="ZAF" isGDPR="False" isUS="False" isCA="False">South Africa</option>
+		<option value="SGS" isGDPR="False" isUS="False" isCA="False">South Georgia and the South Sandwich Islands</option>
+		<option value="SSD" isGDPR="False" isUS="False" isCA="False">South Sudan</option>
+		<option value="ESP" isGDPR="False" isUS="False" isCA="False">Spain</option>
+		<option value="LKA" isGDPR="False" isUS="False" isCA="False">Sri Lanka</option>
+		<option value="SDN" isGDPR="False" isUS="False" isCA="False">Sudan</option>
+		<option value="SUR" isGDPR="False" isUS="False" isCA="False">Suriname</option>
+		<option value="SJM" isGDPR="False" isUS="False" isCA="False">Svalbard and Jan Mayen</option>
+		<option value="SWZ" isGDPR="False" isUS="False" isCA="False">Eswatini (Swaziland)</option>
+		<option value="SWE" isGDPR="False" isUS="False" isCA="False">Sweden</option>
+		<option value="CHE" isGDPR="False" isUS="False" isCA="False">Switzerland</option>
+		<option value="SYR" isGDPR="False" isUS="False" isCA="False">Syrian Arab Republic</option>
+		<option value="TWN" isGDPR="False" isUS="False" isCA="False">Taiwan, Province of China</option>
+		<option value="TJK" isGDPR="False" isUS="False" isCA="False">Tajikistan</option>
+		<option value="TZA" isGDPR="False" isUS="False" isCA="False">Tanzania, United Republic of</option>
+		<option value="THA" isGDPR="False" isUS="False" isCA="False">Thailand</option>
+		<option value="TLS" isGDPR="False" isUS="False" isCA="False">Timor-Leste</option>
+		<option value="TGO" isGDPR="False" isUS="False" isCA="False">Togo</option>
+		<option value="TKL" isGDPR="False" isUS="False" isCA="False">Tokelau</option>
+		<option value="TON" isGDPR="False" isUS="False" isCA="False">Tonga</option>
+		<option value="TTO" isGDPR="False" isUS="False" isCA="False">Trinidad and Tobago</option>
+		<option value="TUN" isGDPR="False" isUS="False" isCA="False">Tunisia</option>
+		<option value="TUR" isGDPR="False" isUS="False" isCA="False">Turkey</option>
+		<option value="TKM" isGDPR="False" isUS="False" isCA="False">Turkmenistan</option>
+		<option value="TCA" isGDPR="False" isUS="False" isCA="False">Turks and Caicos Islands</option>
+		<option value="TUV" isGDPR="False" isUS="False" isCA="False">Tuvalu</option>
+		<option value="UGA" isGDPR="False" isUS="False" isCA="False">Uganda</option>
+		<option value="UKR" isGDPR="False" isUS="False" isCA="False">Ukraine</option>
+		<option value="ARE" isGDPR="False" isUS="False" isCA="False">United Arab Emirates</option>
+		<option value="GBR" isGDPR="True" isUS="False" isCA="False">United Kingdom</option>
+		<option value="UMI" isGDPR="False" isUS="False" isCA="False">United States Minor Outlying Islands</option>
+		<option value="URY" isGDPR="False" isUS="False" isCA="False">Uruguay</option>
+		<option value="UZB" isGDPR="False" isUS="False" isCA="False">Uzbekistan</option>
+		<option value="VUT" isGDPR="False" isUS="False" isCA="False">Vanuatu</option>
+		<option value="VNM" isGDPR="False" isUS="False" isCA="False">Viet Nam</option>
+		<option value="VEN" isGDPR="False" isUS="False" isCA="False">Venezuela, Bolivarian Republic of</option>
+		<option value="VGB" isGDPR="False" isUS="False" isCA="False">Virgin Islands, British</option>
+		<option value="VIR" isGDPR="False" isUS="False" isCA="False">Virgin Islands, U.S.</option>
+		<option value="WLF" isGDPR="False" isUS="False" isCA="False">Wallis and Futuna</option>
+		<option value="ESH" isGDPR="False" isUS="False" isCA="False">Western Sahara</option>
+		<option value="YEM" isGDPR="False" isUS="False" isCA="False">Yemen</option>
+		<option value="ZMB" isGDPR="False" isUS="False" isCA="False">Zambia</option>
+		<option value="ZWE" isGDPR="False" isUS="False" isCA="False">Zimbabwe</option>
+
+	</select><span data-val-controltovalidate="ph_scontent1_2_ddlCountry02" data-val-errormessage="Country is a required field. " data-val-display="Dynamic" data-val-validationGroup="OmedaDynamicForm" id="ph_scontent1_2_requiredCountry02" class="omedaDynamicFormRequires" data-val="true" data-val-evaluationfunction="RequiredFieldValidatorEvaluateIsValid" data-val-initialvalue="" style="display:none;">*</span><div id="form-footer">
+
+<div class="agreement">I agree to this site's <a href="https://1105media.com/pages/privacy-policy.aspx" target="_blank">Privacy Policy</a></div>
+
+</div>
+
+
+
+
+                     
+                    
+                    
+                    
+                </div>
+
+                
+<div class="captcha">
+    <img id="ph_scontent1_2_OmedaDynamicFormCaptcha_CaptchaImageEDCA" src="/Captcha.ashx?id=EDCA9B7C35114E6ABF2DC74C08E85E21" />
+    <span style="display:block;">Please type the letters/numbers you see above.</span>
+    <input name="ph_scontent1_2$OmedaDynamicFormCaptcha$CaptchaGuess" type="text" id="ph_scontent1_2_OmedaDynamicFormCaptcha_CaptchaGuess" />
+</div>
+            
+                <input type="submit" name="ph_scontent1_2$btnSubmit" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ph_scontent1_2$btnSubmit&quot;, &quot;&quot;, true, &quot;OmedaDynamicForm&quot;, &quot;&quot;, false, false))" id="ph_scontent1_2_btnSubmit" />
+		    </div>
+        
+</div>
+
+	
+	
+</div>
+                    
+
+<NOINDEX>
+<!-- component markup start -->
+<div id="popular">
+    <div class="tabbedFields">
+        <ul class="tabMenu">
+            <li><a href="javascript:;">Most Popular Articles</a></li>
+            <li><a href="javascript:;">Most Emailed Articles</a></li>
+        </ul>
+        <!-- content 1 -->
+        <div class="tabContent">
+            
+                    <h3><a id="ph_pcontent10_1_PopularItemsRepeater_StoryHeadlineHyperLink_0" href="https://virtualizationreview.com/articles/2026/09/28/openai-to-retire-custom-gpts-replace-them-with-plugins.aspx">OpenAI to Retire Custom GPTs, Replace Them with Plugins</a></h3>
+                
+                    <h3><a id="ph_pcontent10_1_PopularItemsRepeater_StoryHeadlineHyperLink_1" href="https://virtualizationreview.com/articles/2026/10/01/thales-ai-and-quantum-risks-converge-on-enterprise-data-especially-in-the-cloud.aspx">Thales: AI and Quantum Risks Converge on Enterprise Data, Especially in the Cloud</a></h3>
+                
+                    <h3><a id="ph_pcontent10_1_PopularItemsRepeater_StoryHeadlineHyperLink_2" href="https://virtualizationreview.com/articles/2026/09/30/users-decry-loss-of-functionality-in-openai-mandated-custom-gpt-to-plugin-migration.aspx">Users Decry Problems in OpenAI-Mandated Custom GPT-to-Plugin Migration</a></h3>
+                
+                    <h3><a id="ph_pcontent10_1_PopularItemsRepeater_StoryHeadlineHyperLink_3" href="https://virtualizationreview.com/articles/2026/08/04/ditch-the-cloud-7-powerful-free-local-ai-tools.aspx">Ditch the Cloud: 7 Powerful, Free Local AI Tools</a></h3>
+                
+                    <h3><a id="ph_pcontent10_1_PopularItemsRepeater_StoryHeadlineHyperLink_4" href="https://virtualizationreview.com/articles/2026/09/23/gartner-broadcoms-vmware-deal-has-reinvigorated-server-virtualization.aspx">Gartner: Broadcom's VMware Deal Has 'Reinvigorated' Server Virtualization</a></h3>
+                
+        </div>
+        <!-- content 2 -->
+        <div class="tabContent">
+            
+        </div>
+    </div>
+</div>
+<!-- component markup end -->
+</NOINDEX><div id="ph_scontent2_1_divEventAgenda" class="calendar-listing"> 
+    
+    <div class="daycalendar">
+        <h2 id="ph_scontent2_1_AgendaTitle" class="agenda-title">Upcoming Training Events</h2>
+        
+        
+        
+
+        <div class="sessionlistcalendar monday">
+        <div class="sessionlistcalendar-times">
+            
+        <div id="ph_scontent2_1_ctl01_ListViewCalendarTimes_sessionListCalendarTimeslot_0" class="sessionlistcalendar-timeslot" style="height:80px;min-height:80px;">            0
+            <span>
+                AM
+            </span>
+        </div>
+    
+        </div>
+    
+        <div id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionListCalendarEvent" class="sessionlistcalendar-events" style="height:80px;">            
+       
+    <div id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionEvent_0" style="position:absolute;top:0px;height:80px;min-height:80px;width:7.692%;left:0%;" class="sessionlistcalendar-event colorx Events_ECG L360 ">
+        <span id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionField1_0" class="sessionlistcalendar-field1"><a href="https://live360events.com/events/training-seminars/2026/oct6/home.aspx" target="_blank" class="event-title">Live! 360 6-Week Training & Certification Course: Mastering the Microsoft AI Framework: Building Enterprise-Ready AI Agents with Microsoft Foundry</a></br>October 6–November 10, 2026</span>
+        
+        
+        
+        
+        
+        
+        
+						
+         
+                        
+        
+
+
+     
+						
+        
+
+        
+        
+         
+    </div>
+    
+       
+    <div id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionEvent_1" style="position:absolute;top:0px;height:80px;min-height:80px;width:7.692%;left:7.692%;" class="sessionlistcalendar-event colorx Events_ECG VSLive ">
+        <span id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionField1_1" class="sessionlistcalendar-field1"><a href="https://vslive.com/events/training-seminars/2026/oct8/home.aspx" target="_blank" class="event-title">VSLive! 6-Week Training & Certification Course: Blazor Developer Accelerator: Hands-On Skills for Real-World .NET Teams</a></br>October 7 – November 11, 2026</span>
+        
+        
+        
+        
+        
+        
+        
+						
+         
+                        
+        
+
+
+     
+						
+        
+
+        
+        
+         
+    </div>
+    
+       
+    <div id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionEvent_2" style="position:absolute;top:0px;height:80px;min-height:80px;width:7.692%;left:15.384%;" class="sessionlistcalendar-event colorx Events_ECG VSLive TechMentor ">
+        <span id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionField1_2" class="sessionlistcalendar-field1"><a href="https://live360events.com/events/orlando-2026/home.aspx" target="_blank" class="event-title">Live! 360 Orlando</a></br>November 15-20, 2026</span>
+        
+        
+        
+        
+        
+        
+        
+						
+         
+                        
+        
+
+
+     
+						
+        
+
+        
+        
+         
+    </div>
+    
+       
+    <div id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionEvent_3" style="position:absolute;top:0px;height:80px;min-height:80px;width:7.692%;left:23.076%;" class="sessionlistcalendar-event colorx Events_ECG VSLive TechMentor ">
+        <span id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionField1_3" class="sessionlistcalendar-field1"><a href="https://attendailive.com/ecg/live360events/events/orlando-2026/ailive.aspx" target="_blank" class="event-title">Artificial Intelligence Live! Orlando</a></br>November 15-20, 2026</span>
+        
+        
+        
+        
+        
+        
+        
+						
+         
+                        
+        
+
+
+     
+						
+        
+
+        
+        
+         
+    </div>
+    
+       
+    <div id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionEvent_4" style="position:absolute;top:0px;height:80px;min-height:80px;width:7.692%;left:30.768%;" class="sessionlistcalendar-event colorx Events_ECG VSLive TechMentor ">
+        <span id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionField1_4" class="sessionlistcalendar-field1"><a href="https://aienterpriselive.com/ecg/live360events/events/orlando-2026/aiarchitectlive.aspx" target="_blank" class="event-title">AI Enterprise Architecture Live! Orlando</a></br>November 15-20, 2026</span>
+        
+        
+        
+        
+        
+        
+        
+						
+         
+                        
+        
+
+
+     
+						
+        
+
+        
+        
+         
+    </div>
+    
+       
+    <div id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionEvent_5" style="position:absolute;top:0px;height:80px;min-height:80px;width:7.692%;left:38.46%;" class="sessionlistcalendar-event colorx Events_ECG VSLive TechMentor ">
+        <span id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionField1_5" class="sessionlistcalendar-field1"><a href="https://cyberlive360.com/ecg/live360events/events/orlando-2026/cyberlive.aspx" target="_blank" class="event-title">Cybersecurity & Ransomware Live! Orlando</a></br>November 15-20, 2026</span>
+        
+        
+        
+        
+        
+        
+        
+						
+         
+                        
+        
+
+
+     
+						
+        
+
+        
+        
+         
+    </div>
+    
+       
+    <div id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionEvent_6" style="position:absolute;top:0px;height:80px;min-height:80px;width:7.692%;left:46.152%;" class="sessionlistcalendar-event colorx Events_ECG VSLive TechMentor ">
+        <span id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionField1_6" class="sessionlistcalendar-field1"><a href="https://datalive360.com/ecg/live360events/events/orlando-2026/dataplatform.aspx" target="_blank" class="event-title">Data Platform Live! Orlando</a></br>November 15-20, 2026</span>
+        
+        
+        
+        
+        
+        
+        
+						
+         
+                        
+        
+
+
+     
+						
+        
+
+        
+        
+         
+    </div>
+    
+       
+    <div id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionEvent_7" style="position:absolute;top:0px;height:80px;min-height:80px;width:7.692%;left:53.844%;" class="sessionlistcalendar-event colorx Events_ECG VSLive ">
+        <span id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionField1_7" class="sessionlistcalendar-field1"><a href="https://vslive.com/ECG/live360events/Events/Orlando-2026/VSLive.aspx" target="_blank" class="event-title">Visual Studio Live! Orlando</a></br>November 15-20, 2026</span>
+        
+        
+        
+        
+        
+        
+        
+						
+         
+                        
+        
+
+
+     
+						
+        
+
+        
+        
+         
+    </div>
+    
+       
+    <div id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionEvent_8" style="position:absolute;top:0px;height:80px;min-height:80px;width:7.692%;left:61.536%;" class="sessionlistcalendar-event colorx Events_ECG L360 ">
+        <span id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionField1_8" class="sessionlistcalendar-field1"><a href="https://live360events.com/events/training-seminars/2026/dec8/home.aspx" target="_blank" class="event-title">Live! 360 2-Day Hands-On Seminar: AI-Powered .NET Development with Claude & Claude Code</a></br>December 8-9, 2026</span>
+        
+        
+        
+        
+        
+        
+        
+						
+         
+                        
+        
+
+
+     
+						
+        
+
+        
+        
+         
+    </div>
+    
+       
+    <div id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionEvent_9" style="position:absolute;top:0px;height:80px;min-height:80px;width:7.692%;left:69.228%;" class="sessionlistcalendar-event colorx Events_ECG VSLive ">
+        <span id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionField1_9" class="sessionlistcalendar-field1"><a href="https://vslive.com/events/training-seminars/2026/dec15/home.aspx" target="_blank" class="event-title">VSLive! 4-Day Hands-On Training Seminar: Immersive .NET Full Stack Training with CoPilot: 4-Day Hands-On Experience</a></br>December 15-18, 2026</span>
+        
+        
+        
+        
+        
+        
+        
+						
+         
+                        
+        
+
+
+     
+						
+        
+
+        
+        
+         
+    </div>
+    
+       
+    <div id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionEvent_10" style="position:absolute;top:0px;height:80px;min-height:80px;width:7.692%;left:76.92%;" class="sessionlistcalendar-event colorx Events_ECG VSLive ">
+        <span id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionField1_10" class="sessionlistcalendar-field1"><a href="//vslive.com/Events/las-vegas-2027/home.aspx" target="_blank" class="event-title">Visual Studio Live! Las Vegas</a></br>March 22-26, 2027</span>
+        
+        
+        
+        
+        
+        
+        
+						
+         
+                        
+        
+
+
+     
+						
+        
+
+        
+        
+         
+    </div>
+    
+       
+    <div id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionEvent_11" style="position:absolute;top:0px;height:80px;min-height:80px;width:7.692%;left:84.612%;" class="sessionlistcalendar-event colorx Events_ECG VSLive ">
+        <span id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionField1_11" class="sessionlistcalendar-field1"><a href="//vslive.com/Events/austin-2027/home.aspx" target="_blank" class="event-title">Visual Studio Live! Austin</a></br>May 2-6, 2027</span>
+        
+        
+        
+        
+        
+        
+        
+						
+         
+                        
+        
+
+
+     
+						
+        
+
+        
+        
+         
+    </div>
+    
+       
+    <div id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionEvent_12" style="position:absolute;top:0px;height:80px;min-height:80px;width:7.692%;left:92.304%;" class="sessionlistcalendar-event colorx Events_ECG VSLive ">
+        <span id="ph_scontent2_1_ctl02_ListViewSessionListCalendar_SessionField1_12" class="sessionlistcalendar-field1"><a href="//vslive.com/Events/microsofthq-2027/home.aspx" target="_blank" class="event-title">Visual Studio Live! @ Microsoft HQ</a></br>August 2-6, 2027</span>
+        
+        
+        
+        
+        
+        
+        
+						
+         
+                        
+        
+
+
+     
+						
+        
+
+        
+        
+         
+    </div>
+    
+        </div>
+    </div>  
+    </div>
+</div>
+                    
+                    <div id="ph_scontent4_0_divListBox" class="featured-free-whitepapers module">
+    
+    <h3 id="ph_scontent4_0_h3Header"><a href="https://virtualizationreview.com/whitepapers/list/vrt-tech-library-list.aspx">Free White Papers</a></h3>
+                
+            
+            
+            <ul id="ph_scontent4_0_lvOuterList_ulListItem_0">
+                        
+                    
+                    <li id="ph_scontent4_0_lvOuterList_lvItemList_0_liListItem_0">
+                        
+                        
+    		            
+    		            <a href="https://virtualizationreview.com/whitepapers/2026/09/presidio-fortinet-how-to-solve-healthcare-ot-security-challenges.aspx">How to Solve Healthcare OT Security Challenges</a>
+    		            
+    		            
+    		            
+	                    
+				        
+                    </li>
+                
+                    <li id="ph_scontent4_0_lvOuterList_lvItemList_0_liListItem_1">
+                        
+                        
+    		            
+    		            <a href="https://virtualizationreview.com/whitepapers/2026/08/snowflake-employ-agents-effectively-a-data-executives-blueprint-for-the-agentic-enterprise.aspx">Employ Agents Effectively: A Data Executive's Blueprint for the Agentic Enterprise</a>
+    		            
+    		            
+    		            
+	                    
+				        
+                    </li>
+                
+                    <li id="ph_scontent4_0_lvOuterList_lvItemList_0_liListItem_2">
+                        
+                        
+    		            
+    		            <a href="https://virtualizationreview.com/whitepapers/2026/08/microsoft-cohere-ebook-take-control-of-your-ai-cohere-ai-models-on-foundry.aspx">Take Control of Your AI: Cohere AI Models on Foundry</a>
+    		            
+    		            
+    		            
+	                    
+				        
+                    </li>
+                
+                    <li id="ph_scontent4_0_lvOuterList_lvItemList_0_liListItem_3">
+                        
+                        
+    		            
+    		            <a href="https://virtualizationreview.com/whitepapers/2026/07/thundercat-data-storage-5-ways-federal-it-leaders-can-improve-efficiency-in-a-volatile-market.aspx">Data Storage: 5 Ways Federal IT Leaders Can Improve Efficiency in a Volatile Market</a>
+    		            
+    		            
+    		            
+	                    
+				        
+                    </li>
+                
+                
+            </ul>
+        
+        
+    <p id="ph_scontent4_0_pFooter" class="footer"><a href="https://virtualizationreview.com/whitepapers/list/vrt-tech-library-list.aspx">More Tech Library</a></p>
+</div>
+<div id="ph_scontent4_1_divListBox" class="module">
+    
+    <h3 id="ph_scontent4_1_h3Header"><a href="https://virtualizationreview.com/webcasts/list/webcast-list.aspx">Sponsored Webcasts</a></h3>
+                
+            
+            
+            <ul id="ph_scontent4_1_lvOuterList_ulListItem_0">
+                        
+                    
+                    <li id="ph_scontent4_1_lvOuterList_lvItemList_0_liListItem_0">
+                        
+                        
+    		            
+    		            <a href="https://virtualizationreview.com/webcasts/2026/10/veeam-kubernetes-on-aws-with-veeam-kasten.aspx">Beyond the Managed Control Plane: Protecting and Moving Kubernetes Apps Across AWS with Veeam Kasten</a>
+    		            
+    		            
+    		            
+	                    
+				        
+                    </li>
+                
+                    <li id="ph_scontent4_1_lvOuterList_lvItemList_0_liListItem_1">
+                        
+                        
+    		            
+    		            <a href="https://virtualizationreview.com/webcasts/2026/10/rubrik-the-new-rules-of-virtualization-security-summit-october-13.aspx">The New Rules of Virtualization Security Summit</a>
+    		            
+    		            
+    		            
+	                    
+				        
+                    </li>
+                
+                    <li id="ph_scontent4_1_lvOuterList_lvItemList_0_liListItem_2">
+                        
+                        
+    		            
+    		            <a href="https://virtualizationreview.com/webcasts/2026/09/insight-storage-strategy-that-drives-business-outcomes-5-principles-for-a-future-ready-foundation.aspx">Storage Strategy That Drives Business Outcomes: 5 Principles for a Future-Ready Foundation</a>
+    		            
+    		            
+    		            
+	                    
+				        
+                    </li>
+                
+                    <li id="ph_scontent4_1_lvOuterList_lvItemList_0_liListItem_3">
+                        
+                        
+    		            
+    		            <a href="https://virtualizationreview.com/webcasts/2026/10/suse-tech-talk-beyond-the-sandbox-operationalizing-private-enterprise-ai.aspx">Tech Talk | Beyond the Sandbox: Operationalizing Private Enterprise AI</a>
+    		            
+    		            
+    		            
+	                    
+				        
+                    </li>
+                
+                
+            </ul>
+        
+        
+    <p id="ph_scontent4_1_pFooter" class="footer"><a href="https://virtualizationreview.com/webcasts/list/webcast-list.aspx">More Webcasts</a></p>
+</div>
+
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+                
+                <div class="xContent">
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+    		
+            </div>
+
+            <footer role="contentinfo" class="footer">
+                
+                
+                
+                
+
+<NOINDEX>
+
+<!-- component markup start -->
+<div class='footer1'>
+    <ul class="footerlist"><li><a href="https://virtualizationreview.com/pages/contact-us.aspx">Contact Us</a></li><li><a href="https://converge360.com/pages/advertising/vcr.aspx">Advertise</a></li><li><a href="https://virtualizationreview.com/articles/list/archives.aspx">Archives</a></li><li><a href="https://live360events.com/home.aspx">Training</a></li><li><a href="/newslettersub">Free Newsletters</a></li><li><a href="http://1105Reprints.com">Reprints</a></li><li><a href="https://1105media.com/pages/list-rental.aspx">List Rental</a></li><li><a href="https://virtualizationreview.com/articles/glossary/list.aspx">Glossary</a></li></ul>
+    <br class="clear" />
+</div>
+<!-- component markup end -->
+
+</NOINDEX>
+
+
+                
+
+
+<div class="footer-inner">
+
+
+ <!--THIS FOOTER LOGO BOX IS LOCATED HERE AND IS SHARED ACROSS ALL 1105 MEDIA CONVERGE SITES: /sitecore/content/Home/ECG/Converge360/Content Blocks/Site Scripts/footer logos-->
+
+<a href="https://converge360.com/Home.aspx" class="converge-logo" target="_blank" aria-label="Converge 360">
+ <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 275 122.40842" width="225" height="100"><defs><style>.cls-1{fill:url(#linear-gradient);}.cls-1,.cls-2{stroke-width:0px;}.cls-3{opacity:.5;}.cls-2{fill:#fff;}</style><linearGradient id="linear-gradient" x1="-672.62923" y1="595.37" x2="-672.62923" y2="472.96157" gradientTransform="translate(729.28003 595.37) scale(1 -1)" gradientUnits="userSpaceOnUse"><stop offset=".15" stop-color="#fff"/><stop offset=".85" stop-color="#fff" stop-opacity=".5"/></linearGradient></defs><path class="cls-2" d="M41.03142,71.62011c-1.73549-1.2226-2.94615-2.87458-3.62603-4.95597-.495-1.39554-.74548-3.25627-.74548-5.58218s.25048-4.06139.74548-5.48676c.65006-2.04561,1.85476-3.66778,3.60218-4.86055,1.75338-1.19277,3.82284-1.78916,6.20839-1.78916s4.52657.60235,6.32767,1.81302c1.80109,1.21066,2.99386,2.73145,3.58429,4.5564.15506.495.26241.99.32801,1.49097v.09542c0,.31012-.17295.495-.51289.56061l-4.18663.60235h-.09542c-.2803,0-.46518-.15506-.56061-.46518,0-.15506-.01789-.2803-.04771-.36976-.05964-.25048-.12524-.46518-.18488-.65006-.2803-.87072-.83494-1.58043-1.67585-2.14103-.83494-.56061-1.83091-.83494-2.97597-.83494s-2.17681.30416-2.99983.90651c-.82301.60235-1.37169,1.43729-1.65199,2.48693-.31012.99-.46518,2.37362-.46518,4.13893s.13717,3.08332.41747,4.13893c.31012,1.08542.87072,1.94422,1.67585,2.58236s1.81302.95422,3.02368.95422,2.1947-.30416,3.04754-.90651c.85283-.60235,1.40151-1.4194,1.65199-2.44519.02982-.05964.04771-.13717.04771-.23259.02982-.02982.04771-.07753.04771-.13717.09542-.36976.31012-.52482.65006-.46518l4.18663.65006c.15506.02982.28627.10138.39362.20873s.1491.25645.11928.44133c-.09542.495-.17295.85283-.23259,1.06753-.59042,1.98597-1.7832,3.56043-3.58429,4.72338-1.80109,1.16295-3.90634,1.74145-6.32767,1.74145s-4.44905-.61428-6.18453-1.83688Z"/><path class="cls-2" d="M64.37997,71.59626c-1.75338-1.24049-2.9879-2.96404-3.6976-5.16471-.52482-1.67585-.7932-3.44115-.7932-5.30188,0-1.98597.25048-3.75127.74548-5.30188.71566-2.17085,1.95615-3.85862,3.72145-5.06929s3.89441-1.81302,6.37538-1.81302,4.39537.60235,6.11893,1.81302,2.94018,2.88651,3.64989,5.02158c.56061,1.49097.83494,3.25627.83494,5.30188s-.26241,3.72145-.7932,5.30188c-.71566,2.20067-1.93826,3.93019-3.67375,5.18856s-3.79899,1.88458-6.18453,1.88458-4.55043-.62024-6.30381-1.86073h0ZM73.6359,67.83305c.82301-.65006,1.4194-1.56254,1.78916-2.74338.31012-1.02579.46518-2.32591.46518-3.90634,0-1.67585-.15506-2.97597-.46518-3.90634-.33994-1.18085-.93036-2.08735-1.7653-2.71952s-1.86073-.95422-3.07139-.95422-2.14103.31608-2.97597.95422-1.44326,1.54464-1.81302,2.71952c-.31012,1.08542-.46518,2.38555-.46518,3.90634s.15506,2.82091.46518,3.90634c.33994,1.18085.93633,2.09332,1.78916,2.74338s1.88458.97807,3.09525.97807c1.14506,0,2.1291-.32801,2.95211-.97807Z"/><path class="cls-2" d="M102.54874,51.17596c1.5029,1.49097,2.25434,3.51868,2.25434,6.09508v15.25558c0,.15506-.05367.28627-.16103.39362-.10735.10735-.23855.16102-.39362.16102h-4.28205c-.15506,0-.28626-.05367-.39362-.16102-.10735-.10735-.16103-.23856-.16103-.39362v-14.14033c0-1.42536-.40554-2.58236-1.21066-3.46501-.80513-.88265-1.87862-1.32398-3.20856-1.32398s-2.4094.43536-3.23242,1.30012c-.82302.87072-1.23453,2.01579-1.23453,3.44115v14.18805c0,.15506-.05367.28627-.16103.39362s-.23855.16102-.39362.16102h-4.28205c-.15506,0-.28626-.05367-.39362-.16102-.10735-.10735-.16103-.23856-.16103-.39362v-22.65674c0-.15506.05367-.28627.16103-.39362s.23855-.16102.39362-.16102h4.28205c.15506,0,.28626.05367.39362.16102.10735.10735.16103.23856.16103.39362v1.49097c0,.09542.02982.15506.09542.18488.05964.02982.10735,0,.13717-.09542,1.27031-1.67585,3.19663-2.51079,5.76706-2.51079s4.52061.74548,6.02351,2.23049v.00597Z"/><path class="cls-2" d="M114.12461,72.62204l-7.49062-22.69849c-.02982-.05964-.04771-.13717-.04771-.23259,0-.2803.17295-.41747.51289-.41747h4.74724c.33994,0,.56061.15506.65006.46518l4.51465,15.53588c.02982.09542.07753.13717.13717.13717s.10735-.04771.13717-.13717l4.51465-15.53588c.09542-.31012.31012-.46518.65006-.46518l4.74724.09542c.18488,0,.32801.05367.41747.16102.09542.10735.10735.27434.04771.48904l-7.44291,22.60903c-.09542.31012-.29819.46518-.60235.46518h-4.88441c-.31012,0-.51289-.15506-.60235-.46518l-.00598-.00597Z"/><path class="cls-2" d="M149.66928,61.12966l-.04771,1.44326c0,.36976-.18488.56061-.56061.56061h-14.55781c-.15506,0-.23259.07753-.23259.23259.09542,1.02579.23259,1.72356.41747,2.09332.74548,2.23049,2.5585,3.36362,5.44502,3.39344,2.11121,0,3.78109-.87072,5.02158-2.60621.12525-.18488.2803-.2803.46518-.2803.12525,0,.23259.04771.32801.13717l2.88651,2.37362c.2803.2147.32801.46518.13717.74548-.96018,1.36573-2.24241,2.42133-3.84073,3.16085-1.59831.74548-3.37555,1.11525-5.32574,1.11525-2.42133,0-4.4729-.54271-6.16068-1.62814s-2.92229-2.60621-3.6976-4.5564c-.71566-1.67585-1.06753-4.00176-1.06753-6.97773,0-1.80109.18488-3.25627.56061-4.37152.62024-2.17085,1.78916-3.88248,3.51272-5.14086s3.79302-1.88458,6.20839-1.88458c6.10701,0,9.55412,3.19663,10.32943,9.58394.12525.7753.18488,1.64603.18488,2.60621h-.00596ZM136.29231,54.45609c-.75741.57253-1.29416,1.37169-1.60428,2.39747-.18488.52482-.31012,1.21066-.36976,2.04561-.05964.15506,0,.23259.18488.23259h9.44081c.15506,0,.23259-.07753.23259-.23259-.05964-.7753-.15506-1.36573-.2803-1.7653-.2803-1.11525-.82898-1.98597-1.65199-2.60621s-1.85476-.93036-3.09525-.93036c-1.14506,0-2.09928.28627-2.86266.8588h.00597Z"/><path class="cls-2" d="M167.02413,49.64325c.25049.12524.33994.35783.2803.69777l-.79319,4.18663c-.02981.36976-.25049.48307-.65006.32801-.46518-.15506-1.0079-.23259-1.62814-.23259-.40554,0-.71567.01789-.93036.04771-1.30012.05964-2.38555.51886-3.25627,1.37169s-1.30012,1.96211-1.30012,3.32784v13.16226c0,.15506-.05367.28627-.16102.39362s-.23855.16102-.39362.16102h-4.28205c-.15507,0-.28627-.05367-.39362-.16102s-.16102-.23856-.16102-.39362v-22.65674c0-.15506.05367-.28627.16102-.39362s.23855-.16102.39362-.16102h4.28205c.15507,0,.28627.05367.39362.16102s.16102.23856.16102.39362v2.09332c0,.12524.02386.19681.07156.20873.0477.01789.10139-.02386.16102-.11331,1.30012-2.01579,3.11911-3.02368,5.44502-3.02368.99,0,1.86072.20277,2.60621.60235h-.00597Z"/><path class="cls-2" d="M184.05694,49.47626c.10735-.10735.23855-.16102.39362-.16102h4.28205c.15507,0,.28627.05367.39362.16102s.16102.23856.16102.39362v21.63095c0,3.87652-1.10927,6.64375-3.32783,8.30171s-5.12296,2.48693-8.71917,2.48693c-.96017,0-1.90845-.04771-2.83881-.13717-.33994-.02982-.51288-.23259-.51288-.60235l.13718-3.81687c0-.33994.21469-.51289.65006-.51289.90055.09542,1.70566.13717,2.42133.13717,2.32591,0,4.03753-.45922,5.14085-1.37169s1.65199-2.45712,1.65199-4.62796v-.36976c0-.09542-.02981-.1491-.09542-.16102-.05964-.01789-.12524.00597-.18488.07157-1.27031,1.36573-3.07139,2.04561-5.39729,2.04561-2.01579,0-3.85862-.51289-5.53447-1.53271-1.67585-1.02579-2.83881-2.58832-3.48887-4.69953-.40554-1.45519-.60236-3.33381-.60236-5.62989,0-2.57639.25049-4.54447.74548-5.91019.62025-1.89055,1.68777-3.40537,3.20856-4.53254,1.52078-1.13314,3.30399-1.6997,5.34959-1.6997,2.45114,0,4.35959.71566,5.71935,2.14103.05964.09542.12524.12524.18488.09542.05964-.02982.09542-.09542.09542-.18488v-1.11525c0-.15506.05367-.28627.16102-.39362l.00597-.00597ZM183.82436,63.66431c.0477-.54271.07156-1.4194.07156-2.63007s-.02386-2.02175-.07156-2.53464-.1491-1.01386-.30416-1.50886c-.25049-1.02579-.75145-1.84283-1.51483-2.46308-.7574-.62024-1.72952-.93036-2.91037-.93036-1.11524,0-2.06349.31012-2.83881.93036-.7753.62024-1.3359,1.44326-1.67585,2.46308-.36976.87072-.56061,2.23049-.56061,4.09121s.15507,3.27416.46518,4.04947c.31011.99.87669,1.80705,1.69971,2.43923.82302.63813,1.80705.95422,2.95212.95422,1.21066,0,2.18875-.31012,2.92826-.93036.74548-.62024,1.24048-1.42536,1.49097-2.42133.12524-.46518.20874-.96615.25644-1.51482l.01194.00596Z"/><path class="cls-2" d="M213.91207,61.12966l-.0477,1.44326c0,.36976-.18488.56061-.56061.56061h-14.55781c-.15507,0-.2326.07753-.2326.23259.09542,1.02579.2326,1.72356.41748,2.09332.74548,2.23049,2.55851,3.36362,5.44502,3.39344,2.11121,0,3.78109-.87072,5.02159-2.60621.12524-.18488.2803-.2803.46518-.2803.12524,0,.2326.04771.32801.13717l2.88651,2.37362c.2803.2147.32801.46518.13718.74548-.96017,1.36573-2.24242,2.42133-3.84073,3.16085-1.59831.74548-3.37555,1.11525-5.32573,1.11525-2.42133,0-4.4729-.54271-6.16067-1.62814s-2.92229-2.60621-3.69761-4.5564c-.71567-1.67585-1.06754-4.00176-1.06754-6.97773,0-1.80109.18488-3.25627.56061-4.37152.62025-2.17085,1.78916-3.88248,3.51273-5.14086s3.79301-1.88458,6.20839-1.88458c6.107,0,9.55411,3.19663,10.32943,9.58394.12524.7753.18488,1.64603.18488,2.60621h-.00599ZM200.53511,54.45609c-.7574.57253-1.29417,1.37169-1.60428,2.39747-.18488.52482-.31011,1.21066-.36976,2.04561-.05964.15506,0,.23259.18488.23259h9.4408c.15507,0,.2326-.07753.2326-.23259-.05964-.7753-.15507-1.36573-.2803-1.7653-.2803-1.11525-.82899-1.98597-1.65199-2.60621-.82302-.62024-1.85475-.93036-3.09525-.93036-1.14507,0-2.09928.28627-2.86265.8588h.00595Z"/><g class="cls-3"><path class="cls-2" d="M235.13153,66.47926c0,3.72742-3.25032,7.04333-8.43292,7.04333s-8.36731-3.38748-8.67147-7.2461h4.84266c.13718,1.21663,1.42537,2.77916,3.79301,2.77916s3.62602-1.2882,3.62602-3.04754-1.2882-3.01176-3.79301-3.01176h-1.89651v-3.99579h1.72952c2.23645,0,3.42326-1.18681,3.42326-2.77917s-1.21663-2.80898-3.14892-2.80898c-2.13506,0-3.32188,1.2882-3.52465,2.57639h-4.84266c.26838-3.69164,3.52465-7.04333,8.29574-7.04333s8.06315,3.25031,8.06315,6.81074c0,2.16488-1.25242,3.89441-3.11911,4.94405,1.96212.91247,3.65585,2.7076,3.65585,5.79092l.00004-.01192Z"/><path class="cls-2" d="M254.54392,65.09564c0,4.67568-3.59024,8.43291-8.80863,8.43291s-8.80863-3.75724-8.80863-8.43291c0-2.7076,1.59236-5.1826,2.77917-6.94194l5.82669-8.77285h5.14682l-5.04543,7.44887c.20277,0,.40554-.03578.64409-.03578,4.77707,0,8.26591,3.62603,8.26591,8.29574v.00597ZM249.70126,65.09564c0-2.37362-1.79513-3.96001-3.96597-3.96001s-3.96002,1.59235-3.96002,3.96001,1.72952,3.96597,3.96002,3.96597,3.96597-1.59235,3.96597-3.96597Z"/><path class="cls-2" d="M256.23765,61.23105c0-8.09297,4.29994-12.2975,9.38117-12.2975s9.38117,4.19856,9.38117,12.2975-4.29994,12.2975-9.38117,12.2975-9.38117-4.19856-9.38117-12.2975ZM270.16329,61.23105c0-5.45098-2.20067-7.62182-4.5385-7.62182s-4.5385,2.16488-4.5385,7.62182,2.20067,7.62182,4.5385,7.62182,4.5385-2.16488,4.5385-7.62182Z"/></g><path class="cls-1" d="M13.36503,78.4726l-9.75689,3.50676c.31608.88265.66199,1.77127,1.01982,2.64796l9.57797-3.96001c-.29819-.72163-.58446-1.46115-.84687-2.1947h.00596ZM17.35486,86.97707l-8.93984,5.24821c.47711.81109.97807,1.61621,1.49097,2.40344l8.68936-5.65375c-.42343-.65603-.84091-1.32994-1.24048-1.9979ZM22.84162,94.61083l-7.8246,6.79881c.61428.7097,1.25838,1.41343,1.90247,2.09331l7.50851-7.15068c-.53675-.56657-1.0735-1.15102-1.58639-1.74145h0ZM23.29488,13.07877l6.43502,8.12875c.61428-.48904,1.24645-.96615,1.87862-1.4194l-6.05333-8.41502c-.75741.54868-1.52079,1.12121-2.26031,1.70567ZM23.18753,109.23424c.73952.58446,1.49693,1.16295,2.26031,1.71163l6.07122-8.40309c-.63217-.45922-1.26434-.93633-1.87862-1.42536l-6.45291,8.11087v.00596ZM32.65815,115.43666c.83494.44133,1.68777.87073,2.53464,1.27031l4.42519-9.3752c-.70374-.33398-1.41344-.68584-2.11121-1.05561l-4.85459,9.1605h.00596ZM11.02123,69.37173l-10.234,1.64603c.1491.93036.32205,1.86669.51289,2.78513l10.14454-2.11718c-.16102-.76337-.30416-1.54464-.4294-2.31398h.00596ZM99.45349,13.12648c-.73355-.58446-1.49693-1.15699-2.2603-1.71163l-6.06525,8.40906c.63814.45922,1.27031.93633,1.87862,1.4194l6.44098-8.12279.00596.00596ZM11.46256,50.63325l-10.14454-2.13507c-.19084.91844-.36976,1.85476-.51886,2.78513l10.234,1.66392c.12524-.7753.27434-1.55061.4294-2.31398ZM113.30159,37.97792l-.59639-10.37713-8.68935,5.70742,9.28575,4.67567v-.00596ZM99.81728,27.74988l7.81863-6.80478c-.61428-.70374-1.25838-1.40747-1.90844-2.09332l-7.49659,7.15664c.54271.56657,1.0735,1.15103,1.58639,1.74145ZM14.24768,41.6457l-9.57201-3.9779c-.3638.87072-.7097,1.7653-1.03175,2.64796l9.74496,3.53061c.26837-.73356.55464-1.47308.85283-2.1947l.00596-.00597ZM18.65498,33.33207l-8.67743-5.67164c-.51289.78723-1.01982,1.59832-1.49693,2.4094l8.92791,5.2661c.39958-.67392.81705-1.34783,1.24645-2.00386ZM24.50554,25.96072l-7.49062-7.16857c-.65006.67988-1.29416,1.38362-1.90844,2.09332l7.81267,6.81074c.51289-.59042,1.04964-1.17488,1.58639-1.74145v.00597ZM10.3652,61.17738c0-.39958,0-.79916.01193-1.19874L.01789,59.73412c-.01789.48307-.01789.96018-.01789,1.44326,0,.44133,0,.88265.01193,1.2882v.13717l10.36521-.32205c-.00596-.36976-.01193-.73952-.01193-1.10332ZM82.93954,107.39736l4.39537,9.38713c.84687-.39958,1.69971-.82302,2.53464-1.25838l-4.82477-9.17243c-.69181.3638-1.40151.71566-2.10525,1.04368ZM74.09511,110.57611l2.58235,10.03719c.90651-.23259,1.82494-.495,2.73145-.76934l-3.04754-9.90599c-.74548.23259-1.50886.44729-2.26031.63814h-.00596ZM74.17861,11.85021c.75145.19681,1.51482.41151,2.26627.6441l3.06543-9.90599c-.90054-.2803-1.81898-.53675-2.72549-.7753l-2.60621,10.03123v.00596ZM83.02303,15.04684c.7097.33398,1.4194.68584,2.10525,1.05561l4.84266-9.16647c-.83494-.44133-1.68778-.86476-2.54061-1.2703l-4.41326,9.38117h.00596ZM112.7231,94.82553l.5785-10.3831-9.27978,4.6876,8.70128,5.68953v.00597ZM91.04444,102.64416l6.04736,8.42098c.76337-.54867,1.52079-1.12121,2.2603-1.70567l-6.42905-8.13472c-.61428.48307-1.24645.96018-1.87862,1.41343v.00597ZM98.14741,96.47752l7.48466,7.16857c.65006-.67988,1.29416-1.38362,1.90844-2.08735l-7.80074-6.82267c-.51289.59043-1.04964,1.17488-1.59235,1.74145ZM43.22613,2.57639l3.0535,9.90599c.74548-.23259,1.50886-.44729,2.26031-.63813l-2.58832-10.03719c-.90651.23259-1.82494.495-2.73145.7753l.00597-.00596ZM32.7655,6.90616l4.8367,9.17243c.69181-.3638,1.40151-.71566,2.09928-1.04368l-4.40134-9.38713c-.84687.39958-1.6997.82301-2.53464,1.26434v-.00596ZM54.19368,122.13408c.93036.10735,1.88458.19681,2.82091.26241l.72163-10.34135c-.78127-.05367-1.5685-.12525-2.3438-.2147l-1.19277,10.29961-.00597-.00597ZM43.11878,119.79028c.90055.2803,1.81302.54271,2.72549.7753l2.61217-10.03123c-.75741-.19681-1.51482-.41747-2.26031-.6441l-3.07735,9.90003ZM64.89883,10.34135c.7753.05367,1.5685.12524,2.3438.2147l1.18085-10.2996C67.48715.1491,66.53889.05964,65.60257,0l-.7097,10.34135h.00597ZM54.307.25645l1.18085,10.2996c.7753-.08946,1.56254-.16102,2.34977-.2147l-.70374-10.34135c-.94229.0656-1.89055.1491-2.82091.25645h-.00597ZM64.80341,112.06708l.69777,10.34135c.94229-.0656,1.89055-.1491,2.82091-.25644l-1.16892-10.29961c-.7753.08945-1.56254.16103-2.34977.20874v.00596Z"/></svg>
+ </a>
+<a href="https://1105media.com/Home.aspx" class="corporate-logo" target="_blank" aria-label="1105 Media">
+  <img src="~/media/ECG/Converge360/design/1105companylogo.png" width="155" height="20" loading="lazy" alt=""> 
+</a>
+
+
+
+
+
+                
+
+<NOINDEX>
+
+<!-- component markup start -->
+<div class='footer-sites nav'>
+    <ul class="footerlist"><li class=" aiboardroom-nav-link"><a href="https://aiboardroom.com/home.aspx">AI Boardroom</a></li><li class=" adtmag-nav-link"><a href="https://adtmag.com/home.aspx">ADTmag</a></li><li class=" awsinsider-nav-link"><a href="https://awsinsider.net/home.aspx">AWS Insider</a></li><li class=" cst-nav-link"><a href="https://campussecuritytoday.com/home.aspx">Campus Security Today</a></li><li class=" ct-nav-link"><a href="https://campustechnology.com/home.aspx">Campus Technology</a></li><li class=" ep-nav-link"><a href="https://eponline.com/home.aspx">Environmental Protection</a></li><li class=" live360-nav-link"><a href="https://live360events.com/home.aspx">Live! 360 Events</a></li><li class=" mcp-nav-link"><a href="https://mcpmag.com/home.aspx">MCPmag</a></li><li class=" mci-nav-link"><a href="https://medcloudinsider.com/home.aspx">MedCloudInsider</a></li><li class=" ohs-nav-link"><a href="https://ohsonline.com/home.aspx">Occupational Health & Safety</a></li><li class=" pureai-nav-link"><a href="https://pureai.com/home.aspx">Pure AI</a></li><li class=" purerobotics-nav-link"><a href="https://purerobotics.ai/home.aspx">Pure Robotics</a></li><li class=" redmond-nav-link"><a href="https://redmondmag.com/home.aspx">Redmond    </a></li><li class=" rcp-nav-link"><a href="https://rcpmag.com/home.aspx">Redmond&nbsp;Channel&nbsp;Partner</a></li><li class=" sectoday-nav-link"><a href="https://securitytoday.com/home.aspx">Security Today</a></li><li class=" s4l-nav-link"><a href="https://spaces4learning.com/home.aspx">Spaces 4 Learning</a></li><li class=" techmentor-nav-link"><a href="https://techmentorevents.com/home.aspx">TechMentor</a></li><li><a href="https://techtacticsineducation.com/home.aspx">Tech Tactics in Education</a></li><li class=" aipivot-nav-link"><a href="https://theaipivot.ai/home.aspx">The AI Pivot</a></li><li class=" the-nav-link"><a href="https://thejournal.com/home.aspx">THE Journal</a></li><li class=" virt-nav-link"><a href="https://virtualizationreview.com/home.aspx">Virtualization & Cloud Review</a></li><li class=" vsm-nav-link"><a href="https://visualstudiomagazine.com/home.aspx">Visual Studio Magazine</a></li><li class=" vslive-nav-link"><a href="https://vslive.com/home.aspx">Visual Studio Live!</a></li></ul>
+    <br class="clear" />
+</div>
+<!-- component markup end -->
+
+</NOINDEX>
+
+</div>
+
+
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <div id="Copyright_copyright" class="copyright">
+    <div class="copyright-inner">
+&copy  <script type="text/javascript">
+  var cur = 1996; var year = new Date(); if(cur == year.getFullYear()) year = year.getFullYear(); else year = cur + '-' + year.getFullYear(); 
+  document.querySelector(".copyright-inner").innerText += year;
+</script>
+
+<a href="https://1105media.com/home.aspx" target="_blank">1105 Media Inc</a>. See our <a href="https://1105media.com/pages/privacy-policy.aspx" target="_blank">Privacy Policy</a>, <a href="https://1105media.com/pages/cookie-policy.aspx" target="_blank">Cookie Policy</a> and <a href="https://1105media.com/pages/terms-of-use.aspx" target="_blank">Terms of Use</a>.  <a href="https://1105media.com/pages/privacy-policy.aspx#_Toc520738059">CA: Do Not Sell My Personal Info</a><br>
+<p align="center"><b><a href="/cdn-cgi/l/email-protection#fcdc9b8e9d919dbccdcdccc9919998959dd29f9391c38f899e96999f88c1ae999b9d8e9895929bdcaa958e88899d9095869d889593928e998a95998bd29f9391">Problems? Questions? Feedback? E-mail us.</a></b></p>
+</div>
+</div>
+            </footer>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+    	            
+    </div>
+
+    
+    
+    
+    
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="~/media/ECG/VirtualizationReview/design/js/scriptsmin.js?v=5"></script>
+<script>var canRunAds = true;</script>
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+         
+    
+
+<script type="text/javascript">
+//<![CDATA[
+
+            var postbackElement = null;
+
+            var prm = Sys.WebForms.PageRequestManager.getInstance();
+            prm.add_endRequest(RestoreFocus);
+            prm.add_beginRequest(SavePostbackElement);
+
+            function RestoreFocus(source, args)
+            {
+                document.getElementById(postbackElement.id).focus();
+            }
+            function SavePostbackElement(source, args)
+            {
+                postbackElement = args.get_postBackElement();
+            }
+            
+            function fireFoxFix(e){
+                if( navigator.userAgent.toLowerCase().indexOf('firefox') > -1 ){
+                  var KeyCode = (e.which) ? e.which : e.keyCode;
+                  if (KeyCode != 9) {
+                    var controll = e.currentTarget;
+                    controll.blur();
+                    controll.focus();                    
+                  }
+                }       
+            }//]]>
+</script>
+</form>
+</body>
+
+</html>

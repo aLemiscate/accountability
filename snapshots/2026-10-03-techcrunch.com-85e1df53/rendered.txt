@@ -1,0 +1,46 @@
+Several months after launching DALL-E 2 as a part of a limited beta, OpenAI today removed the waitlist for the AI-powered image-generating system, which will remain in beta but let anyone sign up and begin using it. Pricing will carry over from the waitlist period, with first-time users getting a finite amount of credits that can be put toward generating or editing an image or creating a variation of existing images.
+“More than 1.5 million users are now actively creating over 2 million images a day with DALL-E — from artists and creative directors to authors and architects — with about 100,000 users sharing their creations and feedback in our Discord community,” OpenAI wrote in a blog post. “Learning from real-world use has allowed us to improve our safety systems, making wider availability possible today.”
+OpenAI has yet to make DALL-E 2 available through an API, though the company notes in the blog post that one is in testing. Brands such as Stitch Fix, Nestlé and Heinz have piloted DALL-E 2 for ad campaigns and other commercial use cases, but so far only in an ad hoc fashion.
+As we’ve previously written about, OpenAI’s conservative release cycle appears intended to subvert the controversy growing around Stability AI’s Stable Diffusion, an image-generating system that’s deployable in an open source format without any restrictions. Stable Diffusion ships with optional safety mechanisms. But the system has been used by some to create objectionable content, like graphic violence and pornographic, nonconsensual celebrity deepfakes.
+Stability AI — which already offers a Stable Diffusion API, albeit with restrictions on certain content categories — was the subject of a critical recent letter from U.S. House Representative Anna G. Eshoo (D-CA) to the National Security Advisor (NSA) and the Office of Science and Technology Policy (OSTP). In it, she urged the NSA and OSTP to address the release of “unsafe AI models” that “do not moderate content made on their platforms.”
+HEINZ BOTTLES AS “IMAGINED” BY DALL-E 2.
+IMAGE CREDITS:
+HEINZ
+“I am an advocate for democratizing access to AI and believe we should not allow those who openly release unsafe models onto the internet to benefit from their carelessness,” Eshoo wrote. “Dual-use tools that can lead to real-world harms like the generation of child pornography, misinformation and disinformation should be governed appropriately.”
+Indeed, as they march toward ubiquity, countless ethical and legal questions surround systems like DALL-E 2, Midjourney and Stable Diffusion. Earlier this month, Getty Images banned the upload and sale of illustrations generated using DALL-E 2, Stable Diffusion and other such tools, following similar decisions by sites including Newgrounds, PurplePort and FurAffinity. Getty Images CEO Craig Peters told The Verge that the ban was prompted by concerns about “unaddressed right issues,” as the training datasets for systems like DALL-E 2 contain copyrighted images scraped from the web.
+It's not AI anymore, it's ‘Super intelligence’ (according to the White House) | Equity Podcast
+0 seconds of 36 minutes, 40 secondsVolume 0%
+The training data presents a privacy risk as well, as an Ars Technica report last week highlighted. Private medical records — possibly thousands — are among the many photos hidden within the dataset used to train Stable Diffusion, according to the piece. Removing these records is exceptionally difficult as LAION isn’t a collection of files itself but merely a set of URLs pointing to images on the web.
+In response, technologists like Mat Dryhurst and Holly Herndon are spearheading efforts such as Source+, a standard aiming to allow people to disallow their work or likeness to be used for AI training purposes. But these standards are — and will likely remain — voluntary, limiting their potential impact.
+EXPERIMENTS WITH DALL-E 2 FOR DIFFERENT PRODUCT VISUALIZATIONS — IN THIS CASE, A FESTIVE CANDLE.
+IMAGE CREDITS:
+ERIC SILBERSTEIN
+OpenAI has repeatedly claimed to have taken steps to mitigate issues around DALL-E 2, including rejecting image uploads containing realistic faces and attempts to create the likeness of public figures, like prominent political figures and celebrities. The company also says it trained DALL-E 2 on a dataset filtered to remove images that contained obvious violent, sexual or hateful content. And OpenAI says it employs a mix of automated and human monitoring systems to prevent the system from generating content that violates its terms of service.
+“In the past months, we have made our filters more robust at rejecting attempts to generate sexual, violent and other content that violates our content policy, and building new detection and response techniques to stop misuse,” the company wrote in the blog post published today. “Responsibly scaling a system as powerful and complex as DALL-E — while learning about all the creative ways it can be used and misused — has required an iterative deployment approach.”
+Topics
+AI
+Apps
+Artificial Intelligence (AI)
+dall-e 2
+image generation
+machine learning
+Media & Entertainment
+OpenAI
+When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.
+Kyle Wiggers
+AI Editor
+Kyle Wiggers was TechCrunch’s AI Editor until June 2025. His writing has appeared in VentureBeat and Digital Trends, as well as a range of gadget blogs including Android Police, Android Authority, Droid-Life, and XDA-Developers. He lives in Manhattan with his partner, a music therapist.
+View Bio
+October 13 – 15
+San Francisco
+Get 50% off a second pass
+The Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by making connections, building momentum, and discovering what’s next in the startup ecosystem.
+BOOK NOW
+Most Popular
+Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground
+World’s first enhanced geothermal power plant completed in just 23 months
+Google releases Gemini 4 Argon, called its most powerful model yet
+The Pentagon taps Elon Musk and Palmer Luckey to help decide what the military should do next
+OpenAI launches Dots, its bubbly agentic avatar
+AMD will acquire Fei-Fei Li’s World Labs for $8.2B
+Viral AI agent Instinct raises $1B Series C at a $10B valuation

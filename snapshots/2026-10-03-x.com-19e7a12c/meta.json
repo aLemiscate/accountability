@@ -1,0 +1,29 @@
+{
+  "url": "https://x.com/bcherny/status/2040206440556826908",
+  "captured_at": "2026-10-03T12:35:27.262Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.html": "fce80700860cf143c09939b073c05ec385ab78ba24a3663245ecedf611db7af2",
+    "page.txt": "80c28a4832a03ebfaf538b3459240fcd8c1f109d6e2973e849f72595148d42bf",
+    "post.json": "13988a4b8d8c41d17958068d781fc72348e873884f396b28e7e3af8c944e0621",
+    "syndication.json": "c8b12f14e360d2b2324a490daa4250da1377d6e48439dc052a76bce3d2c34e35",
+    "post.txt": "11c2be377e5154af764076b97c091ffccf7d482d2cc49581e36839c6ad4a2625"
+  },
+  "http_status": 200,
+  "final_url": "https://x.com/bcherny/status/2040206440556826908",
+  "content_type": "text/html; charset=UTF-8",
+  "title": "Boris Cherny on X: \"Starting tomorrow at 12pm PT, Claude subscriptions will no longer cover usage on third-party tools like OpenClaw. You can still use these tools with your Claude login via extra usage bundles (now available at a discount), or with a Claude API key.\" / X",
+  "post": {
+    "ok": true,
+    "status": 200,
+    "author": "Boris Cherny (@bcherny)",
+    "date": "April 3, 2026",
+    "posted_at": "2026-04-03T23:14:55.288Z"
+  },
+  "rendered_status": 403,
+  "archive": {
+    "url": "https://web.archive.org/web/20260416092555/https://x.com/bcherny/status/2040206440556826908",
+    "timestamp": "20260416092555",
+    "method": "existing"
+  }
+}

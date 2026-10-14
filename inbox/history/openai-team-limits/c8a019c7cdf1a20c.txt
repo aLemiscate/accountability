@@ -1,0 +1,53 @@
+ChatGPT Business models and limits | OpenAI Help Center
+• All Collections
+• ChatGPT Business
+• ChatGPT Business models and limits
+ChatGPT Business models and limits
+ChatGPT Business members can use the models currently available to their workspace. Because model availability and limits change over time, check the model picker for the options on your account and the current rate card for flexible-pricing usage.
+Updated: 2 days ago
+GPT‑6 Pro, powered by GPT‑6 Astra, is available in ChatGPT for Pro $100, Pro $200, Business and Enterprise plans. Enterprise access also depends on your workspace’s model-access permissions. Plus plans include GPT‑6 Astra in ChatGPT Work and Codex.
+Note : Astra requires Codex CLI version 0.153.0 or newer . Additionally, please update to the latest available ChatGPT Desktop app. If you do not see Astra available in Chat, Work or Codex in the desktop app, ensure that you update your app by clicking Menu > Check for Updates, even if you recently updated the app due to an automatic update notification or by clicking on the update icon in the sidebar.
+Overview
+ChatGPT Business includes ChatGPT, ChatGPT Work, and Codex. The plan offers two types of seats: Standard and Premium, which include usage for ChatGPT features such as thinking models, coding, and agentic features. Premium seats offer more included usage for ChatGPT Work and Codex; individual ChatGPT model allowances are separate. Model and feature availability also depend on your workspace settings.
+For additional usage beyond included allowances, see: Flexible pricing for the Enterprise, Edu, and Business plans , and the ChatGPT Rate Card.
+Model picker
+Use the model picker to select the reasoning level for your ChatGPT conversation. The available options can vary by workspace and rollout:
+• Instant : Responds quickly using GPT-5.6 Sol.
+• Medium : Uses GPT-5.6 Sol with standard reasoning.
+• High : Uses GPT-5.6 Sol with extended reasoning.
+• Extra High : Uses GPT-5.6 Sol with its highest selectable reasoning effort.
+• Pro: Uses GPT-5.6 Sol Pro or GPT-6 Pro. Additional reasoning controls may be available for this option.
+Note that Pro is a model option, not another name for a Premium seat.
+ChatGPT can also add reasoning automatically while Instant is selected. To manage this behavior, go to Settings > General and adjust Higher intelligence . Automatic reasoning may use your reasoning allowance even while Instant remains selected.
+GPT-6 Pro in Chat
+GPT-6 Pro, powered by GPT-6 Astra, is available to ChatGPT Business users. Business Standard includes 15 Pro messages per month, shared across GPT-6 Pro and GPT-5.6 Sol Pro. Business Premium includes 50 Pro messages per week, shared across the two models. Switching between them does not increase or reset that shared allowance.
+These Chat allowances are separate from usage in Work and Codex. For model availability and limits, see GPT-5.6 and GPT-6 Pro in ChatGPT .
+Work and Codex models
+Work and Codex use separate model controls. GPT-6 Sol, GPT-6.1 Sol and GPT-6 Luna are models for Work and Codex and are not selectable in ordinary ChatGPT conversations. Check the Work or Codex model picker for the options enabled for you.
+Use the model picker to choose an available model and reasoning level.
+Depending on your workspace, Work and Codex may also offer GPT-6 Astra and GPT-5.6 Sol, Terra, and Luna. Check the model picker for enabled options. GPT-5.6 Terra and GPT-5.6 Luna are also unavailable in regular ChatGPT conversations.
+For Chat model availability, see GPT-5.6 and GPT-6 Pro in ChatGPT . For the differences between experiences, see ChatGPT Work and Codex .
+Note on unlimited access
+Virtually unlimited access applies to Instant chat and remains subject to safeguards against misuse. It does not make reasoning, Pro, ChatGPT Work, Codex, or other tools unlimited. Automatic reasoning may use your reasoning allowance even while Instant remains selected. However, usage must adhere to our Services Agreement , which prohibits, among other things:
+• Abusive usage, such as automatically or programmatically extracting data.
+• Sharing your account credentials or making your account available to anyone else.
+• Reselling access or using ChatGPT to power third-party services.
+We have guardrails in place to help prevent misuse and are always working to improve our systems. This may occasionally involve a temporary restriction on your usage. We will inform you when this happens, and if you think this might be a mistake, please don’t hesitate to reach out to our support team. If policy-violating behavior is not found, your access will be restored.
+Models and limits
+Your included usage depends on your seat type and the experience you use. Premium seats provide a higher included allowance for ChatGPT Work and Codex. This does not mean every ChatGPT model or feature has a higher limit. Included allowances are different from workspace credits purchased for additional usage.
+Standard seats include limited Astra usage within their existing Work and Codex allowance. Premium seats can use their full existing allowance for Astra. Workspace credit purchases are optional. After included usage is exhausted, additional Astra usage can use purchased workspace credits if the workspace has credits and its spending controls allow it.
+For ChatGPT Work and Codex, usage depends on the model, task size, reasoning effort, and amount of work performed. A longer task can use more of your allowance than a short task, so a fixed number of messages is not a reliable measure of remaining usage.
+If you reach an included limit, eligible usage can continue with purchased workspace credits when credits are available and your workspace's spending controls allow it. Otherwise, wait for the applicable allowance to reset or use another available option. Reaching a limit for one experience does not mean every ChatGPT feature is unavailable.
+When a change from Premium to Standard takes effect, the Standard limits apply. A scheduled downgrade does not reduce access before its effective date.
+For current credit charges, see: ChatGPT rate card , for additional paid usage beyond the limits described below.
+Local-message estimates by seat type
+The estimates below show allowed local messages per 5-hour window. Actual usage varies by model and task; cloud chats can use more of an allowance than local messages. Premium seats have 5x the included usage of Standard seats, with the benefit of no 5-hour limit so users can maximize uninterrupted session time.
+Model Standard seats
+GPT-6 Astra 5-45
+GPT-6.1 Sol, GPT-6 Sol 15–150
+GPT-5.6 Sol 10–100
+GPT-5.6 Terra 25–200
+GPT-5.6 Luna 250–2,000
+Was this article helpful?
+Submit
+ChatGPT API Service Status Cookie Preferences

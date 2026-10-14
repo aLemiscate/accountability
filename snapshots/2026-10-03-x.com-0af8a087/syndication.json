@@ -1,0 +1,82 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 847,
+  "lang": "en",
+  "created_at": "2026-05-13T17:21:46.000Z",
+  "display_text_range": [
+    0,
+    254
+  ],
+  "entities": {},
+  "id_str": "2054613082589298899",
+  "text": "Starting June 15, paid Claude plans include a monthly Claude Agent SDK credit. \n\nIt covers usage on your own scripts and agents, claude -p, and third-party apps built on the SDK (OpenClaw, Conductor, etc) and it's separate from your regular usage limits.",
+  "user": {
+    "id_str": "1380719534970040322",
+    "name": "Alex Albert",
+    "screen_name": "alexalbert__",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1856486626072915968/JEQpB9CW_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "2054613082589298899"
+    ],
+    "editable_until_msecs": "1778696506000",
+    "edits_remaining": "5",
+    "is_edit_eligible": false
+  },
+  "conversation_count": 117,
+  "news_action_type": "conversation",
+  "quoted_tweet": {
+    "favorite_count": 734,
+    "in_reply_to_screen_name": "ClaudeDevs",
+    "in_reply_to_status_id_str": "2054610155103478175",
+    "in_reply_to_user_id_str": "2024518793679294464",
+    "lang": "en",
+    "reply_count": 40,
+    "retweet_count": 27,
+    "created_at": "2026-05-13T17:10:08.000Z",
+    "display_text_range": [
+      0,
+      242
+    ],
+    "entities": {},
+    "id_str": "2054610156214956455",
+    "text": "Monthly credit amounts vary by plan:\n\nPro: $20\nMax 5x: $100\nMax 20x: $200\nTeam Standard: $20/seat\nTeam Premium: $100/seat\nEnterprise: Varies by seat type\n\nAfter you claim the credit, it resets with each billing cycle. Credits do not rollover.",
+    "user": {
+      "id_str": "2024518793679294464",
+      "name": "ClaudeDevs",
+      "screen_name": "ClaudeDevs",
+      "is_blue_verified": true,
+      "profile_image_shape": "Circle",
+      "verified": false,
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2044472418815893504/xf14RxM8_normal.png",
+      "highlighted_label": {
+        "badge": {
+          "url": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_bigger.jpg"
+        },
+        "description": "Anthropic",
+        "url": {
+          "url": "https://twitter.com/AnthropicAI",
+          "url_type": "DeepLink"
+        },
+        "user_label_display_type": "Badge",
+        "user_label_type": "BusinessLabel"
+      }
+    },
+    "edit_control": {
+      "edit_tweet_ids": [
+        "2054610156214956455"
+      ],
+      "editable_until_msecs": "1778695808000",
+      "edits_remaining": "5",
+      "is_edit_eligible": false
+    },
+    "isEdited": false,
+    "isStaleEdit": false
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+}

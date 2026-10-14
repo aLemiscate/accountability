@@ -165,7 +165,8 @@ for (const account of chosen) {
     const prev = merged.get(key);
     merged.set(key, prev ? { ...prev, ...Object.fromEntries(Object.entries(c).filter(([, v]) => v != null)), via: `${prev.via}+${c.via}` } : c);
   }
-  let posts = [...merged.values()];
+  // Only the account's own posts: an archived link under the handle can belong to someone else.
+  let posts = [...merged.values()].filter((c) => !c.other_author);
   if (match) posts = posts.filter((c) => (c.text && match.test(c.text)) || (opts['keep-deleted'] && c.possibly_deleted));
   posts.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
   for (const c of posts) c.already_cited = cited.has(c.id) || cited.has(c.url);

@@ -1,0 +1,14 @@
+Boris Cherny (@bcherny)
+April 13, 2026
+
+👋 1h prompt cache is nuanced actually. It costs more for cache writes, and less for cache reads. Whether you benefit from cheaper cache reads depends on your usage pattern -- context window size, whether the query is the main agent or subagent, etc.
+
+We have been testing a number of heuristics to give subscribers better prompt cache hit rates, which means lower token usage and lower latency, when it works. But this effect is far from uniform due to the nuance above. Say you use 1h cache for an agent, but only used the agent to make a single query -- in this case the 1h cache would be wasted and you'd be overcharged.
+
+At this point we have rolled out 1h prompt cache by default in a number of places for subscribers to optimize cache duration based on real usage patterns, but we actually keep it at 5m for many queries also (eg. subagents, which are rarely resumed so you'd be paying for them even though they do not benefit from 1h). We also are not defaulting API customers to 1h yet -- this needs more testing to make sure it's a net improvement on average.
+
+Separately, when we do this kind of experimentation, we use experiment gates that are cached client-side. When you turn off telemetry we also disable experiment gates -- we do not call home when telemetry is off -- so Claude reads the default value, which is 5m. We will soon be changing the client side default to 1h for a few queries, since we now feel good that it is a small token savings on average for those queries. We will also give you env vars to force 1h and 5m.
+
+In any case, the token savings is nowhere near 12x unfortunately. It is a small win though, that we have been in the process of rolling out to everyone. Hope the explanation helps.
+
+More here: https://platform.claude.com/docs/en/build-with-claude/prompt-caching#pricing

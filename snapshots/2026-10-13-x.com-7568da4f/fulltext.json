@@ -1,0 +1,64 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/bcherny/status/2040308730190020847",
+    "id": "2040308730190020847",
+    "text": "👋 This is false. We serve exactly the same models to all users. What the person in the post might be experiencing is a lower effort level vs. what the enterprise set.\n\nClaude Code users can change this anytime by running /effort. low effort = less tokens and lower intelligence, high = more tokens and more intelligence.",
+    "raw_text": {
+      "text": "👋 This is false. We serve exactly the same models to all users. What the person in the post might be experiencing is a lower effort level vs. what the enterprise set.\n\nClaude Code users can change this anytime by running /effort. low effort = less tokens and lower intelligence, high = more tokens and more intelligence.",
+      "display_text_range": [
+        0,
+        321
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "bcherny",
+      "url": "https://x.com/bcherny",
+      "id": "159337660",
+      "followers": 601689,
+      "following": 134,
+      "likes": 4296,
+      "media_count": 123,
+      "name": "Boris Cherny",
+      "description": "Claude @anthropicai",
+      "raw_description": {
+        "text": "Claude @anthropicai",
+        "facets": []
+      },
+      "location": "San Francisco",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1902044548936953856/J2jeik0t_200x200.jpg",
+      "joined": "Fri Jun 25 03:08:49 +0000 2010",
+      "protected": false,
+      "website": {
+        "url": "https://borischerny.com",
+        "display_url": "borischerny.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 91,
+    "retweets": 22,
+    "likes": 1028,
+    "bookmarks": 136,
+    "quotes": 12,
+    "created_at": "Sat Apr 04 06:01:23 +0000 2026",
+    "created_timestamp": 1775282483,
+    "views": 66254,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": "Hesamation",
+    "replying_to_status": "2040189377943392443",
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

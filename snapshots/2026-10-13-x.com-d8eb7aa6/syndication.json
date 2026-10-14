@@ -1,0 +1,37 @@
+{
+  "__typename": "Tweet",
+  "favorite_count": 864,
+  "lang": "en",
+  "created_at": "2025-11-02T01:23:30.000Z",
+  "display_text_range": [
+    0,
+    277
+  ],
+  "entities": {},
+  "id_str": "1984793457949622761",
+  "text": "We just reset Codex rate limits for everyone, and refunded all Codex credit usage up until 1p PT Friday. Enjoy!\n\nWhy: On Thursday we rolled out credits to give users options between our $20 and $200 plans. However we had a bug where we overcharged for cloud task usage by ~2-5x",
+  "user": {
+    "id_str": "413490474",
+    "name": "Alexander Embiricos",
+    "screen_name": "embirico",
+    "is_blue_verified": true,
+    "profile_image_shape": "Circle",
+    "verified": false,
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1649509163712561153/mTxQ1REO_normal.jpg"
+  },
+  "edit_control": {
+    "edit_tweet_ids": [
+      "1984793457949622761"
+    ],
+    "editable_until_msecs": "1762050210000",
+    "edits_remaining": "5",
+    "is_edit_eligible": true
+  },
+  "conversation_count": 63,
+  "news_action_type": "conversation",
+  "isEdited": false,
+  "isStaleEdit": false,
+  "note_tweet": {
+    "id": "Tm90ZVR3ZWV0UmVzdWx0czoxOTg0NzkzNDU3ODM2NDEyOTI4"
+  }
+}
