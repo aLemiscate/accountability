@@ -9,9 +9,11 @@
 //
 // The Site workflow runs this before publishing. The output is generated, not
 // committed (see .gitignore).
+import { readFileSync } from 'node:fs';
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { ROOT } from './lib.mjs';
+import { entryArticle } from './record.mjs';
 import { getBrowser, closeBrowser } from './web.mjs';
 
 // The same marks as site/app.js (Simple Icons, CC0); the logos are the companies' trademarks.
@@ -105,9 +107,12 @@ html,body{width:1200px;height:630px;background:#fff;color:#0b0b0b;font-family:Ge
 .figures{border-top:2px solid #0b0b0b;padding-top:22px}
 .fig{display:grid;gap:8px}.fig b{font:600 54px/1 Geist,sans-serif}.fig span{font:500 18px/1 'Geist Mono',monospace;text-transform:uppercase;letter-spacing:.04em;color:#4a4a4a}
 `;
+// The site's own copies of Geist, inlined: a card is rendered from a string, with no address to load files from.
+let fontFaces;
+const fonts = () => (fontFaces ??= [['Geist', 'Geist-Variable.woff2'], ['Geist Mono', 'GeistMono-Variable.woff2']]
+  .map(([family, file]) => `@font-face{font-family:'${family}';src:url(data:font/woff2;base64,${readFileSync(path.join(ROOT, 'site', 'fonts', file)).toString('base64')}) format('woff2');font-weight:100 900}`).join(''));
 const shell = (inner) => `<!doctype html><html><head><meta charset="utf-8">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@500;600&display=block">
-<style>${STYLE}</style></head><body><div class="card">${inner}</div></body></html>`;
+<style>${fonts()}${STYLE}</style></head><body><div class="card">${inner}</div></body></html>`;
 
 export function cardHtml(c, host) {
   const body = c.single
@@ -151,7 +156,11 @@ ${withImage ? `<meta property="og:image" content="${esc(`${url}card.png`)}">
 <meta name="twitter:card" content="summary_large_image">` : '<meta name="twitter:card" content="summary">'}
 <meta http-equiv="refresh" content="0; url=../../#e-${esc(e.id)}">
 <script>location.replace('../../#e-${e.id}');</script>
-</head><body><p><a href="../../#e-${esc(e.id)}">${esc(e.title)}</a></p></body></html>
+<link rel="stylesheet" href="../../styles.css">
+</head><body class="record"><main class="wrap">
+<p class="r-meta"><a href="../../">Said / Did</a> · <a href="../../record.html">The whole record</a></p>
+${entryArticle(e, D, { home: '../../', level: 1 })}
+</main></body></html>
 `;
 }
 

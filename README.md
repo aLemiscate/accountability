@@ -38,8 +38,13 @@ Every entry links back to its file, so readers can check or correct it.
   for oldest first). "Copy link to this view" copies it.
 - **Link previews.** On the GitHub Pages site, each entry has its own page at
   `e/<entry-id>/` with a title, description and card image for link previews;
-  it forwards readers to the entry on the main page. `npm run cards` writes
-  these pages and images (it needs Playwright; `--no-images` skips the images).
+  it forwards readers to the entry on the main page, and carries the entry's
+  text and sources for anything that doesn't follow the redirect. `npm run
+  cards` writes these pages and images (it needs Playwright; `--no-images`
+  skips the images).
+- **Plain record.** `record.html` has every entry and its sources on one page
+  with no JavaScript, for search engines, archives and readers with scripts
+  off. The build writes it, with `sitemap.xml`.
 - **RSS.** `feed.xml` (Atom) lists new entries, dated by when they were added
   to the repository, and updates to existing entries, dated by the event.
 - **Search** covers titles, quotes, summaries, updates, people, pattern names,
@@ -286,7 +291,7 @@ data/
   watch.yaml                 pages the watcher re-reads
   accounts.yaml              X / Bluesky accounts that find-posts reads
   site.yaml                  name, tagline, repo and site URLs
-site/                        the static site (index.html, styles.css, app.js)
+site/                        the static site (index.html, styles.css, app.js, sky.js, fonts/)
 scripts/                     build, cards, capture, new-entry, find-posts, check-sources, watch-pages, serve
 snapshots/                   captured evidence
 inbox/                       working material: the post archive and reading log, page histories, reading logs (see inbox/README.md)
