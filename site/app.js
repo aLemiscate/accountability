@@ -64,6 +64,80 @@
     return el;
   }
   const SVG = 'http://www.w3.org/2000/svg';
+  // Company marks (from Simple Icons, CC0; the logos are the companies' trademarks,
+  // used only to say whose entry it is). The badge keeps the page's shape code
+  // (circle OpenAI, square Anthropic) so a mark reads even where the logo is tiny,
+  // and its fill keeps the type code: outlined = said, solid = did.
+  const LOGO = {
+    openai: 'M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1686a.071.071 0 0 1 .038.052v5.5826a4.504 4.504 0 0 1-4.4945 4.4944zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4992 4.4992 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1685a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.872zm16.5963 3.8558L13.1038 8.364 15.1192 7.2a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.407-.667zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L9.409 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4992 4.4992 0 0 1 6.6802 4.66zM8.3065 12.863l-2.02-1.1638a.0804.0804 0 0 1-.038-.0567V6.0742a4.4992 4.4992 0 0 1 7.3757-3.4537l-.142.0805L8.704 5.459a.7948.7948 0 0 0-.3927.6813zm1.0976-2.3654l2.602-1.4998 2.6069 1.4998v2.9994l-2.5974 1.4997-2.6067-1.4997Z',
+    anthropic: 'M17.3041 3.541h-3.6718l6.696 16.918H24Zm-10.6082 0L0 20.459h3.7442l1.3693-3.5527h7.0052l1.3693 3.5528h3.7442L10.5363 3.5409Zm-.3712 10.2232 2.2914-5.9456 2.2914 5.9456Z',
+  };
+  // The badge and the logo are drawn in one SVG, so the logo stays centered in its
+  // ring however the browser rounds the mark's position. Both paths are already
+  // centered on (12, 12) in their 24-unit boxes; the scale leaves an even margin.
+  const LOGO_SCALE = { openai: 0.58, anthropic: 0.6 };
+  function badge(org) {
+    const s = document.createElementNS(SVG, 'svg');
+    s.setAttribute('viewBox', '0 0 24 24');
+    s.setAttribute('aria-hidden', 'true');
+    s.setAttribute('focusable', 'false');
+    const ring = document.createElementNS(SVG, org === 'anthropic' ? 'rect' : 'circle');
+    if (org === 'anthropic') {
+      for (const [k, v] of Object.entries({ x: 0.8, y: 0.8, width: 22.4, height: 22.4, rx: 4.2 })) ring.setAttribute(k, v);
+    } else {
+      for (const [k, v] of Object.entries({ cx: 12, cy: 12, r: 11.2 })) ring.setAttribute(k, v);
+    }
+    ring.setAttribute('class', 'badge');
+    const glyph = document.createElementNS(SVG, 'path');
+    glyph.setAttribute('d', LOGO[org] || '');
+    glyph.setAttribute('class', 'glyph');
+    glyph.setAttribute('transform', `translate(12 12) scale(${LOGO_SCALE[org] ?? 0.6}) translate(-12 -12)`);
+    s.append(ring, glyph);
+    return s;
+  }
+  // A mark for one entry: a button in the pattern grid, a plain span in keys and lists.
+  function logoMark(e, { tag = 'span', size = '', ...attrs } = {}) {
+    return h(tag, { class: `lm ${e.org} ${e.type}${size ? ` ${size}` : ''}`, ...attrs }, badge(e.org));
+  }
+
+  // Marks land on fractional pixel positions (the grid's columns are fractions of the
+  // page width), so each one would be anti-aliased a little differently. Nudge every
+  // mark onto the device-pixel grid so they all render alike.
+  function snapMarks() {
+    const marks = [...document.querySelectorAll('.lm')];
+    for (const m of marks) m.style.transform = '';
+    const dpr = window.devicePixelRatio || 1;
+    const rects = marks.map((m) => m.getBoundingClientRect());
+    marks.forEach((m, i) => {
+      const dx = Math.round(rects[i].left * dpr) / dpr - rects[i].left;
+      const dy = Math.round(rects[i].top * dpr) / dpr - rects[i].top;
+      if (Math.abs(dx) > 0.001 || Math.abs(dy) > 0.001) m.style.transform = `translate(${dx.toFixed(3)}px, ${dy.toFixed(3)}px)`;
+    });
+  }
+  let snapQueued = 0;
+  const queueSnap = () => { cancelAnimationFrame(snapQueued); snapQueued = requestAnimationFrame(snapMarks); };
+  window.addEventListener('resize', queueSnap);
+  document.fonts?.ready.then(queueSnap);
+
+  // One tooltip for the page, shown on hover and on keyboard focus. Text only.
+  let tip = null;
+  function hideTip() { tip?.remove(); tip = null; }
+  function showTip(anchor, e) {
+    hideTip();
+    tip = h('div', { class: 'tip', role: 'tooltip' },
+      h('span', { class: 'tip-meta' }, `${fmtDate(e.date)} · ${orgName(e.org)} ${e.type}`),
+      h('span', { class: 'tip-title' }, e.title),
+      e.status && h('span', { class: 'tip-status' }, statusPill(e.status)));
+    document.body.append(tip);
+    const r = anchor.getBoundingClientRect();
+    const t = tip.getBoundingClientRect();
+    const left = Math.max(8, Math.min(r.left + r.width / 2 - t.width / 2, document.documentElement.clientWidth - t.width - 8));
+    const top = r.top - t.height - 8 >= 8 ? r.top - t.height - 8 : r.bottom + 8;
+    tip.style.left = `${left + window.scrollX}px`;
+    tip.style.top = `${top + window.scrollY}px`;
+  }
+  window.addEventListener('scroll', hideTip, { passive: true });
+  window.addEventListener('resize', hideTip);
   function arrow() {
     const s = document.createElementNS(SVG, 'svg');
     s.setAttribute('viewBox', '0 0 72 10');
@@ -394,44 +468,60 @@
     state.pattern = '';
     const pool = D.entries.filter(matches);
     state.pattern = saved;
-    const years = [];
     const minY = Math.min(...D.entries.map((e) => +String(e.date).slice(0, 4)));
     const maxY = Math.max(new Date(NOW).getUTCFullYear(), ...D.entries.map((e) => +String(e.date).slice(0, 4)));
-    for (let y = minY; y <= maxY; y++) years.push(y);
     const rows = D.patterns
       .map((p) => ({ p, hits: pool.filter((e) => e.patterns.includes(p.id)) }))
       .filter((r) => r.hits.length)
       .sort((a, b) => b.hits.length - a.hits.length || a.p.name.localeCompare(b.p.name));
 
     const frag = [viewHead('Patterns',
-      'The same moves, repeated. Each row is a pattern and each mark is an entry, placed in the year it happened. A row that keeps filling in is a pattern you can plan around.')];
+      'The same moves, repeated. Each row is a pattern and each mark is one entry, placed in the year it happened; the logo shows which company. A row that keeps filling in is a pattern you can plan around.')];
     if (!rows.length) return [...frag, empty()];
 
-    const grid = h('div', { class: 'rgrid', role: 'table', 'aria-label': 'Pattern recurrence by year', style: `grid-template-columns: minmax(200px, 1.6fr) repeat(${years.length}, minmax(34px, 1fr))` },
-      h('span', { role: 'columnheader', class: 'yh' }),
-      years.map((y) => h('span', { role: 'columnheader', class: 'yh' }, `’${String(y).slice(2)}`)),
+    // Years with only a handful of marks share one column, so the busy years get the room.
+    const perYear = new Map();
+    for (const e of pool) if (e.patterns.length) perYear.set(+String(e.date).slice(0, 4), (perYear.get(+String(e.date).slice(0, 4)) || 0) + 1);
+    let cut = maxY;
+    while (cut > minY && (perYear.get(cut - 1) || 0) >= 5) cut--;
+    const bins = [];
+    if (cut > minY) bins.push({ from: minY, to: cut - 1, early: true, label: `${minY}–${String(cut - 1).slice(2)}`, short: `’${String(minY).slice(2)}–${String(cut - 1).slice(2)}`, sub: `${cut - minY} years` });
+    for (let y = cut; y <= maxY; y++) bins.push({ from: y, to: y, label: String(y) });
+    const inBin = (e, b) => { const y = +String(e.date).slice(0, 4); return y >= b.from && y <= b.to; };
+    // Within a year, OpenAI's marks come first, then Anthropic's, each in date order, so the two can be compared at a glance.
+    const ORDER = { openai: 0, anthropic: 1 };
+    const byOrgThenDate = (a, b) => (ORDER[a.org] ?? 2) - (ORDER[b.org] ?? 2) || String(a.date).localeCompare(String(b.date));
+    const counts = (hits) => ['openai', 'anthropic']
+      .map((o) => [o, hits.filter((e) => e.org === o).length]).filter(([, n]) => n)
+      .map(([o, n]) => `${orgName(o)} ${n}`).join(' · ');
+
+    const key = h('div', { class: 'legend' },
+      [['openai', 'said'], ['openai', 'did'], ['anthropic', 'said'], ['anthropic', 'did']].map(([org, type]) =>
+        h('span', null, logoMark({ org, type }, { 'aria-hidden': 'true' }), `${orgName(org)} ${type}`)),
+      h('span', { class: 'legend-note' }, 'Outlined: something the company said. Filled: something it did. Hover or tab to a mark for its title; click to open it.'));
+
+    const grid = h('div', { class: 'rgrid', role: 'table', 'aria-label': 'Each pattern by year: one mark per entry', style: `--recent: ${bins.filter((b) => !b.early).length}` },
+      h('span', { class: 'corner', 'aria-hidden': 'true' }),
+      bins.map((b) => h('span', { role: 'columnheader', class: `yh${b.early ? ' early' : ''}`, 'aria-label': b.early ? `${b.from} to ${b.to}` : b.label },
+        h('span', { class: `yh-long${b.short ? ' has-short' : ''}` }, b.label), b.short && h('span', { class: 'yh-short', 'aria-hidden': 'true' }, b.short), b.sub && h('span', { class: 'yh-sub' }, b.sub))),
       rows.map(({ p, hits }) => [
-        h('button', { class: 'rname', type: 'button', role: 'rowheader', title: `Show ${p.name} in the timeline`, onclick: () => setFilter({ pattern: p.id }, 'timeline') },
-          h('span', null, p.name), h('span', { class: 'n' }, hits.length)),
-        years.map((y) => h('span', { class: 'cell', role: 'cell' },
-          hits.filter((e) => +String(e.date).slice(0, 4) === y).map((e) => h('button', {
-            class: `dot ${e.org} ${e.type}`,
+        h('button', { class: 'rname', type: 'button', role: 'rowheader', title: `Show ${p.name} on the timeline`, onclick: () => setFilter({ pattern: p.id }, 'timeline') },
+          h('span', { class: 'rname-t' }, p.name),
+          h('span', { class: 'rname-n' }, `${hits.length} · ${counts(hits)}`)),
+        bins.map((b) => h('span', { class: `cell${b.early ? ' early' : ''}`, role: 'cell' },
+          hits.filter((e) => inBin(e, b)).sort(byOrgThenDate).map((e) => logoMark(e, {
+            tag: 'button',
             type: 'button',
-            title: `${fmtDate(e.date)} · ${orgName(e.org)} · ${e.type.toUpperCase()}: ${e.title}`,
-            'aria-label': `${fmtDate(e.date)}, ${orgName(e.org)}: ${e.title}`,
-            onclick: () => openEntry(e.id),
+            'aria-label': `${fmtDate(e.date)}, ${orgName(e.org)} ${e.type}: ${e.title}`,
+            onclick: () => { hideTip(); openEntry(e.id); },
+            onpointerenter: (ev) => showTip(ev.currentTarget, e),
+            onpointerleave: hideTip,
+            onfocus: (ev) => showTip(ev.currentTarget, e),
+            onblur: hideTip,
           })))),
       ]),
     );
-    frag.push(
-      h('div', { class: 'grid-wrap' }, grid,
-        h('div', { class: 'legend' },
-          h('span', null, h('span', { class: 'dot openai said', 'aria-hidden': 'true' }), 'OpenAI said'),
-          h('span', null, h('span', { class: 'dot openai did', 'aria-hidden': 'true' }), 'OpenAI did'),
-          h('span', null, h('span', { class: 'dot anthropic said', 'aria-hidden': 'true' }), 'Anthropic said'),
-          h('span', null, h('span', { class: 'dot anthropic did', 'aria-hidden': 'true' }), 'Anthropic did'),
-        )),
-    );
+    frag.push(h('div', { class: 'grid-wrap' }, key, grid));
     frag.push(h('div', { class: 'patterns-list' }, rows.map(({ p, hits }) => h('section', { class: 'pcard', id: `p-${p.id}` },
       h('span', { class: 'label' }, `${hits.length} entr${hits.length === 1 ? 'y' : 'ies'} · ${[...new Set(hits.map((e) => orgName(e.org)))].join(' + ')} · ${yearSpan(hits)}`),
       h('h3', null, p.name),
@@ -441,7 +531,7 @@
       p.watch_for && h('div', { class: 'forecast' }, h('span', { class: 'label' }, 'If the pattern holds (analysis)'), h('p', null, p.watch_for)),
       p.industry && industryNote(p.industry),
       h('div', { class: 'hits' }, hits.map((e) => h('button', { class: 'hit', type: 'button', onclick: () => openEntry(e.id) },
-        h('span', { class: 'mono' }, String(e.date).slice(0, 7)), h('span', { class: `dot sm ${e.org} ${e.type}`, 'aria-hidden': 'true' }),
+        h('span', { class: 'mono' }, String(e.date).slice(0, 7)), logoMark(e, { size: 'sm', 'aria-hidden': 'true' }),
         h('span', { class: 'ht' }, e.title, e.status && h('span', { class: `mark s-${e.status}`, title: STATUS_LABEL[e.status] }, h('span', { class: 'sr' }, ` (${STATUS_LABEL[e.status]})`)))))),
       h('button', { class: 'btn', type: 'button', onclick: () => setFilter({ pattern: p.id }, 'timeline') }, `Follow ${p.name} on the timeline`),
     ))));
@@ -785,7 +875,9 @@
   function render() {
     syncControls();
     const renderers = { receipts: renderReceipts, timeline: renderTimeline, patterns: renderPatterns, watchlist: renderWatchlist, commitments: renderCommitments, method: renderMethod };
+    hideTip();
     view.replaceChildren(...[renderers[state.view]()].flat().filter(Boolean));
+    queueSnap();
   }
 
   // ── masthead numbers ───────────────────────────────────────────────────
