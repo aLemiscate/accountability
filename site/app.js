@@ -45,7 +45,7 @@
   const DAY = 86400000;
   const NOW = Date.now();
 
-  const state = { view: 'receipts', org: 'all', pattern: '', person: '', q: '' };
+  const state = { view: 'receipts', org: 'all', pattern: '', person: '', q: '', order: 'newest' };
 
   // ── tiny DOM builder (text is always set as text, never parsed as HTML) ──
   function h(tag, attrs, ...kids) {
@@ -93,6 +93,18 @@
     glyph.setAttribute('class', 'glyph');
     glyph.setAttribute('transform', `translate(12 12) scale(${LOGO_SCALE[org] ?? 0.6}) translate(-12 -12)`);
     s.append(ring, glyph);
+    return s;
+  }
+  // The bare logo, for running text: next to a company's name, or beside a count.
+  function glyph(org) {
+    const s = document.createElementNS(SVG, 'svg');
+    s.setAttribute('viewBox', '0 0 24 24');
+    s.setAttribute('class', `og ${org}`);
+    s.setAttribute('aria-hidden', 'true');
+    s.setAttribute('focusable', 'false');
+    const p = document.createElementNS(SVG, 'path');
+    p.setAttribute('d', LOGO[org] || '');
+    s.append(p);
     return s;
   }
   // A mark for one entry: a button in the pattern grid, a plain span in keys and lists.
@@ -229,10 +241,12 @@
   }
 
   // ── shared pieces ──────────────────────────────────────────────────────
-  const orgTag = (org) => h('span', { class: 'org' }, h('span', { class: `org-mark ${org}`, 'aria-hidden': 'true' }), orgName(org));
+  const orgTag = (org) => h('span', { class: `org ${org}` }, glyph(org), orgName(org));
   const stamp = (type) => h('span', { class: `stamp ${type}` }, type === 'said' ? 'Said' : 'Did');
   const statusPill = (s) => h('span', { class: `pill s-${s}`, title: STATUS_DEF[s] }, STATUS_LABEL[s] || s);
-  const concretePill = (c) => c && h('span', { class: 'pill c', title: CONCRETE_DEF[c] }, c);
+  // "Measurable commitment", "Directional claim": how testable the statement was, in words.
+  const concretePill = (c, kind) => c && h('span', { class: 'pill c', title: CONCRETE_DEF[c] },
+    `${c[0].toUpperCase()}${c.slice(1)}${kind ? ` ${kind}` : ''}`);
   /** Pattern tags. Clicking one follows that pattern (filters every view); clicking it again stops. */
   const patternChips = (ids, toView) => ids.map((p) => h('button', {
     class: 'chip',
@@ -283,7 +297,7 @@
       h('p', null, p.thesis),
       entries.length > 0 && h('p', { class: 'pbrief-meta' },
         h('span', null, `${entries.length} entr${entries.length === 1 ? 'y' : 'ies'}, ${yearSpan(entries)}`),
-        h('span', { class: 'pbrief-orgs' }, orgs.map(([o, n]) => h('span', { class: 'org' }, h('span', { class: `org-mark ${o}`, 'aria-hidden': 'true' }), `${orgName(o)} ${n}`))),
+        h('span', { class: 'pbrief-orgs' }, orgs.map(([o, n]) => h('span', { class: `org ${o}` }, glyph(o), `${orgName(o)} ${n}`))),
         outcomeTally(entries)),
       p.industry && industryNote(p.industry),
       (p.tells?.length > 0 || p.watch_for) && h('details', null,
@@ -312,7 +326,7 @@
   const quoteBlock = (text, e) => text && h('div', { class: 'quote-wrap' },
     h('blockquote', { class: 'quote' }, `“${text.trim()}”`),
     e?.quote_check?.status === 'matched' && h('span', { class: 'verified', title: `Found word for word in ${e.quote_check.snapshot}` },
-      `✓ Matched to source snapshot, ${fmtDate(snapDate(e.quote_check.snapshot))}`));
+      `✓ Quote matches the saved source (${fmtDate(snapDate(e.quote_check.snapshot))})`));
   const titleButton = (e) => h('button', { class: 'side-title', type: 'button', onclick: () => openEntry(e.id) }, e.title);
 
   // Update the address-bar hash without scrolling; some embedded frames refuse this, which is fine.
@@ -332,7 +346,7 @@
   function renderReceipts() {
     const list = allReceipts.filter(receiptMatches);
     const frag = [viewHead('Receipts',
-      'Each receipt pairs a public statement with a later action that contradicts it, with what became of it, or a policy text with its quiet rewrite. Between them is the time from the words to the deed.'),
+      'Each receipt puts something a company said next to what happened after: an action that contradicted it, what became of a promise, or a policy page before and after a quiet edit. The figure between them is the time from one to the other. Newest first.'),
     patternBrief(D.entries.filter(matches))];
     if (!list.length) return [...frag, empty()];
     frag.push(h('div', { class: 'receipts' }, list.map((r) => (r.revision ? revisionCard(byId.get(r.revision)) : r.outcome ? outcomeCard(r) : receiptCard(r)))));
@@ -347,7 +361,7 @@
         h('div', { class: 'side-head' }, stamp('said'), h('span', { class: 'label' }, fmtDate(s.date)), orgTag(s.org)),
         titleButton(s),
         quoteBlock(s.quote, s),
-        h('div', { class: 'side-head' }, statusPill(s.status), concretePill(s.concreteness)),
+        h('div', { class: 'side-head' }, statusPill(s.status), concretePill(s.concreteness, s.kind)),
       ),
       h('div', { class: 'gap', title: r.approx ? 'Approximate: one of the dates is known only to the month' : null },
         h('span', { class: 'label' }, 'Later'),
@@ -380,7 +394,7 @@
         h('div', { class: 'side-head' }, stamp('said'), h('span', { class: 'label' }, fmtDate(s.date)), orgTag(s.org)),
         titleButton(s),
         quoteBlock(s.quote, s),
-        h('div', { class: 'side-head' }, statusPill(s.status), concretePill(s.concreteness)),
+        h('div', { class: 'side-head' }, statusPill(s.status), concretePill(s.concreteness, s.kind)),
       ),
       h('div', { class: 'gap', title: r.approx ? 'Approximate: one of the dates is known only to the month or year' : null },
         h('span', { class: 'label' }, earlier ? 'Already' : 'Later'),
@@ -427,9 +441,15 @@
   }
 
   function renderTimeline() {
-    const list = D.entries.filter(matches);
-    const frag = [viewHead('Timeline', 'Everything in the record, in date order. A hollow mark is a statement; a solid mark is an action. The tags on each entry name the patterns it belongs to; pick one to follow it through the years.'),
-      patternStrip(), patternBrief(list)];
+    const matched = D.entries.filter(matches);
+    // Newest first by default: most readers come for what changed lately.
+    const list = state.order === 'oldest' ? matched : [...matched].reverse();
+    const frag = [viewHead('Timeline', 'Everything in the record. Statements are on the left and actions on the right, each with the company that made it. The tags name the patterns an entry belongs to; pick one to follow it across the years.'),
+      h('div', { class: 'seg order', role: 'group', 'aria-label': 'Order' },
+        [['newest', 'Newest first'], ['oldest', 'Oldest first']].map(([k, label]) => h('button', {
+          type: 'button', 'aria-pressed': String(state.order === k), onclick: () => setFilter({ order: k }),
+        }, label))),
+      patternStrip(), patternBrief(matched)];
     if (!list.length) return [...frag, empty()];
     const years = new Map();
     for (const e of list) {
@@ -538,50 +558,71 @@
     return frag;
   }
 
-  // A promise's own deadline: "Due end of March 2027", or "Deadline passed" once it has.
-  function dueLine(e) {
+  // A promise's own deadline: the last moment of the period it names, and how to say it.
+  function dueOf(e) {
     if (!e.due) return null;
     const d = parseDate(e.due);
     if (!d) return null;
     const t = new Date(d.time);
     const end = d.precision === 'year' ? Date.UTC(t.getUTCFullYear() + 1, 0, 1) - 1
       : d.precision === 'month' ? Date.UTC(t.getUTCFullYear(), t.getUTCMonth() + 1, 1) - 1 : d.time + DAY - 1;
-    const when = d.precision === 'day' ? fmtDate(e.due) : `end of ${fmtDate(e.due)}`;
-    const passed = end < NOW;
-    return h('p', { class: `label due${passed && e.status === 'open' ? ' passed' : ''}` }, passed ? `Deadline passed: ${when}` : `Due ${when}`);
+    return { end, when: d.precision === 'day' ? fmtDate(e.due) : `end of ${fmtDate(e.due)}`, passed: end < NOW };
+  }
+  // "Due end of March 2027", or "Deadline passed" once it has.
+  function dueLine(e) {
+    const d = dueOf(e);
+    if (!d) return null;
+    return h('p', { class: `label due${d.passed && e.status === 'open' ? ' passed' : ''}` }, d.passed ? `Deadline passed: ${d.when}` : `Due ${d.when}`);
   }
 
   function renderWatchlist() {
     const said = D.entries.filter((e) => e.type === 'said' && matches(e));
-    const open = said.filter((e) => e.status === 'open').sort((a, b) => b.time - a.time);
+    const open = said.filter((e) => e.status === 'open');
+    // Promises with a deadline first, soonest (or already passed) at the top; then the rest, newest first.
+    const dated = open.filter((e) => dueOf(e)).sort((a, b) => dueOf(a).end - dueOf(b).end);
+    const undated = open.filter((e) => !dueOf(e)).sort((a, b) => b.time - a.time);
     const kept = said.filter((e) => e.status === 'kept').sort((a, b) => b.time - a.time);
     const frag = [viewHead('Watchlist',
-      'Promises still in force. Each says what would count as breaking it, so the test is written down before anyone needs it.'),
+      'Promises still in force, and the ones that held. Each open promise says in advance what would count as breaking it. Those with a deadline come first, soonest due at the top.'),
     patternBrief(D.entries.filter(matches))];
     if (!open.length && !kept.length) return [...frag, empty()];
     const card = (e) => {
-      const days = Math.max(0, Math.round((NOW - e.time) / DAY));
-      return h('article', { class: `wcard ${e.status}` },
+      const due = e.status === 'open' && dueOf(e);
+      const days = due ? Math.round((due.end - NOW) / DAY) : Math.max(0, Math.round((NOW - e.time) / DAY));
+      return h('article', { class: `wcard ${e.status}${due?.passed ? ' passed' : ''}` },
+        h('div', { class: 'age' },
+          due ? [
+            h('span', { class: 'label' }, due.passed ? 'Deadline passed' : 'Due in'),
+            h('span', { class: 'gap-n' }, span(Math.abs(days)).n),
+            h('span', { class: 'label' }, `${span(Math.abs(days)).unit}${due.passed ? ' ago' : ''} · ${due.when}`),
+          ] : [
+            h('span', { class: 'label' }, e.status === 'kept' ? 'Held for' : 'Standing for'),
+            h('span', { class: 'gap-n' }, span(days).n),
+            h('span', { class: 'label' }, `${span(days).unit} · since ${fmtDate(e.date)}`),
+          ],
+        ),
         h('div', { class: 'main' },
-          h('div', { class: 'side-head' }, orgTag(e.org), statusPill(e.status), concretePill(e.concreteness)),
+          h('div', { class: 'side-head' }, orgTag(e.org), statusPill(e.status), concretePill(e.concreteness, e.kind)),
           titleButton(e),
           quoteBlock(e.quote, e),
           !e.quote && e.summary && h('p', null, clip(e.summary, 260)),
           e.breaks_if && h('div', { class: 'breaks' }, h('span', { class: 'label' }, 'Counts as broken if'), h('p', null, e.breaks_if)),
-          dueLine(e),
           e.last_checked && h('p', { class: 'label checked' }, `Last checked ${fmtDate(e.last_checked)}`),
           e.patterns.length > 0 && h('div', { class: 'side-head' }, patternChips(e.patterns)),
         ),
-        h('div', { class: 'age' },
-          h('span', { class: 'label' }, e.status === 'kept' ? 'Held for' : 'Standing for'),
-          h('span', { class: 'gap-n' }, span(days).n),
-          h('span', { class: 'label' }, `${span(days).unit} · since ${fmtDate(e.date)}`),
-        ),
       );
     };
-    if (open.length) frag.push(h('div', { class: 'watch' }, open.map(card)));
-    if (kept.length) frag.push(h('h3', { class: 'section-sub' }, 'Held under pressure'), h('div', { class: 'watch' }, kept.map(card)));
-    return frag;
+    const section = (title, note, items) => items.length > 0 && [
+      h('h3', { class: 'section-sub' }, title, h('span', { class: 'section-n' }, items.length)),
+      note && h('p', { class: 'section-note' }, note),
+      h('div', { class: 'watch' }, items.map(card)),
+    ];
+    frag.push(
+      section('Coming due', 'Promises that name a date. When it passes, the record checks whether they were met.', dated),
+      section('No fixed deadline', 'Open-ended promises, newest first. Each is checked against its test whenever the record is updated.', undated),
+      section('Held under pressure', 'Promises that were tested and kept, so far.', kept),
+    );
+    return frag.flat().filter(Boolean);
   }
 
   const gradePill = (g) => h('span', { class: `pill ${GRADE_CLASS[g] || ''}`, title: GRADE_DEF[g] }, GRADE_LABEL[g] || g);
@@ -592,18 +633,26 @@
     const orgs = state.org === 'all' ? ['openai', 'anthropic'] : [state.org];
     const docs = (D.commitments || []).filter((d) => d.parties.some((o) => orgs.includes(o)));
     const frag = [viewHead('Commitments',
-      'Every individual commitment in the formal documents each company signed or published, graded for each company: kept, standing (in force, with nothing public showing it broken), eroded, broken, or unknown when it can’t be checked from outside. An entry is written only where a result is notable.')];
+      'Every commitment in the formal documents each company signed or published, one by one, graded for each company: kept; standing (in force, with nothing public showing it broken); eroded; broken; or unknown, when it can’t be checked from outside. Open a document below for each commitment, its grade and the evidence.')];
     if (!docs.length) return [...frag, empty()];
     const total = Object.fromEntries(orgs.map((o) => [o, { total: 0, kept: 0, standing: 0, eroded: 0, broken: 0, unknown: 0 }]));
     for (const d of docs) for (const o of orgs) for (const [k, v] of Object.entries(d.tally?.[o] || {})) total[o][k] += v;
-    const cell = (t) => (t ? h('td', null, h('span', { class: 'ck' }, keptLine(t)), h('span', { class: 'cr' }, restLine(t))) : h('td', { class: 'na' }, 'not a party'));
+    // A thin bar of the grades, in the status colors, so documents can be compared at a glance.
+    const GRADES = ['kept', 'standing', 'eroded', 'broken', 'unknown'];
+    const bar = (t) => h('span', { class: 'gbar', 'aria-hidden': 'true' },
+      GRADES.filter((g) => t[g]).map((g) => h('span', { class: `g-${g}`, style: `flex-grow: ${t[g]}` })));
+    const cell = (t, o) => (t
+      ? h('td', { 'data-org': orgName(o) }, h('span', { class: 'ck' }, keptLine(t)), bar(t), h('span', { class: 'cr' }, restLine(t)))
+      : h('td', { class: 'na', 'data-org': orgName(o) }, 'not a party'));
     frag.push(h('div', { class: 'ctable-wrap' }, h('table', { class: 'ctable' },
       h('thead', null, h('tr', null, h('th', { scope: 'col' }, 'Document'), orgs.map((o) => h('th', { scope: 'col' }, orgName(o))))),
       h('tbody', null, docs.map((d) => h('tr', null,
         h('th', { scope: 'row' }, h('a', { href: `#c-${d.id}`, onclick: (ev) => { ev.preventDefault(); document.getElementById(`c-${d.id}`)?.scrollIntoView({ block: 'start' }); } }, d.title)),
-        orgs.map((o) => cell(d.tally?.[o]))))),
-      h('tfoot', null, h('tr', null, h('th', { scope: 'row' }, 'All documents'), orgs.map((o) => cell(total[o])))),
+        orgs.map((o) => cell(d.tally?.[o], o))))),
+      h('tfoot', null, h('tr', null, h('th', { scope: 'row' }, 'All documents'), orgs.map((o) => cell(total[o], o)))),
     )));
+    frag.splice(1, 0, h('div', { class: 'gkey', 'aria-hidden': 'true' },
+      GRADES.map((g) => h('span', null, h('span', { class: `sw g-${g}` }), GRADE_LABEL[g]))));
     frag.push(h('p', { class: 'cnote' }, 'Documents differ in length and in how much can be checked from outside, so counts across documents are not a score. Read the evidence.'));
     for (const d of docs) {
       frag.push(h('section', { class: 'cdoc', id: `c-${d.id}` },
@@ -632,6 +681,18 @@
     const repo = D.site.repo;
     return [
       viewHead('Method', 'How this record is kept, and what counts as evidence.'),
+      h('section', { class: 'key', 'aria-label': 'How to read an entry' },
+        h('h3', null, 'How to read an entry'),
+        h('dl', { class: 'key-list' },
+          h('dt', null, stamp('said')), h('dd', null, 'Something a company or one of its leaders said: a principle, a commitment, a claim or a denial, quoted word for word.'),
+          h('dt', null, stamp('did')), h('dd', null, 'Something a company did: an action, a policy rewrite, a disclosure.'),
+          h('dt', null, h('span', { class: 'stamp did' }, 'Outcome')), h('dd', null, 'What became of a statement when there is no single action to point to, such as a date that passed with nothing shipped.'),
+          h('dt', null, h('span', { class: 'key-orgs' }, orgTag('openai'), orgTag('anthropic'))), h('dd', null, 'Whose entry it is. On the Patterns grid each entry is one mark: the logo in a circle (OpenAI) or a square (Anthropic), outlined for said and filled for did.'),
+          h('dt', null, statusPill('broken')), h('dd', null, 'How a statement turned out. The full list of statuses is below.'),
+          h('dt', null, concretePill('measurable', 'commitment')), h('dd', null, 'How testable the statement was when it was made, from measurable to aspirational.'),
+          h('dt', null, h('span', { class: 'label' }, 'Counts as broken if')), h('dd', null, 'The test for an open promise, written down before anyone needs it.'),
+          h('dt', null, h('span', { class: 'verified' }, '✓ Quote matches the saved source')), h('dd', null, 'The quote was found word for word in a copy of the source saved by this record, so an edited or deleted page doesn’t erase it.'),
+        )),
       h('div', { class: 'prose' },
         h('p', null, 'Every entry is either something a company or one of its leaders ', h('b', null, 'said'), ' (a principle, a commitment, a claim, a denial) or something they ', h('b', null, 'did'), '. A "did" entry that contradicts an earlier "said" entry links back to it, and that link is a receipt. A statement that failed with no separate action to point to (a date that passed with nothing shipped, a claim the company\'s own earlier paper contradicts) carries a dated outcome instead, shown as a receipt too. Every statement graded broken, reversed, eroded or contradicted has one.'),
         h('p', null, 'Claims are not limited to safety and ethics. Capability and benchmark claims, promised features and release dates, usage limits and what a plan includes, and promises about how a product behaves are recorded too when they are notable and can be checked, whether they held up or not.'),
@@ -706,11 +767,12 @@
     ];
     dialog.replaceChildren(
       h('div', { class: 'd-head' },
-        stamp(e.type), h('span', { class: 'label' }, fmtDate(e.date)), orgTag(e.org),
-        e.status && statusPill(e.status), concretePill(e.concreteness),
-        h('span', { class: 'spacer' }),
-        h('button', { class: 'btn', type: 'button', onclick: () => copyReceipt(pairs[0]?.[0] || (e.type === 'said' ? e : null), pairs[0]?.[1] || (e.type === 'did' ? e : null)) }, 'Copy'),
-        h('button', { class: 'btn', type: 'button', onclick: () => dialog.close(), 'aria-label': 'Close' }, 'Close'),
+        h('div', { class: 'd-meta' }, stamp(e.type), h('span', { class: 'label' }, fmtDate(e.date)), orgTag(e.org)),
+        h('div', { class: 'd-actions' },
+          h('button', { class: 'btn', type: 'button', onclick: () => copyReceipt(pairs[0]?.[0] || (e.type === 'said' ? e : null), pairs[0]?.[1] || (e.type === 'did' ? e : null)) }, 'Copy receipt'),
+          h('button', { class: 'btn close', type: 'button', onclick: () => dialog.close(), 'aria-label': 'Close' }, h('span', { 'aria-hidden': 'true' }, '×')),
+        ),
+        (e.status || e.concreteness) && h('div', { class: 'd-tags' }, e.status && statusPill(e.status), concretePill(e.concreteness, e.kind)),
       ),
       h('div', { class: 'd-body' },
         h('h2', { id: 'entry-title' }, e.title),
@@ -842,6 +904,12 @@
   let qTimer;
   search.addEventListener('input', () => { clearTimeout(qTimer); qTimer = setTimeout(() => setFilter({ q: search.value.trim() }), 150); });
   document.getElementById('clear').addEventListener('click', clearFilters);
+  const moreToggle = document.getElementById('more-toggle');
+  moreToggle.addEventListener('click', () => {
+    const open = moreToggle.getAttribute('aria-expanded') !== 'true';
+    moreToggle.setAttribute('aria-expanded', String(open));
+    document.querySelector('.filters').classList.toggle('open', open);
+  });
 
   function setFilter(patch, toView) {
     Object.assign(state, patch);
@@ -868,6 +936,8 @@
     personSel.value = state.person;
     if (document.activeElement !== search) search.value = state.q;
     document.getElementById('clear').hidden = !anyFilter();
+    const extra = [state.pattern, state.person].filter(Boolean).length;
+    moreToggle.textContent = extra ? `More filters (${extra} on)` : 'More filters';
     const shown = D.entries.filter(matches).length;
     countEl.textContent = anyFilter() ? `${shown} of ${D.entries.length} entries match` : `${D.entries.length} entries`;
   }
@@ -881,13 +951,28 @@
   }
 
   // ── masthead numbers ───────────────────────────────────────────────────
-  const s = D.stats;
+  // Each figure is split by company, since that is the first thing a reader asks,
+  // and each one opens the view that holds those entries.
+  const said = D.entries.filter((e) => e.type === 'said');
+  const byOrg = (pred) => ['openai', 'anthropic'].map((o) => [o, said.filter((e) => e.org === o && pred(e)).length]);
+  const tile = (pred, label, tone, target) => {
+    const split = byOrg(pred);
+    const n = split.reduce((a, [, k]) => a + k, 0);
+    return h('a', { class: 'stat', href: `#${target}` },
+      h('span', { class: `stat-n${tone ? ` ${tone}` : ''}` }, n),
+      h('span', { class: 'label' }, label),
+      h('span', { class: 'stat-split' }, split.map(([o, k]) => h('span', { class: `org-n ${o}` }, glyph(o), h('span', { class: 'sr' }, `${orgName(o)}: `), k))));
+  };
   document.getElementById('stats').replaceChildren(
-    h('div', { class: 'stat' }, h('span', { class: 'stat-n' }, s.said), h('span', { class: 'label' }, 'Statements on record')),
-    h('div', { class: 'stat' }, h('span', { class: 'stat-n is-did' }, s.broken), h('span', { class: 'label' }, 'Didn’t hold up')),
-    h('div', { class: 'stat' }, h('span', { class: 'stat-n is-open' }, s.open), h('span', { class: 'label' }, 'Still standing, being watched')),
-    s.median_gap_days != null && h('div', { class: 'stat' }, h('span', { class: 'stat-n' }, fmtSpan(s.median_gap_days)), h('span', { class: 'label' }, 'Median time, word to deed')),
+    tile(() => true, 'Statements on record', '', 'timeline'),
+    tile((e) => FAILED.has(e.status), 'Didn’t hold up', 'is-did', 'receipts'),
+    tile((e) => e.status === 'kept', 'Kept', 'is-held', 'watchlist'),
+    tile((e) => e.status === 'open', 'Still standing, being watched', 'is-open', 'watchlist'),
   );
+  const s = D.stats;
+  document.getElementById('stats-note').replaceChildren(
+    s.median_gap_days != null && h('span', null, `Median time from a statement to the action that contradicted it: ${fmtSpan(s.median_gap_days)}.`),
+    h('span', { class: 'updated' }, `Updated ${fmtDate(String(D.generated).slice(0, 10))} · ${D.entries.length} entries`));
 
   // ── routing: #receipts, #timeline, #patterns, #watchlist, #commitments, #method, #e-<id>, #p-<pattern>
   function fromHash() {

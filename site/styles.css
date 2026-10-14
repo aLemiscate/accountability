@@ -111,11 +111,18 @@ p { margin: 0; }
   margin-top: 36px;
   border-top: 1px solid var(--ink);
 }
-.stat { display: grid; gap: 6px; align-content: start; min-width: 0; padding: 14px 20px 0 0; }
+.stat { display: grid; gap: 6px; align-content: start; min-width: 0; padding: 14px 20px 14px 0; color: inherit; text-decoration: none; }
+.stat:hover .label, .stat:focus-visible .label { color: var(--ink); text-decoration: underline; text-underline-offset: 0.2em; }
+.stat-split { display: flex; flex-wrap: wrap; gap: 4px 14px; font: 500 0.8125rem/1.2 var(--mono); color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.org-n { display: inline-flex; align-items: center; gap: 5px; }
+.org-n .og { width: 13px; height: 13px; }
+.stats-note { display: flex; flex-wrap: wrap; gap: 6px 24px; margin-top: 12px; font-size: var(--step--1); color: var(--ink-2); }
+.stats-note .updated { font: 400 0.75rem/1.6 var(--mono); color: var(--ink-3); }
 .stat + .stat { padding-left: 20px; border-left: 1px solid var(--rule); }
 .stat-n { font: 500 var(--step-3)/1 var(--sans); letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }
 .stat-n.is-did { color: var(--fail); }
 .stat-n.is-open { color: var(--standing); }
+.stat-n.is-held { color: var(--held); }
 
 /* ── tabs + filters (sticky) ────────────────────────────────────────────── */
 .controls {
@@ -178,6 +185,8 @@ input[type="search"] { width: min(260px, 100%); }
 .field select { max-width: 15rem; }
 input[type="search"]::placeholder { color: var(--ink-3); }
 .filter-count { margin-left: auto; }
+.more { display: contents; }
+.more-toggle { display: none; }
 .clear { background: none; border: 0; padding: 4px; cursor: pointer; text-decoration: underline; text-underline-offset: 0.2em; }
 
 /* ── views ──────────────────────────────────────────────────────────────── */
@@ -238,6 +247,16 @@ main { padding-block: 40px 80px; min-height: 50vh; }
 .ctable .ck { display: block; font: 500 0.875rem/1.4 var(--mono); }
 .ctable .cr { display: block; color: var(--ink-3); font: 400 0.75rem/1.4 var(--mono); }
 .ctable .na { color: var(--ink-3); }
+.gbar { display: flex; gap: 2px; height: 6px; margin: 6px 0 5px; max-width: 13rem; }
+.gbar > span { min-width: 2px; border-radius: 1px; }
+.g-kept { background: var(--held); }
+.g-standing { background: var(--standing); }
+.g-eroded { background: color-mix(in srgb, var(--fail) 50%, var(--bg)); }
+.g-broken { background: var(--fail); }
+.g-unknown { background: var(--rule-2); }
+.gkey { display: flex; flex-wrap: wrap; gap: 6px 16px; font: 400 0.75rem/1.3 var(--mono); color: var(--ink-2); margin: -8px 0 4px; }
+.gkey > span { display: inline-flex; align-items: center; gap: 6px; }
+.gkey .sw { width: 10px; height: 10px; border-radius: 1px; }
 .cnote { color: var(--ink-3); font-size: var(--step--1); max-width: var(--measure); }
 .cdoc { padding: 28px 0; border-bottom: 1px solid var(--rule); display: grid; gap: 10px; scroll-margin-top: 16px; }
 .cdoc h3 { font: 600 var(--step-2)/1.1 var(--sans); letter-spacing: -0.03em; text-wrap: balance; }
@@ -269,6 +288,7 @@ main { padding-block: 40px 80px; min-height: 50vh; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
 /* Pattern strip and brief: follow one pattern through every view. */
+.seg.order { margin-bottom: 24px; }
 .pstrip { display: grid; gap: 10px; margin-bottom: 28px; }
 .pstrip-chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .pstrip-note { font-size: var(--step--1); color: var(--ink-3); }
@@ -312,14 +332,11 @@ main { padding-block: 40px 80px; min-height: 50vh; }
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font: 500 0.75rem/1 var(--mono);
-  letter-spacing: 0.02em;
-  color: var(--ink-2);
+  font: 600 var(--step--1)/1 var(--sans);
+  color: var(--ink);
 }
-/* Circle = OpenAI, square = Anthropic, everywhere on the page. */
-.org-mark { width: 8px; height: 8px; background: var(--ink); flex: none; }
-.org-mark.openai { border-radius: 50%; }
-.org-mark.anthropic { border-radius: 0; }
+/* A company's logo beside its name or a count. */
+.og { width: 14px; height: 14px; flex: none; display: block; fill: currentColor; }
 
 /* ── receipts ───────────────────────────────────────────────────────────── */
 .receipts { display: grid; gap: 20px; }
@@ -549,13 +566,18 @@ button.lm:hover .badge { stroke-width: 2.6; }
 .wcard { padding: 24px 0; border-bottom: 1px solid var(--rule); display: grid; grid-template-columns: minmax(0, 1fr) 14rem; gap: 14px 32px; }
 .wcard.open .age .gap-n { color: var(--standing); }
 .wcard.kept .age .gap-n { color: var(--held); }
-.wcard .main { display: grid; gap: 12px; min-width: 0; }
+.wcard.passed .age .gap-n, .wcard.passed .age .label:first-child { color: var(--fail); }
+.wcard .main { display: grid; gap: 12px; min-width: 0; grid-column: 1; grid-row: 1; }
+.wcard .age { grid-column: 2; grid-row: 1; }
 .wcard .main > p { color: var(--ink-2); }
 .age { text-align: right; display: grid; gap: 4px; align-content: start; }
 .label.due { color: var(--standing); }
 .label.due.passed { color: var(--fail); }
 .breaks { background: var(--surface); padding: 12px 14px; display: grid; gap: 4px; font-size: var(--step--1); max-width: var(--measure); }
-.section-sub { font: 600 var(--step-2)/1.1 var(--sans); letter-spacing: -0.03em; margin: 48px 0 16px; }
+.section-sub { font: 600 var(--step-2)/1.1 var(--sans); letter-spacing: -0.03em; margin: 48px 0 6px; display: flex; align-items: baseline; gap: 10px; }
+main > .section-sub:first-of-type { margin-top: 8px; }
+.section-n { font: 400 0.875rem var(--mono); color: var(--ink-3); letter-spacing: 0; }
+.section-note { color: var(--ink-2); font-size: var(--step--1); max-width: var(--measure); margin-bottom: 16px; }
 
 /* ── method ─────────────────────────────────────────────────────────────── */
 .prose { max-width: var(--measure); display: grid; gap: 16px; }
@@ -563,6 +585,12 @@ button.lm:hover .badge { stroke-width: 2.6; }
 .prose ul { margin: 0; padding-left: 1.2em; display: grid; gap: 8px; }
 .prose code { font: 400 0.85em var(--mono); background: var(--surface); padding: 1px 5px; }
 .defs { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 10px 16px; align-items: baseline; }
+.key { border: 1px solid var(--rule); padding: 18px 20px 20px; margin-bottom: 36px; max-width: 54rem; display: grid; gap: 14px; }
+.key h3 { font: 600 var(--step-1)/1.2 var(--sans); letter-spacing: -0.015em; }
+.key-list { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 12px 20px; margin: 0; align-items: center; }
+.key-list dt { display: flex; }
+.key-list dd { margin: 0; color: var(--ink-2); font-size: var(--step--1); max-width: var(--measure); }
+.key-orgs { display: inline-flex; gap: 14px; }
 
 /* ── entry dialog ───────────────────────────────────────────────────────── */
 dialog {
@@ -574,8 +602,11 @@ dialog {
   padding: 0;
 }
 dialog::backdrop { background: color-mix(in srgb, var(--bg) 70%, transparent); backdrop-filter: blur(3px); }
-.d-head { position: sticky; top: 0; background: var(--bg); display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; padding: 14px 22px; border-bottom: 1px solid var(--rule); z-index: 1; }
-.d-head .spacer { flex: 1; }
+.d-head { position: sticky; top: 0; background: var(--bg); display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px 12px; align-items: center; padding: 12px 22px; border-bottom: 1px solid var(--rule); z-index: 1; }
+.d-meta { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; min-width: 0; }
+.d-actions { display: flex; gap: 8px; }
+.d-tags { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 8px; }
+.btn.close { font-size: 1.25rem; line-height: 1; padding: 5px 11px 7px; }
 .d-body { padding: 24px 22px 32px; display: grid; gap: 20px; }
 .d-body h2 { font: 600 var(--step-2)/1.2 var(--sans); letter-spacing: -0.025em; }
 .d-section { display: grid; gap: 8px; }
@@ -629,6 +660,34 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 28px; }
   .age { text-align: left; grid-auto-flow: column; justify-content: start; align-items: baseline; gap: 8px; }
   .age .gap-n { font-size: var(--step-2); }
   .filter-count { margin-left: 0; }
+  .field.search { flex: 1 1 100%; }
+  .field.search input { width: 100%; }
+  .more-toggle { display: inline-flex; font: 500 var(--step--1)/1 var(--sans); color: var(--ink); background: none; border: 1px solid var(--rule-2); padding: 8px 12px; cursor: pointer; }
+  .more-toggle[aria-expanded="true"] { border-color: var(--ink); }
+  .more { display: none; }
+  .filters.open .more { display: contents; }
+  /* The pattern tags scroll sideways in one row instead of filling a screen. */
+  .pstrip-chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-inline: calc(-1 * var(--gutter)); padding-inline: var(--gutter); }
+  .pstrip-chips::-webkit-scrollbar { display: none; }
+  .pstrip-chips .chip { flex: none; }
+  .wcard .main, .wcard .age { grid-column: 1; grid-row: auto; }
+  /* Commitments: each document becomes a block, with each company's tally labeled. */
+  .ctable { min-width: 0; }
+  .ctable thead { display: none; }
+  .ctable, .ctable tbody, .ctable tfoot { display: block; }
+  .ctable tr { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 16px; padding: 14px 0; border-bottom: 1px solid var(--rule); }
+  .ctable tr > th { grid-column: 1 / -1; padding: 0; border: 0; }
+  .ctable td { padding: 0; border: 0; }
+  .ctable td::before { content: attr(data-org); display: block; margin-bottom: 3px; font: 500 0.6875rem/1.3 var(--mono); letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-3); }
+  .ctable tfoot tr { border-top: 1px solid var(--ink); border-bottom: 0; }
+  .ctable tfoot th, .ctable tfoot td { border-top: 0; }
+  .key { padding: 14px 14px 16px; }
+  .key-list { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+  .key-list dd { margin-bottom: 10px; }
+  /* The entry opens as a full-screen sheet. */
+  dialog { width: 100vw; max-width: 100vw; height: 100dvh; max-height: 100dvh; margin: 0; border: 0; }
+  .d-head { padding: calc(10px + env(safe-area-inset-top, 0px)) 16px 10px; }
+  .d-body { padding: 20px 16px calc(40px + env(safe-area-inset-bottom, 0px)); }
   /* Patterns: the name runs across the top of its row, the year cells below it. */
   .grid-wrap { padding: 14px 12px 12px; }
   .rgrid { grid-template-columns: minmax(2.75rem, 0.45fr) repeat(var(--recent, 4), minmax(0, 1fr)); }

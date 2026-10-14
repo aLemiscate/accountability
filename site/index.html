@@ -17,8 +17,9 @@
 <header class="masthead">
   <div class="wrap">
     <h1 class="wordmark" aria-label="Said / Did"><span class="w-said">Said</span><span class="w-slash">/</span><span class="w-did">Did</span></h1>
-    <p class="lede">What OpenAI and Anthropic promised and claimed (about safety and ethics, and about their products: what they can do, what is coming, what you get for your money) and what they did next. Every entry is sourced, dated, and linked to what came after.</p>
+    <p class="lede">What OpenAI and Anthropic said they would do, and what they did next. Safety and ethics, products and pricing, policy and lobbying, all sourced, dated and linked to what came after.</p>
     <div class="stats" id="stats"></div>
+    <p class="stats-note" id="stats-note"></p>
   </div>
 </header>
 
@@ -27,9 +28,12 @@
     <nav class="tabs" id="tabs" role="tablist" aria-label="Views"></nav>
     <div class="filters" role="group" aria-label="Filters">
       <div class="seg" id="org" aria-label="Company"></div>
-      <label class="field"><span class="label">Pattern</span><select id="pattern"></select></label>
-      <label class="field"><span class="label">Person</span><select id="person"></select></label>
-      <label class="field"><span class="label">Search</span><input type="search" id="q" placeholder="compute, military, ads…" autocomplete="off"></label>
+      <label class="field search"><span class="label">Search</span><input type="search" id="q" placeholder="compute, military, ads…" autocomplete="off"></label>
+      <button class="more-toggle" id="more-toggle" type="button" aria-expanded="false" aria-controls="more">More filters</button>
+      <div class="more" id="more">
+        <label class="field"><span class="label">Pattern</span><select id="pattern"></select></label>
+        <label class="field"><span class="label">Person</span><select id="person"></select></label>
+      </div>
       <span class="label filter-count" id="count" aria-live="polite"></span>
       <button class="clear label" id="clear" type="button" hidden>Clear filters</button>
     </div>
