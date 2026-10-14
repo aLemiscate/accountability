@@ -12,12 +12,12 @@ summary: >-
   "We’re initially providing subscribers with 100 messages every 4 hours" and
   that it would "dynamically adjust the exact usage cap depending on demand and
   system performance in practice." By June the article said 25 messages every 3
-  hours. On July 19, 2023 OpenAI announced on Twitter that it was "doubling the
+  hours. On July 19, 2023 OpenAI announced on Twitter/X that it was "doubling the
   number of messages ChatGPT Plus customers can send to GPT-4" to 50 every 3
   hours. Between January 5 and January 6, 2024, the article's sentence changed
   to "As of January 5th 2024, GPT-4 has a limit of 40 messages every 3 hours," a
   fifth fewer. The dated sentence was the only notice found: no post on OpenAI's
-  Twitter accounts announced it. Later in January the article added that OpenAI
+  Twitter/X accounts announced it. Later in January the article added that OpenAI
   "may dynamically adjust the message limit in order to prioritize making GPT-4
   accessible to the widest number of people." The 40-message cap stayed until
   GPT-4o arrived in May 2024 with 80 messages every 3 hours.
@@ -36,9 +36,9 @@ sources:
     date: 2024-01-06
     type: archive
     snapshot: snapshots/2026-10-13-web.archive.org-5a655599
-  - title: OpenAI on Twitter ("We're doubling the number of messages ChatGPT Plus
+  - title: OpenAI on Twitter/X ("We're doubling the number of messages ChatGPT Plus
       customers can send to GPT-4")
-    publisher: Twitter
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/1681810240898215936
     date: 2023-07-19
     type: primary

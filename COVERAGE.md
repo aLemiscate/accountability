@@ -6,7 +6,7 @@ still be missing. The October fairness review ran in seven workstreams, each
 with its own section below: spoken claims, commitments in formal documents,
 policy page history, reply context, company responses and open promises,
 lobbying and political money, and the industry baseline. The rules for what counts are in
-[METHODOLOGY.md](METHODOLOGY.md). The post-by-post Twitter triage is in
+[METHODOLOGY.md](METHODOLOGY.md). The post-by-post Twitter/X triage is in
 [inbox/sweep/TRIAGE.md](inbox/sweep/TRIAGE.md).
 
 ## The record in numbers
@@ -33,7 +33,7 @@ notes on the patterns was also checked against its saved source.
 
 ## Where entries come from
 
-**Twitter.** Every archived post of 77 accounts (the companies, their
+**Twitter/X.** Every archived post of 77 accounts (the companies, their
 executives, board members, safety and policy staff, and former staff) was
 pulled from the Wayback Machine, including posts later deleted. It was read
 three times:
@@ -55,7 +55,7 @@ Every collected post has a decision, and every post marked "follow up" was
 worked to an outcome. The limits: posts nobody archived can't be found this
 way; for Elon Musk only the latest year was read.
 
-**Everything else.** The September 30 review went beyond Twitter to:
+**Everything else.** The September 30 review went beyond Twitter/X to:
 
 - **Company publications:** blog posts, system cards and addenda, risk and
   sabotage reports, and safety frameworks, read against each other. Examples
@@ -144,7 +144,7 @@ for anything that changes an entry.
 
 ## What the October 3 pass added
 
-The third reading of the Twitter archive, and a search of reporting for the
+The third reading of the Twitter/X archive, and a search of reporting for the
 same kinds of claims, widened the record from safety and ethics to any notable
 claim that can be checked. 44 new entries (26 OpenAI, 18 Anthropic) and 39
 updated ones.
@@ -317,7 +317,7 @@ Follow-ups to the October 13 audit, in six parts.
   for Anthropic.
 - **Video.** YouTube refuses this machine, GitHub's runners, the free
   transcript services and the Invidious and Piped mirrors tried. Video posted
-  on Twitter can be downloaded without a login (FxTwitter gives the file's
+  on Twitter/X can be downloaded without a login (FxTwitter gives the file's
   address) and run through the Transcribe workflow as an "audio" row. Altman's
   January town hall, read earlier only from a Chinese dub, held a dated
   forecast (GPT-5.2-level intelligence at least 100 times cheaper by the end
@@ -331,9 +331,10 @@ Follow-ups to the October 13 audit, in six parts.
   story and three Techmeme pages were archived in full; the two Wall Street Journal
   stories, the 2026 New York Times story and the two Washington Post stories
   hold only the opening before the paywall.
-- **Labels and schedule.** Source titles and publisher labels say "Twitter"
-  (558 labels changed). A weekly news sweep runs as a scheduled Claude Code
-  session every Monday at 06:46 UTC and opens a pull request for review;
+- **Labels and schedule.** Source titles, publisher labels, venues and prose
+  name the platform "Twitter/X" (558 labels and 52 other mentions changed;
+  quoted words stay as spoken). A weekly news sweep runs as a scheduled Claude
+  Code session every Monday at 06:46 UTC and opens a pull request for review;
   [inbox/news/README.md](inbox/news/README.md) says what each run reports.
 
 ## The two companies side by side
@@ -533,12 +534,12 @@ its date and whether it was announced. The full log is
   and Anthropic's documentation site (December 2025 to August 2026) were
   archived as empty JavaScript shells; ChatGPT prices stopped appearing in
   archived text in October 2025; OpenAI's site returns 403 here, so its
-  announcements were checked through Twitter, news and archives only, and
+  announcements were checked through Twitter/X, news and archives only, and
   changes after its last archived copy are not in the log.
 
 ## Reply context
 
-All 9,021 replies by company accounts and executives in the Twitter reading
+All 9,021 replies by company accounts and executives in the Twitter/X reading
 log were re-read next to the post each one answered (the parent could not be
 retrieved for 1,576). Details and per-account counts are in
 [inbox/sweep/replies/README.md](inbox/sweep/replies/README.md).
@@ -634,7 +635,7 @@ New York and Washington. Tables, method and sources are in
     called its 10-year state moratorium "far too blunt an instrument." It
     listed SB 1047 in 2024, SB 53 on every California report since 2025, and
     the RAISE Act in New York in 2025, and endorsed SB 53 and the RAISE Act in
-    public. In 2022, before Anthropic registered, Jack Clark wrote on Twitter
+    public. In 2022, before Anthropic registered, Jack Clark wrote on Twitter/X
     that much big-tech AI policy work is "doing 'follow the birdie' with
     government"; Anthropic's federal spending has since grown from $200,000 in
     2023 to $3.53 million in the first half of 2026.
@@ -706,7 +707,7 @@ about other companies. Every source was read in full.
   for 2026 regulator actions (six languages; see above), not for every story.
 - **Channels searched but not swept in full:** video-only keynotes and
   talks (YouTube refuses this machine, GitHub's runners, free transcript
-  services and Invidious and Piped mirrors; video posted on Twitter can be
+  services and Invidious and Piped mirrors; video posted on Twitter/X can be
   transcribed), TV and print
   interviews, LinkedIn, and testimony by company staff other than the ten
   people in the spoken-claims inventory. Podcasts and congressional

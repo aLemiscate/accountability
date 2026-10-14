@@ -5,7 +5,7 @@ org: anthropic
 type: said
 kind: commitment
 who: [alex-albert, anthropic]
-venue: Post on Twitter the day after MCP's release
+venue: Post on Twitter/X the day after MCP's release
 quote: >-
   The future of MCP is truly going to be community-led and not controlled by any
   single entity.
@@ -21,8 +21,8 @@ summary: >-
 concreteness: directional
 status: kept
 sources:
-  - title: Alex Albert on Twitter ("truly going to be community-led")
-    publisher: Twitter
+  - title: Alex Albert on Twitter/X ("truly going to be community-led")
+    publisher: Twitter/X
     url: https://x.com/alexalbert__/status/1861464485011300839
     date: 2024-11-26
     type: primary
@@ -36,8 +36,8 @@ sources:
     type: primary
     archive: https://web.archive.org/web/20260925104520/https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation
     snapshot: snapshots/2026-10-03-anthropic.com-f8e84c32
-  - title: Alex Albert on Twitter ("Huge step for MCP")
-    publisher: Twitter
+  - title: Alex Albert on Twitter/X ("Huge step for MCP")
+    publisher: Twitter/X
     url: https://x.com/alexalbert__/status/1998438884007620671
     date: 2025-12-09
     type: primary

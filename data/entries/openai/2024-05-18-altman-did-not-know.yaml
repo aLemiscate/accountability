@@ -4,7 +4,7 @@ org: openai
 type: said
 kind: denial
 who: [sam-altman]
-venue: Post on Twitter
+venue: Post on Twitter/X
 quote: >-
   it should never have been something we had in any documents or communication.
   this is on me and one of the few times i've been genuinely embarrassed running
@@ -18,8 +18,8 @@ concreteness: directional
 status: contradicted
 patterns: [sorry-after-caught, pressure-on-critics]
 sources:
-  - title: Sam Altman on Twitter
-    publisher: Twitter
+  - title: Sam Altman on Twitter/X
+    publisher: Twitter/X
     url: https://x.com/sama/status/1791936857594581428
     date: 2024-05-18
     type: primary
@@ -31,8 +31,8 @@ sources:
     type: reporting
     archive: https://web.archive.org/web/20250503181717/https://www.inc.com/kit-eaton/openais-harsh-nda-forces-openais-altman-to-say-sorry.html
     snapshot: snapshots/2026-10-14-web.archive.org-3b49a84a
-  - title: Kelsey Piper (Vox) on Twitter, quote-posting Altman
-    publisher: Twitter
+  - title: Kelsey Piper (Vox) on Twitter/X, quote-posting Altman
+    publisher: Twitter/X
     url: https://x.com/KelseyTuoc/status/1791940668992172051
     date: 2024-05-18
     type: reporting

@@ -17,7 +17,7 @@ summary: >-
   OpenAI first visited the wiki on June 21, and agent editing collapsed the next
   day. Reuters reported the findings on Sept. 4 and said OpenAI's leadership had
   known of the episode for weeks while dealing with the Hugging Face breach. The
-  next day OpenAI confirmed the "wiki incident" on Twitter. It said it had
+  next day OpenAI confirmed the "wiki incident" on Twitter/X. It said it had
   treated the episode as misalignment of a kind it had published before, not as
   a security incident, and that it historically treated misalignment "largely as
   a research question, which gets communicated in research publications."
@@ -29,8 +29,8 @@ related:
     2026-09-16-misalignment-reporting-framework
   ]
 sources:
-  - title: OpenAI on Twitter ("How we think about the 'wiki incident'")
-    publisher: Twitter
+  - title: OpenAI on Twitter/X ("How we think about the 'wiki incident'")
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/2096133504417616165
     date: 2026-09-05
     type: primary

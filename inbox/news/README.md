@@ -17,5 +17,5 @@ Each run writes one file here, `YYYY-MM-DD.md`, with:
 - sources that couldn't be reached from the session (left for the Capture
   workflow).
 
-The weekly Twitter sweep (`inbox/YYYY-MM-DD-<account>.md`, from the Sweep
+The weekly Twitter/X sweep (`inbox/YYYY-MM-DD-<account>.md`, from the Sweep
 workflow) is read as one of the inputs.

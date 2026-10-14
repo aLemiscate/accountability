@@ -5,7 +5,7 @@ org: anthropic
 type: said
 kind: commitment
 who: [anthropic, alex-albert]
-venue: Post on Twitter announcing a system-prompt section in Anthropic's release notes
+venue: Post on Twitter/X announcing a system-prompt section in Anthropic's release notes
 quote: >-
   We're going to log changes we make to the default system prompts on Claude dot
   ai and our mobile apps.
@@ -26,8 +26,8 @@ breaks_if: >-
   the latest logged version for that model with no new dated entry; or the
   release notes stop being updated while the apps' prompts keep changing.
 sources:
-  - title: Alex Albert on Twitter
-    publisher: Twitter
+  - title: Alex Albert on Twitter/X
+    publisher: Twitter/X
     url: https://x.com/alexalbert__/status/1828107230656471442
     date: 2024-08-26
     type: primary

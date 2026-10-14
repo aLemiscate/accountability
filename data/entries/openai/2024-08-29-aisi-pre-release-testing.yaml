@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [sam-altman, openai]
-venue: Memorandum of understanding with the US AI Safety Institute; post on Twitter
+venue: Memorandum of understanding with the US AI Safety Institute; post on Twitter/X
 quote: >-
   we are happy to have reached an agreement with the US AI Safety Institute for
   pre-release testing of our future models.
@@ -26,8 +26,8 @@ related:
     2023-07-21-white-house-voluntary-commitments
   ]
 sources:
-  - title: Sam Altman on Twitter
-    publisher: Twitter
+  - title: Sam Altman on Twitter/X
+    publisher: Twitter/X
     url: https://x.com/sama/status/1829205847731515676
     date: 2024-08-29
     type: primary

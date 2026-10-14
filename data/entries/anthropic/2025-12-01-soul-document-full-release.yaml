@@ -5,7 +5,7 @@ org: anthropic
 type: said
 kind: commitment
 who: [amanda-askell, anthropic]
-venue: Post on Twitter
+venue: Post on Twitter/X
 quote: >-
   I just want to confirm that this is based on a real document and we did train
   Claude on it, including in SL. It's something I've been working on for a
@@ -24,8 +24,8 @@ breaks_if: >-
   No full version published, or a published version that leaves out parts of
   what Claude is trained on.
 sources:
-  - title: Amanda Askell on Twitter
-    publisher: Twitter
+  - title: Amanda Askell on Twitter/X
+    publisher: Twitter/X
     url: https://x.com/AmandaAskell/status/1995610567923695633
     date: 2025-12-01
     type: primary
@@ -60,8 +60,8 @@ updates:
         date: 2026-01-22
         type: primary
         snapshot: snapshots/2026-10-03-anthropic.com-aca39f81
-      - title: Amanda Askell on Twitter ("Claude's constitution is out!")
-        publisher: Twitter
+      - title: Amanda Askell on Twitter/X ("Claude's constitution is out!")
+        publisher: Twitter/X
         url: https://x.com/AmandaAskell/status/2014010171081581048
         date: 2026-01-21
         type: primary

@@ -211,7 +211,7 @@ async function snapshot(url, { doArchive = true, doShot = true, copyOf = null } 
         let text = post.text ?? '';
         if (isXUrl(url)) text = await saveXDetails(xStatusId(url), text, save, meta);
         await save('post.txt', `${post.author ?? ''}\n${post.date ?? ''}\n\n${text}\n`);
-        meta.title ??= post.author ? `${post.author} on ${isXUrl(url) ? 'Twitter' : 'Bluesky'}` : null;
+        meta.title ??= post.author ? `${post.author} on ${isXUrl(url) ? 'Twitter/X' : 'Bluesky'}` : null;
         console.log(`  post      ${post.author ?? ''}: ${String(post.text ?? '').slice(0, 90)}`);
       } else {
         console.warn(`  post not available (HTTP ${post.status}); it may be deleted or protected`);

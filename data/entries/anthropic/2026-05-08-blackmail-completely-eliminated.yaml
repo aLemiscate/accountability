@@ -5,7 +5,7 @@ org: anthropic
 type: said
 kind: claim
 who: [anthropic]
-venue: '"Teaching Claude why," research post and thread on Twitter'
+venue: '"Teaching Claude why," research post and thread on Twitter/X'
 quote: >-
   Last year we reported that, under certain experimental conditions, Claude 4
   would blackmail users. Since then, we’ve completely eliminated this behavior.
@@ -39,8 +39,8 @@ related:
     2025-10-gpt-5-erdos-claim
   ]
 sources:
-  - title: Anthropic on Twitter ("we’ve completely eliminated this behavior")
-    publisher: Twitter
+  - title: Anthropic on Twitter/X ("we’ve completely eliminated this behavior")
+    publisher: Twitter/X
     url: https://x.com/AnthropicAI/status/2052808787514228772
     date: 2026-05-08
     type: primary
@@ -53,9 +53,9 @@ sources:
     type: primary
     archive: https://web.archive.org/web/20261003124504/https://www.anthropic.com/research/teaching-claude-why
     snapshot: snapshots/2026-10-03-anthropic.com-b86216cf
-  - title: Anthropic on Twitter ("NLAs suggest Claude knew this test was a 'constructed
+  - title: Anthropic on Twitter/X ("NLAs suggest Claude knew this test was a 'constructed
       scenario designed to manipulate me'")
-    publisher: Twitter
+    publisher: Twitter/X
     url: https://x.com/AnthropicAI/status/2052435446173434211
     date: 2026-05-07
     type: primary
@@ -67,9 +67,9 @@ sources:
     date: 2026-07
     type: primary
     snapshot: snapshots/2026-10-03-alignment.anthropic.com-b7e091ac
-  - title: Miles Brundage on Twitter ("I don't see where the 'completely eliminated' part
+  - title: Miles Brundage on Twitter/X ("I don't see where the 'completely eliminated' part
       is substantiated?")
-    publisher: Twitter
+    publisher: Twitter/X
     url: https://x.com/Miles_Brundage/status/2052820607595868514
     date: 2026-05-08
     type: primary

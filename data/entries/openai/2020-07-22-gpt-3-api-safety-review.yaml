@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: policy
 who: [sam-altman, openai, jack-clark]
-venue: Posts on Twitter during the GPT-3 API private beta
+venue: Posts on Twitter/X during the GPT-3 API private beta
 quote: >-
   We share your concern about bias and safety in language models, and it's a big
   part of why we're starting off with a beta and have safety review before apps
@@ -33,34 +33,34 @@ outcome:
     were approved during the vetting process."
 related: [2023-08-15-altman-never-trains-api]
 sources:
-  - title: Sam Altman on Twitter ("safety review before apps can go live")
-    publisher: Twitter
+  - title: Sam Altman on Twitter/X ("safety review before apps can go live")
+    publisher: Twitter/X
     url: https://x.com/sama/status/1285985962250534912
     date: 2020-07-22
     type: primary
     archive: https://web.archive.org/web/20240727011616/https://x.com/sama/status/1285985962250534912
     snapshot: snapshots/2026-10-03-x.com-711d4322
-  - title: Sam Altman on Twitter ("turn off applications that are misusing the API")
-    publisher: Twitter
+  - title: Sam Altman on Twitter/X ("turn off applications that are misusing the API")
+    publisher: Twitter/X
     url: https://x.com/sama/status/1285986455106383872
     date: 2020-07-22
     type: primary
     snapshot: snapshots/2026-10-03-x.com-d2e165d9
-  - title: OpenAI on Twitter ("Before applications go live, they're also subject to a
+  - title: OpenAI on Twitter/X ("Before applications go live, they're also subject to a
       review")
-    publisher: Twitter
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/1286393817348808704
     date: 2020-07-23
     type: primary
     snapshot: snapshots/2026-10-03-x.com-1e2005fd
-  - title: Jack Clark on Twitter ("will terminate access")
-    publisher: Twitter
+  - title: Jack Clark on Twitter/X ("will terminate access")
+    publisher: Twitter/X
     url: https://x.com/jackclarkSF/status/1271549896491859968
     date: 2020-06-12
     type: primary
     snapshot: snapshots/2026-10-03-x.com-2bbd3afc
-  - title: Sam Altman on Twitter ("we've also removed our pre-launch review")
-    publisher: Twitter
+  - title: Sam Altman on Twitter/X ("we've also removed our pre-launch review")
+    publisher: Twitter/X
     url: https://x.com/sama/status/1631002519311888385
     date: 2023-03-01
     type: primary

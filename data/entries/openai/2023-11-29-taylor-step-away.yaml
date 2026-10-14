@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [bret-taylor, openai]
-venue: Letter to the OpenAI community as board chair, posted on Twitter
+venue: Letter to the OpenAI community as board chair, posted on Twitter/X
 quote: >-
   The Board's focus is stabilizing the company, building out a qualified and
   diverse board, and enhancing governance procedures consistent with the
@@ -42,14 +42,14 @@ related:
     2026-03-24-foundation-spend-1-billion
   ]
 sources:
-  - title: Bret Taylor on Twitter ("I intend to step away")
-    publisher: Twitter
+  - title: Bret Taylor on Twitter/X ("I intend to step away")
+    publisher: Twitter/X
     url: https://x.com/btaylor/status/1730030765482938521
     date: 2023-11-29
     type: primary
     snapshot: snapshots/2026-10-13-x.com-aec8f598
-  - title: Larry Summers on Twitter ("independent director of @OpenAI")
-    publisher: Twitter
+  - title: Larry Summers on Twitter/X ("independent director of @OpenAI")
+    publisher: Twitter/X
     url: https://x.com/LHSummers/status/1730047296375590995
     date: 2023-11-29
     type: primary

@@ -25,8 +25,8 @@ breaks_if: >-
 patterns: [safeguards-on-paper]
 related: [2026-08-14-risk-report-classifier-gap]
 sources:
-  - title: OpenAI on Twitter ("Detecting misbehavior in frontier reasoning models")
-    publisher: Twitter
+  - title: OpenAI on Twitter/X ("Detecting misbehavior in frontier reasoning models")
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/1899143752918409338
     date: 2025-03-10
     type: primary
@@ -51,8 +51,8 @@ sources:
     date: 2025-03-10
     type: archive
     snapshot: snapshots/2026-09-30-lesswrong.com-c95554a8
-  - title: Wojciech Zaremba on Twitter ("please don't train away this monitorability")
-    publisher: Twitter
+  - title: Wojciech Zaremba on Twitter/X ("please don't train away this monitorability")
+    publisher: Twitter/X
     url: https://x.com/woj_zaremba/status/1945158231321706896
     date: 2025-07-15
     type: primary
