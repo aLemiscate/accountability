@@ -13,6 +13,7 @@
   --fail: #b42318;       /* broken, reversed, eroded, contradicted */
   --held: #127046;       /* kept */
   --standing: #8f5a00;   /* still in force, being watched */
+  --mark: color-mix(in srgb, var(--standing) 22%, transparent);   /* highlighter: matched words, new wording */
 
   --sans: "Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -338,6 +339,20 @@ main { padding-block: 40px 80px; min-height: 50vh; }
 /* A company's logo beside its name or a count. */
 .og { width: 14px; height: 14px; flex: none; display: block; fill: currentColor; }
 
+/* ── latest ───────────────────────────────────────────────────────────── */
+.latest { display: grid; gap: 10px; margin-bottom: 32px; }
+.latest-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.latest-head a { color: var(--ink-2); }
+.latest-list { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--rule); }
+.latest-item { display: grid; gap: 8px; align-content: start; text-align: left; background: none; border: 0; padding: 14px 16px 16px 0; cursor: pointer; min-width: 0; color: inherit; }
+.latest-item + .latest-item { padding-left: 16px; border-left: 1px solid var(--rule); }
+.latest-item:hover .latest-title { text-decoration: underline; text-underline-offset: 0.2em; }
+.latest-meta { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; }
+.latest-title { font: 500 var(--step--1)/1.35 var(--sans); }
+.latest-text { font-size: 0.8125rem; line-height: 1.45; color: var(--ink-2); }
+.linkish { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-decoration-color: var(--rule-2); text-underline-offset: 0.2em; text-align: left; }
+.linkish:hover { text-decoration-color: currentColor; }
+
 /* ── receipts ───────────────────────────────────────────────────────────── */
 .receipts { display: grid; gap: 20px; }
 .receipt {
@@ -368,6 +383,18 @@ main { padding-block: 40px 80px; min-height: 50vh; }
 .side.did .quote { border-left-width: 3px; }
 .quote-wrap { display: grid; gap: 6px; }
 .verified { font: 400 0.6875rem/1.3 var(--mono); color: var(--ink-3); letter-spacing: 0.01em; }
+/* "See it in the source": the saved passage around a quote, with the quote marked. */
+.insource > summary { cursor: pointer; list-style: none; display: flex; flex-wrap: wrap; gap: 2px 10px; width: fit-content; max-width: 100%; }
+.insource > summary::-webkit-details-marker { display: none; }
+.insource .see { color: var(--ink-2); text-decoration: underline; text-decoration-color: var(--rule-2); text-underline-offset: 0.2em; }
+.insource .see::after { content: " ▸"; text-decoration: none; display: inline-block; margin-left: 2px; transition: transform 0.15s ease; }
+.insource[open] .see::after { transform: rotate(90deg); }
+.insource > summary:hover .see { color: var(--ink); text-decoration-color: currentColor; }
+.insource-body { margin-top: 10px; padding: 12px 14px 14px; background: var(--surface); display: grid; gap: 8px; max-width: var(--measure); }
+.insource-title { font-size: var(--step--1); font-weight: 500; }
+.passage { font-size: var(--step--1); line-height: 1.6; color: var(--ink-2); overflow-wrap: anywhere; }
+.passage mark { background: var(--mark); color: var(--ink); padding: 0 1px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.insource-links { display: flex; flex-wrap: wrap; gap: 4px 16px; font: 400 0.75rem/1.4 var(--mono); }
 .side p { color: var(--ink-2); }
 .gap {
   display: grid;
@@ -398,11 +425,23 @@ main { padding-block: 40px 80px; min-height: 50vh; }
   cursor: pointer;
 }
 .btn:hover { border-color: var(--ink); }
+.btn.done, .clear.done { border-color: var(--held); color: var(--held); }
 .diff { display: grid; gap: 6px; font: 400 var(--step--1)/1.55 var(--mono); }
 .diff div { padding: 8px 12px; background: var(--surface); }
 .diff .minus { color: var(--ink-2); }
 .diff .plus { color: var(--ink); background: transparent; border: 1px solid var(--ink); }
 .diff b { font-weight: 600; margin-right: 8px; }
+/* Searched words, marked wherever they appear. */
+mark.qhit { background: var(--mark); color: inherit; box-shadow: inset 0 -2px var(--standing); }
+/* The old wording is struck through and the new wording marked. On an edit
+   receipt both are drawn once, left to right, when the card first comes into view. */
+.rev-text { background-repeat: no-repeat; }
+.minus .rev-text { background-image: linear-gradient(var(--fail), var(--fail)); background-size: 100% 1px; background-position: 0 55%; }
+.plus .rev-text { background-image: linear-gradient(var(--mark), var(--mark)); background-size: 100% 100%; }
+.rev-armed .minus .rev-text { background-size: 0% 1px; }
+.rev-armed .plus .rev-text { background-size: 0% 100%; }
+.rev-armed.rev-play .minus .rev-text { background-size: 100% 1px; transition: background-size 0.9s cubic-bezier(0.45, 0, 0.25, 1) 0.2s; }
+.rev-armed.rev-play .plus .rev-text { background-size: 100% 100%; transition: background-size 0.9s cubic-bezier(0.45, 0, 0.25, 1) 1.2s; }
 
 /* ── timeline ───────────────────────────────────────────────────────────── */
 .year { display: grid; grid-template-columns: minmax(0, 1fr) 56px minmax(0, 1fr); }
@@ -444,6 +483,9 @@ main { padding-block: 40px 80px; min-height: 50vh; }
   cursor: pointer;
 }
 .tl-card .t::after { content: ""; position: absolute; inset: 0; }
+/* Where a search matched, when it wasn't in the title. */
+.why { font-size: var(--step--1); line-height: 1.5; color: var(--ink-2); max-width: var(--measure); }
+.why .label { margin-right: 4px; }
 .tl-card .t:focus-visible { outline: none; }
 .tl-card:has(.t:focus-visible) { outline: 2px solid var(--focus); outline-offset: 2px; }
 .tl-patterns { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -602,6 +644,11 @@ dialog {
   padding: 0;
 }
 dialog::backdrop { background: color-mix(in srgb, var(--bg) 70%, transparent); backdrop-filter: blur(3px); }
+dialog[open] { animation: d-rise 0.22s cubic-bezier(0.2, 0.8, 0.2, 1); }
+dialog[open]::backdrop { animation: d-fade 0.22s ease-out; }
+@keyframes d-rise { from { opacity: 0; transform: translateY(10px); } }
+@keyframes d-sheet { from { transform: translateY(100%); } }
+@keyframes d-fade { from { opacity: 0; } }
 .d-head { position: sticky; top: 0; background: var(--bg); display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px 12px; align-items: center; padding: 12px 22px; border-bottom: 1px solid var(--rule); z-index: 1; }
 .d-meta { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; min-width: 0; }
 .d-actions { display: flex; gap: 8px; }
@@ -671,6 +718,11 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 28px; }
   .pstrip-chips::-webkit-scrollbar { display: none; }
   .pstrip-chips .chip { flex: none; }
   .wcard .main, .wcard .age { grid-column: 1; grid-row: auto; }
+  /* Latest: one row that scrolls sideways. */
+  .latest-list { display: flex; overflow-x: auto; scrollbar-width: none; margin-inline: calc(-1 * var(--gutter)); padding-inline: var(--gutter); scroll-padding-inline: var(--gutter); scroll-snap-type: x proximity; }
+  .latest-list::-webkit-scrollbar { display: none; }
+  .latest-item { flex: 0 0 72%; scroll-snap-align: start; }
+  .latest-item:first-child { padding-left: 0; }
   /* Commitments: each document becomes a block, with each company's tally labeled. */
   .ctable { min-width: 0; }
   .ctable thead { display: none; }
@@ -684,8 +736,9 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 28px; }
   .key { padding: 14px 14px 16px; }
   .key-list { grid-template-columns: minmax(0, 1fr); gap: 4px; }
   .key-list dd { margin-bottom: 10px; }
-  /* The entry opens as a full-screen sheet. */
+  /* The entry opens as a full-screen sheet that slides up from the bottom edge. */
   dialog { width: 100vw; max-width: 100vw; height: 100dvh; max-height: 100dvh; margin: 0; border: 0; }
+  dialog[open] { animation: d-sheet 0.3s cubic-bezier(0.2, 0.8, 0.2, 1); }
   .d-head { padding: calc(10px + env(safe-area-inset-top, 0px)) 16px 10px; }
   .d-body { padding: 20px 16px calc(40px + env(safe-area-inset-bottom, 0px)); }
   /* Patterns: the name runs across the top of its row, the year cells below it. */
@@ -706,3 +759,27 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 28px; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
+
+/* ── print ──────────────────────────────────────────────────────────────── */
+/* Prints the current view on white, without the controls. With an entry open,
+   only the entry prints. Source links print their address. */
+@media print {
+  :root {
+    --bg: #ffffff !important; --surface: #f4f4f4 !important; --ink: #000000 !important; --ink-2: #333333 !important; --ink-3: #555555 !important;
+    --rule: #cccccc !important; --rule-2: #999999 !important; --fail: #b42318 !important; --held: #127046 !important; --standing: #8f5a00 !important;
+    color-scheme: light; print-color-adjust: exact; -webkit-print-color-adjust: exact;
+  }
+  .controls, .btn, .latest, .toast, .pstrip, .more-toggle, .insource .see, .d-pattern .side-head { display: none !important; }
+  .masthead { padding-block: 0 16px; }
+  .receipt, .tl-card, .watch > *, .citem, .key, .ctable tr, .pbrief { break-inside: avoid; }
+  h2, h3, .year-label { break-after: avoid; }
+  .sources li > a[href^="http"]::after { content: " " attr(href); font: 400 0.6875rem/1.4 var(--mono); color: var(--ink-3); overflow-wrap: anywhere; }
+  .rev-armed .minus .rev-text { background-size: 100% 1px !important; }
+  .rev-armed .plus .rev-text { background-size: 100% 100% !important; }
+  body:has(dialog[open]) > :not(dialog) { display: none !important; }
+  dialog[open] { position: static; inset: auto; width: auto; max-width: none; height: auto; max-height: none; overflow: visible; border: 0; margin: 0; animation: none; }
+  dialog::backdrop { display: none; }
+  .d-head { position: static; padding-inline: 0; }
+  .d-body { padding-inline: 0; }
+}
+

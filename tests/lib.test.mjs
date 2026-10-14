@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parseDate, periodEnd, validate, derive, loadAll, quoteSegments, normalizeForMatch, tallyCommitments } from '../scripts/lib.mjs';
+import { parseDate, periodEnd, validate, derive, loadAll, quoteSegments, normalizeForMatch, normalizeWithMap, quoteExcerpt, tallyCommitments } from '../scripts/lib.mjs';
 
 test('parseDate accepts year, month and day precision and rejects impossible dates', () => {
   assert.equal(parseDate('2024').precision, 'year');
@@ -184,4 +184,44 @@ test('industry context on a pattern needs text and a dated, attributed source', 
   const none = base();
   none.patterns[0].industry = { text: 'x' };
   assert.ok(validate(none).errors.some((m) => /at least one source/.test(m)));
+});
+
+test('normalizeWithMap matches normalizeForMatch and points back to the original text', () => {
+  const raw = '  Sam said:\n“We will never  run ﬁne ads” — really.';
+  const { text, map } = normalizeWithMap(raw);
+  assert.equal(text, normalizeForMatch(raw));
+  assert.equal(map.length, text.length);
+  const at = text.indexOf('we will');
+  assert.equal(raw[map[at]], 'W');
+});
+
+test('quoteExcerpt returns the passage around a quote with each part marked', () => {
+  const raw = 'Opening words. Sam said: “We will never\nrun ads like that.” Closing words come after the quote.';
+  const parts = quoteExcerpt(raw, 'We will never run ads like that.', 400);
+  assert.deepEqual(parts, ['Opening words. Sam said: “', 'We will never run ads like that.', '” Closing words come after the quote.']);
+  const cut = quoteExcerpt(`${'lead '.repeat(100)}First part of it. Middle. Second part here. ${'tail '.repeat(100)}`, 'First part … Second part', 20);
+  assert.equal(cut.length, 5);
+  assert.equal(cut[1], 'First part');
+  assert.equal(cut[3], 'Second part');
+  assert.ok(cut[0].startsWith('…') && cut[4].endsWith('…'));
+  assert.equal(quoteExcerpt(raw, 'words that are not there'), null);
+});
+
+test('link-preview cards pair a statement with what became of it, and use the site\'s logos', async () => {
+  const { cardFor, describe, span, LOGO } = await import('../scripts/cards.mjs');
+  const { readFile } = await import('node:fs/promises');
+  const said = { id: 's', type: 'said', org: 'openai', date: '2020-01-01', time: Date.UTC(2020, 0, 1), title: 'S', quote: 'We will.', status: 'broken', contradicted_by: ['d'], contradicts: [] };
+  const did = { id: 'd', type: 'did', org: 'openai', date: '2021-01-01', time: Date.UTC(2021, 0, 1), title: 'They did not.', contradicts: ['s'], contradicted_by: [] };
+  const byId = new Map([[said.id, said], [did.id, did]]);
+  for (const e of [said, did]) {
+    const c = cardFor(e, byId);
+    assert.equal(c.left.text, 'We will.');
+    assert.equal(c.right.text, 'They did not.');
+    assert.equal(c.gap, '12 months later');
+  }
+  assert.match(describe(said, byId), /^Broken\. Said Jan 1, 2020: We will\. Did Jan 1, 2021/);
+  assert.equal(span(10), '10 days');
+  assert.equal(span(1400), '3.8 years');
+  const app = await readFile(new URL('../site/app.js', import.meta.url), 'utf8');
+  for (const [org, d] of Object.entries(LOGO)) assert.ok(app.includes(d), `site/app.js has the same ${org} logo`);
 });
