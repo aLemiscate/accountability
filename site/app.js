@@ -32,6 +32,7 @@
     directional: 'States a direction or value, with no mechanism.',
     aspirational: 'A mission-level aim that cannot be failed as written.',
   };
+  const RECEIPTS_PAGE = 15;
   const VIEWS = ['receipts', 'timeline', 'patterns', 'watchlist', 'commitments', 'method'];
   const GRADE_LABEL = { kept: 'Kept', standing: 'Standing', eroded: 'Eroded', broken: 'Broken', unknown: 'Unknown' };
   const GRADE_CLASS = { kept: 's-kept', standing: 's-open', eroded: 's-eroded', broken: 's-broken', unknown: 's-unknown' };
@@ -490,7 +491,34 @@
       'Each receipt puts something a company said next to what happened after: an action that contradicted it, what became of a promise, or a policy page before and after a quiet edit. The figure between them is the time from one to the other. Newest first.'),
     patternBrief(D.entries.filter(matches)), !state.q && latestStrip()];
     if (!list.length) return [...frag, empty()];
-    frag.push(h('div', { class: 'receipts' }, list.map((r) => (r.revision ? revisionCard(byId.get(r.revision)) : r.outcome ? outcomeCard(r) : receiptCard(r)))));
+    // The first page of receipts, then more on request, so the page doesn't run to dozens of screens.
+    const card = (r) => (r.revision ? revisionCard(byId.get(r.revision)) : r.outcome ? outcomeCard(r) : receiptCard(r));
+    const box = h('div', { class: 'receipts' }, list.slice(0, RECEIPTS_PAGE).map(card));
+    frag.push(box);
+    if (list.length > RECEIPTS_PAGE) {
+      let shown = RECEIPTS_PAGE;
+      const note = h('span', { class: 'label' });
+      const more = h('button', { class: 'btn', type: 'button' });
+      const all = h('button', { class: 'clear label', type: 'button' }, `Show all ${list.length}`);
+      const bar = h('div', { class: 'more-bar' }, more, all, note);
+      const sync = () => {
+        more.textContent = `Show ${Math.min(RECEIPTS_PAGE, list.length - shown)} more`;
+        note.textContent = `${shown} of ${list.length} receipts shown`;
+        if (shown >= list.length) bar.remove();
+      };
+      const reveal = (n) => {
+        const first = list.slice(shown, shown + n).map(card);
+        box.append(...first);
+        shown += first.length;
+        sync();
+        armEdits();
+        first[0]?.querySelector('.side-title, button')?.focus({ preventScroll: true });
+      };
+      more.addEventListener('click', () => reveal(RECEIPTS_PAGE));
+      all.addEventListener('click', () => reveal(list.length));
+      sync();
+      frag.push(bar);
+    }
     return frag;
   }
 
@@ -1166,9 +1194,12 @@
   const s = D.stats;
   const next = D.entries.filter((e) => e.status === 'open' && dueOf(e) && !dueOf(e).passed).sort((a, b) => dueOf(a).end - dueOf(b).end)[0];
   document.getElementById('stats-note').replaceChildren(
-    next && h('span', null, 'Next deadline: ', h('a', { class: 'linkish', href: `#e-${next.id}`, onclick: (ev) => { ev.preventDefault(); openEntry(next.id); } }, clip(next.title, 64)),
+    next && h('span', null, 'Next deadline: ', h('a', { class: 'linkish', href: `#e-${next.id}`, onclick: (ev) => { ev.preventDefault(); openEntry(next.id); } }, next.title),
       `, ${dueOf(next).when} (in ${fmtSpan(Math.round((dueOf(next).end - NOW) / DAY))}).`),
     s.median_gap_days != null && h('span', null, `Median time from a statement to the action that contradicted it: ${fmtSpan(s.median_gap_days)}.`),
+    // OpenAI has the larger share of the record; say why, so the gap isn't read as a thumb on the scale.
+    h('span', null, `OpenAI has ${D.entries.filter((e) => e.org === 'openai').length} entries to Anthropic’s ${D.entries.filter((e) => e.org === 'anthropic').length}: it is older and larger, has made more public commitments, and more of its conduct has been litigated and reported. `,
+      h('a', { href: `${D.site.repo}/blob/HEAD/COVERAGE.md#the-two-companies-side-by-side`, target: '_blank', rel: 'noopener' }, 'How the record checks both companies the same way'), '.'),
     h('span', { class: 'updated' }, `Updated ${fmtDate(String(D.generated).slice(0, 10))} · ${D.entries.length} entries`));
 
   // ── routing: #receipts, #timeline, #patterns, #watchlist, #commitments, #method, #e-<id>, #p-<pattern>
@@ -1190,125 +1221,4 @@
   }
   window.addEventListener('hashchange', fromHash);
   fromHash();
-})();
-
-/* The masthead's pixel field: a fine grid of points, a few of them lit at any
-   moment. On load the pixels sweep in from the top-left; after that they
-   light and fade at random, and gather a little around a mouse pointer.
-   Decoration only: it carries no data, sits behind the text, and holds still
-   for anyone who prefers reduced motion. */
-(() => {
-  'use strict';
-  const host = document.querySelector('.masthead');
-  if (!host || !window.HTMLCanvasElement) return;
-  const canvas = document.createElement('canvas');
-  canvas.className = 'gridfield';
-  canvas.setAttribute('aria-hidden', 'true');
-  host.prepend(canvas);
-  const ctx = canvas.getContext('2d');
-  if (!ctx) return;
-
-  const STEP = 16;        // grid pitch
-  const PX = 4;           // a lit pixel
-  const DENSITY = 0.06;   // share of grid points lit at once
-  const still = matchMedia('(prefers-reduced-motion: reduce)');
-  let w = 0, h = 0, ox = 0, cols = 0, rows = 0, ink = '#000', t0 = 0, last = 0, raf = 0, visible = true;
-  let pointer = null;
-  let lit = [];   // { i, j, born, life, peak }
-
-  function measure() {
-    const dpr = Math.min(window.devicePixelRatio || 1, 2);
-    w = host.clientWidth; h = host.clientHeight;
-    canvas.width = Math.round(w * dpr); canvas.height = Math.round(h * dpr);
-    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    // Start a column on the content's left edge, so the wordmark sits on the grid.
-    const wrap = host.querySelector('.wrap');
-    const left = wrap ? wrap.getBoundingClientRect().left + parseFloat(getComputedStyle(wrap).paddingLeft) : 0;
-    ox = ((left % STEP) + STEP) % STEP;
-    cols = Math.ceil((w - ox) / STEP); rows = Math.ceil(h / STEP);
-    ink = getComputedStyle(document.documentElement).getPropertyValue('--ink').trim() || '#000';
-  }
-
-  // Fades the field toward the bottom (into the page) and lightens it over the text column.
-  const fade = (x, y) => Math.max(0, 1 - y / h) ** 1.3 * (0.4 + 0.6 * Math.min(1, x / Math.max(1, w * 0.85)));
-  const rand = (n) => Math.floor(Math.random() * n);
-  const spawn = (t, i = rand(cols), j = rand(rows), peak = 0.3 + Math.random() * 0.5) =>
-    lit.push({ i, j, born: t, life: 1600 + Math.random() * 2600, peak });
-
-  // The opening sweep: the first pixels arrive along a diagonal wave.
-  function seed() {
-    lit = [];
-    const n = Math.round(cols * rows * DENSITY);
-    for (let k = 0; k < n; k++) {
-      const i = rand(cols), j = rand(rows);
-      spawn((i / cols + j / rows) * 500 + Math.random() * 200, i, j);
-    }
-  }
-
-  function drawStill() {
-    // A fixed scatter, the same on every load.
-    let seedN = 7;
-    const r = () => ((seedN = (seedN * 16807) % 2147483647) / 2147483647);
-    for (let j = 0; j < rows; j++) for (let i = 0; i < cols; i++) {
-      if (r() > DENSITY) continue;
-      const x = ox + i * STEP, y = j * STEP;
-      ctx.globalAlpha = (0.2 + r() * 0.35) * fade(x, y);
-      ctx.fillRect(x - PX / 2, y - PX / 2, PX, PX);
-    }
-  }
-
-  function draw(now) {
-    const t = now - t0;
-    ctx.clearRect(0, 0, w, h);
-    ctx.fillStyle = ink;
-    // The grid itself: a faint point at every intersection.
-    for (let j = 0; j < rows; j++) for (let i = 0; i < cols; i++) {
-      const x = ox + i * STEP, y = j * STEP;
-      ctx.globalAlpha = 0.3 * fade(x, y);
-      ctx.fillRect(x - 0.5, y - 0.5, 1, 1);
-    }
-    if (still.matches) { drawStill(); ctx.globalAlpha = 1; raf = 0; return; }
-
-    // Keep the field at its density, plus a few extra pixels near the pointer.
-    const want = Math.round(cols * rows * DENSITY);
-    while (t > 700 && lit.length < want) spawn(t);
-    if (pointer && t - last > 40) {
-      last = t;
-      const pi = Math.round((pointer.x - ox) / STEP), pj = Math.round(pointer.y / STEP);
-      const a = Math.random() * Math.PI * 2, d = Math.random() * 4;
-      spawn(t, pi + Math.round(Math.cos(a) * d), pj + Math.round(Math.sin(a) * d), 0.6 + Math.random() * 0.3);
-    }
-    lit = lit.filter((p) => t - p.born < p.life);
-    for (const p of lit) {
-      const a = (t - p.born) / p.life;
-      if (a < 0) continue;
-      const x = ox + p.i * STEP, y = p.j * STEP;
-      // Quick to light, slow to fade.
-      const env = a < 0.15 ? a / 0.15 : (1 - a) / 0.85;
-      ctx.globalAlpha = p.peak * env * fade(x, y);
-      ctx.fillRect(x - PX / 2, y - PX / 2, PX, PX);
-    }
-    ctx.globalAlpha = 1;
-    raf = visible && !document.hidden ? requestAnimationFrame(draw) : 0;
-  }
-
-  function start() {
-    if (raf) cancelAnimationFrame(raf);
-    raf = requestAnimationFrame(draw);
-  }
-  measure();
-  t0 = performance.now();
-  seed();
-  start();
-  new ResizeObserver(() => { measure(); start(); }).observe(host);
-  new IntersectionObserver(([e]) => { visible = e.isIntersecting; if (visible) start(); }).observe(host);
-  document.addEventListener('visibilitychange', () => { if (!document.hidden) start(); });
-  still.addEventListener?.('change', start);
-  matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', () => { measure(); start(); });
-  host.addEventListener('pointermove', (ev) => {
-    if (ev.pointerType !== 'mouse') return;
-    const r = host.getBoundingClientRect();
-    pointer = { x: ev.clientX - r.left, y: ev.clientY - r.top };
-  });
-  host.addEventListener('pointerleave', () => { pointer = null; });
 })();

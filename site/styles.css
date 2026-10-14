@@ -2,6 +2,11 @@
    elapsed time between them in the gutter. Form carries the meaning, not color:
    hollow = said, solid = did; circle = OpenAI, square = Anthropic. Color is
    kept for one job, the outcome of a promise: failed, held, or still standing. */
+/* Geist and Geist Mono (SIL Open Font License, fonts/OFL.txt), served from the
+   site itself so no visit is reported to a font host. */
+@font-face { font-family: "Geist"; src: url("fonts/Geist-Variable.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Geist Mono"; src: url("fonts/GeistMono-Variable.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
+
 :root {
   --bg: #ffffff;
   --surface: #f6f6f6;    /* quiet fills: "counts as broken if", diffs */
@@ -89,7 +94,7 @@ p { margin: 0; }
 
 /* ── masthead ───────────────────────────────────────────────────────────── */
 .masthead { position: relative; isolation: isolate; padding-block: clamp(32px, 7vw, 72px) 28px; }
-/* The animated pixel field behind the masthead (site/app.js). */
+/* The night sky behind the masthead (site/sky.js). */
 .gridfield { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; }
 .wordmark {
   font: 600 var(--step-4)/0.95 var(--sans);
@@ -357,6 +362,7 @@ main { padding-block: 40px 80px; min-height: 50vh; }
 
 /* ── receipts ───────────────────────────────────────────────────────────── */
 .receipts { display: grid; gap: 20px; }
+.more-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin-top: 24px; }
 .receipt {
   border: 1px solid var(--rule);
   display: grid;
@@ -685,6 +691,24 @@ dialog[open]::backdrop { animation: d-fade 0.22s ease-out; }
 footer { border-top: 1px solid var(--rule); padding-block: 24px 44px; color: var(--ink-3); font: 400 0.75rem/1.6 var(--mono); }
 footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 28px; }
 
+/* ── the plain record (record.html, written by the build) ─────────────── */
+.record .wordmark { font-size: var(--step-2); }
+.record .wordmark a { text-decoration: none; }
+.record .r-title { font: 600 var(--step-4)/0.95 var(--sans); letter-spacing: -0.045em; margin-top: 18px; }
+.record .masthead .wrap { display: grid; gap: 14px; }
+.record .masthead .wrap > p { max-width: 46rem; }
+.r-meta { font: 400 0.75rem/1.5 var(--mono); color: var(--ink-3); }
+.r-years { display: flex; flex-wrap: wrap; gap: 6px 14px; font: 500 0.875rem/1.4 var(--mono); }
+.r-year { font: 500 var(--step-2)/1 var(--mono); letter-spacing: -0.02em; padding: 40px 0 8px; border-bottom: 1px solid var(--ink); }
+.r-entry { display: grid; gap: 10px; padding: 24px 0; border-bottom: 1px solid var(--rule); max-width: var(--measure); scroll-margin-top: 16px; }
+.r-entry h3 { font: 600 var(--step-1)/1.3 var(--sans); letter-spacing: -0.015em; }
+.r-entry h3 a { text-decoration: none; }
+.r-entry blockquote { margin: 0; border-left: 1px solid var(--ink); padding-left: 14px; }
+.r-entry > p, .r-part p, .r-part li { color: var(--ink-2); }
+.r-part { display: grid; gap: 4px; }
+.r-entry ul { margin: 0; padding-left: 1.1em; display: grid; gap: 4px; font-size: var(--step--1); }
+.r-links { color: var(--ink-2); }
+
 /* ── narrow screens ─────────────────────────────────────────────────────── */
 @media (max-width: 760px) {
   /* Four rows of filters would pin a quarter of a phone screen; let them scroll away. */
@@ -771,7 +795,7 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 28px; }
     --rule: #cccccc !important; --rule-2: #999999 !important; --fail: #b42318 !important; --held: #127046 !important; --standing: #8f5a00 !important;
     color-scheme: light; print-color-adjust: exact; -webkit-print-color-adjust: exact;
   }
-  .gridfield, .controls, .btn, .latest, .toast, .pstrip, .more-toggle, .insource .see, .d-pattern .side-head { display: none !important; }
+  .gridfield, .controls, .btn, .more-bar, .latest, .toast, .pstrip, .more-toggle, .insource .see, .d-pattern .side-head { display: none !important; }
   .masthead { padding-block: 0 16px; }
   .receipt, .tl-card, .watch > *, .citem, .key, .ctable tr, .pbrief { break-inside: avoid; }
   h2, h3, .year-label { break-after: avoid; }

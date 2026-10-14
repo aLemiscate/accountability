@@ -9,6 +9,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { ROOT, loadAll, validate, derive, checkQuotes, gitAddedDates } from './lib.mjs';
 import { describe } from './cards.mjs';
+import { recordHtml, sitemapXml } from './record.mjs';
 
 const args = new Set(process.argv.slice(2));
 const checkOnly = args.has('--check');
@@ -46,19 +47,31 @@ const site = path.join(ROOT, 'site');
 await writeFile(path.join(site, 'data.js'), js);
 
 // One self-contained HTML file: easy to share, archive, or open offline.
-const [html, css, app] = await Promise.all(
-  ['index.html', 'styles.css', 'app.js'].map((f) => readFile(path.join(site, f), 'utf8')),
+const [html, css, app, sky] = await Promise.all(
+  ['index.html', 'styles.css', 'app.js', 'sky.js'].map((f) => readFile(path.join(site, f), 'utf8')),
 );
+// The bundle carries its fonts inline, so it keeps them when opened from disk.
+const fonts = new Map();
+for (const m of css.matchAll(/url\("(fonts\/[^"]+\.woff2)"\)/g)) {
+  fonts.set(m[1], `data:font/woff2;base64,${(await readFile(path.join(site, m[1]))).toString('base64')}`);
+}
+const bundledCss = css.replace(/url\("(fonts\/[^"]+\.woff2)"\)/g, (_, f) => `url("${fonts.get(f)}")`);
 const bundle = html
-  .replace('<link rel="stylesheet" href="styles.css">', () => `<style>\n${css}\n</style>`)
+  .replace(/<link rel="preload" href="fonts\/[^"]+"[^>]*>\n/g, '')
+  .replace('<link rel="stylesheet" href="styles.css">', () => `<style>\n${bundledCss}\n</style>`)
   .replace('<script src="data.js"></script>', () => `<script>\n${js}</script>`)
-  .replace('<script src="app.js"></script>', () => `<script>\n${app}\n</script>`);
+  .replace('<script src="app.js"></script>', () => `<script>\n${app}\n</script>`)
+  .replace('<script src="sky.js"></script>', () => `<script>\n${sky}\n</script>`);
 await mkdir(path.join(ROOT, 'dist'), { recursive: true });
-if (built.site.url) await writeFile(path.join(site, 'feed.xml'), atomFeed(built));
+if (built.site.url) {
+  await writeFile(path.join(site, 'feed.xml'), atomFeed(built));
+  await writeFile(path.join(site, 'sitemap.xml'), sitemapXml(built));
+}
+await writeFile(path.join(site, 'record.html'), recordHtml(built));
 await writeFile(path.join(ROOT, 'dist', 'said-did.html'), bundle);
 
 const s = built.stats;
-console.log(`built site/data.js and dist/said-did.html — ${s.said} said, ${s.did} did, ${s.receipts} receipts, ${s.open} open promises`);
+console.log(`built site/data.js, site/record.html and dist/said-did.html — ${s.said} said, ${s.did} did, ${s.receipts} receipts, ${s.open} open promises`);
 
 /**
  * An Atom feed of what's new: entries by the day they entered the record (or
@@ -86,6 +99,7 @@ function atomFeed(D) {
   <link href="${esc(base)}"/>
   <link rel="self" href="${esc(base)}feed.xml"/>
   <id>${esc(base)}</id>
+  <author><name>${esc(D.site.title)}</name><uri>${esc(D.site.repo || base)}</uri></author>
   <updated>${new Date(D.generated).toISOString()}</updated>
 ${top.map((x) => `  <entry>
     <title>${esc(x.title)}</title>
