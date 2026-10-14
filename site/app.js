@@ -1191,3 +1191,113 @@
   window.addEventListener('hashchange', fromHash);
   fromHash();
 })();
+
+/* The masthead's grid field: hairlines on the column grid, drawn in once on
+   load, then a few cells that light and fade, and a soft glow under the
+   pointer. Decoration only: it carries no data, sits behind the text, and
+   holds still for anyone who prefers reduced motion. */
+(() => {
+  'use strict';
+  const host = document.querySelector('.masthead');
+  if (!host || !window.HTMLCanvasElement) return;
+  const canvas = document.createElement('canvas');
+  canvas.className = 'gridfield';
+  canvas.setAttribute('aria-hidden', 'true');
+  host.prepend(canvas);
+  const ctx = canvas.getContext('2d');
+  if (!ctx) return;
+
+  const CELL = 48;
+  const still = matchMedia('(prefers-reduced-motion: reduce)');
+  let w = 0, h = 0, ox = 0, cols = 0, rows = 0, ink = '#000', t0 = 0, raf = 0, visible = true;
+  let pointer = null;
+  const lit = [];   // { c, r, born, life }
+
+  function measure() {
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    w = host.clientWidth; h = host.clientHeight;
+    canvas.width = Math.round(w * dpr); canvas.height = Math.round(h * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    // Put a vertical line on the content column's left edge, so the wordmark sits on the grid.
+    const wrap = host.querySelector('.wrap');
+    const left = wrap ? wrap.getBoundingClientRect().left + parseFloat(getComputedStyle(wrap).paddingLeft) : 0;
+    ox = ((left % CELL) + CELL) % CELL;
+    cols = Math.ceil((w - ox) / CELL) + 1; rows = Math.ceil(h / CELL) + 1;
+    ink = getComputedStyle(document.documentElement).getPropertyValue('--ink').trim() || '#000';
+  }
+
+  // Fades the field toward the bottom (into the page) and away from the text column.
+  const fade = (x, y) => Math.max(0, 1 - y / h) ** 1.4 * (0.35 + 0.65 * Math.min(1, x / Math.max(1, w * 0.9)));
+
+  function draw(now) {
+    const t = now - t0;
+    ctx.clearRect(0, 0, w, h);
+    ctx.fillStyle = ink;
+    // Lines draw in along a diagonal over the first 1.4s.
+    const reveal = still.matches ? Infinity : t / 1400;
+    ctx.lineWidth = 1;
+    for (let i = 0; i < cols; i++) {
+      const x = Math.round(ox + i * CELL) + 0.5;
+      const p = Math.min(1, Math.max(0, reveal * 1.6 - i / cols * 0.6));
+      if (!p) continue;
+      for (let y = 0; y < h * p; y += 8) {
+        ctx.globalAlpha = 0.11 * fade(x, y);
+        ctx.fillRect(x - 0.5, y, 1, 8);
+      }
+    }
+    for (let j = 0; j < rows; j++) {
+      const y = Math.round(j * CELL) + 0.5;
+      const p = Math.min(1, Math.max(0, reveal * 1.6 - j / rows * 0.6));
+      if (!p) continue;
+      for (let x = 0; x < w * p; x += 8) {
+        ctx.globalAlpha = 0.11 * fade(x, y);
+        ctx.fillRect(x, y - 0.5, 8, 1);
+      }
+    }
+    if (!still.matches) {
+      // A new cell lights every so often; each rises and fades over its life.
+      if (t > 1000 && Math.random() < 0.06 && lit.length < 14) {
+        lit.push({ c: Math.floor(Math.random() * cols), r: Math.floor(Math.random() * rows), born: t, life: 1800 + Math.random() * 1600 });
+      }
+      for (let k = lit.length - 1; k >= 0; k--) {
+        const l = lit[k], a = (t - l.born) / l.life;
+        if (a >= 1) { lit.splice(k, 1); continue; }
+        const x = ox + l.c * CELL, y = l.r * CELL;
+        ctx.globalAlpha = 0.07 * Math.sin(Math.PI * a) * fade(x + CELL / 2, y + CELL / 2);
+        ctx.fillRect(x + 1, y + 1, CELL - 1, CELL - 1);
+      }
+      if (pointer) {
+        // The cells near the pointer brighten, by distance from it.
+        const c = Math.floor((pointer.x - ox) / CELL), r = Math.floor(pointer.y / CELL);
+        for (let dc = -3; dc <= 3; dc++) for (let dr = -3; dr <= 3; dr++) {
+          const x = ox + (c + dc) * CELL, y = (r + dr) * CELL;
+          const d = Math.hypot(x + CELL / 2 - pointer.x, y + CELL / 2 - pointer.y) / (CELL * 3);
+          if (d >= 1) continue;
+          ctx.globalAlpha = 0.07 * (1 - d) ** 2 * fade(x + CELL / 2, y + CELL / 2);
+          ctx.fillRect(x + 1, y + 1, CELL - 1, CELL - 1);
+        }
+      }
+    }
+    ctx.globalAlpha = 1;
+    raf = !still.matches && visible && !document.hidden ? requestAnimationFrame(draw) : 0;
+  }
+
+  function start() {
+    if (raf) cancelAnimationFrame(raf);
+    raf = requestAnimationFrame(draw);
+  }
+  measure();
+  t0 = performance.now();
+  start();
+  new ResizeObserver(() => { measure(); start(); }).observe(host);
+  new IntersectionObserver(([e]) => { visible = e.isIntersecting; if (visible) start(); }).observe(host);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) start(); });
+  still.addEventListener?.('change', start);
+  matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', () => { measure(); start(); });
+  host.addEventListener('pointermove', (ev) => {
+    if (ev.pointerType !== 'mouse') return;
+    const r = host.getBoundingClientRect();
+    pointer = { x: ev.clientX - r.left, y: ev.clientY - r.top };
+  });
+  host.addEventListener('pointerleave', () => { pointer = null; });
+})();
