@@ -22,6 +22,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history: the feed dates entries by when they entered the record
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -30,6 +32,8 @@ jobs:
       - run: npm run build
       - run: npx playwright install --with-deps chromium
       - run: npm test
+      # Link previews: a page and a card image per entry, under site/e/.
+      - run: npm run cards
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

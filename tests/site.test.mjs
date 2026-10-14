@@ -53,3 +53,54 @@ test('the built site renders every view without script errors', async (t) => {
     await closeBrowser();
   }
 });
+
+test('views share by link, search marks its matches, and quotes open in their source', async (t) => {
+  if (!existsSync(bundle)) return t.skip('run "npm run build" first');
+  const browser = await getBrowser();
+  if (!browser) return t.skip('Playwright browser not installed');
+  try {
+    const page = await browser.newPage({ viewport: { width: 1280, height: 900 }, reducedMotion: 'reduce' });
+    const errors = [];
+    page.on('pageerror', (e) => errors.push(e.message));
+    await page.route(/^https?:/, (route) => route.abort());
+    const url = pathToFileURL(bundle).href;
+
+    // A filtered view opens from its link, and changing a filter updates the link.
+    await page.goto(`${url}#timeline.openai`);
+    assert.equal(await page.getAttribute('#tab-timeline', 'aria-selected'), 'true', 'link opens the timeline');
+    assert.match(await page.locator('#count').innerText(), /of \d+ entries match/i, 'link applies the company filter');
+    await page.locator('#org button', { hasText: 'Anthropic' }).click();
+    assert.equal(await page.evaluate(() => location.hash), '#timeline.anthropic', 'filter change updates the link');
+    await page.locator('#org button', { hasText: 'Both' }).click();
+
+    // Search reaches pattern names, marks the words, and says where it matched.
+    const pattern = await page.evaluate(() => window.SAID_DID.patterns[0].name);
+    await page.fill('#q', pattern);
+    await page.waitForTimeout(300);
+    assert.match(await page.locator('#count').innerText(), /[1-9]\d* of \d+ entries match/i, `search finds the pattern "${pattern}"`);
+    assert.ok(await page.locator('.why').count() > 0, 'cards say where a search matched');
+    assert.ok(await page.locator('mark.qhit').count() > 0, 'matched words are marked');
+
+    // Search narrows the commitments documents and opens the matching lists.
+    await page.click('#tab-commitments');
+    await page.fill('#q', 'red-teaming');
+    await page.waitForTimeout(300);
+    assert.ok(await page.locator('.cdoc details[open] .citem').count() > 0, 'matching commitments are listed open');
+    await page.fill('#q', '');
+    await page.waitForTimeout(300);
+
+    // A verified quote opens to the passage it was found in.
+    await page.click('#tab-receipts');
+    const panel = page.locator('details.insource').first();
+    if (await panel.count()) {
+      await panel.locator('summary').click();
+      assert.ok(await panel.locator('.passage mark').count() > 0, 'the quote is marked in its source passage');
+    }
+
+    // With reduced motion, edit receipts start in their end state.
+    assert.equal(await page.locator('.rev-armed').count(), 0, 'no edit animation under reduced motion');
+    assert.deepEqual(errors, []);
+  } finally {
+    await closeBrowser();
+  }
+});

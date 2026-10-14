@@ -1,6 +1,7 @@
 // Shared loading, validation and derivation for the Said/Did record.
 import { readFile, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
+import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import YAML from 'yaml';
@@ -375,6 +376,30 @@ export function derive({ site, patterns, actors, entries, commitments = [] }) {
   };
 }
 
+/**
+ * When each entry file entered the record, from the repository history: path →
+ * ISO date of the commit that added it (following renames). Empty when there is
+ * no git history to read, or only a shallow copy of it, so no date is guessed.
+ */
+export function gitAddedDates(dir = ROOT) {
+  let out;
+  try {
+    if (execFileSync('git', ['rev-parse', '--is-shallow-repository'], { cwd: dir, encoding: 'utf8' }).trim() === 'true') return new Map();
+    out = execFileSync('git', ['log', '--reverse', '--format=%x00%aI', '--name-status', '-M', '--', 'data/entries'], { cwd: dir, encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
+  } catch {
+    return new Map();
+  }
+  const added = new Map();
+  let date = null;
+  for (const line of out.split('\n')) {
+    if (line.startsWith('\0')) { date = line.slice(1).trim(); continue; }
+    const [status, from, to] = line.split('\t');
+    if (status === 'A' && !added.has(from)) added.set(from, date);
+    else if (status?.startsWith('R') && to) added.set(to, added.get(from) ?? date);
+  }
+  return added;
+}
+
 /** Normalize text for quote matching: case, curly quotes, dashes, invisible format characters (including the bidi marks some PDFs carry), whitespace. */
 export function normalizeForMatch(s) {
   return String(s)
@@ -395,6 +420,72 @@ export function quoteSegments(quote) {
     .split(/\u2026|\.\.\./)
     .map((part) => normalizeForMatch(part).replace(/^[\s.,;:]+|[\s,;:]+$/g, ''))
     .filter((part) => part.length >= 3);
+}
+
+/**
+ * normalizeForMatch, one character at a time, keeping for each character of the
+ * result the index of the character it came from, so a match in the normalized
+ * text can be traced back to the original wording.
+ */
+export function normalizeWithMap(raw) {
+  const out = [];
+  const map = [];
+  const s = String(raw);
+  let i = 0;
+  for (const ch of s) {
+    let n = ch.normalize('NFKC').toLowerCase()
+      .replace(/[\u2018\u2019\u201b\u2032]/g, "'")
+      .replace(/[\u201c\u201d\u201f\u2033]/g, '"')
+      .replace(/[\u2010-\u2015\u2212]/g, '-')
+      .replace(/[\u200b-\u200f\u202a-\u202e\u2066-\u2069\ufeff]/g, '');
+    for (const c of n) {
+      if (/\s/.test(c)) {
+        if (!out.length || out[out.length - 1] === ' ') continue;
+        out.push(' ');
+      } else {
+        out.push(c);
+      }
+      map.push(i);
+    }
+    i += ch.length;
+  }
+  while (out[out.length - 1] === ' ') { out.pop(); map.pop(); }
+  return { text: out.join(''), map };
+}
+
+/**
+ * The passage of a source around a quote, for showing the quote in context:
+ * alternating plain text and matched text (odd indices are the matches), with
+ * whitespace collapsed, cut at word boundaries about `radius` characters before
+ * the first match and after the last. Null when the quote isn't in the text.
+ */
+export function quoteExcerpt(raw, quote, radius = 220) {
+  const segments = quoteSegments(quote);
+  if (!segments.length) return null;
+  const { text, map } = normalizeWithMap(raw);
+  const src = String(raw);
+  const spans = [];
+  let from = 0;
+  for (const seg of segments) {
+    const at = text.indexOf(seg, from);
+    if (at < 0) return null;
+    spans.push([map[at], map[at + seg.length - 1] + 1]);
+    from = at + seg.length;
+  }
+  // Matches far apart (an omission spanning pages) show only the first one.
+  const shown = spans[spans.length - 1][1] - spans[0][0] > 1200 ? [spans[0]] : spans;
+  let start = Math.max(0, shown[0][0] - radius);
+  let end = Math.min(src.length, shown[shown.length - 1][1] + radius);
+  if (start > 0) { const sp = src.indexOf(' ', start); if (sp > 0 && sp < shown[0][0]) start = sp + 1; }
+  if (end < src.length) { const sp = src.lastIndexOf(' ', end); if (sp > shown[shown.length - 1][1]) end = sp; }
+  const tidy = (t) => t.replace(/\s+/g, ' ');
+  const parts = [`${start > 0 ? '…' : ''}${tidy(src.slice(start, shown[0][0])).trimStart()}`];
+  shown.forEach(([a, b], k) => {
+    parts.push(tidy(src.slice(a, b)));
+    const next = shown[k + 1];
+    parts.push(next ? tidy(src.slice(b, next[0])) : `${tidy(src.slice(b, end)).trimEnd()}${end < src.length ? '…' : ''}`);
+  });
+  return parts;
 }
 
 // transcript.txt holds a labeled transcription of text that was captured only as an image.
@@ -432,6 +523,16 @@ export async function checkQuotes(entries) {
       if (segments.every((seg) => text.includes(seg))) { matched = dir; break; }
     }
     e.quote_check = matched ? { status: 'matched', snapshot: matched } : { status: 'not-found', snapshots: dirs };
+    if (matched) {
+      // The passage around the quote, from the cleanest saved file that holds all of it:
+      // a post's own text, a transcript or document, the rendered page, then the raw page.
+      for (const f of ['post.txt', 'transcript.txt', 'document.txt', 'rendered.txt', 'page.txt']) {
+        const file = path.join(ROOT, matched, f);
+        if (!existsSync(file)) continue;
+        const excerpt = quoteExcerpt(await readFile(file, 'utf8'), e.quote);
+        if (excerpt) { e.quote_check.excerpt = excerpt; break; }
+      }
+    }
   }
   return entries;
 }
