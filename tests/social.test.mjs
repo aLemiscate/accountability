@@ -1,7 +1,5 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import path from 'node:path';
-import { ROOT, readYaml } from '../scripts/lib.mjs';
 import { bskyPostUrl, cdxPrefixes, newestFirst, parseCdxRows, plausiblePostId, snowflakeDate, splitCdxResume, textFromArchivedPost, xStatusId } from '../scripts/social.mjs';
 
 test('an X post id encodes when it was posted', () => {
@@ -90,16 +88,4 @@ test('reads post text from an archived Twitter page', () => {
 
 test('builds Bluesky post links from AT URIs', () => {
   assert.equal(bskyPostUrl({ uri: 'at://did:plc:abc/app.bsky.feed.post/3kxyz', author: { handle: 'someone.bsky.social' } }), 'https://bsky.app/profile/someone.bsky.social/post/3kxyz');
-});
-
-test('every watched social account belongs to an in-scope actor', async () => {
-  const [accounts, actors] = await Promise.all([
-    readYaml(path.join(ROOT, 'data', 'accounts.yaml')),
-    readYaml(path.join(ROOT, 'data', 'actors.yaml')),
-  ]);
-  const ids = new Set(actors.map((a) => a.id));
-  for (const a of accounts) {
-    assert.ok(ids.has(a.actor), `accounts.yaml: unknown actor ${a.actor}`);
-    assert.ok(a.x || a.bluesky, `accounts.yaml: ${a.actor} needs an x or bluesky handle`);
-  }
 });

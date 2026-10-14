@@ -15,8 +15,9 @@
 //   npm run reading-queue
 //       Writes inbox/sweep/QUEUE.md: each account's unread posts, oldest first,
 //       one line per post, and a count per account of posts read so far only
-//       for safety, ethics and policy claims. Posts come from the full-history
-//       sweep (inbox/sweep/<account>/<year>.jsonl) and from the weekly watch
+//       for safety, ethics and policy claims. Posts come from each account's
+//       archive (inbox/sweep/<account>/<year>.jsonl, filled by the Sweep and
+//       the weekly Watch) and from manual find-posts runs
 //       (inbox/<date>-<account>.json). A reading is a line in
 //       inbox/sweep/triage/reading-log.jsonl, or a decision from the first
 //       triage (inbox/sweep/triage/decisions.jsonl) for an account that triage
@@ -88,7 +89,7 @@ function inTenure(account, date) {
   return !account.since || month >= String(account.since);
 }
 
-// Weekly watch results: inbox/<YYYY-MM-DD>-<handle>.json.
+// Manual find-posts results: inbox/<YYYY-MM-DD>-<handle>.json.
 const weekly = new Map();
 for (const f of await readdir(path.join(ROOT, 'inbox'))) {
   const m = f.match(/^\d{4}-\d{2}-\d{2}-(.+)\.json$/);
