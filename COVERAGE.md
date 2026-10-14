@@ -339,7 +339,7 @@ Follow-ups to the October 13 audit, in six parts.
 
 ## The two companies side by side
 
-OpenAI has 112 entries to Anthropic's 64. It is older, larger and has made more
+OpenAI has 116 entries to Anthropic's 67. It is older, larger and has made more
 public commitments, and more of its conduct has been litigated and reported. The
 review checked the other direction too: for each kind of OpenAI entry it looked
 for the Anthropic counterpart and recorded it where one exists.
