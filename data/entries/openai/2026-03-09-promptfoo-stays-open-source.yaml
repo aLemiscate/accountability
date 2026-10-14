@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [openai]
-venue: Post on Twitter announcing the acquisition
+venue: Post on Twitter/X announcing the acquisition
 quote: >-
   Promptfoo will remain open source under the current license, and we will
   continue to service and support current customers.
@@ -22,8 +22,8 @@ breaks_if: >-
   existing customers dropped before their contracts ended.
 related: [2025-12-02-bun-stays-open-source]
 sources:
-  - title: OpenAI on Twitter ("We’re acquiring Promptfoo")
-    publisher: Twitter
+  - title: OpenAI on Twitter/X ("We’re acquiring Promptfoo")
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/2031052793835106753
     date: 2026-03-09
     type: primary

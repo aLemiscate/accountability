@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [openai]
-venue: Post on Twitter relaunching ChatGPT browsing
+venue: Post on Twitter/X relaunching ChatGPT browsing
 quote: >-
   Since the original launch of browsing in May, we received useful feedback.
   Updates include following robots.txt and identifying user agents so sites can
@@ -33,8 +33,8 @@ outcome:
     apply."
 patterns: [silent-edit]
 sources:
-  - title: OpenAI on Twitter ("Updates include following robots.txt")
-    publisher: Twitter
+  - title: OpenAI on Twitter/X ("Updates include following robots.txt")
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/1707077711192297502
     date: 2023-09-27
     type: primary

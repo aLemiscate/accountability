@@ -4,7 +4,7 @@ org: openai
 type: said
 kind: commitment
 who: [sam-altman]
-venue: Post on Twitter
+venue: Post on Twitter/X
 quote: >-
   we do not have or want government guarantees for OpenAI datacenters. We
   believe that governments should not pick winners or losers, and that taxpayers
@@ -26,8 +26,8 @@ breaks_if: >-
   vehicle it controls.
 patterns: [mission-to-market]
 sources:
-  - title: Sam Altman on Twitter
-    publisher: Twitter
+  - title: Sam Altman on Twitter/X
+    publisher: Twitter/X
     url: https://x.com/sama/status/1986514377470845007
     date: 2025-11-06
     type: primary

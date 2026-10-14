@@ -7,7 +7,7 @@ A queue is a TSV in inbox/spoken/queue/ with the columns
 
 kind is "audio" (a direct media URL, such as a podcast enclosure, or a
 video file such as the video.twimg.com link FxTwitter gives for a video posted
-on Twitter) or "video" (a page yt-dlp can read; YouTube refuses GitHub's
+on Twitter/X) or "video" (a page yt-dlp can read; YouTube refuses GitHub's
 runners). lang is "en" or "auto". The optional clip
 column ("HH:MM:SS-HH:MM:SS") transcribes only that stretch, for a guest
 segment inside a long show; timestamps stay on the episode's clock. Each job

@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [openai, miles-brundage]
-venue: Posts on Twitter and the GPT-2 release updates
+venue: Posts on Twitter/X and the GPT-2 release updates
 quote: >-
   Two mechanisms for publishing GPT-2 (and hopefully future powerful models):
   staged release and partnership-based sharing.
@@ -24,34 +24,34 @@ concreteness: measurable
 status: kept
 related: [2025-03-05-gpt-2-history-recast]
 sources:
-  - title: Miles Brundage on Twitter ("We're working on broadening access in a principled
+  - title: Miles Brundage on Twitter/X ("We're working on broadening access in a principled
       way - stay tuned!")
-    publisher: Twitter
+    publisher: Twitter/X
     url: https://x.com/Miles_Brundage/status/1097637002344714241
     date: 2019-02-18
     type: primary
     snapshot: snapshots/2026-10-03-x.com-517fbcaa
-  - title: OpenAI on Twitter ("staged release and partnership-based sharing")
-    publisher: Twitter
+  - title: OpenAI on Twitter/X ("staged release and partnership-based sharing")
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/1124440412679233536
     date: 2019-05-03
     type: primary
     snapshot: snapshots/2026-10-03-x.com-948e1803
-  - title: OpenAI on Twitter ("GPT-2 6-month follow-up")
-    publisher: Twitter
+  - title: OpenAI on Twitter/X ("GPT-2 6-month follow-up")
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/1163843803884601344
     date: 2019-08-20
     type: primary
     snapshot: snapshots/2026-10-03-x.com-648aaf1f
-  - title: OpenAI on Twitter ("We're releasing the 1.5billion parameter GPT-2 model")
-    publisher: Twitter
+  - title: OpenAI on Twitter/X ("We're releasing the 1.5billion parameter GPT-2 model")
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/1191764001434173440
     date: 2019-11-05
     type: primary
     archive: https://web.archive.org/web/20250723012128/https://x.com/OpenAI/status/1191764001434173440
     snapshot: snapshots/2026-10-03-x.com-0f650494
-  - title: Miles Brundage on Twitter ("latest and final report on GPT-2")
-    publisher: Twitter
+  - title: Miles Brundage on Twitter/X ("latest and final report on GPT-2")
+    publisher: Twitter/X
     url: https://x.com/Miles_Brundage/status/1191771901326004224
     date: 2019-11-05
     type: primary
@@ -68,22 +68,22 @@ updates:
       economics, complexity of disinfo kill chain, need to invest engineering to
       effectively integrate LM etc. This'll change eventually."
     sources:
-      - title: Jack Clark on Twitter ("way too early")
-        publisher: Twitter
+      - title: Jack Clark on Twitter/X ("way too early")
+        publisher: Twitter/X
         url: https://x.com/jackclarkSF/status/1558583443738411008
         date: 2022-08-13
         type: primary
         archive: https://web.archive.org/web/20220813234919/https://twitter.com/jackclarkSF/status/1558583443738411008
         snapshot: snapshots/2026-10-13-x.com-3109962c
-      - title: Jack Clark on Twitter ("I felt like it was imminent")
-        publisher: Twitter
+      - title: Jack Clark on Twitter/X ("I felt like it was imminent")
+        publisher: Twitter/X
         url: https://x.com/jackclarkSF/status/1558583249298792448
         date: 2022-08-13
         type: primary
         archive: https://web.archive.org/web/20220814000543/https://twitter.com/jackclarkSF/status/1558583249298792448
         snapshot: snapshots/2026-10-13-x.com-4d9a1727
-      - title: Jack Clark on Twitter ("mostly a not-yet thing")
-        publisher: Twitter
+      - title: Jack Clark on Twitter/X ("mostly a not-yet thing")
+        publisher: Twitter/X
         url: https://x.com/jackclarkSF/status/1558526453158776834
         date: 2022-08-13
         type: primary

@@ -42,8 +42,8 @@ sources:
     date: 2026-02-04
     type: reporting
     snapshot: snapshots/2026-09-29-axios.com-305719ac
-  - title: Claude on Twitter ("Ads are coming to AI. But not to Claude.")
-    publisher: Twitter
+  - title: Claude on Twitter/X ("Ads are coming to AI. But not to Claude.")
+    publisher: Twitter/X
     url: https://x.com/claudeai/status/2019071113741906403
     date: 2026-02-04
     type: primary
@@ -57,13 +57,13 @@ sources:
 updates:
   - date: 2026-02-05
     text: >-
-      OpenAI president Greg Brockman asked Anthropic and Dario Amodei on Twitter:
+      OpenAI president Greg Brockman asked Anthropic and Dario Amodei on Twitter/X:
       "will you commit to never selling claude's 'users' attention or data to
       advertisers'? genuine question, your blog post makes it sound like you're
       keeping the option open." This record found no public answer.
     sources:
-      - title: Greg Brockman on Twitter
-        publisher: Twitter
+      - title: Greg Brockman on Twitter/X
+        publisher: Twitter/X
         url: https://x.com/gdb/status/2019300639155900608
         date: 2026-02-05
         type: primary

@@ -43,7 +43,7 @@ org: ${org}
 type: ${type}
 kind: ${KINDS[type][0]}  # one of: ${KINDS[type].join(', ')}
 who: [${org}]  # actor ids from data/actors.yaml (people must be in scope; see METHODOLOGY.md)
-venue: TODO where it was said or done (e.g. "Post on Twitter", "Senate testimony")
+venue: TODO where it was said or done (e.g. "Post on Twitter/X", "Senate testimony")
 quote: >-
   TODO verbatim words, or delete this field
 summary: >-

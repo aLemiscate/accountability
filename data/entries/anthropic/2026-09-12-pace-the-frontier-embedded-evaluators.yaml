@@ -5,7 +5,7 @@ org: anthropic
 type: said
 kind: commitment
 who: [dario-amodei, anthropic]
-venue: Essay, "We Must Pace the Frontier," and post on Twitter
+venue: Essay, "We Must Pace the Frontier," and post on Twitter/X
 quote: >-
   Anthropic is unilaterally committing to this step now. … External reviewers
   should have the right to publish key findings about risk levels, incidents,
@@ -45,8 +45,8 @@ sources:
     date: 2026-09-12
     type: primary
     snapshot: snapshots/2026-09-29-darioamodei.com-874a2fd9
-  - title: Dario Amodei on Twitter
-    publisher: Twitter
+  - title: Dario Amodei on Twitter/X
+    publisher: Twitter/X
     url: https://x.com/DarioAmodei/status/2098773920774074715
     date: 2026-09-12
     type: primary
@@ -101,8 +101,8 @@ updates:
         type: reporting
         archive: https://web.archive.org/web/20260926100748/https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/
         snapshot: snapshots/2026-09-29-techcrunch.com-3021783d
-      - title: Sam Bowman on Twitter
-        publisher: Twitter
+      - title: Sam Bowman on Twitter/X
+        publisher: Twitter/X
         url: https://x.com/sleepinyourhat/status/2102437501646647440
         date: 2026-09-22
         type: primary

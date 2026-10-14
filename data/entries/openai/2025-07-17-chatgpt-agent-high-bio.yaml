@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: claim
 who: [openai]
-venue: ChatGPT agent system card and post on Twitter
+venue: ChatGPT agent system card and post on Twitter/X
 quote: >-
   We have decided to treat this launch as High capability in the Biological and
   Chemical domain, activating the associated Preparedness safeguards.
@@ -33,8 +33,8 @@ sources:
     date: 2025-07-17
     type: primary
     snapshot: snapshots/2026-09-30-cdn.openai.com-5fdb89f0
-  - title: OpenAI on Twitter
-    publisher: Twitter
+  - title: OpenAI on Twitter/X
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/1945904754443669659
     date: 2025-07-17
     type: primary

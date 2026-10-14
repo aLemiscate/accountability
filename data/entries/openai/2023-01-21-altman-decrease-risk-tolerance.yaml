@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [sam-altman]
-venue: Post on Twitter
+venue: Post on Twitter/X
 quote: >-
   openai will continually decrease the level of risk we are comfortable taking
   with new models as they get more powerful, not the other way around.
@@ -30,14 +30,14 @@ related:
     2026-08-18-altman-pause-act-unilaterally
   ]
 sources:
-  - title: Sam Altman on Twitter
-    publisher: Twitter
+  - title: Sam Altman on Twitter/X
+    publisher: Twitter/X
     url: https://x.com/sama/status/1616857160910241792
     date: 2023-01-21
     type: primary
     snapshot: snapshots/2026-09-30-x.com-d491d311
-  - title: Sam Altman on Twitter (screenshots)
-    publisher: Twitter
+  - title: Sam Altman on Twitter/X (screenshots)
+    publisher: Twitter/X
     url: https://x.com/sama/status/1616857158100078592
     date: 2023-01-21
     type: primary

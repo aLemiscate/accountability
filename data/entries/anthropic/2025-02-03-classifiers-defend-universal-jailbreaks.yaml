@@ -5,7 +5,7 @@ org: anthropic
 type: said
 kind: claim
 who: [anthropic, jan-leike]
-venue: Research announcement and posts on Twitter
+venue: Research announcement and posts on Twitter/X
 quote: >-
   We built a system that defends against universal jailbreaks!
 summary: >-
@@ -31,45 +31,45 @@ outcome:
 patterns: [claims-outrun-results]
 related: [2025-05-22-asl-3-protections-activated]
 sources:
-  - title: Jan Leike on Twitter ("We built a system that defends against universal
+  - title: Jan Leike on Twitter/X ("We built a system that defends against universal
       jailbreaks")
-    publisher: Twitter
+    publisher: Twitter/X
     url: https://x.com/janleike/status/1886452525437800874
     date: 2025-02-03
     type: primary
     archive: https://web.archive.org/web/20250215025745/https://x.com/janleike/status/1886452525437800874
     snapshot: snapshots/2026-10-03-x.com-8c61a820
-  - title: Anthropic on Twitter ("not one participant found a reliable jailbreak")
-    publisher: Twitter
+  - title: Anthropic on Twitter/X ("not one participant found a reliable jailbreak")
+    publisher: Twitter/X
     url: https://x.com/AnthropicAI/status/1886452500108091586
     date: 2025-02-03
     type: primary
     archive: https://web.archive.org/web/20250214121615/https://x.com/anthropicai/status/1886452500108091586
     snapshot: snapshots/2026-10-03-x.com-cc59271d
-  - title: Anthropic on Twitter ("Nobody has fully jailbroken our system yet")
-    publisher: Twitter
+  - title: Anthropic on Twitter/X ("Nobody has fully jailbroken our system yet")
+    publisher: Twitter/X
     url: https://x.com/AnthropicAI/status/1887227067156386027
     date: 2025-02-05
     type: primary
     archive: https://web.archive.org/web/20260210061136/https://x.com/AnthropicAI/status/1887227067156386027
     snapshot: snapshots/2026-10-03-x.com-c47a57d0
-  - title: Jan Leike on Twitter ("our system got broken")
-    publisher: Twitter
+  - title: Jan Leike on Twitter/X ("our system got broken")
+    publisher: Twitter/X
     url: https://x.com/janleike/status/1890141865955278916
     date: 2025-02-13
     type: primary
     archive: https://web.archive.org/web/20250219091350/https://x.com/janleike/status/1890141865955278916
     snapshot: snapshots/2026-10-03-x.com-c03f09c2
-  - title: Jan Leike on Twitter ("need to be combined with other methods")
-    publisher: Twitter
+  - title: Jan Leike on Twitter/X ("need to be combined with other methods")
+    publisher: Twitter/X
     url: https://x.com/janleike/status/1890141868195037251
     date: 2025-02-13
     type: primary
     archive: https://web.archive.org/web/20260411160238/https://x.com/janleike/status/1890141868195037251
     snapshot: snapshots/2026-10-03-x.com-3b7feda4
-  - title: Sam Bowman on Twitter ("I'd bet $50 *at 25%* that nobody finds a universal
+  - title: Sam Bowman on Twitter/X ("I'd bet $50 *at 25%* that nobody finds a universal
       jailbreak")
-    publisher: Twitter
+    publisher: Twitter/X
     url: https://x.com/sleepinyourhat/status/1821955767328809369
     date: 2024-08-09
     type: primary

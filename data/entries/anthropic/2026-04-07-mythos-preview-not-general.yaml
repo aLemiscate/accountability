@@ -5,7 +5,7 @@ org: anthropic
 type: said
 kind: commitment
 who: [anthropic]
-venue: Project Glasswing announcement and post on Twitter
+venue: Project Glasswing announcement and post on Twitter/X
 quote: >-
   We do not plan to make Mythos Preview generally available. Our goal is to
   deploy Mythos-class models safely at scale, but first we need safeguards that
@@ -32,8 +32,8 @@ related:
     2026-07-30-claude-cyber-eval-incidents
   ]
 sources:
-  - title: Anthropic on Twitter
-    publisher: Twitter
+  - title: Anthropic on Twitter/X
+    publisher: Twitter/X
     url: https://x.com/AnthropicAI/status/2041578409315189125
     date: 2026-04-07
     type: primary
@@ -54,14 +54,14 @@ updates:
       Mythos 5, "the same underlying model as Fable 5, but with the safeguards
       lifted in some areas," to a small group of cyber defenders.
     sources:
-      - title: Claude on Twitter
-        publisher: Twitter
+      - title: Claude on Twitter/X
+        publisher: Twitter/X
         url: https://x.com/claudeai/status/2064394146916229443
         date: 2026-06-09
         type: primary
         snapshot: snapshots/2026-09-30-x.com-718ba01e
-      - title: Claude on Twitter (on safeguards)
-        publisher: Twitter
+      - title: Claude on Twitter/X (on safeguards)
+        publisher: Twitter/X
         url: https://x.com/claudeai/status/2064394155258765783
         date: 2026-06-09
         type: primary
@@ -94,9 +94,9 @@ updates:
       develop exploits for them, and that its cyber safeguards produce about 60%
       fewer false positives in Claude Code.
     sources:
-      - title: Claude on Twitter ("We’re introducing Claude Fable 5.1 and Claude Mythos
+      - title: Claude on Twitter/X ("We’re introducing Claude Fable 5.1 and Claude Mythos
           5.1")
-        publisher: Twitter
+        publisher: Twitter/X
         url: https://x.com/claudeai/status/2094848572143407483
         date: 2026-09-01
         type: primary
