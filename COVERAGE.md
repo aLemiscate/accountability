@@ -1,6 +1,6 @@
 # What the record covers
 
-As of October 13, 2026. This file says where the record's entries came from,
+As of October 14, 2026. This file says where the record's entries came from,
 what the latest reviews added, how the two companies compare, and what may
 still be missing. The October fairness review ran in seven workstreams, each
 with its own section below: spoken claims, commitments in formal documents,
@@ -279,6 +279,57 @@ September. The full account is in
 - **Missing events.** One new entry (Anthropic's Oct. 9 report of Claude
   models acting on real websites, including a false tip to Philadelphia
   police) and 11 updates, for both companies.
+
+## What the October 14 pass added
+
+Follow-ups to the October 13 audit, in six parts.
+
+- **Launches since late September, both companies,** read for dated
+  promises, plan and price terms and checkable claims. OpenAI's DevDay
+  (Sept. 29) halved the $200 Pro plan's allowance from Oct. 30 and added a
+  $500 tier (an update to the Pro allowances entry), and promised "Private
+  Inference" this fall. Anthropic promised its Enterprise Frontier Safeguards
+  "later this fall," expanded its Cyber Verification Program to give more
+  defenders Mythos-class access (an update to the Mythos promise), reported
+  new Glasswing figures with no patch total (an update to the report-back
+  promise), and forecast that "in two years, AI will favor defense." The two
+  privacy promises are recorded side by side, both due by the end of
+  December. Haiku 5.5, Sonnet 5.5 and Opus 5.5 pricing and benchmark claims,
+  plugin and agent launches, and spending pledges (Anthropic's $100 million
+  engineer academy and $150 million for the Genesis Mission) were read and
+  left out: no dated promise or contested claim.
+- **Due dates.** A new `due` field holds the end of the period a promise
+  names. Eleven open promises have one; the Watchlist shows it, and the
+  validator warns once a deadline passes on a promise still marked open.
+- **IPO filings.** Neither company has a public registration statement on
+  EDGAR as of October 14 (full-text search for "Anthropic, PBC" and "OpenAI
+  Group PBC" in S-1, F-1 and 424B4 filings finds only other companies'
+  filings that mention them). Both announced confidential draft filings in
+  June.
+  The weekly news sweep checks EDGAR each week; the SEC refuses automated
+  requests that don't declare a contact, so the Watch workflow can't poll it.
+- **Non-English search.** Searches in Italian, Korean, Japanese, French,
+  German and Portuguese for 2026 regulator actions on either company found
+  one the record lacked: the May 6 joint findings of Canada's federal,
+  Quebec, British Columbia and Alberta privacy regulators that OpenAI
+  trained ChatGPT unlawfully, and OpenAI's dated commitments to them (two new
+  entries; the six-month items are due Nov. 6). Nothing comparable was found
+  for Anthropic.
+- **Video.** YouTube refuses this machine, GitHub's runners, the free
+  transcript services and the Invidious and Piped mirrors tried. Video posted
+  on Twitter can be downloaded without a login (FxTwitter gives the file's
+  address) and run through the Transcribe workflow as an "audio" row. Altman's
+  January town hall, read earlier only from a Chinese dub, held a dated
+  forecast (GPT-5.2-level intelligence at least 100 times cheaper by the end
+  of 2027); it is now in the record from English reporting, checked against
+  Chinese and Russian accounts.
+- **Paywalled and blocked pages.** Capture now saves a source's archived
+  copy when the page itself is paywalled, bot-checked or gone, and marks the
+  snapshot as a copy of the original address.
+- **Labels and schedule.** Source titles and publisher labels say "Twitter"
+  (558 labels changed). A weekly news sweep runs as a scheduled Claude Code
+  session every Monday at 06:46 UTC and opens a pull request for review;
+  [inbox/news/README.md](inbox/news/README.md) says what each run reports.
 
 ## The two companies side by side
 
@@ -645,10 +696,12 @@ about other companies. Every source was read in full.
   snapshots, so a blocked source shows up here instead of looking captured.
 - **Paywalled and non-English reporting.** Wall Street Journal, New York Times,
   Bloomberg, New Yorker and The Information stories are cited through
-  secondary coverage. Outside English, only regulators' decisions were
-  checked; reporting in other languages wasn't searched.
+  secondary coverage. Reporting in other languages was searched on October 14
+  for 2026 regulator actions (six languages; see above), not for every story.
 - **Channels searched but not swept in full:** video-only keynotes and
-  talks (YouTube refuses this machine and GitHub's runners), TV and print
+  talks (YouTube refuses this machine, GitHub's runners, free transcript
+  services and Invidious and Piped mirrors; video posted on Twitter can be
+  transcribed), TV and print
   interviews, LinkedIn, and testimony by company staff other than the ten
   people in the spoken-claims inventory. Podcasts and congressional
   testimony by those ten, and the lobbying filings, are now read in full
@@ -668,7 +721,10 @@ about other companies. Every source was read in full.
   date and stay on watch. OpenAI's Navier-Stokes proof awaits peer review and
   the Clay Mathematics Institute; custom GPTs are retired on December 11;
   Anthropic's Fluidstack data centers were due online "throughout 2026"; and
-  OpenAI has said it will mark ChatGPT's text under the EU code.
+  OpenAI has said it will mark ChatGPT's text under the EU code. OpenAI's
+  commitments to Canada's privacy regulators come due on November 6, and both
+  companies' privacy-with-monitoring promises by the end of December. Neither
+  company had a public IPO filing on October 14.
 
 Items that were reviewed and left out, with the reason for each, are listed in
 [inbox/sweep/TRIAGE.md](inbox/sweep/TRIAGE.md) under "No record change, and
