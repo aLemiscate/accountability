@@ -1,0 +1,188 @@
+This website stores cookies on your computer. These cookies are used to improve your website experience and provide more personalized services to you, both on this website and through other media. To find out more about the cookies we use, see our Privacy Policy.
+We won't track your information when you visit our site. But in order to comply with your preferences, we'll have to use just one tiny cookie so that you're not asked to make this choice again.
+Accept
+Decline
+SECURITYWEEK NETWORK:
+Cybersecurity News
+Webcasts
+Virtual Events
+Podcast
+ICS Cybersecurity Conference
+Malware & Threats
+Security Operations
+Security Architecture
+Risk Management
+CISO Strategy
+ICS/OT
+Funding/M&A
+Cyber AI
+Cybersecurity News
+Webcasts
+Virtual Events
+Podcast
+ICS Cybersecurity Conference
+CONNECT WITH US
+Hi, what are you looking for?
+Malware & Threats
+Cyberwarfare
+Cybercrime
+Data Breaches
+Fraud & Identity Theft
+Nation-State
+Ransomware
+Vulnerabilities
+Security Operations
+Threat Intelligence
+Incident Response
+Tracking & Law Enforcement
+Security Architecture
+Application Security
+Cloud Security
+Endpoint Security
+Identity & Access
+IoT Security
+Mobile & Wireless
+Network Security
+Risk Management
+Cyber Insurance
+Data Protection
+Privacy & Compliance
+Supply Chain Security
+CISO Strategy
+Cyber Insurance
+CISO Conversations
+CISO Forum
+ICS/OT
+Industrial Cybersecurity
+ICS Cybersecurity Conference
+Funding/M&A
+Cybersecurity Funding
+M&A Tracker
+Cyber AI
+ARTIFICIAL INTELLIGENCE
+Anthropic Introduces 3-Tier Cyber Verification Program for AI Access
+Anthropic is integrating the CVP and Project Glasswing into a single offering, with three levels of access to its most capable AI models.
+By
+Eduard Kovacs
+| October 7, 2026 (6:07 AM ET)
+Flipboard
+Reddit
+Whatsapp
+Email
+Anthropic on Tuesday announced a revamped Cyber Verification Program (CVP), integrating the CVP and Project Glasswing into a single offering, with three levels of access to its most capable AI models.
+Anthropic’s generally available models, including Claude Opus 5.5, Sonnet 5.5 and Fable 5.1, ship with cyber safeguards that block most cyber work. The company says this is because the same capabilities that help defenders find and fix flaws can also help attackers exploit them.
+Until now, CVP and Glasswing ran as separate programs: Glasswing gave organizations securing critical software access to Claude Mythos, while the original CVP loosened safeguards on Opus and Sonnet models for approved teams.
+Under the new structure, all three tiers include Opus 5.5, Sonnet 5.5, Mythos 5.1 and future models. Each tier comes with its own verification requirements and security controls.
+The Defense Access tier covers SOC and incident response work, malware reverse engineering, and vulnerability analysis and validation. Eligible applicants include security teams defending their own systems, critical infrastructure operators, small security firms, open source maintainers, and individual researchers with a history of reported vulnerabilities. Anthropic aims to respond to these applications within a few days.
+Red Team Access adds authorized penetration testing and red teaming, limited to systems the organization is permitted to test. Actions that could cause physical harm or mass disruption, such as deploying ransomware, are still blocked in real time.
+ADVERTISEMENT. SCROLL TO CONTINUE READING.
+“Currently, this tier is for organizations only; individual researchers are not eligible,” Anthropic said. Reviews are expected to take a few weeks, and qualifying applicants get Defense Access in the meantime.
+Specialized Access has the fewest cyber blocks. It’s reserved for a small number of organizations authorized to test safety-critical systems such as power grids, flight systems, telecom networks, and interbank transfer infrastructure. Anthropic currently vets these applicants in collaboration with the US government, and existing Glasswing members are moving into this tier.
+Glasswing partners found at least 129,000 verified vulnerabilities between April and July, and Anthropic’s own open source scanning turned up 5,500 more between April and October. More than 33,000 of them are rated critical or high severity. Anthropic says the true impact is likely at least five times higher, as the figures come from only a subset of Glasswing participants.
+Organizations in the new program must accept data retention so that Anthropic can monitor for misuse. Later this fall, Enterprise Frontier Safeguards will let eligible customers store data in cloud infrastructure they control. Until then, organizations with zero data retention access to Fable 5.1 or Mythos 5.1 can use CVP with zero data retention.
+CVP is available on the Claude Platform, Google Cloud’s Vertex AI and Microsoft Foundry. On Amazon Bedrock, it’s only available to customers eligible for Enterprise Frontier Safeguards. Existing CVP members keep their current settings for previous models and will be automatically evaluated for access to the new ones.
+Related: Beijing Hits Back at Anthropic CEO’s Call to Curb China’s AI Development
+Related: Users in Houthi-Held Yemen Tried to Develop Advanced Weapons With AI, Anthropic Says
+Related: Anthropic Says Russian Hackers Used Claude AI to Automate Malware Evasion
+WRITTEN BY
+Eduard Kovacs
+Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering.
+Daily Briefing Newsletter
+Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights.
+Business Email*
+Read our Privacy Policy for more information.
+More from Eduard Kovacs
+Bricksforge WordPress Plugin Vulnerability Exploited in the Wild
+Canonical Websites Disrupted in Second DDoS Attack This Year
+Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe
+Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security
+Google Pixel 10 Exploits Earned Hackers $560,000 at Pwn2Own
+Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication
+US Seeks Alleged Chinese Hafnium Hacker With $10 Million Reward
+TP-Link Faces State Lawsuits and New Scrutiny Over ISP Router Flaws
+Latest News
+Employee Arrested After Listening Device Found in OpenAI Conference Room, FBI and the Company Say
+Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN
+Adobe Patches 140 Vulnerabilities Across 10 Products
+Google Partially Reverses Chrome Bug Bounty Cuts
+Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach
+Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns
+XWorm RAT Evolves Into Surveillance Platform
+AI Turns Familiar Cyberattacks Into a Race Against Time
+TRENDING
+iRhythm Data Breach Impacts at Least 360,000 People
+Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe
+US Seeks Alleged Chinese Hafnium Hacker With $10 Million Reward
+Cyberattack Prompts Grocery Giant Ahold Delhaize to Disconnect Systems
+Critical SonicWall Vulnerability Exploited Days After Disclosure
+Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach
+Bricksforge WordPress Plugin Vulnerability Exploited in the Wild
+Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns
+Daily Briefing Newsletter
+Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts.
+Business Email*
+Read our Privacy Policy for more information.
+Webinar: AI Is Accelerating Risk. Can Your IT Operations Keep Up?
+October 14, 2026
+Learn about Frontier Pace Governance: a practical approach to helping IT operations move at AI speed without sacrificing security, accountability, or operational discipline.
+Register
+Virtual Event: Zero Trust & Identity Strategies Summit 2026
+October 14, 2026
+Join as we decipher the world of zero trust and share war stories on securing an organization by eliminating implicit trust and continuously validating every stage of a digital interaction.
+Register
+PEOPLE ON THE MOVE
+Adam Zolle has joined Nike as CISO.
+Jeff Hackett has been appointed CFO at internet intelligence provider Censys.
+Accenture Federal Services has named Nathaniel Parker as CISO.
+More People On The Move
+EXPERT INSIGHTS
+AI Has Changed Attack Speed, Not Security Fundamentals
+As AI accelerates vulnerability discovery and exploitation, so-called virtual patching still comes down to defense-in-depth and strong application security fundamentals. (Joshua Goldfarb)
+Four Cyber Threats Harboring Big Plans for the Future
+- AI, supply-chain exposure, quantum computing and geopolitical conflict are testing security programs. Preparing for disruption must become part of day-to-day operations. (Steve Durbin)
+Begin at the End: How to Enable Agentic Remediation
+Agentic remediation is not an act of faith. We are talking about fixing known problems, not judgment calls about unfamiliar risk. (Nadir Izrael)
+“We Think the Security Control Is Working” Is No Longer Good Enough
+Point-in-time audits and sampled assessments offer only snapshots; continuous control monitoring provides evidence that security controls are working today. (Sravish Sridhar)
+This Key Will Self-Destruct: An Open Standard for Revocable API Keys
+Every leaked credential should be dead, or dying, within sixty seconds of being found. Here's a proposal to make that the default. (Matt Honea)
+Flipboard
+Reddit
+Whatsapp
+Email
+Popular Topics
+Cybersecurity News
+Industrial Cybersecurity
+Security Community
+Virtual Cybersecurity Events
+Webcast Library
+CISO Forum
+AI Risk Summit
+ICS Cybersecurity Conference
+Cybersecurity Newsletters
+Stay Intouch
+Cyber Weapon Discussion Group
+RSS Feed
+Security Intelligence Group
+Follow SecurityWeek on LinkedIn
+About SecurityWeek
+Advertising
+Event Sponsorships
+Writing Opportunities
+Feedback/Contact Us
+Privacy Policy
+News Tips
+Got a confidential news tip? We want to hear from you.
+Submit Tip
+Advertising
+Reach a large audience of enterprise cybersecurity professionals
+Contact Us
+Daily Briefing Newsletter
+Subscribe to the SecurityWeek Daily Briefing and get the latest content delivered to your inbox.
+Business Email*
+Read our Privacy Policy for more information.
+Copyright © 2026 SecurityWeek ®, a Wired Business Media Publication. All Rights Reserved.
+Daily Briefing Newsletter
+Subscribe to the SecurityWeek Email Briefing to stay informed on the latest cybersecurity news, threats, and expert insights. Unsubscribe at any time.
+Business Email*
+Read our Privacy Policy for more information.

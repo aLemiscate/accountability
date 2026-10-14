@@ -1,0 +1,2592 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sam Altman&#x27;s OpenAI Town Hall: 8 Major Reveals on Pricing, Safety, and GPT-5</title>
+
+            <script>
+                const rootElement = document.querySelector("html[data-theme]");
+                const savedTheme = localStorage.getItem('data-theme');
+
+                if (savedTheme) {
+                    rootElement.setAttribute('data-theme', savedTheme);
+                } else {
+                    localStorage.setItem('data-theme', rootElement.getAttribute('data-theme'));
+                }
+            </script>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+<style>
+    :root {
+        --font-family-titles: var(--gh-font-heading, "Inter", sans-serif);
+        --font-family-body:  var(--gh-font-body, "Inter", sans-serif);
+
+        --font-weight-titles: 700;
+        --font-weight-body: 500;
+
+        --h1-font-size: 5.2rem;
+        --h1-line-height: 120%;
+        --h1-letter-spacing: -0.02em;
+
+        --h2-font-size: 4rem;
+        --h2-line-height: 120%;
+        --h2-letter-spacing: -0.02em;
+
+        --h3-font-size: 2.6rem;
+        --h3-line-height: 120%;
+        --h3-letter-spacing: -0.03em;
+        
+        --h4-font-size: 2.2rem;
+        --h4-line-height: 120%;
+        --h4-letter-spacing: -0.03em;
+
+        --h5-font-size: 1.8rem;
+        --h5-line-height: 120%;
+        --h5-letter-spacing: -0.03em;
+
+        --h6-font-size: 1.6rem;
+        --h6-line-height: 120%;
+        --h6-letter-spacing: -0.03em;
+
+        --text-L-font-size: 1.8rem;
+        --text-L-line-height: 140%;
+        --text-L-letter-spacing: -0.02em;
+
+        --text-M-font-size: 1.6rem;
+        --text-M-line-height: 140%;
+        --text-M-letter-spacing: -0.02em;
+
+        --text-S-font-size: 1.4rem;
+        --text-S-line-height: 140%;
+        --text-S-letter-spacing: -0.02em;
+
+        --text-XS-font-size: 1.2rem;
+        --text-XS-line-height: 140%;
+        --text-XS-letter-spacing: -0.02em;
+
+        --post-numbers-font-size: 4rem;
+        --post-numbers-line-height: 120%;
+        --post-numbers-letter-spacing: -0.02em;
+        --post-numbers-font-weight: 700;
+
+        --post-quote-font-size: 3.6rem;
+        --post-quote-line-height: 120%;
+        --post-quote-letter-spacing: -0.02em;
+        --post-quote-font-weight: 700;
+
+        --post-paragraph-font-size: 2rem;
+        --post-paragraph-line-height: 140%;
+        --post-paragraph-letter-spacing: -0.02em;
+        --post-paragraph-font-weight: 400;
+
+        --post-body-font-size: 1.8rem;
+        --post-body-line-height: 160%;
+        --post-body-letter-spacing: 0;
+        --post-body-font-weight: 400;
+
+        --tier-font-size: 1rem;
+        --tier-line-height: 140%;
+        --tier-letter-spacing: 0.02em;
+        --tier-font-weight: 700;
+    }   
+</style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <link rel="stylesheet" href="https://www.techloy.com/assets/built/main.css?v=doHFIJE4u3lhIA34">
+
+        <meta name="description" content="CEO addresses pricing, hiring, safety risks, and product roadmap in session with AI builders">
+    <link rel="icon" href="https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w256h256/2023/07/techloy-avatar-1.png" type="image/png">
+    <link rel="canonical" href="https://www.techloy.com/sam-altmans-openai-town-hall-8-major-reveals-on-pricing-safety-and-gpt-5/">
+    <link rel="alternate" type="text/markdown" href="https://www.techloy.com/sam-altmans-openai-town-hall-8-major-reveals-on-pricing-safety-and-gpt-5.md">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="Techloy">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Sam Altman&#x27;s OpenAI Town Hall: 8 Major Reveals on Pricing, Safety, and GPT-5">
+    <meta property="og:description" content="CEO addresses pricing, hiring, safety risks, and product roadmap in session with AI builders">
+    <meta property="og:url" content="https://www.techloy.com/sam-altmans-openai-town-hall-8-major-reveals-on-pricing-safety-and-gpt-5/">
+    <meta property="og:image" content="https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w1200/2026/01/samaltman.jpeg">
+    <meta property="article:published_time" content="2026-01-27T07:58:33.000Z">
+    <meta property="article:modified_time" content="2026-01-27T07:58:33.000Z">
+    <meta property="article:tag" content="/ Artificial Intelligence">
+    <meta property="article:tag" content="OpenAI">
+    <meta property="article:tag" content="Sam Altman">
+    
+    <meta property="article:publisher" content="https://www.facebook.com/techloy">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sam Altman&#x27;s OpenAI Town Hall: 8 Major Reveals on Pricing, Safety, and GPT-5">
+    <meta name="twitter:description" content="CEO addresses pricing, hiring, safety risks, and product roadmap in session with AI builders">
+    <meta name="twitter:url" content="https://www.techloy.com/sam-altmans-openai-town-hall-8-major-reveals-on-pricing-safety-and-gpt-5/">
+    <meta name="twitter:image" content="https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w1200/2026/01/samaltman.jpeg">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Damilare Odedina">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="/ Artificial Intelligence, OpenAI, Sam Altman">
+    <meta name="twitter:site" content="@techloy">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="800">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Techloy",
+        "url": "https://www.techloy.com/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/2024/04/techloy-logo.png"
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Damilare Odedina",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w1200/2026/02/IMG_0713-copy-1.jpg",
+            "width": 1200,
+            "height": 1125
+        },
+        "url": "https://www.techloy.com/author/damilare/",
+        "sameAs": [
+            "https://www.linkedin.com/in/damilareodedina"
+        ]
+    },
+    "headline": "Sam Altman's OpenAI Town Hall: 8 Major Reveals on Pricing, Safety, and GPT-5",
+    "url": "https://www.techloy.com/sam-altmans-openai-town-hall-8-major-reveals-on-pricing-safety-and-gpt-5/",
+    "datePublished": "2026-01-27T07:58:33.000Z",
+    "dateModified": "2026-01-27T07:58:33.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w1200/2026/01/samaltman.jpeg",
+        "width": 1200,
+        "height": 800
+    },
+    "keywords": "/ Artificial Intelligence, OpenAI, Sam Altman",
+    "description": "CEO addresses pricing, hiring, safety risks, and product roadmap in session with AI builders",
+    "mainEntityOfPage": "https://www.techloy.com/sam-altmans-openai-town-hall-8-major-reveals-on-pricing-safety-and-gpt-5/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 6.70">
+    <link rel="alternate" type="application/rss+xml" title="Techloy" href="https://www.techloy.com/rss/">
+    <script defer src="https://cdn.jsdelivr.net/ghost/portal@~2.72/umd/portal.min.js" data-i18n="true" data-ghost="https://www.techloy.com/" data-key="48baca9dc6948e80a78d7bf0a1" data-api="https://techloy.ghost.io/ghost/api/content/" data-locale="en" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style><script async src="https://js.stripe.com/v3/"></script>
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.9/umd/sodo-search.min.js" data-key="48baca9dc6948e80a78d7bf0a1" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.9/umd/main.css" data-sodo-search="https://techloy.ghost.io/" data-locale="en" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/ghost/announcement-bar@~1.1/umd/announcement-bar.min.js" data-announcement-bar="https://www.techloy.com/" data-api-url="https://www.techloy.com/members/api/announcement/" crossorigin="anonymous"></script>
+    <link href="https://www.techloy.com/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=ShRHxgy4po8zN-Wf"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=WwnU9jw5ancNC8Gc">
+    <script defer src="/public/comment-counts.min.js?v=oFYkaGLdiMqB8VN9" data-ghost-comments-counts-api="https://www.techloy.com/members/api/comments/counts/"></script>
+    <script defer src="/public/member-attribution.min.js?v=AKG4hWena9j3yX3I"></script>
+    <script defer src="/public/ghost-stats.min.js?v=vFcCUf6ZQ0Hyhc8h" data-stringify-payload="false" data-datasource="analytics_events" data-storage="localStorage" data-host="https://www.techloy.com/.ghost/analytics/api/v1/page_hit"  tb_site_uuid="c1a6d111-d951-41ad-a392-c1e841210b93" tb_post_uuid="ce4ca5aa-c760-4be8-a67e-3583ee84604a" tb_post_type="post" tb_member_uuid="undefined" tb_member_status="undefined" tb_gift_link=""></script><style>:root {--ghost-accent-color: #FF0F1F;}</style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-24156733-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-24156733-1');
+</script>
+<!-- Global site tag (gtag.js) - Google Ads: 1018954711 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1018954711"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-1018954711');
+</script>
+<!-- Event snippet for Website traffic conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-1018954711/RFPtCLqAmu0bENeH8OUD'});
+</script>
+<head><meta name="google-adsense-account" content="ca-pub-5902188593238400"></head>
+
+<!-- Event snippet for Sign-up conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-1018954711/RFPtCLqAmu0bENeH8OUD',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+<!-- Twitter universal website tag code -->
+<script>
+!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+// Insert Twitter Pixel ID and Standard Event data below
+twq('init','o9br8');
+twq('track','PageView');
+</script>
+<!-- End Twitter universal website tag code -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-24156733-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-24156733-1');
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5902188593238400"
+     crossorigin="anonymous"></script>
+
+     <!-- Hotjar Tracking Code for https://www.techloy.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:5023422,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1018954711">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-1018954711');
+</script>
+<!-- Event snippet for Newsletter signup conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-1018954711/0QPXCJem6YoDENeH8OUD'});
+</script>
+<script>
+  (function (w,d,s,o,f,js,fjs) {
+      w['circleWidget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+      js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+      js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+  }(window, document, 'script', 'mw', 'https://community.techloy.com/external/widget.js'));
+
+  mw('init', {
+    community_public_uid: '51c859f3',
+    brand_color_dark: '#ff8210',
+    brand_color_light: '#ff8210',
+    default_appearance: 'light'
+  });
+
+  // Optional: pass in a default space slug and/or post slug
+  // mw('setDefaults', {
+  //   space_slug: '',
+  //   post_slug: ''
+  // });
+</script>
+<script type="text/javascript" src="https://app.viral-loops.com/widgetsV2/core/loader.js" data-campaign-id="2QkJcDXAQXJEYC5m6HX2SMdSymY" id="viral-loops-loader"></script>
+<style>
+  @media (min-width: 1025px) {
+  footer.footer .footer__container {
+    display: grid !important;
+    grid-template-columns: 1.3fr 1fr 0.8fr 1.4fr !important;
+    grid-template-areas: "meta nav links form" !important;
+    column-gap: 48px !important;
+    align-items: start !important;
+  }
+  footer.footer .footer__meta { grid-area: meta !important; }
+  footer.footer .footer-nav:not(.footer-nav--secondary) { grid-area: nav !important; }
+  footer.footer .footer-nav--secondary { grid-area: links !important; }
+  footer.footer .footer-form { grid-area: form !important; }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  footer.footer .footer__container {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 40px !important;
+  }
+}
+
+/* Make secondary links a vertical list like the tags */
+footer.footer .footer-nav--secondary,
+footer.footer .footer-nav--secondary ul {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  gap: 12px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+footer.footer .footer-nav--secondary li {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+footer.footer .footer-nav--secondary li::before,
+footer.footer .footer-nav--secondary li::marker {
+  content: none !important;
+  display: none !important;
+}
+footer.footer .footer-nav a,
+footer.footer .footer-nav--secondary a {
+  color: #929394 !important;
+}
+footer.footer .footer-nav a:hover,
+footer.footer .footer-nav--secondary a:hover {
+  color: #000000 !important;
+}
+  footer.footer .footer-form__title,
+footer.footer .footer-form__terms,
+footer.footer .footer-form__terms a,
+footer.footer .footer-form__success-title,
+footer.footer .footer-form__success-text {
+  color: #737373 !important;
+}
+footer.footer .footer-form__terms a:hover {
+  color: #000000 !important;
+}
+footer.footer .footer-form__input::placeholder {
+  color: #929394 !important;
+}
+  @media (max-width: 1024px) {
+  footer.footer nav.footer-nav--secondary {
+    padding-bottom: 32px !important;
+  }
+}
+  .form-page .form__terms,
+.form-page .form__terms p {
+  margin: 16px 0 0 !important;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #737373 !important;
+}
+.form-page .form__terms a {
+  color: #737373 !important;
+  text-decoration: underline;
+}
+.form-page .form__terms a:hover {
+  color: #000000 !important;
+}
+  </style>
+    <link rel="preconnect" href="https://fonts.bunny.net"><link rel="stylesheet" href="https://fonts.bunny.net/css?family=inter:400,500,600|poppins:400,500,600"><style>:root {--gh-font-heading: Inter;--gh-font-body: Poppins;}</style>
+    </head>
+
+    <body class="post-template tag-artificial-intelligence tag-openai tag-sam-altman gh-font-heading-inter gh-font-body-poppins theme-newsroom">
+        <div class="header__ad">
+    <!-- Billboard Top [async] -->
+    <script type="text/javascript">if (!window.AdButler){(function(){var s = document.createElement("script"); s.async = true; s.type = "text/javascript"; s.src = 'https://servedbyadbutler.com/app.js'; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(s, n);}());}</script>
+    <script type="text/javascript">
+    var AdButler = AdButler || {};
+    AdButler.ads = AdButler.ads || [];
+    var abkw = window.abkw || '';
+    var plc1198544 = window.plc1198544 || 0;
+    document.write('<'+'div id="placement_1198544_'+plc1198544+'"></'+'div>');
+    AdButler.ads.push({handler: function(opt){ AdButler.register(164273, 1198544, [970,250], 'placement_1198544_'+opt.place, opt); }, opt: { place: plc1198544++, keywords: abkw, domain: 'servedbyadbutler.com', click: 'CLICK_MACRO_PLACEHOLDER' }});
+    </script>
+</div><header class="header">
+    <div class="overlay"></div>
+    <div class="header__box">
+        <div class="header__container">
+            <div class="header__wrapper">
+                <button class="header-btn" data-mobile-menu="open">
+                    <span class="header-btn__icon-wrapper">
+                        <svg width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.440063 14V12.1368H11.5599V14H0.440063ZM0.440063 7.93178V6.06826H21.5599V7.93178H0.440063ZM0.440063 1.86322V1.52588e-05H21.5599V1.86322H0.440063Z" fill="#F20000"/>
+</svg>
+                        <svg width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.440063 14V12.1368H11.5599V14H0.440063ZM0.440063 7.93178V6.06826H21.5599V7.93178H0.440063ZM0.440063 1.86322V1.52588e-05H21.5599V1.86322H0.440063Z" fill="#F20000"/>
+</svg>
+                    </span>
+                </button>
+
+
+
+                        <button class="header-btn header-btn__burger" data-mobile-menu="open">
+                            <span class="header-btn__icon-wrapper">
+                                <svg width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.440063 14V12.1368H11.5599V14H0.440063ZM0.440063 7.93178V6.06826H21.5599V7.93178H0.440063ZM0.440063 1.86322V1.52588e-05H21.5599V1.86322H0.440063Z" fill="#F20000"/>
+</svg>
+                                <svg width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.440063 14V12.1368H11.5599V14H0.440063ZM0.440063 7.93178V6.06826H21.5599V7.93178H0.440063ZM0.440063 1.86322V1.52588e-05H21.5599V1.86322H0.440063Z" fill="#F20000"/>
+</svg>
+                            </span>
+                        </button>
+                        <a class="logo has-dark-version" href="https://www.techloy.com" aria-label="home page link">
+            <img class="logo__img logo__img--dark" src="https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/2026/04/techloy-logo--5--1.png" alt="Techloy icon">
+        <img class="logo__img logo__img--light" src="https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/2024/04/techloy-logo.png" alt="Techloy icon">
+</a>                    </div>
+
+                <div class="header-btns">
+    <button class="search-btn" title="Search button" aria-label="Search button" data-ghost-search>
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.0259 13.8473L18.5948 17.4163L17.4163 18.5948L13.8474 15.0258C12.5642 16.0525 10.9367 16.6667 9.16675 16.6667C5.02675 16.6667 1.66675 13.3067 1.66675 9.16667C1.66675 5.02667 5.02675 1.66667 9.16675 1.66667C13.3067 1.66667 16.6667 5.02667 16.6667 9.16667C16.6667 10.9367 16.0526 12.5641 15.0259 13.8473ZM13.354 13.229C14.373 12.1788 15.0001 10.7463 15.0001 9.16667C15.0001 5.94376 12.3897 3.33334 9.16675 3.33334C5.94383 3.33334 3.33341 5.94376 3.33341 9.16667C3.33341 12.3896 5.94383 15 9.16675 15C10.7464 15 12.1789 14.3729 13.2291 13.3539L13.354 13.229Z" fill="black"/>
+</svg>
+        <span class="search-btn__text">Search</span>
+    </button>
+
+        <button class="switch-theme-btn" data-switch-theme-btn aria-label="Switch theme mode toggle button">
+            <span class="switch-theme-btn__btn">
+                <svg class="dark-mode-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.33329 5.83334C8.33329 9.05501 10.945 11.6667 14.1666 11.6667C15.7986 11.6667 17.2741 10.9964 18.3329 9.91625C18.3333 9.94417 18.3333 9.97209 18.3333 10C18.3333 14.6023 14.6023 18.3333 9.99996 18.3333C5.39758 18.3333 1.66663 14.6023 1.66663 10C1.66663 5.39763 5.39758 1.66667 9.99996 1.66667C10.0279 1.66667 10.0558 1.66667 10.0837 1.66708C9.00354 2.72582 8.33329 4.20131 8.33329 5.83334ZM3.33329 10C3.33329 13.6819 6.31806 16.6667 9.99996 16.6667C12.5485 16.6667 14.7631 15.2366 15.885 13.1351C15.3287 13.2656 14.7529 13.3333 14.1666 13.3333C10.0245 13.3333 6.66663 9.97551 6.66663 5.83334C6.66663 5.24707 6.7344 4.67123 6.86488 4.11501C4.76338 5.23686 3.33329 7.45142 3.33329 10Z" fill="#585858"/>
+</svg>
+            </span>
+            <span class="switch-theme-btn__btn">
+                <svg class="light-mode-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.99992 15C7.23849 15 4.99992 12.7615 4.99992 10C4.99992 7.23862 7.23849 5.00004 9.99992 5.00004C12.7613 5.00004 14.9999 7.23862 14.9999 10C14.9999 12.7615 12.7613 15 9.99992 15ZM9.99992 13.3334C11.8408 13.3334 13.3333 11.841 13.3333 10C13.3333 8.15909 11.8408 6.66671 9.99992 6.66671C8.15897 6.66671 6.66658 8.15909 6.66658 10C6.66658 11.841 8.15897 13.3334 9.99992 13.3334ZM9.16658 0.833374H10.8333V3.33337H9.16658V0.833374ZM9.16658 16.6667H10.8333V19.1667H9.16658V16.6667ZM2.92885 4.10748L4.10736 2.92897L5.87513 4.69674L4.69662 5.87525L2.92885 4.10748ZM14.1247 15.3034L15.3033 14.1248L17.071 15.8926L15.8925 17.0711L14.1247 15.3034ZM15.8925 2.92897L17.071 4.10748L15.3033 5.87525L14.1247 4.69674L15.8925 2.92897ZM4.69662 14.1248L5.87513 15.3034L4.10736 17.0711L2.92885 15.8926L4.69662 14.1248ZM19.1666 9.16671V10.8334H16.6666V9.16671H19.1666ZM3.33325 9.16671V10.8334H0.833252V9.16671H3.33325Z" fill="black"/>
+</svg>
+            </span>
+        </button>
+    
+        <div class="header-account">
+                <button data-dropdown-elem="button" class="login-button" title="Sign up button" aria-label="Sign up button">
+                    <span class="login-button__text-wrapper">
+                        <span class="login-button__text">Sign Up</span>
+                        <span class="login-button__text">Sign Up</span>
+                    </span>
+                </button>
+                <aside data-dropdown-elem="dropdown" class="account-dropdown">
+    <picture class="account-dropdown__cover-img-wrapper account-dropdown__cover-img-wrapper--no-cover-img has-dark-version">
+                    <img class="logo__img logo__img--dark" src="https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/2026/04/techloy-logo--5--1.png" alt="Techloy icon">
+                <img class="logo__img logo__img--light" src="https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/2024/04/techloy-logo.png" alt="Techloy icon">
+    </picture>
+    <div class="account-dropdown__content">
+        <span class="account-dropdown__title">Create Your Account</span>
+        <p class="account-dropdown__description">Ready to access top news and insights?</p>
+        <a href="/signup" class="btn" title="Sign up button" aria-label="Sign up button">
+            <span class="btn__text-wrapper">
+                <span class="btn__text">Sign Up</span>
+                <span class="btn__text">Sign Up</span>
+            </span>
+        </a>
+        <div class="account-dropdown__text">
+            <span>Already have an account?</span>
+            <a href="https://www.techloy.com/signin" aria-label="Log In" class="account-dropdown__link">
+                <span class="account-dropdown__link-text">
+                    Log In 
+                </span>
+            </a>
+        </div>
+    </div>
+</aside>        </div>
+</div>            </div>
+        <div class="mobile-menu-container">
+    <div class="mobile-menu">
+        <div class="mobile-menu__header">
+            <button class="header-btn" data-mobile-menu="close">
+                <span class="header-btn__icon-wrapper">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.4 14L0 12.6L5.6 7L0 1.4L1.4 0L7 5.6L12.6 0L14 1.4L8.4 7L14 12.6L12.6 14L7 8.4L1.4 14Z" fill="#F20000"/>
+</svg>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.4 14L0 12.6L5.6 7L0 1.4L1.4 0L7 5.6L12.6 0L14 1.4L8.4 7L14 12.6L12.6 14L7 8.4L1.4 14Z" fill="#F20000"/>
+</svg>
+                </span>
+            </button>
+            <a class="logo has-dark-version" href="https://www.techloy.com" aria-label="home page link">
+            <img class="logo__img logo__img--dark" src="https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/2026/04/techloy-logo--5--1.png" alt="Techloy icon">
+        <img class="logo__img logo__img--light" src="https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/2024/04/techloy-logo.png" alt="Techloy icon">
+</a>            <button class="menu-switch-theme-btn" data-switch-theme-btn aria-label="Switch theme mode toggle button">
+                <span class="menu-switch-theme-btn__icons">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.48394 1.68238C8.26313 2.82306 7.50002 4.44741 7.50002 6.24999C7.50002 9.70175 10.2983 12.5 13.75 12.5C15.5526 12.5 17.1769 11.7369 18.3176 10.5161C18.0511 14.8781 14.4291 18.3333 10 18.3333C5.39765 18.3333 1.66669 14.6023 1.66669 10C1.66669 5.57095 5.12193 1.94891 9.48394 1.68238Z" fill="black"/>
+</svg>
+                    <svg class="light-mode-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.99992 15C7.23849 15 4.99992 12.7615 4.99992 10C4.99992 7.23862 7.23849 5.00004 9.99992 5.00004C12.7613 5.00004 14.9999 7.23862 14.9999 10C14.9999 12.7615 12.7613 15 9.99992 15ZM9.99992 13.3334C11.8408 13.3334 13.3333 11.841 13.3333 10C13.3333 8.15909 11.8408 6.66671 9.99992 6.66671C8.15897 6.66671 6.66658 8.15909 6.66658 10C6.66658 11.841 8.15897 13.3334 9.99992 13.3334ZM9.16658 0.833374H10.8333V3.33337H9.16658V0.833374ZM9.16658 16.6667H10.8333V19.1667H9.16658V16.6667ZM2.92885 4.10748L4.10736 2.92897L5.87513 4.69674L4.69662 5.87525L2.92885 4.10748ZM14.1247 15.3034L15.3033 14.1248L17.071 15.8926L15.8925 17.0711L14.1247 15.3034ZM15.8925 2.92897L17.071 4.10748L15.3033 5.87525L14.1247 4.69674L15.8925 2.92897ZM4.69662 14.1248L5.87513 15.3034L4.10736 17.0711L2.92885 15.8926L4.69662 14.1248ZM19.1666 9.16671V10.8334H16.6666V9.16671H19.1666ZM3.33325 9.16671V10.8334H0.833252V9.16671H3.33325Z" fill="black"/>
+</svg>
+                </span>
+            </button>
+
+            <div class="mobile-menu__login">
+                    <a href="/signin" class="header-btn" title="Sign in button" aria-label="Sign in button">
+                        <span class="header-btn__icon-wrapper">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.1206 18.1205C4.4234 17.2683 1.66675 13.9561 1.66675 10C1.66675 5.39763 5.39771 1.66667 10.0001 1.66667C14.6024 1.66667 18.3334 5.39763 18.3334 10C18.3334 13.9561 15.5767 17.2683 11.8796 18.1205L10.0001 20L8.1206 18.1205ZM5.84319 15.2139C6.60381 15.8217 7.50369 16.2679 8.495 16.4964L8.961 16.6038L10.0001 17.643L11.0392 16.6038L11.5052 16.4964C12.5622 16.2528 13.5153 15.7616 14.3064 15.0909C13.2472 14.0065 11.7688 13.3333 10.1332 13.3333C8.43658 13.3333 6.90911 14.0577 5.84319 15.2139ZM4.67976 14.0178C6.04711 12.5701 7.98463 11.6667 10.1332 11.6667C12.2034 11.6667 14.0777 12.5054 15.4347 13.8617C16.2137 12.7654 16.6667 11.4284 16.6667 10C16.6667 6.3181 13.682 3.33334 10.0001 3.33334C6.31818 3.33334 3.33341 6.3181 3.33341 10C3.33341 11.497 3.83098 12.8935 4.67976 14.0178ZM10.0001 10.8333C8.15913 10.8333 6.66675 9.34092 6.66675 7.5C6.66675 5.65905 8.15913 4.16667 10.0001 4.16667C11.841 4.16667 13.3334 5.65905 13.3334 7.5C13.3334 9.34092 11.841 10.8333 10.0001 10.8333ZM10.0001 9.16667C10.9206 9.16667 11.6667 8.4205 11.6667 7.5C11.6667 6.57953 10.9206 5.83334 10.0001 5.83334C9.07958 5.83334 8.33341 6.57953 8.33341 7.5C8.33341 8.4205 9.07958 9.16667 10.0001 9.16667Z" fill="#F20000"/>
+</svg>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.1206 18.1205C4.4234 17.2683 1.66675 13.9561 1.66675 10C1.66675 5.39763 5.39771 1.66667 10.0001 1.66667C14.6024 1.66667 18.3334 5.39763 18.3334 10C18.3334 13.9561 15.5767 17.2683 11.8796 18.1205L10.0001 20L8.1206 18.1205ZM5.84319 15.2139C6.60381 15.8217 7.50369 16.2679 8.495 16.4964L8.961 16.6038L10.0001 17.643L11.0392 16.6038L11.5052 16.4964C12.5622 16.2528 13.5153 15.7616 14.3064 15.0909C13.2472 14.0065 11.7688 13.3333 10.1332 13.3333C8.43658 13.3333 6.90911 14.0577 5.84319 15.2139ZM4.67976 14.0178C6.04711 12.5701 7.98463 11.6667 10.1332 11.6667C12.2034 11.6667 14.0777 12.5054 15.4347 13.8617C16.2137 12.7654 16.6667 11.4284 16.6667 10C16.6667 6.3181 13.682 3.33334 10.0001 3.33334C6.31818 3.33334 3.33341 6.3181 3.33341 10C3.33341 11.497 3.83098 12.8935 4.67976 14.0178ZM10.0001 10.8333C8.15913 10.8333 6.66675 9.34092 6.66675 7.5C6.66675 5.65905 8.15913 4.16667 10.0001 4.16667C11.841 4.16667 13.3334 5.65905 13.3334 7.5C13.3334 9.34092 11.841 10.8333 10.0001 10.8333ZM10.0001 9.16667C10.9206 9.16667 11.6667 8.4205 11.6667 7.5C11.6667 6.57953 10.9206 5.83334 10.0001 5.83334C9.07958 5.83334 8.33341 6.57953 8.33341 7.5C8.33341 8.4205 9.07958 9.16667 10.0001 9.16667Z" fill="#F20000"/>
+</svg>
+                        </span>
+                    </a>
+            </div>
+        </div>
+
+        <nav class="mobile-menu__menu">
+            <nav>
+    <ul class="mobile-nav">
+                <li class="mobile-nav-item">
+                    <a href="https://www.techloy.com/tag/news/" class="mobile-nav-item__link" aria-label="🗞️ News Navigation link">🗞️ News</a>
+                </li>
+                            <li class="mobile-nav-item">
+                    <a href="https://www.techloy.com/tag/products/" class="mobile-nav-item__link" aria-label="📱 Consumer Tech Navigation link">📱 Consumer Tech</a>
+                </li>
+                            <li class="mobile-nav-item">
+                    <a href="https://www.techloy.com/tag/startups/" class="mobile-nav-item__link" aria-label="🚀 Startups Navigation link">🚀 Startups</a>
+                </li>
+                            <li class="mobile-nav-item">
+                    <a href="https://www.techloy.com/tag/tech-guides/" class="mobile-nav-item__link" aria-label="🛠️ How-Tos Navigation link">🛠️ How-Tos</a>
+                </li>
+                            <li class="mobile-nav-item">
+                    <a href="https://www.techloy.com/tag/videos/" class="mobile-nav-item__link" aria-label="🎥 Videos Navigation link">🎥 Videos</a>
+                </li>
+                            <li class="mobile-nav-item">
+                    <a href="https://www.techloy.com/tag/entertainment/" class="mobile-nav-item__link" aria-label="🎮 Entertainment Navigation link">🎮 Entertainment</a>
+                </li>
+                            <li class="mobile-nav-item">
+                    <a href="https://www.techloy.com/tag/artificial-intelligence/" class="mobile-nav-item__link" aria-label="🤖 AI Navigation link">🤖 AI</a>
+                </li>
+                            <li class="mobile-nav-item">
+                    <a href="https://www.techloy.com/tag/careers/" class="mobile-nav-item__link" aria-label="💼 Career Guide Navigation link">💼 Career Guide</a>
+                </li>
+                            <li class="mobile-nav-item">
+                    <a href="https://www.techloy.com/tag/insights/" class="mobile-nav-item__link" aria-label="📊 Insights Navigation link">📊 Insights</a>
+                </li>
+                            <li class="mobile-nav-item">
+                    <a href="https://www.techloy.com/tag/newsletter/" class="mobile-nav-item__link" aria-label="💌 Newsletter Navigation link">💌 Newsletter</a>
+                </li>
+                </ul>
+</nav>
+
+        </nav>
+
+        <div class="mobile-menu__bottom">
+            <form class="mobile-menu__form" data-members-form="subscribe" data-members-autoredirect="false">
+                <h2 class="mobile-menu__form-title">
+                    Go beyond the news. Get the insights.
+                </h2>
+                <input autocomplete="off" class="mobile-menu__form-input" data-members-email type="email" name="email-input" id="subscribe-banner-email-input" placeholder="Enter your email" aria-label="Your email address" required>
+                    <button type="submit" aria-label="Subscribe" class="btn ">
+        <span class="btn__text-wrapper">
+            <span class="btn__text">Subscribe</span>
+            <span class="btn__text">Subscribe</span>
+        </span>
+        <svg class="loader-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    style="background: none; shape-rendering: auto;" width="25px" height="25px" viewBox="0 0 100 100"
+    preserveAspectRatio="xMidYMid">
+    <circle cx="50" cy="50" fill="none" stroke="var(--accent-color)" stroke-width="10" r="37"
+        stroke-dasharray="174.35839227423352 60.119464091411174">
+        <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1s"
+            values="0 50 50;360 50 50" keyTimes="0;1" />
+    </circle>
+</svg>    </button>
+
+                <p class="mobile-menu__form-error" data-members-error></p>
+                    <div class="mobile-menu__form-terms"><p dir="ltr"><span>By signing up, I agree to the </span><a href="https://www.techloy.com/terms/"><span>terms of service</span></a><span> and </span><a href="https://www.techloy.com/community/"><span>community guidelines</span></a><span>.</span></p></div>
+                <div class="mobile-menu__form-success">
+                    <h4 class="mobile-menu__form-success-title">
+                        Success! Now check your email
+                    </h4>
+                    <p class="mobile-menu__form-success-text">
+                        To complete your subscription, click the confirmation link in your inbox. If
+                        it doesn’t arrive within 3 minutes, kindly check your spam folder.
+                    </p>
+                </div>
+            </form>
+            <div class="mobile-menu__socials">
+                <span class="mobile-menu__socials-text">Follow Us</span>
+                <div class="socials">
+  <div class="footer-social">
+  <a href="https://www.facebook.com/techloy" aria-label="Facebook" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.99 3.66 9.13 8.44 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99C18.34 21.13 22 16.99 22 12z"/></svg>
+  </a>
+  <a href="https://x.com/techloy" aria-label="X" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M18.9 1.5h3.68l-8.04 9.19L24 22.5h-7.4l-5.8-7.58-6.64 7.58H.48l8.6-9.83L0 1.5h7.59l5.24 6.93L18.9 1.5zm-1.29 18.8h2.04L6.48 3.6H4.29L17.61 20.3z"/></svg>
+  </a>
+  <a href="https://www.instagram.com/techloy" aria-label="Instagram" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 01-1.38-.9 3.7 3.7 0 01-.9-1.38c-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16zm0 3.68A6.16 6.16 0 1018.16 12 6.16 6.16 0 0012 5.84zm0 10.16A4 4 0 1116 12a4 4 0 01-4 4zm6.4-10.4a1.44 1.44 0 11-1.44-1.44 1.44 1.44 0 011.44 1.44z"/></svg>
+  </a>
+  <a href="https://www.linkedin.com/company/techloy" aria-label="LinkedIn" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 112.06-2.07 2.06 2.06 0 01-2.06 2.07zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.8 0 0 .78 0 1.74v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.74C24 .78 23.2 0 22.22 0z"/></svg>
+  </a>
+  <a href="https://www.tiktok.com/@techloy" aria-label="TikTok" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64c.3 0 .59.04.87.13V9.4a6.33 6.33 0 00-1-.08A6.34 6.34 0 005.79 20.5a6.34 6.34 0 0010.4-4.9v-6.9a8.16 8.16 0 004.76 1.52v-3.4a4.85 4.85 0 01-1.36-.13z"/></svg>
+  </a>
+  <a href="https://www.youtube.com/@techloy" aria-label="YouTube" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M23.5 6.19a3.02 3.02 0 00-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.5A3.02 3.02 0 00.5 6.19C0 8.08 0 12 0 12s0 3.92.5 5.81a3.02 3.02 0 002.12 2.14c1.88.5 9.38.5 9.38.5s7.5 0 9.38-.5a3.02 3.02 0 002.12-2.14C24 15.92 24 12 24 12s0-3.92-.5-5.81zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg>
+  </a>
+</div>
+</div>            </div>
+        </div>
+    </div>
+    <div class="mobile-menu-overlay"></div>
+</div>    </div>
+        <div class="progress-bar">
+            <progress class="reading-progress" value="0" max="100" aria-label="Reading progress"></progress>
+        </div>
+</header>
+
+
+        
+    <main class="post-page">
+        <nav>
+    <ul class="breadcrumbs post-page__breadcrumbs">
+        <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="https://www.techloy.com" aria-label="Home page link">Home</a></li>
+                <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="https://www.techloy.com/tag/artificial-intelligence/" aria-label="/ Artificial Intelligence Page link">/ Artificial Intelligence</a></li>
+            <li class="breadcrumbs__item">Sam Altman&#x27;s OpenAI Town Hall: 8 Major Reveals on Pricing, Safety, and GPT-5</li>
+
+
+
+    </ul>
+</nav>        <div class="post-page__wrapper post-page__wrapper--default">
+            <article class="post post--default sam-altmans-openai-town-hall-8-major-reveals-on-pricing-safety-and-gpt-5 artificial-intelligence">
+                <header class="post-header post-header--default">
+         
+            <div class="post-tags">
+
+            <a class="post-tag post-tag--artificial-intelligence" href="/tag/artificial-intelligence/" aria-label="/ Artificial Intelligence tag">
+                <span class="post-tag__name-wrapper">
+                    <span class="post-tag__name">/ Artificial Intelligence</span>
+                    <span class="post-tag__name">/ Artificial Intelligence</span>
+                </span>
+            </a>
+
+
+            <a class="post-tag post-tag--openai" href="/tag/openai/" aria-label="OpenAI tag">
+                <span class="post-tag__name-wrapper">
+                    <span class="post-tag__name">OpenAI</span>
+                    <span class="post-tag__name">OpenAI</span>
+                </span>
+            </a>
+
+
+            <a class="post-tag post-tag--sam-altman" href="/tag/sam-altman/" aria-label="Sam Altman tag">
+                <span class="post-tag__name-wrapper">
+                    <span class="post-tag__name">Sam Altman</span>
+                    <span class="post-tag__name">Sam Altman</span>
+                </span>
+            </a>
+
+            </div>
+
+         <h1 class="post-header__title">
+            <span>Sam Altman&#x27;s OpenAI Town Hall: 8 Major Reveals on Pricing, Safety, and GPT-5</span>
+         </h1>
+
+            <p class="post-header__excerpt">
+               CEO addresses pricing, hiring, safety risks, and product roadmap in session with AI builders
+            </p>
+
+         <div class="post-header__meta">
+            
+
+            <time class="post-header__date" datetime="2026-01-27">
+               Jan 27, 2026
+            </time> 
+
+                    <div class="post-card-author">
+                            <a class="post-card-author__img-link" href="/author/damilare/" aria-label="Link to page author Damilare Odedina">
+                                <picture class="post-card-author__img-wrapper">
+                                    <source 
+                                        srcset="
+                                        https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w100/format/webp/2026/02/IMG_0713-copy-1.jpg 100w"
+                                        sizes="34px"  
+                                        type="image/webp">
+                                    <img 
+                                        srcset="
+                                        https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w100/2026/02/IMG_0713-copy-1.jpg 100w"
+                                        sizes="34px" 
+                                        src="https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/2026/02/IMG_0713-copy-1.jpg"
+                                        class="post-card-author__img" 
+                                        alt="Damilare Odedina Profile image">
+                                </picture>
+                            </a>
+
+                        <div class="post-card-author__name-wrapper">
+                            <span class="post-card-author__name-prefix post-card-author__name-prefix--default-post">by</span>  
+                            <a href="/author/damilare/" class="post-card-author__name post-card-author__name--default-post" aria-label="Link to page author Damilare Odedina">
+                                Damilare Odedina
+                            </a>
+                        </div>
+                    </div>
+
+            <script
+    data-ghost-comment-count="6978648823e57a0001541c19"
+    data-ghost-comment-count-empty=""
+    data-ghost-comment-count-singular=""
+    data-ghost-comment-count-plural=""
+    data-ghost-comment-count-tag="span"
+    data-ghost-comment-count-class-name="post-comment-count"
+    data-ghost-comment-count-autowrap="true"
+>
+</script>
+         </div>
+
+        <div class="post-header__img-wrapper">
+            <picture>
+                <source srcset="
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w2000/format/webp/2026/01/samaltman.jpeg 2000w, 
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w1600/format/webp/2026/01/samaltman.jpeg 1600w, 
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w1200/format/webp/2026/01/samaltman.jpeg 1200w, 
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w960/format/webp/2026/01/samaltman.jpeg 960w, 
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w720/format/webp/2026/01/samaltman.jpeg 720w, 
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w480/format/webp/2026/01/samaltman.jpeg 480w, 
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w400/format/webp/2026/01/samaltman.jpeg 400w"
+                    sizes="(max-width: 900px) 96vw, 822px" type="image/webp">
+                <img class="post-header__img" srcset="
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w2000/2026/01/samaltman.jpeg 2000w,
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w1600/2026/01/samaltman.jpeg 1600w,
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w1200/2026/01/samaltman.jpeg 1200w, 
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w960/2026/01/samaltman.jpeg 960w, 
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w720/2026/01/samaltman.jpeg 720w, 
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w480/2026/01/samaltman.jpeg 480w, 
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w400/2026/01/samaltman.jpeg 400w"
+                    sizes="(max-width: 900px) 96vw, 822px" src="https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w2000/2026/01/samaltman.jpeg" alt="Sam Altman&#x27;s OpenAI Town Hall: 8 Major Reveals on Pricing, Safety, and GPT-5 Post image" />
+            </picture>
+        </div>
+</header>                <div class="post-content">
+                  <center><div id="elevenlabs-audionative-widget" data-height="90" data-width="100%" data-frameborder="no" data-scrolling="no" data-publicuserid="ffd959746ef2243e9a2b1019633fe7bcf360c9a7ecbdccf62af6107f261b5c0a" data-playerurl="https://elevenlabs.io/player/index.html" >Loading the <a href="https://elevenlabs.io/text-to-speech" target="_blank" rel="noopener">Elevenlabs Text to Speech</a> AudioNative Player...</div><script src="https://elevenlabs.io/player/audioNativeHelper.js" type="text/javascript"></script></center>
+                    <p><a href="https://www.techloy.com/tag/openai/">OpenAI</a>&nbsp;CEO Sam Altman held a town hall with developers covering the company’s direction over the next two years. The session held yesterday included specific commitments on pricing, frank admissions about product shortcomings, and warnings about AI risks.</p><p>Here are some of the major announcements he made:</p><h2 id="1-ai-costs-dropping-at-least-100x-by-end-of-2027">1. AI costs dropping "at least 100x" by end of 2027</h2><p>Altman stated&nbsp;<a href="https://www.techloy.com/tag/openai/">OpenAI</a>&nbsp;expects to deliver “GPT 5.2x level intelligence by the end of 2027 for at least 100x less” than current pricing.</p><p>He acknowledged a tradeoff between cost and speed. “We have not thought as much about how we deliver the output…in 1/100th of the time,” Altman said, noting that some users will prioritize faster delivery over lower costs.</p><h2 id="2-openai-%E2%80%9Cdramatically%E2%80%9D-slowing-hiring-growth">2. OpenAI “dramatically” slowing hiring growth</h2><p>The company plans to “dramatically slow down how quickly we grow” its workforce, Altman told attendees.</p><p>His explanation: “We think we’ll be able to do so much more with fewer people.”</p><p><a href="https://www.techloy.com/tag/openai/">OpenAI</a>&nbsp;will continue hiring but at a more measured pace. Altman said the approach aims to avoid aggressive expansion followed by layoffs.</p><h2 id="3-bio-risk-identified-as-top-2026-safety-concern">3. Bio-risk identified as top 2026 safety concern</h2><p>When asked what could go “visibly really wrong” with AI this year, Altman pointed to biological security.</p><p>“If something goes really wrong…I think bio would be a reasonable bet for what that could be,” he said.</p><p>Altman stated that AI models are already “quite good at bio” and current safety approaches restricting access and blocking requests won’t scale much longer. He called for a shift “from one of blocking to one of resilience,” comparing it to how fire safety evolved from restricting fire to developing fire codes.</p><p>AI will be “a real problem for bioteterrorism” and cybersecurity, Altman said, while noting AI can also help build defenses through “a societywide effort.”</p><h2 id="4-memory-and-personalization-getting-major-push">4. Memory and personalization getting major push</h2><p>Altman committed to pushing “super hard on memory and personalization” based on user demand.</p><p>He said he’s personally ready for&nbsp;<a href="https://www.techloy.com/tag/chatgpt/">ChatGPT</a>&nbsp;to “just look at my whole computer and my whole internet and just know everything,” though he emphasized security and privacy concerns.</p><p>The stated goal: AI that develops “such a deep understanding of the complex rules and interactions…of my life that it knows what to use when and what to expose where.”</p><figure class="kg-card kg-embed-card"><iframe width="200" height="113" src="https://www.youtube.com/embed/Wpxv-8nG8ec?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" title="OpenAI Town Hall with Sam Altman"></iframe></figure><h2 id="5-%E2%80%9Csign-in-with-chatgpt%E2%80%9D-feature-coming">5. “Sign in with ChatGPT” feature coming</h2><p>When asked about authentication integration, Altman confirmed&nbsp;<a href="https://www.techloy.com/tag/openai/">OpenAI</a>&nbsp;will build a “sign in with ChatGPT” feature.</p><p>He said the company is figuring out how to handle it safely, particularly around sharing user information across services. “We really don’t want to screw that up,” Altman noted.</p><p>The feature will at minimum include token budgets and model access. Information sharing across connected services requires more work on safety guardrails.</p><h2 id="6-interview-process-changing-to-test-ai-assisted-work">6. Interview process changing to test AI-assisted work</h2><p>Altman described planned changes to&nbsp;<a href="https://www.techloy.com/tag/openai/">OpenAI</a>’s hiring process.</p><p>“We basically would like to sit you down with something that would have been impossible for one person to do in two weeks…this time last year and watch them do it in 10 minutes or 20 minutes,” he explained.</p><p>The goal is testing candidates’ ability to work effectively with AI tools rather than traditional coding interviews, which Altman called “even less relevant” than before.</p><h2 id="7-admitting-gpt-5%E2%80%99s-writing-quality-issues">7. Admitting GPT-5’s writing quality issues</h2><p>When a developer raised concerns about GPT-5’s writing being “unwieldy, hard to read” compared to GPT-4.5, Altman responded directly: “I think we just screwed that up.”</p><p>He said&nbsp;<a href="https://www.techloy.com/tag/openai/">OpenAI</a>&nbsp;focused effort in version 5.2 on “making it super good at intelligence, reasoning, coding, engineering” and “neglected” other areas due to “limited bandwidth.”</p><p>Altman stated future GPT 5.x versions should be “much better at writing than 4.5 was” and committed to excelling “in all of these dimensions.”</p><h2 id="8-software-engineering-%E2%80%9Cis-going-to-super-change%E2%80%9D">8. Software engineering “is going to super change”</h2><p>On AI’s impact on programming jobs, Altman stated: “What it means to be an engineer is going to super change.”</p><p>He said “there will be probably far more people creating far more value…getting computers to do what they want” and that “demand for software seems to not be slowing down at all.”</p><p>The shape of the work will shift, with less time “typing code or debugging code” and more focus on other aspects of getting computers to perform tasks.</p><figure class="kg-card kg-bookmark-card"><a class="kg-bookmark-container" href="https://www.techloy.com/the-elon-musk-vs-sam-altman-openai-feud-explained-timeline-of-the-134b-lawsuit/"><div class="kg-bookmark-content"><div class="kg-bookmark-title">The Elon Musk vs Sam Altman OpenAI Feud Explained: Timeline of the $134B Lawsuit</div><div class="kg-bookmark-description">From co-founders with a shared vision to courtroom adversaries trading public accusations over user safety—here’s how Silicon Valley’s biggest AI partnership collapsed.</div><div class="kg-bookmark-metadata"><img class="kg-bookmark-icon" src="https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/icon/techloy-avatar-1-5661.png" alt=""><span class="kg-bookmark-author">Techloy</span><span class="kg-bookmark-publisher">Damilare Odedina</span></div></div><div class="kg-bookmark-thumbnail"><img src="https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/thumbnail/125052097.png" alt="" onerror="this.style.display = 'none'"></div></a></figure>
+                  <!-- ============================================================
+     CENTERED SCROLL MODAL — Techloy signup form
+     Paste this whole block into your article HTML.
+
+     - Fires once the reader scrolls past ~35% of the page.
+     - Shows on EVERY page load (no persistent dismissal).
+     - Only shows to logged-OUT visitors (Ghost members are skipped).
+     - Closes via the X, clicking outside the box, or Esc.
+     ============================================================ -->
+
+<style>
+  .tl-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.20);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .35s ease, visibility .35s ease;
+  }
+  .tl-overlay.is-visible { opacity: 1; visibility: visible; }
+  .tl-overlay.is-dismissed { display: none; }
+
+  .tl-modal {
+    position: relative;
+    width: min(440px, 100%);
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 30px 80px rgba(0,0,0,0.45);
+    padding: 20px 20px 18px;
+    transform: scale(.92) translateY(12px);
+    transition: transform .35s cubic-bezier(.22,1,.36,1);
+  }
+  .tl-overlay.is-visible .tl-modal { transform: scale(1) translateY(0); }
+
+  .tl-modal__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.08);
+    color: #000;
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background .2s ease;
+    z-index: 1;
+  }
+  .tl-modal__close:hover { background: rgba(0,0,0,0.18); }
+
+  .tl-overlay .tl-modal p.tl-modal__disclaimer {
+    margin: 10px 4px 0;
+    font-size: 10px !important;
+    line-height: 1.4 !important;
+    color: #929394 !important;
+    text-align: center;
+    font-family: inherit;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+  }
+</style>
+
+<div class="tl-overlay" id="tlOverlay">
+  <div class="tl-modal" role="dialog" aria-modal="true" aria-label="Newsletter signup">
+    <button class="tl-modal__close" id="tlModalClose" aria-label="Close">&times;</button>
+
+    <!-- Your original Ghost signup form -->
+    <div style="height: 40vmin;min-height: 360px">
+      <script src="https://cdn.jsdelivr.net/ghost/signup-form@~0.3/umd/signup-form.min.js"
+        data-background-color="#ffffff"
+        data-text-color="#000000"
+        data-button-color="#FF0F1F"
+        data-button-text-color="#FFFFFF"
+        data-title="Subscribe to Techloy.com"
+        data-description="Get the latest updates and insights about AI, consumer tech, gaming, and the products shaping modern life. JOIN FREE."
+        data-icon="https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w192h192/2023/07/techloy-avatar-1.png"
+        data-site="https://www.techloy.com/"
+        data-locale="en" async></script>
+    </div>
+
+    <p class="tl-modal__disclaimer">
+      By subscribing, you agree to receive emails from Techloy. You can unsubscribe at any time.
+    </p>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var overlay  = document.getElementById('tlOverlay');
+    var closeBtn = document.getElementById('tlModalClose');
+
+    // Move the overlay out to <body> so `position: fixed` always anchors to the
+    // viewport, even if a theme wrapper has a transform/filter set on it.
+    if (overlay.parentNode !== document.body) {
+      document.body.appendChild(overlay);
+    }
+
+    var TRIGGER = 0.35;             // scroll depth before it can appear
+    var MEMBERS_API = 'https://www.techloy.com/members/api/member/';
+
+    var dismissed = false;
+    var shown = false;
+    var allowed = false;            // true only once we know the visitor is logged out
+
+    // ---- Is this a logged-in Ghost member? ----
+    // Ghost returns 200 + member JSON when signed in, 204 (empty) when not.
+    function checkVisitor() {
+      fetch(MEMBERS_API, { credentials: 'include' })
+        .then(function (res) {
+          if (res.status === 204) return null;   // logged out
+          if (!res.ok) return null;              // treat errors as logged out
+          return res.json().catch(function () { return null; });
+        })
+        .then(function (member) {
+          if (!member) { allowed = true; onScroll(); }
+        })
+        .catch(function () {                      // network/CORS failure → treat as visitor
+          allowed = true; onScroll();
+        });
+    }
+
+    function show() {
+      overlay.classList.add('is-visible');
+      document.body.style.overflow = 'hidden';
+      shown = true;
+    }
+
+    function dismiss() {
+      dismissed = true;
+      overlay.classList.remove('is-visible');
+      document.body.style.overflow = '';
+      setTimeout(function () { overlay.classList.add('is-dismissed'); }, 350);
+    }
+
+    function onScroll() {
+      if (!allowed || dismissed || shown) return;
+      var scrollTop = window.scrollY || document.documentElement.scrollTop;
+      var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      var progress = docHeight > 0 ? scrollTop / docHeight : 0;
+      if (progress >= TRIGGER) show();
+    }
+
+    closeBtn.addEventListener('click', dismiss);
+
+    // Click anywhere outside the white box closes it
+    overlay.addEventListener('click', function (e) { if (e.target === overlay) dismiss(); });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && overlay.classList.contains('is-visible')) dismiss();
+    });
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+
+    checkVisitor();
+  })();
+</script>
+                </div>
+                <div class="post-footer">
+    <div class="post-footer__info">
+        
+            <div class="post-tags">
+
+            <a class="post-tag post-tag--artificial-intelligence" href="/tag/artificial-intelligence/" aria-label="/ Artificial Intelligence tag">
+                <span class="post-tag__name-wrapper">
+                    <span class="post-tag__name">/ Artificial Intelligence</span>
+                    <span class="post-tag__name">/ Artificial Intelligence</span>
+                </span>
+            </a>
+
+
+            <a class="post-tag post-tag--openai" href="/tag/openai/" aria-label="OpenAI tag">
+                <span class="post-tag__name-wrapper">
+                    <span class="post-tag__name">OpenAI</span>
+                    <span class="post-tag__name">OpenAI</span>
+                </span>
+            </a>
+
+
+            <a class="post-tag post-tag--sam-altman" href="/tag/sam-altman/" aria-label="Sam Altman tag">
+                <span class="post-tag__name-wrapper">
+                    <span class="post-tag__name">Sam Altman</span>
+                    <span class="post-tag__name">Sam Altman</span>
+                </span>
+            </a>
+
+            </div>
+        <div class="post-footer__meta">
+            
+
+            <time class="post-header__date" datetime="2026-01-27">
+                Jan 27, 2026
+            </time> 
+
+                <div class="post-card-author">
+                        <picture class="post-card-author__img-wrapper">
+                            <source 
+                                srcset="
+                                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w100/format/webp/2026/02/IMG_0713-copy-1.jpg 100w"
+                                sizes="34px"  
+                                type="image/webp">
+                            <img 
+                                srcset="
+                                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w100/2026/02/IMG_0713-copy-1.jpg 100w"
+                                sizes="34px" 
+                                src="https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/2026/02/IMG_0713-copy-1.jpg"
+                                class="post-card-author__img" 
+                                alt="Damilare Odedina Profile image">
+                        </picture>
+
+                    <div class="post-card-author__name-wrapper">
+                        <span class="post-card-author__name-prefix post-card-author__name-prefix--default-post">by</span>  
+                        <a href="/author/damilare/" class="post-card-author__name post-card-author__name--default-post" aria-label="Link to page author Damilare Odedina">
+                            Damilare Odedina
+                        </a>
+                    </div>
+                </div>
+
+        <script
+    data-ghost-comment-count="6978648823e57a0001541c19"
+    data-ghost-comment-count-empty=""
+    data-ghost-comment-count-singular=""
+    data-ghost-comment-count-plural="comments"
+    data-ghost-comment-count-tag="span"
+    data-ghost-comment-count-class-name="post-comment-count"
+    data-ghost-comment-count-autowrap="true"
+>
+</script>
+        </div>
+    </div>
+
+    <div class="post-footer__share">
+        <div class="post-footer__share-wrapper">
+            <div class="post-footer__share-info">
+                <h4 class="post-footer__share-title">Did you enjoy this story?</h4>
+                <p class="post-footer__share-description">Share it with others and make quality stories reach more people.</p>
+            </div>
+        </div>
+
+        <div class="post-footer__share-btns">
+            <a class="share-btn"
+                href="https://www.facebook.com/sharer.php?u=https://www.techloy.com/sam-altmans-openai-town-hall-8-major-reveals-on-pricing-safety-and-gpt-5/" target="_blank" rel="noopener"
+                aria-label="Share on Facebook">
+                 <svg class="facebook-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47062 14 5.5 16 5.5H17.5V2.1401C17.1743 2.09685 15.943 2 14.6429 2C11.9284 2 10 3.65686 10 6.69971V9.5H7V13.5H10V22H14V13.5Z" fill="black"/>
+</svg>
+            </a>
+            <a class="share-btn"
+                href="https://twitter.com/intent/tweet?url=https://www.techloy.com/sam-altmans-openai-town-hall-8-major-reveals-on-pricing-safety-and-gpt-5/&amp;text=Sam%20Altman's%20OpenAI%20Town%20Hall%3A%208%20Major%20Reveals%20on%20Pricing%2C%20Safety%2C%20and%20GPT-5" target="_blank"
+                rel="noopener" aria-label="Share on Twitter">
+                 <svg class="twitter-icon" width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.22224 0.111404H1.52588e-05L7.343 9.90207L0.399971 17.8891H2.75555L8.43406 11.3567L13.3333 17.8892H19.5556L11.9037 7.68678L18.489 0.111404H16.1334L10.8127 6.2321L6.22224 0.111404ZM14.2222 16.1114L3.55557 1.88918H5.33335L16 16.1114H14.2222Z" fill="black"/>
+</svg>
+            </a>
+            <a class="share-btn"
+                href="https://reddit.com/submit?url=https://www.techloy.com/sam-altmans-openai-town-hall-8-major-reveals-on-pricing-safety-and-gpt-5/&amp;media=&amp;description=Sam%20Altman's%20OpenAI%20Town%20Hall%3A%208%20Major%20Reveals%20on%20Pricing%2C%20Safety%2C%20and%20GPT-5"
+                target="_blank" rel="noopener" data-pin-do="none" aria-label="Share on Reddit">
+                <svg width="27" height="23" viewBox="0 0 27 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M26.0932 11.6712C26.0971 11.9357 26.064 12.1998 25.9939 12.4551C25.9237 12.7105 25.8176 12.9553 25.6783 13.1812C25.5395 13.4071 25.369 13.6127 25.1722 13.7918C24.9755 13.9709 24.7544 14.1216 24.5152 14.2393C24.5206 14.3098 24.525 14.3808 24.5274 14.4518C24.5333 14.5933 24.5333 14.735 24.5274 14.8766C24.525 14.9475 24.5206 15.0185 24.5152 15.089C24.5152 19.4143 19.4305 22.9287 13.1574 22.9287C6.88429 22.9287 1.79957 19.4143 1.79957 15.089C1.79422 15.0185 1.78983 14.9475 1.7874 14.8766C1.78153 14.735 1.78153 14.5933 1.7874 14.4518C1.78983 14.3808 1.79422 14.3098 1.79957 14.2393C1.42492 14.0687 1.09216 13.8193 0.824316 13.5086C0.556475 13.1978 0.359951 12.8331 0.248344 12.4397C0.136924 12.0461 0.113189 11.6332 0.178787 11.2295C0.244384 10.8259 0.397744 10.4413 0.628237 10.1023C0.858528 9.76329 1.16047 9.47805 1.51311 9.26631C1.86575 9.05458 2.26065 8.92143 2.6704 8.8761C3.08021 8.83057 3.4951 8.87391 3.88633 9.00311C4.27756 9.13231 4.63577 9.34429 4.93612 9.62435C5.49371 9.24976 6.0779 8.91563 6.68412 8.62459C7.29049 8.33398 7.91731 8.08682 8.55972 7.886C9.20212 7.68518 9.85866 7.53118 10.5235 7.4245C11.1883 7.31781 11.8604 7.2594 12.534 7.24926L13.9756 0.548824C13.9917 0.471103 14.0234 0.397726 14.0686 0.332074C14.1135 0.266904 14.1714 0.210906 14.2381 0.167942C14.3054 0.124978 14.3804 0.0955308 14.4593 0.0810485C14.5377 0.0670491 14.6185 0.0684971 14.6964 0.085393L19.4695 1.03156C19.9511 0.211389 20.9622 -0.140047 21.855 0.201734C22.7477 0.543514 23.2582 1.47762 23.0585 2.40544C22.8593 3.33327 22.0089 3.98014 21.0533 3.93139C20.0973 3.88263 19.3185 3.15273 19.2162 2.20945L15.0471 1.34052L13.7808 7.36512C14.4461 7.37912 15.1099 7.44091 15.7665 7.54953C17.0812 7.76675 18.3574 8.17095 19.5557 8.74962C20.1541 9.0383 20.7308 9.36935 21.2813 9.7402C21.677 9.36357 22.1744 9.10856 22.7132 9.00596C23.252 8.90299 23.8093 8.95681 24.318 9.16092C24.8266 9.36492 25.2649 9.71046 25.5799 10.1558C25.895 10.6013 26.0732 11.1275 26.0932 11.6712ZM6.75961 14.3412C6.85799 14.5753 7.00118 14.7882 7.18236 14.9673C7.36305 15.1469 7.57784 15.2888 7.81405 15.3863C8.05049 15.4833 8.30386 15.5331 8.55972 15.5331C9.34775 15.5331 10.0579 15.0624 10.3598 14.3412C10.6613 13.6195 10.4942 12.7892 9.93707 12.2369C9.3799 11.6847 8.54218 11.5191 7.81405 11.8179C7.08641 12.1172 6.61155 12.8211 6.61155 13.6021C6.61155 13.8556 6.66171 14.1066 6.75961 14.3412ZM17.9177 18.9765C18.0176 18.8799 18.0746 18.7481 18.0765 18.6101C18.0785 18.4715 18.0244 18.3383 17.927 18.2393C17.8296 18.1404 17.6966 18.0839 17.5573 18.082C17.4176 18.08 17.2831 18.1336 17.1706 18.2171C16.8777 18.4254 16.5675 18.6087 16.2433 18.765C15.9191 18.9215 15.5822 19.0505 15.2361 19.1507C14.8903 19.2507 14.5362 19.3216 14.1782 19.3627C13.8198 19.4037 13.4589 19.4143 13.0989 19.395C12.7395 19.4109 12.3791 19.3965 12.0221 19.3521C11.665 19.3081 11.3124 19.2338 10.9681 19.13C10.6233 19.0267 10.2887 18.8944 9.96678 18.7351C9.64485 18.5758 9.33704 18.3895 9.04676 18.1785C8.94594 18.0964 8.81785 18.0544 8.68732 18.0607C8.5568 18.067 8.43357 18.1215 8.34103 18.2128C8.24898 18.3045 8.19395 18.4266 8.18762 18.556C8.18128 18.6854 8.22366 18.8123 8.30646 18.9123C8.64885 19.1681 9.01267 19.3941 9.39402 19.5881C9.77537 19.7822 10.1733 19.9429 10.5824 20.0694C10.9915 20.1959 11.4109 20.2871 11.836 20.3426C12.2612 20.3977 12.6903 20.4165 13.1184 20.3991C13.5465 20.4165 13.9756 20.3977 14.4008 20.3426C15.2524 20.2316 16.0784 19.9764 16.8428 19.5881C17.2242 19.3941 17.588 19.1681 17.9304 18.9123L17.9177 18.9765ZM17.5603 15.6876C17.8242 15.6905 18.0863 15.6398 18.3303 15.5394C18.5743 15.4385 18.7949 15.2898 18.979 15.102C19.1631 14.9142 19.3063 14.6912 19.4008 14.4464C19.4953 14.202 19.5386 13.941 19.5279 13.6794C19.5279 12.8983 19.053 12.1945 18.3254 11.8952C17.5973 11.5963 16.7596 11.7619 16.2024 12.3142C15.6452 12.8664 15.4781 13.6967 15.7796 14.4184C16.0816 15.1397 16.7917 15.6103 17.5797 15.6103L17.5603 15.6876Z" fill="black"/>
+</svg>
+            </a>
+            <button class="share-btn copyToClipboardBtn" aria-label="Copy to clipboard button">
+                <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.0792 6.54303L12.5181 7.98192C15.2995 10.7634 15.2995 15.2728 12.5181 18.0543L12.1584 18.4139C9.37696 21.1954 4.86744 21.1954 2.08604 18.4139C-0.695348 15.6326 -0.695348 11.123 2.08604 8.34166L3.52495 9.78061C1.53824 11.7673 1.53824 14.9884 3.52495 16.975C5.51166 18.9617 8.73271 18.9617 10.7195 16.975L11.0792 16.6154C13.0659 14.6286 13.0659 11.4075 11.0792 9.42083L9.64028 7.98192L11.0792 6.54303ZM17.9139 12.6584L16.475 11.2195C18.4617 9.23271 18.4617 6.01166 16.475 4.02495C14.4884 2.03824 11.2673 2.03824 9.28061 4.02495L8.92083 4.38467C6.93413 6.37138 6.93413 9.59248 8.92083 11.5792L10.3597 13.0181L8.92083 14.4569L7.48192 13.0181C4.70053 10.2367 4.70053 5.72717 7.48192 2.94578L7.84166 2.58604C10.623 -0.195348 15.1326 -0.195348 17.9139 2.58604C20.6954 5.36744 20.6954 9.87696 17.9139 12.6584Z" fill="black"/>
+</svg>
+            </button>
+        </div>
+       </div>
+
+    <div style="height: 40vmin;min-height: 360px"><script src="https://cdn.jsdelivr.net/ghost/signup-form@~0.3/umd/signup-form.min.js" data-background-color="#d9d9d9" data-text-color="#000000" data-button-color="#FF0F1F" data-button-text-color="#FFFFFF" data-title="Techloy" data-description="Techloy is a global technology product platform delivering insights, analysis, and updates on the latest in consumer tech, AI, gaming, and the products shaping modern life." data-icon="https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w192h192/2023/07/techloy-avatar-1.png" data-site="https://www.techloy.com/" data-locale="en" async></script></div>
+  <p style="max-width:560px;margin:12px auto 0;text-align:center;font-size:14px;line-height:1.5;color:#737373;">
+  By signing up, I agree to the <a href="https://www.techloy.com/terms/" style="color:#737373;text-decoration:underline;">terms of service</a> and <a href="https://www.techloy.com/community/" style="color:#737373;text-decoration:underline;">community guidelines</a>.
+</p>
+     <div
+    <div class="in-article__ad bottom--ad">
+    <!-- In-Article End [async] -->
+    <script type="text/javascript">if (!window.AdButler){(function(){var s = document.createElement("script"); s.async = true; s.type = "text/javascript"; s.src = 'https://servedbyadbutler.com/app.js'; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(s, n);}());}</script>
+    <script type="text/javascript">
+    var AdButler = AdButler || {};
+    AdButler.ads = AdButler.ads || [];
+    var abkw = window.abkw || '';
+    var plc1198542 = window.plc1198542 || 0;
+    document.write('<'+'div id="placement_1198542_'+plc1198542+'"></'+'div>');
+    AdButler.ads.push({handler: function(opt){ AdButler.register(164273, 1198542, [300,250], 'placement_1198542_'+opt.place, opt); }, opt: { place: plc1198542++, keywords: abkw, domain: 'servedbyadbutler.com', click: 'CLICK_MACRO_PLACEHOLDER' }});
+    </script>
+</div></div>                    <div class="post-comments post-comments--not-member">
+                        
+        <script defer src="https://cdn.jsdelivr.net/ghost/comments-ui@~1.6/umd/comments-ui.min.js" data-locale="en" data-ghost-comments="https://www.techloy.com/" data-api="https://techloy.ghost.io/ghost/api/content/" data-admin="https://techloy.ghost.io/ghost/" data-key="48baca9dc6948e80a78d7bf0a1" data-title="" data-count="false" data-post-id="6978648823e57a0001541c19" data-color-scheme="auto" data-avatar-saturation="0" data-accent-color="#FF0F1F" data-comments-enabled="paid" data-publication="Techloy" crossorigin="anonymous"></script>
+    
+                    </div>
+
+                <div class="next-block">
+    <div class="next-block-wrapper">
+        <a href="/why-maintenance-software-is-becoming-critical-infrastructure-for-modern-tech-companies/" aria-label="Next Post" class="next-block-post">
+                <picture class="next-block-post__img-wrapper">
+                    <source 
+                        srcset="https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w1200/format/webp/2026/01/image-198-1.png 1200w, 
+                        https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w960/format/webp/2026/01/image-198-1.png 960w, 
+                        https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w720/format/webp/2026/01/image-198-1.png 720w,
+                        https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w480/format/webp/2026/01/image-198-1.png 480w,
+                        https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w400/format/webp/2026/01/image-198-1.png 400w"
+                        sizes="(max-width: 550px) 93vw, (max-width: 950px) 37vw, 30vw"
+                        type="image/webp">
+                        <img 
+                        srcset="
+                        https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w1200/2026/01/image-198-1.png 1200w, 
+                        https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w960/2026/01/image-198-1.png 960w, 
+                        https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w720/2026/01/image-198-1.png 720w,
+                        https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w480/2026/01/image-198-1.png 480w,
+                        https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w400/2026/01/image-198-1.png 400w"
+                        sizes="(max-width: 550px) 93vw, (max-width: 950px) 37vw, 30vw"
+                        src="https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w1200/2026/01/image-198-1.png"
+                        loading="lazy"
+                    alt="Why Maintenance Software Is Becoming Critical Infrastructure for Modern Tech Companies Post feature image"
+                    class="next-block-post__img">
+                </picture>
+            <span class="next-block-post__wrapper">
+                <span class="next-block-post__text">Read Next</span>
+                <span class="next-block-post__post-title">
+                    Why Maintenance Software Is Becoming Critical Infrastructure for Modern Tech Companies
+                </span>
+            </span>
+            <button class="next-block-post__close-btn">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.33268 11.8334L0.166016 10.6667L4.83268 6.00002L0.166016 1.33335L1.33268 0.166687L5.99935 4.83335L10.666 0.166687L11.8327 1.33335L7.16602 6.00002L11.8327 10.6667L10.666 11.8334L5.99935 7.16669L1.33268 11.8334Z" fill="white"/>
+</svg>
+            </button>
+        </a>
+    </div>
+</div>
+            </article>
+
+            <aside class="sidebar">
+                <div class="ad--sidebar">
+                    <div class="half-page__ad">
+    <!-- Half-Page [async] -->
+    <script type="text/javascript">if (!window.AdButler){(function(){var s = document.createElement("script"); s.async = true; s.type = "text/javascript"; s.src = 'https://servedbyadbutler.com/app.js'; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(s, n);}());}</script>
+    <script type="text/javascript">
+    var AdButler = AdButler || {};
+    AdButler.ads = AdButler.ads || [];
+    var abkw = window.abkw || '';
+    var plc1198541 = window.plc1198541 || 0;
+    document.write('<'+'div id="placement_1198541_'+plc1198541+'"></'+'div>');
+    AdButler.ads.push({handler: function(opt){ AdButler.register(164273, 1198541, [300,600], 'placement_1198541_'+opt.place, opt); }, opt: { place: plc1198541++, keywords: abkw, domain: 'servedbyadbutler.com', click: 'CLICK_MACRO_PLACEHOLDER' }});
+    </script>
+</div>
+                </div>
+            </aside>
+        </div>
+                <section class="post-read-next">
+            <h2 class="header-layout">
+                <span class="header-layout__title">
+                    You May Be Interested
+                </span>
+                <a href="/archive" class="header-layout__link"  arial-label="Link to archive page">View All</a>
+            </h2>
+            <div class="post-read-next__posts">
+                    <article class="post-card-big-secondary" role="article">
+        <picture class="post-card-big-secondary__img-link">
+            <source 
+                srcset="
+                https://images.unsplash.com/photo-1646583288948-24548aedffd8?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDI4fHxBSS1nZW5lcmF0ZWQlMjBidXNpbmVzc3xlbnwwfHx8fDE3OTE5MDgzNTZ8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;1600 1600w, 
+                https://images.unsplash.com/photo-1646583288948-24548aedffd8?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDI4fHxBSS1nZW5lcmF0ZWQlMjBidXNpbmVzc3xlbnwwfHx8fDE3OTE5MDgzNTZ8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;1200 1200w,
+                https://images.unsplash.com/photo-1646583288948-24548aedffd8?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDI4fHxBSS1nZW5lcmF0ZWQlMjBidXNpbmVzc3xlbnwwfHx8fDE3OTE5MDgzNTZ8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;960 960w,
+                https://images.unsplash.com/photo-1646583288948-24548aedffd8?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDI4fHxBSS1nZW5lcmF0ZWQlMjBidXNpbmVzc3xlbnwwfHx8fDE3OTE5MDgzNTZ8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;720 720w,
+                https://images.unsplash.com/photo-1646583288948-24548aedffd8?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDI4fHxBSS1nZW5lcmF0ZWQlMjBidXNpbmVzc3xlbnwwfHx8fDE3OTE5MDgzNTZ8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;480 480w"
+                sizes="(max-width: 750px) 95vw, (max-width: 950px) 47vw, (max-width: 1350px) 30vw, 226px"
+                type="image/webp">
+                <img 
+                srcset="
+                https://images.unsplash.com/photo-1646583288948-24548aedffd8?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDI4fHxBSS1nZW5lcmF0ZWQlMjBidXNpbmVzc3xlbnwwfHx8fDE3OTE5MDgzNTZ8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;1600 1600w, 
+                https://images.unsplash.com/photo-1646583288948-24548aedffd8?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDI4fHxBSS1nZW5lcmF0ZWQlMjBidXNpbmVzc3xlbnwwfHx8fDE3OTE5MDgzNTZ8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;1200 1200w,
+                https://images.unsplash.com/photo-1646583288948-24548aedffd8?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDI4fHxBSS1nZW5lcmF0ZWQlMjBidXNpbmVzc3xlbnwwfHx8fDE3OTE5MDgzNTZ8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;960 960w,
+                https://images.unsplash.com/photo-1646583288948-24548aedffd8?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDI4fHxBSS1nZW5lcmF0ZWQlMjBidXNpbmVzc3xlbnwwfHx8fDE3OTE5MDgzNTZ8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;720 720w,
+                https://images.unsplash.com/photo-1646583288948-24548aedffd8?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDI4fHxBSS1nZW5lcmF0ZWQlMjBidXNpbmVzc3xlbnwwfHx8fDE3OTE5MDgzNTZ8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;480 480w"
+                sizes="(max-width: 750px) 95vw, (max-width: 950px) 47vw, (max-width: 1350px) 30vw, 226px"
+                src="https://images.unsplash.com/photo-1646583288948-24548aedffd8?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDI4fHxBSS1nZW5lcmF0ZWQlMjBidXNpbmVzc3xlbnwwfHx8fDE3OTE5MDgzNTZ8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;1600"
+                loading="lazy"
+            alt="7 Best AI Professional Headshot Generator Tools for Realistic Business Photos Post feature image"
+            class="post-card-big-secondary__img">
+        </picture>
+           
+    <div class="post-card-big-secondary__content">
+        
+            <div class="post-tags">
+
+            <a class="post-tag post-tag--features" href="/tag/features/" aria-label="/ Featured tag">
+                <span class="post-tag__name-wrapper">
+                    <span class="post-tag__name">/ Featured</span>
+                    <span class="post-tag__name">/ Featured</span>
+                </span>
+            </a>
+
+
+            <a class="post-tag post-tag--ai-tools" href="/tag/ai-tools/" aria-label="AI tools tag">
+                <span class="post-tag__name-wrapper">
+                    <span class="post-tag__name">AI tools</span>
+                    <span class="post-tag__name">AI tools</span>
+                </span>
+            </a>
+
+            </div>
+
+        <a class="post-card-big-secondary__link" aria-label="Post link" href="/7-best-ai-professional-headshot-generator-tools-for-realistic-business-photos/"></a>
+
+        <h2 class="post-card-big-secondary__heading">
+            7 Best AI Professional Headshot Generator Tools for Realistic Business Photos
+        </h2>
+
+        <div class="post-card-big-secondary__meta">
+                <div class="post-tag-icons-wrapper">
+        <div class="post-tag-icon featured-tag" role="note" aria-label="Featured tag">
+            <svg width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3 15.5L3.75 10.25H0L6.75 0.5H8.25L7.5 6.5H12L4.5 15.5H3Z" fill="#FF0000"/>
+</svg>
+            <div class="post-tag-icon__tooltip">
+                <span class="post-tag-icon__tooltip-span">Featured</span>
+            </div>
+        </div>
+    </div>
+
+            
+            <time class="post-card-big-secondary__date" datetime="2026-10-13">
+                Oct 13, 2026
+            </time> 
+
+                    
+            <script
+    data-ghost-comment-count="6ace59a6a46e3300019bf4cf"
+    data-ghost-comment-count-empty=""
+    data-ghost-comment-count-singular=""
+    data-ghost-comment-count-plural=""
+    data-ghost-comment-count-tag="span"
+    data-ghost-comment-count-class-name="post-comment-count"
+    data-ghost-comment-count-autowrap="true"
+>
+</script>
+        </div>
+    </div>
+</article>                    <article class="post-card-big-secondary" role="article">
+        <picture class="post-card-big-secondary__img-link">
+            <source 
+                srcset="
+                https://images.unsplash.com/photo-1606857521015-7f9fcf423740?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDN8fE9mZmljZXxlbnwwfHx8fDE3OTE4OTY4OTJ8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;1600 1600w, 
+                https://images.unsplash.com/photo-1606857521015-7f9fcf423740?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDN8fE9mZmljZXxlbnwwfHx8fDE3OTE4OTY4OTJ8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;1200 1200w,
+                https://images.unsplash.com/photo-1606857521015-7f9fcf423740?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDN8fE9mZmljZXxlbnwwfHx8fDE3OTE4OTY4OTJ8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;960 960w,
+                https://images.unsplash.com/photo-1606857521015-7f9fcf423740?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDN8fE9mZmljZXxlbnwwfHx8fDE3OTE4OTY4OTJ8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;720 720w,
+                https://images.unsplash.com/photo-1606857521015-7f9fcf423740?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDN8fE9mZmljZXxlbnwwfHx8fDE3OTE4OTY4OTJ8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;480 480w"
+                sizes="(max-width: 750px) 95vw, (max-width: 950px) 47vw, (max-width: 1350px) 30vw, 226px"
+                type="image/webp">
+                <img 
+                srcset="
+                https://images.unsplash.com/photo-1606857521015-7f9fcf423740?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDN8fE9mZmljZXxlbnwwfHx8fDE3OTE4OTY4OTJ8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;1600 1600w, 
+                https://images.unsplash.com/photo-1606857521015-7f9fcf423740?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDN8fE9mZmljZXxlbnwwfHx8fDE3OTE4OTY4OTJ8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;1200 1200w,
+                https://images.unsplash.com/photo-1606857521015-7f9fcf423740?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDN8fE9mZmljZXxlbnwwfHx8fDE3OTE4OTY4OTJ8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;960 960w,
+                https://images.unsplash.com/photo-1606857521015-7f9fcf423740?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDN8fE9mZmljZXxlbnwwfHx8fDE3OTE4OTY4OTJ8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;720 720w,
+                https://images.unsplash.com/photo-1606857521015-7f9fcf423740?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDN8fE9mZmljZXxlbnwwfHx8fDE3OTE4OTY4OTJ8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;480 480w"
+                sizes="(max-width: 750px) 95vw, (max-width: 950px) 47vw, (max-width: 1350px) 30vw, 226px"
+                src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDN8fE9mZmljZXxlbnwwfHx8fDE3OTE4OTY4OTJ8MA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;1600"
+                loading="lazy"
+            alt="Over 130,000 Tech Jobs Have Been Cut in 2026. Here Are the Companies Behind Them Post feature image"
+            class="post-card-big-secondary__img">
+        </picture>
+           
+    <div class="post-card-big-secondary__content">
+        
+            <div class="post-tags">
+
+            <a class="post-tag post-tag--careers" href="/tag/careers/" aria-label="/ Career Guide tag">
+                <span class="post-tag__name-wrapper">
+                    <span class="post-tag__name">/ Career Guide</span>
+                    <span class="post-tag__name">/ Career Guide</span>
+                </span>
+            </a>
+
+
+            <a class="post-tag post-tag--tech-layoffs" href="/tag/tech-layoffs/" aria-label="Tech Layoffs tag">
+                <span class="post-tag__name-wrapper">
+                    <span class="post-tag__name">Tech Layoffs</span>
+                    <span class="post-tag__name">Tech Layoffs</span>
+                </span>
+            </a>
+
+            </div>
+
+        <a class="post-card-big-secondary__link" aria-label="Post link" href="/2026-major-company-job-cuts/"></a>
+
+        <h2 class="post-card-big-secondary__heading">
+            Over 130,000 Tech Jobs Have Been Cut in 2026. Here Are the Companies Behind Them
+        </h2>
+
+        <div class="post-card-big-secondary__meta">
+                <div class="post-tag-icons-wrapper">
+        <div class="post-tag-icon private-tag" role="note" aria-label="For members only tag">
+            <svg width="12" height="17" viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.5 16.5C1.0875 16.5 0.734375 16.3531 0.440625 16.0594C0.146875 15.7656 0 15.4125 0 15V7.5C0 7.0875 0.146875 6.73438 0.440625 6.44063C0.734375 6.14688 1.0875 6 1.5 6H2.25V4.5C2.25 3.4625 2.61563 2.57813 3.34688 1.84688C4.07812 1.11563 4.9625 0.75 6 0.75C7.0375 0.75 7.92188 1.11563 8.65313 1.84688C9.38438 2.57813 9.75 3.4625 9.75 4.5V6H10.5C10.9125 6 11.2656 6.14688 11.5594 6.44063C11.8531 6.73438 12 7.0875 12 7.5V15C12 15.4125 11.8531 15.7656 11.5594 16.0594C11.2656 16.3531 10.9125 16.5 10.5 16.5H1.5ZM6 12.75C6.4125 12.75 6.76563 12.6031 7.05938 12.3094C7.35313 12.0156 7.5 11.6625 7.5 11.25C7.5 10.8375 7.35313 10.4844 7.05938 10.1906C6.76563 9.89688 6.4125 9.75 6 9.75C5.5875 9.75 5.23438 9.89688 4.94063 10.1906C4.64688 10.4844 4.5 10.8375 4.5 11.25C4.5 11.6625 4.64688 12.0156 4.94063 12.3094C5.23438 12.6031 5.5875 12.75 6 12.75ZM3.75 6H8.25V4.5C8.25 3.875 8.03125 3.34375 7.59375 2.90625C7.15625 2.46875 6.625 2.25 6 2.25C5.375 2.25 4.84375 2.46875 4.40625 2.90625C3.96875 3.34375 3.75 3.875 3.75 4.5V6Z" fill="#585858"/>
+</svg>
+            <div class="post-tag-icon__tooltip">
+                <span class="post-tag-icon__tooltip-span">
+                        Only for members
+                </span>
+            </div>
+        </div>
+    </div>
+
+            
+            <time class="post-card-big-secondary__date" datetime="2026-10-13">
+                Oct 13, 2026
+            </time> 
+
+                    
+            <script
+    data-ghost-comment-count="6ace2d05a46e3300019bf3c7"
+    data-ghost-comment-count-empty=""
+    data-ghost-comment-count-singular=""
+    data-ghost-comment-count-plural=""
+    data-ghost-comment-count-tag="span"
+    data-ghost-comment-count-class-name="post-comment-count"
+    data-ghost-comment-count-autowrap="true"
+>
+</script>
+        </div>
+    </div>
+</article>                    <article class="post-card-big-secondary" role="article">
+        <picture class="post-card-big-secondary__img-link">
+            <source 
+                srcset="
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w1600/format/webp/2026/10/GTA-6-1.png 1600w, 
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w1200/format/webp/2026/10/GTA-6-1.png 1200w,
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w960/format/webp/2026/10/GTA-6-1.png 960w,
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w720/format/webp/2026/10/GTA-6-1.png 720w,
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w480/format/webp/2026/10/GTA-6-1.png 480w"
+                sizes="(max-width: 750px) 95vw, (max-width: 950px) 47vw, (max-width: 1350px) 30vw, 226px"
+                type="image/webp">
+                <img 
+                srcset="
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w1600/2026/10/GTA-6-1.png 1600w, 
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w1200/2026/10/GTA-6-1.png 1200w,
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w960/2026/10/GTA-6-1.png 960w,
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w720/2026/10/GTA-6-1.png 720w,
+                https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w480/2026/10/GTA-6-1.png 480w"
+                sizes="(max-width: 750px) 95vw, (max-width: 950px) 47vw, (max-width: 1350px) 30vw, 226px"
+                src="https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w1600/2026/10/GTA-6-1.png"
+                loading="lazy"
+            alt="GTA 6’s Lucia Leak Links an Alleged 200GB Build to a $30M Catch Post feature image"
+            class="post-card-big-secondary__img">
+        </picture>
+           
+    <div class="post-card-big-secondary__content">
+        
+            <div class="post-tags">
+
+            <a class="post-tag post-tag--entertainment" href="/tag/entertainment/" aria-label="/ Entertainment tag">
+                <span class="post-tag__name-wrapper">
+                    <span class="post-tag__name">/ Entertainment</span>
+                    <span class="post-tag__name">/ Entertainment</span>
+                </span>
+            </a>
+
+
+            <a class="post-tag post-tag--gta-6" href="/tag/gta-6/" aria-label="GTA 6 tag">
+                <span class="post-tag__name-wrapper">
+                    <span class="post-tag__name">GTA 6</span>
+                    <span class="post-tag__name">GTA 6</span>
+                </span>
+            </a>
+
+            </div>
+
+        <a class="post-card-big-secondary__link" aria-label="Post link" href="/rockstar-gta-6-leak-details-lucia-cyberleek/"></a>
+
+        <h2 class="post-card-big-secondary__heading">
+            GTA 6’s Lucia Leak Links an Alleged 200GB Build to a $30M Catch
+        </h2>
+
+        <div class="post-card-big-secondary__meta">
+                <div class="post-tag-icons-wrapper">
+        <div class="post-tag-icon private-tag" role="note" aria-label="For members only tag">
+            <svg width="12" height="17" viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.5 16.5C1.0875 16.5 0.734375 16.3531 0.440625 16.0594C0.146875 15.7656 0 15.4125 0 15V7.5C0 7.0875 0.146875 6.73438 0.440625 6.44063C0.734375 6.14688 1.0875 6 1.5 6H2.25V4.5C2.25 3.4625 2.61563 2.57813 3.34688 1.84688C4.07812 1.11563 4.9625 0.75 6 0.75C7.0375 0.75 7.92188 1.11563 8.65313 1.84688C9.38438 2.57813 9.75 3.4625 9.75 4.5V6H10.5C10.9125 6 11.2656 6.14688 11.5594 6.44063C11.8531 6.73438 12 7.0875 12 7.5V15C12 15.4125 11.8531 15.7656 11.5594 16.0594C11.2656 16.3531 10.9125 16.5 10.5 16.5H1.5ZM6 12.75C6.4125 12.75 6.76563 12.6031 7.05938 12.3094C7.35313 12.0156 7.5 11.6625 7.5 11.25C7.5 10.8375 7.35313 10.4844 7.05938 10.1906C6.76563 9.89688 6.4125 9.75 6 9.75C5.5875 9.75 5.23438 9.89688 4.94063 10.1906C4.64688 10.4844 4.5 10.8375 4.5 11.25C4.5 11.6625 4.64688 12.0156 4.94063 12.3094C5.23438 12.6031 5.5875 12.75 6 12.75ZM3.75 6H8.25V4.5C8.25 3.875 8.03125 3.34375 7.59375 2.90625C7.15625 2.46875 6.625 2.25 6 2.25C5.375 2.25 4.84375 2.46875 4.40625 2.90625C3.96875 3.34375 3.75 3.875 3.75 4.5V6Z" fill="#585858"/>
+</svg>
+            <div class="post-tag-icon__tooltip">
+                <span class="post-tag-icon__tooltip-span">
+                        Only for members
+                </span>
+            </div>
+        </div>
+    </div>
+
+            
+            <time class="post-card-big-secondary__date" datetime="2026-10-13">
+                Oct 13, 2026
+            </time> 
+
+                    
+            <script
+    data-ghost-comment-count="6ace16a3488690000176aeb3"
+    data-ghost-comment-count-empty=""
+    data-ghost-comment-count-singular=""
+    data-ghost-comment-count-plural=""
+    data-ghost-comment-count-tag="span"
+    data-ghost-comment-count-class-name="post-comment-count"
+    data-ghost-comment-count-autowrap="true"
+>
+</script>
+        </div>
+    </div>
+</article>                    <article class="post-card-big-secondary" role="article">
+        <picture class="post-card-big-secondary__img-link">
+            <source 
+                srcset="
+                https://images.unsplash.com/photo-1548949974-54c5fc17dd45?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDIyfHxhcHBsZSUyMGhvbWVwb2R8ZW58MHx8fHwxNzkxOTAyODE4fDA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;1600 1600w, 
+                https://images.unsplash.com/photo-1548949974-54c5fc17dd45?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDIyfHxhcHBsZSUyMGhvbWVwb2R8ZW58MHx8fHwxNzkxOTAyODE4fDA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;1200 1200w,
+                https://images.unsplash.com/photo-1548949974-54c5fc17dd45?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDIyfHxhcHBsZSUyMGhvbWVwb2R8ZW58MHx8fHwxNzkxOTAyODE4fDA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;960 960w,
+                https://images.unsplash.com/photo-1548949974-54c5fc17dd45?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDIyfHxhcHBsZSUyMGhvbWVwb2R8ZW58MHx8fHwxNzkxOTAyODE4fDA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;720 720w,
+                https://images.unsplash.com/photo-1548949974-54c5fc17dd45?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;webp&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDIyfHxhcHBsZSUyMGhvbWVwb2R8ZW58MHx8fHwxNzkxOTAyODE4fDA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;480 480w"
+                sizes="(max-width: 750px) 95vw, (max-width: 950px) 47vw, (max-width: 1350px) 30vw, 226px"
+                type="image/webp">
+                <img 
+                srcset="
+                https://images.unsplash.com/photo-1548949974-54c5fc17dd45?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDIyfHxhcHBsZSUyMGhvbWVwb2R8ZW58MHx8fHwxNzkxOTAyODE4fDA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;1600 1600w, 
+                https://images.unsplash.com/photo-1548949974-54c5fc17dd45?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDIyfHxhcHBsZSUyMGhvbWVwb2R8ZW58MHx8fHwxNzkxOTAyODE4fDA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;1200 1200w,
+                https://images.unsplash.com/photo-1548949974-54c5fc17dd45?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDIyfHxhcHBsZSUyMGhvbWVwb2R8ZW58MHx8fHwxNzkxOTAyODE4fDA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;960 960w,
+                https://images.unsplash.com/photo-1548949974-54c5fc17dd45?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDIyfHxhcHBsZSUyMGhvbWVwb2R8ZW58MHx8fHwxNzkxOTAyODE4fDA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;720 720w,
+                https://images.unsplash.com/photo-1548949974-54c5fc17dd45?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDIyfHxhcHBsZSUyMGhvbWVwb2R8ZW58MHx8fHwxNzkxOTAyODE4fDA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;480 480w"
+                sizes="(max-width: 750px) 95vw, (max-width: 950px) 47vw, (max-width: 1350px) 30vw, 226px"
+                src="https://images.unsplash.com/photo-1548949974-54c5fc17dd45?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDIyfHxhcHBsZSUyMGhvbWVwb2R8ZW58MHx8fHwxNzkxOTAyODE4fDA&amp;ixlib&#x3D;rb-4.1.0&amp;q&#x3D;80&amp;w&#x3D;1600"
+                loading="lazy"
+            alt="Apple Reveals HomeView Smart Display, HomePod mini 2, and New Apple TV 4K Post feature image"
+            class="post-card-big-secondary__img">
+        </picture>
+           
+    <div class="post-card-big-secondary__content">
+        
+            <div class="post-tags">
+
+            <a class="post-tag post-tag--products" href="/tag/products/" aria-label="/ Consumer Tech tag">
+                <span class="post-tag__name-wrapper">
+                    <span class="post-tag__name">/ Consumer Tech</span>
+                    <span class="post-tag__name">/ Consumer Tech</span>
+                </span>
+            </a>
+
+
+            <a class="post-tag post-tag--top-story" href="/tag/top-story/" aria-label="Top Story tag">
+                <span class="post-tag__name-wrapper">
+                    <span class="post-tag__name">Top Story</span>
+                    <span class="post-tag__name">Top Story</span>
+                </span>
+            </a>
+
+
+            <a class="post-tag post-tag--apple" href="/tag/apple/" aria-label="Apple tag">
+                <span class="post-tag__name-wrapper">
+                    <span class="post-tag__name">Apple</span>
+                    <span class="post-tag__name">Apple</span>
+                </span>
+            </a>
+
+            </div>
+
+        <a class="post-card-big-secondary__link" aria-label="Post link" href="/apple-welcome-home-event-announcements/"></a>
+
+        <h2 class="post-card-big-secondary__heading">
+            Apple Reveals HomeView Smart Display, HomePod mini 2, and New Apple TV 4K
+        </h2>
+
+        <div class="post-card-big-secondary__meta">
+                <div class="post-tag-icons-wrapper">
+        <div class="post-tag-icon private-tag" role="note" aria-label="For members only tag">
+            <svg width="12" height="17" viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.5 16.5C1.0875 16.5 0.734375 16.3531 0.440625 16.0594C0.146875 15.7656 0 15.4125 0 15V7.5C0 7.0875 0.146875 6.73438 0.440625 6.44063C0.734375 6.14688 1.0875 6 1.5 6H2.25V4.5C2.25 3.4625 2.61563 2.57813 3.34688 1.84688C4.07812 1.11563 4.9625 0.75 6 0.75C7.0375 0.75 7.92188 1.11563 8.65313 1.84688C9.38438 2.57813 9.75 3.4625 9.75 4.5V6H10.5C10.9125 6 11.2656 6.14688 11.5594 6.44063C11.8531 6.73438 12 7.0875 12 7.5V15C12 15.4125 11.8531 15.7656 11.5594 16.0594C11.2656 16.3531 10.9125 16.5 10.5 16.5H1.5ZM6 12.75C6.4125 12.75 6.76563 12.6031 7.05938 12.3094C7.35313 12.0156 7.5 11.6625 7.5 11.25C7.5 10.8375 7.35313 10.4844 7.05938 10.1906C6.76563 9.89688 6.4125 9.75 6 9.75C5.5875 9.75 5.23438 9.89688 4.94063 10.1906C4.64688 10.4844 4.5 10.8375 4.5 11.25C4.5 11.6625 4.64688 12.0156 4.94063 12.3094C5.23438 12.6031 5.5875 12.75 6 12.75ZM3.75 6H8.25V4.5C8.25 3.875 8.03125 3.34375 7.59375 2.90625C7.15625 2.46875 6.625 2.25 6 2.25C5.375 2.25 4.84375 2.46875 4.40625 2.90625C3.96875 3.34375 3.75 3.875 3.75 4.5V6Z" fill="#585858"/>
+</svg>
+            <div class="post-tag-icon__tooltip">
+                <span class="post-tag-icon__tooltip-span">
+                        Only for members
+                </span>
+            </div>
+        </div>
+    </div>
+
+            
+            <time class="post-card-big-secondary__date" datetime="2026-10-13">
+                Oct 13, 2026
+            </time> 
+
+                    
+            <script
+    data-ghost-comment-count="6ace33b3a46e3300019bf3e3"
+    data-ghost-comment-count-empty=""
+    data-ghost-comment-count-singular=""
+    data-ghost-comment-count-plural=""
+    data-ghost-comment-count-tag="span"
+    data-ghost-comment-count-class-name="post-comment-count"
+    data-ghost-comment-count-autowrap="true"
+>
+</script>
+        </div>
+    </div>
+</article>            </div>
+        </section>
+        <div class="in-article__ad middle--ad">
+    <!-- In-Article Middle [async] -->
+    <script type="text/javascript">if (!window.AdButler){(function(){var s = document.createElement("script"); s.async = true; s.type = "text/javascript"; s.src = 'https://servedbyadbutler.com/app.js'; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(s, n);}());}</script>
+    <script type="text/javascript">
+    var AdButler = AdButler || {};
+    AdButler.ads = AdButler.ads || [];
+    var abkw = window.abkw || '';
+    var plc1198543 = window.plc1198543 || 0;
+    document.write('<'+'div id="placement_1198543_'+plc1198543+'"></'+'div>');
+    AdButler.ads.push({handler: function(opt){ AdButler.register(164273, 1198543, [728,90], 'placement_1198543_'+opt.place, opt); }, opt: { place: plc1198543++, keywords: abkw, domain: 'servedbyadbutler.com', click: 'CLICK_MACRO_PLACEHOLDER' }});
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var thirdParagraphElement = document.querySelector('.post-page .post-content p:nth-of-type(3)');
+            var adElement = document.getElementById('placement_1198543_' + (window.plc1198543 - 1));
+            adElement.classList.add('in-article__ad', 'middle--ad');
+            if (thirdParagraphElement && adElement) {
+                thirdParagraphElement.parentNode.insertBefore(adElement, thirdParagraphElement.nextSibling);
+            }
+        })();
+    </script>
+</div>    </main>
+    
+
+
+
+
+        <footer class="footer">
+   <div class="footer__container">
+      <div class="footer__meta">
+         <a class="logo has-dark-version" href="https://www.techloy.com" aria-label="home page link">
+            <img class="logo__img logo__img--dark" src="https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/2026/04/techloy-logo--5--1.png" alt="Techloy icon">
+        <img class="logo__img logo__img--light" src="https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/2024/04/techloy-logo.png" alt="Techloy icon">
+</a>        <p class="footer-description">
+  Techloy is a global technology product platform delivering insights, analysis,
+  and updates on the latest in consumer tech, AI, gaming, and the products shaping
+  modern life.
+</p>
+ <div class="socials">
+  <div class="footer-social">
+  <a href="https://www.facebook.com/techloy" aria-label="Facebook" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.99 3.66 9.13 8.44 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99C18.34 21.13 22 16.99 22 12z"/></svg>
+  </a>
+  <a href="https://x.com/techloy" aria-label="X" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M18.9 1.5h3.68l-8.04 9.19L24 22.5h-7.4l-5.8-7.58-6.64 7.58H.48l8.6-9.83L0 1.5h7.59l5.24 6.93L18.9 1.5zm-1.29 18.8h2.04L6.48 3.6H4.29L17.61 20.3z"/></svg>
+  </a>
+  <a href="https://www.instagram.com/techloy" aria-label="Instagram" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 01-1.38-.9 3.7 3.7 0 01-.9-1.38c-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16zm0 3.68A6.16 6.16 0 1018.16 12 6.16 6.16 0 0012 5.84zm0 10.16A4 4 0 1116 12a4 4 0 01-4 4zm6.4-10.4a1.44 1.44 0 11-1.44-1.44 1.44 1.44 0 011.44 1.44z"/></svg>
+  </a>
+  <a href="https://www.linkedin.com/company/techloy" aria-label="LinkedIn" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 112.06-2.07 2.06 2.06 0 01-2.06 2.07zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.8 0 0 .78 0 1.74v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.74C24 .78 23.2 0 22.22 0z"/></svg>
+  </a>
+  <a href="https://www.tiktok.com/@techloy" aria-label="TikTok" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64c.3 0 .59.04.87.13V9.4a6.33 6.33 0 00-1-.08A6.34 6.34 0 005.79 20.5a6.34 6.34 0 0010.4-4.9v-6.9a8.16 8.16 0 004.76 1.52v-3.4a4.85 4.85 0 01-1.36-.13z"/></svg>
+  </a>
+  <a href="https://www.youtube.com/@techloy" aria-label="YouTube" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M23.5 6.19a3.02 3.02 0 00-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.5A3.02 3.02 0 00.5 6.19C0 8.08 0 12 0 12s0 3.92.5 5.81a3.02 3.02 0 002.12 2.14c1.88.5 9.38.5 9.38.5s7.5 0 9.38-.5a3.02 3.02 0 002.12-2.14C24 15.92 24 12 24 12s0-3.92-.5-5.81zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg>
+  </a>
+</div>
+</div>      <p class="tl-legal__line">
+  &ldquo;Techloy&rdquo; is a proprietary trademark of Techloy Limited. Techloy Limited is a company registered in England and Wales with registration number 13488283.
+</p>
+<p class="tl-copyright">
+  Copyright &copy; 2026 Techloy Limited. All rights reserved.
+</p>
+      </div>
+
+            <nav class="footer-nav">
+         
+                     <ul class="footer-nav-list">
+                        <li class="footer-nav-item">
+                            <a href="https://www.techloy.com/tag/news/" class="footer-nav-item__link" aria-label="🗞️ News Navigation link">🗞️ News</a>
+                        </li>
+                                            <li class="footer-nav-item">
+                            <a href="https://www.techloy.com/tag/products/" class="footer-nav-item__link" aria-label="📱 Consumer Tech Navigation link">📱 Consumer Tech</a>
+                        </li>
+                                            <li class="footer-nav-item">
+                            <a href="https://www.techloy.com/tag/startups/" class="footer-nav-item__link" aria-label="🚀 Startups Navigation link">🚀 Startups</a>
+                        </li>
+                                            <li class="footer-nav-item">
+                            <a href="https://www.techloy.com/tag/tech-guides/" class="footer-nav-item__link" aria-label="🛠️ How-Tos Navigation link">🛠️ How-Tos</a>
+                        </li>
+                                            <li class="footer-nav-item">
+                            <a href="https://www.techloy.com/tag/videos/" class="footer-nav-item__link" aria-label="🎥 Videos Navigation link">🎥 Videos</a>
+                        </li>
+                                            <li class="footer-nav-item">
+                            <a href="https://www.techloy.com/tag/entertainment/" class="footer-nav-item__link" aria-label="🎮 Entertainment Navigation link">🎮 Entertainment</a>
+                        </li>
+                                            <li class="footer-nav-item">
+                            <a href="https://www.techloy.com/tag/artificial-intelligence/" class="footer-nav-item__link" aria-label="🤖 AI Navigation link">🤖 AI</a>
+                        </li>
+                                            <li class="footer-nav-item">
+                            <a href="https://www.techloy.com/tag/careers/" class="footer-nav-item__link" aria-label="💼 Career Guide Navigation link">💼 Career Guide</a>
+                        </li>
+                                            <li class="footer-nav-item">
+                            <a href="https://www.techloy.com/tag/insights/" class="footer-nav-item__link" aria-label="📊 Insights Navigation link">📊 Insights</a>
+                        </li>
+                                            <li class="footer-nav-item">
+                            <a href="https://www.techloy.com/tag/newsletter/" class="footer-nav-item__link" aria-label="💌 Newsletter Navigation link">💌 Newsletter</a>
+                        </li>
+                    
+      </nav>
+
+      <nav class="footer-nav footer-nav--secondary" aria-label="Secondary">
+                             <li class="footer-nav-item">
+                        <a href="https://www.techloy.com/about/" class="footer-nav-item__link" aria-label="About Navigation link">About</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="https://www.techloy.com/advertise/" class="footer-nav-item__link" aria-label="Advertise Navigation link">Advertise</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="https://community.techloy.com/" class="footer-nav-item__link" aria-label="Community Navigation link">Community</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="https://community.techloy.com/the-founder-room-podcast" class="footer-nav-item__link" aria-label="Podcast Navigation link">Podcast</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="https://community.techloy.com/events" class="footer-nav-item__link" aria-label="Events Navigation link">Events</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="https://community.techloy.com/jobs-in-tech" class="footer-nav-item__link" aria-label="Jobs Navigation link">Jobs</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="https://www.techloy.com/contact/" class="footer-nav-item__link" aria-label="Contact Navigation link">Contact</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="https://www.techloy.com/terms/" class="footer-nav-item__link" aria-label="Terms Navigation link">Terms</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="https://www.techloy.com/privacy/" class="footer-nav-item__link" aria-label="Privacy Navigation link">Privacy</a>
+                    </li>
+        </ul>
+
+      </nav>
+
+      <form class="footer-form" data-members-form="subscribe" data-members-autoredirect="false">
+            <h2 class="footer-form__title">
+               Go beyond the news. Get the insights.
+            </h2>
+            <div class="footer-form__input-wrapper">
+               <input autocomplete="off" class="footer-form__input" data-members-email type="email" name="email-input" id="subscribe-banner-email-input" placeholder="Enter your email" aria-label="Your email address" required>
+                   <button type="submit" aria-label="Subscribe" class="btn ">
+        <span class="btn__text-wrapper">
+            <span class="btn__text">Subscribe</span>
+            <span class="btn__text">Subscribe</span>
+        </span>
+        <svg class="loader-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    style="background: none; shape-rendering: auto;" width="25px" height="25px" viewBox="0 0 100 100"
+    preserveAspectRatio="xMidYMid">
+    <circle cx="50" cy="50" fill="none" stroke="var(--accent-color)" stroke-width="10" r="37"
+        stroke-dasharray="174.35839227423352 60.119464091411174">
+        <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1s"
+            values="0 50 50;360 50 50" keyTimes="0;1" />
+    </circle>
+</svg>    </button>
+            </div>
+
+            <p class="footer-form__error" data-members-error></p>
+               <div class="footer-form__terms"><p dir="ltr"><span>By signing up, I agree to the </span><a href="https://www.techloy.com/terms/"><span>terms of service</span></a><span> and </span><a href="https://www.techloy.com/community/"><span>community guidelines</span></a><span>.</span></p></div>
+            <div class="footer-form__success">
+               <h4 class="footer-form__success-title">
+                  Success! Now check your email
+               </h4>
+               <p class="footer-form__success-text">
+                  To complete the subscription process, click the confirmation link in your inbox. If
+                  it doesn’t arrive within 3 minutes, check your spam folder.
+               </p>
+            </div>
+      </form>
+   </div>
+</footer>
+
+        <script>
+    const sliders = document.querySelectorAll('.swiper')
+
+    function clearProgress(elements){
+        elements.forEach(element => {
+            element.style.setProperty('--progress', '0');
+        })
+    }
+
+    sliders.forEach(slider => {
+        new Swiper(slider, {
+            direction: 'horizontal',
+            loop: true,
+            slidesPerView: 1,
+            speed: 800,
+            autoplay: {
+                delay: 3000
+            },
+            allowTouchMove: true,
+            watchOverflow: true,
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            navigation: {
+            nextEl: `.swiper-button-next`,
+            prevEl: `.swiper-button-prev`
+            },
+            on: {
+                autoplayTimeLeft(event, timeLeft, progress) {
+                    const activeBullet = event.pagination.bullets[event.realIndex];
+                    const updateProgress = (100 - progress * 100) * 1.4;
+
+                    clearProgress(event.pagination.bullets)
+                    activeBullet.style.setProperty('--progress', `${updateProgress}%`);
+                },
+                navigationNext(event){
+                    clearProgress(event.pagination.bullets)
+                },
+                navigationPrev(event){
+                    clearProgress(event.pagination.bullets)
+                }
+            }
+        })
+    })
+</script>
+        <script src="https://www.techloy.com/assets/built/main.js?v=TErKrFFuvL_9jZi9" defer></script>
+
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-61081b3dc5899e06"></script>
+<style>
+.footer-description {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #6b6b6b;
+  max-width: 640px;
+  margin: 12px 0 0;
+  font-family: inherit;
+}
+
+.footer-social {
+  display: flex;
+  gap: 20px;
+  margin-top: 0px;!important;
+  margin-bottom: 30px;
+}
+
+.footer-social a {
+  color: rgba(107, 107, 107, 0.5);
+  display: inline-flex;
+  transition: color 0.2s ease;
+}
+
+.footer-social a:hover {
+  color: #111;
+}
+  .tl-legal__line,
+.tl-copyright {
+  font-family: inherit;
+  font-size: 9px;
+  color: #6b6b6b;
+  line-height: 1.6;
+  margin: 6px 0 0;
+}
+  .footer-social-label {
+  font-family: inherit;
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.4;!important;
+  margin: 20px 0 10px;!important;
+}
+  .footer-social a {
+  line-height: 0;
+}
+</style>
+<!-- Techloy Banner Ad Brochure popup
+     Paste into Ghost Admin > Settings > Code injection > Site footer -->
+<style>
+  #tl-ad-cta-overlay {
+    position: fixed; inset: 0; z-index: 99999;
+    background: rgba(0,0,0,.6);
+    display: none; align-items: center; justify-content: center;
+    padding: 16px; opacity: 0; transition: opacity .3s ease;
+  }
+  #tl-ad-cta-overlay.tl-show { display: flex; }
+  #tl-ad-cta-overlay.tl-visible { opacity: 1; }
+  #tl-ad-cta {
+    position: relative; width: 100%; max-width: 460px;
+    background: #ffffff; color: #000000; border-radius: 12px;
+    border-top: 6px solid #ff0f1f;
+    padding: 32px 28px 28px; box-shadow: 0 20px 60px rgba(0,0,0,.3);
+    font-family: "Inter", system-ui, sans-serif;
+    transform: translateY(16px); transition: transform .3s ease;
+  }
+  #tl-ad-cta-overlay.tl-visible #tl-ad-cta { transform: translateY(0); }
+  #tl-ad-cta .tl-eyebrow {
+    font-size: 12px; font-weight: 600; letter-spacing: .08em;
+    text-transform: uppercase; color: #ff0f1f; margin: 0 0 8px;
+  }
+  #tl-ad-cta h2 {
+    font-family: "Poppins", "Inter", sans-serif;
+    font-size: 24px; line-height: 1.25; font-weight: 700; margin: 0 0 12px; color: #000;
+  }
+  #tl-ad-cta p.tl-body { font-size: 15px; line-height: 1.6; color: #737373; margin: 0 0 16px; }
+  #tl-ad-cta .tl-stats {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 0 0 16px;
+  }
+  #tl-ad-cta .tl-stat {
+    background: #000; color: #fff; border-radius: 8px; padding: 12px 10px; text-align: center;
+  }
+  #tl-ad-cta .tl-stat b {
+    display: block; font-family: "Poppins", "Inter", sans-serif; font-size: 22px; line-height: 1.1; color: #ff0f1f;
+  }
+  #tl-ad-cta .tl-stat span {
+    display: block; margin-top: 4px; font-size: 11px; line-height: 1.3; letter-spacing: .04em; text-transform: uppercase;
+  }
+  #tl-ad-cta ul { list-style: none; padding: 0; margin: 0 0 24px; }
+  #tl-ad-cta li {
+    font-size: 14px; color: #000; padding: 6px 0 6px 24px; position: relative;
+  }
+  #tl-ad-cta li::before {
+    content: ""; position: absolute; left: 0; top: 11px;
+    width: 10px; height: 10px; border-radius: 50%; background: #ff0f1f;
+  }
+  #tl-ad-cta .tl-btn {
+    display: block; width: 100%; text-align: center; box-sizing: border-box;
+    background: #ff0f1f; color: #ffffff !important; text-decoration: none !important;
+    font-family: "Poppins", "Inter", sans-serif; font-weight: 600; font-size: 16px;
+    padding: 14px 20px; border-radius: 8px; transition: background .2s ease;
+  }
+  #tl-ad-cta .tl-btn:hover, #tl-ad-cta .tl-btn:focus { background: #d90c1a; }
+  #tl-ad-cta .tl-dismiss {
+    display: block; margin: 12px auto 0; background: none; border: 0;
+    color: #929394; font-size: 13px; cursor: pointer; text-decoration: underline;
+  }
+  #tl-ad-cta .tl-close {
+    position: absolute; top: 10px; right: 12px; background: none; border: 0;
+    font-size: 26px; line-height: 1; color: #929394; cursor: pointer; padding: 4px 8px;
+  }
+  #tl-ad-cta .tl-close:hover { color: #000; }
+  @media (max-width: 480px) {
+    #tl-ad-cta { padding: 28px 20px 22px; }
+    #tl-ad-cta h2 { font-size: 21px; }
+    #tl-ad-cta .tl-stat { padding: 10px 6px; }
+    #tl-ad-cta .tl-stat b { font-size: 19px; }
+    #tl-ad-cta .tl-stat span { font-size: 10px; }
+  }
+</style>
+
+<div id="tl-ad-cta-overlay" role="dialog" aria-modal="true" aria-labelledby="tl-ad-cta-title" aria-hidden="true">
+  <div id="tl-ad-cta">
+    <button class="tl-close" type="button" aria-label="Close">&times;</button>
+    <p class="tl-eyebrow">Advertise with Techloy</p>
+    <h2 id="tl-ad-cta-title">Put your brand in front of Techloy's global audience</h2>
+    <p class="tl-body">Our banner ads are built for brands that want to stay visible. With a clutter-free reading experience, every placement delivers high viewability and strategic frequency.</p>
+    <div class="tl-stats">
+      <div class="tl-stat"><b>150K+</b><span>Monthly readers</span></div>
+      <div class="tl-stat"><b>540K+</b><span>Monthly page views</span></div>
+      <div class="tl-stat"><b>1M+</b><span>Monthly ad impressions</span></div>
+    </div>
+    <ul>
+      <li>Clutter-free placements</li>
+      <li>High viewability</li>
+      <li>Strategic frequency for your brand</li>
+    </ul>
+    <a class="tl-btn" href="https://techloy.typeform.com/BannerAdRequest" target="_blank" rel="noopener">Request the brochure</a>
+    <button class="tl-dismiss" type="button">No thanks</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  // ---- Settings ----
+  var DELAY_MS = 3000;          // wait after page load before showing
+  var HIDE_DAYS_DISMISS = 7;    // don't show again for X days after "close"/"No thanks"
+  var HIDE_DAYS_CLICKED = 90;   // don't show again for X days after they click the button
+  var ALLOWED_PATHS = ["/advertise/", "/contact/"]; // only show on these pages
+  var STORAGE_KEY = "tl_ad_cta_hide_until";
+  // -------------------
+
+  var overlay = document.getElementById("tl-ad-cta-overlay");
+  if (!overlay) return;
+
+  // Normalise path so "/advertise", "/advertise/" and "/advertise/?utm=..." all match
+  var path = window.location.pathname.toLowerCase().replace(/\/?$/, "/");
+  if (ALLOWED_PATHS.indexOf(path) === -1) {
+    overlay.parentNode.removeChild(overlay);
+    return;
+  }
+
+  function hiddenUntil() {
+    try { return parseInt(localStorage.getItem(STORAGE_KEY) || "0", 10); } catch (e) { return 0; }
+  }
+  function hideFor(days) {
+    try { localStorage.setItem(STORAGE_KEY, String(Date.now() + days * 864e5)); } catch (e) {}
+  }
+
+  if (Date.now() < hiddenUntil()) return;
+
+  var lastFocus;
+  function open() {
+    lastFocus = document.activeElement;
+    overlay.classList.add("tl-show");
+    overlay.setAttribute("aria-hidden", "false");
+    requestAnimationFrame(function () { overlay.classList.add("tl-visible"); });
+    overlay.querySelector(".tl-btn").focus();
+    document.addEventListener("keydown", onKey);
+  }
+  function close(days) {
+    hideFor(days);
+    overlay.classList.remove("tl-visible");
+    overlay.setAttribute("aria-hidden", "true");
+    document.removeEventListener("keydown", onKey);
+    setTimeout(function () { overlay.classList.remove("tl-show"); }, 300);
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+  function onKey(e) { if (e.key === "Escape") close(HIDE_DAYS_DISMISS); }
+
+  overlay.querySelector(".tl-close").addEventListener("click", function () { close(HIDE_DAYS_DISMISS); });
+  overlay.querySelector(".tl-dismiss").addEventListener("click", function () { close(HIDE_DAYS_DISMISS); });
+  overlay.querySelector(".tl-btn").addEventListener("click", function () { close(HIDE_DAYS_CLICKED); });
+  overlay.addEventListener("click", function (e) { if (e.target === overlay) close(HIDE_DAYS_DISMISS); });
+
+  function start() { setTimeout(open, DELAY_MS); }
+  if (document.readyState === "complete") start();
+  else window.addEventListener("load", start);
+})();
+</script>
+<!-- ============================================================
+     CENTERED SCROLL MODAL — Techloy signup form
+     Paste this whole block into Ghost Admin → Settings →
+     Code Injection → Site Footer.
+
+     - Only runs on the homepage (incl. /page/2/ etc.),
+       author pages (/author/...) and category pages (/tag/...).
+     - Fires once the reader scrolls past ~35% of the page.
+     - Shows on EVERY page load (no persistent dismissal).
+     - Only shows to logged-OUT visitors (Ghost members are skipped).
+     - Closes via the X, clicking outside the box, or Esc.
+     ============================================================ -->
+
+<style>
+  .tl-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .35s ease, visibility .35s ease;
+  }
+  .tl-overlay.is-visible { opacity: 1; visibility: visible; }
+  .tl-overlay.is-dismissed { display: none; }
+
+  .tl-modal {
+    position: relative;
+    width: min(440px, 100%);
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 30px 80px rgba(0,0,0,0.45);
+    padding: 20px 20px 18px;
+    transform: scale(.92) translateY(12px);
+    transition: transform .35s cubic-bezier(.22,1,.36,1);
+  }
+  .tl-overlay.is-visible .tl-modal { transform: scale(1) translateY(0); }
+
+  .tl-modal__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.08);
+    color: #000;
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background .2s ease;
+    z-index: 1;
+  }
+  .tl-modal__close:hover { background: rgba(0,0,0,0.18); }
+
+  .tl-overlay .tl-modal p.tl-modal__disclaimer {
+    margin: 10px 4px 0;
+    font-size: 10px !important;
+    line-height: 1.4 !important;
+    color: #929394 !important;
+    text-align: center;
+    font-family: inherit;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+  }
+</style>
+
+<div class="tl-overlay" id="tlOverlay">
+  <div class="tl-modal" role="dialog" aria-modal="true" aria-label="Newsletter signup">
+    <button class="tl-modal__close" id="tlModalClose" aria-label="Close">&times;</button>
+
+    <!-- Your original Ghost signup form -->
+    <div style="height: 40vmin;min-height: 360px">
+      <script src="https://cdn.jsdelivr.net/ghost/signup-form@~0.3/umd/signup-form.min.js"
+        data-background-color="#ffffff"
+        data-text-color="#000000"
+        data-button-color="#FF0F1F"
+        data-button-text-color="#FFFFFF"
+        data-title="Subscribe to Techloy.com"
+        data-description="Join thousands of members getting insights, analysis, and updates on the latest in consumer tech, AI, gaming, and the products shaping modern life. JOIN FREE 👇"
+        data-icon="https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w192h192/2023/07/techloy-avatar-1.png"
+        data-site="https://www.techloy.com/"
+        data-locale="en" async></script>
+    </div>
+
+    <p class="tl-modal__disclaimer">
+      By signing up, I agree to the <a href="https://www.techloy.com/terms/" style="color:inherit;text-decoration:underline;">terms of service</a> and <a href="https://www.techloy.com/community/" style="color:inherit;text-decoration:underline;">community guidelines</a>. By subscribing, you agree to receive emails from Techloy. You can unsubscribe at any time.
+    </p>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var overlay  = document.getElementById('tlOverlay');
+    var closeBtn = document.getElementById('tlModalClose');
+
+    // ---- Page targeting: homepage, author pages, category (tag) pages ----
+    var path = window.location.pathname;
+    var bodyCls = document.body.className;
+    var isHome   = path === '/' || /^\/page\/\d+\/?$/.test(path) || /\bhome-template\b/.test(bodyCls);
+    var isAuthor = path.indexOf('/author/') === 0 || /\bauthor-template\b/.test(bodyCls);
+    var isTag    = path.indexOf('/tag/') === 0 || /\btag-template\b/.test(bodyCls);
+
+    if (!(isHome || isAuthor || isTag)) {
+      overlay.parentNode.removeChild(overlay);  // not a target page: remove and stop
+      return;
+    }
+
+    var TRIGGER = 0.35;             // scroll depth before it can appear
+    var MEMBERS_API = 'https://www.techloy.com/members/api/member/';
+
+    var dismissed = false;
+    var shown = false;
+    var allowed = false;            // true only once we know the visitor is logged out
+
+    // ---- Is this a logged-in Ghost member? ----
+    // Ghost returns 200 + member JSON when signed in, 204 (empty) when not.
+    function checkVisitor() {
+      fetch(MEMBERS_API, { credentials: 'include' })
+        .then(function (res) {
+          if (res.status === 204) return null;   // logged out
+          if (!res.ok) return null;              // treat errors as logged out
+          return res.json().catch(function () { return null; });
+        })
+        .then(function (member) {
+          if (!member) { allowed = true; onScroll(); }
+        })
+        .catch(function () {                      // network/CORS failure → treat as visitor
+          allowed = true; onScroll();
+        });
+    }
+
+    function show() {
+      overlay.classList.add('is-visible');
+      document.body.style.overflow = 'hidden';
+      shown = true;
+    }
+
+    function dismiss() {
+      dismissed = true;
+      overlay.classList.remove('is-visible');
+      document.body.style.overflow = '';
+      setTimeout(function () { overlay.classList.add('is-dismissed'); }, 350);
+    }
+
+    function onScroll() {
+      if (!allowed || dismissed || shown) return;
+      var scrollTop = window.scrollY || document.documentElement.scrollTop;
+      var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      var progress = docHeight > 0 ? scrollTop / docHeight : 0;
+      if (progress >= TRIGGER) show();
+    }
+
+    closeBtn.addEventListener('click', dismiss);
+
+    // Click anywhere outside the white box closes it
+    overlay.addEventListener('click', function (e) { if (e.target === overlay) dismiss(); });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && overlay.classList.contains('is-visible')) dismiss();
+    });
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+
+    checkVisitor();
+  })();
+</script>
+<!--
+  Techloy video watch layout for Ghost
+  Paste into: Settings → Code injection → Site Footer
+  Applies to any post tagged Videos (techloy.com/tag/videos/)
+-->
+<style>
+  /* Hide the normal feature image on video posts */
+  body.tag-videos .gh-feature-image,
+  body.tag-videos .article-image,
+  body.tag-videos .post-full-image,
+  body.tag-videos .post-feature-image { display: none !important; }
+
+  /* Full-width player */
+  .tl-watch-hero {
+    background: #000;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    padding: 32px 16px;
+    margin-bottom: 32px;
+    box-sizing: border-box;
+    border-bottom: 4px solid #ff0f1f;
+  }
+  .tl-watch-player {
+    max-width: 1100px;
+    margin: 0 auto;
+    aspect-ratio: 16 / 9;
+    background: #000;
+  }
+  .tl-watch-player iframe,
+  .tl-watch-player video,
+  .tl-watch-player figure,
+  .tl-watch-player .kg-video-container {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+  }
+  .tl-watch-label {
+    max-width: 1100px;
+    margin: 0 auto 12px;
+    font: 600 13px/1 "Poppins", sans-serif;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: #ff0f1f;
+  }
+
+  /* More videos row */
+  .tl-more-videos {
+    max-width: 1100px;
+    margin: 56px auto;
+    padding: 0 16px;
+    font-family: "Inter", sans-serif;
+  }
+  .tl-more-videos h3 {
+    font: 700 22px/1.2 "Poppins", sans-serif;
+    margin: 0;
+    padding-left: 12px;
+    border-left: 4px solid #ff0f1f;
+  }
+  .tl-more-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 20px;
+  }
+  .tl-more-card { text-decoration: none; color: inherit; }
+  .tl-more-thumb {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    background: #737373 center / cover no-repeat;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .tl-more-thumb::after {
+    content: "▶";
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 28px; color: #fff;
+    background: rgba(0,0,0,.25);
+    transition: background .2s;
+  }
+  .tl-more-card:hover .tl-more-thumb::after { background: rgba(255,15,31,.55); }
+  .tl-more-title {
+    margin-top: 10px;
+    font-weight: 600; font-size: 15px; line-height: 1.35;
+  }
+  .tl-more-date { margin-top: 4px; font-size: 13px; color: #929394; }
+  .tl-more-head {
+    display: flex; justify-content: space-between; align-items: baseline;
+    flex-wrap: wrap; gap: 8px 16px; margin-bottom: 20px;
+  }
+  .tl-more-head h3 { margin: 0; }
+  .tl-view-all {
+    font: 600 14px/1 "Poppins", sans-serif;
+    color: #ff0f1f; text-decoration: none;
+  }
+  .tl-view-all:hover { text-decoration: underline; }
+  .tl-more-actions { display: flex; justify-content: center; margin-top: 32px; }
+  .tl-load-more {
+    display: inline-block;
+    font: 600 15px/1 "Poppins", sans-serif;
+    background: #ff0f1f; color: #fff !important;
+    border: 0; border-radius: 4px; padding: 14px 28px;
+    cursor: pointer; text-decoration: none;
+  }
+  .tl-load-more:hover { background: #d90a18; }
+  .tl-load-more:disabled { opacity: .6; cursor: default; }
+</style>
+
+<script>
+(function () {
+  // ===== SETTINGS =====
+  var CONTENT_API_KEY = "83d16f3c0c136763fbc9c6ddcd";
+  var API_URL = window.location.origin;   // change if your admin domain differs
+  var VIDEO_TAG = "videos";                // slug of the Videos tag
+  var PER_PAGE = 9;                       // videos per "page" (Load more adds 9 more)
+  var VIDEOS_PAGE = "/tag/videos/";        // link to the full Videos page
+  // ====================
+
+  if (!document.body.classList.contains("tag-" + VIDEO_TAG)) return;
+
+  var content = document.querySelector(
+    ".gh-content, .post-content, .article-content, .post-full-content, .c-content"
+  );
+  if (!content) return;
+
+  // 1. Find the first video (Ghost video card, YouTube/Vimeo embed, or <video>)
+  var video =
+    content.querySelector(".kg-video-card") ||
+    content.querySelector(".kg-embed-card") ||
+    content.querySelector("iframe[src*='youtube'], iframe[src*='vimeo'], video");
+  if (!video) return;
+
+  // 1b. Add VideoObject structured data so Google can index the video
+  addVideoSchema(video);
+
+  // 2. Move it into a full-width hero at the top of the article
+  var hero = document.createElement("section");
+  hero.className = "tl-watch-hero";
+  hero.innerHTML = '<div class="tl-watch-label">Watch</div><div class="tl-watch-player"></div>';
+  hero.querySelector(".tl-watch-player").appendChild(video);
+
+  // Find the whole post layout block (article + sidebar columns), so the
+  // player and "More videos" sit full-width above and below it, not as columns
+  function isRowLayout(el) {
+    var cs = getComputedStyle(el);
+    if (cs.display.indexOf("grid") > -1) return true;
+    return cs.display.indexOf("flex") > -1 && cs.flexDirection.indexOf("column") === -1;
+  }
+  var article = content.closest("article") || content.parentNode;
+  var anchor = article;
+  while (anchor.parentElement && anchor.parentElement !== document.body &&
+         isRowLayout(anchor.parentElement)) {
+    anchor = anchor.parentElement;
+  }
+  anchor.parentNode.insertBefore(hero, anchor);
+
+  // 3. "More videos" grid with "Load more" and a link to the Videos tag page
+  var slug = window.location.pathname.split("/").filter(Boolean).pop();
+  var page = 1;
+  var section, grid, loadBtn;
+
+  function buildSection() {
+    section = document.createElement("section");
+    section.className = "tl-more-videos";
+    section.innerHTML =
+      '<div class="tl-more-head"><h3>More videos</h3>' +
+      '<a class="tl-view-all" href="' + VIDEOS_PAGE + '">View all videos &rarr;</a></div>' +
+      '<div class="tl-more-grid"></div>' +
+      '<div class="tl-more-actions"><button type="button" class="tl-load-more">Load more videos</button></div>';
+    grid = section.querySelector(".tl-more-grid");
+    loadBtn = section.querySelector(".tl-load-more");
+    loadBtn.addEventListener("click", loadPage);
+    anchor.parentNode.insertBefore(section, anchor.nextSibling);
+  }
+
+  function addCard(p) {
+    var a = document.createElement("a");
+    a.className = "tl-more-card";
+    a.href = p.url;
+    var date = new Date(p.published_at).toLocaleDateString("en-GB", {
+      day: "numeric", month: "short", year: "numeric"
+    });
+    a.innerHTML =
+      '<div class="tl-more-thumb"' +
+      (p.feature_image ? ' style="background-image:url(' + p.feature_image + ')"' : "") +
+      '></div><div class="tl-more-title"></div><div class="tl-more-date">' + date + "</div>";
+    a.querySelector(".tl-more-title").textContent = p.title;
+    grid.appendChild(a);
+  }
+
+  function loadPage() {
+    if (loadBtn) { loadBtn.disabled = true; loadBtn.textContent = "Loading..."; }
+    var url = API_URL + "/ghost/api/content/posts/?key=" + CONTENT_API_KEY +
+      "&filter=" + encodeURIComponent("tag:" + VIDEO_TAG + "+slug:-" + slug) +
+      "&limit=" + PER_PAGE + "&page=" + page +
+      "&fields=title,url,feature_image,published_at";
+
+    fetch(url)
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        if (!data.posts || !data.posts.length) {
+          if (section) loadBtn.parentNode.remove();
+          return;
+        }
+        if (!section) buildSection();
+        data.posts.forEach(addCard);
+        var next = data.meta && data.meta.pagination && data.meta.pagination.next;
+        if (next) {
+          page = next;
+          loadBtn.disabled = false;
+          loadBtn.textContent = "Load more videos";
+        } else {
+          // No more videos: swap the button for a link to the full Videos page
+          loadBtn.parentNode.innerHTML =
+            '<a class="tl-load-more" href="' + VIDEOS_PAGE + '">See all on the Videos page</a>';
+        }
+      })
+      .catch(function () {
+        if (loadBtn) { loadBtn.disabled = false; loadBtn.textContent = "Try again"; }
+      });
+  }
+
+  loadPage();
+
+  // ---- VideoObject structured data ----
+  function meta(sel) {
+    var m = document.querySelector(sel);
+    return m ? (m.getAttribute("content") || "").trim() : "";
+  }
+
+  function addVideoSchema(el) {
+    // Skip if the page already has VideoObject markup
+    var existing = document.querySelectorAll('script[type="application/ld+json"]');
+    for (var i = 0; i < existing.length; i++) {
+      if (existing[i].textContent.indexOf("VideoObject") > -1) return;
+    }
+
+    var iframe = el.tagName === "IFRAME" ? el : el.querySelector("iframe");
+    var vid = el.tagName === "VIDEO" ? el : el.querySelector("video");
+    var src = iframe ? iframe.src : "";
+    var ytMatch = src.match(/youtube(?:-nocookie)?\.com\/embed\/([\w-]{11})/);
+
+    var h1 = document.querySelector("h1");
+    var name = meta('meta[property="og:title"]') || (h1 ? h1.textContent.trim() : document.title);
+    var description = meta('meta[name="description"]') || meta('meta[property="og:description"]') || name;
+    var uploadDate = meta('meta[property="article:published_time"]');
+    var ogImage = meta('meta[property="og:image"]');
+
+    var thumbs = [];
+    if (ytMatch) thumbs.push("https://i.ytimg.com/vi/" + ytMatch[1] + "/maxresdefault.jpg");
+    if (vid && vid.getAttribute("poster")) thumbs.push(new URL(vid.getAttribute("poster"), location.href).href);
+    if (ogImage) thumbs.push(ogImage);
+    if (!thumbs.length || !uploadDate) return; // Google requires both
+
+    var schema = {
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      "name": name,
+      "description": description,
+      "thumbnailUrl": thumbs,
+      "uploadDate": uploadDate,
+      "url": location.origin + location.pathname,
+      "publisher": {
+        "@type": "Organization",
+        "name": "Techloy",
+        "url": location.origin
+      }
+    };
+    if (ytMatch) schema.embedUrl = "https://www.youtube.com/embed/" + ytMatch[1];
+    else if (src) schema.embedUrl = src;
+    if (vid) {
+      var file = vid.currentSrc || vid.getAttribute("src") ||
+        (vid.querySelector("source") && vid.querySelector("source").getAttribute("src"));
+      if (file) schema.contentUrl = new URL(file, location.href).href;
+      if (vid.duration && isFinite(vid.duration)) {
+        schema.duration = "PT" + Math.round(vid.duration) + "S";
+      }
+    }
+
+    var tag = document.createElement("script");
+    tag.type = "application/ld+json";
+    tag.textContent = JSON.stringify(schema);
+    document.head.appendChild(tag);
+  }
+})();
+</script>
+<!--
+  Techloy homepage videos carousel for Ghost
+  Paste into: Settings → Code injection → Site footer (below the video watch script)
+  Shows the latest posts tagged Videos on the homepage, after the Entertainment section
+-->
+<style>
+  .tl-vc {
+    background: #000;
+    color: #fff;
+    border-top: 4px solid #ff0f1f;
+    padding: 40px 0 44px;
+    margin: 40px 0;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    font-family: "Inter", sans-serif;
+  }
+  .tl-vc-inner { max-width: 1200px; margin: 0 auto; padding: 0 16px; box-sizing: border-box; }
+  .tl-vc-head {
+    display: flex; justify-content: space-between; align-items: center;
+    flex-wrap: wrap; gap: 12px 20px; margin-bottom: 22px;
+  }
+  .tl-vc-title {
+    font: 700 26px/1.1 "Poppins", sans-serif; margin: 0; color: #fff;
+    padding-left: 12px; border-left: 4px solid #ff0f1f;
+  }
+  .tl-vc-tools { display: flex; align-items: center; gap: 10px; }
+  .tl-vc-all {
+    font: 600 14px/1 "Poppins", sans-serif; color: #fff !important;
+    text-decoration: none; margin-right: 6px;
+  }
+  .tl-vc-all:hover { color: #ff0f1f !important; }
+  .tl-vc-arrow {
+    width: 40px; height: 40px; border-radius: 50%;
+    border: 1px solid #737373; background: transparent; color: #fff;
+    font-size: 18px; line-height: 1; cursor: pointer;
+    display: inline-flex; align-items: center; justify-content: center;
+  }
+  .tl-vc-arrow:hover:not(:disabled) { background: #ff0f1f; border-color: #ff0f1f; }
+  .tl-vc-arrow:disabled { opacity: .35; cursor: default; }
+  .tl-vc-track {
+    display: grid; grid-auto-flow: column;
+    grid-auto-columns: calc((100% - 3 * 20px) / 4);
+    gap: 20px; overflow-x: auto; scroll-snap-type: x mandatory;
+    scroll-behavior: smooth; scrollbar-width: none; padding-bottom: 4px;
+  }
+  .tl-vc-track::-webkit-scrollbar { display: none; }
+  @media (max-width: 1000px) { .tl-vc-track { grid-auto-columns: calc((100% - 2 * 20px) / 3); } }
+  @media (max-width: 700px)  { .tl-vc-track { grid-auto-columns: 72%; gap: 14px; } }
+  .tl-vc-card { scroll-snap-align: start; color: #fff !important; text-decoration: none; min-width: 0; }
+  .tl-vc-thumb {
+    position: relative; aspect-ratio: 16 / 9; border-radius: 6px; overflow: hidden;
+    background: #1a1a1a center / cover no-repeat;
+  }
+  .tl-vc-thumb::after {
+    content: "▶"; position: absolute; left: 12px; bottom: 12px;
+    width: 40px; height: 40px; border-radius: 50%;
+    background: #ff0f1f; color: #fff; font-size: 15px;
+    display: flex; align-items: center; justify-content: center; padding-left: 3px;
+    box-sizing: border-box; transition: transform .2s;
+  }
+  .tl-vc-card:hover .tl-vc-thumb::after { transform: scale(1.12); }
+  .tl-vc-name { margin-top: 12px; font-weight: 600; font-size: 15px; line-height: 1.35; }
+  .tl-vc-date { margin-top: 6px; font-size: 13px; color: #929394; }
+  @media (prefers-reduced-motion: reduce) {
+    .tl-vc-track { scroll-behavior: auto; }
+    .tl-vc-thumb::after { transition: none; }
+  }
+</style>
+
+<script>
+(function () {
+  // ===== SETTINGS =====
+  var CONTENT_API_KEY = "83d16f3c0c136763fbc9c6ddcd";
+  var API_URL = window.location.origin;
+  var VIDEO_TAG = "videos";            // slug of the Videos tag
+  var VIDEOS_PAGE = "/tag/videos/";    // "View all" link
+  var COUNT = 12;                      // videos in the carousel
+  var HEADING = "Videos";
+  // Where to put it: the carousel goes right after the homepage section
+  // with this heading. Change to "Startups", "Consumer Tech", etc. to move it.
+  var AFTER_SECTION = "Entertainment";
+  // Optional: a CSS selector to use instead of the heading (leave empty)
+  var INSERT_AFTER = "";
+  // ====================
+
+  if (!document.body.classList.contains("home-template")) return;
+
+  var url = API_URL + "/ghost/api/content/posts/?key=" + CONTENT_API_KEY +
+    "&filter=" + encodeURIComponent("tag:" + VIDEO_TAG) +
+    "&limit=" + COUNT + "&fields=title,url,feature_image,published_at";
+
+  fetch(url)
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      if (!data.posts || !data.posts.length) return;
+
+      var wrap = document.createElement("section");
+      wrap.className = "tl-vc";
+      wrap.setAttribute("aria-label", HEADING);
+      wrap.innerHTML =
+        '<div class="tl-vc-inner">' +
+          '<div class="tl-vc-head">' +
+            '<h2 class="tl-vc-title"></h2>' +
+            '<div class="tl-vc-tools">' +
+              '<a class="tl-vc-all" href="' + VIDEOS_PAGE + '">View all &rarr;</a>' +
+              '<button type="button" class="tl-vc-arrow tl-vc-prev" aria-label="Previous videos">&#8592;</button>' +
+              '<button type="button" class="tl-vc-arrow tl-vc-next" aria-label="Next videos">&#8594;</button>' +
+            '</div>' +
+          '</div>' +
+          '<div class="tl-vc-track"></div>' +
+        '</div>';
+      wrap.querySelector(".tl-vc-title").textContent = HEADING;
+      var track = wrap.querySelector(".tl-vc-track");
+
+      data.posts.forEach(function (p) {
+        var a = document.createElement("a");
+        a.className = "tl-vc-card";
+        a.href = p.url;
+        var date = new Date(p.published_at).toLocaleDateString("en-GB", {
+          day: "numeric", month: "short", year: "numeric"
+        });
+        a.innerHTML =
+          '<div class="tl-vc-thumb"' +
+          (p.feature_image ? ' style="background-image:url(' + p.feature_image + ')"' : "") +
+          '></div><div class="tl-vc-name"></div><div class="tl-vc-date">' + date + "</div>";
+        a.querySelector(".tl-vc-name").textContent = p.title;
+        track.appendChild(a);
+      });
+
+      // Place it
+      var target = (INSERT_AFTER && document.querySelector(INSERT_AFTER)) ||
+                   findSection(AFTER_SECTION);
+      if (target) {
+        target.parentNode.insertBefore(wrap, target.nextSibling);
+      } else {
+        var main = document.querySelector("main, .site-main, .gh-main, #site-main") || document.body;
+        main.insertBefore(wrap, main.firstChild);
+      }
+
+      // Arrows
+      var prev = wrap.querySelector(".tl-vc-prev");
+      var next = wrap.querySelector(".tl-vc-next");
+      function update() {
+        prev.disabled = track.scrollLeft <= 4;
+        next.disabled = track.scrollLeft + track.clientWidth >= track.scrollWidth - 4;
+      }
+      prev.addEventListener("click", function () { track.scrollBy({ left: -track.clientWidth, behavior: "smooth" }); });
+      next.addEventListener("click", function () { track.scrollBy({ left: track.clientWidth, behavior: "smooth" }); });
+      track.addEventListener("scroll", update, { passive: true });
+      window.addEventListener("resize", update);
+      update();
+    })
+    .catch(function () {});
+
+  // Finds the whole homepage block whose heading reads e.g. "/ Entertainment"
+  function findSection(name) {
+    if (!name) return null;
+    var want = name.toLowerCase();
+    var heads = document.querySelectorAll("main h1, main h2, main h3, main h4, h2, h3, h4");
+    var heading = null;
+    for (var i = 0; i < heads.length; i++) {
+      var h = heads[i];
+      if (h.closest("header, nav, footer")) continue;
+      var text = h.textContent.replace(/view all/i, "").replace(/[\/|>]/g, "").trim().toLowerCase();
+      if (text === want) { heading = h; break; }
+    }
+    if (!heading) return null;
+
+    // Section headings share a tag and class; climb until the next level up
+    // would contain another section's heading, so we stop at this section's box
+    var sel = heading.tagName.toLowerCase() +
+      (heading.classList.length ? "." + heading.classList[0] : "");
+    var box = heading;
+    while (box.parentElement && box.parentElement !== document.body &&
+           box.parentElement.querySelectorAll(sel).length < 2) {
+      box = box.parentElement;
+    }
+    return box;
+  }
+})();
+</script>
+    </body>
+</html>

@@ -16,6 +16,9 @@
 //       Takes a full snapshot (page, text, screenshot, post text, and a Wayback
 //       copy if missing) of every source that has no snapshot yet, and writes
 //       the snapshot path back into the YAML. The weekly GitHub Action runs this.
+//       When the page itself can't be read (a paywall, a bot check, a dead
+//       link) and the source has an archive link, the archived copy is saved
+//       instead, marked in meta.json as a copy of the original address.
 //
 // Options: --match <re>  only sources whose URL matches (with --archive-missing / --snapshot-missing)
 //          --no-archive  skip the Wayback Machine
@@ -116,12 +119,14 @@ async function archive(url) {
   }
 }
 
-async function snapshot(url, { doArchive = true, doShot = true } = {}) {
+async function snapshot(url, { doArchive = true, doShot = true, copyOf = null } = {}) {
   const host = new URL(url).hostname.replace(/^www\./, '');
   const dirName = `${today()}-${host}-${sha256(url).slice(0, 8)}`;
   const dir = path.join(ROOT, 'snapshots', dirName);
   await mkdir(dir, { recursive: true });
   const meta = { url, captured_at: new Date().toISOString(), tool: 'said-did capture', files: {} };
+  // An archived copy saved because the original couldn't be read.
+  if (copyOf) meta.copy_of = copyOf;
   const save = async (name, data) => {
     // GitHub push protection rejects any commit with a credential in it. Some
     // pages carry one (LessWrong embeds a Mapbox token; a page about a leak can
@@ -330,7 +335,15 @@ async function fillMissing(mode) {
             done.set(url, { archive: await archive(url) });
           } else {
             const { dir, meta } = await snapshot(url, { doArchive: !src.get('archive') && !flag('no-archive'), doShot: !flag('no-shot') });
-            done.set(url, { snapshot: dir, archive: meta.archive });
+            const archived = src.get('archive') || meta.archive?.url;
+            if (!dir && archived && archived !== url) {
+              // Paywalled, bot-checked or gone: save the archived copy instead.
+              console.log(`  trying the archived copy ${archived}`);
+              const copy = await snapshot(archived, { doArchive: false, doShot: !flag('no-shot'), copyOf: url });
+              done.set(url, { snapshot: copy.dir, archive: meta.archive });
+            } else {
+              done.set(url, { snapshot: dir, archive: meta.archive });
+            }
           }
           await sleep(process.env.IA_ACCESS_KEY ? 2000 : 8000); // stay under anonymous Wayback rate limits
         }
