@@ -42,8 +42,8 @@ sources:
     date: 2026-02-04
     type: reporting
     snapshot: snapshots/2026-09-29-axios.com-305719ac
-  - title: Claude on X ("Ads are coming to AI. But not to Claude.")
-    publisher: X
+  - title: Claude on Twitter ("Ads are coming to AI. But not to Claude.")
+    publisher: Twitter
     url: https://x.com/claudeai/status/2019071113741906403
     date: 2026-02-04
     type: primary
@@ -62,8 +62,8 @@ updates:
       advertisers'? genuine question, your blog post makes it sound like you're
       keeping the option open." This record found no public answer.
     sources:
-      - title: Greg Brockman on X
-        publisher: X
+      - title: Greg Brockman on Twitter
+        publisher: Twitter
         url: https://x.com/gdb/status/2019300639155900608
         date: 2026-02-05
         type: primary

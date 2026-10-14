@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parseDate, validate, derive, loadAll, quoteSegments, normalizeForMatch, tallyCommitments } from '../scripts/lib.mjs';
+import { parseDate, periodEnd, validate, derive, loadAll, quoteSegments, normalizeForMatch, tallyCommitments } from '../scripts/lib.mjs';
 
 test('parseDate accepts year, month and day precision and rejects impossible dates', () => {
   assert.equal(parseDate('2024').precision, 'year');
@@ -96,6 +96,19 @@ test('a failed statement needs a receipt: a contradicting action or its own outc
   assert.match(joined, /outcome needs text/);
   assert.match(joined, /outcome.date must be/);
   assert.match(joined, /unknown field "note"/);
+});
+
+test('a due date is validated and flagged once it has passed on an open promise', () => {
+  const d = base();
+  d.entries.pop();
+  Object.assign(d.entries[0], { status: 'open', last_checked: '2020-02-01', breaks_if: 'x', due: '2021-03' });
+  assert.match(validate(d).warnings.join('\n'), /deadline \(2021-03\) has passed/);
+  d.entries[0].due = '2999';
+  assert.deepEqual(validate(d).warnings, []);
+  d.entries[0].due = 'soon';
+  assert.match(validate(d).errors.join('\n'), /due must be/);
+  assert.equal(periodEnd('2027-03'), Date.UTC(2027, 3, 1) - 1);
+  assert.equal(periodEnd('2027'), Date.UTC(2028, 0, 1) - 1);
 });
 
 const doc = () => ({

@@ -33,23 +33,23 @@ breaks_if: >-
   never released.
 patterns: []
 sources:
-  - title: Anthropic on X ("we’re sharing our Constitutional AI feedback interface
+  - title: Anthropic on Twitter ("we’re sharing our Constitutional AI feedback interface
       with a larger set of people")
-    publisher: X
+    publisher: Twitter
     url: https://x.com/AnthropicAI/status/1604929999743508480
     date: 2022-12-19
     type: primary
     archive: https://web.archive.org/web/20230106211832/https://twitter.com/AnthropicAI/status/1604929999743508480
     snapshot: snapshots/2026-10-13-x.com-98a8b810
-  - title: Anthropic on X ("share the resulting data back to the community")
-    publisher: X
+  - title: Anthropic on Twitter ("share the resulting data back to the community")
+    publisher: Twitter
     url: https://x.com/AnthropicAI/status/1604930004420214784
     date: 2022-12-19
     type: primary
     archive: https://web.archive.org/web/20230203191734/https://twitter.com/AnthropicAI/status/1604930004420214784
     snapshot: snapshots/2026-10-13-x.com-fbcb6b72
-  - title: Anthropic on X ("we plan to release the data from this experiment")
-    publisher: X
+  - title: Anthropic on Twitter ("we plan to release the data from this experiment")
+    publisher: Twitter
     url: https://x.com/AnthropicAI/status/1604930009566629888
     date: 2022-12-19
     type: primary

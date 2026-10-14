@@ -32,8 +32,8 @@ sources:
     date: 2025-02-25
     type: primary
     snapshot: snapshots/2026-09-30-cdn.openai.com-8c0f2ac2
-  - title: OpenAI on X (sharing the system card)
-    publisher: X
+  - title: OpenAI on Twitter (sharing the system card)
+    publisher: Twitter
     url: https://x.com/OpenAI/status/1894454197967528224
     date: 2025-02-25
     type: primary
@@ -46,8 +46,8 @@ updates:
       potentially dangerous territory on some capabilities," he was "sad there
       wasn't a system card or even any brief discussion of red teaming."
     sources:
-      - title: Miles Brundage on X
-        publisher: X
+      - title: Miles Brundage on Twitter
+        publisher: Twitter
         url: https://x.com/Miles_Brundage/status/1886347097571774875
         date: 2025-02-03
         type: primary
@@ -61,20 +61,20 @@ updates:
       that," adding that "lax processes/corner-cutting/groupthink get more
       dangerous each day."
     sources:
-      - title: OpenAI on X (o3-pro launch)
-        publisher: X
+      - title: OpenAI on Twitter (o3-pro launch)
+        publisher: Twitter
         url: https://x.com/OpenAI/status/1932530423911096508
         date: 2025-06-10
         type: primary
         snapshot: snapshots/2026-09-30-x.com-6906c193
-      - title: Miles Brundage on X
-        publisher: X
+      - title: Miles Brundage on Twitter
+        publisher: Twitter
         url: https://x.com/Miles_Brundage/status/1932532943555281077
         date: 2025-06-10
         type: primary
         snapshot: snapshots/2026-09-30-x.com-97beecb4
-      - title: Miles Brundage on X
-        publisher: X
+      - title: Miles Brundage on Twitter
+        publisher: Twitter
         url: https://x.com/Miles_Brundage/status/1932547422183698562
         date: 2025-06-10
         type: primary

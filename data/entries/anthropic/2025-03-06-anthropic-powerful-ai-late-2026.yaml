@@ -25,6 +25,7 @@ summary: >-
 concreteness: measurable
 status: open
 last_checked: 2026-10-13
+due: '2027-04'
 breaks_if: >-
   Early 2027 passes without systems meeting Anthropic's own definition of
   powerful AI, and Anthropic does not say so; or the definition is quietly
@@ -39,15 +40,15 @@ sources:
     type: primary
     archive: https://web.archive.org/web/20261003075823/https://www.anthropic.com/news/anthropic-s-recommendations-ostp-u-s-ai-action-plan
     snapshot: snapshots/2026-10-03-anthropic.com-bce43ddf
-  - title: Jack Clark on X ("As I said in my testimony yesterday")
-    publisher: X
+  - title: Jack Clark on Twitter ("As I said in my testimony yesterday")
+    publisher: Twitter
     url: https://x.com/jackclarkSF/status/1938293432893772103
     date: 2025-06-26
     type: primary
     archive: https://web.archive.org/web/20250705222025/https://x.com/jackclarkSF/status/1938293432893772103
     snapshot: snapshots/2026-10-03-x.com-0f5a5817
-  - title: Jack Clark on X ("The timeline we see is end of 2026/early 2027")
-    publisher: X
+  - title: Jack Clark on Twitter ("The timeline we see is end of 2026/early 2027")
+    publisher: Twitter
     url: https://x.com/jackclarkSF/status/1967785055994122443
     date: 2025-09-16
     type: primary
@@ -98,15 +99,15 @@ updates:
       wrote that "no AI system has yet had a simple and rebellious insight on
       par with stuff like coming up with general relativity, CRISPR, etc."
     sources:
-      - title: Jack Clark on X ("yes")
-        publisher: X
+      - title: Jack Clark on Twitter ("yes")
+        publisher: Twitter
         url: https://x.com/jackclarkSF/status/2030417306288066780
         date: 2026-03-07
         type: primary
         archive: https://web.archive.org/web/20260428181713/https://x.com/jackclarkSF/status/2030417306288066780
         snapshot: snapshots/2026-10-13-x.com-25ad0d52
-      - title: Jack Clark on X ("Just to operationalize this")
-        publisher: X
+      - title: Jack Clark on Twitter ("Just to operationalize this")
+        publisher: Twitter
         url: https://x.com/jackclarkSF/status/2030420665569092091
         date: 2026-03-07
         type: primary

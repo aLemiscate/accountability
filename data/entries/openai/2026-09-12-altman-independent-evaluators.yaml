@@ -22,6 +22,7 @@ summary: >-
 concreteness: directional
 status: open
 last_checked: 2026-10-13
+due: '2027-03'
 breaks_if: >-
   No independent evaluators are working inside OpenAI with access comparable to
   its own risk staff by March 2027 (the same date this record applies to
@@ -30,8 +31,8 @@ breaks_if: >-
 patterns: [unfalsifiable]
 related: [2026-09-12-pace-the-frontier-embedded-evaluators, 2026-08-18-altman-pause-act-unilaterally]
 sources:
-  - title: Sam Altman on X ("we will do the same")
-    publisher: X
+  - title: Sam Altman on Twitter ("we will do the same")
+    publisher: Twitter
     url: https://x.com/sama/status/2098811563415150910
     date: 2026-09-12
     type: primary

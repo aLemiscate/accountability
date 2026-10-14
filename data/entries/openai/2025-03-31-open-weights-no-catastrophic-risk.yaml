@@ -25,15 +25,15 @@ breaks_if: >-
 patterns: []
 related: [2025-04-15-preparedness-framework-v2]
 sources:
-  - title: Johannes Heidecke on X ("will not release models we believe pose
+  - title: Johannes Heidecke on Twitter ("will not release models we believe pose
       catastrophic risks")
-    publisher: X
+    publisher: Twitter
     url: https://x.com/JoHeidecke/status/1906799330599813432
     date: 2025-03-31
     type: primary
     snapshot: snapshots/2026-09-30-x.com-25c9d295
-  - title: Johannes Heidecke on X ("adversarial fine-tuning")
-    publisher: X
+  - title: Johannes Heidecke on Twitter ("adversarial fine-tuning")
+    publisher: Twitter
     url: https://x.com/JoHeidecke/status/1906799389139722663
     date: 2025-03-31
     type: primary
@@ -44,8 +44,8 @@ updates:
       Altman delayed the release a week before launch: "we need time to run
       additional safety tests and review high-risk areas."
     sources:
-      - title: Sam Altman on X
-        publisher: X
+      - title: Sam Altman on Twitter
+        publisher: Twitter
         url: https://x.com/sama/status/1943837550369812814
         date: 2025-07-12
         type: primary
@@ -67,8 +67,8 @@ updates:
         date: 2025-08-05
         type: primary
         snapshot: snapshots/2026-09-30-arxiv.org-9749249c
-      - title: Steven Adler on X ("Credit where it's due")
-        publisher: X
+      - title: Steven Adler on Twitter ("Credit where it's due")
+        publisher: Twitter
         url: https://x.com/sjgadler/status/1952790678175662527
         date: 2025-08-05
         type: primary
