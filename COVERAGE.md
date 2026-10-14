@@ -13,18 +13,18 @@ lobbying and political money, and the industry baseline. The rules for what coun
 
 | | Said | Did | Total |
 | --- | --: | --: | --: |
-| OpenAI | 59 | 53 | 112 |
-| Anthropic | 35 | 30 | 65 |
-| **Total** | **94** | **83** | **177** |
+| OpenAI | 62 | 54 | 116 |
+| Anthropic | 37 | 30 | 67 |
+| **Total** | **99** | **84** | **183** |
 
 Status of the "said" entries:
 
 | | Standing | Kept | Eroded | Contradicted | Broken | Reversed |
 | --- | --: | --: | --: | --: | --: | --: |
-| OpenAI | 20 | 8 | 13 | 6 | 4 | 8 |
-| Anthropic | 17 | 6 | 3 | 5 | 3 | 1 |
+| OpenAI | 23 | 8 | 13 | 6 | 4 | 8 |
+| Anthropic | 19 | 6 | 3 | 5 | 3 | 1 |
 
-142 of the 143 quotes whose sources have a saved snapshot match that text word
+147 of the 148 quotes whose sources have a saved snapshot match that text word
 for word. The other is Altman's November 2023 remark on voice cloning, quoted
 from the event's audio (the saved page is the event listing). For one quote, the White House
 accord, the text exists only as an image, and the match is against a
@@ -325,7 +325,12 @@ Follow-ups to the October 13 audit, in six parts.
   Chinese and Russian accounts.
 - **Paywalled and blocked pages.** Capture now saves a source's archived
   copy when the page itself is paywalled, bot-checked or gone, and marks the
-  snapshot as a copy of the original address.
+  snapshot as a copy of the original address. Run on GitHub, it saved 13 of
+  the 21 sources that had no snapshot. The New York Times' 2024 story on
+  training data, the Business Wire release, both Inc. stories, one Forbes
+  story and three Techmeme pages were archived in full; the two Wall Street Journal
+  stories, the 2026 New York Times story and the two Washington Post stories
+  hold only the opening before the paywall.
 - **Labels and schedule.** Source titles and publisher labels say "Twitter"
   (558 labels changed). A weekly news sweep runs as a scheduled Claude Code
   session every Monday at 06:46 UTC and opens a pull request for review;
@@ -686,12 +691,13 @@ about other companies. Every source was read in full.
 
 - **Pages without a snapshot.** The Capture workflow on GitHub's runners saved
   the pages this review couldn't reach, including every openai.com page the
-  record cites. 21 of the 923 distinct source addresses (entries, updates,
-  commitment grades and industry notes) still have no snapshot: paywalled
-  stories (Wall Street Journal, Washington Post, New York Times, Forbes,
-  Reuters, Fast Company) and sites that refuse automated requests (Techmeme,
-  Inc., SSRN, Slashdot, Business Wire, and the Conversations with Tyler
-  transcript). Those are cited by URL, and quoted through reporting that
+  record cites. 8 of the 938 distinct source addresses (entries, updates,
+  commitment grades and industry notes) still have no snapshot, because
+  neither the page nor its archived copy could be read: two Forbes stories, a
+  Washington Post op-ed, Reuters, Fast Company, SSRN, Slashdot and the
+  Conversations with Tyler transcript. Thirteen others are saved from their
+  archived copies, five of them only up to the paywall (see "What the October
+  14 pass added"). Those are cited by URL, and quoted through reporting that
   reproduced them. Bot checks and empty pages are no longer saved as
   snapshots, so a blocked source shows up here instead of looking captured.
 - **Paywalled and non-English reporting.** Wall Street Journal, New York Times,
