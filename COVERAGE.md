@@ -345,7 +345,7 @@ per-person table and method are in [inbox/spoken/README.md](inbox/spoken/README.
 | Decisions | R, in the record | L, lead | C, context | O, left out |
 | --- | --: | --: | --: | --: |
 | Anthropic speakers | 22 | 19 | 306 | 82 |
-| OpenAI speakers | 33 | 34 | 411 | 107 |
+| OpenAI speakers | 34 | 33 | 411 | 107 |
 | Joint appearance | 0 | 0 | 2 | 1 |
 
 - **Transcripts:** 14 official (govinfo.gov hearings, the UN record, CNN), 6

@@ -1,0 +1,57 @@
+title: Anthropic promises "Enterprise Frontier Safeguards," privacy with misuse
+  monitoring, "broadly available later this fall"
+date: 2026-09-01
+org: anthropic
+type: said
+kind: commitment
+who: [anthropic]
+venue: Anthropic announcement, "Developing Enterprise Frontier Safeguards with
+  our customers"
+quote: >-
+  Enterprise Frontier Safeguards will roll out to customers in phases, with the
+  goal of making it broadly available later this fall.
+summary: >-
+  Anthropic introduced 30-day data retention with Claude Fable 5, saying that
+  detecting sophisticated misuse "requires storing data for a meaningful period
+  of time so that it can be correlated across time and accounts," and that the
+  policy "was not motivated by a desire to train on enterprise data: Anthropic
+  has never trained on enterprise data without explicit permission, and never
+  will." Customers in regulated industries found retention hard to accept, so
+  Anthropic designed EFS: activity data used for monitoring is stored in the
+  customer's own cloud account, automated systems flag misuse without Anthropic
+  staff reviewing it, and flags go to the customer's own reviewers. Eligible
+  customers get zero retention on Fable 5 and 5.1 until EFS is ready. On Oct. 6
+  Anthropic repeated that EFS would be available "later this fall."
+concreteness: measurable
+status: open
+last_checked: 2026-10-14
+due: '2026-12'
+breaks_if: >-
+  EFS is not broadly available to customers by the end of December 2026, or
+  launches with monitoring data held by Anthropic rather than in storage the
+  customer controls.
+patterns: [coming-weeks]
+related: [2026-09-29-private-inference-this-fall]
+sources:
+  - title: Developing Enterprise Frontier Safeguards with our customers
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/enterprise-frontier-safeguards
+    date: 2026-09-01
+    type: primary
+    snapshot: snapshots/2026-10-14-anthropic.com-b085c7f1
+  - title: Expanding the Cyber Verification Program
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/cyber-verification-program
+    date: 2026-10-06
+    type: primary
+    snapshot: snapshots/2026-10-14-anthropic.com-2bd8707f
+note: >-
+  Recorded alongside OpenAI's Private Inference, promised for this fall.
+  Anthropic has required 30-day retention for its most capable models since
+  June; OpenAI reserved the right in April to drop zero retention for specific
+  customers. Both now promise privacy that keeps misuse monitoring, and in both
+  designs the data used for monitoring is still kept, in storage the customer
+  controls. Retention for these models is graded in the commitments inventory
+  (Anthropic privacy and data use). The "never will" on training is a standing
+  promise this entry also holds Anthropic to. Fall ends Dec. 21; the due date
+  allows to the end of December.

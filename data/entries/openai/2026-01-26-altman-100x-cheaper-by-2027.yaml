@@ -1,0 +1,53 @@
+title: Altman expects GPT-5.2-level intelligence to cost at least 100 times less
+  by the end of 2027
+date: 2026-01-26
+org: openai
+type: said
+kind: claim
+who: [sam-altman, openai]
+venue: OpenAI Town Hall with AI builders, livestreamed on YouTube
+quote: >-
+  GPT 5.2x level intelligence by the end of 2027 for at least 100x less
+summary: >-
+  At a livestreamed town hall with developers, Altman said OpenAI expects to
+  deliver intelligence at the level of GPT-5.2 for at least a hundredth of the
+  price by the end of 2027. He added that OpenAI had paid less attention to
+  speed, and that some users would pay more for answers delivered in a fraction
+  of the time. 36Kr's translated account has him calling it a goal: "to reduce
+  the intellectual cost at the level of GPT - 5.2 by at least 100 times by the
+  end of 2027."
+concreteness: measurable
+status: open
+last_checked: 2026-10-14
+due: '2027'
+breaks_if: >-
+  By the end of 2027, no OpenAI model that matches GPT-5.2's results on the
+  benchmarks OpenAI reported for it is priced at a hundredth of GPT-5.2's
+  January 2026 API price or less.
+patterns: []
+related: []
+sources:
+  - title: "Sam Altman's OpenAI Town Hall: 8 Major Reveals on Pricing, Safety, and
+      GPT-5"
+    publisher: Techloy
+    url: https://www.techloy.com/sam-altmans-openai-town-hall-8-major-reveals-on-pricing-safety-and-gpt-5/
+    date: 2026-01-27
+    type: reporting
+    snapshot: snapshots/2026-10-14-techloy.com-888b7916
+  - title: 'Altman Admits "Messed Up": GPT - 5.2 Sacrifices Writing for Programming,
+      100x Cost Reduction Next Year, Agents Confirmed for Permanent Work'
+    publisher: 36Kr
+    url: https://eu.36kr.com/en/p/3657136054984840
+    type: reporting
+    snapshot: snapshots/2026-10-14-eu.36kr.com-2f4b82d3
+  - title: '⚡ OpenAI Town Hall: что было на трансляции.'
+    publisher: vc.ru
+    url: https://vc.ru/chatgpt/2708037-openai-town-hall-klyuchevye-momenty
+    type: reporting
+    snapshot: snapshots/2026-10-14-vc.ru-aed457d5
+note: >-
+  Quoted as Techloy reproduced it; Russian reporting (vc.ru) gives the same
+  target and also writes "5.2X." The recording is on YouTube only, which refuses
+  this machine, GitHub's runners and the transcript services and mirrors tried,
+  so the wording could not be checked against the audio. Found while looking for
+  ways around the YouTube block.

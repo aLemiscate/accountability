@@ -1,0 +1,65 @@
+title: Canada's privacy regulators find OpenAI trained ChatGPT in breach of
+  privacy law; OpenAI had retired the early models and commits to fixes
+date: 2026-05-06
+org: openai
+type: did
+kind: outcome
+who: [openai]
+summary: >-
+  The Office of the Privacy Commissioner of Canada and the privacy regulators of
+  Quebec, British Columbia and Alberta closed a joint investigation, begun in
+  April 2023, into the GPT-3.5 and GPT-4 models behind ChatGPT. They concluded
+  that the way OpenAI initially trained ChatGPT did not comply with federal and
+  provincial privacy laws. OpenAI collected vast amounts of personal
+  information, which could include health conditions, political views and
+  information about children, without valid consent; gave insufficient notice
+  that answers about people could be inaccurate; did not give everyone an easy
+  way to access, correct and delete their information; and released ChatGPT
+  "without having fully addressed known privacy risks, and without establishing
+  data-deletion rules." By then OpenAI had retired the earlier models and
+  started masking personal information in training data with a filtering tool.
+  The federal office found the complaint well-founded and "conditionally
+  resolved" on the strength of OpenAI's commitments (see related). British
+  Columbia and Alberta found it well-founded and unresolved, holding that models
+  trained on scraped data still breach their consent rules; Quebec found it
+  unresolved on consent.
+patterns: [take-first]
+related:
+  [
+    2026-05-06-canada-privacy-commitments,
+    2024-12-20-italy-privacy-fine,
+    2026-02-26-tumbler-ridge-no-police-referral
+  ]
+sources:
+  - title: 'PIPEDA Findings #2026-002: Overview of the Joint Investigation of OpenAI
+      OpCo, LLC'
+    publisher: Office of the Privacy Commissioner of Canada
+    url: https://priv.gc.ca/en/opc-actions-and-decisions/investigations/investigations-into-businesses/2026/pipeda-2026-002-overview/
+    date: 2026-05-06
+    type: primary
+    snapshot: snapshots/2026-10-14-priv.gc.ca-7b6a0259
+  - title: 'Backgrounder: Summary of joint investigation into OpenAI’s ChatGPT'
+    publisher: Office of the Privacy Commissioner of Canada
+    url: https://www.priv.gc.ca/en/opc-news/news-and-announcements/2026/bg-info_openai_260506/
+    date: 2026-05-06
+    type: primary
+    snapshot: snapshots/2026-10-14-priv.gc.ca-f8938647
+  - title: 'OpenAI did not respect Canadian privacy laws with ChatGPT: probe'
+    publisher: BNN Bloomberg (The Canadian Press)
+    url: https://www.bnnbloomberg.ca/business/2026/05/06/openai-did-not-respect-privacy-laws-in-developing-chatgpt-probe-finds/
+    date: 2026-05-06
+    type: reporting
+    snapshot: snapshots/2026-10-14-bnnbloomberg.ca-a762c8c1
+response: >-
+  The regulators wrote that OpenAI "generally disagreed with our findings –
+  asserting that it was compliant with the Acts in most respects." A
+  spokesperson, Shane Bauer, said the company had published a blog post for
+  Canadian users "following a collaborative process with the commissioners," and
+  wrote: "We care very deeply about protecting our users' privacy."
+note: >-
+  Found through a search of reporting in other languages (Korean and German
+  outlets covered it). The findings concern models OpenAI no longer offers, and
+  no penalty was imposed. Asked the same day about the Tumbler Ridge shooting,
+  Commissioner Philippe Dufresne said it raised the question of "what should be
+  the duty of organizations in terms of disclosing risks to authorities." No
+  comparable regulator's finding on Anthropic's training data was found.

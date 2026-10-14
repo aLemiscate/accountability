@@ -1,0 +1,19 @@
+{
+  "url": "https://venturebeat.com/ai/openais-new-private-intelligence-targets-a-growing-enterprise-concern-who-can-see-your-ai-data/",
+  "captured_at": "2026-10-14T02:08:06.150Z",
+  "tool": "said-did capture",
+  "files": {
+    "page.txt": "f1c7fd9c7eb390d501022bdbe97b705b9c784aeffd9274396c950bd0b300cc8c"
+  },
+  "http_status": 200,
+  "final_url": "https://venturebeat.com/ai/openais-new-private-intelligence-targets-a-growing-enterprise-concern-who-can-see-your-ai-data",
+  "content_type": "text/html; charset=utf-8",
+  "title": "OpenAI’s new ‘Private Intelligence' targets a growing enterprise concern: who can see your AI data? | VentureBeat",
+  "omitted": {
+    "file": "page.html",
+    "bytes": 132801,
+    "sha256": "2bf8473ddc994df0329f4e54e073d5efa713a443f1252f483242baca1159cbf4",
+    "reason": "the page contains a credential that GitHub push protection blocks; page.txt holds its text with the credential masked"
+  },
+  "rendered_status": 502
+}
