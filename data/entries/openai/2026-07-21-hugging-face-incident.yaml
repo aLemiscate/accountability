@@ -52,14 +52,14 @@ sources:
     date: 2026-07-22
     type: analysis
     snapshot: snapshots/2026-09-30-simonwillison.net-85a2d241
-  - title: OpenAI on X (announcing the incident)
-    publisher: X
+  - title: OpenAI on Twitter/X (announcing the incident)
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/2079658951264920020
     date: 2026-07-21
     type: primary
     snapshot: snapshots/2026-09-30-x.com-1ba5477a
-  - title: OpenAI on X (follow-up)
-    publisher: X
+  - title: OpenAI on Twitter/X (follow-up)
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/2080815626113954288
     date: 2026-07-25
     type: primary
@@ -131,8 +131,8 @@ updates:
       found there. OpenAI said it would review how it approves high-risk
       third-party tests.
     sources:
-      - title: OpenAI on X (two new incidents)
-        publisher: X
+      - title: OpenAI on Twitter/X (two new incidents)
+        publisher: Twitter/X
         url: https://x.com/OpenAI/status/2084747580693426555
         date: 2026-08-04
         type: primary
@@ -190,8 +190,8 @@ updates:
       otherwise. I thought I was accurately paraphrasing our CSO's
       clarification, but I shouldn't have attempted to do that."
     sources:
-      - title: Jason Wolfe on X
-        publisher: X
+      - title: Jason Wolfe on Twitter/X
+        publisher: Twitter/X
         url: https://x.com/w01fe/status/2092742024680419761
         date: 2026-08-26
         type: primary

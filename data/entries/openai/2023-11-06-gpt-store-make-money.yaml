@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [openai]
-venue: DevDay launch of GPTs, post on Twitter
+venue: DevDay launch of GPTs, post on Twitter/X
 quote: >-
   Later this month, we’ll launch the GPT Store, so people can feature and make
   money from their GPTs.
@@ -35,8 +35,8 @@ outcome:
     custom GPTs.
 patterns: [coming-weeks]
 sources:
-  - title: OpenAI on X ("so people can feature and make money from their GPTs")
-    publisher: X
+  - title: OpenAI on Twitter/X ("so people can feature and make money from their GPTs")
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/1721594384737792495
     date: 2023-11-06
     type: primary

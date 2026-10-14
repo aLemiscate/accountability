@@ -5,7 +5,7 @@ org: openai
 type: did
 kind: reversal
 who: [sam-altman, openai]
-venue: Post on Twitter
+venue: Post on Twitter/X
 quote: treat adult users like adults
 summary: >-
   Altman said ChatGPT would relax restrictions, first letting the bot respond
@@ -14,8 +14,8 @@ summary: >-
 contradicts: [2025-08-altman-sex-bot-avatar]
 patterns: [principles-with-a-price]
 sources:
-  - title: Sam Altman on X
-    publisher: X
+  - title: Sam Altman on Twitter/X
+    publisher: Twitter/X
     url: https://x.com/sama/status/1978129344598827128
     date: 2025-10-14
     type: primary
@@ -105,9 +105,9 @@ updates:
       "departure was not related to any issue she raised while working at the
       company."
     sources:
-      - title: 'The Wall Street Journal on X ("Exclusive: OpenAI fired executive Ryan
+      - title: 'The Wall Street Journal on Twitter/X ("Exclusive: OpenAI fired executive Ryan
           Beiermeister")'
-        publisher: X
+        publisher: Twitter/X
         url: https://x.com/WSJ/status/2021516206952300619
         date: 2026-02-11
         type: reporting

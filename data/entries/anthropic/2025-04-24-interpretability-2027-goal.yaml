@@ -23,6 +23,7 @@ summary: >-
 concreteness: directional
 status: open
 last_checked: 2026-10-13
+due: '2027'
 breaks_if: >-
   The end of 2027 passes without Anthropic showing interpretability detecting
   most problems in its frontier models, and without saying it missed the goal;
@@ -42,16 +43,16 @@ sources:
     type: primary
     archive: https://web.archive.org/web/20260925170610/https://darioamodei.com/post/the-urgency-of-interpretability
     snapshot: snapshots/2026-10-03-darioamodei.com-cc9771a7
-  - title: Dario Amodei on X (linking "The Urgency of Interpretability")
-    publisher: X
+  - title: Dario Amodei on Twitter/X (linking "The Urgency of Interpretability")
+    publisher: Twitter/X
     url: https://x.com/DarioAmodei/status/1915515160607023391
     date: 2025-04-24
     type: primary
     archive: https://web.archive.org/web/20250607174129/https://x.com/DarioAmodei/status/1915515160607023391
     snapshot: snapshots/2026-10-03-x.com-deb2fac9
-  - title: Anthropic on X ("We’ve been using NLAs to help test new Claude models for
+  - title: Anthropic on Twitter/X ("We’ve been using NLAs to help test new Claude models for
       safety")
-    publisher: X
+    publisher: Twitter/X
     url: https://x.com/AnthropicAI/status/2052435442348257768
     date: 2026-05-07
     type: primary

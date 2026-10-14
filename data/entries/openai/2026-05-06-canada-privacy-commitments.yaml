@@ -1,0 +1,62 @@
+title: 'OpenAI commits to Canada''s privacy regulators: a training notice within
+  three months, other fixes within six, and quarterly reports'
+date: 2026-05-06
+org: openai
+type: said
+kind: commitment
+who: [openai]
+venue: 'Commitments recorded in PIPEDA Findings #2026-002, the regulators'' report'
+quote: >-
+  Within three months of the issuance of this report, it will, in the signed-out
+  … web experience – before the individual inputs their first user prompt –
+  provide notice that chats may be reviewed and used to train models and advise
+  users not to share sensitive information.
+summary: >-
+  To settle Canada's joint privacy investigation (see related), OpenAI committed
+  to publish a bilingual Canadian blog post on its privacy practices the day the
+  report came out, which it did, and within three months to expand its help
+  article on how ChatGPT's models are developed with a plain-language account of
+  training sources and to show the notice quoted above. Within six months it is
+  to make users' data exports easier to use and tell them how to challenge what
+  they receive; report to the regulators on controls keeping retired datasets
+  out of active model development; and test refusing requests for the name or
+  date of birth of public figures' minor family members. It will send the
+  regulators quarterly reports "until all have been met." The federal
+  commissioner's finding of "conditionally resolved" rests on these commitments.
+concreteness: measurable
+status: open
+last_checked: 2026-10-14
+due: '2026-11-06'
+breaks_if: >-
+  The signed-out notice or the expanded help article is missing (both were due
+  Aug. 6, 2026), the six-month measures are not in place by Nov. 6, 2026, or a
+  regulator reports that OpenAI missed them.
+patterns: []
+related: [2026-05-06-canada-privacy-findings]
+sources:
+  - title: 'PIPEDA Findings #2026-002: Overview of the Joint Investigation of OpenAI
+      OpCo, LLC'
+    publisher: Office of the Privacy Commissioner of Canada
+    url: https://priv.gc.ca/en/opc-actions-and-decisions/investigations/investigations-into-businesses/2026/pipeda-2026-002-overview/
+    date: 2026-05-06
+    type: primary
+    snapshot: snapshots/2026-10-14-priv.gc.ca-7b6a0259
+  - title: 'OpenAI did not respect Canadian privacy laws with ChatGPT: probe'
+    publisher: BNN Bloomberg (The Canadian Press)
+    url: https://www.bnnbloomberg.ca/business/2026/05/06/openai-did-not-respect-privacy-laws-in-developing-chatgpt-probe-finds/
+    date: 2026-05-06
+    type: reporting
+    snapshot: snapshots/2026-10-14-bnnbloomberg.ca-a762c8c1
+  - title: How ChatGPT and our foundation models are developed
+    publisher: OpenAI
+    url: https://help.openai.com/en/articles/7842364-how-chatgpt-and-our-foundation-models-are-developed
+    type: primary
+    archive: https://web.archive.org/web/20261007035632/https://help.openai.com/en/articles/7842364-how-chatgpt-and-our-foundation-models-are-developed
+    snapshot: snapshots/2026-10-14-help.openai.com-e761108f
+note: >-
+  The help article, as saved on Oct. 14, explains training sources in plain
+  language (publicly available webpages, forums, blogs and posts; datasets from
+  partners; synthetic data) and reads "Updated: 2 months ago," which fits the
+  three-month item; it wasn't compared with an earlier version. The signed-out
+  notice couldn't be checked: ChatGPT's signed-out page refuses this machine.
+  The quarterly reports go to the regulators, not the public.

@@ -34,14 +34,14 @@ related:
     2025-03-05-gpt-2-history-recast
   ]
 sources:
-  - title: OpenAI on X
-    publisher: X
+  - title: OpenAI on Twitter/X
+    publisher: Twitter/X
     url: https://x.com/OpenAI/status/920684033582841856
     date: 2017-10-18
     type: primary
     snapshot: snapshots/2026-09-30-x.com-b2391165
-  - title: Greg Brockman on X
-    publisher: X
+  - title: Greg Brockman on Twitter/X
+    publisher: Twitter/X
     url: https://x.com/gdb/status/920686990785253376
     date: 2017-10-18
     type: primary
@@ -52,6 +52,7 @@ sources:
     date: 2017-10-18
     type: primary
     archive: https://web.archive.org/web/20250329180325/https://www.wsj.com/articles/protecting-against-ais-existential-threat-1508332313
+    snapshot: snapshots/2026-10-14-web.archive.org-063fe712
 note: >-
   A principle, not a promise, so it can't be broken outright. It is marked
   eroded because the related entries show a different practice: ship first, then

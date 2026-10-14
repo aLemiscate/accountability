@@ -231,7 +231,7 @@ async function sweepAccount(account) {
   const topics = account.match ? new RegExp(account.match, 'i') : match;
 
   const profile = await fetchXProfile(name).catch(() => null);
-  console.log(`  profile: ${profile ? `${profile.name}, ${profile.posts ?? '?'} posts on X` : 'not available'}`);
+  console.log(`  profile: ${profile ? `${profile.name}, ${profile.posts ?? '?'} posts on Twitter/X` : 'not available'}`);
 
   // Earlier runs: keep what was read, so this run only reads what's new. Read
   // the year files, and the single-file layout of the first sweep.
@@ -352,7 +352,7 @@ async function sweepAccount(account) {
     '',
     `Swept ${stamp}${from || to ? ` · posted ${from ?? '…'} to ${to ?? '…'}` : ''}.`,
     '',
-    `- Posts on X, including reposts: ${coverage.posts_on_x ?? 'unknown'}`,
+    `- Posts on Twitter/X, including reposts: ${coverage.posts_on_x ?? 'unknown'}`,
     `- Archived posts found: ${coverage.known} (${coverage.undated ? `${coverage.undated} from before November 2010, ` : ''}${coverage.oldest ?? '…'} to ${coverage.newest ?? '…'})`,
     coverage.not_theirs ? `- Left out: ${coverage.not_theirs} archived link(s) under this handle that X says another account wrote` : null,
     `- Read so far: ${coverage.read} (${pct(coverage.read, coverage.known)}); text found for ${coverage.with_text}; ${coverage.unread} not read yet`,

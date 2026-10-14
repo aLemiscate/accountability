@@ -26,8 +26,9 @@ related:
   ]
 patterns: [principles-with-a-price]
 sources:
-  - title: The Washington Post on X ("To strike 1,000 targets in 24 hours in Iran")
-    publisher: X
+  - title: The Washington Post on Twitter/X ("To strike 1,000 targets in 24 hours in
+      Iran")
+    publisher: Twitter/X
     url: https://x.com/washingtonpost/status/2029391498651820263
     date: 2026-03-05
     type: reporting
@@ -38,6 +39,7 @@ sources:
     date: 2026-03-04
     type: reporting
     archive: https://web.archive.org/web/20260519035509/https://www.washingtonpost.com/technology/2026/03/04/anthropic-ai-iran-campaign/
+    snapshot: snapshots/2026-10-14-web.archive.org-ba29b6b9
   - title: US used 'Claude' to strike over 1000 targets in first 24 hours of war
     publisher: Responsible Statecraft
     url: https://responsiblestatecraft.org/ai-war-iran/

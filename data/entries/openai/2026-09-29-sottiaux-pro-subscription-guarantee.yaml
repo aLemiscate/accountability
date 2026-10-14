@@ -5,7 +5,7 @@ org: openai
 type: said
 kind: commitment
 who: [openai]
-venue: Post on Twitter by Thibault Sottiaux
+venue: Post on Twitter/X by Thibault Sottiaux
 quote: >-
   We didn't want to compromise in other ways and are committing to not
   reintroducing the 5h limit, so that you can fully use the weekly usage when
@@ -29,17 +29,17 @@ breaks_if: >-
 patterns: [shrinking-plan]
 related: [2026-06-chatgpt-pro-unlimited-allowances, 2025-07-28-claude-weekly-limits]
 sources:
-  - title: Thibault Sottiaux on X ("Tomorrow we are re-opening the Pro $200
+  - title: Thibault Sottiaux on Twitter/X ("Tomorrow we are re-opening the Pro $200
       subscriptions")
-    publisher: X
+    publisher: Twitter/X
     url: https://x.com/thsottiaux/status/2104823812042940713
     date: 2026-09-29
     type: primary
     archive: https://web.archive.org/web/20261008122427/https://x.com/thsottiaux/status/2104823812042940713
     snapshot: snapshots/2026-10-13-x.com-47a0b923
-  - title: OpenAI Developers on X ("Improvements in caching and inference let us
+  - title: OpenAI Developers on Twitter/X ("Improvements in caching and inference let us
       deliver GPT-6 Sol and GPT-6 Luna at lower cost")
-    publisher: X
+    publisher: Twitter/X
     url: https://x.com/OpenAIDevs/status/2102461448979087626
     date: 2026-09-22
     type: primary
