@@ -267,3 +267,14 @@ GPT-5.6 Sol's restricted launch, and Astra's "recurrent depth" design.
 - Altman leaving Helion's board (@sama [563682](https://x.com/sama/status/2036137695605563682)): he left because OpenAI and Helion were exploring a deal. No promise is involved.
 - Jack Clark's 2022 thread on industry lobbying (@jackclarkSF, 4 posts): a description of industry practice, not a commitment.
 - Staff post on engagement (@aidan_mclau [627357](https://x.com/aidan_mclau/status/1918335561699627357)): a personal view from a staff member, not company policy.
+
+### Open leads
+
+Logged as leads and not yet worked. The weekly news sweep follows these up;
+move each to a section above once it is resolved.
+
+- Text provenance and watermarking (@OpenAI [101695](https://x.com/OpenAI/status/2107164650249101695), Oct 5, 2026): OpenAI says text watermarking has "significant limitations". Check against 2024 reporting that it held back a text watermark it had built.
+- Genesis Mission pledge (@AnthropicAI [809081](https://x.com/AnthropicAI/status/2108226292235809081), Oct 8, 2026): $150 million over three years, and Claude for more than 15 federal agencies. A new dated pledge.
+- Claude Startups offers paused (@claudeai [349695](https://x.com/claudeai/status/2108404561413349695), Oct 9, 2026): the Team plan and $1,000 API credit offers paused days after launch because demand was underestimated.
+- "You can't do safety from second place" (quoted by @RichardMCNgo [227757](https://x.com/RichardMCNgo/status/2105674330009227757), Oct 1, 2026): attributed to Sarah Heck, Anthropic's Head of Public Policy. Find her post, confirm the role, and weigh it against the race clause.
+

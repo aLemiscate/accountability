@@ -28,6 +28,16 @@ const pages = (await readYaml(path.join(ROOT, 'data', 'watch.yaml'))).filter((p)
 const stamp = new Date().toISOString().slice(0, 10);
 const summary = [];
 
+// Both sites end a post with a list of other posts ("Related content", "Keep
+// reading") that changes every week. It isn't part of the page, so the text
+// stops there.
+const TRAILERS = new Set(['Related content', 'Keep reading']);
+function pageBody(text) {
+  const lines = text.split('\n');
+  const end = lines.findIndex((l) => TRAILERS.has(l.trim()));
+  return (end > 0 ? lines.slice(0, end) : lines).join('\n').trimEnd();
+}
+
 // Fetch first: server HTML is stable between runs. The browser is only for
 // pages that render their text with scripts or block plain requests.
 async function readText(url) {
@@ -35,7 +45,7 @@ async function readText(url) {
   try {
     const res = await fetchWithTimeout(url);
     if (res.ok) {
-      const text = htmlToText(await res.text());
+      const text = pageBody(htmlToText(await res.text()));
       if (text.length >= 200) return { text, via: 'fetch' };
     } else {
       fetchError = `HTTP ${res.status}`;
@@ -44,7 +54,7 @@ async function readText(url) {
     fetchError = err.message;
   }
   const rendered = await renderPage(url, { screenshot: false }).catch(() => null);
-  if (rendered?.text && rendered.status && rendered.status < 400) return { text: rendered.text, via: 'browser' };
+  if (rendered?.text && rendered.status && rendered.status < 400) return { text: pageBody(rendered.text), via: 'browser' };
   throw new Error(fetchError || 'no readable text');
 }
 

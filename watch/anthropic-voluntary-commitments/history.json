@@ -4,5 +4,12 @@
     "sha256": "22b5ef2a791508867d3717ff4d546b6b1f4428ae193130a35352ade72f4267ee",
     "via": "fetch",
     "event": "baseline"
+  },
+  {
+    "date": "2026-10-14",
+    "sha256": "730ab4a164d2a3668d88bdd662d8909c76fc8bc391f30b0eec2339363d5cd10f",
+    "via": "fetch",
+    "event": "rebaseline",
+    "note": "text now stops before the list of other posts (Related content / Keep reading), which changes every week"
   }
 ]
