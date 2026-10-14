@@ -1,0 +1,26 @@
+{
+  "account": {
+    "actor": "sam-altman",
+    "x": "sama"
+  },
+  "from": "2026-09-21",
+  "match": "safety|safe|align|regulat|nonprofit|mission|open.?source|military|defen[cs]e|pentagon|surveil|advertis|\\bads?\\b|profit|humanity|commit|promise|pledge|pause|race|democra",
+  "problems": [],
+  "posts": [
+    {
+      "id": "2106388373221118198",
+      "handle": "sama",
+      "url": "https://x.com/sama/status/2106388373221118198",
+      "date": "2026-10-03",
+      "archived_at": "20261003152420",
+      "archived_status": "200",
+      "archive": "https://web.archive.org/web/20261003152420/https://x.com/sama/status/2106388373221118198",
+      "archive_raw": "https://web.archive.org/web/20261003152420id_/https://x.com/sama/status/2106388373221118198",
+      "live_status": 200,
+      "author": "sama",
+      "text": "I am very uncomfortable about people trying to ascribe religious force or a surrender of human judgment to AI models, and think it is a real safety issue.",
+      "via": "wayback",
+      "already_cited": false
+    }
+  ]
+}
