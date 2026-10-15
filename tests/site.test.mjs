@@ -142,6 +142,29 @@ test('jumps land below the sticky bar, and a filter keeps the reader on their ca
     await page.click(chip);
     const back = await top(`.tl-card[data-key="${before.key}"]`);
     assert.ok(Math.abs(back - before.top) < 2, `the card holds its place when the filter lifts (${before.top} then ${back})`);
+    // So does the last card, with the page scrolled to its end.
+    await page.evaluate(() => scrollTo(0, document.documentElement.scrollHeight));
+    const end = await page.evaluate(() => {
+      const card = [...document.querySelectorAll('.tl-card')].pop();
+      return { key: card.dataset.key, top: card.getBoundingClientRect().top, p: card.querySelector('.tl-patterns .chip')?.dataset.p };
+    });
+    if (end.p) {
+      const endChip = `.tl-card[data-key="${end.key}"] .chip[data-p="${end.p}"]`;
+      for (const step of ['goes on', 'comes off']) {
+        await page.click(endChip);
+        const at = await top(`.tl-card[data-key="${end.key}"]`);
+        assert.ok(Math.abs(at - end.top) < 2, `the last card holds its place when the filter ${step} (${end.top} then ${at})`);
+      }
+    }
+    // Changing the order leaves the page where it was.
+    await page.evaluate(() => {
+      const order = document.querySelector('.seg.order');
+      scrollTo(0, scrollY + order.getBoundingClientRect().top - document.querySelector('.controls').offsetHeight - 20);
+    });
+    const order = await top('.seg.order');
+    await page.click('.seg.order button:nth-child(2)');
+    assert.ok(Math.abs(await top('.seg.order') - order) < 1, 'the order buttons stay where they were');
+    await page.click('.seg.order button:nth-child(1)');
 
     // "About this pattern" lands on the pattern, below the bar, with focus on its heading.
     const pid = await page.evaluate(() => window.SAID_DID.patterns[3].id);

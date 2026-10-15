@@ -1289,6 +1289,8 @@
   // card showing below the sticky bar, once they have scrolled down into the list.
   let pendingKeep = null;
   const barBottom = () => Math.max(0, controls.getBoundingClientRect().bottom);
+  // How much of the page the bar covers once it sticks: none on phones, where it scrolls away.
+  const barHeight = () => (getComputedStyle(controls).position === 'sticky' ? controls.getBoundingClientRect().height : 0);
   function anchorFor(from) {
     const cards = view.querySelectorAll('[data-key]');
     if (!cards.length) return null;
@@ -1305,7 +1307,7 @@
       t: +card.dataset.t,
       group: card.closest('[data-group]')?.dataset.group, // a Watchlist section
       top: card.getBoundingClientRect().top,
-      bar,
+      height: barHeight(),
       open: [...card.querySelectorAll('details')].map((d) => d.open),
       chip: inCard && from.dataset.p,
       inCard,
@@ -1334,12 +1336,17 @@
       // A passage the reader had opened in it stays open, so nothing in the card moves.
       card.querySelectorAll('details').forEach((d, i) => { if (keep.open[i]) d.open = true; });
     }
-    // Hold it at the same distance below the bar, which a filter can make taller. A stand-in
-    // shows from its start, below the bar.
-    const bar = barBottom();
-    const top = keep.top + bar - keep.bar;
-    window.scrollBy(0, card.getBoundingClientRect().top - (moved ? Math.max(top, bar + 8) : top));
-    if (keep.inCard) focusAt([...card.querySelectorAll('.chip')].find((c) => c.dataset.p === keep.chip) || card.querySelector('.side-title, .t'));
+    // Hold it where it was on the screen, so a tag the reader clicked stays under the pointer.
+    // Read from the bar, the list keeps its distance below the bar, which a filter can make
+    // taller. (Its height, since where it ends on screen moves with the page until it sticks.)
+    const grew = keep.inCard ? 0 : barHeight() - keep.height;
+    window.scrollBy(0, card.getBoundingClientRect().top - (keep.top + grew));
+    // A stand-in shows from its start, and the tag clear of the bar.
+    const tag = keep.inCard && [...card.querySelectorAll('.chip')].find((c) => c.dataset.p === keep.chip);
+    const show = moved ? card : tag;
+    const under = show ? barBottom() + 8 - show.getBoundingClientRect().top : 0;
+    if (under > 0) window.scrollBy(0, -under);
+    if (keep.inCard) focusAt(tag || card.querySelector('.side-title, .t'));
     if (keep.inCard || moved) mark(card);
   }
 
@@ -1395,7 +1402,11 @@
     const renderers = { receipts: renderReceipts, timeline: renderTimeline, patterns: renderPatterns, watchlist: renderWatchlist, commitments: renderCommitments, method: renderMethod };
     hideTip();
     pendingKeep = keep;
+    const y = window.scrollY;
     view.replaceChildren(...[renderers[state.view]()].flat().filter(Boolean));
+    // Taking out a control that has focus makes the browser lay the page out with the view
+    // empty for a moment, which scrolls it up when that empty page is short. Put it back.
+    if (window.scrollY !== y) window.scrollTo({ top: y });
     pendingKeep = null;
     armEdits();
     queueSnap();
