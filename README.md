@@ -45,3 +45,24 @@ npm run serve    # http://localhost:4173
 
 Every entry is a plain YAML file in `data/entries/`. Corrections are welcome as
 issues or pull requests.
+
+## License
+
+The record is licensed under [CC BY 4.0](LICENSE). Anyone may copy, share and
+adapt it, including commercially, as long as they credit Said / Did, link to
+the site, and say if they changed it. That covers the entries and the other
+files in `data/`, the written documents (METHODOLOGY.md, COVERAGE.md and the
+notes in `inbox/` and `reports/`), and the downloads the site publishes.
+A credit line can be as short as: Said / Did,
+https://alemiscate.github.io/accountability/, CC BY 4.0.
+
+The code (`scripts/`, `tests/`, the workflows, and the site's HTML, CSS and
+JavaScript) is under the [MIT License](LICENSE-CODE). The fonts in
+`site/fonts/` keep their own license (`OFL.txt`).
+
+Neither license covers what others wrote or own: the statements quoted in
+entries, the copies of pages and posts kept as evidence (the page texts in
+`snapshots/`, `watch/` and `inbox/history/`, the posts collected in
+`inbox/sweep/`, and the archive repository), and the OpenAI and Anthropic
+logos. Those belong to their owners and are kept so the sources can be
+checked.

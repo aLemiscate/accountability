@@ -109,6 +109,7 @@ function openData(D) {
     repository: D.site.repo,
     generated: D.generated,
     commit: D.commit,
+    license: D.site.license ?? null,
     entries: D.entries.map(({ exhibit, time, precision, quote_check, file, added, outcome, ...e }) => ({
       ...e,
       ...(outcome ? { outcome: plain(outcome) } : {}),
@@ -182,7 +183,7 @@ function atomFeed(D) {
   <link rel="self" href="${esc(base)}feed.xml"/>
   <id>${esc(base)}</id>
   <author><name>${esc(D.site.title)}</name><uri>${esc(D.site.repo || base)}</uri></author>
-  <updated>${new Date(D.generated).toISOString()}</updated>
+${D.site.license ? `  <rights>${esc(D.site.license.name)}, ${esc(D.site.license.url)}</rights>\n` : ''}  <updated>${new Date(D.generated).toISOString()}</updated>
 ${top.map((x) => `  <entry>
     <title>${esc(x.title)}</title>
     <link href="${esc(x.link)}"/>
