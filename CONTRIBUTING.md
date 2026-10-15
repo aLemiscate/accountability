@@ -1,0 +1,298 @@
+# Working on Said / Did
+
+How the record is built, added to and kept up to date. For what the site is,
+see the [README](README.md). For the rules every entry follows, see
+[METHODOLOGY.md](METHODOLOGY.md).
+
+## Quick start
+
+```sh
+npm install
+npm run build     # validate the record, write site/data.js and dist/said-did.html
+npm run serve     # http://localhost:4173
+```
+
+`dist/said-did.html` is the whole site in one self-contained file, useful for
+sharing or offline archiving. `npm test` runs the checks.
+
+## Adding to the record
+
+```sh
+# 1. Start an entry (writes data/entries/<org>/<date>-<slug>.yaml with every field explained)
+npm run new -- --org openai --type said --date 2026-09-29 --slug altman-podcast-safety \
+               --url https://x.com/sama/status/...
+
+# 2. Fill in the TODOs. Link actions to the statements they contradict with `contradicts:`.
+
+# 3. Validate and rebuild
+npm run build
+```
+
+Entries are plain YAML, one file per event. The fields:
+
+| Field | For | Meaning |
+| --- | --- | --- |
+| `title`, `date`, `org`, `type`, `kind` | all | Headline; `YYYY`, `YYYY-MM` or `YYYY-MM-DD`; `openai` or `anthropic`; `said` or `did`; the kind of statement or action |
+| `who`, `venue` | all | Actor ids from `data/actors.yaml`; where it happened |
+| `quote` | all | Verbatim words only, with `…` for omissions |
+| `summary` | all | Plain factual description |
+| `status` | said | `open`, `kept`, `broken`, `reversed`, `eroded`, `contradicted` |
+| `concreteness` | said | `measurable`, `conditional`, `directional`, `aspirational` |
+| `breaks_if` | said | For open promises: what outcome would count as breaking it |
+| `due` | said | For an open promise with a date in its own test: `YYYY`, `YYYY-MM` or `YYYY-MM-DD`. The validator warns once it has passed, and the site shows it |
+| `outcome` | said | For a failed statement with no "did" entry that contradicts it: `date` and `text` saying what happened, shown as a receipt |
+| `contradicts` | did | Ids of the earlier statements this action contradicts |
+| `revision` | did | `before` / `after` text for a rewritten policy |
+| `related`, `patterns` | all | Other entry ids; pattern ids from `data/patterns.yaml` |
+| `sources` | all | `title`, `url`, `publisher`, `date`, `type` (`primary`/`reporting`/`analysis`), `archive`, `snapshot` |
+| `response` | all | The company's or person's own account |
+| `note` | all | Your commentary, shown labeled as commentary |
+| `updates` | all | Later developments: `date`, `text`, `sources` |
+
+`npm run build` refuses to publish a record with a broken link between entries,
+an unknown pattern or person, a missing source, or a malformed date.
+
+## Grabbing snapshots
+
+Posts get deleted and policy pages get rewritten, so capture evidence when you
+cite it:
+
+```sh
+npm run capture -- https://x.com/janleike/status/1791498184671605209 --entry 2024-05-17-superalignment-team-disbanded
+```
+
+This saves `snapshots/<date>-<site>-<hash>/` containing the files below. Only
+the text files (`*.txt`) and the JSON (`*.json`) are kept in this repository,
+which is all the quote check needs. The raw copies (`page.html`, screenshots,
+PDFs and post images) are too big for it: `.gitignore` leaves them out, and they
+go to the archive repository,
+[aLemiscate/accountability-archive](https://github.com/aLemiscate/accountability-archive),
+under the same paths. The site's snapshot links point there. The Capture and
+Watch workflows copy them over (see [Automation](#automation-github-actions)).
+After a capture on your own computer, copy them with
+`npm run archive-copies -- <checkout of the archive repository>`, then commit
+and push there.
+
+- `page.html` and `page.txt`: the raw page and its readable text. A bot check ("Are we human?", "Client Challenge") or a page with almost no text is not saved, so a blocked source stays visibly unsnapped instead of looking captured
+- `screenshot.jpg` and `rendered.txt`: a full-page screenshot and rendered text (needs `npx playwright install chromium`)
+- `post.txt` and `post.json`: for X and Bluesky links, the post text from the public embed APIs, which work without logging in. For X, `syndication.json` adds the text of any quoted post, and attached photos are saved as `media-1.jpg`, `quoted-media-1.jpg` and so on, because some statements (a signed letter, a memo screenshot) exist only as an image. X's embed endpoints stop at the first 280 characters of a long post, so its full text comes from FxTwitter's public API (no key) and is kept in `fulltext.json`; if that fails, `meta.json` marks the post `truncated`
+- `document.pdf` and `document.txt`: for PDFs, the file and its text (the text needs `pdftotext` from poppler-utils). Files over 10 MB are not stored; `meta.json` keeps their size and SHA-256 under `omitted`, so a copy fetched later can still be checked
+- `meta.json`: HTTP status, capture time, SHA-256 hashes of every file, and for posts the exact time of posting (read from the X post id)
+- `transcript.txt` (added by hand, not by the capture tool): a transcription of text that exists only in an attached image, so quotes from it can be checked. It opens with a line saying which image it came from, and `meta.json` lists it under `derived`, apart from the captured files
+- a Wayback Machine copy, whose link goes into the entry's `archive` field
+
+With `--entry`, the archive link and snapshot path are written into the matching
+source in that entry, or added as a new source. At build time, each quote is
+checked word for word against the text of its snapshots, and matched quotes get
+a "Matched to source snapshot" mark on the site.
+
+To fill gaps across the whole record:
+
+```sh
+npm run capture -- --snapshot-missing   # full snapshot of every source without one
+npm run capture -- --archive-missing    # Wayback copy of every source without one
+# both accept --dry-run to preview, --limit N to pace, and --match <regex> to
+# take only sources whose URL matches, e.g. --match '^https://(x\.com|www\.anthropic\.com)/'
+```
+
+A URL cited by several entries is captured once and linked from all of them,
+including sources cited inside `updates`.
+
+Error pages (blocked, not found, rate-limited) are never saved as evidence. A
+capture that gets nothing readable leaves no snapshot behind. With
+`--snapshot-missing`, a source whose page can't be read (a paywall, a bot
+check, a dead link) but that has an archive link gets a snapshot of the
+archived copy instead; its `meta.json` names the original address in
+`copy_of`.
+
+**Where to run captures.** A snapshot can only be taken from a machine that can
+reach the source. Your own computer works, and so do GitHub's runners: the
+**Capture** workflow (*Actions → Capture → Run workflow*) snapshots every
+missing source and commits the results. Claude Code cloud sessions only reach
+the hosts their environment's network policy allows; see
+[Working in Claude Code cloud sessions](#working-in-claude-code-cloud-sessions).
+
+Anonymous Wayback saves are rate-limited. Free archive.org keys
+(<https://archive.org/account/s3.php>) set as `IA_ACCESS_KEY` and
+`IA_SECRET_KEY` make saving faster and more reliable.
+
+## Finding posts
+
+`data/accounts.yaml` lists the public X and Bluesky accounts of in-scope people
+and organizations. `find-posts` collects their posts into `inbox/` for you to
+triage:
+
+```sh
+npm run find-posts -- --account sama --from 2023 --to 2024 --match "safety|regulat|nonprofit"
+npm run find-posts -- --all --from 2026-09 --match "ads|military|pause"
+```
+
+It combines three sources:
+
+- **Wayback Machine (free, no key).** It lists every X post URL the archive has captured for the account, under every URL form X has used (twitter.com, mobile.twitter.com, `/statuses/`, x.com), **including posts that have since been deleted**. The post date comes from the post's id, so dates are exact even without the text. Text comes from X's embed data (the full text of long posts, the post it quotes, who it replies to), or from the archived copy when the live post is gone. A post that is archived but returns 404 live is flagged *possibly deleted*. Posts nobody archived can't be found this way.
+- **X API** (set `X_BEARER_TOKEN`). The account's recent timeline, up to about the last 3,200 posts. What a token can read depends on its X API access tier.
+- **Bluesky** (for accounts with a `bluesky` handle). The public API, which searches without logging in; set `BSKY_HANDLE` and `BSKY_APP_PASSWORD` (an app password, not your main password) for higher limits.
+
+For a full-history pass, `--corpus --limit all` reads every archived post of
+the account and keeps all of them, not just the ones that match:
+
+```sh
+npm run find-posts -- --account sama --corpus --via wayback --limit all --budget-minutes 320 --match "safety|nonprofit"
+npm run sweep-coverage
+```
+
+- `inbox/sweep/<account>/<year>.jsonl`: every post found, one per line, newest
+  first (posts from before November 2010, whose ids carry no date, go in
+  `before-2010-11.jsonl`). A later run reads only posts it hasn't read, so it's
+  safe to stop and resume.
+- Each post's author is checked against X: an archived link under the handle
+  that X says another account wrote (a mistyped link, a reused handle) is kept
+  with `other_author` and left out of the counts. Made-up ids from archived
+  URLs are dropped.
+- `inbox/sweep/<account>.md`: the posts matching `--match`, plus every post
+  that looks deleted, for triage.
+- `inbox/sweep/<account>.coverage.json` and `inbox/sweep/COVERAGE.md`: how
+  many posts each account has made on X, how many are archived, and how many
+  of those have been read.
+
+`--budget-minutes` stops reading when time runs out and leaves the rest marked
+unread. `--concurrency` sets how many posts are read at once (default 4). An
+account in `data/accounts.yaml` can set its own `match` for the triage list
+(Elon Musk's lists only posts about the AI labs), or `sweep: false` to stay out
+of the full-history Sweep (Musk's 125,000+ archived posts were read back to
+September 2025 only). The
+Wayback Machine blocks many cloud IP ranges, so run this from the **Sweep**
+workflow below or from your own machine.
+
+Posts already cited in the record are marked, so the inbox shows only what's
+new. Nothing is added to the record automatically. When a post belongs,
+`npm run new -- … --url <post>` starts the entry and snapshots the post.
+
+`--store` adds every Twitter/X post found to the account's archive in
+`inbox/sweep/<account>/<year>.jsonl` instead of writing an inbox file. The
+weekly Watch workflow runs it that way, and `npm run reading-queue` then lists
+every unread post in `inbox/sweep/QUEUE.md`. Record a decision for each with
+`npm run reading-queue -- --log <account>` (how is in `inbox/sweep/TRIAGE.md`).
+
+## Watching for silent edits
+
+`data/watch.yaml` lists the pages where commitments live: charters, usage
+policies, safety frameworks, privacy terms, and "we will never…" posts.
+
+```sh
+npm run watch-pages
+```
+
+The first run saves a baseline in `watch/<id>/latest.txt`. After that, any
+change to the visible text is saved as `watch/<id>/<date>.txt` plus a unified
+diff, `watch/<id>/<date>.diff`. Committed, these become a dated history of every
+wording change.
+
+If the text changes for a mechanical reason, such as a fix to the text
+extractor, accept the new text without recording an edit:
+`npm run watch-pages -- --rebaseline "why"`. The reason goes into
+`watch/<id>/history.json`.
+
+`npm run check-sources` checks every cited link and flags anything **gone**. On
+X, a 404 from the embed API means the post was deleted or the account went
+private. Deleted posts are worth recording too. Results go to
+`reports/source-health.md`.
+
+## Automation (GitHub Actions)
+
+- **Site** (`.github/workflows/site.yml`) runs on every push: it validates, builds and tests the record, writes the per-entry link-preview pages and card images (`npm run cards`) and the Atom feed, then publishes to GitHub Pages from the default branch. It checks out the full history, since the feed dates new entries by when they were added, but without old file contents. One-time setup: *Settings → Pages → Source: GitHub Actions*.
+- **Watch** (`.github/workflows/watch.yml`) runs every Monday and on demand. It re-reads watched pages, checks sources, adds the last two weeks of posts from watched accounts to their archive in `inbox/sweep/` and lists the unread ones in `inbox/sweep/QUEUE.md`, snapshots up to 20 sources that don't have a snapshot yet, archives unarchived sources (when the archive.org secrets are set), commits the results, and **opens an issue whenever a watched page changes**.
+- **Capture** (`.github/workflows/capture.yml`) runs on demand. It snapshots every source that doesn't have a snapshot yet. Run it once to backfill the whole record.
+- Capture and Watch push each new snapshot's raw copies to the archive repository when the `ARCHIVE_TOKEN` secret holds a fine-grained token with Contents read and write on that repository only. Without it, or when the token is rejected, they still commit the text and hashes here, and open an issue saying the raw copies were not kept.
+- **Sweep** (`.github/workflows/sweep.yml`) runs on demand, for example after an account is added to `data/accounts.yaml`. It reads the full archived history of every X account in `data/accounts.yaml` (and the X API timeline when an `X_BEARER_TOKEN` secret is set), one job per account, keeps every post in `inbox/sweep/`, lists topic matches and deleted posts for triage, and writes `inbox/sweep/COVERAGE.md`. Each account reads for up to the run's time budget and saves its place; run it again to continue where it stopped. Nothing is added to the record automatically.
+
+Outside GitHub Actions, a scheduled Claude Code session runs a **weekly news
+sweep** every Tuesday, after the Monday Watch run has finished: it reads the week's news on both companies,
+drafts entries and updates under the methodology, and opens a pull request for
+review. It never merges. Its reports go in `inbox/news/`.
+
+Optional repository secrets (*Settings → Secrets and variables → Actions*):
+`IA_ACCESS_KEY` and `IA_SECRET_KEY` (archive.org), `X_BEARER_TOKEN` (X API),
+`BSKY_HANDLE` and `BSKY_APP_PASSWORD` (Bluesky).
+
+## Working in Claude Code cloud sessions
+
+`.claude/hooks/session-start.sh` runs at the start of each cloud session. It
+installs dependencies and makes the headless browser trust the session's
+network proxy, so screenshots work there.
+
+Which sites a cloud session can reach is set by its environment's network
+access (*environment menu in the session title bar → Edit → Network access*).
+To let Claude capture, archive and search posts directly, choose full access,
+or allow at least these hosts:
+
+| Purpose | Hosts |
+| --- | --- |
+| Archiving and deleted-post search | `web.archive.org`, `archive.org` |
+| X posts | `x.com`, `twitter.com`, `publish.twitter.com`, `cdn.syndication.twimg.com`, `api.fxtwitter.com`, `api.x.com` |
+| Bluesky | `bsky.app`, `public.api.bsky.app`, `api.bsky.app`, `bsky.social` |
+| Company pages | `openai.com`, `cdn.openai.com`, `model-spec.openai.com`, `darioamodei.com` |
+| Reporting cited in the record | the news sites in `reports/source-health.md` |
+
+Even with full network access, some sites refuse cloud IP addresses. In
+September 2026, `web.archive.org` reset connections from cloud sessions,
+`openai.com` returned 403 to both plain requests and the headless browser, and
+`x.com` pages returned 403 to the browser (the X embed APIs still worked). Use
+the Capture and Watch workflows on GitHub's runners for those sources.
+
+
+## Layout
+
+```
+data/
+  entries/openai/*.yaml      one file per event
+  entries/anthropic/*.yaml
+  patterns.yaml              recurring patterns: thesis, tells, what to watch for, industry context
+  actors.yaml                who is in scope, and why
+  watch.yaml                 pages the watcher re-reads
+  accounts.yaml              X / Bluesky accounts that find-posts reads
+  site.yaml                  name, tagline, repo and site URLs
+site/                        the static site (index.html, styles.css, app.js, sky.js, fonts/)
+scripts/                     build, cards, capture, new-entry, find-posts, check-sources, watch-pages, serve
+snapshots/                   captured evidence: text and meta.json (raw copies are in aLemiscate/accountability-archive)
+inbox/                       working material: the post archive and reading log, page histories, reading logs (see inbox/README.md)
+watch/                       page-text baselines and diffs
+tests/                       node --test suites
+```
+
+## What the site does
+
+- **See it in the source.** Where a quote was found word for word in a saved copy
+  of its source, the build keeps the passage around it, and the
+  "✓ Quote matches the saved source" line opens to show the quote highlighted in
+  that passage, with links to the original, the archived copy and the saved copy.
+- **Links to a view.** The address carries the view and its filters as words
+  joined by dots, so a filtered view can be shared as it is:
+  `#timeline.openai.silent-edit` (company, pattern id, person id, and `oldest`
+  for oldest first). "Copy link to this view" copies it.
+- **Link previews.** On the GitHub Pages site, each entry has its own page at
+  `e/<entry-id>/` with a title, description and card image for link previews;
+  it forwards readers to the entry on the main page, and carries the entry's
+  text and sources for anything that doesn't follow the redirect. `npm run
+  cards` writes these pages and images (it needs Playwright; `--no-images`
+  skips the images).
+- **Plain record.** `record.html` has every entry and its sources on one page
+  with no JavaScript, for search engines, archives and readers with scripts
+  off. The build writes it, with `sitemap.xml`.
+- **RSS.** `feed.xml` (Atom) lists new entries, dated by when they were added
+  to the repository, and updates to existing entries, dated by the event.
+- **Search** covers titles, quotes, summaries, updates, people, pattern names,
+  sources and the commitments documents. Matched words are marked, and on the
+  timeline each card says where the match was.
+- **Keeping your place.** A tab opens the next view at its start, below the
+  sticky bar. A figure in the masthead, "About this pattern" or a document in
+  the Commitments table lands on what it points to and outlines it for a moment.
+  Picking a pattern, a company or a person from partway down the receipts, the
+  timeline or the watchlist keeps the card you were on where it was, and the
+  match count is marked when it changes. A search starts you at the top of its
+  results. Keyboard focus never hides under the bar. With reduced motion, jumps
+  are instant and the outline holds still until the next click, key or scroll.
+- **Print.** Printing (on the GitHub Pages site) gives the current view on
+  white without the controls, or only the open entry, with its source
+  addresses written out.
+
