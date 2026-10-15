@@ -14,3 +14,11 @@ repo: https://github.com/aLemiscate/accountability
 archive: https://github.com/aLemiscate/accountability-archive
 # Optional: public URL of the deployed site, used in copied receipts.
 url: https://alemiscate.github.io/accountability/
+# How the record may be reused (LICENSE). The code is under the MIT License (LICENSE-CODE).
+license:
+  name: CC BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+  note: >-
+    Covers the record's own writing and data. The statements it quotes, the
+    pages and posts kept as evidence, and the company logos belong to their
+    owners and are not covered.

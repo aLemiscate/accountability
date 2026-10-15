@@ -40,6 +40,14 @@ test('the plain fine print page has every page and every change, with the copies
   assert.ok(!/`[a-z0-9-]+`/.test(html), 'entry ids in notices become links');
 });
 
+test('the plain pages and the site say how the record may be reused', async () => {
+  assert.ok(D.site.license?.name && D.site.license?.url, 'data/site.yaml names a license');
+  for (const html of [recordHtml(D), finePrintHtml(D)]) assert.ok(html.includes(`<a href="${D.site.license.url}">${D.site.license.name}</a>`));
+  const index = await readFile(path.join(ROOT, 'site/index.html'), 'utf8');
+  assert.ok(index.includes(D.site.license.url), 'the site footer links the license');
+  for (const f of ['LICENSE', 'LICENSE-CODE']) assert.ok((await readFile(path.join(ROOT, f), 'utf8')).length > 500, `${f} holds the license text`);
+});
+
 test('the site loads no fonts from other hosts', async () => {
   for (const f of ['index.html', 'styles.css']) {
     const text = await readFile(path.join(ROOT, 'site', f), 'utf8');

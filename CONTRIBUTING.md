@@ -4,6 +4,10 @@ How the record is built, added to and kept up to date. For what the site is,
 see the [README](README.md). For the rules every entry follows, see
 [METHODOLOGY.md](METHODOLOGY.md).
 
+What you add is shared under the repository's licenses: the record and its
+writing under CC BY 4.0 (`LICENSE`), code under MIT (`LICENSE-CODE`). See
+[License](README.md#license) for what each covers.
+
 ## Quick start
 
 ```sh

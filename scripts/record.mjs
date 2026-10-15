@@ -15,6 +15,8 @@ export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&a
 
 const fmtDay = new Intl.DateTimeFormat('en-US', { timeZone: 'UTC', year: 'numeric', month: 'short', day: 'numeric' });
 const fmtMonth = new Intl.DateTimeFormat('en-US', { timeZone: 'UTC', year: 'numeric', month: 'short' });
+// The footer line saying how the record may be reused (data/site.yaml `license`).
+const licenseSpan = (D) => (D.site.license ? `<span>The record is licensed <a href="${esc(D.site.license.url)}">${esc(D.site.license.name)}</a>: reuse it with credit to ${esc(D.site.title)}. Quoted words and archived pages belong to their authors.</span>` : '');
 export function fmtDate(s) {
   const m = /^(\d{4})(?:-(\d{2})(?:-(\d{2}))?)?$/.exec(String(s || ''));
   if (!m) return String(s || '');
@@ -101,7 +103,7 @@ ${years.map((y) => `<section id="y-${y}"><h2 class="r-year">${y}</h2>
 ${entries.filter((e) => String(e.date).startsWith(y)).map((e) => entryArticle(e, D, { home: './' })).join('\n')}
 </section>`).join('\n')}
 </main>
-<footer><div class="wrap"><span>Facts are sourced. Commentary is labeled.</span><span>Researched and drafted with Claude, an AI model made by Anthropic, one of the two companies covered.</span><span><a href="${esc(D.site.repo)}/blob/HEAD/METHODOLOGY.md">Methodology</a></span><span><a href="feed.xml">RSS feed</a></span></div></footer>
+<footer><div class="wrap"><span>Facts are sourced. Commentary is labeled.</span><span>Researched and drafted with Claude, an AI model made by Anthropic, one of the two companies covered.</span><span><a href="${esc(D.site.repo)}/blob/HEAD/METHODOLOGY.md">Methodology</a></span><span><a href="feed.xml">RSS feed</a></span>${licenseSpan(D)}</div></footer>
 </body>
 </html>
 `;
@@ -167,7 +169,7 @@ ${p.changes.map(change).join('\n')}
 ${p.after ? `<p class="r-note">${esc(p.after)}</p>` : ''}
 </section>`).join('\n')}
 </main>
-<footer><div class="wrap"><span>Facts are sourced. Commentary is labeled.</span><span>Researched and drafted with Claude, an AI model made by Anthropic, one of the two companies covered.</span><span><a href="${esc(D.site.repo)}/blob/HEAD/METHODOLOGY.md">Methodology</a></span><span><a href="record.html">The whole record</a></span></div></footer>
+<footer><div class="wrap"><span>Facts are sourced. Commentary is labeled.</span><span>Researched and drafted with Claude, an AI model made by Anthropic, one of the two companies covered.</span><span><a href="${esc(D.site.repo)}/blob/HEAD/METHODOLOGY.md">Methodology</a></span><span><a href="record.html">The whole record</a></span>${licenseSpan(D)}</div></footer>
 </body>
 </html>
 `;
