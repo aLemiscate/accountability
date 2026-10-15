@@ -2,7 +2,8 @@
 # every recent post from watched accounts to their archive in inbox/sweep/ and
 # queue the unread ones in inbox/sweep/QUEUE.md, snapshot and archive sources
 # that lack a copy, commit the results, and open an issue when a watched page
-# has changed.
+# has changed. If any step fails, including the ones set to keep going, it
+# opens a "Watch run failed" issue that names the steps and links the run.
 #
 # Optional repository secrets: X_BEARER_TOKEN (X API), BSKY_HANDLE and
 # BSKY_APP_PASSWORD (Bluesky search).
@@ -32,18 +33,26 @@ jobs:
         with:
           node-version: 22
           cache: npm
-      - run: npm ci
-      - run: npx playwright install --with-deps chromium
-      - run: sudo apt-get install -y --no-install-recommends poppler-utils  # pdftotext, for quote checks against PDFs
+      - name: Install packages
+        id: install
+        run: npm ci
+      - name: Install the browser
+        id: browser
+        run: npx playwright install --with-deps chromium
+      - name: Install pdftotext
+        id: pdftotext
+        run: sudo apt-get install -y --no-install-recommends poppler-utils  # pdftotext, for quote checks against PDFs
 
       - name: Watch policy pages
         id: watch
         run: npm run watch-pages
 
       - name: Check sources
+        id: sources
         run: npm run check-sources
 
       - name: Add every recent post from watched accounts to their archive
+        id: posts
         # No topic filter: every post is read in full (see inbox/sweep/TRIAGE.md).
         continue-on-error: true
         env:
@@ -53,16 +62,20 @@ jobs:
         run: npm run find-posts -- --all --from "$(date -u -d '14 days ago' +%F)" --limit all --store
 
       - name: Queue unread posts for reading
+        id: queue
         run: npm run reading-queue
 
       - name: Snapshot sources that have no snapshot yet
+        id: snapshot
         run: npm run capture -- --snapshot-missing --limit 20
 
       - name: Archive sources that have no archive link
+        id: archive
         if: env.IA_ACCESS_KEY != ''
         run: npm run capture -- --archive-missing --limit 25
 
       - name: Commit results
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -75,6 +88,7 @@ jobs:
           fi
 
       - name: Open an issue for changed pages
+        id: changed
         if: steps.watch.outputs.changed != ''
         env:
           GH_TOKEN: ${{ github.token }}
@@ -87,3 +101,24 @@ jobs:
           done
           body+=$'\n'"If a change weakens or removes a commitment, add a \`did\` entry with a \`revision\` block (npm run new)."
           gh issue create --title "Watched page changed: ${CHANGED//,/, }" --body "$body"
+
+      # continue-on-error hides a step's failure from the run's result (its
+      # conclusion reads success), so read each step's outcome instead.
+      - name: Open an issue when any step failed
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          STEPS: ${{ toJSON(steps) }}
+          JOB_STATUS: ${{ job.status }}
+        run: |
+          failed=$(jq -r 'to_entries[] | select(.value.outcome == "failure") | .key' <<<"$STEPS" | paste -sd, -)
+          if [ -z "$failed" ] && [ "$JOB_STATUS" = success ]; then
+            echo "Every step succeeded."
+            exit 0
+          fi
+          day=$(date -u +%F)
+          run_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          body="The Watch run on ${day} had failing steps: ${failed:-a setup step without an id}."$'\n\n'
+          body+="Run log: ${run_url}"$'\n\n'
+          body+="A failed posts step lets the rest of the run finish, so this week's reading queue may be missing posts. Fix the cause, then re-run Watch from the Actions tab."
+          gh issue create --title "Watch run failed: ${day} (${failed:-setup})" --body "$body"
