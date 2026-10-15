@@ -78,11 +78,13 @@ async function walk(dir) {
 }
 
 export async function loadAll() {
-  const [site, patterns, actors, accounts] = await Promise.all([
+  const [site, patterns, actors, accounts, history, policy] = await Promise.all([
     readYaml(path.join(DATA, 'site.yaml')),
     readYaml(path.join(DATA, 'patterns.yaml')),
     readYaml(path.join(DATA, 'actors.yaml')),
     readYaml(path.join(DATA, 'accounts.yaml')),
+    readYaml(path.join(DATA, 'history.yaml')).catch(() => []),
+    readYaml(path.join(DATA, 'policy-changes.yaml')).catch(() => []),
   ]);
   const files = await walk(ENTRIES);
   const entries = [];
@@ -95,14 +97,14 @@ export async function loadAll() {
     const data = (await readYaml(file)) ?? {};
     commitments.push({ id: path.basename(file).replace(/\.ya?ml$/, ''), file: path.relative(ROOT, file), ...data });
   }
-  return { site, patterns, actors, accounts: accounts ?? [], entries, commitments };
+  return { site, patterns, actors, accounts: accounts ?? [], entries, commitments, history: history ?? [], policy: policy ?? [] };
 }
 
 /**
  * Validate everything. Returns { errors, warnings, unarchived }, where
  * unarchived lists entries with no archived copy of any source yet.
  */
-export function validate({ patterns, actors, entries, accounts = [], commitments = [] }) {
+export function validate({ patterns, actors, entries, accounts = [], commitments = [], history = [], policy = [] }) {
   const errors = [];
   const warnings = [];
   const unarchived = [];
@@ -295,8 +297,42 @@ export function validate({ patterns, actors, entries, accounts = [], commitments
     });
     if (!(doc.commitments ?? []).length) err(doc, 'lists no commitments');
   }
+
+  // The policy page log: each page is one in data/history.yaml, and each change says how it was made known.
+  const historyOrg = new Map(history.map((h) => [h.id, h.org]));
+  const seenPages = new Set();
+  for (const pg of policy) {
+    const pe = { id: `policy-changes.yaml: ${pg.page ?? '?'}` };
+    for (const k of Object.keys(pg)) if (!POLICY_PAGE_KEYS.has(k)) warn(pe, `unknown field "${k}"`);
+    if (!historyOrg.has(pg.page)) err(pe, 'page must be an id in data/history.yaml');
+    else if (historyOrg.get(pg.page) !== pg.org) err(pe, `org must be ${historyOrg.get(pg.page)}, as in data/history.yaml`);
+    if (seenPages.has(pg.page)) err(pe, 'page is listed twice');
+    seenPages.add(pg.page);
+    if (!pg.title) err(pe, 'needs a title');
+    if (!Array.isArray(pg.changes)) { err(pe, 'changes must be a list (it can be empty)'); continue; }
+    if (!pg.changes.length && !pg.note) err(pe, 'a page with no changes needs a note saying what its history shows');
+    pg.changes.forEach((c, i) => {
+      const where = `changes[${i}] (${c.date ?? '?'})`;
+      for (const k of Object.keys(c)) if (!POLICY_CHANGE_KEYS.has(k)) warn(pe, `${where}: unknown field "${k}"`);
+      const d = parseDate(c.date);
+      if (!d) err(pe, `${where}: date must be YYYY, YYYY-MM or YYYY-MM-DD`);
+      else if (d.time > Date.now() + DAY) err(pe, `${where}: date is in the future`);
+      if (c.when != null && !String(c.when).includes(String(c.date))) warn(pe, `${where}: "when" doesn't mention the date`);
+      if (!c.change) err(pe, `${where}: needs the change`);
+      if (!c.notice) err(pe, `${where}: needs a notice (how it was made known, as found)`);
+      if (!DISCLOSURES.includes(c.disclosure)) err(pe, `${where}: disclosure must be one of ${DISCLOSURES.join(', ')}`);
+      if (c.cut != null && c.cut !== true) err(pe, `${where}: cut is either true or left out`);
+      if (c.cut && c.disclosure !== 'none') err(pe, `${where}: a cut made without notice needs disclosure: none`);
+      for (const m of String(c.notice ?? '').matchAll(/`([^`]+)`/g)) if (!byId.has(m[1])) err(pe, `${where}: notice links unknown entry "${m[1]}"`);
+    });
+  }
   return { errors, warnings, unarchived };
 }
+
+const POLICY_PAGE_KEYS = new Set(['page', 'org', 'title', 'versions', 'note', 'changes', 'after']);
+const POLICY_CHANGE_KEYS = new Set(['date', 'when', 'change', 'notice', 'disclosure', 'cut']);
+// How a change to a policy page was made known (see data/policy-changes.yaml).
+export const DISCLOSURES = ['announced', 'page', 'none', 'n/a', 'unchecked'];
 
 /** Tally commitment grades per document and company: { org: { total, kept, ...grades } }. */
 export function tallyCommitments(doc) {
@@ -317,7 +353,7 @@ export function tallyCommitments(doc) {
 const DAY = 86400000;
 
 /** Turn validated data into the shape the site consumes. */
-export function derive({ site, patterns, actors, entries, commitments = [] }) {
+export function derive({ site, patterns, actors, entries, commitments = [], history = [], policy = [] }) {
   const sorted = [...entries].sort((a, b) => parseDate(a.date).time - parseDate(b.date).time || a.id.localeCompare(b.id));
   const out = sorted.map((e, i) => {
     const { file, ...rest } = e;
@@ -363,6 +399,14 @@ export function derive({ site, patterns, actors, entries, commitments = [] }) {
     commitments: [...commitments]
       .sort((a, b) => parseDate(a.date).time - parseDate(b.date).time || a.id.localeCompare(b.id))
       .map(({ file, ...doc }) => ({ ...doc, file, tally: tallyCommitments(doc) })),
+    // The policy page log, each page with its current address and its changes oldest first.
+    policy: policy.map((pg) => ({
+      ...pg,
+      url: history.find((x) => x.id === pg.page)?.urls?.[0] ?? null,
+      changes: [...(pg.changes ?? [])]
+        .map((c) => ({ ...c, date: String(c.date), time: parseDate(c.date).time, precision: parseDate(c.date).precision }))
+        .sort((a, b) => a.time - b.time),
+    })),
     stats: {
       entries: out.length,
       said: said.length,
@@ -535,4 +579,62 @@ export async function checkQuotes(entries) {
     }
   }
   return entries;
+}
+
+/** The phrases a change in the policy log quotes from its page: the text in double quotes. */
+export function policyQuotes(text) {
+  return [...String(text ?? '').matchAll(/"([^"]+)"|“([^”]+)”/g)].map((m) => m[1] ?? m[2]);
+}
+
+/**
+ * Check every phrase the policy log quotes against the saved texts of its page:
+ * each archived version in inbox/history/<page>/ and the weekly watcher's copies
+ * in watch/<page>/. Sets change.quotes = [{ text, first, last }], where first and
+ * last are the earliest and latest saved copies holding the phrase, each
+ * { date, archive } (a Wayback Machine capture) or { date, file } (a copy in this
+ * repository); both are null when no saved copy holds it.
+ */
+export async function checkPolicyQuotes(policy) {
+  // The log nests quotes with single marks where the page has double ones, and puts a
+  // closing period inside the quote marks, so the check treats marks alike and drops end periods.
+  const fold = (t) => normalizeForMatch(t).replace(/"/g, "'");
+  const segmentsOf = (q) => String(q).split(/\u2026|\.\.\./).map((p) => fold(p).replace(/^[\s.,;:]+|[\s.,;:]+$/g, '')).filter(Boolean);
+  const day = (ts) => `${ts.slice(0, 4)}-${ts.slice(4, 6)}-${ts.slice(6, 8)}`;
+  for (const pg of policy) {
+    const copies = [];
+    const dir = path.join(ROOT, 'inbox', 'history', pg.page);
+    if (existsSync(path.join(dir, 'index.json'))) {
+      const index = JSON.parse(await readFile(path.join(dir, 'index.json'), 'utf8'));
+      for (const v of index.versions ?? []) {
+        copies.push({
+          file: path.join(dir, `${v.sha}.txt`),
+          first: { date: day(v.first), archive: `https://web.archive.org/web/${v.first}/${v.url}` },
+          last: { date: day(v.last), archive: `https://web.archive.org/web/${v.last}/${v.url}` },
+        });
+      }
+      for (const v of index.live ?? []) {
+        const file = `inbox/history/${pg.page}/${v.sha}.txt`;
+        copies.push({ file: path.join(ROOT, file), first: { date: v.date, file }, last: { date: v.date, file } });
+      }
+    }
+    const watchDir = path.join(ROOT, 'watch', pg.page);
+    if (existsSync(watchDir)) {
+      for (const f of (await readdir(watchDir)).filter((n) => /^\d{4}-\d{2}-\d{2}\.txt$/.test(n))) {
+        const file = `watch/${pg.page}/${f}`;
+        copies.push({ file: path.join(ROOT, file), first: { date: f.slice(0, 10), file }, last: { date: f.slice(0, 10), file } });
+      }
+    }
+    for (const c of copies) c.text = existsSync(c.file) ? fold(await readFile(c.file, 'utf8')) : '';
+    for (const ch of pg.changes ?? []) {
+      ch.quotes = policyQuotes(ch.change).map((text) => {
+        const segs = segmentsOf(text);
+        const hits = segs.length ? copies.filter((c) => segs.every((s) => c.text.includes(s))) : [];
+        if (!hits.length) return { text, first: null, last: null };
+        const first = hits.reduce((a, c) => (c.first.date < a.first.date ? c : a)).first;
+        const last = hits.reduce((a, c) => (c.last.date > a.last.date ? c : a)).last;
+        return { text, first, last };
+      });
+    }
+  }
+  return policy;
 }

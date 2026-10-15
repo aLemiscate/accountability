@@ -7,7 +7,7 @@
 // Flags: --strict  treat warnings as errors
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
-import { ROOT, loadAll, validate, derive, checkQuotes, gitAddedDates } from './lib.mjs';
+import { ROOT, loadAll, validate, derive, checkQuotes, checkPolicyQuotes, gitAddedDates } from './lib.mjs';
 import { describe } from './cards.mjs';
 import { recordHtml, sitemapXml } from './record.mjs';
 
@@ -32,7 +32,15 @@ if (checked.length) {
   console.log(`${checked.length - unmatched.length} of ${checked.length} quotes with snapshots were found verbatim in them.`);
   for (const e of unmatched) console.log(`  quote not found in its snapshots: ${e.id} (fine if the quote comes from a source that has no snapshot yet)`);
 }
-if (failed) process.exit(1);
+await checkPolicyQuotes(data.policy);
+const policyQuotes = data.policy.flatMap((pg) => (pg.changes ?? []).flatMap((c) => c.quotes.map((q) => ({ page: pg.page, date: c.date, ...q }))));
+const policyMissing = policyQuotes.filter((q) => !q.first);
+if (policyQuotes.length) {
+  console.log(`${policyQuotes.length - policyMissing.length} of ${policyQuotes.length} phrases quoted in the policy page log were found in the page's saved texts.`);
+  // The log's quotes are the page's own words, so each one has to be in a saved copy of the page.
+  for (const q of policyMissing) console.error(`  ERROR data/policy-changes.yaml: ${q.page} (${q.date}) quotes "${q.text}", which no saved text of the page holds`);
+}
+if (failed || policyMissing.length) process.exit(1);
 if (checkOnly) process.exit(0);
 
 const built = derive(data);
