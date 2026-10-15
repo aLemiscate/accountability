@@ -50,6 +50,13 @@ Every entry links back to its file, so readers can check or correct it.
 - **Search** covers titles, quotes, summaries, updates, people, pattern names,
   sources and the commitments documents. Matched words are marked, and on the
   timeline each card says where the match was.
+- **Keeping your place.** A tab, a figure in the masthead, "About this
+  pattern" or a document in the Commitments table lands at the start of what it
+  points to, below the sticky bar, and outlines the spot for a moment. Picking a
+  pattern or company from partway down a list keeps the card you were on where
+  it was, and the match count is marked when it changes. Keyboard focus never
+  hides under the bar. With reduced motion, jumps are instant and the outline
+  holds still until the next click, key or scroll.
 - **Print.** Printing (on the GitHub Pages site) gives the current view on
   white without the controls, or only the open entry, with its source
   addresses written out.

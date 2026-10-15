@@ -193,6 +193,10 @@ input[type="search"] { width: min(260px, 100%); }
 .field select { max-width: 15rem; }
 input[type="search"]::placeholder { color: var(--ink-3); }
 .filter-count { margin-left: auto; }
+/* While a filter is on, the count reads in ink; when a filter changes it, the number is marked. */
+.filter-count.on { color: var(--ink); }
+.filter-count .tick { animation: tick 0.9s ease-out; }
+@keyframes tick { from { background-color: var(--mark); box-shadow: 0 0 0 3px var(--mark); } }
 .more { display: contents; }
 .more-toggle { display: none; }
 .clear { background: none; border: 0; padding: 4px; cursor: pointer; text-decoration: underline; text-underline-offset: 0.2em; }
@@ -203,6 +207,18 @@ main { padding-block: 40px 80px; min-height: 50vh; }
 .view-head h2 { font: 600 var(--step-3)/1.05 var(--sans); letter-spacing: -0.035em; }
 .view-head p { color: var(--ink-2); }
 .empty { padding: 40px 0; color: var(--ink-2); }
+
+/* Where a jump lands (app.js: bring, mark). Jump targets stop below the sticky bar, whose
+   height app.js keeps in --bar (zero on phones, where the bar scrolls away). The margin
+   goes on the targets, not on html's scroll-padding, which would also scroll the page
+   whenever focus moved into the bar itself. */
+.view-head, .pbrief, .pcard, .section-sub, .cdoc { scroll-margin-top: calc(var(--bar, 0px) + 16px); }
+/* The spot is marked with the focus outline, held for a moment, then faded. */
+.arrived, .arrived-still { outline: 2px solid var(--focus); outline-offset: 6px; }
+.arrived { animation: arrive 1.6s ease-out forwards; }
+@keyframes arrive { 0%, 30% { outline-color: var(--focus); } to { outline-color: transparent; } }
+/* A heading or row that takes focus after a jump shows the mark, not a second ring. */
+[data-landing]:focus:not(.arrived, .arrived-still) { outline: none; }
 
 /* Said / Did tags: hollow for words, solid for deeds. */
 .stamp {
@@ -266,7 +282,7 @@ main { padding-block: 40px 80px; min-height: 50vh; }
 .gkey > span { display: inline-flex; align-items: center; gap: 6px; }
 .gkey .sw { width: 10px; height: 10px; border-radius: 1px; }
 .cnote { color: var(--ink-3); font-size: var(--step--1); max-width: var(--measure); }
-.cdoc { padding: 28px 0; border-bottom: 1px solid var(--rule); display: grid; gap: 10px; scroll-margin-top: 16px; }
+.cdoc { padding: 28px 0; border-bottom: 1px solid var(--rule); display: grid; gap: 10px; }
 .cdoc h3 { font: 600 var(--step-2)/1.1 var(--sans); letter-spacing: -0.03em; text-wrap: balance; }
 .cdoc > p { color: var(--ink-2); max-width: var(--measure); }
 .cdoc summary { cursor: pointer; width: max-content; max-width: 100%; font-size: var(--step--1); }
@@ -796,6 +812,7 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 28px; }
     color-scheme: light; print-color-adjust: exact; -webkit-print-color-adjust: exact;
   }
   .gridfield, .controls, .btn, .more-bar, .latest, .toast, .pstrip, .more-toggle, .insource .see, .d-pattern .side-head { display: none !important; }
+  .arrived, .arrived-still { outline: 0 !important; }
   .masthead { padding-block: 0 16px; }
   .receipt, .tl-card, .watch > *, .citem, .key, .ctable tr, .pbrief { break-inside: avoid; }
   h2, h3, .year-label { break-after: avoid; }

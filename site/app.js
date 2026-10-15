@@ -47,6 +47,7 @@
   const NOW = Date.now();
 
   const state = { view: 'receipts', org: 'all', pattern: '', person: '', q: '', order: 'newest' };
+  const calm = matchMedia('(prefers-reduced-motion: reduce)');
 
   // ── tiny DOM builder (text is always set as text, never parsed as HTML) ──
   function h(tag, attrs, ...kids) {
@@ -163,6 +164,76 @@
     p.setAttribute('stroke-width', '1.5');
     s.append(p);
     return s;
+  }
+
+  // ── where a jump lands ─────────────────────────────────────────────────
+  // Jumps the reader asks for land below the sticky bar, take keyboard focus with
+  // them, and mark the spot: the focus outline, held for a moment, then faded.
+  // With reduced motion the jump is instant and the outline stays until the
+  // reader next clicks, types or scrolls.
+  const masthead = document.querySelector('.masthead');
+  const controls = document.querySelector('.controls');
+  // The bar's height, for the scroll margins in styles.css. Zero on phones, where it doesn't stick.
+  function syncBar() {
+    const stuck = getComputedStyle(controls).position === 'sticky';
+    document.documentElement.style.setProperty('--bar', `${stuck ? controls.offsetHeight : 0}px`);
+  }
+  if (window.ResizeObserver) new ResizeObserver(syncBar).observe(controls);
+  matchMedia('(max-width: 760px)').addEventListener?.('change', syncBar);
+  // Where the bar sits before it sticks, which is where every view begins. (A stuck
+  // bar reports its stuck position as its offsetTop, so measure the masthead.)
+  const viewTop = () => masthead.offsetTop + masthead.offsetHeight;
+  const CLEAR_ON = ['pointerdown', 'keydown', 'wheel', 'touchmove'];
+  const ringed = (el) => { try { return el.matches(':focus-visible'); } catch { return false; } }; // older browsers lack it
+  function mark(el) {
+    if (!el) return;
+    el.classList.remove('arrived', 'arrived-still');
+    // Where a keyboard user's focus ring already shows the spot, a second outline would only repeat it.
+    const f = document.activeElement;
+    if (f && el.contains(f) && !f.hasAttribute('data-landing') && ringed(f)) return;
+    if (calm.matches) {
+      el.classList.add('arrived-still');
+      const clear = () => {
+        el.classList.remove('arrived-still');
+        for (const t of CLEAR_ON) removeEventListener(t, clear, true);
+      };
+      // Armed a moment later, so the jump's own scrolling doesn't clear it.
+      setTimeout(() => { for (const t of CLEAR_ON) addEventListener(t, clear, true); }, 300);
+      return;
+    }
+    void el.offsetWidth; // restarts the fade when the same spot is marked twice
+    el.classList.add('arrived');
+    const done = (ev) => {
+      if (ev.target !== el) return;
+      el.classList.remove('arrived');
+      el.removeEventListener('animationend', done);
+    };
+    el.addEventListener('animationend', done);
+  }
+  // Focus without scrolling, so the next Tab continues from where the reader landed.
+  function focusAt(el) {
+    if (!el) return;
+    if (!el.matches('a[href], button, input, select, textarea, [tabindex]')) {
+      el.tabIndex = -1;
+      el.setAttribute('data-landing', ''); // a heading or row: the mark shows it instead of a focus ring
+    }
+    el.focus({ preventScroll: true });
+  }
+  // Scroll a target into view, then mark it once it has arrived. A short trip glides,
+  // so the reader sees which way the page moved; a long one is instant.
+  function bring(target, { block = 'start', ring = target, focus = ring, glide = true } = {}) {
+    if (!target) return;
+    const smooth = glide && !calm.matches && Math.abs(target.getBoundingClientRect().top) < 2 * innerHeight;
+    const from = scrollY;
+    target.scrollIntoView({ block, behavior: smooth ? 'smooth' : 'auto' });
+    focusAt(focus);
+    if (!smooth) { mark(ring); return; }
+    let done = false;
+    const arrive = () => { if (done) return; done = true; removeEventListener('scrollend', arrive); mark(ring); };
+    addEventListener('scrollend', arrive);
+    setTimeout(arrive, 700); // for browsers without scrollend
+    // Already in place: nothing will scroll, so mark it now.
+    requestAnimationFrame(() => requestAnimationFrame(() => { if (scrollY === from) arrive(); }));
   }
 
   // ── formatting ─────────────────────────────────────────────────────────
@@ -290,6 +361,8 @@
     }));
   const receiptTime = (r) => (r.outcome ? byId.get(r.said).outcome.time : byId.get(r.did || r.revision).time);
   const allReceipts = [...D.receipts, ...revisionReceipts, ...outcomeReceipts].sort((a, b) => receiptTime(b) - receiptTime(a));
+  // The id each receipt's card carries (receiptCard, outcomeCard, revisionCard).
+  const receiptKey = (r) => (r.revision ? `r-${r.revision}` : r.outcome ? `r-${r.said}--outcome` : `r-${r.said}--${r.did}`);
   function receiptMatches(r) {
     if (r.revision) return matches(byId.get(r.revision));
     if (r.outcome) return matches(byId.get(r.said));
@@ -315,8 +388,9 @@
     class: 'chip',
     type: 'button',
     'aria-pressed': String(state.pattern === p),
+    'data-p': p,
     title: state.pattern === p ? 'Stop following this pattern' : `Follow this pattern: ${patternById.get(p)?.name}`,
-    onclick: (ev) => { ev.stopPropagation(); setFilter({ pattern: state.pattern === p ? '' : p }, toView); },
+    onclick: (ev) => { ev.stopPropagation(); setFilter({ pattern: state.pattern === p ? '' : p }, toView, ev.currentTarget); },
   }, patternById.get(p)?.name || p));
   const FAILED = new Set(['broken', 'reversed', 'eroded', 'contradicted']);
   /** How the statements in a set of entries turned out, e.g. "4 didn't hold · 1 standing · 2 actions". */
@@ -355,7 +429,7 @@
         h('span', { class: 'label' }, 'Following a pattern'),
         h('span', { class: 'spacer' }),
         h('button', { class: 'clear label', type: 'button', onclick: () => { location.hash = `p-${p.id}`; } }, 'All patterns'),
-        h('button', { class: 'clear label', type: 'button', onclick: () => setFilter({ pattern: '' }) }, 'Stop following')),
+        h('button', { class: 'clear label', type: 'button', onclick: (ev) => setFilter({ pattern: '' }, null, ev.currentTarget) }, 'Stop following')),
       h('h3', null, p.name),
       h('p', null, p.thesis),
       entries.length > 0 && h('p', { class: 'pbrief-meta' },
@@ -381,7 +455,7 @@
       h('span', { class: 'label' }, 'Follow a pattern'),
       h('div', { class: 'pstrip-chips' }, rows.map(([p, n]) => h('button', {
         class: 'chip', type: 'button', 'aria-pressed': String(state.pattern === p.id),
-        onclick: () => setFilter({ pattern: state.pattern === p.id ? '' : p.id }),
+        onclick: (ev) => setFilter({ pattern: state.pattern === p.id ? '' : p.id }, null, ev.currentTarget),
       }, p.name, h('span', { class: 'n' }, n)))),
       !state.pattern && untagged > 0 && h('span', { class: 'pstrip-note' }, `${untagged} of ${pool.length} entries fit no pattern yet and appear only in the full timeline.`));
   }
@@ -498,11 +572,18 @@
     patternBrief(D.entries.filter(matches)), !state.q && latestStrip()];
     if (!list.length) return [...frag, empty()];
     // The first page of receipts, then more on request, so the page doesn't run to dozens of screens.
-    const card = (r) => (r.revision ? revisionCard(byId.get(r.revision)) : r.outcome ? outcomeCard(r) : receiptCard(r));
-    const box = h('div', { class: 'receipts' }, list.slice(0, RECEIPTS_PAGE).map(card));
+    // After a filter change the list runs at least down to the receipt the reader was on.
+    const card = (r) => {
+      const el = r.revision ? revisionCard(byId.get(r.revision)) : r.outcome ? outcomeCard(r) : receiptCard(r);
+      el.dataset.key = receiptKey(r);
+      el.dataset.t = receiptTime(r);
+      return el;
+    };
+    const first = Math.max(RECEIPTS_PAGE, keptIndex(list) + 1);
+    const box = h('div', { class: 'receipts' }, list.slice(0, first).map(card));
     frag.push(box);
-    if (list.length > RECEIPTS_PAGE) {
-      let shown = RECEIPTS_PAGE;
+    if (list.length > first) {
+      let shown = first;
       const note = h('span', { class: 'label' });
       const more = h('button', { class: 'btn', type: 'button' });
       const all = h('button', { class: 'clear label', type: 'button' }, `Show all ${list.length}`);
@@ -513,12 +594,13 @@
         if (shown >= list.length) bar.remove();
       };
       const reveal = (n) => {
-        const first = list.slice(shown, shown + n).map(card);
-        box.append(...first);
-        shown += first.length;
+        const added = list.slice(shown, shown + n).map(card);
+        box.append(...added);
+        shown += added.length;
         sync();
         armEdits();
-        first[0]?.querySelector('.side-title, button')?.focus({ preventScroll: true });
+        added[0]?.querySelector('.side-title, button')?.focus({ preventScroll: true });
+        mark(added[0]); // where the new batch begins
       };
       more.addEventListener('click', () => reveal(RECEIPTS_PAGE));
       all.addEventListener('click', () => reveal(list.length));
@@ -642,7 +724,7 @@
         const row = `grid-row: ${i + 3}`;
         block.append(
           h('div', { class: 'tl-spine', style: row, 'aria-hidden': 'true' }, h('span', { class: `tl-dot ${e.type}` })),
-          h('article', { class: `tl-card ${e.type}`, style: row },
+          h('article', { class: `tl-card ${e.type}`, style: row, 'data-key': e.id, 'data-t': e.time },
             h('span', { class: 'tl-meta' }, stamp(e.type), h('span', { class: 'label' }, fmtDate(e.date)), orgTag(e.org)),
             h('button', { class: 't', type: 'button', onclick: () => openEntry(e.id) }, hl(e.title)),
             state.q && matchContext(e),
@@ -765,7 +847,7 @@
     const card = (e) => {
       const due = e.status === 'open' && dueOf(e);
       const days = due ? Math.round((due.end - NOW) / DAY) : Math.max(0, Math.round((NOW - e.time) / DAY));
-      return h('article', { class: `wcard ${e.status}${due?.passed ? ' passed' : ''}` },
+      return h('article', { class: `wcard ${e.status}${due?.passed ? ' passed' : ''}`, 'data-key': e.id, 'data-t': e.time },
         h('div', { class: 'age' },
           due ? [
             h('span', { class: 'label' }, due.passed ? 'Deadline passed' : 'Due in'),
@@ -788,15 +870,15 @@
         ),
       );
     };
-    const section = (title, note, items) => items.length > 0 && [
-      h('h3', { class: 'section-sub' }, title, h('span', { class: 'section-n' }, items.length)),
+    const section = (title, note, items, id) => items.length > 0 && [
+      h('h3', { class: 'section-sub', id }, title, h('span', { class: 'section-n' }, items.length)),
       note && h('p', { class: 'section-note' }, note),
       h('div', { class: 'watch' }, items.map(card)),
     ];
     frag.push(
       section('Coming due', 'Promises that name a date. When it passes, the record checks whether they were met.', dated),
       section('No fixed deadline', 'Open-ended promises, newest first. Each is checked against its test whenever the record is updated.', undated),
-      section('Held under pressure', 'Promises that were tested and kept, so far.', kept),
+      section('Held under pressure', 'Promises that were tested and kept, so far.', kept, 'w-kept'),
     );
     return frag.flat().filter(Boolean);
   }
@@ -829,7 +911,11 @@
     frag.push(h('div', { class: 'ctable-wrap' }, h('table', { class: 'ctable' },
       h('thead', null, h('tr', null, h('th', { scope: 'col' }, 'Document'), orgs.map((o) => h('th', { scope: 'col' }, orgName(o))))),
       h('tbody', null, docs.map((d) => h('tr', null,
-        h('th', { scope: 'row' }, h('a', { href: `#c-${d.id}`, onclick: (ev) => { ev.preventDefault(); document.getElementById(`c-${d.id}`)?.scrollIntoView({ block: 'start' }); } }, d.title)),
+        h('th', { scope: 'row' }, h('a', { href: `#c-${d.id}`, onclick: (ev) => {
+          ev.preventDefault();
+          const doc = document.getElementById(`c-${d.id}`);
+          bring(doc, { ring: doc?.querySelector('h3') });
+        } }, d.title)),
         orgs.map((o) => cell(d.tally?.[o], o))))),
       h('tfoot', null, h('tr', null, h('th', { scope: 'row' }, words.length ? 'These documents' : 'All documents'), orgs.map((o) => cell(total[o], o)))),
     )));
@@ -1001,6 +1087,18 @@
   dialog.addEventListener('close', () => {
     if (location.hash.startsWith('#e-')) setHash(hashFor(state));
   });
+  // Keyboard focus that lands under the sticky bar, or under the entry window's own
+  // sticky header, is brought out from under it. Clicks are left alone.
+  document.addEventListener('focusin', (ev) => {
+    const el = ev.target;
+    if (!(el instanceof Element) || !ringed(el)) return;
+    const inEntry = dialog.contains(el);
+    const cover = inEntry ? dialog.querySelector('.d-head') : controls;
+    if (!cover || (!inEntry && getComputedStyle(controls).position !== 'sticky')) return;
+    if (cover.contains(el) || !(cover.compareDocumentPosition(el) & Node.DOCUMENT_POSITION_FOLLOWING)) return;
+    const under = cover.getBoundingClientRect().bottom + 8 - el.getBoundingClientRect().top;
+    if (under > 0) (inEntry ? dialog : window).scrollBy(0, -under);
+  });
   dialog.addEventListener('click', (ev) => { if (ev.target === dialog) dialog.close(); });
 
   // ── copy a receipt as plain text, for posting ─────────────────────────
@@ -1096,12 +1194,12 @@
   }, v[0].toUpperCase() + v.slice(1), counts[v] != null && h('span', { class: 'count' }, counts[v]))));
 
   orgSeg.replaceChildren(...['all', 'openai', 'anthropic'].map((o) => h('button', {
-    type: 'button', 'aria-pressed': String(state.org === o), onclick: () => setFilter({ org: o }),
+    type: 'button', 'aria-pressed': String(state.org === o), onclick: (ev) => setFilter({ org: o }, null, ev.currentTarget),
   }, o === 'all' ? 'Both' : orgName(o))));
   patternSel.replaceChildren(h('option', { value: '' }, 'All patterns'), ...D.patterns.map((p) => h('option', { value: p.id }, p.name)));
   personSel.replaceChildren(h('option', { value: '' }, 'Everyone'), ...personActors.map((a) => h('option', { value: a.id }, `${a.name}${a.org ? ` (${orgName(a.org)})` : ''}`)));
-  patternSel.addEventListener('change', () => setFilter({ pattern: patternSel.value }));
-  personSel.addEventListener('change', () => setFilter({ person: personSel.value }));
+  patternSel.addEventListener('change', () => setFilter({ pattern: patternSel.value }, null, patternSel));
+  personSel.addEventListener('change', () => setFilter({ person: personSel.value }, null, personSel));
   let qTimer;
   search.addEventListener('input', () => { clearTimeout(qTimer); qTimer = setTimeout(() => setFilter({ q: search.value.trim() }), 150); });
   document.getElementById('clear').addEventListener('click', clearFilters);
@@ -1115,23 +1213,75 @@
     document.querySelector('.filters').classList.toggle('open', open);
   });
 
-  function setFilter(patch, toView) {
+  // `from` is the control the reader used, when they used one (a search or the order
+  // toggle passes none). A change made from a control keeps the reader's place: the card
+  // they were on stays where it was on screen, and the match count marks the change.
+  function setFilter(patch, toView, from) {
+    const keep = from && !toView ? anchorFor(from) : null;
+    pulse = !!from;
     Object.assign(state, patch);
     if (toView) state.view = toView;
     setHash(hashFor(state));
-    render();
+    render(keep);
+    if (keep) holdPlace(keep);
+    else if (toView) {
+      // Following a pattern into another view lands on the brief that says what is being followed.
+      const brief = view.querySelector('.pbrief');
+      bring(brief, { ring: brief?.querySelector('h3'), glide: false });
+    }
   }
-  function clearFilters() {
+  function clearFilters(ev) {
+    const keep = anchorFor(ev?.currentTarget);
+    pulse = true;
     Object.assign(state, { org: 'all', pattern: '', person: '', q: '' });
     search.value = '';
     setHash(hashFor(state));
-    render();
+    render(keep);
+    if (keep) holdPlace(keep);
   }
   function go(v) {
     state.view = v;
     setHash(hashFor(state));
     render();
-    window.scrollTo({ top: Math.min(window.scrollY, document.querySelector('.controls').offsetTop) });
+    window.scrollTo({ top: Math.min(window.scrollY, viewTop()) });
+  }
+
+  // ── keeping the reader's place across a filter change ────────────────────
+  // The card a reader is on: the one holding the control they used, or else the first
+  // card showing below the sticky bar, once they have scrolled down into the list.
+  let pendingKeep = null;
+  function anchorFor(from) {
+    const cards = view.querySelectorAll('[data-key]');
+    if (!cards.length) return null;
+    let card = from?.closest?.('[data-key]');
+    const inCard = !!card;
+    if (!card) {
+      const top = Math.max(0, controls.getBoundingClientRect().bottom);
+      if (cards[0].getBoundingClientRect().top >= top) return null; // still above the list: nothing to keep
+      card = [...cards].find((c) => c.getBoundingClientRect().bottom > top + 24);
+      if (!card) return null;
+    }
+    return { key: card.dataset.key, t: +card.dataset.t, top: card.getBoundingClientRect().top, chip: inCard && from.dataset.p, inCard };
+  }
+  // Receipts render in pages; render far enough to include the kept card, or the one nearest it in time.
+  function keptIndex(list) {
+    if (!pendingKeep) return -1;
+    const i = list.findIndex((r) => receiptKey(r) === pendingKeep.key);
+    if (i >= 0) return i;
+    let best = -1;
+    let gap = Infinity;
+    list.forEach((r, j) => { const g = Math.abs(receiptTime(r) - pendingKeep.t); if (g < gap) { gap = g; best = j; } });
+    return best;
+  }
+  function holdPlace(keep) {
+    const cards = [...view.querySelectorAll('[data-key]')];
+    if (!cards.length) return;
+    let card = cards.find((c) => c.dataset.key === keep.key);
+    const moved = !card; // the filter removed it: use the card nearest to it in time
+    if (!card) card = cards.reduce((a, c) => (Math.abs(+c.dataset.t - keep.t) < Math.abs(+a.dataset.t - keep.t) ? c : a));
+    window.scrollBy(0, card.getBoundingClientRect().top - keep.top);
+    if (keep.inCard) focusAt(card.querySelector(`.chip[data-p="${CSS.escape(keep.chip)}"]`) || card.querySelector('.side-title, .t'));
+    if (keep.inCard || moved) mark(card);
   }
 
   function syncControls() {
@@ -1145,13 +1295,19 @@
     const extra = [state.pattern, state.person].filter(Boolean).length;
     moreToggle.textContent = extra ? `More filters (${extra} on)` : 'More filters';
     const shown = D.entries.filter(matches).length;
-    countEl.textContent = anyFilter() ? `${shown} of ${D.entries.length} entries match` : `${D.entries.length} entries`;
+    // The number is marked when a filter changes it, and reads in ink while any filter is on.
+    const n = h('span', { class: `n${pulse && lastShown != null && shown !== lastShown && !calm.matches ? ' tick' : ''}` }, shown);
+    countEl.replaceChildren(n, anyFilter() ? ` of ${D.entries.length} entries match` : ' entries');
+    countEl.classList.toggle('on', !!anyFilter());
+    lastShown = shown;
+    pulse = false;
   }
+  let lastShown = null;
+  let pulse = false;
 
   // An edit receipt plays its edit once, the first time it comes into view: the
   // old wording is struck through, then the new wording is marked. Both stay
   // readable throughout, and without motion they simply start in that end state.
-  const calm = matchMedia('(prefers-reduced-motion: reduce)');
   const playedEdits = new Set();
   const editWatch = 'IntersectionObserver' in window && new IntersectionObserver((seen) => {
     for (const s of seen) {
@@ -1172,11 +1328,13 @@
     }
   }
 
-  function render() {
+  function render(keep = null) {
     syncControls();
     const renderers = { receipts: renderReceipts, timeline: renderTimeline, patterns: renderPatterns, watchlist: renderWatchlist, commitments: renderCommitments, method: renderMethod };
     hideTip();
+    pendingKeep = keep;
     view.replaceChildren(...[renderers[state.view]()].flat().filter(Boolean));
+    pendingKeep = null;
     armEdits();
     queueSnap();
   }
@@ -1186,10 +1344,19 @@
   // and each one opens the view that holds those entries.
   const said = D.entries.filter((e) => e.type === 'said');
   const byOrg = (pred) => ['openai', 'anthropic'].map((o) => [o, said.filter((e) => e.org === o && pred(e)).length]);
-  const tile = (pred, label, tone, target) => {
+  // A figure opens its view and lands on the part of it the figure counts.
+  const tile = (pred, label, tone, target, spot) => {
     const split = byOrg(pred);
     const n = split.reduce((a, [, k]) => a + k, 0);
-    return h('a', { class: 'stat', href: `#${target}` },
+    return h('a', { class: 'stat', href: `#${target}`, onclick: (ev) => {
+      if (ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return; // opening it in a new tab or window
+      ev.preventDefault();
+      applyHash(target);
+      setHash(`#${target}`);
+      render();
+      const to = (spot && document.getElementById(spot)) || view.querySelector('.view-head');
+      bring(to, { ring: to.matches('h2, h3') ? to : to.querySelector('h2'), glide: false });
+    } },
       h('span', { class: `stat-n${tone ? ` ${tone}` : ''}` }, n),
       h('span', { class: 'label' }, label),
       h('span', { class: 'stat-split' }, split.map(([o, k]) => h('span', { class: `org-n ${o}` }, glyph(o), h('span', { class: 'sr' }, `${orgName(o)}: `), k))));
@@ -1197,7 +1364,7 @@
   document.getElementById('stats').replaceChildren(
     tile(() => true, 'Statements on record', '', 'timeline'),
     tile((e) => FAILED.has(e.status), 'Didn’t hold up', 'is-did', 'receipts'),
-    tile((e) => e.status === 'kept', 'Kept', 'is-held', 'watchlist'),
+    tile((e) => e.status === 'kept', 'Kept', 'is-held', 'watchlist', 'w-kept'),
     tile((e) => e.status === 'open', 'Still standing, being watched', 'is-open', 'watchlist'),
   );
   const s = D.stats;
@@ -1222,7 +1389,8 @@
     if (hash.startsWith('p-') && patternById.has(hash.slice(2))) {
       state.view = 'patterns';
       render();
-      document.getElementById(hash)?.scrollIntoView({ block: 'start' });
+      const card = document.getElementById(hash);
+      bring(card, { ring: card?.querySelector('h3'), glide: false });
       return;
     }
     applyHash(hash);
