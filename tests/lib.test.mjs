@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parseDate, periodEnd, validate, derive, loadAll, quoteSegments, normalizeForMatch, normalizeWithMap, quoteExcerpt, tallyCommitments } from '../scripts/lib.mjs';
+import { parseDate, periodEnd, validate, derive, loadAll, quoteSegments, normalizeForMatch, normalizeWithMap, quoteExcerpt, tallyCommitments, policyQuotes, checkPolicyQuotes } from '../scripts/lib.mjs';
 
 test('parseDate accepts year, month and day precision and rejects impossible dates', () => {
   assert.equal(parseDate('2024').precision, 'year');
@@ -226,4 +226,38 @@ test('link-preview cards pair a statement with what became of it, and use the si
   assert.equal(span(1400), '3.8 years');
   const app = await readFile(new URL('../site/app.js', import.meta.url), 'utf8');
   for (const [org, d] of Object.entries(LOGO)) assert.ok(app.includes(d), `site/app.js has the same ${org} logo`);
+});
+
+test('the policy page log names known pages and says how each change was made known', () => {
+  const history = [{ id: 'openai-terms', org: 'openai' }];
+  const change = { date: '2024-01-10', change: 'Drops "Military and warfare".', notice: 'Not dated', disclosure: 'none' };
+  const ok = { ...base(), history, policy: [{ page: 'openai-terms', org: 'openai', title: 'Terms', changes: [change] }] };
+  assert.deepEqual(validate(ok).errors, []);
+  const errorsFor = (pg) => validate({ ...base(), history, policy: [pg] }).errors.join('\n');
+  assert.match(errorsFor({ page: 'nope', org: 'openai', title: 'T', changes: [change] }), /history\.yaml/);
+  assert.match(errorsFor({ page: 'openai-terms', org: 'anthropic', title: 'T', changes: [change] }), /org must be openai/);
+  assert.match(errorsFor({ page: 'openai-terms', org: 'openai', title: 'T', changes: [{ ...change, disclosure: 'quiet' }] }), /disclosure must be one of/);
+  assert.match(errorsFor({ page: 'openai-terms', org: 'openai', title: 'T', changes: [{ ...change, disclosure: 'announced', cut: true }] }), /cut made without notice/);
+  assert.match(errorsFor({ page: 'openai-terms', org: 'openai', title: 'T', changes: [{ ...change, notice: 'See `no-such-entry`' }] }), /unknown entry "no-such-entry"/);
+  assert.match(errorsFor({ page: 'openai-terms', org: 'openai', title: 'T', changes: [{ ...change, date: 'January 2024' }] }), /date must be/);
+  assert.match(errorsFor({ page: 'openai-terms', org: 'openai', title: 'T', changes: [] }), /needs a note/);
+});
+
+test('the policy log quotes are the text in double quotes', () => {
+  assert.deepEqual(policyQuotes('"we do not" becomes “by default,” and 5x'), ['we do not', 'by default,']);
+  assert.deepEqual(policyQuotes("\"The 'Initial Term' for Claude Pro is one month\" removed."), ["The 'Initial Term' for Claude Pro is one month"]);
+  assert.deepEqual(policyQuotes('no quotes here'), []);
+});
+
+test('every phrase the policy log quotes is in a saved copy of its page, with the copies that hold it', async () => {
+  const { policy } = await loadAll();
+  await checkPolicyQuotes(policy);
+  const quotes = policy.flatMap((pg) => pg.changes.flatMap((c) => c.quotes.map((q) => ({ page: pg.page, ...q }))));
+  assert.ok(quotes.length > 200, `the log quotes its pages (${quotes.length} phrases)`);
+  assert.deepEqual(quotes.filter((q) => !q.first).map((q) => `${q.page}: ${q.text}`), []);
+  for (const q of quotes) assert.ok(q.first.date <= q.last.date && (q.first.archive || q.first.file), `${q.page}: "${q.text}" has dated copies`);
+  // The military ban was last seen in the copy before the January 2024 rewrite.
+  const ban = quotes.find((q) => q.page === 'openai-usage-policies' && q.text === 'Military and warfare');
+  assert.match(ban.last.date, /^2024-01/);
+  assert.match(ban.last.archive, /^https:\/\/web\.archive\.org\/web\/2024/);
 });

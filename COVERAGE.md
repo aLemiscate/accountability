@@ -500,7 +500,11 @@ Every archived version of 33 pages was pulled and compared in order: both
 companies' usage policies, terms, privacy policies, pricing pages, usage-limit
 help pages and model-retirement pages. Each substantive change is logged with
 its date and whether it was announced. The full log is
-[inbox/history/CHANGES.md](inbox/history/CHANGES.md).
+[data/policy-changes.yaml](data/policy-changes.yaml), shown on the site under
+Fine print, where every phrase it quotes is checked against the archived
+pages; how it was made is in [inbox/history/CHANGES.md](inbox/history/CHANGES.md).
+The counts below leave out one OpenAI change whose disclosure wasn't checked
+(the April 2026 Pro usage tiers, whose prices aren't in the archived text).
 
 | | Pages | Archived copies | Distinct versions | Changes logged |
 | --- | --: | --: | --: | --: |

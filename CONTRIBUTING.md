@@ -193,6 +193,13 @@ extractor, accept the new text without recording an edit:
 `npm run watch-pages -- --rebaseline "why"`. The reason goes into
 `watch/<id>/history.json`.
 
+When a page in `data/history.yaml` changes, add the change to
+`data/policy-changes.yaml` (the field notes are at the top of the file). Text
+in double quotes in `change` must be the page's own words: the build looks for
+each quoted phrase in the page's saved texts (`inbox/history/<page>/` and
+`watch/<page>/`) and fails when it isn't there. Quote announcements in
+`notice`, not in `change`.
+
 `npm run check-sources` checks every cited link and flags anything **gone**. On
 X, a 404 from the embed API means the post was deleted or the account went
 private. Deleted posts are worth recording too. Results go to
@@ -250,6 +257,8 @@ data/
   patterns.yaml              recurring patterns: thesis, tells, what to watch for, industry context
   actors.yaml                who is in scope, and why
   watch.yaml                 pages the watcher re-reads
+  history.yaml               policy, terms and pricing pages whose full archived history is pulled
+  policy-changes.yaml        what changed on those pages, and how each change was made known (Fine print)
   accounts.yaml              X / Bluesky accounts that find-posts reads
   site.yaml                  name, tagline, repo and site URLs
 site/                        the static site (index.html, styles.css, app.js, sky.js, fonts/)
@@ -279,6 +288,15 @@ tests/                       node --test suites
 - **Plain record.** `record.html` has every entry and its sources on one page
   with no JavaScript, for search engines, archives and readers with scripts
   off. The build writes it, with `sitemap.xml`.
+- **Fine print.** The log in `data/policy-changes.yaml`, newest first, with
+  both companies side by side: how many changes each made and how each was
+  made known. It filters by kind of notice (`#fineprint.quiet`, `.announced`,
+  `.onpage`, `.cuts`) and by page (the page id), and each quote opens to the
+  earliest and latest archived copies that hold it. `fine-print.html` is the
+  same log as a plain page.
+- **Data downloads.** The build writes `said-did.json` (everything),
+  `entries.csv` and `fine-print.csv` next to the site, linked from Method. Each
+  entry gives a citation at the bottom of its window.
 - **RSS.** `feed.xml` (Atom) lists new entries, dated by when they were added
   to the repository, and updates to existing entries, dated by the event.
 - **Search** covers titles, quotes, summaries, updates, people, pattern names,

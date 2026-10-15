@@ -92,7 +92,7 @@ export function recordHtml(D) {
 <h1 class="r-title">The whole record</h1>
 <p class="lede">${esc(D.site.description)}</p>
 <p class="r-meta">${D.entries.length} entries: ${said.length} statements and ${D.entries.length - said.length} actions. Of the statements, ${failed} didn't hold up, ${count((e) => e.status === 'kept')} were kept and ${count((e) => e.status === 'open')} are still standing. Updated ${esc(fmtDate(String(D.generated).slice(0, 10)))}. Newest first.</p>
-<p>This is the plain version of the record, one page with every entry and its sources. <a href="./">The site</a> has the same entries with receipts, a timeline, patterns and filters.</p>
+<p>This is the plain version of the record, one page with every entry and its sources. <a href="./">The site</a> has the same entries with receipts, a timeline, patterns and filters. Changes to the companies' policy, terms and pricing pages are on <a href="fine-print.html">a page of their own</a>.</p>
 <p>Claude, an AI model made by Anthropic, does most of the research and writing for this record. Anthropic is one of the two companies it covers, so every entry links to its sources, and both companies are held to the same rules. <a href="./#method">How the record is kept</a>.</p>
 <nav class="r-years" aria-label="Years">${years.map((y) => `<a href="#y-${y}">${y}</a>`).join(' ')}</nav>
 </div></header>
@@ -107,7 +107,73 @@ ${entries.filter((e) => String(e.date).startsWith(y)).map((e) => entryArticle(e,
 `;
 }
 
-/** The home page and the plain record. Entry pages redirect into the site, so they are left out. */
+const DISCLOSURE = {
+  announced: 'Announced',
+  page: 'Noted on the page',
+  none: 'No notice found',
+  'n/a': 'Not applicable (wording, typo and layout fixes)',
+  unchecked: 'Not checked',
+};
+
+/**
+ * The Fine print view as plain HTML: every logged change to the companies'
+ * policy, terms, pricing and help pages, page by page, oldest first, with the
+ * archived copies that hold each quoted phrase.
+ */
+export function finePrintHtml(D) {
+  const base = D.site.url || './';
+  const pages = D.policy || [];
+  const changes = pages.flatMap((p) => p.changes.map((c) => ({ ...c, org: p.org })));
+  const count = (org, pred) => changes.filter((c) => c.org === org && pred(c)).length;
+  const copy = (x) => `<a href="${esc(x.archive || `${D.site.repo}/blob/HEAD/${x.file}`)}">${esc(fmtDate(x.date))}</a>`;
+  const entryLinks = (t) => esc(t).replace(/`([^`]+)`/g, (m, id) => {
+    const e = D.entries.find((x) => x.id === id);
+    return e ? `<a href="./#e-${esc(id)}">${esc(e.title)}</a>` : esc(id);
+  });
+  const change = (c) => {
+    const found = (c.quotes || []).filter((q) => q.first);
+    return `<article class="r-entry">
+<p class="r-meta"><time datetime="${esc(c.date)}">${esc(c.when || fmtDate(c.date))}</time> · ${esc(DISCLOSURE[c.disclosure] || c.disclosure)}${c.cut ? ' · Cut made without notice (a judgment)' : ''}</p>
+<p>${esc(c.change)}</p>
+${c.notice && c.notice !== 'n/a' ? `<div class="r-part"><p class="label">How it was made known</p><p>${entryLinks(c.notice)}</p></div>` : ''}
+${found.length ? `<div class="r-part"><p class="label">Quotes found in archived copies of the page</p><ul>${found.map((q) => `<li>“${esc(q.text)}”: ${q.first.date === q.last.date ? copy(q.first) : `${copy(q.first)} to ${copy(q.last)}`}</li>`).join('')}</ul></div>` : ''}
+</article>`;
+  };
+  const title = `${D.site.title}: the fine print`;
+  return `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${esc(title)}</title>
+<meta name="description" content="Every change found in the archived history of OpenAI's and Anthropic's usage policies, terms, privacy policies, pricing and help pages, and how each was made known.">
+<link rel="canonical" href="${esc(base)}fine-print.html">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="record">
+<header class="masthead"><div class="wrap">
+<p class="wordmark"><a href="./">${esc(D.site.title)}</a></p>
+<h1 class="r-title">The fine print</h1>
+<p class="lede">Every change found in the archived history of both companies' usage policies, terms, privacy policies, pricing pages, usage-limit help pages and model-retirement pages, and how each one was made known.</p>
+<p class="r-meta">${['openai', 'anthropic'].map((o) => `${ORG[o]}: ${pages.filter((p) => p.org === o).length} pages, ${count(o, () => true)} changes, ${count(o, (c) => c.disclosure === 'none')} with no notice found, ${count(o, (c) => c.cut)} of them cuts`).join('. ')}. Updated ${esc(fmtDate(String(D.generated).slice(0, 10)))}.</p>
+<p>"No notice found" means no new date or note on the page and no announcement found; it does not prove none was made. A cut is a change that reduced what users get or what the company had promised, and sorting changes that way is a judgment. Words in quotation marks are the page's own, and each was found in a saved copy of it. <a href="./#fineprint">The same log on the site</a>, with filters. <a href="${esc(D.site.repo)}/blob/HEAD/inbox/history/CHANGES.md">How the pages were compared</a>.</p>
+<nav class="r-years" aria-label="Pages">${pages.map((p) => `<a href="#${esc(p.page)}">${esc(p.title)}</a>`).join(' ')}</nav>
+</div></header>
+<main class="wrap">
+${pages.map((p) => `<section id="${esc(p.page)}"><h2 class="r-year">${esc(p.title)}</h2>
+<p class="r-meta">${esc([ORG[p.org], p.versions].filter(Boolean).join(' · '))}${p.url ? ` · <a href="${esc(p.url)}">the page today</a> · <a href="https://web.archive.org/web/*/${esc(p.url)}">every archived copy</a>` : ''}</p>
+${p.note ? `<p class="r-note">${esc(p.note)}</p>` : ''}
+${p.changes.map(change).join('\n')}
+${p.after ? `<p class="r-note">${esc(p.after)}</p>` : ''}
+</section>`).join('\n')}
+</main>
+<footer><div class="wrap"><span>Facts are sourced. Commentary is labeled.</span><span>Researched and drafted with Claude, an AI model made by Anthropic, one of the two companies covered.</span><span><a href="${esc(D.site.repo)}/blob/HEAD/METHODOLOGY.md">Methodology</a></span><span><a href="record.html">The whole record</a></span></div></footer>
+</body>
+</html>
+`;
+}
+
+/** The home page and the plain pages. Entry pages redirect into the site, so they are left out. */
 export function sitemapXml(D) {
   const base = D.site.url;
   const day = String(D.generated).slice(0, 10);
@@ -115,6 +181,7 @@ export function sitemapXml(D) {
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>${esc(base)}</loc><lastmod>${day}</lastmod></url>
   <url><loc>${esc(base)}record.html</loc><lastmod>${day}</lastmod></url>
+  <url><loc>${esc(base)}fine-print.html</loc><lastmod>${day}</lastmod></url>
 </urlset>
 `;
 }

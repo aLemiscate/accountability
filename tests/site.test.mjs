@@ -20,7 +20,7 @@ test('the built site renders every view without script errors', async (t) => {
     await page.route(/^https?:/, (route) => route.abort()); // no network needed
     await page.goto(pathToFileURL(bundle).href);
     assert.ok(await page.locator('.receipt').count() > 0, 'receipts render');
-    for (const view of ['timeline', 'patterns', 'watchlist', 'method']) {
+    for (const view of ['timeline', 'patterns', 'watchlist', 'fineprint', 'method']) {
       await page.click(`#tab-${view}`);
       assert.ok((await page.locator('main#view').innerText()).length > 100, `${view} renders`);
     }
@@ -240,6 +240,67 @@ test('a figure can be undone with Back, and a kept card holds its place past the
       assert.equal(group, 'kept', `still among the kept promises after picking company ${o - 1}`);
       await page.click('#org button:nth-child(1)');
     }
+    assert.deepEqual(errors, []);
+  } finally {
+    await closeBrowser();
+  }
+});
+
+test('the fine print log filters by notice and page, shares by link, and shows where its quotes were found', async (t) => {
+  if (!existsSync(bundle)) return t.skip('run "npm run build" first');
+  const browser = await getBrowser();
+  if (!browser) return t.skip('Playwright browser not installed');
+  try {
+    const page = await browser.newPage({ viewport: { width: 1280, height: 900 }, reducedMotion: 'reduce' });
+    const errors = [];
+    page.on('pageerror', (e) => errors.push(e.message));
+    await page.route(/^https?:/, (route) => route.abort());
+    const url = pathToFileURL(bundle).href;
+    await page.goto(`${url}#fineprint`);
+    const total = await page.evaluate(() => window.SAID_DID.policy.reduce((n, p) => n + p.changes.length, 0));
+    assert.equal(await page.locator('#tab-fineprint .count').innerText(), String(total), 'the tab counts every change');
+    assert.ok(await page.locator('.fcard').count() > 0 && await page.locator('.fcard').count() < total, 'the first page of changes shows');
+
+    // A filter link opens the cuts made without notice, for one company.
+    await page.goto(`${url}#fineprint.anthropic.cuts`);
+    await page.waitForSelector('.fcard');
+    const cuts = await page.evaluate(() => window.SAID_DID.policy.filter((p) => p.org === 'anthropic').reduce((n, p) => n + p.changes.filter((c) => c.cut).length, 0));
+    assert.equal(await page.locator('.fcard').count(), cuts, 'every Anthropic cut shows');
+    assert.equal(await page.locator('.fcard .pill.cut').count(), cuts, 'each is marked as a cut');
+    assert.equal(await page.locator('.fcard .org.openai').count(), 0, 'no OpenAI changes');
+
+    // Picking "No notice found" updates the link; a page tag narrows to that page and says what to know about it.
+    await page.locator('.fstrip .chip[data-fp="none"]').click();
+    assert.equal(await page.evaluate(() => location.hash), '#fineprint.anthropic.quiet');
+    const card = page.locator('.fcard').first();
+    const pageId = await card.locator('.side-head .chip').getAttribute('data-p');
+    await card.locator('.side-head .chip').click();
+    assert.equal(await page.evaluate(() => location.hash), `#fineprint.anthropic.quiet.${pageId}`);
+    assert.ok(await page.locator('.pbrief h3').count() === 1, 'the page brief shows');
+    assert.equal(await page.locator('.fcard').evaluateAll((cs, id) => cs.every((c) => c.querySelector('.side-head .chip').dataset.p === id), pageId), true, 'only that page');
+    await page.click('#clear');
+    assert.equal(await page.evaluate(() => location.hash), '#fineprint', 'clearing filters lifts the notice and page filters');
+
+    // A quote opens to the earliest and latest archived copies that hold it.
+    const ev = page.locator('.fcard details.insource').first();
+    await ev.locator('summary').click();
+    assert.ok(await ev.locator('.qev a[href^="https://web.archive.org/web/"]').count() > 0, 'quotes link to archived copies');
+
+    // Method offers the downloads, and an entry gives its citation.
+    await page.click('#tab-method');
+    for (const f of ['said-did.json', 'entries.csv', 'fine-print.csv']) assert.ok(await page.locator(`a[href$="${f}"]`).count() > 0, `${f} is offered`);
+    const id = await page.evaluate(() => window.SAID_DID.entries[0].id);
+    await page.evaluate((x) => { location.hash = `e-${x}`; }, id);
+    await page.waitForSelector('dialog#entry[open]');
+    assert.match(await page.locator('dialog .cite').innerText(), new RegExp(`Entry ${id}\\.`), 'the entry gives its citation');
+    await page.keyboard.press('Escape');
+
+    // Nothing runs off the side at phone width.
+    await page.setViewportSize({ width: 390, height: 860 });
+    await page.goto(`${url}#fineprint`);
+    await page.waitForSelector('.fcard');
+    const [scrollW, innerW] = await page.evaluate(() => [document.documentElement.scrollWidth, innerWidth]);
+    assert.ok(scrollW <= innerW, 'no horizontal scroll at phone width');
     assert.deepEqual(errors, []);
   } finally {
     await closeBrowser();
