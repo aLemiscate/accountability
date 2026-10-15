@@ -20,7 +20,8 @@
     "sweep-coverage": "node scripts/sweep-coverage.mjs",
     "reading-queue": "node scripts/reading-queue.mjs",
     "page-history": "node scripts/page-history.mjs",
-    "cards": "node scripts/cards.mjs"
+    "cards": "node scripts/cards.mjs",
+    "archive-copies": "node scripts/archive-copies.mjs"
   },
   "dependencies": {
     "diff": "^8.0.2",

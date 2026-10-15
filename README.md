@@ -111,7 +111,17 @@ cite it:
 npm run capture -- https://x.com/janleike/status/1791498184671605209 --entry 2024-05-17-superalignment-team-disbanded
 ```
 
-This saves `snapshots/<date>-<site>-<hash>/` containing:
+This saves `snapshots/<date>-<site>-<hash>/` containing the files below. Only
+the text files (`*.txt`) and the JSON (`*.json`) are kept in this repository,
+which is all the quote check needs. The raw copies (`page.html`, screenshots,
+PDFs and post images) are too big for it: `.gitignore` leaves them out, and they
+go to the archive repository,
+[aLemiscate/accountability-archive](https://github.com/aLemiscate/accountability-archive),
+under the same paths. The site's snapshot links point there. The Capture and
+Watch workflows copy them over (see [Automation](#automation-github-actions)).
+After a capture on your own computer, copy them with
+`npm run archive-copies -- <checkout of the archive repository>`, then commit
+and push there.
 
 - `page.html` and `page.txt`: the raw page and its readable text. A bot check ("Are we human?", "Client Challenge") or a page with almost no text is not saved, so a blocked source stays visibly unsnapped instead of looking captured
 - `screenshot.jpg` and `rendered.txt`: a full-page screenshot and rendered text (needs `npx playwright install chromium`)
@@ -240,9 +250,10 @@ private. Deleted posts are worth recording too. Results go to
 
 ## Automation (GitHub Actions)
 
-- **Site** (`.github/workflows/site.yml`) runs on every push: it validates, builds and tests the record, writes the per-entry link-preview pages and card images (`npm run cards`) and the Atom feed, then publishes to GitHub Pages from the default branch. It checks out the full history, since the feed dates new entries by when they were added. One-time setup: *Settings → Pages → Source: GitHub Actions*.
+- **Site** (`.github/workflows/site.yml`) runs on every push: it validates, builds and tests the record, writes the per-entry link-preview pages and card images (`npm run cards`) and the Atom feed, then publishes to GitHub Pages from the default branch. It checks out the full history, since the feed dates new entries by when they were added, but without old file contents. One-time setup: *Settings → Pages → Source: GitHub Actions*.
 - **Watch** (`.github/workflows/watch.yml`) runs every Monday and on demand. It re-reads watched pages, checks sources, adds the last two weeks of posts from watched accounts to their archive in `inbox/sweep/` and lists the unread ones in `inbox/sweep/QUEUE.md`, snapshots up to 20 sources that don't have a snapshot yet, archives unarchived sources (when the archive.org secrets are set), commits the results, and **opens an issue whenever a watched page changes**.
 - **Capture** (`.github/workflows/capture.yml`) runs on demand. It snapshots every source that doesn't have a snapshot yet. Run it once to backfill the whole record.
+- Capture and Watch push each new snapshot's raw copies to the archive repository when the `ARCHIVE_DEPLOY_KEY` secret holds a deploy key with write access there. Without it they still commit the text and hashes here, and say in a warning that the raw copies were not kept.
 - **Sweep** (`.github/workflows/sweep.yml`) runs on demand, for example after an account is added to `data/accounts.yaml`. It reads the full archived history of every X account in `data/accounts.yaml` (and the X API timeline when an `X_BEARER_TOKEN` secret is set), one job per account, keeps every post in `inbox/sweep/`, lists topic matches and deleted posts for triage, and writes `inbox/sweep/COVERAGE.md`. Each account reads for up to the run's time budget and saves its place; run it again to continue where it stopped. Nothing is added to the record automatically.
 
 Outside GitHub Actions, a scheduled Claude Code session runs a **weekly news
@@ -293,7 +304,7 @@ data/
   site.yaml                  name, tagline, repo and site URLs
 site/                        the static site (index.html, styles.css, app.js, sky.js, fonts/)
 scripts/                     build, cards, capture, new-entry, find-posts, check-sources, watch-pages, serve
-snapshots/                   captured evidence
+snapshots/                   captured evidence: text and meta.json (raw copies are in aLemiscate/accountability-archive)
 inbox/                       working material: the post archive and reading log, page histories, reading logs (see inbox/README.md)
 watch/                       page-text baselines and diffs
 tests/                       node --test suites

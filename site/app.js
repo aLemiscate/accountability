@@ -389,6 +389,12 @@
   const quoteBlock = (text, e) => text && h('div', { class: 'quote-wrap' },
     h('blockquote', { class: 'quote' }, '“', hl(text.trim()), '”'),
     e?.quote_check?.status === 'matched' && verifiedLine(e));
+  // A snapshot's folder online: the archive repository holds the full copy (raw page,
+  // screenshot, PDF); this repository keeps only its text.
+  const snapshotHref = (dir) => {
+    const base = D.site.archive || D.site.repo;
+    return base ? `${base}/tree/HEAD/${dir}` : null;
+  };
   // The check line under a quote. Where the build kept the passage around the quote,
   // it opens to show the quote in its source, highlighted, with links to the original.
   function verifiedLine(e) {
@@ -406,7 +412,7 @@
         h('p', { class: 'insource-links' },
           src?.url && h('a', { href: src.url, target: '_blank', rel: 'noopener' }, 'Original'),
           src?.archive && h('a', { href: src.archive, target: '_blank', rel: 'noopener' }, 'Archived copy'),
-          D.site.repo && h('a', { href: `${D.site.repo}/tree/HEAD/${qc.snapshot}`, target: '_blank', rel: 'noopener' }, 'Saved copy in the repository')),
+          snapshotHref(qc.snapshot) && h('a', { href: snapshotHref(qc.snapshot), target: '_blank', rel: 'noopener' }, 'Full saved copy')),
       ));
   }
   const titleButton = (e) => h('button', { class: 'side-title', type: 'button', onclick: () => openEntry(e.id) }, hl(e.title));
@@ -924,8 +930,8 @@
         s.date && h('span', null, fmtDate(s.date)),
         s.type && h('span', null, s.type),
         s.archive && h('a', { href: s.archive, target: '_blank', rel: 'noopener' }, `archived ${archiveStamp(s.archive)}`),
-        s.snapshot && (D.site.repo
-          ? h('a', { href: `${D.site.repo}/tree/HEAD/${s.snapshot}`, target: '_blank', rel: 'noopener' }, `snapshot ${snapDate(s.snapshot) || ''}`)
+        s.snapshot && (snapshotHref(s.snapshot)
+          ? h('a', { href: snapshotHref(s.snapshot), target: '_blank', rel: 'noopener' }, `snapshot ${snapDate(s.snapshot) || ''}`)
           : h('span', null, `snapshot ${s.snapshot}`)),
       ),
     )));

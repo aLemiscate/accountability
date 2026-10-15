@@ -9,5 +9,8 @@ description: >-
   Every entry cites its sources. Commentary is labeled as commentary.
 # Used for "view source" and "suggest an entry" links on the site.
 repo: https://github.com/aLemiscate/accountability
+# Raw page copies (HTML, screenshots, PDFs) of every snapshot, at the same
+# paths as snapshots/ here. Snapshot links on the site point there.
+archive: https://github.com/aLemiscate/accountability-archive
 # Optional: public URL of the deployed site, used in copied receipts.
 url: https://alemiscate.github.io/accountability/
