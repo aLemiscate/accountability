@@ -34,6 +34,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: capture
@@ -58,7 +59,10 @@ jobs:
           node-version: 22
           cache: npm
       - name: Check out the archive repository, for raw page copies
+        id: archive_checkout
         if: env.ARCHIVE_TOKEN != ''
+        # A bad token shouldn't stop the capture; the issue step below reports it.
+        continue-on-error: true
         uses: actions/checkout@v4
         with:
           repository: aLemiscate/accountability-archive
@@ -85,12 +89,16 @@ jobs:
         run: npm run page-history -- --minutes "${{ inputs.minutes }}" ${{ inputs.history != 'all' && format('--only "{0}"', inputs.history) || '' }}
 
       - name: Copy raw page copies to the archive repository
+        id: copies
         if: always() && inputs.history == ''
+        continue-on-error: true
         run: |
-          if [ ! -d archive-repo ]; then
+          if ! git -C archive-repo rev-parse -q --verify HEAD >/dev/null 2>&1; then
             n=$(git ls-files --others --ignored --exclude-standard -- snapshots | wc -l)
-            if [ "$n" != 0 ]; then echo "::warning::ARCHIVE_TOKEN is not set, so $n raw page file(s) from this run (HTML, screenshots, PDFs) were not kept. Their text and hashes are."; fi
-            exit 0
+            [ "$n" = 0 ] && exit 0
+            if [ -z "$ARCHIVE_TOKEN" ]; then why="the ARCHIVE_TOKEN secret is not set"; else why="the archive repository could not be checked out (has ARCHIVE_TOKEN expired or been revoked?)"; fi
+            echo "::error::$n raw page file(s) from this run (HTML, screenshots, PDFs) were not kept, because $why. Their text and hashes are."
+            exit 1
           fi
           npm run archive-copies -- archive-repo
           cd archive-repo
@@ -121,3 +129,16 @@ jobs:
             for i in 1 2 3 4; do git pull --rebase && git push && pushed=1 && break; sleep $((i * 10)); done
             if [ "$pushed" != 1 ]; then git status --short | head -20; echo "::error::Could not push the capture commit."; exit 1; fi
           fi
+
+      # continue-on-error hides these steps' failures from the run's result,
+      # so read their outcomes instead.
+      - name: Open an issue when raw page copies were not kept
+        if: always() && (steps.archive_checkout.outcome == 'failure' || steps.copies.outcome == 'failure')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          run_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          body="This Capture run could not save its raw page copies (HTML, screenshots, PDFs) to aLemiscate/accountability-archive. Their text and hashes were committed here."$'\n\n'
+          body+="Run log: ${run_url}"$'\n\n'
+          body+="The usual cause is an expired or revoked ARCHIVE_TOKEN. Create a new fine-grained token with Contents read and write on accountability-archive only, and save it as the ARCHIVE_TOKEN secret."
+          gh issue create --title "Capture run did not keep raw page copies: $(date -u +%F)" --body "$body"

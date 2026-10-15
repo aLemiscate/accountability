@@ -41,6 +41,8 @@ jobs:
       - name: Check out the archive repository, for raw page copies
         id: archive_checkout
         if: env.ARCHIVE_TOKEN != ''
+        # A bad token shouldn't stop the run; the failed-step issue below reports it.
+        continue-on-error: true
         uses: actions/checkout@v4
         with:
           repository: aLemiscate/accountability-archive
@@ -94,11 +96,14 @@ jobs:
       - name: Copy raw page copies to the archive repository
         id: copies
         if: always()
+        continue-on-error: true
         run: |
-          if [ ! -d archive-repo ]; then
+          if ! git -C archive-repo rev-parse -q --verify HEAD >/dev/null 2>&1; then
             n=$(git ls-files --others --ignored --exclude-standard -- snapshots | wc -l)
-            if [ "$n" != 0 ]; then echo "::warning::ARCHIVE_TOKEN is not set, so $n raw page file(s) from this run (HTML, screenshots, PDFs) were not kept. Their text and hashes are."; fi
-            exit 0
+            [ "$n" = 0 ] && exit 0
+            if [ -z "$ARCHIVE_TOKEN" ]; then why="the ARCHIVE_TOKEN secret is not set"; else why="the archive repository could not be checked out (has ARCHIVE_TOKEN expired or been revoked?)"; fi
+            echo "::error::$n raw page file(s) from this run (HTML, screenshots, PDFs) were not kept, because $why. Their text and hashes are."
+            exit 1
           fi
           npm run archive-copies -- archive-repo
           cd archive-repo
@@ -157,4 +162,7 @@ jobs:
           body="The Watch run on ${day} had failing steps: ${failed:-a setup step without an id}."$'\n\n'
           body+="Run log: ${run_url}"$'\n\n'
           body+="A failed posts step lets the rest of the run finish, so this week's reading queue may be missing posts. Fix the cause, then re-run Watch from the Actions tab."
+          if [[ ",$failed," =~ ,(archive_checkout|copies), ]]; then
+            body+=$'\n\n'"The raw page copies (HTML, screenshots, PDFs) from this run were not saved to aLemiscate/accountability-archive; their text and hashes were. The usual cause is an expired or revoked ARCHIVE_TOKEN: create a new fine-grained token with Contents read and write on accountability-archive only, and save it as the ARCHIVE_TOKEN secret."
+          fi
           gh issue create --title "Watch run failed: ${day} (${failed:-setup})" --body "$body"
