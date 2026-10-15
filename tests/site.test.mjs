@@ -167,3 +167,58 @@ test('jumps land below the sticky bar, and a filter keeps the reader on their ca
     await closeBrowser();
   }
 });
+
+test('a figure can be undone with Back, and a kept card holds its place past the first page and within its section', async (t) => {
+  if (!existsSync(bundle)) return t.skip('run "npm run build" first');
+  const browser = await getBrowser();
+  if (!browser) return t.skip('Playwright browser not installed');
+  try {
+    const page = await browser.newPage({ viewport: { width: 1280, height: 860 } });
+    const errors = [];
+    page.on('pageerror', (e) => errors.push(e.message));
+    await page.route(/^https?:/, (route) => route.abort());
+    await page.goto('about:blank');
+    await page.goto(`${pathToFileURL(bundle).href}#timeline.openai`);
+    await page.waitForSelector('.tl-card');
+
+    // A figure is a link: Back returns to the view and filters the reader had.
+    await page.click('.stat:nth-child(2)'); // "Didn't hold up" opens Receipts
+    assert.equal(await page.evaluate(() => location.hash), '#receipts');
+    await page.goBack();
+    await page.waitForFunction(() => location.hash === '#timeline.openai');
+    assert.match(await page.locator('#count').innerText(), /of \d+ entries match/i, 'Back brings the filter back');
+    await page.goForward();
+    await page.waitForFunction(() => location.hash === '#receipts');
+
+    // A receipt well past the first page holds its place when a company is picked.
+    await page.click('.more-bar .clear'); // Show all
+    const key = await page.evaluate(() => {
+      const org = (id) => window.SAID_DID.entries.find((e) => e.id === id)?.org;
+      const openai = [...document.querySelectorAll('#view .receipts > [data-key]')].filter((c) => org(c.dataset.key.slice(2).split('--')[0]) === 'openai');
+      const card = openai[Math.floor(openai.length * 0.8)];
+      scrollTo(0, scrollY + card.getBoundingClientRect().top - 160);
+      return card.dataset.key;
+    });
+    const top = () => page.evaluate((k) => document.querySelector(`#view [data-key="${k}"]`).getBoundingClientRect().top, key);
+    const before = await top();
+    await page.click('#org button:nth-child(2)'); // OpenAI
+    const after = await top();
+    assert.ok(Math.abs(after - before) < 2, `the receipt stays in place (${before} then ${after})`);
+    await page.click('#org button:nth-child(1)'); // Both
+
+    // On the Watchlist, a company switch keeps the reader among the promises they were reading.
+    await page.click('.stat:nth-child(3)'); // "Kept" lands on "Held under pressure"
+    for (const o of [2, 3]) {
+      await page.click(`#org button:nth-child(${o})`);
+      const group = await page.evaluate(() => {
+        const bar = document.querySelector('.controls').getBoundingClientRect().bottom;
+        return [...document.querySelectorAll('#view [data-key]')].find((c) => c.getBoundingClientRect().bottom > bar + 24)?.closest('[data-group]')?.dataset.group;
+      });
+      assert.equal(group, 'kept', `still among the kept promises after picking company ${o - 1}`);
+      await page.click('#org button:nth-child(1)');
+    }
+    assert.deepEqual(errors, []);
+  } finally {
+    await closeBrowser();
+  }
+});

@@ -800,6 +800,7 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 28px; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; }
+  .arrived { outline-color: transparent; } /* a fade cut short when motion is switched off part way */
 }
 
 /* ── print ──────────────────────────────────────────────────────────────── */
