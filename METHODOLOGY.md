@@ -2,6 +2,22 @@
 
 This record is meant to be hard to dismiss. Everything below serves that goal.
 
+## Who writes it
+
+Claude, an AI model made by Anthropic, does most of the research and writing
+for this record: it finds and reads the sources, drafts the entries and built
+the site. Anthropic is one of the two companies the record covers, which is a
+conflict of interest worth weighing. It is one reason every claim links to its
+source, so it can be checked without trusting the writer, and one reason both
+companies are held to the same rules.
+
+Apart from the first version, published on September 29, 2026, every change to
+the entries has come through a pull request, merged only when the
+repository's owner said to, and the full history is public. Automated jobs (see below) also
+commit page snapshots, snapshot and archive links, and source checks on their
+own. Where a source has a snapshot, the build checks each quote against it
+word for word.
+
 ## What goes in
 
 - **Said**: a public principle, commitment, claim or denial made by OpenAI or
