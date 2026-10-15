@@ -12,8 +12,8 @@ source, so it can be checked without trusting the writer, and one reason both
 companies are held to the same rules.
 
 Apart from the first version, published on September 29, 2026, every change to
-the entries has come through a pull request that the repository's owner
-merged, and the full history is public. Automated jobs (see below) also
+the entries has come through a pull request, merged only when the
+repository's owner said to, and the full history is public. Automated jobs (see below) also
 commit page snapshots, snapshot and archive links, and source checks on their
 own. Where a source has a snapshot, the build checks each quote against it
 word for word.
