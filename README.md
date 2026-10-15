@@ -21,10 +21,13 @@ On the site:
 - **Patterns**: behavior that keeps recurring, and what to watch for next.
 - **Watchlist**: promises still standing, each with a test for what would break it.
 - **Commitments**: every pledge in the documents each company signed, graded one by one.
+- **Fine print**: every change found in the archived history of both companies' policy, terms, pricing and help pages, and whether it was announced.
 - **Method**: how the record is kept, and who writes it.
 
-There is also a [plain, script-free version](https://alemiscate.github.io/accountability/record.html)
-and an [Atom feed](https://alemiscate.github.io/accountability/feed.xml).
+There is also a [plain, script-free version](https://alemiscate.github.io/accountability/record.html),
+an [Atom feed](https://alemiscate.github.io/accountability/feed.xml), and the
+whole record as [JSON](https://alemiscate.github.io/accountability/said-did.json)
+or [CSV](https://alemiscate.github.io/accountability/entries.csv).
 
 ## Run it locally
 

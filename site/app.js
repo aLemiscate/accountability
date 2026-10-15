@@ -33,7 +33,8 @@
     aspirational: 'A mission-level aim that cannot be failed as written.',
   };
   const RECEIPTS_PAGE = 15;
-  const VIEWS = ['receipts', 'timeline', 'patterns', 'watchlist', 'commitments', 'method'];
+  const VIEWS = ['receipts', 'timeline', 'patterns', 'watchlist', 'commitments', 'fineprint', 'method'];
+  const VIEW_LABEL = { fineprint: 'Fine print' };
   const GRADE_LABEL = { kept: 'Kept', standing: 'Standing', eroded: 'Eroded', broken: 'Broken', unknown: 'Unknown' };
   const GRADE_CLASS = { kept: 's-kept', standing: 's-open', eroded: 's-eroded', broken: 's-broken', unknown: 's-unknown' };
   const GRADE_DEF = {
@@ -46,7 +47,25 @@
   const DAY = 86400000;
   const NOW = Date.now();
 
-  const state = { view: 'receipts', org: 'all', pattern: '', person: '', q: '', order: 'newest' };
+  // Fine print: the log of changes to the companies' policy, terms, pricing and help pages.
+  const policyPages = D.policy || [];
+  const policyPageById = new Map(policyPages.map((p) => [p.page, p]));
+  const allChanges = policyPages.flatMap((p) => p.changes.map((c, i) => ({ ...c, page: p.page, org: p.org, key: `f-${p.page}-${i}` })))
+    .sort((a, b) => b.time - a.time || a.key.localeCompare(b.key));
+  const DISCLOSURE = {
+    announced: ['Announced', 'A post, blog, release notes, email or in-product notice about it was found.'],
+    page: ['Noted on the page', 'The page itself carried a new date, a changelog or a note.'],
+    none: ['No notice found', 'No new date, no note on the page, and no announcement found. “Found”: it does not prove none was made.'],
+    'n/a': ['Not applicable', 'Wording, typo and layout fixes.'],
+    unchecked: ['Not checked', 'How this change was made known wasn’t checked.'],
+  };
+  // The filters the view offers, and the words that stand for them in a link.
+  const FP_FILTERS = [['', 'All changes'], ['announced', 'Announced'], ['page', 'Noted on the page'], ['none', 'No notice found'], ['cut', 'Cuts made without notice']];
+  const FP_WORD = { announced: 'announced', page: 'onpage', none: 'quiet', cut: 'cuts' };
+  const FP_BY_WORD = Object.fromEntries(Object.entries(FP_WORD).map(([k, w]) => [w, k]));
+  const FP_PAGE = 30;
+
+  const state = { view: 'receipts', org: 'all', pattern: '', person: '', q: '', order: 'newest', fp: '', page: '' };
   const calm = matchMedia('(prefers-reduced-motion: reduce)');
 
   // ── tiny DOM builder (text is always set as text, never parsed as HTML) ──
@@ -513,22 +532,28 @@
     if (st.pattern) parts.push(st.pattern);
     if (st.person) parts.push(st.person);
     if (st.view === 'timeline' && st.order === 'oldest') parts.push('oldest');
+    if (st.view === 'fineprint' && st.fp) parts.push(FP_WORD[st.fp]);
+    if (st.view === 'fineprint' && st.page) parts.push(st.page);
     return `#${parts.join('.')}`;
   }
   function applyHash(hash) {
     const [v, ...words] = hash.split('.');
     if (!VIEWS.includes(v)) return false;
-    Object.assign(state, { view: v, org: 'all', pattern: '', person: '', order: 'newest' });
+    Object.assign(state, { view: v, org: 'all', pattern: '', person: '', order: 'newest', fp: '', page: '' });
     for (const w of words) {
       if (w === 'openai' || w === 'anthropic') state.org = w;
       else if (patternById.has(w)) state.pattern = w;
       else if (PEOPLE.has(w)) state.person = w;
       else if (w === 'oldest') state.order = 'oldest';
+      else if (FP_BY_WORD[w]) state.fp = FP_BY_WORD[w];
+      else if (policyPageById.has(w)) state.page = w;
     }
     return true;
   }
   // Shared links point at the public site, wherever this copy is being read.
   const siteBase = () => D.site.url || location.href.split('#')[0];
+  // A file the build publishes next to the page; from the public site, so it also works in the single-file copy.
+  const siteFile = (f) => `${D.site.url || ''}${f}`;
   // Share a link: the phone's share sheet where there is one, else the clipboard.
   async function shareLink(url, title, button) {
     if (navigator.share) {
@@ -958,6 +983,169 @@
     return frag;
   }
 
+  /** A change in the policy log fits the company, page, kind of notice and search. */
+  function changeMatches(c, { fp = state.fp } = {}) {
+    if (state.org !== 'all' && c.org !== state.org) return false;
+    if (state.page && c.page !== state.page) return false;
+    if (fp === 'cut' ? !c.cut : fp && c.disclosure !== fp) return false;
+    const words = qWords();
+    return !words.length || hasAll([c.change, c.notice, c.when, policyPageById.get(c.page)?.title].filter(Boolean).join(' '), words);
+  }
+  // A saved copy of a page: a Wayback Machine capture, or a copy kept in the repository.
+  const copyLink = (x) => h('a', { href: x.archive || `${D.site.repo}/blob/HEAD/${x.file}`, target: '_blank', rel: 'noopener' }, fmtDate(x.date));
+  // Where each phrase a change quotes was found: the first and last saved copies of the page that hold it.
+  function quoteEvidence(c) {
+    const qs = c.quotes || [];
+    const found = qs.filter((q) => q.first);
+    if (!found.length) return null;
+    const line = found.length === 1 ? '✓ Quote found in archived copies of the page' : `✓ ${found.length === qs.length ? `All ${qs.length}` : `${found.length} of ${qs.length}`} quotes found in archived copies of the page`;
+    return h('details', { class: 'insource' },
+      h('summary', { class: 'verified' }, line, h('span', { class: 'see' }, 'See which copies')),
+      h('div', { class: 'insource-body' },
+        h('p', { class: 'label' }, 'Earliest and latest saved copy holding each quote'),
+        h('ul', { class: 'qev' }, found.map((q) => h('li', null,
+          h('span', { class: 'qev-q' }, '“', q.text, '”'),
+          h('span', { class: 'qev-when' }, q.first.date === q.last.date ? ['In the copy of ', copyLink(q.first)] : ['In copies from ', copyLink(q.first), ' to ', copyLink(q.last)])))),
+      ));
+  }
+  // How a change was made known. Entry ids in backticks link to those entries.
+  function noticeText(text) {
+    return String(text).split(/`([^`]+)`/).map((part, i) => {
+      if (i % 2 === 0) return hl(part);
+      const e = byId.get(part);
+      return e ? h('button', { class: 'linkish', type: 'button', onclick: () => openEntry(e.id) }, e.title) : part;
+    });
+  }
+  // When a change was made: the day, or the two archived copies it falls between, and what the log adds.
+  const humanDates = (t) => String(t).replace(/\b\d{4}-\d{2}(?:-\d{2})?\b/g, (d) => fmtDate(d));
+  function whenParts(c) {
+    const m = /^(\d{4}-\d{2}(?:-\d{2})?) to (\d{4}-\d{2}(?:-\d{2})?)\s*(.*)$/.exec(c.when || '');
+    if (m) return { big: [fmtDate(m[1]), h('br'), `to ${fmtDate(m[2])}`], note: m[3] ? humanDates(m[3]) : 'between two archived copies' };
+    return { big: fmtDate(c.date), note: c.when ? humanDates(c.when) : null };
+  }
+  function changeCard(c) {
+    const pg = policyPageById.get(c.page);
+    const [label, def] = DISCLOSURE[c.disclosure] || [c.disclosure, ''];
+    return h('article', { class: `fcard ${c.disclosure === 'none' ? 'quiet' : ''}`, 'data-key': c.key, 'data-t': c.time },
+      h('div', { class: 'fwhen' },
+        h('span', { class: 'f-date' }, whenParts(c).big),
+        whenParts(c).note && h('span', { class: 'label' }, whenParts(c).note)),
+      h('div', { class: 'main' },
+        h('div', { class: 'side-head' },
+          orgTag(c.org),
+          h('button', { class: 'chip', type: 'button', 'data-p': c.page, 'aria-pressed': String(state.page === c.page), title: state.page === c.page ? 'Show every page' : 'Show only this page',
+            onclick: (ev) => setFilter({ page: state.page === c.page ? '' : c.page }, null, ev.currentTarget) }, pg?.title || c.page)),
+        h('p', { class: 'fchange' }, hl(c.change)),
+        quoteEvidence(c),
+        h('div', { class: 'fnotice' },
+          h('span', { class: `pill d-${c.disclosure === 'n/a' ? 'na' : c.disclosure}`, title: def }, label),
+          c.cut && h('span', { class: 'pill cut', title: 'This change cut what users get or what the company had promised, with no notice found. Sorting changes this way is a judgment.' }, 'Cut without notice'),
+          c.notice !== 'n/a' && h('span', { class: 'fnotice-text' }, noticeText(c.notice))),
+      ),
+    );
+  }
+
+  function renderFineprint() {
+    const orgs = state.org === 'all' ? ['openai', 'anthropic'] : [state.org];
+    const frag = [viewHead('Fine print',
+      'Every change found in the archived history of both companies’ usage policies, terms, privacy policies, pricing pages, usage-limit help pages and model-retirement pages, and how each one was made known. Words in quotation marks are the page’s own, and each was found in a saved copy of it. Newest first.')];
+    // Both companies side by side: how many changes, and how each was made known.
+    const inOrg = (o) => allChanges.filter((c) => c.org === o);
+    const n = (o, pred) => inOrg(o).filter(pred).length;
+    // Shares are of the changes whose notice was checked.
+    const checked = (o) => n(o, (c) => c.disclosure !== 'unchecked');
+    const versions = (o) => policyPages.filter((p) => p.org === o).reduce((sum, p) => sum + (+(/([\d,]+) versions/.exec(p.versions || '')?.[1] || '0').replace(/,/g, '')), 0);
+    const rows = [
+      ['Pages compared', (o) => policyPages.filter((p) => p.org === o).length],
+      ['Archived versions read', versions],
+      ['Changes found', (o) => inOrg(o).length],
+      ...['announced', 'page', 'none', 'n/a', 'unchecked'].map((d) => [DISCLOSURE[d][0], (o) => n(o, (c) => c.disclosure === d), d]),
+      ['Cuts made without notice', (o) => n(o, (c) => c.cut), 'cut'],
+    ];
+    frag.push(h('div', { class: 'ctable-wrap' }, h('table', { class: 'ctable ftable' },
+      h('thead', null, h('tr', null, h('th', { scope: 'col' }, 'Pages'), orgs.map((o) => h('th', { scope: 'col' }, orgName(o))))),
+      h('tbody', null, rows.filter(([, f]) => orgs.some((o) => f(o) > 0)).map(([label, f, key]) => h('tr', { class: key ? `r-${key === 'n/a' ? 'na' : key}` : '' },
+        h('th', { scope: 'row', title: DISCLOSURE[key]?.[1] }, label),
+        orgs.map((o) => h('td', { 'data-org': orgName(o) }, h('span', { class: 'ck' }, f(o).toLocaleString('en-US')),
+          key && key !== 'unchecked' && h('span', { class: 'cr' }, `${Math.round((f(o) / checked(o)) * 100)}% of ${checked(o)}`)))))),
+    )));
+    frag.push(h('p', { class: 'cnote' }, 'Shares are of the changes whose notice was checked. “No notice found” means none turned up in the company’s posts, blogs and release notes or in a news search; it does not prove none was made. A cut is a change that reduced what users get or what the company had promised; sorting changes that way is a judgment. OpenAI’s pages have more archived versions, so compare shares, not raw counts. How the pages were compared, and what couldn’t be, is in ',
+      h('a', { href: `${D.site.repo}/blob/HEAD/inbox/history/CHANGES.md`, target: '_blank', rel: 'noopener' }, 'the method notes'),
+      '. The whole log is also on ', h('a', { href: siteFile('fine-print.html') }, 'one plain page'), ' and in ', h('a', { href: siteFile('fine-print.csv'), download: '' }, 'a spreadsheet'), '.'));
+
+    // Filters: the kind of notice, and one page.
+    const fpCount = (k) => allChanges.filter((c) => changeMatches(c, { fp: k })).length;
+    const pageSel = h('select', { class: 'fp-page', onchange: (ev) => setFilter({ page: ev.currentTarget.value }, null, ev.currentTarget) },
+      h('option', { value: '' }, 'Every page'),
+      ['openai', 'anthropic'].filter((o) => orgs.includes(o)).map((o) => h('optgroup', { label: orgName(o) },
+        policyPages.filter((p) => p.org === o).map((p) => h('option', { value: p.page, selected: state.page === p.page }, p.title)))));
+    frag.push(h('div', { class: 'pstrip fstrip', role: 'group', 'aria-label': 'Show changes' },
+      h('span', { class: 'label' }, 'Show'),
+      h('div', { class: 'pstrip-chips' }, FP_FILTERS.map(([k, label]) => h('button', {
+        class: 'chip', type: 'button', 'aria-pressed': String(state.fp === k), 'data-fp': k,
+        onclick: (ev) => setFilter({ fp: k }, null, ev.currentTarget),
+      }, label, h('span', { class: 'n' }, fpCount(k))))),
+      h('label', { class: 'field' }, h('span', { class: 'label' }, 'Page'), pageSel)));
+
+    // One page picked: what to know about its history.
+    const pg = policyPageById.get(state.page);
+    if (pg) {
+      frag.push(h('section', { class: 'pbrief', 'aria-label': `About ${pg.title}` },
+        h('div', { class: 'pbrief-head' },
+          h('span', { class: 'label' }, 'One page'),
+          h('span', { class: 'spacer' }),
+          h('button', { class: 'clear label fp-all', type: 'button', onclick: (ev) => setFilter({ page: '' }, null, ev.currentTarget) }, 'Every page')),
+        h('h3', null, pg.title),
+        h('p', { class: 'pbrief-meta' }, orgTag(pg.org), pg.versions && h('span', null, pg.versions),
+          pg.url && h('a', { href: pg.url, target: '_blank', rel: 'noopener' }, 'The page today'),
+          pg.url && h('a', { href: `https://web.archive.org/web/*/${pg.url}`, target: '_blank', rel: 'noopener' }, 'Every archived copy')),
+        pg.note && h('p', null, pg.note),
+        pg.after && h('p', null, pg.after)));
+    }
+
+    const list = allChanges.filter((c) => changeMatches(c));
+    if (!list.length) return [...frag, empty()];
+    // A page of changes, then more on request; after a filter change, far enough to include the one the reader was on.
+    const kept = pendingKeep ? list.findIndex((c) => c.key === pendingKeep.key) : -1;
+    const first = kept < 0 ? FP_PAGE : kept + 1 + FP_PAGE;
+    const box = h('div', { class: 'flist' }, list.slice(0, first).map(changeCard));
+    frag.push(box);
+    if (list.length > first) {
+      let shown = first;
+      const note = h('span', { class: 'label' });
+      const more = h('button', { class: 'btn', type: 'button' });
+      const all = h('button', { class: 'clear label', type: 'button' }, `Show all ${list.length}`);
+      const bar = h('div', { class: 'more-bar' }, more, all, note);
+      const sync = () => {
+        more.textContent = `Show ${Math.min(FP_PAGE, list.length - shown)} more`;
+        note.textContent = `${shown} of ${list.length} changes shown`;
+        if (shown >= list.length) bar.remove();
+      };
+      const reveal = (k) => {
+        const added = list.slice(shown, shown + k).map(changeCard);
+        box.append(...added);
+        shown += added.length;
+        sync();
+        added[0]?.querySelector('button')?.focus({ preventScroll: true });
+        mark(added[0]);
+      };
+      more.addEventListener('click', () => reveal(FP_PAGE));
+      all.addEventListener('click', () => reveal(list.length));
+      sync();
+      frag.push(bar);
+    }
+    // Pages whose history showed nothing worth a row still say what was read.
+    const quietPages = policyPages.filter((p) => !p.changes.length && orgs.includes(p.org) && (!state.page || p.page === state.page));
+    if (quietPages.length && !state.fp && !state.q) {
+      frag.push(h('h3', { class: 'section-sub' }, 'Pages read in summary', h('span', { class: 'section-n' }, quietPages.length)),
+        h('p', { class: 'section-note' }, 'For these pages the history is summed up rather than logged change by change.'),
+        h('div', { class: 'fsum' }, quietPages.map((p) => h('div', null,
+          h('div', { class: 'side-head' }, orgTag(p.org), h('b', null, p.title), p.versions && h('span', { class: 'label' }, p.versions)),
+          h('p', null, p.note)))));
+    }
+    return frag;
+  }
+
   function renderMethod() {
     const repo = D.site.repo;
     return [
@@ -993,7 +1181,7 @@
         h('p', null, 'Company announcements, filings, testimony and reporting, plus the public posts of the companies and their people. For posts on Twitter/X, every archived post of 77 accounts was pulled from the Wayback Machine, including posts later deleted. All 82,863 posts these accounts wrote from December 2015 on that have text in the archive were read in full and given a decision: change the record, follow up, context for an existing entry, or no action. That reading looked for safety, ethics and policy claims. A second reading looked for every other kind of notable claim (capabilities and benchmarks, features and release dates, usage limits and plan terms, promises about how a product behaves, and dated predictions) in the 41,679 posts each person wrote while at the company or after leaving it, including 5,154 collected after the first reading. Every collected post now has a decision; the logs are in the repository.'),
         h('p', null, 'Limits: posts nobody archived can’t be found this way, and for Elon Musk only the latest year was read. The decisions, per-account counts and what became of each follow-up are in ', h('code', null, 'inbox/sweep/TRIAGE.md'), ' in the repository.'),
         h('p', null, 'Beyond Twitter/X, a September 2026 review read the companies’ system cards, risk reports and safety frameworks against each other, checked policy versions, court records, testimony and investigative reporting, and looked for each company’s counterpart to the other’s entries. An October 2026 review did the same for product, pricing and capability claims. What they covered, the two companies side by side, and what may still be missing are in ', h('code', null, 'COVERAGE.md'), ' in the repository.'),
-        h('p', null, 'A fairness review in October 2026 then worked through seven gaps, the same way for both companies. It read in full 194 of the 201 long-form spoken appearances found for ten company leaders since 2021 (podcasts and testimony; the rest had no usable recording or transcript). It graded every commitment in nine formal documents for each company: OpenAI kept 31 of 127, Anthropic 39 of 127 (see Commitments). It compared 1,932 archived versions of 33 policy, terms, pricing, usage-limit and model-retirement pages, and logged 210 changes with whether each was announced. It re-read the 9,021 replies by company accounts and executives next to the posts they answered (all but 1,576 could be retrieved). It gave every “did” entry the company’s response, or says none was found, and re-checked every open promise (the date is on the Watchlist). It set both companies’ federal and state lobbying filings against what they said in public about regulation: Anthropic’s filings name the bills it lobbied on, while OpenAI’s have named none since 2024. And where a pattern’s behavior is industry-wide, it added one sourced example from another company. Counts, method and what couldn’t be done are in ', h('code', null, 'COVERAGE.md'), '.'),
+        h('p', null, 'A fairness review in October 2026 then worked through seven gaps, the same way for both companies. It read in full 194 of the 201 long-form spoken appearances found for ten company leaders since 2021 (podcasts and testimony; the rest had no usable recording or transcript). It graded every commitment in nine formal documents for each company: OpenAI kept 31 of 127, Anthropic 39 of 127 (see Commitments). It compared 1,932 archived versions of 33 policy, terms, pricing, usage-limit and model-retirement pages, and logged 211 changes and how each was made known (see Fine print). It re-read the 9,021 replies by company accounts and executives next to the posts they answered (all but 1,576 could be retrieved). It gave every “did” entry the company’s response, or says none was found, and re-checked every open promise (the date is on the Watchlist). It set both companies’ federal and state lobbying filings against what they said in public about regulation: Anthropic’s filings name the bills it lobbied on, while OpenAI’s have named none since 2024. And where a pattern’s behavior is industry-wide, it added one sourced example from another company. Counts, method and what couldn’t be done are in ', h('code', null, 'COVERAGE.md'), '.'),
         h('h3', null, 'Who is in scope'),
         h('p', null, 'Organizations, and people speaking in a public or official role: executives, founders, board members, and staff who speak publicly about the company’s mission, products, safety or policy. No private individuals, private accounts, family members or personal lives.'),
         h('h3', null, 'Status of a statement'),
@@ -1007,6 +1195,18 @@
         h('p', null, 'New entries and updates to existing ones are listed in an RSS feed',
           D.site.url ? [' (', h('a', { href: `${D.site.url}feed.xml`, target: '_blank', rel: 'noopener' }, 'feed.xml'), ')'] : null,
           '. The address of each view carries its filters, so a filtered view can be shared as it is, and each entry has its own link.'),
+        h('h3', { id: 'data' }, 'The record as data'),
+        h('p', null, 'The whole record can be downloaded, rebuilt from the repository each time the site is published:'),
+        h('ul', null,
+          h('li', null, h('a', { href: siteFile('said-did.json'), download: '' }, 'said-did.json'), ': everything, with every field: entries, receipts, commitments and their grades, the fine print log, people and patterns.'),
+          h('li', null, h('a', { href: siteFile('entries.csv'), download: '' }, 'entries.csv'), ': one row per entry, for a spreadsheet.'),
+          h('li', null, h('a', { href: siteFile('fine-print.csv'), download: '' }, 'fine-print.csv'), ': one row per change in the fine print log.'),
+          h('li', null, h('a', { href: siteFile('record.html') }, 'record.html'), ' and ', h('a', { href: siteFile('fine-print.html') }, 'fine-print.html'), ': the same, as plain pages to read, print or save.'),
+        ),
+        h('p', null, 'Each entry, opened, gives a citation for itself. To cite the record as a whole: ', h('span', { class: 'cite' }, recordCitation()),
+          ' ', h('button', { class: 'clear label', type: 'button', onclick: (ev) => copyText(recordCitation(), ev.currentTarget, 'Citation copied') }, 'Copy')),
+        D.commit && repo && h('p', null, 'This copy of the site was built from commit ', h('a', { href: `${repo}/tree/${D.commit}`, target: '_blank', rel: 'noopener' }, h('code', null, D.commit)),
+          ', which stays at that address after the record changes. Link to it when a citation has to point at a version that won’t move.'),
         h('h3', null, 'Corrections and additions'),
         h('p', null, 'The record lives in a public repository as one file per entry. To add an entry or correct one, open an issue or a pull request with the source.',
           repo ? [' ', h('a', { href: repo, target: '_blank', rel: 'noopener' }, 'Repository')] : null),
@@ -1089,6 +1289,9 @@
               h('button', { class: 'chip', type: 'button', onclick: () => { dialog.close(); setFilter({ pattern: p.id }, 'timeline'); } }, 'Follow on the timeline'),
               h('button', { class: 'chip', type: 'button', onclick: () => { dialog.close(); location.hash = `p-${p.id}`; } }, 'About this pattern'))))),
         h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Sources'), sourceList(e.sources)),
+        h('div', { class: 'd-section' }, h('span', { class: 'label' }, 'Cite this entry'),
+          h('p', { class: 'cite' }, citation(e), ' ',
+            h('button', { class: 'clear label', type: 'button', onclick: (ev) => copyText(citation(e), ev.currentTarget, 'Citation copied') }, 'Copy'))),
         D.site.repo && e.file && h('p', { class: 'label' }, h('a', { href: `${D.site.repo}/blob/HEAD/${e.file}`, target: '_blank', rel: 'noopener' }, 'View or correct this entry')),
       ),
     );
@@ -1149,6 +1352,31 @@
     lines.push('', `Full receipt: ${permalink((d || s).id)}`);
     return lines.join('\n');
   }
+  // Citations name the site, the entry and the day it was read, since the record keeps changing.
+  const today = () => fmtDay.format(new Date());
+  function citation(e) {
+    return `${D.site.title}. “${e.title}.” ${orgName(e.org)} ${e.type === 'said' ? 'statement' : 'action'}, ${fmtDate(e.date)}. Entry ${e.id}. ${permalink(e.id)}. Accessed ${today()}.`;
+  }
+  function recordCitation() {
+    return `${D.site.title}: ${D.site.tagline} ${siteBase()}. Accessed ${today()}.`;
+  }
+  // Copy plain text, or show it selected for copying where the clipboard is refused.
+  function copyText(text, button, done) {
+    const fallback = () => {
+      const ta = h('textarea', { class: 'copy-fallback', readonly: true, 'aria-label': 'Text to copy' });
+      ta.value = text;
+      const host = dialog.open ? dialog.querySelector('.d-body') : view;
+      host.prepend(ta);
+      ta.focus();
+      ta.select();
+      toast('Select the text and copy it');
+    };
+    try {
+      navigator.clipboard.writeText(text).then(() => confirmCopied(button, done), fallback);
+    } catch {
+      fallback();
+    }
+  }
   function confirmCopied(button, msg) {
     toast(msg);
     if (!button) return;
@@ -1169,21 +1397,7 @@
     toastTimer = setTimeout(() => { t.hidden = true; }, 2200);
   }
   function copyReceipt(s, d, button) {
-    const text = receiptText(s, d);
-    const fallback = () => {
-      const ta = h('textarea', { class: 'copy-fallback', readonly: true, 'aria-label': 'Receipt text' });
-      ta.value = text;
-      const host = dialog.open ? dialog.querySelector('.d-body') : view;
-      host.prepend(ta);
-      ta.focus();
-      ta.select();
-      toast('Select the text and copy it');
-    };
-    try {
-      navigator.clipboard.writeText(text).then(() => confirmCopied(button, 'Receipt copied'), fallback);
-    } catch {
-      fallback();
-    }
+    copyText(receiptText(s, d), button, 'Receipt copied');
   }
 
   // ── controls ───────────────────────────────────────────────────────────
@@ -1200,11 +1414,12 @@
     patterns: D.patterns.length,
     watchlist: D.entries.filter((e) => e.status === 'open' || e.status === 'kept').length,
     commitments: (D.commitments || []).reduce((n, d) => n + d.commitments.length, 0),
+    fineprint: allChanges.length,
   };
   tabs.replaceChildren(...VIEWS.map((v) => h('button', {
     class: 'tab', type: 'button', role: 'tab', id: `tab-${v}`, 'aria-selected': 'false', 'aria-controls': 'view',
     onclick: () => go(v),
-  }, v[0].toUpperCase() + v.slice(1), counts[v] != null && h('span', { class: 'count' }, counts[v]))));
+  }, VIEW_LABEL[v] || v[0].toUpperCase() + v.slice(1), counts[v] != null && h('span', { class: 'count' }, counts[v]))));
 
   orgSeg.replaceChildren(...['all', 'openai', 'anthropic'].map((o) => h('button', {
     type: 'button', 'aria-pressed': String(state.org === o), onclick: (ev) => setFilter({ org: o }, null, ev.currentTarget),
@@ -1260,7 +1475,7 @@
     const keep = anchorFor(from);
     const had = !!from && from === document.activeElement;
     pulse = true;
-    Object.assign(state, { org: 'all', pattern: '', person: '', q: '' });
+    Object.assign(state, { org: 'all', pattern: '', person: '', q: '', fp: '', page: '' });
     search.value = '';
     setHash(hashFor(state));
     render(keep);
@@ -1274,8 +1489,11 @@
     const f = document.activeElement;
     if (f && f !== document.body && f !== from) return; // already placed, on the kept card or a brief
     const p = from.dataset.p; // a pattern-strip tag, or "Stop following": that pattern's tag in the strip
+    const fp = from.dataset.fp; // a Fine print filter: the same filter, redrawn
     focusAt(from === clearButton ? orgSeg.querySelector('[aria-pressed="true"]')
-      : p && ([...view.querySelectorAll('.pstrip .chip')].find((c) => c.dataset.p === p) || view.querySelector('.view-head h2')));
+      : fp != null ? [...view.querySelectorAll('.fstrip .chip')].find((c) => c.dataset.fp === fp)
+        : from.matches('.fp-page, .fp-all') ? view.querySelector('.fp-page')
+          : p && ([...view.querySelectorAll('.pstrip .chip')].find((c) => c.dataset.p === p) || view.querySelector('.view-head h2')));
   }
   function go(v) {
     state.view = v;
@@ -1357,7 +1575,7 @@
     patternSel.value = state.pattern;
     personSel.value = state.person;
     if (document.activeElement !== search) search.value = state.q;
-    document.getElementById('clear').hidden = !anyFilter();
+    document.getElementById('clear').hidden = !(anyFilter() || (state.view === 'fineprint' && (state.fp || state.page)));
     const extra = [state.pattern, state.person].filter(Boolean).length;
     moreToggle.textContent = extra ? `More filters (${extra} on)` : 'More filters';
     const shown = D.entries.filter(matches).length;
@@ -1399,7 +1617,7 @@
 
   function render(keep = null) {
     syncControls();
-    const renderers = { receipts: renderReceipts, timeline: renderTimeline, patterns: renderPatterns, watchlist: renderWatchlist, commitments: renderCommitments, method: renderMethod };
+    const renderers = { receipts: renderReceipts, timeline: renderTimeline, patterns: renderPatterns, watchlist: renderWatchlist, commitments: renderCommitments, fineprint: renderFineprint, method: renderMethod };
     hideTip();
     pendingKeep = keep;
     const y = window.scrollY;
