@@ -1,0 +1,25 @@
+advertisement
+04-02-2024 TECH
+Did OpenAI’s GPT-4 really pass the bar exam?
+The large language model’s claims of a top 10% score may have been relative to test-takers who had already failed the exam at least once, according to an MIT researcher.
+SHARE Facebook LinkedIn Bluesky X Link
+[Photo: Tim Macpherson/Getty Images]
+BY Mark Sullivan
+“GPT-4 exhibits human-level performance on various professional and academic benchmarks, including passing a simulated bar exam with a score around the top 10% of test takers.” So reads a paper released by OpenAI last year through the open-access repository ArXiv, about the company’s latest GPT-4 large language model.
+OpenAI’s claim was based on a 2023 study in which a group of researchers led by Illinois Tech’s Chicago-Kent College of Law professor Daniel Martin Katz administered the Uniform Bar Exam to GPT-4. In their tests, the results of which were published in another repository called Social Science Research Network (SSRN), GPT-4 scored an impressive 297 out of 400 on the bar exam. (Minimum passing scores vary by state and range from 260 to 272.)
+But new research by Massachusetts Institute of Technology PhD candidate Eric Martínez suggests both the characterization, and the model’s actual score, may have been misleading.
+Martínez, who earned his law degree at Harvard, says that the 90th-percentile figure was relative to a pool that is “heavily skewed” toward repeat test-takers who had already failed the exam one or more times in the past. That’s a significantly lower-performing group than the general population of people who took the exam, writes Martínez in a paper of his own , published over the weekend in the journal Artificial Intelligence and Law .
+But bar exam results are not released as percentile scores relative to other test-takers, and Katz et al. didn’t report their results as a relative percentile. Martínez implies that OpenAI may have inferred the “top 10%” (or 90th percentile) number itself.
+Martínez finds that GPT-4’s score relative to all test-takers was below the 69th percentile, and around the 48th percentile for the essay section. When compared against the results of people who passed the exam on the first try, GPT-4’s scores drop to the 48th percentile for the whole test, and to the 15th percentile on the essay section.
+After noticing the surprising improvement of GPT-4 on the bar exam compared to GPT-3.5, Martínez administered the bar exam to GPT-4 again. He reports successfully replicating the SSRN exam score of 297 for GPT-4, but he calls out “several methodological issues” with the way Katz and his colleagues graded the exam.
+Expand to continue reading ↓
+Sign up for our weekly tech digest.
+This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+Privacy Policy
+ABOUT THE AUTHOR
+Mark Sullivan is a San Francisco-based senior writer at Fast Company who focuses on chronicling the advance of artificial intelligence and its effects on business and culture. He’s interviewed luminaries from the emerging space including former Google CEO Eric Schmidt , Microsoft’s Mustafa Suleyman , and OpenAI’s Brad Lightcap More
+Explore Topics
+• Artificial Intelligence
+• Eric Martínez
+• Generative AI
+• OpenAI
