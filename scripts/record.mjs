@@ -93,6 +93,7 @@ export function recordHtml(D) {
 <p class="lede">${esc(D.site.description)}</p>
 <p class="r-meta">${D.entries.length} entries: ${said.length} statements and ${D.entries.length - said.length} actions. Of the statements, ${failed} didn't hold up, ${count((e) => e.status === 'kept')} were kept and ${count((e) => e.status === 'open')} are still standing. Updated ${esc(fmtDate(String(D.generated).slice(0, 10)))}. Newest first.</p>
 <p>This is the plain version of the record, one page with every entry and its sources. <a href="./">The site</a> has the same entries with receipts, a timeline, patterns and filters.</p>
+<p>Claude, an AI model made by Anthropic, does most of the research and writing for this record. Anthropic is one of the two companies it covers, so every entry links to its sources, and both companies are held to the same rules. <a href="./#method">How the record is kept</a>.</p>
 <nav class="r-years" aria-label="Years">${years.map((y) => `<a href="#y-${y}">${y}</a>`).join(' ')}</nav>
 </div></header>
 <main class="wrap">
@@ -100,7 +101,7 @@ ${years.map((y) => `<section id="y-${y}"><h2 class="r-year">${y}</h2>
 ${entries.filter((e) => String(e.date).startsWith(y)).map((e) => entryArticle(e, D, { home: './' })).join('\n')}
 </section>`).join('\n')}
 </main>
-<footer><div class="wrap"><span>Facts are sourced. Commentary is labeled.</span><span><a href="${esc(D.site.repo)}/blob/HEAD/METHODOLOGY.md">Methodology</a></span><span><a href="feed.xml">RSS feed</a></span></div></footer>
+<footer><div class="wrap"><span>Facts are sourced. Commentary is labeled.</span><span>Researched and drafted with Claude, an AI model made by Anthropic, one of the two companies covered.</span><span><a href="${esc(D.site.repo)}/blob/HEAD/METHODOLOGY.md">Methodology</a></span><span><a href="feed.xml">RSS feed</a></span></div></footer>
 </body>
 </html>
 `;
