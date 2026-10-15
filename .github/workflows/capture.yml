@@ -46,12 +46,27 @@ jobs:
     env:
       IA_ACCESS_KEY: ${{ secrets.IA_ACCESS_KEY }}
       IA_SECRET_KEY: ${{ secrets.IA_SECRET_KEY }}
+      # A deploy key with write access to aLemiscate/accountability-archive, where
+      # the raw page copies go (see scripts/archive-copies.mjs). Without it, new
+      # snapshots keep only their text and hashes.
+      ARCHIVE_DEPLOY_KEY: ${{ secrets.ARCHIVE_DEPLOY_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
+      - name: Check out the archive repository, for raw page copies
+        if: env.ARCHIVE_DEPLOY_KEY != ''
+        uses: actions/checkout@v4
+        with:
+          repository: aLemiscate/accountability-archive
+          ssh-key: ${{ secrets.ARCHIVE_DEPLOY_KEY }}
+          path: archive-repo
+          # Its history and file list, but none of its files: the copy step only adds new ones.
+          filter: blob:none
+          sparse-checkout: README.md
+          sparse-checkout-cone-mode: false
       - run: npm ci
       - run: npx playwright install --with-deps chromium
       - run: sudo apt-get install -y --no-install-recommends poppler-utils  # pdftotext, for quote checks against PDFs
@@ -67,6 +82,24 @@ jobs:
       - name: Pull page histories
         if: inputs.history != ''
         run: npm run page-history -- --minutes "${{ inputs.minutes }}" ${{ inputs.history != 'all' && format('--only "{0}"', inputs.history) || '' }}
+
+      - name: Copy raw page copies to the archive repository
+        if: always() && inputs.history == ''
+        run: |
+          if [ ! -d archive-repo ]; then
+            n=$(git ls-files --others --ignored --exclude-standard -- snapshots | wc -l)
+            if [ "$n" != 0 ]; then echo "::warning::ARCHIVE_DEPLOY_KEY is not set, so $n raw page file(s) from this run (HTML, screenshots, PDFs) were not kept. Their text and hashes are."; fi
+            exit 0
+          fi
+          npm run archive-copies -- archive-repo
+          cd archive-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse snapshots
+          if git diff --cached --quiet; then echo "Nothing new for the archive."; exit 0; fi
+          git commit -m "Copies for $(git diff --cached --name-only | cut -d/ -f2 | sort -u | wc -l) snapshot(s)"
+          for i in 1 2 3 4; do git pull --rebase && git push && exit 0; sleep $((i * 10)); done
+          echo "::error::Could not push to the archive repository."; exit 1
 
       - name: Commit
         if: always()

@@ -8,3 +8,11 @@ site/card.png
 site/feed.xml
 site/record.html
 site/sitemap.xml
+# Raw page copies (HTML, screenshots, PDFs, images) live in the archive
+# repository (data/site.yaml `archive`); only their text and meta.json stay here.
+# See scripts/archive-copies.mjs.
+snapshots/*/*
+!snapshots/*/*.txt
+!snapshots/*/*.json
+# The archive repository's checkout, in the Capture and Watch workflows.
+archive-repo/

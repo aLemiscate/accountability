@@ -24,6 +24,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0   # full history: the feed dates entries by when they entered the record
+          filter: blob:none  # but only the current files' contents, not every old version of them
       - uses: actions/setup-node@v4
         with:
           node-version: 22
