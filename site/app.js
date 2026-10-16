@@ -814,13 +814,14 @@
       h('span', { class: 'legend-note' }, 'Outlined: something the company said. Filled: something it did. Hover or tab to a mark for its title; click to open it.'));
 
     const grid = h('div', { class: 'rgrid', role: 'table', 'aria-label': 'Each pattern by year: one mark per entry', style: `--recent: ${bins.filter((b) => !b.early).length}` },
-      h('span', { class: 'corner', 'aria-hidden': 'true' }),
+      h('div', { class: 'rrow', role: 'row' },
+      h('span', { class: 'corner', role: 'columnheader' }, h('span', { class: 'sr-only' }, 'Pattern')),
       bins.map((b) => h('span', { role: 'columnheader', class: `yh${b.early ? ' early' : ''}`, 'aria-label': b.early ? `${b.from} to ${b.to}` : b.label },
-        h('span', { class: `yh-long${b.short ? ' has-short' : ''}` }, b.label), b.short && h('span', { class: 'yh-short', 'aria-hidden': 'true' }, b.short), b.sub && h('span', { class: 'yh-sub' }, b.sub))),
-      rows.map(({ p, hits }) => [
-        h('button', { class: 'rname', type: 'button', role: 'rowheader', title: `Show ${p.name} on the timeline`, onclick: () => setFilter({ pattern: p.id }, 'timeline') },
+        h('span', { class: `yh-long${b.short ? ' has-short' : ''}` }, b.label), b.short && h('span', { class: 'yh-short', 'aria-hidden': 'true' }, b.short), b.sub && h('span', { class: 'yh-sub' }, b.sub)))),
+      rows.map(({ p, hits }) => h('div', { class: 'rrow', role: 'row' },
+        h('span', { class: 'rh', role: 'rowheader' }, h('button', { class: 'rname', type: 'button', title: `Show ${p.name} on the timeline`, onclick: () => setFilter({ pattern: p.id }, 'timeline') },
           h('span', { class: 'rname-t' }, p.name),
-          h('span', { class: 'rname-n' }, `${hits.length} · ${counts(hits)}`)),
+          h('span', { class: 'rname-n' }, `${hits.length} · ${counts(hits)}`))),
         bins.map((b) => h('span', { class: `cell${b.early ? ' early' : ''}`, role: 'cell' },
           hits.filter((e) => inBin(e, b)).sort(byOrgThenDate).map((e) => logoMark(e, {
             tag: 'button',
@@ -832,7 +833,7 @@
             onfocus: (ev) => showTip(ev.currentTarget, e),
             onblur: hideTip,
           })))),
-      ]),
+      )),
     );
     frag.push(h('div', { class: 'grid-wrap' }, key, grid));
     frag.push(h('div', { class: 'patterns-list' }, rows.map(({ p, hits }) => h('section', { class: 'pcard', id: `p-${p.id}` },
@@ -1419,10 +1420,22 @@
     commitments: (D.commitments || []).reduce((n, d) => n + d.commitments.length, 0),
     fineprint: allChanges.length,
   };
+  // Arrow keys, Home and End move between tabs, as screen reader users expect of a tab list.
+  function tabKey(ev) {
+    const all = [...tabs.children];
+    const i = all.indexOf(ev.currentTarget);
+    const next = { ArrowRight: i + 1, ArrowLeft: i - 1, Home: 0, End: all.length - 1 }[ev.key];
+    if (next == null) return;
+    ev.preventDefault();
+    const t = all[(next + all.length) % all.length];
+    t.focus();
+    t.click();
+  }
   tabs.replaceChildren(...VIEWS.map((v) => h('button', {
     class: 'tab', type: 'button', role: 'tab', id: `tab-${v}`, 'aria-selected': 'false', 'aria-controls': 'view',
     onclick: () => go(v),
-  }, VIEW_LABEL[v] || v[0].toUpperCase() + v.slice(1), counts[v] != null && h('span', { class: 'count' }, counts[v]))));
+    onkeydown: tabKey,
+  }, VIEW_LABEL[v] || v[0].toUpperCase() + v.slice(1), counts[v] != null && h('span', { class: 'sr-only' }, ', '), counts[v] != null && h('span', { class: 'count' }, counts[v]))));
 
   orgSeg.replaceChildren(...['all', 'openai', 'anthropic'].map((o) => h('button', {
     type: 'button', 'aria-pressed': String(state.org === o), onclick: (ev) => setFilter({ org: o }, null, ev.currentTarget),
@@ -1572,7 +1585,11 @@
   }
 
   function syncControls() {
-    for (const b of tabs.children) b.setAttribute('aria-selected', String(b.id === `tab-${state.view}`));
+    for (const b of tabs.children) {
+      const on = b.id === `tab-${state.view}`;
+      b.setAttribute('aria-selected', String(on));
+      b.tabIndex = on ? 0 : -1;
+    }
     view.setAttribute('aria-labelledby', `tab-${state.view}`);
     [...orgSeg.children].forEach((b, i) => b.setAttribute('aria-pressed', String(['all', 'openai', 'anthropic'][i] === state.org)));
     patternSel.value = state.pattern;
