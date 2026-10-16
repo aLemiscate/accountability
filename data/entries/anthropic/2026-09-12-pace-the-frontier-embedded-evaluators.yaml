@@ -65,6 +65,13 @@ sources:
     type: analysis
     archive: https://web.archive.org/web/20261001032027/https://www.techpolicy.press/who-should-pace-the-frontier-not-dario-amodei/
     snapshot: snapshots/2026-10-01-techpolicy.press-243cfd2b
+  - title: 'Exclusive: Anthropic Drops Flagship Safety Pledge'
+    publisher: TIME
+    url: https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/
+    date: 2026-02-24
+    type: reporting
+    archive: https://web.archive.org/web/20260928021612/https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/
+    snapshot: snapshots/2026-09-29-time.com-bc5d31a5
 updates:
   - date: 2026-09-18
     text: >-
@@ -122,6 +129,12 @@ updates:
         date: 2026-09-29
         type: reporting
         snapshot: snapshots/2026-10-07-thehill.com-572fbd08
+      - title: White House Rapid Response on Twitter/X (text of the accord)
+        publisher: Twitter/X
+        url: https://x.com/RapidResponse47/status/2105052408032403532
+        date: 2026-09-29
+        type: primary
+        snapshot: snapshots/2026-09-29-x.com-74712772
 note: >-
   Seven months earlier, Anthropic dropped its pause pledge. Its chief science
   officer said then that unilateral commitments made little sense "if
