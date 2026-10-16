@@ -30,6 +30,12 @@ sources:
     date: 2026-04-07
     type: primary
     snapshot: snapshots/2026-09-30-anthropic.com-bc256abb
+  - title: 'Sabotage Risk Report: Claude Opus 4.6'
+    publisher: Anthropic
+    url: https://www.anthropic.com/claude-opus-4-6-risk-report
+    date: 2026-02-10
+    type: primary
+    snapshot: snapshots/2026-09-30-anthropic.com-b22210c1
 response: >-
   This entry is Anthropic's own disclosure. It wrote: "We are uncertain about
   the extent to which this issue has affected the reasoning behavior of the

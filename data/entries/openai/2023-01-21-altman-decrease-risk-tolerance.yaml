@@ -56,6 +56,14 @@ updates:
       Version 2 of the Preparedness Framework said OpenAI "may adjust our
       requirements" if another developer released a high-risk system without
       comparable safeguards. See 2025-04-15-preparedness-framework-v2.
+    sources:
+      - title: Our updated Preparedness Framework
+        publisher: OpenAI
+        url: https://openai.com/index/updating-our-preparedness-framework/
+        date: 2025-04-15
+        type: primary
+        archive: https://web.archive.org/web/20260924164200/https://openai.com/index/updating-our-preparedness-framework/
+        snapshot: snapshots/2026-09-29-openai.com-ded0b058
   - date: 2026-08-18
     text: >-
       After the Hugging Face incident OpenAI paused some frontier RL training

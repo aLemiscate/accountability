@@ -51,6 +51,12 @@ sources:
     type: reporting
     archive: https://web.archive.org/web/20261002045539/https://www.nytimes.com/2026/09/29/technology/openai-warnings-security.html
     snapshot: snapshots/2026-10-14-web.archive.org-4401ed07
+  - title: OpenAI on Twitter/X
+    publisher: Twitter/X
+    url: https://x.com/OpenAI/status/1815708160818356334
+    date: 2024-07-23
+    type: primary
+    snapshot: snapshots/2026-09-30-x.com-0d896691
 updates:
   - date: 2026-10-07
     text: >-
