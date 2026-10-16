@@ -22,7 +22,7 @@ test('the built site renders every view without script errors', async (t) => {
     assert.ok(await page.locator('.receipt').count() > 0, 'receipts render');
     for (const view of ['timeline', 'patterns', 'watchlist', 'fineprint', 'method']) {
       await page.click(`#tab-${view}`);
-      assert.ok((await page.locator('main#view').innerText()).length > 100, `${view} renders`);
+      assert.ok((await page.locator('main #view').innerText()).length > 100, `${view} renders`);
     }
     await page.click('#tab-timeline');
     // `list.length && el` renders a literal "0" when the list is empty; no card or dialog may show one.
