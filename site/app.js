@@ -1696,8 +1696,11 @@
       bring(card, { ring: card?.querySelector('h3'), glide: false });
       return;
     }
+    const before = state.view;
     applyHash(hash);
     render();
+    // A link to another view, such as the footer's to Method, opens it at its top, as a tab does.
+    if (state.view !== before) window.scrollTo({ top: Math.min(window.scrollY, viewTop()) });
   }
   window.addEventListener('hashchange', fromHash);
   fromHash();
