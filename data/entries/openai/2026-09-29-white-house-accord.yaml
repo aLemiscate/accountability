@@ -65,6 +65,13 @@ sources:
     date: 2026-09-29
     type: reporting
     snapshot: snapshots/2026-09-29-cnbc.com-00dde760
+  - title: Sam Altman on Twitter/X ("we will do the same")
+    publisher: Twitter/X
+    url: https://x.com/sama/status/2098811563415150910
+    date: 2026-09-12
+    type: primary
+    archive: https://web.archive.org/web/20260924090528/https://x.com/sama/status/2098811563415150910
+    snapshot: snapshots/2026-09-29-x.com-f914fd7d
 note: >-
   OpenAI already has pieces of this: a Safety and Security Committee of its
   board, and a promise (Sept. 12) to give independent evaluators "employee-like

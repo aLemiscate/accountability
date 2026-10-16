@@ -37,6 +37,12 @@ sources:
     url: https://www.anthropic.com/responsible-scaling-policy
     type: primary
     snapshot: snapshots/2026-09-29-anthropic.com-afe1e125
+  - title: Responsible Scaling Policy v3
+    publisher: Anthropic
+    url: https://anthropic.com/news/responsible-scaling-policy-v3
+    date: 2026-02-24
+    type: primary
+    snapshot: snapshots/2026-09-29-anthropic.com-0a9c389f
 response: >-
   Anthropic said it had fully fixed the gap, that its review of the traffic
   found no meaningful uplift to any threat actor, and that it was describing the

@@ -63,6 +63,12 @@ sources:
     type: primary
     archive: https://web.archive.org/web/20251004192046/https://x.com/openai/status/1974234951928459450
     snapshot: snapshots/2026-10-13-x.com-3ea9dd58
+  - title: Sam Altman on Twitter/X ("GPT-5 rollout updates")
+    publisher: Twitter/X
+    url: https://x.com/sama/status/1953893841381273969
+    date: 2025-08-08
+    type: primary
+    snapshot: snapshots/2026-10-13-x.com-2b78ff10
 response: >-
   Turley said routing "happens on a per-message basis; switching from the
   default model happens on a temporary basis," and that it was "part of a

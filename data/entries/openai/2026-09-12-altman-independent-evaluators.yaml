@@ -52,6 +52,12 @@ sources:
     date: 2026-09-18
     type: reporting
     snapshot: snapshots/2026-09-30-cnbc.com-13a02294
+  - title: We Must Pace the Frontier
+    publisher: Dario Amodei
+    url: https://darioamodei.com/post/we-must-pace-the-frontier
+    date: 2026-09-12
+    type: primary
+    snapshot: snapshots/2026-09-29-darioamodei.com-874a2fd9
 note: >-
   Altman's version has no details yet; Anthropic's names the access and the
   right to publish. Both are held to the same deadline here.

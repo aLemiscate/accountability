@@ -48,6 +48,20 @@ sources:
     date: 2026-10-07
     type: primary
     snapshot: snapshots/2026-10-07-help.openai.com-c5bdc32b
+  - title: Data Controls FAQ, as archived on Apr. 26, 2025
+    publisher: Internet Archive
+    url: https://web.archive.org/web/20250426002125/https://help.openai.com/en/articles/7730893-data-controls-faq
+    date: 2025-04-26
+    type: archive
+    snapshot: snapshots/2026-10-13-web.archive.org-107c909e
+  - title: How your data is used to improve model performance, as archived on Feb.
+      7, 2026
+    publisher: Internet Archive
+    url: https://web.archive.org/web/20260207094720/https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance
+    date: 2026-02-07
+    type: archive
+    archive: https://web.archive.org/web/20260207094720/https://web.archive.org/web/20260207094720/https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance
+    snapshot: snapshots/2026-10-13-web.archive.org-799aede4
 response: >-
   OpenAI opposed the order. COO Brad Lightcap called it an "overreach," and
   OpenAI asked the magistrate judge to reconsider and appealed to the district
