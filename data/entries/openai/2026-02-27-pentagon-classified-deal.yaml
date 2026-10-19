@@ -73,6 +73,7 @@ sources:
     date: 2026-03-03
     type: reporting
     archive: https://web.archive.org/web/20260929223149/https://www.forbes.com/sites/thomasbrewster/2026/03/03/openai-anthropic-ai-mass-surveillance-pentagon-red-lines/
+    snapshot: snapshots/2026-10-19-web.archive.org-3f4a7b7d
   - title: 'OpenAI on Surveillance and Autonomous Killings: You''re Going to Have to
       Trust Us'
     publisher: The Intercept
@@ -164,8 +165,8 @@ updates:
         snapshot: snapshots/2026-09-30-x.com-13bb03ed
   - date: 2026-03-01
     text: >-
-      In a public Q&A on Twitter/X the next day, Altman described the red lines as
-      provisional: "We currently have three redlines. I could see us changing
+      In a public Q&A on Twitter/X the next day, Altman described the red lines
+      as provisional: "We currently have three redlines. I could see us changing
       them or adding more as the technology evolves, and there are new risks we
       don't yet understand." Asked whether OpenAI would switch the system off,
       he wrote that it would if a use were illegal, but: "What we won't do is
@@ -227,7 +228,8 @@ updates:
         date: 2026-03-01
         type: primary
         snapshot: snapshots/2026-10-13-x.com-251084d7
-      - title: Aidan McLaughlin on Twitter/X ("i personally don’t think this deal was worth it")
+      - title: Aidan McLaughlin on Twitter/X ("i personally don’t think this deal was
+          worth it")
         publisher: Twitter/X
         url: https://x.com/aidan_mclau/status/2028507663529906395
         date: 2026-03-02

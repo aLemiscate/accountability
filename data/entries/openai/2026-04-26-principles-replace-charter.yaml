@@ -3,7 +3,7 @@ date: 2026-04-26
 org: openai
 type: did
 kind: revision
-who: [ openai ]
+who: [openai]
 summary: >-
   OpenAI published five operating principles (democratization, empowerment,
   universal prosperity, resilience and adaptability), its first rewrite of its
@@ -20,8 +20,8 @@ revision:
   after: >-
     Five principles, with no assist-a-rival clause and no statement of fiduciary
     duty to humanity.
-contradicts: [ 2018-04-09-charter-stop-competing-clause ]
-patterns: [ race-clause, unfalsifiable ]
+contradicts: [2018-04-09-charter-stop-competing-clause]
+patterns: [race-clause, unfalsifiable]
 sources:
   - title: OpenAI Publishes 5 Principles For Its AGI Push
     publisher: Forbes
@@ -29,6 +29,7 @@ sources:
     date: 2026-04-27
     type: reporting
     archive: https://web.archive.org/web/20260929223255/https://www.forbes.com/sites/ronschmelzer/2026/04/27/openai-publishes-five-principles-for-its-agi-push/
+    snapshot: snapshots/2026-10-19-web.archive.org-20aff228
   - title: OpenAI just changed its principles. Here's what's changing
     publisher: Euronews
     url: https://www.euronews.com/next/2026/04/27/openai-just-changed-its-principals-heres-whats-changing

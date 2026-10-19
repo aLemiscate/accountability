@@ -1,0 +1,50 @@
+INNOVATION
+CYBERSECURITY
+EDITORS' PICK
+OpenAI Blurs Its Mass Surveillance Red Line With New Pentagon Contract
+Anthropic saw a surveillance problem and walked. OpenAI saw an opportunity and signed. Now, Sam Altman is under fire for struggling to explain how OpenAI’s contract is any safer.
+ByThomas Brewster,
+Forbes Staff.
+Senior writer at Forbes covering cybercrime, privacy and surveillance.
+Follow Author
+Mar 03, 2026, 11:03am EST
+Sam Altman, CEO of OpenAI, has tried to allay fears that his company's technologies would be used for mass surveillance, amid a backlash. (Photo by Andrew Harnik/Getty Images)
+GETTY IMAGES
+By
+Sam Altman’s own admission, the whirlwind of the last few days have weighed heavy on the OpenAI chief.
+On Friday, he swooped in to take a Department of War contract from rival Anthropic, capitalizing on a deal that had gone sour when his competitor’s CEO Dario Amodei had insisted on contractual limits to its AI’s use for fully autonomous weapons and mass domestic surveillance.
+Amodei had explained his issues with the contract in a Thursday blog post, saying the company didn’t want any agency to use Claude to create a detailed and accurate picture of citizens’ private lives by making connections between large datasets, all without the need for a warrant. He pointed to the U.S. government’s purchase of massive datasets of people’s locations, web browsing habits and other information, typically from data brokers. AI could be used to bring all those data sources together and make inferences about a given person or entire populations, representing an unprecedented privacy threat.
+Then, over the course of hours on Friday night, talks between the two entities completely broke down. In retaliation, the U.S. government designated Anthropic a “supply chain threat,” effectively cutting it off from federal contracts. (Anthropic has said it plans to sue.)
+At first, Altman claimed to have come up with a compromise, as OpenAI said its agreement with the Pentagon upheld its red lines, including one that stipulated its tools wouldn’t be used for mass domestic surveillance. The company then followed up with a blog post that said its AI could be used for lawful purposes, and that any handling of private information would adhere to multiple surveillance-related laws that the Pentagon operates under.
+“These risks are further aggravated if such data is fed into opaque and often dysfunctional AI systems.”
+Wolfie Christl, privacy researcher
+That includes the Foreign Intelligence Surveillance Act (FISA), which provides a broad remit to the controversial National Security Agency within the Pentagon, allowing it to collect American citizens’ communications with foreign individuals and entities. It also includes Executive Order 12333, which permits bulk data gathering from foreign targets, regardless of whether they’re talking with Americans or not. “The AI System shall not be used for unconstrained monitoring of U.S. persons’ private information as consistent with these authorities,” the contract reads.
+The backlash was immediate. AI policy and legal experts noted that FISA and Executive Order 12333 had previously been criticized for allowing broad surveillance of U.S. citizens. There also didn’t seem to be any provision for stopping the Pentagon using OpenAI’s models on commercially-acquired data. As Mike Masnick at Techdirt wrote, “OpenAI has effectively adopted the intelligence community’s dictionary—a dictionary in which common English words have been carefully redefined over decades to permit the very things they appear to prohibit.” Users responded: SensorTower data showed uninstalls of the ChatGPT mobile app jumping 295% day-over-day on Saturday, while Anthropic shot to the top of AI charts, per TechCrunch.
+On Monday night, Altman responded to the tidal wave of criticism, tweeting an internal message, in which he said the company would amend its contract with the Pentagon to include new language to stipulate its AI “shall not be intentionally used for domestic surveillance of U.S. persons and nationals.” He said the contract would also prevent the Department of War’s intelligence agencies, like the NSA, from using OpenAI tools unless there was a “modification to our contract.”
+“For the avoidance of doubt, the Department understands this limitation to prohibit deliberate tracking, surveillance, or monitoring of U.S. persons or nationals, including through the procurement or use of commercially acquired personal or identifiable information," he wrote.
+Got a tip on AI surveillance or automated weapons? Contact the reporter, Thomas Brewster, at tbrewster@forbes.com or +1 929-512-7964 on Signal.
+Both provisos sought to allay fears about the legal ways the Pentagon surveils Americans under the laws specified in the contract. The Department of War buys access to a significant amount of Americans’ personal information. It has multiple contracts for tech from Babel Street, a company that uses AI agents to make connections between all manner of datasets, including information from social media sites and mobile phone location history. Contracting records show that LexisNexis, owned by $56 billion market cap analytics company RELX, provides the Department of War with a tool called Smartlinx for “online identity verification services to uncover comprehensive personal connections,” and Accurint for “direct connection to over 34 billion current public records.” The National Security Agency also buys “netflow” data, essentially footprints of people’s online activities, which can reveal what websites people visit and what apps they use.
+In his Thursday blog, Anthropic’s Amodei appeared to be anticipating what could happen when letting powerful AI rip on all that data. In seconds, such an AI could rummage through the information to learn the places an individual lives, works or has visited, whether they attended certain political rallies, places of worship or abortion clinics, and their immigration status. Combined with any communications they’ve had with non-U.S. individuals, the AI could infer a great deal about any individual.
+That kind of at-scale surveillance was essentially impossible when human analysts had to do the legwork, but AI presents a new paradigm. “The new AI systems are more powerful and better at analyzing these datasets and drawing inferences about people at scale than other companies' existing tools available in the market,” says Patrick Toomey, deputy director of the ACLU’s National Security Project.
+Wolfie Christl, a Vienna-based researcher at Cracked Labs, which investigates the data industry, says it is already “extremely dangerous” that governments buy personal data and use it for warrantless surveillance without any oversight. “These risks are further aggravated if such data is fed into opaque and often dysfunctional AI systems, where errors, bias and lack of accountability can magnify the harm,” Christl adds.
+Despite Altman’s claims that his deal won’t allow that kind of mass surveillance, he still has some convincing to do. Tyson Brody, a policy expert and former research director for Bernie Sanders presidential campaign, wrote on X that the updated contractual language on Monday contained “extremely careful and concerning language. Hard not to read as admitting to an AI dragnet.” He took umbrage with language in the OpenAI deal that would allow for the AI to be used on data collected unintentionally or accidentally, noting that “Americans will be swept up in this data,” but the government will be able to claim any “incidental collection” is legal.
+Throughout the controversy, the Pentagon has insisted that it has no interest in mass domestic surveillance. “The DoW does not engage in any unlawful domestic surveillance with or without an AI system and always strictly complies with laws, regulations, the Constitution’s protections for American’s civil liberties,” wrote Emil Michael, Under Secretary of War for Research and Engineering, on X, when the OpenAI contract was announced on Friday. “The DoW does not spy on domestic communication of U.S. people (including via commercial collection) and to do so would be unlawful and profoundly un-American.”
+Though the Pentagon and OpenAI are promising to use AI within the confines of the law, American statutes were written in the pre-AI era when no one had any inkling of the invasive potential of today’s frontier models. As Amodei wrote, “To the extent that such surveillance is currently legal, this is only because the law has not yet caught up with the rapidly growing capabilities of AI.”
+In a lengthy AMA on X, Altman indicated he’d wrestled with these challenges too. In answer to a question about what was most difficult to reconcile between OpenAI’s core principles and the government’s demands, he said: “Thinking through non-domestic surveillance. I have accepted that the U.S. military is going to do some amount of surveillance on foreigners, and I know foreign governments try to do it to us, but I still don't like it,” noting, “On the other hand, I also respect the democratic process. I don't think this is up to me to decide.”
+As he sought to cool tensions, Altman repeated that he wanted the Department of War to rescind the designation of Anthropic as a supply chain threat. And he confessed that he’d handled the situation poorly. “One thing I think I did wrong: we shouldn't have rushed to get this out on Friday. The issues are super complex, and demand clear communication,” he wrote. “We were genuinely trying to de-escalate things and avoid a much worse outcome, but I think it just looked opportunistic and sloppy.”
+MORE ON FORBES
+FORBES
+Sam Altman Explains Our AI Future
+By Richard Nieva
+FORBES
+OpenAI And Google Staffers Urge Limits On Pentagon’s AI Use In Petition
+By Siladitya Ray
+FORBES
+Anthropic Set A 'Red Line,' It Won't Be The Only AI Company To Do So
+By Peter Suciu
+FORBES
+Despite Digs From Musk And Altman, Anthropic's Billionaire Founders Double Their Fortunes
+By Richard Nieva
+Got a tip? Share confidential information with Forbes.
+Editorial Standards
+Reprints & Permissions
