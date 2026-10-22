@@ -237,6 +237,7 @@ under `data/entries/`.
 - EU AI Pact and code of practice (@OpenAINewsroom [923238](https://x.com/OpenAINewsroom/status/1839003497569923238)): `openai/2025-07-11-eu-gpai-code-of-practice` and `anthropic/2025-07-21-anthropic-eu-gpai-code-of-practice`. The 2024 AI Pact pledges were superseded by the code, whose serious-incident reporting is the testable part.
 - Mythos credits and "report back" (@AnthropicAI [900255](https://x.com/AnthropicAI/status/2041578412653900255)): `anthropic/2026-04-07-glasswing-report-back` (kept).
 - Found while researching other leads: `openai/2026-06-agents-breach-australian-government` (OpenAI agents in Australian and U.S. government systems).
+- Claude Startups offers paused (@claudeai [349695](https://x.com/claudeai/status/2108404561413349695), with the Oct 6 launch posts [303997](https://x.com/claudeai/status/2107521446570303997) and [179954](https://x.com/claudeai/status/2107513494493179954)): `anthropic/2026-10-06-claude-startups-credits-on-approval` (reversed), checked against the program page, which now says the cohort is full.
 
 Resolved in earlier batches: Seoul commitments, AI Safety Institute testing,
 the Safety and Security Committee, SB 1047 and SB 53 (@jackclarkSF, @npew,
@@ -252,6 +253,8 @@ GPT-5.6 Sol's restricted launch, and Astra's "recurrent depth" design.
 - The Artifactory message board (@w01fe [419761](https://x.com/w01fe/status/2092742024680419761)): Jason Wolfe's correction added to `openai/2026-07-21-hugging-face-incident`.
 - Paul Christiano (@sama [569783](https://x.com/sama/status/2097776310940569783)): already in `openai/2025-10-28-foundation-controls-pbc` (Foundation board and Safety and Security Committee).
 - GPT-6.1 Astra held back for deception (TechCrunch, Sept. 28): added to `openai/2025-05-02-behavior-issues-block-launches`, which stays standing, with one case each way.
+- Text provenance and watermarking (@OpenAI [101695](https://x.com/OpenAI/status/2107164650249101695), [012412](https://x.com/OpenAI/status/2107164651478012412), [340988](https://x.com/OpenAI/status/2107164653147340988), Oct 5, 2026): added to `openai/2023-01-31-ai-text-detection-improved-methods`, which already held the 2024 reporting. OpenAI now watermarks text, citing EU rules, with the detector limited to approved researchers. The entry stays eroded.
+- Five-hour limit poll (@thsottiaux [222849](https://x.com/thsottiaux/status/2109152716954222849), [999598](https://x.com/thsottiaux/status/2109439315570999598), Oct 11–12, 2026): added to `openai/2026-09-29-sottiaux-pro-subscription-guarantee`. Sottiaux put bringing back five-hour limits to Pro users as the price of 2X usage; the limit has not come back, so the promise stays open.
 
 ### No record change, and why
 
@@ -267,14 +270,14 @@ GPT-5.6 Sol's restricted launch, and Astra's "recurrent depth" design.
 - Altman leaving Helion's board (@sama [563682](https://x.com/sama/status/2036137695605563682)): he left because OpenAI and Helion were exploring a deal. No promise is involved.
 - Jack Clark's 2022 thread on industry lobbying (@jackclarkSF, 4 posts): a description of industry practice, not a commitment.
 - Staff post on engagement (@aidan_mclau [627357](https://x.com/aidan_mclau/status/1918335561699627357)): a personal view from a staff member, not company policy.
+- Genesis Mission pledges (@AnthropicAI [809081](https://x.com/AnthropicAI/status/2108226292235809081), Oct 8, 2026): Anthropic's $150 million over three years was read and left out in the October 14 pass (see COVERAGE.md): a spending pledge with no dated test. CDO Magazine reports OpenAI pledged $200 million at the same White House summit; it is left out on the same ground.
 
 ### Open leads
 
 Logged as leads and not yet worked. The weekly news sweep follows these up;
 move each to a section above once it is resolved.
 
-- Text provenance and watermarking (@OpenAI [101695](https://x.com/OpenAI/status/2107164650249101695), Oct 5, 2026): OpenAI says text watermarking has "significant limitations". Check against 2024 reporting that it held back a text watermark it had built.
-- Genesis Mission pledge (@AnthropicAI [809081](https://x.com/AnthropicAI/status/2108226292235809081), Oct 8, 2026): $150 million over three years, and Claude for more than 15 federal agencies. A new dated pledge.
-- Claude Startups offers paused (@claudeai [349695](https://x.com/claudeai/status/2108404561413349695), Oct 9, 2026): the Team plan and $1,000 API credit offers paused days after launch because demand was underestimated.
+- Codex features that "do not use usage" (@thsottiaux [468879](https://x.com/thsottiaux/status/2107575657014468879) auto-review, [318747](https://x.com/thsottiaux/status/2108645667451318747) composer predictions, [026039](https://x.com/thsottiaux/status/2109430894604026039) no long-context fees on GPT-6.1 Sol, Oct 6–11, 2026): plan promises. Check whether any of them later starts drawing on the allowance.
+- GPT-6 for Free and Go users "starting tomorrow" (@OpenAI [791071](https://x.com/OpenAI/status/2107895006350791071), @embirico [086307](https://x.com/embirico/status/2107961743054086307), Oct 7, 2026): a one-day promise. Check that the rollout began Oct 8.
 - "You can't do safety from second place" (quoted by @RichardMCNgo [227757](https://x.com/RichardMCNgo/status/2105674330009227757), Oct 1, 2026): attributed to Sarah Heck, Anthropic's Head of Public Policy. Find her post, confirm the role, and weigh it against the race clause.
 

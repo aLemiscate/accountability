@@ -21,7 +21,7 @@ summary: >-
   Sol and Luna at "half of the previous generation’s API prices."
 concreteness: measurable
 status: open
-last_checked: 2026-10-13
+last_checked: 2026-10-22
 breaks_if: >-
   OpenAI brings back a five-hour usage limit on the $200 Pro plan, or a Pro
   subscriber gets less work for the same price in a later change without a
@@ -50,6 +50,29 @@ sources:
     date: 2026-09-11
     type: reporting
     snapshot: snapshots/2026-10-13-cio.com-851b158a
+updates:
+  - date: 2026-10-12
+    text: >-
+      Two weeks after the promise, Sottiaux polled Pro users ("Pro users, would
+      you rather have"; the options are not in the archived copy) and then wrote
+      of the result: "I definitely thought it would sway much more favorably in
+      the 2X direction across Pro 100/200/500 at the cost of bringing back 5h
+      limits in order to smoothen the demand curve." The five-hour limit has not
+      come back, but bringing it back was put to users as one side of a trade.
+    sources:
+      - title: Thibault Sottiaux on Twitter/X ("The results of this poll has gotten me
+          confused")
+        publisher: Twitter/X
+        url: https://x.com/thsottiaux/status/2109439315570999598
+        date: 2026-10-12
+        type: primary
+        archive: https://web.archive.org/web/20261012184515/https://x.com/thsottiaux/status/2109439315570999598
+      - title: Thibault Sottiaux on Twitter/X ("Pro users, would you rather have")
+        publisher: Twitter/X
+        url: https://x.com/thsottiaux/status/2109152716954222849
+        date: 2026-10-11
+        type: primary
+        archive: https://web.archive.org/web/20261011052925/https://x.com/thsottiaux/status/2109152716954222849
 note: >-
   The five-hour promise is checkable; the "more work done" guarantee is harder,
   since OpenAI publishes no dollar figure for the allowance and measures value

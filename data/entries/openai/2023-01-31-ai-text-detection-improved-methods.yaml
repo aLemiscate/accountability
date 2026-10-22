@@ -93,6 +93,39 @@ sources:
     date: 2026-08-14
     type: primary
     snapshot: snapshots/2026-10-03-anthropic.com-e6824606
+updates:
+  - date: 2026-10-05
+    text: >-
+      OpenAI announced: "We're expanding our approach to content provenance to
+      include text in response to EU regulatory requirements, while recognizing
+      the significant limitations of current text watermarking technology." It
+      said text watermarks are "often undetectable, especially in short
+      passages" and that "Rewriting or translating text can completely remove
+      the watermark," and that "for now, only approved researchers will have
+      access to our detector." The watermark, it said, "works by embedding an
+      invisible statistical signal in text as it’s generated." It came about two
+      years after the Journal's report and two months after the EU rules took
+      effect, and only approved researchers can check text against it.
+    sources:
+      - title: OpenAI on Twitter/X ("We're expanding our approach to content
+          provenance to include text")
+        publisher: Twitter/X
+        url: https://x.com/OpenAI/status/2107164650249101695
+        date: 2026-10-05
+        type: primary
+        archive: https://web.archive.org/web/20261005232723/https://x.com/OpenAI/status/2107164650249101695
+      - title: OpenAI on Twitter/X ("Watermarks have limits")
+        publisher: Twitter/X
+        url: https://x.com/OpenAI/status/2107164653147340988
+        date: 2026-10-05
+        type: primary
+        archive: https://web.archive.org/web/20261005180922/https://x.com/OpenAI/status/2107164653147340988
+      - title: OpenAI on Twitter/X ("When possible, we want to give people a choice")
+        publisher: Twitter/X
+        url: https://x.com/OpenAI/status/2107164651478012412
+        date: 2026-10-05
+        type: primary
+        archive: https://web.archive.org/web/20261005181832/https://x.com/OpenAI/status/2107164651478012412
 response: >-
   An OpenAI spokesperson told TechCrunch: "The text watermarking method we’re
   developing is technically promising, but has important risks we’re weighing

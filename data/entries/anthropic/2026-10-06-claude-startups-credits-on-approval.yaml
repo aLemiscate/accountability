@@ -1,0 +1,83 @@
+title: 'Claude Startups expansion promises a free year of Team and "$1,000 in API
+  credits as soon as you’re approved"; both offers are paused three days later'
+date: 2026-10-06
+org: anthropic
+type: said
+kind: commitment
+who: [anthropic]
+venue: Posts on Twitter/X by @claudeai
+quote: >-
+  You'll also receive up to $7,000 in Claude products and credits to build
+  with. That includes a free year of Claude Team for companies new to Team, plus
+  $1,000 in API credits as soon as you’re approved.
+summary: >-
+  Announcing that the Claude Startups program was "expanding to more founders,"
+  Anthropic said members could get "a year of Claude Team, API credits, special
+  offers on the tools a startup runs on, and office hours with Anthropic’s
+  Applied AI team," and that "Startups founded in the last five years or funded
+  in the last two are eligible to apply." Three days later it paused the Team
+  and API credit offers, saying it had "underestimated demand for the program."
+concreteness: measurable
+status: reversed
+outcome:
+  date: 2026-10-09
+  text: >-
+    @claudeai posted: "Unfortunately, we underestimated demand for the program,
+    and we need to pause the Claude Team and $1,000 API credit offers." The
+    program page now says the cohort is full and applications are closed: "Our
+    current cohort is now full, so we weren’t able to move forward with
+    applications that were still in review, and we’ve emailed everyone
+    affected." The member benefits it lists no longer include the Team year or
+    the $1,000 in credits. Forbes reported that applicants who had been approved
+    but had not yet claimed the benefits would be asked to re-verify and could
+    be turned down.
+sources:
+  - title: Claude on Twitter/X ("plus $1,000 in API credits as soon as you’re
+      approved")
+    publisher: Twitter/X
+    url: https://x.com/claudeai/status/2107521446570303997
+    date: 2026-10-06
+    type: primary
+  - title: Claude on Twitter/X ("The Claude Startups program is expanding to more
+      founders")
+    publisher: Twitter/X
+    url: https://x.com/claudeai/status/2107513494493179954
+    date: 2026-10-06
+    type: primary
+  - title: Claude on Twitter/X ("Startups founded in the last five years or funded
+      in the last two are eligible to apply")
+    publisher: Twitter/X
+    url: https://x.com/claudeai/status/2107513501576999318
+    date: 2026-10-06
+    type: primary
+  - title: Claude on Twitter/X ("we need to pause the Claude Team and $1,000 API
+      credit offers")
+    publisher: Twitter/X
+    url: https://x.com/claudeai/status/2108404561413349695
+    date: 2026-10-09
+    type: primary
+    archive: https://web.archive.org/web/20261009084633/https://x.com/claudeai/status/2108404561413349695
+  - title: Claude for Startups program
+    publisher: Anthropic
+    url: https://claude.com/programs/startups
+    date: 2026-10-22
+    type: primary
+  - title: Anthropic pauses free Claude startup perks days after launch
+    publisher: Forbes Australia
+    url: https://www.forbes.com.au/?p=209668
+    date: 2026-10-12
+    type: reporting
+response: >-
+  The pause post quoted one by Sarah Wolf, Anthropic's head of startup
+  marketing: "We didn’t anticipate the demand for the Claude Startups program.
+  In the first 48 hours of the program, we received 21x the number of
+  applications compared to the last 5 months it’s been live." She added that
+  Anthropic had let "way too many people in this time." Forbes reported her
+  saying the acceptance criteria had not been properly tuned.
+note: >-
+  A small offer, withdrawn quickly and openly, with the reason given. It is
+  recorded because it was a concrete, dated promise to applicants ("as soon as
+  you’re approved"), and the same standard applies to OpenAI's plan promises.
+  What became of applicants who were approved but had not claimed the credits
+  rests on Forbes's reporting; Anthropic's page says only that applications
+  still in review did not go forward.
