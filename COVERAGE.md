@@ -1,6 +1,6 @@
 # What the record covers
 
-As of October 14, 2026. This file says where the record's entries came from,
+As of October 22, 2026. This file says where the record's entries came from,
 what the latest reviews added, how the two companies compare, and what may
 still be missing. The October fairness review ran in seven workstreams, each
 with its own section below: spoken claims, commitments in formal documents,
@@ -14,15 +14,15 @@ lobbying and political money, and the industry baseline. The rules for what coun
 | | Said | Did | Total |
 | --- | --: | --: | --: |
 | OpenAI | 62 | 54 | 116 |
-| Anthropic | 37 | 30 | 67 |
-| **Total** | **99** | **84** | **183** |
+| Anthropic | 38 | 30 | 68 |
+| **Total** | **100** | **84** | **184** |
 
 Status of the "said" entries:
 
 | | Standing | Kept | Eroded | Contradicted | Broken | Reversed |
 | --- | --: | --: | --: | --: | --: | --: |
 | OpenAI | 23 | 8 | 13 | 6 | 4 | 8 |
-| Anthropic | 19 | 6 | 3 | 5 | 3 | 1 |
+| Anthropic | 19 | 6 | 3 | 5 | 3 | 2 |
 
 147 of the 148 quotes whose sources have a saved snapshot match that text word
 for word. The other is Altman's November 2023 remark on voice cloning, quoted
@@ -337,9 +337,31 @@ Follow-ups to the October 13 audit, in six parts.
   Code session every Monday at 06:46 UTC and opens a pull request for review;
   [inbox/news/README.md](inbox/news/README.md) says what each run reports.
 
+## What the October 22 queue reading added
+
+The weekly news sweep did not run on October 20 (its session had no access to
+the repository), so the 122 posts the October 19 Watch run queued were read
+separately, each in full as archived, and four open leads were worked. No
+news search was done in this pass.
+
+- **New entry:** the Claude Startups expansion's free year of Team and
+  "$1,000 in API credits as soon as you’re approved" (Oct. 6), paused three
+  days later because Anthropic "underestimated demand" (reversed).
+- **Updates:** OpenAI's Oct. 5 text watermark, citing EU rules, with the
+  detector limited to approved researchers (on the 2023 AI-text classifier
+  entry, which stays eroded); Thibault Sottiaux's Oct. 11 poll weighing 2X Pro
+  usage against bringing back five-hour limits (on his Sept. 29 promise, which
+  stays open).
+- **Left out:** the Genesis Mission pledges of both companies (as on October
+  14), the departure of Joshua Achiam from OpenAI, launch and price posts with
+  no dated promise, and posts on the three dismissed OpenAI researchers, which
+  the existing entry already covers. Two new leads (Codex features that "do
+  not use usage," and GPT-6 reaching Free and Go users "starting tomorrow")
+  are in [TRIAGE.md](inbox/sweep/TRIAGE.md).
+
 ## The two companies side by side
 
-OpenAI has 116 entries to Anthropic's 67. It is older, larger and has made more
+OpenAI has 116 entries to Anthropic's 68. It is older, larger and has made more
 public commitments, and more of its conduct has been litigated and reported. The
 review checked the other direction too: for each kind of OpenAI entry it looked
 for the Anthropic counterpart and recorded it where one exists.
