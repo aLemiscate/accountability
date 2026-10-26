@@ -34,5 +34,13 @@
     "via": "fetch",
     "event": "rebaseline",
     "note": "text now stops before the list of other posts (Related content / Keep reading), which changes every week"
+  },
+  {
+    "date": "2026-10-26",
+    "sha256": "a42062ec5b3f9312a48859ff921dcc1d46eb132abf5cb047a3b7ba70929c911c",
+    "via": "fetch",
+    "event": "changed",
+    "added": 29,
+    "removed": 7
   }
 ]

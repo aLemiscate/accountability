@@ -80,76 +80,6 @@
     "error": "fetch failed"
   },
   {
-    "url": "https://lda.gov/filings/public/contribution/27e657f2-680e-4d42-87ad-862d9fa9c49a/print/",
-    "entries": [
-      "2025-08-25-leading-the-future-super-pac"
-    ],
-    "archive": null,
-    "status": 503,
-    "result": "error",
-    "via": "http"
-  },
-  {
-    "url": "https://lda.gov/filings/public/contribution/377e1f48-d989-43f0-9b9d-61c72a75d90d/print/",
-    "entries": [
-      "2026-02-12-public-first-action-donation"
-    ],
-    "archive": null,
-    "status": 503,
-    "result": "error",
-    "via": "http"
-  },
-  {
-    "url": "https://lda.gov/filings/public/contribution/a960bb9d-eff5-4ee7-a82b-1bc92e9fb339/print/",
-    "entries": [
-      "2025-08-25-leading-the-future-super-pac"
-    ],
-    "archive": null,
-    "status": 503,
-    "result": "error",
-    "via": "http"
-  },
-  {
-    "url": "https://lda.gov/filings/public/contribution/b1760288-4fa1-4692-a14a-604868717b75/print/",
-    "entries": [
-      "2025-08-25-leading-the-future-super-pac"
-    ],
-    "archive": null,
-    "status": 503,
-    "result": "error",
-    "via": "http"
-  },
-  {
-    "url": "https://lda.gov/filings/public/contribution/e75b2cf0-9ad9-460e-b7b0-4d9d4a00fa06/print/",
-    "entries": [
-      "2026-02-12-public-first-action-donation"
-    ],
-    "archive": "https://web.archive.org/web/20261007065656/https://lda.gov/filings/public/contribution/e75b2cf0-9ad9-460e-b7b0-4d9d4a00fa06/print/",
-    "status": 503,
-    "result": "error",
-    "via": "http"
-  },
-  {
-    "url": "https://lda.gov/filings/public/filing/8fb2c55d-721f-4ccb-bccc-5f0a31fa7063/print/",
-    "entries": [
-      "2025-03-13-ostp-preemption-request"
-    ],
-    "archive": null,
-    "status": 503,
-    "result": "error",
-    "via": "http"
-  },
-  {
-    "url": "https://lda.gov/filings/public/filing/de4e5ed5-65c4-44dc-8006-be3a20d10ef7/print/",
-    "entries": [
-      "2025-03-13-ostp-preemption-request"
-    ],
-    "archive": "https://web.archive.org/web/20260927230106/https://lda.gov/filings/public/filing/de4e5ed5-65c4-44dc-8006-be3a20d10ef7/print/",
-    "status": 503,
-    "result": "error",
-    "via": "http"
-  },
-  {
     "url": "https://news.ycombinator.com/item?id=41920044",
     "entries": [
       "2024-06-20-claude-3-5-opus-later-this-year"
@@ -221,16 +151,6 @@
     "via": "http"
   },
   {
-    "url": "https://web.archive.org/web/20230315002917/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
-    "entries": [
-      "2024-01-05-gpt-4-plus-cap-lowered"
-    ],
-    "archive": "https://web.archive.org/web/20230315002917/https://web.archive.org/web/20230315002917/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
-    "status": null,
-    "result": "error",
-    "error": "fetch failed"
-  },
-  {
     "url": "https://web.archive.org/web/20230425181457/https://help.openai.com/en/articles/7730893-data-controls-faq",
     "entries": [
       "2026-01-16-ad-principles"
@@ -241,73 +161,11 @@
     "error": "fetch failed"
   },
   {
-    "url": "https://web.archive.org/web/20240105064512/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
-    "entries": [
-      "2024-01-05-gpt-4-plus-cap-lowered"
-    ],
-    "archive": null,
-    "status": null,
-    "result": "error",
-    "error": "fetch failed"
-  },
-  {
-    "url": "https://web.archive.org/web/20240124135643/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
-    "entries": [
-      "2024-01-05-gpt-4-plus-cap-lowered"
-    ],
-    "archive": "https://web.archive.org/web/20240124135643/https://web.archive.org/web/20240124135643/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
-    "status": null,
-    "result": "error",
-    "error": "fetch failed"
-  },
-  {
-    "url": "https://web.archive.org/web/20240514003144/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o",
-    "entries": [
-      "2024-01-05-gpt-4-plus-cap-lowered"
-    ],
-    "archive": null,
-    "status": null,
-    "result": "error",
-    "error": "fetch failed"
-  },
-  {
     "url": "https://web.archive.org/web/20250422014806/https://help.openai.com/en/articles/7730893-data-controls-faq",
     "entries": [
       "2026-01-16-ad-principles"
     ],
     "archive": null,
-    "status": null,
-    "result": "error",
-    "error": "fetch failed"
-  },
-  {
-    "url": "https://web.archive.org/web/20250426002125/https://help.openai.com/en/articles/7730893-data-controls-faq",
-    "entries": [
-      "2025-05-nyt-chat-preservation-order",
-      "2026-01-16-ad-principles"
-    ],
-    "archive": null,
-    "status": null,
-    "result": "error",
-    "error": "fetch failed"
-  },
-  {
-    "url": "https://web.archive.org/web/20250914092717/https://openai.com/policies/usage-policies/",
-    "entries": [
-      "2025-10-14-chatgpt-erotica-announced"
-    ],
-    "archive": "https://web.archive.org/web/20250914092717/https://web.archive.org/web/20250914092717/https://openai.com/policies/usage-policies/",
-    "status": null,
-    "result": "error",
-    "error": "fetch failed"
-  },
-  {
-    "url": "https://web.archive.org/web/20260207094720/https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance",
-    "entries": [
-      "2025-05-nyt-chat-preservation-order",
-      "2026-01-16-ad-principles"
-    ],
-    "archive": "https://web.archive.org/web/20260207094720/https://web.archive.org/web/20260207094720/https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance",
     "status": null,
     "result": "error",
     "error": "fetch failed"
@@ -351,6 +209,16 @@
     "status": null,
     "result": "error",
     "error": "fetch failed"
+  },
+  {
+    "url": "https://www.cbsnews.com/news/openai-sam-altman-ousted-board-no-confidence-mira-murati/",
+    "entries": [
+      "2023-11-17-board-not-consistently-candid"
+    ],
+    "archive": "https://web.archive.org/web/20251207075800/https://www.cbsnews.com/news/openai-sam-altman-ousted-board-no-confidence-mira-murati/",
+    "status": 406,
+    "result": "error",
+    "via": "http"
   },
   {
     "url": "https://www.euronews.com/next/2026/04/27/openai-just-changed-its-principals-heres-whats-changing",
@@ -555,6 +423,16 @@
     "via": "http"
   },
   {
+    "url": "https://letsdatascience.com/news/anthropic-pauses-claude-agent-sdk-billing-overhaul-1cff2071",
+    "entries": [
+      "2026-04-03-claude-subscriptions-third-party-tools"
+    ],
+    "archive": "https://web.archive.org/web/20261003082517/https://letsdatascience.com/news/anthropic-pauses-claude-agent-sdk-billing-overhaul-1cff2071",
+    "status": 403,
+    "result": "blocked",
+    "via": "http"
+  },
+  {
     "url": "https://milesbrundage.substack.com/p/why-im-leaving-openai-and-what-im",
     "entries": [
       "2024-10-23-agi-readiness-team-disbanded"
@@ -617,9 +495,32 @@
     "via": "http"
   },
   {
+    "url": "https://thehill.com/policy/technology/5918733-openai-anthropic-ai-regulation/",
+    "entries": [
+      "2024-08-21-anthropic-sb-1047-sb-53",
+      "2023-02-24-independent-audits-before-release",
+      "2025-03-13-ostp-preemption-request"
+    ],
+    "archive": null,
+    "status": 403,
+    "result": "blocked",
+    "via": "http"
+  },
+  {
     "url": "https://thehill.com/policy/technology/6038415-openai-pauses-ai-training/",
     "entries": [
       "2026-08-18-altman-pause-act-unilaterally"
+    ],
+    "archive": null,
+    "status": 403,
+    "result": "blocked",
+    "via": "http"
+  },
+  {
+    "url": "https://thehill.com/policy/technology/6124265-ftc-investigates-openai-anthropic/",
+    "entries": [
+      "2026-07-30-claude-cyber-eval-incidents",
+      "2026-07-21-hugging-face-incident"
     ],
     "archive": null,
     "status": 403,
@@ -664,16 +565,6 @@
     ],
     "archive": null,
     "status": 429,
-    "result": "blocked",
-    "via": "http"
-  },
-  {
-    "url": "https://wgntv.com/news/illinois/gov-pritzker-puts-signature-on-senate-bill-315-one-of-toughest-ai-laws-in-country/",
-    "entries": [
-      "2023-02-24-independent-audits-before-release"
-    ],
-    "archive": null,
-    "status": 403,
     "result": "blocked",
     "via": "http"
   },
@@ -753,16 +644,6 @@
       "2025-10-14-chatgpt-erotica-announced"
     ],
     "archive": "https://web.archive.org/web/20260312225117/https://www.axios.com/2026/03/06/openai-delays-chatgpt-adult-mode",
-    "status": 403,
-    "result": "blocked",
-    "via": "http"
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-02-25/anthropic-adds-caveat-to-ai-safety-policy-in-race-against-rivals",
-    "entries": [
-      "2026-02-24-rsp-v3-drops-pause"
-    ],
-    "archive": "https://web.archive.org/web/20260410072435/https://www.bloomberg.com/news/articles/2026-02-25/anthropic-adds-caveat-to-ai-safety-policy-in-race-against-rivals",
     "status": 403,
     "result": "blocked",
     "via": "http"
@@ -2037,11 +1918,71 @@
     "via": "http"
   },
   {
-    "url": "https://letsdatascience.com/news/anthropic-pauses-claude-agent-sdk-billing-overhaul-1cff2071",
+    "url": "https://lda.gov/filings/public/contribution/27e657f2-680e-4d42-87ad-862d9fa9c49a/print/",
     "entries": [
-      "2026-04-03-claude-subscriptions-third-party-tools"
+      "2025-08-25-leading-the-future-super-pac"
     ],
-    "archive": "https://web.archive.org/web/20261003082517/https://letsdatascience.com/news/anthropic-pauses-claude-agent-sdk-billing-overhaul-1cff2071",
+    "archive": null,
+    "status": 200,
+    "result": "ok",
+    "via": "http"
+  },
+  {
+    "url": "https://lda.gov/filings/public/contribution/377e1f48-d989-43f0-9b9d-61c72a75d90d/print/",
+    "entries": [
+      "2026-02-12-public-first-action-donation"
+    ],
+    "archive": null,
+    "status": 200,
+    "result": "ok",
+    "via": "http"
+  },
+  {
+    "url": "https://lda.gov/filings/public/contribution/a960bb9d-eff5-4ee7-a82b-1bc92e9fb339/print/",
+    "entries": [
+      "2025-08-25-leading-the-future-super-pac"
+    ],
+    "archive": null,
+    "status": 200,
+    "result": "ok",
+    "via": "http"
+  },
+  {
+    "url": "https://lda.gov/filings/public/contribution/b1760288-4fa1-4692-a14a-604868717b75/print/",
+    "entries": [
+      "2025-08-25-leading-the-future-super-pac"
+    ],
+    "archive": null,
+    "status": 200,
+    "result": "ok",
+    "via": "http"
+  },
+  {
+    "url": "https://lda.gov/filings/public/contribution/e75b2cf0-9ad9-460e-b7b0-4d9d4a00fa06/print/",
+    "entries": [
+      "2026-02-12-public-first-action-donation"
+    ],
+    "archive": "https://web.archive.org/web/20261007065656/https://lda.gov/filings/public/contribution/e75b2cf0-9ad9-460e-b7b0-4d9d4a00fa06/print/",
+    "status": 200,
+    "result": "ok",
+    "via": "http"
+  },
+  {
+    "url": "https://lda.gov/filings/public/filing/8fb2c55d-721f-4ccb-bccc-5f0a31fa7063/print/",
+    "entries": [
+      "2025-03-13-ostp-preemption-request"
+    ],
+    "archive": null,
+    "status": 200,
+    "result": "ok",
+    "via": "http"
+  },
+  {
+    "url": "https://lda.gov/filings/public/filing/de4e5ed5-65c4-44dc-8006-be3a20d10ef7/print/",
+    "entries": [
+      "2025-03-13-ostp-preemption-request"
+    ],
+    "archive": "https://web.archive.org/web/20260927230106/https://lda.gov/filings/public/filing/de4e5ed5-65c4-44dc-8006-be3a20d10ef7/print/",
     "status": 200,
     "result": "ok",
     "via": "http"
@@ -3802,29 +3743,6 @@
     "via": "http"
   },
   {
-    "url": "https://thehill.com/policy/technology/5918733-openai-anthropic-ai-regulation/",
-    "entries": [
-      "2024-08-21-anthropic-sb-1047-sb-53",
-      "2023-02-24-independent-audits-before-release",
-      "2025-03-13-ostp-preemption-request"
-    ],
-    "archive": null,
-    "status": 200,
-    "result": "ok",
-    "via": "http"
-  },
-  {
-    "url": "https://thehill.com/policy/technology/6124265-ftc-investigates-openai-anthropic/",
-    "entries": [
-      "2026-07-30-claude-cyber-eval-incidents",
-      "2026-07-21-hugging-face-incident"
-    ],
-    "archive": null,
-    "status": 200,
-    "result": "ok",
-    "via": "http"
-  },
-  {
     "url": "https://theintercept.com/2024/01/12/open-ai-military-ban-chatgpt/",
     "entries": [
       "2024-01-10-military-ban-removed",
@@ -3938,6 +3856,16 @@
     "via": "http"
   },
   {
+    "url": "https://web.archive.org/web/20230315002917/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+    "entries": [
+      "2024-01-05-gpt-4-plus-cap-lowered"
+    ],
+    "archive": "https://web.archive.org/web/20230315002917/https://web.archive.org/web/20230315002917/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+    "status": 200,
+    "result": "ok",
+    "via": "http"
+  },
+  {
     "url": "https://web.archive.org/web/20230606194140/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
     "entries": [
       "2024-01-05-gpt-4-plus-cap-lowered"
@@ -3948,11 +3876,31 @@
     "via": "http"
   },
   {
+    "url": "https://web.archive.org/web/20240105064512/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+    "entries": [
+      "2024-01-05-gpt-4-plus-cap-lowered"
+    ],
+    "archive": null,
+    "status": 200,
+    "result": "ok",
+    "via": "http"
+  },
+  {
     "url": "https://web.archive.org/web/20240106091424/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
     "entries": [
       "2024-01-05-gpt-4-plus-cap-lowered"
     ],
     "archive": null,
+    "status": 200,
+    "result": "ok",
+    "via": "http"
+  },
+  {
+    "url": "https://web.archive.org/web/20240124135643/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+    "entries": [
+      "2024-01-05-gpt-4-plus-cap-lowered"
+    ],
+    "archive": "https://web.archive.org/web/20240124135643/https://web.archive.org/web/20240124135643/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
     "status": 200,
     "result": "ok",
     "via": "http"
@@ -3973,6 +3921,16 @@
       "2024-04-claude-pro-allowance-lowered"
     ],
     "archive": "https://web.archive.org/web/20240405190601/https://web.archive.org/web/20240405190601/https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage",
+    "status": 200,
+    "result": "ok",
+    "via": "http"
+  },
+  {
+    "url": "https://web.archive.org/web/20240514003144/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o",
+    "entries": [
+      "2024-01-05-gpt-4-plus-cap-lowered"
+    ],
+    "archive": null,
     "status": 200,
     "result": "ok",
     "via": "http"
@@ -4001,6 +3959,17 @@
     "url": "https://web.archive.org/web/20250304075323/https://docs.anthropic.com/en/docs/resources/model-deprecations",
     "entries": [
       "2025-08-model-retirement-notice-cut"
+    ],
+    "archive": null,
+    "status": 200,
+    "result": "ok",
+    "via": "http"
+  },
+  {
+    "url": "https://web.archive.org/web/20250426002125/https://help.openai.com/en/articles/7730893-data-controls-faq",
+    "entries": [
+      "2025-05-nyt-chat-preservation-order",
+      "2026-01-16-ad-principles"
     ],
     "archive": null,
     "status": 200,
@@ -4041,6 +4010,37 @@
     "url": "https://web.archive.org/web/20250810034737/https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
     "entries": [
       "2025-08-model-retirement-notice-cut"
+    ],
+    "archive": null,
+    "status": 200,
+    "result": "ok",
+    "via": "http"
+  },
+  {
+    "url": "https://web.archive.org/web/20250914092717/https://openai.com/policies/usage-policies/",
+    "entries": [
+      "2025-10-14-chatgpt-erotica-announced"
+    ],
+    "archive": "https://web.archive.org/web/20250914092717/https://web.archive.org/web/20250914092717/https://openai.com/policies/usage-policies/",
+    "status": 200,
+    "result": "ok",
+    "via": "http"
+  },
+  {
+    "url": "https://web.archive.org/web/20260207094720/https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance",
+    "entries": [
+      "2025-05-nyt-chat-preservation-order",
+      "2026-01-16-ad-principles"
+    ],
+    "archive": "https://web.archive.org/web/20260207094720/https://web.archive.org/web/20260207094720/https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance",
+    "status": 200,
+    "result": "ok",
+    "via": "http"
+  },
+  {
+    "url": "https://wgntv.com/news/illinois/gov-pritzker-puts-signature-on-senate-bill-315-one-of-toughest-ai-laws-in-country/",
+    "entries": [
+      "2023-02-24-independent-audits-before-release"
     ],
     "archive": null,
     "status": 200,
@@ -4727,6 +4727,16 @@
     "via": "http"
   },
   {
+    "url": "https://www.bloomberg.com/news/articles/2026-02-25/anthropic-adds-caveat-to-ai-safety-policy-in-race-against-rivals",
+    "entries": [
+      "2026-02-24-rsp-v3-drops-pause"
+    ],
+    "archive": "https://web.archive.org/web/20260410072435/https://www.bloomberg.com/news/articles/2026-02-25/anthropic-adds-caveat-to-ai-safety-policy-in-race-against-rivals",
+    "status": 200,
+    "result": "ok",
+    "via": "http"
+  },
+  {
     "url": "https://www.bnnbloomberg.ca/business/2026/05/06/openai-did-not-respect-privacy-laws-in-developing-chatgpt-probe-finds/",
     "entries": [
       "2026-05-06-canada-privacy-commitments",
@@ -4763,16 +4773,6 @@
       "2026-02-27-anthropic-pentagon-red-lines"
     ],
     "archive": "https://web.archive.org/web/20260828085828/https://www.cbsnews.com/news/hegseth-declares-anthropic-supply-chain-risk/",
-    "status": 200,
-    "result": "ok",
-    "via": "http"
-  },
-  {
-    "url": "https://www.cbsnews.com/news/openai-sam-altman-ousted-board-no-confidence-mira-murati/",
-    "entries": [
-      "2023-11-17-board-not-consistently-candid"
-    ],
-    "archive": "https://web.archive.org/web/20251207075800/https://www.cbsnews.com/news/openai-sam-altman-ousted-board-no-confidence-mira-murati/",
     "status": 200,
     "result": "ok",
     "via": "http"

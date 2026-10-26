@@ -1,6 +1,6 @@
 # Reading queue
 
-Built 2026-10-19. Every post an in-scope account wrote (from December 2015 on, with text) that has no decision yet. There is no topic filter: read each post in full, in context, and decide. Then record the decisions for an account with
+Built 2026-10-26. Every post an in-scope account wrote (from December 2015 on, with text) that has no decision yet. There is no topic filter: read each post in full, in context, and decide. Then record the decisions for an account with
 
 ```
 npm run reading-queue -- --log <account> < decisions.txt   # lines: "<post id> <R|L|C> <note>"; unlisted posts are recorded as O
@@ -8,36 +8,42 @@ npm run reading-queue -- --log <account> < decisions.txt   # lines: "<post id> <
 
 R is a receipt candidate, L a lead to check, C context for an existing entry, O nothing for the record. A claim is any notable public claim or promise the record covers: safety, ethics and policy, and also capabilities and benchmarks, features and release dates, usage limits and plan terms, promises about how a product behaves, and dated predictions. See [TRIAGE.md](TRIAGE.md).
 
-122 post(s) to read.
+165 post(s) to read.
 
 ## Unread
 
 | Account | Unread | Posted |
 | --- | --: | --- |
-| [@OpenAI](#openai) | 12 | 2026-10-05 to 2026-10-07 |
-| [@sama](#sama) | 6 | 2026-10-07 to 2026-10-07 |
-| [@gdb](#gdb) | 2 | 2026-10-07 to 2026-10-07 |
+| [@OpenAI](#openai) | 20 | 2026-10-05 to 2026-10-16 |
+| [@sama](#sama) | 8 | 2026-10-07 to 2026-10-16 |
+| [@gdb](#gdb) | 3 | 2026-10-07 to 2026-10-13 |
+| [@AnthropicAI](#anthropicai) | 7 | 2026-10-12 to 2026-10-16 |
 | [@jackclarkSF](#jackclarksf) | 4 | 2026-10-05 to 2026-10-05 |
+| [@OpenAINewsroom](#openainewsroom) | 1 | 2026-10-13 to 2026-10-13 |
+| [@FoundationOAI](#foundationoai) | 1 | 2026-10-14 to 2026-10-14 |
 | [@btaylor](#btaylor) | 2 | 2026-10-06 to 2026-10-09 |
 | [@markchen90](#markchen90) | 1 | 2026-10-07 to 2026-10-07 |
-| [@thsottiaux](#thsottiaux) | 33 | 2026-10-05 to 2026-10-13 |
+| [@thsottiaux](#thsottiaux) | 44 | 2026-10-05 to 2026-10-17 |
 | [@jachiam0](#jachiam0) | 5 | 2026-10-05 to 2026-10-05 |
-| [@hlntnr](#hlntnr) | 1 | 2026-10-08 to 2026-10-08 |
+| [@hlntnr](#hlntnr) | 4 | 2026-10-08 to 2026-10-14 |
 | [@Miles_Brundage](#miles_brundage) | 2 | 2026-10-06 to 2026-10-07 |
 | [@sjgadler](#sjgadler) | 2 | 2026-10-08 to 2026-10-08 |
 | [@DKokotajlo](#dkokotajlo) | 1 | 2026-10-08 to 2026-10-08 |
 | [@RosieCampbell](#rosiecampbell) | 2 | 2026-10-07 to 2026-10-08 |
-| [@claudeai](#claudeai) | 18 | 2026-10-06 to 2026-10-08 |
+| [@claudeai](#claudeai) | 20 | 2026-10-06 to 2026-10-16 |
 | [@mikeyk](#mikeyk) | 1 | 2026-10-07 to 2026-10-07 |
-| [@hilbertspaess](#hilbertspaess) | 2 | 2026-10-06 to 2026-10-08 |
-| [@OpenAIDevs](#openaidevs) | 15 | 2026-10-05 to 2026-10-12 |
+| [@hilbertspaess](#hilbertspaess) | 3 | 2026-10-06 to 2026-10-13 |
+| [@OpenAIDevs](#openaidevs) | 17 | 2026-10-05 to 2026-10-16 |
 | [@embirico](#embirico) | 1 | 2026-10-07 to 2026-10-07 |
 | [@polynoamial](#polynoamial) | 1 | 2026-10-12 to 2026-10-12 |
 | [@RichardMCNgo](#richardmcngo) | 1 | 2026-10-06 to 2026-10-06 |
+| [@JacobHHilton](#jacobhhilton) | 1 | 2026-10-16 to 2026-10-16 |
 | [@NotTomBrown](#nottombrown) | 2 | 2026-10-07 to 2026-10-07 |
 | [@karpathy](#karpathy) | 2 | 2026-10-11 to 2026-10-11 |
+| [@JasonDClinton](#jasondclinton) | 1 | 2026-10-13 to 2026-10-13 |
+| [@logangraham](#logangraham) | 1 | 2026-10-12 to 2026-10-12 |
 | [@alexalbert__](#alexalbert__) | 1 | 2026-10-07 to 2026-10-07 |
-| [@bcherny](#bcherny) | 5 | 2026-10-06 to 2026-10-10 |
+| [@bcherny](#bcherny) | 6 | 2026-10-06 to 2026-10-15 |
 
 ## @OpenAI
 
@@ -53,6 +59,14 @@ R is a receipt candidate, L a lead to check, C context for an existing entry, O 
 - 2107895004819775938 · 2026-10-07 · thread · Play around with interactive answers to help customize your response. [link]
 - 2107895006350791071 · 2026-10-07 · thread · GPT‑6 with Intelligent UI rolls out globally to Plus, Pro, Business, and Enterprise users today and will expand to Free and Go users starting tomorrow. ⏎ GPT‑6 in ChatGPT is powered by GPT‑6 Sol for Plus, Pro, Business, and Enterprise tiers, and GPT‑6 Luna for Free and Go tiers.
 - 2107909792945832070 · 2026-10-07 · We're sharing progress on ChatGPT for Teens, our ChatGPT experience for people under 18, alongside a preview of College Planner, new study tools, and support for college advisers and teen voices. ⏎ ChatGPT for Teens applies automatically to accounts identified as belonging to [link]
+- 2110442001749659890 · 2026-10-14 · European businesses are rapidly expanding their use of AI agents. More than half of the AI use among our EU enterprise and business customers now involves these tools, and the number of small business users has grown 8x across the region. ⏎ Our latest Economic Research report [link]
+- 2110741355739963884 · 2026-10-15 · We want to support the mathematics community in turning progress in AI into deeper human understanding and new discoveries. To support that goal, we are contributing $5 million to a new Simons Foundation initiative to help mathematicians examine, understand, and build on results ⟨Q @SimonsFdn: How can the math community forge the best path forward in the AI age? We're committing $15M to workshops and initiatives — plus free AI computing resources for foundation-supported researchers — through new partnerships with @AnthropicAI and @OpenAI: [link]⟩
+- 2110797830361436604 · 2026-10-15 · New voices. Better accents. And less "checking..." ⏎ GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Japanese. ⏎ Rolling out today to all users. Coming soon to the API. [link]
+- 2110841898076418336 · 2026-10-15 · We're expanding access to GPT-Rosalind for academic research. ⏎ The new Rosalind Academic Plan helps scientific labs bring AI into the work of understanding biology, exploring ideas, and deciding what to test next—with sponsored access for eligible labs at U.S. universities. [link]
+- 2110841899838046525 · 2026-10-15 · thread · GPT-Rosalind is built to support that work: helping researchers reason across scientific literature and biological data, with scientists bringing the expertise and judgment to evaluate the evidence. ⏎ Eligible labs can receive up to 12 months of sponsored access to OpenAI tools,
+- 2110841901121511705 · 2026-10-15 · thread · Learn about the Rosalind Academic Plan, check your lab's eligibility, and find out how to apply: [link]
+- 2111185504746213705 · 2026-10-16 · GPT-6 Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools. ⏎ And now, multiple agents can tackle different parts of a task in parallel. You can follow each agent’s progress and open completed tasks to review their work. ⏎ Now available to Pro
+- 2111192259073094035 · 2026-10-16 · GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools. ⏎ And now, multiple agents can tackle different parts of a task in parallel. You can follow each agent’s progress and open completed tasks to review their work. ⏎ Now available to
 
 ## @sama
 
@@ -62,11 +76,24 @@ R is a receipt candidate, L a lead to check, C context for an existing entry, O 
 - 2107691577015755196 · 2026-10-07 · thread · and thank you to the untold number of people who put in the technical work, brick by brick over the generations, to get us to the point where such a wonder is possible.
 - 2107924408597950702 · 2026-10-07 · ChatGPT can now generate a custom UI for you! ⟨Q @OpenAI: GPT-6 and Intelligent UI, now rolling out in ChatGPT for everyone. ⏎ Intelligent UI in ChatGPT delivers fast, interactive answers that make everyday questions more visual, complex topics easier to grasp, and interactive tools for your task available on the spot. [link]⟩
 - 2107924677801001381 · 2026-10-07 · thread · Have been waiting for this one for a long time, and I would hate to have to go back to the old version of Chat!
+- 2111130577789493706 · 2026-10-16 · Very happy to see this from Nick! ⟨Q @nickcammarata: interpretability might be the most important scientific problem in the world right now, as I don't think we can solve alignment if we don't know what we're building. I think I have good news about it. I co-authored early work in mechanistic interpretability at OpenAI and came⟩
+- 2111131677351432197 · 2026-10-16 · Wow the new roadster looks quite amazing, good job @elonmusk
 
 ## @gdb
 
 - 2107640886482104524 · 2026-10-07 · towards acceleration of scientific discovery and improving quality of life for everyone ⟨Q @OpenAI: We’re releasing a broad range of new mathematical results produced by an internal frontier model. ⏎ We’ve been consulting with the independent Advisory Group on Mathematics and Artificial Intelligence at the Institute for Advanced Study, and we have drawn on their advice and⟩
 - 2107899150247616531 · 2026-10-07 · Introducing Intelligent UI, a new capability in ChatGPT for answering quickly with fully interactive user interfaces: ⟨Q @OpenAI: GPT-6 and Intelligent UI, now rolling out in ChatGPT for everyone. ⏎ Intelligent UI in ChatGPT delivers fast, interactive answers that make everyday questions more visual, complex topics easier to grasp, and interactive tools for your task available on the spot. [link]⟩
+- 2110063893016096831 · 2026-10-13 · 6 days and $40,000 of compute with GPT-5.6 Sol to find a critical vulnerability in Chrome, claiming Google’s first full-chain reward in 2026 for a vulnerability that would affect an estimated 1 billion users. ⏎ Highlights the opportunity for defenders to utilize these tools to ⟨Q @oegerikus: For the second time in Google Chrome’s history, Google awarded a $250,000 bounty for a full-chain exploit… to @XBOW. Here’s the full story: ⏎ At an all-hands at the start of 2026 in Malta, I set the team a crazy challenge. A full-chain exploit of Chrome by the annual Black Hat [link]⟩
+
+## @AnthropicAI
+
+- 2109795898909950247 · 2026-10-12 · Over the last few months, we’ve made significant progress in reducing the effectiveness of distillation attacks against Claude. ⏎ In this post, we explain how: [link]
+- 2110047081414987957 · 2026-10-13 · New on our Engineering blog: Creating in-house source control. ⏎ In May, we merged around 2,500 code changes per day. In September, we merged more than 30,000 per day. As a result, we became bottlenecked by developer infrastructure built for human (rather than agent) scale.
+- 2110289695888511368 · 2026-10-14 · We’ve opened an office in Singapore—our fifth in the Asia-Pacific region. We’ve also signed an MOU with the Government of Singapore on AI safety and responsible adoption. ⏎ You can read more about our new office here: [link]
+- 2110720940665372825 · 2026-10-15 · Applications are now open for two new Anthropic Fellowships. ⏎ STEM Fellows (science and engineering) and Conceptual Reasoning Fellows (philosophy, cognitive science, economics, policy, and law) will spend four months at Anthropic from January 2027, working to help Claude reason
+- 2110784662071398807 · 2026-10-15 · We’ve committed to having evaluators assess our safety practices. We're in discussions with multiple organizations, and have now given employee-like access to a team from @METR_Evals. ⏎ In this post, we describe how we work with third-party evaluators: [link]
+- 2110846112152105136 · 2026-10-15 · Working out how best to use AI in mathematics research—and in science more generally—will take time, effort, and resources. We’re eager to support mathematicians as they drive scientific progress and define the future of their field. ⏎ We’ve committed $5 million of funding, ⟨Q @SimonsFdn: How can the math community forge the best path forward in the AI age? We're committing $15M to workshops and initiatives — plus free AI computing resources for foundation-supported researchers — through new partnerships with @AnthropicAI and @OpenAI: [link]⟩
+- 2111152183240511640 · 2026-10-16 · New from our STEM Fellows Program: Designing more efficient quantum circuits with Claude. ⏎ Given plain-language instructions, Claude Mythos 5 designed quantum circuits that improve on the best published ones, sometimes by an order of magnitude or more. ⏎ More efficient circuits
 
 ## @jackclarkSF
 
@@ -74,6 +101,14 @@ R is a receipt candidate, L a lead to check, C context for an existing entry, O 
 - 2107136440731898215 · 2026-10-05 · thread · This is also just a straight up great writing prompt - what would it mean to steal something in a post-singularity future? Who is the team? What are the security systems? How do the police work? great stuff!  Session was chatham house so I can't name who said it.
 - 2107155178046845226 · 2026-10-05 · thread · To be agonizingly clear, the context of this quote was people talking about imagining things in the future, and noting that even though the singularity is confusing, it's possible to imagine things beyond it - like heists.
 - 2107156480839520385 · 2026-10-05 · ↩@yfilipch · @yfilipch and now it's ocean's ONE MILLION
+
+## @OpenAINewsroom
+
+- 2110095403198849132 · 2026-10-13 · We discovered a sophisticated recording device that was hidden inside one of our offices. We used our models to understand the device and where it had come from, identifying that a specific employee had planted it a few days earlier. We referred the matter to the FBI, and we’re
+
+## @FoundationOAI
+
+- 2110378055843934368 · 2026-10-14 · Today, OpenAI Foundation and @RockefellerFdn are launching Cities Deliver: AI Solutions for Public Services, a $50 million initiative to support organizations that can help cities put AI to work on the problems their residents face every day. ⏎ Through a global open call, Cities
 
 ## @btaylor
 
@@ -119,6 +154,17 @@ R is a receipt candidate, L a lead to check, C context for an existing entry, O 
 - 2109812216212099456 · 2026-10-13 · Day 8/ Reset
 - 2109812360596865224 · 2026-10-13 · thread · Global reset landing by EOD PST time. Enjoy
 - 2109873287853707513 · 2026-10-13 · What would you like with your side of reset? It's done. ⟨Q @thsottiaux: Global reset landing by EOD PST time. Enjoy⟩
+- 2110151690641154499 · 2026-10-13 · Day 8/ ⏎ We've rolled out optimizations to how we store state on disk for the chatgpt &amp; codex desktop app that should reduce the amount stored on disk by 60%. Small ship but we've heard enough feedback about power users running out of disk space.
+- 2110151780478927344 · 2026-10-13 · Day 9/ ⏎ We've rolled out optimizations to how we store state on disk for the chatgpt &amp; codex desktop app that should reduce the amount stored on disk by 60%. Small ship but we've heard enough feedback about power users running out of disk space.
+- 2110595484180214059 · 2026-10-15 · The reports of my reset button being lost are greatly exaggerated ⏎ Day 10/ Reset
+- 2110595554036400151 · 2026-10-15 · thread · Landing within the next 2 hours
+- 2110618732666257557 · 2026-10-15 · Done and dusted ⟨Q @thsottiaux: Landing within the next 2 hours⟩
+- 2110750421367287996 · 2026-10-15 · Day 11/ ⏎ We've landed a series of changes and more compute to very significantly decrease the occurrence of the disruptive "Selected model is at capacity. Please try a different model". When it does happen, it should also eventually just continue by itself and not just block on
+- 2110971985417441512 · 2026-10-16 · Either we are out of ideas or we are cooking. Time will tell
+- 2111244596131111253 · 2026-10-16 · Day 12/ ⏎ We’ve made improvements to Codex &amp; Work that increase the effective usage you get. We achieved this by reusing context across subagents, keeping context cached longer, and improved request routing that allows us to increase cache hits.
+- 2111244957851984181 · 2026-10-16 · thread · We also significantly improved GPT-6 Pro for all pro users ⏎ [link] ⟨Q @OpenAI: GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools. ⏎ And now, multiple agents can tackle different parts of a task in parallel. You can follow each agent’s progress and open completed tasks to review their work. ⏎ Now available to⟩
+- 2111245052513259606 · 2026-10-16 · thread · And update your app to enjoy this gem ⏎ [link] ⟨Q @Gavmn: Dots, now on your Home Screen [link]⟩
+- 2111249534072529256 · 2026-10-17 · What is ChatGPT Space, that is the question. Endearingly awkward at times because it's the actual team working on it. What would you like to see next? [link]
 
 ## @jachiam0
 
@@ -131,6 +177,9 @@ R is a receipt candidate, L a lead to check, C context for an existing entry, O 
 ## @hlntnr
 
 - 2108232863158354021 · 2026-10-08 · Good thing none of the major players in the industry have "AI" in their name, that would have been awkward ⟨Q @Dareasmunhoz: Anyone who uses AI rather than SI is the “ENEMY” according to TRUMP [link] [link]⟩
+- 2109720588545597508 · 2026-10-12 · Unfortunate for someone playing a senior role in US AI policy (via the new SI Force) to get so many basic facts wrong here. ⏎ - The agents *were* sandboxed, and used zero days (ie previously unknown cyber flaws) to escape their sandboxes ⏎ - The agents *were* given specific ⟨Q @jawwwn_: Palantir CTO @ssankar on the OpenAI - Hugging Face incident: ⏎ "The models did not do anything they were not instructed to do." ⏎ "First you have human error. They were not in a sandbox. They had access to the internet. It was a horrible cybersecurity configuration." ⏎ "Then from [link]⟩
+- 2109720592232390950 · 2026-10-12 · thread · Best place to start is of course METR's investigation - ideally the first 20 pages, but at least p2-4: ⏎ [link]
+- 2110387450929418625 · 2026-10-14 · thread · In response to all the comments about how the sandbox wasn't a sandbox ⏎ [link] ⟨Q @RomeoLupascu: @dromanocpm You are talking about Airgapped environments. ⏎ By the way. The word "sandbox" doesn't by default carry the need for isolation of any kind. What it actually means is an environment separate from the production environment where tests can be executed by developers or QA. ⏎ A sandbox⟩
 
 ## @Miles_Brundage
 
@@ -171,6 +220,8 @@ R is a receipt candidate, L a lead to check, C context for an existing entry, O 
 - 2108271558170976743 · 2026-10-08 · thread · Claude Motion turns reports, charts, or product walkthroughs into short animations. Claude writes each one as code, with no video model involved, so you can change any word, number, or timing, then export an MP4. ⏎ In beta on Team and Enterprise plans. [link]
 - 2108271559928389679 · 2026-10-08 · thread · Starting today, Claude Docs, Slides, and Design are out of beta and available on every plan including Free. ⏎ Your team and Claude can edit the same doc, deck, or design together.
 - 2108271561337606300 · 2026-10-08 · thread · When a question needs deeper analysis, send the dashboard to your analytics tool. When an animation needs finishing touches, open it in your video editor. ⏎ See the full list of supported tools: [link]
+- 2111177834127601902 · 2026-10-16 · Six projects from the last few weeks that caught our attention: ⏎ A wildfire analysis prototype that maps the fire’s spread over time and tracks hot spots, made with Opus 5.5. [link]
+- 2111177845846495646 · 2026-10-16 · thread · Haiku 5.5 wrote twenty haiku, then drew every frame in JavaScript. ⏎ [link]
 
 ## @mikeyk
 
@@ -180,6 +231,7 @@ R is a receipt candidate, L a lead to check, C context for an existing entry, O 
 
 - 2107535565159899600 · 2026-10-06 · In this interview I tried to argue that a post-scarcity society will benefit working people. It was largely a rhetorical failure. People don’t trust that the benefits will be distributed, and tech optimists have to fix this communications issue. ⟨Q @TheDailyShow: Former Anthropic researcher Jacob Coxon (@hilbertspaess) and Jon Stewart discuss AI, jobs disappearing, universal income, and whether tech CEOs are creating a dystopian future [link]⟩
 - 2108012816942903701 · 2026-10-08 · ↩@gmiller · @gmiller Thanks for pleasant response. I’m also torn about the dignity of work and was pushing back against the idea that the “luxury utopia” is inherently ridiculous. I’m far less able to opine on this than the short-term dangers of superintelligence. ⏎ That said, I know for a fact that
+- 2110122506178937184 · 2026-10-13 · AI planned it (poorly); AI solved it. Soon everything looks like this at increasing levels of sophistication. ⟨Q @OpenAINewsroom: We discovered a sophisticated recording device that was hidden inside one of our offices. We used our models to understand the device and where it had come from, identifying that a specific employee had planted it a few days earlier. We referred the matter to the FBI, and we’re⟩
 
 ## @OpenAIDevs
 
@@ -198,6 +250,8 @@ R is a receipt candidate, L a lead to check, C context for an existing entry, O 
 - 2108624138369929725 · 2026-10-09 · Now in beta: composer predictions in Codex for Pro users. ⏎ Codex can now suggest your next message based on your conversation and how you talk to it. ⏎ One of the most loved new features we've ever tested internally. [link]
 - 2108624150344646752 · 2026-10-09 · thread · Available in beta for Pro users in the Codex desktop app, for local tasks. ⏎ Hit “Tab” to accept a suggestion, edit it if needed, then send. ⏎ You can turn composer predictions off in Settings. ⏎ [link]
 - 2109716341490106869 · 2026-10-12 · Annotations paired with WebMCP give your agents more context to act on. ⏎ Check out how @kagigz uses custom annotation controls and suggested prompts to help users edit scenes and update expenses in ChatGPT’s browser. [link]
+- 2111142258867335430 · 2026-10-16 · Building apps with GPT-Live-1? Give them a voice that fits. ⏎ Here’s how to shape a voice with a prompt or choose from new international preset voices: [link]
+- 2111142271177621603 · 2026-10-16 · thread · The nine new presets were created with native-speaking actors in French, German, Hindi, Japanese, and Korean. ⏎ Check out our guide to get started: ⏎ [link]
 
 ## @embirico
 
@@ -211,6 +265,10 @@ R is a receipt candidate, L a lead to check, C context for an existing entry, O 
 
 - 2107547999958384890 · 2026-10-06 · Putting this here for future reference. [link]
 
+## @JacobHHilton
+
+- 2111143731579752909 · 2026-10-16 · Language models are getting much, much harder to fully understand with scale, not easier! (Thread) ⟨Q @JacobHHilton: Hey @nickcammarata, have you interpreted my 432-parameter model yet? Do you think you'll manage it by year end? That's 4 hours per parameter [link]⟩
+
 ## @NotTomBrown
 
 - 2107853200913203351 · 2026-10-07 · ↩@KatieMiller · @KatieMiller Hall of Fame community note [link]
@@ -220,6 +278,14 @@ R is a receipt candidate, L a lead to check, C context for an existing entry, O 
 
 - 2109361082217402758 · 2026-10-11 · Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less "two groups of people speaking past each other" and more a sharp funnel. ⏎ - Napkin math somewhere around 6B people (~75% of the population) have barely come ⟨Q @karpathy: Judging by my tl there is a growing gap in understanding of AI capability. ⏎ The first issue I think is around recency and tier of use. I think a lot of people tried the free tier of ChatGPT somewhere  last year and allowed it to inform their views on AI a little too much. This is⟩
 - 2109361546505966046 · 2026-10-11 · Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less "two groups of people speaking past each other" and more a sharp funnel. ⏎ - Napkin math somewhere around 6B people (~75% of the population) have barely come ⟨Q @karpathy: Judging by my tl there is a growing gap in understanding of AI capability. ⏎ The first issue I think is around recency and tier of use. I think a lot of people tried the free tier of ChatGPT somewhere  last year and allowed it to inform their views on AI a little too much. This is⟩
+
+## @JasonDClinton
+
+- 2110116346143138114 · 2026-10-13 · ai security discourse: “have you considered attackers telepathically remote viewing quantum vibrations in fiber links to steal weights?” ⏎ me: *blinking* “we should replace the screen door on the back of the nuclear reactor first” ⏎ may every lab be blessed with attacks this dumb: ⟨Q @KelseyTuoc: More information in the SF Standard: [link] [link]⟩
+
+## @logangraham
+
+- 2109755143017406557 · 2026-10-12 · Exciting work from @willzhou97 (Fellow, now full time!) and @bucketofkets on the Frontier Red Team. One of the cool parts of the job is seeing a future world early. We think this one is ~pretty underpriced. ⏎ "We should aim to harden our systems to make it difficult for such ⟨Q @AndrewCurran_: Anthropic's Frontier Red Team believes small AI models may now be months away from being capable of self replicating without access to a datacenter. ⏎ Quoting from the blog: ⏎ 'The capabilities that make AI models generally powerful coding agents also generalize to cyber tasks, [link]⟩
 
 ## @alexalbert__
 
@@ -232,3 +298,4 @@ R is a receipt candidate, L a lead to check, C context for an existing entry, O 
 - 2107565497680314831 · 2026-10-06 · thread · Another example, my actual prompts [link] ⟨Q @bcherny: I used Opus 5.5 to formally verify the Claude Agent SDK using Lean. A couple short prompts = 16 PRs fixing various bugs and race conditions. Video attached. ⏎ TLA+ also works well. I sometimes combine Lean and TLA+ to look for issues around data flow, concurrency, and state mgmt. [link]⟩
 - 2107909939025052107 · 2026-10-07 · Haiku 5.5 is a good Haiku. ⏎ With 100k token context, it's also 10x cheaper than Haiku 4.5 ⟨Q @claudeai: Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released. ⏎ On average, it costs around 75% less to run than Claude Haiku 4.5. [link]⟩
 - 2108768259516281038 · 2026-10-10 · ↩@codingmenace · @codingmenace @lydiahallie @Greg_TheBuilder API is usually used for Agent SDK shaped workloads, where 1h TTL would result in higher costs on average, so we stick to 5m to be safe. Interactive usage defaults to 1h because that is cheaper for people on average. ⏎ This works for most people, but it is not perfect, so you can
+- 2110791643029020985 · 2026-10-15 · Over the last few years, we have made significant progress on prompt injection for Claude models. As agents do more, it is increasingly urgent that we solve it across the industry. ⏎ Really excited to partner with Gray Swan to host this competition. Excited to see what you find! ⟨Q @GraySwanAI: Is prompt injection solved? Here’s $300,000 to find out. ⏎ In partnership with @AnthropicAI, @Meta, @GoogleDeepMind, @Reflection_ai and our other frontier lab sponsors, @GraySwanAI is excited to announce the largest and most realistic AI red teaming challenge to date. ⏎ Indirect [link]⟩
