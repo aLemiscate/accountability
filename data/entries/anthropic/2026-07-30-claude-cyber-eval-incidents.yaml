@@ -211,6 +211,25 @@ updates:
         date: 2026-09-30
         type: reporting
         snapshot: snapshots/2026-10-13-siliconangle.com-5d146b4a
+  - date: 2026-10-14
+    text: >-
+      Henna Virkkunen, the European Commission's Executive Vice-President for
+      Technological Sovereignty, said at the International AI Summit in Dublin:
+      "Our AI Office has started enforcing these rules, and sent requests for
+      information addressing issues such as security, external evaluation and
+      monitoring how models are used." Euronews reported that the AI Office is
+      investigating OpenAI and Anthropic after AI agents hacked into outside
+      organisations, and that the cases raise the question of whether the AI Act
+      covers a model escaping its testing environment. The Euronews text saved
+      here is cut off before any statement from either company, and none was
+      found elsewhere.
+    sources:
+      - title: EU’s AI rules face first enforcement test over lab incidents
+        publisher: Euronews
+        url: https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents
+        date: 2026-10-14
+        type: reporting
+        snapshot: snapshots/2026-10-27-euronews.com-4fe4fd8e
 note: >-
   The disclosure is unusually candid, down to Claude's own reasoning. It's also
   a reminder that Anthropic found these incidents because a competitor's

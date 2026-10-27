@@ -15,7 +15,7 @@ summary: >-
   deployed models, and to grade itself in public.
 concreteness: aspirational
 status: open
-last_checked: 2026-10-13
+last_checked: 2026-10-27
 breaks_if: >-
   Roadmap goals are missed without a public grade; Risk Reports don't appear on
   the stated schedule; or goals are quietly rewritten between versions (compare
@@ -80,6 +80,30 @@ updates:
         url: https://www.anthropic.com/responsible-scaling-policy
         type: primary
         snapshot: snapshots/2026-09-29-anthropic.com-afe1e125
+  - date: 2026-10-19
+    text: >-
+      The roadmap's change log recorded a batch of changes. It retired the
+      alignment goal "Upholding Claude’s Constitution," which had an Oct. 1,
+      2026 target and promised a systematic oversight process over training data
+      and systematic alignment assessments: "We are retiring this goal in its
+      current form while we spend more time reflecting on which goals are most
+      effective for alignment." What stays is the pledge to update the public
+      Constitution within 90 days of a deployment. On the "moonshot" security
+      project, whose first phase was due Sept. 30, Anthropic graded itself: "We
+      believe we broadly achieved the substantive components of the first goal,"
+      while saying most of the effort went to prototype environments and "did
+      not focus on commensurate physical security controls, in favor of other
+      work." It also reported finishing its internal red-teaming goal ahead of
+      the Jan. 1, 2027 target, and added datacenter physical security and
+      platform security goals. All of it was announced on the page itself, in
+      public, the way the entry's test asks for.
+    sources:
+      - title: Anthropic's Frontier Safety Roadmap (updates log, October 19, 2026)
+        publisher: Anthropic
+        url: https://www.anthropic.com/responsible-scaling-policy/roadmap
+        date: 2026-10-19
+        type: primary
+        snapshot: snapshots/2026-10-27-anthropic.com-1ed0df7d
 related: [2026-05-26-rsp-v3-3-bio-threshold, 2026-08-14-risk-report-classifier-gap]
 note: >-
   The company sets the goals and grades them. The check is whether the grades

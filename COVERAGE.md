@@ -1,6 +1,6 @@
 # What the record covers
 
-As of October 14, 2026. This file says where the record's entries came from,
+As of October 27, 2026. This file says where the record's entries came from,
 what the latest reviews added, how the two companies compare, and what may
 still be missing. The October fairness review ran in seven workstreams, each
 with its own section below: spoken claims, commitments in formal documents,
@@ -14,17 +14,17 @@ lobbying and political money, and the industry baseline. The rules for what coun
 | | Said | Did | Total |
 | --- | --: | --: | --: |
 | OpenAI | 62 | 54 | 116 |
-| Anthropic | 37 | 30 | 67 |
-| **Total** | **99** | **84** | **183** |
+| Anthropic | 40 | 30 | 70 |
+| **Total** | **102** | **84** | **186** |
 
 Status of the "said" entries:
 
 | | Standing | Kept | Eroded | Contradicted | Broken | Reversed |
 | --- | --: | --: | --: | --: | --: | --: |
 | OpenAI | 23 | 8 | 13 | 6 | 4 | 8 |
-| Anthropic | 19 | 6 | 3 | 5 | 3 | 1 |
+| Anthropic | 22 | 6 | 3 | 5 | 3 | 1 |
 
-147 of the 148 quotes whose sources have a saved snapshot match that text word
+150 of the 151 quotes whose sources have a saved snapshot match that text word
 for word. The other is Altman's November 2023 remark on voice cloning, quoted
 from the event's audio (the saved page is the event listing). For one quote, the White House
 accord, the text exists only as an image, and the match is against a
@@ -336,6 +336,40 @@ Follow-ups to the October 13 audit, in six parts.
   quoted words stay as spoken). A weekly news sweep runs as a scheduled Claude
   Code session every Monday at 06:46 UTC and opens a pull request for review;
   [inbox/news/README.md](inbox/news/README.md) says what each run reports.
+
+## What the October 27 news sweep added
+
+Window: October 14 to 27. Details, searches and leads are in
+[inbox/news/2026-10-27.md](inbox/news/2026-10-27.md).
+
+- **Anthropic's public S-1.** Anthropic, PBC filed a Form S-1 on EDGAR on
+  October 26 (Nasdaq, "ANT"; no price range yet). It is the first public
+  registration statement by either company; OpenAI has none. The main
+  document is 14 MB, over the fetch limit of the sweep's tools, and the SEC
+  refuses undeclared automated requests, so it has not been read; nothing from
+  it is in the record yet. Anthropic's own announcement, its October 18 Public
+  Benefit Fund post and the first two pages of its charter exhibit were read.
+- **New entries (3, all Anthropic, all standing):** the Public Benefit Fund
+  (5% of shares, none of that equity for lobbying or political giving, subject
+  to stockholder approval); the midterms post (official voting information
+  "later this month," live results on election night, due Nov. 3); and the
+  roadmap's two new policy goals (an evaluator policy proposal by Dec. 15 and a
+  pace-of-development framework or an explanation by Jan. 15).
+- **Updates (5):** the Hugging Face and Claude cyber-evaluation entries (the
+  EU AI Office's requests for information, Oct. 14); the embedded-evaluators
+  promise (Anthropic's METR arrangement, Oct. 15); the roadmap's graded-goals
+  entry (the Constitution goal retired, the security moonshot self-graded,
+  Oct. 19); and the log of policy page changes (OpenAI's usage policy of
+  Oct. 21, effective Nov. 20, which bans using its outputs to train
+  substitute models and adds law enforcement and its national security
+  principles).
+- **Same standard.** Both companies changed their usage policies in the
+  window and both published election plans; OpenAI's election page returned 403
+  to this sweep's tools, so only Anthropic's plan is recorded, and the gap is
+  logged as a lead.
+- **Reading queue.** 165 posts by 30 accounts were read and logged; the
+  queue is empty. Two of the follow-ups (the watermark and the Pro limits poll)
+  sit in the still-open pull request #25 and were not duplicated.
 
 ## The two companies side by side
 

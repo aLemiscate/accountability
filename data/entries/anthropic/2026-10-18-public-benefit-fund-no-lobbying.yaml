@@ -1,0 +1,51 @@
+title: Anthropic commits 5% of its shares to a Public Benefit Fund, and says none
+  of that equity will go to lobbying or political giving
+date: 2026-10-18
+org: anthropic
+type: said
+kind: commitment
+who: [anthropic]
+venue: Announcement, "Investing in the public benefit"
+quote: >-
+  None of the Anthropic equity held by the LLC will be used for lobbying or
+  political giving, in the US or abroad.
+summary: >-
+  Anthropic said it was committing a portion of its shares to the Anthropic
+  Public Benefit Fund, a new wholly owned LLC. "Subject to stockholder
+  approval," 5% of its shares would be committed, with another 2% added at the
+  board's discretion for every 50% increase in the company's value above a set
+  baseline. It said the Fund would be an LLC rather than a 501(c)(3) to allow
+  "adjustability between different forms of giving," and that, with its
+  co-founders' pledge to give 80% of their equity and its employee equity-match
+  program, roughly 20% of its shares would be dedicated to the public good. The
+  Fund's structure, governance and valuation milestones were left for "the
+  coming months." The post came eight days before Anthropic filed publicly for
+  its IPO.
+concreteness: measurable
+status: open
+last_checked: 2026-10-27
+breaks_if: >-
+  Stockholders do not approve the commitment, or the 5% is cut or delayed
+  without public notice; the Fund's governance is not published; or any of the
+  Fund's Anthropic equity, or proceeds from it, is spent on lobbying or
+  political giving in the US or abroad.
+patterns: [mission-to-market]
+related:
+  [
+    2026-02-12-public-first-action-donation,
+    2025-10-28-foundation-controls-pbc,
+    2026-03-24-foundation-spend-1-billion
+  ]
+sources:
+  - title: Investing in the public benefit
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/public-benefit-fund
+    date: 2026-10-18
+    type: primary
+    snapshot: snapshots/2026-10-27-anthropic.com-a0595c81
+note: >-
+  Recorded beside the OpenAI Foundation's stake and spending pledges, which are
+  held to the same test. The "subject to stockholder approval" clause matters
+  here: the post does not say who votes or when. Anthropic has also
+  given to political groups (see related), so the lobbying exclusion covers only
+  the Fund's equity, not the company's own spending.

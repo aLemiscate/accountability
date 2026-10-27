@@ -24,7 +24,7 @@ summary: >-
   day.
 concreteness: measurable
 status: open
-last_checked: 2026-10-13
+last_checked: 2026-10-27
 due: '2027-03'
 breaks_if: >-
   No embedded team with the described access is working inside Anthropic by
@@ -135,6 +135,30 @@ updates:
         date: 2026-09-29
         type: primary
         snapshot: snapshots/2026-09-29-x.com-74712772
+  - date: 2026-10-15
+    text: >-
+      Anthropic said it had started to give "employee-like access" to a team
+      from METR: six METR employees with company hardware, office space, and
+      access to internal tools and systems "roughly on par with what our own
+      risk assessment teams have access to." METR will publish its analysis of
+      Anthropic's risk levels, incidents and practices. In Anthropic's words,
+      "Anthropic can’t veto publication, but we can require them to redact
+      information if it falls into predefined categories such as reproducing
+      confidential IP", and Anthropic decides what falls into those categories,
+      though METR reserves the right to make certain statements about the access
+      it received. Anthropic described three tiers of evaluator access, with
+      METR at the third; SecureBio and Accenture are working with it as
+      evaluators, and it is "in early discussions" with others, including
+      Hugging Face. The post sets aside a few categories (customer data,
+      attorney-client privileged information, model architectures) from what
+      employees are encouraged to share with the METR team.
+    sources:
+      - title: An update on independent evaluators
+        publisher: Anthropic
+        url: https://www.anthropic.com/news/an-update-on-independent-evaluators
+        date: 2026-10-15
+        type: primary
+        snapshot: snapshots/2026-10-27-anthropic.com-c3f9aa1e
 note: >-
   Seven months earlier, Anthropic dropped its pause pledge. Its chief science
   officer said then that unilateral commitments made little sense "if
