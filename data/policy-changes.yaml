@@ -93,6 +93,33 @@
       change: Apostrophes only.
       notice: n/a
       disclosure: n/a
+    - date: 2026-10-21
+      when: 2026-10-21 (effective November 20, 2026)
+      change: >-
+        New version. Adds a section on training and developing models that bars using
+        OpenAI models or their outputs to generate, select, label or score training
+        material for models intended as alternatives to or substitutes for OpenAI's, and
+        bars attempts to extract protected reasoning (research, evaluation and product
+        development stay allowed). The national security rule gains law enforcement
+        (before: national security or intelligence uses without OpenAI's review and
+        approval), and a new OpenAI-approved use section folds in its Principles for
+        National Security Partnerships, saying uses must preserve human judgment over
+        high-stakes decisions, including the use of force, and must not enable mass
+        domestic surveillance. The ban on tailored licensed advice (legal, medical) now
+        covers building or offering AI tools that give others such advice, and adds that
+        the AI may not be presented as holding professional credentials. The minors
+        section is split into child sexual abuse and exploitation and teens' use; the
+        high-stakes-decisions rule now covers actions, transactions and submissions, not
+        only decisions; and operators of model-access intermediaries must get OpenAI's
+        prior review and approval. Fetched from the page on October 26, 2026 (the
+        weekly watcher's diff); not yet in the archived texts this log quotes from.
+      notice: >-
+        Changelog on the page, dated October 21 ("clarify restrictions on using OpenAI
+        models and outputs to train other models," clarified protections for children
+        and teens, and national security and law enforcement approval requirements).
+        Anthropic's October 8 update (see its page) likewise tightened its weapons and
+        surveillance language. Related: `2026-03-02-pentagon-surveillance-prohibition`
+      disclosure: page
 - page: openai-terms-of-use
   org: openai
   title: OpenAI terms of use

@@ -253,8 +253,14 @@ GPT-5.6 Sol's restricted launch, and Astra's "recurrent depth" design.
 - Paul Christiano (@sama [569783](https://x.com/sama/status/2097776310940569783)): already in `openai/2025-10-28-foundation-controls-pbc` (Foundation board and Safety and Security Committee).
 - GPT-6.1 Astra held back for deception (TechCrunch, Sept. 28): added to `openai/2025-05-02-behavior-issues-block-launches`, which stays standing, with one case each way.
 
+- Text watermarking (@OpenAI [101695](https://x.com/OpenAI/status/2107164650249101695), Oct 5, 2026): OpenAI's textGrain watermark for ChatGPT and Codex text in the EU, API opt-in, detector for approved researchers. The update to `openai/2023-01-31-ai-text-detection-improved-methods` is in open pull request #25; this sweep did not duplicate it.
+- Independent evaluators (@AnthropicAI [784662](https://x.com/AnthropicAI/status/2110784662071398807), Oct 15, 2026): Anthropic's employee-like access for a METR team and its three tiers, added to `anthropic/2026-09-12-pace-the-frontier-embedded-evaluators`. OpenAI's matching promise (`openai/2026-09-12-altman-independent-evaluators`) was rechecked and nothing had been announced by Oct 27.
+- Pro limits (@thsottiaux [152716](https://x.com/thsottiaux/status/2109152716954222849) and [439315](https://x.com/thsottiaux/status/2109439315570999598), Oct 11 and 12): the poll on bringing back 5h limits, in open pull request #25 under `openai/2026-09-29-sottiaux-pro-subscription-guarantee`.
+
 ### No record change, and why
 
+- Genesis Mission pledge (@AnthropicAI [809081](https://x.com/AnthropicAI/status/2108226292235809081), Oct 8, 2026): $150 million over three years. The October 14 pass already left it out, with Anthropic's $100 million engineer academy, as a spending pledge with no dated test; OpenAI's matching pledges are left out on the same ground.
+- Claude Startups offers paused (@claudeai [349695](https://x.com/claudeai/status/2108404561413349695), Oct 9, 2026): covered by `anthropic/2026-10-06-claude-startups-credits-on-approval` in open pull request #25.
 - Anthropic reward-hacking paper (@AnthropicAI, 7 posts, Nov 2025): research on a model trained for the study, with no claim about released models. The Anthropic counterpart to OpenAI's chain-of-thought disclosure is the April 2026 training error above.
 - Leading the Future statement (@w01fe [858586](https://x.com/w01fe/status/2061649344814858586)): OpenAI's June 2 statement was already in `openai/2025-08-25-leading-the-future-super-pac`. Its updates were put back in date order.
 - PR firm with fake reporters (@sjgadler [437960](https://x.com/sjgadler/status/2047708302323437960)): the link to Leading the Future runs through a PR firm whose client's CEO co-founded the PAC. Even the outlets that reported it call it circumstantial. Recorded if reporting ties the site to the PAC or OpenAI directly.
@@ -273,8 +279,11 @@ GPT-5.6 Sol's restricted launch, and Astra's "recurrent depth" design.
 Logged as leads and not yet worked. The weekly news sweep follows these up;
 move each to a section above once it is resolved.
 
-- Text provenance and watermarking (@OpenAI [101695](https://x.com/OpenAI/status/2107164650249101695), Oct 5, 2026): OpenAI says text watermarking has "significant limitations". Check against 2024 reporting that it held back a text watermark it had built.
-- Genesis Mission pledge (@AnthropicAI [809081](https://x.com/AnthropicAI/status/2108226292235809081), Oct 8, 2026): $150 million over three years, and Claude for more than 15 federal agencies. A new dated pledge.
-- Claude Startups offers paused (@claudeai [349695](https://x.com/claudeai/status/2108404561413349695), Oct 9, 2026): the Team plan and $1,000 API credit offers paused days after launch because demand was underestimated.
-- "You can't do safety from second place" (quoted by @RichardMCNgo [227757](https://x.com/RichardMCNgo/status/2105674330009227757), Oct 1, 2026): attributed to Sarah Heck, Anthropic's Head of Public Policy. Find her post, confirm the role, and weigh it against the race clause.
-
+- "You can't do safety from second place" (quoted by @RichardMCNgo [227757](https://x.com/RichardMCNgo/status/2105674330009227757), Oct 1, 2026): attributed to Sarah Heck, Anthropic's Head of Public Policy. Coverage (Unite.AI, in translation) places her remark at POLITICO's Decoded Summit on Sept. 16, 2026 and gives her title as head of public policy; the English wording and her post were not found. Weigh against the race clause once the wording is confirmed.
+- OpenAI's recording device (@OpenAINewsroom [198849](https://x.com/OpenAINewsroom/status/2110095403198849132), Oct 13, 2026): a hidden device found in an office, an employee referred to the FBI. No promise is involved; watch for a security or insider-risk claim it contradicts.
+- Math results (@OpenAI [713791](https://x.com/OpenAI/status/2107596713791767021), Oct 6, 2026): "a broad range of new mathematical results" from an internal model, with the Institute for Advanced Study's advisory group consulted. Outside verification and criticism not yet read; compare `openai/2026-09-08-navier-stokes-announcement`.
+- Distillation defenses (@AnthropicAI [898909](https://x.com/AnthropicAI/status/2109795898909950247), Oct 12, 2026) beside OpenAI's Oct 21 usage-policy ban on training on its outputs: both companies now restrict this; neither claim checked against what either did to others' data.
+- Quantum circuits (@AnthropicAI [511640](https://x.com/AnthropicAI/status/2111152183240511640), Oct 16, 2026): Claude Mythos 5 circuits "sometimes by an order of magnitude or more" better than published ones. A capability claim not yet checked.
+- OpenAI's 2026 election plan (page returned 403): reportedly AP live results "this fall" in the US and Brazil. Read it and record beside `anthropic/2026-10-14-midterms-voting-info-this-month`.
+- ICO and FTC (Oct 8 and Sept 30): aggregators say the UK ICO sent information requests to OpenAI, Anthropic and Meta; the ICO's own call-for-evidence page names none of them. Not recorded until a primary source does. The FTC probe is recorded already (Hugging Face and cyber-eval entries).
+- Anthropic's public S-1 (filed Oct 26): see inbox/news/2026-10-27.md; the main document could not be fetched from this session.

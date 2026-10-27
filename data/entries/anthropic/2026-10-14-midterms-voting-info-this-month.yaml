@@ -1,0 +1,42 @@
+title: Anthropic says Claude will start drawing official voting information
+  "later this month" and show live results on election night
+date: 2026-10-14
+org: anthropic
+type: said
+kind: commitment
+who: [anthropic]
+venue: Announcement, "Preparing for the 2026 US midterms"
+quote: >-
+  Later this month, Claude will start drawing official voting information from
+  Democracy Works into its responses on Claude.ai for users in the US.
+summary: >-
+  Ahead of the Nov. 3 midterms Anthropic said Claude.ai would start answering
+  where-to-vote and ID questions with state-specific official information from
+  Democracy Works "later this month," and that "Claude will begin showing up-to-date
+  results on election night and in the days that follow." It also reported that
+  Claude Opus 5.5, Sonnet 5.5 and Haiku 5.5 scored 99% on its political
+  evenhandedness evaluation, and that outside reviewers had found Claude
+  sometimes added unsolicited caveats and did not always hedge evenly. The
+  post followed by six days Anthropic's 2026 usage policy update, which
+  narrowed its elections section and dropped the blanket ban on personalized
+  vote and campaign targeting (effective Nov. 12).
+concreteness: measurable
+status: open
+last_checked: 2026-10-27
+due: '2026-11-03'
+breaks_if: >-
+  Claude.ai is not answering US voting questions from Democracy Works data by
+  Oct. 31, or does not show current official results when asked on election
+  night (Nov. 3) and the days after.
+patterns: [coming-weeks]
+sources:
+  - title: Preparing for the 2026 US midterms
+    publisher: Anthropic
+    url: https://www.anthropic.com/news/2026-us-midterms
+    date: 2026-10-14
+    type: primary
+    snapshot: snapshots/2026-10-27-anthropic.com-ad577cc4
+note: >-
+  A small, testable promise with a hard date. The same standard applies to
+  OpenAI, which published its own 2026 election plan; that page returned 403 to
+  this record's tools, so it is not recorded yet and is logged as a lead.

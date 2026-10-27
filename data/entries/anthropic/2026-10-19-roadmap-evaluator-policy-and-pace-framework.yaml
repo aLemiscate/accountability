@@ -1,0 +1,47 @@
+title: 'Standing promise: Anthropic will publish a policy proposal on embedded
+  evaluators by Dec. 15, and a framework on the pace of AI development, or an
+  explanation of why not, by Jan. 15'
+date: 2026-10-19
+org: anthropic
+type: said
+kind: commitment
+who: [anthropic]
+venue: Frontier Safety Roadmap, policy goals
+quote: >-
+  We are working on additional policy proposals that provide options for
+  policymakers to address the risks raised by the speed of AI development,
+  particularly under conditions of recursive self-improvement. We will either
+  publish a proposal or publish an explanation of why we decided not to.
+summary: >-
+  Replacing its completed "roadmap for policymakers" goal, Anthropic added two
+  dated policy goals to its Frontier Safety Roadmap. By Dec. 15, 2026 it will
+  "develop and publish a policy proposal on how governments can support deeper
+  access for independent evaluators," covering funding, access and independence.
+  By Jan. 15, 2027 it will publish a policy framework "for targeting the pace of
+  AI development," or an explanation of why it decided against one.
+concreteness: measurable
+status: open
+last_checked: 2026-10-27
+due: '2027-01-15'
+breaks_if: >-
+  No evaluator policy proposal is published by Dec. 15, 2026; or by Jan. 15,
+  2027 Anthropic has published neither a pace-of-development framework nor an
+  explanation of why it chose not to; or either goal is dropped or moved without
+  a note in the roadmap's change log.
+patterns: [unfalsifiable]
+related:
+  [
+    2026-09-12-pace-the-frontier-embedded-evaluators,
+    2026-02-24-rsp-v3-graded-goals
+  ]
+sources:
+  - title: Anthropic's Frontier Safety Roadmap (policy goals, October 19, 2026)
+    publisher: Anthropic
+    url: https://www.anthropic.com/responsible-scaling-policy/roadmap
+    date: 2026-10-19
+    type: primary
+    snapshot: snapshots/2026-10-27-anthropic.com-1ed0df7d
+note: >-
+  The second goal passes whether Anthropic publishes a framework or explains why
+  it won't, so only silence breaks it. The first is a firmer test of the "We
+  Must Pace the Frontier" essay's call for evaluators with real access.
