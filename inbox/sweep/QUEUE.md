@@ -1,6 +1,6 @@
 # Reading queue
 
-Built 2026-10-26. Every post an in-scope account wrote (from December 2015 on, with text) that has no decision yet. There is no topic filter: read each post in full, in context, and decide. Then record the decisions for an account with
+Built 2026-11-02. Every post an in-scope account wrote (from December 2015 on, with text) that has no decision yet. There is no topic filter: read each post in full, in context, and decide. Then record the decisions for an account with
 
 ```
 npm run reading-queue -- --log <account> < decisions.txt   # lines: "<post id> <R|L|C> <note>"; unlisted posts are recorded as O
@@ -8,13 +8,13 @@ npm run reading-queue -- --log <account> < decisions.txt   # lines: "<post id> <
 
 R is a receipt candidate, L a lead to check, C context for an existing entry, O nothing for the record. A claim is any notable public claim or promise the record covers: safety, ethics and policy, and also capabilities and benchmarks, features and release dates, usage limits and plan terms, promises about how a product behaves, and dated predictions. See [TRIAGE.md](TRIAGE.md).
 
-165 post(s) to read.
+167 post(s) to read.
 
 ## Unread
 
 | Account | Unread | Posted |
 | --- | --: | --- |
-| [@OpenAI](#openai) | 20 | 2026-10-05 to 2026-10-16 |
+| [@OpenAI](#openai) | 21 | 2026-10-05 to 2026-10-21 |
 | [@sama](#sama) | 8 | 2026-10-07 to 2026-10-16 |
 | [@gdb](#gdb) | 3 | 2026-10-07 to 2026-10-13 |
 | [@AnthropicAI](#anthropicai) | 7 | 2026-10-12 to 2026-10-16 |
@@ -33,7 +33,7 @@ R is a receipt candidate, L a lead to check, C context for an existing entry, O 
 | [@claudeai](#claudeai) | 20 | 2026-10-06 to 2026-10-16 |
 | [@mikeyk](#mikeyk) | 1 | 2026-10-07 to 2026-10-07 |
 | [@hilbertspaess](#hilbertspaess) | 3 | 2026-10-06 to 2026-10-13 |
-| [@OpenAIDevs](#openaidevs) | 17 | 2026-10-05 to 2026-10-16 |
+| [@OpenAIDevs](#openaidevs) | 18 | 2026-10-05 to 2026-10-19 |
 | [@embirico](#embirico) | 1 | 2026-10-07 to 2026-10-07 |
 | [@polynoamial](#polynoamial) | 1 | 2026-10-12 to 2026-10-12 |
 | [@RichardMCNgo](#richardmcngo) | 1 | 2026-10-06 to 2026-10-06 |
@@ -67,6 +67,7 @@ R is a receipt candidate, L a lead to check, C context for an existing entry, O 
 - 2110841901121511705 · 2026-10-15 · thread · Learn about the Rosalind Academic Plan, check your lab's eligibility, and find out how to apply: [link]
 - 2111185504746213705 · 2026-10-16 · GPT-6 Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools. ⏎ And now, multiple agents can tackle different parts of a task in parallel. You can follow each agent’s progress and open completed tasks to review their work. ⏎ Now available to Pro
 - 2111192259073094035 · 2026-10-16 · GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools. ⏎ And now, multiple agents can tackle different parts of a task in parallel. You can follow each agent’s progress and open completed tasks to review their work. ⏎ Now available to
+- 2112907856018309586 · 2026-10-21 · OpenAI models helped researchers—operating as part of our Patch the Planet initiative—discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of websites. ⏎ Over the past two months, we led a coalition of maintainers, researchers,
 
 ## @sama
 
@@ -252,6 +253,7 @@ R is a receipt candidate, L a lead to check, C context for an existing entry, O 
 - 2109716341490106869 · 2026-10-12 · Annotations paired with WebMCP give your agents more context to act on. ⏎ Check out how @kagigz uses custom annotation controls and suggested prompts to help users edit scenes and update expenses in ChatGPT’s browser. [link]
 - 2111142258867335430 · 2026-10-16 · Building apps with GPT-Live-1? Give them a voice that fits. ⏎ Here’s how to shape a voice with a prompt or choose from new international preset voices: [link]
 - 2111142271177621603 · 2026-10-16 · thread · The nine new presets were created with native-speaking actors in French, German, Hindi, Japanese, and Korean. ⏎ Check out our guide to get started: ⏎ [link]
+- 2112242739198959913 · 2026-10-19 · Here’s what we’re cooking with Codex: ⏎ [link]
 
 ## @embirico
 
