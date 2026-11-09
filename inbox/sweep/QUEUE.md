@@ -1,6 +1,6 @@
 # Reading queue
 
-Built 2026-11-02. Every post an in-scope account wrote (from December 2015 on, with text) that has no decision yet. There is no topic filter: read each post in full, in context, and decide. Then record the decisions for an account with
+Built 2026-11-09. Every post an in-scope account wrote (from December 2015 on, with text) that has no decision yet. There is no topic filter: read each post in full, in context, and decide. Then record the decisions for an account with
 
 ```
 npm run reading-queue -- --log <account> < decisions.txt   # lines: "<post id> <R|L|C> <note>"; unlisted posts are recorded as O
@@ -8,13 +8,13 @@ npm run reading-queue -- --log <account> < decisions.txt   # lines: "<post id> <
 
 R is a receipt candidate, L a lead to check, C context for an existing entry, O nothing for the record. A claim is any notable public claim or promise the record covers: safety, ethics and policy, and also capabilities and benchmarks, features and release dates, usage limits and plan terms, promises about how a product behaves, and dated predictions. See [TRIAGE.md](TRIAGE.md).
 
-167 post(s) to read.
+170 post(s) to read.
 
 ## Unread
 
 | Account | Unread | Posted |
 | --- | --: | --- |
-| [@OpenAI](#openai) | 21 | 2026-10-05 to 2026-10-21 |
+| [@OpenAI](#openai) | 22 | 2026-10-05 to 2026-10-26 |
 | [@sama](#sama) | 8 | 2026-10-07 to 2026-10-16 |
 | [@gdb](#gdb) | 3 | 2026-10-07 to 2026-10-13 |
 | [@AnthropicAI](#anthropicai) | 7 | 2026-10-12 to 2026-10-16 |
@@ -39,7 +39,7 @@ R is a receipt candidate, L a lead to check, C context for an existing entry, O 
 | [@RichardMCNgo](#richardmcngo) | 1 | 2026-10-06 to 2026-10-06 |
 | [@JacobHHilton](#jacobhhilton) | 1 | 2026-10-16 to 2026-10-16 |
 | [@NotTomBrown](#nottombrown) | 2 | 2026-10-07 to 2026-10-07 |
-| [@karpathy](#karpathy) | 2 | 2026-10-11 to 2026-10-11 |
+| [@karpathy](#karpathy) | 4 | 2026-10-11 to 2026-11-07 |
 | [@JasonDClinton](#jasondclinton) | 1 | 2026-10-13 to 2026-10-13 |
 | [@logangraham](#logangraham) | 1 | 2026-10-12 to 2026-10-12 |
 | [@alexalbert__](#alexalbert__) | 1 | 2026-10-07 to 2026-10-07 |
@@ -68,6 +68,7 @@ R is a receipt candidate, L a lead to check, C context for an existing entry, O 
 - 2111185504746213705 · 2026-10-16 · GPT-6 Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools. ⏎ And now, multiple agents can tackle different parts of a task in parallel. You can follow each agent’s progress and open completed tasks to review their work. ⏎ Now available to Pro
 - 2111192259073094035 · 2026-10-16 · GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools. ⏎ And now, multiple agents can tackle different parts of a task in parallel. You can follow each agent’s progress and open completed tasks to review their work. ⏎ Now available to
 - 2112907856018309586 · 2026-10-21 · OpenAI models helped researchers—operating as part of our Patch the Planet initiative—discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of websites. ⏎ Over the past two months, we led a coalition of maintainers, researchers,
+- 2114780711664398349 · 2026-10-26 · GPT-6.1 Terra: delivering fast and capable computer use at a lower price. ⏎ GPT-6.1 Terra understands what’s on screen, takes action across apps, writes naturally, and is a more capable model for your whole workday with the efficiency to take on more of it. [link]
 
 ## @sama
 
@@ -280,6 +281,8 @@ R is a receipt candidate, L a lead to check, C context for an existing entry, O 
 
 - 2109361082217402758 · 2026-10-11 · Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less "two groups of people speaking past each other" and more a sharp funnel. ⏎ - Napkin math somewhere around 6B people (~75% of the population) have barely come ⟨Q @karpathy: Judging by my tl there is a growing gap in understanding of AI capability. ⏎ The first issue I think is around recency and tier of use. I think a lot of people tried the free tier of ChatGPT somewhere  last year and allowed it to inform their views on AI a little too much. This is⟩
 - 2109361546505966046 · 2026-10-11 · Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less "two groups of people speaking past each other" and more a sharp funnel. ⏎ - Napkin math somewhere around 6B people (~75% of the population) have barely come ⟨Q @karpathy: Judging by my tl there is a growing gap in understanding of AI capability. ⏎ The first issue I think is around recency and tier of use. I think a lot of people tried the free tier of ChatGPT somewhere  last year and allowed it to inform their views on AI a little too much. This is⟩
+- 2116957135661945283 · 2026-11-01 · Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had Claude filter down 43M comments over 20 years of HN to 6,454 videos that keep being recommended. *Significantly* better viewing experience, ~2 hours with Opus 5.5: ⏎ [link] ⏎ - Excellent [link]
+- 2119152815444742594 · 2026-11-07 · RT @loresjpg: Nice DeepSWE score! Does it survive a lowercase filename? ⏎ Introducing MaxxBench: 89 DeepSWE tasks with small changes to the… [DELETED]
 
 ## @JasonDClinton
 

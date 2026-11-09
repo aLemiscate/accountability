@@ -110,6 +110,37 @@
     "via": "http"
   },
   {
+    "url": "https://time.com/7327946/chatgpt-openai-suicide-adam-raine-lawsuit/",
+    "entries": [
+      "2025-08-26-raine-lawsuit-safeguards-degrade"
+    ],
+    "archive": null,
+    "status": 406,
+    "result": "error",
+    "via": "http"
+  },
+  {
+    "url": "https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/",
+    "entries": [
+      "2026-02-24-rsp-v3-drops-pause",
+      "2026-09-12-pace-the-frontier-embedded-evaluators"
+    ],
+    "archive": "https://web.archive.org/web/20260928021612/https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/",
+    "status": 406,
+    "result": "error",
+    "via": "http"
+  },
+  {
+    "url": "https://time.com/collections/time100-companies-2024/6980000/anthropic-2/",
+    "entries": [
+      "2023-03-08-core-views-no-capabilities-acceleration"
+    ],
+    "archive": "https://web.archive.org/web/20260927040831/https://time.com/collections/time100-companies-2024/6980000/anthropic-2/",
+    "status": 406,
+    "result": "error",
+    "via": "http"
+  },
+  {
     "url": "https://web.archive.org/web/20230315002917/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
     "entries": [
       "2024-01-05-gpt-4-plus-cap-lowered"
@@ -120,51 +151,11 @@
     "error": "fetch failed"
   },
   {
-    "url": "https://web.archive.org/web/20230425181457/https://help.openai.com/en/articles/7730893-data-controls-faq",
-    "entries": [
-      "2026-01-16-ad-principles"
-    ],
-    "archive": "https://web.archive.org/web/20230425181457/https://web.archive.org/web/20230425181457/https://help.openai.com/en/articles/7730893-data-controls-faq",
-    "status": null,
-    "result": "error",
-    "error": "fetch failed"
-  },
-  {
     "url": "https://web.archive.org/web/20230606194140/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
     "entries": [
       "2024-01-05-gpt-4-plus-cap-lowered"
     ],
     "archive": "https://web.archive.org/web/20230606194140/https://web.archive.org/web/20230606194140/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
-    "status": null,
-    "result": "error",
-    "error": "fetch failed"
-  },
-  {
-    "url": "https://web.archive.org/web/20240105064512/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
-    "entries": [
-      "2024-01-05-gpt-4-plus-cap-lowered"
-    ],
-    "archive": null,
-    "status": null,
-    "result": "error",
-    "error": "fetch failed"
-  },
-  {
-    "url": "https://web.archive.org/web/20240106091424/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
-    "entries": [
-      "2024-01-05-gpt-4-plus-cap-lowered"
-    ],
-    "archive": null,
-    "status": null,
-    "result": "error",
-    "error": "fetch failed"
-  },
-  {
-    "url": "https://web.archive.org/web/20240124135643/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
-    "entries": [
-      "2024-01-05-gpt-4-plus-cap-lowered"
-    ],
-    "archive": "https://web.archive.org/web/20240124135643/https://web.archive.org/web/20240124135643/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
     "status": null,
     "result": "error",
     "error": "fetch failed"
@@ -259,7 +250,7 @@
     "archive": null,
     "status": null,
     "result": "error",
-    "error": "fetch failed"
+    "error": "timeout"
   },
   {
     "url": "https://www.cbsnews.com/news/openai-sam-altman-ousted-board-no-confidence-mira-murati/",
@@ -539,6 +530,16 @@
       "2026-09-12-pace-the-frontier-embedded-evaluators",
       "2026-09-29-anthropic-white-house-accord",
       "2026-09-29-white-house-accord"
+    ],
+    "archive": null,
+    "status": 403,
+    "result": "blocked",
+    "via": "http"
+  },
+  {
+    "url": "https://thehill.com/policy/technology/5334913-anthropic-ceo-ai-regulation-donald-trump-gop-megabill/",
+    "entries": [
+      "2024-08-21-anthropic-sb-1047-sb-53"
     ],
     "archive": null,
     "status": 403,
@@ -3804,16 +3805,6 @@
     "via": "http"
   },
   {
-    "url": "https://thehill.com/policy/technology/5334913-anthropic-ceo-ai-regulation-donald-trump-gop-megabill/",
-    "entries": [
-      "2024-08-21-anthropic-sb-1047-sb-53"
-    ],
-    "archive": null,
-    "status": 200,
-    "result": "ok",
-    "via": "http"
-  },
-  {
     "url": "https://theintercept.com/2024/01/12/open-ai-military-ban-chatgpt/",
     "entries": [
       "2024-01-10-military-ban-removed",
@@ -3907,37 +3898,6 @@
     "via": "http"
   },
   {
-    "url": "https://time.com/7327946/chatgpt-openai-suicide-adam-raine-lawsuit/",
-    "entries": [
-      "2025-08-26-raine-lawsuit-safeguards-degrade"
-    ],
-    "archive": null,
-    "status": 200,
-    "result": "ok",
-    "via": "http"
-  },
-  {
-    "url": "https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/",
-    "entries": [
-      "2026-02-24-rsp-v3-drops-pause",
-      "2026-09-12-pace-the-frontier-embedded-evaluators"
-    ],
-    "archive": "https://web.archive.org/web/20260928021612/https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/",
-    "status": 200,
-    "result": "ok",
-    "via": "http"
-  },
-  {
-    "url": "https://time.com/collections/time100-companies-2024/6980000/anthropic-2/",
-    "entries": [
-      "2023-03-08-core-views-no-capabilities-acceleration"
-    ],
-    "archive": "https://web.archive.org/web/20260927040831/https://time.com/collections/time100-companies-2024/6980000/anthropic-2/",
-    "status": 200,
-    "result": "ok",
-    "via": "http"
-  },
-  {
     "url": "https://transcripts.cnn.com/show/acd/date/2026-06-04/segment/01",
     "entries": [
       "2026-02-24-rsp-v3-drops-pause"
@@ -3963,6 +3923,46 @@
       "2023-11-06-gpt-store-make-money"
     ],
     "archive": "https://web.archive.org/web/20261003132911/https://virtualizationreview.com/articles/2026/09/28/openai-to-retire-custom-gpts-replace-them-with-plugins.aspx",
+    "status": 200,
+    "result": "ok",
+    "via": "http"
+  },
+  {
+    "url": "https://web.archive.org/web/20230425181457/https://help.openai.com/en/articles/7730893-data-controls-faq",
+    "entries": [
+      "2026-01-16-ad-principles"
+    ],
+    "archive": "https://web.archive.org/web/20230425181457/https://web.archive.org/web/20230425181457/https://help.openai.com/en/articles/7730893-data-controls-faq",
+    "status": 200,
+    "result": "ok",
+    "via": "http"
+  },
+  {
+    "url": "https://web.archive.org/web/20240105064512/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+    "entries": [
+      "2024-01-05-gpt-4-plus-cap-lowered"
+    ],
+    "archive": null,
+    "status": 200,
+    "result": "ok",
+    "via": "http"
+  },
+  {
+    "url": "https://web.archive.org/web/20240106091424/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+    "entries": [
+      "2024-01-05-gpt-4-plus-cap-lowered"
+    ],
+    "archive": null,
+    "status": 200,
+    "result": "ok",
+    "via": "http"
+  },
+  {
+    "url": "https://web.archive.org/web/20240124135643/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
+    "entries": [
+      "2024-01-05-gpt-4-plus-cap-lowered"
+    ],
+    "archive": "https://web.archive.org/web/20240124135643/https://web.archive.org/web/20240124135643/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4",
     "status": 200,
     "result": "ok",
     "via": "http"

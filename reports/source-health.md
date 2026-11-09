@@ -1,6 +1,6 @@
 # Source health
 
-Checked 881 sources on 2026-11-02: 782 ok, 6 gone, 68 blocked (bot protection or rate limit, usually fine), 25 errors.
+Checked 881 sources on 2026-11-09: 782 ok, 6 gone, 69 blocked (bot protection or rate limit, usually fine), 24 errors.
 
 | Result | HTTP | Source | Archived | Entries |
 | --- | --- | --- | --- | --- |
@@ -15,12 +15,11 @@ Checked 881 sources on 2026-11-02: 782 ok, 6 gone, 68 blocked (bot protection or
 | error | 419 | https://news.ycombinator.com/item?id=41920044 | [yes](https://web.archive.org/web/20250228174647/https://news.ycombinator.com/item?id=41920044) | 2024-06-20-claude-3-5-opus-later-this-year |
 | error | 419 | https://news.ycombinator.com/item?id=47664442 | [yes](https://web.archive.org/web/20261006003107/https://news.ycombinator.com/item?id=47664442) | 2026-04-23-claude-code-quality-postmortem |
 | error | 406 | https://time.com/6985504/openai-google-deepmind-employees-letter/ | no | 2024-05-22-exit-documents-signed |
+| error | 406 | https://time.com/7327946/chatgpt-openai-suicide-adam-raine-lawsuit/ | no | 2025-08-26-raine-lawsuit-safeguards-degrade |
+| error | 406 | https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/ | [yes](https://web.archive.org/web/20260928021612/https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/) | 2026-02-24-rsp-v3-drops-pause, 2026-09-12-pace-the-frontier-embedded-evaluators |
+| error | 406 | https://time.com/collections/time100-companies-2024/6980000/anthropic-2/ | [yes](https://web.archive.org/web/20260927040831/https://time.com/collections/time100-companies-2024/6980000/anthropic-2/) | 2023-03-08-core-views-no-capabilities-acceleration |
 | error | fetch failed | https://web.archive.org/web/20230315002917/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4 | [yes](https://web.archive.org/web/20230315002917/https://web.archive.org/web/20230315002917/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4) | 2024-01-05-gpt-4-plus-cap-lowered |
-| error | fetch failed | https://web.archive.org/web/20230425181457/https://help.openai.com/en/articles/7730893-data-controls-faq | [yes](https://web.archive.org/web/20230425181457/https://web.archive.org/web/20230425181457/https://help.openai.com/en/articles/7730893-data-controls-faq) | 2026-01-16-ad-principles |
 | error | fetch failed | https://web.archive.org/web/20230606194140/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4 | [yes](https://web.archive.org/web/20230606194140/https://web.archive.org/web/20230606194140/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4) | 2024-01-05-gpt-4-plus-cap-lowered |
-| error | fetch failed | https://web.archive.org/web/20240105064512/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4 | no | 2024-01-05-gpt-4-plus-cap-lowered |
-| error | fetch failed | https://web.archive.org/web/20240106091424/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4 | no | 2024-01-05-gpt-4-plus-cap-lowered |
-| error | fetch failed | https://web.archive.org/web/20240124135643/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4 | [yes](https://web.archive.org/web/20240124135643/https://web.archive.org/web/20240124135643/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4) | 2024-01-05-gpt-4-plus-cap-lowered |
 | error | fetch failed | https://web.archive.org/web/20240514003144/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4-gpt-4-turbo-and-gpt-4o | no | 2024-01-05-gpt-4-plus-cap-lowered |
 | error | fetch failed | https://web.archive.org/web/20250422014806/https://help.openai.com/en/articles/7730893-data-controls-faq | no | 2026-01-16-ad-principles |
 | error | fetch failed | https://web.archive.org/web/20250426002125/https://help.openai.com/en/articles/7730893-data-controls-faq | no | 2025-05-nyt-chat-preservation-order, 2026-01-16-ad-principles |
@@ -29,7 +28,7 @@ Checked 881 sources on 2026-11-02: 782 ok, 6 gone, 68 blocked (bot protection or
 | error | fetch failed | https://web.archive.org/web/20260210072027/https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance | no | 2026-01-16-ad-principles |
 | error | fetch failed | https://web.archive.org/web/20260610032057/https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-55-in-chatgpt | no | 2026-06-chatgpt-pro-unlimited-allowances |
 | error | fetch failed | https://web.archive.org/web/20260623140401/https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt | no | 2026-06-chatgpt-pro-unlimited-allowances |
-| error | fetch failed | https://web.archive.org/web/20261005015841/https://chatgpt.com/pricing/ | no | 2026-06-chatgpt-pro-unlimited-allowances |
+| error | timeout | https://web.archive.org/web/20261005015841/https://chatgpt.com/pricing/ | no | 2026-06-chatgpt-pro-unlimited-allowances |
 | error | 406 | https://www.cbsnews.com/news/openai-sam-altman-ousted-board-no-confidence-mira-murati/ | [yes](https://web.archive.org/web/20251207075800/https://www.cbsnews.com/news/openai-sam-altman-ousted-board-no-confidence-mira-murati/) | 2023-11-17-board-not-consistently-candid |
 | error | 406 | https://www.euronews.com/next/2026/04/27/openai-just-changed-its-principals-heres-whats-changing | [yes](https://web.archive.org/web/20260831142814/https://www.euronews.com/next/2026/04/27/openai-just-changed-its-principals-heres-whats-changing) | 2026-04-26-principles-replace-charter |
 | error | timeout | https://www.washingtonpost.com/opinions/2024/07/25/sam-altman-ai-democracy-authoritarianism-future/ | [yes](https://web.archive.org/web/20260904163224/https://www.washingtonpost.com/opinions/2024/07/25/sam-altman-ai-democracy-authoritarianism-future/) | 2024-07-25-altman-democratic-ai-op-ed |
@@ -58,6 +57,7 @@ Checked 881 sources on 2026-11-02: 782 ok, 6 gone, 68 blocked (bot protection or
 | blocked | 403 | https://stevenadler.substack.com/p/what-i-learned-from-the-nyts-reporting | no | 2025-04-29-gpt-4o-sycophancy-rollback |
 | blocked | 403 | https://tech.slashdot.org/story/23/04/07/129232/inside-google-backed-anthropics-5b-4-year-plan-to-take-on-openai | [yes](https://web.archive.org/web/20261003115534/https://tech.slashdot.org/story/23/04/07/129232/inside-google-backed-anthropics-5b-4-year-plan-to-take-on-openai) | 2023-04-pitch-deck-frontier-model |
 | blocked | 403 | https://thehill.com/homenews/administration/6118906-tech-ceos-sign-white-house-ai-accord/ | no | 2026-09-12-pace-the-frontier-embedded-evaluators, 2026-09-29-anthropic-white-house-accord, 2026-09-29-white-house-accord |
+| blocked | 403 | https://thehill.com/policy/technology/5334913-anthropic-ceo-ai-regulation-donald-trump-gop-megabill/ | no | 2024-08-21-anthropic-sb-1047-sb-53 |
 | blocked | 403 | https://thehill.com/policy/technology/5413466-openai-upgrades-ai-safeguards/ | no | 2025-07-17-chatgpt-agent-high-bio |
 | blocked | 403 | https://thehill.com/policy/technology/5918733-openai-anthropic-ai-regulation/ | no | 2024-08-21-anthropic-sb-1047-sb-53, 2023-02-24-independent-audits-before-release, 2025-03-13-ostp-preemption-request |
 | blocked | 403 | https://thehill.com/policy/technology/6038415-openai-pauses-ai-training/ | no | 2026-08-18-altman-pause-act-unilaterally |
@@ -379,7 +379,6 @@ Checked 881 sources on 2026-11-02: 782 ok, 6 gone, 68 blocked (bot protection or
 | ok | 200 | https://thehackernews.com/2024/12/italy-fines-openai-15-million-for.html | no | 2024-12-20-italy-privacy-fine |
 | ok | 200 | https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html | no | 2026-06-12-fable-5-export-control-suspension |
 | ok | 200 | https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html | no | 2026-09-04-wiki-incident |
-| ok | 200 | https://thehill.com/policy/technology/5334913-anthropic-ceo-ai-regulation-donald-trump-gop-megabill/ | no | 2024-08-21-anthropic-sb-1047-sb-53 |
 | ok | 200 | https://theintercept.com/2024/01/12/open-ai-military-ban-chatgpt/ | [yes](https://web.archive.org/web/20260929213937/https://theintercept.com/2024/01/12/open-ai-military-ban-chatgpt/) | 2024-01-10-military-ban-removed, 2025-06-16-defense-contract-200m |
 | ok | 200 | https://theintercept.com/2026/03/08/openai-anthropic-military-contract-ethics-surveillance/ | [yes](https://web.archive.org/web/20260929223225/https://theintercept.com/2026/03/08/openai-anthropic-military-contract-ethics-surveillance/) | 2026-02-27-pentagon-classified-deal, 2026-03-02-pentagon-surveillance-prohibition |
 | ok | 200 | https://theintercept.com/2026/09/08/pentagon-openai-military-contract/ | no | 2026-02-27-pentagon-classified-deal |
@@ -389,12 +388,13 @@ Checked 881 sources on 2026-11-02: 782 ok, 6 gone, 68 blocked (bot protection or
 | ok | 200 | https://thezvi.wordpress.com/2026/09/08/astra-is-hard-to-monitor/ | no | 2025-03-10-cot-optimization-pressure |
 | ok | 200 | https://time.com/6288245/openai-eu-lobbying-ai-act/ | no | 2023-06-20-eu-ai-act-lobbying |
 | ok | 200 | https://time.com/6342827/ceo-of-the-year-2023-sam-altman/ | no | 2023-06-altman-board-can-fire-me |
-| ok | 200 | https://time.com/7327946/chatgpt-openai-suicide-adam-raine-lawsuit/ | no | 2025-08-26-raine-lawsuit-safeguards-degrade |
-| ok | 200 | https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/ | [yes](https://web.archive.org/web/20260928021612/https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/) | 2026-02-24-rsp-v3-drops-pause, 2026-09-12-pace-the-frontier-embedded-evaluators |
-| ok | 200 | https://time.com/collections/time100-companies-2024/6980000/anthropic-2/ | [yes](https://web.archive.org/web/20260927040831/https://time.com/collections/time100-companies-2024/6980000/anthropic-2/) | 2023-03-08-core-views-no-capabilities-acceleration |
 | ok | 200 | https://transcripts.cnn.com/show/acd/date/2026-06-04/segment/01 | no | 2026-02-24-rsp-v3-drops-pause |
 | ok | 200 | https://vc.ru/chatgpt/2708037-openai-town-hall-klyuchevye-momenty | no | 2026-01-26-altman-100x-cheaper-by-2027 |
 | ok | 200 | https://virtualizationreview.com/articles/2026/09/28/openai-to-retire-custom-gpts-replace-them-with-plugins.aspx | [yes](https://web.archive.org/web/20261003132911/https://virtualizationreview.com/articles/2026/09/28/openai-to-retire-custom-gpts-replace-them-with-plugins.aspx) | 2023-11-06-gpt-store-make-money |
+| ok | 200 | https://web.archive.org/web/20230425181457/https://help.openai.com/en/articles/7730893-data-controls-faq | [yes](https://web.archive.org/web/20230425181457/https://web.archive.org/web/20230425181457/https://help.openai.com/en/articles/7730893-data-controls-faq) | 2026-01-16-ad-principles |
+| ok | 200 | https://web.archive.org/web/20240105064512/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4 | no | 2024-01-05-gpt-4-plus-cap-lowered |
+| ok | 200 | https://web.archive.org/web/20240106091424/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4 | no | 2024-01-05-gpt-4-plus-cap-lowered |
+| ok | 200 | https://web.archive.org/web/20240124135643/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4 | [yes](https://web.archive.org/web/20240124135643/https://web.archive.org/web/20240124135643/https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4) | 2024-01-05-gpt-4-plus-cap-lowered |
 | ok | 200 | https://web.archive.org/web/20240402062744/https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage | no | 2024-04-claude-pro-allowance-lowered |
 | ok | 200 | https://web.archive.org/web/20240405190601/https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage | [yes](https://web.archive.org/web/20240405190601/https://web.archive.org/web/20240405190601/https://support.anthropic.com/en/articles/8324991-about-claude-pro-usage) | 2024-04-claude-pro-allowance-lowered |
 | ok | 200 | https://web.archive.org/web/20241008222204/https://docs.anthropic.com/en/docs/about-claude/models | [yes](https://web.archive.org/web/20261003074745/https://web.archive.org/web/20241008222204/https://docs.anthropic.com/en/docs/about-claude/models) | 2024-06-20-claude-3-5-opus-later-this-year |
